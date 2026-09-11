@@ -48,7 +48,7 @@ an `.exe` can say.
 ## Develop
 
 ```bash
-npm test                 # node --test
+npm test                 # node --test (auto-discovers tests/*.test.js)
 npm run validate         # content-bank + theme checks (Spec 6.4)
 npm run gap-check        # would a real player's obvious guesses be accepted?
 npm run score-report     # what the bank does to the scoring curve
