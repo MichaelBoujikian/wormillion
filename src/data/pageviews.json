@@ -1,0 +1,6598 @@
+{
+ "window": "60 days ending 2026-09-11",
+ "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
+ "days": 60,
+ "fetched": "2026-09-11T02:54:38.556Z",
+ "entries": {
+  "country-nigeria": {
+   "title": "Nigeria",
+   "monthlyViews": 158805,
+   "days": 60
+  },
+  "country-ethiopia": {
+   "title": "Ethiopia",
+   "monthlyViews": 136736,
+   "days": 60
+  },
+  "country-egypt": {
+   "title": "Egypt",
+   "monthlyViews": 161789,
+   "days": 60
+  },
+  "country-democratic-republic-of-the-congo": {
+   "title": "Democratic Republic of the Congo",
+   "monthlyViews": 152900,
+   "days": 59
+  },
+  "country-tanzania": {
+   "title": "Tanzania",
+   "monthlyViews": 112932,
+   "days": 60
+  },
+  "country-south-africa": {
+   "title": "South Africa",
+   "monthlyViews": 209945,
+   "days": 60
+  },
+  "country-kenya": {
+   "title": "Kenya",
+   "monthlyViews": 92416,
+   "days": 60
+  },
+  "country-uganda": {
+   "title": "Uganda",
+   "monthlyViews": 95916,
+   "days": 59
+  },
+  "country-sudan": {
+   "title": "Sudan",
+   "monthlyViews": 95308,
+   "days": 60
+  },
+  "country-algeria": {
+   "title": "Algeria",
+   "monthlyViews": 135945,
+   "days": 60
+  },
+  "country-morocco": {
+   "title": "Morocco",
+   "monthlyViews": 179596,
+   "days": 60
+  },
+  "country-angola": {
+   "title": "Angola",
+   "monthlyViews": 79966,
+   "days": 60
+  },
+  "country-ghana": {
+   "title": "Ghana",
+   "monthlyViews": 112689,
+   "days": 60
+  },
+  "country-mozambique": {
+   "title": "Mozambique",
+   "monthlyViews": 71869,
+   "days": 60
+  },
+  "country-madagascar": {
+   "title": "Madagascar",
+   "monthlyViews": 111897,
+   "days": 59
+  },
+  "country-ivory-coast": {
+   "title": "Ivory Coast",
+   "monthlyViews": 82584,
+   "days": 60
+  },
+  "country-cameroon": {
+   "title": "Cameroon",
+   "monthlyViews": 77805,
+   "days": 59
+  },
+  "country-niger": {
+   "title": "Niger",
+   "monthlyViews": 70225,
+   "days": 60
+  },
+  "country-mali": {
+   "title": "Mali",
+   "monthlyViews": 77287,
+   "days": 60
+  },
+  "country-burkina-faso": {
+   "title": "Burkina Faso",
+   "monthlyViews": 128609,
+   "days": 60
+  },
+  "country-malawi": {
+   "title": "Malawi",
+   "monthlyViews": 53422,
+   "days": 60
+  },
+  "country-zambia": {
+   "title": "Zambia",
+   "monthlyViews": 72752,
+   "days": 60
+  },
+  "country-chad": {
+   "title": "Chad",
+   "monthlyViews": 61671,
+   "days": 60
+  },
+  "country-somalia": {
+   "title": "Somalia",
+   "monthlyViews": 96891,
+   "days": 59
+  },
+  "country-senegal": {
+   "title": "Senegal",
+   "monthlyViews": 72995,
+   "days": 60
+  },
+  "country-zimbabwe": {
+   "title": "Zimbabwe",
+   "monthlyViews": 115307,
+   "days": 60
+  },
+  "country-guinea": {
+   "title": "Guinea",
+   "monthlyViews": 54092,
+   "days": 59
+  },
+  "country-rwanda": {
+   "title": "Rwanda",
+   "monthlyViews": 89676,
+   "days": 59
+  },
+  "country-benin": {
+   "title": "Benin",
+   "monthlyViews": 65568,
+   "days": 60
+  },
+  "country-burundi": {
+   "title": "Burundi",
+   "monthlyViews": 57166,
+   "days": 60
+  },
+  "country-tunisia": {
+   "title": "Tunisia",
+   "monthlyViews": 98930,
+   "days": 60
+  },
+  "country-south-sudan": {
+   "title": "South Sudan",
+   "monthlyViews": 81488,
+   "days": 60
+  },
+  "country-togo": {
+   "title": "Togo",
+   "monthlyViews": 47882,
+   "days": 59
+  },
+  "country-sierra-leone": {
+   "title": "Sierra Leone",
+   "monthlyViews": 67759,
+   "days": 60
+  },
+  "country-libya": {
+   "title": "Libya",
+   "monthlyViews": 100148,
+   "days": 60
+  },
+  "country-republic-of-the-congo": {
+   "title": "Republic of the Congo",
+   "monthlyViews": 51596,
+   "days": 60
+  },
+  "country-central-african-republic": {
+   "title": "Central African Republic",
+   "monthlyViews": 69829,
+   "days": 60
+  },
+  "country-liberia": {
+   "title": "Liberia",
+   "monthlyViews": 103039,
+   "days": 60
+  },
+  "country-mauritania": {
+   "title": "Mauritania",
+   "monthlyViews": 93847,
+   "days": 60
+  },
+  "country-eritrea": {
+   "title": "Eritrea",
+   "monthlyViews": 108701,
+   "days": 60
+  },
+  "country-gambia": {
+   "title": "The Gambia",
+   "monthlyViews": 59358,
+   "days": 60
+  },
+  "country-botswana": {
+   "title": "Botswana",
+   "monthlyViews": 71321,
+   "days": 60
+  },
+  "country-namibia": {
+   "title": "Namibia",
+   "monthlyViews": 104196,
+   "days": 59
+  },
+  "country-gabon": {
+   "title": "Gabon",
+   "monthlyViews": 55614,
+   "days": 60
+  },
+  "country-lesotho": {
+   "title": "Lesotho",
+   "monthlyViews": 68673,
+   "days": 60
+  },
+  "country-guinea-bissau": {
+   "title": "Guinea-Bissau",
+   "monthlyViews": 45447,
+   "days": 60
+  },
+  "country-equatorial-guinea": {
+   "title": "Equatorial Guinea",
+   "monthlyViews": 78931,
+   "days": 59
+  },
+  "country-mauritius": {
+   "title": "Mauritius",
+   "monthlyViews": 187206,
+   "days": 60
+  },
+  "country-eswatini": {
+   "title": "Eswatini",
+   "monthlyViews": 104440,
+   "days": 59
+  },
+  "country-djibouti": {
+   "title": "Djibouti",
+   "monthlyViews": 60880,
+   "days": 60
+  },
+  "country-comoros": {
+   "title": "Comoros",
+   "monthlyViews": 50774,
+   "days": 60
+  },
+  "country-cape-verde": {
+   "title": "Cape Verde",
+   "monthlyViews": 151804,
+   "days": 60
+  },
+  "country-sao-tome-and-principe": {
+   "title": "São Tomé and Príncipe",
+   "monthlyViews": 51048,
+   "days": 60
+  },
+  "country-seychelles": {
+   "title": "Seychelles",
+   "monthlyViews": 109340,
+   "days": 60
+  },
+  "country-india": {
+   "title": "India",
+   "monthlyViews": 534983,
+   "days": 59
+  },
+  "country-china": {
+   "title": "China",
+   "monthlyViews": 352404,
+   "days": 59
+  },
+  "country-indonesia": {
+   "title": "Indonesia",
+   "monthlyViews": 241907,
+   "days": 59
+  },
+  "country-pakistan": {
+   "title": "Pakistan",
+   "monthlyViews": 236458,
+   "days": 60
+  },
+  "country-bangladesh": {
+   "title": "Bangladesh",
+   "monthlyViews": 197251,
+   "days": 59
+  },
+  "country-japan": {
+   "title": "Japan",
+   "monthlyViews": 298647,
+   "days": 60
+  },
+  "country-philippines": {
+   "title": "Philippines",
+   "monthlyViews": 238954,
+   "days": 60
+  },
+  "country-vietnam": {
+   "title": "Vietnam",
+   "monthlyViews": 186415,
+   "days": 60
+  },
+  "country-iran": {
+   "title": "Iran",
+   "monthlyViews": 268755,
+   "days": 60
+  },
+  "country-turkey": {
+   "title": "Turkey",
+   "monthlyViews": 273534,
+   "days": 60
+  },
+  "country-thailand": {
+   "title": "Thailand",
+   "monthlyViews": 161058,
+   "days": 59
+  },
+  "country-myanmar": {
+   "title": "Myanmar",
+   "monthlyViews": 170312,
+   "days": 60
+  },
+  "country-south-korea": {
+   "title": "South Korea",
+   "monthlyViews": 176400,
+   "days": 60
+  },
+  "country-iraq": {
+   "title": "Iraq",
+   "monthlyViews": 109706,
+   "days": 60
+  },
+  "country-afghanistan": {
+   "title": "Afghanistan",
+   "monthlyViews": 187723,
+   "days": 60
+  },
+  "country-saudi-arabia": {
+   "title": "Saudi Arabia",
+   "monthlyViews": 195120,
+   "days": 60
+  },
+  "country-uzbekistan": {
+   "title": "Uzbekistan",
+   "monthlyViews": 134575,
+   "days": 59
+  },
+  "country-yemen": {
+   "title": "Yemen",
+   "monthlyViews": 114059,
+   "days": 59
+  },
+  "country-malaysia": {
+   "title": "Malaysia",
+   "monthlyViews": 198134,
+   "days": 59
+  },
+  "country-nepal": {
+   "title": "Nepal",
+   "monthlyViews": 135184,
+   "days": 59
+  },
+  "country-north-korea": {
+   "title": "North Korea",
+   "monthlyViews": 193568,
+   "days": 60
+  },
+  "country-taiwan": {
+   "title": "Taiwan",
+   "monthlyViews": 238802,
+   "days": 60
+  },
+  "country-syria": {
+   "title": "Syria",
+   "monthlyViews": 147390,
+   "days": 59
+  },
+  "country-sri-lanka": {
+   "title": "Sri Lanka",
+   "monthlyViews": 179687,
+   "days": 59
+  },
+  "country-kazakhstan": {
+   "title": "Kazakhstan",
+   "monthlyViews": 198012,
+   "days": 60
+  },
+  "country-cambodia": {
+   "title": "Cambodia",
+   "monthlyViews": 105018,
+   "days": 60
+  },
+  "country-jordan": {
+   "title": "Jordan",
+   "monthlyViews": 107271,
+   "days": 59
+  },
+  "country-azerbaijan": {
+   "title": "Azerbaijan",
+   "monthlyViews": 130527,
+   "days": 60
+  },
+  "country-tajikistan": {
+   "title": "Tajikistan",
+   "monthlyViews": 86510,
+   "days": 60
+  },
+  "country-israel": {
+   "title": "Israel",
+   "monthlyViews": 298434,
+   "days": 59
+  },
+  "country-united-arab-emirates": {
+   "title": "United Arab Emirates",
+   "monthlyViews": 185349,
+   "days": 59
+  },
+  "country-laos": {
+   "title": "Laos",
+   "monthlyViews": 91898,
+   "days": 60
+  },
+  "country-kyrgyzstan": {
+   "title": "Kyrgyzstan",
+   "monthlyViews": 134362,
+   "days": 60
+  },
+  "country-turkmenistan": {
+   "title": "Turkmenistan",
+   "monthlyViews": 106449,
+   "days": 60
+  },
+  "country-singapore": {
+   "title": "Singapore",
+   "monthlyViews": 313684,
+   "days": 60
+  },
+  "country-lebanon": {
+   "title": "Lebanon",
+   "monthlyViews": 128609,
+   "days": 60
+  },
+  "country-palestine": {
+   "title": "Palestine",
+   "monthlyViews": 159627,
+   "days": 60
+  },
+  "country-oman": {
+   "title": "Oman",
+   "monthlyViews": 108701,
+   "days": 60
+  },
+  "country-kuwait": {
+   "title": "Kuwait",
+   "monthlyViews": 89007,
+   "days": 59
+  },
+  "country-georgia": {
+   "title": "Georgia (country)",
+   "monthlyViews": 175943,
+   "days": 60
+  },
+  "country-mongolia": {
+   "title": "Mongolia",
+   "monthlyViews": 124500,
+   "days": 60
+  },
+  "country-armenia": {
+   "title": "Armenia",
+   "monthlyViews": 161149,
+   "days": 59
+  },
+  "country-qatar": {
+   "title": "Qatar",
+   "monthlyViews": 100422,
+   "days": 60
+  },
+  "country-bahrain": {
+   "title": "Bahrain",
+   "monthlyViews": 101791,
+   "days": 59
+  },
+  "country-timor-leste": {
+   "title": "Timor-Leste",
+   "monthlyViews": 84197,
+   "days": 59
+  },
+  "country-bhutan": {
+   "title": "Bhutan",
+   "monthlyViews": 109067,
+   "days": 60
+  },
+  "country-maldives": {
+   "title": "Maldives",
+   "monthlyViews": 129553,
+   "days": 60
+  },
+  "country-brunei": {
+   "title": "Brunei",
+   "monthlyViews": 110375,
+   "days": 59
+  },
+  "country-russia": {
+   "title": "Russia",
+   "monthlyViews": 316059,
+   "days": 60
+  },
+  "country-germany": {
+   "title": "Germany",
+   "monthlyViews": 354230,
+   "days": 60
+  },
+  "country-france": {
+   "title": "France",
+   "monthlyViews": 250856,
+   "days": 60
+  },
+  "country-united-kingdom": {
+   "title": "United Kingdom",
+   "monthlyViews": 508348,
+   "days": 59
+  },
+  "country-italy": {
+   "title": "Italy",
+   "monthlyViews": 210432,
+   "days": 60
+  },
+  "country-spain": {
+   "title": "Spain",
+   "monthlyViews": 249852,
+   "days": 60
+  },
+  "country-ukraine": {
+   "title": "Ukraine",
+   "monthlyViews": 183005,
+   "days": 60
+  },
+  "country-poland": {
+   "title": "Poland",
+   "monthlyViews": 201117,
+   "days": 60
+  },
+  "country-romania": {
+   "title": "Romania",
+   "monthlyViews": 144346,
+   "days": 60
+  },
+  "country-netherlands": {
+   "title": "Netherlands",
+   "monthlyViews": 221390,
+   "days": 60
+  },
+  "country-belgium": {
+   "title": "Belgium",
+   "monthlyViews": 149308,
+   "days": 59
+  },
+  "country-sweden": {
+   "title": "Sweden",
+   "monthlyViews": 164102,
+   "days": 59
+  },
+  "country-czechia": {
+   "title": "Czech Republic",
+   "monthlyViews": 193050,
+   "days": 59
+  },
+  "country-greece": {
+   "title": "Greece",
+   "monthlyViews": 163402,
+   "days": 60
+  },
+  "country-portugal": {
+   "title": "Portugal",
+   "monthlyViews": 163037,
+   "days": 59
+  },
+  "country-hungary": {
+   "title": "Hungary",
+   "monthlyViews": 126722,
+   "days": 60
+  },
+  "country-belarus": {
+   "title": "Belarus",
+   "monthlyViews": 133723,
+   "days": 60
+  },
+  "country-austria": {
+   "title": "Austria",
+   "monthlyViews": 135610,
+   "days": 60
+  },
+  "country-switzerland": {
+   "title": "Switzerland",
+   "monthlyViews": 191772,
+   "days": 60
+  },
+  "country-serbia": {
+   "title": "Serbia",
+   "monthlyViews": 152109,
+   "days": 59
+  },
+  "country-bulgaria": {
+   "title": "Bulgaria",
+   "monthlyViews": 125687,
+   "days": 59
+  },
+  "country-denmark": {
+   "title": "Denmark",
+   "monthlyViews": 142033,
+   "days": 60
+  },
+  "country-slovakia": {
+   "title": "Slovakia",
+   "monthlyViews": 113785,
+   "days": 60
+  },
+  "country-finland": {
+   "title": "Finland",
+   "monthlyViews": 140176,
+   "days": 60
+  },
+  "country-norway": {
+   "title": "Norway",
+   "monthlyViews": 179018,
+   "days": 60
+  },
+  "country-ireland": {
+   "title": "Ireland",
+   "monthlyViews": 149947,
+   "days": 60
+  },
+  "country-croatia": {
+   "title": "Croatia",
+   "monthlyViews": 170829,
+   "days": 59
+  },
+  "country-moldova": {
+   "title": "Moldova",
+   "monthlyViews": 94242,
+   "days": 60
+  },
+  "country-bosnia-and-herzegovina": {
+   "title": "Bosnia and Herzegovina",
+   "monthlyViews": 150191,
+   "days": 60
+  },
+  "country-albania": {
+   "title": "Albania",
+   "monthlyViews": 167024,
+   "days": 60
+  },
+  "country-lithuania": {
+   "title": "Lithuania",
+   "monthlyViews": 130557,
+   "days": 60
+  },
+  "country-slovenia": {
+   "title": "Slovenia",
+   "monthlyViews": 128122,
+   "days": 60
+  },
+  "country-north-macedonia": {
+   "title": "North Macedonia",
+   "monthlyViews": 124621,
+   "days": 59
+  },
+  "country-latvia": {
+   "title": "Latvia",
+   "monthlyViews": 106388,
+   "days": 60
+  },
+  "country-kosovo": {
+   "title": "Kosovo",
+   "monthlyViews": 159384,
+   "days": 60
+  },
+  "country-estonia": {
+   "title": "Estonia",
+   "monthlyViews": 113998,
+   "days": 59
+  },
+  "country-cyprus": {
+   "title": "Cyprus",
+   "monthlyViews": 180814,
+   "days": 60
+  },
+  "country-luxembourg": {
+   "title": "Luxembourg",
+   "monthlyViews": 130314,
+   "days": 60
+  },
+  "country-montenegro": {
+   "title": "Montenegro",
+   "monthlyViews": 159384,
+   "days": 60
+  },
+  "country-malta": {
+   "title": "Malta",
+   "monthlyViews": 228757,
+   "days": 59
+  },
+  "country-iceland": {
+   "title": "Iceland",
+   "monthlyViews": 161302,
+   "days": 60
+  },
+  "country-andorra": {
+   "title": "Andorra",
+   "monthlyViews": 114211,
+   "days": 60
+  },
+  "country-liechtenstein": {
+   "title": "Liechtenstein",
+   "monthlyViews": 127848,
+   "days": 59
+  },
+  "country-monaco": {
+   "title": "Monaco",
+   "monthlyViews": 194146,
+   "days": 60
+  },
+  "country-san-marino": {
+   "title": "San Marino",
+   "monthlyViews": 90924,
+   "days": 60
+  },
+  "country-vatican-city": {
+   "title": "Vatican City",
+   "monthlyViews": 104592,
+   "days": 60
+  },
+  "country-united-states": {
+   "title": "United States",
+   "monthlyViews": 1527571,
+   "days": 60
+  },
+  "country-mexico": {
+   "title": "Mexico",
+   "monthlyViews": 220690,
+   "days": 60
+  },
+  "country-canada": {
+   "title": "Canada",
+   "monthlyViews": 353804,
+   "days": 60
+  },
+  "country-guatemala": {
+   "title": "Guatemala",
+   "monthlyViews": 77044,
+   "days": 59
+  },
+  "country-haiti": {
+   "title": "Haiti",
+   "monthlyViews": 103466,
+   "days": 60
+  },
+  "country-dominican-republic": {
+   "title": "Dominican Republic",
+   "monthlyViews": 109980,
+   "days": 60
+  },
+  "country-cuba": {
+   "title": "Cuba",
+   "monthlyViews": 118990,
+   "days": 60
+  },
+  "country-honduras": {
+   "title": "Honduras",
+   "monthlyViews": 61793,
+   "days": 60
+  },
+  "country-nicaragua": {
+   "title": "Nicaragua",
+   "monthlyViews": 76617,
+   "days": 60
+  },
+  "country-el-salvador": {
+   "title": "El Salvador",
+   "monthlyViews": 91929,
+   "days": 60
+  },
+  "country-costa-rica": {
+   "title": "Costa Rica",
+   "monthlyViews": 78535,
+   "days": 60
+  },
+  "country-panama": {
+   "title": "Panama",
+   "monthlyViews": 68460,
+   "days": 60
+  },
+  "country-jamaica": {
+   "title": "Jamaica",
+   "monthlyViews": 100148,
+   "days": 60
+  },
+  "country-trinidad-and-tobago": {
+   "title": "Trinidad and Tobago",
+   "monthlyViews": 88428,
+   "days": 60
+  },
+  "country-belize": {
+   "title": "Belize",
+   "monthlyViews": 93177,
+   "days": 59
+  },
+  "country-bahamas": {
+   "title": "The Bahamas",
+   "monthlyViews": 96221,
+   "days": 60
+  },
+  "country-barbados": {
+   "title": "Barbados",
+   "monthlyViews": 87911,
+   "days": 59
+  },
+  "country-saint-lucia": {
+   "title": "Saint Lucia",
+   "monthlyViews": 57684,
+   "days": 60
+  },
+  "country-grenada": {
+   "title": "Grenada",
+   "monthlyViews": 62372,
+   "days": 60
+  },
+  "country-saint-vincent-and-the-grenadines": {
+   "title": "Saint Vincent and the Grenadines",
+   "monthlyViews": 42038,
+   "days": 59
+  },
+  "country-antigua-and-barbuda": {
+   "title": "Antigua and Barbuda",
+   "monthlyViews": 40881,
+   "days": 60
+  },
+  "country-dominica": {
+   "title": "Dominica",
+   "monthlyViews": 58384,
+   "days": 60
+  },
+  "country-saint-kitts-and-nevis": {
+   "title": "Saint Kitts and Nevis",
+   "monthlyViews": 53757,
+   "days": 59
+  },
+  "country-brazil": {
+   "title": "Brazil",
+   "monthlyViews": 249669,
+   "days": 60
+  },
+  "country-colombia": {
+   "title": "Colombia",
+   "monthlyViews": 156401,
+   "days": 60
+  },
+  "country-argentina": {
+   "title": "Argentina",
+   "monthlyViews": 198043,
+   "days": 60
+  },
+  "country-peru": {
+   "title": "Peru",
+   "monthlyViews": 103587,
+   "days": 60
+  },
+  "country-venezuela": {
+   "title": "Venezuela",
+   "monthlyViews": 107788,
+   "days": 60
+  },
+  "country-chile": {
+   "title": "Chile",
+   "monthlyViews": 111045,
+   "days": 60
+  },
+  "country-ecuador": {
+   "title": "Ecuador",
+   "monthlyViews": 75552,
+   "days": 60
+  },
+  "country-bolivia": {
+   "title": "Bolivia",
+   "monthlyViews": 84288,
+   "days": 60
+  },
+  "country-paraguay": {
+   "title": "Paraguay",
+   "monthlyViews": 64989,
+   "days": 60
+  },
+  "country-uruguay": {
+   "title": "Uruguay",
+   "monthlyViews": 87515,
+   "days": 60
+  },
+  "country-guyana": {
+   "title": "Guyana",
+   "monthlyViews": 131805,
+   "days": 60
+  },
+  "country-suriname": {
+   "title": "Suriname",
+   "monthlyViews": 99478,
+   "days": 60
+  },
+  "country-australia": {
+   "title": "Australia",
+   "monthlyViews": 420468,
+   "days": 59
+  },
+  "country-papua-new-guinea": {
+   "title": "Papua New Guinea",
+   "monthlyViews": 112598,
+   "days": 60
+  },
+  "country-new-zealand": {
+   "title": "New Zealand",
+   "monthlyViews": 213871,
+   "days": 60
+  },
+  "country-fiji": {
+   "title": "Fiji",
+   "monthlyViews": 102218,
+   "days": 59
+  },
+  "country-solomon-islands": {
+   "title": "Solomon Islands",
+   "monthlyViews": 49800,
+   "days": 59
+  },
+  "country-vanuatu": {
+   "title": "Vanuatu",
+   "monthlyViews": 82340,
+   "days": 60
+  },
+  "country-samoa": {
+   "title": "Samoa",
+   "monthlyViews": 67364,
+   "days": 60
+  },
+  "country-kiribati": {
+   "title": "Kiribati",
+   "monthlyViews": 107453,
+   "days": 60
+  },
+  "country-micronesia": {
+   "title": "Federated States of Micronesia",
+   "monthlyViews": 38872,
+   "days": 59
+  },
+  "country-tonga": {
+   "title": "Tonga",
+   "monthlyViews": 59723,
+   "days": 60
+  },
+  "country-marshall-islands": {
+   "title": "Marshall Islands",
+   "monthlyViews": 56405,
+   "days": 60
+  },
+  "country-palau": {
+   "title": "Palau",
+   "monthlyViews": 66390,
+   "days": 60
+  },
+  "country-nauru": {
+   "title": "Nauru",
+   "monthlyViews": 123617,
+   "days": 60
+  },
+  "country-tuvalu": {
+   "title": "Tuvalu",
+   "monthlyViews": 61367,
+   "days": 60
+  },
+  "capital-abuja": {
+   "title": "Abuja",
+   "monthlyViews": 23287,
+   "days": 60
+  },
+  "capital-addis-ababa": {
+   "title": "Addis Ababa",
+   "monthlyViews": 43529,
+   "days": 60
+  },
+  "capital-cairo": {
+   "title": "Cairo",
+   "monthlyViews": 53057,
+   "days": 60
+  },
+  "capital-kinshasa": {
+   "title": "Kinshasa",
+   "monthlyViews": 49191,
+   "days": 59
+  },
+  "capital-dodoma": {
+   "title": "Dodoma",
+   "monthlyViews": 10258,
+   "days": 60
+  },
+  "capital-pretoria": {
+   "title": "Pretoria",
+   "monthlyViews": 35402,
+   "days": 60
+  },
+  "capital-nairobi": {
+   "title": "Nairobi",
+   "monthlyViews": 35950,
+   "days": 59
+  },
+  "capital-kampala": {
+   "title": "Kampala",
+   "monthlyViews": 29679,
+   "days": 60
+  },
+  "capital-khartoum": {
+   "title": "Khartoum",
+   "monthlyViews": 23378,
+   "days": 60
+  },
+  "capital-algiers": {
+   "title": "Algiers",
+   "monthlyViews": 29375,
+   "days": 60
+  },
+  "capital-rabat": {
+   "title": "Rabat",
+   "monthlyViews": 24565,
+   "days": 60
+  },
+  "capital-luanda": {
+   "title": "Luanda",
+   "monthlyViews": 20486,
+   "days": 59
+  },
+  "capital-accra": {
+   "title": "Accra",
+   "monthlyViews": 23043,
+   "days": 60
+  },
+  "capital-maputo": {
+   "title": "Maputo",
+   "monthlyViews": 12754,
+   "days": 60
+  },
+  "capital-antananarivo": {
+   "title": "Antananarivo",
+   "monthlyViews": 18142,
+   "days": 59
+  },
+  "capital-yamoussoukro": {
+   "title": "Yamoussoukro",
+   "monthlyViews": 7793,
+   "days": 60
+  },
+  "capital-yaounde": {
+   "title": "Yaoundé",
+   "monthlyViews": 11415,
+   "days": 60
+  },
+  "capital-niamey": {
+   "title": "Niamey",
+   "monthlyViews": 8554,
+   "days": 60
+  },
+  "capital-bamako": {
+   "title": "Bamako",
+   "monthlyViews": 13881,
+   "days": 59
+  },
+  "capital-ouagadougou": {
+   "title": "Ouagadougou",
+   "monthlyViews": 18416,
+   "days": 60
+  },
+  "capital-lilongwe": {
+   "title": "Lilongwe",
+   "monthlyViews": 6666,
+   "days": 60
+  },
+  "capital-lusaka": {
+   "title": "Lusaka",
+   "monthlyViews": 11689,
+   "days": 60
+  },
+  "capital-n-djamena": {
+   "title": "N'Djamena",
+   "monthlyViews": 11659,
+   "days": 60
+  },
+  "capital-mogadishu": {
+   "title": "Mogadishu",
+   "monthlyViews": 29466,
+   "days": 60
+  },
+  "capital-dakar": {
+   "title": "Dakar",
+   "monthlyViews": 21004,
+   "days": 60
+  },
+  "capital-harare": {
+   "title": "Harare",
+   "monthlyViews": 26057,
+   "days": 60
+  },
+  "capital-conakry": {
+   "title": "Conakry",
+   "monthlyViews": 10502,
+   "days": 60
+  },
+  "capital-kigali": {
+   "title": "Kigali",
+   "monthlyViews": 15311,
+   "days": 59
+  },
+  "capital-porto-novo": {
+   "title": "Porto-Novo",
+   "monthlyViews": 5844,
+   "days": 60
+  },
+  "capital-gitega": {
+   "title": "Gitega",
+   "monthlyViews": 4566,
+   "days": 60
+  },
+  "capital-tunis": {
+   "title": "Tunis",
+   "monthlyViews": 19786,
+   "days": 60
+  },
+  "capital-juba": {
+   "title": "Juba",
+   "monthlyViews": 11719,
+   "days": 60
+  },
+  "capital-lome": {
+   "title": "Lomé",
+   "monthlyViews": 7306,
+   "days": 60
+  },
+  "capital-freetown": {
+   "title": "Freetown",
+   "monthlyViews": 11872,
+   "days": 60
+  },
+  "capital-tripoli": {
+   "title": "Tripoli, Libya",
+   "monthlyViews": 23956,
+   "days": 60
+  },
+  "capital-brazzaville": {
+   "title": "Brazzaville",
+   "monthlyViews": 14124,
+   "days": 60
+  },
+  "capital-bangui": {
+   "title": "Bangui",
+   "monthlyViews": 12267,
+   "days": 60
+  },
+  "capital-monrovia": {
+   "title": "Monrovia",
+   "monthlyViews": 18629,
+   "days": 60
+  },
+  "capital-nouakchott": {
+   "title": "Nouakchott",
+   "monthlyViews": 13394,
+   "days": 59
+  },
+  "capital-asmara": {
+   "title": "Asmara",
+   "monthlyViews": 13911,
+   "days": 60
+  },
+  "capital-banjul": {
+   "title": "Banjul",
+   "monthlyViews": 7519,
+   "days": 59
+  },
+  "capital-gaborone": {
+   "title": "Gaborone",
+   "monthlyViews": 13028,
+   "days": 60
+  },
+  "capital-windhoek": {
+   "title": "Windhoek",
+   "monthlyViews": 22526,
+   "days": 60
+  },
+  "capital-libreville": {
+   "title": "Libreville",
+   "monthlyViews": 7519,
+   "days": 60
+  },
+  "capital-maseru": {
+   "title": "Maseru",
+   "monthlyViews": 6575,
+   "days": 59
+  },
+  "capital-bissau": {
+   "title": "Bissau",
+   "monthlyViews": 6027,
+   "days": 60
+  },
+  "capital-malabo": {
+   "title": "Malabo",
+   "monthlyViews": 8675,
+   "days": 60
+  },
+  "capital-port-louis": {
+   "title": "Port Louis",
+   "monthlyViews": 11171,
+   "days": 60
+  },
+  "capital-mbabane": {
+   "title": "Mbabane",
+   "monthlyViews": 8523,
+   "days": 60
+  },
+  "capital-djibouti-city": {
+   "title": "Djibouti City",
+   "monthlyViews": 5814,
+   "days": 59
+  },
+  "capital-moroni": {
+   "title": "Moroni, Comoros",
+   "monthlyViews": 5357,
+   "days": 60
+  },
+  "capital-praia": {
+   "title": "Praia",
+   "monthlyViews": 10228,
+   "days": 60
+  },
+  "capital-sao-tome": {
+   "title": "São Tomé",
+   "monthlyViews": 6758,
+   "days": 60
+  },
+  "capital-victoria": {
+   "title": "Victoria, Seychelles",
+   "monthlyViews": 7275,
+   "days": 60
+  },
+  "capital-new-delhi": {
+   "title": "New Delhi",
+   "monthlyViews": 57836,
+   "days": 60
+  },
+  "capital-beijing": {
+   "title": "Beijing",
+   "monthlyViews": 81153,
+   "days": 59
+  },
+  "capital-jakarta": {
+   "title": "Jakarta",
+   "monthlyViews": 87789,
+   "days": 60
+  },
+  "capital-islamabad": {
+   "title": "Islamabad",
+   "monthlyViews": 34793,
+   "days": 60
+  },
+  "capital-dhaka": {
+   "title": "Dhaka",
+   "monthlyViews": 46665,
+   "days": 60
+  },
+  "capital-tokyo": {
+   "title": "Tokyo",
+   "monthlyViews": 118746,
+   "days": 60
+  },
+  "capital-manila": {
+   "title": "Manila",
+   "monthlyViews": 50409,
+   "days": 60
+  },
+  "capital-hanoi": {
+   "title": "Hanoi",
+   "monthlyViews": 39298,
+   "days": 60
+  },
+  "capital-tehran": {
+   "title": "Tehran",
+   "monthlyViews": 40729,
+   "days": 60
+  },
+  "capital-ankara": {
+   "title": "Ankara",
+   "monthlyViews": 37259,
+   "days": 60
+  },
+  "capital-bangkok": {
+   "title": "Bangkok",
+   "monthlyViews": 69007,
+   "days": 60
+  },
+  "capital-naypyidaw": {
+   "title": "Naypyidaw",
+   "monthlyViews": 17777,
+   "days": 60
+  },
+  "capital-seoul": {
+   "title": "Seoul",
+   "monthlyViews": 65811,
+   "days": 60
+  },
+  "capital-baghdad": {
+   "title": "Baghdad",
+   "monthlyViews": 43986,
+   "days": 59
+  },
+  "capital-kabul": {
+   "title": "Kabul",
+   "monthlyViews": 30775,
+   "days": 60
+  },
+  "capital-riyadh": {
+   "title": "Riyadh",
+   "monthlyViews": 49465,
+   "days": 59
+  },
+  "capital-tashkent": {
+   "title": "Tashkent",
+   "monthlyViews": 37715,
+   "days": 59
+  },
+  "capital-sanaa": {
+   "title": "Sanaa",
+   "monthlyViews": 21247,
+   "days": 60
+  },
+  "capital-kuala-lumpur": {
+   "title": "Kuala Lumpur",
+   "monthlyViews": 64259,
+   "days": 60
+  },
+  "capital-kathmandu": {
+   "title": "Kathmandu",
+   "monthlyViews": 36437,
+   "days": 60
+  },
+  "capital-pyongyang": {
+   "title": "Pyongyang",
+   "monthlyViews": 39542,
+   "days": 60
+  },
+  "capital-taipei": {
+   "title": "Taipei",
+   "monthlyViews": 42890,
+   "days": 59
+  },
+  "capital-damascus": {
+   "title": "Damascus",
+   "monthlyViews": 49678,
+   "days": 60
+  },
+  "capital-colombo": {
+   "title": "Colombo",
+   "monthlyViews": 26513,
+   "days": 60
+  },
+  "capital-astana": {
+   "title": "Astana",
+   "monthlyViews": 35828,
+   "days": 60
+  },
+  "capital-phnom-penh": {
+   "title": "Phnom Penh",
+   "monthlyViews": 27700,
+   "days": 60
+  },
+  "capital-amman": {
+   "title": "Amman",
+   "monthlyViews": 23165,
+   "days": 60
+  },
+  "capital-baku": {
+   "title": "Baku",
+   "monthlyViews": 39298,
+   "days": 60
+  },
+  "capital-dushanbe": {
+   "title": "Dushanbe",
+   "monthlyViews": 16011,
+   "days": 60
+  },
+  "capital-jerusalem": {
+   "title": "Jerusalem",
+   "monthlyViews": 97225,
+   "days": 60
+  },
+  "capital-abu-dhabi": {
+   "title": "Abu Dhabi",
+   "monthlyViews": 49587,
+   "days": 60
+  },
+  "capital-vientiane": {
+   "title": "Vientiane",
+   "monthlyViews": 17259,
+   "days": 60
+  },
+  "capital-bishkek": {
+   "title": "Bishkek",
+   "monthlyViews": 21947,
+   "days": 60
+  },
+  "capital-ashgabat": {
+   "title": "Ashgabat",
+   "monthlyViews": 19603,
+   "days": 59
+  },
+  "capital-singapore-city": {
+   "title": "Singapore",
+   "monthlyViews": 313684,
+   "days": 60
+  },
+  "capital-beirut": {
+   "title": "Beirut",
+   "monthlyViews": 38172,
+   "days": 60
+  },
+  "capital-ramallah": {
+   "title": "Ramallah",
+   "monthlyViews": 18477,
+   "days": 60
+  },
+  "capital-muscat": {
+   "title": "Muscat",
+   "monthlyViews": 25783,
+   "days": 60
+  },
+  "capital-kuwait-city": {
+   "title": "Kuwait City",
+   "monthlyViews": 14155,
+   "days": 60
+  },
+  "capital-tbilisi": {
+   "title": "Tbilisi",
+   "monthlyViews": 46847,
+   "days": 59
+  },
+  "capital-ulaanbaatar": {
+   "title": "Ulaanbaatar",
+   "monthlyViews": 46391,
+   "days": 59
+  },
+  "capital-yerevan": {
+   "title": "Yerevan",
+   "monthlyViews": 33788,
+   "days": 60
+  },
+  "capital-doha": {
+   "title": "Doha",
+   "monthlyViews": 27579,
+   "days": 60
+  },
+  "capital-manama": {
+   "title": "Manama",
+   "monthlyViews": 11385,
+   "days": 60
+  },
+  "capital-dili": {
+   "title": "Dili",
+   "monthlyViews": 9619,
+   "days": 60
+  },
+  "capital-thimphu": {
+   "title": "Thimphu",
+   "monthlyViews": 13059,
+   "days": 60
+  },
+  "capital-male": {
+   "title": "Malé",
+   "monthlyViews": 15951,
+   "days": 60
+  },
+  "capital-bandar-seri-begawan": {
+   "title": "Bandar Seri Begawan",
+   "monthlyViews": 11567,
+   "days": 60
+  },
+  "capital-moscow": {
+   "title": "Moscow",
+   "monthlyViews": 83375,
+   "days": 60
+  },
+  "capital-berlin": {
+   "title": "Berlin",
+   "monthlyViews": 138532,
+   "days": 60
+  },
+  "capital-paris": {
+   "title": "Paris",
+   "monthlyViews": 155000,
+   "days": 60
+  },
+  "capital-london": {
+   "title": "London",
+   "monthlyViews": 213719,
+   "days": 60
+  },
+  "capital-rome": {
+   "title": "Rome",
+   "monthlyViews": 108306,
+   "days": 60
+  },
+  "capital-madrid": {
+   "title": "Madrid",
+   "monthlyViews": 76861,
+   "days": 60
+  },
+  "capital-kyiv": {
+   "title": "Kyiv",
+   "monthlyViews": 46147,
+   "days": 60
+  },
+  "capital-warsaw": {
+   "title": "Warsaw",
+   "monthlyViews": 65142,
+   "days": 60
+  },
+  "capital-bucharest": {
+   "title": "Bucharest",
+   "monthlyViews": 42646,
+   "days": 60
+  },
+  "capital-amsterdam": {
+   "title": "Amsterdam",
+   "monthlyViews": 88793,
+   "days": 59
+  },
+  "capital-brussels": {
+   "title": "Brussels",
+   "monthlyViews": 49861,
+   "days": 60
+  },
+  "capital-stockholm": {
+   "title": "Stockholm",
+   "monthlyViews": 59784,
+   "days": 60
+  },
+  "capital-prague": {
+   "title": "Prague",
+   "monthlyViews": 89433,
+   "days": 60
+  },
+  "capital-athens": {
+   "title": "Athens",
+   "monthlyViews": 75978,
+   "days": 60
+  },
+  "capital-lisbon": {
+   "title": "Lisbon",
+   "monthlyViews": 58901,
+   "days": 60
+  },
+  "capital-budapest": {
+   "title": "Budapest",
+   "monthlyViews": 75035,
+   "days": 60
+  },
+  "capital-minsk": {
+   "title": "Minsk",
+   "monthlyViews": 30318,
+   "days": 60
+  },
+  "capital-vienna": {
+   "title": "Vienna",
+   "monthlyViews": 84867,
+   "days": 60
+  },
+  "capital-bern": {
+   "title": "Bern",
+   "monthlyViews": 26452,
+   "days": 60
+  },
+  "capital-belgrade": {
+   "title": "Belgrade",
+   "monthlyViews": 55918,
+   "days": 60
+  },
+  "capital-sofia": {
+   "title": "Sofia",
+   "monthlyViews": 38263,
+   "days": 60
+  },
+  "capital-copenhagen": {
+   "title": "Copenhagen",
+   "monthlyViews": 71534,
+   "days": 60
+  },
+  "capital-bratislava": {
+   "title": "Bratislava",
+   "monthlyViews": 48491,
+   "days": 59
+  },
+  "capital-helsinki": {
+   "title": "Helsinki",
+   "monthlyViews": 48826,
+   "days": 60
+  },
+  "capital-oslo": {
+   "title": "Oslo",
+   "monthlyViews": 49556,
+   "days": 59
+  },
+  "capital-dublin": {
+   "title": "Dublin",
+   "monthlyViews": 78566,
+   "days": 60
+  },
+  "capital-zagreb": {
+   "title": "Zagreb",
+   "monthlyViews": 36102,
+   "days": 60
+  },
+  "capital-chisinau": {
+   "title": "Chișinău",
+   "monthlyViews": 23895,
+   "days": 60
+  },
+  "capital-sarajevo": {
+   "title": "Sarajevo",
+   "monthlyViews": 49130,
+   "days": 60
+  },
+  "capital-tirana": {
+   "title": "Tirana",
+   "monthlyViews": 25478,
+   "days": 60
+  },
+  "capital-vilnius": {
+   "title": "Vilnius",
+   "monthlyViews": 36224,
+   "days": 60
+  },
+  "capital-ljubljana": {
+   "title": "Ljubljana",
+   "monthlyViews": 52905,
+   "days": 60
+  },
+  "capital-skopje": {
+   "title": "Skopje",
+   "monthlyViews": 30318,
+   "days": 60
+  },
+  "capital-riga": {
+   "title": "Riga",
+   "monthlyViews": 36406,
+   "days": 60
+  },
+  "capital-pristina": {
+   "title": "Pristina",
+   "monthlyViews": 23682,
+   "days": 60
+  },
+  "capital-tallinn": {
+   "title": "Tallinn",
+   "monthlyViews": 41672,
+   "days": 60
+  },
+  "capital-nicosia": {
+   "title": "Nicosia",
+   "monthlyViews": 26087,
+   "days": 60
+  },
+  "capital-luxembourg-city": {
+   "title": "Luxembourg City",
+   "monthlyViews": 18873,
+   "days": 60
+  },
+  "capital-podgorica": {
+   "title": "Podgorica",
+   "monthlyViews": 20638,
+   "days": 60
+  },
+  "capital-valletta": {
+   "title": "Valletta",
+   "monthlyViews": 27944,
+   "days": 60
+  },
+  "capital-reykjavik": {
+   "title": "Reykjavík",
+   "monthlyViews": 60089,
+   "days": 60
+  },
+  "capital-andorra-la-vella": {
+   "title": "Andorra la Vella",
+   "monthlyViews": 11141,
+   "days": 59
+  },
+  "capital-vaduz": {
+   "title": "Vaduz",
+   "monthlyViews": 12267,
+   "days": 60
+  },
+  "capital-monaco-ville": {
+   "title": "Monaco-Ville",
+   "monthlyViews": 3074,
+   "days": 60
+  },
+  "capital-san-marino-city": {
+   "title": "City of San Marino",
+   "monthlyViews": 5297,
+   "days": 60
+  },
+  "capital-vatican-city": {
+   "title": "Vatican City",
+   "monthlyViews": 104592,
+   "days": 60
+  },
+  "capital-washington-dc": {
+   "title": "Washington, D.C.",
+   "monthlyViews": 183888,
+   "days": 60
+  },
+  "capital-mexico-city": {
+   "title": "Mexico City",
+   "monthlyViews": 90589,
+   "days": 60
+  },
+  "capital-ottawa": {
+   "title": "Ottawa",
+   "monthlyViews": 61611,
+   "days": 60
+  },
+  "capital-guatemala-city": {
+   "title": "Guatemala City",
+   "monthlyViews": 14824,
+   "days": 59
+  },
+  "capital-port-au-prince": {
+   "title": "Port-au-Prince",
+   "monthlyViews": 18264,
+   "days": 60
+  },
+  "capital-santo-domingo": {
+   "title": "Santo Domingo",
+   "monthlyViews": 25783,
+   "days": 60
+  },
+  "capital-havana": {
+   "title": "Havana",
+   "monthlyViews": 26696,
+   "days": 60
+  },
+  "capital-tegucigalpa": {
+   "title": "Tegucigalpa",
+   "monthlyViews": 13302,
+   "days": 60
+  },
+  "capital-managua": {
+   "title": "Managua",
+   "monthlyViews": 9376,
+   "days": 60
+  },
+  "capital-san-salvador": {
+   "title": "San Salvador",
+   "monthlyViews": 14855,
+   "days": 60
+  },
+  "capital-san-jose": {
+   "title": "San José, Costa Rica",
+   "monthlyViews": 13942,
+   "days": 60
+  },
+  "capital-panama-city": {
+   "title": "Panama City",
+   "monthlyViews": 23652,
+   "days": 60
+  },
+  "capital-kingston": {
+   "title": "Kingston, Jamaica",
+   "monthlyViews": 20912,
+   "days": 60
+  },
+  "capital-port-of-spain": {
+   "title": "Port of Spain",
+   "monthlyViews": 15007,
+   "days": 60
+  },
+  "capital-belmopan": {
+   "title": "Belmopan",
+   "monthlyViews": 6636,
+   "days": 60
+  },
+  "capital-nassau": {
+   "title": "Nassau, Bahamas",
+   "monthlyViews": 36345,
+   "days": 60
+  },
+  "capital-bridgetown": {
+   "title": "Bridgetown",
+   "monthlyViews": 9345,
+   "days": 60
+  },
+  "capital-castries": {
+   "title": "Castries",
+   "monthlyViews": 4049,
+   "days": 59
+  },
+  "capital-saint-georges": {
+   "title": "St. George's, Grenada",
+   "monthlyViews": 3683,
+   "days": 60
+  },
+  "capital-kingstown": {
+   "title": "Kingstown",
+   "monthlyViews": 3348,
+   "days": 59
+  },
+  "capital-saint-johns": {
+   "title": "St. John's, Antigua and Barbuda",
+   "monthlyViews": 5266,
+   "days": 60
+  },
+  "capital-roseau": {
+   "title": "Roseau",
+   "monthlyViews": 3714,
+   "days": 60
+  },
+  "capital-basseterre": {
+   "title": "Basseterre",
+   "monthlyViews": 5905,
+   "days": 60
+  },
+  "capital-brasilia": {
+   "title": "Brasília",
+   "monthlyViews": 37015,
+   "days": 60
+  },
+  "capital-bogota": {
+   "title": "Bogotá",
+   "monthlyViews": 45599,
+   "days": 60
+  },
+  "capital-buenos-aires": {
+   "title": "Buenos Aires",
+   "monthlyViews": 68064,
+   "days": 60
+  },
+  "capital-lima": {
+   "title": "Lima",
+   "monthlyViews": 35523,
+   "days": 60
+  },
+  "capital-caracas": {
+   "title": "Caracas",
+   "monthlyViews": 20425,
+   "days": 60
+  },
+  "capital-santiago": {
+   "title": "Santiago",
+   "monthlyViews": 37106,
+   "days": 59
+  },
+  "capital-quito": {
+   "title": "Quito",
+   "monthlyViews": 23865,
+   "days": 60
+  },
+  "capital-sucre": {
+   "title": "Sucre",
+   "monthlyViews": 9102,
+   "days": 60
+  },
+  "capital-asuncion": {
+   "title": "Asunción",
+   "monthlyViews": 18629,
+   "days": 60
+  },
+  "capital-montevideo": {
+   "title": "Montevideo",
+   "monthlyViews": 27700,
+   "days": 59
+  },
+  "capital-georgetown": {
+   "title": "Georgetown, Guyana",
+   "monthlyViews": 17777,
+   "days": 60
+  },
+  "capital-paramaribo": {
+   "title": "Paramaribo",
+   "monthlyViews": 12846,
+   "days": 60
+  },
+  "capital-canberra": {
+   "title": "Canberra",
+   "monthlyViews": 54001,
+   "days": 60
+  },
+  "capital-port-moresby": {
+   "title": "Port Moresby",
+   "monthlyViews": 22952,
+   "days": 60
+  },
+  "capital-wellington": {
+   "title": "Wellington",
+   "monthlyViews": 37806,
+   "days": 59
+  },
+  "capital-suva": {
+   "title": "Suva",
+   "monthlyViews": 10410,
+   "days": 60
+  },
+  "capital-honiara": {
+   "title": "Honiara",
+   "monthlyViews": 6301,
+   "days": 60
+  },
+  "capital-port-vila": {
+   "title": "Port Vila",
+   "monthlyViews": 5905,
+   "days": 60
+  },
+  "capital-apia": {
+   "title": "Apia",
+   "monthlyViews": 7397,
+   "days": 60
+  },
+  "capital-south-tarawa": {
+   "title": "South Tarawa",
+   "monthlyViews": 2709,
+   "days": 60
+  },
+  "capital-palikir": {
+   "title": "Palikir",
+   "monthlyViews": 4231,
+   "days": 60
+  },
+  "capital-nukualofa": {
+   "title": "Nukuʻalofa",
+   "monthlyViews": 6484,
+   "days": 60
+  },
+  "capital-majuro": {
+   "title": "Majuro",
+   "monthlyViews": 8645,
+   "days": 60
+  },
+  "capital-ngerulmud": {
+   "title": "Ngerulmud",
+   "monthlyViews": 9436,
+   "days": 60
+  },
+  "capital-yaren": {
+   "title": "Yaren",
+   "monthlyViews": 4566,
+   "days": 60
+  },
+  "capital-funafuti": {
+   "title": "Funafuti",
+   "monthlyViews": 5510,
+   "days": 60
+  },
+  "lake-caspian-sea": {
+   "title": "Caspian Sea",
+   "monthlyViews": 76404,
+   "days": 60
+  },
+  "lake-lake-superior": {
+   "title": "Lake Superior",
+   "monthlyViews": 47091,
+   "days": 60
+  },
+  "lake-lake-victoria": {
+   "title": "Lake Victoria",
+   "monthlyViews": 23317,
+   "days": 60
+  },
+  "lake-lake-huron": {
+   "title": "Lake Huron",
+   "monthlyViews": 15220,
+   "days": 60
+  },
+  "lake-lake-michigan": {
+   "title": "Lake Michigan",
+   "monthlyViews": 29557,
+   "days": 60
+  },
+  "lake-lake-tanganyika": {
+   "title": "Lake Tanganyika",
+   "monthlyViews": 17381,
+   "days": 60
+  },
+  "lake-lake-baikal": {
+   "title": "Lake Baikal",
+   "monthlyViews": 68064,
+   "days": 60
+  },
+  "lake-great-bear-lake": {
+   "title": "Great Bear Lake",
+   "monthlyViews": 9102,
+   "days": 60
+  },
+  "lake-lake-malawi": {
+   "title": "Lake Malawi",
+   "monthlyViews": 7123,
+   "days": 60
+  },
+  "lake-great-slave-lake": {
+   "title": "Great Slave Lake",
+   "monthlyViews": 17412,
+   "days": 60
+  },
+  "lake-lake-erie": {
+   "title": "Lake Erie",
+   "monthlyViews": 21673,
+   "days": 60
+  },
+  "lake-lake-winnipeg": {
+   "title": "Lake Winnipeg",
+   "monthlyViews": 7427,
+   "days": 60
+  },
+  "lake-lake-ontario": {
+   "title": "Lake Ontario",
+   "monthlyViews": 15342,
+   "days": 60
+  },
+  "lake-lake-ladoga": {
+   "title": "Lake Ladoga",
+   "monthlyViews": 8554,
+   "days": 60
+  },
+  "lake-lake-balkhash": {
+   "title": "Lake Balkhash",
+   "monthlyViews": 6545,
+   "days": 60
+  },
+  "lake-lake-bangweulu": {
+   "title": "Lake Bangweulu",
+   "monthlyViews": 822,
+   "days": 60
+  },
+  "lake-lake-vostok": {
+   "title": "Lake Vostok",
+   "monthlyViews": 12998,
+   "days": 60
+  },
+  "lake-lake-onega": {
+   "title": "Lake Onega",
+   "monthlyViews": 2648,
+   "days": 60
+  },
+  "lake-lake-eyre": {
+   "title": "Kati Thanda–Lake Eyre",
+   "monthlyViews": 3409,
+   "days": 55
+  },
+  "lake-lake-volta": {
+   "title": "Lake Volta",
+   "monthlyViews": 3744,
+   "days": 60
+  },
+  "lake-lake-titicaca": {
+   "title": "Lake Titicaca",
+   "monthlyViews": 22647,
+   "days": 60
+  },
+  "lake-lake-nicaragua": {
+   "title": "Lake Nicaragua",
+   "monthlyViews": 5662,
+   "days": 60
+  },
+  "lake-lake-athabasca": {
+   "title": "Lake Athabasca",
+   "monthlyViews": 3105,
+   "days": 60
+  },
+  "lake-reindeer-lake": {
+   "title": "Reindeer Lake",
+   "monthlyViews": 1705,
+   "days": 60
+  },
+  "lake-lake-turkana": {
+   "title": "Lake Turkana",
+   "monthlyViews": 6149,
+   "days": 60
+  },
+  "lake-lake-issyk-kul": {
+   "title": "Issyk-Kul",
+   "monthlyViews": 9558,
+   "days": 60
+  },
+  "lake-lake-torrens": {
+   "title": "Lake Torrens",
+   "monthlyViews": 639,
+   "days": 60
+  },
+  "lake-lake-kariba": {
+   "title": "Lake Kariba",
+   "monthlyViews": 6027,
+   "days": 59
+  },
+  "lake-lake-vanern": {
+   "title": "Vänern",
+   "monthlyViews": 4901,
+   "days": 60
+  },
+  "lake-nettilling-lake": {
+   "title": "Nettilling Lake",
+   "monthlyViews": 1065,
+   "days": 60
+  },
+  "lake-lake-winnipegosis": {
+   "title": "Lake Winnipegosis",
+   "monthlyViews": 1126,
+   "days": 60
+  },
+  "lake-lake-albert": {
+   "title": "Lake Albert (Africa)",
+   "monthlyViews": 1735,
+   "days": 60
+  },
+  "lake-lake-urmia": {
+   "title": "Lake Urmia",
+   "monthlyViews": 4231,
+   "days": 59
+  },
+  "lake-lake-mweru": {
+   "title": "Lake Mweru",
+   "monthlyViews": 548,
+   "days": 60
+  },
+  "lake-lake-nipigon": {
+   "title": "Lake Nipigon",
+   "monthlyViews": 3288,
+   "days": 60
+  },
+  "lake-lake-manitoba": {
+   "title": "Lake Manitoba",
+   "monthlyViews": 1583,
+   "days": 60
+  },
+  "lake-lake-taymyr": {
+   "title": "Lake Taymyr",
+   "monthlyViews": 548,
+   "days": 60
+  },
+  "lake-qinghai-lake": {
+   "title": "Qinghai Lake",
+   "monthlyViews": 4292,
+   "days": 59
+  },
+  "lake-lake-gairdner": {
+   "title": "Lake Gairdner",
+   "monthlyViews": 274,
+   "days": 60
+  },
+  "lake-great-salt-lake": {
+   "title": "Great Salt Lake",
+   "monthlyViews": 22282,
+   "days": 60
+  },
+  "lake-lake-saimaa": {
+   "title": "Saimaa",
+   "monthlyViews": 3440,
+   "days": 60
+  },
+  "lake-lake-khanka": {
+   "title": "Lake Khanka",
+   "monthlyViews": 944,
+   "days": 60
+  },
+  "lake-sarygamysh-lake": {
+   "title": "Sarygamysh Lake",
+   "monthlyViews": 1157,
+   "days": 60
+  },
+  "lake-dubawnt-lake": {
+   "title": "Dubawnt Lake",
+   "monthlyViews": 396,
+   "days": 60
+  },
+  "lake-lake-van": {
+   "title": "Lake Van",
+   "monthlyViews": 5571,
+   "days": 59
+  },
+  "lake-lake-peipus": {
+   "title": "Lake Peipus",
+   "monthlyViews": 2770,
+   "days": 60
+  },
+  "lake-uvs-lake": {
+   "title": "Uvs Lake",
+   "monthlyViews": 1035,
+   "days": 60
+  },
+  "lake-poyang-lake": {
+   "title": "Poyang Lake",
+   "monthlyViews": 1735,
+   "days": 60
+  },
+  "lake-lake-tana": {
+   "title": "Lake Tana",
+   "monthlyViews": 3044,
+   "days": 60
+  },
+  "lake-tonle-sap": {
+   "title": "Tonle Sap",
+   "monthlyViews": 2313,
+   "days": 60
+  },
+  "lake-lake-vattern": {
+   "title": "Vättern",
+   "monthlyViews": 2313,
+   "days": 60
+  },
+  "lake-lake-okeechobee": {
+   "title": "Lake Okeechobee",
+   "monthlyViews": 10928,
+   "days": 60
+  },
+  "lake-lake-pontchartrain": {
+   "title": "Lake Pontchartrain",
+   "monthlyViews": 13394,
+   "days": 60
+  },
+  "lake-lake-argentino": {
+   "title": "Lake Argentino",
+   "monthlyViews": 487,
+   "days": 60
+  },
+  "lake-lake-chad": {
+   "title": "Lake Chad",
+   "monthlyViews": 12176,
+   "days": 60
+  },
+  "lake-lake-champlain": {
+   "title": "Lake Champlain",
+   "monthlyViews": 15768,
+   "days": 60
+  },
+  "lake-lake-toba": {
+   "title": "Lake Toba",
+   "monthlyViews": 11689,
+   "days": 60
+  },
+  "lake-lake-poopo": {
+   "title": "Lake Poopó",
+   "monthlyViews": 1644,
+   "days": 60
+  },
+  "lake-salton-sea": {
+   "title": "Salton Sea",
+   "monthlyViews": 29192,
+   "days": 60
+  },
+  "lake-lake-inari": {
+   "title": "Lake Inari",
+   "monthlyViews": 1126,
+   "days": 60
+  },
+  "lake-biwa-lake": {
+   "title": "Lake Biwa",
+   "monthlyViews": 7458,
+   "days": 60
+  },
+  "lake-lake-taupo": {
+   "title": "Lake Taupō",
+   "monthlyViews": 4140,
+   "days": 60
+  },
+  "lake-lake-geneva": {
+   "title": "Lake Geneva",
+   "monthlyViews": 12724,
+   "days": 60
+  },
+  "lake-lake-constance": {
+   "title": "Lake Constance",
+   "monthlyViews": 13485,
+   "days": 59
+  },
+  "lake-nahuel-huapi": {
+   "title": "Nahuel Huapi Lake",
+   "monthlyViews": 2527,
+   "days": 60
+  },
+  "lake-lake-tahoe": {
+   "title": "Lake Tahoe",
+   "monthlyViews": 47547,
+   "days": 59
+  },
+  "lake-skadar-lake": {
+   "title": "Lake Skadar",
+   "monthlyViews": 3622,
+   "days": 60
+  },
+  "lake-lake-garda": {
+   "title": "Lake Garda",
+   "monthlyViews": 19451,
+   "days": 60
+  },
+  "lake-mjosa": {
+   "title": "Mjøsa",
+   "monthlyViews": 1492,
+   "days": 60
+  },
+  "lake-lake-ohrid": {
+   "title": "Lake Ohrid",
+   "monthlyViews": 7549,
+   "days": 60
+  },
+  "lake-lake-te-anau": {
+   "title": "Lake Te Anau",
+   "monthlyViews": 609,
+   "days": 59
+  },
+  "lake-yellowstone-lake": {
+   "title": "Yellowstone Lake",
+   "monthlyViews": 3561,
+   "days": 60
+  },
+  "lake-lake-wakatipu": {
+   "title": "Lake Wakatipu",
+   "monthlyViews": 2253,
+   "days": 60
+  },
+  "lake-lake-prespa": {
+   "title": "Lake Prespa",
+   "monthlyViews": 1979,
+   "days": 59
+  },
+  "lake-lake-taal": {
+   "title": "Taal Lake",
+   "monthlyViews": 1979,
+   "days": 60
+  },
+  "lake-lake-neuchatel": {
+   "title": "Lake Neuchâtel",
+   "monthlyViews": 1400,
+   "days": 60
+  },
+  "lake-lake-maggiore": {
+   "title": "Lake Maggiore",
+   "monthlyViews": 10350,
+   "days": 60
+  },
+  "lake-mono-lake": {
+   "title": "Mono Lake",
+   "monthlyViews": 9284,
+   "days": 60
+  },
+  "lake-lake-como": {
+   "title": "Lake Como",
+   "monthlyViews": 31049,
+   "days": 60
+  },
+  "lake-lake-trasimeno": {
+   "title": "Lake Trasimeno",
+   "monthlyViews": 3866,
+   "days": 59
+  },
+  "lake-inle-lake": {
+   "title": "Inle Lake",
+   "monthlyViews": 1400,
+   "days": 60
+  },
+  "lake-lake-lucerne": {
+   "title": "Lake Lucerne",
+   "monthlyViews": 4475,
+   "days": 60
+  },
+  "lake-lake-zurich": {
+   "title": "Lake Zurich",
+   "monthlyViews": 3379,
+   "days": 60
+  },
+  "lake-loch-lomond": {
+   "title": "Loch Lomond",
+   "monthlyViews": 11080,
+   "days": 60
+  },
+  "lake-lake-bracciano": {
+   "title": "Lake Bracciano",
+   "monthlyViews": 2070,
+   "days": 60
+  },
+  "lake-loch-ness": {
+   "title": "Loch Ness",
+   "monthlyViews": 25509,
+   "days": 60
+  },
+  "lake-crater-lake": {
+   "title": "Crater Lake",
+   "monthlyViews": 28522,
+   "days": 60
+  },
+  "lake-lake-annecy": {
+   "title": "Lake Annecy",
+   "monthlyViews": 4870,
+   "days": 60
+  },
+  "lake-lake-windermere": {
+   "title": "Windermere",
+   "monthlyViews": 7793,
+   "days": 59
+  },
+  "lake-hallstatter-see": {
+   "title": "Hallstätter See",
+   "monthlyViews": 1583,
+   "days": 60
+  },
+  "lake-bala-lake": {
+   "title": "Llyn Tegid",
+   "monthlyViews": 2496,
+   "days": 60
+  },
+  "lake-lake-louise": {
+   "title": "Lake Louise (Alberta)",
+   "monthlyViews": 5814,
+   "days": 60
+  },
+  "lake-dead-sea": {
+   "title": "Dead Sea",
+   "monthlyViews": 41611,
+   "days": 59
+  },
+  "lake-sea-of-galilee": {
+   "title": "Sea of Galilee",
+   "monthlyViews": 21673,
+   "days": 59
+  },
+  "lake-lake-mead": {
+   "title": "Lake Mead",
+   "monthlyViews": 24352,
+   "days": 60
+  },
+  "lake-lake-powell": {
+   "title": "Lake Powell",
+   "monthlyViews": 22160,
+   "days": 60
+  },
+  "lake-lake-havasu": {
+   "title": "Lake Havasu",
+   "monthlyViews": 6819,
+   "days": 59
+  },
+  "lake-lake-george": {
+   "title": "Lake George (New York)",
+   "monthlyViews": 10837,
+   "days": 60
+  },
+  "lake-moraine-lake": {
+   "title": "Moraine Lake",
+   "monthlyViews": 5144,
+   "days": 60
+  },
+  "lake-lake-tekapo": {
+   "title": "Lake Tekapo",
+   "monthlyViews": 1826,
+   "days": 59
+  },
+  "lake-lake-pukaki": {
+   "title": "Lake Pukaki",
+   "monthlyViews": 1065,
+   "days": 60
+  },
+  "lake-lake-rotorua": {
+   "title": "Lake Rotorua",
+   "monthlyViews": 487,
+   "days": 60
+  },
+  "lake-lough-neagh": {
+   "title": "Lough Neagh",
+   "monthlyViews": 8249,
+   "days": 59
+  },
+  "lake-lake-lugano": {
+   "title": "Lake Lugano",
+   "monthlyViews": 2648,
+   "days": 59
+  },
+  "lake-lake-thun": {
+   "title": "Lake Thun",
+   "monthlyViews": 1370,
+   "days": 59
+  },
+  "lake-konigssee": {
+   "title": "Königssee",
+   "monthlyViews": 3379,
+   "days": 59
+  },
+  "lake-chiemsee": {
+   "title": "Chiemsee",
+   "monthlyViews": 2070,
+   "days": 60
+  },
+  "lake-lake-balaton": {
+   "title": "Lake Balaton",
+   "monthlyViews": 10593,
+   "days": 59
+  },
+  "lake-lake-sevan": {
+   "title": "Lake Sevan",
+   "monthlyViews": 3957,
+   "days": 59
+  },
+  "lake-lake-khovsgol": {
+   "title": "Lake Khövsgöl",
+   "monthlyViews": 2770,
+   "days": 59
+  },
+  "lake-west-lake": {
+   "title": "West Lake",
+   "monthlyViews": 4992,
+   "days": 60
+  },
+  "lake-lake-maracaibo": {
+   "title": "Lake Maracaibo",
+   "monthlyViews": 6636,
+   "days": 59
+  },
+  "lake-lake-atitlan": {
+   "title": "Lake Atitlán",
+   "monthlyViews": 4870,
+   "days": 60
+  },
+  "lake-lake-managua": {
+   "title": "Lake Managua",
+   "monthlyViews": 913,
+   "days": 60
+  },
+  "lake-lake-kivu": {
+   "title": "Lake Kivu",
+   "monthlyViews": 5936,
+   "days": 59
+  },
+  "lake-lake-edward": {
+   "title": "Lake Edward",
+   "monthlyViews": 1035,
+   "days": 60
+  },
+  "lake-lake-naivasha": {
+   "title": "Lake Naivasha",
+   "monthlyViews": 1766,
+   "days": 60
+  },
+  "lake-lake-nakuru": {
+   "title": "Lake Nakuru",
+   "monthlyViews": 1461,
+   "days": 59
+  },
+  "lake-lake-assal": {
+   "title": "Lake Assal (Djibouti)",
+   "monthlyViews": 2800,
+   "days": 59
+  },
+  "river-nile": {
+   "title": "Nile",
+   "monthlyViews": 53757,
+   "days": 60
+  },
+  "river-amazon": {
+   "title": "Amazon River",
+   "monthlyViews": 34062,
+   "days": 60
+  },
+  "river-yangtze": {
+   "title": "Yangtze",
+   "monthlyViews": 26087,
+   "days": 60
+  },
+  "river-yellow-river": {
+   "title": "Yellow River",
+   "monthlyViews": 21430,
+   "days": 60
+  },
+  "river-yenisei": {
+   "title": "Yenisei",
+   "monthlyViews": 4566,
+   "days": 60
+  },
+  "river-ob": {
+   "title": "Ob",
+   "monthlyViews": 2800,
+   "days": 60
+  },
+  "river-parana": {
+   "title": "Paraná River",
+   "monthlyViews": 5571,
+   "days": 60
+  },
+  "river-congo-river": {
+   "title": "Congo River",
+   "monthlyViews": 22373,
+   "days": 60
+  },
+  "river-amur": {
+   "title": "Amur",
+   "monthlyViews": 7336,
+   "days": 60
+  },
+  "river-lena": {
+   "title": "Lena River",
+   "monthlyViews": 5479,
+   "days": 60
+  },
+  "river-mekong": {
+   "title": "Mekong",
+   "monthlyViews": 14429,
+   "days": 60
+  },
+  "river-mackenzie": {
+   "title": "Mackenzie River",
+   "monthlyViews": 9863,
+   "days": 60
+  },
+  "river-niger-river": {
+   "title": "Niger River",
+   "monthlyViews": 11263,
+   "days": 60
+  },
+  "river-brahmaputra": {
+   "title": "Brahmaputra River",
+   "monthlyViews": 20791,
+   "days": 60
+  },
+  "river-missouri": {
+   "title": "Missouri River",
+   "monthlyViews": 26635,
+   "days": 60
+  },
+  "river-mississippi": {
+   "title": "Mississippi River",
+   "monthlyViews": 56892,
+   "days": 60
+  },
+  "river-madeira": {
+   "title": "Madeira River",
+   "monthlyViews": 1735,
+   "days": 60
+  },
+  "river-purus": {
+   "title": "Purus River",
+   "monthlyViews": 578,
+   "days": 60
+  },
+  "river-yukon": {
+   "title": "Yukon River",
+   "monthlyViews": 7549,
+   "days": 60
+  },
+  "river-rio-grande": {
+   "title": "Rio Grande",
+   "monthlyViews": 26300,
+   "days": 59
+  },
+  "river-saint-lawrence": {
+   "title": "St. Lawrence River",
+   "monthlyViews": 15737,
+   "days": 60
+  },
+  "river-sao-francisco": {
+   "title": "São Francisco River",
+   "monthlyViews": 1339,
+   "days": 60
+  },
+  "river-volga": {
+   "title": "Volga",
+   "monthlyViews": 28979,
+   "days": 60
+  },
+  "river-indus": {
+   "title": "Indus River",
+   "monthlyViews": 25478,
+   "days": 60
+  },
+  "river-danube": {
+   "title": "Danube",
+   "monthlyViews": 81123,
+   "days": 60
+  },
+  "river-salween": {
+   "title": "Salween River",
+   "monthlyViews": 2131,
+   "days": 60
+  },
+  "river-euphrates": {
+   "title": "Euphrates",
+   "monthlyViews": 23621,
+   "days": 60
+  },
+  "river-tocantins": {
+   "title": "Tocantins River",
+   "monthlyViews": 913,
+   "days": 60
+  },
+  "river-vilyuy": {
+   "title": "Vilyuy",
+   "monthlyViews": 244,
+   "days": 60
+  },
+  "river-araguaia": {
+   "title": "Araguaia River",
+   "monthlyViews": 609,
+   "days": 60
+  },
+  "river-nelson-river": {
+   "title": "Nelson River",
+   "monthlyViews": 2374,
+   "days": 59
+  },
+  "river-zambezi": {
+   "title": "Zambezi",
+   "monthlyViews": 11050,
+   "days": 60
+  },
+  "river-paraguay-river": {
+   "title": "Paraguay River",
+   "monthlyViews": 2405,
+   "days": 60
+  },
+  "river-ganges": {
+   "title": "Ganges",
+   "monthlyViews": 37259,
+   "days": 60
+  },
+  "river-kolyma": {
+   "title": "Kolyma (river)",
+   "monthlyViews": 639,
+   "days": 60
+  },
+  "river-pilcomayo": {
+   "title": "Pilcomayo River",
+   "monthlyViews": 578,
+   "days": 59
+  },
+  "river-ural-river": {
+   "title": "Ural (river)",
+   "monthlyViews": 4262,
+   "days": 60
+  },
+  "river-arkansas-river": {
+   "title": "Arkansas River",
+   "monthlyViews": 9802,
+   "days": 59
+  },
+  "river-colorado-river": {
+   "title": "Colorado River",
+   "monthlyViews": 34519,
+   "days": 60
+  },
+  "river-olenyok": {
+   "title": "Olenyok (river)",
+   "monthlyViews": 244,
+   "days": 60
+  },
+  "river-aldan": {
+   "title": "Aldan (river)",
+   "monthlyViews": 213,
+   "days": 60
+  },
+  "river-ubangi": {
+   "title": "Ubangi River",
+   "monthlyViews": 1674,
+   "days": 60
+  },
+  "river-negro-river": {
+   "title": "Rio Negro (Amazon)",
+   "monthlyViews": 4292,
+   "days": 59
+  },
+  "river-orange-river": {
+   "title": "Orange River",
+   "monthlyViews": 4383,
+   "days": 60
+  },
+  "river-pearl-river": {
+   "title": "Pearl River",
+   "monthlyViews": 4170,
+   "days": 60
+  },
+  "river-irrawaddy": {
+   "title": "Irrawaddy River",
+   "monthlyViews": 4718,
+   "days": 60
+  },
+  "river-orinoco": {
+   "title": "Orinoco",
+   "monthlyViews": 8736,
+   "days": 60
+  },
+  "river-tarim-river": {
+   "title": "Tarim River",
+   "monthlyViews": 1126,
+   "days": 60
+  },
+  "river-dnieper": {
+   "title": "Dnieper",
+   "monthlyViews": 11963,
+   "days": 60
+  },
+  "river-columbia-river": {
+   "title": "Columbia River",
+   "monthlyViews": 21552,
+   "days": 60
+  },
+  "river-red-river": {
+   "title": "Red River of the South",
+   "monthlyViews": 11202,
+   "days": 60
+  },
+  "river-don": {
+   "title": "Don (river)",
+   "monthlyViews": 5083,
+   "days": 60
+  },
+  "river-tigris": {
+   "title": "Tigris",
+   "monthlyViews": 13515,
+   "days": 60
+  },
+  "river-uruguay-river": {
+   "title": "Uruguay River",
+   "monthlyViews": 1826,
+   "days": 60
+  },
+  "river-xingu": {
+   "title": "Xingu River",
+   "monthlyViews": 1857,
+   "days": 60
+  },
+  "river-kama": {
+   "title": "Kama (river)",
+   "monthlyViews": 1065,
+   "days": 60
+  },
+  "river-snake-river": {
+   "title": "Snake River",
+   "monthlyViews": 13911,
+   "days": 60
+  },
+  "river-churchill-river": {
+   "title": "Churchill River (Hudson Bay)",
+   "monthlyViews": 1187,
+   "days": 60
+  },
+  "river-maranon": {
+   "title": "Marañón River",
+   "monthlyViews": 1218,
+   "days": 60
+  },
+  "river-ohio-river": {
+   "title": "Ohio River",
+   "monthlyViews": 27366,
+   "days": 60
+  },
+  "river-darling": {
+   "title": "Darling River",
+   "monthlyViews": 1735,
+   "days": 60
+  },
+  "river-murray": {
+   "title": "Murray River",
+   "monthlyViews": 6940,
+   "days": 60
+  },
+  "river-rhine": {
+   "title": "Rhine",
+   "monthlyViews": 45386,
+   "days": 60
+  },
+  "river-ottawa-river": {
+   "title": "Ottawa River",
+   "monthlyViews": 3988,
+   "days": 60
+  },
+  "river-elbe": {
+   "title": "Elbe",
+   "monthlyViews": 14763,
+   "days": 60
+  },
+  "river-vistula": {
+   "title": "Vistula",
+   "monthlyViews": 12176,
+   "days": 60
+  },
+  "river-tagus": {
+   "title": "Tagus",
+   "monthlyViews": 8219,
+   "days": 60
+  },
+  "river-loire": {
+   "title": "Loire",
+   "monthlyViews": 8949,
+   "days": 60
+  },
+  "river-meuse": {
+   "title": "Meuse",
+   "monthlyViews": 8493,
+   "days": 60
+  },
+  "river-ebro": {
+   "title": "Ebro",
+   "monthlyViews": 6819,
+   "days": 60
+  },
+  "river-douro": {
+   "title": "Douro",
+   "monthlyViews": 9589,
+   "days": 60
+  },
+  "river-oder": {
+   "title": "Oder",
+   "monthlyViews": 6332,
+   "days": 60
+  },
+  "river-seine": {
+   "title": "Seine",
+   "monthlyViews": 17716,
+   "days": 59
+  },
+  "river-guadalquivir": {
+   "title": "Guadalquivir",
+   "monthlyViews": 5266,
+   "days": 60
+  },
+  "river-po": {
+   "title": "Po (river)",
+   "monthlyViews": 10441,
+   "days": 60
+  },
+  "river-tiber": {
+   "title": "Tiber",
+   "monthlyViews": 10045,
+   "days": 60
+  },
+  "river-shannon": {
+   "title": "River Shannon",
+   "monthlyViews": 5327,
+   "days": 60
+  },
+  "river-severn": {
+   "title": "River Severn",
+   "monthlyViews": 12541,
+   "days": 60
+  },
+  "river-thames": {
+   "title": "River Thames",
+   "monthlyViews": 32479,
+   "days": 59
+  },
+  "river-trent": {
+   "title": "River Trent",
+   "monthlyViews": 6605,
+   "days": 60
+  },
+  "river-wye": {
+   "title": "River Wye",
+   "monthlyViews": 3988,
+   "days": 60
+  },
+  "river-tay": {
+   "title": "River Tay",
+   "monthlyViews": 3257,
+   "days": 59
+  },
+  "river-clyde": {
+   "title": "River Clyde",
+   "monthlyViews": 5053,
+   "days": 60
+  },
+  "river-spey": {
+   "title": "River Spey",
+   "monthlyViews": 1826,
+   "days": 60
+  },
+  "river-aire": {
+   "title": "River Aire",
+   "monthlyViews": 1522,
+   "days": 60
+  },
+  "river-liffey": {
+   "title": "River Liffey",
+   "monthlyViews": 3988,
+   "days": 60
+  },
+  "river-bristol-avon": {
+   "title": "River Avon, Bristol",
+   "monthlyViews": 4049,
+   "days": 59
+  },
+  "river-medway": {
+   "title": "River Medway",
+   "monthlyViews": 2709,
+   "days": 60
+  },
+  "river-ouse": {
+   "title": "River Ouse, Yorkshire",
+   "monthlyViews": 3835,
+   "days": 60
+  },
+  "river-cam": {
+   "title": "River Cam",
+   "monthlyViews": 3166,
+   "days": 60
+  },
+  "river-jordan-river": {
+   "title": "Jordan River",
+   "monthlyViews": 18660,
+   "days": 60
+  },
+  "river-rhone": {
+   "title": "Rhône",
+   "monthlyViews": 15433,
+   "days": 60
+  },
+  "river-vltava": {
+   "title": "Vltava",
+   "monthlyViews": 9954,
+   "days": 59
+  },
+  "river-sava": {
+   "title": "Sava",
+   "monthlyViews": 5723,
+   "days": 60
+  },
+  "river-drava": {
+   "title": "Drava",
+   "monthlyViews": 2770,
+   "days": 60
+  },
+  "river-neva": {
+   "title": "Neva",
+   "monthlyViews": 2861,
+   "days": 60
+  },
+  "river-yamuna": {
+   "title": "Yamuna",
+   "monthlyViews": 9406,
+   "days": 60
+  },
+  "river-godavari": {
+   "title": "Godavari River",
+   "monthlyViews": 15068,
+   "days": 60
+  },
+  "river-krishna-river": {
+   "title": "Krishna River",
+   "monthlyViews": 9710,
+   "days": 60
+  },
+  "river-narmada": {
+   "title": "Narmada River",
+   "monthlyViews": 12998,
+   "days": 59
+  },
+  "river-sutlej": {
+   "title": "Sutlej",
+   "monthlyViews": 6849,
+   "days": 60
+  },
+  "river-chenab": {
+   "title": "Chenab River",
+   "monthlyViews": 6940,
+   "days": 60
+  },
+  "river-amu-darya": {
+   "title": "Amu Darya",
+   "monthlyViews": 10867,
+   "days": 59
+  },
+  "river-helmand-river": {
+   "title": "Helmand River",
+   "monthlyViews": 1857,
+   "days": 60
+  },
+  "river-chao-phraya": {
+   "title": "Chao Phraya River",
+   "monthlyViews": 4901,
+   "days": 60
+  },
+  "river-han-river": {
+   "title": "Han River (Korea)",
+   "monthlyViews": 6058,
+   "days": 60
+  },
+  "river-songhua": {
+   "title": "Songhua River",
+   "monthlyViews": 1552,
+   "days": 60
+  },
+  "river-waikato-river": {
+   "title": "Waikato River",
+   "monthlyViews": 1400,
+   "days": 59
+  },
+  "river-clutha-river": {
+   "title": "Clutha River",
+   "monthlyViews": 670,
+   "days": 60
+  },
+  "river-swan-river": {
+   "title": "Swan River (Western Australia)",
+   "monthlyViews": 2253,
+   "days": 60
+  },
+  "river-yarra-river": {
+   "title": "Yarra River",
+   "monthlyViews": 2587,
+   "days": 59
+  },
+  "river-brisbane-river": {
+   "title": "Brisbane River",
+   "monthlyViews": 2192,
+   "days": 60
+  },
+  "river-limpopo": {
+   "title": "Limpopo River",
+   "monthlyViews": 3592,
+   "days": 60
+  },
+  "river-senegal-river": {
+   "title": "Senegal River",
+   "monthlyViews": 2496,
+   "days": 60
+  },
+  "river-gambia-river": {
+   "title": "Gambia River",
+   "monthlyViews": 2283,
+   "days": 60
+  },
+  "river-volta-river": {
+   "title": "Volta River",
+   "monthlyViews": 2496,
+   "days": 59
+  },
+  "river-blue-nile": {
+   "title": "Blue Nile",
+   "monthlyViews": 6332,
+   "days": 59
+  },
+  "river-white-nile": {
+   "title": "White Nile",
+   "monthlyViews": 7062,
+   "days": 60
+  },
+  "river-moselle": {
+   "title": "Moselle",
+   "monthlyViews": 6849,
+   "days": 60
+  },
+  "river-main": {
+   "title": "Main (river)",
+   "monthlyViews": 4749,
+   "days": 60
+  },
+  "river-weser": {
+   "title": "Weser",
+   "monthlyViews": 2527,
+   "days": 60
+  },
+  "river-tisza": {
+   "title": "Tisza",
+   "monthlyViews": 5692,
+   "days": 59
+  },
+  "river-guadiana": {
+   "title": "Guadiana",
+   "monthlyViews": 1583,
+   "days": 59
+  },
+  "river-adige": {
+   "title": "Adige",
+   "monthlyViews": 3196,
+   "days": 59
+  },
+  "river-arno": {
+   "title": "Arno",
+   "monthlyViews": 3835,
+   "days": 60
+  },
+  "river-river-tweed": {
+   "title": "River Tweed",
+   "monthlyViews": 2253,
+   "days": 60
+  },
+  "river-river-forth": {
+   "title": "River Forth",
+   "monthlyViews": 1918,
+   "days": 59
+  },
+  "river-river-exe": {
+   "title": "River Exe",
+   "monthlyViews": 1278,
+   "days": 60
+  },
+  "river-river-dee": {
+   "title": "River Dee, Wales",
+   "monthlyViews": 2344,
+   "days": 60
+  },
+  "river-river-bann": {
+   "title": "River Bann",
+   "monthlyViews": 1126,
+   "days": 60
+  },
+  "mountain-mount-everest": {
+   "title": "Mount Everest",
+   "monthlyViews": 160297,
+   "days": 60
+  },
+  "mountain-k2": {
+   "title": "K2",
+   "monthlyViews": 89007,
+   "days": 60
+  },
+  "mountain-kangchenjunga": {
+   "title": "Kangchenjunga",
+   "monthlyViews": 31505,
+   "days": 60
+  },
+  "mountain-lhotse": {
+   "title": "Lhotse",
+   "monthlyViews": 13515,
+   "days": 60
+  },
+  "mountain-makalu": {
+   "title": "Makalu",
+   "monthlyViews": 8949,
+   "days": 60
+  },
+  "mountain-cho-oyu": {
+   "title": "Cho Oyu",
+   "monthlyViews": 9071,
+   "days": 60
+  },
+  "mountain-dhaulagiri": {
+   "title": "Dhaulagiri",
+   "monthlyViews": 9649,
+   "days": 59
+  },
+  "mountain-manaslu": {
+   "title": "Manaslu",
+   "monthlyViews": 7823,
+   "days": 60
+  },
+  "mountain-nanga-parbat": {
+   "title": "Nanga Parbat",
+   "monthlyViews": 28218,
+   "days": 60
+  },
+  "mountain-annapurna": {
+   "title": "Annapurna",
+   "monthlyViews": 28461,
+   "days": 60
+  },
+  "mountain-gasherbrum-i": {
+   "title": "Gasherbrum I",
+   "monthlyViews": 5449,
+   "days": 60
+  },
+  "mountain-broad-peak": {
+   "title": "Broad Peak",
+   "monthlyViews": 30957,
+   "days": 60
+  },
+  "mountain-shishapangma": {
+   "title": "Shishapangma",
+   "monthlyViews": 9893,
+   "days": 60
+  },
+  "mountain-aconcagua": {
+   "title": "Aconcagua",
+   "monthlyViews": 37898,
+   "days": 59
+  },
+  "mountain-ojos-del-salado": {
+   "title": "Ojos del Salado",
+   "monthlyViews": 8645,
+   "days": 60
+  },
+  "mountain-huascaran": {
+   "title": "Huascarán",
+   "monthlyViews": 4566,
+   "days": 60
+  },
+  "mountain-illimani": {
+   "title": "Illimani",
+   "monthlyViews": 1583,
+   "days": 60
+  },
+  "mountain-chimborazo": {
+   "title": "Chimborazo",
+   "monthlyViews": 15403,
+   "days": 60
+  },
+  "mountain-denali": {
+   "title": "Denali",
+   "monthlyViews": 64502,
+   "days": 59
+  },
+  "mountain-mount-logan": {
+   "title": "Mount Logan",
+   "monthlyViews": 13546,
+   "days": 60
+  },
+  "mountain-cotopaxi": {
+   "title": "Cotopaxi",
+   "monthlyViews": 8127,
+   "days": 60
+  },
+  "mountain-kilimanjaro": {
+   "title": "Mount Kilimanjaro",
+   "monthlyViews": 71260,
+   "days": 60
+  },
+  "mountain-elbrus": {
+   "title": "Mount Elbrus",
+   "monthlyViews": 32053,
+   "days": 60
+  },
+  "mountain-pico-de-orizaba": {
+   "title": "Pico de Orizaba",
+   "monthlyViews": 9649,
+   "days": 60
+  },
+  "mountain-damavand": {
+   "title": "Mount Damavand",
+   "monthlyViews": 8097,
+   "days": 60
+  },
+  "mountain-popocatepetl": {
+   "title": "Popocatépetl",
+   "monthlyViews": 8310,
+   "days": 60
+  },
+  "mountain-mount-kenya": {
+   "title": "Mount Kenya",
+   "monthlyViews": 8127,
+   "days": 60
+  },
+  "mountain-mount-ararat": {
+   "title": "Mount Ararat",
+   "monthlyViews": 28705,
+   "days": 60
+  },
+  "mountain-mount-vinson": {
+   "title": "Vinson Massif",
+   "monthlyViews": 13424,
+   "days": 60
+  },
+  "mountain-puncak-jaya": {
+   "title": "Puncak Jaya",
+   "monthlyViews": 17473,
+   "days": 60
+  },
+  "mountain-mont-blanc": {
+   "title": "Mont Blanc",
+   "monthlyViews": 49100,
+   "days": 60
+  },
+  "mountain-matterhorn": {
+   "title": "Matterhorn",
+   "monthlyViews": 40333,
+   "days": 60
+  },
+  "mountain-monte-rosa": {
+   "title": "Monte Rosa",
+   "monthlyViews": 5814,
+   "days": 60
+  },
+  "mountain-mount-whitney": {
+   "title": "Mount Whitney",
+   "monthlyViews": 51657,
+   "days": 60
+  },
+  "mountain-mount-elbert": {
+   "title": "Mount Elbert",
+   "monthlyViews": 14307,
+   "days": 60
+  },
+  "mountain-mount-rainier": {
+   "title": "Mount Rainier",
+   "monthlyViews": 51992,
+   "days": 60
+  },
+  "mountain-mount-shasta": {
+   "title": "Mount Shasta",
+   "monthlyViews": 19664,
+   "days": 60
+  },
+  "mountain-pikes-peak": {
+   "title": "Pikes Peak",
+   "monthlyViews": 20943,
+   "days": 60
+  },
+  "mountain-mauna-kea": {
+   "title": "Mauna Kea",
+   "monthlyViews": 35006,
+   "days": 60
+  },
+  "mountain-mauna-loa": {
+   "title": "Mauna Loa",
+   "monthlyViews": 17686,
+   "days": 60
+  },
+  "mountain-toubkal": {
+   "title": "Toubkal",
+   "monthlyViews": 6301,
+   "days": 60
+  },
+  "mountain-jungfrau": {
+   "title": "Jungfrau",
+   "monthlyViews": 5844,
+   "days": 60
+  },
+  "mountain-mount-kinabalu": {
+   "title": "Mount Kinabalu",
+   "monthlyViews": 9132,
+   "days": 60
+  },
+  "mountain-mount-cameroon": {
+   "title": "Mount Cameroon",
+   "monthlyViews": 2770,
+   "days": 60
+  },
+  "mountain-eiger": {
+   "title": "Eiger",
+   "monthlyViews": 13698,
+   "days": 59
+  },
+  "mountain-mount-robson": {
+   "title": "Mount Robson",
+   "monthlyViews": 6758,
+   "days": 60
+  },
+  "mountain-grossglockner": {
+   "title": "Grossglockner",
+   "monthlyViews": 7945,
+   "days": 60
+  },
+  "mountain-mount-erebus": {
+   "title": "Mount Erebus",
+   "monthlyViews": 13211,
+   "days": 60
+  },
+  "mountain-mount-fuji": {
+   "title": "Mount Fuji",
+   "monthlyViews": 49830,
+   "days": 60
+  },
+  "mountain-aoraki": {
+   "title": "Aoraki / Mount Cook",
+   "monthlyViews": 8858,
+   "days": 60
+  },
+  "mountain-mount-teide": {
+   "title": "Teide",
+   "monthlyViews": 15859,
+   "days": 60
+  },
+  "mountain-thabana-ntlenyana": {
+   "title": "Thabana Ntlenyana",
+   "monthlyViews": 1705,
+   "days": 60
+  },
+  "mountain-mount-hood": {
+   "title": "Mount Hood",
+   "monthlyViews": 17990,
+   "days": 59
+  },
+  "mountain-mount-etna": {
+   "title": "Mount Etna",
+   "monthlyViews": 42433,
+   "days": 60
+  },
+  "mountain-haleakala": {
+   "title": "Haleakalā",
+   "monthlyViews": 4962,
+   "days": 60
+  },
+  "mountain-mount-olympus": {
+   "title": "Mount Olympus",
+   "monthlyViews": 50713,
+   "days": 60
+  },
+  "mountain-zugspitze": {
+   "title": "Zugspitze",
+   "monthlyViews": 11385,
+   "days": 60
+  },
+  "mountain-mount-ruapehu": {
+   "title": "Mount Ruapehu",
+   "monthlyViews": 6697,
+   "days": 60
+  },
+  "mountain-mount-hermon": {
+   "title": "Mount Hermon",
+   "monthlyViews": 12328,
+   "days": 60
+  },
+  "mountain-mount-roraima": {
+   "title": "Mount Roraima",
+   "monthlyViews": 7153,
+   "days": 60
+  },
+  "mountain-half-dome": {
+   "title": "Half Dome",
+   "monthlyViews": 13211,
+   "days": 60
+  },
+  "mountain-mount-st-helens": {
+   "title": "Mount St. Helens",
+   "monthlyViews": 81275,
+   "days": 59
+  },
+  "mountain-mount-taranaki": {
+   "title": "Mount Taranaki",
+   "monthlyViews": 5388,
+   "days": 60
+  },
+  "mountain-el-capitan": {
+   "title": "El Capitan",
+   "monthlyViews": 18903,
+   "days": 60
+  },
+  "mountain-mount-vitosha": {
+   "title": "Vitosha",
+   "monthlyViews": 1705,
+   "days": 60
+  },
+  "mountain-mount-sinai": {
+   "title": "Mount Sinai",
+   "monthlyViews": 25691,
+   "days": 60
+  },
+  "mountain-mount-kosciuszko": {
+   "title": "Mount Kosciuszko",
+   "monthlyViews": 17594,
+   "days": 60
+  },
+  "mountain-mount-mitchell": {
+   "title": "Mount Mitchell",
+   "monthlyViews": 14246,
+   "days": 59
+  },
+  "mountain-mount-washington": {
+   "title": "Mount Washington",
+   "monthlyViews": 21247,
+   "days": 60
+  },
+  "mountain-mont-ventoux": {
+   "title": "Mont Ventoux",
+   "monthlyViews": 9436,
+   "days": 60
+  },
+  "mountain-mount-marcy": {
+   "title": "Mount Marcy",
+   "monthlyViews": 6484,
+   "days": 60
+  },
+  "mountain-mount-katahdin": {
+   "title": "Katahdin",
+   "monthlyViews": 7671,
+   "days": 59
+  },
+  "mountain-puy-de-dome": {
+   "title": "Puy de Dôme",
+   "monthlyViews": 3196,
+   "days": 60
+  },
+  "mountain-ben-nevis": {
+   "title": "Ben Nevis",
+   "monthlyViews": 26787,
+   "days": 60
+  },
+  "mountain-vesuvius": {
+   "title": "Mount Vesuvius",
+   "monthlyViews": 63224,
+   "days": 60
+  },
+  "mountain-table-mountain": {
+   "title": "Table Mountain",
+   "monthlyViews": 10502,
+   "days": 60
+  },
+  "mountain-scafell-pike": {
+   "title": "Scafell Pike",
+   "monthlyViews": 13972,
+   "days": 60
+  },
+  "mountain-snowdon": {
+   "title": "Snowdon",
+   "monthlyViews": 14215,
+   "days": 60
+  },
+  "mountain-carrauntoohil": {
+   "title": "Carrauntoohil",
+   "monthlyViews": 11263,
+   "days": 60
+  },
+  "mountain-stromboli": {
+   "title": "Stromboli",
+   "monthlyViews": 13850,
+   "days": 60
+  },
+  "mountain-mount-nebo": {
+   "title": "Mount Nebo",
+   "monthlyViews": 7214,
+   "days": 60
+  },
+  "mountain-corcovado": {
+   "title": "Corcovado",
+   "monthlyViews": 2800,
+   "days": 60
+  },
+  "mountain-sugarloaf-mountain": {
+   "title": "Sugarloaf Mountain",
+   "monthlyViews": 5936,
+   "days": 60
+  },
+  "mountain-uluru": {
+   "title": "Uluru",
+   "monthlyViews": 35554,
+   "days": 59
+  },
+  "mountain-grand-teton": {
+   "title": "Grand Teton",
+   "monthlyViews": 7854,
+   "days": 60
+  },
+  "mountain-longs-peak": {
+   "title": "Longs Peak",
+   "monthlyViews": 4262,
+   "days": 60
+  },
+  "mountain-mount-baker": {
+   "title": "Mount Baker",
+   "monthlyViews": 9832,
+   "days": 60
+  },
+  "mountain-clingmans-dome": {
+   "title": "Kuwohi",
+   "monthlyViews": 8767,
+   "days": 59
+  },
+  "mountain-black-elk-peak": {
+   "title": "Black Elk Peak",
+   "monthlyViews": 4657,
+   "days": 60
+  },
+  "mountain-pico-duarte": {
+   "title": "Pico Duarte",
+   "monthlyViews": 2618,
+   "days": 60
+  },
+  "mountain-blue-mountain-peak": {
+   "title": "Blue Mountain Peak",
+   "monthlyViews": 913,
+   "days": 60
+  },
+  "mountain-mount-apo": {
+   "title": "Mount Apo",
+   "monthlyViews": 4931,
+   "days": 60
+  },
+  "mountain-mount-pinatubo": {
+   "title": "Mount Pinatubo",
+   "monthlyViews": 13576,
+   "days": 60
+  },
+  "mountain-mayon": {
+   "title": "Mayon",
+   "monthlyViews": 9284,
+   "days": 60
+  },
+  "mountain-mount-bromo": {
+   "title": "Mount Bromo",
+   "monthlyViews": 6179,
+   "days": 60
+  },
+  "mountain-mount-merapi": {
+   "title": "Mount Merapi",
+   "monthlyViews": 4749,
+   "days": 59
+  },
+  "mountain-mount-semeru": {
+   "title": "Semeru",
+   "monthlyViews": 2800,
+   "days": 59
+  },
+  "mountain-mount-agung": {
+   "title": "Mount Agung",
+   "monthlyViews": 5175,
+   "days": 59
+  },
+  "mountain-krakatoa": {
+   "title": "Krakatoa",
+   "monthlyViews": 33088,
+   "days": 60
+  },
+  "mountain-mount-rinjani": {
+   "title": "Mount Rinjani",
+   "monthlyViews": 5631,
+   "days": 60
+  },
+  "mountain-mount-aso": {
+   "title": "Mount Aso",
+   "monthlyViews": 3348,
+   "days": 60
+  },
+  "mountain-paektu-mountain": {
+   "title": "Mount Paektu",
+   "monthlyViews": 7093,
+   "days": 60
+  },
+  "mountain-hallasan": {
+   "title": "Hallasan",
+   "monthlyViews": 4810,
+   "days": 60
+  },
+  "mountain-huangshan": {
+   "title": "Huangshan",
+   "monthlyViews": 5997,
+   "days": 59
+  },
+  "mountain-mount-tai": {
+   "title": "Mount Tai",
+   "monthlyViews": 5723,
+   "days": 60
+  },
+  "mountain-ama-dablam": {
+   "title": "Ama Dablam",
+   "monthlyViews": 5418,
+   "days": 60
+  },
+  "mountain-machapuchare": {
+   "title": "Machapuchare",
+   "monthlyViews": 6971,
+   "days": 60
+  },
+  "mountain-kirkjufell": {
+   "title": "Kirkjufell",
+   "monthlyViews": 2861,
+   "days": 60
+  },
+  "mountain-galdhopiggen": {
+   "title": "Galdhøpiggen",
+   "monthlyViews": 6484,
+   "days": 59
+  },
+  "mountain-kebnekaise": {
+   "title": "Kebnekaise",
+   "monthlyViews": 3866,
+   "days": 60
+  },
+  "mountain-snezka": {
+   "title": "Sněžka",
+   "monthlyViews": 2861,
+   "days": 60
+  },
+  "mountain-rysy": {
+   "title": "Rysy",
+   "monthlyViews": 4414,
+   "days": 60
+  },
+  "mountain-triglav": {
+   "title": "Triglav",
+   "monthlyViews": 5631,
+   "days": 59
+  },
+  "mountain-musala": {
+   "title": "Musala",
+   "monthlyViews": 3835,
+   "days": 60
+  },
+  "mountain-mount-ida": {
+   "title": "Mount Ida (Crete)",
+   "monthlyViews": 5175,
+   "days": 59
+  },
+  "mountain-mount-athos": {
+   "title": "Mount Athos",
+   "monthlyViews": 25570,
+   "days": 59
+  },
+  "mountain-gran-sasso": {
+   "title": "Gran Sasso d'Italia",
+   "monthlyViews": 2892,
+   "days": 59
+  },
+  "mountain-marmolada": {
+   "title": "Marmolada",
+   "monthlyViews": 4536,
+   "days": 60
+  },
+  "mountain-piz-bernina": {
+   "title": "Piz Bernina",
+   "monthlyViews": 1948,
+   "days": 59
+  },
+  "mountain-weisshorn": {
+   "title": "Weisshorn",
+   "monthlyViews": 2192,
+   "days": 60
+  },
+  "mountain-aneto": {
+   "title": "Aneto",
+   "monthlyViews": 2770,
+   "days": 60
+  },
+  "mountain-mulhacen": {
+   "title": "Mulhacén",
+   "monthlyViews": 5540,
+   "days": 60
+  },
+  "mountain-mount-ossa": {
+   "title": "Mount Ossa (Tasmania)",
+   "monthlyViews": 1461,
+   "days": 60
+  },
+  "mountain-mount-tongariro": {
+   "title": "Mount Tongariro",
+   "monthlyViews": 1187,
+   "days": 60
+  },
+  "mountain-mount-ngauruhoe": {
+   "title": "Mount Ngauruhoe",
+   "monthlyViews": 3014,
+   "days": 59
+  },
+  "mountain-ben-macdui": {
+   "title": "Ben Macdui",
+   "monthlyViews": 2953,
+   "days": 59
+  },
+  "mountain-braeriach": {
+   "title": "Braeriach",
+   "monthlyViews": 609,
+   "days": 60
+  },
+  "mountain-cairn-gorm": {
+   "title": "Cairn Gorm",
+   "monthlyViews": 1613,
+   "days": 60
+  },
+  "mountain-mount-sunflower": {
+   "title": "Mount Sunflower",
+   "monthlyViews": 2831,
+   "days": 60
+  },
+  "mountain-schiehallion": {
+   "title": "Schiehallion",
+   "monthlyViews": 1979,
+   "days": 60
+  },
+  "mountain-mount-greylock": {
+   "title": "Mount Greylock",
+   "monthlyViews": 4201,
+   "days": 60
+  },
+  "mountain-kekes": {
+   "title": "Kékes",
+   "monthlyViews": 1065,
+   "days": 60
+  },
+  "mountain-mount-davis": {
+   "title": "Mount Davis (Pennsylvania)",
+   "monthlyViews": 2953,
+   "days": 60
+  },
+  "mountain-ben-lomond": {
+   "title": "Ben Lomond",
+   "monthlyViews": 3014,
+   "days": 60
+  },
+  "mountain-mount-monadnock": {
+   "title": "Mount Monadnock",
+   "monthlyViews": 4566,
+   "days": 60
+  },
+  "mountain-helvellyn": {
+   "title": "Helvellyn",
+   "monthlyViews": 5844,
+   "days": 60
+  },
+  "mountain-skiddaw": {
+   "title": "Skiddaw",
+   "monthlyViews": 2039,
+   "days": 60
+  },
+  "mountain-great-gable": {
+   "title": "Great Gable",
+   "monthlyViews": 944,
+   "days": 60
+  },
+  "mountain-cadair-idris": {
+   "title": "Cadair Idris",
+   "monthlyViews": 4840,
+   "days": 60
+  },
+  "mountain-cross-fell": {
+   "title": "Cross Fell",
+   "monthlyViews": 1979,
+   "days": 60
+  },
+  "mountain-pen-y-fan": {
+   "title": "Pen y Fan",
+   "monthlyViews": 6545,
+   "days": 60
+  },
+  "mountain-mount-ainslie": {
+   "title": "Mount Ainslie",
+   "monthlyViews": 548,
+   "days": 60
+  },
+  "mountain-goat-fell": {
+   "title": "Goat Fell",
+   "monthlyViews": 1065,
+   "days": 60
+  },
+  "mountain-camelback-mountain": {
+   "title": "Camelback Mountain",
+   "monthlyViews": 1583,
+   "days": 60
+  },
+  "mountain-the-cheviot": {
+   "title": "The Cheviot",
+   "monthlyViews": 1522,
+   "days": 60
+  },
+  "mountain-whernside": {
+   "title": "Whernside",
+   "monthlyViews": 1339,
+   "days": 60
+  },
+  "mountain-ingleborough": {
+   "title": "Ingleborough",
+   "monthlyViews": 1644,
+   "days": 60
+  },
+  "mountain-signal-de-botrange": {
+   "title": "Signal de Botrange",
+   "monthlyViews": 2070,
+   "days": 60
+  },
+  "mountain-pen-y-ghent": {
+   "title": "Pen-y-ghent",
+   "monthlyViews": 1857,
+   "days": 60
+  },
+  "mountain-lions-head": {
+   "title": "Lion's Head (Cape Town)",
+   "monthlyViews": 1705,
+   "days": 60
+  },
+  "mountain-kinder-scout": {
+   "title": "Kinder Scout",
+   "monthlyViews": 3592,
+   "days": 60
+  },
+  "mountain-high-willhays": {
+   "title": "High Willhays",
+   "monthlyViews": 1187,
+   "days": 60
+  },
+  "mountain-shining-tor": {
+   "title": "Shining Tor",
+   "monthlyViews": 517,
+   "days": 60
+  },
+  "mountain-dunkery-beacon": {
+   "title": "Dunkery Hill",
+   "monthlyViews": 487,
+   "days": 60
+  },
+  "mountain-mam-tor": {
+   "title": "Mam Tor",
+   "monthlyViews": 3866,
+   "days": 59
+  },
+  "mountain-hawkeye-point": {
+   "title": "Hawkeye Point",
+   "monthlyViews": 1278,
+   "days": 60
+  },
+  "mountain-kahlenberg": {
+   "title": "Kahlenberg",
+   "monthlyViews": 1370,
+   "days": 59
+  },
+  "mountain-worcestershire-beacon": {
+   "title": "Worcestershire Beacon",
+   "monthlyViews": 822,
+   "days": 60
+  },
+  "mountain-brown-willy": {
+   "title": "Brown Willy",
+   "monthlyViews": 1400,
+   "days": 60
+  },
+  "mountain-the-wrekin": {
+   "title": "The Wrekin",
+   "monthlyViews": 2648,
+   "days": 60
+  },
+  "mountain-charles-mound": {
+   "title": "Charles Mound",
+   "monthlyViews": 2131,
+   "days": 60
+  },
+  "mountain-signal-hill": {
+   "title": "Signal Hill (Cape Town)",
+   "monthlyViews": 1126,
+   "days": 60
+  },
+  "mountain-cleeve-hill": {
+   "title": "Cleeve Hill, Gloucestershire",
+   "monthlyViews": 1126,
+   "days": 60
+  },
+  "mountain-vaalserberg": {
+   "title": "Vaalserberg",
+   "monthlyViews": 4810,
+   "days": 60
+  },
+  "mountain-roseberry-topping": {
+   "title": "Roseberry Topping",
+   "monthlyViews": 2892,
+   "days": 60
+  },
+  "mountain-suur-munamagi": {
+   "title": "Suur Munamägi",
+   "monthlyViews": 1065,
+   "days": 59
+  },
+  "mountain-gaizinkalns": {
+   "title": "Gaiziņkalns",
+   "monthlyViews": 639,
+   "days": 60
+  },
+  "mountain-leith-hill": {
+   "title": "Leith Hill",
+   "monthlyViews": 1339,
+   "days": 60
+  },
+  "mountain-aukstojas": {
+   "title": "Aukštojas Hill",
+   "monthlyViews": 913,
+   "days": 60
+  },
+  "mountain-mount-coot-tha": {
+   "title": "Mount Coot-tha, Queensland",
+   "monthlyViews": 1187,
+   "days": 60
+  },
+  "mountain-arthurs-seat": {
+   "title": "Arthur's Seat",
+   "monthlyViews": 16529,
+   "days": 60
+  },
+  "mountain-ditchling-beacon": {
+   "title": "Ditchling Beacon",
+   "monthlyViews": 639,
+   "days": 60
+  },
+  "mountain-jerimoth-hill": {
+   "title": "Jerimoth Hill",
+   "monthlyViews": 1248,
+   "days": 60
+  },
+  "mountain-woodall-mountain": {
+   "title": "Woodall Mountain",
+   "monthlyViews": 1522,
+   "days": 60
+  },
+  "mountain-gellert-hill": {
+   "title": "Gellért Hill",
+   "monthlyViews": 2039,
+   "days": 60
+  },
+  "mountain-ivinghoe-beacon": {
+   "title": "Ivinghoe Beacon",
+   "monthlyViews": 1309,
+   "days": 60
+  },
+  "mountain-box-hill": {
+   "title": "Box Hill, Surrey",
+   "monthlyViews": 3014,
+   "days": 60
+  },
+  "mountain-mount-eden": {
+   "title": "Maungawhau / Mount Eden",
+   "monthlyViews": 700,
+   "days": 60
+  },
+  "mountain-one-tree-hill": {
+   "title": "Maungakiekie / One Tree Hill",
+   "monthlyViews": 1766,
+   "days": 60
+  },
+  "mountain-mollehoj": {
+   "title": "Møllehøj",
+   "monthlyViews": 3257,
+   "days": 60
+  },
+  "mountain-bukit-timah": {
+   "title": "Bukit Timah Hill",
+   "monthlyViews": 1492,
+   "days": 60
+  },
+  "mountain-driskill-mountain": {
+   "title": "Driskill Mountain",
+   "monthlyViews": 1826,
+   "days": 60
+  },
+  "mountain-mount-wycheproof": {
+   "title": "Mount Wycheproof",
+   "monthlyViews": 4292,
+   "days": 60
+  },
+  "mountain-ebright-azimuth": {
+   "title": "Ebright Azimuth",
+   "monthlyViews": 1400,
+   "days": 60
+  },
+  "mountain-montmartre": {
+   "title": "Montmartre",
+   "monthlyViews": 19786,
+   "days": 59
+  },
+  "mountain-mount-faber": {
+   "title": "Mount Faber",
+   "monthlyViews": 609,
+   "days": 60
+  },
+  "mountain-britton-hill": {
+   "title": "Britton Hill",
+   "monthlyViews": 5936,
+   "days": 60
+  },
+  "desert-antarctic-desert": {
+   "title": "Antarctica",
+   "monthlyViews": 98595,
+   "days": 60
+  },
+  "desert-arctic-desert": {
+   "title": "Arctic",
+   "monthlyViews": 21491,
+   "days": 60
+  },
+  "desert-sahara": {
+   "title": "Sahara",
+   "monthlyViews": 42220,
+   "days": 60
+  },
+  "desert-arabian-desert": {
+   "title": "Arabian Desert",
+   "monthlyViews": 6240,
+   "days": 60
+  },
+  "desert-gobi": {
+   "title": "Gobi Desert",
+   "monthlyViews": 26361,
+   "days": 60
+  },
+  "desert-kalahari": {
+   "title": "Kalahari Desert",
+   "monthlyViews": 13607,
+   "days": 60
+  },
+  "desert-patagonian-desert": {
+   "title": "Patagonian Desert",
+   "monthlyViews": 2709,
+   "days": 60
+  },
+  "desert-rub-al-khali": {
+   "title": "Rub' al Khali",
+   "monthlyViews": 9984,
+   "days": 60
+  },
+  "desert-syrian-desert": {
+   "title": "Syrian desert",
+   "monthlyViews": 2039,
+   "days": 60
+  },
+  "desert-great-basin-desert": {
+   "title": "Great Basin Desert",
+   "monthlyViews": 5936,
+   "days": 60
+  },
+  "desert-monte-desert": {
+   "title": "Monte Desert",
+   "monthlyViews": 304,
+   "days": 60
+  },
+  "desert-nubian-desert": {
+   "title": "Nubian Desert",
+   "monthlyViews": 913,
+   "days": 60
+  },
+  "desert-chihuahuan-desert": {
+   "title": "Chihuahuan Desert",
+   "monthlyViews": 8249,
+   "days": 60
+  },
+  "desert-karakum": {
+   "title": "Karakum Desert",
+   "monthlyViews": 5205,
+   "days": 60
+  },
+  "desert-great-victoria-desert": {
+   "title": "Great Victoria Desert",
+   "monthlyViews": 2466,
+   "days": 60
+  },
+  "desert-taklamakan": {
+   "title": "Taklamakan Desert",
+   "monthlyViews": 13911,
+   "days": 60
+  },
+  "desert-colorado-plateau-desert": {
+   "title": "Colorado Plateau",
+   "monthlyViews": 7123,
+   "days": 59
+  },
+  "desert-kyzylkum": {
+   "title": "Kyzylkum Desert",
+   "monthlyViews": 1857,
+   "days": 60
+  },
+  "desert-great-sandy-desert": {
+   "title": "Great Sandy Desert",
+   "monthlyViews": 1918,
+   "days": 60
+  },
+  "desert-sonoran-desert": {
+   "title": "Sonoran Desert",
+   "monthlyViews": 16103,
+   "days": 60
+  },
+  "desert-nullarbor-plain": {
+   "title": "Nullarbor Plain",
+   "monthlyViews": 5905,
+   "days": 60
+  },
+  "desert-thar-desert": {
+   "title": "Thar Desert",
+   "monthlyViews": 14489,
+   "days": 60
+  },
+  "desert-sechura-desert": {
+   "title": "Sechura Desert",
+   "monthlyViews": 944,
+   "days": 60
+  },
+  "desert-tanami-desert": {
+   "title": "Tanami Desert",
+   "monthlyViews": 1035,
+   "days": 60
+  },
+  "desert-simpson-desert": {
+   "title": "Simpson Desert",
+   "monthlyViews": 3014,
+   "days": 60
+  },
+  "desert-gibson-desert": {
+   "title": "Gibson Desert",
+   "monthlyViews": 1187,
+   "days": 60
+  },
+  "desert-danakil-desert": {
+   "title": "Danakil Desert",
+   "monthlyViews": 1979,
+   "days": 60
+  },
+  "desert-mojave-desert": {
+   "title": "Mojave Desert",
+   "monthlyViews": 26544,
+   "days": 59
+  },
+  "desert-little-sandy-desert": {
+   "title": "Little Sandy Desert",
+   "monthlyViews": 365,
+   "days": 60
+  },
+  "desert-atacama-desert": {
+   "title": "Atacama Desert",
+   "monthlyViews": 25904,
+   "days": 60
+  },
+  "desert-ordos-desert": {
+   "title": "Ordos Desert",
+   "monthlyViews": 822,
+   "days": 60
+  },
+  "desert-namib": {
+   "title": "Namib",
+   "monthlyViews": 7701,
+   "days": 60
+  },
+  "desert-strzelecki-desert": {
+   "title": "Strzelecki Desert",
+   "monthlyViews": 426,
+   "days": 60
+  },
+  "desert-dasht-e-kavir": {
+   "title": "Great Salt Desert",
+   "monthlyViews": 1796,
+   "days": 60
+  },
+  "desert-dasht-e-lut": {
+   "title": "Lut Desert",
+   "monthlyViews": 5175,
+   "days": 60
+  },
+  "desert-badain-jaran-desert": {
+   "title": "Badain Jaran Desert",
+   "monthlyViews": 1705,
+   "days": 60
+  },
+  "desert-tengger-desert": {
+   "title": "Tengger Desert",
+   "monthlyViews": 426,
+   "days": 60
+  },
+  "desert-registan-desert": {
+   "title": "Registan Desert",
+   "monthlyViews": 1126,
+   "days": 60
+  },
+  "desert-sturt-stony-desert": {
+   "title": "Sturt Stony Desert",
+   "monthlyViews": 365,
+   "days": 60
+  },
+  "desert-negev": {
+   "title": "Negev",
+   "monthlyViews": 10745,
+   "days": 60
+  },
+  "desert-wahiba-sands": {
+   "title": "Sharqiya Sands",
+   "monthlyViews": 426,
+   "days": 60
+  },
+  "desert-judaean-desert": {
+   "title": "Judaean Desert",
+   "monthlyViews": 2983,
+   "days": 60
+  },
+  "desert-rangipo-desert": {
+   "title": "Rangipo Desert",
+   "monthlyViews": 791,
+   "days": 60
+  },
+  "desert-tabernas-desert": {
+   "title": "Tabernas Desert",
+   "monthlyViews": 7275,
+   "days": 60
+  },
+  "desert-oleshky-sands": {
+   "title": "Oleshky Sands",
+   "monthlyViews": 761,
+   "days": 60
+  },
+  "desert-bledowska-desert": {
+   "title": "Błędów Desert",
+   "monthlyViews": 2618,
+   "days": 60
+  },
+  "desert-wadi-rum": {
+   "title": "Wadi Rum",
+   "monthlyViews": 7671,
+   "days": 59
+  },
+  "desert-painted-desert": {
+   "title": "Painted Desert (Arizona)",
+   "monthlyViews": 3927,
+   "days": 59
+  },
+  "desert-black-rock-desert": {
+   "title": "Black Rock Desert",
+   "monthlyViews": 9132,
+   "days": 60
+  },
+  "desert-great-salt-lake-desert": {
+   "title": "Great Salt Lake Desert",
+   "monthlyViews": 2039,
+   "days": 60
+  },
+  "desert-guajira-desert": {
+   "title": "La Guajira Desert",
+   "monthlyViews": 517,
+   "days": 60
+  },
+  "desert-tatacoa-desert": {
+   "title": "Tatacoa Desert",
+   "monthlyViews": 822,
+   "days": 59
+  },
+  "desert-cholistan-desert": {
+   "title": "Cholistan Desert",
+   "monthlyViews": 1644,
+   "days": 60
+  },
+  "desert-tenere": {
+   "title": "Ténéré",
+   "monthlyViews": 1857,
+   "days": 59
+  },
+  "desert-libyan-desert": {
+   "title": "Libyan Desert",
+   "monthlyViews": 2618,
+   "days": 60
+  },
+  "desert-western-desert": {
+   "title": "Western Desert",
+   "monthlyViews": 1157,
+   "days": 60
+  },
+  "desert-eastern-desert": {
+   "title": "Eastern Desert",
+   "monthlyViews": 1461,
+   "days": 60
+  },
+  "desert-chalbi-desert": {
+   "title": "Chalbi Desert",
+   "monthlyViews": 761,
+   "days": 59
+  },
+  "island-greenland": {
+   "title": "Greenland",
+   "monthlyViews": 112324,
+   "days": 60
+  },
+  "island-new-guinea": {
+   "title": "New Guinea",
+   "monthlyViews": 40607,
+   "days": 60
+  },
+  "island-borneo": {
+   "title": "Borneo",
+   "monthlyViews": 53453,
+   "days": 60
+  },
+  "island-madagascar-island": {
+   "title": "Madagascar",
+   "monthlyViews": 111897,
+   "days": 59
+  },
+  "island-baffin-island": {
+   "title": "Baffin Island",
+   "monthlyViews": 14916,
+   "days": 60
+  },
+  "island-sumatra": {
+   "title": "Sumatra",
+   "monthlyViews": 26331,
+   "days": 60
+  },
+  "island-honshu": {
+   "title": "Honshu",
+   "monthlyViews": 21825,
+   "days": 60
+  },
+  "island-victoria-island": {
+   "title": "Victoria Island",
+   "monthlyViews": 7032,
+   "days": 60
+  },
+  "island-great-britain": {
+   "title": "Great Britain",
+   "monthlyViews": 67120,
+   "days": 60
+  },
+  "island-ellesmere-island": {
+   "title": "Ellesmere Island",
+   "monthlyViews": 10471,
+   "days": 60
+  },
+  "island-sulawesi": {
+   "title": "Sulawesi",
+   "monthlyViews": 16468,
+   "days": 60
+  },
+  "island-south-island": {
+   "title": "South Island",
+   "monthlyViews": 12572,
+   "days": 60
+  },
+  "island-java": {
+   "title": "Java",
+   "monthlyViews": 40546,
+   "days": 60
+  },
+  "island-north-island": {
+   "title": "North Island",
+   "monthlyViews": 8888,
+   "days": 60
+  },
+  "island-luzon": {
+   "title": "Luzon",
+   "monthlyViews": 14703,
+   "days": 60
+  },
+  "island-newfoundland": {
+   "title": "Newfoundland (island)",
+   "monthlyViews": 25722,
+   "days": 60
+  },
+  "island-cuba-island": {
+   "title": "Cuba",
+   "monthlyViews": 118990,
+   "days": 60
+  },
+  "island-iceland-island": {
+   "title": "Iceland",
+   "monthlyViews": 161302,
+   "days": 60
+  },
+  "island-mindanao": {
+   "title": "Mindanao",
+   "monthlyViews": 18599,
+   "days": 60
+  },
+  "island-ireland-island": {
+   "title": "Ireland",
+   "monthlyViews": 149947,
+   "days": 60
+  },
+  "island-hokkaido": {
+   "title": "Hokkaido",
+   "monthlyViews": 45843,
+   "days": 60
+  },
+  "island-hispaniola": {
+   "title": "Hispaniola",
+   "monthlyViews": 31627,
+   "days": 60
+  },
+  "island-sakhalin": {
+   "title": "Sakhalin",
+   "monthlyViews": 28614,
+   "days": 60
+  },
+  "island-banks-island": {
+   "title": "Banks Island",
+   "monthlyViews": 2100,
+   "days": 60
+  },
+  "island-tasmania": {
+   "title": "Tasmania",
+   "monthlyViews": 65476,
+   "days": 60
+  },
+  "island-sri-lanka-island": {
+   "title": "Sri Lanka",
+   "monthlyViews": 179687,
+   "days": 59
+  },
+  "island-devon-island": {
+   "title": "Devon Island",
+   "monthlyViews": 6849,
+   "days": 60
+  },
+  "island-novaya-zemlya": {
+   "title": "Novaya Zemlya",
+   "monthlyViews": 19451,
+   "days": 60
+  },
+  "island-tierra-del-fuego": {
+   "title": "Tierra del Fuego",
+   "monthlyViews": 18355,
+   "days": 60
+  },
+  "island-melville-island": {
+   "title": "Melville Island (Northwest Territories and Nunavut)",
+   "monthlyViews": 1157,
+   "days": 60
+  },
+  "island-southampton-island": {
+   "title": "Southampton Island",
+   "monthlyViews": 1218,
+   "days": 60
+  },
+  "island-spitsbergen": {
+   "title": "Spitsbergen",
+   "monthlyViews": 8462,
+   "days": 60
+  },
+  "island-kyushu": {
+   "title": "Kyushu",
+   "monthlyViews": 22800,
+   "days": 60
+  },
+  "island-taiwan-island": {
+   "title": "Taiwan",
+   "monthlyViews": 238802,
+   "days": 60
+  },
+  "island-new-britain": {
+   "title": "New Britain",
+   "monthlyViews": 7214,
+   "days": 60
+  },
+  "island-hainan": {
+   "title": "Hainan",
+   "monthlyViews": 26787,
+   "days": 60
+  },
+  "island-vancouver-island": {
+   "title": "Vancouver Island",
+   "monthlyViews": 23347,
+   "days": 60
+  },
+  "island-timor": {
+   "title": "Timor",
+   "monthlyViews": 10137,
+   "days": 60
+  },
+  "island-sicily": {
+   "title": "Sicily",
+   "monthlyViews": 84806,
+   "days": 60
+  },
+  "island-somerset-island": {
+   "title": "Somerset Island (Nunavut)",
+   "monthlyViews": 1065,
+   "days": 60
+  },
+  "island-sardinia": {
+   "title": "Sardinia",
+   "monthlyViews": 77135,
+   "days": 60
+  },
+  "island-shikoku": {
+   "title": "Shikoku",
+   "monthlyViews": 15281,
+   "days": 60
+  },
+  "island-halmahera": {
+   "title": "Halmahera",
+   "monthlyViews": 2253,
+   "days": 60
+  },
+  "island-seram": {
+   "title": "Seram Island",
+   "monthlyViews": 1187,
+   "days": 60
+  },
+  "island-flores": {
+   "title": "Flores",
+   "monthlyViews": 9254,
+   "days": 60
+  },
+  "island-samar": {
+   "title": "Samar",
+   "monthlyViews": 3379,
+   "days": 60
+  },
+  "island-negros": {
+   "title": "Negros",
+   "monthlyViews": 3105,
+   "days": 60
+  },
+  "island-palawan": {
+   "title": "Palawan",
+   "monthlyViews": 13942,
+   "days": 60
+  },
+  "island-panay": {
+   "title": "Panay",
+   "monthlyViews": 3288,
+   "days": 60
+  },
+  "island-jamaica-island": {
+   "title": "Jamaica",
+   "monthlyViews": 100148,
+   "days": 60
+  },
+  "island-big-island-of-hawaii": {
+   "title": "Hawaiʻi (island)",
+   "monthlyViews": 15524,
+   "days": 60
+  },
+  "island-cape-breton-island": {
+   "title": "Cape Breton Island",
+   "monthlyViews": 12967,
+   "days": 60
+  },
+  "island-cyprus-island": {
+   "title": "Cyprus",
+   "monthlyViews": 180814,
+   "days": 60
+  },
+  "island-puerto-rico": {
+   "title": "Puerto Rico",
+   "monthlyViews": 149856,
+   "days": 60
+  },
+  "island-corsica": {
+   "title": "Corsica",
+   "monthlyViews": 75765,
+   "days": 60
+  },
+  "island-crete": {
+   "title": "Crete",
+   "monthlyViews": 73756,
+   "days": 60
+  },
+  "island-wrangel-island": {
+   "title": "Wrangel Island",
+   "monthlyViews": 15524,
+   "days": 60
+  },
+  "island-zealand": {
+   "title": "Zealand",
+   "monthlyViews": 14642,
+   "days": 60
+  },
+  "island-aland": {
+   "title": "Åland",
+   "monthlyViews": 35645,
+   "days": 60
+  },
+  "island-bali": {
+   "title": "Bali",
+   "monthlyViews": 96647,
+   "days": 60
+  },
+  "island-prince-edward-island": {
+   "title": "Prince Edward Island",
+   "monthlyViews": 45873,
+   "days": 60
+  },
+  "island-trinidad": {
+   "title": "Trinidad",
+   "monthlyViews": 16011,
+   "days": 60
+  },
+  "island-socotra": {
+   "title": "Socotra",
+   "monthlyViews": 43529,
+   "days": 60
+  },
+  "island-mallorca": {
+   "title": "Mallorca",
+   "monthlyViews": 63863,
+   "days": 60
+  },
+  "island-fyn": {
+   "title": "Funen",
+   "monthlyViews": 3896,
+   "days": 60
+  },
+  "island-gotland": {
+   "title": "Gotland",
+   "monthlyViews": 14642,
+   "days": 60
+  },
+  "island-reunion": {
+   "title": "Réunion",
+   "monthlyViews": 61428,
+   "days": 60
+  },
+  "island-tenerife": {
+   "title": "Tenerife",
+   "monthlyViews": 58506,
+   "days": 60
+  },
+  "island-mauritius-island": {
+   "title": "Mauritius",
+   "monthlyViews": 187206,
+   "days": 60
+  },
+  "island-lewis-and-harris": {
+   "title": "Lewis and Harris",
+   "monthlyViews": 6575,
+   "days": 60
+  },
+  "island-bioko": {
+   "title": "Bioko",
+   "monthlyViews": 12846,
+   "days": 60
+  },
+  "island-zanzibar": {
+   "title": "Zanzibar",
+   "monthlyViews": 71625,
+   "days": 60
+  },
+  "island-isle-of-skye": {
+   "title": "Isle of Skye",
+   "monthlyViews": 24261,
+   "days": 60
+  },
+  "island-lesbos": {
+   "title": "Lesbos",
+   "monthlyViews": 27700,
+   "days": 60
+  },
+  "island-rhodes": {
+   "title": "Rhodes",
+   "monthlyViews": 41855,
+   "days": 60
+  },
+  "island-shetland-mainland": {
+   "title": "Mainland, Shetland",
+   "monthlyViews": 1248,
+   "days": 60
+  },
+  "island-lanzarote": {
+   "title": "Lanzarote",
+   "monthlyViews": 17594,
+   "days": 60
+  },
+  "island-madeira": {
+   "title": "Madeira",
+   "monthlyViews": 74730,
+   "days": 60
+  },
+  "island-anglesey": {
+   "title": "Anglesey",
+   "monthlyViews": 16042,
+   "days": 60
+  },
+  "island-bornholm": {
+   "title": "Bornholm",
+   "monthlyViews": 9802,
+   "days": 60
+  },
+  "island-isle-of-man": {
+   "title": "Isle of Man",
+   "monthlyViews": 130618,
+   "days": 59
+  },
+  "island-ibiza": {
+   "title": "Ibiza",
+   "monthlyViews": 64046,
+   "days": 60
+  },
+  "island-guam": {
+   "title": "Guam",
+   "monthlyViews": 83862,
+   "days": 60
+  },
+  "island-orkney-mainland": {
+   "title": "Mainland, Orkney",
+   "monthlyViews": 1735,
+   "days": 60
+  },
+  "island-barbados-island": {
+   "title": "Barbados",
+   "monthlyViews": 87911,
+   "days": 59
+  },
+  "island-isle-of-wight": {
+   "title": "Isle of Wight",
+   "monthlyViews": 50043,
+   "days": 60
+  },
+  "island-niue": {
+   "title": "Niue",
+   "monthlyViews": 39633,
+   "days": 60
+  },
+  "island-malta-island": {
+   "title": "Malta",
+   "monthlyViews": 228757,
+   "days": 59
+  },
+  "island-elba": {
+   "title": "Elba",
+   "monthlyViews": 18903,
+   "days": 60
+  },
+  "island-easter-island": {
+   "title": "Easter Island",
+   "monthlyViews": 73300,
+   "days": 60
+  },
+  "island-saint-helena": {
+   "title": "Saint Helena",
+   "monthlyViews": 64533,
+   "days": 60
+  },
+  "island-jersey": {
+   "title": "Jersey",
+   "monthlyViews": 102096,
+   "days": 60
+  },
+  "island-mykonos": {
+   "title": "Mykonos",
+   "monthlyViews": 20121,
+   "days": 60
+  },
+  "island-tristan-da-cunha": {
+   "title": "Tristan da Cunha",
+   "monthlyViews": 56344,
+   "days": 60
+  },
+  "island-santorini": {
+   "title": "Santorini",
+   "monthlyViews": 41033,
+   "days": 60
+  },
+  "island-guernsey": {
+   "title": "Guernsey",
+   "monthlyViews": 56710,
+   "days": 60
+  },
+  "island-bouvet-island": {
+   "title": "Bouvet Island",
+   "monthlyViews": 22647,
+   "days": 60
+  },
+  "island-pitcairn-island": {
+   "title": "Pitcairn Island",
+   "monthlyViews": 12267,
+   "days": 60
+  },
+  "island-ischia": {
+   "title": "Ischia",
+   "monthlyViews": 13454,
+   "days": 60
+  },
+  "island-inishmore": {
+   "title": "Inishmore",
+   "monthlyViews": 4840,
+   "days": 60
+  },
+  "island-nauru-island": {
+   "title": "Nauru",
+   "monthlyViews": 123617,
+   "days": 60
+  },
+  "island-capri": {
+   "title": "Capri",
+   "monthlyViews": 20821,
+   "days": 60
+  },
+  "island-iona": {
+   "title": "Iona",
+   "monthlyViews": 11811,
+   "days": 60
+  },
+  "island-lundy": {
+   "title": "Lundy",
+   "monthlyViews": 9528,
+   "days": 60
+  },
+  "island-maui": {
+   "title": "Maui",
+   "monthlyViews": 23013,
+   "days": 59
+  },
+  "island-oahu": {
+   "title": "Oʻahu",
+   "monthlyViews": 19055,
+   "days": 59
+  },
+  "island-kauai": {
+   "title": "Kauaʻi",
+   "monthlyViews": 19421,
+   "days": 60
+  },
+  "island-molokai": {
+   "title": "Molokaʻi",
+   "monthlyViews": 9528,
+   "days": 60
+  },
+  "island-lanai": {
+   "title": "Lānaʻi",
+   "monthlyViews": 21491,
+   "days": 59
+  },
+  "island-niihau": {
+   "title": "Niʻihau",
+   "monthlyViews": 26665,
+   "days": 60
+  },
+  "island-manhattan": {
+   "title": "Manhattan",
+   "monthlyViews": 85871,
+   "days": 59
+  },
+  "island-long-island": {
+   "title": "Long Island",
+   "monthlyViews": 48095,
+   "days": 60
+  },
+  "island-staten-island": {
+   "title": "Staten Island",
+   "monthlyViews": 44442,
+   "days": 59
+  },
+  "island-marthas-vineyard": {
+   "title": "Martha's Vineyard",
+   "monthlyViews": 58567,
+   "days": 59
+  },
+  "island-nantucket": {
+   "title": "Nantucket",
+   "monthlyViews": 49191,
+   "days": 59
+  },
+  "island-key-west": {
+   "title": "Key West",
+   "monthlyViews": 21399,
+   "days": 60
+  },
+  "island-santa-catalina-island": {
+   "title": "Santa Catalina Island (California)",
+   "monthlyViews": 24474,
+   "days": 60
+  },
+  "island-kodiak-island": {
+   "title": "Kodiak Island",
+   "monthlyViews": 9345,
+   "days": 60
+  },
+  "island-mackinac-island": {
+   "title": "Mackinac Island",
+   "monthlyViews": 35097,
+   "days": 59
+  },
+  "island-isle-royale": {
+   "title": "Isle Royale",
+   "monthlyViews": 8401,
+   "days": 60
+  },
+  "island-galveston-island": {
+   "title": "Galveston Island",
+   "monthlyViews": 2953,
+   "days": 60
+  },
+  "island-roanoke-island": {
+   "title": "Roanoke Island",
+   "monthlyViews": 8767,
+   "days": 60
+  },
+  "island-ellis-island": {
+   "title": "Ellis Island",
+   "monthlyViews": 22130,
+   "days": 60
+  },
+  "island-alcatraz-island": {
+   "title": "Alcatraz Island",
+   "monthlyViews": 28461,
+   "days": 59
+  },
+  "island-aruba": {
+   "title": "Aruba",
+   "monthlyViews": 80118,
+   "days": 59
+  },
+  "island-curacao": {
+   "title": "Curaçao",
+   "monthlyViews": 115550,
+   "days": 60
+  },
+  "island-bonaire": {
+   "title": "Bonaire",
+   "monthlyViews": 28309,
+   "days": 59
+  },
+  "island-grand-cayman": {
+   "title": "Grand Cayman",
+   "monthlyViews": 9162,
+   "days": 60
+  },
+  "island-martinique": {
+   "title": "Martinique",
+   "monthlyViews": 53970,
+   "days": 59
+  },
+  "island-guadeloupe": {
+   "title": "Guadeloupe",
+   "monthlyViews": 61580,
+   "days": 60
+  },
+  "island-saint-martin": {
+   "title": "Saint Martin (island)",
+   "monthlyViews": 27883,
+   "days": 60
+  },
+  "island-anguilla": {
+   "title": "Anguilla",
+   "monthlyViews": 39602,
+   "days": 59
+  },
+  "island-montserrat": {
+   "title": "Montserrat",
+   "monthlyViews": 52326,
+   "days": 60
+  },
+  "island-nevis": {
+   "title": "Nevis",
+   "monthlyViews": 11963,
+   "days": 60
+  },
+  "island-saint-kitts": {
+   "title": "Saint Kitts",
+   "monthlyViews": 17046,
+   "days": 60
+  },
+  "island-tortola": {
+   "title": "Tortola",
+   "monthlyViews": 7032,
+   "days": 60
+  },
+  "island-virgin-gorda": {
+   "title": "Virgin Gorda",
+   "monthlyViews": 1918,
+   "days": 59
+  },
+  "island-saint-thomas": {
+   "title": "Saint Thomas, U.S. Virgin Islands",
+   "monthlyViews": 19390,
+   "days": 59
+  },
+  "island-saint-croix": {
+   "title": "Saint Croix",
+   "monthlyViews": 13089,
+   "days": 60
+  },
+  "island-antigua": {
+   "title": "Antigua",
+   "monthlyViews": 25661,
+   "days": 60
+  },
+  "island-barbuda": {
+   "title": "Barbuda",
+   "monthlyViews": 5601,
+   "days": 59
+  },
+  "island-eleuthera": {
+   "title": "Eleuthera",
+   "monthlyViews": 6240,
+   "days": 60
+  },
+  "island-andros-island": {
+   "title": "Andros, The Bahamas",
+   "monthlyViews": 2892,
+   "days": 60
+  },
+  "island-grand-bahama": {
+   "title": "Grand Bahama",
+   "monthlyViews": 2405,
+   "days": 60
+  },
+  "island-new-providence": {
+   "title": "New Providence",
+   "monthlyViews": 8280,
+   "days": 59
+  },
+  "island-great-exuma": {
+   "title": "Exuma",
+   "monthlyViews": 6666,
+   "days": 60
+  },
+  "island-great-abaco": {
+   "title": "Abaco Islands",
+   "monthlyViews": 3440,
+   "days": 59
+  },
+  "island-cozumel": {
+   "title": "Cozumel",
+   "monthlyViews": 11385,
+   "days": 60
+  },
+  "island-isla-mujeres": {
+   "title": "Isla Mujeres",
+   "monthlyViews": 7458,
+   "days": 60
+  },
+  "island-roatan": {
+   "title": "Roatán",
+   "monthlyViews": 16468,
+   "days": 60
+  },
+  "island-ometepe": {
+   "title": "Ometepe",
+   "monthlyViews": 1370,
+   "days": 59
+  },
+  "island-margarita-island": {
+   "title": "Margarita Island",
+   "monthlyViews": 4170,
+   "days": 60
+  },
+  "island-san-andres": {
+   "title": "San Andrés (island)",
+   "monthlyViews": 5053,
+   "days": 60
+  },
+  "island-providenciales": {
+   "title": "Providenciales",
+   "monthlyViews": 2831,
+   "days": 59
+  },
+  "island-grand-turk": {
+   "title": "Grand Turk Island",
+   "monthlyViews": 3044,
+   "days": 60
+  },
+  "island-isabela-island": {
+   "title": "Isabela Island (Galápagos)",
+   "monthlyViews": 1826,
+   "days": 60
+  },
+  "island-santa-cruz-island": {
+   "title": "Santa Cruz Island",
+   "monthlyViews": 3653,
+   "days": 60
+  },
+  "island-san-cristobal-island": {
+   "title": "San Cristóbal Island",
+   "monthlyViews": 1552,
+   "days": 59
+  },
+  "island-fernandina-island": {
+   "title": "Fernandina Island",
+   "monthlyViews": 700,
+   "days": 59
+  },
+  "island-floreana-island": {
+   "title": "Floreana Island",
+   "monthlyViews": 7214,
+   "days": 60
+  },
+  "island-chiloe": {
+   "title": "Chiloé Archipelago",
+   "monthlyViews": 2648,
+   "days": 60
+  },
+  "island-robinson-crusoe-island": {
+   "title": "Robinson Crusoe Island",
+   "monthlyViews": 5418,
+   "days": 59
+  },
+  "island-fernando-de-noronha": {
+   "title": "Fernando de Noronha",
+   "monthlyViews": 7153,
+   "days": 59
+  },
+  "island-marajo": {
+   "title": "Marajó",
+   "monthlyViews": 2587,
+   "days": 59
+  },
+  "island-ilha-grande": {
+   "title": "Ilha Grande",
+   "monthlyViews": 1431,
+   "days": 59
+  },
+  "island-east-falkland": {
+   "title": "East Falkland",
+   "monthlyViews": 2131,
+   "days": 59
+  },
+  "island-west-falkland": {
+   "title": "West Falkland",
+   "monthlyViews": 1644,
+   "days": 60
+  },
+  "island-south-georgia": {
+   "title": "South Georgia",
+   "monthlyViews": 16103,
+   "days": 60
+  },
+  "island-ascension-island": {
+   "title": "Ascension Island",
+   "monthlyViews": 32632,
+   "days": 59
+  },
+  "island-gough-island": {
+   "title": "Gough Island",
+   "monthlyViews": 6179,
+   "days": 59
+  },
+  "island-corfu": {
+   "title": "Corfu",
+   "monthlyViews": 43742,
+   "days": 60
+  },
+  "island-zakynthos": {
+   "title": "Zakynthos",
+   "monthlyViews": 15981,
+   "days": 59
+  },
+  "island-kefalonia": {
+   "title": "Cephalonia",
+   "monthlyViews": 21125,
+   "days": 60
+  },
+  "island-naxos": {
+   "title": "Naxos",
+   "monthlyViews": 14550,
+   "days": 60
+  },
+  "island-paros": {
+   "title": "Paros",
+   "monthlyViews": 8554,
+   "days": 60
+  },
+  "island-milos": {
+   "title": "Milos",
+   "monthlyViews": 10958,
+   "days": 60
+  },
+  "island-kos": {
+   "title": "Kos",
+   "monthlyViews": 14976,
+   "days": 59
+  },
+  "island-samos": {
+   "title": "Samos",
+   "monthlyViews": 12054,
+   "days": 60
+  },
+  "island-chios": {
+   "title": "Chios",
+   "monthlyViews": 12206,
+   "days": 60
+  },
+  "island-euboea": {
+   "title": "Euboea",
+   "monthlyViews": 12907,
+   "days": 59
+  },
+  "island-hydra": {
+   "title": "Hydra (island)",
+   "monthlyViews": 11050,
+   "days": 59
+  },
+  "island-patmos": {
+   "title": "Patmos",
+   "monthlyViews": 15068,
+   "days": 59
+  },
+  "island-delos": {
+   "title": "Delos",
+   "monthlyViews": 14550,
+   "days": 60
+  },
+  "island-ithaca": {
+   "title": "Ithaca (island)",
+   "monthlyViews": 98534,
+   "days": 60
+  },
+  "island-gozo": {
+   "title": "Gozo",
+   "monthlyViews": 16681,
+   "days": 60
+  },
+  "island-menorca": {
+   "title": "Menorca",
+   "monthlyViews": 18903,
+   "days": 60
+  },
+  "island-formentera": {
+   "title": "Formentera",
+   "monthlyViews": 6910,
+   "days": 60
+  },
+  "island-gran-canaria": {
+   "title": "Gran Canaria",
+   "monthlyViews": 16438,
+   "days": 60
+  },
+  "island-fuerteventura": {
+   "title": "Fuerteventura",
+   "monthlyViews": 15342,
+   "days": 60
+  },
+  "island-la-palma": {
+   "title": "La Palma",
+   "monthlyViews": 10563,
+   "days": 59
+  },
+  "island-la-gomera": {
+   "title": "La Gomera",
+   "monthlyViews": 5388,
+   "days": 60
+  },
+  "island-el-hierro": {
+   "title": "El Hierro",
+   "monthlyViews": 3653,
+   "days": 59
+  },
+  "island-porto-santo": {
+   "title": "Porto Santo Island",
+   "monthlyViews": 4049,
+   "days": 60
+  },
+  "island-sao-miguel": {
+   "title": "São Miguel Island",
+   "monthlyViews": 9802,
+   "days": 60
+  },
+  "island-terceira": {
+   "title": "Terceira Island",
+   "monthlyViews": 6666,
+   "days": 60
+  },
+  "island-pico-island": {
+   "title": "Pico Island",
+   "monthlyViews": 3257,
+   "days": 59
+  },
+  "island-lampedusa": {
+   "title": "Lampedusa",
+   "monthlyViews": 11415,
+   "days": 60
+  },
+  "island-pantelleria": {
+   "title": "Pantelleria",
+   "monthlyViews": 10350,
+   "days": 60
+  },
+  "island-lipari": {
+   "title": "Lipari",
+   "monthlyViews": 8980,
+   "days": 60
+  },
+  "island-vulcano": {
+   "title": "Vulcano",
+   "monthlyViews": 4170,
+   "days": 60
+  },
+  "island-rugen": {
+   "title": "Rügen",
+   "monthlyViews": 6514,
+   "days": 60
+  },
+  "island-sylt": {
+   "title": "Sylt",
+   "monthlyViews": 5571,
+   "days": 59
+  },
+  "island-usedom": {
+   "title": "Usedom",
+   "monthlyViews": 3440,
+   "days": 60
+  },
+  "island-helgoland": {
+   "title": "Heligoland",
+   "monthlyViews": 17716,
+   "days": 60
+  },
+  "island-oland": {
+   "title": "Öland",
+   "monthlyViews": 3957,
+   "days": 60
+  },
+  "island-lolland": {
+   "title": "Lolland",
+   "monthlyViews": 1766,
+   "days": 60
+  },
+  "island-falster": {
+   "title": "Falster",
+   "monthlyViews": 791,
+   "days": 59
+  },
+  "island-mon": {
+   "title": "Møn",
+   "monthlyViews": 1370,
+   "days": 60
+  },
+  "island-samso": {
+   "title": "Samsø",
+   "monthlyViews": 1065,
+   "days": 59
+  },
+  "island-saaremaa": {
+   "title": "Saaremaa",
+   "monthlyViews": 5905,
+   "days": 60
+  },
+  "island-hiiumaa": {
+   "title": "Hiiumaa",
+   "monthlyViews": 2557,
+   "days": 59
+  },
+  "island-senja": {
+   "title": "Senja",
+   "monthlyViews": 1309,
+   "days": 59
+  },
+  "island-hinnoya": {
+   "title": "Hinnøya",
+   "monthlyViews": 609,
+   "days": 60
+  },
+  "island-mull": {
+   "title": "Isle of Mull",
+   "monthlyViews": 10350,
+   "days": 60
+  },
+  "island-islay": {
+   "title": "Islay",
+   "monthlyViews": 7427,
+   "days": 59
+  },
+  "island-jura": {
+   "title": "Jura, Scotland",
+   "monthlyViews": 3896,
+   "days": 60
+  },
+  "island-arran": {
+   "title": "Isle of Arran",
+   "monthlyViews": 9771,
+   "days": 60
+  },
+  "island-bute": {
+   "title": "Isle of Bute",
+   "monthlyViews": 6210,
+   "days": 59
+  },
+  "island-north-uist": {
+   "title": "North Uist",
+   "monthlyViews": 2679,
+   "days": 60
+  },
+  "island-south-uist": {
+   "title": "South Uist",
+   "monthlyViews": 2648,
+   "days": 60
+  },
+  "island-barra": {
+   "title": "Barra",
+   "monthlyViews": 5236,
+   "days": 59
+  },
+  "island-tiree": {
+   "title": "Tiree",
+   "monthlyViews": 3288,
+   "days": 59
+  },
+  "island-coll": {
+   "title": "Coll",
+   "monthlyViews": 1857,
+   "days": 59
+  },
+  "island-rum": {
+   "title": "Rùm",
+   "monthlyViews": 3135,
+   "days": 59
+  },
+  "island-eigg": {
+   "title": "Eigg",
+   "monthlyViews": 2618,
+   "days": 59
+  },
+  "island-staffa": {
+   "title": "Staffa",
+   "monthlyViews": 2496,
+   "days": 60
+  },
+  "island-lindisfarne": {
+   "title": "Lindisfarne",
+   "monthlyViews": 27487,
+   "days": 60
+  },
+  "island-tresco": {
+   "title": "Tresco, Isles of Scilly",
+   "monthlyViews": 2496,
+   "days": 59
+  },
+  "island-sark": {
+   "title": "Sark",
+   "monthlyViews": 19390,
+   "days": 59
+  },
+  "island-alderney": {
+   "title": "Alderney",
+   "monthlyViews": 12298,
+   "days": 60
+  },
+  "island-herm": {
+   "title": "Herm",
+   "monthlyViews": 3988,
+   "days": 59
+  },
+  "island-achill-island": {
+   "title": "Achill Island",
+   "monthlyViews": 5479,
+   "days": 60
+  },
+  "island-valentia-island": {
+   "title": "Valentia Island",
+   "monthlyViews": 3135,
+   "days": 60
+  },
+  "island-skellig-michael": {
+   "title": "Skellig Michael",
+   "monthlyViews": 10958,
+   "days": 59
+  },
+  "island-rathlin-island": {
+   "title": "Rathlin Island",
+   "monthlyViews": 4627,
+   "days": 59
+  },
+  "island-clare-island": {
+   "title": "Clare Island",
+   "monthlyViews": 3318,
+   "days": 60
+  },
+  "island-streymoy": {
+   "title": "Streymoy",
+   "monthlyViews": 913,
+   "days": 59
+  },
+  "island-phuket": {
+   "title": "Phuket province",
+   "monthlyViews": 10106,
+   "days": 60
+  },
+  "island-koh-samui": {
+   "title": "Ko Samui",
+   "monthlyViews": 12420,
+   "days": 60
+  },
+  "island-langkawi": {
+   "title": "Langkawi",
+   "monthlyViews": 12359,
+   "days": 60
+  },
+  "island-penang-island": {
+   "title": "Penang Island",
+   "monthlyViews": 3440,
+   "days": 60
+  },
+  "island-tioman": {
+   "title": "Tioman Island",
+   "monthlyViews": 2527,
+   "days": 60
+  },
+  "island-boracay": {
+   "title": "Boracay",
+   "monthlyViews": 10380,
+   "days": 60
+  },
+  "island-cebu": {
+   "title": "Cebu",
+   "monthlyViews": 17199,
+   "days": 60
+  },
+  "island-bohol": {
+   "title": "Bohol",
+   "monthlyViews": 6027,
+   "days": 59
+  },
+  "island-siargao": {
+   "title": "Siargao",
+   "monthlyViews": 7519,
+   "days": 59
+  },
+  "island-jeju-island": {
+   "title": "Jeju Island",
+   "monthlyViews": 30957,
+   "days": 59
+  },
+  "island-okinawa-island": {
+   "title": "Okinawa Island",
+   "monthlyViews": 33271,
+   "days": 60
+  },
+  "island-sado-island": {
+   "title": "Sado Island",
+   "monthlyViews": 3257,
+   "days": 59
+  },
+  "island-yakushima": {
+   "title": "Yakushima",
+   "monthlyViews": 4566,
+   "days": 59
+  },
+  "island-miyajima": {
+   "title": "Itsukushima",
+   "monthlyViews": 3440,
+   "days": 59
+  },
+  "island-awaji-island": {
+   "title": "Awaji Island",
+   "monthlyViews": 3196,
+   "days": 59
+  },
+  "island-ishigaki-island": {
+   "title": "Ishigaki Island",
+   "monthlyViews": 3257,
+   "days": 59
+  },
+  "island-lombok": {
+   "title": "Lombok",
+   "monthlyViews": 10319,
+   "days": 60
+  },
+  "island-komodo": {
+   "title": "Komodo (island)",
+   "monthlyViews": 8006,
+   "days": 60
+  },
+  "island-sumba": {
+   "title": "Sumba",
+   "monthlyViews": 5205,
+   "days": 59
+  },
+  "island-sumbawa": {
+   "title": "Sumbawa",
+   "monthlyViews": 3348,
+   "days": 59
+  },
+  "island-ambon-island": {
+   "title": "Ambon Island",
+   "monthlyViews": 2861,
+   "days": 59
+  },
+  "island-ternate": {
+   "title": "Ternate",
+   "monthlyViews": 3409,
+   "days": 59
+  },
+  "island-nias": {
+   "title": "Nias",
+   "monthlyViews": 2039,
+   "days": 59
+  },
+  "island-bintan": {
+   "title": "Bintan Regency",
+   "monthlyViews": 335,
+   "days": 60
+  },
+  "island-batam": {
+   "title": "Batam",
+   "monthlyViews": 9863,
+   "days": 60
+  },
+  "island-christmas-island": {
+   "title": "Christmas Island",
+   "monthlyViews": 37441,
+   "days": 59
+  },
+  "island-norfolk-island": {
+   "title": "Norfolk Island",
+   "monthlyViews": 33027,
+   "days": 60
+  },
+  "island-lord-howe-island": {
+   "title": "Lord Howe Island",
+   "monthlyViews": 9741,
+   "days": 60
+  },
+  "island-kangaroo-island": {
+   "title": "Kangaroo Island",
+   "monthlyViews": 6058,
+   "days": 59
+  },
+  "island-fraser-island": {
+   "title": "K'gari",
+   "monthlyViews": 6879,
+   "days": 60
+  },
+  "island-rottnest-island": {
+   "title": "Rottnest Island",
+   "monthlyViews": 5936,
+   "days": 59
+  },
+  "island-bruny-island": {
+   "title": "Bruny Island",
+   "monthlyViews": 2648,
+   "days": 60
+  },
+  "island-stewart-island": {
+   "title": "Stewart Island",
+   "monthlyViews": 5114,
+   "days": 60
+  },
+  "island-waiheke-island": {
+   "title": "Waiheke Island",
+   "monthlyViews": 4018,
+   "days": 60
+  },
+  "island-bora-bora": {
+   "title": "Bora Bora",
+   "monthlyViews": 31840,
+   "days": 59
+  },
+  "island-tahiti": {
+   "title": "Tahiti",
+   "monthlyViews": 45690,
+   "days": 60
+  },
+  "island-moorea": {
+   "title": "Moʼorea",
+   "monthlyViews": 4779,
+   "days": 59
+  },
+  "island-rangiroa": {
+   "title": "Rangiroa",
+   "monthlyViews": 1948,
+   "days": 60
+  },
+  "island-nuku-hiva": {
+   "title": "Nuku Hiva",
+   "monthlyViews": 3257,
+   "days": 60
+  },
+  "island-rarotonga": {
+   "title": "Rarotonga",
+   "monthlyViews": 7823,
+   "days": 59
+  },
+  "island-aitutaki": {
+   "title": "Aitutaki",
+   "monthlyViews": 4414,
+   "days": 60
+  },
+  "island-upolu": {
+   "title": "Upolu",
+   "monthlyViews": 2648,
+   "days": 59
+  },
+  "island-savaii": {
+   "title": "Savaiʻi",
+   "monthlyViews": 1035,
+   "days": 60
+  },
+  "island-tutuila": {
+   "title": "Tutuila",
+   "monthlyViews": 1309,
+   "days": 59
+  },
+  "island-efate": {
+   "title": "Efate",
+   "monthlyViews": 1492,
+   "days": 60
+  },
+  "island-espiritu-santo": {
+   "title": "Espiritu Santo",
+   "monthlyViews": 3531,
+   "days": 60
+  },
+  "island-tanna": {
+   "title": "Tanna (island)",
+   "monthlyViews": 2618,
+   "days": 60
+  },
+  "island-viti-levu": {
+   "title": "Viti Levu",
+   "monthlyViews": 4079,
+   "days": 59
+  },
+  "island-vanua-levu": {
+   "title": "Vanua Levu",
+   "monthlyViews": 1613,
+   "days": 60
+  },
+  "island-guadalcanal": {
+   "title": "Guadalcanal",
+   "monthlyViews": 14307,
+   "days": 60
+  },
+  "island-bougainville-island": {
+   "title": "Bougainville Island",
+   "monthlyViews": 20243,
+   "days": 60
+  },
+  "island-new-ireland": {
+   "title": "New Ireland (island)",
+   "monthlyViews": 3835,
+   "days": 60
+  },
+  "island-manus-island": {
+   "title": "Manus Island",
+   "monthlyViews": 2253,
+   "days": 59
+  },
+  "island-saipan": {
+   "title": "Saipan, Northern Mariana Islands",
+   "monthlyViews": 25174,
+   "days": 60
+  },
+  "island-tinian": {
+   "title": "Tinian, Northern Mariana Islands",
+   "monthlyViews": 5997,
+   "days": 59
+  },
+  "island-babeldaob": {
+   "title": "Babeldaob",
+   "monthlyViews": 1065,
+   "days": 59
+  },
+  "island-pohnpei": {
+   "title": "Pohnpei",
+   "monthlyViews": 5875,
+   "days": 60
+  },
+  "island-majuro": {
+   "title": "Majuro",
+   "monthlyViews": 8645,
+   "days": 60
+  },
+  "island-kwajalein": {
+   "title": "Kwajalein Atoll",
+   "monthlyViews": 10928,
+   "days": 60
+  },
+  "island-bikini-atoll": {
+   "title": "Bikini Atoll",
+   "monthlyViews": 33941,
+   "days": 60
+  },
+  "island-kiritimati": {
+   "title": "Kiritimati",
+   "monthlyViews": 12541,
+   "days": 60
+  },
+  "island-wake-island": {
+   "title": "Wake Island",
+   "monthlyViews": 24687,
+   "days": 59
+  },
+  "island-midway-atoll": {
+   "title": "Midway Atoll",
+   "monthlyViews": 27974,
+   "days": 60
+  },
+  "island-mahe": {
+   "title": "Mahé",
+   "monthlyViews": 2070,
+   "days": 60
+  },
+  "island-praslin": {
+   "title": "Praslin",
+   "monthlyViews": 1431,
+   "days": 60
+  },
+  "island-la-digue": {
+   "title": "La Digue",
+   "monthlyViews": 1705,
+   "days": 60
+  },
+  "island-aldabra": {
+   "title": "Aldabra",
+   "monthlyViews": 3105,
+   "days": 60
+  },
+  "island-pemba-island": {
+   "title": "Pemba Island",
+   "monthlyViews": 2800,
+   "days": 60
+  },
+  "island-mafia-island": {
+   "title": "Mafia Island",
+   "monthlyViews": 1705,
+   "days": 59
+  },
+  "island-grande-comore": {
+   "title": "Grande Comore",
+   "monthlyViews": 2405,
+   "days": 60
+  },
+  "island-mayotte": {
+   "title": "Mayotte",
+   "monthlyViews": 31110,
+   "days": 60
+  },
+  "island-nosy-be": {
+   "title": "Nosy Be",
+   "monthlyViews": 2557,
+   "days": 59
+  },
+  "island-rodrigues": {
+   "title": "Rodrigues",
+   "monthlyViews": 5966,
+   "days": 59
+  },
+  "island-principe": {
+   "title": "Príncipe",
+   "monthlyViews": 5023,
+   "days": 60
+  },
+  "island-sao-tome-island": {
+   "title": "São Tomé (island)",
+   "monthlyViews": 1674,
+   "days": 60
+  },
+  "island-santiago-island": {
+   "title": "Santiago, Cape Verde",
+   "monthlyViews": 3196,
+   "days": 60
+  },
+  "island-sal": {
+   "title": "Sal, Cape Verde",
+   "monthlyViews": 5114,
+   "days": 59
+  },
+  "island-boa-vista": {
+   "title": "Boa Vista, Cape Verde",
+   "monthlyViews": 2496,
+   "days": 59
+  },
+  "island-robben-island": {
+   "title": "Robben Island",
+   "monthlyViews": 8371,
+   "days": 60
+  },
+  "island-goree": {
+   "title": "Gorée",
+   "monthlyViews": 3227,
+   "days": 59
+  },
+  "island-djerba": {
+   "title": "Djerba",
+   "monthlyViews": 9832,
+   "days": 60
+  },
+  "island-andaman-islands": {
+   "title": "Andaman Islands",
+   "monthlyViews": 18568,
+   "days": 59
+  },
+  "island-seychelles": {
+   "title": "Seychelles",
+   "monthlyViews": 109340,
+   "days": 60
+  },
+  "island-maldives": {
+   "title": "Maldives",
+   "monthlyViews": 129553,
+   "days": 60
+  },
+  "island-canary-islands": {
+   "title": "Canary Islands",
+   "monthlyViews": 90376,
+   "days": 60
+  },
+  "island-balearic-islands": {
+   "title": "Balearic Islands",
+   "monthlyViews": 39755,
+   "days": 60
+  },
+  "island-azores": {
+   "title": "Azores",
+   "monthlyViews": 92051,
+   "days": 60
+  },
+  "island-galapagos-islands": {
+   "title": "Galápagos Islands",
+   "monthlyViews": 49556,
+   "days": 59
+  },
+  "island-aleutian-islands": {
+   "title": "Aleutian Islands",
+   "monthlyViews": 23469,
+   "days": 60
+  },
+  "island-florida-keys": {
+   "title": "Florida Keys",
+   "monthlyViews": 20212,
+   "days": 60
+  },
+  "island-faroe-islands": {
+   "title": "Faroe Islands",
+   "monthlyViews": 126965,
+   "days": 60
+  },
+  "island-cyclades": {
+   "title": "Cyclades",
+   "monthlyViews": 16559,
+   "days": 60
+  },
+  "island-isles-of-scilly": {
+   "title": "Isles of Scilly",
+   "monthlyViews": 27518,
+   "days": 60
+  },
+  "island-svalbard": {
+   "title": "Svalbard",
+   "monthlyViews": 61915,
+   "days": 59
+  },
+  "island-outer-hebrides": {
+   "title": "Outer Hebrides",
+   "monthlyViews": 17716,
+   "days": 59
+  },
+  "island-cook-islands": {
+   "title": "Cook Islands",
+   "monthlyViews": 54214,
+   "days": 60
+  },
+  "island-society-islands": {
+   "title": "Society Islands",
+   "monthlyViews": 9741,
+   "days": 60
+  },
+  "island-marquesas-islands": {
+   "title": "Marquesas Islands",
+   "monthlyViews": 14124,
+   "days": 60
+  },
+  "sea_ocean-pacific-ocean": {
+   "title": "Pacific Ocean",
+   "monthlyViews": 61976,
+   "days": 60
+  },
+  "sea_ocean-atlantic-ocean": {
+   "title": "Atlantic Ocean",
+   "monthlyViews": 54244,
+   "days": 60
+  },
+  "sea_ocean-indian-ocean": {
+   "title": "Indian Ocean",
+   "monthlyViews": 32327,
+   "days": 60
+  },
+  "sea_ocean-southern-ocean": {
+   "title": "Southern Ocean",
+   "monthlyViews": 23713,
+   "days": 60
+  },
+  "sea_ocean-arctic-ocean": {
+   "title": "Arctic Ocean",
+   "monthlyViews": 20121,
+   "days": 60
+  },
+  "sea_ocean-philippine-sea": {
+   "title": "Philippine Sea",
+   "monthlyViews": 5723,
+   "days": 60
+  },
+  "sea_ocean-sargasso-sea": {
+   "title": "Sargasso Sea",
+   "monthlyViews": 37198,
+   "days": 60
+  },
+  "sea_ocean-coral-sea": {
+   "title": "Coral Sea",
+   "monthlyViews": 6088,
+   "days": 60
+  },
+  "sea_ocean-arabian-sea": {
+   "title": "Arabian Sea",
+   "monthlyViews": 16255,
+   "days": 60
+  },
+  "sea_ocean-south-china-sea": {
+   "title": "South China Sea",
+   "monthlyViews": 14489,
+   "days": 60
+  },
+  "sea_ocean-weddell-sea": {
+   "title": "Weddell Sea",
+   "monthlyViews": 3622,
+   "days": 60
+  },
+  "sea_ocean-caribbean-sea": {
+   "title": "Caribbean Sea",
+   "monthlyViews": 15798,
+   "days": 60
+  },
+  "sea_ocean-mediterranean-sea": {
+   "title": "Mediterranean Sea",
+   "monthlyViews": 65781,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-guinea": {
+   "title": "Gulf of Guinea",
+   "monthlyViews": 7214,
+   "days": 60
+  },
+  "sea_ocean-tasman-sea": {
+   "title": "Tasman Sea",
+   "monthlyViews": 5083,
+   "days": 60
+  },
+  "sea_ocean-bay-of-bengal": {
+   "title": "Bay of Bengal",
+   "monthlyViews": 17138,
+   "days": 60
+  },
+  "sea_ocean-bering-sea": {
+   "title": "Bering Sea",
+   "monthlyViews": 9193,
+   "days": 60
+  },
+  "sea_ocean-sea-of-okhotsk": {
+   "title": "Sea of Okhotsk",
+   "monthlyViews": 7001,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-mexico": {
+   "title": "Gulf of Mexico",
+   "monthlyViews": 64655,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-alaska": {
+   "title": "Gulf of Alaska",
+   "monthlyViews": 2192,
+   "days": 60
+  },
+  "sea_ocean-barents-sea": {
+   "title": "Barents Sea",
+   "monthlyViews": 19086,
+   "days": 60
+  },
+  "sea_ocean-norwegian-sea": {
+   "title": "Norwegian Sea",
+   "monthlyViews": 3957,
+   "days": 60
+  },
+  "sea_ocean-east-china-sea": {
+   "title": "East China Sea",
+   "monthlyViews": 4627,
+   "days": 60
+  },
+  "sea_ocean-hudson-bay": {
+   "title": "Hudson Bay",
+   "monthlyViews": 17229,
+   "days": 60
+  },
+  "sea_ocean-greenland-sea": {
+   "title": "Greenland Sea",
+   "monthlyViews": 5662,
+   "days": 60
+  },
+  "sea_ocean-east-siberian-sea": {
+   "title": "East Siberian Sea",
+   "monthlyViews": 1005,
+   "days": 60
+  },
+  "sea_ocean-sea-of-japan": {
+   "title": "Sea of Japan",
+   "monthlyViews": 10380,
+   "days": 60
+  },
+  "sea_ocean-ross-sea": {
+   "title": "Ross Sea",
+   "monthlyViews": 2466,
+   "days": 60
+  },
+  "sea_ocean-kara-sea": {
+   "title": "Kara Sea",
+   "monthlyViews": 4049,
+   "days": 60
+  },
+  "sea_ocean-scotia-sea": {
+   "title": "Scotia Sea",
+   "monthlyViews": 1126,
+   "days": 60
+  },
+  "sea_ocean-labrador-sea": {
+   "title": "Labrador Sea",
+   "monthlyViews": 2374,
+   "days": 60
+  },
+  "sea_ocean-andaman-sea": {
+   "title": "Andaman Sea",
+   "monthlyViews": 5844,
+   "days": 60
+  },
+  "sea_ocean-banda-sea": {
+   "title": "Banda Sea",
+   "monthlyViews": 1339,
+   "days": 60
+  },
+  "sea_ocean-baffin-bay": {
+   "title": "Baffin Bay",
+   "monthlyViews": 2922,
+   "days": 60
+  },
+  "sea_ocean-laptev-sea": {
+   "title": "Laptev Sea",
+   "monthlyViews": 1613,
+   "days": 60
+  },
+  "sea_ocean-arafura-sea": {
+   "title": "Arafura Sea",
+   "monthlyViews": 2070,
+   "days": 60
+  },
+  "sea_ocean-timor-sea": {
+   "title": "Timor Sea",
+   "monthlyViews": 1644,
+   "days": 60
+  },
+  "sea_ocean-chukchi-sea": {
+   "title": "Chukchi Sea",
+   "monthlyViews": 2831,
+   "days": 60
+  },
+  "sea_ocean-north-sea": {
+   "title": "North Sea",
+   "monthlyViews": 25296,
+   "days": 60
+  },
+  "sea_ocean-bellingshausen-sea": {
+   "title": "Bellingshausen Sea",
+   "monthlyViews": 639,
+   "days": 60
+  },
+  "sea_ocean-beaufort-sea": {
+   "title": "Beaufort Sea",
+   "monthlyViews": 3622,
+   "days": 60
+  },
+  "sea_ocean-red-sea": {
+   "title": "Red Sea",
+   "monthlyViews": 36985,
+   "days": 60
+  },
+  "sea_ocean-black-sea": {
+   "title": "Black Sea",
+   "monthlyViews": 50470,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-aden": {
+   "title": "Gulf of Aden",
+   "monthlyViews": 8280,
+   "days": 60
+  },
+  "sea_ocean-yellow-sea": {
+   "title": "Yellow Sea",
+   "monthlyViews": 7184,
+   "days": 60
+  },
+  "sea_ocean-baltic-sea": {
+   "title": "Baltic Sea",
+   "monthlyViews": 29588,
+   "days": 60
+  },
+  "sea_ocean-caspian-sea": {
+   "title": "Caspian Sea",
+   "monthlyViews": 76404,
+   "days": 60
+  },
+  "sea_ocean-java-sea": {
+   "title": "Java Sea",
+   "monthlyViews": 2313,
+   "days": 60
+  },
+  "sea_ocean-levantine-sea": {
+   "title": "Levantine Sea",
+   "monthlyViews": 3135,
+   "days": 60
+  },
+  "sea_ocean-celtic-sea": {
+   "title": "Celtic Sea",
+   "monthlyViews": 6118,
+   "days": 60
+  },
+  "sea_ocean-celebes-sea": {
+   "title": "Celebes Sea",
+   "monthlyViews": 1796,
+   "days": 60
+  },
+  "sea_ocean-tyrrhenian-sea": {
+   "title": "Tyrrhenian Sea",
+   "monthlyViews": 15098,
+   "days": 60
+  },
+  "sea_ocean-sulu-sea": {
+   "title": "Sulu Sea",
+   "monthlyViews": 1857,
+   "days": 60
+  },
+  "sea_ocean-persian-gulf": {
+   "title": "Persian Gulf",
+   "monthlyViews": 26178,
+   "days": 60
+  },
+  "sea_ocean-flores-sea": {
+   "title": "Flores Sea",
+   "monthlyViews": 761,
+   "days": 60
+  },
+  "sea_ocean-bay-of-biscay": {
+   "title": "Bay of Biscay",
+   "monthlyViews": 13668,
+   "days": 60
+  },
+  "sea_ocean-aegean-sea": {
+   "title": "Aegean Sea",
+   "monthlyViews": 31171,
+   "days": 60
+  },
+  "sea_ocean-molucca-sea": {
+   "title": "Molucca Sea",
+   "monthlyViews": 517,
+   "days": 60
+  },
+  "sea_ocean-ionian-sea": {
+   "title": "Ionian Sea",
+   "monthlyViews": 12937,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-california": {
+   "title": "Gulf of California",
+   "monthlyViews": 11080,
+   "days": 60
+  },
+  "sea_ocean-adriatic-sea": {
+   "title": "Adriatic Sea",
+   "monthlyViews": 23561,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-bothnia": {
+   "title": "Gulf of Bothnia",
+   "monthlyViews": 4810,
+   "days": 60
+  },
+  "sea_ocean-savu-sea": {
+   "title": "Savu Sea",
+   "monthlyViews": 244,
+   "days": 60
+  },
+  "sea_ocean-amundsen-sea": {
+   "title": "Amundsen Sea",
+   "monthlyViews": 457,
+   "days": 60
+  },
+  "sea_ocean-sea-of-crete": {
+   "title": "Sea of Crete",
+   "monthlyViews": 1492,
+   "days": 60
+  },
+  "sea_ocean-halmahera-sea": {
+   "title": "Halmahera Sea",
+   "monthlyViews": 183,
+   "days": 60
+  },
+  "sea_ocean-white-sea": {
+   "title": "White Sea",
+   "monthlyViews": 7914,
+   "days": 60
+  },
+  "sea_ocean-balearic-sea": {
+   "title": "Balearic Sea",
+   "monthlyViews": 2861,
+   "days": 60
+  },
+  "sea_ocean-english-channel": {
+   "title": "English Channel",
+   "monthlyViews": 28979,
+   "days": 60
+  },
+  "sea_ocean-lincoln-sea": {
+   "title": "Lincoln Sea",
+   "monthlyViews": 670,
+   "days": 60
+  },
+  "sea_ocean-alboran-sea": {
+   "title": "Alboran Sea",
+   "monthlyViews": 2740,
+   "days": 60
+  },
+  "sea_ocean-skagerrak": {
+   "title": "Skagerrak",
+   "monthlyViews": 5236,
+   "days": 60
+  },
+  "sea_ocean-irish-sea": {
+   "title": "Irish Sea",
+   "monthlyViews": 9193,
+   "days": 60
+  },
+  "sea_ocean-sea-of-azov": {
+   "title": "Sea of Azov",
+   "monthlyViews": 13059,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-finland": {
+   "title": "Gulf of Finland",
+   "monthlyViews": 5540,
+   "days": 60
+  },
+  "sea_ocean-kattegat": {
+   "title": "Kattegat",
+   "monthlyViews": 13150,
+   "days": 60
+  },
+  "sea_ocean-aral-sea": {
+   "title": "Aral Sea",
+   "monthlyViews": 46208,
+   "days": 60
+  },
+  "sea_ocean-ligurian-sea": {
+   "title": "Ligurian Sea",
+   "monthlyViews": 3379,
+   "days": 60
+  },
+  "sea_ocean-sea-of-marmara": {
+   "title": "Sea of Marmara",
+   "monthlyViews": 11659,
+   "days": 60
+  },
+  "sea_ocean-wadden-sea": {
+   "title": "Wadden Sea",
+   "monthlyViews": 6514,
+   "days": 60
+  },
+  "sea_ocean-dead-sea": {
+   "title": "Dead Sea",
+   "monthlyViews": 41611,
+   "days": 59
+  },
+  "sea_ocean-gulf-of-thailand": {
+   "title": "Gulf of Thailand",
+   "monthlyViews": 4870,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-oman": {
+   "title": "Gulf of Oman",
+   "monthlyViews": 6484,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-carpentaria": {
+   "title": "Gulf of Carpentaria",
+   "monthlyViews": 3105,
+   "days": 60
+  },
+  "sea_ocean-bay-of-fundy": {
+   "title": "Bay of Fundy",
+   "monthlyViews": 14946,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-riga": {
+   "title": "Gulf of Riga",
+   "monthlyViews": 1065,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-sidra": {
+   "title": "Gulf of Sidra",
+   "monthlyViews": 2496,
+   "days": 60
+  },
+  "sea_ocean-great-australian-bight": {
+   "title": "Great Australian Bight",
+   "monthlyViews": 4262,
+   "days": 60
+  },
+  "sea_ocean-gulf-of-saint-lawrence": {
+   "title": "Gulf of St. Lawrence",
+   "monthlyViews": 4505,
+   "days": 59
+  },
+  "sea_ocean-bismarck-sea": {
+   "title": "Bismarck Sea",
+   "monthlyViews": 1400,
+   "days": 59
+  },
+  "sea_ocean-solomon-sea": {
+   "title": "Solomon Sea",
+   "monthlyViews": 700,
+   "days": 60
+  },
+  "sea_ocean-bali-sea": {
+   "title": "Bali Sea",
+   "monthlyViews": 517,
+   "days": 59
+  },
+  "sea_ocean-ceram-sea": {
+   "title": "Seram Sea",
+   "monthlyViews": 183,
+   "days": 60
+  },
+  "sea_ocean-mozambique-channel": {
+   "title": "Mozambique Channel",
+   "monthlyViews": 2161,
+   "days": 59
+  },
+  "sea_ocean-chesapeake-bay": {
+   "title": "Chesapeake Bay",
+   "monthlyViews": 19908,
+   "days": 59
+  }
+ }
+}

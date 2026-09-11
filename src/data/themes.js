@@ -1,0 +1,213 @@
+/**
+ * Curated theme sets for the "Name a river in Mesopotamia" style of prompt.
+ *
+ * Members are listed by their in-game name and resolved to entries at load time
+ * (case- and accent-insensitively). `npm run validate` reports any name here
+ * that no longer exists in the bank, and any theme too small to use.
+ *
+ * These are hand-curated rather than derived from coordinates on purpose: a
+ * themed prompt REJECTS answers outside its set, so a half-complete set would
+ * turn a correct answer into a wrong one. If you add a place that belongs to a
+ * theme, add it here too.
+ */
+globalThis.WORMILLION_THEMES = {
+  river: {
+    'Mesopotamia': ['Tigris', 'Euphrates'],
+    'the British Isles': [
+      'Thames', 'Severn', 'Trent', 'Shannon', 'Liffey', 'Clyde', 'Tay', 'Spey',
+      'Wye', 'Aire', 'Ouse', 'Cam', 'Medway', 'Bristol Avon', 'River Tweed',
+      'River Forth', 'River Exe', 'River Dee', 'River Bann'
+    ],
+    'Siberia': ['Ob', 'Yenisei', 'Lena', 'Kolyma', 'Aldan', 'Vilyuy', 'Olenyok', 'Amur'],
+    'South America': [
+      'Amazon', 'Parana', 'Madeira', 'Purus', 'Negro River', 'Orinoco',
+      'Sao Francisco', 'Tocantins', 'Araguaia', 'Xingu', 'Uruguay River',
+      'Pilcomayo', 'Paraguay River', 'Maranon'
+    ],
+    'Africa': [
+      'Nile', 'Congo River', 'Niger River', 'Zambezi', 'Orange River', 'Ubangi',
+      'Limpopo', 'Senegal River', 'Gambia River', 'Volta River', 'Blue Nile', 'White Nile'
+    ],
+    'Europe': [
+      'Danube', 'Rhine', 'Elbe', 'Vistula', 'Loire', 'Seine', 'Po', 'Tagus',
+      'Douro', 'Ebro', 'Oder', 'Meuse', 'Guadalquivir', 'Don', 'Dnieper',
+      'Volga', 'Kama', 'Ural River', 'Rhone', 'Vltava', 'Sava', 'Drava', 'Neva',
+      'Moselle', 'Main', 'Weser', 'Tisza', 'Guadiana', 'Adige', 'Arno', 'Tiber'
+    ],
+    'India': [
+      'Ganges', 'Brahmaputra', 'Indus', 'Yamuna', 'Godavari', 'Krishna River',
+      'Narmada', 'Sutlej', 'Chenab'
+    ],
+    'North America': [
+      'Mississippi', 'Missouri', 'Colorado River', 'Rio Grande', 'Yukon',
+      'Mackenzie', 'Saint Lawrence', 'Ohio River', 'Arkansas River',
+      'Columbia River', 'Snake River', 'Churchill River', 'Nelson River',
+      'Red River', 'Ottawa River'
+    ]
+  },
+
+  mountain: {
+    'the Alps': [
+      'Mont Blanc', 'Matterhorn', 'Monte Rosa', 'Eiger', 'Jungfrau',
+      'Grossglockner', 'Zugspitze', 'Marmolada', 'Piz Bernina', 'Weisshorn'
+    ],
+    'the Himalayas': [
+      'Mount Everest', 'Kangchenjunga', 'Lhotse', 'Makalu', 'Cho Oyu',
+      'Dhaulagiri', 'Manaslu', 'Annapurna', 'Nanga Parbat', 'Shishapangma',
+      'Ama Dablam', 'Machapuchare'
+    ],
+    'the Andes': ['Aconcagua', 'Ojos del Salado', 'Huascaran', 'Illimani', 'Chimborazo', 'Cotopaxi'],
+    'the Rockies': ['Mount Elbert', 'Pikes Peak', 'Grand Teton', 'Longs Peak', 'Mount Robson'],
+    'Scotland': [
+      'Ben Nevis', 'Ben Macdui', 'Braeriach', 'Cairn Gorm', 'Schiehallion',
+      'Ben Lomond', 'Goat Fell', 'Arthurs Seat'
+    ],
+    'England or Wales': [
+      'Scafell Pike', 'Snowdon', 'Helvellyn', 'Skiddaw', 'Great Gable',
+      'Cross Fell', 'Pen y Fan', 'Cadair Idris', 'Kinder Scout', 'Whernside',
+      'Ingleborough', 'Pen-y-ghent', 'Mam Tor', 'The Cheviot', 'Box Hill',
+      'Leith Hill', 'The Wrekin', 'Dunkery Beacon', 'High Willhays', 'Brown Willy'
+    ],
+    'Indonesia': [
+      'Mount Bromo', 'Mount Merapi', 'Mount Semeru', 'Mount Agung', 'Krakatoa',
+      'Mount Rinjani', 'Puncak Jaya'
+    ],
+    'volcanoes': [
+      'Mount Etna', 'Vesuvius', 'Stromboli', 'Mount Fuji', 'Popocatepetl',
+      'Cotopaxi', 'Krakatoa', 'Mount St Helens', 'Mount Rainier', 'Mount Erebus',
+      'Mount Merapi', 'Mount Pinatubo', 'Mayon', 'Mount Teide', 'Haleakala',
+      'Mauna Loa', 'Mount Aso', 'Mount Bromo', 'Mount Agung', 'Mount Rinjani',
+      'Mount Semeru', 'Mount Kilimanjaro', 'Mount Shasta', 'Mount Hood',
+      'Mount Baker', 'Mount Ararat', 'Damavand', 'Mount Cameroon'
+    ]
+  },
+
+  island: {
+    'the Caribbean': [
+      'Cuba Island', 'Hispaniola', 'Jamaica Island', 'Puerto Rico', 'Trinidad',
+      'Barbados Island', 'Aruba', 'Curacao', 'Bonaire', 'Grand Cayman',
+      'Martinique', 'Guadeloupe', 'Saint Martin', 'Anguilla', 'Montserrat',
+      'Nevis', 'Saint Kitts', 'Tortola', 'Virgin Gorda', 'Saint Thomas',
+      'Saint Croix', 'Antigua', 'Barbuda', 'Eleuthera', 'Andros Island',
+      'Grand Bahama', 'New Providence', 'Great Exuma', 'Great Abaco', 'Roatan',
+      'Providenciales', 'Grand Turk', 'San Andres', 'Margarita Island'
+    ],
+    'the Mediterranean': [
+      'Sicily', 'Sardinia', 'Corsica', 'Crete', 'Cyprus Island', 'Malta Island',
+      'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos', 'Kefalonia',
+      'Naxos', 'Paros', 'Milos', 'Kos', 'Samos', 'Chios', 'Euboea', 'Hydra',
+      'Patmos', 'Delos', 'Ithaca', 'Gozo', 'Menorca', 'Mallorca', 'Ibiza',
+      'Formentera', 'Elba', 'Capri', 'Ischia', 'Lampedusa', 'Pantelleria',
+      'Lipari', 'Vulcano', 'Lesbos', 'Cyclades'
+    ],
+    'Greece': [
+      'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
+      'Kefalonia', 'Naxos', 'Paros', 'Milos', 'Kos', 'Samos', 'Chios', 'Euboea',
+      'Hydra', 'Patmos', 'Delos', 'Ithaca', 'Lesbos', 'Cyclades'
+    ],
+    'Hawaii': ['Big Island of Hawaii', 'Maui', 'Oahu', 'Kauai', 'Molokai', 'Lanai', 'Niihau'],
+    'Scotland': [
+      'Isle of Skye', 'Lewis and Harris', 'Shetland Mainland', 'Orkney Mainland',
+      'Mull', 'Islay', 'Jura', 'Arran', 'Bute', 'North Uist', 'South Uist',
+      'Barra', 'Tiree', 'Coll', 'Rum', 'Eigg', 'Staffa', 'Iona', 'Outer Hebrides'
+    ],
+    'the Pacific': [
+      'Tahiti', 'Bora Bora', 'Moorea', 'Rangiroa', 'Nuku Hiva', 'Rarotonga',
+      'Aitutaki', 'Upolu', 'Savaii', 'Tutuila', 'Efate', 'Espiritu Santo',
+      'Tanna', 'Guadalcanal', 'Bougainville Island', 'New Ireland', 'Manus Island',
+      'Saipan', 'Tinian', 'Babeldaob', 'Pohnpei', 'Majuro', 'Kwajalein',
+      'Bikini Atoll', 'Kiritimati', 'Wake Island', 'Midway Atoll', 'Easter Island',
+      'Niue', 'Guam', 'Nauru Island', 'New Britain', 'Cook Islands',
+      'Society Islands', 'Marquesas Islands'
+    ],
+    'Japan': [
+      'Honshu', 'Hokkaido', 'Kyushu', 'Shikoku', 'Okinawa Island', 'Sado Island',
+      'Yakushima', 'Miyajima', 'Awaji Island', 'Ishigaki Island'
+    ],
+    'Indonesia': [
+      'Java', 'Sumatra', 'Borneo', 'Sulawesi', 'Bali', 'Lombok', 'Komodo',
+      'Sumba', 'Sumbawa', 'Flores', 'Seram', 'Halmahera', 'Ambon Island',
+      'Ternate', 'Nias', 'Bintan', 'Batam', 'Timor'
+    ],
+    'the Arctic': [
+      'Greenland', 'Baffin Island', 'Victoria Island', 'Ellesmere Island',
+      'Banks Island', 'Devon Island', 'Melville Island', 'Southampton Island',
+      'Somerset Island', 'Spitsbergen', 'Novaya Zemlya', 'Wrangel Island', 'Svalbard'
+    ]
+  },
+
+  lake: {
+    'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
+    'Africa': [
+      'Lake Victoria', 'Lake Tanganyika', 'Lake Malawi', 'Lake Turkana',
+      'Lake Albert', 'Lake Chad', 'Lake Tana', 'Lake Mweru', 'Lake Bangweulu',
+      'Lake Kariba', 'Lake Volta', 'Lake Kivu', 'Lake Edward', 'Lake Naivasha',
+      'Lake Nakuru', 'Lake Assal'
+    ],
+    'the Alps': [
+      'Lake Geneva', 'Lake Constance', 'Lake Garda', 'Lake Maggiore', 'Lake Como',
+      'Lake Lucerne', 'Lake Zurich', 'Lake Neuchatel', 'Lake Annecy',
+      'Hallstatter See', 'Lake Lugano', 'Lake Thun', 'Konigssee', 'Chiemsee'
+    ],
+    'the British Isles': ['Loch Ness', 'Loch Lomond', 'Lake Windermere', 'Bala Lake', 'Lough Neagh'],
+    'Scandinavia': ['Lake Vanern', 'Lake Vattern', 'Mjosa', 'Lake Inari', 'Lake Saimaa']
+  },
+
+  desert: {
+    'Africa': [
+      'Sahara', 'Kalahari', 'Namib', 'Nubian Desert', 'Danakil Desert',
+      'Libyan Desert', 'Western Desert', 'Eastern Desert', 'Chalbi Desert', 'Tenere'
+    ],
+    'Asia': [
+      'Gobi', 'Arabian Desert', 'Syrian Desert', 'Karakum', 'Kyzylkum',
+      'Taklamakan', 'Thar Desert', 'Dasht-e Kavir', 'Dasht-e Lut',
+      'Registan Desert', 'Ordos Desert', 'Badain Jaran Desert', 'Tengger Desert',
+      'Negev', 'Wahiba Sands', 'Judaean Desert', 'Cholistan Desert',
+      'Rub al Khali', 'Wadi Rum'
+    ],
+    'Australia': [
+      'Great Victoria Desert', 'Great Sandy Desert', 'Tanami Desert',
+      'Simpson Desert', 'Gibson Desert', 'Little Sandy Desert',
+      'Strzelecki Desert', 'Sturt Stony Desert', 'Nullarbor Plain'
+    ],
+    'the Americas': [
+      'Great Basin Desert', 'Chihuahuan Desert', 'Sonoran Desert', 'Mojave Desert',
+      'Colorado Plateau Desert', 'Atacama Desert', 'Patagonian Desert',
+      'Monte Desert', 'Sechura Desert', 'Painted Desert', 'Black Rock Desert',
+      'Great Salt Lake Desert', 'Guajira Desert', 'Tatacoa Desert'
+    ]
+  },
+
+  sea_ocean: {
+    'Europe': [
+      'Mediterranean Sea', 'North Sea', 'Baltic Sea', 'Black Sea', 'Adriatic Sea',
+      'Aegean Sea', 'Ionian Sea', 'Tyrrhenian Sea', 'Ligurian Sea', 'Irish Sea',
+      'Celtic Sea', 'English Channel', 'Bay of Biscay', 'Norwegian Sea',
+      'Barents Sea', 'White Sea', 'Sea of Azov', 'Sea of Marmara',
+      'Gulf of Bothnia', 'Gulf of Finland', 'Kattegat', 'Skagerrak', 'Wadden Sea',
+      'Alboran Sea', 'Balearic Sea', 'Sea of Crete', 'Gulf of Riga'
+    ],
+    'Asia': [
+      'South China Sea', 'East China Sea', 'Yellow Sea', 'Sea of Japan',
+      'Philippine Sea', 'Andaman Sea', 'Arabian Sea', 'Bay of Bengal', 'Red Sea',
+      'Persian Gulf', 'Gulf of Aden', 'Gulf of Oman', 'Gulf of Thailand',
+      'Java Sea', 'Banda Sea', 'Celebes Sea', 'Sulu Sea', 'Flores Sea',
+      'Molucca Sea', 'Savu Sea', 'Halmahera Sea', 'Timor Sea', 'Sea of Okhotsk',
+      'Caspian Sea', 'Aral Sea', 'Dead Sea', 'Levantine Sea', 'Bali Sea', 'Ceram Sea'
+    ],
+    'the Americas': [
+      'Caribbean Sea', 'Gulf of Mexico', 'Hudson Bay', 'Labrador Sea',
+      'Beaufort Sea', 'Gulf of Alaska', 'Gulf of California', 'Baffin Bay',
+      'Bay of Fundy', 'Gulf of Saint Lawrence', 'Chesapeake Bay', 'Sargasso Sea'
+    ],
+    'the Antarctic': [
+      'Weddell Sea', 'Ross Sea', 'Amundsen Sea', 'Bellingshausen Sea',
+      'Scotia Sea', 'Southern Ocean'
+    ]
+  }
+};
+
+/** Themes whose prompt doesn't fit the "Name a {category} in {theme}" pattern. */
+globalThis.WORMILLION_THEME_PROMPTS = {
+  volcanoes: 'Name a volcano.'
+};

@@ -1,0 +1,3345 @@
+[
+ {
+  "id": "capital-abuja",
+  "category": "capital",
+  "name": "Abuja",
+  "aliases": [],
+  "size": 223800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Nigeria",
+  "source": "English Wikipedia pageviews for \"Abuja\", undefined-month mean (60 days ending 2026-09-11); Capital of Nigeria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23287,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abuja"
+ },
+ {
+  "id": "capital-addis-ababa",
+  "category": "capital",
+  "name": "Addis Ababa",
+  "aliases": [],
+  "size": 126500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Ethiopia",
+  "source": "English Wikipedia pageviews for \"Addis Ababa\", undefined-month mean (60 days ending 2026-09-11); Capital of Ethiopia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 43529,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Addis Ababa"
+ },
+ {
+  "id": "capital-cairo",
+  "category": "capital",
+  "name": "Cairo",
+  "aliases": [],
+  "size": 112700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Egypt",
+  "source": "English Wikipedia pageviews for \"Cairo\", undefined-month mean (60 days ending 2026-09-11); Capital of Egypt; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 53057,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cairo"
+ },
+ {
+  "id": "capital-kinshasa",
+  "category": "capital",
+  "name": "Kinshasa",
+  "aliases": [],
+  "size": 102300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa"
+  ],
+  "country": "Democratic Republic of the Congo",
+  "source": "English Wikipedia pageviews for \"Kinshasa\", undefined-month mean (60 days ending 2026-09-11); Capital of Democratic Republic of the Congo; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49191,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kinshasa"
+ },
+ {
+  "id": "capital-dodoma",
+  "category": "capital",
+  "name": "Dodoma",
+  "aliases": [],
+  "size": 67400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Tanzania",
+  "source": "English Wikipedia pageviews for \"Dodoma\", undefined-month mean (60 days ending 2026-09-11); Capital of Tanzania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 10258,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dodoma"
+ },
+ {
+  "id": "capital-pretoria",
+  "category": "capital",
+  "name": "Pretoria",
+  "aliases": [
+   "Cape Town",
+   "Bloemfontein"
+  ],
+  "size": 60400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "South Africa",
+  "source": "English Wikipedia pageviews for \"Pretoria\", undefined-month mean (60 days ending 2026-09-11); Capital of South Africa; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 35402,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pretoria"
+ },
+ {
+  "id": "capital-nairobi",
+  "category": "capital",
+  "name": "Nairobi",
+  "aliases": [],
+  "size": 55100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Kenya",
+  "source": "English Wikipedia pageviews for \"Nairobi\", undefined-month mean (60 days ending 2026-09-11); Capital of Kenya; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 35950,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nairobi"
+ },
+ {
+  "id": "capital-kampala",
+  "category": "capital",
+  "name": "Kampala",
+  "aliases": [],
+  "size": 48600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Uganda",
+  "source": "English Wikipedia pageviews for \"Kampala\", undefined-month mean (60 days ending 2026-09-11); Capital of Uganda; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 29679,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kampala"
+ },
+ {
+  "id": "capital-khartoum",
+  "category": "capital",
+  "name": "Khartoum",
+  "aliases": [],
+  "size": 48100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Sudan",
+  "source": "English Wikipedia pageviews for \"Khartoum\", undefined-month mean (60 days ending 2026-09-11); Capital of Sudan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23378,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Khartoum"
+ },
+ {
+  "id": "capital-algiers",
+  "category": "capital",
+  "name": "Algiers",
+  "aliases": [],
+  "size": 45600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Algeria",
+  "source": "English Wikipedia pageviews for \"Algiers\", undefined-month mean (60 days ending 2026-09-11); Capital of Algeria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 29375,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Algiers"
+ },
+ {
+  "id": "capital-rabat",
+  "category": "capital",
+  "name": "Rabat",
+  "aliases": [],
+  "size": 37800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Morocco",
+  "source": "English Wikipedia pageviews for \"Rabat\", undefined-month mean (60 days ending 2026-09-11); Capital of Morocco; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 24565,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rabat"
+ },
+ {
+  "id": "capital-luanda",
+  "category": "capital",
+  "name": "Luanda",
+  "aliases": [],
+  "size": 36700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa"
+  ],
+  "country": "Angola",
+  "source": "English Wikipedia pageviews for \"Luanda\", undefined-month mean (60 days ending 2026-09-11); Capital of Angola; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 20486,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luanda"
+ },
+ {
+  "id": "capital-accra",
+  "category": "capital",
+  "name": "Accra",
+  "aliases": [],
+  "size": 34100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Ghana",
+  "source": "English Wikipedia pageviews for \"Accra\", undefined-month mean (60 days ending 2026-09-11); Capital of Ghana; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23043,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Accra"
+ },
+ {
+  "id": "capital-maputo",
+  "category": "capital",
+  "name": "Maputo",
+  "aliases": [],
+  "size": 33900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Mozambique",
+  "source": "English Wikipedia pageviews for \"Maputo\", undefined-month mean (60 days ending 2026-09-11); Capital of Mozambique; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 12754,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maputo"
+ },
+ {
+  "id": "capital-antananarivo",
+  "category": "capital",
+  "name": "Antananarivo",
+  "aliases": [],
+  "size": 30300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Madagascar",
+  "source": "English Wikipedia pageviews for \"Antananarivo\", undefined-month mean (60 days ending 2026-09-11); Capital of Madagascar; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18142,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antananarivo"
+ },
+ {
+  "id": "capital-yamoussoukro",
+  "category": "capital",
+  "name": "Yamoussoukro",
+  "aliases": [],
+  "size": 28900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Ivory Coast",
+  "source": "English Wikipedia pageviews for \"Yamoussoukro\", undefined-month mean (60 days ending 2026-09-11); Capital of Ivory Coast; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 7793,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yamoussoukro"
+ },
+ {
+  "id": "capital-yaounde",
+  "category": "capital",
+  "name": "Yaounde",
+  "aliases": [],
+  "size": 28600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa"
+  ],
+  "country": "Cameroon",
+  "source": "English Wikipedia pageviews for \"Yaoundé\", undefined-month mean (60 days ending 2026-09-11); Capital of Cameroon; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11415,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yaoundé"
+ },
+ {
+  "id": "capital-niamey",
+  "category": "capital",
+  "name": "Niamey",
+  "aliases": [],
+  "size": 27200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Niger",
+  "source": "English Wikipedia pageviews for \"Niamey\", undefined-month mean (60 days ending 2026-09-11); Capital of Niger; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 8554,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Niamey"
+ },
+ {
+  "id": "capital-bamako",
+  "category": "capital",
+  "name": "Bamako",
+  "aliases": [],
+  "size": 23300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Mali",
+  "source": "English Wikipedia pageviews for \"Bamako\", undefined-month mean (60 days ending 2026-09-11); Capital of Mali; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 13881,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bamako"
+ },
+ {
+  "id": "capital-ouagadougou",
+  "category": "capital",
+  "name": "Ouagadougou",
+  "aliases": [],
+  "size": 23300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Burkina Faso",
+  "source": "English Wikipedia pageviews for \"Ouagadougou\", undefined-month mean (60 days ending 2026-09-11); Capital of Burkina Faso; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18416,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ouagadougou"
+ },
+ {
+  "id": "capital-lilongwe",
+  "category": "capital",
+  "name": "Lilongwe",
+  "aliases": [],
+  "size": 20900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Malawi",
+  "source": "English Wikipedia pageviews for \"Lilongwe\", undefined-month mean (60 days ending 2026-09-11); Capital of Malawi; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 6666,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lilongwe"
+ },
+ {
+  "id": "capital-lusaka",
+  "category": "capital",
+  "name": "Lusaka",
+  "aliases": [],
+  "size": 20500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Zambia",
+  "source": "English Wikipedia pageviews for \"Lusaka\", undefined-month mean (60 days ending 2026-09-11); Capital of Zambia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11689,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lusaka"
+ },
+ {
+  "id": "capital-n-djamena",
+  "category": "capital",
+  "name": "N Djamena",
+  "aliases": [],
+  "size": 18300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa"
+  ],
+  "country": "Chad",
+  "source": "English Wikipedia pageviews for \"N'Djamena\", undefined-month mean (60 days ending 2026-09-11); Capital of Chad; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11659,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "N'Djamena"
+ },
+ {
+  "id": "capital-mogadishu",
+  "category": "capital",
+  "name": "Mogadishu",
+  "aliases": [],
+  "size": 18100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Somalia",
+  "source": "English Wikipedia pageviews for \"Mogadishu\", undefined-month mean (60 days ending 2026-09-11); Capital of Somalia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 29466,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mogadishu"
+ },
+ {
+  "id": "capital-dakar",
+  "category": "capital",
+  "name": "Dakar",
+  "aliases": [],
+  "size": 17800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Senegal",
+  "source": "English Wikipedia pageviews for \"Dakar\", undefined-month mean (60 days ending 2026-09-11); Capital of Senegal; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 21004,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dakar"
+ },
+ {
+  "id": "capital-harare",
+  "category": "capital",
+  "name": "Harare",
+  "aliases": [],
+  "size": 16700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Zimbabwe",
+  "source": "English Wikipedia pageviews for \"Harare\", undefined-month mean (60 days ending 2026-09-11); Capital of Zimbabwe; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 26057,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Harare"
+ },
+ {
+  "id": "capital-conakry",
+  "category": "capital",
+  "name": "Conakry",
+  "aliases": [],
+  "size": 14200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Guinea",
+  "source": "English Wikipedia pageviews for \"Conakry\", undefined-month mean (60 days ending 2026-09-11); Capital of Guinea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 10502,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Conakry"
+ },
+ {
+  "id": "capital-kigali",
+  "category": "capital",
+  "name": "Kigali",
+  "aliases": [],
+  "size": 14100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Rwanda",
+  "source": "English Wikipedia pageviews for \"Kigali\", undefined-month mean (60 days ending 2026-09-11); Capital of Rwanda; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 15311,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kigali"
+ },
+ {
+  "id": "capital-porto-novo",
+  "category": "capital",
+  "name": "Porto-Novo",
+  "aliases": [
+   "Cotonou"
+  ],
+  "size": 13700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Benin",
+  "source": "English Wikipedia pageviews for \"Porto-Novo\", undefined-month mean (60 days ending 2026-09-11); Capital of Benin; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 5844,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Porto-Novo"
+ },
+ {
+  "id": "capital-gitega",
+  "category": "capital",
+  "name": "Gitega",
+  "aliases": [
+   "Bujumbura"
+  ],
+  "size": 13200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Burundi",
+  "source": "English Wikipedia pageviews for \"Gitega\", undefined-month mean (60 days ending 2026-09-11); Capital of Burundi; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 4566,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gitega"
+ },
+ {
+  "id": "capital-tunis",
+  "category": "capital",
+  "name": "Tunis",
+  "aliases": [],
+  "size": 12500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Tunisia",
+  "source": "English Wikipedia pageviews for \"Tunis\", undefined-month mean (60 days ending 2026-09-11); Capital of Tunisia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 19786,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tunis"
+ },
+ {
+  "id": "capital-juba",
+  "category": "capital",
+  "name": "Juba",
+  "aliases": [],
+  "size": 11100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "South Sudan",
+  "source": "English Wikipedia pageviews for \"Juba\", undefined-month mean (60 days ending 2026-09-11); Capital of South Sudan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11719,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Juba"
+ },
+ {
+  "id": "capital-lome",
+  "category": "capital",
+  "name": "Lome",
+  "aliases": [],
+  "size": 9100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Togo",
+  "source": "English Wikipedia pageviews for \"Lomé\", undefined-month mean (60 days ending 2026-09-11); Capital of Togo; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 7306,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lomé"
+ },
+ {
+  "id": "capital-freetown",
+  "category": "capital",
+  "name": "Freetown",
+  "aliases": [],
+  "size": 8800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Sierra Leone",
+  "source": "English Wikipedia pageviews for \"Freetown\", undefined-month mean (60 days ending 2026-09-11); Capital of Sierra Leone; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11872,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Freetown"
+ },
+ {
+  "id": "capital-tripoli",
+  "category": "capital",
+  "name": "Tripoli",
+  "aliases": [],
+  "size": 6900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Libya",
+  "source": "English Wikipedia pageviews for \"Tripoli, Libya\", undefined-month mean (60 days ending 2026-09-11); Capital of Libya; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23956,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tripoli, Libya"
+ },
+ {
+  "id": "capital-brazzaville",
+  "category": "capital",
+  "name": "Brazzaville",
+  "aliases": [],
+  "size": 6100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa"
+  ],
+  "country": "Republic of the Congo",
+  "source": "English Wikipedia pageviews for \"Brazzaville\", undefined-month mean (60 days ending 2026-09-11); Capital of Republic of the Congo; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 14124,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brazzaville"
+ },
+ {
+  "id": "capital-bangui",
+  "category": "capital",
+  "name": "Bangui",
+  "aliases": [],
+  "size": 5700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa"
+  ],
+  "country": "Central African Republic",
+  "source": "English Wikipedia pageviews for \"Bangui\", undefined-month mean (60 days ending 2026-09-11); Capital of Central African Republic; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 12267,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bangui"
+ },
+ {
+  "id": "capital-monrovia",
+  "category": "capital",
+  "name": "Monrovia",
+  "aliases": [],
+  "size": 5400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Liberia",
+  "source": "English Wikipedia pageviews for \"Monrovia\", undefined-month mean (60 days ending 2026-09-11); Capital of Liberia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18629,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monrovia"
+ },
+ {
+  "id": "capital-nouakchott",
+  "category": "capital",
+  "name": "Nouakchott",
+  "aliases": [],
+  "size": 4900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Mauritania",
+  "source": "English Wikipedia pageviews for \"Nouakchott\", undefined-month mean (60 days ending 2026-09-11); Capital of Mauritania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 13394,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nouakchott"
+ },
+ {
+  "id": "capital-asmara",
+  "category": "capital",
+  "name": "Asmara",
+  "aliases": [],
+  "size": 3700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Eritrea",
+  "source": "English Wikipedia pageviews for \"Asmara\", undefined-month mean (60 days ending 2026-09-11); Capital of Eritrea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 13911,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Asmara"
+ },
+ {
+  "id": "capital-banjul",
+  "category": "capital",
+  "name": "Banjul",
+  "aliases": [],
+  "size": 2800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Gambia",
+  "source": "English Wikipedia pageviews for \"Banjul\", undefined-month mean (60 days ending 2026-09-11); Capital of Gambia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 7519,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Banjul"
+ },
+ {
+  "id": "capital-gaborone",
+  "category": "capital",
+  "name": "Gaborone",
+  "aliases": [],
+  "size": 2700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Botswana",
+  "source": "English Wikipedia pageviews for \"Gaborone\", undefined-month mean (60 days ending 2026-09-11); Capital of Botswana; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 13028,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gaborone"
+ },
+ {
+  "id": "capital-windhoek",
+  "category": "capital",
+  "name": "Windhoek",
+  "aliases": [],
+  "size": 2600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Namibia",
+  "source": "English Wikipedia pageviews for \"Windhoek\", undefined-month mean (60 days ending 2026-09-11); Capital of Namibia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 22526,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Windhoek"
+ },
+ {
+  "id": "capital-libreville",
+  "category": "capital",
+  "name": "Libreville",
+  "aliases": [],
+  "size": 2400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa"
+  ],
+  "country": "Gabon",
+  "source": "English Wikipedia pageviews for \"Libreville\", undefined-month mean (60 days ending 2026-09-11); Capital of Gabon; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 7519,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Libreville"
+ },
+ {
+  "id": "capital-maseru",
+  "category": "capital",
+  "name": "Maseru",
+  "aliases": [],
+  "size": 2300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Lesotho",
+  "source": "English Wikipedia pageviews for \"Maseru\", undefined-month mean (60 days ending 2026-09-11); Capital of Lesotho; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 6575,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maseru"
+ },
+ {
+  "id": "capital-bissau",
+  "category": "capital",
+  "name": "Bissau",
+  "aliases": [],
+  "size": 2150000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Guinea-Bissau",
+  "source": "English Wikipedia pageviews for \"Bissau\", undefined-month mean (60 days ending 2026-09-11); Capital of Guinea-Bissau; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 6027,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bissau"
+ },
+ {
+  "id": "capital-malabo",
+  "category": "capital",
+  "name": "Malabo",
+  "aliases": [],
+  "size": 1700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa"
+  ],
+  "country": "Equatorial Guinea",
+  "source": "English Wikipedia pageviews for \"Malabo\", undefined-month mean (60 days ending 2026-09-11); Capital of Equatorial Guinea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 8675,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Malabo"
+ },
+ {
+  "id": "capital-port-louis",
+  "category": "capital",
+  "name": "Port Louis",
+  "aliases": [],
+  "size": 1300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Mauritius",
+  "source": "English Wikipedia pageviews for \"Port Louis\", undefined-month mean (60 days ending 2026-09-11); Capital of Mauritius; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11171,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port Louis"
+ },
+ {
+  "id": "capital-mbabane",
+  "category": "capital",
+  "name": "Mbabane",
+  "aliases": [],
+  "size": 1210000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Eswatini",
+  "source": "English Wikipedia pageviews for \"Mbabane\", undefined-month mean (60 days ending 2026-09-11); Capital of Eswatini; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 8523,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mbabane"
+ },
+ {
+  "id": "capital-djibouti-city",
+  "category": "capital",
+  "name": "Djibouti City",
+  "aliases": [
+   "Djibouti"
+  ],
+  "size": 1130000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Djibouti",
+  "source": "English Wikipedia pageviews for \"Djibouti City\", undefined-month mean (60 days ending 2026-09-11); Capital of Djibouti; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 5814,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Djibouti City"
+ },
+ {
+  "id": "capital-moroni",
+  "category": "capital",
+  "name": "Moroni",
+  "aliases": [],
+  "size": 850000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Comoros",
+  "source": "English Wikipedia pageviews for \"Moroni, Comoros\", undefined-month mean (60 days ending 2026-09-11); Capital of Comoros; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 5357,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Moroni, Comoros"
+ },
+ {
+  "id": "capital-praia",
+  "category": "capital",
+  "name": "Praia",
+  "aliases": [],
+  "size": 600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Cape Verde",
+  "source": "English Wikipedia pageviews for \"Praia\", undefined-month mean (60 days ending 2026-09-11); Capital of Cape Verde; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 10228,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Praia"
+ },
+ {
+  "id": "capital-sao-tome",
+  "category": "capital",
+  "name": "Sao Tome",
+  "aliases": [],
+  "size": 230000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa"
+  ],
+  "country": "Sao Tome and Principe",
+  "source": "English Wikipedia pageviews for \"São Tomé\", undefined-month mean (60 days ending 2026-09-11); Capital of Sao Tome and Principe; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 6758,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "São Tomé"
+ },
+ {
+  "id": "capital-victoria",
+  "category": "capital",
+  "name": "Victoria",
+  "aliases": [],
+  "size": 107000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Seychelles",
+  "source": "English Wikipedia pageviews for \"Victoria, Seychelles\", undefined-month mean (60 days ending 2026-09-11); Capital of Seychelles; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 7275,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Victoria, Seychelles"
+ },
+ {
+  "id": "capital-new-delhi",
+  "category": "capital",
+  "name": "New Delhi",
+  "aliases": [
+   "Delhi"
+  ],
+  "size": 1428600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "source": "English Wikipedia pageviews for \"New Delhi\", undefined-month mean (60 days ending 2026-09-11); Capital of India; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 57836,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Delhi"
+ },
+ {
+  "id": "capital-beijing",
+  "category": "capital",
+  "name": "Beijing",
+  "aliases": [],
+  "size": 1425700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "source": "English Wikipedia pageviews for \"Beijing\", undefined-month mean (60 days ending 2026-09-11); Capital of China; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 81153,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Beijing"
+ },
+ {
+  "id": "capital-jakarta",
+  "category": "capital",
+  "name": "Jakarta",
+  "aliases": [],
+  "size": 277500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Indonesia",
+  "source": "English Wikipedia pageviews for \"Jakarta\", undefined-month mean (60 days ending 2026-09-11); Capital of Indonesia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 87789,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jakarta"
+ },
+ {
+  "id": "capital-islamabad",
+  "category": "capital",
+  "name": "Islamabad",
+  "aliases": [],
+  "size": 240500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Pakistan",
+  "source": "English Wikipedia pageviews for \"Islamabad\", undefined-month mean (60 days ending 2026-09-11); Capital of Pakistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 34793,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Islamabad"
+ },
+ {
+  "id": "capital-dhaka",
+  "category": "capital",
+  "name": "Dhaka",
+  "aliases": [],
+  "size": 173000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Bangladesh",
+  "source": "English Wikipedia pageviews for \"Dhaka\", undefined-month mean (60 days ending 2026-09-11); Capital of Bangladesh; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 46665,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dhaka"
+ },
+ {
+  "id": "capital-tokyo",
+  "category": "capital",
+  "name": "Tokyo",
+  "aliases": [],
+  "size": 123300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Japan",
+  "source": "English Wikipedia pageviews for \"Tokyo\", undefined-month mean (60 days ending 2026-09-11); Capital of Japan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 118746,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tokyo"
+ },
+ {
+  "id": "capital-manila",
+  "category": "capital",
+  "name": "Manila",
+  "aliases": [],
+  "size": 117300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Philippines",
+  "source": "English Wikipedia pageviews for \"Manila\", undefined-month mean (60 days ending 2026-09-11); Capital of Philippines; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 50409,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manila"
+ },
+ {
+  "id": "capital-hanoi",
+  "category": "capital",
+  "name": "Hanoi",
+  "aliases": [],
+  "size": 98900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Vietnam",
+  "source": "English Wikipedia pageviews for \"Hanoi\", undefined-month mean (60 days ending 2026-09-11); Capital of Vietnam; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 39298,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hanoi"
+ },
+ {
+  "id": "capital-tehran",
+  "category": "capital",
+  "name": "Tehran",
+  "aliases": [],
+  "size": 89200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Iran",
+  "source": "English Wikipedia pageviews for \"Tehran\", undefined-month mean (60 days ending 2026-09-11); Capital of Iran; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 40729,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tehran"
+ },
+ {
+  "id": "capital-ankara",
+  "category": "capital",
+  "name": "Ankara",
+  "aliases": [],
+  "size": 85800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Turkey",
+  "source": "English Wikipedia pageviews for \"Ankara\", undefined-month mean (60 days ending 2026-09-11); Capital of Turkey; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 37259,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ankara"
+ },
+ {
+  "id": "capital-bangkok",
+  "category": "capital",
+  "name": "Bangkok",
+  "aliases": [],
+  "size": 71800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Thailand",
+  "source": "English Wikipedia pageviews for \"Bangkok\", undefined-month mean (60 days ending 2026-09-11); Capital of Thailand; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 69007,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bangkok"
+ },
+ {
+  "id": "capital-naypyidaw",
+  "category": "capital",
+  "name": "Naypyidaw",
+  "aliases": [],
+  "size": 54600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Myanmar",
+  "source": "English Wikipedia pageviews for \"Naypyidaw\", undefined-month mean (60 days ending 2026-09-11); Capital of Myanmar; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 17777,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Naypyidaw"
+ },
+ {
+  "id": "capital-seoul",
+  "category": "capital",
+  "name": "Seoul",
+  "aliases": [],
+  "size": 51700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "South Korea",
+  "source": "English Wikipedia pageviews for \"Seoul\", undefined-month mean (60 days ending 2026-09-11); Capital of South Korea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 65811,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seoul"
+ },
+ {
+  "id": "capital-baghdad",
+  "category": "capital",
+  "name": "Baghdad",
+  "aliases": [],
+  "size": 45500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Iraq",
+  "source": "English Wikipedia pageviews for \"Baghdad\", undefined-month mean (60 days ending 2026-09-11); Capital of Iraq; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 43986,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baghdad"
+ },
+ {
+  "id": "capital-kabul",
+  "category": "capital",
+  "name": "Kabul",
+  "aliases": [],
+  "size": 42200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "South Asia",
+   "Central Asia"
+  ],
+  "country": "Afghanistan",
+  "source": "English Wikipedia pageviews for \"Kabul\", undefined-month mean (60 days ending 2026-09-11); Capital of Afghanistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 30775,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kabul"
+ },
+ {
+  "id": "capital-riyadh",
+  "category": "capital",
+  "name": "Riyadh",
+  "aliases": [],
+  "size": 36900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Saudi Arabia",
+  "source": "English Wikipedia pageviews for \"Riyadh\", undefined-month mean (60 days ending 2026-09-11); Capital of Saudi Arabia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49465,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Riyadh"
+ },
+ {
+  "id": "capital-tashkent",
+  "category": "capital",
+  "name": "Tashkent",
+  "aliases": [],
+  "size": 35600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Uzbekistan",
+  "source": "English Wikipedia pageviews for \"Tashkent\", undefined-month mean (60 days ending 2026-09-11); Capital of Uzbekistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 37715,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tashkent"
+ },
+ {
+  "id": "capital-sanaa",
+  "category": "capital",
+  "name": "Sanaa",
+  "aliases": [],
+  "size": 34400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Yemen",
+  "source": "English Wikipedia pageviews for \"Sanaa\", undefined-month mean (60 days ending 2026-09-11); Capital of Yemen; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 21247,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sanaa"
+ },
+ {
+  "id": "capital-kuala-lumpur",
+  "category": "capital",
+  "name": "Kuala Lumpur",
+  "aliases": [
+   "Putrajaya"
+  ],
+  "size": 34300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Malaysia",
+  "source": "English Wikipedia pageviews for \"Kuala Lumpur\", undefined-month mean (60 days ending 2026-09-11); Capital of Malaysia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 64259,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kuala Lumpur"
+ },
+ {
+  "id": "capital-kathmandu",
+  "category": "capital",
+  "name": "Kathmandu",
+  "aliases": [],
+  "size": 30900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Nepal",
+  "source": "English Wikipedia pageviews for \"Kathmandu\", undefined-month mean (60 days ending 2026-09-11); Capital of Nepal; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 36437,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kathmandu"
+ },
+ {
+  "id": "capital-pyongyang",
+  "category": "capital",
+  "name": "Pyongyang",
+  "aliases": [],
+  "size": 26200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "North Korea",
+  "source": "English Wikipedia pageviews for \"Pyongyang\", undefined-month mean (60 days ending 2026-09-11); Capital of North Korea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 39542,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pyongyang"
+ },
+ {
+  "id": "capital-taipei",
+  "category": "capital",
+  "name": "Taipei",
+  "aliases": [],
+  "size": 23400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "source": "English Wikipedia pageviews for \"Taipei\", undefined-month mean (60 days ending 2026-09-11); Capital of Taiwan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 42890,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Taipei"
+ },
+ {
+  "id": "capital-damascus",
+  "category": "capital",
+  "name": "Damascus",
+  "aliases": [],
+  "size": 23200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Syria",
+  "source": "English Wikipedia pageviews for \"Damascus\", undefined-month mean (60 days ending 2026-09-11); Capital of Syria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49678,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Damascus"
+ },
+ {
+  "id": "capital-colombo",
+  "category": "capital",
+  "name": "Colombo",
+  "aliases": [
+   "Sri Jayawardenepura Kotte"
+  ],
+  "size": 21900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Sri Lanka",
+  "source": "English Wikipedia pageviews for \"Colombo\", undefined-month mean (60 days ending 2026-09-11); Capital of Sri Lanka; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 26513,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Colombo"
+ },
+ {
+  "id": "capital-astana",
+  "category": "capital",
+  "name": "Astana",
+  "aliases": [
+   "Nur-Sultan"
+  ],
+  "size": 19600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Kazakhstan",
+  "source": "English Wikipedia pageviews for \"Astana\", undefined-month mean (60 days ending 2026-09-11); Capital of Kazakhstan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 35828,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Astana"
+ },
+ {
+  "id": "capital-phnom-penh",
+  "category": "capital",
+  "name": "Phnom Penh",
+  "aliases": [],
+  "size": 16900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Cambodia",
+  "source": "English Wikipedia pageviews for \"Phnom Penh\", undefined-month mean (60 days ending 2026-09-11); Capital of Cambodia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 27700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Phnom Penh"
+ },
+ {
+  "id": "capital-amman",
+  "category": "capital",
+  "name": "Amman",
+  "aliases": [],
+  "size": 11300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Jordan",
+  "source": "English Wikipedia pageviews for \"Amman\", undefined-month mean (60 days ending 2026-09-11); Capital of Jordan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23165,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Amman"
+ },
+ {
+  "id": "capital-baku",
+  "category": "capital",
+  "name": "Baku",
+  "aliases": [],
+  "size": 10400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia"
+  ],
+  "country": "Azerbaijan",
+  "source": "English Wikipedia pageviews for \"Baku\", undefined-month mean (60 days ending 2026-09-11); Capital of Azerbaijan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 39298,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baku"
+ },
+ {
+  "id": "capital-dushanbe",
+  "category": "capital",
+  "name": "Dushanbe",
+  "aliases": [],
+  "size": 10100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Tajikistan",
+  "source": "English Wikipedia pageviews for \"Dushanbe\", undefined-month mean (60 days ending 2026-09-11); Capital of Tajikistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 16011,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dushanbe"
+ },
+ {
+  "id": "capital-jerusalem",
+  "category": "capital",
+  "name": "Jerusalem",
+  "aliases": [
+   "Tel Aviv"
+  ],
+  "size": 9800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Israel",
+  "source": "English Wikipedia pageviews for \"Jerusalem\", undefined-month mean (60 days ending 2026-09-11); Capital of Israel; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 97225,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jerusalem"
+ },
+ {
+  "id": "capital-abu-dhabi",
+  "category": "capital",
+  "name": "Abu Dhabi",
+  "aliases": [],
+  "size": 9500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "United Arab Emirates",
+  "source": "English Wikipedia pageviews for \"Abu Dhabi\", undefined-month mean (60 days ending 2026-09-11); Capital of United Arab Emirates; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49587,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abu Dhabi"
+ },
+ {
+  "id": "capital-vientiane",
+  "category": "capital",
+  "name": "Vientiane",
+  "aliases": [],
+  "size": 7600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Laos",
+  "source": "English Wikipedia pageviews for \"Vientiane\", undefined-month mean (60 days ending 2026-09-11); Capital of Laos; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 17259,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vientiane"
+ },
+ {
+  "id": "capital-bishkek",
+  "category": "capital",
+  "name": "Bishkek",
+  "aliases": [],
+  "size": 6700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Kyrgyzstan",
+  "source": "English Wikipedia pageviews for \"Bishkek\", undefined-month mean (60 days ending 2026-09-11); Capital of Kyrgyzstan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 21947,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bishkek"
+ },
+ {
+  "id": "capital-ashgabat",
+  "category": "capital",
+  "name": "Ashgabat",
+  "aliases": [],
+  "size": 6500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Turkmenistan",
+  "source": "English Wikipedia pageviews for \"Ashgabat\", undefined-month mean (60 days ending 2026-09-11); Capital of Turkmenistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 19603,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ashgabat"
+ },
+ {
+  "id": "capital-singapore-city",
+  "category": "capital",
+  "name": "Singapore City",
+  "aliases": [
+   "Singapore"
+  ],
+  "size": 5900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Singapore",
+  "source": "English Wikipedia pageviews for \"Singapore\", undefined-month mean (60 days ending 2026-09-11); Capital of Singapore; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 313684,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Singapore"
+ },
+ {
+  "id": "capital-beirut",
+  "category": "capital",
+  "name": "Beirut",
+  "aliases": [],
+  "size": 5400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Lebanon",
+  "source": "English Wikipedia pageviews for \"Beirut\", undefined-month mean (60 days ending 2026-09-11); Capital of Lebanon; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 38172,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Beirut"
+ },
+ {
+  "id": "capital-ramallah",
+  "category": "capital",
+  "name": "Ramallah",
+  "aliases": [],
+  "size": 5400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Palestine",
+  "source": "English Wikipedia pageviews for \"Ramallah\", undefined-month mean (60 days ending 2026-09-11); Capital of Palestine; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18477,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ramallah"
+ },
+ {
+  "id": "capital-muscat",
+  "category": "capital",
+  "name": "Muscat",
+  "aliases": [],
+  "size": 4600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Oman",
+  "source": "English Wikipedia pageviews for \"Muscat\", undefined-month mean (60 days ending 2026-09-11); Capital of Oman; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 25783,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Muscat"
+ },
+ {
+  "id": "capital-kuwait-city",
+  "category": "capital",
+  "name": "Kuwait City",
+  "aliases": [],
+  "size": 4300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Kuwait",
+  "source": "English Wikipedia pageviews for \"Kuwait City\", undefined-month mean (60 days ending 2026-09-11); Capital of Kuwait; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 14155,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kuwait City"
+ },
+ {
+  "id": "capital-tbilisi",
+  "category": "capital",
+  "name": "Tbilisi",
+  "aliases": [],
+  "size": 3700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia"
+  ],
+  "country": "Georgia",
+  "source": "English Wikipedia pageviews for \"Tbilisi\", undefined-month mean (60 days ending 2026-09-11); Capital of Georgia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 46847,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tbilisi"
+ },
+ {
+  "id": "capital-ulaanbaatar",
+  "category": "capital",
+  "name": "Ulaanbaatar",
+  "aliases": [],
+  "size": 3400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Mongolia",
+  "source": "English Wikipedia pageviews for \"Ulaanbaatar\", undefined-month mean (60 days ending 2026-09-11); Capital of Mongolia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 46391,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ulaanbaatar"
+ },
+ {
+  "id": "capital-yerevan",
+  "category": "capital",
+  "name": "Yerevan",
+  "aliases": [],
+  "size": 2800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia"
+  ],
+  "country": "Armenia",
+  "source": "English Wikipedia pageviews for \"Yerevan\", undefined-month mean (60 days ending 2026-09-11); Capital of Armenia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 33788,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yerevan"
+ },
+ {
+  "id": "capital-doha",
+  "category": "capital",
+  "name": "Doha",
+  "aliases": [],
+  "size": 2700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Qatar",
+  "source": "English Wikipedia pageviews for \"Doha\", undefined-month mean (60 days ending 2026-09-11); Capital of Qatar; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 27579,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Doha"
+ },
+ {
+  "id": "capital-manama",
+  "category": "capital",
+  "name": "Manama",
+  "aliases": [],
+  "size": 1500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Bahrain",
+  "source": "English Wikipedia pageviews for \"Manama\", undefined-month mean (60 days ending 2026-09-11); Capital of Bahrain; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11385,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manama"
+ },
+ {
+  "id": "capital-dili",
+  "category": "capital",
+  "name": "Dili",
+  "aliases": [],
+  "size": 1400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Timor-Leste",
+  "source": "English Wikipedia pageviews for \"Dili\", undefined-month mean (60 days ending 2026-09-11); Capital of Timor-Leste; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 9619,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dili"
+ },
+ {
+  "id": "capital-thimphu",
+  "category": "capital",
+  "name": "Thimphu",
+  "aliases": [],
+  "size": 790000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Bhutan",
+  "source": "English Wikipedia pageviews for \"Thimphu\", undefined-month mean (60 days ending 2026-09-11); Capital of Bhutan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 13059,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thimphu"
+ },
+ {
+  "id": "capital-male",
+  "category": "capital",
+  "name": "Male",
+  "aliases": [],
+  "size": 520000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Maldives",
+  "source": "English Wikipedia pageviews for \"Malé\", undefined-month mean (60 days ending 2026-09-11); Capital of Maldives; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 15951,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Malé"
+ },
+ {
+  "id": "capital-bandar-seri-begawan",
+  "category": "capital",
+  "name": "Bandar Seri Begawan",
+  "aliases": [],
+  "size": 450000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Brunei",
+  "source": "English Wikipedia pageviews for \"Bandar Seri Begawan\", undefined-month mean (60 days ending 2026-09-11); Capital of Brunei; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11567,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bandar Seri Begawan"
+ },
+ {
+  "id": "capital-moscow",
+  "category": "capital",
+  "name": "Moscow",
+  "aliases": [],
+  "size": 144400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Russia",
+  "source": "English Wikipedia pageviews for \"Moscow\", undefined-month mean (60 days ending 2026-09-11); Capital of Russia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 83375,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Moscow"
+ },
+ {
+  "id": "capital-berlin",
+  "category": "capital",
+  "name": "Berlin",
+  "aliases": [],
+  "size": 83300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Germany",
+  "source": "English Wikipedia pageviews for \"Berlin\", undefined-month mean (60 days ending 2026-09-11); Capital of Germany; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 138532,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Berlin"
+ },
+ {
+  "id": "capital-paris",
+  "category": "capital",
+  "name": "Paris",
+  "aliases": [],
+  "size": 68200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "France",
+  "source": "English Wikipedia pageviews for \"Paris\", undefined-month mean (60 days ending 2026-09-11); Capital of France; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 155000,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Paris"
+ },
+ {
+  "id": "capital-london",
+  "category": "capital",
+  "name": "London",
+  "aliases": [],
+  "size": 67700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "source": "English Wikipedia pageviews for \"London\", undefined-month mean (60 days ending 2026-09-11); Capital of United Kingdom; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 213719,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "London"
+ },
+ {
+  "id": "capital-rome",
+  "category": "capital",
+  "name": "Rome",
+  "aliases": [],
+  "size": 58900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Italy",
+  "source": "English Wikipedia pageviews for \"Rome\", undefined-month mean (60 days ending 2026-09-11); Capital of Italy; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 108306,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rome"
+ },
+ {
+  "id": "capital-madrid",
+  "category": "capital",
+  "name": "Madrid",
+  "aliases": [],
+  "size": 47500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "source": "English Wikipedia pageviews for \"Madrid\", undefined-month mean (60 days ending 2026-09-11); Capital of Spain; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 76861,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Madrid"
+ },
+ {
+  "id": "capital-kyiv",
+  "category": "capital",
+  "name": "Kyiv",
+  "aliases": [
+   "Kiev"
+  ],
+  "size": 37000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "source": "English Wikipedia pageviews for \"Kyiv\", undefined-month mean (60 days ending 2026-09-11); Capital of Ukraine; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 46147,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kyiv"
+ },
+ {
+  "id": "capital-warsaw",
+  "category": "capital",
+  "name": "Warsaw",
+  "aliases": [],
+  "size": 36700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "source": "English Wikipedia pageviews for \"Warsaw\", undefined-month mean (60 days ending 2026-09-11); Capital of Poland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 65142,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Warsaw"
+ },
+ {
+  "id": "capital-bucharest",
+  "category": "capital",
+  "name": "Bucharest",
+  "aliases": [],
+  "size": 19900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "source": "English Wikipedia pageviews for \"Bucharest\", undefined-month mean (60 days ending 2026-09-11); Capital of Romania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 42646,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bucharest"
+ },
+ {
+  "id": "capital-amsterdam",
+  "category": "capital",
+  "name": "Amsterdam",
+  "aliases": [
+   "The Hague"
+  ],
+  "size": 17600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Netherlands",
+  "source": "English Wikipedia pageviews for \"Amsterdam\", undefined-month mean (60 days ending 2026-09-11); Capital of Netherlands; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 88793,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Amsterdam"
+ },
+ {
+  "id": "capital-brussels",
+  "category": "capital",
+  "name": "Brussels",
+  "aliases": [],
+  "size": 11700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Belgium",
+  "source": "English Wikipedia pageviews for \"Brussels\", undefined-month mean (60 days ending 2026-09-11); Capital of Belgium; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49861,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brussels"
+ },
+ {
+  "id": "capital-stockholm",
+  "category": "capital",
+  "name": "Stockholm",
+  "aliases": [],
+  "size": 10600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Sweden",
+  "source": "English Wikipedia pageviews for \"Stockholm\", undefined-month mean (60 days ending 2026-09-11); Capital of Sweden; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 59784,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stockholm"
+ },
+ {
+  "id": "capital-prague",
+  "category": "capital",
+  "name": "Prague",
+  "aliases": [],
+  "size": 10500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Czechia",
+  "source": "English Wikipedia pageviews for \"Prague\", undefined-month mean (60 days ending 2026-09-11); Capital of Czechia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 89433,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Prague"
+ },
+ {
+  "id": "capital-athens",
+  "category": "capital",
+  "name": "Athens",
+  "aliases": [],
+  "size": 10400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "source": "English Wikipedia pageviews for \"Athens\", undefined-month mean (60 days ending 2026-09-11); Capital of Greece; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 75978,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Athens"
+ },
+ {
+  "id": "capital-lisbon",
+  "category": "capital",
+  "name": "Lisbon",
+  "aliases": [],
+  "size": 10200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Portugal",
+  "source": "English Wikipedia pageviews for \"Lisbon\", undefined-month mean (60 days ending 2026-09-11); Capital of Portugal; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 58901,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lisbon"
+ },
+ {
+  "id": "capital-budapest",
+  "category": "capital",
+  "name": "Budapest",
+  "aliases": [],
+  "size": 9600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Hungary",
+  "source": "English Wikipedia pageviews for \"Budapest\", undefined-month mean (60 days ending 2026-09-11); Capital of Hungary; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 75035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Budapest"
+ },
+ {
+  "id": "capital-minsk",
+  "category": "capital",
+  "name": "Minsk",
+  "aliases": [],
+  "size": 9500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "source": "English Wikipedia pageviews for \"Minsk\", undefined-month mean (60 days ending 2026-09-11); Capital of Belarus; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 30318,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Minsk"
+ },
+ {
+  "id": "capital-vienna",
+  "category": "capital",
+  "name": "Vienna",
+  "aliases": [],
+  "size": 9100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Austria",
+  "source": "English Wikipedia pageviews for \"Vienna\", undefined-month mean (60 days ending 2026-09-11); Capital of Austria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 84867,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vienna"
+ },
+ {
+  "id": "capital-bern",
+  "category": "capital",
+  "name": "Bern",
+  "aliases": [],
+  "size": 8800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Switzerland",
+  "source": "English Wikipedia pageviews for \"Bern\", undefined-month mean (60 days ending 2026-09-11); Capital of Switzerland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 26452,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bern"
+ },
+ {
+  "id": "capital-belgrade",
+  "category": "capital",
+  "name": "Belgrade",
+  "aliases": [],
+  "size": 6800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Serbia",
+  "source": "English Wikipedia pageviews for \"Belgrade\", undefined-month mean (60 days ending 2026-09-11); Capital of Serbia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 55918,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belgrade"
+ },
+ {
+  "id": "capital-sofia",
+  "category": "capital",
+  "name": "Sofia",
+  "aliases": [],
+  "size": 6500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Bulgaria",
+  "source": "English Wikipedia pageviews for \"Sofia\", undefined-month mean (60 days ending 2026-09-11); Capital of Bulgaria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 38263,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sofia"
+ },
+ {
+  "id": "capital-copenhagen",
+  "category": "capital",
+  "name": "Copenhagen",
+  "aliases": [],
+  "size": 5900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Denmark",
+  "source": "English Wikipedia pageviews for \"Copenhagen\", undefined-month mean (60 days ending 2026-09-11); Capital of Denmark; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 71534,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Copenhagen"
+ },
+ {
+  "id": "capital-bratislava",
+  "category": "capital",
+  "name": "Bratislava",
+  "aliases": [],
+  "size": 5800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Slovakia",
+  "source": "English Wikipedia pageviews for \"Bratislava\", undefined-month mean (60 days ending 2026-09-11); Capital of Slovakia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 48491,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bratislava"
+ },
+ {
+  "id": "capital-helsinki",
+  "category": "capital",
+  "name": "Helsinki",
+  "aliases": [],
+  "size": 5600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Finland",
+  "source": "English Wikipedia pageviews for \"Helsinki\", undefined-month mean (60 days ending 2026-09-11); Capital of Finland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 48826,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Helsinki"
+ },
+ {
+  "id": "capital-oslo",
+  "category": "capital",
+  "name": "Oslo",
+  "aliases": [],
+  "size": 5500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Norway",
+  "source": "English Wikipedia pageviews for \"Oslo\", undefined-month mean (60 days ending 2026-09-11); Capital of Norway; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49556,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oslo"
+ },
+ {
+  "id": "capital-dublin",
+  "category": "capital",
+  "name": "Dublin",
+  "aliases": [],
+  "size": 5200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Ireland",
+  "source": "English Wikipedia pageviews for \"Dublin\", undefined-month mean (60 days ending 2026-09-11); Capital of Ireland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 78566,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dublin"
+ },
+ {
+  "id": "capital-zagreb",
+  "category": "capital",
+  "name": "Zagreb",
+  "aliases": [],
+  "size": 4000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Croatia",
+  "source": "English Wikipedia pageviews for \"Zagreb\", undefined-month mean (60 days ending 2026-09-11); Capital of Croatia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 36102,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zagreb"
+ },
+ {
+  "id": "capital-chisinau",
+  "category": "capital",
+  "name": "Chisinau",
+  "aliases": [],
+  "size": 3400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Moldova",
+  "source": "English Wikipedia pageviews for \"Chișinău\", undefined-month mean (60 days ending 2026-09-11); Capital of Moldova; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23895,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chișinău"
+ },
+ {
+  "id": "capital-sarajevo",
+  "category": "capital",
+  "name": "Sarajevo",
+  "aliases": [],
+  "size": 3200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Bosnia and Herzegovina",
+  "source": "English Wikipedia pageviews for \"Sarajevo\", undefined-month mean (60 days ending 2026-09-11); Capital of Bosnia and Herzegovina; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49130,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sarajevo"
+ },
+ {
+  "id": "capital-tirana",
+  "category": "capital",
+  "name": "Tirana",
+  "aliases": [],
+  "size": 2800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Albania",
+  "source": "English Wikipedia pageviews for \"Tirana\", undefined-month mean (60 days ending 2026-09-11); Capital of Albania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 25478,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tirana"
+ },
+ {
+  "id": "capital-vilnius",
+  "category": "capital",
+  "name": "Vilnius",
+  "aliases": [],
+  "size": 2700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Lithuania",
+  "source": "English Wikipedia pageviews for \"Vilnius\", undefined-month mean (60 days ending 2026-09-11); Capital of Lithuania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 36224,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vilnius"
+ },
+ {
+  "id": "capital-ljubljana",
+  "category": "capital",
+  "name": "Ljubljana",
+  "aliases": [],
+  "size": 2120000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Slovenia",
+  "source": "English Wikipedia pageviews for \"Ljubljana\", undefined-month mean (60 days ending 2026-09-11); Capital of Slovenia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 52905,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ljubljana"
+ },
+ {
+  "id": "capital-skopje",
+  "category": "capital",
+  "name": "Skopje",
+  "aliases": [],
+  "size": 2100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "North Macedonia",
+  "source": "English Wikipedia pageviews for \"Skopje\", undefined-month mean (60 days ending 2026-09-11); Capital of North Macedonia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 30318,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Skopje"
+ },
+ {
+  "id": "capital-riga",
+  "category": "capital",
+  "name": "Riga",
+  "aliases": [],
+  "size": 1830000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Latvia",
+  "source": "English Wikipedia pageviews for \"Riga\", undefined-month mean (60 days ending 2026-09-11); Capital of Latvia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 36406,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Riga"
+ },
+ {
+  "id": "capital-pristina",
+  "category": "capital",
+  "name": "Pristina",
+  "aliases": [],
+  "size": 1660000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Kosovo",
+  "source": "English Wikipedia pageviews for \"Pristina\", undefined-month mean (60 days ending 2026-09-11); Capital of Kosovo; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23682,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pristina"
+ },
+ {
+  "id": "capital-tallinn",
+  "category": "capital",
+  "name": "Tallinn",
+  "aliases": [],
+  "size": 1370000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Estonia",
+  "source": "English Wikipedia pageviews for \"Tallinn\", undefined-month mean (60 days ending 2026-09-11); Capital of Estonia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 41672,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tallinn"
+ },
+ {
+  "id": "capital-nicosia",
+  "category": "capital",
+  "name": "Nicosia",
+  "aliases": [],
+  "size": 1260000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe"
+  ],
+  "country": "Cyprus",
+  "source": "English Wikipedia pageviews for \"Nicosia\", undefined-month mean (60 days ending 2026-09-11); Capital of Cyprus; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 26087,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nicosia"
+ },
+ {
+  "id": "capital-luxembourg-city",
+  "category": "capital",
+  "name": "Luxembourg City",
+  "aliases": [
+   "Luxembourg"
+  ],
+  "size": 660000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Luxembourg",
+  "source": "English Wikipedia pageviews for \"Luxembourg City\", undefined-month mean (60 days ending 2026-09-11); Capital of Luxembourg; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18873,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luxembourg City"
+ },
+ {
+  "id": "capital-podgorica",
+  "category": "capital",
+  "name": "Podgorica",
+  "aliases": [],
+  "size": 620000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Montenegro",
+  "source": "English Wikipedia pageviews for \"Podgorica\", undefined-month mean (60 days ending 2026-09-11); Capital of Montenegro; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 20638,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Podgorica"
+ },
+ {
+  "id": "capital-valletta",
+  "category": "capital",
+  "name": "Valletta",
+  "aliases": [],
+  "size": 540000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe"
+  ],
+  "country": "Malta",
+  "source": "English Wikipedia pageviews for \"Valletta\", undefined-month mean (60 days ending 2026-09-11); Capital of Malta; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 27944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Valletta"
+ },
+ {
+  "id": "capital-reykjavik",
+  "category": "capital",
+  "name": "Reykjavik",
+  "aliases": [],
+  "size": 380000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Iceland",
+  "source": "English Wikipedia pageviews for \"Reykjavík\", undefined-month mean (60 days ending 2026-09-11); Capital of Iceland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 60089,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Reykjavík"
+ },
+ {
+  "id": "capital-andorra-la-vella",
+  "category": "capital",
+  "name": "Andorra la Vella",
+  "aliases": [],
+  "size": 80000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Andorra",
+  "source": "English Wikipedia pageviews for \"Andorra la Vella\", undefined-month mean (60 days ending 2026-09-11); Capital of Andorra; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11141,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Andorra la Vella"
+ },
+ {
+  "id": "capital-vaduz",
+  "category": "capital",
+  "name": "Vaduz",
+  "aliases": [],
+  "size": 39000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Liechtenstein",
+  "source": "English Wikipedia pageviews for \"Vaduz\", undefined-month mean (60 days ending 2026-09-11); Capital of Liechtenstein; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 12267,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vaduz"
+ },
+ {
+  "id": "capital-monaco-ville",
+  "category": "capital",
+  "name": "Monaco-Ville",
+  "aliases": [
+   "Monaco"
+  ],
+  "size": 36000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Monaco",
+  "source": "English Wikipedia pageviews for \"Monaco-Ville\", undefined-month mean (60 days ending 2026-09-11); Capital of Monaco; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 3074,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monaco-Ville"
+ },
+ {
+  "id": "capital-san-marino-city",
+  "category": "capital",
+  "name": "San Marino City",
+  "aliases": [
+   "San Marino"
+  ],
+  "size": 33600,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe"
+  ],
+  "country": "San Marino",
+  "source": "English Wikipedia pageviews for \"City of San Marino\", undefined-month mean (60 days ending 2026-09-11); Capital of San Marino; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 5297,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "City of San Marino"
+ },
+ {
+  "id": "capital-vatican-city",
+  "category": "capital",
+  "name": "Vatican City",
+  "aliases": [],
+  "size": 764,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Europe"
+  ],
+  "country": "Vatican City",
+  "source": "English Wikipedia pageviews for \"Vatican City\", undefined-month mean (60 days ending 2026-09-11); Capital of Vatican City; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 104592,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vatican City"
+ },
+ {
+  "id": "capital-washington-dc",
+  "category": "capital",
+  "name": "Washington DC",
+  "aliases": [
+   "Washington"
+  ],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "source": "English Wikipedia pageviews for \"Washington, D.C.\", undefined-month mean (60 days ending 2026-09-11); Capital of United States; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 183888,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Washington, D.C."
+ },
+ {
+  "id": "capital-mexico-city",
+  "category": "capital",
+  "name": "Mexico City",
+  "aliases": [],
+  "size": 128500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "source": "English Wikipedia pageviews for \"Mexico City\", undefined-month mean (60 days ending 2026-09-11); Capital of Mexico; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 90589,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mexico City"
+ },
+ {
+  "id": "capital-ottawa",
+  "category": "capital",
+  "name": "Ottawa",
+  "aliases": [],
+  "size": 40100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "source": "English Wikipedia pageviews for \"Ottawa\", undefined-month mean (60 days ending 2026-09-11); Capital of Canada; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 61611,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ottawa"
+ },
+ {
+  "id": "capital-guatemala-city",
+  "category": "capital",
+  "name": "Guatemala City",
+  "aliases": [],
+  "size": 18100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Guatemala",
+  "source": "English Wikipedia pageviews for \"Guatemala City\", undefined-month mean (60 days ending 2026-09-11); Capital of Guatemala; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 14824,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guatemala City"
+ },
+ {
+  "id": "capital-port-au-prince",
+  "category": "capital",
+  "name": "Port-au-Prince",
+  "aliases": [],
+  "size": 11700000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Haiti",
+  "source": "English Wikipedia pageviews for \"Port-au-Prince\", undefined-month mean (60 days ending 2026-09-11); Capital of Haiti; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18264,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port-au-Prince"
+ },
+ {
+  "id": "capital-santo-domingo",
+  "category": "capital",
+  "name": "Santo Domingo",
+  "aliases": [],
+  "size": 11300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Dominican Republic",
+  "source": "English Wikipedia pageviews for \"Santo Domingo\", undefined-month mean (60 days ending 2026-09-11); Capital of Dominican Republic; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 25783,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santo Domingo"
+ },
+ {
+  "id": "capital-havana",
+  "category": "capital",
+  "name": "Havana",
+  "aliases": [],
+  "size": 11200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Cuba",
+  "source": "English Wikipedia pageviews for \"Havana\", undefined-month mean (60 days ending 2026-09-11); Capital of Cuba; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 26696,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Havana"
+ },
+ {
+  "id": "capital-tegucigalpa",
+  "category": "capital",
+  "name": "Tegucigalpa",
+  "aliases": [],
+  "size": 10600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Honduras",
+  "source": "English Wikipedia pageviews for \"Tegucigalpa\", undefined-month mean (60 days ending 2026-09-11); Capital of Honduras; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 13302,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tegucigalpa"
+ },
+ {
+  "id": "capital-managua",
+  "category": "capital",
+  "name": "Managua",
+  "aliases": [],
+  "size": 7000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Nicaragua",
+  "source": "English Wikipedia pageviews for \"Managua\", undefined-month mean (60 days ending 2026-09-11); Capital of Nicaragua; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 9376,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Managua"
+ },
+ {
+  "id": "capital-san-salvador",
+  "category": "capital",
+  "name": "San Salvador",
+  "aliases": [],
+  "size": 6400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "El Salvador",
+  "source": "English Wikipedia pageviews for \"San Salvador\", undefined-month mean (60 days ending 2026-09-11); Capital of El Salvador; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 14855,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Salvador"
+ },
+ {
+  "id": "capital-san-jose",
+  "category": "capital",
+  "name": "San Jose",
+  "aliases": [],
+  "size": 5200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Costa Rica",
+  "source": "English Wikipedia pageviews for \"San José, Costa Rica\", undefined-month mean (60 days ending 2026-09-11); Capital of Costa Rica; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 13942,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San José, Costa Rica"
+ },
+ {
+  "id": "capital-panama-city",
+  "category": "capital",
+  "name": "Panama City",
+  "aliases": [],
+  "size": 4500000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Panama",
+  "source": "English Wikipedia pageviews for \"Panama City\", undefined-month mean (60 days ending 2026-09-11); Capital of Panama; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23652,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Panama City"
+ },
+ {
+  "id": "capital-kingston",
+  "category": "capital",
+  "name": "Kingston",
+  "aliases": [],
+  "size": 2830000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Jamaica",
+  "source": "English Wikipedia pageviews for \"Kingston, Jamaica\", undefined-month mean (60 days ending 2026-09-11); Capital of Jamaica; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 20912,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kingston, Jamaica"
+ },
+ {
+  "id": "capital-port-of-spain",
+  "category": "capital",
+  "name": "Port of Spain",
+  "aliases": [],
+  "size": 1530000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Trinidad and Tobago",
+  "source": "English Wikipedia pageviews for \"Port of Spain\", undefined-month mean (60 days ending 2026-09-11); Capital of Trinidad and Tobago; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 15007,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port of Spain"
+ },
+ {
+  "id": "capital-belmopan",
+  "category": "capital",
+  "name": "Belmopan",
+  "aliases": [],
+  "size": 410000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Belize",
+  "source": "English Wikipedia pageviews for \"Belmopan\", undefined-month mean (60 days ending 2026-09-11); Capital of Belize; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 6636,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belmopan"
+ },
+ {
+  "id": "capital-nassau",
+  "category": "capital",
+  "name": "Nassau",
+  "aliases": [],
+  "size": 409000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Bahamas",
+  "source": "English Wikipedia pageviews for \"Nassau, Bahamas\", undefined-month mean (60 days ending 2026-09-11); Capital of Bahamas; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 36345,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nassau, Bahamas"
+ },
+ {
+  "id": "capital-bridgetown",
+  "category": "capital",
+  "name": "Bridgetown",
+  "aliases": [],
+  "size": 281000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Barbados",
+  "source": "English Wikipedia pageviews for \"Bridgetown\", undefined-month mean (60 days ending 2026-09-11); Capital of Barbados; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 9345,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bridgetown"
+ },
+ {
+  "id": "capital-castries",
+  "category": "capital",
+  "name": "Castries",
+  "aliases": [],
+  "size": 180000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Saint Lucia",
+  "source": "English Wikipedia pageviews for \"Castries\", undefined-month mean (60 days ending 2026-09-11); Capital of Saint Lucia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 4049,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Castries"
+ },
+ {
+  "id": "capital-saint-georges",
+  "category": "capital",
+  "name": "Saint Georges",
+  "aliases": [
+   "St Georges"
+  ],
+  "size": 126000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Grenada",
+  "source": "English Wikipedia pageviews for \"St. George's, Grenada\", undefined-month mean (60 days ending 2026-09-11); Capital of Grenada; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 3683,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. George's, Grenada"
+ },
+ {
+  "id": "capital-kingstown",
+  "category": "capital",
+  "name": "Kingstown",
+  "aliases": [],
+  "size": 104000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Saint Vincent and the Grenadines",
+  "source": "English Wikipedia pageviews for \"Kingstown\", undefined-month mean (60 days ending 2026-09-11); Capital of Saint Vincent and the Grenadines; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 3348,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kingstown"
+ },
+ {
+  "id": "capital-saint-johns",
+  "category": "capital",
+  "name": "Saint Johns",
+  "aliases": [
+   "St Johns"
+  ],
+  "size": 94000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Antigua and Barbuda",
+  "source": "English Wikipedia pageviews for \"St. John's, Antigua and Barbuda\", undefined-month mean (60 days ending 2026-09-11); Capital of Antigua and Barbuda; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 5266,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. John's, Antigua and Barbuda"
+ },
+ {
+  "id": "capital-roseau",
+  "category": "capital",
+  "name": "Roseau",
+  "aliases": [],
+  "size": 73000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Dominica",
+  "source": "English Wikipedia pageviews for \"Roseau\", undefined-month mean (60 days ending 2026-09-11); Capital of Dominica; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 3714,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Roseau"
+ },
+ {
+  "id": "capital-basseterre",
+  "category": "capital",
+  "name": "Basseterre",
+  "aliases": [],
+  "size": 47000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Saint Kitts and Nevis",
+  "source": "English Wikipedia pageviews for \"Basseterre\", undefined-month mean (60 days ending 2026-09-11); Capital of Saint Kitts and Nevis; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 5905,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Basseterre"
+ },
+ {
+  "id": "capital-brasilia",
+  "category": "capital",
+  "name": "Brasilia",
+  "aliases": [],
+  "size": 216400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "source": "English Wikipedia pageviews for \"Brasília\", undefined-month mean (60 days ending 2026-09-11); Capital of Brazil; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 37015,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brasília"
+ },
+ {
+  "id": "capital-bogota",
+  "category": "capital",
+  "name": "Bogota",
+  "aliases": [],
+  "size": 52100000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Colombia",
+  "source": "English Wikipedia pageviews for \"Bogotá\", undefined-month mean (60 days ending 2026-09-11); Capital of Colombia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 45599,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bogotá"
+ },
+ {
+  "id": "capital-buenos-aires",
+  "category": "capital",
+  "name": "Buenos Aires",
+  "aliases": [],
+  "size": 45800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Argentina",
+  "source": "English Wikipedia pageviews for \"Buenos Aires\", undefined-month mean (60 days ending 2026-09-11); Capital of Argentina; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 68064,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Buenos Aires"
+ },
+ {
+  "id": "capital-lima",
+  "category": "capital",
+  "name": "Lima",
+  "aliases": [],
+  "size": 34400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Peru",
+  "source": "English Wikipedia pageviews for \"Lima\", undefined-month mean (60 days ending 2026-09-11); Capital of Peru; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 35523,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lima"
+ },
+ {
+  "id": "capital-caracas",
+  "category": "capital",
+  "name": "Caracas",
+  "aliases": [],
+  "size": 28800000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Venezuela",
+  "source": "English Wikipedia pageviews for \"Caracas\", undefined-month mean (60 days ending 2026-09-11); Capital of Venezuela; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 20425,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Caracas"
+ },
+ {
+  "id": "capital-santiago",
+  "category": "capital",
+  "name": "Santiago",
+  "aliases": [],
+  "size": 19600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Chile",
+  "source": "English Wikipedia pageviews for \"Santiago\", undefined-month mean (60 days ending 2026-09-11); Capital of Chile; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 37106,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santiago"
+ },
+ {
+  "id": "capital-quito",
+  "category": "capital",
+  "name": "Quito",
+  "aliases": [],
+  "size": 18200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Ecuador",
+  "source": "English Wikipedia pageviews for \"Quito\", undefined-month mean (60 days ending 2026-09-11); Capital of Ecuador; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23865,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Quito"
+ },
+ {
+  "id": "capital-sucre",
+  "category": "capital",
+  "name": "Sucre",
+  "aliases": [
+   "La Paz"
+  ],
+  "size": 12400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Bolivia",
+  "source": "English Wikipedia pageviews for \"Sucre\", undefined-month mean (60 days ending 2026-09-11); Capital of Bolivia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 9102,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sucre"
+ },
+ {
+  "id": "capital-asuncion",
+  "category": "capital",
+  "name": "Asuncion",
+  "aliases": [],
+  "size": 6900000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Paraguay",
+  "source": "English Wikipedia pageviews for \"Asunción\", undefined-month mean (60 days ending 2026-09-11); Capital of Paraguay; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18629,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Asunción"
+ },
+ {
+  "id": "capital-montevideo",
+  "category": "capital",
+  "name": "Montevideo",
+  "aliases": [],
+  "size": 3400000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Uruguay",
+  "source": "English Wikipedia pageviews for \"Montevideo\", undefined-month mean (60 days ending 2026-09-11); Capital of Uruguay; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 27700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Montevideo"
+ },
+ {
+  "id": "capital-georgetown",
+  "category": "capital",
+  "name": "Georgetown",
+  "aliases": [],
+  "size": 810000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Guyana",
+  "source": "English Wikipedia pageviews for \"Georgetown, Guyana\", undefined-month mean (60 days ending 2026-09-11); Capital of Guyana; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 17777,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Georgetown, Guyana"
+ },
+ {
+  "id": "capital-paramaribo",
+  "category": "capital",
+  "name": "Paramaribo",
+  "aliases": [],
+  "size": 620000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "South America"
+  ],
+  "country": "Suriname",
+  "source": "English Wikipedia pageviews for \"Paramaribo\", undefined-month mean (60 days ending 2026-09-11); Capital of Suriname; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 12846,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Paramaribo"
+ },
+ {
+  "id": "capital-canberra",
+  "category": "capital",
+  "name": "Canberra",
+  "aliases": [],
+  "size": 26600000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Australia",
+  "source": "English Wikipedia pageviews for \"Canberra\", undefined-month mean (60 days ending 2026-09-11); Capital of Australia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 54001,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Canberra"
+ },
+ {
+  "id": "capital-port-moresby",
+  "category": "capital",
+  "name": "Port Moresby",
+  "aliases": [],
+  "size": 10300000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Papua New Guinea",
+  "source": "English Wikipedia pageviews for \"Port Moresby\", undefined-month mean (60 days ending 2026-09-11); Capital of Papua New Guinea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 22952,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port Moresby"
+ },
+ {
+  "id": "capital-wellington",
+  "category": "capital",
+  "name": "Wellington",
+  "aliases": [],
+  "size": 5200000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "New Zealand",
+  "source": "English Wikipedia pageviews for \"Wellington\", undefined-month mean (60 days ending 2026-09-11); Capital of New Zealand; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 37806,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wellington"
+ },
+ {
+  "id": "capital-suva",
+  "category": "capital",
+  "name": "Suva",
+  "aliases": [],
+  "size": 930000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Fiji",
+  "source": "English Wikipedia pageviews for \"Suva\", undefined-month mean (60 days ending 2026-09-11); Capital of Fiji; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 10410,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Suva"
+ },
+ {
+  "id": "capital-honiara",
+  "category": "capital",
+  "name": "Honiara",
+  "aliases": [],
+  "size": 740000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Solomon Islands",
+  "source": "English Wikipedia pageviews for \"Honiara\", undefined-month mean (60 days ending 2026-09-11); Capital of Solomon Islands; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 6301,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Honiara"
+ },
+ {
+  "id": "capital-port-vila",
+  "category": "capital",
+  "name": "Port Vila",
+  "aliases": [],
+  "size": 330000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Vanuatu",
+  "source": "English Wikipedia pageviews for \"Port Vila\", undefined-month mean (60 days ending 2026-09-11); Capital of Vanuatu; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 5905,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port Vila"
+ },
+ {
+  "id": "capital-apia",
+  "category": "capital",
+  "name": "Apia",
+  "aliases": [],
+  "size": 220000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Samoa",
+  "source": "English Wikipedia pageviews for \"Apia\", undefined-month mean (60 days ending 2026-09-11); Capital of Samoa; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 7397,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Apia"
+ },
+ {
+  "id": "capital-south-tarawa",
+  "category": "capital",
+  "name": "South Tarawa",
+  "aliases": [],
+  "size": 133000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Kiribati",
+  "source": "English Wikipedia pageviews for \"South Tarawa\", undefined-month mean (60 days ending 2026-09-11); Capital of Kiribati; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 2709,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Tarawa"
+ },
+ {
+  "id": "capital-palikir",
+  "category": "capital",
+  "name": "Palikir",
+  "aliases": [],
+  "size": 115000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Micronesia",
+  "source": "English Wikipedia pageviews for \"Palikir\", undefined-month mean (60 days ending 2026-09-11); Capital of Micronesia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 4231,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palikir"
+ },
+ {
+  "id": "capital-nukualofa",
+  "category": "capital",
+  "name": "Nukualofa",
+  "aliases": [],
+  "size": 107000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Tonga",
+  "source": "English Wikipedia pageviews for \"Nukuʻalofa\", undefined-month mean (60 days ending 2026-09-11); Capital of Tonga; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 6484,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nukuʻalofa"
+ },
+ {
+  "id": "capital-majuro",
+  "category": "capital",
+  "name": "Majuro",
+  "aliases": [],
+  "size": 42000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Marshall Islands",
+  "source": "English Wikipedia pageviews for \"Majuro\", undefined-month mean (60 days ending 2026-09-11); Capital of Marshall Islands; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 8645,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Majuro"
+ },
+ {
+  "id": "capital-ngerulmud",
+  "category": "capital",
+  "name": "Ngerulmud",
+  "aliases": [],
+  "size": 18000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Palau",
+  "source": "English Wikipedia pageviews for \"Ngerulmud\", undefined-month mean (60 days ending 2026-09-11); Capital of Palau; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 9436,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ngerulmud"
+ },
+ {
+  "id": "capital-yaren",
+  "category": "capital",
+  "name": "Yaren",
+  "aliases": [],
+  "size": 12500,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Nauru",
+  "source": "English Wikipedia pageviews for \"Yaren\", undefined-month mean (60 days ending 2026-09-11); Capital of Nauru; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 4566,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yaren"
+ },
+ {
+  "id": "capital-funafuti",
+  "category": "capital",
+  "name": "Funafuti",
+  "aliases": [],
+  "size": 11400,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Tuvalu",
+  "source": "English Wikipedia pageviews for \"Funafuti\", undefined-month mean (60 days ending 2026-09-11); Capital of Tuvalu; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 5510,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Funafuti"
+ }
+]

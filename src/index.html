@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Wormillion - an endless geography digging game. The more obscure your answer, the deeper you dig.">
+<title>Wormillion</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%236d4a2c'/><rect x='5' y='3' width='6' height='3' fill='%23e0705a'/><rect x='6' y='6' width='5' height='3' fill='%23c8503f'/><rect x='6' y='9' width='4' height='3' fill='%23e0705a'/></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app" id="app" data-screen="title">
+
+  <header class="topbar">
+    <h1 class="logo">Wormillion</h1>
+    <p class="best-chip">Best <span id="best-score">—</span></p>
+  </header>
+
+  <main class="stage">
+
+    <section class="scene" id="scene-wrap" aria-hidden="true">
+      <canvas id="scene"></canvas>
+      <div class="scene-hud">
+        <div class="depth-readout">
+          <span id="hud-depth">0</span>
+          <small>depth</small>
+        </div>
+        <div class="stratum-badge" id="hud-stratum">Topsoil</div>
+      </div>
+    </section>
+
+    <section class="panel">
+
+      <!-- title -->
+      <div class="screen" id="screen-title">
+        <h2 class="screen-title">Dig for the obscure</h2>
+        <p class="lede">
+          Fifteen rounds. Thirty seconds each. Name any real place that fits the
+          prompt — the more obscure it is, the deeper your worm digs and the more
+          you score.
+        </p>
+        <ul class="rules">
+          <li>Obscurity is measured in monthly Wikipedia views — the Nile pulls
+            tens of thousands, so nobody digs deep on the Nile.</li>
+          <li>Wrong or unknown answers cost nothing — keep guessing.</li>
+          <li>No repeats within a run.</li>
+        </ul>
+        <button class="btn primary" id="start-btn" type="button">Start digging</button>
+        <button class="btn ghost" id="stats-btn" type="button">Past dives</button>
+        <p class="footnote"><span id="bank-count">0</span> real places in the bank</p>
+      </div>
+
+      <!-- play -->
+      <div class="screen" id="screen-play" hidden>
+        <div class="statusline">
+          <span id="round-label">Round 1 / 15</span>
+          <span id="score-label">0 pts</span>
+        </div>
+
+        <div class="timer" aria-hidden="true">
+          <div class="timer-track"><div class="timer-bar" id="timer-bar"></div></div>
+          <span class="timer-num" id="timer-num">30</span>
+        </div>
+
+        <div class="prompt-card">
+          <canvas id="prompt-icon" class="prompt-icon" width="12" height="12" aria-hidden="true"></canvas>
+          <div>
+            <p class="prompt-category" id="prompt-category">Country</p>
+            <p class="prompt-text" id="prompt-text">Name a country.</p>
+          </div>
+        </div>
+
+        <form class="answer-form" id="answer-form" autocomplete="off">
+          <label class="sr-only" for="answer-input">Your answer</label>
+          <input
+            id="answer-input"
+            name="answer"
+            type="text"
+            inputmode="text"
+            autocapitalize="words"
+            autocorrect="off"
+            spellcheck="false"
+            placeholder="type a place…">
+          <button class="btn primary" type="submit">Dig</button>
+        </form>
+
+        <p class="feedback" id="feedback" role="status"></p>
+        <p class="last-answer" id="last-answer"></p>
+      </div>
+
+      <!-- summary -->
+      <div class="screen" id="screen-summary" hidden>
+        <h2 class="screen-title">Dive complete</h2>
+        <p class="big-score" id="summary-score">0</p>
+        <p class="sub-score"><span id="summary-depth">0 deep</span></p>
+        <p class="stratum-badge big" id="summary-stratum">Topsoil</p>
+        <p class="new-best" id="summary-best" hidden>New best dive</p>
+        <ol class="round-list" id="summary-rounds"></ol>
+        <button class="btn primary" id="again-btn" type="button">Dive again</button>
+        <button class="btn ghost" id="summary-stats-btn" type="button">Past dives</button>
+      </div>
+
+      <!-- stats -->
+      <div class="screen" id="screen-stats" hidden>
+        <h2 class="screen-title">Past dives</h2>
+        <dl class="stat-grid">
+          <div><dt>Runs</dt><dd id="stat-runs">0</dd></div>
+          <div><dt>Average</dt><dd id="stat-avg">0</dd></div>
+          <div><dt>Best</dt><dd id="stat-best">0</dd></div>
+          <div><dt>Deepest</dt><dd id="stat-deepest">—</dd></div>
+        </dl>
+        <ol class="round-list history" id="stat-list"></ol>
+        <button class="btn ghost" id="stats-back" type="button">Back</button>
+      </div>
+
+    </section>
+  </main>
+
+  <p class="sr-only" id="announcer" aria-live="polite"></p>
+</div>
+
+<script src="data/bank.js"></script>
+<script src="data/themes.js"></script>
+<script src="js/strata.js"></script>
+<script src="js/rarity.js"></script>
+<script src="js/matching.js"></script>
+<script src="js/promptBank.js"></script>
+<script src="js/timer.js"></script>
+<script src="js/run.js"></script>
+<script src="js/persistence.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/worldRender.js"></script>
+<script src="js/ui.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

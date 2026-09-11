@@ -1,0 +1,3182 @@
+[
+ {
+  "id": "country-nigeria",
+  "category": "country",
+  "name": "Nigeria",
+  "aliases": [],
+  "size": 223800000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Nigeria\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 158805,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nigeria"
+ },
+ {
+  "id": "country-ethiopia",
+  "category": "country",
+  "name": "Ethiopia",
+  "aliases": [],
+  "size": 126500000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Ethiopia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 136736,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ethiopia"
+ },
+ {
+  "id": "country-egypt",
+  "category": "country",
+  "name": "Egypt",
+  "aliases": [],
+  "size": 112700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Egypt\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 161789,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Egypt"
+ },
+ {
+  "id": "country-democratic-republic-of-the-congo",
+  "category": "country",
+  "name": "Democratic Republic of the Congo",
+  "aliases": [
+   "DR Congo",
+   "DRC",
+   "Congo-Kinshasa"
+  ],
+  "size": 102300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Democratic Republic of the Congo\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 152900,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Democratic Republic of the Congo"
+ },
+ {
+  "id": "country-tanzania",
+  "category": "country",
+  "name": "Tanzania",
+  "aliases": [],
+  "size": 67400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Tanzania\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 112932,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tanzania"
+ },
+ {
+  "id": "country-south-africa",
+  "category": "country",
+  "name": "South Africa",
+  "aliases": [],
+  "size": 60400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"South Africa\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 209945,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Africa"
+ },
+ {
+  "id": "country-kenya",
+  "category": "country",
+  "name": "Kenya",
+  "aliases": [],
+  "size": 55100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Kenya\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 92416,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kenya"
+ },
+ {
+  "id": "country-uganda",
+  "category": "country",
+  "name": "Uganda",
+  "aliases": [],
+  "size": 48600000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Uganda\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 95916,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uganda"
+ },
+ {
+  "id": "country-sudan",
+  "category": "country",
+  "name": "Sudan",
+  "aliases": [],
+  "size": 48100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Sudan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 95308,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sudan"
+ },
+ {
+  "id": "country-algeria",
+  "category": "country",
+  "name": "Algeria",
+  "aliases": [],
+  "size": 45600000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Algeria\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 135945,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Algeria"
+ },
+ {
+  "id": "country-morocco",
+  "category": "country",
+  "name": "Morocco",
+  "aliases": [],
+  "size": 37800000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Morocco\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 179596,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Morocco"
+ },
+ {
+  "id": "country-angola",
+  "category": "country",
+  "name": "Angola",
+  "aliases": [],
+  "size": 36700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Angola\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 79966,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Angola"
+ },
+ {
+  "id": "country-ghana",
+  "category": "country",
+  "name": "Ghana",
+  "aliases": [],
+  "size": 34100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Ghana\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 112689,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ghana"
+ },
+ {
+  "id": "country-mozambique",
+  "category": "country",
+  "name": "Mozambique",
+  "aliases": [],
+  "size": 33900000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Mozambique\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 71869,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mozambique"
+ },
+ {
+  "id": "country-madagascar",
+  "category": "country",
+  "name": "Madagascar",
+  "aliases": [],
+  "size": 30300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Madagascar\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 111897,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Madagascar"
+ },
+ {
+  "id": "country-ivory-coast",
+  "category": "country",
+  "name": "Ivory Coast",
+  "aliases": [
+   "Cote d Ivoire"
+  ],
+  "size": 28900000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Ivory Coast\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 82584,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ivory Coast"
+ },
+ {
+  "id": "country-cameroon",
+  "category": "country",
+  "name": "Cameroon",
+  "aliases": [],
+  "size": 28600000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Cameroon\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 77805,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cameroon"
+ },
+ {
+  "id": "country-niger",
+  "category": "country",
+  "name": "Niger",
+  "aliases": [],
+  "size": 27200000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Niger\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 70225,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Niger"
+ },
+ {
+  "id": "country-mali",
+  "category": "country",
+  "name": "Mali",
+  "aliases": [],
+  "size": 23300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Mali\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 77287,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mali"
+ },
+ {
+  "id": "country-burkina-faso",
+  "category": "country",
+  "name": "Burkina Faso",
+  "aliases": [],
+  "size": 23300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Burkina Faso\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 128609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burkina Faso"
+ },
+ {
+  "id": "country-malawi",
+  "category": "country",
+  "name": "Malawi",
+  "aliases": [],
+  "size": 20900000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Malawi\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 53422,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Malawi"
+ },
+ {
+  "id": "country-zambia",
+  "category": "country",
+  "name": "Zambia",
+  "aliases": [],
+  "size": 20500000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Zambia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 72752,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zambia"
+ },
+ {
+  "id": "country-chad",
+  "category": "country",
+  "name": "Chad",
+  "aliases": [],
+  "size": 18300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Chad\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 61671,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chad"
+ },
+ {
+  "id": "country-somalia",
+  "category": "country",
+  "name": "Somalia",
+  "aliases": [],
+  "size": 18100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Somalia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 96891,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Somalia"
+ },
+ {
+  "id": "country-senegal",
+  "category": "country",
+  "name": "Senegal",
+  "aliases": [],
+  "size": 17800000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Senegal\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 72995,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Senegal"
+ },
+ {
+  "id": "country-zimbabwe",
+  "category": "country",
+  "name": "Zimbabwe",
+  "aliases": [],
+  "size": 16700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Zimbabwe\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 115307,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zimbabwe"
+ },
+ {
+  "id": "country-guinea",
+  "category": "country",
+  "name": "Guinea",
+  "aliases": [],
+  "size": 14200000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Guinea\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 54092,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guinea"
+ },
+ {
+  "id": "country-rwanda",
+  "category": "country",
+  "name": "Rwanda",
+  "aliases": [],
+  "size": 14100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Rwanda\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 89676,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rwanda"
+ },
+ {
+  "id": "country-benin",
+  "category": "country",
+  "name": "Benin",
+  "aliases": [],
+  "size": 13700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Benin\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 65568,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Benin"
+ },
+ {
+  "id": "country-burundi",
+  "category": "country",
+  "name": "Burundi",
+  "aliases": [],
+  "size": 13200000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Burundi\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 57166,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burundi"
+ },
+ {
+  "id": "country-tunisia",
+  "category": "country",
+  "name": "Tunisia",
+  "aliases": [],
+  "size": 12500000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Tunisia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 98930,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tunisia"
+ },
+ {
+  "id": "country-south-sudan",
+  "category": "country",
+  "name": "South Sudan",
+  "aliases": [],
+  "size": 11100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"South Sudan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 81488,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Sudan"
+ },
+ {
+  "id": "country-togo",
+  "category": "country",
+  "name": "Togo",
+  "aliases": [],
+  "size": 9100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Togo\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 47882,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Togo"
+ },
+ {
+  "id": "country-sierra-leone",
+  "category": "country",
+  "name": "Sierra Leone",
+  "aliases": [],
+  "size": 8800000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Sierra Leone\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 67759,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sierra Leone"
+ },
+ {
+  "id": "country-libya",
+  "category": "country",
+  "name": "Libya",
+  "aliases": [],
+  "size": 6900000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Libya\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 100148,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Libya"
+ },
+ {
+  "id": "country-republic-of-the-congo",
+  "category": "country",
+  "name": "Republic of the Congo",
+  "aliases": [
+   "Congo",
+   "Congo-Brazzaville"
+  ],
+  "size": 6100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Republic of the Congo\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 51596,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Republic of the Congo"
+ },
+ {
+  "id": "country-central-african-republic",
+  "category": "country",
+  "name": "Central African Republic",
+  "aliases": [
+   "CAR"
+  ],
+  "size": 5700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Central African Republic\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 69829,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Central African Republic"
+ },
+ {
+  "id": "country-liberia",
+  "category": "country",
+  "name": "Liberia",
+  "aliases": [],
+  "size": 5400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Liberia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 103039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Liberia"
+ },
+ {
+  "id": "country-mauritania",
+  "category": "country",
+  "name": "Mauritania",
+  "aliases": [],
+  "size": 4900000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Mauritania\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 93847,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mauritania"
+ },
+ {
+  "id": "country-eritrea",
+  "category": "country",
+  "name": "Eritrea",
+  "aliases": [],
+  "size": 3700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Eritrea\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 108701,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eritrea"
+ },
+ {
+  "id": "country-gambia",
+  "category": "country",
+  "name": "Gambia",
+  "aliases": [
+   "The Gambia"
+  ],
+  "size": 2800000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"The Gambia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 59358,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "The Gambia"
+ },
+ {
+  "id": "country-botswana",
+  "category": "country",
+  "name": "Botswana",
+  "aliases": [],
+  "size": 2700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Botswana\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 71321,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Botswana"
+ },
+ {
+  "id": "country-namibia",
+  "category": "country",
+  "name": "Namibia",
+  "aliases": [],
+  "size": 2600000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Namibia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 104196,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Namibia"
+ },
+ {
+  "id": "country-gabon",
+  "category": "country",
+  "name": "Gabon",
+  "aliases": [],
+  "size": 2400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Gabon\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 55614,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gabon"
+ },
+ {
+  "id": "country-lesotho",
+  "category": "country",
+  "name": "Lesotho",
+  "aliases": [],
+  "size": 2300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Lesotho\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 68673,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lesotho"
+ },
+ {
+  "id": "country-guinea-bissau",
+  "category": "country",
+  "name": "Guinea-Bissau",
+  "aliases": [],
+  "size": 2150000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Guinea-Bissau\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 45447,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guinea-Bissau"
+ },
+ {
+  "id": "country-equatorial-guinea",
+  "category": "country",
+  "name": "Equatorial Guinea",
+  "aliases": [],
+  "size": 1700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Equatorial Guinea\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 78931,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Equatorial Guinea"
+ },
+ {
+  "id": "country-mauritius",
+  "category": "country",
+  "name": "Mauritius",
+  "aliases": [],
+  "size": 1300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Mauritius\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 187206,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mauritius"
+ },
+ {
+  "id": "country-eswatini",
+  "category": "country",
+  "name": "Eswatini",
+  "aliases": [
+   "Swaziland"
+  ],
+  "size": 1210000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Eswatini\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 104440,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eswatini"
+ },
+ {
+  "id": "country-djibouti",
+  "category": "country",
+  "name": "Djibouti",
+  "aliases": [],
+  "size": 1130000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Djibouti\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 60880,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Djibouti"
+ },
+ {
+  "id": "country-comoros",
+  "category": "country",
+  "name": "Comoros",
+  "aliases": [],
+  "size": 850000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Comoros\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 50774,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Comoros"
+ },
+ {
+  "id": "country-cape-verde",
+  "category": "country",
+  "name": "Cape Verde",
+  "aliases": [
+   "Cabo Verde"
+  ],
+  "size": 600000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Cape Verde\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 151804,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cape Verde"
+ },
+ {
+  "id": "country-sao-tome-and-principe",
+  "category": "country",
+  "name": "Sao Tome and Principe",
+  "aliases": [],
+  "size": 230000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"São Tomé and Príncipe\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 51048,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "São Tomé and Príncipe"
+ },
+ {
+  "id": "country-seychelles",
+  "category": "country",
+  "name": "Seychelles",
+  "aliases": [],
+  "size": 107000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "source": "English Wikipedia pageviews for \"Seychelles\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 109340,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seychelles"
+ },
+ {
+  "id": "country-india",
+  "category": "country",
+  "name": "India",
+  "aliases": [],
+  "size": 1428600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"India\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 534983,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "India"
+ },
+ {
+  "id": "country-china",
+  "category": "country",
+  "name": "China",
+  "aliases": [
+   "PRC"
+  ],
+  "size": 1425700000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"China\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 352404,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "China"
+ },
+ {
+  "id": "country-indonesia",
+  "category": "country",
+  "name": "Indonesia",
+  "aliases": [],
+  "size": 277500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Indonesia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 241907,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Indonesia"
+ },
+ {
+  "id": "country-pakistan",
+  "category": "country",
+  "name": "Pakistan",
+  "aliases": [],
+  "size": 240500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Pakistan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 236458,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pakistan"
+ },
+ {
+  "id": "country-bangladesh",
+  "category": "country",
+  "name": "Bangladesh",
+  "aliases": [],
+  "size": 173000000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Bangladesh\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 197251,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bangladesh"
+ },
+ {
+  "id": "country-japan",
+  "category": "country",
+  "name": "Japan",
+  "aliases": [],
+  "size": 123300000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Japan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 298647,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Japan"
+ },
+ {
+  "id": "country-philippines",
+  "category": "country",
+  "name": "Philippines",
+  "aliases": [
+   "The Philippines"
+  ],
+  "size": 117300000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Philippines\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 238954,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Philippines"
+ },
+ {
+  "id": "country-vietnam",
+  "category": "country",
+  "name": "Vietnam",
+  "aliases": [
+   "Viet Nam"
+  ],
+  "size": 98900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Vietnam\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 186415,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vietnam"
+ },
+ {
+  "id": "country-iran",
+  "category": "country",
+  "name": "Iran",
+  "aliases": [],
+  "size": 89200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Iran\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 268755,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iran"
+ },
+ {
+  "id": "country-turkey",
+  "category": "country",
+  "name": "Turkey",
+  "aliases": [
+   "Turkiye"
+  ],
+  "size": 85800000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Turkey\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 273534,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Turkey"
+ },
+ {
+  "id": "country-thailand",
+  "category": "country",
+  "name": "Thailand",
+  "aliases": [],
+  "size": 71800000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Thailand\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 161058,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thailand"
+ },
+ {
+  "id": "country-myanmar",
+  "category": "country",
+  "name": "Myanmar",
+  "aliases": [
+   "Burma"
+  ],
+  "size": 54600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Myanmar\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 170312,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Myanmar"
+ },
+ {
+  "id": "country-south-korea",
+  "category": "country",
+  "name": "South Korea",
+  "aliases": [
+   "Republic of Korea"
+  ],
+  "size": 51700000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"South Korea\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 176400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Korea"
+ },
+ {
+  "id": "country-iraq",
+  "category": "country",
+  "name": "Iraq",
+  "aliases": [],
+  "size": 45500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Iraq\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 109706,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iraq"
+ },
+ {
+  "id": "country-afghanistan",
+  "category": "country",
+  "name": "Afghanistan",
+  "aliases": [],
+  "size": 42200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia",
+   "Central Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Afghanistan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 187723,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Afghanistan"
+ },
+ {
+  "id": "country-saudi-arabia",
+  "category": "country",
+  "name": "Saudi Arabia",
+  "aliases": [],
+  "size": 36900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Saudi Arabia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 195120,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saudi Arabia"
+ },
+ {
+  "id": "country-uzbekistan",
+  "category": "country",
+  "name": "Uzbekistan",
+  "aliases": [],
+  "size": 35600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Uzbekistan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 134575,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uzbekistan"
+ },
+ {
+  "id": "country-yemen",
+  "category": "country",
+  "name": "Yemen",
+  "aliases": [],
+  "size": 34400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Yemen\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 114059,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yemen"
+ },
+ {
+  "id": "country-malaysia",
+  "category": "country",
+  "name": "Malaysia",
+  "aliases": [],
+  "size": 34300000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Malaysia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 198134,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Malaysia"
+ },
+ {
+  "id": "country-nepal",
+  "category": "country",
+  "name": "Nepal",
+  "aliases": [],
+  "size": 30900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Nepal\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 135184,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nepal"
+ },
+ {
+  "id": "country-north-korea",
+  "category": "country",
+  "name": "North Korea",
+  "aliases": [],
+  "size": 26200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"North Korea\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 193568,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Korea"
+ },
+ {
+  "id": "country-taiwan",
+  "category": "country",
+  "name": "Taiwan",
+  "aliases": [],
+  "size": 23400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Taiwan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 238802,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Taiwan"
+ },
+ {
+  "id": "country-syria",
+  "category": "country",
+  "name": "Syria",
+  "aliases": [],
+  "size": 23200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Syria\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 147390,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Syria"
+ },
+ {
+  "id": "country-sri-lanka",
+  "category": "country",
+  "name": "Sri Lanka",
+  "aliases": [],
+  "size": 21900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Sri Lanka\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 179687,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sri Lanka"
+ },
+ {
+  "id": "country-kazakhstan",
+  "category": "country",
+  "name": "Kazakhstan",
+  "aliases": [],
+  "size": 19600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Kazakhstan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 198012,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kazakhstan"
+ },
+ {
+  "id": "country-cambodia",
+  "category": "country",
+  "name": "Cambodia",
+  "aliases": [],
+  "size": 16900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Cambodia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 105018,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cambodia"
+ },
+ {
+  "id": "country-jordan",
+  "category": "country",
+  "name": "Jordan",
+  "aliases": [],
+  "size": 11300000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Jordan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 107271,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jordan"
+ },
+ {
+  "id": "country-azerbaijan",
+  "category": "country",
+  "name": "Azerbaijan",
+  "aliases": [],
+  "size": 10400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Azerbaijan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 130527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Azerbaijan"
+ },
+ {
+  "id": "country-tajikistan",
+  "category": "country",
+  "name": "Tajikistan",
+  "aliases": [],
+  "size": 10100000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Tajikistan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 86510,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tajikistan"
+ },
+ {
+  "id": "country-israel",
+  "category": "country",
+  "name": "Israel",
+  "aliases": [],
+  "size": 9800000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Israel\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 298434,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Israel"
+ },
+ {
+  "id": "country-united-arab-emirates",
+  "category": "country",
+  "name": "United Arab Emirates",
+  "aliases": [
+   "UAE"
+  ],
+  "size": 9500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"United Arab Emirates\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 185349,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "United Arab Emirates"
+ },
+ {
+  "id": "country-laos",
+  "category": "country",
+  "name": "Laos",
+  "aliases": [],
+  "size": 7600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Laos\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 91898,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Laos"
+ },
+ {
+  "id": "country-kyrgyzstan",
+  "category": "country",
+  "name": "Kyrgyzstan",
+  "aliases": [],
+  "size": 6700000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Kyrgyzstan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 134362,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kyrgyzstan"
+ },
+ {
+  "id": "country-turkmenistan",
+  "category": "country",
+  "name": "Turkmenistan",
+  "aliases": [],
+  "size": 6500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Turkmenistan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 106449,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Turkmenistan"
+ },
+ {
+  "id": "country-singapore",
+  "category": "country",
+  "name": "Singapore",
+  "aliases": [],
+  "size": 5900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Singapore\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 313684,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Singapore"
+ },
+ {
+  "id": "country-lebanon",
+  "category": "country",
+  "name": "Lebanon",
+  "aliases": [],
+  "size": 5400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Lebanon\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 128609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lebanon"
+ },
+ {
+  "id": "country-palestine",
+  "category": "country",
+  "name": "Palestine",
+  "aliases": [
+   "State of Palestine"
+  ],
+  "size": 5400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Palestine\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 159627,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palestine"
+ },
+ {
+  "id": "country-oman",
+  "category": "country",
+  "name": "Oman",
+  "aliases": [],
+  "size": 4600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Oman\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 108701,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oman"
+ },
+ {
+  "id": "country-kuwait",
+  "category": "country",
+  "name": "Kuwait",
+  "aliases": [],
+  "size": 4300000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Kuwait\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 89007,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kuwait"
+ },
+ {
+  "id": "country-georgia",
+  "category": "country",
+  "name": "Georgia",
+  "aliases": [],
+  "size": 3700000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Georgia (country)\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 175943,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Georgia (country)"
+ },
+ {
+  "id": "country-mongolia",
+  "category": "country",
+  "name": "Mongolia",
+  "aliases": [],
+  "size": 3400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Mongolia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 124500,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mongolia"
+ },
+ {
+  "id": "country-armenia",
+  "category": "country",
+  "name": "Armenia",
+  "aliases": [],
+  "size": 2800000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Armenia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 161149,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Armenia"
+ },
+ {
+  "id": "country-qatar",
+  "category": "country",
+  "name": "Qatar",
+  "aliases": [],
+  "size": 2700000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Qatar\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 100422,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Qatar"
+ },
+ {
+  "id": "country-bahrain",
+  "category": "country",
+  "name": "Bahrain",
+  "aliases": [],
+  "size": 1500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "source": "English Wikipedia pageviews for \"Bahrain\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 101791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bahrain"
+ },
+ {
+  "id": "country-timor-leste",
+  "category": "country",
+  "name": "Timor-Leste",
+  "aliases": [
+   "East Timor"
+  ],
+  "size": 1400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Timor-Leste\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 84197,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Timor-Leste"
+ },
+ {
+  "id": "country-bhutan",
+  "category": "country",
+  "name": "Bhutan",
+  "aliases": [],
+  "size": 790000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Bhutan\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 109067,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bhutan"
+ },
+ {
+  "id": "country-maldives",
+  "category": "country",
+  "name": "Maldives",
+  "aliases": [],
+  "size": 520000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Maldives\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 129553,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maldives"
+ },
+ {
+  "id": "country-brunei",
+  "category": "country",
+  "name": "Brunei",
+  "aliases": [],
+  "size": 450000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "source": "English Wikipedia pageviews for \"Brunei\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 110375,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brunei"
+ },
+ {
+  "id": "country-russia",
+  "category": "country",
+  "name": "Russia",
+  "aliases": [
+   "Russian Federation"
+  ],
+  "size": 144400000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Russia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 316059,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Russia"
+ },
+ {
+  "id": "country-germany",
+  "category": "country",
+  "name": "Germany",
+  "aliases": [],
+  "size": 83300000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Germany\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 354230,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Germany"
+ },
+ {
+  "id": "country-france",
+  "category": "country",
+  "name": "France",
+  "aliases": [],
+  "size": 68200000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"France\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 250856,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "France"
+ },
+ {
+  "id": "country-united-kingdom",
+  "category": "country",
+  "name": "United Kingdom",
+  "aliases": [
+   "UK",
+   "Britain",
+   "Great Britain"
+  ],
+  "size": 67700000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"United Kingdom\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 508348,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "United Kingdom"
+ },
+ {
+  "id": "country-italy",
+  "category": "country",
+  "name": "Italy",
+  "aliases": [],
+  "size": 58900000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Italy\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 210432,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Italy"
+ },
+ {
+  "id": "country-spain",
+  "category": "country",
+  "name": "Spain",
+  "aliases": [],
+  "size": 47500000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Spain\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 249852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Spain"
+ },
+ {
+  "id": "country-ukraine",
+  "category": "country",
+  "name": "Ukraine",
+  "aliases": [],
+  "size": 37000000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Ukraine\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 183005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ukraine"
+ },
+ {
+  "id": "country-poland",
+  "category": "country",
+  "name": "Poland",
+  "aliases": [],
+  "size": 36700000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Poland\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 201117,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Poland"
+ },
+ {
+  "id": "country-romania",
+  "category": "country",
+  "name": "Romania",
+  "aliases": [],
+  "size": 19900000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Romania\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 144346,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Romania"
+ },
+ {
+  "id": "country-netherlands",
+  "category": "country",
+  "name": "Netherlands",
+  "aliases": [
+   "Holland",
+   "The Netherlands"
+  ],
+  "size": 17600000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Netherlands\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 221390,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Netherlands"
+ },
+ {
+  "id": "country-belgium",
+  "category": "country",
+  "name": "Belgium",
+  "aliases": [],
+  "size": 11700000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Belgium\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 149308,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belgium"
+ },
+ {
+  "id": "country-sweden",
+  "category": "country",
+  "name": "Sweden",
+  "aliases": [],
+  "size": 10600000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "source": "English Wikipedia pageviews for \"Sweden\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 164102,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sweden"
+ },
+ {
+  "id": "country-czechia",
+  "category": "country",
+  "name": "Czechia",
+  "aliases": [
+   "Czech Republic"
+  ],
+  "size": 10500000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Czech Republic\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 193050,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Czech Republic"
+ },
+ {
+  "id": "country-greece",
+  "category": "country",
+  "name": "Greece",
+  "aliases": [],
+  "size": 10400000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Greece\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 163402,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Greece"
+ },
+ {
+  "id": "country-portugal",
+  "category": "country",
+  "name": "Portugal",
+  "aliases": [],
+  "size": 10200000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Portugal\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 163037,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Portugal"
+ },
+ {
+  "id": "country-hungary",
+  "category": "country",
+  "name": "Hungary",
+  "aliases": [],
+  "size": 9600000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Hungary\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 126722,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hungary"
+ },
+ {
+  "id": "country-belarus",
+  "category": "country",
+  "name": "Belarus",
+  "aliases": [],
+  "size": 9500000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Belarus\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 133723,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belarus"
+ },
+ {
+  "id": "country-austria",
+  "category": "country",
+  "name": "Austria",
+  "aliases": [],
+  "size": 9100000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Austria\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 135610,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Austria"
+ },
+ {
+  "id": "country-switzerland",
+  "category": "country",
+  "name": "Switzerland",
+  "aliases": [],
+  "size": 8800000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Switzerland\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 191772,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Switzerland"
+ },
+ {
+  "id": "country-serbia",
+  "category": "country",
+  "name": "Serbia",
+  "aliases": [],
+  "size": 6800000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Serbia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 152109,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Serbia"
+ },
+ {
+  "id": "country-bulgaria",
+  "category": "country",
+  "name": "Bulgaria",
+  "aliases": [],
+  "size": 6500000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Bulgaria\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 125687,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bulgaria"
+ },
+ {
+  "id": "country-denmark",
+  "category": "country",
+  "name": "Denmark",
+  "aliases": [],
+  "size": 5900000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "source": "English Wikipedia pageviews for \"Denmark\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 142033,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Denmark"
+ },
+ {
+  "id": "country-slovakia",
+  "category": "country",
+  "name": "Slovakia",
+  "aliases": [],
+  "size": 5800000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Slovakia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 113785,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Slovakia"
+ },
+ {
+  "id": "country-finland",
+  "category": "country",
+  "name": "Finland",
+  "aliases": [],
+  "size": 5600000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "source": "English Wikipedia pageviews for \"Finland\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 140176,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Finland"
+ },
+ {
+  "id": "country-norway",
+  "category": "country",
+  "name": "Norway",
+  "aliases": [],
+  "size": 5500000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "source": "English Wikipedia pageviews for \"Norway\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 179018,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Norway"
+ },
+ {
+  "id": "country-ireland",
+  "category": "country",
+  "name": "Ireland",
+  "aliases": [],
+  "size": 5200000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Ireland\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 149947,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ireland"
+ },
+ {
+  "id": "country-croatia",
+  "category": "country",
+  "name": "Croatia",
+  "aliases": [],
+  "size": 4000000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Croatia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 170829,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Croatia"
+ },
+ {
+  "id": "country-moldova",
+  "category": "country",
+  "name": "Moldova",
+  "aliases": [],
+  "size": 3400000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Moldova\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 94242,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Moldova"
+ },
+ {
+  "id": "country-bosnia-and-herzegovina",
+  "category": "country",
+  "name": "Bosnia and Herzegovina",
+  "aliases": [
+   "Bosnia"
+  ],
+  "size": 3200000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Bosnia and Herzegovina\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 150191,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bosnia and Herzegovina"
+ },
+ {
+  "id": "country-albania",
+  "category": "country",
+  "name": "Albania",
+  "aliases": [],
+  "size": 2800000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Albania\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 167024,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Albania"
+ },
+ {
+  "id": "country-lithuania",
+  "category": "country",
+  "name": "Lithuania",
+  "aliases": [],
+  "size": 2700000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Lithuania\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 130557,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lithuania"
+ },
+ {
+  "id": "country-slovenia",
+  "category": "country",
+  "name": "Slovenia",
+  "aliases": [],
+  "size": 2120000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Slovenia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 128122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Slovenia"
+ },
+ {
+  "id": "country-north-macedonia",
+  "category": "country",
+  "name": "North Macedonia",
+  "aliases": [
+   "Macedonia"
+  ],
+  "size": 2100000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"North Macedonia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 124621,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Macedonia"
+ },
+ {
+  "id": "country-latvia",
+  "category": "country",
+  "name": "Latvia",
+  "aliases": [],
+  "size": 1830000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Latvia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 106388,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Latvia"
+ },
+ {
+  "id": "country-kosovo",
+  "category": "country",
+  "name": "Kosovo",
+  "aliases": [],
+  "size": 1660000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Kosovo\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 159384,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kosovo"
+ },
+ {
+  "id": "country-estonia",
+  "category": "country",
+  "name": "Estonia",
+  "aliases": [],
+  "size": 1370000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Estonia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 113998,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Estonia"
+ },
+ {
+  "id": "country-cyprus",
+  "category": "country",
+  "name": "Cyprus",
+  "aliases": [],
+  "size": 1260000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Cyprus\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 180814,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cyprus"
+ },
+ {
+  "id": "country-luxembourg",
+  "category": "country",
+  "name": "Luxembourg",
+  "aliases": [],
+  "size": 660000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Luxembourg\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 130314,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luxembourg"
+ },
+ {
+  "id": "country-montenegro",
+  "category": "country",
+  "name": "Montenegro",
+  "aliases": [],
+  "size": 620000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Montenegro\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 159384,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Montenegro"
+ },
+ {
+  "id": "country-malta",
+  "category": "country",
+  "name": "Malta",
+  "aliases": [],
+  "size": 540000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Malta\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 228757,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Malta"
+ },
+ {
+  "id": "country-iceland",
+  "category": "country",
+  "name": "Iceland",
+  "aliases": [],
+  "size": 380000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "source": "English Wikipedia pageviews for \"Iceland\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 161302,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iceland"
+ },
+ {
+  "id": "country-andorra",
+  "category": "country",
+  "name": "Andorra",
+  "aliases": [],
+  "size": 80000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Andorra\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 114211,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Andorra"
+ },
+ {
+  "id": "country-liechtenstein",
+  "category": "country",
+  "name": "Liechtenstein",
+  "aliases": [],
+  "size": 39000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Liechtenstein\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 127848,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Liechtenstein"
+ },
+ {
+  "id": "country-monaco",
+  "category": "country",
+  "name": "Monaco",
+  "aliases": [],
+  "size": 36000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Monaco\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 194146,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monaco"
+ },
+ {
+  "id": "country-san-marino",
+  "category": "country",
+  "name": "San Marino",
+  "aliases": [],
+  "size": 33600,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"San Marino\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 90924,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Marino"
+ },
+ {
+  "id": "country-vatican-city",
+  "category": "country",
+  "name": "Vatican City",
+  "aliases": [
+   "Holy See"
+  ],
+  "size": 764,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "source": "English Wikipedia pageviews for \"Vatican City\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 104592,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vatican City"
+ },
+ {
+  "id": "country-united-states",
+  "category": "country",
+  "name": "United States",
+  "aliases": [
+   "USA",
+   "US",
+   "America",
+   "United States of America"
+  ],
+  "size": 340000000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "source": "English Wikipedia pageviews for \"United States\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 1527571,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "United States"
+ },
+ {
+  "id": "country-mexico",
+  "category": "country",
+  "name": "Mexico",
+  "aliases": [],
+  "size": 128500000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "source": "English Wikipedia pageviews for \"Mexico\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 220690,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mexico"
+ },
+ {
+  "id": "country-canada",
+  "category": "country",
+  "name": "Canada",
+  "aliases": [],
+  "size": 40100000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "source": "English Wikipedia pageviews for \"Canada\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 353804,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Canada"
+ },
+ {
+  "id": "country-guatemala",
+  "category": "country",
+  "name": "Guatemala",
+  "aliases": [],
+  "size": 18100000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "source": "English Wikipedia pageviews for \"Guatemala\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 77044,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guatemala"
+ },
+ {
+  "id": "country-haiti",
+  "category": "country",
+  "name": "Haiti",
+  "aliases": [],
+  "size": 11700000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Haiti\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 103466,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Haiti"
+ },
+ {
+  "id": "country-dominican-republic",
+  "category": "country",
+  "name": "Dominican Republic",
+  "aliases": [],
+  "size": 11300000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Dominican Republic\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 109980,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dominican Republic"
+ },
+ {
+  "id": "country-cuba",
+  "category": "country",
+  "name": "Cuba",
+  "aliases": [],
+  "size": 11200000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Cuba\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 118990,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cuba"
+ },
+ {
+  "id": "country-honduras",
+  "category": "country",
+  "name": "Honduras",
+  "aliases": [],
+  "size": 10600000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "source": "English Wikipedia pageviews for \"Honduras\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 61793,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Honduras"
+ },
+ {
+  "id": "country-nicaragua",
+  "category": "country",
+  "name": "Nicaragua",
+  "aliases": [],
+  "size": 7000000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "source": "English Wikipedia pageviews for \"Nicaragua\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 76617,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nicaragua"
+ },
+ {
+  "id": "country-el-salvador",
+  "category": "country",
+  "name": "El Salvador",
+  "aliases": [],
+  "size": 6400000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "source": "English Wikipedia pageviews for \"El Salvador\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 91929,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "El Salvador"
+ },
+ {
+  "id": "country-costa-rica",
+  "category": "country",
+  "name": "Costa Rica",
+  "aliases": [],
+  "size": 5200000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "source": "English Wikipedia pageviews for \"Costa Rica\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 78535,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Costa Rica"
+ },
+ {
+  "id": "country-panama",
+  "category": "country",
+  "name": "Panama",
+  "aliases": [],
+  "size": 4500000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "source": "English Wikipedia pageviews for \"Panama\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 68460,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Panama"
+ },
+ {
+  "id": "country-jamaica",
+  "category": "country",
+  "name": "Jamaica",
+  "aliases": [],
+  "size": 2830000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Jamaica\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 100148,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jamaica"
+ },
+ {
+  "id": "country-trinidad-and-tobago",
+  "category": "country",
+  "name": "Trinidad and Tobago",
+  "aliases": [],
+  "size": 1530000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Trinidad and Tobago\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 88428,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trinidad and Tobago"
+ },
+ {
+  "id": "country-belize",
+  "category": "country",
+  "name": "Belize",
+  "aliases": [],
+  "size": 410000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "source": "English Wikipedia pageviews for \"Belize\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 93177,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belize"
+ },
+ {
+  "id": "country-bahamas",
+  "category": "country",
+  "name": "Bahamas",
+  "aliases": [
+   "The Bahamas"
+  ],
+  "size": 409000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"The Bahamas\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 96221,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "The Bahamas"
+ },
+ {
+  "id": "country-barbados",
+  "category": "country",
+  "name": "Barbados",
+  "aliases": [],
+  "size": 281000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Barbados\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 87911,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barbados"
+ },
+ {
+  "id": "country-saint-lucia",
+  "category": "country",
+  "name": "Saint Lucia",
+  "aliases": [
+   "St Lucia"
+  ],
+  "size": 180000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Saint Lucia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 57684,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Lucia"
+ },
+ {
+  "id": "country-grenada",
+  "category": "country",
+  "name": "Grenada",
+  "aliases": [],
+  "size": 126000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Grenada\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 62372,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grenada"
+ },
+ {
+  "id": "country-saint-vincent-and-the-grenadines",
+  "category": "country",
+  "name": "Saint Vincent and the Grenadines",
+  "aliases": [
+   "St Vincent and the Grenadines"
+  ],
+  "size": 104000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Saint Vincent and the Grenadines\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 42038,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Vincent and the Grenadines"
+ },
+ {
+  "id": "country-antigua-and-barbuda",
+  "category": "country",
+  "name": "Antigua and Barbuda",
+  "aliases": [],
+  "size": 94000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Antigua and Barbuda\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 40881,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antigua and Barbuda"
+ },
+ {
+  "id": "country-dominica",
+  "category": "country",
+  "name": "Dominica",
+  "aliases": [],
+  "size": 73000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Dominica\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 58384,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dominica"
+ },
+ {
+  "id": "country-saint-kitts-and-nevis",
+  "category": "country",
+  "name": "Saint Kitts and Nevis",
+  "aliases": [
+   "St Kitts and Nevis"
+  ],
+  "size": 47000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "source": "English Wikipedia pageviews for \"Saint Kitts and Nevis\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 53757,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Kitts and Nevis"
+ },
+ {
+  "id": "country-brazil",
+  "category": "country",
+  "name": "Brazil",
+  "aliases": [],
+  "size": 216400000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Brazil\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 249669,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brazil"
+ },
+ {
+  "id": "country-colombia",
+  "category": "country",
+  "name": "Colombia",
+  "aliases": [],
+  "size": 52100000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Colombia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 156401,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Colombia"
+ },
+ {
+  "id": "country-argentina",
+  "category": "country",
+  "name": "Argentina",
+  "aliases": [],
+  "size": 45800000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Argentina\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 198043,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Argentina"
+ },
+ {
+  "id": "country-peru",
+  "category": "country",
+  "name": "Peru",
+  "aliases": [],
+  "size": 34400000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Peru\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 103587,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peru"
+ },
+ {
+  "id": "country-venezuela",
+  "category": "country",
+  "name": "Venezuela",
+  "aliases": [],
+  "size": 28800000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Venezuela\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 107788,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Venezuela"
+ },
+ {
+  "id": "country-chile",
+  "category": "country",
+  "name": "Chile",
+  "aliases": [],
+  "size": 19600000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Chile\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 111045,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chile"
+ },
+ {
+  "id": "country-ecuador",
+  "category": "country",
+  "name": "Ecuador",
+  "aliases": [],
+  "size": 18200000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Ecuador\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 75552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ecuador"
+ },
+ {
+  "id": "country-bolivia",
+  "category": "country",
+  "name": "Bolivia",
+  "aliases": [],
+  "size": 12400000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Bolivia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 84288,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bolivia"
+ },
+ {
+  "id": "country-paraguay",
+  "category": "country",
+  "name": "Paraguay",
+  "aliases": [],
+  "size": 6900000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Paraguay\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 64989,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Paraguay"
+ },
+ {
+  "id": "country-uruguay",
+  "category": "country",
+  "name": "Uruguay",
+  "aliases": [],
+  "size": 3400000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Uruguay\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 87515,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uruguay"
+ },
+ {
+  "id": "country-guyana",
+  "category": "country",
+  "name": "Guyana",
+  "aliases": [],
+  "size": 810000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Guyana\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 131805,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guyana"
+ },
+ {
+  "id": "country-suriname",
+  "category": "country",
+  "name": "Suriname",
+  "aliases": [],
+  "size": 620000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "source": "English Wikipedia pageviews for \"Suriname\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 99478,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Suriname"
+ },
+ {
+  "id": "country-australia",
+  "category": "country",
+  "name": "Australia",
+  "aliases": [],
+  "size": 26600000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Australia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 420468,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Australia"
+ },
+ {
+  "id": "country-papua-new-guinea",
+  "category": "country",
+  "name": "Papua New Guinea",
+  "aliases": [
+   "PNG"
+  ],
+  "size": 10300000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Papua New Guinea\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 112598,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Papua New Guinea"
+ },
+ {
+  "id": "country-new-zealand",
+  "category": "country",
+  "name": "New Zealand",
+  "aliases": [
+   "NZ"
+  ],
+  "size": 5200000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"New Zealand\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 213871,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Zealand"
+ },
+ {
+  "id": "country-fiji",
+  "category": "country",
+  "name": "Fiji",
+  "aliases": [],
+  "size": 930000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Fiji\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 102218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fiji"
+ },
+ {
+  "id": "country-solomon-islands",
+  "category": "country",
+  "name": "Solomon Islands",
+  "aliases": [],
+  "size": 740000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Solomon Islands\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49800,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Solomon Islands"
+ },
+ {
+  "id": "country-vanuatu",
+  "category": "country",
+  "name": "Vanuatu",
+  "aliases": [],
+  "size": 330000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Vanuatu\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 82340,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vanuatu"
+ },
+ {
+  "id": "country-samoa",
+  "category": "country",
+  "name": "Samoa",
+  "aliases": [],
+  "size": 220000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Samoa\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 67364,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samoa"
+ },
+ {
+  "id": "country-kiribati",
+  "category": "country",
+  "name": "Kiribati",
+  "aliases": [
+   "Tarawa"
+  ],
+  "size": 133000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Kiribati\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 107453,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kiribati"
+ },
+ {
+  "id": "country-micronesia",
+  "category": "country",
+  "name": "Micronesia",
+  "aliases": [
+   "Federated States of Micronesia"
+  ],
+  "size": 115000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Federated States of Micronesia\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 38872,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Federated States of Micronesia"
+ },
+ {
+  "id": "country-tonga",
+  "category": "country",
+  "name": "Tonga",
+  "aliases": [],
+  "size": 107000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Tonga\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 59723,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tonga"
+ },
+ {
+  "id": "country-marshall-islands",
+  "category": "country",
+  "name": "Marshall Islands",
+  "aliases": [],
+  "size": 42000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Marshall Islands\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 56405,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marshall Islands"
+ },
+ {
+  "id": "country-palau",
+  "category": "country",
+  "name": "Palau",
+  "aliases": [],
+  "size": 18000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Palau\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 66390,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palau"
+ },
+ {
+  "id": "country-nauru",
+  "category": "country",
+  "name": "Nauru",
+  "aliases": [],
+  "size": 12500,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Nauru\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 123617,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nauru"
+ },
+ {
+  "id": "country-tuvalu",
+  "category": "country",
+  "name": "Tuvalu",
+  "aliases": [],
+  "size": 11400,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "source": "English Wikipedia pageviews for \"Tuvalu\", undefined-month mean (60 days ending 2026-09-11); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 61367,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tuvalu"
+ }
+]

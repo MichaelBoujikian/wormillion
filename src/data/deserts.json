@@ -1,0 +1,743 @@
+[
+ {
+  "id": "desert-antarctic-desert",
+  "category": "desert",
+  "name": "Antarctic Desert",
+  "aliases": [
+   "Antarctic Polar Desert"
+  ],
+  "size": 14000000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Antarctica\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 98595,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antarctica"
+ },
+ {
+  "id": "desert-arctic-desert",
+  "category": "desert",
+  "name": "Arctic Desert",
+  "aliases": [
+   "Arctic Polar Desert"
+  ],
+  "size": 13900000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Arctic\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 21491,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Arctic"
+ },
+ {
+  "id": "desert-sahara",
+  "category": "desert",
+  "name": "Sahara",
+  "aliases": [
+   "Sahara Desert"
+  ],
+  "size": 9200000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sahara\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 42220,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sahara"
+ },
+ {
+  "id": "desert-arabian-desert",
+  "category": "desert",
+  "name": "Arabian Desert",
+  "aliases": [],
+  "size": 2330000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Arabian Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 6240,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Arabian Desert"
+ },
+ {
+  "id": "desert-gobi",
+  "category": "desert",
+  "name": "Gobi",
+  "aliases": [
+   "Gobi Desert"
+  ],
+  "size": 1295000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gobi Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 26361,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gobi Desert"
+ },
+ {
+  "id": "desert-kalahari",
+  "category": "desert",
+  "name": "Kalahari",
+  "aliases": [
+   "Kalahari Desert"
+  ],
+  "size": 900000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kalahari Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 13607,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kalahari Desert"
+ },
+ {
+  "id": "desert-patagonian-desert",
+  "category": "desert",
+  "name": "Patagonian Desert",
+  "aliases": [
+   "Patagonian Steppe"
+  ],
+  "size": 673000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Patagonian Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 2709,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Patagonian Desert"
+ },
+ {
+  "id": "desert-rub-al-khali",
+  "category": "desert",
+  "name": "Rub al Khali",
+  "aliases": [
+   "Empty Quarter"
+  ],
+  "size": 650000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rub' al Khali\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 9984,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rub' al Khali"
+ },
+ {
+  "id": "desert-syrian-desert",
+  "category": "desert",
+  "name": "Syrian Desert",
+  "aliases": [],
+  "size": 500000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Syrian desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Syrian desert"
+ },
+ {
+  "id": "desert-great-basin-desert",
+  "category": "desert",
+  "name": "Great Basin Desert",
+  "aliases": [
+   "Great Basin"
+  ],
+  "size": 492000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Basin Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 5936,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Basin Desert"
+ },
+ {
+  "id": "desert-monte-desert",
+  "category": "desert",
+  "name": "Monte Desert",
+  "aliases": [],
+  "size": 460000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Monte Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monte Desert"
+ },
+ {
+  "id": "desert-nubian-desert",
+  "category": "desert",
+  "name": "Nubian Desert",
+  "aliases": [],
+  "size": 400000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nubian Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nubian Desert"
+ },
+ {
+  "id": "desert-chihuahuan-desert",
+  "category": "desert",
+  "name": "Chihuahuan Desert",
+  "aliases": [],
+  "size": 362000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chihuahuan Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 8249,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chihuahuan Desert"
+ },
+ {
+  "id": "desert-karakum",
+  "category": "desert",
+  "name": "Karakum",
+  "aliases": [
+   "Karakum Desert"
+  ],
+  "size": 350000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Karakum Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 5205,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Karakum Desert"
+ },
+ {
+  "id": "desert-great-victoria-desert",
+  "category": "desert",
+  "name": "Great Victoria Desert",
+  "aliases": [],
+  "size": 348750,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Victoria Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 2466,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Victoria Desert"
+ },
+ {
+  "id": "desert-taklamakan",
+  "category": "desert",
+  "name": "Taklamakan",
+  "aliases": [
+   "Taklamakan Desert"
+  ],
+  "size": 337000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Taklamakan Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 13911,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Taklamakan Desert"
+ },
+ {
+  "id": "desert-colorado-plateau-desert",
+  "category": "desert",
+  "name": "Colorado Plateau Desert",
+  "aliases": [],
+  "size": 337000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Colorado Plateau\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 7123,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Colorado Plateau"
+ },
+ {
+  "id": "desert-kyzylkum",
+  "category": "desert",
+  "name": "Kyzylkum",
+  "aliases": [
+   "Kyzylkum Desert"
+  ],
+  "size": 298000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kyzylkum Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1857,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kyzylkum Desert"
+ },
+ {
+  "id": "desert-great-sandy-desert",
+  "category": "desert",
+  "name": "Great Sandy Desert",
+  "aliases": [],
+  "size": 284993,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Sandy Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1918,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Sandy Desert"
+ },
+ {
+  "id": "desert-sonoran-desert",
+  "category": "desert",
+  "name": "Sonoran Desert",
+  "aliases": [
+   "Sonoran"
+  ],
+  "size": 260000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sonoran Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 16103,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sonoran Desert"
+ },
+ {
+  "id": "desert-nullarbor-plain",
+  "category": "desert",
+  "name": "Nullarbor Plain",
+  "aliases": [
+   "Nullarbor"
+  ],
+  "size": 200000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nullarbor Plain\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 5905,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nullarbor Plain"
+ },
+ {
+  "id": "desert-thar-desert",
+  "category": "desert",
+  "name": "Thar Desert",
+  "aliases": [
+   "Thar",
+   "Great Indian Desert"
+  ],
+  "size": 200000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Thar Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 14489,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thar Desert"
+ },
+ {
+  "id": "desert-sechura-desert",
+  "category": "desert",
+  "name": "Sechura Desert",
+  "aliases": [],
+  "size": 188735,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sechura Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sechura Desert"
+ },
+ {
+  "id": "desert-tanami-desert",
+  "category": "desert",
+  "name": "Tanami Desert",
+  "aliases": [],
+  "size": 184500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tanami Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tanami Desert"
+ },
+ {
+  "id": "desert-simpson-desert",
+  "category": "desert",
+  "name": "Simpson Desert",
+  "aliases": [],
+  "size": 176500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Simpson Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 3014,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Simpson Desert"
+ },
+ {
+  "id": "desert-gibson-desert",
+  "category": "desert",
+  "name": "Gibson Desert",
+  "aliases": [],
+  "size": 156000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gibson Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gibson Desert"
+ },
+ {
+  "id": "desert-danakil-desert",
+  "category": "desert",
+  "name": "Danakil Desert",
+  "aliases": [
+   "Danakil"
+  ],
+  "size": 136956,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Danakil Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1979,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Danakil Desert"
+ },
+ {
+  "id": "desert-mojave-desert",
+  "category": "desert",
+  "name": "Mojave Desert",
+  "aliases": [
+   "Mojave"
+  ],
+  "size": 124000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mojave Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 26544,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mojave Desert"
+ },
+ {
+  "id": "desert-little-sandy-desert",
+  "category": "desert",
+  "name": "Little Sandy Desert",
+  "aliases": [],
+  "size": 111500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Sandy Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Sandy Desert"
+ },
+ {
+  "id": "desert-atacama-desert",
+  "category": "desert",
+  "name": "Atacama Desert",
+  "aliases": [
+   "Atacama"
+  ],
+  "size": 105000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Atacama Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 25904,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Atacama Desert"
+ },
+ {
+  "id": "desert-ordos-desert",
+  "category": "desert",
+  "name": "Ordos Desert",
+  "aliases": [],
+  "size": 90650,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ordos Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ordos Desert"
+ },
+ {
+  "id": "desert-namib",
+  "category": "desert",
+  "name": "Namib",
+  "aliases": [
+   "Namib Desert"
+  ],
+  "size": 81000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Namib\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 7701,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Namib"
+ },
+ {
+  "id": "desert-strzelecki-desert",
+  "category": "desert",
+  "name": "Strzelecki Desert",
+  "aliases": [],
+  "size": 80000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strzelecki Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strzelecki Desert"
+ },
+ {
+  "id": "desert-dasht-e-kavir",
+  "category": "desert",
+  "name": "Dasht-e Kavir",
+  "aliases": [
+   "Great Salt Desert"
+  ],
+  "size": 77600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Salt Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Salt Desert"
+ },
+ {
+  "id": "desert-dasht-e-lut",
+  "category": "desert",
+  "name": "Dasht-e Lut",
+  "aliases": [
+   "Lut Desert"
+  ],
+  "size": 51800,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lut Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 5175,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lut Desert"
+ },
+ {
+  "id": "desert-badain-jaran-desert",
+  "category": "desert",
+  "name": "Badain Jaran Desert",
+  "aliases": [],
+  "size": 49000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Badain Jaran Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Badain Jaran Desert"
+ },
+ {
+  "id": "desert-tengger-desert",
+  "category": "desert",
+  "name": "Tengger Desert",
+  "aliases": [],
+  "size": 42700,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tengger Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tengger Desert"
+ },
+ {
+  "id": "desert-registan-desert",
+  "category": "desert",
+  "name": "Registan Desert",
+  "aliases": [],
+  "size": 40000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Registan Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Registan Desert"
+ },
+ {
+  "id": "desert-sturt-stony-desert",
+  "category": "desert",
+  "name": "Sturt Stony Desert",
+  "aliases": [],
+  "size": 29750,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sturt Stony Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sturt Stony Desert"
+ },
+ {
+  "id": "desert-negev",
+  "category": "desert",
+  "name": "Negev",
+  "aliases": [
+   "Negev Desert"
+  ],
+  "size": 13000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Negev\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 10745,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Negev"
+ },
+ {
+  "id": "desert-wahiba-sands",
+  "category": "desert",
+  "name": "Wahiba Sands",
+  "aliases": [],
+  "size": 12500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sharqiya Sands\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sharqiya Sands"
+ },
+ {
+  "id": "desert-judaean-desert",
+  "category": "desert",
+  "name": "Judaean Desert",
+  "aliases": [
+   "Judean Desert"
+  ],
+  "size": 1500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Judaean Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 2983,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Judaean Desert"
+ },
+ {
+  "id": "desert-rangipo-desert",
+  "category": "desert",
+  "name": "Rangipo Desert",
+  "aliases": [],
+  "size": 300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rangipo Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rangipo Desert"
+ },
+ {
+  "id": "desert-tabernas-desert",
+  "category": "desert",
+  "name": "Tabernas Desert",
+  "aliases": [],
+  "size": 280,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tabernas Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 7275,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tabernas Desert"
+ },
+ {
+  "id": "desert-oleshky-sands",
+  "category": "desert",
+  "name": "Oleshky Sands",
+  "aliases": [],
+  "size": 161,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oleshky Sands\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oleshky Sands"
+ },
+ {
+  "id": "desert-bledowska-desert",
+  "category": "desert",
+  "name": "Bledowska Desert",
+  "aliases": [],
+  "size": 32,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Błędów Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Błędów Desert"
+ },
+ {
+  "id": "desert-wadi-rum",
+  "category": "desert",
+  "name": "Wadi Rum",
+  "aliases": [],
+  "size": 720,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wadi Rum\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 7671,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wadi Rum"
+ },
+ {
+  "id": "desert-painted-desert",
+  "category": "desert",
+  "name": "Painted Desert",
+  "aliases": [],
+  "size": 19425,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Painted Desert (Arizona)\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 3927,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Painted Desert (Arizona)"
+ },
+ {
+  "id": "desert-black-rock-desert",
+  "category": "desert",
+  "name": "Black Rock Desert",
+  "aliases": [],
+  "size": 2600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Black Rock Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 9132,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Black Rock Desert"
+ },
+ {
+  "id": "desert-great-salt-lake-desert",
+  "category": "desert",
+  "name": "Great Salt Lake Desert",
+  "aliases": [],
+  "size": 10360,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Salt Lake Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Salt Lake Desert"
+ },
+ {
+  "id": "desert-guajira-desert",
+  "category": "desert",
+  "name": "Guajira Desert",
+  "aliases": [],
+  "size": 15300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"La Guajira Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Guajira Desert"
+ },
+ {
+  "id": "desert-tatacoa-desert",
+  "category": "desert",
+  "name": "Tatacoa Desert",
+  "aliases": [],
+  "size": 330,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tatacoa Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tatacoa Desert"
+ },
+ {
+  "id": "desert-cholistan-desert",
+  "category": "desert",
+  "name": "Cholistan Desert",
+  "aliases": [],
+  "size": 26300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cholistan Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cholistan Desert"
+ },
+ {
+  "id": "desert-tenere",
+  "category": "desert",
+  "name": "Tenere",
+  "aliases": [],
+  "size": 400000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ténéré\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1857,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ténéré"
+ },
+ {
+  "id": "desert-libyan-desert",
+  "category": "desert",
+  "name": "Libyan Desert",
+  "aliases": [],
+  "size": 1100000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Libyan Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Libyan Desert"
+ },
+ {
+  "id": "desert-western-desert",
+  "category": "desert",
+  "name": "Western Desert",
+  "aliases": [],
+  "size": 700000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Western Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Western Desert"
+ },
+ {
+  "id": "desert-eastern-desert",
+  "category": "desert",
+  "name": "Eastern Desert",
+  "aliases": [],
+  "size": 220000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eastern Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 1461,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eastern Desert"
+ },
+ {
+  "id": "desert-chalbi-desert",
+  "category": "desert",
+  "name": "Chalbi Desert",
+  "aliases": [],
+  "size": 100000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chalbi Desert\", undefined-month mean (60 days ending 2026-09-11); Standard reference desert areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chalbi Desert"
+ }
+]

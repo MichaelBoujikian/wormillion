@@ -1,0 +1,1653 @@
+[
+ {
+  "id": "mountain-mount-everest",
+  "category": "mountain",
+  "name": "Mount Everest",
+  "aliases": [
+   "Everest",
+   "Sagarmatha",
+   "Chomolungma"
+  ],
+  "size": 8849,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Everest\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 160297,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Everest"
+ },
+ {
+  "id": "mountain-k2",
+  "category": "mountain",
+  "name": "K2",
+  "aliases": [
+   "Mount Godwin-Austen"
+  ],
+  "size": 8611,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"K2\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 89007,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "K2"
+ },
+ {
+  "id": "mountain-kangchenjunga",
+  "category": "mountain",
+  "name": "Kangchenjunga",
+  "aliases": [],
+  "size": 8586,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Kangchenjunga\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 31505,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kangchenjunga"
+ },
+ {
+  "id": "mountain-lhotse",
+  "category": "mountain",
+  "name": "Lhotse",
+  "aliases": [],
+  "size": 8516,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Lhotse\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 13515,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lhotse"
+ },
+ {
+  "id": "mountain-makalu",
+  "category": "mountain",
+  "name": "Makalu",
+  "aliases": [],
+  "size": 8485,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Makalu\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 8949,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Makalu"
+ },
+ {
+  "id": "mountain-cho-oyu",
+  "category": "mountain",
+  "name": "Cho Oyu",
+  "aliases": [],
+  "size": 8188,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Cho Oyu\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 9071,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cho Oyu"
+ },
+ {
+  "id": "mountain-dhaulagiri",
+  "category": "mountain",
+  "name": "Dhaulagiri",
+  "aliases": [],
+  "size": 8167,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Dhaulagiri\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 9649,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dhaulagiri"
+ },
+ {
+  "id": "mountain-manaslu",
+  "category": "mountain",
+  "name": "Manaslu",
+  "aliases": [],
+  "size": 8163,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Manaslu\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 7823,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manaslu"
+ },
+ {
+  "id": "mountain-nanga-parbat",
+  "category": "mountain",
+  "name": "Nanga Parbat",
+  "aliases": [],
+  "size": 8126,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Nanga Parbat\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 28218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nanga Parbat"
+ },
+ {
+  "id": "mountain-annapurna",
+  "category": "mountain",
+  "name": "Annapurna",
+  "aliases": [],
+  "size": 8091,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Annapurna\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 28461,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Annapurna"
+ },
+ {
+  "id": "mountain-gasherbrum-i",
+  "category": "mountain",
+  "name": "Gasherbrum I",
+  "aliases": [
+   "Hidden Peak"
+  ],
+  "size": 8080,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Gasherbrum I\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5449,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gasherbrum I"
+ },
+ {
+  "id": "mountain-broad-peak",
+  "category": "mountain",
+  "name": "Broad Peak",
+  "aliases": [],
+  "size": 8051,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Broad Peak\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 30957,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Broad Peak"
+ },
+ {
+  "id": "mountain-shishapangma",
+  "category": "mountain",
+  "name": "Shishapangma",
+  "aliases": [],
+  "size": 8027,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Shishapangma\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 9893,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shishapangma"
+ },
+ {
+  "id": "mountain-aconcagua",
+  "category": "mountain",
+  "name": "Aconcagua",
+  "aliases": [
+   "Mount Aconcagua"
+  ],
+  "size": 6961,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Aconcagua\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 37898,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aconcagua"
+ },
+ {
+  "id": "mountain-ojos-del-salado",
+  "category": "mountain",
+  "name": "Ojos del Salado",
+  "aliases": [],
+  "size": 6893,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Ojos del Salado\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 8645,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ojos del Salado"
+ },
+ {
+  "id": "mountain-huascaran",
+  "category": "mountain",
+  "name": "Huascaran",
+  "aliases": [],
+  "size": 6768,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Huascarán\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 4566,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Huascarán"
+ },
+ {
+  "id": "mountain-illimani",
+  "category": "mountain",
+  "name": "Illimani",
+  "aliases": [],
+  "size": 6438,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Illimani\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 1583,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Illimani"
+ },
+ {
+  "id": "mountain-chimborazo",
+  "category": "mountain",
+  "name": "Chimborazo",
+  "aliases": [
+   "Mount Chimborazo"
+  ],
+  "size": 6263,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Chimborazo\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 15403,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chimborazo"
+ },
+ {
+  "id": "mountain-denali",
+  "category": "mountain",
+  "name": "Denali",
+  "aliases": [
+   "Mount McKinley"
+  ],
+  "size": 6190,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Denali\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 64502,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Denali"
+ },
+ {
+  "id": "mountain-mount-logan",
+  "category": "mountain",
+  "name": "Mount Logan",
+  "aliases": [
+   "Logan"
+  ],
+  "size": 5959,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Logan\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 13546,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Logan"
+ },
+ {
+  "id": "mountain-cotopaxi",
+  "category": "mountain",
+  "name": "Cotopaxi",
+  "aliases": [],
+  "size": 5897,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Cotopaxi\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 8127,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cotopaxi"
+ },
+ {
+  "id": "mountain-kilimanjaro",
+  "category": "mountain",
+  "name": "Kilimanjaro",
+  "aliases": [
+   "Mount Kilimanjaro",
+   "Uhuru Peak"
+  ],
+  "size": 5895,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Kilimanjaro\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 71260,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Kilimanjaro"
+ },
+ {
+  "id": "mountain-elbrus",
+  "category": "mountain",
+  "name": "Elbrus",
+  "aliases": [
+   "Mount Elbrus"
+  ],
+  "size": 5642,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Elbrus\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 32053,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Elbrus"
+ },
+ {
+  "id": "mountain-pico-de-orizaba",
+  "category": "mountain",
+  "name": "Pico de Orizaba",
+  "aliases": [
+   "Citlaltepetl"
+  ],
+  "size": 5636,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Pico de Orizaba\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 9649,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pico de Orizaba"
+ },
+ {
+  "id": "mountain-damavand",
+  "category": "mountain",
+  "name": "Damavand",
+  "aliases": [
+   "Mount Damavand"
+  ],
+  "size": 5610,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Damavand\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 8097,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Damavand"
+ },
+ {
+  "id": "mountain-popocatepetl",
+  "category": "mountain",
+  "name": "Popocatepetl",
+  "aliases": [],
+  "size": 5426,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Popocatépetl\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 8310,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Popocatépetl"
+ },
+ {
+  "id": "mountain-mount-kenya",
+  "category": "mountain",
+  "name": "Mount Kenya",
+  "aliases": [
+   "Batian"
+  ],
+  "size": 5199,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Kenya\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 8127,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Kenya"
+ },
+ {
+  "id": "mountain-mount-ararat",
+  "category": "mountain",
+  "name": "Mount Ararat",
+  "aliases": [
+   "Ararat"
+  ],
+  "size": 5137,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Ararat\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 28705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Ararat"
+ },
+ {
+  "id": "mountain-mount-vinson",
+  "category": "mountain",
+  "name": "Mount Vinson",
+  "aliases": [
+   "Vinson Massif"
+  ],
+  "size": 4892,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Vinson Massif\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 13424,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vinson Massif"
+ },
+ {
+  "id": "mountain-puncak-jaya",
+  "category": "mountain",
+  "name": "Puncak Jaya",
+  "aliases": [
+   "Carstensz Pyramid"
+  ],
+  "size": 4884,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Puncak Jaya\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 17473,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Puncak Jaya"
+ },
+ {
+  "id": "mountain-mont-blanc",
+  "category": "mountain",
+  "name": "Mont Blanc",
+  "aliases": [],
+  "size": 4808,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mont Blanc\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 49100,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mont Blanc"
+ },
+ {
+  "id": "mountain-matterhorn",
+  "category": "mountain",
+  "name": "Matterhorn",
+  "aliases": [
+   "Monte Cervino"
+  ],
+  "size": 4478,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Matterhorn\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 40333,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Matterhorn"
+ },
+ {
+  "id": "mountain-monte-rosa",
+  "category": "mountain",
+  "name": "Monte Rosa",
+  "aliases": [
+   "Dufourspitze"
+  ],
+  "size": 4634,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Monte Rosa\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5814,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monte Rosa"
+ },
+ {
+  "id": "mountain-mount-whitney",
+  "category": "mountain",
+  "name": "Mount Whitney",
+  "aliases": [
+   "Whitney"
+  ],
+  "size": 4421,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Whitney\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 51657,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Whitney"
+ },
+ {
+  "id": "mountain-mount-elbert",
+  "category": "mountain",
+  "name": "Mount Elbert",
+  "aliases": [
+   "Elbert"
+  ],
+  "size": 4401,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Elbert\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 14307,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Elbert"
+ },
+ {
+  "id": "mountain-mount-rainier",
+  "category": "mountain",
+  "name": "Mount Rainier",
+  "aliases": [
+   "Rainier"
+  ],
+  "size": 4392,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Rainier\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 51992,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Rainier"
+ },
+ {
+  "id": "mountain-mount-shasta",
+  "category": "mountain",
+  "name": "Mount Shasta",
+  "aliases": [
+   "Shasta"
+  ],
+  "size": 4322,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Shasta\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 19664,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Shasta"
+ },
+ {
+  "id": "mountain-pikes-peak",
+  "category": "mountain",
+  "name": "Pikes Peak",
+  "aliases": [],
+  "size": 4302,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Pikes Peak\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 20943,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pikes Peak"
+ },
+ {
+  "id": "mountain-mauna-kea",
+  "category": "mountain",
+  "name": "Mauna Kea",
+  "aliases": [],
+  "size": 4207,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mauna Kea\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 35006,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mauna Kea"
+ },
+ {
+  "id": "mountain-mauna-loa",
+  "category": "mountain",
+  "name": "Mauna Loa",
+  "aliases": [],
+  "size": 4169,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mauna Loa\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 17686,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mauna Loa"
+ },
+ {
+  "id": "mountain-toubkal",
+  "category": "mountain",
+  "name": "Toubkal",
+  "aliases": [
+   "Mount Toubkal"
+  ],
+  "size": 4167,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Toubkal\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 6301,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Toubkal"
+ },
+ {
+  "id": "mountain-jungfrau",
+  "category": "mountain",
+  "name": "Jungfrau",
+  "aliases": [],
+  "size": 4158,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Jungfrau\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5844,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jungfrau"
+ },
+ {
+  "id": "mountain-mount-kinabalu",
+  "category": "mountain",
+  "name": "Mount Kinabalu",
+  "aliases": [
+   "Kinabalu"
+  ],
+  "size": 4095,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Kinabalu\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 9132,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Kinabalu"
+ },
+ {
+  "id": "mountain-mount-cameroon",
+  "category": "mountain",
+  "name": "Mount Cameroon",
+  "aliases": [
+   "Cameroon Mountain"
+  ],
+  "size": 4040,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Cameroon\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 2770,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Cameroon"
+ },
+ {
+  "id": "mountain-eiger",
+  "category": "mountain",
+  "name": "Eiger",
+  "aliases": [
+   "The Eiger"
+  ],
+  "size": 3967,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Eiger\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 13698,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eiger"
+ },
+ {
+  "id": "mountain-mount-robson",
+  "category": "mountain",
+  "name": "Mount Robson",
+  "aliases": [
+   "Robson"
+  ],
+  "size": 3954,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Robson\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 6758,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Robson"
+ },
+ {
+  "id": "mountain-grossglockner",
+  "category": "mountain",
+  "name": "Grossglockner",
+  "aliases": [],
+  "size": 3798,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Grossglockner\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 7945,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grossglockner"
+ },
+ {
+  "id": "mountain-mount-erebus",
+  "category": "mountain",
+  "name": "Mount Erebus",
+  "aliases": [
+   "Erebus"
+  ],
+  "size": 3794,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Erebus\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 13211,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Erebus"
+ },
+ {
+  "id": "mountain-mount-fuji",
+  "category": "mountain",
+  "name": "Mount Fuji",
+  "aliases": [
+   "Fuji",
+   "Fujisan"
+  ],
+  "size": 3776,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Fuji\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 49830,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Fuji"
+ },
+ {
+  "id": "mountain-aoraki",
+  "category": "mountain",
+  "name": "Aoraki",
+  "aliases": [
+   "Mount Cook",
+   "Aoraki Mount Cook"
+  ],
+  "size": 3724,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Aoraki / Mount Cook\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 8858,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aoraki / Mount Cook"
+ },
+ {
+  "id": "mountain-mount-teide",
+  "category": "mountain",
+  "name": "Mount Teide",
+  "aliases": [
+   "Teide",
+   "Pico del Teide"
+  ],
+  "size": 3715,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Teide\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 15859,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Teide"
+ },
+ {
+  "id": "mountain-thabana-ntlenyana",
+  "category": "mountain",
+  "name": "Thabana Ntlenyana",
+  "aliases": [],
+  "size": 3482,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Thabana Ntlenyana\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thabana Ntlenyana"
+ },
+ {
+  "id": "mountain-mount-hood",
+  "category": "mountain",
+  "name": "Mount Hood",
+  "aliases": [
+   "Hood"
+  ],
+  "size": 3429,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Hood\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 17990,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Hood"
+ },
+ {
+  "id": "mountain-mount-etna",
+  "category": "mountain",
+  "name": "Mount Etna",
+  "aliases": [
+   "Etna"
+  ],
+  "size": 3357,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Etna\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 42433,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Etna"
+ },
+ {
+  "id": "mountain-haleakala",
+  "category": "mountain",
+  "name": "Haleakala",
+  "aliases": [],
+  "size": 3055,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Haleakalā\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 4962,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Haleakalā"
+ },
+ {
+  "id": "mountain-mount-olympus",
+  "category": "mountain",
+  "name": "Mount Olympus",
+  "aliases": [
+   "Olympus",
+   "Mount Olympos"
+  ],
+  "size": 2917,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Olympus\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 50713,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Olympus"
+ },
+ {
+  "id": "mountain-zugspitze",
+  "category": "mountain",
+  "name": "Zugspitze",
+  "aliases": [],
+  "size": 2962,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Zugspitze\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 11385,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zugspitze"
+ },
+ {
+  "id": "mountain-mount-ruapehu",
+  "category": "mountain",
+  "name": "Mount Ruapehu",
+  "aliases": [
+   "Ruapehu"
+  ],
+  "size": 2797,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Ruapehu\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 6697,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Ruapehu"
+ },
+ {
+  "id": "mountain-mount-hermon",
+  "category": "mountain",
+  "name": "Mount Hermon",
+  "aliases": [
+   "Hermon"
+  ],
+  "size": 2814,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Hermon\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 12328,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Hermon"
+ },
+ {
+  "id": "mountain-mount-roraima",
+  "category": "mountain",
+  "name": "Mount Roraima",
+  "aliases": [
+   "Roraima"
+  ],
+  "size": 2810,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Roraima\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 7153,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Roraima"
+ },
+ {
+  "id": "mountain-half-dome",
+  "category": "mountain",
+  "name": "Half Dome",
+  "aliases": [],
+  "size": 2694,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Half Dome\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 13211,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Half Dome"
+ },
+ {
+  "id": "mountain-mount-st-helens",
+  "category": "mountain",
+  "name": "Mount St Helens",
+  "aliases": [
+   "Mount Saint Helens"
+  ],
+  "size": 2549,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount St. Helens\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 81275,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount St. Helens"
+ },
+ {
+  "id": "mountain-mount-taranaki",
+  "category": "mountain",
+  "name": "Mount Taranaki",
+  "aliases": [
+   "Taranaki",
+   "Mount Egmont"
+  ],
+  "size": 2518,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Taranaki\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5388,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Taranaki"
+ },
+ {
+  "id": "mountain-el-capitan",
+  "category": "mountain",
+  "name": "El Capitan",
+  "aliases": [],
+  "size": 2308,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"El Capitan\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 18903,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "El Capitan"
+ },
+ {
+  "id": "mountain-mount-vitosha",
+  "category": "mountain",
+  "name": "Mount Vitosha",
+  "aliases": [
+   "Vitosha"
+  ],
+  "size": 2290,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Vitosha\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vitosha"
+ },
+ {
+  "id": "mountain-mount-sinai",
+  "category": "mountain",
+  "name": "Mount Sinai",
+  "aliases": [
+   "Sinai"
+  ],
+  "size": 2285,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Sinai\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 25691,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Sinai"
+ },
+ {
+  "id": "mountain-mount-kosciuszko",
+  "category": "mountain",
+  "name": "Mount Kosciuszko",
+  "aliases": [
+   "Kosciuszko"
+  ],
+  "size": 2228,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Kosciuszko\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 17594,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Kosciuszko"
+ },
+ {
+  "id": "mountain-mount-mitchell",
+  "category": "mountain",
+  "name": "Mount Mitchell",
+  "aliases": [],
+  "size": 2037,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Mitchell\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 14246,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Mitchell"
+ },
+ {
+  "id": "mountain-mount-washington",
+  "category": "mountain",
+  "name": "Mount Washington",
+  "aliases": [],
+  "size": 1917,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Washington\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 21247,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Washington"
+ },
+ {
+  "id": "mountain-mont-ventoux",
+  "category": "mountain",
+  "name": "Mont Ventoux",
+  "aliases": [],
+  "size": 1909,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mont Ventoux\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 9436,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mont Ventoux"
+ },
+ {
+  "id": "mountain-mount-marcy",
+  "category": "mountain",
+  "name": "Mount Marcy",
+  "aliases": [
+   "Marcy"
+  ],
+  "size": 1629,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Marcy\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 6484,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Marcy"
+ },
+ {
+  "id": "mountain-mount-katahdin",
+  "category": "mountain",
+  "name": "Mount Katahdin",
+  "aliases": [
+   "Katahdin"
+  ],
+  "size": 1606,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Katahdin\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 7671,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Katahdin"
+ },
+ {
+  "id": "mountain-puy-de-dome",
+  "category": "mountain",
+  "name": "Puy de Dome",
+  "aliases": [],
+  "size": 1465,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Puy de Dôme\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 3196,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Puy de Dôme"
+ },
+ {
+  "id": "mountain-ben-nevis",
+  "category": "mountain",
+  "name": "Ben Nevis",
+  "aliases": [],
+  "size": 1345,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Ben Nevis\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 26787,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ben Nevis"
+ },
+ {
+  "id": "mountain-vesuvius",
+  "category": "mountain",
+  "name": "Vesuvius",
+  "aliases": [
+   "Mount Vesuvius"
+  ],
+  "size": 1281,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Vesuvius\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 63224,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Vesuvius"
+ },
+ {
+  "id": "mountain-table-mountain",
+  "category": "mountain",
+  "name": "Table Mountain",
+  "aliases": [],
+  "size": 1086,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Table Mountain\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 10502,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Table Mountain"
+ },
+ {
+  "id": "mountain-scafell-pike",
+  "category": "mountain",
+  "name": "Scafell Pike",
+  "aliases": [],
+  "size": 978,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Scafell Pike\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 13972,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Scafell Pike"
+ },
+ {
+  "id": "mountain-snowdon",
+  "category": "mountain",
+  "name": "Snowdon",
+  "aliases": [
+   "Yr Wyddfa"
+  ],
+  "size": 1085,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Snowdon\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 14215,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Snowdon"
+ },
+ {
+  "id": "mountain-carrauntoohil",
+  "category": "mountain",
+  "name": "Carrauntoohil",
+  "aliases": [],
+  "size": 1038,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Carrauntoohil\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 11263,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Carrauntoohil"
+ },
+ {
+  "id": "mountain-stromboli",
+  "category": "mountain",
+  "name": "Stromboli",
+  "aliases": [
+   "Mount Stromboli"
+  ],
+  "size": 924,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Stromboli\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 13850,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stromboli"
+ },
+ {
+  "id": "mountain-mount-nebo",
+  "category": "mountain",
+  "name": "Mount Nebo",
+  "aliases": [
+   "Nebo"
+  ],
+  "size": 817,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Nebo\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 7214,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Nebo"
+ },
+ {
+  "id": "mountain-corcovado",
+  "category": "mountain",
+  "name": "Corcovado",
+  "aliases": [],
+  "size": 710,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Corcovado\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 2800,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Corcovado"
+ },
+ {
+  "id": "mountain-sugarloaf-mountain",
+  "category": "mountain",
+  "name": "Sugarloaf Mountain",
+  "aliases": [
+   "Pao de Acucar"
+  ],
+  "size": 396,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Sugarloaf Mountain\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5936,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sugarloaf Mountain"
+ },
+ {
+  "id": "mountain-uluru",
+  "category": "mountain",
+  "name": "Uluru",
+  "aliases": [
+   "Ayers Rock"
+  ],
+  "size": 863,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Uluru\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 35554,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uluru"
+ },
+ {
+  "id": "mountain-grand-teton",
+  "category": "mountain",
+  "name": "Grand Teton",
+  "aliases": [],
+  "size": 4199,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Grand Teton\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 7854,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grand Teton"
+ },
+ {
+  "id": "mountain-longs-peak",
+  "category": "mountain",
+  "name": "Longs Peak",
+  "aliases": [],
+  "size": 4346,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Longs Peak\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 4262,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Longs Peak"
+ },
+ {
+  "id": "mountain-mount-baker",
+  "category": "mountain",
+  "name": "Mount Baker",
+  "aliases": [],
+  "size": 3286,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Baker\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 9832,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Baker"
+ },
+ {
+  "id": "mountain-clingmans-dome",
+  "category": "mountain",
+  "name": "Clingmans Dome",
+  "aliases": [
+   "Kuwohi"
+  ],
+  "size": 2025,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Kuwohi\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 8767,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kuwohi"
+ },
+ {
+  "id": "mountain-black-elk-peak",
+  "category": "mountain",
+  "name": "Black Elk Peak",
+  "aliases": [
+   "Harney Peak"
+  ],
+  "size": 2207,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Black Elk Peak\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 4657,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Black Elk Peak"
+ },
+ {
+  "id": "mountain-pico-duarte",
+  "category": "mountain",
+  "name": "Pico Duarte",
+  "aliases": [],
+  "size": 3098,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Pico Duarte\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pico Duarte"
+ },
+ {
+  "id": "mountain-blue-mountain-peak",
+  "category": "mountain",
+  "name": "Blue Mountain Peak",
+  "aliases": [],
+  "size": 2256,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Blue Mountain Peak\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Blue Mountain Peak"
+ },
+ {
+  "id": "mountain-mount-apo",
+  "category": "mountain",
+  "name": "Mount Apo",
+  "aliases": [],
+  "size": 2954,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Apo\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 4931,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Apo"
+ },
+ {
+  "id": "mountain-mount-pinatubo",
+  "category": "mountain",
+  "name": "Mount Pinatubo",
+  "aliases": [
+   "Pinatubo"
+  ],
+  "size": 1486,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Pinatubo\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 13576,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Pinatubo"
+ },
+ {
+  "id": "mountain-mayon",
+  "category": "mountain",
+  "name": "Mayon",
+  "aliases": [
+   "Mount Mayon"
+  ],
+  "size": 2463,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mayon\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 9284,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mayon"
+ },
+ {
+  "id": "mountain-mount-bromo",
+  "category": "mountain",
+  "name": "Mount Bromo",
+  "aliases": [
+   "Bromo"
+  ],
+  "size": 2329,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Bromo\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 6179,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Bromo"
+ },
+ {
+  "id": "mountain-mount-merapi",
+  "category": "mountain",
+  "name": "Mount Merapi",
+  "aliases": [
+   "Merapi"
+  ],
+  "size": 2930,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Merapi\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 4749,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Merapi"
+ },
+ {
+  "id": "mountain-mount-semeru",
+  "category": "mountain",
+  "name": "Mount Semeru",
+  "aliases": [
+   "Semeru"
+  ],
+  "size": 3676,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Semeru\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 2800,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Semeru"
+ },
+ {
+  "id": "mountain-mount-agung",
+  "category": "mountain",
+  "name": "Mount Agung",
+  "aliases": [
+   "Agung"
+  ],
+  "size": 3031,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Agung\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5175,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Agung"
+ },
+ {
+  "id": "mountain-krakatoa",
+  "category": "mountain",
+  "name": "Krakatoa",
+  "aliases": [
+   "Krakatau"
+  ],
+  "size": 813,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Krakatoa\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 33088,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Krakatoa"
+ },
+ {
+  "id": "mountain-mount-rinjani",
+  "category": "mountain",
+  "name": "Mount Rinjani",
+  "aliases": [
+   "Rinjani"
+  ],
+  "size": 3726,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Rinjani\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5631,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Rinjani"
+ },
+ {
+  "id": "mountain-mount-aso",
+  "category": "mountain",
+  "name": "Mount Aso",
+  "aliases": [
+   "Aso"
+  ],
+  "size": 1592,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Aso\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 3348,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Aso"
+ },
+ {
+  "id": "mountain-paektu-mountain",
+  "category": "mountain",
+  "name": "Paektu Mountain",
+  "aliases": [
+   "Mount Paektu",
+   "Baekdu"
+  ],
+  "size": 2744,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Paektu\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 7093,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Paektu"
+ },
+ {
+  "id": "mountain-hallasan",
+  "category": "mountain",
+  "name": "Hallasan",
+  "aliases": [
+   "Mount Halla"
+  ],
+  "size": 1947,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Hallasan\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 4810,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hallasan"
+ },
+ {
+  "id": "mountain-huangshan",
+  "category": "mountain",
+  "name": "Huangshan",
+  "aliases": [
+   "Yellow Mountain"
+  ],
+  "size": 1864,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Huangshan\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5997,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Huangshan"
+ },
+ {
+  "id": "mountain-mount-tai",
+  "category": "mountain",
+  "name": "Mount Tai",
+  "aliases": [
+   "Taishan"
+  ],
+  "size": 1545,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Tai\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5723,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Tai"
+ },
+ {
+  "id": "mountain-ama-dablam",
+  "category": "mountain",
+  "name": "Ama Dablam",
+  "aliases": [],
+  "size": 6812,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Ama Dablam\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5418,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ama Dablam"
+ },
+ {
+  "id": "mountain-machapuchare",
+  "category": "mountain",
+  "name": "Machapuchare",
+  "aliases": [
+   "Fishtail Mountain"
+  ],
+  "size": 6993,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Machapuchare\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 6971,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Machapuchare"
+ },
+ {
+  "id": "mountain-kirkjufell",
+  "category": "mountain",
+  "name": "Kirkjufell",
+  "aliases": [],
+  "size": 463,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Kirkjufell\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 2861,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kirkjufell"
+ },
+ {
+  "id": "mountain-galdhopiggen",
+  "category": "mountain",
+  "name": "Galdhopiggen",
+  "aliases": [],
+  "size": 2469,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Galdhøpiggen\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 6484,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Galdhøpiggen"
+ },
+ {
+  "id": "mountain-kebnekaise",
+  "category": "mountain",
+  "name": "Kebnekaise",
+  "aliases": [],
+  "size": 2096,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Kebnekaise\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 3866,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kebnekaise"
+ },
+ {
+  "id": "mountain-snezka",
+  "category": "mountain",
+  "name": "Snezka",
+  "aliases": [
+   "Sniezka"
+  ],
+  "size": 1603,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Sněžka\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 2861,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sněžka"
+ },
+ {
+  "id": "mountain-rysy",
+  "category": "mountain",
+  "name": "Rysy",
+  "aliases": [],
+  "size": 2503,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Rysy\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 4414,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rysy"
+ },
+ {
+  "id": "mountain-triglav",
+  "category": "mountain",
+  "name": "Triglav",
+  "aliases": [],
+  "size": 2864,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Triglav\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5631,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Triglav"
+ },
+ {
+  "id": "mountain-musala",
+  "category": "mountain",
+  "name": "Musala",
+  "aliases": [],
+  "size": 2925,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Musala\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 3835,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Musala"
+ },
+ {
+  "id": "mountain-mount-ida",
+  "category": "mountain",
+  "name": "Mount Ida",
+  "aliases": [
+   "Psiloritis"
+  ],
+  "size": 2456,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Ida (Crete)\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5175,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Ida (Crete)"
+ },
+ {
+  "id": "mountain-mount-athos",
+  "category": "mountain",
+  "name": "Mount Athos",
+  "aliases": [
+   "Athos"
+  ],
+  "size": 2033,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Athos\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 25570,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Athos"
+ },
+ {
+  "id": "mountain-gran-sasso",
+  "category": "mountain",
+  "name": "Gran Sasso",
+  "aliases": [
+   "Corno Grande"
+  ],
+  "size": 2912,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Gran Sasso d'Italia\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 2892,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gran Sasso d'Italia"
+ },
+ {
+  "id": "mountain-marmolada",
+  "category": "mountain",
+  "name": "Marmolada",
+  "aliases": [],
+  "size": 3343,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Marmolada\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 4536,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marmolada"
+ },
+ {
+  "id": "mountain-piz-bernina",
+  "category": "mountain",
+  "name": "Piz Bernina",
+  "aliases": [],
+  "size": 4049,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Piz Bernina\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 1948,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Piz Bernina"
+ },
+ {
+  "id": "mountain-weisshorn",
+  "category": "mountain",
+  "name": "Weisshorn",
+  "aliases": [],
+  "size": 4506,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Weisshorn\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 2192,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Weisshorn"
+ },
+ {
+  "id": "mountain-aneto",
+  "category": "mountain",
+  "name": "Aneto",
+  "aliases": [],
+  "size": 3404,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Aneto\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 2770,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aneto"
+ },
+ {
+  "id": "mountain-mulhacen",
+  "category": "mountain",
+  "name": "Mulhacen",
+  "aliases": [],
+  "size": 3479,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mulhacén\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 5540,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mulhacén"
+ },
+ {
+  "id": "mountain-mount-ossa",
+  "category": "mountain",
+  "name": "Mount Ossa",
+  "aliases": [],
+  "size": 1617,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Ossa (Tasmania)\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 1461,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Ossa (Tasmania)"
+ },
+ {
+  "id": "mountain-mount-tongariro",
+  "category": "mountain",
+  "name": "Mount Tongariro",
+  "aliases": [
+   "Tongariro"
+  ],
+  "size": 1978,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Tongariro\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Tongariro"
+ },
+ {
+  "id": "mountain-mount-ngauruhoe",
+  "category": "mountain",
+  "name": "Mount Ngauruhoe",
+  "aliases": [
+   "Ngauruhoe"
+  ],
+  "size": 2291,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Ngauruhoe\", undefined-month mean (60 days ending 2026-09-11); Standard reference summit elevations (m)",
+  "magnitude": 3014,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Ngauruhoe"
+ }
+]

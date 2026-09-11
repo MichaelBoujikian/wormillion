@@ -1,0 +1,4224 @@
+[
+ {
+  "id": "island-greenland",
+  "category": "island",
+  "name": "Greenland",
+  "aliases": [
+   "Kalaallit Nunaat"
+  ],
+  "size": 2166086,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Greenland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 112324,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Greenland"
+ },
+ {
+  "id": "island-new-guinea",
+  "category": "island",
+  "name": "New Guinea",
+  "aliases": [],
+  "size": 785753,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"New Guinea\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 40607,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Guinea"
+ },
+ {
+  "id": "island-borneo",
+  "category": "island",
+  "name": "Borneo",
+  "aliases": [],
+  "size": 748168,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Borneo\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 53453,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Borneo"
+ },
+ {
+  "id": "island-madagascar-island",
+  "category": "island",
+  "name": "Madagascar Island",
+  "aliases": [
+   "Madagascar"
+  ],
+  "size": 587041,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Madagascar\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 111897,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Madagascar"
+ },
+ {
+  "id": "island-baffin-island",
+  "category": "island",
+  "name": "Baffin Island",
+  "aliases": [
+   "Baffin"
+  ],
+  "size": 507451,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baffin Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 14916,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baffin Island"
+ },
+ {
+  "id": "island-sumatra",
+  "category": "island",
+  "name": "Sumatra",
+  "aliases": [],
+  "size": 443066,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sumatra\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 26331,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sumatra"
+ },
+ {
+  "id": "island-honshu",
+  "category": "island",
+  "name": "Honshu",
+  "aliases": [],
+  "size": 225800,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Honshu\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 21825,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Honshu"
+ },
+ {
+  "id": "island-victoria-island",
+  "category": "island",
+  "name": "Victoria Island",
+  "aliases": [],
+  "size": 217291,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Victoria Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 7032,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Victoria Island"
+ },
+ {
+  "id": "island-great-britain",
+  "category": "island",
+  "name": "Great Britain",
+  "aliases": [
+   "Britain"
+  ],
+  "size": 209331,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Britain\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 67120,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Britain"
+ },
+ {
+  "id": "island-ellesmere-island",
+  "category": "island",
+  "name": "Ellesmere Island",
+  "aliases": [
+   "Ellesmere"
+  ],
+  "size": 196236,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ellesmere Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10471,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ellesmere Island"
+ },
+ {
+  "id": "island-sulawesi",
+  "category": "island",
+  "name": "Sulawesi",
+  "aliases": [
+   "Celebes"
+  ],
+  "size": 180681,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sulawesi\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 16468,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sulawesi"
+ },
+ {
+  "id": "island-south-island",
+  "category": "island",
+  "name": "South Island",
+  "aliases": [
+   "Te Waipounamu"
+  ],
+  "size": 145836,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"South Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12572,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Island"
+ },
+ {
+  "id": "island-java",
+  "category": "island",
+  "name": "Java",
+  "aliases": [],
+  "size": 138794,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Java\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 40546,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Java"
+ },
+ {
+  "id": "island-north-island",
+  "category": "island",
+  "name": "North Island",
+  "aliases": [
+   "Te Ika-a-Maui"
+  ],
+  "size": 111583,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"North Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8888,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Island"
+ },
+ {
+  "id": "island-luzon",
+  "category": "island",
+  "name": "Luzon",
+  "aliases": [],
+  "size": 109965,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Luzon\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 14703,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luzon"
+ },
+ {
+  "id": "island-newfoundland",
+  "category": "island",
+  "name": "Newfoundland",
+  "aliases": [],
+  "size": 108860,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Newfoundland (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 25722,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Newfoundland (island)"
+ },
+ {
+  "id": "island-cuba-island",
+  "category": "island",
+  "name": "Cuba Island",
+  "aliases": [
+   "Cuba"
+  ],
+  "size": 105806,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cuba\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 118990,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cuba"
+ },
+ {
+  "id": "island-iceland-island",
+  "category": "island",
+  "name": "Iceland Island",
+  "aliases": [
+   "Iceland"
+  ],
+  "size": 101826,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Iceland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 161302,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iceland"
+ },
+ {
+  "id": "island-mindanao",
+  "category": "island",
+  "name": "Mindanao",
+  "aliases": [],
+  "size": 97530,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mindanao\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 18599,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mindanao"
+ },
+ {
+  "id": "island-ireland-island",
+  "category": "island",
+  "name": "Ireland Island",
+  "aliases": [
+   "Ireland"
+  ],
+  "size": 84421,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ireland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 149947,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ireland"
+ },
+ {
+  "id": "island-hokkaido",
+  "category": "island",
+  "name": "Hokkaido",
+  "aliases": [],
+  "size": 78073,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hokkaido\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 45843,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hokkaido"
+ },
+ {
+  "id": "island-hispaniola",
+  "category": "island",
+  "name": "Hispaniola",
+  "aliases": [],
+  "size": 76192,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hispaniola\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 31627,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hispaniola"
+ },
+ {
+  "id": "island-sakhalin",
+  "category": "island",
+  "name": "Sakhalin",
+  "aliases": [],
+  "size": 72493,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sakhalin\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 28614,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sakhalin"
+ },
+ {
+  "id": "island-banks-island",
+  "category": "island",
+  "name": "Banks Island",
+  "aliases": [],
+  "size": 70028,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Banks Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2100,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Banks Island"
+ },
+ {
+  "id": "island-tasmania",
+  "category": "island",
+  "name": "Tasmania",
+  "aliases": [],
+  "size": 68401,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tasmania\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 65476,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tasmania"
+ },
+ {
+  "id": "island-sri-lanka-island",
+  "category": "island",
+  "name": "Sri Lanka Island",
+  "aliases": [
+   "Ceylon"
+  ],
+  "size": 65268,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sri Lanka\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 179687,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sri Lanka"
+ },
+ {
+  "id": "island-devon-island",
+  "category": "island",
+  "name": "Devon Island",
+  "aliases": [],
+  "size": 55247,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Devon Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6849,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Devon Island"
+ },
+ {
+  "id": "island-novaya-zemlya",
+  "category": "island",
+  "name": "Novaya Zemlya",
+  "aliases": [],
+  "size": 48904,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Novaya Zemlya\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 19451,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Novaya Zemlya"
+ },
+ {
+  "id": "island-tierra-del-fuego",
+  "category": "island",
+  "name": "Tierra del Fuego",
+  "aliases": [],
+  "size": 47992,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tierra del Fuego\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 18355,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tierra del Fuego"
+ },
+ {
+  "id": "island-melville-island",
+  "category": "island",
+  "name": "Melville Island",
+  "aliases": [],
+  "size": 42149,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Melville Island (Northwest Territories and Nunavut)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Melville Island (Northwest Territories and Nunavut)"
+ },
+ {
+  "id": "island-southampton-island",
+  "category": "island",
+  "name": "Southampton Island",
+  "aliases": [],
+  "size": 41214,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Southampton Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Southampton Island"
+ },
+ {
+  "id": "island-spitsbergen",
+  "category": "island",
+  "name": "Spitsbergen",
+  "aliases": [],
+  "size": 37673,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Spitsbergen\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8462,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Spitsbergen"
+ },
+ {
+  "id": "island-kyushu",
+  "category": "island",
+  "name": "Kyushu",
+  "aliases": [],
+  "size": 36782,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kyushu\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 22800,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kyushu"
+ },
+ {
+  "id": "island-taiwan-island",
+  "category": "island",
+  "name": "Taiwan Island",
+  "aliases": [
+   "Formosa"
+  ],
+  "size": 35883,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Taiwan\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 238802,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Taiwan"
+ },
+ {
+  "id": "island-new-britain",
+  "category": "island",
+  "name": "New Britain",
+  "aliases": [],
+  "size": 35145,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"New Britain\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 7214,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Britain"
+ },
+ {
+  "id": "island-hainan",
+  "category": "island",
+  "name": "Hainan",
+  "aliases": [],
+  "size": 33210,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hainan\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 26787,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hainan"
+ },
+ {
+  "id": "island-vancouver-island",
+  "category": "island",
+  "name": "Vancouver Island",
+  "aliases": [],
+  "size": 31285,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vancouver Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 23347,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vancouver Island"
+ },
+ {
+  "id": "island-timor",
+  "category": "island",
+  "name": "Timor",
+  "aliases": [],
+  "size": 30777,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Timor\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10137,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Timor"
+ },
+ {
+  "id": "island-sicily",
+  "category": "island",
+  "name": "Sicily",
+  "aliases": [
+   "Sicilia"
+  ],
+  "size": 25711,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sicily\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 84806,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sicily"
+ },
+ {
+  "id": "island-somerset-island",
+  "category": "island",
+  "name": "Somerset Island",
+  "aliases": [],
+  "size": 24786,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Somerset Island (Nunavut)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Somerset Island (Nunavut)"
+ },
+ {
+  "id": "island-sardinia",
+  "category": "island",
+  "name": "Sardinia",
+  "aliases": [
+   "Sardegna"
+  ],
+  "size": 23949,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sardinia\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 77135,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sardinia"
+ },
+ {
+  "id": "island-shikoku",
+  "category": "island",
+  "name": "Shikoku",
+  "aliases": [],
+  "size": 18800,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shikoku\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 15281,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shikoku"
+ },
+ {
+  "id": "island-halmahera",
+  "category": "island",
+  "name": "Halmahera",
+  "aliases": [],
+  "size": 18040,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Halmahera\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2253,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Halmahera"
+ },
+ {
+  "id": "island-seram",
+  "category": "island",
+  "name": "Seram",
+  "aliases": [
+   "Ceram"
+  ],
+  "size": 17100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Seram Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seram Island"
+ },
+ {
+  "id": "island-flores",
+  "category": "island",
+  "name": "Flores",
+  "aliases": [],
+  "size": 13540,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Flores\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9254,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Flores"
+ },
+ {
+  "id": "island-samar",
+  "category": "island",
+  "name": "Samar",
+  "aliases": [],
+  "size": 13429,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Samar\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3379,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samar"
+ },
+ {
+  "id": "island-negros",
+  "category": "island",
+  "name": "Negros",
+  "aliases": [],
+  "size": 13310,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Negros\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3105,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Negros"
+ },
+ {
+  "id": "island-palawan",
+  "category": "island",
+  "name": "Palawan",
+  "aliases": [],
+  "size": 12189,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Palawan\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 13942,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palawan"
+ },
+ {
+  "id": "island-panay",
+  "category": "island",
+  "name": "Panay",
+  "aliases": [],
+  "size": 12011,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Panay\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3288,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Panay"
+ },
+ {
+  "id": "island-jamaica-island",
+  "category": "island",
+  "name": "Jamaica Island",
+  "aliases": [],
+  "size": 10991,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jamaica\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 100148,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jamaica"
+ },
+ {
+  "id": "island-big-island-of-hawaii",
+  "category": "island",
+  "name": "Big Island of Hawaii",
+  "aliases": [
+   "Hawaii Island"
+  ],
+  "size": 10433,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hawaiʻi (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 15524,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hawaiʻi (island)"
+ },
+ {
+  "id": "island-cape-breton-island",
+  "category": "island",
+  "name": "Cape Breton Island",
+  "aliases": [
+   "Cape Breton"
+  ],
+  "size": 10311,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cape Breton Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12967,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cape Breton Island"
+ },
+ {
+  "id": "island-cyprus-island",
+  "category": "island",
+  "name": "Cyprus Island",
+  "aliases": [],
+  "size": 9251,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cyprus\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 180814,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cyprus"
+ },
+ {
+  "id": "island-puerto-rico",
+  "category": "island",
+  "name": "Puerto Rico",
+  "aliases": [],
+  "size": 8870,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Puerto Rico\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 149856,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Puerto Rico"
+ },
+ {
+  "id": "island-corsica",
+  "category": "island",
+  "name": "Corsica",
+  "aliases": [
+   "Corse"
+  ],
+  "size": 8680,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Corsica\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 75765,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Corsica"
+ },
+ {
+  "id": "island-crete",
+  "category": "island",
+  "name": "Crete",
+  "aliases": [
+   "Kriti"
+  ],
+  "size": 8336,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Crete\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 73756,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Crete"
+ },
+ {
+  "id": "island-wrangel-island",
+  "category": "island",
+  "name": "Wrangel Island",
+  "aliases": [],
+  "size": 7600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wrangel Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 15524,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wrangel Island"
+ },
+ {
+  "id": "island-zealand",
+  "category": "island",
+  "name": "Zealand",
+  "aliases": [
+   "Sjaelland"
+  ],
+  "size": 7031,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zealand\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 14642,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zealand"
+ },
+ {
+  "id": "island-aland",
+  "category": "island",
+  "name": "Aland",
+  "aliases": [
+   "Fasta Aland"
+  ],
+  "size": 685,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Åland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 35645,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Åland"
+ },
+ {
+  "id": "island-bali",
+  "category": "island",
+  "name": "Bali",
+  "aliases": [],
+  "size": 5780,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bali\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 96647,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bali"
+ },
+ {
+  "id": "island-prince-edward-island",
+  "category": "island",
+  "name": "Prince Edward Island",
+  "aliases": [],
+  "size": 5660,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Prince Edward Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 45873,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Prince Edward Island"
+ },
+ {
+  "id": "island-trinidad",
+  "category": "island",
+  "name": "Trinidad",
+  "aliases": [],
+  "size": 4768,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trinidad\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 16011,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trinidad"
+ },
+ {
+  "id": "island-socotra",
+  "category": "island",
+  "name": "Socotra",
+  "aliases": [],
+  "size": 3796,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Socotra\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 43529,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Socotra"
+ },
+ {
+  "id": "island-mallorca",
+  "category": "island",
+  "name": "Mallorca",
+  "aliases": [
+   "Majorca"
+  ],
+  "size": 3640,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mallorca\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 63863,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mallorca"
+ },
+ {
+  "id": "island-fyn",
+  "category": "island",
+  "name": "Fyn",
+  "aliases": [
+   "Funen"
+  ],
+  "size": 3100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Funen\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3896,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Funen"
+ },
+ {
+  "id": "island-gotland",
+  "category": "island",
+  "name": "Gotland",
+  "aliases": [],
+  "size": 2994,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gotland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 14642,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gotland"
+ },
+ {
+  "id": "island-reunion",
+  "category": "island",
+  "name": "Reunion",
+  "aliases": [],
+  "size": 2511,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Réunion\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 61428,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Réunion"
+ },
+ {
+  "id": "island-tenerife",
+  "category": "island",
+  "name": "Tenerife",
+  "aliases": [],
+  "size": 2034,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tenerife\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 58506,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tenerife"
+ },
+ {
+  "id": "island-mauritius-island",
+  "category": "island",
+  "name": "Mauritius Island",
+  "aliases": [],
+  "size": 2040,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mauritius\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 187206,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mauritius"
+ },
+ {
+  "id": "island-lewis-and-harris",
+  "category": "island",
+  "name": "Lewis and Harris",
+  "aliases": [],
+  "size": 2179,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lewis and Harris\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6575,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lewis and Harris"
+ },
+ {
+  "id": "island-bioko",
+  "category": "island",
+  "name": "Bioko",
+  "aliases": [],
+  "size": 2017,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bioko\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12846,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bioko"
+ },
+ {
+  "id": "island-zanzibar",
+  "category": "island",
+  "name": "Zanzibar",
+  "aliases": [
+   "Unguja"
+  ],
+  "size": 1666,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zanzibar\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 71625,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zanzibar"
+ },
+ {
+  "id": "island-isle-of-skye",
+  "category": "island",
+  "name": "Isle of Skye",
+  "aliases": [
+   "Skye"
+  ],
+  "size": 1656,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Skye\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 24261,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Skye"
+ },
+ {
+  "id": "island-lesbos",
+  "category": "island",
+  "name": "Lesbos",
+  "aliases": [
+   "Lesvos"
+  ],
+  "size": 1633,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lesbos\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 27700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lesbos"
+ },
+ {
+  "id": "island-rhodes",
+  "category": "island",
+  "name": "Rhodes",
+  "aliases": [
+   "Rodos"
+  ],
+  "size": 1401,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rhodes\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 41855,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rhodes"
+ },
+ {
+  "id": "island-shetland-mainland",
+  "category": "island",
+  "name": "Shetland Mainland",
+  "aliases": [],
+  "size": 967,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mainland, Shetland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mainland, Shetland"
+ },
+ {
+  "id": "island-lanzarote",
+  "category": "island",
+  "name": "Lanzarote",
+  "aliases": [],
+  "size": 845,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lanzarote\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 17594,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lanzarote"
+ },
+ {
+  "id": "island-madeira",
+  "category": "island",
+  "name": "Madeira",
+  "aliases": [],
+  "size": 741,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Madeira\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 74730,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Madeira"
+ },
+ {
+  "id": "island-anglesey",
+  "category": "island",
+  "name": "Anglesey",
+  "aliases": [
+   "Ynys Mon"
+  ],
+  "size": 714,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Anglesey\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 16042,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Anglesey"
+ },
+ {
+  "id": "island-bornholm",
+  "category": "island",
+  "name": "Bornholm",
+  "aliases": [],
+  "size": 588,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bornholm\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9802,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bornholm"
+ },
+ {
+  "id": "island-isle-of-man",
+  "category": "island",
+  "name": "Isle of Man",
+  "aliases": [],
+  "size": 572,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Man\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 130618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Man"
+ },
+ {
+  "id": "island-ibiza",
+  "category": "island",
+  "name": "Ibiza",
+  "aliases": [],
+  "size": 571,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ibiza\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 64046,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ibiza"
+ },
+ {
+  "id": "island-guam",
+  "category": "island",
+  "name": "Guam",
+  "aliases": [],
+  "size": 543,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Guam\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 83862,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guam"
+ },
+ {
+  "id": "island-orkney-mainland",
+  "category": "island",
+  "name": "Orkney Mainland",
+  "aliases": [],
+  "size": 523,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mainland, Orkney\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1735,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mainland, Orkney"
+ },
+ {
+  "id": "island-barbados-island",
+  "category": "island",
+  "name": "Barbados Island",
+  "aliases": [],
+  "size": 430,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barbados\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 87911,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barbados"
+ },
+ {
+  "id": "island-isle-of-wight",
+  "category": "island",
+  "name": "Isle of Wight",
+  "aliases": [],
+  "size": 380,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Wight\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 50043,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Wight"
+ },
+ {
+  "id": "island-niue",
+  "category": "island",
+  "name": "Niue",
+  "aliases": [],
+  "size": 261,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Niue\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 39633,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Niue"
+ },
+ {
+  "id": "island-malta-island",
+  "category": "island",
+  "name": "Malta Island",
+  "aliases": [],
+  "size": 246,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Malta\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 228757,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Malta"
+ },
+ {
+  "id": "island-elba",
+  "category": "island",
+  "name": "Elba",
+  "aliases": [],
+  "size": 224,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Elba\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 18903,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Elba"
+ },
+ {
+  "id": "island-easter-island",
+  "category": "island",
+  "name": "Easter Island",
+  "aliases": [
+   "Rapa Nui"
+  ],
+  "size": 163.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Easter Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 73300,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Easter Island"
+ },
+ {
+  "id": "island-saint-helena",
+  "category": "island",
+  "name": "Saint Helena",
+  "aliases": [
+   "St Helena"
+  ],
+  "size": 122,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saint Helena\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 64533,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Helena"
+ },
+ {
+  "id": "island-jersey",
+  "category": "island",
+  "name": "Jersey",
+  "aliases": [],
+  "size": 118,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jersey\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 102096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jersey"
+ },
+ {
+  "id": "island-mykonos",
+  "category": "island",
+  "name": "Mykonos",
+  "aliases": [],
+  "size": 105,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mykonos\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 20121,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mykonos"
+ },
+ {
+  "id": "island-tristan-da-cunha",
+  "category": "island",
+  "name": "Tristan da Cunha",
+  "aliases": [],
+  "size": 98,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tristan da Cunha\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 56344,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tristan da Cunha"
+ },
+ {
+  "id": "island-santorini",
+  "category": "island",
+  "name": "Santorini",
+  "aliases": [
+   "Thira"
+  ],
+  "size": 76,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santorini\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 41033,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santorini"
+ },
+ {
+  "id": "island-guernsey",
+  "category": "island",
+  "name": "Guernsey",
+  "aliases": [],
+  "size": 65,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Guernsey\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 56710,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guernsey"
+ },
+ {
+  "id": "island-bouvet-island",
+  "category": "island",
+  "name": "Bouvet Island",
+  "aliases": [],
+  "size": 49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bouvet Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 22647,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bouvet Island"
+ },
+ {
+  "id": "island-pitcairn-island",
+  "category": "island",
+  "name": "Pitcairn Island",
+  "aliases": [
+   "Pitcairn"
+  ],
+  "size": 47,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pitcairn Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12267,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pitcairn Island"
+ },
+ {
+  "id": "island-ischia",
+  "category": "island",
+  "name": "Ischia",
+  "aliases": [],
+  "size": 46,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ischia\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 13454,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ischia"
+ },
+ {
+  "id": "island-inishmore",
+  "category": "island",
+  "name": "Inishmore",
+  "aliases": [],
+  "size": 31,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inishmore\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4840,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inishmore"
+ },
+ {
+  "id": "island-nauru-island",
+  "category": "island",
+  "name": "Nauru Island",
+  "aliases": [],
+  "size": 21,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nauru\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 123617,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nauru"
+ },
+ {
+  "id": "island-capri",
+  "category": "island",
+  "name": "Capri",
+  "aliases": [],
+  "size": 10.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Capri\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 20821,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Capri"
+ },
+ {
+  "id": "island-iona",
+  "category": "island",
+  "name": "Iona",
+  "aliases": [],
+  "size": 8.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Iona\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 11811,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iona"
+ },
+ {
+  "id": "island-lundy",
+  "category": "island",
+  "name": "Lundy",
+  "aliases": [],
+  "size": 4.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lundy\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9528,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lundy"
+ },
+ {
+  "id": "island-maui",
+  "category": "island",
+  "name": "Maui",
+  "aliases": [],
+  "size": 1883,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Maui\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 23013,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maui"
+ },
+ {
+  "id": "island-oahu",
+  "category": "island",
+  "name": "Oahu",
+  "aliases": [],
+  "size": 1545,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oʻahu\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 19055,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oʻahu"
+ },
+ {
+  "id": "island-kauai",
+  "category": "island",
+  "name": "Kauai",
+  "aliases": [],
+  "size": 1430,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kauaʻi\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 19421,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kauaʻi"
+ },
+ {
+  "id": "island-molokai",
+  "category": "island",
+  "name": "Molokai",
+  "aliases": [],
+  "size": 673,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Molokaʻi\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9528,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Molokaʻi"
+ },
+ {
+  "id": "island-lanai",
+  "category": "island",
+  "name": "Lanai",
+  "aliases": [],
+  "size": 364,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lānaʻi\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 21491,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lānaʻi"
+ },
+ {
+  "id": "island-niihau",
+  "category": "island",
+  "name": "Niihau",
+  "aliases": [],
+  "size": 180,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Niʻihau\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 26665,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Niʻihau"
+ },
+ {
+  "id": "island-manhattan",
+  "category": "island",
+  "name": "Manhattan",
+  "aliases": [],
+  "size": 59,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Manhattan\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 85871,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manhattan"
+ },
+ {
+  "id": "island-long-island",
+  "category": "island",
+  "name": "Long Island",
+  "aliases": [],
+  "size": 3629,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Long Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 48095,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Long Island"
+ },
+ {
+  "id": "island-staten-island",
+  "category": "island",
+  "name": "Staten Island",
+  "aliases": [],
+  "size": 151,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Staten Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 44442,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Staten Island"
+ },
+ {
+  "id": "island-marthas-vineyard",
+  "category": "island",
+  "name": "Marthas Vineyard",
+  "aliases": [],
+  "size": 231,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Martha's Vineyard\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 58567,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Martha's Vineyard"
+ },
+ {
+  "id": "island-nantucket",
+  "category": "island",
+  "name": "Nantucket",
+  "aliases": [],
+  "size": 124,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nantucket\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 49191,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nantucket"
+ },
+ {
+  "id": "island-key-west",
+  "category": "island",
+  "name": "Key West",
+  "aliases": [],
+  "size": 19,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Key West\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 21399,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Key West"
+ },
+ {
+  "id": "island-santa-catalina-island",
+  "category": "island",
+  "name": "Santa Catalina Island",
+  "aliases": [
+   "Catalina Island"
+  ],
+  "size": 194,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa Catalina Island (California)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 24474,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Catalina Island (California)"
+ },
+ {
+  "id": "island-kodiak-island",
+  "category": "island",
+  "name": "Kodiak Island",
+  "aliases": [
+   "Kodiak"
+  ],
+  "size": 9311,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kodiak Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9345,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kodiak Island"
+ },
+ {
+  "id": "island-mackinac-island",
+  "category": "island",
+  "name": "Mackinac Island",
+  "aliases": [],
+  "size": 9.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mackinac Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 35097,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mackinac Island"
+ },
+ {
+  "id": "island-isle-royale",
+  "category": "island",
+  "name": "Isle Royale",
+  "aliases": [],
+  "size": 535,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle Royale\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8401,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle Royale"
+ },
+ {
+  "id": "island-galveston-island",
+  "category": "island",
+  "name": "Galveston Island",
+  "aliases": [],
+  "size": 209,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Galveston Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2953,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Galveston Island"
+ },
+ {
+  "id": "island-roanoke-island",
+  "category": "island",
+  "name": "Roanoke Island",
+  "aliases": [],
+  "size": 47,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Roanoke Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8767,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Roanoke Island"
+ },
+ {
+  "id": "island-ellis-island",
+  "category": "island",
+  "name": "Ellis Island",
+  "aliases": [],
+  "size": 0.11,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ellis Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 22130,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ellis Island"
+ },
+ {
+  "id": "island-alcatraz-island",
+  "category": "island",
+  "name": "Alcatraz Island",
+  "aliases": [
+   "Alcatraz"
+  ],
+  "size": 0.089,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alcatraz Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 28461,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alcatraz Island"
+ },
+ {
+  "id": "island-aruba",
+  "category": "island",
+  "name": "Aruba",
+  "aliases": [],
+  "size": 180,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aruba\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 80118,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aruba"
+ },
+ {
+  "id": "island-curacao",
+  "category": "island",
+  "name": "Curacao",
+  "aliases": [],
+  "size": 444,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Curaçao\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 115550,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Curaçao"
+ },
+ {
+  "id": "island-bonaire",
+  "category": "island",
+  "name": "Bonaire",
+  "aliases": [],
+  "size": 288,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bonaire\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 28309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bonaire"
+ },
+ {
+  "id": "island-grand-cayman",
+  "category": "island",
+  "name": "Grand Cayman",
+  "aliases": [],
+  "size": 197,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grand Cayman\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9162,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grand Cayman"
+ },
+ {
+  "id": "island-martinique",
+  "category": "island",
+  "name": "Martinique",
+  "aliases": [],
+  "size": 1128,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Martinique\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 53970,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Martinique"
+ },
+ {
+  "id": "island-guadeloupe",
+  "category": "island",
+  "name": "Guadeloupe",
+  "aliases": [],
+  "size": 1628,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Guadeloupe\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 61580,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guadeloupe"
+ },
+ {
+  "id": "island-saint-martin",
+  "category": "island",
+  "name": "Saint Martin",
+  "aliases": [
+   "St Martin"
+  ],
+  "size": 87,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saint Martin (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 27883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Martin (island)"
+ },
+ {
+  "id": "island-anguilla",
+  "category": "island",
+  "name": "Anguilla",
+  "aliases": [],
+  "size": 91,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Anguilla\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 39602,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Anguilla"
+ },
+ {
+  "id": "island-montserrat",
+  "category": "island",
+  "name": "Montserrat",
+  "aliases": [],
+  "size": 102,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Montserrat\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 52326,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Montserrat"
+ },
+ {
+  "id": "island-nevis",
+  "category": "island",
+  "name": "Nevis",
+  "aliases": [],
+  "size": 93,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nevis\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 11963,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nevis"
+ },
+ {
+  "id": "island-saint-kitts",
+  "category": "island",
+  "name": "Saint Kitts",
+  "aliases": [
+   "St Kitts"
+  ],
+  "size": 168,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saint Kitts\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 17046,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Kitts"
+ },
+ {
+  "id": "island-tortola",
+  "category": "island",
+  "name": "Tortola",
+  "aliases": [],
+  "size": 55,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tortola\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 7032,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tortola"
+ },
+ {
+  "id": "island-virgin-gorda",
+  "category": "island",
+  "name": "Virgin Gorda",
+  "aliases": [],
+  "size": 21,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Virgin Gorda\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1918,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Virgin Gorda"
+ },
+ {
+  "id": "island-saint-thomas",
+  "category": "island",
+  "name": "Saint Thomas",
+  "aliases": [
+   "St Thomas"
+  ],
+  "size": 83,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saint Thomas, U.S. Virgin Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 19390,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Thomas, U.S. Virgin Islands"
+ },
+ {
+  "id": "island-saint-croix",
+  "category": "island",
+  "name": "Saint Croix",
+  "aliases": [
+   "St Croix"
+  ],
+  "size": 215,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saint Croix\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 13089,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Croix"
+ },
+ {
+  "id": "island-antigua",
+  "category": "island",
+  "name": "Antigua",
+  "aliases": [],
+  "size": 281,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Antigua\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 25661,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antigua"
+ },
+ {
+  "id": "island-barbuda",
+  "category": "island",
+  "name": "Barbuda",
+  "aliases": [],
+  "size": 161,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barbuda\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5601,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barbuda"
+ },
+ {
+  "id": "island-eleuthera",
+  "category": "island",
+  "name": "Eleuthera",
+  "aliases": [],
+  "size": 484,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eleuthera\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6240,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eleuthera"
+ },
+ {
+  "id": "island-andros-island",
+  "category": "island",
+  "name": "Andros Island",
+  "aliases": [
+   "Andros"
+  ],
+  "size": 5957,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Andros, The Bahamas\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2892,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Andros, The Bahamas"
+ },
+ {
+  "id": "island-grand-bahama",
+  "category": "island",
+  "name": "Grand Bahama",
+  "aliases": [],
+  "size": 1373,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grand Bahama\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2405,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grand Bahama"
+ },
+ {
+  "id": "island-new-providence",
+  "category": "island",
+  "name": "New Providence",
+  "aliases": [],
+  "size": 207,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"New Providence\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8280,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Providence"
+ },
+ {
+  "id": "island-great-exuma",
+  "category": "island",
+  "name": "Great Exuma",
+  "aliases": [
+   "Exuma"
+  ],
+  "size": 156,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Exuma\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6666,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Exuma"
+ },
+ {
+  "id": "island-great-abaco",
+  "category": "island",
+  "name": "Great Abaco",
+  "aliases": [
+   "Abaco"
+  ],
+  "size": 1681,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Abaco Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3440,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abaco Islands"
+ },
+ {
+  "id": "island-cozumel",
+  "category": "island",
+  "name": "Cozumel",
+  "aliases": [],
+  "size": 478,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cozumel\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 11385,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cozumel"
+ },
+ {
+  "id": "island-isla-mujeres",
+  "category": "island",
+  "name": "Isla Mujeres",
+  "aliases": [],
+  "size": 4.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isla Mujeres\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 7458,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isla Mujeres"
+ },
+ {
+  "id": "island-roatan",
+  "category": "island",
+  "name": "Roatan",
+  "aliases": [],
+  "size": 127,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Roatán\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 16468,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Roatán"
+ },
+ {
+  "id": "island-ometepe",
+  "category": "island",
+  "name": "Ometepe",
+  "aliases": [],
+  "size": 276,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ometepe\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ometepe"
+ },
+ {
+  "id": "island-margarita-island",
+  "category": "island",
+  "name": "Margarita Island",
+  "aliases": [
+   "Isla Margarita"
+  ],
+  "size": 1020,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Margarita Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4170,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Margarita Island"
+ },
+ {
+  "id": "island-san-andres",
+  "category": "island",
+  "name": "San Andres",
+  "aliases": [],
+  "size": 26,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Andrés (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5053,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Andrés (island)"
+ },
+ {
+  "id": "island-providenciales",
+  "category": "island",
+  "name": "Providenciales",
+  "aliases": [],
+  "size": 122,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Providenciales\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2831,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Providenciales"
+ },
+ {
+  "id": "island-grand-turk",
+  "category": "island",
+  "name": "Grand Turk",
+  "aliases": [],
+  "size": 17.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grand Turk Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3044,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grand Turk Island"
+ },
+ {
+  "id": "island-isabela-island",
+  "category": "island",
+  "name": "Isabela Island",
+  "aliases": [],
+  "size": 4586,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isabela Island (Galápagos)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1826,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isabela Island (Galápagos)"
+ },
+ {
+  "id": "island-santa-cruz-island",
+  "category": "island",
+  "name": "Santa Cruz Island",
+  "aliases": [],
+  "size": 986,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa Cruz Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3653,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Cruz Island"
+ },
+ {
+  "id": "island-san-cristobal-island",
+  "category": "island",
+  "name": "San Cristobal Island",
+  "aliases": [],
+  "size": 558,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Cristóbal Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Cristóbal Island"
+ },
+ {
+  "id": "island-fernandina-island",
+  "category": "island",
+  "name": "Fernandina Island",
+  "aliases": [],
+  "size": 642,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fernandina Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fernandina Island"
+ },
+ {
+  "id": "island-floreana-island",
+  "category": "island",
+  "name": "Floreana Island",
+  "aliases": [],
+  "size": 173,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Floreana Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 7214,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Floreana Island"
+ },
+ {
+  "id": "island-chiloe",
+  "category": "island",
+  "name": "Chiloe",
+  "aliases": [
+   "Chiloe Island"
+  ],
+  "size": 8394,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chiloé Archipelago\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2648,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chiloé Archipelago"
+ },
+ {
+  "id": "island-robinson-crusoe-island",
+  "category": "island",
+  "name": "Robinson Crusoe Island",
+  "aliases": [],
+  "size": 48,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Robinson Crusoe Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5418,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Robinson Crusoe Island"
+ },
+ {
+  "id": "island-fernando-de-noronha",
+  "category": "island",
+  "name": "Fernando de Noronha",
+  "aliases": [],
+  "size": 18.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fernando de Noronha\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 7153,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fernando de Noronha"
+ },
+ {
+  "id": "island-marajo",
+  "category": "island",
+  "name": "Marajo",
+  "aliases": [
+   "Marajo Island"
+  ],
+  "size": 40100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marajó\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2587,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marajó"
+ },
+ {
+  "id": "island-ilha-grande",
+  "category": "island",
+  "name": "Ilha Grande",
+  "aliases": [],
+  "size": 193,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ilha Grande\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ilha Grande"
+ },
+ {
+  "id": "island-east-falkland",
+  "category": "island",
+  "name": "East Falkland",
+  "aliases": [],
+  "size": 6605,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"East Falkland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2131,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "East Falkland"
+ },
+ {
+  "id": "island-west-falkland",
+  "category": "island",
+  "name": "West Falkland",
+  "aliases": [],
+  "size": 4532,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"West Falkland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "West Falkland"
+ },
+ {
+  "id": "island-south-georgia",
+  "category": "island",
+  "name": "South Georgia",
+  "aliases": [],
+  "size": 3528,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"South Georgia\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 16103,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Georgia"
+ },
+ {
+  "id": "island-ascension-island",
+  "category": "island",
+  "name": "Ascension Island",
+  "aliases": [
+   "Ascension"
+  ],
+  "size": 88,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ascension Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 32632,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ascension Island"
+ },
+ {
+  "id": "island-gough-island",
+  "category": "island",
+  "name": "Gough Island",
+  "aliases": [],
+  "size": 91,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gough Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6179,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gough Island"
+ },
+ {
+  "id": "island-corfu",
+  "category": "island",
+  "name": "Corfu",
+  "aliases": [
+   "Kerkyra"
+  ],
+  "size": 610,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Corfu\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 43742,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Corfu"
+ },
+ {
+  "id": "island-zakynthos",
+  "category": "island",
+  "name": "Zakynthos",
+  "aliases": [
+   "Zante"
+  ],
+  "size": 406,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zakynthos\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 15981,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zakynthos"
+ },
+ {
+  "id": "island-kefalonia",
+  "category": "island",
+  "name": "Kefalonia",
+  "aliases": [
+   "Cephalonia"
+  ],
+  "size": 781,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cephalonia\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 21125,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cephalonia"
+ },
+ {
+  "id": "island-naxos",
+  "category": "island",
+  "name": "Naxos",
+  "aliases": [],
+  "size": 430,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Naxos\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 14550,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Naxos"
+ },
+ {
+  "id": "island-paros",
+  "category": "island",
+  "name": "Paros",
+  "aliases": [],
+  "size": 196,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Paros\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8554,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Paros"
+ },
+ {
+  "id": "island-milos",
+  "category": "island",
+  "name": "Milos",
+  "aliases": [],
+  "size": 151,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Milos\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10958,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Milos"
+ },
+ {
+  "id": "island-kos",
+  "category": "island",
+  "name": "Kos",
+  "aliases": [],
+  "size": 290,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kos\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 14976,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kos"
+ },
+ {
+  "id": "island-samos",
+  "category": "island",
+  "name": "Samos",
+  "aliases": [],
+  "size": 478,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Samos\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12054,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samos"
+ },
+ {
+  "id": "island-chios",
+  "category": "island",
+  "name": "Chios",
+  "aliases": [],
+  "size": 842,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chios\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12206,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chios"
+ },
+ {
+  "id": "island-euboea",
+  "category": "island",
+  "name": "Euboea",
+  "aliases": [
+   "Evia"
+  ],
+  "size": 3684,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Euboea\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12907,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Euboea"
+ },
+ {
+  "id": "island-hydra",
+  "category": "island",
+  "name": "Hydra",
+  "aliases": [],
+  "size": 50,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hydra (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 11050,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hydra (island)"
+ },
+ {
+  "id": "island-patmos",
+  "category": "island",
+  "name": "Patmos",
+  "aliases": [],
+  "size": 34,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Patmos\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 15068,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Patmos"
+ },
+ {
+  "id": "island-delos",
+  "category": "island",
+  "name": "Delos",
+  "aliases": [],
+  "size": 3.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Delos\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 14550,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Delos"
+ },
+ {
+  "id": "island-ithaca",
+  "category": "island",
+  "name": "Ithaca",
+  "aliases": [
+   "Ithaki"
+  ],
+  "size": 96,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ithaca (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 98534,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ithaca (island)"
+ },
+ {
+  "id": "island-gozo",
+  "category": "island",
+  "name": "Gozo",
+  "aliases": [],
+  "size": 67,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gozo\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 16681,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gozo"
+ },
+ {
+  "id": "island-menorca",
+  "category": "island",
+  "name": "Menorca",
+  "aliases": [
+   "Minorca"
+  ],
+  "size": 695,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Menorca\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 18903,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Menorca"
+ },
+ {
+  "id": "island-formentera",
+  "category": "island",
+  "name": "Formentera",
+  "aliases": [],
+  "size": 83,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Formentera\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6910,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Formentera"
+ },
+ {
+  "id": "island-gran-canaria",
+  "category": "island",
+  "name": "Gran Canaria",
+  "aliases": [],
+  "size": 1560,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gran Canaria\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 16438,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gran Canaria"
+ },
+ {
+  "id": "island-fuerteventura",
+  "category": "island",
+  "name": "Fuerteventura",
+  "aliases": [],
+  "size": 1660,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fuerteventura\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 15342,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fuerteventura"
+ },
+ {
+  "id": "island-la-palma",
+  "category": "island",
+  "name": "La Palma",
+  "aliases": [],
+  "size": 708,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"La Palma\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10563,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Palma"
+ },
+ {
+  "id": "island-la-gomera",
+  "category": "island",
+  "name": "La Gomera",
+  "aliases": [],
+  "size": 370,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"La Gomera\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5388,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Gomera"
+ },
+ {
+  "id": "island-el-hierro",
+  "category": "island",
+  "name": "El Hierro",
+  "aliases": [],
+  "size": 269,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"El Hierro\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3653,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "El Hierro"
+ },
+ {
+  "id": "island-porto-santo",
+  "category": "island",
+  "name": "Porto Santo",
+  "aliases": [],
+  "size": 42,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Porto Santo Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4049,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Porto Santo Island"
+ },
+ {
+  "id": "island-sao-miguel",
+  "category": "island",
+  "name": "Sao Miguel",
+  "aliases": [],
+  "size": 745,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"São Miguel Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9802,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "São Miguel Island"
+ },
+ {
+  "id": "island-terceira",
+  "category": "island",
+  "name": "Terceira",
+  "aliases": [],
+  "size": 400,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Terceira Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6666,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Terceira Island"
+ },
+ {
+  "id": "island-pico-island",
+  "category": "island",
+  "name": "Pico Island",
+  "aliases": [],
+  "size": 446,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pico Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pico Island"
+ },
+ {
+  "id": "island-lampedusa",
+  "category": "island",
+  "name": "Lampedusa",
+  "aliases": [],
+  "size": 20,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lampedusa\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 11415,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lampedusa"
+ },
+ {
+  "id": "island-pantelleria",
+  "category": "island",
+  "name": "Pantelleria",
+  "aliases": [],
+  "size": 83,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pantelleria\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10350,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pantelleria"
+ },
+ {
+  "id": "island-lipari",
+  "category": "island",
+  "name": "Lipari",
+  "aliases": [],
+  "size": 37.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lipari\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8980,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lipari"
+ },
+ {
+  "id": "island-vulcano",
+  "category": "island",
+  "name": "Vulcano",
+  "aliases": [],
+  "size": 21,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vulcano\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4170,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vulcano"
+ },
+ {
+  "id": "island-rugen",
+  "category": "island",
+  "name": "Rugen",
+  "aliases": [],
+  "size": 926,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rügen\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6514,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rügen"
+ },
+ {
+  "id": "island-sylt",
+  "category": "island",
+  "name": "Sylt",
+  "aliases": [],
+  "size": 99,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sylt\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5571,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sylt"
+ },
+ {
+  "id": "island-usedom",
+  "category": "island",
+  "name": "Usedom",
+  "aliases": [],
+  "size": 445,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Usedom\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3440,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Usedom"
+ },
+ {
+  "id": "island-helgoland",
+  "category": "island",
+  "name": "Helgoland",
+  "aliases": [],
+  "size": 1.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Heligoland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 17716,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Heligoland"
+ },
+ {
+  "id": "island-oland",
+  "category": "island",
+  "name": "Oland",
+  "aliases": [],
+  "size": 1342,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Öland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3957,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Öland"
+ },
+ {
+  "id": "island-lolland",
+  "category": "island",
+  "name": "Lolland",
+  "aliases": [],
+  "size": 1243,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lolland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1766,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lolland"
+ },
+ {
+  "id": "island-falster",
+  "category": "island",
+  "name": "Falster",
+  "aliases": [],
+  "size": 514,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Falster\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Falster"
+ },
+ {
+  "id": "island-mon",
+  "category": "island",
+  "name": "Mon",
+  "aliases": [],
+  "size": 218,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Møn\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Møn"
+ },
+ {
+  "id": "island-samso",
+  "category": "island",
+  "name": "Samso",
+  "aliases": [],
+  "size": 114,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Samsø\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samsø"
+ },
+ {
+  "id": "island-saaremaa",
+  "category": "island",
+  "name": "Saaremaa",
+  "aliases": [],
+  "size": 2673,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saaremaa\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5905,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saaremaa"
+ },
+ {
+  "id": "island-hiiumaa",
+  "category": "island",
+  "name": "Hiiumaa",
+  "aliases": [],
+  "size": 989,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hiiumaa\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2557,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hiiumaa"
+ },
+ {
+  "id": "island-senja",
+  "category": "island",
+  "name": "Senja",
+  "aliases": [],
+  "size": 1586,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Senja\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Senja"
+ },
+ {
+  "id": "island-hinnoya",
+  "category": "island",
+  "name": "Hinnoya",
+  "aliases": [],
+  "size": 2204,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hinnøya\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hinnøya"
+ },
+ {
+  "id": "island-mull",
+  "category": "island",
+  "name": "Mull",
+  "aliases": [
+   "Isle of Mull"
+  ],
+  "size": 875,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Mull\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10350,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Mull"
+ },
+ {
+  "id": "island-islay",
+  "category": "island",
+  "name": "Islay",
+  "aliases": [],
+  "size": 620,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Islay\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 7427,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Islay"
+ },
+ {
+  "id": "island-jura",
+  "category": "island",
+  "name": "Jura",
+  "aliases": [
+   "Isle of Jura"
+  ],
+  "size": 367,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jura, Scotland\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3896,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jura, Scotland"
+ },
+ {
+  "id": "island-arran",
+  "category": "island",
+  "name": "Arran",
+  "aliases": [
+   "Isle of Arran"
+  ],
+  "size": 432,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Arran\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9771,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Arran"
+ },
+ {
+  "id": "island-bute",
+  "category": "island",
+  "name": "Bute",
+  "aliases": [
+   "Isle of Bute"
+  ],
+  "size": 122,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Bute\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6210,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Bute"
+ },
+ {
+  "id": "island-north-uist",
+  "category": "island",
+  "name": "North Uist",
+  "aliases": [],
+  "size": 303,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"North Uist\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2679,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Uist"
+ },
+ {
+  "id": "island-south-uist",
+  "category": "island",
+  "name": "South Uist",
+  "aliases": [],
+  "size": 320,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"South Uist\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2648,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Uist"
+ },
+ {
+  "id": "island-barra",
+  "category": "island",
+  "name": "Barra",
+  "aliases": [],
+  "size": 60,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barra\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5236,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barra"
+ },
+ {
+  "id": "island-tiree",
+  "category": "island",
+  "name": "Tiree",
+  "aliases": [],
+  "size": 78,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tiree\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3288,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tiree"
+ },
+ {
+  "id": "island-coll",
+  "category": "island",
+  "name": "Coll",
+  "aliases": [],
+  "size": 77,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Coll\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1857,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coll"
+ },
+ {
+  "id": "island-rum",
+  "category": "island",
+  "name": "Rum",
+  "aliases": [
+   "Isle of Rum"
+  ],
+  "size": 104,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rùm\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3135,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rùm"
+ },
+ {
+  "id": "island-eigg",
+  "category": "island",
+  "name": "Eigg",
+  "aliases": [],
+  "size": 31,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eigg\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eigg"
+ },
+ {
+  "id": "island-staffa",
+  "category": "island",
+  "name": "Staffa",
+  "aliases": [],
+  "size": 0.33,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Staffa\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2496,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Staffa"
+ },
+ {
+  "id": "island-lindisfarne",
+  "category": "island",
+  "name": "Lindisfarne",
+  "aliases": [
+   "Holy Island"
+  ],
+  "size": 4.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lindisfarne\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 27487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lindisfarne"
+ },
+ {
+  "id": "island-tresco",
+  "category": "island",
+  "name": "Tresco",
+  "aliases": [],
+  "size": 2.97,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tresco, Isles of Scilly\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2496,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tresco, Isles of Scilly"
+ },
+ {
+  "id": "island-sark",
+  "category": "island",
+  "name": "Sark",
+  "aliases": [],
+  "size": 5.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sark\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 19390,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sark"
+ },
+ {
+  "id": "island-alderney",
+  "category": "island",
+  "name": "Alderney",
+  "aliases": [],
+  "size": 7.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alderney\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12298,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alderney"
+ },
+ {
+  "id": "island-herm",
+  "category": "island",
+  "name": "Herm",
+  "aliases": [],
+  "size": 2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Herm\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3988,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Herm"
+ },
+ {
+  "id": "island-achill-island",
+  "category": "island",
+  "name": "Achill Island",
+  "aliases": [
+   "Achill"
+  ],
+  "size": 148,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Achill Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5479,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Achill Island"
+ },
+ {
+  "id": "island-valentia-island",
+  "category": "island",
+  "name": "Valentia Island",
+  "aliases": [
+   "Valentia"
+  ],
+  "size": 11,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Valentia Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3135,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Valentia Island"
+ },
+ {
+  "id": "island-skellig-michael",
+  "category": "island",
+  "name": "Skellig Michael",
+  "aliases": [],
+  "size": 0.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Skellig Michael\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10958,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Skellig Michael"
+ },
+ {
+  "id": "island-rathlin-island",
+  "category": "island",
+  "name": "Rathlin Island",
+  "aliases": [
+   "Rathlin"
+  ],
+  "size": 14,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rathlin Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4627,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rathlin Island"
+ },
+ {
+  "id": "island-clare-island",
+  "category": "island",
+  "name": "Clare Island",
+  "aliases": [],
+  "size": 16,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Clare Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3318,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Clare Island"
+ },
+ {
+  "id": "island-streymoy",
+  "category": "island",
+  "name": "Streymoy",
+  "aliases": [],
+  "size": 374,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Streymoy\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Streymoy"
+ },
+ {
+  "id": "island-phuket",
+  "category": "island",
+  "name": "Phuket",
+  "aliases": [],
+  "size": 576,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Phuket province\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10106,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Phuket province"
+ },
+ {
+  "id": "island-koh-samui",
+  "category": "island",
+  "name": "Koh Samui",
+  "aliases": [
+   "Ko Samui"
+  ],
+  "size": 228,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ko Samui\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12420,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ko Samui"
+ },
+ {
+  "id": "island-langkawi",
+  "category": "island",
+  "name": "Langkawi",
+  "aliases": [],
+  "size": 478,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Langkawi\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12359,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Langkawi"
+ },
+ {
+  "id": "island-penang-island",
+  "category": "island",
+  "name": "Penang Island",
+  "aliases": [
+   "Penang"
+  ],
+  "size": 293,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Penang Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3440,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Penang Island"
+ },
+ {
+  "id": "island-tioman",
+  "category": "island",
+  "name": "Tioman",
+  "aliases": [
+   "Pulau Tioman"
+  ],
+  "size": 136,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tioman Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tioman Island"
+ },
+ {
+  "id": "island-boracay",
+  "category": "island",
+  "name": "Boracay",
+  "aliases": [],
+  "size": 10.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boracay\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10380,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boracay"
+ },
+ {
+  "id": "island-cebu",
+  "category": "island",
+  "name": "Cebu",
+  "aliases": [],
+  "size": 4468,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cebu\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 17199,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cebu"
+ },
+ {
+  "id": "island-bohol",
+  "category": "island",
+  "name": "Bohol",
+  "aliases": [],
+  "size": 3821,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bohol\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6027,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bohol"
+ },
+ {
+  "id": "island-siargao",
+  "category": "island",
+  "name": "Siargao",
+  "aliases": [],
+  "size": 437,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Siargao\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 7519,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Siargao"
+ },
+ {
+  "id": "island-jeju-island",
+  "category": "island",
+  "name": "Jeju Island",
+  "aliases": [
+   "Jeju"
+  ],
+  "size": 1833,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jeju Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 30957,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jeju Island"
+ },
+ {
+  "id": "island-okinawa-island",
+  "category": "island",
+  "name": "Okinawa Island",
+  "aliases": [
+   "Okinawa"
+  ],
+  "size": 1207,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Okinawa Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 33271,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Okinawa Island"
+ },
+ {
+  "id": "island-sado-island",
+  "category": "island",
+  "name": "Sado Island",
+  "aliases": [
+   "Sado"
+  ],
+  "size": 855,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sado Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sado Island"
+ },
+ {
+  "id": "island-yakushima",
+  "category": "island",
+  "name": "Yakushima",
+  "aliases": [],
+  "size": 504,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yakushima\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4566,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yakushima"
+ },
+ {
+  "id": "island-miyajima",
+  "category": "island",
+  "name": "Miyajima",
+  "aliases": [
+   "Itsukushima"
+  ],
+  "size": 30,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Itsukushima\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3440,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Itsukushima"
+ },
+ {
+  "id": "island-awaji-island",
+  "category": "island",
+  "name": "Awaji Island",
+  "aliases": [
+   "Awaji"
+  ],
+  "size": 592,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Awaji Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3196,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Awaji Island"
+ },
+ {
+  "id": "island-ishigaki-island",
+  "category": "island",
+  "name": "Ishigaki Island",
+  "aliases": [
+   "Ishigaki"
+  ],
+  "size": 222,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ishigaki Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ishigaki Island"
+ },
+ {
+  "id": "island-lombok",
+  "category": "island",
+  "name": "Lombok",
+  "aliases": [],
+  "size": 4514,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lombok\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10319,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lombok"
+ },
+ {
+  "id": "island-komodo",
+  "category": "island",
+  "name": "Komodo",
+  "aliases": [
+   "Komodo Island"
+  ],
+  "size": 390,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Komodo (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8006,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Komodo (island)"
+ },
+ {
+  "id": "island-sumba",
+  "category": "island",
+  "name": "Sumba",
+  "aliases": [],
+  "size": 11153,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sumba\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5205,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sumba"
+ },
+ {
+  "id": "island-sumbawa",
+  "category": "island",
+  "name": "Sumbawa",
+  "aliases": [],
+  "size": 15448,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sumbawa\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3348,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sumbawa"
+ },
+ {
+  "id": "island-ambon-island",
+  "category": "island",
+  "name": "Ambon Island",
+  "aliases": [
+   "Ambon"
+  ],
+  "size": 775,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ambon Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2861,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ambon Island"
+ },
+ {
+  "id": "island-ternate",
+  "category": "island",
+  "name": "Ternate",
+  "aliases": [],
+  "size": 111,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ternate\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3409,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ternate"
+ },
+ {
+  "id": "island-nias",
+  "category": "island",
+  "name": "Nias",
+  "aliases": [],
+  "size": 4771,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nias\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nias"
+ },
+ {
+  "id": "island-bintan",
+  "category": "island",
+  "name": "Bintan",
+  "aliases": [],
+  "size": 1946,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bintan Regency\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bintan Regency"
+ },
+ {
+  "id": "island-batam",
+  "category": "island",
+  "name": "Batam",
+  "aliases": [],
+  "size": 415,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Batam\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9863,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Batam"
+ },
+ {
+  "id": "island-christmas-island",
+  "category": "island",
+  "name": "Christmas Island",
+  "aliases": [],
+  "size": 135,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Christmas Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 37441,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Christmas Island"
+ },
+ {
+  "id": "island-norfolk-island",
+  "category": "island",
+  "name": "Norfolk Island",
+  "aliases": [],
+  "size": 35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Norfolk Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 33027,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Norfolk Island"
+ },
+ {
+  "id": "island-lord-howe-island",
+  "category": "island",
+  "name": "Lord Howe Island",
+  "aliases": [],
+  "size": 14.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lord Howe Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9741,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lord Howe Island"
+ },
+ {
+  "id": "island-kangaroo-island",
+  "category": "island",
+  "name": "Kangaroo Island",
+  "aliases": [],
+  "size": 4405,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kangaroo Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6058,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kangaroo Island"
+ },
+ {
+  "id": "island-fraser-island",
+  "category": "island",
+  "name": "Fraser Island",
+  "aliases": [
+   "Kgari"
+  ],
+  "size": 1840,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"K'gari\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 6879,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "K'gari"
+ },
+ {
+  "id": "island-rottnest-island",
+  "category": "island",
+  "name": "Rottnest Island",
+  "aliases": [
+   "Rottnest"
+  ],
+  "size": 19,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rottnest Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5936,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rottnest Island"
+ },
+ {
+  "id": "island-bruny-island",
+  "category": "island",
+  "name": "Bruny Island",
+  "aliases": [
+   "Bruny"
+  ],
+  "size": 362,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bruny Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2648,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bruny Island"
+ },
+ {
+  "id": "island-stewart-island",
+  "category": "island",
+  "name": "Stewart Island",
+  "aliases": [
+   "Rakiura"
+  ],
+  "size": 1746,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Stewart Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5114,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stewart Island"
+ },
+ {
+  "id": "island-waiheke-island",
+  "category": "island",
+  "name": "Waiheke Island",
+  "aliases": [
+   "Waiheke"
+  ],
+  "size": 92,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Waiheke Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4018,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Waiheke Island"
+ },
+ {
+  "id": "island-bora-bora",
+  "category": "island",
+  "name": "Bora Bora",
+  "aliases": [],
+  "size": 30.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bora Bora\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 31840,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bora Bora"
+ },
+ {
+  "id": "island-tahiti",
+  "category": "island",
+  "name": "Tahiti",
+  "aliases": [],
+  "size": 1045,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tahiti\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 45690,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tahiti"
+ },
+ {
+  "id": "island-moorea",
+  "category": "island",
+  "name": "Moorea",
+  "aliases": [],
+  "size": 134,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Moʼorea\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4779,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Moʼorea"
+ },
+ {
+  "id": "island-rangiroa",
+  "category": "island",
+  "name": "Rangiroa",
+  "aliases": [],
+  "size": 79,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rangiroa\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1948,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rangiroa"
+ },
+ {
+  "id": "island-nuku-hiva",
+  "category": "island",
+  "name": "Nuku Hiva",
+  "aliases": [],
+  "size": 339,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nuku Hiva\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nuku Hiva"
+ },
+ {
+  "id": "island-rarotonga",
+  "category": "island",
+  "name": "Rarotonga",
+  "aliases": [],
+  "size": 67,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rarotonga\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 7823,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rarotonga"
+ },
+ {
+  "id": "island-aitutaki",
+  "category": "island",
+  "name": "Aitutaki",
+  "aliases": [],
+  "size": 18,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aitutaki\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4414,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aitutaki"
+ },
+ {
+  "id": "island-upolu",
+  "category": "island",
+  "name": "Upolu",
+  "aliases": [],
+  "size": 1125,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Upolu\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2648,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Upolu"
+ },
+ {
+  "id": "island-savaii",
+  "category": "island",
+  "name": "Savaii",
+  "aliases": [],
+  "size": 1694,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Savaiʻi\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Savaiʻi"
+ },
+ {
+  "id": "island-tutuila",
+  "category": "island",
+  "name": "Tutuila",
+  "aliases": [],
+  "size": 142,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tutuila\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tutuila"
+ },
+ {
+  "id": "island-efate",
+  "category": "island",
+  "name": "Efate",
+  "aliases": [],
+  "size": 899,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Efate\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1492,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Efate"
+ },
+ {
+  "id": "island-espiritu-santo",
+  "category": "island",
+  "name": "Espiritu Santo",
+  "aliases": [],
+  "size": 3956,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Espiritu Santo\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3531,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Espiritu Santo"
+ },
+ {
+  "id": "island-tanna",
+  "category": "island",
+  "name": "Tanna",
+  "aliases": [
+   "Tanna Island"
+  ],
+  "size": 550,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tanna (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tanna (island)"
+ },
+ {
+  "id": "island-viti-levu",
+  "category": "island",
+  "name": "Viti Levu",
+  "aliases": [
+   "Fiji"
+  ],
+  "size": 10389,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Viti Levu\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 4079,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Viti Levu"
+ },
+ {
+  "id": "island-vanua-levu",
+  "category": "island",
+  "name": "Vanua Levu",
+  "aliases": [],
+  "size": 5587,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vanua Levu\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1613,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vanua Levu"
+ },
+ {
+  "id": "island-guadalcanal",
+  "category": "island",
+  "name": "Guadalcanal",
+  "aliases": [],
+  "size": 5353,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Guadalcanal\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 14307,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guadalcanal"
+ },
+ {
+  "id": "island-bougainville-island",
+  "category": "island",
+  "name": "Bougainville Island",
+  "aliases": [
+   "Bougainville"
+  ],
+  "size": 9318,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bougainville Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 20243,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bougainville Island"
+ },
+ {
+  "id": "island-new-ireland",
+  "category": "island",
+  "name": "New Ireland",
+  "aliases": [],
+  "size": 7404,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"New Ireland (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3835,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Ireland (island)"
+ },
+ {
+  "id": "island-manus-island",
+  "category": "island",
+  "name": "Manus Island",
+  "aliases": [
+   "Manus"
+  ],
+  "size": 2100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Manus Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2253,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manus Island"
+ },
+ {
+  "id": "island-saipan",
+  "category": "island",
+  "name": "Saipan",
+  "aliases": [],
+  "size": 115,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saipan, Northern Mariana Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 25174,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saipan, Northern Mariana Islands"
+ },
+ {
+  "id": "island-tinian",
+  "category": "island",
+  "name": "Tinian",
+  "aliases": [],
+  "size": 101,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tinian, Northern Mariana Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5997,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tinian, Northern Mariana Islands"
+ },
+ {
+  "id": "island-babeldaob",
+  "category": "island",
+  "name": "Babeldaob",
+  "aliases": [],
+  "size": 331,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Babeldaob\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Babeldaob"
+ },
+ {
+  "id": "island-pohnpei",
+  "category": "island",
+  "name": "Pohnpei",
+  "aliases": [],
+  "size": 334,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pohnpei\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5875,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pohnpei"
+ },
+ {
+  "id": "island-majuro",
+  "category": "island",
+  "name": "Majuro",
+  "aliases": [],
+  "size": 9.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Majuro\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8645,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Majuro"
+ },
+ {
+  "id": "island-kwajalein",
+  "category": "island",
+  "name": "Kwajalein",
+  "aliases": [],
+  "size": 16.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kwajalein Atoll\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 10928,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kwajalein Atoll"
+ },
+ {
+  "id": "island-bikini-atoll",
+  "category": "island",
+  "name": "Bikini Atoll",
+  "aliases": [
+   "Bikini"
+  ],
+  "size": 6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bikini Atoll\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 33941,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bikini Atoll"
+ },
+ {
+  "id": "island-kiritimati",
+  "category": "island",
+  "name": "Kiritimati",
+  "aliases": [
+   "Christmas Island Kiribati"
+  ],
+  "size": 388,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kiritimati\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 12541,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kiritimati"
+ },
+ {
+  "id": "island-wake-island",
+  "category": "island",
+  "name": "Wake Island",
+  "aliases": [],
+  "size": 7.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wake Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 24687,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wake Island"
+ },
+ {
+  "id": "island-midway-atoll",
+  "category": "island",
+  "name": "Midway Atoll",
+  "aliases": [
+   "Midway"
+  ],
+  "size": 6.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Midway Atoll\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 27974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Midway Atoll"
+ },
+ {
+  "id": "island-mahe",
+  "category": "island",
+  "name": "Mahe",
+  "aliases": [
+   "Mahe Island"
+  ],
+  "size": 157,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mahé\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2070,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mahé"
+ },
+ {
+  "id": "island-praslin",
+  "category": "island",
+  "name": "Praslin",
+  "aliases": [],
+  "size": 38,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Praslin\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Praslin"
+ },
+ {
+  "id": "island-la-digue",
+  "category": "island",
+  "name": "La Digue",
+  "aliases": [],
+  "size": 10,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"La Digue\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Digue"
+ },
+ {
+  "id": "island-aldabra",
+  "category": "island",
+  "name": "Aldabra",
+  "aliases": [],
+  "size": 155,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aldabra\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3105,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aldabra"
+ },
+ {
+  "id": "island-pemba-island",
+  "category": "island",
+  "name": "Pemba Island",
+  "aliases": [
+   "Pemba"
+  ],
+  "size": 988,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pemba Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2800,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pemba Island"
+ },
+ {
+  "id": "island-mafia-island",
+  "category": "island",
+  "name": "Mafia Island",
+  "aliases": [
+   "Mafia"
+  ],
+  "size": 435,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mafia Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mafia Island"
+ },
+ {
+  "id": "island-grande-comore",
+  "category": "island",
+  "name": "Grande Comore",
+  "aliases": [
+   "Ngazidja"
+  ],
+  "size": 1148,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grande Comore\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2405,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grande Comore"
+ },
+ {
+  "id": "island-mayotte",
+  "category": "island",
+  "name": "Mayotte",
+  "aliases": [],
+  "size": 374,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mayotte\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 31110,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mayotte"
+ },
+ {
+  "id": "island-nosy-be",
+  "category": "island",
+  "name": "Nosy Be",
+  "aliases": [],
+  "size": 320,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nosy Be\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2557,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nosy Be"
+ },
+ {
+  "id": "island-rodrigues",
+  "category": "island",
+  "name": "Rodrigues",
+  "aliases": [],
+  "size": 108,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rodrigues\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5966,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rodrigues"
+ },
+ {
+  "id": "island-principe",
+  "category": "island",
+  "name": "Principe",
+  "aliases": [],
+  "size": 136,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Príncipe\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5023,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Príncipe"
+ },
+ {
+  "id": "island-sao-tome-island",
+  "category": "island",
+  "name": "Sao Tome Island",
+  "aliases": [],
+  "size": 854,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"São Tomé (island)\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "São Tomé (island)"
+ },
+ {
+  "id": "island-santiago-island",
+  "category": "island",
+  "name": "Santiago Island",
+  "aliases": [],
+  "size": 991,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santiago, Cape Verde\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3196,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santiago, Cape Verde"
+ },
+ {
+  "id": "island-sal",
+  "category": "island",
+  "name": "Sal",
+  "aliases": [
+   "Sal Island"
+  ],
+  "size": 216,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sal, Cape Verde\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 5114,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sal, Cape Verde"
+ },
+ {
+  "id": "island-boa-vista",
+  "category": "island",
+  "name": "Boa Vista",
+  "aliases": [],
+  "size": 620,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boa Vista, Cape Verde\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 2496,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boa Vista, Cape Verde"
+ },
+ {
+  "id": "island-robben-island",
+  "category": "island",
+  "name": "Robben Island",
+  "aliases": [
+   "Robben"
+  ],
+  "size": 5.07,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Robben Island\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 8371,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Robben Island"
+ },
+ {
+  "id": "island-goree",
+  "category": "island",
+  "name": "Goree",
+  "aliases": [
+   "Goree Island"
+  ],
+  "size": 0.17,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gorée\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 3227,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gorée"
+ },
+ {
+  "id": "island-djerba",
+  "category": "island",
+  "name": "Djerba",
+  "aliases": [],
+  "size": 514,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Djerba\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9832,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Djerba"
+ },
+ {
+  "id": "island-andaman-islands",
+  "category": "island",
+  "name": "Andaman Islands",
+  "aliases": [],
+  "size": 6408,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Andaman Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 18568,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Andaman Islands"
+ },
+ {
+  "id": "island-seychelles",
+  "category": "island",
+  "name": "Seychelles",
+  "aliases": [],
+  "size": 459,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Seychelles\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 109340,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seychelles"
+ },
+ {
+  "id": "island-maldives",
+  "category": "island",
+  "name": "Maldives",
+  "aliases": [],
+  "size": 298,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Maldives\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 129553,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maldives"
+ },
+ {
+  "id": "island-canary-islands",
+  "category": "island",
+  "name": "Canary Islands",
+  "aliases": [
+   "Canaries"
+  ],
+  "size": 7493,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Canary Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 90376,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Canary Islands"
+ },
+ {
+  "id": "island-balearic-islands",
+  "category": "island",
+  "name": "Balearic Islands",
+  "aliases": [
+   "Balearics"
+  ],
+  "size": 4992,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Balearic Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 39755,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Balearic Islands"
+ },
+ {
+  "id": "island-azores",
+  "category": "island",
+  "name": "Azores",
+  "aliases": [],
+  "size": 2333,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Azores\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 92051,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Azores"
+ },
+ {
+  "id": "island-galapagos-islands",
+  "category": "island",
+  "name": "Galapagos Islands",
+  "aliases": [
+   "Galapagos"
+  ],
+  "size": 7880,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Galápagos Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 49556,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Galápagos Islands"
+ },
+ {
+  "id": "island-aleutian-islands",
+  "category": "island",
+  "name": "Aleutian Islands",
+  "aliases": [
+   "Aleutians"
+  ],
+  "size": 17666,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aleutian Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 23469,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aleutian Islands"
+ },
+ {
+  "id": "island-florida-keys",
+  "category": "island",
+  "name": "Florida Keys",
+  "aliases": [
+   "The Keys"
+  ],
+  "size": 356,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Florida Keys\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 20212,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Florida Keys"
+ },
+ {
+  "id": "island-faroe-islands",
+  "category": "island",
+  "name": "Faroe Islands",
+  "aliases": [
+   "Faroes"
+  ],
+  "size": 1399,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Faroe Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 126965,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Faroe Islands"
+ },
+ {
+  "id": "island-cyclades",
+  "category": "island",
+  "name": "Cyclades",
+  "aliases": [],
+  "size": 2572,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cyclades\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 16559,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cyclades"
+ },
+ {
+  "id": "island-isles-of-scilly",
+  "category": "island",
+  "name": "Isles of Scilly",
+  "aliases": [
+   "Scilly Isles"
+  ],
+  "size": 16,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isles of Scilly\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 27518,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isles of Scilly"
+ },
+ {
+  "id": "island-svalbard",
+  "category": "island",
+  "name": "Svalbard",
+  "aliases": [],
+  "size": 61022,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Svalbard\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 61915,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Svalbard"
+ },
+ {
+  "id": "island-outer-hebrides",
+  "category": "island",
+  "name": "Outer Hebrides",
+  "aliases": [
+   "Western Isles"
+  ],
+  "size": 3071,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Outer Hebrides\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 17716,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Outer Hebrides"
+ },
+ {
+  "id": "island-cook-islands",
+  "category": "island",
+  "name": "Cook Islands",
+  "aliases": [],
+  "size": 236,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cook Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 54214,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cook Islands"
+ },
+ {
+  "id": "island-society-islands",
+  "category": "island",
+  "name": "Society Islands",
+  "aliases": [],
+  "size": 1590,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Society Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 9741,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Society Islands"
+ },
+ {
+  "id": "island-marquesas-islands",
+  "category": "island",
+  "name": "Marquesas Islands",
+  "aliases": [
+   "Marquesas"
+  ],
+  "size": 1049,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marquesas Islands\", undefined-month mean (60 days ending 2026-09-11); Standard reference island areas (km2), rounded",
+  "magnitude": 14124,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marquesas Islands"
+ }
+]

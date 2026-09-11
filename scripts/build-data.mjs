@@ -1,0 +1,173 @@
+﻿/**
+ * Emits the shipped content bank from the authoring sources next door.
+ *
+ * SCORING MAGNITUDE = average monthly English-Wikipedia pageviews, taken from
+ * src/data/pageviews.json (produced by `npm run fetch-pageviews`). The physical
+ * stat each entry was authored with - population, area, length, elevation - is
+ * kept alongside as `size`/`sizeUnit` for reference, but no longer scores.
+ *
+ *   src/data/*.json  - one file per category (Spec S4 schema); read by the
+ *                      validator and by anyone maintaining the bank
+ *   src/data/bank.js - the same entries as a plain <script> bundle, which is
+ *                      what index.html actually loads, so the game runs from
+ *                      file:// with no server and no fetch (README explains why)
+ *
+ * Run: npm run build-data
+ */
+import { readFile, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { COUNTRIES } from './data-countries.mjs';
+import { LAKES, RIVERS, MOUNTAINS, MINOR_PEAKS, DESERTS, ISLANDS, SEAS_OCEANS } from './data-physical.mjs';
+
+const OUT = fileURLToPath(new URL('../src/data/', import.meta.url));
+
+const slug = (s) =>
+  s.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+
+const lines = (block) => block.trim().split('\n').map((l) => l.trim()).filter(Boolean);
+const list = (s) => (s || '').split(',').map((x) => x.trim()).filter(Boolean);
+
+/** Simple "Name|magnitude|aliases" blocks. */
+function simple(block, category, sizeUnit, source) {
+  return lines(block).map((line) => {
+    const [name, size, aliases] = line.split('|');
+    return {
+      id: `${category}-${slug(name)}`,
+      category,
+      name: name.trim(),
+      aliases: list(aliases),
+      size: Number(size),
+      sizeUnit,
+      source
+    };
+  });
+}
+
+// --- countries + capitals ---------------------------------------------------
+const POP_SOURCE = 'UN World Population Prospects / World Bank 2023-24 estimate (rounded)';
+
+/**
+ * The whole bank, keyed by output filename, WITHOUT the pageview magnitude.
+ * fetch-pageviews.mjs imports this so it can look up every entry before the
+ * built JSON exists - otherwise the build would need the pageviews that the
+ * fetch needs the build to produce.
+ */
+export function buildFiles() {
+const countries = [];
+const capitals = [];
+
+for (const line of lines(COUNTRIES)) {
+  const [name, capital, pop, region, subs, aliases, capitalAliases] = line.split('|');
+  const regions = [region.trim(), ...list((subs || '').replace(/\+/g, ','))];
+  const population = Number(pop);
+
+  countries.push({
+    id: `country-${slug(name)}`,
+    category: 'country',
+    name: name.trim(),
+    aliases: list(aliases),
+    size: population,
+    sizeUnit: 'population',
+    region: regions,
+    source: POP_SOURCE
+  });
+
+  capitals.push({
+    id: `capital-${slug(capital)}`,
+    category: 'capital',
+    name: capital.trim(),
+    aliases: list(capitalAliases),
+    // Spec S6 had a capital inherit its country's population. Scoring by
+    // pageviews makes that unnecessary: a capital now carries its own fame, so
+    // Ngerulmud is obscure even though Palau is a country like any other.
+    size: population,
+    sizeUnit: 'population_of_country',
+    region: regions,
+    country: name.trim(),
+    source: `Capital of ${name.trim()}; country population per ${POP_SOURCE}`
+  });
+}
+
+return {
+  'countries.json': countries,
+  'capitals.json': capitals,
+  'lakes.json': simple(LAKES, 'lake', 'area_km2', 'Standard reference surface-area figures (km2), rounded'),
+  'rivers.json': simple(RIVERS, 'river', 'length_km', 'Standard reference lengths (km); one figure picked per river, see Spec 6.2'),
+  'mountains.json': simple(MOUNTAINS, 'mountain', 'elevation_m', 'Standard reference summit elevations (m)'),
+  'minor-peaks.json': simple(MINOR_PEAKS, 'mountain', 'elevation_m', 'Standard reference summit elevations (m); minor peaks and hills, feeds the mountain cohort'),
+  'deserts.json': simple(DESERTS, 'desert', 'area_km2', 'Standard reference desert areas (km2), rounded'),
+  'islands.json': simple(ISLANDS, 'island', 'area_km2', 'Standard reference island areas (km2), rounded'),
+  'seas-oceans.json': simple(SEAS_OCEANS, 'sea_ocean', 'area_km2', 'Standard reference sea and ocean areas (km2), rounded')
+};
+}
+
+// Everything below only runs when this file is executed as a script.
+if (!process.argv[1] || !process.argv[1].endsWith('build-data.mjs')) {
+  // imported for buildFiles() only
+} else {
+const files = buildFiles();
+
+// --- attach the scoring magnitude: monthly Wikipedia pageviews --------------
+let pageviews;
+try {
+  pageviews = JSON.parse(await readFile(OUT + 'pageviews.json', 'utf8'));
+} catch {
+  console.error('src/data/pageviews.json is missing - run `npm run fetch-pageviews` first.');
+  process.exit(1);
+}
+
+const missing = [];
+for (const entries of Object.values(files)) {
+  for (const entry of entries) {
+    const record = pageviews.entries[entry.id];
+    if (!record || !(record.monthlyViews > 0)) {
+      missing.push(entry.id);
+      continue;
+    }
+    entry.magnitude = record.monthlyViews;
+    entry.magnitudeUnit = 'pageviews_monthly';
+    entry.wikiTitle = record.title;
+    entry.source =
+      `English Wikipedia pageviews for "${record.title}", ${pageviews.months}-month mean ` +
+      `(${pageviews.window}); ${entry.source}`;
+  }
+}
+
+if (missing.length) {
+  console.error(`no pageviews for ${missing.length} entr(ies): ${missing.slice(0, 10).join(', ')}`);
+  console.error('Run `npm run fetch-pageviews` after changing the bank.');
+  process.exit(1);
+}
+
+let total = 0;
+for (const [file, entries] of Object.entries(files)) {
+  await writeFile(OUT + file, JSON.stringify(entries, null, 1) + '\n', 'utf8');
+  total += entries.length;
+  console.log(String(entries.length).padStart(4), file);
+}
+
+// The <script>-tag bundle: same entries, no fetch required. `source` and
+// `magnitudeUnit` are maintainer metadata the game never reads, so they stay in
+// the JSON files and out of the bytes every player downloads.
+const runtimeEntry = (e) => {
+  const out = { id: e.id, category: e.category, name: e.name, aliases: e.aliases, magnitude: e.magnitude };
+  if (e.region) out.region = e.region;
+  return out;
+};
+
+const bundle =
+  '/* GENERATED by scripts/build-data.mjs - do not edit by hand. */\n' +
+  'globalThis.WORMILLION_BANK = ' +
+  JSON.stringify(
+    Object.fromEntries(
+      Object.entries(files).map(([f, entries]) => [f.replace(/\.json$/, ''), entries.map(runtimeEntry)])
+    )
+  ) +
+  ';\n';
+await writeFile(OUT + 'bank.js', bundle, 'utf8');
+
+console.log(`${total} entries total; bank.js is ${(bundle.length / 1024).toFixed(0)} KB`);
+}
