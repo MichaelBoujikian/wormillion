@@ -39,6 +39,55 @@ globalThis.WORMILLION_THEMES = {
     ]
   },
 
+  capital: {
+    // Capitals that are NOT their country's largest city (by city or metro
+    // population; where either reading makes it true, it's in - generous).
+    'not the largest city': [
+      'Canberra', 'Brussels', 'Belmopan', 'Porto-Novo', 'Sucre', 'Brasilia',
+      'Gitega', 'Yaounde', 'Ottawa', 'Beijing', 'Yamoussoukro', 'Quito',
+      'Malabo', 'Mbabane', 'New Delhi', 'Astana', 'Vaduz', 'Valletta',
+      'Palikir', 'Monaco-Ville', 'Rabat', 'Naypyidaw', 'Wellington', 'Abuja',
+      'Islamabad', 'Ngerulmud', 'Manila', 'San Marino City', 'Pretoria',
+      'Colombo', 'Bern', 'Dodoma', 'Port of Spain', 'Ankara', 'Washington DC',
+      'Hanoi', 'Yaren', 'Khartoum', 'Banjul', 'Taipei', 'Ramallah', 'Abu Dhabi'
+    ],
+    // On the sea, a sea bay, or a tidal estuary that opens straight onto one.
+    // Generous at the edges (Bangkok, Buenos Aires, Paramaribo are in; London,
+    // Rome, Caracas and Washington are not - they are river cities).
+    'on the coast': [
+      'Algiers', 'Rabat', 'Luanda', 'Accra', 'Maputo', 'Mogadishu', 'Dakar',
+      'Conakry', 'Porto-Novo', 'Tunis', 'Lome', 'Freetown', 'Tripoli',
+      'Monrovia', 'Nouakchott', 'Banjul', 'Libreville', 'Bissau', 'Malabo',
+      'Port Louis', 'Djibouti City', 'Moroni', 'Praia', 'Sao Tome', 'Victoria',
+      'Jakarta', 'Tokyo', 'Manila', 'Bangkok', 'Colombo', 'Baku', 'Abu Dhabi',
+      'Singapore City', 'Beirut', 'Muscat', 'Kuwait City', 'Doha', 'Manama',
+      'Dili', 'Male', 'Bandar Seri Begawan',
+      'Amsterdam', 'Stockholm', 'Athens', 'Lisbon', 'Copenhagen', 'Helsinki',
+      'Oslo', 'Dublin', 'Riga', 'Tallinn', 'Valletta', 'Reykjavik', 'Monaco-Ville',
+      'Port-au-Prince', 'Santo Domingo', 'Havana', 'Panama City', 'Kingston',
+      'Port of Spain', 'Nassau', 'Bridgetown', 'Castries', 'Saint Georges',
+      'Kingstown', 'Saint Johns', 'Roseau', 'Basseterre', 'Buenos Aires', 'Lima',
+      'Montevideo', 'Georgetown', 'Paramaribo',
+      'Port Moresby', 'Wellington', 'Suva', 'Honiara', 'Port Vila', 'Apia',
+      'South Tarawa', 'Palikir', 'Nukualofa', 'Majuro', 'Ngerulmud', 'Yaren',
+      'Funafuti',
+      // US state capitals on the water
+      'Boston', 'Honolulu', 'Juneau', 'Providence', 'Annapolis', 'Olympia'
+    ],
+    // scripts/data-us-states.mjs, all fifty.
+    'US state capitals': [
+      'Montgomery', 'Juneau', 'Phoenix', 'Little Rock', 'Sacramento', 'Denver',
+      'Hartford', 'Dover', 'Tallahassee', 'Atlanta', 'Honolulu', 'Boise',
+      'Springfield', 'Indianapolis', 'Des Moines', 'Topeka', 'Frankfort',
+      'Baton Rouge', 'Augusta', 'Annapolis', 'Boston', 'Lansing', 'Saint Paul',
+      'Jackson', 'Jefferson City', 'Helena', 'Lincoln', 'Carson City', 'Concord',
+      'Trenton', 'Santa Fe', 'Albany', 'Raleigh', 'Bismarck', 'Columbus',
+      'Oklahoma City', 'Salem', 'Harrisburg', 'Providence', 'Columbia', 'Pierre',
+      'Nashville', 'Austin', 'Salt Lake City', 'Montpelier', 'Richmond',
+      'Olympia', 'Charleston', 'Madison', 'Cheyenne'
+    ]
+  },
+
   river: {
     'Mesopotamia': ['Tigris', 'Euphrates'],
     'the British Isles': [
@@ -232,5 +281,8 @@ globalThis.WORMILLION_THEME_PROMPTS = {
   volcanoes: 'Name a volcano.',
   saltwater: 'Name a saltwater lake.',
   landlocked: 'Name a landlocked country.',
-  'island nations': 'Name an island nation.'
+  'island nations': 'Name an island nation.',
+  'not the largest city': "Name a capital that isn't its country's largest city.",
+  'on the coast': 'Name a capital city on the coast.',
+  'US state capitals': 'Name a US state capital.'
 };

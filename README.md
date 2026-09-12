@@ -16,7 +16,7 @@ early on, "Name a river with a T in it" or "Name a river in Mesopotamia" later.
 Misspellings are corrected rather than rejected — type "Kilimanjro" and you get
 Kilimanjaro, with the real spelling shown.
 
-No accounts, no daily lock, no build step, no runtime dependencies. 1,337 real
+No accounts, no daily lock, no build step, no runtime dependencies. 1,387 real
 places in the bank.
 
 ## Play locally
@@ -97,6 +97,7 @@ scripts/
   data-wiki-titles.mjs  Wikipedia title overrides + hand-verified subjects
   data-oceans.mjs       ocean classification boxes + overrides
   data-flags.mjs        flag colours per country (generous: emblem colours count)
+  data-us-states.mjs    the 50 US state capitals; they join the capital cohort
   data-un-members.mjs   the 193 UN members + observers the validator audits against
   build-data.mjs     emits src/data/* (exports buildFiles() for the fetcher)
   fetch-pageviews.mjs  refreshes pageviews.json
@@ -171,7 +172,7 @@ round 12 harder than round 2:
 | region | "Name a country in Southeast Asia." | region tags on countries/capitals |
 | theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | `src/data/themes.js`, plus `DERIVED_THEMES` in `promptBank.js` (coastal = not landlocked) |
 | ocean | "Name an island in the Pacific Ocean." | `oceans`, derived from each article's coordinates |
-| flag | "Name a country whose flag has green in it." / "…has both black and red in it." | `flag`, hand-authored in `scripts/data-flags.mjs` |
+| flag | "Name a country whose flag has green in it." / "Name a capital city whose country's flag has both black and red in it." | `flag`, hand-authored in `scripts/data-flags.mjs`; capitals inherit their country's |
 | size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
 | letter | "Name a river with a T in it." | derived from the name |
 
@@ -282,6 +283,7 @@ requirement. Each of these is deliberate:
 - Balance pass on the points constants (`POINTS_GAMMA` especially): a typical
   answer pays ~460. Dig depth was re-tuned in v1.2 (a run of median answers
   ends around 570, Mantle); `npm run score-report` prints both curves.
-- More themes, and themes for capitals (currently region-scoped only).
+- More themes. (Capitals have three: not the largest city, on the coast,
+  US state capitals.)
 - More sub-region tags so more of the region list is usable as a prompt scope.
 - Optional: export/clear history from the stats screen.

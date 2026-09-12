@@ -1,0 +1,1208 @@
+[
+ {
+  "id": "capital-montgomery",
+  "category": "capital",
+  "name": "Montgomery",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Alabama",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Montgomery, Alabama\", 60-day daily median (60 days ending 2026-09-12); Capital of Alabama, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23926,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Montgomery, Alabama",
+  "lat": 32.3675,
+  "lon": -86.3
+ },
+ {
+  "id": "capital-juneau",
+  "category": "capital",
+  "name": "Juneau",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Alaska",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Juneau, Alaska\", 60-day daily median (60 days ending 2026-09-12); Capital of Alaska, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 45569,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Juneau, Alaska",
+  "lat": 58.3,
+  "lon": -134.41611111
+ },
+ {
+  "id": "capital-phoenix",
+  "category": "capital",
+  "name": "Phoenix",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Arizona",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Phoenix, Arizona\", 60-day daily median (60 days ending 2026-09-12); Capital of Arizona, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 65659,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Phoenix, Arizona",
+  "lat": 33.44833333,
+  "lon": -112.07388889
+ },
+ {
+  "id": "capital-little-rock",
+  "category": "capital",
+  "name": "Little Rock",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Arkansas",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Little Rock, Arkansas\", 60-day daily median (60 days ending 2026-09-12); Capital of Arkansas, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 26209,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Rock, Arkansas",
+  "lat": 34.7444,
+  "lon": -92.2881
+ },
+ {
+  "id": "capital-sacramento",
+  "category": "capital",
+  "name": "Sacramento",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "California",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Sacramento, California\", 60-day daily median (60 days ending 2026-09-12); Capital of California, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 48582,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sacramento, California",
+  "lat": 38.58166667,
+  "lon": -121.49444444
+ },
+ {
+  "id": "capital-denver",
+  "category": "capital",
+  "name": "Denver",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Colorado",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Denver\", 60-day daily median (60 days ending 2026-09-12); Capital of Colorado, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 59510,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Denver",
+  "lat": 39.74,
+  "lon": -104.99
+ },
+ {
+  "id": "capital-hartford",
+  "category": "capital",
+  "name": "Hartford",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Connecticut",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Hartford, Connecticut\", 60-day daily median (60 days ending 2026-09-12); Capital of Connecticut, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 26178,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hartford, Connecticut",
+  "lat": 41.7625,
+  "lon": -72.67416667
+ },
+ {
+  "id": "capital-dover",
+  "category": "capital",
+  "name": "Dover",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Delaware",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Dover, Delaware\", 60-day daily median (60 days ending 2026-09-12); Capital of Delaware, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 10684,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dover, Delaware",
+  "lat": 39.15805556,
+  "lon": -75.52444444
+ },
+ {
+  "id": "capital-tallahassee",
+  "category": "capital",
+  "name": "Tallahassee",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Florida",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Tallahassee, Florida\", 60-day daily median (60 days ending 2026-09-12); Capital of Florida, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23987,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tallahassee, Florida",
+  "lat": 30.44277778,
+  "lon": -84.21472222
+ },
+ {
+  "id": "capital-atlanta",
+  "category": "capital",
+  "name": "Atlanta",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Georgia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Atlanta\", 60-day daily median (60 days ending 2026-09-12); Capital of Georgia, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 95095,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Atlanta",
+  "lat": 33.74888889,
+  "lon": -84.39
+ },
+ {
+  "id": "capital-honolulu",
+  "category": "capital",
+  "name": "Honolulu",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Hawaii",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Honolulu\", 60-day daily median (60 days ending 2026-09-12); Capital of Hawaii, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49221,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Honolulu",
+  "lat": 21.3,
+  "lon": -157.85
+ },
+ {
+  "id": "capital-boise",
+  "category": "capital",
+  "name": "Boise",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Idaho",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Boise, Idaho\", 60-day daily median (60 days ending 2026-09-12); Capital of Idaho, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 36772,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boise, Idaho",
+  "lat": 43.61583333,
+  "lon": -116.20166667
+ },
+ {
+  "id": "capital-springfield",
+  "category": "capital",
+  "name": "Springfield",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Illinois",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Springfield, Illinois\", 60-day daily median (60 days ending 2026-09-12); Capital of Illinois, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18142,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Springfield, Illinois",
+  "lat": 39.7975,
+  "lon": -89.645
+ },
+ {
+  "id": "capital-indianapolis",
+  "category": "capital",
+  "name": "Indianapolis",
+  "aliases": [
+   "Indy"
+  ],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Indiana",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Indianapolis\", 60-day daily median (60 days ending 2026-09-12); Capital of Indiana, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 47517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Indianapolis",
+  "lat": 39.76861111,
+  "lon": -86.15805556
+ },
+ {
+  "id": "capital-des-moines",
+  "category": "capital",
+  "name": "Des Moines",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Iowa",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Des Moines, Iowa\", 60-day daily median (60 days ending 2026-09-12); Capital of Iowa, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 34915,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Des Moines, Iowa"
+ },
+ {
+  "id": "capital-topeka",
+  "category": "capital",
+  "name": "Topeka",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Kansas",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Topeka, Kansas\", 60-day daily median (60 days ending 2026-09-12); Capital of Kansas, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 16925,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Topeka, Kansas",
+  "lat": 39.03472222,
+  "lon": -95.69555556
+ },
+ {
+  "id": "capital-frankfort",
+  "category": "capital",
+  "name": "Frankfort",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Kentucky",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Frankfort, Kentucky\", 60-day daily median (60 days ending 2026-09-12); Capital of Kentucky, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 10532,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Frankfort, Kentucky",
+  "lat": 38.2,
+  "lon": -84.86666667
+ },
+ {
+  "id": "capital-baton-rouge",
+  "category": "capital",
+  "name": "Baton Rouge",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Louisiana",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Baton Rouge, Louisiana\", 60-day daily median (60 days ending 2026-09-12); Capital of Louisiana, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 29679,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baton Rouge, Louisiana",
+  "lat": 30.4475,
+  "lon": -91.17861111
+ },
+ {
+  "id": "capital-augusta",
+  "category": "capital",
+  "name": "Augusta",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Maine",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Augusta, Maine\", 60-day daily median (60 days ending 2026-09-12); Capital of Maine, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 12937,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Augusta, Maine",
+  "lat": 44.31055556,
+  "lon": -69.77944444
+ },
+ {
+  "id": "capital-annapolis",
+  "category": "capital",
+  "name": "Annapolis",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Maryland",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Annapolis, Maryland\", 60-day daily median (60 days ending 2026-09-12); Capital of Maryland, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18264,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Annapolis, Maryland",
+  "lat": 38.97305556,
+  "lon": -76.50111111
+ },
+ {
+  "id": "capital-boston",
+  "category": "capital",
+  "name": "Boston",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Massachusetts",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Boston\", 60-day daily median (60 days ending 2026-09-12); Capital of Massachusetts, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 112689,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boston",
+  "lat": 42.36027778,
+  "lon": -71.05777778
+ },
+ {
+  "id": "capital-lansing",
+  "category": "capital",
+  "name": "Lansing",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Michigan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lansing, Michigan\", 60-day daily median (60 days ending 2026-09-12); Capital of Michigan, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 15829,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lansing, Michigan",
+  "lat": 42.71416667,
+  "lon": -84.56
+ },
+ {
+  "id": "capital-saint-paul",
+  "category": "capital",
+  "name": "Saint Paul",
+  "aliases": [
+   "St Paul"
+  ],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Minnesota",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Saint Paul, Minnesota\", 60-day daily median (60 days ending 2026-09-12); Capital of Minnesota, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23134,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Paul, Minnesota",
+  "lat": 44.94777778,
+  "lon": -93.10388889
+ },
+ {
+  "id": "capital-jackson",
+  "category": "capital",
+  "name": "Jackson",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Mississippi",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Jackson, Mississippi\", 60-day daily median (60 days ending 2026-09-12); Capital of Mississippi, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 26665,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jackson, Mississippi",
+  "lat": 32.29888889,
+  "lon": -90.18472222
+ },
+ {
+  "id": "capital-jefferson-city",
+  "category": "capital",
+  "name": "Jefferson City",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Missouri",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Jefferson City, Missouri\", 60-day daily median (60 days ending 2026-09-12); Capital of Missouri, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 11445,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jefferson City, Missouri",
+  "lat": 38.56777778,
+  "lon": -92.17583333
+ },
+ {
+  "id": "capital-helena",
+  "category": "capital",
+  "name": "Helena",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Montana",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Helena, Montana\", 60-day daily median (60 days ending 2026-09-12); Capital of Montana, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 20699,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Helena, Montana",
+  "lat": 46.59638889,
+  "lon": -112.02638889
+ },
+ {
+  "id": "capital-lincoln",
+  "category": "capital",
+  "name": "Lincoln",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Nebraska",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lincoln, Nebraska\", 60-day daily median (60 days ending 2026-09-12); Capital of Nebraska, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 17990,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lincoln, Nebraska",
+  "lat": 40.81027778,
+  "lon": -96.67472222
+ },
+ {
+  "id": "capital-carson-city",
+  "category": "capital",
+  "name": "Carson City",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Nevada",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Carson City, Nevada\", 60-day daily median (60 days ending 2026-09-12); Capital of Nevada, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18873,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Carson City, Nevada",
+  "lat": 39.16444444,
+  "lon": -119.76694444
+ },
+ {
+  "id": "capital-concord",
+  "category": "capital",
+  "name": "Concord",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "New Hampshire",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Concord, New Hampshire\", 60-day daily median (60 days ending 2026-09-12); Capital of New Hampshire, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 10045,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Concord, New Hampshire",
+  "lat": 43.20666667,
+  "lon": -71.53805556
+ },
+ {
+  "id": "capital-trenton",
+  "category": "capital",
+  "name": "Trenton",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "New Jersey",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Trenton, New Jersey\", 60-day daily median (60 days ending 2026-09-12); Capital of New Jersey, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 17290,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trenton, New Jersey",
+  "lat": 40.22027778,
+  "lon": -74.76583333
+ },
+ {
+  "id": "capital-santa-fe",
+  "category": "capital",
+  "name": "Santa Fe",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "New Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Santa Fe, New Mexico\", 60-day daily median (60 days ending 2026-09-12); Capital of New Mexico, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 39876,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Fe, New Mexico",
+  "lat": 35.66722222,
+  "lon": -105.96444444
+ },
+ {
+  "id": "capital-albany",
+  "category": "capital",
+  "name": "Albany",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "New York",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Albany, New York\", 60-day daily median (60 days ending 2026-09-12); Capital of New York, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 36284,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Albany, New York",
+  "lat": 42.6525,
+  "lon": -73.75722222
+ },
+ {
+  "id": "capital-raleigh",
+  "category": "capital",
+  "name": "Raleigh",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "North Carolina",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Raleigh, North Carolina\", 60-day daily median (60 days ending 2026-09-12); Capital of North Carolina, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 38202,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Raleigh, North Carolina",
+  "lat": 35.85416667,
+  "lon": -78.76194444
+ },
+ {
+  "id": "capital-bismarck",
+  "category": "capital",
+  "name": "Bismarck",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "North Dakota",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bismarck, North Dakota\", 60-day daily median (60 days ending 2026-09-12); Capital of North Dakota, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 16346,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bismarck, North Dakota",
+  "lat": 46.814572,
+  "lon": -100.768568
+ },
+ {
+  "id": "capital-columbus",
+  "category": "capital",
+  "name": "Columbus",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Ohio",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Columbus, Ohio\", 60-day daily median (60 days ending 2026-09-12); Capital of Ohio, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 49952,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Columbus, Ohio",
+  "lat": 39.96222222,
+  "lon": -83.00055556
+ },
+ {
+  "id": "capital-oklahoma-city",
+  "category": "capital",
+  "name": "Oklahoma City",
+  "aliases": [
+   "OKC"
+  ],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Oklahoma",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Oklahoma City\", 60-day daily median (60 days ending 2026-09-12); Capital of Oklahoma, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 35554,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oklahoma City",
+  "lat": 35.46861111,
+  "lon": -97.52138889
+ },
+ {
+  "id": "capital-salem",
+  "category": "capital",
+  "name": "Salem",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Oregon",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Salem, Oregon\", 60-day daily median (60 days ending 2026-09-12); Capital of Oregon, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 17625,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Salem, Oregon",
+  "lat": 44.94,
+  "lon": -123.03888889
+ },
+ {
+  "id": "capital-harrisburg",
+  "category": "capital",
+  "name": "Harrisburg",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Pennsylvania",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Harrisburg, Pennsylvania\", 60-day daily median (60 days ending 2026-09-12); Capital of Pennsylvania, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 21064,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Harrisburg, Pennsylvania",
+  "lat": 40.26972222,
+  "lon": -76.87555556
+ },
+ {
+  "id": "capital-providence",
+  "category": "capital",
+  "name": "Providence",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Rhode Island",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Providence, Rhode Island\", 60-day daily median (60 days ending 2026-09-12); Capital of Rhode Island, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 36893,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Providence, Rhode Island",
+  "lat": 41.82361111,
+  "lon": -71.42222222
+ },
+ {
+  "id": "capital-columbia",
+  "category": "capital",
+  "name": "Columbia",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "South Carolina",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Columbia, South Carolina\", 60-day daily median (60 days ending 2026-09-12); Capital of South Carolina, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 23895,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Columbia, South Carolina",
+  "lat": 34.00055556,
+  "lon": -81.03472222
+ },
+ {
+  "id": "capital-pierre",
+  "category": "capital",
+  "name": "Pierre",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "South Dakota",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Pierre, South Dakota\", 60-day daily median (60 days ending 2026-09-12); Capital of South Dakota, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 10684,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pierre, South Dakota",
+  "lat": 44.37472222,
+  "lon": -100.32055556
+ },
+ {
+  "id": "capital-nashville",
+  "category": "capital",
+  "name": "Nashville",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Tennessee",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Nashville, Tennessee\", 60-day daily median (60 days ending 2026-09-12); Capital of Tennessee, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 72965,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nashville, Tennessee",
+  "lat": 36.16222222,
+  "lon": -86.77444444
+ },
+ {
+  "id": "capital-austin",
+  "category": "capital",
+  "name": "Austin",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Texas",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Austin, Texas\", 60-day daily median (60 days ending 2026-09-12); Capital of Texas, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 67455,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Austin, Texas",
+  "lat": 30.26722222,
+  "lon": -97.74305556
+ },
+ {
+  "id": "capital-salt-lake-city",
+  "category": "capital",
+  "name": "Salt Lake City",
+  "aliases": [
+   "SLC"
+  ],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Utah",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Salt Lake City\", 60-day daily median (60 days ending 2026-09-12); Capital of Utah, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 56070,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Salt Lake City",
+  "lat": 40.76083333,
+  "lon": -111.89111111
+ },
+ {
+  "id": "capital-montpelier",
+  "category": "capital",
+  "name": "Montpelier",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Vermont",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Montpelier, Vermont\", 60-day daily median (60 days ending 2026-09-12); Capital of Vermont, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 14398,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Montpelier, Vermont",
+  "lat": 44.25972222,
+  "lon": -72.56472222
+ },
+ {
+  "id": "capital-richmond",
+  "category": "capital",
+  "name": "Richmond",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Virginia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Richmond, Virginia\", 60-day daily median (60 days ending 2026-09-12); Capital of Virginia, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 39055,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Richmond, Virginia",
+  "lat": 37.54083333,
+  "lon": -77.43666667
+ },
+ {
+  "id": "capital-olympia",
+  "category": "capital",
+  "name": "Olympia",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Washington",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Olympia, Washington\", 60-day daily median (60 days ending 2026-09-12); Capital of Washington, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 18416,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Olympia, Washington",
+  "lat": 47.03777778,
+  "lon": -122.90083333
+ },
+ {
+  "id": "capital-charleston",
+  "category": "capital",
+  "name": "Charleston",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "West Virginia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Charleston, West Virginia\", 60-day daily median (60 days ending 2026-09-12); Capital of West Virginia, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 22221,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Charleston, West Virginia",
+  "lat": 38.34981944,
+  "lon": -81.63262222
+ },
+ {
+  "id": "capital-madison",
+  "category": "capital",
+  "name": "Madison",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Wisconsin",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Madison, Wisconsin\", 60-day daily median (60 days ending 2026-09-12); Capital of Wisconsin, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 33332,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Madison, Wisconsin",
+  "lat": 43.07472222,
+  "lon": -89.38416667
+ },
+ {
+  "id": "capital-cheyenne",
+  "category": "capital",
+  "name": "Cheyenne",
+  "aliases": [],
+  "size": 340000000,
+  "sizeUnit": "population_of_country",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "state": "Wyoming",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Cheyenne, Wyoming\", 60-day daily median (60 days ending 2026-09-12); Capital of Wyoming, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "magnitude": 30805,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cheyenne, Wyoming",
+  "lat": 41.14,
+  "lon": -104.82027778
+ }
+]

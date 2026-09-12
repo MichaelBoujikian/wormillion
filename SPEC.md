@@ -40,7 +40,7 @@ The original brief describes the shape of the game but leaves several mechanics 
 | region | "Name a country in Southeast Asia." | country, capital | `region` tags (Section 6) |
 | theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | any | `src/data/themes.js`, hand-curated; plus derived themes in `promptBank.js` (v1.2) |
 | ocean | "Name an island in the Pacific Ocean." | island, sea_ocean | `oceans` field, derived from coordinates (Section 4) |
-| flag | "Name a country whose flag has green in it." / "…has both black and red in it." | country | `flag` field, hand-authored in `scripts/data-flags.mjs` (v1.2) |
+| flag | "Name a country whose flag has green in it." / "…has both black and red in it." / "Name a capital city whose country's flag has green in it." | country, capital | `flag` field, hand-authored in `scripts/data-flags.mjs`; a capital inherits its country's (v1.2) |
 | size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | any | `size` field |
 | letter | "Name a river with a T in it." / "…that starts with M." / "…with a double letter." | any | the entry's name |
 
@@ -181,7 +181,7 @@ Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4).
 | Category key | Plain prompt | Target entry count | v1.1 count | Size stat |
 |---|---|---|---|---|
 | `country` | "Name a country." | ~195 (all UN-recognized + commonly-taught non-UN states) | 197 | population |
-| `capital` | "Name a capital city." | ~195 (one per country above) | 197 | population *of the country* (`population_of_country`) |
+| `capital` | "Name a capital city." | ~195 (one per country above) | 197 + 50 US state capitals (`us-state-capitals.json` feeds the same cohort, v1.2) | population *of the country* (`population_of_country`; the US population for a state capital) |
 | `lake` | "Name a lake." | 70–100 | 119 | surface area (km²) |
 | `river` | "Name a river." | 70–100 | 130 | length (km) |
 | `mountain` | "Name a mountain." | 60–90 well-known peaks | 125 | elevation (m) |
@@ -192,7 +192,7 @@ Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4).
 
 **Region list for country prompts (3.8):** `Africa`, `Asia`, `Europe`, `North America`, `South America`, `Oceania` (continent-level, always usable) plus sub-regions used only when they have ≥6 tagged countries: `West Africa`, `East Africa`, `North Africa`, `Southern Africa`, `Middle East`, `South Asia`, `Southeast Asia`, `East Asia`, `Central Asia`, `Caribbean`, `Central America`, `Eastern Europe`, `Western Europe`, `Scandinavia & the Nordics`. Every country entry carries `region: [continent, ...subregions]`.
 
-**6.0 Themes (v1.1).** `src/data/themes.js` holds hand-curated sets used by the theme modifier, listed by in-game name and resolved at load time: rivers (Mesopotamia, the British Isles, Siberia, continents, India), mountains (the Alps, the Himalayas, the Andes, the Rockies, Scotland, England or Wales, Indonesia, volcanoes), islands (the Caribbean, the Mediterranean, Greece, Hawaii, Scotland, Japan, Indonesia), lakes (saltwater, the Great Lakes, Africa, the Alps, the British Isles, Scandinavia), deserts and seas by continent, and countries (landlocked, island nations, and — derived from landlocked, not listed — coastal). Because a themed prompt *rejects* answers outside its set, sets must be complete for their well-known members; the validator fails on any listed name that is not in the bank. Ocean membership is deliberately **not** a theme — it is derived data (Section 4) so that no island can be left off a list.
+**6.0 Themes (v1.1).** `src/data/themes.js` holds hand-curated sets used by the theme modifier, listed by in-game name and resolved at load time: rivers (Mesopotamia, the British Isles, Siberia, continents, India), mountains (the Alps, the Himalayas, the Andes, the Rockies, Scotland, England or Wales, Indonesia, volcanoes), islands (the Caribbean, the Mediterranean, Greece, Hawaii, Scotland, Japan, Indonesia), lakes (saltwater, the Great Lakes, Africa, the Alps, the British Isles, Scandinavia), deserts and seas by continent, and countries (landlocked, island nations, and — derived from landlocked, not listed — coastal), and capitals (v1.2: *not the largest city* — 42 capitals that are not their country's largest city, read generously; *on the coast* — capitals on a sea, bay or open tidal estuary; *US state capitals* — all fifty). A theme with its own prompt text is not a place, so a miss on it gets the generic "doesn't fit this one" hint rather than "isn't in volcanoes". Because a themed prompt *rejects* answers outside its set, sets must be complete for their well-known members; the validator fails on any listed name that is not in the bank. Ocean membership is deliberately **not** a theme — it is derived data (Section 4) so that no island can be left off a list.
 
 **6.1 No fabricated place names — hard rule.** Every entry must be a real, currently-recognized place with a real, sourced magnitude figure. Made-up names, jokey placeholders, or "TBD" entries are never committed, not even temporarily — a milestone that isn't ready to add real data for a slot leaves that slot's count lower rather than fill it with a placeholder.
 
@@ -246,6 +246,7 @@ wormillion/
     data-wiki-titles.mjs  # Wikipedia title overrides + hand-verified subjects
     data-oceans.mjs       # ocean classification boxes + overrides
     data-flags.mjs        # flag colours per country, hand-authored (3.1a)
+    data-us-states.mjs    # the 50 US state capitals, feeding the capital cohort (6)
     data-un-members.mjs   # the audit list for 6.4
     build-data.mjs        # emits src/data/*; exports buildFiles() for the fetcher
     fetch-pageviews.mjs   # refreshes pageviews.json (network; cached under scripts/.cache/)
@@ -408,6 +409,7 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | Dig curve made generous: `rarity × 70` below the bar, a flat 75 for 85–99%, 100 for 100%; depth budget 1500; strata bands unchanged so runs go deeper. | 3.9, 3.10, 3.12, 5.1, 5.2 |
 | 1.2 | Relics in the dirt: bones, skeletons, pottery and coins near the surface; dinosaur and fish fossils, ammonites in Clay/Bedrock; gems, gold, swords and treasure chests deeper. Painted into the terrain, carved through by the tunnel. | 7 |
 | 1.2 | A one-in-Wormillion dig carves a wider crater (radius 11; 14 for 100%), tapering in and out. | 3.12 |
+| 1.2 | Capital themes: "not the largest city", "on the coast", "US state capitals"; 50 US state capitals join the capital cohort (`scripts/data-us-states.mjs`); capitals carry their country's flag ("…whose country's flag has green in it"); flag modifier weighted up. Bank is 1,387 entries. | 3.1a, 6, 6.0, 7 |
 | 1.2 | Summary lists the run's finds from least to most obscure, with an obscurity bar and percentage per row. | 3.13 |
 | 1.2 | Island nations are answerable as islands: 19 new island entries (Palau, Samoa, Tonga, Bahamas, Grenada…) and country-name aliases on shared or eponymous islands (Haiti → Hispaniola, Trinidad and Tobago → Trinidad). Bank is 1,337 entries. | 6 |
 

@@ -332,6 +332,60 @@ test('flag colours are read generously in the shipped data', () => {
   assert.strictEqual(accepts(['black', 'blue'], 'Germany'), 'wrong-scope');
 });
 
+test('capitals carry their country\'s flag and get their own wording (shipped bank)', () => {
+  const shipped = loadShippedBank();
+  const prompt = shipped.promptFor({ category: 'capital', flag: { colours: ['green'] } });
+  assert.strictEqual(prompt.text, "Name a capital city whose country's flag has green in it.");
+  const pair = shipped.promptFor({ category: 'capital', flag: { colours: ['black', 'red'] } });
+  assert.strictEqual(pair.text, "Name a capital city whose country's flag has both black and red in it.");
+
+  const accepts = (colours, name) => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = { category: 'capital', flag: { colours } };
+    return run.submit(name).status;
+  };
+  assert.strictEqual(accepts(['green'], 'Abuja'), 'accepted', 'Nigeria is green and white');
+  assert.strictEqual(accepts(['green'], 'Tokyo'), 'wrong-scope');
+  assert.strictEqual(accepts(['red', 'white'], 'Sacramento'), 'accepted', 'a state capital carries the US flag');
+  assert.strictEqual(accepts(['green'], 'Sacramento'), 'wrong-scope');
+});
+
+test('capital themes: not the largest city, on the coast, US state capitals (shipped bank)', () => {
+  const shipped = loadShippedBank();
+  const themes = shipped.themes.get('capital');
+  assert.strictEqual(themes.get('US state capitals').length, 50, 'all fifty');
+  assert.ok(themes.get('not the largest city').length >= 40);
+  assert.ok(themes.get('on the coast').length >= 80);
+
+  const submit = (theme, name) => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = { category: 'capital', theme };
+    return run.submit(name).status;
+  };
+  assert.strictEqual(shipped.promptFor({ category: 'capital', theme: 'US state capitals' }).text, 'Name a US state capital.');
+  assert.strictEqual(submit('US state capitals', 'Sacramento'), 'accepted');
+  assert.strictEqual(submit('US state capitals', 'St Paul'), 'accepted', 'alias');
+  assert.strictEqual(submit('US state capitals', 'Paris'), 'wrong-scope');
+
+  assert.strictEqual(
+    shipped.promptFor({ category: 'capital', theme: 'not the largest city' }).text,
+    "Name a capital that isn't its country's largest city."
+  );
+  assert.strictEqual(submit('not the largest city', 'Canberra'), 'accepted');
+  assert.strictEqual(submit('not the largest city', 'Washington'), 'accepted', 'alias of Washington DC');
+  assert.strictEqual(submit('not the largest city', 'Tokyo'), 'wrong-scope');
+
+  assert.strictEqual(shipped.promptFor({ category: 'capital', theme: 'on the coast' }).text, 'Name a capital city on the coast.');
+  assert.strictEqual(submit('on the coast', 'Lisbon'), 'accepted');
+  assert.strictEqual(submit('on the coast', 'Honolulu'), 'accepted', 'state capitals on the water count too');
+  assert.strictEqual(submit('on the coast', 'Madrid'), 'wrong-scope');
+
+  // A state capital is a capital city: the plain prompt takes it.
+  const plain = runner.createRun(shipped, { rounds: 1 });
+  plain.state.slots[0] = { category: 'capital' };
+  assert.strictEqual(plain.submit('Boise').status, 'accepted');
+});
+
 test('a derived theme only exists when the set it derives from does', () => {
   // The fixture bank ships no themes at all, so there is nothing to derive from.
   assert.strictEqual(bank.themes.has('country'), false);

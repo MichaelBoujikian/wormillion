@@ -20,6 +20,7 @@ import { COUNTRIES } from './data-countries.mjs';
 import { LAKES, RIVERS, MOUNTAINS, MINOR_PEAKS, DESERTS, ISLANDS, SEAS_OCEANS } from './data-physical.mjs';
 import { oceansFor } from './data-oceans.mjs';
 import { flagsByCountry } from './data-flags.mjs';
+import { US_STATE_CAPITALS, US_POPULATION } from './data-us-states.mjs';
 
 const OUT = fileURLToPath(new URL('../src/data/', import.meta.url));
 
@@ -97,14 +98,35 @@ for (const line of lines(COUNTRIES)) {
     sizeUnit: 'population_of_country',
     region: regions,
     country: name.trim(),
+    flag, // "Name a capital city whose country's flag has green in it."
     source: `Capital of ${name.trim()}; country population per ${POP_SOURCE}`
   });
 }
+
+// US state capitals feed the same cohort (see data-us-states.mjs).
+const usFlag = flags.get('United States');
+const stateCapitals = lines(US_STATE_CAPITALS).map((line) => {
+  const [capital, state, aliases] = line.split('|');
+  return {
+    id: `capital-${slug(capital)}`,
+    category: 'capital',
+    name: capital.trim(),
+    aliases: list(aliases),
+    size: US_POPULATION,
+    sizeUnit: 'population_of_country',
+    region: ['North America'],
+    country: 'United States',
+    state: state.trim(),
+    flag: usFlag,
+    source: `Capital of ${state.trim()}, United States; US population per ${POP_SOURCE}`
+  };
+});
 if (unusedFlags.size) throw new Error(`data-flags.mjs rows that match no country: ${[...unusedFlags].join(', ')}`);
 
 return {
   'countries.json': countries,
   'capitals.json': capitals,
+  'us-state-capitals.json': stateCapitals,
   'lakes.json': simple(LAKES, 'lake', 'area_km2', 'Standard reference surface-area figures (km2), rounded'),
   'rivers.json': simple(RIVERS, 'river', 'length_km', 'Standard reference lengths (km); one figure picked per river, see Spec 6.2'),
   'mountains.json': simple(MOUNTAINS, 'mountain', 'elevation_m', 'Standard reference summit elevations (m)'),

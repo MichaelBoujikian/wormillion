@@ -11,6 +11,10 @@
    "West Africa"
   ],
   "country": "Nigeria",
+  "flag": [
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Abuja\", 60-day daily median (60 days ending 2026-09-12); Capital of Nigeria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23287,
   "magnitudeUnit": "pageviews_monthly",
@@ -30,6 +34,12 @@
    "East Africa"
   ],
   "country": "Ethiopia",
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Addis Ababa\", 60-day daily median (60 days ending 2026-09-12); Capital of Ethiopia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 43529,
   "magnitudeUnit": "pageviews_monthly",
@@ -49,6 +59,12 @@
    "North Africa"
   ],
   "country": "Egypt",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Cairo\", 60-day daily median (60 days ending 2026-09-12); Capital of Egypt; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 53057,
   "magnitudeUnit": "pageviews_monthly",
@@ -67,6 +83,11 @@
    "Africa"
   ],
   "country": "Democratic Republic of the Congo",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Kinshasa\", 60-day daily median (60 days ending 2026-09-12); Capital of Democratic Republic of the Congo; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49191,
   "magnitudeUnit": "pageviews_monthly",
@@ -86,6 +107,12 @@
    "East Africa"
   ],
   "country": "Tanzania",
+  "flag": [
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Dodoma\", 60-day daily median (60 days ending 2026-09-12); Capital of Tanzania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 10258,
   "magnitudeUnit": "pageviews_monthly",
@@ -108,6 +135,14 @@
    "Southern Africa"
   ],
   "country": "South Africa",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Pretoria\", 60-day daily median (60 days ending 2026-09-12); Capital of South Africa; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 35402,
   "magnitudeUnit": "pageviews_monthly",
@@ -127,6 +162,12 @@
    "East Africa"
   ],
   "country": "Kenya",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Nairobi\", 60-day daily median (60 days ending 2026-09-12); Capital of Kenya; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 35950,
   "magnitudeUnit": "pageviews_monthly",
@@ -146,6 +187,12 @@
    "East Africa"
   ],
   "country": "Uganda",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Kampala\", 60-day daily median (60 days ending 2026-09-12); Capital of Uganda; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 29679,
   "magnitudeUnit": "pageviews_monthly",
@@ -165,6 +212,12 @@
    "North Africa"
   ],
   "country": "Sudan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Khartoum\", 60-day daily median (60 days ending 2026-09-12); Capital of Sudan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23378,
   "magnitudeUnit": "pageviews_monthly",
@@ -184,6 +237,11 @@
    "North Africa"
   ],
   "country": "Algeria",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Algiers\", 60-day daily median (60 days ending 2026-09-12); Capital of Algeria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 29375,
   "magnitudeUnit": "pageviews_monthly",
@@ -203,6 +261,10 @@
    "North Africa"
   ],
   "country": "Morocco",
+  "flag": [
+   "red",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Rabat\", 60-day daily median (60 days ending 2026-09-12); Capital of Morocco; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 24565,
   "magnitudeUnit": "pageviews_monthly",
@@ -221,6 +283,11 @@
    "Africa"
   ],
   "country": "Angola",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Luanda\", 60-day daily median (60 days ending 2026-09-12); Capital of Angola; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 20486,
   "magnitudeUnit": "pageviews_monthly",
@@ -240,6 +307,12 @@
    "West Africa"
   ],
   "country": "Ghana",
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Accra\", 60-day daily median (60 days ending 2026-09-12); Capital of Ghana; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23043,
   "magnitudeUnit": "pageviews_monthly",
@@ -259,6 +332,13 @@
    "Southern Africa"
   ],
   "country": "Mozambique",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Maputo\", 60-day daily median (60 days ending 2026-09-12); Capital of Mozambique; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 12754,
   "magnitudeUnit": "pageviews_monthly",
@@ -278,6 +358,11 @@
    "East Africa"
   ],
   "country": "Madagascar",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Antananarivo\", 60-day daily median (60 days ending 2026-09-12); Capital of Madagascar; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18142,
   "magnitudeUnit": "pageviews_monthly",
@@ -297,6 +382,11 @@
    "West Africa"
   ],
   "country": "Ivory Coast",
+  "flag": [
+   "white",
+   "green",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Yamoussoukro\", 60-day daily median (60 days ending 2026-09-12); Capital of Ivory Coast; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 7793,
   "magnitudeUnit": "pageviews_monthly",
@@ -315,6 +405,11 @@
    "Africa"
   ],
   "country": "Cameroon",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Yaoundé\", 60-day daily median (60 days ending 2026-09-12); Capital of Cameroon; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11415,
   "magnitudeUnit": "pageviews_monthly",
@@ -334,6 +429,11 @@
    "West Africa"
   ],
   "country": "Niger",
+  "flag": [
+   "white",
+   "green",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Niamey\", 60-day daily median (60 days ending 2026-09-12); Capital of Niger; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 8554,
   "magnitudeUnit": "pageviews_monthly",
@@ -353,6 +453,11 @@
    "West Africa"
   ],
   "country": "Mali",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Bamako\", 60-day daily median (60 days ending 2026-09-12); Capital of Mali; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 13881,
   "magnitudeUnit": "pageviews_monthly",
@@ -372,6 +477,11 @@
    "West Africa"
   ],
   "country": "Burkina Faso",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Ouagadougou\", 60-day daily median (60 days ending 2026-09-12); Capital of Burkina Faso; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18416,
   "magnitudeUnit": "pageviews_monthly",
@@ -391,6 +501,11 @@
    "East Africa"
   ],
   "country": "Malawi",
+  "flag": [
+   "red",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Lilongwe\", 60-day daily median (60 days ending 2026-09-12); Capital of Malawi; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 6666,
   "magnitudeUnit": "pageviews_monthly",
@@ -410,6 +525,12 @@
    "Southern Africa"
   ],
   "country": "Zambia",
+  "flag": [
+   "red",
+   "green",
+   "black",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Lusaka\", 60-day daily median (60 days ending 2026-09-12); Capital of Zambia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11689,
   "magnitudeUnit": "pageviews_monthly",
@@ -430,6 +551,11 @@
    "Africa"
   ],
   "country": "Chad",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"N'Djamena\", 60-day daily median (60 days ending 2026-09-12); Capital of Chad; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11659,
   "magnitudeUnit": "pageviews_monthly",
@@ -449,6 +575,10 @@
    "East Africa"
   ],
   "country": "Somalia",
+  "flag": [
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Mogadishu\", 60-day daily median (60 days ending 2026-09-12); Capital of Somalia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 29466,
   "magnitudeUnit": "pageviews_monthly",
@@ -468,6 +598,11 @@
    "West Africa"
   ],
   "country": "Senegal",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Dakar\", 60-day daily median (60 days ending 2026-09-12); Capital of Senegal; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 21004,
   "magnitudeUnit": "pageviews_monthly",
@@ -487,6 +622,13 @@
    "Southern Africa"
   ],
   "country": "Zimbabwe",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Harare\", 60-day daily median (60 days ending 2026-09-12); Capital of Zimbabwe; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 26057,
   "magnitudeUnit": "pageviews_monthly",
@@ -506,6 +648,11 @@
    "West Africa"
   ],
   "country": "Guinea",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Conakry\", 60-day daily median (60 days ending 2026-09-12); Capital of Guinea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 10502,
   "magnitudeUnit": "pageviews_monthly",
@@ -525,6 +672,11 @@
    "East Africa"
   ],
   "country": "Rwanda",
+  "flag": [
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Kigali\", 60-day daily median (60 days ending 2026-09-12); Capital of Rwanda; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 15311,
   "magnitudeUnit": "pageviews_monthly",
@@ -546,6 +698,11 @@
    "West Africa"
   ],
   "country": "Benin",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Porto-Novo\", 60-day daily median (60 days ending 2026-09-12); Capital of Benin; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 5844,
   "magnitudeUnit": "pageviews_monthly",
@@ -567,6 +724,11 @@
    "East Africa"
   ],
   "country": "Burundi",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Gitega\", 60-day daily median (60 days ending 2026-09-12); Capital of Burundi; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 4566,
   "magnitudeUnit": "pageviews_monthly",
@@ -586,6 +748,10 @@
    "North Africa"
   ],
   "country": "Tunisia",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Tunis\", 60-day daily median (60 days ending 2026-09-12); Capital of Tunisia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 19786,
   "magnitudeUnit": "pageviews_monthly",
@@ -605,6 +771,14 @@
    "East Africa"
   ],
   "country": "South Sudan",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Juba\", 60-day daily median (60 days ending 2026-09-12); Capital of South Sudan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11719,
   "magnitudeUnit": "pageviews_monthly",
@@ -624,6 +798,12 @@
    "West Africa"
   ],
   "country": "Togo",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Lomé\", 60-day daily median (60 days ending 2026-09-12); Capital of Togo; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 7306,
   "magnitudeUnit": "pageviews_monthly",
@@ -643,6 +823,11 @@
    "West Africa"
   ],
   "country": "Sierra Leone",
+  "flag": [
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Freetown\", 60-day daily median (60 days ending 2026-09-12); Capital of Sierra Leone; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11872,
   "magnitudeUnit": "pageviews_monthly",
@@ -662,6 +847,12 @@
    "North Africa"
   ],
   "country": "Libya",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Tripoli, Libya\", 60-day daily median (60 days ending 2026-09-12); Capital of Libya; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23956,
   "magnitudeUnit": "pageviews_monthly",
@@ -680,6 +871,11 @@
    "Africa"
   ],
   "country": "Republic of the Congo",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Brazzaville\", 60-day daily median (60 days ending 2026-09-12); Capital of Republic of the Congo; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 14124,
   "magnitudeUnit": "pageviews_monthly",
@@ -698,6 +894,13 @@
    "Africa"
   ],
   "country": "Central African Republic",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Bangui\", 60-day daily median (60 days ending 2026-09-12); Capital of Central African Republic; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 12267,
   "magnitudeUnit": "pageviews_monthly",
@@ -717,6 +920,11 @@
    "West Africa"
   ],
   "country": "Liberia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Monrovia\", 60-day daily median (60 days ending 2026-09-12); Capital of Liberia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18629,
   "magnitudeUnit": "pageviews_monthly",
@@ -736,6 +944,11 @@
    "West Africa"
   ],
   "country": "Mauritania",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Nouakchott\", 60-day daily median (60 days ending 2026-09-12); Capital of Mauritania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 13394,
   "magnitudeUnit": "pageviews_monthly",
@@ -755,6 +968,12 @@
    "East Africa"
   ],
   "country": "Eritrea",
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Asmara\", 60-day daily median (60 days ending 2026-09-12); Capital of Eritrea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 13911,
   "magnitudeUnit": "pageviews_monthly",
@@ -774,6 +993,12 @@
    "West Africa"
   ],
   "country": "Gambia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Banjul\", 60-day daily median (60 days ending 2026-09-12); Capital of Gambia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 7519,
   "magnitudeUnit": "pageviews_monthly",
@@ -793,6 +1018,11 @@
    "Southern Africa"
   ],
   "country": "Botswana",
+  "flag": [
+   "white",
+   "blue",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Gaborone\", 60-day daily median (60 days ending 2026-09-12); Capital of Botswana; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 13028,
   "magnitudeUnit": "pageviews_monthly",
@@ -812,6 +1042,13 @@
    "Southern Africa"
   ],
   "country": "Namibia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Windhoek\", 60-day daily median (60 days ending 2026-09-12); Capital of Namibia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 22526,
   "magnitudeUnit": "pageviews_monthly",
@@ -830,6 +1067,11 @@
    "Africa"
   ],
   "country": "Gabon",
+  "flag": [
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Libreville\", 60-day daily median (60 days ending 2026-09-12); Capital of Gabon; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 7519,
   "magnitudeUnit": "pageviews_monthly",
@@ -849,6 +1091,12 @@
    "Southern Africa"
   ],
   "country": "Lesotho",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Maseru\", 60-day daily median (60 days ending 2026-09-12); Capital of Lesotho; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 6575,
   "magnitudeUnit": "pageviews_monthly",
@@ -868,6 +1116,12 @@
    "West Africa"
   ],
   "country": "Guinea-Bissau",
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Bissau\", 60-day daily median (60 days ending 2026-09-12); Capital of Guinea-Bissau; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 6027,
   "magnitudeUnit": "pageviews_monthly",
@@ -886,6 +1140,13 @@
    "Africa"
   ],
   "country": "Equatorial Guinea",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Malabo\", 60-day daily median (60 days ending 2026-09-12); Capital of Equatorial Guinea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 8675,
   "magnitudeUnit": "pageviews_monthly",
@@ -905,6 +1166,12 @@
    "East Africa"
   ],
   "country": "Mauritius",
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Port Louis\", 60-day daily median (60 days ending 2026-09-12); Capital of Mauritius; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11171,
   "magnitudeUnit": "pageviews_monthly",
@@ -924,6 +1191,13 @@
    "Southern Africa"
   ],
   "country": "Eswatini",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Mbabane\", 60-day daily median (60 days ending 2026-09-12); Capital of Eswatini; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 8523,
   "magnitudeUnit": "pageviews_monthly",
@@ -945,6 +1219,12 @@
    "East Africa"
   ],
   "country": "Djibouti",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Djibouti City\", 60-day daily median (60 days ending 2026-09-12); Capital of Djibouti; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 5814,
   "magnitudeUnit": "pageviews_monthly",
@@ -964,6 +1244,13 @@
    "East Africa"
   ],
   "country": "Comoros",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Moroni, Comoros\", 60-day daily median (60 days ending 2026-09-12); Capital of Comoros; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 5357,
   "magnitudeUnit": "pageviews_monthly",
@@ -983,6 +1270,12 @@
    "West Africa"
   ],
   "country": "Cape Verde",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Praia\", 60-day daily median (60 days ending 2026-09-12); Capital of Cape Verde; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 10228,
   "magnitudeUnit": "pageviews_monthly",
@@ -1001,6 +1294,12 @@
    "Africa"
   ],
   "country": "Sao Tome and Principe",
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"São Tomé\", 60-day daily median (60 days ending 2026-09-12); Capital of Sao Tome and Principe; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 6758,
   "magnitudeUnit": "pageviews_monthly",
@@ -1020,6 +1319,13 @@
    "East Africa"
   ],
   "country": "Seychelles",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Victoria, Seychelles\", 60-day daily median (60 days ending 2026-09-12); Capital of Seychelles; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 7275,
   "magnitudeUnit": "pageviews_monthly",
@@ -1041,6 +1347,12 @@
    "South Asia"
   ],
   "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"New Delhi\", 60-day daily median (60 days ending 2026-09-12); Capital of India; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 57836,
   "magnitudeUnit": "pageviews_monthly",
@@ -1062,6 +1374,10 @@
    "East Asia"
   ],
   "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Beijing\", 60-day daily median (60 days ending 2026-09-12); Capital of China; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 81153,
   "magnitudeUnit": "pageviews_monthly",
@@ -1081,6 +1397,10 @@
    "Southeast Asia"
   ],
   "country": "Indonesia",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Jakarta\", 60-day daily median (60 days ending 2026-09-12); Capital of Indonesia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 87789,
   "magnitudeUnit": "pageviews_monthly",
@@ -1100,6 +1420,10 @@
    "South Asia"
   ],
   "country": "Pakistan",
+  "flag": [
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Islamabad\", 60-day daily median (60 days ending 2026-09-12); Capital of Pakistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 34793,
   "magnitudeUnit": "pageviews_monthly",
@@ -1119,6 +1443,10 @@
    "South Asia"
   ],
   "country": "Bangladesh",
+  "flag": [
+   "red",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Dhaka\", 60-day daily median (60 days ending 2026-09-12); Capital of Bangladesh; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 46665,
   "magnitudeUnit": "pageviews_monthly",
@@ -1138,6 +1466,10 @@
    "East Asia"
   ],
   "country": "Japan",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Tokyo\", 60-day daily median (60 days ending 2026-09-12); Capital of Japan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 118746,
   "magnitudeUnit": "pageviews_monthly",
@@ -1157,6 +1489,12 @@
    "Southeast Asia"
   ],
   "country": "Philippines",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Manila\", 60-day daily median (60 days ending 2026-09-12); Capital of Philippines; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 50409,
   "magnitudeUnit": "pageviews_monthly",
@@ -1176,6 +1514,10 @@
    "Southeast Asia"
   ],
   "country": "Vietnam",
+  "flag": [
+   "red",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Hanoi\", 60-day daily median (60 days ending 2026-09-12); Capital of Vietnam; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 39298,
   "magnitudeUnit": "pageviews_monthly",
@@ -1195,6 +1537,11 @@
    "Middle East"
   ],
   "country": "Iran",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Tehran\", 60-day daily median (60 days ending 2026-09-12); Capital of Iran; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 40729,
   "magnitudeUnit": "pageviews_monthly",
@@ -1214,6 +1561,10 @@
    "Middle East"
   ],
   "country": "Turkey",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Ankara\", 60-day daily median (60 days ending 2026-09-12); Capital of Turkey; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 37259,
   "magnitudeUnit": "pageviews_monthly",
@@ -1233,6 +1584,11 @@
    "Southeast Asia"
   ],
   "country": "Thailand",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Bangkok\", 60-day daily median (60 days ending 2026-09-12); Capital of Thailand; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 69007,
   "magnitudeUnit": "pageviews_monthly",
@@ -1254,6 +1610,12 @@
    "Southeast Asia"
   ],
   "country": "Myanmar",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Naypyidaw\", 60-day daily median (60 days ending 2026-09-12); Capital of Myanmar; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 17777,
   "magnitudeUnit": "pageviews_monthly",
@@ -1273,6 +1635,12 @@
    "East Asia"
   ],
   "country": "South Korea",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Seoul\", 60-day daily median (60 days ending 2026-09-12); Capital of South Korea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 65811,
   "magnitudeUnit": "pageviews_monthly",
@@ -1292,6 +1660,12 @@
    "Middle East"
   ],
   "country": "Iraq",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Baghdad\", 60-day daily median (60 days ending 2026-09-12); Capital of Iraq; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 43986,
   "magnitudeUnit": "pageviews_monthly",
@@ -1312,6 +1686,12 @@
    "Central Asia"
   ],
   "country": "Afghanistan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Kabul\", 60-day daily median (60 days ending 2026-09-12); Capital of Afghanistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 30775,
   "magnitudeUnit": "pageviews_monthly",
@@ -1331,6 +1711,10 @@
    "Middle East"
   ],
   "country": "Saudi Arabia",
+  "flag": [
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Riyadh\", 60-day daily median (60 days ending 2026-09-12); Capital of Saudi Arabia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49465,
   "magnitudeUnit": "pageviews_monthly",
@@ -1350,6 +1734,12 @@
    "Central Asia"
   ],
   "country": "Uzbekistan",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Tashkent\", 60-day daily median (60 days ending 2026-09-12); Capital of Uzbekistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 37715,
   "magnitudeUnit": "pageviews_monthly",
@@ -1369,6 +1759,11 @@
    "Middle East"
   ],
   "country": "Yemen",
+  "flag": [
+   "red",
+   "white",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Sanaa\", 60-day daily median (60 days ending 2026-09-12); Capital of Yemen; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 21247,
   "magnitudeUnit": "pageviews_monthly",
@@ -1391,6 +1786,12 @@
    "Southeast Asia"
   ],
   "country": "Malaysia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Kuala Lumpur\", 60-day daily median (60 days ending 2026-09-12); Capital of Malaysia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 64259,
   "magnitudeUnit": "pageviews_monthly",
@@ -1410,6 +1811,11 @@
    "South Asia"
   ],
   "country": "Nepal",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Kathmandu\", 60-day daily median (60 days ending 2026-09-12); Capital of Nepal; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 36437,
   "magnitudeUnit": "pageviews_monthly",
@@ -1429,6 +1835,11 @@
    "East Asia"
   ],
   "country": "North Korea",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Pyongyang\", 60-day daily median (60 days ending 2026-09-12); Capital of North Korea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 39542,
   "magnitudeUnit": "pageviews_monthly",
@@ -1448,6 +1859,11 @@
    "East Asia"
   ],
   "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Taipei\", 60-day daily median (60 days ending 2026-09-12); Capital of Taiwan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 42890,
   "magnitudeUnit": "pageviews_monthly",
@@ -1467,6 +1883,12 @@
    "Middle East"
   ],
   "country": "Syria",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Damascus\", 60-day daily median (60 days ending 2026-09-12); Capital of Syria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49678,
   "magnitudeUnit": "pageviews_monthly",
@@ -1488,6 +1910,12 @@
    "South Asia"
   ],
   "country": "Sri Lanka",
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Colombo\", 60-day daily median (60 days ending 2026-09-12); Capital of Sri Lanka; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 26513,
   "magnitudeUnit": "pageviews_monthly",
@@ -1509,6 +1937,10 @@
    "Central Asia"
   ],
   "country": "Kazakhstan",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Astana\", 60-day daily median (60 days ending 2026-09-12); Capital of Kazakhstan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 35828,
   "magnitudeUnit": "pageviews_monthly",
@@ -1528,6 +1960,11 @@
    "Southeast Asia"
   ],
   "country": "Cambodia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Phnom Penh\", 60-day daily median (60 days ending 2026-09-12); Capital of Cambodia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 27700,
   "magnitudeUnit": "pageviews_monthly",
@@ -1547,6 +1984,12 @@
    "Middle East"
   ],
   "country": "Jordan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Amman\", 60-day daily median (60 days ending 2026-09-12); Capital of Jordan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23165,
   "magnitudeUnit": "pageviews_monthly",
@@ -1565,6 +2008,12 @@
    "Asia"
   ],
   "country": "Azerbaijan",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Baku\", 60-day daily median (60 days ending 2026-09-12); Capital of Azerbaijan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 39298,
   "magnitudeUnit": "pageviews_monthly",
@@ -1584,6 +2033,12 @@
    "Central Asia"
   ],
   "country": "Tajikistan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Dushanbe\", 60-day daily median (60 days ending 2026-09-12); Capital of Tajikistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 16011,
   "magnitudeUnit": "pageviews_monthly",
@@ -1605,6 +2060,10 @@
    "Middle East"
   ],
   "country": "Israel",
+  "flag": [
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Jerusalem\", 60-day daily median (60 days ending 2026-09-12); Capital of Israel; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 97225,
   "magnitudeUnit": "pageviews_monthly",
@@ -1624,6 +2083,12 @@
    "Middle East"
   ],
   "country": "United Arab Emirates",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Abu Dhabi\", 60-day daily median (60 days ending 2026-09-12); Capital of United Arab Emirates; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49587,
   "magnitudeUnit": "pageviews_monthly",
@@ -1643,6 +2108,11 @@
    "Southeast Asia"
   ],
   "country": "Laos",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Vientiane\", 60-day daily median (60 days ending 2026-09-12); Capital of Laos; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 17259,
   "magnitudeUnit": "pageviews_monthly",
@@ -1662,6 +2132,10 @@
    "Central Asia"
   ],
   "country": "Kyrgyzstan",
+  "flag": [
+   "red",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Bishkek\", 60-day daily median (60 days ending 2026-09-12); Capital of Kyrgyzstan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 21947,
   "magnitudeUnit": "pageviews_monthly",
@@ -1681,6 +2155,12 @@
    "Central Asia"
   ],
   "country": "Turkmenistan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Ashgabat\", 60-day daily median (60 days ending 2026-09-12); Capital of Turkmenistan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 19603,
   "magnitudeUnit": "pageviews_monthly",
@@ -1702,6 +2182,10 @@
    "Southeast Asia"
   ],
   "country": "Singapore",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Singapore\", 60-day daily median (60 days ending 2026-09-12); Capital of Singapore; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 313684,
   "magnitudeUnit": "pageviews_monthly",
@@ -1721,6 +2205,11 @@
    "Middle East"
   ],
   "country": "Lebanon",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Beirut\", 60-day daily median (60 days ending 2026-09-12); Capital of Lebanon; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 38172,
   "magnitudeUnit": "pageviews_monthly",
@@ -1740,6 +2229,12 @@
    "Middle East"
   ],
   "country": "Palestine",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Ramallah\", 60-day daily median (60 days ending 2026-09-12); Capital of Palestine; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18477,
   "magnitudeUnit": "pageviews_monthly",
@@ -1757,6 +2252,11 @@
    "Middle East"
   ],
   "country": "Oman",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Muscat\", 60-day daily median (60 days ending 2026-09-12); Capital of Oman; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 25783,
   "magnitudeUnit": "pageviews_monthly",
@@ -1776,6 +2276,12 @@
    "Middle East"
   ],
   "country": "Kuwait",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Kuwait City\", 60-day daily median (60 days ending 2026-09-12); Capital of Kuwait; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 14155,
   "magnitudeUnit": "pageviews_monthly",
@@ -1794,6 +2300,10 @@
    "Asia"
   ],
   "country": "Georgia",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Tbilisi\", 60-day daily median (60 days ending 2026-09-12); Capital of Georgia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 46847,
   "magnitudeUnit": "pageviews_monthly",
@@ -1815,6 +2325,11 @@
    "East Asia"
   ],
   "country": "Mongolia",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Ulaanbaatar\", 60-day daily median (60 days ending 2026-09-12); Capital of Mongolia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 46391,
   "magnitudeUnit": "pageviews_monthly",
@@ -1833,6 +2348,11 @@
    "Asia"
   ],
   "country": "Armenia",
+  "flag": [
+   "red",
+   "blue",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Yerevan\", 60-day daily median (60 days ending 2026-09-12); Capital of Armenia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 33788,
   "magnitudeUnit": "pageviews_monthly",
@@ -1852,6 +2372,10 @@
    "Middle East"
   ],
   "country": "Qatar",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Doha\", 60-day daily median (60 days ending 2026-09-12); Capital of Qatar; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 27579,
   "magnitudeUnit": "pageviews_monthly",
@@ -1871,6 +2395,10 @@
    "Middle East"
   ],
   "country": "Bahrain",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Manama\", 60-day daily median (60 days ending 2026-09-12); Capital of Bahrain; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11385,
   "magnitudeUnit": "pageviews_monthly",
@@ -1890,6 +2418,12 @@
    "Southeast Asia"
   ],
   "country": "Timor-Leste",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Dili\", 60-day daily median (60 days ending 2026-09-12); Capital of Timor-Leste; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 9619,
   "magnitudeUnit": "pageviews_monthly",
@@ -1909,6 +2443,11 @@
    "South Asia"
   ],
   "country": "Bhutan",
+  "flag": [
+   "white",
+   "yellow",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Thimphu\", 60-day daily median (60 days ending 2026-09-12); Capital of Bhutan; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 13059,
   "magnitudeUnit": "pageviews_monthly",
@@ -1928,6 +2467,11 @@
    "South Asia"
   ],
   "country": "Maldives",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Malé\", 60-day daily median (60 days ending 2026-09-12); Capital of Maldives; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 15951,
   "magnitudeUnit": "pageviews_monthly",
@@ -1947,6 +2491,12 @@
    "Southeast Asia"
   ],
   "country": "Brunei",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Bandar Seri Begawan\", 60-day daily median (60 days ending 2026-09-12); Capital of Brunei; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11567,
   "magnitudeUnit": "pageviews_monthly",
@@ -1966,6 +2516,11 @@
    "Eastern Europe"
   ],
   "country": "Russia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Moscow\", 60-day daily median (60 days ending 2026-09-12); Capital of Russia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 83375,
   "magnitudeUnit": "pageviews_monthly",
@@ -1985,6 +2540,11 @@
    "Western Europe"
   ],
   "country": "Germany",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Berlin\", 60-day daily median (60 days ending 2026-09-12); Capital of Germany; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 138532,
   "magnitudeUnit": "pageviews_monthly",
@@ -2004,6 +2564,11 @@
    "Western Europe"
   ],
   "country": "France",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Paris\", 60-day daily median (60 days ending 2026-09-12); Capital of France; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 155000,
   "magnitudeUnit": "pageviews_monthly",
@@ -2023,6 +2588,11 @@
    "Western Europe"
   ],
   "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"London\", 60-day daily median (60 days ending 2026-09-12); Capital of United Kingdom; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 213719,
   "magnitudeUnit": "pageviews_monthly",
@@ -2042,6 +2612,11 @@
    "Western Europe"
   ],
   "country": "Italy",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Rome\", 60-day daily median (60 days ending 2026-09-12); Capital of Italy; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 108306,
   "magnitudeUnit": "pageviews_monthly",
@@ -2061,6 +2636,13 @@
    "Western Europe"
   ],
   "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Madrid\", 60-day daily median (60 days ending 2026-09-12); Capital of Spain; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 76861,
   "magnitudeUnit": "pageviews_monthly",
@@ -2082,6 +2664,10 @@
    "Eastern Europe"
   ],
   "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Kyiv\", 60-day daily median (60 days ending 2026-09-12); Capital of Ukraine; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 46147,
   "magnitudeUnit": "pageviews_monthly",
@@ -2101,6 +2687,10 @@
    "Eastern Europe"
   ],
   "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Warsaw\", 60-day daily median (60 days ending 2026-09-12); Capital of Poland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 65142,
   "magnitudeUnit": "pageviews_monthly",
@@ -2120,6 +2710,11 @@
    "Eastern Europe"
   ],
   "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Bucharest\", 60-day daily median (60 days ending 2026-09-12); Capital of Romania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 42646,
   "magnitudeUnit": "pageviews_monthly",
@@ -2141,6 +2736,11 @@
    "Western Europe"
   ],
   "country": "Netherlands",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Amsterdam\", 60-day daily median (60 days ending 2026-09-12); Capital of Netherlands; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 88793,
   "magnitudeUnit": "pageviews_monthly",
@@ -2160,6 +2760,11 @@
    "Western Europe"
   ],
   "country": "Belgium",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Brussels\", 60-day daily median (60 days ending 2026-09-12); Capital of Belgium; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49861,
   "magnitudeUnit": "pageviews_monthly",
@@ -2179,6 +2784,10 @@
    "Scandinavia & the Nordics"
   ],
   "country": "Sweden",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Stockholm\", 60-day daily median (60 days ending 2026-09-12); Capital of Sweden; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 59784,
   "magnitudeUnit": "pageviews_monthly",
@@ -2198,6 +2807,11 @@
    "Eastern Europe"
   ],
   "country": "Czechia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Prague\", 60-day daily median (60 days ending 2026-09-12); Capital of Czechia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 89433,
   "magnitudeUnit": "pageviews_monthly",
@@ -2216,6 +2830,10 @@
    "Europe"
   ],
   "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Athens\", 60-day daily median (60 days ending 2026-09-12); Capital of Greece; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 75978,
   "magnitudeUnit": "pageviews_monthly",
@@ -2235,6 +2853,13 @@
    "Western Europe"
   ],
   "country": "Portugal",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Lisbon\", 60-day daily median (60 days ending 2026-09-12); Capital of Portugal; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 58901,
   "magnitudeUnit": "pageviews_monthly",
@@ -2254,6 +2879,11 @@
    "Eastern Europe"
   ],
   "country": "Hungary",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Budapest\", 60-day daily median (60 days ending 2026-09-12); Capital of Hungary; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 75035,
   "magnitudeUnit": "pageviews_monthly",
@@ -2273,6 +2903,11 @@
    "Eastern Europe"
   ],
   "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Minsk\", 60-day daily median (60 days ending 2026-09-12); Capital of Belarus; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 30318,
   "magnitudeUnit": "pageviews_monthly",
@@ -2292,6 +2927,10 @@
    "Western Europe"
   ],
   "country": "Austria",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Vienna\", 60-day daily median (60 days ending 2026-09-12); Capital of Austria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 84867,
   "magnitudeUnit": "pageviews_monthly",
@@ -2313,6 +2952,10 @@
    "Western Europe"
   ],
   "country": "Switzerland",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Bern\", 60-day daily median (60 days ending 2026-09-12); Capital of Switzerland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 26452,
   "magnitudeUnit": "pageviews_monthly",
@@ -2332,6 +2975,12 @@
    "Eastern Europe"
   ],
   "country": "Serbia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Belgrade\", 60-day daily median (60 days ending 2026-09-12); Capital of Serbia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 55918,
   "magnitudeUnit": "pageviews_monthly",
@@ -2351,6 +3000,11 @@
    "Eastern Europe"
   ],
   "country": "Bulgaria",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Sofia\", 60-day daily median (60 days ending 2026-09-12); Capital of Bulgaria; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 38263,
   "magnitudeUnit": "pageviews_monthly",
@@ -2370,6 +3024,10 @@
    "Scandinavia & the Nordics"
   ],
   "country": "Denmark",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Copenhagen\", 60-day daily median (60 days ending 2026-09-12); Capital of Denmark; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 71534,
   "magnitudeUnit": "pageviews_monthly",
@@ -2389,6 +3047,11 @@
    "Eastern Europe"
   ],
   "country": "Slovakia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Bratislava\", 60-day daily median (60 days ending 2026-09-12); Capital of Slovakia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 48491,
   "magnitudeUnit": "pageviews_monthly",
@@ -2408,6 +3071,10 @@
    "Scandinavia & the Nordics"
   ],
   "country": "Finland",
+  "flag": [
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Helsinki\", 60-day daily median (60 days ending 2026-09-12); Capital of Finland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 48826,
   "magnitudeUnit": "pageviews_monthly",
@@ -2427,6 +3094,11 @@
    "Scandinavia & the Nordics"
   ],
   "country": "Norway",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Oslo\", 60-day daily median (60 days ending 2026-09-12); Capital of Norway; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49556,
   "magnitudeUnit": "pageviews_monthly",
@@ -2446,6 +3118,11 @@
    "Western Europe"
   ],
   "country": "Ireland",
+  "flag": [
+   "white",
+   "green",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Dublin\", 60-day daily median (60 days ending 2026-09-12); Capital of Ireland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 78566,
   "magnitudeUnit": "pageviews_monthly",
@@ -2465,6 +3142,12 @@
    "Eastern Europe"
   ],
   "country": "Croatia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Zagreb\", 60-day daily median (60 days ending 2026-09-12); Capital of Croatia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 36102,
   "magnitudeUnit": "pageviews_monthly",
@@ -2484,6 +3167,11 @@
    "Eastern Europe"
   ],
   "country": "Moldova",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Chișinău\", 60-day daily median (60 days ending 2026-09-12); Capital of Moldova; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23895,
   "magnitudeUnit": "pageviews_monthly",
@@ -2503,6 +3191,11 @@
    "Eastern Europe"
   ],
   "country": "Bosnia and Herzegovina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Sarajevo\", 60-day daily median (60 days ending 2026-09-12); Capital of Bosnia and Herzegovina; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49130,
   "magnitudeUnit": "pageviews_monthly",
@@ -2522,6 +3215,10 @@
    "Eastern Europe"
   ],
   "country": "Albania",
+  "flag": [
+   "red",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Tirana\", 60-day daily median (60 days ending 2026-09-12); Capital of Albania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 25478,
   "magnitudeUnit": "pageviews_monthly",
@@ -2541,6 +3238,11 @@
    "Eastern Europe"
   ],
   "country": "Lithuania",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Vilnius\", 60-day daily median (60 days ending 2026-09-12); Capital of Lithuania; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 36224,
   "magnitudeUnit": "pageviews_monthly",
@@ -2560,6 +3262,12 @@
    "Eastern Europe"
   ],
   "country": "Slovenia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Ljubljana\", 60-day daily median (60 days ending 2026-09-12); Capital of Slovenia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 52905,
   "magnitudeUnit": "pageviews_monthly",
@@ -2579,6 +3287,10 @@
    "Eastern Europe"
   ],
   "country": "North Macedonia",
+  "flag": [
+   "red",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Skopje\", 60-day daily median (60 days ending 2026-09-12); Capital of North Macedonia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 30318,
   "magnitudeUnit": "pageviews_monthly",
@@ -2598,6 +3310,10 @@
    "Eastern Europe"
   ],
   "country": "Latvia",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Riga\", 60-day daily median (60 days ending 2026-09-12); Capital of Latvia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 36406,
   "magnitudeUnit": "pageviews_monthly",
@@ -2617,6 +3333,11 @@
    "Eastern Europe"
   ],
   "country": "Kosovo",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Pristina\", 60-day daily median (60 days ending 2026-09-12); Capital of Kosovo; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23682,
   "magnitudeUnit": "pageviews_monthly",
@@ -2636,6 +3357,11 @@
    "Eastern Europe"
   ],
   "country": "Estonia",
+  "flag": [
+   "white",
+   "blue",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Tallinn\", 60-day daily median (60 days ending 2026-09-12); Capital of Estonia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 41672,
   "magnitudeUnit": "pageviews_monthly",
@@ -2654,6 +3380,11 @@
    "Europe"
   ],
   "country": "Cyprus",
+  "flag": [
+   "white",
+   "green",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Nicosia\", 60-day daily median (60 days ending 2026-09-12); Capital of Cyprus; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 26087,
   "magnitudeUnit": "pageviews_monthly",
@@ -2675,6 +3406,11 @@
    "Western Europe"
   ],
   "country": "Luxembourg",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Luxembourg City\", 60-day daily median (60 days ending 2026-09-12); Capital of Luxembourg; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18873,
   "magnitudeUnit": "pageviews_monthly",
@@ -2694,6 +3430,13 @@
    "Eastern Europe"
   ],
   "country": "Montenegro",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Podgorica\", 60-day daily median (60 days ending 2026-09-12); Capital of Montenegro; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 20638,
   "magnitudeUnit": "pageviews_monthly",
@@ -2712,6 +3455,10 @@
    "Europe"
   ],
   "country": "Malta",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Valletta\", 60-day daily median (60 days ending 2026-09-12); Capital of Malta; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 27944,
   "magnitudeUnit": "pageviews_monthly",
@@ -2731,6 +3478,11 @@
    "Scandinavia & the Nordics"
   ],
   "country": "Iceland",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Reykjavík\", 60-day daily median (60 days ending 2026-09-12); Capital of Iceland; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 60089,
   "magnitudeUnit": "pageviews_monthly",
@@ -2750,6 +3502,11 @@
    "Western Europe"
   ],
   "country": "Andorra",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Andorra la Vella\", 60-day daily median (60 days ending 2026-09-12); Capital of Andorra; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11141,
   "magnitudeUnit": "pageviews_monthly",
@@ -2769,6 +3526,11 @@
    "Western Europe"
   ],
   "country": "Liechtenstein",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Vaduz\", 60-day daily median (60 days ending 2026-09-12); Capital of Liechtenstein; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 12267,
   "magnitudeUnit": "pageviews_monthly",
@@ -2790,6 +3552,10 @@
    "Western Europe"
   ],
   "country": "Monaco",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Monaco-Ville\", 60-day daily median (60 days ending 2026-09-12); Capital of Monaco; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 3074,
   "magnitudeUnit": "pageviews_monthly",
@@ -2810,6 +3576,12 @@
    "Europe"
   ],
   "country": "San Marino",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"City of San Marino\", 60-day daily median (60 days ending 2026-09-12); Capital of San Marino; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 5297,
   "magnitudeUnit": "pageviews_monthly",
@@ -2828,6 +3600,11 @@
    "Europe"
   ],
   "country": "Vatican City",
+  "flag": [
+   "red",
+   "white",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Vatican City\", 60-day daily median (60 days ending 2026-09-12); Capital of Vatican City; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 104592,
   "magnitudeUnit": "pageviews_monthly",
@@ -2849,6 +3626,11 @@
    "North America"
   ],
   "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Washington, D.C.\", 60-day daily median (60 days ending 2026-09-12); Capital of United States; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 183888,
   "magnitudeUnit": "pageviews_monthly",
@@ -2869,6 +3651,12 @@
    "North America"
   ],
   "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Mexico City\", 60-day daily median (60 days ending 2026-09-12); Capital of Mexico; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 90589,
   "magnitudeUnit": "pageviews_monthly",
@@ -2887,6 +3675,10 @@
    "North America"
   ],
   "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Ottawa\", 60-day daily median (60 days ending 2026-09-12); Capital of Canada; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 61611,
   "magnitudeUnit": "pageviews_monthly",
@@ -2906,6 +3698,12 @@
    "Central America"
   ],
   "country": "Guatemala",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Guatemala City\", 60-day daily median (60 days ending 2026-09-12); Capital of Guatemala; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 14824,
   "magnitudeUnit": "pageviews_monthly",
@@ -2925,6 +3723,13 @@
    "Caribbean"
   ],
   "country": "Haiti",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Port-au-Prince\", 60-day daily median (60 days ending 2026-09-12); Capital of Haiti; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18264,
   "magnitudeUnit": "pageviews_monthly",
@@ -2944,6 +3749,13 @@
    "Caribbean"
   ],
   "country": "Dominican Republic",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Santo Domingo\", 60-day daily median (60 days ending 2026-09-12); Capital of Dominican Republic; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 25783,
   "magnitudeUnit": "pageviews_monthly",
@@ -2963,6 +3775,11 @@
    "Caribbean"
   ],
   "country": "Cuba",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Havana\", 60-day daily median (60 days ending 2026-09-12); Capital of Cuba; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 26696,
   "magnitudeUnit": "pageviews_monthly",
@@ -2982,6 +3799,10 @@
    "Central America"
   ],
   "country": "Honduras",
+  "flag": [
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Tegucigalpa\", 60-day daily median (60 days ending 2026-09-12); Capital of Honduras; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 13302,
   "magnitudeUnit": "pageviews_monthly",
@@ -3001,6 +3822,14 @@
    "Central America"
   ],
   "country": "Nicaragua",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Managua\", 60-day daily median (60 days ending 2026-09-12); Capital of Nicaragua; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 9376,
   "magnitudeUnit": "pageviews_monthly",
@@ -3020,6 +3849,13 @@
    "Central America"
   ],
   "country": "El Salvador",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"San Salvador\", 60-day daily median (60 days ending 2026-09-12); Capital of El Salvador; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 14855,
   "magnitudeUnit": "pageviews_monthly",
@@ -3039,6 +3875,11 @@
    "Central America"
   ],
   "country": "Costa Rica",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"San José, Costa Rica\", 60-day daily median (60 days ending 2026-09-12); Capital of Costa Rica; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 13942,
   "magnitudeUnit": "pageviews_monthly",
@@ -3058,6 +3899,11 @@
    "Central America"
   ],
   "country": "Panama",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Panama City\", 60-day daily median (60 days ending 2026-09-12); Capital of Panama; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23652,
   "magnitudeUnit": "pageviews_monthly",
@@ -3077,6 +3923,11 @@
    "Caribbean"
   ],
   "country": "Jamaica",
+  "flag": [
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Kingston, Jamaica\", 60-day daily median (60 days ending 2026-09-12); Capital of Jamaica; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 20912,
   "magnitudeUnit": "pageviews_monthly",
@@ -3096,6 +3947,11 @@
    "Caribbean"
   ],
   "country": "Trinidad and Tobago",
+  "flag": [
+   "red",
+   "white",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Port of Spain\", 60-day daily median (60 days ending 2026-09-12); Capital of Trinidad and Tobago; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 15007,
   "magnitudeUnit": "pageviews_monthly",
@@ -3115,6 +3971,13 @@
    "Central America"
   ],
   "country": "Belize",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Belmopan\", 60-day daily median (60 days ending 2026-09-12); Capital of Belize; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 6636,
   "magnitudeUnit": "pageviews_monthly",
@@ -3134,6 +3997,11 @@
    "Caribbean"
   ],
   "country": "Bahamas",
+  "flag": [
+   "blue",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Nassau, Bahamas\", 60-day daily median (60 days ending 2026-09-12); Capital of Bahamas; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 36345,
   "magnitudeUnit": "pageviews_monthly",
@@ -3153,6 +4021,11 @@
    "Caribbean"
   ],
   "country": "Barbados",
+  "flag": [
+   "blue",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Bridgetown\", 60-day daily median (60 days ending 2026-09-12); Capital of Barbados; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 9345,
   "magnitudeUnit": "pageviews_monthly",
@@ -3172,6 +4045,12 @@
    "Caribbean"
   ],
   "country": "Saint Lucia",
+  "flag": [
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Castries\", 60-day daily median (60 days ending 2026-09-12); Capital of Saint Lucia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 4049,
   "magnitudeUnit": "pageviews_monthly",
@@ -3193,6 +4072,11 @@
    "Caribbean"
   ],
   "country": "Grenada",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"St. George's, Grenada\", 60-day daily median (60 days ending 2026-09-12); Capital of Grenada; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 3683,
   "magnitudeUnit": "pageviews_monthly",
@@ -3212,6 +4096,11 @@
    "Caribbean"
   ],
   "country": "Saint Vincent and the Grenadines",
+  "flag": [
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Kingstown\", 60-day daily median (60 days ending 2026-09-12); Capital of Saint Vincent and the Grenadines; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 3348,
   "magnitudeUnit": "pageviews_monthly",
@@ -3233,6 +4122,13 @@
    "Caribbean"
   ],
   "country": "Antigua and Barbuda",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"St. John's, Antigua and Barbuda\", 60-day daily median (60 days ending 2026-09-12); Capital of Antigua and Barbuda; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 5266,
   "magnitudeUnit": "pageviews_monthly",
@@ -3252,6 +4148,13 @@
    "Caribbean"
   ],
   "country": "Dominica",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Roseau\", 60-day daily median (60 days ending 2026-09-12); Capital of Dominica; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 3714,
   "magnitudeUnit": "pageviews_monthly",
@@ -3271,6 +4174,13 @@
    "Caribbean"
   ],
   "country": "Saint Kitts and Nevis",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Basseterre\", 60-day daily median (60 days ending 2026-09-12); Capital of Saint Kitts and Nevis; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 5905,
   "magnitudeUnit": "pageviews_monthly",
@@ -3289,6 +4199,12 @@
    "South America"
   ],
   "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Brasília\", 60-day daily median (60 days ending 2026-09-12); Capital of Brazil; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 37015,
   "magnitudeUnit": "pageviews_monthly",
@@ -3307,6 +4223,11 @@
    "South America"
   ],
   "country": "Colombia",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Bogotá\", 60-day daily median (60 days ending 2026-09-12); Capital of Colombia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 45599,
   "magnitudeUnit": "pageviews_monthly",
@@ -3325,6 +4246,11 @@
    "South America"
   ],
   "country": "Argentina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Buenos Aires\", 60-day daily median (60 days ending 2026-09-12); Capital of Argentina; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 68064,
   "magnitudeUnit": "pageviews_monthly",
@@ -3343,6 +4269,13 @@
    "South America"
   ],
   "country": "Peru",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Lima\", 60-day daily median (60 days ending 2026-09-12); Capital of Peru; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 35523,
   "magnitudeUnit": "pageviews_monthly",
@@ -3361,6 +4294,12 @@
    "South America"
   ],
   "country": "Venezuela",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Caracas\", 60-day daily median (60 days ending 2026-09-12); Capital of Venezuela; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 20425,
   "magnitudeUnit": "pageviews_monthly",
@@ -3379,6 +4318,11 @@
    "South America"
   ],
   "country": "Chile",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Santiago\", 60-day daily median (60 days ending 2026-09-12); Capital of Chile; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 37106,
   "magnitudeUnit": "pageviews_monthly",
@@ -3397,6 +4341,13 @@
    "South America"
   ],
   "country": "Ecuador",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Quito\", 60-day daily median (60 days ending 2026-09-12); Capital of Ecuador; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23865,
   "magnitudeUnit": "pageviews_monthly",
@@ -3417,6 +4368,11 @@
    "South America"
   ],
   "country": "Bolivia",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Sucre\", 60-day daily median (60 days ending 2026-09-12); Capital of Bolivia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 9102,
   "magnitudeUnit": "pageviews_monthly",
@@ -3435,6 +4391,13 @@
    "South America"
   ],
   "country": "Paraguay",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Asunción\", 60-day daily median (60 days ending 2026-09-12); Capital of Paraguay; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18629,
   "magnitudeUnit": "pageviews_monthly",
@@ -3453,6 +4416,11 @@
    "South America"
   ],
   "country": "Uruguay",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Montevideo\", 60-day daily median (60 days ending 2026-09-12); Capital of Uruguay; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 27700,
   "magnitudeUnit": "pageviews_monthly",
@@ -3471,6 +4439,13 @@
    "South America"
   ],
   "country": "Guyana",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Georgetown, Guyana\", 60-day daily median (60 days ending 2026-09-12); Capital of Guyana; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 17777,
   "magnitudeUnit": "pageviews_monthly",
@@ -3489,6 +4464,12 @@
    "South America"
   ],
   "country": "Suriname",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Paramaribo\", 60-day daily median (60 days ending 2026-09-12); Capital of Suriname; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 12846,
   "magnitudeUnit": "pageviews_monthly",
@@ -3507,6 +4488,11 @@
    "Oceania"
   ],
   "country": "Australia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Canberra\", 60-day daily median (60 days ending 2026-09-12); Capital of Australia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 54001,
   "magnitudeUnit": "pageviews_monthly",
@@ -3525,6 +4511,12 @@
    "Oceania"
   ],
   "country": "Papua New Guinea",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Port Moresby\", 60-day daily median (60 days ending 2026-09-12); Capital of Papua New Guinea; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 22952,
   "magnitudeUnit": "pageviews_monthly",
@@ -3543,6 +4535,11 @@
    "Oceania"
   ],
   "country": "New Zealand",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Wellington\", 60-day daily median (60 days ending 2026-09-12); Capital of New Zealand; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 37806,
   "magnitudeUnit": "pageviews_monthly",
@@ -3561,6 +4558,13 @@
    "Oceania"
   ],
   "country": "Fiji",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Suva\", 60-day daily median (60 days ending 2026-09-12); Capital of Fiji; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 10410,
   "magnitudeUnit": "pageviews_monthly",
@@ -3579,6 +4583,12 @@
    "Oceania"
   ],
   "country": "Solomon Islands",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Honiara\", 60-day daily median (60 days ending 2026-09-12); Capital of Solomon Islands; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 6301,
   "magnitudeUnit": "pageviews_monthly",
@@ -3597,6 +4607,12 @@
    "Oceania"
   ],
   "country": "Vanuatu",
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Port Vila\", 60-day daily median (60 days ending 2026-09-12); Capital of Vanuatu; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 5905,
   "magnitudeUnit": "pageviews_monthly",
@@ -3615,6 +4631,11 @@
    "Oceania"
   ],
   "country": "Samoa",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Apia\", 60-day daily median (60 days ending 2026-09-12); Capital of Samoa; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 7397,
   "magnitudeUnit": "pageviews_monthly",
@@ -3633,6 +4654,12 @@
    "Oceania"
   ],
   "country": "Kiribati",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"South Tarawa\", 60-day daily median (60 days ending 2026-09-12); Capital of Kiribati; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 2709,
   "magnitudeUnit": "pageviews_monthly",
@@ -3651,6 +4678,10 @@
    "Oceania"
   ],
   "country": "Micronesia",
+  "flag": [
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Palikir\", 60-day daily median (60 days ending 2026-09-12); Capital of Micronesia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 4231,
   "magnitudeUnit": "pageviews_monthly",
@@ -3669,6 +4700,10 @@
    "Oceania"
   ],
   "country": "Tonga",
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Nukuʻalofa\", 60-day daily median (60 days ending 2026-09-12); Capital of Tonga; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 6484,
   "magnitudeUnit": "pageviews_monthly",
@@ -3687,6 +4722,11 @@
    "Oceania"
   ],
   "country": "Marshall Islands",
+  "flag": [
+   "white",
+   "blue",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Majuro\", 60-day daily median (60 days ending 2026-09-12); Capital of Marshall Islands; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 8645,
   "magnitudeUnit": "pageviews_monthly",
@@ -3705,6 +4745,10 @@
    "Oceania"
   ],
   "country": "Palau",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Ngerulmud\", 60-day daily median (60 days ending 2026-09-12); Capital of Palau; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 9436,
   "magnitudeUnit": "pageviews_monthly",
@@ -3723,6 +4767,11 @@
    "Oceania"
   ],
   "country": "Nauru",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Yaren\", 60-day daily median (60 days ending 2026-09-12); Capital of Nauru; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 4566,
   "magnitudeUnit": "pageviews_monthly",
@@ -3741,6 +4790,12 @@
    "Oceania"
   ],
   "country": "Tuvalu",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Funafuti\", 60-day daily median (60 days ending 2026-09-12); Capital of Tuvalu; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 5510,
   "magnitudeUnit": "pageviews_monthly",

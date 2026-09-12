@@ -212,12 +212,16 @@
     return rule.colours.every((colour) => colours.includes(colour));
   }
 
+  // Whose flag: a country's own, or - for a capital - its country's.
+  const FLAG_OWNER = { country: 'whose flag', capital: "whose country's flag" };
+
   function flagPromptText(category, rule) {
     const noun = NOUN[category];
+    const owner = FLAG_OWNER[category] || 'whose flag';
     const [first, second] = rule.colours;
     return second
-      ? `Name ${ARTICLE(noun)} ${noun} whose flag has both ${first} and ${second} in it.`
-      : `Name ${ARTICLE(noun)} ${noun} whose flag has ${first} in it.`;
+      ? `Name ${ARTICLE(noun)} ${noun} ${owner} has both ${first} and ${second} in it.`
+      : `Name ${ARTICLE(noun)} ${noun} ${owner} has ${first} in it.`;
   }
 
   // Letters whose NAME starts with a vowel sound take "an": an F, an S, an X.
@@ -312,7 +316,6 @@
     // exists when the set it is derived from does; its prompt text is fixed
     // here rather than in data/themes.js, since the theme itself isn't there.
     const derivedPrompts = {};
-    const derivedThemes = new Set();
     for (const [category, derived] of Object.entries(DERIVED_THEMES)) {
       const cohort = cohorts.get(category);
       const sets = themeSets.get(category);
@@ -324,7 +327,6 @@
         if (ids.length < MIN_THEME_MEMBERS) continue;
         sets.set(theme, ids);
         derivedPrompts[theme] = rule.prompt;
-        derivedThemes.add(theme);
       }
     }
     const promptTextFor = Object.assign({}, derivedPrompts, themePrompts || {});
@@ -420,7 +422,9 @@
       if ((category === 'country' || category === 'capital') && regions.length) options.push('region', 'region');
       if (themeSets.has(category)) options.push('theme', 'theme');
       if (oceanOptions(category).length) options.push('ocean', 'ocean');
-      if (flagPalette(category).length) options.push('flag', 'flag');
+      // Flags get a slightly heavier weight than the rest: they're the newest
+      // kind and the one players asked to see more of.
+      if (flagPalette(category).length) options.push('flag', 'flag', 'flag');
       if (SIZE_RULES[category]) options.push('size');
       options.push('letter', 'letter');
 
@@ -551,11 +555,12 @@
         flag: slot.flag || null,
         size: slot.size || null,
         letter: slot.letter || null,
-        // What to call the restriction when an answer misses it. A derived
-        // theme's name isn't a place ("isn't in coastal"), so it gets the
-        // generic wording instead.
+        // What to call the restriction when an answer misses it. A theme with
+        // its own prompt text ("Name a volcano.", "Name a US state capital.")
+        // is not a place the answer can be "in", so it gets the generic hint;
+        // a theme worded "in the Alps" is.
         scopeName:
-          slot.region || (slot.theme && !derivedThemes.has(slot.theme) ? slot.theme : null) ||
+          slot.region || (slot.theme && !promptTextFor[slot.theme] ? slot.theme : null) ||
           (slot.ocean ? `the ${slot.ocean} Ocean` : null) ||
           (slot.size || slot.letter || slot.flag || slot.theme ? 'that pattern' : null),
         constrained: Boolean(scope),

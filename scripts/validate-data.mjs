@@ -95,9 +95,10 @@ export function validate(files) {
       // Every country lists the colours of its flag (scripts/data-flags.mjs),
       // from a fixed palette, so "whose flag has green in it" can never be
       // asked of a country nobody wrote down.
-      if (entry.category === 'country') {
+      // A capital carries its country's flag too (optional, validated if present).
+      if (entry.category === 'country' || entry.flag !== undefined) {
         if (!Array.isArray(entry.flag) || entry.flag.length === 0) {
-          errors.push(`${where}: country needs a non-empty flag colour array`);
+          errors.push(`${where}: ${entry.category} needs a non-empty flag colour array`);
         } else {
           for (const colour of entry.flag) {
             if (!FLAG_COLOURS.includes(colour)) errors.push(`${where}: unknown flag colour "${colour}"`);

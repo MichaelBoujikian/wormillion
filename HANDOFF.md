@@ -10,8 +10,8 @@ what to check first, and the gotchas that cost time.
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main`.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123.
-- **Green:** `npm test` (84 tests), `npm run validate` (1,337 entries), `npm run gap-check`. CI runs test + validate on Node 22.
-- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos), the "One in Wormillion" celebration for 85%+ answers, the generous dig curve (75 / 100 for jackpots, ×70 below), relics in the dirt, the summary "ladder" (finds sorted least→most obscure with bars), and wider craters for jackpot digs.
+- **Green:** `npm test` (86 tests), `npm run validate` (1,387 entries), `npm run gap-check`. CI runs test + validate on Node 22.
+- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos), the "One in Wormillion" celebration for 85%+ answers, the generous dig curve (75 / 100 for jackpots, ×70 below), relics in the dirt, the summary "ladder" (finds sorted least→most obscure with bars), wider craters for jackpot digs, and capital themes (not the largest city / on the coast / US state capitals) with 50 state capitals added to the capital cohort and flags on capitals.
 
 ## Start here
 
@@ -28,6 +28,8 @@ If all three pass, nothing is broken. Then read `SPEC.md` §3 (decisions) and §
 |---|---|
 | the places themselves | `scripts/data-physical.mjs`, `scripts/data-countries.mjs` (pipe-delimited) |
 | which colours a country's flag has | `scripts/data-flags.mjs` (one row per country; generous) |
+| the US state capitals | `scripts/data-us-states.mjs` (they feed the `capital` cohort, like minor peaks feed `mountain`) |
+| how often flag prompts come up | the `options.push('flag', 'flag', 'flag')` weight in `drawModifier()` in `promptBank.js` (3 = ~0.8 per run) |
 | which places a themed prompt accepts | `src/data/themes.js` (hand-edited, shipped as-is) |
 | how prompts are worded / drawn / ramped | `src/js/promptBank.js` |
 | how answers are matched (aliases, loose, fuzzy) | `src/js/matching.js` |
@@ -120,6 +122,8 @@ score-report` prints the curve.
 
 - Prompts should be specific and get harder ("name a river with a T in it", "name a river in Mesopotamia") — done, keep extending.
 - Answers people obviously reach for must be accepted — `npm run gap-check` is the guard; add to its list when a player reports a miss.
+- **US state capitals live in the `capital` cohort**, so "Name a capital city." accepts Boise and "…in North America" accepts Sacramento — deliberate, generous, and what the user asked for. Their `size` is the US population so "whose country has a population over 100 million" stays true. Their flag is the US flag. If someone objects to Boise being "a capital city", the alternative is a ninth category, which touches the draw (see cities, below).
+- **Theme names that aren't places get the generic miss hint.** Any theme with custom prompt text (`WORMILLION_THEME_PROMPTS` or `DERIVED_THEMES`) says "X doesn't fit this one"; a theme worded "in the Alps" says "X isn't in the Alps". Give a new non-place theme custom text or the hint will read "isn't in volcanoes".
 - **Island nations count as islands** if they are one island or one compact archipelago: each has an island entry (`Palau`, `Tonga`, `Grenada Island`…) pointed at the country article, or is an alias of the island it shares (`Haiti` → Hispaniola, `Timor-Leste` → Timor). Deliberately *not* done for Japan, the United Kingdom, Indonesia, the Philippines, New Zealand, Papua New Guinea and Brunei — their big islands are in the bank individually and the user hasn't said whether "Japan" should count as an island. Ask before adding those.
 - Spelling should autocorrect and show the real spelling — done.
 - They want to be able to find the answers and the logic in the code — the table above and README's "Where the logic lives".

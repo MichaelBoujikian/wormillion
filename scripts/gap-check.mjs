@@ -16,7 +16,7 @@ const matching = require('../src/js/matching.js');
 // Deliberately the obvious stuff, not the obscure stuff.
 const EXPECTED = {
   country: ['France', 'Japan', 'Brazil', 'Egypt', 'Kenya', 'Chile', 'Nepal', 'Fiji', 'USA', 'UK', 'Vietnam', 'Peru', 'Iceland', 'Morocco', 'Thailand'],
-  capital: ['Paris', 'Tokyo', 'Cairo', 'Ottawa', 'Lima', 'Oslo', 'Doha', 'Hanoi', 'Rome', 'Madrid', 'Seoul', 'Nairobi', 'Havana', 'Athens'],
+  capital: ['Paris', 'Tokyo', 'Cairo', 'Ottawa', 'Lima', 'Oslo', 'Doha', 'Hanoi', 'Rome', 'Madrid', 'Seoul', 'Nairobi', 'Havana', 'Athens', 'Washington', 'Sacramento', 'Boston', 'Austin'],
   lake: ['Lake Superior', 'Lake Victoria', 'Baikal', 'Loch Ness', 'Lake Tahoe', 'Dead Sea', 'Lake Como', 'Crater Lake', 'Lake Titicaca', 'Great Salt Lake'],
   river: ['Nile', 'Amazon', 'Mississippi', 'Thames', 'Danube', 'Ganges', 'Volga', 'Indus', 'Rhine', 'Seine', 'Yangtze', 'Congo', 'Tigris', 'Euphrates', 'Jordan', 'Colorado'],
   mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna'],

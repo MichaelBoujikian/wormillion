@@ -51,6 +51,12 @@ test('the validator actually catches the things it claims to', async () => {
   assert.ok(validate({ 'a.json': [country] }).errors.some((e) => e.includes('flag colour array')));
   assert.ok(validate({ 'a.json': [{ ...country, flag: ['maroon'] }] }).errors.some((e) => e.includes('unknown flag colour')));
   assert.ok(validate({ 'a.json': [{ ...country, flag: ['red', 'red'] }] }).errors.some((e) => e.includes('repeated flag colour')));
+
+  // A capital's flag is optional, but wrong if present.
+  const capital = { ...entry, id: 'capital-x', category: 'capital', name: 'X City', region: ['Europe'] };
+  assert.deepStrictEqual(validate({ 'a.json': [capital] }).errors, []);
+  assert.deepStrictEqual(validate({ 'a.json': [{ ...capital, flag: ['blue'] }] }).errors, []);
+  assert.ok(validate({ 'a.json': [{ ...capital, flag: ['teal'] }] }).errors.some((e) => e.includes('unknown flag colour')));
 });
 
 test('bank.js and the JSON files hold the same entries', async () => {
