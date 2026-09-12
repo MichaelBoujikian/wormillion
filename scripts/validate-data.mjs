@@ -7,6 +7,7 @@
  */
 import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
+import { UN_MEMBERS, UN_OBSERVERS, COMMONLY_TAUGHT } from './data-un-members.mjs';
 
 const DATA_DIR = fileURLToPath(new URL('../src/data/', import.meta.url));
 
@@ -125,6 +126,21 @@ export function validate(files) {
 const NOT_A_CATEGORY = new Set(['pageviews.json']);
 
 /**
+ * Every UN member, observer and commonly-taught state must be answerable -
+ * by canonical name or by alias. Returns the ones that are not.
+ */
+export function missingCountries(files) {
+  const accepted = new Set();
+  for (const entries of Object.values(files)) {
+    for (const entry of entries) {
+      if (entry.category !== 'country') continue;
+      for (const candidate of [entry.name, ...(entry.aliases || [])]) accepted.add(normalize(candidate));
+    }
+  }
+  return [...UN_MEMBERS, ...UN_OBSERVERS, ...COMMONLY_TAUGHT].filter((name) => !accepted.has(normalize(name)));
+}
+
+/**
  * Theme sets name their members in plain English; this checks every one of them
  * still resolves to an entry. A stale name would silently shrink a themed prompt
  * or, worse, leave it rejecting an answer that is genuinely in the set.
@@ -188,6 +204,10 @@ if (process.argv[1] && process.argv[1].endsWith('validate-data.mjs')) {
   const themeCheck = validateThemes(files, await readFile(DATA_DIR + 'themes.js', 'utf8'));
   errors.push(...themeCheck.errors);
   warnings.push(...themeCheck.warnings);
+
+  for (const name of missingCountries(files)) {
+    errors.push(`country audit: "${name}" is a UN member / expected state with no entry in the bank`);
+  }
 
   for (const [category, n] of Object.entries(counts)) {
     console.log(`${String(n).padStart(4)}  ${category}${n < TARGETS[category] ? '  (below target)' : ''}`);

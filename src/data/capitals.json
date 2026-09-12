@@ -377,7 +377,9 @@
   "id": "capital-n-djamena",
   "category": "capital",
   "name": "N Djamena",
-  "aliases": [],
+  "aliases": [
+   "NDjamena"
+  ],
   "size": 18300000,
   "sizeUnit": "population_of_country",
   "region": [
@@ -940,7 +942,9 @@
   "id": "capital-beijing",
   "category": "capital",
   "name": "Beijing",
-  "aliases": [],
+  "aliases": [
+   "Peking"
+  ],
   "size": 1425700000,
   "sizeUnit": "population_of_country",
   "region": [
@@ -1110,7 +1114,9 @@
   "id": "capital-naypyidaw",
   "category": "capital",
   "name": "Naypyidaw",
-  "aliases": [],
+  "aliases": [
+   "Nay Pyi Taw"
+  ],
   "size": 54600000,
   "sizeUnit": "population_of_country",
   "region": [
@@ -1231,7 +1237,8 @@
   "category": "capital",
   "name": "Kuala Lumpur",
   "aliases": [
-   "Putrajaya"
+   "Putrajaya",
+   "KL"
   ],
   "size": 34300000,
   "sizeUnit": "population_of_country",
@@ -1612,7 +1619,9 @@
   "id": "capital-ulaanbaatar",
   "category": "capital",
   "name": "Ulaanbaatar",
-  "aliases": [],
+  "aliases": [
+   "Ulan Bator"
+  ],
   "size": 3400000,
   "sizeUnit": "population_of_country",
   "region": [
@@ -2056,7 +2065,9 @@
   "id": "capital-bern",
   "category": "capital",
   "name": "Bern",
-  "aliases": [],
+  "aliases": [
+   "Berne"
+  ],
   "size": 8800000,
   "sizeUnit": "population_of_country",
   "region": [
@@ -2535,7 +2546,8 @@
   "category": "capital",
   "name": "Washington DC",
   "aliases": [
-   "Washington"
+   "Washington",
+   "DC"
   ],
   "size": 340000000,
   "sizeUnit": "population_of_country",
@@ -2552,7 +2564,9 @@
   "id": "capital-mexico-city",
   "category": "capital",
   "name": "Mexico City",
-  "aliases": [],
+  "aliases": [
+   "CDMX"
+  ],
   "size": 128500000,
   "sizeUnit": "population_of_country",
   "region": [

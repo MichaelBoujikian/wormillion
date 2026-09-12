@@ -54,7 +54,9 @@
   "aliases": [
    "DR Congo",
    "DRC",
-   "Congo-Kinshasa"
+   "Congo-Kinshasa",
+   "Zaire",
+   "Democratic Republic of Congo"
   ],
   "size": 102300000,
   "sizeUnit": "population",
@@ -246,7 +248,8 @@
   "category": "country",
   "name": "Ivory Coast",
   "aliases": [
-   "Cote d Ivoire"
+   "Cote d Ivoire",
+   "Cote dIvoire"
   ],
   "size": 28900000,
   "sizeUnit": "population",
@@ -844,7 +847,10 @@
   "id": "country-sao-tome-and-principe",
   "category": "country",
   "name": "Sao Tome and Principe",
-  "aliases": [],
+  "aliases": [
+   "Sao Tome",
+   "Sao Tome & Principe"
+  ],
   "size": 230000,
   "sizeUnit": "population",
   "region": [
@@ -892,7 +898,8 @@
   "category": "country",
   "name": "China",
   "aliases": [
-   "PRC"
+   "PRC",
+   "Peoples Republic of China"
   ],
   "size": 1425700000,
   "sizeUnit": "population",
@@ -1208,7 +1215,9 @@
   "id": "country-north-korea",
   "category": "country",
   "name": "North Korea",
-  "aliases": [],
+  "aliases": [
+   "DPRK"
+  ],
   "size": 26200000,
   "sizeUnit": "population",
   "region": [
@@ -1224,7 +1233,9 @@
   "id": "country-taiwan",
   "category": "country",
   "name": "Taiwan",
-  "aliases": [],
+  "aliases": [
+   "Republic of China"
+  ],
   "size": 23400000,
   "sizeUnit": "population",
   "region": [
@@ -1368,7 +1379,9 @@
   "category": "country",
   "name": "United Arab Emirates",
   "aliases": [
-   "UAE"
+   "UAE",
+   "Emirates",
+   "The Emirates"
   ],
   "size": 9500000,
   "sizeUnit": "population",
@@ -1385,7 +1398,9 @@
   "id": "country-laos",
   "category": "country",
   "name": "Laos",
-  "aliases": [],
+  "aliases": [
+   "Lao"
+  ],
   "size": 7600000,
   "sizeUnit": "population",
   "region": [
@@ -1401,7 +1416,9 @@
   "id": "country-kyrgyzstan",
   "category": "country",
   "name": "Kyrgyzstan",
-  "aliases": [],
+  "aliases": [
+   "Kyrgyz Republic"
+  ],
   "size": 6700000,
   "sizeUnit": "population",
   "region": [
@@ -1594,7 +1611,8 @@
   "category": "country",
   "name": "Timor-Leste",
   "aliases": [
-   "East Timor"
+   "East Timor",
+   "Timor"
   ],
   "size": 1400000,
   "sizeUnit": "population",
@@ -1643,7 +1661,9 @@
   "id": "country-brunei",
   "category": "country",
   "name": "Brunei",
-  "aliases": [],
+  "aliases": [
+   "Brunei Darussalam"
+  ],
   "size": 450000,
   "sizeUnit": "population",
   "region": [
@@ -2021,7 +2041,9 @@
   "id": "country-slovakia",
   "category": "country",
   "name": "Slovakia",
-  "aliases": [],
+  "aliases": [
+   "Slovak Republic"
+  ],
   "size": 5800000,
   "sizeUnit": "population",
   "region": [
@@ -2118,7 +2140,8 @@
   "category": "country",
   "name": "Bosnia and Herzegovina",
   "aliases": [
-   "Bosnia"
+   "Bosnia",
+   "Bosnia-Herzegovina"
   ],
   "size": 3200000,
   "sizeUnit": "population",
@@ -2617,7 +2640,9 @@
   "id": "country-trinidad-and-tobago",
   "category": "country",
   "name": "Trinidad and Tobago",
-  "aliases": [],
+  "aliases": [
+   "Trinidad"
+  ],
   "size": 1530000,
   "sizeUnit": "population",
   "region": [
@@ -2718,7 +2743,9 @@
   "category": "country",
   "name": "Saint Vincent and the Grenadines",
   "aliases": [
-   "St Vincent and the Grenadines"
+   "St Vincent and the Grenadines",
+   "St Vincent",
+   "Saint Vincent"
   ],
   "size": 104000,
   "sizeUnit": "population",
@@ -2735,7 +2762,9 @@
   "id": "country-antigua-and-barbuda",
   "category": "country",
   "name": "Antigua and Barbuda",
-  "aliases": [],
+  "aliases": [
+   "Antigua"
+  ],
   "size": 94000,
   "sizeUnit": "population",
   "region": [
@@ -2768,7 +2797,9 @@
   "category": "country",
   "name": "Saint Kitts and Nevis",
   "aliases": [
-   "St Kitts and Nevis"
+   "St Kitts and Nevis",
+   "St Kitts",
+   "Saint Kitts"
   ],
   "size": 47000,
   "sizeUnit": "population",
@@ -2981,7 +3012,8 @@
   "category": "country",
   "name": "Papua New Guinea",
   "aliases": [
-   "PNG"
+   "PNG",
+   "Papua"
   ],
   "size": 10300000,
   "sizeUnit": "population",
@@ -2998,7 +3030,8 @@
   "category": "country",
   "name": "New Zealand",
   "aliases": [
-   "NZ"
+   "NZ",
+   "Aotearoa"
   ],
   "size": 5200000,
   "sizeUnit": "population",
@@ -3029,7 +3062,10 @@
   "id": "country-solomon-islands",
   "category": "country",
   "name": "Solomon Islands",
-  "aliases": [],
+  "aliases": [
+   "Solomons",
+   "The Solomon Islands"
+  ],
   "size": 740000,
   "sizeUnit": "population",
   "region": [
@@ -3092,7 +3128,8 @@
   "category": "country",
   "name": "Micronesia",
   "aliases": [
-   "Federated States of Micronesia"
+   "Federated States of Micronesia",
+   "FSM"
   ],
   "size": 115000,
   "sizeUnit": "population",
@@ -3123,7 +3160,10 @@
   "id": "country-marshall-islands",
   "category": "country",
   "name": "Marshall Islands",
-  "aliases": [],
+  "aliases": [
+   "Marshalls",
+   "The Marshall Islands"
+  ],
   "size": 42000,
   "sizeUnit": "population",
   "region": [
