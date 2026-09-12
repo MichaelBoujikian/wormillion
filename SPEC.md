@@ -40,10 +40,11 @@ The original brief describes the shape of the game but leaves several mechanics 
 | region | "Name a country in Southeast Asia." | country, capital | `region` tags (Section 6) |
 | theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | any | `src/data/themes.js`, hand-curated; plus derived themes in `promptBank.js` (v1.2) |
 | ocean | "Name an island in the Pacific Ocean." | island, sea_ocean | `oceans` field, derived from coordinates (Section 4) |
+| flag | "Name a country whose flag has green in it." / "…has both black and red in it." | country | `flag` field, hand-authored in `scripts/data-flags.mjs` (v1.2) |
 | size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | any | `size` field |
 | letter | "Name a river with a T in it." / "…that starts with M." / "…with a double letter." | any | the entry's name |
 
-A modifier narrows what is **accepted**, never how an answer scores (3.2). A generated modifier (size, letter, ocean) is only used when at least 6 entries satisfy it and — for size and letter — it rules out at least 40% of the category; otherwise the slot falls back to plain. Curated themes may be deliberately tight (Mesopotamia has two rivers) and are used with as few as 2 members. A **derived theme** (v1.2) is the complement of a curated one: `coastal` is every country not in `landlocked`, computed at load time so the two lists can never disagree. It carries its own prompt text ("Name a country with a coastline.") and, because its name is not a place, a miss gets the generic "doesn't fit this one" hint rather than "isn't in coastal". Letter rules consider the name as displayed plus every name/alias with filler words ("mount", "lake", "the") removed, so "Lake Baikal" satisfies "starts with L" and "starts with B", but "Nile" does not satisfy "has a T" via its alias "the Nile".
+A modifier narrows what is **accepted**, never how an answer scores (3.2). A generated modifier (size, letter, ocean, flag) is only used when at least 6 entries satisfy it and — for size, letter and flag — it rules out at least 40% of the category; otherwise the slot falls back to plain. (So "has red in it", true of 79% of flags, is never asked on its own, but "has both red and black in it" is.) A flag rule is one colour or a pair from the palette `red white blue green yellow black orange`; colours are read **generously** — an emblem's colours count, gold is yellow, maroon is red, light blue is blue — because an over-inclusive row can at worst accept a debatable answer while a missing colour rejects a correct one. Only positive flag prompts are generated for the same reason. Curated themes may be deliberately tight (Mesopotamia has two rivers) and are used with as few as 2 members. A **derived theme** (v1.2) is the complement of a curated one: `coastal` is every country not in `landlocked`, computed at load time so the two lists can never disagree. It carries its own prompt text ("Name a country with a coastline.") and, because its name is not a place, a miss gets the generic "doesn't fit this one" hint rather than "isn't in coastal". Letter rules consider the name as displayed plus every name/alias with filler words ("mount", "lake", "the") removed, so "Lake Baikal" satisfies "starts with L" and "starts with B", but "Nile" does not satisfy "has a T" via its alias "the Nile".
 
 **3.2 Country/capital region scoping applies to the prompt, not the score.** A country prompt may be scoped to a region ("Name a country in Southeast Asia"), but rarity is always computed against the *global* cohort for that category (all ~195 countries), never the region subset. Rationale: a Pacific micro-state should score as globally obscure even when the prompt happened to scope to a region full of other small states; scoping the cohort too would flatten that.
 
@@ -89,11 +90,12 @@ Every prompt-bank entry, across all 8 category files, shares this shape:
   "sizeUnit": "population",          // population | population_of_country | area_km2 | length_km | elevation_m
   "region": ["Africa", "North Africa"], // country/capital only: continent + optional sub-region tags
   "oceans": ["Pacific"],             // island/sea_ocean only: Pacific | Atlantic | Indian | Arctic | Southern; [] only by explicit override
+  "flag": ["red", "white", "black", "yellow"], // country only: colours on the flag, from a fixed palette (3.1a); read generously
   "source": "..."                    // provenance note, not shown in-game
 }
 ```
 
-`magnitude` is the median of 60 daily English-Wikipedia view counts, scaled to a 30.44-day month, fetched by `scripts/fetch-pageviews.mjs` and committed as `src/data/pageviews.json` (the game never touches the network). `oceans` is derived from `lat`/`lon` by `scripts/data-oceans.mjs` with an explicit override table; the validator rejects any island or sea with no ocean and no override. The page loads `src/data/bank.js`, a generated `<script>` bundle carrying only the runtime fields (`id, category, name, aliases, magnitude, size, region, oceans`).
+`magnitude` is the median of 60 daily English-Wikipedia view counts, scaled to a 30.44-day month, fetched by `scripts/fetch-pageviews.mjs` and committed as `src/data/pageviews.json` (the game never touches the network). `oceans` is derived from `lat`/`lon` by `scripts/data-oceans.mjs` with an explicit override table; the validator rejects any island or sea with no ocean and no override. The page loads `src/data/bank.js`, a generated `<script>` bundle carrying only the runtime fields (`id, category, name, aliases, magnitude, size, region, oceans, flag`). `flag` is authored by hand in `scripts/data-flags.mjs`, one row per country, and the build fails if any country lacks a row or any row names no country (v1.2).
 
 - `region` is present only on `country` and `capital` entries (both keyed off the same country list — a capital entry inherits its country's region tags). A capital's `magnitude` is its **own** article's pageviews (v1.1), not its country's; its `size` is the country population.
 - `aliases` must never contain a string that would also match a *different* entry's canonical name in the same category (validated by the M5 validation script — see Section 6.4).
@@ -198,6 +200,7 @@ Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4).
 - no alias string collides with another entry's normalized name/alias within the same cohort (Section 4);
 - every `country`/`capital` entry has a non-empty `region` array using only region names from the list above;
 - every `island`/`sea_ocean` entry has an `oceans` array of known oceans, empty only by explicit override (v1.1);
+- every `country` entry has a non-empty `flag` array of distinct colours from the palette in `scripts/data-flags.mjs` (v1.2);
 - every UN member state, UN observer state and commonly-taught state (`scripts/data-un-members.mjs`) is answerable by name or alias in the country cohort (v1.1);
 - every name listed in a theme (`src/data/themes.js`) resolves to an entry in that category (v1.1);
 - reports final per-category entry counts against the targets table above (warns, doesn't fail, if below target).
@@ -235,6 +238,7 @@ wormillion/
     data-countries.mjs, data-physical.mjs   # authoring sources (pipe-delimited)
     data-wiki-titles.mjs  # Wikipedia title overrides + hand-verified subjects
     data-oceans.mjs       # ocean classification boxes + overrides
+    data-flags.mjs        # flag colours per country, hand-authored (3.1a)
     data-un-members.mjs   # the audit list for 6.4
     build-data.mjs        # emits src/data/*; exports buildFiles() for the fetcher
     fetch-pageviews.mjs   # refreshes pageviews.json (network; cached under scripts/.cache/)
@@ -391,5 +395,6 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.1 | Bank expanded to 1,318 entries (islands 104→335, plus rivers, mountains, lakes, deserts, seas). | 6 |
 | 1.2 | Modifier chance ramps 70%→100% (was 40%→90%); opening length and ramp are named constants in `promptBank.js`. | 3.8 |
 | 1.2 | Derived themes: `coastal` = country cohort minus `landlocked`, "Name a country with a coastline." | 3.1a, 6.0 |
+| 1.2 | Flag-colour modifier: `flag` field on countries (`scripts/data-flags.mjs`), "Name a country whose flag has green in it." | 3.1a, 4, 6.4, 7 |
 
-**Deferred (needs new data, scoped separately):** a non-capital *cities* category; flag-colour tags per country.
+**Deferred (needs new data, scoped separately):** a non-capital *cities* category.

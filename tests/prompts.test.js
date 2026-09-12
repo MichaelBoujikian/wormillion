@@ -17,17 +17,17 @@ const entry = (category, name, magnitude, extra = {}) => ({
 const EUROPE = ['Europe', 'Western Europe'];
 const RAW = {
   countries: [
-    entry('country', 'France', 250000, { size: 68000000, region: EUROPE }),
-    entry('country', 'Germany', 240000, { size: 83000000, region: EUROPE }),
-    entry('country', 'Spain', 200000, { size: 47000000, region: EUROPE }),
-    entry('country', 'Italy', 210000, { size: 59000000, region: EUROPE }),
-    entry('country', 'Ireland', 120000, { size: 5200000, region: EUROPE }),
-    entry('country', 'Malta', 60000, { size: 540000, region: EUROPE }),
-    entry('country', 'Luxembourg', 70000, { size: 660000, region: EUROPE }),
-    entry('country', 'Iceland', 90000, { size: 380000, region: EUROPE }),
-    entry('country', 'India', 500000, { size: 1428000000, region: ['Asia', 'South Asia'] }),
-    entry('country', 'China', 480000, { size: 1425000000, region: ['Asia', 'East Asia'] }),
-    entry('country', 'Kenya', 55000, { size: 55000000, region: ['Africa', 'East Africa'] })
+    entry('country', 'France', 250000, { size: 68000000, region: EUROPE, flag: ['blue', 'white', 'red'] }),
+    entry('country', 'Germany', 240000, { size: 83000000, region: EUROPE, flag: ['black', 'red', 'yellow'] }),
+    entry('country', 'Spain', 200000, { size: 47000000, region: EUROPE, flag: ['red', 'yellow'] }),
+    entry('country', 'Italy', 210000, { size: 59000000, region: EUROPE, flag: ['green', 'white', 'red'] }),
+    entry('country', 'Ireland', 120000, { size: 5200000, region: EUROPE, flag: ['green', 'white', 'orange'] }),
+    entry('country', 'Malta', 60000, { size: 540000, region: EUROPE, flag: ['white', 'red'] }),
+    entry('country', 'Luxembourg', 70000, { size: 660000, region: EUROPE, flag: ['red', 'white', 'blue'] }),
+    entry('country', 'Iceland', 90000, { size: 380000, region: EUROPE, flag: ['blue', 'white', 'red'] }),
+    entry('country', 'India', 500000, { size: 1428000000, region: ['Asia', 'South Asia'], flag: ['orange', 'white', 'green', 'blue'] }),
+    entry('country', 'China', 480000, { size: 1425000000, region: ['Asia', 'East Asia'], flag: ['red', 'yellow'] }),
+    entry('country', 'Kenya', 55000, { size: 55000000, region: ['Africa', 'East Africa'], flag: ['black', 'red', 'green', 'white'] })
   ],
   capitals: [
     entry('capital', 'Paris', 150000, { size: 68000000, region: EUROPE }),
@@ -226,10 +226,10 @@ test('every kind of modifier actually gets drawn from the shipped bank', () => {
   const seen = new Set();
   for (let seed = 1; seed <= 150; seed++) {
     for (const slot of shipped.drawSlots(seeded(seed))) {
-      for (const kind of ['region', 'theme', 'ocean', 'size', 'letter']) if (slot[kind]) seen.add(kind);
+      for (const kind of ['region', 'theme', 'ocean', 'flag', 'size', 'letter']) if (slot[kind]) seen.add(kind);
     }
   }
-  for (const kind of ['region', 'theme', 'ocean', 'size', 'letter']) assert.ok(seen.has(kind), `never drew a ${kind} modifier`);
+  for (const kind of ['region', 'theme', 'ocean', 'flag', 'size', 'letter']) assert.ok(seen.has(kind), `never drew a ${kind} modifier`);
 });
 
 test('after the opening, most rounds carry a modifier (Spec 3.8 ramp)', () => {
@@ -272,6 +272,64 @@ test('"coastal" is derived as every country that is not landlocked', () => {
     const expected = ['Kazakhstan', 'Switzerland', 'Bolivia'].includes(name) ? 'wrong-scope' : 'accepted';
     assert.strictEqual(coastalRun().submit(name).status, expected, name);
   }
+});
+
+test('a flag rule accepts a country whose flag carries every listed colour', () => {
+  const green = bank.promptFor({ category: 'country', flag: { colours: ['green'] } });
+  assert.strictEqual(green.text, 'Name a country whose flag has green in it.');
+  assert.strictEqual(green.constrained, true);
+  assert.ok(green.lookup.has('italy') && green.lookup.has('kenya'));
+  assert.ok(!green.lookup.has('france'));
+
+  const pair = bank.promptFor({ category: 'country', flag: { colours: ['black', 'red'] } });
+  assert.strictEqual(pair.text, 'Name a country whose flag has both black and red in it.');
+  assert.ok(pair.lookup.has('germany') && pair.lookup.has('kenya'));
+  assert.ok(!pair.lookup.has('china'), 'red alone is not enough');
+
+  const run = runner.createRun(bank, { rounds: 1 });
+  run.state.slots[0] = { category: 'country', flag: { colours: ['orange'] } };
+  const miss = run.submit('France');
+  assert.strictEqual(miss.status, 'wrong-scope');
+  assert.strictEqual(miss.scopeName, 'that pattern', 'the UI says "doesn\'t fit this one", not "isn\'t in orange"');
+  assert.strictEqual(run.submit('Ireland').status, 'accepted');
+});
+
+test('drawn flag rules leave enough answers and rule enough out (shipped bank)', () => {
+  const shipped = loadShippedBank();
+  const cohort = shipped.cohorts.get('country');
+  let drawn = 0;
+  for (let seed = 1; seed <= 300; seed++) {
+    for (const slot of shipped.drawSlots(seeded(seed))) {
+      if (!slot.flag) continue;
+      drawn += 1;
+      const n = cohort.entries.filter((entry) => promptBank.satisfiesFlag(entry, slot.flag)).length;
+      assert.ok(n >= promptBank.MIN_ELIGIBLE, `${slot.flag.colours}: only ${n} answers`);
+      assert.ok(n <= cohort.entries.length * 0.6, `${slot.flag.colours}: ${n} answers barely narrows the field`);
+      assert.deepStrictEqual(slot.flag.colours, [...slot.flag.colours].sort(), 'pairs are in a fixed order');
+    }
+  }
+  assert.ok(drawn > 0, 'expected some flag prompts across 300 runs');
+});
+
+test('flag colours are read generously in the shipped data', () => {
+  // Emblem colours count (Spain's coat of arms has blue, Peru's has green),
+  // and near-colours fold into the palette (Sri Lanka's maroon is red, Cyprus's
+  // copper is orange). A player who knows the flag must never be told no.
+  const shipped = loadShippedBank();
+  const accepts = (colours, name) => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = { category: 'country', flag: { colours } };
+    return run.submit(name).status;
+  };
+  assert.strictEqual(accepts(['blue'], 'Spain'), 'accepted');
+  assert.strictEqual(accepts(['green'], 'Peru'), 'accepted');
+  assert.strictEqual(accepts(['red'], 'Sri Lanka'), 'accepted');
+  assert.strictEqual(accepts(['orange'], 'Cyprus'), 'accepted');
+  assert.strictEqual(accepts(['yellow'], 'Germany'), 'accepted', 'gold is yellow');
+  assert.strictEqual(accepts(['blue'], 'Argentina'), 'accepted', 'light blue is blue');
+  assert.strictEqual(accepts(['green', 'orange'], 'Ireland'), 'accepted');
+  assert.strictEqual(accepts(['green'], 'Japan'), 'wrong-scope');
+  assert.strictEqual(accepts(['black', 'blue'], 'Germany'), 'wrong-scope');
 });
 
 test('a derived theme only exists when the set it derives from does', () => {

@@ -42,9 +42,15 @@ test('the validator actually catches the things it claims to', async () => {
   assert.ok(validate(collidingAlias).errors.some((e) => e.includes('claimed by both')));
 
   const badRegion = {
-    'a.json': [{ ...entry, id: 'country-x', category: 'country', name: 'X', region: ['Middle Earth'] }]
+    'a.json': [{ ...entry, id: 'country-x', category: 'country', name: 'X', region: ['Middle Earth'], flag: ['red'] }]
   };
   assert.ok(validate(badRegion).errors.some((e) => e.includes('unknown region')));
+
+  const country = { ...entry, id: 'country-x', category: 'country', name: 'X', region: ['Europe'] };
+  assert.deepStrictEqual(validate({ 'a.json': [{ ...country, flag: ['red', 'white'] }] }).errors, []);
+  assert.ok(validate({ 'a.json': [country] }).errors.some((e) => e.includes('flag colour array')));
+  assert.ok(validate({ 'a.json': [{ ...country, flag: ['maroon'] }] }).errors.some((e) => e.includes('unknown flag colour')));
+  assert.ok(validate({ 'a.json': [{ ...country, flag: ['red', 'red'] }] }).errors.some((e) => e.includes('repeated flag colour')));
 });
 
 test('bank.js and the JSON files hold the same entries', async () => {

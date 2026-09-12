@@ -95,6 +95,7 @@ scripts/
   data-countries.mjs, data-physical.mjs   authoring sources (pipe-delimited)
   data-wiki-titles.mjs  Wikipedia title overrides + hand-verified subjects
   data-oceans.mjs       ocean classification boxes + overrides
+  data-flags.mjs        flag colours per country (generous: emblem colours count)
   data-un-members.mjs   the 193 UN members + observers the validator audits against
   build-data.mjs     emits src/data/* (exports buildFiles() for the fetcher)
   fetch-pageviews.mjs  refreshes pageviews.json
@@ -169,6 +170,7 @@ round 12 harder than round 2:
 | region | "Name a country in Southeast Asia." | region tags on countries/capitals |
 | theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | `src/data/themes.js`, plus `DERIVED_THEMES` in `promptBank.js` (coastal = not landlocked) |
 | ocean | "Name an island in the Pacific Ocean." | `oceans`, derived from each article's coordinates |
+| flag | "Name a country whose flag has green in it." / "…has both black and red in it." | `flag`, hand-authored in `scripts/data-flags.mjs` |
 | size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
 | letter | "Name a river with a T in it." | derived from the name |
 
@@ -201,6 +203,13 @@ Pacific" is exactly the bug a hand list produces. Every island and sea carries
 in `scripts/data-oceans.mjs` and corrected there by an explicit override table
 (Indonesian straddlers count for both oceans; Hudson Bay is Arctic; the Caspian
 is none). The validator fails if any island or sea has no ocean and no override.
+
+Flag colours (`scripts/data-flags.mjs`) are hand-authored, one row per
+country, from a seven-colour palette, and read generously: an emblem's
+colours count, gold is yellow, maroon is red, light blue is blue. That bias
+is deliberate — only positive prompts ("has green in it") are generated, so
+an extra colour can at worst accept a debatable answer, while a missing one
+would reject a correct one. The build fails if a country has no row.
 
 ### Spelling
 

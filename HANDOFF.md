@@ -10,8 +10,8 @@ what to check first, and the gotchas that cost time.
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main`.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123.
-- **Green:** `npm test` (70 tests), `npm run validate` (1,318 entries), `npm run gap-check`. CI runs test + validate on Node 22.
-- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp and the derived `coastal` theme.
+- **Green:** `npm test` (73 tests), `npm run validate` (1,318 entries), `npm run gap-check`. CI runs test + validate on Node 22.
+- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, and flag-colour prompts.
 
 ## Start here
 
@@ -27,6 +27,7 @@ If all three pass, nothing is broken. Then read `SPEC.md` §3 (decisions) and §
 | want to change… | file |
 |---|---|
 | the places themselves | `scripts/data-physical.mjs`, `scripts/data-countries.mjs` (pipe-delimited) |
+| which colours a country's flag has | `scripts/data-flags.mjs` (one row per country; generous) |
 | which places a themed prompt accepts | `src/data/themes.js` (hand-edited, shipped as-is) |
 | how prompts are worded / drawn / ramped | `src/js/promptBank.js` |
 | how answers are matched (aliases, loose, fuzzy) | `src/js/matching.js` |
@@ -80,13 +81,16 @@ Listed in SPEC.md §13. Scoping notes so nobody has to re-derive them:
 derives `coastal` as the country cohort minus the `landlocked` set. The same
 mechanism can derive any other complement of a curated theme.
 
-**Flag colours — new column on countries.** Add an 8th pipe field to
-`scripts/data-countries.mjs` (e.g. `red+white+blue`), carry it through
-`buildFiles()` as `flag: [...]`, include it in the runtime bundle, and validate
-against a fixed palette (`red white blue green yellow black orange`). Prompt
-modifier: "Name a country whose flag has green in it." Use the same
-≥6-answers / ≤60%-of-cohort guard the other generated modifiers use. ~197 rows
-of hand data — that's the whole cost.
+**Flag colours — done (2026-09-11).** Authored in `scripts/data-flags.mjs` as
+its own keyed file rather than an 8th pipe field (most country rows omit their
+trailing alias fields, so a new column would have meant padding `|||` into
+~150 rows). Palette `red white blue green yellow black orange`; read
+generously on purpose (emblem colours count, maroon→red, gold→yellow,
+light/dark blue→blue) because only positive prompts are generated and the
+user wants acceptance to err generous. Single colours and pairs, behind the
+usual ≥6 / ≤60% guard, so "has red" (79% of flags) never comes up alone. The
+rows are from memory, not fetched — if a player reports a miss, fix the row
+and rebuild (`npm run build-data`, no fetch needed).
 
 **Non-capital cities — a ninth category, so it touches the draw.** Needs:
 a new authoring file (`scripts/data-cities.mjs`, `Name|Country|population|aliases`),

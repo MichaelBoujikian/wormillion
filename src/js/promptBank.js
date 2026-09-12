@@ -9,6 +9,7 @@
  *   theme      "Name a river in Mesopotamia."        (curated sets, data/themes.js,
  *                                                     plus DERIVED_THEMES below)
  *   ocean      "Name an island in the Pacific Ocean." (from coordinates)
+ *   flag       "Name a country whose flag has green in it." (scripts/data-flags.mjs)
  *   size       "Name a river longer than 3,000 km."  (from the entry's size stat)
  *   letter     "Name a river with a T in it."        (derived from the name)
  *   none       "Name a river."
@@ -200,6 +201,25 @@
     return `Name ${ARTICLE(noun)} ${noun} ${SIZE_RULES[category].text(rule.op, rule.value)}.`;
   }
 
+  /**
+   * Flag colours (countries only): "whose flag has green in it", or two colours
+   * at once. The colours themselves come from the data (scripts/data-flags.mjs),
+   * read generously - an emblem's colours count - so a rule can reject a real
+   * miss but never a debatable hit.
+   */
+  function satisfiesFlag(entry, rule) {
+    const colours = entry.flag || [];
+    return rule.colours.every((colour) => colours.includes(colour));
+  }
+
+  function flagPromptText(category, rule) {
+    const noun = NOUN[category];
+    const [first, second] = rule.colours;
+    return second
+      ? `Name ${ARTICLE(noun)} ${noun} whose flag has both ${first} and ${second} in it.`
+      : `Name ${ARTICLE(noun)} ${noun} whose flag has ${first} in it.`;
+  }
+
   // Letters whose NAME starts with a vowel sound take "an": an F, an S, an X.
   const VOWEL_SOUNDING_LETTERS = 'aefhilmnorsx';
 
@@ -364,12 +384,43 @@
       return null;
     }
 
+    /** Every flag colour any entry in this category carries, alphabetical; cached. */
+    const flagPalettes = new Map();
+    function flagPalette(category) {
+      if (!flagPalettes.has(category)) {
+        const colours = new Set();
+        for (const entry of cohorts.get(category).entries) for (const c of entry.flag || []) colours.add(c);
+        flagPalettes.set(category, [...colours].sort());
+      }
+      return flagPalettes.get(category);
+    }
+
+    /**
+     * One colour, or a pair, that a useful number of flags carry. A pair is
+     * always in palette order so "both green and yellow" and "both yellow and
+     * green" can't both turn up as if they were different questions.
+     */
+    function drawFlagRule(category, rng) {
+      const cohort = cohorts.get(category);
+      const palette = flagPalette(category);
+      if (palette.length === 0) return null;
+      for (let attempt = 0; attempt < 12; attempt++) {
+        const wanted = rng() < 0.5 ? 1 : 2;
+        const colours = shuffle(palette, rng).slice(0, wanted).sort();
+        const rule = { colours };
+        const n = eligibleCount(cohort, (entry) => satisfiesFlag(entry, rule));
+        if (n >= MIN_ELIGIBLE && n <= cohort.entries.length * MAX_ELIGIBLE_SHARE) return rule;
+      }
+      return null;
+    }
+
     /** One random modifier for a category, or null when nothing fits. */
     function drawModifier(category, rng) {
       const options = [];
       if ((category === 'country' || category === 'capital') && regions.length) options.push('region', 'region');
       if (themeSets.has(category)) options.push('theme', 'theme');
       if (oceanOptions(category).length) options.push('ocean', 'ocean');
+      if (flagPalette(category).length) options.push('flag', 'flag');
       if (SIZE_RULES[category]) options.push('size');
       options.push('letter', 'letter');
 
@@ -377,6 +428,10 @@
       if (choice === 'region') return { region: pick(regions, rng) };
       if (choice === 'theme') return { theme: pick([...themeSets.get(category).keys()], rng) };
       if (choice === 'ocean') return { ocean: pick(oceanOptions(category), rng) };
+      if (choice === 'flag') {
+        const rule = drawFlagRule(category, rng);
+        return rule ? { flag: rule } : null;
+      }
       if (choice === 'size') {
         const rule = drawSizeRule(category, rng);
         return rule ? { size: rule } : null;
@@ -473,6 +528,10 @@
         text = `Name ${ARTICLE(seaNoun)} ${seaNoun} in the ${slot.ocean} Ocean.`;
         scope = `ocean:${slot.ocean}`;
         lookup = subsetLookup(cohort, scope, (entry) => (entry.oceans || []).includes(slot.ocean));
+      } else if (slot.flag) {
+        text = flagPromptText(slot.category, slot.flag);
+        scope = `flag:${slot.flag.colours.join('+')}`;
+        lookup = subsetLookup(cohort, scope, (entry) => satisfiesFlag(entry, slot.flag));
       } else if (slot.size) {
         text = sizePromptText(slot.category, slot.size);
         scope = `size:${slot.size.op}:${slot.size.value}`;
@@ -489,6 +548,7 @@
         region: slot.region || null,
         theme: slot.theme || null,
         ocean: slot.ocean || null,
+        flag: slot.flag || null,
         size: slot.size || null,
         letter: slot.letter || null,
         // What to call the restriction when an answer misses it. A derived
@@ -497,7 +557,7 @@
         scopeName:
           slot.region || (slot.theme && !derivedThemes.has(slot.theme) ? slot.theme : null) ||
           (slot.ocean ? `the ${slot.ocean} Ocean` : null) ||
-          (slot.size || slot.letter || slot.theme ? 'that pattern' : null),
+          (slot.size || slot.letter || slot.flag || slot.theme ? 'that pattern' : null),
         constrained: Boolean(scope),
         text,
         cohort,
@@ -543,6 +603,8 @@
     satisfiesSize,
     sizePromptText,
     SIZE_RULES,
+    satisfiesFlag,
+    flagPromptText,
     createBank,
     loadBank
   };

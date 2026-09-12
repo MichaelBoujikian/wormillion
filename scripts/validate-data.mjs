@@ -3,12 +3,14 @@
  *
  * Fails (non-zero exit) on: a missing/invalid field, a non-positive magnitude,
  * a duplicate id, an alias that collides with another entry in the same cohort,
- * or a bad region tag. Entry counts below target only warn.
+ * a bad region tag, or a country without flag colours from the fixed palette.
+ * Entry counts below target only warn.
  */
 import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { UN_MEMBERS, UN_OBSERVERS, COMMONLY_TAUGHT } from './data-un-members.mjs';
 import { OCEANS, OCEAN_OVERRIDES } from './data-oceans.mjs';
+import { FLAG_COLOURS } from './data-flags.mjs';
 
 const DATA_DIR = fileURLToPath(new URL('../src/data/', import.meta.url));
 
@@ -87,6 +89,20 @@ export function validate(files) {
           for (const region of entry.region) {
             if (!REGIONS.has(region)) errors.push(`${where}: unknown region "${region}"`);
           }
+        }
+      }
+
+      // Every country lists the colours of its flag (scripts/data-flags.mjs),
+      // from a fixed palette, so "whose flag has green in it" can never be
+      // asked of a country nobody wrote down.
+      if (entry.category === 'country') {
+        if (!Array.isArray(entry.flag) || entry.flag.length === 0) {
+          errors.push(`${where}: country needs a non-empty flag colour array`);
+        } else {
+          for (const colour of entry.flag) {
+            if (!FLAG_COLOURS.includes(colour)) errors.push(`${where}: unknown flag colour "${colour}"`);
+          }
+          if (new Set(entry.flag).size !== entry.flag.length) errors.push(`${where}: repeated flag colour`);
         }
       }
 

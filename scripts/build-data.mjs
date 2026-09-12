@@ -19,6 +19,7 @@ import { fileURLToPath } from 'node:url';
 import { COUNTRIES } from './data-countries.mjs';
 import { LAKES, RIVERS, MOUNTAINS, MINOR_PEAKS, DESERTS, ISLANDS, SEAS_OCEANS } from './data-physical.mjs';
 import { oceansFor } from './data-oceans.mjs';
+import { flagsByCountry } from './data-flags.mjs';
 
 const OUT = fileURLToPath(new URL('../src/data/', import.meta.url));
 
@@ -59,11 +60,18 @@ const POP_SOURCE = 'UN World Population Prospects / World Bank 2023-24 estimate 
 export function buildFiles() {
 const countries = [];
 const capitals = [];
+// Flag colours are authored in their own file, keyed by country name; every
+// country must have a row and every row must name a country.
+const flags = flagsByCountry();
+const unusedFlags = new Set(flags.keys());
 
 for (const line of lines(COUNTRIES)) {
   const [name, capital, pop, region, subs, aliases, capitalAliases] = line.split('|');
   const regions = [region.trim(), ...list((subs || '').replace(/\+/g, ','))];
   const population = Number(pop);
+  const flag = flags.get(name.trim());
+  if (!flag) throw new Error(`data-flags.mjs has no row for ${name.trim()}`);
+  unusedFlags.delete(name.trim());
 
   countries.push({
     id: `country-${slug(name)}`,
@@ -73,6 +81,7 @@ for (const line of lines(COUNTRIES)) {
     size: population,
     sizeUnit: 'population',
     region: regions,
+    flag,
     source: POP_SOURCE
   });
 
@@ -91,6 +100,7 @@ for (const line of lines(COUNTRIES)) {
     source: `Capital of ${name.trim()}; country population per ${POP_SOURCE}`
   });
 }
+if (unusedFlags.size) throw new Error(`data-flags.mjs rows that match no country: ${[...unusedFlags].join(', ')}`);
 
 return {
   'countries.json': countries,
@@ -174,6 +184,7 @@ const runtimeEntry = (e) => {
   };
   if (e.region) out.region = e.region;
   if (e.oceans) out.oceans = e.oceans;
+  if (e.flag) out.flag = e.flag;
   return out;
 };
 

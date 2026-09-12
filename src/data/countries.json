@@ -10,6 +10,10 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Nigeria\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 158805,
   "magnitudeUnit": "pageviews_monthly",
@@ -28,6 +32,12 @@
    "Africa",
    "East Africa"
   ],
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Ethiopia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 136736,
   "magnitudeUnit": "pageviews_monthly",
@@ -45,6 +55,12 @@
   "region": [
    "Africa",
    "North Africa"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Egypt\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 161789,
@@ -69,6 +85,11 @@
   "region": [
    "Africa"
   ],
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Democratic Republic of the Congo\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 152900,
   "magnitudeUnit": "pageviews_monthly",
@@ -84,6 +105,12 @@
   "region": [
    "Africa",
    "East Africa"
+  ],
+  "flag": [
+   "blue",
+   "green",
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Tanzania\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 112932,
@@ -103,6 +130,14 @@
    "Africa",
    "Southern Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"South Africa\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 209945,
   "magnitudeUnit": "pageviews_monthly",
@@ -120,6 +155,12 @@
   "region": [
    "Africa",
    "East Africa"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Kenya\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 92416,
@@ -139,6 +180,12 @@
    "Africa",
    "East Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Uganda\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 95916,
   "magnitudeUnit": "pageviews_monthly",
@@ -156,6 +203,12 @@
   "region": [
    "Africa",
    "North Africa"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Sudan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 95308,
@@ -175,6 +228,11 @@
    "Africa",
    "North Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Algeria\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 135945,
   "magnitudeUnit": "pageviews_monthly",
@@ -193,6 +251,10 @@
    "Africa",
    "North Africa"
   ],
+  "flag": [
+   "red",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Morocco\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 179596,
   "magnitudeUnit": "pageviews_monthly",
@@ -209,6 +271,11 @@
   "sizeUnit": "population",
   "region": [
    "Africa"
+  ],
+  "flag": [
+   "red",
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Angola\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 79966,
@@ -228,6 +295,12 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Ghana\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 112689,
   "magnitudeUnit": "pageviews_monthly",
@@ -246,6 +319,13 @@
    "Africa",
    "Southern Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Mozambique\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 71869,
   "magnitudeUnit": "pageviews_monthly",
@@ -263,6 +343,11 @@
   "region": [
    "Africa",
    "East Africa"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green"
   ],
   "source": "English Wikipedia pageviews for \"Madagascar\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 111897,
@@ -285,6 +370,11 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "white",
+   "green",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Ivory Coast\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 82584,
   "magnitudeUnit": "pageviews_monthly",
@@ -301,6 +391,11 @@
   "sizeUnit": "population",
   "region": [
    "Africa"
+  ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Cameroon\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 77805,
@@ -320,6 +415,11 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "white",
+   "green",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Niger\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 70225,
   "magnitudeUnit": "pageviews_monthly",
@@ -337,6 +437,11 @@
   "region": [
    "Africa",
    "West Africa"
+  ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Mali\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 77287,
@@ -356,6 +461,11 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Burkina Faso\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 128609,
   "magnitudeUnit": "pageviews_monthly",
@@ -373,6 +483,11 @@
   "region": [
    "Africa",
    "East Africa"
+  ],
+  "flag": [
+   "red",
+   "green",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Malawi\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 53422,
@@ -392,6 +507,12 @@
    "Africa",
    "Southern Africa"
   ],
+  "flag": [
+   "red",
+   "green",
+   "black",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Zambia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 72752,
   "magnitudeUnit": "pageviews_monthly",
@@ -408,6 +529,11 @@
   "sizeUnit": "population",
   "region": [
    "Africa"
+  ],
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Chad\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 61671,
@@ -427,6 +553,10 @@
    "Africa",
    "East Africa"
   ],
+  "flag": [
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Somalia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 96891,
   "magnitudeUnit": "pageviews_monthly",
@@ -444,6 +574,11 @@
   "region": [
    "Africa",
    "West Africa"
+  ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Senegal\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 72995,
@@ -463,6 +598,13 @@
    "Africa",
    "Southern Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Zimbabwe\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 115307,
   "magnitudeUnit": "pageviews_monthly",
@@ -480,6 +622,11 @@
   "region": [
    "Africa",
    "West Africa"
+  ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Guinea\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 54092,
@@ -499,6 +646,11 @@
    "Africa",
    "East Africa"
   ],
+  "flag": [
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Rwanda\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 89676,
   "magnitudeUnit": "pageviews_monthly",
@@ -516,6 +668,11 @@
   "region": [
    "Africa",
    "West Africa"
+  ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Benin\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 65568,
@@ -535,6 +692,11 @@
    "Africa",
    "East Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Burundi\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 57166,
   "magnitudeUnit": "pageviews_monthly",
@@ -552,6 +714,10 @@
   "region": [
    "Africa",
    "North Africa"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Tunisia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 98930,
@@ -571,6 +737,14 @@
    "Africa",
    "East Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"South Sudan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 81488,
   "magnitudeUnit": "pageviews_monthly",
@@ -588,6 +762,12 @@
   "region": [
    "Africa",
    "West Africa"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Togo\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 47882,
@@ -607,6 +787,11 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Sierra Leone\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 67759,
   "magnitudeUnit": "pageviews_monthly",
@@ -624,6 +809,12 @@
   "region": [
    "Africa",
    "North Africa"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Libya\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 100148,
@@ -645,6 +836,11 @@
   "region": [
    "Africa"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Republic of the Congo\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 51596,
   "magnitudeUnit": "pageviews_monthly",
@@ -664,6 +860,13 @@
   "region": [
    "Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Central African Republic\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 69829,
   "magnitudeUnit": "pageviews_monthly",
@@ -681,6 +884,11 @@
   "region": [
    "Africa",
    "West Africa"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Liberia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 103039,
@@ -700,6 +908,11 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Mauritania\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 93847,
   "magnitudeUnit": "pageviews_monthly",
@@ -717,6 +930,12 @@
   "region": [
    "Africa",
    "East Africa"
+  ],
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Eritrea\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 108701,
@@ -738,6 +957,12 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"The Gambia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 59358,
   "magnitudeUnit": "pageviews_monthly",
@@ -755,6 +980,11 @@
   "region": [
    "Africa",
    "Southern Africa"
+  ],
+  "flag": [
+   "white",
+   "blue",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Botswana\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 71321,
@@ -774,6 +1004,13 @@
    "Africa",
    "Southern Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Namibia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 104196,
   "magnitudeUnit": "pageviews_monthly",
@@ -790,6 +1027,11 @@
   "sizeUnit": "population",
   "region": [
    "Africa"
+  ],
+  "flag": [
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Gabon\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 55614,
@@ -809,6 +1051,12 @@
    "Africa",
    "Southern Africa"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Lesotho\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 68673,
   "magnitudeUnit": "pageviews_monthly",
@@ -827,6 +1075,12 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Guinea-Bissau\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 45447,
   "magnitudeUnit": "pageviews_monthly",
@@ -843,6 +1097,13 @@
   "sizeUnit": "population",
   "region": [
    "Africa"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Equatorial Guinea\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 78931,
@@ -861,6 +1122,12 @@
   "region": [
    "Africa",
    "East Africa"
+  ],
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Mauritius\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 187206,
@@ -882,6 +1149,13 @@
    "Africa",
    "Southern Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Eswatini\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 104440,
   "magnitudeUnit": "pageviews_monthly",
@@ -900,6 +1174,12 @@
    "Africa",
    "East Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Djibouti\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 60880,
   "magnitudeUnit": "pageviews_monthly",
@@ -917,6 +1197,13 @@
   "region": [
    "Africa",
    "East Africa"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Comoros\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 50774,
@@ -938,6 +1225,12 @@
    "Africa",
    "West Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Cape Verde\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 151804,
   "magnitudeUnit": "pageviews_monthly",
@@ -958,6 +1251,12 @@
   "region": [
    "Africa"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"São Tomé and Príncipe\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 51048,
   "magnitudeUnit": "pageviews_monthly",
@@ -976,6 +1275,13 @@
    "Africa",
    "East Africa"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Seychelles\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 109340,
   "magnitudeUnit": "pageviews_monthly",
@@ -993,6 +1299,12 @@
   "region": [
    "Asia",
    "South Asia"
+  ],
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
   ],
   "source": "English Wikipedia pageviews for \"India\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 534983,
@@ -1015,6 +1327,10 @@
    "Asia",
    "East Asia"
   ],
+  "flag": [
+   "red",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"China\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 352404,
   "magnitudeUnit": "pageviews_monthly",
@@ -1032,6 +1348,10 @@
   "region": [
    "Asia",
    "Southeast Asia"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Indonesia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 241907,
@@ -1051,6 +1371,10 @@
    "Asia",
    "South Asia"
   ],
+  "flag": [
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Pakistan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 236458,
   "magnitudeUnit": "pageviews_monthly",
@@ -1069,6 +1393,10 @@
    "Asia",
    "South Asia"
   ],
+  "flag": [
+   "red",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Bangladesh\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 197251,
   "magnitudeUnit": "pageviews_monthly",
@@ -1086,6 +1414,10 @@
   "region": [
    "Asia",
    "East Asia"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Japan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 298647,
@@ -1107,6 +1439,12 @@
    "Asia",
    "Southeast Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Philippines\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 238954,
   "magnitudeUnit": "pageviews_monthly",
@@ -1127,6 +1465,10 @@
    "Asia",
    "Southeast Asia"
   ],
+  "flag": [
+   "red",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Vietnam\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 186415,
   "magnitudeUnit": "pageviews_monthly",
@@ -1144,6 +1486,11 @@
   "region": [
    "Asia",
    "Middle East"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green"
   ],
   "source": "English Wikipedia pageviews for \"Iran\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 268755,
@@ -1165,6 +1512,10 @@
    "Asia",
    "Middle East"
   ],
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Turkey\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 273534,
   "magnitudeUnit": "pageviews_monthly",
@@ -1182,6 +1533,11 @@
   "region": [
    "Asia",
    "Southeast Asia"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Thailand\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 161058,
@@ -1203,6 +1559,12 @@
    "Asia",
    "Southeast Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Myanmar\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 170312,
   "magnitudeUnit": "pageviews_monthly",
@@ -1223,6 +1585,12 @@
    "Asia",
    "East Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"South Korea\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 176400,
   "magnitudeUnit": "pageviews_monthly",
@@ -1240,6 +1608,12 @@
   "region": [
    "Asia",
    "Middle East"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Iraq\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 109706,
@@ -1260,6 +1634,12 @@
    "South Asia",
    "Central Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Afghanistan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 187723,
   "magnitudeUnit": "pageviews_monthly",
@@ -1277,6 +1657,10 @@
   "region": [
    "Asia",
    "Middle East"
+  ],
+  "flag": [
+   "white",
+   "green"
   ],
   "source": "English Wikipedia pageviews for \"Saudi Arabia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 195120,
@@ -1296,6 +1680,12 @@
    "Asia",
    "Central Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Uzbekistan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 134575,
   "magnitudeUnit": "pageviews_monthly",
@@ -1313,6 +1703,11 @@
   "region": [
    "Asia",
    "Middle East"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Yemen\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 114059,
@@ -1332,6 +1727,12 @@
    "Asia",
    "Southeast Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Malaysia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 198134,
   "magnitudeUnit": "pageviews_monthly",
@@ -1349,6 +1750,11 @@
   "region": [
    "Asia",
    "South Asia"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Nepal\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 135184,
@@ -1370,6 +1776,11 @@
    "Asia",
    "East Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"North Korea\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 193568,
   "magnitudeUnit": "pageviews_monthly",
@@ -1390,6 +1801,11 @@
    "Asia",
    "East Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Taiwan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 238802,
   "magnitudeUnit": "pageviews_monthly",
@@ -1407,6 +1823,12 @@
   "region": [
    "Asia",
    "Middle East"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Syria\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 147390,
@@ -1426,6 +1848,12 @@
    "Asia",
    "South Asia"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Sri Lanka\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 179687,
   "magnitudeUnit": "pageviews_monthly",
@@ -1444,6 +1872,10 @@
    "Asia",
    "Central Asia"
   ],
+  "flag": [
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Kazakhstan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 198012,
   "magnitudeUnit": "pageviews_monthly",
@@ -1459,6 +1891,11 @@
   "region": [
    "Asia",
    "Southeast Asia"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Cambodia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 105018,
@@ -1478,6 +1915,12 @@
    "Asia",
    "Middle East"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Jordan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 107271,
   "magnitudeUnit": "pageviews_monthly",
@@ -1494,6 +1937,12 @@
   "sizeUnit": "population",
   "region": [
    "Asia"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
   ],
   "source": "English Wikipedia pageviews for \"Azerbaijan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 130527,
@@ -1513,6 +1962,12 @@
    "Asia",
    "Central Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Tajikistan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 86510,
   "magnitudeUnit": "pageviews_monthly",
@@ -1530,6 +1985,10 @@
   "region": [
    "Asia",
    "Middle East"
+  ],
+  "flag": [
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Israel\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 298434,
@@ -1553,6 +2012,12 @@
    "Asia",
    "Middle East"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"United Arab Emirates\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 185349,
   "magnitudeUnit": "pageviews_monthly",
@@ -1572,6 +2037,11 @@
   "region": [
    "Asia",
    "Southeast Asia"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Laos\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 91898,
@@ -1593,6 +2063,10 @@
    "Asia",
    "Central Asia"
   ],
+  "flag": [
+   "red",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Kyrgyzstan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 134362,
   "magnitudeUnit": "pageviews_monthly",
@@ -1610,6 +2084,12 @@
   "region": [
    "Asia",
    "Central Asia"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Turkmenistan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 106449,
@@ -1629,6 +2109,10 @@
    "Asia",
    "Southeast Asia"
   ],
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Singapore\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 313684,
   "magnitudeUnit": "pageviews_monthly",
@@ -1646,6 +2130,11 @@
   "region": [
    "Asia",
    "Middle East"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green"
   ],
   "source": "English Wikipedia pageviews for \"Lebanon\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 128609,
@@ -1667,6 +2156,12 @@
    "Asia",
    "Middle East"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Palestine\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 159627,
   "magnitudeUnit": "pageviews_monthly",
@@ -1684,6 +2179,11 @@
   "region": [
    "Asia",
    "Middle East"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green"
   ],
   "source": "English Wikipedia pageviews for \"Oman\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 108701,
@@ -1703,6 +2203,12 @@
    "Asia",
    "Middle East"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Kuwait\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 89007,
   "magnitudeUnit": "pageviews_monthly",
@@ -1719,6 +2225,10 @@
   "sizeUnit": "population",
   "region": [
    "Asia"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Georgia (country)\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 175943,
@@ -1738,6 +2248,11 @@
    "Asia",
    "East Asia"
   ],
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Mongolia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 124500,
   "magnitudeUnit": "pageviews_monthly",
@@ -1752,6 +2267,11 @@
   "sizeUnit": "population",
   "region": [
    "Asia"
+  ],
+  "flag": [
+   "red",
+   "blue",
+   "orange"
   ],
   "source": "English Wikipedia pageviews for \"Armenia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 161149,
@@ -1771,6 +2291,10 @@
    "Asia",
    "Middle East"
   ],
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Qatar\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 100422,
   "magnitudeUnit": "pageviews_monthly",
@@ -1788,6 +2312,10 @@
   "region": [
    "Asia",
    "Middle East"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Bahrain\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 101791,
@@ -1810,6 +2338,12 @@
    "Asia",
    "Southeast Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Timor-Leste\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 84197,
   "magnitudeUnit": "pageviews_monthly",
@@ -1828,6 +2362,11 @@
    "Asia",
    "South Asia"
   ],
+  "flag": [
+   "white",
+   "yellow",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Bhutan\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 109067,
   "magnitudeUnit": "pageviews_monthly",
@@ -1845,6 +2384,11 @@
   "region": [
    "Asia",
    "South Asia"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green"
   ],
   "source": "English Wikipedia pageviews for \"Maldives\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 129553,
@@ -1866,6 +2410,12 @@
    "Asia",
    "Southeast Asia"
   ],
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Brunei\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 110375,
   "magnitudeUnit": "pageviews_monthly",
@@ -1886,6 +2436,11 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Russia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 316059,
   "magnitudeUnit": "pageviews_monthly",
@@ -1904,6 +2459,11 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Germany\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 354230,
   "magnitudeUnit": "pageviews_monthly",
@@ -1921,6 +2481,11 @@
   "region": [
    "Europe",
    "Western Europe"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"France\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 250856,
@@ -1944,6 +2509,11 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"United Kingdom\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 508348,
   "magnitudeUnit": "pageviews_monthly",
@@ -1961,6 +2531,11 @@
   "region": [
    "Europe",
    "Western Europe"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green"
   ],
   "source": "English Wikipedia pageviews for \"Italy\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 210432,
@@ -1980,6 +2555,13 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Spain\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 249852,
   "magnitudeUnit": "pageviews_monthly",
@@ -1997,6 +2579,10 @@
   "region": [
    "Europe",
    "Eastern Europe"
+  ],
+  "flag": [
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Ukraine\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 183005,
@@ -2016,6 +2602,10 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Poland\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 201117,
   "magnitudeUnit": "pageviews_monthly",
@@ -2033,6 +2623,11 @@
   "region": [
    "Europe",
    "Eastern Europe"
+  ],
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Romania\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 144346,
@@ -2055,6 +2650,11 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Netherlands\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 221390,
   "magnitudeUnit": "pageviews_monthly",
@@ -2073,6 +2673,11 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Belgium\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 149308,
   "magnitudeUnit": "pageviews_monthly",
@@ -2090,6 +2695,10 @@
   "region": [
    "Europe",
    "Scandinavia & the Nordics"
+  ],
+  "flag": [
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Sweden\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 164102,
@@ -2111,6 +2720,11 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Czech Republic\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 193050,
   "magnitudeUnit": "pageviews_monthly",
@@ -2127,6 +2741,10 @@
   "sizeUnit": "population",
   "region": [
    "Europe"
+  ],
+  "flag": [
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Greece\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 163402,
@@ -2146,6 +2764,13 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Portugal\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 163037,
   "magnitudeUnit": "pageviews_monthly",
@@ -2163,6 +2788,11 @@
   "region": [
    "Europe",
    "Eastern Europe"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green"
   ],
   "source": "English Wikipedia pageviews for \"Hungary\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 126722,
@@ -2182,6 +2812,11 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Belarus\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 133723,
   "magnitudeUnit": "pageviews_monthly",
@@ -2199,6 +2834,10 @@
   "region": [
    "Europe",
    "Western Europe"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Austria\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 135610,
@@ -2218,6 +2857,10 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Switzerland\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 191772,
   "magnitudeUnit": "pageviews_monthly",
@@ -2235,6 +2878,12 @@
   "region": [
    "Europe",
    "Eastern Europe"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Serbia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 152109,
@@ -2254,6 +2903,11 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Bulgaria\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 125687,
   "magnitudeUnit": "pageviews_monthly",
@@ -2271,6 +2925,10 @@
   "region": [
    "Europe",
    "Scandinavia & the Nordics"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Denmark\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 142033,
@@ -2292,6 +2950,11 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Slovakia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 113785,
   "magnitudeUnit": "pageviews_monthly",
@@ -2309,6 +2972,10 @@
   "region": [
    "Europe",
    "Scandinavia & the Nordics"
+  ],
+  "flag": [
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Finland\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 140176,
@@ -2328,6 +2995,11 @@
    "Europe",
    "Scandinavia & the Nordics"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Norway\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 179018,
   "magnitudeUnit": "pageviews_monthly",
@@ -2345,6 +3017,11 @@
   "region": [
    "Europe",
    "Western Europe"
+  ],
+  "flag": [
+   "white",
+   "green",
+   "orange"
   ],
   "source": "English Wikipedia pageviews for \"Ireland\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 149947,
@@ -2364,6 +3041,12 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Croatia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 170829,
   "magnitudeUnit": "pageviews_monthly",
@@ -2381,6 +3064,11 @@
   "region": [
    "Europe",
    "Eastern Europe"
+  ],
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Moldova\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 94242,
@@ -2403,6 +3091,11 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Bosnia and Herzegovina\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 150191,
   "magnitudeUnit": "pageviews_monthly",
@@ -2420,6 +3113,10 @@
   "region": [
    "Europe",
    "Eastern Europe"
+  ],
+  "flag": [
+   "red",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Albania\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 167024,
@@ -2439,6 +3136,11 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Lithuania\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 130557,
   "magnitudeUnit": "pageviews_monthly",
@@ -2456,6 +3158,12 @@
   "region": [
    "Europe",
    "Eastern Europe"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Slovenia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 128122,
@@ -2477,6 +3185,10 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"North Macedonia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 124621,
   "magnitudeUnit": "pageviews_monthly",
@@ -2494,6 +3206,10 @@
   "region": [
    "Europe",
    "Eastern Europe"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Latvia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 106388,
@@ -2513,6 +3229,11 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Kosovo\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 159384,
   "magnitudeUnit": "pageviews_monthly",
@@ -2531,6 +3252,11 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Estonia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 113998,
   "magnitudeUnit": "pageviews_monthly",
@@ -2547,6 +3273,11 @@
   "sizeUnit": "population",
   "region": [
    "Europe"
+  ],
+  "flag": [
+   "white",
+   "green",
+   "orange"
   ],
   "source": "English Wikipedia pageviews for \"Cyprus\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 180814,
@@ -2566,6 +3297,11 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Luxembourg\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 130314,
   "magnitudeUnit": "pageviews_monthly",
@@ -2584,6 +3320,13 @@
    "Europe",
    "Eastern Europe"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Montenegro\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 159384,
   "magnitudeUnit": "pageviews_monthly",
@@ -2600,6 +3343,10 @@
   "sizeUnit": "population",
   "region": [
    "Europe"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Malta\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 228757,
@@ -2619,6 +3366,11 @@
    "Europe",
    "Scandinavia & the Nordics"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Iceland\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 161302,
   "magnitudeUnit": "pageviews_monthly",
@@ -2636,6 +3388,11 @@
   "region": [
    "Europe",
    "Western Europe"
+  ],
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Andorra\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 114211,
@@ -2655,6 +3412,11 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Liechtenstein\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 127848,
   "magnitudeUnit": "pageviews_monthly",
@@ -2673,6 +3435,10 @@
    "Europe",
    "Western Europe"
   ],
+  "flag": [
+   "red",
+   "white"
+  ],
   "source": "English Wikipedia pageviews for \"Monaco\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 194146,
   "magnitudeUnit": "pageviews_monthly",
@@ -2689,6 +3455,12 @@
   "sizeUnit": "population",
   "region": [
    "Europe"
+  ],
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"San Marino\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 90924,
@@ -2708,6 +3480,11 @@
   "sizeUnit": "population",
   "region": [
    "Europe"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Vatican City\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 104592,
@@ -2731,6 +3508,11 @@
   "region": [
    "North America"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"United States\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 1527571,
   "magnitudeUnit": "pageviews_monthly",
@@ -2748,6 +3530,12 @@
   "region": [
    "North America"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
   "source": "English Wikipedia pageviews for \"Mexico\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 220690,
   "magnitudeUnit": "pageviews_monthly",
@@ -2764,6 +3552,10 @@
   "sizeUnit": "population",
   "region": [
    "North America"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Canada\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 353804,
@@ -2783,6 +3575,12 @@
    "North America",
    "Central America"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Guatemala\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 77044,
   "magnitudeUnit": "pageviews_monthly",
@@ -2800,6 +3598,13 @@
   "region": [
    "North America",
    "Caribbean"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Haiti\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 103466,
@@ -2819,6 +3624,13 @@
    "North America",
    "Caribbean"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Dominican Republic\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 109980,
   "magnitudeUnit": "pageviews_monthly",
@@ -2836,6 +3648,11 @@
   "region": [
    "North America",
    "Caribbean"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Cuba\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 118990,
@@ -2855,6 +3672,10 @@
    "North America",
    "Central America"
   ],
+  "flag": [
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Honduras\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 61793,
   "magnitudeUnit": "pageviews_monthly",
@@ -2872,6 +3693,14 @@
   "region": [
    "North America",
    "Central America"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "orange"
   ],
   "source": "English Wikipedia pageviews for \"Nicaragua\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 76617,
@@ -2891,6 +3720,13 @@
    "North America",
    "Central America"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"El Salvador\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 91929,
   "magnitudeUnit": "pageviews_monthly",
@@ -2908,6 +3744,11 @@
   "region": [
    "North America",
    "Central America"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Costa Rica\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 78535,
@@ -2927,6 +3768,11 @@
    "North America",
    "Central America"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Panama\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 68460,
   "magnitudeUnit": "pageviews_monthly",
@@ -2944,6 +3790,11 @@
   "region": [
    "North America",
    "Caribbean"
+  ],
+  "flag": [
+   "green",
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Jamaica\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 100148,
@@ -2965,6 +3816,11 @@
    "North America",
    "Caribbean"
   ],
+  "flag": [
+   "red",
+   "white",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Trinidad and Tobago\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 88428,
   "magnitudeUnit": "pageviews_monthly",
@@ -2982,6 +3838,13 @@
   "region": [
    "North America",
    "Central America"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Belize\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 93177,
@@ -3003,6 +3866,11 @@
    "North America",
    "Caribbean"
   ],
+  "flag": [
+   "blue",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"The Bahamas\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 96221,
   "magnitudeUnit": "pageviews_monthly",
@@ -3020,6 +3888,11 @@
   "region": [
    "North America",
    "Caribbean"
+  ],
+  "flag": [
+   "blue",
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Barbados\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 87911,
@@ -3041,6 +3914,12 @@
    "North America",
    "Caribbean"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Saint Lucia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 57684,
   "magnitudeUnit": "pageviews_monthly",
@@ -3058,6 +3937,11 @@
   "region": [
    "North America",
    "Caribbean"
+  ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Grenada\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 62372,
@@ -3081,6 +3965,11 @@
    "North America",
    "Caribbean"
   ],
+  "flag": [
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Saint Vincent and the Grenadines\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 42038,
   "magnitudeUnit": "pageviews_monthly",
@@ -3101,6 +3990,13 @@
    "North America",
    "Caribbean"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Antigua and Barbuda\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 40881,
   "magnitudeUnit": "pageviews_monthly",
@@ -3118,6 +4014,13 @@
   "region": [
    "North America",
    "Caribbean"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Dominica\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 58384,
@@ -3141,6 +4044,13 @@
    "North America",
    "Caribbean"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Saint Kitts and Nevis\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 53757,
   "magnitudeUnit": "pageviews_monthly",
@@ -3157,6 +4067,12 @@
   "sizeUnit": "population",
   "region": [
    "South America"
+  ],
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Brazil\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 249669,
@@ -3175,6 +4091,11 @@
   "region": [
    "South America"
   ],
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Colombia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 156401,
   "magnitudeUnit": "pageviews_monthly",
@@ -3191,6 +4112,11 @@
   "sizeUnit": "population",
   "region": [
    "South America"
+  ],
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Argentina\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 198043,
@@ -3209,6 +4135,13 @@
   "region": [
    "South America"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Peru\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 103587,
   "magnitudeUnit": "pageviews_monthly",
@@ -3225,6 +4158,12 @@
   "sizeUnit": "population",
   "region": [
    "South America"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Venezuela\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 107788,
@@ -3243,6 +4182,11 @@
   "region": [
    "South America"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Chile\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 111045,
   "magnitudeUnit": "pageviews_monthly",
@@ -3259,6 +4203,13 @@
   "sizeUnit": "population",
   "region": [
    "South America"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Ecuador\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 75552,
@@ -3277,6 +4228,11 @@
   "region": [
    "South America"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Bolivia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 84288,
   "magnitudeUnit": "pageviews_monthly",
@@ -3293,6 +4249,13 @@
   "sizeUnit": "population",
   "region": [
    "South America"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Paraguay\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 64989,
@@ -3311,6 +4274,11 @@
   "region": [
    "South America"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Uruguay\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 87515,
   "magnitudeUnit": "pageviews_monthly",
@@ -3327,6 +4295,13 @@
   "sizeUnit": "population",
   "region": [
    "South America"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Guyana\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 131805,
@@ -3345,6 +4320,12 @@
   "region": [
    "South America"
   ],
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Suriname\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 99478,
   "magnitudeUnit": "pageviews_monthly",
@@ -3361,6 +4342,11 @@
   "sizeUnit": "population",
   "region": [
    "Oceania"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Australia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 420468,
@@ -3382,6 +4368,12 @@
   "region": [
    "Oceania"
   ],
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Papua New Guinea\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 112598,
   "magnitudeUnit": "pageviews_monthly",
@@ -3402,6 +4394,11 @@
   "region": [
    "Oceania"
   ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"New Zealand\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 213871,
   "magnitudeUnit": "pageviews_monthly",
@@ -3418,6 +4415,13 @@
   "sizeUnit": "population",
   "region": [
    "Oceania"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Fiji\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 102218,
@@ -3439,6 +4443,12 @@
   "region": [
    "Oceania"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Solomon Islands\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49800,
   "magnitudeUnit": "pageviews_monthly",
@@ -3456,6 +4466,12 @@
   "region": [
    "Oceania"
   ],
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "black"
+  ],
   "source": "English Wikipedia pageviews for \"Vanuatu\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 82340,
   "magnitudeUnit": "pageviews_monthly",
@@ -3472,6 +4488,11 @@
   "sizeUnit": "population",
   "region": [
    "Oceania"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue"
   ],
   "source": "English Wikipedia pageviews for \"Samoa\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 67364,
@@ -3491,6 +4512,12 @@
   "sizeUnit": "population",
   "region": [
    "Oceania"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Kiribati\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 107453,
@@ -3512,6 +4539,10 @@
   "region": [
    "Oceania"
   ],
+  "flag": [
+   "white",
+   "blue"
+  ],
   "source": "English Wikipedia pageviews for \"Federated States of Micronesia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 38872,
   "magnitudeUnit": "pageviews_monthly",
@@ -3528,6 +4559,10 @@
   "sizeUnit": "population",
   "region": [
    "Oceania"
+  ],
+  "flag": [
+   "red",
+   "white"
   ],
   "source": "English Wikipedia pageviews for \"Tonga\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 59723,
@@ -3549,6 +4584,11 @@
   "region": [
    "Oceania"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "orange"
+  ],
   "source": "English Wikipedia pageviews for \"Marshall Islands\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 56405,
   "magnitudeUnit": "pageviews_monthly",
@@ -3565,6 +4605,10 @@
   "sizeUnit": "population",
   "region": [
    "Oceania"
+  ],
+  "flag": [
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Palau\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 66390,
@@ -3583,6 +4627,11 @@
   "region": [
    "Oceania"
   ],
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
   "source": "English Wikipedia pageviews for \"Nauru\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 123617,
   "magnitudeUnit": "pageviews_monthly",
@@ -3599,6 +4648,12 @@
   "sizeUnit": "population",
   "region": [
    "Oceania"
+  ],
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Tuvalu\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 61367,
