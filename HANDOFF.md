@@ -19,7 +19,7 @@ URL).
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` knows this as `wormillion` for the in-app browser pane).
 - **Green:** `npm test` (95 tests), `npm run validate` (1,389 entries), `npm run gap-check`, `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
-- **Working tree:** clean at handoff; everything below is pushed.
+- **Working tree:** clean at handoff; everything below is pushed. Last commit `5ff2efb`; the live site has it.
 
 ### What landed on 2026-09-11/12, in order (all on `main`)
 
@@ -36,7 +36,7 @@ URL).
 | `28e9c71` | "Estonia is a country — this round wants a capital city" instead of "Not recognized"; capital flag prompt reworded |
 | `460450b`, `0b69527`, `dc7925a` | Letter rules: filler never counts for letters, only length; "Loch"/"Saint"/"Cape" are names |
 | `065f18b` | Audit fixes from the subagent report (see "The audit" below) |
-| (next) | The three audit questions decided: typed-length rule, seas keep "Sea", `sizeRange` for Amur/Ob/Mississippi |
+| `5ff2efb` | The three audit questions decided: typed-length rule, seas keep "Sea", `sizeRange` for Amur/Ob/Mississippi |
 
 Before those, the previous session landed the seven items in
 `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags,
@@ -129,7 +129,7 @@ npm run validate                     # schema, aliases, regions, oceans, flags, 
 `window.__wormillion` exposes `renderer`, `burst`, `currentRun()`,
 `diveTo(depth, tier)` and `celebrate()`.
 
-- **After a directory change mid-session, `preview_start` by name still looks for `.claude/launch.json` in the ORIGINAL folder.** Start the server yourself (`node scripts/serve.mjs` in the background) and `navigate` to `http://localhost:8123/?debug`; kill the node process after. A fresh session opened in the new folder won't have this problem.
+- **The browser pane's `preview_start` by name reads `.claude/launch.json` from the folder the session was OPENED in.** It does not follow a mid-session directory change until the session is restarted. Open new sessions in `C:\Users\smite\repos\wormillion` and it just works (the launch config is `wormillion`, port 8123). If it ever can't find the config, the fallback is `node scripts/serve.mjs` in the background plus `navigate` to `http://localhost:8123/?debug`.
 - **The pane pauses `requestAnimationFrame` when hidden.** Pump frames yourself: `for (let i = 0; i < 80; i++) __wormillion.renderer.update(0.05); __wormillion.renderer.draw();` — that completes a dive and fires `onArrive`, which advances the round. Then `wait` ~1 s before a screenshot or the pane shows the previous frame.
 - **Rounds are 30 s and tool round-trips are slow.** Two calls can eat a round; a timed-out round silently advances, which looks like "Gobi isn't recognised as a desert" when it's really "the prompt is now a sea". Do set-slot + submit + screenshot in ONE `browser_batch` / one JS call.
 - To force a prompt: `const run = __wormillion.currentRun(); run.state.slots[run.roundNumber - 1] = { category: 'country', flag: { colours: ['green'] } };` then repaint `#prompt-text` from `run.prompt().text`. Slot shapes: `{category}`, `{category, region}`, `{category, theme}`, `{category, ocean}`, `{category, flag:{colours:[…]}}`, `{category, size:{op,value}}`, `{category, letter:{kind,letter}}`.
@@ -156,6 +156,12 @@ npm run validate                     # schema, aliases, regions, oceans, flags, 
 A general-purpose subagent audited every generated prompt's answer set (the report lived in the session scratchpad; the substance is here). Fixed: (1) **exact name beats fuzzy correction** — on a narrowed prompt "Australia" was corrected to Austria and scored; `run.js` now checks the whole category exactly, then other categories, before accepting a correction; (2) size thresholds strict both ways left Chalbi Desert (exactly 100,000 km²) unacceptable for either prompt — now inclusive; (3) `cape` in the letter filler; (4) countries/capitals stripped of official words (Solomon Islands had no D) — now only a leading "the"; (5) Aral Sea only in seas — now also a lake; (6) volcano theme missing 14 volcanoes in the bank, Caribbean theme missing Saint Lucia/Dominica/Grenada/Saint Vincent/Cozumel/Isla Mujeres/Bahamas, Mediterranean missing Djerba; (7) Guatemala's flag missing red (the quetzal), plus six lenient additions; (8) "Big Island" alias, Gasherbrum II (the 14th eight-thousander), Kiribati's non-name alias "Tarawa" removed; (9) ø/æ/œ/ł/ß/đ/ð folded in `normalize` (both copies: `matching.js` and `validate-data.mjs` — keep them in sync); (10) "in the Caribbean" / "in the Middle East".
 
 Reported and **left for the user to decide** (see next section): formal-name aliases making short names long (China via People's Republic of China) and vice versa (US/UK/NZ short); the sea cohort where ~80% of names end in "Sea" so "ends in A" rejects Black Sea; loose-key collisions (`arabian`: Arabian Sea vs Persian Gulf's alias "Arabian Gulf"; `great salt`); bank-invented disambiguators ("Cuba Island", "Singapore City") counting toward "long name"; Amur listed at 2,824 km (4,444 with the Argun); Vietnam at 98.9M sits just under "over 100 million"; K2's letters collapse to `k`.
+
+## Housekeeping left over from the move
+
+- `C:\Users\smite\wormillion` still exists. It is an **empty husk** except for one stray file, `.claude\launch.json`, which the last session put there as a shim (it points at the new folder's `serve.mjs`) and which is no longer needed. The folder couldn't be deleted while any Claude Code session that started there was open — Windows treats a process's original working directory as in use. Once no such session is running: `Remove-Item -Recurse -Force C:\Users\smite\wormillion`. Nothing in it matters.
+- The session that did all of 2026-09-11/12's work ran from the old path and was retired at context limit right after `5ff2efb`. Its Claude Code memory is keyed to the old path and won't be seen from here; this file is the memory.
+- The audit report the subagent wrote (`audit-report.md`) lived in that session's scratchpad and is gone with it; everything actionable from it is either fixed (`065f18b`, `5ff2efb`) or listed under "still undecided" below.
 
 ## Open threads and likely next tasks
 
