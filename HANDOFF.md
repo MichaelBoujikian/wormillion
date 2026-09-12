@@ -18,7 +18,7 @@ URL).
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main` (the `deploy` workflow; `ci` runs test + validate on Node 22). `gh run list` shows both.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` knows this as `wormillion` for the in-app browser pane).
-- **Green:** `npm test` (87 tests), `npm run validate` (1,387 entries), `npm run gap-check`, `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
+- **Green:** `npm test` (92 tests), `npm run validate` (1,389 entries), `npm run gap-check`, `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
 - **Working tree:** clean at handoff; everything below is pushed.
 
 ### What landed on 2026-09-11/12, in order (all on `main`)
@@ -34,6 +34,8 @@ URL).
 | `c7eb078` | Jackpot digs carve a wider crater (radius 11; 14 for 100%), tapered |
 | `01f3809` | Capital themes (not the largest city / on the coast / US state capitals); 50 state capitals join the capital cohort; capitals carry flags; flag weight up |
 | `28e9c71` | "Estonia is a country — this round wants a capital city" instead of "Not recognized"; capital flag prompt reworded |
+| `460450b`, `0b69527`, `dc7925a` | Letter rules: filler never counts for letters, only length; "Loch"/"Saint"/"Cape" are names |
+| (next) | Audit fixes from the subagent report (see "The audit" below) |
 
 Before those, the previous session landed the seven items in
 `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags,
@@ -147,9 +149,16 @@ npm run validate                     # schema, aliases, regions, oceans, flags, 
 - **`file://` must keep working.** Classic scripts + generated `data/bank.js`, no ES modules, no `fetch()`, no external resources. `npm run bundle` makes the single-file `dist/wormillion.html` for sending to people.
 - **`ui.js` is the only module that touches `document`.** `worldRender.js` and `jackpot.js` take canvases; `run.js` returns data (`elsewhere`, `ladder`, `scopeName`) and `ui.js` turns it into words. That is what keeps the suite runnable with plain `node --test`.
 
+## The audit (2026-09-12)
+
+A general-purpose subagent audited every generated prompt's answer set (the report lived in the session scratchpad; the substance is here). Fixed: (1) **exact name beats fuzzy correction** — on a narrowed prompt "Australia" was corrected to Austria and scored; `run.js` now checks the whole category exactly, then other categories, before accepting a correction; (2) size thresholds strict both ways left Chalbi Desert (exactly 100,000 km²) unacceptable for either prompt — now inclusive; (3) `cape` in the letter filler; (4) countries/capitals stripped of official words (Solomon Islands had no D) — now only a leading "the"; (5) Aral Sea only in seas — now also a lake; (6) volcano theme missing 14 volcanoes in the bank, Caribbean theme missing Saint Lucia/Dominica/Grenada/Saint Vincent/Cozumel/Isla Mujeres/Bahamas, Mediterranean missing Djerba; (7) Guatemala's flag missing red (the quetzal), plus six lenient additions; (8) "Big Island" alias, Gasherbrum II (the 14th eight-thousander), Kiribati's non-name alias "Tarawa" removed; (9) ø/æ/œ/ł/ß/đ/ð folded in `normalize` (both copies: `matching.js` and `validate-data.mjs` — keep them in sync); (10) "in the Caribbean" / "in the Middle East".
+
+Reported and **left for the user to decide** (see next section): formal-name aliases making short names long (China via People's Republic of China) and vice versa (US/UK/NZ short); the sea cohort where ~80% of names end in "Sea" so "ends in A" rejects Black Sea; loose-key collisions (`arabian`: Arabian Sea vs Persian Gulf's alias "Arabian Gulf"; `great salt`); bank-invented disambiguators ("Cuba Island", "Singapore City") counting toward "long name"; Amur listed at 2,824 km (4,444 with the Argun); Vietnam at 98.9M sits just under "over 100 million"; K2's letters collapse to `k`.
+
 ## Open threads and likely next tasks
 
 - **Non-capital cities — a ninth category, so it touches the draw.** Needs a new authoring file (`scripts/data-cities.mjs`, `Name|Country|population|aliases`), a `city` category key in `promptBank.js` (`NOUN`, `CATEGORY_LABEL`, `SIZE_RULES` with population thresholds), a 12×12 icon in `icons.js`, `EXPECTED` keywords in `fetch-pageviews.mjs` for the description audit, region tags inherited from the country, and a flag inherited from the country. Decide with the user whether the cohort excludes capitals. SPEC 3.8's draw assumes 8 categories — with 9, "every category once or twice" needs restating (15 slots over 9) and `tests/prompts.test.js` / `run.test.js` assert the current shape. Update SPEC §3.8 and §6 in the same change. This is the one task big enough that the user might want a subagent for it; they asked about subagents and were told this was the natural candidate.
+- **From the audit, undecided:** (a) should the *length* rules judge the typed answer rather than the entry, so "China" is not a long name but "People's Republic of China" is? (b) should `sea`/`ocean` count as name words for the sea cohort, where "Black Sea ends in A" is what every player will assume? (c) drop the "Arabian Gulf" alias or extend the validator to loose-key collisions? (d) Amur 2,824 → 4,444 km?
 - **Flag-prompt weight.** Currently 3 (~0.8 per run). The user asked for "just a bit" more and was told this is more than a bit; if it feels heavy, drop to 2 (~0.6 per run).
 - **Should 85–99% also be flat for points?** Only depth was flattened. The user talked about soil level; points were not mentioned. Ask before changing.
 - **`POINTS_GAMMA` balance** — a typical answer pays ~460 pts. `npm run score-report` prints the curve.

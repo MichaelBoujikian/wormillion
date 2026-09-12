@@ -263,6 +263,7 @@ export const WIKI_VERIFIED = new Set([
   'island-madagascar-island',
   'sea_ocean-caspian-sea', // "Lake in Eurasia" - the world's largest, named a sea
   'sea_ocean-aral-sea',
+  'lake-aral-sea', // same article; it is a lake as much as the Caspian is
   'sea_ocean-aegean-sea',
   'country-micronesia',
 

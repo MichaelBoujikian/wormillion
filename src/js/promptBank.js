@@ -89,6 +89,10 @@
 
   const LETTERS = 'abcdefghijklmnoprstuvwz'.split('');
 
+  // Regions that take "the" in a sentence: "in the Caribbean", not "in Caribbean".
+  const REGIONS_WITH_THE = new Set(['Caribbean', 'Middle East']);
+  const regionPhrase = (region) => (REGIONS_WITH_THE.has(region) ? `the ${region}` : region);
+
   /** Fisher-Yates, driven by an injectable rng for deterministic tests. */
   function shuffle(items, rng) {
     const a = items.slice();
@@ -104,10 +108,16 @@
   // What a letter rule strips before looking at a name: the generic English
   // words. Matching strips more ("Ness" still finds Loch Ness), but for letters
   // a word that IS the name stays: "Loch Ness" starts with L, "Saint Lucia"
-  // starts with S - "loch" is not the word "lake", whatever it means.
+  // starts with S, "Cape Verde" starts with C - "loch" is not the word "lake",
+  // whatever it means, and no "Cape" in this bank is a generic one.
   const LETTER_FILLER = new Set(
-    [...matching.FILLER].filter((word) => !['loch', 'lough', 'llyn', 'saint', 'st'].includes(word))
+    [...matching.FILLER].filter((word) => !['loch', 'lough', 'llyn', 'saint', 'st', 'cape'].includes(word))
   );
+  // A country's or capital's name is its official name, generic words and
+  // all: the Solomon Islands have a D in them, Port of Spain has an F, Mexico
+  // City ends in Y. Only a leading "the" is dropped.
+  const NAME_FILLER = new Set(['the']);
+  const letterFillerFor = (category) => (category === 'country' || category === 'capital' ? NAME_FILLER : LETTER_FILLER);
 
   /**
    * The spellings a LETTER rule looks at: every name and alias with the
@@ -118,8 +128,9 @@
    */
   function variantsOf(entry) {
     const out = new Set();
+    const filler = letterFillerFor(entry.category);
     for (const candidate of [entry.name, ...(entry.aliases || [])]) {
-      const bare = matching.looseKey(candidate, LETTER_FILLER);
+      const bare = matching.looseKey(candidate, filler);
       if (bare) out.add(bare);
     }
     if (out.size === 0) {
@@ -220,7 +231,10 @@
 
   function satisfiesSize(entry, rule) {
     if (!(entry.size > 0)) return false;
-    return rule.op === 'over' ? entry.size > rule.value : entry.size < rule.value;
+    // Inclusive both ways: a figure sitting exactly on a round threshold is a
+    // rounded figure, and "larger than 100,000 km²" should not reject the one
+    // desert listed at 100,000 while "smaller than" rejects it too.
+    return rule.op === 'over' ? entry.size >= rule.value : entry.size <= rule.value;
   }
 
   function sizePromptText(category, rule) {
@@ -544,7 +558,7 @@
       let scope = null;
 
       if (slot.region) {
-        text = `Name ${a} ${noun} in ${slot.region}.`;
+        text = `Name ${a} ${noun} in ${regionPhrase(slot.region)}.`;
         scope = `region:${slot.region}`;
         lookup = subsetLookup(cohort, scope, (entry) => (entry.region || []).includes(slot.region));
       } else if (slot.theme) {
@@ -588,7 +602,7 @@
         // is not a place the answer can be "in", so it gets the generic hint;
         // a theme worded "in the Alps" is.
         scopeName:
-          slot.region || (slot.theme && !promptTextFor[slot.theme] ? slot.theme : null) ||
+          (slot.region ? regionPhrase(slot.region) : null) || (slot.theme && !promptTextFor[slot.theme] ? slot.theme : null) ||
           (slot.ocean ? `the ${slot.ocean} Ocean` : null) ||
           (slot.size || slot.letter || slot.flag || slot.theme ? 'that pattern' : null),
         constrained: Boolean(scope),

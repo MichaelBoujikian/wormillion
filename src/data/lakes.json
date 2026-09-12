@@ -16,6 +16,20 @@
   "lon": 50.5
  },
  {
+  "id": "lake-aral-sea",
+  "category": "lake",
+  "name": "Aral Sea",
+  "aliases": [],
+  "size": 17160,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aral Sea\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 46208,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aral Sea",
+  "lat": 45,
+  "lon": 60
+ },
+ {
   "id": "lake-lake-superior",
   "category": "lake",
   "name": "Lake Superior",

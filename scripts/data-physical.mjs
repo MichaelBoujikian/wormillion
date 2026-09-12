@@ -13,6 +13,7 @@
 
 export const LAKES = `
 Caspian Sea|371000|the Caspian
+Aral Sea|17160
 Lake Superior|82100|Superior
 Lake Victoria|68870|Victoria
 Lake Huron|59600|Huron
@@ -278,6 +279,7 @@ Manaslu|8163
 Nanga Parbat|8126
 Annapurna|8091
 Gasherbrum I|8080|Hidden Peak
+Gasherbrum II|8035|K4
 Broad Peak|8051
 Shishapangma|8027
 Aconcagua|6961|Mount Aconcagua
@@ -571,7 +573,7 @@ Negros|13310
 Palawan|12189
 Panay|12011
 Jamaica Island|10991
-Big Island of Hawaii|10433|Hawaii Island
+Big Island of Hawaii|10433|Hawaii Island,Big Island
 Cape Breton Island|10311|Cape Breton
 Cyprus Island|9251
 Puerto Rico|8870

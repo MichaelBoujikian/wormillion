@@ -213,6 +213,23 @@ test('letter rules accept any spelling the player might reasonably type', () => 
   assert.ok(promptBank.satisfiesLetter(lucia, { kind: 'starts', letter: 's' }), 'Saint is part of the name');
   assert.ok(!promptBank.satisfiesLetter(lucia, { kind: 'starts', letter: 'l' }));
 
+  // No "Cape" in the bank is a generic one: Cape Verde starts with C and has a P.
+  const verde = { category: 'island', name: 'Cape Verde', aliases: ['Cabo Verde'] };
+  verde.variants = promptBank.variantsOf(verde);
+  assert.ok(promptBank.satisfiesLetter(verde, { kind: 'starts', letter: 'c' }));
+  assert.ok(promptBank.satisfiesLetter(verde, { kind: 'contains', letter: 'p' }));
+
+  // A country's or capital's name is its official name, generic words and all.
+  const solomons = { category: 'country', name: 'Solomon Islands', aliases: ['Solomons'] };
+  solomons.variants = promptBank.variantsOf(solomons);
+  assert.ok(promptBank.satisfiesLetter(solomons, { kind: 'contains', letter: 'd' }), 'Islands is in the name');
+  const mexico = { category: 'capital', name: 'Mexico City', aliases: ['CDMX'] };
+  mexico.variants = promptBank.variantsOf(mexico);
+  assert.ok(promptBank.satisfiesLetter(mexico, { kind: 'ends', letter: 'y' }));
+  const gambia = { category: 'country', name: 'Gambia', aliases: ['The Gambia'] };
+  gambia.variants = promptBank.variantsOf(gambia);
+  assert.ok(!promptBank.satisfiesLetter(gambia, { kind: 'starts', letter: 't' }), 'a leading "the" is still dropped');
+
   // Length is about what the player types, filler included: "Mount
   // Kilimanjaro" is a long name whichever way the bank's row is spelled.
   const kili = { name: 'Kilimanjaro', aliases: ['Mount Kilimanjaro'] };
@@ -305,6 +322,14 @@ test('a run finishes after its rounds and summarizes correctly', () => {
   assert.ok(Math.abs(summary.finalDepth - expectedDepth) < 1e-9);
   assert.strictEqual(typeof summary.deepestStratum, 'string');
   assert.ok(!Number.isNaN(Date.parse(summary.date)));
+});
+
+test('size thresholds are inclusive both ways', () => {
+  const exactly = { size: 1000 };
+  assert.ok(promptBank.satisfiesSize(exactly, { op: 'over', value: 1000 }));
+  assert.ok(promptBank.satisfiesSize(exactly, { op: 'under', value: 1000 }));
+  assert.ok(!promptBank.satisfiesSize({ size: 999 }, { op: 'over', value: 1000 }));
+  assert.ok(!promptBank.satisfiesSize({ size: 1001 }, { op: 'under', value: 1000 }));
 });
 
 test('a real place from another category is named as such, not "unrecognized"', () => {

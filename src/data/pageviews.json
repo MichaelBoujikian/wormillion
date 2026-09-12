@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-12",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-12T05:53:02.808Z",
+ "fetched": "2026-09-12T18:03:51.296Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -3119,6 +3119,13 @@
    "lat": 42,
    "lon": 50.5
   },
+  "lake-aral-sea": {
+   "title": "Aral Sea",
+   "monthlyViews": 46208,
+   "days": 60,
+   "lat": 45,
+   "lon": 60
+  },
   "lake-lake-superior": {
    "title": "Lake Superior",
    "monthlyViews": 47091,
@@ -4931,6 +4938,13 @@
    "days": 60,
    "lat": 35.72444444,
    "lon": 76.69638889
+  },
+  "mountain-gasherbrum-ii": {
+   "title": "Gasherbrum II",
+   "monthlyViews": 3714,
+   "days": 60,
+   "lat": 35.75833333,
+   "lon": 76.65333333
   },
   "mountain-broad-peak": {
    "title": "Broad Peak",

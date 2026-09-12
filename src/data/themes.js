@@ -155,7 +155,10 @@ globalThis.WORMILLION_THEMES = {
       'Mount Merapi', 'Mount Pinatubo', 'Mayon', 'Mount Teide', 'Haleakala',
       'Mauna Loa', 'Mount Aso', 'Mount Bromo', 'Mount Agung', 'Mount Rinjani',
       'Mount Semeru', 'Mount Kilimanjaro', 'Mount Shasta', 'Mount Hood',
-      'Mount Baker', 'Mount Ararat', 'Damavand', 'Mount Cameroon'
+      'Mount Baker', 'Mount Ararat', 'Damavand', 'Mount Cameroon',
+      'Chimborazo', 'Mauna Kea', 'Elbrus', 'Pico de Orizaba', 'Ojos del Salado',
+      'Mount Ruapehu', 'Mount Taranaki', 'Mount Tongariro', 'Mount Ngauruhoe',
+      'Hallasan', 'Paektu Mountain', 'Mount Kenya', 'Puy de Dome', 'Mount Apo'
     ]
   },
 
@@ -167,7 +170,9 @@ globalThis.WORMILLION_THEMES = {
       'Nevis', 'Saint Kitts', 'Tortola', 'Virgin Gorda', 'Saint Thomas',
       'Saint Croix', 'Antigua', 'Barbuda', 'Eleuthera', 'Andros Island',
       'Grand Bahama', 'New Providence', 'Great Exuma', 'Great Abaco', 'Roatan',
-      'Providenciales', 'Grand Turk', 'San Andres', 'Margarita Island'
+      'Providenciales', 'Grand Turk', 'San Andres', 'Margarita Island',
+      'Saint Lucia Island', 'Dominica Island', 'Grenada Island', 'Saint Vincent Island',
+      'Cozumel', 'Isla Mujeres', 'Bahamas'
     ],
     'the Mediterranean': [
       'Sicily', 'Sardinia', 'Corsica', 'Crete', 'Cyprus Island', 'Malta Island',
@@ -175,7 +180,7 @@ globalThis.WORMILLION_THEMES = {
       'Naxos', 'Paros', 'Milos', 'Kos', 'Samos', 'Chios', 'Euboea', 'Hydra',
       'Patmos', 'Delos', 'Ithaca', 'Gozo', 'Menorca', 'Mallorca', 'Ibiza',
       'Formentera', 'Elba', 'Capri', 'Ischia', 'Lampedusa', 'Pantelleria',
-      'Lipari', 'Vulcano', 'Lesbos', 'Cyclades'
+      'Lipari', 'Vulcano', 'Lesbos', 'Cyclades', 'Djerba'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
@@ -204,7 +209,7 @@ globalThis.WORMILLION_THEMES = {
       'Caspian Sea', 'Dead Sea', 'Great Salt Lake', 'Salton Sea', 'Lake Urmia',
       'Lake Van', 'Lake Eyre', 'Lake Torrens', 'Lake Gairdner', 'Mono Lake',
       'Lake Assal', 'Lake Issyk-Kul', 'Qinghai Lake', 'Uvs Lake', 'Lake Balkhash',
-      'Sarygamysh Lake', 'Lake Poopo', 'Lake Turkana', 'Lake Nakuru'
+      'Sarygamysh Lake', 'Lake Poopo', 'Lake Turkana', 'Lake Nakuru', 'Aral Sea'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [

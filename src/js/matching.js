@@ -25,6 +25,8 @@
     return input
       .normalize('NFD')
       .replace(/[̀-ͯ]/g, '') // strip diacritics so "Yaoundé" == "Yaounde"
+      // ...and fold the letters NFD leaves alone, so "Møn" == "Mon"
+      .replace(/ø/gi, 'o').replace(/æ/gi, 'ae').replace(/œ/gi, 'oe').replace(/ł/gi, 'l').replace(/ß/g, 'ss').replace(/[đð]/gi, 'd')
       .toLowerCase()
       .replace(/[‘’ʼ]/g, "'")
       .replace(/[–—‒]/g, '-')

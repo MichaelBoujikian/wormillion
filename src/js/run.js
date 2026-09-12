@@ -53,34 +53,59 @@
      *   'unrecognized' carries `elsewhere: {entry, category}` when the answer is
      *   a real place from a different category (Estonia on a capitals round).
      */
+    /** The out-of-scope result for a real place in this category that doesn't fit the prompt. */
+    function wrongScope(current, entryId) {
+      return {
+        status: 'wrong-scope',
+        entry: current.cohort.byId.get(entryId),
+        scopeName: current.scopeName,
+        prompt: current.text
+      };
+    }
+
+    /**
+     * A real place from a different category, if the input names one. Exact
+     * and loose hits only when `exactOnly` - a fuzzy near-miss in another
+     * category is not evidence of anything.
+     */
+    function elsewhere(rawInput, category, exactOnly) {
+      for (const [other, cohort] of bank.cohorts) {
+        if (other === category) continue;
+        const hit = matching.matchAnswer(rawInput, cohort.lookup, null, { fuzzy: !exactOnly });
+        if (hit.status === 'accepted' || hit.status === 'corrected') {
+          return { entry: cohort.byId.get(hit.entryId), category: other };
+        }
+      }
+      return null;
+    }
+
     function submit(rawInput) {
       if (state.finished) return { status: 'unrecognized' };
       const current = prompt();
       const match = matching.matchAnswer(rawInput, current.lookup, state.usedAnswers);
+
+      // An exact name beats a spelling correction. On a narrowed prompt the
+      // subset lookup can't see the rest of the category, so without this
+      // "Australia" on a Europe round would be "corrected" to Austria and
+      // scored; it is Australia, and Australia is out of scope.
+      if (match.status === 'corrected') {
+        const exact = matching.matchAnswer(rawInput, current.cohort.lookup, null, { fuzzy: false });
+        if (exact.status === 'accepted' && exact.entryId !== match.entryId) return wrongScope(current, exact.entryId);
+        const named = elsewhere(rawInput, current.category, true);
+        if (named) return { status: 'unrecognized', elsewhere: named };
+      }
 
       if (match.status === 'unrecognized') {
         // A real place that just doesn't fit this prompt is a different mistake
         // from a place we've never heard of, and deserves a different hint.
         if (current.constrained) {
           const wide = matching.matchAnswer(rawInput, current.cohort.lookup, null);
-          if (wide.status === 'accepted' || wide.status === 'corrected') {
-            return {
-              status: 'wrong-scope',
-              entry: current.cohort.byId.get(wide.entryId),
-              scopeName: current.scopeName,
-              prompt: current.text
-            };
-          }
+          if (wide.status === 'accepted' || wide.status === 'corrected') return wrongScope(current, wide.entryId);
         }
         // A real place from another category deserves a nudge, not a shrug:
         // "Estonia is a country - this round wants a capital city."
-        for (const [category, cohort] of bank.cohorts) {
-          if (category === current.category) continue;
-          const other = matching.matchAnswer(rawInput, cohort.lookup, null);
-          if (other.status === 'accepted' || other.status === 'corrected') {
-            return { status: 'unrecognized', elsewhere: { entry: cohort.byId.get(other.entryId), category } };
-          }
-        }
+        const named = elsewhere(rawInput, current.category, false);
+        if (named) return { status: 'unrecognized', elsewhere: named };
         return { status: 'unrecognized' };
       }
 

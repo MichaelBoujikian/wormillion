@@ -1963,7 +1963,8 @@
   "flag": [
    "red",
    "white",
-   "blue"
+   "blue",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Phnom Penh\", 60-day daily median (60 days ending 2026-09-12); Capital of Cambodia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 27700,
@@ -3146,7 +3147,8 @@
    "red",
    "white",
    "blue",
-   "yellow"
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Zagreb\", 60-day daily median (60 days ending 2026-09-12); Capital of Croatia; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 36102,
@@ -3699,6 +3701,7 @@
   ],
   "country": "Guatemala",
   "flag": [
+   "red",
    "white",
    "blue",
    "green",
@@ -3878,7 +3881,9 @@
   "flag": [
    "red",
    "white",
-   "blue"
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"San José, Costa Rica\", 60-day daily median (60 days ending 2026-09-12); Capital of Costa Rica; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 13942,
@@ -4298,6 +4303,7 @@
    "red",
    "white",
    "blue",
+   "green",
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Caracas\", 60-day daily median (60 days ending 2026-09-12); Capital of Venezuela; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
@@ -4346,7 +4352,8 @@
    "white",
    "blue",
    "green",
-   "yellow"
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Quito\", 60-day daily median (60 days ending 2026-09-12); Capital of Ecuador; country population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23865,
@@ -4370,6 +4377,8 @@
   "country": "Bolivia",
   "flag": [
    "red",
+   "white",
+   "blue",
    "green",
    "yellow"
   ],

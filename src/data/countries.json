@@ -1895,7 +1895,8 @@
   "flag": [
    "red",
    "white",
-   "blue"
+   "blue",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Cambodia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 105018,
@@ -3045,7 +3046,8 @@
    "red",
    "white",
    "blue",
-   "yellow"
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Croatia\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 170829,
@@ -3576,6 +3578,7 @@
    "Central America"
   ],
   "flag": [
+   "red",
    "white",
    "blue",
    "green",
@@ -3748,7 +3751,9 @@
   "flag": [
    "red",
    "white",
-   "blue"
+   "blue",
+   "green",
+   "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Costa Rica\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 78535,
@@ -4163,6 +4168,7 @@
    "red",
    "white",
    "blue",
+   "green",
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Venezuela\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
@@ -4209,7 +4215,8 @@
    "white",
    "blue",
    "green",
-   "yellow"
+   "yellow",
+   "black"
   ],
   "source": "English Wikipedia pageviews for \"Ecuador\", 60-day daily median (60 days ending 2026-09-12); UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 75552,
@@ -4230,6 +4237,8 @@
   ],
   "flag": [
    "red",
+   "white",
+   "blue",
    "green",
    "yellow"
   ],
@@ -4505,9 +4514,7 @@
   "id": "country-kiribati",
   "category": "country",
   "name": "Kiribati",
-  "aliases": [
-   "Tarawa"
-  ],
+  "aliases": [],
   "size": 133000,
   "sizeUnit": "population",
   "region": [

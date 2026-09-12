@@ -901,7 +901,8 @@
   "category": "island",
   "name": "Big Island of Hawaii",
   "aliases": [
-   "Hawaii Island"
+   "Hawaii Island",
+   "Big Island"
   ],
   "size": 10433,
   "sizeUnit": "area_km2",

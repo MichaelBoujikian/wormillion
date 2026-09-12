@@ -109,7 +109,7 @@ Taiwan|red+blue+white
 Syria|green+white+black+red
 Sri Lanka|red+yellow+green+orange
 Kazakhstan|blue+yellow
-Cambodia|blue+red+white
+Cambodia|blue+red+white+black
 Jordan|black+white+green+red
 Azerbaijan|blue+red+green+white
 Tajikistan|red+white+green+yellow
@@ -158,7 +158,7 @@ Slovakia|white+blue+red
 Finland|white+blue
 Norway|red+white+blue
 Ireland|green+white+orange
-Croatia|red+white+blue+yellow
+Croatia|red+white+blue+yellow+black
 Moldova|blue+yellow+red
 Bosnia and Herzegovina|blue+yellow+white
 Albania|red+black
@@ -181,14 +181,14 @@ Vatican City|yellow+white+red
 United States|red+white+blue
 Mexico|green+white+red+blue
 Canada|red+white
-Guatemala|blue+white+yellow+green
+Guatemala|blue+white+yellow+green+red
 Haiti|blue+red+white+green+yellow
 Dominican Republic|blue+red+white+yellow+green
 Cuba|blue+white+red
 Honduras|blue+white
 Nicaragua|blue+white+red+yellow+green+orange
 El Salvador|blue+white+yellow+green+red
-Costa Rica|blue+white+red
+Costa Rica|blue+white+red+green+yellow
 Panama|red+white+blue
 Jamaica|black+green+yellow
 Trinidad and Tobago|red+white+black
@@ -205,10 +205,10 @@ Brazil|green+yellow+blue+white
 Colombia|yellow+blue+red
 Argentina|blue+white+yellow
 Peru|red+white+green+yellow+blue
-Venezuela|yellow+blue+red+white
+Venezuela|yellow+blue+red+white+green
 Chile|red+white+blue
-Ecuador|yellow+blue+red+white+green
-Bolivia|red+yellow+green
+Ecuador|yellow+blue+red+white+green+black
+Bolivia|red+yellow+green+blue+white
 Paraguay|red+white+blue+yellow+green
 Uruguay|white+blue+yellow
 Guyana|green+yellow+white+black+red

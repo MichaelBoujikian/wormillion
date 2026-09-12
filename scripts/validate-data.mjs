@@ -39,6 +39,7 @@ export function normalize(input) {
   return String(input)
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
+    .replace(/ø/gi, 'o').replace(/æ/gi, 'ae').replace(/œ/gi, 'oe').replace(/ł/gi, 'l').replace(/ß/g, 'ss').replace(/[đð]/gi, 'd')
     .toLowerCase()
     .replace(/[‘’ʼ]/g, "'")
     .replace(/[–—‒]/g, '-')

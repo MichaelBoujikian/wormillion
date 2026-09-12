@@ -16,7 +16,7 @@ early on, "Name a river with a T in it" or "Name a river in Mesopotamia" later.
 Misspellings are corrected rather than rejected — type "Kilimanjro" and you get
 Kilimanjaro, with the real spelling shown.
 
-No accounts, no daily lock, no build step, no runtime dependencies. 1,387 real
+No accounts, no daily lock, no build step, no runtime dependencies. 1,389 real
 places in the bank.
 
 ## Play locally
@@ -195,7 +195,9 @@ aliases with filler words ("mount", "lake", "the") stripped — the filler is no
 part of the name. So "Mount Fuji" has no T in it and does not start with M,
 "Lake Baikal" starts with B, and "Nile" does not get a T from its alias "the
 Nile". A word that *is* the name stays even if it means "lake" somewhere:
-"Loch Ness" starts with L, "Saint Lucia" starts with S. The two length rules ("short name", "long name") are the exception and
+"Loch Ness" starts with L, "Saint Lucia" starts with S, "Cape Verde" starts
+with C. Countries and capitals keep their official names whole — the Solomon
+Islands have a D, Mexico City ends in Y. The two length rules ("short name", "long name") are the exception and
 count each spelling in full — length is about what you type, so "Mount
 Kilimanjaro" is a long name however the row is spelled, and "Fuji" is a short
 one.

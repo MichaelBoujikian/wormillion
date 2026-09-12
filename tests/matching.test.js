@@ -1,4 +1,14 @@
 const test = require('node:test');
+
+test('letters NFD leaves alone are folded: Møn, Sjælland, Łódź, Straße', () => {
+  const m = require('../src/js/matching.js');
+  assert.strictEqual(m.normalize('Møn'), 'mon');
+  assert.strictEqual(m.normalize('Sjælland'), 'sjaelland');
+  assert.strictEqual(m.normalize('Łódź'), 'lodz');
+  assert.strictEqual(m.normalize('Straße'), 'strasse');
+  assert.strictEqual(m.normalize('Đà Nẵng'), 'da nang');
+});
+
 const assert = require('node:assert');
 const matching = require('../src/js/matching.js');
 

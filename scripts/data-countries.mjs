@@ -197,7 +197,7 @@ Fiji|Suva|930000|Oceania
 Solomon Islands|Honiara|740000|Oceania||Solomons,The Solomon Islands
 Vanuatu|Port Vila|330000|Oceania
 Samoa|Apia|220000|Oceania
-Kiribati|South Tarawa|133000|Oceania||Tarawa
+Kiribati|South Tarawa|133000|Oceania
 Micronesia|Palikir|115000|Oceania||Federated States of Micronesia,FSM
 Tonga|Nukualofa|107000|Oceania
 Marshall Islands|Majuro|42000|Oceania||Marshalls,The Marshall Islands

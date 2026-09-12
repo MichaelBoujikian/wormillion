@@ -274,6 +274,21 @@ test('"coastal" is derived as every country that is not landlocked', () => {
   }
 });
 
+test('an exact name is never spell-corrected into a different in-scope place', () => {
+  // Regression (found by audit): on a narrowed prompt the subset lookup can't
+  // see the rest of the category, so "Ireland" on "under 1 million" used to be
+  // "corrected" to Iceland (380k, in scope) and scored. It is Ireland (5.2M).
+  const run = runWith({ category: 'country', size: { op: 'under', value: 1000000 } });
+  const result = run.submit('Ireland');
+  assert.strictEqual(result.status, 'wrong-scope', 'Ireland is Ireland, not a typo for Iceland');
+  assert.strictEqual(result.entry.name, 'Ireland');
+  // A genuine typo of an in-scope name still corrects.
+  const typo = run.submit('Icelnad');
+  assert.strictEqual(typo.status, 'accepted');
+  assert.strictEqual(typo.entry.name, 'Iceland');
+  assert.strictEqual(typo.correctedFrom, 'Icelnad');
+});
+
 test('a flag rule accepts a country whose flag carries every listed colour', () => {
   const green = bank.promptFor({ category: 'country', flag: { colours: ['green'] } });
   assert.strictEqual(green.text, 'Name a country whose flag has green in it.');
@@ -400,6 +415,34 @@ test('the shipped bank never repeats a prompt and every prompt has an answer', (
     for (const p of prompts) assert.ok(p.lookup.size > 0, `seed ${seed}: no answers for "${p.text}"`);
     for (const p of prompts.slice(0, 3)) assert.strictEqual(p.constrained, false, `seed ${seed}: "${p.text}" in the opening`);
   }
+});
+
+test('region prompts take "the" where English does', () => {
+  const shipped = loadShippedBank();
+  assert.strictEqual(shipped.promptFor({ category: 'country', region: 'Caribbean' }).text, 'Name a country in the Caribbean.');
+  assert.strictEqual(shipped.promptFor({ category: 'country', region: 'Caribbean' }).scopeName, 'the Caribbean');
+  assert.strictEqual(shipped.promptFor({ category: 'capital', region: 'Middle East' }).text, 'Name a capital city in the Middle East.');
+  assert.strictEqual(shipped.promptFor({ category: 'country', region: 'Europe' }).text, 'Name a country in Europe.');
+});
+
+test('audit fixes hold in the shipped data', () => {
+  const shipped = loadShippedBank();
+  const status = (slot, name) => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = slot;
+    return run.submit(name).status;
+  };
+  assert.strictEqual(status({ category: 'lake' }, 'Aral Sea'), 'accepted', 'the Aral Sea is a lake like the Caspian');
+  assert.strictEqual(status({ category: 'lake', theme: 'saltwater' }, 'Aral Sea'), 'accepted');
+  assert.strictEqual(status({ category: 'island' }, 'Big Island'), 'accepted');
+  assert.strictEqual(status({ category: 'mountain', size: { op: 'over', value: 8000 } }, 'Gasherbrum II'), 'accepted', 'all 14 eight-thousanders');
+  assert.strictEqual(status({ category: 'mountain', theme: 'volcanoes' }, 'Mauna Kea'), 'accepted');
+  assert.strictEqual(status({ category: 'mountain', theme: 'volcanoes' }, 'Chimborazo'), 'accepted');
+  assert.strictEqual(status({ category: 'island', theme: 'the Caribbean' }, 'Saint Lucia'), 'accepted');
+  assert.strictEqual(status({ category: 'country', flag: { colours: ['red'] } }, 'Guatemala'), 'accepted', 'the quetzal');
+  assert.strictEqual(status({ category: 'desert', size: { op: 'over', value: 100000 } }, 'Chalbi Desert'), 'accepted', 'sits exactly on the threshold');
+  assert.strictEqual(status({ category: 'country', letter: { kind: 'starts', letter: 't' } }, 'Kiribati'), 'wrong-scope', 'Tarawa is its capital, not its name');
+  assert.strictEqual(status({ category: 'country', region: 'Europe' }, 'Australia'), 'wrong-scope', 'not Austria');
 });
 
 test('Hawaii is in the Pacific, in the shipped data', () => {

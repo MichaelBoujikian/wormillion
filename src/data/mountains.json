@@ -162,6 +162,22 @@
   "lon": 76.69638889
  },
  {
+  "id": "mountain-gasherbrum-ii",
+  "category": "mountain",
+  "name": "Gasherbrum II",
+  "aliases": [
+   "K4"
+  ],
+  "size": 8035,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Gasherbrum II\", 60-day daily median (60 days ending 2026-09-12); Standard reference summit elevations (m)",
+  "magnitude": 3714,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gasherbrum II",
+  "lat": 35.75833333,
+  "lon": 76.65333333
+ },
+ {
   "id": "mountain-broad-peak",
   "category": "mountain",
   "name": "Broad Peak",
