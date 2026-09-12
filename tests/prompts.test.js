@@ -312,6 +312,16 @@ test('a length prompt judges the spelling you typed, not the entry', () => {
   assert.strictEqual(long().submit('Malta').length, undefined);
 });
 
+test('a digit is a character: K2 starts with K, has a K, does not end in K', () => {
+  const k2 = bank.cohorts.get('mountain').byId.get('mountain-k2');
+  assert.ok(promptBank.satisfiesLetter(k2, { kind: 'starts', letter: 'k' }));
+  assert.ok(promptBank.satisfiesLetter(k2, { kind: 'contains', letter: 'k' }));
+  assert.ok(!promptBank.satisfiesLetter(k2, { kind: 'ends', letter: 'k' }), 'it ends in 2');
+  assert.ok(promptBank.satisfiesLetter(k2, { kind: 'short' }), 'two characters is a short name');
+  assert.strictEqual(runWith({ category: 'mountain', letter: { kind: 'ends', letter: 'k' } }).submit('K2').status, 'wrong-scope');
+  assert.strictEqual(runWith({ category: 'mountain', letter: { kind: 'starts', letter: 'k' } }).submit('K2').status, 'accepted');
+});
+
 test('seas keep their whole name for letter rules: Black Sea ends in A', () => {
   assert.strictEqual(runWith({ category: 'sea_ocean', letter: { kind: 'ends', letter: 'a' } }).submit('Red Sea').status, 'accepted');
   assert.strictEqual(runWith({ category: 'sea_ocean', letter: { kind: 'contains', letter: 's' } }).submit('Red Sea').status, 'accepted');

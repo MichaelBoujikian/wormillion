@@ -159,7 +159,9 @@
     return [...out];
   }
 
-  const letters = (text) => text.replace(/[^a-z]/g, '');
+  // Digits are characters too: K2 is two characters, starts with K, has a K,
+  // and ends in nothing a letter rule can ask for.
+  const letters = (text) => text.replace(/[^a-z0-9]/g, '');
 
   /**
    * The length rules are judged on the spelling the player actually used:
