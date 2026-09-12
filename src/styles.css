@@ -164,6 +164,80 @@ body {
   margin: 0 0 12px;
 }
 
+/* ---------- "ONE IN WORMILLION" (an answer at 85%+ obscurity) ---------- */
+.jackpot {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  /* set by ui.js from the scene's width so the word always fits */
+  --jackpot-size: 48px;
+}
+
+.jackpot[hidden] { display: none; }
+
+.jackpot-fx {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.jackpot-text {
+  position: relative;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--amber);
+  /* a fat pixel outline plus a drop, so it reads over any stratum */
+  text-shadow:
+    3px 0 0 #0d0805, -3px 0 0 #0d0805, 0 3px 0 #0d0805, 0 -3px 0 #0d0805,
+    3px 3px 0 #0d0805, -3px 3px 0 #0d0805, 3px -3px 0 #0d0805, -3px -3px 0 #0d0805,
+    0 7px 0 rgba(0, 0, 0, 0.55);
+  animation:
+    jackpot-slam 0.45s steps(5) both,
+    jackpot-strobe 0.18s steps(2) 0.45s 10 alternate,
+    jackpot-bob 1.1s steps(4) 2.3s infinite alternate;
+}
+
+.jackpot-line-1 {
+  font-size: calc(var(--jackpot-size) * 0.42);
+  letter-spacing: 0.32em;
+  margin-bottom: 0.25em;
+  color: var(--cream);
+}
+
+.jackpot-line-2 {
+  font-size: var(--jackpot-size);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+@keyframes jackpot-slam {
+  from { transform: scale(3.2) rotate(-4deg); opacity: 0; }
+  60% { transform: scale(0.92); opacity: 1; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes jackpot-strobe {
+  from { color: var(--amber); }
+  to { color: #ffffff; }
+}
+
+@keyframes jackpot-bob {
+  from { transform: translateY(0); }
+  to { transform: translateY(-4px); }
+}
+
 /* ---------- panel ---------- */
 .panel {
   display: flex;

@@ -85,6 +85,7 @@ src/                 the deployed site, as-is
     persistence.js   localStorage best dive + history  (Spec 9)
     icons.js         12x12 pixel category icons
     worldRender.js   the dig scene (canvas, no DOM access)
+    jackpot.js       the "ONE IN WORMILLION" burst for 85%+ answers (canvas, no DOM access)
     ui.js            the ONLY module that touches `document`
   data/
     *.json           the content bank, one file per category (Spec 4 schema)

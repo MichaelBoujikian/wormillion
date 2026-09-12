@@ -10,8 +10,8 @@ what to check first, and the gotchas that cost time.
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main`.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123.
-- **Green:** `npm test` (73 tests), `npm run validate` (1,337 entries), `npm run gap-check`. CI runs test + validate on Node 22.
-- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, and island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos).
+- **Green:** `npm test` (79 tests), `npm run validate` (1,337 entries), `npm run gap-check`. CI runs test + validate on Node 22.
+- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos), and the "One in Wormillion" celebration for 85%+ answers.
 
 ## Start here
 
@@ -34,6 +34,7 @@ If all three pass, nothing is broken. Then read `SPEC.md` §3 (decisions) and §
 | what advances a round, retries, scoring hooks | `src/js/run.js` |
 | points / depth formulas | `src/js/rarity.js`, `src/js/strata.js` |
 | the pixel-art scene | `src/js/worldRender.js` (no `document` — takes canvases) |
+| the "ONE IN WORMILLION" burst (threshold, hold time, confetti/bolt rates) | `src/js/jackpot.js` (`JACKPOT_RARITY`, `HOLD_SECONDS`, `rates()`); overlay markup/CSS in `index.html` / `styles.css` |
 | all DOM | `src/js/ui.js` — the *only* module allowed to touch `document` |
 
 ## The data pipeline (read before adding a place)
@@ -61,6 +62,7 @@ npm run validate                     # schema, aliases, regions, oceans, UN audi
 - **Bash heredocs sometimes fail to parse** with "unexpected EOF while looking for matching `'`" on longer multi-line content. Write the script to the scratchpad with the Write tool and run it, or use the Edit tool. Python 3.13 is available and reliable for text patching.
 - **Line endings:** the repo has `.gitattributes` (`* text=auto eol=lf`). Git warns "CRLF will be replaced by LF" on every commit — harmless, ignore it.
 - **Wikimedia rate limits:** the per-article REST pageviews endpoint gives anonymous clients a few hundred requests/hour and will 429 with `Retry-After: 59`. The scripts use `action=query&prop=pageviews` (batched, 50 titles/request) instead. Don't switch back.
+- **Rounds are 30 s and the browser tools are slow.** Two tool round-trips can eat a round; a timed-out round silently advances the prompt, which looks like "Gobi isn't recognised as a desert" when it's really "the prompt is now a sea". Do set-slot + submit + screenshot in ONE `browser_batch`. `__wormillion.celebrate()` (with `?debug`) fires the jackpot overlay without needing a rare answer; Togo / Micronesia (country) and Savu Sea / Ceram Sea (sea) are real ≥85% answers.
 - **The in-app browser pane pauses `requestAnimationFrame` when hidden.** To drive the game from JS, add `?debug` to the URL, then use `window.__wormillion.renderer.update(0.05)` in a loop to pump frames, and `__wormillion.currentRun()` / `__wormillion.diveTo(d)`. Don't assume a 30-second wait will animate anything.
 - **`Claude in Chrome` is not installed**, so file:// can't be opened in the in-app pane. Headless Chrome works for screenshots: `& "C:\Program Files\Google\Chrome\Application\chrome.exe" --headless=new --screenshot=out.png "file:///C:/Users/smite/wormillion/src/index.html"`.
 - The test file glob must stay `node --test` with **no arguments**: Node 20/22 on Linux CI doesn't expand a quoted glob the way Node 24 on Windows does.

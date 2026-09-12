@@ -29,6 +29,8 @@
       sceneWrap: $('scene-wrap'),
       hudDepth: $('hud-depth'),
       hudStratum: $('hud-stratum'),
+      jackpot: $('jackpot'),
+      jackpotFx: $('jackpot-fx'),
       best: $('best-score'),
       screens: {
         title: $('screen-title'),
@@ -78,6 +80,12 @@
       reducedMotion
     });
 
+    // "ONE IN WORMILLION" - confetti and lightning over the scene for an
+    // answer at JACKPOT_RARITY or better. Held for HOLD_SECONDS or until the
+    // player puts in their next answer, whichever comes first.
+    const burst = W.jackpot.createBurst({ canvas: els.jackpotFx, reducedMotion });
+    let jackpotHold = null;
+
     const iconCtx = els.promptIcon.getContext('2d');
     iconCtx.imageSmoothingEnabled = false;
 
@@ -94,6 +102,9 @@
       const scale = rect.width < 520 ? 2.1 : 3;
       const targetW = Math.max(150, Math.min(260, Math.round(rect.width / scale)));
       renderer.resize(rect.width, rect.height, rect.width / targetW);
+      burst.resize(rect.width, rect.height, rect.width / targetW);
+      // "WORMILLION" is ten monospace characters; keep it inside the scene.
+      els.jackpot.style.setProperty('--jackpot-size', `${Math.max(22, Math.min(64, Math.round(rect.width * 0.13)))}px`);
     }
 
     let lastFrame = 0;
@@ -102,6 +113,10 @@
       lastFrame = now;
       renderer.update(dt);
       renderer.draw();
+      if (burst.active) {
+        burst.update(dt);
+        burst.draw();
+      }
       requestAnimationFrame(frame);
     }
 
@@ -116,6 +131,21 @@
     function refreshBest() {
       const best = W.persistence.read().bestDive;
       els.best.textContent = best ? `${fmt(best.score)} · ${best.deepestStratum}` : '—';
+    }
+
+    function showJackpot() {
+      hideJackpot();
+      // Un-hiding restarts the CSS animations on the text from the top.
+      els.jackpot.hidden = false;
+      burst.start();
+      jackpotHold = setTimeout(hideJackpot, W.jackpot.HOLD_SECONDS * 1000);
+    }
+
+    function hideJackpot() {
+      if (jackpotHold) clearTimeout(jackpotHold);
+      jackpotHold = null;
+      els.jackpot.hidden = true;
+      burst.stop();
     }
 
     function setHud() {
@@ -213,6 +243,7 @@
       if (locked || !run || run.finished) return;
       const raw = els.input.value;
       if (!raw.trim()) return;
+      hideJackpot(); // the next entry is in; the celebration has had its turn
       setFeedback('');
       const result = run.submit(raw);
 
@@ -230,8 +261,11 @@
         );
         els.lastAnswer.textContent = `${result.entry.name} +${fmt(result.points)}`;
         els.score.textContent = `${fmt(run.score)} pts`;
+        const jackpot = result.rarity >= W.jackpot.JACKPOT_RARITY;
+        if (jackpot) showJackpot();
         announce(
-          `${result.entry.name} accepted, ${fmt(result.entry.magnitude)} monthly views. ` +
+          `${jackpot ? 'One in Wormillion! ' : ''}` +
+            `${result.entry.name} accepted, ${fmt(result.entry.magnitude)} monthly views. ` +
             `Plus ${result.points} points. ` +
             `Now ${result.depthAfter.toFixed(0)} deep in ${W.strata.stratumName(result.depthAfter)}.`
         );
@@ -339,6 +373,7 @@
     function startRun() {
       run = W.run.createRun(bank);
       renderer.reset();
+      hideJackpot();
       setFeedback('');
       els.lastAnswer.textContent = '';
       els.timerBar.style.width = '100%';
@@ -361,7 +396,13 @@
     // QA hook: `?debug` exposes the renderer so a tester can jump the worm to
     // any depth and eyeball a stratum without playing 15 rounds to reach it.
     if (root.location && root.location.search.indexOf("debug") !== -1) {
-      root.__wormillion = { renderer, currentRun: () => run, diveTo: (d) => renderer.diveTo(d) };
+      root.__wormillion = {
+        renderer,
+        burst,
+        currentRun: () => run,
+        diveTo: (d) => renderer.diveTo(d),
+        celebrate: showJackpot
+      };
     }
 
     root.addEventListener('resize', fitScene);
