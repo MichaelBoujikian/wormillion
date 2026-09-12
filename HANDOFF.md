@@ -10,8 +10,8 @@ what to check first, and the gotchas that cost time.
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main`.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123.
-- **Green:** `npm test` (83 tests), `npm run validate` (1,337 entries), `npm run gap-check`. CI runs test + validate on Node 22.
-- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos), the "One in Wormillion" celebration for 85%+ answers, the generous dig curve (75 / 100 for jackpots, ×70 below), relics in the dirt, and the summary "ladder" (finds sorted least→most obscure with bars).
+- **Green:** `npm test` (84 tests), `npm run validate` (1,337 entries), `npm run gap-check`. CI runs test + validate on Node 22.
+- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos), the "One in Wormillion" celebration for 85%+ answers, the generous dig curve (75 / 100 for jackpots, ×70 below), relics in the dirt, the summary "ladder" (finds sorted least→most obscure with bars), and wider craters for jackpot digs.
 
 ## Start here
 
@@ -36,6 +36,7 @@ If all three pass, nothing is broken. Then read `SPEC.md` §3 (decisions) and §
 | the pixel-art scene | `src/js/worldRender.js` (no `document` — takes canvases) |
 | what's buried in the dirt (bones, fossils, chests…) | `RELICS` / `RELICS_BY_BAND` / `paintRelics()` in `src/js/worldRender.js` — bitmaps, one char per art pixel |
 | how far an answer digs (the 75 / 100 jackpot tiers) | `src/js/rarity.js` (`DIG_SCALE`, `DIG_JACKPOT`, `DIG_PERFECT`) |
+| how wide a jackpot crater is | `TUNNEL_R` / `TUNNEL_R_BY_TIER` / `TAPER_UNITS` in `src/js/worldRender.js`; `ui.js` passes `tier` to `diveTo()` |
 | the "ONE IN WORMILLION" burst (threshold, hold time, confetti/bolt rates) | `src/js/jackpot.js` (`JACKPOT_RARITY`, `HOLD_SECONDS`, `rates()`); overlay markup/CSS in `index.html` / `styles.css` |
 | all DOM | `src/js/ui.js` — the *only* module allowed to touch `document` |
 

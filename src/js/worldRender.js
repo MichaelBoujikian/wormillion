@@ -22,7 +22,12 @@
   const SKY_H = 112; // art pixels of sky above depth 0
   const MAX_UNITS = rarity.TOTAL_DEPTH_BUDGET + 30; // a little headroom past the deepest possible run
   const WORLD_H = SKY_H + MAX_UNITS * PX_PER_UNIT;
+  // Tunnel radius in art pixels. A one-in-Wormillion answer digs a crater, not
+  // a tunnel; a 100% answer digs a bigger one still. Widths blend over a few
+  // units so the tunnel flares out and back rather than stepping.
   const TUNNEL_R = 6;
+  const TUNNEL_R_BY_TIER = { jackpot: 11, perfect: 14 };
+  const TAPER_UNITS = 6;
 
   // ---- tiny 3x5 bitmap font, so labels stay crisp at 1:1 art pixels ---------
   const GLYPHS = {
@@ -291,7 +296,9 @@
     // digs nothing) still has to run its beat and fire onArrive, or the round
     // never advances.
     let diving = false;
-    let path = []; // depths already carved, in dig order
+    let path = []; // {d, r}: depths already carved, in dig order, with the radius used
+    let fromRadius = TUNNEL_R; // the width the current dive started at...
+    let toRadius = TUNNEL_R; // ...and the width it is digging
     let particles = [];
     let time = 0;
     let shake = 0;
@@ -524,7 +531,7 @@
       paintGround();
       paintFeatures();
       // re-carve whatever tunnel already exists (e.g. after a resize mid-run)
-      for (const d of path) stamp(d);
+      for (const p of path) stamp(p.d, p.r);
     }
 
     // ---- tunnel -------------------------------------------------------------
@@ -535,15 +542,21 @@
       return `rgb(${Math.round(c[0] * k)},${Math.round(c[1] * k)},${Math.round(c[2] * k)})`;
     };
 
-    function stamp(d) {
+    function stamp(d, r) {
       const x = wormX(d);
       const y = worldY(d);
       const band = strata.strataFor(d);
       cctx.globalCompositeOperation = 'source-over';
       cctx.fillStyle = shade(band.grit, 0.85);
-      circle(cctx, x, y, TUNNEL_R);
+      circle(cctx, x, y, r);
       cctx.fillStyle = shade(band.grit, 0.3);
-      circle(cctx, x, y, TUNNEL_R - 2);
+      circle(cctx, x, y, r - 2);
+    }
+
+    /** The radius to carve at depth d during the current dive: a short blend from the last width. */
+    function radiusAt(d) {
+      const k = Math.max(0, Math.min(1, (d - diveFrom) / TAPER_UNITS));
+      return Math.round(fromRadius + (toRadius - fromRadius) * k);
     }
 
     function circle(c, cx, cy, r) {
@@ -554,16 +567,17 @@
     }
 
     function extendPath(toDepth) {
-      let d = path.length ? path[path.length - 1] : null;
+      let d = path.length ? path[path.length - 1].d : null;
       if (d === null) {
         d = 0;
-        path.push(0);
-        stamp(0);
+        path.push({ d: 0, r: radiusAt(0) });
+        stamp(0, radiusAt(0));
       }
       while (d < toDepth) {
         d = Math.min(toDepth, d + 0.5);
-        path.push(d);
-        stamp(d);
+        const r = radiusAt(d);
+        path.push({ d, r });
+        stamp(d, r);
       }
     }
 
@@ -619,11 +633,14 @@
     function spawnDirt(x, y) {
       if (reducedMotion()) return;
       const band = strata.strataFor(depth);
-      for (let i = 0; i < 3; i++) {
+      // A wider crater throws more dirt, further.
+      const r = radiusAt(depth);
+      const count = Math.round(3 * (r / TUNNEL_R));
+      for (let i = 0; i < count; i++) {
         particles.push({
-          x,
+          x: x + (Math.random() - 0.5) * (r - TUNNEL_R),
           y,
-          vx: (Math.random() - 0.5) * 44,
+          vx: (Math.random() - 0.5) * 44 * (r / TUNNEL_R),
           vy: -18 - Math.random() * 34,
           life: 0.5 + Math.random() * 0.4,
           color: [band.light, band.speck, band.dark][i % 3]
@@ -661,12 +678,20 @@
       updateCamera(true);
     }
 
-    /** Dig to a new cumulative depth. */
+    /**
+     * Dig to a new cumulative depth.
+     * @param {object} [options]
+     * @param {() => void} [options.onArrive]
+     * @param {'jackpot'|'perfect'|null} [options.tier]  how wide to dig (Spec 3.12)
+     * @param {boolean} [options.instant]
+     */
     function diveTo(newDepth, options = {}) {
       target = Math.min(MAX_UNITS - 6, newDepth);
       onArrive = options.onArrive || null;
       diveFrom = depth;
       diveElapsed = 0;
+      fromRadius = path.length ? path[path.length - 1].r : TUNNEL_R;
+      toRadius = TUNNEL_R_BY_TIER[options.tier] || TUNNEL_R;
       // Time-based, so a slow frame rate means fewer frames, not a longer wait.
       diveDuration = Math.min(1.5, 0.45 + Math.max(0, target - depth) * 0.022);
       if (reducedMotion() || options.instant) {
@@ -692,6 +717,8 @@
       path = [];
       particles = [];
       shake = 0;
+      fromRadius = TUNNEL_R;
+      toRadius = TUNNEL_R;
       cctx.clearRect(0, 0, W, WORLD_H);
       extendPath(0);
       updateCamera(true);
@@ -714,7 +741,8 @@
         if (t >= 1) {
           depth = Math.max(diveFrom, target);
           diving = false;
-          shake = reducedMotion() || depth === diveFrom ? 0 : 1.6;
+          // A crater lands harder than a tunnel.
+          shake = reducedMotion() || depth === diveFrom ? 0 : 1.6 * (toRadius / TUNNEL_R);
           if (onArrive) {
             const done = onArrive;
             onArrive = null;
@@ -778,9 +806,13 @@
       },
       get animating() {
         return diving;
+      },
+      /** The carved tunnel so far as [{d, r}], for tests and the debug hook. */
+      get tunnel() {
+        return path.slice();
       }
     };
   }
 
-  return { createRenderer, PX_PER_UNIT, SKY_H, WORLD_H, MAX_UNITS, drawText, RELICS, RELIC_PALETTE, RELICS_BY_BAND };
+  return { createRenderer, PX_PER_UNIT, SKY_H, WORLD_H, MAX_UNITS, TUNNEL_R, TUNNEL_R_BY_TIER, drawText, RELICS, RELIC_PALETTE, RELICS_BY_BAND };
 });

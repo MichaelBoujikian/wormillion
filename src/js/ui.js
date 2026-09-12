@@ -220,7 +220,9 @@
       };
 
       if (result.status === 'accepted') {
-        renderer.diveTo(result.depthAfter, { onArrive: finish });
+        // One in Wormillion digs a crater, not a tunnel (3.12).
+        const tier = result.rarity >= W.rarity.PERFECT_RARITY ? 'perfect' : W.rarity.isJackpot(result.rarity) ? 'jackpot' : null;
+        renderer.diveTo(result.depthAfter, { onArrive: finish, tier });
         // the HUD should count up with the worm, not snap ahead of it
         let ticks = 0;
         const tick = setInterval(() => {
@@ -419,7 +421,7 @@
         renderer,
         burst,
         currentRun: () => run,
-        diveTo: (d) => renderer.diveTo(d),
+        diveTo: (d, tier) => renderer.diveTo(d, { tier }),
         celebrate: showJackpot
       };
     }

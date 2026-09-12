@@ -74,6 +74,42 @@ test('the world is deep enough for the deepest possible run', () => {
   assert.strictEqual(r.depth, rarity.TOTAL_DEPTH_BUDGET, 'a perfect run is not clipped by the world');
 });
 
+test('a one-in-Wormillion dive carves a wider crater, and a 100% one wider still', () => {
+  const r = renderer();
+  const dive = (depth, tier) => {
+    r.diveTo(depth, { tier });
+    for (let i = 0; i < 600 && r.animating; i++) r.update(1 / 60);
+  };
+  const radiusAt = (depth) => {
+    const near = r.tunnel.filter((p) => Math.abs(p.d - depth) < 0.3);
+    assert.ok(near.length > 0, `nothing carved near ${depth}`);
+    return near[0].r;
+  };
+  const { TUNNEL_R, TUNNEL_R_BY_TIER } = worldRender;
+
+  dive(30);
+  assert.strictEqual(radiusAt(20), TUNNEL_R, 'a normal dive is the base width');
+
+  dive(105, 'jackpot'); // a 75-unit jackpot dig
+  const flare = radiusAt(31);
+  assert.ok(flare > TUNNEL_R && flare < TUNNEL_R_BY_TIER.jackpot, `flares out over a few units (${flare})`);
+  assert.strictEqual(radiusAt(90), TUNNEL_R_BY_TIER.jackpot, 'the crater proper');
+  assert.strictEqual(radiusAt(20), TUNNEL_R, 'the earlier tunnel is untouched');
+
+  dive(205, 'perfect'); // a 100-unit perfect dig
+  assert.strictEqual(radiusAt(190), TUNNEL_R_BY_TIER.perfect);
+  assert.ok(TUNNEL_R_BY_TIER.perfect > TUNNEL_R_BY_TIER.jackpot);
+
+  dive(240); // back to a plain answer: narrows again after a short taper
+  assert.strictEqual(radiusAt(235), TUNNEL_R);
+  const back = radiusAt(206);
+  assert.ok(back < TUNNEL_R_BY_TIER.perfect && back > TUNNEL_R, `tapers back in (${back})`);
+
+  r.reset();
+  assert.strictEqual(r.tunnel.length, 1, 'reset clears the tunnel');
+  assert.strictEqual(r.tunnel[0].r, TUNNEL_R);
+});
+
 test('a normal dive reports arrival', () => {
   const r = renderer();
   assert.strictEqual(diveAndWait(r, 30), true);
