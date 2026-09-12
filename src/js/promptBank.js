@@ -126,6 +126,60 @@
     });
   }
 
+  /**
+   * Size thresholds reuse the physical stat every entry was authored with
+   * (population, length, elevation, area). Each category gets its own wording
+   * and its own menu of thresholds that actually split the cohort.
+   */
+  const SIZE_RULES = {
+    country: {
+      thresholds: [1000000, 10000000, 100000000, 1000000000],
+      text: (op, n) => `with a population ${op === 'over' ? 'over' : 'under'} ${humanCount(n)}`
+    },
+    capital: {
+      thresholds: [1000000, 10000000, 100000000],
+      text: (op, n) => `whose country has a population ${op === 'over' ? 'over' : 'under'} ${humanCount(n)}`
+    },
+    river: {
+      thresholds: [500, 1000, 3000, 5000],
+      text: (op, n) => `${op === 'over' ? 'longer' : 'shorter'} than ${withCommas(n)} km`
+    },
+    mountain: {
+      thresholds: [1000, 3000, 5000, 8000],
+      text: (op, n) => `${op === 'over' ? 'over' : 'under'} ${withCommas(n)} m tall`
+    },
+    lake: {
+      thresholds: [100, 1000, 10000, 30000],
+      text: (op, n) => `${op === 'over' ? 'larger' : 'smaller'} than ${withCommas(n)} km²`
+    },
+    island: {
+      thresholds: [100, 10000, 100000],
+      text: (op, n) => `${op === 'over' ? 'bigger' : 'smaller'} than ${withCommas(n)} km²`
+    },
+    desert: {
+      thresholds: [100000, 500000],
+      text: (op, n) => `${op === 'over' ? 'larger' : 'smaller'} than ${withCommas(n)} km²`
+    },
+    sea_ocean: {
+      thresholds: [100000, 1000000],
+      text: (op, n) => `${op === 'over' ? 'larger' : 'smaller'} than ${withCommas(n)} km²`
+    }
+  };
+
+  const withCommas = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  const humanCount = (n) =>
+    n >= 1000000000 ? `${n / 1000000000} billion` : n >= 1000000 ? `${n / 1000000} million` : withCommas(n);
+
+  function satisfiesSize(entry, rule) {
+    if (!(entry.size > 0)) return false;
+    return rule.op === 'over' ? entry.size > rule.value : entry.size < rule.value;
+  }
+
+  function sizePromptText(category, rule) {
+    const noun = NOUN[category];
+    return `Name ${ARTICLE(noun)} ${noun} ${SIZE_RULES[category].text(rule.op, rule.value)}.`;
+  }
+
   // Letters whose NAME starts with a vowel sound take "an": an F, an S, an X.
   const VOWEL_SOUNDING_LETTERS = 'aefhilmnorsx';
 
@@ -243,37 +297,111 @@
       return null;
     }
 
+    /** Oceans with enough members in this category to make a prompt. */
+    function oceanOptions(category) {
+      const cohort = cohorts.get(category);
+      const counts = new Map();
+      for (const entry of cohort.entries) {
+        for (const ocean of entry.oceans || []) counts.set(ocean, (counts.get(ocean) || 0) + 1);
+      }
+      return [...counts].filter(([, n]) => n >= MIN_ELIGIBLE).map(([ocean]) => ocean);
+    }
+
+    /** A size threshold that splits the cohort usefully; null if none does. */
+    function drawSizeRule(category, rng) {
+      const cohort = cohorts.get(category);
+      const rules = SIZE_RULES[category];
+      if (!rules) return null;
+      const candidates = shuffle(rules.thresholds, rng);
+      for (const value of candidates) {
+        for (const op of shuffle(['over', 'under'], rng)) {
+          const rule = { op, value };
+          const n = eligibleCount(cohort, (entry) => satisfiesSize(entry, rule));
+          if (n >= MIN_ELIGIBLE && n <= cohort.entries.length * MAX_ELIGIBLE_SHARE) return rule;
+        }
+      }
+      return null;
+    }
+
+    /** One random modifier for a category, or null when nothing fits. */
+    function drawModifier(category, rng) {
+      const options = [];
+      if ((category === 'country' || category === 'capital') && regions.length) options.push('region', 'region');
+      if (themeSets.has(category)) options.push('theme', 'theme');
+      if (oceanOptions(category).length) options.push('ocean', 'ocean');
+      if (SIZE_RULES[category]) options.push('size');
+      options.push('letter', 'letter');
+
+      const choice = pick(options, rng);
+      if (choice === 'region') return { region: pick(regions, rng) };
+      if (choice === 'theme') return { theme: pick([...themeSets.get(category).keys()], rng) };
+      if (choice === 'ocean') return { ocean: pick(oceanOptions(category), rng) };
+      if (choice === 'size') {
+        const rule = drawSizeRule(category, rng);
+        return rule ? { size: rule } : null;
+      }
+      const rule = drawLetterRule(category, rng);
+      return rule ? { letter: rule } : null;
+    }
+
     /**
      * The 15 category slots for one run (Spec 3.8), each with a modifier.
-     * Difficulty ramps: early rounds are mostly plain, late rounds mostly
-     * constrained, so a run opens gently and closes hard.
+     *
+     * The first three rounds are plain and in three different categories, so a
+     * run opens gently; after that the chance of a modifier ramps up. No two
+     * rounds ever show the same prompt text: a category's second appearance is
+     * re-drawn until it reads differently from its first, so a repeat category
+     * is never a repeat question.
      */
     function drawSlots(rng = Math.random) {
       const first = shuffle(CATEGORIES, rng);
       const second = shuffle(CATEGORIES, rng).slice(0, CATEGORIES.length - 1);
-      const order = shuffle(first.concat(second), rng);
+      // Three distinct categories to open with, then everything else shuffled.
+      const opening = first.slice(0, 3);
+      const rest = shuffle(first.slice(3).concat(second), rng);
+      const order = opening.concat(rest);
 
+      const seenText = new Set();
       return order.map((category, index) => {
-        const progress = index / (order.length - 1); // 0 -> 1 across the run
-        const constrainedChance = 0.3 + progress * 0.55;
-        const slot = { category };
-        if (rng() > constrainedChance) return slot;
+        const plain = { category };
+        const plainText = promptFor(plain).text;
 
-        const options = [];
-        if ((category === 'country' || category === 'capital') && regions.length) options.push('region');
-        if (themeSets.has(category)) options.push('theme', 'theme');
-        options.push('letter', 'letter');
-
-        const choice = pick(options, rng);
-        if (choice === 'region') {
-          slot.region = pick(regions, rng);
-        } else if (choice === 'theme') {
-          slot.theme = pick([...themeSets.get(category).keys()], rng);
-        } else {
-          const rule = drawLetterRule(category, rng);
-          if (rule) slot.letter = rule;
+        if (index < 3) {
+          seenText.add(plainText);
+          return plain;
         }
-        return slot;
+
+        const progress = (index - 3) / (order.length - 4); // 0 -> 1 over rounds 4..15
+        const constrainedChance = 0.4 + progress * 0.5;
+        const wantModifier = rng() < constrainedChance || seenText.has(plainText);
+
+        if (wantModifier) {
+          for (let attempt = 0; attempt < 20; attempt++) {
+            const modifier = drawModifier(category, rng);
+            if (!modifier) continue;
+            const slot = { category, ...modifier };
+            const text = promptFor(slot).text;
+            if (!seenText.has(text)) {
+              seenText.add(text);
+              return slot;
+            }
+          }
+        }
+        if (!seenText.has(plainText)) {
+          seenText.add(plainText);
+          return plain;
+        }
+        // Every draw collided - fall through to a letter rule keyed to the
+        // attempt so it cannot collide with a finite set of earlier texts.
+        for (const letter of shuffle(LETTERS, rng)) {
+          const slot = { category, letter: { kind: 'contains', letter } };
+          const text = promptFor(slot).text;
+          if (!seenText.has(text) && promptFor(slot).lookup.size > 0) {
+            seenText.add(text);
+            return slot;
+          }
+        }
+        return plain; // unreachable in practice: 23 letters can't all collide
       });
     }
 
@@ -296,6 +424,17 @@
         text = custom || `Name ${a} ${noun} in ${slot.theme}.`;
         scope = `theme:${slot.theme}`;
         lookup = subsetLookup(cohort, scope, (entry) => ids.has(entry.id));
+      } else if (slot.ocean) {
+        // Islands and seas carry their ocean(s) as data (scripts/data-oceans.mjs),
+        // so "in the Pacific Ocean" is derived, never a list a curator forgot Hawaii on.
+        const seaNoun = slot.category === 'sea_ocean' ? 'sea' : noun;
+        text = `Name ${ARTICLE(seaNoun)} ${seaNoun} in the ${slot.ocean} Ocean.`;
+        scope = `ocean:${slot.ocean}`;
+        lookup = subsetLookup(cohort, scope, (entry) => (entry.oceans || []).includes(slot.ocean));
+      } else if (slot.size) {
+        text = sizePromptText(slot.category, slot.size);
+        scope = `size:${slot.size.op}:${slot.size.value}`;
+        lookup = subsetLookup(cohort, scope, (entry) => satisfiesSize(entry, slot.size));
       } else if (slot.letter) {
         text = letterPromptText(slot.category, slot.letter);
         scope = `letter:${slot.letter.kind}:${slot.letter.letter || ''}`;
@@ -307,9 +446,13 @@
         label: CATEGORY_LABEL[slot.category],
         region: slot.region || null,
         theme: slot.theme || null,
+        ocean: slot.ocean || null,
+        size: slot.size || null,
         letter: slot.letter || null,
         // What to call the restriction when an answer misses it.
-        scopeName: slot.region || slot.theme || (slot.letter ? 'that pattern' : null),
+        scopeName:
+          slot.region || slot.theme || (slot.ocean ? `the ${slot.ocean} Ocean` : null) ||
+          (slot.size || slot.letter ? 'that pattern' : null),
         constrained: Boolean(scope),
         text,
         cohort,
@@ -348,6 +491,9 @@
     variantsOf,
     satisfiesLetter,
     letterPromptText,
+    satisfiesSize,
+    sizePromptText,
+    SIZE_RULES,
     createBank,
     loadBank
   };

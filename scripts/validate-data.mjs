@@ -8,6 +8,7 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { UN_MEMBERS, UN_OBSERVERS, COMMONLY_TAUGHT } from './data-un-members.mjs';
+import { OCEANS, OCEAN_OVERRIDES } from './data-oceans.mjs';
 
 const DATA_DIR = fileURLToPath(new URL('../src/data/', import.meta.url));
 
@@ -85,6 +86,21 @@ export function validate(files) {
         } else {
           for (const region of entry.region) {
             if (!REGIONS.has(region)) errors.push(`${where}: unknown region "${region}"`);
+          }
+        }
+      }
+
+      // Every island and sea knows its ocean(s). "None" is only legal when a
+      // human wrote it down in scripts/data-oceans.mjs - never by omission.
+      if (entry.category === 'island' || entry.category === 'sea_ocean') {
+        if (!Array.isArray(entry.oceans)) {
+          errors.push(`${where}: missing oceans (rebuild, or the article has no coordinates - add an override)`);
+        } else {
+          for (const ocean of entry.oceans) {
+            if (!OCEANS.includes(ocean)) errors.push(`${where}: unknown ocean "${ocean}"`);
+          }
+          if (entry.oceans.length === 0 && !(entry.id in OCEAN_OVERRIDES)) {
+            errors.push(`${where}: no ocean could be derived - add it to OCEAN_OVERRIDES`);
           }
         }
       }

@@ -8,10 +8,12 @@
   ],
   "size": 6650,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Nile\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Nile\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 53757,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nile"
+  "wikiTitle": "Nile",
+  "lat": 30.1725,
+  "lon": 31.14
  },
  {
   "id": "river-amazon",
@@ -22,10 +24,12 @@
   ],
   "size": 6400,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Amazon River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Amazon River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 34062,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Amazon River"
+  "wikiTitle": "Amazon River",
+  "lat": -15.51777778,
+  "lon": -71.69361111
  },
  {
   "id": "river-yangtze",
@@ -36,10 +40,12 @@
   ],
   "size": 6300,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Yangtze\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Yangtze\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 26087,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yangtze"
+  "wikiTitle": "Yangtze",
+  "lat": 31.39361111,
+  "lon": 121.98305556
  },
  {
   "id": "river-yellow-river",
@@ -50,10 +56,12 @@
   ],
   "size": 5464,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Yellow River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Yellow River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 21430,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yellow River"
+  "wikiTitle": "Yellow River",
+  "lat": 37.763,
+  "lon": 119.162
  },
  {
   "id": "river-yenisei",
@@ -62,10 +70,12 @@
   "aliases": [],
   "size": 5539,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Yenisei\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Yenisei\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 4566,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yenisei"
+  "wikiTitle": "Yenisei",
+  "lat": 71.83333333,
+  "lon": 82.66666667
  },
  {
   "id": "river-ob",
@@ -76,10 +86,12 @@
   ],
   "size": 3650,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Ob\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Ob\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2800,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ob"
+  "wikiTitle": "Ob",
+  "lat": 66.53388889,
+  "lon": 71.39472222
  },
  {
   "id": "river-parana",
@@ -90,7 +102,7 @@
   ],
   "size": 4880,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Paraná River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Paraná River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 5571,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Paraná River"
@@ -105,10 +117,12 @@
   ],
   "size": 4700,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Congo River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Congo River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 22373,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Congo River"
+  "wikiTitle": "Congo River",
+  "lat": -6.075,
+  "lon": 12.45
  },
  {
   "id": "river-amur",
@@ -117,10 +131,12 @@
   "aliases": [],
   "size": 2824,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Amur\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Amur\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 7336,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Amur"
+  "wikiTitle": "Amur",
+  "lat": 52.94722222,
+  "lon": 141.08388889
  },
  {
   "id": "river-lena",
@@ -131,10 +147,12 @@
   ],
   "size": 4400,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Lena River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Lena River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 5479,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lena River"
+  "wikiTitle": "Lena River",
+  "lat": 72.4087,
+  "lon": 126.6847
  },
  {
   "id": "river-mekong",
@@ -143,10 +161,12 @@
   "aliases": [],
   "size": 4350,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Mekong\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Mekong\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 14429,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mekong"
+  "wikiTitle": "Mekong",
+  "lat": 10.19,
+  "lon": 106.75
  },
  {
   "id": "river-mackenzie",
@@ -157,10 +177,12 @@
   ],
   "size": 4241,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Mackenzie River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Mackenzie River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 9863,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mackenzie River"
+  "wikiTitle": "Mackenzie River",
+  "lat": 68.93972222,
+  "lon": -136.17277778
  },
  {
   "id": "river-niger-river",
@@ -169,10 +191,12 @@
   "aliases": [],
   "size": 4200,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Niger River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Niger River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 11263,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Niger River"
+  "wikiTitle": "Niger River",
+  "lat": 5.32222222,
+  "lon": 6.46916667
  },
  {
   "id": "river-brahmaputra",
@@ -181,7 +205,7 @@
   "aliases": [],
   "size": 3848,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Brahmaputra River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Brahmaputra River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 20791,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Brahmaputra River"
@@ -195,10 +219,12 @@
   ],
   "size": 3767,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Missouri River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Missouri River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 26635,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Missouri River"
+  "wikiTitle": "Missouri River",
+  "lat": 38.81361111,
+  "lon": -90.11972222
  },
  {
   "id": "river-mississippi",
@@ -209,10 +235,12 @@
   ],
   "size": 3766,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Mississippi River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Mississippi River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 56892,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mississippi River"
+  "wikiTitle": "Mississippi River",
+  "lat": 29.15111111,
+  "lon": -89.25333333
  },
  {
   "id": "river-madeira",
@@ -223,10 +251,12 @@
   ],
   "size": 3250,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Madeira River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Madeira River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1735,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Madeira River"
+  "wikiTitle": "Madeira River",
+  "lat": -3.37555556,
+  "lon": -58.77305556
  },
  {
   "id": "river-purus",
@@ -235,10 +265,12 @@
   "aliases": [],
   "size": 3211,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Purus River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Purus River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 578,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Purus River"
+  "wikiTitle": "Purus River",
+  "lat": -3.69305556,
+  "lon": -61.47
  },
  {
   "id": "river-yukon",
@@ -249,10 +281,12 @@
   ],
   "size": 3190,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Yukon River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Yukon River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 7549,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yukon River"
+  "wikiTitle": "Yukon River",
+  "lat": 62.59861111,
+  "lon": -164.8
  },
  {
   "id": "river-rio-grande",
@@ -261,10 +295,12 @@
   "aliases": [],
   "size": 3051,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Rio Grande\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Rio Grande\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 26300,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Rio Grande"
+  "wikiTitle": "Rio Grande",
+  "lat": 25.95611111,
+  "lon": -97.14527778
  },
  {
   "id": "river-saint-lawrence",
@@ -275,10 +311,12 @@
   ],
   "size": 3058,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"St. Lawrence River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"St. Lawrence River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 15737,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "St. Lawrence River"
+  "wikiTitle": "St. Lawrence River",
+  "lat": 49.5,
+  "lon": -64.5
  },
  {
   "id": "river-sao-francisco",
@@ -287,10 +325,12 @@
   "aliases": [],
   "size": 2914,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"São Francisco River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"São Francisco River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1339,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "São Francisco River"
+  "wikiTitle": "São Francisco River",
+  "lat": -10.49960341,
+  "lon": -36.3954643
  },
  {
   "id": "river-volga",
@@ -301,10 +341,12 @@
   ],
   "size": 3531,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Volga\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Volga\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 28979,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Volga"
+  "wikiTitle": "Volga",
+  "lat": 45.695,
+  "lon": 47.8975
  },
  {
   "id": "river-indus",
@@ -315,10 +357,12 @@
   ],
   "size": 3180,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Indus River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Indus River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 25478,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Indus River"
+  "wikiTitle": "Indus River",
+  "lat": 23.995,
+  "lon": 67.435
  },
  {
   "id": "river-danube",
@@ -329,10 +373,12 @@
   ],
   "size": 2850,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Danube\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Danube\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 81123,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Danube"
+  "wikiTitle": "Danube",
+  "lat": 45.2175,
+  "lon": 29.76138889
  },
  {
   "id": "river-salween",
@@ -341,10 +387,12 @@
   "aliases": [],
   "size": 2815,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Salween River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Salween River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2131,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Salween River"
+  "wikiTitle": "Salween River",
+  "lat": 16.19416667,
+  "lon": 97.58333333
  },
  {
   "id": "river-euphrates",
@@ -353,10 +401,12 @@
   "aliases": [],
   "size": 2800,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Euphrates\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Euphrates\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 23621,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Euphrates"
+  "wikiTitle": "Euphrates",
+  "lat": 31.005,
+  "lon": 47.44194444
  },
  {
   "id": "river-tocantins",
@@ -365,10 +415,12 @@
   "aliases": [],
   "size": 2699,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Tocantins River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Tocantins River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 913,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tocantins River"
+  "wikiTitle": "Tocantins River",
+  "lat": -1.75,
+  "lon": -49.16666667
  },
  {
   "id": "river-vilyuy",
@@ -377,7 +429,7 @@
   "aliases": [],
   "size": 2650,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Vilyuy\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Vilyuy\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 244,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Vilyuy"
@@ -389,10 +441,12 @@
   "aliases": [],
   "size": 2627,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Araguaia River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Araguaia River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 609,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Araguaia River"
+  "wikiTitle": "Araguaia River",
+  "lat": -5.37611111,
+  "lon": -48.71888889
  },
  {
   "id": "river-nelson-river",
@@ -403,10 +457,12 @@
   ],
   "size": 2575,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Nelson River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Nelson River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2374,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nelson River"
+  "wikiTitle": "Nelson River",
+  "lat": 57.08472222,
+  "lon": -92.50222222
  },
  {
   "id": "river-zambezi",
@@ -415,10 +471,12 @@
   "aliases": [],
   "size": 2574,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Zambezi\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Zambezi\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 11050,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Zambezi"
+  "wikiTitle": "Zambezi",
+  "lat": -18.57055556,
+  "lon": 36.47027778
  },
  {
   "id": "river-paraguay-river",
@@ -427,7 +485,7 @@
   "aliases": [],
   "size": 2549,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Paraguay River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Paraguay River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2405,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Paraguay River"
@@ -441,10 +499,12 @@
   ],
   "size": 2525,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Ganges\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Ganges\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 37259,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ganges"
+  "wikiTitle": "Ganges",
+  "lat": 22,
+  "lon": 90.9
  },
  {
   "id": "river-kolyma",
@@ -453,10 +513,12 @@
   "aliases": [],
   "size": 2513,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Kolyma (river)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Kolyma (river)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 639,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Kolyma (river)"
+  "wikiTitle": "Kolyma (river)",
+  "lat": 69.5477,
+  "lon": 161.3641
  },
  {
   "id": "river-pilcomayo",
@@ -465,10 +527,12 @@
   "aliases": [],
   "size": 2500,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Pilcomayo River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Pilcomayo River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 578,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Pilcomayo River"
+  "wikiTitle": "Pilcomayo River",
+  "lat": -25.35,
+  "lon": -57.66666667
  },
  {
   "id": "river-ural-river",
@@ -479,10 +543,12 @@
   ],
   "size": 2428,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Ural (river)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Ural (river)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 4262,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ural (river)"
+  "wikiTitle": "Ural (river)",
+  "lat": 46.88333333,
+  "lon": 51.61666667
  },
  {
   "id": "river-arkansas-river",
@@ -493,10 +559,12 @@
   ],
   "size": 2364,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Arkansas River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Arkansas River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 9802,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Arkansas River"
+  "wikiTitle": "Arkansas River",
+  "lat": 33.775,
+  "lon": -91.10833333
  },
  {
   "id": "river-colorado-river",
@@ -507,10 +575,12 @@
   ],
   "size": 2330,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Colorado River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Colorado River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 34519,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Colorado River"
+  "wikiTitle": "Colorado River",
+  "lat": 31.815,
+  "lon": -114.8
  },
  {
   "id": "river-olenyok",
@@ -519,10 +589,12 @@
   "aliases": [],
   "size": 2292,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Olenyok (river)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Olenyok (river)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 244,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Olenyok (river)"
+  "wikiTitle": "Olenyok (river)",
+  "lat": 72.98361111,
+  "lon": 119.79444444
  },
  {
   "id": "river-aldan",
@@ -531,10 +603,12 @@
   "aliases": [],
   "size": 2273,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Aldan (river)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Aldan (river)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 213,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Aldan (river)"
+  "wikiTitle": "Aldan (river)",
+  "lat": 63.44611111,
+  "lon": 129.55361111
  },
  {
   "id": "river-ubangi",
@@ -543,10 +617,12 @@
   "aliases": [],
   "size": 2270,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Ubangi River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Ubangi River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1674,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ubangi River"
+  "wikiTitle": "Ubangi River",
+  "lat": -0.5,
+  "lon": 17.7
  },
  {
   "id": "river-negro-river",
@@ -557,10 +633,12 @@
   ],
   "size": 2250,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Rio Negro (Amazon)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Rio Negro (Amazon)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 4292,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Rio Negro (Amazon)"
+  "wikiTitle": "Rio Negro (Amazon)",
+  "lat": -3.13333333,
+  "lon": -59.90833333
  },
  {
   "id": "river-orange-river",
@@ -571,10 +649,12 @@
   ],
   "size": 2200,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Orange River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Orange River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 4383,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Orange River"
+  "wikiTitle": "Orange River",
+  "lat": -28.63277778,
+  "lon": 16.45222222
  },
  {
   "id": "river-pearl-river",
@@ -585,10 +665,12 @@
   ],
   "size": 2200,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Pearl River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Pearl River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 4170,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Pearl River"
+  "wikiTitle": "Pearl River",
+  "lat": 22.76666667,
+  "lon": 113.63333333
  },
  {
   "id": "river-irrawaddy",
@@ -597,10 +679,12 @@
   "aliases": [],
   "size": 2170,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Irrawaddy River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Irrawaddy River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 4718,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Irrawaddy River"
+  "wikiTitle": "Irrawaddy River",
+  "lat": 15.85527778,
+  "lon": 95.24083333
  },
  {
   "id": "river-orinoco",
@@ -609,10 +693,12 @@
   "aliases": [],
   "size": 2140,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Orinoco\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Orinoco\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 8736,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Orinoco"
+  "wikiTitle": "Orinoco",
+  "lat": 8.61666667,
+  "lon": -62.25
  },
  {
   "id": "river-tarim-river",
@@ -623,10 +709,12 @@
   ],
   "size": 2030,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Tarim River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Tarim River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1126,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tarim River"
+  "wikiTitle": "Tarim River",
+  "lat": 39.46666667,
+  "lon": 88.31666667
  },
  {
   "id": "river-dnieper",
@@ -635,10 +723,12 @@
   "aliases": [],
   "size": 2201,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Dnieper\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Dnieper\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 11963,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Dnieper"
+  "wikiTitle": "Dnieper",
+  "lat": 46.5,
+  "lon": 32.33333333
  },
  {
   "id": "river-columbia-river",
@@ -649,10 +739,12 @@
   ],
   "size": 2000,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Columbia River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Columbia River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 21552,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Columbia River"
+  "wikiTitle": "Columbia River",
+  "lat": 46.24416667,
+  "lon": -124.05805556
  },
  {
   "id": "river-red-river",
@@ -661,10 +753,12 @@
   "aliases": [],
   "size": 2190,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Red River of the South\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Red River of the South\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 11202,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Red River of the South"
+  "wikiTitle": "Red River of the South",
+  "lat": 31.01944444,
+  "lon": -91.74777778
  },
  {
   "id": "river-don",
@@ -675,10 +769,12 @@
   ],
   "size": 1870,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Don (river)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Don (river)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 5083,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Don (river)"
+  "wikiTitle": "Don (river)",
+  "lat": 47.08638889,
+  "lon": 39.23861111
  },
  {
   "id": "river-tigris",
@@ -687,10 +783,12 @@
   "aliases": [],
   "size": 1850,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Tigris\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Tigris\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 13515,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tigris"
+  "wikiTitle": "Tigris",
+  "lat": 31.005,
+  "lon": 47.44194444
  },
  {
   "id": "river-uruguay-river",
@@ -701,10 +799,12 @@
   ],
   "size": 1838,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Uruguay River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Uruguay River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1826,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Uruguay River"
+  "wikiTitle": "Uruguay River",
+  "lat": -34.2,
+  "lon": -58.3
  },
  {
   "id": "river-xingu",
@@ -713,7 +813,7 @@
   "aliases": [],
   "size": 1815,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Xingu River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Xingu River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1857,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Xingu River"
@@ -725,10 +825,12 @@
   "aliases": [],
   "size": 1805,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Kama (river)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Kama (river)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1065,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Kama (river)"
+  "wikiTitle": "Kama (river)",
+  "lat": 55.36388889,
+  "lon": 49.99777778
  },
  {
   "id": "river-snake-river",
@@ -739,10 +841,12 @@
   ],
   "size": 1735,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Snake River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Snake River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 13911,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Snake River"
+  "wikiTitle": "Snake River",
+  "lat": 46.18611111,
+  "lon": -119.02861111
  },
  {
   "id": "river-churchill-river",
@@ -753,10 +857,12 @@
   ],
   "size": 1609,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Churchill River (Hudson Bay)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Churchill River (Hudson Bay)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1187,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Churchill River (Hudson Bay)"
+  "wikiTitle": "Churchill River (Hudson Bay)",
+  "lat": 58.79583333,
+  "lon": -94.20416667
  },
  {
   "id": "river-maranon",
@@ -765,10 +871,12 @@
   "aliases": [],
   "size": 1600,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Marañón River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Marañón River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1218,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Marañón River"
+  "wikiTitle": "Marañón River",
+  "lat": -7.967438,
+  "lon": -77.297745
  },
  {
   "id": "river-ohio-river",
@@ -779,10 +887,12 @@
   ],
   "size": 1579,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Ohio River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Ohio River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 27366,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ohio River"
+  "wikiTitle": "Ohio River",
+  "lat": 36.98666667,
+  "lon": -89.13055556
  },
  {
   "id": "river-darling",
@@ -793,10 +903,12 @@
   ],
   "size": 1472,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Darling River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Darling River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1735,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Darling River"
+  "wikiTitle": "Darling River",
+  "lat": -34.11305556,
+  "lon": 141.91194444
  },
  {
   "id": "river-murray",
@@ -807,10 +919,12 @@
   ],
   "size": 2508,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Murray River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Murray River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 6940,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Murray River"
+  "wikiTitle": "Murray River",
+  "lat": -35.55888889,
+  "lon": 138.88
  },
  {
   "id": "river-rhine",
@@ -821,10 +935,12 @@
   ],
   "size": 1230,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Rhine\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Rhine\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 45386,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Rhine"
+  "wikiTitle": "Rhine",
+  "lat": 51.98166667,
+  "lon": 4.08055556
  },
  {
   "id": "river-ottawa-river",
@@ -835,10 +951,12 @@
   ],
   "size": 1271,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Ottawa River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Ottawa River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 3988,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ottawa River"
+  "wikiTitle": "Ottawa River",
+  "lat": 45.45,
+  "lon": -74.08333333
  },
  {
   "id": "river-elbe",
@@ -847,10 +965,12 @@
   "aliases": [],
   "size": 1094,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Elbe\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Elbe\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 14763,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Elbe"
+  "wikiTitle": "Elbe",
+  "lat": 53.92222222,
+  "lon": 8.72222222
  },
  {
   "id": "river-vistula",
@@ -859,10 +979,12 @@
   "aliases": [],
   "size": 1047,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Vistula\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Vistula\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 12176,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Vistula"
+  "wikiTitle": "Vistula",
+  "lat": 54.36166667,
+  "lon": 18.95194444
  },
  {
   "id": "river-tagus",
@@ -873,7 +995,7 @@
   ],
   "size": 1007,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Tagus\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Tagus\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 8219,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Tagus"
@@ -885,10 +1007,12 @@
   "aliases": [],
   "size": 1006,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Loire\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Loire\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 8949,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Loire"
+  "wikiTitle": "Loire",
+  "lat": 47.26916667,
+  "lon": -2.18583333
  },
  {
   "id": "river-meuse",
@@ -897,7 +1021,7 @@
   "aliases": [],
   "size": 925,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Meuse\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Meuse\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 8493,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Meuse"
@@ -909,10 +1033,12 @@
   "aliases": [],
   "size": 930,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Ebro\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Ebro\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 6819,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ebro"
+  "wikiTitle": "Ebro",
+  "lat": 40.72,
+  "lon": 0.86305556
  },
  {
   "id": "river-douro",
@@ -923,10 +1049,12 @@
   ],
   "size": 897,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Douro\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Douro\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 9589,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Douro"
+  "wikiTitle": "Douro",
+  "lat": 41.14333333,
+  "lon": -8.66944444
  },
  {
   "id": "river-oder",
@@ -937,10 +1065,12 @@
   ],
   "size": 854,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Oder\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Oder\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 6332,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Oder"
+  "wikiTitle": "Oder",
+  "lat": 53.67194444,
+  "lon": 14.52361111
  },
  {
   "id": "river-seine",
@@ -949,10 +1079,12 @@
   "aliases": [],
   "size": 777,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Seine\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Seine\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 17716,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Seine"
+  "wikiTitle": "Seine",
+  "lat": 49.43388889,
+  "lon": 0.20666667
  },
  {
   "id": "river-guadalquivir",
@@ -961,10 +1093,12 @@
   "aliases": [],
   "size": 657,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Guadalquivir\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Guadalquivir\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 5266,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Guadalquivir"
+  "wikiTitle": "Guadalquivir",
+  "lat": 36.78333333,
+  "lon": -6.35
  },
  {
   "id": "river-po",
@@ -975,10 +1109,12 @@
   ],
   "size": 652,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Po (river)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Po (river)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 10441,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Po (river)"
+  "wikiTitle": "Po (river)",
+  "lat": 44.9525,
+  "lon": 12.43194444
  },
  {
   "id": "river-tiber",
@@ -989,10 +1125,12 @@
   ],
   "size": 406,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Tiber\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Tiber\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 10045,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tiber"
+  "wikiTitle": "Tiber",
+  "lat": 41.7405,
+  "lon": 12.2334
  },
  {
   "id": "river-shannon",
@@ -1003,10 +1141,12 @@
   ],
   "size": 360,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Shannon\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Shannon\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 5327,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Shannon"
+  "wikiTitle": "River Shannon",
+  "lat": 52.657,
+  "lon": -8.66
  },
  {
   "id": "river-severn",
@@ -1017,7 +1157,7 @@
   ],
   "size": 354,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Severn\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Severn\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 12541,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "River Severn"
@@ -1031,10 +1171,12 @@
   ],
   "size": 346,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Thames\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Thames\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 32479,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Thames"
+  "wikiTitle": "River Thames",
+  "lat": 51.5,
+  "lon": 0.61
  },
  {
   "id": "river-trent",
@@ -1045,10 +1187,12 @@
   ],
   "size": 298,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Trent\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Trent\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 6605,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Trent"
+  "wikiTitle": "River Trent",
+  "lat": 53.7,
+  "lon": -0.7
  },
  {
   "id": "river-wye",
@@ -1059,10 +1203,12 @@
   ],
   "size": 250,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Wye\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Wye\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 3988,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Wye"
+  "wikiTitle": "River Wye",
+  "lat": 51.61002389,
+  "lon": -2.66178417
  },
  {
   "id": "river-tay",
@@ -1073,10 +1219,12 @@
   ],
   "size": 188,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Tay\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Tay\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 3257,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Tay"
+  "wikiTitle": "River Tay",
+  "lat": 56.355,
+  "lon": -3.29833333
  },
  {
   "id": "river-clyde",
@@ -1087,10 +1235,12 @@
   ],
   "size": 176,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Clyde\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Clyde\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 5053,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Clyde"
+  "wikiTitle": "River Clyde",
+  "lat": 55.97,
+  "lon": -4.75416667
  },
  {
   "id": "river-spey",
@@ -1101,10 +1251,12 @@
   ],
   "size": 172,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Spey\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Spey\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1826,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Spey"
+  "wikiTitle": "River Spey",
+  "lat": 57.676,
+  "lon": -3.1
  },
  {
   "id": "river-aire",
@@ -1115,10 +1267,12 @@
   ],
   "size": 148,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Aire\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Aire\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1522,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Aire"
+  "wikiTitle": "River Aire",
+  "lat": 53.7272,
+  "lon": -0.9067
  },
  {
   "id": "river-liffey",
@@ -1129,10 +1283,12 @@
   ],
   "size": 132,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Liffey\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Liffey\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 3988,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Liffey"
+  "wikiTitle": "River Liffey",
+  "lat": 53.343316,
+  "lon": -6.181303
  },
  {
   "id": "river-bristol-avon",
@@ -1143,7 +1299,7 @@
   ],
   "size": 121,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Avon, Bristol\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Avon, Bristol\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 4049,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "River Avon, Bristol"
@@ -1157,10 +1313,12 @@
   ],
   "size": 113,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Medway\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Medway\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2709,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Medway"
+  "wikiTitle": "River Medway",
+  "lat": 51.44916667,
+  "lon": 0.73833333
  },
  {
   "id": "river-ouse",
@@ -1171,10 +1329,12 @@
   ],
   "size": 84,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Ouse, Yorkshire\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Ouse, Yorkshire\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 3835,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Ouse, Yorkshire"
+  "wikiTitle": "River Ouse, Yorkshire",
+  "lat": 53.70222222,
+  "lon": -0.69611111
  },
  {
   "id": "river-cam",
@@ -1185,10 +1345,12 @@
   ],
   "size": 64,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Cam\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Cam\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 3166,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Cam"
+  "wikiTitle": "River Cam",
+  "lat": 52.3483,
+  "lon": 0.2525
  },
  {
   "id": "river-jordan-river",
@@ -1199,10 +1361,12 @@
   ],
   "size": 251,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Jordan River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Jordan River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 18660,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Jordan River"
+  "wikiTitle": "Jordan River",
+  "lat": 33.1875,
+  "lon": 35.61944444
  },
  {
   "id": "river-rhone",
@@ -1213,10 +1377,12 @@
   ],
   "size": 813,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Rhône\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Rhône\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 15433,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Rhône"
+  "wikiTitle": "Rhône",
+  "lat": 43.33083333,
+  "lon": 4.84555556
  },
  {
   "id": "river-vltava",
@@ -1225,10 +1391,12 @@
   "aliases": [],
   "size": 430,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Vltava\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Vltava\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 9954,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Vltava"
+  "wikiTitle": "Vltava",
+  "lat": 50.34138889,
+  "lon": 14.475
  },
  {
   "id": "river-sava",
@@ -1237,10 +1405,12 @@
   "aliases": [],
   "size": 990,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Sava\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Sava\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 5723,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sava"
+  "wikiTitle": "Sava",
+  "lat": 44.82416667,
+  "lon": 20.44388889
  },
  {
   "id": "river-drava",
@@ -1249,7 +1419,7 @@
   "aliases": [],
   "size": 710,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Drava\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Drava\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2770,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Drava"
@@ -1261,10 +1431,12 @@
   "aliases": [],
   "size": 74,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Neva\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Neva\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2861,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Neva"
+  "wikiTitle": "Neva",
+  "lat": 59.96388889,
+  "lon": 30.22222222
  },
  {
   "id": "river-yamuna",
@@ -1273,10 +1445,12 @@
   "aliases": [],
   "size": 1376,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Yamuna\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Yamuna\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 9406,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yamuna"
+  "wikiTitle": "Yamuna",
+  "lat": 25.4225,
+  "lon": 81.8875
  },
  {
   "id": "river-godavari",
@@ -1285,10 +1459,12 @@
   "aliases": [],
   "size": 1465,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Godavari River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Godavari River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 15068,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Godavari River"
+  "wikiTitle": "Godavari River",
+  "lat": 17,
+  "lon": 81.8
  },
  {
   "id": "river-krishna-river",
@@ -1299,10 +1475,12 @@
   ],
   "size": 1400,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Krishna River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Krishna River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 9710,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Krishna River"
+  "wikiTitle": "Krishna River",
+  "lat": 15.735,
+  "lon": 80.92
  },
  {
   "id": "river-narmada",
@@ -1311,10 +1489,12 @@
   "aliases": [],
   "size": 1312,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Narmada River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Narmada River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 12998,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Narmada River"
+  "wikiTitle": "Narmada River",
+  "lat": 21.65111111,
+  "lon": 72.81194444
  },
  {
   "id": "river-sutlej",
@@ -1323,10 +1503,12 @@
   "aliases": [],
   "size": 1450,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Sutlej\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Sutlej\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 6849,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sutlej"
+  "wikiTitle": "Sutlej",
+  "lat": 29.38972222,
+  "lon": 71.06166667
  },
  {
   "id": "river-chenab",
@@ -1335,10 +1517,12 @@
   "aliases": [],
   "size": 960,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Chenab River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Chenab River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 6940,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Chenab River"
+  "wikiTitle": "Chenab River",
+  "lat": 29.34916667,
+  "lon": 71.02805556
  },
  {
   "id": "river-amu-darya",
@@ -1347,10 +1531,12 @@
   "aliases": [],
   "size": 2620,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Amu Darya\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Amu Darya\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 10867,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Amu Darya"
+  "wikiTitle": "Amu Darya",
+  "lat": 44.10833333,
+  "lon": 59.68111111
  },
  {
   "id": "river-helmand-river",
@@ -1361,7 +1547,7 @@
   ],
   "size": 1150,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Helmand River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Helmand River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1857,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Helmand River"
@@ -1373,10 +1559,12 @@
   "aliases": [],
   "size": 372,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Chao Phraya River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Chao Phraya River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 4901,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Chao Phraya River"
+  "wikiTitle": "Chao Phraya River",
+  "lat": 13.54027778,
+  "lon": 100.58972222
  },
  {
   "id": "river-han-river",
@@ -1385,10 +1573,12 @@
   "aliases": [],
   "size": 514,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Han River (Korea)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Han River (Korea)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 6058,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Han River (Korea)"
+  "wikiTitle": "Han River (Korea)",
+  "lat": 37.75,
+  "lon": 126.18333333
  },
  {
   "id": "river-songhua",
@@ -1397,10 +1587,12 @@
   "aliases": [],
   "size": 1897,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Songhua River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Songhua River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1552,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Songhua River"
+  "wikiTitle": "Songhua River",
+  "lat": 47.699,
+  "lon": 132.5176
  },
  {
   "id": "river-waikato-river",
@@ -1411,10 +1603,12 @@
   ],
   "size": 425,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Waikato River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Waikato River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1400,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Waikato River"
+  "wikiTitle": "Waikato River",
+  "lat": -37.3694,
+  "lon": 174.708
  },
  {
   "id": "river-clutha-river",
@@ -1425,10 +1619,12 @@
   ],
   "size": 338,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Clutha River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Clutha River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 670,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Clutha River"
+  "wikiTitle": "Clutha River",
+  "lat": -46.35,
+  "lon": 169.8
  },
  {
   "id": "river-swan-river",
@@ -1437,10 +1633,12 @@
   "aliases": [],
   "size": 72,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Swan River (Western Australia)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Swan River (Western Australia)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2253,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Swan River (Western Australia)"
+  "wikiTitle": "Swan River (Western Australia)",
+  "lat": -32.07361111,
+  "lon": 115.71444444
  },
  {
   "id": "river-yarra-river",
@@ -1451,10 +1649,12 @@
   ],
   "size": 242,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Yarra River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Yarra River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2587,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yarra River"
+  "wikiTitle": "Yarra River",
+  "lat": -37.85194444,
+  "lon": 144.90833333
  },
  {
   "id": "river-brisbane-river",
@@ -1463,10 +1663,12 @@
   "aliases": [],
   "size": 344,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Brisbane River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Brisbane River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2192,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Brisbane River"
+  "wikiTitle": "Brisbane River",
+  "lat": -27.4,
+  "lon": 153.15
  },
  {
   "id": "river-limpopo",
@@ -1475,10 +1677,12 @@
   "aliases": [],
   "size": 1750,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Limpopo River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Limpopo River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 3592,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Limpopo River"
+  "wikiTitle": "Limpopo River",
+  "lat": -25.20611111,
+  "lon": 33.51111111
  },
  {
   "id": "river-senegal-river",
@@ -1487,10 +1691,12 @@
   "aliases": [],
   "size": 1086,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Senegal River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Senegal River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2496,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Senegal River"
+  "wikiTitle": "Senegal River",
+  "lat": 15.78805556,
+  "lon": -16.52888889
  },
  {
   "id": "river-gambia-river",
@@ -1499,10 +1705,12 @@
   "aliases": [],
   "size": 1120,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Gambia River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Gambia River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2283,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Gambia River"
+  "wikiTitle": "Gambia River",
+  "lat": 13.46666667,
+  "lon": -16.56666667
  },
  {
   "id": "river-volta-river",
@@ -1511,10 +1719,12 @@
   "aliases": [],
   "size": 1500,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Volta River\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Volta River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2496,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Volta River"
+  "wikiTitle": "Volta River",
+  "lat": 5.76666667,
+  "lon": 0.68333333
  },
  {
   "id": "river-blue-nile",
@@ -1523,10 +1733,12 @@
   "aliases": [],
   "size": 1450,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Blue Nile\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Blue Nile\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 6332,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Blue Nile"
+  "wikiTitle": "Blue Nile",
+  "lat": 12,
+  "lon": 37.25
  },
  {
   "id": "river-white-nile",
@@ -1535,7 +1747,7 @@
   "aliases": [],
   "size": 3700,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"White Nile\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"White Nile\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 7062,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "White Nile"
@@ -1547,10 +1759,12 @@
   "aliases": [],
   "size": 544,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Moselle\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Moselle\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 6849,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Moselle"
+  "wikiTitle": "Moselle",
+  "lat": 50.36611111,
+  "lon": 7.60694444
  },
  {
   "id": "river-main",
@@ -1561,10 +1775,12 @@
   ],
   "size": 527,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Main (river)\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Main (river)\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 4749,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Main (river)"
+  "wikiTitle": "Main (river)",
+  "lat": 49.99444444,
+  "lon": 8.29333333
  },
  {
   "id": "river-weser",
@@ -1573,10 +1789,12 @@
   "aliases": [],
   "size": 452,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Weser\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Weser\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2527,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Weser"
+  "wikiTitle": "Weser",
+  "lat": 53.53555556,
+  "lon": 8.56555556
  },
  {
   "id": "river-tisza",
@@ -1585,7 +1803,7 @@
   "aliases": [],
   "size": 966,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Tisza\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Tisza\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 5692,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Tisza"
@@ -1597,10 +1815,12 @@
   "aliases": [],
   "size": 829,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Guadiana\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Guadiana\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1583,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Guadiana"
+  "wikiTitle": "Guadiana",
+  "lat": 37.17,
+  "lon": -7.39361111
  },
  {
   "id": "river-adige",
@@ -1609,10 +1829,12 @@
   "aliases": [],
   "size": 410,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Adige\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Adige\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 3196,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Adige"
+  "wikiTitle": "Adige",
+  "lat": 45.14972222,
+  "lon": 12.32027778
  },
  {
   "id": "river-arno",
@@ -1621,10 +1843,12 @@
   "aliases": [],
   "size": 241,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Arno\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Arno\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 3835,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Arno"
+  "wikiTitle": "Arno",
+  "lat": 43.6802,
+  "lon": 10.2774
  },
  {
   "id": "river-river-tweed",
@@ -1635,10 +1859,12 @@
   ],
   "size": 156,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Tweed\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Tweed\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2253,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Tweed"
+  "wikiTitle": "River Tweed",
+  "lat": 55.7652,
+  "lon": -1.9909
  },
  {
   "id": "river-river-forth",
@@ -1649,10 +1875,12 @@
   ],
   "size": 47,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Forth\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Forth\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1918,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Forth"
+  "wikiTitle": "River Forth",
+  "lat": 56.065,
+  "lon": -3.7275
  },
  {
   "id": "river-river-exe",
@@ -1663,10 +1891,12 @@
   ],
   "size": 82,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Exe\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Exe\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1278,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Exe"
+  "wikiTitle": "River Exe",
+  "lat": 50.61472222,
+  "lon": -3.425
  },
  {
   "id": "river-river-dee",
@@ -1677,7 +1907,7 @@
   ],
   "size": 113,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Dee, Wales\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Dee, Wales\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 2344,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "River Dee, Wales"
@@ -1691,9 +1921,11 @@
   ],
   "size": 129,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"River Bann\", undefined-month mean (60 days ending 2026-09-11); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"River Bann\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1126,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "River Bann"
+  "wikiTitle": "River Bann",
+  "lat": 55.17175,
+  "lon": -6.77264
  }
 ]

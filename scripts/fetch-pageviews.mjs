@@ -120,7 +120,9 @@ async function resolveTitles(entries) {
   }
   const cache = await readCache('titles.json');
   const titles = [...byTitle.keys()];
-  const resolved = new Map(Object.entries(cache).filter(([title]) => byTitle.has(title)));
+  const resolved = new Map(
+    Object.entries(cache).filter(([title, r]) => byTitle.has(title) && 'lat' in r)
+  );
   const todo = titles.filter((title) => !resolved.has(title));
   if (resolved.size) console.log(`${resolved.size} title(s) from cache, ${todo.length} to look up`);
 
@@ -128,7 +130,7 @@ async function resolveTitles(entries) {
     const batch = todo.slice(i, i + 50);
     const url =
       'https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1' +
-      '&prop=description|pageprops&ppprop=disambiguation&titles=' +
+      '&prop=description|pageprops|coordinates&ppprop=disambiguation&colimit=max&titles=' +
       encodeURIComponent(batch.join('|'));
     const data = await getJSON(url);
 
@@ -141,11 +143,14 @@ async function resolveTitles(entries) {
 
     for (const requested of batch) {
       const page = pages.get(forward.get(requested));
+      const coord = page && page.coordinates && page.coordinates[0];
       resolved.set(requested, {
         finalTitle: page ? page.title : forward.get(requested),
         missing: !page || page.missing === true,
         disambiguation: Boolean(page && page.pageprops && 'disambiguation' in page.pageprops),
-        description: (page && page.description) || ''
+        description: (page && page.description) || '',
+        lat: coord ? coord.lat : null,
+        lon: coord ? coord.lon : null
       });
     }
     process.stdout.write(`\rresolving titles ${Math.min(i + 50, todo.length)}/${todo.length}`);
@@ -291,7 +296,9 @@ entries.forEach((entry, i) => {
   out.entries[entry.id] = {
     title: entry.finalTitle,
     monthlyViews: views[i],
-    days: (cached[entry.finalTitle] || []).length
+    days: (cached[entry.finalTitle] || []).length,
+    lat: entry.lat,
+    lon: entry.lon
   };
 });
 

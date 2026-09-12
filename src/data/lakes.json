@@ -8,10 +8,12 @@
   ],
   "size": 371000,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Caspian Sea\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Caspian Sea\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 76404,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Caspian Sea"
+  "wikiTitle": "Caspian Sea",
+  "lat": 42,
+  "lon": 50.5
  },
  {
   "id": "lake-lake-superior",
@@ -22,10 +24,12 @@
   ],
   "size": 82100,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Superior\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Superior\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 47091,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Superior"
+  "wikiTitle": "Lake Superior",
+  "lat": 47.7,
+  "lon": -87.5
  },
  {
   "id": "lake-lake-victoria",
@@ -36,10 +40,12 @@
   ],
   "size": 68870,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Victoria\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Victoria\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 23317,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Victoria"
+  "wikiTitle": "Lake Victoria",
+  "lat": -1,
+  "lon": 33
  },
  {
   "id": "lake-lake-huron",
@@ -50,10 +56,12 @@
   ],
   "size": 59600,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Huron\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Huron\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 15220,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Huron"
+  "wikiTitle": "Lake Huron",
+  "lat": 44.8,
+  "lon": -82.4
  },
  {
   "id": "lake-lake-michigan",
@@ -64,10 +72,12 @@
   ],
   "size": 58000,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Michigan\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Michigan\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 29557,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Michigan"
+  "wikiTitle": "Lake Michigan",
+  "lat": 44,
+  "lon": -87
  },
  {
   "id": "lake-lake-tanganyika",
@@ -78,10 +88,12 @@
   ],
   "size": 32900,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Tanganyika\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Tanganyika\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 17381,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Tanganyika"
+  "wikiTitle": "Lake Tanganyika",
+  "lat": -6.1,
+  "lon": 29.5
  },
  {
   "id": "lake-lake-baikal",
@@ -92,10 +104,12 @@
   ],
   "size": 31500,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Baikal\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Baikal\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 68064,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Baikal"
+  "wikiTitle": "Lake Baikal",
+  "lat": 53.5,
+  "lon": 108
  },
  {
   "id": "lake-great-bear-lake",
@@ -104,10 +118,12 @@
   "aliases": [],
   "size": 31000,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Great Bear Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Great Bear Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 9102,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Great Bear Lake"
+  "wikiTitle": "Great Bear Lake",
+  "lat": 65.83361111,
+  "lon": -120.75166667
  },
  {
   "id": "lake-lake-malawi",
@@ -119,10 +135,12 @@
   ],
   "size": 29600,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Malawi\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Malawi\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 7123,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Malawi"
+  "wikiTitle": "Lake Malawi",
+  "lat": -12,
+  "lon": 34.5
  },
  {
   "id": "lake-great-slave-lake",
@@ -131,10 +149,12 @@
   "aliases": [],
   "size": 28930,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Great Slave Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Great Slave Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 17412,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Great Slave Lake"
+  "wikiTitle": "Great Slave Lake",
+  "lat": 61.50027778,
+  "lon": -114.00111111
  },
  {
   "id": "lake-lake-erie",
@@ -145,10 +165,12 @@
   ],
   "size": 25700,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Erie\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Erie\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 21673,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Erie"
+  "wikiTitle": "Lake Erie",
+  "lat": 42.2,
+  "lon": -81.2
  },
  {
   "id": "lake-lake-winnipeg",
@@ -159,10 +181,12 @@
   ],
   "size": 24510,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Winnipeg\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Winnipeg\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 7427,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Winnipeg"
+  "wikiTitle": "Lake Winnipeg",
+  "lat": 52.11666667,
+  "lon": -97.25
  },
  {
   "id": "lake-lake-ontario",
@@ -173,10 +197,12 @@
   ],
   "size": 18960,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Ontario\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Ontario\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 15342,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Ontario"
+  "wikiTitle": "Lake Ontario",
+  "lat": 43.7,
+  "lon": -77.9
  },
  {
   "id": "lake-lake-ladoga",
@@ -187,10 +213,12 @@
   ],
   "size": 17700,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Ladoga\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Ladoga\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 8554,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Ladoga"
+  "wikiTitle": "Lake Ladoga",
+  "lat": 61,
+  "lon": 31.5
  },
  {
   "id": "lake-lake-balkhash",
@@ -201,10 +229,12 @@
   ],
   "size": 16400,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Balkhash\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Balkhash\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 6545,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Balkhash"
+  "wikiTitle": "Lake Balkhash",
+  "lat": 46.16666667,
+  "lon": 74.33333333
  },
  {
   "id": "lake-lake-bangweulu",
@@ -215,10 +245,12 @@
   ],
   "size": 15100,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Bangweulu\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Bangweulu\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 822,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Bangweulu"
+  "wikiTitle": "Lake Bangweulu",
+  "lat": -11.08333333,
+  "lon": 29.75
  },
  {
   "id": "lake-lake-vostok",
@@ -229,10 +261,12 @@
   ],
   "size": 12500,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Vostok\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Vostok\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 12998,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Vostok"
+  "wikiTitle": "Lake Vostok",
+  "lat": -77.5,
+  "lon": 106
  },
  {
   "id": "lake-lake-onega",
@@ -243,10 +277,12 @@
   ],
   "size": 9700,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Onega\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Onega\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2648,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Onega"
+  "wikiTitle": "Lake Onega",
+  "lat": 61.69055556,
+  "lon": 35.65555556
  },
  {
   "id": "lake-lake-eyre",
@@ -258,10 +294,12 @@
   ],
   "size": 9500,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Kati Thanda–Lake Eyre\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Kati Thanda–Lake Eyre\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3409,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Kati Thanda–Lake Eyre"
+  "wikiTitle": "Kati Thanda–Lake Eyre",
+  "lat": -28.66666667,
+  "lon": 137.33333333
  },
  {
   "id": "lake-lake-volta",
@@ -272,10 +310,12 @@
   ],
   "size": 8502,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Volta\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Volta\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3744,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Volta"
+  "wikiTitle": "Lake Volta",
+  "lat": 6.5,
+  "lon": 0
  },
  {
   "id": "lake-lake-titicaca",
@@ -286,10 +326,12 @@
   ],
   "size": 8372,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Titicaca\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Titicaca\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 22647,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Titicaca"
+  "wikiTitle": "Lake Titicaca",
+  "lat": -15.825,
+  "lon": -69.325
  },
  {
   "id": "lake-lake-nicaragua",
@@ -298,10 +340,12 @@
   "aliases": [],
   "size": 8264,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Nicaragua\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Nicaragua\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 5662,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Nicaragua"
+  "wikiTitle": "Lake Nicaragua",
+  "lat": 11.61666667,
+  "lon": -85.35
  },
  {
   "id": "lake-lake-athabasca",
@@ -312,10 +356,12 @@
   ],
   "size": 7850,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Athabasca\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Athabasca\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3105,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Athabasca"
+  "wikiTitle": "Lake Athabasca",
+  "lat": 60,
+  "lon": -110
  },
  {
   "id": "lake-reindeer-lake",
@@ -324,10 +370,12 @@
   "aliases": [],
   "size": 6650,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Reindeer Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Reindeer Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1705,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Reindeer Lake"
+  "wikiTitle": "Reindeer Lake",
+  "lat": 57.3,
+  "lon": -102.36666667
  },
  {
   "id": "lake-lake-turkana",
@@ -338,10 +386,12 @@
   ],
   "size": 6405,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Turkana\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Turkana\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 6149,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Turkana"
+  "wikiTitle": "Lake Turkana",
+  "lat": 3.58333333,
+  "lon": 36.11666667
  },
  {
   "id": "lake-lake-issyk-kul",
@@ -352,10 +402,12 @@
   ],
   "size": 6236,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Issyk-Kul\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Issyk-Kul\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 9558,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Issyk-Kul"
+  "wikiTitle": "Issyk-Kul",
+  "lat": 42.41666667,
+  "lon": 77.25
  },
  {
   "id": "lake-lake-torrens",
@@ -366,10 +418,12 @@
   ],
   "size": 5745,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Torrens\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Torrens\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 639,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Torrens"
+  "wikiTitle": "Lake Torrens",
+  "lat": -31.04444444,
+  "lon": 137.85972222
  },
  {
   "id": "lake-lake-kariba",
@@ -380,10 +434,12 @@
   ],
   "size": 5580,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Kariba\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Kariba\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 6027,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Kariba"
+  "wikiTitle": "Lake Kariba",
+  "lat": -16.9,
+  "lon": 28
  },
  {
   "id": "lake-lake-vanern",
@@ -394,10 +450,12 @@
   ],
   "size": 5650,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Vänern\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Vänern\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 4901,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Vänern"
+  "wikiTitle": "Vänern",
+  "lat": 58.91666667,
+  "lon": 13.5
  },
  {
   "id": "lake-nettilling-lake",
@@ -406,10 +464,12 @@
   "aliases": [],
   "size": 5542,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Nettilling Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Nettilling Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1065,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nettilling Lake"
+  "wikiTitle": "Nettilling Lake",
+  "lat": 66.48333333,
+  "lon": -70.33333333
  },
  {
   "id": "lake-lake-winnipegosis",
@@ -420,10 +480,12 @@
   ],
   "size": 5370,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Winnipegosis\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Winnipegosis\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1126,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Winnipegosis"
+  "wikiTitle": "Lake Winnipegosis",
+  "lat": 52.5,
+  "lon": -100
  },
  {
   "id": "lake-lake-albert",
@@ -434,10 +496,12 @@
   ],
   "size": 5300,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Albert (Africa)\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Albert (Africa)\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1735,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Albert (Africa)"
+  "wikiTitle": "Lake Albert (Africa)",
+  "lat": 1.68333333,
+  "lon": 30.91666667
  },
  {
   "id": "lake-lake-urmia",
@@ -448,10 +512,12 @@
   ],
   "size": 5200,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Urmia\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Urmia\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 4231,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Urmia"
+  "wikiTitle": "Lake Urmia",
+  "lat": 37.7,
+  "lon": 45.36666667
  },
  {
   "id": "lake-lake-mweru",
@@ -462,10 +528,12 @@
   ],
   "size": 5120,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Mweru\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Mweru\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 548,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Mweru"
+  "wikiTitle": "Lake Mweru",
+  "lat": -9,
+  "lon": 28.71666667
  },
  {
   "id": "lake-lake-nipigon",
@@ -476,10 +544,12 @@
   ],
   "size": 4848,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Nipigon\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Nipigon\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3288,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Nipigon"
+  "wikiTitle": "Lake Nipigon",
+  "lat": 49.82333333,
+  "lon": -88.51805556
  },
  {
   "id": "lake-lake-manitoba",
@@ -490,10 +560,12 @@
   ],
   "size": 4624,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Manitoba\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Manitoba\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1583,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Manitoba"
+  "wikiTitle": "Lake Manitoba",
+  "lat": 50.98333333,
+  "lon": -98.8
  },
  {
   "id": "lake-lake-taymyr",
@@ -504,10 +576,12 @@
   ],
   "size": 4560,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Taymyr\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Taymyr\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 548,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Taymyr"
+  "wikiTitle": "Lake Taymyr",
+  "lat": 74.54277778,
+  "lon": 101.64416667
  },
  {
   "id": "lake-qinghai-lake",
@@ -518,10 +592,12 @@
   ],
   "size": 4489,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Qinghai Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Qinghai Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 4292,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Qinghai Lake"
+  "wikiTitle": "Qinghai Lake",
+  "lat": 37,
+  "lon": 100.13333333
  },
  {
   "id": "lake-lake-gairdner",
@@ -532,10 +608,12 @@
   ],
   "size": 4351,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Gairdner\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Gairdner\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 274,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Gairdner"
+  "wikiTitle": "Lake Gairdner",
+  "lat": -31.56666667,
+  "lon": 136
  },
  {
   "id": "lake-great-salt-lake",
@@ -544,10 +622,12 @@
   "aliases": [],
   "size": 4400,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Great Salt Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Great Salt Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 22282,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Great Salt Lake"
+  "wikiTitle": "Great Salt Lake",
+  "lat": 41.16666667,
+  "lon": -112.53333333
  },
  {
   "id": "lake-lake-saimaa",
@@ -558,10 +638,12 @@
   ],
   "size": 4400,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Saimaa\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Saimaa\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3440,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Saimaa"
+  "wikiTitle": "Saimaa",
+  "lat": 61.25,
+  "lon": 28.25
  },
  {
   "id": "lake-lake-khanka",
@@ -572,10 +654,12 @@
   ],
   "size": 4190,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Khanka\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Khanka\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 944,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Khanka"
+  "wikiTitle": "Lake Khanka",
+  "lat": 45,
+  "lon": 132.41666667
  },
  {
   "id": "lake-sarygamysh-lake",
@@ -584,10 +668,12 @@
   "aliases": [],
   "size": 3955,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Sarygamysh Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Sarygamysh Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1157,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sarygamysh Lake"
+  "wikiTitle": "Sarygamysh Lake",
+  "lat": 42,
+  "lon": 57.33333333
  },
  {
   "id": "lake-dubawnt-lake",
@@ -596,10 +682,12 @@
   "aliases": [],
   "size": 3833,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Dubawnt Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Dubawnt Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 396,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Dubawnt Lake"
+  "wikiTitle": "Dubawnt Lake",
+  "lat": 63.06666667,
+  "lon": -101.7
  },
  {
   "id": "lake-lake-van",
@@ -610,10 +698,12 @@
   ],
   "size": 3755,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Van\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Van\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 5571,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Van"
+  "wikiTitle": "Lake Van",
+  "lat": 38.63333333,
+  "lon": 42.81666667
  },
  {
   "id": "lake-lake-peipus",
@@ -624,10 +714,12 @@
   ],
   "size": 3555,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Peipus\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Peipus\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2770,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Peipus"
+  "wikiTitle": "Lake Peipus",
+  "lat": 58.68333333,
+  "lon": 27.48333333
  },
  {
   "id": "lake-uvs-lake",
@@ -638,10 +730,12 @@
   ],
   "size": 3350,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Uvs Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Uvs Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1035,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Uvs Lake"
+  "wikiTitle": "Uvs Lake",
+  "lat": 50.3,
+  "lon": 92.7
  },
  {
   "id": "lake-poyang-lake",
@@ -652,10 +746,12 @@
   ],
   "size": 3210,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Poyang Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Poyang Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1735,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Poyang Lake"
+  "wikiTitle": "Poyang Lake",
+  "lat": 29.08333333,
+  "lon": 116.28333333
  },
  {
   "id": "lake-lake-tana",
@@ -666,10 +762,12 @@
   ],
   "size": 3050,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Tana\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Tana\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3044,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Tana"
+  "wikiTitle": "Lake Tana",
+  "lat": 12,
+  "lon": 37.25
  },
  {
   "id": "lake-tonle-sap",
@@ -678,10 +776,12 @@
   "aliases": [],
   "size": 2700,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Tonle Sap\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Tonle Sap\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2313,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tonle Sap"
+  "wikiTitle": "Tonle Sap",
+  "lat": 12.88333333,
+  "lon": 104.06666667
  },
  {
   "id": "lake-lake-vattern",
@@ -692,10 +792,12 @@
   ],
   "size": 1912,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Vättern\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Vättern\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2313,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Vättern"
+  "wikiTitle": "Vättern",
+  "lat": 58.4,
+  "lon": 14.6
  },
  {
   "id": "lake-lake-okeechobee",
@@ -706,10 +808,12 @@
   ],
   "size": 1730,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Okeechobee\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Okeechobee\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 10928,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Okeechobee"
+  "wikiTitle": "Lake Okeechobee",
+  "lat": 26.95,
+  "lon": -80.8
  },
  {
   "id": "lake-lake-pontchartrain",
@@ -720,10 +824,12 @@
   ],
   "size": 1630,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Pontchartrain\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Pontchartrain\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 13394,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Pontchartrain"
+  "wikiTitle": "Lake Pontchartrain",
+  "lat": 30.18888889,
+  "lon": -90.10138889
  },
  {
   "id": "lake-lake-argentino",
@@ -734,10 +840,12 @@
   ],
   "size": 1415,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Argentino\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Argentino\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 487,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Argentino"
+  "wikiTitle": "Lake Argentino",
+  "lat": -50.21666667,
+  "lon": -72.41666667
  },
  {
   "id": "lake-lake-chad",
@@ -748,10 +856,12 @@
   ],
   "size": 1350,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Chad\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Chad\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 12176,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Chad"
+  "wikiTitle": "Lake Chad",
+  "lat": 13.099,
+  "lon": 14.533
  },
  {
   "id": "lake-lake-champlain",
@@ -762,10 +872,12 @@
   ],
   "size": 1269,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Champlain\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Champlain\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 15768,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Champlain"
+  "wikiTitle": "Lake Champlain",
+  "lat": 44.53,
+  "lon": -73.33
  },
  {
   "id": "lake-lake-toba",
@@ -776,10 +888,12 @@
   ],
   "size": 1130,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Toba\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Toba\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 11689,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Toba"
+  "wikiTitle": "Lake Toba",
+  "lat": 2.68,
+  "lon": 98.88
  },
  {
   "id": "lake-lake-poopo",
@@ -790,10 +904,12 @@
   ],
   "size": 1000,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Poopó\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Poopó\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1644,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Poopó"
+  "wikiTitle": "Lake Poopó",
+  "lat": -18.55,
+  "lon": -67.08333333
  },
  {
   "id": "lake-salton-sea",
@@ -802,10 +918,12 @@
   "aliases": [],
   "size": 890,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Salton Sea\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Salton Sea\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 29192,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Salton Sea"
+  "wikiTitle": "Salton Sea",
+  "lat": 33.31305556,
+  "lon": -115.83444444
  },
  {
   "id": "lake-lake-inari",
@@ -816,10 +934,12 @@
   ],
   "size": 1040,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Inari\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Inari\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1126,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Inari"
+  "wikiTitle": "Lake Inari",
+  "lat": 69,
+  "lon": 28
  },
  {
   "id": "lake-biwa-lake",
@@ -830,10 +950,12 @@
   ],
   "size": 670,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Biwa\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Biwa\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 7458,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Biwa"
+  "wikiTitle": "Lake Biwa",
+  "lat": 35.255,
+  "lon": 136.08
  },
  {
   "id": "lake-lake-taupo",
@@ -844,10 +966,12 @@
   ],
   "size": 616,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Taupō\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Taupō\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 4140,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Taupō"
+  "wikiTitle": "Lake Taupō",
+  "lat": -38.80694444,
+  "lon": 175.90777778
  },
  {
   "id": "lake-lake-geneva",
@@ -859,10 +983,12 @@
   ],
   "size": 580,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Geneva\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Geneva\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 12724,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Geneva"
+  "wikiTitle": "Lake Geneva",
+  "lat": 46.45,
+  "lon": 6.55
  },
  {
   "id": "lake-lake-constance",
@@ -874,10 +1000,12 @@
   ],
   "size": 536,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Constance\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Constance\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 13485,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Constance"
+  "wikiTitle": "Lake Constance",
+  "lat": 47.58333333,
+  "lon": 9.46666667
  },
  {
   "id": "lake-nahuel-huapi",
@@ -888,10 +1016,12 @@
   ],
   "size": 529,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Nahuel Huapi Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Nahuel Huapi Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2527,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nahuel Huapi Lake"
+  "wikiTitle": "Nahuel Huapi Lake",
+  "lat": -41.09027778,
+  "lon": -71.33555556
  },
  {
   "id": "lake-lake-tahoe",
@@ -902,10 +1032,12 @@
   ],
   "size": 496,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Tahoe\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Tahoe\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 47547,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Tahoe"
+  "wikiTitle": "Lake Tahoe",
+  "lat": 39,
+  "lon": -120
  },
  {
   "id": "lake-skadar-lake",
@@ -916,10 +1048,12 @@
   ],
   "size": 391,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Skadar\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Skadar\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3622,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Skadar"
+  "wikiTitle": "Lake Skadar",
+  "lat": 42.16666667,
+  "lon": 19.31666667
  },
  {
   "id": "lake-lake-garda",
@@ -930,10 +1064,12 @@
   ],
   "size": 370,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Garda\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Garda\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 19451,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Garda"
+  "wikiTitle": "Lake Garda",
+  "lat": 45.63333333,
+  "lon": 10.66666667
  },
  {
   "id": "lake-mjosa",
@@ -944,10 +1080,12 @@
   ],
   "size": 362,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Mjøsa\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Mjøsa\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1492,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mjøsa"
+  "wikiTitle": "Mjøsa",
+  "lat": 60.66666667,
+  "lon": 11
  },
  {
   "id": "lake-lake-ohrid",
@@ -958,10 +1096,12 @@
   ],
   "size": 358,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Ohrid\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Ohrid\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 7549,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Ohrid"
+  "wikiTitle": "Lake Ohrid",
+  "lat": 41.03,
+  "lon": 20.72
  },
  {
   "id": "lake-lake-te-anau",
@@ -972,10 +1112,12 @@
   ],
   "size": 344,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Te Anau\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Te Anau\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 609,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Te Anau"
+  "wikiTitle": "Lake Te Anau",
+  "lat": -45.2,
+  "lon": 167.8
  },
  {
   "id": "lake-yellowstone-lake",
@@ -986,10 +1128,12 @@
   ],
   "size": 341,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Yellowstone Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Yellowstone Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3561,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yellowstone Lake"
+  "wikiTitle": "Yellowstone Lake",
+  "lat": 44.46666667,
+  "lon": -110.36666667
  },
  {
   "id": "lake-lake-wakatipu",
@@ -1000,10 +1144,12 @@
   ],
   "size": 291,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Wakatipu\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Wakatipu\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2253,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Wakatipu"
+  "wikiTitle": "Lake Wakatipu",
+  "lat": -45.05,
+  "lon": 168.5
  },
  {
   "id": "lake-lake-prespa",
@@ -1014,10 +1160,12 @@
   ],
   "size": 273,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Prespa\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Prespa\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1979,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Prespa"
+  "wikiTitle": "Lake Prespa",
+  "lat": 40.9,
+  "lon": 21.03333333
  },
  {
   "id": "lake-lake-taal",
@@ -1028,10 +1176,12 @@
   ],
   "size": 234,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Taal Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Taal Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1979,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Taal Lake"
+  "wikiTitle": "Taal Lake",
+  "lat": 13.98472222,
+  "lon": 121.01583333
  },
  {
   "id": "lake-lake-neuchatel",
@@ -1042,10 +1192,12 @@
   ],
   "size": 218,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Neuchâtel\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Neuchâtel\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1400,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Neuchâtel"
+  "wikiTitle": "Lake Neuchâtel",
+  "lat": 46.9,
+  "lon": 6.85
  },
  {
   "id": "lake-lake-maggiore",
@@ -1056,10 +1208,12 @@
   ],
   "size": 212,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Maggiore\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Maggiore\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 10350,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Maggiore"
+  "wikiTitle": "Lake Maggiore",
+  "lat": 46.09805556,
+  "lon": 8.71472222
  },
  {
   "id": "lake-mono-lake",
@@ -1068,10 +1222,12 @@
   "aliases": [],
   "size": 180,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Mono Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Mono Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 9284,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mono Lake"
+  "wikiTitle": "Mono Lake",
+  "lat": 38.0165908,
+  "lon": -119.0093116
  },
  {
   "id": "lake-lake-como",
@@ -1082,10 +1238,12 @@
   ],
   "size": 146,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Como\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Como\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 31049,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Como"
+  "wikiTitle": "Lake Como",
+  "lat": 46,
+  "lon": 9.26666667
  },
  {
   "id": "lake-lake-trasimeno",
@@ -1096,10 +1254,12 @@
   ],
   "size": 128,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Trasimeno\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Trasimeno\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3866,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Trasimeno"
+  "wikiTitle": "Lake Trasimeno",
+  "lat": 43.14,
+  "lon": 12.1
  },
  {
   "id": "lake-inle-lake",
@@ -1110,10 +1270,12 @@
   ],
   "size": 116,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Inle Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Inle Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1400,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Inle Lake"
+  "wikiTitle": "Inle Lake",
+  "lat": 20.55,
+  "lon": 96.91666667
  },
  {
   "id": "lake-lake-lucerne",
@@ -1124,10 +1286,12 @@
   ],
   "size": 114,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Lucerne\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Lucerne\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 4475,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Lucerne"
+  "wikiTitle": "Lake Lucerne",
+  "lat": 47.0194,
+  "lon": 8.4011
  },
  {
   "id": "lake-lake-zurich",
@@ -1138,10 +1302,12 @@
   ],
   "size": 88,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Zurich\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Zurich\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3379,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Zurich"
+  "wikiTitle": "Lake Zurich",
+  "lat": 47.2475,
+  "lon": 8.6775
  },
  {
   "id": "lake-loch-lomond",
@@ -1150,10 +1316,12 @@
   "aliases": [],
   "size": 71,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Loch Lomond\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Loch Lomond\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 11080,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Loch Lomond"
+  "wikiTitle": "Loch Lomond",
+  "lat": 56.06666667,
+  "lon": -4.58333333
  },
  {
   "id": "lake-lake-bracciano",
@@ -1164,10 +1332,12 @@
   ],
   "size": 57,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Bracciano\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Bracciano\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2070,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Bracciano"
+  "wikiTitle": "Lake Bracciano",
+  "lat": 42.12111111,
+  "lon": 12.23194444
  },
  {
   "id": "lake-loch-ness",
@@ -1176,10 +1346,12 @@
   "aliases": [],
   "size": 56,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Loch Ness\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Loch Ness\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 25509,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Loch Ness"
+  "wikiTitle": "Loch Ness",
+  "lat": 57.3,
+  "lon": -4.45
  },
  {
   "id": "lake-crater-lake",
@@ -1188,10 +1360,12 @@
   "aliases": [],
   "size": 53,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Crater Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Crater Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 28522,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Crater Lake"
+  "wikiTitle": "Crater Lake",
+  "lat": 42.95,
+  "lon": -122.1
  },
  {
   "id": "lake-lake-annecy",
@@ -1202,10 +1376,12 @@
   ],
   "size": 27,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Annecy\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Annecy\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 4870,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Annecy"
+  "wikiTitle": "Lake Annecy",
+  "lat": 45.85,
+  "lon": 6.16666667
  },
  {
   "id": "lake-lake-windermere",
@@ -1216,10 +1392,12 @@
   ],
   "size": 15,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Windermere\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Windermere\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 7793,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Windermere"
+  "wikiTitle": "Windermere",
+  "lat": 54.35833333,
+  "lon": -2.93611111
  },
  {
   "id": "lake-hallstatter-see",
@@ -1230,10 +1408,12 @@
   ],
   "size": 9,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Hallstätter See\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Hallstätter See\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1583,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Hallstätter See"
+  "wikiTitle": "Hallstätter See",
+  "lat": 47.57861111,
+  "lon": 13.66055556
  },
  {
   "id": "lake-bala-lake",
@@ -1244,10 +1424,12 @@
   ],
   "size": 4.4,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Llyn Tegid\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Llyn Tegid\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2496,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Llyn Tegid"
+  "wikiTitle": "Llyn Tegid",
+  "lat": 52.88333333,
+  "lon": -3.63333333
  },
  {
   "id": "lake-lake-louise",
@@ -1256,10 +1438,12 @@
   "aliases": [],
   "size": 0.8,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Louise (Alberta)\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Louise (Alberta)\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 5814,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Louise (Alberta)"
+  "wikiTitle": "Lake Louise (Alberta)",
+  "lat": 51.41166667,
+  "lon": -116.22805556
  },
  {
   "id": "lake-dead-sea",
@@ -1268,7 +1452,7 @@
   "aliases": [],
   "size": 605,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Dead Sea\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Dead Sea\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 41611,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Dead Sea"
@@ -1283,10 +1467,12 @@
   ],
   "size": 166,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Sea of Galilee\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Sea of Galilee\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 21673,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sea of Galilee"
+  "wikiTitle": "Sea of Galilee",
+  "lat": 32.83333333,
+  "lon": 35.58333333
  },
  {
   "id": "lake-lake-mead",
@@ -1295,10 +1481,12 @@
   "aliases": [],
   "size": 640,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Mead\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Mead\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 24352,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Mead"
+  "wikiTitle": "Lake Mead",
+  "lat": 36.25,
+  "lon": -114.39
  },
  {
   "id": "lake-lake-powell",
@@ -1307,10 +1495,12 @@
   "aliases": [],
   "size": 653,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Powell\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Powell\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 22160,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Powell"
+  "wikiTitle": "Lake Powell",
+  "lat": 36.93611111,
+  "lon": -111.48416667
  },
  {
   "id": "lake-lake-havasu",
@@ -1319,10 +1509,12 @@
   "aliases": [],
   "size": 79,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Havasu\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Havasu\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 6819,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Havasu"
+  "wikiTitle": "Lake Havasu",
+  "lat": 34.48333333,
+  "lon": -114.38333333
  },
  {
   "id": "lake-lake-george",
@@ -1331,10 +1523,12 @@
   "aliases": [],
   "size": 114,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake George (New York)\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake George (New York)\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 10837,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake George (New York)"
+  "wikiTitle": "Lake George (New York)",
+  "lat": 43.62222222,
+  "lon": -73.54666667
  },
  {
   "id": "lake-moraine-lake",
@@ -1343,10 +1537,12 @@
   "aliases": [],
   "size": 0.5,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Moraine Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Moraine Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 5144,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Moraine Lake"
+  "wikiTitle": "Moraine Lake",
+  "lat": 51.3225,
+  "lon": -116.18555556
  },
  {
   "id": "lake-lake-tekapo",
@@ -1355,10 +1551,12 @@
   "aliases": [],
   "size": 83,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Tekapo\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Tekapo\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1826,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Tekapo"
+  "wikiTitle": "Lake Tekapo",
+  "lat": -43.88333333,
+  "lon": 170.51666667
  },
  {
   "id": "lake-lake-pukaki",
@@ -1367,10 +1565,12 @@
   "aliases": [],
   "size": 178,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Pukaki\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Pukaki\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1065,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Pukaki"
+  "wikiTitle": "Lake Pukaki",
+  "lat": -44.11666667,
+  "lon": 170.16666667
  },
  {
   "id": "lake-lake-rotorua",
@@ -1379,10 +1579,12 @@
   "aliases": [],
   "size": 79,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Rotorua\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Rotorua\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 487,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Rotorua"
+  "wikiTitle": "Lake Rotorua",
+  "lat": -38.08333333,
+  "lon": 176.26666667
  },
  {
   "id": "lake-lough-neagh",
@@ -1391,10 +1593,12 @@
   "aliases": [],
   "size": 392,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lough Neagh\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lough Neagh\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 8249,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lough Neagh"
+  "wikiTitle": "Lough Neagh",
+  "lat": 54.61833333,
+  "lon": -6.39527778
  },
  {
   "id": "lake-lake-lugano",
@@ -1403,10 +1607,12 @@
   "aliases": [],
   "size": 48.7,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Lugano\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Lugano\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2648,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Lugano"
+  "wikiTitle": "Lake Lugano",
+  "lat": 45.98333333,
+  "lon": 8.96666667
  },
  {
   "id": "lake-lake-thun",
@@ -1415,10 +1621,12 @@
   "aliases": [],
   "size": 48.3,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Thun\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Thun\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1370,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Thun"
+  "wikiTitle": "Lake Thun",
+  "lat": 46.68333333,
+  "lon": 7.71666667
  },
  {
   "id": "lake-konigssee",
@@ -1429,10 +1637,12 @@
   ],
   "size": 5.2,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Königssee\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Königssee\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3379,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Königssee"
+  "wikiTitle": "Königssee",
+  "lat": 47.55,
+  "lon": 12.96666667
  },
  {
   "id": "lake-chiemsee",
@@ -1441,10 +1651,12 @@
   "aliases": [],
   "size": 79.9,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Chiemsee\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Chiemsee\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2070,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Chiemsee"
+  "wikiTitle": "Chiemsee",
+  "lat": 47.89,
+  "lon": 12.47
  },
  {
   "id": "lake-lake-balaton",
@@ -1455,10 +1667,12 @@
   ],
   "size": 592,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Balaton\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Balaton\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 10593,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Balaton"
+  "wikiTitle": "Lake Balaton",
+  "lat": 46.85,
+  "lon": 17.72
  },
  {
   "id": "lake-lake-sevan",
@@ -1469,10 +1683,12 @@
   ],
   "size": 1242,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Sevan\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Sevan\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 3957,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Sevan"
+  "wikiTitle": "Lake Sevan",
+  "lat": 40.31666667,
+  "lon": 45.35
  },
  {
   "id": "lake-lake-khovsgol",
@@ -1483,10 +1699,12 @@
   ],
   "size": 2760,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Khövsgöl\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Khövsgöl\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2770,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Khövsgöl"
+  "wikiTitle": "Lake Khövsgöl",
+  "lat": 51.1,
+  "lon": 100.5
  },
  {
   "id": "lake-west-lake",
@@ -1497,10 +1715,12 @@
   ],
   "size": 6.5,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"West Lake\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"West Lake\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 4992,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "West Lake"
+  "wikiTitle": "West Lake",
+  "lat": 30.24694444,
+  "lon": 120.14416667
  },
  {
   "id": "lake-lake-maracaibo",
@@ -1511,10 +1731,12 @@
   ],
   "size": 13210,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Maracaibo\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Maracaibo\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 6636,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Maracaibo"
+  "wikiTitle": "Lake Maracaibo",
+  "lat": 9.81583333,
+  "lon": -71.55666667
  },
  {
   "id": "lake-lake-atitlan",
@@ -1525,10 +1747,12 @@
   ],
   "size": 130,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Atitlán\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Atitlán\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 4870,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Atitlán"
+  "wikiTitle": "Lake Atitlán",
+  "lat": 14.7,
+  "lon": -91.2
  },
  {
   "id": "lake-lake-managua",
@@ -1539,10 +1763,12 @@
   ],
   "size": 1042,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Managua\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Managua\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 913,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Managua"
+  "wikiTitle": "Lake Managua",
+  "lat": 12.33333333,
+  "lon": -86.41666667
  },
  {
   "id": "lake-lake-kivu",
@@ -1553,10 +1779,12 @@
   ],
   "size": 2700,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Kivu\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Kivu\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 5936,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Kivu"
+  "wikiTitle": "Lake Kivu",
+  "lat": -2,
+  "lon": 29
  },
  {
   "id": "lake-lake-edward",
@@ -1567,10 +1795,12 @@
   ],
   "size": 2325,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Edward\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Edward\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1035,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Edward"
+  "wikiTitle": "Lake Edward",
+  "lat": -0.33333333,
+  "lon": 29.6
  },
  {
   "id": "lake-lake-naivasha",
@@ -1581,10 +1811,12 @@
   ],
   "size": 139,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Naivasha\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Naivasha\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1766,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Naivasha"
+  "wikiTitle": "Lake Naivasha",
+  "lat": -0.76852778,
+  "lon": 36.35064444
  },
  {
   "id": "lake-lake-nakuru",
@@ -1595,10 +1827,12 @@
   ],
   "size": 45,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Nakuru\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Nakuru\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 1461,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Nakuru"
+  "wikiTitle": "Lake Nakuru",
+  "lat": -0.36666667,
+  "lon": 36.08333333
  },
  {
   "id": "lake-lake-assal",
@@ -1609,9 +1843,11 @@
   ],
   "size": 54,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Assal (Djibouti)\", undefined-month mean (60 days ending 2026-09-11); Standard reference surface-area figures (km2), rounded",
+  "source": "English Wikipedia pageviews for \"Lake Assal (Djibouti)\", 60-day daily median (60 days ending 2026-09-12); Standard reference surface-area figures (km2), rounded",
   "magnitude": 2800,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Assal (Djibouti)"
+  "wikiTitle": "Lake Assal (Djibouti)",
+  "lat": 11.65,
+  "lon": 42.41666667
  }
 ]

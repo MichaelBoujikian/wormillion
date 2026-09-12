@@ -125,27 +125,32 @@ test('an unrecognized answer retries for free (Spec 3.4)', () => {
 });
 
 test('a repeat within one run is rejected without advancing (Spec 3.5)', () => {
-  const run = runner.createRun(bank, { rng: seeded(11), rounds: 15 });
-  const firstCategory = run.prompt().category;
-  const used = ANSWERS[firstCategory][0];
-  assert.strictEqual(run.submit(used).status, 'accepted');
-
+  // Seven of eight categories come round twice per run; find a seed where the
+  // opening category is one of them, then answer it the same way both times.
   let checked = false;
-  while (!run.finished && !checked) {
-    if (run.prompt().category === firstCategory) {
-      const roundBefore = run.roundNumber;
-      const scoreBefore = run.score;
-      const duplicate = run.submit(used);
-      assert.strictEqual(duplicate.status, 'duplicate');
-      assert.strictEqual(duplicate.entry.name, used);
-      assert.strictEqual(run.roundNumber, roundBefore, 'duplicate does not advance');
-      assert.strictEqual(run.score, scoreBefore, 'duplicate does not score');
-      checked = true;
-      break;
+  for (let seed = 1; seed <= 40 && !checked; seed++) {
+    const run = runner.createRun(bank, { rng: seeded(seed), rounds: 15 });
+    const firstCategory = run.prompt().category;
+    const used = ANSWERS[firstCategory][0];
+    if (run.submit(used).status !== 'accepted') continue;
+
+    while (!run.finished && !checked) {
+      const prompt = run.prompt();
+      if (prompt.category === firstCategory && prompt.lookup.has(used.toLowerCase())) {
+        const roundBefore = run.roundNumber;
+        const scoreBefore = run.score;
+        const duplicate = run.submit(used);
+        assert.strictEqual(duplicate.status, 'duplicate');
+        assert.strictEqual(duplicate.entry.name, used);
+        assert.strictEqual(run.roundNumber, roundBefore, 'duplicate does not advance');
+        assert.strictEqual(run.score, scoreBefore, 'duplicate does not score');
+        checked = true;
+        break;
+      }
+      run.timeout();
     }
-    run.timeout();
   }
-  assert.ok(checked, 'expected the category to come round a second time');
+  assert.ok(checked, 'expected some seed to repeat the opening category with the same answer eligible');
 });
 
 test('curated themes survive even when deliberately tight', () => {

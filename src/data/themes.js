@@ -5,12 +5,40 @@
  * (case- and accent-insensitively). `npm run validate` reports any name here
  * that no longer exists in the bank, and any theme too small to use.
  *
- * These are hand-curated rather than derived from coordinates on purpose: a
- * themed prompt REJECTS answers outside its set, so a half-complete set would
- * turn a correct answer into a wrong one. If you add a place that belongs to a
- * theme, add it here too.
+ * These are hand-curated on purpose: a themed prompt REJECTS answers outside
+ * its set, so a half-complete set would turn a correct answer into a wrong one.
+ * If you add a place that belongs to a theme, add it here too.
+ *
+ * Ocean membership ("Name an island in the Pacific Ocean") is NOT a theme: it is
+ * derived from each island's coordinates at build time (scripts/data-oceans.mjs)
+ * and validated, precisely so that Hawaii can never be left off a list.
  */
 globalThis.WORMILLION_THEMES = {
+  country: {
+    'landlocked': [
+      'Afghanistan', 'Andorra', 'Armenia', 'Austria', 'Azerbaijan', 'Belarus',
+      'Bhutan', 'Bolivia', 'Botswana', 'Burkina Faso', 'Burundi',
+      'Central African Republic', 'Chad', 'Czechia', 'Eswatini', 'Ethiopia',
+      'Hungary', 'Kazakhstan', 'Kosovo', 'Kyrgyzstan', 'Laos', 'Lesotho',
+      'Liechtenstein', 'Luxembourg', 'Malawi', 'Mali', 'Moldova', 'Mongolia',
+      'Nepal', 'Niger', 'North Macedonia', 'Paraguay', 'Rwanda', 'San Marino',
+      'Serbia', 'Slovakia', 'South Sudan', 'Switzerland', 'Tajikistan',
+      'Turkmenistan', 'Uganda', 'Uzbekistan', 'Vatican City', 'Zambia', 'Zimbabwe'
+    ],
+    'island nations': [
+      'Japan', 'United Kingdom', 'Ireland', 'Iceland', 'Sri Lanka', 'Madagascar',
+      'Indonesia', 'Philippines', 'New Zealand', 'Cuba', 'Jamaica', 'Haiti',
+      'Dominican Republic', 'Bahamas', 'Barbados', 'Trinidad and Tobago', 'Malta',
+      'Cyprus', 'Maldives', 'Seychelles', 'Mauritius', 'Comoros', 'Cape Verde',
+      'Sao Tome and Principe', 'Fiji', 'Samoa', 'Tonga', 'Vanuatu',
+      'Solomon Islands', 'Papua New Guinea', 'Kiribati', 'Tuvalu', 'Nauru',
+      'Palau', 'Marshall Islands', 'Micronesia', 'Timor-Leste', 'Bahrain',
+      'Singapore', 'Taiwan', 'Brunei', 'Antigua and Barbuda', 'Dominica',
+      'Grenada', 'Saint Kitts and Nevis', 'Saint Lucia',
+      'Saint Vincent and the Grenadines'
+    ]
+  },
+
   river: {
     'Mesopotamia': ['Tigris', 'Euphrates'],
     'the British Isles': [
@@ -111,15 +139,6 @@ globalThis.WORMILLION_THEMES = {
       'Mull', 'Islay', 'Jura', 'Arran', 'Bute', 'North Uist', 'South Uist',
       'Barra', 'Tiree', 'Coll', 'Rum', 'Eigg', 'Staffa', 'Iona', 'Outer Hebrides'
     ],
-    'the Pacific': [
-      'Tahiti', 'Bora Bora', 'Moorea', 'Rangiroa', 'Nuku Hiva', 'Rarotonga',
-      'Aitutaki', 'Upolu', 'Savaii', 'Tutuila', 'Efate', 'Espiritu Santo',
-      'Tanna', 'Guadalcanal', 'Bougainville Island', 'New Ireland', 'Manus Island',
-      'Saipan', 'Tinian', 'Babeldaob', 'Pohnpei', 'Majuro', 'Kwajalein',
-      'Bikini Atoll', 'Kiritimati', 'Wake Island', 'Midway Atoll', 'Easter Island',
-      'Niue', 'Guam', 'Nauru Island', 'New Britain', 'Cook Islands',
-      'Society Islands', 'Marquesas Islands'
-    ],
     'Japan': [
       'Honshu', 'Hokkaido', 'Kyushu', 'Shikoku', 'Okinawa Island', 'Sado Island',
       'Yakushima', 'Miyajima', 'Awaji Island', 'Ishigaki Island'
@@ -128,15 +147,16 @@ globalThis.WORMILLION_THEMES = {
       'Java', 'Sumatra', 'Borneo', 'Sulawesi', 'Bali', 'Lombok', 'Komodo',
       'Sumba', 'Sumbawa', 'Flores', 'Seram', 'Halmahera', 'Ambon Island',
       'Ternate', 'Nias', 'Bintan', 'Batam', 'Timor'
-    ],
-    'the Arctic': [
-      'Greenland', 'Baffin Island', 'Victoria Island', 'Ellesmere Island',
-      'Banks Island', 'Devon Island', 'Melville Island', 'Southampton Island',
-      'Somerset Island', 'Spitsbergen', 'Novaya Zemlya', 'Wrangel Island', 'Svalbard'
     ]
   },
 
   lake: {
+    'saltwater': [
+      'Caspian Sea', 'Dead Sea', 'Great Salt Lake', 'Salton Sea', 'Lake Urmia',
+      'Lake Van', 'Lake Eyre', 'Lake Torrens', 'Lake Gairdner', 'Mono Lake',
+      'Lake Assal', 'Lake Issyk-Kul', 'Qinghai Lake', 'Uvs Lake', 'Lake Balkhash',
+      'Sarygamysh Lake', 'Lake Poopo', 'Lake Turkana', 'Lake Nakuru'
+    ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [
       'Lake Victoria', 'Lake Tanganyika', 'Lake Malawi', 'Lake Turkana',
@@ -209,5 +229,8 @@ globalThis.WORMILLION_THEMES = {
 
 /** Themes whose prompt doesn't fit the "Name a {category} in {theme}" pattern. */
 globalThis.WORMILLION_THEME_PROMPTS = {
-  volcanoes: 'Name a volcano.'
+  volcanoes: 'Name a volcano.',
+  saltwater: 'Name a saltwater lake.',
+  landlocked: 'Name a landlocked country.',
+  'island nations': 'Name an island nation.'
 };

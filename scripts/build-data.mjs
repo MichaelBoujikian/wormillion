@@ -18,6 +18,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { COUNTRIES } from './data-countries.mjs';
 import { LAKES, RIVERS, MOUNTAINS, MINOR_PEAKS, DESERTS, ISLANDS, SEAS_OCEANS } from './data-physical.mjs';
+import { oceansFor } from './data-oceans.mjs';
 
 const OUT = fileURLToPath(new URL('../src/data/', import.meta.url));
 
@@ -130,9 +131,19 @@ for (const entries of Object.values(files)) {
     entry.magnitude = record.monthlyViews;
     entry.magnitudeUnit = 'pageviews_monthly';
     entry.wikiTitle = record.title;
+    if (Number.isFinite(record.lat) && Number.isFinite(record.lon)) {
+      entry.lat = record.lat;
+      entry.lon = record.lon;
+    }
     entry.source =
-      `English Wikipedia pageviews for "${record.title}", ${pageviews.months}-month mean ` +
+      `English Wikipedia pageviews for "${record.title}", ${pageviews.days}-day daily median ` +
       `(${pageviews.window}); ${entry.source}`;
+
+    // Islands and seas carry the ocean(s) they belong to, derived from the
+    // article's coordinates and corrected by hand (scripts/data-oceans.mjs).
+    if (entry.category === 'island' || entry.category === 'sea_ocean') {
+      entry.oceans = oceansFor(entry);
+    }
   }
 }
 
@@ -153,8 +164,16 @@ for (const [file, entries] of Object.entries(files)) {
 // `magnitudeUnit` are maintainer metadata the game never reads, so they stay in
 // the JSON files and out of the bytes every player downloads.
 const runtimeEntry = (e) => {
-  const out = { id: e.id, category: e.category, name: e.name, aliases: e.aliases, magnitude: e.magnitude };
+  const out = {
+    id: e.id,
+    category: e.category,
+    name: e.name,
+    aliases: e.aliases,
+    magnitude: e.magnitude,
+    size: e.size // population / area / length / elevation - used by threshold prompts
+  };
   if (e.region) out.region = e.region;
+  if (e.oceans) out.oceans = e.oceans;
   return out;
 };
 
