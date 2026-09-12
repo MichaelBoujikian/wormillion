@@ -3,44 +3,91 @@
 For whoever (or whatever) picks this up next. `README.md` explains the game and
 how to run it; `SPEC.md` is the design source of truth (v1.2, with an amendments
 log in §13). This file is the stuff that isn't in either: where things stand,
-what to check first, and the gotchas that cost time.
+what to check first, every knob and its current setting, and the gotchas that
+cost time.
 
-## State as of 2026-09-11
+**This repo moved on 2026-09-12** from `C:\Users\smite\wormillion` to
+`C:\Users\smite\repos\wormillion`. Claude Code keeps its project memory keyed by
+directory, so a session opened here starts with no memory of the old location.
+That is fine — this file is the memory. Nothing in the project depends on its
+path (`play.cmd` uses `%~dp0`, every script path is relative, the remote is a
+URL).
 
-- **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main`.
+## State as of 2026-09-12
+
+- **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main` (the `deploy` workflow; `ci` runs test + validate on Node 22). `gh run list` shows both.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
-- **Local:** `C:\Users\smite\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123.
-- **Green:** `npm test` (87 tests), `npm run validate` (1,387 entries), `npm run gap-check`. CI runs test + validate on Node 22.
-- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos), the "One in Wormillion" celebration for 85%+ answers, the generous dig curve (75 / 100 for jackpots, ×70 below), relics in the dirt, the summary "ladder" (finds sorted least→most obscure with bars), wider craters for jackpot digs, and capital themes (not the largest city / on the coast / US state capitals) with 50 state capitals added to the capital cohort and flags on capitals.
+- **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` knows this as `wormillion` for the in-app browser pane).
+- **Green:** `npm test` (87 tests), `npm run validate` (1,387 entries), `npm run gap-check`, `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
+- **Working tree:** clean at handoff; everything below is pushed.
+
+### What landed on 2026-09-11/12, in order (all on `main`)
+
+| commit | change |
+|---|---|
+| `8326566` | Modifier ramp 70%→100% (was 40→90); derived `coastal` country theme |
+| `21323b1` | Flag-colour prompts ("Name a country whose flag has green in it.") from `scripts/data-flags.mjs` |
+| `1824447` | Island nations answerable as islands (Palau, Samoa, Tonga, Bahamas…: 19 entries + aliases); Samoa no longer auto-corrects to Samos |
+| `0c29432` | "ONE IN WORMILLION" overlay (confetti + lightning) for 85%+ answers, 10 s or until the next answer |
+| `8e9633a` | Generous dig curve: `rarity × 70` below 85%, flat 75 for 85–99%, 100 for 100%; budget 1500; relics buried in the dirt |
+| `4034051` | Summary "ladder": finds sorted least→most obscure with an obscurity bar per row |
+| `c7eb078` | Jackpot digs carve a wider crater (radius 11; 14 for 100%), tapered |
+| `01f3809` | Capital themes (not the largest city / on the coast / US state capitals); 50 state capitals join the capital cohort; capitals carry flags; flag weight up |
+| `28e9c71` | "Estonia is a country — this round wants a capital city" instead of "Not recognized"; capital flag prompt reworded |
+
+Before those, the previous session landed the seven items in
+`wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags,
+no repeated prompts, first modifier ramp, feedback persistence).
 
 ## Start here
 
 ```bash
-cd C:\Users\smite\wormillion
+cd C:\Users\smite\repos\wormillion
 npm test && npm run validate && npm run gap-check
 ```
 
-If all three pass, nothing is broken. Then read `SPEC.md` §3 (decisions) and §13 (amendments) before touching behaviour.
+If all three pass, nothing is broken. Then read `SPEC.md` §3 (decisions) and
+§13 (amendments) before touching behaviour. To see a change in the game, use
+the browser pane (`preview_start` with name `wormillion`) and `?debug` on the
+URL — see "Driving the game from JS" below.
 
 ## Where the logic lives
 
 | want to change… | file |
 |---|---|
 | the places themselves | `scripts/data-physical.mjs`, `scripts/data-countries.mjs` (pipe-delimited) |
-| which colours a country's flag has | `scripts/data-flags.mjs` (one row per country; generous) |
 | the US state capitals | `scripts/data-us-states.mjs` (they feed the `capital` cohort, like minor peaks feed `mountain`) |
-| how often flag prompts come up | the `options.push('flag', 'flag', 'flag')` weight in `drawModifier()` in `promptBank.js` (3 = ~0.8 per run) |
-| which places a themed prompt accepts | `src/data/themes.js` (hand-edited, shipped as-is) |
-| how prompts are worded / drawn / ramped | `src/js/promptBank.js` |
+| which colours a country's flag has | `scripts/data-flags.mjs` (one row per country; generous) |
+| which places a themed prompt accepts | `src/data/themes.js` (hand-edited, shipped as-is; a theme with custom prompt text goes in `WORMILLION_THEME_PROMPTS` at the bottom) |
+| which Wikipedia article an entry scores on | `scripts/data-wiki-titles.mjs` (`WIKI_TITLES` overrides, `WIKI_VERIFIED` "I looked, it's right") |
+| which ocean an island/sea is in | derived from coordinates in `scripts/data-oceans.mjs`; hand corrections in `OCEAN_OVERRIDES` there |
+| how prompts are worded / drawn / ramped / weighted | `src/js/promptBank.js` |
 | how answers are matched (aliases, loose, fuzzy) | `src/js/matching.js` |
-| what advances a round, retries, scoring hooks | `src/js/run.js` |
-| points / depth formulas | `src/js/rarity.js`, `src/js/strata.js` |
-| the pixel-art scene | `src/js/worldRender.js` (no `document` — takes canvases) |
-| what's buried in the dirt (bones, fossils, chests…) | `RELICS` / `RELICS_BY_BAND` / `paintRelics()` in `src/js/worldRender.js` — bitmaps, one char per art pixel |
-| how far an answer digs (the 75 / 100 jackpot tiers) | `src/js/rarity.js` (`DIG_SCALE`, `DIG_JACKPOT`, `DIG_PERFECT`) |
-| how wide a jackpot crater is | `TUNNEL_R` / `TUNNEL_R_BY_TIER` / `TAPER_UNITS` in `src/js/worldRender.js`; `ui.js` passes `tier` to `diveTo()` |
-| the "ONE IN WORMILLION" burst (threshold, hold time, confetti/bolt rates) | `src/js/jackpot.js` (`JACKPOT_RARITY`, `HOLD_SECONDS`, `rates()`); overlay markup/CSS in `index.html` / `styles.css` |
+| what advances a round, retries, the miss hints, the summary ladder | `src/js/run.js` (hint *wording* is in `ui.js`) |
+| points, the dig curve, the jackpot bar | `src/js/rarity.js` |
+| the strata bands and palette | `src/js/strata.js` |
+| the pixel-art scene, relics, crater widths | `src/js/worldRender.js` (no `document` — takes canvases) |
+| the "ONE IN WORMILLION" burst | `src/js/jackpot.js` (canvas only); overlay markup/CSS in `index.html` / `styles.css` |
 | all DOM | `src/js/ui.js` — the *only* module allowed to touch `document` |
+
+## Every knob and where it is set today
+
+| knob | value | where |
+|---|---|---|
+| plain opening rounds | 3 | `OPENING_ROUNDS`, `promptBank.js` |
+| modifier chance, rounds 4→15 | 70% → 100% (realises ~10.7 conditional rounds of 15) | `MODIFIER_CHANCE_START/END`, `promptBank.js` |
+| flag-prompt weight in the modifier draw | 3 (vs 2 for region/theme/ocean/letter, 1 for size) → ~0.8 flag prompts per run, 59% of runs see one | `options.push('flag', 'flag', 'flag')` in `drawModifier()`, `promptBank.js` |
+| generated-modifier guard | ≥ 6 answers and ≤ 60% of the cohort | `MIN_ELIGIBLE`, `MAX_ELIGIBLE_SHARE`, `promptBank.js` |
+| dig below the jackpot bar | `rarity × 70` | `DIG_SCALE`, `rarity.js` |
+| jackpot bar | rarity ≥ 0.85 | `JACKPOT_RARITY`, `rarity.js` (jackpot.js and ui.js read it from there) |
+| jackpot dig / perfect dig | 75 / 100 ("perfect" = rarity ≥ 0.995, i.e. shows as 100%) | `DIG_JACKPOT`, `DIG_PERFECT`, `PERFECT_RARITY`, `rarity.js` |
+| depth budget | 1500 (= 15 × 100); strata bands unchanged at 100 each, Core from 600 | `TOTAL_DEPTH_BUDGET`, `rarity.js`; `strata.js` |
+| points | 50–1000, gamma 1.4 — **not** flattened for the jackpot tier | `POINTS_*`, `rarity.js` |
+| overlay hold | 10 s, or until the next submitted answer | `HOLD_SECONDS`, `jackpot.js` |
+| confetti/bolt rates over the hold | 70/s + bolt every 0.12 s → 14/s + 0.55 s → 5/s + 1.4 s | `rates()`, `jackpot.js` |
+| tunnel radius | 6; jackpot 11; perfect 14; blends over 6 depth units | `TUNNEL_R`, `TUNNEL_R_BY_TIER`, `TAPER_UNITS`, `worldRender.js` |
+| relic spacing | one every ~11 units above depth 500, ~20 below | `paintRelics()`, `worldRender.js` |
+| world depth | budget + 30 | `MAX_UNITS`, `worldRender.js` |
 
 ## The data pipeline (read before adding a place)
 
@@ -49,81 +96,70 @@ Adding or renaming an entry is four commands, in this order:
 ```bash
 npm run fetch-pageviews -- --check   # resolves Wikipedia titles; lists any that are missing/ambiguous/wrong-subject
 npm run fetch-pageviews              # fetches 60 days of pageviews + coordinates for anything new (cached)
-npm run build-data                   # folds pageviews/oceans into src/data/*.json and bank.js
-npm run validate                     # schema, aliases, regions, oceans, UN audit, theme membership
+npm run build-data                   # folds pageviews/oceans/flags into src/data/*.json and bank.js
+npm run validate                     # schema, aliases, regions, oceans, flags, UN audit, theme membership
 ```
 
-- `--check` will complain about names that resolve to a disambiguation page or the wrong subject. Fix by adding an entry to `WIKI_TITLES` (override the article title) or `WIKI_VERIFIED` (you looked, it's right) in `scripts/data-wiki-titles.mjs`.
+- `--check` will complain about names that resolve to a disambiguation page or the wrong subject. Fix by adding an entry to `WIKI_TITLES` (override the article title) or `WIKI_VERIFIED` (you looked, it's right) in `scripts/data-wiki-titles.mjs`. The "reached their article through a redirect" list it prints is informational.
 - A new island or sea gets its ocean from coordinates automatically; if the article has no coordinates or the box is wrong, add it to `OCEAN_OVERRIDES` in `scripts/data-oceans.mjs`. `validate` will tell you.
+- A new country needs a row in `scripts/data-flags.mjs` or `build-data` refuses to run. A row that names no country also fails the build.
 - `build-data` **refuses to run** if any entry lacks pageviews — that's deliberate; a zero would score as maximally obscure.
-- Responses cache under `scripts/.cache/` (gitignored). A full re-fetch of ~1,300 titles takes ~15 minutes; a top-up for a few new entries takes seconds.
+- `src/data/pageviews.json` is committed, so `build-data` works offline; only genuinely new entries need the network. Responses cache under `scripts/.cache/` (gitignored). A full re-fetch of ~1,400 titles takes ~15 minutes; a top-up for a few new entries takes seconds.
 - Scoring magnitude = median of 60 daily English-Wikipedia views × 30.44. It measures *curiosity*, not fame: the Caspian Sea outdraws the Pacific Ocean. Within a category that's fine; it's what the user asked for.
+- `npm run score-report` prints the points and dig curves and how many entries are "one in Wormillion" (82 of 1,387 at handoff).
 
 ## Environment gotchas (this machine)
 
 - **Node is not on the Bash tool's PATH.** Either use the PowerShell tool with
   `$env:Path = [Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [Environment]::GetEnvironmentVariable("Path","User")`
   or prefix Bash commands with `export PATH="$PATH:/c/Program Files/nodejs"`. Node 24.19 / npm 11.17 are installed at `C:\Program Files\nodejs`.
-- **Bash heredocs sometimes fail to parse** with "unexpected EOF while looking for matching `'`" on longer multi-line content. Write the script to the scratchpad with the Write tool and run it, or use the Edit tool. Python 3.13 is available and reliable for text patching.
-- **Line endings:** the repo has `.gitattributes` (`* text=auto eol=lf`). Git warns "CRLF will be replaced by LF" on every commit — harmless, ignore it.
+- **Files on disk are CRLF; git normalises to LF** (`.gitattributes`: `* text=auto eol=lf`). Two consequences: git warns "CRLF will be replaced by LF" on every commit (harmless), and **multi-line string patches must normalise line endings** or they silently match nothing. The pattern that worked all day: a Python script that reads the file, replaces `\r\n`→`\n`, does `assert text.count(old) == 1` for each replacement, then restores CRLF on write. Python 3.13 is on PATH.
+- **Bash heredocs with quotes inside fail to parse** ("unexpected EOF while looking for matching `'`"). Write the script to the scratchpad with the Write tool and run it. Plain heredocs without apostrophes are fine (commit messages work).
+- **ESM imports on Windows need `file:///C:/...` URLs**, not `C:/...`, when importing a repo module from a script outside the repo.
 - **Wikimedia rate limits:** the per-article REST pageviews endpoint gives anonymous clients a few hundred requests/hour and will 429 with `Retry-After: 59`. The scripts use `action=query&prop=pageviews` (batched, 50 titles/request) instead. Don't switch back.
-- **Rounds are 30 s and the browser tools are slow.** Two tool round-trips can eat a round; a timed-out round silently advances the prompt, which looks like "Gobi isn't recognised as a desert" when it's really "the prompt is now a sea". Do set-slot + submit + screenshot in ONE `browser_batch`. `__wormillion.celebrate()` (with `?debug`) fires the jackpot overlay without needing a rare answer; Togo / Micronesia (country) and Savu Sea / Ceram Sea (sea) are real ≥85% answers.
-- **CSS class names are global.** The celebration overlay is `.jackpot { position: absolute; inset: 0 }`; a summary row that was also given `class="jackpot"` rendered full-screen. Prefix or scope any new class that might collide (`.ladder li.rare`, not `.jackpot`).
-- **The in-app browser pane pauses `requestAnimationFrame` when hidden.** To drive the game from JS, add `?debug` to the URL, then use `window.__wormillion.renderer.update(0.05)` in a loop to pump frames, and `__wormillion.currentRun()` / `__wormillion.diveTo(d)`. Don't assume a 30-second wait will animate anything.
-- **`Claude in Chrome` is not installed**, so file:// can't be opened in the in-app pane. Headless Chrome works for screenshots: `& "C:\Program Files\Google\Chrome\Application\chrome.exe" --headless=new --screenshot=out.png "file:///C:/Users/smite/wormillion/src/index.html"`.
+- **CSS class names are global.** The celebration overlay is `.jackpot { position: absolute; inset: 0 }`; a summary row that was also given `class="jackpot"` rendered full-screen. Scope any new class (`.ladder li.rare`, not `.jackpot`).
+- **`Claude in Chrome` is not installed**, so file:// can't be opened in the in-app pane; use the dev server. Headless Chrome works for screenshots: `& "C:\Program Files\Google\Chrome\Application\chrome.exe" --headless=new --screenshot=out.png "file:///C:/Users/smite/repos/wormillion/src/index.html"`.
 - The test file glob must stay `node --test` with **no arguments**: Node 20/22 on Linux CI doesn't expand a quoted glob the way Node 24 on Windows does.
+
+### Driving the game from JS (browser pane, `?debug`)
+
+`window.__wormillion` exposes `renderer`, `burst`, `currentRun()`,
+`diveTo(depth, tier)` and `celebrate()`.
+
+- **The pane pauses `requestAnimationFrame` when hidden.** Pump frames yourself: `for (let i = 0; i < 80; i++) __wormillion.renderer.update(0.05); __wormillion.renderer.draw();` — that completes a dive and fires `onArrive`, which advances the round. Then `wait` ~1 s before a screenshot or the pane shows the previous frame.
+- **Rounds are 30 s and tool round-trips are slow.** Two calls can eat a round; a timed-out round silently advances, which looks like "Gobi isn't recognised as a desert" when it's really "the prompt is now a sea". Do set-slot + submit + screenshot in ONE `browser_batch` / one JS call.
+- To force a prompt: `const run = __wormillion.currentRun(); run.state.slots[run.roundNumber - 1] = { category: 'country', flag: { colours: ['green'] } };` then repaint `#prompt-text` from `run.prompt().text`. Slot shapes: `{category}`, `{category, region}`, `{category, theme}`, `{category, ocean}`, `{category, flag:{colours:[…]}}`, `{category, size:{op,value}}`, `{category, letter:{kind,letter}}`.
+- To submit like a player: set `#answer-input.value`, dispatch `input`, `#answer-form.requestSubmit()`; read `#feedback`.
+- **Known ≥85% answers for testing the jackpot:** Togo (94%) / Micronesia (100%) for country; Savu Sea (95%) / Ceram Sea (100%) for sea; Aldan / Vilyuy / Olenyok for river; Monte Desert / Wahiba Sands / Strzelecki Desert for desert. `__wormillion.celebrate()` fires the overlay without one.
+- `diveTo` never moves the worm upward; call `renderer.reset()` first to look at a shallower depth.
 
 ## Decisions a new session should not undo
 
-- **Fuzzy matching stays.** The change-request doc suspected it caused the freeze bug and recommended replacing it with aliases. It didn't cause the freeze (that was a zero-dig animation never firing its callback); the user explicitly asked for autocorrect-style matching; it's guarded (no slack ≤4 chars, ties rejected, no substring matching). Aliases were *also* expanded. SPEC 3.6/3.7 document this.
-- **Ocean membership is derived, not curated.** "Hawaii isn't in the Pacific" was a hand-list bug; don't reintroduce a hand list for oceans. Everything else themed (Caribbean, Alps, volcanoes, landlocked…) *is* curated on purpose, because a themed prompt rejects what's outside its set.
-- **15 rounds, each category once or twice.** The no-repeat-prompt fix re-draws a category's second appearance rather than capping categories to one, so the run shape didn't change. The doc asked to check with the user before changing rounds or balance — neither changed, so nothing was asked.
-- **Modifier frequency is a pair of constants.** `OPENING_ROUNDS` / `MODIFIER_CHANCE_START` / `MODIFIER_CHANCE_END` at the top of `promptBank.js`. Currently 3 plain rounds then 70%→100%, which realises ~10.7 conditional rounds of 15 (the second appearance of a category is forced to differ, so the realised rate is above the nominal). The user has asked for *more* twice; if asked again, the remaining lever is `OPENING_ROUNDS` (3→2 adds roughly half a round), which also needs the "first three rounds are plain" test and SPEC 3.8 updated.
-- **`file://` must keep working.** Classic scripts + generated `data/bank.js`, no ES modules, no `fetch()`, no external resources. `npm run bundle` makes a single-file `dist/wormillion.html` for sending to people.
+- **Fuzzy matching stays.** The change-request doc suspected it caused the freeze bug and recommended replacing it with aliases. It didn't cause the freeze (that was a zero-dig animation never firing its callback); the user explicitly asked for autocorrect-style matching and has since said "sahra → Sahara is exactly what I want"; it's guarded (no slack ≤4 chars, ties rejected, no substring matching). SPEC 3.6/3.7.
+- **Generosity is the house style.** When an answer could reasonably be right, accept it. That is why flag colours include emblem colours (Spain has blue, Peru has green), why island nations are islands (Palau, Tonga, Haiti → Hispaniola), why capitals-not-largest-city includes Brussels and Taipei, and why a wrong-category answer gets a nudge ("Estonia is a country — this round wants a capital city") instead of "Not recognized". Bias data toward inclusion; a missing entry rejects a correct player, an extra one merely accepts a debatable answer.
+- **Ocean membership is derived, not curated.** "Hawaii isn't in the Pacific" was a hand-list bug; don't reintroduce a hand list for oceans. `coastal` (countries) is likewise derived as "not landlocked" (`DERIVED_THEMES`, `promptBank.js`). Everything else themed *is* curated on purpose, because a themed prompt rejects what's outside its set.
+- **15 rounds, each category once or twice, three plain rounds to open.** The draw shape is tested and documented (SPEC 3.8). The user has twice asked for more conditional prompts and got the ramp raised; the remaining lever is `OPENING_ROUNDS` 3→2 (worth about half a round), which needs the "first three rounds are plain" test and SPEC 3.8 updated.
+- **US state capitals live in the `capital` cohort**, so "Name a capital city." accepts Boise and "…in North America" accepts Sacramento — deliberate, generous, and what the user asked for. Their `size` is the US population so "whose country has a population over 100 million" stays true; their flag is the US flag. The user was told about the Boise consequence and hasn't objected. If that ever changes, the alternative is a ninth category, which touches the draw (see cities, below).
+- **Theme names that aren't places get the generic miss hint.** Any theme with custom prompt text (`WORMILLION_THEME_PROMPTS` or `DERIVED_THEMES`) says "X doesn't fit this one"; a theme worded "in the Alps" says "X isn't in the Alps". Give a new non-place theme custom text or the hint will read "isn't in volcanoes". Theme prompt text is keyed by theme name alone, not category, so don't reuse a name across categories (the capital theme is `on the coast`, not `coastal`).
+- **The dig curve and its numbers were specified by the user** (75 for 85–99%, 100 for 100%, "everything scaled up"). Points were deliberately left alone. The strata bands were deliberately *not* rescaled to the new budget — deeper digging through the same earth is the point.
+- **Island nations count as islands** if they are one island or one compact archipelago. Deliberately *not* done for Japan, the United Kingdom, Indonesia, the Philippines, New Zealand, Papua New Guinea and Brunei — their big islands are in the bank individually and the user hasn't said whether "Japan" should count as an island. Ask before adding those.
+- **`file://` must keep working.** Classic scripts + generated `data/bank.js`, no ES modules, no `fetch()`, no external resources. `npm run bundle` makes the single-file `dist/wormillion.html` for sending to people.
+- **`ui.js` is the only module that touches `document`.** `worldRender.js` and `jackpot.js` take canvases; `run.js` returns data (`elsewhere`, `ladder`, `scopeName`) and `ui.js` turns it into words. That is what keeps the suite runnable with plain `node --test`.
 
-## Deferred (phase 2, needs new data) — likely the next task
+## Open threads and likely next tasks
 
-Listed in SPEC.md §13. Scoping notes so nobody has to re-derive them:
-
-**Coastal countries — done (2026-09-11).** `DERIVED_THEMES` in `promptBank.js`
-derives `coastal` as the country cohort minus the `landlocked` set. The same
-mechanism can derive any other complement of a curated theme.
-
-**Flag colours — done (2026-09-11).** Authored in `scripts/data-flags.mjs` as
-its own keyed file rather than an 8th pipe field (most country rows omit their
-trailing alias fields, so a new column would have meant padding `|||` into
-~150 rows). Palette `red white blue green yellow black orange`; read
-generously on purpose (emblem colours count, maroon→red, gold→yellow,
-light/dark blue→blue) because only positive prompts are generated and the
-user wants acceptance to err generous. Single colours and pairs, behind the
-usual ≥6 / ≤60% guard, so "has red" (79% of flags) never comes up alone. The
-rows are from memory, not fetched — if a player reports a miss, fix the row
-and rebuild (`npm run build-data`, no fetch needed).
-
-**Non-capital cities — a ninth category, so it touches the draw.** Needs:
-a new authoring file (`scripts/data-cities.mjs`, `Name|Country|population|aliases`),
-a `city` category key in `promptBank.js` (`NOUN`, `CATEGORY_LABEL`, `SIZE_RULES`
-with population thresholds), a 12×12 icon in `icons.js`, `EXPECTED` keywords in
-`fetch-pageviews.mjs` for the description audit, region tags inherited from the
-country so region scoping works. Decide with the user: should the cohort
-exclude capitals (the doc's wording, "a city that's not a capital") or include
-them? And note SPEC 3.8's draw assumes 8 categories — with 9, the "every
-category once or twice" rule needs restating (15 slots over 9 = some appear
-once), and `tests/prompts.test.js` / `run.test.js` assert the current shape.
-Update SPEC.md §3.8 and §6 in the same change.
-
-Also open: a balance pass on `POINTS_GAMMA` — a typical answer pays ~460 pts.
-(Dig depth was re-tuned 2026-09-11: `rarity × 70` below 85%, a flat 75 for
-85–99%, 100 for 100%; budget 1500; a run of median answers now ends around 570.
-The user asked for exactly those numbers. Points were left alone.) `npm run
-score-report` prints the curve.
+- **Non-capital cities — a ninth category, so it touches the draw.** Needs a new authoring file (`scripts/data-cities.mjs`, `Name|Country|population|aliases`), a `city` category key in `promptBank.js` (`NOUN`, `CATEGORY_LABEL`, `SIZE_RULES` with population thresholds), a 12×12 icon in `icons.js`, `EXPECTED` keywords in `fetch-pageviews.mjs` for the description audit, region tags inherited from the country, and a flag inherited from the country. Decide with the user whether the cohort excludes capitals. SPEC 3.8's draw assumes 8 categories — with 9, "every category once or twice" needs restating (15 slots over 9) and `tests/prompts.test.js` / `run.test.js` assert the current shape. Update SPEC §3.8 and §6 in the same change. This is the one task big enough that the user might want a subagent for it; they asked about subagents and were told this was the natural candidate.
+- **Flag-prompt weight.** Currently 3 (~0.8 per run). The user asked for "just a bit" more and was told this is more than a bit; if it feels heavy, drop to 2 (~0.6 per run).
+- **Should 85–99% also be flat for points?** Only depth was flattened. The user talked about soil level; points were not mentioned. Ask before changing.
+- **`POINTS_GAMMA` balance** — a typical answer pays ~460 pts. `npm run score-report` prints the curve.
+- **The seven big island nations** (above) — ask.
+- **Flag rows are from memory**, not fetched. If a player reports "X isn't accepted for colour Y", first check which category the round was (see Estonia, below), then fix the row in `scripts/data-flags.mjs` and `npm run build-data` — no fetch needed.
 
 ## Things the user has said they care about
 
-- Prompts should be specific and get harder ("name a river with a T in it", "name a river in Mesopotamia") — done, keep extending.
-- Answers people obviously reach for must be accepted — `npm run gap-check` is the guard; add to its list when a player reports a miss. When a report is "X isn't showing up", first check which *category* the round was: the user reported Estonia missing on a capitals-round flag prompt, where Tallinn was the answer. The game now says so ("Estonia is a country — this round wants a capital city") instead of "Not recognized".
-- **US state capitals live in the `capital` cohort**, so "Name a capital city." accepts Boise and "…in North America" accepts Sacramento — deliberate, generous, and what the user asked for. Their `size` is the US population so "whose country has a population over 100 million" stays true. Their flag is the US flag. If someone objects to Boise being "a capital city", the alternative is a ninth category, which touches the draw (see cities, below).
-- **Theme names that aren't places get the generic miss hint.** Any theme with custom prompt text (`WORMILLION_THEME_PROMPTS` or `DERIVED_THEMES`) says "X doesn't fit this one"; a theme worded "in the Alps" says "X isn't in the Alps". Give a new non-place theme custom text or the hint will read "isn't in volcanoes".
-- **Island nations count as islands** if they are one island or one compact archipelago: each has an island entry (`Palau`, `Tonga`, `Grenada Island`…) pointed at the country article, or is an alias of the island it shares (`Haiti` → Hispaniola, `Timor-Leste` → Timor). Deliberately *not* done for Japan, the United Kingdom, Indonesia, the Philippines, New Zealand, Papua New Guinea and Brunei — their big islands are in the bank individually and the user hasn't said whether "Japan" should count as an island. Ask before adding those.
-- Spelling should autocorrect and show the real spelling — done.
-- They want to be able to find the answers and the logic in the code — the table above and README's "Where the logic lives".
+- Prompts should be specific and get harder ("name a river with a T in it", "name a river in Mesopotamia", "name a capital that isn't its country's largest city") — keep extending; they ask for new prompt kinds often.
+- Answers people obviously reach for must be accepted — `npm run gap-check` is the guard; add to its list when a player reports a miss. When a report is "X isn't showing up", first check which *category* the round was: the user reported Estonia missing on a capitals-round flag prompt, where Tallinn was the answer.
+- Spelling should autocorrect and show the real spelling — done and liked.
+- Achievement should feel good: the jackpot overlay, the wider crater, the deeper digs and the summary ladder all came from "feel like you're achieving more".
+- They want to be able to find the answers and the logic in the code — the tables above and README's "Where the logic lives".
+- Commit each feature separately; they said so once and it has been the pattern since. Pushing to `main` deploys the live site, so run the three checks before every push.
