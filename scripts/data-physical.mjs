@@ -140,17 +140,17 @@ Amazon|6400|Amazon River
 Yangtze|6300|Chang Jiang
 Yellow River|5464|Huang He
 Yenisei|5539
-Ob|3650|Ob River
+Ob|3650-5410|Ob River
 Parana|4880|Parana River
 Congo River|4700|Congo,Zaire River
-Amur|2824
+Amur|2824-4444
 Lena|4400|Lena River
 Mekong|4350
 Mackenzie|4241|Mackenzie River
 Niger River|4200
 Brahmaputra|3848
 Missouri|3767|Missouri River
-Mississippi|3766|Mississippi River
+Mississippi|3766-6275|Mississippi River
 Madeira|3250|Madeira River
 Purus|3211
 Yukon|3190|Yukon River

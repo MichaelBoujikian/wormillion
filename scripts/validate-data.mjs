@@ -80,6 +80,12 @@ export function validate(files) {
       if (!(typeof entry.size === 'number' && entry.size > 0)) {
         errors.push(`${where}: size must be a number > 0`);
       }
+      if (entry.sizeRange !== undefined) {
+        const r = entry.sizeRange;
+        if (!(Array.isArray(r) && r.length === 2 && r[0] > 0 && r[0] <= r[1] && entry.size === r[0])) {
+          errors.push(`${where}: sizeRange must be [lo, hi] with lo <= hi and size === lo`);
+        }
+      }
       if (ids.has(entry.id)) errors.push(`${where}: duplicate id (also in ${ids.get(entry.id)})`);
       ids.set(entry.id, file);
 

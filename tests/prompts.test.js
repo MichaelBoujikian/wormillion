@@ -26,7 +26,7 @@ const RAW = {
     entry('country', 'Luxembourg', 70000, { size: 660000, region: EUROPE, flag: ['red', 'white', 'blue'] }),
     entry('country', 'Iceland', 90000, { size: 380000, region: EUROPE, flag: ['blue', 'white', 'red'] }),
     entry('country', 'India', 500000, { size: 1428000000, region: ['Asia', 'South Asia'], flag: ['orange', 'white', 'green', 'blue'] }),
-    entry('country', 'China', 480000, { size: 1425000000, region: ['Asia', 'East Asia'], flag: ['red', 'yellow'] }),
+    entry('country', 'China', 480000, { size: 1425000000, region: ['Asia', 'East Asia'], flag: ['red', 'yellow'], aliases: ['PRC', "People's Republic of China"] }),
     entry('country', 'Kenya', 55000, { size: 55000000, region: ['Africa', 'East Africa'], flag: ['black', 'red', 'green', 'white'] })
   ],
   capitals: [
@@ -287,6 +287,54 @@ test('an exact name is never spell-corrected into a different in-scope place', (
   assert.strictEqual(typo.status, 'accepted');
   assert.strictEqual(typo.entry.name, 'Iceland');
   assert.strictEqual(typo.correctedFrom, 'Icelnad');
+});
+
+test('a length prompt judges the spelling you typed, not the entry', () => {
+  // "China" is five letters and "People's Republic of China" is 22; each
+  // counts for what it is, and the hint says how many letters you gave it.
+  const long = () => runWith({ category: 'country', letter: { kind: 'long' } });
+  const short = () => runWith({ category: 'country', letter: { kind: 'short' } });
+  const miss = long().submit('China');
+  assert.strictEqual(miss.status, 'wrong-scope');
+  assert.deepStrictEqual(miss.length, { typed: 'China', letters: 5, need: '12 letters or more' });
+  assert.strictEqual(long().submit("People's Republic of China").status, 'accepted');
+  assert.strictEqual(short().submit('China').status, 'accepted');
+  assert.strictEqual(short().submit('PRC').status, 'accepted');
+  const tooLong = short().submit("People's Republic of China");
+  assert.strictEqual(tooLong.status, 'wrong-scope');
+  assert.strictEqual(tooLong.length.letters, 22);
+  // A corrected typo is judged - and shown - as the spelling it was corrected to.
+  const typo = long().submit('Chnia');
+  assert.strictEqual(typo.status, 'wrong-scope');
+  assert.strictEqual(typo.length.typed, 'China');
+  // An entry with no qualifying spelling at all is simply out of scope.
+  assert.strictEqual(long().submit('Malta').status, 'wrong-scope');
+  assert.strictEqual(long().submit('Malta').length, undefined);
+});
+
+test('seas keep their whole name for letter rules: Black Sea ends in A', () => {
+  assert.strictEqual(runWith({ category: 'sea_ocean', letter: { kind: 'ends', letter: 'a' } }).submit('Red Sea').status, 'accepted');
+  assert.strictEqual(runWith({ category: 'sea_ocean', letter: { kind: 'contains', letter: 's' } }).submit('Red Sea').status, 'accepted');
+  assert.strictEqual(runWith({ category: 'sea_ocean', letter: { kind: 'starts', letter: 'p' } }).submit('Pacific Ocean').status, 'accepted');
+  // ...while "Lake" and "Mount" still don't count for lakes and mountains.
+  assert.strictEqual(runWith({ category: 'lake', letter: { kind: 'starts', letter: 'l' } }).submit('Lake Superior').status, 'wrong-scope');
+});
+
+test('a size range counts for either end: the Amur is 2,824 km or 4,444 km', () => {
+  const amur = { size: 2824, sizeRange: [2824, 4444] };
+  assert.ok(promptBank.satisfiesSize(amur, { op: 'over', value: 3000 }));
+  assert.ok(promptBank.satisfiesSize(amur, { op: 'under', value: 3000 }));
+  assert.ok(!promptBank.satisfiesSize(amur, { op: 'over', value: 5000 }));
+  assert.ok(!promptBank.satisfiesSize(amur, { op: 'under', value: 1000 }));
+  const shipped = loadShippedBank();
+  const river = (op, value, name) => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = { category: 'river', size: { op, value } };
+    return run.submit(name).status;
+  };
+  assert.strictEqual(river('over', 3000, 'Amur'), 'accepted');
+  assert.strictEqual(river('under', 3000, 'Amur'), 'accepted');
+  assert.strictEqual(river('over', 5000, 'Mississippi'), 'accepted', 'with the Missouri');
 });
 
 test('a flag rule accepts a country whose flag carries every listed colour', () => {

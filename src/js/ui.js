@@ -280,6 +280,9 @@
       els.input.focus();
       if (result.status === 'duplicate') {
         setFeedback(`You already dug up ${result.entry.name} this run — name another.`, 'warn');
+      } else if (result.status === 'wrong-scope' && result.length) {
+        // "Kilimanjaro is 11 letters - this round wants 12 or more."
+        setFeedback(`${result.length.typed} is ${result.length.letters} letters — this round wants ${result.length.need}.`, 'warn');
       } else if (result.status === 'wrong-scope') {
         setFeedback(
           result.scopeName && result.scopeName !== 'that pattern'

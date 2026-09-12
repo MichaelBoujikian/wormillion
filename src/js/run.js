@@ -53,6 +53,11 @@
      *   'unrecognized' carries `elsewhere: {entry, category}` when the answer is
      *   a real place from a different category (Estonia on a capitals round).
      */
+    /** The entry's name or alias that normalizes to `key`, for showing a corrected spelling back. */
+    function spellingOf(entry, key) {
+      return [entry.name, ...(entry.aliases || [])].find((s) => matching.normalize(s) === key) || entry.name;
+    }
+
     /** The out-of-scope result for a real place in this category that doesn't fit the prompt. */
     function wrongScope(current, entryId) {
       return {
@@ -111,6 +116,18 @@
 
       const entry = current.cohort.byId.get(match.entryId);
       if (match.status === 'duplicate') return { status: 'duplicate', entry };
+
+      // A length prompt is about the spelling you used: "China" is five
+      // letters even though the entry also answers to a 22-letter name.
+      if (current.judgeTyped) {
+        const miss = current.judgeTyped(match.matched);
+        if (miss) {
+          return {
+            ...wrongScope(current, entry.id),
+            length: { typed: match.status === 'corrected' ? spellingOf(entry, match.matched) : rawInput.trim(), ...miss }
+          };
+        }
+      }
 
       state.usedAnswers.add(entry.id);
       // Rarity always against the GLOBAL cohort, never the narrowed subset (3.2).

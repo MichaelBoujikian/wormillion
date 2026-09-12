@@ -87,6 +87,10 @@
   "size": 3650,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Ob\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "sizeRange": [
+   3650,
+   5410
+  ],
   "magnitude": 2800,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Ob",
@@ -132,6 +136,10 @@
   "size": 2824,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Amur\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "sizeRange": [
+   2824,
+   4444
+  ],
   "magnitude": 7336,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Amur",
@@ -236,6 +244,10 @@
   "size": 3766,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Mississippi River\", 60-day daily median (60 days ending 2026-09-12); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "sizeRange": [
+   3766,
+   6275
+  ],
   "magnitude": 56892,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Mississippi River",

@@ -161,10 +161,12 @@
   }
 
   /**
-   * @returns {{status:'accepted',entryId:string}
-   *          |{status:'corrected',entryId:string,typed:string}
+   * @returns {{status:'accepted',entryId:string,matched:string}
+   *          |{status:'corrected',entryId:string,typed:string,matched:string}
    *          |{status:'duplicate',entryId:string}
    *          |{status:'unrecognized'}}
+   *   `matched` is the normalized spelling that landed: what was typed for an
+   *   exact or loose hit, the corrected candidate for a fuzzy one.
    */
   function matchAnswer(rawInput, lookup, usedAnswers, options) {
     const key = normalize(rawInput);
@@ -176,14 +178,14 @@
     };
 
     const exact = lookup.get(key);
-    if (exact) return settle(exact, 'accepted');
+    if (exact) return settle(exact, 'accepted', { matched: key });
 
     const loose = lookup.loose && (lookup.loose.get(key) || lookup.loose.get(looseKey(key)));
-    if (loose) return settle(loose, 'accepted');
+    if (loose) return settle(loose, 'accepted', { matched: key });
 
     if (!options || options.fuzzy !== false) {
       const near = nearest(key, lookup);
-      if (near) return settle(near.id, 'corrected', { typed: rawInput.trim() });
+      if (near) return settle(near.id, 'corrected', { typed: rawInput.trim(), matched: near.key });
     }
 
     return { status: 'unrecognized' };

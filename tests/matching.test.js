@@ -42,7 +42,7 @@ test('canonical names, aliases and punctuation variants all match', () => {
   for (const input of ['United States', 'united states', 'USA', 'us', 'America']) {
     assert.deepStrictEqual(
       matching.matchAnswer(input, lookup, new Set()),
-      { status: 'accepted', entryId: 'country-united-states' },
+      { status: 'accepted', entryId: 'country-united-states', matched: matching.normalize(input) },
       input
     );
   }

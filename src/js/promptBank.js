@@ -115,9 +115,11 @@
   );
   // A country's or capital's name is its official name, generic words and
   // all: the Solomon Islands have a D in them, Port of Spain has an F, Mexico
-  // City ends in Y. Only a leading "the" is dropped.
+  // City ends in Y. The same goes for seas: nobody thinks "Black Sea" has no
+  // S in it or fails to end in A. Only a leading "the" is dropped.
   const NAME_FILLER = new Set(['the']);
-  const letterFillerFor = (category) => (category === 'country' || category === 'capital' ? NAME_FILLER : LETTER_FILLER);
+  const WHOLE_NAME_CATEGORIES = new Set(['country', 'capital', 'sea_ocean']);
+  const letterFillerFor = (category) => (WHOLE_NAME_CATEGORIES.has(category) ? NAME_FILLER : LETTER_FILLER);
 
   /**
    * The spellings a LETTER rule looks at: every name and alias with the
@@ -158,6 +160,17 @@
   }
 
   const letters = (text) => text.replace(/[^a-z]/g, '');
+
+  /**
+   * The length rules are judged on the spelling the player actually used:
+   * "China" is 5 letters and "People's Republic of China" is 22, and each
+   * counts for what it is. An entry is in a length prompt's lookup if ANY of
+   * its spellings would do, and then the typed one has to (run.js).
+   */
+  const LENGTH_RULES = {
+    short: { ok: (n) => n <= 5, need: '5 letters or fewer' },
+    long: { ok: (n) => n >= 12, need: '12 letters or more' }
+  };
 
   /** Does any spelling of this entry satisfy the letter rule? */
   function satisfiesLetter(entry, rule) {
@@ -233,8 +246,11 @@
     if (!(entry.size > 0)) return false;
     // Inclusive both ways: a figure sitting exactly on a round threshold is a
     // rounded figure, and "larger than 100,000 km²" should not reject the one
-    // desert listed at 100,000 while "smaller than" rejects it too.
-    return rule.op === 'over' ? entry.size >= rule.value : entry.size <= rule.value;
+    // desert listed at 100,000 while "smaller than" rejects it too. Where
+    // sources disagree the entry carries a range (the Amur is 2,824 km or
+    // 4,444 km with the Argun) and either end will do.
+    const [lo, hi] = entry.sizeRange || [entry.size, entry.size];
+    return rule.op === 'over' ? hi >= rule.value : lo <= rule.value;
   }
 
   function sizePromptText(category, rule) {
@@ -588,6 +604,15 @@
         lookup = subsetLookup(cohort, scope, (entry) => satisfiesLetter(entry, slot.letter));
       }
 
+      // A length prompt also judges the spelling the player typed (see LENGTH_RULES).
+      const lengthRule = slot.letter && LENGTH_RULES[slot.letter.kind];
+      const judgeTyped = lengthRule
+        ? (matchedKey) => {
+            const n = letters(matchedKey).length;
+            return lengthRule.ok(n) ? null : { letters: n, need: lengthRule.need };
+          }
+        : null;
+
       return {
         category: slot.category,
         label: CATEGORY_LABEL[slot.category],
@@ -608,7 +633,8 @@
         constrained: Boolean(scope),
         text,
         cohort,
-        lookup
+        lookup,
+        judgeTyped
       };
     }
 

@@ -33,19 +33,27 @@ const slug = (s) =>
 const lines = (block) => block.trim().split('\n').map((l) => l.trim()).filter(Boolean);
 const list = (s) => (s || '').split(',').map((x) => x.trim()).filter(Boolean);
 
-/** Simple "Name|magnitude|aliases" blocks. */
+/**
+ * Simple "Name|size|aliases" blocks. A size may be a range "lo-hi" where
+ * reputable figures disagree (the Amur is 2,824 km, or 4,444 with the Argun);
+ * `size` is then the low figure and `sizeRange` carries both, and a threshold
+ * prompt accepts either end (promptBank.satisfiesSize).
+ */
 function simple(block, category, sizeUnit, source) {
   return lines(block).map((line) => {
     const [name, size, aliases] = line.split('|');
-    return {
+    const range = /^(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)$/.exec(size.trim());
+    const entry = {
       id: `${category}-${slug(name)}`,
       category,
       name: name.trim(),
       aliases: list(aliases),
-      size: Number(size),
+      size: range ? Number(range[1]) : Number(size),
       sizeUnit,
       source
     };
+    if (range) entry.sizeRange = [Number(range[1]), Number(range[2])];
+    return entry;
   });
 }
 
@@ -207,6 +215,7 @@ const runtimeEntry = (e) => {
   if (e.region) out.region = e.region;
   if (e.oceans) out.oceans = e.oceans;
   if (e.flag) out.flag = e.flag;
+  if (e.sizeRange) out.sizeRange = e.sizeRange;
   return out;
 };
 
