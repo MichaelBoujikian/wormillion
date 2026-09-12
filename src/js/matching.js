@@ -41,9 +41,13 @@
     'desert', 'the', 'of', 'city', 'saint', 'st', 'cape', 'atoll'
   ]);
 
-  /** The identifying words of a name, filler removed. Empty if it is all filler. */
-  function looseKey(input) {
-    const words = normalize(input).split(' ').filter((w) => w && !FILLER.has(w));
+  /**
+   * The identifying words of a name, filler removed. Empty if it is all filler.
+   * Pass a different `filler` set to strip by a different rule (the letter
+   * prompts use a narrower one - see promptBank.js).
+   */
+  function looseKey(input, filler = FILLER) {
+    const words = normalize(input).split(' ').filter((w) => w && !filler.has(w));
     return words.join(' ');
   }
 
@@ -183,5 +187,5 @@
     return { status: 'unrecognized' };
   }
 
-  return { normalize, looseKey, editDistance, slackFor, buildLookup, matchAnswer };
+  return { normalize, looseKey, editDistance, slackFor, buildLookup, matchAnswer, FILLER };
 });

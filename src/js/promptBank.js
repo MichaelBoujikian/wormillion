@@ -101,17 +101,25 @@
 
   const pick = (items, rng) => items[Math.floor(rng() * items.length)];
 
+  // What a letter rule strips before looking at a name: the generic English
+  // words. Matching strips more ("Ness" still finds Loch Ness), but for letters
+  // a word that IS the name stays: "Loch Ness" starts with L, "Saint Lucia"
+  // starts with S - "loch" is not the word "lake", whatever it means.
+  const LETTER_FILLER = new Set(
+    [...matching.FILLER].filter((word) => !['loch', 'lough', 'llyn', 'saint', 'st'].includes(word))
+  );
+
   /**
-   * The spellings a LETTER rule looks at: every name and alias with the filler
-   * words stripped. The filler is not part of the name - "Mount Fuji" has no T
-   * in it and does not start with M, "Lake Baikal" starts with B, and "Nile"
-   * does not get a T from its alias "the Nile". (An entry whose name is all
-   * filler keeps its full spelling rather than vanishing.)
+   * The spellings a LETTER rule looks at: every name and alias with the
+   * generic words stripped. "Mount Fuji" has no T in it and does not start
+   * with M, "Lake Baikal" starts with B, "Nile" does not get a T from its
+   * alias "the Nile" - but "Loch Ness" starts with L. (An entry whose name is
+   * all filler keeps its full spelling rather than vanishing.)
    */
   function variantsOf(entry) {
     const out = new Set();
     for (const candidate of [entry.name, ...(entry.aliases || [])]) {
-      const bare = matching.looseKey(candidate);
+      const bare = matching.looseKey(candidate, LETTER_FILLER);
       if (bare) out.add(bare);
     }
     if (out.size === 0) {
@@ -131,6 +139,9 @@
     for (const candidate of [entry.name, ...(entry.aliases || [])]) {
       const full = matching.normalize(candidate);
       if (full) out.add(full);
+      // ...and the shortest thing the matcher accepts ("Ness" for Loch Ness).
+      const bare = matching.looseKey(candidate);
+      if (bare) out.add(bare);
     }
     return [...out];
   }
@@ -612,6 +623,7 @@
     NOUN,
     ARTICLE,
     CATEGORY_LABEL,
+    LETTER_FILLER,
     MIN_REGION_COUNTRIES,
     MIN_ELIGIBLE,
     MIN_THEME_MEMBERS,

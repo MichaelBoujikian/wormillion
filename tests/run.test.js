@@ -199,11 +199,19 @@ test('letter rules accept any spelling the player might reasonably type', () => 
   assert.ok(!promptBank.satisfiesLetter(nile, { kind: 'contains', letter: 't' }));
   assert.ok(promptBank.satisfiesLetter(nile, { kind: 'contains', letter: 'n' }));
 
+  // "Loch" is the name, not the word "lake": Loch Ness starts with L and has
+  // a C in it. It is still short (Ness, 4) - length is what you type.
   const ness = { name: 'Loch Ness', aliases: [] };
   ness.variants = promptBank.variantsOf(ness);
+  assert.ok(promptBank.satisfiesLetter(ness, { kind: 'starts', letter: 'l' }));
+  assert.ok(promptBank.satisfiesLetter(ness, { kind: 'contains', letter: 'c' }));
   assert.ok(promptBank.satisfiesLetter(ness, { kind: 'double' }));
   assert.ok(promptBank.satisfiesLetter(ness, { kind: 'short' }));
   assert.ok(!promptBank.satisfiesLetter(ness, { kind: 'long' }));
+  const lucia = { name: 'Saint Lucia Island', aliases: ['St Lucia'] };
+  lucia.variants = promptBank.variantsOf(lucia);
+  assert.ok(promptBank.satisfiesLetter(lucia, { kind: 'starts', letter: 's' }), 'Saint is part of the name');
+  assert.ok(!promptBank.satisfiesLetter(lucia, { kind: 'starts', letter: 'l' }));
 
   // Length is about what the player types, filler included: "Mount
   // Kilimanjaro" is a long name whichever way the bank's row is spelled.

@@ -194,7 +194,8 @@ Letter rules ("with a T in it", "starts with M"…) look only at the name and
 aliases with filler words ("mount", "lake", "the") stripped — the filler is not
 part of the name. So "Mount Fuji" has no T in it and does not start with M,
 "Lake Baikal" starts with B, and "Nile" does not get a T from its alias "the
-Nile". The two length rules ("short name", "long name") are the exception and
+Nile". A word that *is* the name stays even if it means "lake" somewhere:
+"Loch Ness" starts with L, "Saint Lucia" starts with S. The two length rules ("short name", "long name") are the exception and
 count each spelling in full — length is about what you type, so "Mount
 Kilimanjaro" is a long name however the row is spelled, and "Fuji" is a short
 one.
