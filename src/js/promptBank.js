@@ -128,10 +128,16 @@
    * alias "the Nile" - but "Loch Ness" starts with L. (An entry whose name is
    * all filler keeps its full spelling rather than vanishing.)
    */
+  // An initialism is an alias for typing, not a spelling of the name: NYC does
+  // not make New York City end in C, HK does not make Hong Kong end in K, and
+  // UAE does not make the Emirates end in E. Letter and length rules skip them.
+  const INITIALISM = /^[A-Z]{2,4}$/;
+  const namedSpellings = (entry) => [entry.name, ...(entry.aliases || []).filter((alias) => !INITIALISM.test(alias))];
+
   function variantsOf(entry) {
     const out = new Set();
     const filler = letterFillerFor(entry.category);
-    for (const candidate of [entry.name, ...(entry.aliases || [])]) {
+    for (const candidate of namedSpellings(entry)) {
       const bare = matching.looseKey(candidate, filler);
       if (bare) out.add(bare);
     }
@@ -149,7 +155,7 @@
    */
   function spellingsOf(entry) {
     const out = new Set(entry.variants);
-    for (const candidate of [entry.name, ...(entry.aliases || [])]) {
+    for (const candidate of namedSpellings(entry)) {
       const full = matching.normalize(candidate);
       if (full) out.add(full);
       // ...and the shortest thing the matcher accepts ("Ness" for Loch Ness).

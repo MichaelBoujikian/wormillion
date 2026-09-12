@@ -313,6 +313,20 @@ test('a length prompt judges the spelling you typed, not the entry', () => {
   assert.strictEqual(long().submit('Malta').length, undefined);
 });
 
+test('an initialism alias is for typing, not for letter rules', () => {
+  const nyc = { category: 'city', name: 'New York City', aliases: ['New York', 'NYC'] };
+  nyc.variants = promptBank.variantsOf(nyc);
+  nyc.spellings = promptBank.spellingsOf(nyc);
+  assert.ok(!promptBank.satisfiesLetter(nyc, { kind: 'ends', letter: 'c' }), 'NYC is not a spelling');
+  assert.ok(promptBank.satisfiesLetter(nyc, { kind: 'ends', letter: 'y' }));
+  assert.ok(promptBank.satisfiesLetter(nyc, { kind: 'ends', letter: 'k' }), 'New York does end in K');
+  assert.ok(!promptBank.satisfiesLetter(nyc, { kind: 'short' }), 'three letters of NYC do not make it a short name');
+  const uae = { category: 'country', name: 'United Arab Emirates', aliases: ['UAE', 'Emirates'] };
+  uae.variants = promptBank.variantsOf(uae);
+  assert.ok(!promptBank.satisfiesLetter(uae, { kind: 'ends', letter: 'e' }));
+  assert.ok(promptBank.satisfiesLetter(uae, { kind: 'ends', letter: 's' }));
+});
+
 test('a digit is a character: K2 starts with K, has a K, does not end in K', () => {
   const k2 = bank.cohorts.get('mountain').byId.get('mountain-k2');
   assert.ok(promptBank.satisfiesLetter(k2, { kind: 'starts', letter: 'k' }));
