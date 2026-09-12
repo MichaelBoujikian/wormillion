@@ -482,9 +482,9 @@
       if ((category === 'country' || category === 'capital') && regions.length) options.push('region', 'region');
       if (themeSets.has(category)) options.push('theme', 'theme');
       if (oceanOptions(category).length) options.push('ocean', 'ocean');
-      // Flags get a slightly heavier weight than the rest: they're the newest
-      // kind and the one players asked to see more of.
-      if (flagPalette(category).length) options.push('flag', 'flag', 'flag');
+      // Flags weigh the same as the other kinds (3 felt heavy at ~0.8 per run;
+      // 2 is ~0.6, which is "just a bit" more than the 1 they started at).
+      if (flagPalette(category).length) options.push('flag', 'flag');
       if (SIZE_RULES[category]) options.push('size');
       options.push('letter', 'letter');
 

@@ -421,5 +421,6 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | A shared loose form goes to the entry that owns it by name ("Arabian" → Arabian Sea); the validator fails on any that no name settles. `validate-data.mjs` now uses the game's own `matching.js` instead of a copy of `normalize`. | 3.7, 6.4 |
 | 1.2 | Seventeen island-nation entries lose the bank-invented suffix ("Cuba Island" → Cuba, "Singapore City" → Singapore): the feedback line and the ladder show the real name, and "Jamaica Island" no longer counts as a 12-letter name. | 6 |
 | 1.2 | Filler is optional in both directions: "Mount Denali" finds Denali, "Cuba Island" finds Cuba. The cross-category nudge tries every category exactly before any loosely, so "Lake Victoria" is the lake and not the Seychelles' capital. | 3.7 |
+| 1.2 | Flag-prompt weight in the modifier draw back to 2 (3 felt heavy): ~0.6 flag prompts per run, half of runs see one. | 3.8 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.

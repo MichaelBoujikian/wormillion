@@ -79,7 +79,7 @@ URL — see "Driving the game from JS" below.
 |---|---|---|
 | plain opening rounds | 3 | `OPENING_ROUNDS`, `promptBank.js` |
 | modifier chance, rounds 4→15 | 70% → 100% (realises ~10.7 conditional rounds of 15) | `MODIFIER_CHANCE_START/END`, `promptBank.js` |
-| flag-prompt weight in the modifier draw | 3 (vs 2 for region/theme/ocean/letter, 1 for size) → ~0.8 flag prompts per run, 59% of runs see one | `options.push('flag', 'flag', 'flag')` in `drawModifier()`, `promptBank.js` |
+| flag-prompt weight in the modifier draw | 2 (same as region/theme/ocean/letter; 1 for size) → ~0.6 flag prompts per run, 50% of runs see one (was 3 → ~0.8 / 59%) | `options.push('flag', 'flag')` in `drawModifier()`, `promptBank.js` |
 | generated-modifier guard | ≥ 6 answers and ≤ 60% of the cohort | `MIN_ELIGIBLE`, `MAX_ELIGIBLE_SHARE`, `promptBank.js` |
 | dig below the jackpot bar | `rarity × 70` | `DIG_SCALE`, `rarity.js` |
 | jackpot bar | rarity ≥ 0.85 | `JACKPOT_RARITY`, `rarity.js` (jackpot.js and ui.js read it from there) |
