@@ -54,12 +54,10 @@
   ]
  },
  {
-  "id": "island-madagascar-island",
+  "id": "island-madagascar",
   "category": "island",
-  "name": "Madagascar Island",
-  "aliases": [
-   "Madagascar"
-  ],
+  "name": "Madagascar",
+  "aliases": [],
   "size": 587041,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Madagascar\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -292,12 +290,10 @@
   ]
  },
  {
-  "id": "island-cuba-island",
+  "id": "island-cuba",
   "category": "island",
-  "name": "Cuba Island",
-  "aliases": [
-   "Cuba"
-  ],
+  "name": "Cuba",
+  "aliases": [],
   "size": 105806,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Cuba\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -311,12 +307,10 @@
   ]
  },
  {
-  "id": "island-iceland-island",
+  "id": "island-iceland",
   "category": "island",
-  "name": "Iceland Island",
-  "aliases": [
-   "Iceland"
-  ],
+  "name": "Iceland",
+  "aliases": [],
   "size": 101826,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Iceland\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -348,12 +342,10 @@
   ]
  },
  {
-  "id": "island-ireland-island",
+  "id": "island-ireland",
   "category": "island",
-  "name": "Ireland Island",
-  "aliases": [
-   "Ireland"
-  ],
+  "name": "Ireland",
+  "aliases": [],
   "size": 84421,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Ireland\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -456,9 +448,9 @@
   ]
  },
  {
-  "id": "island-sri-lanka-island",
+  "id": "island-sri-lanka",
   "category": "island",
-  "name": "Sri Lanka Island",
+  "name": "Sri Lanka",
   "aliases": [
    "Ceylon"
   ],
@@ -595,9 +587,9 @@
   ]
  },
  {
-  "id": "island-taiwan-island",
+  "id": "island-taiwan",
   "category": "island",
-  "name": "Taiwan Island",
+  "name": "Taiwan",
   "aliases": [
    "Formosa"
   ],
@@ -880,9 +872,9 @@
   ]
  },
  {
-  "id": "island-jamaica-island",
+  "id": "island-jamaica",
   "category": "island",
-  "name": "Jamaica Island",
+  "name": "Jamaica",
   "aliases": [],
   "size": 10991,
   "sizeUnit": "area_km2",
@@ -936,9 +928,9 @@
   ]
  },
  {
-  "id": "island-cyprus-island",
+  "id": "island-cyprus",
   "category": "island",
-  "name": "Cyprus Island",
+  "name": "Cyprus",
   "aliases": [],
   "size": 9251,
   "sizeUnit": "area_km2",
@@ -1223,9 +1215,9 @@
   ]
  },
  {
-  "id": "island-mauritius-island",
+  "id": "island-mauritius",
   "category": "island",
-  "name": "Mauritius Island",
+  "name": "Mauritius",
   "aliases": [],
   "size": 2040,
   "sizeUnit": "area_km2",
@@ -1503,9 +1495,9 @@
   ]
  },
  {
-  "id": "island-barbados-island",
+  "id": "island-barbados",
   "category": "island",
-  "name": "Barbados Island",
+  "name": "Barbados",
   "aliases": [],
   "size": 430,
   "sizeUnit": "area_km2",
@@ -1554,9 +1546,9 @@
   ]
  },
  {
-  "id": "island-malta-island",
+  "id": "island-malta",
   "category": "island",
-  "name": "Malta Island",
+  "name": "Malta",
   "aliases": [],
   "size": 246,
   "sizeUnit": "area_km2",
@@ -1784,9 +1776,9 @@
   ]
  },
  {
-  "id": "island-nauru-island",
+  "id": "island-nauru",
   "category": "island",
-  "name": "Nauru Island",
+  "name": "Nauru",
   "aliases": [],
   "size": 21,
   "sizeUnit": "area_km2",
@@ -2493,9 +2485,9 @@
   ]
  },
  {
-  "id": "island-dominica-island",
+  "id": "island-dominica",
   "category": "island",
-  "name": "Dominica Island",
+  "name": "Dominica",
   "aliases": [],
   "size": 750,
   "sizeUnit": "area_km2",
@@ -2510,9 +2502,9 @@
   ]
  },
  {
-  "id": "island-saint-lucia-island",
+  "id": "island-saint-lucia",
   "category": "island",
-  "name": "Saint Lucia Island",
+  "name": "Saint Lucia",
   "aliases": [],
   "size": 617,
   "sizeUnit": "area_km2",
@@ -2527,9 +2519,9 @@
   ]
  },
  {
-  "id": "island-saint-vincent-island",
+  "id": "island-saint-vincent",
   "category": "island",
-  "name": "Saint Vincent Island",
+  "name": "Saint Vincent",
   "aliases": [
    "Saint Vincent and the Grenadines",
    "St Vincent and the Grenadines"
@@ -2547,9 +2539,9 @@
   ]
  },
  {
-  "id": "island-grenada-island",
+  "id": "island-grenada",
   "category": "island",
-  "name": "Grenada Island",
+  "name": "Grenada",
   "aliases": [],
   "size": 312,
   "sizeUnit": "area_km2",

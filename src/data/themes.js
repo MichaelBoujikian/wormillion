@@ -60,7 +60,7 @@ globalThis.WORMILLION_THEMES = {
       'Monrovia', 'Nouakchott', 'Banjul', 'Libreville', 'Bissau', 'Malabo',
       'Port Louis', 'Djibouti City', 'Moroni', 'Praia', 'Sao Tome', 'Victoria',
       'Jakarta', 'Tokyo', 'Manila', 'Bangkok', 'Colombo', 'Baku', 'Abu Dhabi',
-      'Singapore City', 'Beirut', 'Muscat', 'Kuwait City', 'Doha', 'Manama',
+      'Singapore', 'Beirut', 'Muscat', 'Kuwait City', 'Doha', 'Manama',
       'Dili', 'Male', 'Bandar Seri Begawan',
       'Amsterdam', 'Stockholm', 'Athens', 'Lisbon', 'Copenhagen', 'Helsinki',
       'Oslo', 'Dublin', 'Riga', 'Tallinn', 'Valletta', 'Reykjavik', 'Monaco-Ville',
@@ -164,18 +164,18 @@ globalThis.WORMILLION_THEMES = {
 
   island: {
     'the Caribbean': [
-      'Cuba Island', 'Hispaniola', 'Jamaica Island', 'Puerto Rico', 'Trinidad',
-      'Barbados Island', 'Aruba', 'Curacao', 'Bonaire', 'Grand Cayman',
+      'Cuba', 'Hispaniola', 'Jamaica', 'Puerto Rico', 'Trinidad',
+      'Barbados', 'Aruba', 'Curacao', 'Bonaire', 'Grand Cayman',
       'Martinique', 'Guadeloupe', 'Saint Martin', 'Anguilla', 'Montserrat',
       'Nevis', 'Saint Kitts', 'Tortola', 'Virgin Gorda', 'Saint Thomas',
       'Saint Croix', 'Antigua', 'Barbuda', 'Eleuthera', 'Andros Island',
       'Grand Bahama', 'New Providence', 'Great Exuma', 'Great Abaco', 'Roatan',
       'Providenciales', 'Grand Turk', 'San Andres', 'Margarita Island',
-      'Saint Lucia Island', 'Dominica Island', 'Grenada Island', 'Saint Vincent Island',
+      'Saint Lucia', 'Dominica', 'Grenada', 'Saint Vincent',
       'Cozumel', 'Isla Mujeres', 'Bahamas'
     ],
     'the Mediterranean': [
-      'Sicily', 'Sardinia', 'Corsica', 'Crete', 'Cyprus Island', 'Malta Island',
+      'Sicily', 'Sardinia', 'Corsica', 'Crete', 'Cyprus', 'Malta',
       'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos', 'Kefalonia',
       'Naxos', 'Paros', 'Milos', 'Kos', 'Samos', 'Chios', 'Euboea', 'Hydra',
       'Patmos', 'Delos', 'Ithaca', 'Gozo', 'Menorca', 'Mallorca', 'Ibiza',

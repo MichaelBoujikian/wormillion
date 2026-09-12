@@ -1,7 +1,7 @@
 /**
  * Wikipedia article titles for entries whose in-game name doesn't resolve to the
  * right article on its own — ambiguous names ("Cam", "Georgia"), names this bank
- * disambiguates for its own reasons ("Cuba Island"), and a few that live under a
+ * once disambiguated for its own reasons, and a few that live under a
  * different spelling.
  *
  * Keyed by entry id; anything not listed is looked up by its name.
@@ -24,7 +24,6 @@ export const WIKI_TITLES = {
   'capital-saint-georges': "St. George's, Grenada",
   'capital-saint-johns': "St. John's, Antigua and Barbuda",
   'capital-georgetown': 'Georgetown, Guyana',
-  'capital-singapore-city': 'Singapore', // city-state: the city and the country are one article
   // --- US state capitals (2026-09): most share their name with somewhere else ---
   'capital-montgomery': 'Montgomery, Alabama',
   'capital-juneau': 'Juneau, Alaska',
@@ -143,20 +142,7 @@ export const WIKI_TITLES = {
   'desert-arctic-desert': 'Arctic',
   'desert-colorado-plateau-desert': 'Colorado Plateau',
 
-  // --- islands (several are named "X Island" here only to avoid colliding with
-  // the country of the same name in a different cohort) ---
-  'island-madagascar-island': 'Madagascar',
-  'island-cuba-island': 'Cuba',
-  'island-iceland-island': 'Iceland',
-  'island-ireland-island': 'Ireland',
-  'island-sri-lanka-island': 'Sri Lanka',
-  'island-taiwan-island': 'Taiwan',
-  'island-jamaica-island': 'Jamaica',
-  'island-cyprus-island': 'Cyprus',
-  'island-malta-island': 'Malta',
-  'island-barbados-island': 'Barbados',
-  'island-mauritius-island': 'Mauritius',
-  'island-nauru-island': 'Nauru',
+  // --- islands ---
   'island-newfoundland': 'Newfoundland (island)',
   'island-melville-island': 'Melville Island (Northwest Territories and Nunavut)',
   'island-somerset-island': 'Somerset Island (Nunavut)',
@@ -180,10 +166,7 @@ export const WIKI_TITLES = {
   'island-santa-catalina-island': 'Santa Catalina Island (California)',
   'island-saint-martin': 'Saint Martin (island)',
   // --- island nations answered by their country's name (2026-09) ---
-  'island-dominica-island': 'Dominica',
-  'island-saint-lucia-island': 'Saint Lucia',
-  'island-saint-vincent-island': 'Saint Vincent (Antilles)',
-  'island-grenada-island': 'Grenada',
+  'island-saint-vincent': 'Saint Vincent (Saint Vincent and the Grenadines)', // bare "Saint Vincent" is a disambiguation page
   'island-sao-tome-and-principe': 'São Tomé and Príncipe',
   'island-bahamas': 'The Bahamas',
   'island-micronesia': 'Federated States of Micronesia',
@@ -222,7 +205,7 @@ export const WIKI_TITLES = {
 export const WIKI_VERIFIED = new Set([
   'capital-monaco-ville', // "Ward in Monaco" - Monaco-Ville is the capital ward
   'capital-south-tarawa', // "Island of the Republic of Kiribati" - the capital area
-  'capital-singapore-city',
+  'capital-singapore',
   'lake-lake-pontchartrain', // technically an estuary, universally called a lake
   'mountain-half-dome', // "Granitic dome in Yosemite"
   'mountain-el-capitan', // "Vertical rock formation in Yosemite"
@@ -250,17 +233,17 @@ export const WIKI_VERIFIED = new Set([
   'island-aland',
   'island-newfoundland',
   'island-reunion', // "Overseas department of France" - the island itself
-  'island-cuba-island',
-  'island-iceland-island',
-  'island-sri-lanka-island',
-  'island-taiwan-island',
-  'island-jamaica-island',
-  'island-cyprus-island',
-  'island-malta-island',
-  'island-barbados-island',
-  'island-mauritius-island',
-  'island-nauru-island',
-  'island-madagascar-island',
+  'island-cuba',
+  'island-iceland',
+  'island-sri-lanka',
+  'island-taiwan',
+  'island-jamaica',
+  'island-cyprus',
+  'island-malta',
+  'island-barbados',
+  'island-mauritius',
+  'island-nauru',
+  'island-madagascar',
   'sea_ocean-caspian-sea', // "Lake in Eurasia" - the world's largest, named a sea
   'sea_ocean-aral-sea',
   'lake-aral-sea', // same article; it is a lake as much as the Caspian is
@@ -290,9 +273,9 @@ export const WIKI_VERIFIED = new Set([
   'island-mayotte',
   // --- island nations answered by their country's name (2026-09): the
   // country article IS the island's coverage, as with Cuba and Malta above ---
-  'island-dominica-island',
-  'island-saint-lucia-island',
-  'island-grenada-island',
+  'island-dominica',
+  'island-saint-lucia',
+  'island-grenada',
   'island-comoros',
   'island-cape-verde',
   'island-sao-tome-and-principe',

@@ -208,7 +208,7 @@ test('letter rules accept any spelling the player might reasonably type', () => 
   assert.ok(promptBank.satisfiesLetter(ness, { kind: 'double' }));
   assert.ok(promptBank.satisfiesLetter(ness, { kind: 'short' }));
   assert.ok(!promptBank.satisfiesLetter(ness, { kind: 'long' }));
-  const lucia = { name: 'Saint Lucia Island', aliases: ['St Lucia'] };
+  const lucia = { name: 'Saint Lucia', aliases: ['St Lucia'] };
   lucia.variants = promptBank.variantsOf(lucia);
   assert.ok(promptBank.satisfiesLetter(lucia, { kind: 'starts', letter: 's' }), 'Saint is part of the name');
   assert.ok(!promptBank.satisfiesLetter(lucia, { kind: 'starts', letter: 'l' }));

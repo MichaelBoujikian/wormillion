@@ -526,7 +526,7 @@ export const ISLANDS = `
 Greenland|2166086|Kalaallit Nunaat
 New Guinea|785753
 Borneo|748168
-Madagascar Island|587041|Madagascar
+Madagascar|587041
 Baffin Island|507451|Baffin
 Sumatra|443066
 Honshu|225800
@@ -539,16 +539,16 @@ Java|138794
 North Island|111583|Te Ika-a-Maui
 Luzon|109965
 Newfoundland|108860
-Cuba Island|105806|Cuba
-Iceland Island|101826|Iceland
+Cuba|105806
+Iceland|101826
 Mindanao|97530
-Ireland Island|84421|Ireland
+Ireland|84421
 Hokkaido|78073
 Hispaniola|76192|Haiti,Dominican Republic
 Sakhalin|72493
 Banks Island|70028
 Tasmania|68401
-Sri Lanka Island|65268|Ceylon
+Sri Lanka|65268|Ceylon
 Devon Island|55247
 Novaya Zemlya|48904
 Tierra del Fuego|47992
@@ -556,7 +556,7 @@ Melville Island|42149
 Southampton Island|41214
 Spitsbergen|37673
 Kyushu|36782
-Taiwan Island|35883|Formosa
+Taiwan|35883|Formosa
 New Britain|35145
 Hainan|33210
 Vancouver Island|31285
@@ -572,10 +572,10 @@ Samar|13429
 Negros|13310
 Palawan|12189
 Panay|12011
-Jamaica Island|10991
+Jamaica|10991
 Big Island of Hawaii|10433|Hawaii Island,Big Island
 Cape Breton Island|10311|Cape Breton
-Cyprus Island|9251
+Cyprus|9251
 Puerto Rico|8870
 Corsica|8680|Corse
 Crete|8336|Kriti
@@ -591,7 +591,7 @@ Fyn|3100|Funen
 Gotland|2994
 Reunion|2511
 Tenerife|2034
-Mauritius Island|2040
+Mauritius|2040
 Lewis and Harris|2179
 Bioko|2017
 Zanzibar|1666|Unguja
@@ -607,10 +607,10 @@ Isle of Man|572
 Ibiza|571
 Guam|543
 Orkney Mainland|523
-Barbados Island|430
+Barbados|430
 Isle of Wight|380
 Niue|261
-Malta Island|246
+Malta|246
 Elba|224
 Easter Island|163.6|Rapa Nui
 Saint Helena|122|St Helena
@@ -623,7 +623,7 @@ Bouvet Island|49
 Pitcairn Island|47|Pitcairn
 Ischia|46
 Inishmore|31
-Nauru Island|21
+Nauru|21
 Capri|10.4
 Iona|8.8
 Lundy|4.5
@@ -664,10 +664,10 @@ Saint Thomas|83|St Thomas
 Saint Croix|215|St Croix
 Antigua|281|Antigua and Barbuda
 Barbuda|161
-Dominica Island|750
-Saint Lucia Island|617
-Saint Vincent Island|344|Saint Vincent and the Grenadines,St Vincent and the Grenadines
-Grenada Island|312
+Dominica|750
+Saint Lucia|617
+Saint Vincent|344|Saint Vincent and the Grenadines,St Vincent and the Grenadines
+Grenada|312
 Eleuthera|484
 Andros Island|5957|Andros
 Grand Bahama|1373

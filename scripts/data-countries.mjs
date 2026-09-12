@@ -95,7 +95,7 @@ United Arab Emirates|Abu Dhabi|9500000|Asia|Middle East|UAE,Emirates,The Emirate
 Laos|Vientiane|7600000|Asia|Southeast Asia|Lao
 Kyrgyzstan|Bishkek|6700000|Asia|Central Asia|Kyrgyz Republic
 Turkmenistan|Ashgabat|6500000|Asia|Central Asia
-Singapore|Singapore City|5900000|Asia|Southeast Asia||Singapore
+Singapore|Singapore|5900000|Asia|Southeast Asia
 Lebanon|Beirut|5400000|Asia|Middle East
 Palestine|Ramallah|5400000|Asia|Middle East|State of Palestine
 Oman|Muscat|4600000|Asia|Middle East

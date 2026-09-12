@@ -2170,12 +2170,10 @@
   "lon": 58.38
  },
  {
-  "id": "capital-singapore-city",
+  "id": "capital-singapore",
   "category": "capital",
-  "name": "Singapore City",
-  "aliases": [
-   "Singapore"
-  ],
+  "name": "Singapore",
+  "aliases": [],
   "size": 5900000,
   "sizeUnit": "population_of_country",
   "region": [

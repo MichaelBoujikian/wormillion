@@ -58,7 +58,7 @@ export const OCEAN_OVERRIDES = {
   // --- islands: Atlantic/Arctic and Atlantic/Southern edges ---
   'island-greenland': ['Arctic', 'Atlantic'],
   'island-southampton-island': ['Arctic'], // Hudson Bay / Foxe Basin
-  'island-iceland-island': ['Atlantic', 'Arctic'],
+  'island-iceland': ['Atlantic', 'Arctic'],
   'island-south-georgia': ['Atlantic', 'Southern'],
   'island-bouvet-island': ['Atlantic', 'Southern'],
   'island-tierra-del-fuego': ['Atlantic', 'Pacific'],

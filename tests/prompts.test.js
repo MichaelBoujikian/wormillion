@@ -512,6 +512,15 @@ test('audit fixes hold in the shipped data', () => {
   assert.strictEqual(named({ category: 'sea_ocean' }, 'Arabian'), 'Arabian Sea', 'not lost to the Persian Gulf\'s "Arabian Gulf"');
   assert.strictEqual(named({ category: 'sea_ocean' }, 'Arabian Gulf'), 'Persian Gulf');
   assert.strictEqual(named({ category: 'desert' }, 'Great Salt'), 'Great Salt Lake Desert', 'Dasht-e Kavir only has it as an alias');
+  // Island nations are named as the world names them - no invented "Island".
+  assert.strictEqual(named({ category: 'island' }, 'Cuba'), 'Cuba');
+  assert.strictEqual(named({ category: 'island' }, 'St Lucia'), 'Saint Lucia');
+  assert.strictEqual(named({ category: 'island', theme: 'the Caribbean' }, 'Jamaica'), 'Jamaica');
+  assert.strictEqual(named({ category: 'capital' }, 'Singapore'), 'Singapore');
+  // ...so "Jamaica Island" can no longer count as a 12-letter name.
+  const long = runner.createRun(shipped, { rounds: 1 });
+  long.state.slots[0] = { category: 'island', letter: { kind: 'long' } };
+  assert.strictEqual(long.submit('Jamaica').status, 'wrong-scope');
 });
 
 test('Hawaii is in the Pacific, in the shipped data', () => {

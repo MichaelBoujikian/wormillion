@@ -1999,7 +1999,7 @@
    "lat": 37.9375,
    "lon": 58.38
   },
-  "capital-singapore-city": {
+  "capital-singapore": {
    "title": "Singapore",
    "monthlyViews": 313684,
    "days": 60,
@@ -6605,7 +6605,7 @@
    "lat": 0,
    "lon": 114
   },
-  "island-madagascar-island": {
+  "island-madagascar": {
    "title": "Madagascar",
    "monthlyViews": 111897,
    "days": 59,
@@ -6696,14 +6696,14 @@
    "lat": 48.54166667,
    "lon": -56.125
   },
-  "island-cuba-island": {
+  "island-cuba": {
    "title": "Cuba",
    "monthlyViews": 118990,
    "days": 60,
    "lat": 22,
    "lon": -80
   },
-  "island-iceland-island": {
+  "island-iceland": {
    "title": "Iceland",
    "monthlyViews": 161302,
    "days": 60,
@@ -6717,7 +6717,7 @@
    "lat": 8,
    "lon": 125
   },
-  "island-ireland-island": {
+  "island-ireland": {
    "title": "Ireland",
    "monthlyViews": 149947,
    "days": 60,
@@ -6759,7 +6759,7 @@
    "lat": -42,
    "lon": 147
   },
-  "island-sri-lanka-island": {
+  "island-sri-lanka": {
    "title": "Sri Lanka",
    "monthlyViews": 179687,
    "days": 59,
@@ -6815,7 +6815,7 @@
    "lat": 33,
    "lon": 131
   },
-  "island-taiwan-island": {
+  "island-taiwan": {
    "title": "Taiwan",
    "monthlyViews": 238802,
    "days": 60,
@@ -6927,7 +6927,7 @@
    "lat": 11.15,
    "lon": 122.48333333
   },
-  "island-jamaica-island": {
+  "island-jamaica": {
    "title": "Jamaica",
    "monthlyViews": 100148,
    "days": 60,
@@ -6948,7 +6948,7 @@
    "lat": 46.295,
    "lon": -60.67
   },
-  "island-cyprus-island": {
+  "island-cyprus": {
    "title": "Cyprus",
    "monthlyViews": 180814,
    "days": 60,
@@ -7060,7 +7060,7 @@
    "lat": 28.26861111,
    "lon": -16.60555556
   },
-  "island-mauritius-island": {
+  "island-mauritius": {
    "title": "Mauritius",
    "monthlyViews": 187206,
    "days": 60,
@@ -7172,7 +7172,7 @@
    "lat": 59,
    "lon": -3.1
   },
-  "island-barbados-island": {
+  "island-barbados": {
    "title": "Barbados",
    "monthlyViews": 87911,
    "days": 59,
@@ -7193,7 +7193,7 @@
    "lat": -19.05,
    "lon": -169.85
   },
-  "island-malta-island": {
+  "island-malta": {
    "title": "Malta",
    "monthlyViews": 228757,
    "days": 59,
@@ -7284,7 +7284,7 @@
    "lat": 53.12361111,
    "lon": -9.7275
   },
-  "island-nauru-island": {
+  "island-nauru": {
    "title": "Nauru",
    "monthlyViews": 123617,
    "days": 60,
@@ -7571,28 +7571,28 @@
    "lat": 17.64,
    "lon": -61.81
   },
-  "island-dominica-island": {
+  "island-dominica": {
    "title": "Dominica",
    "monthlyViews": 58384,
    "days": 60,
    "lat": 15.41666667,
    "lon": -61.33333333
   },
-  "island-saint-lucia-island": {
+  "island-saint-lucia": {
    "title": "Saint Lucia",
    "monthlyViews": 57684,
    "days": 60,
    "lat": 13.88333333,
    "lon": -60.96666667
   },
-  "island-saint-vincent-island": {
+  "island-saint-vincent": {
    "title": "Saint Vincent (Saint Vincent and the Grenadines)",
    "monthlyViews": 3318,
    "days": 59,
    "lat": 13.25,
    "lon": -61.2
   },
-  "island-grenada-island": {
+  "island-grenada": {
    "title": "Grenada",
    "monthlyViews": 62372,
    "days": 60,

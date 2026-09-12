@@ -419,5 +419,6 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | Length rules judge the typed spelling ("China" is 5 letters, "People's Republic of China" is 22); seas keep their whole name for letter rules; `sizeRange` for rivers whose length depends on the tributary counted (Amur, Ob, Mississippi). | 3.1a, 4 |
 | 1.2 | Digits count as characters for letter rules: K2 no longer "ends in K". | 3.1a |
 | 1.2 | A shared loose form goes to the entry that owns it by name ("Arabian" → Arabian Sea); the validator fails on any that no name settles. `validate-data.mjs` now uses the game's own `matching.js` instead of a copy of `normalize`. | 3.7, 6.4 |
+| 1.2 | Seventeen island-nation entries lose the bank-invented suffix ("Cuba Island" → Cuba, "Singapore City" → Singapore): the feedback line and the ladder show the real name, and "Jamaica Island" no longer counts as a 12-letter name. | 6 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.
