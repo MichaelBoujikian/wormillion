@@ -6,7 +6,10 @@
  * different from the next:
  *
  *   region     "Name a country in Southeast Asia."   (country/capital only)
- *   theme      "Name a river in Mesopotamia."        (curated sets, data/themes.js)
+ *   theme      "Name a river in Mesopotamia."        (curated sets, data/themes.js,
+ *                                                     plus DERIVED_THEMES below)
+ *   ocean      "Name an island in the Pacific Ocean." (from coordinates)
+ *   size       "Name a river longer than 3,000 km."  (from the entry's size stat)
  *   letter     "Name a river with a T in it."        (derived from the name)
  *   none       "Name a river."
  *
@@ -65,6 +68,23 @@
   const MIN_THEME_MEMBERS = 2;
   // ...and must actually rule something out.
   const MAX_ELIGIBLE_SHARE = 0.6;
+
+  // How a run ramps up (Spec 3.8): the first OPENING_ROUNDS are always plain,
+  // then the chance a slot carries a modifier climbs linearly from START on the
+  // first round after the opening to END on the last. These two lines are the
+  // knobs for "conditional prompts should come up more / less often".
+  const OPENING_ROUNDS = 3;
+  const MODIFIER_CHANCE_START = 0.7;
+  const MODIFIER_CHANCE_END = 1.0;
+
+  // Themes computed from a curated set instead of listed by hand. "Coastal" is
+  // every country NOT in the landlocked list, so the two can never disagree
+  // about a country. Keyed by category, then by the derived theme's name.
+  const DERIVED_THEMES = {
+    country: {
+      coastal: { complementOf: 'landlocked', prompt: 'Name a country with a coastline.' }
+    }
+  };
 
   const LETTERS = 'abcdefghijklmnoprstuvwz'.split('');
 
@@ -268,6 +288,27 @@
       if (resolved.size) themeSets.set(category, resolved);
     }
 
+    // Derived themes are the complement of a curated one. A derived theme only
+    // exists when the set it is derived from does; its prompt text is fixed
+    // here rather than in data/themes.js, since the theme itself isn't there.
+    const derivedPrompts = {};
+    const derivedThemes = new Set();
+    for (const [category, derived] of Object.entries(DERIVED_THEMES)) {
+      const cohort = cohorts.get(category);
+      const sets = themeSets.get(category);
+      if (!cohort || !sets) continue;
+      for (const [theme, rule] of Object.entries(derived)) {
+        const excluded = new Set(sets.get(rule.complementOf) || []);
+        if (!excluded.size) continue;
+        const ids = cohort.entries.map((entry) => entry.id).filter((id) => !excluded.has(id));
+        if (ids.length < MIN_THEME_MEMBERS) continue;
+        sets.set(theme, ids);
+        derivedPrompts[theme] = rule.prompt;
+        derivedThemes.add(theme);
+      }
+    }
+    const promptTextFor = Object.assign({}, derivedPrompts, themePrompts || {});
+
     /** A lookup over a subset of a cohort, built on first use and cached. */
     function subsetLookup(cohort, key, filter) {
       if (!key) return cohort.lookup;
@@ -356,9 +397,9 @@
     function drawSlots(rng = Math.random) {
       const first = shuffle(CATEGORIES, rng);
       const second = shuffle(CATEGORIES, rng).slice(0, CATEGORIES.length - 1);
-      // Three distinct categories to open with, then everything else shuffled.
-      const opening = first.slice(0, 3);
-      const rest = shuffle(first.slice(3).concat(second), rng);
+      // Distinct categories to open with, then everything else shuffled.
+      const opening = first.slice(0, OPENING_ROUNDS);
+      const rest = shuffle(first.slice(OPENING_ROUNDS).concat(second), rng);
       const order = opening.concat(rest);
 
       const seenText = new Set();
@@ -366,13 +407,14 @@
         const plain = { category };
         const plainText = promptFor(plain).text;
 
-        if (index < 3) {
+        if (index < OPENING_ROUNDS) {
           seenText.add(plainText);
           return plain;
         }
 
-        const progress = (index - 3) / (order.length - 4); // 0 -> 1 over rounds 4..15
-        const constrainedChance = 0.4 + progress * 0.5;
+        // 0 on the first round after the opening -> 1 on the last round.
+        const progress = (index - OPENING_ROUNDS) / (order.length - OPENING_ROUNDS - 1);
+        const constrainedChance = MODIFIER_CHANCE_START + progress * (MODIFIER_CHANCE_END - MODIFIER_CHANCE_START);
         const wantModifier = rng() < constrainedChance || seenText.has(plainText);
 
         if (wantModifier) {
@@ -420,7 +462,7 @@
         lookup = subsetLookup(cohort, scope, (entry) => (entry.region || []).includes(slot.region));
       } else if (slot.theme) {
         const ids = new Set((themeSets.get(slot.category) || new Map()).get(slot.theme) || []);
-        const custom = (themePrompts || {})[slot.theme];
+        const custom = promptTextFor[slot.theme];
         text = custom || `Name ${a} ${noun} in ${slot.theme}.`;
         scope = `theme:${slot.theme}`;
         lookup = subsetLookup(cohort, scope, (entry) => ids.has(entry.id));
@@ -449,10 +491,13 @@
         ocean: slot.ocean || null,
         size: slot.size || null,
         letter: slot.letter || null,
-        // What to call the restriction when an answer misses it.
+        // What to call the restriction when an answer misses it. A derived
+        // theme's name isn't a place ("isn't in coastal"), so it gets the
+        // generic wording instead.
         scopeName:
-          slot.region || slot.theme || (slot.ocean ? `the ${slot.ocean} Ocean` : null) ||
-          (slot.size || slot.letter ? 'that pattern' : null),
+          slot.region || (slot.theme && !derivedThemes.has(slot.theme) ? slot.theme : null) ||
+          (slot.ocean ? `the ${slot.ocean} Ocean` : null) ||
+          (slot.size || slot.letter || slot.theme ? 'that pattern' : null),
         constrained: Boolean(scope),
         text,
         cohort,
@@ -487,6 +532,10 @@
     MIN_REGION_COUNTRIES,
     MIN_ELIGIBLE,
     MIN_THEME_MEMBERS,
+    OPENING_ROUNDS,
+    MODIFIER_CHANCE_START,
+    MODIFIER_CHANCE_END,
+    DERIVED_THEMES,
     shuffle,
     variantsOf,
     satisfiesLetter,

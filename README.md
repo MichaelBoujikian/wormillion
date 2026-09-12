@@ -167,21 +167,24 @@ round 12 harder than round 2:
 |---|---|---|
 | none | "Name a river." | — |
 | region | "Name a country in Southeast Asia." | region tags on countries/capitals |
-| theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." | `src/data/themes.js` |
+| theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | `src/data/themes.js`, plus `DERIVED_THEMES` in `promptBank.js` (coastal = not landlocked) |
 | ocean | "Name an island in the Pacific Ocean." | `oceans`, derived from each article's coordinates |
 | size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
 | letter | "Name a river with a T in it." | derived from the name |
 
 The first three rounds are always plain, in three different categories. After
-that the chance of a modifier ramps from 40% to 90%, and **no prompt text is
-ever shown twice in a run** — a category's second appearance is re-drawn until
-it reads differently from its first.
+that the chance of a modifier ramps from 70% to 100% (about 11 of 15 rounds end
+up conditional), and **no prompt text is ever shown twice in a run** — a
+category's second appearance is re-drawn until it reads differently from its
+first.
 
 A modifier narrows what is **accepted**; it never changes scoring, which is
 always against the whole category (Spec 3.2). Generated letter rules are only
 used when at least 6 entries satisfy them and they rule out at least 40% of the
 category — otherwise the slot falls back to a plain prompt. Curated themes are
 allowed to be tight on purpose: "Mesopotamia" has exactly two right answers.
+How often modifiers appear is set by `OPENING_ROUNDS`, `MODIFIER_CHANCE_START`
+and `MODIFIER_CHANCE_END` at the top of `src/js/promptBank.js`.
 
 Letter rules look at the name as displayed plus every name and alias with filler
 words ("mount", "lake", "the") stripped. So "Lake Baikal" satisfies both "starts

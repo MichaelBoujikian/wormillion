@@ -1,4 +1,4 @@
-# Wormillion — Build Specification (v1.1)
+# Wormillion — Build Specification (v1.2)
 
 ## 0. One-line pitch
 
@@ -38,12 +38,12 @@ The original brief describes the shape of the game but leaves several mechanics 
 | modifier | example prompt | applies to | source of truth |
 |---|---|---|---|
 | region | "Name a country in Southeast Asia." | country, capital | `region` tags (Section 6) |
-| theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." | any | `src/data/themes.js`, hand-curated |
+| theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | any | `src/data/themes.js`, hand-curated; plus derived themes in `promptBank.js` (v1.2) |
 | ocean | "Name an island in the Pacific Ocean." | island, sea_ocean | `oceans` field, derived from coordinates (Section 4) |
 | size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | any | `size` field |
 | letter | "Name a river with a T in it." / "…that starts with M." / "…with a double letter." | any | the entry's name |
 
-A modifier narrows what is **accepted**, never how an answer scores (3.2). A generated modifier (size, letter, ocean) is only used when at least 6 entries satisfy it and — for size and letter — it rules out at least 40% of the category; otherwise the slot falls back to plain. Curated themes may be deliberately tight (Mesopotamia has two rivers) and are used with as few as 2 members. Letter rules consider the name as displayed plus every name/alias with filler words ("mount", "lake", "the") removed, so "Lake Baikal" satisfies "starts with L" and "starts with B", but "Nile" does not satisfy "has a T" via its alias "the Nile".
+A modifier narrows what is **accepted**, never how an answer scores (3.2). A generated modifier (size, letter, ocean) is only used when at least 6 entries satisfy it and — for size and letter — it rules out at least 40% of the category; otherwise the slot falls back to plain. Curated themes may be deliberately tight (Mesopotamia has two rivers) and are used with as few as 2 members. A **derived theme** (v1.2) is the complement of a curated one: `coastal` is every country not in `landlocked`, computed at load time so the two lists can never disagree. It carries its own prompt text ("Name a country with a coastline.") and, because its name is not a place, a miss gets the generic "doesn't fit this one" hint rather than "isn't in coastal". Letter rules consider the name as displayed plus every name/alias with filler words ("mount", "lake", "the") removed, so "Lake Baikal" satisfies "starts with L" and "starts with B", but "Nile" does not satisfy "has a T" via its alias "the Nile".
 
 **3.2 Country/capital region scoping applies to the prompt, not the score.** A country prompt may be scoped to a region ("Name a country in Southeast Asia"), but rarity is always computed against the *global* cohort for that category (all ~195 countries), never the region subset. Rationale: a Pacific micro-state should score as globally obscure even when the prompt happened to scope to a region full of other small states; scoping the cohort too would flatten that.
 
@@ -63,7 +63,7 @@ A modifier narrows what is **accepted**, never how an answer scores (3.2). A gen
 
 Substring matching is never performed.
 
-**3.8 Prompt draw algorithm (15 prompts per run, v1.1):** shuffle the 8 categories; the first three become the **opening** — three distinct categories, always plain (no modifier). Shuffle a second copy of the 8, drop its last entry, and shuffle the remaining 5 + 7 = 12 slots after the opening. Every category still appears at least once and at most twice per run. For rounds 4–15 the chance of a modifier ramps linearly from 40% to 90%; the modifier is drawn from those available to the category (3.1a). **No two rounds may show identical prompt text**: a slot whose text would repeat an earlier one is re-drawn (a category's second appearance therefore always reads differently from its first), falling back to a letter rule if needed. Region scoping is only offered for regions carrying ≥6 countries.
+**3.8 Prompt draw algorithm (15 prompts per run, v1.2):** shuffle the 8 categories; the first three become the **opening** — three distinct categories, always plain (no modifier). Shuffle a second copy of the 8, drop its last entry, and shuffle the remaining 5 + 7 = 12 slots after the opening. Every category still appears at least once and at most twice per run. For rounds 4–15 the chance of a modifier ramps linearly from 70% to 100% (v1.2; v1.1 was 40%→90%), so in practice about 11 of the 15 rounds are conditional; the modifier is drawn from those available to the category (3.1a). **No two rounds may show identical prompt text**: a slot whose text would repeat an earlier one is re-drawn (a category's second appearance therefore always reads differently from its first), falling back to a letter rule if needed. Region scoping is only offered for regions carrying ≥6 countries.
 
 **3.9 Depth is cumulative across the run; strata are fixed bands over total depth, not per-round tiers.** See Section 5.2 — this is what makes "Depth strata across the 15-round range" literal: a run's total accumulated depth (0 up to a max of 700 units) is what determines which of the 7 named strata the worm is currently shown in, round by round.
 
@@ -184,7 +184,7 @@ Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4).
 
 **Region list for country prompts (3.8):** `Africa`, `Asia`, `Europe`, `North America`, `South America`, `Oceania` (continent-level, always usable) plus sub-regions used only when they have ≥6 tagged countries: `West Africa`, `East Africa`, `North Africa`, `Southern Africa`, `Middle East`, `South Asia`, `Southeast Asia`, `East Asia`, `Central Asia`, `Caribbean`, `Central America`, `Eastern Europe`, `Western Europe`, `Scandinavia & the Nordics`. Every country entry carries `region: [continent, ...subregions]`.
 
-**6.0 Themes (v1.1).** `src/data/themes.js` holds hand-curated sets used by the theme modifier, listed by in-game name and resolved at load time: rivers (Mesopotamia, the British Isles, Siberia, continents, India), mountains (the Alps, the Himalayas, the Andes, the Rockies, Scotland, England or Wales, Indonesia, volcanoes), islands (the Caribbean, the Mediterranean, Greece, Hawaii, Scotland, Japan, Indonesia), lakes (saltwater, the Great Lakes, Africa, the Alps, the British Isles, Scandinavia), deserts and seas by continent, and countries (landlocked, island nations). Because a themed prompt *rejects* answers outside its set, sets must be complete for their well-known members; the validator fails on any listed name that is not in the bank. Ocean membership is deliberately **not** a theme — it is derived data (Section 4) so that no island can be left off a list.
+**6.0 Themes (v1.1).** `src/data/themes.js` holds hand-curated sets used by the theme modifier, listed by in-game name and resolved at load time: rivers (Mesopotamia, the British Isles, Siberia, continents, India), mountains (the Alps, the Himalayas, the Andes, the Rockies, Scotland, England or Wales, Indonesia, volcanoes), islands (the Caribbean, the Mediterranean, Greece, Hawaii, Scotland, Japan, Indonesia), lakes (saltwater, the Great Lakes, Africa, the Alps, the British Isles, Scandinavia), deserts and seas by continent, and countries (landlocked, island nations, and — derived from landlocked, not listed — coastal). Because a themed prompt *rejects* answers outside its set, sets must be complete for their well-known members; the validator fails on any listed name that is not in the bank. Ocean membership is deliberately **not** a theme — it is derived data (Section 4) so that no island can be left off a list.
 
 **6.1 No fabricated place names — hard rule.** Every entry must be a real, currently-recognized place with a real, sourced magnitude figure. Made-up names, jokey placeholders, or "TBD" entries are never committed, not even temporarily — a milestone that isn't ready to add real data for a slot leaves that slot's count lower rather than fill it with a placeholder.
 
@@ -389,5 +389,7 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.1 | Previous round's result stays visible until the next submission. | 3.4 |
 | 1.1 | Validator audits UN membership and theme membership; `gap-check` and `score-report` added. | 6.4 |
 | 1.1 | Bank expanded to 1,318 entries (islands 104→335, plus rivers, mountains, lakes, deserts, seas). | 6 |
+| 1.2 | Modifier chance ramps 70%→100% (was 40%→90%); opening length and ramp are named constants in `promptBank.js`. | 3.8 |
+| 1.2 | Derived themes: `coastal` = country cohort minus `landlocked`, "Name a country with a coastline." | 3.1a, 6.0 |
 
-**Deferred (needs new data, scoped separately):** a non-capital *cities* category; flag-colour tags per country; coastal/landlocked is covered by the `landlocked` theme (6.0), a `coastal` prompt would need the complementary tag on every country.
+**Deferred (needs new data, scoped separately):** a non-capital *cities* category; flag-colour tags per country.

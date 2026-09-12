@@ -232,6 +232,53 @@ test('every kind of modifier actually gets drawn from the shipped bank', () => {
   for (const kind of ['region', 'theme', 'ocean', 'size', 'letter']) assert.ok(seen.has(kind), `never drew a ${kind} modifier`);
 });
 
+test('after the opening, most rounds carry a modifier (Spec 3.8 ramp)', () => {
+  // The ramp is 70% -> 100% over rounds 4..15, and a category's second
+  // appearance is forced to differ from its first, so the realised rate sits
+  // higher still. Guard the intent - "conditional prompts are the norm" -
+  // rather than the exact constants.
+  const shipped = loadShippedBank();
+  let constrained = 0;
+  let total = 0;
+  for (let seed = 1; seed <= 150; seed++) {
+    const later = shipped.drawSlots(seeded(seed)).slice(promptBank.OPENING_ROUNDS);
+    for (const slot of later) {
+      total += 1;
+      if (shipped.promptFor(slot).constrained) constrained += 1;
+    }
+  }
+  assert.ok(constrained / total >= 0.85, `only ${((constrained / total) * 100).toFixed(0)}% of later rounds constrained`);
+});
+
+test('"coastal" is derived as every country that is not landlocked', () => {
+  const shipped = loadShippedBank();
+  const country = shipped.themes.get('country');
+  const landlocked = new Set(country.get('landlocked'));
+  const coastal = country.get('coastal');
+  assert.ok(landlocked.size > 0 && coastal.length > 0);
+  assert.strictEqual(landlocked.size + coastal.length, shipped.counts.country, 'the two partition the cohort');
+  for (const id of coastal) assert.ok(!landlocked.has(id), `${id} is in both`);
+
+  const prompt = shipped.promptFor({ category: 'country', theme: 'coastal' });
+  assert.strictEqual(prompt.text, 'Name a country with a coastline.');
+  assert.strictEqual(prompt.scopeName, 'that pattern', 'a derived theme is not a place name to say "isn\'t in"');
+
+  const coastalRun = () => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = { category: 'country', theme: 'coastal' };
+    return run;
+  };
+  for (const name of ['Portugal', 'Kiribati', 'Kazakhstan', 'Switzerland', 'Bolivia']) {
+    const expected = ['Kazakhstan', 'Switzerland', 'Bolivia'].includes(name) ? 'wrong-scope' : 'accepted';
+    assert.strictEqual(coastalRun().submit(name).status, expected, name);
+  }
+});
+
+test('a derived theme only exists when the set it derives from does', () => {
+  // The fixture bank ships no themes at all, so there is nothing to derive from.
+  assert.strictEqual(bank.themes.has('country'), false);
+});
+
 test('the shipped bank never repeats a prompt and every prompt has an answer', () => {
   const shipped = loadShippedBank();
   for (let seed = 1; seed <= 150; seed++) {

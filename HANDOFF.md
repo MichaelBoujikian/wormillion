@@ -1,17 +1,17 @@
 # Handoff
 
 For whoever (or whatever) picks this up next. `README.md` explains the game and
-how to run it; `SPEC.md` is the design source of truth (v1.1, with an amendments
+how to run it; `SPEC.md` is the design source of truth (v1.2, with an amendments
 log in §13). This file is the stuff that isn't in either: where things stand,
 what to check first, and the gotchas that cost time.
 
-## State as of 2026-09-12
+## State as of 2026-09-11
 
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main`.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123.
-- **Green:** `npm test` (67 tests), `npm run validate` (1,318 entries), `npm run gap-check`. CI runs test + validate on Node 22.
-- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence). See the last five commits.
+- **Green:** `npm test` (70 tests), `npm run validate` (1,318 entries), `npm run gap-check`. CI runs test + validate on Node 22.
+- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp and the derived `coastal` theme.
 
 ## Start here
 
@@ -69,16 +69,16 @@ npm run validate                     # schema, aliases, regions, oceans, UN audi
 - **Fuzzy matching stays.** The change-request doc suspected it caused the freeze bug and recommended replacing it with aliases. It didn't cause the freeze (that was a zero-dig animation never firing its callback); the user explicitly asked for autocorrect-style matching; it's guarded (no slack ≤4 chars, ties rejected, no substring matching). Aliases were *also* expanded. SPEC 3.6/3.7 document this.
 - **Ocean membership is derived, not curated.** "Hawaii isn't in the Pacific" was a hand-list bug; don't reintroduce a hand list for oceans. Everything else themed (Caribbean, Alps, volcanoes, landlocked…) *is* curated on purpose, because a themed prompt rejects what's outside its set.
 - **15 rounds, each category once or twice.** The no-repeat-prompt fix re-draws a category's second appearance rather than capping categories to one, so the run shape didn't change. The doc asked to check with the user before changing rounds or balance — neither changed, so nothing was asked.
+- **Modifier frequency is a pair of constants.** `OPENING_ROUNDS` / `MODIFIER_CHANCE_START` / `MODIFIER_CHANCE_END` at the top of `promptBank.js`. Currently 3 plain rounds then 70%→100%, which realises ~10.7 conditional rounds of 15 (the second appearance of a category is forced to differ, so the realised rate is above the nominal). The user has asked for *more* twice; if asked again, the remaining lever is `OPENING_ROUNDS` (3→2 adds roughly half a round), which also needs the "first three rounds are plain" test and SPEC 3.8 updated.
 - **`file://` must keep working.** Classic scripts + generated `data/bank.js`, no ES modules, no `fetch()`, no external resources. `npm run bundle` makes a single-file `dist/wormillion.html` for sending to people.
 
 ## Deferred (phase 2, needs new data) — likely the next task
 
 Listed in SPEC.md §13. Scoping notes so nobody has to re-derive them:
 
-**Coastal countries — no new data needed.** Coastal is simply every country
-*not* in the `landlocked` theme (`src/data/themes.js`). Add a derived theme in
-`promptBank.js` (`coastal` = cohort minus landlocked set) with prompt text
-"Name a country with a coastline." Cheapest of the three; do it first.
+**Coastal countries — done (2026-09-11).** `DERIVED_THEMES` in `promptBank.js`
+derives `coastal` as the country cohort minus the `landlocked` set. The same
+mechanism can derive any other complement of a curated theme.
 
 **Flag colours — new column on countries.** Add an 8th pipe field to
 `scripts/data-countries.mjs` (e.g. `red+white+blue`), carry it through
