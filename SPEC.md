@@ -406,16 +406,16 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | Modifier chance ramps 70%→100% (was 40%→90%); opening length and ramp are named constants in `promptBank.js`. | 3.8 |
 | 1.2 | Derived themes: `coastal` = country cohort minus `landlocked`, "Name a country with a coastline." | 3.1a, 6.0 |
 | 1.2 | Flag-colour modifier: `flag` field on countries (`scripts/data-flags.mjs`), "Name a country whose flag has green in it." | 3.1a, 4, 6.4, 7 |
+| 1.2 | Island nations are answerable as islands: 19 new island entries (Palau, Samoa, Tonga, Bahamas, Grenada…) and country-name aliases on shared or eponymous islands (Haiti → Hispaniola, Trinidad and Tobago → Trinidad). Bank is 1,337 entries. | 6 |
 | 1.2 | "One in Wormillion": confetti and lightning over the scene for an answer at 85%+ obscurity, held 10 s or until the next answer. | 3.12, 7 |
 | 1.2 | Dig curve made generous: `rarity × 70` below the bar, a flat 75 for 85–99%, 100 for 100%; depth budget 1500; strata bands unchanged so runs go deeper. | 3.9, 3.10, 3.12, 5.1, 5.2 |
 | 1.2 | Relics in the dirt: bones, skeletons, pottery and coins near the surface; dinosaur and fish fossils, ammonites in Clay/Bedrock; gems, gold, swords and treasure chests deeper. Painted into the terrain, carved through by the tunnel. | 7 |
+| 1.2 | Summary lists the run's finds from least to most obscure, with an obscurity bar and percentage per row. | 3.13 |
 | 1.2 | A one-in-Wormillion dig carves a wider crater (radius 11; 14 for 100%), tapering in and out. | 3.12 |
 | 1.2 | Capital themes: "not the largest city", "on the coast", "US state capitals"; 50 US state capitals join the capital cohort (`scripts/data-us-states.mjs`); capitals carry their country's flag ("…whose country's flag has green in it"); flag modifier weighted up. Bank is 1,387 entries. | 3.1a, 6, 6.0, 7 |
 | 1.2 | Cross-category miss hint ("Estonia is a country — this round wants a capital city"); capital flag prompt reworded "Name the capital of a country whose flag…". | 3.1a, 3.4 |
 | 1.2 | Letter rules ignore filler entirely ("Mount Fuji" has no T, does not start with M); only the length rules count "Mount"/"Lake", in every spelling. | 3.1a |
 | 1.2 | Audit fixes: an exact name is never spell-corrected into a different in-scope place; size thresholds inclusive; letter filler per category (countries/capitals keep their official words; "cape" is a name); ø/æ/ł/ß folded; Aral Sea is also a lake; Gasherbrum II; "Big Island"; volcano/Caribbean/Mediterranean themes completed; seven flag rows; "in the Caribbean". Bank is 1,389 entries. | 3.1a, 3.7, 6.0 |
 | 1.2 | Length rules judge the typed spelling ("China" is 5 letters, "People's Republic of China" is 22); seas keep their whole name for letter rules; `sizeRange` for rivers whose length depends on the tributary counted (Amur, Ob, Mississippi). | 3.1a, 4 |
-| 1.2 | Summary lists the run's finds from least to most obscure, with an obscurity bar and percentage per row. | 3.13 |
-| 1.2 | Island nations are answerable as islands: 19 new island entries (Palau, Samoa, Tonga, Bahamas, Grenada…) and country-name aliases on shared or eponymous islands (Haiti → Hispaniola, Trinidad and Tobago → Trinidad). Bank is 1,337 entries. | 6 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.
