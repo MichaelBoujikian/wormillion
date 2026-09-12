@@ -183,11 +183,12 @@ test('thresholds read naturally for each kind of stat', () => {
 
 const promptsFor = (seed) => bank.drawSlots(seeded(seed)).map((slot) => bank.promptFor(slot));
 
-test('the first three rounds are plain prompts in three different categories', () => {
+test('the first two rounds are plain prompts in two different categories', () => {
+  assert.strictEqual(promptBank.OPENING_ROUNDS, 2);
   for (let seed = 1; seed <= 60; seed++) {
-    const opening = promptsFor(seed).slice(0, 3);
+    const opening = promptsFor(seed).slice(0, promptBank.OPENING_ROUNDS);
     for (const p of opening) assert.strictEqual(p.constrained, false, `seed ${seed}: "${p.text}" in the opening`);
-    assert.strictEqual(new Set(opening.map((p) => p.category)).size, 3, `seed ${seed}: opening categories repeat`);
+    assert.strictEqual(new Set(opening.map((p) => p.category)).size, promptBank.OPENING_ROUNDS, `seed ${seed}: opening categories repeat`);
   }
 });
 
@@ -233,7 +234,7 @@ test('every kind of modifier actually gets drawn from the shipped bank', () => {
 });
 
 test('after the opening, most rounds carry a modifier (Spec 3.8 ramp)', () => {
-  // The ramp is 70% -> 100% over rounds 4..15, and a category's second
+  // The ramp is 70% -> 100% over rounds 3..15, and a category's second
   // appearance is forced to differ from its first, so the realised rate sits
   // higher still. Guard the intent - "conditional prompts are the norm" -
   // rather than the exact constants.
@@ -471,7 +472,7 @@ test('the shipped bank never repeats a prompt and every prompt has an answer', (
     const texts = prompts.map((p) => p.text);
     assert.strictEqual(new Set(texts).size, 15, `seed ${seed}: ${texts.join(' | ')}`);
     for (const p of prompts) assert.ok(p.lookup.size > 0, `seed ${seed}: no answers for "${p.text}"`);
-    for (const p of prompts.slice(0, 3)) assert.strictEqual(p.constrained, false, `seed ${seed}: "${p.text}" in the opening`);
+    for (const p of prompts.slice(0, promptBank.OPENING_ROUNDS)) assert.strictEqual(p.constrained, false, `seed ${seed}: "${p.text}" in the opening`);
   }
 });
 

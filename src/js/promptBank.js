@@ -74,7 +74,7 @@
   // then the chance a slot carries a modifier climbs linearly from START on the
   // first round after the opening to END on the last. These two lines are the
   // knobs for "conditional prompts should come up more / less often".
-  const OPENING_ROUNDS = 3;
+  const OPENING_ROUNDS = 2; // was 3: the last lever for "more conditional prompts" (~11.4 of 15 now)
   const MODIFIER_CHANCE_START = 0.7;
   const MODIFIER_CHANCE_END = 1.0;
 

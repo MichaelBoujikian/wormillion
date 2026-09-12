@@ -176,9 +176,9 @@ round 12 harder than round 2:
 | size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
 | letter | "Name a river with a T in it." | derived from the name |
 
-The first three rounds are always plain, in three different categories. After
-that the chance of a modifier ramps from 70% to 100% (about 11 of 15 rounds end
-up conditional), and **no prompt text is ever shown twice in a run** — a
+The first two rounds are always plain, in two different categories. After
+that the chance of a modifier ramps from 70% to 100% (about 11 or 12 of 15
+rounds end up conditional), and **no prompt text is ever shown twice in a run** — a
 category's second appearance is re-drawn until it reads differently from its
 first.
 
