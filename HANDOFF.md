@@ -18,8 +18,8 @@ URL).
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main` (the `deploy` workflow; `ci` runs test + validate on Node 22). `gh run list` shows both.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` knows this as `wormillion` for the in-app browser pane).
-- **Green:** `npm test` (95 tests), `npm run validate` (1,389 entries), `npm run gap-check`, `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
-- **Working tree:** clean at handoff; everything below is pushed. Last commit `5ff2efb`; the live site has it.
+- **Green:** `npm test` (99 tests), `npm run validate` (1,393 entries), `npm run gap-check` (138 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
+- **Working tree:** clean at handoff; everything below is pushed. Last commit `43ec1bb`; the live site has it.
 
 ### What landed on 2026-09-11/12, in order (all on `main`)
 
@@ -37,6 +37,16 @@ URL).
 | `460450b`, `0b69527`, `dc7925a` | Letter rules: filler never counts for letters, only length; "Loch"/"Saint"/"Cape" are names |
 | `065f18b` | Audit fixes from the subagent report (see "The audit" below) |
 | `5ff2efb` | The three audit questions decided: typed-length rule, seas keep "Sea", `sizeRange` for Amur/Ob/Mississippi |
+| `f390aee` | SPEC §13 rows put in the order they landed |
+| `8021982` | K2: digits are characters (it no longer "ends in K") |
+| `2e9bed0` | Vietnam 98.9M → 101M (over 100 million) |
+| `243f8ee` | Loose-form tie-break: a name beats another entry's alias ("Arabian" → Arabian Sea); validator fails on any form no name settles; `validate-data.mjs` imports `matching.js` instead of copying `normalize` |
+| `0ffb0a2` | 17 entries lose the invented suffix: "Cuba Island" → Cuba … "Singapore City" → Singapore (ids re-keyed in `pageviews.json`, no fetch) |
+| `2519f79` | Filler optional both ways ("Mount Denali" → Denali); `elsewhere()` tries every category exactly before any loosely |
+| `5e8c08d` | Flag weight 3 → 2 (~0.6 flag prompts per run) |
+| `80b1777` | Points flat at the jackpot bar: 950 for 85–99%, 1000 for 100% (`POINTS_JACKPOT`) |
+| `fb0a3ef` | Japan / Philippines / Indonesia / New Zealand as islands; UK → Great Britain, PNG → New Guinea, Brunei → Borneo aliases; "Japan is all of it" hint. Bank 1,393 |
+| `43ec1bb` | `OPENING_ROUNDS` 3 → 2 (~11.4 conditional rounds of 15) |
 
 Before those, the previous session landed the seven items in
 `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags,
@@ -155,22 +165,19 @@ npm run validate                     # schema, aliases, regions, oceans, flags, 
 
 A general-purpose subagent audited every generated prompt's answer set (the report lived in the session scratchpad; the substance is here). Fixed: (1) **exact name beats fuzzy correction** — on a narrowed prompt "Australia" was corrected to Austria and scored; `run.js` now checks the whole category exactly, then other categories, before accepting a correction; (2) size thresholds strict both ways left Chalbi Desert (exactly 100,000 km²) unacceptable for either prompt — now inclusive; (3) `cape` in the letter filler; (4) countries/capitals stripped of official words (Solomon Islands had no D) — now only a leading "the"; (5) Aral Sea only in seas — now also a lake; (6) volcano theme missing 14 volcanoes in the bank, Caribbean theme missing Saint Lucia/Dominica/Grenada/Saint Vincent/Cozumel/Isla Mujeres/Bahamas, Mediterranean missing Djerba; (7) Guatemala's flag missing red (the quetzal), plus six lenient additions; (8) "Big Island" alias, Gasherbrum II (the 14th eight-thousander), Kiribati's non-name alias "Tarawa" removed; (9) ø/æ/œ/ł/ß/đ/ð folded in `normalize` (`validate-data.mjs` has since been pointed at `matching.js` itself, so there is one copy); (10) "in the Caribbean" / "in the Middle East".
 
-Reported and **left for the user to decide** (see next section): formal-name aliases making short names long (China via People's Republic of China) and vice versa (US/UK/NZ short); the sea cohort where ~80% of names end in "Sea" so "ends in A" rejects Black Sea; loose-key collisions (`arabian`: Arabian Sea vs Persian Gulf's alias "Arabian Gulf"; `great salt`); bank-invented disambiguators ("Cuba Island", "Singapore City") counting toward "long name"; Amur listed at 2,824 km (4,444 with the Argun); Vietnam at 98.9M sits just under "over 100 million"; K2's letters collapse to `k`.
+Everything it reported has since been decided and landed: typed-length rule, seas keep "Sea" and `sizeRange` (`5ff2efb`); K2 (`8021982`); Vietnam (`2e9bed0`); the loose-form collisions (`243f8ee`, alias kept); the invented suffixes (`0ffb0a2`). The one population the user chose *not* to chase: a full refresh to UN WPP 2024 — only Vietnam was bumped; the UAE at 9.5M is the other entry on the wrong side of a line (it is ≈11M now, over 10 million), left as-is on purpose.
 
 ## Housekeeping left over from the move
 
-- `C:\Users\smite\wormillion` still exists. It is an **empty husk** except for one stray file, `.claude\launch.json`, which the last session put there as a shim (it points at the new folder's `serve.mjs`) and which is no longer needed. The folder couldn't be deleted while any Claude Code session that started there was open — Windows treats a process's original working directory as in use. Once no such session is running: `Remove-Item -Recurse -Force C:\Users\smite\wormillion`. Nothing in it matters.
+- `C:\Users\smite\wormillion` (the old folder) was deleted by the user on 2026-09-12. `check1.txt`, a stray fetch log at the repo root, went the same day.
 - The session that did all of 2026-09-11/12's work ran from the old path and was retired at context limit right after `5ff2efb`. Its Claude Code memory is keyed to the old path and won't be seen from here; this file is the memory.
 - The audit report the subagent wrote (`audit-report.md`) lived in that session's scratchpad and is gone with it; everything actionable from it is either fixed (`065f18b`, `5ff2efb`) or listed under "still undecided" below.
 
 ## Open threads and likely next tasks
 
 - **Non-capital cities — a ninth category, so it touches the draw.** Needs a new authoring file (`scripts/data-cities.mjs`, `Name|Country|population|aliases`), a `city` category key in `promptBank.js` (`NOUN`, `CATEGORY_LABEL`, `SIZE_RULES` with population thresholds), a 12×12 icon in `icons.js`, `EXPECTED` keywords in `fetch-pageviews.mjs` for the description audit, region tags inherited from the country, and a flag inherited from the country. Decide with the user whether the cohort excludes capitals. SPEC 3.8's draw assumes 8 categories — with 9, "every category once or twice" needs restating (15 slots over 9) and `tests/prompts.test.js` / `run.test.js` assert the current shape. Update SPEC §3.8 and §6 in the same change. This is the one task big enough that the user might want a subagent for it; they asked about subagents and were told this was the natural candidate.
-- **From the audit, still undecided:** drop the "Arabian Gulf" alias (loose key `arabian` collides with Arabian Sea, so typing "Arabian" on a sea round identifies neither) or extend the validator to loose-key collisions; bank-invented disambiguators ("Cuba Island", "Singapore City") make "long name" true when typed in full; K2's letters collapse to `k`; Vietnam at 98.9M sits just under "over 100 million". (Decided 2026-09-12: length judged on the typed spelling; seas keep "Sea"; Amur/Ob/Mississippi carry a `sizeRange` and count for either end.)
-- **Flag-prompt weight.** Currently 3 (~0.8 per run). The user asked for "just a bit" more and was told this is more than a bit; if it feels heavy, drop to 2 (~0.6 per run).
-- **Should 85–99% also be flat for points?** Only depth was flattened. The user talked about soil level; points were not mentioned. Ask before changing.
-- **`POINTS_GAMMA` balance** — a typical answer pays ~460 pts. `npm run score-report` prints the curve.
-- **The seven big island nations** (above) — ask.
+- **A full population refresh** (UN WPP 2024) was offered and declined on 2026-09-12 — "don't waste tokens on updating every population". Only Vietnam was bumped. Revisit only if a player reports a size prompt being wrong.
+- **`POINTS_GAMMA`** was taken off the list by the user on 2026-09-12; leave it.
 - **Flag rows are from memory**, not fetched. If a player reports "X isn't accepted for colour Y", first check which category the round was (see Estonia, below), then fix the row in `scripts/data-flags.mjs` and `npm run build-data` — no fetch needed.
 
 ## Things the user has said they care about
