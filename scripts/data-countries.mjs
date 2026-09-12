@@ -68,7 +68,7 @@ Pakistan|Islamabad|240500000|Asia|South Asia
 Bangladesh|Dhaka|173000000|Asia|South Asia
 Japan|Tokyo|123300000|Asia|East Asia
 Philippines|Manila|117300000|Asia|Southeast Asia|The Philippines
-Vietnam|Hanoi|98900000|Asia|Southeast Asia|Viet Nam
+Vietnam|Hanoi|101000000|Asia|Southeast Asia|Viet Nam
 Iran|Tehran|89200000|Asia|Middle East
 Turkey|Ankara|85800000|Asia|Middle East|Turkiye
 Thailand|Bangkok|71800000|Asia|Southeast Asia

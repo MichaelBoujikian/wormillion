@@ -501,6 +501,8 @@ test('audit fixes hold in the shipped data', () => {
   assert.strictEqual(status({ category: 'desert', size: { op: 'over', value: 100000 } }, 'Chalbi Desert'), 'accepted', 'sits exactly on the threshold');
   assert.strictEqual(status({ category: 'country', letter: { kind: 'starts', letter: 't' } }, 'Kiribati'), 'wrong-scope', 'Tarawa is its capital, not its name');
   assert.strictEqual(status({ category: 'country', region: 'Europe' }, 'Australia'), 'wrong-scope', 'not Austria');
+  assert.strictEqual(status({ category: 'country', size: { op: 'over', value: 100000000 } }, 'Vietnam'), 'accepted', 'passed 100 million in 2023');
+  assert.strictEqual(status({ category: 'capital', size: { op: 'over', value: 100000000 } }, 'Hanoi'), 'accepted');
 });
 
 test('Hawaii is in the Pacific, in the shipped data', () => {
