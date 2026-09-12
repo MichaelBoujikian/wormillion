@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-12",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-12T00:19:05.202Z",
+ "fetched": "2026-09-12T02:13:50.788Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -7207,6 +7207,34 @@
    "lat": 17.64,
    "lon": -61.81
   },
+  "island-dominica-island": {
+   "title": "Dominica",
+   "monthlyViews": 58384,
+   "days": 60,
+   "lat": 15.41666667,
+   "lon": -61.33333333
+  },
+  "island-saint-lucia-island": {
+   "title": "Saint Lucia",
+   "monthlyViews": 57684,
+   "days": 60,
+   "lat": 13.88333333,
+   "lon": -60.96666667
+  },
+  "island-saint-vincent-island": {
+   "title": "Saint Vincent (Saint Vincent and the Grenadines)",
+   "monthlyViews": 3318,
+   "days": 59,
+   "lat": 13.25,
+   "lon": -61.2
+  },
+  "island-grenada-island": {
+   "title": "Grenada",
+   "monthlyViews": 62372,
+   "days": 60,
+   "lat": 12.1,
+   "lon": -61.7
+  },
   "island-eleuthera": {
    "title": "Eleuthera",
    "monthlyViews": 6240,
@@ -8466,6 +8494,111 @@
    "days": 60,
    "lat": 4.18,
    "lon": 73.51
+  },
+  "island-comoros": {
+   "title": "Comoros",
+   "monthlyViews": 50774,
+   "days": 60,
+   "lat": -12.3,
+   "lon": 43.7
+  },
+  "island-cape-verde": {
+   "title": "Cape Verde",
+   "monthlyViews": 151804,
+   "days": 60,
+   "lat": 15.3,
+   "lon": -23.7
+  },
+  "island-sao-tome-and-principe": {
+   "title": "São Tomé and Príncipe",
+   "monthlyViews": 51048,
+   "days": 60,
+   "lat": 0.31666667,
+   "lon": 6.6
+  },
+  "island-bahamas": {
+   "title": "The Bahamas",
+   "monthlyViews": 96221,
+   "days": 60,
+   "lat": 25,
+   "lon": -77.4
+  },
+  "island-palau": {
+   "title": "Palau",
+   "monthlyViews": 66390,
+   "days": 60,
+   "lat": 7.5,
+   "lon": 134.5
+  },
+  "island-samoa": {
+   "title": "Samoa",
+   "monthlyViews": 67364,
+   "days": 60,
+   "lat": -13.745,
+   "lon": -172.2175
+  },
+  "island-tonga": {
+   "title": "Tonga",
+   "monthlyViews": 59723,
+   "days": 60,
+   "lat": -20,
+   "lon": -175
+  },
+  "island-vanuatu": {
+   "title": "Vanuatu",
+   "monthlyViews": 82340,
+   "days": 60,
+   "lat": -17,
+   "lon": 168
+  },
+  "island-solomon-islands": {
+   "title": "Solomon Islands",
+   "monthlyViews": 49800,
+   "days": 59,
+   "lat": -8,
+   "lon": 159
+  },
+  "island-kiribati": {
+   "title": "Kiribati",
+   "monthlyViews": 107453,
+   "days": 60,
+   "lat": 1.41666667,
+   "lon": 173
+  },
+  "island-tuvalu": {
+   "title": "Tuvalu",
+   "monthlyViews": 61367,
+   "days": 60,
+   "lat": -8.52083333,
+   "lon": 179.19861111
+  },
+  "island-marshall-islands": {
+   "title": "Marshall Islands",
+   "monthlyViews": 56405,
+   "days": 60,
+   "lat": 9.82,
+   "lon": 169.29
+  },
+  "island-micronesia": {
+   "title": "Federated States of Micronesia",
+   "monthlyViews": 38872,
+   "days": 59,
+   "lat": 6.91666667,
+   "lon": 158.25
+  },
+  "island-singapore-island": {
+   "title": "Singapore (island)",
+   "monthlyViews": 1948,
+   "days": 59,
+   "lat": 1.36666667,
+   "lon": 103.8
+  },
+  "island-bahrain-island": {
+   "title": "Bahrain Island",
+   "monthlyViews": 1126,
+   "days": 59,
+   "lat": 26.03,
+   "lon": 50.55
   },
   "island-canary-islands": {
    "title": "Canary Islands",

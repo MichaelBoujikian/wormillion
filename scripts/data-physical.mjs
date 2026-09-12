@@ -542,7 +542,7 @@ Iceland Island|101826|Iceland
 Mindanao|97530
 Ireland Island|84421|Ireland
 Hokkaido|78073
-Hispaniola|76192
+Hispaniola|76192|Haiti,Dominican Republic
 Sakhalin|72493
 Banks Island|70028
 Tasmania|68401
@@ -558,7 +558,7 @@ Taiwan Island|35883|Formosa
 New Britain|35145
 Hainan|33210
 Vancouver Island|31285
-Timor|30777
+Timor|30777|Timor-Leste,East Timor
 Sicily|25711|Sicilia
 Somerset Island|24786
 Sardinia|23949|Sardegna
@@ -582,7 +582,7 @@ Zealand|7031|Sjaelland
 Aland|685|Fasta Aland
 Bali|5780
 Prince Edward Island|5660
-Trinidad|4768
+Trinidad|4768|Trinidad and Tobago
 Socotra|3796
 Mallorca|3640|Majorca
 Fyn|3100|Funen
@@ -655,13 +655,17 @@ Saint Martin|87|St Martin
 Anguilla|91
 Montserrat|102
 Nevis|93
-Saint Kitts|168|St Kitts
+Saint Kitts|168|St Kitts,Saint Kitts and Nevis,St Kitts and Nevis
 Tortola|55
 Virgin Gorda|21
 Saint Thomas|83|St Thomas
 Saint Croix|215|St Croix
-Antigua|281
+Antigua|281|Antigua and Barbuda
 Barbuda|161
+Dominica Island|750
+Saint Lucia Island|617
+Saint Vincent Island|344|Saint Vincent and the Grenadines,St Vincent and the Grenadines
+Grenada Island|312
 Eleuthera|484
 Andros Island|5957|Andros
 Grand Bahama|1373
@@ -842,6 +846,21 @@ Djerba|514
 Andaman Islands|6408
 Seychelles|459
 Maldives|298
+Comoros|1862|Comoro Islands
+Cape Verde|4033|Cabo Verde
+Sao Tome and Principe|1001|Sao Tome & Principe
+Bahamas|10010|The Bahamas
+Palau|459|Belau
+Samoa|2842|Western Samoa
+Tonga|748
+Vanuatu|12189|New Hebrides
+Solomon Islands|28400|Solomons,The Solomon Islands
+Kiribati|811|Gilbert Islands
+Tuvalu|26|Ellice Islands
+Marshall Islands|181|Marshalls,The Marshall Islands
+Micronesia|702|Federated States of Micronesia,FSM
+Singapore Island|710|Singapore,Pulau Ujong
+Bahrain Island|590
 Canary Islands|7493|Canaries
 Balearic Islands|4992|Balearics
 Azores|2333

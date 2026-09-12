@@ -387,7 +387,10 @@
   "id": "island-hispaniola",
   "category": "island",
   "name": "Hispaniola",
-  "aliases": [],
+  "aliases": [
+   "Haiti",
+   "Dominican Republic"
+  ],
   "size": 76192,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Hispaniola\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -665,7 +668,10 @@
   "id": "island-timor",
   "category": "island",
   "name": "Timor",
-  "aliases": [],
+  "aliases": [
+   "Timor-Leste",
+   "East Timor"
+  ],
   "size": 30777,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Timor\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -1094,7 +1100,9 @@
   "id": "island-trinidad",
   "category": "island",
   "name": "Trinidad",
-  "aliases": [],
+  "aliases": [
+   "Trinidad and Tobago"
+  ],
   "size": 4768,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Trinidad\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -2361,7 +2369,9 @@
   "category": "island",
   "name": "Saint Kitts",
   "aliases": [
-   "St Kitts"
+   "St Kitts",
+   "Saint Kitts and Nevis",
+   "St Kitts and Nevis"
   ],
   "size": 168,
   "sizeUnit": "area_km2",
@@ -2449,7 +2459,9 @@
   "id": "island-antigua",
   "category": "island",
   "name": "Antigua",
-  "aliases": [],
+  "aliases": [
+   "Antigua and Barbuda"
+  ],
   "size": 281,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Antigua\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -2475,6 +2487,77 @@
   "wikiTitle": "Barbuda",
   "lat": 17.64,
   "lon": -61.81,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-dominica-island",
+  "category": "island",
+  "name": "Dominica Island",
+  "aliases": [],
+  "size": 750,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dominica\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 58384,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dominica",
+  "lat": 15.41666667,
+  "lon": -61.33333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-saint-lucia-island",
+  "category": "island",
+  "name": "Saint Lucia Island",
+  "aliases": [],
+  "size": 617,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saint Lucia\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 57684,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Lucia",
+  "lat": 13.88333333,
+  "lon": -60.96666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-saint-vincent-island",
+  "category": "island",
+  "name": "Saint Vincent Island",
+  "aliases": [
+   "Saint Vincent and the Grenadines",
+   "St Vincent and the Grenadines"
+  ],
+  "size": 344,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saint Vincent (Saint Vincent and the Grenadines)\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 3318,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Vincent (Saint Vincent and the Grenadines)",
+  "lat": 13.25,
+  "lon": -61.2,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-grenada-island",
+  "category": "island",
+  "name": "Grenada Island",
+  "aliases": [],
+  "size": 312,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grenada\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 62372,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grenada",
+  "lat": 12.1,
+  "lon": -61.7,
   "oceans": [
    "Atlantic"
   ]
@@ -5640,6 +5723,291 @@
   "wikiTitle": "Maldives",
   "lat": 4.18,
   "lon": 73.51,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-comoros",
+  "category": "island",
+  "name": "Comoros",
+  "aliases": [
+   "Comoro Islands"
+  ],
+  "size": 1862,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Comoros\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 50774,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Comoros",
+  "lat": -12.3,
+  "lon": 43.7,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-cape-verde",
+  "category": "island",
+  "name": "Cape Verde",
+  "aliases": [
+   "Cabo Verde"
+  ],
+  "size": 4033,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cape Verde\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 151804,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cape Verde",
+  "lat": 15.3,
+  "lon": -23.7,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sao-tome-and-principe",
+  "category": "island",
+  "name": "Sao Tome and Principe",
+  "aliases": [
+   "Sao Tome & Principe"
+  ],
+  "size": 1001,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"São Tomé and Príncipe\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 51048,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "São Tomé and Príncipe",
+  "lat": 0.31666667,
+  "lon": 6.6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bahamas",
+  "category": "island",
+  "name": "Bahamas",
+  "aliases": [
+   "The Bahamas"
+  ],
+  "size": 10010,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"The Bahamas\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 96221,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "The Bahamas",
+  "lat": 25,
+  "lon": -77.4,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-palau",
+  "category": "island",
+  "name": "Palau",
+  "aliases": [
+   "Belau"
+  ],
+  "size": 459,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Palau\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 66390,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palau",
+  "lat": 7.5,
+  "lon": 134.5,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-samoa",
+  "category": "island",
+  "name": "Samoa",
+  "aliases": [
+   "Western Samoa"
+  ],
+  "size": 2842,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Samoa\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 67364,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samoa",
+  "lat": -13.745,
+  "lon": -172.2175,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tonga",
+  "category": "island",
+  "name": "Tonga",
+  "aliases": [],
+  "size": 748,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tonga\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 59723,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tonga",
+  "lat": -20,
+  "lon": -175,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-vanuatu",
+  "category": "island",
+  "name": "Vanuatu",
+  "aliases": [
+   "New Hebrides"
+  ],
+  "size": 12189,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vanuatu\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 82340,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vanuatu",
+  "lat": -17,
+  "lon": 168,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-solomon-islands",
+  "category": "island",
+  "name": "Solomon Islands",
+  "aliases": [
+   "Solomons",
+   "The Solomon Islands"
+  ],
+  "size": 28400,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Solomon Islands\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 49800,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Solomon Islands",
+  "lat": -8,
+  "lon": 159,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kiribati",
+  "category": "island",
+  "name": "Kiribati",
+  "aliases": [
+   "Gilbert Islands"
+  ],
+  "size": 811,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kiribati\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 107453,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kiribati",
+  "lat": 1.41666667,
+  "lon": 173,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tuvalu",
+  "category": "island",
+  "name": "Tuvalu",
+  "aliases": [
+   "Ellice Islands"
+  ],
+  "size": 26,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tuvalu\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 61367,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tuvalu",
+  "lat": -8.52083333,
+  "lon": 179.19861111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-marshall-islands",
+  "category": "island",
+  "name": "Marshall Islands",
+  "aliases": [
+   "Marshalls",
+   "The Marshall Islands"
+  ],
+  "size": 181,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marshall Islands\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 56405,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marshall Islands",
+  "lat": 9.82,
+  "lon": 169.29,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-micronesia",
+  "category": "island",
+  "name": "Micronesia",
+  "aliases": [
+   "Federated States of Micronesia",
+   "FSM"
+  ],
+  "size": 702,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Federated States of Micronesia\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 38872,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Federated States of Micronesia",
+  "lat": 6.91666667,
+  "lon": 158.25,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-singapore-island",
+  "category": "island",
+  "name": "Singapore Island",
+  "aliases": [
+   "Singapore",
+   "Pulau Ujong"
+  ],
+  "size": 710,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Singapore (island)\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 1948,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Singapore (island)",
+  "lat": 1.36666667,
+  "lon": 103.8,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-bahrain-island",
+  "category": "island",
+  "name": "Bahrain Island",
+  "aliases": [],
+  "size": 590,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bahrain Island\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bahrain Island",
+  "lat": 26.03,
+  "lon": 50.55,
   "oceans": [
    "Indian"
   ]

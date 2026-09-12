@@ -10,8 +10,8 @@ what to check first, and the gotchas that cost time.
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main`.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123.
-- **Green:** `npm test` (73 tests), `npm run validate` (1,318 entries), `npm run gap-check`. CI runs test + validate on Node 22.
-- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, and flag-colour prompts.
+- **Green:** `npm test` (73 tests), `npm run validate` (1,337 entries), `npm run gap-check`. CI runs test + validate on Node 22.
+- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, and island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos).
 
 ## Start here
 
@@ -112,5 +112,6 @@ the curve.
 
 - Prompts should be specific and get harder ("name a river with a T in it", "name a river in Mesopotamia") — done, keep extending.
 - Answers people obviously reach for must be accepted — `npm run gap-check` is the guard; add to its list when a player reports a miss.
+- **Island nations count as islands** if they are one island or one compact archipelago: each has an island entry (`Palau`, `Tonga`, `Grenada Island`…) pointed at the country article, or is an alias of the island it shares (`Haiti` → Hispaniola, `Timor-Leste` → Timor). Deliberately *not* done for Japan, the United Kingdom, Indonesia, the Philippines, New Zealand, Papua New Guinea and Brunei — their big islands are in the bank individually and the user hasn't said whether "Japan" should count as an island. Ask before adding those.
 - Spelling should autocorrect and show the real spelling — done.
 - They want to be able to find the answers and the logic in the code — the table above and README's "Where the logic lives".

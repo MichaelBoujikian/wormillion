@@ -181,7 +181,7 @@ Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4).
 | `mountain` | "Name a mountain." | 60–90 well-known peaks | 125 | elevation (m) |
 | *(feeds `mountain` cohort)* | *(same prompt as above)* | 40–60 real, obscure minor peaks/hills | 62 | elevation (m) |
 | `desert` | "Name a desert." | 30–45 | 58 | area (km²) |
-| `island` | "Name an island." | 70–100 | 335 (incl. archipelagos people name as islands: Seychelles, Maldives, Canaries…) | area (km²) |
+| `island` | "Name an island." | 70–100 | 354 (incl. archipelagos people name as islands: Seychelles, Maldives, Canaries…, and every island nation that is one island or one compact archipelago: Palau, Samoa, Tonga, Bahamas, Grenada…) | area (km²) |
 | `sea_ocean` | "Name a sea or ocean." | 60–75 (5 oceans + named seas) | 95 | area (km²) |
 
 **Region list for country prompts (3.8):** `Africa`, `Asia`, `Europe`, `North America`, `South America`, `Oceania` (continent-level, always usable) plus sub-regions used only when they have ≥6 tagged countries: `West Africa`, `East Africa`, `North Africa`, `Southern Africa`, `Middle East`, `South Asia`, `Southeast Asia`, `East Asia`, `Central Asia`, `Caribbean`, `Central America`, `Eastern Europe`, `Western Europe`, `Scandinavia & the Nordics`. Every country entry carries `region: [continent, ...subregions]`.
@@ -396,5 +396,6 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | Modifier chance ramps 70%→100% (was 40%→90%); opening length and ramp are named constants in `promptBank.js`. | 3.8 |
 | 1.2 | Derived themes: `coastal` = country cohort minus `landlocked`, "Name a country with a coastline." | 3.1a, 6.0 |
 | 1.2 | Flag-colour modifier: `flag` field on countries (`scripts/data-flags.mjs`), "Name a country whose flag has green in it." | 3.1a, 4, 6.4, 7 |
+| 1.2 | Island nations are answerable as islands: 19 new island entries (Palau, Samoa, Tonga, Bahamas, Grenada…) and country-name aliases on shared or eponymous islands (Haiti → Hispaniola, Trinidad and Tobago → Trinidad). Bank is 1,337 entries. | 6 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.
