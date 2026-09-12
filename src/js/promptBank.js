@@ -32,12 +32,13 @@
   const rarity = isNode ? require('./rarity.js') : root.Wormillion.rarity;
   const matching = isNode ? require('./matching.js') : root.Wormillion.matching;
 
-  const CATEGORIES = ['country', 'capital', 'lake', 'river', 'mountain', 'desert', 'island', 'sea_ocean'];
+  const CATEGORIES = ['country', 'capital', 'city', 'lake', 'river', 'mountain', 'desert', 'island', 'sea_ocean'];
 
   // The noun used in generated prompt text, and the plain fallback prompt.
   const NOUN = {
     country: 'country',
     capital: 'capital city',
+    city: 'city',
     lake: 'lake',
     river: 'river',
     mountain: 'mountain',
@@ -46,11 +47,22 @@
     sea_ocean: 'sea or ocean'
   };
 
+  // What a round "wants" when the answer was a real place from another
+  // category - the noun, except where the noun alone would mislead: a city
+  // round does not want Paris.
+  const WANTS = { city: "city that isn't a capital" };
+  const wantsPhrase = (category) => WANTS[category] || NOUN[category];
+
+  // The plain (unmodified) prompt, where "Name a {noun}." would mislead: the
+  // city cohort excludes national capitals, and the prompt has to say so.
+  const PLAIN_TEXT = { city: "Name a city that isn't a national capital." };
+
   const ARTICLE = (noun) => (/^[aeiou]/i.test(noun) ? 'an' : 'a');
 
   const CATEGORY_LABEL = {
     country: 'Country',
     capital: 'Capital',
+    city: 'City (not a capital)',
     lake: 'Lake',
     river: 'River',
     mountain: 'Mountain',
@@ -118,7 +130,7 @@
   // City ends in Y. The same goes for seas: nobody thinks "Black Sea" has no
   // S in it or fails to end in A. Only a leading "the" is dropped.
   const NAME_FILLER = new Set(['the']);
-  const WHOLE_NAME_CATEGORIES = new Set(['country', 'capital', 'sea_ocean']);
+  const WHOLE_NAME_CATEGORIES = new Set(['country', 'capital', 'city', 'sea_ocean']);
   const letterFillerFor = (category) => (WHOLE_NAME_CATEGORIES.has(category) ? NAME_FILLER : LETTER_FILLER);
 
   /**
@@ -220,6 +232,10 @@
       thresholds: [1000000, 10000000, 100000000],
       text: (op, n) => `whose country has a population ${op === 'over' ? 'over' : 'under'} ${humanCount(n)}`
     },
+    city: {
+      thresholds: [500000, 1000000, 5000000, 10000000],
+      text: (op, n) => `with a population ${op === 'over' ? 'over' : 'under'} ${humanCount(n)}`
+    },
     river: {
       thresholds: [500, 1000, 3000, 5000],
       text: (op, n) => `${op === 'over' ? 'longer' : 'shorter'} than ${withCommas(n)} km`
@@ -283,6 +299,7 @@
     // "Name the capital of a country whose flag..." - so nobody answers with
     // the country. (A player did.)
     if (category === 'capital') return `Name the capital of a country whose flag ${has}.`;
+    if (category === 'city') return `Name a city in a country whose flag ${has}.`;
     const noun = NOUN[category];
     return `Name ${ARTICLE(noun)} ${noun} whose flag ${has}.`;
   }
@@ -482,10 +499,31 @@
       return null;
     }
 
+    /**
+     * Regions a category can be scoped to. Countries and capitals: every
+     * region with enough countries (one capital each). Cities: only regions
+     * where enough cities actually live - Central Asia has six countries but
+     * might have two cities in the bank, and "Name a city in Central Asia"
+     * must not be a trick question.
+     */
+    const regionOptionsFor = new Map();
+    function regionOptions(category) {
+      if (category === 'country' || category === 'capital') return regions;
+      if (category !== 'city') return [];
+      if (!regionOptionsFor.has(category)) {
+        const cohort = cohorts.get(category);
+        regionOptionsFor.set(
+          category,
+          regions.filter((region) => eligibleCount(cohort, (entry) => (entry.region || []).includes(region)) >= MIN_ELIGIBLE)
+        );
+      }
+      return regionOptionsFor.get(category);
+    }
+
     /** One random modifier for a category, or null when nothing fits. */
     function drawModifier(category, rng) {
       const options = [];
-      if ((category === 'country' || category === 'capital') && regions.length) options.push('region', 'region');
+      if (regionOptions(category).length) options.push('region', 'region');
       if (themeSets.has(category)) options.push('theme', 'theme');
       if (oceanOptions(category).length) options.push('ocean', 'ocean');
       // Flags weigh the same as the other kinds (3 felt heavy at ~0.8 per run;
@@ -495,7 +533,7 @@
       options.push('letter', 'letter');
 
       const choice = pick(options, rng);
-      if (choice === 'region') return { region: pick(regions, rng) };
+      if (choice === 'region') return { region: pick(regionOptions(category), rng) };
       if (choice === 'theme') return { theme: pick([...themeSets.get(category).keys()], rng) };
       if (choice === 'ocean') return { ocean: pick(oceanOptions(category), rng) };
       if (choice === 'flag') {
@@ -520,8 +558,10 @@
      * is never a repeat question.
      */
     function drawSlots(rng = Math.random) {
+      // Every category once, then enough of a second shuffled copy to fill the
+      // run: 9 categories + 6 repeats = 15 rounds (Spec 3.8).
       const first = shuffle(CATEGORIES, rng);
-      const second = shuffle(CATEGORIES, rng).slice(0, CATEGORIES.length - 1);
+      const second = shuffle(CATEGORIES, rng).slice(0, rarity.ROUNDS_PER_RUN - CATEGORIES.length);
       // Distinct categories to open with, then everything else shuffled.
       const opening = first.slice(0, OPENING_ROUNDS);
       const rest = shuffle(first.slice(OPENING_ROUNDS).concat(second), rng);
@@ -577,7 +617,7 @@
       const cohort = cohorts.get(slot.category);
       const noun = NOUN[slot.category];
       const a = ARTICLE(noun);
-      let text = `Name ${a} ${noun}.`;
+      let text = PLAIN_TEXT[slot.category] || `Name ${a} ${noun}.`;
       let lookup = cohort.lookup;
       let scope = null;
 
@@ -669,6 +709,7 @@
   return {
     CATEGORIES,
     NOUN,
+    wantsPhrase,
     ARTICLE,
     CATEGORY_LABEL,
     LETTER_FILLER,

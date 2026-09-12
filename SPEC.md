@@ -2,7 +2,7 @@
 
 ## 0. One-line pitch
 
-An endless, single-player, browser-based digging game: each 15-round run asks you to name a real place (a country, capital, lake, river, mountain, desert, island, or sea/ocean); the more obscure your correct answer, the deeper your pixel worm digs and the more points you score. No accounts, no daily lock, no build step — open `index.html` and play forever.
+An endless, single-player, browser-based digging game: each 15-round run asks you to name a real place (a country, capital, city, lake, river, mountain, desert, island, or sea/ocean); the more obscure your correct answer, the deeper your pixel worm digs and the more points you score. No accounts, no daily lock, no build step — open `index.html` and play forever.
 
 Inspiration: [Krillion](https://krillion.me/)'s "rarer answer = deeper dive = more points" loop, reskinned from an ocean/submarine theme to an earth/soil-strata theme, and narrowed from general trivia to geography only.
 
@@ -37,12 +37,12 @@ The original brief describes the shape of the game but leaves several mechanics 
 
 | modifier | example prompt | applies to | source of truth |
 |---|---|---|---|
-| region | "Name a country in Southeast Asia." | country, capital | `region` tags (Section 6) |
+| region | "Name a country in Southeast Asia." / "Name a city in the Caribbean." | country, capital, city | `region` tags (Section 6); a city's are its country's. A city region prompt is only offered where ≥ 6 cities carry the tag (v1.2) |
 | theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | any | `src/data/themes.js`, hand-curated; plus derived themes in `promptBank.js` (v1.2) |
 | ocean | "Name an island in the Pacific Ocean." | island, sea_ocean | `oceans` field, derived from coordinates (Section 4) |
-| flag | "Name a country whose flag has green in it." / "…has both black and red in it." / "Name the capital of a country whose flag has green in it." | country, capital | `flag` field, hand-authored in `scripts/data-flags.mjs`; a capital inherits its country's (v1.2) |
+| flag | "Name a country whose flag has green in it." / "…has both black and red in it." / "Name the capital of a country whose flag has green in it." / "Name a city in a country whose flag has green in it." | country, capital, city | `flag` field, hand-authored in `scripts/data-flags.mjs`; a capital or city inherits its country's (v1.2) |
 | size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | any | `size` field |
-| letter | "Name a river with a T in it." / "…that starts with M." / "…with a double letter." | any | the entry's name |
+| letter | "Name a river with a T in it." / "…that starts with M." / "…with a double letter." | any | the entry's name and aliases, except initialisms (NYC, UAE) |
 
 A modifier narrows what is **accepted**, never how an answer scores (3.2). Size thresholds are inclusive both ways ("larger than 100,000 km²" and "smaller than 100,000 km²" both accept a desert listed at exactly 100,000 — round figures are rounded figures). Where reputable figures disagree an entry carries a `sizeRange` (authored as `lo-hi` in the size column: the Amur is `2824-4444`, with or without the Argun; the Ob `3650-5410` with the Irtysh; the Mississippi `3766-6275` with the Missouri) and a threshold prompt accepts either end — the Amur answers both "longer than 3,000 km" and "shorter than 3,000 km". A generated modifier (size, letter, ocean, flag) is only used when at least 6 entries satisfy it and — for size, letter and flag — it rules out at least 40% of the category; otherwise the slot falls back to plain. (So "has red in it", true of 79% of flags, is never asked on its own, but "has both red and black in it" is.) A flag rule is one colour or a pair from the palette `red white blue green yellow black orange`; colours are read **generously** — an emblem's colours count, gold is yellow, maroon is red, light blue is blue — because an over-inclusive row can at worst accept a debatable answer while a missing colour rejects a correct one. Only positive flag prompts are generated for the same reason. Curated themes may be deliberately tight (Mesopotamia has two rivers) and are used with as few as 2 members. A **derived theme** (v1.2) is the complement of a curated one: `coastal` is every country not in `landlocked`, computed at load time so the two lists can never disagree. It carries its own prompt text ("Name a country with a coastline.") and, because its name is not a place, a miss gets the generic "doesn't fit this one" hint rather than "isn't in coastal". Letter rules ("with a T in it", "starts with M", "ends in A", "double letter") look only at the name and aliases with the generic English words ("mount", "lake", "the", "river", "island"…) removed: those are not part of the name, so "Mount Fuji" has no T in it and does not start with M, "Lake Baikal" starts with B (not L), and "Nile" does not get a T from its alias "the Nile" (v1.2; v1.1 also counted the name as displayed). A word that *is* the name stays, even if it means "lake" in another language: "Loch Ness" starts with L, "Saint Lucia" starts with S, "Cape Verde" starts with C (`LETTER_FILLER` in `promptBank.js` is the matcher's filler list minus loch/lough/llyn/saint/st/cape). A **country's, capital's or sea's** name is its official name, generic words and all — the Solomon Islands have a D in them, Port of Spain has an F, Mexico City ends in Y, the Black Sea ends in A — so for those three categories only a leading "the" is dropped (`NAME_FILLER`, `WHOLE_NAME_CATEGORIES`). The two *length* rules ("short name", "long name") are judged on **the spelling the player actually used**: an entry is in the prompt's lookup if any of its spellings would do, and then the typed one has to (`judgeTyped` on the prompt, checked in `run.js`). So "China" is five letters and "People's Republic of China" is 22, and each counts for what it is; "Mount Kilimanjaro" is long and "Kilimanjaro" is not; "Fuji" and "Ness" are short. A spelling-corrected answer is judged, and shown, as the spelling it was corrected to. The miss hint says how many letters were given: "Kilimanjaro is 11 letters — this round wants 12 letters or more." A digit is a character like any other: K2 is two characters, starts with K, has a K in it, and does not end in K.
 
@@ -64,7 +64,7 @@ A modifier narrows what is **accepted**, never how an answer scores (3.2). Size 
 
 Substring matching is never performed.
 
-**3.8 Prompt draw algorithm (15 prompts per run, v1.2):** shuffle the 8 categories; the first two become the **opening** — two distinct categories, always plain (no modifier) (`OPENING_ROUNDS = 2`; three until 2026-09-12). Shuffle a second copy of the 8, drop its last entry, and shuffle the remaining 6 + 7 = 13 slots after the opening. Every category still appears at least once and at most twice per run. For rounds 3–15 the chance of a modifier ramps linearly from 70% to 100% (v1.2; v1.1 was 40%→90%), so in practice about 11.4 of the 15 rounds are conditional; the modifier is drawn from those available to the category (3.1a). **No two rounds may show identical prompt text**: a slot whose text would repeat an earlier one is re-drawn (a category's second appearance therefore always reads differently from its first), falling back to a letter rule if needed. Region scoping is only offered for regions carrying ≥6 countries.
+**3.8 Prompt draw algorithm (15 prompts per run, v1.2):** shuffle the 9 categories (8 before the city category, v1.2); the first two become the **opening** — two distinct categories, always plain (no modifier) (`OPENING_ROUNDS = 2`; three until 2026-09-12). Shuffle a second copy and keep the first `ROUNDS_PER_RUN − 9 = 6` of it, then shuffle the remaining 7 + 6 = 13 slots after the opening. Every category still appears at least once and at most twice per run (six of the nine twice). For rounds 3–15 the chance of a modifier ramps linearly from 70% to 100% (v1.2; v1.1 was 40%→90%), so in practice about 11.4 of the 15 rounds are conditional; the modifier is drawn from those available to the category (3.1a). **No two rounds may show identical prompt text**: a slot whose text would repeat an earlier one is re-drawn (a category's second appearance therefore always reads differently from its first), falling back to a letter rule if needed. Region scoping is only offered for regions carrying ≥6 countries.
 
 **3.9 Depth is cumulative across the run; strata are fixed bands over total depth, not per-round tiers.** See Section 5.2 — this is what makes "Depth strata across the 15-round range" literal: a run's total accumulated depth (0 up to a max of 1,500 units, v1.2) is what determines which of the 7 named strata the worm is currently shown in, round by round.
 
@@ -78,12 +78,12 @@ Substring matching is never performed.
 
 ## 4. Data model
 
-Every prompt-bank entry, across all 8 category files, shares this shape:
+Every prompt-bank entry, across all 9 category files, shares this shape:
 
 ```jsonc
 {
   "id": "country-egypt",            // unique, stable, kebab-case: "<category>-<slug>"
-  "category": "country",             // one of the 8 category keys (Section 6)
+  "category": "country",             // one of the 9 category keys (Section 6)
   "name": "Egypt",                   // canonical display/accepted answer
   "aliases": [],                     // additional accepted strings, US-spelling only
   "magnitude": 162000,               // SCORING stat (Section 5.1): typical monthly Wikipedia pageviews; must be > 0
@@ -93,16 +93,17 @@ Every prompt-bank entry, across all 8 category files, shares this shape:
   "size": 112716598,                 // the physical stat: population | area (km2) | length (km) | elevation (m)
   "sizeRange": [2824, 4444],         // optional, [lo, hi] where sources disagree; size === lo; either end satisfies a threshold
   "sizeUnit": "population",          // population | population_of_country | area_km2 | length_km | elevation_m
-  "region": ["Africa", "North Africa"], // country/capital only: continent + optional sub-region tags
+  "region": ["Africa", "North Africa"], // country/capital/city only: continent + optional sub-region tags
+  "country": "France",               // capital/city only: the country row the entry inherits region and flag from
   "oceans": ["Pacific"],             // island/sea_ocean only: Pacific | Atlantic | Indian | Arctic | Southern; [] only by explicit override
-  "flag": ["red", "white", "black", "yellow"], // country only: colours on the flag, from a fixed palette (3.1a); read generously
+  "flag": ["red", "white", "black", "yellow"], // country (and, inherited, capital/city): colours on the flag, from a fixed palette (3.1a); read generously
   "source": "..."                    // provenance note, not shown in-game
 }
 ```
 
 `magnitude` is the median of 60 daily English-Wikipedia view counts, scaled to a 30.44-day month, fetched by `scripts/fetch-pageviews.mjs` and committed as `src/data/pageviews.json` (the game never touches the network). `oceans` is derived from `lat`/`lon` by `scripts/data-oceans.mjs` with an explicit override table; the validator rejects any island or sea with no ocean and no override. The page loads `src/data/bank.js`, a generated `<script>` bundle carrying only the runtime fields (`id, category, name, aliases, magnitude, size, region, oceans, flag`). `flag` is authored by hand in `scripts/data-flags.mjs`, one row per country, and the build fails if any country lacks a row or any row names no country (v1.2).
 
-- `region` is present only on `country` and `capital` entries (both keyed off the same country list — a capital entry inherits its country's region tags). A capital's `magnitude` is its **own** article's pageviews (v1.1), not its country's; its `size` is the country population.
+- `region` is present only on `country`, `capital` and `city` entries (all keyed off the same country list — a capital or city entry inherits its country's region tags). A capital's `magnitude` is its **own** article's pageviews (v1.1), not its country's; its `size` is the country population.
 - `aliases` must never contain a string that would also match a *different* entry's canonical name in the same category (validated by the M5 validation script — see Section 6.4).
 - `magnitude` and `size` must be strictly positive; an entry whose article returns no pageviews is a build error, never a zero (a zero would score as maximally obscure).
 
@@ -177,7 +178,7 @@ Given raw player input and the current prompt's category cohort:
 
 ## 6. Content bank: categories, targets, and sourcing rules
 
-Eight categories, each a JSON file under `src/data/` (schema: Section 4), each prompt rendered with fixed copy (no per-entry prompt text — the category alone determines the sentence):
+Nine categories (eight at v1.0–1.1; `city` added v1.2), each a JSON file under `src/data/` (schema: Section 4), each prompt rendered with fixed copy (no per-entry prompt text — the category alone determines the sentence):
 
 Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4). The "size stat" column is the physical figure kept as `size`, used by size-threshold prompts (3.1a). Plain prompts are shown; modifiers (3.1a) vary the wording.
 
@@ -185,6 +186,7 @@ Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4).
 |---|---|---|---|---|
 | `country` | "Name a country." | ~195 (all UN-recognized + commonly-taught non-UN states) | 197 | population |
 | `capital` | "Name a capital city." | ~195 (one per country above) | 197 + 50 US state capitals (`us-state-capitals.json` feeds the same cohort, v1.2) | population *of the country* (`population_of_country`; the US population for a state capital) |
+| `city` (v1.2) | "Name a city that isn't a national capital." | 150+ | see `cities.json` | population of the city proper |
 | `lake` | "Name a lake." | 70–100 | 119 | surface area (km²) |
 | `river` | "Name a river." | 70–100 | 130 | length (km) |
 | `mountain` | "Name a mountain." | 60–90 well-known peaks | 125 | elevation (m) |
@@ -196,6 +198,8 @@ Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4).
 **Region list for country prompts (3.8):** `Africa`, `Asia`, `Europe`, `North America`, `South America`, `Oceania` (continent-level, always usable) plus sub-regions used only when they have ≥6 tagged countries: `West Africa`, `East Africa`, `North Africa`, `Southern Africa`, `Middle East`, `South Asia`, `Southeast Asia`, `East Asia`, `Central Asia`, `Caribbean`, `Central America`, `Eastern Europe`, `Western Europe`, `Scandinavia & the Nordics`. Every country entry carries `region: [continent, ...subregions]`.
 
 **6.0 Themes (v1.1).** `src/data/themes.js` holds hand-curated sets used by the theme modifier, listed by in-game name and resolved at load time: rivers (Mesopotamia, the British Isles, Siberia, continents, India), mountains (the Alps, the Himalayas, the Andes, the Rockies, Scotland, England or Wales, Indonesia, volcanoes), islands (the Caribbean, the Mediterranean, Greece, Hawaii, Scotland, Japan, Indonesia), lakes (saltwater, the Great Lakes, Africa, the Alps, the British Isles, Scandinavia), deserts and seas by continent, and countries (landlocked, island nations, and — derived from landlocked, not listed — coastal), and capitals (v1.2: *not the largest city* — 42 capitals that are not their country's largest city, read generously; *on the coast* — capitals on a sea, bay or open tidal estuary; *US state capitals* — all fifty). A theme with its own prompt text is not a place, so a miss on it gets the generic "doesn't fit this one" hint rather than "isn't in volcanoes". Because a themed prompt *rejects* answers outside its set, sets must be complete for their well-known members; the validator fails on any listed name that is not in the bank. Ocean membership is deliberately **not** a theme — it is derived data (Section 4) so that no island can be left off a list.
+
+**6.0a Cities (v1.2).** The `city` cohort is **non-capital cities**: a city that is its own country's national capital is refused by the build and the validator, and the plain prompt says so ("Name a city that isn't a national capital."). This keeps "Name a city" and "Name a capital city" different games; Paris on a city round gets "Paris is a capital city — this round wants a city that isn't a capital." US state capitals that are major cities (Phoenix, Boston, Denver…) *are* cities — the exclusion is national capitals only. A city is authored in `scripts/data-cities.mjs` as `Name|Country|population|aliases`; the country must be a row of `data-countries.mjs`, and the city inherits its region tags and flag colours, so region, flag, size, letter and theme prompts all apply. `size` is the population of the city proper (administrative city), consistently, not the metro area. One curated theme, *the largest city of its country* (Istanbul, Sydney, Mumbai, Lagos, São Paulo, New York…), with the prompt "Name the largest city of a country that isn't its capital." Sourcing rule for the list: the obvious world cities first, then second and third cities of most countries, famous small cities, and real obscure large ones — obscurity is welcome, fabrication is not (6.1).
 
 **6.1 No fabricated place names — hard rule.** Every entry must be a real, currently-recognized place with a real, sourced magnitude figure. Made-up names, jokey placeholders, or "TBD" entries are never committed, not even temporarily — a milestone that isn't ready to add real data for a slot leaves that slot's count lower rather than fill it with a placeholder.
 
@@ -240,7 +244,7 @@ wormillion/
       jackpot.js        # the ONE IN WORMILLION confetti/lightning burst (3.12); canvas only, no `document`
       ui.js             # DOM rendering + event wiring; the only file allowed to touch `document`
     data/
-      countries.json … seas-oceans.json   # Section 4 schema, generated by scripts/build-data.mjs
+      countries.json … seas-oceans.json, cities.json   # Section 4 schema, generated by scripts/build-data.mjs
       pageviews.json    # the Wikipedia snapshot (views, title, coordinates) the build folds in
       bank.js           # generated <script> bundle of the runtime fields - what the page loads
       themes.js         # hand-curated theme sets (6.0)
@@ -250,6 +254,7 @@ wormillion/
     data-oceans.mjs       # ocean classification boxes + overrides
     data-flags.mjs        # flag colours per country, hand-authored (3.1a)
     data-us-states.mjs    # the 50 US state capitals, feeding the capital cohort (6)
+    data-cities.mjs       # non-capital cities, Name|Country|population|aliases; region + flag inherited (6.0a)
     data-un-members.mjs   # the audit list for 6.4
     build-data.mjs        # emits src/data/*; exports buildFiles() for the fetcher
     fetch-pageviews.mjs   # refreshes pageviews.json (network; cached under scripts/.cache/)
@@ -427,5 +432,7 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | Points step at the jackpot bar the way the dig does: a flat 950 for 85–99%, 1000 for 100% (the curve pays 807 just under the bar). | 3.10, 5.1 |
 | 1.2 | The big island nations answer as islands: Japan, the Philippines, Indonesia and New Zealand as entries of their own (one country, one archipelago; scored on the country article like the Bahamas); the United Kingdom, Papua New Guinea and Brunei as aliases on Great Britain, New Guinea and Borneo (as Haiti is on Hispaniola). "Japan" on "Name an island in Japan" gets "Japan is all of it — this round wants a single island in Japan." Bank is 1,393 entries. | 6 |
 | 1.2 | Two plain opening rounds instead of three (`OPENING_ROUNDS`); the ramp now runs over rounds 3–15, ~11.4 conditional rounds per run. | 3.8 |
+| 1.2 | **Ninth category: `city`** — 275 non-capital cities (`scripts/data-cities.mjs`), region and flag inherited from the country, city-proper population for size prompts (500k/1M/5M/10M), one theme (*largest in its country*), a skyline icon. The plain prompt is "Name a city that isn't a national capital."; Paris on a city round gets "Paris is a capital city — this round wants a city that isn't a capital." City region prompts are only drawn where ≥ 6 cities carry the tag. The draw is 9 + 6 = 15. Bank is 1,668 entries. | 3.1a, 3.8, 4, 6, 6.0a, 7 |
+| 1.2 | Initialism aliases (NYC, LA, HK, UAE, DRC…) are for typing only: letter and length rules ignore them, so New York City does not "end in C". | 3.1a |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.

@@ -74,6 +74,14 @@ test('the validator actually catches the things it claims to', async () => {
   assert.ok(validate({ 'a.json': [{ ...entry, size: 10, sizeRange: [40, 10] }] }).errors.some((e) => e.includes('sizeRange')));
   assert.ok(validate({ 'a.json': [{ ...entry, size: 12, sizeRange: [10, 40] }] }).errors.some((e) => e.includes('sizeRange')));
 
+  // A city must belong to a country and must not be that country's capital.
+  const paris = { ...entry, id: 'capital-paris', category: 'capital', name: 'Paris', region: ['Europe'], country: 'France' };
+  const lyon = { ...entry, id: 'city-lyon', category: 'city', name: 'Lyon', region: ['Europe'], country: 'France', flag: ['blue', 'white', 'red'] };
+  assert.deepStrictEqual(validate({ 'a.json': [paris, lyon] }).errors, []);
+  assert.ok(validate({ 'a.json': [paris, { ...lyon, id: 'city-paris', name: 'Paris' }] }).errors.some((e) => e.includes('excludes capitals')));
+  assert.ok(validate({ 'a.json': [{ ...lyon, country: undefined }] }).errors.some((e) => e.includes('needs a country')));
+  assert.ok(validate({ 'a.json': [{ ...lyon, region: [] }] }).errors.some((e) => e.includes('region')));
+
   // A capital's flag is optional, but wrong if present.
   const capital = { ...entry, id: 'capital-x', category: 'capital', name: 'X City', region: ['Europe'] };
   assert.deepStrictEqual(validate({ 'a.json': [capital] }).errors, []);

@@ -16,7 +16,7 @@ import { FLAG_COLOURS } from './data-flags.mjs';
 
 const DATA_DIR = fileURLToPath(new URL('../src/data/', import.meta.url));
 
-export const CATEGORIES = ['country', 'capital', 'lake', 'river', 'mountain', 'desert', 'island', 'sea_ocean'];
+export const CATEGORIES = ['country', 'capital', 'city', 'lake', 'river', 'mountain', 'desert', 'island', 'sea_ocean'];
 
 export const REGIONS = new Set([
   'Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania',
@@ -28,7 +28,7 @@ export const REGIONS = new Set([
 
 export const TARGETS = {
   country: 195, capital: 195, lake: 70, river: 70,
-  mountain: 100, desert: 30, island: 70, sea_ocean: 60
+  mountain: 100, desert: 30, island: 70, sea_ocean: 60, city: 150
 };
 
 // The scoring magnitude is always monthly Wikipedia pageviews now; the physical
@@ -82,7 +82,7 @@ export function validate(files) {
       if (ids.has(entry.id)) errors.push(`${where}: duplicate id (also in ${ids.get(entry.id)})`);
       ids.set(entry.id, file);
 
-      if (entry.category === 'country' || entry.category === 'capital') {
+      if (entry.category === 'country' || entry.category === 'capital' || entry.category === 'city') {
         if (!Array.isArray(entry.region) || entry.region.length === 0) {
           errors.push(`${where}: ${entry.category} needs a non-empty region array`);
         } else {
@@ -158,6 +158,19 @@ export function validate(files) {
       if (resolved.has(bare) || new Set(list.map((c) => c.id)).size < 2) continue;
       const who = list.map((c) => `${c.id} (via "${c.candidate}")`).join(' and ');
       errors.push(`[${category}] typing "${bare}" identifies nobody: claimed by ${who}`);
+    }
+  }
+
+  // The city cohort is "cities that aren't national capitals", and the prompt
+  // says so; a city that is its own country's capital would make it a lie.
+  const nationalCapitals = new Map(); // country -> normalized capital name
+  for (const entry of cohorts.get('capital') || []) {
+    if (entry.country && !entry.state) nationalCapitals.set(entry.country, normalize(entry.name));
+  }
+  for (const entry of cohorts.get('city') || []) {
+    if (!entry.country) errors.push(`[city] ${entry.id}: needs a country`);
+    else if (nationalCapitals.get(entry.country) === normalize(entry.name)) {
+      errors.push(`[city] ${entry.id}: is the capital of ${entry.country}; the city cohort excludes capitals`);
     }
   }
 

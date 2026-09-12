@@ -191,7 +191,29 @@ export const WIKI_TITLES = {
   'island-sal': 'Sal, Cape Verde',
   'island-boa-vista': 'Boa Vista, Cape Verde',
   'island-phuket': 'Phuket Island',
-  'island-koh-samui': 'Ko Samui'
+  'island-koh-samui': 'Ko Samui',
+
+  // --- cities (2026-09-12): city names are the most-shared names on Wikipedia ---
+  'city-kano': 'Kano (city)',
+  'city-fez': 'Fez, Morocco',
+  'city-jinja': 'Jinja, Uganda',
+  'city-beira': 'Beira, Mozambique',
+  'city-livingstone': 'Livingstone, Zambia',
+  'city-george-town': 'George Town, Penang',
+  'city-cork': 'Cork (city)',
+  'city-split': 'Split, Croatia',
+  'city-phoenix': 'Phoenix, Arizona',
+  'city-austin': 'Austin, Texas',
+  'city-leon': 'León, Guanajuato',
+  'city-puebla': 'Puebla (city)',
+  'city-oaxaca': 'Oaxaca City',
+  'city-santa-ana': 'Santa Ana, El Salvador',
+  'city-san-fernando': 'San Fernando, Trinidad and Tobago',
+  'city-freeport': 'Freeport, Bahamas',
+  'city-salvador': 'Salvador, Bahia',
+  'city-cartagena': 'Cartagena, Colombia',
+  'city-cordoba': 'Córdoba, Argentina',
+  'city-darwin': 'Darwin, Northern Territory'
 };
 
 /**
@@ -296,5 +318,8 @@ export const WIKI_VERIFIED = new Set([
   'island-micronesia',
   'sea_ocean-dead-sea', // "Salt lake in the Levant" - everyone calls it a sea
   'sea_ocean-gulf-of-saint-lawrence',
-  'sea_ocean-chesapeake-bay'
+  'sea_ocean-chesapeake-bay',
+  // --- cities whose description is not "city" (2026-09-12) ---
+  'city-hong-kong', // "Special administrative region of China" - a city by any measure
+  'city-entebbe' // "Place in Central Uganda" - a town of 70,000 with the airport
 ]);

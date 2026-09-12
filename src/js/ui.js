@@ -297,9 +297,9 @@
           'warn'
         );
       } else if (result.elsewhere) {
-        const { NOUN, ARTICLE } = W.promptBank;
+        const { NOUN, ARTICLE, wantsPhrase } = W.promptBank;
         const is = NOUN[result.elsewhere.category];
-        const wants = NOUN[run.prompt().category];
+        const wants = wantsPhrase(run.prompt().category);
         setFeedback(
           `${result.elsewhere.entry.name} is ${ARTICLE(is)} ${is} — this round wants ${ARTICLE(wants)} ${wants}.`,
           'warn'

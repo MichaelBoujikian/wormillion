@@ -55,6 +55,20 @@
       '.kkkkkkkkk..',
       '............'
     ],
+    city: [
+      '.....kkk....',
+      '....kNNNk...',
+      '....kNyNk...',
+      '.kkkkNNNk...',
+      '.kNNkNyNk...',
+      '.kNykNNNkkkk',
+      '.kNNkNyNkNNk',
+      '.kNykNNNkNyk',
+      '.kNNkNyNkNNk',
+      '.kNykNNNkNyk',
+      '.kkkkkkkkkkk',
+      '............'
+    ],
     lake: [
       '............',
       '...kkkkkk...',

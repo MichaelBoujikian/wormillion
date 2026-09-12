@@ -21,6 +21,7 @@ import { LAKES, RIVERS, MOUNTAINS, MINOR_PEAKS, DESERTS, ISLANDS, SEAS_OCEANS } 
 import { oceansFor } from './data-oceans.mjs';
 import { flagsByCountry } from './data-flags.mjs';
 import { US_STATE_CAPITALS, US_POPULATION } from './data-us-states.mjs';
+import { CITIES, CITIES_SOURCE } from './data-cities.mjs';
 
 const OUT = fileURLToPath(new URL('../src/data/', import.meta.url));
 
@@ -69,6 +70,9 @@ const POP_SOURCE = 'UN World Population Prospects / World Bank 2023-24 estimate 
 export function buildFiles() {
 const countries = [];
 const capitals = [];
+// What a city inherits from its country: region tags, flag colours, and the
+// name of the capital it must not be.
+const countryByName = new Map();
 // Flag colours are authored in their own file, keyed by country name; every
 // country must have a row and every row must name a country.
 const flags = flagsByCountry();
@@ -81,6 +85,7 @@ for (const line of lines(COUNTRIES)) {
   const flag = flags.get(name.trim());
   if (!flag) throw new Error(`data-flags.mjs has no row for ${name.trim()}`);
   unusedFlags.delete(name.trim());
+  countryByName.set(name.trim(), { regions, flag, capital: capital.trim() });
 
   countries.push({
     id: `country-${slug(name)}`,
@@ -131,10 +136,38 @@ const stateCapitals = lines(US_STATE_CAPITALS).map((line) => {
 });
 if (unusedFlags.size) throw new Error(`data-flags.mjs rows that match no country: ${[...unusedFlags].join(', ')}`);
 
+// --- cities: non-capital cities, inheriting region and flag from the country -
+// A city's country must be a country row (that is where its region tags and
+// flag come from) and the city must not be that country's capital: the cohort
+// is "cities that aren't capitals" and the prompt says so.
+const cityNames = new Set();
+const cities = lines(CITIES).map((line) => {
+  const [name, country, pop, aliases] = line.split('|').map((s) => (s || '').trim());
+  const home = countryByName.get(country);
+  if (!home) throw new Error(`data-cities.mjs: "${name}" names a country not in data-countries.mjs: "${country}"`);
+  if (slug(name) === slug(home.capital)) throw new Error(`data-cities.mjs: "${name}" is the capital of ${country}; the city cohort excludes capitals`);
+  if (cityNames.has(slug(name))) throw new Error(`data-cities.mjs: "${name}" listed twice`);
+  cityNames.add(slug(name));
+  if (!(Number(pop) > 0)) throw new Error(`data-cities.mjs: "${name}" needs a population`);
+  return {
+    id: `city-${slug(name)}`,
+    category: 'city',
+    name,
+    aliases: list(aliases),
+    size: Number(pop),
+    sizeUnit: 'population',
+    region: home.regions,
+    country,
+    flag: home.flag, // "Name a city in a country whose flag has green in it."
+    source: `${CITIES_SOURCE}; in ${country}`
+  };
+});
+
 return {
   'countries.json': countries,
   'capitals.json': capitals,
   'us-state-capitals.json': stateCapitals,
+  'cities.json': cities,
   'lakes.json': simple(LAKES, 'lake', 'area_km2', 'Standard reference surface-area figures (km2), rounded'),
   'rivers.json': simple(RIVERS, 'river', 'length_km', 'Standard reference lengths (km); one figure picked per river, see Spec 6.2'),
   'mountains.json': simple(MOUNTAINS, 'mountain', 'elevation_m', 'Standard reference summit elevations (m)'),

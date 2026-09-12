@@ -16,6 +16,18 @@ const entry = (category, name, magnitude, extra = {}) => ({
 
 const EUROPE = ['Europe', 'Western Europe'];
 const RAW = {
+  cities: [
+    entry('city', 'Lyon', 40000, { size: 520000, region: EUROPE, country: 'France', flag: ['blue', 'white', 'red'] }),
+    entry('city', 'Marseille', 45000, { size: 870000, region: EUROPE, country: 'France', flag: ['blue', 'white', 'red'] }),
+    entry('city', 'Munich', 60000, { size: 1500000, region: EUROPE, country: 'Germany', flag: ['black', 'red', 'yellow'] }),
+    entry('city', 'Hamburg', 50000, { size: 1900000, region: EUROPE, country: 'Germany', flag: ['black', 'red', 'yellow'] }),
+    entry('city', 'Barcelona', 90000, { size: 1600000, region: EUROPE, country: 'Spain', flag: ['red', 'yellow'] }),
+    entry('city', 'Milan', 70000, { size: 1400000, region: EUROPE, country: 'Italy', flag: ['green', 'white', 'red'] }),
+    entry('city', 'Cork', 12000, { size: 220000, region: EUROPE, country: 'Ireland', flag: ['green', 'white', 'orange'] }),
+    entry('city', 'Mumbai', 150000, { size: 12500000, region: ['Asia', 'South Asia'], country: 'India', flag: ['orange', 'white', 'green', 'blue'] }),
+    entry('city', 'Shanghai', 140000, { size: 24900000, region: ['Asia', 'East Asia'], country: 'China', flag: ['red', 'yellow'] }),
+    entry('city', 'Mombasa', 9000, { size: 1200000, region: ['Africa', 'East Africa'], country: 'Kenya', flag: ['black', 'red', 'green', 'white'] })
+  ],
   countries: [
     entry('country', 'France', 250000, { size: 68000000, region: EUROPE, flag: ['blue', 'white', 'red'] }),
     entry('country', 'Germany', 240000, { size: 83000000, region: EUROPE, flag: ['black', 'red', 'yellow'] }),
@@ -205,7 +217,7 @@ test('the run keeps its shape: 15 rounds, every category once or twice', () => {
     assert.strictEqual(slots.length, 15);
     const counts = new Map();
     for (const s of slots) counts.set(s.category, (counts.get(s.category) || 0) + 1);
-    assert.strictEqual(counts.size, 8, `seed ${seed}`);
+    assert.strictEqual(counts.size, 9, `seed ${seed}`);
     for (const [c, n] of counts) assert.ok(n <= 2, `seed ${seed}: ${c} x${n}`);
   }
 });
@@ -384,12 +396,16 @@ test('a flag rule accepts a country whose flag carries every listed colour', () 
 
 test('drawn flag rules leave enough answers and rule enough out (shipped bank)', () => {
   const shipped = loadShippedBank();
-  const cohort = shipped.cohorts.get('country');
   let drawn = 0;
+  const drawnFor = new Set();
   for (let seed = 1; seed <= 300; seed++) {
     for (const slot of shipped.drawSlots(seeded(seed))) {
       if (!slot.flag) continue;
       drawn += 1;
+      drawnFor.add(slot.category);
+      // Judged against the cohort the rule was drawn for: India alone puts a
+      // dozen cities behind "blue and orange", but only four countries.
+      const cohort = shipped.cohorts.get(slot.category);
       const n = cohort.entries.filter((entry) => promptBank.satisfiesFlag(entry, slot.flag)).length;
       assert.ok(n >= promptBank.MIN_ELIGIBLE, `${slot.flag.colours}: only ${n} answers`);
       assert.ok(n <= cohort.entries.length * 0.6, `${slot.flag.colours}: ${n} answers barely narrows the field`);
@@ -397,6 +413,7 @@ test('drawn flag rules leave enough answers and rule enough out (shipped bank)',
     }
   }
   assert.ok(drawn > 0, 'expected some flag prompts across 300 runs');
+  assert.deepStrictEqual([...drawnFor].sort(), ['capital', 'city', 'country'], 'every cohort with flags gets flag prompts');
 });
 
 test('flag colours are read generously in the shipped data', () => {
@@ -539,6 +556,55 @@ test('audit fixes hold in the shipped data', () => {
   assert.strictEqual(long.submit('Jamaica Island').status, 'wrong-scope', 'typed filler finds Jamaica, which is not eligible');
   assert.strictEqual(named({ category: 'island' }, 'Cuba Island'), 'Cuba');
   assert.strictEqual(named({ category: 'mountain' }, 'Mount Denali'), 'Denali');
+});
+
+test('cities are a cohort of non-capitals, and every prompt says so (shipped bank)', () => {
+  const shipped = loadShippedBank();
+  const submit = (slot, name) => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = slot;
+    return run.submit(name);
+  };
+  const text = (slot) => shipped.promptFor(slot).text;
+
+  assert.strictEqual(text({ category: 'city' }), "Name a city that isn't a national capital.");
+  assert.strictEqual(shipped.promptFor({ category: 'city' }).label, 'City (not a capital)');
+  assert.strictEqual(text({ category: 'city', region: 'Caribbean' }), 'Name a city in the Caribbean.');
+  assert.strictEqual(text({ category: 'city', size: { op: 'over', value: 5000000 } }), 'Name a city with a population over 5 million.');
+  assert.strictEqual(text({ category: 'city', flag: { colours: ['green'] } }), 'Name a city in a country whose flag has green in it.');
+  assert.strictEqual(text({ category: 'city', theme: 'largest in its country' }), "Name the largest city of a country that isn't its capital.");
+
+  // Cities, big state capitals, cities that share a name with a capital elsewhere.
+  for (const name of ['New York', 'Sao Paulo', 'Mumbai', 'Phoenix', 'Cape Town', 'Timbuktu']) {
+    assert.strictEqual(submit({ category: 'city' }, name).status, 'accepted', name);
+  }
+  // A national capital is a real place from another category, named as such.
+  const paris = submit({ category: 'city' }, 'Paris');
+  assert.strictEqual(paris.status, 'unrecognized');
+  assert.strictEqual(paris.elsewhere.category, 'capital');
+  assert.strictEqual(promptBank.wantsPhrase('city'), "city that isn't a capital");
+  // ...and a city on a capital round is nudged the other way.
+  assert.strictEqual(submit({ category: 'capital' }, 'Lagos').elsewhere.category, 'city');
+
+  // Region, size, flag and theme all narrow the cohort.
+  assert.strictEqual(submit({ category: 'city', region: 'South America' }, 'Guayaquil').status, 'accepted');
+  assert.strictEqual(submit({ category: 'city', region: 'South America' }, 'Lagos').status, 'wrong-scope');
+  assert.strictEqual(submit({ category: 'city', size: { op: 'over', value: 10000000 } }, 'Shanghai').status, 'accepted');
+  assert.strictEqual(submit({ category: 'city', size: { op: 'over', value: 10000000 } }, 'Cork').status, 'wrong-scope');
+  assert.strictEqual(submit({ category: 'city', flag: { colours: ['green'] } }, 'Lagos').status, 'accepted', 'Nigeria');
+  assert.strictEqual(submit({ category: 'city', theme: 'largest in its country' }, 'Istanbul').status, 'accepted');
+  assert.strictEqual(submit({ category: 'city', theme: 'largest in its country' }, 'Milan').status, 'wrong-scope', 'Rome is larger');
+
+  // A city region prompt is only ever drawn where at least MIN_ELIGIBLE cities live.
+  let regionDraws = 0;
+  for (let seed = 1; seed <= 300; seed++) {
+    for (const slot of shipped.drawSlots(seeded(seed))) {
+      if (slot.category !== 'city' || !slot.region) continue;
+      regionDraws += 1;
+      assert.ok(shipped.promptFor(slot).lookup.size >= promptBank.MIN_ELIGIBLE, `${slot.region}: ${shipped.promptFor(slot).lookup.size} cities`);
+    }
+  }
+  assert.ok(regionDraws > 0);
 });
 
 test('the big island nations answer as islands (shipped bank)', () => {

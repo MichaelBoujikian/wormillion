@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-12",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-12T22:59:38.482Z",
+ "fetched": "2026-09-12T23:37:03.425Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -3111,6 +3111,1931 @@
    "days": 60,
    "lat": 41.14,
    "lon": -104.82027778
+  },
+  "city-lagos": {
+   "title": "Lagos",
+   "monthlyViews": 53118,
+   "days": 60,
+   "lat": 6.45611111,
+   "lon": 3.39361111
+  },
+  "city-kano": {
+   "title": "Kano (city)",
+   "monthlyViews": 10258,
+   "days": 60,
+   "lat": 12,
+   "lon": 8.51666667
+  },
+  "city-ibadan": {
+   "title": "Ibadan",
+   "monthlyViews": 9345,
+   "days": 60,
+   "lat": 7.39638889,
+   "lon": 3.91666667
+  },
+  "city-port-harcourt": {
+   "title": "Port Harcourt",
+   "monthlyViews": 8006,
+   "days": 60,
+   "lat": 4.82416667,
+   "lon": 7.03361111
+  },
+  "city-benin-city": {
+   "title": "Benin City",
+   "monthlyViews": 7914,
+   "days": 60,
+   "lat": 6.33333333,
+   "lon": 5.62222222
+  },
+  "city-kumasi": {
+   "title": "Kumasi",
+   "monthlyViews": 7336,
+   "days": 60,
+   "lat": 6.7,
+   "lon": -1.625
+  },
+  "city-abidjan": {
+   "title": "Abidjan",
+   "monthlyViews": 19847,
+   "days": 60,
+   "lat": 5.31666667,
+   "lon": -4.03333333
+  },
+  "city-timbuktu": {
+   "title": "Timbuktu",
+   "monthlyViews": 37319,
+   "days": 60,
+   "lat": 16.77583333,
+   "lon": -3.00944444
+  },
+  "city-bobo-dioulasso": {
+   "title": "Bobo-Dioulasso",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 11.18333333,
+   "lon": -4.28333333
+  },
+  "city-cotonou": {
+   "title": "Cotonou",
+   "monthlyViews": 8006,
+   "days": 60,
+   "lat": 6.36666667,
+   "lon": 2.43333333
+  },
+  "city-touba": {
+   "title": "Touba",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 14.86666667,
+   "lon": -15.88333333
+  },
+  "city-serekunda": {
+   "title": "Serekunda",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 13.445,
+   "lon": -16.675
+  },
+  "city-alexandria": {
+   "title": "Alexandria",
+   "monthlyViews": 56314,
+   "days": 60,
+   "lat": 31.1975,
+   "lon": 29.8925
+  },
+  "city-giza": {
+   "title": "Giza",
+   "monthlyViews": 12907,
+   "days": 60,
+   "lat": 29.987,
+   "lon": 31.2118
+  },
+  "city-luxor": {
+   "title": "Luxor",
+   "monthlyViews": 17290,
+   "days": 60,
+   "lat": 25.69666667,
+   "lon": 32.64444444
+  },
+  "city-aswan": {
+   "title": "Aswan",
+   "monthlyViews": 10928,
+   "days": 60,
+   "lat": 24.08888889,
+   "lon": 32.89972222
+  },
+  "city-omdurman": {
+   "title": "Omdurman",
+   "monthlyViews": 3622,
+   "days": 60,
+   "lat": 15.64027778,
+   "lon": 32.48277778
+  },
+  "city-oran": {
+   "title": "Oran",
+   "monthlyViews": 13546,
+   "days": 60,
+   "lat": 35.69694444,
+   "lon": -0.63305556
+  },
+  "city-casablanca": {
+   "title": "Casablanca",
+   "monthlyViews": 50896,
+   "days": 60,
+   "lat": 33.53333333,
+   "lon": -7.58333333
+  },
+  "city-marrakesh": {
+   "title": "Marrakesh",
+   "monthlyViews": 30257,
+   "days": 60,
+   "lat": 31.63,
+   "lon": -8.00888889
+  },
+  "city-fez": {
+   "title": "Fez, Morocco",
+   "monthlyViews": 14155,
+   "days": 60,
+   "lat": 34.04333333,
+   "lon": -5.00333333
+  },
+  "city-tangier": {
+   "title": "Tangier",
+   "monthlyViews": 28735,
+   "days": 60,
+   "lat": 35.77666667,
+   "lon": -5.80388889
+  },
+  "city-benghazi": {
+   "title": "Benghazi",
+   "monthlyViews": 13150,
+   "days": 60,
+   "lat": 32.11666667,
+   "lon": 20.06666667
+  },
+  "city-dar-es-salaam": {
+   "title": "Dar es Salaam",
+   "monthlyViews": 28248,
+   "days": 60,
+   "lat": -6.81611111,
+   "lon": 39.28027778
+  },
+  "city-arusha": {
+   "title": "Arusha",
+   "monthlyViews": 5266,
+   "days": 60,
+   "lat": -3.36666667,
+   "lon": 36.68333333
+  },
+  "city-mwanza": {
+   "title": "Mwanza",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": -2.51666667,
+   "lon": 32.9
+  },
+  "city-mombasa": {
+   "title": "Mombasa",
+   "monthlyViews": 20243,
+   "days": 60,
+   "lat": -4.05,
+   "lon": 39.66666667
+  },
+  "city-kisumu": {
+   "title": "Kisumu",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": -0.08333333,
+   "lon": 34.76666667
+  },
+  "city-nakuru": {
+   "title": "Nakuru",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": -0.3,
+   "lon": 36.06666667
+  },
+  "city-jinja": {
+   "title": "Jinja, Uganda",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 0.42333333,
+   "lon": 33.20388889
+  },
+  "city-entebbe": {
+   "title": "Entebbe",
+   "monthlyViews": 3775,
+   "days": 60,
+   "lat": 0.05,
+   "lon": 32.46
+  },
+  "city-dire-dawa": {
+   "title": "Dire Dawa",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 9.6,
+   "lon": 41.86666667
+  },
+  "city-bahir-dar": {
+   "title": "Bahir Dar",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-gondar": {
+   "title": "Gondar",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 12.6075,
+   "lon": 37.45916667
+  },
+  "city-lalibela": {
+   "title": "Lalibela",
+   "monthlyViews": 6271,
+   "days": 60,
+   "lat": 12.03166667,
+   "lon": 39.04111111
+  },
+  "city-hargeisa": {
+   "title": "Hargeisa",
+   "monthlyViews": 8554,
+   "days": 60,
+   "lat": 9.56111111,
+   "lon": 44.06666667
+  },
+  "city-bujumbura": {
+   "title": "Bujumbura",
+   "monthlyViews": 7854,
+   "days": 60,
+   "lat": -3.36277778,
+   "lon": 29.36555556
+  },
+  "city-blantyre": {
+   "title": "Blantyre",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": -15.78611111,
+   "lon": 35.00583333
+  },
+  "city-johannesburg": {
+   "title": "Johannesburg",
+   "monthlyViews": 52996,
+   "days": 60,
+   "lat": -26.20444444,
+   "lon": 28.04555556
+  },
+  "city-cape-town": {
+   "title": "Cape Town",
+   "monthlyViews": 58688,
+   "days": 60,
+   "lat": -33.92527778,
+   "lon": 18.42388889
+  },
+  "city-durban": {
+   "title": "Durban",
+   "monthlyViews": 25204,
+   "days": 60,
+   "lat": -29.88333333,
+   "lon": 31.05
+  },
+  "city-port-elizabeth": {
+   "title": "Gqeberha",
+   "monthlyViews": 16346,
+   "days": 60,
+   "lat": -33.95805556,
+   "lon": 25.6
+  },
+  "city-bulawayo": {
+   "title": "Bulawayo",
+   "monthlyViews": 8127,
+   "days": 60,
+   "lat": -20.17,
+   "lon": 28.58
+  },
+  "city-beira": {
+   "title": "Beira, Mozambique",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": -19.83333333,
+   "lon": 34.85
+  },
+  "city-kitwe": {
+   "title": "Kitwe",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": -12.81666667,
+   "lon": 28.2
+  },
+  "city-livingstone": {
+   "title": "Livingstone, Zambia",
+   "monthlyViews": 3014,
+   "days": 60,
+   "lat": -17.85,
+   "lon": 25.86666667
+  },
+  "city-manzini": {
+   "title": "Manzini",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": -26.48333333,
+   "lon": 31.36666667
+  },
+  "city-lubumbashi": {
+   "title": "Lubumbashi",
+   "monthlyViews": 6819,
+   "days": 60,
+   "lat": -11.66416667,
+   "lon": 27.48277778
+  },
+  "city-mbuji-mayi": {
+   "title": "Mbuji-Mayi",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": -6.1261,
+   "lon": 23.5997
+  },
+  "city-kisangani": {
+   "title": "Kisangani",
+   "monthlyViews": 5510,
+   "days": 60,
+   "lat": 0.51666667,
+   "lon": 25.2
+  },
+  "city-goma": {
+   "title": "Goma",
+   "monthlyViews": 5692,
+   "days": 60,
+   "lat": -1.67944444,
+   "lon": 29.23361111
+  },
+  "city-douala": {
+   "title": "Douala",
+   "monthlyViews": 9528,
+   "days": 60,
+   "lat": 4.05,
+   "lon": 9.7
+  },
+  "city-pointe-noire": {
+   "title": "Pointe-Noire",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-istanbul": {
+   "title": "Istanbul",
+   "monthlyViews": 102735,
+   "days": 60,
+   "lat": 41.01361111,
+   "lon": 28.955
+  },
+  "city-izmir": {
+   "title": "İzmir",
+   "monthlyViews": 23682,
+   "days": 60,
+   "lat": 38.42444444,
+   "lon": 27.13222222
+  },
+  "city-mashhad": {
+   "title": "Mashhad",
+   "monthlyViews": 11750,
+   "days": 60,
+   "lat": 36.32638889,
+   "lon": 59.54333333
+  },
+  "city-isfahan": {
+   "title": "Isfahan",
+   "monthlyViews": 16285,
+   "days": 60,
+   "lat": 32.66527778,
+   "lon": 51.67027778
+  },
+  "city-shiraz": {
+   "title": "Shiraz",
+   "monthlyViews": 10167,
+   "days": 60,
+   "lat": 29.61,
+   "lon": 52.5425
+  },
+  "city-basra": {
+   "title": "Basra",
+   "monthlyViews": 13241,
+   "days": 60,
+   "lat": 30.515,
+   "lon": 47.81
+  },
+  "city-jeddah": {
+   "title": "Jeddah",
+   "monthlyViews": 30105,
+   "days": 60,
+   "lat": 21.54333333,
+   "lon": 39.17277778
+  },
+  "city-mecca": {
+   "title": "Mecca",
+   "monthlyViews": 66177,
+   "days": 60,
+   "lat": 21.4225,
+   "lon": 39.82333333
+  },
+  "city-medina": {
+   "title": "Medina",
+   "monthlyViews": 31110,
+   "days": 60,
+   "lat": 24.47,
+   "lon": 39.61
+  },
+  "city-aleppo": {
+   "title": "Aleppo",
+   "monthlyViews": 19908,
+   "days": 60,
+   "lat": 36.2,
+   "lon": 37.16
+  },
+  "city-tel-aviv": {
+   "title": "Tel Aviv",
+   "monthlyViews": 55979,
+   "days": 60,
+   "lat": 32.08,
+   "lon": 34.78
+  },
+  "city-haifa": {
+   "title": "Haifa",
+   "monthlyViews": 30227,
+   "days": 60,
+   "lat": 32.81916667,
+   "lon": 34.99916667
+  },
+  "city-dubai": {
+   "title": "Dubai",
+   "monthlyViews": 93055,
+   "days": 60,
+   "lat": 25.20472222,
+   "lon": 55.27083333
+  },
+  "city-gaza-city": {
+   "title": "Gaza City",
+   "monthlyViews": 37076,
+   "days": 60,
+   "lat": 31.5075,
+   "lon": 34.45972222
+  },
+  "city-mumbai": {
+   "title": "Mumbai",
+   "monthlyViews": 101183,
+   "days": 60,
+   "lat": 19.07611111,
+   "lon": 72.8775
+  },
+  "city-kolkata": {
+   "title": "Kolkata",
+   "monthlyViews": 58536,
+   "days": 60,
+   "lat": 22.5675,
+   "lon": 88.37
+  },
+  "city-chennai": {
+   "title": "Chennai",
+   "monthlyViews": 56588,
+   "days": 60,
+   "lat": 13.0825,
+   "lon": 80.275
+  },
+  "city-bengaluru": {
+   "title": "Bengaluru",
+   "monthlyViews": 68855,
+   "days": 60,
+   "lat": 12.97888889,
+   "lon": 77.59166667
+  },
+  "city-hyderabad": {
+   "title": "Hyderabad",
+   "monthlyViews": 66572,
+   "days": 60,
+   "lat": 17.3617,
+   "lon": 78.4747
+  },
+  "city-ahmedabad": {
+   "title": "Ahmedabad",
+   "monthlyViews": 34854,
+   "days": 60,
+   "lat": 23.0225,
+   "lon": 72.57138889
+  },
+  "city-pune": {
+   "title": "Pune",
+   "monthlyViews": 32510,
+   "days": 60,
+   "lat": 18.52111111,
+   "lon": 73.85527778
+  },
+  "city-surat": {
+   "title": "Surat",
+   "monthlyViews": 13241,
+   "days": 60,
+   "lat": 21.205,
+   "lon": 72.84
+  },
+  "city-jaipur": {
+   "title": "Jaipur",
+   "monthlyViews": 27913,
+   "days": 60,
+   "lat": 26.915,
+   "lon": 75.82
+  },
+  "city-lucknow": {
+   "title": "Lucknow",
+   "monthlyViews": 28401,
+   "days": 60,
+   "lat": 26.85,
+   "lon": 80.95
+  },
+  "city-kanpur": {
+   "title": "Kanpur",
+   "monthlyViews": 13850,
+   "days": 60,
+   "lat": 26.449923,
+   "lon": 80.331874
+  },
+  "city-nagpur": {
+   "title": "Nagpur",
+   "monthlyViews": 15707,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-varanasi": {
+   "title": "Varanasi",
+   "monthlyViews": 38354,
+   "days": 60,
+   "lat": 25.31888889,
+   "lon": 83.01277778
+  },
+  "city-agra": {
+   "title": "Agra",
+   "monthlyViews": 22069,
+   "days": 60,
+   "lat": 27.18,
+   "lon": 78.02
+  },
+  "city-karachi": {
+   "title": "Karachi",
+   "monthlyViews": 53666,
+   "days": 60,
+   "lat": 24.86,
+   "lon": 67.01
+  },
+  "city-lahore": {
+   "title": "Lahore",
+   "monthlyViews": 44960,
+   "days": 60,
+   "lat": 31.54972222,
+   "lon": 74.34361111
+  },
+  "city-chittagong": {
+   "title": "Chittagong",
+   "monthlyViews": 14033,
+   "days": 60,
+   "lat": 22.335,
+   "lon": 91.8325
+  },
+  "city-kandahar": {
+   "title": "Kandahar",
+   "monthlyViews": 22891,
+   "days": 60,
+   "lat": 31.62,
+   "lon": 65.71583333
+  },
+  "city-herat": {
+   "title": "Herat",
+   "monthlyViews": 12754,
+   "days": 60,
+   "lat": 34.34194444,
+   "lon": 62.20305556
+  },
+  "city-mazar-i-sharif": {
+   "title": "Mazar-i-Sharif",
+   "monthlyViews": 6088,
+   "days": 60,
+   "lat": 36.7,
+   "lon": 67.11666667
+  },
+  "city-pokhara": {
+   "title": "Pokhara",
+   "monthlyViews": 8006,
+   "days": 60,
+   "lat": 28.20833333,
+   "lon": 83.98888889
+  },
+  "city-kandy": {
+   "title": "Kandy",
+   "monthlyViews": 8219,
+   "days": 60,
+   "lat": 7.2931,
+   "lon": 80.635
+  },
+  "city-surabaya": {
+   "title": "Surabaya",
+   "monthlyViews": 12663,
+   "days": 60,
+   "lat": -7.24583333,
+   "lon": 112.73777778
+  },
+  "city-bandung": {
+   "title": "Bandung",
+   "monthlyViews": 10106,
+   "days": 60,
+   "lat": -6.92194444,
+   "lon": 107.60694444
+  },
+  "city-medan": {
+   "title": "Medan",
+   "monthlyViews": 7975,
+   "days": 60,
+   "lat": 3.58944444,
+   "lon": 98.67388889
+  },
+  "city-makassar": {
+   "title": "Makassar",
+   "monthlyViews": 7245,
+   "days": 60,
+   "lat": -5.1331,
+   "lon": 119.4136
+  },
+  "city-yogyakarta": {
+   "title": "Yogyakarta",
+   "monthlyViews": 11293,
+   "days": 60,
+   "lat": -7.80138889,
+   "lon": 110.36444444
+  },
+  "city-ho-chi-minh-city": {
+   "title": "Ho Chi Minh City",
+   "monthlyViews": 63102,
+   "days": 60,
+   "lat": 10.77555556,
+   "lon": 106.70194444
+  },
+  "city-da-nang": {
+   "title": "Da Nang",
+   "monthlyViews": 22373,
+   "days": 60,
+   "lat": 16.06944444,
+   "lon": 108.20972222
+  },
+  "city-chiang-mai": {
+   "title": "Chiang Mai",
+   "monthlyViews": 21856,
+   "days": 60,
+   "lat": 18.79527778,
+   "lon": 98.99861111
+  },
+  "city-yangon": {
+   "title": "Yangon",
+   "monthlyViews": 22860,
+   "days": 60,
+   "lat": 16.795,
+   "lon": 96.16
+  },
+  "city-mandalay": {
+   "title": "Mandalay",
+   "monthlyViews": 7580,
+   "days": 60,
+   "lat": 21.98305556,
+   "lon": 96.08444444
+  },
+  "city-george-town": {
+   "title": "George Town, Penang",
+   "monthlyViews": 11476,
+   "days": 60,
+   "lat": 5.41444444,
+   "lon": 100.32916667
+  },
+  "city-quezon-city": {
+   "title": "Quezon City",
+   "monthlyViews": 25813,
+   "days": 60,
+   "lat": 14.65,
+   "lon": 121.0475
+  },
+  "city-davao-city": {
+   "title": "Davao City",
+   "monthlyViews": 14855,
+   "days": 60,
+   "lat": 7.066233,
+   "lon": 125.609442
+  },
+  "city-cebu-city": {
+   "title": "Cebu City",
+   "monthlyViews": 14215,
+   "days": 60,
+   "lat": 10.293,
+   "lon": 123.902
+  },
+  "city-siem-reap": {
+   "title": "Siem Reap",
+   "monthlyViews": 10228,
+   "days": 60,
+   "lat": 13.36222222,
+   "lon": 103.85972222
+  },
+  "city-luang-prabang": {
+   "title": "Luang Prabang",
+   "monthlyViews": 8006,
+   "days": 60,
+   "lat": 19.89,
+   "lon": 102.13472222
+  },
+  "city-shanghai": {
+   "title": "Shanghai",
+   "monthlyViews": 89859,
+   "days": 60,
+   "lat": 31.2325,
+   "lon": 121.46916667
+  },
+  "city-chongqing": {
+   "title": "Chongqing",
+   "monthlyViews": 102004,
+   "days": 60,
+   "lat": 29.5637,
+   "lon": 106.5504
+  },
+  "city-tianjin": {
+   "title": "Tianjin",
+   "monthlyViews": 27700,
+   "days": 60,
+   "lat": 39.1336,
+   "lon": 117.2054
+  },
+  "city-wuhan": {
+   "title": "Wuhan",
+   "monthlyViews": 24869,
+   "days": 60,
+   "lat": 30.595,
+   "lon": 114.2975
+  },
+  "city-chengdu": {
+   "title": "Chengdu",
+   "monthlyViews": 40394,
+   "days": 60,
+   "lat": 30.66,
+   "lon": 104.06333333
+  },
+  "city-guangzhou": {
+   "title": "Guangzhou",
+   "monthlyViews": 76739,
+   "days": 60,
+   "lat": 23.13,
+   "lon": 113.26
+  },
+  "city-shenzhen": {
+   "title": "Shenzhen",
+   "monthlyViews": 57349,
+   "days": 60,
+   "lat": 22.54666667,
+   "lon": 114.05444444
+  },
+  "city-xi-an": {
+   "title": "Xi'an",
+   "monthlyViews": 35676,
+   "days": 60,
+   "lat": 34.26111111,
+   "lon": 108.94222222
+  },
+  "city-hangzhou": {
+   "title": "Hangzhou",
+   "monthlyViews": 33575,
+   "days": 60,
+   "lat": 30.267,
+   "lon": 120.153
+  },
+  "city-nanjing": {
+   "title": "Nanjing",
+   "monthlyViews": 38080,
+   "days": 60,
+   "lat": 32.06083333,
+   "lon": 118.77888889
+  },
+  "city-harbin": {
+   "title": "Harbin",
+   "monthlyViews": 28553,
+   "days": 60,
+   "lat": 45.7576,
+   "lon": 126.6409
+  },
+  "city-lhasa": {
+   "title": "Lhasa",
+   "monthlyViews": 16559,
+   "days": 60,
+   "lat": 29.6539,
+   "lon": 91.1175
+  },
+  "city-hong-kong": {
+   "title": "Hong Kong",
+   "monthlyViews": 216763,
+   "days": 60,
+   "lat": 22.3,
+   "lon": 114.2
+  },
+  "city-osaka": {
+   "title": "Osaka",
+   "monthlyViews": 44229,
+   "days": 60,
+   "lat": 34.69388889,
+   "lon": 135.50222222
+  },
+  "city-yokohama": {
+   "title": "Yokohama",
+   "monthlyViews": 26757,
+   "days": 60,
+   "lat": 35.44416667,
+   "lon": 139.63805556
+  },
+  "city-kyoto": {
+   "title": "Kyoto",
+   "monthlyViews": 42159,
+   "days": 60,
+   "lat": 35.01161,
+   "lon": 135.76811
+  },
+  "city-nagoya": {
+   "title": "Nagoya",
+   "monthlyViews": 27487,
+   "days": 60,
+   "lat": 35.18333333,
+   "lon": 136.9
+  },
+  "city-sapporo": {
+   "title": "Sapporo",
+   "monthlyViews": 28644,
+   "days": 60,
+   "lat": 43.06194444,
+   "lon": 141.35444444
+  },
+  "city-fukuoka": {
+   "title": "Fukuoka",
+   "monthlyViews": 23074,
+   "days": 60,
+   "lat": 33.59,
+   "lon": 130.40166667
+  },
+  "city-hiroshima": {
+   "title": "Hiroshima",
+   "monthlyViews": 42068,
+   "days": 60,
+   "lat": 34.39138889,
+   "lon": 132.45194444
+  },
+  "city-busan": {
+   "title": "Busan",
+   "monthlyViews": 29466,
+   "days": 60,
+   "lat": 35.18,
+   "lon": 129.075
+  },
+  "city-kaohsiung": {
+   "title": "Kaohsiung",
+   "monthlyViews": 14215,
+   "days": 60,
+   "lat": 22.615,
+   "lon": 120.2975
+  },
+  "city-new-taipei": {
+   "title": "New Taipei City",
+   "monthlyViews": 12511,
+   "days": 60,
+   "lat": 25.0125,
+   "lon": 121.465
+  },
+  "city-hamhung": {
+   "title": "Hamhung",
+   "monthlyViews": 4383,
+   "days": 60,
+   "lat": 39.91666667,
+   "lon": 127.53333333
+  },
+  "city-almaty": {
+   "title": "Almaty",
+   "monthlyViews": 43560,
+   "days": 60,
+   "lat": 43.23333333,
+   "lon": 76.95
+  },
+  "city-shymkent": {
+   "title": "Shymkent",
+   "monthlyViews": 5510,
+   "days": 60,
+   "lat": 42.31666667,
+   "lon": 69.59583333
+  },
+  "city-samarkand": {
+   "title": "Samarkand",
+   "monthlyViews": 35280,
+   "days": 60,
+   "lat": 39.65055556,
+   "lon": 66.96527778
+  },
+  "city-bukhara": {
+   "title": "Bukhara",
+   "monthlyViews": 17107,
+   "days": 60,
+   "lat": 39.76666667,
+   "lon": 64.42305556
+  },
+  "city-khiva": {
+   "title": "Khiva",
+   "monthlyViews": 6819,
+   "days": 60,
+   "lat": 41.38138889,
+   "lon": 60.36111111
+  },
+  "city-osh": {
+   "title": "Osh",
+   "monthlyViews": 4749,
+   "days": 60,
+   "lat": 40.53,
+   "lon": 72.8
+  },
+  "city-khujand": {
+   "title": "Khujand",
+   "monthlyViews": 4353,
+   "days": 60,
+   "lat": 40.2794,
+   "lon": 69.6319
+  },
+  "city-batumi": {
+   "title": "Batumi",
+   "monthlyViews": 14733,
+   "days": 60,
+   "lat": 41.64583333,
+   "lon": 41.64166667
+  },
+  "city-munich": {
+   "title": "Munich",
+   "monthlyViews": 65629,
+   "days": 60,
+   "lat": 48.1375,
+   "lon": 11.575
+  },
+  "city-hamburg": {
+   "title": "Hamburg",
+   "monthlyViews": 58658,
+   "days": 60,
+   "lat": 53.55,
+   "lon": 10
+  },
+  "city-frankfurt": {
+   "title": "Frankfurt",
+   "monthlyViews": 48095,
+   "days": 60,
+   "lat": 50.11055556,
+   "lon": 8.68222222
+  },
+  "city-cologne": {
+   "title": "Cologne",
+   "monthlyViews": 54214,
+   "days": 60,
+   "lat": 50.93638889,
+   "lon": 6.95277778
+  },
+  "city-marseille": {
+   "title": "Marseille",
+   "monthlyViews": 49343,
+   "days": 60,
+   "lat": 43.2964,
+   "lon": 5.37
+  },
+  "city-lyon": {
+   "title": "Lyon",
+   "monthlyViews": 42251,
+   "days": 60,
+   "lat": 45.7675,
+   "lon": 4.835
+  },
+  "city-nice": {
+   "title": "Nice",
+   "monthlyViews": 39876,
+   "days": 60,
+   "lat": 43.7034,
+   "lon": 7.2663
+  },
+  "city-toulouse": {
+   "title": "Toulouse",
+   "monthlyViews": 31536,
+   "days": 60,
+   "lat": 43.6045,
+   "lon": 1.444
+  },
+  "city-bordeaux": {
+   "title": "Bordeaux",
+   "monthlyViews": 31414,
+   "days": 59,
+   "lat": 44.84,
+   "lon": -0.58
+  },
+  "city-manchester": {
+   "title": "Manchester",
+   "monthlyViews": 73543,
+   "days": 60,
+   "lat": 53.47944444,
+   "lon": -2.24527778
+  },
+  "city-birmingham": {
+   "title": "Birmingham",
+   "monthlyViews": 85202,
+   "days": 60,
+   "lat": 52.48,
+   "lon": -1.9025
+  },
+  "city-liverpool": {
+   "title": "Liverpool",
+   "monthlyViews": 72082,
+   "days": 60,
+   "lat": 53.4072,
+   "lon": -2.9917
+  },
+  "city-glasgow": {
+   "title": "Glasgow",
+   "monthlyViews": 74182,
+   "days": 60,
+   "lat": 55.86111111,
+   "lon": -4.25
+  },
+  "city-edinburgh": {
+   "title": "Edinburgh",
+   "monthlyViews": 89189,
+   "days": 60,
+   "lat": 55.95333333,
+   "lon": -3.18916667
+  },
+  "city-oxford": {
+   "title": "Oxford",
+   "monthlyViews": 36163,
+   "days": 60,
+   "lat": 51.75194444,
+   "lon": -1.25777778
+  },
+  "city-milan": {
+   "title": "Milan",
+   "monthlyViews": 65842,
+   "days": 60,
+   "lat": 45.46694444,
+   "lon": 9.19
+  },
+  "city-naples": {
+   "title": "Naples",
+   "monthlyViews": 61458,
+   "days": 60,
+   "lat": 40.8358,
+   "lon": 14.2486
+  },
+  "city-turin": {
+   "title": "Turin",
+   "monthlyViews": 44625,
+   "days": 60,
+   "lat": 45.07916667,
+   "lon": 7.67611111
+  },
+  "city-florence": {
+   "title": "Florence",
+   "monthlyViews": 54853,
+   "days": 60,
+   "lat": 43.77138889,
+   "lon": 11.25416667
+  },
+  "city-venice": {
+   "title": "Venice",
+   "monthlyViews": 81792,
+   "days": 60,
+   "lat": 45.4375,
+   "lon": 12.33583333
+  },
+  "city-barcelona": {
+   "title": "Barcelona",
+   "monthlyViews": 93055,
+   "days": 60,
+   "lat": 41.38333333,
+   "lon": 2.18333333
+  },
+  "city-valencia": {
+   "title": "Valencia",
+   "monthlyViews": 50500,
+   "days": 60,
+   "lat": 39.47,
+   "lon": -0.37638889
+  },
+  "city-seville": {
+   "title": "Seville",
+   "monthlyViews": 50713,
+   "days": 60,
+   "lat": 37.38861111,
+   "lon": -5.995
+  },
+  "city-rotterdam": {
+   "title": "Rotterdam",
+   "monthlyViews": 30927,
+   "days": 60,
+   "lat": 51.92,
+   "lon": 4.48
+  },
+  "city-the-hague": {
+   "title": "The Hague",
+   "monthlyViews": 69768,
+   "days": 60,
+   "lat": 52.08,
+   "lon": 4.31
+  },
+  "city-antwerp": {
+   "title": "Antwerp",
+   "monthlyViews": 36558,
+   "days": 60,
+   "lat": 51.21777778,
+   "lon": 4.40027778
+  },
+  "city-bruges": {
+   "title": "Bruges",
+   "monthlyViews": 31505,
+   "days": 60,
+   "lat": 51.20888889,
+   "lon": 3.22416667
+  },
+  "city-porto": {
+   "title": "Porto",
+   "monthlyViews": 35676,
+   "days": 60,
+   "lat": 41.15,
+   "lon": -8.6108
+  },
+  "city-salzburg": {
+   "title": "Salzburg",
+   "monthlyViews": 33575,
+   "days": 60,
+   "lat": 47.8,
+   "lon": 13.045
+  },
+  "city-zurich": {
+   "title": "Zurich",
+   "monthlyViews": 41246,
+   "days": 60,
+   "lat": 47.37444444,
+   "lon": 8.54111111
+  },
+  "city-geneva": {
+   "title": "Geneva",
+   "monthlyViews": 45082,
+   "days": 60,
+   "lat": 46.20166667,
+   "lon": 6.14694444
+  },
+  "city-cork": {
+   "title": "Cork (city)",
+   "monthlyViews": 32662,
+   "days": 60,
+   "lat": 51.89722222,
+   "lon": -8.47
+  },
+  "city-saint-petersburg": {
+   "title": "Saint Petersburg",
+   "monthlyViews": 83954,
+   "days": 60,
+   "lat": 59.9375,
+   "lon": 30.30861111
+  },
+  "city-novosibirsk": {
+   "title": "Novosibirsk",
+   "monthlyViews": 29283,
+   "days": 60,
+   "lat": 55.05,
+   "lon": 82.95
+  },
+  "city-yekaterinburg": {
+   "title": "Yekaterinburg",
+   "monthlyViews": 34123,
+   "days": 60,
+   "lat": 56.83555556,
+   "lon": 60.61277778
+  },
+  "city-kazan": {
+   "title": "Kazan",
+   "monthlyViews": 29375,
+   "days": 60,
+   "lat": 55.79638889,
+   "lon": 49.10888889
+  },
+  "city-vladivostok": {
+   "title": "Vladivostok",
+   "monthlyViews": 39055,
+   "days": 60,
+   "lat": 43.115,
+   "lon": 131.8853
+  },
+  "city-volgograd": {
+   "title": "Volgograd",
+   "monthlyViews": 32023,
+   "days": 60,
+   "lat": 48.70861111,
+   "lon": 44.51472222
+  },
+  "city-kharkiv": {
+   "title": "Kharkiv",
+   "monthlyViews": 18355,
+   "days": 60,
+   "lat": 49.9925,
+   "lon": 36.23111111
+  },
+  "city-odesa": {
+   "title": "Odesa",
+   "monthlyViews": 30014,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-lviv": {
+   "title": "Lviv",
+   "monthlyViews": 24656,
+   "days": 60,
+   "lat": 49.8425,
+   "lon": 24.03222222
+  },
+  "city-krakow": {
+   "title": "Kraków",
+   "monthlyViews": 45051,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-gdansk": {
+   "title": "Gdańsk",
+   "monthlyViews": 42951,
+   "days": 60,
+   "lat": 54.3475,
+   "lon": 18.64527778
+  },
+  "city-wroclaw": {
+   "title": "Wrocław",
+   "monthlyViews": 40455,
+   "days": 60,
+   "lat": 51.11,
+   "lon": 17.0325
+  },
+  "city-brno": {
+   "title": "Brno",
+   "monthlyViews": 21064,
+   "days": 60,
+   "lat": 49.1925,
+   "lon": 16.60833333
+  },
+  "city-cluj-napoca": {
+   "title": "Cluj-Napoca",
+   "monthlyViews": 19542,
+   "days": 60,
+   "lat": 46.76666667,
+   "lon": 23.58333333
+  },
+  "city-plovdiv": {
+   "title": "Plovdiv",
+   "monthlyViews": 19147,
+   "days": 60,
+   "lat": 42.15,
+   "lon": 24.75
+  },
+  "city-split": {
+   "title": "Split, Croatia",
+   "monthlyViews": 41064,
+   "days": 60,
+   "lat": 43.51,
+   "lon": 16.44
+  },
+  "city-dubrovnik": {
+   "title": "Dubrovnik",
+   "monthlyViews": 38446,
+   "days": 60,
+   "lat": 42.64027778,
+   "lon": 18.10833333
+  },
+  "city-mostar": {
+   "title": "Mostar",
+   "monthlyViews": 16894,
+   "days": 60,
+   "lat": 43.34361111,
+   "lon": 17.8075
+  },
+  "city-gothenburg": {
+   "title": "Gothenburg",
+   "monthlyViews": 38841,
+   "days": 60,
+   "lat": 57.7075,
+   "lon": 11.9675
+  },
+  "city-malmo": {
+   "title": "Malmö",
+   "monthlyViews": 25965,
+   "days": 60,
+   "lat": 55.60482333,
+   "lon": 13.00506944
+  },
+  "city-bergen": {
+   "title": "Bergen",
+   "monthlyViews": 28583,
+   "days": 60,
+   "lat": 60.38944444,
+   "lon": 5.33
+  },
+  "city-tromso": {
+   "title": "Tromsø",
+   "monthlyViews": 22647,
+   "days": 60,
+   "lat": 69.6517,
+   "lon": 18.9556
+  },
+  "city-aarhus": {
+   "title": "Aarhus",
+   "monthlyViews": 17351,
+   "days": 60,
+   "lat": 56.1572,
+   "lon": 10.2107
+  },
+  "city-tampere": {
+   "title": "Tampere",
+   "monthlyViews": 12511,
+   "days": 60,
+   "lat": 61.49805556,
+   "lon": 23.76
+  },
+  "city-turku": {
+   "title": "Turku",
+   "monthlyViews": 14489,
+   "days": 60,
+   "lat": 60.4517,
+   "lon": 22.2669
+  },
+  "city-thessaloniki": {
+   "title": "Thessaloniki",
+   "monthlyViews": 61032,
+   "days": 60,
+   "lat": 40.6403,
+   "lon": 22.9356
+  },
+  "city-heraklion": {
+   "title": "Heraklion",
+   "monthlyViews": 23865,
+   "days": 60,
+   "lat": 35.3403,
+   "lon": 25.1344
+  },
+  "city-new-york-city": {
+   "title": "New York City",
+   "monthlyViews": 340715,
+   "days": 60,
+   "lat": 40.7128,
+   "lon": -74.0061
+  },
+  "city-los-angeles": {
+   "title": "Los Angeles",
+   "monthlyViews": 200234,
+   "days": 60,
+   "lat": 34.05,
+   "lon": -118.25
+  },
+  "city-chicago": {
+   "title": "Chicago",
+   "monthlyViews": 155153,
+   "days": 60,
+   "lat": 41.88194444,
+   "lon": -87.62777778
+  },
+  "city-houston": {
+   "title": "Houston",
+   "monthlyViews": 74152,
+   "days": 60,
+   "lat": 29.75666667,
+   "lon": -95.36527778
+  },
+  "city-phoenix": {
+   "title": "Phoenix, Arizona",
+   "monthlyViews": 65659,
+   "days": 60,
+   "lat": 33.44833333,
+   "lon": -112.07388889
+  },
+  "city-philadelphia": {
+   "title": "Philadelphia",
+   "monthlyViews": 108062,
+   "days": 60,
+   "lat": 39.9528,
+   "lon": -75.1636
+  },
+  "city-san-antonio": {
+   "title": "San Antonio",
+   "monthlyViews": 41885,
+   "days": 60,
+   "lat": 29.425,
+   "lon": -98.4939
+  },
+  "city-san-diego": {
+   "title": "San Diego",
+   "monthlyViews": 67394,
+   "days": 60,
+   "lat": 32.715,
+   "lon": -117.1625
+  },
+  "city-dallas": {
+   "title": "Dallas",
+   "monthlyViews": 60271,
+   "days": 60,
+   "lat": 32.77916667,
+   "lon": -96.80888889
+  },
+  "city-austin": {
+   "title": "Austin, Texas",
+   "monthlyViews": 67455,
+   "days": 60,
+   "lat": 30.26722222,
+   "lon": -97.74305556
+  },
+  "city-san-francisco": {
+   "title": "San Francisco",
+   "monthlyViews": 108519,
+   "days": 60,
+   "lat": 37.7775,
+   "lon": -122.41638889
+  },
+  "city-seattle": {
+   "title": "Seattle",
+   "monthlyViews": 108001,
+   "days": 60,
+   "lat": 47.60388889,
+   "lon": -122.33
+  },
+  "city-denver": {
+   "title": "Denver",
+   "monthlyViews": 59510,
+   "days": 60,
+   "lat": 39.74,
+   "lon": -104.99
+  },
+  "city-las-vegas": {
+   "title": "Las Vegas",
+   "monthlyViews": 83406,
+   "days": 60,
+   "lat": 36.1672,
+   "lon": -115.1486
+  },
+  "city-boston": {
+   "title": "Boston",
+   "monthlyViews": 112689,
+   "days": 60,
+   "lat": 42.36027778,
+   "lon": -71.05777778
+  },
+  "city-detroit": {
+   "title": "Detroit",
+   "monthlyViews": 79327,
+   "days": 60,
+   "lat": 42.33166667,
+   "lon": -83.04583333
+  },
+  "city-atlanta": {
+   "title": "Atlanta",
+   "monthlyViews": 95095,
+   "days": 60,
+   "lat": 33.74888889,
+   "lon": -84.39
+  },
+  "city-miami": {
+   "title": "Miami",
+   "monthlyViews": 82371,
+   "days": 60,
+   "lat": 25.77416667,
+   "lon": -80.19361111
+  },
+  "city-new-orleans": {
+   "title": "New Orleans",
+   "monthlyViews": 78718,
+   "days": 60,
+   "lat": 29.9761,
+   "lon": -90.0783
+  },
+  "city-toronto": {
+   "title": "Toronto",
+   "monthlyViews": 116555,
+   "days": 60,
+   "lat": 43.6525,
+   "lon": -79.38166667
+  },
+  "city-montreal": {
+   "title": "Montreal",
+   "monthlyViews": 94151,
+   "days": 60,
+   "lat": 45.50888889,
+   "lon": -73.55416667
+  },
+  "city-calgary": {
+   "title": "Calgary",
+   "monthlyViews": 57045,
+   "days": 60,
+   "lat": 51.0475,
+   "lon": -114.0625
+  },
+  "city-edmonton": {
+   "title": "Edmonton",
+   "monthlyViews": 48521,
+   "days": 60,
+   "lat": 53.53444444,
+   "lon": -113.49027778
+  },
+  "city-vancouver": {
+   "title": "Vancouver",
+   "monthlyViews": 93086,
+   "days": 60,
+   "lat": 49.26083333,
+   "lon": -123.11388889
+  },
+  "city-quebec-city": {
+   "title": "Quebec City",
+   "monthlyViews": 42372,
+   "days": 60,
+   "lat": 46.81388889,
+   "lon": -71.20805556
+  },
+  "city-tijuana": {
+   "title": "Tijuana",
+   "monthlyViews": 22769,
+   "days": 60,
+   "lat": 32.525,
+   "lon": -117.03333333
+  },
+  "city-leon": {
+   "title": "León, Guanajuato",
+   "monthlyViews": 6849,
+   "days": 60,
+   "lat": 21.11666667,
+   "lon": -101.68333333
+  },
+  "city-puebla": {
+   "title": "Puebla (city)",
+   "monthlyViews": 10167,
+   "days": 60,
+   "lat": 19.03333333,
+   "lon": -98.18333333
+  },
+  "city-guadalajara": {
+   "title": "Guadalajara",
+   "monthlyViews": 30805,
+   "days": 60,
+   "lat": 20.67666667,
+   "lon": -103.3475
+  },
+  "city-monterrey": {
+   "title": "Monterrey",
+   "monthlyViews": 25357,
+   "days": 60,
+   "lat": 25.6844,
+   "lon": -100.3181
+  },
+  "city-cancun": {
+   "title": "Cancún",
+   "monthlyViews": 20973,
+   "days": 60,
+   "lat": 21.16055556,
+   "lon": -86.8475
+  },
+  "city-oaxaca": {
+   "title": "Oaxaca City",
+   "monthlyViews": 9436,
+   "days": 60,
+   "lat": 17.06055556,
+   "lon": -96.72527778
+  },
+  "city-quetzaltenango": {
+   "title": "Quetzaltenango",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 14.83333333,
+   "lon": -91.51666667
+  },
+  "city-antigua-guatemala": {
+   "title": "Antigua Guatemala",
+   "monthlyViews": 7123,
+   "days": 60,
+   "lat": 14.5575,
+   "lon": -90.73333333
+  },
+  "city-san-pedro-sula": {
+   "title": "San Pedro Sula",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 15.5,
+   "lon": -88.03333333
+  },
+  "city-santa-ana": {
+   "title": "Santa Ana, El Salvador",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 13.995,
+   "lon": -89.55611111
+  },
+  "city-masaya": {
+   "title": "Masaya",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 11.96666667,
+   "lon": -86.1
+  },
+  "city-puerto-limon": {
+   "title": "Limón",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 10.0022155,
+   "lon": -83.0840367
+  },
+  "city-belize-city": {
+   "title": "Belize City",
+   "monthlyViews": 8219,
+   "days": 60,
+   "lat": 17.49861111,
+   "lon": -88.18861111
+  },
+  "city-santiago-de-cuba": {
+   "title": "Santiago de Cuba",
+   "monthlyViews": 6240,
+   "days": 60,
+   "lat": 20.02166667,
+   "lon": -75.82944444
+  },
+  "city-holguin": {
+   "title": "Holguín",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 20.88694444,
+   "lon": -76.25916667
+  },
+  "city-cap-haitien": {
+   "title": "Cap-Haïtien",
+   "monthlyViews": 5266,
+   "days": 60,
+   "lat": 19.76,
+   "lon": -72.2
+  },
+  "city-santiago-de-los-caballeros": {
+   "title": "Santiago de los Caballeros",
+   "monthlyViews": 5023,
+   "days": 60,
+   "lat": 19.45722222,
+   "lon": -70.68888889
+  },
+  "city-punta-cana": {
+   "title": "Punta Cana",
+   "monthlyViews": 19238,
+   "days": 60,
+   "lat": 18.53333333,
+   "lon": -68.36666667
+  },
+  "city-montego-bay": {
+   "title": "Montego Bay",
+   "monthlyViews": 6149,
+   "days": 60,
+   "lat": 18.46666667,
+   "lon": -77.91666667
+  },
+  "city-san-fernando": {
+   "title": "San Fernando, Trinidad and Tobago",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": 10.28333333,
+   "lon": -61.46666667
+  },
+  "city-freeport": {
+   "title": "Freeport, Bahamas",
+   "monthlyViews": 3379,
+   "days": 60,
+   "lat": 26.52861111,
+   "lon": -78.69666667
+  },
+  "city-sao-paulo": {
+   "title": "São Paulo",
+   "monthlyViews": 60119,
+   "days": 60,
+   "lat": -23.55,
+   "lon": -46.63333333
+  },
+  "city-rio-de-janeiro": {
+   "title": "Rio de Janeiro",
+   "monthlyViews": 65598,
+   "days": 60,
+   "lat": -22.91111111,
+   "lon": -43.20555556
+  },
+  "city-salvador": {
+   "title": "Salvador, Bahia",
+   "monthlyViews": 16498,
+   "days": 60,
+   "lat": -12.97472222,
+   "lon": -38.47666667
+  },
+  "city-fortaleza": {
+   "title": "Fortaleza",
+   "monthlyViews": 8949,
+   "days": 60,
+   "lat": -3.7275,
+   "lon": -38.5275
+  },
+  "city-belo-horizonte": {
+   "title": "Belo Horizonte",
+   "monthlyViews": 18294,
+   "days": 60,
+   "lat": -19.91666667,
+   "lon": -43.93333333
+  },
+  "city-manaus": {
+   "title": "Manaus",
+   "monthlyViews": 21491,
+   "days": 60,
+   "lat": -3.1189,
+   "lon": -60.0217
+  },
+  "city-curitiba": {
+   "title": "Curitiba",
+   "monthlyViews": 14063,
+   "days": 60,
+   "lat": -25.42972222,
+   "lon": -49.27111111
+  },
+  "city-recife": {
+   "title": "Recife",
+   "monthlyViews": 11872,
+   "days": 60,
+   "lat": -8.05,
+   "lon": -34.9
+  },
+  "city-porto-alegre": {
+   "title": "Porto Alegre",
+   "monthlyViews": 13972,
+   "days": 60,
+   "lat": -30.03305556,
+   "lon": -51.23
+  },
+  "city-medellin": {
+   "title": "Medellín",
+   "monthlyViews": 31049,
+   "days": 60,
+   "lat": 6.23083333,
+   "lon": -75.59055556
+  },
+  "city-cali": {
+   "title": "Cali",
+   "monthlyViews": 13637,
+   "days": 60,
+   "lat": 3.42055556,
+   "lon": -76.52222222
+  },
+  "city-cartagena": {
+   "title": "Cartagena, Colombia",
+   "monthlyViews": 20791,
+   "days": 60,
+   "lat": 10.4,
+   "lon": -75.5
+  },
+  "city-cordoba": {
+   "title": "Córdoba, Argentina",
+   "monthlyViews": 11324,
+   "days": 60,
+   "lat": -31.41666667,
+   "lon": -64.18333333
+  },
+  "city-rosario": {
+   "title": "Rosario",
+   "monthlyViews": 20151,
+   "days": 60,
+   "lat": -32.9575,
+   "lon": -60.63944444
+  },
+  "city-ushuaia": {
+   "title": "Ushuaia",
+   "monthlyViews": 23043,
+   "days": 60,
+   "lat": -54.80722222,
+   "lon": -68.30805556
+  },
+  "city-arequipa": {
+   "title": "Arequipa",
+   "monthlyViews": 7306,
+   "days": 60,
+   "lat": -16.39888889,
+   "lon": -71.53694444
+  },
+  "city-cusco": {
+   "title": "Cusco",
+   "monthlyViews": 25387,
+   "days": 60,
+   "lat": -13.5169,
+   "lon": -71.9786
+  },
+  "city-maracaibo": {
+   "title": "Maracaibo",
+   "monthlyViews": 5540,
+   "days": 60,
+   "lat": 10.63333333,
+   "lon": -71.63333333
+  },
+  "city-valparaiso": {
+   "title": "Valparaíso",
+   "monthlyViews": 12267,
+   "days": 60,
+   "lat": -33.04611111,
+   "lon": -71.61972222
+  },
+  "city-guayaquil": {
+   "title": "Guayaquil",
+   "monthlyViews": 15433,
+   "days": 60,
+   "lat": -2.19,
+   "lon": -79.8875
+  },
+  "city-santa-cruz-de-la-sierra": {
+   "title": "Santa Cruz de la Sierra",
+   "monthlyViews": 10532,
+   "days": 60,
+   "lat": -17.8,
+   "lon": -63.18333333
+  },
+  "city-la-paz": {
+   "title": "La Paz",
+   "monthlyViews": 25539,
+   "days": 60,
+   "lat": -16.49583333,
+   "lon": -68.13333333
+  },
+  "city-sydney": {
+   "title": "Sydney",
+   "monthlyViews": 99600,
+   "days": 60,
+   "lat": -33.86777778,
+   "lon": 151.21
+  },
+  "city-melbourne": {
+   "title": "Melbourne",
+   "monthlyViews": 92051,
+   "days": 60,
+   "lat": -37.81416667,
+   "lon": 144.96305556
+  },
+  "city-brisbane": {
+   "title": "Brisbane",
+   "monthlyViews": 50256,
+   "days": 60,
+   "lat": -27.46777778,
+   "lon": 153.02805556
+  },
+  "city-perth": {
+   "title": "Perth",
+   "monthlyViews": 54214,
+   "days": 60,
+   "lat": -32,
+   "lon": 115.9
+  },
+  "city-adelaide": {
+   "title": "Adelaide",
+   "monthlyViews": 43468,
+   "days": 60,
+   "lat": -34.9275,
+   "lon": 138.6
+  },
+  "city-darwin": {
+   "title": "Darwin, Northern Territory",
+   "monthlyViews": 31718,
+   "days": 60,
+   "lat": -12.43805556,
+   "lon": 130.84111111
+  },
+  "city-auckland": {
+   "title": "Auckland",
+   "monthlyViews": 46208,
+   "days": 60,
+   "lat": -36.8492,
+   "lon": 174.7653
+  },
+  "city-christchurch": {
+   "title": "Christchurch",
+   "monthlyViews": 28492,
+   "days": 60,
+   "lat": -43.5311,
+   "lon": 172.6361
+  },
+  "city-lae": {
+   "title": "Lae",
+   "monthlyViews": 3348,
+   "days": 60,
+   "lat": -6.73027778,
+   "lon": 147.00083333
+  },
+  "city-nadi": {
+   "title": "Nadi",
+   "monthlyViews": 3714,
+   "days": 60,
+   "lat": -17.8,
+   "lon": 177.41666667
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",

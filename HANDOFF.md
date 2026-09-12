@@ -18,8 +18,8 @@ URL).
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main` (the `deploy` workflow; `ci` runs test + validate on Node 22). `gh run list` shows both.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` knows this as `wormillion` for the in-app browser pane).
-- **Green:** `npm test` (99 tests), `npm run validate` (1,393 entries), `npm run gap-check` (138 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
-- **Working tree:** clean at handoff; everything below is pushed. Last commit `43ec1bb`; the live site has it.
+- **Green:** `npm test` (101 tests), `npm run validate` (1,668 entries), `npm run gap-check` (183 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
+- **Working tree:** clean at handoff; everything below is pushed. The live site has it.
 
 ### What landed on 2026-09-11/12, in order (all on `main`)
 
@@ -47,6 +47,7 @@ URL).
 | `80b1777` | Points flat at the jackpot bar: 950 for 85–99%, 1000 for 100% (`POINTS_JACKPOT`) |
 | `fb0a3ef` | Japan / Philippines / Indonesia / New Zealand as islands; UK → Great Britain, PNG → New Guinea, Brunei → Borneo aliases; "Japan is all of it" hint. Bank 1,393 |
 | `43ec1bb` | `OPENING_ROUNDS` 3 → 2 (~11.4 conditional rounds of 15) |
+| (cities) | **Ninth category, `city`:** 275 non-capital cities from `scripts/data-cities.mjs` (authored by a subagent, reviewed), region/flag inherited from the country, size = city-proper population, theme "largest in its country", skyline icon, "Name a city that isn't a national capital.", draw 9 + 6. Initialism aliases (NYC, HK, UAE) no longer feed letter rules. Bank 1,668 |
 
 Before those, the previous session landed the seven items in
 `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags,
@@ -70,6 +71,7 @@ URL — see "Driving the game from JS" below.
 |---|---|
 | the places themselves | `scripts/data-physical.mjs`, `scripts/data-countries.mjs` (pipe-delimited) |
 | the US state capitals | `scripts/data-us-states.mjs` (they feed the `capital` cohort, like minor peaks feed `mountain`) |
+| the non-capital cities | `scripts/data-cities.mjs` (`Name|Country|population|aliases`; Country must be a `data-countries.mjs` row — region and flag are inherited; the build refuses a city that is its country's capital) |
 | which colours a country's flag has | `scripts/data-flags.mjs` (one row per country; generous) |
 | which places a themed prompt accepts | `src/data/themes.js` (hand-edited, shipped as-is; a theme with custom prompt text goes in `WORMILLION_THEME_PROMPTS` at the bottom) |
 | which Wikipedia article an entry scores on | `scripts/data-wiki-titles.mjs` (`WIKI_TITLES` overrides, `WIKI_VERIFIED` "I looked, it's right") |
@@ -87,6 +89,9 @@ URL — see "Driving the game from JS" below.
 
 | knob | value | where |
 |---|---|---|
+| categories per run | 9 categories, 15 slots: every category once, six of them twice | `CATEGORIES`, `drawSlots()`, `promptBank.js` |
+| city region prompts | only regions with ≥ 6 cities in the bank (`MIN_ELIGIBLE`) — countries/capitals use every region with ≥ 6 countries | `regionOptions()`, `promptBank.js` |
+| city size thresholds | 500k / 1M / 5M / 10M, city-proper population | `SIZE_RULES.city`, `promptBank.js` |
 | plain opening rounds | 2 (was 3 until 2026-09-12) | `OPENING_ROUNDS`, `promptBank.js` |
 | modifier chance, rounds 3→15 | 70% → 100% (realises ~11.4 conditional rounds of 15) | `MODIFIER_CHANCE_START/END`, `promptBank.js` |
 | flag-prompt weight in the modifier draw | 2 (same as region/theme/ocean/letter; 1 for size) → ~0.6 flag prompts per run, 50% of runs see one (was 3 → ~0.8 / 59%) | `options.push('flag', 'flag')` in `drawModifier()`, `promptBank.js` |
@@ -116,6 +121,7 @@ npm run validate                     # schema, aliases, regions, oceans, flags, 
 - `--check` will complain about names that resolve to a disambiguation page or the wrong subject. Fix by adding an entry to `WIKI_TITLES` (override the article title) or `WIKI_VERIFIED` (you looked, it's right) in `scripts/data-wiki-titles.mjs`. The "reached their article through a redirect" list it prints is informational.
 - A new island or sea gets its ocean from coordinates automatically; if the article has no coordinates or the box is wrong, add it to `OCEAN_OVERRIDES` in `scripts/data-oceans.mjs`. `validate` will tell you.
 - A new country needs a row in `scripts/data-flags.mjs` or `build-data` refuses to run. A row that names no country also fails the build.
+- A new city's `Country` column must match a `data-countries.mjs` name exactly (that is where its region tags and flag come from), and the city must not be that country's capital — the build and the validator both refuse. City names are often ambiguous on Wikipedia ("Birmingham", "Portland", "Hyderabad"); `--check` reports them and `WIKI_TITLES` fixes them.
 - `build-data` **refuses to run** if any entry lacks pageviews — that's deliberate; a zero would score as maximally obscure.
 - `src/data/pageviews.json` is committed, so `build-data` works offline; only genuinely new entries need the network. Responses cache under `scripts/.cache/` (gitignored). A full re-fetch of ~1,400 titles takes ~15 minutes; a top-up for a few new entries takes seconds.
 - Scoring magnitude = median of 60 daily English-Wikipedia views × 30.44. It measures *curiosity*, not fame: the Caspian Sea outdraws the Pacific Ocean. Within a category that's fine; it's what the user asked for.
@@ -154,7 +160,8 @@ npm run validate                     # schema, aliases, regions, oceans, flags, 
 - **Generosity is the house style.** When an answer could reasonably be right, accept it. That is why flag colours include emblem colours (Spain has blue, Peru has green), why island nations are islands (Palau, Tonga, Haiti → Hispaniola), why capitals-not-largest-city includes Brussels and Taipei, and why a wrong-category answer gets a nudge ("Estonia is a country — this round wants a capital city") instead of "Not recognized". Bias data toward inclusion; a missing entry rejects a correct player, an extra one merely accepts a debatable answer.
 - **Ocean membership is derived, not curated.** "Hawaii isn't in the Pacific" was a hand-list bug; don't reintroduce a hand list for oceans. `coastal` (countries) is likewise derived as "not landlocked" (`DERIVED_THEMES`, `promptBank.js`). Everything else themed *is* curated on purpose, because a themed prompt rejects what's outside its set.
 - **15 rounds, each category once or twice, two plain rounds to open.** The draw shape is tested and documented (SPEC 3.8). The user has three times asked for more conditional prompts: the ramp was raised, then `OPENING_ROUNDS` went 3→2 on 2026-09-12 (~11.4 conditional rounds of 15 now). There is no lever left short of making the opening conditional too or changing the ramp's start.
-- **US state capitals live in the `capital` cohort**, so "Name a capital city." accepts Boise and "…in North America" accepts Sacramento — deliberate, generous, and what the user asked for. Their `size` is the US population so "whose country has a population over 100 million" stays true; their flag is the US flag. The user was told about the Boise consequence and hasn't objected. If that ever changes, the alternative is a ninth category, which touches the draw (see cities, below).
+- **US state capitals live in the `capital` cohort**, so "Name a capital city." accepts Boise and "…in North America" accepts Sacramento — deliberate, generous, and what the user asked for. Their `size` is the US population so "whose country has a population over 100 million" stays true; their flag is the US flag. The big ones (Phoenix, Boston, Denver, Austin…) are *also* in the `city` cohort: the city cohort excludes **national** capitals only.
+- **The city cohort excludes national capitals, and every plain city prompt says so** ("Name a city that isn't a national capital."). The badge reads "City (not a capital)"; Paris on a city round gets "Paris is a capital city — this round wants a city that isn't a capital" (`WANTS`/`wantsPhrase` in `promptBank.js`, used by `ui.js`). Don't add capitals to the city list to be generous — the prompt would become a lie. `size` is the city-proper population, consistently; the figures were written from memory like the flags, so fix the specific one a player trips on.
 - **Theme names that aren't places get the generic miss hint.** Any theme with custom prompt text (`WORMILLION_THEME_PROMPTS` or `DERIVED_THEMES`) says "X doesn't fit this one"; a theme worded "in the Alps" says "X isn't in the Alps". Give a new non-place theme custom text or the hint will read "isn't in volcanoes". Theme prompt text is keyed by theme name alone, not category, so don't reuse a name across categories (the capital theme is `on the coast`, not `coastal`).
 - **The dig curve and its numbers were specified by the user** (75 for 85–99%, 100 for 100%, "everything scaled up"). Points were deliberately left alone. The strata bands were deliberately *not* rescaled to the new budget — deeper digging through the same earth is the point.
 - **Island nations count as islands.** Compact ones and the big archipelagos (Japan, the Philippines, Indonesia, New Zealand) are entries of their own with the country's land area, scored on the country article (`WIKI_VERIFIED`); a country on a shared or eponymous island is an alias on it (Haiti → Hispaniola, United Kingdom/UK → Great Britain, Papua New Guinea → New Guinea, Brunei → Borneo). The seven big ones were held back until 2026-09-12 and then asked for. "Japan" is not a member of the `Japan` island theme; `ui.js` words that miss as "Japan is all of it — this round wants a single island in Japan."
@@ -175,7 +182,7 @@ Everything it reported has since been decided and landed: typed-length rule, sea
 
 ## Open threads and likely next tasks
 
-- **Non-capital cities — a ninth category, so it touches the draw.** Needs a new authoring file (`scripts/data-cities.mjs`, `Name|Country|population|aliases`), a `city` category key in `promptBank.js` (`NOUN`, `CATEGORY_LABEL`, `SIZE_RULES` with population thresholds), a 12×12 icon in `icons.js`, `EXPECTED` keywords in `fetch-pageviews.mjs` for the description audit, region tags inherited from the country, and a flag inherited from the country. Decide with the user whether the cohort excludes capitals. SPEC 3.8's draw assumes 8 categories — with 9, "every category once or twice" needs restating (15 slots over 9) and `tests/prompts.test.js` / `run.test.js` assert the current shape. Update SPEC §3.8 and §6 in the same change. This is the one task big enough that the user might want a subagent for it; they asked about subagents and were told this was the natural candidate.
+- **Cities landed on 2026-09-12** (275 rows). Population figures and the theme list were written from memory, like the flags: if a player trips on one, fix the row in `scripts/data-cities.mjs` and `npm run build-data` — no fetch needed unless the *name* changes. Candidates for later: a second city theme ("on a coast" would need a curated list — do not derive it), and cities for countries with none in the bank yet (`node -e` over `cities.json` grouped by `country` shows the gaps).
 - **A full population refresh** (UN WPP 2024) was offered and declined on 2026-09-12 — "don't waste tokens on updating every population". Only Vietnam was bumped. Revisit only if a player reports a size prompt being wrong.
 - **`POINTS_GAMMA`** was taken off the list by the user on 2026-09-12; leave it.
 - **Flag rows are from memory**, not fetched. If a player reports "X isn't accepted for colour Y", first check which category the round was (see Estonia, below), then fix the row in `scripts/data-flags.mjs` and `npm run build-data` — no fetch needed.

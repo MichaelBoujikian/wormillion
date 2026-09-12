@@ -37,6 +37,7 @@ const DAYS = 60;
 const EXPECTED = {
   country: ['countr', 'nation', 'state', 'republic', 'territory', 'kingdom', 'federation', 'island in', 'city-state', 'microstate', 'enclave'],
   capital: ['capital', 'city', 'town', 'municipal', 'seat', 'district', 'commune', 'village'],
+  city: ['city', 'town', 'municipal', 'metropolis', 'capital', 'district', 'commune', 'prefecture', 'borough', 'settlement', 'urban', 'port', 'seat', 'conurbation'],
   lake: ['lake', 'loch', 'llyn', 'reservoir', 'lagoon', 'body of water', 'endorheic', 'sea', 'water'],
   river: ['river', 'stream', 'tributary', 'waterway', 'watercourse'],
   mountain: ['mountain', 'peak', 'summit', 'hill', 'volcano', 'massif', 'mount', 'highest', 'ridge', 'butte', 'mesa', 'monolith', 'crag', 'fell', 'point', 'elevation', 'cliff', 'high'],

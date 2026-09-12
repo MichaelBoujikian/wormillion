@@ -40,6 +40,10 @@ const pairs = [
 const RAW = {
   countries: pairs.filter((e) => e.category === 'country'),
   capitals: pairs.filter((e) => e.category === 'capital'),
+  cities: [
+    { id: 'city-lyon', category: 'city', name: 'Lyon', aliases: [], magnitude: 520000, magnitudeUnit: 'population', region: EUROPE, country: 'France', source: 'fixture' },
+    { id: 'city-munich', category: 'city', name: 'Munich', aliases: ['Munchen'], magnitude: 1500000, magnitudeUnit: 'population', region: EUROPE, country: 'Germany', source: 'fixture' }
+  ],
   lakes: simple('lake', 'area_km2', [['Lake Superior', 82100], ['Loch Ness', 56], ['Lake Victoria', 68800]]),
   rivers: simple('river', 'length_km', [['Nile', 6650], ['Cam', 64]]),
   mountains: simple('mountain', 'elevation_m', [['Mount Everest', 8849], ['Ben Nevis', 1345]]),
@@ -54,6 +58,7 @@ const RAW = {
 const ANSWERS = {
   country: ['France', 'Germany'],
   capital: ['Paris', 'Berlin'],
+  city: ['Lyon', 'Munich'],
   lake: ['Loch Ness', 'Lake Superior'],
   river: ['Cam', 'Nile'],
   mountain: ['Box Hill', 'Ben Nevis'],
@@ -110,7 +115,7 @@ test('the draw is 15 slots covering every category once or twice (Spec 3.8)', ()
     assert.strictEqual(slots.length, 15);
     const counts = new Map();
     for (const slot of slots) counts.set(slot.category, (counts.get(slot.category) || 0) + 1);
-    assert.strictEqual(counts.size, 8, `seed ${seed}: every category present`);
+    assert.strictEqual(counts.size, promptBank.CATEGORIES.length, `seed ${seed}: every category present`);
     for (const [category, n] of counts) {
       assert.ok(n === 1 || n === 2, `seed ${seed}: ${category} appeared ${n} times`);
     }
@@ -138,7 +143,7 @@ test('an unrecognized answer retries for free (Spec 3.4)', () => {
 });
 
 test('a repeat within one run is rejected without advancing (Spec 3.5)', () => {
-  // Seven of eight categories come round twice per run; find a seed where the
+  // Six of nine categories come round twice per run; find a seed where the
   // opening category is one of them, then answer it the same way both times.
   let checked = false;
   for (let seed = 1; seed <= 40 && !checked; seed++) {

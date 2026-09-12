@@ -16,8 +16,9 @@ early on, "Name a river with a T in it" or "Name a river in Mesopotamia" later.
 Misspellings are corrected rather than rejected — type "Kilimanjro" and you get
 Kilimanjaro, with the real spelling shown.
 
-No accounts, no daily lock, no build step, no runtime dependencies. 1,389 real
-places in the bank.
+No accounts, no daily lock, no build step, no runtime dependencies. 1,668 real
+places in the bank across nine categories: countries, capitals, cities that
+aren't capitals, lakes, rivers, mountains, deserts, islands, and seas.
 
 ## Play locally
 
@@ -98,6 +99,7 @@ scripts/
   data-oceans.mjs       ocean classification boxes + overrides
   data-flags.mjs        flag colours per country (generous: emblem colours count)
   data-us-states.mjs    the 50 US state capitals; they join the capital cohort
+  data-cities.mjs       non-capital cities (Name|Country|population|aliases); region and flag come from the country
   data-un-members.mjs   the 193 UN members + observers the validator audits against
   build-data.mjs     emits src/data/* (exports buildFiles() for the fetcher)
   fetch-pageviews.mjs  refreshes pageviews.json
@@ -168,12 +170,12 @@ round 12 harder than round 2:
 
 | modifier | example | source |
 |---|---|---|
-| none | "Name a river." | — |
-| region | "Name a country in Southeast Asia." | region tags on countries/capitals |
+| none | "Name a river." / "Name a city that isn't a national capital." | — |
+| region | "Name a country in Southeast Asia." / "Name a city in the Caribbean." | region tags on countries/capitals; a city's are its country's |
 | theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | `src/data/themes.js`, plus `DERIVED_THEMES` in `promptBank.js` (coastal = not landlocked) |
 | ocean | "Name an island in the Pacific Ocean." | `oceans`, derived from each article's coordinates |
 | flag | "Name a country whose flag has green in it." / "Name the capital of a country whose flag has both black and red in it." | `flag`, hand-authored in `scripts/data-flags.mjs`; capitals inherit their country's |
-| size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
+| size | "Name a country with a population under 1 million." / "Name a city with a population over 5 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
 | letter | "Name a river with a T in it." | derived from the name |
 
 The first two rounds are always plain, in two different categories. After
@@ -291,6 +293,6 @@ requirement. Each of these is deliberate:
   answer pays ~460. Dig depth was re-tuned in v1.2 (a run of median answers
   ends around 570, Mantle); `npm run score-report` prints both curves.
 - More themes. (Capitals have three: not the largest city, on the coast,
-  US state capitals.)
+  US state capitals. Cities have one: the largest city of its country.)
 - More sub-region tags so more of the region list is usable as a prompt scope.
 - Optional: export/clear history from the stats screen.

@@ -39,6 +39,24 @@ globalThis.WORMILLION_THEMES = {
     ]
   },
 
+  city: {
+    // The largest city of a country that is not its capital - the mirror of
+    // the capital theme "not the largest city". Arguable members are in on
+    // purpose (generous): Omdurman outnumbers Khartoum city proper, Quezon
+    // City outnumbers Manila, New Taipei outnumbers Taipei; Gaza City because
+    // Ramallah is the capital in the bank; Serekunda and Manzini are the
+    // largest towns of very small countries.
+    'largest in its country': [
+      'Lagos', 'Abidjan', 'Cotonou', 'Serekunda', 'Omdurman', 'Casablanca',
+      'Dar es Salaam', 'Bujumbura', 'Johannesburg', 'Manzini', 'Douala',
+      'Istanbul', 'Dubai', 'Gaza City', 'Mumbai', 'Karachi', 'Ho Chi Minh City',
+      'Yangon', 'Quezon City', 'Shanghai', 'New Taipei', 'Almaty',
+      'Zurich', 'Antwerp',
+      'New York City', 'Toronto', 'Belize City',
+      'Sao Paulo', 'Guayaquil', 'Santa Cruz de la Sierra',
+      'Sydney', 'Auckland'
+    ]
+  },
   capital: {
     // Capitals that are NOT their country's largest city (by city or metro
     // population; where either reading makes it true, it's in - generous).
@@ -288,6 +306,7 @@ globalThis.WORMILLION_THEME_PROMPTS = {
   landlocked: 'Name a landlocked country.',
   'island nations': 'Name an island nation.',
   'not the largest city': "Name a capital that isn't its country's largest city.",
+  'largest in its country': "Name the largest city of a country that isn't its capital.",
   'on the coast': 'Name a capital city on the coast.',
   'US state capitals': 'Name a US state capital.'
 };

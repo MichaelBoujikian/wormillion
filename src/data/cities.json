@@ -1,0 +1,6858 @@
+[
+ {
+  "id": "city-lagos",
+  "category": "city",
+  "name": "Lagos",
+  "aliases": [],
+  "size": 15400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Nigeria",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Lagos\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Nigeria",
+  "magnitude": 53118,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lagos",
+  "lat": 6.45611111,
+  "lon": 3.39361111
+ },
+ {
+  "id": "city-kano",
+  "category": "city",
+  "name": "Kano",
+  "aliases": [],
+  "size": 4100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Nigeria",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Kano (city)\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Nigeria",
+  "magnitude": 10258,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kano (city)",
+  "lat": 12,
+  "lon": 8.51666667
+ },
+ {
+  "id": "city-ibadan",
+  "category": "city",
+  "name": "Ibadan",
+  "aliases": [],
+  "size": 3600000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Nigeria",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ibadan\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Nigeria",
+  "magnitude": 9345,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ibadan",
+  "lat": 7.39638889,
+  "lon": 3.91666667
+ },
+ {
+  "id": "city-port-harcourt",
+  "category": "city",
+  "name": "Port Harcourt",
+  "aliases": [],
+  "size": 1900000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Nigeria",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Port Harcourt\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Nigeria",
+  "magnitude": 8006,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port Harcourt",
+  "lat": 4.82416667,
+  "lon": 7.03361111
+ },
+ {
+  "id": "city-benin-city",
+  "category": "city",
+  "name": "Benin City",
+  "aliases": [],
+  "size": 1800000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Nigeria",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Benin City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Nigeria",
+  "magnitude": 7914,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Benin City",
+  "lat": 6.33333333,
+  "lon": 5.62222222
+ },
+ {
+  "id": "city-kumasi",
+  "category": "city",
+  "name": "Kumasi",
+  "aliases": [],
+  "size": 3300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Ghana",
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Kumasi\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ghana",
+  "magnitude": 7336,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kumasi",
+  "lat": 6.7,
+  "lon": -1.625
+ },
+ {
+  "id": "city-abidjan",
+  "category": "city",
+  "name": "Abidjan",
+  "aliases": [],
+  "size": 6300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Ivory Coast",
+  "flag": [
+   "white",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Abidjan\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ivory Coast",
+  "magnitude": 19847,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abidjan",
+  "lat": 5.31666667,
+  "lon": -4.03333333
+ },
+ {
+  "id": "city-timbuktu",
+  "category": "city",
+  "name": "Timbuktu",
+  "aliases": [
+   "Tombouctou",
+   "Timbuctoo"
+  ],
+  "size": 55000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Mali",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Timbuktu\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Mali",
+  "magnitude": 37319,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Timbuktu",
+  "lat": 16.77583333,
+  "lon": -3.00944444
+ },
+ {
+  "id": "city-bobo-dioulasso",
+  "category": "city",
+  "name": "Bobo-Dioulasso",
+  "aliases": [
+   "Bobo Dioulasso"
+  ],
+  "size": 900000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Burkina Faso",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Bobo-Dioulasso\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Burkina Faso",
+  "magnitude": 2131,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bobo-Dioulasso",
+  "lat": 11.18333333,
+  "lon": -4.28333333
+ },
+ {
+  "id": "city-cotonou",
+  "category": "city",
+  "name": "Cotonou",
+  "aliases": [],
+  "size": 680000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Benin",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cotonou\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Benin",
+  "magnitude": 8006,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cotonou",
+  "lat": 6.36666667,
+  "lon": 2.43333333
+ },
+ {
+  "id": "city-touba",
+  "category": "city",
+  "name": "Touba",
+  "aliases": [],
+  "size": 1100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Senegal",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Touba\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Senegal",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Touba",
+  "lat": 14.86666667,
+  "lon": -15.88333333
+ },
+ {
+  "id": "city-serekunda",
+  "category": "city",
+  "name": "Serekunda",
+  "aliases": [
+   "Serrekunda"
+  ],
+  "size": 350000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "West Africa"
+  ],
+  "country": "Gambia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Serekunda\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Gambia",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Serekunda",
+  "lat": 13.445,
+  "lon": -16.675
+ },
+ {
+  "id": "city-alexandria",
+  "category": "city",
+  "name": "Alexandria",
+  "aliases": [],
+  "size": 5500000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Egypt",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Alexandria\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Egypt",
+  "magnitude": 56314,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alexandria",
+  "lat": 31.1975,
+  "lon": 29.8925
+ },
+ {
+  "id": "city-giza",
+  "category": "city",
+  "name": "Giza",
+  "aliases": [
+   "Gizeh",
+   "Al Jizah"
+  ],
+  "size": 4900000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Egypt",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Giza\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Egypt",
+  "magnitude": 12907,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Giza",
+  "lat": 29.987,
+  "lon": 31.2118
+ },
+ {
+  "id": "city-luxor",
+  "category": "city",
+  "name": "Luxor",
+  "aliases": [
+   "Thebes"
+  ],
+  "size": 500000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Egypt",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Luxor\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Egypt",
+  "magnitude": 17290,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luxor",
+  "lat": 25.69666667,
+  "lon": 32.64444444
+ },
+ {
+  "id": "city-aswan",
+  "category": "city",
+  "name": "Aswan",
+  "aliases": [
+   "Assuan"
+  ],
+  "size": 350000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Egypt",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Aswan\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Egypt",
+  "magnitude": 10928,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aswan",
+  "lat": 24.08888889,
+  "lon": 32.89972222
+ },
+ {
+  "id": "city-omdurman",
+  "category": "city",
+  "name": "Omdurman",
+  "aliases": [],
+  "size": 2400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Sudan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Omdurman\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Sudan",
+  "magnitude": 3622,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Omdurman",
+  "lat": 15.64027778,
+  "lon": 32.48277778
+ },
+ {
+  "id": "city-oran",
+  "category": "city",
+  "name": "Oran",
+  "aliases": [
+   "Wahran"
+  ],
+  "size": 900000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Algeria",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Oran\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Algeria",
+  "magnitude": 13546,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oran",
+  "lat": 35.69694444,
+  "lon": -0.63305556
+ },
+ {
+  "id": "city-casablanca",
+  "category": "city",
+  "name": "Casablanca",
+  "aliases": [],
+  "size": 3400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Morocco",
+  "flag": [
+   "red",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Casablanca\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Morocco",
+  "magnitude": 50896,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Casablanca",
+  "lat": 33.53333333,
+  "lon": -7.58333333
+ },
+ {
+  "id": "city-marrakesh",
+  "category": "city",
+  "name": "Marrakesh",
+  "aliases": [
+   "Marrakech"
+  ],
+  "size": 930000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Morocco",
+  "flag": [
+   "red",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Marrakesh\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Morocco",
+  "magnitude": 30257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marrakesh",
+  "lat": 31.63,
+  "lon": -8.00888889
+ },
+ {
+  "id": "city-fez",
+  "category": "city",
+  "name": "Fez",
+  "aliases": [
+   "Fes"
+  ],
+  "size": 1100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Morocco",
+  "flag": [
+   "red",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Fez, Morocco\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Morocco",
+  "magnitude": 14155,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fez, Morocco",
+  "lat": 34.04333333,
+  "lon": -5.00333333
+ },
+ {
+  "id": "city-tangier",
+  "category": "city",
+  "name": "Tangier",
+  "aliases": [
+   "Tanger",
+   "Tangiers"
+  ],
+  "size": 1100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Morocco",
+  "flag": [
+   "red",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tangier\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Morocco",
+  "magnitude": 28735,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tangier",
+  "lat": 35.77666667,
+  "lon": -5.80388889
+ },
+ {
+  "id": "city-benghazi",
+  "category": "city",
+  "name": "Benghazi",
+  "aliases": [
+   "Bengasi"
+  ],
+  "size": 700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "North Africa"
+  ],
+  "country": "Libya",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Benghazi\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Libya",
+  "magnitude": 13150,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Benghazi",
+  "lat": 32.11666667,
+  "lon": 20.06666667
+ },
+ {
+  "id": "city-dar-es-salaam",
+  "category": "city",
+  "name": "Dar es Salaam",
+  "aliases": [],
+  "size": 5400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Tanzania",
+  "flag": [
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Dar es Salaam\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Tanzania",
+  "magnitude": 28248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dar es Salaam",
+  "lat": -6.81611111,
+  "lon": 39.28027778
+ },
+ {
+  "id": "city-arusha",
+  "category": "city",
+  "name": "Arusha",
+  "aliases": [],
+  "size": 620000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Tanzania",
+  "flag": [
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Arusha\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Tanzania",
+  "magnitude": 5266,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Arusha",
+  "lat": -3.36666667,
+  "lon": 36.68333333
+ },
+ {
+  "id": "city-mwanza",
+  "category": "city",
+  "name": "Mwanza",
+  "aliases": [],
+  "size": 1100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Tanzania",
+  "flag": [
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Mwanza\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Tanzania",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mwanza",
+  "lat": -2.51666667,
+  "lon": 32.9
+ },
+ {
+  "id": "city-mombasa",
+  "category": "city",
+  "name": "Mombasa",
+  "aliases": [],
+  "size": 1200000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Kenya",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Mombasa\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Kenya",
+  "magnitude": 20243,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mombasa",
+  "lat": -4.05,
+  "lon": 39.66666667
+ },
+ {
+  "id": "city-kisumu",
+  "category": "city",
+  "name": "Kisumu",
+  "aliases": [],
+  "size": 400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Kenya",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Kisumu\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Kenya",
+  "magnitude": 3744,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kisumu",
+  "lat": -0.08333333,
+  "lon": 34.76666667
+ },
+ {
+  "id": "city-nakuru",
+  "category": "city",
+  "name": "Nakuru",
+  "aliases": [],
+  "size": 420000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Kenya",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Nakuru\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Kenya",
+  "magnitude": 2435,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nakuru",
+  "lat": -0.3,
+  "lon": 36.06666667
+ },
+ {
+  "id": "city-jinja",
+  "category": "city",
+  "name": "Jinja",
+  "aliases": [],
+  "size": 240000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Uganda",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Jinja, Uganda\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Uganda",
+  "magnitude": 2557,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jinja, Uganda",
+  "lat": 0.42333333,
+  "lon": 33.20388889
+ },
+ {
+  "id": "city-entebbe",
+  "category": "city",
+  "name": "Entebbe",
+  "aliases": [],
+  "size": 70000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Uganda",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Entebbe\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Uganda",
+  "magnitude": 3775,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Entebbe",
+  "lat": 0.05,
+  "lon": 32.46
+ },
+ {
+  "id": "city-dire-dawa",
+  "category": "city",
+  "name": "Dire Dawa",
+  "aliases": [
+   "Dire-Dawa"
+  ],
+  "size": 490000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Ethiopia",
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Dire Dawa\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ethiopia",
+  "magnitude": 3927,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dire Dawa",
+  "lat": 9.6,
+  "lon": 41.86666667
+ },
+ {
+  "id": "city-bahir-dar",
+  "category": "city",
+  "name": "Bahir Dar",
+  "aliases": [
+   "Bahar Dar"
+  ],
+  "size": 350000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Ethiopia",
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Bahir Dar\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ethiopia",
+  "magnitude": 2435,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bahir Dar"
+ },
+ {
+  "id": "city-gondar",
+  "category": "city",
+  "name": "Gondar",
+  "aliases": [
+   "Gonder"
+  ],
+  "size": 400000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Ethiopia",
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Gondar\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ethiopia",
+  "magnitude": 3927,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gondar",
+  "lat": 12.6075,
+  "lon": 37.45916667
+ },
+ {
+  "id": "city-lalibela",
+  "category": "city",
+  "name": "Lalibela",
+  "aliases": [],
+  "size": 20000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Ethiopia",
+  "flag": [
+   "red",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Lalibela\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ethiopia",
+  "magnitude": 6271,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lalibela",
+  "lat": 12.03166667,
+  "lon": 39.04111111
+ },
+ {
+  "id": "city-hargeisa",
+  "category": "city",
+  "name": "Hargeisa",
+  "aliases": [],
+  "size": 1200000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Somalia",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Hargeisa\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Somalia",
+  "magnitude": 8554,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hargeisa",
+  "lat": 9.56111111,
+  "lon": 44.06666667
+ },
+ {
+  "id": "city-bujumbura",
+  "category": "city",
+  "name": "Bujumbura",
+  "aliases": [],
+  "size": 1000000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Burundi",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Bujumbura\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Burundi",
+  "magnitude": 7854,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bujumbura",
+  "lat": -3.36277778,
+  "lon": 29.36555556
+ },
+ {
+  "id": "city-blantyre",
+  "category": "city",
+  "name": "Blantyre",
+  "aliases": [],
+  "size": 800000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "East Africa"
+  ],
+  "country": "Malawi",
+  "flag": [
+   "red",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Blantyre\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Malawi",
+  "magnitude": 2770,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Blantyre",
+  "lat": -15.78611111,
+  "lon": 35.00583333
+ },
+ {
+  "id": "city-johannesburg",
+  "category": "city",
+  "name": "Johannesburg",
+  "aliases": [
+   "Joburg",
+   "Jozi"
+  ],
+  "size": 4800000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "South Africa",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Johannesburg\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in South Africa",
+  "magnitude": 52996,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Johannesburg",
+  "lat": -26.20444444,
+  "lon": 28.04555556
+ },
+ {
+  "id": "city-cape-town",
+  "category": "city",
+  "name": "Cape Town",
+  "aliases": [
+   "Kaapstad"
+  ],
+  "size": 4770000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "South Africa",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Cape Town\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in South Africa",
+  "magnitude": 58688,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cape Town",
+  "lat": -33.92527778,
+  "lon": 18.42388889
+ },
+ {
+  "id": "city-durban",
+  "category": "city",
+  "name": "Durban",
+  "aliases": [
+   "eThekwini"
+  ],
+  "size": 4200000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "South Africa",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Durban\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in South Africa",
+  "magnitude": 25204,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Durban",
+  "lat": -29.88333333,
+  "lon": 31.05
+ },
+ {
+  "id": "city-port-elizabeth",
+  "category": "city",
+  "name": "Port Elizabeth",
+  "aliases": [
+   "Gqeberha"
+  ],
+  "size": 1150000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "South Africa",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Gqeberha\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in South Africa",
+  "magnitude": 16346,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gqeberha",
+  "lat": -33.95805556,
+  "lon": 25.6
+ },
+ {
+  "id": "city-bulawayo",
+  "category": "city",
+  "name": "Bulawayo",
+  "aliases": [],
+  "size": 670000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Zimbabwe",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Bulawayo\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Zimbabwe",
+  "magnitude": 8127,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bulawayo",
+  "lat": -20.17,
+  "lon": 28.58
+ },
+ {
+  "id": "city-beira",
+  "category": "city",
+  "name": "Beira",
+  "aliases": [],
+  "size": 530000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Mozambique",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Beira, Mozambique\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Mozambique",
+  "magnitude": 2740,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Beira, Mozambique",
+  "lat": -19.83333333,
+  "lon": 34.85
+ },
+ {
+  "id": "city-kitwe",
+  "category": "city",
+  "name": "Kitwe",
+  "aliases": [],
+  "size": 660000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Zambia",
+  "flag": [
+   "red",
+   "green",
+   "black",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Kitwe\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Zambia",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kitwe",
+  "lat": -12.81666667,
+  "lon": 28.2
+ },
+ {
+  "id": "city-livingstone",
+  "category": "city",
+  "name": "Livingstone",
+  "aliases": [],
+  "size": 150000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Zambia",
+  "flag": [
+   "red",
+   "green",
+   "black",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Livingstone, Zambia\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Zambia",
+  "magnitude": 3014,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Livingstone, Zambia",
+  "lat": -17.85,
+  "lon": 25.86666667
+ },
+ {
+  "id": "city-manzini",
+  "category": "city",
+  "name": "Manzini",
+  "aliases": [],
+  "size": 110000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa",
+   "Southern Africa"
+  ],
+  "country": "Eswatini",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Manzini\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Eswatini",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manzini",
+  "lat": -26.48333333,
+  "lon": 31.36666667
+ },
+ {
+  "id": "city-lubumbashi",
+  "category": "city",
+  "name": "Lubumbashi",
+  "aliases": [
+   "Elisabethville"
+  ],
+  "size": 2700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "country": "Democratic Republic of the Congo",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Lubumbashi\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Democratic Republic of the Congo",
+  "magnitude": 6819,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lubumbashi",
+  "lat": -11.66416667,
+  "lon": 27.48277778
+ },
+ {
+  "id": "city-mbuji-mayi",
+  "category": "city",
+  "name": "Mbuji-Mayi",
+  "aliases": [
+   "Mbuji Mayi"
+  ],
+  "size": 2800000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "country": "Democratic Republic of the Congo",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Mbuji-Mayi\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Democratic Republic of the Congo",
+  "magnitude": 2131,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mbuji-Mayi",
+  "lat": -6.1261,
+  "lon": 23.5997
+ },
+ {
+  "id": "city-kisangani",
+  "category": "city",
+  "name": "Kisangani",
+  "aliases": [
+   "Stanleyville"
+  ],
+  "size": 1300000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "country": "Democratic Republic of the Congo",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Kisangani\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Democratic Republic of the Congo",
+  "magnitude": 5510,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kisangani",
+  "lat": 0.51666667,
+  "lon": 25.2
+ },
+ {
+  "id": "city-goma",
+  "category": "city",
+  "name": "Goma",
+  "aliases": [],
+  "size": 1000000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "country": "Democratic Republic of the Congo",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Goma\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Democratic Republic of the Congo",
+  "magnitude": 5692,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Goma",
+  "lat": -1.67944444,
+  "lon": 29.23361111
+ },
+ {
+  "id": "city-douala",
+  "category": "city",
+  "name": "Douala",
+  "aliases": [],
+  "size": 3700000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "country": "Cameroon",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Douala\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Cameroon",
+  "magnitude": 9528,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Douala",
+  "lat": 4.05,
+  "lon": 9.7
+ },
+ {
+  "id": "city-pointe-noire",
+  "category": "city",
+  "name": "Pointe-Noire",
+  "aliases": [
+   "Pointe Noire"
+  ],
+  "size": 1100000,
+  "sizeUnit": "population",
+  "region": [
+   "Africa"
+  ],
+  "country": "Republic of the Congo",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Pointe-Noire\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Republic of the Congo",
+  "magnitude": 2374,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pointe-Noire"
+ },
+ {
+  "id": "city-istanbul",
+  "category": "city",
+  "name": "Istanbul",
+  "aliases": [],
+  "size": 15700000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Turkey",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Istanbul\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Turkey",
+  "magnitude": 102735,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Istanbul",
+  "lat": 41.01361111,
+  "lon": 28.955
+ },
+ {
+  "id": "city-izmir",
+  "category": "city",
+  "name": "Izmir",
+  "aliases": [
+   "Smyrna"
+  ],
+  "size": 4400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Turkey",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"İzmir\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Turkey",
+  "magnitude": 23682,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "İzmir",
+  "lat": 38.42444444,
+  "lon": 27.13222222
+ },
+ {
+  "id": "city-mashhad",
+  "category": "city",
+  "name": "Mashhad",
+  "aliases": [
+   "Mashad"
+  ],
+  "size": 3400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Iran",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Mashhad\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Iran",
+  "magnitude": 11750,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mashhad",
+  "lat": 36.32638889,
+  "lon": 59.54333333
+ },
+ {
+  "id": "city-isfahan",
+  "category": "city",
+  "name": "Isfahan",
+  "aliases": [
+   "Esfahan"
+  ],
+  "size": 2200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Iran",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Isfahan\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Iran",
+  "magnitude": 16285,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isfahan",
+  "lat": 32.66527778,
+  "lon": 51.67027778
+ },
+ {
+  "id": "city-shiraz",
+  "category": "city",
+  "name": "Shiraz",
+  "aliases": [],
+  "size": 1600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Iran",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Shiraz\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Iran",
+  "magnitude": 10167,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shiraz",
+  "lat": 29.61,
+  "lon": 52.5425
+ },
+ {
+  "id": "city-basra",
+  "category": "city",
+  "name": "Basra",
+  "aliases": [
+   "Basrah"
+  ],
+  "size": 1400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Iraq",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Basra\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Iraq",
+  "magnitude": 13241,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Basra",
+  "lat": 30.515,
+  "lon": 47.81
+ },
+ {
+  "id": "city-jeddah",
+  "category": "city",
+  "name": "Jeddah",
+  "aliases": [
+   "Jidda",
+   "Jiddah"
+  ],
+  "size": 3800000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Saudi Arabia",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Jeddah\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Saudi Arabia",
+  "magnitude": 30105,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jeddah",
+  "lat": 21.54333333,
+  "lon": 39.17277778
+ },
+ {
+  "id": "city-mecca",
+  "category": "city",
+  "name": "Mecca",
+  "aliases": [
+   "Makkah"
+  ],
+  "size": 2400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Saudi Arabia",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Mecca\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Saudi Arabia",
+  "magnitude": 66177,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mecca",
+  "lat": 21.4225,
+  "lon": 39.82333333
+ },
+ {
+  "id": "city-medina",
+  "category": "city",
+  "name": "Medina",
+  "aliases": [
+   "Madinah",
+   "Al Madinah"
+  ],
+  "size": 1400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Saudi Arabia",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Medina\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Saudi Arabia",
+  "magnitude": 31110,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Medina",
+  "lat": 24.47,
+  "lon": 39.61
+ },
+ {
+  "id": "city-aleppo",
+  "category": "city",
+  "name": "Aleppo",
+  "aliases": [
+   "Halab"
+  ],
+  "size": 2100000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Syria",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Aleppo\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Syria",
+  "magnitude": 19908,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aleppo",
+  "lat": 36.2,
+  "lon": 37.16
+ },
+ {
+  "id": "city-tel-aviv",
+  "category": "city",
+  "name": "Tel Aviv",
+  "aliases": [
+   "Tel Aviv-Yafo",
+   "Tel Aviv-Jaffa"
+  ],
+  "size": 470000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Israel",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Tel Aviv\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Israel",
+  "magnitude": 55979,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tel Aviv",
+  "lat": 32.08,
+  "lon": 34.78
+ },
+ {
+  "id": "city-haifa",
+  "category": "city",
+  "name": "Haifa",
+  "aliases": [],
+  "size": 290000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Israel",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Haifa\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Israel",
+  "magnitude": 30227,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Haifa",
+  "lat": 32.81916667,
+  "lon": 34.99916667
+ },
+ {
+  "id": "city-dubai",
+  "category": "city",
+  "name": "Dubai",
+  "aliases": [],
+  "size": 3700000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "United Arab Emirates",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Dubai\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United Arab Emirates",
+  "magnitude": 93055,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dubai",
+  "lat": 25.20472222,
+  "lon": 55.27083333
+ },
+ {
+  "id": "city-gaza-city",
+  "category": "city",
+  "name": "Gaza City",
+  "aliases": [
+   "Gaza"
+  ],
+  "size": 590000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Middle East"
+  ],
+  "country": "Palestine",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Gaza City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Palestine",
+  "magnitude": 37076,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gaza City",
+  "lat": 31.5075,
+  "lon": 34.45972222
+ },
+ {
+  "id": "city-mumbai",
+  "category": "city",
+  "name": "Mumbai",
+  "aliases": [
+   "Bombay"
+  ],
+  "size": 12400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Mumbai\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 101183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mumbai",
+  "lat": 19.07611111,
+  "lon": 72.8775
+ },
+ {
+  "id": "city-kolkata",
+  "category": "city",
+  "name": "Kolkata",
+  "aliases": [
+   "Calcutta"
+  ],
+  "size": 4500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Kolkata\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 58536,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kolkata",
+  "lat": 22.5675,
+  "lon": 88.37
+ },
+ {
+  "id": "city-chennai",
+  "category": "city",
+  "name": "Chennai",
+  "aliases": [
+   "Madras"
+  ],
+  "size": 4700000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Chennai\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 56588,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chennai",
+  "lat": 13.0825,
+  "lon": 80.275
+ },
+ {
+  "id": "city-bengaluru",
+  "category": "city",
+  "name": "Bengaluru",
+  "aliases": [
+   "Bangalore"
+  ],
+  "size": 8400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Bengaluru\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 68855,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bengaluru",
+  "lat": 12.97888889,
+  "lon": 77.59166667
+ },
+ {
+  "id": "city-hyderabad",
+  "category": "city",
+  "name": "Hyderabad",
+  "aliases": [],
+  "size": 6800000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Hyderabad\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 66572,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hyderabad",
+  "lat": 17.3617,
+  "lon": 78.4747
+ },
+ {
+  "id": "city-ahmedabad",
+  "category": "city",
+  "name": "Ahmedabad",
+  "aliases": [
+   "Ahmadabad"
+  ],
+  "size": 5600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Ahmedabad\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 34854,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ahmedabad",
+  "lat": 23.0225,
+  "lon": 72.57138889
+ },
+ {
+  "id": "city-pune",
+  "category": "city",
+  "name": "Pune",
+  "aliases": [
+   "Poona"
+  ],
+  "size": 3100000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Pune\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 32510,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pune",
+  "lat": 18.52111111,
+  "lon": 73.85527778
+ },
+ {
+  "id": "city-surat",
+  "category": "city",
+  "name": "Surat",
+  "aliases": [],
+  "size": 4500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Surat\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 13241,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Surat",
+  "lat": 21.205,
+  "lon": 72.84
+ },
+ {
+  "id": "city-jaipur",
+  "category": "city",
+  "name": "Jaipur",
+  "aliases": [],
+  "size": 3100000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Jaipur\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 27913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jaipur",
+  "lat": 26.915,
+  "lon": 75.82
+ },
+ {
+  "id": "city-lucknow",
+  "category": "city",
+  "name": "Lucknow",
+  "aliases": [],
+  "size": 2800000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Lucknow\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 28401,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lucknow",
+  "lat": 26.85,
+  "lon": 80.95
+ },
+ {
+  "id": "city-kanpur",
+  "category": "city",
+  "name": "Kanpur",
+  "aliases": [
+   "Cawnpore"
+  ],
+  "size": 2800000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Kanpur\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 13850,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kanpur",
+  "lat": 26.449923,
+  "lon": 80.331874
+ },
+ {
+  "id": "city-nagpur",
+  "category": "city",
+  "name": "Nagpur",
+  "aliases": [],
+  "size": 2400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Nagpur\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 15707,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nagpur"
+ },
+ {
+  "id": "city-varanasi",
+  "category": "city",
+  "name": "Varanasi",
+  "aliases": [
+   "Benares",
+   "Banaras",
+   "Kashi"
+  ],
+  "size": 1200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Varanasi\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 38354,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Varanasi",
+  "lat": 25.31888889,
+  "lon": 83.01277778
+ },
+ {
+  "id": "city-agra",
+  "category": "city",
+  "name": "Agra",
+  "aliases": [],
+  "size": 1600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "India",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Agra\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in India",
+  "magnitude": 22069,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Agra",
+  "lat": 27.18,
+  "lon": 78.02
+ },
+ {
+  "id": "city-karachi",
+  "category": "city",
+  "name": "Karachi",
+  "aliases": [],
+  "size": 20400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Pakistan",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Karachi\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Pakistan",
+  "magnitude": 53666,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Karachi",
+  "lat": 24.86,
+  "lon": 67.01
+ },
+ {
+  "id": "city-lahore",
+  "category": "city",
+  "name": "Lahore",
+  "aliases": [],
+  "size": 13000000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Pakistan",
+  "flag": [
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Lahore\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Pakistan",
+  "magnitude": 44960,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lahore",
+  "lat": 31.54972222,
+  "lon": 74.34361111
+ },
+ {
+  "id": "city-chittagong",
+  "category": "city",
+  "name": "Chittagong",
+  "aliases": [
+   "Chattogram"
+  ],
+  "size": 3200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Bangladesh",
+  "flag": [
+   "red",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Chittagong\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Bangladesh",
+  "magnitude": 14033,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chittagong",
+  "lat": 22.335,
+  "lon": 91.8325
+ },
+ {
+  "id": "city-kandahar",
+  "category": "city",
+  "name": "Kandahar",
+  "aliases": [
+   "Qandahar"
+  ],
+  "size": 610000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia",
+   "Central Asia"
+  ],
+  "country": "Afghanistan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Kandahar\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Afghanistan",
+  "magnitude": 22891,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kandahar",
+  "lat": 31.62,
+  "lon": 65.71583333
+ },
+ {
+  "id": "city-herat",
+  "category": "city",
+  "name": "Herat",
+  "aliases": [],
+  "size": 570000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia",
+   "Central Asia"
+  ],
+  "country": "Afghanistan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Herat\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Afghanistan",
+  "magnitude": 12754,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Herat",
+  "lat": 34.34194444,
+  "lon": 62.20305556
+ },
+ {
+  "id": "city-mazar-i-sharif",
+  "category": "city",
+  "name": "Mazar-i-Sharif",
+  "aliases": [
+   "Mazar-e-Sharif",
+   "Mazar i Sharif",
+   "Mazar e Sharif"
+  ],
+  "size": 500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia",
+   "Central Asia"
+  ],
+  "country": "Afghanistan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Mazar-i-Sharif\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Afghanistan",
+  "magnitude": 6088,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mazar-i-Sharif",
+  "lat": 36.7,
+  "lon": 67.11666667
+ },
+ {
+  "id": "city-pokhara",
+  "category": "city",
+  "name": "Pokhara",
+  "aliases": [],
+  "size": 520000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Nepal",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Pokhara\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Nepal",
+  "magnitude": 8006,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pokhara",
+  "lat": 28.20833333,
+  "lon": 83.98888889
+ },
+ {
+  "id": "city-kandy",
+  "category": "city",
+  "name": "Kandy",
+  "aliases": [],
+  "size": 125000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "South Asia"
+  ],
+  "country": "Sri Lanka",
+  "flag": [
+   "red",
+   "green",
+   "yellow",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Kandy\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Sri Lanka",
+  "magnitude": 8219,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kandy",
+  "lat": 7.2931,
+  "lon": 80.635
+ },
+ {
+  "id": "city-surabaya",
+  "category": "city",
+  "name": "Surabaya",
+  "aliases": [],
+  "size": 2900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Indonesia",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Surabaya\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Indonesia",
+  "magnitude": 12663,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Surabaya",
+  "lat": -7.24583333,
+  "lon": 112.73777778
+ },
+ {
+  "id": "city-bandung",
+  "category": "city",
+  "name": "Bandung",
+  "aliases": [],
+  "size": 2500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Indonesia",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Bandung\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Indonesia",
+  "magnitude": 10106,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bandung",
+  "lat": -6.92194444,
+  "lon": 107.60694444
+ },
+ {
+  "id": "city-medan",
+  "category": "city",
+  "name": "Medan",
+  "aliases": [],
+  "size": 2400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Indonesia",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Medan\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Indonesia",
+  "magnitude": 7975,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Medan",
+  "lat": 3.58944444,
+  "lon": 98.67388889
+ },
+ {
+  "id": "city-makassar",
+  "category": "city",
+  "name": "Makassar",
+  "aliases": [
+   "Ujung Pandang"
+  ],
+  "size": 1400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Indonesia",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Makassar\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Indonesia",
+  "magnitude": 7245,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Makassar",
+  "lat": -5.1331,
+  "lon": 119.4136
+ },
+ {
+  "id": "city-yogyakarta",
+  "category": "city",
+  "name": "Yogyakarta",
+  "aliases": [
+   "Jogja",
+   "Jogjakarta",
+   "Yogya"
+  ],
+  "size": 400000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Indonesia",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Yogyakarta\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Indonesia",
+  "magnitude": 11293,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yogyakarta",
+  "lat": -7.80138889,
+  "lon": 110.36444444
+ },
+ {
+  "id": "city-ho-chi-minh-city",
+  "category": "city",
+  "name": "Ho Chi Minh City",
+  "aliases": [
+   "Saigon",
+   "HCMC",
+   "Ho Chi Minh"
+  ],
+  "size": 9300000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Vietnam",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Ho Chi Minh City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Vietnam",
+  "magnitude": 63102,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ho Chi Minh City",
+  "lat": 10.77555556,
+  "lon": 106.70194444
+ },
+ {
+  "id": "city-da-nang",
+  "category": "city",
+  "name": "Da Nang",
+  "aliases": [
+   "Danang"
+  ],
+  "size": 1200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Vietnam",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Da Nang\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Vietnam",
+  "magnitude": 22373,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Da Nang",
+  "lat": 16.06944444,
+  "lon": 108.20972222
+ },
+ {
+  "id": "city-chiang-mai",
+  "category": "city",
+  "name": "Chiang Mai",
+  "aliases": [
+   "Chiangmai"
+  ],
+  "size": 130000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Thailand",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Chiang Mai\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Thailand",
+  "magnitude": 21856,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chiang Mai",
+  "lat": 18.79527778,
+  "lon": 98.99861111
+ },
+ {
+  "id": "city-yangon",
+  "category": "city",
+  "name": "Yangon",
+  "aliases": [
+   "Rangoon"
+  ],
+  "size": 5200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Myanmar",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Yangon\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Myanmar",
+  "magnitude": 22860,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yangon",
+  "lat": 16.795,
+  "lon": 96.16
+ },
+ {
+  "id": "city-mandalay",
+  "category": "city",
+  "name": "Mandalay",
+  "aliases": [],
+  "size": 1200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Myanmar",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Mandalay\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Myanmar",
+  "magnitude": 7580,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mandalay",
+  "lat": 21.98305556,
+  "lon": 96.08444444
+ },
+ {
+  "id": "city-george-town",
+  "category": "city",
+  "name": "George Town",
+  "aliases": [],
+  "size": 790000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Malaysia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"George Town, Penang\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Malaysia",
+  "magnitude": 11476,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "George Town, Penang",
+  "lat": 5.41444444,
+  "lon": 100.32916667
+ },
+ {
+  "id": "city-quezon-city",
+  "category": "city",
+  "name": "Quezon City",
+  "aliases": [],
+  "size": 2960000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Philippines",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Quezon City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Philippines",
+  "magnitude": 25813,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Quezon City",
+  "lat": 14.65,
+  "lon": 121.0475
+ },
+ {
+  "id": "city-davao-city",
+  "category": "city",
+  "name": "Davao City",
+  "aliases": [
+   "Davao"
+  ],
+  "size": 1780000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Philippines",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Davao City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Philippines",
+  "magnitude": 14855,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Davao City",
+  "lat": 7.066233,
+  "lon": 125.609442
+ },
+ {
+  "id": "city-cebu-city",
+  "category": "city",
+  "name": "Cebu City",
+  "aliases": [],
+  "size": 960000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Philippines",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cebu City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Philippines",
+  "magnitude": 14215,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cebu City",
+  "lat": 10.293,
+  "lon": 123.902
+ },
+ {
+  "id": "city-siem-reap",
+  "category": "city",
+  "name": "Siem Reap",
+  "aliases": [],
+  "size": 250000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Cambodia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Siem Reap\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Cambodia",
+  "magnitude": 10228,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Siem Reap",
+  "lat": 13.36222222,
+  "lon": 103.85972222
+ },
+ {
+  "id": "city-luang-prabang",
+  "category": "city",
+  "name": "Luang Prabang",
+  "aliases": [
+   "Louangphabang"
+  ],
+  "size": 56000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Southeast Asia"
+  ],
+  "country": "Laos",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Luang Prabang\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Laos",
+  "magnitude": 8006,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luang Prabang",
+  "lat": 19.89,
+  "lon": 102.13472222
+ },
+ {
+  "id": "city-shanghai",
+  "category": "city",
+  "name": "Shanghai",
+  "aliases": [],
+  "size": 24900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Shanghai\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 89859,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shanghai",
+  "lat": 31.2325,
+  "lon": 121.46916667
+ },
+ {
+  "id": "city-chongqing",
+  "category": "city",
+  "name": "Chongqing",
+  "aliases": [
+   "Chungking"
+  ],
+  "size": 32000000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Chongqing\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 102004,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chongqing",
+  "lat": 29.5637,
+  "lon": 106.5504
+ },
+ {
+  "id": "city-tianjin",
+  "category": "city",
+  "name": "Tianjin",
+  "aliases": [
+   "Tientsin"
+  ],
+  "size": 13900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Tianjin\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 27700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tianjin",
+  "lat": 39.1336,
+  "lon": 117.2054
+ },
+ {
+  "id": "city-wuhan",
+  "category": "city",
+  "name": "Wuhan",
+  "aliases": [],
+  "size": 12300000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Wuhan\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 24869,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wuhan",
+  "lat": 30.595,
+  "lon": 114.2975
+ },
+ {
+  "id": "city-chengdu",
+  "category": "city",
+  "name": "Chengdu",
+  "aliases": [],
+  "size": 20900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Chengdu\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 40394,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chengdu",
+  "lat": 30.66,
+  "lon": 104.06333333
+ },
+ {
+  "id": "city-guangzhou",
+  "category": "city",
+  "name": "Guangzhou",
+  "aliases": [
+   "Canton"
+  ],
+  "size": 18700000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Guangzhou\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 76739,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guangzhou",
+  "lat": 23.13,
+  "lon": 113.26
+ },
+ {
+  "id": "city-shenzhen",
+  "category": "city",
+  "name": "Shenzhen",
+  "aliases": [],
+  "size": 17600000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Shenzhen\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 57349,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shenzhen",
+  "lat": 22.54666667,
+  "lon": 114.05444444
+ },
+ {
+  "id": "city-xi-an",
+  "category": "city",
+  "name": "Xi'an",
+  "aliases": [
+   "Sian"
+  ],
+  "size": 12900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Xi'an\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 35676,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Xi'an",
+  "lat": 34.26111111,
+  "lon": 108.94222222
+ },
+ {
+  "id": "city-hangzhou",
+  "category": "city",
+  "name": "Hangzhou",
+  "aliases": [],
+  "size": 11900000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Hangzhou\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 33575,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hangzhou",
+  "lat": 30.267,
+  "lon": 120.153
+ },
+ {
+  "id": "city-nanjing",
+  "category": "city",
+  "name": "Nanjing",
+  "aliases": [
+   "Nanking"
+  ],
+  "size": 9300000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Nanjing\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 38080,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nanjing",
+  "lat": 32.06083333,
+  "lon": 118.77888889
+ },
+ {
+  "id": "city-harbin",
+  "category": "city",
+  "name": "Harbin",
+  "aliases": [],
+  "size": 10000000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Harbin\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 28553,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Harbin",
+  "lat": 45.7576,
+  "lon": 126.6409
+ },
+ {
+  "id": "city-lhasa",
+  "category": "city",
+  "name": "Lhasa",
+  "aliases": [],
+  "size": 870000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Lhasa\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 16559,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lhasa",
+  "lat": 29.6539,
+  "lon": 91.1175
+ },
+ {
+  "id": "city-hong-kong",
+  "category": "city",
+  "name": "Hong Kong",
+  "aliases": [
+   "HK"
+  ],
+  "size": 7500000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Hong Kong\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 216763,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hong Kong",
+  "lat": 22.3,
+  "lon": 114.2
+ },
+ {
+  "id": "city-osaka",
+  "category": "city",
+  "name": "Osaka",
+  "aliases": [],
+  "size": 2750000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Japan",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Osaka\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Japan",
+  "magnitude": 44229,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Osaka",
+  "lat": 34.69388889,
+  "lon": 135.50222222
+ },
+ {
+  "id": "city-yokohama",
+  "category": "city",
+  "name": "Yokohama",
+  "aliases": [],
+  "size": 3770000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Japan",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Yokohama\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Japan",
+  "magnitude": 26757,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yokohama",
+  "lat": 35.44416667,
+  "lon": 139.63805556
+ },
+ {
+  "id": "city-kyoto",
+  "category": "city",
+  "name": "Kyoto",
+  "aliases": [],
+  "size": 1460000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Japan",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Kyoto\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Japan",
+  "magnitude": 42159,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kyoto",
+  "lat": 35.01161,
+  "lon": 135.76811
+ },
+ {
+  "id": "city-nagoya",
+  "category": "city",
+  "name": "Nagoya",
+  "aliases": [],
+  "size": 2330000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Japan",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Nagoya\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Japan",
+  "magnitude": 27487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nagoya",
+  "lat": 35.18333333,
+  "lon": 136.9
+ },
+ {
+  "id": "city-sapporo",
+  "category": "city",
+  "name": "Sapporo",
+  "aliases": [],
+  "size": 1970000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Japan",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Sapporo\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Japan",
+  "magnitude": 28644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sapporo",
+  "lat": 43.06194444,
+  "lon": 141.35444444
+ },
+ {
+  "id": "city-fukuoka",
+  "category": "city",
+  "name": "Fukuoka",
+  "aliases": [],
+  "size": 1630000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Japan",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Fukuoka\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Japan",
+  "magnitude": 23074,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fukuoka",
+  "lat": 33.59,
+  "lon": 130.40166667
+ },
+ {
+  "id": "city-hiroshima",
+  "category": "city",
+  "name": "Hiroshima",
+  "aliases": [],
+  "size": 1190000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Japan",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Hiroshima\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Japan",
+  "magnitude": 42068,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hiroshima",
+  "lat": 34.39138889,
+  "lon": 132.45194444
+ },
+ {
+  "id": "city-busan",
+  "category": "city",
+  "name": "Busan",
+  "aliases": [
+   "Pusan"
+  ],
+  "size": 3300000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "South Korea",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Busan\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in South Korea",
+  "magnitude": 29466,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Busan",
+  "lat": 35.18,
+  "lon": 129.075
+ },
+ {
+  "id": "city-kaohsiung",
+  "category": "city",
+  "name": "Kaohsiung",
+  "aliases": [],
+  "size": 2730000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Kaohsiung\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 14215,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kaohsiung",
+  "lat": 22.615,
+  "lon": 120.2975
+ },
+ {
+  "id": "city-new-taipei",
+  "category": "city",
+  "name": "New Taipei",
+  "aliases": [
+   "New Taipei City"
+  ],
+  "size": 4000000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"New Taipei City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 12511,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Taipei City",
+  "lat": 25.0125,
+  "lon": 121.465
+ },
+ {
+  "id": "city-hamhung",
+  "category": "city",
+  "name": "Hamhung",
+  "aliases": [],
+  "size": 770000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "North Korea",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Hamhung\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in North Korea",
+  "magnitude": 4383,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hamhung",
+  "lat": 39.91666667,
+  "lon": 127.53333333
+ },
+ {
+  "id": "city-almaty",
+  "category": "city",
+  "name": "Almaty",
+  "aliases": [
+   "Alma-Ata",
+   "Alma Ata"
+  ],
+  "size": 2200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Kazakhstan",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Almaty\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Kazakhstan",
+  "magnitude": 43560,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Almaty",
+  "lat": 43.23333333,
+  "lon": 76.95
+ },
+ {
+  "id": "city-shymkent",
+  "category": "city",
+  "name": "Shymkent",
+  "aliases": [
+   "Chimkent"
+  ],
+  "size": 1200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Kazakhstan",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Shymkent\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Kazakhstan",
+  "magnitude": 5510,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shymkent",
+  "lat": 42.31666667,
+  "lon": 69.59583333
+ },
+ {
+  "id": "city-samarkand",
+  "category": "city",
+  "name": "Samarkand",
+  "aliases": [
+   "Samarqand"
+  ],
+  "size": 550000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Uzbekistan",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Samarkand\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Uzbekistan",
+  "magnitude": 35280,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samarkand",
+  "lat": 39.65055556,
+  "lon": 66.96527778
+ },
+ {
+  "id": "city-bukhara",
+  "category": "city",
+  "name": "Bukhara",
+  "aliases": [
+   "Bukhoro",
+   "Buxoro"
+  ],
+  "size": 280000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Uzbekistan",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Bukhara\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Uzbekistan",
+  "magnitude": 17107,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bukhara",
+  "lat": 39.76666667,
+  "lon": 64.42305556
+ },
+ {
+  "id": "city-khiva",
+  "category": "city",
+  "name": "Khiva",
+  "aliases": [
+   "Xiva"
+  ],
+  "size": 95000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Uzbekistan",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Khiva\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Uzbekistan",
+  "magnitude": 6819,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Khiva",
+  "lat": 41.38138889,
+  "lon": 60.36111111
+ },
+ {
+  "id": "city-osh",
+  "category": "city",
+  "name": "Osh",
+  "aliases": [],
+  "size": 320000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Kyrgyzstan",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Osh\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Kyrgyzstan",
+  "magnitude": 4749,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Osh",
+  "lat": 40.53,
+  "lon": 72.8
+ },
+ {
+  "id": "city-khujand",
+  "category": "city",
+  "name": "Khujand",
+  "aliases": [
+   "Khodjent",
+   "Leninabad"
+  ],
+  "size": 200000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "Central Asia"
+  ],
+  "country": "Tajikistan",
+  "flag": [
+   "red",
+   "white",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Khujand\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Tajikistan",
+  "magnitude": 4353,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Khujand",
+  "lat": 40.2794,
+  "lon": 69.6319
+ },
+ {
+  "id": "city-batumi",
+  "category": "city",
+  "name": "Batumi",
+  "aliases": [],
+  "size": 170000,
+  "sizeUnit": "population",
+  "region": [
+   "Asia"
+  ],
+  "country": "Georgia",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Batumi\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Georgia",
+  "magnitude": 14733,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Batumi",
+  "lat": 41.64583333,
+  "lon": 41.64166667
+ },
+ {
+  "id": "city-munich",
+  "category": "city",
+  "name": "Munich",
+  "aliases": [
+   "Munchen",
+   "Muenchen"
+  ],
+  "size": 1500000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Germany",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Munich\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Germany",
+  "magnitude": 65629,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Munich",
+  "lat": 48.1375,
+  "lon": 11.575
+ },
+ {
+  "id": "city-hamburg",
+  "category": "city",
+  "name": "Hamburg",
+  "aliases": [],
+  "size": 1900000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Germany",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Hamburg\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Germany",
+  "magnitude": 58658,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hamburg",
+  "lat": 53.55,
+  "lon": 10
+ },
+ {
+  "id": "city-frankfurt",
+  "category": "city",
+  "name": "Frankfurt",
+  "aliases": [
+   "Frankfurt am Main"
+  ],
+  "size": 770000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Germany",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Frankfurt\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Germany",
+  "magnitude": 48095,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Frankfurt",
+  "lat": 50.11055556,
+  "lon": 8.68222222
+ },
+ {
+  "id": "city-cologne",
+  "category": "city",
+  "name": "Cologne",
+  "aliases": [
+   "Koln",
+   "Koeln"
+  ],
+  "size": 1100000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Germany",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Cologne\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Germany",
+  "magnitude": 54214,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cologne",
+  "lat": 50.93638889,
+  "lon": 6.95277778
+ },
+ {
+  "id": "city-marseille",
+  "category": "city",
+  "name": "Marseille",
+  "aliases": [
+   "Marseilles"
+  ],
+  "size": 870000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "France",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Marseille\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in France",
+  "magnitude": 49343,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marseille",
+  "lat": 43.2964,
+  "lon": 5.37
+ },
+ {
+  "id": "city-lyon",
+  "category": "city",
+  "name": "Lyon",
+  "aliases": [
+   "Lyons"
+  ],
+  "size": 520000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "France",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lyon\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in France",
+  "magnitude": 42251,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lyon",
+  "lat": 45.7675,
+  "lon": 4.835
+ },
+ {
+  "id": "city-nice",
+  "category": "city",
+  "name": "Nice",
+  "aliases": [],
+  "size": 340000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "France",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Nice\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in France",
+  "magnitude": 39876,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nice",
+  "lat": 43.7034,
+  "lon": 7.2663
+ },
+ {
+  "id": "city-toulouse",
+  "category": "city",
+  "name": "Toulouse",
+  "aliases": [],
+  "size": 500000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "France",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Toulouse\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in France",
+  "magnitude": 31536,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Toulouse",
+  "lat": 43.6045,
+  "lon": 1.444
+ },
+ {
+  "id": "city-bordeaux",
+  "category": "city",
+  "name": "Bordeaux",
+  "aliases": [],
+  "size": 260000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "France",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bordeaux\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in France",
+  "magnitude": 31414,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bordeaux",
+  "lat": 44.84,
+  "lon": -0.58
+ },
+ {
+  "id": "city-manchester",
+  "category": "city",
+  "name": "Manchester",
+  "aliases": [],
+  "size": 550000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Manchester\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "magnitude": 73543,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manchester",
+  "lat": 53.47944444,
+  "lon": -2.24527778
+ },
+ {
+  "id": "city-birmingham",
+  "category": "city",
+  "name": "Birmingham",
+  "aliases": [],
+  "size": 1150000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Birmingham\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "magnitude": 85202,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Birmingham",
+  "lat": 52.48,
+  "lon": -1.9025
+ },
+ {
+  "id": "city-liverpool",
+  "category": "city",
+  "name": "Liverpool",
+  "aliases": [],
+  "size": 490000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Liverpool\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "magnitude": 72082,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Liverpool",
+  "lat": 53.4072,
+  "lon": -2.9917
+ },
+ {
+  "id": "city-glasgow",
+  "category": "city",
+  "name": "Glasgow",
+  "aliases": [],
+  "size": 630000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Glasgow\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "magnitude": 74182,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Glasgow",
+  "lat": 55.86111111,
+  "lon": -4.25
+ },
+ {
+  "id": "city-edinburgh",
+  "category": "city",
+  "name": "Edinburgh",
+  "aliases": [],
+  "size": 510000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Edinburgh\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "magnitude": 89189,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Edinburgh",
+  "lat": 55.95333333,
+  "lon": -3.18916667
+ },
+ {
+  "id": "city-oxford",
+  "category": "city",
+  "name": "Oxford",
+  "aliases": [],
+  "size": 160000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Oxford\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "magnitude": 36163,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oxford",
+  "lat": 51.75194444,
+  "lon": -1.25777778
+ },
+ {
+  "id": "city-milan",
+  "category": "city",
+  "name": "Milan",
+  "aliases": [
+   "Milano"
+  ],
+  "size": 1370000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Italy",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Milan\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 65842,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Milan",
+  "lat": 45.46694444,
+  "lon": 9.19
+ },
+ {
+  "id": "city-naples",
+  "category": "city",
+  "name": "Naples",
+  "aliases": [
+   "Napoli"
+  ],
+  "size": 910000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Italy",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Naples\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 61458,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Naples",
+  "lat": 40.8358,
+  "lon": 14.2486
+ },
+ {
+  "id": "city-turin",
+  "category": "city",
+  "name": "Turin",
+  "aliases": [
+   "Torino"
+  ],
+  "size": 850000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Italy",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Turin\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 44625,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Turin",
+  "lat": 45.07916667,
+  "lon": 7.67611111
+ },
+ {
+  "id": "city-florence",
+  "category": "city",
+  "name": "Florence",
+  "aliases": [
+   "Firenze"
+  ],
+  "size": 360000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Italy",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Florence\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 54853,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Florence",
+  "lat": 43.77138889,
+  "lon": 11.25416667
+ },
+ {
+  "id": "city-venice",
+  "category": "city",
+  "name": "Venice",
+  "aliases": [
+   "Venezia"
+  ],
+  "size": 250000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Italy",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Venice\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 81792,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Venice",
+  "lat": 45.4375,
+  "lon": 12.33583333
+ },
+ {
+  "id": "city-barcelona",
+  "category": "city",
+  "name": "Barcelona",
+  "aliases": [],
+  "size": 1660000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Barcelona\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Spain",
+  "magnitude": 93055,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barcelona",
+  "lat": 41.38333333,
+  "lon": 2.18333333
+ },
+ {
+  "id": "city-valencia",
+  "category": "city",
+  "name": "Valencia",
+  "aliases": [],
+  "size": 800000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Valencia\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Spain",
+  "magnitude": 50500,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Valencia",
+  "lat": 39.47,
+  "lon": -0.37638889
+ },
+ {
+  "id": "city-seville",
+  "category": "city",
+  "name": "Seville",
+  "aliases": [
+   "Sevilla"
+  ],
+  "size": 690000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Seville\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Spain",
+  "magnitude": 50713,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seville",
+  "lat": 37.38861111,
+  "lon": -5.995
+ },
+ {
+  "id": "city-rotterdam",
+  "category": "city",
+  "name": "Rotterdam",
+  "aliases": [],
+  "size": 660000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Netherlands",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Rotterdam\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Netherlands",
+  "magnitude": 30927,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rotterdam",
+  "lat": 51.92,
+  "lon": 4.48
+ },
+ {
+  "id": "city-the-hague",
+  "category": "city",
+  "name": "The Hague",
+  "aliases": [
+   "Den Haag",
+   "Hague"
+  ],
+  "size": 560000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Netherlands",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"The Hague\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Netherlands",
+  "magnitude": 69768,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "The Hague",
+  "lat": 52.08,
+  "lon": 4.31
+ },
+ {
+  "id": "city-antwerp",
+  "category": "city",
+  "name": "Antwerp",
+  "aliases": [
+   "Antwerpen",
+   "Anvers"
+  ],
+  "size": 540000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Belgium",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Antwerp\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Belgium",
+  "magnitude": 36558,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antwerp",
+  "lat": 51.21777778,
+  "lon": 4.40027778
+ },
+ {
+  "id": "city-bruges",
+  "category": "city",
+  "name": "Bruges",
+  "aliases": [
+   "Brugge"
+  ],
+  "size": 120000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Belgium",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Bruges\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Belgium",
+  "magnitude": 31505,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bruges",
+  "lat": 51.20888889,
+  "lon": 3.22416667
+ },
+ {
+  "id": "city-porto",
+  "category": "city",
+  "name": "Porto",
+  "aliases": [
+   "Oporto"
+  ],
+  "size": 230000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Portugal",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Porto\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Portugal",
+  "magnitude": 35676,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Porto",
+  "lat": 41.15,
+  "lon": -8.6108
+ },
+ {
+  "id": "city-salzburg",
+  "category": "city",
+  "name": "Salzburg",
+  "aliases": [],
+  "size": 160000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Austria",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Salzburg\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Austria",
+  "magnitude": 33575,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Salzburg",
+  "lat": 47.8,
+  "lon": 13.045
+ },
+ {
+  "id": "city-zurich",
+  "category": "city",
+  "name": "Zurich",
+  "aliases": [
+   "Zuerich"
+  ],
+  "size": 430000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Switzerland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Zurich\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Switzerland",
+  "magnitude": 41246,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zurich",
+  "lat": 47.37444444,
+  "lon": 8.54111111
+ },
+ {
+  "id": "city-geneva",
+  "category": "city",
+  "name": "Geneva",
+  "aliases": [
+   "Geneve",
+   "Genf"
+  ],
+  "size": 200000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Switzerland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Geneva\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Switzerland",
+  "magnitude": 45082,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Geneva",
+  "lat": 46.20166667,
+  "lon": 6.14694444
+ },
+ {
+  "id": "city-cork",
+  "category": "city",
+  "name": "Cork",
+  "aliases": [],
+  "size": 220000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Ireland",
+  "flag": [
+   "white",
+   "green",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Cork (city)\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ireland",
+  "magnitude": 32662,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cork (city)",
+  "lat": 51.89722222,
+  "lon": -8.47
+ },
+ {
+  "id": "city-saint-petersburg",
+  "category": "city",
+  "name": "Saint Petersburg",
+  "aliases": [
+   "St Petersburg",
+   "Leningrad",
+   "Petrograd"
+  ],
+  "size": 5600000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Russia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Saint Petersburg\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Russia",
+  "magnitude": 83954,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Petersburg",
+  "lat": 59.9375,
+  "lon": 30.30861111
+ },
+ {
+  "id": "city-novosibirsk",
+  "category": "city",
+  "name": "Novosibirsk",
+  "aliases": [],
+  "size": 1600000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Russia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Novosibirsk\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Russia",
+  "magnitude": 29283,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Novosibirsk",
+  "lat": 55.05,
+  "lon": 82.95
+ },
+ {
+  "id": "city-yekaterinburg",
+  "category": "city",
+  "name": "Yekaterinburg",
+  "aliases": [
+   "Ekaterinburg",
+   "Sverdlovsk"
+  ],
+  "size": 1500000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Russia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Yekaterinburg\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Russia",
+  "magnitude": 34123,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yekaterinburg",
+  "lat": 56.83555556,
+  "lon": 60.61277778
+ },
+ {
+  "id": "city-kazan",
+  "category": "city",
+  "name": "Kazan",
+  "aliases": [],
+  "size": 1300000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Russia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Kazan\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Russia",
+  "magnitude": 29375,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kazan",
+  "lat": 55.79638889,
+  "lon": 49.10888889
+ },
+ {
+  "id": "city-vladivostok",
+  "category": "city",
+  "name": "Vladivostok",
+  "aliases": [],
+  "size": 600000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Russia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Vladivostok\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Russia",
+  "magnitude": 39055,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vladivostok",
+  "lat": 43.115,
+  "lon": 131.8853
+ },
+ {
+  "id": "city-volgograd",
+  "category": "city",
+  "name": "Volgograd",
+  "aliases": [
+   "Stalingrad",
+   "Tsaritsyn"
+  ],
+  "size": 1000000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Russia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Volgograd\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Russia",
+  "magnitude": 32023,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Volgograd",
+  "lat": 48.70861111,
+  "lon": 44.51472222
+ },
+ {
+  "id": "city-kharkiv",
+  "category": "city",
+  "name": "Kharkiv",
+  "aliases": [
+   "Kharkov"
+  ],
+  "size": 1400000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Kharkiv\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 18355,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kharkiv",
+  "lat": 49.9925,
+  "lon": 36.23111111
+ },
+ {
+  "id": "city-odesa",
+  "category": "city",
+  "name": "Odesa",
+  "aliases": [
+   "Odessa"
+  ],
+  "size": 1000000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Odesa\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 30014,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Odesa"
+ },
+ {
+  "id": "city-lviv",
+  "category": "city",
+  "name": "Lviv",
+  "aliases": [
+   "Lvov",
+   "Lemberg"
+  ],
+  "size": 720000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Lviv\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 24656,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lviv",
+  "lat": 49.8425,
+  "lon": 24.03222222
+ },
+ {
+  "id": "city-krakow",
+  "category": "city",
+  "name": "Krakow",
+  "aliases": [
+   "Cracow"
+  ],
+  "size": 800000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Kraków\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 45051,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kraków"
+ },
+ {
+  "id": "city-gdansk",
+  "category": "city",
+  "name": "Gdansk",
+  "aliases": [
+   "Danzig"
+  ],
+  "size": 470000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Gdańsk\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 42951,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gdańsk",
+  "lat": 54.3475,
+  "lon": 18.64527778
+ },
+ {
+  "id": "city-wroclaw",
+  "category": "city",
+  "name": "Wroclaw",
+  "aliases": [
+   "Breslau"
+  ],
+  "size": 670000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Wrocław\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 40455,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wrocław",
+  "lat": 51.11,
+  "lon": 17.0325
+ },
+ {
+  "id": "city-brno",
+  "category": "city",
+  "name": "Brno",
+  "aliases": [],
+  "size": 400000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Czechia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Brno\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Czechia",
+  "magnitude": 21064,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brno",
+  "lat": 49.1925,
+  "lon": 16.60833333
+ },
+ {
+  "id": "city-cluj-napoca",
+  "category": "city",
+  "name": "Cluj-Napoca",
+  "aliases": [
+   "Cluj",
+   "Cluj Napoca"
+  ],
+  "size": 290000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cluj-Napoca\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 19542,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cluj-Napoca",
+  "lat": 46.76666667,
+  "lon": 23.58333333
+ },
+ {
+  "id": "city-plovdiv",
+  "category": "city",
+  "name": "Plovdiv",
+  "aliases": [],
+  "size": 340000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Bulgaria",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Plovdiv\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Bulgaria",
+  "magnitude": 19147,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Plovdiv",
+  "lat": 42.15,
+  "lon": 24.75
+ },
+ {
+  "id": "city-split",
+  "category": "city",
+  "name": "Split",
+  "aliases": [],
+  "size": 160000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Croatia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Split, Croatia\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Croatia",
+  "magnitude": 41064,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Split, Croatia",
+  "lat": 43.51,
+  "lon": 16.44
+ },
+ {
+  "id": "city-dubrovnik",
+  "category": "city",
+  "name": "Dubrovnik",
+  "aliases": [
+   "Ragusa"
+  ],
+  "size": 41000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Croatia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Dubrovnik\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Croatia",
+  "magnitude": 38446,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dubrovnik",
+  "lat": 42.64027778,
+  "lon": 18.10833333
+ },
+ {
+  "id": "city-mostar",
+  "category": "city",
+  "name": "Mostar",
+  "aliases": [],
+  "size": 105000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Bosnia and Herzegovina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Mostar\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Bosnia and Herzegovina",
+  "magnitude": 16894,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mostar",
+  "lat": 43.34361111,
+  "lon": 17.8075
+ },
+ {
+  "id": "city-gothenburg",
+  "category": "city",
+  "name": "Gothenburg",
+  "aliases": [
+   "Goteborg",
+   "Gothenberg"
+  ],
+  "size": 600000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Sweden",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Gothenburg\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Sweden",
+  "magnitude": 38841,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gothenburg",
+  "lat": 57.7075,
+  "lon": 11.9675
+ },
+ {
+  "id": "city-malmo",
+  "category": "city",
+  "name": "Malmo",
+  "aliases": [
+   "Malmoe"
+  ],
+  "size": 360000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Sweden",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Malmö\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Sweden",
+  "magnitude": 25965,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Malmö",
+  "lat": 55.60482333,
+  "lon": 13.00506944
+ },
+ {
+  "id": "city-bergen",
+  "category": "city",
+  "name": "Bergen",
+  "aliases": [],
+  "size": 290000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Norway",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bergen\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Norway",
+  "magnitude": 28583,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bergen",
+  "lat": 60.38944444,
+  "lon": 5.33
+ },
+ {
+  "id": "city-tromso",
+  "category": "city",
+  "name": "Tromso",
+  "aliases": [
+   "Tromsoe"
+  ],
+  "size": 78000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Norway",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Tromsø\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Norway",
+  "magnitude": 22647,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tromsø",
+  "lat": 69.6517,
+  "lon": 18.9556
+ },
+ {
+  "id": "city-aarhus",
+  "category": "city",
+  "name": "Aarhus",
+  "aliases": [
+   "Arhus"
+  ],
+  "size": 290000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Denmark",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Aarhus\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Denmark",
+  "magnitude": 17351,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aarhus",
+  "lat": 56.1572,
+  "lon": 10.2107
+ },
+ {
+  "id": "city-tampere",
+  "category": "city",
+  "name": "Tampere",
+  "aliases": [
+   "Tammerfors"
+  ],
+  "size": 250000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Finland",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Tampere\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Finland",
+  "magnitude": 12511,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tampere",
+  "lat": 61.49805556,
+  "lon": 23.76
+ },
+ {
+  "id": "city-turku",
+  "category": "city",
+  "name": "Turku",
+  "aliases": [
+   "Abo"
+  ],
+  "size": 200000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Scandinavia & the Nordics"
+  ],
+  "country": "Finland",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Turku\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Finland",
+  "magnitude": 14489,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Turku",
+  "lat": 60.4517,
+  "lon": 22.2669
+ },
+ {
+  "id": "city-thessaloniki",
+  "category": "city",
+  "name": "Thessaloniki",
+  "aliases": [
+   "Salonika",
+   "Salonica",
+   "Thessalonica"
+  ],
+  "size": 320000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Thessaloniki\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 61032,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thessaloniki",
+  "lat": 40.6403,
+  "lon": 22.9356
+ },
+ {
+  "id": "city-heraklion",
+  "category": "city",
+  "name": "Heraklion",
+  "aliases": [
+   "Iraklio",
+   "Iraklion",
+   "Candia"
+  ],
+  "size": 180000,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Heraklion\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 23865,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Heraklion",
+  "lat": 35.3403,
+  "lon": 25.1344
+ },
+ {
+  "id": "city-new-york-city",
+  "category": "city",
+  "name": "New York City",
+  "aliases": [
+   "New York",
+   "NYC"
+  ],
+  "size": 8300000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"New York City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 340715,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New York City",
+  "lat": 40.7128,
+  "lon": -74.0061
+ },
+ {
+  "id": "city-los-angeles",
+  "category": "city",
+  "name": "Los Angeles",
+  "aliases": [
+   "LA"
+  ],
+  "size": 3900000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Los Angeles\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 200234,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Los Angeles",
+  "lat": 34.05,
+  "lon": -118.25
+ },
+ {
+  "id": "city-chicago",
+  "category": "city",
+  "name": "Chicago",
+  "aliases": [],
+  "size": 2700000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Chicago\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 155153,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chicago",
+  "lat": 41.88194444,
+  "lon": -87.62777778
+ },
+ {
+  "id": "city-houston",
+  "category": "city",
+  "name": "Houston",
+  "aliases": [],
+  "size": 2300000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Houston\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 74152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Houston",
+  "lat": 29.75666667,
+  "lon": -95.36527778
+ },
+ {
+  "id": "city-phoenix",
+  "category": "city",
+  "name": "Phoenix",
+  "aliases": [],
+  "size": 1650000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Phoenix, Arizona\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 65659,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Phoenix, Arizona",
+  "lat": 33.44833333,
+  "lon": -112.07388889
+ },
+ {
+  "id": "city-philadelphia",
+  "category": "city",
+  "name": "Philadelphia",
+  "aliases": [
+   "Philly"
+  ],
+  "size": 1600000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Philadelphia\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 108062,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Philadelphia",
+  "lat": 39.9528,
+  "lon": -75.1636
+ },
+ {
+  "id": "city-san-antonio",
+  "category": "city",
+  "name": "San Antonio",
+  "aliases": [],
+  "size": 1500000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"San Antonio\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 41885,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Antonio",
+  "lat": 29.425,
+  "lon": -98.4939
+ },
+ {
+  "id": "city-san-diego",
+  "category": "city",
+  "name": "San Diego",
+  "aliases": [],
+  "size": 1400000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"San Diego\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 67394,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Diego",
+  "lat": 32.715,
+  "lon": -117.1625
+ },
+ {
+  "id": "city-dallas",
+  "category": "city",
+  "name": "Dallas",
+  "aliases": [],
+  "size": 1300000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Dallas\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 60271,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dallas",
+  "lat": 32.77916667,
+  "lon": -96.80888889
+ },
+ {
+  "id": "city-austin",
+  "category": "city",
+  "name": "Austin",
+  "aliases": [],
+  "size": 980000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Austin, Texas\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 67455,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Austin, Texas",
+  "lat": 30.26722222,
+  "lon": -97.74305556
+ },
+ {
+  "id": "city-san-francisco",
+  "category": "city",
+  "name": "San Francisco",
+  "aliases": [],
+  "size": 810000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"San Francisco\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 108519,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Francisco",
+  "lat": 37.7775,
+  "lon": -122.41638889
+ },
+ {
+  "id": "city-seattle",
+  "category": "city",
+  "name": "Seattle",
+  "aliases": [],
+  "size": 750000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Seattle\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 108001,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seattle",
+  "lat": 47.60388889,
+  "lon": -122.33
+ },
+ {
+  "id": "city-denver",
+  "category": "city",
+  "name": "Denver",
+  "aliases": [],
+  "size": 720000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Denver\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 59510,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Denver",
+  "lat": 39.74,
+  "lon": -104.99
+ },
+ {
+  "id": "city-las-vegas",
+  "category": "city",
+  "name": "Las Vegas",
+  "aliases": [
+   "Vegas"
+  ],
+  "size": 660000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Las Vegas\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 83406,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Las Vegas",
+  "lat": 36.1672,
+  "lon": -115.1486
+ },
+ {
+  "id": "city-boston",
+  "category": "city",
+  "name": "Boston",
+  "aliases": [],
+  "size": 650000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Boston\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 112689,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boston",
+  "lat": 42.36027778,
+  "lon": -71.05777778
+ },
+ {
+  "id": "city-detroit",
+  "category": "city",
+  "name": "Detroit",
+  "aliases": [],
+  "size": 630000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Detroit\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 79327,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Detroit",
+  "lat": 42.33166667,
+  "lon": -83.04583333
+ },
+ {
+  "id": "city-atlanta",
+  "category": "city",
+  "name": "Atlanta",
+  "aliases": [],
+  "size": 500000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Atlanta\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 95095,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Atlanta",
+  "lat": 33.74888889,
+  "lon": -84.39
+ },
+ {
+  "id": "city-miami",
+  "category": "city",
+  "name": "Miami",
+  "aliases": [],
+  "size": 450000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Miami\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 82371,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Miami",
+  "lat": 25.77416667,
+  "lon": -80.19361111
+ },
+ {
+  "id": "city-new-orleans",
+  "category": "city",
+  "name": "New Orleans",
+  "aliases": [
+   "NOLA"
+  ],
+  "size": 370000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"New Orleans\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 78718,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Orleans",
+  "lat": 29.9761,
+  "lon": -90.0783
+ },
+ {
+  "id": "city-toronto",
+  "category": "city",
+  "name": "Toronto",
+  "aliases": [],
+  "size": 2800000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Toronto\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 116555,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Toronto",
+  "lat": 43.6525,
+  "lon": -79.38166667
+ },
+ {
+  "id": "city-montreal",
+  "category": "city",
+  "name": "Montreal",
+  "aliases": [],
+  "size": 1760000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Montreal\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 94151,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Montreal",
+  "lat": 45.50888889,
+  "lon": -73.55416667
+ },
+ {
+  "id": "city-calgary",
+  "category": "city",
+  "name": "Calgary",
+  "aliases": [],
+  "size": 1300000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Calgary\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 57045,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Calgary",
+  "lat": 51.0475,
+  "lon": -114.0625
+ },
+ {
+  "id": "city-edmonton",
+  "category": "city",
+  "name": "Edmonton",
+  "aliases": [],
+  "size": 1010000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Edmonton\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 48521,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Edmonton",
+  "lat": 53.53444444,
+  "lon": -113.49027778
+ },
+ {
+  "id": "city-vancouver",
+  "category": "city",
+  "name": "Vancouver",
+  "aliases": [],
+  "size": 660000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Vancouver\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 93086,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vancouver",
+  "lat": 49.26083333,
+  "lon": -123.11388889
+ },
+ {
+  "id": "city-quebec-city",
+  "category": "city",
+  "name": "Quebec City",
+  "aliases": [
+   "Quebec"
+  ],
+  "size": 550000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Quebec City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 42372,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Quebec City",
+  "lat": 46.81388889,
+  "lon": -71.20805556
+ },
+ {
+  "id": "city-tijuana",
+  "category": "city",
+  "name": "Tijuana",
+  "aliases": [],
+  "size": 1920000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tijuana\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 22769,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tijuana",
+  "lat": 32.525,
+  "lon": -117.03333333
+ },
+ {
+  "id": "city-leon",
+  "category": "city",
+  "name": "Leon",
+  "aliases": [],
+  "size": 1720000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"León, Guanajuato\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 6849,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "León, Guanajuato",
+  "lat": 21.11666667,
+  "lon": -101.68333333
+ },
+ {
+  "id": "city-puebla",
+  "category": "city",
+  "name": "Puebla",
+  "aliases": [
+   "Puebla de Zaragoza"
+  ],
+  "size": 1540000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Puebla (city)\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 10167,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Puebla (city)",
+  "lat": 19.03333333,
+  "lon": -98.18333333
+ },
+ {
+  "id": "city-guadalajara",
+  "category": "city",
+  "name": "Guadalajara",
+  "aliases": [],
+  "size": 1400000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Guadalajara\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 30805,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guadalajara",
+  "lat": 20.67666667,
+  "lon": -103.3475
+ },
+ {
+  "id": "city-monterrey",
+  "category": "city",
+  "name": "Monterrey",
+  "aliases": [],
+  "size": 1140000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Monterrey\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 25357,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monterrey",
+  "lat": 25.6844,
+  "lon": -100.3181
+ },
+ {
+  "id": "city-cancun",
+  "category": "city",
+  "name": "Cancun",
+  "aliases": [],
+  "size": 890000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Cancún\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 20973,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cancún",
+  "lat": 21.16055556,
+  "lon": -86.8475
+ },
+ {
+  "id": "city-oaxaca",
+  "category": "city",
+  "name": "Oaxaca",
+  "aliases": [
+   "Oaxaca de Juarez",
+   "Oaxaca City"
+  ],
+  "size": 260000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Oaxaca City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 9436,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oaxaca City",
+  "lat": 17.06055556,
+  "lon": -96.72527778
+ },
+ {
+  "id": "city-quetzaltenango",
+  "category": "city",
+  "name": "Quetzaltenango",
+  "aliases": [
+   "Xela"
+  ],
+  "size": 180000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Guatemala",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Quetzaltenango\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Guatemala",
+  "magnitude": 2922,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Quetzaltenango",
+  "lat": 14.83333333,
+  "lon": -91.51666667
+ },
+ {
+  "id": "city-antigua-guatemala",
+  "category": "city",
+  "name": "Antigua Guatemala",
+  "aliases": [],
+  "size": 46000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Guatemala",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Antigua Guatemala\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Guatemala",
+  "magnitude": 7123,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antigua Guatemala",
+  "lat": 14.5575,
+  "lon": -90.73333333
+ },
+ {
+  "id": "city-san-pedro-sula",
+  "category": "city",
+  "name": "San Pedro Sula",
+  "aliases": [],
+  "size": 720000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Honduras",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"San Pedro Sula\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Honduras",
+  "magnitude": 3896,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Pedro Sula",
+  "lat": 15.5,
+  "lon": -88.03333333
+ },
+ {
+  "id": "city-santa-ana",
+  "category": "city",
+  "name": "Santa Ana",
+  "aliases": [],
+  "size": 270000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "El Salvador",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Santa Ana, El Salvador\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in El Salvador",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Ana, El Salvador",
+  "lat": 13.995,
+  "lon": -89.55611111
+ },
+ {
+  "id": "city-masaya",
+  "category": "city",
+  "name": "Masaya",
+  "aliases": [],
+  "size": 170000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Nicaragua",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "orange"
+  ],
+  "source": "English Wikipedia pageviews for \"Masaya\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Nicaragua",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Masaya",
+  "lat": 11.96666667,
+  "lon": -86.1
+ },
+ {
+  "id": "city-puerto-limon",
+  "category": "city",
+  "name": "Puerto Limon",
+  "aliases": [
+   "Limon"
+  ],
+  "size": 60000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Costa Rica",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Limón\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Costa Rica",
+  "magnitude": 2222,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Limón",
+  "lat": 10.0022155,
+  "lon": -83.0840367
+ },
+ {
+  "id": "city-belize-city",
+  "category": "city",
+  "name": "Belize City",
+  "aliases": [],
+  "size": 65000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Central America"
+  ],
+  "country": "Belize",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Belize City\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Belize",
+  "magnitude": 8219,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belize City",
+  "lat": 17.49861111,
+  "lon": -88.18861111
+ },
+ {
+  "id": "city-santiago-de-cuba",
+  "category": "city",
+  "name": "Santiago de Cuba",
+  "aliases": [],
+  "size": 510000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Cuba",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Santiago de Cuba\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Cuba",
+  "magnitude": 6240,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santiago de Cuba",
+  "lat": 20.02166667,
+  "lon": -75.82944444
+ },
+ {
+  "id": "city-holguin",
+  "category": "city",
+  "name": "Holguin",
+  "aliases": [],
+  "size": 350000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Cuba",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Holguín\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Cuba",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Holguín",
+  "lat": 20.88694444,
+  "lon": -76.25916667
+ },
+ {
+  "id": "city-cap-haitien",
+  "category": "city",
+  "name": "Cap-Haitien",
+  "aliases": [
+   "Cap Haitien",
+   "Le Cap"
+  ],
+  "size": 280000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Haiti",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cap-Haïtien\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Haiti",
+  "magnitude": 5266,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cap-Haïtien",
+  "lat": 19.76,
+  "lon": -72.2
+ },
+ {
+  "id": "city-santiago-de-los-caballeros",
+  "category": "city",
+  "name": "Santiago de los Caballeros",
+  "aliases": [],
+  "size": 770000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Dominican Republic",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Santiago de los Caballeros\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Dominican Republic",
+  "magnitude": 5023,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santiago de los Caballeros",
+  "lat": 19.45722222,
+  "lon": -70.68888889
+ },
+ {
+  "id": "city-punta-cana",
+  "category": "city",
+  "name": "Punta Cana",
+  "aliases": [],
+  "size": 50000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Dominican Republic",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Punta Cana\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Dominican Republic",
+  "magnitude": 19238,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Punta Cana",
+  "lat": 18.53333333,
+  "lon": -68.36666667
+ },
+ {
+  "id": "city-montego-bay",
+  "category": "city",
+  "name": "Montego Bay",
+  "aliases": [],
+  "size": 110000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Jamaica",
+  "flag": [
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Montego Bay\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Jamaica",
+  "magnitude": 6149,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Montego Bay",
+  "lat": 18.46666667,
+  "lon": -77.91666667
+ },
+ {
+  "id": "city-san-fernando",
+  "category": "city",
+  "name": "San Fernando",
+  "aliases": [],
+  "size": 50000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Trinidad and Tobago",
+  "flag": [
+   "red",
+   "white",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"San Fernando, Trinidad and Tobago\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Trinidad and Tobago",
+  "magnitude": 2435,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Fernando, Trinidad and Tobago",
+  "lat": 10.28333333,
+  "lon": -61.46666667
+ },
+ {
+  "id": "city-freeport",
+  "category": "city",
+  "name": "Freeport",
+  "aliases": [],
+  "size": 27000,
+  "sizeUnit": "population",
+  "region": [
+   "North America",
+   "Caribbean"
+  ],
+  "country": "Bahamas",
+  "flag": [
+   "blue",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Freeport, Bahamas\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Bahamas",
+  "magnitude": 3379,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Freeport, Bahamas",
+  "lat": 26.52861111,
+  "lon": -78.69666667
+ },
+ {
+  "id": "city-sao-paulo",
+  "category": "city",
+  "name": "Sao Paulo",
+  "aliases": [],
+  "size": 11500000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"São Paulo\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Brazil",
+  "magnitude": 60119,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "São Paulo",
+  "lat": -23.55,
+  "lon": -46.63333333
+ },
+ {
+  "id": "city-rio-de-janeiro",
+  "category": "city",
+  "name": "Rio de Janeiro",
+  "aliases": [
+   "Rio"
+  ],
+  "size": 6200000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Rio de Janeiro\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Brazil",
+  "magnitude": 65598,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rio de Janeiro",
+  "lat": -22.91111111,
+  "lon": -43.20555556
+ },
+ {
+  "id": "city-salvador",
+  "category": "city",
+  "name": "Salvador",
+  "aliases": [
+   "Salvador da Bahia"
+  ],
+  "size": 2400000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Salvador, Bahia\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Brazil",
+  "magnitude": 16498,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Salvador, Bahia",
+  "lat": -12.97472222,
+  "lon": -38.47666667
+ },
+ {
+  "id": "city-fortaleza",
+  "category": "city",
+  "name": "Fortaleza",
+  "aliases": [],
+  "size": 2400000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Fortaleza\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Brazil",
+  "magnitude": 8949,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fortaleza",
+  "lat": -3.7275,
+  "lon": -38.5275
+ },
+ {
+  "id": "city-belo-horizonte",
+  "category": "city",
+  "name": "Belo Horizonte",
+  "aliases": [],
+  "size": 2300000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Belo Horizonte\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Brazil",
+  "magnitude": 18294,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belo Horizonte",
+  "lat": -19.91666667,
+  "lon": -43.93333333
+ },
+ {
+  "id": "city-manaus",
+  "category": "city",
+  "name": "Manaus",
+  "aliases": [],
+  "size": 2060000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Manaus\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Brazil",
+  "magnitude": 21491,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manaus",
+  "lat": -3.1189,
+  "lon": -60.0217
+ },
+ {
+  "id": "city-curitiba",
+  "category": "city",
+  "name": "Curitiba",
+  "aliases": [],
+  "size": 1770000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Curitiba\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Brazil",
+  "magnitude": 14063,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Curitiba",
+  "lat": -25.42972222,
+  "lon": -49.27111111
+ },
+ {
+  "id": "city-recife",
+  "category": "city",
+  "name": "Recife",
+  "aliases": [],
+  "size": 1490000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Recife\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Brazil",
+  "magnitude": 11872,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Recife",
+  "lat": -8.05,
+  "lon": -34.9
+ },
+ {
+  "id": "city-porto-alegre",
+  "category": "city",
+  "name": "Porto Alegre",
+  "aliases": [],
+  "size": 1330000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Brazil",
+  "flag": [
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Porto Alegre\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Brazil",
+  "magnitude": 13972,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Porto Alegre",
+  "lat": -30.03305556,
+  "lon": -51.23
+ },
+ {
+  "id": "city-medellin",
+  "category": "city",
+  "name": "Medellin",
+  "aliases": [],
+  "size": 2500000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Colombia",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Medellín\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Colombia",
+  "magnitude": 31049,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Medellín",
+  "lat": 6.23083333,
+  "lon": -75.59055556
+ },
+ {
+  "id": "city-cali",
+  "category": "city",
+  "name": "Cali",
+  "aliases": [],
+  "size": 2200000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Colombia",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cali\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Colombia",
+  "magnitude": 13637,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cali",
+  "lat": 3.42055556,
+  "lon": -76.52222222
+ },
+ {
+  "id": "city-cartagena",
+  "category": "city",
+  "name": "Cartagena",
+  "aliases": [
+   "Cartagena de Indias"
+  ],
+  "size": 1000000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Colombia",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cartagena, Colombia\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Colombia",
+  "magnitude": 20791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cartagena, Colombia",
+  "lat": 10.4,
+  "lon": -75.5
+ },
+ {
+  "id": "city-cordoba",
+  "category": "city",
+  "name": "Cordoba",
+  "aliases": [
+   "Cordova"
+  ],
+  "size": 1500000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Argentina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Córdoba, Argentina\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Argentina",
+  "magnitude": 11324,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Córdoba, Argentina",
+  "lat": -31.41666667,
+  "lon": -64.18333333
+ },
+ {
+  "id": "city-rosario",
+  "category": "city",
+  "name": "Rosario",
+  "aliases": [],
+  "size": 950000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Argentina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Rosario\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Argentina",
+  "magnitude": 20151,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rosario",
+  "lat": -32.9575,
+  "lon": -60.63944444
+ },
+ {
+  "id": "city-ushuaia",
+  "category": "city",
+  "name": "Ushuaia",
+  "aliases": [],
+  "size": 80000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Argentina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Ushuaia\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Argentina",
+  "magnitude": 23043,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ushuaia",
+  "lat": -54.80722222,
+  "lon": -68.30805556
+ },
+ {
+  "id": "city-arequipa",
+  "category": "city",
+  "name": "Arequipa",
+  "aliases": [],
+  "size": 1000000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Peru",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Arequipa\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Peru",
+  "magnitude": 7306,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Arequipa",
+  "lat": -16.39888889,
+  "lon": -71.53694444
+ },
+ {
+  "id": "city-cusco",
+  "category": "city",
+  "name": "Cusco",
+  "aliases": [
+   "Cuzco"
+  ],
+  "size": 430000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Peru",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cusco\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Peru",
+  "magnitude": 25387,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cusco",
+  "lat": -13.5169,
+  "lon": -71.9786
+ },
+ {
+  "id": "city-maracaibo",
+  "category": "city",
+  "name": "Maracaibo",
+  "aliases": [],
+  "size": 1650000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Venezuela",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Maracaibo\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Venezuela",
+  "magnitude": 5540,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maracaibo",
+  "lat": 10.63333333,
+  "lon": -71.63333333
+ },
+ {
+  "id": "city-valparaiso",
+  "category": "city",
+  "name": "Valparaiso",
+  "aliases": [],
+  "size": 300000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Chile",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Valparaíso\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Chile",
+  "magnitude": 12267,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Valparaíso",
+  "lat": -33.04611111,
+  "lon": -71.61972222
+ },
+ {
+  "id": "city-guayaquil",
+  "category": "city",
+  "name": "Guayaquil",
+  "aliases": [],
+  "size": 2700000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Ecuador",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Guayaquil\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Ecuador",
+  "magnitude": 15433,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guayaquil",
+  "lat": -2.19,
+  "lon": -79.8875
+ },
+ {
+  "id": "city-santa-cruz-de-la-sierra",
+  "category": "city",
+  "name": "Santa Cruz de la Sierra",
+  "aliases": [
+   "Santa Cruz"
+  ],
+  "size": 1900000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Bolivia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Santa Cruz de la Sierra\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Bolivia",
+  "magnitude": 10532,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Cruz de la Sierra",
+  "lat": -17.8,
+  "lon": -63.18333333
+ },
+ {
+  "id": "city-la-paz",
+  "category": "city",
+  "name": "La Paz",
+  "aliases": [],
+  "size": 800000,
+  "sizeUnit": "population",
+  "region": [
+   "South America"
+  ],
+  "country": "Bolivia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"La Paz\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Bolivia",
+  "magnitude": 25539,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Paz",
+  "lat": -16.49583333,
+  "lon": -68.13333333
+ },
+ {
+  "id": "city-sydney",
+  "category": "city",
+  "name": "Sydney",
+  "aliases": [],
+  "size": 5300000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Australia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Sydney\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Australia",
+  "magnitude": 99600,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sydney",
+  "lat": -33.86777778,
+  "lon": 151.21
+ },
+ {
+  "id": "city-melbourne",
+  "category": "city",
+  "name": "Melbourne",
+  "aliases": [],
+  "size": 5100000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Australia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Melbourne\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Australia",
+  "magnitude": 92051,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Melbourne",
+  "lat": -37.81416667,
+  "lon": 144.96305556
+ },
+ {
+  "id": "city-brisbane",
+  "category": "city",
+  "name": "Brisbane",
+  "aliases": [],
+  "size": 2600000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Australia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Brisbane\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Australia",
+  "magnitude": 50256,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brisbane",
+  "lat": -27.46777778,
+  "lon": 153.02805556
+ },
+ {
+  "id": "city-perth",
+  "category": "city",
+  "name": "Perth",
+  "aliases": [],
+  "size": 2200000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Australia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Perth\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Australia",
+  "magnitude": 54214,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Perth",
+  "lat": -32,
+  "lon": 115.9
+ },
+ {
+  "id": "city-adelaide",
+  "category": "city",
+  "name": "Adelaide",
+  "aliases": [],
+  "size": 1400000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Australia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Adelaide\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Australia",
+  "magnitude": 43468,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Adelaide",
+  "lat": -34.9275,
+  "lon": 138.6
+ },
+ {
+  "id": "city-darwin",
+  "category": "city",
+  "name": "Darwin",
+  "aliases": [],
+  "size": 150000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Australia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Darwin, Northern Territory\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Australia",
+  "magnitude": 31718,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Darwin, Northern Territory",
+  "lat": -12.43805556,
+  "lon": 130.84111111
+ },
+ {
+  "id": "city-auckland",
+  "category": "city",
+  "name": "Auckland",
+  "aliases": [],
+  "size": 1700000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "New Zealand",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Auckland\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in New Zealand",
+  "magnitude": 46208,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Auckland",
+  "lat": -36.8492,
+  "lon": 174.7653
+ },
+ {
+  "id": "city-christchurch",
+  "category": "city",
+  "name": "Christchurch",
+  "aliases": [],
+  "size": 400000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "New Zealand",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Christchurch\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in New Zealand",
+  "magnitude": 28492,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Christchurch",
+  "lat": -43.5311,
+  "lon": 172.6361
+ },
+ {
+  "id": "city-lae",
+  "category": "city",
+  "name": "Lae",
+  "aliases": [],
+  "size": 150000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Papua New Guinea",
+  "flag": [
+   "red",
+   "white",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Lae\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Papua New Guinea",
+  "magnitude": 3348,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lae",
+  "lat": -6.73027778,
+  "lon": 147.00083333
+ },
+ {
+  "id": "city-nadi",
+  "category": "city",
+  "name": "Nadi",
+  "aliases": [],
+  "size": 70000,
+  "sizeUnit": "population",
+  "region": [
+   "Oceania"
+  ],
+  "country": "Fiji",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Nadi\", 60-day daily median (60 days ending 2026-09-12); City-proper population, common reference figures, rounded (2026); in Fiji",
+  "magnitude": 3714,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nadi",
+  "lat": -17.8,
+  "lon": 177.41666667
+ }
+]
