@@ -193,7 +193,9 @@ and `MODIFIER_CHANCE_END` at the top of `src/js/promptBank.js`.
 Letter rules look at the name as displayed plus every name and alias with filler
 words ("mount", "lake", "the") stripped. So "Lake Baikal" satisfies both "starts
 with L" and "starts with B", but "Nile" does not satisfy "has a T in it" merely
-because one alias is "the Nile".
+because one alias is "the Nile". The two length rules ("short name", "long
+name") also count each alias in full, filler included — length is about what
+you type, so "Mount Kilimanjaro" is a long name however the row is spelled.
 
 Themes are hand-curated because a themed prompt *rejects* everything outside
 its set — a half-complete set would turn a correct answer into a wrong one.

@@ -183,6 +183,18 @@ test('letter rules accept any spelling the player might reasonably type', () => 
   assert.ok(promptBank.satisfiesLetter(ness, { kind: 'double' }));
   assert.ok(promptBank.satisfiesLetter(ness, { kind: 'short' }));
   assert.ok(!promptBank.satisfiesLetter(ness, { kind: 'long' }));
+
+  // Length is about what the player types, filler included: "Mount
+  // Kilimanjaro" is a long name whichever way the bank's row is spelled.
+  const kili = { name: 'Kilimanjaro', aliases: ['Mount Kilimanjaro'] };
+  kili.variants = promptBank.variantsOf(kili);
+  assert.ok(promptBank.satisfiesLetter(kili, { kind: 'long' }), 'via the full alias');
+  const everest = { name: 'Mount Everest', aliases: ['Everest'] };
+  everest.variants = promptBank.variantsOf(everest);
+  assert.ok(promptBank.satisfiesLetter(everest, { kind: 'long' }), 'as written');
+  assert.ok(!promptBank.satisfiesLetter(everest, { kind: 'short' }));
+  // ...but "the Nile" is still not a long name, and still has no T.
+  assert.ok(!promptBank.satisfiesLetter(nile, { kind: 'long' }));
 });
 
 test('every drawn slot produces a prompt with at least one possible answer', () => {

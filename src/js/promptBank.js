@@ -121,11 +121,28 @@
     return [...out];
   }
 
+  /**
+   * For the LENGTH rules the filler is part of what the player types, so
+   * every spelling counts in full as well: "Mount Kilimanjaro" is a long name
+   * whether the bank's row happens to say "Kilimanjaro" or "Mount Kilimanjaro".
+   * (The letter rules keep using variantsOf: "the Nile" has no T in it.)
+   */
+  function spellingsOf(entry) {
+    const out = new Set(entry.variants);
+    for (const candidate of [entry.name, ...(entry.aliases || [])]) {
+      const full = matching.normalize(candidate);
+      if (full) out.add(full);
+    }
+    return [...out];
+  }
+
   const letters = (text) => text.replace(/[^a-z]/g, '');
 
   /** Does any spelling of this entry satisfy the letter rule? */
   function satisfiesLetter(entry, rule) {
-    return entry.variants.some((variant) => {
+    const lengthRule = rule.kind === 'short' || rule.kind === 'long';
+    const spellings = lengthRule ? entry.spellings || spellingsOf(entry) : entry.variants;
+    return spellings.some((variant) => {
       const bare = letters(variant);
       if (!bare) return false;
       switch (rule.kind) {
@@ -267,7 +284,10 @@
     for (const category of CATEGORIES) {
       const entries = byCategory.get(category) || [];
       if (entries.length === 0) throw new Error(`bank: no entries for category ${category}`);
-      for (const entry of entries) entry.variants = variantsOf(entry);
+      for (const entry of entries) {
+        entry.variants = variantsOf(entry);
+        entry.spellings = spellingsOf(entry);
+      }
       cohorts.set(category, {
         category,
         entries,
@@ -602,6 +622,7 @@
     DERIVED_THEMES,
     shuffle,
     variantsOf,
+    spellingsOf,
     satisfiesLetter,
     letterPromptText,
     satisfiesSize,
