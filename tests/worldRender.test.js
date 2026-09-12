@@ -50,6 +50,30 @@ function diveAndWait(r, depth) {
   return arrived;
 }
 
+test('every relic is a rectangular bitmap drawn only in palette colours', () => {
+  for (const [name, rows] of Object.entries(worldRender.RELICS)) {
+    assert.ok(rows.length > 0, name);
+    const width = rows[0].length;
+    for (const row of rows) {
+      assert.strictEqual(row.length, width, `${name}: ragged row "${row}"`);
+      for (const ch of row) {
+        assert.ok(ch === '.' || ch in worldRender.RELIC_PALETTE, `${name}: unknown pixel "${ch}"`);
+      }
+    }
+  }
+  for (const [band, menu] of Object.entries(worldRender.RELICS_BY_BAND)) {
+    for (const kind of menu) assert.ok(kind in worldRender.RELICS, `${band} lists unknown relic ${kind}`);
+  }
+});
+
+test('the world is deep enough for the deepest possible run', () => {
+  const rarity = require('../src/js/rarity.js');
+  assert.ok(worldRender.MAX_UNITS > rarity.TOTAL_DEPTH_BUDGET, 'headroom past the budget');
+  const r = renderer();
+  assert.strictEqual(diveAndWait(r, rarity.TOTAL_DEPTH_BUDGET), true);
+  assert.strictEqual(r.depth, rarity.TOTAL_DEPTH_BUDGET, 'a perfect run is not clipped by the world');
+});
+
 test('a normal dive reports arrival', () => {
   const r = renderer();
   assert.strictEqual(diveAndWait(r, 30), true);

@@ -23,8 +23,14 @@ test('constants ship at the Spec 3.10 defaults', () => {
   assert.strictEqual(rarity.POINTS_MAX, 1000);
   assert.strictEqual(rarity.POINTS_GAMMA, 1.4);
   assert.strictEqual(rarity.ROUNDS_PER_RUN, 15);
-  assert.strictEqual(rarity.TOTAL_DEPTH_BUDGET, 700);
-  near(rarity.MAX_DIG_PER_ROUND, 46.667, 0.001, 'MAX_DIG_PER_ROUND');
+  // v1.2 dig curve: linear x70 below the bar, 75 flat from 85%, 100 at 100%.
+  assert.strictEqual(rarity.DIG_SCALE, 70);
+  assert.strictEqual(rarity.JACKPOT_RARITY, 0.85);
+  assert.strictEqual(rarity.DIG_JACKPOT, 75);
+  assert.strictEqual(rarity.PERFECT_RARITY, 0.995);
+  assert.strictEqual(rarity.DIG_PERFECT, 100);
+  assert.strictEqual(rarity.MAX_DIG_PER_ROUND, 100);
+  assert.strictEqual(rarity.TOTAL_DEPTH_BUDGET, 1500);
 });
 
 test('worked example: the small magnitude digs deep, the large one barely scratches', () => {
@@ -34,11 +40,32 @@ test('worked example: the small magnitude digs deep, the large one barely scratc
 
   near(tuvalu.rarity, 0.818, 0.01, 'Tuvalu rarity');
   near(tuvalu.points, 770, 20, 'Tuvalu points');
-  near(tuvalu.dig, 38.2, 0.6, 'Tuvalu dig');
+  near(tuvalu.dig, 57.3, 0.8, 'Tuvalu dig (0.818 x 70, just under the bar)');
 
   near(usa.rarity, 0.1, 0.01, 'US rarity');
   near(usa.points, 88, 6, 'US points');
-  near(usa.dig, 4.7, 0.3, 'US dig');
+  near(usa.dig, 7.0, 0.4, 'US dig');
+});
+
+test('85% to 99% all dig the same bonused 75; 100% digs 100 (Spec 5.1 v1.2)', () => {
+  // Just under the bar is still linear...
+  near(rarity.digFor(0.849), 59.43, 0.01, 'just under the bar');
+  // ...then the jackpot tier is flat, whatever the exact figure.
+  for (const r of [0.85, 0.9, 0.95, 0.99, 0.994]) {
+    assert.strictEqual(rarity.digFor(r), 75, `dig at ${r}`);
+    assert.strictEqual(rarity.isJackpot(r), true, `jackpot at ${r}`);
+  }
+  // Anything that would read as 100% on screen digs the full 100.
+  assert.strictEqual(rarity.digFor(0.995), 100);
+  assert.strictEqual(rarity.digFor(1), 100);
+  assert.strictEqual(rarity.isJackpot(0.849), false);
+  // Never goes backwards: more obscure never digs less.
+  let last = -1;
+  for (let r = 0; r <= 1.0001; r += 0.005) {
+    const dig = rarity.digFor(Math.min(1, r));
+    assert.ok(dig >= last, `dig(${r.toFixed(3)}) = ${dig} < ${last}`);
+    last = dig;
+  }
 });
 
 test('the extremes of a cohort are exactly 1 and 0', () => {
@@ -83,10 +110,13 @@ test('points and dig sit at the documented endpoints', () => {
   assert.ok(rarity.pointsFor(0.5) < (50 + 1000) / 2);
 });
 
-test('a perfect 15-round run lands exactly on the Core threshold', () => {
+test('a perfect 15-round run fills the whole depth budget, deep in the Core', () => {
   const digs = Array.from({ length: 15 }, () => rarity.digFor(1));
-  near(rarity.cumulativeDepth(digs), 700, 1e-9, 'perfect run depth');
+  near(rarity.cumulativeDepth(digs), rarity.TOTAL_DEPTH_BUDGET, 1e-9, 'perfect run depth');
   assert.strictEqual(rarity.stratumName(rarity.cumulativeDepth(digs)), 'Core');
+  // Core (600) no longer needs perfection: eight jackpots get there.
+  const eightJackpots = Array.from({ length: 8 }, () => rarity.digFor(0.9));
+  assert.strictEqual(rarity.stratumName(rarity.cumulativeDepth(eightJackpots)), 'Core');
 });
 
 test('timed-out rounds contribute nothing to depth', () => {

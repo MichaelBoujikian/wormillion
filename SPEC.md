@@ -66,13 +66,13 @@ Substring matching is never performed.
 
 **3.8 Prompt draw algorithm (15 prompts per run, v1.2):** shuffle the 8 categories; the first three become the **opening** — three distinct categories, always plain (no modifier). Shuffle a second copy of the 8, drop its last entry, and shuffle the remaining 5 + 7 = 12 slots after the opening. Every category still appears at least once and at most twice per run. For rounds 4–15 the chance of a modifier ramps linearly from 70% to 100% (v1.2; v1.1 was 40%→90%), so in practice about 11 of the 15 rounds are conditional; the modifier is drawn from those available to the category (3.1a). **No two rounds may show identical prompt text**: a slot whose text would repeat an earlier one is re-drawn (a category's second appearance therefore always reads differently from its first), falling back to a letter rule if needed. Region scoping is only offered for regions carrying ≥6 countries.
 
-**3.9 Depth is cumulative across the run; strata are fixed bands over total depth, not per-round tiers.** See Section 5.2 — this is what makes "Depth strata across the 15-round range" literal: a run's total accumulated depth (0 up to a max of 700 units) is what determines which of the 7 named strata the worm is currently shown in, round by round.
+**3.9 Depth is cumulative across the run; strata are fixed bands over total depth, not per-round tiers.** See Section 5.2 — this is what makes "Depth strata across the 15-round range" literal: a run's total accumulated depth (0 up to a max of 1,500 units, v1.2) is what determines which of the 7 named strata the worm is currently shown in, round by round.
 
-**3.10 Scoring constants are tunable but must ship with these v1 defaults** (Section 5.1): `POINTS_MIN = 50`, `POINTS_MAX = 1000`, `POINTS_GAMMA = 1.4`, `TOTAL_DEPTH_BUDGET = 700`, `ROUNDS_PER_RUN = 15` (so `MAX_DIG_PER_ROUND = 700/15 ≈ 46.667`). Changing these is a balance-tuning task for after M8, not part of initial implementation.
+**3.10 Scoring constants are tunable but must ship with these defaults** (Section 5.1): `POINTS_MIN = 50`, `POINTS_MAX = 1000`, `POINTS_GAMMA = 1.4`, `ROUNDS_PER_RUN = 15`; and for dig distance (v1.2) `DIG_SCALE = 70`, `JACKPOT_RARITY = 0.85`, `DIG_JACKPOT = 75`, `PERFECT_RARITY = 0.995`, `DIG_PERFECT = 100`, so `MAX_DIG_PER_ROUND = 100` and `TOTAL_DEPTH_BUDGET = 1500`. (v1.0–1.1 had `TOTAL_DEPTH_BUDGET = 700` and a linear dig of `rarity × 46.667`.) All in `src/js/rarity.js`.
 
 **3.11 A zero-dig answer must still complete the round (v1.1).** The most-viewed entry in a cohort has rarity exactly 0 and digs 0. The dig animation must treat "no distance to cover" as a dive that plays out in place and then reports arrival; it must never wait for the depth to change. (Regression: `everest` and `caspian` froze the game.)
 
-**3.12 "One in Wormillion" (v1.2).** An accepted answer with rarity ≥ 0.85 (`JACKPOT_RARITY`, `src/js/jackpot.js`) puts a celebration over the scene: the words ONE IN WORMILLION slam in over the dig, with pixel confetti and lightning bolts thrown out from the text. It holds for 10 seconds (`HOLD_SECONDS`) or until the player submits their next answer — accepted or not — whichever is first, and is cleared when a new run starts. The dig animation and round flow continue underneath it; it never blocks input. Under `prefers-reduced-motion` the text appears without anything moving. Roughly the rarest 5–15% of each cohort qualifies (28 countries, 3 seas, 4 islands at v1.2).
+**3.12 "One in Wormillion" (v1.2).** An accepted answer with rarity ≥ 0.85 (`JACKPOT_RARITY`, owned by `src/js/rarity.js`) is bonused — it digs a flat 75, or 100 if it reads as 100% (5.1) — and puts a celebration over the scene: the words ONE IN WORMILLION slam in over the dig, with pixel confetti and lightning bolts thrown out from the text. It holds for 10 seconds (`HOLD_SECONDS`) or until the player submits their next answer — accepted or not — whichever is first, and is cleared when a new run starts. The dig animation and round flow continue underneath it; it never blocks input. Under `prefers-reduced-motion` the text appears without anything moving. Roughly the rarest 5–15% of each cohort qualifies (28 countries, 3 seas, 4 islands at v1.2).
 
 ## 4. Data model
 
@@ -121,7 +121,9 @@ rarity(e) = clamp( (Lmax − L(e)) / (Lmax − Lmin), 0, 1 )
 
 points(e) = round( POINTS_MIN + (POINTS_MAX − POINTS_MIN) × rarity(e) ^ POINTS_GAMMA )
 
-dig(e)    = rarity(e) × MAX_DIG_PER_ROUND
+dig(e)    = DIG_PERFECT (100)          if rarity(e) ≥ PERFECT_RARITY (0.995 — reads as 100% on screen)
+          = DIG_JACKPOT (75)           if rarity(e) ≥ JACKPOT_RARITY (0.85 — "one in Wormillion", 3.12)
+          = rarity(e) × DIG_SCALE (70) otherwise
 ```
 
 `rarity` is 1.0 for the smallest-magnitude entry in its cohort (rarest/most obscure) and 0.0 for the largest (most common/famous). With magnitude = monthly pageviews (v1.1) this is a direct measure of how often people look a place up, so it holds by construction; v1.0's physical stats only correlated with fame and produced wrong answers at the edges (Vatican City "rarest" by population, Malawi "famous" by population). A modifier (3.1a) never changes the cohort used here.
@@ -129,8 +131,8 @@ dig(e)    = rarity(e) × MAX_DIG_PER_ROUND
 **Worked examples** (illustrative population figures from v1.0; the formula is unchanged by the switch to pageviews, so these remain a correctness check for the arithmetic, not shipped data):
 
 - Country cohort spans roughly Vatican City (~800 people, `L≈2.90`) to India (~1.4B, `L≈9.15`), so `Lmax−Lmin ≈ 6.25`.
-- **Tuvalu**, population ≈ 11,000, `L ≈ 4.04`: `rarity = (9.15−4.04)/6.25 ≈ 0.818` → `points = round(50 + 950 × 0.818^1.4) = round(50 + 950 × 0.767) ≈ 778` → `dig ≈ 0.818 × 46.667 ≈ 38.2`.
-- **United States**, population ≈ 335M, `L ≈ 8.53`: `rarity = (9.15−8.53)/6.25 ≈ 0.10` → `points = round(50 + 950 × 0.10^1.4) ≈ 88` → `dig ≈ 4.7`.
+- **Tuvalu**, population ≈ 11,000, `L ≈ 4.04`: `rarity = (9.15−4.04)/6.25 ≈ 0.818` → `points = round(50 + 950 × 0.818^1.4) = round(50 + 950 × 0.767) ≈ 778` → `dig ≈ 0.818 × 70 ≈ 57.3` (just under the jackpot bar; at 0.85 it would jump to 75).
+- **United States**, population ≈ 335M, `L ≈ 8.53`: `rarity = (9.15−8.53)/6.25 ≈ 0.10` → `points = round(50 + 950 × 0.10^1.4) ≈ 88` → `dig ≈ 7.0`.
 
 A timeout, or a round where no answer was accepted (Section 3.4/3.5 always retry to either a match or a timeout — there is no other terminal state), scores `points = 0, dig = 0` for that round.
 
@@ -141,7 +143,7 @@ D₀ = 0
 Dₖ = Dₖ₋₁ + dig(eₖ)     for round k = 1..15 (dig = 0 on a timed-out round)
 ```
 
-`TOTAL_DEPTH_BUDGET = 700` is exactly `15 × MAX_DIG_PER_ROUND`, so a theoretical perfect run (rarity = 1.0 every round) ends at `D₁₅ = 700`, landing exactly on the Core threshold. The 7 strata are fixed, equal-width bands over that budget:
+`TOTAL_DEPTH_BUDGET = 1500` is `15 × DIG_PERFECT`, the deepest a run can possibly go (v1.2; it was 700, landing a perfect run exactly on Core). The 7 strata are fixed, equal-width 100-unit bands and were deliberately **not** rescaled with the budget: the point of the v1.2 curve is that a run digs deeper through the same earth, so Core (600) is now reached by eight jackpot answers, or a run of consistently obscure ones, rather than by perfection. A run of bank-median answers ends around 570 (Mantle); it used to end around 325 (Bedrock).
 
 | Stratum | Depth range |
 |---|---|
@@ -151,7 +153,7 @@ Dₖ = Dₖ₋₁ + dig(eₖ)     for round k = 1..15 (dig = 0 on a timed-out ro
 | Bedrock | `[300, 400)` |
 | Deep Rock | `[400, 500)` |
 | Mantle | `[500, 600)` |
-| Core | `[600, ∞)` (visual depth display caps around 750 for headroom; there is no gameplay effect of exceeding 700, it's just "deep in Core") |
+| Core | `[600, ∞)` (the scene extends to `TOTAL_DEPTH_BUDGET + 30` for headroom; there is no gameplay effect of going deeper into Core, it's just "deep in Core") |
 
 The worm's displayed position after round `k` is whichever band contains `Dₖ`. A run's "deepest stratum reached" (shown in the summary and tracked in history, Section 7) is whichever band contains `D₁₅` (the final cumulative depth), or the deepest band touched at any point if you want digging back up to read as "reached," not "ended at" — **v1 uses final depth, not max depth, for simplicity**; note this explicitly rather than leaving it ambiguous.
 
@@ -229,7 +231,7 @@ wormillion/
       timer.js          # 30s countdown, pure-ish (callback-based), no DOM assumptions baked in
       persistence.js    # localStorage read/write: best dive + history (Section 9 shape)
       icons.js          # 12x12 pixel category icons, draws to a supplied context
-      worldRender.js    # the dig scene; draws to canvases handed in, never touches `document`
+      worldRender.js    # the dig scene incl. the buried relics (RELICS bitmaps); draws to canvases handed in, never touches `document`
       jackpot.js        # the ONE IN WORMILLION confetti/lightning burst (3.12); canvas only, no `document`
       ui.js             # DOM rendering + event wiring; the only file allowed to touch `document`
     data/
@@ -401,6 +403,8 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | Derived themes: `coastal` = country cohort minus `landlocked`, "Name a country with a coastline." | 3.1a, 6.0 |
 | 1.2 | Flag-colour modifier: `flag` field on countries (`scripts/data-flags.mjs`), "Name a country whose flag has green in it." | 3.1a, 4, 6.4, 7 |
 | 1.2 | "One in Wormillion": confetti and lightning over the scene for an answer at 85%+ obscurity, held 10 s or until the next answer. | 3.12, 7 |
+| 1.2 | Dig curve made generous: `rarity × 70` below the bar, a flat 75 for 85–99%, 100 for 100%; depth budget 1500; strata bands unchanged so runs go deeper. | 3.9, 3.10, 3.12, 5.1, 5.2 |
+| 1.2 | Relics in the dirt: bones, skeletons, pottery and coins near the surface; dinosaur and fish fossils, ammonites in Clay/Bedrock; gems, gold, swords and treasure chests deeper. Painted into the terrain, carved through by the tunnel. | 7 |
 | 1.2 | Island nations are answerable as islands: 19 new island entries (Palau, Samoa, Tonga, Bahamas, Grenada…) and country-name aliases on shared or eponymous islands (Haiti → Hispaniola, Trinidad and Tobago → Trinidad). Bank is 1,337 entries. | 6 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.

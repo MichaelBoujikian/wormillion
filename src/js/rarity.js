@@ -18,13 +18,25 @@
       ? require('./strata.js')
       : root.Wormillion.strata;
 
-  // Spec 3.10 - tunable, but these are the shipped v1 values.
+  // Spec 3.10 - tunable, but these are the shipped values.
   const POINTS_MIN = 50;
   const POINTS_MAX = 1000;
   const POINTS_GAMMA = 1.4;
   const ROUNDS_PER_RUN = 15;
-  const TOTAL_DEPTH_BUDGET = 700;
-  const MAX_DIG_PER_ROUND = TOTAL_DEPTH_BUDGET / ROUNDS_PER_RUN;
+
+  // Dig distance (Spec 5.1, v1.2). Below the jackpot bar a dig is linear in
+  // rarity; at the bar it jumps to a flat bonus, and an answer that reads as
+  // 100% on screen digs the whole round. So 85-99% are "one in Wormillion" and
+  // all dig the same, and only the rarest thing in a cohort digs 100.
+  const DIG_SCALE = 70; // dig = rarity * DIG_SCALE below the bar (v1.1 was 700/15 = 46.67)
+  const JACKPOT_RARITY = 0.85; // one in Wormillion: 85%+ obscure
+  const DIG_JACKPOT = 75;
+  const PERFECT_RARITY = 0.995; // rounds to 100% in the UI
+  const DIG_PERFECT = 100;
+  const MAX_DIG_PER_ROUND = DIG_PERFECT;
+  // The deepest a run can possibly go: fifteen 100% answers. Core starts at
+  // 600, so a strong run reaches it without being perfect (Spec 5.2).
+  const TOTAL_DEPTH_BUDGET = ROUNDS_PER_RUN * MAX_DIG_PER_ROUND;
 
   const clamp = (n, lo, hi) => Math.min(hi, Math.max(lo, n));
 
@@ -70,9 +82,17 @@
     return Math.round(POINTS_MIN + (POINTS_MAX - POINTS_MIN) * Math.pow(r, POINTS_GAMMA));
   }
 
+  /** Is this rarity "one in Wormillion"? The UI celebrates and the dig is bonused. */
+  function isJackpot(rarity) {
+    return rarity >= JACKPOT_RARITY;
+  }
+
   /** Depth units dug for a rarity in [0,1] (Spec 5.1). */
   function digFor(rarity) {
-    return clamp(rarity, 0, 1) * MAX_DIG_PER_ROUND;
+    const r = clamp(rarity, 0, 1);
+    if (r >= PERFECT_RARITY) return DIG_PERFECT;
+    if (r >= JACKPOT_RARITY) return DIG_JACKPOT;
+    return r * DIG_SCALE;
   }
 
   /** Everything a scored round needs, from one entry + its cohort stats. */
@@ -93,10 +113,16 @@
     ROUNDS_PER_RUN,
     TOTAL_DEPTH_BUDGET,
     MAX_DIG_PER_ROUND,
+    DIG_SCALE,
+    JACKPOT_RARITY,
+    DIG_JACKPOT,
+    PERFECT_RARITY,
+    DIG_PERFECT,
     cohortStats,
     rarityOf,
     computeRarity,
     pointsFor,
+    isJackpot,
     digFor,
     scoreEntry,
     cumulativeDepth,

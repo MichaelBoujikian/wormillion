@@ -2,6 +2,7 @@ const test = require('node:test');
 const assert = require('node:assert');
 const promptBank = require('../src/js/promptBank.js');
 const runner = require('../src/js/run.js');
+const rarity = require('../src/js/rarity.js');
 
 // A tiny but real fixture bank: every category present, six European countries
 // so region scoping is exercisable (Spec 6 requires >= 6 to scope a prompt).
@@ -270,7 +271,7 @@ test('a full 15-round run stays inside the depth budget', () => {
   while (!run.finished) answer(run);
   assert.strictEqual(run.summary().rounds.length, 15);
   assert.ok(run.depth > 0);
-  assert.ok(run.depth <= 700 + 1e-9, 'depth cannot exceed the budget');
+  assert.ok(run.depth <= rarity.TOTAL_DEPTH_BUDGET + 1e-9, 'depth cannot exceed the budget');
 });
 
 test('a misspelling is accepted and reports what it was corrected to', () => {

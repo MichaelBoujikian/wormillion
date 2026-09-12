@@ -10,8 +10,8 @@ what to check first, and the gotchas that cost time.
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main`.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123.
-- **Green:** `npm test` (79 tests), `npm run validate` (1,337 entries), `npm run gap-check`. CI runs test + validate on Node 22.
-- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos), and the "One in Wormillion" celebration for 85%+ answers.
+- **Green:** `npm test` (82 tests), `npm run validate` (1,337 entries), `npm run gap-check`. CI runs test + validate on Node 22.
+- **Last change request fully landed:** the seven items in `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags, no repeated prompts, modifier ramp, feedback persistence), then (2026-09-11) a steeper modifier ramp, the derived `coastal` theme, flag-colour prompts, island nations accepted as islands ("Palau" was unrecognized; "Samoa" was being spell-corrected to Samos), the "One in Wormillion" celebration for 85%+ answers, the generous dig curve (75 / 100 for jackpots, ×70 below), and relics in the dirt.
 
 ## Start here
 
@@ -34,6 +34,8 @@ If all three pass, nothing is broken. Then read `SPEC.md` §3 (decisions) and §
 | what advances a round, retries, scoring hooks | `src/js/run.js` |
 | points / depth formulas | `src/js/rarity.js`, `src/js/strata.js` |
 | the pixel-art scene | `src/js/worldRender.js` (no `document` — takes canvases) |
+| what's buried in the dirt (bones, fossils, chests…) | `RELICS` / `RELICS_BY_BAND` / `paintRelics()` in `src/js/worldRender.js` — bitmaps, one char per art pixel |
+| how far an answer digs (the 75 / 100 jackpot tiers) | `src/js/rarity.js` (`DIG_SCALE`, `DIG_JACKPOT`, `DIG_PERFECT`) |
 | the "ONE IN WORMILLION" burst (threshold, hold time, confetti/bolt rates) | `src/js/jackpot.js` (`JACKPOT_RARITY`, `HOLD_SECONDS`, `rates()`); overlay markup/CSS in `index.html` / `styles.css` |
 | all DOM | `src/js/ui.js` — the *only* module allowed to touch `document` |
 
@@ -106,9 +108,11 @@ category once or twice" rule needs restating (15 slots over 9 = some appear
 once), and `tests/prompts.test.js` / `run.test.js` assert the current shape.
 Update SPEC.md §3.8 and §6 in the same change.
 
-Also open: a balance pass on `POINTS_GAMMA` — a typical answer pays ~460 pts and
-a run of median answers ends around depth 325. `npm run score-report` prints
-the curve.
+Also open: a balance pass on `POINTS_GAMMA` — a typical answer pays ~460 pts.
+(Dig depth was re-tuned 2026-09-11: `rarity × 70` below 85%, a flat 75 for
+85–99%, 100 for 100%; budget 1500; a run of median answers now ends around 570.
+The user asked for exactly those numbers. Points were left alone.) `npm run
+score-report` prints the curve.
 
 ## Things the user has said they care about
 

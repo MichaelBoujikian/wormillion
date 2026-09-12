@@ -261,7 +261,7 @@
         );
         els.lastAnswer.textContent = `${result.entry.name} +${fmt(result.points)}`;
         els.score.textContent = `${fmt(run.score)} pts`;
-        const jackpot = result.rarity >= W.jackpot.JACKPOT_RARITY;
+        const jackpot = W.rarity.isJackpot(result.rarity);
         if (jackpot) showJackpot();
         announce(
           `${jackpot ? 'One in Wormillion! ' : ''}` +

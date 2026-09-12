@@ -31,13 +31,17 @@ console.log(pad('cohort', 11), pad('n', 5), pad('views: min .. max', 26), pad('p
 console.log('-'.repeat(115));
 
 let allPoints = [];
+let allDigs = [];
+let jackpots = 0;
 for (const [category, entries] of [...cohorts].sort()) {
   const stats = rarity.cohortStats(entries);
   const scored = entries
-    .map((e) => ({ name: e.name, views: e.magnitude, points: rarity.scoreEntry(e, stats).points }))
+    .map((e) => ({ name: e.name, views: e.magnitude, ...rarity.scoreEntry(e, stats) }))
     .sort((a, b) => a.points - b.points);
   const points = scored.map((s) => s.points);
   allPoints = allPoints.concat(points);
+  allDigs = allDigs.concat(scored.map((s) => s.dig));
+  jackpots += scored.filter((s) => rarity.isJackpot(s.rarity)).length;
   const at = (q) => points[Math.floor((points.length - 1) * q)];
   const views = scored.map((s) => s.views).sort((a, b) => a - b);
 
@@ -51,7 +55,13 @@ for (const [category, entries] of [...cohorts].sort()) {
 }
 
 allPoints.sort((a, b) => a - b);
+allDigs.sort((a, b) => a - b);
 const mean = Math.round(allPoints.reduce((a, b) => a + b, 0) / allPoints.length);
+const meanDig = allDigs.reduce((a, b) => a + b, 0) / allDigs.length;
+const medianDig = allDigs[Math.floor(allDigs.length / 2)];
 console.log('-'.repeat(115));
-console.log(`whole bank: mean ${mean} pts, median ${allPoints[Math.floor(allPoints.length / 2)]} pts`);
-console.log(`a 15-round run of median answers scores about ${num(mean * 15)} and ends around depth ${(mean / rarity.POINTS_MAX * rarity.TOTAL_DEPTH_BUDGET).toFixed(0)}`);
+console.log(`whole bank: mean ${mean} pts, median ${allPoints[Math.floor(allPoints.length / 2)]} pts; mean dig ${meanDig.toFixed(1)}, median dig ${medianDig.toFixed(1)}`);
+console.log(
+  `a 15-round run of median answers scores about ${num(mean * 15)} and ends around depth ${(medianDig * 15).toFixed(0)} ` +
+    `(${rarity.stratumName(medianDig * 15)}); ${jackpots} of ${allDigs.length} entries are one in Wormillion (dig ${rarity.DIG_JACKPOT}+)`
+);

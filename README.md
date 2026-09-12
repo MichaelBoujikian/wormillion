@@ -84,7 +84,7 @@ src/                 the deployed site, as-is
     timer.js         30s countdown
     persistence.js   localStorage best dive + history  (Spec 9)
     icons.js         12x12 pixel category icons
-    worldRender.js   the dig scene (canvas, no DOM access)
+    worldRender.js   the dig scene + buried relics (canvas, no DOM access)
     jackpot.js       the "ONE IN WORMILLION" burst for 85%+ answers (canvas, no DOM access)
     ui.js            the ONLY module that touches `document`
   data/
@@ -279,8 +279,9 @@ requirement. Each of these is deliberate:
 
 ## Future work
 
-- Balance pass on the scoring constants (`POINTS_GAMMA` especially): a typical
-  answer now pays ~460 and a run of median answers ends around depth 325.
+- Balance pass on the points constants (`POINTS_GAMMA` especially): a typical
+  answer pays ~460. Dig depth was re-tuned in v1.2 (a run of median answers
+  ends around 570, Mantle); `npm run score-report` prints both curves.
 - More themes, and themes for capitals (currently region-scoped only).
 - More sub-region tags so more of the region list is usable as a prompt scope.
 - Optional: export/clear history from the stats screen.

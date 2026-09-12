@@ -11,11 +11,14 @@
   const api = factory(root);
   if (typeof module === 'object' && module.exports) module.exports = api;
   else (root.Wormillion = root.Wormillion || {}).jackpot = api;
-})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+})(typeof globalThis !== 'undefined' ? globalThis : this, function (root) {
   'use strict';
 
-  /** An answer this obscure (rarity, 0..1) is one in Wormillion. */
-  const JACKPOT_RARITY = 0.85;
+  const isNode = typeof module === 'object' && module.exports;
+  const rarity = isNode ? require('./rarity.js') : root.Wormillion.rarity;
+
+  /** An answer this obscure (rarity, 0..1) is one in Wormillion - scoring owns the bar. */
+  const JACKPOT_RARITY = rarity.JACKPOT_RARITY;
   /** How long the celebration stays up if the player doesn't answer again. */
   const HOLD_SECONDS = 10;
 

@@ -16,10 +16,11 @@
 
   const isNode = typeof module === 'object' && module.exports;
   const strata = isNode ? require('./strata.js') : root.Wormillion.strata;
+  const rarity = isNode ? require('./rarity.js') : root.Wormillion.rarity;
 
   const PX_PER_UNIT = 4; // art pixels per depth unit
   const SKY_H = 112; // art pixels of sky above depth 0
-  const MAX_UNITS = 760; // a little headroom past the 700 budget
+  const MAX_UNITS = rarity.TOTAL_DEPTH_BUDGET + 30; // a little headroom past the deepest possible run
   const WORLD_H = SKY_H + MAX_UNITS * PX_PER_UNIT;
   const TUNNEL_R = 6;
 
@@ -72,6 +73,193 @@
     Math.round(a[1] + (b[1] - a[1]) * t),
     Math.round(a[2] + (b[2] - a[2]) * t)
   ];
+
+  // ---- relics: the things you find under the earth ---------------------------
+  // Tiny bitmaps, one character per art pixel, '.' transparent. Painted into the
+  // terrain once per rebuild and carved through by the tunnel like anything else.
+  const RELIC_PALETTE = {
+    k: '#1d1209', // outline
+    b: '#e9dcc2', // bone
+    B: '#b9a785', // bone, shaded
+    w: '#8a5a2b', // wood
+    W: '#b8803f', // wood, lit
+    g: '#ffd451', // gold
+    G: '#c9962b', // gold, shaded
+    d: '#a6f2ff', // diamond
+    D: '#3fc3d9', // diamond, shaded
+    r: '#ff4d4d', // ruby
+    R: '#a81f1f', // ruby, shaded
+    e: '#5fe07c', // emerald
+    E: '#2a9a47', // emerald, shaded
+    c: '#b9683f', // pottery
+    C: '#7a3f24', // pottery, shaded
+    s: '#c9d0d6', // steel
+    S: '#7b858e', // steel, shaded
+    h: '#6b4a2e' // leather hilt
+  };
+
+  const RELICS = {
+    skull: [
+      '.kkkkk.',
+      'kbbbbbk',
+      'kbkbkbk',
+      'kbbbbbk',
+      '.kbbbk.',
+      '.kbkbk.',
+      '..kkk..'
+    ],
+    bone: [
+      '.kk...kk.',
+      'kbbkkkbbk',
+      'kbbbbbbbk',
+      'kbbkkkbbk',
+      '.kk...kk.'
+    ],
+    skeleton: [
+      '.kkkkk...........',
+      'kbbbbbkkkkkkkkkk.',
+      'kbkbkbkbBbBbBbBbk',
+      'kbbbbbkkbkbkbkbkk',
+      '.kbbbk.kbkbkbkbk.',
+      '.kbkbk.kkkkkkkkk.',
+      '..kkk............'
+    ],
+    dino: [
+      '..................kkkkk.',
+      '.................kbbbbbk',
+      '.................kbkbbbk',
+      '.................kbbbbkk',
+      '..........kkkkkkkkbbkbk.',
+      '.........kbbbbbbbbbbkkk.',
+      '........kbkbkbkbkbkk....',
+      'kkk....kbkbkbkbkbkk.....',
+      'kbbkkkkbbkkkkkkkkk......',
+      '.kkkkbbbk.kbk..kbk......',
+      '......kkk.kkk..kkk......'
+    ],
+    fish: [
+      'kkk.......k.',
+      'kbbkkkkkkkbk',
+      'kbkbkbkbkbbk',
+      'kbbkkkkkkkbk',
+      'kkk.......k.'
+    ],
+    ammonite: [
+      '..kkkk..',
+      '.kBbbBk.',
+      'kBbkkbBk',
+      'kbkBbkbk',
+      'kbkbbkbk',
+      'kBbkkkBk',
+      '.kBbbBk.',
+      '..kkkk..'
+    ],
+    chest: [
+      '.kkkkkkkkk.',
+      'kWWWWWWWWWk',
+      'kwwwwwwwwwk',
+      'kkkkkgkkkkk',
+      'kwwwwGwwwwk',
+      'kwwwwgwwwwk',
+      'kwwwwwwwwwk',
+      '.kkkkkkkkk.'
+    ],
+    chestOpen: [
+      '.kkkkkkkkk.',
+      'kWWWWWWWWWk',
+      'kWkkkkkkkWk',
+      'kkgGggGggkk',
+      'kgGgggGgggk',
+      'kkkkkgkkkkk',
+      'kwwwwGwwwwk',
+      'kwwwwwwwwwk',
+      '.kkkkkkkkk.'
+    ],
+    gem: [
+      '.kkkkk.',
+      'kdDdDdk',
+      'kDdddDk',
+      '.kDdDk.',
+      '..kDk..',
+      '...k...'
+    ],
+    ruby: [
+      '.kkkkk.',
+      'krRrRrk',
+      'kRrrrRk',
+      '.kRrRk.',
+      '..kRk..',
+      '...k...'
+    ],
+    emerald: [
+      '.kkkkk.',
+      'keEeEek',
+      'kEeeeEk',
+      '.kEeEk.',
+      '..kEk..',
+      '...k...'
+    ],
+    coin: [
+      '.kkk.',
+      'kgGgk',
+      'kGgGk',
+      'kgGgk',
+      '.kkk.'
+    ],
+    nugget: [
+      '.kkk.',
+      'kgGgk',
+      'kGggk',
+      '.kkk.'
+    ],
+    pot: [
+      '..kkk..',
+      '.kCcCk.',
+      'kkkkkkk',
+      'kcCcCck',
+      'kccccck',
+      'kCcccCk',
+      '.kccck.',
+      '..kkk..'
+    ],
+    sword: [
+      '..k..',
+      '.ksk.',
+      '.kSk.',
+      '.ksk.',
+      '.kSk.',
+      '.ksk.',
+      'kgggk',
+      '..k..',
+      '.khk.',
+      '.khk.',
+      '..k..'
+    ]
+  };
+
+  // What turns up in each stratum. Bones and lost things near the surface,
+  // fossils in the clay and rock, gems and gold where it's hot.
+  const RELICS_BY_BAND = {
+    Topsoil: ['bone', 'skull', 'coin', 'pot', 'bone', 'coin', 'skull'],
+    Subsoil: ['skeleton', 'bone', 'pot', 'chest', 'coin', 'sword', 'skull'],
+    Clay: ['dino', 'bone', 'ammonite', 'fish', 'pot', 'chestOpen', 'dino'],
+    Bedrock: ['dino', 'ammonite', 'fish', 'gem', 'nugget', 'bone', 'fish'],
+    'Deep Rock': ['gem', 'ruby', 'nugget', 'chestOpen', 'sword', 'emerald'],
+    Mantle: ['ruby', 'nugget', 'chest', 'gem', 'emerald'],
+    Core: ['ruby', 'gem', 'nugget', 'emerald', 'chestOpen']
+  };
+
+  /** Paint a relic bitmap at art-pixel (x, y). */
+  function drawRelic(ctx, rows, x, y) {
+    for (let r = 0; r < rows.length; r++) {
+      for (let c = 0; c < rows[r].length; c++) {
+        const colour = RELIC_PALETTE[rows[r][c]];
+        if (!colour) continue;
+        ctx.fillStyle = colour;
+        ctx.fillRect(x + c, y + r, 1, 1);
+      }
+    }
+  }
 
   /**
    * @param {object} opts
@@ -269,7 +457,7 @@
       }
 
       // magma cracks, deep only
-      for (let i = 0; i < 90; i++) {
+      for (let i = 0; i < Math.round((MAX_UNITS - 470) / 3.2); i++) {
         const d = 470 + hash2(i, 10, 51) * (MAX_UNITS - 470);
         const band = bandOf(d);
         let x = Math.floor(hash2(i, 11, 52) * W);
@@ -282,6 +470,8 @@
           y += hash2(x, y, 55) > 0.35 ? 1 : 0;
         }
       }
+
+      paintRelics();
 
       // band boundaries: a rock seam plus a label
       for (const band of strata.STRATA) {
@@ -297,6 +487,28 @@
         tctx.fillStyle = 'rgba(0,0,0,0.62)';
         tctx.fillRect(3, y + 5, width, 9);
         drawText(tctx, label, 5, y + 7, band.accent);
+      }
+    }
+
+    /**
+     * Scatter relics down the whole column: one every ~11 units (two or three
+     * per screen) near the surface where the player spends most rounds,
+     * thinning out with depth. Deterministic, so a resize re-paints the same
+     * finds in the same places.
+     */
+    function paintRelics() {
+      let d = 5;
+      for (let i = 0; d < MAX_UNITS - 8; i++) {
+        const band = strata.strataFor(d);
+        const menu = RELICS_BY_BAND[band.name] || RELICS_BY_BAND.Core;
+        const rows = RELICS[menu[Math.floor(hash2(i, 13, 61) * menu.length)]];
+        const w = rows[0].length;
+        let x = 3 + Math.floor(hash2(i, 14, 62) * Math.max(1, W - w - 6));
+        // Keep clear of the stratum label in the top-left of each band.
+        if (d - band.from < 8 && x < 80) x = Math.min(W - w - 3, 80 + Math.floor(hash2(i, 15, 63) * 40));
+        if (x >= 3) drawRelic(tctx, rows, x, worldY(d));
+        const spacing = d < 500 ? 11 : 20;
+        d += spacing * (0.6 + hash2(i, 16, 64) * 0.8);
       }
     }
 
@@ -570,5 +782,5 @@
     };
   }
 
-  return { createRenderer, PX_PER_UNIT, SKY_H, WORLD_H, MAX_UNITS, drawText };
+  return { createRenderer, PX_PER_UNIT, SKY_H, WORLD_H, MAX_UNITS, drawText, RELICS, RELIC_PALETTE, RELICS_BY_BAND };
 });
