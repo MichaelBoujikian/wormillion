@@ -157,7 +157,9 @@
     function startRound() {
       locked = false;
       renderPrompt();
-      setFeedback('');
+      // The previous round's result stays on screen beside the new prompt; it
+      // is only replaced when the player submits again. A score you never got
+      // to read is not much of a reward.
       els.input.value = '';
       els.input.disabled = false;
       els.input.focus();
@@ -211,6 +213,7 @@
       if (locked || !run || run.finished) return;
       const raw = els.input.value;
       if (!raw.trim()) return;
+      setFeedback('');
       const result = run.submit(raw);
 
       if (result.status === 'accepted') {
@@ -336,6 +339,7 @@
     function startRun() {
       run = W.run.createRun(bank);
       renderer.reset();
+      setFeedback('');
       els.lastAnswer.textContent = '';
       els.timerBar.style.width = '100%';
       show('play');

@@ -2,3 +2,4 @@ scripts/.cache/
 check*.txt
 node_modules/
 dist/
+fetch.log

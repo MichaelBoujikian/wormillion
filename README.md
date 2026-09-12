@@ -94,6 +94,8 @@ src/                 the deployed site, as-is
 scripts/
   data-countries.mjs, data-physical.mjs   authoring sources (pipe-delimited)
   data-wiki-titles.mjs  Wikipedia title overrides + hand-verified subjects
+  data-oceans.mjs       ocean classification boxes + overrides
+  data-un-members.mjs   the 193 UN members + observers the validator audits against
   build-data.mjs     emits src/data/* (exports buildFiles() for the fetcher)
   fetch-pageviews.mjs  refreshes pageviews.json
   validate-data.mjs  npm run validate
@@ -165,10 +167,15 @@ round 12 harder than round 2:
 |---|---|---|
 | none | "Name a river." | — |
 | region | "Name a country in Southeast Asia." | region tags on countries/capitals |
-| theme | "Name a river in Mesopotamia." | `src/data/themes.js` |
+| theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." | `src/data/themes.js` |
+| ocean | "Name an island in the Pacific Ocean." | `oceans`, derived from each article's coordinates |
+| size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
 | letter | "Name a river with a T in it." | derived from the name |
 
-The chance of a modifier ramps from ~30% in round 1 to ~85% in round 15.
+The first three rounds are always plain, in three different categories. After
+that the chance of a modifier ramps from 40% to 90%, and **no prompt text is
+ever shown twice in a run** — a category's second appearance is re-drawn until
+it reads differently from its first.
 
 A modifier narrows what is **accepted**; it never changes scoring, which is
 always against the whole category (Spec 3.2). Generated letter rules are only
@@ -181,10 +188,16 @@ words ("mount", "lake", "the") stripped. So "Lake Baikal" satisfies both "starts
 with L" and "starts with B", but "Nile" does not satisfy "has a T in it" merely
 because one alias is "the Nile".
 
-Themes are hand-curated rather than derived from coordinates because a themed
-prompt *rejects* everything outside its set — a half-complete set would turn a
-correct answer into a wrong one. `npm run validate` fails if a theme names a
-place that isn't in the bank.
+Themes are hand-curated because a themed prompt *rejects* everything outside
+its set — a half-complete set would turn a correct answer into a wrong one.
+`npm run validate` fails if a theme names a place that isn't in the bank.
+
+Ocean membership is the exception, and deliberately so: "Hawaii isn't in the
+Pacific" is exactly the bug a hand list produces. Every island and sea carries
+`oceans`, derived from its Wikipedia article's coordinates by a few coarse boxes
+in `scripts/data-oceans.mjs` and corrected there by an explicit override table
+(Indonesian straddlers count for both oceans; Hudson Bay is Arctic; the Caspian
+is none). The validator fails if any island or sea has no ocean and no override.
 
 ### Spelling
 

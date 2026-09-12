@@ -1,4 +1,4 @@
-# Wormillion — Build Specification (v1.0)
+# Wormillion — Build Specification (v1.1)
 
 ## 0. One-line pitch
 
@@ -19,8 +19,9 @@ Sections 2–10 are the reference material every milestone pulls from. Read them
 - **Format:** Vanilla HTML/CSS/JS, zero build step, public GitHub repo named `wormillion`, deployed to GitHub Pages via GitHub Actions on push to `main`.
 - **Gameplay:** Endless/limitless mode — no daily lock, play as many runs as you want, each run draws 15 prompts at random from the bank. 30 seconds per prompt; timeout = auto-advance with 0 points.
 - **Prompts:** Geography only — countries by continent/region, capitals, lakes, rivers, mountains, deserts, islands, seas/oceans, plus real-but-obscure minor peaks/hills for deep rarity tiers. No fabricated place names.
-- **Rarity/scoring:** Algorithmic, not hand-tiered — each entry has a real-world magnitude stat (population, area, length, elevation, etc.), converted to a log-scaled percentile within its category. That percentile drives both dig depth and points, mirroring Krillion's "rarer = deeper = more points."
-- **Answer matching:** Case-insensitive, US English spelling only (British spellings rejected), with an alias table so common abbreviations/nicknames count (USA/US/America, UK, DRC, etc.).
+- **Rarity/scoring:** Algorithmic, not hand-tiered — each entry's magnitude is its **typical monthly English-Wikipedia pageviews** (v1.1; v1.0 used a physical stat — population, area, length, elevation — which is now kept as `size` for reference and for threshold prompts). Magnitude is converted to a log-scaled percentile within its category, and that percentile drives both dig depth and points, mirroring Krillion's "rarer = deeper = more points."
+- **Answer matching:** Case-insensitive, with an alias table so common abbreviations/nicknames count (USA/US/America, UK, DRC, etc.), plus filler-word tolerance ("Everest" → Mount Everest) and **spelling correction** within a tight edit-distance budget, with the corrected spelling shown to the player (v1.1). British spellings are therefore *corrected*, not rejected.
+- **Prompts:** Each round is a category plus an optional modifier — region, curated theme, ocean, size threshold, or letter rule — so a run reads "Name a river." early and "Name a river in Mesopotamia." or "Name a river with a T in it." later. No prompt text repeats within a run (v1.1).
 - **Visuals:** Retro pixel-art style matching Krillion's look, reskinned to earth tones. Depth strata across the 15-round range: Topsoil → Subsoil → Clay → Bedrock → Deep Rock → Mantle → Core. Pixel worm digs and leaves a tunnel behind it.
 - **Persistence:** Browser localStorage tracks best dive/history across runs (no server, no accounts).
 
@@ -30,25 +31,45 @@ Everything below resolves the gaps this list leaves open, so no implementation d
 
 The original brief describes the shape of the game but leaves several mechanics underspecified. These are resolved here, once, so every milestone builds against the same rules.
 
-**3.1 Prompt format is "name a member of a category," not fixed trivia.** Every prompt (including capitals) accepts *any* real, correctly-spelled member of its category — not one specific correct answer. "Name a country in Africa" accepts Egypt, Comoros, or São Tomé and Príncipe; "Name a capital city" accepts London or Ngerulmud. This is what makes per-answer rarity meaningful (Section 5) and matches Krillion's actual mechanic.
+**3.1 Prompt format is "name a member of a category," not fixed trivia.** Every prompt accepts *any* real member of its category that satisfies the prompt's modifier (if any) — not one specific correct answer. "Name a country in Africa" accepts Egypt, Comoros, or São Tomé and Príncipe; "Name a capital city" accepts London or Ngerulmud. This is what makes per-answer rarity meaningful (Section 5) and matches Krillion's actual mechanic.
+
+**3.1a Modifiers (v1.1).** A slot is `{category, modifier?}` where the modifier is one of:
+
+| modifier | example prompt | applies to | source of truth |
+|---|---|---|---|
+| region | "Name a country in Southeast Asia." | country, capital | `region` tags (Section 6) |
+| theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." | any | `src/data/themes.js`, hand-curated |
+| ocean | "Name an island in the Pacific Ocean." | island, sea_ocean | `oceans` field, derived from coordinates (Section 4) |
+| size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | any | `size` field |
+| letter | "Name a river with a T in it." / "…that starts with M." / "…with a double letter." | any | the entry's name |
+
+A modifier narrows what is **accepted**, never how an answer scores (3.2). A generated modifier (size, letter, ocean) is only used when at least 6 entries satisfy it and — for size and letter — it rules out at least 40% of the category; otherwise the slot falls back to plain. Curated themes may be deliberately tight (Mesopotamia has two rivers) and are used with as few as 2 members. Letter rules consider the name as displayed plus every name/alias with filler words ("mount", "lake", "the") removed, so "Lake Baikal" satisfies "starts with L" and "starts with B", but "Nile" does not satisfy "has a T" via its alias "the Nile".
 
 **3.2 Country/capital region scoping applies to the prompt, not the score.** A country prompt may be scoped to a region ("Name a country in Southeast Asia"), but rarity is always computed against the *global* cohort for that category (all ~195 countries), never the region subset. Rationale: a Pacific micro-state should score as globally obscure even when the prompt happened to scope to a region full of other small states; scoping the cohort too would flatten that.
 
 **3.3 Minor peaks/hills share the "mountain" cohort.** The obscure bonus pool isn't a separate category the player can target — it's additional entries merged into the same `mountain` cohort before rarity is computed, so a run naturally reaches Core-tier depth only if the player actually knows something obscure, not because a separate tiny pool trivially maxes out.
 
-**3.4 Wrong or unrecognized answers get a free retry within the 30s window.** Because prompts are open-category, a "wrong" answer usually just means "not recognized," not "incorrect." On an unmatched submission: clear the input, show a brief inline "not recognized — try another" hint, do **not** advance the round, and do **not** penalize. Only a timeout locks in 0 points/0 depth for that round. (Decision, not in the original brief — needed for the loop to feel fair given open-category prompts.)
+**3.4 Wrong or unrecognized answers get a free retry within the 30s window.** Because prompts are open-category, a "wrong" answer usually just means "not recognized," not "incorrect." On an unmatched submission: clear the input, show a brief inline hint, do **not** advance the round, and do **not** penalize. Only a timeout locks in 0 points/0 depth for that round. (Decision, not in the original brief — needed for the loop to feel fair given open-category prompts.) v1.1 distinguishes the hint: a real place that doesn't fit the modifier says so ("Egypt isn't in Southeast Asia — try another"); an unknown string says "not recognized". The previous round's result line (place, views, points, depth dug) stays on screen beside the new prompt until the player's next submission (v1.1) — it is not cleared when the round advances.
 
 **3.5 Duplicate answers within one run are rejected, not scored.** Track canonical-form answers already accepted this run. Resubmitting one (e.g., answering "Egypt" for two different Africa prompts in the same run) is treated like an unmatched answer per 3.4: free retry, no penalty, no advance. This forces genuine recall breadth across a run instead of one lucky rare answer repeated.
 
-**3.6 US-only spelling is enforced by omission, not by a rejection rule.** Alias tables (Section 4) are curated with US spellings only. British variants are simply never added as aliases — so they fail to match with no special-case logic required. Do not add a British→US normalization step; that would make both forms equivalent, which defeats the requirement.
+**3.6 Spelling (superseded in v1.1).** v1.0 enforced US spelling by omission — British variants were never aliases, so they failed to match. v1.1 adds spelling correction (3.7), under which "Harbour" is one edit from "Harbor" and is *accepted with the US spelling shown*. Alias tables are still curated with US spellings only; there is still no British→US normalization step.
 
-**3.7 Answer normalization (applies before alias lookup):** lowercase; trim; collapse internal whitespace to single spaces; strip periods, commas, and apostrophes; normalize `-`/`–`/`—` and `'`/`’` to a single plain form. "St. Lucia," "st lucia," and "St Lucia" all normalize to `st lucia`. This is normalization, not spelling correction — it does not fix misspellings.
+**3.7 Answer normalization and matching passes.** Normalization (applies before any lookup): NFD-decompose and strip diacritics; lowercase; trim; collapse internal whitespace to single spaces; strip periods, commas, and apostrophes; normalize `-`/`–`/`—` and `'`/`’` to a single plain form. "St. Lucia," "st lucia," and "St Lucia" all normalize to `st lucia`. Matching then runs three passes, cheapest first (v1.1):
 
-**3.8 Prompt draw algorithm (15 prompts per run):** shuffle the 8 categories, take that order, then shuffle a second independent copy of the 8 categories and drop its last entry, concatenate (8 + 7 = 15), then shuffle the combined sequence of 15 category slots. This guarantees every category appears at least once and at most twice per run, with no predictable ordering. For every slot resolved to `country`, additionally pick a random region tag (weighted toward regions with ≥6 countries, so the region filter isn't so narrow it becomes a tiny cohort of choices) uniformly from the region list in Section 6.
+1. **exact** — the normalized input is a known name or alias;
+2. **loose** — the same with geographic filler words removed on both sides (`mount, mt, lake, loch, river, sea, island, isle, desert, the, of, city, saint, st, …`), so "Everest" finds "Mount Everest" and "Kitts and Nevis" finds "Saint Kitts and Nevis". A loose form shared by two different entries identifies neither;
+3. **fuzzy** — the single closest name/alias by Damerau–Levenshtein distance within a length-scaled budget: 0 edits for inputs of 4 characters or fewer, 1 for 5–7, 2 for 8–11, 3 beyond. If two different entries tie for closest, the input is rejected rather than guessed. A fuzzy hit is reported as a *correction* and the UI shows `typed → Real Name`.
+
+Substring matching is never performed.
+
+**3.8 Prompt draw algorithm (15 prompts per run, v1.1):** shuffle the 8 categories; the first three become the **opening** — three distinct categories, always plain (no modifier). Shuffle a second copy of the 8, drop its last entry, and shuffle the remaining 5 + 7 = 12 slots after the opening. Every category still appears at least once and at most twice per run. For rounds 4–15 the chance of a modifier ramps linearly from 40% to 90%; the modifier is drawn from those available to the category (3.1a). **No two rounds may show identical prompt text**: a slot whose text would repeat an earlier one is re-drawn (a category's second appearance therefore always reads differently from its first), falling back to a letter rule if needed. Region scoping is only offered for regions carrying ≥6 countries.
 
 **3.9 Depth is cumulative across the run; strata are fixed bands over total depth, not per-round tiers.** See Section 5.2 — this is what makes "Depth strata across the 15-round range" literal: a run's total accumulated depth (0 up to a max of 700 units) is what determines which of the 7 named strata the worm is currently shown in, round by round.
 
 **3.10 Scoring constants are tunable but must ship with these v1 defaults** (Section 5.1): `POINTS_MIN = 50`, `POINTS_MAX = 1000`, `POINTS_GAMMA = 1.4`, `TOTAL_DEPTH_BUDGET = 700`, `ROUNDS_PER_RUN = 15` (so `MAX_DIG_PER_ROUND = 700/15 ≈ 46.667`). Changing these is a balance-tuning task for after M8, not part of initial implementation.
+
+**3.11 A zero-dig answer must still complete the round (v1.1).** The most-viewed entry in a cohort has rarity exactly 0 and digs 0. The dig animation must treat "no distance to cover" as a dive that plays out in place and then reports arrival; it must never wait for the depth to change. (Regression: `everest` and `caspian` froze the game.)
 
 ## 4. Data model
 
@@ -59,17 +80,24 @@ Every prompt-bank entry, across all 8 category files, shares this shape:
   "id": "country-egypt",            // unique, stable, kebab-case: "<category>-<slug>"
   "category": "country",             // one of the 8 category keys (Section 6)
   "name": "Egypt",                   // canonical display/accepted answer
-  "aliases": [],                     // additional accepted strings, US-spelling only (Section 3.6)
-  "magnitude": 112716598,            // the real-world stat used for rarity (Section 5.1); must be > 0
-  "magnitudeUnit": "population",     // one of: population | area_km2 | length_km | elevation_m
+  "aliases": [],                     // additional accepted strings, US-spelling only
+  "magnitude": 162000,               // SCORING stat (Section 5.1): typical monthly Wikipedia pageviews; must be > 0
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Egypt",              // the article the pageviews came from
+  "lat": 27, "lon": 30,              // article coordinates, when the article has them
+  "size": 112716598,                 // the physical stat: population | area (km2) | length (km) | elevation (m)
+  "sizeUnit": "population",          // population | population_of_country | area_km2 | length_km | elevation_m
   "region": ["Africa", "North Africa"], // country/capital only: continent + optional sub-region tags
-  "source": "UN population estimate, 2024" // short human-readable provenance note, not shown in-game
+  "oceans": ["Pacific"],             // island/sea_ocean only: Pacific | Atlantic | Indian | Arctic | Southern; [] only by explicit override
+  "source": "..."                    // provenance note, not shown in-game
 }
 ```
 
-- `region` is present only on `country` and `capital` entries (both keyed off the same country list — a capital entry inherits its country's region tags).
+`magnitude` is the median of 60 daily English-Wikipedia view counts, scaled to a 30.44-day month, fetched by `scripts/fetch-pageviews.mjs` and committed as `src/data/pageviews.json` (the game never touches the network). `oceans` is derived from `lat`/`lon` by `scripts/data-oceans.mjs` with an explicit override table; the validator rejects any island or sea with no ocean and no override. The page loads `src/data/bank.js`, a generated `<script>` bundle carrying only the runtime fields (`id, category, name, aliases, magnitude, size, region, oceans`).
+
+- `region` is present only on `country` and `capital` entries (both keyed off the same country list — a capital entry inherits its country's region tags). A capital's `magnitude` is its **own** article's pageviews (v1.1), not its country's; its `size` is the country population.
 - `aliases` must never contain a string that would also match a *different* entry's canonical name in the same category (validated by the M5 validation script — see Section 6.4).
-- `magnitude` must be strictly positive; if a real-world stat can legitimately be 0 or negative for some place (it won't be, given the categories chosen — see Section 6 for why deserts/depressions with sub-sea-level elevation are excluded), exclude that entry rather than coercing the number.
+- `magnitude` and `size` must be strictly positive; an entry whose article returns no pageviews is a build error, never a zero (a zero would score as maximally obscure).
 
 Category cohort membership for rarity purposes (Section 5.1) is: all entries sharing the same `category` value, loaded and combined at runtime from however many source files feed that category (e.g. `mountains.json` + `minor-peaks.json` both feed the `mountain` cohort — Section 3.3).
 
@@ -92,9 +120,9 @@ points(e) = round( POINTS_MIN + (POINTS_MAX − POINTS_MIN) × rarity(e) ^ POINT
 dig(e)    = rarity(e) × MAX_DIG_PER_ROUND
 ```
 
-`rarity` is 1.0 for the smallest-magnitude entry in its cohort (rarest/most obscure) and 0.0 for the largest (most common/famous). This holds for every category because in every one of the 8 categories, larger magnitude correlates with fame: bigger population (countries/capitals), bigger area (lakes, deserts, islands, seas/oceans), longer length (rivers), or higher elevation (mountains — Everest is famous, a 1,900 m unnamed-to-most hill is not).
+`rarity` is 1.0 for the smallest-magnitude entry in its cohort (rarest/most obscure) and 0.0 for the largest (most common/famous). With magnitude = monthly pageviews (v1.1) this is a direct measure of how often people look a place up, so it holds by construction; v1.0's physical stats only correlated with fame and produced wrong answers at the edges (Vatican City "rarest" by population, Malawi "famous" by population). A modifier (3.1a) never changes the cohort used here.
 
-**Worked examples** (illustrative population figures; real data is sourced during M5 — treat the numbers below as a correctness check for the formula, not as shipped data):
+**Worked examples** (illustrative population figures from v1.0; the formula is unchanged by the switch to pageviews, so these remain a correctness check for the arithmetic, not shipped data):
 
 - Country cohort spans roughly Vatican City (~800 people, `L≈2.90`) to India (~1.4B, `L≈9.15`), so `Lmax−Lmin ≈ 6.25`.
 - **Tuvalu**, population ≈ 11,000, `L ≈ 4.04`: `rarity = (9.15−4.04)/6.25 ≈ 0.818` → `points = round(50 + 950 × 0.818^1.4) = round(50 + 950 × 0.767) ≈ 778` → `dig ≈ 0.818 × 46.667 ≈ 38.2`.
@@ -128,43 +156,53 @@ The worm's displayed position after round `k` is whichever band contains `Dₖ`.
 Given raw player input and the current prompt's category cohort:
 
 1. Normalize the input per rule 3.7.
-2. Normalize every candidate string (each entry's `name` plus its `aliases`) the same way, once, at data-load time (not per keystroke).
-3. Look up the normalized input in a flat `Map<normalizedString, entryId>` built for the current cohort at run start.
-4. If found and `entryId` is not already in this run's `usedAnswers` set: accept — add to `usedAnswers`, compute points/dig (5.1), advance to the next round.
+2. Normalize every candidate string (each entry's `name` plus its `aliases`) the same way, once, at data-load time (not per keystroke), and build the loose-form and fuzzy indexes alongside.
+3. Look the input up in the lookup built for the current **prompt** (the cohort narrowed by the prompt's modifier, if any): exact, then loose, then fuzzy (3.7).
+4. If found and `entryId` is not already in this run's `usedAnswers` set: accept (reporting a correction if the fuzzy pass matched) — add to `usedAnswers`, compute points/dig against the **whole** cohort (5.1, 3.2), advance to the next round.
 5. If found but already in `usedAnswers`: reject as duplicate (3.5) — free retry, no advance.
-6. If not found: reject as unrecognized (3.4) — free retry, no advance.
-7. On timeout with no accepted answer this round: lock in 0/0, advance.
+6. If not found in the prompt's lookup but found in the whole cohort's: reject as **wrong-scope** with the modifier named — free retry, no advance.
+7. If not found at all: reject as unrecognized (3.4) — free retry, no advance.
+8. On timeout with no accepted answer this round: lock in 0/0, advance.
 
 ## 6. Content bank: categories, targets, and sourcing rules
 
 Eight categories, each a JSON file under `src/data/` (schema: Section 4), each prompt rendered with fixed copy (no per-entry prompt text — the category alone determines the sentence):
 
-| Category key | Prompt shown to player | Target entry count | Magnitude stat |
-|---|---|---|---|
-| `country` | "Name a country in {region}." (region drawn per 3.8; occasionally "the world" — unscoped) | ~195 (all UN-recognized + commonly-taught non-UN states) | population |
-| `capital` | "Name a capital city." | ~195 (one per country above) | population *(of that capital's country — reuses the country's magnitude, not the city's own population, so a capital's rarity always mirrors its country's rarity)* |
-| `lake` | "Name a lake." | 70–100 | surface area (km²) |
-| `river` | "Name a river." | 70–100 | length (km) |
-| `mountain` | "Name a mountain." | 60–90 well-known peaks | elevation (m) |
-| *(feeds `mountain` cohort)* | *(same prompt as above)* | 40–60 real, obscure minor peaks/hills | elevation (m) |
-| `desert` | "Name a desert." | 30–45 | area (km²) |
-| `island` | "Name an island." | 70–100 | area (km²) |
-| `sea_ocean` | "Name a sea or ocean." | 60–75 (5 oceans + named seas) | area (km²) |
+Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4). The "size stat" column is the physical figure kept as `size`, used by size-threshold prompts (3.1a). Plain prompts are shown; modifiers (3.1a) vary the wording.
+
+| Category key | Plain prompt | Target entry count | v1.1 count | Size stat |
+|---|---|---|---|---|
+| `country` | "Name a country." | ~195 (all UN-recognized + commonly-taught non-UN states) | 197 | population |
+| `capital` | "Name a capital city." | ~195 (one per country above) | 197 | population *of the country* (`population_of_country`) |
+| `lake` | "Name a lake." | 70–100 | 119 | surface area (km²) |
+| `river` | "Name a river." | 70–100 | 130 | length (km) |
+| `mountain` | "Name a mountain." | 60–90 well-known peaks | 125 | elevation (m) |
+| *(feeds `mountain` cohort)* | *(same prompt as above)* | 40–60 real, obscure minor peaks/hills | 62 | elevation (m) |
+| `desert` | "Name a desert." | 30–45 | 58 | area (km²) |
+| `island` | "Name an island." | 70–100 | 335 (incl. archipelagos people name as islands: Seychelles, Maldives, Canaries…) | area (km²) |
+| `sea_ocean` | "Name a sea or ocean." | 60–75 (5 oceans + named seas) | 95 | area (km²) |
 
 **Region list for country prompts (3.8):** `Africa`, `Asia`, `Europe`, `North America`, `South America`, `Oceania` (continent-level, always usable) plus sub-regions used only when they have ≥6 tagged countries: `West Africa`, `East Africa`, `North Africa`, `Southern Africa`, `Middle East`, `South Asia`, `Southeast Asia`, `East Asia`, `Central Asia`, `Caribbean`, `Central America`, `Eastern Europe`, `Western Europe`, `Scandinavia & the Nordics`. Every country entry carries `region: [continent, ...subregions]`.
 
+**6.0 Themes (v1.1).** `src/data/themes.js` holds hand-curated sets used by the theme modifier, listed by in-game name and resolved at load time: rivers (Mesopotamia, the British Isles, Siberia, continents, India), mountains (the Alps, the Himalayas, the Andes, the Rockies, Scotland, England or Wales, Indonesia, volcanoes), islands (the Caribbean, the Mediterranean, Greece, Hawaii, Scotland, Japan, Indonesia), lakes (saltwater, the Great Lakes, Africa, the Alps, the British Isles, Scandinavia), deserts and seas by continent, and countries (landlocked, island nations). Because a themed prompt *rejects* answers outside its set, sets must be complete for their well-known members; the validator fails on any listed name that is not in the bank. Ocean membership is deliberately **not** a theme — it is derived data (Section 4) so that no island can be left off a list.
+
 **6.1 No fabricated place names — hard rule.** Every entry must be a real, currently-recognized place with a real, sourced magnitude figure. Made-up names, jokey placeholders, or "TBD" entries are never committed, not even temporarily — a milestone that isn't ready to add real data for a slot leaves that slot's count lower rather than fill it with a placeholder.
 
-**6.2 Sourcing.** Use reputable public reference data (e.g., UN/World Bank population figures, standard physical-geography references for area/length/elevation). Record the source per-entry in the `source` field (Section 4) — it's for maintainers/reviewers, never rendered in the UI. Where a figure varies by source (river length especially — measurement method changes it materially), pick one reputable figure and note the caveat in `source`; consistency within the dataset matters more than picking the "most correct" of several disputed figures.
+**6.2 Sourcing.** Pageviews come from the Wikipedia action API (`prop=pageviews`, 60 daily counts, median) via `npm run fetch-pageviews`; each entry's Wikipedia article is resolved through redirects, rejected if it is a disambiguation or missing page, and its Wikidata description checked against the category — overrides and hand-verified subjects live in `scripts/data-wiki-titles.mjs`. Physical `size` figures use reputable public reference data (UN/World Bank population, standard physical-geography references). Record provenance in `source` — for maintainers, never rendered. Where a figure varies by source (river length especially), pick one reputable figure and note the caveat; consistency within the dataset matters more than picking the "most correct" of several disputed figures.
 
 **6.3 Transcontinental countries** (Russia, Turkey/Türkiye, Kazakhstan, Egypt, etc.) get whichever single continent tag is the common convention (e.g. Russia → Europe, by population-center/UN-region convention) plus any sub-region tags that apply; don't dual-tag continents, to keep prompt scoping predictable.
 
 **6.4 Validation script (`scripts/validate-data.mjs`, part of M5).** Run as `npm run validate`. Checks, failing the run (non-zero exit) on any violation:
-- every entry has all required fields, `magnitude > 0`, and a non-empty `category` matching one of the 8 keys;
+- every entry has all required fields, `magnitude > 0` with unit `pageviews_monthly`, `size > 0` with a known unit, a `wikiTitle`, and a non-empty `category` matching one of the 8 keys;
 - no duplicate `id` within a file or across files feeding the same cohort;
 - no alias string collides with another entry's normalized name/alias within the same cohort (Section 4);
 - every `country`/`capital` entry has a non-empty `region` array using only region names from the list above;
-- reports final per-category entry counts against the targets table above (warns, doesn't fail, if below target — target is a goal for M5, not a hard gate for every other milestone).
+- every `island`/`sea_ocean` entry has an `oceans` array of known oceans, empty only by explicit override (v1.1);
+- every UN member state, UN observer state and commonly-taught state (`scripts/data-un-members.mjs`) is answerable by name or alias in the country cohort (v1.1);
+- every name listed in a theme (`src/data/themes.js`) resolves to an entry in that category (v1.1);
+- reports final per-category entry counts against the targets table above (warns, doesn't fail, if below target).
+
+Two companion scripts are advisory rather than gating: `npm run gap-check` pushes a list of answers players obviously reach for through the real matcher and fails on any that has nowhere to land; `npm run score-report` prints what the bank does to the scoring curve.
 
 ## 7. Repository layout
 
@@ -176,41 +214,48 @@ wormillion/
   src/                  # <- this whole folder is the deployed static site, as-is, no build
     index.html
     styles.css
-    main.js             # entry point; imports the modules below as ES modules
+    main.js             # entry point (classic scripts, see note below)
     js/
       rarity.js         # 5.1 + 5.2, pure functions, no DOM
-      matching.js       # 5.3, pure functions, no DOM
-      promptBank.js     # loads data/*.json, builds cohorts, draw15() per 3.8
+      strata.js         # depth → stratum name/band lookup (5.2 table) + palette
+      matching.js       # 3.7 + 5.3: normalization, loose and fuzzy passes, no DOM
+      promptBank.js     # cohorts, modifiers (3.1a), the 15-slot draw (3.8), no DOM
       run.js            # run/round state machine (current round, score, depth, usedAnswers)
       timer.js          # 30s countdown, pure-ish (callback-based), no DOM assumptions baked in
       persistence.js    # localStorage read/write: best dive + history (Section 9 shape)
+      icons.js          # 12x12 pixel category icons, draws to a supplied context
+      worldRender.js    # the dig scene; draws to canvases handed in, never touches `document`
       ui.js             # DOM rendering + event wiring; the only file allowed to touch `document`
-      strata.js         # depth → stratum name/band lookup (5.2 table)
     data/
-      countries.json
-      capitals.json
-      lakes.json
-      rivers.json
-      mountains.json
-      minor-peaks.json
-      deserts.json
-      islands.json
-      seas-oceans.json
-    assets/
-      sprites/          # pixel-art PNGs: worm frames, strata tiles, category icons
+      countries.json … seas-oceans.json   # Section 4 schema, generated by scripts/build-data.mjs
+      pageviews.json    # the Wikipedia snapshot (views, title, coordinates) the build folds in
+      bank.js           # generated <script> bundle of the runtime fields - what the page loads
+      themes.js         # hand-curated theme sets (6.0)
   scripts/
-    validate-data.mjs   # Section 6.4
+    data-countries.mjs, data-physical.mjs   # authoring sources (pipe-delimited)
+    data-wiki-titles.mjs  # Wikipedia title overrides + hand-verified subjects
+    data-oceans.mjs       # ocean classification boxes + overrides
+    data-un-members.mjs   # the audit list for 6.4
+    build-data.mjs        # emits src/data/*; exports buildFiles() for the fetcher
+    fetch-pageviews.mjs   # refreshes pageviews.json (network; cached under scripts/.cache/)
+    validate-data.mjs     # Section 6.4
+    gap-check.mjs, score-report.mjs, bundle.mjs, serve.mjs
   tests/
     rarity.test.js
     matching.test.js
     run.test.js
+    prompts.test.js       # modifiers, the draw, ocean/size behaviour
+    worldRender.test.js   # dive completion incl. the zero-dig regression (3.11)
+    persistence.test.js
     validate-data.test.js
   package.json          # scripts only: "test", "validate"; no runtime dependencies at all
   README.md
   SPEC.md               # this document
 ```
 
-`js/ui.js` being the sole DOM-touching module is a hard architectural rule, not a suggestion — it's what keeps `rarity.js`, `matching.js`, `promptBank.js`, and `run.js` unit-testable with plain `node --test`, no jsdom, no browser needed for the test suite. If a milestone finds itself importing `document` into one of the other modules, that's the signal to stop and restructure before continuing.
+`js/ui.js` being the sole DOM-touching module is a hard architectural rule, not a suggestion — it's what keeps `rarity.js`, `matching.js`, `promptBank.js`, `run.js` and even `worldRender.js` (which draws to canvases it is handed) unit-testable with plain `node --test`, no jsdom, no browser needed for the test suite. If a milestone finds itself importing `document` into one of the other modules, that's the signal to stop and restructure before continuing.
+
+**Module format (v1.0 build decision).** Modules are classic scripts using a tiny UMD-style wrapper (`module.exports` under Node, `globalThis.Wormillion.<name>` in the browser) rather than ES modules, and data ships as `data/bank.js` rather than fetched JSON. Browsers block both ES-module loading and `fetch()` on `file://`, and "open `index.html` and play" was the harder requirement. The JSON files remain the validated source of truth.
 
 ## 8. Non-functional requirements
 
@@ -326,3 +371,23 @@ Each milestone: **Goal**, **Depends on**, **Blocks**, **Tasks**, **Out of scope*
 ## 12. Definition of done (v1.0)
 
 All of Section 2's original requirements are met; all of Section 3's resolved decisions are implemented as specified (not as whatever felt easiest mid-milestone); the site is live on GitHub Pages, deployed automatically from `main`; the content bank meets Section 6's targets and passes validation; `npm test` and `npm run validate` both pass in CI; the game has been played start-to-finish, on both desktop and mobile, by a human, more than once.
+
+## 13. Amendments
+
+Behaviour changes after v1.0, in the order they landed. Each is reflected in the section it cites.
+
+| version | change | sections |
+|---|---|---|
+| 1.0 | Classic scripts + generated `data/bank.js` instead of ES modules + `fetch()`, so `file://` works. | 7, 8 |
+| 1.0 | Region-scoped country prompts gate *acceptance*, not just wording; rarity stays global. | 3.1, 3.2, 5.3 |
+| 1.1 | Scoring magnitude is monthly Wikipedia pageviews; the physical stat becomes `size`. Capitals score on their own article. | 2, 4, 5.1, 6 |
+| 1.1 | Spelling correction (loose + fuzzy passes); British spellings corrected rather than rejected. | 2, 3.6, 3.7, 5.3 |
+| 1.1 | Prompt modifiers: region (countries *and* capitals), curated themes, ocean, size thresholds, letter rules. | 3.1a, 6.0 |
+| 1.1 | Draw: first three rounds plain and distinct; modifier chance ramps 40%→90%; no repeated prompt text. | 3.8 |
+| 1.1 | Ocean membership derived from article coordinates and validated (Hawaii is in the Pacific by construction). | 4, 6.4 |
+| 1.1 | Zero-dig answers must still complete the round (the `everest`/`caspian` freeze). | 3.11 |
+| 1.1 | Previous round's result stays visible until the next submission. | 3.4 |
+| 1.1 | Validator audits UN membership and theme membership; `gap-check` and `score-report` added. | 6.4 |
+| 1.1 | Bank expanded to 1,318 entries (islands 104→335, plus rivers, mountains, lakes, deserts, seas). | 6 |
+
+**Deferred (needs new data, scoped separately):** a non-capital *cities* category; flag-colour tags per country; coastal/landlocked is covered by the `landlocked` theme (6.0), a `coastal` prompt would need the complementary tag on every country.
