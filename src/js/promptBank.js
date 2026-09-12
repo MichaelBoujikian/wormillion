@@ -102,30 +102,29 @@
   const pick = (items, rng) => items[Math.floor(rng() * items.length)];
 
   /**
-   * The spellings a letter rule is allowed to look at: the name exactly as the
-   * game displays it, plus every name and alias with filler words stripped.
-   *
-   * So "Lake Baikal" counts for both "starts with L" (as written) and "starts
-   * with B" (as everyone says it) - but "Nile" does NOT count for "has a T in
-   * it" just because one of its aliases is "the Nile". Filler words are not part
-   * of a place's spelling.
+   * The spellings a LETTER rule looks at: every name and alias with the filler
+   * words stripped. The filler is not part of the name - "Mount Fuji" has no T
+   * in it and does not start with M, "Lake Baikal" starts with B, and "Nile"
+   * does not get a T from its alias "the Nile". (An entry whose name is all
+   * filler keeps its full spelling rather than vanishing.)
    */
   function variantsOf(entry) {
     const out = new Set();
-    const canonical = matching.normalize(entry.name);
-    if (canonical) out.add(canonical);
     for (const candidate of [entry.name, ...(entry.aliases || [])]) {
       const bare = matching.looseKey(candidate);
       if (bare) out.add(bare);
+    }
+    if (out.size === 0) {
+      const canonical = matching.normalize(entry.name);
+      if (canonical) out.add(canonical);
     }
     return [...out];
   }
 
   /**
-   * For the LENGTH rules the filler is part of what the player types, so
-   * every spelling counts in full as well: "Mount Kilimanjaro" is a long name
+   * For the LENGTH rules the filler IS part of what the player types, so every
+   * spelling counts in full as well: "Mount Kilimanjaro" is a long name
    * whether the bank's row happens to say "Kilimanjaro" or "Mount Kilimanjaro".
-   * (The letter rules keep using variantsOf: "the Nile" has no T in it.)
    */
   function spellingsOf(entry) {
     const out = new Set(entry.variants);

@@ -190,12 +190,14 @@ allowed to be tight on purpose: "Mesopotamia" has exactly two right answers.
 How often modifiers appear is set by `OPENING_ROUNDS`, `MODIFIER_CHANCE_START`
 and `MODIFIER_CHANCE_END` at the top of `src/js/promptBank.js`.
 
-Letter rules look at the name as displayed plus every name and alias with filler
-words ("mount", "lake", "the") stripped. So "Lake Baikal" satisfies both "starts
-with L" and "starts with B", but "Nile" does not satisfy "has a T in it" merely
-because one alias is "the Nile". The two length rules ("short name", "long
-name") also count each alias in full, filler included — length is about what
-you type, so "Mount Kilimanjaro" is a long name however the row is spelled.
+Letter rules ("with a T in it", "starts with M"…) look only at the name and
+aliases with filler words ("mount", "lake", "the") stripped — the filler is not
+part of the name. So "Mount Fuji" has no T in it and does not start with M,
+"Lake Baikal" starts with B, and "Nile" does not get a T from its alias "the
+Nile". The two length rules ("short name", "long name") are the exception and
+count each spelling in full — length is about what you type, so "Mount
+Kilimanjaro" is a long name however the row is spelled, and "Fuji" is a short
+one.
 
 Themes are hand-curated because a themed prompt *rejects* everything outside
 its set — a half-complete set would turn a correct answer into a wrong one.

@@ -71,6 +71,17 @@ function answer(run) {
   throw new Error(`no unused fixture answer left for ${category}`);
 }
 
+/** Play a whole run: answer what the tiny fixture can, let the rest time out. */
+function playOut(run) {
+  while (!run.finished) {
+    try {
+      answer(run);
+    } catch {
+      run.timeout();
+    }
+  }
+}
+
 /** Deterministic rng so a failing test is reproducible. */
 function seeded(seed) {
   let s = seed >>> 0;
@@ -165,11 +176,21 @@ test('curated themes survive even when deliberately tight', () => {
 test('letter rules accept any spelling the player might reasonably type', () => {
   const baikal = { name: 'Lake Baikal', aliases: ['Baikal'] };
   baikal.variants = promptBank.variantsOf(baikal);
-  // "Lake Baikal" counts for L (as written) and for B (as everyone says it).
-  assert.ok(promptBank.satisfiesLetter(baikal, { kind: 'starts', letter: 'l' }));
+  // "Lake" is not part of the name: Baikal starts with B, not L, and the
+  // letters of "lake" don't count (no E, no L).
+  assert.ok(!promptBank.satisfiesLetter(baikal, { kind: 'starts', letter: 'l' }));
   assert.ok(promptBank.satisfiesLetter(baikal, { kind: 'starts', letter: 'b' }));
   assert.ok(promptBank.satisfiesLetter(baikal, { kind: 'contains', letter: 'k' }));
+  assert.ok(!promptBank.satisfiesLetter(baikal, { kind: 'contains', letter: 'e' }));
   assert.ok(!promptBank.satisfiesLetter(baikal, { kind: 'contains', letter: 'z' }));
+
+  // "Mount Fuji" has no T in it and does not start with M.
+  const fuji = { name: 'Mount Fuji', aliases: ['Fuji', 'Fujisan'] };
+  fuji.variants = promptBank.variantsOf(fuji);
+  assert.ok(!promptBank.satisfiesLetter(fuji, { kind: 'contains', letter: 't' }));
+  assert.ok(!promptBank.satisfiesLetter(fuji, { kind: 'starts', letter: 'm' }));
+  assert.ok(promptBank.satisfiesLetter(fuji, { kind: 'starts', letter: 'f' }));
+  assert.ok(promptBank.satisfiesLetter(fuji, { kind: 'ends', letter: 'n' }), 'via Fujisan');
 
   // An alias's filler words are not part of the spelling: "the Nile" must not
   // make "Nile" count as having a T.
@@ -310,7 +331,7 @@ test('the summary ladder runs from least to most obscure, misses first', () => {
   assert.strictEqual(rounds[0].answer, 'France', 'the original round order is untouched');
 
   const run = runner.createRun(bank, { rng: seeded(4) });
-  while (!run.finished) answer(run);
+  playOut(run);
   const summary = run.summary();
   assert.strictEqual(summary.ladder.length, summary.rounds.length);
   for (let i = 1; i < summary.ladder.length; i++) {
@@ -320,7 +341,7 @@ test('the summary ladder runs from least to most obscure, misses first', () => {
 
 test('a full 15-round run stays inside the depth budget', () => {
   const run = runner.createRun(bank, { rng: seeded(4) });
-  while (!run.finished) answer(run);
+  playOut(run);
   assert.strictEqual(run.summary().rounds.length, 15);
   assert.ok(run.depth > 0);
   assert.ok(run.depth <= rarity.TOTAL_DEPTH_BUDGET + 1e-9, 'depth cannot exceed the budget');
