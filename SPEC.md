@@ -74,6 +74,8 @@ Substring matching is never performed.
 
 **3.12 "One in Wormillion" (v1.2).** An accepted answer with rarity ≥ 0.85 (`JACKPOT_RARITY`, owned by `src/js/rarity.js`) is bonused — it digs a flat 75, or 100 if it reads as 100% (5.1) — and puts a celebration over the scene: the words ONE IN WORMILLION slam in over the dig, with pixel confetti and lightning bolts thrown out from the text. It holds for 10 seconds (`HOLD_SECONDS`) or until the player submits their next answer — accepted or not — whichever is first, and is cleared when a new run starts. The dig animation and round flow continue underneath it; it never blocks input. Under `prefers-reduced-motion` the text appears without anything moving. Roughly the rarest 5–15% of each cohort qualifies (28 countries, 3 seas, 4 islands at v1.2).
 
+**3.13 The summary ladder (v1.2).** The run summary lists the round results **from least to most obscure**, not in round order: `summary.ladder` (`run.js`, `rankByRarity`) is the results sorted by rarity ascending, misses first (they dug nothing), ties in round order, so the rarest thing the player knew is the last line. Each row shows the place, a bar whose length is its obscurity, the percentage, and the points; rows at or above the jackpot bar are marked ★ in amber, and a 100% row in white. `summary.rounds` keeps round order and is what history records (Section 9) — nothing new is stored.
+
 ## 4. Data model
 
 Every prompt-bank entry, across all 8 category files, shares this shape:
@@ -405,6 +407,7 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | "One in Wormillion": confetti and lightning over the scene for an answer at 85%+ obscurity, held 10 s or until the next answer. | 3.12, 7 |
 | 1.2 | Dig curve made generous: `rarity × 70` below the bar, a flat 75 for 85–99%, 100 for 100%; depth budget 1500; strata bands unchanged so runs go deeper. | 3.9, 3.10, 3.12, 5.1, 5.2 |
 | 1.2 | Relics in the dirt: bones, skeletons, pottery and coins near the surface; dinosaur and fish fossils, ammonites in Clay/Bedrock; gems, gold, swords and treasure chests deeper. Painted into the terrain, carved through by the tunnel. | 7 |
+| 1.2 | Summary lists the run's finds from least to most obscure, with an obscurity bar and percentage per row. | 3.13 |
 | 1.2 | Island nations are answerable as islands: 19 new island entries (Palau, Samoa, Tonga, Bahamas, Grenada…) and country-name aliases on shared or eponymous islands (Haiti → Hispaniola, Trinidad and Tobago → Trinidad). Bank is 1,337 entries. | 6 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.

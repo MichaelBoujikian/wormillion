@@ -266,6 +266,31 @@ test('a run finishes after its rounds and summarizes correctly', () => {
   assert.ok(!Number.isNaN(Date.parse(summary.date)));
 });
 
+test('the summary ladder runs from least to most obscure, misses first', () => {
+  const rounds = [
+    { round: 1, status: 'accepted', answer: 'France', rarity: 0.12, points: 100 },
+    { round: 2, status: 'timeout', answer: null, rarity: 0, points: 0, prompt: 'Name a lake.' },
+    { round: 3, status: 'accepted', answer: 'Tuvalu', rarity: 0.9, points: 800 },
+    { round: 4, status: 'accepted', answer: 'Malta', rarity: 0.5, points: 400 },
+    { round: 5, status: 'accepted', answer: 'Luxembourg', rarity: 0.5, points: 400 }
+  ];
+  const ladder = runner.rankByRarity(rounds);
+  assert.deepStrictEqual(
+    ladder.map((r) => r.answer),
+    [null, 'France', 'Malta', 'Luxembourg', 'Tuvalu'],
+    'ascending, ties in round order, the rarest last'
+  );
+  assert.strictEqual(rounds[0].answer, 'France', 'the original round order is untouched');
+
+  const run = runner.createRun(bank, { rng: seeded(4) });
+  while (!run.finished) answer(run);
+  const summary = run.summary();
+  assert.strictEqual(summary.ladder.length, summary.rounds.length);
+  for (let i = 1; i < summary.ladder.length; i++) {
+    assert.ok(summary.ladder[i].rarity >= summary.ladder[i - 1].rarity, `ladder step ${i} goes backwards`);
+  }
+});
+
 test('a full 15-round run stays inside the depth budget', () => {
   const run = runner.createRun(bank, { rng: seeded(4) });
   while (!run.finished) answer(run);

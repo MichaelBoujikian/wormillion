@@ -122,6 +122,7 @@
         // v1 uses FINAL depth, not max depth (Spec 5.2).
         deepestStratum: strata.stratumName(state.depth),
         rounds: state.results.slice(),
+        ladder: rankByRarity(state.results),
         date: new Date().toISOString()
       };
     }
@@ -150,5 +151,17 @@
     };
   }
 
-  return { createRun };
+  /**
+   * The run's answers from least to most obscure, so the summary reads as a
+   * climb: misses sit at the top (they dug nothing), ties keep round order,
+   * and the rarest thing the player knew is the last line.
+   */
+  function rankByRarity(results) {
+    return results
+      .map((result, index) => ({ result, index }))
+      .sort((a, b) => (a.result.rarity || 0) - (b.result.rarity || 0) || a.index - b.index)
+      .map(({ result }) => result);
+  }
+
+  return { createRun, rankByRarity };
 });

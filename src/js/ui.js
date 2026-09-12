@@ -315,17 +315,36 @@
         ? `New best — beat ${fmt(saved.previousBest.score)}`
         : 'New best dive';
 
+      // The ladder: every answer from least to most obscure, each with a bar
+      // for its obscurity, so the rarest thing you knew is the last line.
       els.sumRounds.innerHTML = '';
-      for (const r of summary.rounds) {
+      const span = (className, text) => {
+        const el = document.createElement('span');
+        el.className = className;
+        el.textContent = text;
+        return el;
+      };
+      for (const r of summary.ladder) {
+        const missed = r.status === 'timeout';
+        const pct = missed ? 0 : Math.round(r.rarity * 100);
+        const jackpot = !missed && W.rarity.isJackpot(r.rarity);
         const li = document.createElement('li');
-        li.className = r.status === 'timeout' ? 'miss' : '';
-        const left = document.createElement('span');
-        left.className = 'r-name';
-        left.textContent = r.status === 'timeout' ? `${r.prompt} — missed` : r.answer;
-        const right = document.createElement('span');
-        right.className = 'r-points';
-        right.textContent = r.points ? `+${fmt(r.points)}` : '0';
-        li.append(left, right);
+        li.className = [missed && 'miss', jackpot && 'rare', jackpot && pct >= 100 && 'rarest']
+          .filter(Boolean)
+          .join(' ');
+        const bar = document.createElement('span');
+        bar.className = 'r-bar';
+        bar.setAttribute('aria-hidden', 'true');
+        const fill = document.createElement('i');
+        fill.style.width = `${pct}%`;
+        bar.append(fill);
+        li.title = missed ? `${r.prompt} — missed` : `${r.answer}: ${pct}% obscure, ${fmt(r.points)} points`;
+        li.append(
+          span('r-name', missed ? `${r.prompt} — missed` : r.answer),
+          bar,
+          span('r-pct', missed ? '—' : `${pct}%`),
+          span('r-points', r.points ? `+${fmt(r.points)}` : '0')
+        );
         els.sumRounds.append(li);
       }
 
