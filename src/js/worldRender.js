@@ -98,6 +98,11 @@
     let diveFrom = 0;
     let diveElapsed = 0;
     let diveDuration = 0;
+    // True from diveTo() until arrival. Deliberately NOT derived from
+    // `depth < target`: a zero-distance dive (the cohort's most famous entry
+    // digs nothing) still has to run its beat and fire onArrive, or the round
+    // never advances.
+    let diving = false;
     let path = []; // depths already carved, in dig order
     let particles = [];
     let time = 0;
@@ -451,9 +456,10 @@
       diveFrom = depth;
       diveElapsed = 0;
       // Time-based, so a slow frame rate means fewer frames, not a longer wait.
-      diveDuration = Math.min(1.5, 0.45 + (target - depth) * 0.022);
+      diveDuration = Math.min(1.5, 0.45 + Math.max(0, target - depth) * 0.022);
       if (reducedMotion() || options.instant) {
-        depth = target;
+        diving = false;
+        depth = Math.max(depth, target);
         extendPath(depth);
         updateCamera(true);
         if (onArrive) {
@@ -461,12 +467,16 @@
           onArrive = null;
           done();
         }
+        return;
       }
+      diving = true;
     }
 
     function reset() {
       depth = 0;
       target = 0;
+      diving = false;
+      onArrive = null;
       path = [];
       particles = [];
       shake = 0;
@@ -477,19 +487,22 @@
 
     function update(dt) {
       time += dt;
-      if (depth < target) {
+      if (diving) {
         diveElapsed += dt;
         const t = diveDuration > 0 ? Math.min(1, diveElapsed / diveDuration) : 1;
         const eased = 1 - Math.pow(1 - t, 3); // ease-out cubic
         const before = depth;
-        depth = diveFrom + (target - diveFrom) * eased;
+        // Never move upward: a target at or above the current depth (zero dig,
+        // or the depth cap) just plays out the beat in place.
+        depth = Math.max(diveFrom, diveFrom + (target - diveFrom) * eased);
         extendPath(depth);
         if (Math.floor(depth * 2) !== Math.floor(before * 2)) {
           spawnDirt(wormX(depth), worldY(depth) + 4);
         }
         if (t >= 1) {
-          depth = target;
-          shake = reducedMotion() ? 0 : 1.6;
+          depth = Math.max(diveFrom, target);
+          diving = false;
+          shake = reducedMotion() || depth === diveFrom ? 0 : 1.6;
           if (onArrive) {
             const done = onArrive;
             onArrive = null;
@@ -552,7 +565,7 @@
         return depth;
       },
       get animating() {
-        return depth < target;
+        return diving;
       }
     };
   }
