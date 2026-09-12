@@ -71,14 +71,38 @@ npm run validate                     # schema, aliases, regions, oceans, UN audi
 - **15 rounds, each category once or twice.** The no-repeat-prompt fix re-draws a category's second appearance rather than capping categories to one, so the run shape didn't change. The doc asked to check with the user before changing rounds or balance — neither changed, so nothing was asked.
 - **`file://` must keep working.** Classic scripts + generated `data/bank.js`, no ES modules, no `fetch()`, no external resources. `npm run bundle` makes a single-file `dist/wormillion.html` for sending to people.
 
-## Deferred (phase 2, needs new data)
+## Deferred (phase 2, needs new data) — likely the next task
 
-Listed in SPEC.md §13:
-- a non-capital **cities** category (new data file, new cohort);
-- **flag-colour** tags per country;
-- a **coastal** prompt (landlocked exists as a theme; coastal needs the complementary tag on every country).
+Listed in SPEC.md §13. Scoping notes so nobody has to re-derive them:
 
-Also open: a balance pass on `POINTS_GAMMA` — a typical answer pays ~460 pts and a run of median answers ends around depth 325. `npm run score-report` prints the curve.
+**Coastal countries — no new data needed.** Coastal is simply every country
+*not* in the `landlocked` theme (`src/data/themes.js`). Add a derived theme in
+`promptBank.js` (`coastal` = cohort minus landlocked set) with prompt text
+"Name a country with a coastline." Cheapest of the three; do it first.
+
+**Flag colours — new column on countries.** Add an 8th pipe field to
+`scripts/data-countries.mjs` (e.g. `red+white+blue`), carry it through
+`buildFiles()` as `flag: [...]`, include it in the runtime bundle, and validate
+against a fixed palette (`red white blue green yellow black orange`). Prompt
+modifier: "Name a country whose flag has green in it." Use the same
+≥6-answers / ≤60%-of-cohort guard the other generated modifiers use. ~197 rows
+of hand data — that's the whole cost.
+
+**Non-capital cities — a ninth category, so it touches the draw.** Needs:
+a new authoring file (`scripts/data-cities.mjs`, `Name|Country|population|aliases`),
+a `city` category key in `promptBank.js` (`NOUN`, `CATEGORY_LABEL`, `SIZE_RULES`
+with population thresholds), a 12×12 icon in `icons.js`, `EXPECTED` keywords in
+`fetch-pageviews.mjs` for the description audit, region tags inherited from the
+country so region scoping works. Decide with the user: should the cohort
+exclude capitals (the doc's wording, "a city that's not a capital") or include
+them? And note SPEC 3.8's draw assumes 8 categories — with 9, the "every
+category once or twice" rule needs restating (15 slots over 9 = some appear
+once), and `tests/prompts.test.js` / `run.test.js` assert the current shape.
+Update SPEC.md §3.8 and §6 in the same change.
+
+Also open: a balance pass on `POINTS_GAMMA` — a typical answer pays ~460 pts and
+a run of median answers ends around depth 325. `npm run score-report` prints
+the curve.
 
 ## Things the user has said they care about
 
