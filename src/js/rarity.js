@@ -33,6 +33,9 @@
   const DIG_JACKPOT = 75;
   const PERFECT_RARITY = 0.995; // rounds to 100% in the UI
   const DIG_PERFECT = 100;
+  // Points follow the same shape: the curve below the bar, a flat prize for
+  // 85-99% (above anything the curve pays below the bar), the maximum for 100%.
+  const POINTS_JACKPOT = 950;
   const MAX_DIG_PER_ROUND = DIG_PERFECT;
   // The deepest a run can possibly go: fifteen 100% answers. Core starts at
   // 600, so a strong run reaches it without being perfect (Spec 5.2).
@@ -79,6 +82,8 @@
   /** Points awarded for a rarity in [0,1] (Spec 5.1). */
   function pointsFor(rarity) {
     const r = clamp(rarity, 0, 1);
+    if (r >= PERFECT_RARITY) return POINTS_MAX;
+    if (r >= JACKPOT_RARITY) return POINTS_JACKPOT;
     return Math.round(POINTS_MIN + (POINTS_MAX - POINTS_MIN) * Math.pow(r, POINTS_GAMMA));
   }
 
@@ -110,6 +115,7 @@
     POINTS_MIN,
     POINTS_MAX,
     POINTS_GAMMA,
+    POINTS_JACKPOT,
     ROUNDS_PER_RUN,
     TOTAL_DEPTH_BUDGET,
     MAX_DIG_PER_ROUND,

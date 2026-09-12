@@ -85,7 +85,7 @@ URL — see "Driving the game from JS" below.
 | jackpot bar | rarity ≥ 0.85 | `JACKPOT_RARITY`, `rarity.js` (jackpot.js and ui.js read it from there) |
 | jackpot dig / perfect dig | 75 / 100 ("perfect" = rarity ≥ 0.995, i.e. shows as 100%) | `DIG_JACKPOT`, `DIG_PERFECT`, `PERFECT_RARITY`, `rarity.js` |
 | depth budget | 1500 (= 15 × 100); strata bands unchanged at 100 each, Core from 600 | `TOTAL_DEPTH_BUDGET`, `rarity.js`; `strata.js` |
-| points | 50–1000, gamma 1.4 — **not** flattened for the jackpot tier | `POINTS_*`, `rarity.js` |
+| points | 50–1000, gamma 1.4 below the bar; flat 950 for 85–99%, 1000 for 100% (curve pays 807 just under the bar) | `POINTS_*`, `POINTS_JACKPOT`, `rarity.js` |
 | overlay hold | 10 s, or until the next submitted answer | `HOLD_SECONDS`, `jackpot.js` |
 | confetti/bolt rates over the hold | 70/s + bolt every 0.12 s → 14/s + 0.55 s → 5/s + 1.4 s | `rates()`, `jackpot.js` |
 | tunnel radius | 6; jackpot 11; perfect 14; blends over 6 depth units | `TUNNEL_R`, `TUNNEL_R_BY_TIER`, `TAPER_UNITS`, `worldRender.js` |

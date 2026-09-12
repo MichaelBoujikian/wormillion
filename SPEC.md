@@ -68,11 +68,11 @@ Substring matching is never performed.
 
 **3.9 Depth is cumulative across the run; strata are fixed bands over total depth, not per-round tiers.** See Section 5.2 — this is what makes "Depth strata across the 15-round range" literal: a run's total accumulated depth (0 up to a max of 1,500 units, v1.2) is what determines which of the 7 named strata the worm is currently shown in, round by round.
 
-**3.10 Scoring constants are tunable but must ship with these defaults** (Section 5.1): `POINTS_MIN = 50`, `POINTS_MAX = 1000`, `POINTS_GAMMA = 1.4`, `ROUNDS_PER_RUN = 15`; and for dig distance (v1.2) `DIG_SCALE = 70`, `JACKPOT_RARITY = 0.85`, `DIG_JACKPOT = 75`, `PERFECT_RARITY = 0.995`, `DIG_PERFECT = 100`, so `MAX_DIG_PER_ROUND = 100` and `TOTAL_DEPTH_BUDGET = 1500`. (v1.0–1.1 had `TOTAL_DEPTH_BUDGET = 700` and a linear dig of `rarity × 46.667`.) All in `src/js/rarity.js`.
+**3.10 Scoring constants are tunable but must ship with these defaults** (Section 5.1): `POINTS_MIN = 50`, `POINTS_MAX = 1000`, `POINTS_GAMMA = 1.4`, `POINTS_JACKPOT = 950` (v1.2), `ROUNDS_PER_RUN = 15`; and for dig distance (v1.2) `DIG_SCALE = 70`, `JACKPOT_RARITY = 0.85`, `DIG_JACKPOT = 75`, `PERFECT_RARITY = 0.995`, `DIG_PERFECT = 100`, so `MAX_DIG_PER_ROUND = 100` and `TOTAL_DEPTH_BUDGET = 1500`. (v1.0–1.1 had `TOTAL_DEPTH_BUDGET = 700` and a linear dig of `rarity × 46.667`.) All in `src/js/rarity.js`.
 
 **3.11 A zero-dig answer must still complete the round (v1.1).** The most-viewed entry in a cohort has rarity exactly 0 and digs 0. The dig animation must treat "no distance to cover" as a dive that plays out in place and then reports arrival; it must never wait for the depth to change. (Regression: `everest` and `caspian` froze the game.)
 
-**3.12 "One in Wormillion" (v1.2).** An accepted answer with rarity ≥ 0.85 (`JACKPOT_RARITY`, owned by `src/js/rarity.js`) is bonused — it digs a flat 75, or 100 if it reads as 100% (5.1) — digs a **crater** rather than a tunnel (radius 11 art px instead of 6, or 14 for a 100% answer, blending in and out over 6 depth units, with more dirt thrown and a harder landing shake; `TUNNEL_R_BY_TIER` in `worldRender.js`) and puts a celebration over the scene: the words ONE IN WORMILLION slam in over the dig, with pixel confetti and lightning bolts thrown out from the text. It holds for 10 seconds (`HOLD_SECONDS`) or until the player submits their next answer — accepted or not — whichever is first, and is cleared when a new run starts. The dig animation and round flow continue underneath it; it never blocks input. Under `prefers-reduced-motion` the text appears without anything moving. Roughly the rarest 5–15% of each cohort qualifies (28 countries, 3 seas, 4 islands at v1.2).
+**3.12 "One in Wormillion" (v1.2).** An accepted answer with rarity ≥ 0.85 (`JACKPOT_RARITY`, owned by `src/js/rarity.js`) is bonused — it digs a flat 75 and pays a flat 950 points, or 100 and 1000 if it reads as 100% (5.1) — digs a **crater** rather than a tunnel (radius 11 art px instead of 6, or 14 for a 100% answer, blending in and out over 6 depth units, with more dirt thrown and a harder landing shake; `TUNNEL_R_BY_TIER` in `worldRender.js`) and puts a celebration over the scene: the words ONE IN WORMILLION slam in over the dig, with pixel confetti and lightning bolts thrown out from the text. It holds for 10 seconds (`HOLD_SECONDS`) or until the player submits their next answer — accepted or not — whichever is first, and is cleared when a new run starts. The dig animation and round flow continue underneath it; it never blocks input. Under `prefers-reduced-motion` the text appears without anything moving. Roughly the rarest 5–15% of each cohort qualifies (28 countries, 3 seas, 4 islands at v1.2).
 
 **3.13 The summary ladder (v1.2).** The run summary lists the round results **from least to most obscure**, not in round order: `summary.ladder` (`run.js`, `rankByRarity`) is the results sorted by rarity ascending, misses first (they dug nothing), ties in round order, so the rarest thing the player knew is the last line. Each row shows the place, a bar whose length is its obscurity, the percentage, and the points; rows at or above the jackpot bar are marked ★ in amber, and a 100% row in white. `summary.rounds` keeps round order and is what history records (Section 9) — nothing new is stored.
 
@@ -122,7 +122,9 @@ Lmax   = max(L(e)) over C
 rarity(e) = clamp( (Lmax − L(e)) / (Lmax − Lmin), 0, 1 )
           = 1.0 if Lmax === Lmin (degenerate single-value cohort)
 
-points(e) = round( POINTS_MIN + (POINTS_MAX − POINTS_MIN) × rarity(e) ^ POINTS_GAMMA )
+points(e) = POINTS_MAX (1000)          if rarity(e) ≥ PERFECT_RARITY
+          = POINTS_JACKPOT (950)       if rarity(e) ≥ JACKPOT_RARITY   (v1.2: the jackpot tier pays flat, like the dig)
+          = round( POINTS_MIN + (POINTS_MAX − POINTS_MIN) × rarity(e) ^ POINTS_GAMMA )   otherwise (807 just under the bar)
 
 dig(e)    = DIG_PERFECT (100)          if rarity(e) ≥ PERFECT_RARITY (0.995 — reads as 100% on screen)
           = DIG_JACKPOT (75)           if rarity(e) ≥ JACKPOT_RARITY (0.85 — "one in Wormillion", 3.12)
@@ -422,5 +424,6 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | Seventeen island-nation entries lose the bank-invented suffix ("Cuba Island" → Cuba, "Singapore City" → Singapore): the feedback line and the ladder show the real name, and "Jamaica Island" no longer counts as a 12-letter name. | 6 |
 | 1.2 | Filler is optional in both directions: "Mount Denali" finds Denali, "Cuba Island" finds Cuba. The cross-category nudge tries every category exactly before any loosely, so "Lake Victoria" is the lake and not the Seychelles' capital. | 3.7 |
 | 1.2 | Flag-prompt weight in the modifier draw back to 2 (3 felt heavy): ~0.6 flag prompts per run, half of runs see one. | 3.8 |
+| 1.2 | Points step at the jackpot bar the way the dig does: a flat 950 for 85–99%, 1000 for 100% (the curve pays 807 just under the bar). | 3.10, 5.1 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.

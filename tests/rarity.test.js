@@ -110,6 +110,17 @@ test('points and dig sit at the documented endpoints', () => {
   assert.ok(rarity.pointsFor(0.5) < (50 + 1000) / 2);
 });
 
+test('points step at the jackpot bar the way the dig does: flat 950 for 85-99%, 1000 for 100%', () => {
+  assert.strictEqual(rarity.POINTS_JACKPOT, 950);
+  assert.strictEqual(rarity.pointsFor(0.85), 950);
+  assert.strictEqual(rarity.pointsFor(0.94), 950, 'Togo');
+  assert.strictEqual(rarity.pointsFor(0.99), 950);
+  assert.strictEqual(rarity.pointsFor(0.995), 1000, 'reads as 100% on screen');
+  // The prize beats anything the curve pays below the bar, so crossing it is a step up.
+  assert.ok(rarity.pointsFor(0.8499) < rarity.POINTS_JACKPOT);
+  assert.strictEqual(rarity.pointsFor(0.8499), 807);
+});
+
 test('a perfect 15-round run fills the whole depth budget, deep in the Core', () => {
   const digs = Array.from({ length: 15 }, () => rarity.digFor(1));
   near(rarity.cumulativeDepth(digs), rarity.TOTAL_DEPTH_BUDGET, 1e-9, 'perfect run depth');
