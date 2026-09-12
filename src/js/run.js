@@ -71,14 +71,18 @@
     /**
      * A real place from a different category, if the input names one. Exact
      * and loose hits only when `exactOnly` - a fuzzy near-miss in another
-     * category is not evidence of anything.
+     * category is not evidence of anything. An exact name in any category
+     * beats a loose one in any other, whatever order the cohorts come in:
+     * "Lake Victoria" is the lake, not the capital of the Seychelles.
      */
     function elsewhere(rawInput, category, exactOnly) {
-      for (const [other, cohort] of bank.cohorts) {
-        if (other === category) continue;
-        const hit = matching.matchAnswer(rawInput, cohort.lookup, null, { fuzzy: !exactOnly });
-        if (hit.status === 'accepted' || hit.status === 'corrected') {
-          return { entry: cohort.byId.get(hit.entryId), category: other };
+      for (const options of [{ loose: false, fuzzy: false }, { fuzzy: !exactOnly }]) {
+        for (const [other, cohort] of bank.cohorts) {
+          if (other === category) continue;
+          const hit = matching.matchAnswer(rawInput, cohort.lookup, null, options);
+          if (hit.status === 'accepted' || hit.status === 'corrected') {
+            return { entry: cohort.byId.get(hit.entryId), category: other };
+          }
         }
       }
       return null;

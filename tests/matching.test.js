@@ -133,6 +133,18 @@ test('filler words are optional in both directions', () => {
   assert.strictEqual(matching.matchAnswer('Baikal', geo, new Set()).entryId, 'lake-baikal');
   assert.strictEqual(matching.matchAnswer('Cam', geo, new Set()).entryId, 'river-cam');
   assert.strictEqual(matching.looseKey('Mount Everest'), 'everest');
+  // ...and the other way: the player adds a generic word the entry lacks.
+  const bare = matching.buildLookup([
+    { id: 'mountain-denali', name: 'Denali', aliases: ['Mount McKinley'] },
+    { id: 'island-cuba', name: 'Cuba', aliases: [] },
+    { id: 'lake-victoria', name: 'Lake Victoria', aliases: [] },
+    { id: 'island-victoria-island', name: 'Victoria Island', aliases: [] }
+  ]);
+  assert.strictEqual(matching.matchAnswer('Mount Denali', bare, new Set()).entryId, 'mountain-denali');
+  assert.strictEqual(matching.matchAnswer('Cuba Island', bare, new Set()).entryId, 'island-cuba');
+  assert.strictEqual(matching.matchAnswer('the island of Cuba', bare, new Set()).entryId, 'island-cuba');
+  // A shared bare form is still nobody, even typed with filler of its own.
+  assert.strictEqual(matching.matchAnswer('Mount Victoria', bare, new Set()).status, 'unrecognized');
 });
 
 test('a shared loose form identifies nobody', () => {

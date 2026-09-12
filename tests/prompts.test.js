@@ -521,6 +521,9 @@ test('audit fixes hold in the shipped data', () => {
   const long = runner.createRun(shipped, { rounds: 1 });
   long.state.slots[0] = { category: 'island', letter: { kind: 'long' } };
   assert.strictEqual(long.submit('Jamaica').status, 'wrong-scope');
+  assert.strictEqual(long.submit('Jamaica Island').status, 'wrong-scope', 'typed filler finds Jamaica, which is not eligible');
+  assert.strictEqual(named({ category: 'island' }, 'Cuba Island'), 'Cuba');
+  assert.strictEqual(named({ category: 'mountain' }, 'Mount Denali'), 'Denali');
 });
 
 test('Hawaii is in the Pacific, in the shipped data', () => {

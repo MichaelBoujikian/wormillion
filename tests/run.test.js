@@ -33,13 +33,14 @@ const pairs = [
   ...country('Italy', 'Rome', 59000000, EUROPE),
   ...country('Ireland', 'Dublin', 5200000, EUROPE),
   ...country('Malta', 'Valletta', 540000, EUROPE),
-  ...country('Kenya', 'Nairobi', 55000000, ['Africa', 'East Africa'])
+  ...country('Kenya', 'Nairobi', 55000000, ['Africa', 'East Africa']),
+  ...country('Seychelles', 'Victoria', 100000, ['Africa', 'East Africa'])
 ];
 
 const RAW = {
   countries: pairs.filter((e) => e.category === 'country'),
   capitals: pairs.filter((e) => e.category === 'capital'),
-  lakes: simple('lake', 'area_km2', [['Lake Superior', 82100], ['Loch Ness', 56]]),
+  lakes: simple('lake', 'area_km2', [['Lake Superior', 82100], ['Loch Ness', 56], ['Lake Victoria', 68800]]),
   rivers: simple('river', 'length_km', [['Nile', 6650], ['Cam', 64]]),
   mountains: simple('mountain', 'elevation_m', [['Mount Everest', 8849], ['Ben Nevis', 1345]]),
   minorPeaks: simple('mountain', 'elevation_m', [['Box Hill', 224]]),
@@ -344,6 +345,12 @@ test('a real place from another category is named as such, not "unrecognized"', 
   assert.strictEqual(run.submit('Frnace').elsewhere.entry.name, 'France');
   // ...and gibberish gets nothing.
   assert.strictEqual(run.submit('xyzzy').elsewhere, undefined);
+  // An exact name in one category beats a filler-stripped one in another,
+  // whichever cohort comes first: "Lake Victoria" is the lake, not Victoria.
+  const country = runner.createRun(bank, { rounds: 1 });
+  country.state.slots[0] = { category: 'country' };
+  assert.strictEqual(country.submit('Lake Victoria').elsewhere.category, 'lake');
+  assert.strictEqual(country.submit('Victoria').elsewhere.category, 'capital');
   assert.strictEqual(run.submit('Paris').status, 'accepted');
 });
 

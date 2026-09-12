@@ -177,6 +177,7 @@
   }
 
   /**
+   * @param {{fuzzy?:boolean, loose?:boolean}} [options]  pass `false` to skip that pass
    * @returns {{status:'accepted',entryId:string,matched:string}
    *          |{status:'corrected',entryId:string,typed:string,matched:string}
    *          |{status:'duplicate',entryId:string}
@@ -196,8 +197,16 @@
     const exact = lookup.get(key);
     if (exact) return settle(exact, 'accepted', { matched: key });
 
-    const loose = lookup.loose && (lookup.loose.get(key) || lookup.loose.get(looseKey(key)));
-    if (loose) return settle(loose, 'accepted', { matched: key });
+    // Filler is optional in both directions: "Everest" finds "Mount Everest"
+    // through the loose index, and "Mount Denali" finds "Denali" by dropping
+    // the filler the player added and trying the exact names again.
+    if (!options || options.loose !== false) {
+      const bare = looseKey(key);
+      const loose =
+        (lookup.loose && (lookup.loose.get(key) || lookup.loose.get(bare))) ||
+        (bare && bare !== key && lookup.get(bare));
+      if (loose) return settle(loose, 'accepted', { matched: key });
+    }
 
     if (!options || options.fuzzy !== false) {
       const near = nearest(key, lookup);
