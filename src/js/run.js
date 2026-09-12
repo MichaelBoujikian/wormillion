@@ -49,7 +49,9 @@
 
     /**
      * @returns {{status:'accepted'|'duplicate'|'unrecognized'|'wrong-scope', ...}}
-     *   'accepted' carries `correctedFrom` when a near-miss spelling was fixed.
+     *   'accepted' carries `correctedFrom` when a near-miss spelling was fixed;
+     *   'unrecognized' carries `elsewhere: {entry, category}` when the answer is
+     *   a real place from a different category (Estonia on a capitals round).
      */
     function submit(rawInput) {
       if (state.finished) return { status: 'unrecognized' };
@@ -68,6 +70,15 @@
               scopeName: current.scopeName,
               prompt: current.text
             };
+          }
+        }
+        // A real place from another category deserves a nudge, not a shrug:
+        // "Estonia is a country - this round wants a capital city."
+        for (const [category, cohort] of bank.cohorts) {
+          if (category === current.category) continue;
+          const other = matching.matchAnswer(rawInput, cohort.lookup, null);
+          if (other.status === 'accepted' || other.status === 'corrected') {
+            return { status: 'unrecognized', elsewhere: { entry: cohort.byId.get(other.entryId), category } };
           }
         }
         return { status: 'unrecognized' };

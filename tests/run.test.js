@@ -266,6 +266,21 @@ test('a run finishes after its rounds and summarizes correctly', () => {
   assert.ok(!Number.isNaN(Date.parse(summary.date)));
 });
 
+test('a real place from another category is named as such, not "unrecognized"', () => {
+  const run = runner.createRun(bank, { rounds: 1 });
+  run.state.slots[0] = { category: 'capital' };
+  const result = run.submit('France');
+  assert.strictEqual(result.status, 'unrecognized');
+  assert.strictEqual(result.elsewhere.category, 'country');
+  assert.strictEqual(result.elsewhere.entry.name, 'France');
+  assert.strictEqual(run.roundNumber, 1, 'no advance');
+  // A misspelt one still gets the nudge...
+  assert.strictEqual(run.submit('Frnace').elsewhere.entry.name, 'France');
+  // ...and gibberish gets nothing.
+  assert.strictEqual(run.submit('xyzzy').elsewhere, undefined);
+  assert.strictEqual(run.submit('Paris').status, 'accepted');
+});
+
 test('the summary ladder runs from least to most obscure, misses first', () => {
   const rounds = [
     { round: 1, status: 'accepted', answer: 'France', rarity: 0.12, points: 100 },

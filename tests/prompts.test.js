@@ -335,9 +335,9 @@ test('flag colours are read generously in the shipped data', () => {
 test('capitals carry their country\'s flag and get their own wording (shipped bank)', () => {
   const shipped = loadShippedBank();
   const prompt = shipped.promptFor({ category: 'capital', flag: { colours: ['green'] } });
-  assert.strictEqual(prompt.text, "Name a capital city whose country's flag has green in it.");
+  assert.strictEqual(prompt.text, 'Name the capital of a country whose flag has green in it.');
   const pair = shipped.promptFor({ category: 'capital', flag: { colours: ['black', 'red'] } });
-  assert.strictEqual(pair.text, "Name a capital city whose country's flag has both black and red in it.");
+  assert.strictEqual(pair.text, 'Name the capital of a country whose flag has both black and red in it.');
 
   const accepts = (colours, name) => {
     const run = runner.createRun(shipped, { rounds: 1 });

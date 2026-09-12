@@ -172,7 +172,7 @@ round 12 harder than round 2:
 | region | "Name a country in Southeast Asia." | region tags on countries/capitals |
 | theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | `src/data/themes.js`, plus `DERIVED_THEMES` in `promptBank.js` (coastal = not landlocked) |
 | ocean | "Name an island in the Pacific Ocean." | `oceans`, derived from each article's coordinates |
-| flag | "Name a country whose flag has green in it." / "Name a capital city whose country's flag has both black and red in it." | `flag`, hand-authored in `scripts/data-flags.mjs`; capitals inherit their country's |
+| flag | "Name a country whose flag has green in it." / "Name the capital of a country whose flag has both black and red in it." | `flag`, hand-authored in `scripts/data-flags.mjs`; capitals inherit their country's |
 | size | "Name a country with a population under 1 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
 | letter | "Name a river with a T in it." | derived from the name |
 

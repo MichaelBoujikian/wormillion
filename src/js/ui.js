@@ -287,6 +287,14 @@
             : `${result.entry.name} doesn't fit this one — try another.`,
           'warn'
         );
+      } else if (result.elsewhere) {
+        const { NOUN, ARTICLE } = W.promptBank;
+        const is = NOUN[result.elsewhere.category];
+        const wants = NOUN[run.prompt().category];
+        setFeedback(
+          `${result.elsewhere.entry.name} is ${ARTICLE(is)} ${is} — this round wants ${ARTICLE(wants)} ${wants}.`,
+          'warn'
+        );
       } else {
         setFeedback('Not recognized — try another.', 'warn');
       }

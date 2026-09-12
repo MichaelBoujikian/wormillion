@@ -212,16 +212,14 @@
     return rule.colours.every((colour) => colours.includes(colour));
   }
 
-  // Whose flag: a country's own, or - for a capital - its country's.
-  const FLAG_OWNER = { country: 'whose flag', capital: "whose country's flag" };
-
   function flagPromptText(category, rule) {
-    const noun = NOUN[category];
-    const owner = FLAG_OWNER[category] || 'whose flag';
     const [first, second] = rule.colours;
-    return second
-      ? `Name ${ARTICLE(noun)} ${noun} ${owner} has both ${first} and ${second} in it.`
-      : `Name ${ARTICLE(noun)} ${noun} ${owner} has ${first} in it.`;
+    const has = second ? `has both ${first} and ${second} in it` : `has ${first} in it`;
+    // "Name the capital of a country whose flag..." - so nobody answers with
+    // the country. (A player did.)
+    if (category === 'capital') return `Name the capital of a country whose flag ${has}.`;
+    const noun = NOUN[category];
+    return `Name ${ARTICLE(noun)} ${noun} whose flag ${has}.`;
   }
 
   // Letters whose NAME starts with a vowel sound take "an": an F, an S, an X.
@@ -593,6 +591,7 @@
   return {
     CATEGORIES,
     NOUN,
+    ARTICLE,
     CATEGORY_LABEL,
     MIN_REGION_COUNTRIES,
     MIN_ELIGIBLE,
