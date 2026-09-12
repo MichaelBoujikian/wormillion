@@ -41,6 +41,23 @@ test('the validator actually catches the things it claims to', async () => {
   };
   assert.ok(validate(collidingAlias).errors.some((e) => e.includes('claimed by both')));
 
+  // Two aliases that reduce to the same bare form, with no name to settle it.
+  const deadLooseForm = {
+    'a.json': [
+      { ...entry, id: 'lake-a', name: 'Lake A', aliases: ['Great Salt Lake'] },
+      { ...entry, id: 'lake-b', name: 'Lake B', aliases: ['Great Salt Sea'] }
+    ]
+  };
+  assert.ok(validate(deadLooseForm).errors.some((e) => e.includes('identifies nobody')));
+  // ...but a name beats an alias, so this one is fine.
+  const settledLooseForm = {
+    'a.json': [
+      { ...entry, id: 'lake-a', name: 'Great Salt Lake', aliases: [] },
+      { ...entry, id: 'lake-b', name: 'Lake B', aliases: ['Great Salt Sea'] }
+    ]
+  };
+  assert.deepStrictEqual(validate(settledLooseForm).errors, []);
+
   const badRegion = {
     'a.json': [{ ...entry, id: 'country-x', category: 'country', name: 'X', region: ['Middle Earth'], flag: ['red'] }]
   };

@@ -106,29 +106,45 @@
    */
   function buildLookup(entries) {
     const lookup = new Map();
-    const loose = new Map();
-    const ambiguous = new Set();
     const candidates = [];
+    const claims = new Map(); // bare -> [{ id, fromName }]
 
     for (const entry of entries) {
-      for (const candidate of [entry.name, ...(entry.aliases || [])]) {
+      [entry.name, ...(entry.aliases || [])].forEach((candidate, i) => {
         const key = normalize(candidate);
-        if (!key) continue;
+        if (!key) return;
         if (!lookup.has(key)) lookup.set(key, entry.id);
         candidates.push({ key, id: entry.id });
 
         const bare = looseKey(candidate);
-        if (!bare || bare === key) continue;
-        if (loose.has(bare) && loose.get(bare) !== entry.id) ambiguous.add(bare);
-        else loose.set(bare, entry.id);
-      }
+        if (!bare || bare === key) return;
+        if (!claims.has(bare)) claims.set(bare, []);
+        claims.get(bare).push({ id: entry.id, fromName: i === 0 });
+      });
     }
-    // A loose key that two different places share identifies neither of them.
-    for (const key of ambiguous) loose.delete(key);
 
-    lookup.loose = loose;
+    lookup.loose = resolveLoose(claims);
     lookup.candidates = candidates;
     return lookup;
+  }
+
+  /**
+   * Which entry, if any, a bare loose form identifies. A form that comes from
+   * one entry's NAME beats the same form from another entry's alias: "Arabian"
+   * is the Arabian Sea even though the Persian Gulf is also called the Arabian
+   * Gulf. Two names, or two aliases with no name, identify neither - "Victoria"
+   * is not a guess between Lake Victoria and Victoria Island.
+   * @param {Map<string, {id:string, fromName:boolean}[]>} claims
+   */
+  function resolveLoose(claims) {
+    const loose = new Map();
+    for (const [bare, list] of claims) {
+      const names = new Set(list.filter((c) => c.fromName).map((c) => c.id));
+      const all = new Set(list.map((c) => c.id));
+      if (names.size === 1) loose.set(bare, [...names][0]);
+      else if (names.size === 0 && all.size === 1) loose.set(bare, [...all][0]);
+    }
+    return loose;
   }
 
   /**
@@ -191,5 +207,5 @@
     return { status: 'unrecognized' };
   }
 
-  return { normalize, looseKey, editDistance, slackFor, buildLookup, matchAnswer, FILLER };
+  return { normalize, looseKey, editDistance, slackFor, buildLookup, resolveLoose, matchAnswer, FILLER };
 });

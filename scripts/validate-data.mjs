@@ -2,11 +2,13 @@
  * Content-bank validation (Spec 6.4). Run: npm run validate
  *
  * Fails (non-zero exit) on: a missing/invalid field, a non-positive magnitude,
- * a duplicate id, an alias that collides with another entry in the same cohort,
- * a bad region tag, or a country without flag colours from the fixed palette.
- * Entry counts below target only warn.
+ * a duplicate id, an alias that collides with another entry in the same cohort
+ * (exactly, or in its bare loose form when no name settles it), a bad region
+ * tag, or a country without flag colours from the fixed palette. Entry counts
+ * below target only warn.
  */
 import { readFile, readdir } from 'node:fs/promises';
+import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { UN_MEMBERS, UN_OBSERVERS, COMMONLY_TAUGHT } from './data-un-members.mjs';
 import { OCEANS, OCEAN_OVERRIDES } from './data-oceans.mjs';
@@ -34,19 +36,10 @@ export const TARGETS = {
 const MAGNITUDE_UNITS = new Set(['pageviews_monthly']);
 const SIZE_UNITS = new Set(['population', 'population_of_country', 'area_km2', 'length_km', 'elevation_m']);
 
-/** Same normalization the game uses (Spec 3.7), duplicated to keep this script dependency-free. */
-export function normalize(input) {
-  return String(input)
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .replace(/ø/gi, 'o').replace(/æ/gi, 'ae').replace(/œ/gi, 'oe').replace(/ł/gi, 'l').replace(/ß/g, 'ss').replace(/[đð]/gi, 'd')
-    .toLowerCase()
-    .replace(/[‘’ʼ]/g, "'")
-    .replace(/[–—‒]/g, '-')
-    .replace(/[.,']/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
+// The game's own matcher (a classic script that also works as CommonJS), so
+// the validator judges names exactly the way play does.
+const matching = createRequire(import.meta.url)('../src/js/matching.js');
+export const normalize = (input) => matching.normalize(String(input));
 
 /**
  * @param {Record<string, object[]>} files  filename -> entries
@@ -137,19 +130,34 @@ export function validate(files) {
   // No alias may collide with another entry's name or alias in the same cohort.
   for (const [category, entries] of cohorts) {
     const seen = new Map();
+    const claims = new Map(); // bare loose form -> [{ id, fromName, candidate }]
     for (const entry of entries) {
-      for (const candidate of [entry.name, ...(entry.aliases || [])]) {
+      [entry.name, ...(entry.aliases || [])].forEach((candidate, i) => {
         const key = normalize(candidate);
         if (!key) {
           errors.push(`[${category}] ${entry.id}: empty name/alias`);
-          continue;
+          return;
         }
         const owner = seen.get(key);
         if (owner && owner !== entry.id) {
           errors.push(`[${category}] "${candidate}" claimed by both ${owner} and ${entry.id}`);
         }
         seen.set(key, entry.id);
-      }
+
+        const bare = matching.looseKey(candidate);
+        if (!bare || bare === key) return;
+        if (!claims.has(bare)) claims.set(bare, []);
+        claims.get(bare).push({ id: entry.id, fromName: i === 0, candidate });
+      });
+    }
+    // A bare form two entries share is fine when one of them owns it by name
+    // ("Arabian" is the Arabian Sea, whatever the Persian Gulf is also called).
+    // Two names, or two aliases with no name, mean typing it identifies neither.
+    const resolved = matching.resolveLoose(claims);
+    for (const [bare, list] of claims) {
+      if (resolved.has(bare) || new Set(list.map((c) => c.id)).size < 2) continue;
+      const who = list.map((c) => `${c.id} (via "${c.candidate}")`).join(' and ');
+      errors.push(`[${category}] typing "${bare}" identifies nobody: claimed by ${who}`);
     }
   }
 

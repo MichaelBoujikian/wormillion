@@ -503,6 +503,15 @@ test('audit fixes hold in the shipped data', () => {
   assert.strictEqual(status({ category: 'country', region: 'Europe' }, 'Australia'), 'wrong-scope', 'not Austria');
   assert.strictEqual(status({ category: 'country', size: { op: 'over', value: 100000000 } }, 'Vietnam'), 'accepted', 'passed 100 million in 2023');
   assert.strictEqual(status({ category: 'capital', size: { op: 'over', value: 100000000 } }, 'Hanoi'), 'accepted');
+  // A bare loose form goes to the entry that owns it by name, alias or no alias.
+  const named = (slot, name) => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = slot;
+    return run.submit(name).entry?.name;
+  };
+  assert.strictEqual(named({ category: 'sea_ocean' }, 'Arabian'), 'Arabian Sea', 'not lost to the Persian Gulf\'s "Arabian Gulf"');
+  assert.strictEqual(named({ category: 'sea_ocean' }, 'Arabian Gulf'), 'Persian Gulf');
+  assert.strictEqual(named({ category: 'desert' }, 'Great Salt'), 'Great Salt Lake Desert', 'Dasht-e Kavir only has it as an alias');
 });
 
 test('Hawaii is in the Pacific, in the shipped data', () => {

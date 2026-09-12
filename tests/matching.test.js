@@ -143,4 +143,28 @@ test('a shared loose form identifies nobody', () => {
     { id: 'b', name: 'Victoria Island', aliases: [] }
   ]);
   assert.strictEqual(matching.matchAnswer('Victoria', both, new Set()).status, 'unrecognized');
+  // ...and the same for two aliases with no name behind either.
+  const aliases = matching.buildLookup([
+    { id: 'a', name: 'Dasht-e Kavir', aliases: ['Great Salt Desert'] },
+    { id: 'b', name: 'Bonneville Salt Flats', aliases: ['Great Salt Lake Desert'] }
+  ]);
+  assert.strictEqual(matching.matchAnswer('Great Salt', aliases, new Set()).status, 'unrecognized');
+});
+
+test("a loose form from an entry's name beats the same form from another's alias", () => {
+  // The Persian Gulf is also called the Arabian Gulf, but "Arabian" on its
+  // own is the Arabian Sea - the Gulf's alias must not make it nobody.
+  const seas = matching.buildLookup([
+    { id: 'persian-gulf', name: 'Persian Gulf', aliases: ['Arabian Gulf'] },
+    { id: 'arabian-sea', name: 'Arabian Sea', aliases: [] }
+  ]);
+  assert.strictEqual(matching.matchAnswer('Arabian', seas, new Set()).entryId, 'arabian-sea');
+  assert.strictEqual(matching.matchAnswer('Arabian Gulf', seas, new Set()).entryId, 'persian-gulf', 'the alias itself still works');
+  assert.strictEqual(matching.matchAnswer('Persian', seas, new Set()).entryId, 'persian-gulf');
+  // Order of entries does not matter.
+  const reversed = matching.buildLookup([
+    { id: 'arabian-sea', name: 'Arabian Sea', aliases: [] },
+    { id: 'persian-gulf', name: 'Persian Gulf', aliases: ['Arabian Gulf'] }
+  ]);
+  assert.strictEqual(matching.matchAnswer('Arabian', reversed, new Set()).entryId, 'arabian-sea');
 });
