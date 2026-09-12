@@ -23,7 +23,10 @@
   "id": "island-new-guinea",
   "category": "island",
   "name": "New Guinea",
-  "aliases": [],
+  "aliases": [
+   "Papua New Guinea",
+   "PNG"
+  ],
   "size": 785753,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"New Guinea\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -40,7 +43,9 @@
   "id": "island-borneo",
   "category": "island",
   "name": "Borneo",
-  "aliases": [],
+  "aliases": [
+   "Brunei"
+  ],
   "size": 748168,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Borneo\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
@@ -146,7 +151,9 @@
   "category": "island",
   "name": "Great Britain",
   "aliases": [
-   "Britain"
+   "Britain",
+   "United Kingdom",
+   "UK"
   ],
   "size": 209331,
   "sizeUnit": "area_km2",
@@ -5966,6 +5973,82 @@
   "lon": 158.25,
   "oceans": [
    "Pacific"
+  ]
+ },
+ {
+  "id": "island-japan",
+  "category": "island",
+  "name": "Japan",
+  "aliases": [
+   "Nippon"
+  ],
+  "size": 364485,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Japan\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 298647,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Japan",
+  "lat": 36,
+  "lon": 138,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-philippines",
+  "category": "island",
+  "name": "Philippines",
+  "aliases": [
+   "The Philippines"
+  ],
+  "size": 300000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Philippines\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 238954,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Philippines",
+  "lat": 13,
+  "lon": 122,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-indonesia",
+  "category": "island",
+  "name": "Indonesia",
+  "aliases": [],
+  "size": 1904569,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Indonesia\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 241907,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Indonesia",
+  "lat": -5,
+  "lon": 120,
+  "oceans": [
+   "Pacific",
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-new-zealand",
+  "category": "island",
+  "name": "New Zealand",
+  "aliases": [
+   "Aotearoa"
+  ],
+  "size": 268021,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"New Zealand\", 60-day daily median (60 days ending 2026-09-12); Standard reference island areas (km2), rounded",
+  "magnitude": 213871,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Zealand",
+  "lat": -42,
+  "lon": 173,
+  "oceans": [
+   "Pacific",
+   "Southern"
   ]
  },
  {

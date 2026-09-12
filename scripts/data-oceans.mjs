@@ -54,6 +54,8 @@ export const OCEAN_OVERRIDES = {
   'island-rottnest-island': ['Indian'],
   'island-stewart-island': ['Pacific', 'Southern'],
   'island-south-island': ['Pacific', 'Southern'],
+  'island-new-zealand': ['Pacific', 'Southern'], // as its South Island
+  'island-indonesia': ['Pacific', 'Indian'], // Sumatra and Java face the Indian Ocean
 
   // --- islands: Atlantic/Arctic and Atlantic/Southern edges ---
   'island-greenland': ['Arctic', 'Atlantic'],

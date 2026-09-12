@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-12",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-12T18:03:51.296Z",
+ "fetched": "2026-09-12T22:59:38.482Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -8949,6 +8949,34 @@
    "days": 59,
    "lat": 6.91666667,
    "lon": 158.25
+  },
+  "island-japan": {
+   "title": "Japan",
+   "monthlyViews": 298647,
+   "days": 60,
+   "lat": 36,
+   "lon": 138
+  },
+  "island-philippines": {
+   "title": "Philippines",
+   "monthlyViews": 238954,
+   "days": 60,
+   "lat": 13,
+   "lon": 122
+  },
+  "island-indonesia": {
+   "title": "Indonesia",
+   "monthlyViews": 241907,
+   "days": 59,
+   "lat": -5,
+   "lon": 120
+  },
+  "island-new-zealand": {
+   "title": "New Zealand",
+   "monthlyViews": 213871,
+   "days": 60,
+   "lat": -42,
+   "lon": 173
   },
   "island-singapore-island": {
    "title": "Singapore (island)",

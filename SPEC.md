@@ -425,5 +425,6 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | Filler is optional in both directions: "Mount Denali" finds Denali, "Cuba Island" finds Cuba. The cross-category nudge tries every category exactly before any loosely, so "Lake Victoria" is the lake and not the Seychelles' capital. | 3.7 |
 | 1.2 | Flag-prompt weight in the modifier draw back to 2 (3 felt heavy): ~0.6 flag prompts per run, half of runs see one. | 3.8 |
 | 1.2 | Points step at the jackpot bar the way the dig does: a flat 950 for 85–99%, 1000 for 100% (the curve pays 807 just under the bar). | 3.10, 5.1 |
+| 1.2 | The big island nations answer as islands: Japan, the Philippines, Indonesia and New Zealand as entries of their own (one country, one archipelago; scored on the country article like the Bahamas); the United Kingdom, Papua New Guinea and Brunei as aliases on Great Britain, New Guinea and Borneo (as Haiti is on Hispaniola). "Japan" on "Name an island in Japan" gets "Japan is all of it — this round wants a single island in Japan." Bank is 1,393 entries. | 6 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.

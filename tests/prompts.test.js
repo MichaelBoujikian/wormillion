@@ -526,6 +526,33 @@ test('audit fixes hold in the shipped data', () => {
   assert.strictEqual(named({ category: 'mountain' }, 'Mount Denali'), 'Denali');
 });
 
+test('the big island nations answer as islands (shipped bank)', () => {
+  const shipped = loadShippedBank();
+  const island = (slot, name) => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = slot;
+    const result = run.submit(name);
+    return `${result.status}${result.entry ? ':' + result.entry.name : ''}`;
+  };
+  // One country, one archipelago: an entry of its own.
+  for (const name of ['Japan', 'Philippines', 'Indonesia', 'New Zealand']) {
+    assert.strictEqual(island({ category: 'island' }, name), `accepted:${name}`);
+  }
+  assert.strictEqual(island({ category: 'island', ocean: 'Pacific' }, 'Japan'), 'accepted:Japan');
+  assert.strictEqual(island({ category: 'island', ocean: 'Indian' }, 'Indonesia'), 'accepted:Indonesia');
+  assert.strictEqual(island({ category: 'island', size: { op: 'over', value: 100000 } }, 'New Zealand'), 'accepted:New Zealand');
+  // A country on a shared or eponymous island: an alias on that island, as Haiti is on Hispaniola.
+  assert.strictEqual(island({ category: 'island' }, 'United Kingdom'), 'accepted:Great Britain');
+  assert.strictEqual(island({ category: 'island' }, 'UK'), 'accepted:Great Britain');
+  assert.strictEqual(island({ category: 'island' }, 'Papua New Guinea'), 'accepted:New Guinea');
+  assert.strictEqual(island({ category: 'island' }, 'Brunei'), 'accepted:Borneo');
+  // The country is not one of its own islands: "Name an island in Japan" wants Honshu, not Japan.
+  assert.strictEqual(island({ category: 'island', theme: 'Japan' }, 'Japan'), 'wrong-scope:Japan');
+  assert.strictEqual(island({ category: 'island', theme: 'Japan' }, 'Honshu'), 'accepted:Honshu');
+  // ...and on a country round they are still countries.
+  assert.strictEqual(island({ category: 'country' }, 'Japan'), 'accepted:Japan');
+});
+
 test('Hawaii is in the Pacific, in the shipped data', () => {
   const shipped = loadShippedBank();
   const pacific = () => {

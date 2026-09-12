@@ -284,10 +284,16 @@
         // "Kilimanjaro is 11 letters - this round wants 12 or more."
         setFeedback(`${result.length.typed} is ${result.length.letters} letters — this round wants ${result.length.need}.`, 'warn');
       } else if (result.status === 'wrong-scope') {
+        const placeScope = result.scopeName && result.scopeName !== 'that pattern';
+        // "Japan" on "Name an island in Japan": the country is in the bank as
+        // an island, and "Japan isn't in Japan" is not the hint.
+        const isTheScope = placeScope && W.matching.normalize(result.entry.name) === W.matching.normalize(result.scopeName);
         setFeedback(
-          result.scopeName && result.scopeName !== 'that pattern'
-            ? `${result.entry.name} isn't in ${result.scopeName} — try another.`
-            : `${result.entry.name} doesn't fit this one — try another.`,
+          isTheScope
+            ? `${result.entry.name} is all of it — this round wants a single ${W.promptBank.NOUN[run.prompt().category]} in ${result.scopeName}.`
+            : placeScope
+              ? `${result.entry.name} isn't in ${result.scopeName} — try another.`
+              : `${result.entry.name} doesn't fit this one — try another.`,
           'warn'
         );
       } else if (result.elsewhere) {

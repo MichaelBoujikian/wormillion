@@ -524,14 +524,14 @@ Chalbi Desert|100000
 
 export const ISLANDS = `
 Greenland|2166086|Kalaallit Nunaat
-New Guinea|785753
-Borneo|748168
+New Guinea|785753|Papua New Guinea,PNG
+Borneo|748168|Brunei
 Madagascar|587041
 Baffin Island|507451|Baffin
 Sumatra|443066
 Honshu|225800
 Victoria Island|217291
-Great Britain|209331|Britain
+Great Britain|209331|Britain,United Kingdom,UK
 Ellesmere Island|196236|Ellesmere
 Sulawesi|180681|Celebes
 South Island|145836|Te Waipounamu
@@ -861,6 +861,10 @@ Kiribati|811|Gilbert Islands
 Tuvalu|26|Ellice Islands
 Marshall Islands|181|Marshalls,The Marshall Islands
 Micronesia|702|Federated States of Micronesia,FSM
+Japan|364485|Nippon
+Philippines|300000|The Philippines
+Indonesia|1904569
+New Zealand|268021|Aotearoa
 Singapore Island|710|Singapore,Pulau Ujong
 Bahrain Island|590
 Canary Islands|7493|Canaries

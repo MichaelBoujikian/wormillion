@@ -277,6 +277,11 @@ export const WIKI_VERIFIED = new Set([
   'island-saint-lucia',
   'island-grenada',
   'island-comoros',
+  // --- the big island nations (2026-09-12): one country, one archipelago ---
+  'island-japan',
+  'island-philippines',
+  'island-indonesia',
+  'island-new-zealand',
   'island-cape-verde',
   'island-sao-tome-and-principe',
   'island-bahamas',
