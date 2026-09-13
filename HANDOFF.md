@@ -8,9 +8,19 @@ its current setting, the decisions that must not be quietly undone, and the
 gotchas that cost time. Claude Code's project memory is keyed to this folder
 (`C:\Users\smite\repos\wormillion`); this file is the memory that survives.
 
-## State as of 2026-09-13
+## State as of 2026-09-13 (evening)
 
-**Latest: the -dle kit** (`25cc9b6`…`2caf1df`, SPEC 3.16): puzzle number (#1 =
+**Latest: the daily comparison** (`f6cecc0`…, SPEC 3.17) — the first server
+piece. `netlify/functions/lib/daily.js` (pure, 12 tests) replays a player's
+fifteen answers and scores them server-side; `daily-submit.mjs` /
+`daily-stats.mjs` wrap it in Netlify Functions over Blobs; `src/js/compare.js`
+turns the day's histograms into "Better than 62% of 143 diggers today";
+`ui.compareDaily` shows it on the summary and the locked title. `npm start`
+mounts the same API over a memory store — verified end to end in the browser
+that way. **Not yet verified on Netlify itself** (see "Netlify: what to check
+first" below). Dailies only; endless has nothing to compare.
+
+**Before that: the -dle kit** (`25cc9b6`…`2caf1df`, SPEC 3.16): puzzle number (#1 =
 2026-09-12), share text (`src/js/share.js`, round-order emoji grid), average
 obscurity on the summary, streaks, a midnight countdown, a "Daily digs" stats
 block with a stratum spread, and a review screen with the rarest possible
@@ -39,7 +49,7 @@ GitHub Pages. `averageRarity` is the number it would post.
   - Netlify: the user's account is connected to the repo; `netlify.toml` publishes `src/` and runs `npm test && npm run validate` as the deploy command, so a red suite deploys nowhere. The site name/URL is set in their Netlify dashboard, not the repo. Added at the very end of the day — if a player reports the Netlify link broken, read the deploy log first.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated with `repo` + `workflow` scopes, `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` names it `wormillion` for the in-app browser pane).
-- **Green:** `npm test` (151 tests), `npm run validate` (1,719 entries), `npm run gap-check` (199 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, ~455 KB, 17 scripts inlined).
+- **Green:** `npm test` (173 tests), `npm run validate` (1,719 entries), `npm run gap-check` (199 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, ~467 KB, 18 scripts inlined).
 - **Working tree:** clean; everything below is pushed. Last commit `5e2643d`; both hosts have it.
 - **Bank:** 197 countries · 247 capitals · 314 cities · 132 lakes (12 small famous ones added 2026-09-13: Bled, Placid, Hillier, Peyto, Jökulsárlón, Plitvice…) · 130 rivers · 188 mountains · 58 deserts · 358 islands · 95 seas. 91 entries are "one in Wormillion"; a run of median answers scores ~6,700 and ends around depth 540 (Mantle).
 
@@ -65,6 +75,38 @@ The morning session (old folder) landed `8326566`…`5ff2efb`: the 70→100% ram
 | `0ce2e04` | Every narrowed city prompt says "non-capital city" in the sentence |
 | `fda1a12` | **"0% obscurity? Dig deeper next time"**: the anti-jackpot — drips, flies, a rotten worm (`src/js/dud.js`, `renderer.setRotten`) |
 | `5e2643d` | `netlify.toml` |
+
+## Netlify: what to check first (the comparison went live untested)
+
+The push that carried `839eba8`… deploys the functions automatically: Netlify
+sees `netlify/functions/`, installs `@netlify/blobs` from the lockfile, bundles
+with esbuild, and Blobs needs no setup. What could still be wrong, in order:
+
+1. **Deploy log** — did `npm test && npm run validate` pass and did the two
+   functions bundle? If bundling failed, the culprit is `import daily from
+   './lib/daily.js'` (CJS from ESM) or the `included_files` line in
+   `netlify.toml`.
+2. **`curl https://<site>.netlify.app/.netlify/functions/daily-stats?day=2026-09-13`**
+   — should be JSON with `count`, `prompts` (15) and `number`. A 500 with
+   "cannot find src/data/bank.js" in the function log means `findRoot()` in
+   `lib/daily.js` needs another candidate path for Netlify's task root; log
+   `process.cwd()` and `__dirname` there.
+3. **Play a daily on the Netlify URL** — the summary should show the compare
+   block ("You're the first to dig today" the first time). A missing block
+   with a 4xx in the function log means the replay rejected the answers:
+   the log line says which round and why.
+4. **The GitHub Pages copy shows no comparison until `REMOTE_API` in
+   `src/js/compare.js` is set to the Netlify origin** (e.g.
+   `'https://wormillion.netlify.app'`). The user's site name is in their
+   Netlify dashboard; it was not known when this shipped. CORS already
+   admits `https://michaelboujikian.github.io`.
+5. A day's aggregate can be rebuilt from its submissions if it ever looks
+   wrong: `createDailyApi(...).rebuild(day)` — there is no endpoint for it on
+   purpose; run it from a one-off function or `netlify dev`.
+
+Local: `npm start` serves the API over a memory store (forgets on restart) at
+the same paths, so the client can be exercised without Netlify. Netlify CLI
+(`netlify dev`) is not installed and was not needed.
 
 ## Start here
 
@@ -98,6 +140,10 @@ a push deploys both live sites.
 | the share text and its emoji bands | `src/js/share.js` (`BANDS`, `CANONICAL_URL`) |
 | streaks, daily stats, which records get trimmed, `rounds` on a record | `src/js/persistence.js` (`dailyStreak`, `dailyStats`, `trim`, `toRecord`) |
 | the review rows and the rarest answer per prompt | `src/js/run.js` (`reviewRun`, `rarestFor`) |
+| the comparison's server logic: replay, open window, aggregate shape | `netlify/functions/lib/daily.js` (`OPEN_BEFORE/AFTER`, `SCORE_BUCKET`, `replayRun`, `applySubmission`) |
+| the comparison's HTTP: CORS origins, cache, Blobs adapter | `netlify/functions/lib/netlify.mjs` (`ALLOWED_ORIGINS`), the two handlers |
+| the comparison's wording and percentile maths; where the API is | `src/js/compare.js` (`REMOTE_API`, `lines`, `betterThan`) |
+| the comparison's fetch/cache/render | `ui.js` `compareDaily` (`COMPARE_FRESH_MS`) |
 | points, the dig curve, the jackpot and dud bars | `src/js/rarity.js` |
 | the strata bands and palette | `src/js/strata.js` |
 | the pixel-art scene, relics, crater widths, the rotten worm | `src/js/worldRender.js` (no `document` — takes canvases) |
@@ -136,6 +182,10 @@ a push deploys both live sites.
 | share link off the web | GitHub Pages URL | `CANONICAL_URL`, `share.js` |
 | history cap | 50 endless runs; dailies never trimmed | `HISTORY_CAP`, `trim()`, `persistence.js` |
 | streak shown on the title | from 2 days ("· 2-day streak") | `refreshTitle`, `ui.js` |
+| submission window | a day is open from 1 day before to 2 days after (UTC) | `OPEN_BEFORE`, `OPEN_AFTER`, `lib/daily.js` |
+| stats cache | 60 s at the edge; 60 s in the client before refetching | `daily-stats.mjs`, `COMPARE_FRESH_MS` |
+| CORS origins | Netlify itself, `https://michaelboujikian.github.io`, `http://localhost:8123` | `ALLOWED_ORIGINS`, `lib/netlify.mjs` |
+| Pages copy's API | `REMOTE_API = ''` (unset: no comparison on Pages) | `compare.js` |
 
 ## The data pipeline (read before adding a place)
 
@@ -202,14 +252,17 @@ npm run validate                     # schema, aliases, loose-form collisions, r
 - **US state capitals live in the `capital` cohort** ("Name a capital city." accepts Boise). Their `size` is the US population; their flag is the US flag. The user knows about Boise and hasn't objected.
 - **The jackpot and dud tiers are symmetric by design.** 85%+ digs a flat 75 and pays a flat 950 (100 / 1000 for an answer that reads as 100%); the strata bands were deliberately *not* rescaled to the 1500 budget. 0% pays the ordinary minimum and digs nothing extra — the dud is shame, not a penalty. `POINTS_GAMMA` was taken off the list by the user; leave it.
 - **Theme names that aren't places get the generic miss hint.** A theme with custom prompt text says "X doesn't fit this one"; one worded "in the Alps" says "X isn't in the Alps". Theme prompt text is keyed by theme name alone, so don't reuse a name across categories.
-- **`file://` must keep working.** Classic scripts + generated `data/bank.js`, no ES modules, no `fetch()`, no external resources. `npm run bundle` makes the single-file `dist/wormillion.html`.
+- **`file://` must keep working.** Classic scripts + generated `data/bank.js`, no ES modules, no external resources. The one `fetch()` in the game (the comparison, 3.17) is optional and guarded by `compare.apiBase()`; everything else must stay server-free. `npm run bundle` makes the single-file `dist/wormillion.html`.
+- **The server scores; the client only sends names.** Never trust a client-supplied score, rarity or depth in `lib/daily.js`; the replay is the anti-cheat. Keep `lib/daily.js` free of `@netlify/blobs` so the suite runs without an install.
 - **`ui.js` is the only module that touches `document`.** `worldRender.js`, `jackpot.js` and `dud.js` take canvases; `run.js` returns data (`elsewhere`, `ladder`, `scopeName`, `length`) and `ui.js` turns it into words. That is what keeps the suite runnable with plain `node --test`.
 - **Daily and endless differ in exactly one thing: the rng behind `drawSlots`.** Don't fork scoring, prompts or the ramp by mode. The daily is the *draw*, not the bank — a data push mid-day changes the day's puzzle for whoever hasn't played; accepted. `tests/seed.test.js` pins the 2026-09-12 sequence; a change to `seed.js` that fails it is a change to every past daily.
 
 ## Open threads
 
-- **Leaderboard / "better than N% today"** — the user wants this next-ish, not yet. Plan agreed 2026-09-13: Netlify Functions + Blobs, one aggregate document per day, no accounts, clamp/validate submissions server-side (the function has the bank and the day's slots, so it can check each answer's rarity is real), degrade silently off Netlify. The payload is a record: `score`, `finalDepth`, `deepestStratum`, `dailyKey`, `rounds` (`averageRarity` derives).
-- **Daily lock is localStorage-only** — a cleared browser replays the day. Fine until there's a leaderboard.
+- **The comparison is live but unverified on Netlify** — see "Netlify: what to check first". `REMOTE_API` needs the Netlify origin for the Pages copy.
+- **A named leaderboard** — the natural next step; the per-player submission blobs are already there. Needs a chosen name (and its moderation) per playerId; nothing else server-side changes.
+- **One 400 seen locally, not reproduced**: while developing, a submission for a record made earlier in the session got a 400 on the title (the record was then cleared). Every record made since replays fine, and rejections are now logged with the round and reason; if a player reports no compare block, read the function log first.
+- **Daily lock is localStorage-only** — a cleared browser replays the day and, with a fresh `playerId`, counts again. Accepted for an anonymous game.
 - ~~Length prompts wanted "Coral", not "Coral Sea"~~ — fixed 2026-09-13 (SPEC 3.1a v1.3): a length rule accepts the typed spelling or its trimmed form, whichever fits. The user chose this over a strict trim because nothing accepted before becomes rejected.
 
 Otherwise nothing is queued. The audit is closed, the non-audit backlog is

@@ -25,9 +25,11 @@ After a daily you get the usual -dle things: a share button that copies
 `Wormillion #2 · 4,238 pts · Bedrock` with a fifteen-square emoji grid (one
 per round, in round order, coloured by how obscure the answer was), your
 streak, a countdown to the next dig, a daily stats screen, and a review of
-every prompt with the rarest answer it would have taken.
+every prompt with the rarest answer it would have taken. On the hosted game
+you also see how your dig compares with everyone else's that day — "Better
+than 62% of 143 diggers" — from a small server-side tally (below).
 
-No accounts, no build step, no runtime dependencies. 1,719 real
+No accounts, no build step, no runtime dependencies in the game itself. 1,719 real
 places in the bank across nine categories: countries, capitals, cities that
 aren't capitals, lakes, rivers, mountains, deserts, islands, and seas.
 
@@ -82,6 +84,25 @@ the missing Volga, Indus and Matterhorn were found.
 Node is a dev-time tool only, for the test suite and the data build. Nothing in
 `src/` needs it.
 
+### The daily comparison
+
+The one thing with a server: after a daily, the game posts your fifteen
+answers to `/.netlify/functions/daily-submit`, which regenerates the day's
+prompts, replays your answers through the same engine and scores them itself
+(so a forged score would need fifteen genuinely obscure answers), and then
+reads `/.netlify/functions/daily-stats?day=…` — one aggregate per day — to
+show "Better than 62% of 143 diggers today", your score against the median,
+your average obscurity against everyone's, the round most people missed and
+the rarest find of the day. One anonymous submission per browser per day.
+Nothing personal is stored: a random id, the day, fifteen place names.
+
+It runs on Netlify Functions + Blobs (`netlify/functions/`), free tier, and
+is optional everywhere: on `file://`, in the bundle, offline, or on a host
+without the functions the block simply doesn't appear. `npm start` mounts
+the same API over an in-memory store, so the whole flow plays locally. The
+functions' one dependency, `@netlify/blobs`, is installed by Netlify at
+deploy; `src/` still has none.
+
 Add `?debug` to the URL to expose `window.__wormillion`, which lets you jump the
 worm to any depth (`__wormillion.diveTo(650)`) and inspect a stratum without
 playing fifteen rounds to reach it, or start a run in either mode
@@ -122,6 +143,7 @@ src/                 the deployed site, as-is
     seed.js          the date-seeded rng behind today's dig, puzzle number, countdown  (Spec 3.15/3.16)
     persistence.js   localStorage best dive + history, dailies tagged and kept, streaks  (Spec 9)
     share.js         the share text: header, emoji grid, link  (Spec 3.16)
+    compare.js       the daily comparison: percentiles + wording  (Spec 3.17)
     icons.js         12x12 pixel category icons
     worldRender.js   the dig scene + buried relics (canvas, no DOM access)
     jackpot.js       the "ONE IN WORMILLION" burst for 85%+ answers (canvas, no DOM access)
@@ -143,6 +165,10 @@ scripts/
   build-data.mjs     emits src/data/* (exports buildFiles() for the fetcher)
   fetch-pageviews.mjs  refreshes pageviews.json
   validate-data.mjs  npm run validate
+netlify/functions/
+  daily-submit.mjs, daily-stats.mjs   the daily comparison's two endpoints
+  lib/daily.js          the pure core: replay, aggregate, memory store (tested)
+  lib/netlify.mjs       Blobs adapter, CORS, bank loaded once per warm function
   gap-check.mjs      npm run gap-check
   score-report.mjs   npm run score-report
   serve.mjs          dev static server
