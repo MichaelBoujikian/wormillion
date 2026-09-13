@@ -10,13 +10,23 @@ gotchas that cost time. Claude Code's project memory is keyed to this folder
 
 ## State as of 2026-09-13
 
-**Latest: daily and endless modes** (`ad0dd86` → docs commit, SPEC 3.15). "Today's
-dig" = the 15 slots drawn from a date-seeded rng (`src/js/seed.js`), one per
-day, locked on the title once played, tagged `mode`/`dailyKey` in history;
-"Endless" = the old random draw. `?daily` deep-links. The user wants this for a
--dle aggregator and, later, a leaderboard from other players' dailies — nothing
-server-side exists yet; the daily record in localStorage
-(`persistence.dailyResult`) is what a leaderboard would post. Tests 123.
+**Latest: the -dle kit** (`25cc9b6`…`2caf1df`, SPEC 3.16): puzzle number (#1 =
+2026-09-12), share text (`src/js/share.js`, round-order emoji grid), average
+obscurity on the summary, streaks, a midnight countdown, a "Daily digs" stats
+block with a stratum spread, and a review screen with the rarest possible
+answer per prompt (`run.reviewRun`, `run.rarestFor`). Records store `rounds`;
+dailies are never trimmed from history. Tests 143; bundle 449 KB, 17 scripts.
+
+**Before that: daily and endless modes** (`ad0dd86`…`998080e`, SPEC 3.15).
+"Today's dig" = the 15 slots drawn from a date-seeded rng (`src/js/seed.js`),
+one per day, locked on the title once played, tagged `mode`/`dailyKey` in
+history; "Endless" = the old random draw. `?daily` deep-links. The user wants
+this for a -dle aggregator and, later, a leaderboard from other players'
+dailies — nothing server-side exists yet. The plan the user liked (2026-09-13):
+Netlify Functions + Blobs, one aggregate document per day (`count`, score and
+rarity histograms, per-round histograms — no per-player rows), the page posts
+after a daily and shows "better than N%"; degrade silently on `file://` and
+GitHub Pages. `averageRarity` is the number it would post.
 
 ### State as of 2026-09-12 (end of day)
 
@@ -25,7 +35,7 @@ server-side exists yet; the daily record in localStorage
   - Netlify: the user's account is connected to the repo; `netlify.toml` publishes `src/` and runs `npm test && npm run validate` as the deploy command, so a red suite deploys nowhere. The site name/URL is set in their Netlify dashboard, not the repo. Added at the very end of the day — if a player reports the Netlify link broken, read the deploy log first.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated with `repo` + `workflow` scopes, `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` names it `wormillion` for the in-app browser pane).
-- **Green:** `npm test` (123 tests after the modes work), `npm run validate` (1,707 entries), `npm run gap-check` (191 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 424 KB, 16 scripts inlined).
+- **Green:** `npm test` (143 tests), `npm run validate` (1,707 entries), `npm run gap-check` (191 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 449 KB, 17 scripts inlined).
 - **Working tree:** clean; everything below is pushed. Last commit `5e2643d`; both hosts have it.
 - **Bank:** 197 countries · 247 capitals · 314 cities · 120 lakes · 130 rivers · 188 mountains · 58 deserts · 358 islands · 95 seas. 91 entries are "one in Wormillion"; a run of median answers scores ~6,700 and ends around depth 540 (Mantle).
 
@@ -79,8 +89,11 @@ a push deploys both live sites.
 | how prompts are worded / drawn / ramped / weighted | `src/js/promptBank.js` (`NOUN`, `PLAIN_TEXT`, `CATEGORY_LABEL`, `SIZE_RULES`, `drawModifier`, `drawSlots`) |
 | how answers are matched (aliases, loose, fuzzy) | `src/js/matching.js` |
 | what advances a round, retries, the miss hints, the summary ladder, the run's mode | `src/js/run.js` (hint *wording* is in `ui.js`) |
-| the daily's seed, the date key, the pinned sequence | `src/js/seed.js` (`DAILY_NAMESPACE`; bump it on purpose, never reseed by accident) |
-| the daily lock, the mode chips, `?daily` | `ui.js` (`refreshTitle`, `modeText`, `startRun(mode)`) |
+| the daily's seed, the date key, the pinned sequence, the puzzle number, the countdown | `src/js/seed.js` (`DAILY_NAMESPACE`; bump it on purpose, never reseed by accident; `DAILY_EPOCH` is dig #1) |
+| the daily lock, the mode chips, `?daily`, the countdown, the share/review buttons | `ui.js` (`refreshTitle`, `modeText`, `startRun(mode)`, `copyShare`, `showReview`) |
+| the share text and its emoji bands | `src/js/share.js` (`BANDS`, `CANONICAL_URL`) |
+| streaks, daily stats, which records get trimmed, `rounds` on a record | `src/js/persistence.js` (`dailyStreak`, `dailyStats`, `trim`, `toRecord`) |
+| the review rows and the rarest answer per prompt | `src/js/run.js` (`reviewRun`, `rarestFor`) |
 | points, the dig curve, the jackpot and dud bars | `src/js/rarity.js` |
 | the strata bands and palette | `src/js/strata.js` |
 | the pixel-art scene, relics, crater widths, the rotten worm | `src/js/worldRender.js` (no `document` — takes canvases) |
@@ -114,6 +127,11 @@ a push deploys both live sites.
 | world depth | budget + 30 | `MAX_UNITS`, `worldRender.js` |
 | daily turnover | local midnight (`seed.dailyKey()` is the local YYYY-MM-DD) | `seed.js` |
 | daily plays per day | 1 (`persistence.dailyResult(today)` locks the button) | `ui.js` `refreshTitle`/`startRun` |
+| dig #1 | 2026-09-12 | `DAILY_EPOCH`, `seed.js` |
+| share grid bands | miss ⬜ · 0% 💀 · <25% 🟫 · <50% 🟧 · <70% 🟨 · <85% 🟩 · jackpot ⭐ · 100% 💎 | `BANDS`, `share.js` |
+| share link off the web | GitHub Pages URL | `CANONICAL_URL`, `share.js` |
+| history cap | 50 endless runs; dailies never trimmed | `HISTORY_CAP`, `trim()`, `persistence.js` |
+| streak shown on the title | from 2 days ("· 2-day streak") | `refreshTitle`, `ui.js` |
 
 ## The data pipeline (read before adding a place)
 
@@ -139,6 +157,7 @@ npm run validate                     # schema, aliases, loose-form collisions, r
 
 - **Node is not on the Bash tool's PATH.** Prefix Bash commands with `export PATH="$PATH:/c/Program Files/nodejs"` (Node 24.19 / npm 11.17 at `C:\Program Files\nodejs`), or use the PowerShell tool with `$env:Path = [Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [Environment]::GetEnvironmentVariable("Path","User")`.
 - **Line endings are mixed on disk** (some files CRLF, some LF); git normalises to LF (`.gitattributes`: `* text=auto eol=lf`), so it warns "CRLF will be replaced by LF" on every commit — harmless. **Multi-line string patches must normalise line endings** or they silently match nothing. The pattern that worked all day: a small Python patcher that reads the file as bytes, maps `\r\n`→`\n`, does `assert text.count(old) == 1` per replacement, and restores the original ending on write. **Read its spec from `sys.stdin.buffer` and decode UTF-8 yourself** — plain `sys.stdin.read()` on Windows decodes as cp1252 and an em dash in the search text will silently fail to match.
+- **The Bash tool's parser chokes on some heredoc bodies** (a `\'` inside a quoted heredoc, and at least one long Python patch with nothing obviously wrong) with "unexpected EOF while looking for matching `'`", and nothing in the command runs. When that happens, write the script to the scratchpad with the Write tool and run it by path — it worked every time.
 - **A Python patcher turns `\\b` into a backspace byte.** Writing the JS regex `/daily\b/` through a Python string produced `daily^H` on disk — silent, and it cost a debugging round. Use a raw string or build the bytes, then `cat -A` the line. The Edit tool is simpler for single-line edits; LF files (all of `src/` now) don't need the patcher at all.
 - **Quoted heredocs (`<<'EOF'`) are fine** in the Bash tool, apostrophes and all; it is *unquoted* heredocs that choke. Python 3.13 is on PATH.
 - **One commit per feature** is the house rule. When two changes are tangled in one working tree, `git diff -- file` → keep only the hunks whose text contains a marker → `git apply --cached` the partial patch → commit → `git add -A` the rest. Worked cleanly for the initialism fix inside the cities work.
@@ -161,6 +180,7 @@ npm run validate                     # schema, aliases, loose-form collisions, r
 - **Overlay words drop in at `opacity: 0`**, so a screenshot taken in the same instant shows the drips/confetti and no words. `wait` 1 s, then screenshot.
 - To force a prompt: `const run = __wormillion.currentRun(); run.state.slots[run.roundNumber - 1] = { category: 'city', region: 'Caribbean' };` then repaint `#prompt-text` from `run.prompt().text`. To see the *badge and icon* for a category, set the **next** slot (`slots[run.roundNumber]`) and answer the current one — the UI only draws them when it renders a round. Slot shapes: `{category}`, `{category, region}`, `{category, theme}`, `{category, ocean}`, `{category, flag:{colours:[…]}}`, `{category, size:{op,value}}`, `{category, letter:{kind,letter}}`.
 - To submit like a player: set `#answer-input.value`, dispatch `input`, `#answer-form.requestSubmit()`; read `#feedback`.
+- **To play a whole run from JS**, after each submit pump the renderer *until `#answer-input` is re-enabled or the screen is no longer `play`* — a fixed number of frames is not enough for a long dive, and stopping when `run.finished` flips is too early (the summary only shows when the last dive lands). For length prompts try `matching.looseKey(key)` as well as the key ("Coral", not "Coral Sea"). `run.rarestFor(prompt)` gives the answer that triggers the ★ review line.
 - **Known ≥85% answers for the jackpot:** Togo (94%) / Micronesia (100%) for country; Savu Sea / Ceram Sea (100%) for sea; Aldan / Vilyuy / Olenyok for river; Masaya (100%) / Holguin / Santa Ana for city. **Known 0% answers for the dud:** New York on a city round, United States on a country round, Mount Everest on a mountain round. `celebrate()` / `shame()` fire either overlay without one.
 - `diveTo` never moves the worm upward; call `renderer.reset()` first to look at a shallower depth.
 
@@ -184,8 +204,9 @@ npm run validate                     # schema, aliases, loose-form collisions, r
 
 ## Open threads
 
-- **Leaderboard / other players' dailies** — the user wants this eventually, not yet. Needs a server or a third-party store; the daily record (`score`, `finalDepth`, `deepestStratum`, `dailyKey`) is the payload. A share-text button (emoji ladder + score, the -dle convention) is the cheap first step and needs no server.
+- **Leaderboard / "better than N% today"** — the user wants this next-ish, not yet. Plan agreed 2026-09-13: Netlify Functions + Blobs, one aggregate document per day, no accounts, clamp/validate submissions server-side (the function has the bank and the day's slots, so it can check each answer's rarity is real), degrade silently off Netlify. The payload is a record: `score`, `finalDepth`, `deepestStratum`, `dailyKey`, `rounds` (`averageRarity` derives).
 - **Daily lock is localStorage-only** — a cleared browser replays the day. Fine until there's a leaderboard.
+- **Length prompts on whole-name categories read oddly** — "Name a sea or ocean with a short name (5 letters or fewer)" wants "Coral", not "Coral Sea" (documented in 3.1a: the typed spelling is judged, and seas keep their whole name). Nobody has complained; noting it because the JS driver tripped on it.
 
 Otherwise nothing is queued. The audit is closed, the non-audit backlog is
 done, the cities category shipped and was reviewed. Ideas if the user wants more:

@@ -80,6 +80,8 @@ Substring matching is never performed.
 
 **3.15 Two ways to dig: today's and endless (v1.3).** The title screen offers **Today's dig** and **Endless**. They differ in exactly one thing — where the slot draw's randomness comes from. A daily run draws its fifteen slots with a PRNG seeded from the player's local calendar date (`src/js/seed.js`: cyrb53 hash of `wormillion-daily:YYYY-MM-DD` into mulberry32; `run.createRun(bank, { mode: 'daily' })`), so everyone who plays that day gets the same fifteen prompts in the same order; it turns over at local midnight, like every other -dle. An endless run draws fresh with `Math.random` every time and can be played all day; it is what the game was before v1.3. Scoring, matching, the ramp, the jackpot and the dud are identical in both. **The daily is one dig per day**: the run is stored with `mode: 'daily'` and its `dailyKey` (Section 9), and while `persistence.dailyResult(today)` finds one the title button reads "Today's dig — done" with the score and stratum underneath, `startRun('daily')` refuses, and the summary's button becomes "Keep digging — endless". The statusline and the summary carry a mode chip ("Today's dig · Sep 12" / "Endless"); history rows say "Daily · Sep 12". `?daily` on the URL — the link an aggregator gets — goes straight into today's dig, or to the title showing the result if it's done. Best dive and stats span both modes. The seeded sequence for 2026-09-12 is pinned in `tests/seed.test.js`: a change to the hash, the generator or the namespace changes every past daily, so bump `DAILY_NAMESPACE` deliberately rather than reseed by accident. Note that the daily is *the draw*, not the bank: a data push mid-day changes what a slot's text or lookup contains for anyone who has not yet played, and a change to `drawSlots` or to the order of `CATEGORIES`/themes/regions changes the day's draw outright. Everything else random (dirt, relics, confetti) stays on `Math.random`.
 
+**3.16 The -dle kit around the daily (v1.3).** Everything a daily-puzzle listing expects, all client-side, nothing stored beyond localStorage. *Puzzle number:* `seed.dailyNumber(key)` counts `DAILY_EPOCH = 2026-09-12` as #1; it appears on the mode chip ("Dig #2 · Sep 13"), the title button, the share text and history rows, which name a daily by its puzzle day rather than the record's timestamp. *Share:* `src/js/share.js` (pure) builds the text — `Wormillion #2 · 4,238 pts · Bedrock`, then one emoji per round **in round order** (everyone had the same order, so the grids compare square by square: ⬜ miss · 💀 0% · 🟫 <25% · 🟧 <50% · 🟨 <70% · 🟩 <85% · ⭐ jackpot · 💎 100%), then `352 deep · 30% avg obscurity`, then the link (this host's address on http(s), `CANONICAL_URL` — the GitHub Pages URL — on `file://` and in the bundle; `?daily` appended for a daily). Share buttons on the summary (either mode) and the locked title; clipboard, with a textarea fallback and a `prompt()` as the last resort. *Average obscurity:* `persistence.averageRarity(record)` is the mean rarity over the fifteen rounds with a miss as 0; it is on the summary's sub-line and in the daily stats, and is the number a later "compared to others today" would post. *Streak:* `persistence.dailyStreak(today)` — `current` is the run of consecutive puzzle days ending today or yesterday (today unplayed does not break it until the day is actually missed), `best` the longest ever; shown on the locked title ("· 3-day streak", from two days) and the stats screen. *Countdown:* "Next dig in 06:12:33" on the locked title, from `seed.msUntilNextDaily()`, ticking only while that screen is up; at midnight the key changes and the title refreshes itself, unlocked. *Daily stats:* a "Daily digs" block on the stats screen — Played · Streak · Best streak · Avg score · Best daily · Avg obscurity — and a bar per stratum for where the dailies ended (today's highlighted), the -dle guess-distribution shape; the old numbers sit under "All dives". *Review:* `run.reviewRun(bank, slots, rounds)` / `run.review()` list every prompt in round order with the answer given (and its obscurity, or "missed") and `run.rarestFor(prompt)` — the most obscure entry the prompt accepts, with its views — marking "★ You found the rarest answer there was" when the player's answer is as obscure as it gets. A past daily is reviewed by regenerating its slots from its key and reading its stored `rounds`; the live run (either mode) from its results. Review buttons: on the summary, beside Share on the locked title, and on each daily row of the history. To make all this possible a record now stores `rounds` — `[{a: name, r: rarity} | null]` in round order, prompts *not* included — and **dailies are exempt from the 50-record cap** (`persistence.trim`): only endless runs are trimmed, so streaks, stats and review reach every daily ever played (~70 KB a year).
+
 ## 4. Data model
 
 Every prompt-bank entry, across all 9 category files, shares this shape:
@@ -240,7 +242,8 @@ wormillion/
       strata.js         # depth → stratum name/band lookup (5.2 table) + palette
       matching.js       # 3.7 + 5.3: normalization, loose and fuzzy passes, no DOM
       promptBank.js     # cohorts, modifiers (3.1a), the 15-slot draw (3.8), no DOM
-      seed.js           # date-seeded rng for the daily (3.15): dailyKey(), dailyRng()
+      seed.js           # date-seeded rng for the daily (3.15): dailyKey(), dailyRng(); puzzle number + countdown (3.16)
+      share.js          # the share text: header, emoji grid, link (3.16)
       run.js            # run/round state machine (current round, score, depth, usedAnswers, mode)
       timer.js          # 30s countdown, pure-ish (callback-based), no DOM assumptions baked in
       persistence.js    # localStorage read/write: best dive + history (Section 9 shape)
@@ -307,9 +310,12 @@ Single key, `wormillion:v1`, JSON-encoded:
   "history": [
     { "score": 5230, "deepestStratum": "Mantle", "finalDepth": 542.3, "date": "2026-09-05T18:04:00.000Z" },
     // a daily also carries its mode and key (v1.3); an endless run carries neither, and a
-    // record from before v1.3 reads as endless
-    { "score": 4238, "deepestStratum": "Bedrock", "finalDepth": 351.5, "date": "2026-09-13T05:39:02.459Z", "mode": "daily", "dailyKey": "2026-09-12" }
-    // most recent last; cap at 50 entries, dropping oldest, to keep the key small
+    // record from before v1.3 reads as endless. `rounds` (3.16) is the answer + rarity per
+    // round in round order, null for a miss; prompts are not stored (a daily's regenerate)
+    { "score": 4238, "deepestStratum": "Bedrock", "finalDepth": 351.5, "date": "2026-09-13T05:39:02.459Z",
+      "mode": "daily", "dailyKey": "2026-09-12", "rounds": [{ "a": "Lake Huron", "r": 0.2912 }, null, { "a": "Aldan", "r": 1 }] }
+    // most recent last. The cap of 50 applies to ENDLESS runs only, dropping oldest; every
+    // daily is kept (3.16)
   ]
 }
 ```
@@ -447,5 +453,7 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | "0% obscurity? Dig deeper next time": the anti-jackpot for an answer that reads as 0% — blood and muck dripping off the words, flies, and a worm gone rotten for 10 s or until the next answer. `DUD_RARITY = 0.005`, `src/js/dud.js`, `renderer.setRotten`. | 3.14, 7 |
 
 | 1.3 | **Two ways to dig.** "Today's dig" draws the fifteen slots from a PRNG seeded on the local date (`src/js/seed.js`), the same for everyone that day, one dig per day, locked on the title once played; "Endless" is the old random draw, unlimited. Runs carry `mode`/`dailyKey` into history; `?daily` deep-links into the daily. Nothing else differs. | 3.15, 7, 9 |
+
+| 1.3 | **The -dle kit:** puzzle number (#1 = 2026-09-12), share text with a round-order emoji grid (`src/js/share.js`), average obscurity on the summary, streaks, a midnight countdown on the locked title, a "Daily digs" stats block with a stratum spread, and a review screen showing the rarest possible answer per prompt (`run.reviewRun`). Records store `rounds`; dailies are exempt from the history cap. | 3.16, 7, 9 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.

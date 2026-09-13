@@ -21,6 +21,12 @@ day, once a day, turning over at midnight — the one to compare with friends
 (`?daily` on the URL goes straight to it). **Endless** is a fresh draw as often
 as you like. Nothing else differs.
 
+After a daily you get the usual -dle things: a share button that copies
+`Wormillion #2 · 4,238 pts · Bedrock` with a fifteen-square emoji grid (one
+per round, in round order, coloured by how obscure the answer was), your
+streak, a countdown to the next dig, a daily stats screen, and a review of
+every prompt with the rarest answer it would have taken.
+
 No accounts, no daily lock, no build step, no runtime dependencies. 1,707 real
 places in the bank across nine categories: countries, capitals, cities that
 aren't capitals, lakes, rivers, mountains, deserts, islands, and seas.
@@ -92,6 +98,13 @@ bank: pushing new places or reordering categories changes the day's puzzle for
 anyone who hasn't played yet, which is fine for a game with no fixed answer, but
 worth knowing before a mid-day deploy.
 
+Dig #1 was 2026-09-12 (`DAILY_EPOCH` in `seed.js`). The share grid's squares
+are obscurity bands — ⬜ miss · 💀 0% · 🟫 <25% · 🟧 <50% · 🟨 <70% · 🟩 <85% ·
+⭐ jackpot · 💎 100% — set in `src/js/share.js`. A daily's history record keeps
+each round's answer and rarity (never the prompts, which come back from the
+key), and dailies are never trimmed from history; only endless runs are capped
+at 50.
+
 ## How it's put together
 
 ```
@@ -106,8 +119,9 @@ src/                 the deployed site, as-is
     promptBank.js    cohorts, prompt modifiers, the 15-slot draw (Spec 3.8)
     run.js           round/run state machine
     timer.js         30s countdown
-    seed.js          the date-seeded rng behind today's dig  (Spec 3.15)
-    persistence.js   localStorage best dive + history, dailies tagged  (Spec 9)
+    seed.js          the date-seeded rng behind today's dig, puzzle number, countdown  (Spec 3.15/3.16)
+    persistence.js   localStorage best dive + history, dailies tagged and kept, streaks  (Spec 9)
+    share.js         the share text: header, emoji grid, link  (Spec 3.16)
     icons.js         12x12 pixel category icons
     worldRender.js   the dig scene + buried relics (canvas, no DOM access)
     jackpot.js       the "ONE IN WORMILLION" burst for 85%+ answers (canvas, no DOM access)
