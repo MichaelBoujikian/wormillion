@@ -16,6 +16,7 @@ URL).
 ## State as of 2026-09-12
 
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main` (the `deploy` workflow; `ci` runs test + validate on Node 22). `gh run list` shows both.
+- **Also on Netlify** (from 2026-09-12): the user's Netlify account is connected to the GitHub repo; `netlify.toml` publishes `src/` and runs `npm test && npm run validate` as the deploy command, so a red suite does not deploy there either. Netlify's site name/URL is set in their dashboard, not in the repo.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` knows this as `wormillion` for the in-app browser pane).
 - **Green:** `npm test` (101 tests), `npm run validate` (1,707 entries), `npm run gap-check` (191 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 15 scripts inlined).

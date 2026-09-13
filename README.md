@@ -41,10 +41,16 @@ npm start
 npm run bundle
 ```
 
-…writes `dist/wormillion.html`: the entire game in one ~250 KB file, content
+…writes `dist/wormillion.html`: the entire game in one ~400 KB file, content
 bank included. Send it to anyone — they double-click it and play. No install,
 no unzip, and nothing for Windows SmartScreen to object to, which is more than
 an `.exe` can say.
+
+Or send a link. The game is hosted twice from the same `src/` folder, both
+redeploying on every push to `main`: GitHub Pages
+(https://michaelboujikian.github.io/wormillion/, via
+`.github/workflows/deploy.yml`) and Netlify (`netlify.toml` sets the publish
+directory to `src` and runs the test suite as a deploy gate).
 
 ## Develop
 

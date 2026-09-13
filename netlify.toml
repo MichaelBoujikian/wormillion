@@ -1,0 +1,10 @@
+# Netlify serves the game straight from src/ - there is no build step, the same
+# folder GitHub Pages publishes (.github/workflows/deploy.yml). Without this the
+# site root is the repository root, which has no index.html.
+[build]
+  publish = "src"
+  # Not a build, a gate: the two checks CI runs. A red suite does not deploy.
+  command = "npm test && npm run validate"
+
+[build.environment]
+  NODE_VERSION = "22"
