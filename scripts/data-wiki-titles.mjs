@@ -213,7 +213,12 @@ export const WIKI_TITLES = {
   'city-salvador': 'Salvador, Bahia',
   'city-cartagena': 'Cartagena, Colombia',
   'city-cordoba': 'Córdoba, Argentina',
-  'city-darwin': 'Darwin, Northern Territory'
+  'city-darwin': 'Darwin, Northern Territory',
+  'city-hue': 'Huế', // bare "Hue" is the colour
+  'city-saint-louis': 'St. Louis',
+  'city-portland': 'Portland, Oregon',
+  'city-orlando': 'Orlando, Florida',
+  'city-gold-coast': 'Gold Coast, Queensland'
 };
 
 /**
@@ -321,5 +326,6 @@ export const WIKI_VERIFIED = new Set([
   'sea_ocean-chesapeake-bay',
   // --- cities whose description is not "city" (2026-09-12) ---
   'city-hong-kong', // "Special administrative region of China" - a city by any measure
+  'city-macau', // likewise
   'city-entebbe' // "Place in Central Uganda" - a town of 70,000 with the airport
 ]);

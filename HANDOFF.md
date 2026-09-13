@@ -18,7 +18,7 @@ URL).
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main` (the `deploy` workflow; `ci` runs test + validate on Node 22). `gh run list` shows both.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` knows this as `wormillion` for the in-app browser pane).
-- **Green:** `npm test` (101 tests), `npm run validate` (1,668 entries), `npm run gap-check` (183 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
+- **Green:** `npm test` (101 tests), `npm run validate` (1,707 entries), `npm run gap-check` (191 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
 - **Working tree:** clean at handoff; everything below is pushed. The live site has it.
 
 ### What landed on 2026-09-11/12, in order (all on `main`)
@@ -48,6 +48,7 @@ URL).
 | `fb0a3ef` | Japan / Philippines / Indonesia / New Zealand as islands; UK → Great Britain, PNG → New Guinea, Brunei → Borneo aliases; "Japan is all of it" hint. Bank 1,393 |
 | `43ec1bb` | `OPENING_ROUNDS` 3 → 2 (~11.4 conditional rounds of 15) |
 | (cities) | **Ninth category, `city`:** 275 non-capital cities from `scripts/data-cities.mjs` (authored by a subagent, reviewed), region/flag inherited from the country, size = city-proper population, theme "largest in its country", skyline icon, "Name a city that isn't a national capital.", draw 9 + 6. Initialism aliases (NYC, HK, UAE) no longer feed letter rules. Bank 1,668 |
+| (cities review) | A second subagent reviewed the rows: 39 obvious gaps added (Leeds, Baltimore, Kobe, Antalya, Faisalabad, Winnipeg, Macau…), "Constantinople" on Istanbul, "Ragusa" off Dubrovnik (it is a real Sicilian city). Populations and country columns were clean. Bank 1,707 |
 
 Before those, the previous session landed the seven items in
 `wormillion-changes-prompt.md` (freeze bug, aliases, country audit, ocean tags,
@@ -182,7 +183,7 @@ Everything it reported has since been decided and landed: typed-length rule, sea
 
 ## Open threads and likely next tasks
 
-- **Cities landed on 2026-09-12** (275 rows). Population figures and the theme list were written from memory, like the flags: if a player trips on one, fix the row in `scripts/data-cities.mjs` and `npm run build-data` — no fetch needed unless the *name* changes. Candidates for later: a second city theme ("on a coast" would need a curated list — do not derive it), and cities for countries with none in the bank yet (`node -e` over `cities.json` grouped by `country` shows the gaps).
+- **Cities landed on 2026-09-12** (314 rows after review). Population figures and the theme list were written from memory, like the flags: if a player trips on one, fix the row in `scripts/data-cities.mjs` and `npm run build-data` — no fetch needed unless the *name* changes. Candidates for later: a second city theme ("on a coast" would need a curated list — do not derive it), and cities for countries with none in the bank yet (`node -e` over `cities.json` grouped by `country` shows the gaps).
 - **A full population refresh** (UN WPP 2024) was offered and declined on 2026-09-12 — "don't waste tokens on updating every population". Only Vietnam was bumped. Revisit only if a player reports a size prompt being wrong.
 - **`POINTS_GAMMA`** was taken off the list by the user on 2026-09-12; leave it.
 - **Flag rows are from memory**, not fetched. If a player reports "X isn't accepted for colour Y", first check which category the round was (see Estonia, below), then fix the row in `scripts/data-flags.mjs` and `npm run build-data` — no fetch needed.

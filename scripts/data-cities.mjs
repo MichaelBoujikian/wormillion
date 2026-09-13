@@ -83,6 +83,7 @@ Alexandria|Egypt|5500000
 Giza|Egypt|4900000|Gizeh,Al Jizah
 Luxor|Egypt|500000|Thebes
 Aswan|Egypt|350000|Assuan
+Sharm El Sheikh|Egypt|73000|Sharm el-Sheikh,Sharm
 Omdurman|Sudan|2400000
 Oran|Algeria|900000|Wahran
 Casablanca|Morocco|3400000
@@ -120,12 +121,14 @@ Kisangani|Democratic Republic of the Congo|1300000|Stanleyville
 Goma|Democratic Republic of the Congo|1000000
 Douala|Cameroon|3700000
 Pointe-Noire|Republic of the Congo|1100000|Pointe Noire
-Istanbul|Turkey|15700000
+Istanbul|Turkey|15700000|Constantinople
 Izmir|Turkey|4400000|Smyrna
+Antalya|Turkey|2700000
 Mashhad|Iran|3400000|Mashad
 Isfahan|Iran|2200000|Esfahan
 Shiraz|Iran|1600000
 Basra|Iraq|1400000|Basrah
+Mosul|Iraq|1700000
 Jeddah|Saudi Arabia|3800000|Jidda,Jiddah
 Mecca|Saudi Arabia|2400000|Makkah
 Medina|Saudi Arabia|1400000|Madinah,Al Madinah
@@ -134,6 +137,7 @@ Tel Aviv|Israel|470000|Tel Aviv-Yafo,Tel Aviv-Jaffa
 Haifa|Israel|290000
 Dubai|United Arab Emirates|3700000
 Gaza City|Palestine|590000|Gaza
+Bethlehem|Palestine|29000
 Mumbai|India|12400000|Bombay
 Kolkata|India|4500000|Calcutta
 Chennai|India|4700000|Madras
@@ -148,8 +152,11 @@ Kanpur|India|2800000|Cawnpore
 Nagpur|India|2400000
 Varanasi|India|1200000|Benares,Banaras,Kashi
 Agra|India|1600000
+Amritsar|India|1130000
+Kochi|India|600000|Cochin
 Karachi|Pakistan|20400000
 Lahore|Pakistan|13000000
+Faisalabad|Pakistan|3700000|Lyallpur
 Chittagong|Bangladesh|3200000|Chattogram
 Kandahar|Afghanistan|610000|Qandahar
 Herat|Afghanistan|570000
@@ -163,7 +170,10 @@ Makassar|Indonesia|1400000|Ujung Pandang
 Yogyakarta|Indonesia|400000|Jogja,Jogjakarta,Yogya
 Ho Chi Minh City|Vietnam|9300000|Saigon,HCMC,Ho Chi Minh
 Da Nang|Vietnam|1200000|Danang
+Hue|Vietnam|650000
+Hai Phong|Vietnam|2100000|Haiphong
 Chiang Mai|Thailand|130000|Chiangmai
+Pattaya|Thailand|120000
 Yangon|Myanmar|5200000|Rangoon
 Mandalay|Myanmar|1200000
 George Town|Malaysia|790000
@@ -185,6 +195,9 @@ Nanjing|China|9300000|Nanking
 Harbin|China|10000000
 Lhasa|China|870000
 Hong Kong|China|7500000|HK
+Macau|China|680000|Macao
+Shenyang|China|9100000|Mukden
+Qingdao|China|10100000|Tsingtao
 Osaka|Japan|2750000
 Yokohama|Japan|3770000
 Kyoto|Japan|1460000
@@ -192,7 +205,9 @@ Nagoya|Japan|2330000
 Sapporo|Japan|1970000
 Fukuoka|Japan|1630000
 Hiroshima|Japan|1190000
+Kobe|Japan|1500000
 Busan|South Korea|3300000|Pusan
+Incheon|South Korea|3000000|Inchon
 Kaohsiung|Taiwan|2730000
 New Taipei|Taiwan|4000000|New Taipei City
 Hamhung|North Korea|770000
@@ -208,6 +223,7 @@ Munich|Germany|1500000|Munchen,Muenchen
 Hamburg|Germany|1900000
 Frankfurt|Germany|770000|Frankfurt am Main
 Cologne|Germany|1100000|Koln,Koeln
+Stuttgart|Germany|630000
 Marseille|France|870000|Marseilles
 Lyon|France|520000|Lyons
 Nice|France|340000
@@ -219,14 +235,21 @@ Liverpool|United Kingdom|490000
 Glasgow|United Kingdom|630000
 Edinburgh|United Kingdom|510000
 Oxford|United Kingdom|160000
+Cambridge|United Kingdom|150000
+Leeds|United Kingdom|810000
+Bristol|United Kingdom|470000
+Cardiff|United Kingdom|360000|Caerdydd
+Belfast|United Kingdom|345000
 Milan|Italy|1370000|Milano
 Naples|Italy|910000|Napoli
 Turin|Italy|850000|Torino
 Florence|Italy|360000|Firenze
 Venice|Italy|250000|Venezia
+Genoa|Italy|560000|Genova
 Barcelona|Spain|1660000
 Valencia|Spain|800000
 Seville|Spain|690000|Sevilla
+Malaga|Spain|590000
 Rotterdam|Netherlands|660000
 The Hague|Netherlands|560000|Den Haag,Hague
 Antwerp|Belgium|540000|Antwerpen,Anvers
@@ -242,6 +265,7 @@ Yekaterinburg|Russia|1500000|Ekaterinburg,Sverdlovsk
 Kazan|Russia|1300000
 Vladivostok|Russia|600000
 Volgograd|Russia|1000000|Stalingrad,Tsaritsyn
+Sochi|Russia|470000
 Kharkiv|Ukraine|1400000|Kharkov
 Odesa|Ukraine|1000000|Odessa
 Lviv|Ukraine|720000|Lvov,Lemberg
@@ -252,7 +276,7 @@ Brno|Czechia|400000
 Cluj-Napoca|Romania|290000|Cluj,Cluj Napoca
 Plovdiv|Bulgaria|340000
 Split|Croatia|160000
-Dubrovnik|Croatia|41000|Ragusa
+Dubrovnik|Croatia|41000
 Mostar|Bosnia and Herzegovina|105000
 Gothenburg|Sweden|600000|Goteborg,Gothenberg
 Malmo|Sweden|360000|Malmoe
@@ -282,12 +306,20 @@ Detroit|United States|630000
 Atlanta|United States|500000
 Miami|United States|450000
 New Orleans|United States|370000|NOLA
+Baltimore|United States|565000
+Saint Louis|United States|280000|St Louis
+Pittsburgh|United States|300000
+Portland|United States|630000
+Minneapolis|United States|425000
+Orlando|United States|320000
+Honolulu|United States|350000
 Toronto|Canada|2800000
 Montreal|Canada|1760000
 Calgary|Canada|1300000
 Edmonton|Canada|1010000
 Vancouver|Canada|660000
 Quebec City|Canada|550000|Quebec
+Winnipeg|Canada|750000
 Tijuana|Mexico|1920000
 Leon|Mexico|1720000
 Puebla|Mexico|1540000|Puebla de Zaragoza
@@ -295,6 +327,8 @@ Guadalajara|Mexico|1400000
 Monterrey|Mexico|1140000
 Cancun|Mexico|890000
 Oaxaca|Mexico|260000|Oaxaca de Juarez,Oaxaca City
+Acapulco|Mexico|780000
+Ciudad Juarez|Mexico|1500000|Juarez
 Quetzaltenango|Guatemala|180000|Xela
 Antigua Guatemala|Guatemala|46000
 San Pedro Sula|Honduras|720000
@@ -304,10 +338,13 @@ Puerto Limon|Costa Rica|60000|Limon
 Belize City|Belize|65000
 Santiago de Cuba|Cuba|510000
 Holguin|Cuba|350000
+Varadero|Cuba|21000
+Camaguey|Cuba|300000
 Cap-Haitien|Haiti|280000|Cap Haitien,Le Cap
 Santiago de los Caballeros|Dominican Republic|770000
 Punta Cana|Dominican Republic|50000
 Montego Bay|Jamaica|110000
+Ocho Rios|Jamaica|17000
 San Fernando|Trinidad and Tobago|50000
 Freeport|Bahamas|27000
 Sao Paulo|Brazil|11500000
@@ -322,6 +359,7 @@ Porto Alegre|Brazil|1330000
 Medellin|Colombia|2500000
 Cali|Colombia|2200000
 Cartagena|Colombia|1000000|Cartagena de Indias
+Barranquilla|Colombia|1300000
 Cordoba|Argentina|1500000|Cordova
 Rosario|Argentina|950000
 Ushuaia|Argentina|80000
@@ -338,6 +376,7 @@ Brisbane|Australia|2600000
 Perth|Australia|2200000
 Adelaide|Australia|1400000
 Darwin|Australia|150000
+Gold Coast|Australia|640000
 Auckland|New Zealand|1700000
 Christchurch|New Zealand|400000
 Lae|Papua New Guinea|150000

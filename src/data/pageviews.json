@@ -1,8 +1,8 @@
 {
- "window": "60 days ending 2026-09-12",
+ "window": "60 days ending 2026-09-13",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-12T23:37:03.425Z",
+ "fetched": "2026-09-13T03:25:16.803Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -3224,6 +3224,13 @@
    "lat": 24.08888889,
    "lon": 32.89972222
   },
+  "city-sharm-el-sheikh": {
+   "title": "Sharm El Sheikh",
+   "monthlyViews": 12907,
+   "days": 60,
+   "lat": 27.915,
+   "lon": 34.3275
+  },
   "city-omdurman": {
    "title": "Omdurman",
    "monthlyViews": 3622,
@@ -3497,6 +3504,13 @@
    "lat": 38.42444444,
    "lon": 27.13222222
   },
+  "city-antalya": {
+   "title": "Antalya",
+   "monthlyViews": 22099,
+   "days": 60,
+   "lat": 36.88694444,
+   "lon": 30.70333333
+  },
   "city-mashhad": {
    "title": "Mashhad",
    "monthlyViews": 11750,
@@ -3524,6 +3538,13 @@
    "days": 60,
    "lat": 30.515,
    "lon": 47.81
+  },
+  "city-mosul": {
+   "title": "Mosul",
+   "monthlyViews": 16590,
+   "days": 60,
+   "lat": 36.34166667,
+   "lon": 43.12916667
   },
   "city-jeddah": {
    "title": "Jeddah",
@@ -3580,6 +3601,13 @@
    "days": 60,
    "lat": 31.5075,
    "lon": 34.45972222
+  },
+  "city-bethlehem": {
+   "title": "Bethlehem",
+   "monthlyViews": 31384,
+   "days": 60,
+   "lat": 31.70444444,
+   "lon": 35.20638889
   },
   "city-mumbai": {
    "title": "Mumbai",
@@ -3679,6 +3707,20 @@
    "lat": 27.18,
    "lon": 78.02
   },
+  "city-amritsar": {
+   "title": "Amritsar",
+   "monthlyViews": 15007,
+   "days": 60,
+   "lat": 31.64,
+   "lon": 74.86
+  },
+  "city-kochi": {
+   "title": "Kochi",
+   "monthlyViews": 18903,
+   "days": 59,
+   "lat": 9.93119444,
+   "lon": 76.26730556
+  },
   "city-karachi": {
    "title": "Karachi",
    "monthlyViews": 53666,
@@ -3692,6 +3734,13 @@
    "days": 60,
    "lat": 31.54972222,
    "lon": 74.34361111
+  },
+  "city-faisalabad": {
+   "title": "Faisalabad",
+   "monthlyViews": 10197,
+   "days": 60,
+   "lat": 31.41666667,
+   "lon": 73.09111111
   },
   "city-chittagong": {
    "title": "Chittagong",
@@ -3784,12 +3833,33 @@
    "lat": 16.06944444,
    "lon": 108.20972222
   },
+  "city-hue": {
+   "title": "Huế",
+   "monthlyViews": 11932,
+   "days": 60,
+   "lat": 16.4639,
+   "lon": 107.5867
+  },
+  "city-hai-phong": {
+   "title": "Haiphong",
+   "monthlyViews": 5875,
+   "days": 60,
+   "lat": 20.86513889,
+   "lon": 106.68383333
+  },
   "city-chiang-mai": {
    "title": "Chiang Mai",
    "monthlyViews": 21856,
    "days": 60,
    "lat": 18.79527778,
    "lon": 98.99861111
+  },
+  "city-pattaya": {
+   "title": "Pattaya",
+   "monthlyViews": 16833,
+   "days": 60,
+   "lat": 12.9357,
+   "lon": 100.889
   },
   "city-yangon": {
    "title": "Yangon",
@@ -3938,6 +4008,27 @@
    "lat": 22.3,
    "lon": 114.2
   },
+  "city-macau": {
+   "title": "Macau",
+   "monthlyViews": 103800,
+   "days": 59,
+   "lat": 22.19,
+   "lon": 113.54
+  },
+  "city-shenyang": {
+   "title": "Shenyang",
+   "monthlyViews": 18964,
+   "days": 60,
+   "lat": 41.8025,
+   "lon": 123.42805556
+  },
+  "city-qingdao": {
+   "title": "Qingdao",
+   "monthlyViews": 21734,
+   "days": 60,
+   "lat": 36.0669,
+   "lon": 120.3827
+  },
   "city-osaka": {
    "title": "Osaka",
    "monthlyViews": 44229,
@@ -3987,12 +4078,26 @@
    "lat": 34.39138889,
    "lon": 132.45194444
   },
+  "city-kobe": {
+   "title": "Kobe",
+   "monthlyViews": 16742,
+   "days": 60,
+   "lat": 34.69,
+   "lon": 135.19555556
+  },
   "city-busan": {
    "title": "Busan",
    "monthlyViews": 29466,
    "days": 60,
    "lat": 35.18,
    "lon": 129.075
+  },
+  "city-incheon": {
+   "title": "Incheon",
+   "monthlyViews": 16011,
+   "days": 60,
+   "lat": 37.48333333,
+   "lon": 126.63333333
   },
   "city-kaohsiung": {
    "title": "Kaohsiung",
@@ -4099,6 +4204,13 @@
    "lat": 50.93638889,
    "lon": 6.95277778
   },
+  "city-stuttgart": {
+   "title": "Stuttgart",
+   "monthlyViews": 34001,
+   "days": 60,
+   "lat": 48.7775,
+   "lon": 9.18
+  },
   "city-marseille": {
    "title": "Marseille",
    "monthlyViews": 49343,
@@ -4176,6 +4288,41 @@
    "lat": 51.75194444,
    "lon": -1.25777778
   },
+  "city-cambridge": {
+   "title": "Cambridge",
+   "monthlyViews": 33027,
+   "days": 60,
+   "lat": 52.205,
+   "lon": 0.1225
+  },
+  "city-leeds": {
+   "title": "Leeds",
+   "monthlyViews": 45964,
+   "days": 60,
+   "lat": 53.7975,
+   "lon": -1.54361111
+  },
+  "city-bristol": {
+   "title": "Bristol",
+   "monthlyViews": 54640,
+   "days": 60,
+   "lat": 51.45361111,
+   "lon": -2.5975
+  },
+  "city-cardiff": {
+   "title": "Cardiff",
+   "monthlyViews": 42190,
+   "days": 60,
+   "lat": 51.48166667,
+   "lon": -3.17916667
+  },
+  "city-belfast": {
+   "title": "Belfast",
+   "monthlyViews": 53635,
+   "days": 60,
+   "lat": 54.5967,
+   "lon": -5.93
+  },
   "city-milan": {
    "title": "Milan",
    "monthlyViews": 65842,
@@ -4211,6 +4358,13 @@
    "lat": 45.4375,
    "lon": 12.33583333
   },
+  "city-genoa": {
+   "title": "Genoa",
+   "monthlyViews": 45843,
+   "days": 60,
+   "lat": 44.40722222,
+   "lon": 8.93388889
+  },
   "city-barcelona": {
    "title": "Barcelona",
    "monthlyViews": 93055,
@@ -4231,6 +4385,13 @@
    "days": 60,
    "lat": 37.38861111,
    "lon": -5.995
+  },
+  "city-malaga": {
+   "title": "Málaga",
+   "monthlyViews": 38476,
+   "days": 60,
+   "lat": 36.71944444,
+   "lon": -4.42
   },
   "city-rotterdam": {
    "title": "Rotterdam",
@@ -4336,6 +4497,13 @@
    "days": 60,
    "lat": 48.70861111,
    "lon": 44.51472222
+  },
+  "city-sochi": {
+   "title": "Sochi",
+   "monthlyViews": 15798,
+   "days": 60,
+   "lat": 43.58527778,
+   "lon": 39.72027778
   },
   "city-kharkiv": {
    "title": "Kharkiv",
@@ -4617,6 +4785,55 @@
    "lat": 29.9761,
    "lon": -90.0783
   },
+  "city-baltimore": {
+   "title": "Baltimore",
+   "monthlyViews": 73056,
+   "days": 60,
+   "lat": 39.28944444,
+   "lon": -76.61527778
+  },
+  "city-saint-louis": {
+   "title": "St. Louis",
+   "monthlyViews": 67729,
+   "days": 60,
+   "lat": 38.62722222,
+   "lon": -90.19777778
+  },
+  "city-pittsburgh": {
+   "title": "Pittsburgh",
+   "monthlyViews": 65720,
+   "days": 60,
+   "lat": 40.43972222,
+   "lon": -79.97638889
+  },
+  "city-portland": {
+   "title": "Portland, Oregon",
+   "monthlyViews": 69068,
+   "days": 60,
+   "lat": 45.52,
+   "lon": -122.68194444
+  },
+  "city-minneapolis": {
+   "title": "Minneapolis",
+   "monthlyViews": 55857,
+   "days": 60,
+   "lat": 44.98194444,
+   "lon": -93.26916667
+  },
+  "city-orlando": {
+   "title": "Orlando, Florida",
+   "monthlyViews": 54548,
+   "days": 60,
+   "lat": 28.54,
+   "lon": -81.38
+  },
+  "city-honolulu": {
+   "title": "Honolulu",
+   "monthlyViews": 49221,
+   "days": 60,
+   "lat": 21.3,
+   "lon": -157.85
+  },
   "city-toronto": {
    "title": "Toronto",
    "monthlyViews": 116555,
@@ -4658,6 +4875,13 @@
    "days": 60,
    "lat": 46.81388889,
    "lon": -71.20805556
+  },
+  "city-winnipeg": {
+   "title": "Winnipeg",
+   "monthlyViews": 44138,
+   "days": 60,
+   "lat": 49.89555556,
+   "lon": -97.13861111
   },
   "city-tijuana": {
    "title": "Tijuana",
@@ -4707,6 +4931,20 @@
    "days": 60,
    "lat": 17.06055556,
    "lon": -96.72527778
+  },
+  "city-acapulco": {
+   "title": "Acapulco",
+   "monthlyViews": 13394,
+   "days": 60,
+   "lat": 16.86361111,
+   "lon": -99.8825
+  },
+  "city-ciudad-juarez": {
+   "title": "Ciudad Juárez",
+   "monthlyViews": 21582,
+   "days": 60,
+   "lat": 31.745,
+   "lon": -106.485
   },
   "city-quetzaltenango": {
    "title": "Quetzaltenango",
@@ -4771,6 +5009,20 @@
    "lat": 20.88694444,
    "lon": -76.25916667
   },
+  "city-varadero": {
+   "title": "Varadero",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 23.13944444,
+   "lon": -81.28611111
+  },
+  "city-camaguey": {
+   "title": "Camagüey",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 21.38388889,
+   "lon": -77.9075
+  },
   "city-cap-haitien": {
    "title": "Cap-Haïtien",
    "monthlyViews": 5266,
@@ -4798,6 +5050,13 @@
    "days": 60,
    "lat": 18.46666667,
    "lon": -77.91666667
+  },
+  "city-ocho-rios": {
+   "title": "Ocho Rios",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 18.41666667,
+   "lon": -77.11666667
   },
   "city-san-fernando": {
    "title": "San Fernando, Trinidad and Tobago",
@@ -4896,6 +5155,13 @@
    "days": 60,
    "lat": 10.4,
    "lon": -75.5
+  },
+  "city-barranquilla": {
+   "title": "Barranquilla",
+   "monthlyViews": 18903,
+   "days": 60,
+   "lat": 10.98333333,
+   "lon": -74.80194444
   },
   "city-cordoba": {
    "title": "Córdoba, Argentina",
@@ -5008,6 +5274,13 @@
    "days": 60,
    "lat": -12.43805556,
    "lon": 130.84111111
+  },
+  "city-gold-coast": {
+   "title": "Gold Coast, Queensland",
+   "monthlyViews": 33454,
+   "days": 60,
+   "lat": -27.9983,
+   "lon": 153.3344
   },
   "city-auckland": {
    "title": "Auckland",

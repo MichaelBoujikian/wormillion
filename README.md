@@ -16,7 +16,7 @@ early on, "Name a river with a T in it" or "Name a river in Mesopotamia" later.
 Misspellings are corrected rather than rejected — type "Kilimanjro" and you get
 Kilimanjaro, with the real spelling shown.
 
-No accounts, no daily lock, no build step, no runtime dependencies. 1,668 real
+No accounts, no daily lock, no build step, no runtime dependencies. 1,707 real
 places in the bank across nine categories: countries, capitals, cities that
 aren't capitals, lakes, rivers, mountains, deserts, islands, and seas.
 
