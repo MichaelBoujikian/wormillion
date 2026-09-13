@@ -56,14 +56,36 @@
     return history.reduce((best, run) => (run.score > best.score ? run : best));
   }
 
-  /** Trim a run summary down to the stored shape. */
+  /**
+   * Trim a run summary down to the stored shape. A daily carries its key
+   * (3.15) so the title screen can tell "you already dug today" and a
+   * leaderboard can line players up by day; an endless run carries nothing
+   * extra, and a record from before modes existed reads as endless.
+   */
   function toRecord(summary) {
-    return {
+    const record = {
       score: summary.score,
       deepestStratum: summary.deepestStratum,
       finalDepth: Math.round(summary.finalDepth * 10) / 10,
       date: summary.date || new Date().toISOString()
     };
+    if (summary.mode === 'daily' && summary.dailyKey) {
+      record.mode = 'daily';
+      record.dailyKey = summary.dailyKey;
+    }
+    return record;
+  }
+
+  /** The stored daily for a YYYY-MM-DD key, or null if that day is unplayed. */
+  function dailyResult(key, store) {
+    if (!key) return null;
+    const { history } = read(store);
+    // Most recent last in history, so a late duplicate (shouldn't happen: the
+    // UI locks the daily) wins over an earlier one.
+    for (let i = history.length - 1; i >= 0; i--) {
+      if (history[i].mode === 'daily' && history[i].dailyKey === key) return history[i];
+    }
+    return null;
   }
 
   /**
@@ -103,5 +125,5 @@
     };
   }
 
-  return { KEY, HISTORY_CAP, read, write, bestOf, toRecord, recordRun, stats };
+  return { KEY, HISTORY_CAP, read, write, bestOf, toRecord, recordRun, dailyResult, stats };
 });

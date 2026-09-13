@@ -93,3 +93,42 @@ test('a blocked store degrades quietly instead of throwing', () => {
   const result = persistence.recordRun(summary(10, 1, 'Topsoil'), blocked);
   assert.strictEqual(result.isBest, true);
 });
+
+// ---- modes (Spec 3.15) -------------------------------------------------------
+
+test('a daily run is stored with its mode and key; an endless run with neither', () => {
+  const store = fakeStore();
+  persistence.recordRun({ ...summary(900, 120, 'Subsoil'), mode: 'daily', dailyKey: '2026-09-12' }, store);
+  persistence.recordRun({ ...summary(1100, 160, 'Clay'), mode: 'endless', dailyKey: null }, store);
+  const [daily, endless] = persistence.read(store).history;
+  assert.strictEqual(daily.mode, 'daily');
+  assert.strictEqual(daily.dailyKey, '2026-09-12');
+  assert.strictEqual('mode' in endless, false);
+  assert.strictEqual('dailyKey' in endless, false);
+});
+
+test('dailyResult finds the day that was played and nothing for a day that was not', () => {
+  const store = fakeStore();
+  assert.strictEqual(persistence.dailyResult('2026-09-12', store), null);
+  persistence.recordRun({ ...summary(900, 120, 'Subsoil'), mode: 'daily', dailyKey: '2026-09-12' }, store);
+  persistence.recordRun(summary(4000, 400, 'Bedrock'), store); // an endless run the same day
+  assert.strictEqual(persistence.dailyResult('2026-09-12', store).score, 900);
+  assert.strictEqual(persistence.dailyResult('2026-09-13', store), null);
+  assert.strictEqual(persistence.dailyResult(null, store), null);
+});
+
+test('a record from before modes existed still reads, and never passes as a daily', () => {
+  const store = fakeStore(JSON.stringify({ history: [{ score: 700, deepestStratum: 'Clay', finalDepth: 150, date: '2026-09-01T10:00:00.000Z' }] }));
+  assert.strictEqual(persistence.read(store).history.length, 1);
+  assert.strictEqual(persistence.dailyResult('2026-09-01', store), null);
+  assert.strictEqual(persistence.stats(store).runs, 1);
+});
+
+test('best dive and stats count both modes together', () => {
+  const store = fakeStore();
+  persistence.recordRun({ ...summary(900, 120, 'Subsoil'), mode: 'daily', dailyKey: '2026-09-12' }, store);
+  const second = persistence.recordRun(summary(1100, 160, 'Clay'), store);
+  assert.strictEqual(second.isBest, true);
+  assert.strictEqual(second.previousBest.score, 900);
+  assert.strictEqual(persistence.stats(store).runs, 2);
+});
