@@ -79,6 +79,10 @@ export const WIKI_TITLES = {
   // --- lakes ---
   'lake-lake-albert': 'Lake Albert (Africa)',
   'lake-lake-louise': 'Lake Louise (Alberta)',
+  'lake-lake-placid': 'Lake Placid (New York)', // the bare title is the village
+  'lake-lake-braies': 'Pragser Wildsee',
+  'lake-jokulsarlon': 'Jökulsárlón',
+  'lake-plitvice-lakes': 'Plitvice Lakes National Park', // the lakes have no article of their own
 
   // --- rivers (a river's bare name is almost always a disambiguation page) ---
   'river-amazon': 'Amazon River',
@@ -234,6 +238,8 @@ export const WIKI_VERIFIED = new Set([
   'capital-south-tarawa', // "Island of the Republic of Kiribati" - the capital area
   'capital-singapore',
   'lake-lake-pontchartrain', // technically an estuary, universally called a lake
+  'lake-jokulsarlon', // "glacial lake" / "lagoon" - a lake by any player's reckoning
+  'lake-plitvice-lakes', // a national park article; the sixteen lakes are the park
   'mountain-half-dome', // "Granitic dome in Yosemite"
   'mountain-el-capitan', // "Vertical rock formation in Yosemite"
   'mountain-stromboli', // "Active volcanic island" - the volcano article

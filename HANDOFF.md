@@ -39,9 +39,9 @@ GitHub Pages. `averageRarity` is the number it would post.
   - Netlify: the user's account is connected to the repo; `netlify.toml` publishes `src/` and runs `npm test && npm run validate` as the deploy command, so a red suite deploys nowhere. The site name/URL is set in their Netlify dashboard, not the repo. Added at the very end of the day — if a player reports the Netlify link broken, read the deploy log first.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated with `repo` + `workflow` scopes, `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` names it `wormillion` for the in-app browser pane).
-- **Green:** `npm test` (143 tests), `npm run validate` (1,707 entries), `npm run gap-check` (191 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 449 KB, 17 scripts inlined).
+- **Green:** `npm test` (151 tests), `npm run validate` (1,719 entries), `npm run gap-check` (199 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, ~455 KB, 17 scripts inlined).
 - **Working tree:** clean; everything below is pushed. Last commit `5e2643d`; both hosts have it.
-- **Bank:** 197 countries · 247 capitals · 314 cities · 120 lakes · 130 rivers · 188 mountains · 58 deserts · 358 islands · 95 seas. 91 entries are "one in Wormillion"; a run of median answers scores ~6,700 and ends around depth 540 (Mantle).
+- **Bank:** 197 countries · 247 capitals · 314 cities · 132 lakes (12 small famous ones added 2026-09-13: Bled, Placid, Hillier, Peyto, Jökulsárlón, Plitvice…) · 130 rivers · 188 mountains · 58 deserts · 358 islands · 95 seas. 91 entries are "one in Wormillion"; a run of median answers scores ~6,700 and ends around depth 540 (Mantle).
 
 ### What landed on 2026-09-12, in order (all on `main`)
 

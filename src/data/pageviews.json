@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-13",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-13T03:25:16.803Z",
+ "fetched": "2026-09-13T19:28:56.411Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -6121,6 +6121,90 @@
    "days": 59,
    "lat": -2,
    "lon": 29
+  },
+  "lake-lake-bled": {
+   "title": "Lake Bled",
+   "monthlyViews": 11232,
+   "days": 60,
+   "lat": 46.36444444,
+   "lon": 14.09472222
+  },
+  "lake-lake-bohinj": {
+   "title": "Lake Bohinj",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 46.28230833,
+   "lon": 13.85822222
+  },
+  "lake-lake-placid": {
+   "title": "Lake Placid (New York)",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 44.31666667,
+   "lon": -73.96666667
+  },
+  "lake-lake-hillier": {
+   "title": "Lake Hillier",
+   "monthlyViews": 3531,
+   "days": 60,
+   "lat": -34.09583333,
+   "lon": 123.20277778
+  },
+  "lake-peyto-lake": {
+   "title": "Peyto Lake",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 51.72694444,
+   "lon": -116.52194444
+  },
+  "lake-lake-minnewanka": {
+   "title": "Lake Minnewanka",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 51.25805556,
+   "lon": -115.37305556
+  },
+  "lake-jokulsarlon": {
+   "title": "Jökulsárlón",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 64.07027778,
+   "lon": -16.21166667
+  },
+  "lake-lake-retba": {
+   "title": "Lake Retba",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 14.83833889,
+   "lon": -17.24482222
+  },
+  "lake-lake-braies": {
+   "title": "Pragser Wildsee",
+   "monthlyViews": 4749,
+   "days": 60,
+   "lat": 46.69472222,
+   "lon": 12.08444444
+  },
+  "lake-lake-misurina": {
+   "title": "Lake Misurina",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 46.58194444,
+   "lon": 12.25388889
+  },
+  "lake-plitvice-lakes": {
+   "title": "Plitvice Lakes National Park",
+   "monthlyViews": 5540,
+   "days": 59,
+   "lat": 44.88055556,
+   "lon": 15.61611111
+  },
+  "lake-laguna-colorada": {
+   "title": "Laguna Colorada",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": -22.19861111,
+   "lon": -67.78111111
   },
   "lake-lake-edward": {
    "title": "Lake Edward",

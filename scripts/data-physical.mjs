@@ -128,6 +128,18 @@ Lake Maracaibo|13210|Maracaibo
 Lake Atitlan|130|Atitlan
 Lake Managua|1042|Xolotlan
 Lake Kivu|2700|Kivu
+Lake Bled|1.45|Bled
+Lake Bohinj|3.18|Bohinj
+Lake Placid|9|
+Lake Hillier|0.15|Hillier
+Peyto Lake|5.3|Peyto
+Lake Minnewanka|21|Minnewanka
+Jokulsarlon|18|Jokulsarlon Glacier Lagoon,Jokulsarlon Lagoon
+Lake Retba|3|Lac Rose,Pink Lake
+Lake Braies|0.31|Pragser Wildsee,Lago di Braies,Braies
+Lake Misurina|0.7|Misurina
+Plitvice Lakes|2|Plitvice
+Laguna Colorada|60|Red Lagoon
 Lake Edward|2325|Edward
 Lake Naivasha|139|Naivasha
 Lake Nakuru|45|Nakuru

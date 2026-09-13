@@ -27,7 +27,7 @@ per round, in round order, coloured by how obscure the answer was), your
 streak, a countdown to the next dig, a daily stats screen, and a review of
 every prompt with the rarest answer it would have taken.
 
-No accounts, no daily lock, no build step, no runtime dependencies. 1,707 real
+No accounts, no build step, no runtime dependencies. 1,719 real
 places in the bank across nine categories: countries, capitals, cities that
 aren't capitals, lakes, rivers, mountains, deserts, islands, and seas.
 

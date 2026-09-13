@@ -1801,6 +1801,200 @@
   "lon": 29
  },
  {
+  "id": "lake-lake-bled",
+  "category": "lake",
+  "name": "Lake Bled",
+  "aliases": [
+   "Bled"
+  ],
+  "size": 1.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Bled\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 11232,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Bled",
+  "lat": 46.36444444,
+  "lon": 14.09472222
+ },
+ {
+  "id": "lake-lake-bohinj",
+  "category": "lake",
+  "name": "Lake Bohinj",
+  "aliases": [
+   "Bohinj"
+  ],
+  "size": 3.18,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Bohinj\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 2313,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Bohinj",
+  "lat": 46.28230833,
+  "lon": 13.85822222
+ },
+ {
+  "id": "lake-lake-placid",
+  "category": "lake",
+  "name": "Lake Placid",
+  "aliases": [],
+  "size": 9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Placid (New York)\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Placid (New York)",
+  "lat": 44.31666667,
+  "lon": -73.96666667
+ },
+ {
+  "id": "lake-lake-hillier",
+  "category": "lake",
+  "name": "Lake Hillier",
+  "aliases": [
+   "Hillier"
+  ],
+  "size": 0.15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Hillier\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 3531,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Hillier",
+  "lat": -34.09583333,
+  "lon": 123.20277778
+ },
+ {
+  "id": "lake-peyto-lake",
+  "category": "lake",
+  "name": "Peyto Lake",
+  "aliases": [
+   "Peyto"
+  ],
+  "size": 5.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Peyto Lake\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 2527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peyto Lake",
+  "lat": 51.72694444,
+  "lon": -116.52194444
+ },
+ {
+  "id": "lake-lake-minnewanka",
+  "category": "lake",
+  "name": "Lake Minnewanka",
+  "aliases": [
+   "Minnewanka"
+  ],
+  "size": 21,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Minnewanka\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 2192,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Minnewanka",
+  "lat": 51.25805556,
+  "lon": -115.37305556
+ },
+ {
+  "id": "lake-jokulsarlon",
+  "category": "lake",
+  "name": "Jokulsarlon",
+  "aliases": [
+   "Jokulsarlon Glacier Lagoon",
+   "Jokulsarlon Lagoon"
+  ],
+  "size": 18,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jökulsárlón\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 3409,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jökulsárlón",
+  "lat": 64.07027778,
+  "lon": -16.21166667
+ },
+ {
+  "id": "lake-lake-retba",
+  "category": "lake",
+  "name": "Lake Retba",
+  "aliases": [
+   "Lac Rose",
+   "Pink Lake"
+  ],
+  "size": 3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Retba\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 2222,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Retba",
+  "lat": 14.83833889,
+  "lon": -17.24482222
+ },
+ {
+  "id": "lake-lake-braies",
+  "category": "lake",
+  "name": "Lake Braies",
+  "aliases": [
+   "Pragser Wildsee",
+   "Lago di Braies",
+   "Braies"
+  ],
+  "size": 0.31,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pragser Wildsee\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 4749,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pragser Wildsee",
+  "lat": 46.69472222,
+  "lon": 12.08444444
+ },
+ {
+  "id": "lake-lake-misurina",
+  "category": "lake",
+  "name": "Lake Misurina",
+  "aliases": [
+   "Misurina"
+  ],
+  "size": 0.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Misurina\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 2313,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Misurina",
+  "lat": 46.58194444,
+  "lon": 12.25388889
+ },
+ {
+  "id": "lake-plitvice-lakes",
+  "category": "lake",
+  "name": "Plitvice Lakes",
+  "aliases": [
+   "Plitvice"
+  ],
+  "size": 2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Plitvice Lakes National Park\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 5540,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Plitvice Lakes National Park",
+  "lat": 44.88055556,
+  "lon": 15.61611111
+ },
+ {
+  "id": "lake-laguna-colorada",
+  "category": "lake",
+  "name": "Laguna Colorada",
+  "aliases": [
+   "Red Lagoon"
+  ],
+  "size": 60,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Laguna Colorada\", 60-day daily median (60 days ending 2026-09-13); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Laguna Colorada",
+  "lat": -22.19861111,
+  "lon": -67.78111111
+ },
+ {
   "id": "lake-lake-edward",
   "category": "lake",
   "name": "Lake Edward",

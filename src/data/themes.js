@@ -239,7 +239,8 @@ globalThis.WORMILLION_THEMES = {
     'the Alps': [
       'Lake Geneva', 'Lake Constance', 'Lake Garda', 'Lake Maggiore', 'Lake Como',
       'Lake Lucerne', 'Lake Zurich', 'Lake Neuchatel', 'Lake Annecy',
-      'Hallstatter See', 'Lake Lugano', 'Lake Thun', 'Konigssee', 'Chiemsee'
+      'Hallstatter See', 'Lake Lugano', 'Lake Thun', 'Konigssee', 'Chiemsee',
+      'Lake Bled', 'Lake Bohinj', 'Lake Braies', 'Lake Misurina'
     ],
     'the British Isles': ['Loch Ness', 'Loch Lomond', 'Lake Windermere', 'Bala Lake', 'Lough Neagh'],
     'Scandinavia': ['Lake Vanern', 'Lake Vattern', 'Mjosa', 'Lake Inari', 'Lake Saimaa']
