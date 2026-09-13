@@ -71,6 +71,13 @@
       againBtn: $('again-btn'),
       sumStatsBtn: $('summary-stats-btn'),
       sumHomeBtn: $('summary-home-btn'),
+      dstatPlayed: $('dstat-played'),
+      dstatStreak: $('dstat-streak'),
+      dstatBestStreak: $('dstat-best-streak'),
+      dstatAvg: $('dstat-avg'),
+      dstatBest: $('dstat-best'),
+      dstatObscurity: $('dstat-obscurity'),
+      dstatSpread: $('dstat-spread'),
       statRuns: $('stat-runs'),
       statAvg: $('stat-avg'),
       statBest: $('stat-best'),
@@ -552,7 +559,47 @@
       els.againBtn.focus();
     }
 
+    /** The daily block: streaks, averages, and a bar per stratum for where the dailies ended. */
+    function renderDailyStats() {
+      const today = W.seed.dailyKey();
+      const d = W.persistence.dailyStats(today);
+      const todays = W.persistence.dailyResult(today);
+      els.dstatPlayed.textContent = fmt(d.played);
+      els.dstatStreak.textContent = fmt(d.streak);
+      els.dstatBestStreak.textContent = fmt(d.bestStreak);
+      els.dstatAvg.textContent = fmt(d.averageScore);
+      els.dstatBest.textContent = fmt(d.bestScore);
+      els.dstatObscurity.textContent = d.averageRarity === null ? '—' : `${Math.round(d.averageRarity * 100)}%`;
+
+      els.dstatSpread.innerHTML = '';
+      const most = Math.max(1, ...Object.values(d.byStratum));
+      for (const band of W.strata.STRATA) {
+        const count = d.byStratum[band.name] || 0;
+        const li = document.createElement('li');
+        li.className = [count === 0 && 'none', todays && todays.deepestStratum === band.name && 'today']
+          .filter(Boolean)
+          .join(' ');
+        const name = document.createElement('span');
+        name.className = 's-name';
+        name.textContent = band.name;
+        const bar = document.createElement('span');
+        bar.className = 's-bar';
+        bar.setAttribute('aria-hidden', 'true');
+        const fill = document.createElement('i');
+        fill.style.width = `${(count / most) * 100}%`;
+        fill.style.setProperty('--band', band.accent);
+        bar.append(fill);
+        const n = document.createElement('span');
+        n.className = 's-count';
+        n.textContent = String(count);
+        li.title = `${count} ${count === 1 ? 'daily' : 'dailies'} ended in ${band.name}`;
+        li.append(name, bar, n);
+        els.dstatSpread.append(li);
+      }
+    }
+
     function showStats() {
+      renderDailyStats();
       const stats = W.persistence.stats();
       els.statRuns.textContent = fmt(stats.runs);
       els.statAvg.textContent = fmt(stats.averageScore);
@@ -578,7 +625,8 @@
         const whenText = Number.isNaN(when.getTime())
           ? ''
           : when.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-        mid.textContent = r.mode === 'daily' ? `Daily · ${whenText}`.replace(/ · $/, '') : whenText;
+        // A daily is named by its puzzle day, not by when the record was written.
+        mid.textContent = r.mode === 'daily' ? `Dig #${W.seed.dailyNumber(r.dailyKey)} · ${dailyDate(r.dailyKey)}` : whenText;
         const right = document.createElement('span');
         right.className = 'r-points';
         right.textContent = fmt(r.score);

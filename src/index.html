@@ -135,6 +135,18 @@
       <!-- stats -->
       <div class="screen" id="screen-stats" hidden>
         <h2 class="screen-title">Past dives</h2>
+        <!-- Daily digs (Spec 3.16): streaks, averages and where the dailies ended -->
+        <p class="list-title">Daily digs</p>
+        <dl class="stat-grid daily-grid">
+          <div><dt>Played</dt><dd id="dstat-played">0</dd></div>
+          <div><dt>Streak</dt><dd id="dstat-streak">0</dd></div>
+          <div><dt>Best streak</dt><dd id="dstat-best-streak">0</dd></div>
+          <div><dt>Avg score</dt><dd id="dstat-avg">0</dd></div>
+          <div><dt>Best daily</dt><dd id="dstat-best">0</dd></div>
+          <div><dt>Avg obscurity</dt><dd id="dstat-obscurity">—</dd></div>
+        </dl>
+        <ol class="spread" id="dstat-spread" aria-label="Dailies by stratum reached"></ol>
+        <p class="list-title">All dives</p>
         <dl class="stat-grid">
           <div><dt>Runs</dt><dd id="stat-runs">0</dd></div>
           <div><dt>Average</dt><dd id="stat-avg">0</dd></div>

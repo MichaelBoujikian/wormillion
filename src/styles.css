@@ -708,6 +708,53 @@ body {
   color: var(--amber);
 }
 
+.stat-grid.daily-grid { grid-template-columns: repeat(3, 1fr); }
+.stat-grid.daily-grid dd { font-size: 17px; }
+
+/* ---------- where the dailies ended: one bar per stratum, like a guess distribution ---------- */
+.spread {
+  margin: 0;
+  padding: 6px 10px;
+  list-style: none;
+  display: grid;
+  gap: 3px;
+  border: 2px solid var(--line-soft);
+  background: #170e08;
+}
+
+.spread li {
+  display: grid;
+  grid-template-columns: 6.5em 1fr 2em;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--cream-dim);
+}
+
+.spread li.none { color: #6b5540; }
+.spread li.today .s-name { color: var(--amber); }
+
+.spread .s-bar {
+  height: 10px;
+  border: 2px solid var(--line-soft);
+  background: #0d0805;
+}
+
+.spread .s-bar i {
+  display: block;
+  height: 100%;
+  background: var(--band, #a8875a);
+}
+
+.spread .s-count {
+  text-align: right;
+  color: var(--cream);
+  font-variant-numeric: tabular-nums;
+}
+
 /* ---------- utility ---------- */
 .sr-only {
   position: absolute;
