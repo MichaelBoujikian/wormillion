@@ -721,3 +721,11 @@ test('Hawaii is in the Pacific, in the shipped data', () => {
   }
   assert.strictEqual(pacific().submit('Sicily').status, 'wrong-scope');
 });
+
+test('a letter-rule miss says which letter is missing', () => {
+  const { letterMissText } = promptBank;
+  assert.strictEqual(letterMissText('Lake Erie', { kind: 'double' }), 'Lake Erie has no double letter');
+  assert.strictEqual(letterMissText('Fuji', { kind: 'starts', letter: 'm' }), "Fuji doesn't start with M");
+  assert.strictEqual(letterMissText('Nile', { kind: 'contains', letter: 't' }), 'Nile has no T in it');
+  assert.strictEqual(letterMissText('Everest', { kind: 'ends', letter: 'a' }), "Everest doesn't end in A");
+});

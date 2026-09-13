@@ -486,12 +486,17 @@
         // "Japan" on "Name an island in Japan": the country is in the bank as
         // an island, and "Japan isn't in Japan" is not the hint.
         const isTheScope = placeScope && W.matching.normalize(result.entry.name) === W.matching.normalize(result.scopeName);
+        // A letter rule says which letter: "Lake Erie has no double letter"
+        // (a typo corrected to a real place is judged as that place).
+        const letterRule = run.prompt().letter;
         setFeedback(
           isTheScope
             ? `${result.entry.name} is all of it — this round wants a single ${W.promptBank.NOUN[run.prompt().category]} in ${result.scopeName}.`
             : placeScope
               ? `${result.entry.name} isn't in ${result.scopeName} — try another.`
-              : `${result.entry.name} doesn't fit this one — try another.`,
+              : letterRule
+                ? `${W.promptBank.letterMissText(result.entry.name, letterRule)} — try another.`
+                : `${result.entry.name} doesn't fit this one — try another.`,
           'warn'
         );
       } else if (result.elsewhere) {

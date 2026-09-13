@@ -332,6 +332,27 @@
   }
 
   /**
+   * Why a real place misses a letter rule, for the retry hint: "Lake Erie
+   * has no double letter", "Fuji doesn't start with M". The length rules
+   * have their own hint with the count (run.js `length`).
+   */
+  function letterMissText(name, rule) {
+    const L = rule.letter ? rule.letter.toUpperCase() : '';
+    switch (rule.kind) {
+      case 'contains':
+        return `${name} has no ${L} in it`;
+      case 'starts':
+        return `${name} doesn't start with ${L}`;
+      case 'ends':
+        return `${name} doesn't end in ${L}`;
+      case 'double':
+        return `${name} has no double letter`;
+      default:
+        return `${name} doesn't fit this one`;
+    }
+  }
+
+  /**
    * Build the playable bank from raw category files.
    * @param {Record<string, object[]>} raw     keyed by file stem (see data/bank.js)
    * @param {object} [themes]                  see data/themes.js
@@ -730,6 +751,7 @@
     spellingsOf,
     satisfiesLetter,
     letterPromptText,
+    letterMissText,
     satisfiesSize,
     sizePromptText,
     SIZE_RULES,
