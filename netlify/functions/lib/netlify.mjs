@@ -16,8 +16,14 @@ export function bankOnce() {
   return bank;
 }
 
-/** Netlify Blobs as lib/daily.js's store: getWithEtag / set / list. */
-export function blobStore(store = getStore('daily')) {
+/**
+ * Netlify Blobs as lib/daily.js's store: getWithEtag / set / list. Strong
+ * consistency, not the eventual default: the aggregate is read, changed and
+ * written back against its etag, and a stale read there means a lost
+ * update; and the stats a player fetches right after submitting should
+ * include them.
+ */
+export function blobStore(store = getStore({ name: 'daily', consistency: 'strong' })) {
   return {
     async getWithEtag(key) {
       const item = await store.getWithMetadata(key, { type: 'json' });
