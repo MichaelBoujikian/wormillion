@@ -75,5 +75,53 @@
     return seededRng(DAILY_NAMESPACE + key);
   }
 
-  return { DAILY_NAMESPACE, hash, mulberry32, seededRng, dailyKey, dailyRng };
+  // The first daily. Dig #1 is this date; every later day counts up from it,
+  // so "Wormillion #147" means the same day for everyone.
+  const DAILY_EPOCH = '2026-09-12';
+
+  const parts = (key) => String(key).split('-').map(Number);
+  // Day arithmetic in UTC on the key's own y/m/d, so a DST change on the
+  // player's clock can't make two keys 23 or 25 hours apart.
+  const dayIndex = (key) => {
+    const [y, m, d] = parts(key);
+    return Math.round(Date.UTC(y, m - 1, d) / 86400000);
+  };
+
+  /** "#147": the daily's number, counting DAILY_EPOCH as 1. */
+  function dailyNumber(key) {
+    return dayIndex(key) - dayIndex(DAILY_EPOCH) + 1;
+  }
+
+  /** The key `days` after (or before, if negative) another key. */
+  function keyOffset(key, days) {
+    const [y, m, d] = parts(key);
+    const t = new Date(Date.UTC(y, m - 1, d + days));
+    const pad = (n) => String(n).padStart(2, '0');
+    return `${t.getUTCFullYear()}-${pad(t.getUTCMonth() + 1)}-${pad(t.getUTCDate())}`;
+  }
+
+  /** Whole days from one key to another (positive when `to` is later). */
+  function daysBetween(from, to) {
+    return dayIndex(to) - dayIndex(from);
+  }
+
+  /** Milliseconds until the next local midnight, when the daily turns over. */
+  function msUntilNextDaily(now = new Date()) {
+    const next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0, 0);
+    return Math.max(0, next.getTime() - now.getTime());
+  }
+
+  return {
+    DAILY_NAMESPACE,
+    DAILY_EPOCH,
+    hash,
+    mulberry32,
+    seededRng,
+    dailyKey,
+    dailyRng,
+    dailyNumber,
+    keyOffset,
+    daysBetween,
+    msUntilNextDaily
+  };
 });

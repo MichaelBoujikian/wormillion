@@ -43,3 +43,36 @@ test('midnight local turns the key over; a minute before does not', () => {
   assert.strictEqual(seed.dailyKey(before), '2026-09-12');
   assert.strictEqual(seed.dailyKey(after), '2026-09-13');
 });
+
+// ---- puzzle number, day arithmetic, the countdown -----------------------------
+
+test('the first daily is #1 and every later day counts up', () => {
+  assert.strictEqual(seed.DAILY_EPOCH, '2026-09-12');
+  assert.strictEqual(seed.dailyNumber('2026-09-12'), 1);
+  assert.strictEqual(seed.dailyNumber('2026-09-13'), 2);
+  assert.strictEqual(seed.dailyNumber('2026-10-01'), 20);
+  assert.strictEqual(seed.dailyNumber('2027-09-12'), 366);
+});
+
+test('keyOffset steps across month and year ends', () => {
+  assert.strictEqual(seed.keyOffset('2026-09-12', 1), '2026-09-13');
+  assert.strictEqual(seed.keyOffset('2026-09-30', 1), '2026-10-01');
+  assert.strictEqual(seed.keyOffset('2026-12-31', 1), '2027-01-01');
+  assert.strictEqual(seed.keyOffset('2026-03-01', -1), '2026-02-28');
+  assert.strictEqual(seed.keyOffset('2026-09-12', 0), '2026-09-12');
+});
+
+test('daysBetween is whole days, signed', () => {
+  assert.strictEqual(seed.daysBetween('2026-09-12', '2026-09-13'), 1);
+  assert.strictEqual(seed.daysBetween('2026-09-13', '2026-09-12'), -1);
+  assert.strictEqual(seed.daysBetween('2026-01-01', '2026-12-31'), 364);
+});
+
+test('msUntilNextDaily counts down to local midnight', () => {
+  const late = new Date(2026, 8, 12, 23, 59, 30);
+  assert.strictEqual(seed.msUntilNextDaily(late), 30 * 1000);
+  const noon = new Date(2026, 8, 12, 12, 0, 0);
+  assert.strictEqual(seed.msUntilNextDaily(noon), 12 * 3600 * 1000);
+  const midnight = new Date(2026, 8, 13, 0, 0, 0);
+  assert.strictEqual(seed.msUntilNextDaily(midnight), 24 * 3600 * 1000);
+});
