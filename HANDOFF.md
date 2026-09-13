@@ -262,7 +262,7 @@ npm run validate                     # schema, aliases, loose-form collisions, r
 
 ## Open threads
 
-- **The comparison is live on Netlify and the Pages copy points at it**; the one thing not yet seen is a real player's daily going through from a browser on either host — play one and check the block appears (or read the function log for a 4xx).
+- **The comparison is live and verified on both hosts**: two `curl` submissions for dig #1 (`smoke-test-0001/0002`, harmless test rows in the store — delete from the Netlify Blobs UI if they bother you) scored exactly as the local engine, stats read back immediately with `consistency: 'strong'`, and the Pages copy fetched them cross-origin from a real browser with no console errors. The whole submit→compare flow was driven through the UI against the local memory-store API. The only thing not yet seen is a human playing a daily on the live site and watching the block appear.
 - **A named leaderboard** — the natural next step; the per-player submission blobs are already there. Needs a chosen name (and its moderation) per playerId; nothing else server-side changes.
 - **One 400 seen locally, not reproduced**: while developing, a submission for a record made earlier in the session got a 400 on the title (the record was then cleared). Every record made since replays fine, and rejections are now logged with the round and reason; if a player reports no compare block, read the function log first.
 - **Daily lock is localStorage-only** — a cleared browser replays the day and, with a fresh `playerId`, counts again. Accepted for an anonymous game.
