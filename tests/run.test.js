@@ -409,3 +409,41 @@ test('a misspelling is accepted and reports what it was corrected to', () => {
   }
   assert.ok(checked, 'expected a lake prompt');
 });
+
+// ---- modes (Spec 3.15) -------------------------------------------------------
+
+test('a run is endless unless told otherwise, and carries its mode into the summary', () => {
+  const run = runner.createRun(bank);
+  assert.strictEqual(run.mode, 'endless');
+  assert.strictEqual(run.dailyKey, null);
+  assert.strictEqual(run.summary().mode, 'endless');
+  assert.strictEqual(run.summary().dailyKey, null);
+  assert.deepStrictEqual(runner.MODES, ['daily', 'endless']);
+  assert.throws(() => runner.createRun(bank, { mode: 'weekly' }), /unknown mode/);
+});
+
+test('two daily runs on the same day draw the same fifteen prompts', () => {
+  const a = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-12' });
+  const b = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-12' });
+  assert.deepStrictEqual(a.state.slots, b.state.slots);
+  assert.strictEqual(a.mode, 'daily');
+  assert.strictEqual(a.dailyKey, '2026-09-12');
+  assert.strictEqual(a.summary().dailyKey, '2026-09-12');
+});
+
+test('a different day is a different dig', () => {
+  const texts = (key) =>
+    runner.createRun(bank, { mode: 'daily', dailyKey: key }).state.slots.map((slot) => bank.promptFor(slot).text);
+  assert.notDeepStrictEqual(texts('2026-09-12'), texts('2026-09-13'));
+});
+
+test('a daily ignores an injected rng - the date is the only seed', () => {
+  const seeded = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-12' });
+  const withRng = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-12', rng: () => 0.5 });
+  assert.deepStrictEqual(seeded.state.slots, withRng.state.slots);
+});
+
+test('a daily with no key is today', () => {
+  const seed = require('../src/js/seed.js');
+  assert.strictEqual(runner.createRun(bank, { mode: 'daily' }).dailyKey, seed.dailyKey());
+});

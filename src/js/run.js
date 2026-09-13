@@ -17,16 +17,31 @@
   const rarity = isNode ? require('./rarity.js') : root.Wormillion.rarity;
   const matching = isNode ? require('./matching.js') : root.Wormillion.matching;
   const strata = isNode ? require('./strata.js') : root.Wormillion.strata;
+  const seed = isNode ? require('./seed.js') : root.Wormillion.seed;
+
+  // The two ways to play (Spec 3.15). They differ in ONE thing: where the
+  // slot draw's randomness comes from. A daily run is seeded from the
+  // calendar date so everyone digs the same fifteen prompts that day; an
+  // endless run draws fresh every time and can be played all day.
+  const MODES = ['daily', 'endless'];
 
   /**
    * @param {object} bank        from promptBank.createBank()
-   * @param {object} [opts]      { rounds, rng }
+   * @param {object} [opts]      { mode, dailyKey, rounds, rng }
+   *   mode      'daily' | 'endless' (default)
+   *   dailyKey  the daily's YYYY-MM-DD; defaults to today, local time
+   *   rng       overrides the draw's randomness (tests); ignored for a daily
    */
   function createRun(bank, opts = {}) {
-    const rng = opts.rng || Math.random;
+    const mode = opts.mode || 'endless';
+    if (!MODES.includes(mode)) throw new Error(`createRun: unknown mode "${mode}"`);
+    const dailyKey = mode === 'daily' ? opts.dailyKey || seed.dailyKey() : null;
+    const rng = mode === 'daily' ? seed.dailyRng(dailyKey) : opts.rng || Math.random;
     const slots = bank.drawSlots(rng).slice(0, opts.rounds || rarity.ROUNDS_PER_RUN);
 
     const state = {
+      mode,
+      dailyKey,
       slots,
       index: 0,
       score: 0,
@@ -174,6 +189,8 @@
     /** Final numbers for the summary screen and history (Spec 5.2, 9). */
     function summary() {
       return {
+        mode: state.mode,
+        dailyKey: state.dailyKey,
         score: state.score,
         finalDepth: state.depth,
         // v1 uses FINAL depth, not max depth (Spec 5.2).
@@ -186,6 +203,12 @@
 
     return {
       state,
+      get mode() {
+        return state.mode;
+      },
+      get dailyKey() {
+        return state.dailyKey;
+      },
       get roundNumber() {
         return Math.min(state.index + 1, slots.length);
       },
@@ -220,5 +243,5 @@
       .map(({ result }) => result);
   }
 
-  return { createRun, rankByRarity };
+  return { MODES, createRun, rankByRarity };
 });
