@@ -22,13 +22,13 @@ const summary = (score, depth, stratum) => ({
 
 test('an empty store reads as "no history yet"', () => {
   const empty = persistence.read(fakeStore());
-  assert.deepStrictEqual(empty, { bestDive: null, history: [] });
+  assert.deepStrictEqual(empty, { bestDive: null, history: [], playerId: null, compare: null });
 });
 
 test('a corrupt key reads as empty rather than throwing', () => {
-  assert.deepStrictEqual(persistence.read(fakeStore('{not json')), { bestDive: null, history: [] });
-  assert.deepStrictEqual(persistence.read(fakeStore('null')), { bestDive: null, history: [] });
-  assert.deepStrictEqual(persistence.read(fakeStore('{"history":"nope"}')), { bestDive: null, history: [] });
+  assert.deepStrictEqual(persistence.read(fakeStore('{not json')), { bestDive: null, history: [], playerId: null, compare: null });
+  assert.deepStrictEqual(persistence.read(fakeStore('null')), { bestDive: null, history: [], playerId: null, compare: null });
+  assert.deepStrictEqual(persistence.read(fakeStore('{"history":"nope"}')), { bestDive: null, history: [], playerId: null, compare: null });
 });
 
 test('recording a run stores it and reports a new best', () => {
@@ -90,7 +90,7 @@ test('a blocked store degrades quietly instead of throwing', () => {
       throw new Error('blocked');
     }
   };
-  assert.deepStrictEqual(persistence.read(blocked), { bestDive: null, history: [] });
+  assert.deepStrictEqual(persistence.read(blocked), { bestDive: null, history: [], playerId: null, compare: null });
   const result = persistence.recordRun(summary(10, 1, 'Topsoil'), blocked);
   assert.strictEqual(result.isBest, true);
 });
@@ -216,4 +216,35 @@ test('dailyStats: played, streaks, averages, best and the stratum spread, from d
   assert.strictEqual(s.dailies.length, 2);
   const empty = persistence.dailyStats('2026-09-12', fakeStore());
   assert.deepStrictEqual({ played: empty.played, streak: empty.streak, averageRarity: empty.averageRarity }, { played: 0, streak: 0, averageRarity: null });
+});
+
+// ---- the daily comparison: playerId and the cached stats (Spec 3.17) ----------
+
+test('playerId is made once, kept, and survives runs being recorded', () => {
+  const store = fakeStore();
+  const id = persistence.playerId(store);
+  assert.match(id, /^[A-Za-z0-9_-]{8,64}$/);
+  assert.strictEqual(persistence.playerId(store), id);
+  persistence.recordRun(summary(100, 10, 'Topsoil'), store);
+  assert.strictEqual(persistence.playerId(store), id);
+  assert.strictEqual(persistence.read(store).playerId, id);
+  // An injected generator is used when there is no id yet.
+  assert.strictEqual(persistence.playerId(fakeStore(), () => 'fixed-id-0001'), 'fixed-id-0001');
+});
+
+test('the last comparison is cached per day and outlives a recorded run', () => {
+  const store = fakeStore();
+  assert.strictEqual(persistence.comparison('2026-09-13', store), null);
+  persistence.saveComparison('2026-09-13', { count: 3 }, store);
+  assert.deepStrictEqual(persistence.comparison('2026-09-13', store), { count: 3 });
+  assert.strictEqual(persistence.comparison('2026-09-14', store), null);
+  persistence.recordRun(summary(100, 10, 'Topsoil'), store);
+  assert.deepStrictEqual(persistence.comparison('2026-09-13', store), { count: 3 });
+});
+
+test('an old store without playerId or compare reads with them null', () => {
+  const store = fakeStore(JSON.stringify({ history: [] }));
+  const data = persistence.read(store);
+  assert.strictEqual(data.playerId, null);
+  assert.strictEqual(data.compare, null);
 });

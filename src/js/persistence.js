@@ -21,7 +21,7 @@
   const HISTORY_CAP = 50;
   const isDaily = (r) => r.mode === 'daily' && typeof r.dailyKey === 'string';
 
-  const EMPTY = { bestDive: null, history: [] };
+  const EMPTY = { bestDive: null, history: [], playerId: null, compare: null };
 
   function storage(store) {
     if (store) return store;
@@ -41,7 +41,12 @@
       const history = parsed.history.filter(
         (r) => r && Number.isFinite(r.score) && Number.isFinite(r.finalDepth)
       );
-      return { history, bestDive: bestOf(history) };
+      return {
+        history,
+        bestDive: bestOf(history),
+        playerId: typeof parsed.playerId === 'string' ? parsed.playerId : null,
+        compare: parsed.compare && typeof parsed.compare === 'object' ? parsed.compare : null
+      };
     } catch {
       return { ...EMPTY };
     }
@@ -140,13 +145,46 @@
     const previousBest = current.bestDive;
     const history = trim(current.history.concat([record]));
     const bestDive = bestOf(history);
-    write({ bestDive, history }, store);
+    write({ ...current, bestDive, history }, store);
     return {
       isBest: !previousBest || record.score > previousBest.score,
       previousBest,
       bestDive,
       history
     };
+  }
+
+  /**
+   * Who this browser is to the daily comparison (3.17): a random id made
+   * once and kept. No name, nothing personal; it only stops one browser
+   * counting twice on a day. Clearing the browser makes a new digger.
+   */
+  function playerId(store, random) {
+    const current = read(store);
+    if (current.playerId) return current.playerId;
+    const id = (random || randomId)();
+    write({ ...current, playerId: id }, store);
+    return id;
+  }
+
+  function randomId() {
+    const c = root.crypto;
+    if (c && typeof c.randomUUID === 'function') return c.randomUUID().replace(/-/g, '');
+    const bytes = new Array(16).fill(0).map(() => Math.floor(Math.random() * 256));
+    if (c && typeof c.getRandomValues === 'function') c.getRandomValues(Uint8Array.from(bytes)).forEach((b, i) => (bytes[i] = b));
+    return bytes.map((b) => b.toString(16).padStart(2, '0')).join('');
+  }
+
+  /** Remember the last comparison fetched, so the locked title can show it offline. */
+  function saveComparison(day, stats, store) {
+    const current = read(store);
+    write({ ...current, compare: { day, stats, at: new Date().toISOString() } }, store);
+  }
+
+  /** The cached comparison for `day`, or null. */
+  function comparison(day, store) {
+    const { compare } = read(store);
+    return compare && compare.day === day ? compare.stats : null;
   }
 
   /** Every daily played, oldest first, one per key (the last stored wins). */
@@ -237,6 +275,9 @@
     trim,
     averageRarity,
     recordRun,
+    playerId,
+    saveComparison,
+    comparison,
     dailyResult,
     dailies,
     dailyStreak,
