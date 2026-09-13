@@ -44,6 +44,7 @@
       bankCount: $('bank-count'),
       dailyBtn: $('daily-btn'),
       dailyNote: $('daily-note'),
+      dailyCountdown: $('daily-countdown'),
       dailyShareBtn: $('daily-share-btn'),
       endlessBtn: $('endless-btn'),
       statsBtn: $('stats-btn'),
@@ -62,6 +63,7 @@
       sumMode: $('summary-mode'),
       sumScore: $('summary-score'),
       sumDepth: $('summary-depth'),
+      sumAvg: $('summary-avg'),
       sumStratum: $('summary-stratum'),
       sumBest: $('summary-best'),
       sumRounds: $('summary-rounds'),
@@ -153,6 +155,10 @@
       }
       els.app.dataset.screen = name;
       if (name === 'title') refreshTitle();
+      else if (countdownTimer) {
+        clearInterval(countdownTimer);
+        countdownTimer = null;
+      }
     }
 
     function refreshBest() {
@@ -166,27 +172,58 @@
       return new Date(y, m - 1, d).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     }
 
-    /** What a run is called on the statusline and the summary (3.15). */
+    /** What a run is called on the statusline and the summary (3.15): "Dig #2 · Sep 13". */
     function modeText(mode, dailyKey) {
-      return mode === 'daily' ? `Today's dig · ${dailyDate(dailyKey)}` : 'Endless';
+      return mode === 'daily' ? `Dig #${W.seed.dailyNumber(dailyKey)} · ${dailyDate(dailyKey)}` : 'Endless';
+    }
+
+    /** "06:12:33" until the next local midnight. */
+    function countdownText() {
+      const total = Math.ceil(W.seed.msUntilNextDaily() / 1000);
+      const pad = (n) => String(n).padStart(2, '0');
+      return `${pad(Math.floor(total / 3600))}:${pad(Math.floor((total % 3600) / 60))}:${pad(total % 60)}`;
     }
 
     /**
      * The daily is one dig per day: once today's is in the history the button
-     * locks and shows the result, and unlocks by itself at local midnight
-     * because the key changes. Endless is never locked.
+     * locks and shows the result, the streak and a countdown, and unlocks by
+     * itself at local midnight because the key changes. Endless is never
+     * locked.
      */
+    let countdownTimer = null;
     function refreshTitle() {
       const today = W.seed.dailyKey();
       const done = W.persistence.dailyResult(today);
+      const number = W.seed.dailyNumber(today);
       els.dailyBtn.disabled = Boolean(done);
-      els.dailyBtn.textContent = done ? "Today's dig — done" : "Today's dig";
+      els.dailyBtn.textContent = done ? `Dig #${number} — done` : `Today's dig #${number}`;
       els.dailyNote.classList.toggle('played', Boolean(done));
-      els.dailyNote.textContent = done
-        ? `You dug ${fmt(done.score)} · ${done.deepestStratum} today — back tomorrow`
-        : 'Same fifteen prompts for everyone today';
+      if (done) {
+        const streak = W.persistence.dailyStreak(today).current;
+        const streakText = streak > 1 ? ` · ${streak}-day streak` : '';
+        els.dailyNote.textContent = `You dug ${fmt(done.score)} · ${done.deepestStratum} today${streakText}`;
+      } else {
+        els.dailyNote.textContent = 'Same fifteen prompts for everyone today';
+      }
       els.dailyShareBtn.hidden = !done;
       els.dailyShareBtn.onclick = done ? () => copyShare(done, els.dailyShareBtn) : null;
+
+      // The countdown ticks only while the locked title is on screen; at
+      // midnight the key changes and a refresh unlocks the button.
+      clearInterval(countdownTimer);
+      countdownTimer = null;
+      els.dailyCountdown.hidden = !done;
+      if (done) {
+        const tick = () => {
+          if (W.seed.dailyKey() !== today) {
+            refreshTitle();
+            return;
+          }
+          els.dailyCountdown.textContent = `Next dig in ${countdownText()}`;
+        };
+        tick();
+        countdownTimer = setInterval(tick, 1000);
+      }
     }
 
     // ---- share ------------------------------------------------------------
@@ -465,6 +502,8 @@
 
       els.sumScore.textContent = fmt(summary.score);
       els.sumDepth.textContent = `${summary.finalDepth.toFixed(1)} deep`;
+      const avg = W.persistence.averageRarity(record);
+      els.sumAvg.textContent = avg === null ? '' : `${Math.round(avg * 100)}% avg obscurity`;
       els.sumStratum.textContent = summary.deepestStratum;
       const band = W.strata.strataFor(summary.finalDepth);
       els.sumStratum.style.setProperty('--band', band.accent);

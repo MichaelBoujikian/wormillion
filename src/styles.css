@@ -427,6 +427,10 @@ body {
 }
 
 .mode-note.played { color: var(--amber); }
+.mode-note.countdown { font-variant-numeric: tabular-nums; }
+.mode-pick .mode-note + .mode-note { margin-top: -4px; }
+
+#summary-avg:not(:empty)::before { content: ' · '; }
 
 /* "Daily · Sep 12" / "Endless" on the statusline and the summary */
 .mode-chip {
