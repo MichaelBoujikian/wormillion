@@ -1,4 +1,4 @@
-# Wormillion — Build Specification (v1.2)
+# Wormillion — Build Specification (v1.3)
 
 ## 0. One-line pitch
 
@@ -77,6 +77,8 @@ Substring matching is never performed.
 **3.13 The summary ladder (v1.2).** The run summary lists the round results **from least to most obscure**, not in round order: `summary.ladder` (`run.js`, `rankByRarity`) is the results sorted by rarity ascending, misses first (they dug nothing), ties in round order, so the rarest thing the player knew is the last line. Each row shows the place, a bar whose length is its obscurity, the percentage, and the points; rows at or above the jackpot bar are marked ★ in amber, and a 100% row in white. `summary.rounds` keeps round order and is what history records (Section 9) — nothing new is stored.
 
 **3.14 "0% obscurity? Dig deeper next time" (v1.2).** The opposite of 3.12. An accepted answer whose rarity reads as 0% on screen (`rarity < DUD_RARITY = 0.005`, `rarity.isDud`; the mirror of `PERFECT_RARITY`) is mocked rather than celebrated: the words 0% OBSCURITY? / DIG DEEPER / NEXT TIME flop into the lower part of the scene in a sickly green, and blood, muck and bile drip from the letters — stretching, letting go and falling — with flies buzzing around the words and sick wisps rising (`src/js/dud.js`, canvas only, same contract as `jackpot.js`). The worm goes **rotten** for the same spell: grey-green and mottled, eyes half shut, a drool, three flies at its head (`renderer.setRotten`, cosmetic only — it digs exactly the same, and `reset()` clears it). Held for 10 s (`HOLD_SECONDS` in `dud.js`) or until the next submitted answer, cleared on a new run; the words sit low so the worm stays visible. Scoring is untouched: a dud still pays `POINTS_MIN` and digs nothing extra. Under `prefers-reduced-motion` the words appear without anything dripping and the flies hold still. `__wormillion.shame()` fires it from `?debug`.
+
+**3.15 Two ways to dig: today's and endless (v1.3).** The title screen offers **Today's dig** and **Endless**. They differ in exactly one thing — where the slot draw's randomness comes from. A daily run draws its fifteen slots with a PRNG seeded from the player's local calendar date (`src/js/seed.js`: cyrb53 hash of `wormillion-daily:YYYY-MM-DD` into mulberry32; `run.createRun(bank, { mode: 'daily' })`), so everyone who plays that day gets the same fifteen prompts in the same order; it turns over at local midnight, like every other -dle. An endless run draws fresh with `Math.random` every time and can be played all day; it is what the game was before v1.3. Scoring, matching, the ramp, the jackpot and the dud are identical in both. **The daily is one dig per day**: the run is stored with `mode: 'daily'` and its `dailyKey` (Section 9), and while `persistence.dailyResult(today)` finds one the title button reads "Today's dig — done" with the score and stratum underneath, `startRun('daily')` refuses, and the summary's button becomes "Keep digging — endless". The statusline and the summary carry a mode chip ("Today's dig · Sep 12" / "Endless"); history rows say "Daily · Sep 12". `?daily` on the URL — the link an aggregator gets — goes straight into today's dig, or to the title showing the result if it's done. Best dive and stats span both modes. The seeded sequence for 2026-09-12 is pinned in `tests/seed.test.js`: a change to the hash, the generator or the namespace changes every past daily, so bump `DAILY_NAMESPACE` deliberately rather than reseed by accident. Note that the daily is *the draw*, not the bank: a data push mid-day changes what a slot's text or lookup contains for anyone who has not yet played, and a change to `drawSlots` or to the order of `CATEGORIES`/themes/regions changes the day's draw outright. Everything else random (dirt, relics, confetti) stays on `Math.random`.
 
 ## 4. Data model
 
@@ -238,7 +240,8 @@ wormillion/
       strata.js         # depth → stratum name/band lookup (5.2 table) + palette
       matching.js       # 3.7 + 5.3: normalization, loose and fuzzy passes, no DOM
       promptBank.js     # cohorts, modifiers (3.1a), the 15-slot draw (3.8), no DOM
-      run.js            # run/round state machine (current round, score, depth, usedAnswers)
+      seed.js           # date-seeded rng for the daily (3.15): dailyKey(), dailyRng()
+      run.js            # run/round state machine (current round, score, depth, usedAnswers, mode)
       timer.js          # 30s countdown, pure-ish (callback-based), no DOM assumptions baked in
       persistence.js    # localStorage read/write: best dive + history (Section 9 shape)
       icons.js          # 12x12 pixel category icons, draws to a supplied context
@@ -302,7 +305,10 @@ Single key, `wormillion:v1`, JSON-encoded:
     "date": "2026-09-05T18:04:00.000Z"
   },
   "history": [
-    { "score": 5230, "deepestStratum": "Mantle", "finalDepth": 542.3, "date": "2026-09-05T18:04:00.000Z" }
+    { "score": 5230, "deepestStratum": "Mantle", "finalDepth": 542.3, "date": "2026-09-05T18:04:00.000Z" },
+    // a daily also carries its mode and key (v1.3); an endless run carries neither, and a
+    // record from before v1.3 reads as endless
+    { "score": 4238, "deepestStratum": "Bedrock", "finalDepth": 351.5, "date": "2026-09-13T05:39:02.459Z", "mode": "daily", "dailyKey": "2026-09-12" }
     // most recent last; cap at 50 entries, dropping oldest, to keep the key small
   ]
 }
@@ -439,5 +445,7 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.2 | Initialism aliases (NYC, LA, HK, UAE, DRC…) are for typing only: letter and length rules ignore them, so New York City does not "end in C". | 3.1a |
 | 1.2 | Every narrowed city prompt says "non-capital city" in the sentence ("Name a non-capital city in the Caribbean."), not only in the badge. | 3.1a, 6.0a |
 | 1.2 | "0% obscurity? Dig deeper next time": the anti-jackpot for an answer that reads as 0% — blood and muck dripping off the words, flies, and a worm gone rotten for 10 s or until the next answer. `DUD_RARITY = 0.005`, `src/js/dud.js`, `renderer.setRotten`. | 3.14, 7 |
+
+| 1.3 | **Two ways to dig.** "Today's dig" draws the fifteen slots from a PRNG seeded on the local date (`src/js/seed.js`), the same for everyone that day, one dig per day, locked on the title once played; "Endless" is the old random draw, unlimited. Runs carry `mode`/`dailyKey` into history; `?daily` deep-links into the daily. Nothing else differs. | 3.15, 7, 9 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.

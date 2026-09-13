@@ -1,21 +1,31 @@
 # Handoff
 
 For whoever (or whatever) picks this up next. `README.md` explains the game and
-how to run it; `SPEC.md` is the design source of truth (v1.2, with an amendments
+how to run it; `SPEC.md` is the design source of truth (v1.3, with an amendments
 log in §13 — every behaviour change since v1.0 has a row there). This file is
 what isn't in either: where things stand, what to check first, every knob and
 its current setting, the decisions that must not be quietly undone, and the
 gotchas that cost time. Claude Code's project memory is keyed to this folder
 (`C:\Users\smite\repos\wormillion`); this file is the memory that survives.
 
-## State as of 2026-09-12 (end of day)
+## State as of 2026-09-13
+
+**Latest: daily and endless modes** (`ad0dd86` → docs commit, SPEC 3.15). "Today's
+dig" = the 15 slots drawn from a date-seeded rng (`src/js/seed.js`), one per
+day, locked on the title once played, tagged `mode`/`dailyKey` in history;
+"Endless" = the old random draw. `?daily` deep-links. The user wants this for a
+-dle aggregator and, later, a leaderboard from other players' dailies — nothing
+server-side exists yet; the daily record in localStorage
+(`persistence.dailyResult`) is what a leaderboard would post. Tests 123.
+
+### State as of 2026-09-12 (end of day)
 
 - **Live, twice, from the same `src/` folder**, both redeploying on every push to `main`:
   - GitHub Pages: https://michaelboujikian.github.io/wormillion/ (`.github/workflows/deploy.yml`; `ci.yml` runs test + validate on Node 22). `gh run list` shows both.
   - Netlify: the user's account is connected to the repo; `netlify.toml` publishes `src/` and runs `npm test && npm run validate` as the deploy command, so a red suite deploys nowhere. The site name/URL is set in their Netlify dashboard, not the repo. Added at the very end of the day — if a player reports the Netlify link broken, read the deploy log first.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated with `repo` + `workflow` scopes, `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` names it `wormillion` for the in-app browser pane).
-- **Green:** `npm test` (108 tests), `npm run validate` (1,707 entries), `npm run gap-check` (191 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 417 KB, 15 scripts inlined).
+- **Green:** `npm test` (123 tests after the modes work), `npm run validate` (1,707 entries), `npm run gap-check` (191 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 424 KB, 16 scripts inlined).
 - **Working tree:** clean; everything below is pushed. Last commit `5e2643d`; both hosts have it.
 - **Bank:** 197 countries · 247 capitals · 314 cities · 120 lakes · 130 rivers · 188 mountains · 58 deserts · 358 islands · 95 seas. 91 entries are "one in Wormillion"; a run of median answers scores ~6,700 and ends around depth 540 (Mantle).
 
@@ -68,7 +78,9 @@ a push deploys both live sites.
 | which ocean an island/sea is in | derived from coordinates in `scripts/data-oceans.mjs`; hand corrections in `OCEAN_OVERRIDES` there |
 | how prompts are worded / drawn / ramped / weighted | `src/js/promptBank.js` (`NOUN`, `PLAIN_TEXT`, `CATEGORY_LABEL`, `SIZE_RULES`, `drawModifier`, `drawSlots`) |
 | how answers are matched (aliases, loose, fuzzy) | `src/js/matching.js` |
-| what advances a round, retries, the miss hints, the summary ladder | `src/js/run.js` (hint *wording* is in `ui.js`) |
+| what advances a round, retries, the miss hints, the summary ladder, the run's mode | `src/js/run.js` (hint *wording* is in `ui.js`) |
+| the daily's seed, the date key, the pinned sequence | `src/js/seed.js` (`DAILY_NAMESPACE`; bump it on purpose, never reseed by accident) |
+| the daily lock, the mode chips, `?daily` | `ui.js` (`refreshTitle`, `modeText`, `startRun(mode)`) |
 | points, the dig curve, the jackpot and dud bars | `src/js/rarity.js` |
 | the strata bands and palette | `src/js/strata.js` |
 | the pixel-art scene, relics, crater widths, the rotten worm | `src/js/worldRender.js` (no `document` — takes canvases) |
@@ -100,6 +112,8 @@ a push deploys both live sites.
 | tunnel radius | 6; jackpot 11; perfect 14; blends over 6 depth units | `TUNNEL_R`, `TUNNEL_R_BY_TIER`, `TAPER_UNITS`, `worldRender.js` |
 | relic spacing | one every ~11 units above depth 500, ~20 below | `paintRelics()`, `worldRender.js` |
 | world depth | budget + 30 | `MAX_UNITS`, `worldRender.js` |
+| daily turnover | local midnight (`seed.dailyKey()` is the local YYYY-MM-DD) | `seed.js` |
+| daily plays per day | 1 (`persistence.dailyResult(today)` locks the button) | `ui.js` `refreshTitle`/`startRun` |
 
 ## The data pipeline (read before adding a place)
 
@@ -125,6 +139,7 @@ npm run validate                     # schema, aliases, loose-form collisions, r
 
 - **Node is not on the Bash tool's PATH.** Prefix Bash commands with `export PATH="$PATH:/c/Program Files/nodejs"` (Node 24.19 / npm 11.17 at `C:\Program Files\nodejs`), or use the PowerShell tool with `$env:Path = [Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [Environment]::GetEnvironmentVariable("Path","User")`.
 - **Line endings are mixed on disk** (some files CRLF, some LF); git normalises to LF (`.gitattributes`: `* text=auto eol=lf`), so it warns "CRLF will be replaced by LF" on every commit — harmless. **Multi-line string patches must normalise line endings** or they silently match nothing. The pattern that worked all day: a small Python patcher that reads the file as bytes, maps `\r\n`→`\n`, does `assert text.count(old) == 1` per replacement, and restores the original ending on write. **Read its spec from `sys.stdin.buffer` and decode UTF-8 yourself** — plain `sys.stdin.read()` on Windows decodes as cp1252 and an em dash in the search text will silently fail to match.
+- **A Python patcher turns `\\b` into a backspace byte.** Writing the JS regex `/daily\b/` through a Python string produced `daily^H` on disk — silent, and it cost a debugging round. Use a raw string or build the bytes, then `cat -A` the line. The Edit tool is simpler for single-line edits; LF files (all of `src/` now) don't need the patcher at all.
 - **Quoted heredocs (`<<'EOF'`) are fine** in the Bash tool, apostrophes and all; it is *unquoted* heredocs that choke. Python 3.13 is on PATH.
 - **One commit per feature** is the house rule. When two changes are tangled in one working tree, `git diff -- file` → keep only the hunks whose text contains a marker → `git apply --cached` the partial patch → commit → `git add -A` the rest. Worked cleanly for the initialism fix inside the cities work.
 - **ESM imports on Windows need `file:///C:/...` URLs** when importing a repo module from a script outside the repo; `createRequire(import.meta.url)` is the way to load the classic-script modules (`matching.js`, `promptBank.js`) from an `.mjs`.
@@ -165,12 +180,15 @@ npm run validate                     # schema, aliases, loose-form collisions, r
 - **Theme names that aren't places get the generic miss hint.** A theme with custom prompt text says "X doesn't fit this one"; one worded "in the Alps" says "X isn't in the Alps". Theme prompt text is keyed by theme name alone, so don't reuse a name across categories.
 - **`file://` must keep working.** Classic scripts + generated `data/bank.js`, no ES modules, no `fetch()`, no external resources. `npm run bundle` makes the single-file `dist/wormillion.html`.
 - **`ui.js` is the only module that touches `document`.** `worldRender.js`, `jackpot.js` and `dud.js` take canvases; `run.js` returns data (`elsewhere`, `ladder`, `scopeName`, `length`) and `ui.js` turns it into words. That is what keeps the suite runnable with plain `node --test`.
+- **Daily and endless differ in exactly one thing: the rng behind `drawSlots`.** Don't fork scoring, prompts or the ramp by mode. The daily is the *draw*, not the bank — a data push mid-day changes the day's puzzle for whoever hasn't played; accepted. `tests/seed.test.js` pins the 2026-09-12 sequence; a change to `seed.js` that fails it is a change to every past daily.
 
 ## Open threads
 
-Nothing is queued. The audit is closed (every item decided and landed), the
-non-audit backlog is done, and the cities category shipped and was reviewed.
-Ideas if the user wants more:
+- **Leaderboard / other players' dailies** — the user wants this eventually, not yet. Needs a server or a third-party store; the daily record (`score`, `finalDepth`, `deepestStratum`, `dailyKey`) is the payload. A share-text button (emoji ladder + score, the -dle convention) is the cheap first step and needs no server.
+- **Daily lock is localStorage-only** — a cleared browser replays the day. Fine until there's a leaderboard.
+
+Otherwise nothing is queued. The audit is closed, the non-audit backlog is
+done, the cities category shipped and was reviewed. Ideas if the user wants more:
 
 - **More prompt kinds** — the user asks for new ones often and likes specific, harder prompts.
 - **Population refresh** — declined on 2026-09-12; revisit only if a player reports a size prompt being wrong.

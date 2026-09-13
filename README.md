@@ -16,6 +16,11 @@ early on, "Name a river with a T in it" or "Name a river in Mesopotamia" later.
 Misspellings are corrected rather than rejected — type "Kilimanjro" and you get
 Kilimanjaro, with the real spelling shown.
 
+Two ways to dig. **Today's dig** is the same fifteen prompts for everyone that
+day, once a day, turning over at midnight — the one to compare with friends
+(`?daily` on the URL goes straight to it). **Endless** is a fresh draw as often
+as you like. Nothing else differs.
+
 No accounts, no daily lock, no build step, no runtime dependencies. 1,707 real
 places in the bank across nine categories: countries, capitals, cities that
 aren't capitals, lakes, rivers, mountains, deserts, islands, and seas.
@@ -73,7 +78,19 @@ Node is a dev-time tool only, for the test suite and the data build. Nothing in
 
 Add `?debug` to the URL to expose `window.__wormillion`, which lets you jump the
 worm to any depth (`__wormillion.diveTo(650)`) and inspect a stratum without
-playing fifteen rounds to reach it.
+playing fifteen rounds to reach it, or start a run in either mode
+(`__wormillion.start('daily')`).
+
+### Today's dig
+
+The daily is the ordinary game with one difference: the fifteen slots are drawn
+from a random-number generator seeded on the player's local calendar date
+(`src/js/seed.js`), so everyone gets the same prompts in the same order that
+day. It is one dig per day — the run is stored with its date and the title
+screen shows the result until midnight. The seed covers the *draw*, not the
+bank: pushing new places or reordering categories changes the day's puzzle for
+anyone who hasn't played yet, which is fine for a game with no fixed answer, but
+worth knowing before a mid-day deploy.
 
 ## How it's put together
 
@@ -89,7 +106,8 @@ src/                 the deployed site, as-is
     promptBank.js    cohorts, prompt modifiers, the 15-slot draw (Spec 3.8)
     run.js           round/run state machine
     timer.js         30s countdown
-    persistence.js   localStorage best dive + history  (Spec 9)
+    seed.js          the date-seeded rng behind today's dig  (Spec 3.15)
+    persistence.js   localStorage best dive + history, dailies tagged  (Spec 9)
     icons.js         12x12 pixel category icons
     worldRender.js   the dig scene + buried relics (canvas, no DOM access)
     jackpot.js       the "ONE IN WORMILLION" burst for 85%+ answers (canvas, no DOM access)
