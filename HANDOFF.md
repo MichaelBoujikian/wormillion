@@ -17,8 +17,12 @@ fifteen answers and scores them server-side; `daily-submit.mjs` /
 turns the day's histograms into "Better than 62% of 143 diggers today";
 `ui.compareDaily` shows it on the summary and the locked title. `npm start`
 mounts the same API over a memory store — verified end to end in the browser
-that way. **Not yet verified on Netlify itself** (see "Netlify: what to check
-first" below). Dailies only; endless has nothing to compare.
+that way, then against the live site: `https://wormillion.netlify.app` (found
+by guessing the name; it answered) — a `curl` submission for dig #1 scored
+4,261 exactly as the local engine did, the duplicate was refused, CORS
+headers came back for the Pages origin, and stats read back after a
+propagation delay that `consistency: 'strong'` (`e2f5b11`) removes.
+Dailies only; endless has nothing to compare.
 
 **Before that: the -dle kit** (`25cc9b6`…`2caf1df`, SPEC 3.16): puzzle number (#1 =
 2026-09-12), share text (`src/js/share.js`, round-order emoji grid), average
@@ -48,6 +52,7 @@ GitHub Pages. `averageRarity` is the number it would post.
   - GitHub Pages: https://michaelboujikian.github.io/wormillion/ (`.github/workflows/deploy.yml`; `ci.yml` runs test + validate on Node 22). `gh run list` shows both.
   - Netlify: the user's account is connected to the repo; `netlify.toml` publishes `src/` and runs `npm test && npm run validate` as the deploy command, so a red suite deploys nowhere. The site name/URL is set in their Netlify dashboard, not the repo. Added at the very end of the day — if a player reports the Netlify link broken, read the deploy log first.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated with `repo` + `workflow` scopes, `git push` just works).
+- **Netlify site:** https://wormillion.netlify.app (functions at `/.netlify/functions/daily-submit` and `daily-stats`; Blobs store `daily`). Netlify does not report deploys back to GitHub, so a deploy's log is only in the Netlify dashboard.
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` names it `wormillion` for the in-app browser pane).
 - **Green:** `npm test` (173 tests), `npm run validate` (1,719 entries), `npm run gap-check` (199 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, ~467 KB, 18 scripts inlined).
 - **Working tree:** clean; everything below is pushed. Last commit `5e2643d`; both hosts have it.
@@ -95,11 +100,9 @@ with esbuild, and Blobs needs no setup. What could still be wrong, in order:
    block ("You're the first to dig today" the first time). A missing block
    with a 4xx in the function log means the replay rejected the answers:
    the log line says which round and why.
-4. **The GitHub Pages copy shows no comparison until `REMOTE_API` in
-   `src/js/compare.js` is set to the Netlify origin** (e.g.
-   `'https://wormillion.netlify.app'`). The user's site name is in their
-   Netlify dashboard; it was not known when this shipped. CORS already
-   admits `https://michaelboujikian.github.io`.
+4. **The GitHub Pages copy calls `https://wormillion.netlify.app`** (`REMOTE_API`
+   in `src/js/compare.js`; CORS admits `https://michaelboujikian.github.io`).
+   If the Netlify site is ever renamed, change both.
 5. A day's aggregate can be rebuilt from its submissions if it ever looks
    wrong: `createDailyApi(...).rebuild(day)` — there is no endpoint for it on
    purpose; run it from a one-off function or `netlify dev`.
@@ -185,7 +188,7 @@ a push deploys both live sites.
 | submission window | a day is open from 1 day before to 2 days after (UTC) | `OPEN_BEFORE`, `OPEN_AFTER`, `lib/daily.js` |
 | stats cache | 60 s at the edge; 60 s in the client before refetching | `daily-stats.mjs`, `COMPARE_FRESH_MS` |
 | CORS origins | Netlify itself, `https://michaelboujikian.github.io`, `http://localhost:8123` | `ALLOWED_ORIGINS`, `lib/netlify.mjs` |
-| Pages copy's API | `REMOTE_API = ''` (unset: no comparison on Pages) | `compare.js` |
+| Pages copy's API | `REMOTE_API = 'https://wormillion.netlify.app'` | `compare.js` |
 
 ## The data pipeline (read before adding a place)
 
@@ -259,7 +262,7 @@ npm run validate                     # schema, aliases, loose-form collisions, r
 
 ## Open threads
 
-- **The comparison is live but unverified on Netlify** — see "Netlify: what to check first". `REMOTE_API` needs the Netlify origin for the Pages copy.
+- **The comparison is live on Netlify and the Pages copy points at it**; the one thing not yet seen is a real player's daily going through from a browser on either host — play one and check the block appears (or read the function log for a 4xx).
 - **A named leaderboard** — the natural next step; the per-player submission blobs are already there. Needs a chosen name (and its moderation) per playerId; nothing else server-side changes.
 - **One 400 seen locally, not reproduced**: while developing, a submission for a record made earlier in the session got a 400 on the title (the record was then cleared). Every record made since replays fine, and rejections are now logged with the round and reason; if a player reports no compare block, read the function log first.
 - **Daily lock is localStorage-only** — a cleared browser replays the day and, with a fresh `playerId`, counts again. Accepted for an anonymous game.

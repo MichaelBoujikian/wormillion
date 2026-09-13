@@ -19,10 +19,10 @@
   const SCORE_BUCKET = 100;
 
   // Where the API lives for a page served from somewhere other than Netlify
-  // (the GitHub Pages copy). Empty means "same origin only": a page on a
-  // host that isn't Netlify shows no comparison. Set to the Netlify site's
-  // origin, e.g. 'https://wormillion.netlify.app', to share one leaderboard.
-  const REMOTE_API = '';
+  // (the GitHub Pages copy), so every host shares one tally. Empty would
+  // mean "same origin only": a page on a host that isn't Netlify would show
+  // no comparison. The functions' CORS list must admit the calling origin.
+  const REMOTE_API = 'https://wormillion.netlify.app';
   const FUNCTIONS = '/.netlify/functions/';
 
   /**

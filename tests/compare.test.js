@@ -7,9 +7,8 @@ test('apiBase: same origin on a web host, nothing on file:// or the bundle, REMO
   assert.strictEqual(compare.apiBase({ protocol: 'http:', hostname: 'localhost' }), '/.netlify/functions/');
   assert.strictEqual(compare.apiBase({ protocol: 'file:', hostname: '' }), null);
   assert.strictEqual(compare.apiBase(null), null);
-  // Pages needs the Netlify origin; unset, it shows no comparison rather than 404ing.
-  const pages = compare.apiBase({ protocol: 'https:', hostname: 'michaelboujikian.github.io' });
-  assert.strictEqual(pages, compare.REMOTE_API ? compare.REMOTE_API + compare.FUNCTIONS : null);
+  // The Pages copy calls the Netlify functions cross-origin, so both hosts share one tally.
+  assert.strictEqual(compare.apiBase({ protocol: 'https:', hostname: 'michaelboujikian.github.io' }), 'https://wormillion.netlify.app/.netlify/functions/');
 });
 
 test('betterThan counts buckets strictly below yours, out of everyone including you', () => {
