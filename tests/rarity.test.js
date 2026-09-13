@@ -110,6 +110,17 @@ test('points and dig sit at the documented endpoints', () => {
   assert.ok(rarity.pointsFor(0.5) < (50 + 1000) / 2);
 });
 
+test('an answer that reads as 0% is a dud; 1% is not', () => {
+  assert.strictEqual(rarity.DUD_RARITY, 0.005);
+  assert.ok(rarity.isDud(0));
+  assert.ok(rarity.isDud(0.0049), 'rounds to 0%');
+  assert.ok(!rarity.isDud(0.005), 'rounds to 1%');
+  assert.ok(!rarity.isDud(0.5));
+  // Scoring is untouched: a dud still pays the minimum and digs nothing extra.
+  assert.strictEqual(rarity.pointsFor(0), 50);
+  assert.strictEqual(rarity.digFor(0), 0);
+});
+
 test('points step at the jackpot bar the way the dig does: flat 950 for 85-99%, 1000 for 100%', () => {
   assert.strictEqual(rarity.POINTS_JACKPOT, 950);
   assert.strictEqual(rarity.pointsFor(0.85), 950);

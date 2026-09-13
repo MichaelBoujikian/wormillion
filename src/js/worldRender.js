@@ -301,6 +301,10 @@
     let toRadius = TUNNEL_R; // ...and the width it is digging
     let particles = [];
     let time = 0;
+    // A 0% answer leaves the worm decrepit for a while (ui.js sets and clears
+    // it with the "dig deeper next time" overlay): grey-green, mottled, eyes
+    // half shut, flies. Cosmetic only - it digs exactly the same.
+    let rotten = false;
     let shake = 0;
     let onArrive = null;
 
@@ -597,11 +601,20 @@
         const r = i === 0 ? 4 : Math.max(1.4, 3.7 - i * 0.18);
 
         // dark outline first, so the worm reads against pale clay and red core alike
-        ctx.fillStyle = '#2a0f09';
+        ctx.fillStyle = rotten ? '#1f2412' : '#2a0f09';
         circle(ctx, x - camX(), y - camY(), r + 1);
-        ctx.fillStyle = i % 2 === 0 ? '#b8412f' : '#d3604a';
+        ctx.fillStyle = rotten ? (i % 2 === 0 ? '#6e7a45' : '#8b9458') : i % 2 === 0 ? '#b8412f' : '#d3604a';
         circle(ctx, x - camX(), y - camY(), r);
-        if (i % 3 === 0) {
+        if (rotten) {
+          // Mould spots where the shine used to be, and a slimy speck or two.
+          if (i % 2 === 1) {
+            ctx.fillStyle = '#3d4423';
+            ctx.fillRect(Math.round(x - camX() - 1), Math.round(y - camY()), 2, 2);
+          } else if (i % 4 === 0) {
+            ctx.fillStyle = '#c9d48a';
+            ctx.fillRect(Math.round(x - camX() + 1), Math.round(y - camY() - r + 1), 1, 1);
+          }
+        } else if (i % 3 === 0) {
           ctx.fillStyle = 'rgba(255,255,255,0.18)';
           ctx.fillRect(Math.round(x - camX() - r + 1), Math.round(y - camY() - r + 1), 2, 1);
         }
@@ -610,16 +623,37 @@
       // head detail
       const hx = Math.round(head.x - camX());
       const hy = Math.round(head.y - camY());
-      ctx.fillStyle = '#2a0f09';
+      ctx.fillStyle = rotten ? '#1f2412' : '#2a0f09';
       circle(ctx, hx, hy - 1, 4.6);
-      ctx.fillStyle = '#f2907c';
+      ctx.fillStyle = rotten ? '#a4ad72' : '#f2907c';
       circle(ctx, hx, hy - 1, 3.6);
-      ctx.fillStyle = '#3a140f';
-      ctx.fillRect(hx - 3, hy - 2, 2, 2);
-      ctx.fillRect(hx + 2, hy - 2, 2, 2);
-      ctx.fillStyle = '#ffffff';
-      ctx.fillRect(hx - 3, hy - 2, 1, 1);
-      ctx.fillRect(hx + 2, hy - 2, 1, 1);
+      if (rotten) {
+        // Eyes half shut with bags under them, a bruise, a drool of something.
+        ctx.fillStyle = '#2b3018';
+        ctx.fillRect(hx - 3, hy - 1, 2, 1);
+        ctx.fillRect(hx + 2, hy - 1, 2, 1);
+        ctx.fillStyle = '#5d6640';
+        ctx.fillRect(hx - 3, hy, 2, 1);
+        ctx.fillRect(hx + 2, hy, 2, 1);
+        ctx.fillStyle = '#4c3a5a';
+        ctx.fillRect(hx - 1, hy - 3, 2, 1);
+        ctx.fillStyle = '#8f9a2f';
+        const drool = reducedMotion() ? 1 : 1 + (Math.floor(time * 2) % 3);
+        ctx.fillRect(hx + 1, hy + 2, 1, drool);
+        // Flies. Three of them, orbiting the head; still under reduced motion.
+        ctx.fillStyle = '#0d0805';
+        for (let f = 0; f < 3; f++) {
+          const a = reducedMotion() ? f * 2.1 : time * (3 + f * 0.7) + f * 2.1;
+          ctx.fillRect(hx + Math.round(Math.cos(a) * (8 + f)), hy - 2 + Math.round(Math.sin(a) * (5 + f)), 1, 1);
+        }
+      } else {
+        ctx.fillStyle = '#3a140f';
+        ctx.fillRect(hx - 3, hy - 2, 2, 2);
+        ctx.fillRect(hx + 2, hy - 2, 2, 2);
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(hx - 3, hy - 2, 1, 1);
+        ctx.fillRect(hx + 2, hy - 2, 1, 1);
+      }
 
       if (digging) {
         ctx.fillStyle = '#fff1d6';
@@ -717,6 +751,7 @@
       path = [];
       particles = [];
       shake = 0;
+      rotten = false;
       fromRadius = TUNNEL_R;
       toRadius = TUNNEL_R;
       cctx.clearRect(0, 0, W, WORLD_H);
@@ -806,6 +841,13 @@
       },
       get animating() {
         return diving;
+      },
+      /** A 0% answer leaves the worm looking rotten until the UI clears it. */
+      setRotten(value) {
+        rotten = Boolean(value);
+      },
+      get rotten() {
+        return rotten;
       },
       /** The carved tunnel so far as [{d, r}], for tests and the debug hook. */
       get tunnel() {

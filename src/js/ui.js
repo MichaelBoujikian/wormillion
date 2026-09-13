@@ -31,6 +31,9 @@
       hudStratum: $('hud-stratum'),
       jackpot: $('jackpot'),
       jackpotFx: $('jackpot-fx'),
+      dud: $('dud'),
+      dudFx: $('dud-fx'),
+      dudText: $('dud-text'),
       best: $('best-score'),
       screens: {
         title: $('screen-title'),
@@ -86,6 +89,13 @@
     const burst = W.jackpot.createBurst({ canvas: els.jackpotFx, reducedMotion });
     let jackpotHold = null;
 
+    // "0% OBSCURITY? DIG DEEPER NEXT TIME" - the opposite: blood and worse
+    // dripping off the words, flies, and a worm gone rotten, for an answer
+    // that reads as 0%. Same hold as the jackpot.
+    const drip = W.dud.createDrip({ canvas: els.dudFx, reducedMotion });
+    let dudHold = null;
+    let scenePx = 3; // CSS px per logical px, so the overlay text can be measured for the drips
+
     const iconCtx = els.promptIcon.getContext('2d');
     iconCtx.imageSmoothingEnabled = false;
 
@@ -101,10 +111,15 @@
       // narrow viewports get a smaller scale factor.
       const scale = rect.width < 520 ? 2.1 : 3;
       const targetW = Math.max(150, Math.min(260, Math.round(rect.width / scale)));
-      renderer.resize(rect.width, rect.height, rect.width / targetW);
-      burst.resize(rect.width, rect.height, rect.width / targetW);
+      scenePx = rect.width / targetW;
+      renderer.resize(rect.width, rect.height, scenePx);
+      burst.resize(rect.width, rect.height, scenePx);
+      drip.resize(rect.width, rect.height, scenePx);
       // "WORMILLION" is ten monospace characters; keep it inside the scene.
-      els.jackpot.style.setProperty('--jackpot-size', `${Math.max(22, Math.min(64, Math.round(rect.width * 0.13)))}px`);
+      // "DIG DEEPER" / "NEXT TIME" are ten and nine, so they share the size.
+      const bigWord = `${Math.max(22, Math.min(64, Math.round(rect.width * 0.13)))}px`;
+      els.jackpot.style.setProperty('--jackpot-size', bigWord);
+      els.dud.style.setProperty('--dud-size', bigWord);
     }
 
     let lastFrame = 0;
@@ -116,6 +131,10 @@
       if (burst.active) {
         burst.update(dt);
         burst.draw();
+      }
+      if (drip.active) {
+        drip.update(dt);
+        drip.draw();
       }
       requestAnimationFrame(frame);
     }
@@ -146,6 +165,31 @@
       jackpotHold = null;
       els.jackpot.hidden = true;
       burst.stop();
+    }
+
+    function showDud() {
+      hideDud();
+      els.dud.hidden = false;
+      // Tell the drips where the words are, in the canvas's logical pixels,
+      // so they hang from the letters rather than from thin air. Layout
+      // offsets, not getBoundingClientRect: the drop-in animation has the
+      // words translated half a screen up at this instant.
+      drip.start({
+        x: els.dudText.offsetLeft / scenePx,
+        y: els.dudText.offsetTop / scenePx,
+        width: els.dudText.offsetWidth / scenePx,
+        height: els.dudText.offsetHeight / scenePx
+      });
+      renderer.setRotten(true);
+      dudHold = setTimeout(hideDud, W.dud.HOLD_SECONDS * 1000);
+    }
+
+    function hideDud() {
+      if (dudHold) clearTimeout(dudHold);
+      dudHold = null;
+      els.dud.hidden = true;
+      drip.stop();
+      renderer.setRotten(false);
     }
 
     function setHud() {
@@ -246,6 +290,7 @@
       const raw = els.input.value;
       if (!raw.trim()) return;
       hideJackpot(); // the next entry is in; the celebration has had its turn
+      hideDud(); // ...and so has the shaming
       setFeedback('');
       const result = run.submit(raw);
 
@@ -265,8 +310,10 @@
         els.score.textContent = `${fmt(run.score)} pts`;
         const jackpot = W.rarity.isJackpot(result.rarity);
         if (jackpot) showJackpot();
+        const dud = W.rarity.isDud(result.rarity);
+        if (dud) showDud();
         announce(
-          `${jackpot ? 'One in Wormillion! ' : ''}` +
+          `${jackpot ? 'One in Wormillion! ' : dud ? 'Zero percent obscure - dig deeper next time. ' : ''}` +
             `${result.entry.name} accepted, ${fmt(result.entry.magnitude)} monthly views. ` +
             `Plus ${result.points} points. ` +
             `Now ${result.depthAfter.toFixed(0)} deep in ${W.strata.stratumName(result.depthAfter)}.`
@@ -412,6 +459,7 @@
       run = W.run.createRun(bank);
       renderer.reset();
       hideJackpot();
+      hideDud();
       setFeedback('');
       els.lastAnswer.textContent = '';
       els.timerBar.style.width = '100%';
@@ -437,9 +485,11 @@
       root.__wormillion = {
         renderer,
         burst,
+        drip,
         currentRun: () => run,
         diveTo: (d, tier) => renderer.diveTo(d, { tier }),
-        celebrate: showJackpot
+        celebrate: showJackpot,
+        shame: showDud
       };
     }
 

@@ -36,6 +36,9 @@
   // Points follow the same shape: the curve below the bar, a flat prize for
   // 85-99% (above anything the curve pays below the bar), the maximum for 100%.
   const POINTS_JACKPOT = 950;
+  // The other end: an answer that reads as 0% on screen is a dud - the most
+  // looked-up thing in its cohort. The UI shames it (3.14); scoring is unchanged.
+  const DUD_RARITY = 0.005; // rounds to 0% in the UI, as PERFECT_RARITY rounds to 100%
   const MAX_DIG_PER_ROUND = DIG_PERFECT;
   // The deepest a run can possibly go: fifteen 100% answers. Core starts at
   // 600, so a strong run reaches it without being perfect (Spec 5.2).
@@ -92,6 +95,11 @@
     return rarity >= JACKPOT_RARITY;
   }
 
+  /** Does this rarity read as 0%? The UI mocks it; nothing else changes. */
+  function isDud(rarity) {
+    return rarity < DUD_RARITY;
+  }
+
   /** Depth units dug for a rarity in [0,1] (Spec 5.1). */
   function digFor(rarity) {
     const r = clamp(rarity, 0, 1);
@@ -124,11 +132,13 @@
     DIG_JACKPOT,
     PERFECT_RARITY,
     DIG_PERFECT,
+    DUD_RARITY,
     cohortStats,
     rarityOf,
     computeRarity,
     pointsFor,
     isJackpot,
+    isDud,
     digFor,
     scoreEntry,
     cumulativeDepth,

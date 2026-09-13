@@ -18,7 +18,7 @@ URL).
 - **Live:** https://michaelboujikian.github.io/wormillion/ — GitHub Pages, auto-deploys on every push to `main` (the `deploy` workflow; `ci` runs test + validate on Node 22). `gh run list` shows both.
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is authenticated on this machine with `repo` + `workflow` scopes, so `git push` just works).
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play. `npm start` serves on :8123 (`.claude/launch.json` knows this as `wormillion` for the in-app browser pane).
-- **Green:** `npm test` (101 tests), `npm run validate` (1,707 entries), `npm run gap-check` (191 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 14 scripts inlined).
+- **Green:** `npm test` (101 tests), `npm run validate` (1,707 entries), `npm run gap-check` (191 obvious answers), `npm run bundle` (single-file `dist/wormillion.html`, 15 scripts inlined).
 - **Working tree:** clean at handoff; everything below is pushed. The live site has it.
 
 ### What landed on 2026-09-11/12, in order (all on `main`)
@@ -84,6 +84,7 @@ URL — see "Driving the game from JS" below.
 | the strata bands and palette | `src/js/strata.js` |
 | the pixel-art scene, relics, crater widths | `src/js/worldRender.js` (no `document` — takes canvases) |
 | the "ONE IN WORMILLION" burst | `src/js/jackpot.js` (canvas only); overlay markup/CSS in `index.html` / `styles.css` |
+| the 0% "DIG DEEPER NEXT TIME" drips, flies and rotten worm | `src/js/dud.js` (canvas only); the worm's rotten look in `drawWorm()`, `worldRender.js` (`setRotten`); overlay markup/CSS `.dud*` in `index.html` / `styles.css` |
 | all DOM | `src/js/ui.js` — the *only* module allowed to touch `document` |
 
 ## Every knob and where it is set today
@@ -103,6 +104,8 @@ URL — see "Driving the game from JS" below.
 | depth budget | 1500 (= 15 × 100); strata bands unchanged at 100 each, Core from 600 | `TOTAL_DEPTH_BUDGET`, `rarity.js`; `strata.js` |
 | points | 50–1000, gamma 1.4 below the bar; flat 950 for 85–99%, 1000 for 100% (curve pays 807 just under the bar) | `POINTS_*`, `POINTS_JACKPOT`, `rarity.js` |
 | overlay hold | 10 s, or until the next submitted answer | `HOLD_SECONDS`, `jackpot.js` |
+| dud bar | rarity < 0.005 (reads as 0%) — the mirror of the 0.995 "perfect" bar | `DUD_RARITY`, `rarity.js` (`isDud`) |
+| dud hold; drip/wisp rates | 10 s or the next answer; 14 drips/s + wisp every 0.25 s → 3/s + 0.6 s → 1.2/s + 1.1 s; 5 flies | `HOLD_SECONDS`, `rates()`, `FLIES`, `dud.js` |
 | confetti/bolt rates over the hold | 70/s + bolt every 0.12 s → 14/s + 0.55 s → 5/s + 1.4 s | `rates()`, `jackpot.js` |
 | tunnel radius | 6; jackpot 11; perfect 14; blends over 6 depth units | `TUNNEL_R`, `TUNNEL_R_BY_TIER`, `TAPER_UNITS`, `worldRender.js` |
 | relic spacing | one every ~11 units above depth 500, ~20 below | `paintRelics()`, `worldRender.js` |
@@ -144,14 +147,14 @@ npm run validate                     # schema, aliases, regions, oceans, flags, 
 ### Driving the game from JS (browser pane, `?debug`)
 
 `window.__wormillion` exposes `renderer`, `burst`, `currentRun()`,
-`diveTo(depth, tier)` and `celebrate()`.
+`diveTo(depth, tier)`, `celebrate()`, `shame()` and `drip` (the dud's canvas module).
 
 - **The browser pane's `preview_start` by name reads `.claude/launch.json` from the folder the session was OPENED in.** It does not follow a mid-session directory change until the session is restarted. Open new sessions in `C:\Users\smite\repos\wormillion` and it just works (the launch config is `wormillion`, port 8123). If it ever can't find the config, the fallback is `node scripts/serve.mjs` in the background plus `navigate` to `http://localhost:8123/?debug`.
 - **The pane pauses `requestAnimationFrame` when hidden.** Pump frames yourself: `for (let i = 0; i < 80; i++) __wormillion.renderer.update(0.05); __wormillion.renderer.draw();` — that completes a dive and fires `onArrive`, which advances the round. Then `wait` ~1 s before a screenshot or the pane shows the previous frame.
 - **Rounds are 30 s and tool round-trips are slow.** Two calls can eat a round; a timed-out round silently advances, which looks like "Gobi isn't recognised as a desert" when it's really "the prompt is now a sea". Do set-slot + submit + screenshot in ONE `browser_batch` / one JS call.
 - To force a prompt: `const run = __wormillion.currentRun(); run.state.slots[run.roundNumber - 1] = { category: 'country', flag: { colours: ['green'] } };` then repaint `#prompt-text` from `run.prompt().text`. Slot shapes: `{category}`, `{category, region}`, `{category, theme}`, `{category, ocean}`, `{category, flag:{colours:[…]}}`, `{category, size:{op,value}}`, `{category, letter:{kind,letter}}`.
 - To submit like a player: set `#answer-input.value`, dispatch `input`, `#answer-form.requestSubmit()`; read `#feedback`.
-- **Known ≥85% answers for testing the jackpot:** Togo (94%) / Micronesia (100%) for country; Savu Sea (95%) / Ceram Sea (100%) for sea; Aldan / Vilyuy / Olenyok for river; Monte Desert / Wahiba Sands / Strzelecki Desert for desert. `__wormillion.celebrate()` fires the overlay without one.
+- **Known ≥85% answers for testing the jackpot:** Togo (94%) / Micronesia (100%) for country; Savu Sea (95%) / Ceram Sea (100%) for sea; Aldan / Vilyuy / Olenyok for river; Monte Desert / Wahiba Sands / Strzelecki Desert for desert. `__wormillion.celebrate()` fires the overlay without one. **Known 0% answers for the dud:** New York on a city round, United States on a country round, Mount Everest on a mountain round — or `__wormillion.shame()`. The words drop in at `opacity: 0`, so a screenshot taken in the same instant shows only the drips; wait a second.
 - `diveTo` never moves the worm upward; call `renderer.reset()` first to look at a shallower depth.
 
 ## Decisions a new session should not undo

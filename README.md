@@ -87,6 +87,7 @@ src/                 the deployed site, as-is
     icons.js         12x12 pixel category icons
     worldRender.js   the dig scene + buried relics (canvas, no DOM access)
     jackpot.js       the "ONE IN WORMILLION" burst for 85%+ answers (canvas, no DOM access)
+    dud.js           the "0% obscurity? Dig deeper next time" drips and flies for 0% answers (canvas, no DOM access)
     ui.js            the ONLY module that touches `document`
   data/
     *.json           the content bank, one file per category (Spec 4 schema)
