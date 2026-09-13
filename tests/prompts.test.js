@@ -569,9 +569,12 @@ test('cities are a cohort of non-capitals, and every prompt says so (shipped ban
 
   assert.strictEqual(text({ category: 'city' }), "Name a city that isn't a national capital.");
   assert.strictEqual(shipped.promptFor({ category: 'city' }).label, 'City (not a capital)');
-  assert.strictEqual(text({ category: 'city', region: 'Caribbean' }), 'Name a city in the Caribbean.');
-  assert.strictEqual(text({ category: 'city', size: { op: 'over', value: 5000000 } }), 'Name a city with a population over 5 million.');
-  assert.strictEqual(text({ category: 'city', flag: { colours: ['green'] } }), 'Name a city in a country whose flag has green in it.');
+  // Every narrowed city prompt says "non-capital" in the sentence, not just the badge.
+  assert.strictEqual(text({ category: 'city', region: 'Caribbean' }), 'Name a non-capital city in the Caribbean.');
+  assert.strictEqual(text({ category: 'city', size: { op: 'over', value: 5000000 } }), 'Name a non-capital city with a population over 5 million.');
+  assert.strictEqual(text({ category: 'city', flag: { colours: ['green'] } }), 'Name a non-capital city in a country whose flag has green in it.');
+  assert.strictEqual(text({ category: 'city', letter: { kind: 'starts', letter: 'm' } }), 'Name a non-capital city that starts with M.');
+  assert.strictEqual(text({ category: 'city', letter: { kind: 'long' } }), 'Name a non-capital city with a long name (12+ letters).');
   assert.strictEqual(text({ category: 'city', theme: 'largest in its country' }), "Name the largest city of a country that isn't its capital.");
 
   // Cities, big state capitals, cities that share a name with a capital elsewhere.
@@ -582,7 +585,7 @@ test('cities are a cohort of non-capitals, and every prompt says so (shipped ban
   const paris = submit({ category: 'city' }, 'Paris');
   assert.strictEqual(paris.status, 'unrecognized');
   assert.strictEqual(paris.elsewhere.category, 'capital');
-  assert.strictEqual(promptBank.wantsPhrase('city'), "city that isn't a capital");
+  assert.strictEqual(promptBank.wantsPhrase('city'), 'non-capital city');
   // ...and a city on a capital round is nudged the other way.
   assert.strictEqual(submit({ category: 'capital' }, 'Lagos').elsewhere.category, 'city');
 

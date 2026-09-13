@@ -171,11 +171,11 @@ round 12 harder than round 2:
 | modifier | example | source |
 |---|---|---|
 | none | "Name a river." / "Name a city that isn't a national capital." | — |
-| region | "Name a country in Southeast Asia." / "Name a city in the Caribbean." | region tags on countries/capitals; a city's are its country's |
+| region | "Name a country in Southeast Asia." / "Name a non-capital city in the Caribbean." | region tags on countries/capitals; a city's are its country's |
 | theme | "Name a river in Mesopotamia." / "Name a volcano." / "Name a landlocked country." / "Name a country with a coastline." | `src/data/themes.js`, plus `DERIVED_THEMES` in `promptBank.js` (coastal = not landlocked) |
 | ocean | "Name an island in the Pacific Ocean." | `oceans`, derived from each article's coordinates |
 | flag | "Name a country whose flag has green in it." / "Name the capital of a country whose flag has both black and red in it." | `flag`, hand-authored in `scripts/data-flags.mjs`; capitals inherit their country's |
-| size | "Name a country with a population under 1 million." / "Name a city with a population over 5 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
+| size | "Name a country with a population under 1 million." / "Name a non-capital city with a population over 5 million." / "Name a river longer than 3,000 km." | each entry's physical `size` |
 | letter | "Name a river with a T in it." | derived from the name |
 
 The first two rounds are always plain, in two different categories. After

@@ -38,7 +38,7 @@
   const NOUN = {
     country: 'country',
     capital: 'capital city',
-    city: 'city',
+    city: 'non-capital city', // every city prompt says so, not just the badge
     lake: 'lake',
     river: 'river',
     mountain: 'mountain',
@@ -48,13 +48,11 @@
   };
 
   // What a round "wants" when the answer was a real place from another
-  // category - the noun, except where the noun alone would mislead: a city
-  // round does not want Paris.
-  const WANTS = { city: "city that isn't a capital" };
-  const wantsPhrase = (category) => WANTS[category] || NOUN[category];
+  // category: "Paris is a capital city - this round wants a non-capital city."
+  const wantsPhrase = (category) => NOUN[category];
 
-  // The plain (unmodified) prompt, where "Name a {noun}." would mislead: the
-  // city cohort excludes national capitals, and the prompt has to say so.
+  // The plain (unmodified) prompt, where "Name a {noun}." reads stiffly: the
+  // first city prompt a player sees spells the rule out in full.
   const PLAIN_TEXT = { city: "Name a city that isn't a national capital." };
 
   const ARTICLE = (noun) => (/^[aeiou]/i.test(noun) ? 'an' : 'a');
@@ -299,7 +297,7 @@
     // "Name the capital of a country whose flag..." - so nobody answers with
     // the country. (A player did.)
     if (category === 'capital') return `Name the capital of a country whose flag ${has}.`;
-    if (category === 'city') return `Name a city in a country whose flag ${has}.`;
+    if (category === 'city') return `Name a non-capital city in a country whose flag ${has}.`;
     const noun = NOUN[category];
     return `Name ${ARTICLE(noun)} ${noun} whose flag ${has}.`;
   }
