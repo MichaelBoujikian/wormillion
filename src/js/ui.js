@@ -47,6 +47,7 @@
       dailyNote: $('daily-note'),
       dailyCountdown: $('daily-countdown'),
       dailyDoneRow: $('daily-done-row'),
+      titleCompare: $('title-compare'),
       dailyShareBtn: $('daily-share-btn'),
       dailyReviewBtn: $('daily-review-btn'),
       endlessBtn: $('endless-btn'),
@@ -69,6 +70,7 @@
       sumAvg: $('summary-avg'),
       sumStratum: $('summary-stratum'),
       sumBest: $('summary-best'),
+      sumCompare: $('summary-compare'),
       sumRounds: $('summary-rounds'),
       shareBtn: $('share-btn'),
       reviewBtn: $('review-btn'),
@@ -224,6 +226,8 @@
       els.dailyShareBtn.onclick = done ? () => copyShare(done, els.dailyShareBtn) : null;
       els.dailyReviewBtn.hidden = !(done && done.rounds);
       els.dailyReviewBtn.onclick = done ? () => reviewRecord(done, 'title') : null;
+      if (done) compareDaily(done, els.titleCompare);
+      else els.titleCompare.hidden = true;
 
       // The title re-reads itself when the key turns over at midnight - the
       // locked one unlocks, an unlocked one starts saying the new number -
@@ -240,6 +244,62 @@
       };
       tick();
       countdownTimer = setInterval(tick, 1000);
+    }
+
+    // ---- the daily comparison (3.17) -----------------------------------------
+    const COMPARE_FRESH_MS = 60 * 1000;
+
+    /** Print lines into a compare block; no lines hides it. */
+    function renderCompare(target, lines, pending) {
+      target.innerHTML = '';
+      target.classList.toggle('pending', Boolean(pending));
+      target.hidden = lines.length === 0;
+      lines.forEach((text, i) => {
+        const p = document.createElement('p');
+        if (i === 0 && !pending) p.className = 'compare-head';
+        p.textContent = text;
+        target.append(p);
+      });
+    }
+
+    /**
+     * Submit a finished daily (the answers only - the server scores them)
+     * and show how it compares with everyone else's. Quiet everywhere the
+     * API isn't: file://, the bundle, offline, a host with no functions.
+     * The cache lets the locked title show the last numbers at once and
+     * skip the network when they are under a minute old.
+     */
+    async function compareDaily(record, target) {
+      const base = W.compare.apiBase(root.location);
+      if (!base || !record || !record.dailyKey || !Array.isArray(record.rounds)) {
+        target.hidden = true;
+        return;
+      }
+      const cached = W.persistence.read().compare;
+      const fresh = cached && cached.day === record.dailyKey && Date.now() - Date.parse(cached.at) < COMPARE_FRESH_MS;
+      const show = (stats) => renderCompare(target, W.compare.lines(W.compare.summarize(stats, record), record));
+      if (cached && cached.day === record.dailyKey) show(cached.stats);
+      else renderCompare(target, ["Comparing with today's diggers…"], true);
+      if (fresh) return;
+      try {
+        // Submitting is idempotent (one per player per day), so it is safe
+        // to do it whenever there is no cached comparison yet.
+        if (!cached || cached.day !== record.dailyKey) {
+          const sent = await root.fetch(`${base}daily-submit`, {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify(W.compare.submission(record, W.persistence.playerId()))
+          });
+          if (!sent.ok) throw new Error(`submit ${sent.status}`);
+        }
+        const res = await root.fetch(`${base}daily-stats?day=${record.dailyKey}`);
+        if (!res.ok) throw new Error(`stats ${res.status}`);
+        const stats = await res.json();
+        W.persistence.saveComparison(record.dailyKey, stats);
+        show(stats);
+      } catch (error) {
+        if (!(cached && cached.day === record.dailyKey)) target.hidden = true;
+      }
     }
 
     // ---- share ------------------------------------------------------------
@@ -528,6 +588,8 @@
       els.sumMode.hidden = summary.mode !== 'daily';
       els.sumMode.textContent = modeText(summary.mode, summary.dailyKey);
       const record = W.persistence.toRecord(summary);
+      els.sumCompare.hidden = true;
+      if (summary.mode === 'daily') compareDaily(record, els.sumCompare);
       els.shareBtn.textContent = 'Share';
       els.shareBtn.onclick = () => copyShare(record, els.shareBtn);
       els.reviewBtn.onclick = () => showReview(run.review(), record, 'summary');

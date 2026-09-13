@@ -38,6 +38,7 @@ async function serveApi(req, res, url) {
       body = null;
     }
     result = body ? await api.submit(body) : { status: 400, body: { error: 'invalid body' } };
+    if (result.status >= 400) console.warn('daily-submit', result.status, result.body.error);
   } else {
     result = { status: 404, body: { error: 'no such function' } };
   }

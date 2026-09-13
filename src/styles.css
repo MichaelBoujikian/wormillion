@@ -825,6 +825,32 @@ body {
 .rv-line.rarest { color: var(--amber); }
 .review li.found .rv-line.rarest { color: #f2d27a; }
 
+/* ---------- the daily comparison ---------- */
+.compare {
+  display: grid;
+  gap: 3px;
+  padding: 8px 10px;
+  background: #170e08;
+  border: 2px solid var(--line-soft);
+}
+
+.compare p {
+  margin: 0;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--cream-dim);
+}
+
+.compare p.compare-head {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
+.compare.pending p { color: #8b7358; font-style: italic; }
+.mode-pick .compare { margin-top: 2px; }
+
 /* ---------- utility ---------- */
 .sr-only {
   position: absolute;

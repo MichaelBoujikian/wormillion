@@ -69,6 +69,8 @@
           <button class="btn primary" id="daily-btn" type="button">Today's dig</button>
           <p class="mode-note" id="daily-note">Same fifteen prompts for everyone today</p>
           <p class="mode-note countdown" id="daily-countdown" hidden>Next dig in 00:00:00</p>
+          <!-- how today's dig compares with everyone else's (Spec 3.17); only where the API is reachable -->
+          <div class="compare" id="title-compare" hidden></div>
           <div class="btn-row" id="daily-done-row" hidden>
             <button class="btn" id="daily-share-btn" type="button">Share</button>
             <button class="btn" id="daily-review-btn" type="button">Review</button>
@@ -127,6 +129,7 @@
         <p class="sub-score"><span id="summary-depth">0 deep</span><span id="summary-avg"></span></p>
         <p class="stratum-badge big" id="summary-stratum">Topsoil</p>
         <p class="new-best" id="summary-best" hidden>New best dive</p>
+        <div class="compare" id="summary-compare" hidden></div>
         <p class="list-title">Your finds, least to most obscure</p>
         <ol class="round-list ladder" id="summary-rounds"></ol>
         <div class="btn-row">
@@ -189,6 +192,7 @@
 <script src="js/run.js"></script>
 <script src="js/persistence.js"></script>
 <script src="js/share.js"></script>
+<script src="js/compare.js"></script>
 <script src="js/icons.js"></script>
 <script src="js/worldRender.js"></script>
 <script src="js/jackpot.js"></script>

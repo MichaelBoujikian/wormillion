@@ -16,6 +16,9 @@ export default async (req) => {
   }
   try {
     const result = await api().submit(body);
+    // A rejected submission is worth a line in the function log: it is
+    // either a bug in the replay or someone poking the endpoint.
+    if (result.status >= 400) console.warn('daily-submit', result.status, result.body.error, body.day, body.playerId);
     return json(req, result.status, result.body);
   } catch (error) {
     console.error('daily-submit', error);
