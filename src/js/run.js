@@ -186,6 +186,11 @@
       });
     }
 
+    /** This run, round by round, with the rarest possible answer to each prompt (3.16). */
+    function review() {
+      return reviewRun(bank, slots, state.results.map(asRound));
+    }
+
     /** Final numbers for the summary screen and history (Spec 5.2, 9). */
     function summary() {
       return {
@@ -227,8 +232,59 @@
       prompt,
       submit,
       timeout,
-      summary
+      summary,
+      review
     };
+  }
+
+  /** A round result (or a stored round) as the compact { a, r } | null shape. */
+  function asRound(result) {
+    if (!result) return null;
+    if ('a' in result) return result.r === undefined ? null : { a: result.a, r: result.r };
+    return result.status === 'accepted' ? { a: result.answer, r: result.rarity } : null;
+  }
+
+  /**
+   * The most obscure entry a prompt accepts - the reveal on the review screen.
+   * Rarity is against the whole category, like scoring (3.2); the first of a
+   * tie wins, which only matters when two entries share the cohort minimum.
+   */
+  function rarestFor(prompt) {
+    let best = null;
+    for (const id of new Set(prompt.lookup.values())) {
+      const entry = prompt.cohort.byId.get(id);
+      const r = rarity.rarityOf(entry.magnitude, prompt.cohort.stats);
+      if (!best || r > best.rarity) best = { name: entry.name, rarity: r, views: entry.magnitude };
+    }
+    return best;
+  }
+
+  /**
+   * Round-by-round review of a run: each prompt, what the player answered
+   * (null for a miss), and the rarest answer that would have been accepted.
+   * Works for the live run and for a stored daily, whose slots are
+   * regenerated from its key and whose rounds come from the record.
+   *
+   * @param {object} bank
+   * @param {object[]} slots      the run's slots, in round order
+   * @param {({a:string,r:number}|null)[]} rounds  the player's answers, in round order
+   */
+  function reviewRun(bank, slots, rounds) {
+    return slots.map((slot, i) => {
+      const prompt = bank.promptFor(slot);
+      const answer = asRound(rounds ? rounds[i] : null);
+      const rarest = rarestFor(prompt);
+      return {
+        round: i + 1,
+        prompt: prompt.text,
+        category: prompt.category,
+        label: prompt.label,
+        answer,
+        rarest,
+        // "You found the rarest" when the player's answer is as obscure as it gets.
+        foundRarest: Boolean(answer && rarest && answer.r >= rarest.rarity - 1e-9)
+      };
+    });
   }
 
   /**
@@ -243,5 +299,5 @@
       .map(({ result }) => result);
   }
 
-  return { MODES, createRun, rankByRarity };
+  return { MODES, createRun, rankByRarity, rarestFor, reviewRun };
 });

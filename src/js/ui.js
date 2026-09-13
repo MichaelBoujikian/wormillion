@@ -39,13 +39,16 @@
         title: $('screen-title'),
         play: $('screen-play'),
         summary: $('screen-summary'),
-        stats: $('screen-stats')
+        stats: $('screen-stats'),
+        review: $('screen-review')
       },
       bankCount: $('bank-count'),
       dailyBtn: $('daily-btn'),
       dailyNote: $('daily-note'),
       dailyCountdown: $('daily-countdown'),
+      dailyDoneRow: $('daily-done-row'),
       dailyShareBtn: $('daily-share-btn'),
+      dailyReviewBtn: $('daily-review-btn'),
       endlessBtn: $('endless-btn'),
       statsBtn: $('stats-btn'),
       round: $('round-label'),
@@ -68,6 +71,7 @@
       sumBest: $('summary-best'),
       sumRounds: $('summary-rounds'),
       shareBtn: $('share-btn'),
+      reviewBtn: $('review-btn'),
       againBtn: $('again-btn'),
       sumStatsBtn: $('summary-stats-btn'),
       sumHomeBtn: $('summary-home-btn'),
@@ -84,6 +88,10 @@
       statDeepest: $('stat-deepest'),
       statList: $('stat-list'),
       statsBack: $('stats-back'),
+      reviewTitle: $('review-title'),
+      reviewSub: $('review-sub'),
+      reviewList: $('review-list'),
+      reviewBack: $('review-back'),
       announcer: $('announcer')
     };
 
@@ -212,8 +220,10 @@
       } else {
         els.dailyNote.textContent = 'Same fifteen prompts for everyone today';
       }
-      els.dailyShareBtn.hidden = !done;
+      els.dailyDoneRow.hidden = !done;
       els.dailyShareBtn.onclick = done ? () => copyShare(done, els.dailyShareBtn) : null;
+      els.dailyReviewBtn.hidden = !(done && done.rounds);
+      els.dailyReviewBtn.onclick = done ? () => reviewRecord(done, 'title') : null;
 
       // The countdown ticks only while the locked title is on screen; at
       // midnight the key changes and a refresh unlocks the button.
@@ -504,6 +514,7 @@
       const record = W.persistence.toRecord(summary);
       els.shareBtn.textContent = 'Share';
       els.shareBtn.onclick = () => copyShare(record, els.shareBtn);
+      els.reviewBtn.onclick = () => showReview(run.review(), record, 'summary');
       // A daily can't be dug twice, so its "again" is an endless dig.
       els.againBtn.textContent = summary.mode === 'daily' ? 'Keep digging — endless' : 'Dive again';
 
@@ -631,10 +642,82 @@
         right.className = 'r-points';
         right.textContent = fmt(r.score);
         li.append(left, mid, right);
+        // A daily can be reviewed any time: its prompts come back from its key.
+        if (r.mode === 'daily' && r.rounds) {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'r-review';
+          btn.textContent = 'Review';
+          btn.setAttribute('aria-label', `Review dig #${W.seed.dailyNumber(r.dailyKey)}`);
+          btn.addEventListener('click', () => reviewRecord(r, 'stats'));
+          li.append(btn);
+        }
         els.statList.append(li);
       }
       show('stats');
       els.statsBack.focus();
+    }
+
+    // ---- review -----------------------------------------------------------
+    let reviewReturn = 'title';
+
+    /** A stored daily: regenerate its prompts from the key and line up its rounds. */
+    function reviewRecord(record, returnTo) {
+      const slots = W.run.createRun(bank, { mode: 'daily', dailyKey: record.dailyKey }).state.slots;
+      showReview(W.run.reviewRun(bank, slots, record.rounds), record, returnTo);
+    }
+
+    /**
+     * Every prompt in round order: what was answered (and how obscure it
+     * was) and the rarest answer the prompt would have accepted - the reveal
+     * a -dle gives after the day's puzzle.
+     */
+    function showReview(rows, record, returnTo) {
+      reviewReturn = returnTo || 'title';
+      const daily = record.mode === 'daily' && record.dailyKey;
+      els.reviewTitle.textContent = daily ? `Dig #${W.seed.dailyNumber(record.dailyKey)}` : 'This dive';
+      els.reviewSub.textContent = daily
+        ? `${dailyDate(record.dailyKey)} · ${fmt(record.score)} pts · ${record.deepestStratum}`
+        : `Endless · ${fmt(record.score)} pts · ${record.deepestStratum}`;
+
+      els.reviewList.innerHTML = '';
+      const line = (className, label, text) => {
+        const el = document.createElement('span');
+        el.className = `rv-line ${className}`;
+        const b = document.createElement('b');
+        b.textContent = label;
+        el.append(b, text);
+        return el;
+      };
+      for (const row of rows) {
+        const li = document.createElement('li');
+        if (row.foundRarest) li.className = 'found';
+        const n = document.createElement('span');
+        n.className = 'rv-n';
+        n.textContent = String(row.round);
+        const body = document.createElement('span');
+        body.className = 'rv-body';
+        const prompt = document.createElement('span');
+        prompt.className = 'rv-prompt';
+        prompt.textContent = row.prompt;
+        body.append(prompt);
+        body.append(
+          row.answer
+            ? line('', 'You', `${row.answer.a} · ${Math.round(row.answer.r * 100)}%`)
+            : line('missed', 'You', 'missed this one')
+        );
+        if (row.rarest) {
+          body.append(
+            row.foundRarest
+              ? line('rarest', '★', 'You found the rarest answer there was')
+              : line('rarest', 'Rarest', `${row.rarest.name} · ${Math.round(row.rarest.rarity * 100)}% · ${fmtViews(row.rarest.views)} views/mo`)
+          );
+        }
+        li.append(n, body);
+        els.reviewList.append(li);
+      }
+      show('review');
+      els.reviewBack.focus();
     }
 
     function startRun(mode) {
@@ -661,6 +744,10 @@
     els.statsBtn.addEventListener('click', showStats);
     els.sumStatsBtn.addEventListener('click', showStats);
     els.sumHomeBtn.addEventListener('click', () => show('title'));
+    els.reviewBack.addEventListener('click', () => {
+      if (reviewReturn === 'stats') showStats();
+      else show(reviewReturn);
+    });
     els.statsBack.addEventListener('click', () => show(run && !run.finished ? 'play' : 'title'));
     els.form.addEventListener('submit', handleSubmit);
     // Some mobile keyboards fire Enter without a form submit; catch it directly.

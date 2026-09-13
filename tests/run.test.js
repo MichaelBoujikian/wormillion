@@ -3,6 +3,7 @@ const assert = require('node:assert');
 const promptBank = require('../src/js/promptBank.js');
 const runner = require('../src/js/run.js');
 const rarity = require('../src/js/rarity.js');
+const persistence = require('../src/js/persistence.js');
 
 // A tiny but real fixture bank: every category present, six European countries
 // so region scoping is exercisable (Spec 6 requires >= 6 to scope a prompt).
@@ -446,4 +447,54 @@ test('a daily ignores an injected rng - the date is the only seed', () => {
 test('a daily with no key is today', () => {
   const seed = require('../src/js/seed.js');
   assert.strictEqual(runner.createRun(bank, { mode: 'daily' }).dailyKey, seed.dailyKey());
+});
+
+// ---- review: the rarest possible answer per prompt (Spec 3.16) ----------------
+
+test('rarestFor names the most obscure entry a prompt accepts, with its rarity and views', () => {
+  const plain = bank.promptFor({ category: 'river' });
+  assert.deepStrictEqual(runner.rarestFor(plain), { name: 'Cam', rarity: 1, views: 64 });
+  const mountains = bank.promptFor({ category: 'mountain' });
+  assert.strictEqual(runner.rarestFor(mountains).name, 'Box Hill'); // the minor peak, merged into the cohort
+});
+
+test('reviewRun lines up each prompt with the answer given and the rarest possible', () => {
+  const slots = [{ category: 'river' }, { category: 'lake' }, { category: 'mountain' }];
+  const rounds = [{ a: 'Nile', r: 0 }, null, { a: 'Box Hill', r: 1 }];
+  const review = runner.reviewRun(bank, slots, rounds);
+  assert.strictEqual(review.length, 3);
+  assert.deepStrictEqual(
+    review.map((r) => [r.round, r.prompt, r.answer && r.answer.a, r.rarest.name, r.foundRarest]),
+    [
+      [1, 'Name a river.', 'Nile', 'Cam', false],
+      [2, 'Name a lake.', null, 'Loch Ness', false],
+      [3, 'Name a mountain.', 'Box Hill', 'Box Hill', true]
+    ]
+  );
+  assert.strictEqual(review[1].label, 'Lake');
+});
+
+test('run.review() reviews the live run from its results', () => {
+  const run = runner.createRun(bank, { rng: seeded(7), rounds: 2 });
+  const first = answer(run);
+  run.timeout();
+  const review = run.review();
+  assert.strictEqual(review.length, 2);
+  assert.strictEqual(review[0].prompt, first.prompt);
+  assert.deepStrictEqual(review[0].answer, { a: first.answer, r: first.rarity });
+  assert.strictEqual(review[1].answer, null);
+  assert.ok(review[1].rarest.name);
+});
+
+test('a stored daily reviews from its key: the same prompts come back', () => {
+  const run = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-13' });
+  playOut(run); // the tiny fixture answers what it can and times out the rest
+  const results = run.summary().rounds;
+  const record = persistence.toRecord(run.summary());
+  const again = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-13' });
+  const review = runner.reviewRun(bank, again.state.slots, record.rounds);
+  assert.strictEqual(review.length, 15);
+  assert.deepStrictEqual(review.map((r) => r.prompt), results.map((r) => r.prompt));
+  assert.deepStrictEqual(review.map((r) => r.answer && r.answer.a), results.map((r) => r.answer));
+  assert.ok(results.some((r) => r.status === 'accepted') && results.some((r) => r.status === 'timeout'));
 });

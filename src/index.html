@@ -69,7 +69,10 @@
           <button class="btn primary" id="daily-btn" type="button">Today's dig</button>
           <p class="mode-note" id="daily-note">Same fifteen prompts for everyone today</p>
           <p class="mode-note countdown" id="daily-countdown" hidden>Next dig in 00:00:00</p>
-          <button class="btn" id="daily-share-btn" type="button" hidden>Share today's dig</button>
+          <div class="btn-row" id="daily-done-row" hidden>
+            <button class="btn" id="daily-share-btn" type="button">Share</button>
+            <button class="btn" id="daily-review-btn" type="button">Review</button>
+          </div>
           <button class="btn" id="endless-btn" type="button">Endless</button>
           <p class="mode-note">A fresh draw, as often as you like</p>
         </div>
@@ -126,7 +129,10 @@
         <p class="new-best" id="summary-best" hidden>New best dive</p>
         <p class="list-title">Your finds, least to most obscure</p>
         <ol class="round-list ladder" id="summary-rounds"></ol>
-        <button class="btn" id="share-btn" type="button">Share</button>
+        <div class="btn-row">
+          <button class="btn" id="share-btn" type="button">Share</button>
+          <button class="btn" id="review-btn" type="button">Review</button>
+        </div>
         <button class="btn primary" id="again-btn" type="button">Dive again</button>
         <button class="btn ghost" id="summary-stats-btn" type="button">Past dives</button>
         <button class="btn ghost" id="summary-home-btn" type="button">Home</button>
@@ -155,6 +161,15 @@
         </dl>
         <ol class="round-list history" id="stat-list"></ol>
         <button class="btn ghost" id="stats-back" type="button">Back</button>
+      </div>
+
+      <!-- review: every prompt, what you answered, and the rarest answer there was (Spec 3.16) -->
+      <div class="screen" id="screen-review" hidden>
+        <h2 class="screen-title" id="review-title">Review</h2>
+        <p class="mode-chip summary-mode" id="review-sub"></p>
+        <p class="list-title">Round by round · the rarest answer each prompt would have taken</p>
+        <ol class="review" id="review-list"></ol>
+        <button class="btn ghost" id="review-back" type="button">Back</button>
       </div>
 
     </section>
