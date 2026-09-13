@@ -650,7 +650,11 @@
       } else if (slot.theme) {
         const ids = new Set((themeSets.get(slot.category) || new Map()).get(slot.theme) || []);
         const custom = promptTextFor[slot.theme];
-        text = custom || `Name ${a} ${noun} in ${slot.theme}.`;
+        // "Name a sea or ocean in the Americas" invites "Pacific", which the
+        // theme doesn't hold: a sea theme says "sea" unless an ocean is in it.
+        const themeNoun =
+          slot.category === 'sea_ocean' && ![...ids].some((id) => / ocean$/i.test(cohort.byId.get(id).name)) ? 'sea' : noun;
+        text = custom || `Name ${ARTICLE(themeNoun)} ${themeNoun} in ${slot.theme}.`;
         scope = `theme:${slot.theme}`;
         lookup = subsetLookup(cohort, scope, (entry) => ids.has(entry.id));
       } else if (slot.ocean) {

@@ -729,3 +729,14 @@ test('a letter-rule miss says which letter is missing', () => {
   assert.strictEqual(letterMissText('Nile', { kind: 'contains', letter: 't' }), 'Nile has no T in it');
   assert.strictEqual(letterMissText('Everest', { kind: 'ends', letter: 'a' }), "Everest doesn't end in A");
 });
+
+test('a sea theme says "sea" unless an ocean is actually in it (shipped bank)', () => {
+  const shipped = loadShippedBank();
+  const text = (theme) => shipped.promptFor({ category: 'sea_ocean', theme }).text;
+  assert.strictEqual(text('the Americas'), 'Name a sea in the Americas.');
+  assert.strictEqual(text('Europe'), 'Name a sea in Europe.');
+  assert.strictEqual(text('the Antarctic'), 'Name a sea or ocean in the Antarctic.'); // the Southern Ocean is a member
+  // The plain and ocean-scoped prompts are unchanged.
+  assert.strictEqual(shipped.promptFor({ category: 'sea_ocean' }).text, 'Name a sea or ocean.');
+  assert.strictEqual(shipped.promptFor({ category: 'sea_ocean', ocean: 'Pacific' }).text, 'Name a sea in the Pacific Ocean.');
+});
