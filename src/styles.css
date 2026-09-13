@@ -333,6 +333,9 @@ body {
 
 .screen { display: flex; flex-direction: column; gap: 12px; }
 .screen[hidden] { display: none; }
+/* An author `display` rule (a grid row, a flex list) would otherwise beat
+   the UA stylesheet's [hidden]; the attribute must always win. */
+[hidden] { display: none !important; }
 
 .screen-title {
   margin: 0;
