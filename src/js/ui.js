@@ -44,6 +44,7 @@
       bankCount: $('bank-count'),
       dailyBtn: $('daily-btn'),
       dailyNote: $('daily-note'),
+      dailyShareBtn: $('daily-share-btn'),
       endlessBtn: $('endless-btn'),
       statsBtn: $('stats-btn'),
       round: $('round-label'),
@@ -64,6 +65,7 @@
       sumStratum: $('summary-stratum'),
       sumBest: $('summary-best'),
       sumRounds: $('summary-rounds'),
+      shareBtn: $('share-btn'),
       againBtn: $('again-btn'),
       sumStatsBtn: $('summary-stats-btn'),
       sumHomeBtn: $('summary-home-btn'),
@@ -183,6 +185,57 @@
       els.dailyNote.textContent = done
         ? `You dug ${fmt(done.score)} · ${done.deepestStratum} today — back tomorrow`
         : 'Same fifteen prompts for everyone today';
+      els.dailyShareBtn.hidden = !done;
+      els.dailyShareBtn.onclick = done ? () => copyShare(done, els.dailyShareBtn) : null;
+    }
+
+    // ---- share ------------------------------------------------------------
+    /** The address a shared link points at: this host, or the canonical one off the web. */
+    function shareUrl() {
+      const loc = root.location;
+      if (loc && /^https?:$/.test(loc.protocol)) return loc.origin + loc.pathname;
+      return W.share.CANONICAL_URL;
+    }
+
+    /**
+     * Put a record's share text on the clipboard and say so on the button.
+     * Falls back to a selected textarea + execCommand where the async
+     * clipboard is unavailable (file://, older mobile browsers), and to
+     * showing the text where even that fails.
+     */
+    function copyShare(record, button) {
+      const text = W.share.shareText(record, { url: shareUrl() });
+      const label = button.textContent;
+      const said = (what) => {
+        button.textContent = what;
+        setTimeout(() => {
+          button.textContent = label;
+        }, 2000);
+      };
+      const fallback = () => {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.top = '-1000px';
+        document.body.append(ta);
+        ta.select();
+        let ok = false;
+        try {
+          ok = document.execCommand('copy');
+        } catch {
+          ok = false;
+        }
+        ta.remove();
+        if (ok) said('Copied!');
+        else root.prompt('Copy your result:', text);
+      };
+      if (root.navigator && root.navigator.clipboard && root.navigator.clipboard.writeText) {
+        root.navigator.clipboard.writeText(text).then(() => said('Copied!'), fallback);
+      } else {
+        fallback();
+      }
+      announce('Result copied to clipboard');
     }
 
     function showJackpot() {
@@ -404,6 +457,9 @@
 
       els.sumMode.hidden = summary.mode !== 'daily';
       els.sumMode.textContent = modeText(summary.mode, summary.dailyKey);
+      const record = W.persistence.toRecord(summary);
+      els.shareBtn.textContent = 'Share';
+      els.shareBtn.onclick = () => copyShare(record, els.shareBtn);
       // A daily can't be dug twice, so its "again" is an endless dig.
       els.againBtn.textContent = summary.mode === 'daily' ? 'Keep digging — endless' : 'Dive again';
 
