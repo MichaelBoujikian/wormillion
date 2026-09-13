@@ -234,6 +234,50 @@ function loadShippedBank() {
   return promptBank.createBank(scope.WORMILLION_BANK, scope.WORMILLION_THEMES, scope.WORMILLION_THEME_PROMPTS);
 }
 
+// Dig #1, pinned. A daily is the DRAW, not the bank: reordering categories,
+// regions or themes - or touching drawSlots - changes what every past day
+// asked, and a player's stored review would no longer match their answers.
+// If this fails on purpose, that is the cost; update the pin knowingly.
+test('dig #1 (2026-09-12) still asks the fifteen prompts it shipped with', () => {
+  const runner = require('../src/js/run.js');
+  const shipped = loadShippedBank();
+  const slots = runner.createRun(shipped, { mode: 'daily', dailyKey: '2026-09-12' }).state.slots;
+  assert.deepStrictEqual(
+    slots.map((slot) => shipped.promptFor(slot).text),
+    [
+      'Name a desert.',
+      'Name a capital city.',
+      'Name a lake with a short name (5 letters or fewer).',
+      'Name a mountain with a double letter in its name.',
+      'Name a river.',
+      'Name a landlocked country.',
+      "Name the largest city of a country that isn't its capital.",
+      'Name a sea or ocean in the Antarctic.',
+      'Name a country with a long name (12+ letters).',
+      'Name a sea in the Pacific Ocean.',
+      'Name an island bigger than 100,000 km².',
+      'Name a lake smaller than 100 km².',
+      'Name an island with a short name (5 letters or fewer).',
+      'Name a mountain in the Alps.',
+      'Name a non-capital city in a country whose flag has black in it.'
+    ]
+  );
+});
+
+test('on a shipped length prompt the reveal is a spelling the prompt accepts', () => {
+  const runner = require('../src/js/run.js');
+  const matching = require('../src/js/matching.js');
+  const shipped = loadShippedBank();
+  for (const category of shipped.categories) {
+    for (const kind of ['short', 'long']) {
+      const prompt = shipped.promptFor({ category, letter: { kind } });
+      if (prompt.lookup.size === 0) continue;
+      const rarest = runner.rarestFor(prompt);
+      assert.strictEqual(prompt.judgeTyped(matching.normalize(rarest.name)), null, `${category} ${kind}: ${rarest.name}`);
+    }
+  }
+});
+
 test('every kind of modifier actually gets drawn from the shipped bank', () => {
   const shipped = loadShippedBank();
   const seen = new Set();

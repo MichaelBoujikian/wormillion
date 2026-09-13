@@ -486,6 +486,33 @@ test('run.review() reviews the live run from its results', () => {
   assert.ok(review[1].rarest.name);
 });
 
+test('foundRarest is judged at the four places a record stores', () => {
+  const slots = [{ category: 'river' }];
+  const exact = runner.rarestFor(bank.promptFor(slots[0])).rarity; // 1 for Cam
+  // A stored rarity rounded down by up to half a step still counts as found.
+  const stored = Math.round((exact - 0.00004) * 10000) / 10000;
+  assert.strictEqual(runner.reviewRun(bank, slots, [{ a: 'Cam', r: stored }])[0].foundRarest, true);
+  assert.strictEqual(runner.reviewRun(bank, slots, [{ a: 'Nile', r: 0.0004 }])[0].foundRarest, false);
+});
+
+test('on a length prompt the reveal is a spelling the prompt would accept', () => {
+  // "Lake Superior" is only in the short-name lookup through "Superior"... which is 8. Use the fixture:
+  // Loch Ness (8) has no short spelling; Lake Victoria answers "Victoria" (8). So build the case directly:
+  const prompt = bank.promptFor({ category: 'lake', letter: { kind: 'short' } });
+  if (prompt.lookup.size === 0) return; // the tiny fixture may have no short lake; the shipped-bank test below covers it
+  const rarest = runner.rarestFor(prompt);
+  assert.strictEqual(prompt.judgeTyped(require('../src/js/matching.js').normalize(rarest.name)), null);
+});
+
+test('drawId fingerprints the prompt texts of a slot list', () => {
+  const a = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-13' }).state.slots;
+  const b = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-13' }).state.slots;
+  const c = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-14' }).state.slots;
+  assert.match(runner.drawId(bank, a), /^[0-9a-f]{8}$/);
+  assert.strictEqual(runner.drawId(bank, a), runner.drawId(bank, b));
+  assert.notStrictEqual(runner.drawId(bank, a), runner.drawId(bank, c));
+});
+
 test('a stored daily reviews from its key: the same prompts come back', () => {
   const run = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-13' });
   playOut(run); // the tiny fixture answers what it can and times out the rest
@@ -493,6 +520,7 @@ test('a stored daily reviews from its key: the same prompts come back', () => {
   const record = persistence.toRecord(run.summary());
   const again = runner.createRun(bank, { mode: 'daily', dailyKey: '2026-09-13' });
   const review = runner.reviewRun(bank, again.state.slots, record.rounds);
+  assert.strictEqual(record.draw, runner.drawId(bank, again.state.slots)); // the fingerprint a review checks
   assert.strictEqual(review.length, 15);
   assert.deepStrictEqual(review.map((r) => r.prompt), results.map((r) => r.prompt));
   assert.deepStrictEqual(review.map((r) => r.answer && r.answer.a), results.map((r) => r.answer));

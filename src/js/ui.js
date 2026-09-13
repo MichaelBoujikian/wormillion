@@ -661,10 +661,19 @@
     // ---- review -----------------------------------------------------------
     let reviewReturn = 'title';
 
-    /** A stored daily: regenerate its prompts from the key and line up its rounds. */
+    /**
+     * A stored daily: regenerate its prompts from the key and line up its
+     * rounds. If the draw no longer matches the record's fingerprint (the
+     * bank was reordered, drawSlots changed) the answers are still shown,
+     * but not against prompts they weren't given for.
+     */
     function reviewRecord(record, returnTo) {
       const slots = W.run.createRun(bank, { mode: 'daily', dailyKey: record.dailyKey }).state.slots;
-      showReview(W.run.reviewRun(bank, slots, record.rounds), record, returnTo);
+      let rows = W.run.reviewRun(bank, slots, record.rounds);
+      if (record.draw && record.draw !== W.run.drawId(bank, slots)) {
+        rows = rows.map((row) => ({ ...row, prompt: null, rarest: null, foundRarest: false }));
+      }
+      showReview(rows, record, returnTo);
     }
 
     /**
@@ -698,8 +707,8 @@
         const body = document.createElement('span');
         body.className = 'rv-body';
         const prompt = document.createElement('span');
-        prompt.className = 'rv-prompt';
-        prompt.textContent = row.prompt;
+        prompt.className = row.prompt === null ? 'rv-prompt changed' : 'rv-prompt';
+        prompt.textContent = row.prompt === null ? 'The prompts have changed since this dig' : row.prompt;
         body.append(prompt);
         body.append(
           row.answer

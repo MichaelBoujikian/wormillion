@@ -239,9 +239,35 @@
 
   /** A round result (or a stored round) as the compact { a, r } | null shape. */
   function asRound(result) {
-    if (!result) return null;
-    if ('a' in result) return result.r === undefined ? null : { a: result.a, r: result.r };
+    if (!result || typeof result !== 'object') return null;
+    if ('a' in result) return typeof result.r === 'number' ? { a: result.a, r: result.r } : null;
     return result.status === 'accepted' ? { a: result.answer, r: result.rarity } : null;
+  }
+
+  // Stored rarities are rounded to four places (persistence.toRecord), so
+  // "as obscure as the rarest" is judged at that resolution on both sides.
+  const at4 = (r) => Math.round(r * 10000);
+
+  /**
+   * The spelling of an entry to show as an answer to this prompt. On a
+   * length prompt the typed spelling is what's judged (3.1a), so "Monte
+   * Desert" is in the lookup only because "Monte" fits - and "Monte" is
+   * what the reveal must say, since "Monte Desert" would be rejected.
+   */
+  function spellingFor(entry, prompt) {
+    if (!prompt.judgeTyped) return entry.name;
+    const fits = (text) => text && !prompt.judgeTyped(matching.normalize(text));
+    for (const spelling of [entry.name, ...(entry.aliases || [])]) {
+      if (fits(spelling)) return spelling;
+      // ...or the same spelling with its filler dropped, which the matcher
+      // also accepts: "Faber" for Mount Faber, in the row's own casing.
+      const bare = spelling
+        .split(/\s+/)
+        .filter((word) => !matching.FILLER.has(matching.normalize(word)))
+        .join(' ');
+      if (bare !== spelling && fits(bare)) return bare;
+    }
+    return entry.name;
   }
 
   /**
@@ -254,9 +280,14 @@
     for (const id of new Set(prompt.lookup.values())) {
       const entry = prompt.cohort.byId.get(id);
       const r = rarity.rarityOf(entry.magnitude, prompt.cohort.stats);
-      if (!best || r > best.rarity) best = { name: entry.name, rarity: r, views: entry.magnitude };
+      if (!best || r > best.rarity) best = { name: spellingFor(entry, prompt), rarity: r, views: entry.magnitude };
     }
     return best;
+  }
+
+  /** The fingerprint of a slot list's prompt texts - what a daily's record stores as `draw`. */
+  function drawId(bank, slots) {
+    return seed.fingerprint(slots.map((slot) => bank.promptFor(slot).text));
   }
 
   /**
@@ -282,7 +313,7 @@
         answer,
         rarest,
         // "You found the rarest" when the player's answer is as obscure as it gets.
-        foundRarest: Boolean(answer && rarest && answer.r >= rarest.rarity - 1e-9)
+        foundRarest: Boolean(answer && rarest && at4(answer.r) >= at4(rarest.rarity))
       };
     });
   }
@@ -299,5 +330,5 @@
       .map(({ result }) => result);
   }
 
-  return { MODES, createRun, rankByRarity, rarestFor, reviewRun };
+  return { MODES, createRun, rankByRarity, rarestFor, reviewRun, drawId };
 });

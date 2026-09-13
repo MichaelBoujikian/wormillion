@@ -105,6 +105,16 @@
     return dayIndex(to) - dayIndex(from);
   }
 
+  /**
+   * A short id for a list of strings - eight hex digits of their hash. A
+   * daily's record keeps the fingerprint of its fifteen prompt texts so a
+   * later review can tell whether regenerating the draw still gives the
+   * same prompts (3.16).
+   */
+  function fingerprint(strings) {
+    return hash(strings.join('\n')).lo.toString(16).padStart(8, '0');
+  }
+
   /** Milliseconds until the next local midnight, when the daily turns over. */
   function msUntilNextDaily(now = new Date()) {
     const next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0, 0);
@@ -122,6 +132,7 @@
     dailyNumber,
     keyOffset,
     daysBetween,
+    fingerprint,
     msUntilNextDaily
   };
 });

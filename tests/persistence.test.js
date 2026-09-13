@@ -1,6 +1,7 @@
 const test = require('node:test');
 const assert = require('node:assert');
 const persistence = require('../src/js/persistence.js');
+const seed = require('../src/js/seed.js');
 
 /** Minimal localStorage stand-in. */
 function fakeStore(initial) {
@@ -144,11 +145,15 @@ const daily = (key, score, rounds) => ({
 const acc = (answer, rarity) => ({ status: 'accepted', answer, rarity });
 const miss = () => ({ status: 'timeout' });
 
-test('a record keeps each round as answer + rarity, a miss as null, prompts not at all', () => {
-  const record = persistence.toRecord(daily('2026-09-12', 900, [acc('Lake Huron', 0.29123456), miss(), acc('Aldan', 1)]));
+test('a record keeps each round as answer + rarity, a miss as null, prompts only as a fingerprint', () => {
+  const rounds = [{ ...acc('Lake Huron', 0.29123456), prompt: 'Name a lake.' }, { ...miss(), prompt: 'Name a river.' }, { ...acc('Aldan', 1), prompt: 'Name a river in Siberia.' }];
+  const record = persistence.toRecord(daily('2026-09-12', 900, rounds));
   assert.deepStrictEqual(record.rounds, [{ a: 'Lake Huron', r: 0.2912 }, null, { a: 'Aldan', r: 1 }]);
   assert.strictEqual('prompt' in record, false);
+  assert.strictEqual(record.draw, seed.fingerprint(['Name a lake.', 'Name a river.', 'Name a river in Siberia.']));
   assert.strictEqual('rounds' in persistence.toRecord(summary(1, 1, 'Topsoil')), false);
+  // an endless run stores rounds but no draw: its prompts can't be regenerated anyway
+  assert.strictEqual('draw' in persistence.toRecord({ ...summary(1, 1, 'Topsoil'), rounds }), false);
 });
 
 test('averageRarity is the mean over rounds with a miss as 0, or null without round data', () => {

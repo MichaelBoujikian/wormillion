@@ -17,7 +17,7 @@
   const KEY = 'wormillion:v1';
   // The cap is on ENDLESS runs. A daily is kept for good: streaks, the daily
   // stats and reviewing a past day all need every daily ever played, and a
-  // year of them is ~70 KB.
+  // year of them is ~200 KB against a 5 MB quota.
   const HISTORY_CAP = 50;
   const isDaily = (r) => r.mode === 'daily' && typeof r.dailyKey === 'string';
 
@@ -89,6 +89,10 @@
       record.rounds = summary.rounds.map((r) =>
         r && r.status === 'accepted' ? { a: r.answer, r: Math.round(r.rarity * 10000) / 10000 } : null
       );
+      // A daily's prompts are regenerated from its key for a review; the
+      // fingerprint of their texts lets the review notice if the draw has
+      // changed since (a reorder of the bank, a change to drawSlots).
+      if (record.mode === 'daily') record.draw = seed.fingerprint(summary.rounds.map((r) => (r && r.prompt) || ''));
     }
     return record;
   }
