@@ -79,7 +79,8 @@
     const base = opts.url || CANONICAL_URL;
     const link = daily ? `${base}${base.includes('?') ? '&' : '?'}daily` : base;
 
-    return [header, grid(record.rounds), stats.join(' · '), link].join('\n');
+    // A record from before rounds were stored has no grid line; leave no gap.
+    return [header, grid(record.rounds), stats.join(' · '), link].filter(Boolean).join('\n');
   }
 
   return { CANONICAL_URL, MISS, DUD, JACKPOT, PERFECT, square, grid, averageRarity, shareText };

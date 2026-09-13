@@ -54,7 +54,7 @@ test('a live host shares its own address; endless shares without a number or ?da
   assert.strictEqual(endless.split('\n')[3], 'https://x.test/');
 });
 
-test('a record without round data shares without a grid line average', () => {
+test('a record without round data shares without a grid line or an average - and no blank line', () => {
   const text = share.shareText({ mode: 'daily', dailyKey: '2026-09-12', score: 10, finalDepth: 1, deepestStratum: 'Topsoil' });
-  assert.deepStrictEqual(text.split('\n'), ['Wormillion #1 · 10 pts · Topsoil', '', '1 deep', 'https://michaelboujikian.github.io/wormillion/?daily']);
+  assert.deepStrictEqual(text.split('\n'), ['Wormillion #1 · 10 pts · Topsoil', '1 deep', 'https://michaelboujikian.github.io/wormillion/?daily']);
 });

@@ -15,7 +15,11 @@ gotchas that cost time. Claude Code's project memory is keyed to this folder
 obscurity on the summary, streaks, a midnight countdown, a "Daily digs" stats
 block with a stratum spread, and a review screen with the rarest possible
 answer per prompt (`run.reviewRun`, `run.rarestFor`). Records store `rounds`;
-dailies are never trimmed from history. Tests 143; bundle 449 KB, 17 scripts.
+dailies are never trimmed from history. A sub-agent review pass found nine
+things; fixed in `55aab91` (a dead Share button — `[hidden]` now always wins),
+`9221b96` (★ at 4 dp, accepted spellings in the reveal, a `draw` fingerprint
+on daily records + dig #1's prompts pinned in `tests/prompts.test.js`) and the
+polish commit after it. Tests 148; bundle ~450 KB, 17 scripts.
 
 **Before that: daily and endless modes** (`ad0dd86`…`998080e`, SPEC 3.15).
 "Today's dig" = the 15 slots drawn from a date-seeded rng (`src/js/seed.js`),

@@ -225,22 +225,21 @@
       els.dailyReviewBtn.hidden = !(done && done.rounds);
       els.dailyReviewBtn.onclick = done ? () => reviewRecord(done, 'title') : null;
 
-      // The countdown ticks only while the locked title is on screen; at
-      // midnight the key changes and a refresh unlocks the button.
+      // The title re-reads itself when the key turns over at midnight - the
+      // locked one unlocks, an unlocked one starts saying the new number -
+      // and the countdown ticks while it is locked. The timer runs only
+      // while the title is on screen (show() clears it).
       clearInterval(countdownTimer);
-      countdownTimer = null;
       els.dailyCountdown.hidden = !done;
-      if (done) {
-        const tick = () => {
-          if (W.seed.dailyKey() !== today) {
-            refreshTitle();
-            return;
-          }
-          els.dailyCountdown.textContent = `Next dig in ${countdownText()}`;
-        };
-        tick();
-        countdownTimer = setInterval(tick, 1000);
-      }
+      const tick = () => {
+        if (W.seed.dailyKey() !== today) {
+          refreshTitle();
+          return;
+        }
+        if (done) els.dailyCountdown.textContent = `Next dig in ${countdownText()}`;
+      };
+      tick();
+      countdownTimer = setInterval(tick, 1000);
     }
 
     // ---- share ------------------------------------------------------------
@@ -259,11 +258,15 @@
      */
     function copyShare(record, button) {
       const text = W.share.shareText(record, { url: shareUrl() });
-      const label = button.textContent;
+      // The resting label is remembered once, so a second click while the
+      // button reads "Copied!" doesn't make "Copied!" the label for good.
+      if (!button.dataset.label) button.dataset.label = button.textContent;
       const said = (what) => {
+        clearTimeout(button._labelTimer);
         button.textContent = what;
-        setTimeout(() => {
-          button.textContent = label;
+        announce('Result copied to clipboard');
+        button._labelTimer = setTimeout(() => {
+          button.textContent = button.dataset.label;
         }, 2000);
       };
       const fallback = () => {
@@ -281,15 +284,23 @@
           ok = false;
         }
         ta.remove();
-        if (ok) said('Copied!');
-        else root.prompt('Copy your result:', text);
+        if (ok) {
+          said('Copied!');
+          return;
+        }
+        // Last resort: show the text to copy by hand. Some webviews have no
+        // prompt() at all; then there is nothing more to do.
+        try {
+          root.prompt('Copy your result:', text);
+        } catch {
+          announce('Could not copy the result');
+        }
       };
       if (root.navigator && root.navigator.clipboard && root.navigator.clipboard.writeText) {
         root.navigator.clipboard.writeText(text).then(() => said('Copied!'), fallback);
       } else {
         fallback();
       }
-      announce('Result copied to clipboard');
     }
 
     function showJackpot() {
@@ -637,13 +648,14 @@
           ? ''
           : when.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         // A daily is named by its puzzle day, not by when the record was written.
-        mid.textContent = r.mode === 'daily' ? `Dig #${W.seed.dailyNumber(r.dailyKey)} · ${dailyDate(r.dailyKey)}` : whenText;
+        const isDaily = r.mode === 'daily' && typeof r.dailyKey === 'string';
+        mid.textContent = isDaily ? `Dig #${W.seed.dailyNumber(r.dailyKey)} · ${dailyDate(r.dailyKey)}` : whenText;
         const right = document.createElement('span');
         right.className = 'r-points';
         right.textContent = fmt(r.score);
         li.append(left, mid, right);
         // A daily can be reviewed any time: its prompts come back from its key.
-        if (r.mode === 'daily' && r.rounds) {
+        if (isDaily && Array.isArray(r.rounds)) {
           const btn = document.createElement('button');
           btn.type = 'button';
           btn.className = 'r-review';
