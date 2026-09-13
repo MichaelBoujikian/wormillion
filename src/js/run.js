@@ -249,23 +249,14 @@
   const at4 = (r) => Math.round(r * 10000);
 
   /**
-   * The spelling of an entry to show as an answer to this prompt. On a
-   * length prompt the typed spelling is what's judged (3.1a), so "Monte
-   * Desert" is in the lookup only because "Monte" fits - and "Monte" is
-   * what the reveal must say, since "Monte Desert" would be rejected.
+   * The spelling of an entry to show as an answer to this prompt: its name,
+   * unless a length prompt would reject the name as typed and accept an
+   * alias ("Mount Kilimanjaro" is the long spelling of Kilimanjaro).
    */
   function spellingFor(entry, prompt) {
     if (!prompt.judgeTyped) return entry.name;
-    const fits = (text) => text && !prompt.judgeTyped(matching.normalize(text));
     for (const spelling of [entry.name, ...(entry.aliases || [])]) {
-      if (fits(spelling)) return spelling;
-      // ...or the same spelling with its filler dropped, which the matcher
-      // also accepts: "Faber" for Mount Faber, in the row's own casing.
-      const bare = spelling
-        .split(/\s+/)
-        .filter((word) => !matching.FILLER.has(matching.normalize(word)))
-        .join(' ');
-      if (bare !== spelling && fits(bare)) return bare;
+      if (!prompt.judgeTyped(matching.normalize(spelling))) return spelling;
     }
     return entry.name;
   }

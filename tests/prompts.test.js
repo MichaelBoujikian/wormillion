@@ -264,6 +264,33 @@ test('dig #1 (2026-09-12) still asks the fifteen prompts it shipped with', () =>
   );
 });
 
+test('a length prompt accepts the name as typed or with its generic word trimmed (shipped bank)', () => {
+  const runner = require('../src/js/run.js');
+  const shipped = loadShippedBank();
+  const on = (category, kind) => {
+    const run = runner.createRun(shipped, { rounds: 1 });
+    run.state.slots[0] = { category, letter: { kind } };
+    return run;
+  };
+  // Short: the generic word doesn't count against you.
+  assert.strictEqual(on('desert', 'short').submit('Monte Desert').status, 'accepted');
+  assert.strictEqual(on('desert', 'short').submit('Monte').status, 'accepted');
+  assert.strictEqual(on('sea_ocean', 'short').submit('Ceram Sea').status, 'accepted');
+  // ...but the name proper still has to be short: Lake Superior has no
+  // spelling that is, so it is simply out of scope, typed either way.
+  const superior = on('lake', 'short').submit('Lake Superior');
+  assert.strictEqual(superior.status, 'wrong-scope');
+  assert.strictEqual(superior.length, undefined);
+  assert.strictEqual(on('lake', 'short').submit('Superior').status, 'wrong-scope');
+  // Long: what you typed counts in full, so the generic word helps.
+  assert.strictEqual(on('mountain', 'long').submit('Mount Kilimanjaro').status, 'accepted');
+  const kili = on('mountain', 'long').submit('Kilimanjaro');
+  assert.strictEqual(kili.status, 'wrong-scope');
+  assert.strictEqual(kili.length.letters, 11);
+  // The reveal shows the real name, since typing it works.
+  assert.strictEqual(runner.rarestFor(shipped.promptFor({ category: 'desert', letter: { kind: 'short' } })).name, 'Monte Desert');
+});
+
 test('on a shipped length prompt the reveal is a spelling the prompt accepts', () => {
   const runner = require('../src/js/run.js');
   const matching = require('../src/js/matching.js');

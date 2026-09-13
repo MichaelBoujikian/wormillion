@@ -496,11 +496,12 @@ test('foundRarest is judged at the four places a record stores', () => {
 });
 
 test('on a length prompt the reveal is a spelling the prompt would accept', () => {
-  // "Lake Superior" is only in the short-name lookup through "Superior"... which is 8. Use the fixture:
-  // Loch Ness (8) has no short spelling; Lake Victoria answers "Victoria" (8). So build the case directly:
+  // Loch Ness is in the short-name lookup through "Ness"; the reveal says "Loch Ness",
+  // which the prompt accepts because the generic word is trimmed before counting.
   const prompt = bank.promptFor({ category: 'lake', letter: { kind: 'short' } });
-  if (prompt.lookup.size === 0) return; // the tiny fixture may have no short lake; the shipped-bank test below covers it
+  assert.ok(prompt.lookup.size > 0);
   const rarest = runner.rarestFor(prompt);
+  assert.strictEqual(rarest.name, 'Loch Ness');
   assert.strictEqual(prompt.judgeTyped(require('../src/js/matching.js').normalize(rarest.name)), null);
 });
 

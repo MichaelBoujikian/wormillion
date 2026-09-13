@@ -180,10 +180,13 @@
   const letters = (text) => text.replace(/[^a-z0-9]/g, '');
 
   /**
-   * The length rules are judged on the spelling the player actually used:
+   * The length rules are judged on the spelling the player actually used -
    * "China" is 5 letters and "People's Republic of China" is 22, and each
-   * counts for what it is. An entry is in a length prompt's lookup if ANY of
-   * its spellings would do, and then the typed one has to (run.js).
+   * counts for what it is - OR on that spelling with its generic words
+   * trimmed off, whichever fits: "Monte Desert" is a short name (Monte),
+   * "Mount Kilimanjaro" a long one (as typed). An entry is in a length
+   * prompt's lookup if ANY of its spellings would do, and then the typed one
+   * has to, either way (run.js). Generous in both directions on purpose.
    */
   const LENGTH_RULES = {
     short: { ok: (n) => n <= 5, need: '5 letters or fewer' },
@@ -650,12 +653,16 @@
         lookup = subsetLookup(cohort, scope, (entry) => satisfiesLetter(entry, slot.letter));
       }
 
-      // A length prompt also judges the spelling the player typed (see LENGTH_RULES).
+      // A length prompt also judges the spelling the player typed (see
+      // LENGTH_RULES): as typed, or with its generic words trimmed, whichever
+      // fits. The hint reports the spelling as typed.
       const lengthRule = slot.letter && LENGTH_RULES[slot.letter.kind];
       const judgeTyped = lengthRule
         ? (matchedKey) => {
-            const n = letters(matchedKey).length;
-            return lengthRule.ok(n) ? null : { letters: n, need: lengthRule.need };
+            const full = letters(matchedKey).length;
+            const trimmed = letters(matching.looseKey(matchedKey)).length;
+            if (lengthRule.ok(full) || (trimmed > 0 && lengthRule.ok(trimmed))) return null;
+            return { letters: full, need: lengthRule.need };
           }
         : null;
 

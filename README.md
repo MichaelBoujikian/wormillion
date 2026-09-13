@@ -239,9 +239,10 @@ Nile". A word that *is* the name stays even if it means "lake" somewhere:
 "Loch Ness" starts with L, "Saint Lucia" starts with S, "Cape Verde" starts
 with C. Countries, capitals and seas keep their official names whole — the
 Solomon Islands have a D, Mexico City ends in Y, the Black Sea ends in A. The two length rules ("short name", "long name") judge the spelling you
-actually typed: "China" is five letters and "People's Republic of China" is
-22, and each counts for what it is; "Mount Kilimanjaro" is long, "Kilimanjaro"
-is not, and the hint tells you the count.
+actually typed, or that spelling with its generic word trimmed, whichever
+fits: "China" is five letters and "People's Republic of China" is 22, and
+each counts for what it is; "Mount Kilimanjaro" is long, "Kilimanjaro" is
+not, "Monte Desert" is short (Monte), and the hint tells you the count.
 
 Themes are hand-curated because a themed prompt *rejects* everything outside
 its set — a half-complete set would turn a correct answer into a wrong one.
