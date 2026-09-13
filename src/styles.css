@@ -774,6 +774,15 @@ body {
 
 .r-review:hover, .r-review:focus-visible { color: var(--cream); border-color: var(--amber); outline: none; }
 
+.r-date { white-space: nowrap; }
+
+/* narrow: a history row keeps name + points + review on one line, the date under */
+@media (max-width: 520px) {
+  .round-list.history li { flex-wrap: wrap; row-gap: 2px; }
+  .round-list.history .r-name { flex: 1 1 auto; }
+  .round-list.history .r-date { order: 4; flex-basis: 100%; }
+}
+
 /* ---------- review ---------- */
 .review {
   margin: 0;
