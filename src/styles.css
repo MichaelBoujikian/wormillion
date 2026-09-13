@@ -406,6 +406,38 @@ body {
 
 .btn.ghost:hover { color: var(--cream); background: rgba(255, 255, 255, 0.04); }
 
+.btn[disabled] {
+  cursor: default;
+  opacity: 0.55;
+  transform: none;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- mode pick (title) ---------- */
+.mode-pick { display: grid; gap: 6px; }
+.mode-pick .btn + .mode-note { margin-top: -2px; }
+.mode-pick .mode-note + .btn { margin-top: 8px; }
+
+.mode-note {
+  margin: 0;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8b7358;
+}
+
+.mode-note.played { color: var(--amber); }
+
+/* "Daily · Sep 12" / "Endless" on the statusline and the summary */
+.mode-chip {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
+.mode-chip.summary-mode { margin: -6px 0 0; }
+
 /* ---------- play ---------- */
 .statusline {
   display: flex;

@@ -63,7 +63,14 @@
           <li>Wrong or unknown answers cost nothing — keep guessing.</li>
           <li>No repeats within a run.</li>
         </ul>
-        <button class="btn primary" id="start-btn" type="button">Start digging</button>
+        <!-- Two ways to dig (Spec 3.15): today's prompts, same for everyone
+             and once a day; or a fresh draw as often as you like. -->
+        <div class="mode-pick">
+          <button class="btn primary" id="daily-btn" type="button">Today's dig</button>
+          <p class="mode-note" id="daily-note">Same fifteen prompts for everyone today</p>
+          <button class="btn" id="endless-btn" type="button">Endless</button>
+          <p class="mode-note">A fresh draw, as often as you like</p>
+        </div>
         <button class="btn ghost" id="stats-btn" type="button">Past dives</button>
         <p class="footnote"><span id="bank-count">0</span> real places in the bank</p>
       </div>
@@ -72,6 +79,7 @@
       <div class="screen" id="screen-play" hidden>
         <div class="statusline">
           <span id="round-label">Round 1 / 15</span>
+          <span class="mode-chip" id="mode-label">Endless</span>
           <span id="score-label">0 pts</span>
         </div>
 
@@ -109,6 +117,7 @@
       <!-- summary -->
       <div class="screen" id="screen-summary" hidden>
         <h2 class="screen-title">Dive complete</h2>
+        <p class="mode-chip summary-mode" id="summary-mode" hidden>Today's dig</p>
         <p class="big-score" id="summary-score">0</p>
         <p class="sub-score"><span id="summary-depth">0 deep</span></p>
         <p class="stratum-badge big" id="summary-stratum">Topsoil</p>
@@ -117,6 +126,7 @@
         <ol class="round-list ladder" id="summary-rounds"></ol>
         <button class="btn primary" id="again-btn" type="button">Dive again</button>
         <button class="btn ghost" id="summary-stats-btn" type="button">Past dives</button>
+        <button class="btn ghost" id="summary-home-btn" type="button">Home</button>
       </div>
 
       <!-- stats -->

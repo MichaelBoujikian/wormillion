@@ -42,9 +42,12 @@
         stats: $('screen-stats')
       },
       bankCount: $('bank-count'),
-      startBtn: $('start-btn'),
+      dailyBtn: $('daily-btn'),
+      dailyNote: $('daily-note'),
+      endlessBtn: $('endless-btn'),
       statsBtn: $('stats-btn'),
       round: $('round-label'),
+      modeLabel: $('mode-label'),
       score: $('score-label'),
       timerBar: $('timer-bar'),
       timerNum: $('timer-num'),
@@ -55,6 +58,7 @@
       input: $('answer-input'),
       feedback: $('feedback'),
       lastAnswer: $('last-answer'),
+      sumMode: $('summary-mode'),
       sumScore: $('summary-score'),
       sumDepth: $('summary-depth'),
       sumStratum: $('summary-stratum'),
@@ -62,6 +66,7 @@
       sumRounds: $('summary-rounds'),
       againBtn: $('again-btn'),
       sumStatsBtn: $('summary-stats-btn'),
+      sumHomeBtn: $('summary-home-btn'),
       statRuns: $('stat-runs'),
       statAvg: $('stat-avg'),
       statBest: $('stat-best'),
@@ -145,11 +150,39 @@
         el.hidden = key !== name;
       }
       els.app.dataset.screen = name;
+      if (name === 'title') refreshTitle();
     }
 
     function refreshBest() {
       const best = W.persistence.read().bestDive;
       els.best.textContent = best ? `${fmt(best.score)} · ${best.deepestStratum}` : '—';
+    }
+
+    /** "Sep 12" from a daily's YYYY-MM-DD key (local, like the key itself). */
+    function dailyDate(key) {
+      const [y, m, d] = key.split('-').map(Number);
+      return new Date(y, m - 1, d).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    }
+
+    /** What a run is called on the statusline and the summary (3.15). */
+    function modeText(mode, dailyKey) {
+      return mode === 'daily' ? `Today's dig · ${dailyDate(dailyKey)}` : 'Endless';
+    }
+
+    /**
+     * The daily is one dig per day: once today's is in the history the button
+     * locks and shows the result, and unlocks by itself at local midnight
+     * because the key changes. Endless is never locked.
+     */
+    function refreshTitle() {
+      const today = W.seed.dailyKey();
+      const done = W.persistence.dailyResult(today);
+      els.dailyBtn.disabled = Boolean(done);
+      els.dailyBtn.textContent = done ? "Today's dig — done" : "Today's dig";
+      els.dailyNote.classList.toggle('played', Boolean(done));
+      els.dailyNote.textContent = done
+        ? `You dug ${fmt(done.score)} · ${done.deepestStratum} today — back tomorrow`
+        : 'Same fifteen prompts for everyone today';
     }
 
     function showJackpot() {
@@ -369,6 +402,11 @@
       const summary = run.summary();
       const saved = W.persistence.recordRun(summary);
 
+      els.sumMode.hidden = summary.mode !== 'daily';
+      els.sumMode.textContent = modeText(summary.mode, summary.dailyKey);
+      // A daily can't be dug twice, so its "again" is an endless dig.
+      els.againBtn.textContent = summary.mode === 'daily' ? 'Keep digging — endless' : 'Dive again';
+
       els.sumScore.textContent = fmt(summary.score);
       els.sumDepth.textContent = `${summary.finalDepth.toFixed(1)} deep`;
       els.sumStratum.textContent = summary.deepestStratum;
@@ -442,9 +480,10 @@
         left.textContent = `${r.deepestStratum} · ${r.finalDepth.toFixed(0)} deep`;
         const mid = document.createElement('span');
         mid.className = 'r-date';
-        mid.textContent = Number.isNaN(when.getTime())
+        const whenText = Number.isNaN(when.getTime())
           ? ''
           : when.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        mid.textContent = r.mode === 'daily' ? `Daily · ${whenText}`.replace(/ · $/, '') : whenText;
         const right = document.createElement('span');
         right.className = 'r-points';
         right.textContent = fmt(r.score);
@@ -455,8 +494,13 @@
       els.statsBack.focus();
     }
 
-    function startRun() {
-      run = W.run.createRun(bank);
+    function startRun(mode) {
+      if (mode === 'daily' && W.persistence.dailyResult(W.seed.dailyKey())) {
+        show('title'); // already dug today; the title says so
+        return;
+      }
+      run = W.run.createRun(bank, { mode });
+      els.modeLabel.textContent = modeText(run.mode, run.dailyKey);
       renderer.reset();
       hideJackpot();
       hideDud();
@@ -468,10 +512,12 @@
     }
 
     // ---- wiring -------------------------------------------------------------
-    els.startBtn.addEventListener('click', startRun);
-    els.againBtn.addEventListener('click', startRun);
+    els.dailyBtn.addEventListener('click', () => startRun('daily'));
+    els.endlessBtn.addEventListener('click', () => startRun('endless'));
+    els.againBtn.addEventListener('click', () => startRun('endless'));
     els.statsBtn.addEventListener('click', showStats);
     els.sumStatsBtn.addEventListener('click', showStats);
+    els.sumHomeBtn.addEventListener('click', () => show('title'));
     els.statsBack.addEventListener('click', () => show(run && !run.finished ? 'play' : 'title'));
     els.form.addEventListener('submit', handleSubmit);
     // Some mobile keyboards fire Enter without a form submit; catch it directly.
@@ -487,6 +533,7 @@
         burst,
         drip,
         currentRun: () => run,
+        start: startRun,
         diveTo: (d, tier) => renderer.diveTo(d, { tier }),
         celebrate: showJackpot,
         shame: showDud
@@ -504,6 +551,9 @@
     renderer.reset();
     setHud();
     show('title');
+    // `?daily` (for the aggregator link) goes straight into today's dig - or,
+    // if it's already been dug, lands on the title showing the result.
+    if (root.location && /[?&]daily\b/.test(root.location.search)) startRun('daily');
     requestAnimationFrame(frame);
   }
 
