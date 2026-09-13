@@ -214,3 +214,20 @@ test('applySubmission and rebuildAggregate agree', () => {
   assert.strictEqual(agg.rounds[1].missed, 1);
   assert.strictEqual(agg.updatedAt, '2026-09-13T02:00:00Z');
 });
+
+test('replay accepts an entry by name when the player typed a longer spelling for a length prompt', () => {
+  // The engine rejects the bare name on a long-name prompt...
+  const direct = runner.createRun(bank, { rounds: 1 });
+  direct.state.slots[0] = { category: 'mountain', letter: { kind: 'long' } };
+  assert.strictEqual(direct.submit('Kilimanjaro').status, 'wrong-scope');
+  // ...but the replay tries "Mount Kilimanjaro", which is what the player typed.
+  const run = runner.createRun(bank, { rounds: 1 });
+  run.state.slots[0] = { category: 'mountain', letter: { kind: 'long' } };
+  const replayed = daily.replayRun(run, ['Kilimanjaro']);
+  assert.strictEqual(replayed.ok, true);
+  assert.strictEqual(replayed.summary.rounds[0].answer, 'Kilimanjaro');
+  // A name with no accepted spelling at all still fails, naming the round.
+  const nope = runner.createRun(bank, { rounds: 1 });
+  nope.state.slots[0] = { category: 'mountain', letter: { kind: 'long' } };
+  assert.deepStrictEqual(daily.replayRun(nope, ['Fuji']), { ok: false, round: 1, reason: 'wrong-scope' });
+});

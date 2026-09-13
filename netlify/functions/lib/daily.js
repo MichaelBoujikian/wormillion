@@ -121,6 +121,33 @@ function applySubmission(agg, sub, at) {
   return agg;
 }
 
+/**
+ * Play `answers` through a fresh run. Every non-null answer must be accepted
+ * by its round; a null is a timeout. The client stores the entry's NAME, but
+ * a length prompt judges the spelling typed - "Kilimanjaro" was accepted as
+ * "Mount Kilimanjaro" - so when the only objection is this spelling's length
+ * the entry's other spellings are tried, since one of them is what was typed.
+ * @returns {{ok:true, summary}|{ok:false, round:number, reason:string}}
+ */
+function replayRun(run, answers) {
+  for (let i = 0; i < answers.length; i++) {
+    const answer = answers[i];
+    if (answer === null) {
+      run.timeout();
+      continue;
+    }
+    let result = run.submit(answer);
+    if (result.status === 'wrong-scope' && result.length && result.entry) {
+      for (const alias of result.entry.aliases || []) {
+        result = run.submit(alias);
+        if (result.status === 'accepted') break;
+      }
+    }
+    if (result.status !== 'accepted') return { ok: false, round: i + 1, reason: result.status };
+  }
+  return { ok: true, summary: run.summary() };
+}
+
 /** The aggregate for a day from scratch, from every stored submission. */
 function rebuildAggregate(day, draw, roundCount, submissions) {
   const agg = emptyAggregate(day, draw, roundCount);
@@ -151,17 +178,7 @@ function createDailyApi({ store, bank, now = () => new Date() }) {
    * @returns {{ok:true, summary}|{ok:false, round:number, reason:string}}
    */
   function replay(day, answers) {
-    const run = runner.createRun(bank, { mode: 'daily', dailyKey: day });
-    for (let i = 0; i < answers.length; i++) {
-      const answer = answers[i];
-      if (answer === null) {
-        run.timeout();
-        continue;
-      }
-      const result = run.submit(answer);
-      if (result.status !== 'accepted') return { ok: false, round: i + 1, reason: result.status };
-    }
-    return { ok: true, summary: run.summary() };
+    return replayRun(runner.createRun(bank, { mode: 'daily', dailyKey: day }), answers);
   }
 
   /** Validate the request body's shape; the engine judges the answers. */
@@ -300,6 +317,7 @@ module.exports = {
   rarityBucket,
   emptyAggregate,
   applySubmission,
+  replayRun,
   rebuildAggregate,
   createDailyApi,
   memoryStore
