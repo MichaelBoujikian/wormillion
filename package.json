@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "wormillion",
   "version": "1.0.0",
   "private": true,
@@ -13,6 +13,7 @@
     "bundle": "node scripts/bundle.mjs",
     "start": "node scripts/serve.mjs"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@netlify/blobs": "^11.0.3"
+  }
 }

@@ -8,3 +8,11 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+# The daily comparison (Spec 3.17): two functions over Netlify Blobs. The
+# handlers bundle the engine (src/js) through lib/daily.js; the bank itself
+# is read from disk at runtime, so its two files ride along.
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+  included_files = ["src/data/bank.js", "src/data/themes.js"]
