@@ -172,7 +172,6 @@ Nothing is queued. The audit is closed (every item decided and landed), the
 non-audit backlog is done, and the cities category shipped and was reviewed.
 Ideas if the user wants more:
 
-- **A second city theme** ("on a coast" would need a curated list — don't derive it) or cities for countries with none in the bank (`node -e` over `src/data/cities.json` grouped by `country` shows the gaps).
 - **More prompt kinds** — the user asks for new ones often and likes specific, harder prompts.
 - **Population refresh** — declined on 2026-09-12; revisit only if a player reports a size prompt being wrong.
 - **Standing note, not a task:** flag rows, populations and the city theme list are from memory. When a report is "X isn't accepted", first check which *category* the round was (the user once reported Estonia missing on a capitals-round flag prompt, where Tallinn was the answer), then fix the row.
@@ -184,4 +183,4 @@ Ideas if the user wants more:
 - Spelling should autocorrect and show the real spelling — done and liked.
 - Achievement should feel good — the jackpot overlay, craters, deeper digs, the ladder, and now the flat 950 — and failure should sting a little: the 0% overlay was their idea, gross on purpose ("blood and poop dripping from the words", "the worm should become a bit decrepit and rotten").
 - They want to find the answers and the logic in the code — the tables above and README's "Where the logic lives".
-- **Working style:** they read summaries closely and decide fast. Present open decisions as a numbered list with a recommendation each; they answer all in one message; then do the whole batch in one prompt and say at the end whether anything needs a second prompt. Commit each feature separately. Pushes to `main` are allowed without asking (given 2026-09-12); subagents are welcome when they earn their keep (authoring the city rows and independently reviewing them both did). Don't spend tokens on bulk data chores; fix the specific row a player would hit.
+- **Working style:** they read summaries closely and decide fast. Present open decisions as a numbered list with a recommendation each; they answer all in one message; then do the whole batch in one prompt and say at the end whether anything needs a second prompt. Commit each feature separately. Pushes to `main` are allowed without asking (given 2026-09-12); subagents are welcome when they earn their keep (authoring the city rows and independently reviewing them both did).
