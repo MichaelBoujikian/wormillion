@@ -10,6 +10,30 @@ gotchas that cost time. Claude Code's project memory is keyed to this folder
 
 ## State as of 2026-09-13 (evening)
 
+**⚠ Netlify is frozen mid-session** — the user's account hit a Netlify
+account-wide usage cap ("production deploys and agent runners are paused"),
+unrelated to this repo or to Claude Code. Effective now: `wormillion.netlify.app`
+serves whatever was last deployed (currently `e881c8a`, confirmed live and
+working) and **will not pick up any push after that** until the user upgrades
+or the cap resets — check the Usage/Billing page in their Netlify dashboard
+for when. GitHub Pages is unaffected (separate infra, deploys via GitHub
+Actions) and keeps getting every push normally.
+
+Decision (2026-09-13): keep developing and pushing to `main` as normal;
+Netlify gets ONE deploy later, once the user upgrades for a month, rather
+than syncing after every push. Consequence to know about: if a push between
+now and that eventual deploy changes the bank or how prompts are drawn
+(`drawSlots`, category/region/theme data), the GitHub Pages copy's `draw`
+fingerprint for a given day will stop matching Netlify's stale functions,
+and the daily-comparison block will quietly stop appearing for GitHub Pages
+players on days affected (a clean `draw-mismatch`, not an error state; no
+data lost; self-heals the moment Netlify redeploys). The game itself
+(play/score/persistence/share/review) is unaffected either way — the
+comparison is the only feature not fully self-contained in `src/`.
+**When Netlify is un-paused: push anything (or "Trigger deploy" in their
+dashboard) to sync it up**, then re-verify with the `curl` checks in
+"Netlify: what to check first" below.
+
 **Latest: the daily comparison** (`f6cecc0`…, SPEC 3.17) — the first server
 piece. `netlify/functions/lib/daily.js` (pure, 12 tests) replays a player's
 fifteen answers and scores them server-side; `daily-submit.mjs` /
