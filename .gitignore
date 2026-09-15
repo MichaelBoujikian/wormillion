@@ -3,3 +3,4 @@ check*.txt
 node_modules/
 dist/
 fetch.log
+scripts/expansion/work/

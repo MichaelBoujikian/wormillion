@@ -201,14 +201,27 @@ agent runners are paused") — unrelated to this repo or to Claude Code.
 
 ## Green as of 2026-09-14
 
-`npm test` 173 · `npm run validate` 1,719 entries · `npm run gap-check` 199
-obvious answers · `npm run bundle` ~467 KB single file, 18 scripts inlined.
-Working tree clean, everything pushed; `main` is at the HANDOFF refresh commit.
+`npm test` 173 · `npm run validate` 8,987 entries · `npm run gap-check` ~300
+obvious answers. Everything pushed.
 
-**Bank:** 197 countries · 247 capitals · 314 cities · 132 lakes · 130 rivers ·
-188 mountains · 58 deserts · 358 islands · 95 seas = 1,719. 91 entries are "one
-in Wormillion"; a run of median answers scores ~6,700 and ends around depth 540
-(Mantle).
+**Bank (after the 2026-09-15 expansion):** 197 countries · 247 capitals ·
+2,535 cities · 766 lakes · 2,196 rivers · 1,318 mountains · 130 deserts ·
+1,345 islands · 253 seas = 8,987. 228 entries are "one in Wormillion"; a run
+of median answers still scores ~6,700 and ends around depth 560 (Mantle).
+`bank.js` is 1.2 MB (was 289 KB) — the one cost of the size.
+
+**The expansion (2026-09-14/15):** Priority 1 is done. Seventeen Sonnet
+sub-agents authored one category × region each from Wikipedia list pages;
+the lead folded, resolved and verified each chunk with the tools now in
+`scripts/expansion/` (read its README — that is the loop to repeat when
+players report more misses). ~1,200 `WIKI_TITLES` overrides and ~250
+`WIKI_VERIFIED` subjects came out of it; ~90 places with no usable article
+were dropped rather than scored on a wrong one. Two Sonnet debugging agents
+then audited the result (reports: wrong articles, duplicates, theme gaps,
+matcher misdirections) — see the commits after `39534ba` for what was fixed.
+Lessons that cost tokens: seven Opus agents at once all died on the session
+cap with zero output; two Sonnet agents at a time, appending as they go, with
+a local checkpoint commit after each fold, lost nothing across two more caps.
 
 ## How it got here (short version; details in SPEC §13 and git log)
 
