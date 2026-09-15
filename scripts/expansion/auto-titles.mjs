@@ -28,7 +28,7 @@ const { WIKI_TITLES, WIKI_VERIFIED } = await import(new URL('../data-wiki-titles
 const EXPECTED = {
   country: ['countr', 'nation', 'state', 'republic', 'territory', 'kingdom', 'federation', 'island in', 'city-state', 'microstate', 'enclave'],
   capital: ['capital', 'city', 'town', 'municipal', 'seat', 'district', 'commune', 'village'],
-  city: ['city', 'town', 'municipal', 'metropolis', 'capital', 'district', 'commune', 'prefecture', 'borough', 'settlement', 'urban', 'port', 'seat', 'conurbation',
+  city: ['city', 'town', 'municipal', 'metropolis', 'capital', 'district', 'commune', 'prefecture', 'borough', 'settlement', 'urban', 'seaport', 'port city', 'port town', 'seat', 'conurbation',
     'comune', 'municipio', 'local council', 'resort', 'quarter', 'castello', 'place in', 'census-designated'],
   lake: ['lake', 'loch', 'llyn', 'reservoir', 'lagoon', 'body of water', 'endorheic', 'sea', 'water'],
   river: ['river', 'stream', 'tributary', 'waterway', 'watercourse'],
@@ -37,7 +37,15 @@ const EXPECTED = {
   island: ['island', 'isle', 'archipelago', 'atoll', 'islet', 'countr', 'territory', 'landmass'],
   sea_ocean: ['sea', 'ocean', 'gulf', 'bay', 'strait', 'body of water', 'water', 'channel', 'sound', 'basin']
 };
-const looksRight = (desc) => EXPECTED[category].some((w) => desc.toLowerCase().includes(w));
+// an article about something that merely carries the place's name (the 2026-09
+// audit found Pisa scoring on its airport, Mercer Island on a light-rail stop)
+// Whole words only: "Songhua" is not a song, "chief port of Jamaica" is a capital.
+const WRONG_SUBJECT = /\b(airport|aerodrome|airstrip|air base|railway station|metro station|train station|light rail|high school|university|crash|shipwreck|battle of|football club|sports club|stadium|hotel|resort hotel|company|newspaper|album|film|novel|song|sc)\b/i;
+const wrongSubject = (title, desc) => {
+  const m = (title || '').match(WRONG_SUBJECT) || (desc || '').match(WRONG_SUBJECT) || (title || '').match(/^port of /i);
+  return m ? m[0] : undefined;
+};
+const looksRight = (desc, title) => !wrongSubject(title, desc) && EXPECTED[category].some((w) => desc.toLowerCase().includes(w));
 
 const UA = 'Wormillion/1.0 (offline geography quiz game; data build; contact: repository issues)';
 const CACHE = HERE + 'titles-cache.json';
@@ -147,7 +155,8 @@ entries.forEach((e, i) => {
   const r = resolved[i];
   if (r.missing) problems.push({ e, r, why: 'missing' });
   else if (r.disambig) problems.push({ e, r, why: 'disambig' });
-  else if (!WIKI_VERIFIED.has(e.id) && !looksRight(r.description)) problems.push({ e, r, why: `desc: ${r.description || '(none)'}` });
+  else if (wrongSubject(r.finalTitle, r.description)) problems.push({ e, r, why: `wrong subject (${wrongSubject(r.finalTitle, r.description)}): "${r.finalTitle}" — ${r.description}` });
+  else if (!WIKI_VERIFIED.has(e.id) && !looksRight(r.description, r.finalTitle)) problems.push({ e, r, why: `desc: ${r.description || '(none)'}` });
 });
 console.log(`${category}: ${entries.length} entries, ${problems.length} problem(s)`);
 
@@ -170,7 +179,7 @@ for (const p of problems) {
   let hit = null;
   for (let i = 0; i < cands.length; i++) {
     const r = rs[i];
-    if (!r.missing && !r.disambig && looksRight(r.description)) { hit = r.finalTitle; break; }
+    if (!r.missing && !r.disambig && looksRight(r.description, r.finalTitle)) { hit = r.finalTitle; break; }
   }
   if (!hit) {
     // last resort: full-text search, accept a hit that carries the name and reads like the category
@@ -179,7 +188,7 @@ for (const p of problems) {
     if (found.length) {
       const fr = await resolve(found);
       for (let i = 0; i < found.length; i++) {
-        if (!fr[i].missing && !fr[i].disambig && looksRight(fr[i].description)) { hit = fr[i].finalTitle; cands = found; break; }
+        if (!fr[i].missing && !fr[i].disambig && looksRight(fr[i].description, fr[i].finalTitle)) { hit = fr[i].finalTitle; cands = found; break; }
       }
     }
   }
@@ -195,6 +204,6 @@ for (const p of unresolved) {
 }
 await writeFile(HERE + 'fixes-auto.json', JSON.stringify({ note: `${category} auto-resolved titles (2026-09-14 expansion)`, titles: fixes }, null, 1), 'utf8');
 if (APPLY && Object.keys(fixes).length) {
-  const r = spawnSync(process.execPath, [HERE + 'fix-titles.mjs', HERE + 'fixes-auto.json'], { encoding: 'utf8' });
+  const r = spawnSync(process.execPath, [fileURLToPath(new URL('./fix-titles.mjs', import.meta.url)), HERE + 'fixes-auto.json'], { encoding: 'utf8' });
   process.stdout.write(r.stdout + r.stderr);
 }

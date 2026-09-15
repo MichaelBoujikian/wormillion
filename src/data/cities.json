@@ -5780,7 +5780,9 @@
   "id": "city-san-francisco",
   "category": "city",
   "name": "San Francisco",
-  "aliases": [],
+  "aliases": [
+   "SF"
+  ],
   "size": 810000,
   "sizeUnit": "population",
   "region": [
@@ -13662,12 +13664,12 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Preston, Adams County, Wisconsin\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in United Kingdom",
-  "magnitude": 30,
+  "source": "English Wikipedia pageviews for \"Preston, Lancashire\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "magnitude": 15372,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Preston, Adams County, Wisconsin",
-  "lat": 44.02027778,
-  "lon": -89.78861111
+  "wikiTitle": "Preston, Lancashire",
+  "lat": 53.759,
+  "lon": -2.699
  },
  {
   "id": "city-milton-keynes",
@@ -18312,12 +18314,12 @@
    "yellow",
    "black"
   ],
-  "source": "English Wikipedia pageviews for \"Mayen-Koblenz\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Germany",
-  "magnitude": 213,
+  "source": "English Wikipedia pageviews for \"Koblenz\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Germany",
+  "magnitude": 12115,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mayen-Koblenz",
-  "lat": 50.33,
-  "lon": 7.33
+  "wikiTitle": "Koblenz",
+  "lat": 50.35972222,
+  "lon": 7.59777778
  },
  {
   "id": "city-wittenberg",
@@ -18921,12 +18923,12 @@
    "red",
    "white"
   ],
-  "source": "English Wikipedia pageviews for \"Appenzell District\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Switzerland",
-  "magnitude": 152,
+  "source": "English Wikipedia pageviews for \"Appenzell (village)\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Switzerland",
+  "magnitude": 1157,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Appenzell District",
-  "lat": 47.33333333,
-  "lon": 9.41666667
+  "wikiTitle": "Appenzell (village)",
+  "lat": 47.33111111,
+  "lon": 9.41138889
  },
  {
   "id": "city-zug",
@@ -19666,12 +19668,12 @@
    "white",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Pisa International Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
-  "magnitude": 3622,
+  "source": "English Wikipedia pageviews for \"Pisa\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 16072,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Pisa International Airport",
-  "lat": 43.68388889,
-  "lon": 10.3925
+  "wikiTitle": "Pisa",
+  "lat": 43.71666667,
+  "lon": 10.4
  },
  {
   "id": "city-siena",
@@ -19860,10 +19862,12 @@
    "white",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Perugia San Francesco d'Assisi – Umbria International Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
-  "magnitude": 1126,
+  "source": "English Wikipedia pageviews for \"Perugia\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 13911,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Perugia San Francesco d'Assisi – Umbria International Airport"
+  "wikiTitle": "Perugia",
+  "lat": 43.11222222,
+  "lon": 12.38888889
  },
  {
   "id": "city-livorno",
@@ -20050,12 +20054,12 @@
    "white",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Milan Bergamo Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
-  "magnitude": 5601,
+  "source": "English Wikipedia pageviews for \"Bergamo\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 15494,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Milan Bergamo Airport",
-  "lat": 45.66888889,
-  "lon": 9.70027778
+  "wikiTitle": "Bergamo",
+  "lat": 45.695,
+  "lon": 9.67
  },
  {
   "id": "city-trento",
@@ -20074,12 +20078,12 @@
    "white",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Trento-Mattarello Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
-  "magnitude": 244,
+  "source": "English Wikipedia pageviews for \"Trento\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 15159,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Trento-Mattarello Airport",
-  "lat": 46.02333333,
-  "lon": 11.125
+  "wikiTitle": "Trento",
+  "lat": 46.06666667,
+  "lon": 11.11666667
  },
  {
   "id": "city-bolzano",
@@ -20148,12 +20152,12 @@
    "white",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Treviso Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
-  "magnitude": 1826,
+  "source": "English Wikipedia pageviews for \"Treviso\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Italy",
+  "magnitude": 8584,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Treviso Airport",
-  "lat": 45.65083333,
-  "lon": 12.19777778
+  "wikiTitle": "Treviso",
+  "lat": 45.6658,
+  "lon": 12.2456
  },
  {
   "id": "city-udine",
@@ -21582,12 +21586,12 @@
    "green",
    "yellow"
   ],
-  "source": "English Wikipedia pageviews for \"Roman Temple of Évora\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Portugal",
-  "magnitude": 974,
+  "source": "English Wikipedia pageviews for \"Évora District\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Portugal",
+  "magnitude": 517,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Roman Temple of Évora",
-  "lat": 38.57306,
-  "lon": -7.90778472
+  "wikiTitle": "Évora District",
+  "lat": 38.57,
+  "lon": -7.91
  },
  {
   "id": "city-guimaraes",
@@ -22505,12 +22509,12 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Corinth, Arkansas\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Greece",
-  "magnitude": 61,
+  "source": "English Wikipedia pageviews for \"Corinth (modern city)\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 8219,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Corinth, Arkansas",
-  "lat": 35.06916667,
-  "lon": -93.42333333
+  "wikiTitle": "Corinth (modern city)",
+  "lat": 37.93861111,
+  "lon": 22.92722222
  },
  {
   "id": "city-piraeus",
@@ -23229,12 +23233,12 @@
    "blue",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Tulum International Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Mexico",
-  "magnitude": 2374,
+  "source": "English Wikipedia pageviews for \"Tulum\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 12176,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tulum International Airport",
-  "lat": 20.17222222,
-  "lon": -87.66055556
+  "wikiTitle": "Tulum",
+  "lat": 20.21472222,
+  "lon": -87.42888889
  },
  {
   "id": "city-zacatecas",
@@ -23469,12 +23473,12 @@
    "blue",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Nezahualcóyotl metro station\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Mexico",
-  "magnitude": 30,
+  "source": "English Wikipedia pageviews for \"Ciudad Nezahualcóyotl\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 3348,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nezahualcóyotl metro station",
-  "lat": 19.473066,
-  "lon": -99.054537
+  "wikiTitle": "Ciudad Nezahualcóyotl",
+  "lat": 19.40805556,
+  "lon": -99.01861111
  },
  {
   "id": "city-ecatepec",
@@ -23713,12 +23717,12 @@
    "blue",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Chetumal International Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Mexico",
-  "magnitude": 457,
+  "source": "English Wikipedia pageviews for \"Chetumal\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 1857,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Chetumal International Airport",
-  "lat": 18.50466667,
-  "lon": -88.32684722
+  "wikiTitle": "Chetumal",
+  "lat": 18.50361111,
+  "lon": -88.30527778
  },
  {
   "id": "city-san-cristobal-de-las-casas",
@@ -24596,12 +24600,12 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Boquete District\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Panama",
-  "magnitude": 183,
+  "source": "English Wikipedia pageviews for \"Boquete, Chiriquí\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Panama",
+  "magnitude": 3531,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Boquete District",
-  "lat": 8.5,
-  "lon": -82.56
+  "wikiTitle": "Boquete, Chiriquí",
+  "lat": 8.78,
+  "lon": -82.44
  },
  {
   "id": "city-santiago-de-veraguas",
@@ -24724,32 +24728,6 @@
   "wikiTitle": "Dangriga",
   "lat": 16.96666667,
   "lon": -88.21666667
- },
- {
-  "id": "city-placencia",
-  "category": "city",
-  "name": "Placencia",
-  "aliases": [],
-  "size": 2000,
-  "sizeUnit": "population",
-  "region": [
-   "North America",
-   "Central America"
-  ],
-  "country": "Belize",
-  "flag": [
-   "red",
-   "white",
-   "blue",
-   "green",
-   "yellow"
-  ],
-  "source": "English Wikipedia pageviews for \"Placencia Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Belize",
-  "magnitude": 213,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Placencia Airport",
-  "lat": 16.53722222,
-  "lon": -88.36111111
  },
  {
   "id": "city-corozal",
@@ -25472,12 +25450,12 @@
    "yellow",
    "black"
   ],
-  "source": "English Wikipedia pageviews for \"Negril Aerodrome\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Jamaica",
-  "magnitude": 152,
+  "source": "English Wikipedia pageviews for \"Negril\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Jamaica",
+  "magnitude": 1826,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Negril Aerodrome",
-  "lat": 18.34,
-  "lon": -78.33833333
+  "wikiTitle": "Negril",
+  "lat": 18.3110182,
+  "lon": -78.339386
  },
  {
   "id": "city-port-antonio",
@@ -25666,12 +25644,12 @@
    "yellow",
    "black"
   ],
-  "source": "English Wikipedia pageviews for \"Vieux Fort District\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Saint Lucia",
-  "magnitude": 91,
+  "source": "English Wikipedia pageviews for \"Vieux Fort, Saint Lucia\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Saint Lucia",
+  "magnitude": 365,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Vieux Fort District",
-  "lat": 13.75,
-  "lon": -60.95
+  "wikiTitle": "Vieux Fort, Saint Lucia",
+  "lat": 13.728,
+  "lon": -60.954
  },
  {
   "id": "city-grenville",
@@ -25716,12 +25694,12 @@
    "yellow",
    "black"
   ],
-  "source": "English Wikipedia pageviews for \"Barbuda Codrington Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Antigua and Barbuda",
-  "magnitude": 152,
+  "source": "English Wikipedia pageviews for \"Codrington, Antigua and Barbuda\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Antigua and Barbuda",
+  "magnitude": 791,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Barbuda Codrington Airport",
-  "lat": 17.63583333,
-  "lon": -61.82694444
+  "wikiTitle": "Codrington, Antigua and Barbuda",
+  "lat": 17.63333333,
+  "lon": -61.83333333
  },
  {
   "id": "city-charlestown",
@@ -28753,12 +28731,12 @@
    "green",
    "yellow"
   ],
-  "source": "English Wikipedia pageviews for \"Sorata Municipality\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Bolivia",
-  "magnitude": 30,
+  "source": "English Wikipedia pageviews for \"Sorata\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Bolivia",
+  "magnitude": 152,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sorata Municipality",
-  "lat": -15.75,
-  "lon": -68.53333333
+  "wikiTitle": "Sorata",
+  "lat": -15.77333333,
+  "lon": -68.64805556
  },
  {
   "id": "city-ciudad-del-este",
@@ -31730,12 +31708,12 @@
    "yellow",
    "black"
   ],
-  "source": "English Wikipedia pageviews for \"Abu Simbel Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Egypt",
-  "magnitude": 517,
+  "source": "English Wikipedia pageviews for \"Abu Simbel\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Egypt",
+  "magnitude": 16803,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Abu Simbel Airport",
-  "lat": 22.37591667,
-  "lon": 31.61163889
+  "wikiTitle": "Abu Simbel",
+  "lat": 22.33694444,
+  "lon": 31.62555556
  },
  {
   "id": "city-helwan",
@@ -34914,12 +34892,10 @@
    "green",
    "yellow"
   ],
-  "source": "English Wikipedia pageviews for \"Huye District\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Rwanda",
-  "magnitude": 213,
+  "source": "English Wikipedia pageviews for \"Butare\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Rwanda",
+  "magnitude": 913,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Huye District",
-  "lat": -2.51666667,
-  "lon": 29.7
+  "wikiTitle": "Butare"
  },
  {
   "id": "city-musanze",
@@ -34938,12 +34914,10 @@
    "green",
    "yellow"
   ],
-  "source": "English Wikipedia pageviews for \"Musanze District\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Rwanda",
-  "magnitude": 365,
+  "source": "English Wikipedia pageviews for \"Musanze\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Rwanda",
+  "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Musanze District",
-  "lat": -1.5,
-  "lon": 29.6
+  "wikiTitle": "Musanze"
  },
  {
   "id": "city-rubavu",
@@ -37295,12 +37269,12 @@
    "red",
    "white"
   ],
-  "source": "English Wikipedia pageviews for \"Malatya Erhaç Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 274,
+  "source": "English Wikipedia pageviews for \"Malatya\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Turkey",
+  "magnitude": 4505,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Malatya Erhaç Airport",
-  "lat": 38.43527778,
-  "lon": 38.09083333
+  "wikiTitle": "Malatya",
+  "lat": 38.35018056,
+  "lon": 38.31666944
  },
  {
   "id": "city-denizli",
@@ -37573,11 +37547,11 @@
    "red",
    "white"
   ],
-  "source": "English Wikipedia pageviews for \"Safranbolu District\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 61,
+  "source": "English Wikipedia pageviews for \"Safranbolu\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Turkey",
+  "magnitude": 1096,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Safranbolu District",
-  "lat": 41.25,
+  "wikiTitle": "Safranbolu",
+  "lat": 41.24944444,
   "lon": 32.68333333
  },
  {
@@ -39951,10 +39925,12 @@
    "white",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Al-Ula International Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Saudi Arabia",
-  "magnitude": 639,
+  "source": "English Wikipedia pageviews for \"Al-Ula\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Saudi Arabia",
+  "magnitude": 8036,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Al-Ula International Airport"
+  "wikiTitle": "Al-Ula",
+  "lat": 26.60853,
+  "lon": 37.92316
  },
  {
   "id": "city-hofuf",
@@ -40552,10 +40528,12 @@
    "green",
    "black"
   ],
-  "source": "English Wikipedia pageviews for \"Al-Salmiya SC\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Kuwait",
+  "source": "English Wikipedia pageviews for \"Salmiya\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Kuwait",
   "magnitude": 731,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Al-Salmiya SC"
+  "wikiTitle": "Salmiya",
+  "lat": 29.33333333,
+  "lon": 48.08333333
  },
  {
   "id": "city-jahra",
@@ -47893,12 +47871,12 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Orenburg Airport\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Russia",
-  "magnitude": 244,
+  "source": "English Wikipedia pageviews for \"Orenburg\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Russia",
+  "magnitude": 5905,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Orenburg Airport",
-  "lat": 51.79578611,
-  "lon": 55.45674444
+  "wikiTitle": "Orenburg",
+  "lat": 51.78333333,
+  "lon": 55.1
  },
  {
   "id": "city-kemerovo",
@@ -53453,12 +53431,12 @@
    "yellow",
    "orange"
   ],
-  "source": "English Wikipedia pageviews for \"Punakha District\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Bhutan",
-  "magnitude": 274,
+  "source": "English Wikipedia pageviews for \"Punakha\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Bhutan",
+  "magnitude": 1248,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Punakha District",
-  "lat": 27.66666667,
-  "lon": 89.83333333
+  "wikiTitle": "Punakha",
+  "lat": 27.58333333,
+  "lon": 89.85833333
  },
  {
   "id": "city-trongsa",
@@ -53806,12 +53784,12 @@
    "red",
    "green"
   ],
-  "source": "English Wikipedia pageviews for \"Dinajpur District, Bangladesh\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Bangladesh",
-  "magnitude": 1005,
+  "source": "English Wikipedia pageviews for \"Dinajpur\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Bangladesh",
+  "magnitude": 944,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Dinajpur District, Bangladesh",
-  "lat": 25.63,
-  "lon": 88.65
+  "wikiTitle": "Dinajpur",
+  "lat": 25.629,
+  "lon": 88.637
  },
  {
   "id": "city-tangail",
@@ -55598,12 +55576,12 @@
    "red",
    "yellow"
   ],
-  "source": "English Wikipedia pageviews for \"Hội An, An Giang\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Vietnam",
-  "magnitude": 61,
+  "source": "English Wikipedia pageviews for \"Hội An (city)\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Vietnam",
+  "magnitude": 7580,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Hội An, An Giang",
-  "lat": 10.44583333,
-  "lon": 105.53944444
+  "wikiTitle": "Hội An (city)",
+  "lat": 15.87972222,
+  "lon": 108.33194444
  },
  {
   "id": "city-da-lat",
@@ -60215,12 +60193,12 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Sunshine Coast Stadium\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Australia",
-  "magnitude": 487,
+  "source": "English Wikipedia pageviews for \"Sunshine Coast, Queensland\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Australia",
+  "magnitude": 7488,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sunshine Coast Stadium",
-  "lat": -26.73388889,
-  "lon": 153.12611111
+  "wikiTitle": "Sunshine Coast, Queensland",
+  "lat": -26.65416667,
+  "lon": 153.09333333
  },
  {
   "id": "city-toowoomba",
@@ -61198,5 +61176,27 @@
   "wikiTitle": "Neiafu (Vavaʻu)",
   "lat": -18.65083333,
   "lon": -173.98305556
+ },
+ {
+  "id": "city-victoria",
+  "category": "city",
+  "name": "Victoria",
+  "aliases": [],
+  "size": 92000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Victoria, British Columbia\", 60-day daily median (60 days ending 2026-09-15); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 37746,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Victoria, British Columbia",
+  "lat": 48.42833333,
+  "lon": -123.36472222
  }
 ]

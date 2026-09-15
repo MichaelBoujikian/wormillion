@@ -37,7 +37,7 @@ const DAYS = 60;
 const EXPECTED = {
   country: ['countr', 'nation', 'state', 'republic', 'territory', 'kingdom', 'federation', 'island in', 'city-state', 'microstate', 'enclave'],
   capital: ['capital', 'city', 'town', 'municipal', 'seat', 'district', 'commune', 'village'],
-  city: ['city', 'town', 'municipal', 'metropolis', 'capital', 'district', 'commune', 'prefecture', 'borough', 'settlement', 'urban', 'port', 'seat', 'conurbation',
+  city: ['city', 'town', 'municipal', 'metropolis', 'capital', 'district', 'commune', 'prefecture', 'borough', 'settlement', 'urban', 'seaport', 'port city', 'port town', 'seat', 'conurbation',
     // the 2026-09 expansion: Wikidata describes Italian cities as "Comune in…", Spanish and Latin
     // American ones as "Place in…"/"Municipio", Maltese ones as "Local council", resorts as such
     'comune', 'municipio', 'local council', 'resort', 'quarter', 'castello', 'place in', 'census-designated'],
@@ -47,6 +47,15 @@ const EXPECTED = {
   desert: ['desert', 'sand', 'dune', 'arid', 'erg', 'steppe', 'area', 'region', 'plain'],
   island: ['island', 'isle', 'archipelago', 'atoll', 'islet', 'countr', 'territory', 'landmass'],
   sea_ocean: ['sea', 'ocean', 'gulf', 'bay', 'strait', 'body of water', 'water', 'channel', 'sound', 'basin']
+};
+
+// Words that mark an article as being about something that merely carries the
+// place's name. Checked against the resolved title and its description.
+// Whole words only: "Songhua" is not a song, "chief port of Jamaica" is a capital.
+const WRONG_SUBJECT = /\b(airport|aerodrome|airstrip|air base|railway station|metro station|train station|light rail|high school|university|crash|shipwreck|battle of|football club|sports club|stadium|hotel|company|newspaper|album|film|novel|song|sc)\b/i;
+const wrongSubject = (title, description) => {
+  const m = (title || '').match(WRONG_SUBJECT) || (description || '').match(WRONG_SUBJECT) || (title || '').match(/^port of /i);
+  return m ? m[0] : undefined;
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -174,6 +183,12 @@ function audit(entries) {
     if (entry.missing) problems.push({ ...entry, why: 'no such article' });
     else if (entry.disambiguation) problems.push({ ...entry, why: 'disambiguation page' });
     else if (WIKI_VERIFIED.has(entry.id)) continue; // subject checked by hand
+    // A title or description naming an airport, a station, a school, a crash… is a
+    // different subject that merely mentions the place (the 2026-09 audit found
+    // Pisa scoring on its airport); refuse it whatever the category words say.
+    else if (wrongSubject(entry.finalTitle, entry.description)) {
+      problems.push({ ...entry, why: `reads like a different subject (${wrongSubject(entry.finalTitle, entry.description)})` });
+    }
     else if (!entry.description) problems.push({ ...entry, why: 'no short description (unverified subject)' });
     else {
       const description = entry.description.toLowerCase();

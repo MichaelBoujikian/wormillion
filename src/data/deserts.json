@@ -465,7 +465,8 @@
   "category": "desert",
   "name": "Namib",
   "aliases": [
-   "Namib Desert"
+   "Namib Desert",
+   "Namib Sand Sea"
   ],
   "size": 81000,
   "sizeUnit": "area_km2",
@@ -883,26 +884,12 @@
   "aliases": [],
   "size": 78,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Great Sand Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference desert areas (km2), rounded",
-  "magnitude": 1339,
+  "source": "English Wikipedia pageviews for \"Great Sand Dunes National Park and Preserve\", 60-day daily median (60 days ending 2026-09-15); Standard reference desert areas (km2), rounded",
+  "magnitude": 6575,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Great Sand Sea",
-  "lat": 29.5,
-  "lon": 21.75
- },
- {
-  "id": "desert-namib-sand-sea",
-  "category": "desert",
-  "name": "Namib Sand Sea",
-  "aliases": [],
-  "size": 30777,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Namib\", 60-day daily median (60 days ending 2026-09-15); Standard reference desert areas (km2), rounded",
-  "magnitude": 7701,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Namib",
-  "lat": -24.75194444,
-  "lon": 15.27638889
+  "wikiTitle": "Great Sand Dunes National Park and Preserve",
+  "lat": 37.7329,
+  "lon": -105.5121
  },
  {
   "id": "desert-karoo",

@@ -843,13 +843,13 @@ Maranon|1600
 Ohio River|1579|Ohio
 Darling|1472|Darling River
 Murray|2508|Murray River
-Rhine|1230|the Rhine
+Rhine|1230|the Rhine,Rhein
 Ottawa River|1271|Ottawa
 Elbe|1094
-Vistula|1047
-Tagus|1007|Tejo
+Vistula|1047|Wisla
+Tagus|1007|Tejo,Tajo
 Loire|1006
-Meuse|925
+Meuse|925|Maas
 Ebro|930
 Douro|897|Duero
 Oder|854|Odra
@@ -873,7 +873,7 @@ Ouse|84|River Ouse
 Cam|64|River Cam
 Jordan River|251|Jordan
 Rhone|813|Rhone River
-Vltava|430
+Vltava|430|Moldau
 Sava|990
 Drava|710
 Neva|74
@@ -898,7 +898,7 @@ Senegal River|1086
 Gambia River|1120
 Volta River|1500
 Blue Nile|1450
-White Nile|3700
+White Nile|3700|Victoria Nile,Albert Nile,Bahr el Jebel
 Moselle|544
 Main|527|Main River
 Weser|452
@@ -1464,7 +1464,6 @@ Hron|298
 Nitra|197
 Ipel|232
 Hornad|286
-Slana|229
 Bodrog|55
 Latorica|188
 Laborec|132
@@ -1479,7 +1478,7 @@ Maly Dunaj|129
 Sio|116
 Zala|116
 Zagyva|179
-Sajo|229
+Sajo|229|Slana
 Berettyo|201
 Koros|91|Crisul,Cris
 Marcal|106
@@ -1516,7 +1515,7 @@ Ogosta|147
 Struma|415
 Mesta|273
 Arda|292
-Tundzha|350
+Tundzha|350|Tunca
 Kamchiya|245
 Vardar|388
 Bregalnica|225
@@ -1628,7 +1627,6 @@ Murat|722
 Karasu|450
 Botan|175
 Batman|165
-Zab|400
 Orontes|571
 Manavgat|92
 Koprucay|74
@@ -1641,7 +1639,6 @@ Bartin|133
 Filyos|228
 Nilufer|106
 Scamander (Karamenderes)|71
-Tunca|350
 Rioni|327
 Enguri|213
 Kodori|96
@@ -2059,7 +2056,6 @@ Nooksack|121|Nooksack River
 Wenatchee|85|Wenatchee River
 Yakima|344|Yakima River
 Methow|129|Methow River
-Okanogan|185|Okanogan River
 Palouse|265|Palouse River
 Walla Walla|76|Walla Walla River
 Elwha|72|Elwha River
@@ -2094,7 +2090,7 @@ Lillooet|130|Lillooet River
 Harrison|75|Harrison River
 Coquihalla|75|Coquihalla River
 Similkameen|225|Similkameen River
-Okanagan|200|Okanagan River
+Okanagan|200|Okanagan River,Okanogan
 Kettle|280|Kettle River
 Skeena|570|Skeena River
 Bulkley|233|Bulkley River
@@ -2179,7 +2175,7 @@ Usumacinta|1000|Rio Usumacinta
 Grijalva|640|Rio Grijalva
 Papaloapan|354|Rio Papaloapan
 Coatzacoalcos|325|Rio Coatzacoalcos
-Balsas|771|Rio Balsas
+Balsas|771|Rio Balsas,Atoyac
 Lerma|750|Rio Lerma
 Rio Grande de Santiago|562|Santiago River
 Panuco|510|Rio Panuco
@@ -2192,7 +2188,6 @@ Fuerte|560|Rio Fuerte
 Sinaloa|280|Rio Sinaloa
 Culiacan|875|Rio Culiacan
 Ameca|230|Rio Ameca
-Atoyac|320|Rio Atoyac
 Suchiate|180|Rio Suchiate
 Hondo|150|Rio Hondo
 Sonora|420|Rio Sonora
@@ -2275,7 +2270,6 @@ Oyapock|370|Oiapoque River
 Approuague|190|Approuague River
 Nickerie|320|Nickerie River
 Cottica|110|Cottica River
-Mana|400|Mana River
 Sinnamary|260|Sinnamary River
 Kourou|110|Kourou River
 Branco|560|Rio Branco
@@ -2419,7 +2413,7 @@ Kasai|2153|Kasai River
 Cunene|1050|Kunene,Cunene River
 Kwanza|960|Cuanza,Kwanza River
 Lualaba|1800|Lualaba River
-Cuando|1000|Kwando,Cuando River
+Cuando|1000|Kwando,Cuando River,Chobe
 Sangha|790|Sangha River
 Ogooue|1200|Ogooue River
 Kwango|1100|Cuango,Kwango River
@@ -2481,9 +2475,6 @@ Sobat|480|Sobat River
 Baro|300|Baro River
 Pibor|480|Pibor River
 Bahr el Ghazal|716
-Bahr el Jebel|716|Bahr al Jabal
-Victoria Nile|420
-Albert Nile|200
 Kagera|700|Akagera,Kagera River
 Nyabarongo|300|Nyabarongo River
 Semliki|230|Semliki River
@@ -2516,7 +2507,6 @@ Lugenda|500|Lugenda River
 Shire|402|Shire River
 Luangwa|770|Luangwa River
 Kafue|1576|Kafue River
-Chobe|400|Chobe River,Linyanti
 Kabompo|500|Kabompo River
 Luapula|450|Luapula River
 Chambeshi|480|Chambeshi River
@@ -2619,7 +2609,6 @@ Hotan|1127|Hotan River
 Yarkand|970
 Kashgar|1000
 Aksu|588
-Manas|400
 Ulungur|725
 Heihe|821
 Wei|818
@@ -2728,7 +2717,7 @@ Yarkon|27
 Khabur|486
 Balikh|104
 Diyala|445
-Great Zab|400
+Great Zab|400|Zab
 Little Zab|456
 Shatt al-Arab|200|Arvand Rud
 Ghaghara|1080
@@ -2990,7 +2979,7 @@ Dhaulagiri|8167
 Manaslu|8163
 Nanga Parbat|8126
 Annapurna|8091
-Gasherbrum I|8080|Hidden Peak
+Gasherbrum I|8080|Hidden Peak,Gasherbrum
 Gasherbrum II|8035|K4
 Broad Peak|8051
 Shishapangma|8027
@@ -3004,7 +2993,7 @@ Mount Logan|5959|Logan
 Cotopaxi|5897
 Kilimanjaro|5895|Mount Kilimanjaro,Uhuru Peak
 Elbrus|5642|Mount Elbrus
-Pico de Orizaba|5636|Citlaltepetl
+Pico de Orizaba|5636|Citlaltepetl,Orizaba
 Damavand|5610|Mount Damavand
 Popocatepetl|5426
 Mount Kenya|5199|Batian
@@ -3029,7 +3018,7 @@ Eiger|3967|The Eiger
 Mount Robson|3954|Robson
 Grossglockner|3798
 Mount Erebus|3794|Erebus
-Mount Fuji|3776|Fuji,Fujisan
+Mount Fuji|3776|Fuji,Fujisan,Fujiyama
 Aoraki|3724|Mount Cook,Aoraki Mount Cook
 Mount Teide|3715|Teide,Pico del Teide
 Thabana Ntlenyana|3482
@@ -3328,8 +3317,7 @@ Nevado de Toluca|4680
 La Malinche|4461
 Cofre de Perote|4282
 Paricutin|2800
-Colima Volcano|3820|Volcan de Colima,Fuego de Colima
-Nevado de Colima|4260
+Colima Volcano|3820|Volcan de Colima,Fuego de Colima,Nevado de Colima
 Cerro de la Silla|1820
 Ajusco|3930
 El Chichon|1150
@@ -3345,8 +3333,7 @@ Pacaya|2552
 Atitlan Volcano|3535|Volcan Atitlan
 Toliman Volcano|3158|Volcan Toliman
 San Pedro Volcano|3020
-Santa Maria Volcano|3772
-Santiaguito|2500
+Santa Maria Volcano|3772|Santiaguito
 Santa Ana Volcano|2381
 Izalco|1950
 San Salvador Volcano|1893
@@ -3376,8 +3363,7 @@ Soufriere Hills|915
 La Soufriere|1234
 La Grande Soufriere|1467
 Mount Pelee|1397
-Gros Piton|770
-Petit Piton|743
+Gros Piton|770|Pitons,Petit Piton
 Morne Diablotins|1447
 Morne Trois Pitons|1387
 Mount Liamuiga|1156
@@ -3873,7 +3859,6 @@ Djebel Chelia|2328|Chelia
 Mount Speke|4890
 Mount Emin|4791
 Mount Gessi|4715
-Mount Luigi di Savoia|4627
 Ouanoukrim|4089
 Jebel ech Chambi|1544|Djebel Chambi
 Bikku Bitti|2267
@@ -3929,14 +3914,14 @@ Kedarnath Peak|6940|Kedarnath
 Shivling|6543
 Chaukhamba|7138
 Panchchuli|6904
-Bandarpunch|6316
+Bandarpunch|6316|Kalanag
 Swargarohini|6252
 Thalay Sagar|6904
 Bhagirathi Parbat|6454
 Om Parvat|6191|Little Kailash
 Jannu|7710|Kumbhakarna
 Siniolchu|6888
-Kabru|7412
+Kabru|7412|Talung
 Pandim|6691
 Jomolhari|7326|Chomolhari
 Gangkhar Puensum|7570
@@ -3951,13 +3936,11 @@ Kang Yatse|6400
 Harmukh|5142
 Gyala Peri|7294
 Yalung Kang|8505|Kangchenjunga West
-Talung|7349
 Kirat Chuli|7365|Tent Peak
 Chomo Lonzo|7804
 Dorje Lakpa|6966
 Langtang Ri|7205
-Chulu West|6419
-Chulu East|6584
+Chulu West|6419|Chulu East,Chulu
 Pisang Peak|6091
 Tharpu Chuli|5663
 Hiunchuli|6441
@@ -3971,7 +3954,6 @@ Mana Peak|7272
 Mukut Parbat|7242
 Satopanth|7075
 Abi Gamin|7355
-Kalanag|6387|Black Peak
 Nyenchen Tanglha|7162|Nyainqentanglha
 Masherbrum|7821|K1
 Rakaposhi|7788
@@ -4152,7 +4134,7 @@ Mount Salak|2211|Salak
 Mount Papandayan|2665|Papandayan
 Mount Galunggung|2168|Galunggung
 Kelud|1731|Mount Kelud
-Mount Arjuno|3339|Arjuno
+Mount Arjuno|3339|Arjuno,Welirang,Arjuno-Welirang
 Raung|3344|Mount Raung
 Mount Leuser|3119|Leuser
 Mount Sibayak|2212|Sibayak
@@ -4179,7 +4161,6 @@ Talang|2597|Mount Talang
 Singgalang|2877|Mount Singgalang
 Mount Pangrango|3019|Pangrango
 Ciremai|3078|Mount Ciremai
-Welirang|3156|Mount Welirang
 Anak Krakatoa|157|Anak Krakatau
 Sirung|862|Mount Sirung
 Iya|637|Mount Iya
@@ -4335,7 +4316,7 @@ Mojave Desert|124000|Mojave
 Little Sandy Desert|111500
 Atacama Desert|105000|Atacama
 Ordos Desert|90650
-Namib|81000|Namib Desert
+Namib|81000|Namib Desert,Namib Sand Sea
 Strzelecki Desert|80000
 Dasht-e Kavir|77600|Great Salt Desert
 Dasht-e Lut|51800|Lut Desert
@@ -4365,7 +4346,6 @@ Chalbi Desert|100000
 Death Valley|7800
 White Sands|712|White Sands National Monument
 Great Sand Dunes|78
-Namib Sand Sea|30777
 Karoo|400000|Great Karoo
 Rann of Kutch|30000|Rann of Kachchh
 An Nafud|57000|Nafud Desert
@@ -5165,8 +5145,7 @@ Pulau Ubin|10.19
 Pedra Branca|0.008
 Nusa Penida|202.8
 Nusa Lembongan|8
-Gili Trawangan|3
-Gili Islands|3.65
+Gili Islands|3.65|Gili Trawangan
 Madura|4250
 Bangka|11693|Bangka Island
 Belitung|4800
@@ -5782,6 +5761,7 @@ Oedo|0.09|Oedo Botania
 Hansando|21.32|Hansan Island
 Dolsan|63|Dolsan Island,Dolsando
 Odongdo|0.12
+Coney Island|4
 `;
 
 export const SEAS_OCEANS = `
@@ -5880,13 +5860,13 @@ Bali Sea|45000
 Ceram Sea|12000
 Mozambique Channel|700000
 Chesapeake Bay|11601
-Strait of Gibraltar|600
-Strait of Hormuz|11000
-Strait of Malacca|100000
+Strait of Gibraltar|600|Gibraltar
+Strait of Hormuz|11000|Hormuz
+Strait of Malacca|100000|Malacca
 Bosphorus|40|Istanbul Strait
 Dardanelles|200|Hellespont
 Bering Strait|3200
-Strait of Magellan|5850|Straits of Magellan
+Strait of Magellan|5850|Straits of Magellan,Magellan
 Drake Passage|700000
 Davis Strait|360000
 Denmark Strait|140000
@@ -5902,12 +5882,12 @@ Lombok Strait|2100
 Makassar Strait|160000
 Palk Strait|4000
 Bab-el-Mandeb|3000|Bab al-Mandab
-Strait of Dover|1500|Dover Strait
-Strait of Bonifacio|700
-Strait of Messina|110
-Strait of Otranto|4000
+Strait of Dover|1500|Dover Strait,Dover
+Strait of Bonifacio|700|Bonifacio
+Strait of Messina|110|Messina
+Strait of Otranto|4000|Otranto
 Kerch Strait|180
-Strait of Juan de Fuca|3000
+Strait of Juan de Fuca|3000|Juan de Fuca
 Straits of Florida|45000
 Windward Passage|6000
 Mona Passage|5000
@@ -5949,7 +5929,7 @@ Thracian Sea|20000
 Icarian Sea|7000|Ikarian Sea
 Libyan Sea|60000
 Sea of Sardinia|30000
-Strait of Sicily|30000|Sicilian Channel
+Strait of Sicily|30000|Sicilian Channel,Sicily
 Pagasetic Gulf|500|Pagasitic Gulf
 Argolic Gulf|2000
 Laconian Gulf|1600

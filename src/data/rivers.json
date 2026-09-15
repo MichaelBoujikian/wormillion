@@ -943,7 +943,8 @@
   "category": "river",
   "name": "Rhine",
   "aliases": [
-   "the Rhine"
+   "the Rhine",
+   "Rhein"
   ],
   "size": 1230,
   "sizeUnit": "length_km",
@@ -988,7 +989,9 @@
   "id": "river-vistula",
   "category": "river",
   "name": "Vistula",
-  "aliases": [],
+  "aliases": [
+   "Wisla"
+  ],
   "size": 1047,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Vistula\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1003,7 +1006,8 @@
   "category": "river",
   "name": "Tagus",
   "aliases": [
-   "Tejo"
+   "Tejo",
+   "Tajo"
   ],
   "size": 1007,
   "sizeUnit": "length_km",
@@ -1030,7 +1034,9 @@
   "id": "river-meuse",
   "category": "river",
   "name": "Meuse",
-  "aliases": [],
+  "aliases": [
+   "Maas"
+  ],
   "size": 925,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Meuse\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1400,7 +1406,9 @@
   "id": "river-vltava",
   "category": "river",
   "name": "Vltava",
-  "aliases": [],
+  "aliases": [
+   "Moldau"
+  ],
   "size": 430,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Vltava\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1756,7 +1764,11 @@
   "id": "river-white-nile",
   "category": "river",
   "name": "White Nile",
-  "aliases": [],
+  "aliases": [
+   "Victoria Nile",
+   "Albert Nile",
+   "Bahr el Jebel"
+  ],
   "size": 3700,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"White Nile\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -9889,18 +9901,6 @@
   "lon": 20.9296
  },
  {
-  "id": "river-slana",
-  "category": "river",
-  "name": "Slana",
-  "aliases": [],
-  "size": 229,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Sajó\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 304,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sajó"
- },
- {
   "id": "river-bodrog",
   "category": "river",
   "name": "Bodrog",
@@ -10100,7 +10100,9 @@
   "id": "river-sajo",
   "category": "river",
   "name": "Sajo",
-  "aliases": [],
+  "aliases": [
+   "Slana"
+  ],
   "size": 229,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Sajó\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -10607,7 +10609,9 @@
   "id": "river-tundzha",
   "category": "river",
   "name": "Tundzha",
-  "aliases": [],
+  "aliases": [
+   "Tunca"
+  ],
   "size": 350,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Tundzha\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -12164,20 +12168,6 @@
   "lon": 41.01666667
  },
  {
-  "id": "river-zab",
-  "category": "river",
-  "name": "Zab",
-  "aliases": [],
-  "size": 400,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Great Zab\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 1248,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Great Zab",
-  "lat": 35.99111111,
-  "lon": 43.34361111
- },
- {
   "id": "river-orontes",
   "category": "river",
   "name": "Orontes",
@@ -12342,20 +12332,6 @@
   "wikiTitle": "Karamenderes River",
   "lat": 40.00388889,
   "lon": 26.22361111
- },
- {
-  "id": "river-tunca",
-  "category": "river",
-  "name": "Tunca",
-  "aliases": [],
-  "size": 350,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Tundzha\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 365,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tundzha",
-  "lat": 41.6616,
-  "lon": 26.5622
  },
  {
   "id": "river-rioni",
@@ -18551,22 +18527,6 @@
   "lon": -119.89527778
  },
  {
-  "id": "river-okanogan",
-  "category": "river",
-  "name": "Okanogan",
-  "aliases": [
-   "Okanogan River"
-  ],
-  "size": 185,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Okanogan River\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 639,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Okanogan River",
-  "lat": 48.09833333,
-  "lon": -119.73416667
- },
- {
   "id": "river-palouse",
   "category": "river",
   "name": "Palouse",
@@ -19115,7 +19075,8 @@
   "category": "river",
   "name": "Okanagan",
   "aliases": [
-   "Okanagan River"
+   "Okanagan River",
+   "Okanogan"
   ],
   "size": 200,
   "sizeUnit": "length_km",
@@ -20466,7 +20427,8 @@
   "category": "river",
   "name": "Balsas",
   "aliases": [
-   "Rio Balsas"
+   "Rio Balsas",
+   "Atoyac"
   ],
   "size": 771,
   "sizeUnit": "length_km",
@@ -20668,22 +20630,6 @@
   "wikiTitle": "Ameca River",
   "lat": 20.6725,
   "lon": -105.281
- },
- {
-  "id": "river-atoyac",
-  "category": "river",
-  "name": "Atoyac",
-  "aliases": [
-   "Rio Atoyac"
-  ],
-  "size": 320,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Balsas River\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 883,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Balsas River",
-  "lat": 17.94027778,
-  "lon": -102.13611111
  },
  {
   "id": "river-suchiate",
@@ -21979,22 +21925,6 @@
   "wikiTitle": "Cottica River",
   "lat": 5.866667,
   "lon": -54.866667
- },
- {
-  "id": "river-mana",
-  "category": "river",
-  "name": "Mana",
-  "aliases": [
-   "Mana River"
-  ],
-  "size": 400,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Manas River\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 548,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Manas River",
-  "lat": 26.21666667,
-  "lon": 90.63333333
  },
  {
   "id": "river-sinnamary",
@@ -24282,7 +24212,8 @@
   "name": "Cuando",
   "aliases": [
    "Kwando",
-   "Cuando River"
+   "Cuando River",
+   "Chobe"
   ],
   "size": 1000,
   "sizeUnit": "length_km",
@@ -25269,44 +25200,6 @@
   "lon": 30.41666667
  },
  {
-  "id": "river-bahr-el-jebel",
-  "category": "river",
-  "name": "Bahr el Jebel",
-  "aliases": [
-   "Bahr al Jabal"
-  ],
-  "size": 716,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"White Nile\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 7062,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "White Nile"
- },
- {
-  "id": "river-victoria-nile",
-  "category": "river",
-  "name": "Victoria Nile",
-  "aliases": [],
-  "size": 420,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"White Nile\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 7062,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "White Nile"
- },
- {
-  "id": "river-albert-nile",
-  "category": "river",
-  "name": "Albert Nile",
-  "aliases": [],
-  "size": 200,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"White Nile\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 7062,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "White Nile"
- },
- {
   "id": "river-kagera",
   "category": "river",
   "name": "Kagera",
@@ -25818,23 +25711,6 @@
   "wikiTitle": "Kafue River",
   "lat": -15.9429,
   "lon": 28.9143
- },
- {
-  "id": "river-chobe",
-  "category": "river",
-  "name": "Chobe",
-  "aliases": [
-   "Chobe River",
-   "Linyanti"
-  ],
-  "size": 400,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Cuando River\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 548,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Cuando River",
-  "lat": -18.50222222,
-  "lon": 23.61611111
  },
  {
   "id": "river-kabompo",
@@ -27381,20 +27257,6 @@
   "wikiTitle": "Aksu (Lake Balkhash)",
   "lat": 46.32342,
   "lon": 78.21004
- },
- {
-  "id": "river-manas",
-  "category": "river",
-  "name": "Manas",
-  "aliases": [],
-  "size": 400,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Manas River\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 548,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Manas River",
-  "lat": 26.21666667,
-  "lon": 90.63333333
  },
  {
   "id": "river-ulungur",
@@ -28966,7 +28828,9 @@
   "id": "river-great-zab",
   "category": "river",
   "name": "Great Zab",
-  "aliases": [],
+  "aliases": [
+   "Zab"
+  ],
   "size": 400,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Great Zab\", 60-day daily median (60 days ending 2026-09-15); Standard reference lengths (km); one figure picked per river, see Spec 6.2",

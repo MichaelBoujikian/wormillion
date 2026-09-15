@@ -93,7 +93,7 @@ Tajikistan|Dushanbe|10100000|Asia|Central Asia
 Israel|Jerusalem|9800000|Asia|Middle East||Tel Aviv
 United Arab Emirates|Abu Dhabi|9500000|Asia|Middle East|UAE,Emirates,The Emirates
 Laos|Vientiane|7600000|Asia|Southeast Asia|Lao
-Kyrgyzstan|Bishkek|6700000|Asia|Central Asia|Kyrgyz Republic
+Kyrgyzstan|Bishkek|6700000|Asia|Central Asia|Kyrgyz Republic,Kirghizstan
 Turkmenistan|Ashgabat|6500000|Asia|Central Asia
 Singapore|Singapore|5900000|Asia|Southeast Asia
 Lebanon|Beirut|5400000|Asia|Middle East

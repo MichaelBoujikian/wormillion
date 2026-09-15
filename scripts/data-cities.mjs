@@ -297,7 +297,7 @@ San Antonio|United States|1500000
 San Diego|United States|1400000
 Dallas|United States|1300000
 Austin|United States|980000
-San Francisco|United States|810000
+San Francisco|United States|810000|SF
 Seattle|United States|750000
 Denver|United States|720000
 Las Vegas|United States|660000|Vegas
@@ -1093,7 +1093,6 @@ La Chorrera|Panama|180000
 Portobelo|Panama|4000
 San Ignacio|Belize|21000
 Dangriga|Belize|11000
-Placencia|Belize|2000
 Corozal|Belize|10000
 San Pedro|Belize|20000
 Cienfuegos|Cuba|150000
@@ -2602,4 +2601,5 @@ Auki|Solomon Islands|6000
 Luganville|Vanuatu|16000
 Salelologa|Samoa|4000
 Neiafu|Tonga|4000
+Victoria|Canada|92000
 `;

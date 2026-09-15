@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-15",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-15T16:02:23.738Z",
+ "fetched": "2026-09-15T16:34:03.759Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -7089,11 +7089,11 @@
    "lon": 1.29277778
   },
   "city-preston": {
-   "title": "Preston, Adams County, Wisconsin",
-   "monthlyViews": 30,
-   "days": 59,
-   "lat": 44.02027778,
-   "lon": -89.78861111
+   "title": "Preston, Lancashire",
+   "monthlyViews": 15372,
+   "days": 60,
+   "lat": 53.759,
+   "lon": -2.699
   },
   "city-milton-keynes": {
    "title": "Milton Keynes",
@@ -8440,11 +8440,11 @@
    "lon": 8.24083333
   },
   "city-koblenz": {
-   "title": "Mayen-Koblenz",
-   "monthlyViews": 213,
+   "title": "Koblenz",
+   "monthlyViews": 12115,
    "days": 60,
-   "lat": 50.33,
-   "lon": 7.33
+   "lat": 50.35972222,
+   "lon": 7.59777778
   },
   "city-wittenberg": {
    "title": "Wittenberg",
@@ -8622,11 +8622,11 @@
    "lon": 7.28333333
   },
   "city-appenzell": {
-   "title": "Appenzell District",
-   "monthlyViews": 152,
+   "title": "Appenzell (village)",
+   "monthlyViews": 1157,
    "days": 60,
-   "lat": 47.33333333,
-   "lon": 9.41666667
+   "lat": 47.33111111,
+   "lon": 9.41138889
   },
   "city-zug": {
    "title": "Zug",
@@ -8846,11 +8846,11 @@
    "lon": 15.09027778
   },
   "city-pisa": {
-   "title": "Pisa International Airport",
-   "monthlyViews": 3622,
+   "title": "Pisa",
+   "monthlyViews": 16072,
    "days": 60,
-   "lat": 43.68388889,
-   "lon": 10.3925
+   "lat": 43.71666667,
+   "lon": 10.4
   },
   "city-siena": {
    "title": "Siena",
@@ -8902,11 +8902,11 @@
    "lon": 10.63333333
   },
   "city-perugia": {
-   "title": "Perugia San Francesco d'Assisi – Umbria International Airport",
-   "monthlyViews": 1126,
+   "title": "Perugia",
+   "monthlyViews": 13911,
    "days": 60,
-   "lat": null,
-   "lon": null
+   "lat": 43.11222222,
+   "lon": 12.38888889
   },
   "city-livorno": {
    "title": "Livorno",
@@ -8958,18 +8958,18 @@
    "lon": 9.27361111
   },
   "city-bergamo": {
-   "title": "Milan Bergamo Airport",
-   "monthlyViews": 5601,
+   "title": "Bergamo",
+   "monthlyViews": 15494,
    "days": 60,
-   "lat": 45.66888889,
-   "lon": 9.70027778
+   "lat": 45.695,
+   "lon": 9.67
   },
   "city-trento": {
-   "title": "Trento-Mattarello Airport",
-   "monthlyViews": 244,
+   "title": "Trento",
+   "monthlyViews": 15159,
    "days": 60,
-   "lat": 46.02333333,
-   "lon": 11.125
+   "lat": 46.06666667,
+   "lon": 11.11666667
   },
   "city-bolzano": {
    "title": "Bolzano",
@@ -8986,11 +8986,11 @@
    "lon": 11.55
   },
   "city-treviso": {
-   "title": "Treviso Airport",
-   "monthlyViews": 1826,
+   "title": "Treviso",
+   "monthlyViews": 8584,
    "days": 60,
-   "lat": 45.65083333,
-   "lon": 12.19777778
+   "lat": 45.6658,
+   "lon": 12.2456
   },
   "city-udine": {
    "title": "Udine",
@@ -9378,11 +9378,11 @@
    "lon": -8.65
   },
   "city-evora": {
-   "title": "Roman Temple of Évora",
-   "monthlyViews": 974,
+   "title": "Évora District",
+   "monthlyViews": 517,
    "days": 60,
-   "lat": 38.57306,
-   "lon": -7.90778472
+   "lat": 38.57,
+   "lon": -7.91
   },
   "city-guimaraes": {
    "title": "Guimarães",
@@ -9651,11 +9651,11 @@
    "lon": 22.11111111
   },
   "city-corinth": {
-   "title": "Corinth, Arkansas",
-   "monthlyViews": 61,
+   "title": "Corinth (modern city)",
+   "monthlyViews": 8219,
    "days": 60,
-   "lat": 35.06916667,
-   "lon": -93.42333333
+   "lat": 37.93861111,
+   "lon": 22.92722222
   },
   "city-piraeus": {
    "title": "Piraeus",
@@ -9868,11 +9868,11 @@
    "lon": -87.0755
   },
   "city-tulum": {
-   "title": "Tulum International Airport",
-   "monthlyViews": 2374,
+   "title": "Tulum",
+   "monthlyViews": 12176,
    "days": 60,
-   "lat": 20.17222222,
-   "lon": -87.66055556
+   "lat": 20.21472222,
+   "lon": -87.42888889
   },
   "city-zacatecas": {
    "title": "Zacatecas (city)",
@@ -9938,11 +9938,11 @@
    "lon": -99.23416667
   },
   "city-nezahualcoyotl": {
-   "title": "Nezahualcóyotl metro station",
-   "monthlyViews": 30,
+   "title": "Ciudad Nezahualcóyotl",
+   "monthlyViews": 3348,
    "days": 60,
-   "lat": 19.473066,
-   "lon": -99.054537
+   "lat": 19.40805556,
+   "lon": -99.01861111
   },
   "city-ecatepec": {
    "title": "Ecatepec de Morelos",
@@ -10008,11 +10008,11 @@
    "lon": -98.75
   },
   "city-chetumal": {
-   "title": "Chetumal International Airport",
-   "monthlyViews": 457,
+   "title": "Chetumal",
+   "monthlyViews": 1857,
    "days": 60,
-   "lat": 18.50466667,
-   "lon": -88.32684722
+   "lat": 18.50361111,
+   "lon": -88.30527778
   },
   "city-san-cristobal-de-las-casas": {
    "title": "San Cristóbal de las Casas",
@@ -10253,11 +10253,11 @@
    "lon": -82.43333333
   },
   "city-boquete": {
-   "title": "Boquete District",
-   "monthlyViews": 183,
+   "title": "Boquete, Chiriquí",
+   "monthlyViews": 3531,
    "days": 60,
-   "lat": 8.5,
-   "lon": -82.56
+   "lat": 8.78,
+   "lon": -82.44
   },
   "city-santiago-de-veraguas": {
    "title": "Santiago de Veraguas",
@@ -10293,13 +10293,6 @@
    "days": 60,
    "lat": 16.96666667,
    "lon": -88.21666667
-  },
-  "city-placencia": {
-   "title": "Placencia Airport",
-   "monthlyViews": 213,
-   "days": 60,
-   "lat": 16.53722222,
-   "lon": -88.36111111
   },
   "city-corozal": {
    "title": "Corozal Town",
@@ -10498,11 +10491,11 @@
    "lon": -77.5
   },
   "city-negril": {
-   "title": "Negril Aerodrome",
-   "monthlyViews": 152,
+   "title": "Negril",
+   "monthlyViews": 1826,
    "days": 60,
-   "lat": 18.34,
-   "lon": -78.33833333
+   "lat": 18.3110182,
+   "lon": -78.339386
   },
   "city-port-antonio": {
    "title": "Port Royal",
@@ -10554,11 +10547,11 @@
    "lon": -61.0592
   },
   "city-vieux-fort": {
-   "title": "Vieux Fort District",
-   "monthlyViews": 91,
+   "title": "Vieux Fort, Saint Lucia",
+   "monthlyViews": 365,
    "days": 60,
-   "lat": 13.75,
-   "lon": -60.95
+   "lat": 13.728,
+   "lon": -60.954
   },
   "city-grenville": {
    "title": "Grenville, Grenada",
@@ -10568,11 +10561,11 @@
    "lon": -61.62638889
   },
   "city-codrington": {
-   "title": "Barbuda Codrington Airport",
-   "monthlyViews": 152,
+   "title": "Codrington, Antigua and Barbuda",
+   "monthlyViews": 791,
    "days": 60,
-   "lat": 17.63583333,
-   "lon": -61.82694444
+   "lat": 17.63333333,
+   "lon": -61.83333333
   },
   "city-charlestown": {
    "title": "Charlestown, Nevis",
@@ -11450,11 +11443,11 @@
    "lon": -69.08333333
   },
   "city-sorata": {
-   "title": "Sorata Municipality",
-   "monthlyViews": 30,
-   "days": 49,
-   "lat": -15.75,
-   "lon": -68.53333333
+   "title": "Sorata",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -15.77333333,
+   "lon": -68.64805556
   },
   "city-ciudad-del-este": {
    "title": "Ciudad del Este",
@@ -12311,11 +12304,11 @@
    "lon": 32.87333333
   },
   "city-abu-simbel": {
-   "title": "Abu Simbel Airport",
-   "monthlyViews": 517,
+   "title": "Abu Simbel",
+   "monthlyViews": 16803,
    "days": 60,
-   "lat": 22.37591667,
-   "lon": 31.61163889
+   "lat": 22.33694444,
+   "lon": 31.62555556
   },
   "city-helwan": {
    "title": "Helwan",
@@ -13228,18 +13221,18 @@
    "lon": 30.91083333
   },
   "city-huye": {
-   "title": "Huye District",
-   "monthlyViews": 213,
+   "title": "Butare",
+   "monthlyViews": 913,
    "days": 60,
-   "lat": -2.51666667,
-   "lon": 29.7
+   "lat": null,
+   "lon": null
   },
   "city-musanze": {
-   "title": "Musanze District",
-   "monthlyViews": 365,
+   "title": "Musanze",
+   "monthlyViews": 122,
    "days": 60,
-   "lat": -1.5,
-   "lon": 29.6
+   "lat": null,
+   "lon": null
   },
   "city-rubavu": {
    "title": "Rubavu District",
@@ -13900,11 +13893,11 @@
    "lon": 41.27694444
   },
   "city-malatya": {
-   "title": "Malatya Erhaç Airport",
-   "monthlyViews": 274,
+   "title": "Malatya",
+   "monthlyViews": 4505,
    "days": 60,
-   "lat": 38.43527778,
-   "lon": 38.09083333
+   "lat": 38.35018056,
+   "lon": 38.31666944
   },
   "city-denizli": {
    "title": "Denizli",
@@ -13984,10 +13977,10 @@
    "lon": 37.88333333
   },
   "city-safranbolu": {
-   "title": "Safranbolu District",
-   "monthlyViews": 61,
+   "title": "Safranbolu",
+   "monthlyViews": 1096,
    "days": 60,
-   "lat": 41.25,
+   "lat": 41.24944444,
    "lon": 32.68333333
   },
   "city-amasya": {
@@ -14663,11 +14656,11 @@
    "lon": 49.65444444
   },
   "city-al-ula": {
-   "title": "Al-Ula International Airport",
-   "monthlyViews": 639,
+   "title": "Al-Ula",
+   "monthlyViews": 8036,
    "days": 60,
-   "lat": null,
-   "lon": null
+   "lat": 26.60853,
+   "lon": 37.92316
   },
   "city-hofuf": {
    "title": "Hofuf",
@@ -14838,11 +14831,11 @@
    "lon": 48.03333333
   },
   "city-salmiya": {
-   "title": "Al-Salmiya SC",
+   "title": "Salmiya",
    "monthlyViews": 731,
    "days": 60,
-   "lat": null,
-   "lon": null
+   "lat": 29.33333333,
+   "lon": 48.08333333
   },
   "city-jahra": {
    "title": "Al Jahra",
@@ -16987,11 +16980,11 @@
    "lon": 84.96666667
   },
   "city-orenburg": {
-   "title": "Orenburg Airport",
-   "monthlyViews": 244,
+   "title": "Orenburg",
+   "monthlyViews": 5905,
    "days": 60,
-   "lat": 51.79578611,
-   "lon": 55.45674444
+   "lat": 51.78333333,
+   "lon": 55.1
   },
   "city-kemerovo": {
    "title": "Kemerovo",
@@ -18583,11 +18576,11 @@
    "lon": 89.41666667
   },
   "city-punakha": {
-   "title": "Punakha District",
-   "monthlyViews": 274,
+   "title": "Punakha",
+   "monthlyViews": 1248,
    "days": 60,
-   "lat": 27.66666667,
-   "lon": 89.83333333
+   "lat": 27.58333333,
+   "lon": 89.85833333
   },
   "city-trongsa": {
    "title": "Trongsa",
@@ -18688,11 +18681,11 @@
    "lon": 89.209
   },
   "city-dinajpur": {
-   "title": "Dinajpur District, Bangladesh",
-   "monthlyViews": 1005,
+   "title": "Dinajpur",
+   "monthlyViews": 944,
    "days": 60,
-   "lat": 25.63,
-   "lon": 88.65
+   "lat": 25.629,
+   "lon": 88.637
   },
   "city-tangail": {
    "title": "Tangail",
@@ -19199,11 +19192,11 @@
    "lon": 105.78333333
   },
   "city-hoi-an": {
-   "title": "Hội An, An Giang",
-   "monthlyViews": 61,
+   "title": "Hội An (city)",
+   "monthlyViews": 7580,
    "days": 60,
-   "lat": 10.44583333,
-   "lon": 105.53944444
+   "lat": 15.87972222,
+   "lon": 108.33194444
   },
   "city-da-lat": {
    "title": "Da Lat",
@@ -20557,11 +20550,11 @@
    "lon": 153.615
   },
   "city-sunshine-coast": {
-   "title": "Sunshine Coast Stadium",
-   "monthlyViews": 487,
+   "title": "Sunshine Coast, Queensland",
+   "monthlyViews": 7488,
    "days": 60,
-   "lat": -26.73388889,
-   "lon": 153.12611111
+   "lat": -26.65416667,
+   "lon": 153.09333333
   },
   "city-toowoomba": {
    "title": "Toowoomba",
@@ -20856,6 +20849,13 @@
    "days": 60,
    "lat": -18.65083333,
    "lon": -173.98305556
+  },
+  "city-victoria": {
+   "title": "Victoria, British Columbia",
+   "monthlyViews": 37746,
+   "days": 60,
+   "lat": 48.42833333,
+   "lon": -123.36472222
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",
@@ -23476,11 +23476,11 @@
    "lon": 28.6553
   },
   "lake-lake-abant": {
-   "title": "Lake Bafa",
-   "monthlyViews": 548,
+   "title": "Lake Abant National Park",
+   "monthlyViews": 213,
    "days": 60,
-   "lat": 37.5,
-   "lon": 27.41666667
+   "lat": 40.6,
+   "lon": 31.26666667
   },
   "lake-lake-vrana": {
    "title": "Lake Vrana (Dalmatia)",
@@ -24463,11 +24463,11 @@
    "lon": -106.83583333
   },
   "lake-lake-of-bays": {
-   "title": "Lake Ontario",
-   "monthlyViews": 15342,
+   "title": "Lake of Bays",
+   "monthlyViews": 791,
    "days": 60,
-   "lat": 43.7,
-   "lon": -77.9
+   "lat": 45.3075,
+   "lon": -79.00638889
   },
   "lake-wollaston-lake": {
    "title": "Wollaston Lake",
@@ -25044,11 +25044,11 @@
    "lon": 36.26666667
   },
   "lake-lake-rukwa": {
-   "title": "Lake Rukwa",
-   "monthlyViews": 609,
+   "title": "African Great Lakes",
+   "monthlyViews": 12480,
    "days": 60,
    "lat": -8,
-   "lon": 32.41666667
+   "lon": 35
   },
   "lake-lake-kyoga": {
    "title": "Lake Kyoga",
@@ -31000,13 +31000,6 @@
    "lat": 47.9903,
    "lon": 20.9296
   },
-  "river-slana": {
-   "title": "Sajó",
-   "monthlyViews": 304,
-   "days": 60,
-   "lat": null,
-   "lon": null
-  },
   "river-bodrog": {
    "title": "Bodrog",
    "monthlyViews": 213,
@@ -32148,13 +32141,6 @@
    "lat": 37.78333333,
    "lon": 41.01666667
   },
-  "river-zab": {
-   "title": "Great Zab",
-   "monthlyViews": 1248,
-   "days": 60,
-   "lat": 35.99111111,
-   "lon": 43.34361111
-  },
   "river-orontes": {
    "title": "Orontes River",
    "monthlyViews": 3135,
@@ -32238,13 +32224,6 @@
    "days": 60,
    "lat": 40.00388889,
    "lon": 26.22361111
-  },
-  "river-tunca": {
-   "title": "Tundzha",
-   "monthlyViews": 365,
-   "days": 60,
-   "lat": 41.6616,
-   "lon": 26.5622
   },
   "river-rioni": {
    "title": "Rioni",
@@ -35165,13 +35144,6 @@
    "lat": 48.05055556,
    "lon": -119.89527778
   },
-  "river-okanogan": {
-   "title": "Okanogan River",
-   "monthlyViews": 639,
-   "days": 60,
-   "lat": 48.09833333,
-   "lon": -119.73416667
-  },
   "river-palouse": {
    "title": "Palouse River",
    "monthlyViews": 426,
@@ -36096,13 +36068,6 @@
    "lat": 20.6725,
    "lon": -105.281
   },
-  "river-atoyac": {
-   "title": "Balsas River",
-   "monthlyViews": 883,
-   "days": 60,
-   "lat": 17.94027778,
-   "lon": -102.13611111
-  },
   "river-suchiate": {
    "title": "Suchiate River",
    "monthlyViews": 122,
@@ -36676,13 +36641,6 @@
    "days": 59,
    "lat": 5.866667,
    "lon": -54.866667
-  },
-  "river-mana": {
-   "title": "Manas River",
-   "monthlyViews": 548,
-   "days": 60,
-   "lat": 26.21666667,
-   "lon": 90.63333333
   },
   "river-sinnamary": {
    "title": "Sinnamary (river)",
@@ -38119,27 +38077,6 @@
    "lat": 9.51666667,
    "lon": 30.41666667
   },
-  "river-bahr-el-jebel": {
-   "title": "White Nile",
-   "monthlyViews": 7062,
-   "days": 60,
-   "lat": null,
-   "lon": null
-  },
-  "river-victoria-nile": {
-   "title": "White Nile",
-   "monthlyViews": 7062,
-   "days": 60,
-   "lat": null,
-   "lon": null
-  },
-  "river-albert-nile": {
-   "title": "White Nile",
-   "monthlyViews": 7062,
-   "days": 60,
-   "lat": null,
-   "lon": null
-  },
   "river-kagera": {
    "title": "Kagera River",
    "monthlyViews": 1613,
@@ -38363,13 +38300,6 @@
    "days": 60,
    "lat": -15.9429,
    "lon": 28.9143
-  },
-  "river-chobe": {
-   "title": "Cuando River",
-   "monthlyViews": 548,
-   "days": 60,
-   "lat": -18.50222222,
-   "lon": 23.61611111
   },
   "river-kabompo": {
    "title": "Kabompo River",
@@ -39084,13 +39014,6 @@
    "days": 59,
    "lat": 46.32342,
    "lon": 78.21004
-  },
-  "river-manas": {
-   "title": "Manas River",
-   "monthlyViews": 548,
-   "days": 60,
-   "lat": 26.21666667,
-   "lon": 90.63333333
   },
   "river-ulungur": {
    "title": "Ulungur River",
@@ -42712,11 +42635,11 @@
    "lon": -115.55583333
   },
   "mountain-mount-norquay": {
-   "title": "Mount Robson",
-   "monthlyViews": 6758,
+   "title": "Mount Norquay",
+   "monthlyViews": 487,
    "days": 60,
-   "lat": 53.11055556,
-   "lon": -119.15638889
+   "lat": 51.204,
+   "lon": -115.599
   },
   "mountain-mount-edith-cavell": {
    "title": "Mount Edith Cavell",
@@ -43195,11 +43118,11 @@
    "lon": -72.61833333
   },
   "mountain-puyehue": {
-   "title": "Puyehue National Park",
-   "monthlyViews": 122,
+   "title": "Puyehue-Cordón Caulle",
+   "monthlyViews": 700,
    "days": 60,
-   "lat": -40.64888889,
-   "lon": -72.08444444
+   "lat": -40.59027778,
+   "lon": -72.11722222
   },
   "mountain-descabezado-grande": {
    "title": "Descabezado Grande",
@@ -43685,11 +43608,11 @@
    "lon": -146.71527778
   },
   "mountain-mount-redoubt": {
-   "title": "Mount Redoubt (Washington)",
-   "monthlyViews": 91,
+   "title": "Mount Redoubt",
+   "monthlyViews": 1826,
    "days": 60,
-   "lat": 48.9581844,
-   "lon": -121.3018
+   "lat": 60.485,
+   "lon": -152.742
   },
   "mountain-mount-spurr": {
    "title": "Mount Spurr",
@@ -44034,13 +43957,6 @@
    "lat": 19.512727,
    "lon": -103.617241
   },
-  "mountain-nevado-de-colima": {
-   "title": "Volcán de Colima",
-   "monthlyViews": 1705,
-   "days": 60,
-   "lat": 19.512727,
-   "lon": -103.617241
-  },
   "mountain-cerro-de-la-silla": {
    "title": "Cerro de la Silla",
    "monthlyViews": 1826,
@@ -44147,13 +44063,6 @@
    "lon": -91.26583333
   },
   "mountain-santa-maria-volcano": {
-   "title": "Santa María (volcano)",
-   "monthlyViews": 1979,
-   "days": 60,
-   "lat": 14.75555556,
-   "lon": -91.55166667
-  },
-  "mountain-santiaguito": {
    "title": "Santa María (volcano)",
    "monthlyViews": 1979,
    "days": 60,
@@ -44370,13 +44279,6 @@
    "lat": 13.81,
    "lon": -61.06555556
   },
-  "mountain-petit-piton": {
-   "title": "Pitons (Saint Lucia)",
-   "monthlyViews": 2070,
-   "days": 60,
-   "lat": 13.81,
-   "lon": -61.06555556
-  },
   "mountain-morne-diablotins": {
    "title": "Morne Diablotins",
    "monthlyViews": 670,
@@ -44567,11 +44469,11 @@
    "lon": 118.25611111
   },
   "mountain-mount-augustus": {
-   "title": "Mount Hood",
-   "monthlyViews": 17990,
-   "days": 59,
-   "lat": 45.37361111,
-   "lon": -121.69583333
+   "title": "Mount Augustus (Western Australia)",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": -24.325,
+   "lon": 116.8417
   },
   "mountain-mount-zeil": {
    "title": "Mount Zeil",
@@ -44672,11 +44574,11 @@
    "lon": -72.82333333
   },
   "mountain-mount-arapiles": {
-   "title": "Mount Hotham",
-   "monthlyViews": 1613,
+   "title": "Mount Arapiles",
+   "monthlyViews": 517,
    "days": 60,
-   "lat": -36.97527778,
-   "lon": 147.13277778
+   "lat": -36.75083333,
+   "lon": 141.83277778
   },
   "mountain-mount-kaputar": {
    "title": "Mount Kaputar",
@@ -45680,11 +45582,11 @@
    "lon": -28.39888889
   },
   "mountain-monte-amiata": {
-   "title": "Monte Labbro",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 42.82034444,
-   "lon": 11.52605556
+   "title": "Monte Amiata",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 42.9,
+   "lon": 11.63333333
   },
   "mountain-terminillo": {
    "title": "Monte Terminillo",
@@ -47318,11 +47220,11 @@
    "lon": -17.33
   },
   "mountain-laki": {
-   "title": "Q'uwa Laki",
-   "monthlyViews": 14,
+   "title": "Laki",
+   "monthlyViews": 5205,
    "days": 60,
-   "lat": -16.51305556,
-   "lon": -70.96861111
+   "lat": 64.06472222,
+   "lon": -18.22611111
   },
   "mountain-fagradalsfjall": {
    "title": "Fagradalsfjall",
@@ -47841,13 +47743,6 @@
    "days": 60,
    "lat": 0.38583333,
    "lon": 29.87166667
-  },
-  "mountain-mount-luigi-di-savoia": {
-   "title": "Mount Saint Elias",
-   "monthlyViews": 4383,
-   "days": 60,
-   "lat": 60.29222222,
-   "lon": -140.93138889
   },
   "mountain-ouanoukrim": {
    "title": "Ouanoukrim",
@@ -48388,13 +48283,6 @@
    "lat": 27.705298,
    "lon": 88.135968
   },
-  "mountain-talung": {
-   "title": "Kabru",
-   "monthlyViews": 670,
-   "days": 60,
-   "lat": 27.635,
-   "lon": 88.11833333
-  },
   "mountain-kirat-chuli": {
    "title": "Kirat Chuli",
    "monthlyViews": 152,
@@ -48424,13 +48312,6 @@
    "lon": 85.68361111
   },
   "mountain-chulu-west": {
-   "title": "Chulu East",
-   "monthlyViews": 91,
-   "days": 60,
-   "lat": 28.73611111,
-   "lon": 84.03472222
-  },
-  "mountain-chulu-east": {
    "title": "Chulu East",
    "monthlyViews": 91,
    "days": 60,
@@ -48527,13 +48408,6 @@
    "days": 60,
    "lat": 30.93305556,
    "lon": 79.6025
-  },
-  "mountain-kalanag": {
-   "title": "Bandarpunch",
-   "monthlyViews": 822,
-   "days": 60,
-   "lat": 31.00777778,
-   "lon": 78.92583333
   },
   "mountain-nyenchen-tanglha": {
    "title": "Nyenchen Tanglha Mountains",
@@ -48837,11 +48711,11 @@
    "lon": 115.04305556
   },
   "mountain-mount-song": {
-   "title": "Mount Song",
-   "monthlyViews": 1583,
+   "title": "Mount Kailash",
+   "monthlyViews": 53209,
    "days": 60,
-   "lat": 34.472416,
-   "lon": 112.934647
+   "lat": 31.06666667,
+   "lon": 81.3125
   },
   "mountain-mount-heng": {
    "title": "Mount Heng (Hunan)",
@@ -49180,11 +49054,11 @@
    "lon": 136.77138889
   },
   "mountain-mount-hotaka": {
-   "title": "Mount Hotaka (Gunma)",
-   "monthlyViews": 61,
+   "title": "Mount Hotakadake",
+   "monthlyViews": 578,
    "days": 60,
-   "lat": 36.80525,
-   "lon": 139.13267
+   "lat": 36.28916667,
+   "lon": 137.64805556
   },
   "mountain-mount-yari": {
    "title": "Mount Yari",
@@ -49691,11 +49565,11 @@
    "lon": 122.567778
   },
   "mountain-chocolate-hills": {
-   "title": "Chocolate Mountains (Arizona)",
-   "monthlyViews": 61,
+   "title": "Chocolate Hills",
+   "monthlyViews": 5814,
    "days": 60,
-   "lat": 33.1847584,
-   "lon": -114.3921694
+   "lat": 9.91666667,
+   "lon": 124.16666667
   },
   "mountain-mount-talinis": {
    "title": "Mount Talinis",
@@ -49984,13 +49858,6 @@
    "lat": null,
    "lon": null
   },
-  "mountain-welirang": {
-   "title": "Arjuno-Welirang",
-   "monthlyViews": 365,
-   "days": 60,
-   "lat": -7.76444444,
-   "lon": 112.58944444
-  },
   "mountain-anak-krakatoa": {
    "title": "Anak Krakatoa",
    "monthlyViews": 5966,
@@ -50097,18 +49964,18 @@
    "lon": 103.775
   },
   "mountain-ba-den": {
-   "title": "Bà Rá mountain",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 11.817,
-   "lon": 107.001
+   "title": "Black Virgin Mountain",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 11.36666667,
+   "lon": 106.16666667
   },
   "mountain-marble-mountains": {
-   "title": "Marble Mountains (San Bernardino County)",
-   "monthlyViews": 30,
+   "title": "Ngũ Hành Sơn",
+   "monthlyViews": 1278,
    "days": 60,
-   "lat": 34.61582861,
-   "lon": -115.56249083
+   "lat": 16,
+   "lon": 108.26
   },
   "mountain-ba-vi": {
    "title": "Ba Vì mountain range",
@@ -50139,11 +50006,11 @@
    "lon": 95.25055556
   },
   "mountain-mount-victoria": {
-   "title": "Mount Dandenong (Victoria)",
-   "monthlyViews": 274,
+   "title": "Nat Ma Taung",
+   "monthlyViews": 304,
    "days": 60,
-   "lat": -37.82722222,
-   "lon": 145.35277778
+   "lat": 21.2336,
+   "lon": 93.9031
   },
   "mountain-phnom-aural": {
    "title": "Phnom Aural",
@@ -51238,18 +51105,11 @@
    "lon": -106.40583333
   },
   "desert-great-sand-dunes": {
-   "title": "Great Sand Sea",
-   "monthlyViews": 1339,
+   "title": "Great Sand Dunes National Park and Preserve",
+   "monthlyViews": 6575,
    "days": 60,
-   "lat": 29.5,
-   "lon": 21.75
-  },
-  "desert-namib-sand-sea": {
-   "title": "Namib",
-   "monthlyViews": 7701,
-   "days": 60,
-   "lat": -24.75194444,
-   "lon": 15.27638889
+   "lat": 37.7329,
+   "lon": -105.5121
   },
   "desert-karoo": {
    "title": "Karoo",
@@ -53576,11 +53436,11 @@
    "lon": 97.53333333
   },
   "island-bintan": {
-   "title": "Bintan Regency",
-   "monthlyViews": 335,
+   "title": "Bintan Island",
+   "monthlyViews": 2770,
    "days": 60,
-   "lat": 1.01,
-   "lon": 104.55
+   "lat": 1.07666667,
+   "lon": 104.50027778
   },
   "island-batam": {
    "title": "Batam",
@@ -56628,11 +56488,11 @@
    "lon": 99.83805556
   },
   "island-ko-pha-ngan": {
-   "title": "Ko Tao",
-   "monthlyViews": 2800,
+   "title": "Ko Pha-ngan",
+   "monthlyViews": 4109,
    "days": 60,
-   "lat": 10.09,
-   "lon": 99.83805556
+   "lat": 9.74,
+   "lon": 100.03
   },
   "island-ko-chang": {
    "title": "Ko Wai",
@@ -56822,13 +56682,6 @@
    "days": 60,
    "lat": -8.681767,
    "lon": 115.451117
-  },
-  "island-gili-trawangan": {
-   "title": "Gili Islands",
-   "monthlyViews": 4140,
-   "days": 60,
-   "lat": -8.35,
-   "lon": 116.06
   },
   "island-gili-islands": {
    "title": "Gili Islands",
@@ -57482,11 +57335,11 @@
    "lon": 73.53333333
   },
   "island-maafushi": {
-   "title": "Baa Atoll",
-   "monthlyViews": 791,
-   "days": 59,
-   "lat": 5.13333333,
-   "lon": 72.95
+   "title": "Maafushi (Kaafu Atoll)",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 3.94027778,
+   "lon": 73.48888889
   },
   "island-addu-atoll": {
    "title": "Seenu Atoll",
@@ -57909,11 +57762,11 @@
    "lon": 33.93805556
   },
   "island-rubondo": {
-   "title": "Rubondo Airstrip",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": -2.3,
-   "lon": 31.85
+   "title": "Rubondo Island National Park",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -2.33833333,
+   "lon": 31.85861111
   },
   "island-changuu": {
    "title": "Changuu",
@@ -58245,11 +58098,11 @@
    "lon": null
   },
   "island-hilton-head-island": {
-   "title": "Disney's Hilton Head Island Resort",
-   "monthlyViews": 1005,
+   "title": "Hilton Head Island, South Carolina",
+   "monthlyViews": 9315,
    "days": 60,
-   "lat": 32.18222222,
-   "lon": -80.72944444
+   "lat": 32.17888889,
+   "lon": -80.75694444
   },
   "island-kiawah-island": {
    "title": "Kiawah Island, South Carolina",
@@ -58294,11 +58147,11 @@
    "lon": -81.45388889
   },
   "island-merritt-island": {
-   "title": "Merritt Island Airport",
-   "monthlyViews": 152,
+   "title": "Merritt Island, Florida",
+   "monthlyViews": 4018,
    "days": 60,
-   "lat": null,
-   "lon": null
+   "lat": 28.3125,
+   "lon": -80.64722222
   },
   "island-key-largo": {
    "title": "Key Largo",
@@ -58371,11 +58224,11 @@
    "lon": -91.9075
   },
   "island-kelleys-island": {
-   "title": "Kelleys Island Land Field",
-   "monthlyViews": 91,
+   "title": "Kelleys Island, Ohio",
+   "monthlyViews": 2861,
    "days": 60,
-   "lat": 41.6032,
-   "lon": -82.685
+   "lat": 41.60333333,
+   "lon": -82.70277778
   },
   "island-south-bass-island": {
    "title": "South Bass Island",
@@ -58462,11 +58315,11 @@
    "lon": -122.45138889
   },
   "island-bainbridge-island": {
-   "title": "Bainbridge High School (Washington)",
-   "monthlyViews": 365,
+   "title": "Bainbridge Island, Washington",
+   "monthlyViews": 9619,
    "days": 60,
-   "lat": 47.636295,
-   "lon": -122.524029
+   "lat": 47.63861111,
+   "lon": -122.50722222
   },
   "island-whidbey-island": {
    "title": "Whidbey Island",
@@ -58490,11 +58343,11 @@
    "lon": -123.029251
   },
   "island-mercer-island": {
-   "title": "Mercer Island station",
-   "monthlyViews": 304,
+   "title": "Mercer Island, Washington",
+   "monthlyViews": 7245,
    "days": 60,
-   "lat": 47.58805556,
-   "lon": -122.23277778
+   "lat": 47.57333333,
+   "lon": -122.23861111
   },
   "island-unalaska": {
    "title": "Unalaska Island",
@@ -58735,11 +58588,11 @@
    "lon": -76.63333333
   },
   "island-inagua": {
-   "title": "Inagua Airport",
-   "monthlyViews": 183,
+   "title": "Inagua",
+   "monthlyViews": 3379,
    "days": 60,
-   "lat": 20.975,
-   "lon": -73.66694444
+   "lat": 21.21777778,
+   "lon": -73.25138889
   },
   "island-little-cayman": {
    "title": "Little Cayman",
@@ -59330,11 +59183,11 @@
    "lon": -65.30805556
   },
   "island-los-roques": {
-   "title": "Los Roques Airport",
-   "monthlyViews": 183,
+   "title": "Los Roques Archipelago",
+   "monthlyViews": 2039,
    "days": 60,
-   "lat": 11.94583333,
-   "lon": -66.67083333
+   "lat": 11.8575,
+   "lon": -66.7575
   },
   "island-la-orchila": {
    "title": "La Orchila Island",
@@ -61142,6 +60995,13 @@
    "lat": 34.74485,
    "lon": 127.76633
   },
+  "island-coney-island": {
+   "title": "Coney Island, County Sligo",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 54.2962,
+   "lon": -8.588
+  },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",
    "monthlyViews": 61976,
@@ -62095,11 +61955,11 @@
    "lon": -3.66666667
   },
   "sea_ocean-morecambe-bay": {
-   "title": "2006 Morecambe Bay Eurocopter AS365 crash",
-   "monthlyViews": 213,
+   "title": "Morecambe Bay",
+   "monthlyViews": 3531,
    "days": 60,
-   "lat": 53.95611111,
-   "lon": -3.67
+   "lat": 54.105,
+   "lon": -2.975
   },
   "sea_ocean-cardigan-bay": {
    "title": "Cardigan Bay",
@@ -62151,11 +62011,11 @@
    "lon": -5.99861111
   },
   "sea_ocean-sea-of-the-hebrides": {
-   "title": "Tyrrhenian Sea",
-   "monthlyViews": 15098,
+   "title": "Sea of the Hebrides",
+   "monthlyViews": 548,
    "days": 60,
-   "lat": 40,
-   "lon": 12
+   "lat": 57,
+   "lon": -7
   },
   "sea_ocean-bay-of-kotor": {
    "title": "Bay of Kotor",
@@ -62165,11 +62025,11 @@
    "lon": 18.67
   },
   "sea_ocean-gulf-of-corinth": {
-   "title": "Saronic Gulf",
-   "monthlyViews": 2283,
+   "title": "Gulf of Corinth",
+   "monthlyViews": 1948,
    "days": 60,
-   "lat": 37.7,
-   "lon": 23.6
+   "lat": 38.2,
+   "lon": 22.5
   },
   "sea_ocean-saronic-gulf": {
    "title": "Saronic Gulf",
@@ -62431,11 +62291,11 @@
    "lon": 2.64
   },
   "sea_ocean-gulf-of-cagliari": {
-   "title": "Gulf of Trieste",
-   "monthlyViews": 1522,
+   "title": "Golfo di Cagliari",
+   "monthlyViews": 91,
    "days": 60,
-   "lat": 45.66666667,
-   "lon": 13.58333333
+   "lat": 39.1,
+   "lon": 9.2
   },
   "sea_ocean-gulf-of-salerno": {
    "title": "Gulf of Salerno",
@@ -62515,11 +62375,11 @@
    "lon": 19.75
   },
   "sea_ocean-szczecin-lagoon": {
-   "title": "Port of Szczecin",
-   "monthlyViews": 274,
+   "title": "Szczecin Lagoon",
+   "monthlyViews": 791,
    "days": 60,
-   "lat": null,
-   "lon": null
+   "lat": 53.80444444,
+   "lon": 14.14027778
   },
   "sea_ocean-bay-of-lubeck": {
    "title": "Bay of Lübeck",

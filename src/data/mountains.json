@@ -150,7 +150,8 @@
   "category": "mountain",
   "name": "Gasherbrum I",
   "aliases": [
-   "Hidden Peak"
+   "Hidden Peak",
+   "Gasherbrum"
   ],
   "size": 8080,
   "sizeUnit": "elevation_m",
@@ -361,7 +362,8 @@
   "category": "mountain",
   "name": "Pico de Orizaba",
   "aliases": [
-   "Citlaltepetl"
+   "Citlaltepetl",
+   "Orizaba"
   ],
   "size": 5636,
   "sizeUnit": "elevation_m",
@@ -748,7 +750,8 @@
   "name": "Mount Fuji",
   "aliases": [
    "Fuji",
-   "Fujisan"
+   "Fujisan",
+   "Fujiyama"
   ],
   "size": 3776,
   "sizeUnit": "elevation_m",
@@ -2397,12 +2400,12 @@
   "aliases": [],
   "size": 2522,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Robson\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 6758,
+  "source": "English Wikipedia pageviews for \"Mount Norquay\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 487,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Robson",
-  "lat": 53.11055556,
-  "lon": -119.15638889
+  "wikiTitle": "Mount Norquay",
+  "lat": 51.204,
+  "lon": -115.599
  },
  {
   "id": "mountain-mount-edith-cavell",
@@ -3375,12 +3378,12 @@
   "aliases": [],
   "size": 2236,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Puyehue National Park\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 122,
+  "source": "English Wikipedia pageviews for \"Puyehue-Cordón Caulle\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 700,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Puyehue National Park",
-  "lat": -40.64888889,
-  "lon": -72.08444444
+  "wikiTitle": "Puyehue-Cordón Caulle",
+  "lat": -40.59027778,
+  "lon": -72.11722222
  },
  {
   "id": "mountain-descabezado-grande",
@@ -4359,12 +4362,12 @@
   ],
   "size": 3108,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Redoubt (Washington)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 91,
+  "source": "English Wikipedia pageviews for \"Mount Redoubt\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 1826,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Redoubt (Washington)",
-  "lat": 48.9581844,
-  "lon": -121.3018
+  "wikiTitle": "Mount Redoubt",
+  "lat": 60.485,
+  "lon": -152.742
  },
  {
   "id": "mountain-mount-spurr",
@@ -5046,23 +5049,10 @@
   "name": "Colima Volcano",
   "aliases": [
    "Volcan de Colima",
-   "Fuego de Colima"
+   "Fuego de Colima",
+   "Nevado de Colima"
   ],
   "size": 3820,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Volcán de Colima\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 1705,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Volcán de Colima",
-  "lat": 19.512727,
-  "lon": -103.617241
- },
- {
-  "id": "mountain-nevado-de-colima",
-  "category": "mountain",
-  "name": "Nevado de Colima",
-  "aliases": [],
-  "size": 4260,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Volcán de Colima\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
   "magnitude": 1705,
@@ -5295,22 +5285,10 @@
   "id": "mountain-santa-maria-volcano",
   "category": "mountain",
   "name": "Santa Maria Volcano",
-  "aliases": [],
+  "aliases": [
+   "Santiaguito"
+  ],
   "size": 3772,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Santa María (volcano)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 1979,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Santa María (volcano)",
-  "lat": 14.75555556,
-  "lon": -91.55166667
- },
- {
-  "id": "mountain-santiaguito",
-  "category": "mountain",
-  "name": "Santiaguito",
-  "aliases": [],
-  "size": 2500,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Santa María (volcano)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
   "magnitude": 1979,
@@ -5733,22 +5711,11 @@
   "id": "mountain-gros-piton",
   "category": "mountain",
   "name": "Gros Piton",
-  "aliases": [],
+  "aliases": [
+   "Pitons",
+   "Petit Piton"
+  ],
   "size": 770,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Pitons (Saint Lucia)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 2070,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Pitons (Saint Lucia)",
-  "lat": 13.81,
-  "lon": -61.06555556
- },
- {
-  "id": "mountain-petit-piton",
-  "category": "mountain",
-  "name": "Petit Piton",
-  "aliases": [],
-  "size": 743,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Pitons (Saint Lucia)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
   "magnitude": 2070,
@@ -6144,12 +6111,12 @@
   "aliases": [],
   "size": 1106,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Hood\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 17990,
+  "source": "English Wikipedia pageviews for \"Mount Augustus (Western Australia)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 1918,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Hood",
-  "lat": 45.37361111,
-  "lon": -121.69583333
+  "wikiTitle": "Mount Augustus (Western Australia)",
+  "lat": -24.325,
+  "lon": 116.8417
  },
  {
   "id": "mountain-mount-zeil",
@@ -6354,12 +6321,12 @@
   "aliases": [],
   "size": 369,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Hotham\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 1613,
+  "source": "English Wikipedia pageviews for \"Mount Arapiles\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 517,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Hotham",
-  "lat": -36.97527778,
-  "lon": 147.13277778
+  "wikiTitle": "Mount Arapiles",
+  "lat": -36.75083333,
+  "lon": 141.83277778
  },
  {
   "id": "mountain-mount-kaputar",
@@ -8385,12 +8352,12 @@
   "aliases": [],
   "size": 1738,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Monte Labbro\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 30,
+  "source": "English Wikipedia pageviews for \"Monte Amiata\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 913,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Monte Labbro",
-  "lat": 42.82034444,
-  "lon": 11.52605556
+  "wikiTitle": "Monte Amiata",
+  "lat": 42.9,
+  "lon": 11.63333333
  },
  {
   "id": "mountain-terminillo",
@@ -11671,12 +11638,12 @@
   "aliases": [],
   "size": 818,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Q'uwa Laki\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 14,
+  "source": "English Wikipedia pageviews for \"Laki\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 5205,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Q'uwa Laki",
-  "lat": -16.51305556,
-  "lon": -70.96861111
+  "wikiTitle": "Laki",
+  "lat": 64.06472222,
+  "lon": -18.22611111
  },
  {
   "id": "mountain-fagradalsfjall",
@@ -12731,20 +12698,6 @@
   "lon": 29.87166667
  },
  {
-  "id": "mountain-mount-luigi-di-savoia",
-  "category": "mountain",
-  "name": "Mount Luigi di Savoia",
-  "aliases": [],
-  "size": 4627,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Saint Elias\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 4383,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Saint Elias",
-  "lat": 60.29222222,
-  "lon": -140.93138889
- },
- {
   "id": "mountain-ouanoukrim",
   "category": "mountain",
   "name": "Ouanoukrim",
@@ -13546,7 +13499,9 @@
   "id": "mountain-bandarpunch",
   "category": "mountain",
   "name": "Bandarpunch",
-  "aliases": [],
+  "aliases": [
+   "Kalanag"
+  ],
   "size": 6316,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Bandarpunch\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
@@ -13646,7 +13601,9 @@
   "id": "mountain-kabru",
   "category": "mountain",
   "name": "Kabru",
-  "aliases": [],
+  "aliases": [
+   "Talung"
+  ],
   "size": 7412,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Kabru\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
@@ -13863,20 +13820,6 @@
   "lon": 88.135968
  },
  {
-  "id": "mountain-talung",
-  "category": "mountain",
-  "name": "Talung",
-  "aliases": [],
-  "size": 7349,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Kabru\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 670,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Kabru",
-  "lat": 27.635,
-  "lon": 88.11833333
- },
- {
   "id": "mountain-kirat-chuli",
   "category": "mountain",
   "name": "Kirat Chuli",
@@ -13938,22 +13881,11 @@
   "id": "mountain-chulu-west",
   "category": "mountain",
   "name": "Chulu West",
-  "aliases": [],
+  "aliases": [
+   "Chulu East",
+   "Chulu"
+  ],
   "size": 6419,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Chulu East\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 91,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Chulu East",
-  "lat": 28.73611111,
-  "lon": 84.03472222
- },
- {
-  "id": "mountain-chulu-east",
-  "category": "mountain",
-  "name": "Chulu East",
-  "aliases": [],
-  "size": 6584,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Chulu East\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
   "magnitude": 91,
@@ -14145,22 +14077,6 @@
   "wikiTitle": "Abi Gamin",
   "lat": 30.93305556,
   "lon": 79.6025
- },
- {
-  "id": "mountain-kalanag",
-  "category": "mountain",
-  "name": "Kalanag",
-  "aliases": [
-   "Black Peak"
-  ],
-  "size": 6387,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Bandarpunch\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 822,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Bandarpunch",
-  "lat": 31.00777778,
-  "lon": 78.92583333
  },
  {
   "id": "mountain-nyenchen-tanglha",
@@ -14812,12 +14728,12 @@
   ],
   "size": 1512,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Song\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 1583,
+  "source": "English Wikipedia pageviews for \"Mount Kailash\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 53209,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Song",
-  "lat": 34.472416,
-  "lon": 112.934647
+  "wikiTitle": "Mount Kailash",
+  "lat": 31.06666667,
+  "lon": 81.3125
  },
  {
   "id": "mountain-mount-heng",
@@ -15550,12 +15466,12 @@
   ],
   "size": 3190,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Hotaka (Gunma)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 61,
+  "source": "English Wikipedia pageviews for \"Mount Hotakadake\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 578,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Hotaka (Gunma)",
-  "lat": 36.80525,
-  "lon": 139.13267
+  "wikiTitle": "Mount Hotakadake",
+  "lat": 36.28916667,
+  "lon": 137.64805556
  },
  {
   "id": "mountain-mount-yari",
@@ -16622,12 +16538,12 @@
   "aliases": [],
   "size": 120,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Chocolate Mountains (Arizona)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 61,
+  "source": "English Wikipedia pageviews for \"Chocolate Hills\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 5814,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Chocolate Mountains (Arizona)",
-  "lat": 33.1847584,
-  "lon": -114.3921694
+  "wikiTitle": "Chocolate Hills",
+  "lat": 9.91666667,
+  "lon": 124.16666667
  },
  {
   "id": "mountain-mount-talinis",
@@ -16857,7 +16773,9 @@
   "category": "mountain",
   "name": "Mount Arjuno",
   "aliases": [
-   "Arjuno"
+   "Arjuno",
+   "Welirang",
+   "Arjuno-Welirang"
   ],
   "size": 3339,
   "sizeUnit": "elevation_m",
@@ -17275,22 +17193,6 @@
   "wikiTitle": "Mount Ciremai"
  },
  {
-  "id": "mountain-welirang",
-  "category": "mountain",
-  "name": "Welirang",
-  "aliases": [
-   "Mount Welirang"
-  ],
-  "size": 3156,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Arjuno-Welirang\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 365,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Arjuno-Welirang",
-  "lat": -7.76444444,
-  "lon": 112.58944444
- },
- {
   "id": "mountain-anak-krakatoa",
   "category": "mountain",
   "name": "Anak Krakatoa",
@@ -17514,12 +17416,12 @@
   ],
   "size": 986,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Bà Rá mountain\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 30,
+  "source": "English Wikipedia pageviews for \"Black Virgin Mountain\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 1096,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Bà Rá mountain",
-  "lat": 11.817,
-  "lon": 107.001
+  "wikiTitle": "Black Virgin Mountain",
+  "lat": 11.36666667,
+  "lon": 106.16666667
  },
  {
   "id": "mountain-marble-mountains",
@@ -17528,12 +17430,12 @@
   "aliases": [],
   "size": 156,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Marble Mountains (San Bernardino County)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 30,
+  "source": "English Wikipedia pageviews for \"Ngũ Hành Sơn\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 1278,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Marble Mountains (San Bernardino County)",
-  "lat": 34.61582861,
-  "lon": -115.56249083
+  "wikiTitle": "Ngũ Hành Sơn",
+  "lat": 16,
+  "lon": 108.26
  },
  {
   "id": "mountain-ba-vi",
@@ -17600,12 +17502,12 @@
   ],
   "size": 3053,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Dandenong (Victoria)\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
-  "magnitude": 274,
+  "source": "English Wikipedia pageviews for \"Nat Ma Taung\", 60-day daily median (60 days ending 2026-09-15); Standard reference summit elevations (m)",
+  "magnitude": 304,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Dandenong (Victoria)",
-  "lat": -37.82722222,
-  "lon": 145.35277778
+  "wikiTitle": "Nat Ma Taung",
+  "lat": 21.2336,
+  "lon": 93.9031
  },
  {
   "id": "mountain-phnom-aural",

@@ -5569,12 +5569,12 @@
   "aliases": [],
   "size": 1.28,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Bafa\", 60-day daily median (60 days ending 2026-09-15); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 548,
+  "source": "English Wikipedia pageviews for \"Lake Abant National Park\", 60-day daily median (60 days ending 2026-09-15); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 213,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Bafa",
-  "lat": 37.5,
-  "lon": 27.41666667
+  "wikiTitle": "Lake Abant National Park",
+  "lat": 40.6,
+  "lon": 31.26666667
  },
  {
   "id": "lake-lake-vrana",
@@ -7557,12 +7557,12 @@
   "aliases": [],
   "size": 118,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Ontario\", 60-day daily median (60 days ending 2026-09-15); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 15342,
+  "source": "English Wikipedia pageviews for \"Lake of Bays\", 60-day daily median (60 days ending 2026-09-15); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 791,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Ontario",
-  "lat": 43.7,
-  "lon": -77.9
+  "wikiTitle": "Lake of Bays",
+  "lat": 45.3075,
+  "lon": -79.00638889
  },
  {
   "id": "lake-wollaston-lake",
@@ -8737,12 +8737,12 @@
   "aliases": [],
   "size": 3000,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Rukwa\", 60-day daily median (60 days ending 2026-09-15); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 609,
+  "source": "English Wikipedia pageviews for \"African Great Lakes\", 60-day daily median (60 days ending 2026-09-15); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 12480,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Rukwa",
+  "wikiTitle": "African Great Lakes",
   "lat": -8,
-  "lon": 32.41666667
+  "lon": 35
  },
  {
   "id": "lake-lake-kyoga",

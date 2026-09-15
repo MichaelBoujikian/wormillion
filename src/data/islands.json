@@ -4660,12 +4660,12 @@
   "aliases": [],
   "size": 1946,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Bintan Regency\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 335,
+  "source": "English Wikipedia pageviews for \"Bintan Island\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 2770,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Bintan Regency",
-  "lat": 1.01,
-  "lon": 104.55,
+  "wikiTitle": "Bintan Island",
+  "lat": 1.07666667,
+  "lon": 104.50027778,
   "oceans": [
    "Pacific"
   ]
@@ -12299,14 +12299,14 @@
   ],
   "size": 168,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Ko Tao\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 2800,
+  "source": "English Wikipedia pageviews for \"Ko Pha-ngan\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 4109,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ko Tao",
-  "lat": 10.09,
-  "lon": 99.83805556,
+  "wikiTitle": "Ko Pha-ngan",
+  "lat": 9.74,
+  "lon": 100.03,
   "oceans": [
-   "Indian"
+   "Pacific"
   ]
  },
  {
@@ -12775,27 +12775,12 @@
   ]
  },
  {
-  "id": "island-gili-trawangan",
-  "category": "island",
-  "name": "Gili Trawangan",
-  "aliases": [],
-  "size": 3,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Gili Islands\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 4140,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Gili Islands",
-  "lat": -8.35,
-  "lon": 116.06,
-  "oceans": [
-   "Pacific"
-  ]
- },
- {
   "id": "island-gili-islands",
   "category": "island",
   "name": "Gili Islands",
-  "aliases": [],
+  "aliases": [
+   "Gili Trawangan"
+  ],
   "size": 3.65,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Gili Islands\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
@@ -14428,12 +14413,12 @@
   "aliases": [],
   "size": 0.94,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Baa Atoll\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 791,
+  "source": "English Wikipedia pageviews for \"Maafushi (Kaafu Atoll)\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 700,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Baa Atoll",
-  "lat": 5.13333333,
-  "lon": 72.95,
+  "wikiTitle": "Maafushi (Kaafu Atoll)",
+  "lat": 3.94027778,
+  "lon": 73.48888889,
   "oceans": [
    "Indian"
   ]
@@ -15529,12 +15514,12 @@
   ],
   "size": 240,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Rubondo Airstrip\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 30,
+  "source": "English Wikipedia pageviews for \"Rubondo Island National Park\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Rubondo Airstrip",
-  "lat": -2.3,
-  "lon": 31.85,
+  "wikiTitle": "Rubondo Island National Park",
+  "lat": -2.33833333,
+  "lon": 31.85861111,
   "oceans": [
    "Indian"
   ]
@@ -16385,12 +16370,12 @@
   "aliases": [],
   "size": 108.6,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Disney's Hilton Head Island Resort\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 1005,
+  "source": "English Wikipedia pageviews for \"Hilton Head Island, South Carolina\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 9315,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Disney's Hilton Head Island Resort",
-  "lat": 32.18222222,
-  "lon": -80.72944444,
+  "wikiTitle": "Hilton Head Island, South Carolina",
+  "lat": 32.17888889,
+  "lon": -80.75694444,
   "oceans": [
    "Atlantic"
   ]
@@ -16506,10 +16491,12 @@
   "aliases": [],
   "size": 116,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Merritt Island Airport\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 152,
+  "source": "English Wikipedia pageviews for \"Merritt Island, Florida\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 4018,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Merritt Island Airport",
+  "wikiTitle": "Merritt Island, Florida",
+  "lat": 28.3125,
+  "lon": -80.64722222,
   "oceans": [
    "Atlantic"
   ]
@@ -16695,12 +16682,12 @@
   "aliases": [],
   "size": 11,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Kelleys Island Land Field\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 91,
+  "source": "English Wikipedia pageviews for \"Kelleys Island, Ohio\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 2861,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Kelleys Island Land Field",
-  "lat": 41.6032,
-  "lon": -82.685,
+  "wikiTitle": "Kelleys Island, Ohio",
+  "lat": 41.60333333,
+  "lon": -82.70277778,
   "oceans": [
    "Atlantic"
   ]
@@ -16922,12 +16909,12 @@
   "aliases": [],
   "size": 70,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Bainbridge High School (Washington)\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 365,
+  "source": "English Wikipedia pageviews for \"Bainbridge Island, Washington\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 9619,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Bainbridge High School (Washington)",
-  "lat": 47.636295,
-  "lon": -122.524029,
+  "wikiTitle": "Bainbridge Island, Washington",
+  "lat": 47.63861111,
+  "lon": -122.50722222,
   "oceans": [
    "Pacific"
   ]
@@ -16990,12 +16977,12 @@
   "aliases": [],
   "size": 15.9,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Mercer Island station\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 304,
+  "source": "English Wikipedia pageviews for \"Mercer Island, Washington\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 7245,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mercer Island station",
-  "lat": 47.58805556,
-  "lon": -122.23277778,
+  "wikiTitle": "Mercer Island, Washington",
+  "lat": 47.57333333,
+  "lon": -122.23861111,
   "oceans": [
    "Pacific"
   ]
@@ -17602,12 +17589,12 @@
   ],
   "size": 1544,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Inagua Airport\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 183,
+  "source": "English Wikipedia pageviews for \"Inagua\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 3379,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Inagua Airport",
-  "lat": 20.975,
-  "lon": -73.66694444,
+  "wikiTitle": "Inagua",
+  "lat": 21.21777778,
+  "lon": -73.25138889,
   "oceans": [
    "Atlantic"
   ]
@@ -19113,12 +19100,12 @@
   ],
   "size": 40,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Los Roques Airport\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
-  "magnitude": 183,
+  "source": "English Wikipedia pageviews for \"Los Roques Archipelago\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 2039,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Los Roques Airport",
-  "lat": 11.94583333,
-  "lon": -66.67083333,
+  "wikiTitle": "Los Roques Archipelago",
+  "lat": 11.8575,
+  "lon": -66.7575,
   "oceans": [
    "Atlantic"
   ]
@@ -23675,6 +23662,23 @@
   "lon": 127.76633,
   "oceans": [
    "Pacific"
+  ]
+ },
+ {
+  "id": "island-coney-island",
+  "category": "island",
+  "name": "Coney Island",
+  "aliases": [],
+  "size": 4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Coney Island, County Sligo\", 60-day daily median (60 days ending 2026-09-15); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coney Island, County Sligo",
+  "lat": 54.2962,
+  "lon": -8.588,
+  "oceans": [
+   "Atlantic"
   ]
  }
 ]
