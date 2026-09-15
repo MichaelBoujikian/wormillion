@@ -19,13 +19,27 @@ const EXPECTED = {
   capital: ['Paris', 'Tokyo', 'Cairo', 'Ottawa', 'Lima', 'Oslo', 'Doha', 'Hanoi', 'Rome', 'Madrid', 'Seoul', 'Nairobi', 'Havana', 'Athens', 'Washington', 'Sacramento', 'Boston', 'Austin'],
   lake: ['Lake Superior', 'Lake Victoria', 'Baikal', 'Loch Ness', 'Lake Tahoe', 'Dead Sea', 'Lake Como', 'Crater Lake', 'Lake Titicaca', 'Great Salt Lake', 'Aral Sea',
     // the small famous ones a "smaller than 100 km²" prompt sends people to (reported 2026-09-13)
-    'Lake Bled', 'Lake Placid', 'Lake Hillier', 'Peyto Lake', 'Jokulsarlon', 'Plitvice', 'Lake Louise', 'Moraine Lake'],
-  river: ['Nile', 'Amazon', 'Mississippi', 'Thames', 'Danube', 'Ganges', 'Volga', 'Indus', 'Rhine', 'Seine', 'Yangtze', 'Congo', 'Tigris', 'Euphrates', 'Jordan', 'Colorado'],
-  mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna'],
-  desert: ['Sahara', 'Gobi', 'Mojave', 'Atacama', 'Kalahari', 'Namib', 'Sonoran', 'Thar Desert', 'Arabian Desert', 'Antarctic Desert'],
-  city: ['New York', 'NYC', 'Los Angeles', 'LA', 'Chicago', 'Sydney', 'Melbourne', 'Toronto', 'Vancouver', 'Mumbai', 'Bombay', 'Istanbul', 'Rio de Janeiro', 'Rio', 'Sao Paulo', 'Barcelona', 'Milan', 'Munich', 'Shanghai', 'Karachi', 'Lagos', 'Johannesburg', 'Cape Town', 'Dubai', 'Osaka', 'Kyoto', 'Venice', 'Florence', 'Saint Petersburg', 'St Petersburg', 'Marseille', 'Frankfurt', 'Zurich', 'Geneva', 'Casablanca', 'Ho Chi Minh City', 'Saigon', 'Kolkata', 'Calcutta', 'Chennai', 'Miami', 'San Francisco', 'Houston', 'Seattle', 'Boston', 'Leeds', 'Baltimore', 'Kobe', 'Constantinople', 'Winnipeg', 'Portland', 'Macau', 'Hue'],
-  island: ['Maui', 'Oahu', 'Seychelles', 'Falkland Islands', 'Falklands', 'Lofoten', 'Shetland', 'Orkney', 'Hebrides', 'Bali', 'Sicily', 'Greenland', 'Madagascar', 'Cuba', 'Hawaii', 'Manhattan', 'Iceland', 'Tasmania', 'Crete', 'Santorini', 'Fiji', 'Maldives', 'Galapagos', 'Isle of Skye', 'Long Island', 'Corfu', 'Phuket', 'Ibiza', 'Jamaica', 'Bora Bora', 'Aruba', 'Zanzibar', 'Palau', 'Samoa', 'Tonga', 'Bahamas', 'Singapore', 'Grenada', 'Haiti', 'Trinidad and Tobago', 'Big Island', 'Japan', 'Philippines', 'Indonesia', 'New Zealand', 'United Kingdom', 'Papua New Guinea', 'Brunei'],
-  sea_ocean: ['Pacific Ocean', 'Atlantic', 'Mediterranean', 'Red Sea', 'Black Sea', 'Caribbean Sea', 'Dead Sea', 'North Sea', 'Baltic Sea', 'Arabian Sea', 'Bering Sea', 'Coral Sea', 'Gulf of Mexico']
+    'Lake Bled', 'Lake Placid', 'Lake Hillier', 'Peyto Lake', 'Jokulsarlon', 'Plitvice', 'Lake Louise', 'Moraine Lake',
+    // the 2026-09-15 expansion
+    'Loch Tay', 'Lough Corrib', 'Ullswater', 'Lake Winnipesaukee', 'Lake of the Ozarks', 'Lake Nasser', 'Lake Manyara', 'Lake Natron', 'Dal Lake', 'Lake Wanaka', 'Lake Brienz', 'Lake Iseo', 'Malaren'],
+  river: ['Nile', 'Amazon', 'Mississippi', 'Thames', 'Danube', 'Ganges', 'Volga', 'Indus', 'Rhine', 'Seine', 'Yangtze', 'Congo', 'Tigris', 'Euphrates', 'Jordan', 'Colorado',
+    // the 2026-09-14 expansion: rivers players reported missing
+    'Hudson', 'Potomac', 'Tennessee', 'Fraser', 'Magdalena', 'Okavango', 'Garonne', 'Neckar', 'Mersey', 'Tyne', 'Warta', 'Irtysh', 'Kaveri', 'Murrumbidgee', 'Rio de la Plata'],
+  mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna',
+    // the 2026-09-14 expansion
+    'Mount Rushmore', 'Devils Tower', 'Kilauea', 'Mount Adams', 'Fitz Roy', 'Torres del Paine', 'Cradle Mountain', 'Mount Aspiring', 'Popocatepetl', 'Arenal', 'Monch', 'Nanda Devi', 'Rakaposhi', 'Sakurajima', 'Mount Kailash', 'Tryfan', 'Croagh Patrick', 'Nyiragongo', 'Hekla', 'Eyjafjallajokull', 'Mount Meru'],
+  desert: ['Sahara', 'Gobi', 'Mojave', 'Atacama', 'Kalahari', 'Namib', 'Sonoran', 'Thar Desert', 'Arabian Desert', 'Antarctic Desert',
+    // the 2026-09-15 expansion
+    'Death Valley', 'White Sands', 'Skeleton Coast', 'Rann of Kutch', 'Karoo'],
+  city: ['New York', 'NYC', 'Los Angeles', 'LA', 'Chicago', 'Sydney', 'Melbourne', 'Toronto', 'Vancouver', 'Mumbai', 'Bombay', 'Istanbul', 'Rio de Janeiro', 'Rio', 'Sao Paulo', 'Barcelona', 'Milan', 'Munich', 'Shanghai', 'Karachi', 'Lagos', 'Johannesburg', 'Cape Town', 'Dubai', 'Osaka', 'Kyoto', 'Venice', 'Florence', 'Saint Petersburg', 'St Petersburg', 'Marseille', 'Frankfurt', 'Zurich', 'Geneva', 'Casablanca', 'Ho Chi Minh City', 'Saigon', 'Kolkata', 'Calcutta', 'Chennai', 'Miami', 'San Francisco', 'Houston', 'Seattle', 'Boston', 'Leeds', 'Baltimore', 'Kobe', 'Constantinople', 'Winnipeg', 'Portland', 'Macau', 'Hue',
+    // the 2026-09-14 expansion: non-capital cities players reported missing
+    'Nashville', 'Memphis', 'Charlotte', 'Cleveland', 'Cincinnati', 'Halifax', 'Merida', 'Monterrey', 'Medellin', 'Belo Horizonte', 'Bologna', 'Granada', 'Toledo', 'Sheffield', 'Newcastle', 'Nantes', 'Dusseldorf', 'Bilbao', 'Lodz', 'Nizhny Novgorod', 'Bursa', 'Tabriz', 'Erbil', 'Abeokuta', 'Port Said', 'Soweto', 'Eldoret', 'Sendai', 'Daegu', 'Suzhou', 'Indore', 'Peshawar', 'Semarang', 'Johor Bahru', 'Hobart', 'Cairns', 'Dunedin'],
+  island: ['Maui', 'Oahu', 'Seychelles', 'Falkland Islands', 'Falklands', 'Lofoten', 'Shetland', 'Orkney', 'Hebrides', 'Bali', 'Sicily', 'Greenland', 'Madagascar', 'Cuba', 'Hawaii', 'Manhattan', 'Iceland', 'Tasmania', 'Crete', 'Santorini', 'Fiji', 'Maldives', 'Galapagos', 'Isle of Skye', 'Long Island', 'Corfu', 'Phuket', 'Ibiza', 'Jamaica', 'Bora Bora', 'Aruba', 'Zanzibar', 'Palau', 'Samoa', 'Tonga', 'Bahamas', 'Singapore', 'Grenada', 'Haiti', 'Trinidad and Tobago', 'Big Island', 'Japan', 'Philippines', 'Indonesia', 'New Zealand', 'United Kingdom', 'Papua New Guinea', 'Brunei',
+    // the 2026-09-14 expansion
+    'Tobago', 'Hong Kong Island', 'Lantau', 'Phi Phi', 'Ko Tao', 'Vieques', 'Saba', 'Hvar', 'Mykonos', 'Iwo Jima', 'Corregidor', 'Manitoulin', 'Kerguelen', 'South Georgia'],
+  sea_ocean: ['Pacific Ocean', 'Atlantic', 'Mediterranean', 'Red Sea', 'Black Sea', 'Caribbean Sea', 'Dead Sea', 'North Sea', 'Baltic Sea', 'Arabian Sea', 'Bering Sea', 'Coral Sea', 'Gulf of Mexico',
+    // the 2026-09-15 expansion
+    'Strait of Gibraltar', 'Bosphorus', 'Strait of Hormuz', 'Bering Strait', 'Puget Sound', 'San Francisco Bay', 'Tokyo Bay', 'Bohai Sea', 'Gulf of Suez']
 };
 
 const byCategory = new Map();

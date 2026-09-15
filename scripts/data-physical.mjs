@@ -144,6 +144,640 @@ Lake Edward|2325|Edward
 Lake Naivasha|139|Naivasha
 Lake Nakuru|45|Nakuru
 Lake Assal|54|Assal
+Loch Tay|26.4
+Loch Awe|39
+Loch Morar|26.7
+Loch Maree|28.6
+Loch Shiel|19.5
+Loch Katrine|12.4
+Loch Rannoch|19
+Loch Ericht|18.6
+Loch Arkaig|16
+Loch Lochy|16
+Loch Earn|10.65
+Loch Leven|13.3
+Loch Coruisk|1
+Loch Tummel|9
+Loch Oich|4
+Loch Garry|2.8
+Loch Laggan|3.6
+Loch Muick|1.2
+Loch Ard|2
+Loch Venachar|4
+Loch Doon|8
+Loch Ken|3
+Lough Corrib|176
+Lough Derg|130
+Lough Erne|143
+Lough Ree|105
+Lough Mask|83
+Lough Conn|50
+Lough Allen|35
+Lough Gill|11.3
+Lough Leane|19.6
+Lough Key|8.9
+Lough Gur|0.6
+Lough Dan|0.8
+Coniston Water|4.9
+Ullswater|8.9
+Derwentwater|5.4|Derwent Water
+Buttermere|0.9
+Grasmere|0.6
+Wastwater|2.9|Wast Water
+Thirlmere|3.3
+Haweswater|3.9|Haweswater Reservoir
+Crummock Water|2.5
+Ennerdale Water|3
+Rydal Water|0.3
+Bassenthwaite Lake|5.3
+Esthwaite Water|1
+Loweswater|0.6
+Elter Water|0.16
+Tarn Hows|0.15
+Malham Tarn|0.6
+Semerwater|0.5
+Hornsea Mere|1.2
+Llyn Padarn|1.6
+Llyn Ogwen|0.4
+Llyn Brenig|3.7
+Llyn Trawsfynydd|4.6
+Lake Vyrnwy|4.5
+Llyn Idwal|0.09
+Llyn Cwellyn|0.5
+Llyn Gwynant|0.3
+Llyn Dinas|0.28
+Llangorse Lake|1.5
+Rutland Water|12.6
+Kielder Water|10.86
+Grafham Water|5.9
+Chew Valley Lake|4.8
+Malaren|1090|Lake Malaren
+Hjalmaren|477|Lake Hjalmaren
+Storsjon|456|Lake Storsjon
+Siljan|292
+Bolmen|184
+Sommen|136
+Hornavan|262
+Tornetrask|330|Lake Tornetrask
+Akkajaure|260
+Uddjaure|249
+Asnen|150|Lake Asnen
+Vombsjon|12
+Ringsjon|40
+Roxen|95
+Glan|115
+Yngaren|46
+Runn|50
+Storuman|130
+Paijanne|1081
+Pielinen|894
+Oulujarvi|887|Lake Oulujarvi
+Pihlajavesi|713
+Orivesi|601
+Haukivesi|562
+Keitele|494
+Kallavesi|473
+Nasijarvi|256|Lake Nasijarvi
+Lappajarvi|145|Lake Lappajarvi
+Hoytiainen|280|Lake Hoytiainen
+Puulavesi|330
+Yli-Kitka|122
+Kemijarvi|61|Lake Kemijarvi
+Pyhajarvi|155|Lake Pyhajarvi
+Tuusulanjarvi|6
+Femunden|203
+Randsfjorden|139
+Tyrifjorden|139
+Hornindalsvatnet|50
+Gjende|14.6
+Bygdin|38
+Snasavatnet|122|Lake Snasavatnet
+Tinnsjo|51|Lake Tinnsjo
+Rossvatnet|219|Lake Rossvatnet
+Altevatnet|85
+Norsjo|59|Lake Norsjo
+Lovatnet|10.5
+Nisser|69
+Thingvallavatn|84|Thingvellir Lake
+Myvatn|37
+Thorisvatn|83
+Hvitarvatn|30
+Kleifarvatn|10
+Lagarfljot|40|Logurinn
+Arreso|40.7|Lake Arreso
+Esrum So|17.3|Lake Esrum
+Fureso|9.4|Lake Fureso
+Tisso|12.6|Lake Tisso
+Mosso|8
+Wolfgangsee|12.8
+Attersee|46.2
+Traunsee|24.4
+Zeller See|4.6
+Achensee|6.8
+Mondsee|13.8
+Fuschlsee|2.7
+Worthersee|19.4|Lake Worth
+Ossiacher See|10.8
+Millstatter See|13.3
+Weissensee|6.5
+Faaker See|2.2
+Grundlsee|4.1
+Altausseer See|2.1
+Plansee|2.9
+Lake Starnberg|56.4|Starnberger See
+Ammersee|46.6
+Tegernsee|9
+Eibsee|1.75
+Lake Brienz|29.8|Brienzersee
+Lake Zug|38.4
+Lake Biel|39.5|Lac de Bienne,Bielersee
+Walensee|24.2
+Lake Sarnen|7.4|Sarnersee
+Lake Murten|22.8|Lac de Morat,Murtensee
+Lake Hallwil|10.2|Hallwilersee
+Lake Greifen|8.2|Greifensee
+Lake Sempach|14.4|Sempachersee
+Lake Sils|4.1|Silsersee
+Lake Silvaplana|3.2|Silvaplanersee
+Oeschinen Lake|1.15|Oeschinensee
+Lake Lungern|2|Lungerersee
+Sihlsee|10.7
+Klontalersee|3.2
+Agerisee|7.25
+Lake Lauerz|3|Lauerzersee
+Blausee|0.008
+Lake Idro|10.9
+Lake Varese|14.9
+Lake Ledro|2.17
+Lake Molveno|0.36
+Lake Levico|0.99
+Lake Caldonazzo|5.6
+Lake Mergozzo|1.85
+Lake Viverone|5.6
+Lake Fedaia|2
+Lac d'Aiguebelette|5.45
+Lake Serre-Poncon|28|Lac de Serre-Poncon
+Lac de Sainte-Croix|22
+Lake Cerknica|26
+Lake Jasna|0.006
+Lake Bolsena|114
+Lake Vico|12.1
+Lake Albano|6
+Lake Massaciuccoli|6.8
+Lake Omodeo|29
+Lake Lesina|51.4
+Lake Varano|60.5
+Lake Heviz|0.047|Heviz
+Lake Velence|26
+Lake Ferto|315|Neusiedler See
+Lake Tisza|127|Kiskore Reservoir
+Lake Trichonida|96.5
+Lake Kerkini|72
+Lake Pamvotida|9.8|Lake Ioannina
+Lake Vegoritida|43
+Lake Volvi|68
+Lake Vistonida|45
+Lake Kastoria|28.2|Lake Orestiada
+Lake Koronia|42
+Lake Sniardwy|113.8|Sniardwy
+Lake Mamry|104|Mamry
+Lake Hancza|3.11|Hancza
+Lake Wigry|21.9
+Lake Solina|22
+Lake Lebsko|71.4|Lebsko
+Lake Goplo|21.5|Goplo
+Steinhuder Meer|29.1
+Muritz|117|Lake Muritz
+Schweriner See|61.5
+Titisee|1.3
+Schluchsee|5.1
+Grosser Ploner See|30.7|Lake Plon
+IJsselmeer|1100
+Markermeer|700
+Lake Druksiai|44.8|Druksiai
+Lake Galve|3.88|Galve
+Lake Lubans|80.7|Lubans
+Lake Razna|57.6|Razna
+Lake Vortsjarv|270|Vortsjarv
+Lake Lipno|48.7|Lipno Reservoir
+Strbske Pleso|0.2
+Zemplinska Sirava|33
+Lake Razelm|415|Razim
+Lake Snagov|5.75
+Lake Techirghiol|11.6
+Lake Srebarna|9
+Seven Rila Lakes|0.4
+Lake Varna|18.3
+Lake Burgas|28
+Lake Sanabria|3.7|Lago de Sanabria
+Lake Banyoles|1.12
+Albufera of Valencia|21.2|Albufera
+Lake Alqueva|250
+Lake Tuz|1500
+Lake Sapanca|47
+Lake Iznik|308
+Lake Egirdir|482
+Lake Beysehir|656
+Lake Burdur|200
+Lake Manyas|166|Kus Golu
+Lake Uluabat|134
+Lake Salda|44
+Lake Aksehir|118
+Lake Ercek|98
+Lake Bafa|60
+Lake Koycegiz|52
+Lake Abant|1.28
+Lake Vrana|30.7
+Lake Peruca|13
+Lake Bileca|33|Bilecko Lake
+Busko Lake|56.7|Busko Blato
+Lake Jablanica|14.3
+Blidinje Lake|4.1
+Lake Boracko|1.15|Boracko jezero
+Lake Modrac|17
+Black Lake|0.52|Crno Jezero
+Lake Biograd|0.03|Biogradsko jezero
+Lake Palic|4.7
+Lake Vlasina|11.3
+Gazivode Lake|12
+Lake Butrint|16.3
+Lake Koman|34
+Lake Fierza|72.6
+Lake Dojran|43.1|Doiran Lake
+Lake Mavrovo|11.5
+Lake Debar|14
+Lake Paravani|37.5
+Lake Tabatskuri|14.2
+Lake Ritsa|1.5
+Lake Paliastomi|18.2
+Lake Goygol|0.86|Goygol
+Lake Lisi|0.17
+Lake Ilmen|982
+Lake Seliger|212
+Lake Pleshcheyevo|51
+Lake Beloye|1130
+Lake Vozhe|422
+Lake Lacha|345
+Lake Vygozero|1250
+Lake Topozero|986
+Lake Pyaozero|659
+Lake Nero|51.7
+Lake Elton|152
+Lake Baskunchak|106
+Lake Manych-Gudilo|344
+Lake Teletskoye|223
+Lake Chany|1700
+Rybinsk Reservoir|4580
+Kuybyshev Reservoir|6450|Kuibyshev Reservoir
+Bratsk Reservoir|5470
+Krasnoyarsk Reservoir|2000
+Tsimlyansk Reservoir|2700
+Lake Labynkyr|4
+Lake Kurilskoye|76.6|Kurile Lake
+Lake Kronotskoye|246
+Lake Winnipesaukee|186|Winnipesaukee
+Moosehead Lake|304
+Sebago Lake|119
+Squam Lake|27
+Lake Sunapee|16
+Walden Pond|0.24
+Quabbin Reservoir|100
+Candlewood Lake|21
+Seneca Lake|175
+Cayuga Lake|172
+Skaneateles Lake|35
+Keuka Lake|47
+Canandaigua Lake|42
+Oneida Lake|207
+Otsego Lake|16
+Chautauqua Lake|53
+Lake Winnebago|557
+Lake Minnetonka|57
+Mille Lacs Lake|536
+Leech Lake|468
+Red Lake|1160
+Lake Itasca|4.7
+Lake Vermilion|163
+Lake Pepin|91
+Devils Lake|350
+Lake Sakakawea|1520
+Lake Oahe|1500
+Lake Texoma|364
+Lake of the Ozarks|213
+Table Rock Lake|171
+Lake Travis|63
+Caddo Lake|103
+Toledo Bend Reservoir|729
+Reelfoot Lake|65
+Kentucky Lake|648
+Lake Cumberland|230
+Lake Lanier|150
+Lake Norman|130
+Lake Murray|194
+Lake Marion|487
+Lake Kissimmee|141
+Lake Apopka|124
+Lake Elsinore|13
+Shasta Lake|119
+Clear Lake|176
+Lake Berryessa|84
+Big Bear Lake|11
+Lake Arrowhead|1.7
+Donner Lake|1.3
+Pyramid Lake|486
+Walker Lake|130
+Bear Lake|280
+Utah Lake|385
+Jackson Lake|100
+Flathead Lake|510
+Lake McDonald|17
+Lake Chelan|130
+Lake Washington|88
+Lake Crescent|20
+Lake Coeur d'Alene|130
+Lake Pend Oreille|380
+Priest Lake|63
+Redfish Lake|6.2
+Lake Roosevelt|324
+Lake Sammamish|20
+Lake Union|1
+Diablo Lake|3.3
+Iliamna Lake|2622
+Lake Clark|110
+Becharof Lake|1180
+Kenai Lake|24
+Skilak Lake|59
+Naknek Lake|597
+Emerald Lake|1.2
+Garibaldi Lake|9.9
+Lake Okanagan|351
+Kootenay Lake|389
+Lake Memphremagog|111
+Lac Saint-Jean|1053
+Manicouagan Reservoir|1942
+Lake Mistassini|2335
+Lake Melville|3069
+Lake Simcoe|722
+Lake Nipissing|832
+Lake of the Woods|3150
+Lake Muskoka|130
+Lake Temagami|94
+Bow Lake|3.2
+Lake O'Hara|0.3
+Maligne Lake|20
+Abraham Lake|53.7
+Lake Diefenbaker|430
+Lake of Bays|118
+Wollaston Lake|2681
+Cree Lake|1434
+Lac la Ronge|1413
+Williston Lake|1761
+Lake Laberge|218|Lake Lebarge
+Kluane Lake|409
+Atlin Lake|775
+Harrison Lake|219
+Shuswap Lake|310
+Lake St. Clair|1114
+Lake Chapala|1100
+Lake Patzcuaro|126
+Lake Texcoco|110
+Lake Cuitzeo|300
+Laguna de Terminos|1600
+Bacalar Lagoon|42|Laguna Bacalar
+Lake Catemaco|72
+Lake Zirahuen|9.2
+Lake Peten Itza|100
+Lake Izabal|589
+Lake Amatitlan|15.2
+Lake Yojoa|90
+Lake Coatepeque|26
+Lake Ilopango|72
+Lake Arenal|85
+Gatun Lake|425|Lake Gatun
+Lake Alajuela|17.8
+Lake Enriquillo|265
+Lake Azuei|113
+Laguna de Apoyo|21.7
+Lake Xiloa|1.8|Laguna Xiloa
+Lake Junin|142
+Lake Llanquihue|860
+General Carrera Lake|1850|Lake Buenos Aires
+Lake Villarrica|176
+Lake Ranco|442
+Lake Todos los Santos|178
+Lake Viedma|1088
+Lake Lacar|58
+Lake Fagnano|590
+Mar Chiquita|6000
+Lagoa dos Patos|10140
+Lagoa Mirim|3750
+Lake Ypacarai|60
+Lake Ypoa|140
+Lake Tota|55
+Laguna Verde|11.8
+Lake Uru Uru|135
+Lake Sobradinho|4214
+Lake Valencia|350
+Lake Puelo|4
+Lake Futalaufquen|31
+Lake Colhue Huapi|803
+Lake Musters|414
+Lake Cardiel|370
+Lake Pehoe|3.7|Lago Pehoe
+Lake Grey|33|Lago Grey
+Lake Chungara|21.5
+Lake Rupanco|230
+Lake Puyehue|165
+Lake Rinihue|77
+Lake Panguipulli|116
+Lake Calafquen|121
+Lake Caburgua|54
+Lake Colico|24
+Lake Budi|55
+Lake Rapel|8
+Laguna Quilotoa|3|Quilotoa
+Lake Cuicocha|3.2
+Lake San Pablo|5.4
+Lake Yahuarcocha|2.5
+Laguna de la Cocha|39|La Cocha Lake
+Lake Calima|17
+Huacachina|0.01
+Laguna Paron|1.7
+Laguna 69|0.02|Lake 69
+Roopkund|0.001|Skeleton Lake
+Lake Nasser|5250|Aswan High Dam Lake
+Lake Manyara|470
+Lake Natron|1040
+Lake Bogoria|34
+Lake Magadi|100
+Lake Rukwa|3000
+Lake Kyoga|1720
+Lake Mai-Ndombe|2300
+Lake Abbe|319|Lake Abhe
+Lake Bosumtwi|49
+Lake Chilwa|750
+Lake Ngami|250
+Lake Cahora Bassa|2739
+Lake Elmenteita|18
+Lake Baringo|130
+Lake Shala|409
+Lake Abaya|1160
+Lake Ziway|434|Lake Zway
+Lake Langano|230
+Lake Awasa|129|Lake Hawassa
+Lake Chamo|551
+Lake Itasy|35
+Lake Alaotra|900
+Lake Nokoue|160
+Lake Togo|48
+Lake Nyos|1.58
+Lake Monoun|0.9
+Kainji Lake|1243|Kainji Reservoir
+Lake Fitri|180
+Lake Tumba|765
+Lake Upemba|530
+Lake Bunyonyi|61
+Lake Mutanda|25.7
+Lake Ihema|90
+Lake Rweru|100
+Lake Cohoha|68|Lake Cyohoha
+Lake Chala|4.2
+Lake Jipe|30
+Lake Eyasi|1050
+Lake Kitangiri|180
+Lake Malombe|303
+Lake Chiuta|200
+Lake Guiers|300
+Lake Hayq|23|Lake Hayk
+Lake Ashenge|18
+Lake Afrera|80
+Lake Karum|500|Lake Assale
+Lake Qarun|230
+Lake Mariout|60|Lake Maryut
+Lake Manzala|1350
+Lake Burullus|410
+Lake Bardawil|595
+Lake Timsah|14
+Great Bitter Lake|250
+Lake Idku|126
+Chott el Djerid|5000|Chott el Jerid
+Chott Melrhir|6800
+Lake of Tunis|20
+Lake Ichkeul|126
+Bin El Ouidane|38|Lake Bin el Ouidane
+Lake Oubeira|25|Lac Oubeira
+Lake Sibaya|77
+Lake St Lucia|352
+Sterkfontein Dam|69
+Vaal Dam|321
+Gariep Dam|374
+Lake Fundudzi|1.13
+Lake Otjikoto|0.02
+Lake Guinas|0.05
+Etosha Pan|4760
+Makgadikgadi Pan|16000
+Sua Pan|3400|Sowa Pan
+Birkat Ram|0.3|Lake Ram
+Lake Qaraoun|11|Qaraoun Lake
+Lake Homs|66
+Lake Assad|610
+Lake Tharthar|2710
+Lake Habbaniyah|426
+Lake Razzaza|1815|Bahr al Milh
+Lake Dukan|270|Dukan Lake
+Darbandikhan Lake|115|Lake Darbandikhan
+Zarivar Lake|2.1|Zaribar Lake
+Maharloo Lake|280|Lake Maharloo
+Chitgar Lake|1.3|Lake Chitgar
+Hamun Lake|1500|Lake Hamun
+Bakhtegan Lake|3500|Lake Bakhtegan
+Tashk Lake|400|Lake Tashk
+Namak Lake|1806
+Lake Zaysan|1810
+Lake Alakol|2650
+Lake Tengiz|1590
+Lake Markakol|455
+Lake Borovoe|10.5|Lake Burabay
+Big Almaty Lake|0.5
+Kaindy Lake|0.4
+Aydar Lake|3000|Lake Aydar
+Karakul (Tajikistan)|380|Kara-Kul
+Song-Kul|278|Song-Kol
+Sary-Chelek|5
+Iskanderkul|3.4
+Lake Merzbacher|4
+Chatyr-Kul|170
+Band-e Amir|14
+Sarez Lake|86|Lake Sarez
+Dianchi Lake|298
+Erhai Lake|250
+Dongting Lake|2820
+Lake Tai|2338|Taihu
+Hongze Lake|2069
+Chao Lake|760|Chaohu
+Hulun Lake|2339
+Bosten Lake|1000
+Sayram Lake|458
+Namtso|2000
+Lake Manasarovar|410
+Yamdrok Lake|638
+Siling Lake|1640
+Ngoring Lake|610
+Gyaring Lake|526
+Lugu Lake|48.5
+Fuxian Lake|212|Lake Fuxian
+Qiandao Lake|573
+Heaven Lake|9.82|Chonji,Cheonji
+Khar-Us Lake|1852
+Khyargas Lake|1407
+Airag Lake|145|Lake Airag
+Terkhiin Tsagaan Lake|61
+Achit Lake|300
+Pangong Tso|604
+Dal Lake|18
+Wular Lake|130
+Chilika Lake|1100
+Vembanad Lake|2033
+Loktak Lake|287
+Sambhar Lake|230|Sambhar Salt Lake
+Tso Moriri|120
+Nainital Lake|1.4|Naini Lake
+Phewa Lake|4.4|Fewa Lake
+Rara Lake|10.8
+Kaptai Lake|688
+Lake Lanao|340
+Laguna de Bay|911
+Lake Maninjau|99.5
+Lake Poso|323.2
+Lake Matano|164.1
+Indawgyi Lake|207
+Songkhla Lake|1040|Lake Songkhla
+Lake Batur|16
+Lake Kussharo|79.3
+Lake Towada|61.1
+Lake Ashi|6.9
+Lake Kawaguchi|6.4
+Lake Mashu|19.2
+Lake Shikotsu|78.4
+Lake Toya|70.7
+Lake Chuzenji|11.62
+Lake Burley Griffin|6.64
+Lake Argyle|1000
+Lake Macquarie|110
+Lake Wanaka|193
+Lake Hawea|141
+Lake Manapouri|142
+Lake Ohau|55.6
+Lake Tarawera|41.7
+Lake Waikaremoana|54
+Lake Ellesmere|181|Te Waihora
+Lake Rotoiti|34
+Lake Pedder|242
+Great Lake|114
+Lake Kutubu|49
+Lake Lanoto'o|0.1
+Lake Letas|7
+Lake Iseo|65.3|Iseo
 `;
 
 export const RIVERS = `
@@ -277,6 +911,2072 @@ River Forth|47|Forth
 River Exe|82|Exe
 River Dee|113|Dee
 River Bann|129|Bann
+Mersey|113|River Mersey
+Humber|62
+Tyne|118|River Tyne
+Wear|96|River Wear
+Tees|137|River Tees
+Ribble|121|River Ribble
+Lune|71|River Lune
+Eden|145|River Eden
+Derwent (Derbyshire)|107|River Derwent
+Calder|72|River Calder
+Wharfe|96|River Wharfe
+Nidd|55|River Nidd
+Swale|117|River Swale
+Ure|129|River Ure
+Great Ouse|230|Bedford Ouse
+Nene|161|River Nene
+Welland|105|River Welland
+Witham|132|River Witham
+Hull|32|River Hull
+Orwell|22|River Orwell
+Lea|68|River Lea
+Wandle|14|River Wandle
+Fleet|6|River Fleet
+Mole|80|River Mole
+Wey|56|River Wey
+Kennet|72|River Kennet
+Windrush|64|River Windrush
+Cherwell|43|River Cherwell
+Itchen|43|River Itchen
+Test|64|River Test
+Arun|58|River Arun
+Adur|32|River Adur
+Cuckmere|32|River Cuckmere
+Stour (Kent)|64|River Stour
+Frome|64|River Frome
+Piddle|40|River Piddle
+Axe|35|River Axe
+Otter|33|River Otter
+Teign|48|River Teign
+Dart|32|River Dart
+Tamar|98|River Tamar
+Tavy|31|River Tavy
+Plym|24|River Plym
+Fal|43|River Fal
+Fowey|39|River Fowey
+Camel|48|River Camel
+Torridge|58|River Torridge
+Taw|69|River Taw
+Parrett|60|River Parrett
+Tone|32|River Tone
+Warwickshire Avon|154
+Teme|82|River Teme
+Lugg|68|River Lugg
+Monnow|56|River Monnow
+Usk|123|River Usk
+Taff|68|River Taff
+Ebbw|35|River Ebbw
+Tawe|48|River Tawe
+Tywi|103|River Tywi,Towy
+Teifi|122|River Teifi
+Cleddau|40|River Cleddau
+Ystwyth|33|River Ystwyth
+Rheidol|30|River Rheidol
+Dyfi|30|River Dyfi,Dovey
+Mawddach|30|River Mawddach
+Glaslyn|32|River Glaslyn
+Conwy|43|River Conwy
+Clwyd|48|River Clwyd
+Vyrnwy|118|River Vyrnwy
+Ness|12|River Ness
+Findhorn|101|River Findhorn
+Deveron|98|River Deveron
+Esk|32|River Esk
+Earn|75|River Earn
+Almond|46|River Almond
+Water of Leith|38
+Annan|79|River Annan
+Nith|113|River Nith
+Doon|26|River Doon
+Ayr|66|River Ayr
+Kelvin|34|River Kelvin
+Tummel|96|River Tummel
+Oykel|32|River Oykel
+Carron|32|River Carron
+Beauly|48|River Beauly
+Lochy|11|River Lochy
+Nevis|15|River Nevis
+Coe|10|River Coe
+Awe|10|River Awe
+Naver|40|River Naver
+Helmsdale|34|River Helmsdale
+Thurso|48|River Thurso
+Boyne|112|River Boyne
+Barrow|192|River Barrow
+Nore|140|River Nore
+Suir|184|River Suir
+Slaney|117|River Slaney
+Munster Blackwater|169
+Lee|89|River Lee
+Bandon|72|River Bandon
+Moy|90|River Moy
+Corrib|6|River Corrib
+Erne|129|River Erne
+Foyle|11|River Foyle
+Lagan|70|River Lagan
+Bush|53|River Bush
+Suck|132|River Suck
+Fergus|60|River Fergus
+Dodder|26|River Dodder
+Tolka|25|River Tolka
+Poddle|8|River Poddle
+Avoca|13|River Avoca
+Dargle|24|River Dargle
+Garavogue|16|River Garavogue
+Garonne|602
+Dordogne|483
+Gironde|75
+Charente|381
+Vienne|372
+Creuse|255
+Indre|280
+Cher|368
+Allier|421
+Loir|317
+Sarthe|313
+Mayenne|202
+Vilaine|225
+Blavet|149
+Aulne|144
+Rance|100
+Couesnon|90
+Vire|128
+Orne|152
+Eure|225
+Oise|341
+Aisne|353
+Marne|514
+Ourcq|110
+Yonne|293
+Loing|166
+Essonne|100
+Bievre|33
+Somme|245
+Canche|96
+Aa|89
+Lys|202|Leie
+Scarpe|100
+Scheldt|350|Escaut,Schelde
+Sambre|190
+Semois|210
+Aube|248
+Saone|480
+Doubs|453
+Loue|125
+Ognon|170
+Ill|223
+Ain|190
+Isere|286
+Arc|148|Arc de Maurienne
+Drac|130
+Romanche|78
+Arve|107
+Ardeche|125
+Ceze|128
+Gardon|127
+Herault|148
+Orb|136
+Aude|224
+Tet|120
+Durance|305
+Verdon|175
+Sorgue|31
+Var|114
+Argens|116
+Huveaune|47
+Tarn|380
+Aveyron|291
+Agout|182
+Lot|485
+Cele|75
+Truyere|170
+Baise|190
+Gers|178
+Ariege|170
+Adour|335
+Gave de Pau|175
+Gave d'Oloron|40
+Nive|79
+Bidasoa|69
+Leyre|104
+Dronne|203
+Isle|255
+Vezere|211
+Correze|86
+Lesse|90
+Ourthe|175
+Ambleve|92
+Vesdre|72
+Dyle|86
+Senne|103
+Dender|65
+Rupel|12
+Demer|90
+Yser|78
+Sure|173|Sauer
+Alzette|71
+Our|60
+IJssel|125
+Waal|85
+Lek|61
+Amstel|31
+Vecht|68
+Dommel|93
+Rur|165|Roer
+Geul|58
+Zaan|18
+Spaarne|14
+Rotte|17
+Schie|8
+Neckar|362
+Ruhr|219
+Lahn|242
+Sieg|155
+Wupper|116
+Lippe|220
+Ahr|85
+Nahe|125
+Kinzig|86
+Enz|105
+Kocher|168
+Jagst|190
+Tauber|129
+Regnitz|60
+Pegnitz|110
+Nidda|90
+Fulda|218
+Werra|292
+Eder|177
+Aller|211
+Leine|281
+Oker|128
+Ilmenau|101
+Hunte|182
+Ems|371
+Eider|188
+Trave|124
+Warnow|155
+Peene|85
+Havel|325
+Spree|400
+Dahme|95
+Panke|29
+Saale|413
+Weisse Elster|257
+Unstrut|192
+Ilm|68
+Pleisse|90
+Mulde|124
+Schwarze Elster|188
+Neisse|252|Lusatian Neisse,Nysa Luzycka
+Isar|295
+Amper|188
+Wurm|35
+Loisach|113
+Lech|264
+Wertach|61
+Iller|147
+Altmuhl|227
+Naab|165
+Regen|84
+Vils|105
+Inn|517
+Salzach|225
+Alz|60
+Mangfall|59
+Wornitz|141
+Rems|78
+Blau|21
+Argen|60
+Wutach|48
+Dreisam|29
+Mur|447
+Murz|94
+Enns|254
+Steyr|45
+Traun|153
+Krems|25
+Kamp|153
+Ybbs|130
+Traisen|90
+Leitha|180
+Raab|253
+Gurk|157
+Gail|70
+Isel|58
+Ziller|48
+Sill|32
+Otztaler Ache|50
+Bregenzer Ach|35
+Aare|288|Aar
+Reuss|158
+Limmat|36
+Linth|50
+Thur|130
+Toss|57
+Sihl|73
+Emme|80
+Saane|126|Sarine
+Sense|49
+Broye|60
+Orbe|42
+Birs|73
+Ticino|248
+Maggia|57
+Verzasca|30
+Landquart|43
+Plessur|33
+Hinterrhein|64
+Vorderrhein|72
+Kander|44
+Simme|57
+Lutschine|6
+Vispa|38
+Dranse|45
+Adda|313
+Oglio|280
+Mincio|75
+Sesia|138
+Dora Baltea|160
+Dora Riparia|125
+Tanaro|276
+Bormida|91
+Scrivia|95
+Trebbia|115
+Taro|126
+Parma|92
+Secchia|172
+Panaro|148
+Reno|212
+Savio|126
+Marecchia|70
+Rubicon|29
+Metauro|105
+Chienti|96
+Tronto|115
+Pescara|145
+Sangro|122
+Biferno|95
+Ofanto|134
+Bradano|120
+Basento|149
+Crati|91
+Sele|64
+Calore|108
+Volturno|175
+Garigliano|38
+Liri|158
+Aniene|99
+Nera|116
+Velino|90
+Fiora|84
+Ombrone|161
+Orcia|60
+Cecina|79
+Elsa|62
+Bisenzio|49
+Sieve|60
+Serchio|111
+Magra|62
+Bisagno|25
+Roya|59
+Piave|220
+Brenta|174
+Bacchiglione|118
+Livenza|112
+Tagliamento|170
+Isonzo|136|Soca
+Natisone|55
+Sile|95
+Avisio|89
+Sarca|65
+Chiese|160
+Isarco|96|Eisack
+Rienza|80|Rienz
+Passirio|42|Passer
+Stura di Lanzo|68
+Stura di Demonte|111
+Pellice|53
+Chisone|49
+Toce|84
+Lambro|130
+Olona|71
+Seveso|52
+Serio|124
+Brembo|66
+Mella|96
+Simeto|113
+Salso|144
+Platani|104
+Belice|107
+Alcantara|52
+Anapo|32
+Ciane|8
+Oreto|32
+Tirso|152
+Flumendosa|127
+Coghinas|115
+Temo|90
+Mino|340|Minho
+Sil|225
+Ulla|132
+Navia|90
+Nalon|129
+Sella|60
+Cares|42
+Nervion|72
+Oria|66
+Urumea|54
+Pisuerga|283
+Carrion|141
+Arlanzon|136
+Esla|265
+Orbigo|130
+Tormes|284
+Jarama|194
+Manzanares|92
+Henares|130
+Alberche|178
+Tietar|148
+Alagon|198
+Jerte|76
+Genil|359
+Guadalete|172
+Guadalhorce|166
+Guadalmedina|42
+Guadiaro|84
+Guadalfeo|74
+Andarax|58
+Segura|325
+Vinalopo|82
+Jucar|498
+Cabriel|220
+Turia|280
+Mijares|156
+Aragon|195
+Arga|145
+Gallego|191
+Cinca|179
+Esera|85
+Segre|265
+Noguera Pallaresa|143
+Noguera Ribagorcana|133
+Valira|34
+Llobregat|170
+Cardener|79
+Besos|17
+Ter|208
+Fluvia|97
+Muga|61
+Francoli|46
+Jalon|130
+Jiloca|122
+Huerva|128
+Guadalope|194
+Mondego|258
+Vouga|148
+Cavado|118
+Ave|90
+Lima|108
+Sado|175
+Mira|130
+Zezere|214
+Tamega|175
+Tua|108
+Sabor|172
+Coa|136
+Paiva|110
+Dao|108
+Nabao|62
+Sorraia|130
+Arade|40
+Warta|808
+Bug|772
+Narew|484
+San|443
+Wieprz|303
+Pilica|342
+Dunajec|247
+Poprad|169
+Raba|131
+Sola|88
+Nida|151
+Bzura|166
+Drweca|207
+Brda|245
+Notec|388
+Prosna|217
+Obra|164
+Barycz|133
+Bobr|272
+Kwisa|130
+Bystrzyca|95
+Nysa Klodzka|182
+Klodnica|84
+Olza|88
+Przemsza|88
+Wislok|218
+Wisloka|163
+Lyna|264
+Pasleka|169
+Wkra|249
+Liwiec|141
+Krzna|141
+Parseta|146
+Rega|100
+Slupia|138
+Leba|117
+Reda|50
+Radunia|103
+Motlawa|41
+Pisa|90
+Biebrza|155
+Suprasl|93
+Rospuda|84
+Czarna Hancza|142
+Morava|354
+Dyje|306
+Svratka|173
+Svitava|97
+Jihlava|184
+Becva|61
+Opava|131
+Ostravice|65
+Ohre|316
+Bilina|84
+Ploucnice|106
+Jizera|165
+Orlice|29
+Metuje|82
+Upa|60
+Sazava|225
+Berounka|139
+Mze|105
+Radbuza|105
+Otava|112
+Luznice|208
+Malse|96
+Blanice|76
+Vah|403
+Hron|298
+Nitra|197
+Ipel|232
+Hornad|286
+Slana|229
+Bodrog|55
+Latorica|188
+Laborec|132
+Ondava|145
+Topla|129
+Torysa|132
+Orava|88
+Kysuca|62
+Turiec|58
+Myjava|84
+Maly Dunaj|129
+Sio|116
+Zala|116
+Zagyva|179
+Sajo|229
+Berettyo|201
+Koros|91|Crisul,Cris
+Marcal|106
+Prut|953
+Siret|726
+Mures|761
+Olt|615
+Somes|376
+Timis|359
+Bega|244
+Jiu|339
+Arges|350
+Dambovita|286
+Ialomita|417
+Buzau|302
+Bistrita|283
+Trotus|162
+Suceava|173
+Barlad|207
+Tarnava|246
+Aries|164
+Cibin|83
+Cerna|84
+Bahlui|129
+Raut|286
+Dniester|1362
+Bic|155
+Maritsa|480
+Iskar|368
+Yantra|285
+Osam|314
+Vit|189
+Ogosta|147
+Struma|415
+Mesta|273
+Arda|292
+Tundzha|350
+Kamchiya|245
+Vardar|388
+Bregalnica|225
+Crna|207|Crna Reka
+Treska|130
+Strumica|96
+Radika|63
+Black Drin|145
+White Drin|122
+Drin|285
+Bojana|41
+Mat|115
+Shkumbin|181
+Seman|281
+Devoll|190
+Osum|161
+Vjosa|272
+Erzen|109
+Drino|60
+Moraca|113
+Zeta|86
+Tara|144
+Piva|34
+Lim|220
+Cehotina|106
+Ibar|276
+Great Morava|296
+West Morava|308
+South Morava|295
+Nisava|151
+Timok|202
+Pek|129
+Mlava|100
+Resava|60
+Jadar|65
+Kolubara|87
+Drina|346
+Bosna|273
+Vrbas|235
+Una|212
+Sana|148
+Neretva|225
+Trebisnjica|96
+Pliva|46
+Spreca|146
+Lasva|62
+Miljacka|36
+Rama|45
+Sutjeska|46
+Kupa|296
+Korana|134
+Mreznica|64
+Dobra|104
+Glina|86
+Krka (Croatia)|72
+Cetina|105
+Zrmanja|69
+Gacka|34
+Lika|46
+Ombla|4
+Rjecina|20
+Mirna|53
+Rasa|23
+Dragonja|29
+Idrijca|33
+Vipava|49
+Savinja|102
+Kamniska Bistrica|33
+Ljubljanica|41
+Sotla|89
+Reka|55
+Pivka|32
+Unica|30
+Aliakmon|297
+Pineios|216
+Acheloos|220
+Arachthos|110
+Louros|65
+Kalamas|115
+Sperchios|82
+Mornos|60
+Evinos|100
+Alfeios|110
+Eurotas|82
+Pamisos|27
+Neda|30
+Ladon|70
+Asopos|40
+Ilisos|15
+Acheron|52
+Gallikos|65
+Loudias|45
+Kizilirmak|1355
+Yesilirmak|418
+Sakarya|824
+Seyhan|560
+Ceyhan|509
+Goksu|265
+Buyuk Menderes|584
+Kucuk Menderes|175
+Gediz|401
+Bakircay|129
+Ergene|283
+Coruh|431
+Kelkit|373
+Aras|1072
+Kura|1515
+Murat|722
+Karasu|450
+Botan|175
+Batman|165
+Zab|400
+Orontes|571
+Manavgat|92
+Koprucay|74
+Dalaman|229
+Dim|19
+Tarsus|84
+Zamanti|190
+Porsuk|460
+Bartin|133
+Filyos|228
+Nilufer|106
+Scamander (Karamenderes)|71
+Tunca|350
+Rioni|327
+Enguri|213
+Kodori|96
+Bzyb|110
+Mzymta|89
+Alazani|351
+Iori|320
+Aragvi|112
+Liakhvi|115
+Terek|623
+Sunzha|278
+Baksan|173
+Malka|216
+Ardon|102
+Kuban|870
+Laba|214
+Manych|500
+Seversky Donets|1053
+Khopyor|979
+Voronezh|342
+Oskol|472
+Aidar|264
+Kalitva|227
+Sulak|144
+Samur|216
+Kuma|802
+Podkumok|160
+Oka|1500
+Moskva|502
+Klyazma|686
+Ugra|399
+Tsna|451
+Moksha|656
+Sura|841
+Sviyaga|375
+Vetluga|889
+Unzha|426
+Kostroma|354
+Sheksna|139
+Mologa|456
+Tvertsa|188
+Nerl|80
+Istra|113
+Pakhra|135
+Neglinnaya|7
+Yauza|48
+Vyatka|1314
+Belaya|1430
+Ufa|918
+Chusovaya|592
+Sylva|493
+Vishera|415
+Pechora|1809
+Usa|565
+Izhma|531
+Vychegda|1130
+Sysola|487
+Northern Dvina|1302
+Sukhona|558
+Yug|574
+Vaga|575
+Pinega|779
+Mezen|966
+Onega River|416
+Kem|191
+Varzuga|254
+Ponoy|426
+Tuloma|59
+Kola|83
+Pasvik|147|Paatsjoki
+Volkhov|224
+Svir|224
+Vuoksi|156
+Narva|77
+Luga|353
+Velikaya|430
+Lovat|530
+Msta|445
+Okhta|99
+Fontanka|7
+Moyka|5
+Daugava|1020|Western Dvina
+Gauja|452
+Lielupe|119
+Venta|346
+Abava|129
+Ogre|188
+Aiviekste|105
+Nemunas|937|Neman
+Neris|510
+Merkys|203
+Sventoji|249
+Nevezis|209
+Dubysa|130
+Minija|202
+Sesupe|298
+Vilnia|18
+Pregolya|123
+Berezina|613
+Pripyat|761
+Sozh|648
+Ptsich|421
+Svislach|327
+Shchara|325
+Drut|295
+Iput|437
+Mukhavets|113
+Yaselda|242
+Horyn|659
+Styr|494
+Sluch|451
+Uzh|256
+Teteriv|385
+Irpin|162
+Ros|346
+Sula|363
+Psel|717
+Vorskla|464
+Samara|320
+Inhulets|549
+Inhul|354
+Southern Bug|806
+Zbruch|244
+Seret|242
+Stryi|232
+Bystrytsia|66
+Cheremosh|80
+Desna|1130
+Seym|748
+Kalmius|209
+Molochna|197
+Salhyr|232
+Alma|84
+Chorna|41
+Glomma|604
+Gudbrandsdalslagen|203
+Drammenselva|44
+Numedalslagen|352
+Alta|187
+Namsen|210
+Gaula|155
+Nidelva|30
+Orkla|179
+Rauma|65
+Driva|92
+Otta|111
+Sjoa|82
+Begna|190
+Hallingdalselva|157
+Otra|245
+Mandalselva|155
+Suldalslagen|30
+Vosso|42
+Laerdalselva|30
+Flamselva|20
+Stryneelva|25
+Surna|66
+Vefsna|163
+Ranelva|82
+Malselva|65
+Reisaelva|140
+Karasjohka|186
+Gota alv|93
+Klaralven|460
+Dalalven|520
+Ljusnan|440
+Ljungan|400
+Indalsalven|430
+Angermanalven|470
+Umealven|470
+Vindelalven|445
+Skelleftealven|410
+Pitealven|400
+Lulealven|461
+Kalixalven|461
+Torne alv|520
+Muonio|230
+Faxalven|250
+Eman|220
+Morrumsan|190
+Helge a|190
+Nissan|200
+Atran|243
+Viskan|130
+Motala strom|12
+Stangan|65
+Norrstrom|0.4
+Fyrisan|90
+Eskilstunaan|10
+Tidan|160
+Kemijoki|550
+Oulujoki|107
+Iijoki|370
+Kokemaenjoki|121
+Kymijoki|203
+Kalajoki|130
+Kyronjoki|121
+Aurajoki|70
+Vantaanjoki|100
+Porvoonjoki|60
+Ounasjoki|300
+Kitinen|200
+Ivalojoki|130
+Lieksanjoki|62
+Pielisjoki|38
+Kiiminkijoki|173
+Gudena|158
+Skjern A|94
+Stora|105
+Kongea|65
+Susa|87
+Odense A|60
+Molleaen|34
+Vida|60
+Thjorsa|230
+Olfusa|25
+Hvita|30
+Jokulsa a Fjollum|206
+Skjalfandafljot|178
+Lagarfljot|140
+Blanda|125
+Heradsvotn|130
+Skafta|155
+Markarfljot|100
+Ellidaar|8
+Sog|24
+Tungnaa|65
+Laxa|56
+Skeidara|30
+Hudson|507|Hudson River
+Potomac|665|Potomac River
+Delaware|485|Delaware River
+Susquehanna|715|Susquehanna River
+Connecticut River|655|Connecticut
+Tennessee|1049|Tennessee River
+Cumberland|1106|Cumberland River
+Mohawk|238|Mohawk River
+Merrimack|187|Merrimack River
+Kennebec|274|Kennebec River
+Penobscot|460|Penobscot River
+Charles|129|Charles River
+Housatonic|224|Housatonic River
+Passaic|130|Passaic River
+Raritan|88|Raritan River
+Genesee|232|Genesee River
+Schuylkill|209|Schuylkill River
+Lehigh|166|Lehigh River
+Brandywine|32|Brandywine Creek
+Rappahannock|297|Rappahannock River
+Roanoke|660|Roanoke River
+Cape Fear|305|Cape Fear River
+Neuse|444|Neuse River
+Pee Dee|373|Pee Dee River
+Santee|232|Santee River
+Cooper|65|Cooper River
+Edisto|246|Edisto River
+Altamaha|220|Altamaha River
+St. Johns|500|St Johns River,Saint Johns River
+Apalachicola|179|Apalachicola River
+Flint|344|Flint River
+Suwannee|396|Suwannee River
+Savannah|505|Savannah River
+Chattahoochee|702|Chattahoochee River
+James|550|James River
+Shenandoah|89|Shenandoah River
+Allegheny|523|Allegheny River
+Monongahela|209|Monongahela River
+Wabash|810|Wabash River
+Illinois River|439
+Wisconsin River|692
+Fox|300|Fox River
+Rock|459|Rock River
+Des Plaines|246|Des Plaines River
+Kankakee|209|Kankakee River
+Sangamon|396|Sangamon River
+Chicago River|251
+Cuyahoga|137|Cuyahoga River
+Scioto|372|Scioto River
+Muskingum|179|Muskingum River
+Great Miami|260|Great Miami River
+Maumee|220|Maumee River
+Kalamazoo|210|Kalamazoo River
+Saginaw|35|Saginaw River
+Menominee|195|Menominee River
+Chippewa|296|Chippewa River
+St. Croix|272|St Croix River
+Minnesota|534|Minnesota River
+Rainy|137|Rainy River
+Kentucky|418|Kentucky River
+Licking|515|Licking River
+Tippecanoe|260|Tippecanoe River
+Big Sioux|682|Big Sioux River
+Cheyenne|848|Cheyenne River
+Niobrara|692|Niobrara River
+Loup|805|Loup River
+Republican|632|Republican River
+Smoky Hill|872|Smoky Hill River
+Kansas|275|Kansas River,Kaw River
+Platte|500|Platte River
+North Platte|1094|North Platte River
+South Platte|673|South Platte River
+Cimarron|966|Cimarron River
+Canadian|1458|Canadian River
+Washita|500|Washita River
+Brazos|1352|Brazos River
+Trinity|1136|Trinity River
+Pecos|1490|Pecos River
+Sacramento|715|Sacramento River
+San Joaquin|587|San Joaquin River
+Willamette|301|Willamette River
+Klamath|423|Klamath River
+Sabine|918|Sabine River
+Neches|660|Neches River
+San Jacinto|130|San Jacinto River
+Guadalupe|629|Guadalupe River
+San Antonio River|386
+Nueces|507|Nueces River
+Devils|153|Devils River
+Comal|3|Comal River
+Ouachita|973|Ouachita River
+Atchafalaya|217|Atchafalaya River
+White|1162|White River
+Buffalo|246|Buffalo River,Buffalo National River
+Current|296|Current River
+Gasconade|425|Gasconade River
+Meramec|351|Meramec River
+Osage|484|Osage River
+Alabama|507|Alabama River
+Coosa|452|Coosa River
+Tombigbee|660|Tombigbee River
+Mobile|72|Mobile River
+Pascagoula|129|Pascagoula River
+Yellowstone|1114|Yellowstone River
+Bighorn|461|Bighorn River
+Powder|605|Powder River
+Tongue|439|Tongue River
+Musselshell|458|Musselshell River
+Milk|1173|Milk River
+Marias|249|Marias River
+Madison|295|Madison River
+Gallatin|195|Gallatin River
+Jefferson|133|Jefferson River
+Clark Fork|505|Clark Fork River
+Blackfoot|121|Blackfoot River
+Bitterroot|135|Bitterroot River
+Flathead|314|Flathead River
+Kootenay|780|Kootenai River
+Pend Oreille|209|Pend Oreille River
+Spokane|179|Spokane River
+Salmon|676|Salmon River
+Clearwater|121|Clearwater River
+Boise|164|Boise River
+Payette|148|Payette River
+Owyhee|425|Owyhee River
+Bruneau|169|Bruneau River
+Henrys Fork|205|Henrys Fork River
+Bear|790|Bear River
+Weber|201|Weber River
+Provo|116|Provo River
+Sevier|383|Sevier River
+Virgin|260|Virgin River
+Yampa|402|Yampa River
+Animas|203|Animas River
+Dolores|389|Dolores River
+Gunnison|262|Gunnison River
+Cache la Poudre|203|Poudre River
+Big Thompson|126|Big Thompson River
+Little Colorado|603|Little Colorado River
+Gila|1044|Gila River
+Salt|320|Salt River
+Verde|273|Verde River
+San Pedro|225|San Pedro River
+Kern|265|Kern River
+Kings|206|Kings River
+Merced|233|Merced River
+Tuolumne|238|Tuolumne River
+Stanislaus|154|Stanislaus River
+Mokelumne|145|Mokelumne River
+American|193|American River
+Feather|217|Feather River
+Yuba|64|Yuba River
+Pit|241|Pit River
+Eel|315|Eel River
+Russian|177|Russian River
+Napa|89|Napa River
+Salinas|280|Salinas River
+Santa Ana|154|Santa Ana River
+San Gabriel|93|San Gabriel River
+Mojave River|179
+Amargosa|301|Amargosa River
+Owens|296|Owens River
+Truckee|196|Truckee River
+Carson|211|Carson River
+Walker|100|Walker River
+Humboldt|451|Humboldt River
+Los Angeles River|82
+Deschutes|406|Deschutes River
+John Day|451|John Day River
+Umatilla|143|Umatilla River
+McKenzie|145|McKenzie River
+Clackamas|116|Clackamas River
+Rogue|346|Rogue River
+Umpqua|170|Umpqua River
+Cowlitz|105|Cowlitz River
+Toutle|58|Toutle River
+Chehalis|193|Chehalis River
+Puyallup|72|Puyallup River
+Nisqually|129|Nisqually River
+Duwamish|21|Duwamish River
+Snoqualmie|68|Snoqualmie River
+Skykomish|97|Skykomish River
+Skagit|241|Skagit River
+Stillaguamish|64|Stillaguamish River
+Nooksack|121|Nooksack River
+Wenatchee|85|Wenatchee River
+Yakima|344|Yakima River
+Methow|129|Methow River
+Okanogan|185|Okanogan River
+Palouse|265|Palouse River
+Walla Walla|76|Walla Walla River
+Elwha|72|Elwha River
+Hoh|90|Hoh River
+Quinault|65|Quinault River
+Tanana|917|Tanana River
+Koyukuk|684|Koyukuk River
+Porcupine|918|Porcupine River
+Kuskokwim|1130|Kuskokwim River
+Susitna|505|Susitna River
+Matanuska|121|Matanuska River
+Copper|470|Copper River
+Chitina|193|Chitina River
+Kenai|132|Kenai River
+Kobuk|450|Kobuk River
+Noatak|684|Noatak River
+Colville|610|Colville River
+Stikine|539|Stikine River
+Taku|210|Taku River
+Chilkat|82|Chilkat River
+Alsek|386|Alsek River
+Tatshenshini|192|Tatshenshini River
+Nushagak|440|Nushagak River
+Kvichak|105|Kvichak River
+Naknek|56|Naknek River
+Fraser|1375|Fraser River
+Thompson|489|Thompson River
+Nechako|462|Nechako River
+Chilcotin|241|Chilcotin River
+Quesnel|113|Quesnel River
+Lillooet|130|Lillooet River
+Harrison|75|Harrison River
+Coquihalla|75|Coquihalla River
+Similkameen|225|Similkameen River
+Okanagan|200|Okanagan River
+Kettle|280|Kettle River
+Skeena|570|Skeena River
+Bulkley|233|Bulkley River
+Nass|380|Nass River
+Bella Coola|100|Bella Coola River
+Squamish|85|Squamish River
+Capilano|40|Capilano River
+Cowichan|47|Cowichan River
+Campbell|19|Campbell River
+Peace|1923|Peace River
+Athabasca|1231|Athabasca River
+Slave|434|Slave River
+Liard|1115|Liard River
+Hay|590|Hay River
+Nahanni|560|South Nahanni River
+Back|974|Back River
+Thelon|900|Thelon River
+Coppermine|845|Coppermine River
+Kazan|857|Kazan River
+Hayes|483|Hayes River
+Winisk|475|Winisk River
+Attawapiskat|748|Attawapiskat River
+Albany River|982
+Moose|547|Moose River
+Abitibi|579|Abitibi River
+Mattagami|443|Mattagami River
+Missinaibi|426|Missinaibi River
+Harricana|533|Harricana River
+Nottaway|425|Nottaway River
+Rupert|611|Rupert River
+Eastmain|800|Eastmain River
+La Grande|810|La Grande River
+Great Whale|370|Great Whale River
+Koksoak|64|Koksoak River
+Caniapiscau|475|Caniapiscau River
+Exploits|246|Exploits River
+Gander|72|Gander River
+Saint John (New Brunswick)|673|Saint John River
+Miramichi|217|Miramichi River
+Restigouche|200|Restigouche River
+Petitcodiac|79|Petitcodiac River
+Shubenacadie|72|Shubenacadie River
+Margaree|50|Margaree River
+Saguenay|170|Saguenay River
+Saint-Maurice|523|Saint-Maurice River
+Richelieu|130|Richelieu River
+Chaudiere|185|Chaudiere River
+Saint-Francois|282|Saint-Francois River
+Yamaska|150|Yamaska River
+Gatineau|386|Gatineau River
+Rideau|146|Rideau River
+Madawaska|230|Madawaska River
+Petawawa|188|Petawawa River
+Grand (Ontario)|280|Grand River
+Credit|90|Credit River
+Niagara|56|Niagara River
+Detroit River|82
+St. Clair|64|St Clair River
+St. Marys|121|St Marys River
+Nipigon|48|Nipigon River
+Kaministiquia|55|Kaministiquia River
+Winnipeg River|235
+English|306|English River
+Assiniboine|1070|Assiniboine River
+Souris|700|Souris River
+Qu'Appelle|430|Qu'Appelle River,Qu Appelle River
+Seal|852|Seal River
+Saskatchewan|550|Saskatchewan River
+North Saskatchewan|1287|North Saskatchewan River
+South Saskatchewan|865|South Saskatchewan River
+Bow|587|Bow River
+Elbow|50|Elbow River
+Oldman|350|Oldman River
+Red Deer|724|Red Deer River
+Klondike|160|Klondike River
+Pelly|550|Pelly River
+Stewart|644|Stewart River
+Teslin|150|Teslin River
+Peel|680|Peel River
+Arctic Red|499|Arctic Red River
+Usumacinta|1000|Rio Usumacinta
+Grijalva|640|Rio Grijalva
+Papaloapan|354|Rio Papaloapan
+Coatzacoalcos|325|Rio Coatzacoalcos
+Balsas|771|Rio Balsas
+Lerma|750|Rio Lerma
+Rio Grande de Santiago|562|Santiago River
+Panuco|510|Rio Panuco
+Moctezuma|380|Rio Moctezuma
+Conchos|560|Rio Conchos
+Nazas|560|Rio Nazas
+Yaqui|410|Rio Yaqui
+Mayo|340|Rio Mayo
+Fuerte|560|Rio Fuerte
+Sinaloa|280|Rio Sinaloa
+Culiacan|875|Rio Culiacan
+Ameca|230|Rio Ameca
+Atoyac|320|Rio Atoyac
+Suchiate|180|Rio Suchiate
+Hondo|150|Rio Hondo
+Sonora|420|Rio Sonora
+Tijuana River|195
+Belize River|290
+New River (Belize)|66
+Sarstoon|96|Rio Sarstun
+Motagua|486|Rio Motagua
+Polochic|240|Rio Polochic
+Dulce|43|Rio Dulce
+Ulua|400|Rio Ulua
+Chamelecon|210|Rio Chamelecon
+Aguan|190|Rio Aguan
+Patuca|500|Rio Patuca
+Coco|680|Rio Coco,Segovia River
+Grande de Matagalpa|418|Rio Grande de Matagalpa
+Escondido|111|Rio Escondido
+San Juan|199|Rio San Juan,San Juan River
+Tempisque|144|Rio Tempisque
+Reventazon|110|Rio Reventazon
+Pacuare|108|Rio Pacuare
+Sarapiqui|75|Rio Sarapiqui
+Tarcoles|111|Rio Tarcoles
+Sixaola|146|Rio Sixaola
+Terraba|150|Rio Grande de Terraba
+Chagres|125|Rio Chagres
+Bayano|206|Rio Bayano
+Tuira|230|Rio Tuira
+Chucunaque|231|Rio Chucunaque
+Changuinola|110|Rio Changuinola
+Lempa|422|Rio Lempa
+Goascoran|100|Rio Goascoran
+Choluteca|340|Rio Choluteca
+Guayape|300|Rio Guayape
+Cauto|343|Rio Cauto
+Toa|93|Rio Toa
+Sagua la Grande|163|Rio Sagua la Grande
+Yaque del Norte|296|Rio Yaque del Norte
+Yaque del Sur|183|Rio Yaque del Sur
+Yuna|210|Rio Yuna
+Ozama|148|Rio Ozama
+Artibonite|321|Riviere Artibonite
+Black River|53|Black River Jamaica
+Martha Brae|32|Martha Brae River
+Rio Cobre|48
+Rio Camuy|80|Camuy River
+Rio Grande de Loiza|64|Loiza River
+Ortoire|50|Ortoire River
+Magdalena|1528|Rio Magdalena
+Cauca|1350|Rio Cauca
+Atrato|750|Rio Atrato
+Patia|400|Rio Patia
+Meta|1000|Rio Meta
+Guaviare|1497|Rio Guaviare
+Vichada|436|Rio Vichada
+Vaupes|1050|Rio Vaupes,Uaupes River
+Japura|2820|Rio Japura,Caqueta River
+Putumayo|1813|Rio Putumayo,Ica River
+Apaporis|1300|Rio Apaporis
+Inirida|550|Rio Inirida
+Casanare|724|Rio Casanare
+Arauca|1050|Rio Arauca
+Apure|1000|Rio Apure
+Portuguesa|450|Rio Portuguesa
+Guarico|360|Rio Guarico
+Caroni|952|Rio Caroni
+Caura|723|Rio Caura
+Ventuari|586|Rio Ventuari
+Cuyuni|700|Rio Cuyuni
+Mazaruni|320|Mazaruni River
+Essequibo|1010|Essequibo River
+Demerara|346|Demerara River
+Berbice|595|Berbice River
+Courantyne|724|Corentyne River
+Coppename|340|Coppename River
+Saramacca|280|Saramacca River
+Suriname River|480
+Maroni|680|Marowijne River
+Oyapock|370|Oiapoque River
+Approuague|190|Approuague River
+Nickerie|320|Nickerie River
+Cottica|110|Cottica River
+Mana|400|Mana River
+Sinnamary|260|Sinnamary River
+Kourou|110|Kourou River
+Branco|560|Rio Branco
+Trombetas|750|Rio Trombetas
+Jari|560|Rio Jari
+Paru|1000|Rio Paru
+Tapajos|2080|Rio Tapajos
+Juruena|1240|Rio Juruena
+Teles Pires|1420|Rio Teles Pires
+Arinos|809|Rio Arinos
+Iriri|1300|Rio Iriri
+Mamore|2000|Rio Mamore
+Beni|1050|Rio Beni
+Guapore|1749|Rio Guapore,Itenez River
+Madre de Dios|1130|Rio Madre de Dios
+Inambari|475|Rio Inambari
+Tambopata|330|Rio Tambopata
+Javari|1200|Rio Javari
+Jurua|3280|Rio Jurua
+Nanay|420|Rio Nanay
+Itaya|120|Rio Itaya
+Solimoes|1600|Rio Solimoes
+Icana|1000|Rio Icana
+Nhamunda|800|Rio Nhamunda
+Araguari|498|Rio Araguari
+Ucayali|1771|Rio Ucayali
+Huallaga|1138|Rio Huallaga
+Apurimac|698|Rio Apurimac
+Ene|216|Rio Ene
+Tambo|136|Rio Tambo
+Urubamba|724|Rio Urubamba
+Vilcanota|217|Rio Vilcanota
+Mantaro|724|Rio Mantaro
+Pachitea|400|Rio Pachitea
+Napo|1075|Rio Napo
+Pastaza|710|Rio Pastaza
+Tigre|550|Rio Tigre
+Morona|500|Rio Morona
+Curaray|724|Rio Curaray
+Aguarico|380|Rio Aguarico
+Coca|220|Rio Coca
+Gurupi|720|Rio Gurupi
+Pindare|509|Rio Pindare
+Mearim|930|Rio Mearim
+Itapecuru|1090|Rio Itapecuru
+Parnaiba|1485|Rio Parnaiba
+Poti|586|Rio Poti
+Jaguaribe|633|Rio Jaguaribe
+Piranhas|490|Rio Piranhas,Piranhas-Acu River
+Potengi|173|Rio Potengi
+Paraiba|380|Rio Paraiba
+Capibaribe|240|Rio Capibaribe
+Ipojuca|340|Rio Ipojuca
+Paraguacu|600|Rio Paraguacu
+Jequitinhonha|1090|Rio Jequitinhonha
+Pardo|555|Rio Pardo
+Mucuri|500|Rio Mucuri
+Doce|879|Rio Doce
+Paraiba do Sul|1120|Rio Paraiba do Sul
+Macae|135|Rio Macae
+Itajai|190|Rio Itajai-Acu
+Ribeira de Iguape|470|Rio Ribeira de Iguape
+Tiete|1136|Rio Tiete
+Piracicaba|372|Rio Piracicaba
+Paranaiba|1170|Rio Paranaiba
+Paranapanema|929|Rio Paranapanema
+Tibagi|550|Rio Tibagi
+Ivai|548|Rio Ivai
+Piquiri|485|Rio Piquiri
+Iguacu|1320|Rio Iguacu,Iguazu River
+Pelotas|350|Rio Pelotas
+Canoas|375|Rio Canoas
+Jacui|750|Rio Jacui
+Taquari|520|Rio Taquari
+Camaqua|220|Rio Camaqua
+Ibicui|550|Rio Ibicui
+Desaguadero|398|Rio Desaguadero
+Ichilo|400|Rio Ichilo
+Chapare|320|Rio Chapare
+Yacuma|350|Rio Yacuma
+Paragua|500|Rio Paragua
+Lauca|320|Rio Lauca
+Tebicuary|360|Rio Tebicuary
+Ypane|350|Rio Ypane
+Aquidaban|220|Rio Aquidaban
+Apa|322|Rio Apa
+Jejui|360|Rio Jejui
+Manduvira|170|Rio Manduvira
+Monday|100|Rio Monday
+Acaray|210|Rio Acaray
+Biobio|380|Rio Biobio
+Maule|240|Rio Maule
+Maipo|250|Rio Maipo
+Mapocho|110|Rio Mapocho
+Aconcagua River|142
+Elqui|75|Rio Elqui
+Limari|110|Rio Limari
+Choapa|150|Rio Choapa
+Copiapo|161|Rio Copiapo
+Huasco|140|Rio Huasco
+Loa|440|Rio Loa
+Lluta|100|Rio Lluta
+Itata|220|Rio Itata
+Tolten|100|Rio Tolten
+Imperial|90|Rio Imperial
+Valdivia|15|Rio Valdivia
+Bueno|170|Rio Bueno
+Puelo|100|Rio Puelo
+Futaleufu|100|Rio Futaleufu
+Palena|240|Rio Palena
+Cisnes|100|Rio Cisnes
+Aysen|101|Rio Aysen
+Baker|170|Rio Baker
+Pascua|64|Rio Pascua
+Serrano|75|Rio Serrano
+Bermejo|1450|Rio Bermejo
+Salado|1000|Rio Salado
+Carcarana|400|Rio Carcarana
+Tercero|500|Rio Tercero
+Limay|400|Rio Limay
+Neuquen|287|Rio Neuquen
+Chubut|810|Rio Chubut
+Deseado|615|Rio Deseado
+Santa Cruz|385|Rio Santa Cruz
+Gallegos|320|Rio Gallegos
+Chico|800|Rio Chico
+Rio de la Plata|290|River Plate
+Lujan|128|Rio Lujan
+Reconquista|82|Rio Reconquista
+Matanza-Riachuelo|64|Riachuelo
+Santa Lucia|220|Rio Santa Lucia
+Yi|220|Rio Yi
+Tacuarembo|200|Rio Tacuarembo
+Cebollati|280|Rio Cebollati
+Queguay|180|Rio Queguay
+Quarai|180|Rio Quarai,Cuareim River
+Arapey|220|Rio Arapey
+Dayman|100|Rio Dayman
+Okavango|1600|Okavango River
+Kasai|2153|Kasai River
+Cunene|1050|Kunene,Cunene River
+Kwanza|960|Cuanza,Kwanza River
+Lualaba|1800|Lualaba River
+Cuando|1000|Kwando,Cuando River
+Sangha|790|Sangha River
+Ogooue|1200|Ogooue River
+Kwango|1100|Cuango,Kwango River
+Sanaga|918|Sanaga River
+Uele|1210|Uele River
+Chari|1400|Shari,Chari River
+Logone|1000|Logone River
+Mbomou|930|Mbomou River,Bomu
+Kotto|1030|Kotto River
+Sankuru|1300|Sankuru River
+Lomami|1500|Lomami River
+Aruwimi|1300|Ituri,Aruwimi River
+Kwilu|800|Kwilu River
+Luvua|350|Luvua River
+Lukuga|350|Lukuga River
+Ivindo|500|Ivindo River
+Ntem|640|Ntem River
+Nyong|690|Nyong River
+Wouri|160|Wouri River
+Cross|480|Cross River
+Benue|1400|Benue River
+Kaduna|550|Kaduna River
+Sokoto|480|Sokoto River
+Gongola|600|Gongola River
+Osun|300|Osun River
+Ogun|480|Ogun River
+Oueme|450|Oueme River
+Mono|400|Mono River
+Black Volta|1352|Mouhoun
+White Volta|1000|Nakambe
+Oti|780|Pendjari,Oti River
+Pra|240|Pra River
+Ankobra|190|Ankobra River
+Tano|400|Tano River
+Densu|116|Densu River
+Bandama|1050|Bandama River
+Sassandra|650|Sassandra River
+Comoe|1160|Comoe River
+Cavally|515|Cavally River
+Saint Paul River (Liberia)|515|St. Paul River
+Mano|400|Mano River
+Lofa|350|Lofa River
+Moa|400|Moa River
+Sewa|400|Sewa River
+Rokel|400|Seli,Rokel River
+Konkoure|300|Konkoure River
+Corubal|500|Corubal River
+Geba|550|Geba River
+Casamance|300|Casamance River
+Saloum|250|Saloum River
+Faleme|650|Faleme River
+Bafing|800|Bafing River
+Bakoye|700|Bakoye River
+Bani|1100|Bani River
+Sankarani|500|Sankarani River
+Milo|450|Milo River
+Atbara|800|Atbarah,Atbara River
+Sobat|480|Sobat River
+Baro|300|Baro River
+Pibor|480|Pibor River
+Bahr el Ghazal|716
+Bahr el Jebel|716|Bahr al Jabal
+Victoria Nile|420
+Albert Nile|200
+Kagera|700|Akagera,Kagera River
+Nyabarongo|300|Nyabarongo River
+Semliki|230|Semliki River
+Tekeze|608|Tekeze River,Setit
+Dinder|500|Dinder River
+Rahad|400|Rahad River
+Awash|1200|Awash River
+Omo|760|Omo River
+Shebelle|2500|Shabelle,Shebelle River
+Jubba|1808|Juba,Jubba River
+Dawa|800|Dawa River
+Ganale|600|Ganale Dorya
+Mareb|400|Mareb River
+Barka|560|Barka River
+Tana River (Kenya)|1000|Tana River
+Athi-Galana|760|Galana River,Athi River
+Ewaso Ngiro|470
+Mara|395|Mara River
+Nzoia|334|Nzoia River
+Turkwel|340|Turkwel River
+Kerio|350|Kerio River
+Pangani|500|Ruvu,Pangani River
+Rufiji|600|Rufiji River
+Great Ruaha|475|Great Ruaha River
+Kilombero|400|Kilombero River
+Ruvuma|800|Rovuma,Ruvuma River
+Wami|300|Wami River
+Malagarasi|475|Malagarasi River
+Lugenda|500|Lugenda River
+Shire|402|Shire River
+Luangwa|770|Luangwa River
+Kafue|1576|Kafue River
+Chobe|400|Chobe River,Linyanti
+Kabompo|500|Kabompo River
+Luapula|450|Luapula River
+Chambeshi|480|Chambeshi River
+Save|740|Sabi,Save River
+Buzi|250|Buzi River
+Pungwe|400|Pungwe River
+Olifants|700|Olifants River
+Crocodile|320|Crocodile River
+Letaba|170|Letaba River
+Luvuvhu|200|Luvuvhu River
+Shashe|400|Shashe River
+Sabie|190|Sabie River
+Komati|480|Incomati,Komati River
+Usutu|280|Usutu River,Great Usutu
+Pongola|280|Pongola River
+Tugela|502|Thukela,Tugela River
+Mzimvubu|220|Mzimvubu River
+Great Kei|340|Kei River,Great Kei River
+Great Fish|644|Great Fish River
+Sundays|400|Sundays River
+Gamtoos|150|Gamtoos River
+Breede|300|Breede River
+Berg|285|Berg River
+Vaal|1120|Vaal River
+Caledon|480|Caledon River,Mohokare
+Molopo|960|Molopo River
+Fish River (Namibia)|650|Fish River
+Swakop|460|Swakop River
+Kuiseb|560|Kuiseb River
+Ugab|450|Ugab River
+Boteti|300|Boteti River
+Betsiboka|525|Betsiboka River
+Mangoky|564|Mangoky River
+Tsiribihina|540|Tsiribihina River
+Sebou|458|Sebou River
+Moulouya|600|Moulouya River
+Oum Er-Rbia|555|Oum Er-Rbia River
+Bou Regreg|240
+Tensift|270|Tensift River
+Draa|1100|Draa River
+Ziz|270|Ziz River
+Sous|200|Souss,Sous River
+Chelif|700|Cheliff,Chelif River
+Medjerda|460|Medjerda River
+Syr Darya|2212
+Zeravshan|877
+Panj|1125
+Vakhsh|786
+Naryn|807
+Chu|1067
+Talas|661
+Ili|1439|Yili River
+Irtysh|4248
+Ishim|2450
+Tobol|1591
+Emba|712
+Turgay|825
+Sarysu|761
+Nura|978
+Angara|1779
+Selenga|1024
+Orkhon|1124
+Tuul|704|Tola River
+Kherlen|1264|Kerulen
+Onon|818
+Shilka|560
+Argun|1620
+Zeya|1242
+Bureya|623
+Ussuri|897
+Nen|1370|Nonni
+Mudan|725|Mudanjiang
+Tumen|521|Tuman River
+Yalu|790|Amnok
+Liao|1345
+Hai|1090
+Luan|877|Luan He
+Yongding|650
+Huai|1000
+Jialing|1119
+Min (Sichuan)|735|Min River
+Dadu|1062
+Wu|1037|Wu River
+Yuan|1033
+Xiang|856
+Gan|823
+Qiantang|668
+Ou|388|Oujiang
+Jiulong|258
+Dong|562|East River
+Bei|468|North River
+Xi|2129|West River
+Yu|1121
+Hongshui|1050
+Jinsha|2308|Jinsha River
+Yalong|1571
+Yarlung Tsangpo|2840|Yarlung Zangbo
+Lhasa River|551
+Hotan|1127|Hotan River
+Yarkand|970
+Kashgar|1000
+Aksu|588
+Manas|400
+Ulungur|725
+Heihe|821
+Wei|818
+Jing|455
+Luo|447
+Fen|713
+Tao|673
+Huangshui|374
+Datong|631
+Wuding|491
+Taz|1401
+Pur|1024
+Nadym|545
+Tom|827
+Chulym|1799
+Ket|1621
+Vasyugan|1082
+Konda|1097
+Sosva|754|Northern Sosva
+Katun|688
+Biya|301
+Abakan|514
+Nizhnyaya Tunguska|2989|Lower Tunguska
+Podkamennaya Tunguska|1865|Stony Tunguska
+Khatanga|1636
+Anabar|939
+Yana|872
+Indigirka|1726
+Anadyr|1150
+Kamchatka River|758
+Penzhina|713
+Okhota|393
+Uda|457
+Amgun|723
+Nakdong|510
+Geum|401
+Taedong|439
+Imjin|254
+Yeongsan|150
+Seomjin|212
+Bukhan|317
+Namhan|375
+Chongchon|213|Chongchon River
+Shinano|367|Shinano River
+Ishikari|268
+Kitakami|249
+Kiso|227
+Tenryu|213|Tenryu River
+Mogami|229
+Agano|210
+Yodo|75|Yodo River
+Tama|138
+Sagami|109
+Fuji|128|Fuji River
+Oi|168
+Abe|51
+Nagara|166
+Yoshino|194
+Shimanto|196
+Chikugo|143
+Teshio|256
+Tokachi|156
+Kushiro|154
+Omono|133
+Abukuma|239
+Kinu|176
+Kuji|122
+Naka|150
+Arakawa|173|Arakawa River
+Sumida|27|Sumida River
+Kamo|23|Kamo River
+Kaveri|800|Cauvery
+Mahanadi|858
+Tapti|724
+Sabarmati|371
+Beas|470
+Ravi|720
+Jhelum|725
+Kabul River|700
+Kunar|480|Kunar River
+Swat|240|Swat River
+Panjshir|240|Panjshir River
+Arghandab|560|Arghandab River
+Farah|500|Farah River
+Gomal|400|Gomal River
+Kurram|320|Kurram River
+Dasht|400|Dasht River
+Hingol|560|Hingol River
+Hub|190|Hub River
+Lyari|50|Lyari River
+Karun|950
+Karkheh|900
+Dez|400|Dez River
+Zayanderud|405|Zayandeh River,Zayanderud River
+Sefidrud|670|Sefid-Rud,Sefid Rud
+Atrak|669|Atrek
+Gorgan|350|Gorgan River
+Harirud|1100|Hari River
+Murghab|850|Murghab River
+Litani|170
+Barada|80
+Yarmouk|82
+Zarqa|150
+Kishon|70
+Yarkon|27
+Khabur|486
+Balikh|104
+Diyala|445
+Great Zab|400
+Little Zab|456
+Shatt al-Arab|200|Arvand Rud
+Ghaghara|1080
+Chambal|960
+Gomti|900
+Bhima|861
+Brahmani|799
+Son|784
+Kosi|720
+Manjira|724
+Gandak|630
+Damodar|592
+Betwa|590
+Mahi|583
+Wainganga|579
+Wardha|528
+Tungabhadra|531
+Luni|495
+Ghaggar|460|Ghaggar-Hakra
+Ken|427
+Ponnaiyar|432|South Pennar
+Subarnarekha|395
+Teesta|414
+Palar|348
+Torsa|358
+Manas (India)|375|Manas River
+Barak|900
+Vaigai|258
+Purna|274|Purna River
+Musi (India)|240|Musi River
+Periyar|244
+Penna|597|Pennar
+Hooghly|260|Hugli
+Bharathappuzha|209|Ponnani River
+Pamba|176
+Meghna|930
+Padma|120
+Jamuna|205
+Karnaphuli|180
+Surma|350
+Kushiyara|300
+Atrai|224
+Mahaweli|335|Mahaweli Ganga
+Kelani|145
+Kalu|129
+Walawe|138
+Chindwin|1207|Chindwin River
+Sittaung|420
+Kaladan|490
+Bago|128
+Nan|740
+Chi|765
+Mun|750
+Yom|735
+Ping|590
+Pa Sak|513
+Kwai|380|Khwae Noi,Kwai Noi
+Tha Chin|325
+Wang|335
+Bang Pakong|230
+Pattani|210
+Tapi (Thailand)|225|Tapi River
+Mae Klong|140
+Tonle Sap River|120|Tonle Sap
+Sekong|480
+Srepok|480
+Sesan|462|Se San
+Nam Ou|448
+Nam Ngum|354
+Bassac|90
+Nam Khan|90
+Da|927|Da River
+Ca|531|Song Lam
+Ma|512
+Dong Nai|586
+Lo|470
+Saigon River|225
+Tien|234|Tien River
+Hau|220|Hau River
+Thu Bon|205
+Perfume River|80|Huong River
+Pahang|459
+Kelantan|248
+Perak|400
+Klang|120
+Rajang|565
+Kinabatangan|560
+Baram|400
+Sarawak River|180
+Muar|300
+Johor|122
+Kapuas|1143
+Mahakam|980
+Barito|890
+Musi|750
+Batang Hari|800
+Kampar|413
+Indragiri|500
+Rokan|400
+Siak|300
+Asahan|150
+Bengawan Solo|600|Solo River
+Mamberamo|670
+Digul|525
+Brantas|320
+Citarum|300
+Serayu|181
+Cisadane|138
+Progo|140
+Ciliwung|120
+Sepik|1126|Sepik River
+Fly|1050|Fly River
+Strickland|800
+Ramu|640
+Purari|600
+Baliem|400
+Kikori|320
+Markham|180
+Cagayan|505|Rio Grande de Cagayan
+Rio Grande de Mindanao|373
+Agusan|349
+Pulangi|320
+Pampanga|260
+Agno|206
+Magat|190
+Abra|178
+Davao River|150
+Bicol|92
+Angat|68
+Marikina|32
+Pasig|27
+Loboc|47
+Murrumbidgee|1485|Murrumbidgee River
+Warrego|1380
+Lachlan|1339
+Cooper Creek|1300|Barcoo Creek
+Macquarie|950
+Diamantina|900
+Namoi|850
+Barcoo|965
+Condamine|800
+Finke|750
+Barwon|700|Barwon River
+Georgina|600
+Paroo|620
+Gwydir|512
+Thomson|500|Thomson River
+Balonne|480
+Castlereagh|490
+Todd|60
+Flinders|841
+Fitzroy (Western Australia)|733|Fitzroy River
+Mitchell|750|Mitchell River
+Burdekin|740
+Roper|588
+Leichhardt|570
+Gilbert|500|Gilbert River
+McArthur|480|McArthur River
+Burnett|470
+Gregory|500|Gregory River
+Katherine|328
+Mary|300|Mary River
+Ord|320
+Herbert|250
+Daly|210
+Logan|180
+Adelaide River|180
+Barron|132
+Tully|64
+Noosa|60
+Nerang|30
+Goulburn|570
+Hunter|470
+Glenelg|460|Glenelg River
+Clarence|394|Clarence River
+Loddon|392
+Snowy|352
+Wimmera|250
+Manning|249
+Richmond|238
+Macleay|240
+Campaspe|220
+Ovens|210
+Mitta Mitta|195
+Latrobe|190
+Tumut|199
+Maribyrnong|160
+Hastings|156|Hastings River
+Nepean|150
+Shoalhaven|121
+Hawkesbury|120
+Werribee|110
+Bellinger|100
+Kiewa|100
+Georges|96
+Parramatta|24
+Cooks|23
+Murchison|820|Murchison River
+Gascoyne|760
+Ashburton|511|Ashburton River
+Fortescue|416
+De Grey|400
+Avon (Western Australia)|280
+Moore|250|Moore River
+Blackwood|175|Blackwood River
+Huon|170
+Gordon|172|Gordon River
+Franklin|129
+Onkaparinga|105
+Canning|105|Canning River
+South Esk|105
+Torrens|85
+Pieman|61
+Whanganui|290|Wanganui
+Taieri|288
+Rangitikei|241
+Mataura|240
+Waitaki|209
+Oreti|203
+Manawatu|182
+Buller|177
+Mohaka|172
+Wairau|169
+Waiau|169|Waiau River
+Ruamahanga|190
+Rangitaiki|193
+Waimakariri|151
+Waipa|148
+Rakaia|145
+Hurunui|138
+Ngaruroro|154
+Tukituki|112
+Motueka|108
+Grey|121|Grey River
+Rangitata|121
+Whakatane|97
+Selwyn|95
+Motu|86
+Shotover|76
+Hokitika|68
+Haast|65
+Tarawera|64
+Kawarau|60
+Hutt|56|Hutt River
+Kaituna|51
+Rewa (Fiji)|145|Rewa River
+Sigatoka|120
+Navua|40
 `;
 
 export const MOUNTAINS = `
@@ -406,6 +3106,1136 @@ Mulhacen|3479
 Mount Ossa|1617
 Mount Tongariro|1978|Tongariro
 Mount Ngauruhoe|2291|Ngauruhoe
+Mount Massive|4398
+Mount Harvard|4395
+Blanca Peak|4374
+La Plata Peak|4370
+Uncompahgre Peak|4361
+Grays Peak|4352
+Torreys Peak|4349
+Quandary Peak|4348
+Mount Blue Sky|4348|Mount Evans
+Maroon Bells|4315
+Mount of the Holy Cross|4324
+Mount Sneffels|4315
+Wilson Peak|4342
+Mount Princeton|4327
+Mount Yale|4335
+Capitol Peak|4341
+Pyramid Peak|4275
+Crestone Peak|4359
+Gannett Peak|4209
+Cloud Peak|4014
+Wind River Peak|4020
+Granite Peak|3901
+Borah Peak|3859
+Kings Peak|4123
+Mount Timpanogos|3582
+Wheeler Peak|4011
+Sandia Crest|3255|Sandia Peak
+Truchas Peak|3999
+Mount Columbia|3747
+Mount Assiniboine|3618
+Mount Temple|3544
+Mount Rundle|2949
+Cascade Mountain|2998
+Sulphur Mountain|2451
+Mount Norquay|2522
+Mount Edith Cavell|3363
+Mount Athabasca|3491
+Castle Mountain|2766
+Mount Lefroy|3423
+Mount Forbes|3612
+Mount Alberta|3619
+Snow Dome|3456
+Chief Mountain|2764
+Mount Cleveland|3190
+Monte Pissis|6793
+Cerro Bonete|6759
+Tres Cruces|6748
+Llullaillaco|6739
+Mercedario|6720
+Yerupaja|6635
+Sajama|6542|Nevado Sajama
+Coropuna|6425
+Ampato|6288
+Huayna Potosi|6088
+Illampu|6368
+Ancohuma|6427
+Nevado del Ruiz|5321
+Cayambe|5790
+Antisana|5704
+Tungurahua|5023
+Sangay|5286
+Pico Bolivar|4978
+Pico Humboldt|4940
+Fitz Roy|3405|Cerro Chalten,Monte Fitz Roy,Cerro Fitz Roy
+Cerro Torre|3128
+Paine Grande|3050|Cerro Paine Grande
+Torres del Paine|2850
+Osorno|2652|Volcan Osorno
+Villarrica|2860
+Lanin|3747
+Tronador|3491
+Licancabur|5916
+Alpamayo|5947
+Salkantay|6271|Salcantay
+Ausangate|6384
+Nevado Mismi|5597
+El Plomo|5424|Cerro El Plomo
+Tupungato|6570
+Marmolejo|6108
+Nevado de Cachi|6380
+Cerro Catedral|2388
+Cerro Castillo|2675
+Lascar|5592
+Galeras|4276
+Nevado del Huila|5364
+Nevado del Tolima|5215
+Purace|4650
+Cotacachi|4944
+Imbabura|4630
+Pichincha|4784
+Reventador|3562
+El Altar|5320
+Chachani|6057
+El Misti|5822|Misti
+Ubinas|5672
+Sabancaya|5976
+Parinacota|6380
+Guallatiri|6071
+Cerro Rico|4782
+Uturuncu|6008
+Tunupa|5321
+Chacaltaya|5421
+Calbuco|2003
+Puyehue|2236
+Descabezado Grande|3830
+Nevados de Chillan|3212
+Llaima|3125
+Cerro Hudson|1905
+Chaiten|1122
+Michinmahuida|2404
+Mount Rushmore|1745
+Devils Tower|1559
+Mount Mansfield|1339
+Mount Chocorua|915
+Mount Lafayette|1600
+Mount Moosilauke|1464
+Cadillac Mountain|466
+Whiteface Mountain|1483
+Slide Mountain|1281
+Bear Mountain|391
+Stone Mountain|514
+Kennesaw Mountain|555
+Lookout Mountain|646
+Brasstown Bald|1458
+Sassafras Mountain|1085
+Mount Rogers|1746
+Spruce Knob|1482
+Guadalupe Peak|2667
+Enchanted Rock|525
+Emory Peak|2385
+Black Mesa|1516
+Shiprock|1583
+Humphreys Peak|3852
+Mount Lemmon|2792
+Mount Graham|3267
+Mount Charleston|3633|Charleston Peak
+Boundary Peak|4007
+Mount Williamson|4382
+Lassen Peak|3187
+Mount Tamalpais|784
+Mount Diablo|1173
+Mount San Jacinto|3302|San Jacinto Peak
+Mount Baldy|3068|Mount San Antonio
+San Gorgonio Mountain|3506
+Telescope Peak|3366
+Mount Dana|3982
+Mount Lyell|3999
+Clouds Rest|3025
+Mount Tallac|2957
+Mount Rose|3285
+Mount Jefferson|3199
+South Sister|3157
+Three Sisters|3157
+Mount Bachelor|2764
+Mount Thielsen|2799
+Mount McLoughlin|2894
+Mount Mazama|2487
+Steens Mountain|2965
+Mount Adams|3743
+Glacier Peak|3213
+Mount Si|1290
+Mount Pilchuck|1803
+Mount Stuart|2869
+Mount Shuksan|2783
+Mount Foraker|5304
+Mount Saint Elias|5489
+Mount Blackburn|4996
+Mount Sanford|4949
+Mount Bona|5044
+Mount Wrangell|4317
+Mount Fairweather|4671
+Mount Hunter|4442
+Mount Hayes|4216
+Mount Redoubt|3108|Redoubt Volcano
+Mount Spurr|3374
+Iliamna Volcano|3053
+Augustine Volcano|1252
+Mount Katmai|2047
+Novarupta|841
+Mount Edgecumbe|976
+Flattop Mountain|1043
+Kilauea|1247
+Diamond Head|232
+Koko Head|368
+Hualalai|2521
+Kohala|1670|Kohala Mountain
+Mount Waialeale|1569
+Kawaikini|1598
+Olomana|488
+Mount Kaala|1220
+Mount Waddington|4019
+Mount Lucania|5226
+Whistler Mountain|2181
+Blackcomb Peak|2440
+Grouse Mountain|1231
+Cypress Mountain|1450
+Mount Seymour|1449
+Golden Ears|1716
+Mount Garibaldi|2678
+Black Tusk|2319
+Mount Royal|233
+Mont Tremblant|875
+Mont Sainte-Anne|800
+Mont Jacques-Cartier|1268
+Mont Orford|850
+Mount Carleton|820
+Gros Morne Mountain|806|Gros Morne
+Mount Thor|1675
+Mount Asgard|2015
+Mount Odin|2143
+Barbeau Peak|2616
+Mount Caubvick|1652|Mount D'Iberville
+Mount Sir Wilfrid Laurier|3581
+Mount Sir Sandford|3519
+Mount Sir Donald|3284
+Mount Meager|2680
+Mount Cayley|2385
+Iztaccihuatl|5230
+Nevado de Toluca|4680
+La Malinche|4461
+Cofre de Perote|4282
+Paricutin|2800
+Colima Volcano|3820|Volcan de Colima,Fuego de Colima
+Nevado de Colima|4260
+Cerro de la Silla|1820
+Ajusco|3930
+El Chichon|1150
+Tacana|4060
+Picacho del Diablo|3095
+Ceboruco|2280
+Tequila Volcano|2920|Volcan de Tequila
+Tajumulco|4220
+Fuego|3763|Volcan de Fuego
+Acatenango|3976
+Agua Volcano|3760|Volcan de Agua
+Pacaya|2552
+Atitlan Volcano|3535|Volcan Atitlan
+Toliman Volcano|3158|Volcan Toliman
+San Pedro Volcano|3020
+Santa Maria Volcano|3772
+Santiaguito|2500
+Santa Ana Volcano|2381
+Izalco|1950
+San Salvador Volcano|1893
+San Miguel Volcano|2130
+El Pital|2730
+Cerro Las Minas|2870
+Pico Bonito|2435
+Momotombo|1297
+Masaya Volcano|635
+Concepcion Volcano|1610
+Maderas|1394
+Cerro Negro|728
+Mombacho|1345
+Telica|1061
+Mogoton|2107
+Arenal Volcano|1670|Arenal
+Poas Volcano|2708
+Irazu Volcano|3432
+Turrialba Volcano|3340
+Rincon de la Vieja|1916
+Cerro Chirripo|3820
+Barva Volcano|2906
+Miravalles|2028
+Baru Volcano|3474|Volcan Baru
+Cerro Fabrega|3335
+Soufriere Hills|915
+La Soufriere|1234
+La Grande Soufriere|1467
+Mount Pelee|1397
+Gros Piton|770
+Petit Piton|743
+Morne Diablotins|1447
+Morne Trois Pitons|1387
+Mount Liamuiga|1156
+Nevis Peak|985
+Mount Scenery|887
+Pico Turquino|1974
+El Yunque|1065
+Cerro de Punta|1338
+Mount Obama|402|Boggy Peak
+Mount Hillaby|340
+Mount Gimie|950
+Pico da Neblina|2995
+Pico da Bandeira|2892
+Pedra da Gavea|842
+Agulhas Negras|2791
+Pico Parana|1877
+Auyantepui|2535|Auyan-tepui
+Pico Cristobal Colon|5700
+Mount Bogong|1986
+Mount Feathertop|1922
+Mount Buller|1805
+Mount Hotham|1861
+Mount Baw Baw|1567
+Mount Townsend|2209
+Bartle Frere|1622
+Bellenden Ker|1593
+Bluff Knoll|1099
+Mount Augustus|1106
+Mount Zeil|1531
+Mount Sonder|1380
+Mount Gower|875
+Mount Lidgbird|777
+Mount Warning|1159|Wollumbin
+Tamborine Mountain|555
+Mount Wellington|1271|Kunanyi
+Cradle Mountain|1545
+Frenchmans Cap|1446
+Federation Peak|1224
+Mount Lofty|727
+Mount Dandenong|633
+Mount Macedon|1013
+Hanging Rock|718
+Mount Arapiles|369
+Mount Kaputar|1510
+Mount Canobolas|1395
+Mount Keira|464
+Mount Conner|859
+Kata Tjuta|1066
+Mount Tasman|3497
+Mount Aspiring|3033
+Mount Sefton|3151
+Mount Earnslaw|2830
+Mount Rolleston|2275
+Mount Hutt|2086
+Mount Cargill|676
+Mauao|232
+Mount Tarawera|1111
+Hikurangi|1754|Mount Hikurangi
+Roys Peak|1578
+Mitre Peak|1683
+The Remarkables|2319
+Coronet Peak|1649
+Treble Cone|2088
+Pirongia|959
+Mount Wilhelm|4509
+Mount Giluwe|4368
+Mount Lamington|1680
+Tavurvur|688
+Mount Bosavi|2507
+Mont Panie|1628
+Mount Yasur|361
+Mount Orohena|2241
+Mount Otemanu|727
+Tomanivi|1324|Mount Tomanivi
+Mount Popomanaseu|2335
+Mount Tyree|4852
+Mount Shinn|4661
+Mount Kirkpatrick|4528
+Mount Markham|4350
+Mount Terror|3230
+Mount Siple|3110
+Mount Sidley|4181
+Mount Jackson|3184
+Mount Melbourne|2732
+Mount Berlin|3478
+Mount Takahe|3460
+Mount Paget|2934
+Big Ben|2745|Mawson Peak
+Dom|4545
+Grand Combin|4314
+Dent Blanche|4357
+Aletschhorn|4193
+Finsteraarhorn|4274
+Ortler|3905
+Grossvenediger|3657
+Wildspitze|3768
+Dachstein|2995
+Watzmann|2713
+Santis|2502
+Pilatus|2128
+Rigi|1798
+Titlis|3238
+Schilthorn|2970
+Monch|4107
+Aiguille du Midi|3842
+Grandes Jorasses|4208
+Barre des Ecrins|4102
+La Meije|3984
+Monviso|3841|Monte Viso
+Gran Paradiso|4061
+Tre Cime di Lavaredo|2999
+Sassolungo|3181|Langkofel
+Piz Palu|3901
+Todi|3614
+Wetterhorn|3692
+Schreckhorn|4078
+Breithorn|4164
+Lyskamm|4527
+Hochkonig|2941
+Kitzsteinhorn|3203
+Untersberg|1973
+Nordkette|2334
+Patscherkofel|2246
+Uetliberg|870
+Dents du Midi|3257
+Les Diablerets|3210
+Wildstrubel|3244
+Bluemlisalp|3670
+Piz Badile|3308
+Piz Corvatsch|3451
+Piz Kesch|3418
+Piz Linard|3410
+Glarnisch|2914
+Churfirsten|2306
+Civetta|3220
+Antelao|3264
+Monte Pelmo|3168|Pelmo
+Monte Cristallo|3221
+Tofana|3244
+Monte Baldo|2218
+Monte Grappa|1775
+Mont Aiguille|2087
+Aiguille Verte|4122
+Dent du Geant|4013
+Mont Pelvoux|3946
+Lagginhorn|4010
+Weissmies|4017
+Allalinhorn|4027
+Alphubel|4206
+Taschhorn|4491
+Nadelhorn|4327
+Dent d'Herens|4171
+Ober Gabelhorn|4063
+Zinalrothorn|4221
+Bishorn|4153
+Bietschhorn|3934
+Monte Leone|3552
+Sustenhorn|3503
+Galenstock|3583
+Niesen|2362
+Faulhorn|2681
+Alpspitze|2628
+Nebelhorn|2224
+Kehlstein|1834
+Wendelstein|1838
+Hahnenkamm|1712
+Hoher Kasten|1794
+Monte Perdido|3355
+Vignemale|3298
+Pic du Midi de Bigorre|2877
+Pic du Midi d'Ossau|2884
+Posets|3375
+Pica d'Estats|3143
+Canigou|2784|Pic du Canigou
+Puigmal|2910
+Pedraforca|2506
+Montserrat|1236
+Veleta|3396
+Almanzor|2592
+Torre Cerredo|2650
+Naranjo de Bulnes|2519|Picu Urriellu
+Penalara|2428
+Moncayo|2314
+Roque Nublo|1813
+Pico Ruivo|1862
+Mount Pico|2351|Pico,Ponta do Pico
+Monte Amiata|1738
+Terminillo|2217|Monte Terminillo
+Monte Vettore|2476
+Monte Amaro|2793
+Pollino|2248|Monte Pollino
+Monte Titano|749
+Monte Cassino|516
+Monte Circeo|541
+Monte Conero|572
+Epomeo|789|Monte Epomeo
+Monte Cinto|2706
+Punta La Marmora|1834
+Monte Cimone|2165
+Mangart|2679
+Grintovec|2558
+Dinara|1831
+Sveti Jure|1762
+Sljeme|1035
+Ucka|1401
+Maglic|2386
+Bjelasnica|2067
+Jahorina|1916
+Trebevic|1627
+Bobotov Kuk|2523
+Lovcen|1749
+Maja Jezerce|2694
+Korab|2764|Golem Korab
+Titov Vrv|2748
+Ljuboten|2499
+Pelister|2601
+Galicica|2255
+Vihren|2914
+Botev Peak|2376
+Cherni Vrah|2290
+Buzludzha|1441
+Moldoveanu|2544
+Negoiu|2535
+Omu|2505
+Peleaga|2509
+Pietrosul Rodnei|2303
+Ceahlau|1907
+Hoverla|2061
+Pip Ivan|2022
+Gerlachovsky stit|2655
+Krivan|2494
+Babia Gora|1725
+Giewont|1894
+Kasprowy Wierch|1987
+Sleza|718
+Lysica|612
+Praded|1492
+Lysa hora|1323
+Milesovka|837
+Rip|456
+Jested|1012
+Brocken|1141
+Feldberg|1493
+Fichtelberg|1215
+Grosser Arber|1456
+Wasserkuppe|950
+Drachenfels|321
+Belchen|1414
+Hornisgrinde|1164
+Parnassus|2457
+Pelion|1624
+Taygetus|2407
+Smolikas|2637
+Grammos|2520
+Tymfi|2497
+Helicon|1748
+Parnitha|1413
+Hymettus|1026
+Lycabettus|277
+Ainos|1628|Mount Ainos
+Dirfi|1745
+Pangaion|1956
+Falakro|2232
+Vermio|2052
+Voras|2524
+Giona|2510
+Chelmos|2355
+Erymanthos|2224
+Mainalo|1981|Menalo
+Lefka Ori|2453
+Dikti|2148
+Kerkis|1433
+Attavyros|1215
+Zas|1003|Mount Zeus
+Ochi|1398
+Pentelicus|1109
+Troodos|1952
+Erciyes|3916|Mount Erciyes
+Mount Nemrut|2134|Nemrut Dagi
+Uludag|2543
+Hasan Dagi|3253
+Suphan|4058
+Kackar|3937
+Babadag|1969
+Demirkazik|3756
+Mount Judi|2089|Cudi Dagi
+Palandoken|3176
+Ilgaz|2587
+Kazbek|5054
+Ushba|4710
+Shkhara|5193
+Dykh-Tau|5205
+Koshtan-Tau|5152
+Tetnuldi|4858
+Aragats|4090
+Bazarduzu|4466
+Shahdag|4243|Shah Dagh
+Sabalan|4811
+Sahand|3707
+Alvand|3574
+Tochal|3964
+Qurnat as Sawda|3088
+Sannine|2628
+Mount Carmel|546
+Mount Tabor|575
+Mount Meron|1208
+Mount Gilboa|498
+Mount Zion|765
+Mount of Olives|826
+Mount Scopus|826
+Mount Gerizim|881
+Masada|450
+Mount Catherine|2629|Jabal Katherina
+Jebel Hafeet|1240
+Jebel Jais|1934
+Jabal Shams|3009
+Jabal al-Nour|642
+Jabal Thawr|759
+Jabal Sawda|3015
+Jabal al-Lawz|2549
+Mount Sodom|250
+Jabal Qasioun|1152
+Jabal Umm ad Dami|1854
+Jabal Rum|1734
+Jabal an-Nabi Shuayb|3666
+Fisht|2867
+Beshtau|1401
+Ben Lawers|1214
+Ben More|1174
+Ben Alder|1148
+Ben Hope|927
+Ben Loyal|764
+Suilven|731
+Stac Pollaidh|612
+An Teallach|1062
+Liathach|1055
+Beinn Eighe|1010
+Slioch|981
+Sgurr Alasdair|992
+Sgurr nan Gillean|964
+Bla Bheinn|928
+The Cobbler|884|Ben Arthur
+Ben Vorlich|985
+Ben Ledi|879
+Ben Cruachan|1126
+Buachaille Etive Mor|1022
+Bidean nam Bian|1150
+Aonach Eagach|967
+Aonach Mor|1221
+Carn Mor Dearg|1220
+Lochnagar|1155
+Mount Keen|939
+Cairn Toul|1291
+Ben Avon|1171
+Beinn a' Bhuird|1197
+Merrick|843
+Broad Law|840
+Tinto|711
+Ben Wyvis|1046
+Morven|871
+Scafell|964
+Bowfell|902|Bow Fell
+Coniston Old Man|803
+Blencathra|868
+High Street|828
+Catbells|451
+Loughrigg Fell|335
+Haystacks|597
+Great End|910
+Pillar|892
+Fairfield|873
+Place Fell|657
+Grisedale Pike|791
+Great Dun Fell|848
+Bleaklow|633
+Shutlingsloe|506
+Win Hill|462
+Lose Hill|476
+Sugar Loaf|596|Y Fal
+Skirrid|486|Ysgyryd Fawr
+Blorenge|561
+Tryfan|918
+Glyder Fawr|1001
+Glyder Fach|994
+Carnedd Llewelyn|1064|Carnedd Llywelyn
+Carnedd Dafydd|1044
+Crib Goch|923
+Y Garn|947
+Moel Siabod|872
+Aran Fawddwy|905
+Pumlumon|752|Plynlimon
+Corn Du|873
+Waun Fach|811
+Moel Famau|555
+Snaefell|621
+Slieve Donard|850
+Slieve League|595
+Croagh Patrick|764
+Errigal|751
+Lugnaquilla|925
+Mount Brandon|952
+Galtymore|919
+Mweelrea|814
+Benbulbin|526
+Knocknarea|327
+Cuilcagh|665
+Sawel|678|Sawel Mountain
+Slieve Gullion|573
+Mount Leinster|796
+Mangerton|839|Mangerton Mountain
+Hvannadalshnukur|2110
+Hekla|1491
+Eyjafjallajokull|1651
+Katla|1512
+Snaefellsjokull|1446
+Herdubreid|1682
+Askja|1516
+Esja|914
+Bardarbunga|2009
+Grimsvotn|1725
+Laki|818
+Fagradalsfjall|385
+Eldfell|221
+Krafla|818
+Slaettaratindur|882
+Glittertind|2452
+Store Skagastolstind|2405
+Snohetta|2286
+Romsdalshorn|1550
+Stetind|1392
+Slogen|1564
+Gaustatoppen|1883
+Ulriken|643
+Floyen|399
+Sarektjakka|2089
+Helags|1797
+Areskutan|1420
+Storsylen|1762
+Kinnekulle|306
+Omberg|263
+Halti|1324
+Saana|1029
+Narodnaya|1895|Mount Narodnaya
+Yamantau|1640
+Mount Meru|4562
+Mount Stanley|5109|Margherita Peak
+Mawenzi|5149
+Ras Dashen|4550|Ras Dejen
+Mount Elgon|4321
+Karisimbi|4507
+Nyiragongo|3470
+Nyamuragira|3058
+Mount Mulanje|3002|Mulanje
+Tahat|3003
+Emi Koussi|3447
+Jebel Marra|3042
+Mount Moco|2620
+Brandberg Mountain|2573|Brandberg
+Spitzkoppe|1728
+Mafadi|3450
+Cathedral Peak|3004
+Champagne Castle|3377
+Mount Namuli|2419
+Bintumani|1945|Loma Mansa
+Mount Nimba|1752
+Mount Afadjato|885|Afadja
+Pico Basile|3012
+Pico do Fogo|2829
+Piton des Neiges|3070
+Piton de la Fournaise|2632
+Maromokotro|2876
+Ol Doinyo Lengai|2962
+Mount Longonot|2776
+Mount Kulal|2285
+Mount Marsabit|1707
+Mount Kadam|3068
+Mount Moroto|3083
+Mount Hanang|3420
+Mount Suswa|2356
+Sabyinyo|3669
+Mount Bisoke|3711|Visoke
+Muhabura|4127
+Mount Gahinga|3474|Gahinga
+Erta Ale|613
+Zuqualla|2989
+Entoto|3200
+Jebel Akhdar|882|Jabal Akhdar
+Jbel Ayachi|3757
+Jbel Siroua|3304
+Jbel Bou Naceur|3340
+Lalla Khedidja|2308
+Djebel Chelia|2328|Chelia
+Mount Speke|4890
+Mount Emin|4791
+Mount Gessi|4715
+Mount Luigi di Savoia|4627
+Ouanoukrim|4089
+Jebel ech Chambi|1544|Djebel Chambi
+Bikku Bitti|2267
+Mont Idoukal-n-Taghes|2002|Idoukal-n-Taghes
+Hombori Tondo|1155
+Chappal Waddi|2419
+Mount Nyangani|2592|Inyangani
+Monte Binga|2440|Mount Binga
+Tsodilo Hills|1489
+Mount Karthala|2361|Karthala
+Le Morne Brabant|556
+Morne Seychellois|905
+Kinyeti|3187
+Amba Soira|3018|Emba Soira
+Moussa Ali|2021|Mousa Ali
+Mount Shimbiris|2460
+Pico Cao Grande|663
+Nuptse|7861
+Pumori|7161
+Gyachung Kang|7952
+Changtse|7550
+Island Peak|6189|Imja Tse
+Mera Peak|6476
+Lobuche|6119|Lobuche East
+Baruntse|7129
+Himalchuli|7893
+Ngadi Chuli|7871|Peak 29
+Annapurna II|7937
+Annapurna III|7555
+Annapurna IV|7525
+Annapurna South|7219|Annapurna Dakshin
+Gangapurna|7455
+Tilicho Peak|7134
+Nilgiri Himal|7061|Nilgiri North
+Putha Hiunchuli|7246|Dhaulagiri VII
+Api|7132
+Saipal|7031
+Ganesh Himal|7422
+Langtang Lirung|7227
+Gaurishankar|7134
+Melungtse|7181
+Thamserku|6608
+Kangtega|6782
+Taboche|6495
+Cholatse|6440
+Kala Patthar|5644
+Gokyo Ri|5357
+Poon Hill|3210
+Nanda Devi|7816
+Kamet|7756
+Trisul|7120
+Kedarnath Peak|6940|Kedarnath
+Shivling|6543
+Chaukhamba|7138
+Panchchuli|6904
+Bandarpunch|6316
+Swargarohini|6252
+Thalay Sagar|6904
+Bhagirathi Parbat|6454
+Om Parvat|6191|Little Kailash
+Jannu|7710|Kumbhakarna
+Siniolchu|6888
+Kabru|7412
+Pandim|6691
+Jomolhari|7326|Chomolhari
+Gangkhar Puensum|7570
+Kula Kangri|7538
+Jitchu Drake|6989|Jichu Drake
+Namcha Barwa|7782
+Gurla Mandhata|7694
+Mount Kailash|6638|Kailash
+Nun Kun|7135|Nun
+Stok Kangri|6153
+Kang Yatse|6400
+Harmukh|5142
+Gyala Peri|7294
+Yalung Kang|8505|Kangchenjunga West
+Talung|7349
+Kirat Chuli|7365|Tent Peak
+Chomo Lonzo|7804
+Dorje Lakpa|6966
+Langtang Ri|7205
+Chulu West|6419
+Chulu East|6584
+Pisang Peak|6091
+Tharpu Chuli|5663
+Hiunchuli|6441
+Singu Chuli|6501|Fluted Peak
+Kangto|7060
+Nanda Kot|6861
+Hardeol|7151
+Changabang|6864
+Dunagiri|7066
+Mana Peak|7272
+Mukut Parbat|7242
+Satopanth|7075
+Abi Gamin|7355
+Kalanag|6387|Black Peak
+Nyenchen Tanglha|7162|Nyainqentanglha
+Masherbrum|7821|K1
+Rakaposhi|7788
+Distaghil Sar|7885
+Trango Towers|6286|Great Trango Tower
+Ultar Sar|7388|Ultar
+Batura Sar|7795
+Kanjut Sar|7760
+Kunyang Chhish|7823
+Saltoro Kangri|7742
+Diran|7266|Diran Peak
+Spantik|7027|Golden Peak
+Chogolisa|7665
+Laila Peak|6096
+Gasherbrum IV|7925
+Gasherbrum III|7952
+Skil Brum|7360
+Tirich Mir|7708
+Noshaq|7492
+Istor-o-Nal|7403
+Takht-e-Sulaiman|3487|Takht-i-Sulaiman
+Ismoil Somoni Peak|7495|Communism Peak
+Lenin Peak|7134|Kullai Kammar
+Peak Korzhenevskaya|7105
+Khan Tengri|7010
+Jengish Chokusu|7439|Tomur Peak,Tuomuer Feng
+Muztagh Ata|7546
+Kongur Tagh|7649|Kongur
+Belukha|4506|Mount Belukha
+Munku-Sardyk|3491
+Mount Bogda|5445|Bogda Peak
+Amne Machin|6282|Anyemaqen
+Saser Kangri|7672
+Baintha Brakk|7285|The Ogre
+Malubiting|7458
+Momhil Sar|7343
+Yukshin Gardan Sar|7530
+Sia Kangri|7422
+Baltoro Kangri|7312|Golden Throne
+Revolution Peak|6974|Pik Revolyutsii
+Mount Hua|2154|Huashan
+Mount Emei|3099|Emeishan
+Mount Wutai|3061|Wutaishan
+Mount Song|1512|Songshan
+Mount Heng|1300|Nanyue,Hengshan
+Mount Lu|1474|Lushan
+Mount Wuyi|2158|Wuyishan
+Mount Sanqing|1817|Sanqingshan
+Mount Gongga|7556|Minya Konka
+Mount Siguniang|6250
+Jade Dragon Snow Mountain|5596|Yulong Xueshan
+Kawagarbo|6740|Meili Snow Mountain,Kawa Karpo
+Mount Longhu|247|Longhushan
+Mount Qingcheng|1260|Qingchengshan
+Mount Putuo|291|Putuoshan
+Mount Jiuhua|1341|Jiuhuashan
+Mount Tianzi|1262|Tianzishan
+Mount Wudang|1612|Wudangshan
+Laoshan|1133|Mount Lao
+Mount Tianmu|1506|Tianmushan
+Mount Yandang|1150|Yandangshan
+Mount Danxia|618|Danxiashan
+Mount Mogan|719|Moganshan
+Mount Taibai|3771|Taibai Shan
+Mount Xiangshan|557|Fragrant Hills
+Mount Baiyun|382|Baiyunshan
+Mount Yuntai|1308|Yuntaishan
+Tavan Bogd|4374|Altai Tavan Bogd
+Otgontenger|4008
+Sutai Mountain|4090
+Seoraksan|1708|Mount Seorak
+Jirisan|1915|Mount Jiri
+Bukhansan|836
+Namsan|262|Namsan Seoul
+Taebaeksan|1567
+Songnisan|1058
+Naejangsan|763
+Odaesan|1563
+Gyeryongsan|845
+Mudeungsan|1187
+Palgongsan|1193
+Deogyusan|1614
+Juwangsan|721
+Dobongsan|740
+Inwangsan|338
+Kumgangsan|1638|Mount Kumgang
+Myohyangsan|1909
+Gwanaksan|632
+Wolchulsan|809
+Chiaksan|1288
+Mount Tate|3015|Tateyama
+Mount Haku|2702|Hakusan
+Mount Hotaka|3190|Hotakadake
+Mount Yari|3180|Yarigatake
+Mount Kita|3193|Kitadake
+Mount Ontake|3067|Ontakesan
+Mount Asama|2568
+Mount Bandai|1816
+Mount Iwate|2038
+Mount Zao|1841|Zaozan
+Mount Daisen|1729
+Mount Unzen|1483
+Sakurajima|1117
+Mount Kirishima|1700|Kirishima
+Mount Yotei|1898
+Mount Asahi|2291|Asahidake
+Mount Rishiri|1721|Rishiri-Fuji
+Mount Takao|599
+Mount Koya|800|Koyasan
+Mount Hiei|848|Hieizan
+Mount Rokko|931
+Mount Tsukuba|877
+Mount Nantai|2486
+Mount Norikura|3026
+Mount Kaimon|924|Satsuma Fuji
+Mount Haruna|1449
+Mount Akagi|1828
+Mount Myoko|2454
+Mount Chokai|2236|Dewa Fuji
+Mount Gassan|1984
+Mount Hakodate|334
+Mount Usu|733
+Mount Meakan|1499
+Mount Tokachi|2077
+Mount Iwaki|1625|Tsugaru Fuji
+Mount Hachimantai|1614
+Mount Adatara|1700
+Mount Nasu|1917
+Mount Kiso Komagatake|2956
+Mount Tanigawa|1977
+Mount Ibuki|1377|Ibukiyama
+Mount Kongo|1125|Kongosan
+Mount Inari|233|Inariyama
+Mount Misen|535
+Mount Kumotori|2017
+Mount Amagi|1406
+Mount Hiko|1200|Hikosan
+Mount Ishizuchi|1982
+Mount Tsurugi|1955|Tsurugisan
+Mount Yake|2455|Yakedake
+Mount Takachiho|1574|Takachiho-no-mine
+Yushan|3952|Jade Mountain,Mount Morrison
+Xueshan|3886|Snow Mountain
+Alishan|2216
+Hehuanshan|3417|Mount Hehuan
+Nanhu Mountain|3742|Nanhu Dashan
+Qilai Mountain|3607|Qilaishan
+Datun Mountain|1092|Datunshan
+Mount Pulag|2926
+Taal Volcano|311
+Kanlaon|2435|Mount Kanlaon,Kanlaon Volcano
+Hibok-Hibok|1332
+Bulusan Volcano|1565|Mount Bulusan
+Mount Halcon|2586
+Mount Banahaw|2158
+Mount Makiling|1090
+Mount Isarog|1966
+Mount Arayat|1026
+Mount Samat|555
+Mount Kitanglad|2899
+Mount Dulang-dulang|2938
+Mount Matutum|2286
+Mount Iriga|1196
+Mount Malindang|2404
+Mount Guiting-Guiting|2058
+Chocolate Hills|120
+Mount Talinis|1904|Cuernos de Negros
+Mount Kalatungan|2860
+Mount Kerinci|3805|Kerinci
+Mount Tambora|2722|Tambora
+Sinabung|2460|Mount Sinabung
+Mount Slamet|3428|Slamet
+Mount Lawu|3265|Lawu
+Mount Batur|1717|Batur
+Ijen|2769|Kawah Ijen,Mount Ijen
+Mount Gede|2958|Gede
+Mount Salak|2211|Salak
+Mount Papandayan|2665|Papandayan
+Mount Galunggung|2168|Galunggung
+Kelud|1731|Mount Kelud
+Mount Arjuno|3339|Arjuno
+Raung|3344|Mount Raung
+Mount Leuser|3119|Leuser
+Mount Sibayak|2212|Sibayak
+Tangkuban Perahu|2084
+Mount Prau|2565|Prau
+Sindoro|3153|Mount Sindoro
+Sumbing|3371|Mount Sumbing
+Merbabu|3145|Mount Merbabu
+Mount Lokon|1580|Lokon-Empung
+Soputan|1784|Mount Soputan
+Kelimutu|1639
+Trikora|4750|Puncak Trikora
+Puncak Mandala|4760|Mandala
+Mount Egon|1703|Egon
+Lewotobi|1703|Mount Lewotobi
+Rokatenda|875|Paluweh
+Mount Awu|1320|Awu
+Karangetang|1784|Mount Karangetang
+Dukono|1229|Mount Dukono
+Gamalama|1715|Mount Gamalama
+Marapi|2891|Mount Marapi
+Dempo|3173|Mount Dempo
+Talang|2597|Mount Talang
+Singgalang|2877|Mount Singgalang
+Mount Pangrango|3019|Pangrango
+Ciremai|3078|Mount Ciremai
+Welirang|3156|Mount Welirang
+Anak Krakatoa|157|Anak Krakatau
+Sirung|862|Mount Sirung
+Iya|637|Mount Iya
+Tandikat|2438|Mount Tandikat
+Kaba|1952|Mount Kaba
+Mount Tahan|2187
+Santubong|810|Mount Santubong
+Trus Madi|2642
+Mount Murud|2423
+Doi Inthanon|2565
+Doi Suthep|1676
+Doi Chiang Dao|2175
+Phu Kradueng|1316
+Khao Luang|1835
+Fansipan|3147|Phan Xi Pang
+Ba Den|986|Nui Ba Den,Black Lady Mountain
+Marble Mountains|156
+Ba Vi|1296
+Bach Ma|1450
+Hkakabo Razi|5881
+Mount Popa|1518
+Mount Victoria|3053|Nat Ma Taung
+Phnom Aural|1810
+Phou Bia|2820
+Pidurutalagala|2524
+Sigiriya|349
+Knuckles|1863|Knuckles Range
+Namunukula|2036
+Anamudi|2695
+Doddabetta|2637
+Mullayanagiri|1930
+Girnar|1031
+Kalsubai|1646
+Dhupgarh|1352
+Mahendragiri|1501
+Mount Abu|1722|Guru Shikhar
+Agasthyamalai|1868|Agastya Mala
+Chembra Peak|2100
+Kudremukh|1894
+Banasura Peak|2073
+Gunung Jerai|1217|Kedah Peak
+Mount Ophir|1276|Gunung Ledang
+Klyuchevskaya Sopka|4750
+Koryaksky|3456
+Avachinsky|2741
+Tolbachik|3611
+Shiveluch|3283|Sheveluch
+Kronotsky|3528
+Karymsky|1536
+Mutnovsky|2322
+Gorely|1829
+Vilyuchik|2173|Vilyuchinsky
+Mount Pobeda|3003
+Ichinsky|3607
+Bezymianny|2882
+Zhupanovsky|2958
 `;
 
 export const MINOR_PEAKS = `
@@ -532,6 +4362,78 @@ Libyan Desert|1100000
 Western Desert|700000
 Eastern Desert|220000
 Chalbi Desert|100000
+Death Valley|7800
+White Sands|712|White Sands National Monument
+Great Sand Dunes|78
+Namib Sand Sea|30777
+Karoo|400000|Great Karoo
+Rann of Kutch|30000|Rann of Kachchh
+An Nafud|57000|Nafud Desert
+Ad-Dahna|50000|Dahna Desert,Al-Dahna
+Sossusvlei|10
+Skeleton Coast|16845
+Tanezrouft|424000
+Grand Erg Oriental|192000
+Grand Erg Occidental|78000
+Erg Chebbi|90
+Great Sand Sea|72000
+Qattara Depression|19605
+Sinai Desert|60000|Sinai
+McMurdo Dry Valleys|4800
+Colorado Desert|20000
+Gran Desierto de Altar|5700
+Vizcaino Desert|25000
+Algodones Dunes|409|Imperial Sand Dunes
+Kelso Dunes|115
+Alvord Desert|285
+Carcross Desert|2.6
+Red Desert (Wyoming)|23300
+Amargosa Desert|3700
+Escalante Desert|4700
+Yuma Desert|10000
+Lencois Maranhenses|1500
+Sevier Desert|29980
+Owyhee Desert|24280
+Baja California Desert|77700
+Smoke Creek Desert|1300
+Anza-Borrego Desert|2600
+Puna de Atacama|180000
+Djurab Desert|200000
+Bayuda Desert|100000
+Ferlo Desert|70000
+Kaokoveld|45700
+Richtersveld|1624
+White Desert (Egypt)|300|Sahara el Beyda,White Desert Protected Area
+Black Desert (Egypt)|500
+Erg Chigaga|500|Erg Chegaga
+Erg Iguidi|68800
+Betpak-Dala|75000
+Ustyurt Plateau|200000
+Dasht-e Margo|150000|Margo Desert
+Thal Desert|23000
+Kubuqi Desert|18600
+Mu Us Desert|48288
+Gurbantunggut Desert|50000
+Kumtag Desert|22900
+Qaidam Basin|120000
+Aralkum Desert|60000
+Ramlat al-Sab'atayn|26000
+Khongoryn Els|965
+Chara Sands|18
+Maranjab Desert|700
+Zin Desert|1000|Desert of Zin
+Arabah|4000|Wadi Araba
+Kharan Desert|25000
+Moiynkum Desert|37500|Muyunkum,Moyunkum Desert
+Saryesik-Atyrau Desert|35000
+Ryn Desert|40000
+Tirari Desert|15250
+Pedirka Desert|1250
+Bardenas Reales|420
+Monegros Desert|2764
+Cabo de Gata|460
+Deliblato Sands|300|Deliblatska Pescara
+Rabjerg Mile|2
 `;
 
 export const ISLANDS = `
@@ -1121,7 +5023,6 @@ Christianso|0.25
 Orust|346
 Tjorn|148
 Hisingen|199
-Faro|113
 Ven|7.5
 Sodermalm|4|Sodermalm Island
 Djurgarden|2.7
@@ -1190,6 +5091,697 @@ Auckland Islands|626
 Antipodes Islands|21
 Snares Islands|3.4
 Chatham Islands|966
+Hong Kong Island|78
+Lantau Island|147
+Tobago|300
+Iwo Jima|21
+Hashima|0.06|Gunkanjima
+Liancourt Rocks|0.19|Dokdo,Takeshima
+Corregidor|9
+Lamma Island|13.85
+Cheung Chau|2.4
+Ulleungdo|72.9
+Geoje|383
+Ganghwa|302
+Yeouido|2.9
+Leyte|7368
+Mindoro|9735
+Mactan|105.4
+Camiguin|238
+Siquijor|343.5
+Busuanga|907.5
+Basilan|1280
+Jolo|892
+Masbate|3268
+Marinduque|959.3
+Catanduanes|1511
+Coron Island|7
+Biliran|555.4
+Dinagat|802
+Bantayan|78.6
+Malapascua|2.5
+Panglao|80.1
+Guimaras|604.6
+Culion|400
+Balabac|216
+Tawi-Tawi|366
+Homonhon|20
+Limasawa|5.7
+Batanes|219|Batan Island
+Sabtang|24.4
+Itbayat|83.1
+Phu Quoc|589
+Cat Ba|285
+Con Dao|76|Con Son
+Ly Son|10
+Cham Islands|15
+Ko Phi Phi|28|Phi Phi Islands
+Ko Tao|21
+Ko Pha-ngan|168|Koh Phangan
+Ko Chang|217
+Ko Lanta|111
+Ko Lipe|2.3
+Ko Samet|13.1
+Ko Kut|105
+Ko Tapu|0.001|James Bond Island
+Ko Panyi|0.02|Koh Panyee
+Similan Islands|15
+Surin Islands|24.4|Mu Ko Surin
+Ko Kret|3
+Rattanakosin|1.5|Rattanakosin Island
+Koh Rong|78
+Koh Rong Sanloem|28
+Koh Kong Island|26
+Sipadan|0.13
+Labuan|91.6
+Pangkor|18
+Redang|25|Pulau Redang
+Perhentian Islands|26
+Mabul|1.5
+Gaya Island|15.35
+Banggi|440.7
+Sentosa|4.71
+Pulau Ubin|10.19
+Pedra Branca|0.008
+Nusa Penida|202.8
+Nusa Lembongan|8
+Gili Trawangan|3
+Gili Islands|3.65
+Madura|4250
+Bangka|11693|Bangka Island
+Belitung|4800
+Morotai|2337
+Tidore|120
+Banda Islands|172
+Banda Neira|15
+Run|3|Pulau Run
+Buru|9505
+Alor|2864
+Rote|1280|Rote Island
+Weh|156|Weh Island
+Mentawai Islands|6033
+Siberut|4030
+Biak|2602
+Yapen|2278|Yapen Island
+Waigeo|3155
+Misool|2034
+Raja Ampat|40000|Raja Ampat Islands
+Bunaken|8.08
+Lembeh|50|Lembeh Island
+Derawan|4.36
+Maratua|24.14
+Kakaban|4.7|Kakaban Island
+Karimunjawa|71.2|Karimun Jawa
+Nusakambangan|121
+Wakatobi|1390|Tukang Besi Islands
+Togian Islands|372
+Buton|4408
+Muna|2889|Muna Island
+Selayar|903.5|Selayar Island
+Sangihe|461|Sangihe Island
+Talaud Islands|1250
+Natuna|1720|Natuna Besar
+Riau Islands|8201
+Bawean|199
+Rinca|198
+Padar|21
+Moyo|320|Moyo Island
+Saparua|60.14|Saparua Island
+Obi|3111|Obi Island
+Bacan|1900|Bacan Island
+Kai Islands|1438.68
+Aru Islands|8402
+Tanimbar Islands|5498
+Wetar|3624
+Enggano|400.6
+Simeulue|1838
+Great Nicobar|1044
+Car Nicobar|127
+Nicobar Islands|1841
+Havelock Island|113.93|Swaraj Dweep
+Neil Island|13.68|Shaheed Dweep
+North Sentinel Island|59.67
+Little Andaman|734
+Barren Island|8.1
+Narcondam|6.8|Narcondam Island
+Elephanta Island|10
+Salsette|619|Salsette Island
+Diu|40
+Majuli|352
+Sriharikota|180
+Pamban Island|65.475|Rameswaram Island
+Srirangam|45.242
+Divar|6
+Chorao|15.79
+Beyt Dwarka|27|Bet Dwarka
+Sagar Island|300|Ganga Sagar
+Lakshadweep|32
+Kavaratti|4.22
+Agatti|3.842
+Bangaram|2.63
+Minicoy|4.8
+St. Mary's Islands|0.5
+Netrani|0.0989|Netrani Island
+Munroe Island|13.4
+Willingdon Island|26.15
+Vypin|82.5|Vypin Island
+Umananda|0.0092|Umananda Island
+Mannar Island|130
+Delft Island|50|Neduntheevu
+Nainativu|6.4
+Taprobane|0.0081|Taprobane Island
+Katchatheevu|1.6
+Bhola|3403|Bhola Island
+St. Martin's Island|3|Saint Martins Island
+Maheshkhali|388
+Bhasan Char|40
+Sandwip|762
+Hatiya|1400
+Nijhum Dwip|163
+Hulhumale|4
+Maafushi|0.94
+Addu Atoll|20|Seenu Atoll
+Fuvahmulah|5.13
+Ari Atoll|22.85|Alifu Atoll
+Baa Atoll|27.35
+Vaadhoo|0.66
+Ramree|1350|Ramree Island
+Cheduba|538|Manaung Island
+Coco Islands|4.7
+Mergui Archipelago|10000|Myeik Archipelago
+Lampi|205|Lampi Island
+Astola|6.7|Jezira Haft Talar
+Manora|2.822
+Churna|2|Churna Island
+Qeshm|1491
+Kish|91.5|Kish Island
+Hormuz|42|Hormuz Island
+Kharg|25|Kharg Island
+Abu Musa|12.8|Abu Musa Island
+Greater Tunb|10.3
+Lavan|68.5|Lavan Island
+Ashuradeh|6.5|Ashuradeh Island
+Failaka|43|Failaka Island
+Bubiyan|863
+Muharraq|18|Muharraq Island
+Hawar Islands|51.6
+Masirah|649|Masirah Island
+Yas Island|25
+Saadiyat|27|Saadiyat Island
+Palm Jumeirah|25
+The World|9.3|The World Islands
+Sir Bani Yas|87
+The Pearl|4|Pearl-Qatar,The Pearl-Qatar
+Arwad|0.2
+Tiran|80|Tiran Island
+Farasan Islands|700
+Dahlak|900|Dahlak Kebir,Dahlak Archipelago
+Kamaran|181
+Perim|13
+Elephantine|1.44
+Philae|0.014
+Gezira|3|Zamalek
+Pharos|1.03
+Giftun|5.4|Giftun Island
+Warraq|7|Warraq Island
+Kerkennah|160|Kerkennah Islands
+Mogador|0.03|Essaouira Island
+Lamu|28|Lamu Island
+Mombasa Island|13
+Kilwa Kisiwani|3
+Ilha de Mocambique|3.12|Mozambique Island
+Bazaruto|37|Bazaruto Island
+Ibo|5|Ibo Island
+Quirimbas|400|Quirimbas Archipelago
+Inhaca|52|Inhaca Island
+Likoma|18|Likoma Island
+Idjwi|340
+Ukerewe|530|Ukerewe Island
+Bugala|288|Bugala Island
+Ssese Islands|460|Sese Islands
+Migingo|0.002|Migingo Island
+Rubondo|240|Rubondo Island
+Changuu|0.08|Prison Island
+Mnemba|0.15|Mnemba Island
+Chumbe|0.15|Chumbe Island
+Anjouan|424
+Moheli|211|Mwali
+Nosy Boraha|115|Sainte Marie
+Nosy Komba|20
+Ile aux Cerfs|0.87
+Silhouette|20|Silhouette Island
+Curieuse|2.9
+Desroches|3.6
+Fregate|2.19|Fregate Island
+Tromelin|1|Tromelin Island
+Europa Island|28
+Cargados Carajos|1.3|Saint Brandon
+Agalega|26|Agalega Islands
+Chagos|60|Chagos Archipelago
+Diego Garcia|27
+Cocos Islands|14|Cocos Keeling Islands
+Manitoulin|2766|Manitoulin Island
+Anticosti|7943|Anticosti Island
+Haida Gwaii|10180|Queen Charlotte Islands
+Graham Island|6361
+Salt Spring Island|182.15
+Bowen Island|51.4
+Quadra Island|310
+Campobello Island|33.5
+Grand Manan|137|Grand Manan Island
+Ile d'Orleans|192|Isle of Orleans
+Toronto Islands|2.4
+Pelee Island|42
+Wolfe Island|124
+Thousand Islands|50
+Goat Island|0.28|Goat Island Niagara
+Liberty Island|0.049
+Roosevelt Island|0.586
+Governors Island|0.72
+Fire Island|66
+Block Island|25
+Aquidneck Island|96|Rhode Island
+Mount Desert Island|280
+Monhegan|2.3|Monhegan Island
+Chappaquiddick|20|Chappaquiddick Island
+Assateague Island|96.5
+Tangier Island|3
+Hatteras Island|161
+Ocracoke|23.36|Ocracoke Island
+Hilton Head Island|108.6
+Kiawah Island|40
+Tybee Island|8
+St. Simons Island|46.7|Saint Simons Island
+Jekyll Island|25.5
+Cumberland Island|55.5
+Amelia Island|21
+Merritt Island|116
+Key Largo|76.5
+Key Biscayne|6.16
+Marco Island|24.2
+Sanibel|33|Sanibel Island
+Captiva|2|Captiva Island
+Anna Maria Island|15
+Padre Island|182
+South Padre Island|21
+Dauphin Island|26
+Avery Island|8
+Kelleys Island|11
+South Bass Island|4.5
+Beaver Island|138
+Madeline Island|40.7
+Apostle Islands|173
+Belle Isle|3|Belle Isle Park
+Angel Island|3.05
+Treasure Island|1.24
+San Clemente Island|145
+San Miguel Island|37
+Santa Rosa Island (California)|215
+Anacapa|2.9|Anacapa Island
+Vashon|100|Vashon Island
+Bainbridge Island|70
+Whidbey Island|435
+Orcas Island|148
+San Juan Islands|375
+Mercer Island|15.9
+Unalaska|3959|Unalaska Island
+Attu|893|Attu Island
+Adak|741|Adak Island
+Kiska|278
+St. Lawrence Island|4291
+Nunivak|4212|Nunivak Island
+Admiralty Island|4168
+Baranof Island|4237
+Chichagof Island|5388
+Little Diomede|7.3|Little Diomede Island
+Kahoolawe|116.3
+Molokini|0.0155
+Ford Island|1.5
+Laysan|4.1
+Hawaiian Islands|16636
+Johnston Atoll|2.8
+Palmyra Atoll|12
+Howland Island|1.6
+Baker Island|1.4
+Jarvis Island|4.5
+Kure Atoll|0.71
+Nihoa|0.69
+Vieques|135
+Culebra|30
+Isla de la Juventud|2200
+Cayo Coco|370
+Cayo Largo|37|Cayo Largo del Sur
+Gonave|743|La Gonave,Gonave Island
+Tortuga|180|Ile de la Tortue
+Saona|110|Saona Island
+Bimini|9
+Cat Island|388
+San Salvador Island|163
+Harbour Island|8.1
+Inagua|1544|Great Inagua
+Little Cayman|28.5
+Cayman Brac|38
+Cayman Islands|264
+Utila|41
+Guanaja|56
+Ambergris Caye|42
+Caye Caulker|3.3
+Corn Islands|12.5
+Providencia|17|Providencia Island
+Isla Colon|61|Colon Island
+Taboga|3|Taboga Island
+San Blas Islands|36|Guna Yala
+Saint Barthelemy|21|St Barts,St Barths
+Saba|13
+Sint Eustatius|21|Statia
+Anegada|38
+Jost Van Dyke|8
+Saint John|50|St John USVI
+Marie-Galante|158
+Les Saintes|13|Iles des Saintes
+Bequia|18
+Mustique|5.7
+Canouan|7.5
+Union Island|8.4
+Carriacou|34
+Holbox|40|Holbox Island
+Isla Contoy|5.8
+Tiburon Island|1208|Isla Tiburon
+Guadalupe Island|244
+Socorro Island|132
+Clipperton Island|6
+Turks and Caicos|948
+Virgin Islands|346
+Lesser Antilles|25000
+Greater Antilles|210000
+Leeward Islands|3055
+Windward Islands|3555
+Grenadines|60
+Ilhabela|348
+Santa Catarina Island|424|Florianopolis Island
+Itamaraca|65
+Ilha do Mel|27.5
+Itaparica|239
+Boipeba|51
+Tinhare|47|Tinhare Island,Morro de Sao Paulo
+Bananal Island|19162
+Ilha do Governador|39.6
+Paqueta|1.2|Paqueta Island
+Trindade|10.1|Trindade Island
+Atol das Rocas|3.6
+Abrolhos|6|Abrolhos Islands
+Isla Magdalena|0.9|Magdalena Island
+Navarino|2473|Navarino Island
+Dawson Island|2050|Isla Dawson
+Wellington Island|5556
+Isla de los Estados|534|Staten Island (Argentina)
+Martin Garcia|1.84|Martin Garcia Island
+Alejandro Selkirk|49.5|Alejandro Selkirk Island
+Mocha Island|48|Isla Mocha
+Puna Island|920|Isla Puna
+Isla de la Plata|12
+Espanola Island|60|Hood Island
+Genovesa|14|Genovesa Island
+Bartolome Island|1.2|Bartolome
+Pinta Island|60
+North Seymour|1.9|North Seymour Island
+Daphne Major|0.34
+Darwin Island|1.1
+Wolf Island|1.3
+Baltra|27|South Seymour Island
+Santa Fe Island|24
+Ballestas Islands|0.12
+San Lorenzo Island|16.48
+Taquile|5.72
+Amantani|9.28|Amantani Island
+Isla del Sol|14.3
+Isla de la Luna|3
+Gorgona Island|26
+Malpelo|1.2|Malpelo Island
+Rosario Islands|5.6|Islas del Rosario
+Santa Cruz del Islote|0.012
+Coche|63|Coche Island
+Cubagua|24
+La Tortuga|156|La Tortuga Island
+Los Roques|40|Los Roques Archipelago
+La Orchila|27.6
+Aves Island|0.04
+Chacachacare|4
+Little Tobago|1.2
+Devils Island|0.14
+Iles du Salut|1|Salvation Islands
+Isla de Flores|0.11
+Gorriti|0.32|Isla Gorriti
+Great Barrier Island|285
+Rangitoto|5.5|Rangitoto Island
+Tiritiri Matangi|2.2|Tiritiri Matangi Island
+Kawau|20|Kawau Island
+D'Urville Island|158
+Kapiti Island|19.65
+Matiu/Somes Island|0.25|Somes Island
+Codfish Island|14|Whenua Hou
+Whakaari/White Island|3.24|White Island
+Mokoia|1.35|Mokoia Island
+Poor Knights Islands|2.4
+Urupukapuka|2|Urupukapuka Island
+Tongatapu|260
+Vava'u|121
+'Eua|87.4
+Lifuka|11.4
+Niuafo'ou|34
+Tofua|55.6
+Hunga Tonga|2|Hunga Tonga-Hunga Haapai
+Taveuni|434
+Kadavu|411|Kadavu Island
+Ovalau|106
+Beqa|36
+Malolo|4
+Yasawa Islands|135|Yasawa
+Rotuma|43
+Rabi|66.3|Rabi Island
+Monuriki|0.4
+Tavarua|0.05
+Denarau|2.5|Denarau Island
+Mamanuca Islands|17
+Lau Islands|487
+Malakula|2041
+Pentecost|490|Pentecost Island
+Ambrym|678
+Ambae|402
+Erromango|887
+Aneityum|160
+Grande Terre|16372|Grande Terre New Caledonia
+Lifou|1150
+Mare|642
+Ouvea|132
+Isle of Pines|152|Ile des Pins
+Loyalty Islands|1981
+Malaita|4225
+Santa Isabel (Solomon Islands)|4014|Santa Isabel Island
+Choiseul|3837|Choiseul Island
+Makira|3188|San Cristobal
+New Georgia|2037
+Rennell|660|Rennell Island
+Savo|32|Savo Island
+Tulagi|1.98
+Gizo|16|Gizo Island
+Kolombangara|700
+Vella Lavella|629
+Vanikoro|173
+Tikopia|5
+Anuta|0.4
+Ontong Java|12|Ontong Java Atoll
+Kennedy Island|0.01
+Buka|494|Buka Island
+Karkar|367|Karkar Island
+Manam|10
+Goodenough Island|685
+Fergusson Island|1437
+Kiriwina|300|Trobriand Island
+Trobriand Islands|450
+Woodlark Island|800|Muyua
+Misima|186|Misima Island
+Rossel Island|280
+Samarai|0.5|Samarai Island
+Daru|13|Daru Island
+Lihir|194|Lihir Island
+New Hanover|1200|Lavongai
+Los Negros|50|Los Negros Island
+Yos Sudarso Island|10000|Kolepom,Pulau Dolak
+Numfor|322
+Yap|100.3
+Chuuk|127.4|Truk Islands
+Weno|18.8
+Kosrae|109.6
+Enewetak|5.85|Enewetak Atoll
+Rongelap|8|Rongelap Atoll
+Ebeye|0.36
+Koror|7
+Peleliu|13
+Angaur|8.4
+Rock Islands|47
+Tarawa|31
+Betio|1.5
+Butaritari|13.5
+Banaba|6.3|Ocean Island
+Fanning Island|33.7|Tabuaeran
+Canton Island|6.5|Kanton Island
+Nikumaroro|4.1
+Malden Island|39
+Caroline Island|5.6|Millennium Island
+Funafuti|2.4
+Nanumea|3.87
+Atafu|2.03
+Nukunonu|4.7
+Fakaofo|2.63
+Tokelau|12.2
+Manono|2.9|Manono Island
+Ofu|5.2|Ofu-Olosega
+Ta'u|44.31
+Rose Atoll|0.084
+Swains Island|1.9
+Rota|85.38
+Pagan|47.24|Pagan Island
+Northern Mariana Islands|464
+Tuamotus|850|Tuamotu Islands
+Gambier Islands|36
+Austral Islands|148
+Huahine|74.8
+Raiatea|171.5
+Tahaa|82.9
+Maupiti|11.4
+Tikehau|20
+Fakarava|16
+Hiva Oa|320
+Ua Pou|105.4
+Tubuai|45
+Rurutu|32
+Mangareva|15.4
+Rapa Iti|40.5
+Atiu|26.9
+Mangaia|51.8
+Penrhyn|9.8|Penrhyn Island
+Palmerston Island|2|Palmerston
+Wallis|60.2|Uvea
+Futuna|46
+Henderson Island|37.3
+Kuril Islands|10503
+Iturup|3175
+Kunashir|1490|Kunashir Island
+Shikotan|225
+Paramushir|2053
+Bering Island|1667
+Russky Island|97.6
+Big Diomede|29
+Olkhon|730
+Ryukyu Islands|3454
+Iriomote|289.3|Iriomote Island
+Taketomi|5.42|Taketomi Island
+Miyako-jima|158.9|Miyakojima
+Kume|63.36|Kume Island
+Zamami|6.66|Zamami Island
+Tokashiki|15.31|Tokashiki Island
+Ie Island|22.75
+Hateruma|12.77|Hateruma Island
+Yonaguni|28.88|Yonaguni Island
+Kerama Islands|30
+Yaeyama Islands|590
+Amami Oshima|712.35
+Tokunoshima|247.85
+Okinoerabu|93.65|Okinoerabujima
+Yoron|20.58|Yoron Island
+Tanegashima|444.99
+Kuchinoerabu|35.3|Kuchinoerabujima
+Tsushima|708.7|Tsushima Island
+Iki|138.6|Iki Island
+Goto Islands|420
+Hirado|235.31|Hirado Island
+Amakusa|866|Amakusa Islands
+Shodoshima|153.3
+Naoshima|8.14
+Teshima|14.62
+Ikuchijima|33.7
+Omishima|64.5
+Innoshima|33.85
+Etajima|43.5
+Okunoshima|0.7|Rabbit Island
+Enoshima|0.38
+Odaiba|15
+Sarushima|0.06
+Dejima|0.15
+Shikanoshima|6
+Ainoshima|1.2
+Tashirojima|3.14|Cat Island Japan
+Aoshima|0.51|Cat Island Ehime
+Kinkasan|9.6
+Okinoshima|0.97
+Oki Islands|346
+Rebun|81.66|Rebun Island
+Rishiri|182.11|Rishiri Island
+Okushiri|142.7|Okushiri Island
+Izu Islands|297
+Izu Oshima|91.06
+Niijima|23.17
+Kozushima|18.19
+Miyakejima|55.5
+Hachijojima|62.52|Hachijo-jima
+Aogashima|8.75
+Ogasawara Islands|84|Bonin Islands
+Chichijima|23.45
+Hahajima|20.2
+Minamitorishima|1.51|Marcus Island
+Okinotorishima|0.00847
+Senkaku Islands|7|Diaoyu Islands
+Zhoushan|502.65|Zhoushan Island
+Putuoshan|12.5|Mount Putuo
+Chongming|1267|Chongming Island
+Xiamen Island|132.5
+Gulangyu|1.88
+Kinmen|151.7|Quemoy
+Matsu Islands|29.6
+Penghu|141|Pescadores
+Orchid Island|45|Lanyu
+Green Island (Taiwan)|16.2
+Xiaoliuqiu|6.8
+Guishan Island|2.85
+Cijin|1.46|Cijin Island
+Meizhou Island|14.35
+Pingtan|267.13|Pingtan Island
+Nan'ao Island|111.03
+Weizhou|24.74|Weizhou Island
+Wuzhizhou|1.48|Wuzhizhou Island
+Liugong Island|3.15
+Changdao|13|Miaodao Islands,Changshan Islands
+Coloane|7.6
+Taipa|7.9
+Hengqin|106.46
+Pratas|1.74|Dongsha Islands
+Woody Island|2.1|Yongxing Island
+Itu Aba|0.51|Taiping Island
+Thitu|0.37|Pag-asa Island
+Fiery Cross Reef|2.74
+Mischief Reef|5.58
+Scarborough Shoal|0.0015
+Spratly Islands|5
+Paracel Islands|7.75
+Baengnyeong|45.83|Baengnyeong Island
+Yeonpyeong|7.3|Yeonpyeong Island
+Jindo|367.7|Jindo Island
+Wando|12.15|Wando Island
+Namhae|357|Namhae Island
+Yeongjong|122.6|Yeongjong Island
+Muuido|9.712
+Silmido|0.089
+Udo|6.18|Udo Island
+Marado|0.3
+Hongdo|6.47|Hongdo Island
+Heuksando|19.7
+Anmyeon|111.31|Anmyeondo,Anmyeon Island
+Wolmido|0.663
+Oedo|0.09|Oedo Botania
+Hansando|21.32|Hansan Island
+Dolsan|63|Dolsan Island,Dolsando
+Odongdo|0.12
 `;
 
 export const SEAS_OCEANS = `
@@ -1288,4 +5880,162 @@ Bali Sea|45000
 Ceram Sea|12000
 Mozambique Channel|700000
 Chesapeake Bay|11601
+Strait of Gibraltar|600
+Strait of Hormuz|11000
+Strait of Malacca|100000
+Bosphorus|40|Istanbul Strait
+Dardanelles|200|Hellespont
+Bering Strait|3200
+Strait of Magellan|5850|Straits of Magellan
+Drake Passage|700000
+Davis Strait|360000
+Denmark Strait|140000
+Cook Strait|3000
+Bass Strait|75000
+Torres Strait|48000
+Taiwan Strait|150000|Formosa Strait
+Korea Strait|65000
+Tsugaru Strait|2500
+Luzon Strait|75000
+Sunda Strait|3000
+Lombok Strait|2100
+Makassar Strait|160000
+Palk Strait|4000
+Bab-el-Mandeb|3000|Bab al-Mandab
+Strait of Dover|1500|Dover Strait
+Strait of Bonifacio|700
+Strait of Messina|110
+Strait of Otranto|4000
+Kerch Strait|180
+Strait of Juan de Fuca|3000
+Straits of Florida|45000
+Windward Passage|6000
+Mona Passage|5000
+Yucatan Channel|30000
+Bristol Channel|1000
+The Solent|400
+North Channel|1600
+St George's Channel|4000
+Pentland Firth|100
+Firth of Forth|1600
+Firth of Clyde|1000
+Moray Firth|3200
+Solway Firth|700
+Morecambe Bay|310
+Cardigan Bay|960
+Lyme Bay|1000
+The Wash|620
+Galway Bay|300
+Dublin Bay|70
+Bantry Bay|100
+The Minch|4200
+Sea of the Hebrides|10000
+Bay of Kotor|87
+Gulf of Corinth|2400
+Saronic Gulf|2600
+Thermaic Gulf|3000
+Gulf of Taranto|14000
+Gulf of Naples|870
+Gulf of Genoa|2100
+Gulf of Venice|1000
+Gulf of Trieste|500
+Kvarner Gulf|1000
+Gulf of Lion|2700|Golfe du Lion
+Gulf of Cadiz|25000
+Gulf of Gdansk|5000
+Bay of Pomerania|4700
+Myrtoan Sea|5000
+Thracian Sea|20000
+Icarian Sea|7000|Ikarian Sea
+Libyan Sea|60000
+Sea of Sardinia|30000
+Strait of Sicily|30000|Sicilian Channel
+Pagasetic Gulf|500|Pagasitic Gulf
+Argolic Gulf|2000
+Laconian Gulf|1600
+Messenian Gulf|1000
+Ambracian Gulf|405
+Bay of Algeciras|75
+Mar Menor|135
+German Bight|15000
+Heligoland Bight|3000
+Western Scheldt|350
+Eastern Scheldt|350
+Gulf of Saint-Malo|1000
+Iroise Sea|3000
+Quiberon Bay|100
+Gulf of Morbihan|115
+Arcachon Bay|155
+Gulf of Roses|48|Golf de Roses
+Gulf of Valencia|20000
+Bay of Palma|900
+Gulf of Cagliari|500
+Gulf of Salerno|400
+Gulf of Manfredonia|1000
+Oresund|2000
+Great Belt|2830
+Little Belt|500
+Limfjord|1500
+Bothnian Sea|79000
+Archipelago Sea|8300
+Sea of Aland|7000
+Curonian Lagoon|1600
+Vistula Lagoon|838
+Szczecin Lagoon|687|Oder Lagoon
+Bay of Lubeck|100
+Bay of Kiel|900
+Bay of Mecklenburg|2000
+Fehmarn Belt|80
+Taganrog Bay|5000
+Karkinit Bay|4270
+Golden Horn|2.5
+Gulf of Izmit|300|Izmit Bay
+Gulf of Antalya|30000
+Gulf of Iskenderun|5000
+Gulf of Izmir|500
+Saros Bay|900
+Gulf of Gokova|1000
+Strymonian Gulf|2000|Strymonic Gulf
+Gulf of Suez|7500
+Gulf of Aqaba|3680
+Gulf of Gabes|8000
+Gulf of Tunis|1500
+Gulf of Hammamet|6000
+Gulf of Tadjoura|1400
+Gulf of Kutch|7350
+Gulf of Khambhat|3120|Gulf of Cambay
+Gulf of Mannar|9600
+Gulf of Martaban|10000|Gulf of Mottama
+Gulf of Tonkin|126250
+Laccadive Sea|786000
+Gulf of Bahrain|9000
+Gulf of Masirah|4000
+Tokyo Bay|1320
+Osaka Bay|1450
+Bohai Sea|78000
+Seto Inland Sea|23000|Inland Sea
+Manila Bay|1994
+Leyte Gulf|8000
+Gulf of Papua|70400
+Cenderawasih Bay|100000|Geelvink Bay
+Puget Sound|2600
+Prince William Sound|9000
+Monterey Bay|780
+San Francisco Bay|1240
+Long Island Sound|3400
+Delaware Bay|2030
+Tampa Bay|1030
+Strait of Georgia|6800
+Hudson Strait|110000
+James Bay|130000
+Gulf of Honduras|40000
+Gulf of Panama|32000
+Gulf of Guayaquil|27000
+Beagle Channel|1200
+Guanabara Bay|412
+Cosmonauts Sea|699000
+Cooperation Sea|258000
+Lazarev Sea|929000
+Riiser-Larsen Sea|1138000
+Somov Sea|1150000
 `;

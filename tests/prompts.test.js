@@ -287,8 +287,10 @@ test('a length prompt accepts the name as typed or with its generic word trimmed
   const kili = on('mountain', 'long').submit('Kilimanjaro');
   assert.strictEqual(kili.status, 'wrong-scope');
   assert.strictEqual(kili.length.letters, 11);
-  // The reveal shows the real name, since typing it works.
-  assert.strictEqual(runner.rarestFor(shipped.promptFor({ category: 'desert', letter: { kind: 'short' } })).name, 'Monte Desert');
+  // The reveal shows the real name, since typing it works. (Which desert is
+  // rarest moves as the bank grows; what must hold is that its name lands.)
+  const rarest = runner.rarestFor(shipped.promptFor({ category: 'desert', letter: { kind: 'short' } }));
+  assert.strictEqual(on('desert', 'short').submit(rarest.name).status, 'accepted', rarest.name);
 });
 
 test('on a shipped length prompt the reveal is a spelling the prompt accepts', () => {

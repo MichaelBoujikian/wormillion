@@ -1627,5 +1627,2718 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "sea_ocean-strait-of-gibraltar",
+  "category": "sea_ocean",
+  "name": "Strait of Gibraltar",
+  "aliases": [],
+  "size": 600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Gibraltar\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 21156,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Gibraltar",
+  "lat": 35.95,
+  "lon": -5.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-hormuz",
+  "category": "sea_ocean",
+  "name": "Strait of Hormuz",
+  "aliases": [],
+  "size": 11000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Hormuz\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 97104,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Hormuz",
+  "lat": 26.6,
+  "lon": 56.5,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-malacca",
+  "category": "sea_ocean",
+  "name": "Strait of Malacca",
+  "aliases": [],
+  "size": 100000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Malacca\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 21825,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Malacca",
+  "oceans": [
+   "Indian",
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-bosphorus",
+  "category": "sea_ocean",
+  "name": "Bosphorus",
+  "aliases": [
+   "Istanbul Strait"
+  ],
+  "size": 40,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bosporus\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 25661,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bosporus",
+  "lat": 41.11944444,
+  "lon": 29.07527778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-dardanelles",
+  "category": "sea_ocean",
+  "name": "Dardanelles",
+  "aliases": [
+   "Hellespont"
+  ],
+  "size": 200,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dardanelles\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 33210,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dardanelles",
+  "lat": 40.2,
+  "lon": 26.4,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bering-strait",
+  "category": "sea_ocean",
+  "name": "Bering Strait",
+  "aliases": [],
+  "size": 3200,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bering Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 16803,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bering Strait",
+  "lat": 65.75,
+  "lon": -168.97694444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-magellan",
+  "category": "sea_ocean",
+  "name": "Strait of Magellan",
+  "aliases": [
+   "Straits of Magellan"
+  ],
+  "size": 5850,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Magellan\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 26970,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Magellan",
+  "lat": -54,
+  "lon": -71,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-drake-passage",
+  "category": "sea_ocean",
+  "name": "Drake Passage",
+  "aliases": [],
+  "size": 700000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Drake Passage\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 33575,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drake Passage",
+  "lat": -58.58333333,
+  "lon": -65.9,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-davis-strait",
+  "category": "sea_ocean",
+  "name": "Davis Strait",
+  "aliases": [],
+  "size": 360000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Davis Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Davis Strait",
+  "lat": 65,
+  "lon": -58,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-denmark-strait",
+  "category": "sea_ocean",
+  "name": "Denmark Strait",
+  "aliases": [],
+  "size": 140000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Denmark Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2922,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Denmark Strait",
+  "lat": 67,
+  "lon": -24,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-cook-strait",
+  "category": "sea_ocean",
+  "name": "Cook Strait",
+  "aliases": [],
+  "size": 3000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cook Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3288,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cook Strait",
+  "lat": -41.22944444,
+  "lon": 174.48305556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-bass-strait",
+  "category": "sea_ocean",
+  "name": "Bass Strait",
+  "aliases": [],
+  "size": 75000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bass Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5114,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bass Strait",
+  "lat": -40,
+  "lon": 146,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-torres-strait",
+  "category": "sea_ocean",
+  "name": "Torres Strait",
+  "aliases": [],
+  "size": 48000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Torres Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5144,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Torres Strait",
+  "lat": -9.83333333,
+  "lon": 142.5,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-taiwan-strait",
+  "category": "sea_ocean",
+  "name": "Taiwan Strait",
+  "aliases": [
+   "Formosa Strait"
+  ],
+  "size": 150000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Taiwan Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3835,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Taiwan Strait",
+  "lat": 24.81111111,
+  "lon": 119.92833333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-korea-strait",
+  "category": "sea_ocean",
+  "name": "Korea Strait",
+  "aliases": [],
+  "size": 65000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Korea Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1826,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Korea Strait",
+  "lat": 34.59944444,
+  "lon": 129.79666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-tsugaru-strait",
+  "category": "sea_ocean",
+  "name": "Tsugaru Strait",
+  "aliases": [],
+  "size": 2500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tsugaru Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2983,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tsugaru Strait",
+  "lat": 41.49916667,
+  "lon": 140.61583333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-luzon-strait",
+  "category": "sea_ocean",
+  "name": "Luzon Strait",
+  "aliases": [],
+  "size": 75000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Luzon Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luzon Strait",
+  "lat": 21,
+  "lon": 121,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-sunda-strait",
+  "category": "sea_ocean",
+  "name": "Sunda Strait",
+  "aliases": [],
+  "size": 3000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sunda Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3561,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sunda Strait",
+  "lat": -5.92,
+  "lon": 105.88,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-lombok-strait",
+  "category": "sea_ocean",
+  "name": "Lombok Strait",
+  "aliases": [],
+  "size": 2100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lombok Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2131,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lombok Strait",
+  "lat": -8.76666667,
+  "lon": 115.73333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-makassar-strait",
+  "category": "sea_ocean",
+  "name": "Makassar Strait",
+  "aliases": [],
+  "size": 160000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Makassar Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Makassar Strait",
+  "lat": 0,
+  "lon": 118.5,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-palk-strait",
+  "category": "sea_ocean",
+  "name": "Palk Strait",
+  "aliases": [],
+  "size": 4000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Palk Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 4201,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palk Strait",
+  "lat": 10,
+  "lon": 79.75,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-bab-el-mandeb",
+  "category": "sea_ocean",
+  "name": "Bab-el-Mandeb",
+  "aliases": [
+   "Bab al-Mandab"
+  ],
+  "size": 3000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Bab al-Mandab\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 195303,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Bab al-Mandab",
+  "lat": 12.58333333,
+  "lon": 43.33333333,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-dover",
+  "category": "sea_ocean",
+  "name": "Strait of Dover",
+  "aliases": [
+   "Dover Strait"
+  ],
+  "size": 1500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Dover\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 8980,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Dover",
+  "lat": 51,
+  "lon": 1.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-bonifacio",
+  "category": "sea_ocean",
+  "name": "Strait of Bonifacio",
+  "aliases": [],
+  "size": 700,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Bonifacio\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Bonifacio",
+  "lat": 41.31194444,
+  "lon": 9.21277778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-messina",
+  "category": "sea_ocean",
+  "name": "Strait of Messina",
+  "aliases": [],
+  "size": 110,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Messina\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 15372,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Messina",
+  "lat": 38.24583333,
+  "lon": 15.6325,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-otranto",
+  "category": "sea_ocean",
+  "name": "Strait of Otranto",
+  "aliases": [],
+  "size": 4000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Otranto\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2192,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Otranto",
+  "lat": 40.21944444,
+  "lon": 18.92555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kerch-strait",
+  "category": "sea_ocean",
+  "name": "Kerch Strait",
+  "aliases": [],
+  "size": 180,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kerch Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1766,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kerch Strait",
+  "lat": 45.25,
+  "lon": 36.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-juan-de-fuca",
+  "category": "sea_ocean",
+  "name": "Strait of Juan de Fuca",
+  "aliases": [],
+  "size": 3000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Juan de Fuca\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 6545,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Juan de Fuca",
+  "lat": 48.225,
+  "lon": -123.55833333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-straits-of-florida",
+  "category": "sea_ocean",
+  "name": "Straits of Florida",
+  "aliases": [],
+  "size": 45000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Straits of Florida\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2892,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Straits of Florida",
+  "lat": 24,
+  "lon": -80.83333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-windward-passage",
+  "category": "sea_ocean",
+  "name": "Windward Passage",
+  "aliases": [],
+  "size": 6000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Windward Passage\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Windward Passage",
+  "lat": 20,
+  "lon": -74,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mona-passage",
+  "category": "sea_ocean",
+  "name": "Mona Passage",
+  "aliases": [],
+  "size": 5000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mona Passage\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mona Passage",
+  "lat": 18.5,
+  "lon": -67.88333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-yucatan-channel",
+  "category": "sea_ocean",
+  "name": "Yucatan Channel",
+  "aliases": [],
+  "size": 30000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yucatán Channel\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yucatán Channel",
+  "lat": 21.57833333,
+  "lon": -85.9075,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bristol-channel",
+  "category": "sea_ocean",
+  "name": "Bristol Channel",
+  "aliases": [],
+  "size": 1000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bristol Channel\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5205,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bristol Channel",
+  "lat": 51.35,
+  "lon": -3.7,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-the-solent",
+  "category": "sea_ocean",
+  "name": "The Solent",
+  "aliases": [],
+  "size": 400,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"The Solent\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3409,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "The Solent",
+  "lat": 50.78666667,
+  "lon": -1.295,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-north-channel",
+  "category": "sea_ocean",
+  "name": "North Channel",
+  "aliases": [],
+  "size": 1600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"North Channel (Great Britain and Ireland)\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2770,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Channel (Great Britain and Ireland)",
+  "lat": 55.0575,
+  "lon": -5.62194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-st-george-s-channel",
+  "category": "sea_ocean",
+  "name": "St George's Channel",
+  "aliases": [],
+  "size": 4000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St George's Channel\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St George's Channel",
+  "lat": 52.08333333,
+  "lon": -5.75,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-pentland-firth",
+  "category": "sea_ocean",
+  "name": "Pentland Firth",
+  "aliases": [],
+  "size": 100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pentland Firth\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pentland Firth",
+  "lat": 58.7,
+  "lon": -3.2,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-firth-of-forth",
+  "category": "sea_ocean",
+  "name": "Firth of Forth",
+  "aliases": [],
+  "size": 1600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Firth\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Firth",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-firth-of-clyde",
+  "category": "sea_ocean",
+  "name": "Firth of Clyde",
+  "aliases": [],
+  "size": 1000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Firth\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Firth",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-moray-firth",
+  "category": "sea_ocean",
+  "name": "Moray Firth",
+  "aliases": [],
+  "size": 3200,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Moray Firth\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 4079,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Moray Firth",
+  "lat": 57.83333333,
+  "lon": -3.58333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-solway-firth",
+  "category": "sea_ocean",
+  "name": "Solway Firth",
+  "aliases": [],
+  "size": 700,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Solway Firth\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3896,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Solway Firth",
+  "lat": 54.75,
+  "lon": -3.66666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-morecambe-bay",
+  "category": "sea_ocean",
+  "name": "Morecambe Bay",
+  "aliases": [],
+  "size": 310,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"2006 Morecambe Bay Eurocopter AS365 crash\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "2006 Morecambe Bay Eurocopter AS365 crash",
+  "lat": 53.95611111,
+  "lon": -3.67,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-cardigan-bay",
+  "category": "sea_ocean",
+  "name": "Cardigan Bay",
+  "aliases": [],
+  "size": 960,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cardigan Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cardigan Bay",
+  "lat": 52.5,
+  "lon": -4.41666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-lyme-bay",
+  "category": "sea_ocean",
+  "name": "Lyme Bay",
+  "aliases": [],
+  "size": 1000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lyme Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lyme Bay",
+  "lat": 50.7,
+  "lon": -2.9,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-the-wash",
+  "category": "sea_ocean",
+  "name": "The Wash",
+  "aliases": [],
+  "size": 620,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"The Wash\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 6118,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "The Wash",
+  "lat": 52.91666667,
+  "lon": 0.25,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-galway-bay",
+  "category": "sea_ocean",
+  "name": "Galway Bay",
+  "aliases": [],
+  "size": 300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Galway Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Galway Bay",
+  "lat": 53.2,
+  "lon": -9.23333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-dublin-bay",
+  "category": "sea_ocean",
+  "name": "Dublin Bay",
+  "aliases": [],
+  "size": 70,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dublin Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dublin Bay",
+  "lat": 53.33333333,
+  "lon": -6.11666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bantry-bay",
+  "category": "sea_ocean",
+  "name": "Bantry Bay",
+  "aliases": [],
+  "size": 100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bantry Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bantry Bay",
+  "lat": 51.65,
+  "lon": -9.71666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-the-minch",
+  "category": "sea_ocean",
+  "name": "The Minch",
+  "aliases": [],
+  "size": 4200,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"The Minch\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2100,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "The Minch",
+  "lat": 58.08305556,
+  "lon": -5.99861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sea-of-the-hebrides",
+  "category": "sea_ocean",
+  "name": "Sea of the Hebrides",
+  "aliases": [],
+  "size": 10000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tyrrhenian Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 15098,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tyrrhenian Sea",
+  "lat": 40,
+  "lon": 12,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-kotor",
+  "category": "sea_ocean",
+  "name": "Bay of Kotor",
+  "aliases": [],
+  "size": 87,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Kotor\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5936,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Kotor",
+  "lat": 42.45,
+  "lon": 18.67,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-corinth",
+  "category": "sea_ocean",
+  "name": "Gulf of Corinth",
+  "aliases": [],
+  "size": 2400,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saronic Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2283,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saronic Gulf",
+  "lat": 37.7,
+  "lon": 23.6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-saronic-gulf",
+  "category": "sea_ocean",
+  "name": "Saronic Gulf",
+  "aliases": [],
+  "size": 2600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saronic Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2283,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saronic Gulf",
+  "lat": 37.7,
+  "lon": 23.6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-thermaic-gulf",
+  "category": "sea_ocean",
+  "name": "Thermaic Gulf",
+  "aliases": [],
+  "size": 3000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Thermaic Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thermaic Gulf",
+  "lat": 40.25,
+  "lon": 22.83333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-taranto",
+  "category": "sea_ocean",
+  "name": "Gulf of Taranto",
+  "aliases": [],
+  "size": 14000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Taranto\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Taranto",
+  "lat": 39.885,
+  "lon": 17.27694444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-naples",
+  "category": "sea_ocean",
+  "name": "Gulf of Naples",
+  "aliases": [],
+  "size": 870,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Naples\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2344,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Naples",
+  "lat": 40.73527778,
+  "lon": 14.27527778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-genoa",
+  "category": "sea_ocean",
+  "name": "Gulf of Genoa",
+  "aliases": [],
+  "size": 2100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Genoa\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Genoa",
+  "lat": 44.16666667,
+  "lon": 8.91666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-venice",
+  "category": "sea_ocean",
+  "name": "Gulf of Venice",
+  "aliases": [],
+  "size": 1000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Venice\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Venice",
+  "lat": 45.31666667,
+  "lon": 13,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-trieste",
+  "category": "sea_ocean",
+  "name": "Gulf of Trieste",
+  "aliases": [],
+  "size": 500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Trieste\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1522,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Trieste",
+  "lat": 45.66666667,
+  "lon": 13.58333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kvarner-gulf",
+  "category": "sea_ocean",
+  "name": "Kvarner Gulf",
+  "aliases": [],
+  "size": 1000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kvarner Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kvarner Gulf",
+  "lat": 44.9,
+  "lon": 14.6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-lion",
+  "category": "sea_ocean",
+  "name": "Gulf of Lion",
+  "aliases": [
+   "Golfe du Lion"
+  ],
+  "size": 2700,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Lion\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Lion",
+  "lat": 42.99638889,
+  "lon": 4.00027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-cadiz",
+  "category": "sea_ocean",
+  "name": "Gulf of Cadiz",
+  "aliases": [],
+  "size": 25000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Cádiz\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Cádiz",
+  "lat": 36.83333333,
+  "lon": -7.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-gdansk",
+  "category": "sea_ocean",
+  "name": "Gulf of Gdansk",
+  "aliases": [],
+  "size": 5000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gdańsk Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gdańsk Bay",
+  "lat": 54.48305556,
+  "lon": 18.95861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-pomerania",
+  "category": "sea_ocean",
+  "name": "Bay of Pomerania",
+  "aliases": [],
+  "size": 4700,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Pomerania (nature reserve)\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 18,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Pomerania (nature reserve)",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-myrtoan-sea",
+  "category": "sea_ocean",
+  "name": "Myrtoan Sea",
+  "aliases": [],
+  "size": 5000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Myrtoan Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Myrtoan Sea",
+  "lat": 37,
+  "lon": 24,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-thracian-sea",
+  "category": "sea_ocean",
+  "name": "Thracian Sea",
+  "aliases": [],
+  "size": 20000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Thracian Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thracian Sea",
+  "lat": 40.36666667,
+  "lon": 25.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-icarian-sea",
+  "category": "sea_ocean",
+  "name": "Icarian Sea",
+  "aliases": [
+   "Ikarian Sea"
+  ],
+  "size": 7000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Icarian Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Icarian Sea",
+  "lat": 37.5,
+  "lon": 26.33333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-libyan-sea",
+  "category": "sea_ocean",
+  "name": "Libyan Sea",
+  "aliases": [],
+  "size": 60000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Libyan Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1613,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Libyan Sea",
+  "lat": 34,
+  "lon": 24.4,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sea-of-sardinia",
+  "category": "sea_ocean",
+  "name": "Sea of Sardinia",
+  "aliases": [],
+  "size": 30000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sea of Sardinia\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sea of Sardinia",
+  "lat": 40,
+  "lon": 6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-sicily",
+  "category": "sea_ocean",
+  "name": "Strait of Sicily",
+  "aliases": [
+   "Sicilian Channel"
+  ],
+  "size": 30000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Sicily\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Sicily",
+  "lat": 37.2,
+  "lon": 11.2,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-pagasetic-gulf",
+  "category": "sea_ocean",
+  "name": "Pagasetic Gulf",
+  "aliases": [
+   "Pagasitic Gulf"
+  ],
+  "size": 500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pagasetic Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pagasetic Gulf",
+  "lat": 39.25,
+  "lon": 23,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-argolic-gulf",
+  "category": "sea_ocean",
+  "name": "Argolic Gulf",
+  "aliases": [],
+  "size": 2000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Argolic Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Argolic Gulf",
+  "lat": 37.33333333,
+  "lon": 22.91666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-laconian-gulf",
+  "category": "sea_ocean",
+  "name": "Laconian Gulf",
+  "aliases": [],
+  "size": 1600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Laconian Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Laconian Gulf",
+  "lat": 36.58333333,
+  "lon": 22.66666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-messenian-gulf",
+  "category": "sea_ocean",
+  "name": "Messenian Gulf",
+  "aliases": [],
+  "size": 1000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Messenian Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Messenian Gulf",
+  "lat": 36.75,
+  "lon": 22.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-ambracian-gulf",
+  "category": "sea_ocean",
+  "name": "Ambracian Gulf",
+  "aliases": [],
+  "size": 405,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ambracian Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ambracian Gulf",
+  "lat": 38.9725,
+  "lon": 20.96916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-algeciras",
+  "category": "sea_ocean",
+  "name": "Bay of Algeciras",
+  "aliases": [],
+  "size": 75,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Gibraltar\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Gibraltar",
+  "lat": 36.13,
+  "lon": -5.395,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mar-menor",
+  "category": "sea_ocean",
+  "name": "Mar Menor",
+  "aliases": [],
+  "size": 135,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mar Menor\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2405,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mar Menor",
+  "lat": 37.76666667,
+  "lon": -0.83333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-german-bight",
+  "category": "sea_ocean",
+  "name": "German Bight",
+  "aliases": [],
+  "size": 15000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"German Bight\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1492,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "German Bight",
+  "lat": 54.45388889,
+  "lon": 7.21388889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-heligoland-bight",
+  "category": "sea_ocean",
+  "name": "Heligoland Bight",
+  "aliases": [],
+  "size": 3000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Heligoland Bight\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Heligoland Bight",
+  "lat": 54.05,
+  "lon": 8.15,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-western-scheldt",
+  "category": "sea_ocean",
+  "name": "Western Scheldt",
+  "aliases": [],
+  "size": 350,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Western Scheldt\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Western Scheldt",
+  "lat": 51.4,
+  "lon": 3.71666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-eastern-scheldt",
+  "category": "sea_ocean",
+  "name": "Eastern Scheldt",
+  "aliases": [],
+  "size": 350,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eastern Scheldt\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eastern Scheldt",
+  "lat": 51.55388889,
+  "lon": 3.96583333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-saint-malo",
+  "category": "sea_ocean",
+  "name": "Gulf of Saint-Malo",
+  "aliases": [],
+  "size": 1000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Saint-Malo\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Saint-Malo",
+  "lat": 49,
+  "lon": -2.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-iroise-sea",
+  "category": "sea_ocean",
+  "name": "Iroise Sea",
+  "aliases": [],
+  "size": 3000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Iroise Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iroise Sea",
+  "lat": 48.21666667,
+  "lon": -4.8,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-quiberon-bay",
+  "category": "sea_ocean",
+  "name": "Quiberon Bay",
+  "aliases": [],
+  "size": 100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Quiberon Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Quiberon Bay",
+  "lat": 47.51666667,
+  "lon": -3,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-morbihan",
+  "category": "sea_ocean",
+  "name": "Gulf of Morbihan",
+  "aliases": [],
+  "size": 115,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Morbihan\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Morbihan",
+  "lat": 47.6,
+  "lon": -2.8,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-arcachon-bay",
+  "category": "sea_ocean",
+  "name": "Arcachon Bay",
+  "aliases": [],
+  "size": 155,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Arcachon Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Arcachon Bay",
+  "lat": 44.68333333,
+  "lon": -1.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-roses",
+  "category": "sea_ocean",
+  "name": "Gulf of Roses",
+  "aliases": [
+   "Golf de Roses"
+  ],
+  "size": 48,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Roses\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Roses",
+  "lat": 42.183,
+  "lon": 3.183,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-valencia",
+  "category": "sea_ocean",
+  "name": "Gulf of Valencia",
+  "aliases": [],
+  "size": 20000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Valencia\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Valencia",
+  "lat": 39.5,
+  "lon": 0,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-palma",
+  "category": "sea_ocean",
+  "name": "Bay of Palma",
+  "aliases": [],
+  "size": 900,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Palma\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Palma",
+  "lat": 39.48,
+  "lon": 2.64,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-cagliari",
+  "category": "sea_ocean",
+  "name": "Gulf of Cagliari",
+  "aliases": [],
+  "size": 500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Trieste\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1522,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Trieste",
+  "lat": 45.66666667,
+  "lon": 13.58333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-salerno",
+  "category": "sea_ocean",
+  "name": "Gulf of Salerno",
+  "aliases": [],
+  "size": 400,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Salerno\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Salerno",
+  "lat": 40.51666667,
+  "lon": 14.7,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-manfredonia",
+  "category": "sea_ocean",
+  "name": "Gulf of Manfredonia",
+  "aliases": [],
+  "size": 1000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Manfredonia\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Manfredonia",
+  "lat": 41.63333333,
+  "lon": 15.91666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-oresund",
+  "category": "sea_ocean",
+  "name": "Oresund",
+  "aliases": [],
+  "size": 2000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Øresund\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 6027,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Øresund",
+  "lat": 55.75,
+  "lon": 12.75,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-great-belt",
+  "category": "sea_ocean",
+  "name": "Great Belt",
+  "aliases": [],
+  "size": 2830,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Belt\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Belt",
+  "lat": 55.333,
+  "lon": 11,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-little-belt",
+  "category": "sea_ocean",
+  "name": "Little Belt",
+  "aliases": [],
+  "size": 500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Belt\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1492,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Belt",
+  "lat": 55.18333333,
+  "lon": 9.83333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-limfjord",
+  "category": "sea_ocean",
+  "name": "Limfjord",
+  "aliases": [],
+  "size": 1500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Limfjord\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Limfjord",
+  "lat": 56.94277778,
+  "lon": 9.075,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bothnian-sea",
+  "category": "sea_ocean",
+  "name": "Bothnian Sea",
+  "aliases": [],
+  "size": 79000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bothnian Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bothnian Sea",
+  "lat": 61.5,
+  "lon": 19.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-archipelago-sea",
+  "category": "sea_ocean",
+  "name": "Archipelago Sea",
+  "aliases": [],
+  "size": 8300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Archipelago Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Archipelago Sea",
+  "lat": 60.3,
+  "lon": 21,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sea-of-aland",
+  "category": "sea_ocean",
+  "name": "Sea of Aland",
+  "aliases": [],
+  "size": 7000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sea of Åland\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sea of Åland",
+  "lat": 60.16666667,
+  "lon": 19.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-curonian-lagoon",
+  "category": "sea_ocean",
+  "name": "Curonian Lagoon",
+  "aliases": [],
+  "size": 1600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Curonian Lagoon\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Curonian Lagoon",
+  "lat": 55.09277778,
+  "lon": 20.91638889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-vistula-lagoon",
+  "category": "sea_ocean",
+  "name": "Vistula Lagoon",
+  "aliases": [],
+  "size": 838,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vistula Lagoon\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vistula Lagoon",
+  "lat": 54.45,
+  "lon": 19.75,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-szczecin-lagoon",
+  "category": "sea_ocean",
+  "name": "Szczecin Lagoon",
+  "aliases": [
+   "Oder Lagoon"
+  ],
+  "size": 687,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Port of Szczecin\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port of Szczecin",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-lubeck",
+  "category": "sea_ocean",
+  "name": "Bay of Lubeck",
+  "aliases": [],
+  "size": 100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Lübeck\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Lübeck",
+  "lat": 54.15916667,
+  "lon": 11.32222222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-kiel",
+  "category": "sea_ocean",
+  "name": "Bay of Kiel",
+  "aliases": [],
+  "size": 900,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Kiel\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Kiel",
+  "lat": 54.52,
+  "lon": 10.40666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-mecklenburg",
+  "category": "sea_ocean",
+  "name": "Bay of Mecklenburg",
+  "aliases": [],
+  "size": 2000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Mecklenburg\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Mecklenburg",
+  "lat": 54.33333333,
+  "lon": 11.66666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-fehmarn-belt",
+  "category": "sea_ocean",
+  "name": "Fehmarn Belt",
+  "aliases": [],
+  "size": 80,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fehmarn Belt\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fehmarn Belt",
+  "lat": 54.56666667,
+  "lon": 11.28333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-taganrog-bay",
+  "category": "sea_ocean",
+  "name": "Taganrog Bay",
+  "aliases": [],
+  "size": 5000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Taganrog Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Taganrog Bay",
+  "lat": 46.9859,
+  "lon": 38.4494,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-karkinit-bay",
+  "category": "sea_ocean",
+  "name": "Karkinit Bay",
+  "aliases": [],
+  "size": 4270,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Karkinit Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Karkinit Bay",
+  "lat": 45.8,
+  "lon": 32.61666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-golden-horn",
+  "category": "sea_ocean",
+  "name": "Golden Horn",
+  "aliases": [],
+  "size": 2.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zolotoy Rog\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zolotoy Rog",
+  "lat": 43.10833333,
+  "lon": 131.89861111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-izmit",
+  "category": "sea_ocean",
+  "name": "Gulf of Izmit",
+  "aliases": [
+   "Izmit Bay"
+  ],
+  "size": 300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of İzmit\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of İzmit",
+  "lat": 40.74,
+  "lon": 29.65,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-antalya",
+  "category": "sea_ocean",
+  "name": "Gulf of Antalya",
+  "aliases": [],
+  "size": 30000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Antalya\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Antalya",
+  "lat": 36.5,
+  "lon": 31,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-iskenderun",
+  "category": "sea_ocean",
+  "name": "Gulf of Iskenderun",
+  "aliases": [],
+  "size": 5000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Alexandretta\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Alexandretta",
+  "lat": 36.75,
+  "lon": 36,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-izmir",
+  "category": "sea_ocean",
+  "name": "Gulf of Izmir",
+  "aliases": [],
+  "size": 500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of İzmir\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of İzmir",
+  "lat": 38.48333333,
+  "lon": 26.81666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-saros-bay",
+  "category": "sea_ocean",
+  "name": "Saros Bay",
+  "aliases": [],
+  "size": 900,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Saros\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Saros",
+  "lat": 40.55,
+  "lon": 26.46,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-gokova",
+  "category": "sea_ocean",
+  "name": "Gulf of Gokova",
+  "aliases": [],
+  "size": 1000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Gökova\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Gökova",
+  "lat": 36.99916667,
+  "lon": 28.16194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-strymonian-gulf",
+  "category": "sea_ocean",
+  "name": "Strymonian Gulf",
+  "aliases": [
+   "Strymonic Gulf"
+  ],
+  "size": 2000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strymonian Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strymonian Gulf",
+  "lat": 40.66666667,
+  "lon": 23.83333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-suez",
+  "category": "sea_ocean",
+  "name": "Gulf of Suez",
+  "aliases": [],
+  "size": 7500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Suez\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Suez",
+  "lat": 28.75,
+  "lon": 33,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-aqaba",
+  "category": "sea_ocean",
+  "name": "Gulf of Aqaba",
+  "aliases": [],
+  "size": 3680,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Aqaba\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 7458,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Aqaba",
+  "lat": 28.75,
+  "lon": 34.75,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-gabes",
+  "category": "sea_ocean",
+  "name": "Gulf of Gabes",
+  "aliases": [],
+  "size": 8000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Gabès\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Gabès",
+  "lat": 34,
+  "lon": 10.41666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-tunis",
+  "category": "sea_ocean",
+  "name": "Gulf of Tunis",
+  "aliases": [],
+  "size": 1500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Tunis\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Tunis",
+  "lat": 37,
+  "lon": 10.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-hammamet",
+  "category": "sea_ocean",
+  "name": "Gulf of Hammamet",
+  "aliases": [],
+  "size": 6000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Hammamet\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Hammamet",
+  "lat": 36.08333333,
+  "lon": 10.75,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-tadjoura",
+  "category": "sea_ocean",
+  "name": "Gulf of Tadjoura",
+  "aliases": [],
+  "size": 1400,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Tadjoura\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Tadjoura",
+  "lat": 11.7,
+  "lon": 43,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-kutch",
+  "category": "sea_ocean",
+  "name": "Gulf of Kutch",
+  "aliases": [],
+  "size": 7350,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Kutch\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Kutch",
+  "lat": 22.6,
+  "lon": 69.5,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-khambhat",
+  "category": "sea_ocean",
+  "name": "Gulf of Khambhat",
+  "aliases": [
+   "Gulf of Cambay"
+  ],
+  "size": 3120,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Khambhat\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2466,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Khambhat",
+  "lat": 21.5,
+  "lon": 72.5,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-mannar",
+  "category": "sea_ocean",
+  "name": "Gulf of Mannar",
+  "aliases": [],
+  "size": 9600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Mannar\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Mannar",
+  "lat": 8.47,
+  "lon": 79.02,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-martaban",
+  "category": "sea_ocean",
+  "name": "Gulf of Martaban",
+  "aliases": [
+   "Gulf of Mottama"
+  ],
+  "size": 10000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Martaban\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Martaban",
+  "lat": 16.52083333,
+  "lon": 97.0125,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-tonkin",
+  "category": "sea_ocean",
+  "name": "Gulf of Tonkin",
+  "aliases": [],
+  "size": 126250,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Tonkin\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3288,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Tonkin",
+  "lat": 19.75,
+  "lon": 107.75,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-laccadive-sea",
+  "category": "sea_ocean",
+  "name": "Laccadive Sea",
+  "aliases": [],
+  "size": 786000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Laccadive Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2953,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Laccadive Sea",
+  "lat": 8,
+  "lon": 75,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-bahrain",
+  "category": "sea_ocean",
+  "name": "Gulf of Bahrain",
+  "aliases": [],
+  "size": 9000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Bahrain\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Bahrain",
+  "lat": 25.69722222,
+  "lon": 50.53416667,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-masirah",
+  "category": "sea_ocean",
+  "name": "Gulf of Masirah",
+  "aliases": [],
+  "size": 4000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Masirah\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Masirah",
+  "lat": 19.91666667,
+  "lon": 58.08333333,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-tokyo-bay",
+  "category": "sea_ocean",
+  "name": "Tokyo Bay",
+  "aliases": [],
+  "size": 1320,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tokyo Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3988,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tokyo Bay",
+  "lat": 35.5225,
+  "lon": 139.91,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-osaka-bay",
+  "category": "sea_ocean",
+  "name": "Osaka Bay",
+  "aliases": [],
+  "size": 1450,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Osaka Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Osaka Bay",
+  "lat": 34.5,
+  "lon": 135.3,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-bohai-sea",
+  "category": "sea_ocean",
+  "name": "Bohai Sea",
+  "aliases": [],
+  "size": 78000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bohai Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3653,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bohai Sea",
+  "lat": 38.7,
+  "lon": 119.9,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-seto-inland-sea",
+  "category": "sea_ocean",
+  "name": "Seto Inland Sea",
+  "aliases": [
+   "Inland Sea"
+  ],
+  "size": 23000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Seto Inland Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5327,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seto Inland Sea",
+  "lat": 34.16666667,
+  "lon": 133.33333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-manila-bay",
+  "category": "sea_ocean",
+  "name": "Manila Bay",
+  "aliases": [],
+  "size": 1994,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Manila Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manila Bay",
+  "lat": 14.51666667,
+  "lon": 120.76666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-leyte-gulf",
+  "category": "sea_ocean",
+  "name": "Leyte Gulf",
+  "aliases": [],
+  "size": 8000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Leyte Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Leyte Gulf",
+  "lat": 10.8333,
+  "lon": 125.4167,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-papua",
+  "category": "sea_ocean",
+  "name": "Gulf of Papua",
+  "aliases": [],
+  "size": 70400,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Huon Gulf\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Huon Gulf",
+  "lat": -7,
+  "lon": 147.45,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-cenderawasih-bay",
+  "category": "sea_ocean",
+  "name": "Cenderawasih Bay",
+  "aliases": [
+   "Geelvink Bay"
+  ],
+  "size": 100000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cenderawasih Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cenderawasih Bay",
+  "lat": -2.5,
+  "lon": 135.33333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-puget-sound",
+  "category": "sea_ocean",
+  "name": "Puget Sound",
+  "aliases": [],
+  "size": 2600,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Puget Sound\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 25874,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Puget Sound",
+  "lat": 47.6,
+  "lon": -122.4,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-prince-william-sound",
+  "category": "sea_ocean",
+  "name": "Prince William Sound",
+  "aliases": [],
+  "size": 9000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Prince William Sound\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5236,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Prince William Sound",
+  "lat": 60.615,
+  "lon": -147.16805556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-monterey-bay",
+  "category": "sea_ocean",
+  "name": "Monterey Bay",
+  "aliases": [],
+  "size": 780,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Monterey Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5662,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monterey Bay",
+  "lat": 36.8,
+  "lon": -121.9,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-san-francisco-bay",
+  "category": "sea_ocean",
+  "name": "San Francisco Bay",
+  "aliases": [],
+  "size": 1240,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Francisco–Oakland Bay Bridge\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 12085,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Francisco–Oakland Bay Bridge",
+  "lat": 37.81805556,
+  "lon": -122.34666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-long-island-sound",
+  "category": "sea_ocean",
+  "name": "Long Island Sound",
+  "aliases": [],
+  "size": 3400,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Long Island Sound\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 7823,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Long Island Sound",
+  "lat": 41.09666667,
+  "lon": -72.88111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-delaware-bay",
+  "category": "sea_ocean",
+  "name": "Delaware Bay",
+  "aliases": [],
+  "size": 2030,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Delaware Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2709,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Delaware Bay",
+  "lat": 39.1,
+  "lon": -75.2,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-tampa-bay",
+  "category": "sea_ocean",
+  "name": "Tampa Bay",
+  "aliases": [],
+  "size": 1030,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tampa Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5753,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tampa Bay",
+  "lat": 27.7625,
+  "lon": -82.54583333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-strait-of-georgia",
+  "category": "sea_ocean",
+  "name": "Strait of Georgia",
+  "aliases": [],
+  "size": 6800,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Strait of Georgia\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3379,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Strait of Georgia",
+  "lat": 49.29416667,
+  "lon": -123.80722222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-hudson-strait",
+  "category": "sea_ocean",
+  "name": "Hudson Strait",
+  "aliases": [],
+  "size": 110000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hudson Strait\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hudson Strait",
+  "lat": 62,
+  "lon": -70,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-james-bay",
+  "category": "sea_ocean",
+  "name": "James Bay",
+  "aliases": [],
+  "size": 130000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"James Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 4962,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "James Bay",
+  "lat": 53.5,
+  "lon": -80.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-honduras",
+  "category": "sea_ocean",
+  "name": "Gulf of Honduras",
+  "aliases": [],
+  "size": 40000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Honduras\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Honduras",
+  "lat": 16.1514,
+  "lon": -88.2517,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-panama",
+  "category": "sea_ocean",
+  "name": "Gulf of Panama",
+  "aliases": [],
+  "size": 32000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Panama\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Panama",
+  "lat": 8.08642,
+  "lon": -79.28284,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-guayaquil",
+  "category": "sea_ocean",
+  "name": "Gulf of Guayaquil",
+  "aliases": [],
+  "size": 27000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Guayaquil\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Guayaquil",
+  "lat": -3,
+  "lon": -80.5,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-beagle-channel",
+  "category": "sea_ocean",
+  "name": "Beagle Channel",
+  "aliases": [],
+  "size": 1200,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Beagle Channel\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 4627,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Beagle Channel",
+  "lat": -54.8756,
+  "lon": -68.1364,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-guanabara-bay",
+  "category": "sea_ocean",
+  "name": "Guanabara Bay",
+  "aliases": [],
+  "size": 412,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Guanabara Bay\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5297,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guanabara Bay",
+  "lat": -22.79027778,
+  "lon": -43.15555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-cosmonauts-sea",
+  "category": "sea_ocean",
+  "name": "Cosmonauts Sea",
+  "aliases": [],
+  "size": 699000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cosmonauts Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cosmonauts Sea",
+  "lat": -65,
+  "lon": 45,
+  "oceans": [
+   "Southern"
+  ]
+ },
+ {
+  "id": "sea_ocean-cooperation-sea",
+  "category": "sea_ocean",
+  "name": "Cooperation Sea",
+  "aliases": [],
+  "size": 258000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cooperation Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cooperation Sea",
+  "lat": -65,
+  "lon": 72,
+  "oceans": [
+   "Southern"
+  ]
+ },
+ {
+  "id": "sea_ocean-lazarev-sea",
+  "category": "sea_ocean",
+  "name": "Lazarev Sea",
+  "aliases": [],
+  "size": 929000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lazarev Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lazarev Sea",
+  "lat": -68,
+  "lon": 7,
+  "oceans": [
+   "Southern"
+  ]
+ },
+ {
+  "id": "sea_ocean-riiser-larsen-sea",
+  "category": "sea_ocean",
+  "name": "Riiser-Larsen Sea",
+  "aliases": [],
+  "size": 1138000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Riiser-Larsen Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Riiser-Larsen Sea",
+  "lat": -68,
+  "lon": 22,
+  "oceans": [
+   "Southern"
+  ]
+ },
+ {
+  "id": "sea_ocean-somov-sea",
+  "category": "sea_ocean",
+  "name": "Somov Sea",
+  "aliases": [],
+  "size": 1150000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Somov Sea\", 60-day daily median (60 days ending 2026-09-15); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Somov Sea",
+  "lat": -67,
+  "lon": 160,
+  "oceans": [
+   "Southern"
+  ]
  }
 ]
