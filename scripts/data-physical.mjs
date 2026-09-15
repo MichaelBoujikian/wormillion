@@ -893,6 +893,303 @@ Outer Hebrides|3071|Western Isles
 Cook Islands|236
 Society Islands|1590
 Marquesas Islands|1049|Marquesas
+Falkland Islands|12173|Falklands,Islas Malvinas
+Pebble Island|113
+Saunders Island|126
+Carcass Island|18
+Weddell Island|259
+Sea Lion Island|9
+Lofoten|1233|Lofoten Islands
+Vesteralen|2500
+Andoya|489
+Kvaloya|737
+Mageroya|436
+Tromsoya|9.5
+Hitra|571
+Froya|147
+Runde|9.6
+Stord|241
+Sotra|176
+Karmoy|177
+Bygdoy|4.3
+Nordaustlandet|14443
+Bear Island|178|Bjornoya
+Jan Mayen|373
+Shetland|1466|Shetland Islands
+Orkney|990|Orkney Islands
+Hebrides|7200
+Inner Hebrides|4130
+Channel Islands|198
+Fair Isle|7.68
+Unst|120
+Yell|212
+Hoy|143
+Westray|47
+Sanday|50
+Raasay|64
+Canna|11
+Muck|2.5
+Lismore|24
+Colonsay|41
+Gigha|14
+Great Cumbrae|12
+Ailsa Craig|0.99
+Bass Rock|0.02
+Isle of May|0.57
+Ulva|19.6
+Benbecula|82
+Eriskay|9
+St Kilda|8.5|Hirta
+Skomer|2.92
+Caldey Island|2.4
+Bardsey Island|1.8
+Mersea Island|18
+Canvey Island|19
+Isle of Sheppey|93|Sheppey
+Hayling Island|10
+Portsea Island|10.5
+Brownsea Island|2
+Farne Islands|0.4
+Walney Island|12.5|Walney
+Aran Islands|46
+Inishmaan|9
+Inisheer|8
+Inishbofin|9
+Tory Island|4.75
+Arranmore|22
+Cape Clear Island|5|Cape Clear
+Dursey Island|6.5|Dursey
+Great Blasket Island|5.1|Great Blasket
+Lambay Island|2.5|Lambay
+Spike Island|1
+Ile de Re|85|Isle of Re
+Ile d'Oleron|175|Oleron
+Belle-Ile|84|Belle Ile en Mer
+Ile d'Yeu|23|Yeu
+Noirmoutier|49
+Ouessant|15.6|Ushant
+Ile de Brehat|3.09|Brehat
+Groix|14.8
+Porquerolles|12.5
+Mont-Saint-Michel|0.08|Mont Saint Michel
+Ile de la Cite|0.22
+Ile Saint-Louis|0.11
+Procida|4.26
+Ponza|9.7
+Isola del Giglio|21.2|Giglio
+Montecristo|10.4
+Murano|1.17
+Burano|0.21
+Torcello|4.5
+Lido di Venezia|15.4|Venice Lido,Lido
+Giudecca|0.55
+Salina|26.8
+Panarea|3.4
+Stromboli|12.6
+Ustica|8.65
+Favignana|19.8
+Aeolian Islands|114.8|Lipari Islands
+Egadi Islands|37.45|Egadi
+La Maddalena|20.1
+Caprera|15.7
+Asinara|52
+Tavolara|5.9
+Sant'Antioco|109
+San Pietro Island|51|Isola di San Pietro
+Tremiti Islands|3.14
+Ortigia|1|Ortygia
+Tiber Island|0.03|Isola Tiberina
+Monte Isola|5.1
+Cabrera Island|16|Isla de Cabrera,Cabrera
+Tabarca|0.3
+Cies Islands|4.33|Islas Cies
+La Graciosa|29
+Isla de Lobos|4.6|Lobos
+Faial Island|173|Faial
+Sao Jorge Island|243|Sao Jorge
+Graciosa Island|61|Graciosa
+Corvo Island|17|Corvo
+Berlengas|1.04
+Santo Antao|779
+Sao Vicente|227
+Fogo|476
+Maio|269
+Brava|64
+Sao Nicolau|343
+Bijagos Islands|12958|Bissagos Islands
+Annobon|17
+Ilheu das Rolas|3.5|Rolas Islet
+Inaccessible Island|14
+Nightingale Island|4
+Desertas Islands|14
+Selvagens Islands|2.73|Savage Islands
+Santa Maria Island|97
+Dodecanese|2714
+Ionian Islands|2200
+Sporades|476
+Skiathos|47.3
+Skopelos|96.2
+Alonnisos|64.1|Alonissos
+Skyros|209
+Thasos|380
+Samothrace|178|Samothraki
+Lemnos|477.6|Limnos
+Ikaria|255
+Leros|54
+Kalymnos|110
+Symi|58|Simi
+Nisyros|41|Nisiros
+Karpathos|300
+Kastellorizo|9.1|Megisti
+Tinos|194
+Syros|84
+Serifos|75
+Sifnos|74
+Folegandros|32
+Ios|108
+Amorgos|121
+Antiparos|35
+Koufonisia|5.3|Koufonisi
+Kythira|280|Cythera
+Antikythera|20.4|Antikithira
+Spetses|27
+Poros|50
+Aegina|83
+Salamis Island|96|Salamis
+Lefkada|303|Leucas
+Paxos|19
+Skorpios|2
+Gavdos|29
+Spinalonga|0.085
+Hvar|297
+Brac|395
+Korcula|271
+Krk|405
+Cres|406
+Pag|284
+Rab|86
+Vis|90
+Mljet|98
+Losinj|74
+Dugi Otok|113
+Lastovo|41
+Kornati|64
+Lopud|4.4
+Lokrum|0.7
+Solta|58
+Galesnjak|0.13|Lovers Island
+Sveti Stefan|0.02
+Sazan Island|5.7|Sazan
+Bled Island|0.014
+Bozcaada|38
+Gokceada|280|Imbros
+Buyukada|5.4|Prinkipo
+Princes' Islands|11|Kizil Adalar
+Cunda Island|23|Cunda,Alibey Island
+Akdamar Island|0.7|Akdamar
+Kekova|4.5
+Comino|3.5
+Fehmarn|185
+Amrum|20.5
+Fohr|82.8
+Hiddensee|18.5
+Borkum|30.8
+Norderney|26.3
+Reichenau Island|4.3|Reichenau
+Mainau|0.45
+Lindau Island|0.68|Lindau
+Herreninsel|2.3
+Museum Island|0.09|Museumsinsel
+Frisian Islands|1000
+Wadden Islands|400|West Frisian Islands
+Texel|163
+Terschelling|88
+Vlieland|35
+Ameland|58
+Schiermonnikoog|16
+Marken|2.5
+Walcheren|205
+Als|321
+Langeland|284
+Aero|88
+Fano|56
+Romo|129
+Laeso|101
+Anholt|22
+Amager|95
+Christianso|0.25
+Orust|346
+Tjorn|148
+Hisingen|199
+Faro|113
+Ven|7.5
+Sodermalm|4|Sodermalm Island
+Djurgarden|2.7
+Gamla Stan|0.36|Old Town Stockholm
+Lidingo|30.5
+Visingso|24
+Marstrand|0.94
+Gotska Sandon|36
+Suomenlinna|0.8
+Hailuoto|195
+Muhu|198
+Vormsi|93
+Kihnu|16.4
+Ruhnu|11.9
+Naissaar|18.6
+Kotelny Island|11700|Kotelny
+Severnaya Zemlya|37000
+New Siberian Islands|38400
+Franz Josef Land|16134
+Vaygach Island|3383|Vaygach
+Kolguyev Island|3200|Kolguyev
+Solovetsky Islands|347
+Kizhi|5.06
+Valaam|27.8
+Kotlin|11.6
+Vasilyevsky Island|11
+Wolin|265
+Snake Island|0.17|Zmiinyi Island
+Khortytsia|2.5|Khortytsya
+Axel Heiberg Island|43178|Axel Heiberg
+Prince of Wales Island|33339
+King William Island|13111
+Bylot Island|11067|Bylot
+Cornwallis Island|6995
+Ellef Ringnes Island|11295|Ellef Ringnes
+Disko Island|8578|Qeqertarsuaq
+South Shetland Islands|3687
+South Orkney Islands|620
+South Sandwich Islands|310
+King George Island|1150
+Livingston Island|798
+Deception Island|98.5
+Elephant Island|558
+Alexander Island|52223
+Berkner Island|44000
+Thurston Island|12760
+Siple Island|6390
+Ross Island|2431
+Adelaide Island|4463
+Anvers Island|2076
+James Ross Island|2470
+Snow Hill Island|368
+Seymour Island|347
+Paulet Island|3.5
+Peter I Island|156
+Balleny Islands|340
+Heard Island|368
+Kerguelen Islands|7215|Kerguelen
+Crozet Islands|352|Crozet
+Amsterdam Island|55
+Ile Saint-Paul|8|Saint Paul Island
+Marion Island|290
+Macquarie Island|128
+Campbell Island|113
+Auckland Islands|626
+Antipodes Islands|21
+Snares Islands|3.4
+Chatham Islands|966
 `;
 
 export const SEAS_OCEANS = `

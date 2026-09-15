@@ -1,8 +1,8 @@
 {
- "window": "60 days ending 2026-09-13",
+ "window": "60 days ending 2026-09-15",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-13T19:28:56.411Z",
+ "fetched": "2026-09-15T04:24:12.129Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -11371,6 +11371,2085 @@
    "days": 60,
    "lat": -8.9,
    "lon": -139.6
+  },
+  "island-falkland-islands": {
+   "title": "Falkland Islands",
+   "monthlyViews": 154970,
+   "days": 60,
+   "lat": -51.73,
+   "lon": -59.22
+  },
+  "island-pebble-island": {
+   "title": "Pebble Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": -51.30305556,
+   "lon": -59.62944444
+  },
+  "island-saunders-island": {
+   "title": "Saunders Island, Falkland Islands",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": -51.34277778,
+   "lon": -60.18055556
+  },
+  "island-carcass-island": {
+   "title": "Carcass Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": -51.28055556,
+   "lon": -60.5625
+  },
+  "island-weddell-island": {
+   "title": "Weddell Island",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": -51.87861111,
+   "lon": -61.00666667
+  },
+  "island-sea-lion-island": {
+   "title": "Sea Lion Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": -52.43333333,
+   "lon": -59.08333333
+  },
+  "island-lofoten": {
+   "title": "Lofoten",
+   "monthlyViews": 12693,
+   "days": 60,
+   "lat": 68.33333333,
+   "lon": 14.66666667
+  },
+  "island-vesteralen": {
+   "title": "Vesterålen",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 68.8364,
+   "lon": 14.5414
+  },
+  "island-andoya": {
+   "title": "Andøya",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 69.1678,
+   "lon": 15.8845
+  },
+  "island-kvaloya": {
+   "title": "Kvaløya (Tromsø)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 69.5759,
+   "lon": 18.3665
+  },
+  "island-mageroya": {
+   "title": "Magerøya",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 71.0335,
+   "lon": 25.8265
+  },
+  "island-tromsoya": {
+   "title": "Tromsøya",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 69.6676,
+   "lon": 18.9258
+  },
+  "island-hitra": {
+   "title": "Hitra (island)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 63.5439,
+   "lon": 8.7562
+  },
+  "island-froya": {
+   "title": "Frøya (island)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 63.70184,
+   "lon": 8.63953
+  },
+  "island-runde": {
+   "title": "Runde",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 62.4006,
+   "lon": 5.6241
+  },
+  "island-stord": {
+   "title": "Stord (island)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 59.88991,
+   "lon": 5.40104
+  },
+  "island-sotra": {
+   "title": "Sotra",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 60.2366,
+   "lon": 5.0795
+  },
+  "island-karmoy": {
+   "title": "Karmøy (island)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 59.39385,
+   "lon": 5.25323
+  },
+  "island-bygdoy": {
+   "title": "Bygdøy",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 59.90694444,
+   "lon": 10.68027778
+  },
+  "island-nordaustlandet": {
+   "title": "Nordaustlandet",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 79.8,
+   "lon": 22.4
+  },
+  "island-bear-island": {
+   "title": "Bjørnøya",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 74.44,
+   "lon": 19.0475
+  },
+  "island-jan-mayen": {
+   "title": "Jan Mayen",
+   "monthlyViews": 15524,
+   "days": 60,
+   "lat": 70.98333333,
+   "lon": -8.53333333
+  },
+  "island-shetland": {
+   "title": "Shetland",
+   "monthlyViews": 43225,
+   "days": 60,
+   "lat": 60.33333333,
+   "lon": -1.33333333
+  },
+  "island-orkney": {
+   "title": "Orkney",
+   "monthlyViews": 28674,
+   "days": 60,
+   "lat": 59,
+   "lon": -3
+  },
+  "island-hebrides": {
+   "title": "Hebrides",
+   "monthlyViews": 20121,
+   "days": 60,
+   "lat": 57,
+   "lon": -7
+  },
+  "island-inner-hebrides": {
+   "title": "Inner Hebrides",
+   "monthlyViews": 5905,
+   "days": 60,
+   "lat": 56.5,
+   "lon": -6
+  },
+  "island-channel-islands": {
+   "title": "Channel Islands",
+   "monthlyViews": 41368,
+   "days": 60,
+   "lat": 49.43,
+   "lon": -2.35
+  },
+  "island-fair-isle": {
+   "title": "Fair Isle",
+   "monthlyViews": 5631,
+   "days": 60,
+   "lat": 59.54166667,
+   "lon": -1.6225
+  },
+  "island-unst": {
+   "title": "Unst",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 60.75,
+   "lon": -0.89
+  },
+  "island-yell": {
+   "title": "Yell, Shetland",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 60.62277778,
+   "lon": -1.1
+  },
+  "island-hoy": {
+   "title": "Hoy, Orkney",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 58.85,
+   "lon": -3.3
+  },
+  "island-westray": {
+   "title": "Westray",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 59.3,
+   "lon": -3
+  },
+  "island-sanday": {
+   "title": "Sanday, Orkney",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 59.25,
+   "lon": -2.56666667
+  },
+  "island-raasay": {
+   "title": "Raasay",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 57.4,
+   "lon": -6.03333333
+  },
+  "island-canna": {
+   "title": "Canna, Scotland",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 57.06,
+   "lon": -6.55
+  },
+  "island-muck": {
+   "title": "Muck, Scotland",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 56.83416667,
+   "lon": -6.24888889
+  },
+  "island-lismore": {
+   "title": "Lismore, Scotland",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 56.51666667,
+   "lon": -5.5
+  },
+  "island-colonsay": {
+   "title": "Colonsay",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 56.06666667,
+   "lon": -6.21666667
+  },
+  "island-gigha": {
+   "title": "Gigha",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 55.68333333,
+   "lon": -5.75
+  },
+  "island-great-cumbrae": {
+   "title": "Great Cumbrae",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 55.76798,
+   "lon": -4.92029
+  },
+  "island-ailsa-craig": {
+   "title": "Ailsa Craig",
+   "monthlyViews": 4870,
+   "days": 60,
+   "lat": 55.25194444,
+   "lon": -5.11638889
+  },
+  "island-bass-rock": {
+   "title": "Bass Rock",
+   "monthlyViews": 4627,
+   "days": 60,
+   "lat": 56.07777778,
+   "lon": -2.64027778
+  },
+  "island-isle-of-may": {
+   "title": "Isle of May",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 56.18583333,
+   "lon": -2.5575
+  },
+  "island-ulva": {
+   "title": "Ulva",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 56.48027778,
+   "lon": -6.205
+  },
+  "island-benbecula": {
+   "title": "Benbecula",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 57.446,
+   "lon": -7.32
+  },
+  "island-eriskay": {
+   "title": "Eriskay",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 57.07,
+   "lon": -7.29
+  },
+  "island-st-kilda": {
+   "title": "St Kilda, Scotland",
+   "monthlyViews": 11811,
+   "days": 60,
+   "lat": 57.815,
+   "lon": -8.5875
+  },
+  "island-skomer": {
+   "title": "Skomer",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 51.7375,
+   "lon": -5.295
+  },
+  "island-caldey-island": {
+   "title": "Caldey Island",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 51.64,
+   "lon": -4.69
+  },
+  "island-bardsey-island": {
+   "title": "Bardsey Island",
+   "monthlyViews": 2831,
+   "days": 60,
+   "lat": 52.76,
+   "lon": -4.79
+  },
+  "island-mersea-island": {
+   "title": "Mersea Island",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 51.7957,
+   "lon": 0.94
+  },
+  "island-canvey-island": {
+   "title": "Canvey Island",
+   "monthlyViews": 6910,
+   "days": 60,
+   "lat": 51.525,
+   "lon": 0.5725
+  },
+  "island-isle-of-sheppey": {
+   "title": "Isle of Sheppey",
+   "monthlyViews": 7610,
+   "days": 60,
+   "lat": 51.391,
+   "lon": 0.831
+  },
+  "island-hayling-island": {
+   "title": "Hayling Island",
+   "monthlyViews": 5479,
+   "days": 60,
+   "lat": 50.80277778,
+   "lon": -0.975
+  },
+  "island-portsea-island": {
+   "title": "Portsea Island",
+   "monthlyViews": 3196,
+   "days": 60,
+   "lat": 50.81,
+   "lon": -1.07
+  },
+  "island-brownsea-island": {
+   "title": "Brownsea Island",
+   "monthlyViews": 3348,
+   "days": 60,
+   "lat": 50.69166667,
+   "lon": -1.97222222
+  },
+  "island-farne-islands": {
+   "title": "Farne Islands",
+   "monthlyViews": 3014,
+   "days": 60,
+   "lat": 55.622,
+   "lon": -1.628
+  },
+  "island-walney-island": {
+   "title": "Walney Island",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 54.103,
+   "lon": -3.252
+  },
+  "island-aran-islands": {
+   "title": "Aran Islands",
+   "monthlyViews": 9619,
+   "days": 60,
+   "lat": 53.0971,
+   "lon": -9.6326
+  },
+  "island-inishmaan": {
+   "title": "Inishmaan",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 53.085,
+   "lon": -9.59
+  },
+  "island-inisheer": {
+   "title": "Inisheer",
+   "monthlyViews": 3714,
+   "days": 60,
+   "lat": 53.05805556,
+   "lon": -9.5275
+  },
+  "island-inishbofin": {
+   "title": "Inishbofin, County Galway",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 53.61666667,
+   "lon": -10.2
+  },
+  "island-tory-island": {
+   "title": "Tory Island",
+   "monthlyViews": 3622,
+   "days": 60,
+   "lat": 55.2626,
+   "lon": -8.2168
+  },
+  "island-arranmore": {
+   "title": "Arranmore",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 54.98953,
+   "lon": -8.53089
+  },
+  "island-cape-clear-island": {
+   "title": "Cape Clear Island",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 51.43333333,
+   "lon": -9.5
+  },
+  "island-dursey-island": {
+   "title": "Dursey Island",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 51.6,
+   "lon": -10.2
+  },
+  "island-great-blasket-island": {
+   "title": "Great Blasket Island",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 52.0925,
+   "lon": -10.5425
+  },
+  "island-lambay-island": {
+   "title": "Lambay Island",
+   "monthlyViews": 3866,
+   "days": 60,
+   "lat": 53.49055556,
+   "lon": -6.015
+  },
+  "island-spike-island": {
+   "title": "Spike Island, County Cork",
+   "monthlyViews": 3440,
+   "days": 60,
+   "lat": 51.835,
+   "lon": -8.285
+  },
+  "island-ile-de-re": {
+   "title": "Île de Ré",
+   "monthlyViews": 8554,
+   "days": 60,
+   "lat": 46.2,
+   "lon": -1.41666667
+  },
+  "island-ile-d-oleron": {
+   "title": "Oléron",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 45.925,
+   "lon": -1.2825
+  },
+  "island-belle-ile": {
+   "title": "Belle Île",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 47.33333333,
+   "lon": -3.18333333
+  },
+  "island-ile-d-yeu": {
+   "title": "Île d'Yeu",
+   "monthlyViews": 5936,
+   "days": 60,
+   "lat": 46.725,
+   "lon": -2.347
+  },
+  "island-noirmoutier": {
+   "title": "Noirmoutier",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 46.96666667,
+   "lon": -2.21666667
+  },
+  "island-ouessant": {
+   "title": "Ushant",
+   "monthlyViews": 3470,
+   "days": 60,
+   "lat": 48.46111111,
+   "lon": -5.08333333
+  },
+  "island-ile-de-brehat": {
+   "title": "Île-de-Bréhat",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 48.8475,
+   "lon": -3
+  },
+  "island-groix": {
+   "title": "Groix",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 47.6394,
+   "lon": -3.4536
+  },
+  "island-porquerolles": {
+   "title": "Porquerolles",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 43,
+   "lon": 6.21666667
+  },
+  "island-mont-saint-michel": {
+   "title": "Mont-Saint-Michel",
+   "monthlyViews": 74730,
+   "days": 60,
+   "lat": 48.636,
+   "lon": -1.511
+  },
+  "island-ile-de-la-cite": {
+   "title": "Île de la Cité",
+   "monthlyViews": 7062,
+   "days": 60,
+   "lat": 48.85472222,
+   "lon": 2.3475
+  },
+  "island-ile-saint-louis": {
+   "title": "Île Saint-Louis",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 48.85166667,
+   "lon": 2.35638889
+  },
+  "island-procida": {
+   "title": "Procida",
+   "monthlyViews": 3653,
+   "days": 60,
+   "lat": 40.758333,
+   "lon": 14.016667
+  },
+  "island-ponza": {
+   "title": "Ponza",
+   "monthlyViews": 4201,
+   "days": 60,
+   "lat": 40.9075,
+   "lon": 12.9525
+  },
+  "island-isola-del-giglio": {
+   "title": "Isola del Giglio",
+   "monthlyViews": 7427,
+   "days": 60,
+   "lat": 42.355,
+   "lon": 10.905
+  },
+  "island-montecristo": {
+   "title": "Montecristo",
+   "monthlyViews": 8523,
+   "days": 60,
+   "lat": 42.33333333,
+   "lon": 10.31666667
+  },
+  "island-murano": {
+   "title": "Murano",
+   "monthlyViews": 3775,
+   "days": 60,
+   "lat": 45.4575,
+   "lon": 12.35361111
+  },
+  "island-burano": {
+   "title": "Burano",
+   "monthlyViews": 3866,
+   "days": 60,
+   "lat": 45.486,
+   "lon": 12.417
+  },
+  "island-torcello": {
+   "title": "Torcello",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 45.496565,
+   "lon": 12.417313
+  },
+  "island-lido-di-venezia": {
+   "title": "Venice Lido",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 45.40062,
+   "lon": 12.360595
+  },
+  "island-giudecca": {
+   "title": "Giudecca",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 45.425142,
+   "lon": 12.326482
+  },
+  "island-salina": {
+   "title": "Salina, Sicily",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 38.56527778,
+   "lon": 14.83333333
+  },
+  "island-panarea": {
+   "title": "Panarea",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 38.6375,
+   "lon": 15.06666667
+  },
+  "island-stromboli": {
+   "title": "Stromboli",
+   "monthlyViews": 13850,
+   "days": 60,
+   "lat": 38.79388889,
+   "lon": 15.21111111
+  },
+  "island-ustica": {
+   "title": "Ustica",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 38.70527778,
+   "lon": 13.17611111
+  },
+  "island-favignana": {
+   "title": "Favignana",
+   "monthlyViews": 6392,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-aeolian-islands": {
+   "title": "Aeolian Islands",
+   "monthlyViews": 9223,
+   "days": 60,
+   "lat": 38.53333333,
+   "lon": 14.9
+  },
+  "island-egadi-islands": {
+   "title": "Aegadian Islands",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 37.96666667,
+   "lon": 12.2
+  },
+  "island-la-maddalena": {
+   "title": "La Maddalena",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 41.21527778,
+   "lon": 9.40694444
+  },
+  "island-caprera": {
+   "title": "Caprera",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 41.207222,
+   "lon": 9.461111
+  },
+  "island-asinara": {
+   "title": "Asinara",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 41.06666667,
+   "lon": 8.26666667
+  },
+  "island-tavolara": {
+   "title": "Tavolara Island",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 40.90499,
+   "lon": 9.713686
+  },
+  "island-sant-antioco": {
+   "title": "Sant'Antioco",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 39.035,
+   "lon": 8.4125
+  },
+  "island-san-pietro-island": {
+   "title": "San Pietro Island",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 39.14555556,
+   "lon": 8.30583333
+  },
+  "island-tremiti-islands": {
+   "title": "Tremiti Islands",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 42.11666667,
+   "lon": 15.5
+  },
+  "island-ortigia": {
+   "title": "Ortygia",
+   "monthlyViews": 5357,
+   "days": 60,
+   "lat": 37.05944444,
+   "lon": 15.29305556
+  },
+  "island-tiber-island": {
+   "title": "Tiber Island",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 41.89083333,
+   "lon": 12.47722222
+  },
+  "island-monte-isola": {
+   "title": "Monte Isola",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-cabrera-island": {
+   "title": "Cabrera, Balearic Islands",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 39.14166667,
+   "lon": 2.94583333
+  },
+  "island-tabarca": {
+   "title": "Tabarca",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 38.16638889,
+   "lon": -0.48222222
+  },
+  "island-cies-islands": {
+   "title": "Cíes Islands",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 42.22333333,
+   "lon": -8.90388889
+  },
+  "island-la-graciosa": {
+   "title": "Graciosa, Canary Islands",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 29.25,
+   "lon": -13.508
+  },
+  "island-isla-de-lobos": {
+   "title": "Isla de Lobos",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-faial-island": {
+   "title": "Faial Island",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 38.5825,
+   "lon": -28.70472222
+  },
+  "island-sao-jorge-island": {
+   "title": "São Jorge Island",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 38.64472222,
+   "lon": -28.03638889
+  },
+  "island-graciosa-island": {
+   "title": "Graciosa",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 39.05138889,
+   "lon": -28.01416667
+  },
+  "island-corvo-island": {
+   "title": "Corvo Island",
+   "monthlyViews": 6879,
+   "days": 60,
+   "lat": 39.6975,
+   "lon": -31.10527778
+  },
+  "island-berlengas": {
+   "title": "Berlengas",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 39.45,
+   "lon": -9.53
+  },
+  "island-santo-antao": {
+   "title": "Santo Antão, Cape Verde",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 17.07,
+   "lon": -25.171
+  },
+  "island-sao-vicente": {
+   "title": "São Vicente, Cape Verde",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 16.85,
+   "lon": -24.96666667
+  },
+  "island-fogo": {
+   "title": "Fogo, Cape Verde",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 14.95,
+   "lon": -24.3425
+  },
+  "island-maio": {
+   "title": "Maio, Cape Verde",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 15.21666667,
+   "lon": -23.16666667
+  },
+  "island-brava": {
+   "title": "Brava, Cape Verde",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 14.86666667,
+   "lon": -24.7
+  },
+  "island-sao-nicolau": {
+   "title": "São Nicolau, Cape Verde",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 16.615,
+   "lon": -24.271
+  },
+  "island-bijagos-islands": {
+   "title": "Bijagós Islands",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 11.25,
+   "lon": -16.08333333
+  },
+  "island-annobon": {
+   "title": "Annobón",
+   "monthlyViews": 4566,
+   "days": 60,
+   "lat": -1.435,
+   "lon": 5.6375
+  },
+  "island-ilheu-das-rolas": {
+   "title": "Ilhéu das Rolas",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": -0.00388889,
+   "lon": 6.5225
+  },
+  "island-inaccessible-island": {
+   "title": "Inaccessible Island",
+   "monthlyViews": 8767,
+   "days": 60,
+   "lat": -37.3,
+   "lon": -12.68
+  },
+  "island-nightingale-island": {
+   "title": "Nightingale Island",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": -37.41944444,
+   "lon": -12.47777778
+  },
+  "island-desertas-islands": {
+   "title": "Desertas Islands",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-selvagens-islands": {
+   "title": "Savage Islands",
+   "monthlyViews": 4170,
+   "days": 60,
+   "lat": 30.14055556,
+   "lon": -15.86916667
+  },
+  "island-santa-maria-island": {
+   "title": "Santa Maria Island",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 36.97472222,
+   "lon": -25.09472222
+  },
+  "island-dodecanese": {
+   "title": "Dodecanese",
+   "monthlyViews": 12693,
+   "days": 60,
+   "lat": 36.45,
+   "lon": 27.3
+  },
+  "island-ionian-islands": {
+   "title": "Ionian Islands",
+   "monthlyViews": 16438,
+   "days": 60,
+   "lat": 37.8,
+   "lon": 20.7
+  },
+  "island-sporades": {
+   "title": "Sporades",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 39.11666667,
+   "lon": 23.71666667
+  },
+  "island-skiathos": {
+   "title": "Skiathos",
+   "monthlyViews": 6514,
+   "days": 60,
+   "lat": 39.16666667,
+   "lon": 23.48333333
+  },
+  "island-skopelos": {
+   "title": "Skopelos",
+   "monthlyViews": 6545,
+   "days": 60,
+   "lat": 39.11666667,
+   "lon": 23.71666667
+  },
+  "island-alonnisos": {
+   "title": "Alonnisos",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 39.15,
+   "lon": 23.83333333
+  },
+  "island-skyros": {
+   "title": "Skyros",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 38.8725,
+   "lon": 24.525
+  },
+  "island-thasos": {
+   "title": "Thasos",
+   "monthlyViews": 7093,
+   "days": 60,
+   "lat": 40.68333333,
+   "lon": 24.65
+  },
+  "island-samothrace": {
+   "title": "Samothrace",
+   "monthlyViews": 6545,
+   "days": 60,
+   "lat": 40.45,
+   "lon": 25.5875
+  },
+  "island-lemnos": {
+   "title": "Lemnos",
+   "monthlyViews": 10806,
+   "days": 60,
+   "lat": 39.91666667,
+   "lon": 25.25
+  },
+  "island-ikaria": {
+   "title": "Ikaria",
+   "monthlyViews": 8067,
+   "days": 60,
+   "lat": 37.58333333,
+   "lon": 26.16666667
+  },
+  "island-leros": {
+   "title": "Leros",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": 37.15,
+   "lon": 26.85
+  },
+  "island-kalymnos": {
+   "title": "Kalymnos",
+   "monthlyViews": 4170,
+   "days": 60,
+   "lat": 36.99,
+   "lon": 26.985
+  },
+  "island-symi": {
+   "title": "Symi",
+   "monthlyViews": 5571,
+   "days": 60,
+   "lat": 36.58333333,
+   "lon": 27.83333333
+  },
+  "island-nisyros": {
+   "title": "Nisyros",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 36.58333333,
+   "lon": 27.16666667
+  },
+  "island-karpathos": {
+   "title": "Karpathos",
+   "monthlyViews": 5418,
+   "days": 60,
+   "lat": 35.58333333,
+   "lon": 27.13333333
+  },
+  "island-kastellorizo": {
+   "title": "Kastellorizo",
+   "monthlyViews": 5844,
+   "days": 60,
+   "lat": 36.145,
+   "lon": 29.585
+  },
+  "island-tinos": {
+   "title": "Tinos",
+   "monthlyViews": 4718,
+   "days": 60,
+   "lat": 37.61666667,
+   "lon": 25.13333333
+  },
+  "island-syros": {
+   "title": "Syros",
+   "monthlyViews": 10228,
+   "days": 60,
+   "lat": 37.43333333,
+   "lon": 24.91666667
+  },
+  "island-serifos": {
+   "title": "Serifos",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": 37.15,
+   "lon": 24.5
+  },
+  "island-sifnos": {
+   "title": "Sifnos",
+   "monthlyViews": 3166,
+   "days": 60,
+   "lat": 36.98916667,
+   "lon": 24.66861111
+  },
+  "island-folegandros": {
+   "title": "Folegandros",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 36.61666667,
+   "lon": 24.9
+  },
+  "island-ios": {
+   "title": "Ios",
+   "monthlyViews": 13394,
+   "days": 60,
+   "lat": 36.71666667,
+   "lon": 25.33638889
+  },
+  "island-amorgos": {
+   "title": "Amorgos",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 36.85,
+   "lon": 25.9
+  },
+  "island-antiparos": {
+   "title": "Antiparos",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 37.00944444,
+   "lon": 25.06083333
+  },
+  "island-koufonisia": {
+   "title": "Koufonisia",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 36.93333333,
+   "lon": 25.6
+  },
+  "island-kythira": {
+   "title": "Kythira",
+   "monthlyViews": 7397,
+   "days": 60,
+   "lat": 36.2575,
+   "lon": 22.9975
+  },
+  "island-antikythera": {
+   "title": "Antikythera",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 35.86666667,
+   "lon": 23.3
+  },
+  "island-spetses": {
+   "title": "Spetses",
+   "monthlyViews": 4566,
+   "days": 60,
+   "lat": 37.2575,
+   "lon": 23.14
+  },
+  "island-poros": {
+   "title": "Poros",
+   "monthlyViews": 3348,
+   "days": 60,
+   "lat": 37.51666667,
+   "lon": 23.48333333
+  },
+  "island-aegina": {
+   "title": "Aegina",
+   "monthlyViews": 9010,
+   "days": 60,
+   "lat": 37.73,
+   "lon": 23.49
+  },
+  "island-salamis-island": {
+   "title": "Salamis Island",
+   "monthlyViews": 5175,
+   "days": 60,
+   "lat": 37.93333333,
+   "lon": 23.5
+  },
+  "island-lefkada": {
+   "title": "Lefkada",
+   "monthlyViews": 9802,
+   "days": 60,
+   "lat": 38.71666667,
+   "lon": 20.65
+  },
+  "island-paxos": {
+   "title": "Paxos",
+   "monthlyViews": 5388,
+   "days": 60,
+   "lat": 39.2,
+   "lon": 20.16666667
+  },
+  "island-skorpios": {
+   "title": "Skorpios",
+   "monthlyViews": 8341,
+   "days": 60,
+   "lat": 38.692,
+   "lon": 20.743
+  },
+  "island-gavdos": {
+   "title": "Gavdos",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 34.83333333,
+   "lon": 24.08333333
+  },
+  "island-spinalonga": {
+   "title": "Spinalonga",
+   "monthlyViews": 8828,
+   "days": 60,
+   "lat": 35.2975,
+   "lon": 25.73805556
+  },
+  "island-hvar": {
+   "title": "Hvar",
+   "monthlyViews": 7123,
+   "days": 60,
+   "lat": 43.15,
+   "lon": 16.75
+  },
+  "island-brac": {
+   "title": "Brač",
+   "monthlyViews": 3714,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-korcula": {
+   "title": "Korčula",
+   "monthlyViews": 6453,
+   "days": 60,
+   "lat": 42.95,
+   "lon": 16.9
+  },
+  "island-krk": {
+   "title": "Krk",
+   "monthlyViews": 4353,
+   "days": 60,
+   "lat": 45.06666667,
+   "lon": 14.6
+  },
+  "island-cres": {
+   "title": "Cres",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 44.96,
+   "lon": 14.40805556
+  },
+  "island-pag": {
+   "title": "Pag (island)",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 44.48333333,
+   "lon": 14.96666667
+  },
+  "island-rab": {
+   "title": "Rab (island)",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 44.7833,
+   "lon": 14.7519
+  },
+  "island-vis": {
+   "title": "Vis (island)",
+   "monthlyViews": 4109,
+   "days": 60,
+   "lat": 43.0425,
+   "lon": 16.1525
+  },
+  "island-mljet": {
+   "title": "Mljet",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 42.745,
+   "lon": 17.535
+  },
+  "island-losinj": {
+   "title": "Lošinj",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 44.58333333,
+   "lon": 14.4
+  },
+  "island-dugi-otok": {
+   "title": "Dugi Otok",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-lastovo": {
+   "title": "Lastovo",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 42.75,
+   "lon": 16.86666667
+  },
+  "island-kornati": {
+   "title": "Kornati",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 43.78333333,
+   "lon": 15.33333333
+  },
+  "island-lopud": {
+   "title": "Lopud",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 42.68333333,
+   "lon": 17.95
+  },
+  "island-lokrum": {
+   "title": "Lokrum",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 42.63333333,
+   "lon": 18.11666667
+  },
+  "island-solta": {
+   "title": "Šolta",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 43.37,
+   "lon": 16.31
+  },
+  "island-galesnjak": {
+   "title": "Galešnjak",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 43.97812222,
+   "lon": 15.38365
+  },
+  "island-sveti-stefan": {
+   "title": "Sveti Stefan",
+   "monthlyViews": 5571,
+   "days": 60,
+   "lat": 42.25583333,
+   "lon": 18.89111111
+  },
+  "island-sazan-island": {
+   "title": "Sazan",
+   "monthlyViews": 6545,
+   "days": 60,
+   "lat": 40.49361111,
+   "lon": 19.28055556
+  },
+  "island-bled-island": {
+   "title": "Lake Bled",
+   "monthlyViews": 11232,
+   "days": 60,
+   "lat": 46.36444444,
+   "lon": 14.09472222
+  },
+  "island-bozcaada": {
+   "title": "Tenedos",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": 39.82194444,
+   "lon": 26.02888889
+  },
+  "island-gokceada": {
+   "title": "Imbros",
+   "monthlyViews": 4262,
+   "days": 60,
+   "lat": 40.16083333,
+   "lon": 25.84444444
+  },
+  "island-buyukada": {
+   "title": "Büyükada",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 40.85777778,
+   "lon": 29.12
+  },
+  "island-princes-islands": {
+   "title": "Princes' Islands",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 40.86666667,
+   "lon": 29.1
+  },
+  "island-cunda-island": {
+   "title": "Cunda Island",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 39.36055556,
+   "lon": 26.64277778
+  },
+  "island-akdamar-island": {
+   "title": "Akdamar Island",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 38.341667,
+   "lon": 43.035278
+  },
+  "island-kekova": {
+   "title": "Kekova",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 36.18055556,
+   "lon": 29.87777778
+  },
+  "island-comino": {
+   "title": "Comino",
+   "monthlyViews": 3470,
+   "days": 60,
+   "lat": 36.01138889,
+   "lon": 14.33666667
+  },
+  "island-fehmarn": {
+   "title": "Fehmarn",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 54.4454,
+   "lon": 11.1702
+  },
+  "island-amrum": {
+   "title": "Amrum",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-fohr": {
+   "title": "Föhr",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-hiddensee": {
+   "title": "Hiddensee",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 54.54,
+   "lon": 13.09277778
+  },
+  "island-borkum": {
+   "title": "Borkum",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 53.58805556,
+   "lon": 6.66972222
+  },
+  "island-norderney": {
+   "title": "Norderney",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 53.70722222,
+   "lon": 7.14694444
+  },
+  "island-reichenau-island": {
+   "title": "Reichenau Island",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 47.69444444,
+   "lon": 9.0625
+  },
+  "island-mainau": {
+   "title": "Mainau",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 47.70555556,
+   "lon": 9.19444444
+  },
+  "island-lindau-island": {
+   "title": "Lindau (island)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 47.54555556,
+   "lon": 9.68277778
+  },
+  "island-herreninsel": {
+   "title": "Herreninsel",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 47.8625,
+   "lon": 12.3975
+  },
+  "island-museum-island": {
+   "title": "Museum Island",
+   "monthlyViews": 4931,
+   "days": 60,
+   "lat": 52.52138889,
+   "lon": 13.39555556
+  },
+  "island-frisian-islands": {
+   "title": "Frisian Islands",
+   "monthlyViews": 3166,
+   "days": 60,
+   "lat": 53.95,
+   "lon": 8.5
+  },
+  "island-wadden-islands": {
+   "title": "West Frisian Islands",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 53.36666667,
+   "lon": 5.33333333
+  },
+  "island-texel": {
+   "title": "Texel",
+   "monthlyViews": 4109,
+   "days": 60,
+   "lat": 53.05,
+   "lon": 4.8
+  },
+  "island-terschelling": {
+   "title": "Terschelling",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 53.4,
+   "lon": 5.31666667
+  },
+  "island-vlieland": {
+   "title": "Vlieland",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 53.3,
+   "lon": 5.06666667
+  },
+  "island-ameland": {
+   "title": "Ameland",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 53.45,
+   "lon": 5.76666667
+  },
+  "island-schiermonnikoog": {
+   "title": "Schiermonnikoog",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 53.49,
+   "lon": 6.225
+  },
+  "island-marken": {
+   "title": "Marken",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 52.45833333,
+   "lon": 5.10666667
+  },
+  "island-walcheren": {
+   "title": "Walcheren",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 51.52138889,
+   "lon": 3.58222222
+  },
+  "island-als": {
+   "title": "Als (island)",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 54.98333333,
+   "lon": 9.91666667
+  },
+  "island-langeland": {
+   "title": "Langeland",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 54.91666667,
+   "lon": 10.75
+  },
+  "island-aero": {
+   "title": "Ærø",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 54.88333333,
+   "lon": 10.33333333
+  },
+  "island-fano": {
+   "title": "Fanø",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 55.41416667,
+   "lon": 8.41027778
+  },
+  "island-romo": {
+   "title": "Rømø",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 55.13333333,
+   "lon": 8.51666667
+  },
+  "island-laeso": {
+   "title": "Læsø",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 57.26,
+   "lon": 11
+  },
+  "island-anholt": {
+   "title": "Anholt (island)",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 56.7125,
+   "lon": 11.56
+  },
+  "island-amager": {
+   "title": "Amager",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": 55.61666667,
+   "lon": 12.61666667
+  },
+  "island-christianso": {
+   "title": "Ertholmene",
+   "monthlyViews": 1278,
+   "days": 59,
+   "lat": 55.32,
+   "lon": 15.18777778
+  },
+  "island-orust": {
+   "title": "Orust",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 58.1736,
+   "lon": 11.62902778
+  },
+  "island-tjorn": {
+   "title": "Tjörn",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 58.01666667,
+   "lon": 11.63333333
+  },
+  "island-hisingen": {
+   "title": "Hisingen",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 57.76666667,
+   "lon": 11.88333333
+  },
+  "island-faro": {
+   "title": "Fårö",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 57.95,
+   "lon": 19.15
+  },
+  "island-ven": {
+   "title": "Ven (Sweden)",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 55.90583333,
+   "lon": 12.695
+  },
+  "island-sodermalm": {
+   "title": "Södermalm",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": 59.31305556,
+   "lon": 18.06805556
+  },
+  "island-djurgarden": {
+   "title": "Djurgården",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 59.325,
+   "lon": 18.11666667
+  },
+  "island-gamla-stan": {
+   "title": "Gamla Stan",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 59.325,
+   "lon": 18.07083333
+  },
+  "island-lidingo": {
+   "title": "Lidingö",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 59.36666667,
+   "lon": 18.15
+  },
+  "island-visingso": {
+   "title": "Visingsö",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 58.05,
+   "lon": 14.33333333
+  },
+  "island-marstrand": {
+   "title": "Marstrand",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 57.88333333,
+   "lon": 11.58333333
+  },
+  "island-gotska-sandon": {
+   "title": "Gotska Sandön",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 58.36666667,
+   "lon": 19.25
+  },
+  "island-suomenlinna": {
+   "title": "Suomenlinna",
+   "monthlyViews": 5875,
+   "days": 60,
+   "lat": 60.14361111,
+   "lon": 24.98444444
+  },
+  "island-hailuoto": {
+   "title": "Hailuoto",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 65.01666667,
+   "lon": 24.71666667
+  },
+  "island-muhu": {
+   "title": "Muhu",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 58.59611111,
+   "lon": 23.23777778
+  },
+  "island-vormsi": {
+   "title": "Vormsi",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 59,
+   "lon": 23.21666667
+  },
+  "island-kihnu": {
+   "title": "Kihnu",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 58.13,
+   "lon": 23.99
+  },
+  "island-ruhnu": {
+   "title": "Ruhnu",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 57.8,
+   "lon": 23.25
+  },
+  "island-naissaar": {
+   "title": "Naissaar",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 59.56666667,
+   "lon": 24.51666667
+  },
+  "island-kotelny-island": {
+   "title": "Kotelny Island",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 75.33333333,
+   "lon": 141
+  },
+  "island-severnaya-zemlya": {
+   "title": "Severnaya Zemlya",
+   "monthlyViews": 4292,
+   "days": 60,
+   "lat": 79.5,
+   "lon": 97.25
+  },
+  "island-new-siberian-islands": {
+   "title": "New Siberian Islands",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 75.26666667,
+   "lon": 145.25
+  },
+  "island-franz-josef-land": {
+   "title": "Franz Josef Land",
+   "monthlyViews": 10837,
+   "days": 60,
+   "lat": 81,
+   "lon": 55
+  },
+  "island-vaygach-island": {
+   "title": "Vaygach Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 69.99694444,
+   "lon": 59.57888889
+  },
+  "island-kolguyev-island": {
+   "title": "Kolguyev Island",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 69.08333333,
+   "lon": 49.25
+  },
+  "island-solovetsky-islands": {
+   "title": "Solovetsky Islands",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": 65.08333333,
+   "lon": 35.88333333
+  },
+  "island-kizhi": {
+   "title": "Kizhi Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 62.083,
+   "lon": 35.217
+  },
+  "island-valaam": {
+   "title": "Valaam",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 61.37416667,
+   "lon": 30.96083333
+  },
+  "island-kotlin": {
+   "title": "Kotlin Island",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 60.0125,
+   "lon": 29.73361111
+  },
+  "island-vasilyevsky-island": {
+   "title": "Vasilyevsky Island",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 59.94,
+   "lon": 30.26
+  },
+  "island-wolin": {
+   "title": "Wolin",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 53.91666667,
+   "lon": 14.5
+  },
+  "island-snake-island": {
+   "title": "Snake Island (Ukraine)",
+   "monthlyViews": 6605,
+   "days": 60,
+   "lat": 45.255,
+   "lon": 30.20416667
+  },
+  "island-khortytsia": {
+   "title": "Khortytsia",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 47.82,
+   "lon": 35.1
+  },
+  "island-axel-heiberg-island": {
+   "title": "Axel Heiberg Island",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 79.75,
+   "lon": -91
+  },
+  "island-prince-of-wales-island": {
+   "title": "Prince of Wales Island (Nunavut)",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 72.66666667,
+   "lon": -99
+  },
+  "island-king-william-island": {
+   "title": "King William Island",
+   "monthlyViews": 4992,
+   "days": 60,
+   "lat": 69.16666667,
+   "lon": -97.41666667
+  },
+  "island-bylot-island": {
+   "title": "Bylot Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 73.21666667,
+   "lon": -78.56666667
+  },
+  "island-cornwallis-island": {
+   "title": "Cornwallis Island (Nunavut)",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 75.13333333,
+   "lon": -95
+  },
+  "island-ellef-ringnes-island": {
+   "title": "Ellef Ringnes Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 78.5,
+   "lon": -102.25
+  },
+  "island-disko-island": {
+   "title": "Disko Island",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 69.75,
+   "lon": -53.5
+  },
+  "island-south-shetland-islands": {
+   "title": "South Shetland Islands",
+   "monthlyViews": 6240,
+   "days": 60,
+   "lat": -62,
+   "lon": -58
+  },
+  "island-south-orkney-islands": {
+   "title": "South Orkney Islands",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": -60.6,
+   "lon": -45.5
+  },
+  "island-south-sandwich-islands": {
+   "title": "South Sandwich Islands",
+   "monthlyViews": 7336,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-king-george-island": {
+   "title": "King George Island (South Shetland Islands)",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": -62.03333333,
+   "lon": -58.35
+  },
+  "island-livingston-island": {
+   "title": "Livingston Island",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": -62.6,
+   "lon": -60.5
+  },
+  "island-deception-island": {
+   "title": "Deception Island",
+   "monthlyViews": 6210,
+   "days": 60,
+   "lat": -62.95833333,
+   "lon": -60.64166667
+  },
+  "island-elephant-island": {
+   "title": "Elephant Island",
+   "monthlyViews": 5631,
+   "days": 60,
+   "lat": -61.14,
+   "lon": -55.12
+  },
+  "island-alexander-island": {
+   "title": "Alexander Island",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": -71,
+   "lon": -70
+  },
+  "island-berkner-island": {
+   "title": "Berkner Island",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": -79.5,
+   "lon": -47.5
+  },
+  "island-thurston-island": {
+   "title": "Thurston Island",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": -72.1,
+   "lon": -99
+  },
+  "island-siple-island": {
+   "title": "Siple Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": -73.85,
+   "lon": -125.83333333
+  },
+  "island-ross-island": {
+   "title": "Ross Island",
+   "monthlyViews": 3653,
+   "days": 60,
+   "lat": -77.5,
+   "lon": 168
+  },
+  "island-adelaide-island": {
+   "title": "Adelaide Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": -67.21666667,
+   "lon": -68.38333333
+  },
+  "island-anvers-island": {
+   "title": "Anvers Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": -64.55,
+   "lon": -63.58333333
+  },
+  "island-james-ross-island": {
+   "title": "James Ross Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": -64.16666667,
+   "lon": -57.75
+  },
+  "island-snow-hill-island": {
+   "title": "Snow Hill Island",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": -64.46666667,
+   "lon": -57.2
+  },
+  "island-seymour-island": {
+   "title": "Seymour Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": -64.23333333,
+   "lon": -56.61666667
+  },
+  "island-paulet-island": {
+   "title": "Paulet Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": -63.58333333,
+   "lon": -55.78333333
+  },
+  "island-peter-i-island": {
+   "title": "Peter I Island",
+   "monthlyViews": 5175,
+   "days": 60,
+   "lat": -68.85,
+   "lon": -90.58333333
+  },
+  "island-balleny-islands": {
+   "title": "Balleny Islands",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": -66.91666667,
+   "lon": 163.75
+  },
+  "island-heard-island": {
+   "title": "Heard Island and McDonald Islands",
+   "monthlyViews": 18903,
+   "days": 60,
+   "lat": -53.075,
+   "lon": 73.5
+  },
+  "island-kerguelen-islands": {
+   "title": "Kerguelen Islands",
+   "monthlyViews": 19116,
+   "days": 60,
+   "lat": -49.25,
+   "lon": 69.15
+  },
+  "island-crozet-islands": {
+   "title": "Crozet Islands",
+   "monthlyViews": 5388,
+   "days": 60,
+   "lat": -46.38,
+   "lon": 51.67
+  },
+  "island-amsterdam-island": {
+   "title": "Île Amsterdam",
+   "monthlyViews": 4566,
+   "days": 60,
+   "lat": -37.83333333,
+   "lon": 77.55
+  },
+  "island-ile-saint-paul": {
+   "title": "Île Saint-Paul",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": -38.71666667,
+   "lon": 77.51666667
+  },
+  "island-marion-island": {
+   "title": "Prince Edward Islands",
+   "monthlyViews": 7093,
+   "days": 60,
+   "lat": -46.88,
+   "lon": 37.75
+  },
+  "island-macquarie-island": {
+   "title": "Macquarie Island",
+   "monthlyViews": 12359,
+   "days": 60,
+   "lat": -54.63,
+   "lon": 158.86
+  },
+  "island-campbell-island": {
+   "title": "Campbell Island, New Zealand",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": -52.54,
+   "lon": 169.145
+  },
+  "island-auckland-islands": {
+   "title": "Auckland Islands",
+   "monthlyViews": 6819,
+   "days": 60,
+   "lat": -50.7,
+   "lon": 166.1
+  },
+  "island-antipodes-islands": {
+   "title": "Antipodes Islands",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": -49.68,
+   "lon": 178.78
+  },
+  "island-snares-islands": {
+   "title": "Snares Islands",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": -48.01666667,
+   "lon": 166.53333333
+  },
+  "island-chatham-islands": {
+   "title": "Chatham Islands",
+   "monthlyViews": 15129,
+   "days": 60,
+   "lat": -44,
+   "lon": -176.5
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

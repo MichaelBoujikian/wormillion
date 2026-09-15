@@ -117,7 +117,18 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-pacific-ocean': ['Pacific'],
   'sea_ocean-atlantic-ocean': ['Atlantic'],
   'sea_ocean-indian-ocean': ['Indian'],
-  'sea_ocean-arctic-ocean': ['Arctic']
+  'sea_ocean-arctic-ocean': ['Arctic'],
+
+  // --- islands whose article has no coordinates (2026-09-14 expansion) ---
+  'island-favignana': ['Atlantic'],
+  'island-isla-de-lobos': ['Atlantic'],
+  'island-desertas-islands': ['Atlantic'],
+  'island-brac': ['Atlantic'],
+  'island-dugi-otok': ['Atlantic'],
+  'island-amrum': ['Atlantic'],
+  'island-fohr': ['Atlantic'],
+  'island-south-sandwich-islands': ['Southern', 'Atlantic'],
+  'island-monte-isola': []
 };
 
 /** Final answer for one entry. */

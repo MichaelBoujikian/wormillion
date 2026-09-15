@@ -198,18 +198,52 @@ globalThis.WORMILLION_THEMES = {
       'Naxos', 'Paros', 'Milos', 'Kos', 'Samos', 'Chios', 'Euboea', 'Hydra',
       'Patmos', 'Delos', 'Ithaca', 'Gozo', 'Menorca', 'Mallorca', 'Ibiza',
       'Formentera', 'Elba', 'Capri', 'Ischia', 'Lampedusa', 'Pantelleria',
-      'Lipari', 'Vulcano', 'Lesbos', 'Cyclades', 'Djerba'
+      'Lipari', 'Vulcano', 'Lesbos', 'Cyclades', 'Djerba',
+      // 2026-09-14 expansion
+      'Porquerolles', 'Procida', 'Ponza', 'Isola del Giglio', 'Montecristo',
+      'Murano', 'Burano', 'Torcello', 'Lido di Venezia', 'Giudecca',
+      'Salina', 'Panarea', 'Stromboli', 'Ustica', 'Favignana',
+      'Aeolian Islands', 'Egadi Islands', 'La Maddalena', 'Caprera', 'Asinara',
+      'Tavolara', "Sant'Antioco", 'San Pietro Island', 'Tremiti Islands', 'Ortigia',
+      'Tiber Island', 'Cabrera Island', 'Tabarca', 'Dodecanese', 'Ionian Islands',
+      'Sporades', 'Skiathos', 'Skopelos', 'Alonnisos', 'Skyros',
+      'Thasos', 'Samothrace', 'Lemnos', 'Ikaria', 'Leros',
+      'Kalymnos', 'Symi', 'Nisyros', 'Karpathos', 'Kastellorizo',
+      'Tinos', 'Syros', 'Serifos', 'Sifnos', 'Folegandros',
+      'Ios', 'Amorgos', 'Antiparos', 'Koufonisia', 'Kythira',
+      'Antikythera', 'Spetses', 'Poros', 'Aegina', 'Salamis Island',
+      'Lefkada', 'Paxos', 'Skorpios', 'Gavdos', 'Spinalonga',
+      'Hvar', 'Brac', 'Korcula', 'Krk', 'Cres',
+      'Pag', 'Rab', 'Vis', 'Mljet', 'Losinj',
+      'Dugi Otok', 'Lastovo', 'Kornati', 'Lopud', 'Lokrum',
+      'Solta', 'Galesnjak', 'Sveti Stefan', 'Sazan Island', 'Bozcaada',
+      'Gokceada', 'Cunda Island', 'Kekova', 'Comino'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
       'Kefalonia', 'Naxos', 'Paros', 'Milos', 'Kos', 'Samos', 'Chios', 'Euboea',
-      'Hydra', 'Patmos', 'Delos', 'Ithaca', 'Lesbos', 'Cyclades'
+      'Hydra', 'Patmos', 'Delos', 'Ithaca', 'Lesbos', 'Cyclades',
+      // 2026-09-14 expansion
+      'Dodecanese', 'Ionian Islands', 'Sporades', 'Skiathos', 'Skopelos',
+      'Alonnisos', 'Skyros', 'Thasos', 'Samothrace', 'Lemnos',
+      'Ikaria', 'Leros', 'Kalymnos', 'Symi', 'Nisyros',
+      'Karpathos', 'Kastellorizo', 'Tinos', 'Syros', 'Serifos',
+      'Sifnos', 'Folegandros', 'Ios', 'Amorgos', 'Antiparos',
+      'Koufonisia', 'Kythira', 'Antikythera', 'Spetses', 'Poros',
+      'Aegina', 'Salamis Island', 'Lefkada', 'Paxos', 'Skorpios',
+      'Gavdos', 'Spinalonga'
     ],
     'Hawaii': ['Big Island of Hawaii', 'Maui', 'Oahu', 'Kauai', 'Molokai', 'Lanai', 'Niihau'],
     'Scotland': [
       'Isle of Skye', 'Lewis and Harris', 'Shetland Mainland', 'Orkney Mainland',
       'Mull', 'Islay', 'Jura', 'Arran', 'Bute', 'North Uist', 'South Uist',
-      'Barra', 'Tiree', 'Coll', 'Rum', 'Eigg', 'Staffa', 'Iona', 'Outer Hebrides'
+      'Barra', 'Tiree', 'Coll', 'Rum', 'Eigg', 'Staffa', 'Iona', 'Outer Hebrides',
+      // 2026-09-14 expansion
+      'Shetland', 'Orkney', 'Hebrides', 'Inner Hebrides', 'Fair Isle',
+      'Unst', 'Yell', 'Hoy', 'Westray', 'Sanday',
+      'Raasay', 'Canna', 'Muck', 'Lismore', 'Colonsay',
+      'Gigha', 'Great Cumbrae', 'Ailsa Craig', 'Bass Rock', 'Isle of May',
+      'Ulva', 'Benbecula', 'Eriskay', 'St Kilda'
     ],
     'Japan': [
       'Honshu', 'Hokkaido', 'Kyushu', 'Shikoku', 'Okinawa Island', 'Sado Island',
