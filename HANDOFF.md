@@ -317,13 +317,16 @@ by chance, not unfair).
 - **One commit per change** is the house rule; a data expansion is one commit
   per chunk or per wave, with a `[WIP]` local checkpoint after each fold so a
   session cut-off loses nothing (squash before pushing, as `39534ba` was).
-- **Sub-agents for data work: Sonnet, at most two at a time, appending to
-  their output file every ~30 rows, one category × region each.** Seven Opus
-  agents launched together all died on the session cap with zero rows; the
-  Sonnet pairs lost nothing across two more caps. Their brief is
-  `scripts/expansion/BRIEF.md`. Audit/debug agents (read-only, one report
-  each) can be Sonnet too — the two that ran cost ~300k tokens each and earned
-  it. A rate-limited agent retried a minute later usually goes through.
+- **Sub-agents default to Sonnet unless the user names a model for the job**
+  (2026-09-16: they asked for Opus on a narrow coverage check; do what they
+  say, and fall back to Sonnet when they say nothing). **For data work: at
+  most two at a time, appending to their output file every ~30 rows, one
+  category × region each.** Seven Opus agents launched together all died on
+  the session cap with zero rows; the Sonnet pairs lost nothing across two
+  more caps. Their brief is `scripts/expansion/BRIEF.md`. Audit/debug agents
+  (read-only, one report each) can be Sonnet too — the two that ran cost
+  ~300k tokens each and earned it. A rate-limited agent retried a minute
+  later usually goes through.
 - **ESM imports on Windows need `file:///C:/...` URLs** when importing a repo
   module from outside the repo; `createRequire(import.meta.url)` loads the
   classic-script modules from an `.mjs`.
