@@ -555,7 +555,7 @@
             : placeScope
               ? `${result.entry.name} isn't in ${result.scopeName} — try another.`
               : letterRule
-                ? `${W.promptBank.letterMissText(result.entry.name, letterRule)} — try another.`
+                ? `${W.promptBank.letterMissText(result.entry.name, letterRule, run.prompt().category)} — try another.`
                 : `${result.entry.name} doesn't fit this one — try another.`,
           'warn'
         );

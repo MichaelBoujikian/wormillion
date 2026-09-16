@@ -131,7 +131,22 @@
   // S in it or fails to end in A. Only a leading "the" is dropped.
   const NAME_FILLER = new Set(['the']);
   const WHOLE_NAME_CATEGORIES = new Set(['country', 'capital', 'city', 'sea_ocean']);
-  const letterFillerFor = (category) => (WHOLE_NAME_CATEGORIES.has(category) ? NAME_FILLER : LETTER_FILLER);
+  // Words that identify a place for the MATCHER (Bear Creek is not Bear River)
+  // but are generic for the LETTER rules: "Bear Creek" no more ends in K than
+  // "Lake Tahoe" ends in E. The 2026-09 US fill brought 160 creeks, and "ends
+  // in K" had become "name any creek". The reverse of `rio` (filler for
+  // matching, a letter where it is the name).
+  const LETTER_ONLY_FILLER = {
+    river: ['creek', 'bayou', 'fork', 'branch', 'run', 'brook', 'kill', 'wash', 'slough', 'arroyo', 'draw']
+  };
+  const letterFillerSets = new Map();
+  function letterFillerFor(category) {
+    if (WHOLE_NAME_CATEGORIES.has(category)) return NAME_FILLER;
+    if (!letterFillerSets.has(category)) {
+      letterFillerSets.set(category, new Set([...LETTER_FILLER, ...(LETTER_ONLY_FILLER[category] || [])]));
+    }
+    return letterFillerSets.get(category);
+  }
 
   /**
    * The spellings a LETTER rule looks at: every name and alias with the
@@ -174,12 +189,16 @@
    */
   function spellingsOf(entry) {
     const out = new Set(entry.variants);
+    const filler = letterFillerFor(entry.category);
     for (const candidate of namedSpellings(entry)) {
       const full = matching.normalize(candidate);
       if (full) out.add(full);
-      // ...and the shortest thing the matcher accepts ("Ness" for Loch Ness).
+      // ...and the shortest thing the matcher accepts ("Ness" for Loch Ness),
+      // and the letter-rule spelling ("Sugar" for Sugar Creek).
       const bare = matching.looseKey(candidate);
       if (bare) out.add(bare);
+      const trimmed = matching.looseKey(candidate, filler);
+      if (trimmed) out.add(trimmed);
     }
     return [...out];
   }
@@ -345,17 +364,39 @@
    * has no double letter", "Fuji doesn't start with M". The length rules
    * have their own hint with the count (run.js `length`).
    */
-  function letterMissText(name, rule) {
+  /**
+   * "Bear Creek has no double letter (Creek doesn't count)": when the name
+   * carries a word the letter rules ignore, the miss says so, in the name's
+   * own casing. Only for the generic-word categories; a whole-name category
+   * counts every word, so there is nothing to explain.
+   */
+  function uncountedWords(name, category) {
+    if (!category || WHOLE_NAME_CATEGORIES.has(category)) return [];
+    const filler = letterFillerFor(category);
+    const words = name.split(/\s+/);
+    return words.filter((word) => {
+      const key = matching.normalize(word);
+      return key && filler.has(key) && !['the', 'of'].includes(key);
+    });
+  }
+
+  function letterMissText(name, rule, category) {
     const L = rule.letter ? rule.letter.toUpperCase() : '';
+    const skipped = uncountedWords(name, category);
+    // A name that is all generic words keeps its full spelling (variantsOf),
+    // so nothing was skipped and nothing needs saying.
+    const note = skipped.length && skipped.length < name.split(/\s+/).length
+      ? ` (${skipped.join(' and ')} ${skipped.length > 1 ? "don't" : "doesn't"} count)`
+      : '';
     switch (rule.kind) {
       case 'contains':
-        return `${name} has no ${L} in it`;
+        return `${name} has no ${L} in it${note}`;
       case 'starts':
-        return `${name} doesn't start with ${L}`;
+        return `${name} doesn't start with ${L}${note}`;
       case 'ends':
-        return `${name} doesn't end in ${L}`;
+        return `${name} doesn't end in ${L}${note}`;
       case 'double':
-        return `${name} has no double letter`;
+        return `${name} has no double letter${note}`;
       default:
         return `${name} doesn't fit this one`;
     }
@@ -695,7 +736,8 @@
         ? (matchedKey) => {
             const full = letters(matchedKey).length;
             const trimmed = letters(matching.looseKey(matchedKey)).length;
-            if (lengthRule.ok(full) || (trimmed > 0 && lengthRule.ok(trimmed))) return null;
+            const forLetters = letters(matching.looseKey(matchedKey, letterFillerFor(slot.category))).length;
+            if (lengthRule.ok(full) || (trimmed > 0 && lengthRule.ok(trimmed)) || (forLetters > 0 && lengthRule.ok(forLetters))) return null;
             return { letters: full, need: lengthRule.need };
           }
         : null;

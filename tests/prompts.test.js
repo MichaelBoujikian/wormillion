@@ -758,6 +758,43 @@ test('a letter-rule miss says which letter is missing', () => {
   assert.strictEqual(letterMissText('Fuji', { kind: 'starts', letter: 'm' }), "Fuji doesn't start with M");
   assert.strictEqual(letterMissText('Nile', { kind: 'contains', letter: 't' }), 'Nile has no T in it');
   assert.strictEqual(letterMissText('Everest', { kind: 'ends', letter: 'a' }), "Everest doesn't end in A");
+  // ...and names the word the rule ignored, in the name's own casing
+  assert.strictEqual(letterMissText('Bear Creek', { kind: 'double' }, 'river'), "Bear Creek has no double letter (Creek doesn't count)");
+  assert.strictEqual(letterMissText('Mount Fuji', { kind: 'starts', letter: 'm' }, 'mountain'), "Mount Fuji doesn't start with M (Mount doesn't count)");
+  assert.strictEqual(letterMissText('Black Sea', { kind: 'ends', letter: 'k' }, 'sea_ocean'), "Black Sea doesn't end in K");
+  assert.strictEqual(letterMissText('Rio Grande', { kind: 'starts', letter: 'g' }, 'river'), "Rio Grande doesn't start with G");
+});
+
+test('creek, bayou, fork and branch are generic for the letter rules but not for matching', () => {
+  const bank = promptBank.createBank({
+    ...RAW,
+    rivers: [
+      ...RAW.rivers,
+      entry('river', 'Bear Creek', 40, { size: 90 }),
+      entry('river', 'Bear', 400, { size: 560, aliases: ['Bear River'] }),
+      entry('river', 'Bayou Teche', 1200, { size: 200, aliases: ['Teche'] }),
+      entry('river', 'Rock Creek', 60, { size: 100 }),
+      entry('river', 'Sugar Creek', 70, { size: 100 })
+    ]
+  });
+  const runner = require('../src/js/run.js');
+  const on = (letter, input) => {
+    const run = runner.createRun(bank, { rounds: 1 });
+    run.state.slots[0] = { category: 'river', letter };
+    return run.submit(input);
+  };
+  // Bear Creek and Bear are two rivers: the matcher keeps "creek"
+  assert.strictEqual(on({ kind: 'contains', letter: 'e' }, 'Bear Creek').entry.id, 'river-bear-creek');
+  assert.strictEqual(on({ kind: 'contains', letter: 'e' }, 'Bear').entry.id, 'river-bear');
+  // ...but "Bear Creek" no more ends in K than "Lake Tahoe" ends in E
+  assert.strictEqual(on({ kind: 'ends', letter: 'k' }, 'Bear Creek').status, 'wrong-scope');
+  assert.strictEqual(on({ kind: 'ends', letter: 'k' }, 'Rock Creek').status, 'accepted');
+  assert.strictEqual(on({ kind: 'double' }, 'Bear Creek').status, 'wrong-scope');
+  assert.strictEqual(on({ kind: 'starts', letter: 'b' }, 'Bayou Teche').status, 'wrong-scope');
+  assert.strictEqual(on({ kind: 'starts', letter: 't' }, 'Bayou Teche').status, 'accepted');
+  // length rules: the trimmed spelling counts too ("Sugar" is short), and so does the one typed
+  assert.strictEqual(on({ kind: 'short' }, 'Sugar Creek').status, 'accepted');
+  assert.strictEqual(on({ kind: 'long' }, 'Bear Creek').status, 'wrong-scope');
 });
 
 test('a sea theme says "sea" unless an ocean is actually in it (shipped bank)', () => {
