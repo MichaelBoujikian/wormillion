@@ -24,6 +24,6 @@
   "kind": "(river|tributary|stream|creek|brook|bayou|slough|arroyo|\\bfork\\b|\\brun\\b|\\bbranch\\b|\\bkill\\b|\\bwash\\b)",
   "skipTitle": "(^List of|^Geography of|^Rivers of|^Tributaries|crossings|River basin$|Watershed$|Valley$|Canyon$|Falls$|Dam$|Reservoir$|Lake$|Gorge$|Bridge$|Aqueduct$|Canal$|Trail$|Park$|Forest$|Refuge$|Township|County$|^Rio Grande Valley|Indian Reservation$)",
   "notKind": "^(reservoir|lake|dam|canal|waterfall|falls|park|glacier|bay|sound|estuary|lagoon|swamp|marsh|wetland|island|mountain|subrange|range|ridge|trail|bridge|scenic|road|highway|valley|canyon|county|city|town|village|township|neighborhood|unincorporated)",
-  "sizeProp": "P2043", "sizeUnit": "km", "minSize": 80,
+  "sizeProp": "P2043", "sizeUnit": "km", "minSize": 80, "famousViews": 1000,
   "spellings": "river"
 }

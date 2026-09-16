@@ -11,6 +11,7 @@
  *           minSize: optional floor in sizeUnit - items under it (or with no Wikidata
  *                    figure) are counted, not fetched for views, and listed apart,
  *           floorExemptSources: ['list'] exempts items a list page vouches for from the floor,
+ *           famousViews: N fetches views below the floor too and lifts items with N+ views/mo back in,
  *           spellings: 'city' | 'lake' | 'river' | 'mountain' | 'island' | 'sea' | 'desert', flagRe: regex on description to flag }
  * Prints present / fuzzy / missing (by monthly views) and writes <name>.json.
  */
@@ -194,31 +195,40 @@ for (const r of items) {
 // ---- 5. size, then views, for what isn't there -----------------------------
 // Sizes first (one Wikidata call per 50 items) so a `minSize` floor can cut the
 // list before the far slower pageview fetch; without a floor everything gets views.
+// Both are memoised per item (cache.__sizes by qid, cache.__views by title), so
+// a re-run only fetches what is new even when the batches fall differently.
 const notThere = items.filter((r) => r.status !== 'present');
 const UNIT_KM2 = { 'Q712226': 1, 'Q25343': 1e-6, 'Q35852': 0.01, 'Q232291': 2.58999, 'Q81292': 0.00404686 };
 const UNIT_KM = { 'Q828224': 1, 'Q11573': 0.001, 'Q253276': 1.609344, 'Q3710': 0.0003048 };
 const UNIT_M = { 'Q11573': 1, 'Q3710': 0.3048, 'Q828224': 1000 };
-const qids = notThere.map((r) => r.qid).filter(Boolean);
+const memoSizes = (cache.__sizes = cache.__sizes || {}); // qid -> { amount, unit } | null
+const memoViews = (cache.__views = cache.__views || {}); // title -> daily counts
+const qids = [...new Set(notThere.map((r) => r.qid).filter((q) => q && !(q in memoSizes)))];
 for (let i = 0; i < qids.length; i += 50) {
   const batch = qids.slice(i, i + 50);
   const data = await getJSON('https://www.wikidata.org/w/api.php?' + new URLSearchParams({ action: 'wbgetentities', ids: batch.join('|'), props: 'claims', format: 'json' }));
-  for (const r of notThere) {
-    const ent = r.qid && data.entities && data.entities[r.qid];
+  for (const qid of batch) {
+    const ent = data.entities && data.entities[qid];
     const claims = ent && ent.claims && ent.claims[cfg.sizeProp];
+    memoSizes[qid] = null;
     if (!claims) continue;
     // the latest dated statement wins (populations carry a point-in-time)
     const dated = claims.map((c) => ({ c, t: (c.qualifiers && c.qualifiers.P585 && c.qualifiers.P585[0].datavalue && c.qualifiers.P585[0].datavalue.value.time) || '' }));
     dated.sort((a, b) => (a.t < b.t ? 1 : -1));
     const v = dated[0].c.mainsnak && dated[0].c.mainsnak.datavalue && dated[0].c.mainsnak.datavalue.value;
-    if (!v) continue;
-    const amount = Number(v.amount);
-    const unit = (v.unit || '').split('/').pop();
-    if (cfg.sizeUnit === 'population') r.size = Math.round(amount);
-    else if (cfg.sizeUnit === 'km2') r.size = UNIT_KM2[unit] ? Math.round(amount * UNIT_KM2[unit] * 100) / 100 : null;
-    else if (cfg.sizeUnit === 'm') r.size = UNIT_M[unit] ? Math.round(amount * UNIT_M[unit]) : null;
-    else r.size = UNIT_KM[unit] ? Math.round(amount * UNIT_KM[unit]) : (unit === '1' ? Math.round(amount) : null);
-    if (r.size != null) r.sizeSource = 'wikidata';
+    if (v) memoSizes[qid] = { amount: Number(v.amount), unit: (v.unit || '').split('/').pop() };
   }
+}
+if (qids.length) await writeFile(CACHE_FILE, JSON.stringify(cache));
+for (const r of notThere) {
+  const s = r.qid && memoSizes[r.qid];
+  if (!s) continue;
+  const { amount, unit } = s;
+  if (cfg.sizeUnit === 'population') r.size = Math.round(amount);
+  else if (cfg.sizeUnit === 'km2') r.size = UNIT_KM2[unit] ? Math.round(amount * UNIT_KM2[unit] * 100) / 100 : null;
+  else if (cfg.sizeUnit === 'm') r.size = UNIT_M[unit] ? Math.round(amount * UNIT_M[unit]) : null;
+  else r.size = UNIT_KM[unit] ? Math.round(amount * UNIT_KM[unit]) : (unit === '1' ? Math.round(amount) : null);
+  if (r.size != null) r.sizeSource = 'wikidata';
 }
 // A second pass after article-size.mjs: its cross-checked figure (the article's
 // infobox first, Wikidata second) replaces Wikidata's, and fills in where
@@ -239,29 +249,43 @@ const belowFloor = MIN_SIZE == null ? [] : notThere.filter((r) => r.size != null
 const noFigure = MIN_SIZE == null ? [] : notThere.filter((r) => r.size == null && !exempt(r));
 for (const r of belowFloor) r.floor = 'below';
 for (const r of noFigure) r.floor = 'no-figure';
-const wantViews = notThere.filter((r) => !r.floor);
-if (MIN_SIZE != null) console.log(`floor ${MIN_SIZE} ${cfg.sizeUnit}: ${wantViews.length} over it, ${belowFloor.length} below, ${noFigure.length} with no Wikidata figure`);
-const viewsByTitle = new Map();
-for (let i = 0; i < wantViews.length; i += 50) {
-  const batch = wantViews.slice(i, i + 50);
+// `famousViews: N` fetches views for the below-floor items too, and lifts any with
+// N+ views a month back into scope: a short river everyone looks up (the Mystic) is an answer
+const FAMOUS = cfg.famousViews == null ? null : Number(cfg.famousViews);
+const wantViews = notThere.filter((r) => !r.floor || (FAMOUS != null && r.floor === 'below'));
+if (MIN_SIZE != null) console.log(`floor ${MIN_SIZE} ${cfg.sizeUnit}: ${wantViews.length} over it, ${belowFloor.length} below, ${noFigure.length} with no figure`);
+const needViews = wantViews.filter((r) => !(r.finalTitle in memoViews));
+for (let i = 0; i < needViews.length; i += 50) {
+  const batch = needViews.slice(i, i + 50);
   let cont = {};
   let guard = 0;
+  const got = new Map();
   do {
     const data = await api({ prop: 'pageviews', pvipdays: '60', titles: batch.map((r) => r.finalTitle).join('|'), ...cont });
     for (const p of data.query.pages || []) {
       const days = Object.values(p.pageviews || {}).filter((v) => typeof v === 'number');
-      if (days.length) viewsByTitle.set(p.title, days);
+      if (days.length) got.set(p.title, days);
     }
     cont = data.continue ? { pvipcontinue: data.continue.pvipcontinue, continue: data.continue.continue } : null;
   } while (cont && ++guard < 60);
-  if ((i / 50) % 10 === 9) console.log(`  views: ${Math.min(i + 50, wantViews.length)} / ${wantViews.length}`);
+  for (const r of batch) memoViews[r.finalTitle] = got.get(r.finalTitle) || [];
+  if ((i / 50) % 10 === 9 || i + 50 >= needViews.length) {
+    await writeFile(CACHE_FILE, JSON.stringify(cache));
+    console.log(`  views: ${Math.min(i + 50, needViews.length)} / ${needViews.length}`);
+  }
 }
 for (const r of wantViews) {
-  const days = viewsByTitle.get(r.finalTitle) || [];
+  const days = memoViews[r.finalTitle] || [];
   const sorted = days.slice().sort((a, b) => a - b);
   const med = sorted.length ? sorted[Math.floor(sorted.length / 2)] : 0;
   const mean = days.length ? days.reduce((a, b) => a + b, 0) / days.length : 0;
   r.views = days.length ? Math.max(1, Math.round((med || mean) * 30.44)) : null;
+}
+
+if (FAMOUS != null) {
+  let lifted = 0;
+  for (const r of belowFloor) if ((r.views || 0) >= FAMOUS) { r.floor = null; r.famous = true; lifted++; }
+  console.log(`famous: ${lifted} below-floor items with ${FAMOUS}+ views/mo lifted back into scope`);
 }
 
 // ---- 6. report --------------------------------------------------------------
@@ -272,7 +296,7 @@ const fuzzy = items.filter((r) => r.status === 'fuzzy' && inScope(r));
 const missing = items.filter((r) => r.status === 'missing' && inScope(r));
 const fmtSize = (r) => (r.size == null ? '' : cfg.sizeUnit === 'population' ? r.size.toLocaleString('en-US') : `${r.size} ${cfg.sizeUnit}`);
 const flag = (r) => (FLAG && FLAG.test(r.description) ? ' [' + cfg.flagLabel + ']' : '');
-const floorNote = MIN_SIZE == null ? '' : `; below the ${MIN_SIZE} ${cfg.sizeUnit} floor ${belowFloor.length}, no figure ${noFigure.length}`;
+const floorNote = MIN_SIZE == null ? '' : `; below the ${MIN_SIZE} ${cfg.sizeUnit} floor ${belowFloor.filter((r) => !r.famous).length}${FAMOUS != null ? ` (+${belowFloor.filter((r) => r.famous).length} famous, kept)` : ''}, no figure ${noFigure.length}`;
 console.log(`\n==== ${cfg.name}: ${items.length} articles; present ${present.length}, name taken by another entry ${taken.length}, fuzzy ${fuzzy.length}, missing ${missing.length}${floorNote} ====`);
 console.log(`\n==== NAME TAKEN (${taken.length}) - typing the name lands on a different place ====`);
 for (const r of taken.sort((a, b) => (b.views || 0) - (a.views || 0))) console.log(`  ${String(r.views ?? '').padStart(7)} views/mo  ${fmtSize(r).padStart(12)}  ${r.finalTitle.padEnd(38)} ${r.note}${flag(r)}`);
@@ -287,8 +311,14 @@ if (noFigure.length) {
   for (const r of noFigure.sort((a, b) => a.finalTitle.localeCompare(b.finalTitle))) console.log(`  ${r.finalTitle.padEnd(40)} ${r.status.padEnd(8)} ${r.description}`);
 }
 if (belowFloor.length) {
-  const traps = belowFloor.filter((r) => r.status === 'fuzzy');
-  console.log(`\n==== BELOW FLOOR (${belowFloor.length}; ${traps.length} of them would autocorrect elsewhere) ====`);
+  const lifted = belowFloor.filter((r) => r.famous);
+  if (lifted.length) {
+    console.log(`
+==== BELOW FLOOR BUT FAMOUS (${lifted.length}; ${FAMOUS}+ views/mo, kept in scope) ====`);
+    for (const r of lifted.sort((a, b) => (b.views || 0) - (a.views || 0))) console.log(`  ${String(r.views ?? '').padStart(7)} views/mo  ${fmtSize(r).padStart(12)}  ${r.finalTitle.padEnd(38)} ${r.status}`);
+  }
+  const traps = belowFloor.filter((r) => r.status === 'fuzzy' && !r.famous);
+  console.log(`\n==== BELOW FLOOR (${belowFloor.length - lifted.length}; ${traps.length} of them would autocorrect elsewhere) ====`);
   for (const r of traps.sort((a, b) => (b.size || 0) - (a.size || 0))) console.log(`  ${fmtSize(r).padStart(12)}  ${r.finalTitle.padEnd(38)} ${r.how}`);
 }
 console.log(`\n==== SKIPPED (${skipped.length}) ====`);
