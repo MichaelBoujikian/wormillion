@@ -142,6 +142,53 @@ test('a generic word adds no spelling budget', () => {
   assert.strictEqual(matching.matchAnswer('Mni River', rivers, new Set()).status, 'unrecognized', 'three letters get no slack even with the word');
 });
 
+test('a hit on the whole name beats a hit on a stripped form at the same distance', () => {
+  // "Lotse" is one edit from Lhotse and one edit from the bare "lose" of
+  // Lose Hill; the whole-name hit wins rather than tying and refusing.
+  const peaks = matching.buildLookup([
+    { id: 'mountain-lhotse', name: 'Lhotse', aliases: [] },
+    { id: 'mountain-lose-hill', name: 'Lose Hill', aliases: [] },
+    { id: 'mountain-mont-blanc', name: 'Mont Blanc', aliases: [] },
+    { id: 'mountain-blanca-peak', name: 'Blanca Peak', aliases: [] }
+  ]);
+  assert.strictEqual(matching.matchAnswer('Lotse', peaks, new Set()).entryId, 'mountain-lhotse');
+  assert.strictEqual(matching.matchAnswer('Mount Blanc', peaks, new Set()).entryId, 'mountain-mont-blanc');
+  // Two whole-name hits at the same distance are still a coin flip.
+  assert.strictEqual(matching.matchAnswer('Marinx', matching.buildLookup([
+    { id: 'a', name: 'Marino', aliases: [] },
+    { id: 'b', name: 'Marina', aliases: [] }
+  ]), new Set()).status, 'unrecognized');
+});
+
+test('a generic word the player typed and the entry carries is worth one edit', () => {
+  // "fugi" alone is four letters and gets no slack; "Mount Fugi" says what
+  // kind of place is meant, and Mount Fuji carries the same word.
+  const geo = matching.buildLookup([
+    { id: 'mountain-fuji', name: 'Mount Fuji', aliases: [] },
+    { id: 'lake-como', name: 'Lake Como', aliases: [] },
+    { id: 'sea-black', name: 'Black Sea', aliases: [] },
+    { id: 'lake-uvs', name: 'Uvs Lake', aliases: [] }
+  ]);
+  assert.strictEqual(matching.matchAnswer('Mount Fugi', geo, new Set()).entryId, 'mountain-fuji');
+  assert.strictEqual(matching.matchAnswer('Lake Komo', geo, new Set()).entryId, 'lake-como');
+  assert.strictEqual(matching.matchAnswer('Blak Sea', geo, new Set()).entryId, 'sea-black');
+  // One edit, not two: "Ivo Lake" is not Uvs Lake, and "Fugi" alone is nothing.
+  assert.strictEqual(matching.matchAnswer('Ivo Lake', geo, new Set()).status, 'unrecognized');
+  assert.strictEqual(matching.matchAnswer('Fugi', geo, new Set()).status, 'unrecognized');
+});
+
+test('the stripped-form comparison can be switched off (the cross-category nudge)', () => {
+  const rivers = matching.buildLookup([{ id: 'river-niger', name: 'Niger River', aliases: [] }]);
+  assert.strictEqual(matching.matchAnswer('Nigera', rivers, new Set()).entryId, 'river-niger');
+  assert.strictEqual(matching.matchAnswer('Nigera', rivers, new Set(), { bare: false }).status, 'unrecognized');
+});
+
+test('"Rio" is a generic word for matching, so "Rio Sinu" finds Sinu without an alias', () => {
+  const rivers = matching.buildLookup([{ id: 'river-sinu', name: 'Sinu', aliases: [] }]);
+  assert.strictEqual(matching.matchAnswer('Rio Sinu', rivers, new Set()).entryId, 'river-sinu');
+  assert.strictEqual(matching.looseKey('Río Magdalena'), 'magdalena');
+});
+
 test('a typo is corrected whether or not the generic word is typed', () => {
   const peaks = matching.buildLookup([{ id: 'mountain-kilimanjaro', name: 'Mount Kilimanjaro', aliases: [] }]);
   for (const typed of ['Mount Kilimanjro', 'Kilimanjro', 'Mt Kilimanjro']) {

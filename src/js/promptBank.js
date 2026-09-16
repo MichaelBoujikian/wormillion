@@ -120,8 +120,10 @@
   // a word that IS the name stays: "Loch Ness" starts with L, "Saint Lucia"
   // starts with S, "Cape Verde" starts with C - "loch" is not the word "lake",
   // whatever it means, and no "Cape" in this bank is a generic one.
+  // "Rio" is generic Spanish for river, but it is the name where it is the
+  // name: the Rio Grande starts with R, like Loch Ness starts with L.
   const LETTER_FILLER = new Set(
-    [...matching.FILLER].filter((word) => !['loch', 'lough', 'llyn', 'saint', 'st', 'cape'].includes(word))
+    [...matching.FILLER].filter((word) => !['loch', 'lough', 'llyn', 'saint', 'st', 'cape', 'rio'].includes(word))
   );
   // A country's or capital's name is its official name, generic words and
   // all: the Solomon Islands have a D in them, Port of Spain has an F, Mexico
@@ -147,7 +149,14 @@
   function variantsOf(entry) {
     const out = new Set();
     const filler = letterFillerFor(entry.category);
+    // An alias that is the name with generic words added or taken away ("Rio
+    // Bogota" for Bogota, "River Mersey" for Mersey) is a typing convenience,
+    // not another spelling: it must not make Bogota start with R. A whole-name
+    // category keeps every alias (New York City is also New York).
+    const conveniences = !WHOLE_NAME_CATEGORIES.has(entry.category);
+    const nameBare = matching.looseKey(entry.name);
     for (const candidate of namedSpellings(entry)) {
+      if (conveniences && candidate !== entry.name && matching.looseKey(candidate) === nameBare) continue;
       const bare = matching.looseKey(candidate, filler);
       if (bare) out.add(bare);
     }

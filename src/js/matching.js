@@ -39,9 +39,11 @@
   // lets "Everest", "Mount Everest" and "Mt Everest" all land on one entry.
   const FILLER = new Set([
     'mount', 'mt', 'mountain', 'peak', 'hill', 'lake', 'loch', 'lough', 'llyn',
-    'river', 'sea', 'ocean', 'gulf', 'bay', 'island', 'islands', 'isle', 'isles',
+    'river', 'rio', 'sea', 'ocean', 'gulf', 'bay', 'island', 'islands', 'isle', 'isles',
     'desert', 'the', 'of', 'city', 'saint', 'st', 'cape', 'atoll'
   ]);
+  /** The generic words in a normalized key, in order. */
+  const fillerIn = (key) => key.split(' ').filter((w) => FILLER.has(w));
 
   /**
    * The identifying words of a name, filler removed. Empty if it is all filler.
@@ -116,7 +118,7 @@
         if (!lookup.has(key)) lookup.set(key, entry.id);
         const bare = looseKey(candidate);
         // The fuzzy pass compares the filler-stripped forms too (see nearest).
-        candidates.push({ key, bare: bare || key, id: entry.id });
+        candidates.push({ key, bare: bare || key, filler: fillerIn(key), id: entry.id });
 
         if (!bare || bare === key) return;
         if (!claims.has(bare)) claims.set(bare, []);
@@ -158,40 +160,58 @@
    * it into Lake Vanern - a player naming a lake the bank lacks is refused,
    * not sent to another country. Both the full strings and their
    * filler-stripped forms are compared, so "Mount Kilimanjro" still corrects
-   * to Mount Kilimanjaro, and so does "Kilimanjro" on its own.
+   * to Mount Kilimanjaro, and so does "Kilimanjro" on its own. Two
+   * refinements: a hit on the full string beats a hit on the stripped form
+   * at the same distance ("Lotse" is Lhotse, not a tie with Lose Hill), and
+   * a generic word typed AND carried by the candidate is worth one edit even
+   * for a four-letter name ("Mount Fugi" is Mount Fuji; three get nothing) - what the player
+   * said they were naming is evidence. `options.bare === false` skips the
+   * stripped-form comparison (the cross-category nudge uses it: a river's
+   * bare name one edit from a misspelt country is not a nudge).
    */
-  function nearest(key, lookup) {
+  function nearest(key, lookup, options) {
     const candidates = lookup.candidates;
     if (!candidates) return null;
+    const useBare = !options || options.bare !== false;
     const bare = looseKey(key) || key;
-    if (bare.length < 4) return null;
+    const typedFiller = fillerIn(key);
     const max = slackFor(bare.length);
-    if (max === 0) return null;
+    const sharedWordMax = typedFiller.length && bare.length >= 4 ? 1 : 0;
+    if (max === 0 && sharedWordMax === 0) return null;
 
-    let bestDistance = max + 1;
+    // A score is the distance doubled, plus one for a stripped-form hit, so
+    // the full-string hit wins a tie and everything else ties as before.
+    let bestScore = Infinity;
     let winners = [];
 
     for (const candidate of candidates) {
-      let distance = editDistance(key, candidate.key, max);
-      if (bare !== key || candidate.bare !== candidate.key) {
-        distance = Math.min(distance, editDistance(bare, candidate.bare, max));
+      const shares = sharedWordMax > 0 && candidate.filler.some((w) => typedFiller.includes(w));
+      const fullMax = Math.max(max, shares ? sharedWordMax : 0);
+      let score = Infinity;
+      if (fullMax > 0) {
+        const d = editDistance(key, candidate.key, fullMax);
+        if (d <= fullMax) score = d * 2;
       }
-      if (distance > max) continue;
-      if (distance < bestDistance) {
-        bestDistance = distance;
+      if (useBare && max > 0 && (bare !== key || candidate.bare !== candidate.key)) {
+        const d = editDistance(bare, candidate.bare, max);
+        if (d <= max) score = Math.min(score, d * 2 + 1);
+      }
+      if (score === Infinity) continue;
+      if (score < bestScore) {
+        bestScore = score;
         winners = [candidate];
-      } else if (distance === bestDistance && !winners.some((w) => w.id === candidate.id)) {
+      } else if (score === bestScore && !winners.some((w) => w.id === candidate.id)) {
         winners.push(candidate);
       }
     }
 
     // Two different places equally close is not a typo, it's a coin flip.
     if (winners.length !== 1) return null;
-    return { id: winners[0].id, key: winners[0].key, distance: bestDistance };
+    return { id: winners[0].id, key: winners[0].key, distance: bestScore >> 1 };
   }
 
   /**
-   * @param {{fuzzy?:boolean, loose?:boolean}} [options]  pass `false` to skip that pass
+   * @param {{fuzzy?:boolean, loose?:boolean, bare?:boolean}} [options]  pass `false` to skip that pass (`bare`: the fuzzy pass's stripped-form comparison)
    * @returns {{status:'accepted',entryId:string,matched:string}
    *          |{status:'corrected',entryId:string,typed:string,matched:string}
    *          |{status:'duplicate',entryId:string}
@@ -223,7 +243,7 @@
     }
 
     if (!options || options.fuzzy !== false) {
-      const near = nearest(key, lookup);
+      const near = nearest(key, lookup, options);
       if (near) return settle(near.id, 'corrected', { typed: rawInput.trim(), matched: near.key });
     }
 

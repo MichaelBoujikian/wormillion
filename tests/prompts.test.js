@@ -412,6 +412,30 @@ test('an initialism alias is for typing, not for letter rules', () => {
   assert.ok(promptBank.satisfiesLetter(uae, { kind: 'ends', letter: 's' }));
 });
 
+test('a "Rio X" alias is for typing: Bogota does not start with R, but the Rio Grande does', () => {
+  const bogota = { category: 'river', name: 'Bogota', aliases: ['Rio Bogota'] };
+  bogota.variants = promptBank.variantsOf(bogota);
+  assert.deepStrictEqual(bogota.variants, ['bogota']);
+  assert.ok(!promptBank.satisfiesLetter(bogota, { kind: 'starts', letter: 'r' }));
+  assert.ok(!promptBank.satisfiesLetter(bogota, { kind: 'contains', letter: 'i' }));
+  // "Rio" is the name where it is the name, like "Loch" in Loch Ness.
+  const grande = { category: 'river', name: 'Rio Grande', aliases: ['Rio Bravo'] };
+  grande.variants = promptBank.variantsOf(grande);
+  assert.ok(promptBank.satisfiesLetter(grande, { kind: 'starts', letter: 'r' }));
+  assert.ok(grande.variants.includes('rio bravo'), 'a different name is still a spelling');
+  // The shipped bank: the reveal for "starts with R" is a river that starts with R.
+  const shipped = loadShippedBank();
+  const rule = { category: 'river', letter: { kind: 'starts', letter: 'r' } };
+  const on = () => {
+    const r = runner.createRun(shipped, { rounds: 1 });
+    r.state.slots[0] = rule;
+    return r;
+  };
+  assert.strictEqual(on().submit('Magdalena').status, 'wrong-scope');
+  assert.strictEqual(on().submit('Rio Grande').status, 'accepted');
+  assert.ok(/^r/i.test(runner.rarestFor(shipped.promptFor(rule)).name.replace(/^the /i, '')));
+});
+
 test('a digit is a character: K2 starts with K, has a K, does not end in K', () => {
   const k2 = bank.cohorts.get('mountain').byId.get('mountain-k2');
   assert.ok(promptBank.satisfiesLetter(k2, { kind: 'starts', letter: 'k' }));

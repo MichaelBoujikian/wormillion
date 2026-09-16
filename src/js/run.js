@@ -88,10 +88,13 @@
      * and loose hits only when `exactOnly` - a fuzzy near-miss in another
      * category is not evidence of anything. An exact name in any category
      * beats a loose one in any other, whatever order the cohorts come in:
-     * "Lake Victoria" is the lake, not the capital of the Seychelles.
+     * "Lake Victoria" is the lake, not the capital of the Seychelles. The
+     * fuzzy pass here compares whole names only (`bare: false`): "Nigera"
+     * on a country round is a refused tie between Nigeria and Niger, not
+     * "Niger River is a river".
      */
     function elsewhere(rawInput, category, exactOnly) {
-      for (const options of [{ loose: false, fuzzy: false }, { fuzzy: !exactOnly }]) {
+      for (const options of [{ loose: false, fuzzy: false }, { fuzzy: !exactOnly, bare: false }]) {
         for (const [other, cohort] of bank.cohorts) {
           if (other === category) continue;
           const hit = matching.matchAnswer(rawInput, cohort.lookup, null, options);

@@ -302,7 +302,8 @@ Three guards keep it from being a cheat: short names get no slack at all; if
 two different places tie for closest the answer is rejected rather than guessed;
 and the edit budget comes from the name proper, not the generic word around it
 ("Lake Tåkern" gets the one edit of "Tåkern", so a lake the bank lacks is
-refused rather than corrected to Lake Vänern).
+refused rather than corrected to Lake Vänern — though a generic word you typed
+that the entry also carries is worth one edit, so "Mount Fugi" is still Fuji).
 
 ## Decisions this build made beyond SPEC.md
 
