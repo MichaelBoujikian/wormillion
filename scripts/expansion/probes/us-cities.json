@@ -1,0 +1,12 @@
+{
+  "name": "us-cities",
+  "category": "city",
+  "jsonFile": "cities.json",
+  "roots": [],
+  "lists": ["List of United States cities by population", "List of largest cities of U.S. states and territories by population"],
+  "kind": "(city|town|municipality|county seat|consolidated city-county|borough|village|census-designated place)",
+  "skipTitle": "(^List of|metropolitan|statistical|combined|urban area|County$|Puerto Rico|Guam|Virgin Islands|Samoa|Mariana|^Washington, D[.]C[.]$|^United States|Census|Demographics|^New York [(]state[)]$)",
+  "sizeProp": "P1082", "sizeUnit": "population",
+  "spellings": "city",
+  "flagRe": "state capital|capital of|capital city", "flagLabel": "state capital"
+}

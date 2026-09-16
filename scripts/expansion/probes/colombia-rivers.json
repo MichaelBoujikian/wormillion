@@ -1,0 +1,12 @@
+{
+  "name": "colombia-rivers",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": ["Category:Rivers of Colombia"],
+  "subcat": "^Category:(Rivers|Tributaries) of .*(Colombia|Department)",
+  "lists": ["List of rivers of Colombia"],
+  "kind": "(river|tributary|stream|creek|^Río |^Rio |Caño|Quebrada)",
+  "skipTitle": "(^List of|^Geography of|^Colombia$|^Department|natural region$|canal$)",
+  "sizeProp": "P2043", "sizeUnit": "km",
+  "spellings": "river"
+}

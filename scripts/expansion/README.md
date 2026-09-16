@@ -41,3 +41,17 @@ for a quick look; `append-row.mjs BLOCK 'row'` appends one row to a
 Wikipedia throttles: the resolvers sleep between batches and back off on 429;
 a category pass over a few hundred problems takes tens of minutes, so run it
 in the background and never two at once (they share `work/titles-cache.json`).
+
+## Coverage probes (2026-09-15)
+
+`node scripts/expansion/probe.mjs scripts/expansion/probes/<name>.json` asks
+"does the bank have every <category> of <country> that English Wikipedia
+has?": it walks a category tree and/or the links of list pages, resolves
+redirects and descriptions, pushes every article through the game's matcher
+(`matchAnswer` on the cohort, exact/loose first) and checks `wikiTitle`, then
+fetches views and a Wikidata size for what is missing. It prints four lists:
+present, name taken by another entry, missing-but-*autocorrected-to-somewhere-
+else*, and missing. Three configs and their reports (`reports/2026-09-15-*`)
+show the shape; copy one for a new country × category. Output and the API
+cache go to `work/` (gitignored). Wikipedia throttles: never run it alongside
+`fetch-pageviews` or `auto-titles`.

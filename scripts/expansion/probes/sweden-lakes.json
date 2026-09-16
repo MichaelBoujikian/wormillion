@@ -1,0 +1,12 @@
+{
+  "name": "sweden-lakes",
+  "category": "lake",
+  "jsonFile": "lakes.json",
+  "roots": ["Category:Lakes of Sweden"],
+  "subcat": "^Category:Lakes of .*(County|Sweden)",
+  "lists": ["List of lakes of Sweden", "List of lakes in Sweden"],
+  "kind": "(lake|reservoir|lagoon|sjön|träsk|sjö\\b|^Lake )",
+  "skipTitle": "(^List of|^Lakes of|^Geography of)",
+  "sizeProp": "P2046", "sizeUnit": "km2",
+  "spellings": "lake"
+}
