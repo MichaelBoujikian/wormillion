@@ -298,8 +298,11 @@ would reject a correct one. The build fails if a country has no row.
    names of 4 characters or fewer, 1 for 5–7, 2 for 8–11, 3 beyond), reported
    back so the UI can show `Kilimanjro → Kilimanjaro`
 
-Two guards keep it from being a cheat: short names get no slack at all, and if
-two different places tie for closest the answer is rejected rather than guessed.
+Three guards keep it from being a cheat: short names get no slack at all; if
+two different places tie for closest the answer is rejected rather than guessed;
+and the edit budget comes from the name proper, not the generic word around it
+("Lake Tåkern" gets the one edit of "Tåkern", so a lake the bank lacks is
+refused rather than corrected to Lake Vänern).
 
 ## Decisions this build made beyond SPEC.md
 

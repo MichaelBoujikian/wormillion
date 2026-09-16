@@ -21,19 +21,12 @@ probes (see "Coverage probes" below).
 The user ran three coverage probes before buying Netlify time (see "Coverage
 probes"). Colombia's rivers were added; these were reported and not decided:
 
-- **US non-capital cities:** add the ~230 missing (populations from Wikidata
-  via `probe.mjs`, `fold.mjs` takes the cities format)? Sub-questions: are
-  the five NYC boroughs cities (Brooklyn draws 164k views/mo)? Do the small
-  US state capitals join the `city` cohort too (today "Albany" on a city
-  round gets "Albany is a capital city — this round wants a non-capital
-  city", which is the wrong hint; v1.2 only added the big ones)?
-- **Sweden's lakes:** add the 25 over 30 km² (+ `Scandinavia` theme), or all
-  188 down to the Stockholm ponds?
-- **The fuzzy-trap matcher change:** ~3/4 of river/lake autocorrect traps
-  come from the filler word inflating the edit budget ("Lake Tåkern" → Lake
-  Vänern, "Sinú River" → Min River). Proposed: fuzzy on the filler-stripped
-  key with slack from the stripped length. Changes SPEC 3.7; `tests/matching`
-  will say what it breaks. Not done — the user cares about autocorrect.
+- ~~US non-capital cities~~ — done: 249 added incl. Brooklyn, Queens, The
+  Bronx and the last five state capitals; Manhattan and Staten Island stay
+  islands (the city rules forbid a city that is an island name), 45
+  name-taken cities not added.
+- ~~Sweden's lakes~~ — done: the 24 over 30 km², Scandinavia theme.
+- ~~The fuzzy-trap matcher change~~ — done 2026-09-15 evening (SPEC 3.7).
 
 Both priorities named on 2026-09-14 are done:
 **more places** (the bank is 4.4× bigger) and **bug hunting** (two audit
@@ -433,9 +426,11 @@ by chance, not unfair).
 
 - **Fuzzy matching stays.** The user asked for autocorrect-style matching
   ("sahra → Sahara is exactly what I want"); it's guarded (no slack ≤4 chars,
-  ties rejected, no substring matching), and an exact name anywhere beats a
-  correction anywhere. SPEC 3.6/3.7. A tie that now refuses ("Tames") is the
-  guard working, not a regression to patch around.
+  ties rejected, no substring matching, and since 2026-09-15 the budget comes
+  from the filler-stripped name so "Lake Tåkern" can't buy its way to Lake
+  Vänern), and an exact name anywhere beats a correction anywhere. SPEC
+  3.6/3.7. A tie that now refuses ("Tames") is the guard working, not a
+  regression to patch around.
 - **Filler is optional in both directions, and initialisms are for typing
   only.** "Everest" finds Mount Everest *and* "Mount Denali" finds Denali. A
   2–4-letter all-caps alias (NYC, UAE, SF) never feeds a letter or length rule.

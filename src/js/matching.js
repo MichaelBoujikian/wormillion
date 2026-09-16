@@ -114,9 +114,10 @@
         const key = normalize(candidate);
         if (!key) return;
         if (!lookup.has(key)) lookup.set(key, entry.id);
-        candidates.push({ key, id: entry.id });
-
         const bare = looseKey(candidate);
+        // The fuzzy pass compares the filler-stripped forms too (see nearest).
+        candidates.push({ key, bare: bare || key, id: entry.id });
+
         if (!bare || bare === key) return;
         if (!claims.has(bare)) claims.set(bare, []);
         claims.get(bare).push({ id: entry.id, fromName: i === 0 });
@@ -150,18 +151,31 @@
   /**
    * Closest candidate to `key`, or null when nothing is close enough or two
    * candidates are equally close (an ambiguous near-miss is not a correction).
+   *
+   * The edit budget comes from the name proper, not the generic word around
+   * it: "Lake Takern" gets the slack of "takern" (one edit), not of "lake
+   * takern" (two), so the word "Lake" cannot buy the edits that would turn
+   * it into Lake Vanern - a player naming a lake the bank lacks is refused,
+   * not sent to another country. Both the full strings and their
+   * filler-stripped forms are compared, so "Mount Kilimanjro" still corrects
+   * to Mount Kilimanjaro, and so does "Kilimanjro" on its own.
    */
   function nearest(key, lookup) {
     const candidates = lookup.candidates;
-    if (!candidates || key.length < 4) return null;
-    const max = slackFor(key.length);
+    if (!candidates) return null;
+    const bare = looseKey(key) || key;
+    if (bare.length < 4) return null;
+    const max = slackFor(bare.length);
     if (max === 0) return null;
 
     let bestDistance = max + 1;
     let winners = [];
 
     for (const candidate of candidates) {
-      const distance = editDistance(key, candidate.key, max);
+      let distance = editDistance(key, candidate.key, max);
+      if (bare !== key || candidate.bare !== candidate.key) {
+        distance = Math.min(distance, editDistance(bare, candidate.bare, max));
+      }
       if (distance > max) continue;
       if (distance < bestDistance) {
         bestDistance = distance;

@@ -123,6 +123,37 @@ test('nonsense is still nonsense', () => {
   assert.strictEqual(matching.matchAnswer('Zzzzzzzzzz', lookup, new Set()).status, 'unrecognized');
 });
 
+test('a generic word adds no spelling budget', () => {
+  // "Lake Takern" is two edits from "Lake Vanern" and would have been
+  // corrected to it when the bank had no Takern; the budget now comes from
+  // "takern" (six letters, one edit), so a lake the bank lacks is refused
+  // rather than sent to another country. Same for "Sinu River" -> "Min River".
+  const lakes = matching.buildLookup([
+    { id: 'lake-vanern', name: 'Lake Vanern', aliases: [] },
+    { id: 'lake-ilmen', name: 'Lake Ilmen', aliases: [] }
+  ]);
+  assert.strictEqual(matching.matchAnswer('Lake Takern', lakes, new Set()).status, 'unrecognized');
+  assert.strictEqual(matching.matchAnswer('Lake Immeln', lakes, new Set()).status, 'unrecognized');
+  // ...while a real typo in the name proper still corrects, with or without the word.
+  assert.strictEqual(matching.matchAnswer('Lake Vanren', lakes, new Set()).entryId, 'lake-vanern');
+  assert.strictEqual(matching.matchAnswer('Vanren', lakes, new Set()).entryId, 'lake-vanern');
+  const rivers = matching.buildLookup([{ id: 'river-min', name: 'Min (Sichuan)', aliases: ['Min River'] }]);
+  assert.strictEqual(matching.matchAnswer('Sinu River', rivers, new Set()).status, 'unrecognized');
+  assert.strictEqual(matching.matchAnswer('Mni River', rivers, new Set()).status, 'unrecognized', 'three letters get no slack even with the word');
+});
+
+test('a typo is corrected whether or not the generic word is typed', () => {
+  const peaks = matching.buildLookup([{ id: 'mountain-kilimanjaro', name: 'Mount Kilimanjaro', aliases: [] }]);
+  for (const typed of ['Mount Kilimanjro', 'Kilimanjro', 'Mt Kilimanjro']) {
+    const result = matching.matchAnswer(typed, peaks, new Set());
+    assert.strictEqual(result.status, 'corrected', typed);
+    assert.strictEqual(result.entryId, 'mountain-kilimanjaro', typed);
+  }
+  // The other way round too: the bank's row is bare and the player adds the word.
+  const bare = matching.buildLookup([{ id: 'mountain-denali', name: 'Denali', aliases: [] }]);
+  assert.strictEqual(matching.matchAnswer('Mount Denalli', bare, new Set()).entryId, 'mountain-denali');
+});
+
 test('filler words are optional in both directions', () => {
   const geo = matching.buildLookup([
     { id: 'mountain-everest', name: 'Mount Everest', aliases: [] },
