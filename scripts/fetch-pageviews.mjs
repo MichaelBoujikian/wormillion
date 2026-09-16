@@ -42,7 +42,9 @@ const EXPECTED = {
     // American ones as "Place in…"/"Municipio", Maltese ones as "Local council", resorts as such
     'comune', 'municipio', 'local council', 'resort', 'quarter', 'castello', 'place in', 'census-designated'],
   lake: ['lake', 'loch', 'llyn', 'reservoir', 'lagoon', 'body of water', 'endorheic', 'sea', 'water'],
-  river: ['river', 'stream', 'tributary', 'waterway', 'watercourse'],
+  river: ['river', 'stream', 'tributary', 'waterway', 'watercourse',
+    // the 2026-09 US scouring: Wikidata describes American streams as creeks, bayous, forks, runs, brooks
+    'creek', 'bayou', 'brook', 'fork', 'branch', 'slough', 'arroyo', 'run in', 'kill in', 'wash in', 'water course'],
   mountain: ['mountain', 'peak', 'summit', 'hill', 'volcano', 'massif', 'mount', 'highest', 'ridge', 'butte', 'mesa', 'monolith', 'crag', 'fell', 'point', 'elevation', 'cliff', 'high'],
   desert: ['desert', 'sand', 'dune', 'arid', 'erg', 'steppe', 'area', 'region', 'plain'],
   island: ['island', 'isle', 'archipelago', 'atoll', 'islet', 'countr', 'territory', 'landmass'],

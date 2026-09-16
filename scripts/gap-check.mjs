@@ -28,7 +28,10 @@ const EXPECTED = {
     // the 2026-09-14 expansion: rivers players reported missing
     'Hudson', 'Potomac', 'Tennessee', 'Fraser', 'Magdalena', 'Okavango', 'Garonne', 'Neckar', 'Mersey', 'Tyne', 'Warta', 'Irtysh', 'Kaveri', 'Murrumbidgee', 'Rio de la Plata',
     // the 2026-09-15 Colombia probe (scripts/expansion/reports/2026-09-15-colombia-rivers.md)
-    'Cano Cristales', 'Catatumbo', 'Sinu', 'Bogota River', 'Cauca', 'Caqueta'],
+    'Cano Cristales', 'Catatumbo', 'Sinu', 'Bogota River', 'Cauca', 'Caqueta',
+    // the 2026-09-16 US rivers scouring (scripts/expansion/reports/2026-09-16-us-rivers.md)
+    'Red River of the North', 'French Broad', 'Green River', 'Kanawha', 'Des Moines River', 'Catawba', 'Youghiogheny', 'Androscoggin',
+    'Yazoo', 'Black Warrior', 'Clinch', 'Kissimmee', 'Sheyenne', 'Cedar River', 'Frio', 'Tug Fork', 'Bayou Teche', 'Little Bighorn', 'Ocoee', 'Toccoa'],
   mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna',
     // the 2026-09-14 expansion
     'Mount Rushmore', 'Devils Tower', 'Kilauea', 'Mount Adams', 'Fitz Roy', 'Torres del Paine', 'Cradle Mountain', 'Mount Aspiring', 'Popocatepetl', 'Arenal', 'Monch', 'Nanda Devi', 'Rakaposhi', 'Sakurajima', 'Mount Kailash', 'Tryfan', 'Croagh Patrick', 'Nyiragongo', 'Hekla', 'Eyjafjallajokull', 'Mount Meru'],
