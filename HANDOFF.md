@@ -63,10 +63,10 @@ almost every name exists somewhere, whether the review screen's rarest answers
 are places a player will believe. Play three runs with `?debug` (see "Driving
 the game from JS") before touching anything else, and write down what felt off.
 
-## 2. Netlify: one deploy, then verify
+## 2. ~~Netlify: one deploy, then verify~~ — done 2026-09-15 evening (see "Netlify: unfrozen")
 
-Netlify has been frozen on the account-wide usage cap since 2026-09-13 and is
-still serving `e881c8a`. **Measured 2026-09-15 evening (not assumed):** the
+The measurements below are kept for the record. Netlify was frozen on the
+account-wide usage cap from 2026-09-13 and served `e881c8a` until then. **Measured 2026-09-15 evening (not assumed):** the
 server's draw fingerprint comes from the old bank (recomputing dailies with
 the `e881c8a` bank reproduces every live fingerprint exactly); the shipped
 bank happens to draw the same prompt texts on some days — dig #4 matched,
@@ -143,7 +143,26 @@ on disk is the pre-expansion bundle — `npm run bundle` will make a ~1.4 MB one
 
 # State of the world
 
-## ⚠ Netlify is frozen (as of 2026-09-13)
+## Netlify: unfrozen and verified on the new bank (2026-09-15, ~20:30 PDT)
+
+The user bought the month; Netlify built `604ec41` and then `1eaa3fb`.
+Verified live: bank.js 1,260,546 bytes and the new matcher served; function
+cold start 0.7 s with the 1.2 MB bank; `daily-stats` returns 15 prompts;
+the server's draw for 2026-09-16 is the new bank's `400faed7`; CORS
+preflight from the Pages origin OK; a closed day is 409 `closed`, a stale
+draw 409 `draw-mismatch`, an unfitting answer 400 `round 1: unrecognized`;
+and a full daily played in the browser on the Netlify URL (dig #4, digger
+#123) submitted and showed "Better than 56% of 123 diggers today". One real
+bug found and fixed on the spot (`1eaa3fb`): curl checks with no Origin
+had primed the 60 s edge cache with a CORS-less copy of `daily-stats`,
+and the Pages copy's cross-origin fetch failed until `Vary: Origin` became
+unconditional — re-verified from the Pages origin afterwards. Known wart:
+dig #5's (2026-09-16) aggregate was created under the old bank (draw
+`aac244b0`, 10 submissions) and now takes new-bank submissions, so its
+per-round lines mix two prompt sets for that one day; #6 onward is clean.
+**Plan step 1 is done; step 2 (the user turns auto-deploy off) is next.**
+
+## (history) Netlify was frozen 2026-09-13 → 2026-09-15
 
 The user's Netlify account hit an account-wide usage cap ("production deploys
 and agent runners are paused") — unrelated to this repo or to Claude Code.
@@ -173,8 +192,8 @@ and agent runners are paused") — unrelated to this repo or to Claude Code.
 ## Green as of 2026-09-15 late evening
 
 `npm test` 180 · `npm run validate` 9,300 entries · `npm run gap-check` 338
-obvious answers all land. Working tree clean, everything pushed. **Netlify
-still serves `e881c8a`; the next deploy is the user's call (plan step 1).**
+obvious answers all land. Working tree clean, everything pushed; **Netlify
+serves `1eaa3fb`** (verified, see "Netlify: unfrozen").
 
 **Bank:** 197 countries · 247 capitals · 2,781 cities · 790 lakes · 2,249
 rivers · 1,309 mountains · 129 deserts · 1,345 islands · 253 seas = **9,300**
