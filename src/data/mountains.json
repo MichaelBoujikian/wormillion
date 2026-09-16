@@ -1989,7 +1989,9 @@
   "id": "mountain-grays-peak",
   "category": "mountain",
   "name": "Grays Peak",
-  "aliases": [],
+  "aliases": [
+   "Greys Peak"
+  ],
   "size": 4352,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Grays Peak\", 60-day daily median (60 days ending 2026-09-16); Standard reference summit elevations (m)",

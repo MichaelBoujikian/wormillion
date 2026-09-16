@@ -2096,7 +2096,9 @@
   "id": "island-mackinac-island",
   "category": "island",
   "name": "Mackinac Island",
-  "aliases": [],
+  "aliases": [
+   "Mackinaw Island"
+  ],
   "size": 9.8,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Mackinac Island\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",

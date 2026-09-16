@@ -107,7 +107,7 @@ Bala Lake|4.4|Llyn Tegid
 Lake Louise|0.8
 Dead Sea|605
 Sea of Galilee|166|Lake Tiberias,Kinneret
-Lake Mead|640
+Lake Mead|640|Lake Meade
 Lake Powell|653
 Lake Havasu|79
 Lake George|114
@@ -140,7 +140,7 @@ Lake Braies|0.31|Pragser Wildsee,Lago di Braies,Braies
 Lake Misurina|0.7|Misurina
 Plitvice Lakes|2|Plitvice
 Laguna Colorada|60|Red Lagoon
-Lake Edward|2325|Edward
+Lake Edward|2325|Edward,Lake Edwards
 Lake Naivasha|139|Naivasha
 Lake Nakuru|45|Nakuru
 Lake Assal|54|Assal
@@ -457,7 +457,7 @@ Mille Lacs Lake|536
 Leech Lake|468
 Red Lake|1160
 Lake Itasca|4.7
-Lake Vermilion|163
+Lake Vermilion|163|Lake Vermillion
 Lake Pepin|91
 Devils Lake|350
 Lake Sakakawea|1520
@@ -826,7 +826,7 @@ Purus|3211
 Yukon|3190|Yukon River
 Rio Grande|3051|Rio Bravo,Rio Bravo del Norte
 Saint Lawrence|3058|St Lawrence
-Sao Francisco|2914
+Sao Francisco|2914|San Francisco
 Volga|3531|Volga River
 Indus|3180|Indus River
 Danube|2850|the Danube
@@ -3074,21 +3074,21 @@ Des Moines|845
 Patuxent|185
 Yazoo|303
 Chattooga|92
-Bayou Teche|200
+Bayou Teche|200|Teche
 Black Warrior|286
 Duck|457
 Indian|195
 Tug Fork|256
-Bayou Lafourche|171
+Bayou Lafourche|171|Lafourche
 Caloosahatchee|121
-North Canadian|1287
+North Canadian|710-1287
 Huron|210
 Ocoee|150|Toccoa,Ocoee River,Toccoa River
 Wounded Knee Creek|80
 Saco|219
 Saint Louis|309
 Withlacoochee|227
-Clinch|483
+Clinch|483-542
 Bayou Bartholomew|586
 Holston|219
 Yadkin|346
@@ -3582,7 +3582,6 @@ Redwood|205
 Rockcastle|89
 Sabinal|93
 Salamonie|136
-San Francisco|256
 Sanpoil|95
 Scott|97
 Shell Rock|182
@@ -3604,7 +3603,6 @@ Walnut|248
 West Walker|153
 Wynoochee|97
 Yalobusha|190
-Yellow House Draw|130
 Alamosa|103
 Alatna|233
 Aravaipa Creek|89
@@ -3801,7 +3799,6 @@ Bearpaw|89
 Beaucoup Creek|132
 Belt Creek|129
 Big Creek|356
-Big Satilla|418
 Birch Creek|241
 Bonpas Creek|93
 Brady Creek|145
@@ -3830,11 +3827,10 @@ Fifteenmile Creek|87
 First Broad|101
 Flatrock Creek|92
 Forest|130
-Fourche Maline|1127
+Fourche Maline|113
 Frenchman Creek|267
 Goose|288
 Henderson Creek|104
-Herbert Run|665
 Hogatza|190
 Holitna|180
 Horse Creek|208
@@ -3861,7 +3857,6 @@ Little Rock|120
 Little Vermilion|96
 Little White|377
 Little Wind|80
-McKinley|93
 Meade|404
 Melozitna|217
 Middle Fork John Day|118
@@ -3869,7 +3864,6 @@ Middle Nodaway|96
 Minam|82
 Mosquito Creek|97
 Mulberry Creek|93
-Munuscong|512
 New Fork|113
 Nigu|113
 Niukluk|84
@@ -4137,7 +4131,7 @@ Mount Harvard|4395
 Blanca Peak|4374
 La Plata Peak|4370
 Uncompahgre Peak|4361
-Grays Peak|4352
+Grays Peak|4352|Greys Peak
 Torreys Peak|4349
 Quandary Peak|4348
 Mount Blue Sky|4348|Mount Evans
@@ -5571,7 +5565,7 @@ Nantucket|124
 Key West|19
 Santa Catalina Island|194|Catalina Island
 Kodiak Island|9311|Kodiak
-Mackinac Island|9.8
+Mackinac Island|9.8|Mackinaw Island
 Isle Royale|535
 Galveston Island|209
 Roanoke Island|47

@@ -337,7 +337,9 @@
   "id": "river-sao-francisco",
   "category": "river",
   "name": "Sao Francisco",
-  "aliases": [],
+  "aliases": [
+   "San Francisco"
+  ],
   "size": 2914,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"São Francisco River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -33654,7 +33656,9 @@
   "id": "river-bayou-teche",
   "category": "river",
   "name": "Bayou Teche",
-  "aliases": [],
+  "aliases": [
+   "Teche"
+  ],
   "size": 200,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Bayou Teche\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -33722,7 +33726,9 @@
   "id": "river-bayou-lafourche",
   "category": "river",
   "name": "Bayou Lafourche",
-  "aliases": [],
+  "aliases": [
+   "Lafourche"
+  ],
   "size": 171,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Bayou Lafourche\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -33751,9 +33757,13 @@
   "category": "river",
   "name": "North Canadian",
   "aliases": [],
-  "size": 1287,
+  "size": 710,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"North Canadian River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "sizeRange": [
+   710,
+   1287
+  ],
   "magnitude": 1157,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "North Canadian River",
@@ -33856,6 +33866,10 @@
   "size": 483,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Clinch River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "sizeRange": [
+   483,
+   542
+  ],
   "magnitude": 1065,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Clinch River",
@@ -40721,20 +40735,6 @@
   "lon": -85.7177603
  },
  {
-  "id": "river-san-francisco",
-  "category": "river",
-  "name": "San Francisco",
-  "aliases": [],
-  "size": 256,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"San Francisco River (Gila River tributary)\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 122,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "San Francisco River (Gila River tributary)",
-  "lat": 32.9761743,
-  "lon": -109.3720169
- },
- {
   "id": "river-sanpoil",
   "category": "river",
   "name": "Sanpoil",
@@ -41027,20 +41027,6 @@
   "wikiTitle": "Yalobusha River",
   "lat": 33.5525,
   "lon": -90.18083333
- },
- {
-  "id": "river-yellow-house-draw",
-  "category": "river",
-  "name": "Yellow House Draw",
-  "aliases": [],
-  "size": 130,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Yellow House Draw\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 122,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yellow House Draw",
-  "lat": 33.59277778,
-  "lon": -101.83388889
  },
  {
   "id": "river-alamosa",
@@ -43779,20 +43765,6 @@
   "lon": -98.91944444
  },
  {
-  "id": "river-big-satilla",
-  "category": "river",
-  "name": "Big Satilla",
-  "aliases": [],
-  "size": 418,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Big Satilla River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Big Satilla River",
-  "lat": 31.440025,
-  "lon": -83.00677778
- },
- {
   "id": "river-birch-creek",
   "category": "river",
   "name": "Birch Creek",
@@ -44187,7 +44159,7 @@
   "category": "river",
   "name": "Fourche Maline",
   "aliases": [],
-  "size": 1127,
+  "size": 113,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Fourche Maline (Oklahoma stream)\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 30,
@@ -44237,20 +44209,6 @@
   "wikiTitle": "Henderson Creek (Illinois)",
   "lat": 40.8753161,
   "lon": -91.0306991
- },
- {
-  "id": "river-herbert-run",
-  "category": "river",
-  "name": "Herbert Run",
-  "aliases": [],
-  "size": 665,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Herbert Run\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Herbert Run",
-  "lat": 39.22096,
-  "lon": -76.68996
  },
  {
   "id": "river-hogatza",
@@ -44615,20 +44573,6 @@
   "lon": -108.35333333
  },
  {
-  "id": "river-mckinley",
-  "category": "river",
-  "name": "McKinley",
-  "aliases": [],
-  "size": 93,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"McKinley River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "McKinley River",
-  "lat": 63.86638889,
-  "lon": -151.55555556
- },
- {
   "id": "river-meade",
   "category": "river",
   "name": "Meade",
@@ -44725,20 +44669,6 @@
   "wikiTitle": "Mulberry Creek (Red River tributary)",
   "lat": 34.612655,
   "lon": -100.875232
- },
- {
-  "id": "river-munuscong",
-  "category": "river",
-  "name": "Munuscong",
-  "aliases": [],
-  "size": 512,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Munuscong River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Munuscong River",
-  "lat": 46.20666667,
-  "lon": -84.25
  },
  {
   "id": "river-new-fork",

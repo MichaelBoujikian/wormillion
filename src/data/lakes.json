@@ -1492,7 +1492,9 @@
   "id": "lake-lake-mead",
   "category": "lake",
   "name": "Lake Mead",
-  "aliases": [],
+  "aliases": [
+   "Lake Meade"
+  ],
   "size": 640,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Lake Mead\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -1999,7 +2001,8 @@
   "category": "lake",
   "name": "Lake Edward",
   "aliases": [
-   "Edward"
+   "Edward",
+   "Lake Edwards"
   ],
   "size": 2325,
   "sizeUnit": "area_km2",
@@ -6574,7 +6577,9 @@
   "id": "lake-lake-vermilion",
   "category": "lake",
   "name": "Lake Vermilion",
-  "aliases": [],
+  "aliases": [
+   "Lake Vermillion"
+  ],
   "size": 163,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Lake Vermilion\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",

@@ -109,10 +109,11 @@ function amountOf(value, fieldUnit) {
   let v = value.replace(/<ref[^>]*\/>/g, '').replace(/<ref[\s\S]*?<\/ref>/g, '').replace(/<!--[\s\S]*?-->/g, '').replace(/\{\{(?:efn|sfn|cn|citation needed|refn)[^}]*\}\}/gi, '');
   let m = /\{\{\s*(?:convert|cvt)\s*\|\s*([\d,.]+)\s*(?:\|\s*(?:to|-|–|and)\s*\|\s*[\d,.]+\s*)?\|\s*([a-zA-Z0-9²]+(?: [a-z]+)?)/i.exec(v);
   if (m) return [num(m[1]), m[2].toLowerCase()];
-  m = /([\d][\d,.]*)\s*(?:&nbsp;|\s)*(km2|km²|sq mi|mi2|mi²|sqmi|acres?|ha|km|mi|miles?|kilomet(?:er|re)s?|ft|feet|foot|m)\b/i.exec(v);
+  m = /(\d[\d,.]*|\.\d+)\s*(?:&nbsp;|\s)*(km2|km²|sq mi|mi2|mi²|sqmi|acres?|ha|km|mi|miles?|kilomet(?:er|re)s?|ft|feet|foot|m)\b/i.exec(v);
   if (m) return [num(m[1]), m[2].toLowerCase()];
   if (fieldUnit) {
-    m = /([\d][\d,.]*)/.exec(v);
+    // a leading dot is a number too: Herbert Run's "length_mi = .413" once read as 413
+    m = /(\d[\d,.]*|\.\d+)/.exec(v);
     if (m) return [num(m[1]), fieldUnit];
   }
   return null;
