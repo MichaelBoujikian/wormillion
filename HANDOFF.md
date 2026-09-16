@@ -38,7 +38,7 @@ Decisions the user took 2026-09-15 (late), all in one message:
    Wales Island AK…) stay out; no comma-form or parenthetical names.
 5. **Audits on Opus**, piecemeal with checkpoints, up to three at a time.
 
-## Where the US wave stands (branch `expansion`, 19+ commits ahead of `main`)
+## Where the US wave stands (branch `expansion`, 33 commits ahead of `main`)
 
 | category | probe | added | floor | report |
 |---|---|---|---|---|
@@ -48,21 +48,20 @@ Decisions the user took 2026-09-15 (late), all in one message:
 | islands | 1,803 articles, 85 present | **318** | 1 km², or 1,000+ views | `-us-islands.md` |
 | seas/bays | 951 articles, 111 present | **8** (+ San Francisco Bay re-pointed off the Bay Bridge) | none — but only 11 of 652 have an area | `-us-seas-deserts.md` |
 | deserts | 132 articles, 82 present | **2** | none — only 2 of 12 have an area | same |
-| cities < 100k | `probes/us-cities-50k.json`, 42,857 candidates | running at hand-off; see below | 50,000 | — |
+| cities < 100k | 42,857 candidates, 30,575 cities, 462 present | **408** (+ East LA, Silver Spring by hand) | 50,000 | `-us-cities-50k.md` |
 
-Bank **11,619** (was 9,300): rivers 3,192 · lakes 1,162 · mountains 1,985 ·
-islands 1,663 · seas 261 · deserts 131 · cities 2,781 · countries 197 ·
-capitals 247. `bank.js` 1.49 MB. `npm test` 180 · `validate` OK ·
-`gap-check` 419 obvious answers land. Every chunk is its own commit; every
+Bank **12,017** (was 9,300): rivers 3,192 · lakes 1,160 · mountains 1,984 ·
+islands 1,655 · seas 259 · deserts 130 · cities 3,189 · countries 197 ·
+capitals 247. `bank.js` 1.55 MB. `npm test` 181 · `validate` OK ·
+`gap-check` 443 obvious answers land. Every chunk is its own commit; every
 probe has a report; the four audit reports are under `scripts/expansion/reports/`.
 
-**If the cities probe is still running or died:** `scripts/expansion/work/
-us-cities-50k.out` is its log; re-running `node scripts/expansion/probe.mjs
-scripts/expansion/probes/us-cities-50k.json` resumes from the cache (every
-title, size and view is memoised). Then `chunk.mjs … --tag=50k --country=
-"United States"`, fold, pipeline, commit — the loop below. Expect 45
-name-taken cities (Portland ME…) and a handful of CDPs; the previous cities
-probe report (`2026-09-15-us-cities.md`) has the pattern.
+Decision 3 is done (`807ad68` reservoir as filler; `2a2fef6` creek/bayou/
+fork… as letter-only filler, with the miss text "(Creek doesn't count)").
+The cities chunk (`5d92a41`) has not been audited yet — the last two audit
+reports (`-us-islands-*-audit.md`) are the shape; run data + gameplay on
+Opus with the cities chunk `work/folded/new-cities-50k.txt` + `-50k2.txt`,
+pre-wave bank `2a2fef6`.
 
 ## Decisions waiting for the user (present as a numbered list, recommend each)
 
@@ -80,10 +79,11 @@ probe report (`2026-09-15-us-cities.md`) has the pattern.
    rule and dig #1's round 12 became "larger than" (pin updated knowingly in
    `tests/prompts.test.js`). Every wave adds small lakes. Recommend 0.7, or a
    25 km² tier in `SIZE_RULES.lake`.
-3. **`reservoir` as a filler word** (45 new "X Reservoir" rows carry a bare
-   alias instead). Recommend yes. **`creek`/`bayou`/`fork`/`branch` as
-   filler**: recommend no (Bear Creek is not Bear River; 159 creeks would
-   collide).
+3. ~~Filler words~~ — **done** 2026-09-16 (`807ad68`, `2a2fef6`): `reservoir`
+   is matching filler; creek/bayou/fork/branch/run/brook/kill/wash/slough/
+   arroyo/draw are `LETTER_ONLY_FILLER` for rivers (identifying for the
+   matcher, generic for the letter rules); a letter-rule miss now names the
+   word that didn't count.
 4. **Two `run.js` rule changes** the audits argued for: (a) when the typed
    input carries the *current* category's own generic word ("Lake Meade",
    "Mackinaw Island"), another cohort's loose form must not block the
