@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T09:09:49.754Z",
+ "fetched": "2026-09-16T11:25:11.017Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -25912,11 +25912,11 @@
    "lon": -111.8
   },
   "lake-jackson-lake": {
-   "title": "Jackson Lake (Georgia)",
-   "monthlyViews": 487,
+   "title": "Jackson Lake (Wyoming)",
+   "monthlyViews": 1370,
    "days": 60,
-   "lat": 33.368,
-   "lon": -83.8555
+   "lat": 43.90055556,
+   "lon": -110.67388889
   },
   "lake-flathead-lake": {
    "title": "Flathead Lake",
@@ -25947,11 +25947,11 @@
    "lon": -122.26
   },
   "lake-lake-crescent": {
-   "title": "Crescent Lake (Oregon)",
-   "monthlyViews": 517,
+   "title": "Lake Crescent",
+   "monthlyViews": 3288,
    "days": 60,
-   "lat": 43.4756,
-   "lon": -121.992
+   "lat": 48.06,
+   "lon": -123.83
   },
   "lake-lake-coeur-d-alene": {
    "title": "Lake Coeur d'Alene",
@@ -28108,6 +28108,2652 @@
    "days": 57,
    "lat": 57.47666667,
    "lon": 12.33944444
+  },
+  "lake-lake-chaubunagungamaug": {
+   "title": "Lake Chaubunagungamaug",
+   "monthlyViews": 17320,
+   "days": 60,
+   "lat": 42.04166667,
+   "lon": -71.84166667
+  },
+  "lake-lake-peigneur": {
+   "title": "Lake Peigneur",
+   "monthlyViews": 15494,
+   "days": 60,
+   "lat": 29.981,
+   "lon": -91.983
+  },
+  "lake-tulare-lake": {
+   "title": "Tulare Lake",
+   "monthlyViews": 8249,
+   "days": 60,
+   "lat": 36.05,
+   "lon": -119.78805556
+  },
+  "lake-lake-piru": {
+   "title": "Lake Piru",
+   "monthlyViews": 4292,
+   "days": 60,
+   "lat": 34.4775,
+   "lon": -118.755
+  },
+  "lake-alcohol-and-drug-abuse-lake": {
+   "title": "Alcohol and Drug Abuse Lake",
+   "monthlyViews": 4201,
+   "days": 60,
+   "lat": 34.09194444,
+   "lon": -80.98805556
+  },
+  "lake-torch-lake": {
+   "title": "Torch Lake (Antrim County, Michigan)",
+   "monthlyViews": 4170,
+   "days": 60,
+   "lat": 44.98333333,
+   "lon": -85.30833333
+  },
+  "lake-smith-mountain-lake": {
+   "title": "Smith Mountain Lake",
+   "monthlyViews": 4079,
+   "days": 60,
+   "lat": 37.05722222,
+   "lon": -79.59638889
+  },
+  "lake-bde-maka-ska": {
+   "title": "Bde Maka Ska",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 44.94166667,
+   "lon": -93.3125
+  },
+  "lake-lake-jocassee": {
+   "title": "Lake Jocassee",
+   "monthlyViews": 3835,
+   "days": 60,
+   "lat": 34.96,
+   "lon": -82.91944444
+  },
+  "lake-lake-wallenpaupack": {
+   "title": "Lake Wallenpaupack",
+   "monthlyViews": 3653,
+   "days": 60,
+   "lat": 41.41305556,
+   "lon": -75.24027778
+  },
+  "lake-mountain-lake": {
+   "title": "Mountain Lake (Virginia)",
+   "monthlyViews": 3622,
+   "days": 60,
+   "lat": 37.36,
+   "lon": -80.53388889
+  },
+  "lake-lake-hartwell": {
+   "title": "Lake Hartwell",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 34.45,
+   "lon": -82.85
+  },
+  "lake-raystown-lake": {
+   "title": "Raystown Lake",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 40.43361111,
+   "lon": -78.00666667
+  },
+  "lake-deep-creek-lake": {
+   "title": "Deep Creek Lake",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": 39.5095354,
+   "lon": -79.3911531
+  },
+  "lake-quake-lake": {
+   "title": "Quake Lake",
+   "monthlyViews": 2892,
+   "days": 60,
+   "lat": 44.8528,
+   "lon": -111.3889
+  },
+  "lake-lake-keowee": {
+   "title": "Lake Keowee",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 34.8,
+   "lon": -82.88666667
+  },
+  "lake-higgins-lake": {
+   "title": "Higgins Lake",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 44.4823,
+   "lon": -84.70871
+  },
+  "lake-lake-anna": {
+   "title": "Lake Anna",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 38.023889,
+   "lon": -77.716942
+  },
+  "lake-lake-willoughby": {
+   "title": "Lake Willoughby",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 44.75194444,
+   "lon": -72.06277778
+  },
+  "lake-jacqueline-kennedy-onassis-reservoir": {
+   "title": "Jacqueline Kennedy Onassis Reservoir",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 40.78508889,
+   "lon": -73.960475
+  },
+  "lake-lake-austin": {
+   "title": "Lake Austin",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 30.29433333,
+   "lon": -97.78633333
+  },
+  "lake-possum-kingdom-lake": {
+   "title": "Possum Kingdom Lake",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 32.86666667,
+   "lon": -98.43333333
+  },
+  "lake-lewis-smith-lake": {
+   "title": "Lewis Smith Lake",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 33.94222222,
+   "lon": -87.10583333
+  },
+  "lake-lake-gaston": {
+   "title": "Lake Gaston",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 36.509649,
+   "lon": -77.880819
+  },
+  "lake-lake-oconee": {
+   "title": "Lake Oconee",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 33.35,
+   "lon": -83.157
+  },
+  "lake-lake-martin": {
+   "title": "Lake Martin",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 32.76649167,
+   "lon": -85.90106944
+  },
+  "lake-lake-eufaula": {
+   "title": "Lake Eufaula (Oklahoma)",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 35.28083333,
+   "lon": -95.52972222
+  },
+  "lake-great-sacandaga-lake": {
+   "title": "Great Sacandaga Lake",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 43.1417068,
+   "lon": -74.1776256
+  },
+  "lake-percy-priest-lake": {
+   "title": "Percy Priest Lake",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 36.15694444,
+   "lon": -86.6175
+  },
+  "lake-lady-bird-lake": {
+   "title": "Lady Bird Lake",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 30.25083333,
+   "lon": -97.71361111
+  },
+  "lake-lake-hopatcong": {
+   "title": "Lake Hopatcong",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 40.95,
+   "lon": -74.63333333
+  },
+  "lake-kerr-lake": {
+   "title": "Kerr Lake",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 36.57114722,
+   "lon": -78.32599722
+  },
+  "lake-lake-las-vegas": {
+   "title": "Lake Las Vegas",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 36.102,
+   "lon": -114.9295
+  },
+  "lake-onondaga-lake": {
+   "title": "Onondaga Lake",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 43.0891802,
+   "lon": -76.2103857
+  },
+  "lake-elephant-butte-reservoir": {
+   "title": "Elephant Butte Reservoir",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 33.23873056,
+   "lon": -107.17395278
+  },
+  "lake-grand-lake-o-the-cherokees": {
+   "title": "Grand Lake o' the Cherokees",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 36.6119,
+   "lon": -94.8415
+  },
+  "lake-john-d-long-lake": {
+   "title": "John D. Long Lake",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 34.775,
+   "lon": -81.51233333
+  },
+  "lake-lake-ouachita": {
+   "title": "Lake Ouachita",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 34.6,
+   "lon": -93.33333333
+  },
+  "lake-lake-almanor": {
+   "title": "Lake Almanor",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 40.252778,
+   "lon": -121.160278
+  },
+  "lake-lake-merritt": {
+   "title": "Lake Merritt",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 37.8039,
+   "lon": -122.2591
+  },
+  "lake-convict-lake": {
+   "title": "Convict Lake",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 37.589,
+   "lon": -118.858
+  },
+  "lake-dillon-reservoir": {
+   "title": "Dillon Reservoir",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 39.6074,
+   "lon": -106.0551
+  },
+  "lake-blue-mesa-reservoir": {
+   "title": "Blue Mesa Reservoir",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 38.4703,
+   "lon": -107.2204
+  },
+  "lake-lake-mcconaughy": {
+   "title": "Lake McConaughy",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 41.225,
+   "lon": -101.71666667
+  },
+  "lake-lake-monona": {
+   "title": "Lake Monona",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 43.06916667,
+   "lon": -89.35944444
+  },
+  "lake-beaver-lake": {
+   "title": "Beaver Lake (Arkansas)",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 36.42128333,
+   "lon": -93.84761667
+  },
+  "lake-lake-mendota": {
+   "title": "Lake Mendota",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 43.10666667,
+   "lon": -89.42472222
+  },
+  "lake-lake-allatoona": {
+   "title": "Lake Allatoona",
+   "monthlyViews": 1735,
+   "days": 59,
+   "lat": 34.13833333,
+   "lon": -84.64388889
+  },
+  "lake-silver-lake-reservoir": {
+   "title": "Silver Lake Reservoir",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 34.10107,
+   "lon": -118.26495
+  },
+  "lake-lake-ray-hubbard": {
+   "title": "Lake Ray Hubbard",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 32.79944444,
+   "lon": -96.495
+  },
+  "lake-west-okoboji-lake": {
+   "title": "West Okoboji Lake",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 43.38444444,
+   "lon": -95.15944444
+  },
+  "lake-america-lake": {
+   "title": "America Lake",
+   "monthlyViews": 1674,
+   "days": 18,
+   "lat": 43.54222222,
+   "lon": -99.21888889
+  },
+  "lake-kingsley-lake": {
+   "title": "Kingsley Lake",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 29.96472222,
+   "lon": -81.99805556
+  },
+  "lake-gibbons-creek-reservoir": {
+   "title": "Gibbons Creek Reservoir",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 30.62416667,
+   "lon": -96.06416667
+  },
+  "lake-canyon-lake": {
+   "title": "Canyon Lake (Texas)",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 29.88138889,
+   "lon": -98.24
+  },
+  "lake-jenny-lake": {
+   "title": "Jenny Lake",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 43.76388889,
+   "lon": -110.73
+  },
+  "lake-indian-lake": {
+   "title": "Indian Lake (Ohio)",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 40.4675,
+   "lon": -83.87527778
+  },
+  "lake-chebacco-lake": {
+   "title": "Chebacco Lake",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 42.61138889,
+   "lon": -70.81111111
+  },
+  "lake-saint-mary-lake": {
+   "title": "Saint Mary Lake",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 48.68277778,
+   "lon": -113.54555556
+  },
+  "lake-chatuge-lake": {
+   "title": "Chatuge Lake",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 34.991,
+   "lon": -83.785
+  },
+  "lake-sam-rayburn-reservoir": {
+   "title": "Sam Rayburn Reservoir",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 31.06111111,
+   "lon": -94.10611111
+  },
+  "lake-lewisville-lake": {
+   "title": "Lewisville Lake",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 33.06916667,
+   "lon": -96.96444444
+  },
+  "lake-rainy-lake": {
+   "title": "Rainy Lake",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 48.6369,
+   "lon": -93.0314
+  },
+  "lake-sylvan-lake": {
+   "title": "Sylvan Lake (South Dakota)",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 43.8457,
+   "lon": -103.56349167
+  },
+  "lake-grand-lake": {
+   "title": "Grand Lake (Colorado)",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 40.245,
+   "lon": -105.81611111
+  },
+  "lake-upper-klamath-lake": {
+   "title": "Upper Klamath Lake",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 42.39222222,
+   "lon": -121.88027778
+  },
+  "lake-truman-reservoir": {
+   "title": "Truman Reservoir",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 38.26305556,
+   "lon": -93.40472222
+  },
+  "lake-watauga-lake": {
+   "title": "Watauga Lake",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 36.33305556,
+   "lon": -82.03194444
+  },
+  "lake-bull-shoals-lake": {
+   "title": "Bull Shoals Lake",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 36.36527778,
+   "lon": -92.575
+  },
+  "lake-flaming-gorge-reservoir": {
+   "title": "Flaming Gorge Reservoir",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 41.16138889,
+   "lon": -109.55111111
+  },
+  "lake-fort-peck-lake": {
+   "title": "Fort Peck Lake",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 47.77805556,
+   "lon": -106.68138889
+  },
+  "lake-lake-drummond": {
+   "title": "Lake Drummond",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 36.6023,
+   "lon": -76.47034
+  },
+  "lake-lake-wawasee": {
+   "title": "Lake Wawasee",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 41.4,
+   "lon": -85.7
+  },
+  "lake-cass-lake": {
+   "title": "Cass Lake (Michigan)",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 42.6069,
+   "lon": -83.3656
+  },
+  "lake-lake-isabella": {
+   "title": "Lake Isabella",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 35.67158056,
+   "lon": -118.42723611
+  },
+  "lake-lake-burton": {
+   "title": "Lake Burton (Georgia)",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 34.8269,
+   "lon": -83.5551
+  },
+  "lake-dale-hollow-reservoir": {
+   "title": "Dale Hollow Reservoir",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 36.537847,
+   "lon": -85.451317
+  },
+  "lake-guntersville-lake": {
+   "title": "Guntersville Lake",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 34.42305556,
+   "lon": -86.39222222
+  },
+  "lake-crystal-lake": {
+   "title": "Crystal Lake (Benzie County, Michigan)",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 44.65,
+   "lon": -86.15
+  },
+  "lake-jordan-lake": {
+   "title": "Jordan Lake",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 35.75,
+   "lon": -79.025
+  },
+  "lake-lake-of-the-clouds": {
+   "title": "Lake of the Clouds",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 46.80388889,
+   "lon": -89.75222222
+  },
+  "lake-greenwood-lake": {
+   "title": "Greenwood Lake",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 41.179461,
+   "lon": -74.329977
+  },
+  "lake-lake-conroe": {
+   "title": "Lake Conroe",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 30.35694444,
+   "lon": -95.56027778
+  },
+  "lake-douglas-lake": {
+   "title": "Douglas Lake",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 35.96111111,
+   "lon": -83.53888889
+  },
+  "lake-green-lake": {
+   "title": "Green Lake (Wisconsin)",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 43.82444444,
+   "lon": -88.96444444
+  },
+  "lake-lake-wylie": {
+   "title": "Lake Wylie",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 35.08580556,
+   "lon": -81.05858333
+  },
+  "lake-old-hickory-lake": {
+   "title": "Old Hickory Lake",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 36.31666667,
+   "lon": -86.48333333
+  },
+  "lake-folsom-lake": {
+   "title": "Folsom Lake",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 38.73,
+   "lon": -121.14
+  },
+  "lake-lake-jesup": {
+   "title": "Lake Jesup",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 28.71666667,
+   "lon": -81.21666667
+  },
+  "lake-walloon-lake": {
+   "title": "Walloon Lake",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 45.28583333,
+   "lon": -85.01833333
+  },
+  "lake-lake-strom-thurmond": {
+   "title": "Lake Strom Thurmond",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 33.66111111,
+   "lon": -82.19916667
+  },
+  "lake-gun-lake": {
+   "title": "Gun Lake (Michigan)",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 42.6,
+   "lon": -85.51666667
+  },
+  "lake-houghton-lake": {
+   "title": "Houghton Lake (Michigan)",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 44.33888889,
+   "lon": -84.725
+  },
+  "lake-shaver-lake": {
+   "title": "Shaver Lake",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 37.12597,
+   "lon": -119.29075
+  },
+  "lake-castaic-lake": {
+   "title": "Castaic Lake",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 34.53,
+   "lon": -118.61
+  },
+  "lake-newfound-lake": {
+   "title": "Newfound Lake",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 43.66277778,
+   "lon": -71.77527778
+  },
+  "lake-henderson-lake": {
+   "title": "Henderson Lake (New York)",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 44.0916574,
+   "lon": -74.0670277
+  },
+  "lake-honey-lake": {
+   "title": "Honey Lake",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 40.25,
+   "lon": -120.35
+  },
+  "lake-lake-mohave": {
+   "title": "Lake Mohave",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 35.43722222,
+   "lon": -114.64361111
+  },
+  "lake-san-luis-reservoir": {
+   "title": "San Luis Reservoir",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 37.0679,
+   "lon": -121.081
+  },
+  "lake-tenkiller-ferry-lake": {
+   "title": "Tenkiller Ferry Lake",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 35.65805556,
+   "lon": -94.99194444
+  },
+  "lake-hume-lake": {
+   "title": "Hume Lake",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 36.7913,
+   "lon": -118.9059
+  },
+  "lake-lake-cushman": {
+   "title": "Lake Cushman",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 47.48,
+   "lon": -123.25
+  },
+  "lake-lake-nacimiento": {
+   "title": "Lake Nacimiento",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 35.74345,
+   "lon": -120.96085
+  },
+  "lake-theodore-roosevelt-lake": {
+   "title": "Theodore Roosevelt Lake",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 33.67166667,
+   "lon": -111.16111111
+  },
+  "lake-cachuma-lake": {
+   "title": "Cachuma Lake",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 34.5866555,
+   "lon": -119.9809753
+  },
+  "lake-kensico-reservoir": {
+   "title": "Kensico Reservoir",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 41.08611111,
+   "lon": -73.76388889
+  },
+  "lake-lake-butte-des-morts": {
+   "title": "Lake Butte des Morts",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 44.07305556,
+   "lon": -88.64194444
+  },
+  "lake-lake-james": {
+   "title": "Lake James",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 35.74333333,
+   "lon": -81.88444444
+  },
+  "lake-lake-livingston": {
+   "title": "Lake Livingston",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 30.74,
+   "lon": -95.15
+  },
+  "lake-lake-seminole": {
+   "title": "Lake Seminole",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 30.72,
+   "lon": -84.87
+  },
+  "lake-lake-sinclair": {
+   "title": "Lake Sinclair",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 33.1405,
+   "lon": -83.202
+  },
+  "lake-lake-tapps": {
+   "title": "Lake Tapps",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 47.21666667,
+   "lon": -122.16666667
+  },
+  "lake-tule-lake": {
+   "title": "Tule Lake",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 41.90932,
+   "lon": -121.53305
+  },
+  "lake-badin-lake": {
+   "title": "Badin Lake",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 35.41972222,
+   "lon": -80.09277778
+  },
+  "lake-center-hill-lake": {
+   "title": "Center Hill Lake",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 36.09694444,
+   "lon": -85.82666667
+  },
+  "lake-lake-barkley": {
+   "title": "Lake Barkley",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 37.02083333,
+   "lon": -88.22277778
+  },
+  "lake-monroe-lake": {
+   "title": "Monroe Lake",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 39.0587,
+   "lon": -86.4464
+  },
+  "lake-lake-oroville": {
+   "title": "Lake Oroville",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 39.53722222,
+   "lon": -121.48333333
+  },
+  "lake-hebgen-lake": {
+   "title": "Hebgen Lake",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 44.78222222,
+   "lon": -111.23361111
+  },
+  "lake-high-rock-lake": {
+   "title": "High Rock Lake",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 35.62888889,
+   "lon": -80.25111111
+  },
+  "lake-lake-charlevoix": {
+   "title": "Lake Charlevoix",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 45.2773,
+   "lon": -85.1736
+  },
+  "lake-greers-ferry-lake": {
+   "title": "Greers Ferry Lake",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 35.5339,
+   "lon": -92.1298
+  },
+  "lake-lake-buchanan": {
+   "title": "Lake Buchanan (Texas)",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 30.75183333,
+   "lon": -98.41866667
+  },
+  "lake-lake-koshkonong": {
+   "title": "Lake Koshkonong",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 42.87416667,
+   "lon": -88.95805556
+  },
+  "lake-lake-waccamaw": {
+   "title": "Lake Waccamaw",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 34.28666667,
+   "lon": -78.50972222
+  },
+  "lake-grapevine-lake": {
+   "title": "Grapevine Lake",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 32.97222222,
+   "lon": -97.05666667
+  },
+  "lake-laguna-madre": {
+   "title": "Laguna Madre (United States)",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 26.75,
+   "lon": -97.41666667
+  },
+  "lake-lake-whitney": {
+   "title": "Lake Whitney (Texas)",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 31.86694444,
+   "lon": -97.37083333
+  },
+  "lake-banks-lake": {
+   "title": "Banks Lake",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 47.62,
+   "lon": -119.3075
+  },
+  "lake-lake-gogebic": {
+   "title": "Lake Gogebic",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 46.5,
+   "lon": -89.58333333
+  },
+  "lake-lake-tawakoni": {
+   "title": "Lake Tawakoni",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 32.84583333,
+   "lon": -95.94333333
+  },
+  "lake-rogers-dry-lake": {
+   "title": "Rogers Dry Lake",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 34.92194444,
+   "lon": -117.8275
+  },
+  "lake-sevier-lake": {
+   "title": "Sevier Lake",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 38.93888889,
+   "lon": -113.16194444
+  },
+  "lake-weiss-lake": {
+   "title": "Weiss Lake",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 34.17111111,
+   "lon": -85.75416667
+  },
+  "lake-broken-bow-lake": {
+   "title": "Broken Bow Lake",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 34.18027778,
+   "lon": -94.68916667
+  },
+  "lake-carlyle-lake": {
+   "title": "Carlyle Lake",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 38.61893889,
+   "lon": -89.35285556
+  },
+  "lake-gull-lake": {
+   "title": "Gull Lake (Cass County, Minnesota)",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 46.4463788,
+   "lon": -94.35099
+  },
+  "lake-lake-lyndon-b-johnson": {
+   "title": "Lake Lyndon B. Johnson",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 30.55555556,
+   "lon": -98.33777778
+  },
+  "lake-lake-moultrie": {
+   "title": "Lake Moultrie",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 33.3,
+   "lon": -80.05
+  },
+  "lake-lake-winnibigoshish": {
+   "title": "Lake Winnibigoshish",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 47.45,
+   "lon": -94.18
+  },
+  "lake-patoka-lake": {
+   "title": "Patoka Lake",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 38.43472222,
+   "lon": -86.70694444
+  },
+  "lake-ross-barnett-reservoir": {
+   "title": "Ross Barnett Reservoir",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 32.4571,
+   "lon": -90.0179
+  },
+  "lake-pickwick-lake": {
+   "title": "Pickwick Lake",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 35.040257,
+   "lon": -88.193436
+  },
+  "lake-pymatuning-reservoir": {
+   "title": "Pymatuning Reservoir",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 41.49833333,
+   "lon": -80.46138889
+  },
+  "lake-strawberry-reservoir": {
+   "title": "Strawberry Reservoir",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 40.1744055,
+   "lon": -111.126755
+  },
+  "lake-waldo-lake": {
+   "title": "Waldo Lake",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 43.729918,
+   "lon": -122.0423006
+  },
+  "lake-big-stone-lake": {
+   "title": "Big Stone Lake",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 45.40777778,
+   "lon": -96.61777778
+  },
+  "lake-castle-rock-lake": {
+   "title": "Castle Rock Lake",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 43.9258,
+   "lon": -89.968
+  },
+  "lake-cherokee-lake": {
+   "title": "Cherokee Lake",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 36.2149,
+   "lon": -83.435
+  },
+  "lake-falcon-international-reservoir": {
+   "title": "Falcon International Reservoir",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 26.55888889,
+   "lon": -99.16472222
+  },
+  "lake-goose-lake": {
+   "title": "Goose Lake (Oregon–California)",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 41.91666667,
+   "lon": -120.43444444
+  },
+  "lake-joe-pool-lake": {
+   "title": "Joe Pool Lake",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 32.62861111,
+   "lon": -97.00527778
+  },
+  "lake-mark-twain-lake": {
+   "title": "Mark Twain Lake",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 39.505912,
+   "lon": -91.722407
+  },
+  "lake-mooselookmeguntic-lake": {
+   "title": "Mooselookmeguntic Lake",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 44.905,
+   "lon": -70.80888889
+  },
+  "lake-sardis-lake": {
+   "title": "Sardis Lake (Mississippi)",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 34.4725,
+   "lon": -89.66611111
+  },
+  "lake-big-sandy-lake": {
+   "title": "Big Sandy Lake",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 46.768,
+   "lon": -93.274
+  },
+  "lake-lake-palestine": {
+   "title": "Lake Palestine",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 32.184647,
+   "lon": -95.480289
+  },
+  "lake-lake-tohopekaliga": {
+   "title": "Lake Tohopekaliga",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 28.16888889,
+   "lon": -81.39
+  },
+  "lake-navajo-lake": {
+   "title": "Navajo Lake",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 36.84777778,
+   "lon": -107.61861111
+  },
+  "lake-chickamauga-lake": {
+   "title": "Chickamauga Lake",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 35.10388889,
+   "lon": -85.22944444
+  },
+  "lake-lake-fork-reservoir": {
+   "title": "Lake Fork Reservoir",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 32.80416667,
+   "lon": -95.53944444
+  },
+  "lake-lake-houston": {
+   "title": "Lake Houston",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 29.95883333,
+   "lon": -95.14883333
+  },
+  "lake-lake-shelbyville": {
+   "title": "Lake Shelbyville",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 39.47166667,
+   "lon": -88.71388889
+  },
+  "lake-moses-lake": {
+   "title": "Moses Lake",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 47.0809,
+   "lon": -119.3254
+  },
+  "lake-mullett-lake": {
+   "title": "Mullett Lake",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 45.515,
+   "lon": -84.5247
+  },
+  "lake-rend-lake": {
+   "title": "Rend Lake",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 38.03671667,
+   "lon": -88.96673611
+  },
+  "lake-tims-ford-lake": {
+   "title": "Tims Ford Lake",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 35.19694444,
+   "lon": -86.27861111
+  },
+  "lake-wilson-lake": {
+   "title": "Wilson Lake (Kansas)",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 38.94027778,
+   "lon": -98.55666667
+  },
+  "lake-allegheny-reservoir": {
+   "title": "Allegheny Reservoir",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 41.83777778,
+   "lon": -79.00388889
+  },
+  "lake-cave-run-lake": {
+   "title": "Cave Run Lake",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 38.0815,
+   "lon": -83.4915
+  },
+  "lake-don-pedro-reservoir": {
+   "title": "Don Pedro Reservoir",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 37.7415,
+   "lon": -120.3735
+  },
+  "lake-falls-lake": {
+   "title": "Falls Lake",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 36.01666667,
+   "lon": -78.71666667
+  },
+  "lake-lake-abert": {
+   "title": "Lake Abert",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 42.64166667,
+   "lon": -120.225
+  },
+  "lake-logan-martin-lake": {
+   "title": "Logan Martin Lake",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 33.45,
+   "lon": -86.31944444
+  },
+  "lake-new-melones-lake": {
+   "title": "New Melones Lake",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 37.999,
+   "lon": -120.5212
+  },
+  "lake-ross-lake": {
+   "title": "Ross Lake (Washington)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 48.73166667,
+   "lon": -121.06722222
+  },
+  "lake-lake-bemidji": {
+   "title": "Lake Bemidji",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 47.47194444,
+   "lon": -94.87638889
+  },
+  "lake-petenwell-lake": {
+   "title": "Petenwell Lake",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 44.134969,
+   "lon": -89.971062
+  },
+  "lake-umbagog-lake": {
+   "title": "Umbagog Lake",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 44.75694444,
+   "lon": -71.04916667
+  },
+  "lake-amistad-reservoir": {
+   "title": "Amistad Reservoir",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 29.45027778,
+   "lon": -101.05777778
+  },
+  "lake-eagle-lake": {
+   "title": "Eagle Lake (Lassen County)",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 40.645,
+   "lon": -120.74388889
+  },
+  "lake-foss-reservoir": {
+   "title": "Foss Reservoir",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.568,
+   "lon": -99.222
+  },
+  "lake-lake-chippewa": {
+   "title": "Lake Chippewa (Wisconsin)",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 45.9297,
+   "lon": -91.1987
+  },
+  "lake-lake-corpus-christi": {
+   "title": "Lake Corpus Christi",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 28.099,
+   "lon": -97.88916667
+  },
+  "lake-lake-francis-case": {
+   "title": "Lake Francis Case",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 43.05972222,
+   "lon": -98.56194444
+  },
+  "lake-lake-red-rock": {
+   "title": "Lake Red Rock (Des Moines River)",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 41.40527778,
+   "lon": -93.04694444
+  },
+  "lake-lake-waco": {
+   "title": "Lake Waco",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 31.58361111,
+   "lon": -97.20055556
+  },
+  "lake-owasco-lake": {
+   "title": "Owasco Lake",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 42.815,
+   "lon": -76.50833333
+  },
+  "lake-belton-lake": {
+   "title": "Belton Lake",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 31.10861111,
+   "lon": -97.4725
+  },
+  "lake-flagstaff-lake": {
+   "title": "Flagstaff Lake (Maine)",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 45.19413889,
+   "lon": -70.31455556
+  },
+  "lake-great-pond": {
+   "title": "Great Pond",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 44.53333333,
+   "lon": -69.83333333
+  },
+  "lake-hubbard-lake": {
+   "title": "Hubbard Lake",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 44.80416667,
+   "lon": -83.55944444
+  },
+  "lake-lavon-lake": {
+   "title": "Lavon Lake",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 33.04444444,
+   "lon": -96.46555556
+  },
+  "lake-lewis-and-clark-lake": {
+   "title": "Lewis and Clark Lake",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 42.8625,
+   "lon": -97.4917
+  },
+  "lake-milford-lake": {
+   "title": "Milford Lake",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 39.08333333,
+   "lon": -96.89777778
+  },
+  "lake-stockton-lake": {
+   "title": "Stockton Lake",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 37.6428,
+   "lon": -93.7707
+  },
+  "lake-walter-f-george-lake": {
+   "title": "Walter F. George Lake",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 31.8,
+   "lon": -85.13333333
+  },
+  "lake-watts-bar-reservoir": {
+   "title": "Watts Bar Reservoir",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.62083333,
+   "lon": -84.78166667
+  },
+  "lake-burt-lake": {
+   "title": "Burt Lake",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 45.47,
+   "lon": -84.67
+  },
+  "lake-canyon-ferry-lake": {
+   "title": "Canyon Ferry Lake",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 46.481312,
+   "lon": -111.546404
+  },
+  "lake-great-salt-plains-lake": {
+   "title": "Great Salt Plains Lake",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 36.74287222,
+   "lon": -98.18841944
+  },
+  "lake-lake-maurepas": {
+   "title": "Lake Maurepas",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 30.258029,
+   "lon": -90.498676
+  },
+  "lake-lake-wedowee": {
+   "title": "Lake Wedowee",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 33.25055556,
+   "lon": -85.6125
+  },
+  "lake-mosquito-creek-lake": {
+   "title": "Mosquito Creek Lake",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 41.37111111,
+   "lon": -80.755
+  },
+  "lake-kaw-lake": {
+   "title": "Kaw Lake",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 36.7708,
+   "lon": -96.8335
+  },
+  "lake-lake-meredith": {
+   "title": "Lake Meredith",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.71416667,
+   "lon": -101.55305556
+  },
+  "lake-lake-ray-roberts": {
+   "title": "Lake Ray Roberts",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 33.36472222,
+   "lon": -97.05138889
+  },
+  "lake-lake-wisconsin": {
+   "title": "Lake Wisconsin",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 43.31,
+   "lon": -89.72472222
+  },
+  "lake-pomme-de-terre-lake": {
+   "title": "Pomme de Terre Lake",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 37.90166667,
+   "lon": -93.32027778
+  },
+  "lake-rangeley-lake": {
+   "title": "Rangeley Lake",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 44.94741667,
+   "lon": -70.69294444
+  },
+  "lake-lake-wateree": {
+   "title": "Lake Wateree",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.41111111,
+   "lon": -80.79222222
+  },
+  "lake-tuttle-creek-lake": {
+   "title": "Tuttle Creek Lake",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 39.25694444,
+   "lon": -96.59222222
+  },
+  "lake-west-point-lake": {
+   "title": "West Point Lake",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 32.9403,
+   "lon": -85.1908
+  },
+  "lake-camanche-reservoir": {
+   "title": "Camanche Reservoir",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 38.22361111,
+   "lon": -121
+  },
+  "lake-elk-lake": {
+   "title": "Elk Lake (Michigan)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 44.85,
+   "lon": -85.38333333
+  },
+  "lake-rathbun-lake": {
+   "title": "Rathbun Lake",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 40.85,
+   "lon": -92.91666667
+  },
+  "lake-richland-chambers-reservoir": {
+   "title": "Richland-Chambers Reservoir",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 31.95194444,
+   "lon": -96.09888889
+  },
+  "lake-south-holston-lake": {
+   "title": "South Holston Lake",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 36.52416667,
+   "lon": -82.0875
+  },
+  "lake-summer-lake": {
+   "title": "Summer Lake (Oregon)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 42.83,
+   "lon": -120.75
+  },
+  "lake-wheeler-lake": {
+   "title": "Wheeler Lake",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 34.80833333,
+   "lon": -87.38333333
+  },
+  "lake-choke-canyon-reservoir": {
+   "title": "Choke Canyon Reservoir",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 28.5,
+   "lon": -98.35
+  },
+  "lake-cranberry-lake": {
+   "title": "Cranberry Lake",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 44.125427,
+   "lon": -74.8852263
+  },
+  "lake-lake-blackshear": {
+   "title": "Lake Blackshear",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 31.848,
+   "lon": -83.942
+  },
+  "lake-lake-dardanelle": {
+   "title": "Lake Dardanelle",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.34,
+   "lon": -93.3375
+  },
+  "lake-otter-tail-lake": {
+   "title": "Otter Tail Lake",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 46.40040278,
+   "lon": -95.66295833
+  },
+  "lake-ozette-lake": {
+   "title": "Ozette Lake",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 48.09450278,
+   "lon": -124.63248611
+  },
+  "lake-clinton-lake": {
+   "title": "Clinton Lake (Kansas)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 38.8975653,
+   "lon": -95.3883465
+  },
+  "lake-east-grand-lake": {
+   "title": "East Grand Lake",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 45.7,
+   "lon": -67.8
+  },
+  "lake-john-martin-reservoir": {
+   "title": "John Martin Reservoir",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 38.07305556,
+   "lon": -103.02805556
+  },
+  "lake-lake-hamilton-and-lake-catherine": {
+   "title": "Lake Hamilton and Lake Catherine",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 34.4325,
+   "lon": -93.0887
+  },
+  "lake-lake-harris": {
+   "title": "Lake Harris (Florida)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 28.76777778,
+   "lon": -81.81583333
+  },
+  "lake-lake-limestone": {
+   "title": "Lake Limestone",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 31.32527778,
+   "lon": -96.3175
+  },
+  "lake-saganaga-lake": {
+   "title": "Saganaga Lake",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 48.24416667,
+   "lon": -90.91194444
+  },
+  "lake-perry-lake": {
+   "title": "Perry Lake (Kansas)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 39.17722222,
+   "lon": -95.45166667
+  },
+  "lake-richard-b-russell-lake": {
+   "title": "Richard B. Russell Lake",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 34.091762,
+   "lon": -82.629976
+  },
+  "lake-riffe-lake": {
+   "title": "Riffe Lake",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 46.53444444,
+   "lon": -122.42861111
+  },
+  "lake-san-carlos-lake": {
+   "title": "San Carlos Lake",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 33.18777778,
+   "lon": -110.47222222
+  },
+  "lake-willard-bay": {
+   "title": "Willard Bay",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 41.37916667,
+   "lon": -112.13194444
+  },
+  "lake-el-dorado-lake": {
+   "title": "El Dorado Lake",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 37.84722222,
+   "lon": -96.82305556
+  },
+  "lake-lake-granbury": {
+   "title": "Lake Granbury",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 32.37388889,
+   "lon": -97.68777778
+  },
+  "lake-lake-o-the-pines": {
+   "title": "Lake O' the Pines",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 32.77083333,
+   "lon": -94.54361111
+  },
+  "lake-lake-wappapello": {
+   "title": "Lake Wappapello",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 36.956,
+   "lon": -90.323
+  },
+  "lake-oologah-lake": {
+   "title": "Oologah Lake",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 36.55,
+   "lon": -95.6
+  },
+  "lake-red-bluff-reservoir": {
+   "title": "Red Bluff Reservoir",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 31.94783333,
+   "lon": -103.93133333
+  },
+  "lake-smithville-lake": {
+   "title": "Smithville Lake",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 39.42,
+   "lon": -94.53
+  },
+  "lake-tustumena-lake": {
+   "title": "Tustumena Lake",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 60.22944444,
+   "lon": -150.94111111
+  },
+  "lake-waconda-lake": {
+   "title": "Waconda Lake",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 39.49083333,
+   "lon": -98.37277778
+  },
+  "lake-burntside-lake": {
+   "title": "Burntside Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 47.92416667,
+   "lon": -91.995
+  },
+  "lake-cheney-reservoir": {
+   "title": "Cheney Reservoir",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.75972222,
+   "lon": -97.835
+  },
+  "lake-cross-lake": {
+   "title": "Cross Lake (Shreveport, Louisiana)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 32.502155,
+   "lon": -93.844669
+  },
+  "lake-fern-ridge-reservoir": {
+   "title": "Fern Ridge Reservoir",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 44.12056,
+   "lon": -123.29833
+  },
+  "lake-ivanpah-lake": {
+   "title": "Ivanpah Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 35.5506,
+   "lon": -115.3959
+  },
+  "lake-malheur-lake": {
+   "title": "Malheur Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 43.33277778,
+   "lon": -118.79305556
+  },
+  "lake-orange-lake": {
+   "title": "Orange Lake (Florida)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 29.465,
+   "lon": -82.1775
+  },
+  "lake-skiatook-lake": {
+   "title": "Skiatook Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 36.35138889,
+   "lon": -96.09194444
+  },
+  "lake-teshekpuk-lake": {
+   "title": "Teshekpuk Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 70.57138889,
+   "lon": -153.51416667
+  },
+  "lake-barren-river-lake": {
+   "title": "Barren River Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.89305556,
+   "lon": -86.125
+  },
+  "lake-beaver-dam-lake": {
+   "title": "Beaver Dam Lake (Wisconsin)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.5205513,
+   "lon": -88.9023628
+  },
+  "lake-chesuncook-lake": {
+   "title": "Chesuncook Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 45.98722222,
+   "lon": -69.34083333
+  },
+  "lake-degray-lake": {
+   "title": "DeGray Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.21472222,
+   "lon": -93.11138889
+  },
+  "lake-east-lake-tohopekaliga": {
+   "title": "East Lake Tohopekaliga",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 28.29722222,
+   "lon": -81.28138889
+  },
+  "lake-grenada-lake": {
+   "title": "Grenada Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 33.81944444,
+   "lon": -89.77361111
+  },
+  "lake-lake-istokpoga": {
+   "title": "Lake Istokpoga",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 27.36666667,
+   "lon": -81.28333333
+  },
+  "lake-manistique-lake": {
+   "title": "Manistique Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 46.2347,
+   "lon": -85.784
+  },
+  "lake-millwood-lake": {
+   "title": "Millwood Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 33.76383333,
+   "lon": -94.0205
+  },
+  "lake-owyhee-reservoir": {
+   "title": "Owyhee Reservoir",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.46138889,
+   "lon": -117.33833333
+  },
+  "lake-schoodic-lake": {
+   "title": "Schoodic Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 45.36666667,
+   "lon": -68.91666667
+  },
+  "lake-shawano-lake": {
+   "title": "Shawano Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 44.81,
+   "lon": -88.51305556
+  },
+  "lake-stillhouse-hollow-lake": {
+   "title": "Stillhouse Hollow Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 31.02333333,
+   "lon": -97.53083333
+  },
+  "lake-turtle-flambeau-flowage": {
+   "title": "Turtle-Flambeau Flowage",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 46.08333333,
+   "lon": -90.21666667
+  },
+  "lake-conchas-lake": {
+   "title": "Conchas Lake",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.38,
+   "lon": -104.231
+  },
+  "lake-crab-orchard-lake": {
+   "title": "Crab Orchard Lake",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.7252,
+   "lon": -89.1053
+  },
+  "lake-harlan-county-reservoir": {
+   "title": "Harlan County Reservoir",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 40.07083333,
+   "lon": -99.21138889
+  },
+  "lake-lake-allison": {
+   "title": "Lake Allison",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45,
+   "lon": -123
+  },
+  "lake-lake-bridgeport": {
+   "title": "Lake Bridgeport (Texas)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 33.21666667,
+   "lon": -97.86666667
+  },
+  "lake-lake-conway": {
+   "title": "Lake Conway",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.0053,
+   "lon": -92.3921
+  },
+  "lake-lake-osakis": {
+   "title": "Lake Osakis",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.8967,
+   "lon": -95.1222
+  },
+  "lake-lake-summit": {
+   "title": "Lake Summit, North Carolina",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.2249,
+   "lon": -82.4198
+  },
+  "lake-o-h-ivie-lake": {
+   "title": "O.H. Ivie Lake",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 31.53972222,
+   "lon": -99.68416667
+  },
+  "lake-robert-s-kerr-reservoir": {
+   "title": "Robert S. Kerr Reservoir",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.35055556,
+   "lon": -94.85277778
+  },
+  "lake-wright-patman-lake": {
+   "title": "Wright Patman Lake",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 33.30472222,
+   "lon": -94.16
+  },
+  "lake-bois-d-arc-lake": {
+   "title": "Bois D'Arc Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.67722222,
+   "lon": -95.99111111
+  },
+  "lake-calcasieu-lake": {
+   "title": "Calcasieu Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 29.90027778,
+   "lon": -93.28277778
+  },
+  "lake-fort-loudoun-lake": {
+   "title": "Fort Loudoun Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.79194444,
+   "lon": -84.24333333
+  },
+  "lake-graham-lake": {
+   "title": "Graham Lake (Maine)",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 44.658408,
+   "lon": -68.399188
+  },
+  "lake-lake-altus-lugert": {
+   "title": "Lake Altus-Lugert",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.9251,
+   "lon": -99.3023
+  },
+  "lake-lake-claiborne": {
+   "title": "Lake Claiborne",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 32.7231,
+   "lon": -92.9203
+  },
+  "lake-lake-d-arbonne": {
+   "title": "Lake D'Arbonne",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 32.76138889,
+   "lon": -92.42388889
+  },
+  "lake-lake-onalaska": {
+   "title": "Lake Onalaska",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 43.86694444,
+   "lon": -91.30722222
+  },
+  "lake-lake-phelps": {
+   "title": "Lake Phelps",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.7701,
+   "lon": -76.458
+  },
+  "lake-lake-poygan": {
+   "title": "Lake Poygan",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.15,
+   "lon": -88.75027778
+  },
+  "lake-lake-saint-francis": {
+   "title": "Lake Saint Francis (Canada)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.16666667,
+   "lon": -74.36666667
+  },
+  "lake-lake-sharpe": {
+   "title": "Lake Sharpe",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.05166667,
+   "lon": -99.45222222
+  },
+  "lake-lake-texana": {
+   "title": "Lake Texana",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 28.9103105,
+   "lon": -96.553901
+  },
+  "lake-neely-henry-lake": {
+   "title": "Neely Henry Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.84,
+   "lon": -86.06
+  },
+  "lake-rodman-reservoir": {
+   "title": "Rodman Reservoir",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 29.50722222,
+   "lon": -81.91638889
+  },
+  "lake-shoshone-lake": {
+   "title": "Shoshone Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.37222222,
+   "lon": -110.7125
+  },
+  "lake-wickiup-reservoir": {
+   "title": "Wickiup Reservoir",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 43.69027778,
+   "lon": -121.69833333
+  },
+  "lake-blue-cypress-lake": {
+   "title": "Blue Cypress Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 27.75416667,
+   "lon": -80.74361111
+  },
+  "lake-cedar-bluff-reservoir": {
+   "title": "Cedar Bluff Reservoir",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.78635556,
+   "lon": -99.77841667
+  },
+  "lake-cordell-hull-lake": {
+   "title": "Cordell Hull Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.29,
+   "lon": -85.94388889
+  },
+  "lake-fletcher-pond": {
+   "title": "Fletcher Pond",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.98277778,
+   "lon": -83.84277778
+  },
+  "lake-lake-brownwood": {
+   "title": "Lake Brownwood",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 31.8722023,
+   "lon": -99.0221472
+  },
+  "lake-lake-manix": {
+   "title": "Lake Manix",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35,
+   "lon": -116.58333333
+  },
+  "lake-lake-maumelle": {
+   "title": "Lake Maumelle",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.87833333,
+   "lon": -92.56666667
+  },
+  "lake-lake-thompson": {
+   "title": "Lake Thompson (South Dakota)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.285,
+   "lon": -97.46194444
+  },
+  "lake-lake-verret": {
+   "title": "Lake Verret",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 29.8848,
+   "lon": -91.1517
+  },
+  "lake-rosamond-lake": {
+   "title": "Rosamond Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.8322,
+   "lon": -118.0656
+  },
+  "lake-tsala-apopka-lake": {
+   "title": "Tsala Apopka Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 28.87527778,
+   "lon": -82.3025
+  },
+  "lake-agency-lake": {
+   "title": "Agency Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.53222222,
+   "lon": -121.965
+  },
+  "lake-c-j-strike-reservoir": {
+   "title": "C. J. Strike Reservoir",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.95,
+   "lon": -115.96666667
+  },
+  "lake-catahoula-lake": {
+   "title": "Catahoula Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 31.5125,
+   "lon": -92.10722222
+  },
+  "lake-chamberlain-lake": {
+   "title": "Chamberlain Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.21666667,
+   "lon": -69.3
+  },
+  "lake-doctors-lake": {
+   "title": "Doctors Lake (Florida)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 30.15277778,
+   "lon": -81.70638889
+  },
+  "lake-fontenelle-reservoir": {
+   "title": "Fontenelle Reservoir",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.03333333,
+   "lon": -110.06666667
+  },
+  "lake-fossil-lake": {
+   "title": "Fossil Lake (Oregon)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 43.3258,
+   "lon": -120.4909
+  },
+  "lake-harney-lake": {
+   "title": "Harney Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 43.23694,
+   "lon": -119.10889
+  },
+  "lake-john-redmond-reservoir": {
+   "title": "John Redmond Reservoir",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 38.2515043,
+   "lon": -95.8029017
+  },
+  "lake-lake-earl": {
+   "title": "Lake Earl",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 41.825669,
+   "lon": -124.188693
+  },
+  "lake-lake-eustis": {
+   "title": "Lake Eustis",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 28.84888889,
+   "lon": -81.72527778
+  },
+  "lake-lake-lahontan": {
+   "title": "Lake Lahontan (reservoir)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 39.40166667,
+   "lon": -119.11361111
+  },
+  "lake-melvern-lake": {
+   "title": "Melvern Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 38.4896432,
+   "lon": -95.79926
+  },
+  "lake-namakan-lake": {
+   "title": "Namakan Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 48.43,
+   "lon": -92.7211
+  },
+  "lake-newnans-lake": {
+   "title": "Newnans Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 29.65055556,
+   "lon": -82.21833333
+  },
+  "lake-pemadumcook-chain-of-lakes": {
+   "title": "Pemadumcook Chain of Lakes",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.7,
+   "lon": -68.95
+  },
+  "lake-prado-reservoir": {
+   "title": "Prado Reservoir",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 33.90262,
+   "lon": -117.6289
+  },
+  "lake-richardson-lakes": {
+   "title": "Richardson Lakes (Maine)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.78333333,
+   "lon": -70.9
+  },
+  "lake-spednic-lake": {
+   "title": "Spednic Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.6051,
+   "lon": -67.6278
+  },
+  "lake-twin-buttes-reservoir": {
+   "title": "Twin Buttes Reservoir",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-big-lake": {
+   "title": "Big Lake (Maine)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 45.1623,
+   "lon": -67.6964
+  },
+  "lake-caballo-lake": {
+   "title": "Caballo Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.92568,
+   "lon": -107.2961
+  },
+  "lake-hugo-lake": {
+   "title": "Hugo Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.0677,
+   "lon": -95.4163
+  },
+  "lake-jim-chapman-lake": {
+   "title": "Jim Chapman Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 33.32364444,
+   "lon": -95.64594167
+  },
+  "lake-lac-des-allemands": {
+   "title": "Lac des Allemands",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 29.91666667,
+   "lon": -90.56666667
+  },
+  "lake-lake-dubay": {
+   "title": "Lake DuBay",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.71444444,
+   "lon": -89.69527778
+  },
+  "lake-lake-kickapoo": {
+   "title": "Lake Kickapoo",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 33.66111111,
+   "lon": -98.77611111
+  },
+  "lake-waubay-lake": {
+   "title": "Waubay Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.4122,
+   "lon": -97.401
+  },
+  "lake-willow-reservoir": {
+   "title": "Willow Reservoir",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.718611,
+   "lon": -89.881944
+  },
+  "lake-clear-lake-reservoir": {
+   "title": "Clear Lake Reservoir",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 41.86,
+   "lon": -121.146
+  },
+  "lake-e-v-spence-reservoir": {
+   "title": "E.V. Spence Reservoir",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 31.90833333,
+   "lon": -100.53527778
+  },
+  "lake-imperial-reservoir": {
+   "title": "Imperial Reservoir",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 32.8833,
+   "lon": -114.4677
+  },
+  "lake-lake-cataouatche": {
+   "title": "Lake Cataouatche",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 29.8417,
+   "lon": -90.2328
+  },
+  "lake-lake-entiat": {
+   "title": "Lake Entiat",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 47.53305556,
+   "lon": -120.29416667
+  },
+  "lake-lake-palomas": {
+   "title": "Lake Palomas",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 31.22,
+   "lon": -106.99
+  },
+  "lake-lake-palourde": {
+   "title": "Lake Palourde",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 29.7242,
+   "lon": -91.142
+  },
+  "lake-lake-walcott": {
+   "title": "Lake Walcott",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 42.66666667,
+   "lon": -113.4
+  },
+  "lake-lake-wister": {
+   "title": "Lake Wister",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 34.93694444,
+   "lon": -94.73305556
+  },
+  "lake-meddybemps-lake": {
+   "title": "Meddybemps Lake",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 45.04083333,
+   "lon": -67.35611111
+  },
+  "lake-selawik-lake": {
+   "title": "Selawik Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 66.49416667,
+   "lon": -160.69083333
+  },
+  "lake-stump-lake": {
+   "title": "Stump Lake (North Dakota)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 47.895,
+   "lon": -98.374
+  },
+  "lake-waurika-lake": {
+   "title": "Waurika Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 34.28194444,
+   "lon": -98.07777778
+  },
+  "lake-aleknagik-lake": {
+   "title": "Aleknagik Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 59.33944444,
+   "lon": -158.80194444
+  },
+  "lake-crooked-lake": {
+   "title": "Crooked Lake (Minnesota–Ontario)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 48.195521,
+   "lon": -91.794628
+  },
+  "lake-crump-lake": {
+   "title": "Crump Lake (Oregon)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 42.2946,
+   "lon": -119.8252
+  },
+  "lake-kukaklek-lake": {
+   "title": "Kukaklek Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 59.17,
+   "lon": -155.34111111
+  },
+  "lake-lake-elwell": {
+   "title": "Lake Elwell",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.32222222,
+   "lon": -111.09666667
+  },
+  "lake-lake-sacajawea": {
+   "title": "Lake Sacajawea",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.24944444,
+   "lon": -118.87972222
+  },
+  "lake-lake-wanapum": {
+   "title": "Lake Wanapum",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.87305556,
+   "lon": -119.97194444
+  },
+  "lake-r-e-bob-woodruff-lake": {
+   "title": "R.E. \"Bob\" Woodruff Lake",
+   "monthlyViews": 61,
+   "days": 55,
+   "lat": 32.32638889,
+   "lon": -86.7825
+  },
+  "lake-silver-lake": {
+   "title": "Silver Lake (Oregon)",
+   "monthlyViews": 61,
+   "days": 53,
+   "lat": 43.09611111,
+   "lon": -120.88805556
+  },
+  "lake-tom-steed-reservoir": {
+   "title": "Tom Steed Reservoir",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 34.76,
+   "lon": -98.99
+  },
+  "lake-whitefish-lake": {
+   "title": "Whitefish Lake (Minnesota)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.20555556,
+   "lon": -93.81305556
+  },
+  "lake-baskahegan-lake": {
+   "title": "Baskahegan Lake",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 45.507,
+   "lon": -67.83
+  },
+  "lake-heron-lake": {
+   "title": "Heron Lake (Jackson County, Minnesota)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.77416667,
+   "lon": -95.26916667
+  },
+  "lake-hop-brook-lake": {
+   "title": "Hop Brook Lake",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 41.51361111,
+   "lon": -73.06638889
+  },
+  "lake-imuruk-lake": {
+   "title": "Imuruk Lake",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 65.591349,
+   "lon": -163.196843
+  },
+  "lake-lake-herbert-g-west": {
+   "title": "Lake Herbert G. West",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.5625,
+   "lon": -118.5375
+  },
+  "lake-lake-latt": {
+   "title": "Lake Latt",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 31.6025,
+   "lon": -92.6575
+  },
+  "lake-millinocket-lake": {
+   "title": "Millinocket Lake (Penobscot River)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 45.7592,
+   "lon": -68.7933
+  },
+  "lake-nerka-lake": {
+   "title": "Nerka Lake",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 59.55944444,
+   "lon": -159.02416667
+  },
+  "lake-pelican-lake": {
+   "title": "Pelican Lake (St. Louis County, Minnesota)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.06111111,
+   "lon": -92.9
+  },
+  "lake-tazlina-lake": {
+   "title": "Tazlina Lake",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 61.88527778,
+   "lon": -146.48444444
+  },
+  "lake-togiak-lake": {
+   "title": "Togiak Lake",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 59.63388889,
+   "lon": -159.60777778
+  },
+  "lake-ugashik-lakes": {
+   "title": "Ugashik Lakes",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 57.6,
+   "lon": -156.8
+  },
+  "lake-webbers-falls-lake": {
+   "title": "Webbers Falls Lake",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 35.6,
+   "lon": -95.25
+  },
+  "lake-mother-goose-lake": {
+   "title": "Mother Goose Lake",
+   "monthlyViews": 26,
+   "days": 56,
+   "lat": 57.20444444,
+   "lon": -157.32583333
+  },
+  "lake-john-paul-hammerschmidt-lake": {
+   "title": "John Paul Hammerschmidt Lake",
+   "monthlyViews": 20,
+   "days": 53,
+   "lat": 35.352586,
+   "lon": -94.295629
   },
   "river-nile": {
    "title": "Nile",
@@ -47548,13 +50194,6 @@
    "lat": 40.8328218,
    "lon": -85.7177603
   },
-  "river-san-francisco": {
-   "title": "San Francisco River (Gila River tributary)",
-   "monthlyViews": 122,
-   "days": 60,
-   "lat": 32.9761743,
-   "lon": -109.3720169
-  },
   "river-sanpoil": {
    "title": "Sanpoil River",
    "monthlyViews": 122,
@@ -47701,13 +50340,6 @@
    "days": 60,
    "lat": 33.5525,
    "lon": -90.18083333
-  },
-  "river-yellow-house-draw": {
-   "title": "Yellow House Draw",
-   "monthlyViews": 122,
-   "days": 60,
-   "lat": 33.59277778,
-   "lon": -101.83388889
   },
   "river-alamosa": {
    "title": "Alamosa River",
@@ -49081,13 +51713,6 @@
    "lat": 38.79027778,
    "lon": -98.91944444
   },
-  "river-big-satilla": {
-   "title": "Big Satilla River",
-   "monthlyViews": 30,
-   "days": 56,
-   "lat": 31.440025,
-   "lon": -83.00677778
-  },
   "river-birch-creek": {
    "title": "Birch Creek (Yukon River tributary)",
    "monthlyViews": 30,
@@ -49312,13 +51937,6 @@
    "lat": 40.8753161,
    "lon": -91.0306991
   },
-  "river-herbert-run": {
-   "title": "Herbert Run",
-   "monthlyViews": 30,
-   "days": 59,
-   "lat": 39.22096,
-   "lon": -76.68996
-  },
   "river-hogatza": {
    "title": "Hogatza River",
    "monthlyViews": 30,
@@ -49501,13 +52119,6 @@
    "lat": 43.00805556,
    "lon": -108.35333333
   },
-  "river-mckinley": {
-   "title": "McKinley River",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 63.86638889,
-   "lon": -151.55555556
-  },
   "river-meade": {
    "title": "Meade River",
    "monthlyViews": 30,
@@ -49556,13 +52167,6 @@
    "days": 54,
    "lat": 34.612655,
    "lon": -100.875232
-  },
-  "river-munuscong": {
-   "title": "Munuscong River",
-   "monthlyViews": 30,
-   "days": 59,
-   "lat": 46.20666667,
-   "lon": -84.25
   },
   "river-new-fork": {
    "title": "New Fork River",

@@ -238,6 +238,10 @@ function loadShippedBank() {
 // regions or themes - or touching drawSlots - changes what every past day
 // asked, and a player's stored review would no longer match their answers.
 // If this fails on purpose, that is the cost; update the pin knowingly.
+// 2026-09-16: round 12 was "Name a lake smaller than 100 km²." until the US
+// lakes fill (379 rows) took the lakes under 100 km² to 60.0% of the cohort,
+// one entry over MAX_ELIGIBLE_SHARE; the guard now refuses that rule and the
+// same seed draws "larger than". The bank, not the draw, moved the pin.
 test('dig #1 (2026-09-12) still asks the fifteen prompts it shipped with', () => {
   const runner = require('../src/js/run.js');
   const shipped = loadShippedBank();
@@ -256,7 +260,7 @@ test('dig #1 (2026-09-12) still asks the fifteen prompts it shipped with', () =>
       'Name a country with a long name (12+ letters).',
       'Name a sea in the Pacific Ocean.',
       'Name an island bigger than 100,000 km².',
-      'Name a lake smaller than 100 km².',
+      'Name a lake larger than 100 km².',
       'Name an island with a short name (5 letters or fewer).',
       'Name a mountain in the Alps.',
       'Name a non-capital city in a country whose flag has black in it.'

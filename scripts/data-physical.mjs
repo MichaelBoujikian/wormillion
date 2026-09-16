@@ -488,7 +488,7 @@ Pyramid Lake|486
 Walker Lake|130
 Bear Lake|280
 Utah Lake|385
-Jackson Lake|100
+Jackson Lake|103
 Flathead Lake|510
 Lake McDonald|17
 Lake Chelan|130
@@ -802,6 +802,384 @@ Tisnaren|37.79
 Rostojavri|34.14|Rastojaure
 Asunden|32.73
 Lygnern|31.48
+Lake Chaubunagungamaug|5.83
+Lake Peigneur|4.55
+Tulare Lake|1780
+Lake Piru|5.02
+Alcohol and Drug Abuse Lake|0.38
+Torch Lake|75.96
+Smith Mountain Lake|83
+Bde Maka Ska|1.71
+Lake Jocassee|30.35
+Lake Wallenpaupack|22.1
+Mountain Lake|0.2
+Lake Hartwell|226.62
+Raystown Lake|33.59
+Deep Creek Lake|14.68
+Quake Lake|2.48
+Lake Keowee|74.87
+Higgins Lake|38.85
+Lake Anna|53
+Lake Willoughby|6.82
+Jacqueline Kennedy Onassis Reservoir|0.43
+Lake Austin|6.5
+Possum Kingdom Lake|80.13
+Lewis Smith Lake|84.98
+Lake Gaston|80
+Lake Oconee|77.18
+Lake Martin|180
+Lake Eufaula|412
+Great Sacandaga Lake|83.57
+Percy Priest Lake|57.47
+Lady Bird Lake|1.89
+Lake Hopatcong|10.36
+Kerr Lake|200
+Lake Las Vegas|1.29
+Onondaga Lake|12
+Elephant Butte Reservoir|147.71|Elephant Butte
+Grand Lake o' the Cherokees|188
+John D. Long Lake|0.32
+Lake Ouachita|160
+Lake Almanor|114
+Lake Merritt|0.57
+Convict Lake|0.69
+Dillon Reservoir|13.08|Dillon
+Blue Mesa Reservoir|37.15|Blue Mesa
+Lake McConaughy|144.47
+Lake Monona|13
+Beaver Lake|128.29
+Lake Mendota|39.4
+Lake Allatoona|48.6
+Silver Lake Reservoir|0.39
+Lake Ray Hubbard|92.05
+West Okoboji Lake|15.57
+America Lake|0.05
+Kingsley Lake|8.09
+Gibbons Creek Reservoir|11.21
+Canyon Lake|33.31
+Jenny Lake|4.96
+Indian Lake|23
+Chebacco Lake|0.85
+Saint Mary Lake|15.8
+Chatuge Lake|28
+Sam Rayburn Reservoir|463.37|Sam Rayburn
+Lewisville Lake|119.75
+Rainy Lake|932
+Sylvan Lake|0.07
+Grand Lake|2.05
+Upper Klamath Lake|250
+Truman Reservoir|225.01|Truman
+Watauga Lake|26.02
+Bull Shoals Lake|182.72
+Flaming Gorge Reservoir|170.05|Flaming Gorge
+Fort Peck Lake|991.48
+Lake Drummond|13
+Lake Wawasee|12
+Cass Lake|5.2
+Lake Isabella|44.52
+Lake Burton|11.23
+Dale Hollow Reservoir|125.41|Dale Hollow
+Guntersville Lake|279.23
+Crystal Lake|39.88
+Jordan Lake|56.4
+Lake of the Clouds|0.54
+Greenwood Lake|7.8
+Lake Conroe|85
+Douglas Lake|115
+Green Lake|29.73
+Lake Wylie|54
+Old Hickory Lake|91.05
+Folsom Lake|46.3
+Lake Jesup|64.75
+Walloon Lake|17.28
+Lake Strom Thurmond|287.73
+Gun Lake|10.85
+Houghton Lake|81.12
+Shaver Lake|8.81
+Castaic Lake|8.94
+Newfound Lake|16.6
+Henderson Lake|1.14
+Honey Lake|222.74
+Lake Mohave|107
+San Luis Reservoir|51|San Luis
+Tenkiller Ferry Lake|52.2
+Hume Lake|0.35
+Lake Cushman|16.25
+Lake Nacimiento|21.85
+Theodore Roosevelt Lake|86.98
+Cachuma Lake|12.55
+Kensico Reservoir|8.66|Kensico
+Lake Butte des Morts|34.7
+Lake James|27.6
+Lake Livingston|336
+Lake Seminole|152
+Lake Sinclair|62.04
+Lake Tapps|9.85
+Tule Lake|52.61
+Badin Lake|21.7
+Center Hill Lake|73.73
+Lake Barkley|234
+Monroe Lake|43.5
+Lake Oroville|63
+Hebgen Lake|50.84
+High Rock Lake|61.43
+Lake Charlevoix|69.88
+Greers Ferry Lake|163.9
+Lake Buchanan|90.4
+Lake Koshkonong|42.33
+Lake Waccamaw|36.17
+Grapevine Lake|29.46
+Laguna Madre|1136.8
+Lake Whitney|95.83
+Banks Lake|108.8
+Lake Gogebic|54.15
+Lake Tawakoni|149
+Rogers Dry Lake|112
+Sevier Lake|487
+Weiss Lake|122.22
+Broken Bow Lake|56.66
+Carlyle Lake|105.22
+Gull Lake|40.25
+Lake Lyndon B. Johnson|26.44
+Lake Moultrie|242.81
+Lake Winnibigoshish|228.53
+Patoka Lake|35.61
+Ross Barnett Reservoir|134.68|Ross Barnett
+Pickwick Lake|174
+Pymatuning Reservoir|69.15|Pymatuning
+Strawberry Reservoir|69.46|Strawberry
+Waldo Lake|26
+Big Stone Lake|51
+Castle Rock Lake|67.34
+Cherokee Lake|116.47
+Falcon International Reservoir|353.7|Falcon International
+Goose Lake|380
+Joe Pool Lake|31.32
+Mark Twain Lake|75.27
+Mooselookmeguntic Lake|65.96
+Sardis Lake|398.7
+Big Sandy Lake|26.41
+Lake Palestine|103.4
+Lake Tohopekaliga|91.86
+Navajo Lake|63.13
+Chickamauga Lake|146.66
+Lake Fork Reservoir|110.33
+Lake Houston|47.97
+Lake Shelbyville|44.92
+Moses Lake|27.17
+Mullett Lake|67.3
+Rend Lake|76.49
+Tims Ford Lake|43.3
+Wilson Lake|36.6
+Allegheny Reservoir|48.56|Allegheny
+Cave Run Lake|33.47
+Don Pedro Reservoir|52.61|Don Pedro
+Falls Lake|50
+Lake Abert|147.63
+Logan Martin Lake|68.8
+New Melones Lake|51
+Ross Lake|47.35
+Lake Bemidji|28
+Petenwell Lake|93.78
+Umbagog Lake|31.8
+Amistad Reservoir|262.64|Amistad
+Eagle Lake|97
+Foss Reservoir|35.61|Foss
+Lake Chippewa|59.06
+Lake Corpus Christi|73.88
+Lake Francis Case|412.78
+Lake Red Rock|62.81
+Lake Waco|33.14
+Owasco Lake|27.45
+Belton Lake|50.12
+Flagstaff Lake|82
+Great Pond|34.53
+Hubbard Lake|35.8
+Lavon Lake|86.6
+Lewis and Clark Lake|130
+Milford Lake|63.54
+Stockton Lake|101.01
+Walter F. George Lake|182.84
+Watts Bar Reservoir|157.83|Watts Bar
+Burt Lake|69.3
+Canyon Ferry Lake|135.71
+Great Salt Plains Lake|37.64
+Lake Maurepas|240
+Lake Wedowee|43.14
+Mosquito Creek Lake|31.77
+Kaw Lake|68.8
+Lake Meredith|87.57
+Lake Ray Roberts|103.6
+Lake Wisconsin|38
+Pomme de Terre Lake|32
+Rangeley Lake|25.5
+Lake Wateree|56.11
+Tuttle Creek Lake|50
+West Point Lake|104.67
+Camanche Reservoir|31.16|Camanche
+Elk Lake|31.28
+Rathbun Lake|44.52
+Richland-Chambers Reservoir|167.36|Richland-Chambers
+South Holston Lake|30.68
+Summer Lake|101.17
+Wheeler Lake|272
+Choke Canyon Reservoir|103.88|Choke Canyon
+Cranberry Lake|28.23
+Lake Blackshear|34.4
+Lake Dardanelle|161.87
+Otter Tail Lake|54.39
+Ozette Lake|29.5
+Clinton Lake|28.33
+East Grand Lake|64.41
+John Martin Reservoir|47.18|John Martin
+Lake Hamilton and Lake Catherine|29.14
+Lake Harris|61
+Lake Limestone|55.36
+Saganaga Lake|56
+Perry Lake|45.11
+Richard B. Russell Lake|107.85
+Riffe Lake|45.41
+San Carlos Lake|78.91
+Willard Bay|40.06
+El Dorado Lake|32.37
+Lake Granbury|33.63
+Lake O' the Pines|75.6
+Lake Wappapello|33.99
+Oologah Lake|117.36
+Red Bluff Reservoir|45.3|Red Bluff
+Smithville Lake|29.1
+Tustumena Lake|295.42
+Waconda Lake|51
+Burntside Lake|28.89
+Cheney Reservoir|38.65|Cheney
+Cross Lake|34.7
+Fern Ridge Reservoir|37.88|Fern Ridge
+Ivanpah Lake|34
+Malheur Lake|201
+Orange Lake|50.79
+Skiatook Lake|42.49
+Teshekpuk Lake|828.8
+Barren River Lake|40.87
+Beaver Dam Lake|27.19
+Chesuncook Lake|102
+DeGray Lake|55.85
+East Lake Tohopekaliga|48.43
+Grenada Lake|141.64
+Lake Istokpoga|113
+Manistique Lake|40.99
+Millwood Lake|118.17
+Owyhee Reservoir|56.25|Owyhee
+Schoodic Lake|28.41
+Shawano Lake|25
+Stillhouse Hollow Lake|26.02
+Turtle-Flambeau Flowage|52.37
+Conchas Lake|38.85
+Crab Orchard Lake|28.19
+Harlan County Reservoir|53.62|Harlan County
+Lake Allison|7769.96
+Lake Bridgeport|48.38
+Lake Conway|27.11
+Lake Osakis|25.37
+Lake Summit|67.18
+O.H. Ivie Lake|80.94
+Robert S. Kerr Reservoir|174.01|Robert S. Kerr
+Wright Patman Lake|82.15
+Bois D'Arc Lake|67.34
+Calcasieu Lake|198.91
+Fort Loudoun Lake|55.72
+Graham Lake|37.97
+Lake Altus-Lugert|25.33
+Lake Claiborne|25.9
+Lake D'Arbonne|62
+Lake Onalaska|31.11
+Lake Phelps|67.18
+Lake Poygan|56.75
+Lake Saint Francis|272
+Lake Sharpe|230.2
+Lake Texana|39.36
+Neely Henry Lake|45.32
+Rodman Reservoir|52.61|Rodman
+Shoshone Lake|31
+Wickiup Reservoir|45|Wickiup
+Blue Cypress Lake|26.3
+Cedar Bluff Reservoir|27.8|Cedar Bluff
+Cordell Hull Lake|48.4
+Fletcher Pond|36.42
+Lake Brownwood|29.54
+Lake Manix|236
+Lake Maumelle|36
+Lake Thompson|65.7
+Lake Verret|56.98
+Rosamond Lake|35
+Tsala Apopka Lake|77
+Agency Lake|37.63
+C. J. Strike Reservoir|30.35|C. J. Strike
+Catahoula Lake|121.41
+Chamberlain Lake|44.24
+Doctors Lake|33.67
+Fontenelle Reservoir|32.37|Fontenelle
+Fossil Lake|26.42
+Harney Lake|106.84
+John Redmond Reservoir|38.04|John Redmond
+Lake Earl|27.92
+Lake Eustis|31.7
+Lake Lahontan|40
+Melvern Lake|27.97
+Namakan Lake|97.4
+Newnans Lake|30.42
+Pemadumcook Chain of Lakes|74.06
+Prado Reservoir|26.71|Prado
+Richardson Lakes|31.37
+Spednic Lake|70
+Twin Buttes Reservoir|36.75|Twin Buttes
+Big Lake|42.27
+Caballo Lake|44.52
+Hugo Lake|53.62
+Jim Chapman Lake|78.12
+Lac des Allemands|49
+Lake DuBay|27.11
+Lake Kickapoo|25.09
+Waubay Lake|62.89
+Willow Reservoir|25.52
+Clear Lake Reservoir|104.25
+E.V. Spence Reservoir|60.5|E.V. Spence
+Imperial Reservoir|28|Imperial
+Lake Cataouatche|37.55
+Lake Entiat|29.02
+Lake Palomas|9064.96
+Lake Palourde|46.62
+Lake Walcott|44.52
+Lake Wister|30
+Meddybemps Lake|27.38
+Selawik Lake|1046.36
+Stump Lake|63.71
+Waurika Lake|40.47
+Aleknagik Lake|89.5
+Crooked Lake|41.9
+Crump Lake|31.08
+Kukaklek Lake|173.72
+Lake Elwell|60.06
+Lake Sacajawea|34
+Lake Wanapum|58.12
+R.E. "Bob" Woodruff Lake|51.8
+Silver Lake|42.29
+Tom Steed Reservoir|25.9|Tom Steed
+Whitefish Lake|29.8
+Baskahegan Lake|27.58
+Heron Lake|32.36
+Hop Brook Lake|42.48
+Imuruk Lake|68
+Lake Herbert G. West|26.67
+Lake Latt|26.63
+Millinocket Lake|34.69
+Nerka Lake|193
+Pelican Lake|46.7
+Tazlina Lake|158
+Togiak Lake|39
+Ugashik Lakes|199.4
+Webbers Falls Lake|46.94
+Mother Goose Lake|28.5
+John Paul Hammerschmidt Lake|31.16
 `;
 
 export const RIVERS = `
