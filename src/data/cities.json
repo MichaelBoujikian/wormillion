@@ -2772,7 +2772,9 @@
   "id": "city-george-town",
   "category": "city",
   "name": "George Town",
-  "aliases": [],
+  "aliases": [
+   "Georgetown"
+  ],
   "size": 790000,
   "sizeUnit": "population",
   "region": [
@@ -61637,29 +61639,6 @@
   "lon": -80.645902
  },
  {
-  "id": "city-athens",
-  "category": "city",
-  "name": "Athens",
-  "aliases": [],
-  "size": 127315,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Athens, Georgia\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 15798,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Athens, Georgia",
-  "lat": 33.95,
-  "lon": -83.38333333
- },
- {
   "id": "city-midland",
   "category": "city",
   "name": "Midland",
@@ -63871,7 +63850,9 @@
   "id": "city-port-st-lucie",
   "category": "city",
   "name": "Port St. Lucie",
-  "aliases": [],
+  "aliases": [
+   "Port Saint Lucie"
+  ],
   "size": 204851,
   "sizeUnit": "population",
   "region": [
@@ -64234,52 +64215,6 @@
   "wikiTitle": "Metairie, Louisiana",
   "lat": 29.99777778,
   "lon": -90.1775
- },
- {
-  "id": "city-georgetown",
-  "category": "city",
-  "name": "Georgetown",
-  "aliases": [],
-  "size": 67176,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Georgetown, Texas\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 7001,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Georgetown, Texas",
-  "lat": 30.63277778,
-  "lon": -97.67722222
- },
- {
-  "id": "city-edinburg",
-  "category": "city",
-  "name": "Edinburg",
-  "aliases": [],
-  "size": 100243,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Edinburg, Texas\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 6910,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Edinburg, Texas",
-  "lat": 26.30416667,
-  "lon": -98.16388889
  },
  {
   "id": "city-jonesboro",
@@ -66347,7 +66282,9 @@
   "id": "city-woodbridge-township",
   "category": "city",
   "name": "Woodbridge Township",
-  "aliases": [],
+  "aliases": [
+   "Woodbridge"
+  ],
   "size": 103639,
   "sizeUnit": "population",
   "region": [
@@ -66554,7 +66491,9 @@
   "id": "city-clinton-township",
   "category": "city",
   "name": "Clinton Township",
-  "aliases": [],
+  "aliases": [
+   "Clinton"
+  ],
   "size": 100513,
   "sizeUnit": "population",
   "region": [

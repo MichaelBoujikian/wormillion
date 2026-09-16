@@ -4046,24 +4046,12 @@
   "lon": -121.79957361
  },
  {
-  "id": "mountain-south-sister",
-  "category": "mountain",
-  "name": "South Sister",
-  "aliases": [],
-  "size": 3157,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Three Sisters (Oregon)\", 60-day daily median (60 days ending 2026-09-16); Standard reference summit elevations (m)",
-  "magnitude": 4049,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Three Sisters (Oregon)",
-  "lat": 44.103449,
-  "lon": -121.7692058
- },
- {
   "id": "mountain-three-sisters",
   "category": "mountain",
   "name": "Three Sisters",
-  "aliases": [],
+  "aliases": [
+   "South Sister"
+  ],
   "size": 3157,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Three Sisters (Oregon)\", 60-day daily median (60 days ending 2026-09-16); Standard reference summit elevations (m)",
@@ -14728,12 +14716,12 @@
   ],
   "size": 1512,
   "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Kailash\", 60-day daily median (60 days ending 2026-09-16); Standard reference summit elevations (m)",
-  "magnitude": 53209,
+  "source": "English Wikipedia pageviews for \"Mount Song\", 60-day daily median (60 days ending 2026-09-16); Standard reference summit elevations (m)",
+  "magnitude": 1583,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Kailash",
-  "lat": 31.06666667,
-  "lon": 81.3125
+  "wikiTitle": "Mount Song",
+  "lat": 34.472416,
+  "lon": 112.934647
  },
  {
   "id": "mountain-mount-heng",

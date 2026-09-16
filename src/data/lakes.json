@@ -11212,7 +11212,7 @@
   "category": "lake",
   "name": "Overuman",
   "aliases": [],
-  "size": 88,
+  "size": 52.5,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Överuman\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
   "magnitude": 30,
@@ -11225,7 +11225,9 @@
   "id": "lake-siiddasjavri",
   "category": "lake",
   "name": "Siiddasjavri",
-  "aliases": [],
+  "aliases": [
+   "Sitasjaure"
+  ],
   "size": 73.1,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Siiddašjávri\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -11323,7 +11325,9 @@
   "id": "lake-orsa-lake",
   "category": "lake",
   "name": "Orsa Lake",
-  "aliases": [],
+  "aliases": [
+   "Orsasjon"
+  ],
   "size": 52.17,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Orsa Lake\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -11351,7 +11355,9 @@
   "id": "lake-ivo-lake",
   "category": "lake",
   "name": "Ivo Lake",
-  "aliases": [],
+  "aliases": [
+   "Ivosjon"
+  ],
   "size": 50.16,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Ivö Lake\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -11407,7 +11413,9 @@
   "id": "lake-sadvvajavrre",
   "category": "lake",
   "name": "Sadvvajavrre",
-  "aliases": [],
+  "aliases": [
+   "Sadvajaure"
+  ],
   "size": 40.11,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Sädvvájávrre\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -11449,7 +11457,9 @@
   "id": "lake-rostojavri",
   "category": "lake",
   "name": "Rostojavri",
-  "aliases": [],
+  "aliases": [
+   "Rastojaure"
+  ],
   "size": 34.14,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Rostojávri\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",

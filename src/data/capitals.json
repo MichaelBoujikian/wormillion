@@ -2798,7 +2798,9 @@
   "id": "capital-prague",
   "category": "capital",
   "name": "Prague",
-  "aliases": [],
+  "aliases": [
+   "Praha"
+  ],
   "size": 10500000,
   "sizeUnit": "population_of_country",
   "region": [

@@ -121,7 +121,7 @@ Romania|Bucharest|19900000|Europe|Eastern Europe
 Netherlands|Amsterdam|17600000|Europe|Western Europe|Holland,The Netherlands|The Hague
 Belgium|Brussels|11700000|Europe|Western Europe
 Sweden|Stockholm|10600000|Europe|Scandinavia & the Nordics
-Czechia|Prague|10500000|Europe|Eastern Europe|Czech Republic
+Czechia|Prague|10500000|Europe|Eastern Europe|Czech Republic|Praha
 Greece|Athens|10400000|Europe
 Portugal|Lisbon|10200000|Europe|Western Europe
 Hungary|Budapest|9600000|Europe|Eastern Europe

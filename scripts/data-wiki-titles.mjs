@@ -1589,7 +1589,6 @@ export const WIKI_TITLES = {
   "river-ene": "Ene River",
   "river-tambo": "Tambo River (Peru)",
   "river-urubamba": "Urubamba River",
-  "river-vilcanota": "Vilcanota River",
   "river-mantaro": "Mantaro River",
   "river-pachitea": "Pachitea River",
   "river-napo": "Napo River",
@@ -1871,7 +1870,7 @@ export const WIKI_TITLES = {
   "river-xiang": "Xiang River",
   "river-gan": "Gan River",
   "river-qiantang": "Qiantang River",
-  "river-ou": "Nam Ou",
+  "river-ou": "Ou River (Zhejiang)",
   "river-jiulong": "Jiulong River",
   "river-dong": "Dong River (China)",
   "river-bei": "Bei River",
@@ -2049,7 +2048,6 @@ export const WIKI_TITLES = {
   "river-sekong": "Sekong River",
   "river-srepok": "Srepok River",
   "river-sesan": "Sesan River",
-  "river-bassac": "Bassac River",
   "river-nam-khan": "Nam Khan",
   "river-da": "Da River",
   "river-ca": "Ca River",
@@ -2071,7 +2069,7 @@ export const WIKI_TITLES = {
   "river-kapuas": "Kapuas River",
   "river-mahakam": "Mahakam River",
   "river-barito": "Barito River",
-  "river-musi": "Musi River (India)",
+  "river-musi": "Musi River (Indonesia)",
   "river-batang-hari": "Batang Hari River",
   "river-kampar": "Kampar River",
   "river-indragiri": "Indragiri River",
@@ -3638,8 +3636,8 @@ export const WIKI_TITLES = {
   // --- desert auto-resolved titles (2026-09-14 expansion) ---
   "desert-skeleton-coast": "Iona – Skeleton Coast Transfrontier Conservation Area",
   // --- sea_ocean auto-resolved titles (2026-09-14 expansion) ---
-  "sea_ocean-firth-of-forth": "Firth",
-  "sea_ocean-firth-of-clyde": "Firth",
+  "sea_ocean-firth-of-forth": "Firth of Forth",
+  "sea_ocean-firth-of-clyde": "Firth of Clyde",
   "sea_ocean-morecambe-bay": "Morecambe Bay",
   "sea_ocean-sea-of-the-hebrides": "Sea of the Hebrides",
   "sea_ocean-gulf-of-corinth": "Gulf of Corinth",
@@ -3658,7 +3656,7 @@ export const WIKI_TITLES = {
   "island-bintan": "Bintan Island",
   // --- wrong-subject re-audit (2026-09-15) ---
   "island-coney-island": "Coney Island, County Sligo",
-  "mountain-mount-song": "Mount Kailash",
+  "mountain-mount-song": "Mount Song",
   "lake-lake-rukwa": "African Great Lakes",
 
   // --- river (2026-09-14 expansion) ---
@@ -3761,7 +3759,6 @@ export const WIKI_TITLES = {
   "city-abilene": "Abilene, Texas",
   "city-bridgeport": "Bridgeport, Connecticut",
   "city-youngstown": "Youngstown, Ohio",
-  "city-athens": "Athens, Georgia",
   "city-midland": "Midland, Texas",
   "city-erie": "Erie, Pennsylvania",
   "city-frisco": "Frisco, Texas",
@@ -3874,8 +3871,6 @@ export const WIKI_TITLES = {
   "city-gilbert": "Gilbert, Arizona",
   "city-gulfport": "Gulfport, Mississippi",
   "city-metairie": "Metairie, Louisiana",
-  "city-georgetown": "Georgetown, Texas",
-  "city-edinburg": "Edinburg, Texas",
   "city-jonesboro": "Jonesboro, Arkansas",
   "city-allen": "Allen, Texas",
   "city-greeley": "Greeley, Colorado",
@@ -4318,5 +4313,9 @@ export const WIKI_VERIFIED = new Set([
   "sea_ocean-gulf-of-corinth",
   "sea_ocean-gulf-of-cagliari",
   // --- Pance River (Cali) has no Wikidata description; the article is the river ---
-  "river-pance"
+  "river-pance",
+  // --- 2026-09-15: Mount Song is the Henan range (Songshan); the two firths are the estuary and the inlet, both real seas for the game ---
+  "mountain-mount-song",
+  "sea_ocean-firth-of-forth",
+  "sea_ocean-firth-of-clyde"
 ]);

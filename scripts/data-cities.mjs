@@ -176,7 +176,7 @@ Chiang Mai|Thailand|130000|Chiangmai
 Pattaya|Thailand|120000
 Yangon|Myanmar|5200000|Rangoon
 Mandalay|Myanmar|1200000
-George Town|Malaysia|790000
+George Town|Malaysia|790000|Georgetown
 Quezon City|Philippines|2960000
 Davao City|Philippines|1780000|Davao
 Cebu City|Philippines|960000
@@ -2621,7 +2621,6 @@ Stamford|United States|135470
 Abilene|United States|125182
 Bridgeport|United States|148654
 Youngstown|United States|60068
-Athens|United States|127315
 Midland|United States|132524
 Erie|United States|94831
 Frisco|United States|200509
@@ -2718,7 +2717,7 @@ Edison|United States|107588
 Wasilla|United States|9054
 Rockville|United States|67117
 Palmdale|United States|169450
-Port St. Lucie|United States|204851
+Port St. Lucie|United States|204851|Port Saint Lucie
 Simi Valley|United States|126356
 Elizabeth|United States|137298
 Lakewood Township|United States|135158
@@ -2734,8 +2733,6 @@ Garden Grove|United States|171949
 Gilbert|United States|267918
 Gulfport|United States|72926
 Metairie|United States|143507
-Georgetown|United States|67176
-Edinburg|United States|100243
 Jonesboro|United States|78576
 Allen|United States|104627
 Greeley|United States|108795
@@ -2826,7 +2823,7 @@ League City|United States|114392
 West Valley City|United States|140230
 Rialto|United States|104026
 Caldwell|United States|59996
-Woodbridge Township|United States|103639
+Woodbridge Township|United States|103639|Woodbridge
 Westminster|United States|116317
 Ankeny|United States|67887
 Lehigh Acres|United States|114287
@@ -2835,7 +2832,7 @@ Avondale|United States|89334
 Riverview|United States|107396
 Thornton|United States|141867
 Enterprise|United States|221831
-Clinton Township|United States|100513
+Clinton Township|United States|100513|Clinton
 South Burlington|United States|20292
 Citrus Heights|United States|87583
 Jurupa Valley|United States|105053

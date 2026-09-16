@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T02:31:09.734Z",
+ "fetched": "2026-09-16T03:04:15.920Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -20990,13 +20990,6 @@
    "lat": 41.099095,
    "lon": -80.645902
   },
-  "city-athens": {
-   "title": "Athens, Georgia",
-   "monthlyViews": 15798,
-   "days": 59,
-   "lat": 33.95,
-   "lon": -83.38333333
-  },
   "city-midland": {
    "title": "Midland, Texas",
    "monthlyViews": 15281,
@@ -21780,20 +21773,6 @@
    "days": 59,
    "lat": 29.99777778,
    "lon": -90.1775
-  },
-  "city-georgetown": {
-   "title": "Georgetown, Texas",
-   "monthlyViews": 7001,
-   "days": 59,
-   "lat": 30.63277778,
-   "lon": -97.67722222
-  },
-  "city-edinburg": {
-   "title": "Edinburg, Texas",
-   "monthlyViews": 6910,
-   "days": 59,
-   "lat": 26.30416667,
-   "lon": -98.16388889
   },
   "city-jonesboro": {
    "title": "Jonesboro, Arkansas",
@@ -38770,13 +38749,6 @@
    "lat": -10.70194444,
    "lon": -73.75416667
   },
-  "river-vilcanota": {
-   "title": "Urubamba River",
-   "monthlyViews": 1218,
-   "days": 60,
-   "lat": -10.70194444,
-   "lon": -73.75416667
-  },
   "river-mantaro": {
    "title": "Mantaro River",
    "monthlyViews": 822,
@@ -40822,11 +40794,11 @@
    "lon": 120.6889
   },
   "river-ou": {
-   "title": "Nam Ou",
-   "monthlyViews": 183,
+   "title": "Ou River (Zhejiang)",
+   "monthlyViews": 152,
    "days": 60,
-   "lat": 20.05,
-   "lon": 102.21666667
+   "lat": 27.91966667,
+   "lon": 120.90022222
   },
   "river-jiulong": {
    "title": "Jiulong River",
@@ -42172,13 +42144,6 @@
    "lat": null,
    "lon": null
   },
-  "river-bassac": {
-   "title": "Bassac River",
-   "monthlyViews": 426,
-   "days": 60,
-   "lat": 9.51666667,
-   "lon": 106.21666667
-  },
   "river-nam-khan": {
    "title": "Nam Khan",
    "monthlyViews": 152,
@@ -42348,11 +42313,11 @@
    "lon": 114.49111111
   },
   "river-musi": {
-   "title": "Musi River (India)",
-   "monthlyViews": 2009,
-   "days": 60,
-   "lat": 17.36666667,
-   "lon": 78.46666667
+   "title": "Musi River (Indonesia)",
+   "monthlyViews": 487,
+   "days": 59,
+   "lat": -2.34361111,
+   "lon": 104.9225
   },
   "river-batang-hari": {
    "title": "Batang Hari River",
@@ -45825,13 +45790,6 @@
    "days": 60,
    "lat": 44.6743006,
    "lon": -121.79957361
-  },
-  "mountain-south-sister": {
-   "title": "Three Sisters (Oregon)",
-   "monthlyViews": 4049,
-   "days": 60,
-   "lat": 44.103449,
-   "lon": -121.7692058
   },
   "mountain-three-sisters": {
    "title": "Three Sisters (Oregon)",
@@ -51084,11 +51042,11 @@
    "lon": 115.04305556
   },
   "mountain-mount-song": {
-   "title": "Mount Kailash",
-   "monthlyViews": 53209,
+   "title": "Mount Song",
+   "monthlyViews": 1583,
    "days": 60,
-   "lat": 31.06666667,
-   "lon": 81.3125
+   "lat": 34.472416,
+   "lon": 112.934647
   },
   "mountain-mount-heng": {
    "title": "Mount Heng (Hunan)",
@@ -64300,18 +64258,18 @@
    "lon": -3.2
   },
   "sea_ocean-firth-of-forth": {
-   "title": "Firth",
-   "monthlyViews": 2527,
+   "title": "Firth of Forth",
+   "monthlyViews": 13485,
    "days": 60,
-   "lat": null,
-   "lon": null
+   "lat": 56.048,
+   "lon": -3.053
   },
   "sea_ocean-firth-of-clyde": {
-   "title": "Firth",
-   "monthlyViews": 2527,
+   "title": "Firth of Clyde",
+   "monthlyViews": 4140,
    "days": 60,
-   "lat": null,
-   "lon": null
+   "lat": 55.66666667,
+   "lon": -5
   },
   "sea_ocean-moray-firth": {
    "title": "Moray Firth",

@@ -304,7 +304,10 @@
   "id": "river-rio-grande",
   "category": "river",
   "name": "Rio Grande",
-  "aliases": [],
+  "aliases": [
+   "Rio Bravo",
+   "Rio Bravo del Norte"
+  ],
   "size": 3051,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Rio Grande\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -22406,25 +22409,10 @@
   "category": "river",
   "name": "Urubamba",
   "aliases": [
-   "Rio Urubamba"
+   "Rio Urubamba",
+   "Vilcanota"
   ],
   "size": 724,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Urubamba River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 1218,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Urubamba River",
-  "lat": -10.70194444,
-  "lon": -73.75416667
- },
- {
-  "id": "river-vilcanota",
-  "category": "river",
-  "name": "Vilcanota",
-  "aliases": [
-   "Rio Vilcanota"
-  ],
-  "size": 217,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Urubamba River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 1218,
@@ -27045,12 +27033,12 @@
   ],
   "size": 388,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Nam Ou\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 183,
+  "source": "English Wikipedia pageviews for \"Ou River (Zhejiang)\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "magnitude": 152,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nam Ou",
-  "lat": 20.05,
-  "lon": 102.21666667
+  "wikiTitle": "Ou River (Zhejiang)",
+  "lat": 27.91966667,
+  "lon": 120.90022222
  },
  {
   "id": "river-jiulong",
@@ -29824,20 +29812,6 @@
   "wikiTitle": "Nam Ngum River"
  },
  {
-  "id": "river-bassac",
-  "category": "river",
-  "name": "Bassac",
-  "aliases": [],
-  "size": 90,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Bassac River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 426,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Bassac River",
-  "lat": 9.51666667,
-  "lon": 106.21666667
- },
- {
   "id": "river-nam-khan",
   "category": "river",
   "name": "Nam Khan",
@@ -29958,7 +29932,9 @@
   "category": "river",
   "name": "Hau",
   "aliases": [
-   "Hau River"
+   "Hau River",
+   "Bassac",
+   "Bassac River"
   ],
   "size": 220,
   "sizeUnit": "length_km",
@@ -30188,12 +30164,12 @@
   "aliases": [],
   "size": 750,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Musi River (India)\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 2009,
+  "source": "English Wikipedia pageviews for \"Musi River (Indonesia)\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "magnitude": 487,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Musi River (India)",
-  "lat": 17.36666667,
-  "lon": 78.46666667
+  "wikiTitle": "Musi River (Indonesia)",
+  "lat": -2.34361111,
+  "lon": 104.9225
  },
  {
   "id": "river-batang-hari",
@@ -32404,7 +32380,7 @@
   "aliases": [
    "Rio Catatumbo"
   ],
-  "size": 500,
+  "size": 338,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Catatumbo River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 578,
@@ -32692,7 +32668,7 @@
   "aliases": [
    "Rio Caguan"
   ],
-  "size": 470,
+  "size": 630,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Caguán River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 30,
@@ -33238,7 +33214,7 @@
   "aliases": [
    "Rio Ajaju"
   ],
-  "size": 770,
+  "size": 260,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Ajajú River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 16,

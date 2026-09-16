@@ -782,24 +782,24 @@ Storavan|183.5
 Stora Lulevatten|162.72
 Stora Le|136.1
 Dellen|131
-Overuman|88
-Siiddasjavri|73.1
+Overuman|52.5
+Siiddasjavri|73.1|Sitasjaure
 Tjeggelvas|66.88
 Baven|64.19
 Karats|59.74
 Annsjon|57.46
 Mjorn|54.53
 Lelang|52.93
-Orsa Lake|52.17
+Orsa Lake|52.17|Orsasjon
 Storvindeln Lake|52.16
-Ivo Lake|50.16
+Ivo Lake|50.16|Ivosjon
 Helgasjon|48.53
 Viken|45.71
 Takern|44.06
-Sadvvajavrre|40.11
+Sadvvajavrre|40.11|Sadvajaure
 Vasman|39.11
 Tisnaren|37.79
-Rostojavri|34.14
+Rostojavri|34.14|Rastojaure
 Asunden|32.73
 Lygnern|31.48
 `;
@@ -824,7 +824,7 @@ Mississippi|3766-6275|Mississippi River
 Madeira|3250|Madeira River
 Purus|3211
 Yukon|3190|Yukon River
-Rio Grande|3051
+Rio Grande|3051|Rio Bravo,Rio Bravo del Norte
 Saint Lawrence|3058|St Lawrence
 Sao Francisco|2914
 Volga|3531|Volga River
@@ -2324,8 +2324,7 @@ Huallaga|1138|Rio Huallaga
 Apurimac|698|Rio Apurimac
 Ene|216|Rio Ene
 Tambo|136|Rio Tambo
-Urubamba|724|Rio Urubamba
-Vilcanota|217|Rio Vilcanota
+Urubamba|724|Rio Urubamba,Vilcanota
 Mantaro|724|Rio Mantaro
 Pachitea|400|Rio Pachitea
 Napo|1075|Rio Napo
@@ -2811,7 +2810,6 @@ Srepok|480
 Sesan|462|Se San
 Nam Ou|448
 Nam Ngum|354
-Bassac|90
 Nam Khan|90
 Da|927|Da River
 Ca|531|Song Lam
@@ -2820,7 +2818,7 @@ Dong Nai|586
 Lo|470
 Saigon River|225
 Tien|234|Tien River
-Hau|220|Hau River
+Hau|220|Hau River,Bassac,Bassac River
 Thu Bon|205
 Perfume River|80|Huong River
 Pahang|459
@@ -2991,7 +2989,7 @@ Rewa (Fiji)|145|Rewa River
 Sigatoka|120
 Navua|40
 Cano Cristales|100
-Catatumbo|500|Rio Catatumbo
+Catatumbo|338|Rio Catatumbo
 Bogota|375|Rio Bogota
 Sinu|415|Rio Sinu
 Medellin|100|Rio Medellin
@@ -3010,7 +3008,7 @@ Zulia|310|Rio Zulia
 Anchicaya|100|Rio Anchicaya
 Baudo|150|Rio Baudo
 Vita|520|Rio Vita
-Caguan|470|Rio Caguan
+Caguan|630|Rio Caguan
 Cahuinari|400|Rio Cahuinari
 Cali|50|Rio Cali
 Capanaparo|650|Rio Capanaparo
@@ -3045,7 +3043,7 @@ Cotuhe|335|Rio Cotuhe
 Coello|112|Rio Coello
 Cara Parana|260|Rio Cara Parana
 Guamues|140|Rio Guamues
-Ajaju|770|Rio Ajaju
+Ajaju|260|Rio Ajaju
 Cuja|48|Rio Cuja
 Sardinata|170|Rio Sardinata
 Cusiana|245|Rio Cusiana
@@ -3336,8 +3334,7 @@ Clouds Rest|3025
 Mount Tallac|2957
 Mount Rose|3285
 Mount Jefferson|3199
-South Sister|3157
-Three Sisters|3157
+Three Sisters|3157|South Sister
 Mount Bachelor|2764
 Mount Thielsen|2799
 Mount McLoughlin|2894

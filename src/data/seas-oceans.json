@@ -2291,10 +2291,12 @@
   "aliases": [],
   "size": 1600,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Firth\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
-  "magnitude": 2527,
+  "source": "English Wikipedia pageviews for \"Firth of Forth\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 13485,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Firth",
+  "wikiTitle": "Firth of Forth",
+  "lat": 56.048,
+  "lon": -3.053,
   "oceans": [
    "Atlantic"
   ]
@@ -2306,10 +2308,12 @@
   "aliases": [],
   "size": 1000,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Firth\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
-  "magnitude": 2527,
+  "source": "English Wikipedia pageviews for \"Firth of Clyde\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 4140,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Firth",
+  "wikiTitle": "Firth of Clyde",
+  "lat": 55.66666667,
+  "lon": -5,
   "oceans": [
    "Atlantic"
   ]
