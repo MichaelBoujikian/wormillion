@@ -8,154 +8,171 @@ that must not be quietly undone, and the gotchas that cost time. Claude Code's
 project memory is keyed to this folder (`C:\Users\smite\repos\wormillion`);
 this file is the memory that survives.
 
-Written 2026-09-15, late evening, at the end of the session that probed the
-bank's coverage (Colombia rivers, US cities, Sweden lakes), filled the gaps,
-tightened the matcher, had two audits go over the additions, shipped it all to
-Netlify and verified the live site. The user then **locked Netlify's
-auto-deploy** so the data work below can proceed without spending builds.
+Written 2026-09-16, mid-morning, at the end of the overnight session that ran
+the **United States wave** of the country-by-country scouring on branch
+`expansion`: rivers, lakes, mountains, islands, seas, deserts probed and
+filled (cities under 100k still running when this was written), four Opus
+audits and their fixes, and a list of rules decisions waiting for the user.
 
 ---
 
 # The job: scour the world, country by country
 
 The user's plan, set 2026-09-15 after the probes showed the bank holds each
-country's *top tier* and little else (Colombia's rivers: 22 of 148 articles;
-US cities over 100k: 169 of 469; Sweden's lakes: 20 of 208):
+country's *top tier* and little else:
 
 > Go through each country and scour to get as many places as we can, all
 > categories per country, in this order: **United States → Western Europe →
 > Mexico and Canada → East Asia → West and Central Asia → South America →
 > Central America → North Africa → the rest of Africa → islands.**
 
-The three probes are the template, and the tooling exists. Start with the
-United States, all categories.
+Decisions the user took 2026-09-15 (late), all in one message:
 
-## Raise this first: Pages and Netlify will drift apart
+1. **Work on branch `expansion`**; merge to `main` only per wave, when they
+   also publish Netlify (both hosts stay in sync; see "Pages and Netlify").
+2. Order within a country: **rivers → lakes → mountains → islands → seas →
+   deserts → cities**. Traps (rivers, lakes) first.
+3. **Floors: keep them low, capture a lot; decide on the spot and report the
+   choice**; a later wave lowers every floor. Cities: 50,000 this wave.
+4. Name-taken places (Portland ME, Birmingham AL, Green River KY, Prince of
+   Wales Island AK…) stay out; no comma-form or parenthetical names.
+5. **Audits on Opus**, piecemeal with checkpoints, up to three at a time.
 
-Every push to `main` deploys **GitHub Pages** (`.github/workflows/deploy.yml`)
-but, now that Netlify is locked, **not Netlify**. The daily comparison is
-served by Netlify's functions, which regenerate the day's prompts from *their*
-copy of the bank and compare fingerprints. When the two banks differ, they
-draw the same fifteen prompts on only ~1 day in 3 (measured: 18 of 60 dailies
-agreed between two banks a week apart), and on the other days a Pages player's
-submission is a silent `draw-mismatch` — the block simply never appears. Some
-players are on `wormillion.netlify.app` itself (their submissions carried the
-old bank's fingerprint through the freeze); they are unaffected.
+## Where the US wave stands (branch `expansion`, 19+ commits ahead of `main`)
 
-Options, with a recommendation:
+| category | probe | added | floor | report |
+|---|---|---|---|---|
+| rivers | 12,717 articles, 238 present | **949** (+ 5 re-pointed, East River off the Dong) | 80 km, or 1,000+ views/mo | `reports/2026-09-16-us-rivers.md` + two audits |
+| lakes | 5,043 articles, 96 present | **372** (+ Lake Crescent, Jackson Lake re-pointed) | 25 km², or 1,000+ views | `-us-lakes.md` + two audits |
+| mountains | 4,355 on 39 list pages, 152 present | **676** (2,280 first, re-cut) | 122 views/mo — no elevation floor | `-us-mountains.md` |
+| islands | 1,803 articles, 85 present | **318** | 1 km², or 1,000+ views | `-us-islands.md` |
+| seas/bays | 951 articles, 111 present | **8** (+ San Francisco Bay re-pointed off the Bay Bridge) | none — but only 11 of 652 have an area | `-us-seas-deserts.md` |
+| deserts | 132 articles, 82 present | **2** | none — only 2 of 12 have an area | same |
+| cities < 100k | `probes/us-cities-50k.json`, 42,857 candidates | running at hand-off; see below | 50,000 | — |
 
-1. **Work on a branch** (`expansion`), push there (CI runs tests + validate on
-   every branch), and merge to `main` only at the end of a wave, when the user
-   also publishes Netlify. Both hosts stay in sync. **Recommended.**
-2. Keep pushing to `main` and accept that Pages players lose the comparison on
-   most days until the next Netlify publish.
-3. Unlock Netlify and let it auto-deploy again (costs builds; it's what the
-   user just turned off).
+Bank **11,619** (was 9,300): rivers 3,192 · lakes 1,162 · mountains 1,985 ·
+islands 1,663 · seas 261 · deserts 131 · cities 2,781 · countries 197 ·
+capitals 247. `bank.js` 1.49 MB. `npm test` 180 · `validate` OK ·
+`gap-check` 419 obvious answers land. Every chunk is its own commit; every
+probe has a report; the four audit reports are under `scripts/expansion/reports/`.
 
-Ask, don't assume; the user decides fast when given the choice.
+**If the cities probe is still running or died:** `scripts/expansion/work/
+us-cities-50k.out` is its log; re-running `node scripts/expansion/probe.mjs
+scripts/expansion/probes/us-cities-50k.json` resumes from the cache (every
+title, size and view is memoised). Then `chunk.mjs … --tag=50k --country=
+"United States"`, fold, pipeline, commit — the loop below. Expect 45
+name-taken cities (Portland ME…) and a handful of CDPs; the previous cities
+probe report (`2026-09-15-us-cities.md`) has the pattern.
+
+## Decisions waiting for the user (present as a numbered list, recommend each)
+
+1. **"Size unknown" in the schema.** SPEC §4 says `size > 0`. 652 US bays,
+   straits and sounds (Pearl Harbor, New York Harbor, the Golden Gate, Cook
+   Inlet, Pamlico Sound…), ~1,100 US islands and 10 US deserts have **no
+   area anywhere** and were left out by the sourced-figure rule.
+   `satisfiesSize` already treats a non-positive size as "never answers a
+   size prompt", and nothing in the UI shows size. Recommend: allow `0`
+   (validate `>= 0`, SPEC amendment, `fold.mjs`), then fold them from the
+   probe outputs in `work/` (the JSONs are there; `chunk.mjs` needs a
+   `--allow-no-figure` switch that writes `0`).
+2. **`MAX_ELIGIBLE_SHARE` 0.6 killed "Name a lake smaller than 100 km²"**:
+   lakes under 100 km² are 60.0% of the cohort, so the guard refuses the
+   rule and dig #1's round 12 became "larger than" (pin updated knowingly in
+   `tests/prompts.test.js`). Every wave adds small lakes. Recommend 0.7, or a
+   25 km² tier in `SIZE_RULES.lake`.
+3. **`reservoir` as a filler word** (45 new "X Reservoir" rows carry a bare
+   alias instead). Recommend yes. **`creek`/`bayou`/`fork`/`branch` as
+   filler**: recommend no (Bear Creek is not Bear River; 159 creeks would
+   collide).
+4. **Two `run.js` rule changes** the audits argued for: (a) when the typed
+   input carries the *current* category's own generic word ("Lake Meade",
+   "Mackinaw Island"), another cohort's loose form must not block the
+   in-category spelling correction (five aliases paper over it for now);
+   (b) the loose pass should not drop a generic word that names *another*
+   category — "Lake Michigan" is accepted as the Michigan River, "Rapid
+   City" as the Rapid River (a 950-point jackpot), "Mount Foraker" as
+   Foraker River; pre-existing class, 49 new cases. Recommend both.
+5. **Same-name second places** — Green River (Kentucky, 618 km), Colorado
+   River (Texas, 1,387 km), Fox River (Green Bay), Grand River (Michigan),
+   Prince of Wales Island (Alaska, the 4th-largest US island), Black Lake
+   ×3, the 45 cities — need a name policy (Wikipedia's parenthetical, reachable
+   only by the fuzzy pass). Recommend: not this wave.
+6. **"Great Lakes"** typed on a lake round is corrected to Great Lake
+   (Tasmania). Recommend an engine guard: never correct a plural onto a
+   singular namesake.
+7. **Themes**: no lake theme covers North America; `the Rockies` was not
+   extended (640 new Rockies peaks answer "isn't in the Rockies") — needs
+   Wikidata P4552 (mountain range). Recommend a `North America` lake theme
+   and a P4552 pass, next session.
+8. Typo casualties the exact-beats-correction rule now causes: "Weiser" →
+   Weser, "Sheyenne" on a capital round, "Harlem" → Haarlem. Recommend leave.
+
+## Pages and Netlify
+
+Every push to `main` deploys **GitHub Pages** but not (locked) **Netlify**;
+a diverged bank breaks the daily comparison for Pages players on ~2 days in
+3. That is why the wave lives on `expansion`: merge to `main` and publish
+Netlify (dashboard → unlock / "Trigger deploy") in one go, then re-verify
+with the checklist in "Netlify, verified live". The audits measured the next
+30 dailies old vs new bank: only dig #1 differs (item 2 above).
 
 ## The loop, one country × category at a time
 
-This is exactly what produced today's 336 additions. Read
-`scripts/expansion/README.md` first (short).
+Read `scripts/expansion/README.md` first. What changed this session:
 
-1. **Probe.** Copy a config from `scripts/expansion/probes/` (three there:
-   `colombia-rivers.json`, `us-cities.json`, `sweden-lakes.json`) and run
-   `node scripts/expansion/probe.mjs scripts/expansion/probes/<name>.json`.
-   It walks a Wikipedia category tree (`roots` + `subcat` regex — keep it to
-   the country's own subcategories, e.g. `^Category:Lakes of .*County`) and/or
-   the links of list pages (`lists`), resolves redirects and descriptions,
-   filters to the kind (`kind` regex on description|title), pushes every
-   article through the game's own matcher, and prints four lists: **present**,
-   **name taken** (the answer is accepted, scored on a same-named place
-   elsewhere — a second row can't exist under the bare name), **fuzzy**
-   (missing, and a natural spelling autocorrects to a different place — the
-   worst kind), **missing**. Views (the scoring stat) and a Wikidata size come
-   with the missing ones. Output and API cache land in `scripts/expansion/work/`
-   (gitignored). Runs 5–15 minutes, mostly Wikipedia throttling.
-2. **Build the chunk.** A small script (today's are in the session scratchpad,
-   not the repo — write a fresh one, it's 60 lines) turns the missing list
-   into `scripts/expansion/work/new-<category>-<tag>.txt` in `fold.mjs`'s
-   format: physical `Name|size|aliases|wikiTitle|themes`, cities
-   `Name|Country|population|aliases|wikiTitle|themes`. Rules that bit today:
-   - **Size must be sourced, and Wikidata must be cross-checked against the
-     article.** Wikidata had the Sinú at 27 km (it's 415), the Ajajú at an
-     unsourced 770 (es.wikipedia: 260), the Atabapo at 131 (article: 280).
-     Order of trust: the English article's infobox → its prose → Wikidata →
-     es/other-language infobox. No figure anywhere → leave it out and list it
-     (55 Colombian rivers are waiting that way).
-   - **Name it as the world names it**, ASCII (`fold.mjs` folds accents), bare
-     of the generic word where the bank's rows are bare ("Sinu", not "Sinu
-     River"; "Takern", not "Lake Takern"), Wikipedia's parenthetical only when
-     the bare name is taken in the cohort.
-   - **A bare name that belongs to a far more famous place already in the
-     bank is not yours.** Georgetown TX (Penang), Athens GA (the capital),
-     Edinburg TX (the standard misspelling of Edinburgh) all went in and came
-     back out after the audit: they turned a nudge or a correction into a
-     wrong acceptance or a false "isn't in Europe". Namesakes of *equally*
-     obscure places are fine (Columbia SC holds "Columbia"; Lancaster CA holds
-     "Lancaster").
-   - **A city may not share a name with a country or island in the bank**
-     (`fold.mjs` refuses; Manhattan and Staten Island stay islands), nor be
-     its country's national capital. US state capitals are cities too — all
-     50 are now in both cohorts.
-   - **Themes:** a themed prompt rejects everything outside its set, so every
-     new row must name the themes it belongs to (`src/data/themes.js` keys:
-     river `South America`/`North America`/`Europe`/…, lake `Scandinavia`/`the
-     Alps`/…, mountain `the Rockies`/`volcanoes`/…, island `the Caribbean`/…).
-     The fold adds them.
-   - Aliases: only real alternative names people type (Spanish/Swedish forms,
-     former names, "Bronx" is free via the filler rule). Don't add "Rio X" /
-     "X River" — the matcher handles generic words.
-3. **Fold.** `node scripts/expansion/fold.mjs --only=<category>-<tag>` (dry
-   run) shows every collision with its reason; `--write` applies to
-   `data-physical.mjs` / `data-cities.mjs`, `data-wiki-titles.mjs` and
-   `themes.js`. Move the folded chunk to `work/folded/`.
-4. **Pipeline**, every time:
-   ```bash
-   npm run fetch-pageviews -- --check   # every title resolves to the right kind of article; fix with fix-titles.mjs (WIKI_TITLES / WIKI_VERIFIED)
-   npm run fetch-pageviews              # views + coordinates for the new rows (cached; a few hundred rows ≈ 2–5 min)
-   npm run build-data && npm run validate && npm test && npm run gap-check
-   ```
-   Add the chunk's headline places to `scripts/gap-check.mjs` (the file shows
-   the pattern), then **one commit per chunk**.
-5. **Audit per wave**, not per chunk: a read-only sub-agent for gameplay
-   (everything lands, every prompt kind that touches the rows, `rarestFor`
-   round-trips, cross-category nudges, the next 30 dailies) and one for data
-   (right place by coordinates + description, right figure vs the article,
-   right name, cohort/theme membership, rarity outliers). The two briefs that
-   worked are recoverable from today's reports (`scripts/expansion/reports/
-   2026-09-15-post-fill-*.md` say exactly what was checked and how). Sonnet
-   by default; the user asked for Opus today and may again.
+1. **Probe** — `node scripts/expansion/probe.mjs scripts/expansion/probes/<name>.json`
+   (copy a `us-*.json`). New config keys: `minSize` (Wikidata size fetched
+   first, views only above the floor), `famousViews` (views fetched below
+   the floor too; 1,000+/mo lifts an item back in), `notKind` (a description
+   veto — "Reservoir on the X River" is not a river), `notKindExemptTitle`
+   (lifts the veto when the title says Island — town-on-island articles),
+   `jsonFile` may be a list (mountains + minor peaks). Sizes and views are
+   memoised per item in `work/<name>-cache.json`, so a re-run after a config
+   change fetches only what is new.
+2. **Sizes** — `node scripts/expansion/article-size.mjs work/<name>.json
+   [--no-figure] [--min-views=N]` reads every article's infobox
+   (convert templates, `length_mi`, `area_acre`, `elevation_ft`…), and the
+   **infobox always wins over Wikidata** (Wikidata is 100× off for one lake
+   in six — hectares — and decimal-shifted for frwiki-imported rivers).
+   Then run the probe **again**: it picks up the article figures and fetches
+   views for what newly clears the floor.
+3. **Chunk** — `node scripts/expansion/chunk.mjs work/<name>.json --tag=<tag>
+   --themes="A;B" [--min-views=N]` writes missing + fuzzy rows in the
+   bank's naming (title minus parenthetical; rivers bare of "River" unless
+   named after a state or country; cities without ", State"). Then hand-edit:
+   remove groups, former lakes, protected areas, concept articles (the
+   filters catch most; `reports/` list what slipped).
+4. **Fold** (`fold.mjs --only=<category>-<tag>`, dry then `--write`), move
+   the chunk to `work/folded/`, then the pipeline: `fetch-pageviews --check`
+   (verify the "landform" / "town on the island" / "no short description"
+   rows with `fix-titles.mjs`), `fetch-pageviews`, `build-data`, `validate`
+   (islands without coordinates need `add-oceans.mjs`), `test`, `gap-check`
+   (add the headline names), **one commit per chunk**.
+5. **Audit per chunk or two**, Opus, data + gameplay in parallel:
+   `scripts/expansion/AUDIT-BRIEF.md` is the brief; the task message names
+   the commits, chunk files, pre-wave commit and the report path; agents
+   write as they go. ~250–440k tokens each. Apply the confirmed fixes, copy
+   the report into `reports/`, commit.
 
-## United States: what's done and what's next
-
-- **Cities:** every city over 100,000 and every state's largest city are in
-  (`reports/2026-09-15-us-cities.md`); 45 are *name-taken* by another place
-  (Portland ME, Birmingham AL, Toledo OH, Worcester MA, Springfield ×2,
-  Santa Clara CA…) and can't be added under their bare name — only Wikipedia's
-  comma form would let them in, which is a rules decision to put to the user.
-  Below 100k the source is per-state: "List of municipalities in <State>" /
-  "List of cities in <State>". Propose a floor (50k? 25k?) before starting —
-  25k is roughly 1,500 more rows.
-- **Lakes, rivers, mountains, islands, deserts, seas/bays/straits: not
-  probed.** Sources: "List of lakes of the United States" and the per-state
-  lists, "List of rivers of the United States" (per state), "List of mountain
-  peaks of the United States" + the state 4,000-footer style lists, "List of
-  islands of the United States" (per state), "List of North American deserts",
-  the bays/straits/sounds of each coast. Category trees exist for all of them
-  (`Category:Lakes of <State>` etc.). Rivers and lakes are where the traps
-  live (a missing name autocorrects elsewhere), so do them early.
-- Countries and capitals are complete by construction; skip.
+Floors used this wave (all "decide on the spot", all reported): rivers 80
+km; lakes 25 km²; **mountains 122 views/mo** (the first cut at 30 views —
+the cohort minimum — put 1,004 peaks at exactly 30 views because the median
+quantises at whole views a day, so 28% of the cohort read 100% and "United
+States" was a 1,000-point mountain; jackpot share by floor 30 → 45%, 61 →
+24%, 91 → 11%, 122 → 2.2%); islands 1 km²; cities 50,000; `famousViews`
+1,000 everywhere it applied.
 
 ## Also queued, lower
 
-- **Docs that lag the bank:** `README.md` still says "1,719 places" and its
-  "Content bank" section doesn't mention `scripts/expansion/`; SPEC §6's count
-  table is at v1.1 numbers (§13 has the rows). `dist/wormillion.html` is the
-  pre-expansion bundle — `npm run bundle` makes a ~1.4 MB one.
-- **Nobody has played the 9,300-place bank for feel.** Three `?debug` runs
-  and a note of what felt off would be worth an hour.
+- **Western Europe** is next in the order: one config per country ×
+  category, the same loop. Expect the "size unknown" decision to matter
+  (fjords, bays, small islands).
+- The worldwide "List of straits" / "List of gulfs" surfaced ~180 non-US
+  straits and gulfs missing from the bank (in `work/us-seas.json`).
+- **Docs that lag the bank:** `README.md` says "1,719 places"; SPEC §6's
+  count table is at v1.1 numbers; `dist/wormillion.html` is the
+  pre-expansion bundle (`npm run bundle` makes a ~1.6 MB one).
+- **Nobody has played the 11,600-place bank for feel.**
 
 ---
 
@@ -164,8 +181,9 @@ This is exactly what produced today's 336 additions. Read
 ## Where it lives
 
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is
-  authenticated, `git push` just works). `main` is at `a273f57` (plus this
-  file's commit); working tree clean.
+  authenticated, `git push` just works). **The wave is on branch `expansion`**
+  (pushed; CI runs on it). `main` is at `ffeceaa` = what Netlify serves
+  (plus HANDOFF commits).
 - **GitHub Pages:** https://michaelboujikian.github.io/wormillion/ — every push
   to `main` deploys within a minute or two (`deploy.yml`); `ci.yml` runs
   test + validate on every branch.
@@ -180,19 +198,21 @@ This is exactly what produced today's 336 additions. Read
   the in-app browser pane) **and mounts the comparison API over an in-memory
   store**, so the whole server flow plays locally.
 
-## Green as of 2026-09-15 late evening
+## Green as of 2026-09-16 mid-morning (branch `expansion`)
 
-`npm test` 180 · `npm run validate` 9,300 entries · `npm run gap-check` 338
+`npm test` 180 · `npm run validate` 11,619 entries · `npm run gap-check` 419
 obvious answers all land.
 
-**Bank:** 197 countries · 247 capitals · 2,781 cities · 790 lakes · 2,249
-rivers · 1,309 mountains · 129 deserts · 1,345 islands · 253 seas = **9,300**.
-`bank.js` is 1.26 MB (gzip ~250 KB). ~3,900 `WIKI_TITLES` overrides. Mecaya
+**Bank:** 197 countries · 247 capitals · 2,781 cities · 1,162 lakes · 3,192
+rivers · 1,985 mountains · 131 deserts · 1,663 islands · 261 seas = **11,619**
+(`main` / Netlify: 9,300). `bank.js` is 1.49 MB. ~4,900 `WIKI_TITLES`
+overrides. Mecaya
 (7 views/mo) is the river cohort minimum and so the ★ "rarest answer" reveal
 for plain "Name a river." in about half the dailies — the premise working,
 not a bug.
 
-**Dig #1's fifteen prompts are unchanged** (pinned in `tests/prompts.test.js`).
+**Dig #1's fifteen prompts changed once, knowingly** (round 12: the lake
+size guard — see decision 2; pinned in `tests/prompts.test.js`).
 Every daily draws from the current bank, so a data push changes the day's
 prompts for anyone who hasn't played yet on that host — see "Raise this first".
 
@@ -261,7 +281,7 @@ folded, the matcher's edit-budget change (SPEC 3.7), two Opus audits
 | the places themselves | `scripts/data-physical.mjs`, `scripts/data-countries.mjs` (pipe-delimited) |
 | the US state capitals | `scripts/data-us-states.mjs` (they feed the `capital` cohort, like minor peaks feed `mountain`) |
 | the non-capital cities | `scripts/data-cities.mjs` (`Name\|Country\|population\|aliases`; Country must be a `data-countries.mjs` row; the build refuses a city that is its country's capital; its header comment is the rulebook) |
-| **finding gaps, adding places in bulk, fixing a wrong article, merging a duplicate** | **`scripts/expansion/` — read its README first**: `probe.mjs` + `probes/*.json` (does the bank have every X of country Y?), `fold.mjs` (chunk → sources, with the collision rules), `auto-titles.mjs` (re-point bad Wikipedia titles), `fix-titles.mjs`, `drop.mjs`, `add-alias.mjs`, `add-oceans.mjs`, `append-row.mjs`, `wp-check.mjs`, the sub-agent `BRIEF.md`, and the audit and probe reports under `reports/` |
+| **finding gaps, adding places in bulk, fixing a wrong article, merging a duplicate** | **`scripts/expansion/` — read its README first**: `probe.mjs` + `probes/*.json` (does the bank have every X of country Y?), `fold.mjs` (chunk → sources, with the collision rules), `article-size.mjs` (infobox figures, beats Wikidata), `chunk.mjs` (probe → fold chunk), `auto-titles.mjs` (re-point bad Wikipedia titles), `fix-titles.mjs`, `drop.mjs`, `add-alias.mjs`, `add-oceans.mjs`, `append-row.mjs`, `wp-check.mjs`, the sub-agent `BRIEF.md`, the audit `AUDIT-BRIEF.md`, and the audit and probe reports under `reports/` |
 | which colours a country's flag has | `scripts/data-flags.mjs` (one row per country; generous) |
 | which places a themed prompt accepts | `src/data/themes.js` (hand-edited, shipped as-is; a theme with custom prompt text goes in `WORMILLION_THEME_PROMPTS` at the bottom) |
 | which Wikipedia article an entry scores on | `scripts/data-wiki-titles.mjs` (`WIKI_TITLES` overrides, `WIKI_VERIFIED` "I looked, it's right") |
@@ -375,7 +395,10 @@ text within a day.
   `run_in_background` and wait for the notification. Don't chain `sleep`s —
   an `until <check>; do sleep 2; done` loop is allowed.
 - **Wikipedia throttles hard** ("You are making too many requests" as a text
-  body, not JSON). Every resolver here sleeps ~1 s per request and backs off;
+  body, not JSON) — from the first request, all night: ~5 s per request
+  effective. A state-tree probe is ~1 h, an article pass ~1 h, a views pass
+  over 4,000 titles ~1 h; the 42,857-title cities probe ~3 h. **A stray
+  side request 429s the running probe** — don't even curl. Every resolver here sleeps ~1 s per request and backs off;
   the `prop=pageviews` endpoint fills in a handful of titles per round trip
   and hands back `pvipcontinue` — the nulls mean "not yet", not zero. Never
   run two of `probe.mjs`, `auto-titles.mjs`, `fetch-pageviews` at once. All
@@ -395,7 +418,8 @@ text within a day.
   per chunk or per wave, with a local checkpoint after each fold so a session
   cut-off loses nothing.
 - **Sub-agents default to Sonnet unless the user names a model for the job**
-  (they asked for Opus for today's probes and audits). **For data work: at
+  (they asked for Opus for the audits, up to three at a time, writing their
+  report as they go — `AUDIT-BRIEF.md`). **For data work: at
   most two at a time, appending to their output file every ~30 rows, one
   category × region each.** Seven Opus agents launched together once all died
   on the session cap with zero rows. Their brief is
