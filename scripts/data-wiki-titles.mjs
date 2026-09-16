@@ -5171,5 +5171,7 @@ export const WIKI_VERIFIED = new Set([
   "river-serpentine",
   "river-willow",
   // --- 2026-09-16 US rivers: the Harlem River is a tidal strait by description and a river by name ---
-  "river-harlem"
+  "river-harlem",
+  // --- 2026-09-16: the East River is a tidal strait by description and a river to everyone in New York ---
+  "river-east-river"
 ]);

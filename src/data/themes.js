@@ -721,7 +721,9 @@ globalThis.WORMILLION_THEMES = {
       'Mystic', 'Harlem', 'Miami', 'Bronx', 'Newtown Creek',
       'Patapsco', 'Anacostia', 'Piscataqua', 'Arroyo Seco', 'Bubbly Creek',
       'Paluxy', 'Little Pigeon', 'Hackensack', 'Rouge', 'Calumet',
-      'Two Hearted', 'Roe', 'D River'
+      'Two Hearted', 'Roe', 'D River',
+      // 2026-09-14 expansion
+      'East River'
     ]
   },
 

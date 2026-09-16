@@ -2619,7 +2619,7 @@ Gan|823
 Qiantang|668
 Ou|388|Oujiang
 Jiulong|258
-Dong|562|East River
+Dong|562|Dong River,Dongjiang
 Bei|468|North River
 Xi|2129|West River
 Yu|1121
@@ -4002,6 +4002,7 @@ Calumet|12
 Two Hearted|38
 Roe|0.06
 D River|0.04
+East River|25
 `;
 
 export const MOUNTAINS = `

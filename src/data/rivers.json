@@ -27059,7 +27059,8 @@
   "category": "river",
   "name": "Dong",
   "aliases": [
-   "East River"
+   "Dong River",
+   "Dongjiang"
   ],
   "size": 562,
   "sizeUnit": "length_km",
@@ -46576,5 +46577,19 @@
   "wikiTitle": "D River",
   "lat": 44.96803056,
   "lon": -124.01731944
+ },
+ {
+  "id": "river-east-river",
+  "category": "river",
+  "name": "East River",
+  "aliases": [],
+  "size": 25,
+  "sizeUnit": "length_km",
+  "source": "English Wikipedia pageviews for \"East River\", 60-day daily median (60 days ending 2026-09-16); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "magnitude": 8706,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "East River",
+  "lat": 40.7,
+  "lon": -74.005
  }
 ]
