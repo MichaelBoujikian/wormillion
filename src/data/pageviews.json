@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T14:31:24.125Z",
+ "fetched": "2026-09-16T14:33:18.156Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -77269,6 +77269,1749 @@
    "days": 60,
    "lat": 54.2962,
    "lon": -8.588
+  },
+  "island-rikers-island": {
+   "title": "Rikers Island",
+   "monthlyViews": 38902,
+   "days": 60,
+   "lat": 40.79111111,
+   "lon": -73.88277778
+  },
+  "island-diomede-islands": {
+   "title": "Diomede Islands",
+   "monthlyViews": 10806,
+   "days": 60,
+   "lat": 65.78333333,
+   "lon": -169.01666667
+  },
+  "island-navassa-island": {
+   "title": "Navassa Island",
+   "monthlyViews": 9528,
+   "days": 60,
+   "lat": 18.41,
+   "lon": -75.0125
+  },
+  "island-hart-island": {
+   "title": "Hart Island",
+   "monthlyViews": 8341,
+   "days": 60,
+   "lat": 40.8525,
+   "lon": -73.77
+  },
+  "island-plum-island": {
+   "title": "Plum Island (New York)",
+   "monthlyViews": 7945,
+   "days": 60,
+   "lat": 41.18305556,
+   "lon": -72.19027778
+  },
+  "island-city-island-bronx": {
+   "title": "City Island, Bronx",
+   "monthlyViews": 6788,
+   "days": 60,
+   "lat": 40.848,
+   "lon": -73.786
+  },
+  "island-ketron-island": {
+   "title": "Ketron Island, Washington",
+   "monthlyViews": 5875,
+   "days": 60,
+   "lat": 47.15694444,
+   "lon": -122.63472222
+  },
+  "island-san-nicolas-island": {
+   "title": "San Nicolas Island",
+   "monthlyViews": 5388,
+   "days": 60,
+   "lat": 33.26416667,
+   "lon": -119.53888889
+  },
+  "island-gardiners-island": {
+   "title": "Gardiners Island",
+   "monthlyViews": 5357,
+   "days": 60,
+   "lat": 41.09666667,
+   "lon": -72.10416667
+  },
+  "island-randalls-and-wards-islands": {
+   "title": "Randalls and Wards Islands",
+   "monthlyViews": 4931,
+   "days": 60,
+   "lat": 40.7875,
+   "lon": -73.92527778
+  },
+  "island-figure-eight-island": {
+   "title": "Figure Eight Island",
+   "monthlyViews": 3805,
+   "days": 60,
+   "lat": 34.27,
+   "lon": -77.75
+  },
+  "island-commander-islands": {
+   "title": "Commander Islands",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 55,
+   "lon": 166.4
+  },
+  "island-french-frigate-shoals": {
+   "title": "French Frigate Shoals",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 23.74888889,
+   "lon": -166.14611111
+  },
+  "island-cuttyhunk-island": {
+   "title": "Cuttyhunk Island",
+   "monthlyViews": 3318,
+   "days": 60,
+   "lat": 41.41888889,
+   "lon": -70.93388889
+  },
+  "island-machias-seal-island": {
+   "title": "Machias Seal Island",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 44.5,
+   "lon": -67.10111111
+  },
+  "island-zug-island": {
+   "title": "Zug Island",
+   "monthlyViews": 3196,
+   "days": 60,
+   "lat": 42.28277778,
+   "lon": -83.11138889
+  },
+  "island-elizabeth-islands": {
+   "title": "Elizabeth Islands",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 41.475,
+   "lon": -70.76666667
+  },
+  "island-bois-blanc-island": {
+   "title": "Bois Blanc Island (Michigan)",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 45.775,
+   "lon": -84.47888889
+  },
+  "island-pollepel-island": {
+   "title": "Pollepel Island",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 41.455314,
+   "lon": -73.98887
+  },
+  "island-terminal-island": {
+   "title": "Terminal Island",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": 33.756963,
+   "lon": -118.248126
+  },
+  "island-naushon-island": {
+   "title": "Naushon Island",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 41.4964979,
+   "lon": -70.7072523
+  },
+  "island-anatahan": {
+   "title": "Anatahan",
+   "monthlyViews": 2892,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-st-matthew-island": {
+   "title": "St. Matthew Island",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 60.40861111,
+   "lon": -172.72
+  },
+  "island-mcneil-island": {
+   "title": "McNeil Island",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 47.215,
+   "lon": -122.69
+  },
+  "island-camano-island": {
+   "title": "Camano Island",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 48.186239,
+   "lon": -122.507697
+  },
+  "island-grand-island": {
+   "title": "Grand Island, New York",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 43.01194444,
+   "lon": -78.95916667
+  },
+  "island-antelope-island": {
+   "title": "Antelope Island",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 40.95833333,
+   "lon": -112.21388889
+  },
+  "island-washington-island": {
+   "title": "Washington Island (Wisconsin)",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 45.376991,
+   "lon": -86.896362
+  },
+  "island-morris-island": {
+   "title": "Morris Island",
+   "monthlyViews": 2161,
+   "days": 60,
+   "lat": 32.71583333,
+   "lon": -79.89027778
+  },
+  "island-alexander-archipelago": {
+   "title": "Alexander Archipelago",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 57,
+   "lon": -134
+  },
+  "island-necker-island": {
+   "title": "Necker Island (Hawaii)",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 23.575,
+   "lon": -164.70027778
+  },
+  "island-johns-island": {
+   "title": "Johns Island, South Carolina",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 32.7025,
+   "lon": -80.04805556
+  },
+  "island-shemya": {
+   "title": "Shemya",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 52.72416667,
+   "lon": 174.11888889
+  },
+  "island-amchitka-island": {
+   "title": "Amchitka Island",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 51.54222222,
+   "lon": 178.98333333
+  },
+  "island-matinicus-isle": {
+   "title": "Matinicus Isle, Maine",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 43.89666667,
+   "lon": -69.06361111
+  },
+  "island-unimak-island": {
+   "title": "Unimak Island",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 54.76833333,
+   "lon": -164.18666667
+  },
+  "island-lopez-island": {
+   "title": "Lopez Island",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 48.47888889,
+   "lon": -122.89194444
+  },
+  "island-lisianski-island": {
+   "title": "Lisianski Island",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 26.064031,
+   "lon": -173.965802
+  },
+  "island-lummi-island": {
+   "title": "Lummi Island",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 48.68333333,
+   "lon": -122.66666667
+  },
+  "island-gardner-pinnacles": {
+   "title": "Gardner Pinnacles",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-isle-of-palms": {
+   "title": "Isle of Palms, South Carolina",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 32.80777778,
+   "lon": -79.745
+  },
+  "island-kent-island": {
+   "title": "Kent Island (Maryland)",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 38.94861111,
+   "lon": -76.315
+  },
+  "island-malaga-island": {
+   "title": "Malaga Island",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 43.78166667,
+   "lon": -69.875
+  },
+  "island-sauvie-island": {
+   "title": "Sauvie Island",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 45.7,
+   "lon": -122.8
+  },
+  "island-semisopochnoi-island": {
+   "title": "Semisopochnoi Island",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 51.95138889,
+   "lon": 179.60083333
+  },
+  "island-tern-island": {
+   "title": "Tern Island (Hawaii)",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 23.87,
+   "lon": -166.284
+  },
+  "island-fox-island": {
+   "title": "Fox Island, Washington",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 47.24694444,
+   "lon": -122.62555556
+  },
+  "island-ka-ula": {
+   "title": "Kaʻula",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 21.65472222,
+   "lon": -160.54138889
+  },
+  "island-prudence-island": {
+   "title": "Prudence Island",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 41.617,
+   "lon": -71.3164
+  },
+  "island-spectacle-island": {
+   "title": "Spectacle Island (Massachusetts)",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 42.32388889,
+   "lon": -70.98611111
+  },
+  "island-annette-island": {
+   "title": "Annette Island",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-santa-barbara-island": {
+   "title": "Santa Barbara Island",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 33.47698889,
+   "lon": -119.03772222
+  },
+  "island-fannette-island": {
+   "title": "Fannette Island",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 38.9540745,
+   "lon": -120.1004631
+  },
+  "island-lehua": {
+   "title": "Lehua",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 22.02,
+   "lon": -160.0975
+  },
+  "island-nomans-land": {
+   "title": "Nomans Land",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 41.25555556,
+   "lon": -70.81472222
+  },
+  "island-wallops-island": {
+   "title": "Wallops Island",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 37.85,
+   "lon": -75.46666667
+  },
+  "island-mokoli-i": {
+   "title": "Mokoliʻi",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 21.5092,
+   "lon": -157.8297
+  },
+  "island-sugar-island": {
+   "title": "Sugar Island (Michigan)",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 46.43333333,
+   "lon": -84.21666667
+  },
+  "island-fidalgo-island": {
+   "title": "Fidalgo Island",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 48.46222222,
+   "lon": -122.62861111
+  },
+  "island-revillagigedo-island": {
+   "title": "Revillagigedo Island",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 55.58333333,
+   "lon": -131.33333333
+  },
+  "island-amatignak-island": {
+   "title": "Amatignak Island",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 51.26222222,
+   "lon": -179.10861111
+  },
+  "island-anderson-island": {
+   "title": "Anderson Island (Washington)",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 47.15916667,
+   "lon": -122.70333333
+  },
+  "island-robins-island": {
+   "title": "Robins Island",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 40.96722222,
+   "lon": -72.46
+  },
+  "island-north-manitou-island": {
+   "title": "North Manitou Island",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 45.11944444,
+   "lon": -86.01694444
+  },
+  "island-agrihan": {
+   "title": "Agrihan",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-amaknak-island": {
+   "title": "Amaknak Island",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 53.91027778,
+   "lon": -166.53666667
+  },
+  "island-atka-island": {
+   "title": "Atka Island",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 52.13805556,
+   "lon": -174.44527778
+  },
+  "island-hat-island": {
+   "title": "Hat Island, Washington",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 48.01333333,
+   "lon": -122.32055556
+  },
+  "island-shaw-island": {
+   "title": "Shaw Island",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 48.5732,
+   "lon": -122.9573
+  },
+  "island-umnak": {
+   "title": "Umnak",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 53.22388889,
+   "lon": -168.43194444
+  },
+  "island-marquesas-keys": {
+   "title": "Marquesas Keys",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 24.57194444,
+   "lon": -82.11944444
+  },
+  "island-tilghman-island": {
+   "title": "Tilghman Island, Maryland",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 38.70888889,
+   "lon": -76.335
+  },
+  "island-alamagan": {
+   "title": "Alamagan",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-fremont-island": {
+   "title": "Fremont Island",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 41.16555556,
+   "lon": -112.33972222
+  },
+  "island-cypress-island": {
+   "title": "Cypress Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 48.57416667,
+   "lon": -122.70555556
+  },
+  "island-round-island": {
+   "title": "Round Island (Michigan)",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 45.82972222,
+   "lon": -84.60138889
+  },
+  "island-wadmalaw-island": {
+   "title": "Wadmalaw Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 32.67361111,
+   "lon": -80.17833333
+  },
+  "island-wild-horse-island": {
+   "title": "Wild Horse Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 47.84527778,
+   "lon": -114.215
+  },
+  "island-grosse-ile": {
+   "title": "Grosse Ile (Michigan)",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 42.13,
+   "lon": -83.16027778
+  },
+  "island-king-island": {
+   "title": "King Island (Alaska)",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 64.975,
+   "lon": -168.05972222
+  },
+  "island-st-catherines-island": {
+   "title": "St. Catherines Island",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 31.63055556,
+   "lon": -81.16013889
+  },
+  "island-dall-island": {
+   "title": "Dall Island",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 54.95611111,
+   "lon": -133.05916667
+  },
+  "island-farallon-de-pajaros": {
+   "title": "Farallon de Pajaros",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-jamestown-island": {
+   "title": "Jamestown Island",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 37.205,
+   "lon": -76.76
+  },
+  "island-last-island": {
+   "title": "Last Island (Louisiana)",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 29.03861111,
+   "lon": -90.80416667
+  },
+  "island-maro-reef": {
+   "title": "Maro Reef",
+   "monthlyViews": 670,
+   "days": 50,
+   "lat": 25.415,
+   "lon": -170.59
+  },
+  "island-medny-island": {
+   "title": "Medny Island",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 54.70653333,
+   "lon": 167.71728611
+  },
+  "island-blake-island": {
+   "title": "Blake Island",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 47.53861111,
+   "lon": -122.49277778
+  },
+  "island-harstine-island": {
+   "title": "Harstine Island, Washington",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-pelican-island": {
+   "title": "Pelican Island (Texas)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 29.332,
+   "lon": -94.806
+  },
+  "island-asuncion-island": {
+   "title": "Asuncion Island",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-conanicut-island": {
+   "title": "Conanicut Island",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 41.5167,
+   "lon": -71.3833
+  },
+  "island-douglas-island": {
+   "title": "Douglas Island",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 58.27055556,
+   "lon": -134.50583333
+  },
+  "island-south-manitou-island": {
+   "title": "South Manitou Island",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 45.02777778,
+   "lon": -86.11944444
+  },
+  "island-chambers-island": {
+   "title": "Chambers Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 45.18222222,
+   "lon": -87.35527778
+  },
+  "island-great-sitkin-island": {
+   "title": "Great Sitkin Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 52.05805556,
+   "lon": -176.11944444
+  },
+  "island-middle-bass-island": {
+   "title": "Middle Bass Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 41.67916667,
+   "lon": -82.81111111
+  },
+  "island-neebish-island": {
+   "title": "Neebish Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 46.27077778,
+   "lon": -84.15458333
+  },
+  "island-wrangell-island": {
+   "title": "Wrangell Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 56.2975,
+   "lon": -132.175
+  },
+  "island-afognak-island": {
+   "title": "Afognak Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 58.25,
+   "lon": -152.5
+  },
+  "island-bahia-honda-key": {
+   "title": "Bahia Honda Key",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 24.659576,
+   "lon": -81.261578
+  },
+  "island-deal-island": {
+   "title": "Deal Island, Maryland",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 38.15444444,
+   "lon": -75.94555556
+  },
+  "island-spruce-island": {
+   "title": "Spruce Island (Alaska)",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 57.91805556,
+   "lon": -152.40972222
+  },
+  "island-decatur-island": {
+   "title": "Decatur Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 48.510236,
+   "lon": -122.810926
+  },
+  "island-matagorda-island": {
+   "title": "Matagorda Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 28.22722222,
+   "lon": -96.64027778
+  },
+  "island-valcour-island": {
+   "title": "Valcour Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 44.62166667,
+   "lon": -73.41722222
+  },
+  "island-folly-island": {
+   "title": "Folly Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-kuiu-island": {
+   "title": "Kuiu Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 56.54055556,
+   "lon": -134.05111111
+  },
+  "island-tuluwat-island": {
+   "title": "Tuluwat Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 40.81,
+   "lon": -124.17
+  },
+  "island-akutan-island": {
+   "title": "Akutan Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 54.12805556,
+   "lon": -165.91805556
+  },
+  "island-carleton-island": {
+   "title": "Carleton Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 44.17861111,
+   "lon": -76.28805556
+  },
+  "island-garden-island": {
+   "title": "Garden Island (Michigan)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 45.8,
+   "lon": -85.48333333
+  },
+  "island-isle-of-hope": {
+   "title": "Isle of Hope, Georgia",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 31.98333333,
+   "lon": -81.05555556
+  },
+  "island-nashawena-island": {
+   "title": "Nashawena Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 41.4292751,
+   "lon": -70.8744779
+  },
+  "island-no-name-key": {
+   "title": "No Name Key",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 24.6926,
+   "lon": -81.326
+  },
+  "island-skidaway-island": {
+   "title": "Skidaway Island, Georgia",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 31.9275,
+   "lon": -81.0425
+  },
+  "island-wilmington-island": {
+   "title": "Wilmington Island, Georgia",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 32.00333333,
+   "lon": -80.97527778
+  },
+  "island-bird-key": {
+   "title": "Bird Key",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 27.31638889,
+   "lon": -82.55944444
+  },
+  "island-fleming-key": {
+   "title": "Fleming Key",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 24.57991,
+   "lon": -81.796045
+  },
+  "island-marsh-island": {
+   "title": "Marsh Island (Louisiana)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 29.56638889,
+   "lon": -91.84611111
+  },
+  "island-stuart-island": {
+   "title": "Stuart Island (Washington)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 48.6736,
+   "lon": -123.2051
+  },
+  "island-wassaw-island": {
+   "title": "Wassaw Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 31.9003,
+   "lon": -80.9822
+  },
+  "island-blount-island": {
+   "title": "Blount Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 30.4,
+   "lon": -81.53027778
+  },
+  "island-guguan": {
+   "title": "Guguan",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-high-island": {
+   "title": "High Island (Michigan)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 45.725,
+   "lon": -85.68333333
+  },
+  "island-kupreanof-island": {
+   "title": "Kupreanof Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 56.79277778,
+   "lon": -133.49694444
+  },
+  "island-montague-island": {
+   "title": "Montague Island (Alaska)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 60.10916667,
+   "lon": -147.34111111
+  },
+  "island-paoha-island": {
+   "title": "Paoha Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 38.0002,
+   "lon": -119.0157
+  },
+  "island-raspberry-island": {
+   "title": "Raspberry Island (Alaska)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 58.06722222,
+   "lon": -153.18194444
+  },
+  "island-sarigan": {
+   "title": "Sarigan",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-agattu": {
+   "title": "Agattu",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 52.43527778,
+   "lon": 173.57555556
+  },
+  "island-blakely-island": {
+   "title": "Blakely Island, Washington",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 48.56025,
+   "lon": -122.80243
+  },
+  "island-dodge-island": {
+   "title": "Dodge Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 25.77237778,
+   "lon": -80.16620556
+  },
+  "island-gravina-island": {
+   "title": "Gravina Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 55.30388889,
+   "lon": -131.78638889
+  },
+  "island-protection-island": {
+   "title": "Protection Island (Washington)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 48.1278714,
+   "lon": -122.9262842
+  },
+  "island-puget-island": {
+   "title": "Puget Island, Washington",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.17055556,
+   "lon": -123.37638889
+  },
+  "island-barnum-island": {
+   "title": "Barnum Island, New York",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 40.605,
+   "lon": -73.64361111
+  },
+  "island-barter-island": {
+   "title": "Barter Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 70.11805556,
+   "lon": -143.66666667
+  },
+  "island-buldir-island": {
+   "title": "Buldir Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 52.35805556,
+   "lon": 175.92472222
+  },
+  "island-chirikof-island": {
+   "title": "Chirikof Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 55.825,
+   "lon": -155.62194444
+  },
+  "island-hog-island": {
+   "title": "Hog Island (Michigan)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.79166667,
+   "lon": -85.36611111
+  },
+  "island-aguiguan": {
+   "title": "Aguiguan",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-fisherman-island": {
+   "title": "Fisherman Island (Virginia)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 37.09597,
+   "lon": -75.95798
+  },
+  "island-galloo-island": {
+   "title": "Galloo Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.905617,
+   "lon": -76.4163294
+  },
+  "island-pasque-island": {
+   "title": "Pasque Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 41.450479,
+   "lon": -70.826712
+  },
+  "island-shuyak-island": {
+   "title": "Shuyak Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 58.52527778,
+   "lon": -152.50472222
+  },
+  "island-tanaga-island": {
+   "title": "Tanaga Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 51.79277778,
+   "lon": -177.92861111
+  },
+  "island-harbor-island": {
+   "title": "Harbor Island, South Carolina",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 32.40444444,
+   "lon": -80.43694444
+  },
+  "island-kayak-island": {
+   "title": "Kayak Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 59.92474,
+   "lon": -144.40567
+  },
+  "island-marquette-island": {
+   "title": "Marquette Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.96027778,
+   "lon": -84.39361111
+  },
+  "island-nelson-island": {
+   "title": "Nelson Island (Alaska)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 60.63916667,
+   "lon": -164.75027778
+  },
+  "island-sherman-island": {
+   "title": "Sherman Island (California)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 38.0593642,
+   "lon": -121.7332878
+  },
+  "island-capers-island": {
+   "title": "Capers Island, South Carolina",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-credit-island": {
+   "title": "Credit Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-grassy-key": {
+   "title": "Grassy Key",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 24.761777,
+   "lon": -80.955291
+  },
+  "island-grenadier-island": {
+   "title": "Grenadier Island, New York",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.043,
+   "lon": -76.364
+  },
+  "island-hall-island": {
+   "title": "Hall Island (Alaska)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 60.66388889,
+   "lon": -173.09611111
+  },
+  "island-kruzof-island": {
+   "title": "Kruzof Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 57.17055556,
+   "lon": -135.67472222
+  },
+  "island-nonamesset-island": {
+   "title": "Nonamesset Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 41.5084422,
+   "lon": -70.6869745
+  },
+  "island-whitemarsh-island": {
+   "title": "Whitemarsh Island, Georgia",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 32.03944444,
+   "lon": -81.00777778
+  },
+  "island-akun-island": {
+   "title": "Akun Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 54.18833333,
+   "lon": -165.52861111
+  },
+  "island-aunu-u-american-samoa": {
+   "title": "Aunuʻu, American Samoa",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -14.28333333,
+   "lon": -170.56
+  },
+  "island-etolin-island": {
+   "title": "Etolin Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-hinchinbrook-island": {
+   "title": "Hinchinbrook Island (Alaska)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 60.38194444,
+   "lon": -146.45694444
+  },
+  "island-louds-island": {
+   "title": "Louds Island, Maine",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 43.89361111,
+   "lon": -69.41222222
+  },
+  "island-mitkof-island": {
+   "title": "Mitkof Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 56.59833333,
+   "lon": -132.80916667
+  },
+  "island-sears-island": {
+   "title": "Sears Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.44305556,
+   "lon": -68.8775
+  },
+  "island-seguam-island": {
+   "title": "Seguam Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.32333333,
+   "lon": -172.46611111
+  },
+  "island-selden-island": {
+   "title": "Selden Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.07527778,
+   "lon": -77.45277778
+  },
+  "island-sinclair-island": {
+   "title": "Sinclair Island (Washington)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 48.62083333,
+   "lon": -122.67611111
+  },
+  "island-sitkalidak-island": {
+   "title": "Sitkalidak Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 57.1269444,
+   "lon": -153.1794444
+  },
+  "island-stock-island": {
+   "title": "Stock Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 24.57,
+   "lon": -81.7375
+  },
+  "island-yunaska-island": {
+   "title": "Yunaska Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.629,
+   "lon": -170.7
+  },
+  "island-gunnison-island": {
+   "title": "Gunnison Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-kasatochi-island": {
+   "title": "Kasatochi Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 52.17138889,
+   "lon": -175.51833333
+  },
+  "island-kosciusko-island": {
+   "title": "Kosciusko Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 56.04194444,
+   "lon": -133.53861111
+  },
+  "island-pleasant-island": {
+   "title": "Pleasant Island (Alaska)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 58.35555556,
+   "lon": -135.64805556
+  },
+  "island-semichi-islands": {
+   "title": "Semichi Islands",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 52.735,
+   "lon": 173.99111111
+  },
+  "island-amak-island": {
+   "title": "Amak Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.41833333,
+   "lon": -163.14388889
+  },
+  "island-bird-island": {
+   "title": "Bird Island, North Carolina",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 33.85722222,
+   "lon": -78.53861111
+  },
+  "island-campbell-s-island-illinois": {
+   "title": "Campbell's Island, Illinois",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.54055556,
+   "lon": -90.43
+  },
+  "island-delarof-islands": {
+   "title": "Delarof Islands",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.38694444,
+   "lon": -178.96305556
+  },
+  "island-diamond-island": {
+   "title": "Diamond Island (Kentucky)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.88333333,
+   "lon": -87.75222222
+  },
+  "island-duck-key": {
+   "title": "Duck Key",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.7705,
+   "lon": -80.91177778
+  },
+  "island-dutch-island": {
+   "title": "Dutch Island, Georgia",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.00583333,
+   "lon": -81.03111111
+  },
+  "island-north-hutchinson-island": {
+   "title": "North Hutchinson Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 27.55694444,
+   "lon": -80.32472222
+  },
+  "island-portage-island": {
+   "title": "Portage Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.7,
+   "lon": -122.62
+  },
+  "island-talahi-island": {
+   "title": "Talahi Island, Georgia",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.03277778,
+   "lon": -80.97583333
+  },
+  "island-unga-island": {
+   "title": "Unga Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.26055556,
+   "lon": -160.695
+  },
+  "island-zarembo-island": {
+   "title": "Zarembo Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 56.35583333,
+   "lon": -132.83583333
+  },
+  "island-amygdaloid-island": {
+   "title": "Amygdaloid Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 48.15111111,
+   "lon": -88.62055556
+  },
+  "island-carrington-island": {
+   "title": "Carrington Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 41.00692883,
+   "lon": -112.571044
+  },
+  "island-chuginadak-island": {
+   "title": "Chuginadak Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 52.84472222,
+   "lon": -169.81805556
+  },
+  "island-fir-island": {
+   "title": "Fir Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 48.35,
+   "lon": -122.38333333
+  },
+  "island-gareloi-island": {
+   "title": "Gareloi Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 51.78572222,
+   "lon": -178.79888889
+  },
+  "island-hagemeister-island": {
+   "title": "Hagemeister Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 58.6609,
+   "lon": -160.933
+  },
+  "island-kanaga-island": {
+   "title": "Kanaga Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 51.73916667,
+   "lon": -177.44388889
+  },
+  "island-popof-island": {
+   "title": "Popof Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-sitkinak-island": {
+   "title": "Sitkinak Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 56.54805556,
+   "lon": -154.15916667
+  },
+  "island-ulak-island": {
+   "title": "Ulak Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 51.365,
+   "lon": -178.94722222
+  },
+  "island-yakobi-island": {
+   "title": "Yakobi Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 57.98777778,
+   "lon": -136.475
+  },
+  "island-alaid-island": {
+   "title": "Alaid Island (Alaska)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 52.76277778,
+   "lon": 173.89805556
+  },
+  "island-amlia": {
+   "title": "Amlia",
+   "monthlyViews": 61,
+   "days": 44,
+   "lat": 52.07861111,
+   "lon": -173.52833333
+  },
+  "island-arey-island": {
+   "title": "Arey Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 70.11388889,
+   "lon": -143.90916667
+  },
+  "island-croil-island": {
+   "title": "Croil Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 44.973,
+   "lon": -74.979
+  },
+  "island-deer-island": {
+   "title": "Deer Island (Aleutian Islands)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.91666667,
+   "lon": -162.31555556
+  },
+  "island-egg-island": {
+   "title": "Egg Island (Alaska)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 53.86277778,
+   "lon": -166.04388889
+  },
+  "island-galop-island": {
+   "title": "Galop Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 44.7653,
+   "lon": -75.4005
+  },
+  "island-grahams-island": {
+   "title": "Grahams Island",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.0538881,
+   "lon": -99.0967958
+  },
+  "island-greco-island": {
+   "title": "Greco Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.5177146,
+   "lon": -122.1830205
+  },
+  "island-kagalaska-island": {
+   "title": "Kagalaska Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 51.80166667,
+   "lon": -176.35777778
+  },
+  "island-knight-island": {
+   "title": "Knight Island (Alaska)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.36611111,
+   "lon": -147.73944444
+  },
+  "island-little-kiska-island": {
+   "title": "Little Kiska Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 51.9525,
+   "lon": 177.65916667
+  },
+  "island-marmot-island": {
+   "title": "Marmot Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 58.21556,
+   "lon": -151.83972
+  },
+  "island-nagai-island": {
+   "title": "Nagai Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.08333333,
+   "lon": -160.01666667
+  },
+  "island-nine-mile-island": {
+   "title": "Nine-Mile Island (Mississippi River)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 42.436,
+   "lon": -90.575
+  },
+  "island-ponce-de-leon-island": {
+   "title": "Ponce de León Island",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 28.06833333,
+   "lon": -80.56027778
+  },
+  "island-stretch-island": {
+   "title": "Stretch Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 47.32388889,
+   "lon": -122.82583333
+  },
+  "island-yukon-island": {
+   "title": "Yukon Island",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.5225,
+   "lon": -151.49333333
+  },
+  "island-aiaktalik-island": {
+   "title": "Aiaktalik Island",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 56.70388889,
+   "lon": -154.05527778
+  },
+  "island-andronica-island": {
+   "title": "Andronica Island",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 55.32444444,
+   "lon": -160.065
+  },
+  "island-avatanak-island": {
+   "title": "Avatanak Island",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 54.07166667,
+   "lon": -165.30388889
+  },
+  "island-big-koniuji-island": {
+   "title": "Big Koniuji Island (Alaska)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 55.13694444,
+   "lon": -159.54944444
+  },
+  "island-browns-island": {
+   "title": "Browns Island (Contra Costa County)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 38.03881,
+   "lon": -121.86468
+  },
+  "island-canyon-island": {
+   "title": "Canyon Island",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 58.54805556,
+   "lon": -133.67555556
+  },
+  "island-catherine-island": {
+   "title": "Catherine Island (Alaska)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 57.37611111,
+   "lon": -134.89583333
+  },
+  "island-chamisso-island": {
+   "title": "Chamisso Island",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-dewberry-island": {
+   "title": "Dewberry Island",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": 28.3892,
+   "lon": -96.5054
+  },
+  "island-grindall-island": {
+   "title": "Grindall Island",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 55.4429,
+   "lon": -132.1263
+  },
+  "island-haenke-island": {
+   "title": "Haenke Island",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 59.96972222,
+   "lon": -139.5375
+  },
+  "island-korovin-island": {
+   "title": "Korovin Island",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 55.43222222,
+   "lon": -160.25333333
+  },
+  "island-leque-island": {
+   "title": "Leque Island",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.2309,
+   "lon": -122.3823
+  },
+  "island-nuka-island": {
+   "title": "Nuka Island",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 59.35833333,
+   "lon": -150.67
+  },
+  "island-ogliuga-island": {
+   "title": "Ogliuga Island",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 51.60611111,
+   "lon": 178.65638889
+  },
+  "island-oglodak-island": {
+   "title": "Oglodak Island",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 51.98416667,
+   "lon": -175.45472222
+  },
+  "island-sanak-islands": {
+   "title": "Sanak Islands",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 54.40972222,
+   "lon": -162.60111111
+  },
+  "island-sedanka-island": {
+   "title": "Sedanka Island",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 53.78333333,
+   "lon": -166.19138889
+  },
+  "island-takli-island": {
+   "title": "Takli Island",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 58.06111111,
+   "lon": -154.49083333
+  },
+  "island-tugidak-island": {
+   "title": "Tugidak Island",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 56.50666667,
+   "lon": -154.62833333
+  },
+  "island-uganik-island": {
+   "title": "Uganik Island",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 57.8869444,
+   "lon": -153.3561111
+  },
+  "island-unalga-island": {
+   "title": "Unalga Island (Fox Islands)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 53.97638889,
+   "lon": -166.14416667
+  },
+  "island-warren-island": {
+   "title": "Warren Island (Alaska)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 55.8927778,
+   "lon": -133.8927778
+  },
+  "island-whale-island": {
+   "title": "Whale Island (Alaska)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 57.9525,
+   "lon": -152.79194444
+  },
+  "island-mills-island": {
+   "title": "Mills Island",
+   "monthlyViews": 20,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "island-kigigak-island": {
+   "title": "Kigigak Island",
+   "monthlyViews": 19,
+   "days": 52,
+   "lat": 60.84583333,
+   "lon": -164.98166667
+  },
+  "island-bendel-island": {
+   "title": "Bendel Island (Alaska)",
+   "monthlyViews": 18,
+   "days": 48,
+   "lat": 55.075,
+   "lon": -159.79166667
+  },
+  "island-kavalga-island": {
+   "title": "Kavalga Island",
+   "monthlyViews": 18,
+   "days": 52,
+   "lat": 51.55527778,
+   "lon": 178.80194444
+  },
+  "island-karpa-island": {
+   "title": "Karpa Island",
+   "monthlyViews": 14,
+   "days": 57,
+   "lat": 55.51055556,
+   "lon": -160.04916667
+  },
+  "island-u-thant-island": {
+   "title": "U Thant Island",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 40.746599,
+   "lon": -73.964387
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

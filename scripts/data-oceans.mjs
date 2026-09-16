@@ -119,6 +119,27 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- 2026-09-16 US islands: articles without coordinates (the Northern Marianas chain, Alaskan and Carolina islands; Credit Island is in the Mississippi, Gunnison Island in the Great Salt Lake) ---
+  'island-anatahan': ['Pacific'],
+  'island-gardner-pinnacles': ['Pacific'],
+  'island-annette-island': ['Pacific'],
+  'island-agrihan': ['Pacific'],
+  'island-alamagan': ['Pacific'],
+  'island-farallon-de-pajaros': ['Pacific'],
+  'island-harstine-island': ['Pacific'],
+  'island-asuncion-island': ['Pacific'],
+  'island-guguan': ['Pacific'],
+  'island-sarigan': ['Pacific'],
+  'island-aguiguan': ['Pacific'],
+  'island-etolin-island': ['Pacific'],
+  'island-popof-island': ['Pacific'],
+  'island-chamisso-island': ['Arctic'],
+  'island-folly-island': ['Atlantic'],
+  'island-capers-island': ['Atlantic'],
+  'island-mills-island': ['Atlantic'],
+  'island-credit-island': [],
+  'island-gunnison-island': [],
+
   // --- more coordinate-less islands (2026-09-15 expansion) ---
   'island-tobago': ['Atlantic'],
   'island-lamma-island': ['Pacific'],

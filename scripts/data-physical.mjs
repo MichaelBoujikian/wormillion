@@ -7840,6 +7840,255 @@ Hansando|21.32|Hansan Island
 Dolsan|63|Dolsan Island,Dolsando
 Odongdo|0.12
 Coney Island|4
+Rikers Island|1.67
+Diomede Islands|37
+Navassa Island|5.4
+Hart Island|0.53
+Plum Island|3.4
+City Island, Bronx|1.02
+Ketron Island|0.88
+San Nicolas Island|58.92
+Gardiners Island|13.43
+Randalls and Wards Islands|2.09
+Figure Eight Island|5.26
+Commander Islands|1846
+French Frigate Shoals|0.25
+Cuttyhunk Island|2.35
+Machias Seal Island|0.08
+Zug Island|2.41
+Elizabeth Islands|34.55
+Bois Blanc Island|91.4
+Pollepel Island|0.05
+Terminal Island|11.56
+Naushon Island|19.17
+Anatahan|33.9
+St. Matthew Island|375
+McNeil Island|17.61
+Camano Island|245.79
+Grand Island|86.22
+Antelope Island|109
+Washington Island|60.89
+Morris Island|3.4
+Alexander Archipelago|35000
+Necker Island|0.18
+Johns Island|216.8
+Shemya|15.29
+Amchitka Island|308.6
+Matinicus Isle|25.64
+Unimak Island|4119
+Lopez Island|77.21
+Lisianski Island|1.56
+Lummi Island|23.97
+Gardner Pinnacles|0.02
+Isle of Palms|14.08
+Kent Island|81.9
+Malaga Island|0.17
+Sauvie Island|84.82
+Semisopochnoi Island|221.59
+Tern Island|0.11
+Fox Island|16.55
+Kaʻula|0.64
+Prudence Island|14.43
+Spectacle Island|0.46
+Annette Island|332.5
+Santa Barbara Island|2.63
+Fannette Island|0.01
+Lehua|1.03
+Nomans Land|2.48
+Wallops Island|15.5
+Mokoliʻi|0.05
+Sugar Island|128.05
+Fidalgo Island|106.7
+Revillagigedo Island|2965
+Amatignak Island|36.52
+Anderson Island|36.59
+Robins Island|1.76
+North Manitou Island|57.88
+Agrihan|43.51
+Amaknak Island|8.5
+Atka Island|1048.76
+Hat Island|1.79
+Shaw Island|19.94
+Umnak|1793
+Marquesas Keys|6.58
+Tilghman Island|6.57
+Alamagan|13
+Fremont Island|11.91
+Cypress Island|22.27
+Round Island|1.53
+Wadmalaw Island|108.5
+Wild Horse Island|8.75
+Grosse Ile|24.86
+King Island|6.47
+St. Catherines Island|90.1
+Dall Island|655
+Farallon de Pajaros|2.3
+Jamestown Island|6.32
+Last Island|108.78
+Maro Reef|1.94
+Medny Island|186
+Blake Island|4.56
+Harstine Island|48.3
+Pelican Island|16.58
+Asuncion Island|7.9
+Conanicut Island|24.46
+Douglas Island|199.24
+South Manitou Island|21.44
+Chambers Island|10.04
+Great Sitkin Island|245
+Middle Bass Island|3.26
+Neebish Island|55.68
+Wrangell Island|560
+Afognak Island|1809
+Bahia Honda Key|2.12
+Deal Island|13.91
+Spruce Island|46.07
+Decatur Island|9.13
+Matagorda Island|157.25
+Valcour Island|3.92
+Folly Island|48.3
+Kuiu Island|1962
+Tuluwat Island|1.13
+Akutan Island|334
+Carleton Island|7.25
+Garden Island|20.2
+Isle of Hope|5.9
+Nashawena Island|7.08
+No Name Key|4.04
+Skidaway Island|46.18
+Wilmington Island|24.68
+Bird Key|12.7
+Fleming Key|1.15
+Marsh Island|258.95
+Stuart Island|7.46
+Wassaw Island|40.68
+Blount Island|6.63
+Guguan|3.87
+High Island|14.14
+Kupreanof Island|2813
+Montague Island|722
+Paoha Island|9.06
+Raspberry Island|192
+Sarigan|4.5
+Agattu|221.54
+Blakely Island|16.85
+Dodge Island|2.1
+Gravina Island|246
+Protection Island|2.67
+Puget Island|20.13
+Barnum Island|3.28
+Barter Island|14
+Buldir Island|19.29
+Chirikof Island|114.7
+Hog Island|8.39
+Aguiguan|7.1
+Fisherman Island|7.49
+Galloo Island|8.96
+Pasque Island|3.45
+Shuyak Island|168.3
+Tanaga Island|529
+Harbor Island|3.93
+Kayak Island|73.7
+Marquette Island|58.79
+Nelson Island|2180
+Sherman Island|56.66
+Capers Island|4.3
+Credit Island|1.7
+Grassy Key|3.65
+Grenadier Island|5.22
+Hall Island|16
+Kruzof Island|433.7
+Nonamesset Island|1.4
+Whitemarsh Island|17.24
+Akun Island|167
+Aunuʻu, American Samoa|1.52
+Etolin Island|870
+Hinchinbrook Island|445.4
+Louds Island|38.8
+Mitkof Island|546
+Sears Island|3.8
+Seguam Island|207.3
+Selden Island|1.65
+Sinclair Island|4.1
+Sitkalidak Island|300.84
+Stock Island|3.67
+Yunaska Island|173
+Gunnison Island|4.8
+Kasatochi Island|5.05
+Kosciusko Island|444.4
+Pleasant Island|49
+Semichi Islands|26
+Amak Island|15
+Bird Island|1.68
+Campbell's Island, Illinois|1.91
+Delarof Islands|165.35
+Diamond Island|1.29
+Duck Key|1.68
+Dutch Island|7.92
+North Hutchinson Island|61.8
+Portage Island|3.62
+Talahi Island|3.83
+Unga Island|442
+Zarembo Island|474.3
+Amygdaloid Island|2.46
+Carrington Island|4.8
+Chuginadak Island|165.76
+Fir Island|40.14
+Gareloi Island|67
+Hagemeister Island|300
+Kanaga Island|480
+Popof Island|91.8
+Sitkinak Island|235.51
+Ulak Island|34.61
+Yakobi Island|213.3
+Alaid Island|5
+Amlia|446
+Arey Island|11
+Croil Island|3.22
+Deer Island|151.7
+Egg Island|1.26
+Galop Island|2.73
+Grahams Island|23
+Greco Island|3.31
+Kagalaska Island|164
+Knight Island|277.2
+Little Kiska Island|4.83
+Marmot Island|45.2
+Nagai Island|291.5
+Nine-Mile Island|1.84
+Ponce de Leon Island|55
+Stretch Island|1.13
+Yukon Island|2.5
+Aiaktalik Island|20
+Andronica Island|15.26
+Avatanak Island|30
+Big Koniuji Island|90.4
+Browns Island|2.41
+Canyon Island|1.3
+Catherine Island|86.94
+Chamisso Island|1.8
+Dewberry Island|3.96
+Grindall Island|3.88
+Haenke Island|1.2
+Korovin Island|66.98
+Leque Island|1.3
+Nuka Island|60.35
+Ogliuga Island|5
+Oglodak Island|3.5
+Sanak Islands|157.62
+Sedanka Island|103.3
+Takli Island|10
+Tugidak Island|173.14
+Uganik Island|156.7
+Unalga Island|28.5
+Warren Island|47.19
+Whale Island|39.24
+Mills Island|2.05
+Kigigak Island|31.84
+Bendel Island|9.86
+Kavalga Island|9
+Karpa Island|1.92
+U Thant Island|0.01
 `;
 
 export const SEAS_OCEANS = `
