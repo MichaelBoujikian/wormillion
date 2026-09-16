@@ -6492,6 +6492,8 @@ Monegros Desert|2764
 Cabo de Gata|460
 Deliblato Sands|300|Deliblatska Pescara
 Rabjerg Mile|2
+Bonneville Salt Flats|104
+Carson Desert|5568
 `;
 
 export const ISLANDS = `

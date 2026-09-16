@@ -1849,5 +1849,33 @@
   "wikiTitle": "Råbjerg Mile",
   "lat": 57.64805556,
   "lon": 10.40611111
+ },
+ {
+  "id": "desert-bonneville-salt-flats",
+  "category": "desert",
+  "name": "Bonneville Salt Flats",
+  "aliases": [],
+  "size": 104,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bonneville Salt Flats\", 60-day daily median (60 days ending 2026-09-16); Standard reference desert areas (km2), rounded",
+  "magnitude": 10076,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bonneville Salt Flats",
+  "lat": 40.8,
+  "lon": -113.8
+ },
+ {
+  "id": "desert-carson-desert",
+  "category": "desert",
+  "name": "Carson Desert",
+  "aliases": [],
+  "size": 5568,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Carson Desert\", 60-day daily median (60 days ending 2026-09-16); Standard reference desert areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Carson Desert",
+  "lat": 39.98,
+  "lon": -118.841
  }
 ]

@@ -1,0 +1,19 @@
+{
+  "name": "us-deserts",
+  "category": "desert",
+  "jsonFile": "deserts.json",
+  "roots": [
+    "Category:Deserts of the United States"
+  ],
+  "subcat": "^Category:Deserts of (?!the United States$)",
+  "lists": [
+    "List of North American deserts",
+    "List of deserts by area"
+  ],
+  "kind": "(desert|dunes?|sand|arid|badlands|erg|playa|salt flat|dry lake|basin and range|Desert$|Dunes$|Sands$|Flats?$)",
+  "skipTitle": "(^List of|^Geography of|Park$|Refuge$|Wildlife|Airport|Base$|Station$|Township|County$|Resort$|Preserve$|Monument$|Trail$|Reservation$|Range$|Canyon$|Valley$)",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "spellings": "desert",
+  "notKind": "^(town|city|village|county|census|neighborhood|community|unincorporated|resort|park|monument|refuge|wildlife|preserve|state park|national park|reservation|mountain range|range|river|lake|reservoir|dam|canal|valley|canyon|plateau|basin|region of|ecoregion|highway|road|trail|airport|base|station|list|company|film|novel|album|band|festival)"
+}

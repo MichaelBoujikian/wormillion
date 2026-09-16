@@ -5593,5 +5593,7 @@ export const WIKI_VERIFIED = new Set([
   "sea_ocean-san-francisco-bay",
   "sea_ocean-biscayne-bay",
   "sea_ocean-neah-bay",
-  "sea_ocean-birch-bay"
+  "sea_ocean-birch-bay",
+  // --- 2026-09-16 US deserts: a salt pan is a desert answer, like the Rann of Kutch ---
+  "desert-bonneville-salt-flats"
 ]);

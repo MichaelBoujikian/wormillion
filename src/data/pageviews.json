@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T15:42:20.649Z",
+ "fetched": "2026-09-16T15:46:00.678Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -67854,6 +67854,20 @@
    "days": 60,
    "lat": 57.64805556,
    "lon": 10.40611111
+  },
+  "desert-bonneville-salt-flats": {
+   "title": "Bonneville Salt Flats",
+   "monthlyViews": 10076,
+   "days": 60,
+   "lat": 40.8,
+   "lon": -113.8
+  },
+  "desert-carson-desert": {
+   "title": "Carson Desert",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 39.98,
+   "lon": -118.841
   },
   "island-greenland": {
    "title": "Greenland",

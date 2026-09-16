@@ -1177,7 +1177,9 @@ globalThis.WORMILLION_THEMES = {
       'Vizcaino Desert', 'Algodones Dunes', 'Kelso Dunes', 'Alvord Desert', 'Carcross Desert',
       'Red Desert (Wyoming)', 'Amargosa Desert', 'Escalante Desert', 'Yuma Desert', 'Lencois Maranhenses',
       'Sevier Desert', 'Owyhee Desert', 'Baja California Desert', 'Smoke Creek Desert', 'Anza-Borrego Desert',
-      'Puna de Atacama'
+      'Puna de Atacama',
+      // 2026-09-14 expansion
+      'Bonneville Salt Flats', 'Carson Desert'
     ]
   },
 
