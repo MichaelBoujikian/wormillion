@@ -2885,7 +2885,6 @@ Oak Park|United States|54583
 Walnut Creek|United States|70127
 Troy|United States|51401
 Petaluma|United States|59776
-Hempstead|United States|793409
 Johnson City|United States|71046
 Chapel Hill|United States|61960
 Eau Claire|United States|69421
@@ -2953,7 +2952,6 @@ San Clemente|United States|64293
 Grapevine|United States|50631
 Edina|United States|53494
 Normal|United States|52736
-Oyster Bay|United States|301332
 Rogers|United States|69908
 Waukesha|United States|71158
 Lake Elsinore|United States|70265
@@ -3003,10 +3001,9 @@ Doral|United States|75874
 Pasco|United States|77108
 Bryan|United States|83980
 Sanford|United States|61051
-Brookhaven|United States|485773
 Kennewick|United States|83921
 Summerville|United States|50915
-Upper Darby Township|United States|85681
+Upper Darby Township|United States|85681|Upper Darby
 Gilroy|United States|59520
 Vineland|United States|60780
 Gardena|United States|61027
@@ -3030,7 +3027,7 @@ Weston|United States|68107
 Wheaton|United States|53970
 Turlock|United States|72740
 Warner Robins|United States|80308
-Abington Township|United States|58502
+Abington Township|United States|58502|Abington
 East Orange|United States|69612
 Chino Hills|United States|78411
 Hoffman Estates|United States|52530
@@ -3080,7 +3077,6 @@ Wayne|United States|54838
 Celina|United States|64427
 Novi|United States|66243
 Port Charlotte|United States|60625
-Smithtown|United States|116296
 Baytown|United States|83701
 Cedar Park|United States|77595
 North Bergen|United States|63361
@@ -3099,14 +3095,12 @@ Laguna Niguel|United States|64355
 Mishawaka|United States|51063
 Monterey Park|United States|61096
 Wylie|United States|57526
-Amherst|United States|129595
 Oak Lawn|United States|58362
 West Allis|United States|60325
 Cathedral City|United States|51493
 Draper|United States|51017
 Farmington Hills|United States|83986
 Hoover|United States|92606
-Islip|United States|339938
 Hamden|United States|61169
 Palatine|United States|67908
 Coconut Creek|United States|57833
@@ -3121,7 +3115,6 @@ Tulare|United States|68875
 South San Francisco|United States|66105
 Blue Springs|United States|58603
 Bolingbrook|United States|73922
-Babylon|United States|218223
 Elyria|United States|52656
 Centreville|United States|73518
 Huntington Park|United States|54883
@@ -3144,7 +3137,7 @@ Florissant|United States|52533
 O'Fallon|United States|91316
 Shoreline|United States|58608
 Euless|United States|61032
-Lower Merion Township|United States|63633
+Lower Merion Township|United States|63633|Lower Merion
 Maricopa|United States|58125
 West Des Moines|United States|68723
 Chicopee|United States|55560
@@ -3169,8 +3162,8 @@ Hamilton Township|United States|92297
 Margate|United States|58712
 Palm Harbor|United States|61366
 Rosemead|United States|51185
-West Bloomfield Township|United States|65888
-Brick Township|United States|73620
+West Bloomfield Township|United States|65888|West Bloomfield
+Brick Township|United States|73620|Brick
 Burnsville|United States|64317
 Collierville|United States|51324
 Dunwoody|United States|51683
@@ -3182,7 +3175,7 @@ Blaine|United States|70222
 Rowlett|United States|62535
 Woodbury|United States|75102
 Lauderhill|United States|74482
-Bensalem Township|United States|62707
+Bensalem Township|United States|62707|Bensalem
 Layton|United States|81773
 Meriden|United States|60850
 Paramount|United States|53733
@@ -3190,16 +3183,14 @@ Cheektowaga|United States|89877
 San Jacinto|United States|53898
 Kendall|United States|80241
 Port Orange|United States|62596
-Ramapo|United States|148919
 Methuen|United States|53059
-Old Bridge Township|United States|66876
-Howell Township|United States|53537
+Old Bridge Township|United States|66876|Old Bridge
+Howell Township|United States|53537|Howell
 Colonie|United States|85590
 Burien|United States|52066
 Coon Rapids|United States|63599
 Pico Rivera|United States|62088
 Irondequoit|United States|51043
-North Hempstead|United States|237639
 Santee|United States|60037
 Waterford Township|United States|70565
 West Haven|United States|55584
@@ -3207,7 +3198,7 @@ South Jordan|United States|77487
 Midwest City|United States|58409
 Shawnee|United States|67311
 Marana|United States|51908
-Shelby Charter Township|United States|79408
+Shelby Charter Township|United States|79408|Shelby
 Wyoming|United States|76501
 East Hartford|United States|50731
 St. Clair Shores|United States|58874
@@ -3237,9 +3228,9 @@ Clay|United States|60527
 Gloucester Township|United States|66034
 Arden-Arcade|United States|94659
 Dale City|United States|72088
-Macomb Township|United States|91663
+Macomb Township|United States|91663|Macomb
 Clarkstown|United States|86855
-Haverford Township|United States|50431
+Haverford Township|United States|50431|Haverford
 Florence-Graham|United States|61983
 Taylorsville|United States|60448
 Town 'n' Country|United States|85951
@@ -3247,13 +3238,13 @@ Tamiami|United States|54212
 Millcreek Township|United States|54073
 The Hammocks|United States|59480
 Florin|United States|52388
-Fontainebleau|United States|59870
-Ypsilanti Charter Township|United States|55670
-Lower Paxton Township|United States|53501
+Ypsilanti Charter Township|United States|55670|Ypsilanti
+Lower Paxton Township|United States|53501|Lower Paxton
 Bristol Township|United States|54291
 Georgetown Township|United States|54091
-Tonawanda|United States|57431
+Tonawanda|United States|72636
 Bel Air South|United States|57648
 East Los Angeles|United States|118786
 Silver Spring|United States|81015
+Hempstead|United States|59169
 `;

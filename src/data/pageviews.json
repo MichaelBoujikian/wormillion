@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T18:36:18.505Z",
+ "fetched": "2026-09-16T19:06:40.666Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -22838,13 +22838,6 @@
    "lat": 38.24583333,
    "lon": -122.63138889
   },
-  "city-hempstead": {
-   "title": "Hempstead, New York",
-   "monthlyViews": 9954,
-   "days": 60,
-   "lat": 40.70472222,
-   "lon": -73.61722222
-  },
   "city-johnson-city": {
    "title": "Johnson City, Tennessee",
    "monthlyViews": 9832,
@@ -23314,13 +23307,6 @@
    "lat": 40.51222222,
    "lon": -88.98861111
   },
-  "city-oyster-bay": {
-   "title": "Oyster Bay, New York",
-   "monthlyViews": 6027,
-   "days": 60,
-   "lat": 40.75944444,
-   "lon": -73.50277778
-  },
   "city-rogers": {
    "title": "Rogers, Arkansas",
    "monthlyViews": 6027,
@@ -23663,13 +23649,6 @@
    "days": 60,
    "lat": 28.76944444,
    "lon": -81.27583333
-  },
-  "city-brookhaven": {
-   "title": "Brookhaven, New York",
-   "monthlyViews": 4749,
-   "days": 60,
-   "lat": 40.81666667,
-   "lon": -72.93333333
   },
   "city-kennewick": {
    "title": "Kennewick, Washington",
@@ -24203,13 +24182,6 @@
    "lat": 26.99027778,
    "lon": -82.11333333
   },
-  "city-smithtown": {
-   "title": "Smithtown, New York",
-   "monthlyViews": 3561,
-   "days": 60,
-   "lat": 40.86277778,
-   "lon": -73.21527778
-  },
   "city-baytown": {
    "title": "Baytown, Texas",
    "monthlyViews": 3531,
@@ -24336,13 +24308,6 @@
    "lat": 33.03611111,
    "lon": -96.51611111
   },
-  "city-amherst": {
-   "title": "Amherst, New York",
-   "monthlyViews": 3257,
-   "days": 60,
-   "lat": 42.97833333,
-   "lon": -78.8
-  },
   "city-oak-lawn": {
    "title": "Oak Lawn, Illinois",
    "monthlyViews": 3257,
@@ -24384,13 +24349,6 @@
    "days": 60,
    "lat": 33.38638889,
    "lon": -86.805
-  },
-  "city-islip": {
-   "title": "Islip, New York",
-   "monthlyViews": 3135,
-   "days": 60,
-   "lat": 40.75666667,
-   "lon": -73.19888889
   },
   "city-hamden": {
    "title": "Hamden, Connecticut",
@@ -24489,13 +24447,6 @@
    "days": 60,
    "lat": 41.68111111,
    "lon": -88.12361111
-  },
-  "city-babylon": {
-   "title": "Babylon, New York",
-   "monthlyViews": 2831,
-   "days": 60,
-   "lat": 40.69444444,
-   "lon": -73.32944444
   },
   "city-elyria": {
    "title": "Elyria, Ohio",
@@ -24973,13 +24924,6 @@
    "lat": 29.12222222,
    "lon": -81.99222222
   },
-  "city-ramapo": {
-   "title": "Ramapo, New York",
-   "monthlyViews": 2009,
-   "days": 60,
-   "lat": 41.12194444,
-   "lon": -74.08333333
-  },
   "city-methuen": {
    "title": "Methuen, Massachusetts",
    "monthlyViews": 1979,
@@ -25035,13 +24979,6 @@
    "days": 60,
    "lat": 43.21111111,
    "lon": -77.58194444
-  },
-  "city-north-hempstead": {
-   "title": "North Hempstead, New York",
-   "monthlyViews": 1826,
-   "days": 60,
-   "lat": 40.75888889,
-   "lon": -73.58805556
   },
   "city-santee": {
    "title": "Santee, California",
@@ -25372,13 +25309,6 @@
    "lat": 38.49027778,
    "lon": -121.41083333
   },
-  "city-fontainebleau": {
-   "title": "Fontainebleau, Florida",
-   "monthlyViews": 548,
-   "days": 60,
-   "lat": 25.77388889,
-   "lon": -80.36166667
-  },
   "city-ypsilanti-charter-township": {
    "title": "Ypsilanti Charter Township, Michigan",
    "monthlyViews": 426,
@@ -25408,11 +25338,11 @@
    "lon": -85.82944444
   },
   "city-tonawanda": {
-   "title": "Tonawanda (CDP), New York",
-   "monthlyViews": 152,
+   "title": "Tonawanda (town), New York",
+   "monthlyViews": 761,
    "days": 60,
-   "lat": 42.98527778,
-   "lon": -78.85222222
+   "lat": 42.98138889,
+   "lon": -78.85527778
   },
   "city-bel-air-south": {
    "title": "Bel Air South, Maryland",
@@ -25434,6 +25364,13 @@
    "days": 60,
    "lat": 38.99611111,
    "lon": -77.02805556
+  },
+  "city-hempstead": {
+   "title": "Hempstead (village), New York",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 40.70472222,
+   "lon": -73.61722222
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",

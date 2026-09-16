@@ -136,8 +136,10 @@
   // "Lake Tahoe" ends in E. The 2026-09 US fill brought 160 creeks, and "ends
   // in K" had become "name any creek". The reverse of `rio` (filler for
   // matching, a letter where it is the name).
+  // Bayou and Arroyo are not here: they lead the name the way Rio does (Bayou
+  // Teche starts with B, Arroyo Seco with A), and the `rio` exception applies.
   const LETTER_ONLY_FILLER = {
-    river: ['creek', 'bayou', 'fork', 'branch', 'run', 'brook', 'kill', 'wash', 'slough', 'arroyo', 'draw']
+    river: ['creek', 'fork', 'branch', 'run', 'brook', 'kill', 'wash', 'slough', 'draw']
   };
   const letterFillerSets = new Map();
   function letterFillerFor(category) {

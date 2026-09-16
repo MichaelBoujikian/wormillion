@@ -5195,7 +5195,6 @@ export const WIKI_TITLES = {
   "city-walnut-creek": "Walnut Creek, California",
   "city-troy": "Troy, New York",
   "city-petaluma": "Petaluma, California",
-  "city-hempstead": "Hempstead, New York",
   "city-johnson-city": "Johnson City, Tennessee",
   "city-chapel-hill": "Chapel Hill, North Carolina",
   "city-eau-claire": "Eau Claire, Wisconsin",
@@ -5263,7 +5262,6 @@ export const WIKI_TITLES = {
   "city-grapevine": "Grapevine, Texas",
   "city-edina": "Edina, Minnesota",
   "city-normal": "Normal, Illinois",
-  "city-oyster-bay": "Oyster Bay, New York",
   "city-rogers": "Rogers, Arkansas",
   "city-waukesha": "Waukesha, Wisconsin",
   "city-lake-elsinore": "Lake Elsinore, California",
@@ -5313,7 +5311,6 @@ export const WIKI_TITLES = {
   "city-pasco": "Pasco, Washington",
   "city-bryan": "Bryan, Texas",
   "city-sanford": "Sanford, Florida",
-  "city-brookhaven": "Brookhaven, New York",
   "city-kennewick": "Kennewick, Washington",
   "city-summerville": "Summerville, South Carolina",
   "city-upper-darby-township": "Upper Darby Township, Pennsylvania",
@@ -5390,7 +5387,6 @@ export const WIKI_TITLES = {
   "city-celina": "Celina, Texas",
   "city-novi": "Novi, Michigan",
   "city-port-charlotte": "Port Charlotte, Florida",
-  "city-smithtown": "Smithtown, New York",
   "city-baytown": "Baytown, Texas",
   "city-cedar-park": "Cedar Park, Texas",
   "city-north-bergen": "North Bergen, New Jersey",
@@ -5409,14 +5405,12 @@ export const WIKI_TITLES = {
   "city-mishawaka": "Mishawaka, Indiana",
   "city-monterey-park": "Monterey Park, California",
   "city-wylie": "Wylie, Texas",
-  "city-amherst": "Amherst, New York",
   "city-oak-lawn": "Oak Lawn, Illinois",
   "city-west-allis": "West Allis, Wisconsin",
   "city-cathedral-city": "Cathedral City, California",
   "city-draper": "Draper, Utah",
   "city-farmington-hills": "Farmington Hills, Michigan",
   "city-hoover": "Hoover, Alabama",
-  "city-islip": "Islip, New York",
   "city-hamden": "Hamden, Connecticut",
   "city-palatine": "Palatine, Illinois",
   "city-coconut-creek": "Coconut Creek, Florida",
@@ -5431,7 +5425,6 @@ export const WIKI_TITLES = {
   "city-south-san-francisco": "South San Francisco, California",
   "city-blue-springs": "Blue Springs, Missouri",
   "city-bolingbrook": "Bolingbrook, Illinois",
-  "city-babylon": "Babylon, New York",
   "city-elyria": "Elyria, Ohio",
   "city-centreville": "Centreville, Virginia",
   "city-huntington-park": "Huntington Park, California",
@@ -5500,7 +5493,6 @@ export const WIKI_TITLES = {
   "city-san-jacinto": "San Jacinto, California",
   "city-kendall": "Kendall, Florida",
   "city-port-orange": "Port Orange, Florida",
-  "city-ramapo": "Ramapo, New York",
   "city-methuen": "Methuen, Massachusetts",
   "city-old-bridge-township": "Old Bridge Township, New Jersey",
   "city-howell-township": "Howell Township, New Jersey",
@@ -5509,7 +5501,6 @@ export const WIKI_TITLES = {
   "city-coon-rapids": "Coon Rapids, Minnesota",
   "city-pico-rivera": "Pico Rivera, California",
   "city-irondequoit": "Irondequoit, New York",
-  "city-north-hempstead": "North Hempstead, New York",
   "city-santee": "Santee, California",
   "city-waterford-township": "Waterford Township, Michigan",
   "city-west-haven": "West Haven, Connecticut",
@@ -5557,17 +5548,19 @@ export const WIKI_TITLES = {
   "city-millcreek-township": "Millcreek Township, Erie County, Pennsylvania",
   "city-the-hammocks": "The Hammocks, Florida",
   "city-florin": "Florin, California",
-  "city-fontainebleau": "Fontainebleau, Florida",
   "city-ypsilanti-charter-township": "Ypsilanti Charter Township, Michigan",
   "city-lower-paxton-township": "Lower Paxton Township, Pennsylvania",
   "city-bristol-township": "Bristol Township, Pennsylvania",
   "city-georgetown-township": "Georgetown Township, Michigan",
-  "city-tonawanda": "Tonawanda (CDP), New York",
+  "city-tonawanda": "Tonawanda (town), New York",
   "city-bel-air-south": "Bel Air South, Maryland",
 
   // --- city (2026-09-14 expansion) ---
   "city-east-los-angeles": "East Los Angeles, California",
-  "city-silver-spring": "Silver Spring, Maryland"
+  "city-silver-spring": "Silver Spring, Maryland",
+
+  // --- city (2026-09-14 expansion) ---
+  "city-hempstead": "Hempstead (village), New York"
 };
 
 /**

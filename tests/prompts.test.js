@@ -765,7 +765,7 @@ test('a letter-rule miss says which letter is missing', () => {
   assert.strictEqual(letterMissText('Rio Grande', { kind: 'starts', letter: 'g' }, 'river'), "Rio Grande doesn't start with G");
 });
 
-test('creek, bayou, fork and branch are generic for the letter rules but not for matching', () => {
+test('creek, fork and branch are generic for the letter rules but not for matching; bayou leads the name', () => {
   const bank = promptBank.createBank({
     ...RAW,
     rivers: [
@@ -790,8 +790,11 @@ test('creek, bayou, fork and branch are generic for the letter rules but not for
   assert.strictEqual(on({ kind: 'ends', letter: 'k' }, 'Bear Creek').status, 'wrong-scope');
   assert.strictEqual(on({ kind: 'ends', letter: 'k' }, 'Rock Creek').status, 'accepted');
   assert.strictEqual(on({ kind: 'double' }, 'Bear Creek').status, 'wrong-scope');
-  assert.strictEqual(on({ kind: 'starts', letter: 'b' }, 'Bayou Teche').status, 'wrong-scope');
+  // ...while Bayou leads the name the way Rio does: Bayou Teche starts with B
+  // (and with T through its alias "Teche" - an alias is a spelling of the name)
+  assert.strictEqual(on({ kind: 'starts', letter: 'b' }, 'Bayou Teche').status, 'accepted');
   assert.strictEqual(on({ kind: 'starts', letter: 't' }, 'Bayou Teche').status, 'accepted');
+  assert.strictEqual(on({ kind: 'starts', letter: 'e' }, 'Bayou Teche').status, 'wrong-scope');
   // length rules: the trimmed spelling counts too ("Sugar" is short), and so does the one typed
   assert.strictEqual(on({ kind: 'short' }, 'Sugar Creek').status, 'accepted');
   assert.strictEqual(on({ kind: 'long' }, 'Bear Creek').status, 'wrong-scope');

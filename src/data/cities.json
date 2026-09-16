@@ -67707,29 +67707,6 @@
   "lon": -122.63138889
  },
  {
-  "id": "city-hempstead",
-  "category": "city",
-  "name": "Hempstead",
-  "aliases": [],
-  "size": 793409,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Hempstead, New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 9954,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Hempstead, New York",
-  "lat": 40.70472222,
-  "lon": -73.61722222
- },
- {
   "id": "city-johnson-city",
   "category": "city",
   "name": "Johnson City",
@@ -69271,29 +69248,6 @@
   "lon": -88.98861111
  },
  {
-  "id": "city-oyster-bay",
-  "category": "city",
-  "name": "Oyster Bay",
-  "aliases": [],
-  "size": 301332,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Oyster Bay, New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 6027,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Oyster Bay, New York",
-  "lat": 40.75944444,
-  "lon": -73.50277778
- },
- {
   "id": "city-rogers",
   "category": "city",
   "name": "Rogers",
@@ -70419,29 +70373,6 @@
   "lon": -81.27583333
  },
  {
-  "id": "city-brookhaven",
-  "category": "city",
-  "name": "Brookhaven",
-  "aliases": [],
-  "size": 485773,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Brookhaven, New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 4749,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Brookhaven, New York",
-  "lat": 40.81666667,
-  "lon": -72.93333333
- },
- {
   "id": "city-kennewick",
   "category": "city",
   "name": "Kennewick",
@@ -70491,7 +70422,9 @@
   "id": "city-upper-darby-township",
   "category": "city",
   "name": "Upper Darby Township",
-  "aliases": [],
+  "aliases": [
+   "Upper Darby"
+  ],
   "size": 85681,
   "sizeUnit": "population",
   "region": [
@@ -71043,7 +70976,9 @@
   "id": "city-abington-township",
   "category": "city",
   "name": "Abington Township",
-  "aliases": [],
+  "aliases": [
+   "Abington"
+  ],
   "size": 58502,
   "sizeUnit": "population",
   "region": [
@@ -72188,29 +72123,6 @@
   "lon": -82.11333333
  },
  {
-  "id": "city-smithtown",
-  "category": "city",
-  "name": "Smithtown",
-  "aliases": [],
-  "size": 116296,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Smithtown, New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 3561,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Smithtown, New York",
-  "lat": 40.86277778,
-  "lon": -73.21527778
- },
- {
   "id": "city-baytown",
   "category": "city",
   "name": "Baytown",
@@ -72625,29 +72537,6 @@
   "lon": -96.51611111
  },
  {
-  "id": "city-amherst",
-  "category": "city",
-  "name": "Amherst",
-  "aliases": [],
-  "size": 129595,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Amherst, New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 3257,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Amherst, New York",
-  "lat": 42.97833333,
-  "lon": -78.8
- },
- {
   "id": "city-oak-lawn",
   "category": "city",
   "name": "Oak Lawn",
@@ -72784,29 +72673,6 @@
   "wikiTitle": "Hoover, Alabama",
   "lat": 33.38638889,
   "lon": -86.805
- },
- {
-  "id": "city-islip",
-  "category": "city",
-  "name": "Islip",
-  "aliases": [],
-  "size": 339938,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Islip, New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 3135,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Islip, New York",
-  "lat": 40.75666667,
-  "lon": -73.19888889
  },
  {
   "id": "city-hamden",
@@ -73129,29 +72995,6 @@
   "wikiTitle": "Bolingbrook, Illinois",
   "lat": 41.68111111,
   "lon": -88.12361111
- },
- {
-  "id": "city-babylon",
-  "category": "city",
-  "name": "Babylon",
-  "aliases": [],
-  "size": 218223,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Babylon, New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 2831,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Babylon, New York",
-  "lat": 40.69444444,
-  "lon": -73.32944444
  },
  {
   "id": "city-elyria",
@@ -73663,7 +73506,9 @@
   "id": "city-lower-merion-township",
   "category": "city",
   "name": "Lower Merion Township",
-  "aliases": [],
+  "aliases": [
+   "Lower Merion"
+  ],
   "size": 63633,
   "sizeUnit": "population",
   "region": [
@@ -74238,7 +74083,9 @@
   "id": "city-west-bloomfield-township",
   "category": "city",
   "name": "West Bloomfield Township",
-  "aliases": [],
+  "aliases": [
+   "West Bloomfield"
+  ],
   "size": 65888,
   "sizeUnit": "population",
   "region": [
@@ -74261,7 +74108,9 @@
   "id": "city-brick-township",
   "category": "city",
   "name": "Brick Township",
-  "aliases": [],
+  "aliases": [
+   "Brick"
+  ],
   "size": 73620,
   "sizeUnit": "population",
   "region": [
@@ -74535,7 +74384,9 @@
   "id": "city-bensalem-township",
   "category": "city",
   "name": "Bensalem Township",
-  "aliases": [],
+  "aliases": [
+   "Bensalem"
+  ],
   "size": 62707,
   "sizeUnit": "population",
   "region": [
@@ -74716,29 +74567,6 @@
   "lon": -81.99222222
  },
  {
-  "id": "city-ramapo",
-  "category": "city",
-  "name": "Ramapo",
-  "aliases": [],
-  "size": 148919,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Ramapo, New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 2009,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ramapo, New York",
-  "lat": 41.12194444,
-  "lon": -74.08333333
- },
- {
   "id": "city-methuen",
   "category": "city",
   "name": "Methuen",
@@ -74765,7 +74593,9 @@
   "id": "city-old-bridge-township",
   "category": "city",
   "name": "Old Bridge Township",
-  "aliases": [],
+  "aliases": [
+   "Old Bridge"
+  ],
   "size": 66876,
   "sizeUnit": "population",
   "region": [
@@ -74788,7 +74618,9 @@
   "id": "city-howell-township",
   "category": "city",
   "name": "Howell Township",
-  "aliases": [],
+  "aliases": [
+   "Howell"
+  ],
   "size": 53537,
   "sizeUnit": "population",
   "region": [
@@ -74919,29 +74751,6 @@
   "wikiTitle": "Irondequoit, New York",
   "lat": 43.21111111,
   "lon": -77.58194444
- },
- {
-  "id": "city-north-hempstead",
-  "category": "city",
-  "name": "North Hempstead",
-  "aliases": [],
-  "size": 237639,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"North Hempstead, New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 1826,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "North Hempstead, New York",
-  "lat": 40.75888889,
-  "lon": -73.58805556
  },
  {
   "id": "city-santee",
@@ -75108,7 +74917,9 @@
   "id": "city-shelby-charter-township",
   "category": "city",
   "name": "Shelby Charter Township",
-  "aliases": [],
+  "aliases": [
+   "Shelby"
+  ],
   "size": 79408,
   "sizeUnit": "population",
   "region": [
@@ -75798,7 +75609,9 @@
   "id": "city-macomb-township",
   "category": "city",
   "name": "Macomb Township",
-  "aliases": [],
+  "aliases": [
+   "Macomb"
+  ],
   "size": 91663,
   "sizeUnit": "population",
   "region": [
@@ -75844,7 +75657,9 @@
   "id": "city-haverford-township",
   "category": "city",
   "name": "Haverford Township",
-  "aliases": [],
+  "aliases": [
+   "Haverford"
+  ],
   "size": 50431,
   "sizeUnit": "population",
   "region": [
@@ -76025,33 +75840,12 @@
   "lon": -121.41083333
  },
  {
-  "id": "city-fontainebleau",
-  "category": "city",
-  "name": "Fontainebleau",
-  "aliases": [],
-  "size": 59870,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "United States",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Fontainebleau, Florida\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 548,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Fontainebleau, Florida",
-  "lat": 25.77388889,
-  "lon": -80.36166667
- },
- {
   "id": "city-ypsilanti-charter-township",
   "category": "city",
   "name": "Ypsilanti Charter Township",
-  "aliases": [],
+  "aliases": [
+   "Ypsilanti"
+  ],
   "size": 55670,
   "sizeUnit": "population",
   "region": [
@@ -76074,7 +75868,9 @@
   "id": "city-lower-paxton-township",
   "category": "city",
   "name": "Lower Paxton Township",
-  "aliases": [],
+  "aliases": [
+   "Lower Paxton"
+  ],
   "size": 53501,
   "sizeUnit": "population",
   "region": [
@@ -76144,7 +75940,7 @@
   "category": "city",
   "name": "Tonawanda",
   "aliases": [],
-  "size": 57431,
+  "size": 72636,
   "sizeUnit": "population",
   "region": [
    "North America"
@@ -76155,12 +75951,12 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Tonawanda (CDP), New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
-  "magnitude": 152,
+  "source": "English Wikipedia pageviews for \"Tonawanda (town), New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 761,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tonawanda (CDP), New York",
-  "lat": 42.98527778,
-  "lon": -78.85222222
+  "wikiTitle": "Tonawanda (town), New York",
+  "lat": 42.98138889,
+  "lon": -78.85527778
  },
  {
   "id": "city-bel-air-south",
@@ -76230,5 +76026,28 @@
   "wikiTitle": "Silver Spring, Maryland",
   "lat": 38.99611111,
   "lon": -77.02805556
+ },
+ {
+  "id": "city-hempstead",
+  "category": "city",
+  "name": "Hempstead",
+  "aliases": [],
+  "size": 59169,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Hempstead (village), New York\", 60-day daily median (60 days ending 2026-09-16); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 2527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hempstead (village), New York",
+  "lat": 40.70472222,
+  "lon": -73.61722222
  }
 ]
