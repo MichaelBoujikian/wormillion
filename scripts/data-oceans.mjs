@@ -119,6 +119,9 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- 2026-09-16 US islands (2): Morgan Island, South Carolina (no article coordinates) ---
+  'island-morgan-island': ['Atlantic'],
+
   // --- 2026-09-16 US islands: articles without coordinates (the Northern Marianas chain, Alaskan and Carolina islands; Credit Island is in the Mississippi, Gunnison Island in the Great Salt Lake) ---
   'island-anatahan': ['Pacific'],
   'island-gardner-pinnacles': ['Pacific'],

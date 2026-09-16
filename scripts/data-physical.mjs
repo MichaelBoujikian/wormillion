@@ -8089,6 +8089,75 @@ Bendel Island|9.86
 Kavalga Island|9
 Karpa Island|1.92
 U Thant Island|0.01
+Fishers Island|12.86
+Fisher Island|0.69
+Shelter Island|75.39
+Parris Island|50.76
+Discovery Island|0.05
+Sullivan's Island|8.91
+Morgan Island|18.17
+Pawleys Island|2.57
+Smith Island|23.77
+Bald Head Island|15.18
+Star Island|0.35
+Peaks Island|2.91
+Yerba Buena Island|0.8
+Goose Island|0.65
+Ossabaw Island|105.22
+Edisto Island|175.5
+Seabrook Island|18.29
+Fripp Island|11.89
+Palm Island|0.33
+Hoffman Island|0.04
+Chebeague Island|63.61
+Frye Island|4.14
+Spieden Island|2.09
+Swan's Island|209.3
+Green Island|2.42
+Virginia Key|3.5
+Harkers Island|9.97
+Hayden Island|4.38
+Indian Island|11.29
+Bethel Island|14.16
+Waldron Island|11.9
+North Bass Island|2.79
+Dewees Island|4.86
+French Island|6.53
+Mason's Island|2.43
+Cobb Island|2.39
+Davis Island|120
+Cousins Island|5.14
+Detroit Island|2.58
+Hawadax Island|26.7
+Herron Island|1.23
+Westport Island|36.88
+Verona Island|22.71
+Anaho Island|2.57
+Big Coppitt Key|3.88
+Bradford Island|8.79
+Kreamer Island|12.14
+Lowes Island|8.19
+Ryer Island|47.35
+Broomes Island|1.91
+Ritta Island|14.16
+Spesutie Island|6.07
+Avoca Island|64.75
+Lime Island|3.64
+Littlejohn Island|1.89
+McDonald Island|23.88
+Snead Island|1.48
+The Jug|11.53
+Bouldin Island|23.88
+Jones Tract|48.56
+Mandeville Island|22.26
+Van Sickle Island|40.47
+Venice Island|12.55
+Quimby Island|3.19
+Twitchell Island|12.14
+Woodward Island|7.24
+Hastings Tract|25.9
+Atlas Tract|1.46
+Moore Tract|6.23
 `;
 
 export const SEAS_OCEANS = `

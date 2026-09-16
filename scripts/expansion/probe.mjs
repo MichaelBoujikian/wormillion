@@ -7,6 +7,7 @@
  * config: { name, category, jsonFile, roots: [category titles], subcat: regex,
  *           lists: [page titles], kind: regex (description|title), skipTitle: regex,
  *           notKind: regex on the description alone that vetoes an item ("Reservoir on the X River"),
+ *           notKindExemptTitle: regex on the title that lifts the veto (an island whose article is its town),
  *           sizeProp: 'P1082' | 'P2046' | 'P2043' | 'P2044', sizeUnit: 'population'|'km2'|'km'|'m',
  *           minSize: optional floor in sizeUnit - items under it (or with no Wikidata
  *                    figure) are counted, not fetched for views, and listed apart,
@@ -121,7 +122,9 @@ for (let i = 0; i < candidates.length; i += 50) {
   }
 }
 const NOT_KIND = re(cfg.notKind); // on the description only: "Reservoir on the Colorado River" is not a river
-const isKind = (r) => !r.missing && !r.disambig && !(SKIP_TITLE && SKIP_TITLE.test(r.finalTitle)) && KIND.test(r.description + ' || ' + r.finalTitle) && !(NOT_KIND && NOT_KIND.test(r.description));
+const NOT_KIND_EXEMPT = re(cfg.notKindExemptTitle); // ...unless the title says otherwise: "Sullivan's Island, South Carolina" is a town AND the island
+const vetoed = (r) => NOT_KIND && NOT_KIND.test(r.description) && !(NOT_KIND_EXEMPT && NOT_KIND_EXEMPT.test(r.finalTitle));
+const isKind = (r) => !r.missing && !r.disambig && !(SKIP_TITLE && SKIP_TITLE.test(r.finalTitle)) && KIND.test(r.description + ' || ' + r.finalTitle) && !vetoed(r);
 const byFinal = new Map();
 for (const r of info.values()) {
   if (!byFinal.has(r.finalTitle)) byFinal.set(r.finalTitle, { ...r, sources: new Set() });

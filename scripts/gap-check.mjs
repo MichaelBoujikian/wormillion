@@ -53,7 +53,9 @@ const EXPECTED = {
     'Brooklyn', 'Queens', 'Bronx', 'Arlington', 'Irvine', 'Albany', 'Fremont', 'Santa Clarita'],
   island: ['Maui', 'Oahu', 'Seychelles', 'Falkland Islands', 'Falklands', 'Lofoten', 'Shetland', 'Orkney', 'Hebrides', 'Bali', 'Sicily', 'Greenland', 'Madagascar', 'Cuba', 'Hawaii', 'Manhattan', 'Iceland', 'Tasmania', 'Crete', 'Santorini', 'Fiji', 'Maldives', 'Galapagos', 'Isle of Skye', 'Long Island', 'Corfu', 'Phuket', 'Ibiza', 'Jamaica', 'Bora Bora', 'Aruba', 'Zanzibar', 'Palau', 'Samoa', 'Tonga', 'Bahamas', 'Singapore', 'Grenada', 'Haiti', 'Trinidad and Tobago', 'Big Island', 'Japan', 'Philippines', 'Indonesia', 'New Zealand', 'United Kingdom', 'Papua New Guinea', 'Brunei',
     // the 2026-09-14 expansion
-    'Tobago', 'Hong Kong Island', 'Lantau', 'Phi Phi', 'Ko Tao', 'Vieques', 'Saba', 'Hvar', 'Mykonos', 'Iwo Jima', 'Corregidor', 'Manitoulin', 'Kerguelen', 'South Georgia'],
+    'Tobago', 'Hong Kong Island', 'Lantau', 'Phi Phi', 'Ko Tao', 'Vieques', 'Saba', 'Hvar', 'Mykonos', 'Iwo Jima', 'Corregidor', 'Manitoulin', 'Kerguelen', 'South Georgia',
+    // the 2026-09-16 US islands scouring (scripts/expansion/reports/2026-09-16-us-islands.md)
+    'San Nicolas Island', 'Wrangell Island', 'Hart Island', 'Fishers Island', 'Shelter Island', 'Sullivans Island', 'Pawleys Island', 'Edisto Island', 'Bald Head Island', 'Peaks Island', 'Chebeague', 'Yerba Buena Island', 'Star Island', 'Fisher Island', 'Smith Island', 'Pollepel Island', 'Great Sitkin', 'Agattu', 'Sugar Island'],
   sea_ocean: ['Pacific Ocean', 'Atlantic', 'Mediterranean', 'Red Sea', 'Black Sea', 'Caribbean Sea', 'Dead Sea', 'North Sea', 'Baltic Sea', 'Arabian Sea', 'Bering Sea', 'Coral Sea', 'Gulf of Mexico',
     // the 2026-09-15 expansion
     'Strait of Gibraltar', 'Bosphorus', 'Strait of Hormuz', 'Bering Strait', 'Puget Sound', 'San Francisco Bay', 'Tokyo Bay', 'Bohai Sea', 'Gulf of Suez']

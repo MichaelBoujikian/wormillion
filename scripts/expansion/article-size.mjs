@@ -122,10 +122,10 @@ function amountOf(value, fieldUnit) {
 }
 const FIELDS = {
   km: ['length', 'length_km', 'length_mi'],
-  km2: ['area', 'area_km2', 'area_sqmi', 'area_total_km2', 'area_total_sq_mi', 'area_mi2', 'surface_area', 'area_land_km2'],
+  km2: ['area', 'area_km2', 'area_sqmi', 'area_total_km2', 'area_total_sq_mi', 'area_mi2', 'surface_area', 'area_land_km2', 'area_land_sq_mi', 'area_acre', 'area_ha', 'area_total_acre', 'area_land_acre', 'total_area'],
   m: ['elevation_m', 'elevation_ft', 'elevation', 'height', 'highest_elevation', 'elevation_max_m', 'elevation_max_ft']
 };
-const FIELD_UNIT = { length_km: 'km', length_mi: 'mi', area_km2: 'km2', area_sqmi: 'sq mi', area_total_km2: 'km2', area_total_sq_mi: 'sq mi', area_mi2: 'mi2', area_land_km2: 'km2', elevation_m: 'm', elevation_ft: 'ft', elevation_max_m: 'm', elevation_max_ft: 'ft' };
+const FIELD_UNIT = { length_km: 'km', length_mi: 'mi', area_km2: 'km2', area_sqmi: 'sq mi', area_total_km2: 'km2', area_total_sq_mi: 'sq mi', area_mi2: 'mi2', area_land_km2: 'km2', area_land_sq_mi: 'sq mi', area_acre: 'acre', area_ha: 'ha', area_total_acre: 'acre', area_land_acre: 'acre', elevation_m: 'm', elevation_ft: 'ft', elevation_max_m: 'm', elevation_max_ft: 'ft' };
 
 function articleSize(text, unit) {
   const box = infoboxOf(text || '');
