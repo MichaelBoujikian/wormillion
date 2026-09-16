@@ -1,4 +1,4 @@
-# Colombia × rivers — a narrow coverage probe (2026-09-16)
+# Colombia × rivers — a narrow coverage probe (2026-09-15)
 
 The question: pick one country and one category and see whether the bank has
 everything. Colombia, rivers. Method: every article in `Category:Rivers of
@@ -9,6 +9,23 @@ river-described articles, then pushed through the game's own matcher
 separately) and checked against each entry's `wikiTitle`. Views are the
 bank's own metric (60-day median × 30.44). Script and raw output: the session
 scratchpad (`colombia-rivers.mjs`, `colombia-rivers.json`).
+
+## Outcome (same day)
+
+**66 added** (`99aab7f`): every missing river with an English article *and* a
+sourced length — Wikidata P2043, else the article's infobox or prose, else
+es.wikipedia's infobox. Cross-checks that mattered: Wikidata had the Sinú at
+27 km (it is 415), the Atabapo at 131 (article: 280), the Catatumbo at 338
+(article: 500); the article wins. Left out on purpose: **Ariporo** (article
+and Wikidata both say 1,300 km, which cannot fit in Casanare); **San
+Francisco River (Bogotá)** (a 10 km stream that would take "San Francisco"
+away from the São Francisco correction); the four name collisions above plus
+**Río Frío** and **Leon River (Colombia)** (their bare names belong to the
+Texas rivers when those are added). **55 more have no length figure anywhere**
+(Guayabero, Bojayá, Mulatos, Guatapé, Nechí's neighbours…) and are still
+missing — a human with a map could supply them; the list is in the session's
+`colombia-chunk.log`. Bank is 9,033; `gap-check` now pins Caño Cristales,
+Catatumbo, Sinú, Bogotá River, Cauca and Caquetá.
 
 ## Counts
 

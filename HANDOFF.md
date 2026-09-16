@@ -318,7 +318,7 @@ by chance, not unfair).
   per chunk or per wave, with a `[WIP]` local checkpoint after each fold so a
   session cut-off loses nothing (squash before pushing, as `39534ba` was).
 - **Sub-agents default to Sonnet unless the user names a model for the job**
-  (2026-09-16: they asked for Opus on a narrow coverage check; do what they
+  (2026-09-15: they asked for Opus on a narrow coverage check; do what they
   say, and fall back to Sonnet when they say nothing). **For data work: at
   most two at a time, appending to their output file every ~30 rows, one
   category × region each.** Seven Opus agents launched together all died on

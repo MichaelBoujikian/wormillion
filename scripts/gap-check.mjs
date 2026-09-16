@@ -25,7 +25,7 @@ const EXPECTED = {
   river: ['Nile', 'Amazon', 'Mississippi', 'Thames', 'Danube', 'Ganges', 'Volga', 'Indus', 'Rhine', 'Seine', 'Yangtze', 'Congo', 'Tigris', 'Euphrates', 'Jordan', 'Colorado',
     // the 2026-09-14 expansion: rivers players reported missing
     'Hudson', 'Potomac', 'Tennessee', 'Fraser', 'Magdalena', 'Okavango', 'Garonne', 'Neckar', 'Mersey', 'Tyne', 'Warta', 'Irtysh', 'Kaveri', 'Murrumbidgee', 'Rio de la Plata',
-    // the 2026-09-16 Colombia probe (scripts/expansion/reports/2026-09-16-colombia-rivers.md)
+    // the 2026-09-15 Colombia probe (scripts/expansion/reports/2026-09-15-colombia-rivers.md)
     'Cano Cristales', 'Catatumbo', 'Sinu', 'Bogota River', 'Cauca', 'Caqueta'],
   mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna',
     // the 2026-09-14 expansion
