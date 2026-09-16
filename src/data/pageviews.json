@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T07:18:09.777Z",
+ "fetched": "2026-09-16T09:08:28.463Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -35845,11 +35845,11 @@
    "lon": -75.20472222
   },
   "river-brandywine": {
-   "title": "Brandywine Creek (Big Blue River tributary)",
-   "monthlyViews": 30,
-   "days": 43,
-   "lat": 39.51611111,
-   "lon": -85.85944444
+   "title": "Brandywine Creek (Christina River tributary)",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 39.73194444,
+   "lon": -75.53138889
   },
   "river-rappahannock": {
    "title": "Rappahannock River",
@@ -36006,11 +36006,11 @@
    "lon": -91.15388889
   },
   "river-fox": {
-   "title": "Fox River (Alaska)",
-   "monthlyViews": 61,
+   "title": "Fox River (Illinois River tributary)",
+   "monthlyViews": 2922,
    "days": 60,
-   "lat": 59.79138889,
-   "lon": -151.00194444
+   "lat": 41.34361111,
+   "lon": -88.84055556
   },
   "river-rock": {
    "title": "Rock River (Mississippi River tributary)",
@@ -36125,11 +36125,11 @@
    "lon": -93.14916667
   },
   "river-rainy": {
-   "title": "Rainy River (British Columbia)",
-   "monthlyViews": 30,
-   "days": 56,
-   "lat": 49.52111111,
-   "lon": -123.48
+   "title": "Rainy River (Minnesota–Ontario)",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 48.848593,
+   "lon": -94.6916009
   },
   "river-kentucky": {
    "title": "Kentucky River",
@@ -36377,11 +36377,11 @@
    "lon": -92.42611111
   },
   "river-current": {
-   "title": "Current River (Ontario)",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 48.45222222,
-   "lon": -89.18388889
+   "title": "Current River (Ozarks)",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 36.25305556,
+   "lon": -90.9125
   },
   "river-gasconade": {
    "title": "Gasconade River",
@@ -36909,11 +36909,11 @@
    "lon": -119.35555556
   },
   "river-mckenzie": {
-   "title": "McKenzie River (Bécancour River tributary)",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 46.23167,
-   "lon": -71.50444
+   "title": "McKenzie River (Oregon)",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 44.12555556,
+   "lon": -123.10555556
   },
   "river-clackamas": {
    "title": "Clackamas River",
@@ -50361,6 +50361,132 @@
    "days": 35,
    "lat": 69.23333333,
    "lon": -162.08333333
+  },
+  "river-mystic": {
+   "title": "Mystic River",
+   "monthlyViews": 4627,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-harlem": {
+   "title": "Harlem River",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 40.83472222,
+   "lon": -73.934125
+  },
+  "river-miami": {
+   "title": "Miami River (Florida)",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 25.7705,
+   "lon": -80.1851
+  },
+  "river-bronx": {
+   "title": "Bronx River",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 40.80305556,
+   "lon": -73.86361111
+  },
+  "river-newtown-creek": {
+   "title": "Newtown Creek",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 40.73734,
+   "lon": -73.96112
+  },
+  "river-patapsco": {
+   "title": "Patapsco River",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 39.18,
+   "lon": -76.44
+  },
+  "river-anacostia": {
+   "title": "Anacostia River",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 38.85361111,
+   "lon": -77.02027778
+  },
+  "river-piscataqua": {
+   "title": "Piscataqua River",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 43.05611111,
+   "lon": -70.70305556
+  },
+  "river-arroyo-seco": {
+   "title": "Arroyo Seco (Los Angeles County)",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 34.07888889,
+   "lon": -118.22583333
+  },
+  "river-bubbly-creek": {
+   "title": "Bubbly Creek",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 41.8258333,
+   "lon": -87.6575
+  },
+  "river-paluxy": {
+   "title": "Paluxy River",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 32.24742,
+   "lon": -97.71894
+  },
+  "river-little-pigeon": {
+   "title": "Little Pigeon River (Tennessee)",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 35.93083333,
+   "lon": -83.59527778
+  },
+  "river-hackensack": {
+   "title": "Hackensack River",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 40.71527778,
+   "lon": -74.11166667
+  },
+  "river-rouge": {
+   "title": "River Rouge (Michigan)",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 42.28809,
+   "lon": -83.1027
+  },
+  "river-calumet": {
+   "title": "Calumet River",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 41.7327778,
+   "lon": -87.5294444
+  },
+  "river-two-hearted": {
+   "title": "Two Hearted River",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-roe": {
+   "title": "Roe River",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 47.53472222,
+   "lon": -111.23027778
+  },
+  "river-d-river": {
+   "title": "D River",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 44.96803056,
+   "lon": -124.01731944
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

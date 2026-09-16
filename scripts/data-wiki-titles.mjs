@@ -1189,7 +1189,7 @@ export const WIKI_TITLES = {
   "river-genesee": "Genesee River",
   "river-schuylkill": "Schuylkill River",
   "river-lehigh": "Lehigh River",
-  "river-brandywine": "Brandywine Creek (Big Blue River tributary)",
+  "river-brandywine": "Brandywine Creek (Christina River tributary)",
   "river-rappahannock": "Rappahannock River",
   "river-roanoke": "Roanoke River",
   "river-cape-fear": "Cape Fear River",
@@ -1210,7 +1210,7 @@ export const WIKI_TITLES = {
   "river-allegheny": "Allegheny River",
   "river-monongahela": "Monongahela River",
   "river-wabash": "Wabash River",
-  "river-fox": "Fox River (Alaska)",
+  "river-fox": "Fox River (Illinois River tributary)",
   "river-rock": "Rock River (Mississippi River tributary)",
   "river-des-plaines": "Des Plaines River",
   "river-kankakee": "Kankakee River",
@@ -1226,7 +1226,7 @@ export const WIKI_TITLES = {
   "river-chippewa": "Chippewa River (Wisconsin)",
   "river-st-croix": "St. Croix River (Wisconsin-Minnesota)",
   "river-minnesota": "Minnesota River",
-  "river-rainy": "Rainy River (British Columbia)",
+  "river-rainy": "Rainy River (Minnesota–Ontario)",
   "river-kentucky": "Kentucky River",
   "river-licking": "Licking River (Kentucky)",
   "river-tippecanoe": "Tippecanoe River",
@@ -1261,7 +1261,7 @@ export const WIKI_TITLES = {
   "river-atchafalaya": "Atchafalaya River",
   "river-white": "White River (Arkansas)",
   "river-buffalo": "Buffalo National River",
-  "river-current": "Current River (Ontario)",
+  "river-current": "Current River (Ozarks)",
   "river-gasconade": "Gasconade River",
   "river-meramec": "Meramec River",
   "river-osage": "Osage River",
@@ -1333,7 +1333,7 @@ export const WIKI_TITLES = {
   "river-deschutes": "Deschutes River",
   "river-john-day": "John Day River",
   "river-umatilla": "Umatilla River",
-  "river-mckenzie": "McKenzie River (Bécancour River tributary)",
+  "river-mckenzie": "McKenzie River (Oregon)",
   "river-clackamas": "Clackamas River",
   "river-rogue": "Rogue River (Oregon)",
   "river-umpqua": "Umpqua River",
@@ -4807,7 +4807,24 @@ export const WIKI_TITLES = {
   "river-tagagawik": "Tagagawik River",
   "river-willow": "Willow River (Mississippi River tributary)",
   "river-jack-creek": "Jack Creek (Des Moines River tributary)",
-  "river-epizetka": "Epizetka River"
+  "river-epizetka": "Epizetka River",
+
+  // --- river (2026-09-14 expansion) ---
+  "river-mystic": "Mystic River",
+  "river-harlem": "Harlem River",
+  "river-miami": "Miami River (Florida)",
+  "river-bronx": "Bronx River",
+  "river-patapsco": "Patapsco River",
+  "river-anacostia": "Anacostia River",
+  "river-piscataqua": "Piscataqua River",
+  "river-arroyo-seco": "Arroyo Seco (Los Angeles County)",
+  "river-paluxy": "Paluxy River",
+  "river-little-pigeon": "Little Pigeon River (Tennessee)",
+  "river-hackensack": "Hackensack River",
+  "river-rouge": "River Rouge (Michigan)",
+  "river-calumet": "Calumet River",
+  "river-two-hearted": "Two Hearted River",
+  "river-roe": "Roe River"
 };
 
 /**
@@ -5152,5 +5169,7 @@ export const WIKI_VERIFIED = new Set([
   "river-north-laramie",
   "river-sacramento-wash",
   "river-serpentine",
-  "river-willow"
+  "river-willow",
+  // --- 2026-09-16 US rivers: the Harlem River is a tidal strait by description and a river by name ---
+  "river-harlem"
 ]);

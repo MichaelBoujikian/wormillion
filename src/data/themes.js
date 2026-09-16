@@ -716,7 +716,12 @@ globalThis.WORMILLION_THEMES = {
       'Clover Creek', 'Kruzgamepa', 'Sans Bois Creek', 'South Fork Hughes', 'Trout Creek',
       'Kugarak', 'La Grue Bayou', 'Hodzana', 'Union Flat Creek', 'Troublesome Creek',
       'Big Jacks Creek', 'Blue Creek', 'Marsh Creek', 'Noxapaga', 'Dry Creek',
-      'High Island Creek', 'Tagagawik', 'Willow', 'Jack Creek', 'Epizetka'
+      'High Island Creek', 'Tagagawik', 'Willow', 'Jack Creek', 'Epizetka',
+      // 2026-09-14 expansion
+      'Mystic', 'Harlem', 'Miami', 'Bronx', 'Newtown Creek',
+      'Patapsco', 'Anacostia', 'Piscataqua', 'Arroyo Seco', 'Bubbly Creek',
+      'Paluxy', 'Little Pigeon', 'Hackensack', 'Rouge', 'Calumet',
+      'Two Hearted', 'Roe', 'D River'
     ]
   },
 

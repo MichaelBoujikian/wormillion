@@ -31,7 +31,9 @@ const EXPECTED = {
     'Cano Cristales', 'Catatumbo', 'Sinu', 'Bogota River', 'Cauca', 'Caqueta',
     // the 2026-09-16 US rivers scouring (scripts/expansion/reports/2026-09-16-us-rivers.md)
     'Red River of the North', 'French Broad', 'Green River', 'Kanawha', 'Des Moines River', 'Catawba', 'Youghiogheny', 'Androscoggin',
-    'Yazoo', 'Black Warrior', 'Clinch', 'Kissimmee', 'Sheyenne', 'Cedar River', 'Frio', 'Tug Fork', 'Bayou Teche', 'Little Bighorn', 'Ocoee', 'Toccoa'],
+    'Yazoo', 'Black Warrior', 'Clinch', 'Kissimmee', 'Sheyenne', 'Cedar River', 'Frio', 'Tug Fork', 'Bayou Teche', 'Little Bighorn', 'Ocoee', 'Toccoa',
+    // famous short ones the 80 km floor would have cut, and the re-pointed Fox
+    'Mystic River', 'Harlem River', 'Bronx River', 'Anacostia', 'Hackensack', 'Fox River', 'Current River'],
   mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna',
     // the 2026-09-14 expansion
     'Mount Rushmore', 'Devils Tower', 'Kilauea', 'Mount Adams', 'Fitz Roy', 'Torres del Paine', 'Cradle Mountain', 'Mount Aspiring', 'Popocatepetl', 'Arenal', 'Monch', 'Nanda Devi', 'Rakaposhi', 'Sakurajima', 'Mount Kailash', 'Tryfan', 'Croagh Patrick', 'Nyiragongo', 'Hekla', 'Eyjafjallajokull', 'Mount Meru'],

@@ -1950,7 +1950,7 @@ Menominee|195|Menominee River
 Chippewa|296|Chippewa River
 St. Croix|272|St Croix River
 Minnesota|534|Minnesota River
-Rainy|137|Rainy River
+Rainy|220|Rainy River
 Kentucky|418|Kentucky River
 Licking|515|Licking River
 Tippecanoe|260|Tippecanoe River
@@ -3984,6 +3984,24 @@ Tagagawik|150
 Willow|122
 Jack Creek|103
 Epizetka|129
+Mystic|11
+Harlem|13
+Miami|9
+Bronx|39
+Newtown Creek|6
+Patapsco|54
+Anacostia|14
+Piscataqua|19
+Arroyo Seco|40
+Bubbly Creek|3
+Paluxy|47
+Little Pigeon|48
+Hackensack|72
+Rouge|75
+Calumet|12
+Two Hearted|38
+Roe|0.06
+D River|0.04
 `;
 
 export const MOUNTAINS = `
