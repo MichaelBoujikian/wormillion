@@ -908,22 +908,18 @@ globalThis.WORMILLION_THEMES = {
       'Zhupanovsky',
       // 2026-09-14 expansion
       'Mammoth Mountain', 'Newberry Volcano', 'Mount Shishaldin', 'Broken Top', 'Mount Okmok',
-      'Mount Taylor', 'Medicine Lake Volcano', 'Amboy Crater', 'Dotsero', 'Jackson Volcano',
-      'Sierra Grande', 'Goat Rocks', 'Black Butte', 'Rocky Butte', 'Mount Drum',
-      'Belknap Crater', 'Mount Churchill', 'Mount Bailey', 'S P Crater', 'Sierra Negra',
-      'Mount Pavlof', 'Mount Veniaminof', 'Mount Vsevidof', 'Kamakou', 'Menan Buttes',
-      'Mount Akutan', 'Fourpeaked Mountain', 'Mount Adagdak', 'Black Buttes', 'Korovin Volcano',
-      'Trident Volcano', 'West Crater', 'Aden Crater', 'Kasatochi Island', 'Yamsay Mountain',
-      'Mount Gareloi', 'Gilbert Peak', 'Jornada del Muerto Volcano', 'Mount Amukta', 'Mount Griggs',
-      'Amak Volcano', 'Anvil Peak', 'Aspen Butte', 'Mount Carlisle', 'East Butte',
-      'Hayes Volcano', 'Mount Chiginagak', 'Mount Kaguyak', 'Mount Sylvania', 'Strawberry Crater',
-      'Alagogshak', 'Atna Peaks', 'Brushy Butte', 'Buldir Volcano', 'Frosty Peak Volcano',
-      'Daikoku Seamount', 'Davidof Volcano', 'Double Crater', 'Fumarole Butte', 'Mahogany Mountain',
-      'Maiden Peak', 'Middle Butte', 'Kanaga Volcano', 'Mount Mageik', 'Mount Martin',
-      'Pyre Peak', 'Westdahl Volcano', 'Pavlof Sister', 'Cinnamon Butte', 'Goosenest',
-      'Kejulik Volcano', 'Lone Butte', 'Mount Recheshnoi',
-      'Mount Sergief', 'Mount Steller', 'Mount Takawangha', "O'Leary Peak", 'Ocate Peak',
-      'Roundtop Mountain', 'Segula Volcano', 'Split Butte', 'Yantarni Volcano'
+      'Mount Taylor', 'Medicine Lake Volcano', 'Amboy Crater', 'Dotsero', 'Three Fingered Jack',
+      'Jackson Volcano', 'Sierra Grande', 'Goat Rocks', 'Mount Konocti', 'Black Butte',
+      'Mount Elden', 'Mount Washburn', 'Little Tahoma Peak', 'Diamond Peak', 'Big Southern Butte',
+      'Rocky Butte', 'Mount Drum', 'Belknap Crater', 'Mount Churchill', 'Mount Bailey',
+      'S P Crater', 'Cobb Mountain', 'Mount Pavlof', 'Silver Star Mountain', 'Bill Williams Mountain',
+      'Mount Veniaminof', 'Mount Vsevidof', 'Tantalus', 'Kamakou', 'Kendrick Peak',
+      'Menan Buttes', 'Mount Akutan', 'Mount Patterson', 'Paulina Peak', 'Puʻu Kukui',
+      'Saddle Mountain', 'Strawberry Mountain', 'Tumtum Mountain', 'Fourpeaked Mountain', 'Mount Adagdak',
+      'Mount Moffett', 'Black Buttes', 'Korovin Volcano', 'Round Top', 'Trident Volcano',
+      'West Crater', 'Aden Crater', 'Burney Mountain', 'Kasatochi Island', 'Pelican Butte',
+      'Yamsay Mountain', 'Mount Gareloi', 'Gilbert Peak', 'Jornada del Muerto Volcano', 'Mount Amukta',
+      'Mount Griggs', 'Mount Jarvis', 'Olallie Butte', 'Tanaga'
     ]
   },
 
@@ -1046,6 +1042,8 @@ globalThis.WORMILLION_THEMES = {
 
   lake: {
     'saltwater': [
+      // 2026-09-16 US lakes fill (audit): the hypersaline lagoon, the alkali lake, the salt flat that fills
+      'Laguna Madre', 'Lake Abert', 'Sevier Lake',
       'Caspian Sea', 'Dead Sea', 'Great Salt Lake', 'Salton Sea', 'Lake Urmia',
       'Lake Van', 'Lake Eyre', 'Lake Torrens', 'Lake Gairdner', 'Mono Lake',
       'Lake Assal', 'Lake Issyk-Kul', 'Qinghai Lake', 'Uvs Lake', 'Lake Balkhash',

@@ -6621,7 +6621,11 @@
   "id": "lake-lake-sakakawea",
   "category": "lake",
   "name": "Lake Sakakawea",
-  "aliases": [],
+  "aliases": [
+   "Lake Sacajawea",
+   "Sacajawea",
+   "Lake Sacagawea"
+  ],
   "size": 1520,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Lake Sakakawea\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -11506,7 +11510,9 @@
   "id": "lake-lake-chaubunagungamaug",
   "category": "lake",
   "name": "Lake Chaubunagungamaug",
-  "aliases": [],
+  "aliases": [
+   "Webster Lake"
+  ],
   "size": 5.83,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Lake Chaubunagungamaug\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -14767,10 +14773,12 @@
   "lon": -103.02805556
  },
  {
-  "id": "lake-lake-hamilton-and-lake-catherine",
+  "id": "lake-lake-hamilton",
   "category": "lake",
-  "name": "Lake Hamilton and Lake Catherine",
-  "aliases": [],
+  "name": "Lake Hamilton",
+  "aliases": [
+   "Lake Catherine"
+  ],
   "size": 29.14,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Lake Hamilton and Lake Catherine\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15393,20 +15401,6 @@
   "lon": -99.21138889
  },
  {
-  "id": "lake-lake-allison",
-  "category": "lake",
-  "name": "Lake Allison",
-  "aliases": [],
-  "size": 7769.96,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Allison\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 244,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Allison",
-  "lat": 45,
-  "lon": -123
- },
- {
   "id": "lake-lake-bridgeport",
   "category": "lake",
   "name": "Lake Bridgeport",
@@ -15821,20 +15815,6 @@
   "lon": -99.0221472
  },
  {
-  "id": "lake-lake-manix",
-  "category": "lake",
-  "name": "Lake Manix",
-  "aliases": [],
-  "size": 236,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Manix\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 183,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Manix",
-  "lat": 35,
-  "lon": -116.58333333
- },
- {
   "id": "lake-lake-maumelle",
   "category": "lake",
   "name": "Lake Maumelle",
@@ -15991,20 +15971,6 @@
   "wikiTitle": "Fontenelle Reservoir",
   "lat": 42.03333333,
   "lon": -110.06666667
- },
- {
-  "id": "lake-fossil-lake",
-  "category": "lake",
-  "name": "Fossil Lake",
-  "aliases": [],
-  "size": 26.42,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Fossil Lake (Oregon)\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Fossil Lake (Oregon)",
-  "lat": 43.3258,
-  "lon": -120.4909
  },
  {
   "id": "lake-harney-lake",
@@ -16393,20 +16359,6 @@
   "lon": -120.29416667
  },
  {
-  "id": "lake-lake-palomas",
-  "category": "lake",
-  "name": "Lake Palomas",
-  "aliases": [],
-  "size": 9064.96,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Palomas\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 91,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Palomas",
-  "lat": 31.22,
-  "lon": -106.99
- },
- {
   "id": "lake-lake-palourde",
   "category": "lake",
   "name": "Lake Palourde",
@@ -16575,20 +16527,6 @@
   "lon": -111.09666667
  },
  {
-  "id": "lake-lake-sacajawea",
-  "category": "lake",
-  "name": "Lake Sacajawea",
-  "aliases": [],
-  "size": 34,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Sacajawea\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 61,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Sacajawea",
-  "lat": 46.24944444,
-  "lon": -118.87972222
- },
- {
   "id": "lake-lake-wanapum",
   "category": "lake",
   "name": "Lake Wanapum",
@@ -16673,20 +16611,6 @@
   "wikiTitle": "Baskahegan Lake",
   "lat": 45.507,
   "lon": -67.83
- },
- {
-  "id": "lake-heron-lake",
-  "category": "lake",
-  "name": "Heron Lake",
-  "aliases": [],
-  "size": 32.36,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Heron Lake (Jackson County, Minnesota)\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Heron Lake (Jackson County, Minnesota)",
-  "lat": 43.77416667,
-  "lon": -95.26916667
  },
  {
   "id": "lake-hop-brook-lake",

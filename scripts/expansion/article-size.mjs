@@ -6,8 +6,8 @@
  * the probe's unit (river length, lake/island/desert/sea area, mountain
  * elevation), and writes work/<probe>-sizes.json: { title: { wikidata, article,
  * chosen, how } }. `chosen` follows the order of trust in HANDOFF.md: the
- * article's infobox, then Wikidata; when they disagree by more than 15% the
- * article wins and the row is printed for a human look. Cache: work/wikitext-cache.json
+ * article's infobox whenever it has a figure, else Wikidata; a disagreement of
+ * more than 15% is printed for a human look. Cache: work/wikitext-cache.json
  * (the infobox block of each article, not the whole text).
  */
 import { readFile, writeFile } from 'node:fs/promises';
@@ -155,9 +155,12 @@ for (const r of wanted) {
   const wd = r.size == null ? null : r.size;
   let chosen = null, how = '';
   if (art && wd != null) {
+    // the article's figure is chosen either way (HANDOFF's order of trust); a
+    // disagreement beyond 15% is printed for a human look
     const ratio = art.value / wd;
-    if (ratio > 0.85 && ratio < 1.15) { chosen = wd; how = 'agree'; agree++; }
-    else { chosen = art.value; how = `article ${art.value} vs wikidata ${wd} (${art.field}: ${art.raw})`; disagree++; rows.push([r.finalTitle, how]); }
+    chosen = art.value;
+    if (ratio > 0.85 && ratio < 1.15) { how = 'article (wikidata agrees)'; agree++; }
+    else { how = `article ${art.value} vs wikidata ${wd} (${art.field}: ${art.raw})`; disagree++; rows.push([r.finalTitle, how]); }
   } else if (art) { chosen = art.value; how = `article only (${art.field}: ${art.raw})`; articleOnly++; }
   else if (wd != null) { chosen = wd; how = 'wikidata only (no infobox figure)'; wikidataOnly++; }
   else { how = 'no figure anywhere'; neither++; }
