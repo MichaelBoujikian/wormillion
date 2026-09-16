@@ -1,6 +1,6 @@
 /**
  * Cross-check a probe's Wikidata sizes against each article's own infobox.
- *   node scripts/expansion/article-size.mjs work/<probe>.json [--no-figure]
+ *   node scripts/expansion/article-size.mjs work/<probe>.json [--no-figure] [--min-views=N]
  * Reads the probe output, fetches the wikitext of every in-scope missing/fuzzy/
  * taken item (plus the ones Wikidata had no figure for, with --no-figure), parses the infobox figure for
  * the probe's unit (river length, lake/island/desert/sea area, mountain
@@ -16,6 +16,8 @@ import { fileURLToPath } from 'node:url';
 const S = fileURLToPath(new URL('./work', import.meta.url));
 const src = process.argv[2];
 const NO_FIGURE = process.argv.includes('--no-figure');
+const minViewsArg = process.argv.find((a) => a.startsWith('--min-views='));
+const MIN_VIEWS = minViewsArg ? Number(minViewsArg.slice(12)) : 0; // skip items under a views floor (mountains: no size floor exists)
 const probe = JSON.parse(await readFile(src, 'utf8'));
 const name = src.replace(/\\/g, '/').split('/').pop().replace(/\.json$/, '');
 const cfg = JSON.parse(await readFile(fileURLToPath(new URL(`./probes/${name}.json`, import.meta.url)), 'utf8'));
@@ -142,7 +144,7 @@ function articleSize(text, unit) {
 }
 
 // ---- run --------------------------------------------------------------------
-const wanted = probe.items.filter((r) => r.status !== 'present' && (!r.floor || (NO_FIGURE && r.floor === 'no-figure')));
+const wanted = probe.items.filter((r) => r.status !== 'present' && (!r.floor || (NO_FIGURE && r.floor === 'no-figure')) && (!MIN_VIEWS || (r.views || 0) >= MIN_VIEWS));
 console.log(`${wanted.length} articles to read`);
 await fetchWikitext(wanted.map((r) => r.finalTitle));
 const out = {};

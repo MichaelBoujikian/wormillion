@@ -45,7 +45,9 @@ const EXPECTED = {
   river: ['river', 'stream', 'tributary', 'waterway', 'watercourse',
     // the 2026-09 US scouring: Wikidata describes American streams as creeks, bayous, forks, runs, brooks
     'creek', 'bayou', 'brook', 'fork', 'branch', 'slough', 'arroyo', 'run in', 'kill in', 'wash in', 'water course'],
-  mountain: ['mountain', 'peak', 'summit', 'hill', 'volcano', 'massif', 'mount', 'highest', 'ridge', 'butte', 'mesa', 'monolith', 'crag', 'fell', 'point', 'elevation', 'cliff', 'high'],
+  mountain: ['mountain', 'peak', 'summit', 'hill', 'volcano', 'massif', 'mount', 'highest', 'ridge', 'butte', 'mesa', 'monolith', 'crag', 'fell', 'point', 'elevation', 'cliff', 'high',
+    // the 2026-09 US scouring: domes, lava domes, cryptodomes, craters and calderas are peaks too
+    'dome', 'lava', 'volcanic', 'crater', 'caldera', 'knob'],
   desert: ['desert', 'sand', 'dune', 'arid', 'erg', 'steppe', 'area', 'region', 'plain'],
   island: ['island', 'isle', 'archipelago', 'atoll', 'islet', 'countr', 'territory', 'landmass'],
   sea_ocean: ['sea', 'ocean', 'gulf', 'bay', 'strait', 'body of water', 'water', 'channel', 'sound', 'basin']

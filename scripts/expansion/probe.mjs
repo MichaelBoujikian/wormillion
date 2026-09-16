@@ -136,7 +136,9 @@ console.log(`${items.length} read as ${cfg.category}; ${skipped.length} skipped`
 // ---- 4. through the bank ----------------------------------------------------
 const bank = daily.loadBank(REPO);
 const cohort = bank.cohorts.get(cfg.category);
-const json = JSON.parse(await readFile(`${REPO}/src/data/${cfg.jsonFile}`, 'utf8'));
+// jsonFile may be a list: the mountain cohort is mountains.json + minor-peaks.json
+const json = [];
+for (const f of [].concat(cfg.jsonFile)) json.push(...JSON.parse(await readFile(`${REPO}/src/data/${f}`, 'utf8')));
 const byWikiTitle = new Map(json.map((e) => [e.wikiTitle, e]));
 const wikiOf = new Map(json.map((e) => [e.id, e.wikiTitle]));
 

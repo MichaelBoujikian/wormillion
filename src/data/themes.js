@@ -905,7 +905,25 @@ globalThis.WORMILLION_THEMES = {
       'Kaba', 'Mount Popa', 'Klyuchevskaya Sopka', 'Koryaksky', 'Avachinsky',
       'Tolbachik', 'Shiveluch', 'Kronotsky', 'Karymsky', 'Mutnovsky',
       'Gorely', 'Vilyuchik', 'Ichinsky', 'Bezymianny',
-      'Zhupanovsky'
+      'Zhupanovsky',
+      // 2026-09-14 expansion
+      'Mammoth Mountain', 'Newberry Volcano', 'Mount Shishaldin', 'Broken Top', 'Mount Okmok',
+      'Mount Taylor', 'Medicine Lake Volcano', 'Amboy Crater', 'Dotsero', 'Jackson Volcano',
+      'Sierra Grande', 'Goat Rocks', 'Black Butte', 'Rocky Butte', 'Mount Drum',
+      'Belknap Crater', 'Mount Churchill', 'Mount Bailey', 'S P Crater', 'Sierra Negra',
+      'Mount Pavlof', 'Mount Veniaminof', 'Mount Vsevidof', 'Kamakou', 'Menan Buttes',
+      'Mount Akutan', 'Fourpeaked Mountain', 'Mount Adagdak', 'Black Buttes', 'Korovin Volcano',
+      'Trident Volcano', 'West Crater', 'Aden Crater', 'Kasatochi Island', 'Yamsay Mountain',
+      'Mount Gareloi', 'Gilbert Peak', 'Jornada del Muerto Volcano', 'Mount Amukta', 'Mount Griggs',
+      'Amak Volcano', 'Anvil Peak', 'Aspen Butte', 'Mount Carlisle', 'East Butte',
+      'Hayes Volcano', 'Mount Chiginagak', 'Mount Kaguyak', 'Mount Sylvania', 'Strawberry Crater',
+      'Alagogshak', 'Atna Peaks', 'Brushy Butte', 'Buldir Volcano', 'Frosty Peak Volcano',
+      'Daikoku Seamount', 'Davidof Volcano', 'Double Crater', 'Fumarole Butte', 'Mahogany Mountain',
+      'Maiden Peak', 'Middle Butte', 'Kanaga Volcano', 'Mount Mageik', 'Mount Martin',
+      'Pyre Peak', 'Westdahl Volcano', 'Pavlof Sister', 'Cinnamon Butte', 'Goosenest',
+      'Kejulik Volcano', 'Lone Butte', 'Mount Recheshnoi',
+      'Mount Sergief', 'Mount Steller', 'Mount Takawangha', "O'Leary Peak", 'Ocate Peak',
+      'Roundtop Mountain', 'Segula Volcano', 'Split Butte', 'Yantarni Volcano'
     ]
   },
 

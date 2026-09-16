@@ -39,7 +39,10 @@ const EXPECTED = {
     'Mystic River', 'Harlem River', 'Bronx River', 'Anacostia', 'Hackensack', 'Fox River', 'Current River'],
   mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna',
     // the 2026-09-14 expansion
-    'Mount Rushmore', 'Devils Tower', 'Kilauea', 'Mount Adams', 'Fitz Roy', 'Torres del Paine', 'Cradle Mountain', 'Mount Aspiring', 'Popocatepetl', 'Arenal', 'Monch', 'Nanda Devi', 'Rakaposhi', 'Sakurajima', 'Mount Kailash', 'Tryfan', 'Croagh Patrick', 'Nyiragongo', 'Hekla', 'Eyjafjallajokull', 'Mount Meru'],
+    'Mount Rushmore', 'Devils Tower', 'Kilauea', 'Mount Adams', 'Fitz Roy', 'Torres del Paine', 'Cradle Mountain', 'Mount Aspiring', 'Popocatepetl', 'Arenal', 'Monch', 'Nanda Devi', 'Rakaposhi', 'Sakurajima', 'Mount Kailash', 'Tryfan', 'Croagh Patrick', 'Nyiragongo', 'Hekla', 'Eyjafjallajokull', 'Mount Meru',
+    // the 2026-09-16 US mountains scouring (scripts/expansion/reports/2026-09-16-us-mountains.md)
+    'Mount Mitchell', 'Mount Marcy', 'Katahdin', 'Clingmans Dome', 'Mount Elbert', 'Longs Peak', 'Lassen Peak', 'Mount Mansfield', 'Mount Greylock', 'Stone Mountain', 'Camelback Mountain',
+    'Piestewa Peak', 'Superstition Mountain', 'Mount Lemmon', 'Sandia Peak', 'Maroon Bells', 'Mount Timpanogos', 'Half Dome', 'Black Elk Peak', 'Spruce Knob', 'Brasstown Bald', 'Mount Tamalpais', 'Mount Diablo'],
   desert: ['Sahara', 'Gobi', 'Mojave', 'Atacama', 'Kalahari', 'Namib', 'Sonoran', 'Thar Desert', 'Arabian Desert', 'Antarctic Desert',
     // the 2026-09-15 expansion
     'Death Valley', 'White Sands', 'Skeleton Coast', 'Rann of Kutch', 'Karoo'],
