@@ -35,6 +35,35 @@ new row is rarer than the bank's rarest and the curve stays put. Config
 - Mountain cohort 3,527 (was 1,247); median views 822 → 122; minimum still
   30. `bank.js` 1.63 MB. `gap-check` pins 23 headline peaks.
 
+## Re-cut the same morning (`38a1bd4`)
+
+The two Opus audits (`2026-09-16-us-lakes-mountains-*-audit.md`) found the
+30-view floor was a trap: the pageview median quantises at whole views per
+day, so 1,004 of the 2,280 rows sat at exactly 30 = the cohort minimum —
+28% of the mountain cohort read 100%, 45% jackpotted, and "United States"
+on a mountain round paid 1,000 points for United States Mountain (30
+views). Jackpot share by floor: 30 → 45%, 61 → 24%, 91 → 11%, **122 → 2.2%**
+(rivers 2.6%, lakes 4.0%). **The floor is now 122 views a month (median 4 a
+day): 676 rows.** Also out after the audits: the "Ultra-prominent peak"
+concept article (6,940 views — the wave's most-viewed row), Sierra Madre
+Range and Sierra de Luquillo (ranges), Seguam Island (a second row on Pyre
+Peak), Daikoku Seamount (summit 323 m under the sea), Mount Everett (it tied
+"Mount Everet"), 31 Canadian and Mexican peaks the continental
+"most prominent / most isolated" lists drag in (King Peak, Mount Steele,
+The Cabox, Cerro Tláloc, Sierra Negra…), Cedar Mountain, Virginia (a
+comma-name nobody types). Mount Raimer / Aetna / Helen / Snowden / A Peak —
+the rows that broke "Mount Rainer", "Mount Aetna", "Mount St Helen",
+"Snowden" and the input "A" — were all under the new floor. The infobox
+figure now always beats Wikidata's (Sacajawea Peak 3,000 m, Massanutten
+891–1000). Volcanoes are tagged from the infobox's type / volcanic arc /
+last eruption (64 rows; plugs, necks and laccoliths excluded; Yucca
+Mountain and Battle Mountain VA excluded by hand). Mountain cohort 1,985
+(was 1,247); `bank.js` 1.45 MB.
+
+`the Rockies` theme is still not extended (640 new Rockies peaks answer
+"Name a mountain in the Rockies" with "isn't in the Rockies") — a range
+field (Wikidata P4552) is needed to do it honestly; queued.
+
 ## Counts
 
 | | |
