@@ -11988,9 +11988,7 @@
   "id": "lake-elephant-butte-reservoir",
   "category": "lake",
   "name": "Elephant Butte Reservoir",
-  "aliases": [
-   "Elephant Butte"
-  ],
+  "aliases": [],
   "size": 147.71,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Elephant Butte Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -12088,9 +12086,7 @@
   "id": "lake-dillon-reservoir",
   "category": "lake",
   "name": "Dillon Reservoir",
-  "aliases": [
-   "Dillon"
-  ],
+  "aliases": [],
   "size": 13.08,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Dillon Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -12104,9 +12100,7 @@
   "id": "lake-blue-mesa-reservoir",
   "category": "lake",
   "name": "Blue Mesa Reservoir",
-  "aliases": [
-   "Blue Mesa"
-  ],
+  "aliases": [],
   "size": 37.15,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Blue Mesa Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -12185,20 +12179,6 @@
   "wikiTitle": "Lake Allatoona",
   "lat": 34.13833333,
   "lon": -84.64388889
- },
- {
-  "id": "lake-silver-lake-reservoir",
-  "category": "lake",
-  "name": "Silver Lake Reservoir",
-  "aliases": [],
-  "size": 0.39,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Silver Lake Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 1705,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Silver Lake Reservoir",
-  "lat": 34.10107,
-  "lon": -118.26495
  },
  {
   "id": "lake-lake-ray-hubbard",
@@ -12358,9 +12338,7 @@
   "id": "lake-sam-rayburn-reservoir",
   "category": "lake",
   "name": "Sam Rayburn Reservoir",
-  "aliases": [
-   "Sam Rayburn"
-  ],
+  "aliases": [],
   "size": 463.37,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Sam Rayburn Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -12444,9 +12422,7 @@
   "id": "lake-truman-reservoir",
   "category": "lake",
   "name": "Truman Reservoir",
-  "aliases": [
-   "Truman"
-  ],
+  "aliases": [],
   "size": 225.01,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Truman Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -12488,9 +12464,7 @@
   "id": "lake-flaming-gorge-reservoir",
   "category": "lake",
   "name": "Flaming Gorge Reservoir",
-  "aliases": [
-   "Flaming Gorge"
-  ],
+  "aliases": [],
   "size": 170.05,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Flaming Gorge Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -12588,9 +12562,7 @@
   "id": "lake-dale-hollow-reservoir",
   "category": "lake",
   "name": "Dale Hollow Reservoir",
-  "aliases": [
-   "Dale Hollow"
-  ],
+  "aliases": [],
   "size": 125.41,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Dale Hollow Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -12912,9 +12884,7 @@
   "id": "lake-san-luis-reservoir",
   "category": "lake",
   "name": "San Luis Reservoir",
-  "aliases": [
-   "San Luis"
-  ],
+  "aliases": [],
   "size": 51,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"San Luis Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -13012,9 +12982,7 @@
   "id": "lake-kensico-reservoir",
   "category": "lake",
   "name": "Kensico Reservoir",
-  "aliases": [
-   "Kensico"
-  ],
+  "aliases": [],
   "size": 8.66,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Kensico Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -13518,9 +13486,7 @@
   "id": "lake-ross-barnett-reservoir",
   "category": "lake",
   "name": "Ross Barnett Reservoir",
-  "aliases": [
-   "Ross Barnett"
-  ],
+  "aliases": [],
   "size": 134.68,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Ross Barnett Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -13548,9 +13514,7 @@
   "id": "lake-pymatuning-reservoir",
   "category": "lake",
   "name": "Pymatuning Reservoir",
-  "aliases": [
-   "Pymatuning"
-  ],
+  "aliases": [],
   "size": 69.15,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Pymatuning Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -13564,9 +13528,7 @@
   "id": "lake-strawberry-reservoir",
   "category": "lake",
   "name": "Strawberry Reservoir",
-  "aliases": [
-   "Strawberry"
-  ],
+  "aliases": [],
   "size": 69.46,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Strawberry Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -13636,9 +13598,7 @@
   "id": "lake-falcon-international-reservoir",
   "category": "lake",
   "name": "Falcon International Reservoir",
-  "aliases": [
-   "Falcon International"
-  ],
+  "aliases": [],
   "size": 353.7,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Falcon International Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -13904,9 +13864,7 @@
   "id": "lake-allegheny-reservoir",
   "category": "lake",
   "name": "Allegheny Reservoir",
-  "aliases": [
-   "Allegheny"
-  ],
+  "aliases": [],
   "size": 48.56,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Allegheny Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -13934,9 +13892,7 @@
   "id": "lake-don-pedro-reservoir",
   "category": "lake",
   "name": "Don Pedro Reservoir",
-  "aliases": [
-   "Don Pedro"
-  ],
+  "aliases": [],
   "size": 52.61,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Don Pedro Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -14062,9 +14018,7 @@
   "id": "lake-amistad-reservoir",
   "category": "lake",
   "name": "Amistad Reservoir",
-  "aliases": [
-   "Amistad"
-  ],
+  "aliases": [],
   "size": 262.64,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Amistad Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -14092,9 +14046,7 @@
   "id": "lake-foss-reservoir",
   "category": "lake",
   "name": "Foss Reservoir",
-  "aliases": [
-   "Foss"
-  ],
+  "aliases": [],
   "size": 35.61,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Foss Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -14318,9 +14270,7 @@
   "id": "lake-watts-bar-reservoir",
   "category": "lake",
   "name": "Watts Bar Reservoir",
-  "aliases": [
-   "Watts Bar"
-  ],
+  "aliases": [],
   "size": 157.83,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Watts Bar Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -14544,9 +14494,7 @@
   "id": "lake-camanche-reservoir",
   "category": "lake",
   "name": "Camanche Reservoir",
-  "aliases": [
-   "Camanche"
-  ],
+  "aliases": [],
   "size": 31.16,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Camanche Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -14588,9 +14536,7 @@
   "id": "lake-richland-chambers-reservoir",
   "category": "lake",
   "name": "Richland-Chambers Reservoir",
-  "aliases": [
-   "Richland-Chambers"
-  ],
+  "aliases": [],
   "size": 167.36,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Richland-Chambers Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -14646,9 +14592,7 @@
   "id": "lake-choke-canyon-reservoir",
   "category": "lake",
   "name": "Choke Canyon Reservoir",
-  "aliases": [
-   "Choke Canyon"
-  ],
+  "aliases": [],
   "size": 103.88,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Choke Canyon Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -14760,9 +14704,7 @@
   "id": "lake-john-martin-reservoir",
   "category": "lake",
   "name": "John Martin Reservoir",
-  "aliases": [
-   "John Martin"
-  ],
+  "aliases": [],
   "size": 47.18,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"John Martin Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -14974,9 +14916,7 @@
   "id": "lake-red-bluff-reservoir",
   "category": "lake",
   "name": "Red Bluff Reservoir",
-  "aliases": [
-   "Red Bluff"
-  ],
+  "aliases": [],
   "size": 45.3,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Red Bluff Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15046,9 +14986,7 @@
   "id": "lake-cheney-reservoir",
   "category": "lake",
   "name": "Cheney Reservoir",
-  "aliases": [
-   "Cheney"
-  ],
+  "aliases": [],
   "size": 38.65,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Cheney Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15076,9 +15014,7 @@
   "id": "lake-fern-ridge-reservoir",
   "category": "lake",
   "name": "Fern Ridge Reservoir",
-  "aliases": [
-   "Fern Ridge"
-  ],
+  "aliases": [],
   "size": 37.88,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Fern Ridge Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15288,9 +15224,7 @@
   "id": "lake-owyhee-reservoir",
   "category": "lake",
   "name": "Owyhee Reservoir",
-  "aliases": [
-   "Owyhee"
-  ],
+  "aliases": [],
   "size": 56.25,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Owyhee Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15388,9 +15322,7 @@
   "id": "lake-harlan-county-reservoir",
   "category": "lake",
   "name": "Harlan County Reservoir",
-  "aliases": [
-   "Harlan County"
-  ],
+  "aliases": [],
   "size": 53.62,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Harlan County Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15474,9 +15406,7 @@
   "id": "lake-robert-s-kerr-reservoir",
   "category": "lake",
   "name": "Robert S. Kerr Reservoir",
-  "aliases": [
-   "Robert S. Kerr"
-  ],
+  "aliases": [],
   "size": 174.01,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Robert S. Kerr Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15700,9 +15630,7 @@
   "id": "lake-rodman-reservoir",
   "category": "lake",
   "name": "Rodman Reservoir",
-  "aliases": [
-   "Rodman"
-  ],
+  "aliases": [],
   "size": 52.61,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Rodman Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15730,9 +15658,7 @@
   "id": "lake-wickiup-reservoir",
   "category": "lake",
   "name": "Wickiup Reservoir",
-  "aliases": [
-   "Wickiup"
-  ],
+  "aliases": [],
   "size": 45,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Wickiup Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15760,9 +15686,7 @@
   "id": "lake-cedar-bluff-reservoir",
   "category": "lake",
   "name": "Cedar Bluff Reservoir",
-  "aliases": [
-   "Cedar Bluff"
-  ],
+  "aliases": [],
   "size": 27.8,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Cedar Bluff Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15902,9 +15826,7 @@
   "id": "lake-c-j-strike-reservoir",
   "category": "lake",
   "name": "C. J. Strike Reservoir",
-  "aliases": [
-   "C. J. Strike"
-  ],
+  "aliases": [],
   "size": 30.35,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"C. J. Strike Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15960,9 +15882,7 @@
   "id": "lake-fontenelle-reservoir",
   "category": "lake",
   "name": "Fontenelle Reservoir",
-  "aliases": [
-   "Fontenelle"
-  ],
+  "aliases": [],
   "size": 32.37,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Fontenelle Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -15990,9 +15910,7 @@
   "id": "lake-john-redmond-reservoir",
   "category": "lake",
   "name": "John Redmond Reservoir",
-  "aliases": [
-   "John Redmond"
-  ],
+  "aliases": [],
   "size": 38.04,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"John Redmond Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -16104,9 +16022,7 @@
   "id": "lake-prado-reservoir",
   "category": "lake",
   "name": "Prado Reservoir",
-  "aliases": [
-   "Prado"
-  ],
+  "aliases": [],
   "size": 26.71,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Prado Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -16148,9 +16064,7 @@
   "id": "lake-twin-buttes-reservoir",
   "category": "lake",
   "name": "Twin Buttes Reservoir",
-  "aliases": [
-   "Twin Buttes"
-  ],
+  "aliases": [],
   "size": 36.75,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Twin Buttes Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -16285,26 +16199,10 @@
   "lon": -89.881944
  },
  {
-  "id": "lake-clear-lake-reservoir",
-  "category": "lake",
-  "name": "Clear Lake Reservoir",
-  "aliases": [],
-  "size": 104.25,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Clear Lake Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 91,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Clear Lake Reservoir",
-  "lat": 41.86,
-  "lon": -121.146
- },
- {
   "id": "lake-e-v-spence-reservoir",
   "category": "lake",
   "name": "E.V. Spence Reservoir",
-  "aliases": [
-   "E.V. Spence"
-  ],
+  "aliases": [],
   "size": 60.5,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"E.V. Spence Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -16318,9 +16216,7 @@
   "id": "lake-imperial-reservoir",
   "category": "lake",
   "name": "Imperial Reservoir",
-  "aliases": [
-   "Imperial"
-  ],
+  "aliases": [],
   "size": 28,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Imperial Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",
@@ -16572,9 +16468,7 @@
   "id": "lake-tom-steed-reservoir",
   "category": "lake",
   "name": "Tom Steed Reservoir",
-  "aliases": [
-   "Tom Steed"
-  ],
+  "aliases": [],
   "size": 25.9,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Tom Steed Reservoir\", 60-day daily median (60 days ending 2026-09-16); Standard reference surface-area figures (km2), rounded",

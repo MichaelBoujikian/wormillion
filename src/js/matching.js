@@ -40,7 +40,10 @@
   const FILLER = new Set([
     'mount', 'mt', 'mountain', 'peak', 'hill', 'lake', 'loch', 'lough', 'llyn',
     'river', 'rio', 'sea', 'ocean', 'gulf', 'bay', 'island', 'islands', 'isle', 'isles',
-    'desert', 'the', 'of', 'city', 'saint', 'st', 'cape', 'atoll'
+    'desert', 'the', 'of', 'city', 'saint', 'st', 'cape', 'atoll',
+    // 2026-09-16: a reservoir is a lake to the player - "Elephant Butte" finds
+    // Elephant Butte Reservoir the way "Superior" finds Lake Superior
+    'reservoir'
   ]);
   /** The generic words in a normalized key, in order. */
   const fillerIn = (key) => key.split(' ').filter((w) => FILLER.has(w));
