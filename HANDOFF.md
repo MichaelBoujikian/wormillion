@@ -9,13 +9,33 @@ is keyed to this folder (`C:\Users\smite\repos\wormillion`); this file is the
 memory that survives.
 
 Written 2026-09-15, at the end of the session that grew the bank from 2,016 to
-8,967 places and then audited it.
+8,967 places and then audited it; updated the same evening after the coverage
+probes (see "Coverage probes" below).
 
 ---
 
 # What the next session is for
 
-Nothing is queued by the user. Both priorities named on 2026-09-14 are done:
+## 0. Decisions left open on 2026-09-15 evening (ask, don't assume)
+
+The user ran three coverage probes before buying Netlify time (see "Coverage
+probes"). Colombia's rivers were added; these were reported and not decided:
+
+- **US non-capital cities:** add the ~230 missing (populations from Wikidata
+  via `probe.mjs`, `fold.mjs` takes the cities format)? Sub-questions: are
+  the five NYC boroughs cities (Brooklyn draws 164k views/mo)? Do the small
+  US state capitals join the `city` cohort too (today "Albany" on a city
+  round gets "Albany is a capital city — this round wants a non-capital
+  city", which is the wrong hint; v1.2 only added the big ones)?
+- **Sweden's lakes:** add the 25 over 30 km² (+ `Scandinavia` theme), or all
+  188 down to the Stockholm ponds?
+- **The fuzzy-trap matcher change:** ~3/4 of river/lake autocorrect traps
+  come from the filler word inflating the edit budget ("Lake Tåkern" → Lake
+  Vänern, "Sinú River" → Min River). Proposed: fuzzy on the filler-stripped
+  key with slack from the stripped length. Changes SPEC 3.7; `tests/matching`
+  will say what it breaks. Not done — the user cares about autocorrect.
+
+Both priorities named on 2026-09-14 are done:
 **more places** (the bank is 4.4× bigger) and **bug hunting** (two audit
 agents went over it; their reports are in `scripts/expansion/reports/`). The
 game is feature-complete by the user's own account — don't start features
@@ -34,15 +54,28 @@ the game from JS") before touching anything else, and write down what felt off.
 ## 2. Netlify: one deploy, then verify
 
 Netlify has been frozen on the account-wide usage cap since 2026-09-13 and is
-still serving `e881c8a`. **The daily comparison block is now certainly broken
-for GitHub Pages players**: the bank changed, so the client's `draw`
-fingerprint no longer matches the stale functions' and every submission is a
-clean `draw-mismatch` (no error shown, nothing lost). The user will buy a month
-when there is enough to ship — there is. When they do: push anything or
-"Trigger deploy", then the curl checks under "Netlify: verifying the
-comparison". Watch the function cold start: `included_files` bundles
-`src/data/bank.js`, which is now **1.2 MB** (was 289 KB); `lib/netlify.mjs`
-parses it once per warm function, which should be fine, but nobody has seen it.
+still serving `e881c8a`. **Measured 2026-09-15 evening (not assumed):** the
+server's draw fingerprint comes from the old bank (recomputing dailies with
+the `e881c8a` bank reproduces every live fingerprint exactly); the shipped
+bank happens to draw the same prompt texts on some days — dig #4 matched,
+#5 does not, and the two banks agree on 18 of the next 60 dailies. On a
+mismatched day a Pages submission is a silent `draw-mismatch`; on a matched
+day an answer that only exists in the new bank is refused (400) and the
+score is computed against the old cohort stats. **And there are real
+players:** 2 / 12 / 56 / 116 submissions on digs #1–#4, 6 on #5 by 18:00
+PDT — the #5 ones carry the old-bank fingerprint, so some people play on
+`wormillion.netlify.app` itself. The user will buy a month when there is
+enough to ship — there is. When they do: push anything or "Trigger deploy",
+then the curl checks under "Netlify: verifying the comparison". Watch the
+function cold start: `included_files` bundles `src/data/bank.js`, which is
+now **1.2 MB** (was 289 KB); `lib/netlify.mjs` parses it once per warm
+function, which should be fine, but nobody has seen it.
+
+Dig #4's aggregate is the first human signal on prompt difficulty (old bank):
+the tight themed rounds were missed by more than half the field — "desert in
+Australia" 67/116, "mountain in Indonesia" 65, "sea or ocean in the
+Antarctic" 61 — and "mountain with an R in it" produced 38 duds (Everest).
+`curl ".../daily-stats?day=2026-09-15"` has the per-round numbers.
 
 ## 3. Audit follow-ups that were left as judgment calls
 
@@ -125,18 +158,40 @@ and agent runners are paused") — unrelated to this repo or to Claude Code.
   the in-app browser pane) **and mounts the comparison API over an in-memory
   store**, so the whole server flow plays locally without Netlify.
 
-## Green as of 2026-09-15
+## Green as of 2026-09-15 evening
 
-`npm test` 173 · `npm run validate` 8,967 entries · `npm run gap-check` 319
-obvious answers all land. Working tree clean, everything pushed; `main` is at
-`14fb3b9`.
+`npm test` 173 · `npm run validate` 9,033 entries · `npm run gap-check` 325
+obvious answers all land. Working tree clean, everything pushed.
 
-**Bank:** 197 countries · 247 capitals · 2,535 cities · 766 lakes · 2,185
-rivers · 1,310 mountains · 129 deserts · 1,345 islands · 253 seas = 8,967.
-228 entries are "one in Wormillion"; a run of median answers scores ~6,700 and
-ends around depth 560 (Mantle) — the curve barely moved. 3,587 `WIKI_TITLES`
-overrides, 299 `WIKI_VERIFIED` subjects, 130 `OCEAN_OVERRIDES`. `bank.js` is
-1.2 MB.
+**Bank:** 197 countries · 247 capitals · 2,535 cities · 766 lakes · **2,251
+rivers** (+66 Colombian, `99aab7f`) · 1,310 mountains · 129 deserts · 1,345
+islands · 253 seas = **9,033**. `bank.js` is 1.2 MB. The audit-day figures
+(228 jackpot entries, median run ~6,700 / depth ~560) predate the 66 rivers
+and will not have moved.
+
+## Coverage probes (2026-09-15 evening)
+
+The user's question before paying for Netlify: "pick one country and one
+category — do we have everything?" Tool: `scripts/expansion/probe.mjs` (README
+there). Reports in `scripts/expansion/reports/2026-09-15-*.md`. The answer,
+three times, was "the top tier, not the country":
+
+| probe | articles | in bank | added | left |
+|---|---|---|---|---|
+| Colombia × rivers | 148 | 22 (15%) | **66** (all with a sourced length) | 55 with no length figure anywhere; 6 name collisions (Mira, San Juan…) |
+| United States × non-capital cities (≥100k or largest in state) | 469 | 169 (36%) | — | ~230 incl. Arlington TX (394k, autocorrects to Burlington VT), Irvine, Irving, Garland, Fremont, the NYC boroughs; 45 names held by another place (Birmingham, Toledo, Portland ME…) |
+| Sweden × lakes | 208 | 20 (10%) | — | 188, mostly ponds; 25 over 30 km² worth having |
+
+Findings that generalise: (1) a category's coverage is "what an outsider
+names"; a local names the rest. (2) **The fuzzy-trap class is real and
+mostly mechanical**: with no entry to hit, "X River"/"Lake X" gets the filler
+word's extra edit budget and lands on a river or lake elsewhere ("Sinú River"
+→ Min (Sichuan), "Lake Tåkern" → Vänern) — 25 of 33 river traps and 21 of 29
+lake traps vanish if the bare name is judged alone; city traps (Arlington →
+Burlington) are genuine near-names and only data fixes them. (3) Wikidata
+sizes need a cross-check against the article (it had the Sinú at 27 km).
+(4) "St. George, Utah" is accepted as George, South Africa because `st` is
+filler — the loose pass has an edge there.
 
 **Dig #1's fifteen prompts are unchanged** (the pin in `tests/prompts.test.js`
 passes), but every daily from the expansion onward draws from the bigger bank —
@@ -194,7 +249,7 @@ Harmless test rows `smoke-test-0001/0002` sit in dig #1.
 | the places themselves | `scripts/data-physical.mjs`, `scripts/data-countries.mjs` (pipe-delimited) |
 | the US state capitals | `scripts/data-us-states.mjs` (they feed the `capital` cohort, like minor peaks feed `mountain`) |
 | the non-capital cities | `scripts/data-cities.mjs` (`Name\|Country\|population\|aliases`; Country must be a `data-countries.mjs` row; the build refuses a city that is its country's capital) |
-| **adding places in bulk, fixing a wrong article, merging a duplicate** | **`scripts/expansion/` — read its README first**: `fold.mjs` (chunk → sources, with the collision rules), `auto-titles.mjs` (re-point bad Wikipedia titles), `fix-titles.mjs`, `drop.mjs`, `add-alias.mjs`, `add-oceans.mjs`, `append-row.mjs`, `wp-check.mjs`, the sub-agent `BRIEF.md`, and the two audit reports under `reports/` |
+| **adding places in bulk, fixing a wrong article, merging a duplicate** | **`scripts/expansion/` — read its README first**: `fold.mjs` (chunk → sources, with the collision rules), `auto-titles.mjs` (re-point bad Wikipedia titles), `fix-titles.mjs`, `drop.mjs`, `add-alias.mjs`, `add-oceans.mjs`, `append-row.mjs`, `wp-check.mjs`, **`probe.mjs`** (does the bank have every X of country Y?), the sub-agent `BRIEF.md`, and the audit and probe reports under `reports/` |
 | which colours a country's flag has | `scripts/data-flags.mjs` (one row per country; generous) |
 | which places a themed prompt accepts | `src/data/themes.js` (hand-edited, shipped as-is; a theme with custom prompt text goes in `WORMILLION_THEME_PROMPTS` at the bottom) |
 | which Wikipedia article an entry scores on | `scripts/data-wiki-titles.mjs` (`WIKI_TITLES` overrides, `WIKI_VERIFIED` "I looked, it's right") |
