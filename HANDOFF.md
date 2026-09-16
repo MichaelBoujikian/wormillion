@@ -28,6 +28,25 @@ probes"). Colombia's rivers were added; these were reported and not decided:
 - ~~Sweden's lakes~~ — done: the 24 over 30 km², Scandinavia theme.
 - ~~The fuzzy-trap matcher change~~ — done 2026-09-15 evening (SPEC 3.7).
 
+## 0a. The plan the user set on 2026-09-15 evening
+
+In this order:
+
+1. **Ship what exists to Netlify** — the user buys the month, prompts the
+   session, the session verifies the deploy (checklist under "Netlify:
+   verifying the comparison") and that the live game looks right.
+2. **Then the user turns Netlify auto-deploy off** so the data work below
+   can land on `main` (and GitHub Pages) without spending Netlify builds;
+   Netlify gets a deliberate deploy at the end.
+3. **Country-by-country scouring, every category per country**, using
+   `scripts/expansion/probe.mjs` to find the gaps and the fold pipeline to
+   fill them, in this priority order: **United States → Western Europe →
+   Mexico and Canada → East Asia → West and Central Asia → South America →
+   Central America → North Africa → the rest of Africa → islands.** The
+   three probes of 2026-09-15 (Colombia rivers, US cities, Sweden lakes) are
+   the template. Keep the house rules: sourced figures only, one real place
+   one row, bias toward inclusion, a fold + pipeline + commit per chunk.
+
 Both priorities named on 2026-09-14 are done:
 **more places** (the bank is 4.4× bigger) and **bug hunting** (two audit
 agents went over it; their reports are in `scripts/expansion/reports/`). The
