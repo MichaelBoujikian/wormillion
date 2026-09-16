@@ -42,7 +42,11 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const CACHE_FILE = `${S}/${cfg.name}-cache.json`;
 let cache = {};
 try { cache = JSON.parse(await readFile(CACHE_FILE, 'utf8')); } catch {}
-async function getJSON(url, attempt = 0) {
+// Wikidata's wbgetentities answers are huge (every claim of 50 items) and the
+// per-QID memo below keeps what matters, so those responses are not cached
+// raw: the 42,857-title US cities probe grew the cache to 536 MB and died in
+// JSON.stringify.
+async function getJSON(url, attempt = 0, { cache: keep = true } = {}) {
   if (cache[url]) return cache[url];
   const res = await fetch(url, { headers: { 'User-Agent': UA } });
   const text = await res.text();
@@ -53,10 +57,12 @@ async function getJSON(url, attempt = 0) {
     const wait = [5000, 15000, 30000, 60000, 90000, 120000][attempt];
     console.log(`  (throttled - waiting ${wait / 1000}s)`);
     await sleep(wait);
-    return getJSON(url, attempt + 1);
+    return getJSON(url, attempt + 1, { cache: keep });
   }
-  cache[url] = data;
-  await writeFile(CACHE_FILE, JSON.stringify(cache));
+  if (keep) {
+    cache[url] = data;
+    await writeFile(CACHE_FILE, JSON.stringify(cache));
+  }
   await sleep(url.includes('wikidata') ? 1500 : 1000);
   return data;
 }
@@ -212,7 +218,7 @@ const memoViews = (cache.__views = cache.__views || {}); // title -> daily count
 const qids = [...new Set(notThere.map((r) => r.qid).filter((q) => q && !(q in memoSizes)))];
 for (let i = 0; i < qids.length; i += 50) {
   const batch = qids.slice(i, i + 50);
-  const data = await getJSON('https://www.wikidata.org/w/api.php?' + new URLSearchParams({ action: 'wbgetentities', ids: batch.join('|'), props: 'claims', format: 'json' }));
+  const data = await getJSON('https://www.wikidata.org/w/api.php?' + new URLSearchParams({ action: 'wbgetentities', ids: batch.join('|'), props: 'claims', format: 'json' }), 0, { cache: false });
   for (const qid of batch) {
     const ent = data.entities && data.entities[qid];
     const claims = ent && ent.claims && ent.claims[cfg.sizeProp];
@@ -224,8 +230,11 @@ for (let i = 0; i < qids.length; i += 50) {
     const v = dated[0].c.mainsnak && dated[0].c.mainsnak.datavalue && dated[0].c.mainsnak.datavalue.value;
     if (v) memoSizes[qid] = { amount: Number(v.amount), unit: (v.unit || '').split('/').pop() };
   }
+  if ((i / 50) % 10 === 9 || i + 50 >= qids.length) {
+    await writeFile(CACHE_FILE, JSON.stringify(cache));
+    console.log(`  sizes: ${Math.min(i + 50, qids.length)} / ${qids.length}`);
+  }
 }
-if (qids.length) await writeFile(CACHE_FILE, JSON.stringify(cache));
 for (const r of notThere) {
   const s = r.qid && memoSizes[r.qid];
   if (!s) continue;
