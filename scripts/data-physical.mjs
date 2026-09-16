@@ -778,6 +778,30 @@ Lake Kutubu|49
 Lake Lanoto'o|0.1
 Lake Letas|7
 Lake Iseo|65.3|Iseo
+Storavan|183.5
+Stora Lulevatten|162.72
+Stora Le|136.1
+Dellen|131
+Overuman|88
+Siiddasjavri|73.1
+Tjeggelvas|66.88
+Baven|64.19
+Karats|59.74
+Annsjon|57.46
+Mjorn|54.53
+Lelang|52.93
+Orsa Lake|52.17
+Storvindeln Lake|52.16
+Ivo Lake|50.16
+Helgasjon|48.53
+Viken|45.71
+Takern|44.06
+Sadvvajavrre|40.11
+Vasman|39.11
+Tisnaren|37.79
+Rostojavri|34.14
+Asunden|32.73
+Lygnern|31.48
 `;
 
 export const RIVERS = `

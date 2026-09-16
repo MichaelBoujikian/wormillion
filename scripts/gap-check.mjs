@@ -21,7 +21,9 @@ const EXPECTED = {
     // the small famous ones a "smaller than 100 km²" prompt sends people to (reported 2026-09-13)
     'Lake Bled', 'Lake Placid', 'Lake Hillier', 'Peyto Lake', 'Jokulsarlon', 'Plitvice', 'Lake Louise', 'Moraine Lake',
     // the 2026-09-15 expansion
-    'Loch Tay', 'Lough Corrib', 'Ullswater', 'Lake Winnipesaukee', 'Lake of the Ozarks', 'Lake Nasser', 'Lake Manyara', 'Lake Natron', 'Dal Lake', 'Lake Wanaka', 'Lake Brienz', 'Lake Iseo', 'Malaren'],
+    'Loch Tay', 'Lough Corrib', 'Ullswater', 'Lake Winnipesaukee', 'Lake of the Ozarks', 'Lake Nasser', 'Lake Manyara', 'Lake Natron', 'Dal Lake', 'Lake Wanaka', 'Lake Brienz', 'Lake Iseo', 'Malaren',
+    // the 2026-09-15 Sweden probe (scripts/expansion/reports/2026-09-15-sweden-lakes.md)
+    'Vanern', 'Vattern', 'Siljan', 'Storavan', 'Takern'],
   river: ['Nile', 'Amazon', 'Mississippi', 'Thames', 'Danube', 'Ganges', 'Volga', 'Indus', 'Rhine', 'Seine', 'Yangtze', 'Congo', 'Tigris', 'Euphrates', 'Jordan', 'Colorado',
     // the 2026-09-14 expansion: rivers players reported missing
     'Hudson', 'Potomac', 'Tennessee', 'Fraser', 'Magdalena', 'Okavango', 'Garonne', 'Neckar', 'Mersey', 'Tyne', 'Warta', 'Irtysh', 'Kaveri', 'Murrumbidgee', 'Rio de la Plata',
@@ -35,7 +37,9 @@ const EXPECTED = {
     'Death Valley', 'White Sands', 'Skeleton Coast', 'Rann of Kutch', 'Karoo'],
   city: ['New York', 'NYC', 'Los Angeles', 'LA', 'Chicago', 'Sydney', 'Melbourne', 'Toronto', 'Vancouver', 'Mumbai', 'Bombay', 'Istanbul', 'Rio de Janeiro', 'Rio', 'Sao Paulo', 'Barcelona', 'Milan', 'Munich', 'Shanghai', 'Karachi', 'Lagos', 'Johannesburg', 'Cape Town', 'Dubai', 'Osaka', 'Kyoto', 'Venice', 'Florence', 'Saint Petersburg', 'St Petersburg', 'Marseille', 'Frankfurt', 'Zurich', 'Geneva', 'Casablanca', 'Ho Chi Minh City', 'Saigon', 'Kolkata', 'Calcutta', 'Chennai', 'Miami', 'San Francisco', 'Houston', 'Seattle', 'Boston', 'Leeds', 'Baltimore', 'Kobe', 'Constantinople', 'Winnipeg', 'Portland', 'Macau', 'Hue',
     // the 2026-09-14 expansion: non-capital cities players reported missing
-    'Nashville', 'Memphis', 'Charlotte', 'Cleveland', 'Cincinnati', 'Halifax', 'Merida', 'Monterrey', 'Medellin', 'Belo Horizonte', 'Bologna', 'Granada', 'Toledo', 'Sheffield', 'Newcastle', 'Nantes', 'Dusseldorf', 'Bilbao', 'Lodz', 'Nizhny Novgorod', 'Bursa', 'Tabriz', 'Erbil', 'Abeokuta', 'Port Said', 'Soweto', 'Eldoret', 'Sendai', 'Daegu', 'Suzhou', 'Indore', 'Peshawar', 'Semarang', 'Johor Bahru', 'Hobart', 'Cairns', 'Dunedin'],
+    'Nashville', 'Memphis', 'Charlotte', 'Cleveland', 'Cincinnati', 'Halifax', 'Merida', 'Monterrey', 'Medellin', 'Belo Horizonte', 'Bologna', 'Granada', 'Toledo', 'Sheffield', 'Newcastle', 'Nantes', 'Dusseldorf', 'Bilbao', 'Lodz', 'Nizhny Novgorod', 'Bursa', 'Tabriz', 'Erbil', 'Abeokuta', 'Port Said', 'Soweto', 'Eldoret', 'Sendai', 'Daegu', 'Suzhou', 'Indore', 'Peshawar', 'Semarang', 'Johor Bahru', 'Hobart', 'Cairns', 'Dunedin',
+    // the 2026-09-15 US probe (scripts/expansion/reports/2026-09-15-us-cities.md)
+    'Brooklyn', 'Queens', 'Bronx', 'Arlington', 'Irvine', 'Albany', 'Fremont', 'Santa Clarita'],
   island: ['Maui', 'Oahu', 'Seychelles', 'Falkland Islands', 'Falklands', 'Lofoten', 'Shetland', 'Orkney', 'Hebrides', 'Bali', 'Sicily', 'Greenland', 'Madagascar', 'Cuba', 'Hawaii', 'Manhattan', 'Iceland', 'Tasmania', 'Crete', 'Santorini', 'Fiji', 'Maldives', 'Galapagos', 'Isle of Skye', 'Long Island', 'Corfu', 'Phuket', 'Ibiza', 'Jamaica', 'Bora Bora', 'Aruba', 'Zanzibar', 'Palau', 'Samoa', 'Tonga', 'Bahamas', 'Singapore', 'Grenada', 'Haiti', 'Trinidad and Tobago', 'Big Island', 'Japan', 'Philippines', 'Indonesia', 'New Zealand', 'United Kingdom', 'Papua New Guinea', 'Brunei',
     // the 2026-09-14 expansion
     'Tobago', 'Hong Kong Island', 'Lantau', 'Phi Phi', 'Ko Tao', 'Vieques', 'Saba', 'Hvar', 'Mykonos', 'Iwo Jima', 'Corregidor', 'Manitoulin', 'Kerguelen', 'South Georgia'],

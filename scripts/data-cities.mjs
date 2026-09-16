@@ -2602,4 +2602,253 @@ Luganville|Vanuatu|16000
 Salelologa|Samoa|4000
 Neiafu|Tonga|4000
 Victoria|Canada|92000
+Brooklyn|United States|2736074
+The Bronx|United States|1472654
+Queens|United States|2405464
+Gary|United States|69093
+Albany|United States|99224
+Dearborn|United States|109976
+Duluth|United States|86697
+Sitka|United States|8458
+Boca Raton|United States|97422
+Irvine|United States|307670
+Arlington|United States|394266
+Harrisburg|United States|50135
+Paradise|United States|191238
+Norfolk|United States|238005
+Roanoke|United States|100011
+Stamford|United States|135470
+Abilene|United States|125182
+Bridgeport|United States|148654
+Youngstown|United States|60068
+Athens|United States|127315
+Midland|United States|132524
+Erie|United States|94831
+Frisco|United States|200509
+Visalia|United States|141384
+Thousand Oaks|United States|126966
+Clearwater|United States|117292
+Salinas|United States|163542
+Butte|United States|34494
+Torrance|United States|147067
+Rancho Cucamonga|United States|174453
+Paterson|United States|159732
+Utica|United States|65283
+Temecula|United States|110003
+Cape Coral|United States|194016
+Santa Clarita|United States|228673
+Tyler|United States|105995
+College Station|United States|120511
+Fremont|United States|230504
+Rockford|United States|148655
+Laramie|United States|31407
+Casper|United States|59038
+Vallejo|United States|126090
+Carlsbad|United States|114746
+Naperville|United States|149540
+Fort Myers|United States|86395
+Evansville|United States|117298
+Fall River|United States|94000
+Jefferson City|United States|43228
+Fontana|United States|208393
+Quincy|United States|101636
+Huntington Beach|United States|198711
+Davenport|United States|101724
+Morgantown|United States|30347
+McKinney|United States|195308
+Oxnard|United States|202063
+Lowell|United States|113994
+Ontario|United States|175265
+Wichita Falls|United States|102316
+Bowling Green|United States|72294
+Beaumont|United States|115282
+Hollywood|United States|153067
+San Mateo|United States|105661
+Chico|United States|101475
+Lewiston|United States|37121
+Huntington|United States|46842
+Pierre|United States|14091
+Kenosha|United States|99986
+Joliet|United States|150362
+Lakeland|United States|112641
+Cary|United States|174721
+Everett|United States|110629
+McAllen|United States|142210
+Oceanside|United States|174068
+Wheeling|United States|27052
+Frederick|United States|78171
+Hayward|United States|162954
+Downey|United States|114355
+Murfreesboro|United States|152769
+Round Rock|United States|119468
+Minot|United States|48377
+New Bedford|United States|101079
+Lancaster|United States|173516
+Pueblo|United States|111876
+St. Joseph|United States|72473|Saint Joseph
+Great Falls|United States|60442
+Idaho Falls|United States|64818
+Sunnyvale|United States|155805
+Clarksville|United States|166722
+Hialeah|United States|223109
+Overland Park|United States|197238
+Pomona|United States|151713
+Ventura|United States|110763
+Murrieta|United States|110949
+Hattiesburg|United States|48730
+Nashua|United States|91322
+Sugar Land|United States|111026
+Denton|United States|139869
+Fort Smith|United States|89142
+Grand Forks|United States|59166
+Victorville|United States|134810
+Carmel|United States|99757
+Sioux City|United States|85797
+Irving|United States|256684
+Owensboro|United States|60183
+New Braunfels|United States|90403
+Norman|United States|128026
+Lake Charles|United States|84872
+Miami Gardens|United States|111640
+Somerville|United States|81045
+Fullerton|United States|143617
+Hampton|United States|137148
+Corona|United States|157136
+Edison|United States|107588
+Wasilla|United States|9054
+Rockville|United States|67117
+Palmdale|United States|169450
+Port St. Lucie|United States|204851
+Simi Valley|United States|126356
+Elizabeth|United States|137298
+Lakewood Township|United States|135158
+Hammond|United States|77879
+Costa Mesa|United States|111918
+Racine|United States|77816
+Pompano Beach|United States|112046
+Daly City|United States|104901
+Tracy|United States|93000
+San Angelo|United States|99893
+Roseville|United States|147773
+Garden Grove|United States|171949
+Gilbert|United States|267918
+Gulfport|United States|72926
+Metairie|United States|143507
+Georgetown|United States|67176
+Edinburg|United States|100243
+Jonesboro|United States|78576
+Allen|United States|104627
+Greeley|United States|108795
+Gaithersburg|United States|69101
+Sandy Springs|United States|108080
+Hillsboro|United States|106447
+Richardson|United States|119469
+Rock Hill|United States|74372
+Elgin|United States|114797
+Waterbury|United States|114403
+Brockton|United States|105643
+Garland|United States|246018
+Lynn|United States|101253
+Coral Springs|United States|134394
+Killeen|United States|153095
+Santa Maria|United States|109707
+Grand Prairie|United States|196100
+Toms River|United States|95438
+Grand Island|United States|53131
+Pawtucket|United States|75604
+Escondido|United States|151038
+Parkersburg|United States|29738
+Clovis|United States|120124
+Gillette|United States|33403
+Mount Pleasant|United States|90801
+High Point|United States|114059
+Lee's Summit|United States|101108
+Vacaville|United States|102386
+West Covina|United States|109501
+Orange|United States|139911
+Renton|United States|106785
+Longmont|United States|98885
+Olathe|United States|141290
+Elk Grove|United States|176124
+Fairfield|United States|119881
+Davie|United States|105691
+Cranston|United States|82934
+Broken Arrow|United States|113540
+Conroe|United States|89956
+Miramar|United States|134721
+Livonia|United States|95535
+Covington|United States|40961
+Pearland|United States|125828
+El Cajon|United States|106215
+Sparks|United States|108445
+Edmond|United States|94428
+Kearney|United States|33790
+Springdale|United States|84161
+Lakewood|United States|155984
+Kent|United States|136588
+Moreno Valley|United States|208634
+Carrollton|United States|133434
+Nampa|United States|100200
+Rock Springs|United States|23526
+Warren|United States|139387
+Meridian|United States|117635
+Pembroke Pines|United States|171178
+Rutland|United States|15807
+Bowie|United States|58329
+Rio Rancho|United States|104046
+Fishers|United States|98977
+Warwick|United States|82823
+Southaven|United States|54648
+Palm Bay|United States|119760
+Federal Way|United States|101030
+Bennington|United States|15333
+Palm Coast|United States|89258
+Menifee|United States|102527
+Arvada|United States|124402
+Centennial|United States|108418
+Lewisville|United States|111822
+Suffolk|United States|94324
+Surprise|United States|143148
+Hesperia|United States|99818
+North Charleston|United States|114852
+Mesquite|United States|150108
+Spring Hill|United States|113568
+Goodyear|United States|95294
+Brookings|United States|23377
+Buckeye|United States|91502
+South Fulton|United States|107436
+North Las Vegas|United States|262527
+El Monte|United States|109450
+Norwalk|United States|102773
+Sterling Heights|United States|134346
+Gresham|United States|114247
+League City|United States|114392
+West Valley City|United States|140230
+Rialto|United States|104026
+Caldwell|United States|59996
+Woodbridge Township|United States|103639
+Westminster|United States|116317
+Ankeny|United States|67887
+Lehigh Acres|United States|114287
+Deltona|United States|93692
+Avondale|United States|89334
+Riverview|United States|107396
+Thornton|United States|141867
+Enterprise|United States|221831
+Clinton Township|United States|100513
+South Burlington|United States|20292
+Citrus Heights|United States|87583
+Jurupa Valley|United States|105053
+Spokane Valley|United States|102976
+Pearl City|United States|45295
+Spring Valley|United States|215597
+West Jordan|United States|116961
+South Portland|United States|26498
+Colchester|United States|17524
+East Providence|United States|47139
+West Fargo|United States|38626
+Waipahu|United States|43485
+Sunrise Manor|United States|205618
+East Honolulu|United States|50922
+Frankfort|United States|28602
 `;

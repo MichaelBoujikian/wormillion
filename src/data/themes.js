@@ -918,7 +918,13 @@ globalThis.WORMILLION_THEMES = {
       'Snasavatnet', 'Tinnsjo', 'Rossvatnet', 'Altevatnet', 'Norsjo',
       'Lovatnet', 'Nisser', 'Thingvallavatn', 'Myvatn',
       'Thorisvatn', 'Hvitarvatn', 'Kleifarvatn', 'Lagarfljot', 'Arreso',
-      'Esrum So', 'Fureso', 'Tisso', 'Mosso']
+      'Esrum So', 'Fureso', 'Tisso', 'Mosso',
+      // 2026-09-14 expansion
+      'Storavan', 'Stora Lulevatten', 'Stora Le', 'Dellen', 'Overuman',
+      'Siiddasjavri', 'Tjeggelvas', 'Baven', 'Karats', 'Annsjon',
+      'Mjorn', 'Lelang', 'Orsa Lake', 'Storvindeln Lake', 'Ivo Lake',
+      'Helgasjon', 'Viken', 'Takern', 'Sadvvajavrre', 'Vasman',
+      'Tisnaren', 'Rostojavri', 'Asunden', 'Lygnern']
   },
 
   desert: {
