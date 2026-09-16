@@ -38,7 +38,7 @@ Decisions the user took 2026-09-15 (late), all in one message:
    Wales Island AK…) stay out; no comma-form or parenthetical names.
 5. **Audits on Opus**, piecemeal with checkpoints, up to three at a time.
 
-## Where the US wave stands (branch `expansion`, 37 commits ahead of `main`)
+## Where the US wave stands (branch `expansion`, 29 commits ahead of `main`)
 
 | category | probe | added | floor | report |
 |---|---|---|---|---|
