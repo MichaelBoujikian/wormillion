@@ -71,6 +71,7 @@ async function walk(cat, depth) {
   let cmcontinue;
   do {
     const data = await api({ list: 'categorymembers', cmtitle: cat, cmlimit: '500', cmtype: 'page|subcat', ...(cmcontinue ? { cmcontinue } : {}) });
+    if (!data.query) { console.log(`category ${cat}: ${JSON.stringify(data.error || data).slice(0, 80)}`); return; }
     for (const m of data.query.categorymembers) {
       if (m.ns === 14) {
         if (SUBCAT && SUBCAT.test(m.title)) await walk(m.title, depth + 1);

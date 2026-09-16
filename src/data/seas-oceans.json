@@ -4082,12 +4082,12 @@
   "aliases": [],
   "size": 1240,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"San Francisco–Oakland Bay Bridge\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
-  "magnitude": 12085,
+  "source": "English Wikipedia pageviews for \"San Francisco Bay\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 8554,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "San Francisco–Oakland Bay Bridge",
-  "lat": 37.81805556,
-  "lon": -122.34666667,
+  "wikiTitle": "San Francisco Bay",
+  "lat": 37.67,
+  "lon": -122.27,
   "oceans": [
    "Pacific"
   ]
@@ -4362,6 +4362,142 @@
   "lon": 160,
   "oceans": [
    "Southern"
+  ]
+ },
+ {
+  "id": "sea_ocean-biscayne-bay",
+  "category": "sea_ocean",
+  "name": "Biscayne Bay",
+  "aliases": [],
+  "size": 1108.52,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Biscayne Bay\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 4322,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Biscayne Bay",
+  "lat": 25.56583333,
+  "lon": -80.21638889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-maine",
+  "category": "sea_ocean",
+  "name": "Gulf of Maine",
+  "aliases": [],
+  "size": 93000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Maine\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3927,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Maine",
+  "lat": 43,
+  "lon": -68,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-neah-bay",
+  "category": "sea_ocean",
+  "name": "Neah Bay",
+  "aliases": [],
+  "size": 6.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Neah Bay, Washington\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2344,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Neah Bay, Washington",
+  "lat": 48.36555556,
+  "lon": -124.62222222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-cape-cod-bay",
+  "category": "sea_ocean",
+  "name": "Cape Cod Bay",
+  "aliases": [],
+  "size": 1564.35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cape Cod Bay\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1583,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cape Cod Bay",
+  "lat": 41.9,
+  "lon": -70.3,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-matagorda-bay",
+  "category": "sea_ocean",
+  "name": "Matagorda Bay",
+  "aliases": [],
+  "size": 989.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Matagorda Bay\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Matagorda Bay",
+  "lat": 28.56555556,
+  "lon": -96.21,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-birch-bay",
+  "category": "sea_ocean",
+  "name": "Birch Bay",
+  "aliases": [],
+  "size": 41.59,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Birch Bay, Washington\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Birch Bay, Washington",
+  "lat": 48.91555556,
+  "lon": -122.74722222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-san-antonio-bay",
+  "category": "sea_ocean",
+  "name": "San Antonio Bay",
+  "aliases": [],
+  "size": 580,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Antonio Bay\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Antonio Bay",
+  "lat": 28.30527778,
+  "lon": -96.73805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-aransas-bay",
+  "category": "sea_ocean",
+  "name": "Aransas Bay",
+  "aliases": [],
+  "size": 452.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aransas Bay\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aransas Bay",
+  "lat": 28.05027778,
+  "lon": -96.99166667,
+  "oceans": [
+   "Atlantic"
   ]
  }
 ]

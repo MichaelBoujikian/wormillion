@@ -1,0 +1,26 @@
+{
+  "name": "us-seas",
+  "category": "sea_ocean",
+  "jsonFile": "seas-oceans.json",
+  "roots": [
+    "Category:Bays of the United States",
+    "Category:Straits of the United States",
+    "Category:Sounds of the United States",
+    "Category:Estuaries of the United States",
+    "Category:Inlets of the United States",
+    "Category:Lagoons of the United States",
+    "Category:Gulfs of the United States"
+  ],
+  "subcat": "^Category:(Bays|Straits|Sounds|Estuaries|Inlets|Lagoons|Gulfs|Bodies of water|Coves|Harbors|Harbours|Channels) of (?!the United States$)(?!.*( by county|County,|Parish,|Borough,|Census Area,))",
+  "lists": [
+    "List of bays of the United States",
+    "List of straits",
+    "List of gulfs"
+  ],
+  "kind": "(bay|strait|sound|gulf|inlet|estuary|lagoon|channel|passage|bight|cove|harbor|harbour|arm of|body of water|Bay$|Sound$|Strait$|Inlet$|Passage$|Channel$|Gulf of)",
+  "skipTitle": "(^List of|^Geography of|Bridge$|Lighthouse|Light$|Park$|Refuge$|Wildlife|Airport|Base$|Station$|Township|County$|Resort$|Beach$|Marina$|Ferry|Fort |Battery |Tunnel$|Watershed$|Islands?$|River$|Creek$|Aquarium|Authority|Area$|Region$|Peninsula$|^Port of|Pier$|Wharf$|Dam$|Canal$|Reservoir$|Lake$)",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "spellings": "sea",
+  "notKind": "^(town|city|village|county|census|neighborhood|community|unincorporated|resort|lighthouse|fort|park|bridge|ferry|beach|island|river|creek|lake|reservoir|dam|canal|peninsula|cape|headland|point|reef|shoal|bank|sandbar|company|ship|school|prison|hotel|airport|naval|military|base|station|refuge|wildlife|preserve|nature reserve|state park|national park|monument|historic|district|region|watershed|drainage|aquifer|marsh|swamp|wetland|salt marsh|list)"
+}

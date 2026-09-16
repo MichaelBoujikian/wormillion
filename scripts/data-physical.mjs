@@ -8414,4 +8414,12 @@ Cooperation Sea|258000
 Lazarev Sea|929000
 Riiser-Larsen Sea|1138000
 Somov Sea|1150000
+Biscayne Bay|1108.52
+Gulf of Maine|93000
+Neah Bay|6.08
+Cape Cod Bay|1564.35
+Matagorda Bay|989.4
+Birch Bay|41.59
+San Antonio Bay|580
+Aransas Bay|452.4
 `;

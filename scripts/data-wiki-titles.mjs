@@ -3646,7 +3646,7 @@ export const WIKI_TITLES = {
   "sea_ocean-szczecin-lagoon": "Szczecin Lagoon",
   "sea_ocean-golden-horn": "Zolotoy Rog",
   "sea_ocean-gulf-of-papua": "Huon Gulf",
-  "sea_ocean-san-francisco-bay": "San Francisco–Oakland Bay Bridge",
+  "sea_ocean-san-francisco-bay": "San Francisco Bay",
   // --- deserts and seas checked by hand (2026-09-15) ---
   "desert-vizcaino-desert": "Vizcaíno Desert",
 
@@ -5148,7 +5148,11 @@ export const WIKI_TITLES = {
   "island-broomes-island": "Broomes Island, Maryland",
   "island-ritta-island": "Ritta Island, Florida",
   "island-mcdonald-island": "McDonald Island (California)",
-  "island-venice-island": "Venice Island (California)"
+  "island-venice-island": "Venice Island (California)",
+
+  // --- sea_ocean (2026-09-14 expansion) ---
+  "sea_ocean-neah-bay": "Neah Bay, Washington",
+  "sea_ocean-birch-bay": "Birch Bay, Washington"
 };
 
 /**
@@ -5584,5 +5588,10 @@ export const WIKI_VERIFIED = new Set([
   "island-virginia-key",
   "island-waldron-island",
   "island-westport-island",
-  "island-yerba-buena-island"
+  "island-yerba-buena-island",
+  // --- 2026-09-16 US seas: an estuary, a lagoon and two bays whose article is the CDP on them ---
+  "sea_ocean-san-francisco-bay",
+  "sea_ocean-biscayne-bay",
+  "sea_ocean-neah-bay",
+  "sea_ocean-birch-bay"
 ]);

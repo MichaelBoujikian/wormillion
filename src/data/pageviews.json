@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T15:06:20.217Z",
+ "fetched": "2026-09-16T15:42:20.649Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -81149,11 +81149,11 @@
    "lon": -121.9
   },
   "sea_ocean-san-francisco-bay": {
-   "title": "San Francisco–Oakland Bay Bridge",
-   "monthlyViews": 12085,
+   "title": "San Francisco Bay",
+   "monthlyViews": 8554,
    "days": 60,
-   "lat": 37.81805556,
-   "lon": -122.34666667
+   "lat": 37.67,
+   "lon": -122.27
   },
   "sea_ocean-long-island-sound": {
    "title": "Long Island Sound",
@@ -81266,6 +81266,62 @@
    "days": 60,
    "lat": -67,
    "lon": 160
+  },
+  "sea_ocean-biscayne-bay": {
+   "title": "Biscayne Bay",
+   "monthlyViews": 4322,
+   "days": 60,
+   "lat": 25.56583333,
+   "lon": -80.21638889
+  },
+  "sea_ocean-gulf-of-maine": {
+   "title": "Gulf of Maine",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 43,
+   "lon": -68
+  },
+  "sea_ocean-neah-bay": {
+   "title": "Neah Bay, Washington",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 48.36555556,
+   "lon": -124.62222222
+  },
+  "sea_ocean-cape-cod-bay": {
+   "title": "Cape Cod Bay",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 41.9,
+   "lon": -70.3
+  },
+  "sea_ocean-matagorda-bay": {
+   "title": "Matagorda Bay",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 28.56555556,
+   "lon": -96.21
+  },
+  "sea_ocean-birch-bay": {
+   "title": "Birch Bay, Washington",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 48.91555556,
+   "lon": -122.74722222
+  },
+  "sea_ocean-san-antonio-bay": {
+   "title": "San Antonio Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 28.30527778,
+   "lon": -96.73805556
+  },
+  "sea_ocean-aransas-bay": {
+   "title": "Aransas Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 28.05027778,
+   "lon": -96.99166667
   }
  }
 }

@@ -1235,7 +1235,10 @@ globalThis.WORMILLION_THEMES = {
       'Strait of Juan de Fuca', 'Straits of Florida', 'Windward Passage', 'Mona Passage', 'Yucatan Channel',
       'Puget Sound', 'Prince William Sound', 'Monterey Bay', 'San Francisco Bay', 'Long Island Sound',
       'Delaware Bay', 'Tampa Bay', 'Strait of Georgia', 'Hudson Strait', 'James Bay',
-      'Gulf of Honduras', 'Gulf of Panama', 'Gulf of Guayaquil', 'Beagle Channel', 'Guanabara Bay'
+      'Gulf of Honduras', 'Gulf of Panama', 'Gulf of Guayaquil', 'Beagle Channel', 'Guanabara Bay',
+      // 2026-09-14 expansion
+      'Biscayne Bay', 'Gulf of Maine', 'Neah Bay', 'Cape Cod Bay', 'Matagorda Bay',
+      'Birch Bay', 'San Antonio Bay', 'Aransas Bay'
     ],
     'the Antarctic': [
       'Weddell Sea', 'Ross Sea', 'Amundsen Sea', 'Bellingshausen Sea',
