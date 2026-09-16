@@ -170,16 +170,40 @@ and agent runners are paused") — unrelated to this repo or to Claude Code.
   the in-app browser pane) **and mounts the comparison API over an in-memory
   store**, so the whole server flow plays locally without Netlify.
 
-## Green as of 2026-09-15 evening
+## Green as of 2026-09-15 late evening
 
-`npm test` 173 · `npm run validate` 9,033 entries · `npm run gap-check` 325
-obvious answers all land. Working tree clean, everything pushed.
+`npm test` 180 · `npm run validate` 9,300 entries · `npm run gap-check` 338
+obvious answers all land. Working tree clean, everything pushed. **Netlify
+still serves `e881c8a`; the next deploy is the user's call (plan step 1).**
 
-**Bank:** 197 countries · 247 capitals · 2,535 cities · 766 lakes · **2,251
-rivers** (+66 Colombian, `99aab7f`) · 1,310 mountains · 129 deserts · 1,345
-islands · 253 seas = **9,033**. `bank.js` is 1.2 MB. The audit-day figures
-(228 jackpot entries, median run ~6,700 / depth ~560) predate the 66 rivers
-and will not have moved.
+**Bank:** 197 countries · 247 capitals · 2,781 cities · 790 lakes · 2,249
+rivers · 1,309 mountains · 129 deserts · 1,345 islands · 253 seas = **9,300**
+(+333 net today: 66 Colombian rivers, 246 US cities, 24 Swedish lakes, minus
+audit drops and merges). `bank.js` is 1.2 MB. The audit-day figures (228
+jackpot entries, median run ~6,700 / depth ~560) predate today and will not
+have moved much; Mecaya (7 views/mo) is now the river cohort minimum and the
+★ reveal for plain "Name a river." in about half the dailies — the premise
+working, not a bug.
+
+## Post-fill audits (2026-09-15 late evening)
+
+Two Opus agents (the user asked for Opus) went over the day's 339 additions
+and the matcher change: `reports/2026-09-15-post-fill-gameplay-audit.md`
+and `-bank-audit.md`. **Everything they confirmed is fixed** (`c07c7f9`
+code, `4203814` data): four matcher refinements (whole-name hits win ties,
+a shared generic word is worth an edit, `rio` is filler, nudges compare
+whole names — SPEC 3.7), Georgetown TX / Athens GA / Edinburg TX dropped
+(their bare names belong to famous places already in the bank), seven
+shared-article pairs merged or re-pointed (Mount Song had scored on Kailash;
+the Sumatran Musi on Hyderabad's), four figures re-sourced, twelve aliases.
+Left as judgment calls, none urgent: "Isle of White" lands on New Zealand's
+White Island via the loose pass (an "Isle of White" alias on Wight would fix
+it but would make Wight "end in E" for letter rules); "Rock Island" → Palau's
+Rock Islands; 11 of the new US "cities" are census-designated places
+(Paradise, Enterprise, Metairie…) — real 100k+ places, outside the city
+rulebook's "administrative city"; Torbes and Uribante are Venezuelan rivers
+in the South America theme; "Toms River"/"Grand Island"/"Cape Coral" count as
+short city names via their trimmed form (documented behaviour).
 
 ## Coverage probes (2026-09-15 evening)
 
@@ -191,8 +215,8 @@ three times, was "the top tier, not the country":
 | probe | articles | in bank | added | left |
 |---|---|---|---|---|
 | Colombia × rivers | 148 | 22 (15%) | **66** (all with a sourced length) | 55 with no length figure anywhere; 6 name collisions (Mira, San Juan…) |
-| United States × non-capital cities (≥100k or largest in state) | 469 | 169 (36%) | — | ~230 incl. Arlington TX (394k, autocorrects to Burlington VT), Irvine, Irving, Garland, Fremont, the NYC boroughs; 45 names held by another place (Birmingham, Toledo, Portland ME…) |
-| Sweden × lakes | 208 | 20 (10%) | — | 188, mostly ponds; 25 over 30 km² worth having |
+| United States × non-capital cities (≥100k or largest in state) | 469 | 169 (36%) | **246** incl. Brooklyn, Queens, The Bronx, the last 5 state capitals | 45 names held by another place (Birmingham, Toledo, Portland ME…); Manhattan/Staten Island stay islands; Georgetown/Athens/Edinburg dropped after audit |
+| Sweden × lakes | 208 | 20 (10%) | **24** (over 30 km², Scandinavia theme) | 164 ponds under 30 km² |
 
 Findings that generalise: (1) a category's coverage is "what an outsider
 names"; a local names the rest. (2) **The fuzzy-trap class is real and
