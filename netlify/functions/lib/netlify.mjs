@@ -45,10 +45,16 @@ export function api() {
   return daily.createDailyApi({ store: blobStore(), bank: bankOnce() });
 }
 
-/** CORS headers for a request, or none when the origin isn't one of ours. */
+/**
+ * CORS headers for a request, or only `Vary: Origin` when the origin isn't
+ * one of ours. The Vary is unconditional on purpose: daily-stats is cached
+ * at the edge for a minute, and a copy cached for a request with no Origin
+ * (a curl, a crawler) would otherwise be served to the Pages copy without
+ * the allow-origin header and fail its CORS check (seen 2026-09-15).
+ */
 export function corsHeaders(req) {
   const origin = req.headers.get('origin');
-  if (!origin || !ALLOWED_ORIGINS.has(origin)) return {};
+  if (!origin || !ALLOWED_ORIGINS.has(origin)) return { vary: 'origin' };
   return {
     'access-control-allow-origin': origin,
     'access-control-allow-methods': 'GET, POST, OPTIONS',
