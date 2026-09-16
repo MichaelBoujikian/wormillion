@@ -2966,6 +2966,72 @@ Kaituna|51
 Rewa (Fiji)|145|Rewa River
 Sigatoka|120
 Navua|40
+Cano Cristales|100
+Catatumbo|500|Rio Catatumbo
+Bogota|375|Rio Bogota
+Sinu|415|Rio Sinu
+Medellin|100|Rio Medellin
+Suarez|172|Rio Suarez
+Ariari|185|Rio Ariari
+Atabapo|280|Rio Atabapo
+Cesar|280|Rio Cesar
+Chicamocha|400|Rio Chicamocha
+Guaitara|158|Rio Guaitara
+Otun|69|Rio Otun
+Pance|25|Rio Pance
+Rancheria|150|Rio Rancheria
+San Jorge|368|Rio San Jorge
+Taraira|160|Rio Taraira
+Zulia|310|Rio Zulia
+Anchicaya|100|Rio Anchicaya
+Baudo|150|Rio Baudo
+Vita|520|Rio Vita
+Caguan|470|Rio Caguan
+Cahuinari|400|Rio Cahuinari
+Cali|50|Rio Cali
+Capanaparo|650|Rio Capanaparo
+Cinaruco|480|Rio Cinaruco
+Dagua|101|Rio Dagua
+Guatapuri|80|Rio Guatapuri
+Guatiquia|137|Rio Guatiquia
+Igara Parana|430|Rio Igara Parana
+La Miel|104|Rio La Miel
+La Vieja|102|Rio La Vieja
+Lebrija|200|Rio Lebrija
+Mendihuaca|13|Rio Mendihuaca
+Naya|120|Rio Naya
+Nechi|252|Rio Nechi
+Orteguaza|220|Rio Orteguaza
+Pamplonita|155|Rio Pamplonita
+Quindio|69|Rio Quindio
+Saldana|223|Rio Saldana
+San Miguel|295|Rio San Miguel
+Soacha|11|Rio Soacha
+Sogamoso|135|Rio Sogamoso
+Sumapaz|95|Rio Sumapaz
+Teusaca|69|Rio Teusaca
+Tiquie|374|Rio Tiquie
+Tomo|650|Rio Tomo
+Torbes|82|Rio Torbes
+Tunjuelo|73|Rio Tunjuelo
+Tachira|87|Rio Tachira
+Uribante|245|Rio Uribante
+Ubate|49|Rio Ubate
+Cotuhe|335|Rio Cotuhe
+Coello|112|Rio Coello
+Cara Parana|260|Rio Cara Parana
+Guamues|140|Rio Guamues
+Ajaju|770|Rio Ajaju
+Cuja|48|Rio Cuja
+Sardinata|170|Rio Sardinata
+Cusiana|245|Rio Cusiana
+Atacuari|207|Rio Atacuari
+Miritiparana|320|Rio Miritiparana
+Quebrada Limas|11
+Bodoquero|100|Rio Bodoquero
+Ceibas|61|Rio Ceibas
+Aquio|140|Rio Aquio
+Mecaya|210|Rio Mecaya
 `;
 
 export const MOUNTAINS = `

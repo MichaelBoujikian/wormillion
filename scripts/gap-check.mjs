@@ -24,7 +24,9 @@ const EXPECTED = {
     'Loch Tay', 'Lough Corrib', 'Ullswater', 'Lake Winnipesaukee', 'Lake of the Ozarks', 'Lake Nasser', 'Lake Manyara', 'Lake Natron', 'Dal Lake', 'Lake Wanaka', 'Lake Brienz', 'Lake Iseo', 'Malaren'],
   river: ['Nile', 'Amazon', 'Mississippi', 'Thames', 'Danube', 'Ganges', 'Volga', 'Indus', 'Rhine', 'Seine', 'Yangtze', 'Congo', 'Tigris', 'Euphrates', 'Jordan', 'Colorado',
     // the 2026-09-14 expansion: rivers players reported missing
-    'Hudson', 'Potomac', 'Tennessee', 'Fraser', 'Magdalena', 'Okavango', 'Garonne', 'Neckar', 'Mersey', 'Tyne', 'Warta', 'Irtysh', 'Kaveri', 'Murrumbidgee', 'Rio de la Plata'],
+    'Hudson', 'Potomac', 'Tennessee', 'Fraser', 'Magdalena', 'Okavango', 'Garonne', 'Neckar', 'Mersey', 'Tyne', 'Warta', 'Irtysh', 'Kaveri', 'Murrumbidgee', 'Rio de la Plata',
+    // the 2026-09-16 Colombia probe (scripts/expansion/reports/2026-09-16-colombia-rivers.md)
+    'Cano Cristales', 'Catatumbo', 'Sinu', 'Bogota River', 'Cauca', 'Caqueta'],
   mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna',
     // the 2026-09-14 expansion
     'Mount Rushmore', 'Devils Tower', 'Kilauea', 'Mount Adams', 'Fitz Roy', 'Torres del Paine', 'Cradle Mountain', 'Mount Aspiring', 'Popocatepetl', 'Arenal', 'Monch', 'Nanda Devi', 'Rakaposhi', 'Sakurajima', 'Mount Kailash', 'Tryfan', 'Croagh Patrick', 'Nyiragongo', 'Hekla', 'Eyjafjallajokull', 'Mount Meru'],

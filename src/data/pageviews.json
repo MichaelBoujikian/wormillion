@@ -1,8 +1,8 @@
 {
- "window": "60 days ending 2026-09-15",
+ "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-15T16:34:03.759Z",
+ "fetched": "2026-09-16T01:48:34.104Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -41513,6 +41513,468 @@
    "days": 60,
    "lat": -18.25945529,
    "lon": 178.1530899
+  },
+  "river-cano-cristales": {
+   "title": "Caño Cristales",
+   "monthlyViews": 2283,
+   "days": 59,
+   "lat": 2.26416667,
+   "lon": -73.79444444
+  },
+  "river-catatumbo": {
+   "title": "Catatumbo River",
+   "monthlyViews": 578,
+   "days": 59,
+   "lat": 9.34417,
+   "lon": -71.7106
+  },
+  "river-bogota": {
+   "title": "Bogotá River",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 5.22202778,
+   "lon": -73.53430556
+  },
+  "river-sinu": {
+   "title": "Sinú River",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-medellin": {
+   "title": "Medellín River",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 6.09,
+   "lon": -75.63805556
+  },
+  "river-suarez": {
+   "title": "Suárez River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 5.48663889,
+   "lon": -73.76883333
+  },
+  "river-ariari": {
+   "title": "Ariari River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 2.5787,
+   "lon": -72.7692
+  },
+  "river-atabapo": {
+   "title": "Atabapo River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 4.04111,
+   "lon": -67.70306
+  },
+  "river-cesar": {
+   "title": "Cesar River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-chicamocha": {
+   "title": "Chicamocha River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-guaitara": {
+   "title": "Guáitara River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 1.58777778,
+   "lon": -77.44638889
+  },
+  "river-otun": {
+   "title": "Otún River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-pance": {
+   "title": "Pance River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-rancheria": {
+   "title": "Ranchería River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-jorge": {
+   "title": "San Jorge River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-taraira": {
+   "title": "Taraíra River",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": -1.0689,
+   "lon": -69.4331
+  },
+  "river-zulia": {
+   "title": "Zulia River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 9.056456,
+   "lon": -72.295582
+  },
+  "river-anchicaya": {
+   "title": "Anchicayá River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 3.53333333,
+   "lon": -76.8675
+  },
+  "river-baudo": {
+   "title": "Baudó River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 4.96759,
+   "lon": -77.333961
+  },
+  "river-vita": {
+   "title": "Vita River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-caguan": {
+   "title": "Caguán River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": -0.135161,
+   "lon": -74.28877
+  },
+  "river-cahuinari": {
+   "title": "Cahuinari River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": -1.2292,
+   "lon": -72.1758
+  },
+  "river-cali": {
+   "title": "Cali River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 3.50596,
+   "lon": -76.49169
+  },
+  "river-capanaparo": {
+   "title": "Capanaparo River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 7.0297,
+   "lon": -67.1056
+  },
+  "river-cinaruco": {
+   "title": "Cinaruco River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 6.7728,
+   "lon": -67.0517
+  },
+  "river-dagua": {
+   "title": "Dagua River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 3.861382,
+   "lon": -77.065176
+  },
+  "river-guatapuri": {
+   "title": "Guatapurí River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-guatiquia": {
+   "title": "Guatiquía River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-igara-parana": {
+   "title": "Igara Paraná River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -2.17027778,
+   "lon": -71.77611111
+  },
+  "river-la-miel": {
+   "title": "La Miel River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 5.77027778,
+   "lon": -74.67194444
+  },
+  "river-la-vieja": {
+   "title": "La Vieja River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 4.80694444,
+   "lon": -75.93555556
+  },
+  "river-lebrija": {
+   "title": "Lebrija River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 7.09975,
+   "lon": -73.01530556
+  },
+  "river-mendihuaca": {
+   "title": "Mendihuaca River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 11.275,
+   "lon": -73.85888889
+  },
+  "river-naya": {
+   "title": "Naya River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 3.308349,
+   "lon": -77.486502
+  },
+  "river-nechi": {
+   "title": "Nechí River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 7.4125,
+   "lon": -74.9263
+  },
+  "river-orteguaza": {
+   "title": "Orteguaza River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 0.7269,
+   "lon": -75.265
+  },
+  "river-pamplonita": {
+   "title": "Pamplonita River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 8.32972222,
+   "lon": -72.4425
+  },
+  "river-quindio": {
+   "title": "Quindío River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 4.393803,
+   "lon": -75.798246
+  },
+  "river-saldana": {
+   "title": "Saldaña River",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-miguel": {
+   "title": "San Miguel River (Colombia)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 0.11805556,
+   "lon": -75.86722222
+  },
+  "river-soacha": {
+   "title": "Soacha River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 4.53675,
+   "lon": -74.17313889
+  },
+  "river-sogamoso": {
+   "title": "Sogamoso River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 7.206,
+   "lon": -73.9215
+  },
+  "river-sumapaz": {
+   "title": "Sumapaz River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 4.28083333,
+   "lon": -74.20705556
+  },
+  "river-teusaca": {
+   "title": "Teusacá River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 4.56313889,
+   "lon": -74.02869444
+  },
+  "river-tiquie": {
+   "title": "Tiquié River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 0.09328056,
+   "lon": -68.53891944
+  },
+  "river-tomo": {
+   "title": "Tomo River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 5.3453,
+   "lon": -67.8186
+  },
+  "river-torbes": {
+   "title": "Torbes River",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": null,
+   "lon": null
+  },
+  "river-tunjuelo": {
+   "title": "Tunjuelo River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 4.6291,
+   "lon": -74.2225
+  },
+  "river-tachira": {
+   "title": "Táchira River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-uribante": {
+   "title": "Uribante River",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 7.580709,
+   "lon": -72.091935
+  },
+  "river-ubate": {
+   "title": "Ubaté River",
+   "monthlyViews": 23,
+   "days": 56,
+   "lat": 5.17336111,
+   "lon": -73.89347222
+  },
+  "river-cotuhe": {
+   "title": "Cotuhé River",
+   "monthlyViews": 22,
+   "days": 50,
+   "lat": -2.8945,
+   "lon": -69.7342
+  },
+  "river-coello": {
+   "title": "Coello River",
+   "monthlyViews": 21,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-cara-parana": {
+   "title": "Cara Paraná River",
+   "monthlyViews": 19,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-guamues": {
+   "title": "Guamués River",
+   "monthlyViews": 19,
+   "days": 49,
+   "lat": -3.08,
+   "lon": -67.58
+  },
+  "river-ajaju": {
+   "title": "Ajajú River",
+   "monthlyViews": 16,
+   "days": 52,
+   "lat": 1.18472222,
+   "lon": -72.72694444
+  },
+  "river-cuja": {
+   "title": "Cuja River",
+   "monthlyViews": 15,
+   "days": 57,
+   "lat": 4.19263889,
+   "lon": -74.27575
+  },
+  "river-sardinata": {
+   "title": "Sardinata River",
+   "monthlyViews": 15,
+   "days": 56,
+   "lat": 9.0615,
+   "lon": -72.4634
+  },
+  "river-cusiana": {
+   "title": "Cusiana River",
+   "monthlyViews": 13,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-atacuari": {
+   "title": "Atacuari River",
+   "monthlyViews": 12,
+   "days": 44,
+   "lat": -3.8277,
+   "lon": -70.6067
+  },
+  "river-miritiparana": {
+   "title": "Miritiparaná River",
+   "monthlyViews": 12,
+   "days": 48,
+   "lat": null,
+   "lon": null
+  },
+  "river-quebrada-limas": {
+   "title": "Quebrada Limas",
+   "monthlyViews": 12,
+   "days": 47,
+   "lat": 4.57386,
+   "lon": -74.14775
+  },
+  "river-bodoquero": {
+   "title": "Bodoquero River",
+   "monthlyViews": 11,
+   "days": 48,
+   "lat": null,
+   "lon": null
+  },
+  "river-ceibas": {
+   "title": "Ceibas River",
+   "monthlyViews": 11,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-aquio": {
+   "title": "Aquio River",
+   "monthlyViews": 9,
+   "days": 49,
+   "lat": 2.70221,
+   "lon": -67.56727
+  },
+  "river-mecaya": {
+   "title": "Mecaya River",
+   "monthlyViews": 7,
+   "days": 43,
+   "lat": null,
+   "lon": null
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

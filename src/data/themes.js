@@ -190,7 +190,22 @@ globalThis.WORMILLION_THEMES = {
       'Santa Cruz', 'Gallegos', 'Chico', 'Rio de la Plata',
       'Lujan', 'Reconquista', 'Matanza-Riachuelo', 'Santa Lucia', 'Yi',
       'Tacuarembo', 'Cebollati', 'Queguay', 'Quarai', 'Arapey',
-      'Dayman'
+      'Dayman',
+      // 2026-09-14 expansion
+      'Cano Cristales', 'Catatumbo', 'Bogota', 'Sinu', 'Medellin',
+      'Suarez', 'Ariari', 'Atabapo', 'Cesar', 'Chicamocha',
+      'Guaitara', 'Otun', 'Pance', 'Rancheria', 'San Jorge',
+      'Taraira', 'Zulia', 'Anchicaya', 'Baudo', 'Vita',
+      'Caguan', 'Cahuinari', 'Cali', 'Capanaparo', 'Cinaruco',
+      'Dagua', 'Guatapuri', 'Guatiquia', 'Igara Parana', 'La Miel',
+      'La Vieja', 'Lebrija', 'Mendihuaca', 'Naya', 'Nechi',
+      'Orteguaza', 'Pamplonita', 'Quindio', 'Saldana', 'San Miguel',
+      'Soacha', 'Sogamoso', 'Sumapaz', 'Teusaca', 'Tiquie',
+      'Tomo', 'Torbes', 'Tunjuelo', 'Tachira', 'Uribante',
+      'Ubate', 'Cotuhe', 'Coello', 'Cara Parana', 'Guamues',
+      'Ajaju', 'Cuja', 'Sardinata', 'Cusiana', 'Atacuari',
+      'Miritiparana', 'Quebrada Limas', 'Bodoquero', 'Ceibas', 'Aquio',
+      'Mecaya'
     ],
     'Africa': [
       'Nile', 'Congo River', 'Niger River', 'Zambezi', 'Orange River', 'Ubangi',
