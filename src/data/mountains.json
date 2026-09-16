@@ -1031,7 +1031,9 @@
   "category": "mountain",
   "name": "Mount Kosciuszko",
   "aliases": [
-   "Kosciuszko"
+   "Kosciuszko",
+   "Kosciusko",
+   "Mount Kosciusko"
   ],
   "size": 2228,
   "sizeUnit": "elevation_m",
@@ -26600,20 +26602,6 @@
   "wikiTitle": "Mount Healy",
   "lat": 63.77305556,
   "lon": -149.00888889
- },
- {
-  "id": "mountain-mount-hector",
-  "category": "mountain",
-  "name": "Mount Hector",
-  "aliases": [],
-  "size": 3394,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Hector (Alberta)\", 60-day daily median (60 days ending 2026-09-16); Standard reference summit elevations (m)",
-  "magnitude": 122,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Hector (Alberta)",
-  "lat": 51.575,
-  "lon": -116.25944444
  },
  {
   "id": "mountain-mount-jarvis",

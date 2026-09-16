@@ -925,6 +925,7 @@ globalThis.WORMILLION_THEMES = {
 
   island: {
     'the Caribbean': [
+      'Navassa Island', // 2026-09-16 US islands fill (audit)
       'Cuba', 'Hispaniola', 'Jamaica', 'Puerto Rico', 'Trinidad',
       'Barbados', 'Aruba', 'Curacao', 'Bonaire', 'Grand Cayman',
       'Martinique', 'Guadeloupe', 'Saint Martin', 'Anguilla', 'Montserrat',
@@ -989,6 +990,8 @@ globalThis.WORMILLION_THEMES = {
       'Gavdos', 'Spinalonga'
     ],
     'Hawaii': ['Big Island of Hawaii', 'Maui', 'Oahu', 'Kauai', 'Molokai', 'Lanai', 'Niihau',
+      // 2026-09-16 US islands fill (audit)
+      'Necker Island', 'Lisianski Island', 'Tern Island', 'Kaula', 'Lehua', 'Mokolii', 'French Frigate Shoals', 'Gardner Pinnacles', 'Maro Reef',
       // 2026-09-14 expansion
       'Kahoolawe', 'Molokini', 'Ford Island', 'Laysan', 'Hawaiian Islands',
       'Kure Atoll', 'Nihoa'],
@@ -1179,7 +1182,7 @@ globalThis.WORMILLION_THEMES = {
       'Sevier Desert', 'Owyhee Desert', 'Baja California Desert', 'Smoke Creek Desert', 'Anza-Borrego Desert',
       'Puna de Atacama',
       // 2026-09-14 expansion
-      'Bonneville Salt Flats', 'Carson Desert'
+      'Bonneville Salt Flats'
     ]
   },
 
@@ -1239,8 +1242,8 @@ globalThis.WORMILLION_THEMES = {
       'Delaware Bay', 'Tampa Bay', 'Strait of Georgia', 'Hudson Strait', 'James Bay',
       'Gulf of Honduras', 'Gulf of Panama', 'Gulf of Guayaquil', 'Beagle Channel', 'Guanabara Bay',
       // 2026-09-14 expansion
-      'Biscayne Bay', 'Gulf of Maine', 'Neah Bay', 'Cape Cod Bay', 'Matagorda Bay',
-      'Birch Bay', 'San Antonio Bay', 'Aransas Bay'
+      'Biscayne Bay', 'Gulf of Maine', 'Cape Cod Bay', 'Matagorda Bay',
+      'San Antonio Bay', 'Aransas Bay'
     ],
     'the Antarctic': [
       'Weddell Sea', 'Ross Sea', 'Amundsen Sea', 'Bellingshausen Sea',

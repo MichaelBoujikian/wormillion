@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T15:46:00.678Z",
+ "fetched": "2026-09-16T16:53:14.204Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -66119,13 +66119,6 @@
    "lat": 63.77305556,
    "lon": -149.00888889
   },
-  "mountain-mount-hector": {
-   "title": "Mount Hector (Alberta)",
-   "monthlyViews": 122,
-   "days": 60,
-   "lat": 51.575,
-   "lon": -116.25944444
-  },
   "mountain-mount-jarvis": {
    "title": "Mount Jarvis",
    "monthlyViews": 122,
@@ -67861,13 +67854,6 @@
    "days": 60,
    "lat": 40.8,
    "lon": -113.8
-  },
-  "desert-carson-desert": {
-   "title": "Carson Desert",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 39.98,
-   "lon": -118.841
   },
   "island-greenland": {
    "title": "Greenland",
@@ -74401,11 +74387,11 @@
    "lon": -80.845
   },
   "island-st-simons-island": {
-   "title": "Little St. Simons Island",
-   "monthlyViews": 335,
+   "title": "St. Simons, Georgia",
+   "monthlyViews": 4840,
    "days": 60,
-   "lat": 31.29911769,
-   "lon": -81.32842961
+   "lat": 31.15972222,
+   "lon": -81.38861111
   },
   "island-jekyll-island": {
    "title": "Jekyll Island",
@@ -74492,11 +74478,11 @@
    "lon": -97.189
   },
   "island-dauphin-island": {
-   "title": "Dauphin Island Bridge",
-   "monthlyViews": 396,
+   "title": "Dauphin Island, Alabama",
+   "monthlyViews": 4840,
    "days": 60,
-   "lat": 30.2921,
-   "lon": -88.13
+   "lat": 30.25638889,
+   "lon": -88.21138889
   },
   "island-avery-island": {
    "title": "Avery Island (Louisiana)",
@@ -77291,13 +77277,6 @@
    "lat": 40.79111111,
    "lon": -73.88277778
   },
-  "island-diomede-islands": {
-   "title": "Diomede Islands",
-   "monthlyViews": 10806,
-   "days": 60,
-   "lat": 65.78333333,
-   "lon": -169.01666667
-  },
   "island-navassa-island": {
    "title": "Navassa Island",
    "monthlyViews": 9528,
@@ -77319,7 +77298,7 @@
    "lat": 41.18305556,
    "lon": -72.19027778
   },
-  "island-city-island-bronx": {
+  "island-city-island": {
    "title": "City Island, Bronx",
    "monthlyViews": 6788,
    "days": 60,
@@ -77347,7 +77326,7 @@
    "lat": 41.09666667,
    "lon": -72.10416667
   },
-  "island-randalls-and-wards-islands": {
+  "island-randalls-island": {
    "title": "Randalls and Wards Islands",
    "monthlyViews": 4931,
    "days": 60,
@@ -77360,13 +77339,6 @@
    "days": 60,
    "lat": 34.27,
    "lon": -77.75
-  },
-  "island-commander-islands": {
-   "title": "Commander Islands",
-   "monthlyViews": 3744,
-   "days": 60,
-   "lat": 55,
-   "lon": 166.4
   },
   "island-french-frigate-shoals": {
    "title": "French Frigate Shoals",
@@ -77613,7 +77585,7 @@
    "lat": 47.24694444,
    "lon": -122.62555556
   },
-  "island-ka-ula": {
+  "island-kaula": {
    "title": "Kaʻula",
    "monthlyViews": 1370,
    "days": 60,
@@ -77676,7 +77648,7 @@
    "lat": 37.85,
    "lon": -75.46666667
   },
-  "island-mokoli-i": {
+  "island-mokolii": {
    "title": "Mokoliʻi",
    "monthlyViews": 1157,
    "days": 60,
@@ -77885,13 +77857,6 @@
    "days": 50,
    "lat": 25.415,
    "lon": -170.59
-  },
-  "island-medny-island": {
-   "title": "Medny Island",
-   "monthlyViews": 670,
-   "days": 60,
-   "lat": 54.70653333,
-   "lon": 167.71728611
   },
   "island-blake-island": {
    "title": "Blake Island",
@@ -78411,7 +78376,7 @@
    "lat": 54.18833333,
    "lon": -165.52861111
   },
-  "island-aunu-u-american-samoa": {
+  "island-aunuu": {
    "title": "Aunuʻu, American Samoa",
    "monthlyViews": 183,
    "days": 60,
@@ -78543,13 +78508,6 @@
    "days": 60,
    "lat": 33.85722222,
    "lon": -78.53861111
-  },
-  "island-campbell-s-island-illinois": {
-   "title": "Campbell's Island, Illinois",
-   "monthlyViews": 122,
-   "days": 60,
-   "lat": 41.54055556,
-   "lon": -90.43
   },
   "island-delarof-islands": {
    "title": "Delarof Islands",
@@ -81295,13 +81253,6 @@
    "lat": 43,
    "lon": -68
   },
-  "sea_ocean-neah-bay": {
-   "title": "Neah Bay, Washington",
-   "monthlyViews": 2344,
-   "days": 60,
-   "lat": 48.36555556,
-   "lon": -124.62222222
-  },
   "sea_ocean-cape-cod-bay": {
    "title": "Cape Cod Bay",
    "monthlyViews": 1583,
@@ -81315,13 +81266,6 @@
    "days": 60,
    "lat": 28.56555556,
    "lon": -96.21
-  },
-  "sea_ocean-birch-bay": {
-   "title": "Birch Bay, Washington",
-   "monthlyViews": 731,
-   "days": 60,
-   "lat": 48.91555556,
-   "lon": -122.74722222
   },
   "sea_ocean-san-antonio-bay": {
    "title": "San Antonio Bay",

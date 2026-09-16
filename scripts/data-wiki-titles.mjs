@@ -2569,7 +2569,7 @@ export const WIKI_TITLES = {
   "island-hilton-head-island": "Hilton Head Island, South Carolina",
   "island-kiawah-island": "Kiawah Island, South Carolina",
   "island-tybee-island": "Tybee Island, Georgia",
-  "island-st-simons-island": "Little St. Simons Island",
+  "island-st-simons-island": "St. Simons, Georgia",
   "island-jekyll-island": "Jekyll Island, Georgia",
   "island-key-largo": "Key Largo",
   "island-key-biscayne": "Key Biscayne",
@@ -2577,7 +2577,7 @@ export const WIKI_TITLES = {
   "island-sanibel": "Sanibel, Florida",
   "island-captiva": "North Captiva Island",
   "island-south-padre-island": "South Padre Island",
-  "island-dauphin-island": "Dauphin Island Bridge",
+  "island-dauphin-island": "Dauphin Island, Alabama",
   "island-kelleys-island": "Kelleys Island, Ohio",
   "island-beaver-island": "Beaver Island (Michigan)",
   "island-belle-isle": "Belle Isle (Michigan)",
@@ -5029,7 +5029,6 @@ export const WIKI_TITLES = {
   "mountain-konahuanui": "Kōnāhuanui",
   "mountain-luna-peak": "Luna Peak (Washington)",
   "mountain-mount-franklin": "Mount Franklin (New Hampshire)",
-  "mountain-mount-hector": "Mount Hector (Alberta)",
   "mountain-mount-marshall": "Mount Marshall (New York)",
   "mountain-mount-misery": "Mount Misery (Lincoln, Massachusetts)",
   "mountain-mount-morgan": "Mount Morgan (Inyo County, California)",
@@ -5150,9 +5149,13 @@ export const WIKI_TITLES = {
   "island-mcdonald-island": "McDonald Island (California)",
   "island-venice-island": "Venice Island (California)",
 
-  // --- sea_ocean (2026-09-14 expansion) ---
-  "sea_ocean-neah-bay": "Neah Bay, Washington",
-  "sea_ocean-birch-bay": "Birch Bay, Washington"
+  // --- sea_ocean (2026-09-14 expansion) ---,
+  // --- 2026-09-16 islands audit: rows renamed to what people type; the articles keep their titles ---
+  "island-city-island": "City Island, Bronx",
+  "island-aunuu": "Aunuʻu, American Samoa",
+  "island-kaula": "Kaʻula",
+  "island-mokolii": "Mokoliʻi",
+  "island-randalls-island": "Randalls and Wards Islands"
 };
 
 /**
@@ -5592,8 +5595,9 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-16 US seas: an estuary, a lagoon and two bays whose article is the CDP on them ---
   "sea_ocean-san-francisco-bay",
   "sea_ocean-biscayne-bay",
-  "sea_ocean-neah-bay",
-  "sea_ocean-birch-bay",
   // --- 2026-09-16 US deserts: a salt pan is a desert answer, like the Rann of Kutch ---
-  "desert-bonneville-salt-flats"
+  "desert-bonneville-salt-flats",
+  // --- 2026-09-16 islands audit: the island articles are the town / place articles ---
+  "island-st-simons-island",
+  "island-dauphin-island"
 ]);

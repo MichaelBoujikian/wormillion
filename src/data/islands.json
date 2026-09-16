@@ -15888,9 +15888,7 @@
   "wikiTitle": "Manitoulin Island",
   "lat": 45.76666667,
   "lon": -82.2,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-anticosti",
@@ -16064,9 +16062,7 @@
   "wikiTitle": "Toronto Islands",
   "lat": 43.62083333,
   "lon": -79.37861111,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-pelee-island",
@@ -16081,9 +16077,7 @@
   "wikiTitle": "Pelee, Ontario",
   "lat": 41.775,
   "lon": -82.65972222,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-wolfe-island",
@@ -16098,9 +16092,7 @@
   "wikiTitle": "Wolfe Island",
   "lat": 44.16666667,
   "lon": -76.36666667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-thousand-islands",
@@ -16425,12 +16417,12 @@
   ],
   "size": 46.7,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Little St. Simons Island\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
-  "magnitude": 335,
+  "source": "English Wikipedia pageviews for \"St. Simons, Georgia\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
+  "magnitude": 4840,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Little St. Simons Island",
-  "lat": 31.29911769,
-  "lon": -81.32842961,
+  "wikiTitle": "St. Simons, Georgia",
+  "lat": 31.15972222,
+  "lon": -81.38861111,
   "oceans": [
    "Atlantic"
   ]
@@ -16648,14 +16640,14 @@
   "category": "island",
   "name": "Dauphin Island",
   "aliases": [],
-  "size": 26,
+  "size": 16,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Dauphin Island Bridge\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
-  "magnitude": 396,
+  "source": "English Wikipedia pageviews for \"Dauphin Island, Alabama\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
+  "magnitude": 4840,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Dauphin Island Bridge",
-  "lat": 30.2921,
-  "lon": -88.13,
+  "wikiTitle": "Dauphin Island, Alabama",
+  "lat": 30.25638889,
+  "lon": -88.21138889,
   "oceans": [
    "Atlantic"
   ]
@@ -16690,9 +16682,7 @@
   "wikiTitle": "Kelleys Island, Ohio",
   "lat": 41.60333333,
   "lon": -82.70277778,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-south-bass-island",
@@ -16724,9 +16714,7 @@
   "wikiTitle": "Beaver Island (Lake Michigan)",
   "lat": 45.66666667,
   "lon": -85.53333333,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-madeline-island",
@@ -16741,9 +16729,7 @@
   "wikiTitle": "Madeline Island",
   "lat": 46.81638889,
   "lon": -90.68916667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-apostle-islands",
@@ -16777,9 +16763,7 @@
   "wikiTitle": "Belle Isle Park",
   "lat": 42.34027778,
   "lon": -82.98666667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-angel-island",
@@ -16985,9 +16969,7 @@
   "wikiTitle": "Mercer Island, Washington",
   "lat": 47.57333333,
   "lon": -122.23861111,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-unalaska",
@@ -23701,23 +23683,6 @@
   ]
  },
  {
-  "id": "island-diomede-islands",
-  "category": "island",
-  "name": "Diomede Islands",
-  "aliases": [],
-  "size": 37,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Diomede Islands\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
-  "magnitude": 10806,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Diomede Islands",
-  "lat": 65.78333333,
-  "lon": -169.01666667,
-  "oceans": [
-   "Pacific"
-  ]
- },
- {
   "id": "island-navassa-island",
   "category": "island",
   "name": "Navassa Island",
@@ -23769,9 +23734,9 @@
   ]
  },
  {
-  "id": "island-city-island-bronx",
+  "id": "island-city-island",
   "category": "island",
-  "name": "City Island, Bronx",
+  "name": "City Island",
   "aliases": [],
   "size": 1.02,
   "sizeUnit": "area_km2",
@@ -23837,10 +23802,13 @@
   ]
  },
  {
-  "id": "island-randalls-and-wards-islands",
+  "id": "island-randalls-island",
   "category": "island",
-  "name": "Randalls and Wards Islands",
-  "aliases": [],
+  "name": "Randalls Island",
+  "aliases": [
+   "Wards Island",
+   "Randalls and Wards Islands"
+  ],
   "size": 2.09,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Randalls and Wards Islands\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
@@ -23868,23 +23836,6 @@
   "lon": -77.75,
   "oceans": [
    "Atlantic"
-  ]
- },
- {
-  "id": "island-commander-islands",
-  "category": "island",
-  "name": "Commander Islands",
-  "aliases": [],
-  "size": 1846,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Commander Islands\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
-  "magnitude": 3744,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Commander Islands",
-  "lat": 55,
-  "lon": 166.4,
-  "oceans": [
-   "Pacific"
   ]
  },
  {
@@ -23951,9 +23902,7 @@
   "wikiTitle": "Zug Island",
   "lat": 42.28277778,
   "lon": -83.11138889,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-elizabeth-islands",
@@ -23985,9 +23934,7 @@
   "wikiTitle": "Bois Blanc Island (Michigan)",
   "lat": 45.775,
   "lon": -84.47888889,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-pollepel-island",
@@ -24119,9 +24066,7 @@
   "wikiTitle": "Grand Island, New York",
   "lat": 43.01194444,
   "lon": -78.95916667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-antelope-island",
@@ -24136,9 +24081,7 @@
   "wikiTitle": "Antelope Island",
   "lat": 40.95833333,
   "lon": -112.21388889,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-washington-island",
@@ -24153,9 +24096,7 @@
   "wikiTitle": "Washington Island (Wisconsin)",
   "lat": 45.376991,
   "lon": -86.896362,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-morris-island",
@@ -24423,9 +24364,7 @@
   "wikiTitle": "Sauvie Island",
   "lat": 45.7,
   "lon": -122.8,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-semisopochnoi-island",
@@ -24479,10 +24418,12 @@
   ]
  },
  {
-  "id": "island-ka-ula",
+  "id": "island-kaula",
   "category": "island",
-  "name": "Kaʻula",
-  "aliases": [],
+  "name": "Kaula",
+  "aliases": [
+   "Ka'ula"
+  ],
   "size": 0.64,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Kaʻula\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
@@ -24574,9 +24515,7 @@
   "wikiTitle": "Fannette Island",
   "lat": 38.9540745,
   "lon": -120.1004631,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-lehua",
@@ -24630,10 +24569,12 @@
   ]
  },
  {
-  "id": "island-mokoli-i",
+  "id": "island-mokolii",
   "category": "island",
-  "name": "Mokoliʻi",
-  "aliases": [],
+  "name": "Mokolii",
+  "aliases": [
+   "Chinaman's Hat"
+  ],
   "size": 0.05,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Mokoliʻi\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
@@ -24659,9 +24600,7 @@
   "wikiTitle": "Sugar Island (Michigan)",
   "lat": 46.43333333,
   "lon": -84.21666667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-fidalgo-island",
@@ -24761,9 +24700,7 @@
   "wikiTitle": "North Manitou Island",
   "lat": 45.11944444,
   "lon": -86.01694444,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-agrihan",
@@ -24927,9 +24864,7 @@
   "wikiTitle": "Fremont Island",
   "lat": 41.16555556,
   "lon": -112.33972222,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-cypress-island",
@@ -24961,9 +24896,7 @@
   "wikiTitle": "Round Island (Michigan)",
   "lat": 45.82972222,
   "lon": -84.60138889,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-wadmalaw-island",
@@ -24995,9 +24928,7 @@
   "wikiTitle": "Wild Horse Island",
   "lat": 47.84527778,
   "lon": -114.215,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-grosse-ile",
@@ -25012,9 +24943,7 @@
   "wikiTitle": "Grosse Ile (Michigan)",
   "lat": 42.13,
   "lon": -83.16027778,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-king-island",
@@ -25104,7 +25033,7 @@
   "category": "island",
   "name": "Last Island",
   "aliases": [],
-  "size": 108.78,
+  "size": 9.39,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Last Island (Louisiana)\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
   "magnitude": 670,
@@ -25129,23 +25058,6 @@
   "wikiTitle": "Maro Reef",
   "lat": 25.415,
   "lon": -170.59,
-  "oceans": [
-   "Pacific"
-  ]
- },
- {
-  "id": "island-medny-island",
-  "category": "island",
-  "name": "Medny Island",
-  "aliases": [],
-  "size": 186,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Medny Island\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
-  "magnitude": 670,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Medny Island",
-  "lat": 54.70653333,
-  "lon": 167.71728611,
   "oceans": [
    "Pacific"
   ]
@@ -25261,9 +25173,7 @@
   "wikiTitle": "South Manitou Island",
   "lat": 45.02777778,
   "lon": -86.11944444,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-chambers-island",
@@ -25278,9 +25188,7 @@
   "wikiTitle": "Chambers Island",
   "lat": 45.18222222,
   "lon": -87.35527778,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-great-sitkin-island",
@@ -25312,9 +25220,7 @@
   "wikiTitle": "Middle Bass Island",
   "lat": 41.67916667,
   "lon": -82.81111111,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-neebish-island",
@@ -25329,9 +25235,7 @@
   "wikiTitle": "Neebish Island",
   "lat": 46.27077778,
   "lon": -84.15458333,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-wrangell-island",
@@ -25465,9 +25369,7 @@
   "wikiTitle": "Valcour Island",
   "lat": 44.62166667,
   "lon": -73.41722222,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-folly-island",
@@ -25548,9 +25450,7 @@
   "wikiTitle": "Carleton Island",
   "lat": 44.17861111,
   "lon": -76.28805556,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-garden-island",
@@ -25565,9 +25465,7 @@
   "wikiTitle": "Garden Island (Michigan)",
   "lat": 45.8,
   "lon": -85.48333333,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-isle-of-hope",
@@ -25784,9 +25682,7 @@
   "wikiTitle": "High Island (Michigan)",
   "lat": 45.725,
   "lon": -85.68333333,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-kupreanof-island",
@@ -25835,9 +25731,7 @@
   "wikiTitle": "Paoha Island",
   "lat": 38.0002,
   "lon": -119.0157,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-raspberry-island",
@@ -25969,9 +25863,7 @@
   "wikiTitle": "Puget Island, Washington",
   "lat": 46.17055556,
   "lon": -123.37638889,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-barnum-island",
@@ -26054,9 +25946,7 @@
   "wikiTitle": "Hog Island (Michigan)",
   "lat": 45.79166667,
   "lon": -85.36611111,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-aguiguan",
@@ -26103,9 +25993,7 @@
   "wikiTitle": "Galloo Island",
   "lat": 43.905617,
   "lon": -76.4163294,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-pasque-island",
@@ -26205,9 +26093,7 @@
   "wikiTitle": "Marquette Island",
   "lat": 45.96027778,
   "lon": -84.39361111,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-nelson-island",
@@ -26239,9 +26125,7 @@
   "wikiTitle": "Sherman Island (California)",
   "lat": 38.0593642,
   "lon": -121.7332878,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-capers-island",
@@ -26301,9 +26185,7 @@
   "wikiTitle": "Grenadier Island, New York",
   "lat": 44.043,
   "lon": -76.364,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-hall-island",
@@ -26391,10 +26273,12 @@
   ]
  },
  {
-  "id": "island-aunu-u-american-samoa",
+  "id": "island-aunuu",
   "category": "island",
-  "name": "Aunuʻu, American Samoa",
-  "aliases": [],
+  "name": "Aunuu",
+  "aliases": [
+   "Aunu'u"
+  ],
   "size": 1.52,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Aunuʻu, American Samoa\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
@@ -26520,9 +26404,7 @@
   "wikiTitle": "Selden Island",
   "lat": 39.07527778,
   "lon": -77.45277778,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-sinclair-island",
@@ -26708,23 +26590,6 @@
   ]
  },
  {
-  "id": "island-campbell-s-island-illinois",
-  "category": "island",
-  "name": "Campbell's Island, Illinois",
-  "aliases": [],
-  "size": 1.91,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Campbell's Island, Illinois\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
-  "magnitude": 122,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Campbell's Island, Illinois",
-  "lat": 41.54055556,
-  "lon": -90.43,
-  "oceans": [
-   "Atlantic"
-  ]
- },
- {
   "id": "island-delarof-islands",
   "category": "island",
   "name": "Delarof Islands",
@@ -26754,9 +26619,7 @@
   "wikiTitle": "Diamond Island (Kentucky)",
   "lat": 37.88333333,
   "lon": -87.75222222,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-duck-key",
@@ -26890,9 +26753,7 @@
   "wikiTitle": "Amygdaloid Island",
   "lat": 48.15111111,
   "lon": -88.62055556,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-carrington-island",
@@ -26907,9 +26768,7 @@
   "wikiTitle": "Carrington Island",
   "lat": 41.00692883,
   "lon": -112.571044,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-chuginadak-island",
@@ -27126,9 +26985,7 @@
   "wikiTitle": "Croil Island",
   "lat": 44.973,
   "lon": -74.979,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-deer-island",
@@ -27177,9 +27034,7 @@
   "wikiTitle": "Galop Island",
   "lat": 44.7653,
   "lon": -75.4005,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-grahams-island",
@@ -27194,9 +27049,7 @@
   "wikiTitle": "Grahams Island",
   "lat": 48.0538881,
   "lon": -99.0967958,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-greco-island",
@@ -27313,9 +27166,7 @@
   "wikiTitle": "Nine-Mile Island (Mississippi River)",
   "lat": 42.436,
   "lon": -90.575,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-ponce-de-leon-island",
@@ -27449,9 +27300,7 @@
   "wikiTitle": "Browns Island (Contra Costa County)",
   "lat": 38.03881,
   "lon": -121.86468,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-canyon-island",
@@ -27466,9 +27315,7 @@
   "wikiTitle": "Canyon Island",
   "lat": 58.54805556,
   "lon": -133.67555556,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-catherine-island",
@@ -27955,9 +27802,7 @@
   "wikiTitle": "Discovery Island (Bay Lake)",
   "lat": 28.41444444,
   "lon": -81.56694444,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-sullivan-s-island",
@@ -28106,9 +27951,7 @@
   "wikiTitle": "Goose Island (Chicago)",
   "lat": 41.90444444,
   "lon": -87.65416667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-ossabaw-island",
@@ -28242,9 +28085,7 @@
   "wikiTitle": "Frye Island, Maine",
   "lat": 43.83722222,
   "lon": -70.52416667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-spieden-island",
@@ -28268,7 +28109,7 @@
   "category": "island",
   "name": "Swan's Island",
   "aliases": [],
-  "size": 209.3,
+  "size": 32.14,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Swan's Island, Maine\", 60-day daily median (60 days ending 2026-09-16); Standard reference island areas (km2), rounded",
   "magnitude": 1065,
@@ -28293,9 +28134,7 @@
   "wikiTitle": "Green Island, New York",
   "lat": 42.74416667,
   "lon": -73.69138889,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-virginia-key",
@@ -28344,9 +28183,7 @@
   "wikiTitle": "Hayden Island, Portland, Oregon",
   "lat": 45.6119,
   "lon": -122.67606,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-indian-island",
@@ -28378,9 +28215,7 @@
   "wikiTitle": "Bethel Island",
   "lat": 38.03131,
   "lon": -121.640787,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-waldron-island",
@@ -28412,9 +28247,7 @@
   "wikiTitle": "North Bass Island",
   "lat": 41.71666667,
   "lon": -82.81666667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-dewees-island",
@@ -28446,9 +28279,7 @@
   "wikiTitle": "French Island, Wisconsin",
   "lat": 43.86333333,
   "lon": -91.26138889,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-mason-s-island",
@@ -28497,9 +28328,7 @@
   "wikiTitle": "Davis Island (Mississippi)",
   "lat": 32.16194444,
   "lon": -91.07444444,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-cousins-island",
@@ -28531,9 +28360,7 @@
   "wikiTitle": "Detroit Island",
   "lat": 45.321487,
   "lon": -86.916073,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-hawadax-island",
@@ -28616,9 +28443,7 @@
   "wikiTitle": "Anaho Island",
   "lat": 39.95138889,
   "lon": -119.51388889,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-big-coppitt-key",
@@ -28650,9 +28475,7 @@
   "wikiTitle": "Bradford Island",
   "lat": 38.07722222,
   "lon": -121.66333333,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-kreamer-island",
@@ -28667,9 +28490,7 @@
   "wikiTitle": "Kreamer Island",
   "lat": 26.75888889,
   "lon": -80.73166667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-lowes-island",
@@ -28684,9 +28505,7 @@
   "wikiTitle": "Lowes Island, Virginia",
   "lat": 39.05972222,
   "lon": -77.35222222,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-ryer-island",
@@ -28701,9 +28520,7 @@
   "wikiTitle": "Ryer Island",
   "lat": 38.24357,
   "lon": -121.63101,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-broomes-island",
@@ -28735,9 +28552,7 @@
   "wikiTitle": "Ritta Island, Florida",
   "lat": 26.72305556,
   "lon": -80.80611111,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-spesutie-island",
@@ -28786,9 +28601,7 @@
   "wikiTitle": "Lime Island",
   "lat": 46.0864075,
   "lon": -83.9988995,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-littlejohn-island",
@@ -28820,9 +28633,7 @@
   "wikiTitle": "McDonald Island (California)",
   "lat": 38.001311,
   "lon": -121.489951,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-snead-island",
@@ -28871,9 +28682,7 @@
   "wikiTitle": "Bouldin Island",
   "lat": 38.104,
   "lon": -121.5347,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-jones-tract",
@@ -28888,9 +28697,7 @@
   "wikiTitle": "Jones Tract",
   "lat": 37.937158,
   "lon": -121.486473,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-mandeville-island",
@@ -28905,9 +28712,7 @@
   "wikiTitle": "Mandeville Island",
   "lat": 38.03472222,
   "lon": -121.54888889,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-van-sickle-island",
@@ -28922,9 +28727,7 @@
   "wikiTitle": "Van Sickle Island",
   "lat": 38.06666667,
   "lon": -121.90111111,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-venice-island",
@@ -28939,9 +28742,7 @@
   "wikiTitle": "Venice Island (California)",
   "lat": 38.075,
   "lon": -121.53444444,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-quimby-island",
@@ -28956,9 +28757,7 @@
   "wikiTitle": "Quimby Island",
   "lat": 38.0251993,
   "lon": -121.5713413,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-twitchell-island",
@@ -28973,9 +28772,7 @@
   "wikiTitle": "Twitchell Island",
   "lat": 38.109641,
   "lon": -121.648565,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-woodward-island",
@@ -28990,9 +28787,7 @@
   "wikiTitle": "Woodward Island",
   "lat": 37.928258,
   "lon": -121.546062,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-hastings-tract",
@@ -29007,9 +28802,7 @@
   "wikiTitle": "Hastings Tract",
   "lat": 38.27194444,
   "lon": -121.72916667,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-atlas-tract",
@@ -29024,9 +28817,7 @@
   "wikiTitle": "Atlas Tract",
   "lat": 38.03583333,
   "lon": -121.38277778,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-moore-tract",
@@ -29041,8 +28832,6 @@
   "wikiTitle": "Moore Tract",
   "lat": 38.31666667,
   "lon": -121.71472222,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  }
 ]

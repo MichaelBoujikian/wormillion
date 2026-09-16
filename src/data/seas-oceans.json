@@ -4399,23 +4399,6 @@
   ]
  },
  {
-  "id": "sea_ocean-neah-bay",
-  "category": "sea_ocean",
-  "name": "Neah Bay",
-  "aliases": [],
-  "size": 6.08,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Neah Bay, Washington\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
-  "magnitude": 2344,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Neah Bay, Washington",
-  "lat": 48.36555556,
-  "lon": -124.62222222,
-  "oceans": [
-   "Pacific"
-  ]
- },
- {
   "id": "sea_ocean-cape-cod-bay",
   "category": "sea_ocean",
   "name": "Cape Cod Bay",
@@ -4447,23 +4430,6 @@
   "lon": -96.21,
   "oceans": [
    "Atlantic"
-  ]
- },
- {
-  "id": "sea_ocean-birch-bay",
-  "category": "sea_ocean",
-  "name": "Birch Bay",
-  "aliases": [],
-  "size": 41.59,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Birch Bay, Washington\", 60-day daily median (60 days ending 2026-09-16); Standard reference sea and ocean areas (km2), rounded",
-  "magnitude": 731,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Birch Bay, Washington",
-  "lat": 48.91555556,
-  "lon": -122.74722222,
-  "oceans": [
-   "Pacific"
   ]
  },
  {

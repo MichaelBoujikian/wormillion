@@ -4439,7 +4439,7 @@ Mount Taranaki|2518|Taranaki,Mount Egmont
 El Capitan|2308
 Mount Vitosha|2290|Vitosha
 Mount Sinai|2285|Sinai
-Mount Kosciuszko|2228|Kosciuszko
+Mount Kosciuszko|2228|Kosciuszko,Kosciusko,Mount Kosciusko
 Mount Mitchell|2037
 Mount Washington|1917
 Mont Ventoux|1909
@@ -6238,7 +6238,6 @@ Mount Einstein|3521
 Mount Franklin|1524
 Mount Griggs|2317
 Mount Healy|1742
-Mount Hector|3394
 Mount Jarvis|4091
 Mount Judah|2512
 Mount Lola|2788
@@ -6493,7 +6492,6 @@ Cabo de Gata|460
 Deliblato Sands|300|Deliblatska Pescara
 Rabjerg Mile|2
 Bonneville Salt Flats|104
-Carson Desert|5568
 `;
 
 export const ISLANDS = `
@@ -7443,7 +7441,7 @@ Captiva|2|Captiva Island
 Anna Maria Island|15
 Padre Island|182
 South Padre Island|21
-Dauphin Island|26
+Dauphin Island|16
 Avery Island|8
 Kelleys Island|11
 South Bass Island|4.5
@@ -7843,17 +7841,15 @@ Dolsan|63|Dolsan Island,Dolsando
 Odongdo|0.12
 Coney Island|4
 Rikers Island|1.67
-Diomede Islands|37
 Navassa Island|5.4
 Hart Island|0.53
 Plum Island|3.4
-City Island, Bronx|1.02
+City Island|1.02
 Ketron Island|0.88
 San Nicolas Island|58.92
 Gardiners Island|13.43
-Randalls and Wards Islands|2.09
+Randalls Island|2.09|Wards Island,Randalls and Wards Islands
 Figure Eight Island|5.26
-Commander Islands|1846
 French Frigate Shoals|0.25
 Cuttyhunk Island|2.35
 Machias Seal Island|0.08
@@ -7889,7 +7885,7 @@ Sauvie Island|84.82
 Semisopochnoi Island|221.59
 Tern Island|0.11
 Fox Island|16.55
-Kaʻula|0.64
+Kaula|0.64|Ka'ula
 Prudence Island|14.43
 Spectacle Island|0.46
 Annette Island|332.5
@@ -7898,7 +7894,7 @@ Fannette Island|0.01
 Lehua|1.03
 Nomans Land|2.48
 Wallops Island|15.5
-Mokoliʻi|0.05
+Mokolii|0.05|Chinaman's Hat
 Sugar Island|128.05
 Fidalgo Island|106.7
 Revillagigedo Island|2965
@@ -7926,9 +7922,8 @@ St. Catherines Island|90.1
 Dall Island|655
 Farallon de Pajaros|2.3
 Jamestown Island|6.32
-Last Island|108.78
+Last Island|9.39
 Maro Reef|1.94
-Medny Island|186
 Blake Island|4.56
 Harstine Island|48.3
 Pelican Island|16.58
@@ -8003,7 +7998,7 @@ Kruzof Island|433.7
 Nonamesset Island|1.4
 Whitemarsh Island|17.24
 Akun Island|167
-Aunuʻu, American Samoa|1.52
+Aunuu|1.52|Aunu'u
 Etolin Island|870
 Hinchinbrook Island|445.4
 Louds Island|38.8
@@ -8022,7 +8017,6 @@ Pleasant Island|49
 Semichi Islands|26
 Amak Island|15
 Bird Island|1.68
-Campbell's Island, Illinois|1.91
 Delarof Islands|165.35
 Diamond Island|1.29
 Duck Key|1.68
@@ -8114,7 +8108,7 @@ Hoffman Island|0.04
 Chebeague Island|63.61
 Frye Island|4.14
 Spieden Island|2.09
-Swan's Island|209.3
+Swan's Island|32.14
 Green Island|2.42
 Virginia Key|3.5
 Harkers Island|9.97
@@ -8418,10 +8412,8 @@ Riiser-Larsen Sea|1138000
 Somov Sea|1150000
 Biscayne Bay|1108.52
 Gulf of Maine|93000
-Neah Bay|6.08
 Cape Cod Bay|1564.35
 Matagorda Bay|989.4
-Birch Bay|41.59
 San Antonio Bay|580
 Aransas Bay|452.4
 `;
