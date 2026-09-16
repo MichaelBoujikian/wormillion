@@ -1,0 +1,29 @@
+{
+  "name": "us-rivers",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": ["Category:Rivers of the United States by state"],
+  "subcat": "^Category:Rivers of (?!the United States)(?!.*( by |County,|Parish,|Borough,|Census Area,|metropolitan))",
+  "lists": [
+    "List of rivers of the United States",
+    "List of longest rivers of the United States (by main stem)",
+    "List of rivers of Alabama", "List of rivers of Alaska", "List of rivers of Arizona", "List of rivers of Arkansas",
+    "List of rivers of California", "List of rivers of Colorado", "List of rivers of Connecticut", "List of rivers of Delaware",
+    "List of rivers of Florida", "List of rivers of Georgia (U.S. state)", "List of rivers of Hawaii", "List of rivers of Idaho",
+    "List of rivers of Illinois", "List of rivers of Indiana", "List of rivers of Iowa", "List of rivers of Kansas",
+    "List of rivers of Kentucky", "List of rivers of Louisiana", "List of rivers of Maine", "List of rivers of Maryland",
+    "List of rivers of Massachusetts", "List of rivers of Michigan", "List of rivers of Minnesota", "List of rivers of Mississippi",
+    "List of rivers of Missouri", "List of rivers of Montana", "List of rivers of Nebraska", "List of rivers of Nevada",
+    "List of rivers of New Hampshire", "List of rivers of New Jersey", "List of rivers of New Mexico", "List of rivers of New York",
+    "List of rivers of North Carolina", "List of rivers of North Dakota", "List of rivers of Ohio", "List of rivers of Oklahoma",
+    "List of rivers of Oregon", "List of rivers of Pennsylvania", "List of rivers of Rhode Island", "List of rivers of South Carolina",
+    "List of rivers of South Dakota", "List of rivers of Tennessee", "List of rivers of Texas", "List of rivers of Utah",
+    "List of rivers of Vermont", "List of rivers of Virginia", "List of rivers of Washington (state)", "List of rivers of West Virginia",
+    "List of rivers of Wisconsin", "List of rivers of Wyoming"
+  ],
+  "kind": "(river|tributary|stream|creek|brook|bayou|slough|arroyo|\\bfork\\b|\\brun\\b|\\bbranch\\b|\\bkill\\b|\\bwash\\b)",
+  "skipTitle": "(^List of|^Geography of|^Rivers of|^Tributaries|crossings|River basin$|Watershed$|Valley$|Canyon$|Falls$|Dam$|Reservoir$|Lake$|Gorge$|Bridge$|Aqueduct$|Canal$|Trail$|Park$|Forest$|Refuge$|Township|County$|^Rio Grande Valley|Indian Reservation$)",
+  "notKind": "^(reservoir|lake|dam|canal|waterfall|falls|park|glacier|bay|sound|estuary|lagoon|swamp|marsh|wetland|island|mountain|subrange|range|ridge|trail|bridge|scenic|road|highway|valley|canyon|county|city|town|village|township|neighborhood|unincorporated)",
+  "sizeProp": "P2043", "sizeUnit": "km", "minSize": 80,
+  "spellings": "river"
+}

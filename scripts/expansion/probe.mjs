@@ -6,8 +6,12 @@
  * and reports/2026-09-15-*.md for what the three first runs found.
  * config: { name, category, jsonFile, roots: [category titles], subcat: regex,
  *           lists: [page titles], kind: regex (description|title), skipTitle: regex,
- *           sizeProp: 'P1082' | 'P2046' | 'P2043', sizeUnit: 'population'|'km2'|'km',
- *           spellings: 'city' | 'lake' | 'river', flagRe: regex on description to flag }
+ *           notKind: regex on the description alone that vetoes an item ("Reservoir on the X River"),
+ *           sizeProp: 'P1082' | 'P2046' | 'P2043' | 'P2044', sizeUnit: 'population'|'km2'|'km'|'m',
+ *           minSize: optional floor in sizeUnit - items under it (or with no Wikidata
+ *                    figure) are counted, not fetched for views, and listed apart,
+ *           floorExemptSources: ['list'] exempts items a list page vouches for from the floor,
+ *           spellings: 'city' | 'lake' | 'river' | 'mountain' | 'island' | 'sea' | 'desert', flagRe: regex on description to flag }
  * Prints present / fuzzy / missing (by monthly views) and writes <name>.json.
  */
 import { createRequire } from 'node:module';
@@ -115,7 +119,8 @@ for (let i = 0; i < candidates.length; i += 50) {
     });
   }
 }
-const isKind = (r) => !r.missing && !r.disambig && !(SKIP_TITLE && SKIP_TITLE.test(r.finalTitle)) && KIND.test(r.description + ' || ' + r.finalTitle);
+const NOT_KIND = re(cfg.notKind); // on the description only: "Reservoir on the Colorado River" is not a river
+const isKind = (r) => !r.missing && !r.disambig && !(SKIP_TITLE && SKIP_TITLE.test(r.finalTitle)) && KIND.test(r.description + ' || ' + r.finalTitle) && !(NOT_KIND && NOT_KIND.test(r.description));
 const byFinal = new Map();
 for (const r of info.values()) {
   if (!byFinal.has(r.finalTitle)) byFinal.set(r.finalTitle, { ...r, sources: new Set() });
@@ -145,6 +150,16 @@ function spellings(title) {
     out.add(bare.replace(/^Lake\s+/i, ''));
     out.add(bare.replace(/\s+Lake$/i, ''));
     out.add('Lake ' + bare.replace(/^Lake\s+/i, ''));
+  } else if (cfg.spellings === 'mountain') {
+    out.add(bare.replace(/^(Mount|Mt\.?)\s+/i, ''));
+    out.add(bare.replace(/\s+(Mountain|Peak)$/i, ''));
+  } else if (cfg.spellings === 'island') {
+    out.add(bare.replace(/\s+Islands?$/i, ''));
+  } else if (cfg.spellings === 'desert') {
+    out.add(bare.replace(/\s+Desert$/i, ''));
+  } else if (cfg.spellings === 'sea') {
+    // straits and bays carry their bare name as an alias in the bank
+    out.add(bare.replace(/^(Strait|Gulf|Bay|Sea) of\s+/i, ''));
   } else {
     out.add(bare.replace(/\s+River$/i, ''));
   }
@@ -176,30 +191,13 @@ for (const r of items) {
   } else r.status = 'missing';
 }
 
-// ---- 5. views + size for what isn't there -----------------------------------
+// ---- 5. size, then views, for what isn't there -----------------------------
+// Sizes first (one Wikidata call per 50 items) so a `minSize` floor can cut the
+// list before the far slower pageview fetch; without a floor everything gets views.
 const notThere = items.filter((r) => r.status !== 'present');
-const viewsByTitle = new Map();
-for (let i = 0; i < notThere.length; i += 50) {
-  const batch = notThere.slice(i, i + 50);
-  let cont = {};
-  let guard = 0;
-  do {
-    const data = await api({ prop: 'pageviews', pvipdays: '60', titles: batch.map((r) => r.finalTitle).join('|'), ...cont });
-    for (const p of data.query.pages || []) {
-      const days = Object.values(p.pageviews || {}).filter((v) => typeof v === 'number');
-      if (days.length) viewsByTitle.set(p.title, days);
-    }
-    cont = data.continue ? { pvipcontinue: data.continue.pvipcontinue, continue: data.continue.continue } : null;
-  } while (cont && ++guard < 60);
-}
-for (const r of notThere) {
-  const days = viewsByTitle.get(r.finalTitle) || [];
-  const sorted = days.slice().sort((a, b) => a - b);
-  const med = sorted.length ? sorted[Math.floor(sorted.length / 2)] : 0;
-  const mean = days.length ? days.reduce((a, b) => a + b, 0) / days.length : 0;
-  r.views = days.length ? Math.max(1, Math.round((med || mean) * 30.44)) : null;
-}
-const UNIT_KM2 = { 'Q712226': 1, 'Q25343': 1e-6, 'Q35852': 0.01, 'Q232291': 2.58999 };
+const UNIT_KM2 = { 'Q712226': 1, 'Q25343': 1e-6, 'Q35852': 0.01, 'Q232291': 2.58999, 'Q81292': 0.00404686 };
+const UNIT_KM = { 'Q828224': 1, 'Q11573': 0.001, 'Q253276': 1.609344, 'Q3710': 0.0003048 };
+const UNIT_M = { 'Q11573': 1, 'Q3710': 0.3048, 'Q828224': 1000 };
 const qids = notThere.map((r) => r.qid).filter(Boolean);
 for (let i = 0; i < qids.length; i += 50) {
   const batch = qids.slice(i, i + 50);
@@ -217,18 +215,65 @@ for (let i = 0; i < qids.length; i += 50) {
     const unit = (v.unit || '').split('/').pop();
     if (cfg.sizeUnit === 'population') r.size = Math.round(amount);
     else if (cfg.sizeUnit === 'km2') r.size = UNIT_KM2[unit] ? Math.round(amount * UNIT_KM2[unit] * 100) / 100 : null;
-    else r.size = unit === 'Q11573' ? Math.round(amount / 1000) : Math.round(amount);
+    else if (cfg.sizeUnit === 'm') r.size = UNIT_M[unit] ? Math.round(amount * UNIT_M[unit]) : null;
+    else r.size = UNIT_KM[unit] ? Math.round(amount * UNIT_KM[unit]) : (unit === '1' ? Math.round(amount) : null);
+    if (r.size != null) r.sizeSource = 'wikidata';
   }
+}
+// A second pass after article-size.mjs: its cross-checked figure (the article's
+// infobox first, Wikidata second) replaces Wikidata's, and fills in where
+// Wikidata had none, so the floor and the views fetch see the best figure.
+try {
+  const sizes = JSON.parse(await readFile(`${S}/${cfg.name}-sizes.json`, 'utf8'));
+  let filled = 0;
+  for (const r of notThere) {
+    const s = sizes[r.finalTitle];
+    if (s && s.chosen != null) { if (r.size == null) filled++; r.size = s.chosen; r.sizeSource = s.how.startsWith('article') ? 'article' : s.how; }
+  }
+  console.log(`article sizes: ${Object.keys(sizes).length} checked, ${filled} filled in where Wikidata had nothing`);
+} catch {}
+const MIN_SIZE = cfg.minSize == null ? null : Number(cfg.minSize);
+// `floorExemptSources: ["list"]` lets a selective list page vouch for a place the floor would cut
+const exempt = (r) => (cfg.floorExemptSources || []).some((s) => r.sources.has(s));
+const belowFloor = MIN_SIZE == null ? [] : notThere.filter((r) => r.size != null && r.size < MIN_SIZE && !exempt(r));
+const noFigure = MIN_SIZE == null ? [] : notThere.filter((r) => r.size == null && !exempt(r));
+for (const r of belowFloor) r.floor = 'below';
+for (const r of noFigure) r.floor = 'no-figure';
+const wantViews = notThere.filter((r) => !r.floor);
+if (MIN_SIZE != null) console.log(`floor ${MIN_SIZE} ${cfg.sizeUnit}: ${wantViews.length} over it, ${belowFloor.length} below, ${noFigure.length} with no Wikidata figure`);
+const viewsByTitle = new Map();
+for (let i = 0; i < wantViews.length; i += 50) {
+  const batch = wantViews.slice(i, i + 50);
+  let cont = {};
+  let guard = 0;
+  do {
+    const data = await api({ prop: 'pageviews', pvipdays: '60', titles: batch.map((r) => r.finalTitle).join('|'), ...cont });
+    for (const p of data.query.pages || []) {
+      const days = Object.values(p.pageviews || {}).filter((v) => typeof v === 'number');
+      if (days.length) viewsByTitle.set(p.title, days);
+    }
+    cont = data.continue ? { pvipcontinue: data.continue.pvipcontinue, continue: data.continue.continue } : null;
+  } while (cont && ++guard < 60);
+  if ((i / 50) % 10 === 9) console.log(`  views: ${Math.min(i + 50, wantViews.length)} / ${wantViews.length}`);
+}
+for (const r of wantViews) {
+  const days = viewsByTitle.get(r.finalTitle) || [];
+  const sorted = days.slice().sort((a, b) => a - b);
+  const med = sorted.length ? sorted[Math.floor(sorted.length / 2)] : 0;
+  const mean = days.length ? days.reduce((a, b) => a + b, 0) / days.length : 0;
+  r.views = days.length ? Math.max(1, Math.round((med || mean) * 30.44)) : null;
 }
 
 // ---- 6. report --------------------------------------------------------------
 const present = items.filter((r) => r.status === 'present');
-const taken = items.filter((r) => r.status === 'taken');
-const fuzzy = items.filter((r) => r.status === 'fuzzy');
-const missing = items.filter((r) => r.status === 'missing');
+const inScope = (r) => !r.floor;
+const taken = items.filter((r) => r.status === 'taken' && inScope(r));
+const fuzzy = items.filter((r) => r.status === 'fuzzy' && inScope(r));
+const missing = items.filter((r) => r.status === 'missing' && inScope(r));
 const fmtSize = (r) => (r.size == null ? '' : cfg.sizeUnit === 'population' ? r.size.toLocaleString('en-US') : `${r.size} ${cfg.sizeUnit}`);
 const flag = (r) => (FLAG && FLAG.test(r.description) ? ' [' + cfg.flagLabel + ']' : '');
-console.log(`\n==== ${cfg.name}: ${items.length} articles; present ${present.length}, name taken by another entry ${taken.length}, fuzzy ${fuzzy.length}, missing ${missing.length} ====`);
+const floorNote = MIN_SIZE == null ? '' : `; below the ${MIN_SIZE} ${cfg.sizeUnit} floor ${belowFloor.length}, no figure ${noFigure.length}`;
+console.log(`\n==== ${cfg.name}: ${items.length} articles; present ${present.length}, name taken by another entry ${taken.length}, fuzzy ${fuzzy.length}, missing ${missing.length}${floorNote} ====`);
 console.log(`\n==== NAME TAKEN (${taken.length}) - typing the name lands on a different place ====`);
 for (const r of taken.sort((a, b) => (b.views || 0) - (a.views || 0))) console.log(`  ${String(r.views ?? '').padStart(7)} views/mo  ${fmtSize(r).padStart(12)}  ${r.finalTitle.padEnd(38)} ${r.note}${flag(r)}`);
 console.log(`\n==== FUZZY (${fuzzy.length}) - would be autocorrected to a different place ====`);
@@ -237,6 +282,15 @@ console.log(`\n==== MISSING (${missing.length}) ====`);
 for (const r of missing.sort((a, b) => (b.views || 0) - (a.views || 0))) console.log(`  ${String(r.views ?? '').padStart(7)} views/mo  ${fmtSize(r).padStart(12)}  ${r.finalTitle.padEnd(38)} ${r.description}${flag(r)}`);
 console.log(`\n==== PRESENT (${present.length}) ====`);
 console.log('  ' + present.map((r) => r.finalTitle).sort().join(' · '));
+if (noFigure.length) {
+  console.log(`\n==== NO WIKIDATA FIGURE (${noFigure.length}) - not sized, views not fetched; add with a figure from the article if wanted ====`);
+  for (const r of noFigure.sort((a, b) => a.finalTitle.localeCompare(b.finalTitle))) console.log(`  ${r.finalTitle.padEnd(40)} ${r.status.padEnd(8)} ${r.description}`);
+}
+if (belowFloor.length) {
+  const traps = belowFloor.filter((r) => r.status === 'fuzzy');
+  console.log(`\n==== BELOW FLOOR (${belowFloor.length}; ${traps.length} of them would autocorrect elsewhere) ====`);
+  for (const r of traps.sort((a, b) => (b.size || 0) - (a.size || 0))) console.log(`  ${fmtSize(r).padStart(12)}  ${r.finalTitle.padEnd(38)} ${r.how}`);
+}
 console.log(`\n==== SKIPPED (${skipped.length}) ====`);
 for (const r of skipped) console.log(`  ${r.finalTitle.padEnd(40)} ${r.missing ? 'MISSING' : r.disambig ? 'DISAMBIG' : r.description}`);
 await writeFile(`${S}/${cfg.name}.json`, JSON.stringify({ items: items.map((r) => ({ ...r, sources: [...r.sources] })), skipped }, null, 1));

@@ -55,3 +55,28 @@ else*, and missing. Three configs and their reports (`reports/2026-09-15-*`)
 show the shape; copy one for a new country × category. Output and the API
 cache go to `work/` (gitignored). Wikipedia throttles: never run it alongside
 `fetch-pageviews` or `auto-titles`.
+
+### Probe → sizes → probe → chunk → fold (the country-by-country loop, 2026-09-15)
+
+A whole country's category tree is large (the US has 12,790 river articles),
+so the probe takes a `minSize` floor: it fetches Wikidata's figure first
+(`sizeProp`), and only what clears the floor gets its views fetched; the rest
+is counted and listed apart. Wikidata has no figure for most small US
+streams, and its figure is sometimes wrong, so a second script reads the
+articles themselves:
+
+```bash
+node scripts/expansion/probe.mjs scripts/expansion/probes/us-rivers.json        # pass 1: tree + lists, Wikidata sizes, views above the floor
+node scripts/expansion/article-size.mjs scripts/expansion/work/us-rivers.json --no-figure   # infobox figure for every in-scope + no-figure item
+node scripts/expansion/probe.mjs scripts/expansion/probes/us-rivers.json        # pass 2 (cached, fast): article figures win, views for the newly in-scope
+node scripts/expansion/chunk.mjs scripts/expansion/work/us-rivers.json --tag=us --themes="North America"   # -> work/new-rivers-us.txt
+node scripts/expansion/fold.mjs --only=rivers-us                                 # dry run, then --write
+```
+
+`article-size.mjs` writes `work/<probe>-sizes.json` (`{wikidata, article,
+chosen, how}` per title) and prints the disagreements (article wins when they
+differ by more than 15%) and the Wikidata-only rows for a human look.
+`chunk.mjs` writes the missing + fuzzy rows (never the name-taken ones unless
+`--include-taken`) in `fold.mjs`'s format, naming them the bank's way
+(Wikipedia's title without its parenthetical; rivers bare of "River" unless
+named after a state or country; cities without ", State").
