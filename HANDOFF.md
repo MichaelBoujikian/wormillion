@@ -8,175 +8,363 @@ that must not be quietly undone, and the gotchas that cost time. Claude Code's
 project memory is keyed to this folder (`C:\Users\smite\repos\wormillion`);
 this file is the memory that survives.
 
-Written 2026-09-16, mid-morning, at the end of the overnight session that ran
-the **United States wave** of the country-by-country scouring on branch
-`expansion`: rivers, lakes, mountains, islands, seas, deserts probed and
-filled (cities under 100k still running when this was written), four Opus
-audits and their fixes, and a list of rules decisions waiting for the user.
+Written 2026-09-16, midday, at the end of the overnight session that ran the
+**United States wave** of the country-by-country scouring on branch
+`expansion` (rivers, lakes, mountains, islands, seas, deserts, cities;
+eight Opus audits; 9,300 → 12,008 places). **The next session does Western
+Europe, the same way, on the same branch.**
 
 ---
 
-# The job: scour the world, country by country
+# The job: Western Europe, all categories, on `expansion`
 
-The user's plan, set 2026-09-15 after the probes showed the bank holds each
-country's *top tier* and little else:
+The user's plan (2026-09-15): scour the world country by country, **every
+category per country**, "as many places as we can", in this order:
 
-> Go through each country and scour to get as many places as we can, all
-> categories per country, in this order: **United States → Western Europe →
-> Mexico and Canada → East Asia → West and Central Asia → South America →
-> Central America → North Africa → the rest of Africa → islands.**
+> **United States ✓ → Western Europe → Mexico and Canada → East Asia → West
+> and Central Asia → South America → Central America → North Africa → the
+> rest of Africa → islands.**
 
-Decisions the user took 2026-09-15 (late), all in one message:
+Western Europe, as the bank tags it (`scripts/data-countries.mjs` region
+`Western Europe`): **Germany, France, United Kingdom, Italy, Spain,
+Netherlands, Belgium, Portugal, Austria, Switzerland, Ireland, Luxembourg,
+Andorra, Liechtenstein, Monaco.** (Scandinavia and the Nordics are their own
+region and not in this wave; Sweden's lakes were probed on 2026-09-15.)
 
-1. **Work on branch `expansion`**; merge to `main` only per wave, when they
-   also publish Netlify (both hosts stay in sync; see "Pages and Netlify").
+Standing decisions from the user, all still in force:
+
+1. **Everything lands on branch `expansion`.** Do not merge to `main`: every
+   push to `main` deploys GitHub Pages but Netlify is locked, and a diverged
+   bank breaks the daily comparison for Pages players on ~2 days in 3. The
+   user said (2026-09-16) they **want to add the next probes to `expansion`
+   as well before merging with `main`** — i.e. Western Europe goes onto this
+   branch too, and the merge + Netlify publish happens after it, as one
+   release with one re-verification. (If the phrase "the best probe" comes
+   up: that is the user's words for this; ask if unsure which probes they
+   mean before merging anything.)
 2. Order within a country: **rivers → lakes → mountains → islands → seas →
-   deserts → cities**. Traps (rivers, lakes) first.
-3. **Floors: keep them low, capture a lot; decide on the spot and report the
-   choice**; a later wave lowers every floor. Cities: 50,000 this wave.
-4. Name-taken places (Portland ME, Birmingham AL, Green River KY, Prince of
-   Wales Island AK…) stay out; no comma-form or parenthetical names.
-5. **Audits on Opus**, piecemeal with checkpoints, up to three at a time.
+   deserts → cities.** Rivers and lakes are where the traps live (a missing
+   name autocorrects to a different place); do them early.
+3. **Floors: keep them low, capture a lot, decide on the spot and report the
+   choice**; a later wave lowers every floor. The US floors are the
+   starting point (below).
+4. **Name-taken places stay out** (a bare name held by another entry: Portland
+   ME, Green River KY, Prince of Wales Island AK…). No comma-form or
+   parenthetical names. A bare name that belongs to a far more famous place
+   *not* in the bank is also not free (Athens GA, Edinburg TX, Dublin CA).
+5. **Audits on Opus**, data + gameplay in parallel per chunk or two, up to
+   three agents at once, each writing its report as it goes.
+6. (2026-09-16) `reservoir` is a matching filler word; creek / fork / branch
+   / run / brook / kill / wash / slough / draw are letter-only filler for
+   rivers; a letter-rule miss names the word that didn't count.
 
-## Where the US wave stands (branch `expansion`, 29 commits ahead of `main`)
+## Where things stand
 
-| category | probe | added | floor | report |
+Branch `expansion`, 30 commits ahead of `main` (`8e91211`), pushed, tree
+clean. `npm test` 181 · `npm run validate` 12,008 · `npm run gap-check` 443.
+
+| category | before | after | US floor | reports (`scripts/expansion/reports/2026-09-16-…`) |
 |---|---|---|---|---|
-| rivers | 12,717 articles, 238 present | **949** (+ 5 re-pointed, East River off the Dong) | 80 km, or 1,000+ views/mo | `reports/2026-09-16-us-rivers.md` + two audits |
-| lakes | 5,043 articles, 96 present | **372** (+ Lake Crescent, Jackson Lake re-pointed) | 25 km², or 1,000+ views | `-us-lakes.md` + two audits |
-| mountains | 4,355 on 39 list pages, 152 present | **676** (2,280 first, re-cut) | 122 views/mo — no elevation floor | `-us-mountains.md` |
-| islands | 1,803 articles, 85 present | **318** | 1 km², or 1,000+ views | `-us-islands.md` |
-| seas/bays | 951 articles, 111 present | **8** (+ San Francisco Bay re-pointed off the Bay Bridge) | none — but only 11 of 652 have an area | `-us-seas-deserts.md` |
-| deserts | 132 articles, 82 present | **2** | none — only 2 of 12 have an area | same |
-| cities < 100k | 42,857 candidates, 30,575 cities, 462 present | **408** (+ East LA, Silver Spring by hand) | 50,000 | `-us-cities-50k.md` |
+| rivers | 2,249 | 3,192 | 80 km, or 1,000+ views/mo | `us-rivers.md` + `-data-audit`, `-gameplay-audit` |
+| lakes | 790 | 1,160 | 25 km², or 1,000+ views | `us-lakes.md` + `us-lakes-mountains-*-audit` |
+| mountains | 1,309 | 1,984 | 122 views/mo (no elevation floor) | `us-mountains.md` (read its "Re-cut" section) |
+| islands | 1,345 | 1,655 | 1 km², or 1,000+ views | `us-islands.md` + `-data-audit`, `-gameplay-audit` |
+| seas | 253 | 259 | — (only 11 of 652 US bays have an area) | `us-seas-deserts.md` |
+| deserts | 129 | 130 | — | same |
+| cities | 2,781 | 3,180 | 50,000 population | `us-cities-50k.md` + `-data-audit`, `-gameplay-audit` |
 
-Bank **12,008** (was 9,300): rivers 3,192 · lakes 1,160 · mountains 1,984 ·
-islands 1,655 · seas 259 · deserts 130 · cities 3,180 · countries 197 ·
-capitals 247. `bank.js` 1.55 MB. `npm test` 181 · `validate` OK ·
-`gap-check` 443 obvious answers land. **The wave is complete and audited**
-(eight Opus audits; every confirmed finding applied). Every chunk is its own commit; every
-probe has a report; the four audit reports are under `scripts/expansion/reports/`.
-
-Decision 3 is done (`807ad68` reservoir as filler; `2a2fef6` creek/bayou/
-fork… as letter-only filler, with the miss text "(Creek doesn't count)").
-The cities chunk was audited too (`f03ee4b` applied the fixes: New York's
-county-subdivision towns out, township aliases, Tonawanda re-pointed). One
-more thing the cities audit measured for decision 2: "Name a non-capital
-city in a country whose flag has both blue and white in it" crossed
-`MAX_ELIGIBLE_SHARE` (54% → 60.1%) with 400 more red-white-blue US cities,
-so it no longer draws and daily 2026-10-11 changes; "blue and red" is at
-55% and will cross with the next ~300 US, French or British cities.
+`bank.js` 1.55 MB. **`main` / Netlify still serve the 9,300-place bank.**
+Real players: dig #4 (2026-09-15) had 123 submissions; dig #5 ran on the
+old bank. The gameplay audits measured the next 30 dailies old vs new bank:
+they differ on dig #1 (the lake size guard, below), 2026-10-11 (the city flag
+guard) and dig #4 would re-draw until its window closes 2026-09-18 00:00 UTC.
 
 ## Decisions waiting for the user (present as a numbered list, recommend each)
 
-1. **"Size unknown" in the schema.** SPEC §4 says `size > 0`. 652 US bays,
-   straits and sounds (Pearl Harbor, New York Harbor, the Golden Gate, Cook
-   Inlet, Pamlico Sound…), ~1,100 US islands and 10 US deserts have **no
-   area anywhere** and were left out by the sourced-figure rule.
-   `satisfiesSize` already treats a non-positive size as "never answers a
-   size prompt", and nothing in the UI shows size. Recommend: allow `0`
-   (validate `>= 0`, SPEC amendment, `fold.mjs`), then fold them from the
-   probe outputs in `work/` (the JSONs are there; `chunk.mjs` needs a
-   `--allow-no-figure` switch that writes `0`).
-2. **`MAX_ELIGIBLE_SHARE` 0.6 killed "Name a lake smaller than 100 km²"**:
-   lakes under 100 km² are 60.0% of the cohort, so the guard refuses the
-   rule and dig #1's round 12 became "larger than" (pin updated knowingly in
-   `tests/prompts.test.js`). Every wave adds small lakes. Recommend 0.7, or a
-   25 km² tier in `SIZE_RULES.lake`.
-3. ~~Filler words~~ — **done** 2026-09-16 (`807ad68`, `2a2fef6`): `reservoir`
-   is matching filler; creek/bayou/fork/branch/run/brook/kill/wash/slough/
-   arroyo/draw are `LETTER_ONLY_FILLER` for rivers (identifying for the
-   matcher, generic for the letter rules); a letter-rule miss now names the
-   word that didn't count.
-4. **Two `run.js` rule changes** the audits argued for: (a) when the typed
-   input carries the *current* category's own generic word ("Lake Meade",
-   "Mackinaw Island"), another cohort's loose form must not block the
-   in-category spelling correction (five aliases paper over it for now);
-   (b) the loose pass should not drop a generic word that names *another*
-   category — "Lake Michigan" is accepted as the Michigan River, "Rapid
-   City" as the Rapid River (a 950-point jackpot), "Mount Foraker" as
-   Foraker River; pre-existing class, 49 new cases. Recommend both.
+The user answers these in one message when asked; none blocks the Western
+Europe probes, but 1 and 2 change what the probes can add, so **ask early**.
+
+1. **"Size unknown" in the schema.** SPEC §4 says `size > 0`. 652 US bays /
+   straits / sounds (Pearl Harbor, New York Harbor, the Golden Gate, Cook
+   Inlet, Pamlico Sound…), ~1,100 US islands and 10 deserts have **no area
+   anywhere** and were left out by the sourced-figure rule. `satisfiesSize`
+   (`promptBank.js`) already treats a non-positive size as "never answers a
+   size prompt"; nothing in the UI shows size. Recommend: allow `0` (validate
+   `>= 0`, SPEC amendment, `fold.mjs`, a `--allow-no-figure` switch in
+   `chunk.mjs` that writes `0`), then fold the held-back US rows from the
+   probe JSONs in `work/`. Europe's fjords, bays and small islands will hit
+   the same wall.
+2. **`MAX_ELIGIBLE_SHARE` 0.6** (`promptBank.js`): lakes under 100 km² are
+   60.0% of the cohort so "Name a lake smaller than 100 km²" no longer draws
+   (dig #1's round 12 moved; pin updated knowingly in `tests/prompts.test.js`),
+   and 400 more red-white-blue US cities took "flag has both blue and white"
+   over the line too. Every wave adds small lakes; France and Britain add
+   blue-white-red cities. Recommend 0.7, or a 25 km² tier in `SIZE_RULES.lake`.
+3. ~~Filler words~~ — done (`807ad68`, `2a2fef6`).
+4. **Two `run.js` rule changes** the audits argued for three times: (a) when
+   the typed input carries the *current* category's own generic word ("Lake
+   Meade", "Mackinaw Island"), another cohort's loose form must not block the
+   in-category spelling correction (aliases paper over the known cases);
+   (b) the loose pass should not drop a generic word naming *another*
+   category — "Lake Michigan" → Michigan River, "Rapid City" → Rapid River
+   (950 pts), "Willow Reservoir" → Willow River (950), "Mount Foraker" →
+   Foraker River. Pre-existing class, larger with every wave. Recommend both.
 5. **Same-name second places** — Green River (Kentucky, 618 km), Colorado
-   River (Texas, 1,387 km), Fox River (Green Bay), Grand River (Michigan),
-   Prince of Wales Island (Alaska, the 4th-largest US island), Black Lake
-   ×3, the 45 cities — need a name policy (Wikipedia's parenthetical, reachable
-   only by the fuzzy pass). Recommend: not this wave.
+   River (Texas, 1,387 km), Fox River (Green Bay), Prince of Wales Island
+   (Alaska, the 4th-largest US island), Black Lake ×3, 130 US cities (Portland
+   ME, Birmingham AL, Cambridge MA, Worcester, Toledo OH…) — need a name
+   policy (Wikipedia's parenthetical, reachable only by the fuzzy pass).
+   Europe will add the mirror image (a British Cambridge is *in*; a Boston,
+   Lincolnshire is not). Recommend: not this wave.
 6. **"Great Lakes"** typed on a lake round is corrected to Great Lake
    (Tasmania). Recommend an engine guard: never correct a plural onto a
    singular namesake.
 7. **Themes**: no lake theme covers North America; `the Rockies` was not
-   extended (640 new Rockies peaks answer "isn't in the Rockies") — needs
+   extended (153 new Rockies peaks answer "isn't in the Rockies") — needs
    Wikidata P4552 (mountain range). Recommend a `North America` lake theme
-   and a P4552 pass, next session.
-8. Typo casualties the exact-beats-correction rule now causes: "Weiser" →
-   Weser, "Sheyenne" on a capital round, "Harlem" → Haarlem. Recommend leave.
+   and a P4552 pass. **For Europe this matters more: the Alps (lake and
+   mountain), the British Isles (river, lake), Scotland / England or Wales
+   (mountain, island), the Mediterranean and Greece (island), Europe (river,
+   sea) all exist and every new row must be put into the ones it belongs to
+   — a themed prompt rejects everything outside its set.**
+8. Typo casualties of the exact-beats-correction rule ("Weiser" → Weser,
+   "Redding" → Reading, "Brooklin" now a refused tie with Brookline,
+   "Tocson" with Towson, "Sheyenne" on a capital round). Recommend: leave.
 
-## Pages and Netlify
+---
 
-Every push to `main` deploys **GitHub Pages** but not (locked) **Netlify**;
-a diverged bank breaks the daily comparison for Pages players on ~2 days in
-3. That is why the wave lives on `expansion`: merge to `main` and publish
-Netlify (dashboard → unlock / "Trigger deploy") in one go, then re-verify
-with the checklist in "Netlify, verified live". The audits measured the next
-30 dailies old vs new bank: only dig #1 differs (item 2 above).
+# The loop, as it now works
 
-## The loop, one country × category at a time
+Read `scripts/expansion/README.md` first (short). One country × category at
+a time; one commit per chunk; audits per chunk or two.
 
-Read `scripts/expansion/README.md` first. What changed this session:
-
-1. **Probe** — `node scripts/expansion/probe.mjs scripts/expansion/probes/<name>.json`
-   (copy a `us-*.json`). New config keys: `minSize` (Wikidata size fetched
-   first, views only above the floor), `famousViews` (views fetched below
-   the floor too; 1,000+/mo lifts an item back in), `notKind` (a description
-   veto — "Reservoir on the X River" is not a river), `notKindExemptTitle`
-   (lifts the veto when the title says Island — town-on-island articles),
-   `jsonFile` may be a list (mountains + minor peaks). Sizes and views are
+1. **Probe.** Copy a `scripts/expansion/probes/us-*.json`, edit, run
+   `node scripts/expansion/probe.mjs scripts/expansion/probes/<name>.json`
+   in the background (5 min to 3 h; see timings). It walks Wikipedia
+   categories (`roots` + `subcat` regex, depth ≤ 3) and/or the links of list
+   pages (`lists`), resolves redirects and descriptions, keeps what reads
+   like the kind (`kind` regex on description|title, minus `notKind` on the
+   description — lifted by `notKindExemptTitle`), pushes each article through
+   the game's own matcher, fetches Wikidata's size (`sizeProp`), applies the
+   floor (`minSize`), fetches 60 days of views for what is in scope (and for
+   what is below the floor when `famousViews` is set — 1,000+ views/mo lifts
+   it back in), and prints **present / name-taken / fuzzy / missing / no
+   figure / below floor / famous**. Output `work/<name>.json`; everything
    memoised per item in `work/<name>-cache.json`, so a re-run after a config
-   change fetches only what is new.
-2. **Sizes** — `node scripts/expansion/article-size.mjs work/<name>.json
-   [--no-figure] [--min-views=N]` reads every article's infobox
-   (convert templates, `length_mi`, `area_acre`, `elevation_ft`…), and the
-   **infobox always wins over Wikidata** (Wikidata is 100× off for one lake
-   in six — hectares — and decimal-shifted for frwiki-imported rivers).
-   Then run the probe **again**: it picks up the article figures and fetches
-   views for what newly clears the floor.
-3. **Chunk** — `node scripts/expansion/chunk.mjs work/<name>.json --tag=<tag>
-   --themes="A;B" [--min-views=N]` writes missing + fuzzy rows in the
-   bank's naming (title minus parenthetical; rivers bare of "River" unless
-   named after a state or country; cities without ", State"). Then hand-edit:
-   remove groups, former lakes, protected areas, concept articles (the
-   filters catch most; `reports/` list what slipped).
-4. **Fold** (`fold.mjs --only=<category>-<tag>`, dry then `--write`), move
-   the chunk to `work/folded/`, then the pipeline: `fetch-pageviews --check`
-   (verify the "landform" / "town on the island" / "no short description"
-   rows with `fix-titles.mjs`), `fetch-pageviews`, `build-data`, `validate`
-   (islands without coordinates need `add-oceans.mjs`), `test`, `gap-check`
-   (add the headline names), **one commit per chunk**.
-5. **Audit per chunk or two**, Opus, data + gameplay in parallel:
+   change costs only what is new.
+2. **Sizes.** `node scripts/expansion/article-size.mjs work/<name>.json
+   [--no-figure] [--min-views=N]` reads each article's infobox (convert
+   templates, `length_mi`, `area_acre`, `elevation_ft`…) and writes
+   `work/<name>-sizes.json`. **The infobox always wins over Wikidata**
+   (Wikidata is 100× off for one lake in six — hectares as km² — and
+   decimal-shifted for frwiki-imported rivers). Then **run the probe again**:
+   pass 2 picks up the article figures and fetches views for what newly
+   clears the floor.
+3. **Chunk.** `node scripts/expansion/chunk.mjs work/<name>.json --tag=<tag>
+   [--themes="A;B"] [--min-views=N] [--country="France"]` writes the
+   missing + fuzzy rows (never the name-taken ones) as
+   `work/new-<block>-<tag>.txt` in `fold.mjs`'s format, named the bank's way
+   (Wikipedia's title minus its parenthetical; rivers bare of "River" unless
+   named after a state or country; cities without ", State"). **Then
+   hand-clean the file** — it always needs it: groups and chains, former
+   lakes, protected areas, concept articles ("Ultra-prominent peak"),
+   islands that are really towns, foreign rows the worldwide lists drag in,
+   comma names the strip missed, names in the other categories' cohorts
+   (Greece NY), sizes to fix. The US reports list what slipped through each
+   time; `scratchpad` filter scripts are not in the repo, but the patterns
+   are in `reports/`.
+4. **Fold.** `node scripts/expansion/fold.mjs --only=<block>-<tag>` (dry run:
+   every collision with its reason — same name, filler-stripped loose form,
+   alias clash, a city that is a capital or a country/island name), then
+   `--write`; move the chunk to `work/folded/`.
+5. **Pipeline**, every time:
+   ```bash
+   npm run fetch-pageviews -- --check   # fix with fix-titles.mjs: WIKI_TITLES re-points, WIKI_VERIFIED for "landform"/"town on the island"/"no short description"
+   npm run fetch-pageviews              # views + coordinates for the new rows (cached)
+   npm run build-data && npm run validate   # validate names islands/seas without coordinates → add-oceans.mjs
+   npm test && npm run gap-check        # add the chunk's headline names to gap-check.mjs first
+   ```
+   **One commit per chunk**, the message saying how many, from what, what
+   was left out and why.
+6. **Audit** (Opus, data + gameplay in parallel, per chunk or two):
    `scripts/expansion/AUDIT-BRIEF.md` is the brief; the task message names
-   the commits, chunk files, pre-wave commit and the report path; agents
-   write as they go. ~250–440k tokens each. Apply the confirmed fixes, copy
-   the report into `reports/`, commit.
+   the commits, the chunk files, the pre-wave commit (`git show <sha>:src/
+   data/bank.js`), the probe JSON / sizes JSON / `work/wikitext-cache.json`
+   (offline infoboxes), and the report path in the scratchpad; the agent
+   writes as it goes. 250–440k tokens each; every one of the eight US audits
+   found real problems (wrong articles, 100× figures, a 793k "city", jackpot
+   inflation, themes not extended, inland islands "in the Atlantic").
+   Apply the confirmed fixes, copy the report into `reports/`, commit.
+7. **Report** per probe (`reports/<date>-<country>-<category>.md`): method,
+   outcome with commit hashes, counts, what was left out and why, the
+   judgment calls for a human. The US ones are the template.
 
-Floors used this wave (all "decide on the spot", all reported): rivers 80
-km; lakes 25 km²; **mountains 122 views/mo** (the first cut at 30 views —
-the cohort minimum — put 1,004 peaks at exactly 30 views because the median
-quantises at whole views a day, so 28% of the cohort read 100% and "United
-States" was a 1,000-point mountain; jackpot share by floor 30 → 45%, 61 →
-24%, 91 → 11%, 122 → 2.2%); islands 1 km²; cities 50,000; `famousViews`
-1,000 everywhere it applied.
+## Timings and the Wikipedia rule
+
+Wikipedia throttled every run from the first request all night (~5 s per
+request effective). A state/région category tree probe ~1 h; an article
+pass ~1 h; a views pass over 4,000 titles ~1 h; the 42,857-title cities probe
+~3 h. **Never two resolvers at once** — `probe.mjs`, `article-size.mjs`,
+`fetch-pageviews`, `auto-titles.mjs`; a stray side request (even one curl)
+429s the running one. Start anything over ~5 min with `run_in_background`
+and wait with an `until grep -q … ; do sleep 20; done` loop, also in the
+background. The Bash tool caps at 600 s.
+
+## Probe recipes per category (what worked for the US; what to change)
+
+- **Rivers** (`us-rivers.json`): roots `Category:Rivers of <country> by
+  <subdivision>`, subcat regex admitting the subdivision level only (county
+  trees are 10× bigger and nearly all creeks); lists = the per-subdivision
+  "List of rivers of X"; `kind` river|stream|creek|brook…; `notKind`
+  anchored to the description's first word (reservoir, lake, range, road,
+  valley, county, city…); `sizeProp P2043`, `sizeUnit km`, **floor 80 km**,
+  `famousViews 1000`; `spellings river`. Wikidata has no length for 85% of
+  small streams — the article pass is mandatory. Europe: `Category:Rivers
+  of France` has département subcats ("Rivers of Ain"…); "List of rivers of
+  France", "…of Germany", "…of Italy", "…of Spain", "…of England"/"…of
+  Scotland"/"…of Wales"/"…of Ireland" exist. Themes: `Europe` (river) and,
+  for the UK/Ireland, `the British Isles` — set `--themes="Europe;the British
+  Isles"` for those. Native-name aliases matter here (Rhein, Donau, Mosel,
+  Tajo/Tejo, Douro/Duero, Tevere): the fold keeps an alias that doesn't
+  collide.
+- **Lakes** (`us-lakes.json`): roots for lakes *and* reservoirs; **floor 25
+  km²**, `famousViews 1000`; `notKind` must veto former/prehistoric/pluvial
+  lakes, groups, "combined lake", cities named Lakewood; the settlement
+  infobox's `area_total` includes water (use `area_land`). Themes: `the
+  Alps` (lake) for the Alpine countries, `the British Isles` for lochs and
+  loughs, `saltwater` where it applies. "Lough X" / "Loch X" / "Llyn X" keep
+  their word (loch/lough/llyn are matching filler but NOT letter filler:
+  Loch Ness starts with L).
+- **Mountains** (`us-mountains.json`): **lists only, no category tree, no
+  elevation floor** (it would cut the whole of Britain and Ireland); floor
+  by **views: 122/mo** — and read the re-cut section of `us-mountains.md`
+  before choosing anything lower (30 = the cohort minimum put 1,004 peaks at
+  exactly 30 views and 45% of the cohort at jackpot; the median quantises at
+  whole views/day: 30, 61, 91, 122…; jackpot share by floor 30 → 45%, 61 →
+  24%, 91 → 11%, 122 → 2.2%, vs rivers 2.6%, lakes 4.0%, islands 4.0%).
+  Check the jackpot share with `rarity.cohortStats` after folding. Europe's
+  lists: "List of French mountains by prominence", "List of mountains of the
+  Alps over 4000 metres", "List of prominent mountains of the Alps above
+  3000 m", "List of highest mountains of Austria / Germany", "List of Munro
+  mountains", "List of Marilyns in the British Isles" (very long — floor it),
+  "List of mountains in Italy / Spain". `jsonFile` must be
+  `["mountains.json","minor-peaks.json"]`. Tag volcanoes from the infobox's
+  `type` / `volcanic_arc` / `last_eruption` (plugs, necks, laccoliths are
+  not volcanoes); themes `the Alps`, `Scotland`, `England or Wales`,
+  `volcanoes` — the audit will refuse every untagged Alpine peak on "Name a
+  mountain in the Alps", so tag as you fold (the description or the
+  infobox's `range` field; Wikidata P4552 is the honest way).
+- **Islands** (`us-islands.json`): category tree to the county level plus
+  lists; **floor 1 km²**, `famousViews 1000`; `notKindExemptTitle` so an
+  island whose article is its town/parish counts; `validate` lists islands
+  without coordinates → `add-oceans.mjs`; **inland islands (lakes, rivers)
+  need `[]` in `OCEAN_OVERRIDES`** — the coordinate box puts a Lake
+  Constance island "in the Atlantic" otherwise (77 US rows were fixed after
+  the audit). Themes: `the Mediterranean`, `Greece`, `Scotland`. Expect ~40%
+  of islands to have no area anywhere (decision 1).
+- **Seas / bays / straits** (`us-seas.json`): roots per kind at the country
+  level; the worldwide "List of straits" / "List of gulfs" pull in the whole
+  world (`work/us-seas.json` already holds ~180 non-US straits and gulfs
+  with descriptions — Europe's are in there); almost none has an area →
+  decision 1 first. Straits carry their bare name as an alias (Gibraltar,
+  Dover, Bonifacio). Theme `Europe` (sea).
+- **Deserts**: tiny for Europe (Tabernas, Bardenas Reales, Oleshky is
+  Eastern); one small chunk, `the Americas`/`Africa`/`Asia` themes don't
+  apply — none for Europe exists; add rows theme-less.
+- **Cities** (`us-cities-50k.json`): lists only ("List of communes in France
+  with over 20,000 inhabitants", "List of cities in Germany by population",
+  "List of ONS built-up areas in England by population", "List of cities in
+  Italy", "List of municipalities of Spain", "List of cities in the
+  Netherlands by province", "List of cities in Belgium", "List of cities and
+  towns in Austria", "List of cities in Switzerland", "List of cities in
+  Portugal", "Urban areas in the Republic of Ireland"); `sizeProp P1082`,
+  **floor 50,000**; `--country="<exact data-countries.mjs name>"` — one
+  chunk per country (the fold needs the Country column). Watch: the national
+  capital is refused by the fold (right); a city that is a country's or an
+  island's name is refused (right); NY-style "towns" that are county
+  subdivisions with 800k people came through the US list — Europe's
+  equivalents are metropolitan/comarca/arrondissement articles; `--check`
+  reads village / municipality / comune / unincorporated community as a
+  city. The fuzzy list is the payoff: Greenville was being scored as
+  Grenville, Grenada.
+
+## Lessons the US wave paid for (read before the first probe)
+
+- **The `taken` list is a wrong-article detector.** When a probe says "X is
+  the bank's X = <obscure article>", compare the bank row's size with the
+  candidate's: Fox (300 km) scored on Fox River (Alaska) but was sized for
+  the Illinois one; Current, McKenzie, Rainy, Brandywine, Lake Crescent,
+  Jackson Lake, Bear Mountain (a *list* article), Dauphin Island (a bridge),
+  San Francisco Bay (the Bay Bridge), St. Simons, Humber (Ontario's, themed
+  as England's — still open). Re-point with `fix-titles.mjs`.
+- **The `fuzzy` list is the payoff**: every row there fixes a wrong
+  acceptance (Sheyenne → Cheyenne, Biscayne Bay → Bay of Biscay, Greenville →
+  Grenville). But adding a row also *pre-empts* corrections: Weiser blocks
+  "Weiser" → Weser, Redding "Redding" → Reading, and a new near-neighbour of
+  a famous name turns a typo into a refused tie (Mount Raimer / Rainier,
+  Towson / Tucson). The audits list these; drop the 30-view ones, keep the
+  real places.
+- **Wikidata sizes**: hectares as km² (100×) for lakes, miles as km for
+  rivers, frwiki decimal shifts (1127 for 112.7), a range's high point for a
+  range, "height above the sea floor" for seamounts, a town's total area
+  (water included) for an island. The infobox wins; `article-size.mjs`
+  prints the disagreements — eyeball them.
+- **Description vetoes are not enough**: concept articles ("Volcano",
+  "Summit", "Ultra-prominent peak" at 6,940 views), groups (Pribilof
+  Islands, Great Lakes, Belgrade Lakes), former lakes (Agassiz, Allison,
+  Palomas), protected areas, roads, the state itself (Rhode Island, Greece
+  NY), county subdivisions (the Town of Hempstead). Scan the chunk's names
+  and the probe's descriptions before folding; the audits catch the rest.
+- **Themes must be extended with every chunk** or the themed prompt refuses
+  the new rows: Hawaii (9 islands), volcanoes (64 by infobox), saltwater,
+  the Caribbean (Navassa) were all missed first time. `fold.mjs` adds the
+  themes named in the chunk's last column; put them there.
+- **Oceans are derived from coordinates** — every lake/river island needs
+  an override.
+- **Names people type**: strip ", State"; no ʻokina / diacritics the matcher
+  won't fold (Kaʻula → Kaula with the original as an alias); a two-place
+  article ("Lake Hamilton and Lake Catherine", "Randalls and Wards Islands")
+  is named for one with the other as an alias; townships and "X Reservoir"
+  rows need the bare name reachable (reservoir is filler now; townships got
+  aliases); a name that is a *concept* or a *letter* ("A Peak", "D River")
+  is a jackpot for one keystroke.
+- **Bare English-word rivers** (Big, Bad, Elk, New, Sun, Little, Middle,
+  South, Spring, Wind, Dry…) went in as the world names them; the matcher
+  gives ≤ 4-letter names no fuzzy slack. Fine, but every one of them is also
+  a country/city/mountain name's loose form on the wrong round (decision 4b).
+- **Cache hygiene**: the probe memoises sizes per QID and views per title
+  inside `work/<name>-cache.json` (batch-URL caching refetched 25 minutes
+  when the batches shifted); raw Wikidata answers are not cached (536 MB
+  and `JSON.stringify` died). If a run dies, re-run — it resumes.
+- **Every chunk moved the pin once and the draw twice**: `MAX_ELIGIBLE_SHARE`
+  is bank-dependent, so a big fill can silently retire a prompt. The
+  gameplay audit's "next 30 dailies old vs new" check catches it; read the
+  guard counts it prints.
+- **The size-unknown wall** (decision 1) took out more places than any
+  floor: 652 bays, ~1,100 islands, 10 deserts. Ask about it before the
+  islands and seas probes.
+- **Audits earn their keep, and cost**: ~250–440k tokens each, ~25–35 min,
+  Opus. Two at a time per chunk pair worked; three is the user's cap. Give
+  them the pre-wave commit, the probe/sizes/wikitext files, and the report
+  path; say "no network" for gameplay and "one request per 3 s if you must"
+  for data. Copy every report into `reports/`.
+- **Checkpoint commits**: a session cut-off loses nothing if every fold is
+  committed with its pipeline green. The user watches their usage limit and
+  has hit it mid-session.
 
 ## Also queued, lower
 
-- **Western Europe** is next in the order: one config per country ×
-  category, the same loop. Expect the "size unknown" decision to matter
-  (fjords, bays, small islands).
-- The worldwide "List of straits" / "List of gulfs" surfaced ~180 non-US
-  straits and gulfs missing from the bank (in `work/us-seas.json`).
+- The ~180 non-US straits and gulfs in `work/us-seas.json` (Danish Straits,
+  Cabot, Tablas, Ombai, Kara, Foxe Basin, Gulf of Fonseca, Peter the Great
+  Gulf…) — many with figures; each belongs to a later wave.
+- `river-humber` scores on Humber River (Ontario) while themed as England's.
 - **Docs that lag the bank:** `README.md` says "1,719 places"; SPEC §6's
-  count table is at v1.1 numbers; `dist/wormillion.html` is the
-  pre-expansion bundle (`npm run bundle` makes a ~1.6 MB one).
-- **Nobody has played the 11,600-place bank for feel.**
+  count table is at v1.1 numbers; `dist/wormillion.html` is the pre-expansion
+  bundle (`npm run bundle`).
+- **Nobody has played the 12,000-place bank for feel.** Three `?debug` runs
+  and a note of what felt off would be worth an hour.
+- No social-preview metadata (Open Graph); a named leaderboard; page weight
+  (1.55 MB, gzip ~300 KB; nobody has complained).
 
 ---
 
@@ -185,9 +373,8 @@ States" was a 1,000-point mountain; jackpot share by floor 30 → 45%, 61 →
 ## Where it lives
 
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is
-  authenticated, `git push` just works). **The wave is on branch `expansion`**
-  (pushed; CI runs on it). `main` is at `ffeceaa` = what Netlify serves
-  (plus HANDOFF commits).
+  authenticated, `git push` just works). **Both waves live on branch `expansion`**
+  (pushed; CI runs on it). `main` is at `ffeceaa` = what Netlify serves.
 - **GitHub Pages:** https://michaelboujikian.github.io/wormillion/ — every push
   to `main` deploys within a minute or two (`deploy.yml`); `ci.yml` runs
   test + validate on every branch.
@@ -201,35 +388,6 @@ States" was a 1,000-point mountain; jackpot share by floor 30 → 45%, 61 →
   `npm start` serves on :8123 (`.claude/launch.json` names it `wormillion` for
   the in-app browser pane) **and mounts the comparison API over an in-memory
   store**, so the whole server flow plays locally.
-
-## Green as of 2026-09-16 mid-morning (branch `expansion`)
-
-`npm test` 180 · `npm run validate` 11,619 entries · `npm run gap-check` 419
-obvious answers all land.
-
-**Bank:** 197 countries · 247 capitals · 2,781 cities · 1,162 lakes · 3,192
-rivers · 1,985 mountains · 131 deserts · 1,663 islands · 261 seas = **11,619**
-(`main` / Netlify: 9,300). `bank.js` is 1.49 MB. ~4,900 `WIKI_TITLES`
-overrides. Mecaya
-(7 views/mo) is the river cohort minimum and so the ★ "rarest answer" reveal
-for plain "Name a river." in about half the dailies — the premise working,
-not a bug.
-
-**Dig #1's fifteen prompts changed once, knowingly** (round 12: the lake
-size guard — see decision 2; pinned in `tests/prompts.test.js`).
-Every daily draws from the current bank, so a data push changes the day's
-prompts for anyone who hasn't played yet on that host — see "Raise this first".
-
-## Real players
-
-Submissions per daily on Netlify: dig #1 = 2 (smoke tests) · #2 = 12 · #3 = 56
-· **#4 (2026-09-15) = 123** · #5 = 10 by 18:00 PDT. Dig #4's aggregate was the
-first human signal on difficulty (old bank): the tight themed rounds were
-missed by more than half — "desert in Australia" 67/116, "mountain in
-Indonesia" 65, "sea or ocean in the Antarctic" 61 — and "mountain with an R in
-it" produced 38 duds (Everest). `curl ".../daily-stats?day=2026-09-15"` has
-the per-round numbers. The aggregator listing the daily was built for has not
-been named by the user; the players came from somewhere.
 
 ## Netlify, verified live on the new bank (2026-09-15 ~20:30 PDT)
 
@@ -260,7 +418,7 @@ Netlify site is ever renamed, change `REMOTE_API` in `compare.js` and
 from its submissions with `createDailyApi(...).rebuild(day)`; no endpoint on
 purpose. Harmless rows `smoke-test-0001/0002` sit in dig #1.
 
-## How it got here (short; details in SPEC §13 and git log)
+## How it got here (short; details in SPEC §13, `reports/`, and git log)
 
 v1.0–1.2 built the game: nine categories, pageview-based scoring, fuzzy
 matching, the prompt-modifier system, the pixel-art dig scene, jackpot and dud
@@ -272,7 +430,10 @@ probes (`reports/2026-09-15-colombia-rivers.md`, `-us-cities.md`,
 `-sweden-lakes.md`), 66 Colombian rivers + 249 US cities + 24 Swedish lakes
 folded, the matcher's edit-budget change (SPEC 3.7), two Opus audits
 (`reports/2026-09-15-post-fill-*.md`) and their fixes (`c07c7f9`,
-`4203814`), the Netlify deploy and its verification.
+`4203814`), the Netlify deploy and its verification. 2026-09-16 (overnight):
+the US wave on `expansion` — seven probes, ~2,700 rows folded, eight Opus
+audits, two matcher/letter-rule changes, `HANDOFF` rewritten for Western
+Europe.
 
 ---
 
@@ -358,6 +519,9 @@ npm test && npm run gap-check        # then commit
 | city region prompts | only regions with ≥ 6 cities | `regionOptions()`, `promptBank.js` |
 | city size thresholds | 500k / 1M / 5M / 10M, city-proper population | `SIZE_RULES.city`, `promptBank.js` |
 | fuzzy edit budget | 0 edits for a stripped name of ≤4 letters, 1 for 5–7, 2 for 8–11, 3 beyond; +1 for a ≥4-letter name typed with a generic word the entry also carries | `slackFor`, `nearest`, `matching.js` |
+| matching filler words | mount, mt, mountain, peak, hill, lake, loch, lough, llyn, river, rio, sea, ocean, gulf, bay, island(s), isle(s), desert, the, of, city, saint, st, cape, atoll, **reservoir** | `FILLER`, `matching.js` |
+| letter-rule filler | the matching set minus loch/lough/llyn/saint/st/cape/rio (those are letters where they are the name), **plus, for rivers only, creek/fork/branch/run/brook/kill/wash/slough/draw** (bayou and arroyo lead the name like rio); whole-name categories (country, capital, city, sea) strip only "the" | `LETTER_FILLER`, `LETTER_ONLY_FILLER`, `letterFillerFor`, `promptBank.js` |
+| letter-rule miss text | names the word that didn't count: "Bear Creek has no double letter (Creek doesn't count)" | `letterMissText(name, rule, category)`, `promptBank.js`; wired in `ui.js` |
 | dig below the jackpot bar | `rarity × 70` | `DIG_SCALE`, `rarity.js` |
 | jackpot bar | rarity ≥ 0.85 | `JACKPOT_RARITY`, `rarity.js` |
 | jackpot dig / perfect dig | 75 / 100 ("perfect" = rarity ≥ 0.995, shows as 100%) | `DIG_JACKPOT`, `DIG_PERFECT`, `PERFECT_RARITY`, `rarity.js` |
@@ -381,11 +545,12 @@ npm test && npm run gap-check        # then commit
 | Pages copy's API | `REMOTE_API = 'https://wormillion.netlify.app'` | `compare.js` |
 | pageview window / metric | 60 daily counts, median × 30.44 | `DAYS`, `monthlyFromDaily`, `fetch-pageviews.mjs` |
 
-What the audits measured against them: no prompt falls below `MIN_ELIGIBLE`
-except the two deliberate tight themes (Mesopotamia, the Great Lakes); the
-only size prompt near `MAX_ELIGIBLE_SHARE` is "capital whose country has over
-10 million" at 58%; the next 30 dailies generate cleanly with no repeated
-text within a day.
+What the audits measured against them (2026-09-16): nothing below
+`MIN_ELIGIBLE` except the deliberate tight themes; two prompts retired by
+`MAX_ELIGIBLE_SHARE` this wave (lake < 100 km² at 60.0%, city flag blue+white
+at 60.1%) and "city flag blue+red" at 55% next; the next 30 dailies
+generate cleanly with no repeated text within a day; jackpot share per
+cohort 0.8–4.0% (mountains were 45% before the re-cut).
 
 ## Environment gotchas (this machine)
 
@@ -505,6 +670,12 @@ text within a day.
   capitals, cities and seas keep their whole official name
   (`WHOLE_NAME_CATEGORIES`). Length rules judge the spelling typed or its
   generic-word-trimmed form, whichever fits. Digits are characters (K2).
+  (2026-09-16, user's decision) `reservoir` is a matching filler word like
+  `lake`; creek/fork/branch/run/brook/kill/wash/slough/draw are **letter-only**
+  filler for rivers — identifying for the matcher (Bear Creek is not Bear
+  River), generic for the letter rules ("Bear Creek" no more ends in K than
+  "Lake Tahoe" ends in E); bayou and arroyo lead the name like rio. A miss
+  says which word didn't count — the user asked for that hint.
 - **Entries are named as the world names them.** No bank-invented
   disambiguators; real names that carry a generic word stay. A parenthetical
   in a name (`Krka (Croatia)`, `Tana River (Kenya)`) is only there when
@@ -552,18 +723,19 @@ text within a day.
 
 ## Open threads and judgment calls (none urgent)
 
-- **45 US cities whose name is held by another place** (Portland ME, Birmingham
-  AL, Toledo OH…) — only Wikipedia's comma form ("Portland, Maine") would let
-  them in; a rules decision for the user. **55 Colombian rivers** have no
-  length figure anywhere (`reports/2026-09-15-colombia-rivers.md`).
-  **Sweden's 164 lakes under 30 km²** were left out on purpose.
+- **130 US cities whose name is held by another place** (Portland ME,
+  Birmingham AL, Cambridge MA, Toledo OH…) — decision 5. **55 Colombian
+  rivers** have no length figure anywhere; **652 US bays, ~1,100 US islands,
+  10 US deserts** have no area — decision 1. **Sweden's 164 lakes under 30
+  km²** were left out on purpose.
 - **"Isle of White"** lands on New Zealand's White Island through the loose
   pass; **"Rock Island"** on Palau's Rock Islands; **"St. George, Utah"** is
   accepted as George, South Africa because `st` is filler. Each fixable with
   an alias or a rule; each has a side effect on the letter rules.
-- 11 of the new US "cities" are census-designated places (Paradise NV,
-  Enterprise NV, Metairie…): real 100k+ places outside the rulebook's
-  "administrative city". Torbes and Uribante are Venezuelan rivers in the
+- ~45 of the US "cities" are census-designated places or unincorporated
+  communities (Paradise NV, Metairie, Bethesda, The Villages, East Los
+  Angeles…): real places outside the rulebook's "administrative city"; 30
+  are townships (Upper Darby Township, with a bare alias). Torbes and Uribante are Venezuelan rivers in the
   South America theme. "Toms River" / "Grand Island" / "Cape Coral" count as
   short city names via their trimmed form (documented).
 - **Antarctic Desert / Arctic Desert** score on the continent articles and are
@@ -573,7 +745,11 @@ text within a day.
 - **~140 pattern-flagged candidates** from the 2026-09-15 bank audit (big
   rivers/mountains/cities with very few views) were never individually
   confirmed; `auto-titles.mjs` catches airports but not a plausible wrong
-  place.
+  place. The probes' `taken` lists are the better detector (nine wrong
+  articles found that way this wave).
+- A *length* prompt refuses an ineligible entry with the generic "doesn't fit
+  this one" instead of "is 13 letters — this round wants 5 or fewer" when
+  the entry was never in the prompt's lookup (noticed 2026-09-16; cosmetic).
 - **The USA outlier** (1.5M views) compresses the country curve; a clipped
   max in `rarityOf` is a scoring change — ask first.
 - **Five Malaysian peaks have no theme home**; no `Indonesia`-style theme for
@@ -604,7 +780,9 @@ text within a day.
 - **Working style:** they read summaries closely and decide fast. Present open
   decisions as a numbered list with a recommendation each; they answer all in
   one message; then do the whole batch and say at the end whether anything
-  needs a second prompt. Commit each change separately. Pushes to `main` are
+  needs a second prompt. **Floors: decide on the spot and tell them which.**
+  They will step away for hours during probes; carry on to a committed state
+  and leave a status message they can read on return. Commit each change separately. Pushes to `main` are
   allowed without asking (but see "Raise this first"). Sub-agents are welcome
   when they earn their keep; they'll say which model.
 - **They watch their usage limit** and have hit it mid-session before. Keep
