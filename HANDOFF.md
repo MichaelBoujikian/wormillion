@@ -38,7 +38,7 @@ Decisions the user took 2026-09-15 (late), all in one message:
    Wales Island AK…) stay out; no comma-form or parenthetical names.
 5. **Audits on Opus**, piecemeal with checkpoints, up to three at a time.
 
-## Where the US wave stands (branch `expansion`, 33 commits ahead of `main`)
+## Where the US wave stands (branch `expansion`, 37 commits ahead of `main`)
 
 | category | probe | added | floor | report |
 |---|---|---|---|---|
@@ -50,18 +50,22 @@ Decisions the user took 2026-09-15 (late), all in one message:
 | deserts | 132 articles, 82 present | **2** | none — only 2 of 12 have an area | same |
 | cities < 100k | 42,857 candidates, 30,575 cities, 462 present | **408** (+ East LA, Silver Spring by hand) | 50,000 | `-us-cities-50k.md` |
 
-Bank **12,017** (was 9,300): rivers 3,192 · lakes 1,160 · mountains 1,984 ·
-islands 1,655 · seas 259 · deserts 130 · cities 3,189 · countries 197 ·
+Bank **12,008** (was 9,300): rivers 3,192 · lakes 1,160 · mountains 1,984 ·
+islands 1,655 · seas 259 · deserts 130 · cities 3,180 · countries 197 ·
 capitals 247. `bank.js` 1.55 MB. `npm test` 181 · `validate` OK ·
-`gap-check` 443 obvious answers land. Every chunk is its own commit; every
+`gap-check` 443 obvious answers land. **The wave is complete and audited**
+(eight Opus audits; every confirmed finding applied). Every chunk is its own commit; every
 probe has a report; the four audit reports are under `scripts/expansion/reports/`.
 
 Decision 3 is done (`807ad68` reservoir as filler; `2a2fef6` creek/bayou/
 fork… as letter-only filler, with the miss text "(Creek doesn't count)").
-The cities chunk (`5d92a41`) has not been audited yet — the last two audit
-reports (`-us-islands-*-audit.md`) are the shape; run data + gameplay on
-Opus with the cities chunk `work/folded/new-cities-50k.txt` + `-50k2.txt`,
-pre-wave bank `2a2fef6`.
+The cities chunk was audited too (`f03ee4b` applied the fixes: New York's
+county-subdivision towns out, township aliases, Tonawanda re-pointed). One
+more thing the cities audit measured for decision 2: "Name a non-capital
+city in a country whose flag has both blue and white in it" crossed
+`MAX_ELIGIBLE_SHARE` (54% → 60.1%) with 400 more red-white-blue US cities,
+so it no longer draws and daily 2026-10-11 changes; "blue and red" is at
+55% and will cross with the next ~300 US, French or British cities.
 
 ## Decisions waiting for the user (present as a numbered list, recommend each)
 
