@@ -40,7 +40,10 @@ const EXPECTED = {
   city: ['city', 'town', 'municipal', 'metropolis', 'capital', 'district', 'commune', 'prefecture', 'borough', 'settlement', 'urban', 'seaport', 'port city', 'port town', 'seat', 'conurbation',
     // the 2026-09 expansion: Wikidata describes Italian cities as "Comune in…", Spanish and Latin
     // American ones as "Place in…"/"Municipio", Maltese ones as "Local council", resorts as such
-    'comune', 'municipio', 'local council', 'resort', 'quarter', 'castello', 'place in', 'census-designated'],
+    'comune', 'municipio', 'local council', 'resort', 'quarter', 'castello', 'place in', 'census-designated',
+    // the 2026-09 US scouring: Illinois incorporates 80,000-person suburbs as villages, and
+    // East Los Angeles (118,000) and Silver Spring (81,000) are "unincorporated communities"
+    'village', 'unincorporated community'],
   lake: ['lake', 'loch', 'llyn', 'reservoir', 'lagoon', 'body of water', 'endorheic', 'sea', 'water'],
   river: ['river', 'stream', 'tributary', 'waterway', 'watercourse',
     // the 2026-09 US scouring: Wikidata describes American streams as creeks, bayous, forks, runs, brooks

@@ -2848,4 +2848,412 @@ Waipahu|United States|43485
 Sunrise Manor|United States|205618
 East Honolulu|United States|50922
 Frankfort|United States|28602
+Coeur d'Alene|United States|54628
+Greenville|United States|70720
+The Villages|United States|79077
+Galveston|United States|53695
+Bellingham|United States|91482
+Greenwich|United States|63518
+Schenectady|United States|67047
+Bethesda|United States|68056
+Evanston|United States|78110
+Cupertino|United States|60381
+Mountain View|United States|82376
+White Plains|United States|59559
+Franklin|United States|83454
+Lynchburg|United States|79009
+Kalamazoo|United States|73598
+Grand Junction|United States|65560
+Newport Beach|United States|85239
+Oshkosh|United States|66816
+Mount Vernon|United States|73893
+New Rochelle|United States|79726
+Ocala|United States|63591
+Brookline|United States|63191
+New Brunswick|United States|55266
+Yakima|United States|96968
+Redmond|United States|73256
+Redding|United States|93611
+Terre Haute|United States|58389
+Miami Beach|United States|82890
+Newton|United States|88923
+Appleton|United States|75644
+Jupiter|United States|61047
+Marietta|United States|60972
+Champaign|United States|88302
+Oak Park|United States|54583
+Walnut Creek|United States|70127
+Troy|United States|51401
+Petaluma|United States|59776
+Hempstead|United States|793409
+Johnson City|United States|71046
+Chapel Hill|United States|61960
+Eau Claire|United States|69421
+Middletown|United States|50987
+Longview|United States|81638
+Hawthorne|United States|88083
+Pocatello|United States|56320
+Corvallis|United States|59922
+Alameda|United States|78280
+Council Bluffs|United States|62799
+Muncie|United States|65194
+Medford|United States|85824
+Bradenton|United States|55698
+Dubuque|United States|59667
+Redwood City|United States|84292
+Orem|United States|98129
+San Marcos|United States|67553
+Whittier|United States|87306
+Arlington Heights|United States|77676
+Beaverton|United States|97494
+La Crosse|United States|52680
+Reston|United States|63226
+Cherry Hill|United States|74553
+Davis|United States|66850
+Kissimmee|United States|79226
+Twin Falls|United States|51807
+Danbury|United States|86518
+Decatur|United States|70522
+Battle Creek|United States|52721
+Harrisonburg|United States|51814
+Ames|United States|66427
+Lake Havasu City|United States|57144
+Alpharetta|United States|65818
+San Rafael|United States|61271
+Pontiac|United States|61606
+Encinitas|United States|62007
+Redlands|United States|73168
+Yorba Linda|United States|68336
+Kokomo|United States|59604
+Port Arthur|United States|56039
+St. Cloud|United States|68881
+Valdosta|United States|55378
+Cicero|United States|85268
+Auburn|United States|76143
+Redondo Beach|United States|71576
+Arcadia|United States|56681
+Livermore|United States|87955
+Indio|United States|89137
+Flower Mound|United States|75956
+Plantation|United States|91750
+Levittown|United States|51758
+Dothan|United States|71072
+Kirkland|United States|92175
+Chino|United States|91403
+Des Plaines|United States|60675
+Lodi|United States|66348
+Royal Oak|United States|58211
+Pleasanton|United States|79871
+Camarillo|United States|70741
+Mission Viejo|United States|93653
+Schaumburg|United States|78723
+Framingham|United States|72362
+Deerfield Beach|United States|86859
+San Clemente|United States|64293
+Grapevine|United States|50631
+Edina|United States|53494
+Normal|United States|52736
+Oyster Bay|United States|301332
+Rogers|United States|69908
+Waukesha|United States|71158
+Lake Elsinore|United States|70265
+Lynwood|United States|67265
+Palm Beach Gardens|United States|59182
+Waltham|United States|65218
+Mooresville|United States|50193
+Lawton|United States|90381
+Delray Beach|United States|66846
+Ellicott City|United States|75947
+Merced|United States|86333
+Rocky Mount|United States|54341
+Sunrise|United States|97335
+Kingsport|United States|55442
+Enid|United States|51308
+Homestead|United States|80737
+Rochester Hills|United States|76300
+Gastonia|United States|80411
+Hendersonville|United States|61753
+Temple|United States|82073
+Alhambra|United States|82868
+Logan|United States|52778
+Hemet|United States|89833
+Elkhart|United States|53923
+Skokie|United States|67824
+Waukegan|United States|89321
+Yuba City|United States|70117
+Castle Rock|United States|73158
+Huntersville|United States|61376
+Perth Amboy|United States|55436
+Union City|United States|68589
+Hanford|United States|57990
+Milpitas|United States|80273
+Apopka|United States|54873
+Boynton Beach|United States|80380
+Conway|United States|64134
+Folsom|United States|80454
+Richland|United States|60560
+Towson|United States|59553
+Broomfield|United States|74112
+Loveland|United States|76378
+Novato|United States|53225
+Germantown|United States|91249
+Apple Valley|United States|75791
+Passaic|United States|70537
+Doral|United States|75874
+Pasco|United States|77108
+Bryan|United States|83980
+Sanford|United States|61051
+Brookhaven|United States|485773
+Kennewick|United States|83921
+Summerville|United States|50915
+Upper Darby Township|United States|85681
+Gilroy|United States|59520
+Vineland|United States|60780
+Gardena|United States|61027
+Kannapolis|United States|53114
+Bossier City|United States|62701
+Berwyn|United States|57250
+Noblesville|United States|69604
+Texas City|United States|51898
+Waldorf|United States|81410
+West Sacramento|United States|53915
+Fountain Valley|United States|57047
+Woodland|United States|61032
+Harlingen|United States|71829
+Haverhill|United States|67787
+Southfield|United States|76618
+Missouri City|United States|74259
+Janesville|United States|65615
+Lake Forest|United States|85858
+Moore|United States|62793
+Weston|United States|68107
+Wheaton|United States|53970
+Turlock|United States|72740
+Warner Robins|United States|80308
+Abington Township|United States|58502
+East Orange|United States|69612
+Chino Hills|United States|78411
+Hoffman Estates|United States|52530
+Diamond Bar|United States|55072
+Malden|United States|66263
+Milford|United States|50558
+Rocklin|United States|71601
+San Ramon|United States|84605
+South Gate|United States|92726
+Bellflower|United States|79190
+Plainfield|United States|54586
+Pflugerville|United States|65191
+Downers Grove|United States|50247
+Brentwood|United States|64292
+Cuyahoga Falls|United States|51114
+Cypress|United States|50151
+Lorain|United States|65211
+Middletown Township|United States|67106
+Casa Grande|United States|53658
+Clifton|United States|90296
+Upland|United States|79040
+La Mesa|United States|61121
+Sandy|United States|96904
+Baldwin Park|United States|72176
+Montebello|United States|62640
+Aliso Viejo|United States|52176
+Johns Creek|United States|82453
+San Leandro|United States|91008
+Tustin|United States|80276
+Revere|United States|62186
+Largo|United States|82485
+Piscataway|United States|60804
+West New York|United States|52912
+Manteca|United States|83498
+Perris|United States|78700
+Azusa|United States|50000
+Minnetonka|United States|53781
+Carmichael|United States|79793
+Covina|United States|51268
+Eagan|United States|68855
+Vista|United States|98381
+Watsonville|United States|52590
+Anderson|United States|54788
+St. Louis Park|United States|50010
+Taunton|United States|59408
+Wayne|United States|54838
+Celina|United States|64427
+Novi|United States|66243
+Port Charlotte|United States|60625
+Smithtown|United States|116296
+Baytown|United States|83701
+Cedar Park|United States|77595
+North Bergen|United States|63361
+Porterville|United States|62623
+North Port|United States|74793
+Weymouth|United States|57437
+Lehi|United States|75907
+Madera|United States|66224
+Mansfield|United States|72602
+Eden Prairie|United States|64198
+Tinley Park|United States|55971
+Glendora|United States|52558
+Kettering|United States|57862
+Apex|United States|58780
+Laguna Niguel|United States|64355
+Mishawaka|United States|51063
+Monterey Park|United States|61096
+Wylie|United States|57526
+Amherst|United States|129595
+Oak Lawn|United States|58362
+West Allis|United States|60325
+Cathedral City|United States|51493
+Draper|United States|51017
+Farmington Hills|United States|83986
+Hoover|United States|92606
+Islip|United States|339938
+Hamden|United States|61169
+Palatine|United States|67908
+Coconut Creek|United States|57833
+DeSoto|United States|56145
+El Dorado Hills|United States|50547
+Queen Creek|United States|59519
+Sammamish|United States|67455
+West Hartford|United States|64083
+Buena Park|United States|84034
+Rancho Cordova|United States|79332
+Tulare|United States|68875
+South San Francisco|United States|66105
+Blue Springs|United States|58603
+Bolingbrook|United States|73922
+Babylon|United States|218223
+Elyria|United States|52656
+Centreville|United States|73518
+Huntington Park|United States|54883
+Parker|United States|58512
+Kenner|United States|66448
+Parsippany-Troy Hills|United States|56162
+Orland Park|United States|58703
+Glen Burnie|United States|72891
+Mission|United States|85778
+Peabody|United States|54481
+Yucaipa|United States|54542
+Bonita Springs|United States|53644
+Commerce City|United States|62418
+Greenwood|United States|63830
+Union Township|United States|59728
+Jackson Township|United States|58544
+Leander|United States|59202
+Lenexa|United States|57434
+Florissant|United States|52533
+O'Fallon|United States|91316
+Shoreline|United States|58608
+Euless|United States|61032
+Lower Merion Township|United States|63633
+Maricopa|United States|58125
+West Des Moines|United States|68723
+Chicopee|United States|55560
+Colton|United States|53909
+National City|United States|56173
+Brooklyn Park|United States|86478
+Fulshear|United States|64630
+Placentia|United States|51824
+San Tan Valley|United States|99894
+Stratford|United States|52355
+Bloomfield|United States|53105
+Eastvale|United States|69757
+Delano|United States|51428
+Lacey|United States|53526
+Lakeville|United States|69490
+Irvington|United States|61176
+Maple Grove|United States|70253
+Marysville|United States|70714
+Mount Prospect|United States|56852
+North Little Rock|United States|64591
+Hamilton Township|United States|92297
+Margate|United States|58712
+Palm Harbor|United States|61366
+Rosemead|United States|51185
+West Bloomfield Township|United States|65888
+Brick Township|United States|73620
+Burnsville|United States|64317
+Collierville|United States|51324
+Dunwoody|United States|51683
+La Habra|United States|63097
+Taylor|United States|63409
+Tigard|United States|54539
+Westchester|United States|56384
+Blaine|United States|70222
+Rowlett|United States|62535
+Woodbury|United States|75102
+Lauderhill|United States|74482
+Bensalem Township|United States|62707
+Layton|United States|81773
+Meriden|United States|60850
+Paramount|United States|53733
+Cheektowaga|United States|89877
+San Jacinto|United States|53898
+Kendall|United States|80241
+Port Orange|United States|62596
+Ramapo|United States|148919
+Methuen|United States|53059
+Old Bridge Township|United States|66876
+Howell Township|United States|53537
+Colonie|United States|85590
+Burien|United States|52066
+Coon Rapids|United States|63599
+Pico Rivera|United States|62088
+Irondequoit|United States|51043
+North Hempstead|United States|237639
+Santee|United States|60037
+Waterford Township|United States|70565
+West Haven|United States|55584
+South Jordan|United States|77487
+Midwest City|United States|58409
+Shawnee|United States|67311
+Marana|United States|51908
+Shelby Charter Township|United States|79408
+Wyoming|United States|76501
+East Hartford|United States|50731
+St. Clair Shores|United States|58874
+Murray|United States|50637
+Greenburgh|United States|95397
+North Richland Hills|United States|69917
+Highland|United States|56999
+Severn|United States|57118
+Dearborn Heights|United States|63292
+North Bethesda|United States|50094
+Pharr|United States|79715
+Westland|United States|85420
+Bartlett|United States|57786
+Franklin Township|United States|68364
+Pinellas Park|United States|53093
+North Miami|United States|60191
+Poinciana|United States|69309
+Kendale Lakes|United States|55646
+St. Peters|United States|57732
+Stonecrest|United States|59194
+Kentwood|United States|54304
+Herriman|United States|55144
+Tamarac|United States|71897
+Millcreek|United States|63380
+Atascocita|United States|88174
+Clay|United States|60527
+Gloucester Township|United States|66034
+Arden-Arcade|United States|94659
+Dale City|United States|72088
+Macomb Township|United States|91663
+Clarkstown|United States|86855
+Haverford Township|United States|50431
+Florence-Graham|United States|61983
+Taylorsville|United States|60448
+Town 'n' Country|United States|85951
+Tamiami|United States|54212
+Millcreek Township|United States|54073
+The Hammocks|United States|59480
+Florin|United States|52388
+Fontainebleau|United States|59870
+Ypsilanti Charter Township|United States|55670
+Lower Paxton Township|United States|53501
+Bristol Township|United States|54291
+Georgetown Township|United States|54091
+Tonawanda|United States|57431
+Bel Air South|United States|57648
+East Los Angeles|United States|118786
+Silver Spring|United States|81015
 `;

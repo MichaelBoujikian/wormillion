@@ -50,7 +50,9 @@ const EXPECTED = {
     // the 2026-09-14 expansion: non-capital cities players reported missing
     'Nashville', 'Memphis', 'Charlotte', 'Cleveland', 'Cincinnati', 'Halifax', 'Merida', 'Monterrey', 'Medellin', 'Belo Horizonte', 'Bologna', 'Granada', 'Toledo', 'Sheffield', 'Newcastle', 'Nantes', 'Dusseldorf', 'Bilbao', 'Lodz', 'Nizhny Novgorod', 'Bursa', 'Tabriz', 'Erbil', 'Abeokuta', 'Port Said', 'Soweto', 'Eldoret', 'Sendai', 'Daegu', 'Suzhou', 'Indore', 'Peshawar', 'Semarang', 'Johor Bahru', 'Hobart', 'Cairns', 'Dunedin',
     // the 2026-09-15 US probe (scripts/expansion/reports/2026-09-15-us-cities.md)
-    'Brooklyn', 'Queens', 'Bronx', 'Arlington', 'Irvine', 'Albany', 'Fremont', 'Santa Clarita'],
+    'Brooklyn', 'Queens', 'Bronx', 'Arlington', 'Irvine', 'Albany', 'Fremont', 'Santa Clarita',
+    // the 2026-09-16 US cities under 100k (scripts/expansion/reports/2026-09-16-us-cities-50k.md)
+    'Greenville', 'Evanston', 'New Rochelle', 'Brookline', 'Redmond', 'Redding', 'Marietta', 'Schaumburg', 'Skokie', 'Bethesda', 'Silver Spring', 'Towson', 'Reston', 'East Los Angeles', 'The Villages', 'Hoboken', 'Flagstaff', 'Bozeman', 'Bend', 'Nashua', 'Cranston', 'Waukesha', 'Champaign', 'Ames'],
   island: ['Maui', 'Oahu', 'Seychelles', 'Falkland Islands', 'Falklands', 'Lofoten', 'Shetland', 'Orkney', 'Hebrides', 'Bali', 'Sicily', 'Greenland', 'Madagascar', 'Cuba', 'Hawaii', 'Manhattan', 'Iceland', 'Tasmania', 'Crete', 'Santorini', 'Fiji', 'Maldives', 'Galapagos', 'Isle of Skye', 'Long Island', 'Corfu', 'Phuket', 'Ibiza', 'Jamaica', 'Bora Bora', 'Aruba', 'Zanzibar', 'Palau', 'Samoa', 'Tonga', 'Bahamas', 'Singapore', 'Grenada', 'Haiti', 'Trinidad and Tobago', 'Big Island', 'Japan', 'Philippines', 'Indonesia', 'New Zealand', 'United Kingdom', 'Papua New Guinea', 'Brunei',
     // the 2026-09-14 expansion
     'Tobago', 'Hong Kong Island', 'Lantau', 'Phi Phi', 'Ko Tao', 'Vieques', 'Saba', 'Hvar', 'Mykonos', 'Iwo Jima', 'Corregidor', 'Manitoulin', 'Kerguelen', 'South Georgia',

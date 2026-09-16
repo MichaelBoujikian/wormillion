@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-16",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T16:53:14.204Z",
+ "fetched": "2026-09-16T18:36:18.505Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -22579,6 +22579,2862 @@
    "lat": 38.2,
    "lon": -84.86666667
   },
+  "city-coeur-d-alene": {
+   "title": "Coeur d'Alene, Idaho",
+   "monthlyViews": 28066,
+   "days": 60,
+   "lat": 47.69277778,
+   "lon": -116.78
+  },
+  "city-greenville": {
+   "title": "Greenville, South Carolina",
+   "monthlyViews": 24139,
+   "days": 60,
+   "lat": 34.86111111,
+   "lon": -82.41333333
+  },
+  "city-the-villages": {
+   "title": "The Villages, Florida",
+   "monthlyViews": 21247,
+   "days": 60,
+   "lat": 28.90333333,
+   "lon": -81.98861111
+  },
+  "city-galveston": {
+   "title": "Galveston, Texas",
+   "monthlyViews": 17625,
+   "days": 60,
+   "lat": 29.30138889,
+   "lon": -94.795
+  },
+  "city-bellingham": {
+   "title": "Bellingham, Washington",
+   "monthlyViews": 16438,
+   "days": 60,
+   "lat": 48.75,
+   "lon": -122.48333333
+  },
+  "city-greenwich": {
+   "title": "Greenwich, Connecticut",
+   "monthlyViews": 16164,
+   "days": 60,
+   "lat": 41.04722222,
+   "lon": -73.62222222
+  },
+  "city-schenectady": {
+   "title": "Schenectady, New York",
+   "monthlyViews": 16133,
+   "days": 60,
+   "lat": 42.81416667,
+   "lon": -73.93722222
+  },
+  "city-bethesda": {
+   "title": "Bethesda, Maryland",
+   "monthlyViews": 15951,
+   "days": 60,
+   "lat": 38.98472222,
+   "lon": -77.11305556
+  },
+  "city-evanston": {
+   "title": "Evanston, Illinois",
+   "monthlyViews": 15829,
+   "days": 60,
+   "lat": 42.04722222,
+   "lon": -87.685
+  },
+  "city-cupertino": {
+   "title": "Cupertino, California",
+   "monthlyViews": 15524,
+   "days": 60,
+   "lat": 37.32305556,
+   "lon": -122.03194444
+  },
+  "city-mountain-view": {
+   "title": "Mountain View, California",
+   "monthlyViews": 14916,
+   "days": 60,
+   "lat": 37.38611111,
+   "lon": -122.08388889
+  },
+  "city-white-plains": {
+   "title": "White Plains, New York",
+   "monthlyViews": 14916,
+   "days": 60,
+   "lat": 41.0325,
+   "lon": -73.7667
+  },
+  "city-franklin": {
+   "title": "Franklin, Tennessee",
+   "monthlyViews": 14824,
+   "days": 60,
+   "lat": 35.92916667,
+   "lon": -86.8575
+  },
+  "city-lynchburg": {
+   "title": "Lynchburg, Virginia",
+   "monthlyViews": 14520,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-kalamazoo": {
+   "title": "Kalamazoo, Michigan",
+   "monthlyViews": 14124,
+   "days": 60,
+   "lat": 42.29,
+   "lon": -85.58583333
+  },
+  "city-grand-junction": {
+   "title": "Grand Junction, Colorado",
+   "monthlyViews": 14002,
+   "days": 60,
+   "lat": 39.08777778,
+   "lon": -108.56805556
+  },
+  "city-newport-beach": {
+   "title": "Newport Beach, California",
+   "monthlyViews": 14002,
+   "days": 60,
+   "lat": 33.61666667,
+   "lon": -117.8975
+  },
+  "city-oshkosh": {
+   "title": "Oshkosh, Wisconsin",
+   "monthlyViews": 12724,
+   "days": 60,
+   "lat": 44.02416667,
+   "lon": -88.56111111
+  },
+  "city-mount-vernon": {
+   "title": "Mount Vernon, New York",
+   "monthlyViews": 12541,
+   "days": 60,
+   "lat": 40.91416667,
+   "lon": -73.83055556
+  },
+  "city-new-rochelle": {
+   "title": "New Rochelle, New York",
+   "monthlyViews": 11963,
+   "days": 60,
+   "lat": 40.90861111,
+   "lon": -73.78194444
+  },
+  "city-ocala": {
+   "title": "Ocala, Florida",
+   "monthlyViews": 11932,
+   "days": 60,
+   "lat": 29.1775,
+   "lon": -82.151
+  },
+  "city-brookline": {
+   "title": "Brookline, Massachusetts",
+   "monthlyViews": 11872,
+   "days": 60,
+   "lat": 42.33166667,
+   "lon": -71.12166667
+  },
+  "city-new-brunswick": {
+   "title": "New Brunswick, New Jersey",
+   "monthlyViews": 11872,
+   "days": 60,
+   "lat": 40.486678,
+   "lon": -74.444414
+  },
+  "city-yakima": {
+   "title": "Yakima, Washington",
+   "monthlyViews": 11872,
+   "days": 60,
+   "lat": 46.60194444,
+   "lon": -120.50583333
+  },
+  "city-redmond": {
+   "title": "Redmond, Washington",
+   "monthlyViews": 11841,
+   "days": 60,
+   "lat": 47.67611111,
+   "lon": -122.11694444
+  },
+  "city-redding": {
+   "title": "Redding, California",
+   "monthlyViews": 11811,
+   "days": 60,
+   "lat": 40.5864,
+   "lon": -122.3917
+  },
+  "city-terre-haute": {
+   "title": "Terre Haute, Indiana",
+   "monthlyViews": 11628,
+   "days": 60,
+   "lat": 39.47972222,
+   "lon": -87.375
+  },
+  "city-miami-beach": {
+   "title": "Miami Beach, Florida",
+   "monthlyViews": 11476,
+   "days": 60,
+   "lat": 25.82555556,
+   "lon": -80.1325
+  },
+  "city-newton": {
+   "title": "Newton, Massachusetts",
+   "monthlyViews": 11385,
+   "days": 60,
+   "lat": 42.33694444,
+   "lon": -71.20972222
+  },
+  "city-appleton": {
+   "title": "Appleton, Wisconsin",
+   "monthlyViews": 11111,
+   "days": 60,
+   "lat": 44.26666667,
+   "lon": -88.4
+  },
+  "city-jupiter": {
+   "title": "Jupiter, Florida",
+   "monthlyViews": 10593,
+   "days": 60,
+   "lat": 26.925,
+   "lon": -80.12722222
+  },
+  "city-marietta": {
+   "title": "Marietta, Georgia",
+   "monthlyViews": 10532,
+   "days": 60,
+   "lat": 33.95333333,
+   "lon": -84.54055556
+  },
+  "city-champaign": {
+   "title": "Champaign, Illinois",
+   "monthlyViews": 10380,
+   "days": 60,
+   "lat": 40.1164,
+   "lon": -88.2436
+  },
+  "city-oak-park": {
+   "title": "Oak Park, Illinois",
+   "monthlyViews": 10380,
+   "days": 60,
+   "lat": 41.88833333,
+   "lon": -87.78944444
+  },
+  "city-walnut-creek": {
+   "title": "Walnut Creek, California",
+   "monthlyViews": 10137,
+   "days": 60,
+   "lat": 37.90638889,
+   "lon": -122.065
+  },
+  "city-troy": {
+   "title": "Troy, New York",
+   "monthlyViews": 10076,
+   "days": 60,
+   "lat": 42.73166667,
+   "lon": -73.6925
+  },
+  "city-petaluma": {
+   "title": "Petaluma, California",
+   "monthlyViews": 10045,
+   "days": 60,
+   "lat": 38.24583333,
+   "lon": -122.63138889
+  },
+  "city-hempstead": {
+   "title": "Hempstead, New York",
+   "monthlyViews": 9954,
+   "days": 60,
+   "lat": 40.70472222,
+   "lon": -73.61722222
+  },
+  "city-johnson-city": {
+   "title": "Johnson City, Tennessee",
+   "monthlyViews": 9832,
+   "days": 60,
+   "lat": 36.33333333,
+   "lon": -82.36666667
+  },
+  "city-chapel-hill": {
+   "title": "Chapel Hill, North Carolina",
+   "monthlyViews": 9741,
+   "days": 60,
+   "lat": 35.92722222,
+   "lon": -79.03916667
+  },
+  "city-eau-claire": {
+   "title": "Eau Claire, Wisconsin",
+   "monthlyViews": 9680,
+   "days": 60,
+   "lat": 44.81666667,
+   "lon": -91.5
+  },
+  "city-middletown": {
+   "title": "Middletown, Ohio",
+   "monthlyViews": 9680,
+   "days": 60,
+   "lat": 39.50333333,
+   "lon": -84.36583333
+  },
+  "city-longview": {
+   "title": "Longview, Texas",
+   "monthlyViews": 9589,
+   "days": 60,
+   "lat": 32.5202,
+   "lon": -94.7611
+  },
+  "city-hawthorne": {
+   "title": "Hawthorne, California",
+   "monthlyViews": 9528,
+   "days": 60,
+   "lat": 33.91722222,
+   "lon": -118.34861111
+  },
+  "city-pocatello": {
+   "title": "Pocatello, Idaho",
+   "monthlyViews": 9223,
+   "days": 60,
+   "lat": 42.8622,
+   "lon": -112.4506
+  },
+  "city-corvallis": {
+   "title": "Corvallis, Oregon",
+   "monthlyViews": 9162,
+   "days": 60,
+   "lat": 44.56972222,
+   "lon": -123.27833333
+  },
+  "city-alameda": {
+   "title": "Alameda, California",
+   "monthlyViews": 9071,
+   "days": 60,
+   "lat": 37.75611111,
+   "lon": -122.27444444
+  },
+  "city-council-bluffs": {
+   "title": "Council Bluffs, Iowa",
+   "monthlyViews": 9071,
+   "days": 60,
+   "lat": 41.23666667,
+   "lon": -95.85194444
+  },
+  "city-muncie": {
+   "title": "Muncie, Indiana",
+   "monthlyViews": 9071,
+   "days": 60,
+   "lat": 40.19666667,
+   "lon": -85.375
+  },
+  "city-medford": {
+   "title": "Medford, Oregon",
+   "monthlyViews": 8980,
+   "days": 60,
+   "lat": 42.35555556,
+   "lon": -122.87861111
+  },
+  "city-bradenton": {
+   "title": "Bradenton, Florida",
+   "monthlyViews": 8888,
+   "days": 60,
+   "lat": 27.49611111,
+   "lon": -82.57722222
+  },
+  "city-dubuque": {
+   "title": "Dubuque, Iowa",
+   "monthlyViews": 8888,
+   "days": 60,
+   "lat": 42.49972222,
+   "lon": -90.72361111
+  },
+  "city-redwood-city": {
+   "title": "Redwood City, California",
+   "monthlyViews": 8645,
+   "days": 60,
+   "lat": 37.48277778,
+   "lon": -122.23611111
+  },
+  "city-orem": {
+   "title": "Orem, Utah",
+   "monthlyViews": 8584,
+   "days": 60,
+   "lat": 40.29055556,
+   "lon": -111.72972222
+  },
+  "city-san-marcos": {
+   "title": "San Marcos, Texas",
+   "monthlyViews": 8432,
+   "days": 60,
+   "lat": 29.87944444,
+   "lon": -97.93888889
+  },
+  "city-whittier": {
+   "title": "Whittier, California",
+   "monthlyViews": 8371,
+   "days": 60,
+   "lat": 33.96555556,
+   "lon": -118.02444444
+  },
+  "city-arlington-heights": {
+   "title": "Arlington Heights, Illinois",
+   "monthlyViews": 8249,
+   "days": 60,
+   "lat": 42.12,
+   "lon": -87.985
+  },
+  "city-beaverton": {
+   "title": "Beaverton, Oregon",
+   "monthlyViews": 8219,
+   "days": 60,
+   "lat": 45.47777778,
+   "lon": -122.81666667
+  },
+  "city-la-crosse": {
+   "title": "La Crosse, Wisconsin",
+   "monthlyViews": 8219,
+   "days": 60,
+   "lat": 43.81333333,
+   "lon": -91.23305556
+  },
+  "city-reston": {
+   "title": "Reston, Virginia",
+   "monthlyViews": 8219,
+   "days": 60,
+   "lat": 38.95888889,
+   "lon": -77.35861111
+  },
+  "city-cherry-hill": {
+   "title": "Cherry Hill, New Jersey",
+   "monthlyViews": 8158,
+   "days": 60,
+   "lat": 39.904611,
+   "lon": -74.997
+  },
+  "city-davis": {
+   "title": "Davis, California",
+   "monthlyViews": 8158,
+   "days": 59,
+   "lat": 38.55388889,
+   "lon": -121.73805556
+  },
+  "city-kissimmee": {
+   "title": "Kissimmee, Florida",
+   "monthlyViews": 8127,
+   "days": 60,
+   "lat": 28.30416667,
+   "lon": -81.41277778
+  },
+  "city-twin-falls": {
+   "title": "Twin Falls, Idaho",
+   "monthlyViews": 8097,
+   "days": 60,
+   "lat": 42.564,
+   "lon": -114.46
+  },
+  "city-danbury": {
+   "title": "Danbury, Connecticut",
+   "monthlyViews": 8067,
+   "days": 60,
+   "lat": 41.40222222,
+   "lon": -73.47111111
+  },
+  "city-decatur": {
+   "title": "Decatur, Illinois",
+   "monthlyViews": 7793,
+   "days": 60,
+   "lat": 39.84142222,
+   "lon": -88.95588056
+  },
+  "city-battle-creek": {
+   "title": "Battle Creek, Michigan",
+   "monthlyViews": 7762,
+   "days": 60,
+   "lat": 42.31222222,
+   "lon": -85.20416667
+  },
+  "city-harrisonburg": {
+   "title": "Harrisonburg, Virginia",
+   "monthlyViews": 7762,
+   "days": 60,
+   "lat": 38.44944444,
+   "lon": -78.86888889
+  },
+  "city-ames": {
+   "title": "Ames, Iowa",
+   "monthlyViews": 7701,
+   "days": 60,
+   "lat": 42.01805556,
+   "lon": -93.62
+  },
+  "city-lake-havasu-city": {
+   "title": "Lake Havasu City, Arizona",
+   "monthlyViews": 7640,
+   "days": 60,
+   "lat": 34.4998,
+   "lon": -114.3109
+  },
+  "city-alpharetta": {
+   "title": "Alpharetta, Georgia",
+   "monthlyViews": 7580,
+   "days": 59,
+   "lat": 34.0725,
+   "lon": -84.25833333
+  },
+  "city-san-rafael": {
+   "title": "San Rafael, California",
+   "monthlyViews": 7549,
+   "days": 60,
+   "lat": 37.97361111,
+   "lon": -122.53111111
+  },
+  "city-pontiac": {
+   "title": "Pontiac, Michigan",
+   "monthlyViews": 7519,
+   "days": 60,
+   "lat": 42.64611111,
+   "lon": -83.2925
+  },
+  "city-encinitas": {
+   "title": "Encinitas, California",
+   "monthlyViews": 7488,
+   "days": 60,
+   "lat": 33.04444444,
+   "lon": -117.27166667
+  },
+  "city-redlands": {
+   "title": "Redlands, California",
+   "monthlyViews": 7458,
+   "days": 60,
+   "lat": 34.05472222,
+   "lon": -117.1825
+  },
+  "city-yorba-linda": {
+   "title": "Yorba Linda, California",
+   "monthlyViews": 7458,
+   "days": 60,
+   "lat": 33.889,
+   "lon": -117.813
+  },
+  "city-kokomo": {
+   "title": "Kokomo, Indiana",
+   "monthlyViews": 7336,
+   "days": 60,
+   "lat": 40.48222222,
+   "lon": -86.13166667
+  },
+  "city-port-arthur": {
+   "title": "Port Arthur, Texas",
+   "monthlyViews": 7214,
+   "days": 60,
+   "lat": 29.86833333,
+   "lon": -93.89
+  },
+  "city-st-cloud": {
+   "title": "St. Cloud, Minnesota",
+   "monthlyViews": 7214,
+   "days": 60,
+   "lat": 45.53416667,
+   "lon": -94.17166667
+  },
+  "city-valdosta": {
+   "title": "Valdosta, Georgia",
+   "monthlyViews": 7214,
+   "days": 60,
+   "lat": 30.84666667,
+   "lon": -83.28305556
+  },
+  "city-cicero": {
+   "title": "Cicero, Illinois",
+   "monthlyViews": 7184,
+   "days": 60,
+   "lat": 41.84444444,
+   "lon": -87.75916667
+  },
+  "city-auburn": {
+   "title": "Auburn, Alabama",
+   "monthlyViews": 7153,
+   "days": 60,
+   "lat": 32.60833333,
+   "lon": -85.50138889
+  },
+  "city-redondo-beach": {
+   "title": "Redondo Beach, California",
+   "monthlyViews": 7153,
+   "days": 60,
+   "lat": 33.85805556,
+   "lon": -118.37888889
+  },
+  "city-arcadia": {
+   "title": "Arcadia, California",
+   "monthlyViews": 7123,
+   "days": 60,
+   "lat": 34.13277778,
+   "lon": -118.03638889
+  },
+  "city-livermore": {
+   "title": "Livermore, California",
+   "monthlyViews": 7093,
+   "days": 60,
+   "lat": 37.68194444,
+   "lon": -121.76805556
+  },
+  "city-indio": {
+   "title": "Indio, California",
+   "monthlyViews": 7032,
+   "days": 60,
+   "lat": 33.72055556,
+   "lon": -116.21555556
+  },
+  "city-flower-mound": {
+   "title": "Flower Mound, Texas",
+   "monthlyViews": 6879,
+   "days": 60,
+   "lat": 33.03416667,
+   "lon": -97.11388889
+  },
+  "city-plantation": {
+   "title": "Plantation, Florida",
+   "monthlyViews": 6819,
+   "days": 60,
+   "lat": 26.12444444,
+   "lon": -80.24944444
+  },
+  "city-levittown": {
+   "title": "Levittown, New York",
+   "monthlyViews": 6788,
+   "days": 60,
+   "lat": 40.72444444,
+   "lon": -73.51111111
+  },
+  "city-dothan": {
+   "title": "Dothan, Alabama",
+   "monthlyViews": 6758,
+   "days": 60,
+   "lat": 31.26472222,
+   "lon": -85.35444444
+  },
+  "city-kirkland": {
+   "title": "Kirkland, Washington",
+   "monthlyViews": 6727,
+   "days": 60,
+   "lat": 47.7,
+   "lon": -122.225
+  },
+  "city-chino": {
+   "title": "Chino, California",
+   "monthlyViews": 6697,
+   "days": 60,
+   "lat": 34.01777778,
+   "lon": -117.69
+  },
+  "city-des-plaines": {
+   "title": "Des Plaines, Illinois",
+   "monthlyViews": 6605,
+   "days": 60,
+   "lat": 42.04166667,
+   "lon": -87.8875
+  },
+  "city-lodi": {
+   "title": "Lodi, California",
+   "monthlyViews": 6605,
+   "days": 60,
+   "lat": 38.12888889,
+   "lon": -121.28083333
+  },
+  "city-royal-oak": {
+   "title": "Royal Oak, Michigan",
+   "monthlyViews": 6605,
+   "days": 60,
+   "lat": 42.48888889,
+   "lon": -83.14277778
+  },
+  "city-pleasanton": {
+   "title": "Pleasanton, California",
+   "monthlyViews": 6575,
+   "days": 60,
+   "lat": 37.6625,
+   "lon": -121.87472222
+  },
+  "city-camarillo": {
+   "title": "Camarillo, California",
+   "monthlyViews": 6514,
+   "days": 60,
+   "lat": 34.23333333,
+   "lon": -119.03333333
+  },
+  "city-mission-viejo": {
+   "title": "Mission Viejo, California",
+   "monthlyViews": 6362,
+   "days": 60,
+   "lat": 33.59694444,
+   "lon": -117.65833333
+  },
+  "city-schaumburg": {
+   "title": "Schaumburg, Illinois",
+   "monthlyViews": 6332,
+   "days": 60,
+   "lat": 42.03027778,
+   "lon": -88.08388889
+  },
+  "city-framingham": {
+   "title": "Framingham, Massachusetts",
+   "monthlyViews": 6301,
+   "days": 60,
+   "lat": 42.27916667,
+   "lon": -71.41666667
+  },
+  "city-deerfield-beach": {
+   "title": "Deerfield Beach, Florida",
+   "monthlyViews": 6271,
+   "days": 60,
+   "lat": 26.30611111,
+   "lon": -80.11888889
+  },
+  "city-san-clemente": {
+   "title": "San Clemente, California",
+   "monthlyViews": 6240,
+   "days": 60,
+   "lat": 33.43777778,
+   "lon": -117.62027778
+  },
+  "city-grapevine": {
+   "title": "Grapevine, Texas",
+   "monthlyViews": 6118,
+   "days": 60,
+   "lat": 32.935,
+   "lon": -97.08583333
+  },
+  "city-edina": {
+   "title": "Edina, Minnesota",
+   "monthlyViews": 6027,
+   "days": 60,
+   "lat": 44.89555556,
+   "lon": -93.35472222
+  },
+  "city-normal": {
+   "title": "Normal, Illinois",
+   "monthlyViews": 6027,
+   "days": 60,
+   "lat": 40.51222222,
+   "lon": -88.98861111
+  },
+  "city-oyster-bay": {
+   "title": "Oyster Bay, New York",
+   "monthlyViews": 6027,
+   "days": 60,
+   "lat": 40.75944444,
+   "lon": -73.50277778
+  },
+  "city-rogers": {
+   "title": "Rogers, Arkansas",
+   "monthlyViews": 6027,
+   "days": 60,
+   "lat": 36.33083333,
+   "lon": -94.10777778
+  },
+  "city-waukesha": {
+   "title": "Waukesha, Wisconsin",
+   "monthlyViews": 6027,
+   "days": 60,
+   "lat": 43.01166667,
+   "lon": -88.23166667
+  },
+  "city-lake-elsinore": {
+   "title": "Lake Elsinore, California",
+   "monthlyViews": 5966,
+   "days": 60,
+   "lat": 33.68138889,
+   "lon": -117.34527778
+  },
+  "city-lynwood": {
+   "title": "Lynwood, California",
+   "monthlyViews": 5966,
+   "days": 60,
+   "lat": 33.92472222,
+   "lon": -118.20194444
+  },
+  "city-palm-beach-gardens": {
+   "title": "Palm Beach Gardens, Florida",
+   "monthlyViews": 5966,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-waltham": {
+   "title": "Waltham, Massachusetts",
+   "monthlyViews": 5966,
+   "days": 60,
+   "lat": 42.37638889,
+   "lon": -71.23611111
+  },
+  "city-mooresville": {
+   "title": "Mooresville, North Carolina",
+   "monthlyViews": 5905,
+   "days": 60,
+   "lat": 35.58472222,
+   "lon": -80.82666667
+  },
+  "city-lawton": {
+   "title": "Lawton, Oklahoma",
+   "monthlyViews": 5875,
+   "days": 60,
+   "lat": 34.60416667,
+   "lon": -98.39555556
+  },
+  "city-delray-beach": {
+   "title": "Delray Beach, Florida",
+   "monthlyViews": 5844,
+   "days": 60,
+   "lat": 26.44444444,
+   "lon": -80.10972222
+  },
+  "city-ellicott-city": {
+   "title": "Ellicott City, Maryland",
+   "monthlyViews": 5784,
+   "days": 60,
+   "lat": 39.26805556,
+   "lon": -76.79888889
+  },
+  "city-merced": {
+   "title": "Merced, California",
+   "monthlyViews": 5784,
+   "days": 60,
+   "lat": 37.3,
+   "lon": -120.48333333
+  },
+  "city-rocky-mount": {
+   "title": "Rocky Mount, North Carolina",
+   "monthlyViews": 5784,
+   "days": 60,
+   "lat": 35.96833333,
+   "lon": -77.80444444
+  },
+  "city-sunrise": {
+   "title": "Sunrise, Florida",
+   "monthlyViews": 5753,
+   "days": 60,
+   "lat": 26.171601,
+   "lon": -80.261633
+  },
+  "city-kingsport": {
+   "title": "Kingsport, Tennessee",
+   "monthlyViews": 5723,
+   "days": 60,
+   "lat": 36.53333333,
+   "lon": -82.55
+  },
+  "city-enid": {
+   "title": "Enid, Oklahoma",
+   "monthlyViews": 5692,
+   "days": 60,
+   "lat": 36.40055556,
+   "lon": -97.88083333
+  },
+  "city-homestead": {
+   "title": "Homestead, Florida",
+   "monthlyViews": 5662,
+   "days": 60,
+   "lat": 25.47777778,
+   "lon": -80.475
+  },
+  "city-rochester-hills": {
+   "title": "Rochester Hills, Michigan",
+   "monthlyViews": 5662,
+   "days": 60,
+   "lat": 42.66583333,
+   "lon": -83.15805556
+  },
+  "city-gastonia": {
+   "title": "Gastonia, North Carolina",
+   "monthlyViews": 5631,
+   "days": 60,
+   "lat": 35.24916667,
+   "lon": -81.18555556
+  },
+  "city-hendersonville": {
+   "title": "Hendersonville, Tennessee",
+   "monthlyViews": 5601,
+   "days": 60,
+   "lat": 36.3047735,
+   "lon": -86.6199957
+  },
+  "city-temple": {
+   "title": "Temple, Texas",
+   "monthlyViews": 5601,
+   "days": 59,
+   "lat": 31.10555556,
+   "lon": -97.42083333
+  },
+  "city-alhambra": {
+   "title": "Alhambra, California",
+   "monthlyViews": 5540,
+   "days": 60,
+   "lat": 34.08194444,
+   "lon": -118.135
+  },
+  "city-logan": {
+   "title": "Logan, Utah",
+   "monthlyViews": 5540,
+   "days": 60,
+   "lat": 41.76388889,
+   "lon": -111.8725
+  },
+  "city-hemet": {
+   "title": "Hemet, California",
+   "monthlyViews": 5510,
+   "days": 60,
+   "lat": 33.7475,
+   "lon": -116.97194444
+  },
+  "city-elkhart": {
+   "title": "Elkhart, Indiana",
+   "monthlyViews": 5449,
+   "days": 60,
+   "lat": 41.68305556,
+   "lon": -85.96888889
+  },
+  "city-skokie": {
+   "title": "Skokie, Illinois",
+   "monthlyViews": 5449,
+   "days": 60,
+   "lat": 42.03361111,
+   "lon": -87.73277778
+  },
+  "city-waukegan": {
+   "title": "Waukegan, Illinois",
+   "monthlyViews": 5418,
+   "days": 60,
+   "lat": 42.37027778,
+   "lon": -87.87111111
+  },
+  "city-yuba-city": {
+   "title": "Yuba City, California",
+   "monthlyViews": 5418,
+   "days": 60,
+   "lat": 39.13472222,
+   "lon": -121.62611111
+  },
+  "city-castle-rock": {
+   "title": "Castle Rock, Colorado",
+   "monthlyViews": 5327,
+   "days": 60,
+   "lat": 39.37222222,
+   "lon": -104.875
+  },
+  "city-huntersville": {
+   "title": "Huntersville, North Carolina",
+   "monthlyViews": 5327,
+   "days": 60,
+   "lat": 35.40611111,
+   "lon": -80.87166667
+  },
+  "city-perth-amboy": {
+   "title": "Perth Amboy, New Jersey",
+   "monthlyViews": 5327,
+   "days": 60,
+   "lat": 40.52016,
+   "lon": -74.271331
+  },
+  "city-union-city": {
+   "title": "Union City, New Jersey",
+   "monthlyViews": 5327,
+   "days": 60,
+   "lat": 40.767425,
+   "lon": -74.032279
+  },
+  "city-hanford": {
+   "title": "Hanford, California",
+   "monthlyViews": 5297,
+   "days": 60,
+   "lat": 36.32638889,
+   "lon": -119.63722222
+  },
+  "city-milpitas": {
+   "title": "Milpitas, California",
+   "monthlyViews": 5297,
+   "days": 60,
+   "lat": 37.43472222,
+   "lon": -121.895
+  },
+  "city-apopka": {
+   "title": "Apopka, Florida",
+   "monthlyViews": 5236,
+   "days": 60,
+   "lat": 28.70166667,
+   "lon": -81.53166667
+  },
+  "city-boynton-beach": {
+   "title": "Boynton Beach, Florida",
+   "monthlyViews": 5205,
+   "days": 60,
+   "lat": 26.51,
+   "lon": -80.08666667
+  },
+  "city-conway": {
+   "title": "Conway, Arkansas",
+   "monthlyViews": 5144,
+   "days": 60,
+   "lat": 35.08722222,
+   "lon": -92.45333333
+  },
+  "city-folsom": {
+   "title": "Folsom, California",
+   "monthlyViews": 5144,
+   "days": 60,
+   "lat": 38.67222222,
+   "lon": -121.15777778
+  },
+  "city-richland": {
+   "title": "Richland, Washington",
+   "monthlyViews": 5144,
+   "days": 60,
+   "lat": 46.2803,
+   "lon": -119.2753
+  },
+  "city-towson": {
+   "title": "Towson, Maryland",
+   "monthlyViews": 5144,
+   "days": 60,
+   "lat": 39.39305556,
+   "lon": -76.60944444
+  },
+  "city-broomfield": {
+   "title": "Broomfield, Colorado",
+   "monthlyViews": 5114,
+   "days": 60,
+   "lat": 39.95416667,
+   "lon": -105.05277778
+  },
+  "city-loveland": {
+   "title": "Loveland, Colorado",
+   "monthlyViews": 5114,
+   "days": 60,
+   "lat": 40.39083333,
+   "lon": -105.07194444
+  },
+  "city-novato": {
+   "title": "Novato, California",
+   "monthlyViews": 5114,
+   "days": 60,
+   "lat": 38.1075,
+   "lon": -122.56972222
+  },
+  "city-germantown": {
+   "title": "Germantown, Maryland",
+   "monthlyViews": 5053,
+   "days": 60,
+   "lat": 39.18333333,
+   "lon": -77.26666667
+  },
+  "city-apple-valley": {
+   "title": "Apple Valley, California",
+   "monthlyViews": 5023,
+   "days": 60,
+   "lat": 34.53416667,
+   "lon": -117.205
+  },
+  "city-passaic": {
+   "title": "Passaic, New Jersey",
+   "monthlyViews": 5023,
+   "days": 60,
+   "lat": 40.857552,
+   "lon": -74.129089
+  },
+  "city-doral": {
+   "title": "Doral, Florida",
+   "monthlyViews": 4962,
+   "days": 60,
+   "lat": 25.82388889,
+   "lon": -80.37166667
+  },
+  "city-pasco": {
+   "title": "Pasco, Washington",
+   "monthlyViews": 4962,
+   "days": 60,
+   "lat": 46.23861111,
+   "lon": -119.12527778
+  },
+  "city-bryan": {
+   "title": "Bryan, Texas",
+   "monthlyViews": 4870,
+   "days": 60,
+   "lat": 30.67444444,
+   "lon": -96.37
+  },
+  "city-sanford": {
+   "title": "Sanford, Florida",
+   "monthlyViews": 4840,
+   "days": 60,
+   "lat": 28.76944444,
+   "lon": -81.27583333
+  },
+  "city-brookhaven": {
+   "title": "Brookhaven, New York",
+   "monthlyViews": 4749,
+   "days": 60,
+   "lat": 40.81666667,
+   "lon": -72.93333333
+  },
+  "city-kennewick": {
+   "title": "Kennewick, Washington",
+   "monthlyViews": 4749,
+   "days": 60,
+   "lat": 46.197622,
+   "lon": -119.175923
+  },
+  "city-summerville": {
+   "title": "Summerville, South Carolina",
+   "monthlyViews": 4749,
+   "days": 60,
+   "lat": 32.98972222,
+   "lon": -80.175
+  },
+  "city-upper-darby-township": {
+   "title": "Upper Darby Township, Pennsylvania",
+   "monthlyViews": 4718,
+   "days": 60,
+   "lat": 39.95833333,
+   "lon": -75.30805556
+  },
+  "city-gilroy": {
+   "title": "Gilroy, California",
+   "monthlyViews": 4688,
+   "days": 60,
+   "lat": 37.01194444,
+   "lon": -121.58
+  },
+  "city-vineland": {
+   "title": "Vineland, New Jersey",
+   "monthlyViews": 4688,
+   "days": 60,
+   "lat": 39.465,
+   "lon": -75.00638889
+  },
+  "city-gardena": {
+   "title": "Gardena, California",
+   "monthlyViews": 4657,
+   "days": 60,
+   "lat": 33.89361111,
+   "lon": -118.30777778
+  },
+  "city-kannapolis": {
+   "title": "Kannapolis, North Carolina",
+   "monthlyViews": 4657,
+   "days": 60,
+   "lat": 35.47722222,
+   "lon": -80.63944444
+  },
+  "city-bossier-city": {
+   "title": "Bossier City, Louisiana",
+   "monthlyViews": 4627,
+   "days": 60,
+   "lat": 32.51777778,
+   "lon": -93.69138889
+  },
+  "city-berwyn": {
+   "title": "Berwyn, Illinois",
+   "monthlyViews": 4596,
+   "days": 60,
+   "lat": 41.8425,
+   "lon": -87.79
+  },
+  "city-noblesville": {
+   "title": "Noblesville, Indiana",
+   "monthlyViews": 4596,
+   "days": 60,
+   "lat": 40.025,
+   "lon": -85.95277778
+  },
+  "city-texas-city": {
+   "title": "Texas City, Texas",
+   "monthlyViews": 4596,
+   "days": 60,
+   "lat": 29.4,
+   "lon": -94.93388889
+  },
+  "city-waldorf": {
+   "title": "Waldorf, Maryland",
+   "monthlyViews": 4596,
+   "days": 60,
+   "lat": 38.64611111,
+   "lon": -76.89833333
+  },
+  "city-west-sacramento": {
+   "title": "West Sacramento, California",
+   "monthlyViews": 4566,
+   "days": 60,
+   "lat": 38.58055556,
+   "lon": -121.53027778
+  },
+  "city-fountain-valley": {
+   "title": "Fountain Valley, California",
+   "monthlyViews": 4536,
+   "days": 60,
+   "lat": 33.70861111,
+   "lon": -117.95638889
+  },
+  "city-woodland": {
+   "title": "Woodland, California",
+   "monthlyViews": 4536,
+   "days": 60,
+   "lat": 38.67861111,
+   "lon": -121.77333333
+  },
+  "city-harlingen": {
+   "title": "Harlingen, Texas",
+   "monthlyViews": 4505,
+   "days": 60,
+   "lat": 26.2,
+   "lon": -97.7
+  },
+  "city-haverhill": {
+   "title": "Haverhill, Massachusetts",
+   "monthlyViews": 4505,
+   "days": 60,
+   "lat": 42.78333333,
+   "lon": -71.08333333
+  },
+  "city-southfield": {
+   "title": "Southfield, Michigan",
+   "monthlyViews": 4505,
+   "days": 60,
+   "lat": 42.47972222,
+   "lon": -83.245
+  },
+  "city-missouri-city": {
+   "title": "Missouri City, Texas",
+   "monthlyViews": 4475,
+   "days": 60,
+   "lat": 29.61861111,
+   "lon": -95.53777778
+  },
+  "city-janesville": {
+   "title": "Janesville, Wisconsin",
+   "monthlyViews": 4444,
+   "days": 60,
+   "lat": 42.684698,
+   "lon": -89.01317
+  },
+  "city-lake-forest": {
+   "title": "Lake Forest, California",
+   "monthlyViews": 4444,
+   "days": 60,
+   "lat": 33.64166667,
+   "lon": -117.69083333
+  },
+  "city-moore": {
+   "title": "Moore, Oklahoma",
+   "monthlyViews": 4383,
+   "days": 60,
+   "lat": 35.3383,
+   "lon": -97.4867
+  },
+  "city-weston": {
+   "title": "Weston, Florida",
+   "monthlyViews": 4383,
+   "days": 60,
+   "lat": 26.1075,
+   "lon": -80.38805556
+  },
+  "city-wheaton": {
+   "title": "Wheaton, Illinois",
+   "monthlyViews": 4353,
+   "days": 60,
+   "lat": 41.85611111,
+   "lon": -88.10833333
+  },
+  "city-turlock": {
+   "title": "Turlock, California",
+   "monthlyViews": 4322,
+   "days": 60,
+   "lat": 37.50583333,
+   "lon": -120.84888889
+  },
+  "city-warner-robins": {
+   "title": "Warner Robins, Georgia",
+   "monthlyViews": 4322,
+   "days": 60,
+   "lat": 32.60861111,
+   "lon": -83.63805556
+  },
+  "city-abington-township": {
+   "title": "Abington Township, Montgomery County, Pennsylvania",
+   "monthlyViews": 4292,
+   "days": 60,
+   "lat": 40.1,
+   "lon": -75.09972222
+  },
+  "city-east-orange": {
+   "title": "East Orange, New Jersey",
+   "monthlyViews": 4292,
+   "days": 60,
+   "lat": 40.765055,
+   "lon": -74.211655
+  },
+  "city-chino-hills": {
+   "title": "Chino Hills, California",
+   "monthlyViews": 4262,
+   "days": 60,
+   "lat": 33.99388889,
+   "lon": -117.75888889
+  },
+  "city-hoffman-estates": {
+   "title": "Hoffman Estates, Illinois",
+   "monthlyViews": 4262,
+   "days": 60,
+   "lat": 42.06388889,
+   "lon": -88.14694444
+  },
+  "city-diamond-bar": {
+   "title": "Diamond Bar, California",
+   "monthlyViews": 4231,
+   "days": 60,
+   "lat": 34.00166667,
+   "lon": -117.82083333
+  },
+  "city-malden": {
+   "title": "Malden, Massachusetts",
+   "monthlyViews": 4231,
+   "days": 60,
+   "lat": 42.425,
+   "lon": -71.06666667
+  },
+  "city-milford": {
+   "title": "Milford, Connecticut",
+   "monthlyViews": 4231,
+   "days": 60,
+   "lat": 41.22416667,
+   "lon": -73.05972222
+  },
+  "city-rocklin": {
+   "title": "Rocklin, California",
+   "monthlyViews": 4231,
+   "days": 60,
+   "lat": 38.8,
+   "lon": -121.24666667
+  },
+  "city-san-ramon": {
+   "title": "San Ramon, California",
+   "monthlyViews": 4140,
+   "days": 60,
+   "lat": 37.78,
+   "lon": -121.97805556
+  },
+  "city-south-gate": {
+   "title": "South Gate, California",
+   "monthlyViews": 4140,
+   "days": 60,
+   "lat": 33.94416667,
+   "lon": -118.195
+  },
+  "city-bellflower": {
+   "title": "Bellflower, California",
+   "monthlyViews": 4109,
+   "days": 60,
+   "lat": 33.88805556,
+   "lon": -118.1275
+  },
+  "city-plainfield": {
+   "title": "Plainfield, New Jersey",
+   "monthlyViews": 4109,
+   "days": 60,
+   "lat": 40.615444,
+   "lon": -74.415775
+  },
+  "city-pflugerville": {
+   "title": "Pflugerville, Texas",
+   "monthlyViews": 4049,
+   "days": 60,
+   "lat": 30.4575,
+   "lon": -97.64
+  },
+  "city-downers-grove": {
+   "title": "Downers Grove, Illinois",
+   "monthlyViews": 4018,
+   "days": 60,
+   "lat": 41.78916667,
+   "lon": -87.99444444
+  },
+  "city-brentwood": {
+   "title": "Brentwood, California",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 37.93194444,
+   "lon": -121.69583333
+  },
+  "city-cuyahoga-falls": {
+   "title": "Cuyahoga Falls, Ohio",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 41.14555556,
+   "lon": -81.49666667
+  },
+  "city-cypress": {
+   "title": "Cypress, California",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 33.81833333,
+   "lon": -118.03916667
+  },
+  "city-lorain": {
+   "title": "Lorain, Ohio",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 41.44,
+   "lon": -82.16888889
+  },
+  "city-middletown-township": {
+   "title": "Middletown Township, New Jersey",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 40.404786,
+   "lon": -74.071404
+  },
+  "city-casa-grande": {
+   "title": "Casa Grande, Arizona",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 32.906895,
+   "lon": -111.763503
+  },
+  "city-clifton": {
+   "title": "Clifton, New Jersey",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 40.862137,
+   "lon": -74.160393
+  },
+  "city-upland": {
+   "title": "Upland, California",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 34.1,
+   "lon": -117.65
+  },
+  "city-la-mesa": {
+   "title": "La Mesa, California",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 32.77138889,
+   "lon": -117.02277778
+  },
+  "city-sandy": {
+   "title": "Sandy, Utah",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 40.5725,
+   "lon": -111.85972222
+  },
+  "city-baldwin-park": {
+   "title": "Baldwin Park, California",
+   "monthlyViews": 3866,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-montebello": {
+   "title": "Montebello, California",
+   "monthlyViews": 3866,
+   "days": 60,
+   "lat": 34.01555556,
+   "lon": -118.11083333
+  },
+  "city-aliso-viejo": {
+   "title": "Aliso Viejo, California",
+   "monthlyViews": 3835,
+   "days": 60,
+   "lat": 33.575,
+   "lon": -117.72555556
+  },
+  "city-johns-creek": {
+   "title": "Johns Creek, Georgia",
+   "monthlyViews": 3835,
+   "days": 60,
+   "lat": 34.03333333,
+   "lon": -84.20277778
+  },
+  "city-san-leandro": {
+   "title": "San Leandro, California",
+   "monthlyViews": 3805,
+   "days": 60,
+   "lat": 37.725,
+   "lon": -122.15611111
+  },
+  "city-tustin": {
+   "title": "Tustin, California",
+   "monthlyViews": 3805,
+   "days": 60,
+   "lat": 33.73972222,
+   "lon": -117.81361111
+  },
+  "city-revere": {
+   "title": "Revere, Massachusetts",
+   "monthlyViews": 3775,
+   "days": 60,
+   "lat": 42.40833333,
+   "lon": -71.0125
+  },
+  "city-largo": {
+   "title": "Largo, Florida",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 27.90972222,
+   "lon": -82.75111111
+  },
+  "city-piscataway": {
+   "title": "Piscataway, New Jersey",
+   "monthlyViews": 3744,
+   "days": 59,
+   "lat": 40.545539,
+   "lon": -74.46072
+  },
+  "city-west-new-york": {
+   "title": "West New York, New Jersey",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 40.786032,
+   "lon": -74.009507
+  },
+  "city-manteca": {
+   "title": "Manteca, California",
+   "monthlyViews": 3714,
+   "days": 60,
+   "lat": 37.80277778,
+   "lon": -121.22083333
+  },
+  "city-perris": {
+   "title": "Perris, California",
+   "monthlyViews": 3714,
+   "days": 60,
+   "lat": 33.79666667,
+   "lon": -117.22444444
+  },
+  "city-azusa": {
+   "title": "Azusa, California",
+   "monthlyViews": 3683,
+   "days": 60,
+   "lat": 34.13055556,
+   "lon": -117.90694444
+  },
+  "city-minnetonka": {
+   "title": "Minnetonka, Minnesota",
+   "monthlyViews": 3683,
+   "days": 60,
+   "lat": 44.91333333,
+   "lon": -93.50333333
+  },
+  "city-carmichael": {
+   "title": "Carmichael, California",
+   "monthlyViews": 3653,
+   "days": 60,
+   "lat": 38.63944444,
+   "lon": -121.32138889
+  },
+  "city-covina": {
+   "title": "Covina, California",
+   "monthlyViews": 3653,
+   "days": 60,
+   "lat": 34.09166667,
+   "lon": -117.87916667
+  },
+  "city-eagan": {
+   "title": "Eagan, Minnesota",
+   "monthlyViews": 3653,
+   "days": 60,
+   "lat": 44.81777778,
+   "lon": -93.16694444
+  },
+  "city-vista": {
+   "title": "Vista, California",
+   "monthlyViews": 3622,
+   "days": 60,
+   "lat": 33.19361111,
+   "lon": -117.24111111
+  },
+  "city-watsonville": {
+   "title": "Watsonville, California",
+   "monthlyViews": 3622,
+   "days": 60,
+   "lat": 36.92,
+   "lon": -121.76361111
+  },
+  "city-anderson": {
+   "title": "Anderson, Indiana",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": 40.10555556,
+   "lon": -85.68888889
+  },
+  "city-st-louis-park": {
+   "title": "St. Louis Park, Minnesota",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": 44.94833333,
+   "lon": -93.34805556
+  },
+  "city-taunton": {
+   "title": "Taunton, Massachusetts",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": 41.9,
+   "lon": -71.09027778
+  },
+  "city-wayne": {
+   "title": "Wayne, New Jersey",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": 40.945855,
+   "lon": -74.245077
+  },
+  "city-celina": {
+   "title": "Celina, Texas",
+   "monthlyViews": 3561,
+   "days": 60,
+   "lat": 33.31916667,
+   "lon": -96.79555556
+  },
+  "city-novi": {
+   "title": "Novi, Michigan",
+   "monthlyViews": 3561,
+   "days": 60,
+   "lat": 42.48027778,
+   "lon": -83.4775
+  },
+  "city-port-charlotte": {
+   "title": "Port Charlotte, Florida",
+   "monthlyViews": 3561,
+   "days": 60,
+   "lat": 26.99027778,
+   "lon": -82.11333333
+  },
+  "city-smithtown": {
+   "title": "Smithtown, New York",
+   "monthlyViews": 3561,
+   "days": 60,
+   "lat": 40.86277778,
+   "lon": -73.21527778
+  },
+  "city-baytown": {
+   "title": "Baytown, Texas",
+   "monthlyViews": 3531,
+   "days": 60,
+   "lat": 29.74388889,
+   "lon": -94.96583333
+  },
+  "city-cedar-park": {
+   "title": "Cedar Park, Texas",
+   "monthlyViews": 3531,
+   "days": 60,
+   "lat": 30.50666667,
+   "lon": -97.83027778
+  },
+  "city-north-bergen": {
+   "title": "North Bergen, New Jersey",
+   "monthlyViews": 3531,
+   "days": 60,
+   "lat": 40.794163,
+   "lon": -74.024947
+  },
+  "city-porterville": {
+   "title": "Porterville, California",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 36.06861111,
+   "lon": -119.0275
+  },
+  "city-north-port": {
+   "title": "North Port, Florida",
+   "monthlyViews": 3470,
+   "days": 60,
+   "lat": 27.06611111,
+   "lon": -82.18861111
+  },
+  "city-weymouth": {
+   "title": "Weymouth, Massachusetts",
+   "monthlyViews": 3470,
+   "days": 60,
+   "lat": 42.22083333,
+   "lon": -70.94027778
+  },
+  "city-lehi": {
+   "title": "Lehi, Utah",
+   "monthlyViews": 3440,
+   "days": 60,
+   "lat": 40.38777778,
+   "lon": -111.87166667
+  },
+  "city-madera": {
+   "title": "Madera, California",
+   "monthlyViews": 3440,
+   "days": 60,
+   "lat": 36.96138889,
+   "lon": -120.06083333
+  },
+  "city-mansfield": {
+   "title": "Mansfield, Texas",
+   "monthlyViews": 3440,
+   "days": 60,
+   "lat": 32.56361111,
+   "lon": -97.14194444
+  },
+  "city-eden-prairie": {
+   "title": "Eden Prairie, Minnesota",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 44.85472222,
+   "lon": -93.47083333
+  },
+  "city-tinley-park": {
+   "title": "Tinley Park, Illinois",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 41.568579,
+   "lon": -87.804217
+  },
+  "city-glendora": {
+   "title": "Glendora, California",
+   "monthlyViews": 3379,
+   "days": 60,
+   "lat": 34.13611111,
+   "lon": -117.86527778
+  },
+  "city-kettering": {
+   "title": "Kettering, Ohio",
+   "monthlyViews": 3348,
+   "days": 60,
+   "lat": 39.69638889,
+   "lon": -84.13194444
+  },
+  "city-apex": {
+   "title": "Apex, North Carolina",
+   "monthlyViews": 3318,
+   "days": 60,
+   "lat": 35.71972222,
+   "lon": -78.84388889
+  },
+  "city-laguna-niguel": {
+   "title": "Laguna Niguel, California",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 33.53194444,
+   "lon": -117.7025
+  },
+  "city-mishawaka": {
+   "title": "Mishawaka, Indiana",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 41.65416667,
+   "lon": -86.16333333
+  },
+  "city-monterey-park": {
+   "title": "Monterey Park, California",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 34.04916667,
+   "lon": -118.13555556
+  },
+  "city-wylie": {
+   "title": "Wylie, Texas",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 33.03611111,
+   "lon": -96.51611111
+  },
+  "city-amherst": {
+   "title": "Amherst, New York",
+   "monthlyViews": 3257,
+   "days": 60,
+   "lat": 42.97833333,
+   "lon": -78.8
+  },
+  "city-oak-lawn": {
+   "title": "Oak Lawn, Illinois",
+   "monthlyViews": 3257,
+   "days": 60,
+   "lat": 41.715,
+   "lon": -87.75333333
+  },
+  "city-west-allis": {
+   "title": "West Allis, Wisconsin",
+   "monthlyViews": 3257,
+   "days": 60,
+   "lat": 43.00805556,
+   "lon": -88.01833333
+  },
+  "city-cathedral-city": {
+   "title": "Cathedral City, California",
+   "monthlyViews": 3196,
+   "days": 59,
+   "lat": 33.77972222,
+   "lon": -116.46527778
+  },
+  "city-draper": {
+   "title": "Draper, Utah",
+   "monthlyViews": 3196,
+   "days": 60,
+   "lat": 40.50638889,
+   "lon": -111.87583333
+  },
+  "city-farmington-hills": {
+   "title": "Farmington Hills, Michigan",
+   "monthlyViews": 3196,
+   "days": 60,
+   "lat": 42.48527778,
+   "lon": -83.37694444
+  },
+  "city-hoover": {
+   "title": "Hoover, Alabama",
+   "monthlyViews": 3166,
+   "days": 60,
+   "lat": 33.38638889,
+   "lon": -86.805
+  },
+  "city-islip": {
+   "title": "Islip, New York",
+   "monthlyViews": 3135,
+   "days": 60,
+   "lat": 40.75666667,
+   "lon": -73.19888889
+  },
+  "city-hamden": {
+   "title": "Hamden, Connecticut",
+   "monthlyViews": 3105,
+   "days": 60,
+   "lat": 41.39777778,
+   "lon": -72.92166667
+  },
+  "city-palatine": {
+   "title": "Palatine, Illinois",
+   "monthlyViews": 3105,
+   "days": 60,
+   "lat": 42.12805556,
+   "lon": -88.04222222
+  },
+  "city-coconut-creek": {
+   "title": "Coconut Creek, Florida",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 26.25694444,
+   "lon": -80.18388889
+  },
+  "city-desoto": {
+   "title": "DeSoto, Texas",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 32.59916667,
+   "lon": -96.85888889
+  },
+  "city-el-dorado-hills": {
+   "title": "El Dorado Hills, California",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 38.68583333,
+   "lon": -121.08222222
+  },
+  "city-queen-creek": {
+   "title": "Queen Creek, Arizona",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 33.24861111,
+   "lon": -111.63416667
+  },
+  "city-sammamish": {
+   "title": "Sammamish, Washington",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 47.60833333,
+   "lon": -122.03666667
+  },
+  "city-west-hartford": {
+   "title": "West Hartford, Connecticut",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 41.76777778,
+   "lon": -72.75388889
+  },
+  "city-buena-park": {
+   "title": "Buena Park, California",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": 33.85611111,
+   "lon": -118.00416667
+  },
+  "city-rancho-cordova": {
+   "title": "Rancho Cordova, California",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": 38.58916667,
+   "lon": -121.30277778
+  },
+  "city-tulare": {
+   "title": "Tulare, California",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": 36.20666667,
+   "lon": -119.3425
+  },
+  "city-south-san-francisco": {
+   "title": "South San Francisco, California",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 37.6551,
+   "lon": -122.3762
+  },
+  "city-blue-springs": {
+   "title": "Blue Springs, Missouri",
+   "monthlyViews": 2892,
+   "days": 60,
+   "lat": 39.01777778,
+   "lon": -94.27444444
+  },
+  "city-bolingbrook": {
+   "title": "Bolingbrook, Illinois",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": 41.68111111,
+   "lon": -88.12361111
+  },
+  "city-babylon": {
+   "title": "Babylon, New York",
+   "monthlyViews": 2831,
+   "days": 60,
+   "lat": 40.69444444,
+   "lon": -73.32944444
+  },
+  "city-elyria": {
+   "title": "Elyria, Ohio",
+   "monthlyViews": 2831,
+   "days": 60,
+   "lat": 41.37333333,
+   "lon": -82.11277778
+  },
+  "city-centreville": {
+   "title": "Centreville, Virginia",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 38.8425,
+   "lon": -77.4425
+  },
+  "city-huntington-park": {
+   "title": "Huntington Park, California",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 33.98333333,
+   "lon": -118.21666667
+  },
+  "city-parker": {
+   "title": "Parker, Colorado",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 39.49722222,
+   "lon": -104.76583333
+  },
+  "city-kenner": {
+   "title": "Kenner, Louisiana",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": 30.00972222,
+   "lon": -90.255
+  },
+  "city-parsippany-troy-hills": {
+   "title": "Parsippany–Troy Hills, New Jersey",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": 40.859636,
+   "lon": -74.423348
+  },
+  "city-orland-park": {
+   "title": "Orland Park, Illinois",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 41.60722222,
+   "lon": -87.86166667
+  },
+  "city-glen-burnie": {
+   "title": "Glen Burnie, Maryland",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": 39.16,
+   "lon": -76.61055556
+  },
+  "city-mission": {
+   "title": "Mission, Texas",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": 26.21138889,
+   "lon": -98.32138889
+  },
+  "city-peabody": {
+   "title": "Peabody, Massachusetts",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": 42.52777778,
+   "lon": -70.92916667
+  },
+  "city-yucaipa": {
+   "title": "Yucaipa, California",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": 34.03361111,
+   "lon": -117.04305556
+  },
+  "city-bonita-springs": {
+   "title": "Bonita Springs, Florida",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 26.37083333,
+   "lon": -81.79083333
+  },
+  "city-commerce-city": {
+   "title": "Commerce City, Colorado",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 39.87916667,
+   "lon": -104.78805556
+  },
+  "city-greenwood": {
+   "title": "Greenwood, Indiana",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 39.61138889,
+   "lon": -86.11805556
+  },
+  "city-union-township": {
+   "title": "Union Township, Union County, New Jersey",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 40.695266,
+   "lon": -74.269078
+  },
+  "city-jackson-township": {
+   "title": "Jackson Township, New Jersey",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 40.090928,
+   "lon": -74.361269
+  },
+  "city-leander": {
+   "title": "Leander, Texas",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 30.57888889,
+   "lon": -97.85305556
+  },
+  "city-lenexa": {
+   "title": "Lenexa, Kansas",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 38.96611111,
+   "lon": -94.73388889
+  },
+  "city-florissant": {
+   "title": "Florissant, Missouri",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 38.79972222,
+   "lon": -90.32694444
+  },
+  "city-o-fallon": {
+   "title": "O'Fallon, Missouri",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 38.78444444,
+   "lon": -90.72
+  },
+  "city-shoreline": {
+   "title": "Shoreline, Washington",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 47.75638889,
+   "lon": -122.34527778
+  },
+  "city-euless": {
+   "title": "Euless, Texas",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 32.85055556,
+   "lon": -97.10833333
+  },
+  "city-lower-merion-township": {
+   "title": "Lower Merion Township, Pennsylvania",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 39.98333333,
+   "lon": -75.26638889
+  },
+  "city-maricopa": {
+   "title": "Maricopa, Arizona",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 33.05666667,
+   "lon": -112.04666667
+  },
+  "city-west-des-moines": {
+   "title": "West Des Moines, Iowa",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 41.50944444,
+   "lon": -93.78055556
+  },
+  "city-chicopee": {
+   "title": "Chicopee, Massachusetts",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 42.14861111,
+   "lon": -72.60833333
+  },
+  "city-colton": {
+   "title": "Colton, California",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 34.07388889,
+   "lon": -117.31361111
+  },
+  "city-national-city": {
+   "title": "National City, California",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 32.67805556,
+   "lon": -117.09916667
+  },
+  "city-brooklyn-park": {
+   "title": "Brooklyn Park, Minnesota",
+   "monthlyViews": 2496,
+   "days": 60,
+   "lat": 45.110906,
+   "lon": -93.349088
+  },
+  "city-fulshear": {
+   "title": "Fulshear, Texas",
+   "monthlyViews": 2496,
+   "days": 60,
+   "lat": 29.69,
+   "lon": -95.89972222
+  },
+  "city-placentia": {
+   "title": "Placentia, California",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 33.8825,
+   "lon": -117.855
+  },
+  "city-san-tan-valley": {
+   "title": "San Tan Valley, Arizona",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 33.17027778,
+   "lon": -111.57222222
+  },
+  "city-stratford": {
+   "title": "Stratford, Connecticut",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": 41.20444444,
+   "lon": -73.12972222
+  },
+  "city-bloomfield": {
+   "title": "Bloomfield, New Jersey",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 40.809128,
+   "lon": -74.187155
+  },
+  "city-eastvale": {
+   "title": "Eastvale, California",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 33.96361111,
+   "lon": -117.56416667
+  },
+  "city-delano": {
+   "title": "Delano, California",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 35.76888889,
+   "lon": -119.24694444
+  },
+  "city-lacey": {
+   "title": "Lacey, Washington",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 47.02638889,
+   "lon": -122.80722222
+  },
+  "city-lakeville": {
+   "title": "Lakeville, Minnesota",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 44.64972222,
+   "lon": -93.2425
+  },
+  "city-irvington": {
+   "title": "Irvington, New Jersey",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 40.723859,
+   "lon": -74.232522
+  },
+  "city-maple-grove": {
+   "title": "Maple Grove, Minnesota",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 45.0725,
+   "lon": -93.45555556
+  },
+  "city-marysville": {
+   "title": "Marysville, Washington",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 48.06277778,
+   "lon": -122.16333333
+  },
+  "city-mount-prospect": {
+   "title": "Mount Prospect, Illinois",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 42.06555556,
+   "lon": -87.93611111
+  },
+  "city-north-little-rock": {
+   "title": "North Little Rock, Arkansas",
+   "monthlyViews": 2283,
+   "days": 59,
+   "lat": 34.78083333,
+   "lon": -92.25694444
+  },
+  "city-hamilton-township": {
+   "title": "Hamilton Township, Mercer County, New Jersey",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 40.206266,
+   "lon": -74.675274
+  },
+  "city-margate": {
+   "title": "Margate, Florida",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 26.25611111,
+   "lon": -80.2125
+  },
+  "city-palm-harbor": {
+   "title": "Palm Harbor, Florida",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 28.08472222,
+   "lon": -82.74777778
+  },
+  "city-rosemead": {
+   "title": "Rosemead, California",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 34.06666667,
+   "lon": -118.08333333
+  },
+  "city-west-bloomfield-township": {
+   "title": "West Bloomfield Township, Michigan",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 42.57111111,
+   "lon": -83.37472222
+  },
+  "city-brick-township": {
+   "title": "Brick Township, New Jersey",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 40.061736,
+   "lon": -74.10962
+  },
+  "city-burnsville": {
+   "title": "Burnsville, Minnesota",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 44.76777778,
+   "lon": -93.2775
+  },
+  "city-collierville": {
+   "title": "Collierville, Tennessee",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 35.0425,
+   "lon": -89.665
+  },
+  "city-dunwoody": {
+   "title": "Dunwoody, Georgia",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 33.94277778,
+   "lon": -84.31777778
+  },
+  "city-la-habra": {
+   "title": "La Habra, California",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 33.93194444,
+   "lon": -117.94611111
+  },
+  "city-taylor": {
+   "title": "Taylor, Michigan",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 42.24083333,
+   "lon": -83.26972222
+  },
+  "city-tigard": {
+   "title": "Tigard, Oregon",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 45.425,
+   "lon": -122.77888889
+  },
+  "city-westchester": {
+   "title": "Westchester, Florida",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 25.74722222,
+   "lon": -80.3675
+  },
+  "city-blaine": {
+   "title": "Blaine, Minnesota",
+   "monthlyViews": 2161,
+   "days": 60,
+   "lat": 45.16083333,
+   "lon": -93.23472222
+  },
+  "city-rowlett": {
+   "title": "Rowlett, Texas",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-woodbury": {
+   "title": "Woodbury, Minnesota",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 44.906283,
+   "lon": -92.923703
+  },
+  "city-lauderhill": {
+   "title": "Lauderhill, Florida",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 26.15444444,
+   "lon": -80.22555556
+  },
+  "city-bensalem-township": {
+   "title": "Bensalem Township, Pennsylvania",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 40.11277778,
+   "lon": -74.94333333
+  },
+  "city-layton": {
+   "title": "Layton, Utah",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 41.07166667,
+   "lon": -111.99694444
+  },
+  "city-meriden": {
+   "title": "Meriden, Connecticut",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 41.53666667,
+   "lon": -72.79472222
+  },
+  "city-paramount": {
+   "title": "Paramount, California",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 33.9,
+   "lon": -118.16666667
+  },
+  "city-cheektowaga": {
+   "title": "Cheektowaga, New York",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 42.90388889,
+   "lon": -78.74388889
+  },
+  "city-san-jacinto": {
+   "title": "San Jacinto, California",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 33.78722222,
+   "lon": -116.96666667
+  },
+  "city-kendall": {
+   "title": "Kendall, Florida",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 25.67388889,
+   "lon": -80.37333333
+  },
+  "city-port-orange": {
+   "title": "Port Orange, Florida",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 29.12222222,
+   "lon": -81.99222222
+  },
+  "city-ramapo": {
+   "title": "Ramapo, New York",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 41.12194444,
+   "lon": -74.08333333
+  },
+  "city-methuen": {
+   "title": "Methuen, Massachusetts",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 42.72611111,
+   "lon": -71.19138889
+  },
+  "city-old-bridge-township": {
+   "title": "Old Bridge Township, New Jersey",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 40.404632,
+   "lon": -74.308537
+  },
+  "city-howell-township": {
+   "title": "Howell Township, New Jersey",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 40.178108,
+   "lon": -74.206225
+  },
+  "city-colonie": {
+   "title": "Colonie, New York",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 42.71944444,
+   "lon": -73.75611111
+  },
+  "city-burien": {
+   "title": "Burien, Washington",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-coon-rapids": {
+   "title": "Coon Rapids, Minnesota",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 45.17222222,
+   "lon": -93.30416667
+  },
+  "city-pico-rivera": {
+   "title": "Pico Rivera, California",
+   "monthlyViews": 1887,
+   "days": 59,
+   "lat": 33.98888889,
+   "lon": -118.08916667
+  },
+  "city-irondequoit": {
+   "title": "Irondequoit, New York",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 43.21111111,
+   "lon": -77.58194444
+  },
+  "city-north-hempstead": {
+   "title": "North Hempstead, New York",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 40.75888889,
+   "lon": -73.58805556
+  },
+  "city-santee": {
+   "title": "Santee, California",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 32.86972222,
+   "lon": -116.97111111
+  },
+  "city-waterford-township": {
+   "title": "Waterford Township, Michigan",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 42.65833333,
+   "lon": -83.38611111
+  },
+  "city-west-haven": {
+   "title": "West Haven, Connecticut",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 41.27388889,
+   "lon": -72.96777778
+  },
+  "city-south-jordan": {
+   "title": "South Jordan, Utah",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 40.56166667,
+   "lon": -111.96083333
+  },
+  "city-midwest-city": {
+   "title": "Midwest City, Oklahoma",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 35.46472222,
+   "lon": -97.39805556
+  },
+  "city-shawnee": {
+   "title": "Shawnee, Kansas",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 39.01583333,
+   "lon": -94.8075
+  },
+  "city-marana": {
+   "title": "Marana, Arizona",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 32.38666667,
+   "lon": -111.12555556
+  },
+  "city-shelby-charter-township": {
+   "title": "Shelby Charter Township, Michigan",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 42.67083333,
+   "lon": -83.03305556
+  },
+  "city-wyoming": {
+   "title": "Wyoming, Michigan",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 42.87638889,
+   "lon": -85.7575
+  },
+  "city-east-hartford": {
+   "title": "East Hartford, Connecticut",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 41.76138889,
+   "lon": -72.61527778
+  },
+  "city-st-clair-shores": {
+   "title": "St. Clair Shores, Michigan",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 42.49555556,
+   "lon": -82.90027778
+  },
+  "city-murray": {
+   "title": "Murray, Utah",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 40.6525,
+   "lon": -111.89333333
+  },
+  "city-greenburgh": {
+   "title": "Greenburgh, New York",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 41.03194444,
+   "lon": -73.83305556
+  },
+  "city-north-richland-hills": {
+   "title": "North Richland Hills, Texas",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 32.85833333,
+   "lon": -97.21805556
+  },
+  "city-highland": {
+   "title": "Highland, California",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 34.12833333,
+   "lon": -117.20861111
+  },
+  "city-severn": {
+   "title": "Severn, Maryland",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 39.13277778,
+   "lon": -76.69388889
+  },
+  "city-dearborn-heights": {
+   "title": "Dearborn Heights, Michigan",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 42.32972222,
+   "lon": -83.28
+  },
+  "city-north-bethesda": {
+   "title": "North Bethesda, Maryland",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 39.03666667,
+   "lon": -77.12305556
+  },
+  "city-pharr": {
+   "title": "Pharr, Texas",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 26.20638889,
+   "lon": -98.18527778
+  },
+  "city-westland": {
+   "title": "Westland, Michigan",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 42.32416667,
+   "lon": -83.40027778
+  },
+  "city-bartlett": {
+   "title": "Bartlett, Tennessee",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 35.2342,
+   "lon": -89.8203
+  },
+  "city-franklin-township": {
+   "title": "Franklin Township, Somerset County, New Jersey",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 40.476872,
+   "lon": -74.550447
+  },
+  "city-pinellas-park": {
+   "title": "Pinellas Park, Florida",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 27.8625,
+   "lon": -82.73111111
+  },
+  "city-north-miami": {
+   "title": "North Miami, Florida",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 25.90083333,
+   "lon": -80.16861111
+  },
+  "city-poinciana": {
+   "title": "Poinciana, Florida",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 28.15666667,
+   "lon": -81.47305556
+  },
+  "city-kendale-lakes": {
+   "title": "Kendale Lakes, Florida",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 25.70805556,
+   "lon": -80.40777778
+  },
+  "city-st-peters": {
+   "title": "St. Peters, Missouri",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 38.77888889,
+   "lon": -90.60305556
+  },
+  "city-stonecrest": {
+   "title": "Stonecrest, Georgia",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 33.70111111,
+   "lon": -84.17194444
+  },
+  "city-kentwood": {
+   "title": "Kentwood, Michigan",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 42.88,
+   "lon": -85.64611111
+  },
+  "city-herriman": {
+   "title": "Herriman, Utah",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 40.50666667,
+   "lon": -112.03083333
+  },
+  "city-tamarac": {
+   "title": "Tamarac, Florida",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 26.20138889,
+   "lon": -80.23833333
+  },
+  "city-millcreek": {
+   "title": "Millcreek, Utah",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 40.68611111,
+   "lon": -111.86388889
+  },
+  "city-atascocita": {
+   "title": "Atascocita, Texas",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 29.99333333,
+   "lon": -95.18194444
+  },
+  "city-clay": {
+   "title": "Clay, New York",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 43.15055556,
+   "lon": -76.19416667
+  },
+  "city-gloucester-township": {
+   "title": "Gloucester Township, New Jersey",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 39.792186,
+   "lon": -75.036059
+  },
+  "city-arden-arcade": {
+   "title": "Arden-Arcade, California",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 38.60527778,
+   "lon": -121.37972222
+  },
+  "city-dale-city": {
+   "title": "Dale City, Virginia",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 38.64833333,
+   "lon": -77.34222222
+  },
+  "city-macomb-township": {
+   "title": "Macomb Township, Michigan",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 42.65916667,
+   "lon": -82.93083333
+  },
+  "city-clarkstown": {
+   "title": "Clarkstown, New York",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 41.12611111,
+   "lon": -73.98027778
+  },
+  "city-haverford-township": {
+   "title": "Haverford Township, Pennsylvania",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 39.98333333,
+   "lon": -75.29972222
+  },
+  "city-florence-graham": {
+   "title": "Florence-Graham, California",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 33.96944444,
+   "lon": -118.24388889
+  },
+  "city-taylorsville": {
+   "title": "Taylorsville, Utah",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 40.655,
+   "lon": -111.94944444
+  },
+  "city-town-n-country": {
+   "title": "Town 'n' Country, Florida",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 28.01055556,
+   "lon": -82.59777778
+  },
+  "city-tamiami": {
+   "title": "Tamiami, Florida",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 25.745,
+   "lon": -80.40166667
+  },
+  "city-millcreek-township": {
+   "title": "Millcreek Township, Erie County, Pennsylvania",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 42.15,
+   "lon": -80.09972222
+  },
+  "city-the-hammocks": {
+   "title": "The Hammocks, Florida",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 25.67,
+   "lon": -80.44833333
+  },
+  "city-florin": {
+   "title": "Florin, California",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 38.49027778,
+   "lon": -121.41083333
+  },
+  "city-fontainebleau": {
+   "title": "Fontainebleau, Florida",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 25.77388889,
+   "lon": -80.36166667
+  },
+  "city-ypsilanti-charter-township": {
+   "title": "Ypsilanti Charter Township, Michigan",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 42.22888889,
+   "lon": -83.59222222
+  },
+  "city-lower-paxton-township": {
+   "title": "Lower Paxton Township, Pennsylvania",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 40.33333333,
+   "lon": -76.79972222
+  },
+  "city-bristol-township": {
+   "title": "Bristol Township, Pennsylvania",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 40.11666667,
+   "lon": -74.86638889
+  },
+  "city-georgetown-township": {
+   "title": "Georgetown Township, Michigan",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 42.9,
+   "lon": -85.82944444
+  },
+  "city-tonawanda": {
+   "title": "Tonawanda (CDP), New York",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.98527778,
+   "lon": -78.85222222
+  },
+  "city-bel-air-south": {
+   "title": "Bel Air South, Maryland",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 39.50861111,
+   "lon": -76.32888889
+  },
+  "city-east-los-angeles": {
+   "title": "East Los Angeles, California",
+   "monthlyViews": 5418,
+   "days": 60,
+   "lat": 34.03333333,
+   "lon": -118.16666667
+  },
+  "city-silver-spring": {
+   "title": "Silver Spring, Maryland",
+   "monthlyViews": 10563,
+   "days": 60,
+   "lat": 38.99611111,
+   "lon": -77.02805556
+  },
   "lake-caspian-sea": {
    "title": "Caspian Sea",
    "monthlyViews": 76404,
@@ -28445,13 +31301,6 @@
    "lat": 34.13833333,
    "lon": -84.64388889
   },
-  "lake-silver-lake-reservoir": {
-   "title": "Silver Lake Reservoir",
-   "monthlyViews": 1705,
-   "days": 60,
-   "lat": 34.10107,
-   "lon": -118.26495
-  },
   "lake-lake-ray-hubbard": {
    "title": "Lake Ray Hubbard",
    "monthlyViews": 1705,
@@ -30460,13 +33309,6 @@
    "days": 60,
    "lat": 45.718611,
    "lon": -89.881944
-  },
-  "lake-clear-lake-reservoir": {
-   "title": "Clear Lake Reservoir",
-   "monthlyViews": 91,
-   "days": 60,
-   "lat": 41.86,
-   "lon": -121.146
   },
   "lake-e-v-spence-reservoir": {
    "title": "E.V. Spence Reservoir",
