@@ -188,11 +188,58 @@ kept as written so the reasoning survives.
   on "Khari Khari Lakes" (Bolivia), `lake-lagarfljot` on "Lagarfljót Worm"
   (a cryptid). Candidates in `work/candidates-lakes-wrong-articles.json`;
   run `wp-check.mjs` on it in a resolver window, then `fix-titles.mjs`.
-- **Probe 1: `uk-rivers`** (England by county, Scotland by council area,
-  Wales by principal area, NI by county, the Republic by county; the seven
-  list pages; **floor 50 km** — Britain's rivers are short and famous —
-  `famousViews` 1000; kind includes burn/beck/bourne). Started ~17:30 local
-  under heavy throttling (the category walk alone took ~40 min).
+- **Probe 1: `uk-rivers` done** (`cf4f25b`, report
+  `reports/2026-09-16-uk-rivers.md`): 57 rivers at **floor 50 km** (Britain's
+  rivers are short and famous), 8 fuzzy traps fixed, Lee and Avoca
+  re-pointed off a New Zealand and an Australian river. The British
+  namesakes (Avon ×4, Stour, Derwent, Ouse, Don, Dee, Blackwater…) stay out
+  per decision 5 — the report lists them as the case for a name policy.
+- **Audits of the UK chunk + the engine changes** (Opus data + gameplay,
+  each followed by an Opus skeptic that reproduced every finding; ~900k
+  tokens, 47 min; reports `reports/2026-09-16-uk-rivers-engine-*-audit.md`;
+  fixes `83c9952`, `1f11b7b`). What they caught, all fixed:
+  - the first plural guard **redirected** a typed plural onto the next
+    place within budget ("Irelands" → Iceland, 450 such); now it refuses
+    only a plural of a name ending in a generic word ("Great Lakes") and
+    refuses outright;
+  - "Mt Vernon" on a city round had no exact hit and "mt" is a mountain's
+    word → `normalize` folds Mt → Mount;
+  - "Solomon Island" on a country round was refused because the island
+    cohort's Solomon Islands claimed it → a same-named place elsewhere does
+    not block a correction; "Madagascar Island" / "Singapore City" on a
+    country round are the country, shown as corrections (exact/loose hits
+    only — "Nigera" stays a refused tie);
+  - "Salt Lake", "Smith Mountain", "Center Hill", "Barren River", "Sea
+    Lion", "Snow Hill", "Thousand Lake", "Mount Desert", "River Isle" lost
+    their loose-pass acceptance to the category-word rule → aliases;
+  - "River Isle" was corrected to River Mole on ten characters' slack → an
+    all-generic-word input has no budget of its own;
+  - at 0.7 the letter rules "with an A in it" (66% of rivers/lakes/mountains)
+    became drawable → `MAX_ELIGIBLE_SHARE_LETTER` 0.6;
+  - Lake Arrowhead, Lake Coatepeque, Twin Buttes Reservoir were outside the
+    North America lake theme (the derivation keyed the titles cache by
+    final title; the cache is keyed by the queried title) → added; five
+    more Rockies peaks whose infobox names a subrange the table lacked →
+    added, table extended (Elkhead, Red Mountains, Bear River Mountains,
+    Laramie Range, White River / Yellowstone Plateau);
+  - **`river-humber` scores on Humber River (Ontario) and `lake-loch-leven`
+    on Loch Leven (California)** — both in the British Isles theme (Lee
+    class, from the 2026-09-14 fill). Re-point to `Humber` (WIKI_VERIFIED:
+    "tidal estuary") and `Loch Leven (Kinross)` in the next resolver
+    window (`work/fixes-humber-leven.json` is written).
+  - Known and left: 29 one-edit typos of famous rivers (Thams → Thames,
+    Meise → Meuse…) are refused ties now that Thame, Teise, Tame, Alde,
+    Clare, Brosna, Feale, Irwell, Rede exist (by design; 0 went to a wrong
+    river); "Lake Havasu" on a city round is now the lake's nudge, not Lake
+    Havasu City (alias if wanted); publish timing — dig #6 (2026-09-17)
+    already differs from the live build in round 3, so publishing sooner
+    costs least (J8 in the gameplay report).
+- **Probe 2: `de-rivers`** (Germany by state, Austria by state, Switzerland
+  by canton, Liechtenstein, Luxembourg; 21 lists; **floor 60 km**, famous
+  1000): 4,550 candidates, 3,345 rivers, 162 over the floor by Wikidata,
+  2,726 below, 322 unsized. Pass 1 died once with exit 1 and no message
+  during the views fetch (re-run resumed from cache). The `famousViews`
+  views fetch over ~2,700 below-floor titles is the slow part (~1 h).
 
 ---
 
