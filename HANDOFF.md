@@ -234,12 +234,27 @@ kept as written so the reasoning survives.
     Havasu City (alias if wanted); publish timing — dig #6 (2026-09-17)
     already differs from the live build in round 3, so publishing sooner
     costs least (J8 in the gameplay report).
-- **Probe 2: `de-rivers`** (Germany by state, Austria by state, Switzerland
-  by canton, Liechtenstein, Luxembourg; 21 lists; **floor 60 km**, famous
-  1000): 4,550 candidates, 3,345 rivers, 162 over the floor by Wikidata,
-  2,726 below, 322 unsized. Pass 1 died once with exit 1 and no message
-  during the views fetch (re-run resumed from cache). The `famousViews`
-  views fetch over ~2,700 below-floor titles is the slow part (~1 h).
+- **Probe 2: `de-rivers` done** (`989cb85`, report
+  `reports/2026-09-16-de-rivers.md`): 125 rivers at **floor 60 km**
+  (Germany, Austria, Switzerland, Liechtenstein, Luxembourg), 11 fuzzy
+  traps fixed, **Eder / Aller / Thur re-pointed** off tiny namesakes, the
+  five Rhine sections and "Rhin" (the Rhine's French name) left out. Pass
+  1 died once with exit 1 and no message during the views fetch (the
+  re-run resumed from cache). The `famousViews` fetch over ~2,700
+  below-floor titles is the slow part (~1 h) and found two rivers
+  (Eisbach, Breg — the chunk's two most viewed).
+- Humber and Loch Leven re-pointed (`9813fd5`).
+- **Probe 3: `fr-rivers`** (France by department, Belgium by province, the
+  Netherlands by province, Andorra, Monaco; floor 60 km) running.
+- **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
+  ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
+  aliases at fold time for umlaut names rather than a `normalize` rule (see
+  the de-rivers report).
+- **Probe configs written for every remaining category** (`probes/*-lakes`,
+  `*-mountains`, `*-islands` for uk / de / fr / it-es / nordic); seas,
+  deserts and cities still to write. `probe.mjs` records the list pages each
+  item came from and `chunk.mjs` maps a list to a country (`listCountry` in
+  the config), so one cities probe can span countries.
 
 ---
 
