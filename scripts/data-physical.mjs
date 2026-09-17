@@ -4439,7 +4439,7 @@ Erft|107
 Itz|79
 Kyll|128
 Lenne|129
-Mohne|65
+Mohne|65|Moehne
 Saalach|106
 Schwentine|62
 Uecker|98
@@ -4452,12 +4452,12 @@ Treene|95
 Chiers|140
 Elde|220
 Franconian Saale|140
-Moll|84
+Moll|84|Moell
 Nagold|91
 Niers|113
 Recknitz|72
-Stor|87
-Wumme|121
+Stor|87|Stoer
+Wumme|121|Wuemme
 Agger|70
 Aisch|83
 Diemel|110
@@ -4473,7 +4473,7 @@ Lavant|72
 Oste|156
 Paar|137
 Pinka|100
-Prum|95
+Prum|95|Pruem
 Schwechat|62
 Speyerbach|60
 Sude|85
@@ -4481,18 +4481,18 @@ Waldnaab|99
 Zschopau|128
 Abens|71
 Wetter|69
-Bohme|72
+Bohme|72|Boehme
 Dosse|94
 Emmer|62
 Erlauf|78
 Nidder|69
-Floha|67
+Floha|67|Floeha
 Franconian Rezat|77
 Friedberger Ach|100
 Fuhse|95
 Grosse Aue|88
 Grosse Laber|88
-Grosse Roder|105
+Grosse Roder|105|Grosse Roeder
 Haune|67
 Helme|65
 Isen|81
@@ -4502,7 +4502,7 @@ Lafnitz|114
 Lauchert|60
 Ledava|80
 Lieser|74
-Locknitz|66
+Locknitz|66|Loecknitz
 Mindel|81
 Nebel|60
 Nied|114
@@ -4534,8 +4534,8 @@ Wied|103
 Wiesent|79
 Wipper|85
 Zusam|97
-Ortze|62
-Schwarzer Schops|67
+Ortze|62|Oertze
+Schwarzer Schops|67|Schwarzer Schoeps
 Schwarzach|95
 Pesnica|69
 Haidenaab|69

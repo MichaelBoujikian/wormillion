@@ -47567,7 +47567,9 @@
   "id": "river-mohne",
   "category": "river",
   "name": "Mohne",
-  "aliases": [],
+  "aliases": [
+   "Moehne"
+  ],
   "size": 65,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Möhne\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -47747,7 +47749,9 @@
   "id": "river-moll",
   "category": "river",
   "name": "Moll",
-  "aliases": [],
+  "aliases": [
+   "Moell"
+  ],
   "size": 84,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Möll\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -47803,7 +47807,9 @@
   "id": "river-stor",
   "category": "river",
   "name": "Stor",
-  "aliases": [],
+  "aliases": [
+   "Stoer"
+  ],
   "size": 87,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Stör\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -47817,7 +47823,9 @@
   "id": "river-wumme",
   "category": "river",
   "name": "Wumme",
-  "aliases": [],
+  "aliases": [
+   "Wuemme"
+  ],
   "size": 121,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Wümme\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -48041,7 +48049,9 @@
   "id": "river-prum",
   "category": "river",
   "name": "Prum",
-  "aliases": [],
+  "aliases": [
+   "Pruem"
+  ],
   "size": 95,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Prüm (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -48153,7 +48163,9 @@
   "id": "river-bohme",
   "category": "river",
   "name": "Bohme",
-  "aliases": [],
+  "aliases": [
+   "Boehme"
+  ],
   "size": 72,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Böhme (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -48223,7 +48235,9 @@
   "id": "river-floha",
   "category": "river",
   "name": "Floha",
-  "aliases": [],
+  "aliases": [
+   "Floeha"
+  ],
   "size": 67,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Flöha (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -48307,7 +48321,9 @@
   "id": "river-grosse-roder",
   "category": "river",
   "name": "Grosse Roder",
-  "aliases": [],
+  "aliases": [
+   "Grosse Roeder"
+  ],
   "size": 105,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Große Röder\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -48445,7 +48461,9 @@
   "id": "river-locknitz",
   "category": "river",
   "name": "Locknitz",
-  "aliases": [],
+  "aliases": [
+   "Loecknitz"
+  ],
   "size": 66,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Löcknitz (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -48893,7 +48911,9 @@
   "id": "river-ortze",
   "category": "river",
   "name": "Ortze",
-  "aliases": [],
+  "aliases": [
+   "Oertze"
+  ],
   "size": 62,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Örtze\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -48907,7 +48927,9 @@
   "id": "river-schwarzer-schops",
   "category": "river",
   "name": "Schwarzer Schops",
-  "aliases": [],
+  "aliases": [
+   "Schwarzer Schoeps"
+  ],
   "size": 67,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Schwarzer Schöps\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
