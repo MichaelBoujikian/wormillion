@@ -119,6 +119,9 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- Dragonera (Mallorca) has no page coordinate ---
+  'island-dragonera': ['Atlantic'],
+
   // --- it-es-islands 2026-09-17: the Maggiore, Garda, Orta and Guadalquivir islands are in no ocean ---
   'island-isola-bella': [],
   'island-isola-del-garda': [],

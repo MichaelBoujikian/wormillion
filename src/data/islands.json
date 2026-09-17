@@ -33409,7 +33409,9 @@
   "magnitude": 1096,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Dragonera",
-  "oceans": []
+  "oceans": [
+   "Atlantic"
+  ]
  },
  {
   "id": "island-isla-canela",
