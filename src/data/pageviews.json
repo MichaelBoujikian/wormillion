@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T10:27:51.799Z",
+ "fetched": "2026-09-17T10:37:14.750Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -77850,6 +77850,146 @@
    "days": 60,
    "lat": 41.77252778,
    "lon": 2.4375
+  },
+  "mountain-himmelbjerget": {
+   "title": "Himmelbjerget",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 56.10516944,
+   "lon": 9.68505
+  },
+  "mountain-hverfjall": {
+   "title": "Hverfjall",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 65.6,
+   "lon": -16.88333333
+  },
+  "mountain-oraefajokull": {
+   "title": "Öræfajökull",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-sundhnukur": {
+   "title": "Sundhnúkur",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 63.8736877,
+   "lon": -22.3971692
+  },
+  "mountain-ahkka": {
+   "title": "Áhkká",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 67.58333333,
+   "lon": 17.48333333
+  },
+  "mountain-hofsjokull": {
+   "title": "Hofsjökull",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 64.81666667,
+   "lon": -18.81666667
+  },
+  "mountain-ejer-bavnehoj": {
+   "title": "Ejer Bavnehøj",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 55.97694444,
+   "lon": 9.83055556
+  },
+  "mountain-skjaldbreidur": {
+   "title": "Skjaldbreiður",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 64.41,
+   "lon": -20.76222222
+  },
+  "mountain-orbjorn": {
+   "title": "Þorbjörn (mountain)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 63.865,
+   "lon": -22.43666667
+  },
+  "mountain-kjerkeberget": {
+   "title": "Kjerkeberget",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 60.13580278,
+   "lon": 10.61747222
+  },
+  "mountain-kverkfjoll": {
+   "title": "Kverkfjöll",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 64.65,
+   "lon": -16.71666667
+  },
+  "mountain-loki-fogrufjoll": {
+   "title": "Loki-Fögrufjöll",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 64.478056,
+   "lon": -17.82171
+  },
+  "mountain-rondeslottet": {
+   "title": "Rondeslottet",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 61.914988,
+   "lon": 9.851068
+  },
+  "mountain-torfajokull": {
+   "title": "Torfajökull",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 63.91666667,
+   "lon": -19.16666667
+  },
+  "mountain-fannaraki": {
+   "title": "Fannaråki",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 61.51665,
+   "lon": 7.90833
+  },
+  "mountain-grafelli": {
+   "title": "Gráfelli",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 62.3,
+   "lon": -7
+  },
+  "mountain-helgafell": {
+   "title": "Helgafell (Vestmannaeyjabær)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 63.42916667,
+   "lon": -20.26
+  },
+  "mountain-ok": {
+   "title": "Ok (volcano)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 64.598,
+   "lon": -20.881
+  },
+  "mountain-oksskolten": {
+   "title": "Oksskolten",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 66.0122,
+   "lon": 14.3386
+  },
+  "mountain-tomtabacken": {
+   "title": "Tomtabacken",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 57.50055556,
+   "lon": 14.47027778
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",

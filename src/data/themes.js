@@ -1185,7 +1185,10 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-14 expansion
       'Phlegraean Fields', 'Cumbre Vieja', 'Mount Somma', 'Monte Vulture', 'Tajogaite',
       'Pico Viejo', 'Teneguia', 'Montana Blanca', 'Monte Corona', 'Santa Margarida Volcano',
-      'Croscat', 'Monte Lauro', 'Mount Guajara'
+      'Croscat', 'Monte Lauro', 'Mount Guajara',
+      // 2026-09-14 expansion
+      'Hverfjall', 'Oraefajokull', 'Sundhnukur', 'Hofsjokull', 'Skjaldbreidur',
+      'Kverkfjoll', 'Loki-Fogrufjoll', 'Torfajokull'
     ]
   },
 

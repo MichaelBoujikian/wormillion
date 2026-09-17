@@ -6026,7 +6026,23 @@ export const WIKI_TITLES = {
   "mountain-radomir": "Radomir (mountain)",
   "mountain-el-turbon": "El Turbón",
   "mountain-jof-fuart": "Jôf Fuart",
-  "mountain-turo-de-l-home": "Turó de l'Home"
+  "mountain-turo-de-l-home": "Turó de l'Home",
+
+  // --- mountain (2026-09-14 expansion) ---
+  "mountain-oraefajokull": "Öræfajökull",
+  "mountain-sundhnukur": "Sundhnúkur",
+  "mountain-ahkka": "Áhkká",
+  "mountain-hofsjokull": "Hofsjökull",
+  "mountain-ejer-bavnehoj": "Ejer Bavnehøj",
+  "mountain-skjaldbreidur": "Skjaldbreiður",
+  "mountain-orbjorn": "Þorbjörn (mountain)",
+  "mountain-kverkfjoll": "Kverkfjöll",
+  "mountain-loki-fogrufjoll": "Loki-Fögrufjöll",
+  "mountain-torfajokull": "Torfajökull",
+  "mountain-fannaraki": "Fannaråki",
+  "mountain-grafelli": "Gráfelli",
+  "mountain-helgafell": "Helgafell (Vestmannaeyjabær)",
+  "mountain-ok": "Ok (volcano)"
 };
 
 /**

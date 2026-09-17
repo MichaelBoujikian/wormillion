@@ -7515,6 +7515,26 @@ Monte Lauro|986
 Mount Guajara|2715
 Presolana|2521
 Turo de l'Home|1706
+Himmelbjerget|147
+Hverfjall|420
+Oraefajokull|2110
+Sundhnukur|134
+Ahkka|2011
+Hofsjokull|1765
+Ejer Bavnehoj|170
+Skjaldbreidur|1066
+Þorbjorn|243
+Kjerkeberget|631
+Kverkfjoll|1933
+Loki-Fogrufjoll|1573
+Rondeslottet|2178
+Torfajokull|1281
+Fannaraki|2068
+Grafelli|856
+Helgafell|227
+Ok|1198
+Oksskolten|1916
+Tomtabacken|377
 `;
 
 export const MINOR_PEAKS = `
