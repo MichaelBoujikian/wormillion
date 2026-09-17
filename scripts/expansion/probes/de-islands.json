@@ -1,0 +1,33 @@
+{
+  "name": "de-islands",
+  "category": "island",
+  "jsonFile": "islands.json",
+  "roots": [
+    "Category:Islands of Germany",
+    "Category:Islands of Austria",
+    "Category:Islands of Switzerland",
+    "Category:Islands of Luxembourg",
+    "Category:Islands of Liechtenstein"
+  ],
+  "subcat": "^Category:(Islands of|Islands in|Uninhabited islands of|Lake islands of|River islands of) (?!.*( by |stubs|Overseas|Caribbean|Svalbard|Faroe|Greenland|Jan Mayen|Bouvet|Antarctic))",
+  "lists": [
+    "List of islands of Germany",
+    "List of islands in Germany",
+    "List of islands of Austria",
+    "List of islands of Switzerland",
+    "List of East Frisian Islands",
+    "East Frisian Islands",
+    "North Frisian Islands",
+    "List of islands of Lake Constance"
+  ],
+  "kind": "(island|isle|islet|skerry|holm|archipelago|atoll|key\\b|cay\\b|barrier|Island$|Islands$|^Isle |^Isle of |Key$|Cay$|Holm$|Insel$|Eiland$|Skerry$|Rock$)",
+  "skipTitle": "(^List of|^Islands of|^Geography of|Bridge$|Lighthouse|Light$|Park$|Refuge$|Wildlife|Airport|Base$|Station$|Township|County$|Resort$|Beach$|Harbor$|Harbour$|Marina$|Ferry|Fort |Battery |Prison|Sanctuary$|Preserve$|Trail$|Campground)",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "minSize": 1,
+  "spellings": "island",
+  "notKind": "^(town|city|village|county|borough|census|neighborhood|community|unincorporated|resort|lighthouse|fort|park|bridge|ferry|beach|harbor|harbour|bay|sound|strait|lake|river|peninsula|cape|headland|point|reef|shoal|bank|sandbar|former island|former|artificial|company|ship|school|prison|hotel|airport|naval|military|base|station|refuge|wildlife|preserve|nature reserve|state park|national park|monument|historic|district|region|group of|chain of|archipelago|islands of|list)|^(municipality|commune|comune|civil parish|parish|human settlement|castle|fortress|monastery|abbey|lighthouse island|tidal island)",
+  "famousViews": 1000,
+  "notKindExemptTitle": "(Island|Isle\\b|Key$|Cay$|Islands$|Holm$|Insel$|Eiland$|Skerry$)",
+  "noFigureViews": 122
+}
