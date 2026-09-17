@@ -559,6 +559,43 @@ test('a generic word of another category is a nudge, not a loose hit (2026-09-16
   assert.strictEqual(mead.status, 'accepted');
   assert.strictEqual(mead.entry.name, 'Lake Mead');
   assert.strictEqual(mead.correctedFrom, 'Lake Meade');
-  // a plural typed is not the singular namesake
-  assert.strictEqual(on('lake', 'Lake Meads').status, 'unrecognized');
+  // a plural of a name that does not end in a generic word is an ordinary typo
+  assert.strictEqual(on('lake', 'Lake Meads').entry.name, 'Lake Mead');
+});
+
+test('a place named the long way round is this cohort\'s entry when the names match (2026-09-16 audit)', () => {
+  const local = promptBank.createBank({
+    ...RAW,
+    islands: [...RAW.islands, ...simple('island', 'area_km2', [['Madagascar', 587041], ['Solomon Islands', 28400]])],
+    countries: [...RAW.countries,
+      { id: 'country-madagascar', category: 'country', name: 'Madagascar', aliases: [], magnitude: 90000, magnitudeUnit: 'population', region: ['Africa'], source: 'fixture', flag: ['red', 'white', 'green'] },
+      { id: 'country-solomon-islands', category: 'country', name: 'Solomon Islands', aliases: [], magnitude: 20000, magnitudeUnit: 'population', region: ['Oceania'], source: 'fixture', flag: ['blue', 'green'] },
+      { id: 'country-niger', category: 'country', name: 'Niger', aliases: [], magnitude: 30000, magnitudeUnit: 'population', region: ['Africa'], source: 'fixture', flag: ['orange', 'white', 'green'] },
+      { id: 'country-nigeria', category: 'country', name: 'Nigeria', aliases: [], magnitude: 90000, magnitudeUnit: 'population', region: ['Africa'], source: 'fixture', flag: ['green', 'white'] }],
+    rivers: [...RAW.rivers, ...simple('river', 'length_km', [['Niger River', 4180]])]
+  }, THEMES);
+  const on = (slot, input) => {
+    const run = runner.createRun(local, { rounds: 1 });
+    run.state.slots[0] = slot;
+    return run.submit(input);
+  };
+  // "Madagascar Island" on a country round: the island's name is a country's name
+  const long = on({ category: 'country' }, 'Madagascar Island');
+  assert.strictEqual(long.status, 'accepted');
+  assert.strictEqual(long.entry.name, 'Madagascar');
+  assert.strictEqual(long.correctedFrom, 'Madagascar Island');
+  // a typo of the country's own name is not refused because an island carries the same name
+  const typo = on({ category: 'country' }, 'Solomon Island');
+  assert.strictEqual(typo.status, 'accepted');
+  assert.strictEqual(typo.entry.name, 'Solomon Islands');
+  // out of the prompt's scope, it is still that country: a wrong-scope, not a nudge
+  const scoped = on({ category: 'country', region: 'Europe' }, 'Madagascar Island');
+  assert.strictEqual(scoped.status, 'wrong-scope');
+  assert.strictEqual(scoped.entry.name, 'Madagascar');
+  // a refused in-category tie does not come back through a fuzzy hit next door
+  const tie = on({ category: 'country' }, 'Nigera');
+  assert.strictEqual(tie.status, 'unrecognized');
+  assert.strictEqual(tie.elsewhere, undefined);
+  // ...and the river's bare name typed on a country round is the country, as before
+  assert.strictEqual(on({ category: 'country' }, 'Niger').entry.name, 'Niger');
 });

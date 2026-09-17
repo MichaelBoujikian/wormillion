@@ -805,7 +805,7 @@ Tulare Lake|1780
 Lake Piru|5.02
 Alcohol and Drug Abuse Lake|0.38
 Torch Lake|75.96
-Smith Mountain Lake|83
+Smith Mountain Lake|83|Smith Mountain
 Bde Maka Ska|1.71
 Lake Jocassee|30.35
 Lake Wallenpaupack|22.1
@@ -913,7 +913,7 @@ Lake Sinclair|62.04
 Lake Tapps|9.85
 Tule Lake|52.61
 Badin Lake|21.7
-Center Hill Lake|73.73
+Center Hill Lake|73.73|Center Hill
 Lake Barkley|234
 Monroe Lake|43.5
 Lake Oroville|63
@@ -1055,7 +1055,7 @@ Malheur Lake|201
 Orange Lake|50.79
 Skiatook Lake|42.49
 Teshekpuk Lake|828.8
-Barren River Lake|40.87
+Barren River Lake|40.87|Barren River
 Beaver Dam Lake|27.19
 Chesuncook Lake|102
 DeGray Lake|55.85
@@ -1493,7 +1493,7 @@ Nive|79
 Bidasoa|69
 Leyre|104
 Dronne|203
-Isle|255
+Isle|255|River Isle,Isle River
 Vezere|211
 Correze|86
 Lesse|90
@@ -4455,7 +4455,7 @@ Mount Kenya|5199|Batian
 Mount Ararat|5137|Ararat
 Mount Vinson|4892|Vinson Massif
 Puncak Jaya|4884|Carstensz Pyramid
-Mont Blanc|4808
+Mont Blanc|4808|Mount Blanc
 Matterhorn|4478|Monte Cervino
 Monte Rosa|4634|Dufourspitze
 Mount Whitney|4421|Whitney
@@ -6335,7 +6335,7 @@ South Twin Mountain|1494
 Star Peak|2999
 Sunlight Peak|4285
 Tanaga|1806
-Thousand Lake Mountain|3444
+Thousand Lake Mountain|3444|Thousand Lake
 Thunderbolt Peak|4270
 University Peak|4410
 Venado Peak|3883
@@ -6880,10 +6880,10 @@ Palau|459|Belau
 Samoa|2842|Western Samoa
 Tonga|748
 Vanuatu|12189|New Hebrides
-Solomon Islands|28400|Solomons,The Solomon Islands
+Solomon Islands|28400|Solomons,The Solomon Islands,Solomon Island
 Kiribati|811|Gilbert Islands
 Tuvalu|26|Ellice Islands
-Marshall Islands|181|Marshalls,The Marshall Islands
+Marshall Islands|181|Marshalls,The Marshall Islands,Marshall Island
 Micronesia|702|Federated States of Micronesia,FSM
 Japan|364485|Nippon
 Philippines|300000|The Philippines
@@ -6910,7 +6910,7 @@ Pebble Island|113
 Saunders Island|126
 Carcass Island|18
 Weddell Island|259
-Sea Lion Island|9
+Sea Lion Island|9|Sea Lion
 Lofoten|1233|Lofoten Islands
 Vesteralen|2500
 Andoya|489
@@ -7184,7 +7184,7 @@ Ross Island|2431
 Adelaide Island|4463
 Anvers Island|2076
 James Ross Island|2470
-Snow Hill Island|368
+Snow Hill Island|368|Snow Hill
 Seymour Island|347
 Paulet Island|3.5
 Peter I Island|156
@@ -7470,7 +7470,7 @@ Governors Island|0.72
 Fire Island|66
 Block Island|25
 Aquidneck Island|96|Rhode Island
-Mount Desert Island|280
+Mount Desert Island|280|Mount Desert
 Monhegan|2.3|Monhegan Island
 Chappaquiddick|20|Chappaquiddick Island
 Assateague Island|96.5

@@ -11558,7 +11558,9 @@
   "id": "lake-smith-mountain-lake",
   "category": "lake",
   "name": "Smith Mountain Lake",
-  "aliases": [],
+  "aliases": [
+   "Smith Mountain"
+  ],
   "size": 83,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Smith Mountain Lake\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
@@ -13070,7 +13072,9 @@
   "id": "lake-center-hill-lake",
   "category": "lake",
   "name": "Center Hill Lake",
-  "aliases": [],
+  "aliases": [
+   "Center Hill"
+  ],
   "size": 73.73,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Center Hill Lake\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
@@ -15060,7 +15064,9 @@
   "id": "lake-barren-river-lake",
   "category": "lake",
   "name": "Barren River Lake",
-  "aliases": [],
+  "aliases": [
+   "Barren River"
+  ],
   "size": 40.87,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Barren River Lake\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",

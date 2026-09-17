@@ -854,7 +854,12 @@ globalThis.WORMILLION_THEMES = {
       'Mount Wood', 'Needle Rock Natural Area', 'New York Mountain', 'Nokhu Crags', 'North Arapaho Peak',
       'Peak One', 'Redcloud Peak', 'Rio Grande Pyramid', 'Rising Wolf Mountain', 'Scotchman Peak',
       'Sinopah Mountain', 'South Teton', 'Sunlight Peak', 'Venado Peak', 'Wolfs Head',
-      'Wyoming Peak', 'Ypsilon Mountain'],
+      'Wyoming Peak', 'Ypsilon Mountain',
+      // range-tag.mjs from the infobox range field
+      'Laramie Peak', 'Hahns Peak', 'Mount Sheridan', 'Storm King Mountain', 'Roaring Mountain',
+      'Naomi Peak',
+      // add-theme.mjs
+      'Spanish Peaks', 'Heart Mountain'],
     'Scotland': [
       'Ben Nevis', 'Ben Macdui', 'Braeriach', 'Cairn Gorm', 'Schiehallion',
       'Ben Lomond', 'Goat Fell', 'Arthurs Seat',
@@ -1208,7 +1213,9 @@ globalThis.WORMILLION_THEMES = {
       'Silver Lake', 'Tom Steed Reservoir', 'Whitefish Lake', 'Baskahegan Lake', 'Hop Brook Lake',
       'Imuruk Lake', 'Lake Herbert G. West', 'Lake Latt', 'Millinocket Lake', 'Nerka Lake',
       'Pelican Lake', 'Tazlina Lake', 'Togiak Lake', 'Ugashik Lakes', 'Webbers Falls Lake',
-      'Mother Goose Lake', 'John Paul Hammerschmidt Lake'
+      'Mother Goose Lake', 'John Paul Hammerschmidt Lake',
+      // add-theme.mjs
+      'Lake Arrowhead', 'Lake Coatepeque', 'Twin Buttes Reservoir'
     ],
     'saltwater': [
       // 2026-09-16 US lakes fill (audit): the hypersaline lagoon, the alkali lake, the salt flat that fills

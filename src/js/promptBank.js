@@ -82,6 +82,10 @@
   // rule retired itself; every wave adds small lakes and blue-white-red
   // flags, so the bar is 0.7 (the user's call, decision 2 of the US handoff).
   const MAX_ELIGIBLE_SHARE = 0.7;
+  // A letter rule keeps the old bar: at 0.7 "with an A in it" (66% of the
+  // lakes, rivers and mountains) would draw, and that narrows nothing
+  // (2026-09-16 gameplay audit).
+  const MAX_ELIGIBLE_SHARE_LETTER = 0.6;
 
   // How a run ramps up (Spec 3.8): the first OPENING_ROUNDS are always plain,
   // then the chance a slot carries a modifier climbs linearly from START on the
@@ -518,7 +522,7 @@
         const rule = { kind };
         if (kind === 'contains' || kind === 'starts' || kind === 'ends') rule.letter = pick(LETTERS, rng);
         const n = eligibleCount(cohort, (entry) => satisfiesLetter(entry, rule));
-        if (n >= MIN_ELIGIBLE && n <= cohort.entries.length * MAX_ELIGIBLE_SHARE) return rule;
+        if (n >= MIN_ELIGIBLE && n <= cohort.entries.length * MAX_ELIGIBLE_SHARE_LETTER) return rule;
       }
       return null;
     }
@@ -805,6 +809,7 @@
     MIN_REGION_COUNTRIES,
     MIN_ELIGIBLE,
     MAX_ELIGIBLE_SHARE,
+    MAX_ELIGIBLE_SHARE_LETTER,
     MIN_THEME_MEMBERS,
     OPENING_ROUNDS,
     MODIFIER_CHANCE_START,

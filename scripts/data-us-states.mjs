@@ -56,7 +56,7 @@ Columbia|South Carolina
 Pierre|South Dakota
 Nashville|Tennessee
 Austin|Texas
-Salt Lake City|Utah|SLC
+Salt Lake City|Utah|SLC,Salt Lake
 Montpelier|Vermont
 Richmond|Virginia
 Olympia|Washington

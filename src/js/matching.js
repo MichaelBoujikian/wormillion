@@ -32,7 +32,10 @@
       .replace(/[–—‒]/g, '-')
       .replace(/[.,']/g, '')
       .replace(/\s+/g, ' ')
-      .trim();
+      .trim()
+      // "Mt Vernon" is "Mount Vernon" (2026-09-16 audit: a city named Mount X
+      // typed as Mt X had no exact hit and "mt" is a mountain's word)
+      .replace(/^mt (?=\S)|(?<= )mt (?=\S)/g, 'mount ');
   }
 
   // Words that carry no identifying information in a place name. Dropping them
@@ -217,12 +220,17 @@
     let bestScore = Infinity;
     let winners = [];
 
+    // A typed plural of a name that ends in a generic word is a group, not a
+    // typo: "Great Lakes" is not Great Lake (Tasmania), "Bear Lakes" is not
+    // Bear Lake, and neither is anything else nearby - the input is refused
+    // outright (2026-09-16; the first cut skipped the singular and let the
+    // next place within budget win: "Great Salt Lakes" became Great Salt
+    // Plains Lake). A plural of any other name is an ordinary typo ("Irelands"
+    // is Ireland), and "Loch Nesss" is a typo too: nothing ending in s takes
+    // a plural s.
+    let plural = null;
     for (const candidate of candidates) {
-      // A typed plural is not a typo for the singular namesake: "Great Lakes"
-      // is not Great Lake (Tasmania), "Bear Lakes" is not Bear Lake
-      // (2026-09-16). "Loch Nesss" is still a typo: nothing ending in s
-      // takes a plural s.
-      if (key === candidate.key + 's' && !candidate.key.endsWith('s')) continue;
+      if (key === candidate.key + 's' && !candidate.key.endsWith('s') && FILLER.has(candidate.key.split(' ').pop())) { plural = candidate; continue; }
       const shares = sharedWordMax > 0 && candidate.filler.some((w) => typedFiller.includes(w));
       const fullMax = Math.max(max, shares ? sharedWordMax : 0);
       let score = Infinity;
@@ -243,6 +251,7 @@
       }
     }
 
+    if (plural) return null;
     // Two different places equally close is not a typo, it's a coin flip.
     if (winners.length !== 1) return null;
     return { id: winners[0].id, key: winners[0].key, distance: bestScore >> 1 };

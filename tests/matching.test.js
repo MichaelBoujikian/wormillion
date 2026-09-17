@@ -311,6 +311,29 @@ test('a typed plural is never corrected onto its singular namesake (2026-09-16)'
   // a real typo still corrects, s or no s
   assert.strictEqual(matching.matchAnswer('Loch Nesss', lakes, null).entryId, 'lake-loch-ness');
   assert.strictEqual(matching.matchAnswer('Great Lkae', lakes, null).entryId, 'lake-great-lake');
+  // ...and the refusal is a refusal: the next place within budget does not win instead
+  // (the first cut sent "Great Salt Lakes" to Great Salt Plains Lake, "Irelands" to Iceland)
+  const salty = matching.buildLookup([
+    { id: 'lake-great-salt-lake', name: 'Great Salt Lake', aliases: [] },
+    { id: 'lake-great-salt-plains-lake', name: 'Great Salt Plains Lake', aliases: [] }
+  ], { category: 'lake' });
+  assert.strictEqual(matching.matchAnswer('Great Salt Lakes', salty, null).status, 'unrecognized');
+  // a plural of a name that does not end in a generic word is an ordinary typo
+  const countries = matching.buildLookup([
+    { id: 'country-ireland', name: 'Ireland', aliases: [] },
+    { id: 'country-iceland', name: 'Iceland', aliases: [] }
+  ], { category: 'country' });
+  assert.strictEqual(matching.matchAnswer('Irelands', countries, null).entryId, 'country-ireland');
+  assert.strictEqual(matching.matchAnswer('Icelands', countries, null).entryId, 'country-iceland');
+});
+
+test('"Mt" is "Mount" before anything else looks at the input (2026-09-16 audit)', () => {
+  assert.strictEqual(matching.normalize('Mt. Vernon'), 'mount vernon');
+  assert.strictEqual(matching.normalize('mt desert island'), 'mount desert island');
+  const cities = matching.buildLookup([{ id: 'city-mount-vernon', name: 'Mount Vernon', aliases: [] }], { category: 'city' });
+  // "mt" was a mountain's word on a city round, so "Mt Vernon" had no exact hit and no loose pass
+  assert.strictEqual(matching.matchAnswer('Mt Vernon', cities, null).entryId, 'city-mount-vernon');
+  assert.strictEqual(matching.matchAnswer('Mt Vernan', cities, null).status, 'corrected');
 });
 
 test('an all-generic-word input has no edit budget of its own (2026-09-16 audit)', () => {

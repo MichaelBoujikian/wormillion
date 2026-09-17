@@ -99,17 +99,20 @@
           if (other === category) continue;
           const hit = matching.matchAnswer(rawInput, cohort.lookup, null, options);
           if (hit.status === 'accepted' || hit.status === 'corrected') {
-            return { entry: cohort.byId.get(hit.entryId), category: other };
+            return { entry: cohort.byId.get(hit.entryId), category: other, fuzzy: hit.status === 'corrected' };
           }
         }
       }
       return null;
     }
 
+    /** Two entries (of any category) that carry the same name: Madagascar the island and Madagascar the country. */
+    const sameName = (a, b) => Boolean(a && b) && matching.normalize(a.name) === matching.normalize(b.name);
+
     function submit(rawInput) {
       if (state.finished) return { status: 'unrecognized' };
       const current = prompt();
-      const match = matching.matchAnswer(rawInput, current.lookup, state.usedAnswers);
+      let match = matching.matchAnswer(rawInput, current.lookup, state.usedAnswers);
 
       // An exact name beats a spelling correction. On a narrowed prompt the
       // subset lookup can't see the rest of the category, so without this
@@ -119,7 +122,11 @@
         const exact = matching.matchAnswer(rawInput, current.cohort.lookup, null, { fuzzy: false });
         if (exact.status === 'accepted' && exact.entryId !== match.entryId) return wrongScope(current, exact.entryId);
         const named = elsewhere(rawInput, current.category, true);
-        if (named) return { status: 'unrecognized', elsewhere: named };
+        // ...unless the place named elsewhere IS the corrected one under the
+        // same name: "Solomon Island" on a country round is a typo for the
+        // Solomon Islands, and the island cohort's Solomon Islands is no
+        // reason to refuse it (2026-09-16 audit).
+        if (named && !sameName(named.entry, current.cohort.byId.get(match.entryId))) return { status: 'unrecognized', elsewhere: named };
       }
 
       if (match.status === 'unrecognized') {
@@ -132,8 +139,24 @@
         // A real place from another category deserves a nudge, not a shrug:
         // "Estonia is a country - this round wants a capital city."
         const named = elsewhere(rawInput, current.category, false);
-        if (named) return { status: 'unrecognized', elsewhere: named };
-        return { status: 'unrecognized' };
+        if (!named) return { status: 'unrecognized' };
+        // ...but when that place's name is also a name in THIS cohort, the
+        // player has named this cohort's entry the long way round:
+        // "Madagascar Island" on a country round is Madagascar the country,
+        // "Singapore City" is Singapore (2026-09-16 audit). Shown as a
+        // correction, so the summary reads "Madagascar Island -> Madagascar".
+        // (Exact and loose hits only: a refused in-category tie must not come
+        // back through a fuzzy hit next door - "Nigera" stays refused.)
+        const twin = named.fuzzy ? { status: 'unrecognized' } : matching.matchAnswer(named.entry.name, current.lookup, state.usedAnswers, { loose: false, fuzzy: false });
+        if (twin.status === 'accepted') match = { status: 'corrected', entryId: twin.entryId, typed: rawInput.trim(), matched: twin.matched };
+        else if (twin.status === 'duplicate') match = twin;
+        else {
+          if (current.constrained) {
+            const wideTwin = matching.matchAnswer(named.entry.name, current.cohort.lookup, null, { loose: false, fuzzy: false });
+            if (wideTwin.status === 'accepted') return wrongScope(current, wideTwin.entryId);
+          }
+          return { status: 'unrecognized', elsewhere: named };
+        }
       }
 
       const entry = current.cohort.byId.get(match.entryId);

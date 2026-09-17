@@ -9244,7 +9244,8 @@
   "category": "city",
   "name": "Salt Lake City",
   "aliases": [
-   "SLC"
+   "SLC",
+   "Salt Lake"
   ],
   "size": 200000,
   "sizeUnit": "population",

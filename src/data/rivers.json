@@ -4844,7 +4844,10 @@
   "id": "river-isle",
   "category": "river",
   "name": "Isle",
-  "aliases": [],
+  "aliases": [
+   "River Isle",
+   "Isle River"
+  ],
   "size": 255,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Isle (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",

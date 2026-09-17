@@ -5885,7 +5885,8 @@
   "name": "Solomon Islands",
   "aliases": [
    "Solomons",
-   "The Solomon Islands"
+   "The Solomon Islands",
+   "Solomon Island"
   ],
   "size": 28400,
   "sizeUnit": "area_km2",
@@ -5943,7 +5944,8 @@
   "name": "Marshall Islands",
   "aliases": [
    "Marshalls",
-   "The Marshall Islands"
+   "The Marshall Islands",
+   "Marshall Island"
   ],
   "size": 181,
   "sizeUnit": "area_km2",
@@ -6438,7 +6440,9 @@
   "id": "island-sea-lion-island",
   "category": "island",
   "name": "Sea Lion Island",
-  "aliases": [],
+  "aliases": [
+   "Sea Lion"
+  ],
   "size": 9,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Sea Lion Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
@@ -11216,7 +11220,9 @@
   "id": "island-snow-hill-island",
   "category": "island",
   "name": "Snow Hill Island",
-  "aliases": [],
+  "aliases": [
+   "Snow Hill"
+  ],
   "size": 368,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Snow Hill Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
@@ -16238,7 +16244,9 @@
   "id": "island-mount-desert-island",
   "category": "island",
   "name": "Mount Desert Island",
-  "aliases": [],
+  "aliases": [
+   "Mount Desert"
+  ],
   "size": 280,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Mount Desert Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",

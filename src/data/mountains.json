@@ -472,7 +472,9 @@
   "id": "mountain-mont-blanc",
   "category": "mountain",
   "name": "Mont Blanc",
-  "aliases": [],
+  "aliases": [
+   "Mount Blanc"
+  ],
   "size": 4808,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Mont Blanc\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -27233,7 +27235,9 @@
   "id": "mountain-thousand-lake-mountain",
   "category": "mountain",
   "name": "Thousand Lake Mountain",
-  "aliases": [],
+  "aliases": [
+   "Thousand Lake"
+  ],
   "size": 3444,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Thousand Lake Mountain\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",

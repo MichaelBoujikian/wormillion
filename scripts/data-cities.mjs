@@ -443,7 +443,7 @@ Tacoma|United States|220000
 Baton Rouge|United States|227000
 Des Moines|United States|214000
 Modesto|United States|218000
-Salt Lake City|United States|200000|SLC
+Salt Lake City|United States|200000|SLC,Salt Lake
 Sioux Falls|United States|195000
 Rochester|United States|211000
 Amarillo|United States|200000

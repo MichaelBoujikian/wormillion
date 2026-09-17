@@ -1040,7 +1040,8 @@
   "category": "capital",
   "name": "Salt Lake City",
   "aliases": [
-   "SLC"
+   "SLC",
+   "Salt Lake"
   ],
   "size": 340000000,
   "sizeUnit": "population_of_country",
