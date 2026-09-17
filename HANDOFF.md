@@ -318,10 +318,16 @@ kept as written so the reasoning survives.
   not after the fold, the new rows must be in `mountains.json`; Beerenberg
   and Puy de Sancy into `volcanoes`). The Ultras / highest-points lists
   drag in Greece, the Balkans, the Caucasus, Russia — dropped by hand each
-  time. Mountain cohort 2,480, jackpot 1.7%. `fr-mountains` running; then
-  `it-es-mountains`, `nordic-mountains`, then islands, seas, deserts,
-  cities, the US no-figure re-runs (decision 1), and the audits of lakes +
-  mountains.
+  time. `fr-mountains` 67 (`47c10e3`, the French category trees; the
+  guessed list titles mostly do not exist — `probe.mjs` now follows list
+  redirects), `it-es-mountains` 71 (`96b3af7`), `nordic-mountains` 20
+  (`95d76be`). **Mountains done**: cohort 1,984 → 2,638, jackpot 1.6%,
+  `the Alps` 89 → 289, `volcanoes` 384 → 412. Report
+  `reports/2026-09-17-europe-mountains.md`.
+- **Next**: the audit round over lakes + mountains (Opus, ≤3), islands
+  (`probes/*-islands.json`, floor 1 km² or 1,000+ views, unsized at 122+
+  views under decision 1), seas, deserts, cities, then the US no-figure
+  re-runs.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
