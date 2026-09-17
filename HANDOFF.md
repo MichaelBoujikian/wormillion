@@ -361,9 +361,30 @@ kept as written so the reasoning survives.
   block — dropping the islets Omø/Siø took the rivers Omo/Sió for one
   commit. A pre-wave/now diff of `bank.js` shows only the six deliberate
   drops missing.
-- **Next**: `eu-seas`, `eu-deserts`, `eu-cities` probes; the US no-figure
-  re-runs (`us-seas`, `us-islands`, `us-deserts` with `noFigureViews`);
-  the audit of islands + seas + cities; then the merge decision.
+- **Seas** (`134522c`, 149 rows, 145 of them `size` 0 at 183+ views —
+  the sea floor): Scapa Flow, the Norwegian and Icelandic fjords, the
+  firths and sea lochs, the Menai Strait, the Venetian lagoon, Liverpool
+  Bay… **Deserts** (`9308724`): the Desert of Wales and the Accona Desert;
+  Europe had the rest already. Report
+  `reports/2026-09-17-europe-seas-deserts-cities.md`.
+- **Cities** (`7b02d56`, 619 rows): one probe over 44 national lists,
+  `listCountry` naming each row's country; floor 50,000 (P1082). 45 fuzzy
+  traps fixed (Dublin → Lublin, Doncaster → Lancaster, Rotherham →
+  Rotterdam…). Out: 37 name-taken (Syracuse, Córdoba, Cartagena, Halifax,
+  Newport…) plus Lincoln / Taunton / Warwick / Washington by hand,
+  overseas France (Cayenne, Nouméa, Réunion), "X Municipality" doubles,
+  UK districts, merged Dutch municipalities. By hand with fetched figures:
+  Norrköping, Halmstad, Eskilstuna, Horsens, Maidstone, Shrewsbury… (the
+  `kind` list skips "urban area" and "cathedral city"). **Newtownabbey**
+  came off the Irish list as Ireland — check countries on multi-list
+  probes. City jackpot share 0.8%; no views floor needed.
+- **US no-figure re-run, seas** (`b296377`, 210 rows at 183+ views, size
+  0): Pearl Harbor, New York Harbor, the Golden Gate, the Straits of
+  Mackinac, Cook Inlet, Narragansett Bay, Pamlico Sound… Great Lakes bays
+  carry `OCEAN_OVERRIDES: []`. Concept articles and the 78 foreign straits
+  and gulfs out.
+- **Next**: the US no-figure re-runs for islands and deserts; the audit of
+  islands + seas + cities; then the merge decision.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
