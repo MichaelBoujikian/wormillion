@@ -7727,6 +7727,11 @@ Rabjerg Mile|2
 Bonneville Salt Flats|104
 Desert of Wales|0
 Accona Desert|0
+High Desert|0
+Jornada del Muerto|0
+Kau Desert|0
+Yuha Desert|0
+Tonopah Desert|0
 `;
 
 export const ISLANDS = `

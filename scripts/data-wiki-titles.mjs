@@ -6515,7 +6515,11 @@ export const WIKI_TITLES = {
   "island-money-island": "Money Island (Branford, Connecticut)",
   "island-ram-island": "Ram Island (Connecticut)",
   "island-rugged-island": "Rugged Island (Alaska)",
-  "island-weedon-island": "Weedon Island, Florida"
+  "island-weedon-island": "Weedon Island, Florida",
+
+  // --- desert (2026-09-14 expansion) ---
+  "desert-high-desert": "High Desert (California)",
+  "desert-kau-desert": "Kaʻū Desert"
 };
 
 /**

@@ -1626,7 +1626,9 @@ globalThis.WORMILLION_THEMES = {
       'Sevier Desert', 'Owyhee Desert', 'Baja California Desert', 'Smoke Creek Desert', 'Anza-Borrego Desert',
       'Puna de Atacama',
       // 2026-09-14 expansion
-      'Bonneville Salt Flats'
+      'Bonneville Salt Flats',
+      // 2026-09-14 expansion
+      'High Desert', 'Jornada del Muerto', 'Kau Desert', 'Yuha Desert', 'Tonopah Desert'
     ]
   },
 

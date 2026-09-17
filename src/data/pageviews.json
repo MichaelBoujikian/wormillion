@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T15:34:02.964Z",
+ "fetched": "2026-09-17T15:35:37.986Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -83625,6 +83625,41 @@
    "days": 60,
    "lat": 43.19560833,
    "lon": 11.57289722
+  },
+  "desert-high-desert": {
+   "title": "High Desert (California)",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": 34.8,
+   "lon": -117.6
+  },
+  "desert-jornada-del-muerto": {
+   "title": "Jornada del Muerto",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 32.84722222,
+   "lon": -106.89694444
+  },
+  "desert-kau-desert": {
+   "title": "Kaʻū Desert",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 19.40861111,
+   "lon": -155.29666667
+  },
+  "desert-yuha-desert": {
+   "title": "Yuha Desert",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 32.71666667,
+   "lon": -115.83333333
+  },
+  "desert-tonopah-desert": {
+   "title": "Tonopah Desert",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 33.49361111,
+   "lon": -112.93722222
   },
   "island-greenland": {
    "title": "Greenland",
