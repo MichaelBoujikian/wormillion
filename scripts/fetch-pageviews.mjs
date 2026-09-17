@@ -53,7 +53,8 @@ const EXPECTED = {
     'dome', 'lava', 'volcanic', 'crater', 'caldera', 'knob'],
   desert: ['desert', 'sand', 'dune', 'arid', 'erg', 'steppe', 'area', 'region', 'plain'],
   island: ['island', 'isle', 'archipelago', 'atoll', 'islet', 'countr', 'territory', 'landmass'],
-  sea_ocean: ['sea', 'ocean', 'gulf', 'bay', 'strait', 'body of water', 'water', 'channel', 'sound', 'basin']
+  // 2026-09-17: Europe's coast is fjords, firths, sea lochs, inlets and lagoons
+  sea_ocean: ['sea', 'ocean', 'gulf', 'bay', 'strait', 'body of water', 'water', 'channel', 'sound', 'basin', 'fjord', 'firth', 'inlet', 'lagoon', 'loch', 'lough', 'estuary', 'cove', 'bight', 'voe', 'kyle', 'roads']
 };
 
 // Words that mark an article as being about something that merely carries the

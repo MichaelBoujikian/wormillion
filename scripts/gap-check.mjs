@@ -89,7 +89,9 @@ const EXPECTED = {
     'Surtsey', 'Hopen', 'Smola', 'Froya', 'Hitra', 'Senja', 'Sotra', 'Kvaloya', 'Soroya', 'Orust', 'Tjorn', 'Fano', 'Romo', 'Mors', 'Als', 'Heimaey', 'Grimsey', 'Flatey'],
   sea_ocean: ['Pacific Ocean', 'Atlantic', 'Mediterranean', 'Red Sea', 'Black Sea', 'Caribbean Sea', 'Dead Sea', 'North Sea', 'Baltic Sea', 'Arabian Sea', 'Bering Sea', 'Coral Sea', 'Gulf of Mexico',
     // the 2026-09-15 expansion
-    'Strait of Gibraltar', 'Bosphorus', 'Strait of Hormuz', 'Bering Strait', 'Puget Sound', 'San Francisco Bay', 'Tokyo Bay', 'Bohai Sea', 'Gulf of Suez']
+    'Strait of Gibraltar', 'Bosphorus', 'Strait of Hormuz', 'Bering Strait', 'Puget Sound', 'San Francisco Bay', 'Tokyo Bay', 'Bohai Sea', 'Gulf of Suez',
+    // the 2026-09-17 Europe seas scouring (reports/2026-09-17-europe-seas-deserts-cities.md)
+    'Scapa Flow', 'Sognefjord', 'Geirangerfjord', 'Oslofjord', 'Hardangerfjord', 'Menai Strait', 'Cantabrian Sea', 'Loch Fyne', 'Firth of Tay', 'Cromarty Firth', 'Venetian Lagoon', 'Liverpool Bay', 'Swansea Bay', 'Kiel Fjord', 'Gulf of Corryvreckan', 'Saltstraumen']
 };
 
 const byCategory = new Map();

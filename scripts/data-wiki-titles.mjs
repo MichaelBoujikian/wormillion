@@ -6245,6 +6245,33 @@ export const WIKI_TITLES = {
   "island-aspo": "Aspö, Karlskrona",
   "island-moja": "Möja",
   "island-bjorko": "Björkö (Korsholm)",
+
+  // --- sea_ocean (2026-09-14 expansion) ---
+  "sea_ocean-naeroyfjord": "Nærøyfjord",
+  "sea_ocean-hjorundfjorden": "Hjørundfjorden",
+  "sea_ocean-hvalfjordur": "Hvalfjörður",
+  "sea_ocean-eyjafjordur": "Eyjafjörður",
+  "sea_ocean-breidafjordur": "Breiðafjörður",
+  "sea_ocean-botany-bay": "Botany Bay, Kent",
+  "sea_ocean-nordfjorden": "Nordfjorden (Vestland)",
+  "sea_ocean-faxafloi": "Faxaflói",
+  "sea_ocean-isfjorden": "Isfjorden (Svalbard)",
+  "sea_ocean-loch-leven": "Loch Leven (Highlands)",
+  "sea_ocean-berufjordur": "Berufjörður",
+  "sea_ocean-borgarfjordur": "Borgarfjörður",
+  "sea_ocean-skagafjordur": "Skagafjörður",
+  "sea_ocean-sandwich-bay": "Sandwich Bay, Kent",
+  "sea_ocean-storfjorden": "Storfjorden (Sunnmøre)",
+  "sea_ocean-sorfjorden": "Sørfjorden (Hardanger)",
+  "sea_ocean-koge-bay": "Køge Bay",
+  "sea_ocean-woody-bay": "Woody Bay, Devon",
+  "sea_ocean-jossingfjorden": "Jøssingfjorden",
+  "sea_ocean-lyngen": "Lyngen (fjord)",
+  "sea_ocean-hunafloi": "Húnaflói",
+  "sea_ocean-mulciber": "Mulciber (volcano)",
+  "sea_ocean-isafjardardjup": "Ísafjarðardjúp",
+  "sea_ocean-langdon-bay": "Langdon Bay (Kent)",
+  "sea_ocean-skjalfandi": "Skjálfandi"
 };
 
 /**
@@ -6718,5 +6745,8 @@ export const WIKI_VERIFIED = new Set([
   "island-ulvon-island",
   "island-market",
   "island-north-jutlandic-island",
-  "island-kastellholmen"
+  "island-kastellholmen",
+  // --- described as UNESCO World Heritage Sites ---
+  "sea_ocean-naeroyfjord",
+  "sea_ocean-mont-saint-michel-bay"
 ]);

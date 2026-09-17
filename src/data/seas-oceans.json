@@ -4465,5 +4465,2538 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "sea_ocean-scapa-flow",
+  "category": "sea_ocean",
+  "name": "Scapa Flow",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Scapa Flow\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 11932,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Scapa Flow",
+  "lat": 58.9,
+  "lon": -3.05,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-venetian-lagoon",
+  "category": "sea_ocean",
+  "name": "Venetian Lagoon",
+  "aliases": [],
+  "size": 550,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Venetian Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5327,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Venetian Lagoon",
+  "lat": 45.41305556,
+  "lon": 12.29722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-corryvreckan",
+  "category": "sea_ocean",
+  "name": "Gulf of Corryvreckan",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Corryvreckan\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5114,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Corryvreckan",
+  "lat": 56.155,
+  "lon": -5.72777778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sognefjord",
+  "category": "sea_ocean",
+  "name": "Sognefjord",
+  "aliases": [],
+  "size": 12518,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sognefjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 4383,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sognefjord",
+  "lat": 61.1,
+  "lon": 5.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-geirangerfjord",
+  "category": "sea_ocean",
+  "name": "Geirangerfjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Geirangerfjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3622,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Geirangerfjord",
+  "lat": 62.121,
+  "lon": 7.129,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-saltstraumen",
+  "category": "sea_ocean",
+  "name": "Saltstraumen",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saltstraumen\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3561,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saltstraumen",
+  "lat": 67.22805,
+  "lon": 14.61635,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kynance-cove",
+  "category": "sea_ocean",
+  "name": "Kynance Cove",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kynance Cove\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2922,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kynance Cove",
+  "lat": 49.974,
+  "lon": -5.23,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-cantabrian-sea",
+  "category": "sea_ocean",
+  "name": "Cantabrian Sea",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cantabrian Sea\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2466,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cantabrian Sea",
+  "lat": 44.0323,
+  "lon": -4.3506,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-oslofjord",
+  "category": "sea_ocean",
+  "name": "Oslofjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oslofjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2435,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oslofjord",
+  "lat": 59.80229,
+  "lon": 10.55237,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-holy-loch",
+  "category": "sea_ocean",
+  "name": "Holy Loch",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Holy Loch\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2100,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Holy Loch",
+  "lat": 55.987,
+  "lon": -4.933,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-menai-strait",
+  "category": "sea_ocean",
+  "name": "Menai Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Menai Strait\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2100,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Menai Strait",
+  "lat": 53.18055556,
+  "lon": -4.23333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-hardangerfjord",
+  "category": "sea_ocean",
+  "name": "Hardangerfjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hardangerfjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1826,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hardangerfjord",
+  "lat": 60.16666667,
+  "lon": 6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-fyne",
+  "category": "sea_ocean",
+  "name": "Loch Fyne",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Fyne\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1735,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Fyne",
+  "lat": 56.05,
+  "lon": -5.31,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-naeroyfjord",
+  "category": "sea_ocean",
+  "name": "Naeroyfjord",
+  "aliases": [],
+  "size": 518.02,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nærøyfjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nærøyfjord",
+  "lat": 60.94361111,
+  "lon": 6.93138889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-linnhe",
+  "category": "sea_ocean",
+  "name": "Loch Linnhe",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Linnhe\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Linnhe",
+  "lat": 56.70138889,
+  "lon": -5.26194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-man-o-war-cove",
+  "category": "sea_ocean",
+  "name": "Man o' War Cove",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Man o' War Cove\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Man o' War Cove",
+  "lat": 50.6204,
+  "lon": -2.2703,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-hjorundfjorden",
+  "category": "sea_ocean",
+  "name": "Hjorundfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hjørundfjorden\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hjørundfjorden",
+  "lat": 62.3479,
+  "lon": 6.3951,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-clew-bay",
+  "category": "sea_ocean",
+  "name": "Clew Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Clew Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Clew Bay",
+  "lat": 53.83333333,
+  "lon": -9.8,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-long",
+  "category": "sea_ocean",
+  "name": "Loch Long",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Long\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Long",
+  "lat": 56.034395,
+  "lon": -4.8855839,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-lysefjord",
+  "category": "sea_ocean",
+  "name": "Lysefjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lysefjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lysefjord",
+  "lat": 59.00453,
+  "lon": 6.30519,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-la-spezia",
+  "category": "sea_ocean",
+  "name": "Gulf of La Spezia",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of La Spezia\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of La Spezia",
+  "lat": 44.0639,
+  "lon": 9.8833,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-keem-bay",
+  "category": "sea_ocean",
+  "name": "Keem Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Keem Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Keem Bay",
+  "lat": 53.968,
+  "lon": -10.1939,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kimmeridge-bay",
+  "category": "sea_ocean",
+  "name": "Kimmeridge Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kimmeridge Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kimmeridge Bay",
+  "lat": 50.6123647,
+  "lon": -2.13009631,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-trollfjord",
+  "category": "sea_ocean",
+  "name": "Trollfjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trollfjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trollfjord",
+  "lat": 68.3628,
+  "lon": 14.9361,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-firth-of-tay",
+  "category": "sea_ocean",
+  "name": "Firth of Tay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Firth of Tay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Firth of Tay",
+  "lat": 56.44,
+  "lon": -3,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-hvalfjordur",
+  "category": "sea_ocean",
+  "name": "Hvalfjordur",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hvalfjörður\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hvalfjörður",
+  "lat": 64.38333333,
+  "lon": -21.66666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mont-saint-michel-bay",
+  "category": "sea_ocean",
+  "name": "Mont-Saint-Michel Bay",
+  "aliases": [],
+  "size": 500,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mont-Saint-Michel Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mont-Saint-Michel Bay",
+  "lat": 48.634722,
+  "lon": -1.510556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mount-s-bay",
+  "category": "sea_ocean",
+  "name": "Mount's Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mount's Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount's Bay",
+  "lat": 50.058,
+  "lon": -5.4204,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-baie-de-somme",
+  "category": "sea_ocean",
+  "name": "Baie de Somme",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baie de Somme\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baie de Somme",
+  "lat": 50.2014,
+  "lon": 1.6269,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-flensburg-firth",
+  "category": "sea_ocean",
+  "name": "Flensburg Firth",
+  "aliases": [],
+  "size": 250,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Flensburg Firth\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Flensburg Firth",
+  "lat": 54.79,
+  "lon": 9.435,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-cromarty-firth",
+  "category": "sea_ocean",
+  "name": "Cromarty Firth",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cromarty Firth\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cromarty Firth",
+  "lat": 57.68333333,
+  "lon": -4.11666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-eyjafjordur",
+  "category": "sea_ocean",
+  "name": "Eyjafjordur",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eyjafjörður\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eyjafjörður",
+  "lat": 65.85,
+  "lon": -18.13333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-schlei",
+  "category": "sea_ocean",
+  "name": "Schlei",
+  "aliases": [],
+  "size": 54.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Schlei\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Schlei",
+  "lat": 54.59,
+  "lon": 9.83,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-blacksod-bay",
+  "category": "sea_ocean",
+  "name": "Blacksod Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Blacksod Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Blacksod Bay",
+  "lat": 54.12,
+  "lon": -10.03,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-ewe",
+  "category": "sea_ocean",
+  "name": "Loch Ewe",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Ewe\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Ewe",
+  "lat": 57.83694444,
+  "lon": -5.61222222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mulroy-bay",
+  "category": "sea_ocean",
+  "name": "Mulroy Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mulroy Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mulroy Bay",
+  "lat": 55.15,
+  "lon": -7.68333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sandwood-bay",
+  "category": "sea_ocean",
+  "name": "Sandwood Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sandwood Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sandwood Bay",
+  "lat": 58.5396,
+  "lon": -5.0623,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-three-cliffs-bay",
+  "category": "sea_ocean",
+  "name": "Three Cliffs Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Three Cliffs Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Three Cliffs Bay",
+  "lat": 51.56856,
+  "lon": -4.11516,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-trondheim-fjord",
+  "category": "sea_ocean",
+  "name": "Trondheim Fjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trondheim Fjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trondheim Fjord",
+  "lat": 63.8192,
+  "lon": 11.1078,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-breidafjordur",
+  "category": "sea_ocean",
+  "name": "Breidafjordur",
+  "aliases": [],
+  "size": 2874,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Breiðafjörður\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Breiðafjörður",
+  "lat": 65.25,
+  "lon": -23.25,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-iceland-sea",
+  "category": "sea_ocean",
+  "name": "Iceland Sea",
+  "aliases": [],
+  "size": 406000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Iceland Sea\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iceland Sea",
+  "lat": 66.923107,
+  "lon": -12.628921,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-murlough-bay",
+  "category": "sea_ocean",
+  "name": "Murlough Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Murlough Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Murlough Bay",
+  "lat": 55.213,
+  "lon": -6.121,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-alum-bay",
+  "category": "sea_ocean",
+  "name": "Alum Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alum Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alum Bay",
+  "lat": 50.66638889,
+  "lon": -1.57611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-botany-bay",
+  "category": "sea_ocean",
+  "name": "Botany Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Botany Bay, Kent\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Botany Bay, Kent",
+  "lat": 51.38888889,
+  "lon": 1.43472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-brittas-bay",
+  "category": "sea_ocean",
+  "name": "Brittas Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Brittas Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brittas Bay",
+  "lat": 52.88333333,
+  "lon": -6.05,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-whitsand-bay",
+  "category": "sea_ocean",
+  "name": "Whitsand Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Whitsand Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Whitsand Bay",
+  "lat": 50.33333333,
+  "lon": -4.28333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-baie-de-douarnenez",
+  "category": "sea_ocean",
+  "name": "Baie de Douarnenez",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baie de Douarnenez\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baie de Douarnenez",
+  "lat": 48.15,
+  "lon": -4.4,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bracklesham-bay",
+  "category": "sea_ocean",
+  "name": "Bracklesham Bay",
+  "aliases": [],
+  "size": 2.01,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bracklesham Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bracklesham Bay",
+  "lat": 50.753,
+  "lon": -0.847,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-broom",
+  "category": "sea_ocean",
+  "name": "Loch Broom",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Broom\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Broom",
+  "lat": 57.891,
+  "lon": -5.165,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gare-loch",
+  "category": "sea_ocean",
+  "name": "Gare Loch",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gare Loch\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gare Loch",
+  "lat": 56.0375,
+  "lon": -4.81527778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-liverpool-bay",
+  "category": "sea_ocean",
+  "name": "Liverpool Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Liverpool Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Liverpool Bay",
+  "lat": 53.53333333,
+  "lon": -3.2,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-marshall-meadows-bay",
+  "category": "sea_ocean",
+  "name": "Marshall Meadows Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marshall Meadows Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marshall Meadows Bay",
+  "lat": 55.8111,
+  "lon": -2.0343,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-baie-des-anges",
+  "category": "sea_ocean",
+  "name": "Baie des Anges",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baie des Anges\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baie des Anges",
+  "lat": 43.62083333,
+  "lon": 7.22166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-compton-bay",
+  "category": "sea_ocean",
+  "name": "Compton Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Compton Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Compton Bay",
+  "lat": 50.662,
+  "lon": -1.49,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-pegwell-bay",
+  "category": "sea_ocean",
+  "name": "Pegwell Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pegwell Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pegwell Bay",
+  "lat": 51.3,
+  "lon": 1.38333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sullom-voe",
+  "category": "sea_ocean",
+  "name": "Sullom Voe",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sullom Voe\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sullom Voe",
+  "lat": 60.45,
+  "lon": -1.3,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-nordfjorden",
+  "category": "sea_ocean",
+  "name": "Nordfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nordfjorden (Vestland)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nordfjorden (Vestland)",
+  "lat": 61.8963,
+  "lon": 5.2759,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-watergate-bay",
+  "category": "sea_ocean",
+  "name": "Watergate Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Watergate Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Watergate Bay",
+  "lat": 50.46666667,
+  "lon": -5.05,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-faxafloi",
+  "category": "sea_ocean",
+  "name": "Faxafloi",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Faxaflói\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Faxaflói",
+  "lat": 64.4,
+  "lon": -23,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-isfjorden",
+  "category": "sea_ocean",
+  "name": "Isfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isfjorden (Svalbard)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isfjorden (Svalbard)",
+  "lat": 78.33333333,
+  "lon": 15,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-ladram-bay",
+  "category": "sea_ocean",
+  "name": "Ladram Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ladram Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ladram Bay",
+  "lat": 50.65853,
+  "lon": -3.28029,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-leven",
+  "category": "sea_ocean",
+  "name": "Loch Leven",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Leven (Highlands)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Leven (Highlands)",
+  "lat": 56.69055556,
+  "lon": -5.11833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-moidart",
+  "category": "sea_ocean",
+  "name": "Loch Moidart",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Moidart\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Moidart",
+  "lat": 56.792,
+  "lon": -5.802,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-ryan",
+  "category": "sea_ocean",
+  "name": "Loch Ryan",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Ryan\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Ryan",
+  "lat": 54.974468,
+  "lon": -5.030861,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-donegal-bay",
+  "category": "sea_ocean",
+  "name": "Donegal Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Donegal Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Donegal Bay",
+  "lat": 54.53333333,
+  "lon": -8.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-jade-bight",
+  "category": "sea_ocean",
+  "name": "Jade Bight",
+  "aliases": [],
+  "size": 190,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jade Bight\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jade Bight",
+  "lat": 53.46666667,
+  "lon": 8.23333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-berufjordur",
+  "category": "sea_ocean",
+  "name": "Berufjordur",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Berufjörður\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Berufjörður",
+  "lat": 64.7,
+  "lon": -14.36666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-borgarfjordur",
+  "category": "sea_ocean",
+  "name": "Borgarfjordur",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Borgarfjörður\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Borgarfjörður",
+  "lat": 64.501,
+  "lon": -22.01,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-dollart",
+  "category": "sea_ocean",
+  "name": "Dollart",
+  "aliases": [],
+  "size": 100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dollart\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dollart",
+  "lat": 53.29,
+  "lon": 7.16,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-firth-of-lorn",
+  "category": "sea_ocean",
+  "name": "Firth of Lorn",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Firth of Lorn\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Firth of Lorn",
+  "lat": 56.33333333,
+  "lon": -5.75,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-skagafjordur",
+  "category": "sea_ocean",
+  "name": "Skagafjordur",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Skagafjörður\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Skagafjörður",
+  "lat": 65.9,
+  "lon": -19.58333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-the-swale",
+  "category": "sea_ocean",
+  "name": "The Swale",
+  "aliases": [],
+  "size": 65.09,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"The Swale\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "The Swale",
+  "lat": 51.362,
+  "lon": 0.873,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-beauly-firth",
+  "category": "sea_ocean",
+  "name": "Beauly Firth",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Beauly Firth\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Beauly Firth",
+  "lat": 57.49944444,
+  "lon": -4.23027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-carron",
+  "category": "sea_ocean",
+  "name": "Loch Carron",
+  "aliases": [],
+  "size": 22.84,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Carron\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Carron",
+  "lat": 57.36666667,
+  "lon": -5.51666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-goil",
+  "category": "sea_ocean",
+  "name": "Loch Goil",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Goil\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Goil",
+  "lat": 56.131974,
+  "lon": -4.8922978,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sand-bay",
+  "category": "sea_ocean",
+  "name": "Sand Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sand Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sand Bay",
+  "lat": 51.38333333,
+  "lon": -2.96666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sandwich-bay",
+  "category": "sea_ocean",
+  "name": "Sandwich Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sandwich Bay, Kent\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sandwich Bay, Kent",
+  "lat": 51.30571,
+  "lon": 1.37591,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-storfjorden",
+  "category": "sea_ocean",
+  "name": "Storfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Storfjorden (Sunnmøre)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Storfjorden (Sunnmøre)",
+  "lat": 62.1537,
+  "lon": 6.5776,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-swansea-bay",
+  "category": "sea_ocean",
+  "name": "Swansea Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Swansea Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Swansea Bay",
+  "lat": 51.58333333,
+  "lon": -3.9,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-vestfjorden",
+  "category": "sea_ocean",
+  "name": "Vestfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vestfjorden\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vestfjorden",
+  "lat": 68.05,
+  "lon": 14.76666667,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-coldingham-bay",
+  "category": "sea_ocean",
+  "name": "Coldingham Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Coldingham Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coldingham Bay",
+  "lat": 55.89246,
+  "lon": -2.13268,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-dingle-bay",
+  "category": "sea_ocean",
+  "name": "Dingle Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dingle Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dingle Bay",
+  "lat": 52.06666667,
+  "lon": -10.18333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-dornoch-firth",
+  "category": "sea_ocean",
+  "name": "Dornoch Firth",
+  "aliases": [],
+  "size": 40,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dornoch Firth\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dornoch Firth",
+  "lat": 57.85,
+  "lon": -4.05,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kalmar-strait",
+  "category": "sea_ocean",
+  "name": "Kalmar Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kalmar Strait\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kalmar Strait",
+  "lat": 56.73238889,
+  "lon": 16.44928056,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kyle-of-tongue",
+  "category": "sea_ocean",
+  "name": "Kyle of Tongue",
+  "aliases": [],
+  "size": 245,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kyle of Tongue\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kyle of Tongue",
+  "lat": 58.477,
+  "lon": -4.453,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-marano-lagoon",
+  "category": "sea_ocean",
+  "name": "Marano Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marano Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marano Lagoon",
+  "lat": 45.735,
+  "lon": 13.163,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sorfjorden",
+  "category": "sea_ocean",
+  "name": "Sorfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sørfjorden (Hardanger)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sørfjorden (Hardanger)",
+  "lat": 60.1839,
+  "lon": 6.5711,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kiel-fjord",
+  "category": "sea_ocean",
+  "name": "Kiel Fjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kiel Fjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kiel Fjord",
+  "lat": 54.36777778,
+  "lon": 10.17305556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kyles-of-bute",
+  "category": "sea_ocean",
+  "name": "Kyles of Bute",
+  "aliases": [],
+  "size": 57.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kyles of Bute\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kyles of Bute",
+  "lat": 55.93,
+  "lon": -5.187,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-koge-bay",
+  "category": "sea_ocean",
+  "name": "Koge Bay",
+  "aliases": [],
+  "size": 330,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Køge Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Køge Bay",
+  "lat": 55.5,
+  "lon": 12.33333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-duich",
+  "category": "sea_ocean",
+  "name": "Loch Duich",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Duich\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Duich",
+  "lat": 57.23333333,
+  "lon": -5.46666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-eriboll",
+  "category": "sea_ocean",
+  "name": "Loch Eriboll",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Eriboll\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Eriboll",
+  "lat": 58.505,
+  "lon": -4.67,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-ofotfjord",
+  "category": "sea_ocean",
+  "name": "Ofotfjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ofotfjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ofotfjord",
+  "lat": 68.4292,
+  "lon": 16.4827,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-oxwich-bay",
+  "category": "sea_ocean",
+  "name": "Oxwich Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oxwich Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oxwich Bay",
+  "lat": 51.56581,
+  "lon": -4.14679,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-roskilde-fjord",
+  "category": "sea_ocean",
+  "name": "Roskilde Fjord",
+  "aliases": [],
+  "size": 124,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Roskilde Fjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Roskilde Fjord",
+  "lat": 55.83333333,
+  "lon": 12.04722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-saltwick-bay",
+  "category": "sea_ocean",
+  "name": "Saltwick Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saltwick Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saltwick Bay",
+  "lat": 54.48465,
+  "lon": -0.58567,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-tor-bay",
+  "category": "sea_ocean",
+  "name": "Tor Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tor Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tor Bay",
+  "lat": 50.43333333,
+  "lon": -3.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-totland-bay",
+  "category": "sea_ocean",
+  "name": "Totland Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Totland Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Totland Bay",
+  "lat": 50.68,
+  "lon": -1.5514,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-ard-na-caithne",
+  "category": "sea_ocean",
+  "name": "Ard na Caithne",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ard na Caithne\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ard na Caithne",
+  "lat": 52.188141,
+  "lon": -10.420532,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-nevis",
+  "category": "sea_ocean",
+  "name": "Loch Nevis",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Nevis\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Nevis",
+  "lat": 57,
+  "lon": -5.69166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-torridon",
+  "category": "sea_ocean",
+  "name": "Loch Torridon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Torridon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Torridon",
+  "lat": 57.58,
+  "lon": -5.76,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-magdalenefjorden",
+  "category": "sea_ocean",
+  "name": "Magdalenefjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Magdalenefjorden\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Magdalenefjorden",
+  "lat": 79.565,
+  "lon": 10.875,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-woody-bay",
+  "category": "sea_ocean",
+  "name": "Woody Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Woody Bay, Devon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Woody Bay, Devon",
+  "lat": 51.227,
+  "lon": -3.892,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-adventfjorden",
+  "category": "sea_ocean",
+  "name": "Adventfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Adventfjorden\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Adventfjorden",
+  "lat": 78.16666667,
+  "lon": 15.66666667,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-altafjord",
+  "category": "sea_ocean",
+  "name": "Altafjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Altafjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Altafjord",
+  "lat": 69.99,
+  "lon": 23.3242,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bideford-bay",
+  "category": "sea_ocean",
+  "name": "Bideford Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bideford Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bideford Bay",
+  "lat": 51.06666667,
+  "lon": -4.33333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-boknafjord",
+  "category": "sea_ocean",
+  "name": "Boknafjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boknafjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boknafjord",
+  "lat": 59.1193,
+  "lon": 5.4061,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-carmarthen-bay",
+  "category": "sea_ocean",
+  "name": "Carmarthen Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Carmarthen Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Carmarthen Bay",
+  "lat": 51.66666667,
+  "lon": -4.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-jossingfjorden",
+  "category": "sea_ocean",
+  "name": "Jossingfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jøssingfjorden\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jøssingfjorden",
+  "lat": 58.31946,
+  "lon": 6.33882,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-alsh",
+  "category": "sea_ocean",
+  "name": "Loch Alsh",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Alsh\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Alsh",
+  "lat": 57.27,
+  "lon": -5.66,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-striven",
+  "category": "sea_ocean",
+  "name": "Loch Striven",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Striven\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Striven",
+  "lat": 55.928753,
+  "lon": -5.0707625,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-lyngen",
+  "category": "sea_ocean",
+  "name": "Lyngen",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lyngen (fjord)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lyngen (fjord)",
+  "lat": 69.7797,
+  "lon": 20.3827,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-nigg-bay",
+  "category": "sea_ocean",
+  "name": "Nigg Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nigg Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nigg Bay",
+  "lat": 57.712,
+  "lon": -4.06,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-rest-bay",
+  "category": "sea_ocean",
+  "name": "Rest Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rest Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rest Bay",
+  "lat": 51.489,
+  "lon": -3.728,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-ringstead-bay",
+  "category": "sea_ocean",
+  "name": "Ringstead Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ringstead Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ringstead Bay",
+  "lat": 50.6309,
+  "lon": -2.3378,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-romsdalsfjord",
+  "category": "sea_ocean",
+  "name": "Romsdalsfjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Romsdalsfjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Romsdalsfjord",
+  "lat": 62.6523,
+  "lon": 7.2615,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-varangerfjord",
+  "category": "sea_ocean",
+  "name": "Varangerfjord",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Varangerfjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Varangerfjord",
+  "lat": 70.0911,
+  "lon": 31.0091,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-vejle-fjord",
+  "category": "sea_ocean",
+  "name": "Vejle Fjord",
+  "aliases": [],
+  "size": 100,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vejle Fjord\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vejle Fjord",
+  "lat": 55.66666667,
+  "lon": 9.75,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-basque-roads",
+  "category": "sea_ocean",
+  "name": "Basque Roads",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Basque Roads\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Basque Roads",
+  "lat": 46.042,
+  "lon": -1.209,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gills-bay",
+  "category": "sea_ocean",
+  "name": "Gills Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gills Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gills Bay",
+  "lat": 58.65,
+  "lon": -3.15,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gruinard-bay",
+  "category": "sea_ocean",
+  "name": "Gruinard Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gruinard Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gruinard Bay",
+  "lat": 57.893,
+  "lon": -5.492,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-hunafloi",
+  "category": "sea_ocean",
+  "name": "Hunafloi",
+  "aliases": [],
+  "size": 188.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Húnaflói\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Húnaflói",
+  "lat": 65.83333333,
+  "lon": -20.83333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-killala-bay",
+  "category": "sea_ocean",
+  "name": "Killala Bay",
+  "aliases": [],
+  "size": 10.61,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Killala Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Killala Bay",
+  "lat": 54.25,
+  "lon": -9.13333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-sunart",
+  "category": "sea_ocean",
+  "name": "Loch Sunart",
+  "aliases": [],
+  "size": 49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Sunart\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Sunart",
+  "lat": 56.7001,
+  "lon": -5.7569,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mulciber",
+  "category": "sea_ocean",
+  "name": "Mulciber",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mulciber (volcano)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mulciber (volcano)",
+  "lat": 54.06055556,
+  "lon": 4.28194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-pease-bay",
+  "category": "sea_ocean",
+  "name": "Pease Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pease Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pease Bay",
+  "lat": 55.93333333,
+  "lon": -2.33333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-porlock-bay",
+  "category": "sea_ocean",
+  "name": "Porlock Bay",
+  "aliases": [],
+  "size": 1.86,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Porlock Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Porlock Bay",
+  "lat": 51.21928,
+  "lon": -3.60508,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-st-ives-bay",
+  "category": "sea_ocean",
+  "name": "St Ives Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St Ives Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St Ives Bay",
+  "lat": 50.21666667,
+  "lon": -5.43333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sunnylvsfjorden",
+  "category": "sea_ocean",
+  "name": "Sunnylvsfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sunnylvsfjorden\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sunnylvsfjorden",
+  "lat": 62.2242,
+  "lon": 7.0392,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-worbarrow-bay",
+  "category": "sea_ocean",
+  "name": "Worbarrow Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Worbarrow Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Worbarrow Bay",
+  "lat": 50.61666667,
+  "lon": -2.2,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-isafjardardjup",
+  "category": "sea_ocean",
+  "name": "Isafjardardjup",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ísafjarðardjúp\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ísafjarðardjúp",
+  "lat": 66.16666667,
+  "lon": -23,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-baie-de-seine",
+  "category": "sea_ocean",
+  "name": "Baie de Seine",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baie de Seine\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baie de Seine",
+  "lat": 49.5,
+  "lon": -0.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-skaill",
+  "category": "sea_ocean",
+  "name": "Bay of Skaill",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Skaill\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Skaill",
+  "lat": 59.05333333,
+  "lon": -3.33722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-clarach-bay",
+  "category": "sea_ocean",
+  "name": "Clarach Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Clarach Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Clarach Bay",
+  "lat": 52.436,
+  "lon": -4.079,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-dundrum-bay",
+  "category": "sea_ocean",
+  "name": "Dundrum Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dundrum Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dundrum Bay",
+  "lat": 54.22861111,
+  "lon": -5.76916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-gaeta",
+  "category": "sea_ocean",
+  "name": "Gulf of Gaeta",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Gaeta\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Gaeta",
+  "lat": 41.1,
+  "lon": 13.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-hornsund",
+  "category": "sea_ocean",
+  "name": "Hornsund",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hornsund\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hornsund",
+  "lat": 76.98333333,
+  "lon": 15.91666667,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-langdon-bay",
+  "category": "sea_ocean",
+  "name": "Langdon Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Langdon Bay (Kent)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Langdon Bay (Kent)",
+  "lat": 51.1336,
+  "lon": 1.351,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-fleet",
+  "category": "sea_ocean",
+  "name": "Loch Fleet",
+  "aliases": [],
+  "size": 10.58,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch Fleet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch Fleet",
+  "lat": 57.95,
+  "lon": -4.06666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-loch-na-keal",
+  "category": "sea_ocean",
+  "name": "Loch na Keal",
+  "aliases": [],
+  "size": 442,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Loch na Keal\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Loch na Keal",
+  "lat": 56.46666667,
+  "lon": -6.08333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-luce-bay",
+  "category": "sea_ocean",
+  "name": "Luce Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Luce Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luce Bay",
+  "lat": 54.845,
+  "lon": -4.8687,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-maurangerfjorden",
+  "category": "sea_ocean",
+  "name": "Maurangerfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Maurangerfjorden\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maurangerfjorden",
+  "lat": 60.1093,
+  "lon": 6.1855,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-porsangerfjorden",
+  "category": "sea_ocean",
+  "name": "Porsangerfjorden",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Porsangerfjorden\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Porsangerfjorden",
+  "lat": 70.1983,
+  "lon": 25.0758,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-rombaken",
+  "category": "sea_ocean",
+  "name": "Rombaken",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rombaken\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rombaken",
+  "lat": 68.4595,
+  "lon": 17.5888,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-skjomen",
+  "category": "sea_ocean",
+  "name": "Skjomen",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Skjomen\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Skjomen",
+  "lat": 68.3039,
+  "lon": 17.2912,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-skjalfandi",
+  "category": "sea_ocean",
+  "name": "Skjalfandi",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Skjálfandi\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Skjálfandi",
+  "lat": 66.08333333,
+  "lon": -17.55,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-stagnone-lagoon",
+  "category": "sea_ocean",
+  "name": "Stagnone Lagoon",
+  "aliases": [],
+  "size": 13.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Stagnone Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stagnone Lagoon",
+  "lat": 37.872,
+  "lon": 12.4639,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-weymouth-bay",
+  "category": "sea_ocean",
+  "name": "Weymouth Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Weymouth Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Weymouth Bay",
+  "lat": 50.61666667,
+  "lon": -2.41666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-lulworth-cove",
+  "category": "sea_ocean",
+  "name": "Lulworth Cove",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lulworth Cove\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3592,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lulworth Cove",
+  "lat": 50.6183,
+  "lon": -2.2469,
+  "oceans": [
+   "Atlantic"
+  ]
  }
 ]

@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T12:51:02.696Z",
+ "fetched": "2026-09-17T13:44:43.000Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -38868,13 +38868,6 @@
    "lat": 47.92888889,
    "lon": 18.00111111
   },
-  "river-sio": {
-   "title": "Sió",
-   "monthlyViews": 426,
-   "days": 60,
-   "lat": 46.3379,
-   "lon": 18.8947
-  },
   "river-zala": {
    "title": "Zala (river)",
    "monthlyViews": 152,
@@ -45902,13 +45895,6 @@
    "days": 60,
    "lat": 9.09666667,
    "lon": 38.16694444
-  },
-  "river-omo": {
-   "title": "Omo River",
-   "monthlyViews": 1126,
-   "days": 60,
-   "lat": 7.81194444,
-   "lon": 36.89888889
   },
   "river-shebelle": {
    "title": "Shebelle River",
@@ -59958,6 +59944,20 @@
    "days": 60,
    "lat": 39.2925,
    "lon": 16.259
+  },
+  "river-sio": {
+   "title": "Sió",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 46.3379,
+   "lon": 18.8947
+  },
+  "river-omo": {
+   "title": "Omo River",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 7.81194444,
+   "lon": 36.89888889
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",
@@ -92390,83 +92390,6 @@
    "lat": 60.32944444,
    "lon": -1.46305556
   },
-  "island-calf-of-eday": {
-   "title": "Calf of Eday",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 59.23333333,
-   "lon": -2.73333333
-  },
-  "island-danna": {
-   "title": "Danna, Scotland",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 55.94472222,
-   "lon": -5.69083333
-  },
-  "island-dinish-island": {
-   "title": "Dinish Island",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 53.262,
-   "lon": -9.754
-  },
-  "island-eorsa": {
-   "title": "Eorsa",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 56.46666667,
-   "lon": -6.08833333
-  },
-  "island-fuday": {
-   "title": "Fuday",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 57.05,
-   "lon": -7.38333333
-  },
-  "island-hascosay": {
-   "title": "Hascosay",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 60.61666667,
-   "lon": -0.98333333
-  },
-  "island-killegray": {
-   "title": "Killegray",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 57.74,
-   "lon": -7.08166667
-  },
-  "island-lot-s-ait": {
-   "title": "Lot's Ait",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 51.48472222,
-   "lon": -0.29833333
-  },
-  "island-oilean-ruaidh": {
-   "title": "Oileán Ruaidh",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 55.18944444,
-   "lon": -7.79444444
-  },
-  "island-oldany-island": {
-   "title": "Oldany Island",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 58.25833333,
-   "lon": -5.25833333
-  },
-  "island-papa-little": {
-   "title": "Papa Little",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 60.33167,
-   "lon": -1.39153
-  },
   "island-foulness-island": {
    "title": "Foulness Island",
    "monthlyViews": 1948,
@@ -93398,13 +93321,6 @@
    "lat": 79.66666667,
    "lon": 10.9
   },
-  "island-outline-of-iceland": {
-   "title": "Outline of Iceland",
-   "monthlyViews": 244,
-   "days": 60,
-   "lat": null,
-   "lon": null
-  },
   "island-papey": {
    "title": "Papey",
    "monthlyViews": 244,
@@ -94189,552 +94105,6 @@
    "lat": 66.1004,
    "lon": -22.6617
   },
-  "island-agerso": {
-   "title": "Agersø",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 55.2,
-   "lon": 11.2
-  },
-  "island-alsta": {
-   "title": "Alsta",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 65.96667,
-   "lon": 12.614722
-  },
-  "island-ammeron": {
-   "title": "Ammerön",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 62.84722222,
-   "lon": 15.21388889
-  },
-  "island-asko": {
-   "title": "Askø",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 54.9,
-   "lon": 11.5
-  },
-  "island-atloyna": {
-   "title": "Atløyna",
-   "monthlyViews": 61,
-   "days": 57,
-   "lat": 61.3333,
-   "lon": 4.9677
-  },
-  "island-barmoya": {
-   "title": "Barmøya",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 62.0126,
-   "lon": 5.2826
-  },
-  "island-barso": {
-   "title": "Barsø",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 55.11666667,
-   "lon": 9.56666667
-  },
-  "island-bjarkoya": {
-   "title": "Bjarkøya",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 68.9909,
-   "lon": 16.5585
-  },
-  "island-bjorno": {
-   "title": "Bjørnø",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 55.06666667,
-   "lon": 10.25
-  },
-  "island-bremangerlandet": {
-   "title": "Bremangerlandet",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 61.8638,
-   "lon": 5.006
-  },
-  "island-brokey": {
-   "title": "Brokey",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 65.079,
-   "lon": -22.473
-  },
-  "island-bru": {
-   "title": "Bru, Rogaland",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 59.04143,
-   "lon": 5.64381
-  },
-  "island-boroya": {
-   "title": "Børøya",
-   "monthlyViews": 61,
-   "days": 46,
-   "lat": 68.5705,
-   "lon": 14.9305
-  },
-  "island-chermsideoya": {
-   "title": "Chermsideøya",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 80.505,
-   "lon": 19.973
-  },
-  "island-drejo": {
-   "title": "Drejø",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 54.96666667,
-   "lon": 10.41666667
-  },
-  "island-flatoy": {
-   "title": "Flatøy",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 60.5346,
-   "lon": 5.2595
-  },
-  "island-fogn": {
-   "title": "Fogn",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 59.13603,
-   "lon": 5.91756
-  },
-  "island-frei": {
-   "title": "Frei (island)",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 63.067116,
-   "lon": 7.815055
-  },
-  "island-fugloya": {
-   "title": "Fugløya, Gildeskål",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 67.0679,
-   "lon": 13.7926
-  },
-  "island-faringso": {
-   "title": "Färingsö",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.38333333,
-   "lon": 17.63333333
-  },
-  "island-garten": {
-   "title": "Garten",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 63.6423,
-   "lon": 9.5157
-  },
-  "island-gjesvaerstappan": {
-   "title": "Gjesværstappan",
-   "monthlyViews": 61,
-   "days": 57,
-   "lat": 71.14,
-   "lon": 25.3366
-  },
-  "island-halsnoya": {
-   "title": "Halsnøya",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.76598,
-   "lon": 5.7808
-  },
-  "island-haramsoya": {
-   "title": "Haramsøya",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 62.6665,
-   "lon": 6.1894
-  },
-  "island-haroya": {
-   "title": "Harøya",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 62.7697,
-   "lon": 6.4415
-  },
-  "island-helnaes": {
-   "title": "Helnæs",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 55.13944444,
-   "lon": 10.00055556
-  },
-  "island-hertson": {
-   "title": "Hertsön",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 65.584159,
-   "lon": 22.199539
-  },
-  "island-hessa": {
-   "title": "Hessa",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 62.4591,
-   "lon": 6.1183
-  },
-  "island-hjarno": {
-   "title": "Hjarnø",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 55.825,
-   "lon": 10.08333333
-  },
-  "island-hjorsey": {
-   "title": "Hjörsey",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 64.52681111,
-   "lon": -22.34965
-  },
-  "island-huftaroy": {
-   "title": "Huftarøy",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 59.9964,
-   "lon": 5.2568
-  },
-  "island-huglo": {
-   "title": "Huglo",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.8508,
-   "lon": 5.585
-  },
-  "island-hundvag": {
-   "title": "Hundvåg (island)",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.00167,
-   "lon": 5.73179
-  },
-  "island-hvasser": {
-   "title": "Hvasser",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.07501,
-   "lon": 10.44345
-  },
-  "island-jegindo": {
-   "title": "Jegindø",
-   "monthlyViews": 61,
-   "days": 57,
-   "lat": 56.65,
-   "lon": 8.63333333
-  },
-  "island-joa": {
-   "title": "Jøa",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 64.6481,
-   "lon": 11.2096
-  },
-  "island-kagen": {
-   "title": "Kågen",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 69.9833,
-   "lon": 20.8291
-  },
-  "island-lepsoya": {
-   "title": "Lepsøya",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 62.6213,
-   "lon": 6.1699
-  },
-  "island-loppa": {
-   "title": "Loppa (island)",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 70.3586,
-   "lon": 21.4139
-  },
-  "island-lagoya": {
-   "title": "Lågøya",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 80.28333333,
-   "lon": 18.38333333
-  },
-  "island-manamansalo": {
-   "title": "Manamansalo",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 64.3592527,
-   "lon": 27.060703
-  },
-  "island-meloya": {
-   "title": "Meløya",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 66.8327,
-   "lon": 13.4563
-  },
-  "island-malmey": {
-   "title": "Málmey",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 66.01800833,
-   "lon": -19.53502222
-  },
-  "island-nesoya": {
-   "title": "Nesøya, Nordland",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 66.5862,
-   "lon": 12.6764
-  },
-  "island-norve": {
-   "title": "Nørve",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 62.4753,
-   "lon": 6.2029
-  },
-  "island-notteroy": {
-   "title": "Nøtterøy (island)",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.18725,
-   "lon": 10.40915
-  },
-  "island-ombo": {
-   "title": "Ombo",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.25743,
-   "lon": 6.00142
-  },
-  "island-omo": {
-   "title": "Omø",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 55.15,
-   "lon": 11.16666667
-  },
-  "island-ona": {
-   "title": "Ona, Vestland",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 60.5545,
-   "lon": 4.8449
-  },
-  "island-ostoya": {
-   "title": "Ostøya",
-   "monthlyViews": 61,
-   "days": 57,
-   "lat": null,
-   "lon": null
-  },
-  "island-randoy": {
-   "title": "Randøy",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 59.2089,
-   "lon": 6.03642
-  },
-  "island-rennesoy": {
-   "title": "Rennesøy (island)",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.10556,
-   "lon": 5.69167
-  },
-  "island-rolvsoya": {
-   "title": "Rolvsøya",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 70.98,
-   "lon": 24.03
-  },
-  "island-romso": {
-   "title": "Romsø",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 55.51277778,
-   "lon": 10.7875
-  },
-  "island-rodoya": {
-   "title": "Rødøya",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 66.6866,
-   "lon": 13.0769
-  },
-  "island-sandhornoya": {
-   "title": "Sandhornøya",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 67.1035,
-   "lon": 14.076
-  },
-  "island-sekken": {
-   "title": "Sekken",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 62.6598,
-   "lon": 7.2897
-  },
-  "island-sio": {
-   "title": "Siø",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 54.95416667,
-   "lon": 10.69166667
-  },
-  "island-skjernoya": {
-   "title": "Skjernøya",
-   "monthlyViews": 61,
-   "days": 57,
-   "lat": 57.994,
-   "lon": 7.51557
-  },
-  "island-skorpa": {
-   "title": "Skorpa, Troms",
-   "monthlyViews": 61,
-   "days": 55,
-   "lat": 69.9317,
-   "lon": 21.6899
-  },
-  "island-skatoy": {
-   "title": "Skåtøy",
-   "monthlyViews": 61,
-   "days": 56,
-   "lat": 58.86406,
-   "lon": 9.5091
-  },
-  "island-stjernoya": {
-   "title": "Stjernøya",
-   "monthlyViews": 61,
-   "days": 57,
-   "lat": 70.31,
-   "lon": 22.66
-  },
-  "island-stokkoya": {
-   "title": "Stokkøya",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 64.0632,
-   "lon": 9.9806
-  },
-  "island-stolmen": {
-   "title": "Stolmen",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.9911,
-   "lon": 5.0692
-  },
-  "island-store-kamoya": {
-   "title": "Store Kamøya, Nordkapp",
-   "monthlyViews": 61,
-   "days": 38,
-   "lat": 71.0515,
-   "lon": 25.9504
-  },
-  "island-stormolla": {
-   "title": "Stormolla",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 68.2632,
-   "lon": 14.8433
-  },
-  "island-stryno": {
-   "title": "Strynø",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 54.90555556,
-   "lon": 10.60833333
-  },
-  "island-sor-hidle": {
-   "title": "Sør-Hidle",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 59.04382,
-   "lon": 5.82658
-  },
-  "island-talgje": {
-   "title": "Talgje",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 59.10968,
-   "lon": 5.82658
-  },
-  "island-torget": {
-   "title": "Torget, Nordland",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 65.4259,
-   "lon": 12.1018
-  },
-  "island-toska": {
-   "title": "Toska",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 60.6483,
-   "lon": 4.9442
-  },
-  "island-uloya": {
-   "title": "Uløya",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 69.8619,
-   "lon": 20.6164
-  },
-  "island-varaldsoy": {
-   "title": "Varaldsøy",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 60.1288,
-   "lon": 5.9893
-  },
-  "island-vejro": {
-   "title": "Vejrø",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 55.03333333,
-   "lon": 11.36666667
-  },
-  "island-vaerlandet": {
-   "title": "Værlandet",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 61.3021,
-   "lon": 4.701
-  },
-  "island-ytre-sula": {
-   "title": "Ytre Sula (Solund)",
-   "monthlyViews": 61,
-   "days": 53,
-   "lat": 61.03317,
-   "lon": 4.68865
-  },
-  "island-ytteroya": {
-   "title": "Ytterøya",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 63.8155,
-   "lon": 11.2209
-  },
-  "island-aro": {
-   "title": "Årø (island)",
-   "monthlyViews": 61,
-   "days": 46,
-   "lat": 55.25,
-   "lon": 9.75
-  },
   "island-hrisey": {
    "title": "Hrísey",
    "monthlyViews": 457,
@@ -94860,34 +94230,6 @@
    "days": 60,
    "lat": 59.3,
    "lon": 17.88333333
-  },
-  "island-harstena": {
-   "title": "Harstena",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 58.25277778,
-   "lon": 17.00833333
-  },
-  "island-muuratsalo": {
-   "title": "Muuratsalo",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 62.1,
-   "lon": 25.76
-  },
-  "island-radoy": {
-   "title": "Radøy (island)",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 60.6907,
-   "lon": 4.9973
-  },
-  "island-tjotta": {
-   "title": "Tjøtta (island)",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 65.8386,
-   "lon": 12.4542
   },
   "island-jurmo": {
    "title": "Jurmo",
@@ -96708,6 +96050,1049 @@
    "days": 60,
    "lat": 28.05027778,
    "lon": -96.99166667
+  },
+  "sea_ocean-scapa-flow": {
+   "title": "Scapa Flow",
+   "monthlyViews": 11932,
+   "days": 60,
+   "lat": 58.9,
+   "lon": -3.05
+  },
+  "sea_ocean-venetian-lagoon": {
+   "title": "Venetian Lagoon",
+   "monthlyViews": 5327,
+   "days": 60,
+   "lat": 45.41305556,
+   "lon": 12.29722222
+  },
+  "sea_ocean-gulf-of-corryvreckan": {
+   "title": "Gulf of Corryvreckan",
+   "monthlyViews": 5114,
+   "days": 60,
+   "lat": 56.155,
+   "lon": -5.72777778
+  },
+  "sea_ocean-sognefjord": {
+   "title": "Sognefjord",
+   "monthlyViews": 4383,
+   "days": 60,
+   "lat": 61.1,
+   "lon": 5.16666667
+  },
+  "sea_ocean-geirangerfjord": {
+   "title": "Geirangerfjord",
+   "monthlyViews": 3622,
+   "days": 60,
+   "lat": 62.121,
+   "lon": 7.129
+  },
+  "sea_ocean-saltstraumen": {
+   "title": "Saltstraumen",
+   "monthlyViews": 3561,
+   "days": 60,
+   "lat": 67.22805,
+   "lon": 14.61635
+  },
+  "sea_ocean-kynance-cove": {
+   "title": "Kynance Cove",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 49.974,
+   "lon": -5.23
+  },
+  "sea_ocean-cantabrian-sea": {
+   "title": "Cantabrian Sea",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 44.0323,
+   "lon": -4.3506
+  },
+  "sea_ocean-oslofjord": {
+   "title": "Oslofjord",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": 59.80229,
+   "lon": 10.55237
+  },
+  "sea_ocean-holy-loch": {
+   "title": "Holy Loch",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 55.987,
+   "lon": -4.933
+  },
+  "sea_ocean-menai-strait": {
+   "title": "Menai Strait",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 53.18055556,
+   "lon": -4.23333333
+  },
+  "sea_ocean-hardangerfjord": {
+   "title": "Hardangerfjord",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 60.16666667,
+   "lon": 6
+  },
+  "sea_ocean-loch-fyne": {
+   "title": "Loch Fyne",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 56.05,
+   "lon": -5.31
+  },
+  "sea_ocean-naeroyfjord": {
+   "title": "Nærøyfjord",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 60.94361111,
+   "lon": 6.93138889
+  },
+  "sea_ocean-loch-linnhe": {
+   "title": "Loch Linnhe",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 56.70138889,
+   "lon": -5.26194444
+  },
+  "sea_ocean-man-o-war-cove": {
+   "title": "Man o' War Cove",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 50.6204,
+   "lon": -2.2703
+  },
+  "sea_ocean-hjorundfjorden": {
+   "title": "Hjørundfjorden",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 62.3479,
+   "lon": 6.3951
+  },
+  "sea_ocean-clew-bay": {
+   "title": "Clew Bay",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 53.83333333,
+   "lon": -9.8
+  },
+  "sea_ocean-loch-long": {
+   "title": "Loch Long",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 56.034395,
+   "lon": -4.8855839
+  },
+  "sea_ocean-lysefjord": {
+   "title": "Lysefjord",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 59.00453,
+   "lon": 6.30519
+  },
+  "sea_ocean-gulf-of-la-spezia": {
+   "title": "Gulf of La Spezia",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 44.0639,
+   "lon": 9.8833
+  },
+  "sea_ocean-keem-bay": {
+   "title": "Keem Bay",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 53.968,
+   "lon": -10.1939
+  },
+  "sea_ocean-kimmeridge-bay": {
+   "title": "Kimmeridge Bay",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 50.6123647,
+   "lon": -2.13009631
+  },
+  "sea_ocean-trollfjord": {
+   "title": "Trollfjord",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 68.3628,
+   "lon": 14.9361
+  },
+  "sea_ocean-firth-of-tay": {
+   "title": "Firth of Tay",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 56.44,
+   "lon": -3
+  },
+  "sea_ocean-hvalfjordur": {
+   "title": "Hvalfjörður",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 64.38333333,
+   "lon": -21.66666667
+  },
+  "sea_ocean-mont-saint-michel-bay": {
+   "title": "Mont-Saint-Michel Bay",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 48.634722,
+   "lon": -1.510556
+  },
+  "sea_ocean-mount-s-bay": {
+   "title": "Mount's Bay",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 50.058,
+   "lon": -5.4204
+  },
+  "sea_ocean-baie-de-somme": {
+   "title": "Baie de Somme",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 50.2014,
+   "lon": 1.6269
+  },
+  "sea_ocean-flensburg-firth": {
+   "title": "Flensburg Firth",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 54.79,
+   "lon": 9.435
+  },
+  "sea_ocean-cromarty-firth": {
+   "title": "Cromarty Firth",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 57.68333333,
+   "lon": -4.11666667
+  },
+  "sea_ocean-eyjafjordur": {
+   "title": "Eyjafjörður",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 65.85,
+   "lon": -18.13333333
+  },
+  "sea_ocean-schlei": {
+   "title": "Schlei",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 54.59,
+   "lon": 9.83
+  },
+  "sea_ocean-blacksod-bay": {
+   "title": "Blacksod Bay",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 54.12,
+   "lon": -10.03
+  },
+  "sea_ocean-loch-ewe": {
+   "title": "Loch Ewe",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 57.83694444,
+   "lon": -5.61222222
+  },
+  "sea_ocean-mulroy-bay": {
+   "title": "Mulroy Bay",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 55.15,
+   "lon": -7.68333333
+  },
+  "sea_ocean-sandwood-bay": {
+   "title": "Sandwood Bay",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 58.5396,
+   "lon": -5.0623
+  },
+  "sea_ocean-three-cliffs-bay": {
+   "title": "Three Cliffs Bay",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 51.56856,
+   "lon": -4.11516
+  },
+  "sea_ocean-trondheim-fjord": {
+   "title": "Trondheim Fjord",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 63.8192,
+   "lon": 11.1078
+  },
+  "sea_ocean-breidafjordur": {
+   "title": "Breiðafjörður",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 65.25,
+   "lon": -23.25
+  },
+  "sea_ocean-iceland-sea": {
+   "title": "Iceland Sea",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 66.923107,
+   "lon": -12.628921
+  },
+  "sea_ocean-murlough-bay": {
+   "title": "Murlough Bay",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 55.213,
+   "lon": -6.121
+  },
+  "sea_ocean-alum-bay": {
+   "title": "Alum Bay",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 50.66638889,
+   "lon": -1.57611111
+  },
+  "sea_ocean-botany-bay": {
+   "title": "Botany Bay, Kent",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 51.38888889,
+   "lon": 1.43472222
+  },
+  "sea_ocean-brittas-bay": {
+   "title": "Brittas Bay",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 52.88333333,
+   "lon": -6.05
+  },
+  "sea_ocean-whitsand-bay": {
+   "title": "Whitsand Bay",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 50.33333333,
+   "lon": -4.28333333
+  },
+  "sea_ocean-baie-de-douarnenez": {
+   "title": "Baie de Douarnenez",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 48.15,
+   "lon": -4.4
+  },
+  "sea_ocean-bracklesham-bay": {
+   "title": "Bracklesham Bay",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 50.753,
+   "lon": -0.847
+  },
+  "sea_ocean-loch-broom": {
+   "title": "Loch Broom",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 57.891,
+   "lon": -5.165
+  },
+  "sea_ocean-gare-loch": {
+   "title": "Gare Loch",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 56.0375,
+   "lon": -4.81527778
+  },
+  "sea_ocean-liverpool-bay": {
+   "title": "Liverpool Bay",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 53.53333333,
+   "lon": -3.2
+  },
+  "sea_ocean-marshall-meadows-bay": {
+   "title": "Marshall Meadows Bay",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 55.8111,
+   "lon": -2.0343
+  },
+  "sea_ocean-baie-des-anges": {
+   "title": "Baie des Anges",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 43.62083333,
+   "lon": 7.22166667
+  },
+  "sea_ocean-compton-bay": {
+   "title": "Compton Bay",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 50.662,
+   "lon": -1.49
+  },
+  "sea_ocean-pegwell-bay": {
+   "title": "Pegwell Bay",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 51.3,
+   "lon": 1.38333333
+  },
+  "sea_ocean-sullom-voe": {
+   "title": "Sullom Voe",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 60.45,
+   "lon": -1.3
+  },
+  "sea_ocean-nordfjorden": {
+   "title": "Nordfjorden (Vestland)",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 61.8963,
+   "lon": 5.2759
+  },
+  "sea_ocean-watergate-bay": {
+   "title": "Watergate Bay",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 50.46666667,
+   "lon": -5.05
+  },
+  "sea_ocean-faxafloi": {
+   "title": "Faxaflói",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 64.4,
+   "lon": -23
+  },
+  "sea_ocean-isfjorden": {
+   "title": "Isfjorden (Svalbard)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 78.33333333,
+   "lon": 15
+  },
+  "sea_ocean-ladram-bay": {
+   "title": "Ladram Bay",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 50.65853,
+   "lon": -3.28029
+  },
+  "sea_ocean-loch-leven": {
+   "title": "Loch Leven (Highlands)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 56.69055556,
+   "lon": -5.11833333
+  },
+  "sea_ocean-loch-moidart": {
+   "title": "Loch Moidart",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 56.792,
+   "lon": -5.802
+  },
+  "sea_ocean-loch-ryan": {
+   "title": "Loch Ryan",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 54.974468,
+   "lon": -5.030861
+  },
+  "sea_ocean-donegal-bay": {
+   "title": "Donegal Bay",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 54.53333333,
+   "lon": -8.5
+  },
+  "sea_ocean-jade-bight": {
+   "title": "Jade Bight",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 53.46666667,
+   "lon": 8.23333333
+  },
+  "sea_ocean-berufjordur": {
+   "title": "Berufjörður",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 64.7,
+   "lon": -14.36666667
+  },
+  "sea_ocean-borgarfjordur": {
+   "title": "Borgarfjörður",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 64.501,
+   "lon": -22.01
+  },
+  "sea_ocean-dollart": {
+   "title": "Dollart",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 53.29,
+   "lon": 7.16
+  },
+  "sea_ocean-firth-of-lorn": {
+   "title": "Firth of Lorn",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 56.33333333,
+   "lon": -5.75
+  },
+  "sea_ocean-skagafjordur": {
+   "title": "Skagafjörður",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 65.9,
+   "lon": -19.58333333
+  },
+  "sea_ocean-the-swale": {
+   "title": "The Swale",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 51.362,
+   "lon": 0.873
+  },
+  "sea_ocean-beauly-firth": {
+   "title": "Beauly Firth",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 57.49944444,
+   "lon": -4.23027778
+  },
+  "sea_ocean-loch-carron": {
+   "title": "Loch Carron",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 57.36666667,
+   "lon": -5.51666667
+  },
+  "sea_ocean-loch-goil": {
+   "title": "Loch Goil",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 56.131974,
+   "lon": -4.8922978
+  },
+  "sea_ocean-sand-bay": {
+   "title": "Sand Bay",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 51.38333333,
+   "lon": -2.96666667
+  },
+  "sea_ocean-sandwich-bay": {
+   "title": "Sandwich Bay, Kent",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 51.30571,
+   "lon": 1.37591
+  },
+  "sea_ocean-storfjorden": {
+   "title": "Storfjorden (Sunnmøre)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 62.1537,
+   "lon": 6.5776
+  },
+  "sea_ocean-swansea-bay": {
+   "title": "Swansea Bay",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 51.58333333,
+   "lon": -3.9
+  },
+  "sea_ocean-vestfjorden": {
+   "title": "Vestfjorden",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 68.05,
+   "lon": 14.76666667
+  },
+  "sea_ocean-coldingham-bay": {
+   "title": "Coldingham Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 55.89246,
+   "lon": -2.13268
+  },
+  "sea_ocean-dingle-bay": {
+   "title": "Dingle Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 52.06666667,
+   "lon": -10.18333333
+  },
+  "sea_ocean-dornoch-firth": {
+   "title": "Dornoch Firth",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 57.85,
+   "lon": -4.05
+  },
+  "sea_ocean-kalmar-strait": {
+   "title": "Kalmar Strait",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 56.73238889,
+   "lon": 16.44928056
+  },
+  "sea_ocean-kyle-of-tongue": {
+   "title": "Kyle of Tongue",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 58.477,
+   "lon": -4.453
+  },
+  "sea_ocean-marano-lagoon": {
+   "title": "Marano Lagoon",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 45.735,
+   "lon": 13.163
+  },
+  "sea_ocean-sorfjorden": {
+   "title": "Sørfjorden (Hardanger)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 60.1839,
+   "lon": 6.5711
+  },
+  "sea_ocean-kiel-fjord": {
+   "title": "Kiel Fjord",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 54.36777778,
+   "lon": 10.17305556
+  },
+  "sea_ocean-kyles-of-bute": {
+   "title": "Kyles of Bute",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 55.93,
+   "lon": -5.187
+  },
+  "sea_ocean-koge-bay": {
+   "title": "Køge Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 55.5,
+   "lon": 12.33333333
+  },
+  "sea_ocean-loch-duich": {
+   "title": "Loch Duich",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 57.23333333,
+   "lon": -5.46666667
+  },
+  "sea_ocean-loch-eriboll": {
+   "title": "Loch Eriboll",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 58.505,
+   "lon": -4.67
+  },
+  "sea_ocean-ofotfjord": {
+   "title": "Ofotfjord",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 68.4292,
+   "lon": 16.4827
+  },
+  "sea_ocean-oxwich-bay": {
+   "title": "Oxwich Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 51.56581,
+   "lon": -4.14679
+  },
+  "sea_ocean-roskilde-fjord": {
+   "title": "Roskilde Fjord",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 55.83333333,
+   "lon": 12.04722222
+  },
+  "sea_ocean-saltwick-bay": {
+   "title": "Saltwick Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 54.48465,
+   "lon": -0.58567
+  },
+  "sea_ocean-tor-bay": {
+   "title": "Tor Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 50.43333333,
+   "lon": -3.5
+  },
+  "sea_ocean-totland-bay": {
+   "title": "Totland Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 50.68,
+   "lon": -1.5514
+  },
+  "sea_ocean-ard-na-caithne": {
+   "title": "Ard na Caithne",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 52.188141,
+   "lon": -10.420532
+  },
+  "sea_ocean-loch-nevis": {
+   "title": "Loch Nevis",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 57,
+   "lon": -5.69166667
+  },
+  "sea_ocean-loch-torridon": {
+   "title": "Loch Torridon",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 57.58,
+   "lon": -5.76
+  },
+  "sea_ocean-magdalenefjorden": {
+   "title": "Magdalenefjorden",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 79.565,
+   "lon": 10.875
+  },
+  "sea_ocean-woody-bay": {
+   "title": "Woody Bay, Devon",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 51.227,
+   "lon": -3.892
+  },
+  "sea_ocean-adventfjorden": {
+   "title": "Adventfjorden",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 78.16666667,
+   "lon": 15.66666667
+  },
+  "sea_ocean-altafjord": {
+   "title": "Altafjord",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 69.99,
+   "lon": 23.3242
+  },
+  "sea_ocean-bideford-bay": {
+   "title": "Bideford Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 51.06666667,
+   "lon": -4.33333333
+  },
+  "sea_ocean-boknafjord": {
+   "title": "Boknafjord",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 59.1193,
+   "lon": 5.4061
+  },
+  "sea_ocean-carmarthen-bay": {
+   "title": "Carmarthen Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 51.66666667,
+   "lon": -4.5
+  },
+  "sea_ocean-jossingfjorden": {
+   "title": "Jøssingfjorden",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 58.31946,
+   "lon": 6.33882
+  },
+  "sea_ocean-loch-alsh": {
+   "title": "Loch Alsh",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 57.27,
+   "lon": -5.66
+  },
+  "sea_ocean-loch-striven": {
+   "title": "Loch Striven",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 55.928753,
+   "lon": -5.0707625
+  },
+  "sea_ocean-lyngen": {
+   "title": "Lyngen (fjord)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 69.7797,
+   "lon": 20.3827
+  },
+  "sea_ocean-nigg-bay": {
+   "title": "Nigg Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 57.712,
+   "lon": -4.06
+  },
+  "sea_ocean-rest-bay": {
+   "title": "Rest Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 51.489,
+   "lon": -3.728
+  },
+  "sea_ocean-ringstead-bay": {
+   "title": "Ringstead Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.6309,
+   "lon": -2.3378
+  },
+  "sea_ocean-romsdalsfjord": {
+   "title": "Romsdalsfjord",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 62.6523,
+   "lon": 7.2615
+  },
+  "sea_ocean-varangerfjord": {
+   "title": "Varangerfjord",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 70.0911,
+   "lon": 31.0091
+  },
+  "sea_ocean-vejle-fjord": {
+   "title": "Vejle Fjord",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 55.66666667,
+   "lon": 9.75
+  },
+  "sea_ocean-basque-roads": {
+   "title": "Basque Roads",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.042,
+   "lon": -1.209
+  },
+  "sea_ocean-gills-bay": {
+   "title": "Gills Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 58.65,
+   "lon": -3.15
+  },
+  "sea_ocean-gruinard-bay": {
+   "title": "Gruinard Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 57.893,
+   "lon": -5.492
+  },
+  "sea_ocean-hunafloi": {
+   "title": "Húnaflói",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 65.83333333,
+   "lon": -20.83333333
+  },
+  "sea_ocean-killala-bay": {
+   "title": "Killala Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 54.25,
+   "lon": -9.13333333
+  },
+  "sea_ocean-loch-sunart": {
+   "title": "Loch Sunart",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 56.7001,
+   "lon": -5.7569
+  },
+  "sea_ocean-mulciber": {
+   "title": "Mulciber (volcano)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 54.06055556,
+   "lon": 4.28194444
+  },
+  "sea_ocean-pease-bay": {
+   "title": "Pease Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 55.93333333,
+   "lon": -2.33333333
+  },
+  "sea_ocean-porlock-bay": {
+   "title": "Porlock Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.21928,
+   "lon": -3.60508
+  },
+  "sea_ocean-st-ives-bay": {
+   "title": "St Ives Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 50.21666667,
+   "lon": -5.43333333
+  },
+  "sea_ocean-sunnylvsfjorden": {
+   "title": "Sunnylvsfjorden",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 62.2242,
+   "lon": 7.0392
+  },
+  "sea_ocean-worbarrow-bay": {
+   "title": "Worbarrow Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 50.61666667,
+   "lon": -2.2
+  },
+  "sea_ocean-isafjardardjup": {
+   "title": "Ísafjarðardjúp",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 66.16666667,
+   "lon": -23
+  },
+  "sea_ocean-baie-de-seine": {
+   "title": "Baie de Seine",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.5,
+   "lon": -0.5
+  },
+  "sea_ocean-bay-of-skaill": {
+   "title": "Bay of Skaill",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 59.05333333,
+   "lon": -3.33722222
+  },
+  "sea_ocean-clarach-bay": {
+   "title": "Clarach Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.436,
+   "lon": -4.079
+  },
+  "sea_ocean-dundrum-bay": {
+   "title": "Dundrum Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 54.22861111,
+   "lon": -5.76916667
+  },
+  "sea_ocean-gulf-of-gaeta": {
+   "title": "Gulf of Gaeta",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.1,
+   "lon": 13.5
+  },
+  "sea_ocean-hornsund": {
+   "title": "Hornsund",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 76.98333333,
+   "lon": 15.91666667
+  },
+  "sea_ocean-langdon-bay": {
+   "title": "Langdon Bay (Kent)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.1336,
+   "lon": 1.351
+  },
+  "sea_ocean-loch-fleet": {
+   "title": "Loch Fleet",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 57.95,
+   "lon": -4.06666667
+  },
+  "sea_ocean-loch-na-keal": {
+   "title": "Loch na Keal",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 56.46666667,
+   "lon": -6.08333333
+  },
+  "sea_ocean-luce-bay": {
+   "title": "Luce Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 54.845,
+   "lon": -4.8687
+  },
+  "sea_ocean-maurangerfjorden": {
+   "title": "Maurangerfjorden",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 60.1093,
+   "lon": 6.1855
+  },
+  "sea_ocean-porsangerfjorden": {
+   "title": "Porsangerfjorden",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 70.1983,
+   "lon": 25.0758
+  },
+  "sea_ocean-rombaken": {
+   "title": "Rombaken",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 68.4595,
+   "lon": 17.5888
+  },
+  "sea_ocean-skjomen": {
+   "title": "Skjomen",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 68.3039,
+   "lon": 17.2912
+  },
+  "sea_ocean-skjalfandi": {
+   "title": "Skjálfandi",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 66.08333333,
+   "lon": -17.55
+  },
+  "sea_ocean-stagnone-lagoon": {
+   "title": "Stagnone Lagoon",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.872,
+   "lon": 12.4639
+  },
+  "sea_ocean-weymouth-bay": {
+   "title": "Weymouth Bay",
+   "monthlyViews": 183,
+   "days": 51,
+   "lat": 50.61666667,
+   "lon": -2.41666667
+  },
+  "sea_ocean-lulworth-cove": {
+   "title": "Lulworth Cove",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": 50.6183,
+   "lon": -2.2469
   }
  }
 }

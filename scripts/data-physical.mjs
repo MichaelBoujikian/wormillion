@@ -10127,4 +10127,153 @@ Cape Cod Bay|1564.35
 Matagorda Bay|989.4
 San Antonio Bay|580
 Aransas Bay|452.4
+Scapa Flow|0
+Venetian Lagoon|550
+Gulf of Corryvreckan|0
+Sognefjord|12518
+Geirangerfjord|0
+Saltstraumen|0
+Kynance Cove|0
+Cantabrian Sea|0
+Oslofjord|0
+Holy Loch|0
+Menai Strait|0
+Hardangerfjord|0
+Loch Fyne|0
+Naeroyfjord|518.02
+Loch Linnhe|0
+Man o' War Cove|0
+Hjorundfjorden|0
+Clew Bay|0
+Loch Long|0
+Lysefjord|0
+Gulf of La Spezia|0
+Keem Bay|0
+Kimmeridge Bay|0
+Trollfjord|0
+Firth of Tay|0
+Hvalfjordur|0
+Mont-Saint-Michel Bay|500
+Mount's Bay|0
+Baie de Somme|0
+Flensburg Firth|250
+Cromarty Firth|0
+Eyjafjordur|0
+Schlei|54.6
+Blacksod Bay|0
+Loch Ewe|0
+Mulroy Bay|0
+Sandwood Bay|0
+Three Cliffs Bay|0
+Trondheim Fjord|0
+Breidafjordur|2874
+Iceland Sea|406000
+Murlough Bay|0
+Alum Bay|0
+Botany Bay|0
+Brittas Bay|0
+Whitsand Bay|0
+Baie de Douarnenez|0
+Bracklesham Bay|2.01
+Loch Broom|0
+Gare Loch|0
+Liverpool Bay|0
+Marshall Meadows Bay|0
+Baie des Anges|0
+Compton Bay|0
+Pegwell Bay|0
+Sullom Voe|0
+Nordfjorden|0
+Watergate Bay|0
+Faxafloi|0
+Isfjorden|0
+Ladram Bay|0
+Loch Leven|0
+Loch Moidart|0
+Loch Ryan|0
+Donegal Bay|0
+Jade Bight|190
+Berufjordur|0
+Borgarfjordur|0
+Dollart|100
+Firth of Lorn|0
+Skagafjordur|0
+The Swale|65.09
+Beauly Firth|0
+Loch Carron|22.84
+Loch Goil|0
+Sand Bay|0
+Sandwich Bay|0
+Storfjorden|0
+Swansea Bay|0
+Vestfjorden|0
+Coldingham Bay|0
+Dingle Bay|0
+Dornoch Firth|40
+Kalmar Strait|0
+Kyle of Tongue|245
+Marano Lagoon|0
+Sorfjorden|0
+Kiel Fjord|0
+Kyles of Bute|57.4
+Koge Bay|330
+Loch Duich|0
+Loch Eriboll|0
+Ofotfjord|0
+Oxwich Bay|0
+Roskilde Fjord|124
+Saltwick Bay|0
+Tor Bay|0
+Totland Bay|0
+Ard na Caithne|0
+Loch Nevis|0
+Loch Torridon|0
+Magdalenefjorden|0
+Woody Bay|0
+Adventfjorden|0
+Altafjord|0
+Bideford Bay|0
+Boknafjord|0
+Carmarthen Bay|0
+Jossingfjorden|0
+Loch Alsh|0
+Loch Striven|0
+Lyngen|0
+Nigg Bay|0
+Rest Bay|0
+Ringstead Bay|0
+Romsdalsfjord|0
+Varangerfjord|0
+Vejle Fjord|100
+Basque Roads|0
+Gills Bay|0
+Gruinard Bay|0
+Hunafloi|188.8
+Killala Bay|10.61
+Loch Sunart|49
+Mulciber|0
+Pease Bay|0
+Porlock Bay|1.86
+St Ives Bay|0
+Sunnylvsfjorden|0
+Worbarrow Bay|0
+Isafjardardjup|0
+Baie de Seine|0
+Bay of Skaill|0
+Clarach Bay|0
+Dundrum Bay|0
+Gulf of Gaeta|0
+Hornsund|0
+Langdon Bay|0
+Loch Fleet|10.58
+Loch na Keal|442
+Luce Bay|0
+Maurangerfjorden|0
+Porsangerfjorden|0
+Rombaken|0
+Skjomen|0
+Skjalfandi|0
+Stagnone Lagoon|13.8
+Weymouth Bay|0
+Lulworth Cove|0
 `;
