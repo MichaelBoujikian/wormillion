@@ -28841,5 +28841,3805 @@
   "lat": 38.31666667,
   "lon": -121.71472222,
   "oceans": []
+ },
+ {
+  "id": "island-rockall",
+  "category": "island",
+  "name": "Rockall",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rockall\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 11598,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rockall",
+  "lat": 57.59630556,
+  "lon": -13.68730556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eilean-donan",
+  "category": "island",
+  "name": "Eilean Donan",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eilean Donan\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 9497,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eilean Donan",
+  "lat": 57.27402778,
+  "lon": -5.51611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isle-of-portland",
+  "category": "island",
+  "name": "Isle of Portland",
+  "aliases": [],
+  "size": 11.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Portland\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 8036,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Portland",
+  "lat": 50.55,
+  "lon": -2.44,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gruinard-island",
+  "category": "island",
+  "name": "Gruinard Island",
+  "aliases": [],
+  "size": 1.96,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gruinard Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 6879,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gruinard Island",
+  "lat": 57.89,
+  "lon": -5.47,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-burgh-island",
+  "category": "island",
+  "name": "Burgh Island",
+  "aliases": [],
+  "size": 0.14,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Burgh Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 3866,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burgh Island",
+  "lat": 50.27972222,
+  "lon": -3.90027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-papa-stronsay",
+  "category": "island",
+  "name": "Papa Stronsay",
+  "aliases": [],
+  "size": 0.74,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Papa Stronsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 3592,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Papa Stronsay",
+  "lat": 59.15,
+  "lon": -2.58333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eel-pie-island",
+  "category": "island",
+  "name": "Eel Pie Island",
+  "aliases": [],
+  "size": 0.05,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eel Pie Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 3227,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eel Pie Island",
+  "lat": 51.4452,
+  "lon": -0.3246,
+  "oceans": []
+ },
+ {
+  "id": "island-bishop-rock",
+  "category": "island",
+  "name": "Bishop Rock",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bishop Rock\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 3196,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bishop Rock",
+  "lat": 49.87277778,
+  "lon": -6.44555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-foula",
+  "category": "island",
+  "name": "Foula",
+  "aliases": [],
+  "size": 12.65,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Foula\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2953,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Foula",
+  "lat": 60.13333333,
+  "lon": -2.06666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-tanera-mor",
+  "category": "island",
+  "name": "Tanera Mor",
+  "aliases": [],
+  "size": 3.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tanera Mòr\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tanera Mòr",
+  "lat": 58.01111111,
+  "lon": -5.40833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-osea-island",
+  "category": "island",
+  "name": "Osea Island",
+  "aliases": [],
+  "size": 1.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Osea Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2496,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Osea Island",
+  "lat": 51.7225,
+  "lon": 0.7711,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-north-rona",
+  "category": "island",
+  "name": "North Rona",
+  "aliases": [],
+  "size": 1.09,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"North Rona\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2222,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Rona",
+  "lat": 59.12196,
+  "lon": -5.82488,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-drake-s-island",
+  "category": "island",
+  "name": "Drake's Island",
+  "aliases": [],
+  "size": 0.03,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Drake's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2192,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drake's Island",
+  "lat": 50.35555556,
+  "lon": -4.15361111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-garnish-island",
+  "category": "island",
+  "name": "Garnish Island",
+  "aliases": [],
+  "size": 0.15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Garnish Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2131,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Garnish Island",
+  "lat": 51.73638889,
+  "lon": -9.54111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-papa-westray",
+  "category": "island",
+  "name": "Papa Westray",
+  "aliases": [],
+  "size": 9.18,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Papa Westray\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1857,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Papa Westray",
+  "lat": 59.35,
+  "lon": -2.9,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sula-sgeir",
+  "category": "island",
+  "name": "Sula Sgeir",
+  "aliases": [],
+  "size": 0.15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sula Sgeir\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sula Sgeir",
+  "lat": 59.095625,
+  "lon": -6.15649167,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ireland-s-eye",
+  "category": "island",
+  "name": "Ireland's Eye",
+  "aliases": [],
+  "size": 0.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ireland's Eye\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ireland's Eye",
+  "lat": 53.40527778,
+  "lon": -6.06361111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-stroma",
+  "category": "island",
+  "name": "Stroma",
+  "aliases": [],
+  "size": 3.75,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Stroma, Scotland\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1613,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stroma, Scotland",
+  "lat": 58.68,
+  "lon": -3.12,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-flat-holm",
+  "category": "island",
+  "name": "Flat Holm",
+  "aliases": [],
+  "size": 0.35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Flat Holm\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1583,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Flat Holm",
+  "lat": 51.37687,
+  "lon": -3.12207,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inchconnachan",
+  "category": "island",
+  "name": "Inchconnachan",
+  "aliases": [],
+  "size": 0.35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inchconnachan\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1583,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inchconnachan",
+  "lat": 56.09,
+  "lon": -4.615,
+  "oceans": []
+ },
+ {
+  "id": "island-seil",
+  "category": "island",
+  "name": "Seil",
+  "aliases": [],
+  "size": 13.29,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Seil\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1461,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seil",
+  "lat": 56.3,
+  "lon": -5.62,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-puffin-island",
+  "category": "island",
+  "name": "Puffin Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Puffin Island (Anglesey)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Puffin Island (Anglesey)",
+  "lat": 53.31854,
+  "lon": -4.02958,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cramond-island",
+  "category": "island",
+  "name": "Cramond Island",
+  "aliases": [],
+  "size": 0.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cramond Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cramond Island",
+  "lat": 55.99,
+  "lon": -3.29,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-steep-holm",
+  "category": "island",
+  "name": "Steep Holm",
+  "aliases": [],
+  "size": 0.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Steep Holm\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Steep Holm",
+  "lat": 51.33972222,
+  "lon": -3.10972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inchkeith",
+  "category": "island",
+  "name": "Inchkeith",
+  "aliases": [],
+  "size": 0.23,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inchkeith\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inchkeith",
+  "lat": 56.03333333,
+  "lon": -3.135,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-looe-island",
+  "category": "island",
+  "name": "Looe Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Looe Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Looe Island",
+  "lat": 50.33664,
+  "lon": -4.45205,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-st-agnes",
+  "category": "island",
+  "name": "St Agnes",
+  "aliases": [],
+  "size": 3.66,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St Agnes, Isles of Scilly\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St Agnes, Isles of Scilly",
+  "lat": 49.891,
+  "lon": -6.343,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-easdale",
+  "category": "island",
+  "name": "Easdale",
+  "aliases": [],
+  "size": 0.25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Easdale\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Easdale",
+  "lat": 56.29222222,
+  "lon": -5.65805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inch-kenneth",
+  "category": "island",
+  "name": "Inch Kenneth",
+  "aliases": [],
+  "size": 0.55,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inch Kenneth\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inch Kenneth",
+  "lat": 56.44171,
+  "lon": -6.16317,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-thorney-island",
+  "category": "island",
+  "name": "Thorney Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Thorney Island (West Sussex)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thorney Island (West Sussex)",
+  "lat": 50.81722222,
+  "lon": -0.92027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bere-island",
+  "category": "island",
+  "name": "Bere Island",
+  "aliases": [],
+  "size": 17.68,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bere Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bere Island",
+  "lat": 51.63333333,
+  "lon": -9.88333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-deadman-s-island",
+  "category": "island",
+  "name": "Deadman's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Deadman's Island (Kent)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Deadman's Island (Kent)",
+  "lat": 51.4212,
+  "lon": 0.7223,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-muckle-flugga",
+  "category": "island",
+  "name": "Muckle Flugga",
+  "aliases": [],
+  "size": 0.02,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Muckle Flugga\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Muckle Flugga",
+  "lat": 60.85369,
+  "lon": -0.88837,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-calf-of-man",
+  "category": "island",
+  "name": "Calf of Man",
+  "aliases": [],
+  "size": 2.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Calf of Man\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Calf of Man",
+  "lat": 54.05277778,
+  "lon": -4.82027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kerrera",
+  "category": "island",
+  "name": "Kerrera",
+  "aliases": [],
+  "size": 12.14,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kerrera\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kerrera",
+  "lat": 56.39805556,
+  "lon": -5.53861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sherkin-island",
+  "category": "island",
+  "name": "Sherkin Island",
+  "aliases": [],
+  "size": 5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sherkin Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sherkin Island",
+  "lat": 51.46666667,
+  "lon": -9.41666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-haulbowline",
+  "category": "island",
+  "name": "Haulbowline",
+  "aliases": [],
+  "size": 0.35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Haulbowline\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Haulbowline",
+  "lat": 51.84166667,
+  "lon": -8.3,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-mingulay",
+  "category": "island",
+  "name": "Mingulay",
+  "aliases": [],
+  "size": 6.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mingulay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mingulay",
+  "lat": 56.811,
+  "lon": -7.637,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-berneray",
+  "category": "island",
+  "name": "Berneray",
+  "aliases": [],
+  "size": 10.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Berneray, North Uist\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Berneray, North Uist",
+  "lat": 57.71944444,
+  "lon": -7.18638889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inchgarvie",
+  "category": "island",
+  "name": "Inchgarvie",
+  "aliases": [],
+  "size": 0.01,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inchgarvie\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inchgarvie",
+  "lat": 56.00083333,
+  "lon": -3.38638889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inishturk",
+  "category": "island",
+  "name": "Inishturk",
+  "aliases": [],
+  "size": 6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inishturk\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inishturk",
+  "lat": 53.7014,
+  "lon": -10.1083,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-piel-island",
+  "category": "island",
+  "name": "Piel Island",
+  "aliases": [],
+  "size": 0.02,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Piel Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Piel Island",
+  "lat": 54.06388889,
+  "lon": -3.175,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-taransay",
+  "category": "island",
+  "name": "Taransay",
+  "aliases": [],
+  "size": 14.75,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Taransay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Taransay",
+  "lat": 57.9,
+  "lon": -7.01666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-omey-island",
+  "category": "island",
+  "name": "Omey Island",
+  "aliases": [],
+  "size": 2.17,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Omey Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Omey Island",
+  "lat": 53.53527778,
+  "lon": -10.1575,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-great-bernera",
+  "category": "island",
+  "name": "Great Bernera",
+  "aliases": [],
+  "size": 21.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Bernera\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Bernera",
+  "lat": 58.23,
+  "lon": -6.85,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lamb",
+  "category": "island",
+  "name": "Lamb",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lamb (island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lamb (island)",
+  "lat": 56.069,
+  "lon": -2.748,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bull-island",
+  "category": "island",
+  "name": "Bull Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bull Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bull Island",
+  "lat": 53.367065,
+  "lon": -6.14856,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-vatersay",
+  "category": "island",
+  "name": "Vatersay",
+  "aliases": [],
+  "size": 9.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vatersay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vatersay",
+  "lat": 56.93,
+  "lon": -7.53,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fota-island",
+  "category": "island",
+  "name": "Fota Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fota Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fota Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-great-island",
+  "category": "island",
+  "name": "Great Island",
+  "aliases": [],
+  "size": 53.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Island",
+  "lat": 51.86583333,
+  "lon": -8.26722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ramsey-island",
+  "category": "island",
+  "name": "Ramsey Island",
+  "aliases": [],
+  "size": 3.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ramsey Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ramsey Island",
+  "lat": 51.86166667,
+  "lon": -5.34277778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-whiddy-island",
+  "category": "island",
+  "name": "Whiddy Island",
+  "aliases": [],
+  "size": 4.17,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Whiddy Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Whiddy Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fetlar",
+  "category": "island",
+  "name": "Fetlar",
+  "aliases": [],
+  "size": 40.78,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fetlar\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fetlar",
+  "lat": 60.6,
+  "lon": -0.87,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-north-ronaldsay",
+  "category": "island",
+  "name": "North Ronaldsay",
+  "aliases": [],
+  "size": 6.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"North Ronaldsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Ronaldsay",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-papa-stour",
+  "category": "island",
+  "name": "Papa Stour",
+  "aliases": [],
+  "size": 8.28,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Papa Stour\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Papa Stour",
+  "lat": 60.33333333,
+  "lon": -1.7,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rousay",
+  "category": "island",
+  "name": "Rousay",
+  "aliases": [],
+  "size": 48.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rousay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rousay",
+  "lat": 59.16666667,
+  "lon": -3.03333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inis-cealtra",
+  "category": "island",
+  "name": "Inis Cealtra",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inis Cealtra\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inis Cealtra",
+  "lat": 52.915,
+  "lon": -8.45,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-stronsay",
+  "category": "island",
+  "name": "Stronsay",
+  "aliases": [],
+  "size": 32.75,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Stronsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stronsay",
+  "lat": 59.11666667,
+  "lon": -2.6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bressay",
+  "category": "island",
+  "name": "Bressay",
+  "aliases": [],
+  "size": 28.05,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bressay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bressay",
+  "lat": 60.15,
+  "lon": -1.08333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bryher",
+  "category": "island",
+  "name": "Bryher",
+  "aliases": [],
+  "size": 1.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bryher\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bryher",
+  "lat": 49.954,
+  "lon": -6.356,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eday",
+  "category": "island",
+  "name": "Eday",
+  "aliases": [],
+  "size": 27.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eday\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eday",
+  "lat": 59.18333333,
+  "lon": -2.78333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inch-island",
+  "category": "island",
+  "name": "Inch Island",
+  "aliases": [],
+  "size": 13,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inch Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inch Island",
+  "lat": 55.065,
+  "lon": -7.495,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-south-rona",
+  "category": "island",
+  "name": "South Rona",
+  "aliases": [],
+  "size": 9.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"South Rona\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Rona",
+  "lat": 57.53444444,
+  "lon": -5.97861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inchmurrin",
+  "category": "island",
+  "name": "Inchmurrin",
+  "aliases": [],
+  "size": 1.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inchmurrin\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inchmurrin",
+  "lat": 56.05,
+  "lon": -4.6,
+  "oceans": []
+ },
+ {
+  "id": "island-inishfree",
+  "category": "island",
+  "name": "Inishfree",
+  "aliases": [],
+  "size": 1.55,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inishfree\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inishfree",
+  "lat": 54.955,
+  "lon": -8.44472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-luing",
+  "category": "island",
+  "name": "Luing",
+  "aliases": [],
+  "size": 14.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Luing\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luing",
+  "lat": 56.22916667,
+  "lon": -5.64555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-whalsay",
+  "category": "island",
+  "name": "Whalsay",
+  "aliases": [],
+  "size": 19.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Whalsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Whalsay",
+  "lat": 60.33333333,
+  "lon": -0.98333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inchmickery",
+  "category": "island",
+  "name": "Inchmickery",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inchmickery\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inchmickery",
+  "lat": 56.01084,
+  "lon": -3.27343,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inishark",
+  "category": "island",
+  "name": "Inishark",
+  "aliases": [],
+  "size": 2.49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inishark\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inishark",
+  "lat": 53.6117,
+  "lon": -10.2828,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-shuna-island",
+  "category": "island",
+  "name": "Shuna Island",
+  "aliases": [],
+  "size": 1.55,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shuna Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shuna Island",
+  "lat": 56.58722222,
+  "lon": -5.39527778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gola-island",
+  "category": "island",
+  "name": "Gola Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gola Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gola Island",
+  "lat": 55.09166667,
+  "lon": -8.36666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-heir-island",
+  "category": "island",
+  "name": "Heir Island",
+  "aliases": [],
+  "size": 1.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Heir Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Heir Island",
+  "lat": 51.5,
+  "lon": -9.43333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-skokholm",
+  "category": "island",
+  "name": "Skokholm",
+  "aliases": [],
+  "size": 1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Skokholm\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Skokholm",
+  "lat": 51.69788,
+  "lon": -5.28047,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-south-ronaldsay",
+  "category": "island",
+  "name": "South Ronaldsay",
+  "aliases": [],
+  "size": 49.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"South Ronaldsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Ronaldsay",
+  "lat": 58.785,
+  "lon": -2.955,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-vaila",
+  "category": "island",
+  "name": "Vaila",
+  "aliases": [],
+  "size": 3.27,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vaila\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vaila",
+  "lat": 60.2,
+  "lon": -1.58333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-boa-island",
+  "category": "island",
+  "name": "Boa Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boa Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boa Island",
+  "lat": 54.51666667,
+  "lon": -7.83333333,
+  "oceans": []
+ },
+ {
+  "id": "island-furzey-island",
+  "category": "island",
+  "name": "Furzey Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Furzey Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Furzey Island",
+  "lat": 50.682527,
+  "lon": -1.98372,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-mutton-island",
+  "category": "island",
+  "name": "Mutton Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mutton Island, County Galway\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mutton Island, County Galway",
+  "lat": 53.253,
+  "lon": -9.054,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-tagg-s-island",
+  "category": "island",
+  "name": "Tagg's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tagg's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tagg's Island",
+  "lat": 51.40888889,
+  "lon": -0.35222222,
+  "oceans": []
+ },
+ {
+  "id": "island-cruit-island",
+  "category": "island",
+  "name": "Cruit Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cruit Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cruit Island",
+  "lat": 55.031268,
+  "lon": -8.417521,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gometra",
+  "category": "island",
+  "name": "Gometra",
+  "aliases": [],
+  "size": 4.25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gometra\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gometra",
+  "lat": 56.49111111,
+  "lon": -6.28694444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-scalpay",
+  "category": "island",
+  "name": "Scalpay",
+  "aliases": [],
+  "size": 6.53,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Scalpay, Outer Hebrides\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Scalpay, Outer Hebrides",
+  "lat": 57.865,
+  "lon": -6.6775,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-barra-head",
+  "category": "island",
+  "name": "Barra Head",
+  "aliases": [],
+  "size": 2.04,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barra Head\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barra Head",
+  "lat": 56.783,
+  "lon": -7.645,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-little-cumbrae",
+  "category": "island",
+  "name": "Little Cumbrae",
+  "aliases": [],
+  "size": 3.13,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Cumbrae\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Cumbrae",
+  "lat": 55.72131,
+  "lon": -4.95503,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-monkey-island",
+  "category": "island",
+  "name": "Monkey Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Monkey Island, Bray\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monkey Island, Bray",
+  "lat": 51.5029,
+  "lon": -0.6834,
+  "oceans": []
+ },
+ {
+  "id": "island-scarba",
+  "category": "island",
+  "name": "Scarba",
+  "aliases": [],
+  "size": 14.74,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Scarba\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Scarba",
+  "lat": 56.17607,
+  "lon": -5.72324,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-handa-island",
+  "category": "island",
+  "name": "Handa Island",
+  "aliases": [],
+  "size": 3.09,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Handa Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Handa Island",
+  "lat": 58.38083333,
+  "lon": -5.18638889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inchmarnock",
+  "category": "island",
+  "name": "Inchmarnock",
+  "aliases": [],
+  "size": 2.66,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inchmarnock\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inchmarnock",
+  "lat": 55.79082,
+  "lon": -5.15974,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-mousa",
+  "category": "island",
+  "name": "Mousa",
+  "aliases": [],
+  "size": 1.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mousa, Shetland\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mousa, Shetland",
+  "lat": 60,
+  "lon": -1.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-northey-island",
+  "category": "island",
+  "name": "Northey Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Northey Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Northey Island",
+  "lat": 51.72,
+  "lon": 0.72,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-scarp",
+  "category": "island",
+  "name": "Scarp",
+  "aliases": [],
+  "size": 10.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Scarp, Scotland\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Scarp, Scotland",
+  "lat": 58.02555556,
+  "lon": -7.12472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-soay",
+  "category": "island",
+  "name": "Soay",
+  "aliases": [],
+  "size": 10.36,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Soay, Inner Hebrides\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Soay, Inner Hebrides",
+  "lat": 57.15,
+  "lon": -6.23,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-horsey-island",
+  "category": "island",
+  "name": "Horsey Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Horsey Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Horsey Island",
+  "lat": 51.876,
+  "lon": 1.245,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-scolt-head-island",
+  "category": "island",
+  "name": "Scolt Head Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Scolt Head Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Scolt Head Island",
+  "lat": 52.9822,
+  "lon": 0.7066,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-wallasea-island",
+  "category": "island",
+  "name": "Wallasea Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wallasea Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wallasea Island",
+  "lat": 51.6,
+  "lon": 0.83333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-craigleith",
+  "category": "island",
+  "name": "Craigleith",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Craigleith\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Craigleith",
+  "lat": 56.073363,
+  "lon": -2.718848,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-flotta",
+  "category": "island",
+  "name": "Flotta",
+  "aliases": [],
+  "size": 8.76,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Flotta\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Flotta",
+  "lat": 58.83333333,
+  "lon": -3.11666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gorumna",
+  "category": "island",
+  "name": "Gorumna",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gorumna\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gorumna",
+  "lat": 53.25,
+  "lon": -9.68,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-magna-carta-island",
+  "category": "island",
+  "name": "Magna Carta Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Magna Carta Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Magna Carta Island",
+  "lat": 51.4462,
+  "lon": -0.5629,
+  "oceans": []
+ },
+ {
+  "id": "island-oronsay",
+  "category": "island",
+  "name": "Oronsay",
+  "aliases": [],
+  "size": 5.43,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oronsay, Colonsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oronsay, Colonsay",
+  "lat": 56.01555556,
+  "lon": -6.24361111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-peel-island",
+  "category": "island",
+  "name": "Peel Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Peel Island, Cumbria\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peel Island, Cumbria",
+  "lat": 54.3177,
+  "lon": -3.0851,
+  "oceans": []
+ },
+ {
+  "id": "island-tuskar-rock",
+  "category": "island",
+  "name": "Tuskar Rock",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tuskar Rock, Ireland\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tuskar Rock, Ireland",
+  "lat": 52.20291667,
+  "lon": -6.20741667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inishbiggle",
+  "category": "island",
+  "name": "Inishbiggle",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inishbiggle\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inishbiggle",
+  "lat": 53.99583333,
+  "lon": -9.90416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sully-island",
+  "category": "island",
+  "name": "Sully Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sully Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sully Island",
+  "lat": 51.395,
+  "lon": -3.19725,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eriska",
+  "category": "island",
+  "name": "Eriska",
+  "aliases": [],
+  "size": 1.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eriska\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eriska",
+  "lat": 56.53166667,
+  "lon": -5.4125,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hestan-island",
+  "category": "island",
+  "name": "Hestan Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hestan Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hestan Island",
+  "lat": 54.8321,
+  "lon": -3.8092,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inishail",
+  "category": "island",
+  "name": "Inishail",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inishail\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inishail",
+  "lat": 56.37472222,
+  "lon": -5.07583333,
+  "oceans": []
+ },
+ {
+  "id": "island-isle-of-ewe",
+  "category": "island",
+  "name": "Isle of Ewe",
+  "aliases": [],
+  "size": 3.09,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Ewe\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Ewe",
+  "lat": 57.83444,
+  "lon": -5.61482,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-king-s-island",
+  "category": "island",
+  "name": "King's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"King's Island, Limerick\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "King's Island, Limerick",
+  "lat": 52.66944444,
+  "lon": -8.62222222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-owey-island",
+  "category": "island",
+  "name": "Owey Island",
+  "aliases": [],
+  "size": 1.21,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Owey Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Owey Island",
+  "lat": 55.0547,
+  "lon": -8.4508,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pabbay",
+  "category": "island",
+  "name": "Pabbay",
+  "aliases": [],
+  "size": 8.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pabbay, Harris\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pabbay, Harris",
+  "lat": 57.77055556,
+  "lon": -7.23416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ram-s-island",
+  "category": "island",
+  "name": "Ram's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ram's Island, Northern Ireland\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ram's Island, Northern Ireland",
+  "lat": 54.5862,
+  "lon": -6.3034,
+  "oceans": []
+ },
+ {
+  "id": "island-thames-ditton-island",
+  "category": "island",
+  "name": "Thames Ditton Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Thames Ditton Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thames Ditton Island",
+  "lat": 51.39444444,
+  "lon": -0.33194444,
+  "oceans": []
+ },
+ {
+  "id": "island-two-tree-island",
+  "category": "island",
+  "name": "Two Tree Island",
+  "aliases": [],
+  "size": 2.59,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Two Tree Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Two Tree Island",
+  "lat": 51.53623,
+  "lon": 0.62858,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ward-hill",
+  "category": "island",
+  "name": "Ward Hill",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ward Hill, Hoy\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ward Hill, Hoy",
+  "lat": 58.90017,
+  "lon": -3.33986,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-asparagus-island",
+  "category": "island",
+  "name": "Asparagus Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Asparagus Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Asparagus Island",
+  "lat": 49.974,
+  "lon": -5.233,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-egilsay",
+  "category": "island",
+  "name": "Egilsay",
+  "aliases": [],
+  "size": 6.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Egilsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Egilsay",
+  "lat": 59.15,
+  "lon": -2.91666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-horsea-island",
+  "category": "island",
+  "name": "Horsea Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Horsea Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Horsea Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inchydoney",
+  "category": "island",
+  "name": "Inchydoney",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inchydoney\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inchydoney",
+  "lat": 51.602,
+  "lon": -8.876,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isle-of-noss",
+  "category": "island",
+  "name": "Isle of Noss",
+  "aliases": [],
+  "size": 3.43,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Noss\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Noss",
+  "lat": 60.14638889,
+  "lon": -1.01944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rutland-island",
+  "category": "island",
+  "name": "Rutland Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rutland Island, County Donegal\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rutland Island, County Donegal",
+  "lat": 54.97916667,
+  "lon": -8.45888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-temple-island",
+  "category": "island",
+  "name": "Temple Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Temple Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Temple Island",
+  "lat": 51.55682,
+  "lon": -0.88928,
+  "oceans": []
+ },
+ {
+  "id": "island-achillbeg",
+  "category": "island",
+  "name": "Achillbeg",
+  "aliases": [],
+  "size": 1.32,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Achillbeg\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Achillbeg",
+  "lat": 53.85,
+  "lon": -9.95,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-burray",
+  "category": "island",
+  "name": "Burray",
+  "aliases": [],
+  "size": 9.03,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Burray\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burray",
+  "lat": 58.8525,
+  "lon": -2.915,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-caquorobert",
+  "category": "island",
+  "name": "Caquorobert",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Caquorobert\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Caquorobert",
+  "lat": 49.4715,
+  "lon": -2.4402,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cava",
+  "category": "island",
+  "name": "Cava",
+  "aliases": [],
+  "size": 1.07,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cava, Orkney\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cava, Orkney",
+  "lat": 58.87852778,
+  "lon": -3.16775,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-chapel-island",
+  "category": "island",
+  "name": "Chapel Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chapel Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chapel Island",
+  "lat": 54.1741,
+  "lon": -3.0416,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-desborough-island",
+  "category": "island",
+  "name": "Desborough Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Desborough Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Desborough Island",
+  "lat": 51.38472222,
+  "lon": -0.44444444,
+  "oceans": []
+ },
+ {
+  "id": "island-eilean-munde",
+  "category": "island",
+  "name": "Eilean Munde",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eilean Munde\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eilean Munde",
+  "lat": 56.68472222,
+  "lon": -5.12944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-graemsay",
+  "category": "island",
+  "name": "Graemsay",
+  "aliases": [],
+  "size": 4.09,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Graemsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Graemsay",
+  "lat": 58.93333333,
+  "lon": -3.28333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-horse-isle",
+  "category": "island",
+  "name": "Horse Isle",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Horse Isle\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Horse Isle",
+  "lat": 55.64482,
+  "lon": -4.84436,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lunga",
+  "category": "island",
+  "name": "Lunga",
+  "aliases": [],
+  "size": 2.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lunga, Firth of Lorn\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lunga, Firth of Lorn",
+  "lat": 56.21666667,
+  "lon": -5.7,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-st-michael-s-isle",
+  "category": "island",
+  "name": "St Michael's Isle",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St Michael's Isle\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St Michael's Isle",
+  "lat": 54.07388889,
+  "lon": -4.6075,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-st-patrick-s-island",
+  "category": "island",
+  "name": "St Patrick's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St Patrick's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St Patrick's Island",
+  "lat": 53.58536111,
+  "lon": -6.07392778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-west-burra",
+  "category": "island",
+  "name": "West Burra",
+  "aliases": [],
+  "size": 7.43,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"West Burra\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "West Burra",
+  "lat": 60.07555556,
+  "lon": -1.33777778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-wyre",
+  "category": "island",
+  "name": "Wyre",
+  "aliases": [],
+  "size": 3.11,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wyre, Orkney\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wyre, Orkney",
+  "lat": 59.11666667,
+  "lon": -2.96666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ash-island",
+  "category": "island",
+  "name": "Ash Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ash Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ash Island",
+  "lat": 51.40722222,
+  "lon": -0.34888889,
+  "oceans": []
+ },
+ {
+  "id": "island-baleshare",
+  "category": "island",
+  "name": "Baleshare",
+  "aliases": [],
+  "size": 9.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baleshare\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baleshare",
+  "lat": 57.53333333,
+  "lon": -7.36666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-carna",
+  "category": "island",
+  "name": "Carna",
+  "aliases": [],
+  "size": 2.13,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Càrna\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Càrna",
+  "lat": 56.66666667,
+  "lon": -5.88333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eagle-island",
+  "category": "island",
+  "name": "Eagle Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eagle Island, County Mayo\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eagle Island, County Mayo",
+  "lat": 54.28291,
+  "lon": -10.090486,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eilean-domhnuill",
+  "category": "island",
+  "name": "Eilean Domhnuill",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eilean Dòmhnuill\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eilean Dòmhnuill",
+  "lat": 57.6499,
+  "lon": -7.4553,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-inchgalbraith",
+  "category": "island",
+  "name": "Inchgalbraith",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inchgalbraith\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inchgalbraith",
+  "lat": 56.07777778,
+  "lon": -4.6225,
+  "oceans": []
+ },
+ {
+  "id": "island-isle-maree",
+  "category": "island",
+  "name": "Isle Maree",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle Maree\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle Maree",
+  "oceans": []
+ },
+ {
+  "id": "island-muckle-roe",
+  "category": "island",
+  "name": "Muckle Roe",
+  "aliases": [],
+  "size": 17.73,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Muckle Roe\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Muckle Roe",
+  "lat": 60.36666667,
+  "lon": -1.425,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-oliver-s-island",
+  "category": "island",
+  "name": "Oliver's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oliver's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oliver's Island",
+  "lat": 51.485,
+  "lon": -0.28111111,
+  "oceans": []
+ },
+ {
+  "id": "island-ortac",
+  "category": "island",
+  "name": "Ortac",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ortac\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ortac",
+  "lat": 49.72305556,
+  "lon": -2.29055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-raven-s-ait",
+  "category": "island",
+  "name": "Raven's Ait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Raven's Ait\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Raven's Ait",
+  "lat": 51.39861111,
+  "lon": -0.31111111,
+  "oceans": []
+ },
+ {
+  "id": "island-stanlow-island",
+  "category": "island",
+  "name": "Stanlow Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Stanlow Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stanlow Island",
+  "lat": 53.28972222,
+  "lon": -2.86111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-vallay",
+  "category": "island",
+  "name": "Vallay",
+  "aliases": [],
+  "size": 2.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vallay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vallay",
+  "lat": 57.66167,
+  "lon": -7.40671,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ynys-dulas",
+  "category": "island",
+  "name": "Ynys Dulas",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ynys Dulas\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ynys Dulas",
+  "lat": 53.38333333,
+  "lon": -4.25,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-alney-island",
+  "category": "island",
+  "name": "Alney Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alney Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alney Island",
+  "lat": 51.8775,
+  "lon": -2.26416667,
+  "oceans": []
+ },
+ {
+  "id": "island-blackrock-island",
+  "category": "island",
+  "name": "Blackrock Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Blackrock Island, County Mayo\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Blackrock Island, County Mayo",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-burntwick-island",
+  "category": "island",
+  "name": "Burntwick Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Burntwick Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burntwick Island",
+  "lat": 51.421,
+  "lon": 0.675,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eilean-nan-ron",
+  "category": "island",
+  "name": "Eilean nan Ron",
+  "aliases": [],
+  "size": 1.38,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eilean nan Ròn\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eilean nan Ròn",
+  "lat": 58.5575,
+  "lon": -4.34083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fara",
+  "category": "island",
+  "name": "Fara",
+  "aliases": [],
+  "size": 2.95,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fara, Orkney\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fara, Orkney",
+  "lat": 58.84163,
+  "lon": -3.17125,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fraoch-eilean",
+  "category": "island",
+  "name": "Fraoch Eilean",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fraoch Eilean, Loch Awe\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fraoch Eilean, Loch Awe",
+  "lat": 56.38027778,
+  "lon": -5.06583333,
+  "oceans": []
+ },
+ {
+  "id": "island-gairsay",
+  "category": "island",
+  "name": "Gairsay",
+  "aliases": [],
+  "size": 2.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gairsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gairsay",
+  "lat": 59.08333333,
+  "lon": -2.96666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hinba",
+  "category": "island",
+  "name": "Hinba",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hinba\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hinba",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isleworth-ait",
+  "category": "island",
+  "name": "Isleworth Ait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isleworth Ait\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isleworth Ait",
+  "lat": 51.469,
+  "lon": -0.3207,
+  "oceans": []
+ },
+ {
+  "id": "island-little-island",
+  "category": "island",
+  "name": "Little Island",
+  "aliases": [],
+  "size": 1.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Island, Waterford\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Island, Waterford",
+  "lat": 52.2472,
+  "lon": -7.0486,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lusty-beg-island",
+  "category": "island",
+  "name": "Lusty Beg Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lusty Beg Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lusty Beg Island",
+  "lat": 54.5083,
+  "lon": -7.8312,
+  "oceans": []
+ },
+ {
+  "id": "island-mullion-island",
+  "category": "island",
+  "name": "Mullion Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mullion Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mullion Island",
+  "lat": 50.012222,
+  "lon": -5.266666,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-north-stack",
+  "category": "island",
+  "name": "North Stack",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"North Stack\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Stack",
+  "lat": 53.333332,
+  "lon": -4.683333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pabay",
+  "category": "island",
+  "name": "Pabay",
+  "aliases": [],
+  "size": 1.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pabay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pabay",
+  "lat": 57.275,
+  "lon": -5.85972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pednathise-head",
+  "category": "island",
+  "name": "Pednathise Head",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pednathise Head\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pednathise Head",
+  "lat": 49.8634,
+  "lon": -6.4027,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rotten-island",
+  "category": "island",
+  "name": "Rotten Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rotten Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rotten Island",
+  "lat": 54.614643,
+  "lon": -8.44043,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-scariff-island",
+  "category": "island",
+  "name": "Scariff Island",
+  "aliases": [],
+  "size": 1.48,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Scariff Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Scariff Island",
+  "lat": 51.7307,
+  "lon": -10.2502,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-shenick-island",
+  "category": "island",
+  "name": "Shenick Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shenick Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shenick Island",
+  "lat": 53.5722,
+  "lon": -6.0835,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-south-walls",
+  "category": "island",
+  "name": "South Walls",
+  "aliases": [],
+  "size": 11,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"South Walls\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Walls",
+  "lat": 58.79,
+  "lon": -3.18,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-torsa",
+  "category": "island",
+  "name": "Torsa",
+  "aliases": [],
+  "size": 1.13,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Torsa\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Torsa",
+  "lat": 56.25722222,
+  "lon": -5.61666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-trowlock-island",
+  "category": "island",
+  "name": "Trowlock Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trowlock Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trowlock Island",
+  "lat": 51.425,
+  "lon": -0.30916667,
+  "oceans": []
+ },
+ {
+  "id": "island-alloa-inch",
+  "category": "island",
+  "name": "Alloa Inch",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alloa Inch\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alloa Inch",
+  "lat": 56.10583333,
+  "lon": -3.81444444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bartragh-island",
+  "category": "island",
+  "name": "Bartragh Island",
+  "aliases": [],
+  "size": 1.93,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bartragh Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bartragh Island",
+  "lat": 54.214,
+  "lon": -9.163,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-boreray",
+  "category": "island",
+  "name": "Boreray",
+  "aliases": [],
+  "size": 1.98,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boreray, North Uist\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boreray, North Uist",
+  "lat": 57.71277778,
+  "lon": -7.28333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-burra",
+  "category": "island",
+  "name": "Burra",
+  "aliases": [],
+  "size": 12.58,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Burra, Shetland\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burra, Shetland",
+  "lat": 60.07611111,
+  "lon": -1.33055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-capel-island",
+  "category": "island",
+  "name": "Capel Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Capel Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Capel Island",
+  "lat": 51.8826,
+  "lon": -7.8533,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-corporation-island",
+  "category": "island",
+  "name": "Corporation Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Corporation Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Corporation Island",
+  "lat": 51.45805556,
+  "lon": -0.30888889,
+  "oceans": []
+ },
+ {
+  "id": "island-dore-holm",
+  "category": "island",
+  "name": "Dore Holm",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dore Holm\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dore Holm",
+  "lat": 60.46944444,
+  "lon": -1.60305556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ensay",
+  "category": "island",
+  "name": "Ensay",
+  "aliases": [],
+  "size": 1.86,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ensay, Outer Hebrides\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ensay, Outer Hebrides",
+  "lat": 57.76666667,
+  "lon": -7.08333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fenit-island",
+  "category": "island",
+  "name": "Fenit Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fenit Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fenit Island",
+  "lat": 52.28333333,
+  "lon": -9.86666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-foulney-island",
+  "category": "island",
+  "name": "Foulney Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Foulney Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Foulney Island",
+  "lat": 54.066689,
+  "lon": -3.151488,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fry-s-island",
+  "category": "island",
+  "name": "Fry's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fry's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fry's Island",
+  "lat": 51.46365,
+  "lon": -0.97235,
+  "oceans": []
+ },
+ {
+  "id": "island-gateholm",
+  "category": "island",
+  "name": "Gateholm",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gateholm\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gateholm",
+  "lat": 51.71813,
+  "lon": -5.23125,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-glover-s-island",
+  "category": "island",
+  "name": "Glover's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Glover's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Glover's Island",
+  "lat": 51.45,
+  "lon": -0.30555556,
+  "oceans": []
+ },
+ {
+  "id": "island-ham-island",
+  "category": "island",
+  "name": "Ham Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ham Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ham Island",
+  "lat": 51.469,
+  "lon": -0.566,
+  "oceans": []
+ },
+ {
+  "id": "island-hamhaugh-island",
+  "category": "island",
+  "name": "Hamhaugh Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hamhaugh Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hamhaugh Island",
+  "lat": 51.38027778,
+  "lon": -0.46055556,
+  "oceans": []
+ },
+ {
+  "id": "island-havergate-island",
+  "category": "island",
+  "name": "Havergate Island",
+  "aliases": [],
+  "size": 1.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Havergate Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Havergate Island",
+  "lat": 52.07194444,
+  "lon": 1.52,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-island-eddy",
+  "category": "island",
+  "name": "Island Eddy",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Island Eddy\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Island Eddy",
+  "lat": 53.2,
+  "lon": -8.99,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-longships",
+  "category": "island",
+  "name": "Longships",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Longships, Cornwall\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Longships, Cornwall",
+  "lat": 50.0661,
+  "lon": -5.7458,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-neish-island",
+  "category": "island",
+  "name": "Neish Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Neish Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Neish Island",
+  "lat": 56.39222222,
+  "lon": -4.12166667,
+  "oceans": []
+ },
+ {
+  "id": "island-potton-island",
+  "category": "island",
+  "name": "Potton Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Potton Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Potton Island",
+  "lat": 51.58333333,
+  "lon": 0.81666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-preston-island",
+  "category": "island",
+  "name": "Preston Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Preston Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Preston Island",
+  "lat": 56.05333333,
+  "lon": -3.6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-priest-island",
+  "category": "island",
+  "name": "Priest Island",
+  "aliases": [],
+  "size": 1.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Priest Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Priest Island",
+  "lat": 57.95833333,
+  "lon": -5.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-read-s-island",
+  "category": "island",
+  "name": "Read's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Read's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Read's Island",
+  "lat": 53.6825,
+  "lon": -0.5419,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-round-island-light",
+  "category": "island",
+  "name": "Round Island Light",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Round Island Light, Isles of Scilly\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Round Island Light, Isles of Scilly",
+  "lat": 49.979033,
+  "lon": -6.323108,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sandray",
+  "category": "island",
+  "name": "Sandray",
+  "aliases": [],
+  "size": 3.85,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sandray\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sandray",
+  "lat": 56.89,
+  "lon": -7.52,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-st-margaret-s-island",
+  "category": "island",
+  "name": "St Margaret's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St Margaret's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St Margaret's Island",
+  "lat": 51.6431,
+  "lon": -4.71693,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-st-mary-s-church",
+  "category": "island",
+  "name": "St Mary's Church",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St Mary's Church, St Mary's\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St Mary's Church, St Mary's",
+  "lat": 49.91555556,
+  "lon": -6.31055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-staple-island",
+  "category": "island",
+  "name": "Staple Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Staple Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Staple Island",
+  "lat": 55.631,
+  "lon": -1.624,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-trondra",
+  "category": "island",
+  "name": "Trondra",
+  "aliases": [],
+  "size": 2.75,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trondra\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trondra",
+  "lat": 60.11666667,
+  "lon": -1.28333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-whitton-island",
+  "category": "island",
+  "name": "Whitton Island",
+  "aliases": [],
+  "size": 1.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Whitton Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Whitton Island",
+  "lat": 53.714,
+  "lon": -0.67,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-east-burra",
+  "category": "island",
+  "name": "East Burra",
+  "aliases": [],
+  "size": 5.15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"East Burra\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "East Burra",
+  "lat": 60.08888889,
+  "lon": -1.30166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eilean-subhainn",
+  "category": "island",
+  "name": "Eilean Subhainn",
+  "aliases": [],
+  "size": 1.18,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eilean Sùbhainn\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eilean Sùbhainn",
+  "lat": 57.69166667,
+  "lon": -5.48333333,
+  "oceans": []
+ },
+ {
+  "id": "island-hildasay",
+  "category": "island",
+  "name": "Hildasay",
+  "aliases": [],
+  "size": 1.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hildasay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hildasay",
+  "lat": 60.14666667,
+  "lon": -1.35972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-housay",
+  "category": "island",
+  "name": "Housay",
+  "aliases": [],
+  "size": 1.63,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Housay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Housay",
+  "lat": 60.423,
+  "lon": -0.767,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hunda",
+  "category": "island",
+  "name": "Hunda",
+  "aliases": [],
+  "size": 1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hunda\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hunda",
+  "lat": 58.85416667,
+  "lon": -2.9775,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isle-ristol",
+  "category": "island",
+  "name": "Isle Ristol",
+  "aliases": [],
+  "size": 2.25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle Ristol\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle Ristol",
+  "lat": 58.04416667,
+  "lon": -5.43722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-little-bernera",
+  "category": "island",
+  "name": "Little Bernera",
+  "aliases": [],
+  "size": 1.38,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Bernera\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Bernera",
+  "lat": 58.26527778,
+  "lon": -6.87333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-longa-island",
+  "category": "island",
+  "name": "Longa Island",
+  "aliases": [],
+  "size": 1.26,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Longa Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Longa Island",
+  "lat": 57.73166667,
+  "lon": -5.8025,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pabaigh-mor",
+  "category": "island",
+  "name": "Pabaigh Mor",
+  "aliases": [],
+  "size": 1.01,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pabaigh Mòr\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pabaigh Mòr",
+  "lat": 58.23333333,
+  "lon": -6.93333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ronay",
+  "category": "island",
+  "name": "Ronay",
+  "aliases": [],
+  "size": 5.63,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ronay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ronay",
+  "lat": 57.48388889,
+  "lon": -7.18111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-seaforth-island",
+  "category": "island",
+  "name": "Seaforth Island",
+  "aliases": [],
+  "size": 2.73,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Seaforth Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seaforth Island",
+  "lat": 58.00102,
+  "lon": -6.72918,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-uyea",
+  "category": "island",
+  "name": "Uyea",
+  "aliases": [],
+  "size": 2.05,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Uyea, Unst\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uyea, Unst",
+  "lat": 60.66666667,
+  "lon": -0.9,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-vementry",
+  "category": "island",
+  "name": "Vementry",
+  "aliases": [],
+  "size": 3.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vementry\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vementry",
+  "lat": 60.32944444,
+  "lon": -1.46305556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-calf-of-eday",
+  "category": "island",
+  "name": "Calf of Eday",
+  "aliases": [],
+  "size": 2.43,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Calf of Eday\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Calf of Eday",
+  "lat": 59.23333333,
+  "lon": -2.73333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-danna",
+  "category": "island",
+  "name": "Danna",
+  "aliases": [],
+  "size": 3.15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Danna, Scotland\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Danna, Scotland",
+  "lat": 55.94472222,
+  "lon": -5.69083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-dinish-island",
+  "category": "island",
+  "name": "Dinish Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dinish Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dinish Island",
+  "lat": 53.262,
+  "lon": -9.754,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eorsa",
+  "category": "island",
+  "name": "Eorsa",
+  "aliases": [],
+  "size": 1.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eorsa\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eorsa",
+  "lat": 56.46666667,
+  "lon": -6.08833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fuday",
+  "category": "island",
+  "name": "Fuday",
+  "aliases": [],
+  "size": 2.32,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fuday\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fuday",
+  "lat": 57.05,
+  "lon": -7.38333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hascosay",
+  "category": "island",
+  "name": "Hascosay",
+  "aliases": [],
+  "size": 2.75,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hascosay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hascosay",
+  "lat": 60.61666667,
+  "lon": -0.98333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-killegray",
+  "category": "island",
+  "name": "Killegray",
+  "aliases": [],
+  "size": 1.76,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Killegray\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Killegray",
+  "lat": 57.74,
+  "lon": -7.08166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lot-s-ait",
+  "category": "island",
+  "name": "Lot's Ait",
+  "aliases": [],
+  "size": 4.74,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lot's Ait\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lot's Ait",
+  "lat": 51.48472222,
+  "lon": -0.29833333,
+  "oceans": []
+ },
+ {
+  "id": "island-oilean-ruaidh",
+  "category": "island",
+  "name": "Oilean Ruaidh",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oileán Ruaidh\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oileán Ruaidh",
+  "lat": 55.18944444,
+  "lon": -7.79444444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-oldany-island",
+  "category": "island",
+  "name": "Oldany Island",
+  "aliases": [],
+  "size": 2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oldany Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oldany Island",
+  "lat": 58.25833333,
+  "lon": -5.25833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-papa-little",
+  "category": "island",
+  "name": "Papa Little",
+  "aliases": [],
+  "size": 2.26,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Papa Little\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Papa Little",
+  "lat": 60.33167,
+  "lon": -1.39153,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-foulness-island",
+  "category": "island",
+  "name": "Foulness Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Foulness Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1948,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Foulness Island",
+  "lat": 51.5976,
+  "lon": 0.8954,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lettermullen",
+  "category": "island",
+  "name": "Lettermullen",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lettermullen\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lettermullen",
+  "lat": 53.244,
+  "lon": -9.726,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-shapinsay",
+  "category": "island",
+  "name": "Shapinsay",
+  "aliases": [],
+  "size": 29.48,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shapinsay\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shapinsay",
+  "lat": 59.05,
+  "lon": -2.88333333,
+  "oceans": [
+   "Atlantic"
+  ]
  }
 ]

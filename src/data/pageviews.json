@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T10:37:14.750Z",
+ "fetched": "2026-09-17T11:23:08.487Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -90947,6 +90947,1665 @@
    "days": 55,
    "lat": 38.31666667,
    "lon": -121.71472222
+  },
+  "island-rockall": {
+   "title": "Rockall",
+   "monthlyViews": 11598,
+   "days": 60,
+   "lat": 57.59630556,
+   "lon": -13.68730556
+  },
+  "island-eilean-donan": {
+   "title": "Eilean Donan",
+   "monthlyViews": 9497,
+   "days": 60,
+   "lat": 57.27402778,
+   "lon": -5.51611111
+  },
+  "island-isle-of-portland": {
+   "title": "Isle of Portland",
+   "monthlyViews": 8036,
+   "days": 60,
+   "lat": 50.55,
+   "lon": -2.44
+  },
+  "island-gruinard-island": {
+   "title": "Gruinard Island",
+   "monthlyViews": 6879,
+   "days": 60,
+   "lat": 57.89,
+   "lon": -5.47
+  },
+  "island-burgh-island": {
+   "title": "Burgh Island",
+   "monthlyViews": 3866,
+   "days": 60,
+   "lat": 50.27972222,
+   "lon": -3.90027778
+  },
+  "island-papa-stronsay": {
+   "title": "Papa Stronsay",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": 59.15,
+   "lon": -2.58333333
+  },
+  "island-eel-pie-island": {
+   "title": "Eel Pie Island",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 51.4452,
+   "lon": -0.3246
+  },
+  "island-bishop-rock": {
+   "title": "Bishop Rock",
+   "monthlyViews": 3196,
+   "days": 60,
+   "lat": 49.87277778,
+   "lon": -6.44555556
+  },
+  "island-foula": {
+   "title": "Foula",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": 60.13333333,
+   "lon": -2.06666667
+  },
+  "island-tanera-mor": {
+   "title": "Tanera Mòr",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 58.01111111,
+   "lon": -5.40833333
+  },
+  "island-osea-island": {
+   "title": "Osea Island",
+   "monthlyViews": 2496,
+   "days": 60,
+   "lat": 51.7225,
+   "lon": 0.7711
+  },
+  "island-north-rona": {
+   "title": "North Rona",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 59.12196,
+   "lon": -5.82488
+  },
+  "island-drake-s-island": {
+   "title": "Drake's Island",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 50.35555556,
+   "lon": -4.15361111
+  },
+  "island-garnish-island": {
+   "title": "Garnish Island",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 51.73638889,
+   "lon": -9.54111111
+  },
+  "island-papa-westray": {
+   "title": "Papa Westray",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 59.35,
+   "lon": -2.9
+  },
+  "island-sula-sgeir": {
+   "title": "Sula Sgeir",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 59.095625,
+   "lon": -6.15649167
+  },
+  "island-ireland-s-eye": {
+   "title": "Ireland's Eye",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 53.40527778,
+   "lon": -6.06361111
+  },
+  "island-stroma": {
+   "title": "Stroma, Scotland",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 58.68,
+   "lon": -3.12
+  },
+  "island-flat-holm": {
+   "title": "Flat Holm",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 51.37687,
+   "lon": -3.12207
+  },
+  "island-inchconnachan": {
+   "title": "Inchconnachan",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 56.09,
+   "lon": -4.615
+  },
+  "island-seil": {
+   "title": "Seil",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 56.3,
+   "lon": -5.62
+  },
+  "island-puffin-island": {
+   "title": "Puffin Island (Anglesey)",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 53.31854,
+   "lon": -4.02958
+  },
+  "island-cramond-island": {
+   "title": "Cramond Island",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 55.99,
+   "lon": -3.29
+  },
+  "island-steep-holm": {
+   "title": "Steep Holm",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 51.33972222,
+   "lon": -3.10972222
+  },
+  "island-inchkeith": {
+   "title": "Inchkeith",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 56.03333333,
+   "lon": -3.135
+  },
+  "island-looe-island": {
+   "title": "Looe Island",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 50.33664,
+   "lon": -4.45205
+  },
+  "island-st-agnes": {
+   "title": "St Agnes, Isles of Scilly",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 49.891,
+   "lon": -6.343
+  },
+  "island-easdale": {
+   "title": "Easdale",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 56.29222222,
+   "lon": -5.65805556
+  },
+  "island-inch-kenneth": {
+   "title": "Inch Kenneth",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 56.44171,
+   "lon": -6.16317
+  },
+  "island-thorney-island": {
+   "title": "Thorney Island (West Sussex)",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 50.81722222,
+   "lon": -0.92027778
+  },
+  "island-bere-island": {
+   "title": "Bere Island",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 51.63333333,
+   "lon": -9.88333333
+  },
+  "island-deadman-s-island": {
+   "title": "Deadman's Island (Kent)",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 51.4212,
+   "lon": 0.7223
+  },
+  "island-muckle-flugga": {
+   "title": "Muckle Flugga",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 60.85369,
+   "lon": -0.88837
+  },
+  "island-calf-of-man": {
+   "title": "Calf of Man",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 54.05277778,
+   "lon": -4.82027778
+  },
+  "island-kerrera": {
+   "title": "Kerrera",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 56.39805556,
+   "lon": -5.53861111
+  },
+  "island-sherkin-island": {
+   "title": "Sherkin Island",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 51.46666667,
+   "lon": -9.41666667
+  },
+  "island-haulbowline": {
+   "title": "Haulbowline",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 51.84166667,
+   "lon": -8.3
+  },
+  "island-mingulay": {
+   "title": "Mingulay",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 56.811,
+   "lon": -7.637
+  },
+  "island-berneray": {
+   "title": "Berneray, North Uist",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 57.71944444,
+   "lon": -7.18638889
+  },
+  "island-inchgarvie": {
+   "title": "Inchgarvie",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 56.00083333,
+   "lon": -3.38638889
+  },
+  "island-inishturk": {
+   "title": "Inishturk",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 53.7014,
+   "lon": -10.1083
+  },
+  "island-piel-island": {
+   "title": "Piel Island",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 54.06388889,
+   "lon": -3.175
+  },
+  "island-taransay": {
+   "title": "Taransay",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 57.9,
+   "lon": -7.01666667
+  },
+  "island-omey-island": {
+   "title": "Omey Island",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 53.53527778,
+   "lon": -10.1575
+  },
+  "island-great-bernera": {
+   "title": "Great Bernera",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 58.23,
+   "lon": -6.85
+  },
+  "island-lamb": {
+   "title": "Lamb (island)",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 56.069,
+   "lon": -2.748
+  },
+  "island-bull-island": {
+   "title": "Bull Island",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 53.367065,
+   "lon": -6.14856
+  },
+  "island-vatersay": {
+   "title": "Vatersay",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 56.93,
+   "lon": -7.53
+  },
+  "island-fota-island": {
+   "title": "Fota Island",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-great-island": {
+   "title": "Great Island",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 51.86583333,
+   "lon": -8.26722222
+  },
+  "island-ramsey-island": {
+   "title": "Ramsey Island",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 51.86166667,
+   "lon": -5.34277778
+  },
+  "island-whiddy-island": {
+   "title": "Whiddy Island",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-fetlar": {
+   "title": "Fetlar",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 60.6,
+   "lon": -0.87
+  },
+  "island-north-ronaldsay": {
+   "title": "North Ronaldsay",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-papa-stour": {
+   "title": "Papa Stour",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 60.33333333,
+   "lon": -1.7
+  },
+  "island-rousay": {
+   "title": "Rousay",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 59.16666667,
+   "lon": -3.03333333
+  },
+  "island-inis-cealtra": {
+   "title": "Inis Cealtra",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 52.915,
+   "lon": -8.45
+  },
+  "island-stronsay": {
+   "title": "Stronsay",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 59.11666667,
+   "lon": -2.6
+  },
+  "island-bressay": {
+   "title": "Bressay",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 60.15,
+   "lon": -1.08333333
+  },
+  "island-bryher": {
+   "title": "Bryher",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 49.954,
+   "lon": -6.356
+  },
+  "island-eday": {
+   "title": "Eday",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 59.18333333,
+   "lon": -2.78333333
+  },
+  "island-inch-island": {
+   "title": "Inch Island",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 55.065,
+   "lon": -7.495
+  },
+  "island-south-rona": {
+   "title": "South Rona",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 57.53444444,
+   "lon": -5.97861111
+  },
+  "island-inchmurrin": {
+   "title": "Inchmurrin",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 56.05,
+   "lon": -4.6
+  },
+  "island-inishfree": {
+   "title": "Inishfree",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 54.955,
+   "lon": -8.44472222
+  },
+  "island-luing": {
+   "title": "Luing",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 56.22916667,
+   "lon": -5.64555556
+  },
+  "island-whalsay": {
+   "title": "Whalsay",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 60.33333333,
+   "lon": -0.98333333
+  },
+  "island-inchmickery": {
+   "title": "Inchmickery",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 56.01084,
+   "lon": -3.27343
+  },
+  "island-inishark": {
+   "title": "Inishark",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 53.6117,
+   "lon": -10.2828
+  },
+  "island-shuna-island": {
+   "title": "Shuna Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 56.58722222,
+   "lon": -5.39527778
+  },
+  "island-gola-island": {
+   "title": "Gola Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 55.09166667,
+   "lon": -8.36666667
+  },
+  "island-heir-island": {
+   "title": "Heir Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 51.5,
+   "lon": -9.43333333
+  },
+  "island-skokholm": {
+   "title": "Skokholm",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 51.69788,
+   "lon": -5.28047
+  },
+  "island-south-ronaldsay": {
+   "title": "South Ronaldsay",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 58.785,
+   "lon": -2.955
+  },
+  "island-vaila": {
+   "title": "Vaila",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 60.2,
+   "lon": -1.58333333
+  },
+  "island-boa-island": {
+   "title": "Boa Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 54.51666667,
+   "lon": -7.83333333
+  },
+  "island-furzey-island": {
+   "title": "Furzey Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 50.682527,
+   "lon": -1.98372
+  },
+  "island-mutton-island": {
+   "title": "Mutton Island, County Galway",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 53.253,
+   "lon": -9.054
+  },
+  "island-tagg-s-island": {
+   "title": "Tagg's Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 51.40888889,
+   "lon": -0.35222222
+  },
+  "island-cruit-island": {
+   "title": "Cruit Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 55.031268,
+   "lon": -8.417521
+  },
+  "island-gometra": {
+   "title": "Gometra",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 56.49111111,
+   "lon": -6.28694444
+  },
+  "island-scalpay": {
+   "title": "Scalpay, Outer Hebrides",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 57.865,
+   "lon": -6.6775
+  },
+  "island-barra-head": {
+   "title": "Barra Head",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 56.783,
+   "lon": -7.645
+  },
+  "island-little-cumbrae": {
+   "title": "Little Cumbrae",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 55.72131,
+   "lon": -4.95503
+  },
+  "island-monkey-island": {
+   "title": "Monkey Island, Bray",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 51.5029,
+   "lon": -0.6834
+  },
+  "island-scarba": {
+   "title": "Scarba",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 56.17607,
+   "lon": -5.72324
+  },
+  "island-handa-island": {
+   "title": "Handa Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 58.38083333,
+   "lon": -5.18638889
+  },
+  "island-inchmarnock": {
+   "title": "Inchmarnock",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 55.79082,
+   "lon": -5.15974
+  },
+  "island-mousa": {
+   "title": "Mousa, Shetland",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 60,
+   "lon": -1.16666667
+  },
+  "island-northey-island": {
+   "title": "Northey Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 51.72,
+   "lon": 0.72
+  },
+  "island-scarp": {
+   "title": "Scarp, Scotland",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 58.02555556,
+   "lon": -7.12472222
+  },
+  "island-soay": {
+   "title": "Soay, Inner Hebrides",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 57.15,
+   "lon": -6.23
+  },
+  "island-horsey-island": {
+   "title": "Horsey Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 51.876,
+   "lon": 1.245
+  },
+  "island-scolt-head-island": {
+   "title": "Scolt Head Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 52.9822,
+   "lon": 0.7066
+  },
+  "island-wallasea-island": {
+   "title": "Wallasea Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 51.6,
+   "lon": 0.83333333
+  },
+  "island-craigleith": {
+   "title": "Craigleith",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 56.073363,
+   "lon": -2.718848
+  },
+  "island-flotta": {
+   "title": "Flotta",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 58.83333333,
+   "lon": -3.11666667
+  },
+  "island-gorumna": {
+   "title": "Gorumna",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 53.25,
+   "lon": -9.68
+  },
+  "island-magna-carta-island": {
+   "title": "Magna Carta Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 51.4462,
+   "lon": -0.5629
+  },
+  "island-oronsay": {
+   "title": "Oronsay, Colonsay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 56.01555556,
+   "lon": -6.24361111
+  },
+  "island-peel-island": {
+   "title": "Peel Island, Cumbria",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 54.3177,
+   "lon": -3.0851
+  },
+  "island-tuskar-rock": {
+   "title": "Tuskar Rock, Ireland",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 52.20291667,
+   "lon": -6.20741667
+  },
+  "island-augustus-smith": {
+   "title": "Augustus Smith (politician)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-inishbiggle": {
+   "title": "Inishbiggle",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 53.99583333,
+   "lon": -9.90416667
+  },
+  "island-sully-island": {
+   "title": "Sully Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 51.395,
+   "lon": -3.19725
+  },
+  "island-eriska": {
+   "title": "Eriska",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 56.53166667,
+   "lon": -5.4125
+  },
+  "island-hestan-island": {
+   "title": "Hestan Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 54.8321,
+   "lon": -3.8092
+  },
+  "island-inishail": {
+   "title": "Inishail",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 56.37472222,
+   "lon": -5.07583333
+  },
+  "island-isle-of-ewe": {
+   "title": "Isle of Ewe",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 57.83444,
+   "lon": -5.61482
+  },
+  "island-king-s-island": {
+   "title": "King's Island, Limerick",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 52.66944444,
+   "lon": -8.62222222
+  },
+  "island-owey-island": {
+   "title": "Owey Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 55.0547,
+   "lon": -8.4508
+  },
+  "island-pabbay": {
+   "title": "Pabbay, Harris",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 57.77055556,
+   "lon": -7.23416667
+  },
+  "island-ram-s-island": {
+   "title": "Ram's Island, Northern Ireland",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 54.5862,
+   "lon": -6.3034
+  },
+  "island-thames-ditton-island": {
+   "title": "Thames Ditton Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 51.39444444,
+   "lon": -0.33194444
+  },
+  "island-two-tree-island": {
+   "title": "Two Tree Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 51.53623,
+   "lon": 0.62858
+  },
+  "island-ward-hill": {
+   "title": "Ward Hill, Hoy",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 58.90017,
+   "lon": -3.33986
+  },
+  "island-asparagus-island": {
+   "title": "Asparagus Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 49.974,
+   "lon": -5.233
+  },
+  "island-egilsay": {
+   "title": "Egilsay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 59.15,
+   "lon": -2.91666667
+  },
+  "island-horsea-island": {
+   "title": "Horsea Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-inchydoney": {
+   "title": "Inchydoney",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 51.602,
+   "lon": -8.876
+  },
+  "island-isle-of-noss": {
+   "title": "Isle of Noss",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 60.14638889,
+   "lon": -1.01944444
+  },
+  "island-rutland-island": {
+   "title": "Rutland Island, County Donegal",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 54.97916667,
+   "lon": -8.45888889
+  },
+  "island-temple-island": {
+   "title": "Temple Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 51.55682,
+   "lon": -0.88928
+  },
+  "island-achillbeg": {
+   "title": "Achillbeg",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 53.85,
+   "lon": -9.95
+  },
+  "island-burray": {
+   "title": "Burray",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 58.8525,
+   "lon": -2.915
+  },
+  "island-caquorobert": {
+   "title": "Caquorobert",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.4715,
+   "lon": -2.4402
+  },
+  "island-cava": {
+   "title": "Cava, Orkney",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 58.87852778,
+   "lon": -3.16775
+  },
+  "island-chapel-island": {
+   "title": "Chapel Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 54.1741,
+   "lon": -3.0416
+  },
+  "island-desborough-island": {
+   "title": "Desborough Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.38472222,
+   "lon": -0.44444444
+  },
+  "island-eilean-munde": {
+   "title": "Eilean Munde",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 56.68472222,
+   "lon": -5.12944444
+  },
+  "island-graemsay": {
+   "title": "Graemsay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 58.93333333,
+   "lon": -3.28333333
+  },
+  "island-horse-isle": {
+   "title": "Horse Isle",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 55.64482,
+   "lon": -4.84436
+  },
+  "island-lunga": {
+   "title": "Lunga, Firth of Lorn",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 56.21666667,
+   "lon": -5.7
+  },
+  "island-st-michael-s-isle": {
+   "title": "St Michael's Isle",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 54.07388889,
+   "lon": -4.6075
+  },
+  "island-st-patrick-s-island": {
+   "title": "St Patrick's Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 53.58536111,
+   "lon": -6.07392778
+  },
+  "island-west-burra": {
+   "title": "West Burra",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 60.07555556,
+   "lon": -1.33777778
+  },
+  "island-wyre": {
+   "title": "Wyre, Orkney",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 59.11666667,
+   "lon": -2.96666667
+  },
+  "island-ash-island": {
+   "title": "Ash Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.40722222,
+   "lon": -0.34888889
+  },
+  "island-baleshare": {
+   "title": "Baleshare",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 57.53333333,
+   "lon": -7.36666667
+  },
+  "island-carna": {
+   "title": "Càrna",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 56.66666667,
+   "lon": -5.88333333
+  },
+  "island-eagle-island": {
+   "title": "Eagle Island, County Mayo",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 54.28291,
+   "lon": -10.090486
+  },
+  "island-eilean-domhnuill": {
+   "title": "Eilean Dòmhnuill",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 57.6499,
+   "lon": -7.4553
+  },
+  "island-inchgalbraith": {
+   "title": "Inchgalbraith",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 56.07777778,
+   "lon": -4.6225
+  },
+  "island-isle-maree": {
+   "title": "Isle Maree",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-muckle-roe": {
+   "title": "Muckle Roe",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 60.36666667,
+   "lon": -1.425
+  },
+  "island-oliver-s-island": {
+   "title": "Oliver's Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.485,
+   "lon": -0.28111111
+  },
+  "island-ortac": {
+   "title": "Ortac",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.72305556,
+   "lon": -2.29055556
+  },
+  "island-raven-s-ait": {
+   "title": "Raven's Ait",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.39861111,
+   "lon": -0.31111111
+  },
+  "island-stanlow-island": {
+   "title": "Stanlow Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 53.28972222,
+   "lon": -2.86111111
+  },
+  "island-vallay": {
+   "title": "Vallay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 57.66167,
+   "lon": -7.40671
+  },
+  "island-ynys-dulas": {
+   "title": "Ynys Dulas",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 53.38333333,
+   "lon": -4.25
+  },
+  "island-alney-island": {
+   "title": "Alney Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.8775,
+   "lon": -2.26416667
+  },
+  "island-blackrock-island": {
+   "title": "Blackrock Island, County Mayo",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-burntwick-island": {
+   "title": "Burntwick Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.421,
+   "lon": 0.675
+  },
+  "island-eilean-nan-ron": {
+   "title": "Eilean nan Ròn",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 58.5575,
+   "lon": -4.34083333
+  },
+  "island-fara": {
+   "title": "Fara, Orkney",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 58.84163,
+   "lon": -3.17125
+  },
+  "island-fraoch-eilean": {
+   "title": "Fraoch Eilean, Loch Awe",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 56.38027778,
+   "lon": -5.06583333
+  },
+  "island-gairsay": {
+   "title": "Gairsay",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 59.08333333,
+   "lon": -2.96666667
+  },
+  "island-hinba": {
+   "title": "Hinba",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-isleworth-ait": {
+   "title": "Isleworth Ait",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.469,
+   "lon": -0.3207
+  },
+  "island-little-island": {
+   "title": "Little Island, Waterford",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 52.2472,
+   "lon": -7.0486
+  },
+  "island-lusty-beg-island": {
+   "title": "Lusty Beg Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 54.5083,
+   "lon": -7.8312
+  },
+  "island-mullion-island": {
+   "title": "Mullion Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.012222,
+   "lon": -5.266666
+  },
+  "island-north-stack": {
+   "title": "North Stack",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 53.333332,
+   "lon": -4.683333
+  },
+  "island-pabay": {
+   "title": "Pabay",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 57.275,
+   "lon": -5.85972222
+  },
+  "island-pednathise-head": {
+   "title": "Pednathise Head",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.8634,
+   "lon": -6.4027
+  },
+  "island-rotten-island": {
+   "title": "Rotten Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 54.614643,
+   "lon": -8.44043
+  },
+  "island-scariff-island": {
+   "title": "Scariff Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.7307,
+   "lon": -10.2502
+  },
+  "island-shenick-island": {
+   "title": "Shenick Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 53.5722,
+   "lon": -6.0835
+  },
+  "island-south-walls": {
+   "title": "South Walls",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 58.79,
+   "lon": -3.18
+  },
+  "island-torsa": {
+   "title": "Torsa",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 56.25722222,
+   "lon": -5.61666667
+  },
+  "island-trowlock-island": {
+   "title": "Trowlock Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.425,
+   "lon": -0.30916667
+  },
+  "island-alloa-inch": {
+   "title": "Alloa Inch",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 56.10583333,
+   "lon": -3.81444444
+  },
+  "island-bartragh-island": {
+   "title": "Bartragh Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 54.214,
+   "lon": -9.163
+  },
+  "island-boreray": {
+   "title": "Boreray, North Uist",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 57.71277778,
+   "lon": -7.28333333
+  },
+  "island-burra": {
+   "title": "Burra, Shetland",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 60.07611111,
+   "lon": -1.33055556
+  },
+  "island-capel-island": {
+   "title": "Capel Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.8826,
+   "lon": -7.8533
+  },
+  "island-corporation-island": {
+   "title": "Corporation Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.45805556,
+   "lon": -0.30888889
+  },
+  "island-dore-holm": {
+   "title": "Dore Holm",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 60.46944444,
+   "lon": -1.60305556
+  },
+  "island-ensay": {
+   "title": "Ensay, Outer Hebrides",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 57.76666667,
+   "lon": -7.08333333
+  },
+  "island-fenit-island": {
+   "title": "Fenit Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.28333333,
+   "lon": -9.86666667
+  },
+  "island-foulney-island": {
+   "title": "Foulney Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.066689,
+   "lon": -3.151488
+  },
+  "island-fry-s-island": {
+   "title": "Fry's Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.46365,
+   "lon": -0.97235
+  },
+  "island-gateholm": {
+   "title": "Gateholm",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.71813,
+   "lon": -5.23125
+  },
+  "island-glover-s-island": {
+   "title": "Glover's Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.45,
+   "lon": -0.30555556
+  },
+  "island-ham-island": {
+   "title": "Ham Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.469,
+   "lon": -0.566
+  },
+  "island-hamhaugh-island": {
+   "title": "Hamhaugh Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.38027778,
+   "lon": -0.46055556
+  },
+  "island-havergate-island": {
+   "title": "Havergate Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.07194444,
+   "lon": 1.52
+  },
+  "island-island-eddy": {
+   "title": "Island Eddy",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.2,
+   "lon": -8.99
+  },
+  "island-longships": {
+   "title": "Longships, Cornwall",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.0661,
+   "lon": -5.7458
+  },
+  "island-neish-island": {
+   "title": "Neish Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 56.39222222,
+   "lon": -4.12166667
+  },
+  "island-potton-island": {
+   "title": "Potton Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.58333333,
+   "lon": 0.81666667
+  },
+  "island-preston-island": {
+   "title": "Preston Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 56.05333333,
+   "lon": -3.6
+  },
+  "island-priest-island": {
+   "title": "Priest Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 57.95833333,
+   "lon": -5.5
+  },
+  "island-read-s-island": {
+   "title": "Read's Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.6825,
+   "lon": -0.5419
+  },
+  "island-round-island-light": {
+   "title": "Round Island Light, Isles of Scilly",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.979033,
+   "lon": -6.323108
+  },
+  "island-sandray": {
+   "title": "Sandray",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 56.89,
+   "lon": -7.52
+  },
+  "island-st-margaret-s-island": {
+   "title": "St Margaret's Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.6431,
+   "lon": -4.71693
+  },
+  "island-st-mary-s-church": {
+   "title": "St Mary's Church, St Mary's",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.91555556,
+   "lon": -6.31055556
+  },
+  "island-staple-island": {
+   "title": "Staple Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 55.631,
+   "lon": -1.624
+  },
+  "island-trondra": {
+   "title": "Trondra",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 60.11666667,
+   "lon": -1.28333333
+  },
+  "island-whitton-island": {
+   "title": "Whitton Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 53.714,
+   "lon": -0.67
+  },
+  "island-east-burra": {
+   "title": "East Burra",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 60.08888889,
+   "lon": -1.30166667
+  },
+  "island-eilean-subhainn": {
+   "title": "Eilean Sùbhainn",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 57.69166667,
+   "lon": -5.48333333
+  },
+  "island-hildasay": {
+   "title": "Hildasay",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 60.14666667,
+   "lon": -1.35972222
+  },
+  "island-housay": {
+   "title": "Housay",
+   "monthlyViews": 91,
+   "days": 44,
+   "lat": 60.423,
+   "lon": -0.767
+  },
+  "island-hunda": {
+   "title": "Hunda",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 58.85416667,
+   "lon": -2.9775
+  },
+  "island-isle-ristol": {
+   "title": "Isle Ristol",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 58.04416667,
+   "lon": -5.43722222
+  },
+  "island-little-bernera": {
+   "title": "Little Bernera",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 58.26527778,
+   "lon": -6.87333333
+  },
+  "island-longa-island": {
+   "title": "Longa Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 57.73166667,
+   "lon": -5.8025
+  },
+  "island-pabaigh-mor": {
+   "title": "Pabaigh Mòr",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 58.23333333,
+   "lon": -6.93333333
+  },
+  "island-ronay": {
+   "title": "Ronay",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 57.48388889,
+   "lon": -7.18111111
+  },
+  "island-seaforth-island": {
+   "title": "Seaforth Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 58.00102,
+   "lon": -6.72918
+  },
+  "island-uyea": {
+   "title": "Uyea, Unst",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 60.66666667,
+   "lon": -0.9
+  },
+  "island-vementry": {
+   "title": "Vementry",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 60.32944444,
+   "lon": -1.46305556
+  },
+  "island-calf-of-eday": {
+   "title": "Calf of Eday",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 59.23333333,
+   "lon": -2.73333333
+  },
+  "island-danna": {
+   "title": "Danna, Scotland",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.94472222,
+   "lon": -5.69083333
+  },
+  "island-dinish-island": {
+   "title": "Dinish Island",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.262,
+   "lon": -9.754
+  },
+  "island-eorsa": {
+   "title": "Eorsa",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 56.46666667,
+   "lon": -6.08833333
+  },
+  "island-fuday": {
+   "title": "Fuday",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 57.05,
+   "lon": -7.38333333
+  },
+  "island-hascosay": {
+   "title": "Hascosay",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.61666667,
+   "lon": -0.98333333
+  },
+  "island-killegray": {
+   "title": "Killegray",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 57.74,
+   "lon": -7.08166667
+  },
+  "island-lot-s-ait": {
+   "title": "Lot's Ait",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 51.48472222,
+   "lon": -0.29833333
+  },
+  "island-oilean-ruaidh": {
+   "title": "Oileán Ruaidh",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 55.18944444,
+   "lon": -7.79444444
+  },
+  "island-oldany-island": {
+   "title": "Oldany Island",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 58.25833333,
+   "lon": -5.25833333
+  },
+  "island-papa-little": {
+   "title": "Papa Little",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.33167,
+   "lon": -1.39153
+  },
+  "island-ceann-ear": {
+   "title": "Ceann Ear",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 57.52277778,
+   "lon": -7.61333333
+  },
+  "island-eilean-chaluim-chille": {
+   "title": "Eilean Chaluim Chille",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 58.105,
+   "lon": -6.43833333
+  },
+  "island-eilean-liubhaird": {
+   "title": "Eilean Liubhaird",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 58.00166667,
+   "lon": -6.43083333
+  },
+  "island-eilean-mhealasta": {
+   "title": "Eilean Mhealasta",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 58.08333333,
+   "lon": -7.13333333
+  },
+  "island-garbh-eileach": {
+   "title": "Garbh Eileach",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 56.243,
+   "lon": -5.765
+  },
+  "island-hellisay": {
+   "title": "Hellisay",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 57.01666667,
+   "lon": -7.35
+  },
+  "island-west-linga": {
+   "title": "West Linga",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 60.36805556,
+   "lon": -1.03444444
+  },
+  "island-wiay": {
+   "title": "Wiay, Inner Hebrides",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "island-foulness-island": {
+   "title": "Foulness Island",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 51.5976,
+   "lon": 0.8954
+  },
+  "island-lettermullen": {
+   "title": "Lettermullen",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 53.244,
+   "lon": -9.726
+  },
+  "island-shapinsay": {
+   "title": "Shapinsay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 59.05,
+   "lon": -2.88333333
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

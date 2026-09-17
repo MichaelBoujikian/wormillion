@@ -6042,7 +6042,53 @@ export const WIKI_TITLES = {
   "mountain-fannaraki": "Fannaråki",
   "mountain-grafelli": "Gráfelli",
   "mountain-helgafell": "Helgafell (Vestmannaeyjabær)",
-  "mountain-ok": "Ok (volcano)"
+  "mountain-ok": "Ok (volcano)",
+
+  // --- island (2026-09-14 expansion) ---
+  "island-tanera-mor": "Tanera Mòr",
+  "island-stroma": "Stroma, Scotland",
+  "island-puffin-island": "Puffin Island (Anglesey)",
+  "island-st-agnes": "St Agnes, Isles of Scilly",
+  "island-thorney-island": "Thorney Island (West Sussex)",
+  "island-deadman-s-island": "Deadman's Island (Kent)",
+  "island-berneray": "Berneray, North Uist",
+  "island-lamb": "Lamb (island)",
+  "island-mutton-island": "Mutton Island, County Galway",
+  "island-scalpay": "Scalpay, Outer Hebrides",
+  "island-monkey-island": "Monkey Island, Bray",
+  "island-mousa": "Mousa, Shetland",
+  "island-scarp": "Scarp, Scotland",
+  "island-soay": "Soay, Inner Hebrides",
+  "island-oronsay": "Oronsay, Colonsay",
+  "island-peel-island": "Peel Island, Cumbria",
+  "island-tuskar-rock": "Tuskar Rock, Ireland",
+  "island-king-s-island": "King's Island, Limerick",
+  "island-pabbay": "Pabbay, Harris",
+  "island-ram-s-island": "Ram's Island, Northern Ireland",
+  "island-ward-hill": "Ward Hill, Hoy",
+  "island-rutland-island": "Rutland Island, County Donegal",
+  "island-cava": "Cava, Orkney",
+  "island-lunga": "Lunga, Firth of Lorn",
+  "island-wyre": "Wyre, Orkney",
+  "island-carna": "Càrna",
+  "island-eagle-island": "Eagle Island, County Mayo",
+  "island-eilean-domhnuill": "Eilean Dòmhnuill",
+  "island-blackrock-island": "Blackrock Island, County Mayo",
+  "island-eilean-nan-ron": "Eilean nan Ròn",
+  "island-fara": "Fara, Orkney",
+  "island-fraoch-eilean": "Fraoch Eilean, Loch Awe",
+  "island-little-island": "Little Island, Waterford",
+  "island-boreray": "Boreray, North Uist",
+  "island-burra": "Burra, Shetland",
+  "island-ensay": "Ensay, Outer Hebrides",
+  "island-longships": "Longships, Cornwall",
+  "island-round-island-light": "Round Island Light, Isles of Scilly",
+  "island-st-mary-s-church": "St Mary's Church, St Mary's",
+  "island-eilean-subhainn": "Eilean Sùbhainn",
+  "island-pabaigh-mor": "Pabaigh Mòr",
+  "island-uyea": "Uyea, Unst",
+  "island-danna": "Danna, Scotland",
+  "island-oilean-ruaidh": "Oileán Ruaidh",
 };
 
 /**
@@ -6508,5 +6554,8 @@ export const WIKI_VERIFIED = new Set([
   "mountain-meall-a-bhuachaille",
   "mountain-sheffield-pike",
   // --- Mont d Or (Jura), no short description ---
-  "mountain-mont-d-or"
+  "mountain-mont-d-or",
+  // --- uk-islands: Foulness is an island described as a settlement; Bishop Rock is a skerry ---
+  "island-foulness-island",
+  "island-bishop-rock"
 ]);

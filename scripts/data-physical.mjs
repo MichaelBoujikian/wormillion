@@ -9395,6 +9395,234 @@ Woodward Island|7.24
 Hastings Tract|25.9
 Atlas Tract|1.46
 Moore Tract|6.23
+Rockall|0
+Eilean Donan|0
+Isle of Portland|11.5
+Gruinard Island|1.96
+Burgh Island|0.14
+Papa Stronsay|0.74
+Eel Pie Island|0.05
+Bishop Rock|0
+Foula|12.65
+Tanera Mor|3.1
+Osea Island|1.5
+North Rona|1.09
+Drake's Island|0.03
+Garnish Island|0.15
+Papa Westray|9.18
+Sula Sgeir|0.15
+Ireland's Eye|0.22
+Stroma|3.75
+Flat Holm|0.35
+Inchconnachan|0.35
+Seil|13.29
+Puffin Island|0
+Cramond Island|0.08
+Steep Holm|0.2
+Inchkeith|0.23
+Looe Island|0
+St Agnes|3.66
+Easdale|0.25
+Inch Kenneth|0.55
+Thorney Island|0
+Bere Island|17.68
+Deadman's Island|0
+Muckle Flugga|0.02
+Calf of Man|2.5
+Kerrera|12.14
+Sherkin Island|5
+Haulbowline|0.35
+Mingulay|6.4
+Berneray|10.1
+Inchgarvie|0.01
+Inishturk|6
+Piel Island|0.02
+Taransay|14.75
+Omey Island|2.17
+Great Bernera|21.22
+Lamb|0
+Bull Island|0
+Vatersay|9.6
+Fota Island|0
+Great Island|53.1
+Ramsey Island|3.2
+Whiddy Island|4.17
+Fetlar|40.78
+North Ronaldsay|6.9
+Papa Stour|8.28
+Rousay|48.6
+Inis Cealtra|0
+Stronsay|32.75
+Bressay|28.05
+Bryher|1.22
+Eday|27.45
+Inch Island|13
+South Rona|9.3
+Inchmurrin|1.2
+Inishfree|1.55
+Luing|14.3
+Whalsay|19.7
+Inchmickery|0
+Inishark|2.49
+Shuna Island|1.55
+Gola Island|0
+Heir Island|1.5
+Skokholm|1
+South Ronaldsay|49.8
+Vaila|3.27
+Boa Island|0
+Furzey Island|0
+Mutton Island|0
+Tagg's Island|0
+Cruit Island|0
+Gometra|4.25
+Scalpay|6.53
+Barra Head|2.04
+Little Cumbrae|3.13
+Monkey Island|0
+Scarba|14.74
+Handa Island|3.09
+Inchmarnock|2.66
+Mousa|1.8
+Northey Island|0
+Scarp|10.45
+Soay|10.36
+Horsey Island|0
+Scolt Head Island|0
+Wallasea Island|0
+Craigleith|0
+Flotta|8.76
+Gorumna|0
+Magna Carta Island|0
+Oronsay|5.43
+Peel Island|0
+Tuskar Rock|0
+Inishbiggle|0
+Sully Island|0
+Eriska|1.45
+Hestan Island|0
+Inishail|0
+Isle of Ewe|3.09
+King's Island|0
+Owey Island|1.21
+Pabbay|8.2
+Ram's Island|0
+Thames Ditton Island|0
+Two Tree Island|2.59
+Ward Hill|0
+Asparagus Island|0
+Egilsay|6.5
+Horsea Island|0
+Inchydoney|0
+Isle of Noss|3.43
+Rutland Island|0
+Temple Island|0
+Achillbeg|1.32
+Burray|9.03
+Caquorobert|0
+Cava|1.07
+Chapel Island|0
+Desborough Island|0
+Eilean Munde|0
+Graemsay|4.09
+Horse Isle|0
+Lunga|2.5
+St Michael's Isle|0
+St Patrick's Island|0
+West Burra|7.43
+Wyre|3.11
+Ash Island|0
+Baleshare|9.1
+Carna|2.13
+Eagle Island|0
+Eilean Domhnuill|0
+Inchgalbraith|0
+Isle Maree|0
+Muckle Roe|17.73
+Oliver's Island|0
+Ortac|0
+Raven's Ait|0
+Stanlow Island|0
+Vallay|2.6
+Ynys Dulas|0
+Alney Island|0
+Blackrock Island|0
+Burntwick Island|0
+Eilean nan Ron|1.38
+Fara|2.95
+Fraoch Eilean|0
+Gairsay|2.4
+Hinba|0
+Isleworth Ait|0
+Little Island|1.7
+Lusty Beg Island|0
+Mullion Island|0
+North Stack|0
+Pabay|1.22
+Pednathise Head|0
+Rotten Island|0
+Scariff Island|1.48
+Shenick Island|0
+South Walls|11
+Torsa|1.13
+Trowlock Island|0
+Alloa Inch|0
+Bartragh Island|1.93
+Boreray|1.98
+Burra|12.58
+Capel Island|0
+Corporation Island|0
+Dore Holm|0
+Ensay|1.86
+Fenit Island|0
+Foulney Island|0
+Fry's Island|0
+Gateholm|0
+Glover's Island|0
+Ham Island|0
+Hamhaugh Island|0
+Havergate Island|1.08
+Island Eddy|0
+Longships|0
+Neish Island|0
+Potton Island|0
+Preston Island|0
+Priest Island|1.22
+Read's Island|0
+Round Island Light|0
+Sandray|3.85
+St Margaret's Island|0
+St Mary's Church|0
+Staple Island|0
+Trondra|2.75
+Whitton Island|1.2
+East Burra|5.15
+Eilean Subhainn|1.18
+Hildasay|1.08
+Housay|1.63
+Hunda|1
+Isle Ristol|2.25
+Little Bernera|1.38
+Longa Island|1.26
+Pabaigh Mor|1.01
+Ronay|5.63
+Seaforth Island|2.73
+Uyea|2.05
+Vementry|3.7
+Calf of Eday|2.43
+Danna|3.15
+Dinish Island|0
+Eorsa|1.22
+Fuday|2.32
+Hascosay|2.75
+Killegray|1.76
+Lot's Ait|4.74
+Oilean Ruaidh|0
+Oldany Island|2
+Papa Little|2.26
+Foulness Island|0
+Lettermullen|0
+Shapinsay|29.48
 `;
 
 export const SEAS_OCEANS = `
