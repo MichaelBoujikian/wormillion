@@ -40,7 +40,9 @@ const EXPECTED = {
     // the 2026-09-16 UK + Ireland rivers scouring (scripts/expansion/reports/2026-09-16-uk-rivers.md); Lee and Avoca re-pointed
     'River Irwell', 'Weaver', 'River Coquet', 'Thame', 'Bure', 'Wensum', 'Soar', 'Yare', 'Waveney', 'Teviot', 'River Lee', 'Avoca', 'Ettrick', 'River Teith', 'Feale',
     // the 2026-09-16 Germany / Austria / Switzerland rivers scouring (reports/2026-09-16-de-rivers.md); Eder, Aller and Thur re-pointed
-    'Saar', 'Emscher', 'Erft', 'Kyll', 'Lenne', 'Bode', 'Elde', 'Wumme', 'Saalach', 'Breg', 'Eisbach', 'Vechte', 'Werre', 'Eder', 'Aller', 'Thur', 'Zwickauer Mulde', 'Franconian Saale'],
+    'Saar', 'Emscher', 'Erft', 'Kyll', 'Lenne', 'Bode', 'Elde', 'Wumme', 'Saalach', 'Breg', 'Eisbach', 'Vechte', 'Werre', 'Eder', 'Aller', 'Thur', 'Zwickauer Mulde', 'Franconian Saale',
+    // the 2026-09-16 France / Belgium / Netherlands rivers scouring (reports/2026-09-16-fr-rivers.md); Orne re-pointed to Normandy's
+    'Epte', 'Meurthe', 'Odet', 'Huisne', 'Serein', 'Risle', 'Sioule', 'Gartempe', 'Drome', 'Douve', 'Clain', 'Orne', 'Sevre Nantaise', 'Touques', 'Deule'],
   mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna',
     // the 2026-09-14 expansion
     'Mount Rushmore', 'Devils Tower', 'Kilauea', 'Mount Adams', 'Fitz Roy', 'Torres del Paine', 'Cradle Mountain', 'Mount Aspiring', 'Popocatepetl', 'Arenal', 'Monch', 'Nanda Devi', 'Rakaposhi', 'Sakurajima', 'Mount Kailash', 'Tryfan', 'Croagh Patrick', 'Nyiragongo', 'Hekla', 'Eyjafjallajokull', 'Mount Meru',

@@ -4,9 +4,12 @@
   "jsonFile": "rivers.json",
   "roots": [
     "Category:Rivers of France",
+    "Category:Rivers of France by region",
     "Category:Rivers of France by department",
+    "Category:Rivers of Metropolitan France",
     "Category:Rivers of Belgium",
     "Category:Rivers of Belgium by province",
+    "Category:Rivers of Belgium by region",
     "Category:Rivers of the Netherlands",
     "Category:Rivers of the Netherlands by province",
     "Category:Rivers of Andorra",
@@ -18,7 +21,12 @@
     "List of rivers of Belgium",
     "List of rivers of the Netherlands",
     "List of rivers of Andorra",
-    "List of rivers of Luxembourg"
+    "List of rivers of Luxembourg",
+    "List of rivers of France by length",
+    "List of longest rivers of France",
+    "List of rivers of Brittany",
+    "List of rivers of Normandy",
+    "List of rivers of Corsica"
   ],
   "kind": "(river|tributary|stream|creek|brook|watercourse|torrent|\\bfork\\b|\\bbranch\\b)",
   "skipTitle": "(^List of|^Lists of|^Geography of|^Rivers of|^Tributaries|^River regulation|^Longest rivers|crossings|River basin$|Watershed$|Valley$|Vale$|Dale$|Glen$|Gorge$|Falls$|Dam$|Reservoir$|Lake$|Bridge$|Aqueduct$|Canal$|Kanal$|Navigation$|Trail$|Path$|Park$|Forest$|Estuary$|Delta$|Weir$|Lock$|Cut$|Drain$|Dyke$|Dike$|Sewer$|Culvert$|Mill$|Way$|Walk$|Railway|Station$|Harbour$|Harbor$|Docks?$|Basin$|Talsperre$|Stausee$|Schleuse|Wasserfall$|Klamm$|Bahn$|Hydroelectric|Power Station$|Power Plant$)",

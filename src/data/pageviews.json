@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T03:15:39.804Z",
+ "fetched": "2026-09-17T03:54:35.694Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -35306,11 +35306,11 @@
    "lon": -1.12027778
   },
   "river-orne": {
-   "title": "Orne (Moselle)",
-   "monthlyViews": 61,
-   "days": 59,
-   "lat": 49.2875,
-   "lon": 6.18194444
+   "title": "Orne (Normandy)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 49.27833333,
+   "lon": -0.22611111
   },
   "river-eure": {
    "title": "Eure (river)",
@@ -57088,6 +57088,1406 @@
    "days": 55,
    "lat": 49.4991,
    "lon": 12.1772
+  },
+  "river-epte": {
+   "title": "Epte",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 49.06111111,
+   "lon": 1.52833333
+  },
+  "river-douve": {
+   "title": "Douve",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 49.35888889,
+   "lon": -1.16944444
+  },
+  "river-meurthe": {
+   "title": "Meurthe (river)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 48.78,
+   "lon": 6.14138889
+  },
+  "river-odet": {
+   "title": "Odet",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 47.8625,
+   "lon": -4.1025
+  },
+  "river-deule": {
+   "title": "Deûle",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 50.73111111,
+   "lon": 2.94472222
+  },
+  "river-drome": {
+   "title": "Drôme (river)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.77083333,
+   "lon": 4.76277778
+  },
+  "river-huisne": {
+   "title": "Huisne",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.99055556,
+   "lon": 0.18027778
+  },
+  "river-linge": {
+   "title": "Linge",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.83333333,
+   "lon": 4.98333333
+  },
+  "river-serein": {
+   "title": "Serein",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.9225,
+   "lon": 3.525
+  },
+  "river-dives": {
+   "title": "Dives (river)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.29722222,
+   "lon": -0.08722222
+  },
+  "river-sevre-nantaise": {
+   "title": "Sèvre Nantaise",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.19611111,
+   "lon": -1.54694444
+  },
+  "river-vesle": {
+   "title": "Vesle",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.39277778,
+   "lon": 3.46861111
+  },
+  "river-authie": {
+   "title": "Authie (river)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.39166667,
+   "lon": 1.56111111
+  },
+  "river-clain": {
+   "title": "Clain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.78111111,
+   "lon": 0.54055556
+  },
+  "river-erdre": {
+   "title": "Erdre",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.21166667,
+   "lon": -1.53944444
+  },
+  "river-haine": {
+   "title": "Haine",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.43805556,
+   "lon": 3.59416667
+  },
+  "river-ouche": {
+   "title": "Ouche",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.10305556,
+   "lon": 5.28416667
+  },
+  "river-risle": {
+   "title": "Risle",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.43861111,
+   "lon": 0.3725
+  },
+  "river-seille": {
+   "title": "Seille (Moselle)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.12555556,
+   "lon": 6.18555556
+  },
+  "river-sienne": {
+   "title": "Sienne (river)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.0061,
+   "lon": -1.5681
+  },
+  "river-sevre-niortaise": {
+   "title": "Sèvre Niortaise",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.30972222,
+   "lon": -1.12916667
+  },
+  "river-arize": {
+   "title": "Arize",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 43.28861111,
+   "lon": 1.22583333
+  },
+  "river-aure": {
+   "title": "Aure (river)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 49.32527778,
+   "lon": -1.1125
+  },
+  "river-bresle": {
+   "title": "Bresle (river)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.06277778,
+   "lon": 1.37111111
+  },
+  "river-calavon": {
+   "title": "Calavon",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 43.85527778,
+   "lon": 4.98777778
+  },
+  "river-fier": {
+   "title": "Fier (river)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 45.93916667,
+   "lon": 5.83194444
+  },
+  "river-golo": {
+   "title": "Golo (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 42.52305556,
+   "lon": 9.53472222
+  },
+  "river-iton": {
+   "title": "Iton",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 49.17472222,
+   "lon": 1.18638889
+  },
+  "river-layon": {
+   "title": "Layon",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 47.35055556,
+   "lon": -0.75444444
+  },
+  "river-luy": {
+   "title": "Luy",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 43.66,
+   "lon": -1.14
+  },
+  "river-mark": {
+   "title": "Mark (Dintel)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 51.6587,
+   "lon": 4.3689
+  },
+  "river-oust": {
+   "title": "Oust",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 47.63055556,
+   "lon": -2.09694444
+  },
+  "river-sioule": {
+   "title": "Sioule",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 46.36583333,
+   "lon": 3.31972222
+  },
+  "river-selune": {
+   "title": "Sélune",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 48.6475,
+   "lon": -1.39805556
+  },
+  "river-tech": {
+   "title": "Tech (river)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 42.59,
+   "lon": 3.04527778
+  },
+  "river-touques": {
+   "title": "Touques (river)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 49.36722222,
+   "lon": 0.07416667
+  },
+  "river-ubaye": {
+   "title": "Ubaye",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 44.47527778,
+   "lon": 6.29777778
+  },
+  "river-aigues": {
+   "title": "Aigues",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 44.0884,
+   "lon": 4.7369
+  },
+  "river-ailette": {
+   "title": "Ailette (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 49.57777778,
+   "lon": 3.16138889
+  },
+  "river-anglin": {
+   "title": "Anglin",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.70416667,
+   "lon": 0.86583333
+  },
+  "river-armancon": {
+   "title": "Armançon",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 47.95222222,
+   "lon": 3.50833333
+  },
+  "river-arnon": {
+   "title": "Arnon (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 47.21694444,
+   "lon": 2.01166667
+  },
+  "river-bruche": {
+   "title": "Bruche (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.568,
+   "lon": 7.713
+  },
+  "river-chassezac": {
+   "title": "Chassezac",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 44.4275,
+   "lon": 4.32
+  },
+  "river-ciron": {
+   "title": "Ciron",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 44.60083333,
+   "lon": -0.30138889
+  },
+  "river-cosson": {
+   "title": "Cosson",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 47.49472222,
+   "lon": 1.25083333
+  },
+  "river-dourdou-de-conques": {
+   "title": "Dourdou de Conques",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 44.6357,
+   "lon": 2.3532
+  },
+  "river-dropt": {
+   "title": "Dropt",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 44.58277778,
+   "lon": -0.10972222
+  },
+  "river-gartempe": {
+   "title": "Gartempe",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.78416667,
+   "lon": 0.83
+  },
+  "river-grand-morin": {
+   "title": "Grand Morin",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.90027778,
+   "lon": 2.83055556
+  },
+  "river-grosne": {
+   "title": "Grosne (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 46.69944444,
+   "lon": 4.93694444
+  },
+  "river-louge": {
+   "title": "Louge",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 43.46194444,
+   "lon": 1.33277778
+  },
+  "river-madon": {
+   "title": "Madon",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.60583333,
+   "lon": 6.10305556
+  },
+  "river-meu": {
+   "title": "Meu",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.03166667,
+   "lon": -1.77666667
+  },
+  "river-moder": {
+   "title": "Moder (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.83694444,
+   "lon": 8.10333333
+  },
+  "river-neste": {
+   "title": "Neste (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 43.07527778,
+   "lon": 0.56583333
+  },
+  "river-orbieu": {
+   "title": "Orbieu",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 43.23305556,
+   "lon": 2.9
+  },
+  "river-ource": {
+   "title": "Ource",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.09611111,
+   "lon": 4.38083333
+  },
+  "river-ouveze": {
+   "title": "Ouvèze",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.98972222,
+   "lon": 4.8525
+  },
+  "river-petit-morin": {
+   "title": "Petit Morin",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 48.94388889,
+   "lon": 3.12222222
+  },
+  "river-scorff": {
+   "title": "Scorff",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 47.74166667,
+   "lon": -3.34833333
+  },
+  "river-thouet": {
+   "title": "Thouet",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 47.27972222,
+   "lon": -0.11055556
+  },
+  "river-therain": {
+   "title": "Thérain",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 49.24083333,
+   "lon": 2.45027778
+  },
+  "river-tinee": {
+   "title": "Tinée",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.91166667,
+   "lon": 7.18527778
+  },
+  "river-trieux": {
+   "title": "Trieux (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.82277778,
+   "lon": -3.07194444
+  },
+  "river-vendee": {
+   "title": "Vendée (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.3225,
+   "lon": -0.96305556
+  },
+  "river-vidourle": {
+   "title": "Vidourle",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 43.53555556,
+   "lon": 4.13416667
+  },
+  "river-vingeanne": {
+   "title": "Vingeanne",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 47.355938,
+   "lon": 5.488144
+  },
+  "river-yevre": {
+   "title": "Yèvre (Cher)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 47.21916667,
+   "lon": 2.05972222
+  },
+  "river-aff": {
+   "title": "Aff (river)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 47.71694444,
+   "lon": -2.12722222
+  },
+  "river-agly": {
+   "title": "Agly",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 42.77888889,
+   "lon": 3.03888889
+  },
+  "river-arconce": {
+   "title": "Arconce",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 46.44416667,
+   "lon": 4.00472222
+  },
+  "river-argenton": {
+   "title": "Argenton (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.09277778,
+   "lon": -0.20416667
+  },
+  "river-aron": {
+   "title": "Aron (Loire)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 46.83666667,
+   "lon": 3.4525
+  },
+  "river-arros": {
+   "title": "Arros (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.66222222,
+   "lon": -0.02805556
+  },
+  "river-arroux": {
+   "title": "Arroux",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.49,
+   "lon": 3.95916667
+  },
+  "river-arz": {
+   "title": "Arz (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.65583333,
+   "lon": -2.11111111
+  },
+  "river-asse": {
+   "title": "Asse (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.87444444,
+   "lon": 5.87861111
+  },
+  "river-aujon": {
+   "title": "Aujon",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.15555556,
+   "lon": 4.79722222
+  },
+  "river-auron": {
+   "title": "Auron (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.08555556,
+   "lon": 2.38388889
+  },
+  "river-auroue": {
+   "title": "Auroue",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 44.13861111,
+   "lon": 0.76305556
+  },
+  "river-authion": {
+   "title": "Authion",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.4213,
+   "lon": -0.5525
+  },
+  "river-auvezere": {
+   "title": "Auvézère",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 45.19527778,
+   "lon": 0.84027778
+  },
+  "river-avre": {
+   "title": "Avre (Eure)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.78083333,
+   "lon": 1.375
+  },
+  "river-azergues": {
+   "title": "Azergues",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 45.94166667,
+   "lon": 4.72916667
+  },
+  "river-bandiat": {
+   "title": "Bandiat",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.77805556,
+   "lon": 0.33916667
+  },
+  "river-bar": {
+   "title": "Bar (Ardennes river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.69694444,
+   "lon": 4.84083333
+  },
+  "river-benaize": {
+   "title": "Benaize",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.57388889,
+   "lon": 1.06833333
+  },
+  "river-besbre": {
+   "title": "Besbre",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.55277778,
+   "lon": 3.73166667
+  },
+  "river-beuvron": {
+   "title": "Beuvron (Loire)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 47.49394,
+   "lon": 1.24014
+  },
+  "river-bidouze": {
+   "title": "Bidouze",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.53111111,
+   "lon": -1.21333333
+  },
+  "river-bienne": {
+   "title": "Bienne (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.3329,
+   "lon": 5.6372
+  },
+  "river-blaise": {
+   "title": "Blaise (Marne)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 48.62805556,
+   "lon": 4.69777778
+  },
+  "river-bleone": {
+   "title": "Bléone",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 44.0525,
+   "lon": 5.99666667
+  },
+  "river-bouble": {
+   "title": "Bouble",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 46.28388889,
+   "lon": 3.27444444
+  },
+  "river-boulogne": {
+   "title": "Boulogne (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.077,
+   "lon": -1.675
+  },
+  "river-bourbince": {
+   "title": "Bourbince",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 46.50055556,
+   "lon": 3.98305556
+  },
+  "river-bourbre": {
+   "title": "Bourbre",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 45.77361111,
+   "lon": 5.1875
+  },
+  "river-boutonne": {
+   "title": "Boutonne",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.90888889,
+   "lon": -0.82638889
+  },
+  "river-bouzanne": {
+   "title": "Bouzanne",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.62583333,
+   "lon": 1.46416667
+  },
+  "river-brame": {
+   "title": "Brame",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.27583333,
+   "lon": 0.93583333
+  },
+  "river-braye": {
+   "title": "Braye (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 47.76583333,
+   "lon": 0.68333333
+  },
+  "river-brenne": {
+   "title": "Brenne (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.6439,
+   "lon": 4.276
+  },
+  "river-buech": {
+   "title": "Buëch",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 44.20138889,
+   "lon": 5.94305556
+  },
+  "river-bethune": {
+   "title": "Béthune (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 49.89138889,
+   "lon": 1.13083333
+  },
+  "river-charentonne": {
+   "title": "Charentonne",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 49.12388889,
+   "lon": 0.72694444
+  },
+  "river-chere": {
+   "title": "Chère",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 47.70694444,
+   "lon": -1.83694444
+  },
+  "river-cisse": {
+   "title": "Cisse (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 47.4106,
+   "lon": 0.7825
+  },
+  "river-clouere": {
+   "title": "Clouère",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.43833333,
+   "lon": 0.28583333
+  },
+  "river-cure": {
+   "title": "Cure (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.67527778,
+   "lon": 3.68861111
+  },
+  "river-cere": {
+   "title": "Cère",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.90916667,
+   "lon": 1.8125
+  },
+  "river-cerou": {
+   "title": "Cérou",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 44.13916667,
+   "lon": 1.87555556
+  },
+  "river-dadou": {
+   "title": "Dadou",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.73638889,
+   "lon": 1.79
+  },
+  "river-dheune": {
+   "title": "Dheune",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 46.907,
+   "lon": 5.0075
+  },
+  "river-dive": {
+   "title": "Dive (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.18805556,
+   "lon": 0.08277778
+  },
+  "river-dore": {
+   "title": "Dore (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.00944444,
+   "lon": 3.47388889
+  },
+  "river-dourbie": {
+   "title": "Dourbie",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.101,
+   "lon": 3.0868
+  },
+  "river-dourdou-de-camares": {
+   "title": "Dourdou de Camarès",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 43.99638889,
+   "lon": 2.68472222
+  },
+  "river-doux": {
+   "title": "Doux (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 45.0729,
+   "lon": 4.8292
+  },
+  "river-douze": {
+   "title": "Douze",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.89138889,
+   "lon": -0.5025
+  },
+  "river-ernee": {
+   "title": "Ernée (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.1225,
+   "lon": -0.75388889
+  },
+  "river-esteron": {
+   "title": "Estéron",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.81888889,
+   "lon": 7.18555556
+  },
+  "river-eyrieux": {
+   "title": "Eyrieux",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.80694444,
+   "lon": 4.80083333
+  },
+  "river-gabas": {
+   "title": "Gabas (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 43.76138889,
+   "lon": -0.7025
+  },
+  "river-gardon-d-ales": {
+   "title": "Gardon d'Alès",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 44.0328,
+   "lon": 4.1325
+  },
+  "river-gimone": {
+   "title": "Gimone",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 44.01333333,
+   "lon": 1.10527778
+  },
+  "river-gelise": {
+   "title": "Gélise",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 44.17916667,
+   "lon": 0.28833333
+  },
+  "river-helpe-majeure": {
+   "title": "Helpe Majeure",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.1725,
+   "lon": 3.7962
+  },
+  "river-hers-mort": {
+   "title": "Hers-Mort",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.77444444,
+   "lon": 1.32694444
+  },
+  "river-hers-vif": {
+   "title": "Hers-Vif",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.30583333,
+   "lon": 1.5525
+  },
+  "river-indrois": {
+   "title": "Indrois",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 47.21027778,
+   "lon": 0.94694444
+  },
+  "river-lanterne": {
+   "title": "Lanterne (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.7967,
+   "lon": 6.53667
+  },
+  "river-lay": {
+   "title": "Lay (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 46.32055556,
+   "lon": -1.30277778
+  },
+  "river-lignon-du-velay": {
+   "title": "Lignon du Velay",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 45.25861111,
+   "lon": 4.145
+  },
+  "river-lizonne": {
+   "title": "Lizonne",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 45.28944444,
+   "lon": 0.2525
+  },
+  "river-louts": {
+   "title": "Louts",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.74083333,
+   "lon": -0.93361111
+  },
+  "river-luy-de-bearn": {
+   "title": "Luy de Béarn",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 43.63055556,
+   "lon": -0.77
+  },
+  "river-leze": {
+   "title": "Lèze",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.46333333,
+   "lon": 1.41861111
+  },
+  "river-maronne": {
+   "title": "Maronne",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 45.0725,
+   "lon": 1.9275
+  },
+  "river-mortagne": {
+   "title": "Mortagne (river)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 48.55694444,
+   "lon": 6.44694444
+  },
+  "river-mouzon": {
+   "title": "Mouzon (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.355,
+   "lon": 5.6847
+  },
+  "river-ninian": {
+   "title": "Ninian (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.888,
+   "lon": -2.4365
+  },
+  "river-ornain": {
+   "title": "Ornain",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.76861111,
+   "lon": 4.80416667
+  },
+  "river-osse": {
+   "title": "Osse (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.12083333,
+   "lon": 0.28027778
+  },
+  "river-othain": {
+   "title": "Othain",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.52055556,
+   "lon": 5.38166667
+  },
+  "river-ouanne": {
+   "title": "Ouanne (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.95333333,
+   "lon": 2.78055556
+  },
+  "river-oudon": {
+   "title": "Oudon (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.6162,
+   "lon": -0.6945
+  },
+  "river-petite-creuse": {
+   "title": "Petite Creuse",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 46.38722222,
+   "lon": 1.67138889
+  },
+  "river-reyssouze": {
+   "title": "Reyssouze (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 46.4425,
+   "lon": 4.89444444
+  },
+  "river-salat": {
+   "title": "Salat (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.16111111,
+   "lon": 0.96611111
+  },
+  "river-sauldre": {
+   "title": "Sauldre",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.27305556,
+   "lon": 1.51194444
+  },
+  "river-saulx": {
+   "title": "Saulx (river)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 48.74277778,
+   "lon": 4.58166667
+  },
+  "river-serre": {
+   "title": "Serre (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.67805556,
+   "lon": 3.39194444
+  },
+  "river-seudre": {
+   "title": "Seudre",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.80138889,
+   "lon": -1.1425
+  },
+  "river-seugne": {
+   "title": "Seugne",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 45.70638889,
+   "lon": -0.54611111
+  },
+  "river-seulles": {
+   "title": "Seulles",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 49.3375,
+   "lon": -0.4569
+  },
+  "river-suippe": {
+   "title": "Suippe",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.42472222,
+   "lon": 3.94944444
+  },
+  "river-see": {
+   "title": "Sée",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.66666667,
+   "lon": -1.40861111
+  },
+  "river-seoune": {
+   "title": "Séoune",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.1619,
+   "lon": 0.6725
+  },
+  "river-taravo": {
+   "title": "Taravo",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 41.70777778,
+   "lon": 8.82805556
+  },
+  "river-tardes": {
+   "title": "Tardes (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 46.2375,
+   "lon": 2.51333333
+  },
+  "river-tardoire": {
+   "title": "Tardoire",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.8625,
+   "lon": 0.24194444
+  },
+  "river-taurion": {
+   "title": "Taurion",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.88416667,
+   "lon": 1.39444444
+  },
+  "river-tavignano": {
+   "title": "Tavignano",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 42.10361111,
+   "lon": 9.54888889
+  },
+  "river-thore": {
+   "title": "Thoré",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 43.58111111,
+   "lon": 2.21777778
+  },
+  "river-tille": {
+   "title": "Tille (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 47.12638889,
+   "lon": 5.34583333
+  },
+  "river-touch": {
+   "title": "Touch (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.62277778,
+   "lon": 1.40027778
+  },
+  "river-varenne": {
+   "title": "Varenne (Mayenne)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 48.3868,
+   "lon": -0.6107
+  },
+  "river-veyle": {
+   "title": "Veyle",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.26083333,
+   "lon": 4.83777778
+  },
+  "river-vezouze": {
+   "title": "Vezouze",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 48.58138889,
+   "lon": 6.94583333
+  },
+  "river-viaur": {
+   "title": "Viaur",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.14416667,
+   "lon": 1.96694444
+  },
+  "river-vie": {
+   "title": "Vie (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.6964,
+   "lon": -1.9481
+  },
+  "river-yerres": {
+   "title": "Yerres (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.7267,
+   "lon": 2.4427
+  },
+  "river-zorn": {
+   "title": "Zorn (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.565,
+   "lon": 7.2225
+  },
+  "river-evre": {
+   "title": "Èvre",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.36361111,
+   "lon": -1.03333333
+  },
+  "river-alagnon": {
+   "title": "Alagnon",
+   "monthlyViews": 29,
+   "days": 57,
+   "lat": 45.45138889,
+   "lon": 3.30388889
+  },
+  "river-claise": {
+   "title": "Claise",
+   "monthlyViews": 28,
+   "days": 57,
+   "lat": 46.9417,
+   "lon": 0.7051
+  },
+  "river-petite-baise": {
+   "title": "Petite Baïse",
+   "monthlyViews": 25,
+   "days": 55,
+   "lat": 43.58777778,
+   "lon": 0.41111111
+  },
+  "river-acolin": {
+   "title": "Acolin",
+   "monthlyViews": 22,
+   "days": 60,
+   "lat": 46.82805556,
+   "lon": 3.36388889
+  },
+  "river-arrats": {
+   "title": "Arrats",
+   "monthlyViews": 22,
+   "days": 59,
+   "lat": 44.095,
+   "lon": 0.84666667
+  },
+  "river-barguelonne": {
+   "title": "Barguelonne",
+   "monthlyViews": 22,
+   "days": 56,
+   "lat": 44.11805556,
+   "lon": 0.83611111
+  },
+  "river-moine": {
+   "title": "Moine (river)",
+   "monthlyViews": 22,
+   "days": 56,
+   "lat": 47.0861,
+   "lon": -1.2785
+  },
+  "river-orneau": {
+   "title": "Orneau",
+   "monthlyViews": 22,
+   "days": 52,
+   "lat": 50.44942,
+   "lon": 4.67905
+  },
+  "river-senouire": {
+   "title": "Senouire",
+   "monthlyViews": 22,
+   "days": 59,
+   "lat": 45.27722222,
+   "lon": 3.40861111
+  },
+  "river-luzege": {
+   "title": "Luzège",
+   "monthlyViews": 21,
+   "days": 56,
+   "lat": 45.22666667,
+   "lon": 2.14027778
+  },
+  "river-seiche": {
+   "title": "Seiche (river)",
+   "monthlyViews": 21,
+   "days": 44,
+   "lat": 47.9974,
+   "lon": -1.7554
+  },
+  "river-semnon": {
+   "title": "Semnon",
+   "monthlyViews": 21,
+   "days": 60,
+   "lat": 47.89972222,
+   "lon": -1.75694444
+  },
+  "river-aubetin": {
+   "title": "Aubetin",
+   "monthlyViews": 20,
+   "days": 59,
+   "lat": 48.81555556,
+   "lon": 3.00722222
+  },
+  "river-vair": {
+   "title": "Vair (river)",
+   "monthlyViews": 20,
+   "days": 57,
+   "lat": 48.4494,
+   "lon": 5.6935
+  },
+  "river-grande-sauldre": {
+   "title": "Grande Sauldre",
+   "monthlyViews": 19,
+   "days": 44,
+   "lat": 47.451,
+   "lon": 2.0814
+  },
+  "river-petite-maine": {
+   "title": "Petite Maine",
+   "monthlyViews": 19,
+   "days": 56,
+   "lat": 47.1524,
+   "lon": -1.4449
+  },
+  "river-solnan": {
+   "title": "Solnan",
+   "monthlyViews": 19,
+   "days": 57,
+   "lat": 46.62916667,
+   "lon": 5.21805556
+  },
+  "river-chee": {
+   "title": "Chée",
+   "monthlyViews": 17,
+   "days": 56,
+   "lat": 48.75222222,
+   "lon": 4.64638889
+  },
+  "river-leff": {
+   "title": "Leff (river)",
+   "monthlyViews": 16,
+   "days": 48,
+   "lat": 48.7271,
+   "lon": -3.1322
+  },
+  "river-auzoue": {
+   "title": "Auzoue",
+   "monthlyViews": 15,
+   "days": 56,
+   "lat": 44.05611111,
+   "lon": 0.24638889
+  },
+  "river-rognon": {
+   "title": "Rognon (Marne)",
+   "monthlyViews": 15,
+   "days": 41,
+   "lat": 48.3757,
+   "lon": 5.1614
+  },
+  "river-boues": {
+   "title": "Bouès",
+   "monthlyViews": 14,
+   "days": 56,
+   "lat": 43.56472222,
+   "lon": 0.09722222
+  },
+  "river-vegre": {
+   "title": "Vègre",
+   "monthlyViews": 14,
+   "days": 57,
+   "lat": 47.84805556,
+   "lon": -0.2425
+  },
+  "river-petite-sauldre": {
+   "title": "Petite Sauldre",
+   "monthlyViews": 13,
+   "days": 59,
+   "lat": 47.451,
+   "lon": 2.0814
+  },
+  "river-echez": {
+   "title": "Échez",
+   "monthlyViews": 11,
+   "days": 58,
+   "lat": 43.47361111,
+   "lon": 0.03138889
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",
