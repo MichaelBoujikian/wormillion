@@ -119,6 +119,18 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- Muuratsalo is in Lake Paijanne ---
+  'island-muuratsalo': [],
+
+  // --- nordic-islands 2026-09-17: lake islands (Malaren, Vanern, Vattern, Saimaa, Paijanne, Mjosa...) are in no ocean; two without coordinates placed by hand ---
+  'island-nekselo': ['Atlantic'],
+  'island-ostoya': ['Atlantic'],
+  'island-froson': [],
+  'island-adelso': [],
+  'island-kallandso': [],
+  'island-kungsholmen': [],
+  'island-kungshatt': [],
+
   // --- Dragonera (Mallorca) has no page coordinate ---
   'island-dragonera': ['Atlantic'],
 

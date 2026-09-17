@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T12:13:45.980Z",
+ "fetched": "2026-09-17T12:51:02.696Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -93096,6 +93096,1805 @@
    "days": 60,
    "lat": 38.98897,
    "lon": 1.21141
+  },
+  "island-utoya": {
+   "title": "Utøya",
+   "monthlyViews": 9528,
+   "days": 60,
+   "lat": 60.02361111,
+   "lon": 10.24805556
+  },
+  "island-surtsey": {
+   "title": "Surtsey",
+   "monthlyViews": 7123,
+   "days": 60,
+   "lat": 63.303,
+   "lon": -20.605
+  },
+  "island-faro": {
+   "title": "Fårö",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 57.95,
+   "lon": 19.15
+  },
+  "island-market": {
+   "title": "Märket",
+   "monthlyViews": 3348,
+   "days": 60,
+   "lat": 60.30083333,
+   "lon": 19.13138889
+  },
+  "island-mors": {
+   "title": "Mors (island)",
+   "monthlyViews": 3318,
+   "days": 60,
+   "lat": 56.78333333,
+   "lon": 8.71666667
+  },
+  "island-ellidaey": {
+   "title": "Elliðaey",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 63.46527778,
+   "lon": -20.175
+  },
+  "island-heimaey": {
+   "title": "Heimaey",
+   "monthlyViews": 3166,
+   "days": 60,
+   "lat": 63.43333333,
+   "lon": -20.26666667
+  },
+  "island-grimsey": {
+   "title": "Grímsey",
+   "monthlyViews": 2892,
+   "days": 60,
+   "lat": 66.55,
+   "lon": -18
+  },
+  "island-north-jutlandic-island": {
+   "title": "North Jutlandic Island",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 57.1,
+   "lon": 9.5
+  },
+  "island-kvitoya": {
+   "title": "Kvitøya",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 80.15138889,
+   "lon": 32.59361111
+  },
+  "island-saltholm": {
+   "title": "Saltholm",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 55.63333333,
+   "lon": 12.76666667
+  },
+  "island-peberholm": {
+   "title": "Peberholm",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 55.6,
+   "lon": 12.75
+  },
+  "island-videy": {
+   "title": "Viðey",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 64.16666667,
+   "lon": -21.86666667
+  },
+  "island-kolbeinsey": {
+   "title": "Kolbeinsey",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 67.15055556,
+   "lon": -18.68361111
+  },
+  "island-sprogo": {
+   "title": "Sprogø",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 55.33333333,
+   "lon": 10.96666667
+  },
+  "island-riddarholmen": {
+   "title": "Riddarholmen",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 59.325,
+   "lon": 18.06305556
+  },
+  "island-saaminginsalo": {
+   "title": "Sääminginsalo",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 62,
+   "lon": 29
+  },
+  "island-edgeoya": {
+   "title": "Edgeøya",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 77.75,
+   "lon": 22.5
+  },
+  "island-soisalo": {
+   "title": "Soisalo",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 62.38333333,
+   "lon": 28.21666667
+  },
+  "island-soroya": {
+   "title": "Sørøya",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 70.58333333,
+   "lon": 22.73333333
+  },
+  "island-helgeandsholmen": {
+   "title": "Helgeandsholmen",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 59.32777778,
+   "lon": 18.06972222
+  },
+  "island-ingaro": {
+   "title": "Ingarö",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 59.26666667,
+   "lon": 18.46666667
+  },
+  "island-lauttasaari": {
+   "title": "Lauttasaari",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 60.16,
+   "lon": 24.87
+  },
+  "island-moskenesoya": {
+   "title": "Moskenesøya",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 67.98333333,
+   "lon": 13
+  },
+  "island-mando": {
+   "title": "Mandø",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 55.28055556,
+   "lon": 8.55277778
+  },
+  "island-pellinki": {
+   "title": "Pellinki",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 60.21666667,
+   "lon": 25.86666667
+  },
+  "island-stadsholmen": {
+   "title": "Stadsholmen",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 59.32472222,
+   "lon": 18.07111111
+  },
+  "island-utsira": {
+   "title": "Utsira (island)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 59.30812,
+   "lon": 4.88839
+  },
+  "island-jussaro": {
+   "title": "Jussarö",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 59.82666667,
+   "lon": 23.56833333
+  },
+  "island-vagsoy": {
+   "title": "Vågsøy (island)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 61.9693,
+   "lon": 5.0832
+  },
+  "island-barentsoya": {
+   "title": "Barentsøya",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 78.41666667,
+   "lon": 21.45
+  },
+  "island-lovund": {
+   "title": "Lovund",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 66.3641,
+   "lon": 12.3372
+  },
+  "island-vallisaari": {
+   "title": "Vallisaari",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 60.137,
+   "lon": 25.002
+  },
+  "island-varmdo": {
+   "title": "Värmdö (island)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 59.31666667,
+   "lon": 18.51666667
+  },
+  "island-austvagoya": {
+   "title": "Austvågøya",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 68.2447,
+   "lon": 14.4882
+  },
+  "island-flakstadoya": {
+   "title": "Flakstadøya",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 68.067,
+   "lon": 13.2988
+  },
+  "island-froson": {
+   "title": "Frösön",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 63.19166667,
+   "lon": 14.54166667
+  },
+  "island-hakoya": {
+   "title": "Håkøya",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 69.6544,
+   "lon": 18.793
+  },
+  "island-lovon": {
+   "title": "Lovön",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 59.325,
+   "lon": 17.845
+  },
+  "island-tasinge": {
+   "title": "Tåsinge",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 55,
+   "lon": 10.6
+  },
+  "island-vaeroya": {
+   "title": "Værøya",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 67.6778,
+   "lon": 12.664
+  },
+  "island-adelso": {
+   "title": "Adelsö",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 59.38083333,
+   "lon": 17.49611111
+  },
+  "island-danes-island": {
+   "title": "Danes Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 79.66666667,
+   "lon": 10.9
+  },
+  "island-outline-of-iceland": {
+   "title": "Outline of Iceland",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-papey": {
+   "title": "Papey",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 64.59166667,
+   "lon": -14.16666667
+  },
+  "island-tromoya": {
+   "title": "Tromøya",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 58.46171,
+   "lon": 8.84683
+  },
+  "island-geirfuglasker": {
+   "title": "Geirfuglasker",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 63.669535,
+   "lon": -23.285
+  },
+  "island-ljustero": {
+   "title": "Ljusterö",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 59.52583333,
+   "lon": 18.62361111
+  },
+  "island-replot": {
+   "title": "Replot",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 63.25,
+   "lon": 21.4
+  },
+  "island-rindo": {
+   "title": "Rindö",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 59.4,
+   "lon": 18.4
+  },
+  "island-stromsborg": {
+   "title": "Strömsborg",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 59.32694444,
+   "lon": 18.06277778
+  },
+  "island-vardoya": {
+   "title": "Vardøya",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 70.3754,
+   "lon": 31.1205
+  },
+  "island-bogo": {
+   "title": "Bogø",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 54.93333333,
+   "lon": 12.03333333
+  },
+  "island-flatey": {
+   "title": "Flatey, Skjálfandi",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 66.165,
+   "lon": -17.85972222
+  },
+  "island-hano": {
+   "title": "Hanö",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 56.00833333,
+   "lon": 14.84583333
+  },
+  "island-kokkosaari": {
+   "title": "Kokkosaari",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 61.98666667,
+   "lon": 29.21666667
+  },
+  "island-langoya": {
+   "title": "Langøya",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 68.622,
+   "lon": 14.9407
+  },
+  "island-langoyene": {
+   "title": "Langøyene",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 59.87111111,
+   "lon": 10.72083333
+  },
+  "island-lilla-karlso": {
+   "title": "Lilla Karlsö",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 57.31277778,
+   "lon": 18.06305556
+  },
+  "island-mosken": {
+   "title": "Mosken",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 67.7458,
+   "lon": 12.7554
+  },
+  "island-moster": {
+   "title": "Moster (island)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 59.70551,
+   "lon": 5.3575
+  },
+  "island-nyord": {
+   "title": "Nyord",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 55.05,
+   "lon": 12.21666667
+  },
+  "island-orno": {
+   "title": "Ornö",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 59.05,
+   "lon": 18.4
+  },
+  "island-osteroy": {
+   "title": "Osterøy (island)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 60.535,
+   "lon": 5.5644
+  },
+  "island-tuno": {
+   "title": "Tunø",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 55.95241667,
+   "lon": 10.42905556
+  },
+  "island-tysnesoya": {
+   "title": "Tysnesøya",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 59.9759,
+   "lon": 5.4457
+  },
+  "island-vestvagoya": {
+   "title": "Vestvågøya",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 68.2114,
+   "lon": 13.5566
+  },
+  "island-bastoy": {
+   "title": "Bastøy",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 59.38015278,
+   "lon": 10.52490278
+  },
+  "island-vaddo": {
+   "title": "Väddö",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 60,
+   "lon": 18.83333333
+  },
+  "island-danmark": {
+   "title": "Danmark (islet)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 59.8906,
+   "lon": 10.5334
+  },
+  "island-furillen": {
+   "title": "Furillen",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 57.76861111,
+   "lon": 19.01527778
+  },
+  "island-giske": {
+   "title": "Giske (island)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 62.5024,
+   "lon": 6.0396
+  },
+  "island-godoya": {
+   "title": "Godøya",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 62.476394,
+   "lon": 6.040381
+  },
+  "island-hidra": {
+   "title": "Hidra (island)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 58.23,
+   "lon": 6.5477
+  },
+  "island-hillesoya": {
+   "title": "Hillesøya",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 69.6413,
+   "lon": 17.9781
+  },
+  "island-jomfruland": {
+   "title": "Jomfruland",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 58.8651,
+   "lon": 9.59638
+  },
+  "island-kongsoya": {
+   "title": "Kongsøya",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 78.93333333,
+   "lon": 28.58333333
+  },
+  "island-leka": {
+   "title": "Leka (island)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 65.0969,
+   "lon": 11.6496
+  },
+  "island-masnedo": {
+   "title": "Masnedø",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 54.98888889,
+   "lon": 11.88611111
+  },
+  "island-oro": {
+   "title": "Orø",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 55.76666667,
+   "lon": 11.81666667
+  },
+  "island-rebbenesoya": {
+   "title": "Rebbenesøya",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 70.0523,
+   "lon": 18.7225
+  },
+  "island-runmaro": {
+   "title": "Runmarö",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 59.28333333,
+   "lon": 18.76666667
+  },
+  "island-sejero": {
+   "title": "Sejerø",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 55.88333333,
+   "lon": 11.15
+  },
+  "island-torso": {
+   "title": "Torsö",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 58.80166667,
+   "lon": 13.82611111
+  },
+  "island-vega": {
+   "title": "Vega (island in Norway)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 65.669,
+   "lon": 11.8569
+  },
+  "island-abel-island": {
+   "title": "Abel Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 78.98888889,
+   "lon": 30.20555556
+  },
+  "island-alden": {
+   "title": "Alden, Norway",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 61.3256,
+   "lon": 4.7623
+  },
+  "island-alnon": {
+   "title": "Alnön",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 62.4,
+   "lon": 17.46666667
+  },
+  "island-andorja": {
+   "title": "Andørja (island)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 68.8149,
+   "lon": 17.2948
+  },
+  "island-arnoya": {
+   "title": "Arnøya",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 70.0634,
+   "lon": 20.7366
+  },
+  "island-askoy": {
+   "title": "Askøy (island)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 60.475,
+   "lon": 5.10833
+  },
+  "island-avernako": {
+   "title": "Avernakø",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 55.01666667,
+   "lon": 10.28333333
+  },
+  "island-bleikoya": {
+   "title": "Bleikøya",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 59.88333333,
+   "lon": 10.73333333
+  },
+  "island-donna": {
+   "title": "Dønna (island)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 66.0401,
+   "lon": 12.394
+  },
+  "island-endelave": {
+   "title": "Endelave",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.75,
+   "lon": 10.3
+  },
+  "island-engeloya": {
+   "title": "Engeløya",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 67.949,
+   "lon": 15.0003
+  },
+  "island-fedje": {
+   "title": "Fedje (island)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 60.76768,
+   "lon": 4.71508
+  },
+  "island-fejo": {
+   "title": "Fejø",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.95,
+   "lon": 11.43333333
+  },
+  "island-gavno": {
+   "title": "Gavnø",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.18861111,
+   "lon": 11.72444444
+  },
+  "island-haoya": {
+   "title": "Håøya, Akershus",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 59.6969,
+   "lon": 10.5692
+  },
+  "island-kinn": {
+   "title": "Kinn (island)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 61.5602,
+   "lon": 4.7527
+  },
+  "island-kallandso": {
+   "title": "Kållandsö",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 58.665,
+   "lon": 13.11944444
+  },
+  "island-landegode": {
+   "title": "Landegode",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 67.4367,
+   "lon": 14.3714
+  },
+  "island-livo": {
+   "title": "Livø",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 56.89333333,
+   "lon": 9.08611111
+  },
+  "island-lyo": {
+   "title": "Lyø",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 55.03333333,
+   "lon": 10.16666667
+  },
+  "island-prins-karls-forland": {
+   "title": "Prins Karls Forland",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 78.57027778,
+   "lon": 11.12361111
+  },
+  "island-seiland": {
+   "title": "Seiland",
+   "monthlyViews": 122,
+   "days": 49,
+   "lat": 70.42,
+   "lon": 23.24
+  },
+  "island-selja": {
+   "title": "Selja, Stad",
+   "monthlyViews": 122,
+   "days": 58,
+   "lat": 62.0487,
+   "lon": 5.2952
+  },
+  "island-skaro": {
+   "title": "Skarø",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.00416667,
+   "lon": 10.46722222
+  },
+  "island-svenskoya": {
+   "title": "Svenskøya",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 78.71666667,
+   "lon": 26.63333333
+  },
+  "island-thuro": {
+   "title": "Thurø",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 55.0425,
+   "lon": 10.68222222
+  },
+  "island-tarno": {
+   "title": "Tärnö",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 56.11680278,
+   "lon": 14.97213333
+  },
+  "island-vanna": {
+   "title": "Vanna (Troms)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 70.1819,
+   "lon": 19.7008
+  },
+  "island-vigra": {
+   "title": "Vigra (island)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 62.5579,
+   "lon": 6.0786
+  },
+  "island-vikingen": {
+   "title": "Vikingen, Nordland",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 66.53255,
+   "lon": 12.97121
+  },
+  "island-alvsnabben": {
+   "title": "Älvsnabben",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 58.98429,
+   "lon": 18.18369
+  },
+  "island-aebelo": {
+   "title": "Æbelø",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.63333333,
+   "lon": 10.18333333
+  },
+  "island-alro": {
+   "title": "Alrø",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 55.85972222,
+   "lon": 10.06583333
+  },
+  "island-averoya": {
+   "title": "Averøya",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 62.9873,
+   "lon": 7.4901
+  },
+  "island-baroya": {
+   "title": "Barøya",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 68.3485,
+   "lon": 16.1076
+  },
+  "island-bolga": {
+   "title": "Bolga",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 66.8051,
+   "lon": 13.2342
+  },
+  "island-bago": {
+   "title": "Bågø",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 55.30833333,
+   "lon": 9.81666667
+  },
+  "island-bomlo": {
+   "title": "Bømlo (island)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.77833,
+   "lon": 5.2347
+  },
+  "island-ellingsoya": {
+   "title": "Ellingsøya",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 62.4936,
+   "lon": 6.1772
+  },
+  "island-eno": {
+   "title": "Enø",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 55.16083333,
+   "lon": 11.67888889
+  },
+  "island-femo": {
+   "title": "Femø",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 54.96666667,
+   "lon": 11.55
+  },
+  "island-finnoy": {
+   "title": "Finnøy (island)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.17054,
+   "lon": 5.82779
+  },
+  "island-faeno": {
+   "title": "Fænø",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 55.48833333,
+   "lon": 9.69361111
+  },
+  "island-gimsoya": {
+   "title": "Gimsøya",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 68.2918,
+   "lon": 14.1865
+  },
+  "island-gossa": {
+   "title": "Gossa (island)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 62.8183,
+   "lon": 6.8677
+  },
+  "island-grytoya": {
+   "title": "Grytøya",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 68.9222,
+   "lon": 16.4629
+  },
+  "island-graso": {
+   "title": "Gräsö",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 60.37,
+   "lon": 18.45
+  },
+  "island-hadseloya": {
+   "title": "Hadseløya",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 68.5455,
+   "lon": 14.7009
+  },
+  "island-helgoya": {
+   "title": "Helgøya, Innlandet",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 60.7363,
+   "lon": 10.9798
+  },
+  "island-herdla": {
+   "title": "Herdla (island)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 60.56666667,
+   "lon": 4.95
+  },
+  "island-holsnoy": {
+   "title": "Holsnøy",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 60.5323,
+   "lon": 5.2177
+  },
+  "island-ingmarso": {
+   "title": "Ingmarsö",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.475,
+   "lon": 18.76666667
+  },
+  "island-ingoya": {
+   "title": "Ingøya",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 71.0595,
+   "lon": 23.9676
+  },
+  "island-kvitsoy": {
+   "title": "Kvitsøy (island)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.06627,
+   "lon": 5.41014
+  },
+  "island-masoya": {
+   "title": "Måsøya",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 71.0221,
+   "lon": 24.9791
+  },
+  "island-nekselo": {
+   "title": "Nekselø",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-otroya": {
+   "title": "Otrøya",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 62.72722222,
+   "lon": 6.80166667
+  },
+  "island-ringvassoya": {
+   "title": "Ringvassøya",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 69.8868,
+   "lon": 19.1729
+  },
+  "island-sandoya": {
+   "title": "Sandøya, Agder",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 58.5917,
+   "lon": 9.0477
+  },
+  "island-selaon": {
+   "title": "Selaön",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.4,
+   "lon": 17.2
+  },
+  "island-skjervoya": {
+   "title": "Skjervøya",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 70.0234,
+   "lon": 20.9546
+  },
+  "island-sula": {
+   "title": "Sula, Møre og Romsdal",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 62.4153,
+   "lon": 6.1337
+  },
+  "island-svartso": {
+   "title": "Svartsö",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 59.45,
+   "lon": 18.68333333
+  },
+  "island-tautra": {
+   "title": "Tautra",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 63.5749,
+   "lon": 10.6055
+  },
+  "island-tjome": {
+   "title": "Tjøme (island)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 59.12304,
+   "lon": 10.39676
+  },
+  "island-tomma": {
+   "title": "Tomma",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 66.2465,
+   "lon": 12.7157
+  },
+  "island-valderoya": {
+   "title": "Valderøya",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 62.4974,
+   "lon": 6.1189
+  },
+  "island-veierland": {
+   "title": "Veierland",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.14858,
+   "lon": 10.33719
+  },
+  "island-veno": {
+   "title": "Venø",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 56.55416667,
+   "lon": 8.625
+  },
+  "island-veoya": {
+   "title": "Veøya",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 62.6706,
+   "lon": 7.4248
+  },
+  "island-aedey": {
+   "title": "Æðey",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 66.1004,
+   "lon": -22.6617
+  },
+  "island-agerso": {
+   "title": "Agersø",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.2,
+   "lon": 11.2
+  },
+  "island-alsta": {
+   "title": "Alsta",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 65.96667,
+   "lon": 12.614722
+  },
+  "island-ammeron": {
+   "title": "Ammerön",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.84722222,
+   "lon": 15.21388889
+  },
+  "island-asko": {
+   "title": "Askø",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.9,
+   "lon": 11.5
+  },
+  "island-atloyna": {
+   "title": "Atløyna",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 61.3333,
+   "lon": 4.9677
+  },
+  "island-barmoya": {
+   "title": "Barmøya",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 62.0126,
+   "lon": 5.2826
+  },
+  "island-barso": {
+   "title": "Barsø",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.11666667,
+   "lon": 9.56666667
+  },
+  "island-bjarkoya": {
+   "title": "Bjarkøya",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 68.9909,
+   "lon": 16.5585
+  },
+  "island-bjorno": {
+   "title": "Bjørnø",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.06666667,
+   "lon": 10.25
+  },
+  "island-bremangerlandet": {
+   "title": "Bremangerlandet",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 61.8638,
+   "lon": 5.006
+  },
+  "island-brokey": {
+   "title": "Brokey",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 65.079,
+   "lon": -22.473
+  },
+  "island-bru": {
+   "title": "Bru, Rogaland",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 59.04143,
+   "lon": 5.64381
+  },
+  "island-boroya": {
+   "title": "Børøya",
+   "monthlyViews": 61,
+   "days": 46,
+   "lat": 68.5705,
+   "lon": 14.9305
+  },
+  "island-chermsideoya": {
+   "title": "Chermsideøya",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 80.505,
+   "lon": 19.973
+  },
+  "island-drejo": {
+   "title": "Drejø",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 54.96666667,
+   "lon": 10.41666667
+  },
+  "island-flatoy": {
+   "title": "Flatøy",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.5346,
+   "lon": 5.2595
+  },
+  "island-fogn": {
+   "title": "Fogn",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 59.13603,
+   "lon": 5.91756
+  },
+  "island-frei": {
+   "title": "Frei (island)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 63.067116,
+   "lon": 7.815055
+  },
+  "island-fugloya": {
+   "title": "Fugløya, Gildeskål",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 67.0679,
+   "lon": 13.7926
+  },
+  "island-faringso": {
+   "title": "Färingsö",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.38333333,
+   "lon": 17.63333333
+  },
+  "island-garten": {
+   "title": "Garten",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 63.6423,
+   "lon": 9.5157
+  },
+  "island-gjesvaerstappan": {
+   "title": "Gjesværstappan",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 71.14,
+   "lon": 25.3366
+  },
+  "island-halsnoya": {
+   "title": "Halsnøya",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.76598,
+   "lon": 5.7808
+  },
+  "island-haramsoya": {
+   "title": "Haramsøya",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.6665,
+   "lon": 6.1894
+  },
+  "island-haroya": {
+   "title": "Harøya",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.7697,
+   "lon": 6.4415
+  },
+  "island-helnaes": {
+   "title": "Helnæs",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.13944444,
+   "lon": 10.00055556
+  },
+  "island-hertson": {
+   "title": "Hertsön",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 65.584159,
+   "lon": 22.199539
+  },
+  "island-hessa": {
+   "title": "Hessa",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.4591,
+   "lon": 6.1183
+  },
+  "island-hjarno": {
+   "title": "Hjarnø",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.825,
+   "lon": 10.08333333
+  },
+  "island-hjorsey": {
+   "title": "Hjörsey",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 64.52681111,
+   "lon": -22.34965
+  },
+  "island-huftaroy": {
+   "title": "Huftarøy",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 59.9964,
+   "lon": 5.2568
+  },
+  "island-huglo": {
+   "title": "Huglo",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.8508,
+   "lon": 5.585
+  },
+  "island-hundvag": {
+   "title": "Hundvåg (island)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.00167,
+   "lon": 5.73179
+  },
+  "island-hvasser": {
+   "title": "Hvasser",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.07501,
+   "lon": 10.44345
+  },
+  "island-jegindo": {
+   "title": "Jegindø",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 56.65,
+   "lon": 8.63333333
+  },
+  "island-joa": {
+   "title": "Jøa",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 64.6481,
+   "lon": 11.2096
+  },
+  "island-kagen": {
+   "title": "Kågen",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 69.9833,
+   "lon": 20.8291
+  },
+  "island-lepsoya": {
+   "title": "Lepsøya",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 62.6213,
+   "lon": 6.1699
+  },
+  "island-loppa": {
+   "title": "Loppa (island)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 70.3586,
+   "lon": 21.4139
+  },
+  "island-lagoya": {
+   "title": "Lågøya",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 80.28333333,
+   "lon": 18.38333333
+  },
+  "island-manamansalo": {
+   "title": "Manamansalo",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 64.3592527,
+   "lon": 27.060703
+  },
+  "island-meloya": {
+   "title": "Meløya",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 66.8327,
+   "lon": 13.4563
+  },
+  "island-malmey": {
+   "title": "Málmey",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 66.01800833,
+   "lon": -19.53502222
+  },
+  "island-nesoya": {
+   "title": "Nesøya, Nordland",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 66.5862,
+   "lon": 12.6764
+  },
+  "island-norve": {
+   "title": "Nørve",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 62.4753,
+   "lon": 6.2029
+  },
+  "island-notteroy": {
+   "title": "Nøtterøy (island)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.18725,
+   "lon": 10.40915
+  },
+  "island-ombo": {
+   "title": "Ombo",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.25743,
+   "lon": 6.00142
+  },
+  "island-omo": {
+   "title": "Omø",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.15,
+   "lon": 11.16666667
+  },
+  "island-ona": {
+   "title": "Ona, Vestland",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 60.5545,
+   "lon": 4.8449
+  },
+  "island-ostoya": {
+   "title": "Ostøya",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "island-randoy": {
+   "title": "Randøy",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 59.2089,
+   "lon": 6.03642
+  },
+  "island-rennesoy": {
+   "title": "Rennesøy (island)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.10556,
+   "lon": 5.69167
+  },
+  "island-rolvsoya": {
+   "title": "Rolvsøya",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 70.98,
+   "lon": 24.03
+  },
+  "island-romso": {
+   "title": "Romsø",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.51277778,
+   "lon": 10.7875
+  },
+  "island-rodoya": {
+   "title": "Rødøya",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 66.6866,
+   "lon": 13.0769
+  },
+  "island-sandhornoya": {
+   "title": "Sandhornøya",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 67.1035,
+   "lon": 14.076
+  },
+  "island-sekken": {
+   "title": "Sekken",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.6598,
+   "lon": 7.2897
+  },
+  "island-sio": {
+   "title": "Siø",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.95416667,
+   "lon": 10.69166667
+  },
+  "island-skjernoya": {
+   "title": "Skjernøya",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 57.994,
+   "lon": 7.51557
+  },
+  "island-skorpa": {
+   "title": "Skorpa, Troms",
+   "monthlyViews": 61,
+   "days": 55,
+   "lat": 69.9317,
+   "lon": 21.6899
+  },
+  "island-skatoy": {
+   "title": "Skåtøy",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 58.86406,
+   "lon": 9.5091
+  },
+  "island-stjernoya": {
+   "title": "Stjernøya",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 70.31,
+   "lon": 22.66
+  },
+  "island-stokkoya": {
+   "title": "Stokkøya",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 64.0632,
+   "lon": 9.9806
+  },
+  "island-stolmen": {
+   "title": "Stolmen",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.9911,
+   "lon": 5.0692
+  },
+  "island-store-kamoya": {
+   "title": "Store Kamøya, Nordkapp",
+   "monthlyViews": 61,
+   "days": 38,
+   "lat": 71.0515,
+   "lon": 25.9504
+  },
+  "island-stormolla": {
+   "title": "Stormolla",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 68.2632,
+   "lon": 14.8433
+  },
+  "island-stryno": {
+   "title": "Strynø",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 54.90555556,
+   "lon": 10.60833333
+  },
+  "island-sor-hidle": {
+   "title": "Sør-Hidle",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 59.04382,
+   "lon": 5.82658
+  },
+  "island-talgje": {
+   "title": "Talgje",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.10968,
+   "lon": 5.82658
+  },
+  "island-torget": {
+   "title": "Torget, Nordland",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 65.4259,
+   "lon": 12.1018
+  },
+  "island-toska": {
+   "title": "Toska",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.6483,
+   "lon": 4.9442
+  },
+  "island-uloya": {
+   "title": "Uløya",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 69.8619,
+   "lon": 20.6164
+  },
+  "island-varaldsoy": {
+   "title": "Varaldsøy",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.1288,
+   "lon": 5.9893
+  },
+  "island-vejro": {
+   "title": "Vejrø",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.03333333,
+   "lon": 11.36666667
+  },
+  "island-vaerlandet": {
+   "title": "Værlandet",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 61.3021,
+   "lon": 4.701
+  },
+  "island-ytre-sula": {
+   "title": "Ytre Sula (Solund)",
+   "monthlyViews": 61,
+   "days": 53,
+   "lat": 61.03317,
+   "lon": 4.68865
+  },
+  "island-ytteroya": {
+   "title": "Ytterøya",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 63.8155,
+   "lon": 11.2209
+  },
+  "island-aro": {
+   "title": "Årø (island)",
+   "monthlyViews": 61,
+   "days": 46,
+   "lat": 55.25,
+   "lon": 9.75
+  },
+  "island-hrisey": {
+   "title": "Hrísey",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 66,
+   "lon": -18.38333333
+  },
+  "island-kastellholmen": {
+   "title": "Kastellholmen",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 59.32222222,
+   "lon": 18.08944444
+  },
+  "island-ulvon-island": {
+   "title": "Ulvön Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 63.02194444,
+   "lon": 18.64972222
+  },
+  "island-hopen": {
+   "title": "Hopen (Svalbard)",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 76.55,
+   "lon": 25.11666667
+  },
+  "island-kungsholmen": {
+   "title": "Kungsholmen",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 59.33333333,
+   "lon": 18.03333333
+  },
+  "island-smola": {
+   "title": "Smøla (island)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 63.3566,
+   "lon": 8.0342
+  },
+  "island-grinda": {
+   "title": "Grinda",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 59.41111111,
+   "lon": 18.56583333
+  },
+  "island-skeppsholmen": {
+   "title": "Skeppsholmen",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 59.32583333,
+   "lon": 18.08416667
+  },
+  "island-fur": {
+   "title": "Fur (island)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 56.83166667,
+   "lon": 9.02416667
+  },
+  "island-santahamina": {
+   "title": "Santahamina",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 60.15,
+   "lon": 25.05
+  },
+  "island-uto": {
+   "title": "Utö, Sweden",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 58.94027778,
+   "lon": 18.26027778
+  },
+  "island-aspo": {
+   "title": "Aspö, Karlskrona",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 56.11467,
+   "lon": 15.54117583
+  },
+  "island-moja": {
+   "title": "Möja",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 59.43333333,
+   "lon": 18.88333333
+  },
+  "island-yxlan": {
+   "title": "Yxlan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 59.61666667,
+   "lon": 18.85
+  },
+  "island-aldra": {
+   "title": "Aldra",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 66.4262,
+   "lon": 13.066
+  },
+  "island-bjorko": {
+   "title": "Björkö (Korsholm)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 63.33333333,
+   "lon": 21.33333333
+  },
+  "island-egholm": {
+   "title": "Egholm",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 57.06388889,
+   "lon": 9.84305556
+  },
+  "island-kungshatt": {
+   "title": "Kungshatt",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.3,
+   "lon": 17.88333333
+  },
+  "island-harstena": {
+   "title": "Harstena",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 58.25277778,
+   "lon": 17.00833333
+  },
+  "island-muuratsalo": {
+   "title": "Muuratsalo",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.1,
+   "lon": 25.76
+  },
+  "island-radoy": {
+   "title": "Radøy (island)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.6907,
+   "lon": 4.9973
+  },
+  "island-tjotta": {
+   "title": "Tjøtta (island)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 65.8386,
+   "lon": 12.4542
+  },
+  "island-jurmo": {
+   "title": "Jurmo",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 59.825,
+   "lon": 21.6
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",
