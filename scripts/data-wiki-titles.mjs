@@ -3571,7 +3571,7 @@ export const WIKI_TITLES = {
   // --- lake auto-resolved titles (2026-09-14 expansion) ---
   "lake-siljan": "Siljan (lake)",
   "lake-roxen": "Roxen (lake)",
-  "lake-pihlajavesi": "Pihlajavesi (Keuruu)",
+  "lake-pihlajavesi": "Pihlajavesi (Saimaa)",
   "lake-keitele": "Lake Keitele",
   "lake-attersee": "Attersee (lake)",
   "lake-zeller-see": "Zeller See (Lake Constance)",
@@ -5895,7 +5895,53 @@ export const WIKI_TITLES = {
   "lake-etang-de-l-or": "Étang de l'Or",
 
   // --- lake (2026-09-14 expansion) ---
-  "lake-valdecanas-reservoir": "Valdecañas reservoir"
+  "lake-valdecanas-reservoir": "Valdecañas reservoir",
+
+  // --- lake (2026-09-14 expansion) ---
+  "lake-kroderen": "Krøderen (lake)",
+  "lake-keurusselka": "Keurusselkä",
+  "lake-jolstravatnet": "Jølstravatnet",
+  "lake-vesijarvi": "Vesijärvi",
+  "lake-iesjavri": "Iešjávri",
+  "lake-langisjor": "Langisjór",
+  "lake-halslon-reservoir": "Hálslón Reservoir",
+  "lake-mosvatn": "Møsvatn",
+  "lake-tunnsjoen": "Tunnsjøen",
+  "lake-oyeren": "Øyeren",
+  "lake-hop": "Hóp (Iceland)",
+  "lake-isojarvi": "Isojärvi (Satakunta)",
+  "lake-juojarvi": "Juojärvi",
+  "lake-lake-lestijarvi": "Lake Lestijärvi",
+  "lake-lohjanjarvi": "Lohjanjärvi",
+  "lake-roine": "Roine (Finland)",
+  "lake-selbusjoen": "Selbusjøen",
+  "lake-blondulon": "Blöndulón",
+  "lake-boren": "Boren (Sweden)",
+  "lake-nesjoen": "Nesjøen",
+  "lake-hagongulon": "Hágöngulón",
+  "lake-jaasjarvi": "Jääsjärvi",
+  "lake-kermajarvi": "Kermajärvi",
+  "lake-kiantajarvi": "Kiantajärvi",
+  "lake-kivesjarvi": "Kivesjärvi",
+  "lake-korpijarvi": "Korpijärvi",
+  "lake-kuohijarvi": "Kuohijärvi",
+  "lake-kyrosjarvi": "Kyrösjärvi",
+  "lake-lake-evijarvi": "Lake Evijärvi",
+  "lake-iijarvi": "Iijärvi (Inari)",
+  "lake-lake-kivijarvi": "Lake Kivijärvi (Central Finland)",
+  "lake-lake-pyhaselka": "Lake Pyhäselkä",
+  "lake-livojarvi": "Livojärvi",
+  "lake-langelmavesi": "Längelmävesi",
+  "lake-miekojarvi": "Miekojärvi",
+  "lake-nuasjarvi": "Nuasjärvi",
+  "lake-rautavesi": "Rautavesi (Sastamala)",
+  "lake-ryokasvesi-liekune": "Ryökäsvesi-Liekune",
+  "lake-simojarvi": "Simojärvi",
+  "lake-simpelejarvi": "Simpelejärvi",
+  "lake-toke": "Toke (lake)",
+  "lake-vehkajarvi": "Vehkajärvi",
+  "lake-viinijarvi": "Viinijärvi",
+  "lake-vuohijarvi": "Vuohijärvi"
 };
 
 /**

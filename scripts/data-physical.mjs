@@ -1216,6 +1216,98 @@ Lagoa das Sete Cidades|4.35|Sete Cidades
 Laguna di Orbetello|26.9|Orbetello
 Valdecanas Reservoir|73
 Barbate Reservoir|25.4
+Lake Bodom|3
+Salvatnet|44.96
+Kroderen|43.91
+Keurusselka|117.3
+Vanajavesi|149.76
+Jolstravatnet|39.25
+Vesijarvi|107.57
+Iesjavri|68.16
+Langisjor|26
+Halslon Reservoir|57
+Lake Hornborga|28
+Lokka Reservoir|216
+Lundevatnet|27.49
+Mosvatn|79.1
+Puruvesi|420.86
+Storglomvatnet|28.59
+Suvasvesi|233.58
+Totak|37.26
+Tunnsjoen|100.18
+Oyeren|84.74
+Aursunden|46.04
+Fyresvatnet|49.68
+Hop|29
+Isojarvi|38.82
+Juojarvi|219.54
+Lake Lestijarvi|64.74
+Lohjanjarvi|88.22
+Roine|54.59
+Rosskreppfjorden|29.51
+Selbusjoen|57.9
+Sperillen|37.32
+Suldalsvatnet|28.83
+Balvatnet|41.46
+Blondulon|57
+Boren|28
+Nesjoen|65.89
+Feren|25.88
+Hiidenvesi|29.09
+Hagongulon|37
+Iisvesi|164.47
+Iso-Roine|30.87
+Isteren|29.03
+Jaasjarvi|81.11
+Kallvatnet|28.61
+Kermajarvi|85.57
+Kiantajarvi|187.93
+Kivesjarvi|25.74
+Koitere|163.67
+Korpijarvi|31.22
+Kukkia|43.89
+Kulovesi|36.42
+Kuohijarvi|35
+Kuolimo|79
+Kyrosjarvi|96.07
+Kyyvesi|129.95
+Lake Evijarvi|28
+Iijarvi|36.88
+Lake Kivijarvi|154.03
+Lake Kolima|101.08
+Lake Pielavesi|110.1
+Lake Pyhaselka|361.1
+Lake Ruovesi|32.11
+Leinavatnet|28.32
+Limingen|93.27
+Livojarvi|32.96
+Langelmavesi|133.04
+Mallasvesi|55.71
+Miekojarvi|53.34
+Namsvatnet|39.38
+Niinivesi|75.66
+Nilakka|168.51
+Nuasjarvi|96.44
+Onkivesi|113.62
+Porttipahta Reservoir|148.6
+Rautavesi|30.28
+Ryokasvesi-Liekune|50.21
+Simojarvi|89.93
+Simpelejarvi|88.21
+Songavatnet|29.86
+Stolsvatnet|34.86
+Storakersvatnet|42.3
+Suontee|149
+Tarjanne|54.87
+Toke|30.3
+Tunhovdfjorden|25.3
+Uljua Reservoir|27.5
+Unnukka|80.45
+Vehkajarvi|26.08
+Viinijarvi|134.91
+Vinstre|27.87
+Vuohijarvi|86.24
+Yngen|27
 `;
 
 export const RIVERS = `

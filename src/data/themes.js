@@ -1424,7 +1424,27 @@ globalThis.WORMILLION_THEMES = {
       'Siiddasjavri', 'Tjeggelvas', 'Baven', 'Karats', 'Annsjon',
       'Mjorn', 'Lelang', 'Orsa Lake', 'Storvindeln Lake', 'Ivo Lake',
       'Helgasjon', 'Viken', 'Takern', 'Sadvvajavrre', 'Vasman',
-      'Tisnaren', 'Rostojavri', 'Asunden', 'Lygnern']
+      'Tisnaren', 'Rostojavri', 'Asunden', 'Lygnern',
+      // 2026-09-14 expansion
+      'Lake Bodom', 'Salvatnet', 'Kroderen', 'Keurusselka', 'Vanajavesi',
+      'Jolstravatnet', 'Vesijarvi', 'Iesjavri', 'Langisjor', 'Halslon Reservoir',
+      'Lake Hornborga', 'Lokka Reservoir', 'Lundevatnet', 'Mosvatn', 'Puruvesi',
+      'Storglomvatnet', 'Suvasvesi', 'Totak', 'Tunnsjoen', 'Oyeren',
+      'Aursunden', 'Fyresvatnet', 'Hop', 'Isojarvi', 'Juojarvi',
+      'Lake Lestijarvi', 'Lohjanjarvi', 'Roine', 'Rosskreppfjorden', 'Selbusjoen',
+      'Sperillen', 'Suldalsvatnet', 'Balvatnet', 'Blondulon', 'Boren',
+      'Nesjoen', 'Feren', 'Hiidenvesi', 'Hagongulon', 'Iisvesi',
+      'Iso-Roine', 'Isteren', 'Jaasjarvi', 'Kallvatnet', 'Kermajarvi',
+      'Kiantajarvi', 'Kivesjarvi', 'Koitere', 'Korpijarvi', 'Kukkia',
+      'Kulovesi', 'Kuohijarvi', 'Kuolimo', 'Kyrosjarvi', 'Kyyvesi',
+      'Lake Evijarvi', 'Iijarvi', 'Lake Kivijarvi', 'Lake Kolima', 'Lake Pielavesi',
+      'Lake Pyhaselka', 'Lake Ruovesi', 'Leinavatnet', 'Limingen', 'Livojarvi',
+      'Langelmavesi', 'Mallasvesi', 'Miekojarvi', 'Namsvatnet', 'Niinivesi',
+      'Nilakka', 'Nuasjarvi', 'Onkivesi', 'Porttipahta Reservoir', 'Rautavesi',
+      'Ryokasvesi-Liekune', 'Simojarvi', 'Simpelejarvi', 'Songavatnet', 'Stolsvatnet',
+      'Storakersvatnet', 'Suontee', 'Tarjanne', 'Toke', 'Tunhovdfjorden',
+      'Uljua Reservoir', 'Unnukka', 'Vehkajarvi', 'Viinijarvi', 'Vinstre',
+      'Vuohijarvi', 'Yngen']
   },
 
   desert: {

@@ -31,7 +31,8 @@ const EXPECTED = {
     'Ladybower Reservoir', 'The Serpentine', 'Llyn Celyn', 'Lake of Menteith', 'Lough Hyne',
     'Geiseltalsee', 'Laacher See', 'Walchensee', 'Muggelsee', 'Mohne Reservoir', 'Bachalpsee', 'Lake Toplitz', 'Plauer See',
     'Lac du Bourget', 'Lake Bourget', 'Etang de Thau', 'Etang de Berre', 'Lac du Der', 'IJmeer', 'Grevelingen', 'Veluwemeer',
-    'Lake Orta', 'Reschensee', 'Lake Avernus', 'Lagoa do Fogo', 'Lake Nemi', 'Sete Cidades', 'Orbetello'],
+    'Lake Orta', 'Reschensee', 'Lake Avernus', 'Lagoa do Fogo', 'Lake Nemi', 'Sete Cidades', 'Orbetello',
+    'Lake Bodom', 'Vanajavesi', 'Puruvesi', 'Oyeren', 'Mosvatn', 'Lokka Reservoir', 'Keurusselka', 'Pihlajavesi'],
   river: ['Nile', 'Amazon', 'Mississippi', 'Thames', 'Danube', 'Ganges', 'Volga', 'Indus', 'Rhine', 'Seine', 'Yangtze', 'Congo', 'Tigris', 'Euphrates', 'Jordan', 'Colorado',
     // the 2026-09-14 expansion: rivers players reported missing
     'Hudson', 'Potomac', 'Tennessee', 'Fraser', 'Magdalena', 'Okavango', 'Garonne', 'Neckar', 'Mersey', 'Tyne', 'Warta', 'Irtysh', 'Kaveri', 'Murrumbidgee', 'Rio de la Plata',

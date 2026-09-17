@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T07:49:52.038Z",
+ "fetched": "2026-09-17T08:27:12.242Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -26913,11 +26913,11 @@
    "lon": 27.25
   },
   "lake-pihlajavesi": {
-   "title": "Pihlajavesi (Keuruu)",
-   "monthlyViews": 15,
-   "days": 59,
-   "lat": 62.35833333,
-   "lon": 24.28333333
+   "title": "Pihlajavesi (Saimaa)",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 61.71666667,
+   "lon": 28.88333333
   },
   "lake-orivesi": {
    "title": "Lake Orivesi",
@@ -33799,6 +33799,650 @@
    "days": 54,
    "lat": 36.38194444,
    "lon": -5.71444444
+  },
+  "lake-lake-bodom": {
+   "title": "Lake Bodom",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 60.25638889,
+   "lon": 24.66666667
+  },
+  "lake-salvatnet": {
+   "title": "Salvatnet",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 64.7108,
+   "lon": 11.5546
+  },
+  "lake-kroderen": {
+   "title": "Krøderen (lake)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 60.25,
+   "lon": 9.63333333
+  },
+  "lake-keurusselka": {
+   "title": "Keurusselkä",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 62.18,
+   "lon": 24.68
+  },
+  "lake-vanajavesi": {
+   "title": "Vanajavesi",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 61.16666667,
+   "lon": 24.25
+  },
+  "lake-jolstravatnet": {
+   "title": "Jølstravatnet",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 61.51186,
+   "lon": 6.27764
+  },
+  "lake-vesijarvi": {
+   "title": "Vesijärvi",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 61.08277778,
+   "lon": 25.53833333
+  },
+  "lake-iesjavri": {
+   "title": "Iešjávri",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 69.6654,
+   "lon": 24.209
+  },
+  "lake-langisjor": {
+   "title": "Langisjór",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 64.18333333,
+   "lon": -18.25
+  },
+  "lake-halslon-reservoir": {
+   "title": "Hálslón Reservoir",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 64.92666667,
+   "lon": -15.82222222
+  },
+  "lake-lake-hornborga": {
+   "title": "Lake Hornborga",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 58.31666667,
+   "lon": 13.55
+  },
+  "lake-lokka-reservoir": {
+   "title": "Lokka Reservoir",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 67.82,
+   "lon": 27.75
+  },
+  "lake-lundevatnet": {
+   "title": "Lundevatnet",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 58.35578,
+   "lon": 6.58749
+  },
+  "lake-mosvatn": {
+   "title": "Møsvatn",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.86885,
+   "lon": 8.02382
+  },
+  "lake-puruvesi": {
+   "title": "Puruvesi",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 61.83333333,
+   "lon": 29.45
+  },
+  "lake-storglomvatnet": {
+   "title": "Storglomvatnet",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 66.7024,
+   "lon": 14.1118
+  },
+  "lake-suvasvesi": {
+   "title": "Suvasvesi",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 62.65,
+   "lon": 28.2
+  },
+  "lake-totak": {
+   "title": "Totak",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 59.70156,
+   "lon": 7.98258
+  },
+  "lake-tunnsjoen": {
+   "title": "Tunnsjøen",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 64.705,
+   "lon": 13.2116
+  },
+  "lake-oyeren": {
+   "title": "Øyeren",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.85722222,
+   "lon": 11.16333333
+  },
+  "lake-aursunden": {
+   "title": "Aursunden",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.6678,
+   "lon": 11.6448
+  },
+  "lake-fyresvatnet": {
+   "title": "Fyresvatnet",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.08883,
+   "lon": 8.15703
+  },
+  "lake-hop": {
+   "title": "Hóp (Iceland)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 65.53333333,
+   "lon": -20.5
+  },
+  "lake-isojarvi": {
+   "title": "Isojärvi (Satakunta)",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 61.73333333,
+   "lon": 21.8
+  },
+  "lake-juojarvi": {
+   "title": "Juojärvi",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.65,
+   "lon": 28.71666667
+  },
+  "lake-lake-lestijarvi": {
+   "title": "Lake Lestijärvi",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 63.51666667,
+   "lon": 24.76666667
+  },
+  "lake-lohjanjarvi": {
+   "title": "Lohjanjärvi",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.25,
+   "lon": 23.91666667
+  },
+  "lake-roine": {
+   "title": "Roine (Finland)",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 61.4,
+   "lon": 24.05
+  },
+  "lake-rosskreppfjorden": {
+   "title": "Rosskreppfjorden",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.09645,
+   "lon": 7.15482
+  },
+  "lake-selbusjoen": {
+   "title": "Selbusjøen",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 63.2312,
+   "lon": 10.9484
+  },
+  "lake-sperillen": {
+   "title": "Sperillen",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.46666667,
+   "lon": 10.05
+  },
+  "lake-suldalsvatnet": {
+   "title": "Suldalsvatnet",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.52667,
+   "lon": 6.59911
+  },
+  "lake-balvatnet": {
+   "title": "Balvatnet",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 66.9456,
+   "lon": 15.8742
+  },
+  "lake-blondulon": {
+   "title": "Blöndulón",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 65.18138889,
+   "lon": -19.64944444
+  },
+  "lake-boren": {
+   "title": "Boren (Sweden)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 58.56666667,
+   "lon": 15.16666667
+  },
+  "lake-nesjoen": {
+   "title": "Nesjøen",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 62.9798,
+   "lon": 12.0079
+  },
+  "lake-feren": {
+   "title": "Feren",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 63.5689,
+   "lon": 11.8322
+  },
+  "lake-hiidenvesi": {
+   "title": "Hiidenvesi",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 60.375,
+   "lon": 24.19166667
+  },
+  "lake-hagongulon": {
+   "title": "Hágöngulón",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 64.56666667,
+   "lon": -18.16666667
+  },
+  "lake-iisvesi": {
+   "title": "Iisvesi",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 62.76666667,
+   "lon": 26.86666667
+  },
+  "lake-iso-roine": {
+   "title": "Iso-Roine",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 61.2167,
+   "lon": 24.5667
+  },
+  "lake-isteren": {
+   "title": "Isteren",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 61.96666667,
+   "lon": 11.8
+  },
+  "lake-jaasjarvi": {
+   "title": "Jääsjärvi",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 61.6,
+   "lon": 26.11666667
+  },
+  "lake-kallvatnet": {
+   "title": "Kallvatnet",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 66.2351,
+   "lon": 14.8814
+  },
+  "lake-kermajarvi": {
+   "title": "Kermajärvi",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 62.45,
+   "lon": 28.7
+  },
+  "lake-kiantajarvi": {
+   "title": "Kiantajärvi",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 65.03333333,
+   "lon": 29.1
+  },
+  "lake-kivesjarvi": {
+   "title": "Kivesjärvi",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 64.45,
+   "lon": 27.41666667
+  },
+  "lake-koitere": {
+   "title": "Koitere",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 62.95,
+   "lon": 30.7
+  },
+  "lake-korpijarvi": {
+   "title": "Korpijärvi",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "lake-kukkia": {
+   "title": "Kukkia",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 61.33333333,
+   "lon": 24.7
+  },
+  "lake-kulovesi": {
+   "title": "Kulovesi",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 61.45,
+   "lon": 23.2
+  },
+  "lake-kuohijarvi": {
+   "title": "Kuohijärvi",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 61.23333333,
+   "lon": 24.88333333
+  },
+  "lake-kuolimo": {
+   "title": "Kuolimo",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 61.26666667,
+   "lon": 27.53333333
+  },
+  "lake-kyrosjarvi": {
+   "title": "Kyrösjärvi",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": 61.78333333,
+   "lon": 23.1
+  },
+  "lake-kyyvesi": {
+   "title": "Kyyvesi",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 61.96666667,
+   "lon": 27.11666667
+  },
+  "lake-lake-evijarvi": {
+   "title": "Lake Evijärvi",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 63.4125,
+   "lon": 23.49638889
+  },
+  "lake-iijarvi": {
+   "title": "Iijärvi (Inari)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 69.46666667,
+   "lon": 27.88333333
+  },
+  "lake-lake-kivijarvi": {
+   "title": "Lake Kivijärvi (Central Finland)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 63.11666667,
+   "lon": 25.18333333
+  },
+  "lake-lake-kolima": {
+   "title": "Lake Kolima",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 63.28333333,
+   "lon": 25.78333333
+  },
+  "lake-lake-pielavesi": {
+   "title": "Lake Pielavesi",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 63.3,
+   "lon": 26.58333333
+  },
+  "lake-lake-pyhaselka": {
+   "title": "Lake Pyhäselkä",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 62.46666667,
+   "lon": 29.76666667
+  },
+  "lake-lake-ruovesi": {
+   "title": "Lake Ruovesi",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 61.98333333,
+   "lon": 24.11666667
+  },
+  "lake-leinavatnet": {
+   "title": "Leinavatnet",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 68.4623,
+   "lon": 19.7676
+  },
+  "lake-limingen": {
+   "title": "Limingen",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 64.7056,
+   "lon": 13.7442
+  },
+  "lake-livojarvi": {
+   "title": "Livojärvi",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "lake-langelmavesi": {
+   "title": "Längelmävesi",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 61.56666667,
+   "lon": 24.41666667
+  },
+  "lake-mallasvesi": {
+   "title": "Mallasvesi",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 61.3,
+   "lon": 24.16666667
+  },
+  "lake-miekojarvi": {
+   "title": "Miekojärvi",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 66.6,
+   "lon": 24.38333333
+  },
+  "lake-namsvatnet": {
+   "title": "Namsvatnet",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 64.9974,
+   "lon": 13.5759
+  },
+  "lake-niinivesi": {
+   "title": "Niinivesi",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 62.79703,
+   "lon": 26.74919
+  },
+  "lake-nilakka": {
+   "title": "Nilakka",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 63.08333333,
+   "lon": 26.51666667
+  },
+  "lake-nuasjarvi": {
+   "title": "Nuasjärvi",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 64.16666667,
+   "lon": 28.05
+  },
+  "lake-onkivesi": {
+   "title": "Onkivesi",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 63.3,
+   "lon": 27.3
+  },
+  "lake-porttipahta-reservoir": {
+   "title": "Porttipahta Reservoir",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 68.05,
+   "lon": 26.68333333
+  },
+  "lake-rautavesi": {
+   "title": "Rautavesi (Sastamala)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 61.38333333,
+   "lon": 23.01666667
+  },
+  "lake-ryokasvesi-liekune": {
+   "title": "Ryökäsvesi-Liekune",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": 61.61666667,
+   "lon": 26.83333333
+  },
+  "lake-simojarvi": {
+   "title": "Simojärvi",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 66.1,
+   "lon": 27.05
+  },
+  "lake-simpelejarvi": {
+   "title": "Simpelejärvi",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 61.5,
+   "lon": 29.41666667
+  },
+  "lake-songavatnet": {
+   "title": "Songavatnet",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 59.8515,
+   "lon": 7.50838
+  },
+  "lake-stolsvatnet": {
+   "title": "Stolsvatnet",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 60.7525,
+   "lon": 8.09805556
+  },
+  "lake-storakersvatnet": {
+   "title": "Storakersvatnet",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 66.1663,
+   "lon": 14.3935
+  },
+  "lake-suontee": {
+   "title": "Suontee",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 61.6535,
+   "lon": 26.49433333
+  },
+  "lake-tarjanne": {
+   "title": "Tarjanne",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 62.11666667,
+   "lon": 24.08333333
+  },
+  "lake-toke": {
+   "title": "Toke (lake)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 58.98216,
+   "lon": 9.20797
+  },
+  "lake-tunhovdfjorden": {
+   "title": "Tunhovdfjorden",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 60.38305556,
+   "lon": 8.86583333
+  },
+  "lake-uljua-reservoir": {
+   "title": "Uljua Reservoir",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 64.3149,
+   "lon": 25.937
+  },
+  "lake-unnukka": {
+   "title": "Unnukka",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 62.41666667,
+   "lon": 27.91666667
+  },
+  "lake-vehkajarvi": {
+   "title": "Vehkajärvi",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "lake-viinijarvi": {
+   "title": "Viinijärvi",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 62.73333333,
+   "lon": 29.28333333
+  },
+  "lake-vinstre": {
+   "title": "Vinstre",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 61.32709,
+   "lon": 8.8359
+  },
+  "lake-vuohijarvi": {
+   "title": "Vuohijärvi",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 61.2,
+   "lon": 26.7
+  },
+  "lake-yngen": {
+   "title": "Yngen",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 59.73,
+   "lon": 14.31
   },
   "river-nile": {
    "title": "Nile",
