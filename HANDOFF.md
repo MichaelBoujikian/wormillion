@@ -348,8 +348,22 @@ kept as written so the reasoning survives.
   by a scratch script on description + region keywords), `de-islands` 6,
   `fr-islands` 26 (`d117629`; the French tree holds all of overseas
   France: 140 Polynesian/Caribbean/Indian Ocean islands dropped).
-  Inland islands need `OCEAN_OVERRIDES: []` (38 British, 7 French/Dutch
-  set). `it-es-islands` running, then `nordic-islands`.
+  Inland islands need `OCEAN_OVERRIDES: []` (38 British, 7 French/Dutch,
+  7 Italian/Spanish, 8 Nordic set). `it-es-islands` 55 (`d1ffd94`),
+  `nordic-islands` 256 (`78c1734`), then **a 91 views/mo floor for islands**
+  (`abb95bc`: 93 rows at two views a day were jackpots; share 7.1% →
+  3.2%). **Views floors per cohort: rivers 30, lakes 61, islands 91,
+  mountains 122** — each just above the cohort's flat bottom. Islands
+  done: cohort 1,659 → 2,139, ~330 rows with `size` 0. Report
+  `reports/2026-09-17-europe-islands.md`.
+- **`drop.mjs` bug found and fixed** (`191f93e`): it deleted the first
+  namesake row in `data-physical.mjs`, not the row in the entry's own
+  block — dropping the islets Omø/Siø took the rivers Omo/Sió for one
+  commit. A pre-wave/now diff of `bank.js` shows only the six deliberate
+  drops missing.
+- **Next**: `eu-seas`, `eu-deserts`, `eu-cities` probes; the US no-figure
+  re-runs (`us-seas`, `us-islands`, `us-deserts` with `noFigureViews`);
+  the audit of islands + seas + cities; then the merge decision.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
