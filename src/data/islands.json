@@ -33165,5 +33165,922 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "island-poveglia",
+  "category": "island",
+  "name": "Poveglia",
+  "aliases": [],
+  "size": 0.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Poveglia\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 10380,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Poveglia",
+  "lat": 45.381944,
+  "lon": 12.331111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isola-bella",
+  "category": "island",
+  "name": "Isola Bella",
+  "aliases": [],
+  "size": 0.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isola Bella (Lago Maggiore)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 4536,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isola Bella (Lago Maggiore)",
+  "lat": 45.89527778,
+  "lon": 8.52722222,
+  "oceans": []
+ },
+ {
+  "id": "island-es-vedra",
+  "category": "island",
+  "name": "Es Vedra",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Es Vedrà\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2679,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Es Vedrà",
+  "lat": 38.86694,
+  "lon": 1.19944,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pianosa",
+  "category": "island",
+  "name": "Pianosa",
+  "aliases": [],
+  "size": 10.25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pianosa\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pianosa",
+  "lat": 42.58222222,
+  "lon": 10.07833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-alboran-island",
+  "category": "island",
+  "name": "Alboran Island",
+  "aliases": [],
+  "size": 0.07,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alboran Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2070,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alboran Island",
+  "lat": 35.93944444,
+  "lon": -3.03527778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-san-giorgio-maggiore",
+  "category": "island",
+  "name": "San Giorgio Maggiore",
+  "aliases": [],
+  "size": 0.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Giorgio Maggiore\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Giorgio Maggiore",
+  "lat": 45.42795,
+  "lon": 12.344184,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-san-lazzaro-degli-armeni",
+  "category": "island",
+  "name": "San Lazzaro degli Armeni",
+  "aliases": [],
+  "size": 0.03,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Lazzaro degli Armeni\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Lazzaro degli Armeni",
+  "lat": 45.411979,
+  "lon": 12.361422,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isola-di-san-michele",
+  "category": "island",
+  "name": "Isola di San Michele",
+  "aliases": [],
+  "size": 0.18,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isola di San Michele\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1735,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isola di San Michele",
+  "lat": 45.447,
+  "lon": 12.347,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-linosa",
+  "category": "island",
+  "name": "Linosa",
+  "aliases": [],
+  "size": 5.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Linosa\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Linosa",
+  "lat": 35.86666667,
+  "lon": 12.86666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-benidorm-island",
+  "category": "island",
+  "name": "Benidorm Island",
+  "aliases": [],
+  "size": 0.07,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Benidorm Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Benidorm Island",
+  "lat": 38.50222222,
+  "lon": -0.13027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isola-del-garda",
+  "category": "island",
+  "name": "Isola del Garda",
+  "aliases": [],
+  "size": 0.07,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isola del Garda\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isola del Garda",
+  "lat": 45.593641,
+  "lon": 10.587094,
+  "oceans": []
+ },
+ {
+  "id": "island-capraia",
+  "category": "island",
+  "name": "Capraia",
+  "aliases": [],
+  "size": 19.33,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Capraia\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Capraia",
+  "lat": 43.03715,
+  "lon": 9.81834,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isola-madre",
+  "category": "island",
+  "name": "Isola Madre",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isola Madre\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isola Madre",
+  "lat": 45.91111111,
+  "lon": 8.53777778,
+  "oceans": []
+ },
+ {
+  "id": "island-alicudi",
+  "category": "island",
+  "name": "Alicudi",
+  "aliases": [],
+  "size": 5.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alicudi\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alicudi",
+  "lat": 38.5425,
+  "lon": 14.3525,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-dragonera",
+  "category": "island",
+  "name": "Dragonera",
+  "aliases": [],
+  "size": 2.88,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dragonera\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dragonera",
+  "oceans": []
+ },
+ {
+  "id": "island-isla-canela",
+  "category": "island",
+  "name": "Isla Canela",
+  "aliases": [],
+  "size": 1.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isla Canela\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isla Canela",
+  "lat": 37.17305556,
+  "lon": -7.37777778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isola-dei-pescatori",
+  "category": "island",
+  "name": "Isola dei Pescatori",
+  "aliases": [],
+  "size": 0.03,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isola dei Pescatori\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isola dei Pescatori",
+  "lat": 45.90055556,
+  "lon": 8.52055556,
+  "oceans": []
+ },
+ {
+  "id": "island-san-giulio-island",
+  "category": "island",
+  "name": "San Giulio Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Giulio Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Giulio Island",
+  "lat": 45.796191,
+  "lon": 8.399743,
+  "oceans": []
+ },
+ {
+  "id": "island-budelli",
+  "category": "island",
+  "name": "Budelli",
+  "aliases": [],
+  "size": 1.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Budelli\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Budelli",
+  "lat": 41.2825,
+  "lon": 9.35,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-armona-island",
+  "category": "island",
+  "name": "Armona Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Armona Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Armona Island",
+  "lat": 37.025,
+  "lon": -7.78,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-marettimo",
+  "category": "island",
+  "name": "Marettimo",
+  "aliases": [],
+  "size": 12.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marettimo\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marettimo",
+  "lat": 37.96944444,
+  "lon": 12.05722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-filicudi",
+  "category": "island",
+  "name": "Filicudi",
+  "aliases": [],
+  "size": 9.49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Filicudi\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Filicudi",
+  "lat": 38.57138889,
+  "lon": 14.5625,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-levanzo",
+  "category": "island",
+  "name": "Levanzo",
+  "aliases": [],
+  "size": 5.82,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Levanzo\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Levanzo",
+  "lat": 38,
+  "lon": 12.33333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-deserta-grande-island",
+  "category": "island",
+  "name": "Deserta Grande Island",
+  "aliases": [],
+  "size": 10,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Deserta Grande Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Deserta Grande Island",
+  "lat": 32.5197,
+  "lon": -16.5075,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-palmaria",
+  "category": "island",
+  "name": "Palmaria",
+  "aliases": [],
+  "size": 1.89,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Palmaria (island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palmaria (island)",
+  "lat": 44.04283611,
+  "lon": 9.84386667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-tavira-island",
+  "category": "island",
+  "name": "Tavira Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tavira Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tavira Island",
+  "lat": 37.087,
+  "lon": -7.666,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-il-gallo-lungo",
+  "category": "island",
+  "name": "Il Gallo Lungo",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Il Gallo Lungo\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Il Gallo Lungo",
+  "lat": 40.5825,
+  "lon": 14.43472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-palmarola",
+  "category": "island",
+  "name": "Palmarola",
+  "aliases": [],
+  "size": 1.36,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Palmarola\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palmarola",
+  "lat": 40.9375,
+  "lon": 12.8575,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isla-de-la-cartuja",
+  "category": "island",
+  "name": "Isla de La Cartuja",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isla de La Cartuja\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isla de La Cartuja",
+  "lat": 37.39861111,
+  "lon": -6.00722222,
+  "oceans": []
+ },
+ {
+  "id": "island-culatra-island",
+  "category": "island",
+  "name": "Culatra Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Culatra Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Culatra Island",
+  "lat": 36.988,
+  "lon": -7.838,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gaiola-island",
+  "category": "island",
+  "name": "Gaiola Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gaiola Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gaiola Island",
+  "lat": 40.791635,
+  "lon": 14.187054,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pellestrina",
+  "category": "island",
+  "name": "Pellestrina",
+  "aliases": [],
+  "size": 2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pellestrina\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pellestrina",
+  "lat": 45.27333333,
+  "lon": 12.30111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ons-island",
+  "category": "island",
+  "name": "Ons Island",
+  "aliases": [],
+  "size": 4.46,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ons Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ons Island",
+  "lat": 42.381,
+  "lon": -8.933,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-s-espalmador",
+  "category": "island",
+  "name": "S'Espalmador",
+  "aliases": [],
+  "size": 2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"S'Espalmador\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "S'Espalmador",
+  "lat": 38.787,
+  "lon": 1.426,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-baleal-island",
+  "category": "island",
+  "name": "Baleal Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baleal Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baleal Island",
+  "lat": 39.3731,
+  "lon": -9.3389,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sant-elena",
+  "category": "island",
+  "name": "Sant'Elena",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sant'Elena (island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sant'Elena (island)",
+  "lat": 45.427222,
+  "lon": 12.365,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-giannutri",
+  "category": "island",
+  "name": "Giannutri",
+  "aliases": [],
+  "size": 2.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Giannutri\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Giannutri",
+  "lat": 42.25,
+  "lon": 11.1,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-barreta-island",
+  "category": "island",
+  "name": "Barreta Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barreta Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barreta Island",
+  "lat": 36.97,
+  "lon": -7.924,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-barbana",
+  "category": "island",
+  "name": "Barbana",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barbana, Italy\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barbana, Italy",
+  "lat": 45.7032,
+  "lon": 13.423,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sant-erasmo",
+  "category": "island",
+  "name": "Sant'Erasmo",
+  "aliases": [],
+  "size": 3.26,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sant'Erasmo\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sant'Erasmo",
+  "lat": 45.457544,
+  "lon": 12.412577,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-a-toxa-island",
+  "category": "island",
+  "name": "A Toxa Island",
+  "aliases": [],
+  "size": 1.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"A Toxa Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "A Toxa Island",
+  "lat": 42.48944444,
+  "lon": -8.84861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-castelli-di-cannero",
+  "category": "island",
+  "name": "Castelli di Cannero",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Castelli di Cannero\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Castelli di Cannero",
+  "lat": 46.0239,
+  "lon": 8.70528,
+  "oceans": []
+ },
+ {
+  "id": "island-isola-sacra",
+  "category": "island",
+  "name": "Isola Sacra",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isola Sacra\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isola Sacra",
+  "lat": 41.75,
+  "lon": 12.25,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bugio-island",
+  "category": "island",
+  "name": "Bugio Island",
+  "aliases": [],
+  "size": 3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bugio Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bugio Island",
+  "lat": 32.42638889,
+  "lon": -16.48611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-santo-stefano",
+  "category": "island",
+  "name": "Santo Stefano",
+  "aliases": [],
+  "size": 3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santo Stefano (island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santo Stefano (island)",
+  "lat": 41.197986,
+  "lon": 9.411868,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-spargi",
+  "category": "island",
+  "name": "Spargi",
+  "aliases": [],
+  "size": 4.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Spargi\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Spargi",
+  "lat": 41.24333333,
+  "lon": 9.3475,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cacela-island",
+  "category": "island",
+  "name": "Cacela Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cacela Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cacela Island",
+  "lat": 37.152,
+  "lon": -7.546,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isla-del-trocadero",
+  "category": "island",
+  "name": "Isla del Trocadero",
+  "aliases": [],
+  "size": 5.25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isla del Trocadero\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isla del Trocadero",
+  "lat": 36.51666667,
+  "lon": -6.21666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-island-of-san-simon",
+  "category": "island",
+  "name": "Island of San Simon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Island of San Simón\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Island of San Simón",
+  "lat": 42.3075,
+  "lon": -8.62861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-selvagem-grande-island",
+  "category": "island",
+  "name": "Selvagem Grande Island",
+  "aliases": [],
+  "size": 2.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Selvagem Grande Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Selvagem Grande Island",
+  "lat": 30.1475,
+  "lon": -15.865,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-izaro-island",
+  "category": "island",
+  "name": "Izaro Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ízaro Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ízaro Island",
+  "lat": 43.425,
+  "lon": -2.6825,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pessegueiro-island",
+  "category": "island",
+  "name": "Pessegueiro Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pessegueiro Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pessegueiro Island",
+  "lat": 37.83349167,
+  "lon": -8.79756111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-salvora",
+  "category": "island",
+  "name": "Salvora",
+  "aliases": [],
+  "size": 1.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sálvora\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sálvora",
+  "lat": 42.4736,
+  "lon": -9.0117,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ermal-island",
+  "category": "island",
+  "name": "Ermal Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ermal Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ermal Island",
+  "lat": 41.595279,
+  "lon": -8.129736,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-illa-conillera",
+  "category": "island",
+  "name": "Illa Conillera",
+  "aliases": [],
+  "size": 1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Illa Conillera\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Illa Conillera",
+  "lat": 38.98897,
+  "lon": 1.21141,
+  "oceans": [
+   "Atlantic"
+  ]
  }
 ]

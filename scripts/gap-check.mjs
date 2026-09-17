@@ -84,7 +84,8 @@ const EXPECTED = {
     // the 2026-09-16 US islands scouring (scripts/expansion/reports/2026-09-16-us-islands.md)
     'San Nicolas Island', 'Wrangell Island', 'Hart Island', 'Fishers Island', 'Shelter Island', 'Sullivans Island', 'Pawleys Island', 'Edisto Island', 'Bald Head Island', 'Peaks Island', 'Chebeague', 'Yerba Buena Island', 'Star Island', 'Fisher Island', 'Smith Island', 'Pollepel Island', 'Great Sitkin', 'Agattu', 'Sugar Island',
     // the 2026-09-17 UK + Ireland islands scouring (reports/2026-09-17-europe-islands.md)
-    'Rockall', 'Eilean Donan', 'Isle of Portland', 'Gruinard Island', 'Burgh Island', 'Foula', 'Eel Pie Island', 'Papa Westray', 'Stroma', 'Flat Holm', 'Steep Holm', 'Bere Island', 'Calf of Man', 'Great Bernera', 'Fetlar', 'Rousay', 'Whalsay'],
+    'Rockall', 'Eilean Donan', 'Isle of Portland', 'Gruinard Island', 'Burgh Island', 'Foula', 'Eel Pie Island', 'Papa Westray', 'Stroma', 'Flat Holm', 'Steep Holm', 'Bere Island', 'Calf of Man', 'Great Bernera', 'Fetlar', 'Rousay', 'Whalsay',
+    'Poveglia', 'Isola Bella', 'Es Vedra', 'Pianosa', 'Alboran Island', 'San Giorgio Maggiore', 'Linosa', 'Capraia', 'Marettimo', 'Filicudi', 'Pheasant Island', 'Levant Island', 'Houat', 'Goeree-Overflakkee'],
   sea_ocean: ['Pacific Ocean', 'Atlantic', 'Mediterranean', 'Red Sea', 'Black Sea', 'Caribbean Sea', 'Dead Sea', 'North Sea', 'Baltic Sea', 'Arabian Sea', 'Bering Sea', 'Coral Sea', 'Gulf of Mexico',
     // the 2026-09-15 expansion
     'Strait of Gibraltar', 'Bosphorus', 'Strait of Hormuz', 'Bering Strait', 'Puget Sound', 'San Francisco Bay', 'Tokyo Bay', 'Bohai Sea', 'Gulf of Suez']

@@ -119,6 +119,15 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- it-es-islands 2026-09-17: the Maggiore, Garda, Orta and Guadalquivir islands are in no ocean ---
+  'island-isola-bella': [],
+  'island-isola-del-garda': [],
+  'island-isola-madre': [],
+  'island-isola-dei-pescatori': [],
+  'island-san-giulio-island': [],
+  'island-castelli-di-cannero': [],
+  'island-isla-de-la-cartuja': [],
+
   // --- fr-islands 2026-09-17: Seine, Loire and IJsselmeer islands are in no ocean ---
   'island-ile-de-nantes': [],
   'island-ile-des-impressionnistes': [],

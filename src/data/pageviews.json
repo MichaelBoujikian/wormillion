@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T11:45:35.702Z",
+ "fetched": "2026-09-17T12:13:45.980Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -92711,6 +92711,391 @@
    "days": 60,
    "lat": 48.8013,
    "lon": -3.575
+  },
+  "island-poveglia": {
+   "title": "Poveglia",
+   "monthlyViews": 10380,
+   "days": 60,
+   "lat": 45.381944,
+   "lon": 12.331111
+  },
+  "island-isola-bella": {
+   "title": "Isola Bella (Lago Maggiore)",
+   "monthlyViews": 4536,
+   "days": 60,
+   "lat": 45.89527778,
+   "lon": 8.52722222
+  },
+  "island-es-vedra": {
+   "title": "Es Vedrà",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 38.86694,
+   "lon": 1.19944
+  },
+  "island-pianosa": {
+   "title": "Pianosa",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 42.58222222,
+   "lon": 10.07833333
+  },
+  "island-alboran-island": {
+   "title": "Alboran Island",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 35.93944444,
+   "lon": -3.03527778
+  },
+  "island-san-giorgio-maggiore": {
+   "title": "San Giorgio Maggiore",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 45.42795,
+   "lon": 12.344184
+  },
+  "island-san-lazzaro-degli-armeni": {
+   "title": "San Lazzaro degli Armeni",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 45.411979,
+   "lon": 12.361422
+  },
+  "island-isola-di-san-michele": {
+   "title": "Isola di San Michele",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 45.447,
+   "lon": 12.347
+  },
+  "island-linosa": {
+   "title": "Linosa",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 35.86666667,
+   "lon": 12.86666667
+  },
+  "island-benidorm-island": {
+   "title": "Benidorm Island",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 38.50222222,
+   "lon": -0.13027778
+  },
+  "island-isola-del-garda": {
+   "title": "Isola del Garda",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 45.593641,
+   "lon": 10.587094
+  },
+  "island-capraia": {
+   "title": "Capraia",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 43.03715,
+   "lon": 9.81834
+  },
+  "island-isola-madre": {
+   "title": "Isola Madre",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 45.91111111,
+   "lon": 8.53777778
+  },
+  "island-alicudi": {
+   "title": "Alicudi",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 38.5425,
+   "lon": 14.3525
+  },
+  "island-dragonera": {
+   "title": "Dragonera",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-isla-canela": {
+   "title": "Isla Canela",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 37.17305556,
+   "lon": -7.37777778
+  },
+  "island-isola-dei-pescatori": {
+   "title": "Isola dei Pescatori",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 45.90055556,
+   "lon": 8.52055556
+  },
+  "island-san-giulio-island": {
+   "title": "San Giulio Island",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 45.796191,
+   "lon": 8.399743
+  },
+  "island-budelli": {
+   "title": "Budelli",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 41.2825,
+   "lon": 9.35
+  },
+  "island-armona-island": {
+   "title": "Armona Island",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 37.025,
+   "lon": -7.78
+  },
+  "island-marettimo": {
+   "title": "Marettimo",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 37.96944444,
+   "lon": 12.05722222
+  },
+  "island-filicudi": {
+   "title": "Filicudi",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 38.57138889,
+   "lon": 14.5625
+  },
+  "island-levanzo": {
+   "title": "Levanzo",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 38,
+   "lon": 12.33333333
+  },
+  "island-deserta-grande-island": {
+   "title": "Deserta Grande Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 32.5197,
+   "lon": -16.5075
+  },
+  "island-palmaria": {
+   "title": "Palmaria (island)",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 44.04283611,
+   "lon": 9.84386667
+  },
+  "island-tavira-island": {
+   "title": "Tavira Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 37.087,
+   "lon": -7.666
+  },
+  "island-il-gallo-lungo": {
+   "title": "Il Gallo Lungo",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 40.5825,
+   "lon": 14.43472222
+  },
+  "island-palmarola": {
+   "title": "Palmarola",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 40.9375,
+   "lon": 12.8575
+  },
+  "island-isla-de-la-cartuja": {
+   "title": "Isla de La Cartuja",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 37.39861111,
+   "lon": -6.00722222
+  },
+  "island-culatra-island": {
+   "title": "Culatra Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 36.988,
+   "lon": -7.838
+  },
+  "island-gaiola-island": {
+   "title": "Gaiola Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 40.791635,
+   "lon": 14.187054
+  },
+  "island-pellestrina": {
+   "title": "Pellestrina",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 45.27333333,
+   "lon": 12.30111111
+  },
+  "island-ons-island": {
+   "title": "Ons Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 42.381,
+   "lon": -8.933
+  },
+  "island-s-espalmador": {
+   "title": "S'Espalmador",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 38.787,
+   "lon": 1.426
+  },
+  "island-baleal-island": {
+   "title": "Baleal Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 39.3731,
+   "lon": -9.3389
+  },
+  "island-sant-elena": {
+   "title": "Sant'Elena (island)",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 45.427222,
+   "lon": 12.365
+  },
+  "island-giannutri": {
+   "title": "Giannutri",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 42.25,
+   "lon": 11.1
+  },
+  "island-barreta-island": {
+   "title": "Barreta Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 36.97,
+   "lon": -7.924
+  },
+  "island-barbana": {
+   "title": "Barbana, Italy",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 45.7032,
+   "lon": 13.423
+  },
+  "island-sant-erasmo": {
+   "title": "Sant'Erasmo",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 45.457544,
+   "lon": 12.412577
+  },
+  "island-a-toxa-island": {
+   "title": "A Toxa Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 42.48944444,
+   "lon": -8.84861111
+  },
+  "island-castelli-di-cannero": {
+   "title": "Castelli di Cannero",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.0239,
+   "lon": 8.70528
+  },
+  "island-isola-sacra": {
+   "title": "Isola Sacra",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 41.75,
+   "lon": 12.25
+  },
+  "island-bugio-island": {
+   "title": "Bugio Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 32.42638889,
+   "lon": -16.48611111
+  },
+  "island-santo-stefano": {
+   "title": "Santo Stefano (island)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 41.197986,
+   "lon": 9.411868
+  },
+  "island-spargi": {
+   "title": "Spargi",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 41.24333333,
+   "lon": 9.3475
+  },
+  "island-cacela-island": {
+   "title": "Cacela Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.152,
+   "lon": -7.546
+  },
+  "island-isla-del-trocadero": {
+   "title": "Isla del Trocadero",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 36.51666667,
+   "lon": -6.21666667
+  },
+  "island-island-of-san-simon": {
+   "title": "Island of San Simón",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 42.3075,
+   "lon": -8.62861111
+  },
+  "island-selvagem-grande-island": {
+   "title": "Selvagem Grande Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 30.1475,
+   "lon": -15.865
+  },
+  "island-izaro-island": {
+   "title": "Ízaro Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 43.425,
+   "lon": -2.6825
+  },
+  "island-pessegueiro-island": {
+   "title": "Pessegueiro Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 37.83349167,
+   "lon": -8.79756111
+  },
+  "island-salvora": {
+   "title": "Sálvora",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.4736,
+   "lon": -9.0117
+  },
+  "island-ermal-island": {
+   "title": "Ermal Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.595279,
+   "lon": -8.129736
+  },
+  "island-illa-conillera": {
+   "title": "Illa Conillera",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.98897,
+   "lon": 1.21141
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

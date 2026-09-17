@@ -9647,6 +9647,61 @@ Voorne-Putten|220
 Ile Saint-Germain|0
 Ile des Impressionnistes|0
 Ile-Grande|3
+Poveglia|0.08
+Isola Bella|0.2
+Es Vedra|0
+Pianosa|10.25
+Alboran Island|0.07
+San Giorgio Maggiore|0.1
+San Lazzaro degli Armeni|0.03
+Isola di San Michele|0.18
+Linosa|5.4
+Benidorm Island|0.07
+Isola del Garda|0.07
+Capraia|19.33
+Isola Madre|0
+Alicudi|5.2
+Dragonera|2.88
+Isla Canela|1.5
+Isola dei Pescatori|0.03
+San Giulio Island|0
+Budelli|1.6
+Armona Island|0
+Marettimo|12.3
+Filicudi|9.49
+Levanzo|5.82
+Deserta Grande Island|10
+Palmaria|1.89
+Tavira Island|0
+Il Gallo Lungo|0
+Palmarola|1.36
+Isla de La Cartuja|0
+Culatra Island|0
+Gaiola Island|0
+Pellestrina|2
+Ons Island|4.46
+S'Espalmador|2
+Baleal Island|0
+Sant'Elena|0
+Giannutri|2.6
+Barreta Island|0
+Barbana|0
+Sant'Erasmo|3.26
+A Toxa Island|1.1
+Castelli di Cannero|0
+Isola Sacra|0
+Bugio Island|3
+Santo Stefano|3
+Spargi|4.2
+Cacela Island|0
+Isla del Trocadero|5.25
+Island of San Simon|0
+Selvagem Grande Island|2.45
+Izaro Island|0
+Pessegueiro Island|0
+Salvora|1.9
+Ermal Island|0
+Illa Conillera|1
 `;
 
 export const SEAS_OCEANS = `

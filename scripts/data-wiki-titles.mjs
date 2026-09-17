@@ -6102,6 +6102,17 @@ export const WIKI_TITLES = {
   "island-ile-saint-germain": "Île Saint-Germain",
   "island-ile-des-impressionnistes": "Île des Impressionnistes",
   "island-ile-grande": "Île-Grande",
+
+  // --- island (2026-09-14 expansion) ---
+  "island-isola-bella": "Isola Bella (Lago Maggiore)",
+  "island-es-vedra": "Es Vedrà",
+  "island-palmaria": "Palmaria (island)",
+  "island-sant-elena": "Sant'Elena (island)",
+  "island-barbana": "Barbana, Italy",
+  "island-santo-stefano": "Santo Stefano (island)",
+  "island-island-of-san-simon": "Island of San Simón",
+  "island-izaro-island": "Ízaro Island",
+  "island-salvora": "Sálvora"
 };
 
 /**

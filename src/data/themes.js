@@ -1248,7 +1248,14 @@ globalThis.WORMILLION_THEMES = {
       'Solta', 'Galesnjak', 'Sveti Stefan', 'Sazan Island', 'Bozcaada',
       'Gokceada', 'Cunda Island', 'Kekova', 'Comino',
       // 2026-09-14 expansion
-      'Ile Sainte-Marguerite', 'Levant Island', 'Port-Cros', "Ile d'Or", 'Ratonneau'
+      'Ile Sainte-Marguerite', 'Levant Island', 'Port-Cros', "Ile d'Or", 'Ratonneau',
+      // 2026-09-14 expansion
+      'Poveglia', 'Es Vedra', 'Pianosa', 'Alboran Island', 'San Lazzaro degli Armeni',
+      'Isola di San Michele', 'Linosa', 'Benidorm Island', 'Capraia', 'Alicudi',
+      'Dragonera', 'Budelli', 'Marettimo', 'Filicudi', 'Levanzo',
+      'Palmaria', 'Il Gallo Lungo', 'Palmarola', 'Gaiola Island', 'Pellestrina',
+      "S'Espalmador", "Sant'Elena", 'Giannutri', 'Barbana', "Sant'Erasmo",
+      'Isola Sacra', 'Santo Stefano', 'Spargi', 'Illa Conillera'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
