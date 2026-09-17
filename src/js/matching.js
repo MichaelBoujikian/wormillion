@@ -202,9 +202,13 @@
     const candidates = lookup.candidates;
     if (!candidates) return null;
     const useBare = !options || options.bare !== false;
-    const bare = looseKey(key) || key;
+    const stripped = looseKey(key);
+    const bare = stripped || key;
     const typedFiller = fillerIn(key);
-    const max = slackFor(bare.length);
+    // No name proper, no budget: "River Isle" is all generic words and must
+    // not borrow ten characters' worth of slack to become River Mole
+    // (2026-09-16 audit); the shared-word edit below still applies.
+    const max = stripped ? slackFor(stripped.length) : 0;
     const sharedWordMax = typedFiller.length && bare.length >= 4 ? 1 : 0;
     if (max === 0 && sharedWordMax === 0) return null;
 

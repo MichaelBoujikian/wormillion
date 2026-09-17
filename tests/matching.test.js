@@ -312,3 +312,15 @@ test('a typed plural is never corrected onto its singular namesake (2026-09-16)'
   assert.strictEqual(matching.matchAnswer('Loch Nesss', lakes, null).entryId, 'lake-loch-ness');
   assert.strictEqual(matching.matchAnswer('Great Lkae', lakes, null).entryId, 'lake-great-lake');
 });
+
+test('an all-generic-word input has no edit budget of its own (2026-09-16 audit)', () => {
+  const rivers = matching.buildLookup([
+    { id: 'river-mole', name: 'Mole', aliases: ['River Mole'] },
+    { id: 'river-isle', name: 'Isle', aliases: [] }
+  ], { category: 'river' });
+  // "river isle" is two edits from "river mole", and used to get the slack of its ten letters
+  assert.strictEqual(matching.matchAnswer('River Isle', rivers, null).status, 'unrecognized');
+  assert.strictEqual(matching.matchAnswer('Isle', rivers, null).entryId, 'river-isle');
+  // the shared generic word is still worth one edit
+  assert.strictEqual(matching.matchAnswer('River Mols', rivers, null).entryId, 'river-mole');
+});
