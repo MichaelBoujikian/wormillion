@@ -261,8 +261,19 @@ kept as written so the reasoning survives.
   decimal shift in Wikidata is the rule for Piedmont** (ten rivers at
   10× — the article pass is mandatory); Odiel and Allaro left out for
   having only a wrong Wikidata figure.
-- **Probe 5: `nordic-rivers`** (Sweden by county, Norway by county,
-  Denmark, Finland by municipality, Iceland; floor 60 km) running.
+- **Probe 5: `nordic-rivers` done** (`871b259`, report
+  `reports/2026-09-16-nordic-rivers.md`): 98 rivers, Altaelva was missing.
+- **A 30 views/mo floor for the wave's rivers** (`19a5183`): the five
+  chunks had taken the river cohort's jackpot share from 2.5% to 4.5%; 91
+  rows with a median of zero daily views (magnitude 8–29) were dropped
+  again and the share is 2.2%. **Europe river floors: 60 km (50 in
+  Britain) or 1,000+ views, and at least 30 views/mo.** `drop.mjs` fixed
+  (it left array holes in themes.js when a theme line held only the
+  dropped name).
+- **Rivers done for the wave**: bank 12,521, river cohort 3,708 (was 3,192).
+  Audit round over de + fr + it-es + nordic (Opus data + gameplay +
+  skeptics) launched right after the usage-limit reset; **probe 6:
+  `uk-lakes`** running.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
