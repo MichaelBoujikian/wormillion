@@ -1943,7 +1943,6 @@ Kysuca|62
 Turiec|58
 Myjava|84
 Maly Dunaj|129
-Sio|116
 Zala|116
 Zagyva|179
 Sajo|229|Slana
@@ -2948,7 +2947,6 @@ Tekeze|608|Tekeze River,Setit
 Dinder|500|Dinder River
 Rahad|400|Rahad River
 Awash|1200|Awash River
-Omo|760|Omo River
 Shebelle|2500|Shabelle,Shebelle River
 Jubba|1808|Juba,Jubba River
 Dawa|800|Dawa River
@@ -9601,17 +9599,6 @@ Ronay|5.63
 Seaforth Island|2.73
 Uyea|2.05
 Vementry|3.7
-Calf of Eday|2.43
-Danna|3.15
-Dinish Island|0
-Eorsa|1.22
-Fuday|2.32
-Hascosay|2.75
-Killegray|1.76
-Lot's Ait|4.74
-Oilean Ruaidh|0
-Oldany Island|2
-Papa Little|2.26
 Foulness Island|0
 Lettermullen|0
 Shapinsay|29.48
@@ -9857,84 +9844,8 @@ Veierland|4.4
 Veno|6.5
 Veoya|6
 Aedey|1.76
-Agerso|6.84
-Alsta|152.6
-Ammeron|59.9
-Asko|2.82
-Atloyna|37.7
-Barmoya|9
-Barso|2.5
-Bjarkoya|14.6
-Bjorno|1.5
-Bremangerlandet|153
-Brokey|3.7
-Bru|3
-Boroya|1.4
-Chermsideoya|20
-Drejo|4.26
-Flatoy|2.2
-Fogn|10.4
-Frei|63.1
-Fugloya|13
-Faringso|82.02
-Garten|1.5
-Gjesvaerstappan|1.7
-Halsnoya|38
-Haramsoya|13.3
-Haroya|13.6
-Helnaes|13
-Hertson|73.42
-Hessa|4
-Hjarno|3.2
-Hjorsey|5.5
-Huftaroy|50.4
-Huglo|13.5
-Hundvag|4.7
-Hvasser|3.6
-Jegindo|7.91
-Joa|55.3
-Kagen|85.7
-Lepsoya|12.1
-Loppa|12
-Lagoya|103.5
-Manamansalo|76
-Meloya|21.8
-Malmey|2.4
-Nesoya|14.5
-Norve|5
-Notteroy|44.07
-Ombo|58
 Omo|4.52
-Ona|6.8
-Ostoya|2.3
-Randoy|16.7
-Rennesoy|40.7
-Rolvsoya|89
-Romso|1
-Rodoya|8.2
-Sandhornoya|103
-Sekken|18.7
 Sio|1.31
-Skjernoya|5.6
-Skorpa|8.26
-Skatoy|8.8
-Stjernoya|248.1
-Stokkoya|16.7
-Stolmen|7.9
-Store Kamoya|1.06
-Stormolla|35.3
-Stryno|4.88
-Sor-Hidle|1.4
-Talgje|4.1
-Torget|16.4
-Toska|5
-Uloya|78
-Varaldsoy|45.4
-Vejro|1.57
-Vaerlandet|9
-Ytre Sula|34.7
-Ytteroya|28
-Aro|5.66
 Hrisey|7.67
 Kastellholmen|0
 Ulvon Island|0
@@ -9953,10 +9864,6 @@ Aldra|24
 Bjorko|63.7
 Egholm|6
 Kungshatt|1.9
-Harstena|1.8
-Muuratsalo|11
-Radoy|101.3
-Tjotta|11.3
 Jurmo|0
 `;
 

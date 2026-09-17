@@ -10114,20 +10114,6 @@
   "lon": 18.00111111
  },
  {
-  "id": "river-sio",
-  "category": "river",
-  "name": "Sio",
-  "aliases": [],
-  "size": 116,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Sió\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 426,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sió",
-  "lat": 46.3379,
-  "lon": 18.8947
- },
- {
   "id": "river-zala",
   "category": "river",
   "name": "Zala",
@@ -25362,22 +25348,6 @@
   "wikiTitle": "Awash River",
   "lat": 9.09666667,
   "lon": 38.16694444
- },
- {
-  "id": "river-omo",
-  "category": "river",
-  "name": "Omo",
-  "aliases": [
-   "Omo River"
-  ],
-  "size": 760,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Omo River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 1126,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Omo River",
-  "lat": 7.81194444,
-  "lon": 36.89888889
  },
  {
   "id": "river-shebelle",

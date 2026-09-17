@@ -120,11 +120,9 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-arctic-ocean': ['Arctic'],
 
   // --- Muuratsalo is in Lake Paijanne ---
-  'island-muuratsalo': [],
 
   // --- nordic-islands 2026-09-17: lake islands (Malaren, Vanern, Vattern, Saimaa, Paijanne, Mjosa...) are in no ocean; two without coordinates placed by hand ---
   'island-nekselo': ['Atlantic'],
-  'island-ostoya': ['Atlantic'],
   'island-froson': [],
   'island-adelso': [],
   'island-kallandso': [],
@@ -188,7 +186,6 @@ export const OCEAN_OVERRIDES = {
   'island-ham-island': [],
   'island-hamhaugh-island': [],
   'island-eilean-subhainn': [],
-  'island-lot-s-ait': [],
   'island-fota-island': ['Atlantic'],
   'island-whiddy-island': ['Atlantic'],
   'island-north-ronaldsay': ['Atlantic'],

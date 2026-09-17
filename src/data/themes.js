@@ -1309,8 +1309,7 @@ globalThis.WORMILLION_THEMES = {
       'Preston Island', 'Priest Island', 'Sandray', 'Trondra', 'East Burra',
       'Eilean Subhainn', 'Hildasay', 'Housay', 'Hunda', 'Isle Ristol',
       'Little Bernera', 'Longa Island', 'Pabaigh Mor', 'Ronay', 'Seaforth Island',
-      'Uyea', 'Vementry', 'Calf of Eday', 'Danna', 'Eorsa',
-      'Fuday', 'Hascosay', 'Killegray', 'Oldany Island', 'Papa Little',
+      'Uyea', 'Vementry',
       'Lettermullen', 'Shapinsay'
     ],
     'Japan': [
