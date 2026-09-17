@@ -103,20 +103,31 @@ const TO_KM = { km: 1, kilometre: 1, kilometer: 1, kilometres: 1, kilometers: 1,
 const TO_KM2 = { km2: 1, 'km²': 1, sqkm: 1, 'sq km': 1, sqmi: 2.589988, 'sq mi': 2.589988, mi2: 2.589988, 'mi²': 2.589988, acre: 0.00404686, acres: 0.00404686, ha: 0.01, hectare: 0.01, hectares: 0.01, m2: 1e-6, 'm²': 1e-6, sqft: 9.2903e-8 };
 const TO_M = { m: 1, metre: 1, meter: 1, metres: 1, meters: 1, ft: 0.3048, foot: 0.3048, feet: 0.3048 };
 const TABLE = { km: TO_KM, km2: TO_KM2, m: TO_M };
-const num = (s) => Number(String(s).replace(/,/g, '').replace(/&nbsp;/g, '').trim());
+// A comma is a thousands separator in English, but a fiwiki/dewiki-written
+// infobox says {{convert|50,21|km2}} for 50.21: one comma followed by one or
+// two digits is a decimal comma; three digits is ambiguous (149,758 km2 for
+// Vanajavesi is 149.758) and is settled by the sanity cap below.
+const num = (s) => {
+  const t = String(s).replace(/&nbsp;/g, '').trim();
+  if (/^\d+,\d{1,2}$/.test(t)) return Number(t.replace(',', '.'));
+  return Number(t.replace(/,/g, ''));
+};
+const numDecimalComma = (s) => Number(String(s).replace(/&nbsp;/g, '').trim().replace(',', '.'));
+// no lake but the Caspian is over 100,000 km2, no river over 7,000 km, no summit over 9,000 m
+const SANITY = { km2: 100000, km: 7000, m: 9000 };
 
 /** A value string -> [amount, unit] or null. */
 function amountOf(value, fieldUnit) {
   if (!value) return null;
   let v = value.replace(/<ref[^>]*\/>/g, '').replace(/<ref[\s\S]*?<\/ref>/g, '').replace(/<!--[\s\S]*?-->/g, '').replace(/\{\{(?:efn|sfn|cn|citation needed|refn)[^}]*\}\}/gi, '');
   let m = /\{\{\s*(?:convert|cvt)\s*\|\s*([\d,.]+)\s*(?:\|\s*(?:to|-|–|and)\s*\|\s*[\d,.]+\s*)?\|\s*([a-zA-Z0-9²]+(?: [a-z]+)?)/i.exec(v);
-  if (m) return [num(m[1]), m[2].toLowerCase()];
+  if (m) return [num(m[1]), m[2].toLowerCase(), m[1]];
   m = /(\d[\d,.]*|\.\d+)\s*(?:&nbsp;|\s)*(km2|km²|sq mi|mi2|mi²|sqmi|acres?|ha|km|mi|miles?|kilomet(?:er|re)s?|ft|feet|foot|m)\b/i.exec(v);
-  if (m) return [num(m[1]), m[2].toLowerCase()];
+  if (m) return [num(m[1]), m[2].toLowerCase(), m[1]];
   if (fieldUnit) {
     // a leading dot is a number too: Herbert Run's "length_mi = .413" once read as 413
     m = /(\d[\d,.]*|\.\d+)/.exec(v);
-    if (m) return [num(m[1]), fieldUnit];
+    if (m) return [num(m[1]), fieldUnit, m[1]];
   }
   return null;
 }
@@ -137,7 +148,8 @@ function articleSize(text, unit) {
     if (!a) continue;
     const factor = TABLE[unit][a[1]];
     if (factor == null || !(a[0] > 0)) continue;
-    const val = a[0] * factor;
+    let val = a[0] * factor;
+    if (val > SANITY[unit] && /^\d+,\d{3}$/.test(String(a[2] || ''))) val = numDecimalComma(a[2]) * factor;
     return { value: unit === 'km2' ? Math.round(val * 100) / 100 : Math.round(val), field, raw: params[field].slice(0, 60) };
   }
   return null;
