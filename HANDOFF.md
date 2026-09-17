@@ -244,8 +244,15 @@ kept as written so the reasoning survives.
   below-floor titles is the slow part (~1 h) and found two rivers
   (Eisbach, Breg — the chunk's two most viewed).
 - Humber and Loch Leven re-pointed (`9813fd5`).
-- **Probe 3: `fr-rivers`** (France by department, Belgium by province, the
-  Netherlands by province, Andorra, Monaco; floor 60 km) running.
+- **Probe 3: `fr-rivers` done** (`a1a975e`, report
+  `reports/2026-09-16-fr-rivers.md`): 200 rivers (France, Belgium, the
+  Netherlands), 28 fuzzy traps fixed, Orne re-pointed to Normandy's, eleven
+  French Guiana rivers left for the South America wave. enwiki has only 940
+  French river articles (vs 3,345 German). Jackpot share of the river
+  cohort 3.2% (was 2.7%; 150 of the 200 rows sit at 30 views/mo).
+- **Audits of the de + fr chunks** (Opus data + gameplay + skeptics)
+  running; **probe 4: `it-es-rivers`** (Italy by region, Spain by
+  autonomous community, Portugal) running.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
