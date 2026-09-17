@@ -44,7 +44,9 @@ const EXPECTED = {
     // the 2026-09-16 France / Belgium / Netherlands rivers scouring (reports/2026-09-16-fr-rivers.md); Orne re-pointed to Normandy's
     'Epte', 'Meurthe', 'Odet', 'Huisne', 'Serein', 'Risle', 'Sioule', 'Gartempe', 'Drome', 'Douve', 'Clain', 'Orne', 'Sevre Nantaise', 'Touques', 'Deule',
     // the 2026-09-16 Italy / Spain / Portugal rivers scouring (reports/2026-09-16-it-es-rivers.md)
-    'Rio Tinto', 'Arlanza', 'Adaja', 'Eresma', 'Guadarrama', 'Guadalimar', 'Agri', 'Fortore', 'Busento', 'Tambre', 'Narcea', 'Tajuna', 'Agueda'],
+    'Rio Tinto', 'Arlanza', 'Adaja', 'Eresma', 'Guadarrama', 'Guadalimar', 'Agri', 'Fortore', 'Busento', 'Tambre', 'Narcea', 'Tajuna', 'Agueda',
+    // the 2026-09-16 Nordic rivers scouring (reports/2026-09-16-nordic-rivers.md)
+    'Altaelva', 'Lainio', 'Byske', 'Vasterdal', 'Osterdal', 'Voxnan', 'Anarjohka', 'Kovda', 'Lotta', 'Simojoki', 'Kvina'],
   mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna',
     // the 2026-09-14 expansion
     'Mount Rushmore', 'Devils Tower', 'Kilauea', 'Mount Adams', 'Fitz Roy', 'Torres del Paine', 'Cradle Mountain', 'Mount Aspiring', 'Popocatepetl', 'Arenal', 'Monch', 'Nanda Devi', 'Rakaposhi', 'Sakurajima', 'Mount Kailash', 'Tryfan', 'Croagh Patrick', 'Nyiragongo', 'Hekla', 'Eyjafjallajokull', 'Mount Meru',
