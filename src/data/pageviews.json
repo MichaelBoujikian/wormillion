@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T03:11:35.166Z",
+ "fetched": "2026-09-17T03:15:39.804Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -36041,18 +36041,18 @@
    "lon": 10.96478
   },
   "river-eder": {
-   "title": "Eder (Eggel)",
-   "monthlyViews": 18,
-   "days": 58,
-   "lat": 51.5453,
-   "lon": 9.2064
+   "title": "Eder (Fulda)",
+   "monthlyViews": 335,
+   "days": 59,
+   "lat": 51.216677,
+   "lon": 9.455075
   },
   "river-aller": {
-   "title": "River Aller",
-   "monthlyViews": 30,
-   "days": 60,
-   "lat": 51.2035,
-   "lon": -3.5652
+   "title": "Aller (Germany)",
+   "monthlyViews": 335,
+   "days": 59,
+   "lat": 52.1024528,
+   "lon": 11.2337028
   },
   "river-leine": {
    "title": "Leine",
@@ -36503,11 +36503,11 @@
    "lon": 8.9407
   },
   "river-thur": {
-   "title": "Thur (France)",
-   "monthlyViews": 30,
+   "title": "Thur (Rhine)",
+   "monthlyViews": 183,
    "days": 60,
-   "lat": 47.87555556,
-   "lon": 7.34277778
+   "lat": 47.59277778,
+   "lon": 8.59027778
   },
   "river-toss": {
    "title": "Töss (river)",
@@ -56213,6 +56213,881 @@
    "days": 59,
    "lat": 53.633888,
    "lon": -9.275113
+  },
+  "river-eisbach": {
+   "title": "Eisbach (Isar)",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 48.14666667,
+   "lon": 11.59083333
+  },
+  "river-breg": {
+   "title": "Breg (river)",
+   "monthlyViews": 2131,
+   "days": 59,
+   "lat": 47.9509944,
+   "lon": 8.5204778
+  },
+  "river-saar": {
+   "title": "Saar (river)",
+   "monthlyViews": 1035,
+   "days": 59,
+   "lat": 49.70138889,
+   "lon": 6.56972222
+  },
+  "river-hase": {
+   "title": "Hase",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 52.69111111,
+   "lon": 7.29666667
+  },
+  "river-elz": {
+   "title": "Elz (Rhine)",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-emscher": {
+   "title": "Emscher",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 51.56333333,
+   "lon": 6.68972222
+  },
+  "river-tollense": {
+   "title": "Tollense",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 53.89916667,
+   "lon": 13.0325
+  },
+  "river-murg": {
+   "title": "Murg (Northern Black Forest)",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 48.5325,
+   "lon": 8.288472
+  },
+  "river-vechte": {
+   "title": "Vechte",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 52.56222222,
+   "lon": 6.10111111
+  },
+  "river-bille": {
+   "title": "Bille (Elbe)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 53.54,
+   "lon": 10.02416667
+  },
+  "river-gera": {
+   "title": "Gera (river)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.12694444,
+   "lon": 10.93055556
+  },
+  "river-red-main": {
+   "title": "Red Main",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.8565,
+   "lon": 11.533194
+  },
+  "river-salza": {
+   "title": "Salza (Enns)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.6706,
+   "lon": 14.7275
+  },
+  "river-oude-ijssel": {
+   "title": "Oude IJssel",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 52.01275,
+   "lon": 6.12802778
+  },
+  "river-erft": {
+   "title": "Erft",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 50.48722,
+   "lon": 6.58722
+  },
+  "river-itz": {
+   "title": "Itz",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 49.98305556,
+   "lon": 10.86805556
+  },
+  "river-kyll": {
+   "title": "Kyll",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 49.80333333,
+   "lon": 6.70166667
+  },
+  "river-lenne": {
+   "title": "Lenne",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.415,
+   "lon": 7.49194444
+  },
+  "river-mohne": {
+   "title": "Möhne",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.45694444,
+   "lon": 7.95472222
+  },
+  "river-saalach": {
+   "title": "Saalach",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.85361111,
+   "lon": 13.00138889
+  },
+  "river-schwentine": {
+   "title": "Schwentine",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-uecker": {
+   "title": "Uecker (river)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.75,
+   "lon": 14.067
+  },
+  "river-werre": {
+   "title": "Werre",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.22111111,
+   "lon": 8.82777778
+  },
+  "river-zwickauer-mulde": {
+   "title": "Zwickauer Mulde",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.16027778,
+   "lon": 12.79833333
+  },
+  "river-berkel": {
+   "title": "Berkel",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 52.14027778,
+   "lon": 6.19111111
+  },
+  "river-blies": {
+   "title": "Blies",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 49.11444444,
+   "lon": 7.06666667
+  },
+  "river-bode": {
+   "title": "Bode (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 51.84083333,
+   "lon": 11.77138889
+  },
+  "river-treene": {
+   "title": "Treene (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 54.36833333,
+   "lon": 9.08583333
+  },
+  "river-chiers": {
+   "title": "Chiers",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 49.65833333,
+   "lon": 4.99444444
+  },
+  "river-elde": {
+   "title": "Elde",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 53.1357,
+   "lon": 11.2504
+  },
+  "river-franconian-saale": {
+   "title": "Franconian Saale",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 50.055972,
+   "lon": 9.685
+  },
+  "river-moll": {
+   "title": "Möll",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 46.82722222,
+   "lon": 13.38
+  },
+  "river-nagold": {
+   "title": "Nagold (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 48.88861111,
+   "lon": 8.70444444
+  },
+  "river-niers": {
+   "title": "Niers",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 51.71388889,
+   "lon": 5.9475
+  },
+  "river-recknitz": {
+   "title": "Recknitz",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 54.25194444,
+   "lon": 12.45638889
+  },
+  "river-stor": {
+   "title": "Stör",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 53.82083333,
+   "lon": 9.39166667
+  },
+  "river-wumme": {
+   "title": "Wümme",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 53.172,
+   "lon": 8.743
+  },
+  "river-agger": {
+   "title": "Agger (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 50.80055556,
+   "lon": 7.17416667
+  },
+  "river-aisch": {
+   "title": "Aisch",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 49.78138889,
+   "lon": 11.00888889
+  },
+  "river-diemel": {
+   "title": "Diemel",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 51.6425,
+   "lon": 9.44777778
+  },
+  "river-dinkel": {
+   "title": "Dinkel (river)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 52.50722222,
+   "lon": 6.96305556
+  },
+  "river-este": {
+   "title": "Este (river)",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 53.5362,
+   "lon": 9.7911
+  },
+  "river-fils": {
+   "title": "Fils (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.70638889,
+   "lon": 9.42027778
+  },
+  "river-freiberger-mulde": {
+   "title": "Freiberger Mulde",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 50.70722,
+   "lon": 13.67167
+  },
+  "river-german-thaya": {
+   "title": "German Thaya",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 48.84777778,
+   "lon": 15.49027778
+  },
+  "river-glan": {
+   "title": "Glan (Nahe)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 49.39138889,
+   "lon": 7.27583333
+  },
+  "river-grossache": {
+   "title": "Großache",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 47.3092,
+   "lon": 12.41029
+  },
+  "river-innerste": {
+   "title": "Innerste",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 52.24722222,
+   "lon": 9.825
+  },
+  "river-lavant": {
+   "title": "Lavant (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 46.63944444,
+   "lon": 14.94416667
+  },
+  "river-oste": {
+   "title": "Oste",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.83944444,
+   "lon": 9.01833333
+  },
+  "river-paar": {
+   "title": "Paar (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.77333333,
+   "lon": 11.615
+  },
+  "river-pinka": {
+   "title": "Pinka",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 46.9991,
+   "lon": 16.5897
+  },
+  "river-prum": {
+   "title": "Prüm (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 50.31472222,
+   "lon": 6.46911111
+  },
+  "river-schwechat": {
+   "title": "Schwechat (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.1379,
+   "lon": 16.5603
+  },
+  "river-speyerbach": {
+   "title": "Speyerbach",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.31930556,
+   "lon": 8.44944444
+  },
+  "river-sude": {
+   "title": "Sude (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.372,
+   "lon": 10.6929
+  },
+  "river-waldnaab": {
+   "title": "Waldnaab",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 49.6027972,
+   "lon": 12.1325028
+  },
+  "river-zschopau": {
+   "title": "Zschopau (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 51.12944444,
+   "lon": 13.05194444
+  },
+  "river-abens": {
+   "title": "Abens",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.85722222,
+   "lon": 11.76972222
+  },
+  "river-wetter": {
+   "title": "Wetter (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.29777778,
+   "lon": 8.81166667
+  },
+  "river-bohme": {
+   "title": "Böhme (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 53.09833333,
+   "lon": 9.84194444
+  },
+  "river-dosse": {
+   "title": "Dosse (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.795,
+   "lon": 12.2125
+  },
+  "river-emmer": {
+   "title": "Emmer (Weser)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 52.0568,
+   "lon": 9.3813
+  },
+  "river-erlauf": {
+   "title": "Erlauf (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 48.2134,
+   "lon": 15.1943
+  },
+  "river-nidder": {
+   "title": "Nidder",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.19638,
+   "lon": 8.77582
+  },
+  "river-floha": {
+   "title": "Flöha (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 50.8576,
+   "lon": 13.0639
+  },
+  "river-franconian-rezat": {
+   "title": "Franconian Rezat",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 49.4275,
+   "lon": 10.39639
+  },
+  "river-friedberger-ach": {
+   "title": "Friedberger Ach",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.7375,
+   "lon": 11.061528
+  },
+  "river-fuhse": {
+   "title": "Fuhse",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.62222222,
+   "lon": 10.04888889
+  },
+  "river-grosse-aue": {
+   "title": "Große Aue",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 52.24722222,
+   "lon": 8.54444444
+  },
+  "river-grosse-laber": {
+   "title": "Große Laber",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.89694444,
+   "lon": 12.56027778
+  },
+  "river-grosse-roder": {
+   "title": "Große Röder",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 51.47472222,
+   "lon": 13.46638889
+  },
+  "river-haune": {
+   "title": "Haune",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.86305556,
+   "lon": 9.71861111
+  },
+  "river-helme": {
+   "title": "Helme (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-isen": {
+   "title": "Isen (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.2506,
+   "lon": 12.6722
+  },
+  "river-jeetzel": {
+   "title": "Jeetzel",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 53.15722222,
+   "lon": 11.04388889
+  },
+  "river-kammel": {
+   "title": "Kammel",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.47055556,
+   "lon": 10.37833333
+  },
+  "river-lafnitz": {
+   "title": "Lafnitz (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.37972,
+   "lon": 15.80528
+  },
+  "river-lauchert": {
+   "title": "Lauchert",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.06277778,
+   "lon": 9.26361111
+  },
+  "river-ledava": {
+   "title": "Ledava",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.46888889,
+   "lon": 16.61222222
+  },
+  "river-lieser": {
+   "title": "Lieser (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.272,
+   "lon": 6.856306
+  },
+  "river-locknitz": {
+   "title": "Löcknitz (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 53.3097917,
+   "lon": 11.8320139
+  },
+  "river-mindel": {
+   "title": "Mindel (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.897972,
+   "lon": 10.44
+  },
+  "river-nebel": {
+   "title": "Nebel (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 53.84916667,
+   "lon": 11.99777778
+  },
+  "river-nied": {
+   "title": "Nied",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.39416667,
+   "lon": 6.66611111
+  },
+  "river-nims": {
+   "title": "Nims (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 50.2210361,
+   "lon": 6.490975
+  },
+  "river-nister": {
+   "title": "Nister (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.77583333,
+   "lon": 7.70805556
+  },
+  "river-nuthe": {
+   "title": "Nuthe",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.39527778,
+   "lon": 13.07027778
+  },
+  "river-ohm": {
+   "title": "Ohm (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 50.85416667,
+   "lon": 8.79472222
+  },
+  "river-pfinz": {
+   "title": "Pfinz",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.19305556,
+   "lon": 8.40972222
+  },
+  "river-piesting": {
+   "title": "Piesting",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.0201,
+   "lon": 16.4944
+  },
+  "river-prims": {
+   "title": "Prims",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 49.34055556,
+   "lon": 6.71388889
+  },
+  "river-rabnitz": {
+   "title": "Rabnitz",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 47.7094,
+   "lon": 17.5721
+  },
+  "river-rott": {
+   "title": "Rott (Inn, Neuhaus am Inn)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.45333333,
+   "lon": 13.42555556
+  },
+  "river-salm": {
+   "title": "Salm (Moselle)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 49.84027778,
+   "lon": 6.85222222
+  },
+  "river-schipbeek": {
+   "title": "Schipbeek",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 52.2325,
+   "lon": 6.1647
+  },
+  "river-schmutter": {
+   "title": "Schmutter",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.70972222,
+   "lon": 10.80027778
+  },
+  "river-schwalm": {
+   "title": "Schwalm (Eder)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 51.11777778,
+   "lon": 9.40694444
+  },
+  "river-schwarze-laber": {
+   "title": "Schwarze Laber",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.99611111,
+   "lon": 12.04138889
+  },
+  "river-selke": {
+   "title": "Selke (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 51.873028,
+   "lon": 11.229111
+  },
+  "river-selz": {
+   "title": "Selz (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 49.99583333,
+   "lon": 8.02583333
+  },
+  "river-sinn": {
+   "title": "Sinn (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.385194,
+   "lon": 9.970417
+  },
+  "river-soeste": {
+   "title": "Soeste",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 53.1816,
+   "lon": 7.687
+  },
+  "river-stepenitz": {
+   "title": "Stepenitz (Elbe)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 52.98944444,
+   "lon": 11.74638889
+  },
+  "river-trebel": {
+   "title": "Trebel (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 53.9145,
+   "lon": 13.0197
+  },
+  "river-triesting": {
+   "title": "Triesting",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.06833,
+   "lon": 15.87222
+  },
+  "river-wern": {
+   "title": "Wern",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.0283,
+   "lon": 9.7266
+  },
+  "river-werse": {
+   "title": "Werse",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 51.7580417,
+   "lon": 8.0481083
+  },
+  "river-wesenitz": {
+   "title": "Wesenitz",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.96361111,
+   "lon": 13.89416667
+  },
+  "river-wied": {
+   "title": "Wied (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 50.44138889,
+   "lon": 7.4425
+  },
+  "river-wiesent": {
+   "title": "Wiesent (Regnitz)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 49.71472222,
+   "lon": 11.05194444
+  },
+  "river-wipper": {
+   "title": "Wipper (Saale)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 51.78722222,
+   "lon": 11.71833333
+  },
+  "river-zusam": {
+   "title": "Zusam",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.70972222,
+   "lon": 10.79416667
+  },
+  "river-ortze": {
+   "title": "Örtze",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 52.67139,
+   "lon": 9.93167
+  },
+  "river-schwarzer-schops": {
+   "title": "Schwarzer Schöps",
+   "monthlyViews": 27,
+   "days": 57,
+   "lat": 51.4297,
+   "lon": 14.5239
+  },
+  "river-schwarzach": {
+   "title": "Schwarzach (Naab)",
+   "monthlyViews": 24,
+   "days": 54,
+   "lat": 49.3934,
+   "lon": 12.1529
+  },
+  "river-pesnica": {
+   "title": "Pesnica (river)",
+   "monthlyViews": 21,
+   "days": 60,
+   "lat": 46.4053,
+   "lon": 16.1371
+  },
+  "river-haidenaab": {
+   "title": "Haidenaab",
+   "monthlyViews": 20,
+   "days": 59,
+   "lat": 49.9375,
+   "lon": 11.80167
+  },
+  "river-kraichbach": {
+   "title": "Kraichbach",
+   "monthlyViews": 20,
+   "days": 59,
+   "lat": 49.36333333,
+   "lon": 8.515
+  },
+  "river-untere-argen": {
+   "title": "Untere Argen",
+   "monthlyViews": 20,
+   "days": 56,
+   "lat": 47.6547,
+   "lon": 9.7445
+  },
+  "river-kleine-laber": {
+   "title": "Kleine Laber",
+   "monthlyViews": 19,
+   "days": 55,
+   "lat": 48.9118,
+   "lon": 12.5071
+  },
+  "river-mildenitz": {
+   "title": "Mildenitz (river)",
+   "monthlyViews": 16,
+   "days": 56,
+   "lat": 53.7437,
+   "lon": 11.8337
+  },
+  "river-kainach": {
+   "title": "Kainach (Mur)",
+   "monthlyViews": 13,
+   "days": 56,
+   "lat": 46.8869,
+   "lon": 15.5177
+  },
+  "river-baunach": {
+   "title": "Baunach (river)",
+   "monthlyViews": 12,
+   "days": 57,
+   "lat": 49.9776,
+   "lon": 10.8571
+  },
+  "river-pfreimd": {
+   "title": "Pfreimd (river)",
+   "monthlyViews": 12,
+   "days": 55,
+   "lat": 49.4991,
+   "lon": 12.1772
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

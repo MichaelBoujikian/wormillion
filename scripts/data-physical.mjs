@@ -4421,6 +4421,131 @@ Ballisodare|61
 Owenmore|52
 Deel|63
 Robe|64
+Eisbach|2
+Breg|46
+Saar|246
+Hase|170
+Elz|121
+Emscher|83
+Tollense|96
+Murg|80
+Vechte|182
+Bille|65
+Gera|85
+Red Main|72
+Salza|90
+Oude IJssel|82
+Erft|107
+Itz|79
+Kyll|128
+Lenne|129
+Mohne|65
+Saalach|106
+Schwentine|62
+Uecker|98
+Werre|72
+Zwickauer Mulde|166
+Berkel|115
+Blies|100
+Bode|169
+Treene|95
+Chiers|140
+Elde|220
+Franconian Saale|140
+Moll|84
+Nagold|91
+Niers|113
+Recknitz|72
+Stor|87
+Wumme|121
+Agger|70
+Aisch|83
+Diemel|110
+Dinkel|89
+Este|64
+Fils|63
+Freiberger Mulde|124
+German Thaya|76
+Glan|90
+Grossache|79
+Innerste|101
+Lavant|72
+Oste|156
+Paar|137
+Pinka|100
+Prum|95
+Schwechat|62
+Speyerbach|60
+Sude|85
+Waldnaab|99
+Zschopau|128
+Abens|71
+Wetter|69
+Bohme|72
+Dosse|94
+Emmer|62
+Erlauf|78
+Nidder|69
+Floha|67
+Franconian Rezat|77
+Friedberger Ach|100
+Fuhse|95
+Grosse Aue|88
+Grosse Laber|88
+Grosse Roder|105
+Haune|67
+Helme|65
+Isen|81
+Jeetzel|73
+Kammel|74
+Lafnitz|114
+Lauchert|60
+Ledava|80
+Lieser|74
+Locknitz|66
+Mindel|81
+Nebel|60
+Nied|114
+Nims|61
+Nister|64
+Nuthe|65
+Ohm|61
+Pfinz|60
+Piesting|77
+Prims|91
+Rabnitz|120
+Rott|111
+Salm|63
+Schipbeek|85
+Schmutter|96
+Schwalm|97
+Schwarze Laber|78
+Selke|64
+Selz|63
+Sinn|69
+Soeste|72
+Stepenitz|84
+Trebel|75
+Triesting|64
+Wern|71
+Werse|67
+Wesenitz|83
+Wied|103
+Wiesent|79
+Wipper|85
+Zusam|97
+Ortze|62
+Schwarzer Schops|67
+Schwarzach|95
+Pesnica|69
+Haidenaab|69
+Kraichbach|60
+Untere Argen|70
+Kleine Laber|65
+Mildenitz|62
+Kainach|65
+Baunach|66
+Pfreimd|77
 `;
 
 export const MOUNTAINS = `
