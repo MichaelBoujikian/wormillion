@@ -4954,6 +4954,8 @@ Ore|225|Orealven
 Osterdal|300|Osterdalalven
 Ne|66
 Busento|0
+Sio|116
+Omo|760|Omo River
 `;
 
 export const MOUNTAINS = `
@@ -9844,8 +9846,6 @@ Veierland|4.4
 Veno|6.5
 Veoya|6
 Aedey|1.76
-Omo|4.52
-Sio|1.31
 Hrisey|7.67
 Kastellholmen|0
 Ulvon Island|0

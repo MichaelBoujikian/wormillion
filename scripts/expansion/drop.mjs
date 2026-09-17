@@ -26,8 +26,16 @@ for (const id of ids) {
   if (!e) { console.log(`?? ${id} not in bank`); continue; }
   const rowFile = e.category === 'city' ? 'cities' : 'physical';
   const rowRe = new RegExp(`^${esc(e.name)}\\|[^\\r\\n]*\\r?\\n`, 'm');
-  if (!rowRe.test(text[rowFile])) console.log(`?? ${id}: row "${e.name}|" not found`);
-  text[rowFile] = text[rowFile].replace(rowRe, '');
+  // within the entry's own block: an island named Omo must not take the river Omo with it
+  const BLOCK = { lake: 'LAKES', river: 'RIVERS', mountain: null, desert: 'DESERTS', island: 'ISLANDS', sea_ocean: 'SEAS_OCEANS', city: 'CITIES' }[e.category];
+  let from = 0, to = text[rowFile].length;
+  if (BLOCK) {
+    from = text[rowFile].indexOf(`export const ${BLOCK} = \``);
+    to = text[rowFile].indexOf('`;', from);
+  }
+  const inBlock = text[rowFile].slice(from, to);
+  if (!rowRe.test(inBlock)) console.log(`?? ${id}: row "${e.name}|" not found`);
+  text[rowFile] = text[rowFile].slice(0, from) + inBlock.replace(rowRe, '') + text[rowFile].slice(to);
   const idRe = new RegExp(`^[^\\r\\n]*['"]${esc(id)}['"][^\\r\\n]*\\r?\\n`, 'mg');
   text.titles = text.titles.replace(idRe, '');
   text.oceans = text.oceans.replace(idRe, '');

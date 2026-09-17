@@ -36528,40 +36528,6 @@
   ]
  },
  {
-  "id": "island-omo",
-  "category": "island",
-  "name": "Omo",
-  "aliases": [],
-  "size": 4.52,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Omø\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
-  "magnitude": 61,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Omø",
-  "lat": 55.15,
-  "lon": 11.16666667,
-  "oceans": [
-   "Atlantic"
-  ]
- },
- {
-  "id": "island-sio",
-  "category": "island",
-  "name": "Sio",
-  "aliases": [],
-  "size": 1.31,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Siø\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
-  "magnitude": 61,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Siø",
-  "lat": 54.95416667,
-  "lon": 10.69166667,
-  "oceans": [
-   "Atlantic"
-  ]
- },
- {
   "id": "island-hrisey",
   "category": "island",
   "name": "Hrisey",
