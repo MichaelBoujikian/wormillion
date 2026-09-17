@@ -176,7 +176,12 @@ function spellings(title) {
     // straits and bays carry their bare name as an alias in the bank
     out.add(bare.replace(/^(Strait|Gulf|Bay|Sea) of\s+/i, ''));
   } else {
-    out.add(bare.replace(/\s+River$/i, ''));
+    // "River Avon, Bristol" / "River Ouse, Sussex": enwiki's comma form for
+    // the British namesakes; the bank knows only the bare name
+    const noComma = bare.replace(/,.*$/, '');
+    out.add(noComma);
+    out.add(noComma.replace(/\s+River$/i, ''));
+    out.add(noComma.replace(/^River\s+/i, ''));
   }
   return [...out].filter(Boolean);
 }

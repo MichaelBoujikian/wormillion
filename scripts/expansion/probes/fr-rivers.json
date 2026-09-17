@@ -1,0 +1,31 @@
+{
+  "name": "fr-rivers",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": [
+    "Category:Rivers of France",
+    "Category:Rivers of France by department",
+    "Category:Rivers of Belgium",
+    "Category:Rivers of Belgium by province",
+    "Category:Rivers of the Netherlands",
+    "Category:Rivers of the Netherlands by province",
+    "Category:Rivers of Andorra",
+    "Category:Rivers of Monaco"
+  ],
+  "subcat": "^Category:Rivers of (?!.*( by |stubs|Overseas|Caribbean|Svalbard|Faroe|Greenland))",
+  "lists": [
+    "List of rivers of France",
+    "List of rivers of Belgium",
+    "List of rivers of the Netherlands",
+    "List of rivers of Andorra",
+    "List of rivers of Luxembourg"
+  ],
+  "kind": "(river|tributary|stream|creek|brook|watercourse|torrent|\\bfork\\b|\\bbranch\\b)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|^Rivers of|^Tributaries|^River regulation|^Longest rivers|crossings|River basin$|Watershed$|Valley$|Vale$|Dale$|Glen$|Gorge$|Falls$|Dam$|Reservoir$|Lake$|Bridge$|Aqueduct$|Canal$|Kanal$|Navigation$|Trail$|Path$|Park$|Forest$|Estuary$|Delta$|Weir$|Lock$|Cut$|Drain$|Dyke$|Dike$|Sewer$|Culvert$|Mill$|Way$|Walk$|Railway|Station$|Harbour$|Harbor$|Docks?$|Basin$|Talsperre$|Stausee$|Schleuse|Wasserfall$|Klamm$|Bahn$|Hydroelectric|Power Station$|Power Plant$)",
+  "notKind": "^(reservoir|lake|dam|canal|waterfall|falls|park|glacier|bay|estuary|lagoon|fjord|inlet|strait|sound|swamp|marsh|bog|wetland|island|mountain|hill|range|ridge|massif|trail|bridge|road|valley|gorge|canyon|county|city|town|village|municipality|commune|comune|hamlet|district|neighbourhood|neighborhood|region|department|province|canton|state|weir|lock|mill|railway|station|ship|drainage|navigation|aqueduct|watermill|beach|nature reserve|national park|human settlement|area|street|castle|abbey|church|school|company|hydroelectric|power|spring|thermal|cave|karst|delta|former|historic)",
+  "sizeProp": "P2043",
+  "sizeUnit": "km",
+  "minSize": 60,
+  "famousViews": 1000,
+  "spellings": "river"
+}

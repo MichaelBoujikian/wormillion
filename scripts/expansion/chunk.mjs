@@ -42,7 +42,9 @@ const countryNames = new Set(String(COUNTRIES || '').split(/\r?\n/).map((l) => l
 function bankName(title) {
   let n = title.replace(/\s*\([^)]*\)\s*$/, '').trim();
   if (cfg.category === 'river') {
-    const bare = n.replace(/^River\s+/, '').replace(/\s+River$/, '');
+    // "River Avon, Bristol" is how enwiki tells the British Avons apart; the
+    // bank has no comma names, so the bare one goes in or collides and drops
+    const bare = n.replace(/,.*$/, '').replace(/^River\s+/, '').replace(/\s+River$/, '');
     n = US_STATES.has(bare) || countryNames.has(bare) ? bare + ' River' : bare;
   }
   if (cfg.category === 'city') n = n.replace(/,.*$/, '').replace(/^City of /, '');

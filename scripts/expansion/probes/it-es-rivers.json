@@ -1,0 +1,27 @@
+{
+  "name": "it-es-rivers",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": [
+    "Category:Rivers of Italy",
+    "Category:Rivers of Italy by region",
+    "Category:Rivers of Spain",
+    "Category:Rivers of Spain by autonomous community",
+    "Category:Rivers of Portugal"
+  ],
+  "subcat": "^Category:Rivers of (?!.*( by |stubs|Overseas|Caribbean|Svalbard|Faroe|Greenland))",
+  "lists": [
+    "List of rivers of Italy",
+    "List of rivers of Spain",
+    "List of rivers of Portugal",
+    "List of rivers of the Iberian Peninsula"
+  ],
+  "kind": "(river|tributary|stream|creek|brook|watercourse|torrent|\\bfork\\b|\\bbranch\\b)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|^Rivers of|^Tributaries|^River regulation|^Longest rivers|crossings|River basin$|Watershed$|Valley$|Vale$|Dale$|Glen$|Gorge$|Falls$|Dam$|Reservoir$|Lake$|Bridge$|Aqueduct$|Canal$|Kanal$|Navigation$|Trail$|Path$|Park$|Forest$|Estuary$|Delta$|Weir$|Lock$|Cut$|Drain$|Dyke$|Dike$|Sewer$|Culvert$|Mill$|Way$|Walk$|Railway|Station$|Harbour$|Harbor$|Docks?$|Basin$|Talsperre$|Stausee$|Schleuse|Wasserfall$|Klamm$|Bahn$|Hydroelectric|Power Station$|Power Plant$)",
+  "notKind": "^(reservoir|lake|dam|canal|waterfall|falls|park|glacier|bay|estuary|lagoon|fjord|inlet|strait|sound|swamp|marsh|bog|wetland|island|mountain|hill|range|ridge|massif|trail|bridge|road|valley|gorge|canyon|county|city|town|village|municipality|commune|comune|hamlet|district|neighbourhood|neighborhood|region|department|province|canton|state|weir|lock|mill|railway|station|ship|drainage|navigation|aqueduct|watermill|beach|nature reserve|national park|human settlement|area|street|castle|abbey|church|school|company|hydroelectric|power|spring|thermal|cave|karst|delta|former|historic)",
+  "sizeProp": "P2043",
+  "sizeUnit": "km",
+  "minSize": 60,
+  "famousViews": 1000,
+  "spellings": "river"
+}
