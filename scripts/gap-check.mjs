@@ -91,7 +91,7 @@ for (const [category, answers] of Object.entries(EXPECTED)) {
   for (const answer of answers) {
     const result = matching.matchAnswer(answer, lookup, new Set());
     if (result.status === 'unrecognized') gaps.push(answer);
-    else if (result.status === 'corrected') corrected += 1;
+    else if (result.status === 'corrected') { corrected += 1; console.log(`  ${category}: "${answer}" lands only by correction -> ${result.matched}`); }
   }
   missing += gaps.length;
   console.log(
