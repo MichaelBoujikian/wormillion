@@ -6881,6 +6881,331 @@ White Oak Mountain|456
 Wolfs Head|3708
 Wyoming Peak|3470
 Ypsilon Mountain|4121
+Hill of Tara|155
+Pendle Hill|557
+The Storr|719
+Montpelier Hill|383
+Hill of Uisneach|182
+North Berwick Law|187
+Croaghaun|688
+Great Sugar Loaf|501
+Chanctonbury Ring|242
+Luggala|595
+The Roaches|505
+Garth Hill|307
+Slievenamon|721
+Cavehill|368
+Nephin|806
+Winter Hill|456
+Paps of Anu|694
+Eildon Hill|422
+Stiperstones|536
+Bredon Hill|299
+Devil's Bit|480
+Slemish|437
+Bardon Hill|278
+Garnedd Ugain|1065
+Killiney Hill|153
+Muckish|667
+Titterstone Clee Hill|533
+Clisham|799
+Caer Caradoc|459
+Tap o' Noth|563
+Walbury Hill|297
+Castle Crag|290
+Conic Hill|361
+Yr Eifl|561
+Blackdown|280
+Dundee Law|174
+Nine Standards Rigg|662
+Ben Lui|1130
+Djouce|725
+Sgurr Dearg|986
+Ben Vrackie|842
+Brown Clee Hill|540
+Croghan Hill|234
+Holyhead Mountain|220
+Cairnpapple Hill|312
+Chrome Hill|425
+Cnicht|691
+Divis|478
+Rhos Fawr|660
+Hergest Ridge|426
+Kippure|757
+Black Combe|600
+Mickle Fell|788
+Orrest Head|238
+Ronas Hill|450
+Ben Chonzie|931
+Dumyat|418
+Hill of Allen|206
+Sliabh an Iarainn|585
+St Boniface Down|241
+Thorpe Cloud|287
+Urra Moor|454
+Billinge Hill|179
+Binevenagh|385
+Cadair Berwyn|832
+Fan Brycheiniog|803
+Latrigg|368
+Mount Gabriel|407
+Twmpa|690
+Benbaun|729
+Beinn Narnain|926
+Helm Crag|405
+May Hill|296
+Pap of Glencoe|742
+Pen yr Ole Wen|978
+Slieve Foy|589
+Slievemore|671
+The Devil's Point|1004
+Torc Mountain|535
+Drygarn Fawr|645
+Gummer's How|321
+Hungry Hill|685
+Quinag|808
+Raven Crag|461
+Ward's Stone|561
+Arenig Fawr|854
+Wansfell|487
+Black Down|325
+Beinn Dorain|1076
+Ben Rinnes|841
+Caherconree|835
+Criffel|570
+Great Whernside|704
+Kit Hill|334
+Moel Hebog|784
+Mullaghmore|180
+Wolds Top|168
+Purple Mountain|832
+Slieve Binnian|746
+Slieve Croob|534
+Three Rock Mountain|448
+Y Lliwedd|898
+Axe Edge Moor|551
+Beenkeragh|1008
+Beinn Alligin|986
+Beinn Ime|1011
+Botley Hill|270
+Cnoc na Peiste|988
+Creag Meagaidh|1130
+Eldon Hill|470
+Fleetwith Pike|648
+Geokaun|266
+Hill of Ward|90
+Lewesdon Hill|279
+Mynydd Mawr|698
+Pavey Ark|700
+Slieve Gallion|528
+Stuc a' Chroin|975
+Turlough Hill|681
+Tonelagee|817
+Truskmore|647
+Walla Crag|379
+Ben Cleuch|721
+Aonach Beag|1234
+Beinn a' Bheithir|1024
+Ben Vane|915
+Ben Venue|730
+Broad Crag|934
+Buachaille Etive Beag|958
+Castell y Gwynt|972
+Catstye Cam|890
+Glaramara|783
+Elidir Fawr|924
+Foel Cwmcerwyn|536
+Hallin Fell|388
+Harrison Stickle|736
+Knocknashee|276
+Moylussa|532
+Mynydd Bodafon|178
+Pike of Stickle|709
+Rhinog Fawr|720
+Scald Law|579
+An Sgurr|393
+Arderin|527
+Picws Du|749
+Ben More Assynt|998
+Benbradagh|465
+Binsey|447
+Bishop Wilton Wold|248
+Black Chew Head|542
+Crinkle Crags|859
+Dale Head|753
+Red Pike|755
+Dodd|502
+Glamaig|775
+Gowbarrow Fell|481
+Grasmoor|852
+Great Shunner Fell|716
+Green Gable|801
+Keeper Hill|694
+Knockboy|706
+Meikle Bin|570
+Breidden Hill|367
+Mullaghmeen|258
+Mynydd Carningli|346
+Red Screes|776
+Sgor Gaoith|1118
+Slieve Beagh|380
+Two Rock|536
+Wild Boar Fell|708
+Yewbarrow|628
+A' Mhaighdean|967
+Baurtregaum|851
+Beinn a' Ghlo|1122
+Ben Stack|721
+Blackstairs Mountain|735
+Boulsworth Hill|517
+Buckden Pike|702
+Carrock Fell|661
+Croaghgorm|674
+Cul Mor|849
+Dduallt|662
+Dow Crag|778
+Foinaven|911
+Great Cockup|526
+Harboro' Rocks|379
+High Pike|658
+High Raise|762
+High Spy|653
+Ill Crag|935
+Kidsty Pike|780
+Knockmealdown|792
+Lingmoor Fell|469
+Little Sugar Loaf|342
+Maumtrasna|682
+Mull Hill|169
+Mullaghcleevaun|849
+Parkhouse Hill|360
+Rannerdale Knotts|355
+Rubers Law|424
+Slieve Snaght|615
+Tegg's Nose|380
+The Bones|957
+Trostan|551
+Windy Gyle|619
+Alport Height|314
+Arnside Knott|159
+Arthur's Pike|533
+Barrow|455
+Beinn Ghlas|1103
+Beinn Mhor|741
+Beinn na Caillich|732
+Ben Donich|847
+Ben Klibreck|962
+Benarty Hill|356
+Black Fell|323
+Wetherlam|763
+Canisp|847
+Carn Eighe|1183
+Carn Fadryn|371
+Carnedd Gwenllian|925
+Cheeks Hill|520
+Clermont Carn|510
+Corndon Hill|514
+Craig y Llyn|600
+Dundry Hill|223
+Foel Grach|975
+Foel-fras|944
+Great Dodd|857
+Grey Knotts|697
+Hedgehope Hill|714
+High Stile|807
+Kirk Fell|802
+Ladhar Bheinn|1020
+Long Mountain|408
+Longridge Fell|350
+Lord's Seat|552
+Meall Fuar-mhonaidh|699
+Meall nan Tarmachan|1043
+Moel Eilio|726
+Moel Sych|827
+Mullaghanish|649
+Mullaghmast|179
+Nethermost Pike|891
+Pike o' Blisco|705
+Robinson|737
+Rushup Edge|550
+Slieve Bearnagh|739
+Slieve Commedagh|767
+St Sunday Crag|841
+The Big Gun|939
+The Cairnwell|933
+The Calf|676
+West Lomond|522
+Wills Neck|384
+Y Llethr|756
+Yr Elen|962
+Ardloughnabrackbaddy|473
+Arkle|787
+Beinn Dearg|1084
+Beinn an Oir|785
+Ben Lugmore|803
+Ben Mor Coigach|743
+Derryclare|677
+Burbage Edge|500
+Burnhope Seat|747
+Caher Mountain|1000
+Cairnsmore of Fleet|711
+Calf Top|610
+Carn Clonhugh|278
+Carrickgollogan|276
+Causey Pike|637
+Clough Head|726
+Cosdon Hill|550
+Crag Hill|839
+Creag Dhubh|756
+Dent|352
+Dollywaggon Pike|858
+Earl's Seat|578
+Errisbeg|300
+Eyam Moor|429
+Fan Fawr|734
+Foel Fenlli|511
+Garn Boduan|279
+Glas Maol|1068
+Gragareth|627
+Great Mell Fell|537
+Hard Knott|549
+Heron Pike|612
+High Crag|744
+High Rigg|357
+High Seat|608
+Holme Fell|317
+Knocknadobar|690
+Lingmell|807
+Margery Hill|546
+Maulin|570
+Mealaisbhal|574
+Meall a' Bhuachaille|810
+Mellbreak|512
+Moelwyn Mawr|770
+Mungrisdale Common|633
+Mynydd Troed|609
+Nephin Beg|627
+Pen Cerrig-calch|701
+Penycloddiau|440
+Raise|883
+Rhinog Fach|712
+Ros Hill|315
+Sale Fell|359
+Seathwaite Fell|632
+Sgor an Lochain Uaine|1258
+Sheffield Pike|675
+Silver How|395
+Slieve Muck|670
+South Barrule|483
+Souther Fell|522
+Stob Binnein|1165
+Tal y Fan|610
+The Nab|576
+Tibradden Mountain|467
+Tievebulliagh|402
+Walna Scar|621
+Whinlatter|525
+Yr Aran|747
 `;
 
 export const MINOR_PEAKS = `

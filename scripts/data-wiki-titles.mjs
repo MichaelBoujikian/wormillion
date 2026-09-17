@@ -5915,6 +5915,42 @@ export const WIKI_TITLES = {
   "lake-lohjanjarvi": "Lohjanjärvi",
   "lake-roine": "Roine (Finland)",
   "lake-selbusjoen": "Selbusjøen",
+
+  // --- mountain (2026-09-14 expansion) ---
+  "mountain-winter-hill": "Winter Hill (North West England)",
+  "mountain-blackdown": "Blackdown, West Sussex",
+  "mountain-sgurr-dearg": "Sgùrr Dearg",
+  "mountain-may-hill": "May Hill, Gloucestershire",
+  "mountain-black-down": "Black Down, Somerset",
+  "mountain-mullaghmore": "Mullaghmore, County Clare",
+  "mountain-purple-mountain": "Purple Mountain (Kerry)",
+  "mountain-beinn-ime": "Beinn Ìme",
+  "mountain-cnoc-na-peiste": "Cnoc na Péiste",
+  "mountain-stuc-a-chroin": "Stùc a' Chroin",
+  "mountain-an-sgurr": "An Sgùrr (Eigg)",
+  "mountain-binsey": "Binsey, Cumbria",
+  "mountain-red-pike": "Red Pike (Buttermere)",
+  "mountain-dodd": "Dodd (Lake District)",
+  "mountain-sgor-gaoith": "Sgòr Gaoith",
+  "mountain-beinn-a-ghlo": "Beinn a' Ghlò",
+  "mountain-cul-mor": "Cùl Mòr",
+  "mountain-high-raise": "High Raise (Langdale)",
+  "mountain-barrow": "Barrow (Lake District)",
+  "mountain-beinn-mhor": "Beinn Mhòr (Cowal)",
+  "mountain-beinn-na-caillich": "Beinn na Caillich (Red Hills)",
+  "mountain-black-fell": "Black Fell (Lake District)",
+  "mountain-carn-eighe": "Càrn Eighe",
+  "mountain-long-mountain": "Long Mountain (Powys)",
+  "mountain-robinson": "Robinson (Lake District)",
+  "mountain-arkle": "Arkle (Sutherland)",
+  "mountain-beinn-dearg": "Beinn Dearg (Ullapool)",
+  "mountain-beinn-an-oir": "Beinn an Òir",
+  "mountain-caher-mountain": "Caher Mountain (Kerry)",
+  "mountain-creag-dhubh": "Creag Dhubh (Newtonmore)",
+  "mountain-dent": "Dent (fell)",
+  "mountain-high-seat": "High Seat (Lake District)",
+  "mountain-raise": "Raise (Lake District)",
+  "mountain-sgor-an-lochain-uaine": "Sgòr an Lochain Uaine"
 };
 
 /**
@@ -6367,5 +6403,16 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-16 uk-rivers audits: Humber scored on Humber River (Ontario), Loch Leven on Loch Leven (California), both in the British Isles theme ---
   "river-humber",
   // --- Breg (river): the description is just 'Baden-Württemberg, Germany'; it is the Danube's longer source river ---
-  "river-breg"
+  "river-breg",
+  // --- uk-mountains probe (2026-09-17): hills and Marilyns whose short description says archaeological complex / natural feature / landmark / reef knoll / Marilyn / nothing ---
+  "mountain-bardon-hill",
+  "mountain-ben-stack",
+  "mountain-bredon-hill",
+  "mountain-chrome-hill",
+  "mountain-hedgehope-hill",
+  "mountain-hill-of-tara",
+  "mountain-kidsty-pike",
+  "mountain-knocknashee",
+  "mountain-meall-a-bhuachaille",
+  "mountain-sheffield-pike"
 ]);
