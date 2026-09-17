@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T03:54:35.694Z",
+ "fetched": "2026-09-17T05:35:58.340Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -58488,6 +58488,895 @@
    "days": 58,
    "lat": 43.47361111,
    "lon": 0.03138889
+  },
+  "river-rio-tinto": {
+   "title": "Rio Tinto (river)",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 37.21,
+   "lon": -6.938
+  },
+  "river-busento": {
+   "title": "Busento",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 39.2925,
+   "lon": 16.259
+  },
+  "river-guadalevin": {
+   "title": "Guadalevín",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.739975,
+   "lon": -5.16801667
+  },
+  "river-arlanza": {
+   "title": "Arlanza (river)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.03084167,
+   "lon": -3.59454444
+  },
+  "river-oja": {
+   "title": "Oja (river)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.56666667,
+   "lon": -2.91666667
+  },
+  "river-irati": {
+   "title": "Irati (river)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 42.59055556,
+   "lon": -1.27333333
+  },
+  "river-maira": {
+   "title": "Maira (river)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.8403,
+   "lon": 7.65
+  },
+  "river-senio": {
+   "title": "Senio",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.5475,
+   "lon": 12.0954
+  },
+  "river-torre": {
+   "title": "Torre (river)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.815,
+   "lon": 13.427
+  },
+  "river-adaja": {
+   "title": "Adaja",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-almanzora": {
+   "title": "Almanzora (river)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 37.2387,
+   "lon": -1.77687
+  },
+  "river-deva": {
+   "title": "Deva (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-eresma": {
+   "title": "Eresma River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 41.44378,
+   "lon": -4.75404
+  },
+  "river-esino": {
+   "title": "Esino",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 43.6428,
+   "lon": 13.373
+  },
+  "river-mundo": {
+   "title": "Mundo (river)",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 38.31472222,
+   "lon": -1.66916667
+  },
+  "river-orco": {
+   "title": "Orco",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 45.18333333,
+   "lon": 7.875
+  },
+  "river-piedra": {
+   "title": "Piedra (Spain)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 41.319,
+   "lon": -1.81
+  },
+  "river-santerno": {
+   "title": "Santerno",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 44.5674,
+   "lon": 11.9637
+  },
+  "river-sillaro": {
+   "title": "Sillaro",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 44.5786,
+   "lon": 11.8714
+  },
+  "river-sinni": {
+   "title": "Sinni (river)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 40.1529,
+   "lon": 16.6917
+  },
+  "river-tambre": {
+   "title": "Tambre (river)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 42.8282,
+   "lon": -8.873
+  },
+  "river-agri": {
+   "title": "Agri (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 40.2223,
+   "lon": 16.7411
+  },
+  "river-alva": {
+   "title": "Alva River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 40.29583333,
+   "lon": -8.24611111
+  },
+  "river-amendolea": {
+   "title": "Amendolea",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.9267,
+   "lon": 15.8886
+  },
+  "river-belbo": {
+   "title": "Belbo",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 44.895,
+   "lon": 8.5259
+  },
+  "river-bernesga": {
+   "title": "Bernesga",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-cedrino": {
+   "title": "Cedrino",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 40.3796,
+   "lon": 9.7397
+  },
+  "river-ceno": {
+   "title": "Ceno",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 44.6928,
+   "lon": 10.0919
+  },
+  "river-cervo": {
+   "title": "Cervo (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 45.3682,
+   "lon": 8.4033
+  },
+  "river-clitunno": {
+   "title": "Clitunno",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-enza": {
+   "title": "Enza",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 44.9091,
+   "lon": 10.5223
+  },
+  "river-foglia": {
+   "title": "Foglia",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 43.9238,
+   "lon": 12.9013
+  },
+  "river-fortore": {
+   "title": "Fortore",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 41.9199,
+   "lon": 15.293
+  },
+  "river-gela": {
+   "title": "Gela (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 37.0579,
+   "lon": 14.2603
+  },
+  "river-guadalentin": {
+   "title": "Guadalentín",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.9917,
+   "lon": -1.0728
+  },
+  "river-guadarrama": {
+   "title": "Guadarrama (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 39.882052,
+   "lon": -4.169262
+  },
+  "river-idice": {
+   "title": "Idice",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 44.5787,
+   "lon": 11.8724
+  },
+  "river-lozoya": {
+   "title": "Lozoya (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 40.8735,
+   "lon": -3.455
+  },
+  "river-lerez": {
+   "title": "Lérez",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 42.417727,
+   "lon": -8.673988
+  },
+  "river-najerilla": {
+   "title": "Najerilla",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-narcea": {
+   "title": "Narcea (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.466667,
+   "lon": -6.116667
+  },
+  "river-nure": {
+   "title": "Nure",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 45.0595,
+   "lon": 9.834
+  },
+  "river-orba": {
+   "title": "Orba (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 44.8724,
+   "lon": 8.6169
+  },
+  "river-paglia": {
+   "title": "Paglia (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 42.6945,
+   "lon": 12.1959
+  },
+  "river-sacco": {
+   "title": "Sacco (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 41.5203,
+   "lon": 13.5432
+  },
+  "river-serpis": {
+   "title": "Serpis",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 38.70224444,
+   "lon": -0.47027778
+  },
+  "river-trigno": {
+   "title": "Trigno",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 42.063,
+   "lon": 14.7968
+  },
+  "river-zadorra": {
+   "title": "Zadorra",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 42.6675,
+   "lon": 2.89972222
+  },
+  "river-agueda": {
+   "title": "Águeda (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 41.02833333,
+   "lon": -6.93111111
+  },
+  "river-agogna": {
+   "title": "Agogna",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.0661,
+   "lon": 8.9102
+  },
+  "river-albegna": {
+   "title": "Albegna",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 42.5015,
+   "lon": 11.192
+  },
+  "river-alhama": {
+   "title": "Alhama (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 42.1839,
+   "lon": -1.7181
+  },
+  "river-anoia": {
+   "title": "Anoia (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 41.58519722,
+   "lon": 1.56402778
+  },
+  "river-ardila": {
+   "title": "Ardila",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 38.2,
+   "lon": -7.46666667
+  },
+  "river-arnoia": {
+   "title": "Arnoia (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 42.25438889,
+   "lon": -8.15241667
+  },
+  "river-aso": {
+   "title": "Aso (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.103,
+   "lon": 13.8422
+  },
+  "river-barbate": {
+   "title": "Barbate (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 36.36666667,
+   "lon": -5.72888889
+  },
+  "river-bidente-ronco": {
+   "title": "Bidente-Ronco",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 44.3965,
+   "lon": 12.2006
+  },
+  "river-cadagua": {
+   "title": "Cadagua",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.28694444,
+   "lon": -2.97138889
+  },
+  "river-calore-lucano": {
+   "title": "Calore Lucano",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 40.505,
+   "lon": 15.01944444
+  },
+  "river-candigliano": {
+   "title": "Candigliano",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.6744,
+   "lon": 12.7541
+  },
+  "river-carapelle": {
+   "title": "Carapelle (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 41.4929,
+   "lon": 15.9258
+  },
+  "river-cea": {
+   "title": "Cea (river)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 41.9992,
+   "lon": -5.6033
+  },
+  "river-cega": {
+   "title": "Cega (river)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": null,
+   "lon": null
+  },
+  "river-chanza": {
+   "title": "Chanza River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 37.5546,
+   "lon": -7.5229
+  },
+  "river-chiascio": {
+   "title": "Chiascio",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.01833333,
+   "lon": 12.43055556
+  },
+  "river-cidacos": {
+   "title": "Cidacos",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 42.21055556,
+   "lon": -2.20583333
+  },
+  "river-ciguela": {
+   "title": "Cigüela",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 39.23333333,
+   "lon": -3.41666667
+  },
+  "river-corno": {
+   "title": "Corno (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 42.8273,
+   "lon": 12.9377
+  },
+  "river-dittaino": {
+   "title": "Dittaino",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 37.42,
+   "lon": 14.9812
+  },
+  "river-duraton": {
+   "title": "Duratón (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-ega": {
+   "title": "Ega (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 42.32833333,
+   "lon": -1.91944444
+  },
+  "river-eo": {
+   "title": "Eo (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.5505,
+   "lon": -7.0311
+  },
+  "river-esgueva": {
+   "title": "Esgueva",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-gallo": {
+   "title": "Gallo (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-gornalunga": {
+   "title": "Gornalunga",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 37.401,
+   "lon": 15.0608
+  },
+  "river-guadalimar": {
+   "title": "Guadalimar",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 37.98333333,
+   "lon": -3.73333333
+  },
+  "river-guadalmellato": {
+   "title": "Guadalmellato",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 37.93333333,
+   "lon": -4.63333333
+  },
+  "river-guadalmena": {
+   "title": "Guadalmena",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 38.3127,
+   "lon": -2.9384
+  },
+  "river-guadaira": {
+   "title": "Guadaíra",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 37.173791,
+   "lon": -6.10239
+  },
+  "river-guadiamar": {
+   "title": "Guadiamar",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 36.90333333,
+   "lon": -6.33472222
+  },
+  "river-guadiana-menor": {
+   "title": "Guadiana Menor",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 37.9354,
+   "lon": -3.2575
+  },
+  "river-guadiela": {
+   "title": "Guadiela",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 40.3625,
+   "lon": -2.8162
+  },
+  "river-gevora": {
+   "title": "Gévora (river)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": null,
+   "lon": null
+  },
+  "river-isabena": {
+   "title": "Isábena (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 42.18333333,
+   "lon": 0.33333333
+  },
+  "river-jabalon": {
+   "title": "Jabalón",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 38.88975,
+   "lon": -4.09098
+  },
+  "river-lamone": {
+   "title": "Lamone (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 44.5271,
+   "lon": 12.2797
+  },
+  "river-magro": {
+   "title": "Magro (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 39.18539,
+   "lon": -0.41206
+  },
+  "river-matarranya": {
+   "title": "Matarranya (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 41.18358056,
+   "lon": 0.16403056
+  },
+  "river-merse": {
+   "title": "Merse (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.0761,
+   "lon": 11.3639
+  },
+  "river-montone": {
+   "title": "Montone (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 44.3965,
+   "lon": 12.2006
+  },
+  "river-musone": {
+   "title": "Musone",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.4739,
+   "lon": 13.6419
+  },
+  "river-nela": {
+   "title": "Nela (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 43.01055556,
+   "lon": -3.74
+  },
+  "river-neto": {
+   "title": "Neto (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 39.2057,
+   "lon": 17.148
+  },
+  "river-nora": {
+   "title": "Nora (Spain)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.41879,
+   "lon": -5.89186
+  },
+  "river-oca": {
+   "title": "Oca (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 42.767213,
+   "lon": -3.433021
+  },
+  "river-potenza": {
+   "title": "Potenza (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.4238,
+   "lon": 13.6705
+  },
+  "river-saja": {
+   "title": "Saja (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 43.435,
+   "lon": -4.035
+  },
+  "river-sorbe": {
+   "title": "Sorbe",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-tajuna": {
+   "title": "Tajuña",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 40.12861111,
+   "lon": -3.5825
+  },
+  "river-tammaro": {
+   "title": "Tammaro",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 41.1466,
+   "lon": 14.832
+  },
+  "river-tanagro": {
+   "title": "Tanagro",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 40.6335,
+   "lon": 15.2301
+  },
+  "river-tenna": {
+   "title": "Tenna (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.2343,
+   "lon": 13.7779
+  },
+  "river-tera": {
+   "title": "Tera River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 41.8992,
+   "lon": -5.7395
+  },
+  "river-tiron": {
+   "title": "Tirón River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 42.57861111,
+   "lon": -2.84055556
+  },
+  "river-trabancos": {
+   "title": "Trabancos (river)",
+   "monthlyViews": 30,
+   "days": 47,
+   "lat": 41.449,
+   "lon": -5.184
+  },
+  "river-urola": {
+   "title": "Urola (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 42.99027778,
+   "lon": -2.33
+  },
+  "river-varaita": {
+   "title": "Varaita",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 44.82111111,
+   "lon": 7.60777778
+  },
+  "river-vomano": {
+   "title": "Vomano",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 42.655,
+   "lon": 14.0379
+  },
+  "river-zancara": {
+   "title": "Záncara",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 39.4,
+   "lon": -2.95
+  },
+  "river-odelouca": {
+   "title": "Odelouca River",
+   "monthlyViews": 27,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-samoggia": {
+   "title": "Samoggia",
+   "monthlyViews": 25,
+   "days": 58,
+   "lat": 44.6869,
+   "lon": 11.2626
+  },
+  "river-cua": {
+   "title": "River Cúa",
+   "monthlyViews": 24,
+   "days": 58,
+   "lat": 42.52875,
+   "lon": -6.78226
+  },
+  "river-terdoppio": {
+   "title": "Terdoppio",
+   "monthlyViews": 24,
+   "days": 58,
+   "lat": 45.1082,
+   "lon": 9.077
+  },
+  "river-valderaduey": {
+   "title": "Valderaduey",
+   "monthlyViews": 24,
+   "days": 59,
+   "lat": 41.5129,
+   "lon": -5.7082
+  },
+  "river-almonte": {
+   "title": "Almonte (river)",
+   "monthlyViews": 23,
+   "days": 60,
+   "lat": 39.6842,
+   "lon": -6.45996
+  },
+  "river-alcanadre": {
+   "title": "Alcanadre (river)",
+   "monthlyViews": 22,
+   "days": 58,
+   "lat": 41.617367,
+   "lon": 0.205436
+  },
+  "river-algodor": {
+   "title": "Algodor River",
+   "monthlyViews": 20,
+   "days": 57,
+   "lat": 39.9,
+   "lon": -3.86666667
+  },
+  "river-corcoles": {
+   "title": "Córcoles",
+   "monthlyViews": 20,
+   "days": 54,
+   "lat": 38.99293,
+   "lon": -2.43605
+  },
+  "river-bergantes": {
+   "title": "Bergantes (river)",
+   "monthlyViews": 19,
+   "days": 54,
+   "lat": 40.863,
+   "lon": -0.2098
+  },
+  "river-mula": {
+   "title": "River Mula (Spain)",
+   "monthlyViews": 18,
+   "days": 56,
+   "lat": 38.03666667,
+   "lon": -1.22388889
+  },
+  "river-huebra": {
+   "title": "Huebra",
+   "monthlyViews": 17,
+   "days": 56,
+   "lat": 41.035,
+   "lon": -6.808
+  },
+  "river-rabbi": {
+   "title": "Rabbi (river)",
+   "monthlyViews": 17,
+   "days": 56,
+   "lat": 44.2114,
+   "lon": 12.0272
+  },
+  "river-valdemembra": {
+   "title": "Valdemembra",
+   "monthlyViews": 16,
+   "days": 49,
+   "lat": 39.15,
+   "lon": -1.71666667
+  },
+  "river-valdavia": {
+   "title": "Valdavia River",
+   "monthlyViews": 15,
+   "days": 53,
+   "lat": 42.39147,
+   "lon": -4.27501
+  },
+  "river-zujar": {
+   "title": "Zújar (river)",
+   "monthlyViews": 15,
+   "days": 57,
+   "lat": 39,
+   "lon": -5.76666667
+  },
+  "river-matachel": {
+   "title": "Matachel River",
+   "monthlyViews": 12,
+   "days": 55,
+   "lat": 38.8321,
+   "lon": -6.2799
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",
