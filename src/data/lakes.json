@@ -2222,10 +2222,12 @@
   "aliases": [],
   "size": 13.3,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Loch Leven (California)\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 91,
+  "source": "English Wikipedia pageviews for \"Loch Leven (Kinross)\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 1370,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Loch Leven (California)"
+  "wikiTitle": "Loch Leven (Kinross)",
+  "lat": 56.20019,
+  "lon": -3.37963
  },
  {
   "id": "lake-loch-coruisk",

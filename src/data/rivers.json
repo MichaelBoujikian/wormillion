@@ -1978,12 +1978,12 @@
   "aliases": [],
   "size": 62,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Humber River (Ontario)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 1218,
+  "source": "English Wikipedia pageviews for \"Humber\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "magnitude": 5114,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Humber River (Ontario)",
-  "lat": 43.63222222,
-  "lon": -79.47194444
+  "wikiTitle": "Humber",
+  "lat": 53.5427,
+  "lon": 0.0923
  },
  {
   "id": "river-tyne",

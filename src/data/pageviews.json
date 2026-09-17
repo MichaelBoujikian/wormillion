@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T01:47:59.356Z",
+ "fetched": "2026-09-17T03:11:35.166Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -26374,11 +26374,11 @@
    "lon": -4.2025
   },
   "lake-loch-leven": {
-   "title": "Loch Leven (California)",
-   "monthlyViews": 91,
+   "title": "Loch Leven (Kinross)",
+   "monthlyViews": 1370,
    "days": 60,
-   "lat": null,
-   "lon": null
+   "lat": 56.20019,
+   "lon": -3.37963
   },
   "lake-loch-coruisk": {
    "title": "Loch Coruisk",
@@ -34389,11 +34389,11 @@
    "lon": null
   },
   "river-humber": {
-   "title": "Humber River (Ontario)",
-   "monthlyViews": 1218,
+   "title": "Humber",
+   "monthlyViews": 5114,
    "days": 60,
-   "lat": 43.63222222,
-   "lon": -79.47194444
+   "lat": 53.5427,
+   "lon": 0.0923
   },
   "river-tyne": {
    "title": "River Tyne",

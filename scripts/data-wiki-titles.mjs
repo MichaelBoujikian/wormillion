@@ -2407,7 +2407,7 @@ export const WIKI_TITLES = {
   "city-zabbar": "Żabbar",
   "city-drama": "Drama, Greece",
   // --- river auto-resolved titles (2026-09-14 expansion) ---
-  "river-humber": "Humber River (Ontario)",
+  "river-humber": "Humber",
   "river-turiec": "Turiec (Váh)",
   "river-kalitva": "Chyornaya Kalitva",
   "river-clark-fork": "Clark Fork River",
@@ -3061,7 +3061,7 @@ export const WIKI_TITLES = {
   "city-selfoss": "Selfoss (town)",
 
   // --- lake (2026-09-14 expansion) ---
-  "lake-loch-leven": "Loch Leven (California)",
+  "lake-loch-leven": "Loch Leven (Kinross)",
   "lake-loch-garry": "Loch Garry",
   "lake-lough-derg": "Lough Derg (Shannon)",
   "lake-grasmere": "Grasmere (lake)",
@@ -6063,5 +6063,7 @@ export const WIKI_VERIFIED = new Set([
   "city-silver-spring",
   // --- 2026-09-16: scored on 'Lake island' and 'Lagarfljót Worm' (a cryptid); the lake fills the caldera; Lagarfljót is the lake and the river ---
   "lake-lake-coatepeque",
-  "lake-lagarfljot"
+  "lake-lagarfljot",
+  // --- 2026-09-16 uk-rivers audits: Humber scored on Humber River (Ontario), Loch Leven on Loch Leven (California), both in the British Isles theme ---
+  "river-humber"
 ]);
