@@ -5884,7 +5884,15 @@ export const WIKI_TITLES = {
   "lake-muggelsee": "Müggelsee",
   "lake-mohne-reservoir": "Möhne Reservoir",
   "lake-gruner-see": "Grüner See (Styria)",
-  "lake-plauer-see": "Plauer See (Mecklenburg-Vorpommern)"
+  "lake-plauer-see": "Plauer See (Mecklenburg-Vorpommern)",
+
+  // --- lake (2026-09-14 expansion) ---
+  "lake-etang-de-thau": "Étang de Thau",
+  "lake-etang-de-berre": "Étang de Berre",
+  "lake-etang-de-cazaux-et-de-sanguinet": "Étang de Cazaux et de Sanguinet",
+  "lake-etang-de-vaccares": "Étang de Vaccarès",
+  "lake-etang-de-leucate": "Étang de Leucate",
+  "lake-etang-de-l-or": "Étang de l'Or"
 };
 
 /**

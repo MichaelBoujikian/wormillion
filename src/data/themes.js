@@ -1330,7 +1330,10 @@ globalThis.WORMILLION_THEMES = {
       'Chott Melrhir', 'Etosha Pan', 'Makgadikgadi Pan', 'Sua Pan', 'Maharloo Lake',
       'Namak Lake', 'Lake Tengiz', 'Aydar Lake', 'Sambhar Lake',
       // 2026-09-14 expansion
-      'Lough Hyne'
+      'Lough Hyne',
+      // 2026-09-14 expansion
+      'Etang de Thau', 'Etang de Berre', 'Grevelingen', 'Etang de Vaccares', 'Etang de Leucate',
+      "Etang de l'Or"
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [
@@ -1375,7 +1378,9 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-14 expansion
       'Lake Iseo',
       // 2026-09-14 expansion
-      'Walchensee', 'Bachalpsee', 'Lake Toplitz', 'Gruner See', 'Seealpsee'
+      'Walchensee', 'Bachalpsee', 'Lake Toplitz', 'Gruner See', 'Seealpsee',
+      // 2026-09-14 expansion
+      'Lac du Bourget'
     ],
     'the British Isles': ['Loch Ness', 'Loch Lomond', 'Lake Windermere', 'Bala Lake', 'Lough Neagh',
       // 2026-09-14 expansion

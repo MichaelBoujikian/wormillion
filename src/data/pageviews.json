@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T07:20:08.833Z",
+ "fetched": "2026-09-17T07:35:46.663Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -33610,6 +33610,118 @@
    "days": 60,
    "lat": 53.80833333,
    "lon": 12.85944444
+  },
+  "lake-lac-du-bourget": {
+   "title": "Lac du Bourget",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 45.73333333,
+   "lon": 5.86666667
+  },
+  "lake-etang-de-thau": {
+   "title": "Étang de Thau",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 43.41,
+   "lon": 3.62416667
+  },
+  "lake-etang-de-berre": {
+   "title": "Étang de Berre",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 43.44583333,
+   "lon": 5.11388889
+  },
+  "lake-lake-der-chantecoq": {
+   "title": "Lake Der-Chantecoq",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 48.5825,
+   "lon": 4.75916667
+  },
+  "lake-ijmeer": {
+   "title": "IJmeer",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 52.36666667,
+   "lon": 5.06666667
+  },
+  "lake-lac-de-grand-lieu": {
+   "title": "Lac de Grand-Lieu",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 47.08333333,
+   "lon": -1.66666667
+  },
+  "lake-lac-d-hourtin-carcans": {
+   "title": "Lac d'Hourtin-Carcans",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.13694444,
+   "lon": -1.11361111
+  },
+  "lake-etang-de-cazaux-et-de-sanguinet": {
+   "title": "Étang de Cazaux et de Sanguinet",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 44.4875,
+   "lon": -1.16333333
+  },
+  "lake-grevelingen": {
+   "title": "Grevelingen",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.71416667,
+   "lon": 4.02222222
+  },
+  "lake-lac-de-biscarrosse-et-de-parentis": {
+   "title": "Lac de Biscarrosse et de Parentis",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.35,
+   "lon": -1.16666667
+  },
+  "lake-gooimeer": {
+   "title": "Gooimeer",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.32277778,
+   "lon": 5.19583333
+  },
+  "lake-veluwemeer": {
+   "title": "Veluwemeer",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 52.40888889,
+   "lon": 5.75
+  },
+  "lake-etang-de-vaccares": {
+   "title": "Étang de Vaccarès",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 43.53333333,
+   "lon": 4.56666667
+  },
+  "lake-ketelmeer": {
+   "title": "Ketelmeer",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.60666667,
+   "lon": 5.73638889
+  },
+  "lake-etang-de-leucate": {
+   "title": "Étang de Leucate",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-etang-de-l-or": {
+   "title": "Étang de l'Or",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 43.58222222,
+   "lon": 4.045
   },
   "river-nile": {
    "title": "Nile",

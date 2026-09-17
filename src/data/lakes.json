@@ -16943,5 +16943,256 @@
   "wikiTitle": "Lake Kummerow",
   "lat": 53.80833333,
   "lon": 12.85944444
+ },
+ {
+  "id": "lake-lac-du-bourget",
+  "category": "lake",
+  "name": "Lac du Bourget",
+  "aliases": [
+   "Lake Bourget",
+   "Bourget"
+  ],
+  "size": 44.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lac du Bourget\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 2009,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lac du Bourget",
+  "lat": 45.73333333,
+  "lon": 5.86666667
+ },
+ {
+  "id": "lake-etang-de-thau",
+  "category": "lake",
+  "name": "Etang de Thau",
+  "aliases": [
+   "Thau",
+   "Lake Thau"
+  ],
+  "size": 70.12,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Étang de Thau\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Étang de Thau",
+  "lat": 43.41,
+  "lon": 3.62416667
+ },
+ {
+  "id": "lake-etang-de-berre",
+  "category": "lake",
+  "name": "Etang de Berre",
+  "aliases": [
+   "Berre"
+  ],
+  "size": 155.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Étang de Berre\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Étang de Berre",
+  "lat": 43.44583333,
+  "lon": 5.11388889
+ },
+ {
+  "id": "lake-lake-der-chantecoq",
+  "category": "lake",
+  "name": "Lake Der-Chantecoq",
+  "aliases": [
+   "Lac du Der",
+   "Lake Der"
+  ],
+  "size": 48,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Der-Chantecoq\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Der-Chantecoq",
+  "lat": 48.5825,
+  "lon": 4.75916667
+ },
+ {
+  "id": "lake-ijmeer",
+  "category": "lake",
+  "name": "IJmeer",
+  "aliases": [],
+  "size": 80,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"IJmeer\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "IJmeer",
+  "lat": 52.36666667,
+  "lon": 5.06666667
+ },
+ {
+  "id": "lake-lac-de-grand-lieu",
+  "category": "lake",
+  "name": "Lac de Grand-Lieu",
+  "aliases": [
+   "Grand-Lieu",
+   "Lake Grand-Lieu"
+  ],
+  "size": 62.92,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lac de Grand-Lieu\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lac de Grand-Lieu",
+  "lat": 47.08333333,
+  "lon": -1.66666667
+ },
+ {
+  "id": "lake-lac-d-hourtin-carcans",
+  "category": "lake",
+  "name": "Lac d'Hourtin-Carcans",
+  "aliases": [
+   "Hourtin",
+   "Lac de Hourtin"
+  ],
+  "size": 56.67,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lac d'Hourtin-Carcans\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lac d'Hourtin-Carcans",
+  "lat": 45.13694444,
+  "lon": -1.11361111
+ },
+ {
+  "id": "lake-etang-de-cazaux-et-de-sanguinet",
+  "category": "lake",
+  "name": "Etang de Cazaux et de Sanguinet",
+  "aliases": [
+   "Cazaux",
+   "Lac de Cazaux"
+  ],
+  "size": 55,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Étang de Cazaux et de Sanguinet\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Étang de Cazaux et de Sanguinet",
+  "lat": 44.4875,
+  "lon": -1.16333333
+ },
+ {
+  "id": "lake-grevelingen",
+  "category": "lake",
+  "name": "Grevelingen",
+  "aliases": [],
+  "size": 110,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grevelingen\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grevelingen",
+  "lat": 51.71416667,
+  "lon": 4.02222222
+ },
+ {
+  "id": "lake-lac-de-biscarrosse-et-de-parentis",
+  "category": "lake",
+  "name": "Lac de Biscarrosse et de Parentis",
+  "aliases": [
+   "Biscarrosse",
+   "Lac de Biscarrosse"
+  ],
+  "size": 35.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lac de Biscarrosse et de Parentis\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lac de Biscarrosse et de Parentis",
+  "lat": 44.35,
+  "lon": -1.16666667
+ },
+ {
+  "id": "lake-gooimeer",
+  "category": "lake",
+  "name": "Gooimeer",
+  "aliases": [],
+  "size": 26.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gooimeer\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gooimeer",
+  "lat": 52.32277778,
+  "lon": 5.19583333
+ },
+ {
+  "id": "lake-veluwemeer",
+  "category": "lake",
+  "name": "Veluwemeer",
+  "aliases": [],
+  "size": 32.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Veluwemeer\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Veluwemeer",
+  "lat": 52.40888889,
+  "lon": 5.75
+ },
+ {
+  "id": "lake-etang-de-vaccares",
+  "category": "lake",
+  "name": "Etang de Vaccares",
+  "aliases": [
+   "Vaccares"
+  ],
+  "size": 65,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Étang de Vaccarès\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Étang de Vaccarès",
+  "lat": 43.53333333,
+  "lon": 4.56666667
+ },
+ {
+  "id": "lake-ketelmeer",
+  "category": "lake",
+  "name": "Ketelmeer",
+  "aliases": [],
+  "size": 35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ketelmeer\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ketelmeer",
+  "lat": 52.60666667,
+  "lon": 5.73638889
+ },
+ {
+  "id": "lake-etang-de-leucate",
+  "category": "lake",
+  "name": "Etang de Leucate",
+  "aliases": [
+   "Leucate"
+  ],
+  "size": 54,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Étang de Leucate\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Étang de Leucate"
+ },
+ {
+  "id": "lake-etang-de-l-or",
+  "category": "lake",
+  "name": "Etang de l'Or",
+  "aliases": [
+   "Lagoon of Or"
+  ],
+  "size": 30,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Étang de l'Or\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Étang de l'Or",
+  "lat": 43.58222222,
+  "lon": 4.045
  }
 ]

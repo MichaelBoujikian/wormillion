@@ -1189,6 +1189,22 @@ Gruner See|0.07|Gruener See
 Seealpsee|0.14
 Plauer See|38.4
 Lake Kummerow|32.55
+Lac du Bourget|44.5|Lake Bourget,Bourget
+Etang de Thau|70.12|Thau,Lake Thau
+Etang de Berre|155.3|Berre
+Lake Der-Chantecoq|48|Lac du Der,Lake Der
+IJmeer|80
+Lac de Grand-Lieu|62.92|Grand-Lieu,Lake Grand-Lieu
+Lac d'Hourtin-Carcans|56.67|Hourtin,Lac de Hourtin
+Etang de Cazaux et de Sanguinet|55|Cazaux,Lac de Cazaux
+Grevelingen|110
+Lac de Biscarrosse et de Parentis|35.4|Biscarrosse,Lac de Biscarrosse
+Gooimeer|26.7
+Veluwemeer|32.5
+Etang de Vaccares|65|Vaccares
+Ketelmeer|35
+Etang de Leucate|54|Leucate
+Etang de l'Or|30|Lagoon of Or
 `;
 
 export const RIVERS = `
