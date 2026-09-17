@@ -139,7 +139,20 @@ globalThis.WORMILLION_THEMES = {
       'Suir', 'Slaney', 'Munster Blackwater', 'Lee', 'Bandon',
       'Moy', 'Corrib', 'Erne', 'Foyle', 'Lagan',
       'Bush', 'Suck', 'Fergus', 'Dodder', 'Tolka',
-      'Poddle', 'Avoca', 'Dargle', 'Garavogue'
+      'Poddle', 'Avoca', 'Dargle', 'Garavogue',
+      // 2026-09-14 expansion
+      'Irwell', 'Colne', 'Tame', 'Wensum', 'Soar',
+      'Yare', 'Weaver', 'Roding', 'Rother', 'Coquet',
+      'Thame', 'Waveney', 'Deben', 'Bure', 'Brue',
+      'Dove', 'Douglas', 'Chelmer', 'Little Ouse', 'Alde',
+      'Anker', 'Lark', 'Teviot', 'Evenlode', 'Ise',
+      'Wansbeck', 'Teith', 'Wissey', 'Teise', 'Ythan',
+      'Brosna', 'Clare', 'Devon', 'Finn', 'Isla',
+      'Taf', 'Feale', 'Inny', 'Leadon', 'Lossie',
+      'Ettrick Water', 'Kells Blackwater', 'Awbeg', 'Bride', 'Cary',
+      'Funshion', 'Glyde', 'Irthing', 'Nairn', 'Rede',
+      'Fane', 'Little Brosna', 'Annalee', 'Ballisodare', 'Owenmore',
+      'Deel', 'Robe'
     ],
     'Siberia': ['Ob', 'Yenisei', 'Lena', 'Kolyma', 'Aldan', 'Vilyuy', 'Olenyok', 'Amur',
       // 2026-09-14 expansion
@@ -434,7 +447,20 @@ globalThis.WORMILLION_THEMES = {
       'Vida', 'Thjorsa', 'Olfusa', 'Hvita', 'Jokulsa a Fjollum',
       'Skjalfandafljot', 'Lagarfljot', 'Blanda', 'Heradsvotn', 'Skafta',
       'Markarfljot', 'Ellidaar', 'Sog', 'Tungnaa', 'Laxa',
-      'Skeidara'
+      'Skeidara',
+      // 2026-09-14 expansion
+      'Irwell', 'Colne', 'Tame', 'Wensum', 'Soar',
+      'Yare', 'Weaver', 'Roding', 'Rother', 'Coquet',
+      'Thame', 'Waveney', 'Deben', 'Bure', 'Brue',
+      'Dove', 'Douglas', 'Chelmer', 'Little Ouse', 'Alde',
+      'Anker', 'Lark', 'Teviot', 'Evenlode', 'Ise',
+      'Wansbeck', 'Teith', 'Wissey', 'Teise', 'Ythan',
+      'Brosna', 'Clare', 'Devon', 'Finn', 'Isla',
+      'Taf', 'Feale', 'Inny', 'Leadon', 'Lossie',
+      'Ettrick Water', 'Kells Blackwater', 'Awbeg', 'Bride', 'Cary',
+      'Funshion', 'Glyde', 'Irthing', 'Nairn', 'Rede',
+      'Fane', 'Little Brosna', 'Annalee', 'Ballisodare', 'Owenmore',
+      'Deel', 'Robe'
     ],
     'India': [
       'Ganges', 'Brahmaputra', 'Indus', 'Yamuna', 'Godavari', 'Krishna River',

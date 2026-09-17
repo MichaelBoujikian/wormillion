@@ -1,8 +1,8 @@
 {
- "window": "60 days ending 2026-09-16",
+ "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-16T19:06:40.666Z",
+ "fetched": "2026-09-17T01:47:07.939Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -35089,11 +35089,11 @@
    "lon": -7.833
   },
   "river-lee": {
-   "title": "Lee River",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": -41.4054,
-   "lon": 173.1305
+   "title": "River Lee",
+   "monthlyViews": 944,
+   "days": 59,
+   "lat": 51.89861111,
+   "lon": -8.53916667
   },
   "river-bandon": {
    "title": "River Bandon",
@@ -35180,11 +35180,11 @@
    "lon": -6.26563889
   },
   "river-avoca": {
-   "title": "Avoca River",
-   "monthlyViews": 183,
-   "days": 60,
-   "lat": -35.69916667,
-   "lon": 143.74222222
+   "title": "River Avoca",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 52.88305556,
+   "lon": -6.22972222
   },
   "river-dargle": {
    "title": "River Dargle",
@@ -55835,6 +55835,405 @@
    "days": 60,
    "lat": 40.7,
    "lon": -74.005
+  },
+  "river-irwell": {
+   "title": "River Irwell",
+   "monthlyViews": 1583,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-colne": {
+   "title": "River Colne, Hertfordshire",
+   "monthlyViews": 1126,
+   "days": 59,
+   "lat": 51.43305556,
+   "lon": -0.51527778
+  },
+  "river-tame": {
+   "title": "River Tame, West Midlands",
+   "monthlyViews": 1065,
+   "days": 59,
+   "lat": 52.7312,
+   "lon": -1.7173
+  },
+  "river-wensum": {
+   "title": "River Wensum",
+   "monthlyViews": 1065,
+   "days": 59,
+   "lat": 52.6213,
+   "lon": 1.323
+  },
+  "river-soar": {
+   "title": "River Soar",
+   "monthlyViews": 944,
+   "days": 59,
+   "lat": 52.8731,
+   "lon": -1.2682
+  },
+  "river-yare": {
+   "title": "River Yare",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": 52.5725,
+   "lon": 1.7375
+  },
+  "river-weaver": {
+   "title": "River Weaver",
+   "monthlyViews": 670,
+   "days": 59,
+   "lat": 53.3141,
+   "lon": -2.7505
+  },
+  "river-roding": {
+   "title": "River Roding",
+   "monthlyViews": 639,
+   "days": 59,
+   "lat": 51.5142,
+   "lon": 0.0993
+  },
+  "river-rother": {
+   "title": "River Rother, East Sussex",
+   "monthlyViews": 609,
+   "days": 59,
+   "lat": 50.930913,
+   "lon": 0.771844
+  },
+  "river-coquet": {
+   "title": "River Coquet",
+   "monthlyViews": 548,
+   "days": 59,
+   "lat": 55.3393,
+   "lon": -1.5718
+  },
+  "river-thame": {
+   "title": "River Thame",
+   "monthlyViews": 548,
+   "days": 59,
+   "lat": 51.63333333,
+   "lon": -1.15
+  },
+  "river-waveney": {
+   "title": "River Waveney",
+   "monthlyViews": 548,
+   "days": 59,
+   "lat": 52.583,
+   "lon": 1.647
+  },
+  "river-deben": {
+   "title": "River Deben",
+   "monthlyViews": 517,
+   "days": 59,
+   "lat": 51.9808,
+   "lon": 1.3927
+  },
+  "river-bure": {
+   "title": "River Bure",
+   "monthlyViews": 487,
+   "days": 59,
+   "lat": 52.61751,
+   "lon": 1.72203
+  },
+  "river-brue": {
+   "title": "River Brue",
+   "monthlyViews": 396,
+   "days": 59,
+   "lat": 51.22555556,
+   "lon": -3.00361111
+  },
+  "river-dove": {
+   "title": "River Dove, central England",
+   "monthlyViews": 396,
+   "days": 59,
+   "lat": 52.83156,
+   "lon": -1.58601
+  },
+  "river-douglas": {
+   "title": "River Douglas, Lancashire",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 53.7347,
+   "lon": -2.85507222
+  },
+  "river-chelmer": {
+   "title": "River Chelmer",
+   "monthlyViews": 304,
+   "days": 59,
+   "lat": 51.7228,
+   "lon": 0.7073
+  },
+  "river-little-ouse": {
+   "title": "River Little Ouse",
+   "monthlyViews": 304,
+   "days": 59,
+   "lat": 52.50121,
+   "lon": 0.36704
+  },
+  "river-alde": {
+   "title": "River Alde",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 52.0401,
+   "lon": 1.4607
+  },
+  "river-anker": {
+   "title": "River Anker",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 52.6315,
+   "lon": -1.6977
+  },
+  "river-lark": {
+   "title": "River Lark",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 52.4352,
+   "lon": 0.312
+  },
+  "river-teviot": {
+   "title": "River Teviot",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 55.331,
+   "lon": -2.955
+  },
+  "river-evenlode": {
+   "title": "River Evenlode",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 51.78333333,
+   "lon": -1.33333333
+  },
+  "river-ise": {
+   "title": "River Ise",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-wansbeck": {
+   "title": "River Wansbeck",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 55.1619,
+   "lon": -1.5294
+  },
+  "river-teith": {
+   "title": "River Teith",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 56.1423,
+   "lon": -3.98155
+  },
+  "river-wissey": {
+   "title": "River Wissey",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 52.5661,
+   "lon": 0.3436
+  },
+  "river-teise": {
+   "title": "River Teise",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-ythan": {
+   "title": "River Ythan",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 57.3,
+   "lon": -2
+  },
+  "river-brosna": {
+   "title": "River Brosna",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 53.21666667,
+   "lon": -7.96666667
+  },
+  "river-clare": {
+   "title": "River Clare",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 53.33,
+   "lon": -9.049
+  },
+  "river-devon": {
+   "title": "River Devon, Clackmannanshire",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 56.12067,
+   "lon": -3.85312
+  },
+  "river-finn": {
+   "title": "River Finn (Foyle tributary)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 54.80111111,
+   "lon": -7.74583333
+  },
+  "river-isla": {
+   "title": "River Isla, Perthshire",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 56.52711,
+   "lon": -3.36224
+  },
+  "river-taf": {
+   "title": "River Taf",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 51.8,
+   "lon": -4.48333333
+  },
+  "river-feale": {
+   "title": "River Feale",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 52.48294,
+   "lon": -9.68903
+  },
+  "river-inny": {
+   "title": "River Inny (Leinster)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 51.85,
+   "lon": -10.18333333
+  },
+  "river-leadon": {
+   "title": "River Leadon",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 51.8778,
+   "lon": -2.2675
+  },
+  "river-lossie": {
+   "title": "River Lossie",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 57.71666667,
+   "lon": -3.26666667
+  },
+  "river-ettrick-water": {
+   "title": "Ettrick Water",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 55.581529,
+   "lon": -2.811493
+  },
+  "river-kells-blackwater": {
+   "title": "Kells Blackwater",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 52.85,
+   "lon": -7.45
+  },
+  "river-awbeg": {
+   "title": "River Awbeg",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-bride": {
+   "title": "River Bride",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-cary": {
+   "title": "River Cary",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 51.16111111,
+   "lon": -2.98833333
+  },
+  "river-funshion": {
+   "title": "River Funshion",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 52.363517,
+   "lon": -8.163148
+  },
+  "river-glyde": {
+   "title": "River Glyde",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 53.88333333,
+   "lon": -6.35
+  },
+  "river-irthing": {
+   "title": "River Irthing",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 54.91666667,
+   "lon": -2.8
+  },
+  "river-nairn": {
+   "title": "River Nairn",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 57.58333333,
+   "lon": -3.86666667
+  },
+  "river-rede": {
+   "title": "River Rede",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 55.13204,
+   "lon": -2.22147
+  },
+  "river-fane": {
+   "title": "River Fane",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-little-brosna": {
+   "title": "Little Brosna River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.16666667,
+   "lon": -8.06666667
+  },
+  "river-annalee": {
+   "title": "River Annalee",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 54.048,
+   "lon": -7.41
+  },
+  "river-ballisodare": {
+   "title": "Ballisodare River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 54.190473,
+   "lon": -8.483756
+  },
+  "river-owenmore": {
+   "title": "Owenmore River (County Sligo)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 54.1903,
+   "lon": -8.4836
+  },
+  "river-deel": {
+   "title": "River Deel (Shanon estuary)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.620661,
+   "lon": -8.988528
+  },
+  "river-robe": {
+   "title": "River Robe (Ireland)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 53.633888,
+   "lon": -9.275113
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

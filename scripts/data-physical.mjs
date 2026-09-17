@@ -4367,6 +4367,63 @@ Two Hearted|38
 Roe|0.06
 D River|0.04
 East River|25
+Irwell|63
+Colne|58
+Tame|95
+Wensum|75
+Soar|95
+Yare|84
+Weaver|114
+Roding|50
+Rother|56
+Coquet|90
+Thame|65
+Waveney|95
+Deben|54
+Bure|80
+Brue|61
+Dove|72
+Douglas|56
+Chelmer|64
+Little Ouse|60
+Alde|54
+Anker|50
+Lark|57
+Teviot|60
+Evenlode|72
+Ise|51
+Wansbeck|50
+Teith|113
+Wissey|50
+Teise|112
+Ythan|60
+Brosna|79
+Clare|93
+Devon|54
+Finn|63
+Isla|74
+Taf|56
+Feale|75
+Inny|89
+Leadon|51
+Lossie|50
+Ettrick Water|53|Ettrick
+Kells Blackwater|68
+Awbeg|51
+Bride|64
+Cary|56
+Funshion|56
+Glyde|56
+Irthing|55
+Nairn|61
+Rede|52
+Fane|62
+Little Brosna|58
+Annalee|67
+Ballisodare|61
+Owenmore|52
+Deel|63
+Robe|64
 `;
 
 export const MOUNTAINS = `
