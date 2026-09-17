@@ -383,8 +383,13 @@ kept as written so the reasoning survives.
   Mackinac, Cook Inlet, Narragansett Bay, Pamlico Sound… Great Lakes bays
   carry `OCEAN_OVERRIDES: []`. Concept articles and the 78 foreign straits
   and gulfs out.
-- **Next**: the US no-figure re-runs for islands and deserts; the audit of
-  islands + seas + cities; then the merge decision.
+- **US no-figure re-runs, islands and deserts** (`4d04453`, 264 islands,
+  242 unsized, at 91+ views; `0cce2e6`, five deserts): decision 1's debt
+  is paid. Groups (the Outer Banks, the Farallones, the Diomedes) stayed
+  out by the standing rule; concept articles, parks, counties, towns and
+  peninsulas dropped by hand. Bank **14,970**.
+- **Next**: the audit of islands + seas + cities (Opus, ≤3); then the merge
+  decision.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see

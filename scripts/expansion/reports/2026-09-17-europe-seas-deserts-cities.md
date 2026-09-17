@@ -184,3 +184,61 @@ outside every ocean box and were placed by hand. `--check` now reads
 harbor / passage / arm of / narrows as a sea; nine odd Wikidata
 descriptions ("Archaeological site" for Bodega Bay, "12 miles north of
 Vero Beach" for Sebastian Inlet, three with none) are hand-verified.
+
+### Islands — `us-islands` again, `4d04453`
+
+`noFigureViews: 122` kept 409 of the 1,127 unsized islands in scope; 7
+below-floor famous ones and 22 article-sized ones joined them. Chunk
+`--allow-no-figure --min-views=91` (the island floor): 394 rows, **264
+folded** after the hand clean (242 with `size` 0; island cohort 2,137 →
+2,401, jackpot share 3.1% → 2.75%). Horn Island (10,045 views), Just Room
+Enough Island, Daniel Island, Daufuskie, Sea Island (a fuzzy trap), Wizard
+Island, Pleasure Island, Sapelo, St. George Island, Topsail, North
+Dumpling, Gasparilla, Tuckernuck, Isle au Haut, Harsens, Monomoy, Alameda,
+Dark Island, Peanut Island, Ship Island, Guemes, Pine Island, Isle de Jean
+Charles, Penikese, Blennerhassett, Wellesley, Mustang, Heart Island (Boldt
+Castle), Muskeget, Brickell Key, Elliott Key, Anastasia, Appledore,
+Stansbury, Wheeling, the Florida Keys (Lido, Boca Chica, Little Torch,
+Sugarloaf, Long Key, Plantation, the Matecumbes…), the Casco Bay and
+Penobscot islands, the St. Lawrence and Niagara islands…
+
+Out (122 by hand): the concept articles (Archipelago 35,950 views, Atoll,
+Island, Barrier island, Islet, Artificial island, Tidal island, River
+island, Former island…), **groups and chains** (the Outer Banks 22,404
+views, the Diomedes, the Farallones 6,240, the Sea Islands, the Golden
+Isles, Thimble, Pribilof, Ten Thousand Islands, the Aleutian groups,
+Chandeleur, Norwalk, Les Cheneaux, the Bass Islands…), the Commander
+Islands and Medny (Russian), protected areas and parks, counties, boroughs
+and towns (Isle of Wight County, Kodiak Island Borough, Tiverton, Ocean
+Isle Beach), military and prison sites (Parris Island's depot, Terminal
+Island's prison, Rock Island Arsenal), peninsulas and former islands
+(Singer, Bodie, Castle Island, Noddle's), historic and archaeological
+sites, Rincon Island (an oil platform) again. Isle au Haut's Wikidata
+figure (293 km²) is the town including its water; the infobox land area
+(12.44 sq mi = 32 km²) went in instead. 41 lake and river islands carry no
+ocean; ten articles without coordinates were placed by hand; 25
+town-and-island articles ("Census-designated place", "Unincorporated
+community", "Place in…") hand-verified.
+
+Judgment: the Farallon Islands and the Diomede Islands are famous as
+groups and have no bank entry; the standing rule (groups out) left them
+out, as it did the Blaskets and the Skelligs in Europe. A "famous group"
+exception is a rules decision.
+
+### Deserts — `us-deserts` again, `0cce2e6`
+
+Five: the High Desert of California (2,861 views), Jornada del Muerto, the
+Kaʻū Desert (bank name "Kau Desert", the ʻokina folded), the Yuha Desert
+(a fuzzy trap onto the Yuma Desert) and the Tonopah Desert. The Great
+American Desert (a historical term), the Low Desert (a term) and the
+worldwide list's foreign deserts (Lop, Katpana, Aral Karakum, Hami, Nyiri,
+Moçâmedes, Dasht-e Leili, Sarykum, the Blue Desert…) wait for their waves.
+Desert jackpot share 8.0% (11 of 137): the cohort is small and its
+magnitude range wide; a cohort-wide look is worth a minute before the next
+wave adds Asia's and Africa's.
+
+## Bank after the wave
+
+14,970 entries: rivers 3,707, lakes 1,234, mountains 2,630, islands 2,401,
+seas 618, deserts 137, cities 3,799, capitals 247, countries 197. `bank.js`
+1.93 MB. Tests 190, validate OK, gap-check clean.
