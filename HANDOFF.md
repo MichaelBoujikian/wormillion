@@ -11,20 +11,22 @@ this file is the memory that survives.
 Written 2026-09-16, midday, at the end of the overnight session that ran the
 **United States wave** of the country-by-country scouring on branch
 `expansion` (rivers, lakes, mountains, islands, seas, deserts, cities;
-eight Opus audits; 9,300 → 12,008 places). Updated the same evening as the
-**Europe wave** started (see "Europe wave, running log" below): the user
-folded **Scandinavia & the Nordics into this wave**, accepted every
-decision below, and asked for Opus sub-agents (max 3), piecemeal commits,
-push as you go.
+eight Opus audits; 9,300 → 12,008 places). Updated through 2026-09-17 as
+the **Europe wave** ran (Western Europe **plus Scandinavia & the Nordics**,
+20 countries, every category, four Opus audit rounds; 12,008 → **14,914**)
+and the US no-figure rows came in under decision 1. **The Europe wave is
+complete and on `expansion`, unmerged.** The next session's first question
+is the user's: merge + publish, or start Mexico and Canada on the same
+branch (see "Where things stand").
 
 ---
 
-# The job: Western Europe, all categories, on `expansion`
+# The job: Western Europe, all categories, on `expansion` — DONE 2026-09-17; next per the plan is Mexico and Canada
 
 The user's plan (2026-09-15): scour the world country by country, **every
 category per country**, "as many places as we can", in this order:
 
-> **United States ✓ → Western Europe → Mexico and Canada → East Asia → West
+> **United States ✓ → Western Europe ✓ → Mexico and Canada → East Asia → West
 > and Central Asia → South America → Central America → North Africa → the
 > rest of Africa → islands.**
 
@@ -33,8 +35,8 @@ Western Europe, as the bank tags it (`scripts/data-countries.mjs` region
 Netherlands, Belgium, Portugal, Austria, Switzerland, Ireland, Luxembourg,
 Andorra, Liechtenstein, Monaco** — **plus, from 2026-09-16 evening, the
 region `Scandinavia & the Nordics`: Sweden, Norway, Denmark, Finland,
-Iceland** (the user added them to this wave; Sweden's lakes were probed on
-2026-09-15 at a 30 km² floor, so a 25 km² re-run is owed). Twenty countries.
+Iceland** (the user added them to this wave; the `nordic-lakes` probe re-ran Sweden
+at 25 km²). Twenty countries.
 
 Standing decisions from the user, all still in force:
 
@@ -65,24 +67,51 @@ Standing decisions from the user, all still in force:
 
 ## Where things stand
 
-Branch `expansion`, 30 commits ahead of `main` (`8e91211`), pushed, tree
-clean. `npm test` 181 · `npm run validate` 12,008 · `npm run gap-check` 443.
+Branch `expansion`, **105 commits ahead of `main`** (`3642bfc`), pushed,
+tree clean. `npm test` 191 · `npm run validate` 14,914 · `npm run gap-check`
+812 pins, every one lands. `bank.js` 1.97 MB. **`main` / Netlify still serve
+the 9,300-place bank.**
 
-| category | before | after | US floor | reports (`scripts/expansion/reports/2026-09-16-…`) |
+| category | US wave end | now | Europe floor | wave reports (`scripts/expansion/reports/`) |
 |---|---|---|---|---|
-| rivers | 2,249 | 3,192 | 80 km, or 1,000+ views/mo | `us-rivers.md` + `-data-audit`, `-gameplay-audit` |
-| lakes | 790 | 1,160 | 25 km², or 1,000+ views | `us-lakes.md` + `us-lakes-mountains-*-audit` |
-| mountains | 1,309 | 1,984 | 122 views/mo (no elevation floor) | `us-mountains.md` (read its "Re-cut" section) |
-| islands | 1,345 | 1,655 | 1 km², or 1,000+ views | `us-islands.md` + `-data-audit`, `-gameplay-audit` |
-| seas | 253 | 259 | — (only 11 of 652 US bays have an area) | `us-seas-deserts.md` |
-| deserts | 129 | 130 | — | same |
-| cities | 2,781 | 3,180 | 50,000 population | `us-cities-50k.md` + `-data-audit`, `-gameplay-audit` |
+| rivers | 3,192 | 3,707 | 60 km (50 in Britain/Ireland) or 1,000+ views; ≥ 30 views/mo | `2026-09-16-{uk,de,fr,it-es,nordic}-rivers.md` + audits |
+| lakes | 1,160 | 1,234 | 25 km² or 1,000+ views; ≥ 61 views | `2026-09-17-europe-lakes.md` + `-lakes-mountains-*-audit` |
+| mountains | 1,984 | 2,630 | 122 views/mo, lists only | `2026-09-17-europe-mountains.md` |
+| islands | 1,655 | 2,393 | 1 km² or 1,000+ views, or unsized at 122+; ≥ 91 views; **380 rows `size` 0** | `2026-09-17-europe-islands.md` + `-islands-data-audit` |
+| seas | 259 | 571 | unsized at 183+ views, in effect **213** after the audit; **288 rows `size` 0** | `2026-09-17-europe-seas-deserts-cities.md` + `-seas-cities-data-audit` |
+| deserts | 130 | 137 | — (7 unsized) | same |
+| cities | 3,180 | 3,798 | 50,000 population (Wikidata P1082) | same + `-islands-seas-cities-gameplay-audit` |
 
-`bank.js` 1.55 MB. **`main` / Netlify still serve the 9,300-place bank.**
-Real players: dig #4 (2026-09-15) had 123 submissions; dig #5 ran on the
-old bank. The gameplay audits measured the next 30 dailies old vs new bank:
-they differ on dig #1 (the lake size guard, below), 2026-10-11 (the city flag
-guard) and dig #4 would re-draw until its window closes 2026-09-18 00:00 UTC.
+Engine changes this wave (all in SPEC §13, each with a test): decision 1
+(`size` 0), decision 2 (`MAX_ELIGIBLE_SHARE` 0.7), decisions 4a/4b/6
+(category words, plural guard, Mt → Mount, the twin rule, tie-aware nudges),
+and from the last audit: **a hyphen is a space** in `normalize`, the ʻokina
+is an apostrophe, loch/lough are sea words too, and **a size rule's share is
+measured over sized rows only** (333 unsized seas had made "smaller than
+1,000,000 km²" drawable while every one of them refused it — that one
+changes dig #6's round 3 on this branch).
+
+**What the user decides next** (nothing below was done, on purpose):
+
+1. **Merge `expansion` → `main` and publish Netlify** as one release, with the
+   re-verification the US wave's HANDOFF describes (the "Netlify, verified
+   live" section below is the checklist). Or keep stacking waves on
+   `expansion` — the branch is 105 commits and 5,600 places ahead; the daily
+   comparison for Pages players breaks on days the two banks draw differently.
+2. **Decision 5, same-name places**: the Europe wave left out Syracuse
+   (Sicily), Córdoba, Cartagena, Halifax, Newport, Boston, Lincoln, Taunton,
+   Warwick, Washington (Tyne and Wear), Bangor (County Down), Frankfurt
+   (Oder), Hagen…, plus Andros (Greece) behind the Bahamas' Andros Island
+   and Bothnian Bay behind the Bothnian Sea. The four audit reports each
+   carry a "judgment calls" list; the class is now ~180 places.
+3. **A "famous group" exception for islands?** The Farallon Islands, the
+   Diomedes, the Outer Banks, the Blaskets, the Skelligs, the Frisian chains
+   are out by the groups rule; players know them as groups.
+4. **The desert cohort's jackpot share is 8%** (11 of 137) — the one cohort
+   outside the 1.6–4% band; a look before Asia's and Africa's deserts arrive.
+5. **Size 0 and "smaller than" prompts**: unknown is neither small nor large
+   today; 380 islands and 288 seas refuse every size prompt. The alternative
+   (unknown counts as small) is a one-line change in `satisfiesSize`.
 
 ## Decisions — taken 2026-09-16 evening ("go with your recommendations")
 
@@ -388,8 +417,19 @@ kept as written so the reasoning survives.
   is paid. Groups (the Outer Banks, the Farallones, the Diomedes) stayed
   out by the standing rule; concept articles, parks, counties, towns and
   peninsulas dropped by hand. Bank **14,970**.
-- **Next**: the audit of islands + seas + cities (Opus, ≤3); then the merge
-  decision.
+- **Audit round 4 done** (`3642bfc`; islands data, seas + cities data,
+  gameplay, each with a skeptic; 43 of 45 findings held): wrong articles
+  dropped (Ward Hill, St Mary's Church, Round Island Light, Geirfuglasker,
+  Burra, Danmark, Preston Island, San Bernardino Strait, Mulciber, Fairhaven
+  Bay, Botany Bay (Kent), Zaanstad), Santa Rosa Island renamed to the
+  Channel Islands one, Deer Isle in for the Aleutian Deer Island, the Bay of
+  Pomerania re-pointed, 19 US islands sized, 30 inland islands' oceans
+  cleared, themes and ~35 aliases fixed; the engine changes above. Dropping
+  Mulciber (18 views) exposed the seas' flat 183-views band as the cohort
+  bottom — 43 wave rows on it went (share 9.0% → 2.1%), the same lesson as
+  the islands' 91 band. Reports `reports/2026-09-17-europe-*-audit.md`.
+- **The Europe wave is complete.** Bank 14,914. Left to the user: the merge
+  / Netlify decision and the five questions under "Where things stand".
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
