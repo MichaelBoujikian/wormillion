@@ -7725,6 +7725,8 @@ Cabo de Gata|460
 Deliblato Sands|300|Deliblatska Pescara
 Rabjerg Mile|2
 Bonneville Salt Flats|104
+Desert of Wales|0
+Accona Desert|0
 `;
 
 export const ISLANDS = `

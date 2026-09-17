@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T13:44:43.000Z",
+ "fetched": "2026-09-17T13:49:15.234Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -79278,6 +79278,20 @@
    "days": 60,
    "lat": 40.8,
    "lon": -113.8
+  },
+  "desert-desert-of-wales": {
+   "title": "Desert of Wales",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 52.310644,
+   "lon": -3.721662
+  },
+  "desert-accona-desert": {
+   "title": "Accona Desert",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 43.19560833,
+   "lon": 11.57289722
   },
   "island-greenland": {
    "title": "Greenland",

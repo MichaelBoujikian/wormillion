@@ -1863,5 +1863,33 @@
   "wikiTitle": "Bonneville Salt Flats",
   "lat": 40.8,
   "lon": -113.8
+ },
+ {
+  "id": "desert-desert-of-wales",
+  "category": "desert",
+  "name": "Desert of Wales",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Desert of Wales\", 60-day daily median (60 days ending 2026-09-17); Standard reference desert areas (km2), rounded",
+  "magnitude": 2009,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Desert of Wales",
+  "lat": 52.310644,
+  "lon": -3.721662
+ },
+ {
+  "id": "desert-accona-desert",
+  "category": "desert",
+  "name": "Accona Desert",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Accona Desert\", 60-day daily median (60 days ending 2026-09-17); Standard reference desert areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Accona Desert",
+  "lat": 43.19560833,
+  "lon": 11.57289722
  }
 ]

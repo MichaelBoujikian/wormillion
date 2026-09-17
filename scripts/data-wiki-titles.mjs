@@ -6748,5 +6748,7 @@ export const WIKI_VERIFIED = new Set([
   "island-kastellholmen",
   // --- described as UNESCO World Heritage Sites ---
   "sea_ocean-naeroyfjord",
-  "sea_ocean-mont-saint-michel-bay"
+  "sea_ocean-mont-saint-michel-bay",
+  // --- the Accona Desert (Crete Senesi) is described as a geographical feature ---
+  "desert-accona-desert"
 ]);
