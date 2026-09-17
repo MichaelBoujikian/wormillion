@@ -95,7 +95,8 @@ if (cfg.roots && cfg.roots.length) console.log(`category tree: ${seenCats.size} 
 const listPages = new Set();
 const listsOf = new Map(); // title -> the list pages that link it (chunk.mjs maps a list to a country for cities)
 for (const page of cfg.lists || []) {
-  const data = await getJSON(API + '?' + new URLSearchParams({ action: 'parse', page, prop: 'links', format: 'json', formatversion: '2' }));
+  // redirects: a list page that moved ("List of Pyrenean three-thousanders" -> "Pyrenean three-thousanders") still yields its links
+  const data = await getJSON(API + '?' + new URLSearchParams({ action: 'parse', page, prop: 'links', redirects: '1', format: 'json', formatversion: '2' }));
   if (!data.parse) { console.log(`list page "${page}": ${JSON.stringify(data.error || data).slice(0, 80)}`); continue; }
   let n = 0;
   for (const l of data.parse.links) {

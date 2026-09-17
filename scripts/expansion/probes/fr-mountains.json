@@ -5,7 +5,20 @@
     "mountains.json",
     "minor-peaks.json"
   ],
-  "roots": [],
+  "roots": [
+    "Category:Mountains of France",
+    "Category:Mountains of the Pyrenees",
+    "Category:Mountains of Corsica",
+    "Category:Mountains of the Massif Central",
+    "Category:Mountains of the Vosges",
+    "Category:Mountains of the Jura",
+    "Category:Mountains of Belgium",
+    "Category:Mountains of the Netherlands",
+    "Category:Hills of the Netherlands",
+    "Category:Mountains of Andorra",
+    "Category:Mountains of Luxembourg",
+    "Category:Mountains of Monaco"
+  ],
   "lists": [
     "List of mountains in France",
     "List of French mountains by prominence",
@@ -27,12 +40,19 @@
     "List of highest points of the Netherlands",
     "List of mountains in Monaco",
     "List of departments of France by highest point",
-    "List of regions of France by highest point"
+    "List of regions of France by highest point",
+    "Pyrenean three-thousanders",
+    "List of Pyrenean summits over 3000 metres",
+    "List of mountains of the Vosges by height",
+    "Mountains of the Massif Central",
+    "List of mountains and hills of Belgium",
+    "List of hills of the Netherlands"
   ],
   "kind": "(mountain|peak|summit|volcano|butte|mesa|hill|ridge|massif|monolith|dome|crag|knob|fell|pike|ben\\b|beinn|sgurr|sgùrr|stob|carn|càrn|meall|munro|corbett|marilyn|nunatak|^Mount |^Monte |^Mont |^Pic |^Pico |^Puy |^Piz |Mountain$|Peak$|Horn$|Spitze$|Kogel$|Stock$|berg$|fjell$|fjellet$|tind$|tinden$|toppen$|kulle$|fjäll$|tunturi$|fell$|Pike$|Fell$|Hill$|Head$)",
   "skipTitle": "(^List of|^Lists of|^Geography of|Range$|Mountains$|Ranges$|Highlands$|Plateau$|National Park$|Wilderness$|Pass$|Trail$|Ski|Resort$|County$|Township|Forest$|Wildlife|Refuge$|Lake$|Loch$|River$|Creek$|Valley$|Glen$|Canyon$|Glacier$|Rock Formation|Cliffs?$|Alps$|Alpen$|Group$|Gruppe$|Massif$|Dolomites$|Pyrenees$|Apennines$|Uplands$|Moors$|Downs$|Wolds$|Hills$|Islands?$|Mountaineering|Climbing|Route$|Hut$|Cable Car$|Railway$|Tunnel$|Viewpoint$)",
   "sizeProp": "P2044",
   "sizeUnit": "m",
   "spellings": "mountain",
-  "notKind": "^(mountain range|range|subrange|massif of|mountain group|group of|ski|resort|town|city|village|municipality|commune|county|township|district|neighborhood|neighbourhood|park|wilderness|forest|trail|pass|mountain pass|glacier|lake|loch|river|creek|valley|glen|canyon|plateau|highlands|hills of|island|cave|rock formation|road|highway|observatory|dam|reservoir|mine|list|hut|mountain hut|refuge|railway|cable car|funicular|tunnel|region|area|nature reserve|national park|castle|monastery|abbey|church|cross|sculpture|monument|war memorial|battle|human settlement|ridge walk|walking route|long-distance)"
+  "notKind": "^(mountain range|range|subrange|massif of|mountain group|group of|ski|resort|town|city|village|municipality|commune|county|township|district|neighborhood|neighbourhood|park|wilderness|forest|trail|pass|mountain pass|glacier|lake|loch|river|creek|valley|glen|canyon|plateau|highlands|hills of|island|cave|rock formation|road|highway|observatory|dam|reservoir|mine|list|hut|mountain hut|refuge|railway|cable car|funicular|tunnel|region|area|nature reserve|national park|castle|monastery|abbey|church|cross|sculpture|monument|war memorial|battle|human settlement|ridge walk|walking route|long-distance)",
+  "subcat": "^Category:(Mountains|Hills|Peaks|Summits) of (?!.*( by |stubs|Overseas|Caribbean|Guiana|Réunion|Reunion|Polynesia|Caledonia|Mayotte|Guadeloupe|Martinique|Kerguelen|Antarctic))"
 }
