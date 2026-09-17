@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T09:13:04.746Z",
+ "fetched": "2026-09-17T09:50:34.898Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -75687,6 +75687,1210 @@
    "days": 60,
    "lat": 53.04249,
    "lon": -4.08372
+  },
+  "mountain-beerenberg": {
+   "title": "Beerenberg",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 71.07666667,
+   "lon": -8.16444444
+  },
+  "mountain-aiguille-du-dru": {
+   "title": "Aiguille du Dru",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 45.93277778,
+   "lon": 6.95638889
+  },
+  "mountain-grosser-mythen": {
+   "title": "Grosser Mythen",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 47.02972222,
+   "lon": 8.68880556
+  },
+  "mountain-piz-boe": {
+   "title": "Piz Boè",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 46.50888889,
+   "lon": 11.82805556
+  },
+  "mountain-puy-de-sancy": {
+   "title": "Puy de Sancy",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 45.52833333,
+   "lon": 2.81416667
+  },
+  "mountain-mont-chaberton": {
+   "title": "Mont Chaberton",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 44.96472222,
+   "lon": 6.75111111
+  },
+  "mountain-pico-de-las-nieves": {
+   "title": "Pico de las Nieves",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 27.96194444,
+   "lon": -15.57166667
+  },
+  "mountain-piz-buin": {
+   "title": "Piz Buin",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 46.84555556,
+   "lon": 10.11972222
+  },
+  "mountain-fronalpstock": {
+   "title": "Fronalpstock (Schwyz)",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 46.96808333,
+   "lon": 8.63727778
+  },
+  "mountain-schneeberg": {
+   "title": "Schneeberg (Alps)",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-roque-de-los-muchachos": {
+   "title": "Roque de los Muchachos",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 28.75472222,
+   "lon": -17.885
+  },
+  "mountain-la-tournette": {
+   "title": "La Tournette",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 45.82722222,
+   "lon": 6.28638889
+  },
+  "mountain-maiella": {
+   "title": "Maiella",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 42.08694444,
+   "lon": 14.0875
+  },
+  "mountain-brienzer-rothorn": {
+   "title": "Brienzer Rothorn",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 46.78694444,
+   "lon": 8.04694444
+  },
+  "mountain-tofane": {
+   "title": "Tofane",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 46.53333333,
+   "lon": 12.05
+  },
+  "mountain-hoher-goll": {
+   "title": "Hoher Göll",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 47.59416667,
+   "lon": 13.06694444
+  },
+  "mountain-mont-buet": {
+   "title": "Mont Buet",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 46.025,
+   "lon": 6.8525
+  },
+  "mountain-signalkuppe": {
+   "title": "Signalkuppe",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 45.92722222,
+   "lon": 7.87694444
+  },
+  "mountain-newtontoppen": {
+   "title": "Newtontoppen",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 79.01055556,
+   "lon": 17.49083333
+  },
+  "mountain-grimming": {
+   "title": "Grimming",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 47.52055556,
+   "lon": 14.01694444
+  },
+  "mountain-jof-di-montasio": {
+   "title": "Jôf di Montasio",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 46.43833333,
+   "lon": 13.43388889
+  },
+  "mountain-mont-dolent": {
+   "title": "Mont Dolent",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 45.9225,
+   "lon": 7.04611111
+  },
+  "mountain-mont-maudit": {
+   "title": "Mont Maudit",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 45.84777778,
+   "lon": 6.87583333
+  },
+  "mountain-sorapiss": {
+   "title": "Sorapiss",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 46.5,
+   "lon": 12.21666667
+  },
+  "mountain-wildspitz": {
+   "title": "Wildspitz",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 47.08419444,
+   "lon": 8.57775
+  },
+  "mountain-mount-adamello": {
+   "title": "Mount Adamello",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 46.15611111,
+   "lon": 10.49638889
+  },
+  "mountain-barrhorn": {
+   "title": "Barrhorn",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 46.15586111,
+   "lon": 7.73402778
+  },
+  "mountain-dammastock": {
+   "title": "Dammastock",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 46.64369444,
+   "lon": 8.42111111
+  },
+  "mountain-mont-blanc-de-courmayeur": {
+   "title": "Mont Blanc de Courmayeur",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 45.82888889,
+   "lon": 6.86944444
+  },
+  "mountain-mont-fort": {
+   "title": "Mont Fort",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 46.08055556,
+   "lon": 7.31861111
+  },
+  "mountain-pizol": {
+   "title": "Pizol",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 46.95916667,
+   "lon": 9.38666667
+  },
+  "mountain-schesaplana": {
+   "title": "Schesaplana",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 47.05388889,
+   "lon": 9.70722222
+  },
+  "mountain-stockhorn": {
+   "title": "Stockhorn",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 46.69388889,
+   "lon": 7.5375
+  },
+  "mountain-chasseral": {
+   "title": "Chasseral",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 47.13305556,
+   "lon": 7.05944444
+  },
+  "mountain-jiehkkevarri": {
+   "title": "Jiehkkevárri",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 69.4693,
+   "lon": 19.8776
+  },
+  "mountain-vincent-pyramid": {
+   "title": "Vincent Pyramid",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 45.90777778,
+   "lon": 7.86194444
+  },
+  "mountain-augstmatthorn": {
+   "title": "Augstmatthorn",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.74227778,
+   "lon": 7.92869444
+  },
+  "mountain-castor": {
+   "title": "Castor (mountain)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 45.92222222,
+   "lon": 7.79277778
+  },
+  "mountain-herzogstand": {
+   "title": "Herzogstand",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 47.61366667,
+   "lon": 11.30766667
+  },
+  "mountain-hochfeiler": {
+   "title": "Hochfeiler",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.97277778,
+   "lon": 11.72611111
+  },
+  "mountain-mont-blanc-du-tacul": {
+   "title": "Mont Blanc du Tacul",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 45.85638889,
+   "lon": 6.88777778
+  },
+  "mountain-piz-nair": {
+   "title": "Piz Nair",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.50625,
+   "lon": 9.78744444
+  },
+  "mountain-stol": {
+   "title": "Stol (Karawanks)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.43388889,
+   "lon": 14.17388889
+  },
+  "mountain-tegelberg": {
+   "title": "Tegelberg",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 47.55944444,
+   "lon": 10.77861111
+  },
+  "mountain-zumsteinspitze": {
+   "title": "Zumsteinspitze",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 45.93194444,
+   "lon": 7.87138889
+  },
+  "mountain-aiguille-de-la-grande-sassiere": {
+   "title": "Aiguille de la Grande Sassière",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.505,
+   "lon": 6.99972222
+  },
+  "mountain-ankogel": {
+   "title": "Ankogel",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 47.05,
+   "lon": 13.25
+  },
+  "mountain-cima-tosa": {
+   "title": "Cima Tosa",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-grenzgipfel": {
+   "title": "Grenzgipfel",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.93675,
+   "lon": 7.868
+  },
+  "mountain-konigspitze": {
+   "title": "Königspitze",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 46.47861111,
+   "lon": 10.56833333
+  },
+  "mountain-monte-bondone": {
+   "title": "Monte Bondone",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.98805556,
+   "lon": 11.03083333
+  },
+  "mountain-rheinwaldhorn": {
+   "title": "Rheinwaldhorn",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 46.49361111,
+   "lon": 9.04
+  },
+  "mountain-rocciamelone": {
+   "title": "Rocciamelone",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.20388889,
+   "lon": 7.07722222
+  },
+  "mountain-klingenstock": {
+   "title": "Klingenstock",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 46.95722222,
+   "lon": 8.67472222
+  },
+  "mountain-dome-du-gouter": {
+   "title": "Dôme du Goûter",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 45.84277778,
+   "lon": 6.84333333
+  },
+  "mountain-grosser-priel": {
+   "title": "Großer Priel",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 47.71694444,
+   "lon": 14.06333333
+  },
+  "mountain-hochschwab": {
+   "title": "Hochschwab",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 47.61806,
+   "lon": 15.14222
+  },
+  "mountain-nordend": {
+   "title": "Nordend",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 45.94222222,
+   "lon": 7.87
+  },
+  "mountain-benediktenwand": {
+   "title": "Benediktenwand",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 47.65306,
+   "lon": 11.46556
+  },
+  "mountain-chamechaude": {
+   "title": "Chamechaude",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.28805556,
+   "lon": 5.79
+  },
+  "mountain-cimon-della-pala": {
+   "title": "Cimon della Pala",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.28611111,
+   "lon": 11.82111111
+  },
+  "mountain-grande-casse": {
+   "title": "Grande Casse",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.40527778,
+   "lon": 6.8275
+  },
+  "mountain-grigna": {
+   "title": "Grigna",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.95333333,
+   "lon": 9.3875
+  },
+  "mountain-kampenwand": {
+   "title": "Kampenwand",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 47.75583333,
+   "lon": 12.36777778
+  },
+  "mountain-les-droites": {
+   "title": "Les Droites",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.93305556,
+   "lon": 6.98916667
+  },
+  "mountain-pollux": {
+   "title": "Pollux (mountain)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.92777778,
+   "lon": 7.78527778
+  },
+  "mountain-ringelspitz": {
+   "title": "Ringelspitz",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.89833333,
+   "lon": 9.34333333
+  },
+  "mountain-schnebelhorn": {
+   "title": "Schnebelhorn",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 47.32561111,
+   "lon": 8.97963889
+  },
+  "mountain-schwarzhorn": {
+   "title": "Schwarzhorn (Bernese Alps)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.68630556,
+   "lon": 8.07566667
+  },
+  "mountain-similaun": {
+   "title": "Similaun",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.76361111,
+   "lon": 10.88055556
+  },
+  "mountain-weisskugel": {
+   "title": "Weißkugel",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.79777778,
+   "lon": 10.72638889
+  },
+  "mountain-wildhorn": {
+   "title": "Wildhorn",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.35458333,
+   "lon": 7.36086111
+  },
+  "mountain-aiguille-noire-de-peuterey": {
+   "title": "Aiguille Noire de Peuterey",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.815,
+   "lon": 6.89361111
+  },
+  "mountain-aiguille-de-bionnassay": {
+   "title": "Aiguille de Bionnassay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.83583333,
+   "lon": 6.81805556
+  },
+  "mountain-aiguille-des-glaciers": {
+   "title": "Aiguille des Glaciers",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.77861111,
+   "lon": 6.8025
+  },
+  "mountain-cime-du-gelas": {
+   "title": "Cime du Gélas",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.125,
+   "lon": 7.38888889
+  },
+  "mountain-fineilspitze": {
+   "title": "Fineilspitze",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.78027778,
+   "lon": 10.83166667
+  },
+  "mountain-grand-muveran": {
+   "title": "Grand Muveran",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.23722222,
+   "lon": 7.12611111
+  },
+  "mountain-grosses-wiesbachhorn": {
+   "title": "Großes Wiesbachhorn",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-gurten": {
+   "title": "Gurten (mountain)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.91722222,
+   "lon": 7.44361111
+  },
+  "mountain-hermannskogel": {
+   "title": "Hermannskogel",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 48.26666667,
+   "lon": 16.28333333
+  },
+  "mountain-hesselberg": {
+   "title": "Hesselberg",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.07,
+   "lon": 10.52694444
+  },
+  "mountain-hochkalter": {
+   "title": "Hochkalter",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 47.56916667,
+   "lon": 12.86555556
+  },
+  "mountain-monte-disgrazia": {
+   "title": "Monte Disgrazia",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.26916667,
+   "lon": 9.74916667
+  },
+  "mountain-mount-emilius": {
+   "title": "Mount Emilius",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 45.67908056,
+   "lon": 7.38401389
+  },
+  "mountain-pic-tyndall": {
+   "title": "Pic Tyndall",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.97494444,
+   "lon": 7.65438889
+  },
+  "mountain-presanella": {
+   "title": "Presanella",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.22,
+   "lon": 10.66388889
+  },
+  "mountain-rinderberg": {
+   "title": "Rinderberg",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.50527778,
+   "lon": 7.35680556
+  },
+  "mountain-aiguille-blanche-de-peuterey": {
+   "title": "Aiguille Blanche de Peuterey",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.82444444,
+   "lon": 6.88277778
+  },
+  "mountain-aiguille-d-argentiere": {
+   "title": "Aiguille d'Argentière",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.95972222,
+   "lon": 7.02027778
+  },
+  "mountain-aiguille-de-rochefort": {
+   "title": "Aiguille de Rochefort",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.86194444,
+   "lon": 6.96
+  },
+  "mountain-aiguille-du-tour": {
+   "title": "Aiguille du Tour",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.99441667,
+   "lon": 7.00983333
+  },
+  "mountain-aiguilles-d-arves": {
+   "title": "Aiguilles d'Arves",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.12305556,
+   "lon": 6.33444444
+  },
+  "mountain-ailefroide": {
+   "title": "Ailefroide",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.885,
+   "lon": 6.35611111
+  },
+  "mountain-cima-valdritta": {
+   "title": "Cima Valdritta",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.72638889,
+   "lon": 10.84388889
+  },
+  "mountain-ellmauer-halt": {
+   "title": "Ellmauer Halt",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.56222222,
+   "lon": 12.30305556
+  },
+  "mountain-grand-gendarme": {
+   "title": "Grand Gendarme",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.10722222,
+   "lon": 7.71188889
+  },
+  "mountain-hinterrugg": {
+   "title": "Hinterrugg",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.15366667,
+   "lon": 9.30483333
+  },
+  "mountain-kleiner-mythen": {
+   "title": "Kleiner Mythen",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.04069444,
+   "lon": 8.68477778
+  },
+  "mountain-monte-argentera": {
+   "title": "Monte Argentera",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.17777778,
+   "lon": 7.30555556
+  },
+  "mountain-oberrothorn": {
+   "title": "Oberrothorn",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.0275,
+   "lon": 7.81277778
+  },
+  "mountain-olperer": {
+   "title": "Olperer",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.05333,
+   "lon": 11.65889
+  },
+  "mountain-parseierspitze": {
+   "title": "Parseierspitze",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.17444444,
+   "lon": 10.47833333
+  },
+  "mountain-piz-roseg": {
+   "title": "Piz Roseg",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.37375,
+   "lon": 9.88308333
+  },
+  "mountain-pizzo-coca": {
+   "title": "Pizzo Coca",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.06861111,
+   "lon": 10.01166667
+  },
+  "mountain-pointe-percee": {
+   "title": "Pointe Percée",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.95555556,
+   "lon": 6.55611111
+  },
+  "mountain-valluga": {
+   "title": "Valluga",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.1575,
+   "lon": 10.21305556
+  },
+  "mountain-ehrenburg": {
+   "title": "Ehrenbürg",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.71666667,
+   "lon": 11.15
+  },
+  "mountain-zuckerhutl": {
+   "title": "Zuckerhütl",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.96166667,
+   "lon": 11.15361111
+  },
+  "mountain-aggenstein": {
+   "title": "Aggenstein",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.53694444,
+   "lon": 10.55805556
+  },
+  "mountain-bella-tola": {
+   "title": "Bella Tola",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.23138889,
+   "lon": 7.64611111
+  },
+  "mountain-blinnenhorn": {
+   "title": "Blinnenhorn",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.42594444,
+   "lon": 8.30802778
+  },
+  "mountain-bristen": {
+   "title": "Bristen",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.73730556,
+   "lon": 8.68155556
+  },
+  "mountain-calanda": {
+   "title": "Calanda (mountain)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.89986111,
+   "lon": 9.46736111
+  },
+  "mountain-chaserrugg": {
+   "title": "Chäserrugg",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.155,
+   "lon": 9.31277778
+  },
+  "mountain-cima-brenta": {
+   "title": "Cima Brenta",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-vezzana": {
+   "title": "Vezzana",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.25,
+   "lon": 11.86722222
+  },
+  "mountain-dreitorspitze": {
+   "title": "Dreitorspitze",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.4,
+   "lon": 11.12388889
+  },
+  "mountain-dunantspitze": {
+   "title": "Dunantspitze",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.93694444,
+   "lon": 7.86777778
+  },
+  "mountain-eggstock": {
+   "title": "Eggstock (Schwyzer Alps)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.96027778,
+   "lon": 8.96666667
+  },
+  "mountain-furggen": {
+   "title": "Furggen",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.95694444,
+   "lon": 7.68138889
+  },
+  "mountain-geschriebenstein": {
+   "title": "Geschriebenstein",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.35277778,
+   "lon": 16.43388889
+  },
+  "mountain-grande-motte": {
+   "title": "Grande Motte",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.41111111,
+   "lon": 6.87027778
+  },
+  "mountain-hochtor": {
+   "title": "Hochtor",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.56166667,
+   "lon": 14.63277778
+  },
+  "mountain-hochvogel": {
+   "title": "Hochvogel",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.38111,
+   "lon": 10.43722
+  },
+  "mountain-coglians": {
+   "title": "Coglians",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.60694444,
+   "lon": 12.88805556
+  },
+  "mountain-hoher-ifen": {
+   "title": "Hoher Ifen",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.35389,
+   "lon": 10.09722
+  },
+  "mountain-kesselkogel": {
+   "title": "Kesselkogel",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.47416667,
+   "lon": 11.64361111
+  },
+  "mountain-kreuzberg": {
+   "title": "Kreuzberg (Rhön)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.37083333,
+   "lon": 9.96833333
+  },
+  "mountain-mettelhorn": {
+   "title": "Mettelhorn",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.05722222,
+   "lon": 7.7425
+  },
+  "mountain-montalto": {
+   "title": "Montalto (Aspromonte)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 38.15888889,
+   "lon": 15.92111111
+  },
+  "mountain-napf": {
+   "title": "Napf",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.00416667,
+   "lon": 7.94
+  },
+  "mountain-pico-de-malpaso": {
+   "title": "Pico de Malpaso",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 27.72944444,
+   "lon": -18.04055556
+  },
+  "mountain-radomir": {
+   "title": "Radomir (mountain)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 41.32166667,
+   "lon": 23.12194444
+  },
+  "mountain-schonfeldspitze": {
+   "title": "Schönfeldspitze",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.45833333,
+   "lon": 12.93777778
+  },
+  "mountain-tete-blanche": {
+   "title": "Tête Blanche",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.98741667,
+   "lon": 7.57486111
+  },
+  "mountain-vanil-noir": {
+   "title": "Vanil Noir",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.52847222,
+   "lon": 7.14836111
+  },
+  "mountain-zirbitzkogel": {
+   "title": "Zirbitzkogel",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.05,
+   "lon": 14.5666667
+  },
+  "mountain-aiguille-de-scolette": {
+   "title": "Aiguille de Scolette",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.15944444,
+   "lon": 6.76777778
+  },
+  "mountain-balmhorn": {
+   "title": "Balmhorn",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.425,
+   "lon": 7.69361111
+  },
+  "mountain-cima-dodici": {
+   "title": "Cima Dodici",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.9975,
+   "lon": 11.46805556
+  },
+  "mountain-doldenhorn": {
+   "title": "Doldenhorn",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.46861111,
+   "lon": 7.735
+  },
+  "mountain-dreischusterspitze": {
+   "title": "Dreischusterspitze",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.66861111,
+   "lon": 12.31805556
+  },
+  "mountain-fletschhorn": {
+   "title": "Fletschhorn",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.16777778,
+   "lon": 8.00305556
+  },
+  "mountain-grande-tete-de-l-obiou": {
+   "title": "Grande Tête de l'Obiou",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.77527778,
+   "lon": 5.83944444
+  },
+  "mountain-grunhorn": {
+   "title": "Grünhorn",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.53188889,
+   "lon": 8.07772222
+  },
+  "mountain-osser": {
+   "title": "Osser",
+   "monthlyViews": 122,
+   "days": 58,
+   "lat": 49.20361111,
+   "lon": 13.10916667
+  },
+  "mountain-hintere-schwarze": {
+   "title": "Hintere Schwärze",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.77333333,
+   "lon": 10.91472222
+  },
+  "mountain-hochalmspitze": {
+   "title": "Hochalmspitze",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.01555556,
+   "lon": 13.25
+  },
+  "mountain-hochfelln": {
+   "title": "Hochfelln",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.76666667,
+   "lon": 12.55
+  },
+  "mountain-hoher-bogen": {
+   "title": "Hoher Bogen",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.233859,
+   "lon": 12.934491
+  },
+  "mountain-la-spedla": {
+   "title": "La Spedla",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 46.38097222,
+   "lon": 9.90744444
+  },
+  "mountain-le-chasseron": {
+   "title": "Le Chasseron",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.85166667,
+   "lon": 6.53847222
+  },
+  "mountain-mont-pelat": {
+   "title": "Mont Pelat",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.265,
+   "lon": 6.70583333
+  },
+  "mountain-mont-pourri": {
+   "title": "Mont Pourri",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.52833333,
+   "lon": 6.86
+  },
+  "mountain-mont-tendre": {
+   "title": "Mont Tendre",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.59472222,
+   "lon": 6.31
+  },
+  "mountain-mont-velan": {
+   "title": "Mont Vélan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.89305556,
+   "lon": 7.25105556
+  },
+  "mountain-monte-cevedale": {
+   "title": "Monte Cevedale",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.44805556,
+   "lon": 10.62083333
+  },
+  "mountain-munt-pers": {
+   "title": "Munt Pers",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.42138889,
+   "lon": 9.95361111
+  },
+  "mountain-ochsenkopf": {
+   "title": "Ochsenkopf (Fichtel Mountains)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.03056,
+   "lon": 11.80806
+  },
+  "mountain-parrotspitze": {
+   "title": "Parrotspitze",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.91972222,
+   "lon": 7.87138889
+  },
+  "mountain-pic-de-rochebrune": {
+   "title": "Pic de Rochebrune",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.8225,
+   "lon": 6.78722222
+  },
+  "mountain-piz-cengalo": {
+   "title": "Piz Cengalo",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.29475,
+   "lon": 9.60205556
+  },
+  "mountain-piz-languard": {
+   "title": "Piz Languard",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.48847222,
+   "lon": 9.95647222
+  },
+  "mountain-piz-zupo": {
+   "title": "Piz Zupò",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.36833333,
+   "lon": 9.93111111
+  },
+  "mountain-punta-san-matteo": {
+   "title": "Punta San Matteo",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.37888889,
+   "lon": 10.56666667
+  },
+  "mountain-rimpfischhorn": {
+   "title": "Rimpfischhorn",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.02305556,
+   "lon": 7.88388889
+  },
+  "mountain-sas-rigais": {
+   "title": "Sas Rigais",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.60886944,
+   "lon": 11.76702222
+  },
+  "mountain-scheidegg": {
+   "title": "Scheidegg (Rigi)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 47.0275,
+   "lon": 8.52
+  },
+  "mountain-selun": {
+   "title": "Selun",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.15277778,
+   "lon": 9.25555556
+  },
+  "mountain-speer": {
+   "title": "Speer (mountain)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.18555556,
+   "lon": 9.12277778
+  },
+  "mountain-strahlhorn": {
+   "title": "Strahlhorn",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.01322222,
+   "lon": 7.90175
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",

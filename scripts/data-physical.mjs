@@ -7206,6 +7206,177 @@ Tievebulliagh|402
 Walna Scar|621
 Whinlatter|525
 Yr Aran|747
+Beerenberg|2277
+Aiguille du Dru|3754
+Grosser Mythen|1898
+Piz Boe|3152
+Puy de Sancy|1885
+Mont Chaberton|3131
+Pico de las Nieves|1949
+Piz Buin|3312
+Fronalpstock|1921
+Schneeberg|2076
+Roque de los Muchachos|2426
+La Tournette|2351
+Maiella|2795
+Brienzer Rothorn|2350
+Tofane|3244
+Hoher Goll|2522
+Mont Buet|3096
+Signalkuppe|4554
+Newtontoppen|1713
+Grimming|2351
+Jof di Montasio|2752
+Mont Dolent|3823
+Mont Maudit|4465
+Sorapiss|3205
+Wildspitz|1580
+Mount Adamello|3539
+Barrhorn|3610
+Dammastock|3630
+Mont Blanc de Courmayeur|4748
+Mont Fort|3328
+Pizol|2844
+Schesaplana|2964
+Stockhorn|2190
+Chasseral|1606
+Jiehkkevarri|1834
+Vincent Pyramid|4215
+Augstmatthorn|2137
+Castor|4225
+Herzogstand|1731
+Hochfeiler|3510
+Mont Blanc du Tacul|4248
+Piz Nair|3056
+Stol|2236
+Tegelberg|1881
+Zumsteinspitze|4563
+Aiguille de la Grande Sassiere|3751
+Ankogel|3252
+Cima Tosa|3136
+Grenzgipfel|4618
+Konigspitze|3851
+Monte Bondone|2180
+Rheinwaldhorn|3402
+Rocciamelone|3538
+Klingenstock|1935
+Dome du Gouter|4304
+Grosser Priel|2515
+Hochschwab|2277
+Nordend|4608
+Benediktenwand|1800
+Chamechaude|2082
+Cimon della Pala|3184
+Grande Casse|3855
+Grigna|2410
+Kampenwand|1669
+Les Droites|4000
+Pollux|4089
+Ringelspitz|3248
+Schnebelhorn|1292
+Schwarzhorn|2928
+Similaun|3599
+Weisskugel|3739
+Wildhorn|3250
+Aiguille Noire de Peuterey|3773
+Aiguille de Bionnassay|4052
+Aiguille des Glaciers|3816
+Cime du Gelas|3143
+Fineilspitze|3514
+Grand Muveran|3051
+Grosses Wiesbachhorn|3564
+Gurten|858
+Hermannskogel|542
+Hesselberg|689
+Hochkalter|2607
+Monte Disgrazia|3678
+Mount Emilius|3559
+Pic Tyndall|4241
+Presanella|3558
+Rinderberg|2079
+Aiguille Blanche de Peuterey|4112
+Aiguille d'Argentiere|3898
+Aiguille de Rochefort|4001
+Aiguille du Tour|3540
+Aiguilles d'Arves|3514
+Ailefroide|3954
+Cima Valdritta|2218
+Ellmauer Halt|2344
+Grand Gendarme|4329
+Hinterrugg|2306
+Kleiner Mythen|1811
+Monte Argentera|3297
+Oberrothorn|3414
+Olperer|3476
+Parseierspitze|3036
+Piz Roseg|3935
+Pizzo Coca|3050
+Pointe Percee|2753
+Valluga|2809
+Ehrenburg|532
+Zuckerhutl|3507
+Aggenstein|1985
+Bella Tola|3025
+Blinnenhorn|3374
+Bristen|3073
+Calanda|2805
+Chaserrugg|2262
+Cima Brenta|3150
+Vezzana|3192
+Dreitorspitze|2682
+Dunantspitze|4632
+Eggstock|2455
+Furggen|3492
+Geschriebenstein|884
+Grande Motte|3653
+Hochtor|2369
+Hochvogel|2592
+Coglians|2780
+Hoher Ifen|2230
+Kesselkogel|3002
+Kreuzberg|928
+Mettelhorn|3406
+Montalto|1955
+Napf|1408
+Pico de Malpaso|1501
+Schonfeldspitze|2653
+Tete Blanche|3710
+Vanil Noir|2389
+Zirbitzkogel|2396
+Aiguille de Scolette|3506
+Balmhorn|3697
+Cima Dodici|2336
+Doldenhorn|3638
+Dreischusterspitze|3145
+Fletschhorn|3985
+Grande Tete de l'Obiou|2790
+Grunhorn|4043
+Osser|1293
+Hintere Schwarze|3628
+Hochalmspitze|3360
+Hochfelln|1674
+Hoher Bogen|1079
+La Spedla|4020
+Le Chasseron|1607
+Mont Pelat|3052
+Mont Pourri|3779
+Mont Tendre|1679
+Mont Velan|3727
+Monte Cevedale|3769
+Munt Pers|3207
+Ochsenkopf|1024
+Parrotspitze|4434
+Pic de Rochebrune|3320
+Piz Cengalo|3369
+Piz Languard|3262
+Piz Zupo|3995
+Punta San Matteo|3678
+Rimpfischhorn|4199
+Sas Rigais|3025
+Scheidegg|1659
+Selun|2205
+Speer|1951
+Strahlhorn|4190
 `;
 
 export const MINOR_PEAKS = `

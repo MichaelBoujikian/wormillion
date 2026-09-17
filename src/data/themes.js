@@ -871,7 +871,40 @@ globalThis.WORMILLION_THEMES = {
       'Alphubel', 'Taschhorn', 'Nadelhorn', "Dent d'Herens", 'Ober Gabelhorn',
       'Zinalrothorn', 'Bishorn', 'Bietschhorn', 'Monte Leone', 'Sustenhorn',
       'Galenstock', 'Niesen', 'Faulhorn', 'Alpspitze', 'Nebelhorn',
-      'Kehlstein', 'Wendelstein', 'Hahnenkamm', 'Hoher Kasten'
+      'Kehlstein', 'Wendelstein', 'Hahnenkamm', 'Hoher Kasten',
+      // range-tag.mjs from the infobox range field
+      'Beinn Ime', 'Ben Donich', 'Aiguille du Dru', 'Grosser Mythen', 'Piz Boe',
+      'Mont Chaberton', 'Piz Buin', 'Fronalpstock', 'Schneeberg', 'Brienzer Rothorn',
+      'Tofane', 'Hoher Goll', 'Mont Buet', 'Signalkuppe', 'Grimming',
+      'Jof di Montasio', 'Mont Dolent', 'Mont Maudit', 'Sorapiss', 'Wildspitz',
+      'Mount Adamello', 'Barrhorn', 'Dammastock', 'Mont Blanc de Courmayeur', 'Mont Fort',
+      'Pizol', 'Schesaplana', 'Stockhorn', 'Jiehkkevarri', 'Vincent Pyramid',
+      'Augstmatthorn', 'Castor', 'Herzogstand', 'Hochfeiler', 'Mont Blanc du Tacul',
+      'Piz Nair', 'Stol', 'Zumsteinspitze', 'Aiguille de la Grande Sassiere', 'Cima Tosa',
+      'Grenzgipfel', 'Konigspitze', 'Monte Bondone', 'Rheinwaldhorn', 'Rocciamelone',
+      'Klingenstock', 'Dome du Gouter', 'Grosser Priel', 'Hochschwab', 'Benediktenwand',
+      'Chamechaude', 'Cimon della Pala', 'Grande Casse', 'Grigna', 'Kampenwand',
+      'Les Droites', 'Pollux', 'Ringelspitz', 'Schnebelhorn', 'Schwarzhorn',
+      'Similaun', 'Weisskugel', 'Wildhorn', 'Aiguille Noire de Peuterey', 'Aiguille de Bionnassay',
+      'Aiguille des Glaciers', 'Cime du Gelas', 'Fineilspitze', 'Grand Muveran', 'Grosses Wiesbachhorn',
+      'Hochkalter', 'Monte Disgrazia', 'Mount Emilius', 'Pic Tyndall', 'Presanella',
+      'Rinderberg', 'Aiguille Blanche de Peuterey', "Aiguille d'Argentiere", 'Aiguille de Rochefort', 'Aiguille du Tour',
+      "Aiguilles d'Arves", 'Ailefroide', 'Cima Valdritta', 'Grand Gendarme', 'Hinterrugg',
+      'Kleiner Mythen', 'Monte Argentera', 'Oberrothorn', 'Olperer', 'Parseierspitze',
+      'Piz Roseg', 'Pizzo Coca', 'Pointe Percee', 'Valluga', 'Zuckerhutl',
+      'Aggenstein', 'Bella Tola', 'Blinnenhorn', 'Bristen', 'Calanda',
+      'Cima Brenta', 'Vezzana', 'Dreitorspitze', 'Dunantspitze', 'Eggstock',
+      'Furggen', 'Grande Motte', 'Hochtor', 'Hochvogel', 'Coglians',
+      'Hoher Ifen', 'Kesselkogel', 'Mettelhorn', 'Napf', 'Schonfeldspitze',
+      'Tete Blanche', 'Vanil Noir', 'Zirbitzkogel', 'Aiguille de Scolette', 'Balmhorn',
+      'Doldenhorn', 'Dreischusterspitze', 'Fletschhorn', 'Grunhorn', 'Hintere Schwarze',
+      'Hochalmspitze', 'La Spedla', 'Mont Pelat', 'Mont Pourri', 'Mont Velan',
+      'Munt Pers', 'Parrotspitze', 'Pic de Rochebrune', 'Piz Cengalo', 'Piz Languard',
+      'Piz Zupo', 'Punta San Matteo', 'Rimpfischhorn', 'Sas Rigais', 'Scheidegg',
+      'Selun', 'Speer', 'Strahlhorn',
+      // add-theme.mjs
+      'La Tournette', 'Ankogel', 'Nordend', 'Ellmauer Halt', 'Chaserrugg',
+      'Tegelberg', 'Hochfelln', "Grande Tete de l'Obiou", 'Cima Dodici', 'Monte Cevedale'
     ],
     'the Himalayas': [
       'Mount Everest', 'Kangchenjunga', 'Lhotse', 'Makalu', 'Cho Oyu',
@@ -1129,7 +1162,9 @@ globalThis.WORMILLION_THEMES = {
       'Mount Moffett', 'Black Buttes', 'Korovin Volcano', 'Round Top', 'Trident Volcano',
       'West Crater', 'Aden Crater', 'Burney Mountain', 'Kasatochi Island', 'Pelican Butte',
       'Yamsay Mountain', 'Mount Gareloi', 'Gilbert Peak', 'Jornada del Muerto Volcano', 'Mount Amukta',
-      'Mount Griggs', 'Mount Jarvis', 'Olallie Butte', 'Tanaga'
+      'Mount Griggs', 'Mount Jarvis', 'Olallie Butte', 'Tanaga',
+      // 2026-09-14 expansion
+      'Beerenberg', 'Puy de Sancy'
     ]
   },
 
