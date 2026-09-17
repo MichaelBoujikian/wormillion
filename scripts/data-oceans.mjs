@@ -119,6 +119,9 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- Donauinsel is a Danube island in Vienna ---
+  'island-donauinsel': [],
+
   // --- uk-islands: Loch Lomond, Lough Erne, Loch Awe and Loch Earn islands are in no ocean ---
   'island-inchmurrin': [],
   'island-inchconnachan': [],

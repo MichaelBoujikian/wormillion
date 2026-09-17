@@ -32641,5 +32641,105 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "island-donauinsel",
+  "category": "island",
+  "name": "Donauinsel",
+  "aliases": [],
+  "size": 3.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Donauinsel\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1492,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Donauinsel",
+  "lat": 48.23333333,
+  "lon": 16.4,
+  "oceans": []
+ },
+ {
+  "id": "island-neuwerk",
+  "category": "island",
+  "name": "Neuwerk",
+  "aliases": [],
+  "size": 3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Neuwerk\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Neuwerk",
+  "lat": 53.91666667,
+  "lon": 8.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-nordstrandischmoor",
+  "category": "island",
+  "name": "Nordstrandischmoor",
+  "aliases": [],
+  "size": 1.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nordstrandischmoor\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nordstrandischmoor",
+  "lat": 54.54972222,
+  "lon": 8.81222222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-trischen",
+  "category": "island",
+  "name": "Trischen",
+  "aliases": [],
+  "size": 1.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trischen\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trischen",
+  "lat": 54.05944444,
+  "lon": 8.68333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-mellum",
+  "category": "island",
+  "name": "Mellum",
+  "aliases": [],
+  "size": 3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mellum\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mellum",
+  "lat": 53.72111111,
+  "lon": 8.14944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-memmert",
+  "category": "island",
+  "name": "Memmert",
+  "aliases": [],
+  "size": 2.12,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Memmert\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Memmert",
+  "lat": 53.63333333,
+  "lon": 6.9,
+  "oceans": [
+   "Atlantic"
+  ]
  }
 ]

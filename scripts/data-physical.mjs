@@ -9623,6 +9623,12 @@ Papa Little|2.26
 Foulness Island|0
 Lettermullen|0
 Shapinsay|29.48
+Donauinsel|3.9
+Neuwerk|3
+Nordstrandischmoor|1.9
+Trischen|1.8
+Mellum|3
+Memmert|2.12
 `;
 
 export const SEAS_OCEANS = `

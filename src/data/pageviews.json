@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T11:23:08.487Z",
+ "fetched": "2026-09-17T11:30:03.130Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -91662,13 +91662,6 @@
    "lat": 52.20291667,
    "lon": -6.20741667
   },
-  "island-augustus-smith": {
-   "title": "Augustus Smith (politician)",
-   "monthlyViews": 304,
-   "days": 60,
-   "lat": null,
-   "lon": null
-  },
   "island-inishbiggle": {
    "title": "Inishbiggle",
    "monthlyViews": 304,
@@ -92530,62 +92523,6 @@
    "lat": 60.33167,
    "lon": -1.39153
   },
-  "island-ceann-ear": {
-   "title": "Ceann Ear",
-   "monthlyViews": 30,
-   "days": 60,
-   "lat": 57.52277778,
-   "lon": -7.61333333
-  },
-  "island-eilean-chaluim-chille": {
-   "title": "Eilean Chaluim Chille",
-   "monthlyViews": 30,
-   "days": 60,
-   "lat": 58.105,
-   "lon": -6.43833333
-  },
-  "island-eilean-liubhaird": {
-   "title": "Eilean Liubhaird",
-   "monthlyViews": 30,
-   "days": 60,
-   "lat": 58.00166667,
-   "lon": -6.43083333
-  },
-  "island-eilean-mhealasta": {
-   "title": "Eilean Mhealasta",
-   "monthlyViews": 30,
-   "days": 59,
-   "lat": 58.08333333,
-   "lon": -7.13333333
-  },
-  "island-garbh-eileach": {
-   "title": "Garbh Eileach",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 56.243,
-   "lon": -5.765
-  },
-  "island-hellisay": {
-   "title": "Hellisay",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 57.01666667,
-   "lon": -7.35
-  },
-  "island-west-linga": {
-   "title": "West Linga",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 60.36805556,
-   "lon": -1.03444444
-  },
-  "island-wiay": {
-   "title": "Wiay, Inner Hebrides",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": null,
-   "lon": null
-  },
   "island-foulness-island": {
    "title": "Foulness Island",
    "monthlyViews": 1948,
@@ -92606,6 +92543,48 @@
    "days": 60,
    "lat": 59.05,
    "lon": -2.88333333
+  },
+  "island-donauinsel": {
+   "title": "Donauinsel",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 48.23333333,
+   "lon": 16.4
+  },
+  "island-neuwerk": {
+   "title": "Neuwerk",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 53.91666667,
+   "lon": 8.5
+  },
+  "island-nordstrandischmoor": {
+   "title": "Nordstrandischmoor",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 54.54972222,
+   "lon": 8.81222222
+  },
+  "island-trischen": {
+   "title": "Trischen",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 54.05944444,
+   "lon": 8.68333333
+  },
+  "island-mellum": {
+   "title": "Mellum",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.72111111,
+   "lon": 8.14944444
+  },
+  "island-memmert": {
+   "title": "Memmert",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.63333333,
+   "lon": 6.9
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",
