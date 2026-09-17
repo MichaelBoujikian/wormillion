@@ -41,5 +41,6 @@
   "spellings": "island",
   "notKind": "^(town|city|village|county|borough|census|neighborhood|community|unincorporated|resort|lighthouse|fort|park|bridge|ferry|beach|harbor|harbour|bay|sound|strait|lake|river|peninsula|cape|headland|point|reef|shoal|bank|sandbar|former island|former|artificial|company|ship|school|prison|hotel|airport|naval|military|base|station|refuge|wildlife|preserve|nature reserve|state park|national park|monument|historic|district|region|group of|chain of|archipelago|islands of|list)",
   "famousViews": 1000,
-  "notKindExemptTitle": "(Island|Isle\b|Key$|Cay$|Islands$)"
+  "notKindExemptTitle": "(Island|Isle\\b|Key$|Cay$|Islands$)",
+  "noFigureViews": 122
 }

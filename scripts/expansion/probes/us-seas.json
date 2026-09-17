@@ -22,5 +22,6 @@
   "sizeProp": "P2046",
   "sizeUnit": "km2",
   "spellings": "sea",
-  "notKind": "^(town|city|village|county|census|neighborhood|community|unincorporated|resort|lighthouse|fort|park|bridge|ferry|beach|island|river|creek|lake|reservoir|dam|canal|peninsula|cape|headland|point|reef|shoal|bank|sandbar|company|ship|school|prison|hotel|airport|naval|military|base|station|refuge|wildlife|preserve|nature reserve|state park|national park|monument|historic|district|region|watershed|drainage|aquifer|marsh|swamp|wetland|salt marsh|list)"
+  "notKind": "^(town|city|village|county|census|neighborhood|community|unincorporated|resort|lighthouse|fort|park|bridge|ferry|beach|island|river|creek|lake|reservoir|dam|canal|peninsula|cape|headland|point|reef|shoal|bank|sandbar|company|ship|school|prison|hotel|airport|naval|military|base|station|refuge|wildlife|preserve|nature reserve|state park|national park|monument|historic|district|region|watershed|drainage|aquifer|marsh|swamp|wetland|salt marsh|list)",
+  "noFigureViews": 183
 }

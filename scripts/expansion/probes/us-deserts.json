@@ -15,5 +15,6 @@
   "sizeProp": "P2046",
   "sizeUnit": "km2",
   "spellings": "desert",
-  "notKind": "^(town|city|village|county|census|neighborhood|community|unincorporated|resort|park|monument|refuge|wildlife|preserve|state park|national park|reservation|mountain range|range|river|lake|reservoir|dam|canal|valley|canyon|plateau|basin|region of|ecoregion|highway|road|trail|airport|base|station|list|company|film|novel|album|band|festival)"
+  "notKind": "^(town|city|village|county|census|neighborhood|community|unincorporated|resort|park|monument|refuge|wildlife|preserve|state park|national park|reservation|mountain range|range|river|lake|reservoir|dam|canal|valley|canyon|plateau|basin|region of|ecoregion|highway|road|trail|airport|base|station|list|company|film|novel|album|band|festival)",
+  "noFigureViews": 122
 }
