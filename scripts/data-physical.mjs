@@ -9867,6 +9867,270 @@ Bjorko|63.7
 Egholm|6
 Kungshatt|1.9
 Jurmo|0
+Horn Island|0
+Just Room Enough Island|0
+Daniel Island|0
+Daufuskie Island|0
+Sea Island|0
+Wizard Island|0
+Pleasure Island|0
+Sapelo Island|0
+St. George Island|0
+Isle au Haut|32.2
+Topsail Island|0
+North Dumpling Island|0
+Gasparilla Island|0
+Volvo Island|0
+Tuckernuck Island|0
+Johnson's Island|0
+Rattlesnake Island|0
+Harsens Island|0
+Monomoy Island|0
+Alameda|0
+Dark Island|0
+Bailey Island|0
+Peanut Island|0
+Ship Island|0
+Guemes Island|0
+Pine Island|0
+Isle de Jean Charles|0
+Penikese Island|0
+Sand Island|0
+Santa Rosa Island|0
+Blennerhassett Island|0
+Dog Island|0
+Holland Island|0
+Hutchinson Island|0
+Ono Island|0
+Wellesley Island|0
+Jones Beach Island|0
+Mustang Island|0
+Heart Island|0
+Muskeget Island|0
+Squirrel Island|0
+Brickell Key|0
+Gwynn's Island|0
+Knotts Island|0
+Luna Island|0
+Oak Island|0
+Sucia Island|0
+Boon Island|0
+San Jose Island|0
+James Island|0
+Enders Island|0
+Great Gull Island|0
+Shooters Island|0
+Davids Island|0
+Gibson Island|0
+Hawaii 2|0
+Isle La Motte|43.2
+Anastasia Island|0
+Appledore Island|0
+Bakers Island|0
+Orr's Island|0
+Bloodsworth Island|0
+Cedar Island|0
+Fenwick Island|0
+Great Cranberry Island|0
+Lido Key|0
+Elliott Key|0
+Maury Island|0
+Useppa Island|0
+Wheeling Island|0
+Bar Island|0
+Boca Chica Key|0
+Bogue Banks|0
+Poplar Island|0
+Children's Island|0
+Eastern Egg Rock Island|0
+Great Diamond Island|0
+Little Torch Key|0
+Billingsgate Island|0
+Charity Island|0
+Craney Island|0
+Falkner Island|0
+Grindstone Island|0
+Keewaydin Island|0
+North Padre Island|0
+Seavey's Island|0
+Summerland Key|0
+Anclote Key|0
+Gaillard Island|0
+Government Island|0
+Middleton Island|0
+Mon Louis Island|0
+Pea Island|0
+Constitution Island|0
+Cushing Island|0
+Doty Island|0
+Gould Island|0
+Jupiter Island|0
+Perdido Key|0
+Russell Island|0
+Stansbury Island|0
+Stony Island|0
+Sugarloaf Key|0
+Calumet Island|0
+Clark's Island|0
+Hoopers Island|0
+House Island|0
+Lady's Island|0
+Little St. Simons Island|0
+Manitou Island|0
+Poverty Island|0
+Seven Mile Island|0
+Ballast Island|0
+Boot Key|0
+Cliff Island|0
+Damariscove Island|0
+Hart Miller Island|0
+Horseshoe Island|0
+Jewell Island|0
+Long Key|0
+Port Royal Island|0
+Tinsley Island|0
+Allan Island|0
+Belvedere Island|0
+Casey Key|0
+Choate Island|0
+Chouteau Island|0
+Dosoris Island|0
+Japonski Island|0
+Long Beach Barrier Island|0
+Mussel Rock|0
+Samish Island|0
+San Pablo Island|0
+Waties Island|0
+Badger's Island|0
+Blakeley Island|0
+Bustins Island|0
+Caladesi Island|0
+Cockspur Island|0
+Coconut Island|0
+Drayton Island|0
+Jetty Island|0
+Little Gasparilla Island|0
+Manana Island|0
+Moose Island|0
+Mosenthein Island|0
+Nixes Mate|0
+Ragged Island|0
+Sandspur Island|0
+Sandy Island|0
+St. Armands Key|0
+Summer Island|0
+Totten Key|0
+Unity Island|0
+Allen Island|0
+Bay Island|0
+Brazos Island|0
+Brigantine Island|0
+Butler Island|0
+Crow Island|0
+Eldred Rock|0
+Elihu Island|0
+Garrett Island|0
+Great Spruce Head Island|0
+Huckleberry Island|0
+Petit Bois Island|0
+Plantation Key|0
+Silcox Island|0
+Spinnaker Island|0
+Squaxin Island|0
+Veckatimest Island|0
+Artificial Island|0
+Atsena Otie Key|0
+Boca Chita Key|0
+Canarsie Pol|0
+Center Island|0
+Crane Island|0
+Dismal Key|0
+Estero Island|0
+Gardiners Point Island|0
+Gooseberry Island|0
+Henry Island|0
+Isle of Meadows|0
+Latsch Island|0
+Little Cranberry Island|0
+Little Deer Isle|0
+Lower Matecumbe Key|0
+Ludlam Island|0
+Negit Island|0
+New Eddystone Rock|0
+Sandy Point Island|0
+Sebascodegan Island|0
+Starve Island|0
+Sutton Island|0
+Van Schaick Island|0
+Virginius Island|0
+Apple Island|0
+Blaine Island|0
+Boca Grande Key|0
+Brewer Island|0
+Buffington Island|0
+Callawassie Island|0
+Coronation Island|0
+Curtis Island|0
+Don Pedro Island|0
+East Island|0
+Egg Rock|0
+Grizzly Island|0
+Middle Island|0
+Mistake Island|0
+Money Key|0
+Mulberry Island|0
+Pola Island|0
+Ramrod Key|0
+Sand Key|0
+Soldier Key|0
+Stockton Island|0
+Sugar Loaf Island|0
+Sutwik Island|0
+Tinker's Island|0
+Uncatena Island|0
+Upper Matecumbe Key|0
+Whiskey Island|0
+Big St. Martin Island|0
+Birch Island|0
+Brannan Island|0
+Buckeye Island|0
+Campbell's Island|0
+Carleton's Prize|0
+Clover Island|0
+Cole Island|0
+Colington Island|0
+Cow Island|0
+Craig Key|0
+Dildo Key|0
+Forrester Island|0
+Geiger Key|0
+Grand Tower Island|0
+Granite Island|0
+Great Duck Island|0
+Great Wass Island|0
+Herbert Island|0
+Hobbs Island|0
+Key Vaca|0
+Kiket Island|0
+Lignumvitae Key|0
+Little Chebeague Island|0
+Little Diamond Island|0
+Money Island|0
+Munyon Island|0
+Peirce Island|0
+Pennock Island|0
+Powder House Island|0
+Ram Island|0
+Rugged Island|0
+Scout Key|0
+Shark Key|0
+Spring Island|0
+Sukkwan Island|0
+Sutil Island|0
+Tea Table Key|0
+Tuxis Island|0
+Weedon Island|0
+Woman Key|0
 `;
 
 export const SEAS_OCEANS = `

@@ -36845,5 +36845,4385 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "island-horn-island",
+  "category": "island",
+  "name": "Horn Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Horn Island (Mississippi)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 10045,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Horn Island (Mississippi)",
+  "lat": 30.23333333,
+  "lon": -88.66666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-just-room-enough-island",
+  "category": "island",
+  "name": "Just Room Enough Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Just Room Enough Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 5510,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Just Room Enough Island",
+  "lat": 44.34263889,
+  "lon": -75.92486111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-daniel-island",
+  "category": "island",
+  "name": "Daniel Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Daniel Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 5144,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Daniel Island",
+  "lat": 32.8591,
+  "lon": -79.912,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-daufuskie-island",
+  "category": "island",
+  "name": "Daufuskie Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Daufuskie Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 4140,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Daufuskie Island",
+  "lat": 32.11305556,
+  "lon": -80.86638889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sea-island",
+  "category": "island",
+  "name": "Sea Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sea Island, Georgia\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2953,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sea Island, Georgia",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-wizard-island",
+  "category": "island",
+  "name": "Wizard Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wizard Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2922,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wizard Island",
+  "lat": 42.93888889,
+  "lon": -122.14583333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-pleasure-island",
+  "category": "island",
+  "name": "Pleasure Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pleasure Island (North Carolina)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pleasure Island (North Carolina)",
+  "lat": 34.0187,
+  "lon": -77.9061,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sapelo-island",
+  "category": "island",
+  "name": "Sapelo Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sapelo Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2587,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sapelo Island",
+  "lat": 31.4775,
+  "lon": -81.24166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-st-george-island",
+  "category": "island",
+  "name": "St. George Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St. George Island (Florida)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2557,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. George Island (Florida)",
+  "lat": 29.65305556,
+  "lon": -84.88833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isle-au-haut",
+  "category": "island",
+  "name": "Isle au Haut",
+  "aliases": [],
+  "size": 32.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle au Haut, Maine\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1613,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle au Haut, Maine",
+  "lat": 44.05138889,
+  "lon": -68.59166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-topsail-island",
+  "category": "island",
+  "name": "Topsail Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Topsail Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Topsail Island",
+  "lat": 34.46972222,
+  "lon": -77.47194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-north-dumpling-island",
+  "category": "island",
+  "name": "North Dumpling Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"North Dumpling Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1492,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Dumpling Island",
+  "lat": 41.28805556,
+  "lon": -72.01888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gasparilla-island",
+  "category": "island",
+  "name": "Gasparilla Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gasparilla Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gasparilla Island",
+  "lat": 26.76427,
+  "lon": -82.26543,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-volvo-island",
+  "category": "island",
+  "name": "Volvo Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Volvo Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Volvo Island",
+  "oceans": []
+ },
+ {
+  "id": "island-tuckernuck-island",
+  "category": "island",
+  "name": "Tuckernuck Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tuckernuck Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tuckernuck Island",
+  "lat": 41.30222222,
+  "lon": -70.25722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-johnson-s-island",
+  "category": "island",
+  "name": "Johnson's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Johnson's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Johnson's Island",
+  "lat": 41.4963,
+  "lon": -82.7346,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rattlesnake-island",
+  "category": "island",
+  "name": "Rattlesnake Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rattlesnake Island (Lake Erie)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rattlesnake Island (Lake Erie)",
+  "lat": 41.6791,
+  "lon": -82.8493,
+  "oceans": []
+ },
+ {
+  "id": "island-harsens-island",
+  "category": "island",
+  "name": "Harsens Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Harsens Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Harsens Island",
+  "lat": 42.59,
+  "lon": -82.55138889,
+  "oceans": []
+ },
+ {
+  "id": "island-monomoy-island",
+  "category": "island",
+  "name": "Monomoy Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Monomoy Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monomoy Island",
+  "lat": 41.59805556,
+  "lon": -69.98833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-alameda",
+  "category": "island",
+  "name": "Alameda",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alameda (island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alameda (island)",
+  "lat": 37.77666667,
+  "lon": -122.27777778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-dark-island",
+  "category": "island",
+  "name": "Dark Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dark Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dark Island",
+  "lat": 44.45194444,
+  "lon": -75.81222222,
+  "oceans": []
+ },
+ {
+  "id": "island-bailey-island",
+  "category": "island",
+  "name": "Bailey Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bailey Island (Maine)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bailey Island (Maine)",
+  "lat": 43.7375,
+  "lon": -69.99361111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-peanut-island",
+  "category": "island",
+  "name": "Peanut Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Peanut Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peanut Island",
+  "lat": 26.7735,
+  "lon": -80.046,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ship-island",
+  "category": "island",
+  "name": "Ship Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ship Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ship Island",
+  "lat": 30.21666667,
+  "lon": -88.91666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-guemes-island",
+  "category": "island",
+  "name": "Guemes Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Guemes Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guemes Island",
+  "lat": 48.54777778,
+  "lon": -122.62444444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-pine-island",
+  "category": "island",
+  "name": "Pine Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pine Island (Lee County, Florida)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pine Island (Lee County, Florida)",
+  "lat": 26.55916667,
+  "lon": -82.09972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isle-de-jean-charles",
+  "category": "island",
+  "name": "Isle de Jean Charles",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle de Jean Charles, Louisiana\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle de Jean Charles, Louisiana",
+  "lat": 29.3875,
+  "lon": -90.48305556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-penikese-island",
+  "category": "island",
+  "name": "Penikese Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Penikese Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Penikese Island",
+  "lat": 41.4501071,
+  "lon": -70.9230909,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sand-island",
+  "category": "island",
+  "name": "Sand Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sand Island (Hawaii)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sand Island (Hawaii)",
+  "lat": 21.30694444,
+  "lon": -157.87916667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-santa-rosa-island",
+  "category": "island",
+  "name": "Santa Rosa Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa Rosa Island, Florida\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Rosa Island, Florida",
+  "lat": 30.3825,
+  "lon": -86.85638889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-blennerhassett-island",
+  "category": "island",
+  "name": "Blennerhassett Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Blennerhassett Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Blennerhassett Island",
+  "lat": 39.2711863,
+  "lon": -81.6256827,
+  "oceans": []
+ },
+ {
+  "id": "island-dog-island",
+  "category": "island",
+  "name": "Dog Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dog Island (Florida)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dog Island (Florida)",
+  "lat": 29.8,
+  "lon": -84.61,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-holland-island",
+  "category": "island",
+  "name": "Holland Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Holland Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Holland Island",
+  "lat": 38.12,
+  "lon": -76.0875,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hutchinson-island",
+  "category": "island",
+  "name": "Hutchinson Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hutchinson Island (Florida)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hutchinson Island (Florida)",
+  "lat": 27.29611111,
+  "lon": -80.21611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ono-island",
+  "category": "island",
+  "name": "Ono Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ono Island, Alabama\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ono Island, Alabama",
+  "lat": 30.2875,
+  "lon": -87.50194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-wellesley-island",
+  "category": "island",
+  "name": "Wellesley Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wellesley Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wellesley Island",
+  "lat": 44.31666667,
+  "lon": -76,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-jones-beach-island",
+  "category": "island",
+  "name": "Jones Beach Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jones Beach Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jones Beach Island",
+  "lat": 40.596234,
+  "lon": -73.507861,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-mustang-island",
+  "category": "island",
+  "name": "Mustang Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mustang Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mustang Island",
+  "lat": 27.73944444,
+  "lon": -97.13166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-heart-island",
+  "category": "island",
+  "name": "Heart Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Heart Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Heart Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-muskeget-island",
+  "category": "island",
+  "name": "Muskeget Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Muskeget Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Muskeget Island",
+  "lat": 41.33527778,
+  "lon": -70.30416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-squirrel-island",
+  "category": "island",
+  "name": "Squirrel Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Squirrel Island, Maine\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Squirrel Island, Maine",
+  "lat": 43.80833333,
+  "lon": -69.63055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-brickell-key",
+  "category": "island",
+  "name": "Brickell Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Brickell Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brickell Key",
+  "lat": 25.766288,
+  "lon": -80.185152,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gwynn-s-island",
+  "category": "island",
+  "name": "Gwynn's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gwynn's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gwynn's Island",
+  "lat": 37.50735556,
+  "lon": -76.29021944,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-knotts-island",
+  "category": "island",
+  "name": "Knotts Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Knotts Island, North Carolina\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Knotts Island, North Carolina",
+  "lat": 36.51361111,
+  "lon": -75.91916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-luna-island",
+  "category": "island",
+  "name": "Luna Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Luna Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luna Island",
+  "lat": 43.08333333,
+  "lon": -79.07027778,
+  "oceans": []
+ },
+ {
+  "id": "island-oak-island",
+  "category": "island",
+  "name": "Oak Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oak Island (North Carolina)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oak Island (North Carolina)",
+  "lat": 33.9137,
+  "lon": -78.1111,
+  "oceans": []
+ },
+ {
+  "id": "island-sucia-island",
+  "category": "island",
+  "name": "Sucia Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sucia Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sucia Island",
+  "lat": 48.75361111,
+  "lon": -122.91333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-boon-island",
+  "category": "island",
+  "name": "Boon Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boon Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boon Island",
+  "lat": 43.12083333,
+  "lon": -70.475,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-san-jose-island",
+  "category": "island",
+  "name": "San Jose Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San José Island (Texas)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San José Island (Texas)",
+  "lat": 27.97805556,
+  "lon": -96.94694444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-james-island",
+  "category": "island",
+  "name": "James Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"James Island (South Carolina)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "James Island (South Carolina)",
+  "lat": 32.72777778,
+  "lon": -79.95555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-enders-island",
+  "category": "island",
+  "name": "Enders Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Enders Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Enders Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-great-gull-island",
+  "category": "island",
+  "name": "Great Gull Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Gull Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Gull Island",
+  "lat": 41.20194444,
+  "lon": -72.11916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-shooters-island",
+  "category": "island",
+  "name": "Shooters Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shooters Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shooters Island",
+  "lat": 40.64333333,
+  "lon": -74.15972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-davids-island",
+  "category": "island",
+  "name": "Davids Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Davids Island (New York)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Davids Island (New York)",
+  "lat": 40.883417,
+  "lon": -73.770231,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gibson-island",
+  "category": "island",
+  "name": "Gibson Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gibson Island (Maryland)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gibson Island (Maryland)",
+  "lat": 39.07416667,
+  "lon": -76.42388889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hawaii-2",
+  "category": "island",
+  "name": "Hawaii 2",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hawaii 2\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hawaii 2",
+  "lat": 44.397418,
+  "lon": -69.336586,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isle-la-motte",
+  "category": "island",
+  "name": "Isle La Motte",
+  "aliases": [],
+  "size": 43.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle La Motte\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle La Motte",
+  "lat": 44.86527778,
+  "lon": -73.35888889,
+  "oceans": []
+ },
+ {
+  "id": "island-anastasia-island",
+  "category": "island",
+  "name": "Anastasia Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Anastasia Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Anastasia Island",
+  "lat": 29.80406,
+  "lon": -81.26692,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-appledore-island",
+  "category": "island",
+  "name": "Appledore Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Appledore Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Appledore Island",
+  "lat": 42.98916667,
+  "lon": -70.615,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bakers-island",
+  "category": "island",
+  "name": "Bakers Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bakers Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bakers Island",
+  "lat": 42.533,
+  "lon": -70.787,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-orr-s-island",
+  "category": "island",
+  "name": "Orr's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Orr's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Orr's Island",
+  "lat": 43.77,
+  "lon": -69.965,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bloodsworth-island",
+  "category": "island",
+  "name": "Bloodsworth Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bloodsworth Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bloodsworth Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cedar-island",
+  "category": "island",
+  "name": "Cedar Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cedar Island, North Carolina\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cedar Island, North Carolina",
+  "lat": 35.005,
+  "lon": -76.30944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fenwick-island",
+  "category": "island",
+  "name": "Fenwick Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fenwick Island (Delaware–Maryland)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fenwick Island (Delaware–Maryland)",
+  "lat": 38.45333333,
+  "lon": -75.04833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-great-cranberry-island",
+  "category": "island",
+  "name": "Great Cranberry Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Cranberry Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Cranberry Island",
+  "lat": 44.24361111,
+  "lon": -68.25930556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lido-key",
+  "category": "island",
+  "name": "Lido Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lido Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lido Key",
+  "lat": 27.31694444,
+  "lon": -82.58138889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-elliott-key",
+  "category": "island",
+  "name": "Elliott Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Elliott Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Elliott Key",
+  "lat": 25.44305556,
+  "lon": -80.19722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-maury-island",
+  "category": "island",
+  "name": "Maury Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Maury Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maury Island",
+  "lat": 47.37694444,
+  "lon": -122.42972222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-useppa-island",
+  "category": "island",
+  "name": "Useppa Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Useppa Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Useppa Island",
+  "lat": 26.66138889,
+  "lon": -82.21277778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-wheeling-island",
+  "category": "island",
+  "name": "Wheeling Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wheeling Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wheeling Island",
+  "lat": 40.07055556,
+  "lon": -80.73305556,
+  "oceans": []
+ },
+ {
+  "id": "island-bar-island",
+  "category": "island",
+  "name": "Bar Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bar Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bar Island",
+  "lat": 44.39833333,
+  "lon": -68.20666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-boca-chica-key",
+  "category": "island",
+  "name": "Boca Chica Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boca Chica Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boca Chica Key",
+  "lat": 24.5774,
+  "lon": -81.6933,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bogue-banks",
+  "category": "island",
+  "name": "Bogue Banks",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bogue Banks\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bogue Banks",
+  "lat": 34.682911,
+  "lon": -76.891937,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-poplar-island",
+  "category": "island",
+  "name": "Poplar Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Poplar Island (Chesapeake Bay)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Poplar Island (Chesapeake Bay)",
+  "lat": 38.76694444,
+  "lon": -76.38166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-children-s-island",
+  "category": "island",
+  "name": "Children's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Children's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Children's Island",
+  "lat": 42.51166667,
+  "lon": -70.81444444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eastern-egg-rock-island",
+  "category": "island",
+  "name": "Eastern Egg Rock Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eastern Egg Rock Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eastern Egg Rock Island",
+  "lat": 43.8606389,
+  "lon": -69.3819911,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-great-diamond-island",
+  "category": "island",
+  "name": "Great Diamond Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Diamond Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Diamond Island",
+  "lat": 43.67916667,
+  "lon": -70.19722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-little-torch-key",
+  "category": "island",
+  "name": "Little Torch Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Torch Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Torch Key",
+  "lat": 24.66566,
+  "lon": -81.390603,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-billingsgate-island",
+  "category": "island",
+  "name": "Billingsgate Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Billingsgate Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Billingsgate Island",
+  "lat": 41.87063611,
+  "lon": -70.06861944,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-charity-island",
+  "category": "island",
+  "name": "Charity Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Charity Island (Michigan)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Charity Island (Michigan)",
+  "lat": 44.03138889,
+  "lon": -83.43555556,
+  "oceans": []
+ },
+ {
+  "id": "island-craney-island",
+  "category": "island",
+  "name": "Craney Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Craney Island (Virginia)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Craney Island (Virginia)",
+  "lat": 36.8925,
+  "lon": -76.35944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-falkner-island",
+  "category": "island",
+  "name": "Falkner Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Falkner Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Falkner Island",
+  "lat": 41.21088,
+  "lon": -72.65319,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-grindstone-island",
+  "category": "island",
+  "name": "Grindstone Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grindstone Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grindstone Island",
+  "lat": 44.2769,
+  "lon": -76.1147,
+  "oceans": []
+ },
+ {
+  "id": "island-keewaydin-island",
+  "category": "island",
+  "name": "Keewaydin Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Keewaydin Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Keewaydin Island",
+  "lat": 26.04611111,
+  "lon": -81.77833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-north-padre-island",
+  "category": "island",
+  "name": "North Padre Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"North Padre Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Padre Island",
+  "lat": 27.277,
+  "lon": -97.366,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-seavey-s-island",
+  "category": "island",
+  "name": "Seavey's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Seavey's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seavey's Island",
+  "lat": 43.07888889,
+  "lon": -70.73416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-summerland-key",
+  "category": "island",
+  "name": "Summerland Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Summerland Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Summerland Key",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-anclote-key",
+  "category": "island",
+  "name": "Anclote Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Anclote Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Anclote Key",
+  "lat": 28.18777778,
+  "lon": -82.84555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gaillard-island",
+  "category": "island",
+  "name": "Gaillard Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gaillard Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gaillard Island",
+  "lat": 30.51,
+  "lon": -88.03,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-government-island",
+  "category": "island",
+  "name": "Government Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Government Island (Oregon)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Government Island (Oregon)",
+  "lat": 45.575,
+  "lon": -122.508,
+  "oceans": []
+ },
+ {
+  "id": "island-middleton-island",
+  "category": "island",
+  "name": "Middleton Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Middleton Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Middleton Island",
+  "lat": 59.44,
+  "lon": -146.33,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-mon-louis-island",
+  "category": "island",
+  "name": "Mon Louis Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mon Louis Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mon Louis Island",
+  "lat": 30.36744444,
+  "lon": -88.14055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pea-island",
+  "category": "island",
+  "name": "Pea Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pea Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pea Island",
+  "lat": 35.723,
+  "lon": -75.496,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-constitution-island",
+  "category": "island",
+  "name": "Constitution Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Constitution Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Constitution Island",
+  "lat": 41.40555556,
+  "lon": -73.95416667,
+  "oceans": []
+ },
+ {
+  "id": "island-cushing-island",
+  "category": "island",
+  "name": "Cushing Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cushing Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cushing Island",
+  "lat": 43.64111111,
+  "lon": -70.20777778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-doty-island",
+  "category": "island",
+  "name": "Doty Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Doty Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Doty Island",
+  "lat": 44.1935973,
+  "lon": -88.4476086,
+  "oceans": []
+ },
+ {
+  "id": "island-gould-island",
+  "category": "island",
+  "name": "Gould Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gould Island (Rhode Island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gould Island (Rhode Island)",
+  "lat": 41.533575,
+  "lon": -71.34444167,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-jupiter-island",
+  "category": "island",
+  "name": "Jupiter Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jupiter Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jupiter Island",
+  "lat": 27.03166667,
+  "lon": -80.10055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-perdido-key",
+  "category": "island",
+  "name": "Perdido Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Perdido Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Perdido Key",
+  "lat": 30.29388889,
+  "lon": -87.45305556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-russell-island",
+  "category": "island",
+  "name": "Russell Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Russell Island (Michigan)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Russell Island (Michigan)",
+  "lat": 42.60833333,
+  "lon": -82.52888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-stansbury-island",
+  "category": "island",
+  "name": "Stansbury Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Stansbury Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stansbury Island",
+  "lat": 40.82972222,
+  "lon": -112.49777778,
+  "oceans": []
+ },
+ {
+  "id": "island-stony-island",
+  "category": "island",
+  "name": "Stony Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Stony Island (New York)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stony Island (New York)",
+  "lat": 43.894,
+  "lon": -76.331,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sugarloaf-key",
+  "category": "island",
+  "name": "Sugarloaf Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sugarloaf Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sugarloaf Key",
+  "lat": 24.628,
+  "lon": -81.514,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-calumet-island",
+  "category": "island",
+  "name": "Calumet Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Calumet Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Calumet Island",
+  "lat": 44.25,
+  "lon": -76.095,
+  "oceans": []
+ },
+ {
+  "id": "island-clark-s-island",
+  "category": "island",
+  "name": "Clark's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Clark's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Clark's Island",
+  "lat": 42.00833333,
+  "lon": -70.6375,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hoopers-island",
+  "category": "island",
+  "name": "Hoopers Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hoopers Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hoopers Island",
+  "lat": 38.3,
+  "lon": -76.20805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-house-island",
+  "category": "island",
+  "name": "House Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"House Island (Maine)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "House Island (Maine)",
+  "lat": 43.65277778,
+  "lon": -70.20972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lady-s-island",
+  "category": "island",
+  "name": "Lady's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lady's Island (South Carolina)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lady's Island (South Carolina)",
+  "lat": 32.38333333,
+  "lon": -80.69555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-little-st-simons-island",
+  "category": "island",
+  "name": "Little St. Simons Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little St. Simons Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little St. Simons Island",
+  "lat": 31.29911769,
+  "lon": -81.32842961,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-manitou-island",
+  "category": "island",
+  "name": "Manitou Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Manitou Island (Michigan)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manitou Island (Michigan)",
+  "lat": 47.41666667,
+  "lon": -87.61666667,
+  "oceans": []
+ },
+ {
+  "id": "island-poverty-island",
+  "category": "island",
+  "name": "Poverty Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Poverty Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Poverty Island",
+  "lat": 45.5275,
+  "lon": -86.66444444,
+  "oceans": []
+ },
+ {
+  "id": "island-seven-mile-island",
+  "category": "island",
+  "name": "Seven Mile Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Seven Mile Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Seven Mile Island",
+  "lat": 39.07551,
+  "lon": -74.738789,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ballast-island",
+  "category": "island",
+  "name": "Ballast Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ballast Island (Lake Erie)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ballast Island (Lake Erie)",
+  "lat": 41.6778,
+  "lon": -82.7853,
+  "oceans": []
+ },
+ {
+  "id": "island-boot-key",
+  "category": "island",
+  "name": "Boot Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boot Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boot Key",
+  "lat": 24.696,
+  "lon": -81.102,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cliff-island",
+  "category": "island",
+  "name": "Cliff Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cliff Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cliff Island",
+  "lat": 43.69611111,
+  "lon": -70.10777778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-damariscove-island",
+  "category": "island",
+  "name": "Damariscove Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Damariscove Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Damariscove Island",
+  "lat": 43.76,
+  "lon": -69.61416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hart-miller-island",
+  "category": "island",
+  "name": "Hart Miller Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hart Miller Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hart Miller Island",
+  "lat": 39.25166667,
+  "lon": -76.37333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-horseshoe-island",
+  "category": "island",
+  "name": "Horseshoe Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Horseshoe Island (New Jersey)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Horseshoe Island (New Jersey)",
+  "lat": 39.473,
+  "lon": -74.3015,
+  "oceans": []
+ },
+ {
+  "id": "island-jewell-island",
+  "category": "island",
+  "name": "Jewell Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jewell Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jewell Island",
+  "lat": 43.6814,
+  "lon": -70.093,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-long-key",
+  "category": "island",
+  "name": "Long Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Long Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Long Key",
+  "lat": 24.819,
+  "lon": -80.814,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-port-royal-island",
+  "category": "island",
+  "name": "Port Royal Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Port Royal Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port Royal Island",
+  "lat": 32.43555556,
+  "lon": -80.73861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-tinsley-island",
+  "category": "island",
+  "name": "Tinsley Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tinsley Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tinsley Island",
+  "lat": 38.03777778,
+  "lon": -121.49583333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-allan-island",
+  "category": "island",
+  "name": "Allan Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Allan Island (Washington)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Allan Island (Washington)",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-belvedere-island",
+  "category": "island",
+  "name": "Belvedere Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Belvedere Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belvedere Island",
+  "lat": 37.87158,
+  "lon": -122.46849,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-casey-key",
+  "category": "island",
+  "name": "Casey Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Casey Key, Florida\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Casey Key, Florida",
+  "lat": 27.15,
+  "lon": -82.48055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-choate-island",
+  "category": "island",
+  "name": "Choate Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Choate Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Choate Island",
+  "lat": 42.66473889,
+  "lon": -70.75929722,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-chouteau-island",
+  "category": "island",
+  "name": "Chouteau Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chouteau Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chouteau Island",
+  "lat": 38.76861111,
+  "lon": -90.14638889,
+  "oceans": []
+ },
+ {
+  "id": "island-dosoris-island",
+  "category": "island",
+  "name": "Dosoris Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dosoris Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dosoris Island",
+  "lat": 40.8925,
+  "lon": -73.63861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-japonski-island",
+  "category": "island",
+  "name": "Japonski Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Japonski Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Japonski Island",
+  "lat": 57.05222222,
+  "lon": -135.36,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-long-beach-barrier-island",
+  "category": "island",
+  "name": "Long Beach Barrier Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Long Beach Barrier Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Long Beach Barrier Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-mussel-rock",
+  "category": "island",
+  "name": "Mussel Rock",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mussel Rock\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mussel Rock",
+  "lat": 37.66694444,
+  "lon": -122.49722222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-samish-island",
+  "category": "island",
+  "name": "Samish Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Samish Island, Washington\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samish Island, Washington",
+  "lat": 48.57583333,
+  "lon": -122.54111111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-san-pablo-island",
+  "category": "island",
+  "name": "San Pablo Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Pablo Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Pablo Island",
+  "lat": 30.2841,
+  "lon": -81.3961,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-waties-island",
+  "category": "island",
+  "name": "Waties Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Waties Island, South Carolina\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Waties Island, South Carolina",
+  "lat": 33.84888889,
+  "lon": -78.57472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-badger-s-island",
+  "category": "island",
+  "name": "Badger's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Badger's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Badger's Island",
+  "lat": 43.08194444,
+  "lon": -70.7525,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-blakeley-island",
+  "category": "island",
+  "name": "Blakeley Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Blakeley Island (Alabama)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Blakeley Island (Alabama)",
+  "lat": 30.72111111,
+  "lon": -88.0275,
+  "oceans": []
+ },
+ {
+  "id": "island-bustins-island",
+  "category": "island",
+  "name": "Bustins Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bustins Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bustins Island",
+  "lat": 43.800192,
+  "lon": -70.07176,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-caladesi-island",
+  "category": "island",
+  "name": "Caladesi Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Caladesi Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Caladesi Island",
+  "lat": 28.02944444,
+  "lon": -82.82055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cockspur-island",
+  "category": "island",
+  "name": "Cockspur Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cockspur Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cockspur Island",
+  "lat": 32.02777778,
+  "lon": -80.89833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-coconut-island",
+  "category": "island",
+  "name": "Coconut Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Coconut Island (Hawaiʻi County)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coconut Island (Hawaiʻi County)",
+  "lat": 19.72944444,
+  "lon": -155.06861111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-drayton-island",
+  "category": "island",
+  "name": "Drayton Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Drayton Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drayton Island",
+  "lat": 29.36121,
+  "lon": -81.63888,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-jetty-island",
+  "category": "island",
+  "name": "Jetty Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jetty Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jetty Island",
+  "lat": 48.0104,
+  "lon": -122.2272,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-little-gasparilla-island",
+  "category": "island",
+  "name": "Little Gasparilla Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Gasparilla Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Gasparilla Island",
+  "lat": 26.82972222,
+  "lon": -82.29083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-manana-island",
+  "category": "island",
+  "name": "Manana Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Manana Island (Maine)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manana Island (Maine)",
+  "lat": 43.764,
+  "lon": -69.326,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-moose-island",
+  "category": "island",
+  "name": "Moose Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Moose Island, Maine\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Moose Island, Maine",
+  "lat": 44.91694444,
+  "lon": -67.00666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-mosenthein-island",
+  "category": "island",
+  "name": "Mosenthein Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mosenthein Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mosenthein Island",
+  "lat": 38.7225,
+  "lon": -90.20166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-nixes-mate",
+  "category": "island",
+  "name": "Nixes Mate",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nixes Mate\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nixes Mate",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ragged-island",
+  "category": "island",
+  "name": "Ragged Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ragged Island (Harpswell, Maine)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ragged Island (Harpswell, Maine)",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sandspur-island",
+  "category": "island",
+  "name": "Sandspur Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sandspur Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sandspur Island",
+  "lat": 25.90083333,
+  "lon": -80.13536111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sandy-island",
+  "category": "island",
+  "name": "Sandy Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sandy Island, South Carolina\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sandy Island, South Carolina",
+  "lat": 33.55777778,
+  "lon": -79.13083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-st-armands-key",
+  "category": "island",
+  "name": "St. Armands Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St. Armands Key, Florida\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Armands Key, Florida",
+  "lat": 27.31833333,
+  "lon": -82.57833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-summer-island",
+  "category": "island",
+  "name": "Summer Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Summer Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Summer Island",
+  "lat": 45.56333333,
+  "lon": -86.63638889,
+  "oceans": []
+ },
+ {
+  "id": "island-totten-key",
+  "category": "island",
+  "name": "Totten Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Totten Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Totten Key",
+  "lat": 25.3796,
+  "lon": -80.2484,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-unity-island",
+  "category": "island",
+  "name": "Unity Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Unity Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Unity Island",
+  "lat": 42.925,
+  "lon": -78.90361111,
+  "oceans": []
+ },
+ {
+  "id": "island-allen-island",
+  "category": "island",
+  "name": "Allen Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Allen Island (Maine)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Allen Island (Maine)",
+  "lat": 43.86666667,
+  "lon": -69.31416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bay-island",
+  "category": "island",
+  "name": "Bay Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay Island (Newport Beach, California)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay Island (Newport Beach, California)",
+  "lat": 33.60694444,
+  "lon": -117.905,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-brazos-island",
+  "category": "island",
+  "name": "Brazos Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Brazos Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brazos Island",
+  "lat": 26.03055556,
+  "lon": -97.1575,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-brigantine-island",
+  "category": "island",
+  "name": "Brigantine Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Brigantine Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brigantine Island",
+  "lat": 39.4069,
+  "lon": -74.3671,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-butler-island",
+  "category": "island",
+  "name": "Butler Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Butler Island (Georgia)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Butler Island (Georgia)",
+  "lat": 31.35888889,
+  "lon": -81.46777778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-crow-island",
+  "category": "island",
+  "name": "Crow Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Crow Island, Harpswell, Maine\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Crow Island, Harpswell, Maine",
+  "lat": 43.84833333,
+  "lon": -69.98222222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-eldred-rock",
+  "category": "island",
+  "name": "Eldred Rock",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eldred Rock\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eldred Rock",
+  "lat": 58.97166667,
+  "lon": -135.22083333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-elihu-island",
+  "category": "island",
+  "name": "Elihu Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Elihu Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Elihu Island",
+  "lat": 41.336,
+  "lon": -71.888,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-garrett-island",
+  "category": "island",
+  "name": "Garrett Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Garrett Island (Maryland)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Garrett Island (Maryland)",
+  "lat": 39.5651122,
+  "lon": -76.0888391,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-great-spruce-head-island",
+  "category": "island",
+  "name": "Great Spruce Head Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Spruce Head Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Spruce Head Island",
+  "lat": 44.23611111,
+  "lon": -68.825,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-huckleberry-island",
+  "category": "island",
+  "name": "Huckleberry Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Huckleberry Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Huckleberry Island",
+  "lat": 40.88691,
+  "lon": -73.75766,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-petit-bois-island",
+  "category": "island",
+  "name": "Petit Bois Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Petit Bois Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Petit Bois Island",
+  "lat": 30.2,
+  "lon": -88.45,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-plantation-key",
+  "category": "island",
+  "name": "Plantation Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Plantation Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Plantation Key",
+  "lat": 24.9844,
+  "lon": -80.5611,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-silcox-island",
+  "category": "island",
+  "name": "Silcox Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Silcox Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Silcox Island",
+  "lat": 47.12888889,
+  "lon": -122.56472222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-spinnaker-island",
+  "category": "island",
+  "name": "Spinnaker Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Spinnaker Island (Massachusetts)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Spinnaker Island (Massachusetts)",
+  "lat": 42.29987222,
+  "lon": -70.89616111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-squaxin-island",
+  "category": "island",
+  "name": "Squaxin Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Squaxin Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Squaxin Island",
+  "lat": 47.1974,
+  "lon": -122.9119,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-veckatimest-island",
+  "category": "island",
+  "name": "Veckatimest Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Veckatimest Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Veckatimest Island",
+  "lat": 41.5076088,
+  "lon": -70.6994746,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-artificial-island",
+  "category": "island",
+  "name": "Artificial Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Artificial Island (Delaware River)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Artificial Island (Delaware River)",
+  "lat": 39.4757,
+  "lon": -75.536,
+  "oceans": []
+ },
+ {
+  "id": "island-atsena-otie-key",
+  "category": "island",
+  "name": "Atsena Otie Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Atsena Otie Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Atsena Otie Key",
+  "lat": 29.12377778,
+  "lon": -83.031,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-boca-chita-key",
+  "category": "island",
+  "name": "Boca Chita Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boca Chita Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boca Chita Key",
+  "lat": 25.5231,
+  "lon": -80.1746,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-canarsie-pol",
+  "category": "island",
+  "name": "Canarsie Pol",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Canarsie Pol\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Canarsie Pol",
+  "lat": 40.62083333,
+  "lon": -73.87166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-center-island",
+  "category": "island",
+  "name": "Center Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Center Island (Washington)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Center Island (Washington)",
+  "lat": 48.49,
+  "lon": -122.8309,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-crane-island",
+  "category": "island",
+  "name": "Crane Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Crane Island (Washington)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Crane Island (Washington)",
+  "lat": 48.597117,
+  "lon": -122.998255,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-dismal-key",
+  "category": "island",
+  "name": "Dismal Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dismal Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dismal Key",
+  "lat": 25.88944444,
+  "lon": -81.55194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-estero-island",
+  "category": "island",
+  "name": "Estero Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Estero Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Estero Island",
+  "lat": 26.43666667,
+  "lon": -81.92027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gardiners-point-island",
+  "category": "island",
+  "name": "Gardiners Point Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gardiners Point Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gardiners Point Island",
+  "lat": 41.141368,
+  "lon": -72.146187,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gooseberry-island",
+  "category": "island",
+  "name": "Gooseberry Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gooseberry Island (Massachusetts)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gooseberry Island (Massachusetts)",
+  "lat": 41.4875,
+  "lon": -71.03833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-henry-island",
+  "category": "island",
+  "name": "Henry Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Henry Island (Washington)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Henry Island (Washington)",
+  "lat": 48.603,
+  "lon": -123.186,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-isle-of-meadows",
+  "category": "island",
+  "name": "Isle of Meadows",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Meadows\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Meadows",
+  "lat": 40.57694444,
+  "lon": -74.20333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-latsch-island",
+  "category": "island",
+  "name": "Latsch Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Latsch Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Latsch Island",
+  "oceans": []
+ },
+ {
+  "id": "island-little-cranberry-island",
+  "category": "island",
+  "name": "Little Cranberry Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Cranberry Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Cranberry Island",
+  "lat": 44.26080556,
+  "lon": -68.23680556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-little-deer-isle",
+  "category": "island",
+  "name": "Little Deer Isle",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Deer Isle, Maine\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Deer Isle, Maine",
+  "lat": 44.28638889,
+  "lon": -68.69583333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lower-matecumbe-key",
+  "category": "island",
+  "name": "Lower Matecumbe Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lower Matecumbe Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lower Matecumbe Key",
+  "lat": 24.866,
+  "lon": -80.712,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ludlam-island",
+  "category": "island",
+  "name": "Ludlam Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ludlam Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ludlam Island",
+  "lat": 39.180161,
+  "lon": -74.673986,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-negit-island",
+  "category": "island",
+  "name": "Negit Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Negit Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Negit Island",
+  "lat": 38.01666667,
+  "lon": -119.05,
+  "oceans": []
+ },
+ {
+  "id": "island-new-eddystone-rock",
+  "category": "island",
+  "name": "New Eddystone Rock",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"New Eddystone Rock\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Eddystone Rock",
+  "lat": 55.50361111,
+  "lon": -130.93583333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sandy-point-island",
+  "category": "island",
+  "name": "Sandy Point Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sandy Point Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sandy Point Island",
+  "lat": 41.32888889,
+  "lon": -71.89166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sebascodegan-island",
+  "category": "island",
+  "name": "Sebascodegan Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sebascodegan Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sebascodegan Island",
+  "lat": 43.83166667,
+  "lon": -69.91916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-starve-island",
+  "category": "island",
+  "name": "Starve Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Starve Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Starve Island",
+  "lat": 41.62666667,
+  "lon": -82.8225,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sutton-island",
+  "category": "island",
+  "name": "Sutton Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sutton Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sutton Island",
+  "lat": 44.27272222,
+  "lon": -68.25627778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-van-schaick-island",
+  "category": "island",
+  "name": "Van Schaick Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Van Schaick Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Van Schaick Island",
+  "oceans": []
+ },
+ {
+  "id": "island-virginius-island",
+  "category": "island",
+  "name": "Virginius Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Virginius Island, West Virginia\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Virginius Island, West Virginia",
+  "lat": 39.3214898,
+  "lon": -77.7391595,
+  "oceans": []
+ },
+ {
+  "id": "island-apple-island",
+  "category": "island",
+  "name": "Apple Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Apple Island (Massachusetts)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Apple Island (Massachusetts)",
+  "lat": 42.35833333,
+  "lon": -70.99111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-blaine-island",
+  "category": "island",
+  "name": "Blaine Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Blaine Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Blaine Island",
+  "lat": 38.3698182,
+  "lon": -81.6820696,
+  "oceans": []
+ },
+ {
+  "id": "island-boca-grande-key",
+  "category": "island",
+  "name": "Boca Grande Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boca Grande Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boca Grande Key",
+  "lat": 24.534556,
+  "lon": -82.005083,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-brewer-island",
+  "category": "island",
+  "name": "Brewer Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Brewer Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brewer Island",
+  "lat": 37.55694444,
+  "lon": -122.26388889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-buffington-island",
+  "category": "island",
+  "name": "Buffington Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Buffington Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Buffington Island",
+  "lat": 38.99111111,
+  "lon": -81.77138889,
+  "oceans": []
+ },
+ {
+  "id": "island-callawassie-island",
+  "category": "island",
+  "name": "Callawassie Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Callawassie Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Callawassie Island",
+  "lat": 32.32666667,
+  "lon": -80.85555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-coronation-island",
+  "category": "island",
+  "name": "Coronation Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Coronation Island (Alaska)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coronation Island (Alaska)",
+  "lat": 55.87944444,
+  "lon": -134.24611111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-curtis-island",
+  "category": "island",
+  "name": "Curtis Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Curtis Island (Maine)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Curtis Island (Maine)",
+  "lat": 44.20194444,
+  "lon": -69.04972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-don-pedro-island",
+  "category": "island",
+  "name": "Don Pedro Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Don Pedro Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Don Pedro Island",
+  "lat": 26.872545,
+  "lon": -82.320299,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-east-island",
+  "category": "island",
+  "name": "East Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"East Island (Long Island Sound)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "East Island (Long Island Sound)",
+  "lat": 40.89366667,
+  "lon": -73.6355,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-egg-rock",
+  "category": "island",
+  "name": "Egg Rock",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Egg Rock (Nahant Bay)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Egg Rock (Nahant Bay)",
+  "lat": 42.4333,
+  "lon": -70.8978,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-grizzly-island",
+  "category": "island",
+  "name": "Grizzly Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grizzly Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grizzly Island",
+  "lat": 38.15138889,
+  "lon": -121.97277778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-middle-island",
+  "category": "island",
+  "name": "Middle Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Middle Island (Lake Huron)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Middle Island (Lake Huron)",
+  "lat": 45.1925149,
+  "lon": -83.327195,
+  "oceans": []
+ },
+ {
+  "id": "island-mistake-island",
+  "category": "island",
+  "name": "Mistake Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mistake Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mistake Island",
+  "lat": 44.475,
+  "lon": -67.53611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-money-key",
+  "category": "island",
+  "name": "Money Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Money Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Money Key",
+  "lat": 24.683482,
+  "lon": -81.215454,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-mulberry-island",
+  "category": "island",
+  "name": "Mulberry Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mulberry Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mulberry Island",
+  "lat": 37.11527778,
+  "lon": -76.59027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pola-island",
+  "category": "island",
+  "name": "Pola Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pola Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pola Island",
+  "lat": -14.2342,
+  "lon": -170.6706,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-ramrod-key",
+  "category": "island",
+  "name": "Ramrod Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ramrod Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ramrod Key",
+  "lat": 24.6568,
+  "lon": -81.4132,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sand-key",
+  "category": "island",
+  "name": "Sand Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sand Key (barrier island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sand Key (barrier island)",
+  "lat": 27.95861111,
+  "lon": -82.82666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-soldier-key",
+  "category": "island",
+  "name": "Soldier Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Soldier Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Soldier Key",
+  "lat": 25.590214,
+  "lon": -80.161035,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-stockton-island",
+  "category": "island",
+  "name": "Stockton Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Stockton Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stockton Island",
+  "lat": 46.93805556,
+  "lon": -90.57861111,
+  "oceans": []
+ },
+ {
+  "id": "island-sugar-loaf-island",
+  "category": "island",
+  "name": "Sugar Loaf Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sugar Loaf Island (California)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sugar Loaf Island (California)",
+  "lat": 40.43888889,
+  "lon": -124.41380556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sutwik-island",
+  "category": "island",
+  "name": "Sutwik Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sutwik Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sutwik Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tinker-s-island",
+  "category": "island",
+  "name": "Tinker's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tinker's Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tinker's Island",
+  "lat": 42.4854,
+  "lon": -70.8363,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-uncatena-island",
+  "category": "island",
+  "name": "Uncatena Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Uncatena Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uncatena Island",
+  "lat": 41.517736,
+  "lon": -70.70569,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-upper-matecumbe-key",
+  "category": "island",
+  "name": "Upper Matecumbe Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Upper Matecumbe Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Upper Matecumbe Key",
+  "lat": 24.918,
+  "lon": -80.635,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-whiskey-island",
+  "category": "island",
+  "name": "Whiskey Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Whiskey Island (Lake Michigan)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Whiskey Island (Lake Michigan)",
+  "lat": 45.81111111,
+  "lon": -85.61111111,
+  "oceans": []
+ },
+ {
+  "id": "island-big-st-martin-island",
+  "category": "island",
+  "name": "Big St. Martin Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Big St. Martin Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Big St. Martin Island",
+  "lat": 45.96833333,
+  "lon": -84.62805556,
+  "oceans": []
+ },
+ {
+  "id": "island-birch-island",
+  "category": "island",
+  "name": "Birch Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Birch Island, Maine\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Birch Island, Maine",
+  "lat": 43.82,
+  "lon": -70.0067,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-brannan-island",
+  "category": "island",
+  "name": "Brannan Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Brannan Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brannan Island",
+  "lat": 38.12194444,
+  "lon": -121.64361111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-buckeye-island",
+  "category": "island",
+  "name": "Buckeye Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Buckeye Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Buckeye Island",
+  "lat": 41.6648,
+  "lon": -82.7904,
+  "oceans": []
+ },
+ {
+  "id": "island-campbell-s-island",
+  "category": "island",
+  "name": "Campbell's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Campbell's Island, Illinois\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Campbell's Island, Illinois",
+  "lat": 41.54055556,
+  "lon": -90.43,
+  "oceans": []
+ },
+ {
+  "id": "island-carleton-s-prize",
+  "category": "island",
+  "name": "Carleton's Prize",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Carleton's Prize\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Carleton's Prize",
+  "lat": 44.60458333,
+  "lon": -73.34652778,
+  "oceans": []
+ },
+ {
+  "id": "island-clover-island",
+  "category": "island",
+  "name": "Clover Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Clover Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Clover Island",
+  "lat": 46.217,
+  "lon": -119.111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-cole-island",
+  "category": "island",
+  "name": "Cole Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cole Island, South Carolina\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cole Island, South Carolina",
+  "lat": 32.64138889,
+  "lon": -79.99361111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-colington-island",
+  "category": "island",
+  "name": "Colington Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Colington Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Colington Island",
+  "lat": 36.00583333,
+  "lon": -75.70861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cow-island",
+  "category": "island",
+  "name": "Cow Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cow Island, Maine\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cow Island, Maine",
+  "lat": 43.69166667,
+  "lon": -70.18611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-craig-key",
+  "category": "island",
+  "name": "Craig Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Craig Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Craig Key",
+  "lat": 24.8379,
+  "lon": -80.7595,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-dildo-key",
+  "category": "island",
+  "name": "Dildo Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dildo Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dildo Key",
+  "lat": 25.059,
+  "lon": -80.885,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-forrester-island",
+  "category": "island",
+  "name": "Forrester Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Forrester Island (Alaska)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Forrester Island (Alaska)",
+  "lat": 54.80277778,
+  "lon": -133.52694444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-geiger-key",
+  "category": "island",
+  "name": "Geiger Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Geiger Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Geiger Key",
+  "lat": 24.58209167,
+  "lon": -81.65258889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-grand-tower-island",
+  "category": "island",
+  "name": "Grand Tower Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grand Tower Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grand Tower Island",
+  "lat": 37.59555556,
+  "lon": -89.49638889,
+  "oceans": []
+ },
+ {
+  "id": "island-granite-island",
+  "category": "island",
+  "name": "Granite Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Granite Island (Michigan)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Granite Island (Michigan)",
+  "lat": 46.72083333,
+  "lon": -87.41138889,
+  "oceans": []
+ },
+ {
+  "id": "island-great-duck-island",
+  "category": "island",
+  "name": "Great Duck Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Duck Island, Maine\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Duck Island, Maine",
+  "lat": 44.15222222,
+  "lon": -68.24861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-great-wass-island",
+  "category": "island",
+  "name": "Great Wass Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Wass Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Wass Island",
+  "lat": 44.4775,
+  "lon": -67.585,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-herbert-island",
+  "category": "island",
+  "name": "Herbert Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Herbert Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Herbert Island",
+  "lat": 52.75305556,
+  "lon": -170.11944444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hobbs-island",
+  "category": "island",
+  "name": "Hobbs Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hobbs Island, Alabama\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hobbs Island, Alabama",
+  "lat": 34.53694444,
+  "lon": -86.53472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-key-vaca",
+  "category": "island",
+  "name": "Key Vaca",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Key Vaca\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Key Vaca",
+  "lat": 24.71916667,
+  "lon": -81.06888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kiket-island",
+  "category": "island",
+  "name": "Kiket Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kiket Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kiket Island",
+  "lat": 48.41916667,
+  "lon": -122.56722222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-lignumvitae-key",
+  "category": "island",
+  "name": "Lignumvitae Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lignumvitae Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lignumvitae Key",
+  "lat": 24.902,
+  "lon": -80.699,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-little-chebeague-island",
+  "category": "island",
+  "name": "Little Chebeague Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Chebeague Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Chebeague Island",
+  "lat": 43.712137,
+  "lon": -70.148442,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-little-diamond-island",
+  "category": "island",
+  "name": "Little Diamond Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Diamond Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Diamond Island",
+  "lat": 43.667189,
+  "lon": -70.208076,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-money-island",
+  "category": "island",
+  "name": "Money Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Money Island (Branford, Connecticut)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Money Island (Branford, Connecticut)",
+  "lat": 41.24955,
+  "lon": -72.75164,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-munyon-island",
+  "category": "island",
+  "name": "Munyon Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Munyon Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Munyon Island",
+  "lat": 26.81666667,
+  "lon": -80.04722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-peirce-island",
+  "category": "island",
+  "name": "Peirce Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Peirce Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peirce Island",
+  "lat": 43.07444444,
+  "lon": -70.74416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pennock-island",
+  "category": "island",
+  "name": "Pennock Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pennock Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pennock Island",
+  "lat": 55.31972,
+  "lon": -131.62806,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-powder-house-island",
+  "category": "island",
+  "name": "Powder House Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Powder House Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Powder House Island",
+  "lat": 42.10722222,
+  "lon": -83.13555556,
+  "oceans": []
+ },
+ {
+  "id": "island-ram-island",
+  "category": "island",
+  "name": "Ram Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ram Island (Connecticut)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ram Island (Connecticut)",
+  "lat": 41.3134323,
+  "lon": -71.9789619,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rugged-island",
+  "category": "island",
+  "name": "Rugged Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rugged Island (Alaska)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rugged Island (Alaska)",
+  "lat": 59.857,
+  "lon": -149.381,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-scout-key",
+  "category": "island",
+  "name": "Scout Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Scout Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Scout Key",
+  "lat": 24.649855,
+  "lon": -81.310887,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-shark-key",
+  "category": "island",
+  "name": "Shark Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shark Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shark Key",
+  "lat": 24.606503,
+  "lon": -81.647859,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-spring-island",
+  "category": "island",
+  "name": "Spring Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Spring Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Spring Island",
+  "lat": 32.326,
+  "lon": -80.824,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sukkwan-island",
+  "category": "island",
+  "name": "Sukkwan Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sukkwan Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sukkwan Island",
+  "lat": 55.09666667,
+  "lon": -132.77583333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sutil-island",
+  "category": "island",
+  "name": "Sutil Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sutil Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sutil Island",
+  "lat": 33.46416667,
+  "lon": -119.04833333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tea-table-key",
+  "category": "island",
+  "name": "Tea Table Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tea Table Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tea Table Key",
+  "lat": 24.896373,
+  "lon": -80.66219,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-tuxis-island",
+  "category": "island",
+  "name": "Tuxis Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tuxis Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tuxis Island",
+  "lat": 41.2663,
+  "lon": -72.6019,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-weedon-island",
+  "category": "island",
+  "name": "Weedon Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Weedon Island, Florida\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Weedon Island, Florida",
+  "lat": 27.84530278,
+  "lon": -82.60148611,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-woman-key",
+  "category": "island",
+  "name": "Woman Key",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Woman Key\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Woman Key",
+  "lat": 24.524333,
+  "lon": -81.973722,
+  "oceans": [
+   "Atlantic"
+  ]
  }
 ]

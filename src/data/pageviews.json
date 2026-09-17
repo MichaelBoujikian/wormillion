@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T15:07:05.104Z",
+ "fetched": "2026-09-17T15:34:02.964Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -98584,6 +98584,1854 @@
    "days": 60,
    "lat": 59.825,
    "lon": 21.6
+  },
+  "island-horn-island": {
+   "title": "Horn Island (Mississippi)",
+   "monthlyViews": 10045,
+   "days": 60,
+   "lat": 30.23333333,
+   "lon": -88.66666667
+  },
+  "island-just-room-enough-island": {
+   "title": "Just Room Enough Island",
+   "monthlyViews": 5510,
+   "days": 60,
+   "lat": 44.34263889,
+   "lon": -75.92486111
+  },
+  "island-daniel-island": {
+   "title": "Daniel Island",
+   "monthlyViews": 5144,
+   "days": 60,
+   "lat": 32.8591,
+   "lon": -79.912
+  },
+  "island-daufuskie-island": {
+   "title": "Daufuskie Island",
+   "monthlyViews": 4140,
+   "days": 60,
+   "lat": 32.11305556,
+   "lon": -80.86638889
+  },
+  "island-sea-island": {
+   "title": "Sea Island, Georgia",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-wizard-island": {
+   "title": "Wizard Island",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 42.93888889,
+   "lon": -122.14583333
+  },
+  "island-pleasure-island": {
+   "title": "Pleasure Island (North Carolina)",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 34.0187,
+   "lon": -77.9061
+  },
+  "island-sapelo-island": {
+   "title": "Sapelo Island",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 31.4775,
+   "lon": -81.24166667
+  },
+  "island-st-george-island": {
+   "title": "St. George Island (Florida)",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 29.65305556,
+   "lon": -84.88833333
+  },
+  "island-isle-au-haut": {
+   "title": "Isle au Haut, Maine",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 44.05138889,
+   "lon": -68.59166667
+  },
+  "island-topsail-island": {
+   "title": "Topsail Island",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 34.46972222,
+   "lon": -77.47194444
+  },
+  "island-north-dumpling-island": {
+   "title": "North Dumpling Island",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 41.28805556,
+   "lon": -72.01888889
+  },
+  "island-gasparilla-island": {
+   "title": "Gasparilla Island",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 26.76427,
+   "lon": -82.26543
+  },
+  "island-volvo-island": {
+   "title": "Volvo Island",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-tuckernuck-island": {
+   "title": "Tuckernuck Island",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 41.30222222,
+   "lon": -70.25722222
+  },
+  "island-johnson-s-island": {
+   "title": "Johnson's Island",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 41.4963,
+   "lon": -82.7346
+  },
+  "island-rattlesnake-island": {
+   "title": "Rattlesnake Island (Lake Erie)",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 41.6791,
+   "lon": -82.8493
+  },
+  "island-harsens-island": {
+   "title": "Harsens Island",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 42.59,
+   "lon": -82.55138889
+  },
+  "island-monomoy-island": {
+   "title": "Monomoy Island",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 41.59805556,
+   "lon": -69.98833333
+  },
+  "island-alameda": {
+   "title": "Alameda (island)",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 37.77666667,
+   "lon": -122.27777778
+  },
+  "island-dark-island": {
+   "title": "Dark Island",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 44.45194444,
+   "lon": -75.81222222
+  },
+  "island-bailey-island": {
+   "title": "Bailey Island (Maine)",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 43.7375,
+   "lon": -69.99361111
+  },
+  "island-peanut-island": {
+   "title": "Peanut Island",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 26.7735,
+   "lon": -80.046
+  },
+  "island-ship-island": {
+   "title": "Ship Island",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 30.21666667,
+   "lon": -88.91666667
+  },
+  "island-guemes-island": {
+   "title": "Guemes Island",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 48.54777778,
+   "lon": -122.62444444
+  },
+  "island-pine-island": {
+   "title": "Pine Island (Lee County, Florida)",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 26.55916667,
+   "lon": -82.09972222
+  },
+  "island-isle-de-jean-charles": {
+   "title": "Isle de Jean Charles, Louisiana",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 29.3875,
+   "lon": -90.48305556
+  },
+  "island-penikese-island": {
+   "title": "Penikese Island",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 41.4501071,
+   "lon": -70.9230909
+  },
+  "island-sand-island": {
+   "title": "Sand Island (Hawaii)",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 21.30694444,
+   "lon": -157.87916667
+  },
+  "island-santa-rosa-island": {
+   "title": "Santa Rosa Island, Florida",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 30.3825,
+   "lon": -86.85638889
+  },
+  "island-blennerhassett-island": {
+   "title": "Blennerhassett Island",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 39.2711863,
+   "lon": -81.6256827
+  },
+  "island-dog-island": {
+   "title": "Dog Island (Florida)",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 29.8,
+   "lon": -84.61
+  },
+  "island-holland-island": {
+   "title": "Holland Island",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 38.12,
+   "lon": -76.0875
+  },
+  "island-hutchinson-island": {
+   "title": "Hutchinson Island (Florida)",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 27.29611111,
+   "lon": -80.21611111
+  },
+  "island-ono-island": {
+   "title": "Ono Island, Alabama",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 30.2875,
+   "lon": -87.50194444
+  },
+  "island-wellesley-island": {
+   "title": "Wellesley Island",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 44.31666667,
+   "lon": -76
+  },
+  "island-jones-beach-island": {
+   "title": "Jones Beach Island",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 40.596234,
+   "lon": -73.507861
+  },
+  "island-mustang-island": {
+   "title": "Mustang Island",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 27.73944444,
+   "lon": -97.13166667
+  },
+  "island-heart-island": {
+   "title": "Heart Island",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-muskeget-island": {
+   "title": "Muskeget Island",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 41.33527778,
+   "lon": -70.30416667
+  },
+  "island-squirrel-island": {
+   "title": "Squirrel Island, Maine",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 43.80833333,
+   "lon": -69.63055556
+  },
+  "island-brickell-key": {
+   "title": "Brickell Key",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 25.766288,
+   "lon": -80.185152
+  },
+  "island-gwynn-s-island": {
+   "title": "Gwynn's Island",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 37.50735556,
+   "lon": -76.29021944
+  },
+  "island-knotts-island": {
+   "title": "Knotts Island, North Carolina",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 36.51361111,
+   "lon": -75.91916667
+  },
+  "island-luna-island": {
+   "title": "Luna Island",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 43.08333333,
+   "lon": -79.07027778
+  },
+  "island-oak-island": {
+   "title": "Oak Island (North Carolina)",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 33.9137,
+   "lon": -78.1111
+  },
+  "island-sucia-island": {
+   "title": "Sucia Island",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 48.75361111,
+   "lon": -122.91333333
+  },
+  "island-boon-island": {
+   "title": "Boon Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 43.12083333,
+   "lon": -70.475
+  },
+  "island-san-jose-island": {
+   "title": "San José Island (Texas)",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 27.97805556,
+   "lon": -96.94694444
+  },
+  "island-james-island": {
+   "title": "James Island (South Carolina)",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 32.72777778,
+   "lon": -79.95555556
+  },
+  "island-enders-island": {
+   "title": "Enders Island",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-great-gull-island": {
+   "title": "Great Gull Island",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 41.20194444,
+   "lon": -72.11916667
+  },
+  "island-shooters-island": {
+   "title": "Shooters Island",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 40.64333333,
+   "lon": -74.15972222
+  },
+  "island-davids-island": {
+   "title": "Davids Island (New York)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 40.883417,
+   "lon": -73.770231
+  },
+  "island-gibson-island": {
+   "title": "Gibson Island (Maryland)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 39.07416667,
+   "lon": -76.42388889
+  },
+  "island-hawaii-2": {
+   "title": "Hawaii 2",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 44.397418,
+   "lon": -69.336586
+  },
+  "island-isle-la-motte": {
+   "title": "Isle La Motte",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 44.86527778,
+   "lon": -73.35888889
+  },
+  "island-anastasia-island": {
+   "title": "Anastasia Island",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 29.80406,
+   "lon": -81.26692
+  },
+  "island-appledore-island": {
+   "title": "Appledore Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 42.98916667,
+   "lon": -70.615
+  },
+  "island-bakers-island": {
+   "title": "Bakers Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 42.533,
+   "lon": -70.787
+  },
+  "island-orr-s-island": {
+   "title": "Orr's Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 43.77,
+   "lon": -69.965
+  },
+  "island-bloodsworth-island": {
+   "title": "Bloodsworth Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-cedar-island": {
+   "title": "Cedar Island, North Carolina",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.005,
+   "lon": -76.30944444
+  },
+  "island-fenwick-island": {
+   "title": "Fenwick Island (Delaware–Maryland)",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 38.45333333,
+   "lon": -75.04833333
+  },
+  "island-great-cranberry-island": {
+   "title": "Great Cranberry Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 44.24361111,
+   "lon": -68.25930556
+  },
+  "island-lido-key": {
+   "title": "Lido Key",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 27.31694444,
+   "lon": -82.58138889
+  },
+  "island-elliott-key": {
+   "title": "Elliott Key",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 25.44305556,
+   "lon": -80.19722222
+  },
+  "island-maury-island": {
+   "title": "Maury Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 47.37694444,
+   "lon": -122.42972222
+  },
+  "island-useppa-island": {
+   "title": "Useppa Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 26.66138889,
+   "lon": -82.21277778
+  },
+  "island-wheeling-island": {
+   "title": "Wheeling Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 40.07055556,
+   "lon": -80.73305556
+  },
+  "island-bar-island": {
+   "title": "Bar Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 44.39833333,
+   "lon": -68.20666667
+  },
+  "island-boca-chica-key": {
+   "title": "Boca Chica Key",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 24.5774,
+   "lon": -81.6933
+  },
+  "island-bogue-banks": {
+   "title": "Bogue Banks",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 34.682911,
+   "lon": -76.891937
+  },
+  "island-poplar-island": {
+   "title": "Poplar Island (Chesapeake Bay)",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 38.76694444,
+   "lon": -76.38166667
+  },
+  "island-children-s-island": {
+   "title": "Children's Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 42.51166667,
+   "lon": -70.81444444
+  },
+  "island-eastern-egg-rock-island": {
+   "title": "Eastern Egg Rock Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 43.8606389,
+   "lon": -69.3819911
+  },
+  "island-great-diamond-island": {
+   "title": "Great Diamond Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 43.67916667,
+   "lon": -70.19722222
+  },
+  "island-little-torch-key": {
+   "title": "Little Torch Key",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 24.66566,
+   "lon": -81.390603
+  },
+  "island-billingsgate-island": {
+   "title": "Billingsgate Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 41.87063611,
+   "lon": -70.06861944
+  },
+  "island-charity-island": {
+   "title": "Charity Island (Michigan)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 44.03138889,
+   "lon": -83.43555556
+  },
+  "island-craney-island": {
+   "title": "Craney Island (Virginia)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 36.8925,
+   "lon": -76.35944444
+  },
+  "island-falkner-island": {
+   "title": "Falkner Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 41.21088,
+   "lon": -72.65319
+  },
+  "island-grindstone-island": {
+   "title": "Grindstone Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 44.2769,
+   "lon": -76.1147
+  },
+  "island-keewaydin-island": {
+   "title": "Keewaydin Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 26.04611111,
+   "lon": -81.77833333
+  },
+  "island-north-padre-island": {
+   "title": "North Padre Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 27.277,
+   "lon": -97.366
+  },
+  "island-seavey-s-island": {
+   "title": "Seavey's Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 43.07888889,
+   "lon": -70.73416667
+  },
+  "island-summerland-key": {
+   "title": "Summerland Key",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-anclote-key": {
+   "title": "Anclote Key",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 28.18777778,
+   "lon": -82.84555556
+  },
+  "island-gaillard-island": {
+   "title": "Gaillard Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 30.51,
+   "lon": -88.03
+  },
+  "island-government-island": {
+   "title": "Government Island (Oregon)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 45.575,
+   "lon": -122.508
+  },
+  "island-middleton-island": {
+   "title": "Middleton Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 59.44,
+   "lon": -146.33
+  },
+  "island-mon-louis-island": {
+   "title": "Mon Louis Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 30.36744444,
+   "lon": -88.14055556
+  },
+  "island-pea-island": {
+   "title": "Pea Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.723,
+   "lon": -75.496
+  },
+  "island-constitution-island": {
+   "title": "Constitution Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 41.40555556,
+   "lon": -73.95416667
+  },
+  "island-cushing-island": {
+   "title": "Cushing Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 43.64111111,
+   "lon": -70.20777778
+  },
+  "island-doty-island": {
+   "title": "Doty Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 44.1935973,
+   "lon": -88.4476086
+  },
+  "island-gould-island": {
+   "title": "Gould Island (Rhode Island)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 41.533575,
+   "lon": -71.34444167
+  },
+  "island-jupiter-island": {
+   "title": "Jupiter Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 27.03166667,
+   "lon": -80.10055556
+  },
+  "island-perdido-key": {
+   "title": "Perdido Key",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 30.29388889,
+   "lon": -87.45305556
+  },
+  "island-russell-island": {
+   "title": "Russell Island (Michigan)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 42.60833333,
+   "lon": -82.52888889
+  },
+  "island-stansbury-island": {
+   "title": "Stansbury Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 40.82972222,
+   "lon": -112.49777778
+  },
+  "island-stony-island": {
+   "title": "Stony Island (New York)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 43.894,
+   "lon": -76.331
+  },
+  "island-sugarloaf-key": {
+   "title": "Sugarloaf Key",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 24.628,
+   "lon": -81.514
+  },
+  "island-calumet-island": {
+   "title": "Calumet Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 44.25,
+   "lon": -76.095
+  },
+  "island-clark-s-island": {
+   "title": "Clark's Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 42.00833333,
+   "lon": -70.6375
+  },
+  "island-hoopers-island": {
+   "title": "Hoopers Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 38.3,
+   "lon": -76.20805556
+  },
+  "island-house-island": {
+   "title": "House Island (Maine)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 43.65277778,
+   "lon": -70.20972222
+  },
+  "island-lady-s-island": {
+   "title": "Lady's Island (South Carolina)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 32.38333333,
+   "lon": -80.69555556
+  },
+  "island-little-st-simons-island": {
+   "title": "Little St. Simons Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 31.29911769,
+   "lon": -81.32842961
+  },
+  "island-manitou-island": {
+   "title": "Manitou Island (Michigan)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 47.41666667,
+   "lon": -87.61666667
+  },
+  "island-poverty-island": {
+   "title": "Poverty Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 45.5275,
+   "lon": -86.66444444
+  },
+  "island-seven-mile-island": {
+   "title": "Seven Mile Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 39.07551,
+   "lon": -74.738789
+  },
+  "island-ballast-island": {
+   "title": "Ballast Island (Lake Erie)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 41.6778,
+   "lon": -82.7853
+  },
+  "island-boot-key": {
+   "title": "Boot Key",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 24.696,
+   "lon": -81.102
+  },
+  "island-cliff-island": {
+   "title": "Cliff Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 43.69611111,
+   "lon": -70.10777778
+  },
+  "island-damariscove-island": {
+   "title": "Damariscove Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 43.76,
+   "lon": -69.61416667
+  },
+  "island-hart-miller-island": {
+   "title": "Hart Miller Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 39.25166667,
+   "lon": -76.37333333
+  },
+  "island-horseshoe-island": {
+   "title": "Horseshoe Island (New Jersey)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 39.473,
+   "lon": -74.3015
+  },
+  "island-jewell-island": {
+   "title": "Jewell Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 43.6814,
+   "lon": -70.093
+  },
+  "island-long-key": {
+   "title": "Long Key",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 24.819,
+   "lon": -80.814
+  },
+  "island-port-royal-island": {
+   "title": "Port Royal Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 32.43555556,
+   "lon": -80.73861111
+  },
+  "island-tinsley-island": {
+   "title": "Tinsley Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 38.03777778,
+   "lon": -121.49583333
+  },
+  "island-allan-island": {
+   "title": "Allan Island (Washington)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-belvedere-island": {
+   "title": "Belvedere Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 37.87158,
+   "lon": -122.46849
+  },
+  "island-casey-key": {
+   "title": "Casey Key, Florida",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 27.15,
+   "lon": -82.48055556
+  },
+  "island-choate-island": {
+   "title": "Choate Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 42.66473889,
+   "lon": -70.75929722
+  },
+  "island-chouteau-island": {
+   "title": "Chouteau Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 38.76861111,
+   "lon": -90.14638889
+  },
+  "island-dosoris-island": {
+   "title": "Dosoris Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 40.8925,
+   "lon": -73.63861111
+  },
+  "island-japonski-island": {
+   "title": "Japonski Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 57.05222222,
+   "lon": -135.36
+  },
+  "island-long-beach-barrier-island": {
+   "title": "Long Beach Barrier Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-mussel-rock": {
+   "title": "Mussel Rock",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 37.66694444,
+   "lon": -122.49722222
+  },
+  "island-samish-island": {
+   "title": "Samish Island, Washington",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.57583333,
+   "lon": -122.54111111
+  },
+  "island-san-pablo-island": {
+   "title": "San Pablo Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 30.2841,
+   "lon": -81.3961
+  },
+  "island-waties-island": {
+   "title": "Waties Island, South Carolina",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 33.84888889,
+   "lon": -78.57472222
+  },
+  "island-badger-s-island": {
+   "title": "Badger's Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 43.08194444,
+   "lon": -70.7525
+  },
+  "island-blakeley-island": {
+   "title": "Blakeley Island (Alabama)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 30.72111111,
+   "lon": -88.0275
+  },
+  "island-bustins-island": {
+   "title": "Bustins Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 43.800192,
+   "lon": -70.07176
+  },
+  "island-caladesi-island": {
+   "title": "Caladesi Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 28.02944444,
+   "lon": -82.82055556
+  },
+  "island-cockspur-island": {
+   "title": "Cockspur Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 32.02777778,
+   "lon": -80.89833333
+  },
+  "island-coconut-island": {
+   "title": "Coconut Island (Hawaiʻi County)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 19.72944444,
+   "lon": -155.06861111
+  },
+  "island-drayton-island": {
+   "title": "Drayton Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 29.36121,
+   "lon": -81.63888
+  },
+  "island-jetty-island": {
+   "title": "Jetty Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 48.0104,
+   "lon": -122.2272
+  },
+  "island-little-gasparilla-island": {
+   "title": "Little Gasparilla Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 26.82972222,
+   "lon": -82.29083333
+  },
+  "island-manana-island": {
+   "title": "Manana Island (Maine)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 43.764,
+   "lon": -69.326
+  },
+  "island-moose-island": {
+   "title": "Moose Island, Maine",
+   "monthlyViews": 244,
+   "days": 54,
+   "lat": 44.91694444,
+   "lon": -67.00666667
+  },
+  "island-mosenthein-island": {
+   "title": "Mosenthein Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 38.7225,
+   "lon": -90.20166667
+  },
+  "island-nixes-mate": {
+   "title": "Nixes Mate",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-ragged-island": {
+   "title": "Ragged Island (Harpswell, Maine)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-sandspur-island": {
+   "title": "Sandspur Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 25.90083333,
+   "lon": -80.13536111
+  },
+  "island-sandy-island": {
+   "title": "Sandy Island, South Carolina",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 33.55777778,
+   "lon": -79.13083333
+  },
+  "island-st-armands-key": {
+   "title": "St. Armands Key, Florida",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 27.31833333,
+   "lon": -82.57833333
+  },
+  "island-summer-island": {
+   "title": "Summer Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.56333333,
+   "lon": -86.63638889
+  },
+  "island-totten-key": {
+   "title": "Totten Key",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 25.3796,
+   "lon": -80.2484
+  },
+  "island-unity-island": {
+   "title": "Unity Island",
+   "monthlyViews": 244,
+   "days": 54,
+   "lat": 42.925,
+   "lon": -78.90361111
+  },
+  "island-allen-island": {
+   "title": "Allen Island (Maine)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 43.86666667,
+   "lon": -69.31416667
+  },
+  "island-bay-island": {
+   "title": "Bay Island (Newport Beach, California)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.60694444,
+   "lon": -117.905
+  },
+  "island-brazos-island": {
+   "title": "Brazos Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 26.03055556,
+   "lon": -97.1575
+  },
+  "island-brigantine-island": {
+   "title": "Brigantine Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 39.4069,
+   "lon": -74.3671
+  },
+  "island-butler-island": {
+   "title": "Butler Island (Georgia)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 31.35888889,
+   "lon": -81.46777778
+  },
+  "island-crow-island": {
+   "title": "Crow Island, Harpswell, Maine",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 43.84833333,
+   "lon": -69.98222222
+  },
+  "island-eldred-rock": {
+   "title": "Eldred Rock",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 58.97166667,
+   "lon": -135.22083333
+  },
+  "island-elihu-island": {
+   "title": "Elihu Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 41.336,
+   "lon": -71.888
+  },
+  "island-garrett-island": {
+   "title": "Garrett Island (Maryland)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 39.5651122,
+   "lon": -76.0888391
+  },
+  "island-great-spruce-head-island": {
+   "title": "Great Spruce Head Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.23611111,
+   "lon": -68.825
+  },
+  "island-huckleberry-island": {
+   "title": "Huckleberry Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 40.88691,
+   "lon": -73.75766
+  },
+  "island-petit-bois-island": {
+   "title": "Petit Bois Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 30.2,
+   "lon": -88.45
+  },
+  "island-plantation-key": {
+   "title": "Plantation Key",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 24.9844,
+   "lon": -80.5611
+  },
+  "island-silcox-island": {
+   "title": "Silcox Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 47.12888889,
+   "lon": -122.56472222
+  },
+  "island-spinnaker-island": {
+   "title": "Spinnaker Island (Massachusetts)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 42.29987222,
+   "lon": -70.89616111
+  },
+  "island-squaxin-island": {
+   "title": "Squaxin Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 47.1974,
+   "lon": -122.9119
+  },
+  "island-veckatimest-island": {
+   "title": "Veckatimest Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 41.5076088,
+   "lon": -70.6994746
+  },
+  "island-artificial-island": {
+   "title": "Artificial Island (Delaware River)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.4757,
+   "lon": -75.536
+  },
+  "island-atsena-otie-key": {
+   "title": "Atsena Otie Key",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 29.12377778,
+   "lon": -83.031
+  },
+  "island-boca-chita-key": {
+   "title": "Boca Chita Key",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 25.5231,
+   "lon": -80.1746
+  },
+  "island-canarsie-pol": {
+   "title": "Canarsie Pol",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.62083333,
+   "lon": -73.87166667
+  },
+  "island-center-island": {
+   "title": "Center Island (Washington)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 48.49,
+   "lon": -122.8309
+  },
+  "island-crane-island": {
+   "title": "Crane Island (Washington)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 48.597117,
+   "lon": -122.998255
+  },
+  "island-dismal-key": {
+   "title": "Dismal Key",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 25.88944444,
+   "lon": -81.55194444
+  },
+  "island-estero-island": {
+   "title": "Estero Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 26.43666667,
+   "lon": -81.92027778
+  },
+  "island-gardiners-point-island": {
+   "title": "Gardiners Point Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.141368,
+   "lon": -72.146187
+  },
+  "island-gooseberry-island": {
+   "title": "Gooseberry Island (Massachusetts)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.4875,
+   "lon": -71.03833333
+  },
+  "island-henry-island": {
+   "title": "Henry Island (Washington)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 48.603,
+   "lon": -123.186
+  },
+  "island-isle-of-meadows": {
+   "title": "Isle of Meadows",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.57694444,
+   "lon": -74.20333333
+  },
+  "island-latsch-island": {
+   "title": "Latsch Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-little-cranberry-island": {
+   "title": "Little Cranberry Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.26080556,
+   "lon": -68.23680556
+  },
+  "island-little-deer-isle": {
+   "title": "Little Deer Isle, Maine",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.28638889,
+   "lon": -68.69583333
+  },
+  "island-lower-matecumbe-key": {
+   "title": "Lower Matecumbe Key",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 24.866,
+   "lon": -80.712
+  },
+  "island-ludlam-island": {
+   "title": "Ludlam Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.180161,
+   "lon": -74.673986
+  },
+  "island-negit-island": {
+   "title": "Negit Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.01666667,
+   "lon": -119.05
+  },
+  "island-new-eddystone-rock": {
+   "title": "New Eddystone Rock",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 55.50361111,
+   "lon": -130.93583333
+  },
+  "island-sandy-point-island": {
+   "title": "Sandy Point Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.32888889,
+   "lon": -71.89166667
+  },
+  "island-sebascodegan-island": {
+   "title": "Sebascodegan Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 43.83166667,
+   "lon": -69.91916667
+  },
+  "island-starve-island": {
+   "title": "Starve Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.62666667,
+   "lon": -82.8225
+  },
+  "island-sutton-island": {
+   "title": "Sutton Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.27272222,
+   "lon": -68.25627778
+  },
+  "island-van-schaick-island": {
+   "title": "Van Schaick Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-virginius-island": {
+   "title": "Virginius Island, West Virginia",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.3214898,
+   "lon": -77.7391595
+  },
+  "island-apple-island": {
+   "title": "Apple Island (Massachusetts)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.35833333,
+   "lon": -70.99111111
+  },
+  "island-blaine-island": {
+   "title": "Blaine Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 38.3698182,
+   "lon": -81.6820696
+  },
+  "island-boca-grande-key": {
+   "title": "Boca Grande Key",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 24.534556,
+   "lon": -82.005083
+  },
+  "island-brewer-island": {
+   "title": "Brewer Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 37.55694444,
+   "lon": -122.26388889
+  },
+  "island-buffington-island": {
+   "title": "Buffington Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 38.99111111,
+   "lon": -81.77138889
+  },
+  "island-callawassie-island": {
+   "title": "Callawassie Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 32.32666667,
+   "lon": -80.85555556
+  },
+  "island-coronation-island": {
+   "title": "Coronation Island (Alaska)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 55.87944444,
+   "lon": -134.24611111
+  },
+  "island-curtis-island": {
+   "title": "Curtis Island (Maine)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.20194444,
+   "lon": -69.04972222
+  },
+  "island-don-pedro-island": {
+   "title": "Don Pedro Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 26.872545,
+   "lon": -82.320299
+  },
+  "island-east-island": {
+   "title": "East Island (Long Island Sound)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 40.89366667,
+   "lon": -73.6355
+  },
+  "island-egg-rock": {
+   "title": "Egg Rock (Nahant Bay)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.4333,
+   "lon": -70.8978
+  },
+  "island-grizzly-island": {
+   "title": "Grizzly Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 38.15138889,
+   "lon": -121.97277778
+  },
+  "island-middle-island": {
+   "title": "Middle Island (Lake Huron)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.1925149,
+   "lon": -83.327195
+  },
+  "island-mistake-island": {
+   "title": "Mistake Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.475,
+   "lon": -67.53611111
+  },
+  "island-money-key": {
+   "title": "Money Key",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 24.683482,
+   "lon": -81.215454
+  },
+  "island-mulberry-island": {
+   "title": "Mulberry Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 37.11527778,
+   "lon": -76.59027778
+  },
+  "island-pola-island": {
+   "title": "Pola Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -14.2342,
+   "lon": -170.6706
+  },
+  "island-ramrod-key": {
+   "title": "Ramrod Key",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 24.6568,
+   "lon": -81.4132
+  },
+  "island-sand-key": {
+   "title": "Sand Key (barrier island)",
+   "monthlyViews": 152,
+   "days": 57,
+   "lat": 27.95861111,
+   "lon": -82.82666667
+  },
+  "island-soldier-key": {
+   "title": "Soldier Key",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 25.590214,
+   "lon": -80.161035
+  },
+  "island-stockton-island": {
+   "title": "Stockton Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.93805556,
+   "lon": -90.57861111
+  },
+  "island-sugar-loaf-island": {
+   "title": "Sugar Loaf Island (California)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 40.43888889,
+   "lon": -124.41380556
+  },
+  "island-sutwik-island": {
+   "title": "Sutwik Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-tinker-s-island": {
+   "title": "Tinker's Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.4854,
+   "lon": -70.8363
+  },
+  "island-uncatena-island": {
+   "title": "Uncatena Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 41.517736,
+   "lon": -70.70569
+  },
+  "island-upper-matecumbe-key": {
+   "title": "Upper Matecumbe Key",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 24.918,
+   "lon": -80.635
+  },
+  "island-whiskey-island": {
+   "title": "Whiskey Island (Lake Michigan)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.81111111,
+   "lon": -85.61111111
+  },
+  "island-big-st-martin-island": {
+   "title": "Big St. Martin Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.96833333,
+   "lon": -84.62805556
+  },
+  "island-birch-island": {
+   "title": "Birch Island, Maine",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 43.82,
+   "lon": -70.0067
+  },
+  "island-brannan-island": {
+   "title": "Brannan Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.12194444,
+   "lon": -121.64361111
+  },
+  "island-buckeye-island": {
+   "title": "Buckeye Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.6648,
+   "lon": -82.7904
+  },
+  "island-campbell-s-island": {
+   "title": "Campbell's Island, Illinois",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.54055556,
+   "lon": -90.43
+  },
+  "island-carleton-s-prize": {
+   "title": "Carleton's Prize",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 44.60458333,
+   "lon": -73.34652778
+  },
+  "island-clover-island": {
+   "title": "Clover Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.217,
+   "lon": -119.111
+  },
+  "island-cole-island": {
+   "title": "Cole Island, South Carolina",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.64138889,
+   "lon": -79.99361111
+  },
+  "island-colington-island": {
+   "title": "Colington Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.00583333,
+   "lon": -75.70861111
+  },
+  "island-cow-island": {
+   "title": "Cow Island, Maine",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 43.69166667,
+   "lon": -70.18611111
+  },
+  "island-craig-key": {
+   "title": "Craig Key",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.8379,
+   "lon": -80.7595
+  },
+  "island-dildo-key": {
+   "title": "Dildo Key",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 25.059,
+   "lon": -80.885
+  },
+  "island-forrester-island": {
+   "title": "Forrester Island (Alaska)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.80277778,
+   "lon": -133.52694444
+  },
+  "island-geiger-key": {
+   "title": "Geiger Key",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.58209167,
+   "lon": -81.65258889
+  },
+  "island-grand-tower-island": {
+   "title": "Grand Tower Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.59555556,
+   "lon": -89.49638889
+  },
+  "island-granite-island": {
+   "title": "Granite Island (Michigan)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.72083333,
+   "lon": -87.41138889
+  },
+  "island-great-duck-island": {
+   "title": "Great Duck Island, Maine",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.15222222,
+   "lon": -68.24861111
+  },
+  "island-great-wass-island": {
+   "title": "Great Wass Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.4775,
+   "lon": -67.585
+  },
+  "island-herbert-island": {
+   "title": "Herbert Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.75305556,
+   "lon": -170.11944444
+  },
+  "island-hobbs-island": {
+   "title": "Hobbs Island, Alabama",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.53694444,
+   "lon": -86.53472222
+  },
+  "island-key-vaca": {
+   "title": "Key Vaca",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.71916667,
+   "lon": -81.06888889
+  },
+  "island-kiket-island": {
+   "title": "Kiket Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.41916667,
+   "lon": -122.56722222
+  },
+  "island-lignumvitae-key": {
+   "title": "Lignumvitae Key",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.902,
+   "lon": -80.699
+  },
+  "island-little-chebeague-island": {
+   "title": "Little Chebeague Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 43.712137,
+   "lon": -70.148442
+  },
+  "island-little-diamond-island": {
+   "title": "Little Diamond Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 43.667189,
+   "lon": -70.208076
+  },
+  "island-money-island": {
+   "title": "Money Island (Branford, Connecticut)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.24955,
+   "lon": -72.75164
+  },
+  "island-munyon-island": {
+   "title": "Munyon Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 26.81666667,
+   "lon": -80.04722222
+  },
+  "island-peirce-island": {
+   "title": "Peirce Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 43.07444444,
+   "lon": -70.74416667
+  },
+  "island-pennock-island": {
+   "title": "Pennock Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.31972,
+   "lon": -131.62806
+  },
+  "island-powder-house-island": {
+   "title": "Powder House Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 42.10722222,
+   "lon": -83.13555556
+  },
+  "island-ram-island": {
+   "title": "Ram Island (Connecticut)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.3134323,
+   "lon": -71.9789619
+  },
+  "island-rugged-island": {
+   "title": "Rugged Island (Alaska)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 59.857,
+   "lon": -149.381
+  },
+  "island-scout-key": {
+   "title": "Scout Key",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.649855,
+   "lon": -81.310887
+  },
+  "island-shark-key": {
+   "title": "Shark Key",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.606503,
+   "lon": -81.647859
+  },
+  "island-spring-island": {
+   "title": "Spring Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.326,
+   "lon": -80.824
+  },
+  "island-sukkwan-island": {
+   "title": "Sukkwan Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.09666667,
+   "lon": -132.77583333
+  },
+  "island-sutil-island": {
+   "title": "Sutil Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 33.46416667,
+   "lon": -119.04833333
+  },
+  "island-tea-table-key": {
+   "title": "Tea Table Key",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.896373,
+   "lon": -80.66219
+  },
+  "island-tuxis-island": {
+   "title": "Tuxis Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.2663,
+   "lon": -72.6019
+  },
+  "island-weedon-island": {
+   "title": "Weedon Island, Florida",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 27.84530278,
+   "lon": -82.60148611
+  },
+  "island-woman-key": {
+   "title": "Woman Key",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.524333,
+   "lon": -81.973722
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

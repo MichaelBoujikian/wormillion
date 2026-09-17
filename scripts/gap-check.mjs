@@ -90,7 +90,9 @@ const EXPECTED = {
     // the 2026-09-17 UK + Ireland islands scouring (reports/2026-09-17-europe-islands.md)
     'Rockall', 'Eilean Donan', 'Isle of Portland', 'Gruinard Island', 'Burgh Island', 'Foula', 'Eel Pie Island', 'Papa Westray', 'Stroma', 'Flat Holm', 'Steep Holm', 'Bere Island', 'Calf of Man', 'Great Bernera', 'Fetlar', 'Rousay', 'Whalsay',
     'Poveglia', 'Isola Bella', 'Es Vedra', 'Pianosa', 'Alboran Island', 'San Giorgio Maggiore', 'Linosa', 'Capraia', 'Marettimo', 'Filicudi', 'Pheasant Island', 'Levant Island', 'Houat', 'Goeree-Overflakkee',
-    'Surtsey', 'Hopen', 'Smola', 'Froya', 'Hitra', 'Senja', 'Sotra', 'Kvaloya', 'Soroya', 'Orust', 'Tjorn', 'Fano', 'Romo', 'Mors', 'Als', 'Heimaey', 'Grimsey', 'Flatey'],
+    'Surtsey', 'Hopen', 'Smola', 'Froya', 'Hitra', 'Senja', 'Sotra', 'Kvaloya', 'Soroya', 'Orust', 'Tjorn', 'Fano', 'Romo', 'Mors', 'Als', 'Heimaey', 'Grimsey', 'Flatey',
+    // the 2026-09-17 US no-figure re-run (reports/2026-09-17-europe-seas-deserts-cities.md)
+    'Horn Island', 'Just Room Enough Island', 'Daniel Island', 'Daufuskie Island', 'Sea Island', 'Wizard Island', 'Sapelo Island', 'Topsail Island', 'Isle au Haut', 'Gasparilla Island', 'Tuckernuck Island', 'Harsens Island', 'Monomoy Island', 'Ship Island', 'Guemes Island', 'Peanut Island', 'Blennerhassett Island', 'Wellesley Island', 'Mustang Island', 'Heart Island', 'Elliott Key', 'Anastasia Island', 'Appledore Island', 'Stansbury Island', 'Wheeling Island'],
   sea_ocean: ['Pacific Ocean', 'Atlantic', 'Mediterranean', 'Red Sea', 'Black Sea', 'Caribbean Sea', 'Dead Sea', 'North Sea', 'Baltic Sea', 'Arabian Sea', 'Bering Sea', 'Coral Sea', 'Gulf of Mexico',
     // the 2026-09-15 expansion
     'Strait of Gibraltar', 'Bosphorus', 'Strait of Hormuz', 'Bering Strait', 'Puget Sound', 'San Francisco Bay', 'Tokyo Bay', 'Bohai Sea', 'Gulf of Suez',
