@@ -557,6 +557,8 @@ globalThis.WORMILLION_THEMES = {
       'Rautas', 'Ronneby', 'Rottnan', 'Rane', 'Ronne',
       'Sagan', 'Simoa', 'Simojoki', 'Sira', 'Svartelva',
       'Tovdalselva', 'Vanan', 'Vojman', 'Ore', 'Osterdal',
+      // 2026-09-14 expansion
+      'Ne', 'Busento'
     ],
     'India': [
       'Ganges', 'Brahmaputra', 'Indus', 'Yamuna', 'Godavari', 'Krishna River',

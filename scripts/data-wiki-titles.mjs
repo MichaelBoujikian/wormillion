@@ -550,7 +550,7 @@ export const WIKI_TITLES = {
   "river-rubicon": "Rubicon",
   "river-pescara": "Aterno-Pescara",
   "river-calore": "Calore Irpino",
-  "river-nera": "Nera (Danube)",
+  "river-nera": "Nera (Tiber)",
   "river-cecina": "Cecina (river)",
   "river-elsa": "Elsa (river)",
   "river-isonzo": "Soča",
@@ -664,7 +664,7 @@ export const WIKI_TITLES = {
   "river-raut": "Răut",
   "river-bic": "Bîc",
   "river-vit": "Vit (river)",
-  "river-arda": "Arda (Italy)",
+  "river-arda": "Arda (Maritsa tributary)",
   "river-crna": "Crna River (Ilomska)",
   "river-strumica": "Strumica (river)",
   "river-bojana": "Bojana (river)",
@@ -5875,7 +5875,10 @@ export const WIKI_TITLES = {
   "river-osterdal": "Österdal River",
 
   // --- lake (2026-09-14 expansion) ---
-  "lake-derwent-reservoir": "Derwent Reservoir (Derbyshire)"
+  "lake-derwent-reservoir": "Derwent Reservoir (Derbyshire)",
+
+  // --- river (2026-09-14 expansion) ---
+  "river-ne": "Né (river)"
 };
 
 /**

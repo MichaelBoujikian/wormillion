@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T06:45:17.673Z",
+ "fetched": "2026-09-17T07:13:40.195Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -36944,11 +36944,11 @@
    "lon": 12.50181
   },
   "river-nera": {
-   "title": "Nera (Danube)",
-   "monthlyViews": 122,
+   "title": "Nera (Tiber)",
+   "monthlyViews": 213,
    "days": 60,
-   "lat": 44.83,
-   "lon": 21.35333333
+   "lat": 42.4428,
+   "lon": 12.4125
   },
   "river-velino": {
    "title": "Velino",
@@ -38659,11 +38659,11 @@
    "lon": 24.80416667
   },
   "river-arda": {
-   "title": "Arda (Italy)",
-   "monthlyViews": 30,
-   "days": 57,
-   "lat": 45.03472222,
-   "lon": 10.05361111
+   "title": "Arda (Maritsa tributary)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 41.66083333,
+   "lon": 26.495
   },
   "river-tundzha": {
    "title": "Tundzha",
@@ -40498,13 +40498,6 @@
    "days": 60,
    "lat": 59.0376403,
    "lon": 10.055065
-  },
-  "river-alta": {
-   "title": "Alta (river)",
-   "monthlyViews": 30,
-   "days": 59,
-   "lat": 50.06416667,
-   "lon": 31.46138889
   },
   "river-namsen": {
    "title": "Namsen",
@@ -58300,20 +58293,6 @@
    "lat": 37.21,
    "lon": -6.938
   },
-  "river-busento": {
-   "title": "Busento",
-   "monthlyViews": 274,
-   "days": 60,
-   "lat": 39.2925,
-   "lon": 16.259
-  },
-  "river-guadalevin": {
-   "title": "Guadalevín",
-   "monthlyViews": 244,
-   "days": 60,
-   "lat": 36.739975,
-   "lon": -5.16801667
-  },
   "river-arlanza": {
    "title": "Arlanza (river)",
    "monthlyViews": 152,
@@ -59482,6 +59461,20 @@
    "days": 60,
    "lat": 60.55,
    "lon": 15.13333333
+  },
+  "river-ne": {
+   "title": "Né (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 45.6833,
+   "lon": -0.4109
+  },
+  "river-busento": {
+   "title": "Busento",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 39.2925,
+   "lon": 16.259
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

@@ -7240,12 +7240,12 @@
   "aliases": [],
   "size": 116,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Nera (Danube)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 122,
+  "source": "English Wikipedia pageviews for \"Nera (Tiber)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "magnitude": 213,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nera (Danube)",
-  "lat": 44.83,
-  "lon": 21.35333333
+  "wikiTitle": "Nera (Tiber)",
+  "lat": 42.4428,
+  "lon": 12.4125
  },
  {
   "id": "river-velino",
@@ -10657,12 +10657,12 @@
   "aliases": [],
   "size": 292,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Arda (Italy)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
+  "source": "English Wikipedia pageviews for \"Arda (Maritsa tributary)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "magnitude": 304,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Arda (Italy)",
-  "lat": 45.03472222,
-  "lon": 10.05361111
+  "wikiTitle": "Arda (Maritsa tributary)",
+  "lat": 41.66083333,
+  "lon": 26.495
  },
  {
   "id": "river-tundzha",
@@ -53781,5 +53781,33 @@
   "wikiTitle": "Österdal River",
   "lat": 60.55,
   "lon": 15.13333333
+ },
+ {
+  "id": "river-ne",
+  "category": "river",
+  "name": "Ne",
+  "aliases": [],
+  "size": 66,
+  "sizeUnit": "length_km",
+  "source": "English Wikipedia pageviews for \"Né (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "magnitude": 30,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Né (river)",
+  "lat": 45.6833,
+  "lon": -0.4109
+ },
+ {
+  "id": "river-busento",
+  "category": "river",
+  "name": "Busento",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "length_km",
+  "source": "English Wikipedia pageviews for \"Busento\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Busento",
+  "lat": 39.2925,
+  "lon": 16.259
  }
 ]

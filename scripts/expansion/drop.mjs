@@ -40,6 +40,7 @@ for (const id of ids) {
     block = block.split(`${q}, `).join('').split(`, ${q}`).join('').split(q).join('');
     // a line that held only that name is now a lone comma: an array hole
     block = block.replace(/\r?\n[ \t]*,[ \t]*(?=\r?\n)/g, '');
+    block = block.replace(/,(\s*),/g, ',$1'); // and a double comma when the name sat between two others across a line
     text.themes = text.themes.slice(0, catStart) + block + text.themes.slice(catEnd);
   }
   console.log(`dropped ${id} (${e.name})`);

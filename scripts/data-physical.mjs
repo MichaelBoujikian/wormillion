@@ -4885,6 +4885,8 @@ Vanan|110
 Vojman|225
 Ore|225|Orealven
 Osterdal|300|Osterdalalven
+Ne|66
+Busento|0
 `;
 
 export const MOUNTAINS = `
