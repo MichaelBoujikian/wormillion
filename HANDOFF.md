@@ -270,10 +270,34 @@ kept as written so the reasoning survives.
   Britain) or 1,000+ views, and at least 30 views/mo.** `drop.mjs` fixed
   (it left array holes in themes.js when a theme line held only the
   dropped name).
-- **Rivers done for the wave**: bank 12,521, river cohort 3,708 (was 3,192).
-  Audit round over de + fr + it-es + nordic (Opus data + gameplay +
-  skeptics) launched right after the usage-limit reset; **probe 6:
-  `uk-lakes`** running.
+- **Rivers done for the wave**: river cohort 3,707 (was 3,192).
+- **Audit round over de + fr + it-es + nordic done** (Opus data + gameplay
+  + skeptics, ~925k tokens, 50 min; reports
+  `reports/2026-09-16-europe-rivers-*-audit.md`; all twelve findings
+  reproduced; fixes `b023ba5`, `4e7a671`): Alta scored on a Ukrainian
+  stream (dropped, "Alta" now an alias of Altaelva); Nera and Arda scored
+  on namesakes (re-pointed); Guadalevín and Busento carried decimal-shifted
+  Wikidata-only figures (Guadalevín dropped; **Busento is the first size-0
+  row** — 274 views, no sourced length); two-letter rivers settled the
+  bank's way (Né added, Eo kept). Engine: `elsewhere()` now nudges to the
+  most-viewed exact twin ("Etna" on a lake round is Mount Etna, not the
+  30-view Norwegian river); a refused in-category tie is no longer
+  re-guessed fuzzily elsewhere ("Nille" was "Lille is a city");
+  fiume/fleuve/fluss/riviere/rivier are river filler. Data: native-name
+  aliases for ~30 big rivers (Donau, Mosel, Rhin/Rijn, Tamise, Sena, Ebre,
+  Etsch, Drau, Weichsel, Labe…), bare forms so a typo of a famous river ties
+  instead of landing on an obscure new row (Negro, Grande, Saigon, Tijuana,
+  Lhasa), the Swedish naming split bridged both ways (Vindel/Ume/Lule/
+  Kalix/Torne/Pite on the pre-wave rows, Orealven/Vasterdalalven… on the
+  new ones), Sarre on the Saar, Sienne on Siena. Known and left: 149
+  one-edit typos of famous rivers are refused ties now (by design); the
+  famous-typo class (Merse/Meuse, Elde/Elbe, Lay/Tay, Gela/Gila…).
+- **Lakes: probe 6 `uk-lakes` done** (`0fd2724`): 8 rows — Britain's big
+  lakes were all in; only three unknown lakes clear 25 km² and two of those
+  were a peninsula and a sea loch (the kind regex's `loch` matched
+  "Lochaber"). `probe.mjs` / `chunk.mjs` now strip enwiki's comma
+  disambiguation for every category. **Probe 7: `de-lakes`** (1,063
+  articles, 54 present, 10 famous small ones) in its article pass.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
