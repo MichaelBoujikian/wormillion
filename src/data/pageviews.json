@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T11:30:03.130Z",
+ "fetched": "2026-09-17T11:43:16.011Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -63648,13 +63648,6 @@
    "lat": 46.99861111,
    "lon": 8.99861111
   },
-  "mountain-churfirsten": {
-   "title": "Churfirsten",
-   "monthlyViews": 457,
-   "days": 60,
-   "lat": 47.15194444,
-   "lon": 9.29805556
-  },
   "mountain-civetta": {
    "title": "Monte Civetta",
    "monthlyViews": 670,
@@ -63682,13 +63675,6 @@
    "days": 60,
    "lat": 46.58333333,
    "lon": 12.18333333
-  },
-  "mountain-tofana": {
-   "title": "Tofana di Rozes",
-   "monthlyViews": 487,
-   "days": 60,
-   "lat": 46.53694444,
-   "lon": 12.05111111
   },
   "mountain-monte-baldo": {
    "title": "Monte Baldo",
@@ -65231,11 +65217,11 @@
    "lon": -4.57922
   },
   "mountain-morven": {
-   "title": "Morven, Caithness",
-   "monthlyViews": 396,
-   "days": 60,
-   "lat": 58.23388889,
-   "lon": -3.69777778
+   "title": "Morven, Aberdeenshire",
+   "monthlyViews": 122,
+   "days": 58,
+   "lat": 57.12268,
+   "lon": -3.03222
   },
   "mountain-scafell": {
    "title": "Scafell",
@@ -75772,13 +75758,6 @@
    "lat": 45.82722222,
    "lon": 6.28638889
   },
-  "mountain-maiella": {
-   "title": "Maiella",
-   "monthlyViews": 639,
-   "days": 60,
-   "lat": 42.08694444,
-   "lon": 14.0875
-  },
   "mountain-brienzer-rothorn": {
    "title": "Brienzer Rothorn",
    "monthlyViews": 609,
@@ -76345,13 +76324,6 @@
    "days": 60,
    "lat": 44.885,
    "lon": 6.35611111
-  },
-  "mountain-cima-valdritta": {
-   "title": "Cima Valdritta",
-   "monthlyViews": 183,
-   "days": 60,
-   "lat": 45.72638889,
-   "lon": 10.84388889
   },
   "mountain-ellmauer-halt": {
    "title": "Ellmauer Halt",
@@ -76920,13 +76892,6 @@
    "lat": 46.09416667,
    "lon": 6.14027778
   },
-  "mountain-mont-cenis": {
-   "title": "Mont Cenis",
-   "monthlyViews": 883,
-   "days": 60,
-   "lat": 45.26027778,
-   "lon": 6.90083333
-  },
   "mountain-pointe-helbronner": {
    "title": "Pointe Helbronner",
    "monthlyViews": 670,
@@ -77431,13 +77396,6 @@
    "lat": 40.54444444,
    "lon": 14.22388889
   },
-  "mountain-aspromonte": {
-   "title": "Aspromonte",
-   "monthlyViews": 761,
-   "days": 60,
-   "lat": 38.16666667,
-   "lon": 15.88333333
-  },
   "mountain-kneiff": {
    "title": "Kneiff",
    "monthlyViews": 700,
@@ -77451,13 +77409,6 @@
    "days": 60,
    "lat": 39.985,
    "lon": 4.11361111
-  },
-  "mountain-gennargentu": {
-   "title": "Gennargentu",
-   "monthlyViews": 609,
-   "days": 60,
-   "lat": 40.01666667,
-   "lon": 9.31666667
   },
   "mountain-grauspitz": {
    "title": "Grauspitz",
@@ -77752,13 +77703,6 @@
    "days": 60,
    "lat": 40.5128,
    "lon": -6.1689
-  },
-  "mountain-radomir": {
-   "title": "Radomir (mountain)",
-   "monthlyViews": 152,
-   "days": 59,
-   "lat": 41.32166667,
-   "lon": 23.12194444
   },
   "mountain-rocca-busambra": {
    "title": "Rocca Busambra",

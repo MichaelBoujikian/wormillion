@@ -3319,7 +3319,7 @@ export const WIKI_TITLES = {
   "mountain-beinn-a-bhuird": "Beinn a' Bhùird",
   "mountain-merrick": "Merrick (Galloway)",
   "mountain-tinto": "Tinto (hill)",
-  "mountain-morven": "Morven, Caithness",
+  "mountain-morven": "Morven, Aberdeenshire",
   "mountain-bowfell": "Bow Fell",
   "mountain-high-street": "High Street (Lake District)",
   "mountain-haystacks": "Haystacks (Lake District)",
