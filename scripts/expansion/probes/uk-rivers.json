@@ -1,0 +1,27 @@
+{
+  "name": "uk-rivers",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": [
+    "Category:Rivers of England by county",
+    "Category:Rivers of Scotland by council area",
+    "Category:Rivers of Wales by principal area",
+    "Category:Rivers of Northern Ireland by county",
+    "Category:Rivers of the Republic of Ireland"
+  ],
+  "subcat": "^Category:Rivers of (?!.*( by |stubs))",
+  "lists": [
+    "List of rivers of the United Kingdom",
+    "Longest rivers of the United Kingdom",
+    "List of rivers of England",
+    "List of rivers of Scotland",
+    "List of rivers of Wales",
+    "List of rivers of Northern Ireland",
+    "List of rivers of Ireland"
+  ],
+  "kind": "(river|tributary|stream|creek|brook|burn|beck|bourne|watercourse|afon|\\bfork\\b|\\bbranch\\b)",
+  "skipTitle": "(^List of|^Geography of|^Rivers of|^Tributaries|^River regulation|^Longest rivers|crossings|River basin$|Watershed$|Valley$|Vale$|Dale$|Glen$|Gorge$|Falls$|Dam$|Reservoir$|Lake$|Loch$|Lough$|Bridge$|Aqueduct$|Canal$|Navigation$|Trail$|Path$|Park$|Forest$|Estuary$|Firth$|Weir$|Lock$|Cut$|Drain$|Dyke$|Dike$|Sewer$|Culvert$|Mill$|Way$|Walk$|Railway|Station$|Harbour$|Harbor$|Docks?$|Basin$)",
+  "notKind": "^(reservoir|lake|loch|lough|llyn|canal|dam|waterfall|falls|park|glacier|bay|firth|estuary|sea lough|inlet|lagoon|swamp|marsh|bog|wetland|island|mountain|hill|range|ridge|trail|bridge|road|valley|dale|glen|gorge|county|city|town|village|hamlet|suburb|civil parish|parish|district|neighbourhood|neighborhood|weir|lock|mill|pub|railway|station|ship|drainage|navigation|aqueduct|watermill|beach|nature reserve|site of special scientific interest|sssi|sports|football|human settlement|area|region|electoral|ward|street|house|castle|abbey|priory|church|school|company|water company|utility)",
+  "sizeProp": "P2043", "sizeUnit": "km", "minSize": 50, "famousViews": 1000,
+  "spellings": "river"
+}

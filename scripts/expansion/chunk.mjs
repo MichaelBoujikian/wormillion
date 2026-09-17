@@ -1,13 +1,14 @@
 /**
  * Turn a probe's missing + fuzzy items into a fold.mjs chunk.
- *   node scripts/expansion/chunk.mjs work/<probe>.json --tag=<tag> [--themes="A;B"] [--min-views=N] [--include-taken]
+ *   node scripts/expansion/chunk.mjs work/<probe>.json --tag=<tag> [--themes="A;B"] [--min-views=N] [--include-taken] [--allow-no-figure]
  * Reads work/<probe>.json and work/<probe>-sizes.json (from article-size.mjs;
  * without it Wikidata's figure is used as is) and writes
  * work/new-<block>-<tag>.txt in fold.mjs's format:
  *   physical  Name|size|aliases|wikiTitle|themes
  *   cities    Name|Country|population|aliases|wikiTitle|themes
  * Rows that are 'taken' (the bare name belongs to another entry) are left out
- * unless --include-taken; rows with no chosen figure are listed, not written.
+ * unless --include-taken; rows with no chosen figure are listed, not written,
+ * unless --allow-no-figure, which writes them with size 0 (= unknown, SPEC 4).
  * Naming follows the bank: Wikipedia's title without its parenthetical; rivers
  * lose a leading "River " or trailing " River"; cities lose ", State".
  */
@@ -23,6 +24,7 @@ if (!src || !TAG) { console.error('usage: chunk.mjs work/<probe>.json --tag=<tag
 const THEMES = arg('themes', '');
 const MIN_VIEWS = Number(arg('min-views', 0));
 const INCLUDE_TAKEN = process.argv.includes('--include-taken');
+const ALLOW_NO_FIGURE = process.argv.includes('--allow-no-figure');
 const COUNTRY = arg('country', 'United States');
 
 const probe = JSON.parse(await readFile(src, 'utf8'));
@@ -52,19 +54,22 @@ const rows = [];
 const noFigure = [];
 const lowViews = [];
 let usedArticle = 0;
+let unsizedWritten = 0;
 for (const r of wanted.sort((a, b) => (b.views || 0) - (a.views || 0))) {
   const s = sizes && sizes[r.finalTitle];
   const size = s ? s.chosen : r.size;
-  if (size == null || !(size > 0)) { noFigure.push(r); continue; }
-  if (s && s.how.startsWith('article')) usedArticle++;
+  const unsized = size == null || !(size > 0);
+  if (unsized && !ALLOW_NO_FIGURE) { noFigure.push(r); continue; }
   if (MIN_VIEWS && (r.views || 0) < MIN_VIEWS) { lowViews.push(r); continue; }
+  if (unsized) unsizedWritten++;
+  else if (s && s.how.startsWith('article')) usedArticle++;
   const n = bankName(r.finalTitle);
-  const sizeText = cfg.sizeUnit === 'km2' ? String(Math.round(size * 100) / 100) : String(Math.round(size));
+  const sizeText = unsized ? '0' : cfg.sizeUnit === 'km2' ? String(Math.round(size * 100) / 100) : String(Math.round(size));
   const cols = cfg.category === 'city' ? [n, COUNTRY, sizeText, '', r.finalTitle, THEMES] : [n, sizeText, '', r.finalTitle, THEMES];
   rows.push(cols.join('|'));
 }
 const out = `${S}/new-${BLOCK}-${TAG}.txt`;
 await writeFile(out, rows.join('\n') + '\n', 'utf8');
-console.log(`wrote ${out}: ${rows.length} rows (${usedArticle} sized from the article, the rest from Wikidata)`);
+console.log(`wrote ${out}: ${rows.length} rows (${usedArticle} sized from the article, ${unsizedWritten} with no figure written as 0, the rest from Wikidata)`);
 if (lowViews.length) console.log(`left out ${lowViews.length} rows under ${MIN_VIEWS} views/mo: ${lowViews.map((r) => r.finalTitle).join(', ')}`);
 if (noFigure.length) { console.log(`\nno figure (${noFigure.length}), not written:`); for (const r of noFigure) console.log(`  ${r.finalTitle}`); }

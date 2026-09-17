@@ -115,7 +115,7 @@ Every prompt-bank entry, across all 9 category files, shares this shape:
 
 - `region` is present only on `country`, `capital` and `city` entries (all keyed off the same country list — a capital or city entry inherits its country's region tags). A capital's `magnitude` is its **own** article's pageviews (v1.1), not its country's; its `size` is the country population.
 - `aliases` must never contain a string that would also match a *different* entry's canonical name in the same category (validated by the M5 validation script — see Section 6.4).
-- `magnitude` and `size` must be strictly positive; an entry whose article returns no pageviews is a build error, never a zero (a zero would score as maximally obscure).
+- `magnitude` must be strictly positive; an entry whose article returns no pageviews is a build error, never a zero (a zero would score as maximally obscure). `size` is `>= 0`: **0 means "no sourced figure anywhere"** (v1.3, 2026-09-16 — most bays, straits and small islands have no area in any reference), and such an entry never answers a size-threshold prompt (`satisfiesSize`) but is a normal answer to every other prompt. A figure is never invented to fill the field.
 
 Category cohort membership for rarity purposes (Section 5.1) is: all entries sharing the same `category` value, loaded and combined at runtime from however many source files feed that category (e.g. `mountains.json` + `minor-peaks.json` both feed the `mountain` cohort — Section 3.3).
 
@@ -218,7 +218,7 @@ Scoring magnitude for every category is monthly Wikipedia pageviews (Section 4).
 **6.3 Transcontinental countries** (Russia, Turkey/Türkiye, Kazakhstan, Egypt, etc.) get whichever single continent tag is the common convention (e.g. Russia → Europe, by population-center/UN-region convention) plus any sub-region tags that apply; don't dual-tag continents, to keep prompt scoping predictable.
 
 **6.4 Validation script (`scripts/validate-data.mjs`, part of M5).** Run as `npm run validate`. Checks, failing the run (non-zero exit) on any violation:
-- every entry has all required fields, `magnitude > 0` with unit `pageviews_monthly`, `size > 0` with a known unit, a `wikiTitle`, and a non-empty `category` matching one of the 8 keys;
+- every entry has all required fields, `magnitude > 0` with unit `pageviews_monthly`, `size >= 0` (0 = unknown) with a known unit, a `wikiTitle`, and a non-empty `category` matching one of the 8 keys;
 - no duplicate `id` within a file or across files feeding the same cohort;
 - no alias string collides with another entry's normalized name/alias within the same cohort (Section 4);
 - every `country`/`capital` entry has a non-empty `region` array using only region names from the list above;
@@ -470,5 +470,7 @@ Behaviour changes after v1.0, in the order they landed. Each is reflected in the
 | 1.3 | The fuzzy pass's edit budget comes from the filler-stripped answer and candidates are compared filler-stripped too: "Lake Tåkern" is no longer corrected to Lake Vänern, "Kilimanjro" now finds Mount Kilimanjaro. | 3.7 |
 
 | 1.3 | Coverage probes (`scripts/expansion/probe.mjs`): Colombia × rivers (+66), United States × non-capital cities (+249, incl. Brooklyn/Queens/The Bronx and the last five state capitals), Sweden × lakes (+24, Scandinavia theme). Bank is 9,306. | 6 |
+
+| 1.3 | `size` may be **0 = "no sourced figure anywhere"** (2026-09-16): 652 US bays and straits, ~1,100 US islands and 10 deserts have no area in any reference and were being left out of the bank for want of a number. A 0 never satisfies a size-threshold prompt and is never shown; every other prompt treats the entry as any other. The validator checks `>= 0`; `chunk.mjs --allow-no-figure` writes the 0. | 4, 6.4 |
 
 **Deferred (needs new data, scoped separately):** a non-capital *cities* category.

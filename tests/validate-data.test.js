@@ -36,6 +36,12 @@ test('the validator actually catches the things it claims to', async () => {
   const badMagnitude = { 'a.json': [{ ...entry, magnitude: 0 }] };
   assert.ok(validate(badMagnitude).errors.some((e) => e.includes('magnitude')));
 
+  // A size of 0 is "no sourced figure anywhere" and is allowed (2026-09-16);
+  // anything negative or non-numeric is still an error.
+  assert.deepStrictEqual(validate({ 'a.json': [{ ...entry, size: 0 }] }).errors, []);
+  assert.ok(validate({ 'a.json': [{ ...entry, size: -1 }] }).errors.some((e) => e.includes('size must be')));
+  assert.ok(validate({ 'a.json': [{ ...entry, size: '10' }] }).errors.some((e) => e.includes('size must be')));
+
   const collidingAlias = {
     'a.json': [entry, { ...entry, id: 'lake-b', name: 'Lake B', aliases: ['lake a'] }]
   };

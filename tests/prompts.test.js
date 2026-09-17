@@ -810,3 +810,25 @@ test('a sea theme says "sea" unless an ocean is actually in it (shipped bank)', 
   assert.strictEqual(shipped.promptFor({ category: 'sea_ocean' }).text, 'Name a sea or ocean.');
   assert.strictEqual(shipped.promptFor({ category: 'sea_ocean', ocean: 'Pacific' }).text, 'Name a sea in the Pacific Ocean.');
 });
+
+test('a size of 0 ("no sourced figure") answers every prompt but a size threshold', () => {
+  // 2026-09-16: bays, straits and small islands mostly have no area in any
+  // reference; they are real places and go in with size 0 (SPEC 4).
+  const bank = promptBank.createBank({
+    ...RAW,
+    islands: [...RAW.islands, entry('island', 'Skomer', 900, { size: 0, oceans: ['Atlantic'] })]
+  });
+  const runner = require('../src/js/run.js');
+  const on = (slot, input) => {
+    const run = runner.createRun(bank, { rounds: 1 });
+    run.state.slots[0] = slot;
+    return run.submit(input);
+  };
+  assert.strictEqual(on({ category: 'island' }, 'Skomer').status, 'accepted');
+  assert.strictEqual(on({ category: 'island', ocean: 'Atlantic' }, 'Skomer').status, 'accepted');
+  assert.strictEqual(on({ category: 'island', letter: { kind: 'starts', letter: 's' } }, 'Skomer').status, 'accepted');
+  // unknown is neither small nor large
+  assert.strictEqual(on({ category: 'island', size: { op: 'under', value: 100 } }, 'Skomer').status, 'wrong-scope');
+  assert.strictEqual(on({ category: 'island', size: { op: 'over', value: 1 } }, 'Skomer').status, 'wrong-scope');
+  assert.strictEqual(on({ category: 'island', size: { op: 'under', value: 100 } }, 'Lundy').status, 'accepted');
+});

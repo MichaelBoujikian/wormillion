@@ -13,6 +13,8 @@
  *                    figure) are counted, not fetched for views, and listed apart,
  *           floorExemptSources: ['list'] exempts items a list page vouches for from the floor,
  *           famousViews: N fetches views below the floor too and lifts items with N+ views/mo back in,
+ *           noFigureViews: N fetches views for the items with no figure anywhere and keeps those with N+ views/mo
+ *                    in scope unsized (chunk.mjs --allow-no-figure writes them with size 0 = unknown, SPEC 4),
  *           spellings: 'city' | 'lake' | 'river' | 'mountain' | 'island' | 'sea' | 'desert', flagRe: regex on description to flag }
  * Prints present / fuzzy / missing (by monthly views) and writes <name>.json.
  */
@@ -267,8 +269,12 @@ for (const r of noFigure) r.floor = 'no-figure';
 // `famousViews: N` fetches views for the below-floor items too, and lifts any with
 // N+ views a month back into scope: a short river everyone looks up (the Mystic) is an answer
 const FAMOUS = cfg.famousViews == null ? null : Number(cfg.famousViews);
-const wantViews = notThere.filter((r) => !r.floor || (FAMOUS != null && r.floor === 'below'));
-if (MIN_SIZE != null) console.log(`floor ${MIN_SIZE} ${cfg.sizeUnit}: ${wantViews.length} over it, ${belowFloor.length} below, ${noFigure.length} with no figure`);
+// `noFigureViews: N` fetches views for the items no reference sizes (most bays,
+// straits and small islands) and keeps those with N+ views/mo in scope, size
+// unknown; chunk.mjs --allow-no-figure then writes them with size 0 (SPEC 4).
+const NO_FIGURE_VIEWS = cfg.noFigureViews == null ? null : Number(cfg.noFigureViews);
+const wantViews = notThere.filter((r) => !r.floor || (FAMOUS != null && r.floor === 'below') || (NO_FIGURE_VIEWS != null && r.floor === 'no-figure'));
+if (MIN_SIZE != null) console.log(`floor ${MIN_SIZE} ${cfg.sizeUnit}: ${notThere.filter((r) => !r.floor).length} over it, ${belowFloor.length} below, ${noFigure.length} with no figure`);
 const needViews = wantViews.filter((r) => !(r.finalTitle in memoViews));
 for (let i = 0; i < needViews.length; i += 50) {
   const batch = needViews.slice(i, i + 50);
@@ -302,6 +308,12 @@ if (FAMOUS != null) {
   for (const r of belowFloor) if ((r.views || 0) >= FAMOUS) { r.floor = null; r.famous = true; lifted++; }
   console.log(`famous: ${lifted} below-floor items with ${FAMOUS}+ views/mo lifted back into scope`);
 }
+if (NO_FIGURE_VIEWS != null) {
+  let kept = 0;
+  for (const r of noFigure) if ((r.views || 0) >= NO_FIGURE_VIEWS) { r.floor = null; r.noFigure = true; kept++; }
+  console.log(`no figure: ${kept} of ${noFigure.length} unsized items with ${NO_FIGURE_VIEWS}+ views/mo kept in scope (size unknown)`);
+}
+const noFigureOut = noFigure.filter((r) => r.floor === 'no-figure');
 
 // ---- 6. report --------------------------------------------------------------
 const present = items.filter((r) => r.status === 'present');
@@ -311,7 +323,7 @@ const fuzzy = items.filter((r) => r.status === 'fuzzy' && inScope(r));
 const missing = items.filter((r) => r.status === 'missing' && inScope(r));
 const fmtSize = (r) => (r.size == null ? '' : cfg.sizeUnit === 'population' ? r.size.toLocaleString('en-US') : `${r.size} ${cfg.sizeUnit}`);
 const flag = (r) => (FLAG && FLAG.test(r.description) ? ' [' + cfg.flagLabel + ']' : '');
-const floorNote = MIN_SIZE == null ? '' : `; below the ${MIN_SIZE} ${cfg.sizeUnit} floor ${belowFloor.filter((r) => !r.famous).length}${FAMOUS != null ? ` (+${belowFloor.filter((r) => r.famous).length} famous, kept)` : ''}, no figure ${noFigure.length}`;
+const floorNote = MIN_SIZE == null ? '' : `; below the ${MIN_SIZE} ${cfg.sizeUnit} floor ${belowFloor.filter((r) => !r.famous).length}${FAMOUS != null ? ` (+${belowFloor.filter((r) => r.famous).length} famous, kept)` : ''}, no figure ${noFigureOut.length}${NO_FIGURE_VIEWS != null ? ` (+${noFigure.length - noFigureOut.length} with ${NO_FIGURE_VIEWS}+ views, kept unsized)` : ''}`;
 console.log(`\n==== ${cfg.name}: ${items.length} articles; present ${present.length}, name taken by another entry ${taken.length}, fuzzy ${fuzzy.length}, missing ${missing.length}${floorNote} ====`);
 console.log(`\n==== NAME TAKEN (${taken.length}) - typing the name lands on a different place ====`);
 for (const r of taken.sort((a, b) => (b.views || 0) - (a.views || 0))) console.log(`  ${String(r.views ?? '').padStart(7)} views/mo  ${fmtSize(r).padStart(12)}  ${r.finalTitle.padEnd(38)} ${r.note}${flag(r)}`);
@@ -321,9 +333,9 @@ console.log(`\n==== MISSING (${missing.length}) ====`);
 for (const r of missing.sort((a, b) => (b.views || 0) - (a.views || 0))) console.log(`  ${String(r.views ?? '').padStart(7)} views/mo  ${fmtSize(r).padStart(12)}  ${r.finalTitle.padEnd(38)} ${r.description}${flag(r)}`);
 console.log(`\n==== PRESENT (${present.length}) ====`);
 console.log('  ' + present.map((r) => r.finalTitle).sort().join(' · '));
-if (noFigure.length) {
-  console.log(`\n==== NO WIKIDATA FIGURE (${noFigure.length}) - not sized, views not fetched; add with a figure from the article if wanted ====`);
-  for (const r of noFigure.sort((a, b) => a.finalTitle.localeCompare(b.finalTitle))) console.log(`  ${r.finalTitle.padEnd(40)} ${r.status.padEnd(8)} ${r.description}`);
+if (noFigureOut.length) {
+  console.log(`\n==== NO FIGURE (${noFigureOut.length}) - not sized${NO_FIGURE_VIEWS != null ? ` and under ${NO_FIGURE_VIEWS} views/mo` : ', views not fetched'}; add with a figure from the article if wanted ====`);
+  for (const r of noFigureOut.sort((a, b) => a.finalTitle.localeCompare(b.finalTitle))) console.log(`  ${r.finalTitle.padEnd(40)} ${r.status.padEnd(8)} ${String(r.views ?? '').padStart(6)} ${r.description}`);
 }
 if (belowFloor.length) {
   const lifted = belowFloor.filter((r) => r.famous);

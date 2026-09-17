@@ -298,6 +298,9 @@
     n >= 1000000000 ? `${n / 1000000000} billion` : n >= 1000000 ? `${n / 1000000} million` : withCommas(n);
 
   function satisfiesSize(entry, rule) {
+    // A size of 0 is "no sourced figure anywhere" (SPEC 4): the place is
+    // real, but nothing is known about how big it is, so it answers no
+    // threshold prompt in either direction.
     if (!(entry.size > 0)) return false;
     // Inclusive both ways: a figure sitting exactly on a round threshold is a
     // rounded figure, and "larger than 100,000 km²" should not reject the one

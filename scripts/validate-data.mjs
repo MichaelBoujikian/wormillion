@@ -70,8 +70,11 @@ export function validate(files) {
         errors.push(`${where}: magnitude (monthly pageviews) must be a number > 0`);
       }
       if (!SIZE_UNITS.has(entry.sizeUnit)) errors.push(`${where}: unknown sizeUnit ${entry.sizeUnit}`);
-      if (!(typeof entry.size === 'number' && entry.size > 0)) {
-        errors.push(`${where}: size must be a number > 0`);
+      // 0 means "no sourced figure anywhere" (a bay with no area, an islet no
+      // one has measured): such an entry never answers a size prompt
+      // (promptBank.satisfiesSize) but is a real place for every other one.
+      if (!(typeof entry.size === 'number' && entry.size >= 0)) {
+        errors.push(`${where}: size must be a number >= 0 (0 = unknown)`);
       }
       if (entry.sizeRange !== undefined) {
         const r = entry.sizeRange;
