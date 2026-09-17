@@ -1,0 +1,43 @@
+{
+  "name": "it-es-mountains",
+  "category": "mountain",
+  "jsonFile": [
+    "mountains.json",
+    "minor-peaks.json"
+  ],
+  "roots": [],
+  "lists": [
+    "List of mountains of Italy",
+    "List of mountains in Italy",
+    "List of Italian regions by highest point",
+    "List of mountains of the Apennines",
+    "List of volcanoes in Italy",
+    "List of mountains in Sicily",
+    "List of mountains in Sardinia",
+    "List of mountains of the Dolomites",
+    "List of mountains in Spain",
+    "List of mountains of Spain",
+    "List of highest points of Spanish autonomous communities",
+    "List of mountains in the Sierra Nevada (Spain)",
+    "List of mountains of the Cantabrian Mountains",
+    "List of Pyrenean three-thousanders",
+    "List of mountains of the Pyrenees",
+    "List of mountains in the Canary Islands",
+    "List of volcanoes in Spain",
+    "List of mountains in Portugal",
+    "List of mountains of Portugal",
+    "List of highest points of Portuguese districts",
+    "List of mountains in the Azores",
+    "List of mountains in Madeira",
+    "List of mountains of the Iberian Peninsula",
+    "List of Ultras of Europe",
+    "List of European ultra-prominent peaks",
+    "List of highest points of European countries"
+  ],
+  "kind": "(mountain|peak|summit|volcano|butte|mesa|hill|ridge|massif|monolith|dome|crag|knob|fell|pike|ben\\b|beinn|sgurr|sgùrr|stob|carn|càrn|meall|munro|corbett|marilyn|nunatak|^Mount |^Monte |^Mont |^Pic |^Pico |^Puy |^Piz |Mountain$|Peak$|Horn$|Spitze$|Kogel$|Stock$|berg$|fjell$|fjellet$|tind$|tinden$|toppen$|kulle$|fjäll$|tunturi$|fell$|Pike$|Fell$|Hill$|Head$)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|Range$|Mountains$|Ranges$|Highlands$|Plateau$|National Park$|Wilderness$|Pass$|Trail$|Ski|Resort$|County$|Township|Forest$|Wildlife|Refuge$|Lake$|Loch$|River$|Creek$|Valley$|Glen$|Canyon$|Glacier$|Rock Formation|Cliffs?$|Alps$|Alpen$|Group$|Gruppe$|Massif$|Dolomites$|Pyrenees$|Apennines$|Uplands$|Moors$|Downs$|Wolds$|Hills$|Islands?$|Mountaineering|Climbing|Route$|Hut$|Cable Car$|Railway$|Tunnel$|Viewpoint$)",
+  "sizeProp": "P2044",
+  "sizeUnit": "m",
+  "spellings": "mountain",
+  "notKind": "^(mountain range|range|subrange|massif of|mountain group|group of|ski|resort|town|city|village|municipality|commune|county|township|district|neighborhood|neighbourhood|park|wilderness|forest|trail|pass|mountain pass|glacier|lake|loch|river|creek|valley|glen|canyon|plateau|highlands|hills of|island|cave|rock formation|road|highway|observatory|dam|reservoir|mine|list|hut|mountain hut|refuge|railway|cable car|funicular|tunnel|region|area|nature reserve|national park|castle|monastery|abbey|church|cross|sculpture|monument|war memorial|battle|human settlement|ridge walk|walking route|long-distance)"
+}

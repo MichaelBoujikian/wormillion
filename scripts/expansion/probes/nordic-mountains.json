@@ -1,0 +1,38 @@
+{
+  "name": "nordic-mountains",
+  "category": "mountain",
+  "jsonFile": [
+    "mountains.json",
+    "minor-peaks.json"
+  ],
+  "roots": [],
+  "lists": [
+    "List of mountains in Norway by height",
+    "List of mountains of Norway by prominence",
+    "List of mountains in Norway",
+    "List of highest points of Norwegian counties",
+    "List of mountains in Sweden",
+    "List of mountains of Sweden",
+    "List of highest points of Swedish counties",
+    "List of mountains in Finland",
+    "List of mountains of Finland",
+    "List of mountains of Iceland",
+    "List of mountains in Iceland",
+    "List of volcanoes in Iceland",
+    "List of highest points of Denmark",
+    "List of mountains in Denmark",
+    "List of mountains in Svalbard",
+    "List of mountains in the Faroe Islands",
+    "List of Ultras of Europe",
+    "List of Ultras of Scandinavia",
+    "Seven Summits of Norway",
+    "List of peaks in Jotunheimen",
+    "List of mountains in Lofoten"
+  ],
+  "kind": "(mountain|peak|summit|volcano|butte|mesa|hill|ridge|massif|monolith|dome|crag|knob|fell|pike|ben\\b|beinn|sgurr|sgùrr|stob|carn|càrn|meall|munro|corbett|marilyn|nunatak|^Mount |^Monte |^Mont |^Pic |^Pico |^Puy |^Piz |Mountain$|Peak$|Horn$|Spitze$|Kogel$|Stock$|berg$|fjell$|fjellet$|tind$|tinden$|toppen$|kulle$|fjäll$|tunturi$|fell$|Pike$|Fell$|Hill$|Head$)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|Range$|Mountains$|Ranges$|Highlands$|Plateau$|National Park$|Wilderness$|Pass$|Trail$|Ski|Resort$|County$|Township|Forest$|Wildlife|Refuge$|Lake$|Loch$|River$|Creek$|Valley$|Glen$|Canyon$|Glacier$|Rock Formation|Cliffs?$|Alps$|Alpen$|Group$|Gruppe$|Massif$|Dolomites$|Pyrenees$|Apennines$|Uplands$|Moors$|Downs$|Wolds$|Hills$|Islands?$|Mountaineering|Climbing|Route$|Hut$|Cable Car$|Railway$|Tunnel$|Viewpoint$)",
+  "sizeProp": "P2044",
+  "sizeUnit": "m",
+  "spellings": "mountain",
+  "notKind": "^(mountain range|range|subrange|massif of|mountain group|group of|ski|resort|town|city|village|municipality|commune|county|township|district|neighborhood|neighbourhood|park|wilderness|forest|trail|pass|mountain pass|glacier|lake|loch|river|creek|valley|glen|canyon|plateau|highlands|hills of|island|cave|rock formation|road|highway|observatory|dam|reservoir|mine|list|hut|mountain hut|refuge|railway|cable car|funicular|tunnel|region|area|nature reserve|national park|castle|monastery|abbey|church|cross|sculpture|monument|war memorial|battle|human settlement|ridge walk|walking route|long-distance)"
+}
