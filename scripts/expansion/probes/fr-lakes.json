@@ -1,0 +1,34 @@
+{
+  "name": "fr-lakes",
+  "category": "lake",
+  "jsonFile": "lakes.json",
+  "roots": [
+    "Category:Lakes of France",
+    "Category:Lakes of France by region",
+    "Category:Reservoirs in France",
+    "Category:Lakes of Belgium",
+    "Category:Reservoirs in Belgium",
+    "Category:Lakes of the Netherlands",
+    "Category:Reservoirs in the Netherlands",
+    "Category:Lakes of Andorra",
+    "Category:Lakes of Monaco"
+  ],
+  "subcat": "^Category:(Lakes of|Reservoirs in|Reservoirs of|Lochs of|Loughs of) (?!.*( by |stubs|Overseas|Caribbean|Svalbard|Faroe|Greenland))",
+  "lists": [
+    "List of lakes of France",
+    "List of lakes in France",
+    "List of lakes of Belgium",
+    "List of lakes of the Netherlands",
+    "List of lakes in the Netherlands",
+    "List of reservoirs and dams in France",
+    "List of lakes of Andorra"
+  ],
+  "kind": "(lake|reservoir|lagoon|pond|impoundment|body of water|loch|lough|llyn|tarn|mere|water\\b|^Lake |^Loch |^Lough |^Llyn |see$|sjön|träsk|sjö\\b|vatn|vatnet|järvi|jærvi|sø$|lago|lac\\b|étang|embalse|stausee)",
+  "skipTitle": "(^List of|^Lakes of|^Reservoirs|^Geography of|Dam$|Park$|Wildlife|Refuge$|Township|County$|Recreation Area$|Preserve$|Forest$|Trail$|Marina$|Beach$|National Park$|Nature Reserve$|Hydroelectric|Power Station$|Power Plant$|Talsperre$|Barrage$)",
+  "notKind": "^(river|stream|creek|dam|park|home rule city|city|town|village|municipality|county|township|neighborhood|census-designated|archipelago|glacier|island|mountain|valley|canyon|bay|sound|strait|estuary|inlet|marsh|swamp|wetland|spring|waterfall|falls|beach|ski|resort|census|unincorporated|hamlet|community|region|subdivision|lakes? of|list|former|combined|body of water and area|roadstead|pluvial|prehistoric|proglacial|paleo)|glacial period|last ice age|former lake|pluvial lake|combined lake|^(fjord|firth|bay|inlet|sea loch|sea lough|ria|estuary|strait|sound|lagoon of the|coastal lagoon|salt marsh|peat bog|raised bog|blanket bog|nature reserve|protected area|special area of conservation|ramsar|site of special scientific interest|dam|hydroelectric|power station|human settlement|civil parish|parish|commune|comune|municipality|district|quarter|ski|resort|island|archipelago|mountain|hill|glacier|valley|river|canal)",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "minSize": 25,
+  "famousViews": 1000,
+  "spellings": "lake"
+}

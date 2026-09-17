@@ -1,0 +1,40 @@
+{
+  "name": "de-lakes",
+  "category": "lake",
+  "jsonFile": "lakes.json",
+  "roots": [
+    "Category:Lakes of Germany",
+    "Category:Lakes of Germany by state",
+    "Category:Reservoirs in Germany",
+    "Category:Lakes of Austria",
+    "Category:Lakes of Austria by state",
+    "Category:Reservoirs in Austria",
+    "Category:Lakes of Switzerland",
+    "Category:Lakes of Switzerland by canton",
+    "Category:Reservoirs in Switzerland",
+    "Category:Lakes of Liechtenstein",
+    "Category:Lakes of Luxembourg",
+    "Category:Reservoirs in Luxembourg"
+  ],
+  "subcat": "^Category:(Lakes of|Reservoirs in|Reservoirs of|Lochs of|Loughs of) (?!.*( by |stubs|Overseas|Caribbean|Svalbard|Faroe|Greenland))",
+  "lists": [
+    "List of lakes of Germany",
+    "List of lakes in Germany",
+    "List of lakes of Austria",
+    "List of lakes in Austria",
+    "List of lakes of Switzerland",
+    "List of lakes in Switzerland",
+    "List of lakes of the Alps",
+    "List of reservoirs and dams in Germany",
+    "List of reservoirs and dams in Switzerland",
+    "List of lakes of Luxembourg"
+  ],
+  "kind": "(lake|reservoir|lagoon|pond|impoundment|body of water|loch|lough|llyn|tarn|mere|water\\b|^Lake |^Loch |^Lough |^Llyn |see$|sjön|träsk|sjö\\b|vatn|vatnet|järvi|jærvi|sø$|lago|lac\\b|étang|embalse|stausee)",
+  "skipTitle": "(^List of|^Lakes of|^Reservoirs|^Geography of|Dam$|Park$|Wildlife|Refuge$|Township|County$|Recreation Area$|Preserve$|Forest$|Trail$|Marina$|Beach$|National Park$|Nature Reserve$|Hydroelectric|Power Station$|Power Plant$|Talsperre$|Barrage$)",
+  "notKind": "^(river|stream|creek|dam|park|home rule city|city|town|village|municipality|county|township|neighborhood|census-designated|archipelago|glacier|island|mountain|valley|canyon|bay|sound|strait|estuary|inlet|marsh|swamp|wetland|spring|waterfall|falls|beach|ski|resort|census|unincorporated|hamlet|community|region|subdivision|lakes? of|list|former|combined|body of water and area|roadstead|pluvial|prehistoric|proglacial|paleo)|glacial period|last ice age|former lake|pluvial lake|combined lake|^(fjord|firth|bay|inlet|sea loch|sea lough|ria|estuary|strait|sound|lagoon of the|coastal lagoon|salt marsh|peat bog|raised bog|blanket bog|nature reserve|protected area|special area of conservation|ramsar|site of special scientific interest|dam|hydroelectric|power station|human settlement|civil parish|parish|commune|comune|municipality|district|quarter|ski|resort|island|archipelago|mountain|hill|glacier|valley|river|canal)",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "minSize": 25,
+  "famousViews": 1000,
+  "spellings": "lake"
+}
