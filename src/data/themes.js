@@ -1333,7 +1333,9 @@ globalThis.WORMILLION_THEMES = {
       'Lough Hyne',
       // 2026-09-14 expansion
       'Etang de Thau', 'Etang de Berre', 'Grevelingen', 'Etang de Vaccares', 'Etang de Leucate',
-      "Etang de l'Or"
+      "Etang de l'Or",
+      // 2026-09-14 expansion
+      'Laguna di Orbetello'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [
@@ -1380,7 +1382,9 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-14 expansion
       'Walchensee', 'Bachalpsee', 'Lake Toplitz', 'Gruner See', 'Seealpsee',
       // 2026-09-14 expansion
-      'Lac du Bourget'
+      'Lac du Bourget',
+      // 2026-09-14 expansion
+      'Lake Orta', 'Reschensee', 'Lago di Tenno', 'Lake Predil'
     ],
     'the British Isles': ['Loch Ness', 'Loch Lomond', 'Lake Windermere', 'Bala Lake', 'Lough Neagh',
       // 2026-09-14 expansion

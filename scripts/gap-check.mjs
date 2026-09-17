@@ -30,7 +30,8 @@ const EXPECTED = {
     // the 2026-09-16 UK + Ireland lakes scouring (reports/2026-09-16-europe-lakes.md)
     'Ladybower Reservoir', 'The Serpentine', 'Llyn Celyn', 'Lake of Menteith', 'Lough Hyne',
     'Geiseltalsee', 'Laacher See', 'Walchensee', 'Muggelsee', 'Mohne Reservoir', 'Bachalpsee', 'Lake Toplitz', 'Plauer See',
-    'Lac du Bourget', 'Lake Bourget', 'Etang de Thau', 'Etang de Berre', 'Lac du Der', 'IJmeer', 'Grevelingen', 'Veluwemeer'],
+    'Lac du Bourget', 'Lake Bourget', 'Etang de Thau', 'Etang de Berre', 'Lac du Der', 'IJmeer', 'Grevelingen', 'Veluwemeer',
+    'Lake Orta', 'Reschensee', 'Lake Avernus', 'Lagoa do Fogo', 'Lake Nemi', 'Sete Cidades', 'Orbetello'],
   river: ['Nile', 'Amazon', 'Mississippi', 'Thames', 'Danube', 'Ganges', 'Volga', 'Indus', 'Rhine', 'Seine', 'Yangtze', 'Congo', 'Tigris', 'Euphrates', 'Jordan', 'Colorado',
     // the 2026-09-14 expansion: rivers players reported missing
     'Hudson', 'Potomac', 'Tennessee', 'Fraser', 'Magdalena', 'Okavango', 'Garonne', 'Neckar', 'Mersey', 'Tyne', 'Warta', 'Irtysh', 'Kaveri', 'Murrumbidgee', 'Rio de la Plata',

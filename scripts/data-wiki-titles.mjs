@@ -5892,7 +5892,10 @@ export const WIKI_TITLES = {
   "lake-etang-de-cazaux-et-de-sanguinet": "Étang de Cazaux et de Sanguinet",
   "lake-etang-de-vaccares": "Étang de Vaccarès",
   "lake-etang-de-leucate": "Étang de Leucate",
-  "lake-etang-de-l-or": "Étang de l'Or"
+  "lake-etang-de-l-or": "Étang de l'Or",
+
+  // --- lake (2026-09-14 expansion) ---
+  "lake-valdecanas-reservoir": "Valdecañas reservoir"
 };
 
 /**

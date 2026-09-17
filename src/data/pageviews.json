@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T07:35:46.663Z",
+ "fetched": "2026-09-17T07:49:52.038Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -33722,6 +33722,83 @@
    "days": 58,
    "lat": 43.58222222,
    "lon": 4.045
+  },
+  "lake-lake-orta": {
+   "title": "Lake Orta",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 45.81722222,
+   "lon": 8.40666667
+  },
+  "lake-reschensee": {
+   "title": "Reschensee",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 46.801,
+   "lon": 10.531
+  },
+  "lake-lake-avernus": {
+   "title": "Lake Avernus",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 40.83833333,
+   "lon": 14.075
+  },
+  "lake-lagoa-do-fogo": {
+   "title": "Lagoa do Fogo",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-lago-di-tenno": {
+   "title": "Lago di Tenno",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 45.93805556,
+   "lon": 10.81583333
+  },
+  "lake-lake-nemi": {
+   "title": "Lake Nemi",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 41.71222222,
+   "lon": 12.7025
+  },
+  "lake-lake-predil": {
+   "title": "Lake Predil",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 46.41666667,
+   "lon": 13.56666667
+  },
+  "lake-lagoa-das-sete-cidades": {
+   "title": "Lagoa das Sete Cidades",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 37.855,
+   "lon": -25.78638889
+  },
+  "lake-laguna-di-orbetello": {
+   "title": "Laguna di Orbetello",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 42.43752778,
+   "lon": 11.19408333
+  },
+  "lake-valdecanas-reservoir": {
+   "title": "Valdecañas reservoir",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 39.77805556,
+   "lon": -5.61305556
+  },
+  "lake-barbate-reservoir": {
+   "title": "Barbate Reservoir",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 36.38194444,
+   "lon": -5.71444444
   },
   "river-nile": {
    "title": "Nile",

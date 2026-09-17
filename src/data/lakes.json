@@ -17194,5 +17194,174 @@
   "wikiTitle": "Étang de l'Or",
   "lat": 43.58222222,
   "lon": 4.045
+ },
+ {
+  "id": "lake-lake-orta",
+  "category": "lake",
+  "name": "Lake Orta",
+  "aliases": [
+   "Lago d'Orta",
+   "Orta"
+  ],
+  "size": 18.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Orta\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Orta",
+  "lat": 45.81722222,
+  "lon": 8.40666667
+ },
+ {
+  "id": "lake-reschensee",
+  "category": "lake",
+  "name": "Reschensee",
+  "aliases": [
+   "Lake Reschen",
+   "Lago di Resia"
+  ],
+  "size": 6.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Reschensee\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Reschensee",
+  "lat": 46.801,
+  "lon": 10.531
+ },
+ {
+  "id": "lake-lake-avernus",
+  "category": "lake",
+  "name": "Lake Avernus",
+  "aliases": [
+   "Avernus",
+   "Lago d'Averno"
+  ],
+  "size": 0.55,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Avernus\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Avernus",
+  "lat": 40.83833333,
+  "lon": 14.075
+ },
+ {
+  "id": "lake-lagoa-do-fogo",
+  "category": "lake",
+  "name": "Lagoa do Fogo",
+  "aliases": [],
+  "size": 1.36,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lagoa do Fogo\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lagoa do Fogo"
+ },
+ {
+  "id": "lake-lago-di-tenno",
+  "category": "lake",
+  "name": "Lago di Tenno",
+  "aliases": [
+   "Lake Tenno"
+  ],
+  "size": 0.25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lago di Tenno\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lago di Tenno",
+  "lat": 45.93805556,
+  "lon": 10.81583333
+ },
+ {
+  "id": "lake-lake-nemi",
+  "category": "lake",
+  "name": "Lake Nemi",
+  "aliases": [
+   "Nemi"
+  ],
+  "size": 1.67,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Nemi\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Nemi",
+  "lat": 41.71222222,
+  "lon": 12.7025
+ },
+ {
+  "id": "lake-lake-predil",
+  "category": "lake",
+  "name": "Lake Predil",
+  "aliases": [],
+  "size": 1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Predil\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Predil",
+  "lat": 46.41666667,
+  "lon": 13.56666667
+ },
+ {
+  "id": "lake-lagoa-das-sete-cidades",
+  "category": "lake",
+  "name": "Lagoa das Sete Cidades",
+  "aliases": [
+   "Sete Cidades"
+  ],
+  "size": 4.35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lagoa das Sete Cidades\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lagoa das Sete Cidades",
+  "lat": 37.855,
+  "lon": -25.78638889
+ },
+ {
+  "id": "lake-laguna-di-orbetello",
+  "category": "lake",
+  "name": "Laguna di Orbetello",
+  "aliases": [
+   "Orbetello"
+  ],
+  "size": 26.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Laguna di Orbetello\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Laguna di Orbetello",
+  "lat": 42.43752778,
+  "lon": 11.19408333
+ },
+ {
+  "id": "lake-valdecanas-reservoir",
+  "category": "lake",
+  "name": "Valdecanas Reservoir",
+  "aliases": [],
+  "size": 73,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Valdecañas reservoir\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Valdecañas reservoir",
+  "lat": 39.77805556,
+  "lon": -5.61305556
+ },
+ {
+  "id": "lake-barbate-reservoir",
+  "category": "lake",
+  "name": "Barbate Reservoir",
+  "aliases": [],
+  "size": 25.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barbate Reservoir\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 30,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barbate Reservoir",
+  "lat": 36.38194444,
+  "lon": -5.71444444
  }
 ]

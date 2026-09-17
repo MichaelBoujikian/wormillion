@@ -1205,6 +1205,17 @@ Etang de Vaccares|65|Vaccares
 Ketelmeer|35
 Etang de Leucate|54|Leucate
 Etang de l'Or|30|Lagoon of Or
+Lake Orta|18.2|Lago d'Orta,Orta
+Reschensee|6.6|Lake Reschen,Lago di Resia
+Lake Avernus|0.55|Avernus,Lago d'Averno
+Lagoa do Fogo|1.36
+Lago di Tenno|0.25|Lake Tenno
+Lake Nemi|1.67|Nemi
+Lake Predil|1
+Lagoa das Sete Cidades|4.35|Sete Cidades
+Laguna di Orbetello|26.9|Orbetello
+Valdecanas Reservoir|73
+Barbate Reservoir|25.4
 `;
 
 export const RIVERS = `
