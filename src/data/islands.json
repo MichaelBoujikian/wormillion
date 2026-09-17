@@ -32741,5 +32741,429 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "island-pheasant-island",
+  "category": "island",
+  "name": "Pheasant Island",
+  "aliases": [],
+  "size": 0.01,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pheasant Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 7032,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pheasant Island",
+  "lat": 43.34277778,
+  "lon": -1.76555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-flevopolder",
+  "category": "island",
+  "name": "Flevopolder",
+  "aliases": [],
+  "size": 970,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Flevopolder\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2679,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Flevopolder",
+  "lat": 52.45,
+  "lon": 5.5,
+  "oceans": []
+ },
+ {
+  "id": "island-ile-sainte-marguerite",
+  "category": "island",
+  "name": "Ile Sainte-Marguerite",
+  "aliases": [],
+  "size": 2.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Île Sainte-Marguerite\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 2070,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Île Sainte-Marguerite",
+  "lat": 43.51944444,
+  "lon": 7.05,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-levant-island",
+  "category": "island",
+  "name": "Levant Island",
+  "aliases": [],
+  "size": 10,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Levant Island\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1522,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Levant Island",
+  "lat": 43.03333333,
+  "lon": 6.46666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ile-vierge",
+  "category": "island",
+  "name": "Ile Vierge",
+  "aliases": [],
+  "size": 0.06,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Île Vierge\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Île Vierge",
+  "lat": 48.63888889,
+  "lon": -4.56916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ile-de-la-jatte",
+  "category": "island",
+  "name": "Ile de la Jatte",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Île de la Jatte\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Île de la Jatte",
+  "lat": 48.89555556,
+  "lon": 2.26861111,
+  "oceans": []
+ },
+ {
+  "id": "island-gavrinis",
+  "category": "island",
+  "name": "Gavrinis",
+  "aliases": [],
+  "size": 0.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gavrinis\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gavrinis",
+  "lat": 47.57388889,
+  "lon": -2.89777778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-goeree-overflakkee",
+  "category": "island",
+  "name": "Goeree-Overflakkee",
+  "aliases": [],
+  "size": 422.35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Goeree-Overflakkee\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Goeree-Overflakkee",
+  "lat": 51.75,
+  "lon": 4.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cavallo",
+  "category": "island",
+  "name": "Cavallo",
+  "aliases": [],
+  "size": 1.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cavallo (island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cavallo (island)",
+  "lat": 41.36833333,
+  "lon": 9.26222222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cezembre",
+  "category": "island",
+  "name": "Cezembre",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cézembre\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cézembre",
+  "lat": 48.67666667,
+  "lon": -2.07138889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-port-cros",
+  "category": "island",
+  "name": "Port-Cros",
+  "aliases": [],
+  "size": 7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Port-Cros\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port-Cros",
+  "lat": 43.001219,
+  "lon": 6.395372,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ile-d-or",
+  "category": "island",
+  "name": "Ile d'Or",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Île d'Or\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Île d'Or",
+  "lat": 43.410833,
+  "lon": 6.846667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ile-de-nantes",
+  "category": "island",
+  "name": "Ile de Nantes",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Île de Nantes\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Île de Nantes",
+  "oceans": []
+ },
+ {
+  "id": "island-houat",
+  "category": "island",
+  "name": "Houat",
+  "aliases": [],
+  "size": 2.91,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Houat\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Houat",
+  "lat": 47.3903,
+  "lon": -2.9561,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hoedic",
+  "category": "island",
+  "name": "Hoedic",
+  "aliases": [],
+  "size": 2.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hœdic\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hœdic",
+  "lat": 47.3403,
+  "lon": -2.8778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rottumerplaat",
+  "category": "island",
+  "name": "Rottumerplaat",
+  "aliases": [],
+  "size": 6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rottumerplaat\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rottumerplaat",
+  "lat": 53.54166667,
+  "lon": 6.48083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-noorderhaaks",
+  "category": "island",
+  "name": "Noorderhaaks",
+  "aliases": [],
+  "size": 5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Noorderhaaks\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Noorderhaaks",
+  "lat": 52.975,
+  "lon": 4.68055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ijsselmonde",
+  "category": "island",
+  "name": "IJsselmonde",
+  "aliases": [],
+  "size": 163,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"IJsselmonde (island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "IJsselmonde (island)",
+  "lat": 51.86666667,
+  "lon": 4.51666667,
+  "oceans": []
+ },
+ {
+  "id": "island-rottumeroog",
+  "category": "island",
+  "name": "Rottumeroog",
+  "aliases": [],
+  "size": 2.65,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rottumeroog\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rottumeroog",
+  "lat": 53.54027778,
+  "lon": 6.58194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ile-illiec",
+  "category": "island",
+  "name": "Ile Illiec",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Île Illiec\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Île Illiec",
+  "lat": 48.85027778,
+  "lon": -3.29527778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hoeksche-waard",
+  "category": "island",
+  "name": "Hoeksche Waard",
+  "aliases": [],
+  "size": 323.74,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hoeksche Waard\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hoeksche Waard",
+  "lat": 51.78,
+  "lon": 4.35,
+  "oceans": []
+ },
+ {
+  "id": "island-ratonneau",
+  "category": "island",
+  "name": "Ratonneau",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ratonneau\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ratonneau",
+  "lat": 43.28222222,
+  "lon": 5.30944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-voorne-putten",
+  "category": "island",
+  "name": "Voorne-Putten",
+  "aliases": [],
+  "size": 220,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Voorne-Putten\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Voorne-Putten",
+  "lat": 51.86666667,
+  "lon": 4.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ile-saint-germain",
+  "category": "island",
+  "name": "Ile Saint-Germain",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Île Saint-Germain\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Île Saint-Germain",
+  "lat": 48.8222,
+  "lon": 2.2463,
+  "oceans": []
+ },
+ {
+  "id": "island-ile-des-impressionnistes",
+  "category": "island",
+  "name": "Ile des Impressionnistes",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Île des Impressionnistes\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Île des Impressionnistes",
+  "oceans": []
+ },
+ {
+  "id": "island-ile-grande",
+  "category": "island",
+  "name": "Ile-Grande",
+  "aliases": [],
+  "size": 3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Île-Grande\", 60-day daily median (60 days ending 2026-09-17); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Île-Grande",
+  "lat": 48.8013,
+  "lon": -3.575,
+  "oceans": [
+   "Atlantic"
+  ]
  }
 ]

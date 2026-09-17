@@ -6087,6 +6087,21 @@ export const WIKI_TITLES = {
   "island-uyea": "Uyea, Unst",
   "island-danna": "Danna, Scotland",
   "island-oilean-ruaidh": "Oileán Ruaidh",
+
+  // --- island (2026-09-14 expansion) ---
+  "island-ile-sainte-marguerite": "Île Sainte-Marguerite",
+  "island-ile-vierge": "Île Vierge",
+  "island-ile-de-la-jatte": "Île de la Jatte",
+  "island-cavallo": "Cavallo (island)",
+  "island-cezembre": "Cézembre",
+  "island-ile-d-or": "Île d'Or",
+  "island-ile-de-nantes": "Île de Nantes",
+  "island-hoedic": "Hœdic",
+  "island-ijsselmonde": "IJsselmonde (island)",
+  "island-ile-illiec": "Île Illiec",
+  "island-ile-saint-germain": "Île Saint-Germain",
+  "island-ile-des-impressionnistes": "Île des Impressionnistes",
+  "island-ile-grande": "Île-Grande",
 };
 
 /**

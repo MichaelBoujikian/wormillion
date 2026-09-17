@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T11:43:16.011Z",
+ "fetched": "2026-09-17T11:45:35.702Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -92529,6 +92529,188 @@
    "days": 60,
    "lat": 53.63333333,
    "lon": 6.9
+  },
+  "island-pheasant-island": {
+   "title": "Pheasant Island",
+   "monthlyViews": 7032,
+   "days": 60,
+   "lat": 43.34277778,
+   "lon": -1.76555556
+  },
+  "island-flevopolder": {
+   "title": "Flevopolder",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 52.45,
+   "lon": 5.5
+  },
+  "island-ile-sainte-marguerite": {
+   "title": "Île Sainte-Marguerite",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 43.51944444,
+   "lon": 7.05
+  },
+  "island-levant-island": {
+   "title": "Levant Island",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 43.03333333,
+   "lon": 6.46666667
+  },
+  "island-ile-vierge": {
+   "title": "Île Vierge",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 48.63888889,
+   "lon": -4.56916667
+  },
+  "island-ile-de-la-jatte": {
+   "title": "Île de la Jatte",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 48.89555556,
+   "lon": 2.26861111
+  },
+  "island-gavrinis": {
+   "title": "Gavrinis",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 47.57388889,
+   "lon": -2.89777778
+  },
+  "island-goeree-overflakkee": {
+   "title": "Goeree-Overflakkee",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 51.75,
+   "lon": 4.16666667
+  },
+  "island-cavallo": {
+   "title": "Cavallo (island)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 41.36833333,
+   "lon": 9.26222222
+  },
+  "island-cezembre": {
+   "title": "Cézembre",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 48.67666667,
+   "lon": -2.07138889
+  },
+  "island-port-cros": {
+   "title": "Port-Cros",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 43.001219,
+   "lon": 6.395372
+  },
+  "island-ile-d-or": {
+   "title": "Île d'Or",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 43.410833,
+   "lon": 6.846667
+  },
+  "island-ile-de-nantes": {
+   "title": "Île de Nantes",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-houat": {
+   "title": "Houat",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 47.3903,
+   "lon": -2.9561
+  },
+  "island-hoedic": {
+   "title": "Hœdic",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 47.3403,
+   "lon": -2.8778
+  },
+  "island-rottumerplaat": {
+   "title": "Rottumerplaat",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 53.54166667,
+   "lon": 6.48083333
+  },
+  "island-noorderhaaks": {
+   "title": "Noorderhaaks",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 52.975,
+   "lon": 4.68055556
+  },
+  "island-ijsselmonde": {
+   "title": "IJsselmonde (island)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.86666667,
+   "lon": 4.51666667
+  },
+  "island-rottumeroog": {
+   "title": "Rottumeroog",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 53.54027778,
+   "lon": 6.58194444
+  },
+  "island-ile-illiec": {
+   "title": "Île Illiec",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 48.85027778,
+   "lon": -3.29527778
+  },
+  "island-hoeksche-waard": {
+   "title": "Hoeksche Waard",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.78,
+   "lon": 4.35
+  },
+  "island-ratonneau": {
+   "title": "Ratonneau",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 43.28222222,
+   "lon": 5.30944444
+  },
+  "island-voorne-putten": {
+   "title": "Voorne-Putten",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.86666667,
+   "lon": 4.16666667
+  },
+  "island-ile-saint-germain": {
+   "title": "Île Saint-Germain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.8222,
+   "lon": 2.2463
+  },
+  "island-ile-des-impressionnistes": {
+   "title": "Île des Impressionnistes",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-ile-grande": {
+   "title": "Île-Grande",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.8013,
+   "lon": -3.575
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

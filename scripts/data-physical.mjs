@@ -9621,6 +9621,32 @@ Nordstrandischmoor|1.9
 Trischen|1.8
 Mellum|3
 Memmert|2.12
+Pheasant Island|0.01
+Flevopolder|970
+Ile Sainte-Marguerite|2.1
+Levant Island|10
+Ile Vierge|0.06
+Ile de la Jatte|0
+Gavrinis|0.3
+Goeree-Overflakkee|422.35
+Cavallo|1.2
+Cezembre|0
+Port-Cros|7
+Ile d'Or|0
+Ile de Nantes|0
+Houat|2.91
+Hoedic|2.08
+Rottumerplaat|6
+Noorderhaaks|5
+IJsselmonde|163
+Rottumeroog|2.65
+Ile Illiec|0
+Hoeksche Waard|323.74
+Ratonneau|0
+Voorne-Putten|220
+Ile Saint-Germain|0
+Ile des Impressionnistes|0
+Ile-Grande|3
 `;
 
 export const SEAS_OCEANS = `

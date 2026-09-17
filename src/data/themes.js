@@ -1246,7 +1246,9 @@ globalThis.WORMILLION_THEMES = {
       'Pag', 'Rab', 'Vis', 'Mljet', 'Losinj',
       'Dugi Otok', 'Lastovo', 'Kornati', 'Lopud', 'Lokrum',
       'Solta', 'Galesnjak', 'Sveti Stefan', 'Sazan Island', 'Bozcaada',
-      'Gokceada', 'Cunda Island', 'Kekova', 'Comino'
+      'Gokceada', 'Cunda Island', 'Kekova', 'Comino',
+      // 2026-09-14 expansion
+      'Ile Sainte-Marguerite', 'Levant Island', 'Port-Cros', "Ile d'Or", 'Ratonneau'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',

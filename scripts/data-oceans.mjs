@@ -119,6 +119,15 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- fr-islands 2026-09-17: Seine, Loire and IJsselmeer islands are in no ocean ---
+  'island-ile-de-nantes': [],
+  'island-ile-des-impressionnistes': [],
+  'island-ile-saint-germain': [],
+  'island-ile-de-la-jatte': [],
+  'island-flevopolder': [],
+  'island-ijsselmonde': [],
+  'island-hoeksche-waard': [],
+
   // --- Donauinsel is a Danube island in Vienna ---
   'island-donauinsel': [],
 
