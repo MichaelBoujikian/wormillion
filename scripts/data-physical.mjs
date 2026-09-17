@@ -1169,6 +1169,14 @@ Ugashik Lakes|199.4
 Webbers Falls Lake|46.94
 Mother Goose Lake|28.5
 John Paul Hammerschmidt Lake|31.16
+Ladybower Reservoir|2.1
+The Serpentine|0.16
+Llyn Celyn|3.2
+Derwent Reservoir|0.71
+Lake of Menteith|2.52
+Dozmary Pool|0.15
+Hanningfield Reservoir|3.52
+Lough Hyne|0.6
 `;
 
 export const RIVERS = `

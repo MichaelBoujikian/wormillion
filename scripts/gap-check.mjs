@@ -26,7 +26,9 @@ const EXPECTED = {
     'Vanern', 'Vattern', 'Siljan', 'Storavan', 'Takern',
     // the 2026-09-16 US lakes scouring (scripts/expansion/reports/2026-09-16-us-lakes.md)
     'Lake Chaubunagungamaug', 'Lake Peigneur', 'Tulare Lake', 'Smith Mountain Lake', 'Lake Hartwell', 'Torch Lake', 'Lake Jocassee', 'Quake Lake', 'Lake Anna',
-    'Lake Eufaula', 'Kerr Lake', 'Lake Martin', 'Elephant Butte', 'Lake Ouachita', 'Lake Almanor', 'Fort Peck Lake', 'Sam Rayburn', 'Lake Sinclair', 'Laguna Madre', 'Jenny Lake', 'Lady Bird Lake', 'Lake Crescent', 'Jackson Lake'],
+    'Lake Eufaula', 'Kerr Lake', 'Lake Martin', 'Elephant Butte', 'Lake Ouachita', 'Lake Almanor', 'Fort Peck Lake', 'Sam Rayburn', 'Lake Sinclair', 'Laguna Madre', 'Jenny Lake', 'Lady Bird Lake', 'Lake Crescent', 'Jackson Lake',
+    // the 2026-09-16 UK + Ireland lakes scouring (reports/2026-09-16-europe-lakes.md)
+    'Ladybower Reservoir', 'The Serpentine', 'Llyn Celyn', 'Lake of Menteith', 'Lough Hyne'],
   river: ['Nile', 'Amazon', 'Mississippi', 'Thames', 'Danube', 'Ganges', 'Volga', 'Indus', 'Rhine', 'Seine', 'Yangtze', 'Congo', 'Tigris', 'Euphrates', 'Jordan', 'Colorado',
     // the 2026-09-14 expansion: rivers players reported missing
     'Hudson', 'Potomac', 'Tennessee', 'Fraser', 'Magdalena', 'Okavango', 'Garonne', 'Neckar', 'Mersey', 'Tyne', 'Warta', 'Irtysh', 'Kaveri', 'Murrumbidgee', 'Rio de la Plata',

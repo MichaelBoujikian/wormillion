@@ -5875,6 +5875,9 @@ export const WIKI_TITLES = {
   "river-vojman": "Vojmån",
   "river-ore": "Öre River",
   "river-osterdal": "Österdal River",
+
+  // --- lake (2026-09-14 expansion) ---
+  "lake-derwent-reservoir": "Derwent Reservoir (Derbyshire)"
 };
 
 /**

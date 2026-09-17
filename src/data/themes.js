@@ -1326,7 +1326,9 @@ globalThis.WORMILLION_THEMES = {
       'Lake Abbe', 'Lake Elmenteita', 'Lake Shala', 'Lake Eyasi', 'Lake Afrera',
       'Lake Karum', 'Lake Qarun', 'Lake Bardawil', 'Great Bitter Lake', 'Chott el Djerid',
       'Chott Melrhir', 'Etosha Pan', 'Makgadikgadi Pan', 'Sua Pan', 'Maharloo Lake',
-      'Namak Lake', 'Lake Tengiz', 'Aydar Lake', 'Sambhar Lake'
+      'Namak Lake', 'Lake Tengiz', 'Aydar Lake', 'Sambhar Lake',
+      // 2026-09-14 expansion
+      'Lough Hyne'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [
@@ -1386,7 +1388,10 @@ globalThis.WORMILLION_THEMES = {
       'Malham Tarn', 'Semerwater', 'Hornsea Mere', 'Llyn Padarn', 'Llyn Ogwen',
       'Llyn Brenig', 'Llyn Trawsfynydd', 'Lake Vyrnwy', 'Llyn Idwal', 'Llyn Cwellyn',
       'Llyn Gwynant', 'Llyn Dinas', 'Llangorse Lake', 'Rutland Water', 'Kielder Water',
-      'Grafham Water', 'Chew Valley Lake'],
+      'Grafham Water', 'Chew Valley Lake',
+      // 2026-09-14 expansion
+      'Ladybower Reservoir', 'The Serpentine', 'Llyn Celyn', 'Derwent Reservoir', 'Lake of Menteith',
+      'Dozmary Pool', 'Hanningfield Reservoir', 'Lough Hyne'],
     'Scandinavia': ['Lake Vanern', 'Lake Vattern', 'Mjosa', 'Lake Inari', 'Lake Saimaa',
       // 2026-09-14 expansion
       'Malaren', 'Hjalmaren', 'Storsjon', 'Siljan', 'Bolmen',
