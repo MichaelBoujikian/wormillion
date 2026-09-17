@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T13:49:15.234Z",
+ "fetched": "2026-09-17T14:59:09.163Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -25371,6 +25371,4339 @@
    "days": 60,
    "lat": 40.70472222,
    "lon": -73.61722222
+  },
+  "city-las-palmas": {
+   "title": "Las Palmas",
+   "monthlyViews": 25174,
+   "days": 60,
+   "lat": 28.12583333,
+   "lon": -15.43527778
+  },
+  "city-clacton-on-sea": {
+   "title": "Clacton-on-Sea",
+   "monthlyViews": 23956,
+   "days": 60,
+   "lat": 51.7918,
+   "lon": 1.1457
+  },
+  "city-blackpool": {
+   "title": "Blackpool",
+   "monthlyViews": 21064,
+   "days": 60,
+   "lat": 53.81416667,
+   "lon": -3.05027778
+  },
+  "city-chester": {
+   "title": "Chester",
+   "monthlyViews": 20456,
+   "days": 60,
+   "lat": 53.19138889,
+   "lon": -2.89027778
+  },
+  "city-matera": {
+   "title": "Matera",
+   "monthlyViews": 19360,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-southend-on-sea": {
+   "title": "Southend-on-Sea",
+   "monthlyViews": 17473,
+   "days": 60,
+   "lat": 51.55,
+   "lon": 0.71
+  },
+  "city-dunkirk": {
+   "title": "Dunkirk",
+   "monthlyViews": 17290,
+   "days": 60,
+   "lat": 51.0383,
+   "lon": 2.3775
+  },
+  "city-slough": {
+   "title": "Slough",
+   "monthlyViews": 16072,
+   "days": 60,
+   "lat": 51.508392,
+   "lon": -0.58810504
+  },
+  "city-croydon": {
+   "title": "Croydon",
+   "monthlyViews": 15737,
+   "days": 60,
+   "lat": 51.3714,
+   "lon": -0.1038
+  },
+  "city-carlisle": {
+   "title": "Carlisle",
+   "monthlyViews": 15677,
+   "days": 60,
+   "lat": 54.89472222,
+   "lon": -2.93638889
+  },
+  "city-metz": {
+   "title": "Metz",
+   "monthlyViews": 14307,
+   "days": 60,
+   "lat": 49.12027778,
+   "lon": 6.17777778
+  },
+  "city-watford": {
+   "title": "Watford",
+   "monthlyViews": 14215,
+   "days": 60,
+   "lat": 51.655,
+   "lon": -0.39569444
+  },
+  "city-swindon": {
+   "title": "Swindon",
+   "monthlyViews": 13789,
+   "days": 60,
+   "lat": 51.56,
+   "lon": -1.78
+  },
+  "city-hastings": {
+   "title": "Hastings",
+   "monthlyViews": 13698,
+   "days": 60,
+   "lat": 50.855,
+   "lon": 0.58333333
+  },
+  "city-cheltenham": {
+   "title": "Cheltenham",
+   "monthlyViews": 13637,
+   "days": 59,
+   "lat": 51.9,
+   "lon": -2.06666667
+  },
+  "city-doncaster": {
+   "title": "Doncaster",
+   "monthlyViews": 13637,
+   "days": 60,
+   "lat": 53.5228,
+   "lon": -1.1325
+  },
+  "city-neuilly-sur-seine": {
+   "title": "Neuilly-sur-Seine",
+   "monthlyViews": 13333,
+   "days": 60,
+   "lat": 48.8881,
+   "lon": 2.2686
+  },
+  "city-calais": {
+   "title": "Calais",
+   "monthlyViews": 13302,
+   "days": 60,
+   "lat": 50.94805556,
+   "lon": 1.85638889
+  },
+  "city-barrow-in-furness": {
+   "title": "Barrow-in-Furness",
+   "monthlyViews": 13272,
+   "days": 60,
+   "lat": 54.1108,
+   "lon": -3.2261
+  },
+  "city-brighton-and-hove": {
+   "title": "Brighton and Hove",
+   "monthlyViews": 13150,
+   "days": 60,
+   "lat": 50.82777778,
+   "lon": -0.15277778
+  },
+  "city-gloucester": {
+   "title": "Gloucester",
+   "monthlyViews": 12967,
+   "days": 60,
+   "lat": 51.8653,
+   "lon": -2.2458
+  },
+  "city-st-albans": {
+   "title": "St Albans",
+   "monthlyViews": 12846,
+   "days": 60,
+   "lat": 51.755,
+   "lon": -0.336
+  },
+  "city-bolton": {
+   "title": "Bolton",
+   "monthlyViews": 12754,
+   "days": 60,
+   "lat": 53.5783,
+   "lon": -2.43
+  },
+  "city-crawley": {
+   "title": "Crawley",
+   "monthlyViews": 12572,
+   "days": 60,
+   "lat": 51.10916667,
+   "lon": -0.18722222
+  },
+  "city-guildford": {
+   "title": "Guildford",
+   "monthlyViews": 12572,
+   "days": 60,
+   "lat": 51.2365,
+   "lon": -0.5703
+  },
+  "city-braunschweig": {
+   "title": "Braunschweig",
+   "monthlyViews": 12511,
+   "days": 60,
+   "lat": 52.26666667,
+   "lon": 10.51666667
+  },
+  "city-weston-super-mare": {
+   "title": "Weston-super-Mare",
+   "monthlyViews": 12359,
+   "days": 60,
+   "lat": 51.34777778,
+   "lon": -2.97805556
+  },
+  "city-stevenage": {
+   "title": "Stevenage",
+   "monthlyViews": 12237,
+   "days": 59,
+   "lat": 51.90166667,
+   "lon": -0.20194444
+  },
+  "city-paisley": {
+   "title": "Paisley, Renfrewshire",
+   "monthlyViews": 12085,
+   "days": 60,
+   "lat": 55.84555556,
+   "lon": -4.42388889
+  },
+  "city-warrington": {
+   "title": "Warrington",
+   "monthlyViews": 12054,
+   "days": 60,
+   "lat": 53.39,
+   "lon": -2.59
+  },
+  "city-blackburn": {
+   "title": "Blackburn",
+   "monthlyViews": 12024,
+   "days": 60,
+   "lat": 53.748,
+   "lon": -2.482
+  },
+  "city-salford": {
+   "title": "Salford",
+   "monthlyViews": 11993,
+   "days": 60,
+   "lat": 53.483,
+   "lon": -2.2931
+  },
+  "city-bromley": {
+   "title": "Bromley",
+   "monthlyViews": 11872,
+   "days": 60,
+   "lat": 51.407,
+   "lon": 0.021
+  },
+  "city-scarborough": {
+   "title": "Scarborough, North Yorkshire",
+   "monthlyViews": 11537,
+   "days": 60,
+   "lat": 54.2825,
+   "lon": -0.4
+  },
+  "city-east-kilbride": {
+   "title": "East Kilbride",
+   "monthlyViews": 11385,
+   "days": 60,
+   "lat": 55.76444444,
+   "lon": -4.17694444
+  },
+  "city-stourbridge": {
+   "title": "Stourbridge",
+   "monthlyViews": 11354,
+   "days": 60,
+   "lat": 52.4575,
+   "lon": -2.1479
+  },
+  "city-lecce": {
+   "title": "Lecce",
+   "monthlyViews": 11293,
+   "days": 60,
+   "lat": 40.35,
+   "lon": 18.16666667
+  },
+  "city-solihull": {
+   "title": "Solihull",
+   "monthlyViews": 11019,
+   "days": 60,
+   "lat": 52.413,
+   "lon": -1.778
+  },
+  "city-stockport": {
+   "title": "Stockport",
+   "monthlyViews": 10989,
+   "days": 60,
+   "lat": 53.4083,
+   "lon": -2.1494
+  },
+  "city-wigan": {
+   "title": "Wigan",
+   "monthlyViews": 10958,
+   "days": 60,
+   "lat": 53.5448,
+   "lon": -2.6318
+  },
+  "city-woking": {
+   "title": "Woking",
+   "monthlyViews": 10958,
+   "days": 60,
+   "lat": 51.32027778,
+   "lon": -0.55666667
+  },
+  "city-burnley": {
+   "title": "Burnley",
+   "monthlyViews": 10928,
+   "days": 60,
+   "lat": 53.789,
+   "lon": -2.248
+  },
+  "city-gelsenkirchen": {
+   "title": "Gelsenkirchen",
+   "monthlyViews": 10898,
+   "days": 60,
+   "lat": 51.51027778,
+   "lon": 7.09416667
+  },
+  "city-santa-cruz-de-tenerife": {
+   "title": "Santa Cruz de Tenerife",
+   "monthlyViews": 10806,
+   "days": 60,
+   "lat": 28.46666667,
+   "lon": -16.25
+  },
+  "city-worms": {
+   "title": "Worms, Germany",
+   "monthlyViews": 10806,
+   "days": 60,
+   "lat": 49.63194444,
+   "lon": 8.36527778
+  },
+  "city-high-wycombe": {
+   "title": "High Wycombe",
+   "monthlyViews": 10563,
+   "days": 60,
+   "lat": 51.628661,
+   "lon": -0.748238
+  },
+  "city-dunfermline": {
+   "title": "Dunfermline",
+   "monthlyViews": 10197,
+   "days": 60,
+   "lat": 56.07192,
+   "lon": -3.4393
+  },
+  "city-grimsby": {
+   "title": "Grimsby",
+   "monthlyViews": 10197,
+   "days": 60,
+   "lat": 53.5675,
+   "lon": -0.08
+  },
+  "city-saint-denis": {
+   "title": "Saint-Denis, Seine-Saint-Denis",
+   "monthlyViews": 10106,
+   "days": 60,
+   "lat": 48.9356,
+   "lon": 2.3539
+  },
+  "city-welwyn-garden-city": {
+   "title": "Welwyn Garden City",
+   "monthlyViews": 10015,
+   "days": 60,
+   "lat": 51.8062,
+   "lon": -0.1932
+  },
+  "city-harrogate": {
+   "title": "Harrogate",
+   "monthlyViews": 9984,
+   "days": 60,
+   "lat": 53.99194444,
+   "lon": -1.53777778
+  },
+  "city-darmstadt": {
+   "title": "Darmstadt",
+   "monthlyViews": 9863,
+   "days": 60,
+   "lat": 49.87222222,
+   "lon": 8.65277778
+  },
+  "city-birkenhead": {
+   "title": "Birkenhead",
+   "monthlyViews": 9832,
+   "days": 60,
+   "lat": 53.393,
+   "lon": -3.014
+  },
+  "city-oldham": {
+   "title": "Oldham",
+   "monthlyViews": 9771,
+   "days": 60,
+   "lat": 53.544,
+   "lon": -2.117
+  },
+  "city-bedford": {
+   "title": "Bedford",
+   "monthlyViews": 9741,
+   "days": 60,
+   "lat": 52.13638889,
+   "lon": -0.4675
+  },
+  "city-ancona": {
+   "title": "Ancona",
+   "monthlyViews": 9680,
+   "days": 60,
+   "lat": 43.61694444,
+   "lon": 13.51666667
+  },
+  "city-brindisi": {
+   "title": "Brindisi",
+   "monthlyViews": 9680,
+   "days": 60,
+   "lat": 40.63333333,
+   "lon": 17.93333333
+  },
+  "city-southport": {
+   "title": "Southport",
+   "monthlyViews": 9680,
+   "days": 60,
+   "lat": 53.6475,
+   "lon": -3.00527778
+  },
+  "city-chelmsford": {
+   "title": "Chelmsford",
+   "monthlyViews": 9558,
+   "days": 60,
+   "lat": 51.73,
+   "lon": 0.48
+  },
+  "city-darlington": {
+   "title": "Darlington",
+   "monthlyViews": 9558,
+   "days": 60,
+   "lat": 54.527,
+   "lon": -1.5526
+  },
+  "city-wolfsburg": {
+   "title": "Wolfsburg",
+   "monthlyViews": 9528,
+   "days": 60,
+   "lat": 52.42305556,
+   "lon": 10.78722222
+  },
+  "city-huddersfield": {
+   "title": "Huddersfield",
+   "monthlyViews": 9315,
+   "days": 60,
+   "lat": 53.645,
+   "lon": -1.7798
+  },
+  "city-leamington-spa": {
+   "title": "Leamington Spa",
+   "monthlyViews": 9162,
+   "days": 60,
+   "lat": 52.29194444,
+   "lon": -1.53583333
+  },
+  "city-hemel-hempstead": {
+   "title": "Hemel Hempstead",
+   "monthlyViews": 9132,
+   "days": 60,
+   "lat": 51.7526,
+   "lon": -0.4692
+  },
+  "city-burton-upon-trent": {
+   "title": "Burton upon Trent",
+   "monthlyViews": 9041,
+   "days": 60,
+   "lat": 52.80194444,
+   "lon": -1.63666667
+  },
+  "city-monchengladbach": {
+   "title": "Mönchengladbach",
+   "monthlyViews": 9010,
+   "days": 60,
+   "lat": 51.2,
+   "lon": 6.43333333
+  },
+  "city-west-bromwich": {
+   "title": "West Bromwich",
+   "monthlyViews": 9010,
+   "days": 60,
+   "lat": 52.519,
+   "lon": -1.995
+  },
+  "city-kaiserslautern": {
+   "title": "Kaiserslautern",
+   "monthlyViews": 8949,
+   "days": 60,
+   "lat": 49.44472222,
+   "lon": 7.76888889
+  },
+  "city-la-spezia": {
+   "title": "La Spezia",
+   "monthlyViews": 8949,
+   "days": 60,
+   "lat": 44.1,
+   "lon": 9.81666667
+  },
+  "city-wakefield": {
+   "title": "Wakefield",
+   "monthlyViews": 8949,
+   "days": 60,
+   "lat": 53.6825,
+   "lon": -1.4975
+  },
+  "city-terrassa": {
+   "title": "Terrassa",
+   "monthlyViews": 8858,
+   "days": 60,
+   "lat": 41.57,
+   "lon": 2.013
+  },
+  "city-pau": {
+   "title": "Pau, Pyrénées-Atlantiques",
+   "monthlyViews": 8675,
+   "days": 60,
+   "lat": 43.3,
+   "lon": -0.37
+  },
+  "city-rotherham": {
+   "title": "Rotherham",
+   "monthlyViews": 8645,
+   "days": 60,
+   "lat": 53.43,
+   "lon": -1.357
+  },
+  "city-eastbourne": {
+   "title": "Eastbourne",
+   "monthlyViews": 8584,
+   "days": 60,
+   "lat": 50.77,
+   "lon": 0.28
+  },
+  "city-jena": {
+   "title": "Jena",
+   "monthlyViews": 8584,
+   "days": 60,
+   "lat": 50.92722222,
+   "lon": 11.58611111
+  },
+  "city-royal-tunbridge-wells": {
+   "title": "Royal Tunbridge Wells",
+   "monthlyViews": 8523,
+   "days": 60,
+   "lat": 51.132,
+   "lon": 0.263
+  },
+  "city-south-shields": {
+   "title": "South Shields",
+   "monthlyViews": 8493,
+   "days": 60,
+   "lat": 54.995,
+   "lon": -1.43
+  },
+  "city-walsall": {
+   "title": "Walsall",
+   "monthlyViews": 8432,
+   "days": 60,
+   "lat": 52.58,
+   "lon": -1.98
+  },
+  "city-barnsley": {
+   "title": "Barnsley",
+   "monthlyViews": 8341,
+   "days": 60,
+   "lat": 53.55277778,
+   "lon": -1.48055556
+  },
+  "city-pavia": {
+   "title": "Pavia",
+   "monthlyViews": 8341,
+   "days": 60,
+   "lat": 45.185,
+   "lon": 9.15416667
+  },
+  "city-sanremo": {
+   "title": "Sanremo",
+   "monthlyViews": 8341,
+   "days": 60,
+   "lat": 43.8175,
+   "lon": 7.775
+  },
+  "city-beziers": {
+   "title": "Béziers",
+   "monthlyViews": 8310,
+   "days": 60,
+   "lat": 43.3476,
+   "lon": 3.219
+  },
+  "city-osnabruck": {
+   "title": "Osnabrück",
+   "monthlyViews": 8280,
+   "days": 60,
+   "lat": 52.28333333,
+   "lon": 8.05
+  },
+  "city-alcobendas": {
+   "title": "Alcobendas",
+   "monthlyViews": 8158,
+   "days": 60,
+   "lat": 40.53333333,
+   "lon": -3.63333333
+  },
+  "city-foggia": {
+   "title": "Foggia",
+   "monthlyViews": 8097,
+   "days": 60,
+   "lat": 41.46416667,
+   "lon": 15.54611111
+  },
+  "city-harlow": {
+   "title": "Harlow",
+   "monthlyViews": 8036,
+   "days": 60,
+   "lat": 51.779,
+   "lon": 0.128
+  },
+  "city-merthyr-tydfil": {
+   "title": "Merthyr Tydfil",
+   "monthlyViews": 8006,
+   "days": 60,
+   "lat": 51.743,
+   "lon": -3.378
+  },
+  "city-basingstoke": {
+   "title": "Basingstoke",
+   "monthlyViews": 7914,
+   "days": 60,
+   "lat": 51.2667,
+   "lon": -1.0876
+  },
+  "city-telford": {
+   "title": "Telford",
+   "monthlyViews": 7914,
+   "days": 60,
+   "lat": 52.6766,
+   "lon": -2.4469
+  },
+  "city-narbonne": {
+   "title": "Narbonne",
+   "monthlyViews": 7854,
+   "days": 60,
+   "lat": 43.1836,
+   "lon": 3.0042
+  },
+  "city-hartlepool": {
+   "title": "Hartlepool",
+   "monthlyViews": 7823,
+   "days": 60,
+   "lat": 54.69,
+   "lon": -1.21
+  },
+  "city-ingolstadt": {
+   "title": "Ingolstadt",
+   "monthlyViews": 7823,
+   "days": 60,
+   "lat": 48.76305556,
+   "lon": 11.425
+  },
+  "city-redditch": {
+   "title": "Redditch",
+   "monthlyViews": 7793,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-flensburg": {
+   "title": "Flensburg",
+   "monthlyViews": 7762,
+   "days": 60,
+   "lat": 54.78194444,
+   "lon": 9.43666667
+  },
+  "city-gateshead": {
+   "title": "Gateshead",
+   "monthlyViews": 7762,
+   "days": 60,
+   "lat": 54.95555556,
+   "lon": -1.6
+  },
+  "city-scunthorpe": {
+   "title": "Scunthorpe",
+   "monthlyViews": 7762,
+   "days": 60,
+   "lat": 53.5809,
+   "lon": -0.6502
+  },
+  "city-bayreuth": {
+   "title": "Bayreuth",
+   "monthlyViews": 7640,
+   "days": 60,
+   "lat": 49.94805556,
+   "lon": 11.57833333
+  },
+  "city-rugby": {
+   "title": "Rugby, Warwickshire",
+   "monthlyViews": 7640,
+   "days": 60,
+   "lat": 52.37,
+   "lon": -1.26
+  },
+  "city-poole": {
+   "title": "Poole",
+   "monthlyViews": 7610,
+   "days": 60,
+   "lat": 50.71666667,
+   "lon": -1.98333333
+  },
+  "city-banbury": {
+   "title": "Banbury",
+   "monthlyViews": 7580,
+   "days": 60,
+   "lat": 52.061,
+   "lon": -1.336
+  },
+  "city-macclesfield": {
+   "title": "Macclesfield",
+   "monthlyViews": 7580,
+   "days": 60,
+   "lat": 53.25,
+   "lon": -2.13
+  },
+  "city-worthing": {
+   "title": "Worthing",
+   "monthlyViews": 7458,
+   "days": 60,
+   "lat": 50.81472222,
+   "lon": -0.37138889
+  },
+  "city-algeciras": {
+   "title": "Algeciras",
+   "monthlyViews": 7153,
+   "days": 60,
+   "lat": 36.1275,
+   "lon": -5.45388889
+  },
+  "city-aldershot": {
+   "title": "Aldershot",
+   "monthlyViews": 7123,
+   "days": 60,
+   "lat": 51.24833333,
+   "lon": -0.76138889
+  },
+  "city-dudley": {
+   "title": "Dudley",
+   "monthlyViews": 7093,
+   "days": 60,
+   "lat": 52.508,
+   "lon": -2.089
+  },
+  "city-st-helens": {
+   "title": "St Helens, Merseyside",
+   "monthlyViews": 7093,
+   "days": 60,
+   "lat": 53.45416667,
+   "lon": -2.73611111
+  },
+  "city-castellammare-di-stabia": {
+   "title": "Castellammare di Stabia",
+   "monthlyViews": 6971,
+   "days": 60,
+   "lat": 40.69472222,
+   "lon": 14.48027778
+  },
+  "city-chesterfield": {
+   "title": "Chesterfield, Derbyshire",
+   "monthlyViews": 6971,
+   "days": 60,
+   "lat": 53.23633,
+   "lon": -1.4292058
+  },
+  "city-sutton-coldfield": {
+   "title": "Sutton Coldfield",
+   "monthlyViews": 6940,
+   "days": 60,
+   "lat": 52.563,
+   "lon": -1.822
+  },
+  "city-stockton-on-tees": {
+   "title": "Stockton-on-Tees",
+   "monthlyViews": 6940,
+   "days": 60,
+   "lat": 54.57,
+   "lon": -1.32
+  },
+  "city-arezzo": {
+   "title": "Arezzo",
+   "monthlyViews": 6910,
+   "days": 60,
+   "lat": 43.46333333,
+   "lon": 11.87833333
+  },
+  "city-maidenhead": {
+   "title": "Maidenhead",
+   "monthlyViews": 6910,
+   "days": 60,
+   "lat": 51.523,
+   "lon": -0.722
+  },
+  "city-tamworth": {
+   "title": "Tamworth, Staffordshire",
+   "monthlyViews": 6849,
+   "days": 60,
+   "lat": 52.63388889,
+   "lon": -1.695
+  },
+  "city-bondy": {
+   "title": "Bondy",
+   "monthlyViews": 6819,
+   "days": 60,
+   "lat": 48.9022,
+   "lon": 2.4828
+  },
+  "city-bury": {
+   "title": "Bury, Greater Manchester",
+   "monthlyViews": 6819,
+   "days": 60,
+   "lat": 53.593,
+   "lon": -2.298
+  },
+  "city-dartford": {
+   "title": "Dartford",
+   "monthlyViews": 6819,
+   "days": 60,
+   "lat": 51.44444444,
+   "lon": 0.21722222
+  },
+  "city-crewe": {
+   "title": "Crewe",
+   "monthlyViews": 6788,
+   "days": 60,
+   "lat": 53.099,
+   "lon": -2.44
+  },
+  "city-pescara": {
+   "title": "Pescara",
+   "monthlyViews": 6788,
+   "days": 60,
+   "lat": 42.46388889,
+   "lon": 14.21416667
+  },
+  "city-leverkusen": {
+   "title": "Leverkusen",
+   "monthlyViews": 6758,
+   "days": 60,
+   "lat": 51.03333333,
+   "lon": 6.98333333
+  },
+  "city-estepona": {
+   "title": "Estepona",
+   "monthlyViews": 6727,
+   "days": 60,
+   "lat": 36.42638889,
+   "lon": -5.14722222
+  },
+  "city-halesowen": {
+   "title": "Halesowen",
+   "monthlyViews": 6697,
+   "days": 60,
+   "lat": 52.450164,
+   "lon": -2.050935
+  },
+  "city-boulogne-billancourt": {
+   "title": "Boulogne-Billancourt",
+   "monthlyViews": 6636,
+   "days": 60,
+   "lat": 48.8352,
+   "lon": 2.2409
+  },
+  "city-rochdale": {
+   "title": "Rochdale",
+   "monthlyViews": 6605,
+   "days": 60,
+   "lat": 53.61,
+   "lon": -2.16
+  },
+  "city-piacenza": {
+   "title": "Piacenza",
+   "monthlyViews": 6392,
+   "days": 60,
+   "lat": 45.04777778,
+   "lon": 9.70055556
+  },
+  "city-harrow": {
+   "title": "Harrow, London",
+   "monthlyViews": 6332,
+   "days": 60,
+   "lat": 51.5836,
+   "lon": -0.3464
+  },
+  "city-bremerhaven": {
+   "title": "Bremerhaven",
+   "monthlyViews": 6301,
+   "days": 60,
+   "lat": 53.55,
+   "lon": 8.58333333
+  },
+  "city-schwerin": {
+   "title": "Schwerin",
+   "monthlyViews": 6301,
+   "days": 60,
+   "lat": 53.63333333,
+   "lon": 11.41666667
+  },
+  "city-lorient": {
+   "title": "Lorient",
+   "monthlyViews": 6240,
+   "days": 60,
+   "lat": 47.75,
+   "lon": -3.36
+  },
+  "city-carrara": {
+   "title": "Carrara",
+   "monthlyViews": 6179,
+   "days": 60,
+   "lat": 44.07916667,
+   "lon": 10.1
+  },
+  "city-gorlitz": {
+   "title": "Görlitz",
+   "monthlyViews": 6179,
+   "days": 60,
+   "lat": 51.15277778,
+   "lon": 14.98722222
+  },
+  "city-castellon-de-la-plana": {
+   "title": "Castellón de la Plana",
+   "monthlyViews": 6149,
+   "days": 60,
+   "lat": 39.98305556,
+   "lon": -0.03305556
+  },
+  "city-basildon": {
+   "title": "Basildon",
+   "monthlyViews": 6118,
+   "days": 60,
+   "lat": 51.58,
+   "lon": 0.49
+  },
+  "city-benevento": {
+   "title": "Benevento",
+   "monthlyViews": 6118,
+   "days": 60,
+   "lat": 41.13333333,
+   "lon": 14.78333333
+  },
+  "city-gravesend": {
+   "title": "Gravesend",
+   "monthlyViews": 6118,
+   "days": 60,
+   "lat": 51.4415,
+   "lon": 0.3685
+  },
+  "city-avellino": {
+   "title": "Avellino",
+   "monthlyViews": 6058,
+   "days": 60,
+   "lat": 40.91666667,
+   "lon": 14.78888889
+  },
+  "city-oldenburg": {
+   "title": "Oldenburg (city)",
+   "monthlyViews": 6058,
+   "days": 60,
+   "lat": 53.14388889,
+   "lon": 8.21388889
+  },
+  "city-sutton": {
+   "title": "Sutton, London",
+   "monthlyViews": 6058,
+   "days": 60,
+   "lat": 51.3656,
+   "lon": -0.1963
+  },
+  "city-heilbronn": {
+   "title": "Heilbronn",
+   "monthlyViews": 5997,
+   "days": 60,
+   "lat": 49.15,
+   "lon": 9.21666667
+  },
+  "city-l-aquila": {
+   "title": "L'Aquila",
+   "monthlyViews": 5997,
+   "days": 60,
+   "lat": 42.35,
+   "lon": 13.4
+  },
+  "city-kirkcaldy": {
+   "title": "Kirkcaldy",
+   "monthlyViews": 5936,
+   "days": 60,
+   "lat": 56.11073,
+   "lon": -3.16737
+  },
+  "city-l-hospitalet-de-llobregat": {
+   "title": "L'Hospitalet de Llobregat",
+   "monthlyViews": 5936,
+   "days": 60,
+   "lat": 41.35972222,
+   "lon": 2.1
+  },
+  "city-ludwigshafen": {
+   "title": "Ludwigshafen",
+   "monthlyViews": 5875,
+   "days": 60,
+   "lat": 49.48111111,
+   "lon": 8.43527778
+  },
+  "city-luneburg": {
+   "title": "Lüneburg",
+   "monthlyViews": 5875,
+   "days": 60,
+   "lat": 53.2525,
+   "lon": 10.41444444
+  },
+  "city-loughborough": {
+   "title": "Loughborough",
+   "monthlyViews": 5844,
+   "days": 60,
+   "lat": 52.7725,
+   "lon": -1.20777778
+  },
+  "city-amstelveen": {
+   "title": "Amstelveen",
+   "monthlyViews": 5784,
+   "days": 60,
+   "lat": 52.3,
+   "lon": 4.85
+  },
+  "city-paderborn": {
+   "title": "Paderborn",
+   "monthlyViews": 5784,
+   "days": 60,
+   "lat": 51.71805556,
+   "lon": 8.75416667
+  },
+  "city-fulda": {
+   "title": "Fulda",
+   "monthlyViews": 5753,
+   "days": 60,
+   "lat": 50.55083333,
+   "lon": 9.67527778
+  },
+  "city-hanau": {
+   "title": "Hanau",
+   "monthlyViews": 5753,
+   "days": 60,
+   "lat": 50.13277778,
+   "lon": 8.91694444
+  },
+  "city-horsham": {
+   "title": "Horsham",
+   "monthlyViews": 5662,
+   "days": 60,
+   "lat": 51.062,
+   "lon": -0.325
+  },
+  "city-chatham": {
+   "title": "Chatham, Kent",
+   "monthlyViews": 5601,
+   "days": 60,
+   "lat": 51.37,
+   "lon": 0.52
+  },
+  "city-nuneaton": {
+   "title": "Nuneaton",
+   "monthlyViews": 5540,
+   "days": 60,
+   "lat": 52.523,
+   "lon": -1.468
+  },
+  "city-catanzaro": {
+   "title": "Catanzaro",
+   "monthlyViews": 5479,
+   "days": 60,
+   "lat": 38.9,
+   "lon": 16.6
+  },
+  "city-civitavecchia": {
+   "title": "Civitavecchia",
+   "monthlyViews": 5479,
+   "days": 60,
+   "lat": 42.1,
+   "lon": 11.8
+  },
+  "city-benalmadena": {
+   "title": "Benalmádena",
+   "monthlyViews": 5357,
+   "days": 60,
+   "lat": 36.6,
+   "lon": -4.51666667
+  },
+  "city-albacete": {
+   "title": "Albacete",
+   "monthlyViews": 5327,
+   "days": 60,
+   "lat": 38.99555556,
+   "lon": -1.85583333
+  },
+  "city-hounslow": {
+   "title": "Hounslow",
+   "monthlyViews": 5327,
+   "days": 60,
+   "lat": 51.4668,
+   "lon": -0.375
+  },
+  "city-bagheria": {
+   "title": "Bagheria",
+   "monthlyViews": 5297,
+   "days": 60,
+   "lat": 38.08027778,
+   "lon": 13.50861111
+  },
+  "city-solingen": {
+   "title": "Solingen",
+   "monthlyViews": 5266,
+   "days": 60,
+   "lat": 51.1719,
+   "lon": 7.0847
+  },
+  "city-corby": {
+   "title": "Corby",
+   "monthlyViews": 5236,
+   "days": 60,
+   "lat": 52.48768,
+   "lon": -0.7013
+  },
+  "city-prato": {
+   "title": "Prato",
+   "monthlyViews": 5205,
+   "days": 60,
+   "lat": 43.88,
+   "lon": 11.09833333
+  },
+  "city-greifswald": {
+   "title": "Greifswald",
+   "monthlyViews": 5175,
+   "days": 60,
+   "lat": 54.08333333,
+   "lon": 13.38333333
+  },
+  "city-saint-nazaire": {
+   "title": "Saint-Nazaire",
+   "monthlyViews": 5175,
+   "days": 60,
+   "lat": 47.27361111,
+   "lon": -2.21388889
+  },
+  "city-stralsund": {
+   "title": "Stralsund",
+   "monthlyViews": 5144,
+   "days": 60,
+   "lat": 54.30916667,
+   "lon": 13.08194444
+  },
+  "city-andover": {
+   "title": "Andover, Hampshire",
+   "monthlyViews": 5083,
+   "days": 60,
+   "lat": 51.208,
+   "lon": -1.48
+  },
+  "city-uxbridge": {
+   "title": "Uxbridge",
+   "monthlyViews": 5053,
+   "days": 60,
+   "lat": 51.5404,
+   "lon": -0.4778
+  },
+  "city-cottbus": {
+   "title": "Cottbus",
+   "monthlyViews": 5023,
+   "days": 60,
+   "lat": 51.76055556,
+   "lon": 14.33416667
+  },
+  "city-tivoli": {
+   "title": "Tivoli, Lazio",
+   "monthlyViews": 5023,
+   "days": 60,
+   "lat": 41.95972222,
+   "lon": 12.79805556
+  },
+  "city-bootle": {
+   "title": "Bootle",
+   "monthlyViews": 4992,
+   "days": 60,
+   "lat": 53.4457,
+   "lon": -2.9891
+  },
+  "city-marburg": {
+   "title": "Marburg",
+   "monthlyViews": 4992,
+   "days": 60,
+   "lat": 50.81,
+   "lon": 8.77083333
+  },
+  "city-altrincham": {
+   "title": "Altrincham",
+   "monthlyViews": 4962,
+   "days": 60,
+   "lat": 53.3838,
+   "lon": -2.3547
+  },
+  "city-newcastle-under-lyme": {
+   "title": "Newcastle-under-Lyme",
+   "monthlyViews": 4962,
+   "days": 60,
+   "lat": 53.0109,
+   "lon": -2.2278
+  },
+  "city-crotone": {
+   "title": "Crotone",
+   "monthlyViews": 4931,
+   "days": 60,
+   "lat": 39.08333333,
+   "lon": 17.11666667
+  },
+  "city-ashford": {
+   "title": "Ashford, Kent",
+   "monthlyViews": 4901,
+   "days": 60,
+   "lat": 51.1465,
+   "lon": 0.8676
+  },
+  "city-erlangen": {
+   "title": "Erlangen",
+   "monthlyViews": 4901,
+   "days": 60,
+   "lat": 49.5925,
+   "lon": 11.005
+  },
+  "city-farnborough": {
+   "title": "Farnborough, Hampshire",
+   "monthlyViews": 4901,
+   "days": 60,
+   "lat": 51.29,
+   "lon": -0.75
+  },
+  "city-alessandria": {
+   "title": "Alessandria",
+   "monthlyViews": 4870,
+   "days": 60,
+   "lat": 44.91666667,
+   "lon": 8.61666667
+  },
+  "city-keighley": {
+   "title": "Keighley",
+   "monthlyViews": 4870,
+   "days": 60,
+   "lat": 53.867,
+   "lon": -1.911
+  },
+  "city-villeurbanne": {
+   "title": "Villeurbanne",
+   "monthlyViews": 4870,
+   "days": 60,
+   "lat": 45.7667,
+   "lon": 4.8803
+  },
+  "city-alcala-de-henares": {
+   "title": "Alcalá de Henares",
+   "monthlyViews": 4840,
+   "days": 60,
+   "lat": 40.46666667,
+   "lon": -3.36666667
+  },
+  "city-hamelin": {
+   "title": "Hamelin",
+   "monthlyViews": 4840,
+   "days": 60,
+   "lat": 52.1,
+   "lon": 9.36666667
+  },
+  "city-sassari": {
+   "title": "Sassari",
+   "monthlyViews": 4840,
+   "days": 60,
+   "lat": 40.725,
+   "lon": 8.55861111
+  },
+  "city-lugo": {
+   "title": "Lugo",
+   "monthlyViews": 4779,
+   "days": 60,
+   "lat": 43.01666667,
+   "lon": -7.55
+  },
+  "city-wilhelmshaven": {
+   "title": "Wilhelmshaven",
+   "monthlyViews": 4779,
+   "days": 60,
+   "lat": 53.52861111,
+   "lon": 8.10555556
+  },
+  "city-kidderminster": {
+   "title": "Kidderminster",
+   "monthlyViews": 4749,
+   "days": 60,
+   "lat": 52.3885,
+   "lon": -2.249
+  },
+  "city-sabadell": {
+   "title": "Sabadell",
+   "monthlyViews": 4749,
+   "days": 60,
+   "lat": 41.5475,
+   "lon": 2.10888889
+  },
+  "city-trapani": {
+   "title": "Trapani",
+   "monthlyViews": 4718,
+   "days": 60,
+   "lat": 38.0175,
+   "lon": 12.515
+  },
+  "city-aschaffenburg": {
+   "title": "Aschaffenburg",
+   "monthlyViews": 4688,
+   "days": 60,
+   "lat": 49.96666667,
+   "lon": 9.15
+  },
+  "city-rosenheim": {
+   "title": "Rosenheim",
+   "monthlyViews": 4688,
+   "days": 60,
+   "lat": 47.85,
+   "lon": 12.13333333
+  },
+  "city-reus": {
+   "title": "Reus",
+   "monthlyViews": 4657,
+   "days": 60,
+   "lat": 41.156,
+   "lon": 1.108
+  },
+  "city-walton-on-thames": {
+   "title": "Walton-on-Thames",
+   "monthlyViews": 4657,
+   "days": 60,
+   "lat": 51.3868,
+   "lon": -0.4133
+  },
+  "city-badalona": {
+   "title": "Badalona",
+   "monthlyViews": 4627,
+   "days": 60,
+   "lat": 41.44888889,
+   "lon": 2.24611111
+  },
+  "city-caserta": {
+   "title": "Caserta",
+   "monthlyViews": 4627,
+   "days": 60,
+   "lat": 41.06666667,
+   "lon": 14.33333333
+  },
+  "city-zwickau": {
+   "title": "Zwickau",
+   "monthlyViews": 4536,
+   "days": 60,
+   "lat": 50.71666667,
+   "lon": 12.5
+  },
+  "city-krefeld": {
+   "title": "Krefeld",
+   "monthlyViews": 4505,
+   "days": 60,
+   "lat": 51.33333333,
+   "lon": 6.56666667
+  },
+  "city-pontevedra": {
+   "title": "Pontevedra",
+   "monthlyViews": 4505,
+   "days": 60,
+   "lat": 42.43333333,
+   "lon": -8.63333333
+  },
+  "city-imola": {
+   "title": "Imola",
+   "monthlyViews": 4475,
+   "days": 60,
+   "lat": 44.35305556,
+   "lon": 11.71472222
+  },
+  "city-landshut": {
+   "title": "Landshut",
+   "monthlyViews": 4444,
+   "days": 60,
+   "lat": 48.53972222,
+   "lon": 12.15083333
+  },
+  "city-bourges": {
+   "title": "Bourges",
+   "monthlyViews": 4414,
+   "days": 60,
+   "lat": 47.07944444,
+   "lon": 2.39583333
+  },
+  "city-ferrol": {
+   "title": "Ferrol",
+   "monthlyViews": 4383,
+   "days": 60,
+   "lat": 43.48444444,
+   "lon": -8.23277778
+  },
+  "city-bracknell": {
+   "title": "Bracknell",
+   "monthlyViews": 4353,
+   "days": 60,
+   "lat": 51.416,
+   "lon": -0.749
+  },
+  "city-deventer": {
+   "title": "Deventer",
+   "monthlyViews": 4292,
+   "days": 60,
+   "lat": 52.25,
+   "lon": 6.15
+  },
+  "city-furth": {
+   "title": "Fürth",
+   "monthlyViews": 4292,
+   "days": 60,
+   "lat": 49.46666667,
+   "lon": 11
+  },
+  "city-quimper": {
+   "title": "Quimper",
+   "monthlyViews": 4262,
+   "days": 60,
+   "lat": 47.9967,
+   "lon": -4.0964
+  },
+  "city-portimao": {
+   "title": "Portimão",
+   "monthlyViews": 4231,
+   "days": 60,
+   "lat": 37.13694444,
+   "lon": -8.53833333
+  },
+  "city-beauvais": {
+   "title": "Beauvais",
+   "monthlyViews": 4201,
+   "days": 60,
+   "lat": 49.4303,
+   "lon": 2.0952
+  },
+  "city-getafe": {
+   "title": "Getafe",
+   "monthlyViews": 4201,
+   "days": 60,
+   "lat": 40.30472222,
+   "lon": -3.73111111
+  },
+  "city-olbia": {
+   "title": "Olbia",
+   "monthlyViews": 4170,
+   "days": 60,
+   "lat": 40.91666667,
+   "lon": 9.5
+  },
+  "city-gillingham": {
+   "title": "Gillingham, Kent",
+   "monthlyViews": 4140,
+   "days": 60,
+   "lat": 51.385,
+   "lon": 0.55
+  },
+  "city-forli": {
+   "title": "Forlì",
+   "monthlyViews": 4109,
+   "days": 60,
+   "lat": 44.22277778,
+   "lon": 12.04138889
+  },
+  "city-potenza": {
+   "title": "Potenza",
+   "monthlyViews": 4079,
+   "days": 60,
+   "lat": 40.63333333,
+   "lon": 15.8
+  },
+  "city-hildesheim": {
+   "title": "Hildesheim",
+   "monthlyViews": 4049,
+   "days": 60,
+   "lat": 52.15,
+   "lon": 9.95
+  },
+  "city-pesaro": {
+   "title": "Pesaro",
+   "monthlyViews": 4049,
+   "days": 60,
+   "lat": 43.91666667,
+   "lon": 12.9
+  },
+  "city-cumbernauld": {
+   "title": "Cumbernauld",
+   "monthlyViews": 4018,
+   "days": 60,
+   "lat": 55.945,
+   "lon": -3.994
+  },
+  "city-vannes": {
+   "title": "Vannes",
+   "monthlyViews": 4018,
+   "days": 60,
+   "lat": 47.6559,
+   "lon": -2.7603
+  },
+  "city-jaen": {
+   "title": "Jaén, Spain",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 37.76666667,
+   "lon": -3.77111111
+  },
+  "city-varese": {
+   "title": "Varese",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 45.81666667,
+   "lon": 8.83333333
+  },
+  "city-viareggio": {
+   "title": "Viareggio",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 43.86666667,
+   "lon": 10.23333333
+  },
+  "city-runcorn": {
+   "title": "Runcorn",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 53.3417,
+   "lon": -2.7313
+  },
+  "city-celle": {
+   "title": "Celle",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 52.62555556,
+   "lon": 10.0825
+  },
+  "city-fuengirola": {
+   "title": "Fuengirola",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 36.54166667,
+   "lon": -4.625
+  },
+  "city-pozzuoli": {
+   "title": "Pozzuoli",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 40.84444444,
+   "lon": 14.09333333
+  },
+  "city-brandenburg-an-der-havel": {
+   "title": "Brandenburg an der Havel",
+   "monthlyViews": 3866,
+   "days": 60,
+   "lat": 52.41666667,
+   "lon": 12.53333333
+  },
+  "city-roubaix": {
+   "title": "Roubaix",
+   "monthlyViews": 3866,
+   "days": 60,
+   "lat": 50.6901,
+   "lon": 3.18167
+  },
+  "city-viterbo": {
+   "title": "Viterbo",
+   "monthlyViews": 3866,
+   "days": 60,
+   "lat": 42.41666667,
+   "lon": 12.1
+  },
+  "city-anzio": {
+   "title": "Anzio",
+   "monthlyViews": 3835,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-dewsbury": {
+   "title": "Dewsbury",
+   "monthlyViews": 3835,
+   "days": 60,
+   "lat": 53.691,
+   "lon": -1.633
+  },
+  "city-torrevieja": {
+   "title": "Torrevieja",
+   "monthlyViews": 3835,
+   "days": 60,
+   "lat": 37.97777778,
+   "lon": -0.68333333
+  },
+  "city-novara": {
+   "title": "Novara",
+   "monthlyViews": 3805,
+   "days": 60,
+   "lat": 45.45,
+   "lon": 8.62
+  },
+  "city-wallasey": {
+   "title": "Wallasey",
+   "monthlyViews": 3775,
+   "days": 60,
+   "lat": 53.42388889,
+   "lon": -3.05305556
+  },
+  "city-asti": {
+   "title": "Asti",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 44.9,
+   "lon": 8.20694444
+  },
+  "city-cosenza": {
+   "title": "Cosenza",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 39.3,
+   "lon": 16.25
+  },
+  "city-friedrichshafen": {
+   "title": "Friedrichshafen",
+   "monthlyViews": 3714,
+   "days": 60,
+   "lat": 47.65,
+   "lon": 9.48333333
+  },
+  "city-viseu": {
+   "title": "Viseu",
+   "monthlyViews": 3714,
+   "days": 60,
+   "lat": 40.66666667,
+   "lon": -7.91666667
+  },
+  "city-wellingborough": {
+   "title": "Wellingborough",
+   "monthlyViews": 3714,
+   "days": 60,
+   "lat": 52.30277778,
+   "lon": -0.69444444
+  },
+  "city-cesena": {
+   "title": "Cesena",
+   "monthlyViews": 3683,
+   "days": 60,
+   "lat": 44.13888889,
+   "lon": 12.24444444
+  },
+  "city-gosport": {
+   "title": "Gosport",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-paignton": {
+   "title": "Paignton",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": 50.43527778,
+   "lon": -3.5625
+  },
+  "city-offenbach-am-main": {
+   "title": "Offenbach am Main",
+   "monthlyViews": 3561,
+   "days": 60,
+   "lat": 50.10466,
+   "lon": 8.76132
+  },
+  "city-valence": {
+   "title": "Valence, Drôme",
+   "monthlyViews": 3561,
+   "days": 60,
+   "lat": 44.9333,
+   "lon": 4.8917
+  },
+  "city-sant-cugat-del-valles": {
+   "title": "Sant Cugat del Vallès",
+   "monthlyViews": 3531,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-amadora": {
+   "title": "Amadora",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 38.73333333,
+   "lon": -9.23333333
+  },
+  "city-ellesmere-port": {
+   "title": "Ellesmere Port",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 53.279,
+   "lon": -2.897
+  },
+  "city-neustadt-an-der-weinstrasse": {
+   "title": "Neustadt an der Weinstraße",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 49.35,
+   "lon": 8.15
+  },
+  "city-montreuil": {
+   "title": "Montreuil, Seine-Saint-Denis",
+   "monthlyViews": 3470,
+   "days": 60,
+   "lat": 48.8611,
+   "lon": 2.4436
+  },
+  "city-barry": {
+   "title": "Barry, Vale of Glamorgan",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 51.405,
+   "lon": -3.27
+  },
+  "city-fuenlabrada": {
+   "title": "Fuenlabrada",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 40.28333333,
+   "lon": -3.8
+  },
+  "city-leganes": {
+   "title": "Leganés",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 40.32805556,
+   "lon": -3.76444444
+  },
+  "city-siegen": {
+   "title": "Siegen",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 50.88333333,
+   "lon": 8.01666667
+  },
+  "city-roquetas-de-mar": {
+   "title": "Roquetas de Mar",
+   "monthlyViews": 3379,
+   "days": 60,
+   "lat": 36.76416667,
+   "lon": -2.61472222
+  },
+  "city-tynemouth": {
+   "title": "Tynemouth",
+   "monthlyViews": 3379,
+   "days": 60,
+   "lat": 55.017,
+   "lon": -1.423
+  },
+  "city-pforzheim": {
+   "title": "Pforzheim",
+   "monthlyViews": 3348,
+   "days": 60,
+   "lat": 48.895,
+   "lon": 8.705
+  },
+  "city-kleve": {
+   "title": "Kleve",
+   "monthlyViews": 3318,
+   "days": 60,
+   "lat": 51.79,
+   "lon": 6.14
+  },
+  "city-ragusa": {
+   "title": "Ragusa, Sicily",
+   "monthlyViews": 3318,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-ravensburg": {
+   "title": "Ravensburg",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 47.78305556,
+   "lon": 9.61138889
+  },
+  "city-rueil-malmaison": {
+   "title": "Rueil-Malmaison",
+   "monthlyViews": 3257,
+   "days": 60,
+   "lat": 48.876,
+   "lon": 2.181
+  },
+  "city-ourense": {
+   "title": "Ourense",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 42.33638889,
+   "lon": -7.86333333
+  },
+  "city-cuneo": {
+   "title": "Cuneo",
+   "monthlyViews": 3196,
+   "days": 60,
+   "lat": 44.38944444,
+   "lon": 7.54777778
+  },
+  "city-torres-vedras": {
+   "title": "Torres Vedras",
+   "monthlyViews": 3196,
+   "days": 60,
+   "lat": 39.08333333,
+   "lon": -9.26666667
+  },
+  "city-grosseto": {
+   "title": "Grosseto",
+   "monthlyViews": 3166,
+   "days": 60,
+   "lat": 42.76666667,
+   "lon": 11.1
+  },
+  "city-marsala": {
+   "title": "Marsala",
+   "monthlyViews": 3166,
+   "days": 60,
+   "lat": 37.79805556,
+   "lon": 12.43416667
+  },
+  "city-san-cristobal-de-la-laguna": {
+   "title": "San Cristóbal de La Laguna",
+   "monthlyViews": 3135,
+   "days": 60,
+   "lat": 28.48527778,
+   "lon": -16.31666667
+  },
+  "city-widnes": {
+   "title": "Widnes",
+   "monthlyViews": 3135,
+   "days": 60,
+   "lat": 53.362,
+   "lon": -2.734
+  },
+  "city-la-linea-de-la-concepcion": {
+   "title": "La Línea de la Concepción",
+   "monthlyViews": 3105,
+   "days": 60,
+   "lat": 36.16805556,
+   "lon": -5.34861111
+  },
+  "city-terni": {
+   "title": "Terni",
+   "monthlyViews": 3105,
+   "days": 59,
+   "lat": 42.56194444,
+   "lon": 12.64138889
+  },
+  "city-almada": {
+   "title": "Almada",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": 38.68027778,
+   "lon": -9.15833333
+  },
+  "city-gutersloh": {
+   "title": "Gütersloh",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": 51.9,
+   "lon": 8.38333333
+  },
+  "city-latina": {
+   "title": "Latina, Lazio",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": 41.46722222,
+   "lon": 12.90361111
+  },
+  "city-schweinfurt": {
+   "title": "Schweinfurt",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": 50.05,
+   "lon": 10.23333333
+  },
+  "city-eastleigh": {
+   "title": "Eastleigh",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 50.966667,
+   "lon": -1.35
+  },
+  "city-heidenheim-an-der-brenz": {
+   "title": "Heidenheim an der Brenz",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 48.67611111,
+   "lon": 10.15444444
+  },
+  "city-leiria": {
+   "title": "Leiria",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 39.75,
+   "lon": -8.8
+  },
+  "city-bad-homburg": {
+   "title": "Bad Homburg",
+   "monthlyViews": 3014,
+   "days": 60,
+   "lat": 50.21666667,
+   "lon": 8.6
+  },
+  "city-lelystad": {
+   "title": "Lelystad",
+   "monthlyViews": 3014,
+   "days": 60,
+   "lat": 52.5,
+   "lon": 5.48333333
+  },
+  "city-meaux": {
+   "title": "Meaux",
+   "monthlyViews": 3014,
+   "days": 60,
+   "lat": 48.9603,
+   "lon": 2.8883
+  },
+  "city-clichy": {
+   "title": "Clichy, Hauts-de-Seine",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 48.9044,
+   "lon": 2.3064
+  },
+  "city-bergisch-gladbach": {
+   "title": "Bergisch Gladbach",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 50.99178,
+   "lon": 7.13026
+  },
+  "city-cherbourg-en-cotentin": {
+   "title": "Cherbourg-en-Cotentin",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 49.639,
+   "lon": -1.625
+  },
+  "city-hinckley": {
+   "title": "Hinckley",
+   "monthlyViews": 2892,
+   "days": 60,
+   "lat": 52.5413,
+   "lon": -1.3725
+  },
+  "city-barletta": {
+   "title": "Barletta",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-caldas-da-rainha": {
+   "title": "Caldas da Rainha",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": 39.40722222,
+   "lon": -9.13583333
+  },
+  "city-hoorn": {
+   "title": "Hoorn",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": 52.65,
+   "lon": 5.06666667
+  },
+  "city-lamezia-terme": {
+   "title": "Lamezia Terme",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": 38.96666667,
+   "lon": 16.3
+  },
+  "city-pistoia": {
+   "title": "Pistoia",
+   "monthlyViews": 2831,
+   "days": 60,
+   "lat": 43.93333333,
+   "lon": 10.91666667
+  },
+  "city-ciudad-real": {
+   "title": "Ciudad Real",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 38.98333333,
+   "lon": -3.91666667
+  },
+  "city-faenza": {
+   "title": "Faenza",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 44.28555556,
+   "lon": 11.88333333
+  },
+  "city-ludwigsburg": {
+   "title": "Ludwigsburg",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 48.8975,
+   "lon": 9.19222222
+  },
+  "city-palencia": {
+   "title": "Palencia",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": 42.01666667,
+   "lon": -4.53333333
+  },
+  "city-wesel": {
+   "title": "Wesel",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": 51.65861111,
+   "lon": 6.61777778
+  },
+  "city-detmold": {
+   "title": "Detmold",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 51.93777778,
+   "lon": 8.88333333
+  },
+  "city-levallois-perret": {
+   "title": "Levallois-Perret",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 48.895,
+   "lon": 2.2872
+  },
+  "city-santarem": {
+   "title": "Santarém, Portugal",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 39.23388889,
+   "lon": -8.68611111
+  },
+  "city-wolfenbuttel": {
+   "title": "Wolfenbüttel",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 52.16222222,
+   "lon": 10.53694444
+  },
+  "city-bergen-op-zoom": {
+   "title": "Bergen op Zoom",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": 51.5,
+   "lon": 4.3
+  },
+  "city-oberhausen": {
+   "title": "Oberhausen",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": 51.49666667,
+   "lon": 6.87055556
+  },
+  "city-heerenveen": {
+   "title": "Heerenveen",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 52.96666667,
+   "lon": 5.91666667
+  },
+  "city-minden": {
+   "title": "Minden",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 52.28833333,
+   "lon": 8.91666667
+  },
+  "city-vila-do-conde": {
+   "title": "Vila do Conde",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 41.35277778,
+   "lon": -8.74444444
+  },
+  "city-la-louviere": {
+   "title": "La Louvière",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 50.46666667,
+   "lon": 4.18333333
+  },
+  "city-matosinhos": {
+   "title": "Matosinhos",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 41.18333333,
+   "lon": -8.7
+  },
+  "city-esslingen-am-neckar": {
+   "title": "Esslingen am Neckar",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 48.73333333,
+   "lon": 9.31666667
+  },
+  "city-frejus": {
+   "title": "Fréjus",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 43.433,
+   "lon": 6.737
+  },
+  "city-issy-les-moulineaux": {
+   "title": "Issy-les-Moulineaux",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 48.8239,
+   "lon": 2.27
+  },
+  "city-mataro": {
+   "title": "Mataró",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 41.53333333,
+   "lon": 2.45
+  },
+  "city-pordenone": {
+   "title": "Pordenone",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 45.95,
+   "lon": 12.65
+  },
+  "city-aviles": {
+   "title": "Avilés",
+   "monthlyViews": 2496,
+   "days": 60,
+   "lat": 43.55611111,
+   "lon": -5.90833333
+  },
+  "city-crosby": {
+   "title": "Crosby, Merseyside",
+   "monthlyViews": 2496,
+   "days": 60,
+   "lat": 53.487,
+   "lon": -3.034
+  },
+  "city-fiumicino": {
+   "title": "Fiumicino",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-mulheim": {
+   "title": "Mülheim",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 51.4275,
+   "lon": 6.8825
+  },
+  "city-neuss": {
+   "title": "Neuss",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 51.2,
+   "lon": 6.7
+  },
+  "city-roermond": {
+   "title": "Roermond",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 51.2,
+   "lon": 5.98333333
+  },
+  "city-cagnes-sur-mer": {
+   "title": "Cagnes-sur-Mer",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 43.6644,
+   "lon": 7.1489
+  },
+  "city-gela": {
+   "title": "Gela",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 37.06666667,
+   "lon": 14.25
+  },
+  "city-la-roche-sur-yon": {
+   "title": "La Roche-sur-Yon",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 46.6705,
+   "lon": -1.426
+  },
+  "city-el-puerto-de-santa-maria": {
+   "title": "El Puerto de Santa María",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 36.60146944,
+   "lon": -6.23814722
+  },
+  "city-figueira-da-foz": {
+   "title": "Figueira da Foz",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 40.15,
+   "lon": -8.85
+  },
+  "city-hyeres": {
+   "title": "Hyères",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 43.1199,
+   "lon": 6.1316
+  },
+  "city-aubervilliers": {
+   "title": "Aubervilliers",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 48.9131,
+   "lon": 2.3831
+  },
+  "city-russelsheim-am-main": {
+   "title": "Rüsselsheim am Main",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 50,
+   "lon": 8.43333333
+  },
+  "city-colombes": {
+   "title": "Colombes",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 48.9236,
+   "lon": 2.2522
+  },
+  "city-gera": {
+   "title": "Gera",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 50.88055556,
+   "lon": 12.08333333
+  },
+  "city-mostoles": {
+   "title": "Móstoles",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 40.33333333,
+   "lon": -3.86666667
+  },
+  "city-courbevoie": {
+   "title": "Courbevoie",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 48.8978,
+   "lon": 2.2531
+  },
+  "city-offenburg": {
+   "title": "Offenburg",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 48.46666667,
+   "lon": 7.93333333
+  },
+  "city-sittingbourne": {
+   "title": "Sittingbourne",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 51.34,
+   "lon": 0.74
+  },
+  "city-vilanova-i-la-geltru": {
+   "title": "Vilanova i la Geltrú",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-barcelos": {
+   "title": "Barcelos, Portugal",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-povoa-de-varzim": {
+   "title": "Póvoa de Varzim",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 41.38,
+   "lon": -8.76083333
+  },
+  "city-seixal": {
+   "title": "Seixal",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 38.65,
+   "lon": -9.1
+  },
+  "city-wetzlar": {
+   "title": "Wetzlar",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 50.56666667,
+   "lon": 8.5
+  },
+  "city-duren": {
+   "title": "Düren",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 50.8,
+   "lon": 6.48333333
+  },
+  "city-giessen": {
+   "title": "Giessen",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 50.58333333,
+   "lon": 8.66666667
+  },
+  "city-manresa": {
+   "title": "Manresa",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 41.72944444,
+   "lon": 1.82722222
+  },
+  "city-massa": {
+   "title": "Massa, Tuscany",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 44.03333333,
+   "lon": 10.13333333
+  },
+  "city-saint-ouen-sur-seine": {
+   "title": "Saint-Ouen-sur-Seine",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 48.91233,
+   "lon": 2.33425
+  },
+  "city-villingen-schwenningen": {
+   "title": "Villingen-Schwenningen",
+   "monthlyViews": 2161,
+   "days": 60,
+   "lat": 48.06027778,
+   "lon": 8.45861111
+  },
+  "city-castelldefels": {
+   "title": "Castelldefels",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 41.286,
+   "lon": 1.982
+  },
+  "city-neubrandenburg": {
+   "title": "Neubrandenburg",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 53.55694444,
+   "lon": 13.26111111
+  },
+  "city-altamura": {
+   "title": "Altamura",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-amarante": {
+   "title": "Amarante, Portugal",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 41.27027778,
+   "lon": -8.08083333
+  },
+  "city-loule": {
+   "title": "Loulé",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 37.15,
+   "lon": -8
+  },
+  "city-lorrach": {
+   "title": "Lörrach",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 47.61666667,
+   "lon": 7.66666667
+  },
+  "city-reutlingen": {
+   "title": "Reutlingen",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 48.48333333,
+   "lon": 9.21666667
+  },
+  "city-talavera-de-la-reina": {
+   "title": "Talavera de la Reina",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 39.95833333,
+   "lon": -4.83277778
+  },
+  "city-torrejon-de-ardoz": {
+   "title": "Torrejón de Ardoz",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 40.46138889,
+   "lon": -3.49777778
+  },
+  "city-afragola": {
+   "title": "Afragola",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 40.91666667,
+   "lon": 14.31666667
+  },
+  "city-cannock": {
+   "title": "Cannock",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 52.691,
+   "lon": -2.027
+  },
+  "city-torre-del-greco": {
+   "title": "Torre del Greco",
+   "monthlyViews": 2070,
+   "days": 59,
+   "lat": 40.78333333,
+   "lon": 14.36666667
+  },
+  "city-assen": {
+   "title": "Assen",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 52.9953,
+   "lon": 6.5606
+  },
+  "city-creteil": {
+   "title": "Créteil",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 48.7911,
+   "lon": 2.4628
+  },
+  "city-maia": {
+   "title": "Maia, Portugal",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 41.23333333,
+   "lon": -8.61666667
+  },
+  "city-niort": {
+   "title": "Niort",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 46.3258,
+   "lon": -0.4606
+  },
+  "city-argenteuil": {
+   "title": "Argenteuil",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 48.9478,
+   "lon": 2.2489
+  },
+  "city-oss": {
+   "title": "Oss",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 51.76666667,
+   "lon": 5.51666667
+  },
+  "city-aalen": {
+   "title": "Aalen",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 48.83333333,
+   "lon": 10.1
+  },
+  "city-den-helder": {
+   "title": "Den Helder",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 52.93333333,
+   "lon": 4.75
+  },
+  "city-getxo": {
+   "title": "Getxo",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 43.34416667,
+   "lon": -3.00638889
+  },
+  "city-herford": {
+   "title": "Herford",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 52.13333333,
+   "lon": 8.68333333
+  },
+  "city-newtownabbey": {
+   "title": "Newtownabbey",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 54.67333333,
+   "lon": -5.91361111
+  },
+  "city-recklinghausen": {
+   "title": "Recklinghausen",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 51.585,
+   "lon": 7.16194444
+  },
+  "city-sindelfingen": {
+   "title": "Sindelfingen",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 48.71333333,
+   "lon": 9.00277778
+  },
+  "city-trani": {
+   "title": "Trani",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 41.26666667,
+   "lon": 16.41666667
+  },
+  "city-caltanissetta": {
+   "title": "Caltanissetta",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 37.49027778,
+   "lon": 14.0625
+  },
+  "city-ivry-sur-seine": {
+   "title": "Ivry-sur-Seine",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 48.8078,
+   "lon": 2.3747
+  },
+  "city-salzgitter": {
+   "title": "Salzgitter",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 52.15,
+   "lon": 10.33333333
+  },
+  "city-granollers": {
+   "title": "Granollers",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 41.608,
+   "lon": 2.288
+  },
+  "city-orihuela": {
+   "title": "Orihuela",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 38.08555556,
+   "lon": -0.94694444
+  },
+  "city-sarcelles": {
+   "title": "Sarcelles",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 48.9956,
+   "lon": 2.3808
+  },
+  "city-vila-nova-de-famalicao": {
+   "title": "Vila Nova de Famalicão",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 41.4,
+   "lon": -8.51666667
+  },
+  "city-woerden": {
+   "title": "Woerden",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 52.08333333,
+   "lon": 4.88333333
+  },
+  "city-castrop-rauxel": {
+   "title": "Castrop-Rauxel",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 51.55,
+   "lon": 7.31666667
+  },
+  "city-cornella-de-llobregat": {
+   "title": "Cornellà de Llobregat",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 41.355,
+   "lon": 2.07111111
+  },
+  "city-mazara-del-vallo": {
+   "title": "Mazara del Vallo",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 37.65,
+   "lon": 12.58333333
+  },
+  "city-schiedam": {
+   "title": "Schiedam",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 51.91666667,
+   "lon": 4.4
+  },
+  "city-vic": {
+   "title": "Vic, Spain",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 41.93027778,
+   "lon": 2.25472222
+  },
+  "city-bitonto": {
+   "title": "Bitonto",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-gandia": {
+   "title": "Gandia",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 38.96666667,
+   "lon": -0.18333333
+  },
+  "city-tourcoing": {
+   "title": "Tourcoing",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 50.723907,
+   "lon": 3.161168
+  },
+  "city-waiblingen": {
+   "title": "Waiblingen",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 48.83027778,
+   "lon": 9.31694444
+  },
+  "city-zoetermeer": {
+   "title": "Zoetermeer",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 52.06666667,
+   "lon": 4.5
+  },
+  "city-clamart": {
+   "title": "Clamart",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 48.8014,
+   "lon": 2.2628
+  },
+  "city-dos-hermanas": {
+   "title": "Dos Hermanas",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 37.28361111,
+   "lon": -5.92222222
+  },
+  "city-goppingen": {
+   "title": "Göppingen",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 48.7025,
+   "lon": 9.65277778
+  },
+  "city-schwabisch-gmund": {
+   "title": "Schwäbisch Gmünd",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 48.8,
+   "lon": 9.8
+  },
+  "city-batley": {
+   "title": "Batley",
+   "monthlyViews": 1705,
+   "days": 59,
+   "lat": 53.71666667,
+   "lon": -1.63555556
+  },
+  "city-beeston": {
+   "title": "Beeston, Nottinghamshire",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 52.927,
+   "lon": -1.215
+  },
+  "city-plauen": {
+   "title": "Plauen",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 50.48333333,
+   "lon": 12.11666667
+  },
+  "city-almelo": {
+   "title": "Almelo",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 52.35,
+   "lon": 6.66666667
+  },
+  "city-barakaldo": {
+   "title": "Barakaldo",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 43.29722222,
+   "lon": -2.99166667
+  },
+  "city-foligno": {
+   "title": "Foligno",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 42.955761,
+   "lon": 12.703281
+  },
+  "city-heerlen": {
+   "title": "Heerlen",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 50.88333333,
+   "lon": 5.98333333
+  },
+  "city-hengelo": {
+   "title": "Hengelo",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 52.26527778,
+   "lon": 6.79305556
+  },
+  "city-hurth": {
+   "title": "Hürth",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 50.8775,
+   "lon": 6.87611111
+  },
+  "city-lorca": {
+   "title": "Lorca, Spain",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 37.6798,
+   "lon": -1.6944
+  },
+  "city-neuwied": {
+   "title": "Neuwied",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 50.42861111,
+   "lon": 7.46138889
+  },
+  "city-teramo": {
+   "title": "Teramo",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-alphen-aan-den-rijn": {
+   "title": "Alphen aan den Rijn",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 52.13333333,
+   "lon": 4.66666667
+  },
+  "city-busto-arsizio": {
+   "title": "Busto Arsizio",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 45.61194444,
+   "lon": 8.85
+  },
+  "city-castelo-branco": {
+   "title": "Castelo Branco, Portugal",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 39.81666667,
+   "lon": -7.5
+  },
+  "city-craigavon": {
+   "title": "Craigavon",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 54.447222,
+   "lon": -6.388333
+  },
+  "city-emmen": {
+   "title": "Emmen, Netherlands",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 52.78333333,
+   "lon": 6.9
+  },
+  "city-purmerend": {
+   "title": "Purmerend",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 52.5,
+   "lon": 4.95
+  },
+  "city-verviers": {
+   "title": "Verviers",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 50.58333333,
+   "lon": 5.85
+  },
+  "city-iserlohn": {
+   "title": "Iserlohn",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 51.38333333,
+   "lon": 7.66666667
+  },
+  "city-saint-maur-des-fosses": {
+   "title": "Saint-Maur-des-Fossés",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 48.7994,
+   "lon": 2.4997
+  },
+  "city-vila-real": {
+   "title": "Vila Real",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 41.29583333,
+   "lon": -7.74611111
+  },
+  "city-aulnay-sous-bois": {
+   "title": "Aulnay-sous-Bois",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 48.9386,
+   "lon": 2.4906
+  },
+  "city-boblingen": {
+   "title": "Böblingen",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 48.68555556,
+   "lon": 9.01527778
+  },
+  "city-lippstadt": {
+   "title": "Lippstadt",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 51.66666667,
+   "lon": 8.35
+  },
+  "city-neumunster": {
+   "title": "Neumünster",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 54.07138889,
+   "lon": 9.99
+  },
+  "city-villejuif": {
+   "title": "Villejuif",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 48.7919,
+   "lon": 2.3636
+  },
+  "city-villeneuve-d-ascq": {
+   "title": "Villeneuve-d'Ascq",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 50.6233,
+   "lon": 3.145
+  },
+  "city-bottrop": {
+   "title": "Bottrop",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 51.52472222,
+   "lon": 6.92277778
+  },
+  "city-ede": {
+   "title": "Ede, Netherlands",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 52.05,
+   "lon": 5.66666667
+  },
+  "city-neu-ulm": {
+   "title": "Neu-Ulm",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 48.38333333,
+   "lon": 10
+  },
+  "city-massy": {
+   "title": "Massy, Essonne",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 48.7309,
+   "lon": 2.2713
+  },
+  "city-molfetta": {
+   "title": "Molfetta",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-asnieres-sur-seine": {
+   "title": "Asnières-sur-Seine",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 48.9108,
+   "lon": 2.2889
+  },
+  "city-rastatt": {
+   "title": "Rastatt",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 48.85,
+   "lon": 8.2
+  },
+  "city-terneuzen": {
+   "title": "Terneuzen",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 51.33333333,
+   "lon": 3.83333333
+  },
+  "city-barreiro": {
+   "title": "Barreiro, Portugal",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 38.66666667,
+   "lon": -9.06666667
+  },
+  "city-bebington": {
+   "title": "Bebington",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 53.35,
+   "lon": -3.00416667
+  },
+  "city-vigevano": {
+   "title": "Vigevano",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 45.31722222,
+   "lon": 8.85805556
+  },
+  "city-vlaardingen": {
+   "title": "Vlaardingen",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 51.9,
+   "lon": 4.35
+  },
+  "city-andria": {
+   "title": "Andria",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 41.21666667,
+   "lon": 16.3
+  },
+  "city-antony": {
+   "title": "Antony, Hauts-de-Seine",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 48.7539,
+   "lon": 2.2975
+  },
+  "city-arnsberg": {
+   "title": "Arnsberg",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 51.38333333,
+   "lon": 8.08333333
+  },
+  "city-cholet": {
+   "title": "Cholet",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 47.06,
+   "lon": -0.8783
+  },
+  "city-helmond": {
+   "title": "Helmond",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 51.48333333,
+   "lon": 5.65
+  },
+  "city-legnano": {
+   "title": "Legnano",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 45.57805556,
+   "lon": 8.91833333
+  },
+  "city-pulheim": {
+   "title": "Pulheim",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 51,
+   "lon": 6.8
+  },
+  "city-ratingen": {
+   "title": "Ratingen",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 51.3,
+   "lon": 6.85
+  },
+  "city-santa-maria-da-feira": {
+   "title": "Santa Maria da Feira",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 40.93333333,
+   "lon": -8.53333333
+  },
+  "city-carpi": {
+   "title": "Carpi, Emilia-Romagna",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 44.78333333,
+   "lon": 10.88333333
+  },
+  "city-covilha": {
+   "title": "Covilhã",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 40.28333333,
+   "lon": -7.5
+  },
+  "city-doetinchem": {
+   "title": "Doetinchem",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 51.96666667,
+   "lon": 6.3
+  },
+  "city-houten": {
+   "title": "Houten",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 52.03333333,
+   "lon": 5.16666667
+  },
+  "city-remscheid": {
+   "title": "Remscheid",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 51.18333333,
+   "lon": 7.2
+  },
+  "city-bad-oeynhausen": {
+   "title": "Bad Oeynhausen",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 52.2,
+   "lon": 8.8
+  },
+  "city-moers": {
+   "title": "Moers",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 51.45916667,
+   "lon": 6.61972222
+  },
+  "city-rijswijk": {
+   "title": "Rijswijk",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 52.03333333,
+   "lon": 4.31666667
+  },
+  "city-spijkenisse": {
+   "title": "Spijkenisse",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 51.85,
+   "lon": 4.33333333
+  },
+  "city-vila-franca-de-xira": {
+   "title": "Vila Franca de Xira",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 38.95,
+   "lon": -8.98333333
+  },
+  "city-dessau-rosslau": {
+   "title": "Dessau-Roßlau",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 51.83333333,
+   "lon": 12.25
+  },
+  "city-mouscron": {
+   "title": "Mouscron",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 50.73333333,
+   "lon": 3.21666667
+  },
+  "city-seraing": {
+   "title": "Seraing",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 50.58333333,
+   "lon": 5.5
+  },
+  "city-sesto-san-giovanni": {
+   "title": "Sesto San Giovanni",
+   "monthlyViews": 1187,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "city-acireale": {
+   "title": "Acireale",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 37.61666667,
+   "lon": 15.16666667
+  },
+  "city-bobigny": {
+   "title": "Bobigny",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 48.9106,
+   "lon": 2.4397
+  },
+  "city-bocholt": {
+   "title": "Bocholt, Germany",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 51.83333333,
+   "lon": 6.61666667
+  },
+  "city-chiclana-de-la-frontera": {
+   "title": "Chiclana de la Frontera",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 36.41666667,
+   "lon": -6.15
+  },
+  "city-harderwijk": {
+   "title": "Harderwijk",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 52.35,
+   "lon": 5.61666667
+  },
+  "city-lahr": {
+   "title": "Lahr",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 48.33333333,
+   "lon": 7.86666667
+  },
+  "city-ludenscheid": {
+   "title": "Lüdenscheid",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 51.21666667,
+   "lon": 7.63333333
+  },
+  "city-rowley-regis": {
+   "title": "Rowley Regis",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 52.488,
+   "lon": -2.05
+  },
+  "city-san-sebastian-de-los-reyes": {
+   "title": "San Sebastián de los Reyes",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 40.54694444,
+   "lon": -3.62583333
+  },
+  "city-torrelavega": {
+   "title": "Torrelavega",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 43.3506,
+   "lon": -4.0492
+  },
+  "city-viersen": {
+   "title": "Viersen",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 51.25611111,
+   "lon": 6.39722222
+  },
+  "city-willenhall": {
+   "title": "Willenhall",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 52.5798,
+   "lon": -2.06046
+  },
+  "city-katwijk": {
+   "title": "Katwijk",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 52.2,
+   "lon": 4.41666667
+  },
+  "city-roosendaal": {
+   "title": "Roosendaal",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 51.53333333,
+   "lon": 4.45
+  },
+  "city-utrera": {
+   "title": "Utrera",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 37.183,
+   "lon": -5.767
+  },
+  "city-cergy": {
+   "title": "Cergy",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 49.0361,
+   "lon": 2.0631
+  },
+  "city-drancy": {
+   "title": "Drancy",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 48.93,
+   "lon": 2.45
+  },
+  "city-noisy-le-grand": {
+   "title": "Noisy-le-Grand",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 48.8478,
+   "lon": 2.5528
+  },
+  "city-penafiel": {
+   "title": "Penafiel",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 41.2,
+   "lon": -8.28333333
+  },
+  "city-rheine": {
+   "title": "Rheine",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 52.28333333,
+   "lon": 7.43333333
+  },
+  "city-vitry-sur-seine": {
+   "title": "Vitry-sur-Seine",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 48.7875,
+   "lon": 2.3928
+  },
+  "city-corbeil-essonnes": {
+   "title": "Corbeil-Essonnes",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 48.6139,
+   "lon": 2.482
+  },
+  "city-elmshorn": {
+   "title": "Elmshorn",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 53.75194444,
+   "lon": 9.65111111
+  },
+  "city-velletri": {
+   "title": "Velletri",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 41.68666667,
+   "lon": 12.7775
+  },
+  "city-cerignola": {
+   "title": "Cerignola",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 41.26666667,
+   "lon": 15.9
+  },
+  "city-herne": {
+   "title": "Herne, North Rhine-Westphalia",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 51.55,
+   "lon": 7.21666667
+  },
+  "city-la-seyne-sur-mer": {
+   "title": "La Seyne-sur-Mer",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 43.1,
+   "lon": 5.883
+  },
+  "city-lunen": {
+   "title": "Lünen",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 51.61666667,
+   "lon": 7.51666667
+  },
+  "city-euskirchen": {
+   "title": "Euskirchen",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 50.65972222,
+   "lon": 6.79166667
+  },
+  "city-lingen": {
+   "title": "Lingen, Germany",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 52.52305556,
+   "lon": 7.32305556
+  },
+  "city-nordhorn": {
+   "title": "Nordhorn",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 52.43194444,
+   "lon": 7.06777778
+  },
+  "city-manfredonia": {
+   "title": "Manfredonia",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 41.63333333,
+   "lon": 15.91666667
+  },
+  "city-montesilvano": {
+   "title": "Montesilvano",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 42.51416667,
+   "lon": 14.14944444
+  },
+  "city-delmenhorst": {
+   "title": "Delmenhorst",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 53.05055556,
+   "lon": 8.63166667
+  },
+  "city-gronau": {
+   "title": "Gronau, North Rhine-Westphalia",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 52.2125,
+   "lon": 7.04166667
+  },
+  "city-unna": {
+   "title": "Unna",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 51.53472222,
+   "lon": 7.68888889
+  },
+  "city-veenendaal": {
+   "title": "Veenendaal",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 52.01666667,
+   "lon": 5.55
+  },
+  "city-witten": {
+   "title": "Witten",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 51.43333333,
+   "lon": 7.33333333
+  },
+  "city-bisceglie": {
+   "title": "Bisceglie",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-giugliano-in-campania": {
+   "title": "Giugliano in Campania",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 40.93333333,
+   "lon": 14.2
+  },
+  "city-gondomar": {
+   "title": "Gondomar, Portugal",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 41.15,
+   "lon": -8.53333333
+  },
+  "city-moncalieri": {
+   "title": "Moncalieri",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 45,
+   "lon": 7.68333333
+  },
+  "city-nieuwegein": {
+   "title": "Nieuwegein",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 52.03333333,
+   "lon": 5.08333333
+  },
+  "city-santa-coloma-de-gramenet": {
+   "title": "Santa Coloma de Gramenet",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 41.454,
+   "lon": 2.211
+  },
+  "city-evry-courcouronnes": {
+   "title": "Évry-Courcouronnes",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 48.62388889,
+   "lon": 2.42944444
+  },
+  "city-capelle-aan-den-ijssel": {
+   "title": "Capelle aan den IJssel",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 51.93333333,
+   "lon": 4.58333333
+  },
+  "city-champigny-sur-marne": {
+   "title": "Champigny-sur-Marne",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 48.8172,
+   "lon": 2.5156
+  },
+  "city-sevran": {
+   "title": "Sevran",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 48.9333,
+   "lon": 2.5333
+  },
+  "city-troisdorf": {
+   "title": "Troisdorf",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 50.81611111,
+   "lon": 7.15555556
+  },
+  "city-zaanstad": {
+   "title": "Zaanstad",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 52.43333333,
+   "lon": 4.81666667
+  },
+  "city-alcorcon": {
+   "title": "Alcorcón",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 40.35,
+   "lon": -3.83333333
+  },
+  "city-bloxwich": {
+   "title": "Bloxwich",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 52.614,
+   "lon": -2.004
+  },
+  "city-gladbeck": {
+   "title": "Gladbeck",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 51.56666667,
+   "lon": 6.96666667
+  },
+  "city-le-blanc-mesnil": {
+   "title": "Le Blanc-Mesnil",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 48.938725,
+   "lon": 2.461383
+  },
+  "city-eschweiler": {
+   "title": "Eschweiler",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 50.81666667,
+   "lon": 6.28333333
+  },
+  "city-pantin": {
+   "title": "Pantin",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 48.8966,
+   "lon": 2.4017
+  },
+  "city-sankt-augustin": {
+   "title": "Sankt Augustin",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 50.77,
+   "lon": 7.18666667
+  },
+  "city-stolberg": {
+   "title": "Stolberg (Rhineland)",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 50.76666667,
+   "lon": 6.23333333
+  },
+  "city-viladecans": {
+   "title": "Viladecans",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 41.31583333,
+   "lon": 2.01972222
+  },
+  "city-vittoria": {
+   "title": "Vittoria, Sicily",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 36.95,
+   "lon": 14.53333333
+  },
+  "city-aprilia": {
+   "title": "Aprilia, Lazio",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 41.58333333,
+   "lon": 12.65
+  },
+  "city-gallarate": {
+   "title": "Gallarate",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-gennevilliers": {
+   "title": "Gennevilliers",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 48.9256,
+   "lon": 2.2944
+  },
+  "city-guidonia-montecelio": {
+   "title": "Guidonia Montecelio",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-hilden": {
+   "title": "Hilden",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 51.17138889,
+   "lon": 6.93944444
+  },
+  "city-hoogeveen": {
+   "title": "Hoogeveen",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 52.73333333,
+   "lon": 6.48333333
+  },
+  "city-maisons-alfort": {
+   "title": "Maisons-Alfort",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 48.8058,
+   "lon": 2.4378
+  },
+  "city-dorsten": {
+   "title": "Dorsten",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 51.66,
+   "lon": 6.96416667
+  },
+  "city-fontenay-sous-bois": {
+   "title": "Fontenay-sous-Bois",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 48.8517,
+   "lon": 2.4772
+  },
+  "city-mollet-del-valles": {
+   "title": "Mollet del Vallès",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-norderstedt": {
+   "title": "Norderstedt",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 53.70638889,
+   "lon": 10.01027778
+  },
+  "city-pacos-de-ferreira": {
+   "title": "Paços de Ferreira",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 41.26666667,
+   "lon": -8.4
+  },
+  "city-pessac": {
+   "title": "Pessac",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 44.8067,
+   "lon": -0.6311
+  },
+  "city-pomezia": {
+   "title": "Pomezia",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-rho": {
+   "title": "Rho, Lombardy",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 45.53111111,
+   "lon": 9.04055556
+  },
+  "city-velbert": {
+   "title": "Velbert",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 51.33333333,
+   "lon": 7.05
+  },
+  "city-gummersbach": {
+   "title": "Gummersbach",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 51.03333333,
+   "lon": 7.56666667
+  },
+  "city-loures": {
+   "title": "Loures",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 38.83333333,
+   "lon": -9.16666667
+  },
+  "city-bad-salzuflen": {
+   "title": "Bad Salzuflen",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 52.08333333,
+   "lon": 8.74666667
+  },
+  "city-bergheim": {
+   "title": "Bergheim, North Rhine-Westphalia",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 50.96666667,
+   "lon": 6.65
+  },
+  "city-dinslaken": {
+   "title": "Dinslaken",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 51.56666667,
+   "lon": 6.73333333
+  },
+  "city-odivelas": {
+   "title": "Odivelas",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 38.79027778,
+   "lon": -9.17972222
+  },
+  "city-peine": {
+   "title": "Peine",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 52.32027778,
+   "lon": 10.23361111
+  },
+  "city-pombal": {
+   "title": "Pombal, Portugal",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 39.91611111,
+   "lon": -8.62805556
+  },
+  "city-santo-tirso": {
+   "title": "Santo Tirso",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 41.33333333,
+   "lon": -8.46666667
+  },
+  "city-torrent": {
+   "title": "Torrent, Valencia",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 39.43888889,
+   "lon": -0.46555556
+  },
+  "city-garbsen": {
+   "title": "Garbsen",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 52.41833333,
+   "lon": 9.59805556
+  },
+  "city-heerhugowaard": {
+   "title": "Heerhugowaard",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 52.66666667,
+   "lon": 4.83333333
+  },
+  "city-kerpen": {
+   "title": "Kerpen",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 50.87194444,
+   "lon": 6.69611111
+  },
+  "city-sant-boi-de-llobregat": {
+   "title": "Sant Boi de Llobregat",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 41.336,
+   "lon": 2.043
+  },
+  "city-weert": {
+   "title": "Weert",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 51.25,
+   "lon": 5.7
+  },
+  "city-ahlen": {
+   "title": "Ahlen",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 51.76333333,
+   "lon": 7.89111111
+  },
+  "city-hattingen": {
+   "title": "Hattingen",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 51.39916667,
+   "lon": 7.18583333
+  },
+  "city-langenhagen": {
+   "title": "Langenhagen",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 52.43944444,
+   "lon": 9.74
+  },
+  "city-marco-de-canaveses": {
+   "title": "Marco de Canaveses",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 41.18333333,
+   "lon": -8.15
+  },
+  "city-portici": {
+   "title": "Portici",
+   "monthlyViews": 609,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "city-alcala-de-guadaira": {
+   "title": "Alcalá de Guadaíra",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-herten": {
+   "title": "Herten",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 51.6,
+   "lon": 7.13333333
+  },
+  "city-ibbenburen": {
+   "title": "Ibbenbüren",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 52.27777778,
+   "lon": 7.71666667
+  },
+  "city-marl": {
+   "title": "Marl, North Rhine-Westphalia",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 51.66666667,
+   "lon": 7.11666667
+  },
+  "city-meerbusch": {
+   "title": "Meerbusch",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 51.26666667,
+   "lon": 6.66666667
+  },
+  "city-montijo": {
+   "title": "Montijo, Portugal",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 38.68333333,
+   "lon": -8.9
+  },
+  "city-oosterhout": {
+   "title": "Oosterhout",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 51.63333333,
+   "lon": 4.86666667
+  },
+  "city-ovar": {
+   "title": "Ovar",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 40.86666667,
+   "lon": -8.63333333
+  },
+  "city-queluz": {
+   "title": "Queluz, Portugal",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 38.75138889,
+   "lon": -9.26638889
+  },
+  "city-oliveira-de-azemeis": {
+   "title": "Oliveira de Azeméis",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 40.83333333,
+   "lon": -8.48333333
+  },
+  "city-acerra": {
+   "title": "Acerra",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 40.95,
+   "lon": 14.36666667
+  },
+  "city-coslada": {
+   "title": "Coslada",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 40.42611111,
+   "lon": -3.565
+  },
+  "city-paredes": {
+   "title": "Paredes, Portugal",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 41.20638889,
+   "lon": -8.33333333
+  },
+  "city-quartu-sant-elena": {
+   "title": "Quartu Sant'Elena",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-arona": {
+   "title": "Arona, Tenerife",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 28.1,
+   "lon": -16.66666667
+  },
+  "city-dormagen": {
+   "title": "Dormagen",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 51.1,
+   "lon": 6.81666667
+  },
+  "city-grevenbroich": {
+   "title": "Grevenbroich",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 51.08833333,
+   "lon": 6.5875
+  },
+  "city-hamm": {
+   "title": "Hamm, Westphalia",
+   "monthlyViews": 487,
+   "days": 58,
+   "lat": 51.68138889,
+   "lon": 7.81916667
+  },
+  "city-parla": {
+   "title": "Parla",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-telde": {
+   "title": "Telde",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-venissieux": {
+   "title": "Vénissieux",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 45.6978,
+   "lon": 4.8867
+  },
+  "city-epinay-sur-seine": {
+   "title": "Épinay-sur-Seine",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 48.9553,
+   "lon": 2.3092
+  },
+  "city-fafe": {
+   "title": "Fafe",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 41.45,
+   "lon": -8.16666667
+  },
+  "city-menden": {
+   "title": "Menden",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 51.43333333,
+   "lon": 7.8
+  },
+  "city-frechen": {
+   "title": "Frechen",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 50.91666667,
+   "lon": 6.81666667
+  },
+  "city-merignac": {
+   "title": "Mérignac, Gironde",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 44.8386,
+   "lon": -0.6436
+  },
+  "city-rivas-vaciamadrid": {
+   "title": "Rivas-Vaciamadrid",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-vaulx-en-velin": {
+   "title": "Vaulx-en-Velin",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 45.7768,
+   "lon": 4.9186
+  },
+  "city-chelles": {
+   "title": "Chelles, Seine-et-Marne",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 48.8833,
+   "lon": 2.6
+  },
+  "city-cinisello-balsamo": {
+   "title": "Cinisello Balsamo",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-felgueiras": {
+   "title": "Felgueiras",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 41.36666667,
+   "lon": -8.2
+  },
+  "city-sartrouville": {
+   "title": "Sartrouville",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 48.9372,
+   "lon": 2.1644
+  },
+  "city-agualva-cacem": {
+   "title": "Agualva-Cacém",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 38.76777778,
+   "lon": -9.29944444
+  },
+  "city-rubi": {
+   "title": "Rubí, Spain",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-valongo": {
+   "title": "Valongo",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 41.18333333,
+   "lon": -8.5
+  },
+  "city-corigliano-rossano": {
+   "title": "Corigliano-Rossano",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 39.56666667,
+   "lon": 16.63333333
+  },
+  "city-saint-herblain": {
+   "title": "Saint-Herblain",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 47.2122,
+   "lon": -1.6497
+  },
+  "city-casoria": {
+   "title": "Casoria",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-marano-di-napoli": {
+   "title": "Marano di Napoli",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-santa-lucia-de-tirajana": {
+   "title": "Santa Lucía de Tirajana",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 27.91222222,
+   "lon": -15.54083333
+  },
+  "city-valdemoro": {
+   "title": "Valdemoro",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-kempten": {
+   "title": "Kempten",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 47.73333333,
+   "lon": 10.31666667
+  },
+  "city-mijas": {
+   "title": "Mijas",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 36.6,
+   "lon": -4.63333333
+  },
+  "city-el-ejido": {
+   "title": "El Ejido",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 36.78305556,
+   "lon": -2.81666667
+  },
+  "city-las-rozas-de-madrid": {
+   "title": "Las Rozas de Madrid",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 40.49166667,
+   "lon": -3.87333333
+  },
+  "city-pozuelo-de-alarcon": {
+   "title": "Pozuelo de Alarcón",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 40.43611111,
+   "lon": -3.81388889
+  },
+  "city-velez-malaga": {
+   "title": "Vélez-Málaga",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 36.78333333,
+   "lon": -4.1
+  },
+  "city-hereford": {
+   "title": "Hereford",
+   "monthlyViews": 14063,
+   "days": 60,
+   "lat": 52.056,
+   "lon": -2.716
+  },
+  "city-maidstone": {
+   "title": "Maidstone",
+   "monthlyViews": 7366,
+   "days": 60,
+   "lat": 51.272,
+   "lon": 0.529
+  },
+  "city-aylesbury": {
+   "title": "Aylesbury",
+   "monthlyViews": 7701,
+   "days": 60,
+   "lat": 51.8168,
+   "lon": -0.8124
+  },
+  "city-stafford": {
+   "title": "Stafford",
+   "monthlyViews": 6149,
+   "days": 60,
+   "lat": 52.807,
+   "lon": -2.117
+  },
+  "city-shrewsbury": {
+   "title": "Shrewsbury",
+   "monthlyViews": 14429,
+   "days": 60,
+   "lat": 52.708,
+   "lon": -2.754
+  },
+  "city-langenfeld": {
+   "title": "Langenfeld, Rhineland",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 51.11666667,
+   "lon": 6.95
+  },
+  "city-solna": {
+   "title": "Solna",
+   "monthlyViews": 7032,
+   "days": 60,
+   "lat": 59.35,
+   "lon": 18
+  },
+  "city-tonsberg": {
+   "title": "Tønsberg",
+   "monthlyViews": 5631,
+   "days": 60,
+   "lat": 59.26753,
+   "lon": 10.40763
+  },
+  "city-fredrikstad": {
+   "title": "Fredrikstad",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 59.20527778,
+   "lon": 10.95
+  },
+  "city-sodertalje": {
+   "title": "Södertälje",
+   "monthlyViews": 3379,
+   "days": 60,
+   "lat": 59.19583333,
+   "lon": 17.62805556
+  },
+  "city-karlstad": {
+   "title": "Karlstad",
+   "monthlyViews": 3348,
+   "days": 60,
+   "lat": 59.37833333,
+   "lon": 13.50416667
+  },
+  "city-herning": {
+   "title": "Herning",
+   "monthlyViews": 3257,
+   "days": 60,
+   "lat": 56.13333333,
+   "lon": 8.98333333
+  },
+  "city-vaxjo": {
+   "title": "Växjö",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 56.87694444,
+   "lon": 14.80916667
+  },
+  "city-boras": {
+   "title": "Borås",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 57.72111111,
+   "lon": 12.94027778
+  },
+  "city-hameenlinna": {
+   "title": "Hämeenlinna",
+   "monthlyViews": 2831,
+   "days": 60,
+   "lat": 60.99444444,
+   "lon": 24.46666667
+  },
+  "city-baerum": {
+   "title": "Bærum",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 59.93833333,
+   "lon": 10.50666667
+  },
+  "city-moss": {
+   "title": "Moss, Norway",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 59.45916667,
+   "lon": 10.70083333
+  },
+  "city-silkeborg": {
+   "title": "Silkeborg",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 56.18333333,
+   "lon": 9.55166667
+  },
+  "city-sarpsborg": {
+   "title": "Sarpsborg",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 59.28583333,
+   "lon": 11.11194444
+  },
+  "city-lillestrom": {
+   "title": "Lillestrøm",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 59.95,
+   "lon": 11.08333333
+  },
+  "city-seinajoki": {
+   "title": "Seinäjoki",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 62.79166667,
+   "lon": 22.84166667
+  },
+  "city-sandefjord": {
+   "title": "Sandefjord",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 59.13055556,
+   "lon": 10.21666667
+  },
+  "city-sandnes": {
+   "title": "Sandnes",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 58.85166667,
+   "lon": 5.73611111
+  },
+  "city-skien": {
+   "title": "Skien (town)",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 59.20961,
+   "lon": 9.60901
+  },
+  "city-kouvola": {
+   "title": "Kouvola",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 60.86805556,
+   "lon": 26.70416667
+  },
+  "city-mikkeli": {
+   "title": "Mikkeli",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 61.689,
+   "lon": 27.272
+  },
+  "city-norrkoping": {
+   "title": "Norrköping",
+   "monthlyViews": 4292,
+   "days": 60,
+   "lat": 58.6,
+   "lon": 16.2
+  },
+  "city-halmstad": {
+   "title": "Halmstad",
+   "monthlyViews": 3470,
+   "days": 60,
+   "lat": 56.67388889,
+   "lon": 12.85722222
+  },
+  "city-horsens": {
+   "title": "Horsens",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 55.85833333,
+   "lon": 9.85
+  },
+  "city-eskilstuna": {
+   "title": "Eskilstuna",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 59.37083333,
+   "lon": 16.50972222
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",

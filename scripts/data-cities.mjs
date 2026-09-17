@@ -3247,4 +3247,623 @@ Bel Air South|United States|57648
 East Los Angeles|United States|118786
 Silver Spring|United States|81015
 Hempstead|United States|59169
+Las Palmas|Spain|381868|Las Palmas de Gran Canaria
+Clacton-on-Sea|United Kingdom|50548|Clacton
+Blackpool|United Kingdom|139305
+Chester|United Kingdom|87507
+Matera|Italy|59685
+Southend-on-Sea|United Kingdom|160257|Southend
+Dunkirk|France|86263|Dunkerque
+Slough|United Kingdom|119070
+Croydon|United Kingdom|192064
+Carlisle|United Kingdom|75399
+Metz|France|122572
+Watford|United Kingdom|90301
+Swindon|United Kingdom|222193
+Hastings|United Kingdom|91053
+Cheltenham|United Kingdom|116447
+Doncaster|United Kingdom|109805
+Neuilly-sur-Seine|France|59538|Neuilly
+Calais|France|67571
+Barrow-in-Furness|United Kingdom|55489
+Brighton and Hove|United Kingdom|277965
+Gloucester|United Kingdom|145563
+St Albans|United Kingdom|82146
+Bolton|United Kingdom|285372
+Crawley|United Kingdom|106597
+Guildford|United Kingdom|77057
+Braunschweig|Germany|252811|Brunswick
+Weston-super-Mare|United Kingdom|76143
+Stevenage|United Kingdom|89663
+Paisley|United Kingdom|77220
+Warrington|United Kingdom|165456
+Blackburn|United Kingdom|117963
+Salford|United Kingdom|103886
+Bromley|United Kingdom|87889
+Scarborough|United Kingdom|61749
+East Kilbride|United Kingdom|75120
+Stourbridge|United Kingdom|63298
+Lecce|Italy|94783
+Solihull|United Kingdom|206674
+Stockport|United Kingdom|294773
+Wigan|United Kingdom|103608
+Woking|United Kingdom|62796
+Burnley|United Kingdom|82002
+Gelsenkirchen|Germany|266199
+Santa Cruz de Tenerife|Spain|211957
+Worms|Germany|86921
+High Wycombe|United Kingdom|120256
+Dunfermline|United Kingdom|53100
+Grimsby|United Kingdom|88243
+Saint-Denis|France|149077|St Denis
+Welwyn Garden City|United Kingdom|51505|Welwyn
+Harrogate|United Kingdom|73576
+Darmstadt|Germany|168253
+Birkenhead|United Kingdom|109848
+Oldham|United Kingdom|96555
+Bedford|United Kingdom|92407
+Ancona|Italy|98356
+Brindisi|Italy|82694
+Southport|United Kingdom|91703
+Chelmsford|United Kingdom|115369
+Darlington|United Kingdom|93015
+Wolfsburg|Germany|129813
+Huddersfield|United Kingdom|162949
+Leamington Spa|United Kingdom|50699|Leamington
+Hemel Hempstead|United Kingdom|94932
+Burton upon Trent|United Kingdom|75074|Burton
+Monchengladbach|Germany|267176
+West Bromwich|United Kingdom|146386
+Kaiserslautern|Germany|100247
+La Spezia|Italy|92119
+Wakefield|United Kingdom|99251
+Terrassa|Spain|233270
+Pau|France|80441
+Rotherham|United Kingdom|109691
+Eastbourne|United Kingdom|101547
+Jena|Germany|109353
+Royal Tunbridge Wells|United Kingdom|57772|Tunbridge Wells
+South Shields|United Kingdom|75337
+Walsall|United Kingdom|67594
+Barnsley|United Kingdom|245199
+Pavia|Italy|70636
+Sanremo|Italy|52787|San Remo
+Beziers|France|81545
+Osnabruck|Germany|166257
+Alcobendas|Spain|123342
+Foggia|Italy|145348
+Harlow|United Kingdom|82059
+Merthyr Tydfil|United Kingdom|58839
+Basingstoke|United Kingdom|107355
+Telford|United Kingdom|142723
+Narbonne|France|57587
+Hartlepool|United Kingdom|87995
+Ingolstadt|Germany|140799
+Redditch|United Kingdom|81919
+Flensburg|Germany|95568
+Gateshead|United Kingdom|196151
+Scunthorpe|United Kingdom|79977
+Bayreuth|Germany|72919
+Rugby|United Kingdom|70627
+Poole|United Kingdom|144800
+Banbury|United Kingdom|54340
+Macclesfield|United Kingdom|52508
+Worthing|United Kingdom|109120
+Algeciras|Spain|126589
+Aldershot|United Kingdom|57211
+Dudley|United Kingdom|79379
+St Helens|United Kingdom|183248
+Castellammare di Stabia|Italy|62772|Castellammare
+Chesterfield|United Kingdom|76402
+Sutton Coldfield|United Kingdom|96475
+Stockton-on-Tees|United Kingdom|82729
+Arezzo|Italy|96260
+Maidenhead|United Kingdom|63580
+Tamworth|United Kingdom|73924
+Bondy|France|50595
+Bury|United Kingdom|78729
+Dartford|United Kingdom|51240
+Crewe|United Kingdom|55315
+Pescara|Italy|118657
+Leverkusen|Germany|168299
+Estepona|Spain|79621
+Halesowen|United Kingdom|60097
+Boulogne-Billancourt|France|119019|Boulogne
+Rochdale|United Kingdom|110194
+Piacenza|Italy|102465
+Harrow|United Kingdom|149246
+Bremerhaven|Germany|118502
+Schwerin|Germany|97922
+Lorient|France|58329
+Carrara|Italy|59905
+Gorlitz|Germany|55065
+Castellon de la Plana|Spain|183711|Castellon
+Basildon|United Kingdom|185900
+Benevento|Italy|56201
+Gravesend|United Kingdom|74000
+Avellino|Italy|52198
+Oldenburg|Germany|177055
+Sutton|United Kingdom|58880
+Heilbronn|Germany|132516
+L'Aquila|Italy|70344|Aquila
+Kirkcaldy|United Kingdom|50010
+L'Hospitalet de Llobregat|Spain|289510|Hospitalet
+Ludwigshafen|Germany|177355
+Luneburg|Germany|74502
+Loughborough|United Kingdom|64880
+Amstelveen|Netherlands|94435
+Paderborn|Germany|155906
+Fulda|Germany|65755
+Hanau|Germany|98582
+Horsham|United Kingdom|50934
+Chatham|United Kingdom|76792
+Nuneaton|United Kingdom|86552
+Catanzaro|Italy|84670
+Civitavecchia|Italy|51653
+Benalmadena|Spain|78338
+Albacete|Spain|175400
+Hounslow|United Kingdom|103337
+Bagheria|Italy|52928
+Solingen|Germany|164621
+Corby|United Kingdom|62341
+Prato|Italy|195736
+Greifswald|Germany|56154
+Saint-Nazaire|France|74568|St Nazaire
+Stralsund|Germany|55481
+Andover|United Kingdom|50999
+Uxbridge|United Kingdom|70560
+Cottbus|Germany|95140
+Tivoli|Italy|54916
+Bootle|United Kingdom|51394
+Marburg|Germany|73571
+Altrincham|United Kingdom|52419
+Newcastle-under-Lyme|United Kingdom|75082
+Crotone|Italy|58445
+Ashford|United Kingdom|83213
+Erlangen|Germany|116450
+Farnborough|United Kingdom|65034
+Alessandria|Italy|91059
+Keighley|United Kingdom|57339
+Villeurbanne|France|163684
+Alcala de Henares|Spain|203208
+Hamelin|Germany|58152|Hameln
+Sassari|Italy|121021
+Lugo|Spain|100143
+Wilhelmshaven|Germany|75324
+Kidderminster|United Kingdom|57409
+Sabadell|Spain|225368
+Trapani|Italy|55559
+Aschaffenburg|Germany|73326
+Rosenheim|Germany|65808
+Reus|Spain|111601
+Walton-on-Thames|United Kingdom|66566|Walton
+Badalona|Spain|231542
+Caserta|Italy|72805
+Zwickau|Germany|86405
+Krefeld|Germany|230738
+Pontevedra|Spain|83316
+Imola|Italy|69121
+Landshut|Germany|71922
+Bourges|France|64186
+Ferrol|Spain|64367
+Bracknell|United Kingdom|60077
+Deventer|Netherlands|101236
+Furth|Germany|131344
+Quimper|France|64385
+Portimao|Portugal|59845
+Beauvais|France|55550
+Getafe|Spain|193238
+Olbia|Italy|61048
+Gillingham|United Kingdom|108483
+Forli|Italy|118152
+Potenza|Italy|64406
+Hildesheim|Germany|98207
+Pesaro|Italy|95376
+Cumbernauld|United Kingdom|50920
+Vannes|France|55790
+Jaen|Spain|112235
+Varese|Italy|78409
+Viareggio|Italy|60579
+Runcorn|United Kingdom|61789
+Celle|Germany|66930
+Fuengirola|Spain|85211
+Pozzuoli|Italy|76331
+Brandenburg an der Havel|Germany|73945|Brandenburg
+Roubaix|France|98286
+Viterbo|Italy|65949
+Anzio|Italy|58949
+Dewsbury|United Kingdom|62945
+Torrevieja|Spain|98533
+Novara|Italy|101257
+Wallasey|United Kingdom|60284
+Asti|Italy|73421
+Cosenza|Italy|63760
+Friedrichshafen|Germany|62781
+Viseu|Portugal|99274
+Wellingborough|United Kingdom|54733
+Cesena|Italy|95778
+Gosport|United Kingdom|71529
+Paignton|United Kingdom|64410
+Offenbach am Main|Germany|133195|Offenbach
+Valence|France|64458
+Sant Cugat del Valles|Spain|97983|Sant Cugat
+Amadora|Portugal|171454
+Ellesmere Port|United Kingdom|61090
+Neustadt an der Weinstrasse|Germany|52882|Neustadt
+Montreuil|France|111934
+Barry|United Kingdom|53369
+Fuenlabrada|Spain|190076
+Leganes|Spain|195734
+Siegen|Germany|102450
+Roquetas de Mar|Spain|111240|Roquetas
+Tynemouth|United Kingdom|68202
+Pforzheim|Germany|134422
+Kleve|Germany|53094
+Ragusa|Italy|73159
+Ravensburg|Germany|50549
+Rueil-Malmaison|France|82874
+Ourense|Spain|105769
+Cuneo|Italy|55744
+Torres Vedras|Portugal|79465
+Grosseto|Italy|81321
+Marsala|Italy|79809
+San Cristobal de La Laguna|Spain|161108|La Laguna
+Widnes|United Kingdom|61464
+La Linea de la Concepcion|Spain|64499|La Linea
+Terni|Italy|106370
+Almada|Portugal|177238
+Gutersloh|Germany|99854
+Latina|Italy|127564
+Schweinfurt|Germany|54539
+Eastleigh|United Kingdom|78716
+Heidenheim an der Brenz|Germany|50612|Heidenheim
+Leiria|Portugal|126897
+Bad Homburg|Germany|56938
+Lelystad|Netherlands|83033
+Meaux|France|56905
+Clichy|France|64410
+Bergisch Gladbach|Germany|111174
+Cherbourg-en-Cotentin|France|78258|Cherbourg
+Hinckley|United Kingdom|50712
+Barletta|Italy|92427
+Caldas da Rainha|Portugal|51729|Caldas
+Hoorn|Netherlands|73619
+Lamezia Terme|Italy|67026|Lamezia
+Pistoia|Italy|88990
+Ciudad Real|Spain|76217
+Faenza|Italy|58710
+Ludwigsburg|Germany|93002
+Palencia|Spain|77466
+Wesel|Germany|60717
+Detmold|Germany|74438
+Levallois-Perret|France|68092
+Santarem|Portugal|62200
+Wolfenbuttel|Germany|52511
+Bergen op Zoom|Netherlands|66445
+Oberhausen|Germany|213178
+Heerenveen|Netherlands|50650
+Minden|Germany|83598
+Vila do Conde|Portugal|79533
+La Louviere|Belgium|80986
+Matosinhos|Portugal|172557
+Esslingen am Neckar|Germany|95419|Esslingen
+Frejus|France|59719
+Issy-les-Moulineaux|France|67669
+Mataro|Spain|131683
+Pordenone|Italy|51725
+Aviles|Spain|75517
+Crosby|United Kingdom|51789
+Fiumicino|Italy|81426
+Mulheim|Germany|171674
+Neuss|Germany|153767
+Roermond|Netherlands|57308
+Cagnes-sur-Mer|France|53354
+Gela|Italy|70109
+La Roche-sur-Yon|France|54849
+El Puerto de Santa Maria|Spain|89983|Puerto de Santa Maria
+Figueira da Foz|Portugal|62125|Figueira
+Hyeres|France|55858
+Aubervilliers|France|88365
+Russelsheim am Main|Germany|66028|Russelsheim
+Colombes|France|91053
+Gera|Germany|95162
+Mostoles|Spain|214817
+Courbevoie|France|82902
+Offenburg|Germany|63437
+Sittingbourne|United Kingdom|54392
+Vilanova i la Geltru|Spain|71641|Vilanova
+Barcelos|Portugal|116752
+Povoa de Varzim|Portugal|63408
+Seixal|Portugal|166507
+Wetzlar|Germany|54865
+Duren|Germany|94539
+Giessen|Germany|88544
+Manresa|Spain|80974
+Massa|Italy|66160
+Saint-Ouen-sur-Seine|France|53615|Saint-Ouen
+Villingen-Schwenningen|Germany|89766|Villingen
+Castelldefels|Spain|70057
+Neubrandenburg|Germany|59494
+Altamura|Italy|69880
+Amarante|Portugal|56264
+Loule|Portugal|70622
+Lorrach|Germany|51274
+Reutlingen|Germany|119040
+Talavera de la Reina|Spain|83803|Talavera
+Torrejon de Ardoz|Spain|143526|Torrejon
+Afragola|Italy|61712
+Cannock|United Kingdom|67768
+Torre del Greco|Italy|78997
+Assen|Netherlands|68836
+Creteil|France|93397
+Maia|Portugal|134977
+Niort|France|59854
+Argenteuil|France|106130
+Oss|Netherlands|92526
+Aalen|Germany|67675
+Den Helder|Netherlands|56582
+Getxo|Spain|75752
+Herford|Germany|67074
+Newtownabbey|United Kingdom|67599
+Recklinghausen|Germany|114851
+Sindelfingen|Germany|61428
+Trani|Italy|54941
+Caltanissetta|Italy|58532
+Ivry-sur-Seine|France|65064
+Salzgitter|Germany|104433
+Granollers|Spain|65341
+Orihuela|Spain|84560
+Sarcelles|France|59173
+Vila Nova de Famalicao|Portugal|133534|Famalicao
+Woerden|Netherlands|52694
+Castrop-Rauxel|Germany|72353
+Cornella de Llobregat|Spain|92237|Cornella
+Mazara del Vallo|Italy|50039|Mazara
+Schiedam|Netherlands|79279
+Vic|Spain|50796
+Bitonto|Italy|53168
+Gandia|Spain|83135
+Tourcoing|France|98772
+Waiblingen|Germany|57186
+Zoetermeer|Netherlands|125267
+Clamart|France|58576
+Dos Hermanas|Spain|142519
+Goppingen|Germany|58678
+Schwabisch Gmund|Germany|63930
+Batley|United Kingdom|80485
+Beeston|United Kingdom|52000
+Plauen|Germany|64893
+Almelo|Netherlands|73132
+Barakaldo|Spain|102986
+Foligno|Italy|55226
+Heerlen|Netherlands|86936
+Hengelo|Netherlands|81049
+Hurth|Germany|61732
+Lorca|Spain|98969
+Neuwied|Germany|67201
+Teramo|Italy|51548
+Alphen aan den Rijn|Netherlands|114182
+Busto Arsizio|Italy|82951
+Castelo Branco|Portugal|56109
+Craigavon|United Kingdom|57685
+Emmen|Netherlands|107024
+Purmerend|Netherlands|81515
+Verviers|Belgium|55198
+Iserlohn|Germany|91317
+Saint-Maur-des-Fosses|France|76572|Saint-Maur
+Vila Real|Portugal|51850
+Aulnay-sous-Bois|France|87599
+Boblingen|Germany|51204
+Lippstadt|Germany|68383
+Neumunster|Germany|80145
+Villejuif|France|60183
+Villeneuve-d'Ascq|France|62868
+Bottrop|Germany|118482
+Ede|Netherlands|118530
+Neu-Ulm|Germany|62843
+Massy|France|51729
+Molfetta|Italy|57329
+Asnieres-sur-Seine|France|93941
+Rastatt|Germany|50753
+Terneuzen|Netherlands|54463
+Barreiro|Portugal|78764
+Bebington|United Kingdom|57336
+Vigevano|Italy|62076
+Vlaardingen|Netherlands|73924
+Andria|Italy|97146
+Antony|France|64263
+Arnsberg|Germany|74479
+Cholet|France|54404
+Helmond|Netherlands|92627
+Legnano|Italy|59941
+Pulheim|Germany|55979
+Ratingen|Germany|88914
+Santa Maria da Feira|Portugal|136674|Feira
+Carpi|Italy|71869
+Covilha|Portugal|51797
+Doetinchem|Netherlands|58270
+Houten|Netherlands|50223
+Remscheid|Germany|113333
+Bad Oeynhausen|Germany|50515
+Moers|Germany|101298
+Rijswijk|Netherlands|55220
+Spijkenisse|Netherlands|72740
+Vila Franca de Xira|Portugal|137529|Vila Franca
+Dessau-Rosslau|Germany|75035|Dessau
+Mouscron|Belgium|58234
+Seraing|Belgium|64270
+Sesto San Giovanni|Italy|78884
+Acireale|Italy|50399
+Bobigny|France|56927
+Bocholt|Germany|73048
+Chiclana de la Frontera|Spain|90864|Chiclana
+Harderwijk|Netherlands|50000
+Lahr|Germany|51208
+Ludenscheid|Germany|70810
+Rowley Regis|United Kingdom|50257
+San Sebastian de los Reyes|Spain|96992
+Torrelavega|Spain|51796
+Viersen|Germany|78227
+Willenhall|United Kingdom|51429
+Katwijk|Netherlands|66607
+Roosendaal|Netherlands|76959
+Utrera|Spain|52403
+Cergy|France|70906
+Drancy|France|72390
+Noisy-le-Grand|France|72978
+Penafiel|Portugal|72265
+Rheine|Germany|77209
+Vitry-sur-Seine|France|93963
+Corbeil-Essonnes|France|54471
+Elmshorn|Germany|51375
+Velletri|Italy|52528
+Cerignola|Italy|56978
+Herne|Germany|156266
+La Seyne-sur-Mer|France|63732
+Lunen|Germany|85844
+Euskirchen|Germany|59977
+Lingen|Germany|56539
+Nordhorn|Germany|57372
+Manfredonia|Italy|53902
+Montesilvano|Italy|53275
+Delmenhorst|Germany|81274
+Gronau|Germany|50349
+Unna|Germany|57961
+Veenendaal|Netherlands|66912
+Witten|Germany|91474
+Bisceglie|Italy|53534
+Giugliano in Campania|Italy|123679|Giugliano
+Gondomar|Portugal|164257
+Moncalieri|Italy|56117
+Nieuwegein|Netherlands|63866
+Santa Coloma de Gramenet|Spain|123981|Santa Coloma
+Evry-Courcouronnes|France|66919|Evry
+Capelle aan den IJssel|Netherlands|67319
+Champigny-sur-Marne|France|78072
+Sevran|France|52535
+Troisdorf|Germany|75742
+Zaanstad|Netherlands|156901
+Alcorcon|Spain|175719
+Bloxwich|United Kingdom|51879
+Gladbeck|Germany|75647
+Le Blanc-Mesnil|France|62376
+Eschweiler|Germany|57573
+Pantin|France|61929
+Sankt Augustin|Germany|56033
+Stolberg|Germany|57678
+Viladecans|Spain|67587
+Vittoria|Italy|63316
+Aprilia|Italy|74126
+Gallarate|Italy|52811
+Gennevilliers|France|50979
+Guidonia Montecelio|Italy|89114|Guidonia
+Hilden|Germany|54859
+Hoogeveen|Netherlands|55603
+Maisons-Alfort|France|56799
+Dorsten|Germany|74783
+Fontenay-sous-Bois|France|53757
+Mollet del Valles|Spain|52990|Mollet
+Norderstedt|Germany|83196
+Pacos de Ferreira|Portugal|56340
+Pessac|France|67339
+Pomezia|Italy|64119
+Rho|Italy|50299
+Velbert|Germany|82166
+Gummersbach|Germany|51332
+Loures|Portugal|201590
+Bad Salzuflen|Germany|53807
+Bergheim|Germany|61976
+Dinslaken|Germany|66869
+Odivelas|Portugal|148034
+Peine|Germany|51005
+Pombal|Portugal|55217
+Santo Tirso|Portugal|71530
+Torrent|Spain|90928
+Garbsen|Germany|60007
+Heerhugowaard|Netherlands|58387
+Kerpen|Germany|66377
+Sant Boi de Llobregat|Spain|85610|Sant Boi
+Weert|Netherlands|50011
+Ahlen|Germany|52387
+Hattingen|Germany|52969
+Langenhagen|Germany|54059
+Marco de Canaveses|Portugal|53450
+Portici|Italy|52054
+Alcala de Guadaira|Spain|77474
+Herten|Germany|60707
+Ibbenburen|Germany|51596
+Marl|Germany|86899
+Meerbusch|Germany|56947
+Montijo|Portugal|51222
+Oosterhout|Netherlands|56206
+Ovar|Portugal|55398
+Queluz|Portugal|78273
+Oliveira de Azemeis|Portugal|68611
+Acerra|Italy|58322
+Coslada|Spain|80512
+Paredes|Portugal|86854
+Quartu Sant'Elena|Italy|68585|Quartu
+Arona|Spain|87793
+Dormagen|Germany|63619
+Grevenbroich|Germany|65605
+Hamm|Germany|179108
+Parla|Spain|137471
+Telde|Spain|104168
+Venissieux|France|65502
+Epinay-sur-Seine|France|52833
+Fafe|Portugal|50633
+Menden|Germany|52121
+Frechen|Germany|51927
+Merignac|France|78090
+Rivas-Vaciamadrid|Spain|103148|Rivas
+Vaulx-en-Velin|France|53069
+Chelles|France|54620
+Cinisello Balsamo|Italy|74528
+Felgueiras|Portugal|58065
+Sartrouville|France|52763
+Agualva-Cacem|Portugal|81020
+Rubi|Spain|82823
+Valongo|Portugal|101464
+Corigliano-Rossano|Italy|74066|Rossano
+Saint-Herblain|France|50973|St Herblain
+Casoria|Italy|74021
+Marano di Napoli|Italy|57777
+Santa Lucia de Tirajana|Spain|78584|Santa Lucia
+Valdemoro|Spain|85972
+Kempten|Germany|67916
+Mijas|Spain|95104
+El Ejido|Spain|91440
+Las Rozas de Madrid|Spain|99037|Las Rozas
+Pozuelo de Alarcon|Spain|89770|Pozuelo
+Velez-Malaga|Spain|86048
+Hereford|United Kingdom|53113
+Maidstone|United Kingdom|109490
+Aylesbury|United Kingdom|63273
+Stafford|United Kingdom|70592
+Shrewsbury|United Kingdom|76802
+Langenfeld|Germany|59821
+Solna|Sweden|86573
+Tonsberg|Norway|56533
+Fredrikstad|Norway|86243
+Sodertalje|Sweden|78377
+Karlstad|Sweden|69615
+Herning|Denmark|51312
+Vaxjo|Sweden|74052
+Boras|Sweden|75565
+Hameenlinna|Finland|68614
+Baerum|Norway|133228
+Moss|Norway|53207
+Silkeborg|Denmark|50866
+Sarpsborg|Norway|60614
+Lillestrom|Norway|96771
+Seinajoki|Finland|67283
+Sandefjord|Norway|67062
+Sandnes|Norway|85785
+Skien|Norway|50607
+Kouvola|Finland|78824
+Mikkeli|Finland|51551
+Norrkoping|Sweden|98229
+Halmstad|Sweden|72979
+Horsens|Denmark|64418
+Eskilstuna|Sweden|70646
 `;
