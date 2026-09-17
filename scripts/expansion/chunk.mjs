@@ -26,6 +26,9 @@ const MIN_VIEWS = Number(arg('min-views', 0));
 const INCLUDE_TAKEN = process.argv.includes('--include-taken');
 const ALLOW_NO_FIGURE = process.argv.includes('--allow-no-figure');
 const COUNTRY = arg('country', 'United States');
+// A multi-country cities probe names each row's country from the list page it
+// came from: probes/<name>.json `listCountry: { "List of cities in Germany by population": "Germany", ... }`
+// (the probe records `lists` per item); --country is the fallback.
 
 const probe = JSON.parse(await readFile(src, 'utf8'));
 const name = src.replace(/\\/g, '/').split('/').pop().replace(/\.json$/, '');
@@ -67,7 +70,8 @@ for (const r of wanted.sort((a, b) => (b.views || 0) - (a.views || 0))) {
   else if (s && s.how.startsWith('article')) usedArticle++;
   const n = bankName(r.finalTitle);
   const sizeText = unsized ? '0' : cfg.sizeUnit === 'km2' ? String(Math.round(size * 100) / 100) : String(Math.round(size));
-  const cols = cfg.category === 'city' ? [n, COUNTRY, sizeText, '', r.finalTitle, THEMES] : [n, sizeText, '', r.finalTitle, THEMES];
+  const country = (cfg.listCountry && (r.lists || []).map((l) => cfg.listCountry[l]).find(Boolean)) || COUNTRY;
+  const cols = cfg.category === 'city' ? [n, country, sizeText, '', r.finalTitle, THEMES] : [n, sizeText, '', r.finalTitle, THEMES];
   rows.push(cols.join('|'));
 }
 const out = `${S}/new-${BLOCK}-${TAG}.txt`;

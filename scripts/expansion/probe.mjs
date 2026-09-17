@@ -93,6 +93,7 @@ if (cfg.roots && cfg.roots.length) console.log(`category tree: ${seenCats.size} 
 
 // ---- 2. list pages ----------------------------------------------------------
 const listPages = new Set();
+const listsOf = new Map(); // title -> the list pages that link it (chunk.mjs maps a list to a country for cities)
 for (const page of cfg.lists || []) {
   const data = await getJSON(API + '?' + new URLSearchParams({ action: 'parse', page, prop: 'links', format: 'json', formatversion: '2' }));
   if (!data.parse) { console.log(`list page "${page}": ${JSON.stringify(data.error || data).slice(0, 80)}`); continue; }
@@ -101,6 +102,8 @@ for (const page of cfg.lists || []) {
     if (l.ns !== 0 || l.exists === false) continue;
     if (SKIP_TITLE && SKIP_TITLE.test(l.title)) continue;
     listPages.add(l.title);
+    if (!listsOf.has(l.title)) listsOf.set(l.title, new Set());
+    listsOf.get(l.title).add(page);
     n++;
   }
   console.log(`list page "${page}": ${n} links`);
@@ -140,6 +143,7 @@ for (const r of info.values()) {
   const rec = byFinal.get(r.finalTitle);
   if (catPages.has(r.title)) rec.sources.add('category');
   if (listPages.has(r.title)) rec.sources.add('list');
+  for (const page of listsOf.get(r.title) || []) (rec.lists = rec.lists || new Set()).add(page);
 }
 const items = [...byFinal.values()].filter(isKind);
 const skipped = [...byFinal.values()].filter((r) => !isKind(r));
@@ -355,4 +359,4 @@ if (belowFloor.length) {
 }
 console.log(`\n==== SKIPPED (${skipped.length}) ====`);
 for (const r of skipped) console.log(`  ${r.finalTitle.padEnd(40)} ${r.missing ? 'MISSING' : r.disambig ? 'DISAMBIG' : r.description}`);
-await writeFile(`${S}/${cfg.name}.json`, JSON.stringify({ items: items.map((r) => ({ ...r, sources: [...r.sources] })), skipped }, null, 1));
+await writeFile(`${S}/${cfg.name}.json`, JSON.stringify({ items: items.map((r) => ({ ...r, sources: [...r.sources], lists: r.lists ? [...r.lists] : undefined })), skipped }, null, 1));
