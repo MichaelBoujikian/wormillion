@@ -1177,6 +1177,18 @@ Lake of Menteith|2.52
 Dozmary Pool|0.15
 Hanningfield Reservoir|3.52
 Lough Hyne|0.6
+Geiseltalsee|18.4
+Laacher See|3.31
+Walchensee|16.4
+Muggelsee|7.4|Mueggelsee
+Mohne Reservoir|10.67|Moehne Reservoir,Mohnesee,Moehnesee
+Bachalpsee|0.08
+Mummelsee|0.04
+Lake Toplitz|0.54
+Gruner See|0.07|Gruener See
+Seealpsee|0.14
+Plauer See|38.4
+Lake Kummerow|32.55
 `;
 
 export const RIVERS = `

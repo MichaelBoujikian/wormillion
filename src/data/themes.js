@@ -1373,7 +1373,9 @@ globalThis.WORMILLION_THEMES = {
       'Lake Fedaia', "Lac d'Aiguebelette", 'Lake Serre-Poncon', 'Lac de Sainte-Croix',
       'Lake Cerknica', 'Lake Jasna',
       // 2026-09-14 expansion
-      'Lake Iseo'
+      'Lake Iseo',
+      // 2026-09-14 expansion
+      'Walchensee', 'Bachalpsee', 'Lake Toplitz', 'Gruner See', 'Seealpsee'
     ],
     'the British Isles': ['Loch Ness', 'Loch Lomond', 'Lake Windermere', 'Bala Lake', 'Lough Neagh',
       // 2026-09-14 expansion

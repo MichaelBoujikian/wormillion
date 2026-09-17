@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T07:13:40.195Z",
+ "fetched": "2026-09-17T07:20:08.833Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -33526,6 +33526,90 @@
    "days": 60,
    "lat": 51.50277778,
    "lon": -9.30277778
+  },
+  "lake-geiseltalsee": {
+   "title": "Geiseltalsee",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 51.308,
+   "lon": 11.8854
+  },
+  "lake-laacher-see": {
+   "title": "Laacher See",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 50.4125,
+   "lon": 7.27
+  },
+  "lake-walchensee": {
+   "title": "Walchensee",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 47.59388889,
+   "lon": 11.34611111
+  },
+  "lake-muggelsee": {
+   "title": "Müggelsee",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 52.43333333,
+   "lon": 13.65
+  },
+  "lake-mohne-reservoir": {
+   "title": "Möhne Reservoir",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 51.48333333,
+   "lon": 8.07166667
+  },
+  "lake-bachalpsee": {
+   "title": "Bachalpsee",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 46.66944444,
+   "lon": 8.02333333
+  },
+  "lake-mummelsee": {
+   "title": "Mummelsee",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 48.59805556,
+   "lon": 8.20083333
+  },
+  "lake-lake-toplitz": {
+   "title": "Lake Toplitz",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 47.64166667,
+   "lon": 13.92777778
+  },
+  "lake-gruner-see": {
+   "title": "Grüner See (Styria)",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-seealpsee": {
+   "title": "Seealpsee",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 47.26888889,
+   "lon": 9.4
+  },
+  "lake-plauer-see": {
+   "title": "Plauer See (Mecklenburg-Vorpommern)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 53.46583333,
+   "lon": 12.3075
+  },
+  "lake-lake-kummerow": {
+   "title": "Lake Kummerow",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 53.80833333,
+   "lon": 12.85944444
   },
   "river-nile": {
    "title": "Nile",

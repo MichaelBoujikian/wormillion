@@ -5878,7 +5878,13 @@ export const WIKI_TITLES = {
   "lake-derwent-reservoir": "Derwent Reservoir (Derbyshire)",
 
   // --- river (2026-09-14 expansion) ---
-  "river-ne": "Né (river)"
+  "river-ne": "Né (river)",
+
+  // --- lake (2026-09-14 expansion) ---
+  "lake-muggelsee": "Müggelsee",
+  "lake-mohne-reservoir": "Möhne Reservoir",
+  "lake-gruner-see": "Grüner See (Styria)",
+  "lake-plauer-see": "Plauer See (Mecklenburg-Vorpommern)"
 };
 
 /**
