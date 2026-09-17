@@ -63,7 +63,9 @@ const EXPECTED = {
     'Pendle Hill', 'The Storr', 'Hill of Tara', 'Croaghaun', 'Great Sugar Loaf', 'Slievenamon', 'Nephin', 'Cavehill', 'Ben Lui', 'Sgurr Dearg', 'Cnicht', 'Mickle Fell', 'Creag Meagaidh', 'Aonach Beag', 'Ben Cleuch', 'Slemish',
     // the 2026-09-17 Alps / Germany / Austria / Switzerland mountains scouring
     'Aiguille du Dru', 'Grosser Mythen', 'Piz Boe', 'Puy de Sancy', 'Piz Buin', 'Signalkuppe', 'Mont Maudit', 'Dammastock', 'Hochschwab', 'Nordend', 'Beerenberg', 'Roque de los Muchachos',
-    'Mont Agel', 'Grand Ballon', 'Cime de la Bonette', 'Saleve', 'Mont Cenis', 'Puy Mary', 'Mont Aigoual', 'Maladeta', 'Carlit', 'Pic de Neouvielle'],
+    'Mont Agel', 'Grand Ballon', 'Cime de la Bonette', 'Saleve', 'Mont Cenis', 'Puy Mary', 'Mont Aigoual', 'Maladeta', 'Carlit', 'Pic de Neouvielle',
+    // the 2026-09-17 Italy / Spain / Portugal mountains scouring
+    'Rock of Gibraltar', 'Phlegraean Fields', 'Vatican Hill', 'Cumbre Vieja', 'Puig Major', 'Pico do Areeiro', 'Mount Somma', 'Mount Pellegrino', 'Aspromonte', 'Gennargentu', 'Alcazaba', 'Latemar'],
   desert: ['Sahara', 'Gobi', 'Mojave', 'Atacama', 'Kalahari', 'Namib', 'Sonoran', 'Thar Desert', 'Arabian Desert', 'Antarctic Desert',
     // the 2026-09-15 expansion
     'Death Valley', 'White Sands', 'Skeleton Coast', 'Rann of Kutch', 'Karoo'],

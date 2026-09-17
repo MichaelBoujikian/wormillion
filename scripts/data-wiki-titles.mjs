@@ -6007,7 +6007,26 @@ export const WIKI_TITLES = {
   "mountain-aiguille-du-grepon": "Aiguille du Grépon",
   "mountain-grand-colombier": "Grand Colombier (Ain)",
   "mountain-mont-d-or": "Mont d'Or (Jura Mountains)",
-  "mountain-tete-de-l-estrop": "Tête de l'Estrop"
+  "mountain-tete-de-l-estrop": "Tête de l'Estrop",
+
+  // --- mountain (2026-09-14 expansion) ---
+  "mountain-aitana": "Aitana (mountain)",
+  "mountain-el-toro": "El Toro (Menorca)",
+  "mountain-aiguilles-d-entreves": "Aiguilles d'Entrèves",
+  "mountain-montana-de-tindaya": "Montaña de Tindaya",
+  "mountain-serra-do-marao": "Serra do Marão",
+  "mountain-teneguia": "Teneguía",
+  "mountain-montana-blanca": "Montaña Blanca",
+  "mountain-alcazaba": "Alcazaba (Sierra Nevada)",
+  "mountain-monte-agner": "Monte Agnèr",
+  "mountain-roccamonfina": "Roccamonfina (volcano)",
+  "mountain-aiguilles-marbrees": "Aiguilles Marbrées",
+  "mountain-monte-cornacchia": "Monte Cornacchia (Daunian Mountains)",
+  "mountain-pena-de-francia": "Peña de Francia",
+  "mountain-radomir": "Radomir (mountain)",
+  "mountain-el-turbon": "El Turbón",
+  "mountain-jof-fuart": "Jôf Fuart",
+  "mountain-turo-de-l-home": "Turó de l'Home"
 };
 
 /**

@@ -913,7 +913,13 @@ globalThis.WORMILLION_THEMES = {
       'Cime de Caron', "Mont d'Arbois", 'Monte Saccarello', 'Pic de Morgon', 'Punta Marguareis',
       "Tete de l'Estrop",
       // add-theme.mjs
-      'Saleve', 'Le Brevent', 'Mont Thabor', 'Pic Gaspard', 'Dent du Chat'
+      'Saleve', 'Le Brevent', 'Mont Thabor', 'Pic Gaspard', 'Dent du Chat',
+      // 2026-09-14 expansion
+      'Grauspitz', 'Mottarone', "Aiguilles d'Entreves", 'Plose', 'Latemar',
+      'Monte Legnone', 'Peitlerkofel', 'Seekofel', 'Averau', 'Monte Agner',
+      'Aiguilles Marbrees', "Cima d'Asta", 'Jof Fuart', 'Presolana',
+      // range-tag.mjs from the infobox range field
+      'Monte Pisanino'
     ],
     'the Himalayas': [
       'Mount Everest', 'Kangchenjunga', 'Lhotse', 'Makalu', 'Cho Oyu',
@@ -1175,7 +1181,11 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-14 expansion
       'Beerenberg', 'Puy de Sancy',
       // 2026-09-14 expansion
-      'Puy Mary', 'Plomb du Cantal', 'Mont Gerbier de Jonc', 'Puy Pariou', 'Mont Mezenc'
+      'Puy Mary', 'Plomb du Cantal', 'Mont Gerbier de Jonc', 'Puy Pariou', 'Mont Mezenc',
+      // 2026-09-14 expansion
+      'Phlegraean Fields', 'Cumbre Vieja', 'Mount Somma', 'Monte Vulture', 'Tajogaite',
+      'Pico Viejo', 'Teneguia', 'Montana Blanca', 'Monte Corona', 'Santa Margarida Volcano',
+      'Croscat', 'Monte Lauro', 'Mount Guajara'
     ]
   },
 

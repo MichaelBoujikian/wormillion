@@ -7444,6 +7444,77 @@ Punta Marguareis|2651
 Roc'h Trevezel|384
 Tete de l'Estrop|2961
 Weissenstein|1395
+Rock of Gibraltar|426
+Phlegraean Fields|458
+Vatican Hill|75
+Cumbre Vieja|1949
+Puig Major|1445
+Pico do Areeiro|1818
+Mount Somma|1132
+Mount Pellegrino|606
+Puig Campana|1406
+Aitana|1558
+Monte Solaro|589
+Aspromonte|1956
+Kneiff|560
+El Toro|358
+Gennargentu|1834
+Grauspitz|2599
+Roque de Agando|1250
+Sa Talaiassa|475
+Mottarone|1492
+Monte Pisanino|1946
+Aiguilles d'Entreves|3600
+Monte Vulture|1326
+Tajogaite|1120
+Calar Alto|2168
+La Maroma|2069
+Mount Fumaiolo|1407
+Monte Faito|1131
+Plose|2562
+Latemar|2842
+Montana de Tindaya|401
+Monte Erice|751
+Monte Legnone|2609
+Pico Viejo|3135
+Gorbea|1482
+Peitlerkofel|2875
+Pizzo Carbonara|1979
+Serra do Marao|1415
+Aizkorri|1551
+Mount Capanne|1017
+Teneguia|428
+Montana Blanca|2748
+Morro de la Agujereada|1956
+Seekofel|2810
+Alcazaba|3369
+Averau|2649
+Monte Agner|2872
+Monte Velino|2487
+Roccamonfina|1005
+Aiguilles Marbrees|3535
+La Torrecilla|1918
+Monte Corona|609
+Monte Cairo|1669
+Monte Cornacchia|1151
+Monte Cusna|2120
+Mount Limbara|1362
+Trevinca|2127
+Pena de Francia|1727
+Radomir|2031
+Rocca Busambra|1613
+Santa Margarida Volcano|682
+El Turbon|2492
+Botte Donato|1928
+Cima d'Asta|2847
+Croscat|786
+Jof Fuart|2666
+Monte Catria|1702
+Monte Kronio|395
+Monte Lauro|986
+Mount Guajara|2715
+Presolana|2521
+Turo de l'Home|1706
 `;
 
 export const MINOR_PEAKS = `

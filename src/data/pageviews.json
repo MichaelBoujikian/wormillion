@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T10:15:09.976Z",
+ "fetched": "2026-09-17T10:27:51.799Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -77353,6 +77353,503 @@
    "days": 60,
    "lat": 47.25194444,
    "lon": 7.50916667
+  },
+  "mountain-rock-of-gibraltar": {
+   "title": "Rock of Gibraltar",
+   "monthlyViews": 20030,
+   "days": 60,
+   "lat": 36.12447222,
+   "lon": -5.34311111
+  },
+  "mountain-phlegraean-fields": {
+   "title": "Phlegraean Fields",
+   "monthlyViews": 8980,
+   "days": 60,
+   "lat": 40.827,
+   "lon": 14.139
+  },
+  "mountain-vatican-hill": {
+   "title": "Vatican Hill",
+   "monthlyViews": 3318,
+   "days": 60,
+   "lat": 41.90361111,
+   "lon": 12.45027778
+  },
+  "mountain-cumbre-vieja": {
+   "title": "Cumbre Vieja",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": 28.56666667,
+   "lon": -17.83333333
+  },
+  "mountain-puig-major": {
+   "title": "Puig Major",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 39.8,
+   "lon": 2.8
+  },
+  "mountain-pico-do-areeiro": {
+   "title": "Pico do Areeiro",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 32.73555556,
+   "lon": -16.92888889
+  },
+  "mountain-mount-somma": {
+   "title": "Mount Somma",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 40.82166667,
+   "lon": 14.42611111
+  },
+  "mountain-mount-pellegrino": {
+   "title": "Mount Pellegrino",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 38.16666667,
+   "lon": 13.35
+  },
+  "mountain-puig-campana": {
+   "title": "Puig Campana",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 38.59722222,
+   "lon": -0.19583333
+  },
+  "mountain-aitana": {
+   "title": "Aitana (mountain)",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 38.66083333,
+   "lon": -0.27472222
+  },
+  "mountain-monte-solaro": {
+   "title": "Monte Solaro",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 40.54444444,
+   "lon": 14.22388889
+  },
+  "mountain-aspromonte": {
+   "title": "Aspromonte",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 38.16666667,
+   "lon": 15.88333333
+  },
+  "mountain-kneiff": {
+   "title": "Kneiff",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 50.15769444,
+   "lon": 6.03716667
+  },
+  "mountain-el-toro": {
+   "title": "El Toro (Menorca)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 39.985,
+   "lon": 4.11361111
+  },
+  "mountain-gennargentu": {
+   "title": "Gennargentu",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 40.01666667,
+   "lon": 9.31666667
+  },
+  "mountain-grauspitz": {
+   "title": "Grauspitz",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 47.05277778,
+   "lon": 9.58194444
+  },
+  "mountain-roque-de-agando": {
+   "title": "Roque de Agando",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 28.1052923,
+   "lon": -17.2137276
+  },
+  "mountain-sa-talaiassa": {
+   "title": "Sa Talaiassa",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 38.91138889,
+   "lon": 1.27416667
+  },
+  "mountain-mottarone": {
+   "title": "Mottarone",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 45.88027778,
+   "lon": 8.45111111
+  },
+  "mountain-monte-pisanino": {
+   "title": "Monte Pisanino",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 44.13361111,
+   "lon": 10.21444444
+  },
+  "mountain-aiguilles-d-entreves": {
+   "title": "Aiguilles d'Entrèves",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 45.843784,
+   "lon": 6.916064
+  },
+  "mountain-monte-vulture": {
+   "title": "Monte Vulture",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 40.94833333,
+   "lon": 15.63555556
+  },
+  "mountain-tajogaite": {
+   "title": "Tajogaite",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 28.61277778,
+   "lon": -17.86611111
+  },
+  "mountain-calar-alto": {
+   "title": "Calar Alto",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 37.22361111,
+   "lon": -2.54611111
+  },
+  "mountain-la-maroma": {
+   "title": "La Maroma",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 36.90194444,
+   "lon": -4.04444444
+  },
+  "mountain-mount-fumaiolo": {
+   "title": "Mount Fumaiolo",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 43.78755556,
+   "lon": 12.07609722
+  },
+  "mountain-monte-faito": {
+   "title": "Monte Faito",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 40.64611111,
+   "lon": 14.51361111
+  },
+  "mountain-plose": {
+   "title": "Plose",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 46.69555556,
+   "lon": 11.73333333
+  },
+  "mountain-latemar": {
+   "title": "Latemar",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.36666667,
+   "lon": 11.56666667
+  },
+  "mountain-montana-de-tindaya": {
+   "title": "Montaña de Tindaya",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 28.5964,
+   "lon": -13.9764
+  },
+  "mountain-monte-erice": {
+   "title": "Monte Erice",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 38.03529,
+   "lon": 12.59214
+  },
+  "mountain-monte-legnone": {
+   "title": "Monte Legnone",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.08333333,
+   "lon": 9.4
+  },
+  "mountain-pico-viejo": {
+   "title": "Pico Viejo",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 28.262,
+   "lon": -16.668
+  },
+  "mountain-gorbea": {
+   "title": "Gorbea",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 43.035,
+   "lon": -2.77988
+  },
+  "mountain-peitlerkofel": {
+   "title": "Peitlerkofel",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 46.65888889,
+   "lon": 11.81972222
+  },
+  "mountain-pizzo-carbonara": {
+   "title": "Pizzo Carbonara",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.89416667,
+   "lon": 14.02527778
+  },
+  "mountain-serra-do-marao": {
+   "title": "Serra do Marão",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 41.24833333,
+   "lon": -7.88691667
+  },
+  "mountain-aizkorri": {
+   "title": "Aizkorri",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 42.95222222,
+   "lon": -2.31666667
+  },
+  "mountain-mount-capanne": {
+   "title": "Mount Capanne",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 42.77111111,
+   "lon": 10.1675
+  },
+  "mountain-teneguia": {
+   "title": "Teneguía",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 28.47166667,
+   "lon": -17.85194444
+  },
+  "mountain-montana-blanca": {
+   "title": "Montaña Blanca",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 28.26888889,
+   "lon": -16.61416667
+  },
+  "mountain-morro-de-la-agujereada": {
+   "title": "Morro de la Agujereada",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 27.96083333,
+   "lon": -15.57111111
+  },
+  "mountain-seekofel": {
+   "title": "Seekofel",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.67522222,
+   "lon": 12.07277778
+  },
+  "mountain-alcazaba": {
+   "title": "Alcazaba (Sierra Nevada)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.06722222,
+   "lon": -3.30138889
+  },
+  "mountain-averau": {
+   "title": "Averau",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.50108,
+   "lon": 12.0373
+  },
+  "mountain-monte-agner": {
+   "title": "Monte Agnèr",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.28172,
+   "lon": 11.9339
+  },
+  "mountain-monte-velino": {
+   "title": "Monte Velino",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-roccamonfina": {
+   "title": "Roccamonfina (volcano)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.29356341,
+   "lon": 13.969195
+  },
+  "mountain-aiguilles-marbrees": {
+   "title": "Aiguilles Marbrées",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.851344,
+   "lon": 6.94104
+  },
+  "mountain-la-torrecilla": {
+   "title": "La Torrecilla",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.67583333,
+   "lon": -4.99638889
+  },
+  "mountain-monte-corona": {
+   "title": "Monte Corona",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 29.184,
+   "lon": -13.4835
+  },
+  "mountain-monte-cairo": {
+   "title": "Monte Cairo",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 41.542,
+   "lon": 13.76
+  },
+  "mountain-monte-cornacchia": {
+   "title": "Monte Cornacchia (Daunian Mountains)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 41.36222222,
+   "lon": 15.15638889
+  },
+  "mountain-monte-cusna": {
+   "title": "Monte Cusna",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.2883,
+   "lon": 10.3912
+  },
+  "mountain-mount-limbara": {
+   "title": "Mount Limbara",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 40.84972222,
+   "lon": 9.17527778
+  },
+  "mountain-trevinca": {
+   "title": "Trevinca",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.24266667,
+   "lon": -6.796
+  },
+  "mountain-pena-de-francia": {
+   "title": "Peña de Francia",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 40.5128,
+   "lon": -6.1689
+  },
+  "mountain-radomir": {
+   "title": "Radomir (mountain)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 41.32166667,
+   "lon": 23.12194444
+  },
+  "mountain-rocca-busambra": {
+   "title": "Rocca Busambra",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 37.85555556,
+   "lon": 13.39722222
+  },
+  "mountain-santa-margarida-volcano": {
+   "title": "Santa Margarida Volcano",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.14138889,
+   "lon": 2.54166667
+  },
+  "mountain-el-turbon": {
+   "title": "El Turbón",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.41666667,
+   "lon": 0.5
+  },
+  "mountain-botte-donato": {
+   "title": "Botte Donato",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 39.28472222,
+   "lon": 16.44722222
+  },
+  "mountain-cima-d-asta": {
+   "title": "Cima d'Asta",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.17694444,
+   "lon": 11.60472222
+  },
+  "mountain-croscat": {
+   "title": "Croscat",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 42.15416667,
+   "lon": 2.53583333
+  },
+  "mountain-jof-fuart": {
+   "title": "Jôf Fuart",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.4405,
+   "lon": 13.4653
+  },
+  "mountain-monte-catria": {
+   "title": "Monte Catria",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 43.46166667,
+   "lon": 12.70444444
+  },
+  "mountain-monte-kronio": {
+   "title": "Monte Kronio",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.518927,
+   "lon": 13.113868
+  },
+  "mountain-monte-lauro": {
+   "title": "Monte Lauro",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.11697383,
+   "lon": 14.819615
+  },
+  "mountain-mount-guajara": {
+   "title": "Mount Guajara",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 28.21694444,
+   "lon": -16.61166667
+  },
+  "mountain-presolana": {
+   "title": "Presolana",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.9562,
+   "lon": 10.0557
+  },
+  "mountain-turo-de-l-home": {
+   "title": "Turó de l'Home",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.77252778,
+   "lon": 2.4375
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",
