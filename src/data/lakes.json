@@ -3770,10 +3770,10 @@
   ],
   "size": 40,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lagarfljót Worm\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 1005,
+  "source": "English Wikipedia pageviews for \"Lagarfljót\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 365,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lagarfljót Worm"
+  "wikiTitle": "Lagarfljót"
  },
  {
   "id": "lake-arreso",
@@ -7892,10 +7892,12 @@
   "aliases": [],
   "size": 26,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake island\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 2466,
+  "source": "English Wikipedia pageviews for \"Coatepeque Caldera\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
+  "magnitude": 609,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake island"
+  "wikiTitle": "Coatepeque Caldera",
+  "lat": 13.87,
+  "lon": -89.55
  },
  {
   "id": "lake-lake-ilopango",
@@ -7996,20 +7998,6 @@
   "wikiTitle": "Apoyo Lagoon Natural Reserve",
   "lat": 11.922,
   "lon": -86.029
- },
- {
-  "id": "lake-lake-xiloa",
-  "category": "lake",
-  "name": "Lake Xiloa",
-  "aliases": [
-   "Laguna Xiloa"
-  ],
-  "size": 1.8,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Volcanic crater lake\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 2922,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Volcanic crater lake"
  },
  {
   "id": "lake-lake-junin",
@@ -8194,18 +8182,6 @@
   "wikiTitle": "Ypacaraí Lake",
   "lat": -25.3,
   "lon": -57.35
- },
- {
-  "id": "lake-lake-ypoa",
-  "category": "lake",
-  "name": "Lake Ypoa",
-  "aliases": [],
-  "size": 140,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lakes and rivers of Titan\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 2222,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lakes and rivers of Titan"
  },
  {
   "id": "lake-lake-tota",
@@ -8548,20 +8524,6 @@
   "wikiTitle": "Cuicocha",
   "lat": 0.3,
   "lon": -78.35
- },
- {
-  "id": "lake-lake-san-pablo",
-  "category": "lake",
-  "name": "Lake San Pablo",
-  "aliases": [],
-  "size": 5.4,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Khari Khari Lakes\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Khari Khari Lakes",
-  "lat": -19.6072,
-  "lon": -65.7306
  },
  {
   "id": "lake-lake-yahuarcocha",

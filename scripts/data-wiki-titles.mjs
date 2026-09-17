@@ -3093,7 +3093,7 @@ export const WIKI_TITLES = {
   "lake-myvatn": "Mývatn",
   "lake-thorisvatn": "Þórisvatn",
   "lake-hvitarvatn": "Hvítárvatn",
-  "lake-lagarfljot": "Lagarfljót Worm",
+  "lake-lagarfljot": "Lagarfljót",
   "lake-arreso": "Arresø",
   "lake-esrum-so": "Esrum Sø",
   "lake-fureso": "Furesø (lake)",
@@ -3192,7 +3192,6 @@ export const WIKI_TITLES = {
   "lake-laguna-de-terminos": "Laguna de Términos",
   "lake-lake-zirahuen": "Lake Zirahuén",
   "lake-lake-peten-itza": "Lake Petén Itzá",
-  "lake-lake-xiloa": "Volcanic crater lake",
   "lake-lake-junin": "Lake Junín",
   "lake-lake-llanquihue": "Llanquihue Lake",
   "lake-lake-villarrica": "Villarrica Lake",
@@ -3203,7 +3202,6 @@ export const WIKI_TITLES = {
   "lake-lake-fagnano": "Fagnano Lake",
   "lake-mar-chiquita": "Mar Chiquita Lake",
   "lake-lake-ypacarai": "Ypacaraí Lake",
-  "lake-lake-ypoa": "Lakes and rivers of Titan",
   "lake-laguna-verde": "Laguna Verde (Bolivia)",
   "lake-lake-uru-uru": "Uru Uru Lake",
   "lake-lake-sobradinho": "Sobradinho Reservoir",
@@ -3227,7 +3225,6 @@ export const WIKI_TITLES = {
   "lake-lake-rapel": "Rapel Lake",
   "lake-laguna-quilotoa": "Quilotoa",
   "lake-lake-cuicocha": "Cuicocha",
-  "lake-lake-san-pablo": "San Pablo Lake",
   "lake-lake-yahuarcocha": "Lake Yaguarcocha (Cajamarca)",
   "lake-laguna-de-la-cocha": "Laguna de la Cocha",
   "lake-lake-calima": "Calima Lake",
@@ -3585,7 +3582,7 @@ export const WIKI_TITLES = {
   "lake-jackson-lake": "Jackson Lake (Wyoming)",
   "lake-lake-of-bays": "Lake of Bays",
   "lake-bacalar-lagoon": "Lake Bacalar",
-  "lake-lake-coatepeque": "Lake island",
+  "lake-lake-coatepeque": "Coatepeque Caldera",
   "lake-lake-togo": "Lake Tōgō",
   "lake-sary-chelek": "Lake Sary-Chelek",
 
@@ -6063,5 +6060,8 @@ export const WIKI_VERIFIED = new Set([
   "island-st-simons-island",
   "island-dauphin-island",
   // --- 2026-09-16 US cities: Silver Spring is an unincorporated community of 81,000 (2020 census) ---
-  "city-silver-spring"
+  "city-silver-spring",
+  // --- 2026-09-16: scored on 'Lake island' and 'Lagarfljót Worm' (a cryptid); the lake fills the caldera; Lagarfljót is the lake and the river ---
+  "lake-lake-coatepeque",
+  "lake-lagarfljot"
 ]);

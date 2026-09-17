@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T01:47:07.939Z",
+ "fetched": "2026-09-17T01:47:59.356Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -27130,8 +27130,8 @@
    "lon": -21.98
   },
   "lake-lagarfljot": {
-   "title": "Lagarfljót Worm",
-   "monthlyViews": 1005,
+   "title": "Lagarfljót",
+   "monthlyViews": 365,
    "days": 60,
    "lat": null,
    "lon": null
@@ -29139,11 +29139,11 @@
    "lon": -87.983
   },
   "lake-lake-coatepeque": {
-   "title": "Lake island",
-   "monthlyViews": 2466,
-   "days": 60,
-   "lat": null,
-   "lon": null
+   "title": "Coatepeque Caldera",
+   "monthlyViews": 609,
+   "days": 59,
+   "lat": 13.87,
+   "lon": -89.55
   },
   "lake-lake-ilopango": {
    "title": "Lake Ilopango",
@@ -29193,13 +29193,6 @@
    "days": 60,
    "lat": 11.922,
    "lon": -86.029
-  },
-  "lake-lake-xiloa": {
-   "title": "Volcanic crater lake",
-   "monthlyViews": 2922,
-   "days": 60,
-   "lat": null,
-   "lon": null
   },
   "lake-lake-junin": {
    "title": "Lake Junin",
@@ -29291,13 +29284,6 @@
    "days": 60,
    "lat": -25.3,
    "lon": -57.35
-  },
-  "lake-lake-ypoa": {
-   "title": "Lakes and rivers of Titan",
-   "monthlyViews": 2222,
-   "days": 60,
-   "lat": null,
-   "lon": null
   },
   "lake-lake-tota": {
    "title": "Lake Tota",
@@ -29466,13 +29452,6 @@
    "days": 60,
    "lat": 0.3,
    "lon": -78.35
-  },
-  "lake-lake-san-pablo": {
-   "title": "Khari Khari Lakes",
-   "monthlyViews": 30,
-   "days": 55,
-   "lat": -19.6072,
-   "lon": -65.7306
   },
   "lake-lake-yahuarcocha": {
    "title": "Lake Yaguarcocha (Cajamarca)",

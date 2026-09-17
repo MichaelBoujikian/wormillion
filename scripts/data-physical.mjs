@@ -558,7 +558,6 @@ Lake Alajuela|17.8
 Lake Enriquillo|265
 Lake Azuei|113
 Laguna de Apoyo|21.7
-Lake Xiloa|1.8|Laguna Xiloa
 Lake Junin|142
 Lake Llanquihue|860
 General Carrera Lake|1850|Lake Buenos Aires
@@ -572,7 +571,6 @@ Mar Chiquita|6000
 Lagoa dos Patos|10140
 Lagoa Mirim|3750
 Lake Ypacarai|60
-Lake Ypoa|140
 Lake Tota|55
 Laguna Verde|11.8
 Lake Uru Uru|135
@@ -597,7 +595,6 @@ Lake Budi|55
 Lake Rapel|8
 Laguna Quilotoa|3|Quilotoa
 Lake Cuicocha|3.2
-Lake San Pablo|5.4
 Lake Yahuarcocha|2.5
 Laguna de la Cocha|39|La Cocha Lake
 Lake Calima|17
