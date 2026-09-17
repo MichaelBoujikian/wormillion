@@ -8085,7 +8085,7 @@ Azores|2333
 Galapagos Islands|7880|Galapagos
 Aleutian Islands|17666|Aleutians
 Florida Keys|356|The Keys
-Faroe Islands|1399|Faroes
+Faroe Islands|1399|Faroes,Faro Islands
 Cyclades|2572
 Isles of Scilly|16|Scilly Isles
 Svalbard|61022
@@ -8693,7 +8693,7 @@ Angel Island|3.05
 Treasure Island|1.24
 San Clemente Island|145
 San Miguel Island|37
-Santa Rosa Island (California)|215
+Santa Rosa Island|215
 Anacapa|2.9|Anacapa Island
 Vashon|100|Vashon Island
 Bainbridge Island|70
@@ -9281,7 +9281,6 @@ Alaid Island|5
 Amlia|446
 Arey Island|11
 Croil Island|3.22
-Deer Island|151.7
 Egg Island|1.26
 Galop Island|2.73
 Grahams Island|23
@@ -9508,7 +9507,6 @@ Pabbay|8.2
 Ram's Island|0
 Thames Ditton Island|0
 Two Tree Island|2.59
-Ward Hill|0
 Asparagus Island|0
 Egilsay|6.5
 Horsea Island|0
@@ -9568,7 +9566,6 @@ Trowlock Island|0
 Alloa Inch|0
 Bartragh Island|1.93
 Boreray|1.98
-Burra|12.58
 Capel Island|0
 Corporation Island|0
 Dore Holm|0
@@ -9585,13 +9582,10 @@ Island Eddy|0
 Longships|0
 Neish Island|0
 Potton Island|0
-Preston Island|0
 Priest Island|1.22
 Read's Island|0
-Round Island Light|0
 Sandray|3.85
 St Margaret's Island|0
-St Mary's Church|0
 Staple Island|0
 Trondra|2.75
 Whitton Island|1.2
@@ -9743,7 +9737,6 @@ Adelso|26.08
 Danes Island|40.6
 Papey|2
 Tromoya|28.6
-Geirfuglasker|0
 Ljustero|62.05
 Replot|150
 Rindo|4.46
@@ -9766,7 +9759,6 @@ Tysnesoya|198
 Vestvagoya|411
 Bastoy|2.23
 Vaddo|128
-Danmark|0
 Furillen|4
 Giske|2.67
 Godoya|10.9
@@ -9899,12 +9891,11 @@ Ship Island|0
 Guemes Island|0
 Pine Island|0
 Isle de Jean Charles|0
-Penikese Island|0
+Penikese Island|0.3
 Sand Island|0
-Santa Rosa Island|0
 Blennerhassett Island|0
 Dog Island|0
-Holland Island|0
+Holland Island|0.32
 Hutchinson Island|0
 Ono Island|0
 Wellesley Island|0
@@ -9925,9 +9916,9 @@ James Island|0
 Enders Island|0
 Great Gull Island|0
 Shooters Island|0
-Davids Island|0
+Davids Island|0.32
 Gibson Island|0
-Hawaii 2|0
+Hawaii 2|0.02
 Isle La Motte|43.2
 Anastasia Island|0
 Appledore Island|0
@@ -9947,13 +9938,13 @@ Boca Chica Key|0
 Bogue Banks|0
 Poplar Island|0
 Children's Island|0
-Eastern Egg Rock Island|0
+Eastern Egg Rock Island|0.03
 Great Diamond Island|0
 Little Torch Key|0
 Billingsgate Island|0
-Charity Island|0
+Charity Island|0.9
 Craney Island|0
-Falkner Island|0
+Falkner Island|0.01
 Grindstone Island|0
 Keewaydin Island|0
 North Padre Island|0
@@ -10034,7 +10025,7 @@ Butler Island|0
 Crow Island|0
 Eldred Rock|0
 Elihu Island|0
-Garrett Island|0
+Garrett Island|0.8
 Great Spruce Head Island|0
 Huckleberry Island|0
 Petit Bois Island|0
@@ -10042,19 +10033,19 @@ Plantation Key|0
 Silcox Island|0
 Spinnaker Island|0
 Squaxin Island|0
-Veckatimest Island|0
+Veckatimest Island|0.07
 Artificial Island|0
 Atsena Otie Key|0
 Boca Chita Key|0
 Canarsie Pol|0
-Center Island|0
-Crane Island|0
+Center Island|0.7
+Crane Island|0.96
 Dismal Key|0
 Estero Island|0
 Gardiners Point Island|0
 Gooseberry Island|0
 Henry Island|0
-Isle of Meadows|0
+Isle of Meadows|0.35
 Latsch Island|0
 Little Cranberry Island|0
 Little Deer Isle|0
@@ -10069,7 +10060,7 @@ Sutton Island|0
 Van Schaick Island|0
 Virginius Island|0
 Apple Island|0
-Blaine Island|0
+Blaine Island|0.32
 Boca Grande Key|0
 Brewer Island|0
 Buffington Island|0
@@ -10092,16 +10083,16 @@ Stockton Island|0
 Sugar Loaf Island|0
 Sutwik Island|0
 Tinker's Island|0
-Uncatena Island|0
+Uncatena Island|0.49
 Upper Matecumbe Key|0
-Whiskey Island|0
+Whiskey Island|0.97
 Big St. Martin Island|0
 Birch Island|0
 Brannan Island|0
 Buckeye Island|0
-Campbell's Island|0
+Campbell's Island|1.17
 Carleton's Prize|0
-Clover Island|0
+Clover Island|0.06
 Cole Island|0
 Colington Island|0
 Cow Island|0
@@ -10118,14 +10109,14 @@ Hobbs Island|0
 Key Vaca|0
 Kiket Island|0
 Lignumvitae Key|0
-Little Chebeague Island|0
+Little Chebeague Island|0.34
 Little Diamond Island|0
 Money Island|0
 Munyon Island|0
 Peirce Island|0
 Pennock Island|0
 Powder House Island|0
-Ram Island|0
+Ram Island|0.08
 Rugged Island|0
 Scout Key|0
 Shark Key|0
@@ -10136,6 +10127,7 @@ Tea Table Key|0
 Tuxis Island|0
 Weedon Island|0
 Woman Key|0
+Deer Isle|0
 `;
 
 export const SEAS_OCEANS = `
@@ -10329,7 +10321,7 @@ Gulf of Manfredonia|1000
 Oresund|2000
 Great Belt|2830
 Little Belt|500
-Limfjord|1500
+Limfjord|1500|Limfjorden
 Bothnian Sea|79000
 Archipelago Sea|8300
 Sea of Aland|7000
@@ -10408,7 +10400,7 @@ Kynance Cove|0
 Cantabrian Sea|0
 Oslofjord|0
 Holy Loch|0
-Menai Strait|0
+Menai Strait|0|Menai
 Hardangerfjord|0
 Loch Fyne|0
 Naeroyfjord|518.02
@@ -10441,13 +10433,12 @@ Breidafjordur|2874
 Iceland Sea|406000
 Murlough Bay|0
 Alum Bay|0
-Botany Bay|0
 Brittas Bay|0
 Whitsand Bay|0
 Baie de Douarnenez|0
 Bracklesham Bay|2.01
 Loch Broom|0
-Gare Loch|0
+Gare Loch|0|Gareloch
 Liverpool Bay|0
 Marshall Meadows Bay|0
 Baie des Anges|0
@@ -10457,7 +10448,7 @@ Sullom Voe|0
 Nordfjorden|0
 Watergate Bay|0
 Faxafloi|0
-Isfjorden|0
+Isfjorden|0|Isfjord
 Ladram Bay|0
 Loch Leven|0
 Loch Moidart|0
@@ -10485,7 +10476,7 @@ Kalmar Strait|0
 Kyle of Tongue|245
 Marano Lagoon|0
 Sorfjorden|0
-Kiel Fjord|0
+Kiel Fjord|0|Kieler Forde
 Kyles of Bute|57.4
 Koge Bay|330
 Loch Duich|0
@@ -10514,7 +10505,7 @@ Nigg Bay|0
 Rest Bay|0
 Ringstead Bay|0
 Romsdalsfjord|0
-Varangerfjord|0
+Varangerfjord|0|Varangerfjorden
 Vejle Fjord|100
 Basque Roads|0
 Gills Bay|0
@@ -10522,35 +10513,17 @@ Gruinard Bay|0
 Hunafloi|188.8
 Killala Bay|10.61
 Loch Sunart|49
-Mulciber|0
 Pease Bay|0
 Porlock Bay|1.86
 St Ives Bay|0
 Sunnylvsfjorden|0
 Worbarrow Bay|0
 Isafjardardjup|0
-Baie de Seine|0
-Bay of Skaill|0
-Clarach Bay|0
-Dundrum Bay|0
-Gulf of Gaeta|0
-Hornsund|0
-Langdon Bay|0
-Loch Fleet|10.58
-Loch na Keal|442
-Luce Bay|0
-Maurangerfjorden|0
-Porsangerfjorden|0
-Rombaken|0
-Skjomen|0
-Skjalfandi|0
-Stagnone Lagoon|13.8
-Weymouth Bay|0
 Lulworth Cove|0
 Pearl Harbor|0
-New York Harbor|0
+New York Harbor|0|Upper New York Bay
 Golden Gate|0
-Straits of Mackinac|0
+Straits of Mackinac|0|Mackinac
 Deception Pass|0
 Kealakekua Bay|0
 Boston Harbor|0
@@ -10607,7 +10580,7 @@ Lower New York Bay|0
 San Pablo Bay|0
 Florida Bay|0
 Glacier Bay|0
-Laguna Madre|0
+Laguna Madre|1136.8
 Saginaw Bay|0
 Santa Barbara Channel|0
 Coos Bay|0
@@ -10628,7 +10601,6 @@ Admiralty Inlet|0
 Lake Worth Lagoon|0
 Chequamegon Bay|0
 Newark Bay|0
-San Bernardino Strait|0
 Willapa Bay|0
 Puerto Mosquito|0
 Rhode Island Sound|0
@@ -10696,7 +10668,7 @@ Little Traverse Bay|0
 Merrymeeting Bay|0
 Perdido Bay|0
 Perdido Pass|0
-Saratoga Passage|0
+Saratoga Passage|0|Saratoga
 Sodus Bay|0
 St. Andrews Bay|0
 Agate Pass|0
@@ -10722,8 +10694,6 @@ Rehoboth Bay|0
 Richardson Bay|0
 Sarasota Bay|0
 Alamitos Bay|0
-Bay of St. Louis|0
-Fairhaven Bay|0
 Haverstraw Bay|0
 Little Bay de Noc|0
 Moriches Inlet|0
@@ -10731,30 +10701,5 @@ Murder Cove|0
 Padilla Bay|0
 Shoup Bay|0
 Tumon Bay|0
-Batiquitos Lagoon|0
-Big Lagoon|0
-Bolinas Lagoon|0
-Chincoteague Bay|0
-Cobscook Bay|0
-Columbia River Estuary|0
-Copano Bay|0
-Drakes Estero|0
-Fire Island Inlet|0
-Keweenaw Bay|0
-Lavaca Bay|0
-Matanzas Bay|0
-Nehalem Bay|0
-Ponce de Leon Inlet|0
-Port Susan|0
-Rockaway Inlet|0
-San Elijo Lagoon|0
 Semiahmoo Bay|0
-Shark River Inlet|0
-Shilshole Bay|0
-Sinepuxent Bay|0
-South Oyster Bay|0
-St. Lucie Inlet|0
-Tongass Narrows|0
-Union Bay|0
-Whale Cove|0
 `;

@@ -833,3 +833,18 @@ test('a size of 0 ("no sourced figure") answers every prompt but a size threshol
   assert.strictEqual(on({ category: 'island', size: { op: 'over', value: 1 } }, 'Skomer').status, 'wrong-scope');
   assert.strictEqual(on({ category: 'island', size: { op: 'under', value: 100 } }, 'Lundy').status, 'accepted');
 });
+
+test("a size rule's share is measured over the rows that can answer it, not the size-0 ones", () => {
+  // 2026-09-17: 333 unsized seas made "smaller than 1,000,000 km²" look like a
+  // 42% rule (258 of 618 rows) when every sized sea satisfied it; the share
+  // is taken over sized rows, so an all-small cohort refuses the rule again.
+  const sized = Array.from({ length: 8 }, (_, i) => entry('island', `Sized ${i}`, 500 + i, { size: 10 + i, oceans: ['Atlantic'] }));
+  const unsized = Array.from({ length: 40 }, (_, i) => entry('island', `Unsized ${i}`, 300 + i, { size: 0, oceans: ['Atlantic'] }));
+  const bank = promptBank.createBank({ ...RAW, islands: [...RAW.islands.map((e) => ({ ...e, size: 10 })), ...sized, ...unsized] });
+  let seed = 7;
+  const rng = () => { seed = (seed * 1103515245 + 12345) % 2147483648; return seed / 2147483648; };
+  const sizeRules = [];
+  for (let i = 0; i < 300; i++) for (const slot of bank.drawSlots(rng)) if (slot.category === 'island' && slot.size) sizeRules.push(slot.size);
+  // every sized island is under 100 km² (share 100% of the answerable rows) and none over: no size rule fits
+  assert.deepStrictEqual(sizeRules, []);
+});

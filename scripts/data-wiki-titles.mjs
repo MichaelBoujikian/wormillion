@@ -3636,7 +3636,7 @@ export const WIKI_TITLES = {
   "sea_ocean-morecambe-bay": "Morecambe Bay",
   "sea_ocean-sea-of-the-hebrides": "Sea of the Hebrides",
   "sea_ocean-gulf-of-corinth": "Gulf of Corinth",
-  "sea_ocean-bay-of-pomerania": "Bay of Pomerania (nature reserve)",
+  "sea_ocean-bay-of-pomerania": "Bay of Pomerania",
   "sea_ocean-gulf-of-cagliari": "Golfo di Cagliari",
   "sea_ocean-szczecin-lagoon": "Szczecin Lagoon",
   "sea_ocean-golden-horn": "Zolotoy Rog",
@@ -5098,7 +5098,6 @@ export const WIKI_TITLES = {
   "island-dutch-island": "Dutch Island, Georgia",
   "island-talahi-island": "Talahi Island, Georgia",
   "island-alaid-island": "Alaid Island (Alaska)",
-  "island-deer-island": "Deer Island (Aleutian Islands)",
   "island-egg-island": "Egg Island (Alaska)",
   "island-knight-island": "Knight Island (Alaska)",
   "island-nine-mile-island": "Nine-Mile Island (Mississippi River)",
@@ -6063,7 +6062,6 @@ export const WIKI_TITLES = {
   "island-king-s-island": "King's Island, Limerick",
   "island-pabbay": "Pabbay, Harris",
   "island-ram-s-island": "Ram's Island, Northern Ireland",
-  "island-ward-hill": "Ward Hill, Hoy",
   "island-rutland-island": "Rutland Island, County Donegal",
   "island-cava": "Cava, Orkney",
   "island-lunga": "Lunga, Firth of Lorn",
@@ -6077,11 +6075,8 @@ export const WIKI_TITLES = {
   "island-fraoch-eilean": "Fraoch Eilean, Loch Awe",
   "island-little-island": "Little Island, Waterford",
   "island-boreray": "Boreray, North Uist",
-  "island-burra": "Burra, Shetland",
   "island-ensay": "Ensay, Outer Hebrides",
   "island-longships": "Longships, Cornwall",
-  "island-round-island-light": "Round Island Light, Isles of Scilly",
-  "island-st-mary-s-church": "St Mary's Church, St Mary's",
   "island-eilean-subhainn": "Eilean Sùbhainn",
   "island-pabaigh-mor": "Pabaigh Mòr",
   "island-uyea": "Uyea, Unst",
@@ -6160,7 +6155,6 @@ export const WIKI_TITLES = {
   "island-vestvagoya": "Vestvågøya",
   "island-bastoy": "Bastøy",
   "island-vaddo": "Väddö",
-  "island-danmark": "Danmark (islet)",
   "island-giske": "Giske (island)",
   "island-godoya": "Godøya",
   "island-hidra": "Hidra (island)",
@@ -6252,7 +6246,6 @@ export const WIKI_TITLES = {
   "sea_ocean-hvalfjordur": "Hvalfjörður",
   "sea_ocean-eyjafjordur": "Eyjafjörður",
   "sea_ocean-breidafjordur": "Breiðafjörður",
-  "sea_ocean-botany-bay": "Botany Bay, Kent",
   "sea_ocean-nordfjorden": "Nordfjorden (Vestland)",
   "sea_ocean-faxafloi": "Faxaflói",
   "sea_ocean-isfjorden": "Isfjorden (Svalbard)",
@@ -6268,10 +6261,7 @@ export const WIKI_TITLES = {
   "sea_ocean-jossingfjorden": "Jøssingfjorden",
   "sea_ocean-lyngen": "Lyngen (fjord)",
   "sea_ocean-hunafloi": "Húnaflói",
-  "sea_ocean-mulciber": "Mulciber (volcano)",
   "sea_ocean-isafjardardjup": "Ísafjarðardjúp",
-  "sea_ocean-langdon-bay": "Langdon Bay (Kent)",
-  "sea_ocean-skjalfandi": "Skjálfandi",
 
   // --- city (2026-09-14 expansion) ---
   "city-paisley": "Paisley, Renfrewshire",
@@ -6430,9 +6420,6 @@ export const WIKI_TITLES = {
   "sea_ocean-useless-bay": "Useless Bay (Washington)",
   "sea_ocean-anchor-bay": "Anchor Bay (Michigan)",
   "sea_ocean-half-moon-bay": "Half Moon Bay (California)",
-  "sea_ocean-big-lagoon": "Big Lagoon (California)",
-  "sea_ocean-union-bay": "Union Bay (Seattle)",
-  "sea_ocean-whale-cove": "Whale Cove (Oregon)",
 
   // --- island (2026-09-14 expansion) ---
   "island-horn-island": "Horn Island (Mississippi)",
@@ -6446,7 +6433,6 @@ export const WIKI_TITLES = {
   "island-pine-island": "Pine Island (Lee County, Florida)",
   "island-isle-de-jean-charles": "Isle de Jean Charles, Louisiana",
   "island-sand-island": "Sand Island (Hawaii)",
-  "island-santa-rosa-island": "Santa Rosa Island, Florida",
   "island-dog-island": "Dog Island (Florida)",
   "island-hutchinson-island": "Hutchinson Island (Florida)",
   "island-ono-island": "Ono Island, Alabama",
@@ -6519,7 +6505,10 @@ export const WIKI_TITLES = {
 
   // --- desert (2026-09-14 expansion) ---
   "desert-high-desert": "High Desert (California)",
-  "desert-kau-desert": "Kaʻū Desert"
+  "desert-kau-desert": "Kaʻū Desert",
+  // --- 2026-09-17 islands + seas audit: Santa Rosa Island is the Channel Islands one (renamed from its parenthetical title); Deer Isle (Maine) replaces the 61-view Aleutian Deer Island ---
+  "island-santa-rosa-island": "Santa Rosa Island (California)",
+  "island-deer-isle": "Deer Isle (island)"
 };
 
 /**
@@ -6914,7 +6903,6 @@ export const WIKI_VERIFIED = new Set([
   "island-talahi-island",
   "island-kanaga-island",
   "island-alaid-island",
-  "island-deer-island",
   "island-yukon-island",
   "island-takli-island",
   "island-whale-island",
@@ -7004,11 +6992,6 @@ export const WIKI_VERIFIED = new Set([
   "sea_ocean-sebastian-inlet", // "12 miles north of Vero Beach"
   "sea_ocean-hallo-bay", // "Place in Katmai National Park"
   "sea_ocean-haverstraw-bay", // "Widest portion of the Hudson River" - a tidal bay
-  "sea_ocean-batiquitos-lagoon", // "Coastal wetland"
-  "sea_ocean-san-elijo-lagoon", // "Coastal wetland"
-  "sea_ocean-fire-island-inlet", // no short description
-  "sea_ocean-matanzas-bay", // no short description
-  "sea_ocean-shark-river-inlet", // no short description
   // --- the US no-figure islands re-run (2026-09-17): the island and its town / CDP / community share one article (the notKindExemptTitle class), Wizard Island is a cinder cone in Crater Lake, Monomoy a sand spit island, Elliott Key a key, three without a short description ---
   "island-daufuskie-island",
   "island-sea-island",
@@ -7034,5 +7017,6 @@ export const WIKI_VERIFIED = new Set([
   "island-hobbs-island",
   "island-little-chebeague-island",
   "island-peirce-island",
-  "island-weedon-island"
+  "island-weedon-island",
+  "sea_ocean-bay-of-pomerania" // "Landform in Poland and Germany" - the bay article (2026-09-17 audit re-pointed it off the nature reserve)
 ]);

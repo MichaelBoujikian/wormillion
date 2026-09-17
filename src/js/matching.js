@@ -28,8 +28,12 @@
       // ...and fold the letters NFD leaves alone, so "Møn" == "Mon"
       .replace(/ø/gi, 'o').replace(/æ/gi, 'ae').replace(/œ/gi, 'oe').replace(/ł/gi, 'l').replace(/ß/g, 'ss').replace(/[đð]/gi, 'd').replace(/þ/gi, 'th')
       .toLowerCase()
-      .replace(/[‘’ʼ]/g, "'")
-      .replace(/[–—‒]/g, '-')
+      // the Hawaiian okina (U+02BB) is an apostrophe too: "Kaneʻohe" == "Kane'ohe" == "Kaneohe"
+      .replace(/[‘’ʼʻ]/g, "'")
+      // a hyphen is a space: "Saint-Ouen-sur-Seine" typed "Saint Ouen sur Seine" is the
+      // same name, and "St" inside it can only be filler once it stands alone
+      // (2026-09-17 audit: 47 hyphenated rows landed only as corrections)
+      .replace(/[-–—‒]/g, ' ')
       .replace(/[.,']/g, '')
       .replace(/\s+/g, ' ')
       .trim()
@@ -64,7 +68,7 @@
   // "saint", "st" and "cape" belong to nobody and never get in the way.
   const WORD_CATEGORY = {
     mount: ['mountain'], mt: ['mountain'], mountain: ['mountain'], peak: ['mountain'], hill: ['mountain'],
-    lake: ['lake'], loch: ['lake'], lough: ['lake'], llyn: ['lake'], reservoir: ['lake'], lago: ['lake'], lac: ['lake'], lagoa: ['lake'], laguna: ['lake'], etang: ['lake'],
+    lake: ['lake'], loch: ['lake', 'sea_ocean'], lough: ['lake', 'sea_ocean'], llyn: ['lake'], reservoir: ['lake'], lago: ['lake'], lac: ['lake'], lagoa: ['lake'], laguna: ['lake'], etang: ['lake'],
     river: ['river'], rio: ['river'], fiume: ['river'], fleuve: ['river'], fluss: ['river'], riviere: ['river'], rivier: ['river'],
     sea: ['sea_ocean'], ocean: ['sea_ocean'], gulf: ['sea_ocean'], bay: ['sea_ocean'],
     island: ['island'], islands: ['island'], isle: ['island'], isles: ['island'], atoll: ['island'],

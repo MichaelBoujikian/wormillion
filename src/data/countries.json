@@ -2921,7 +2921,9 @@
   "id": "country-denmark",
   "category": "country",
   "name": "Denmark",
-  "aliases": [],
+  "aliases": [
+   "Danmark"
+  ],
   "size": 5900000,
   "sizeUnit": "population",
   "region": [

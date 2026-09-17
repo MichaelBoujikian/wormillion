@@ -17092,7 +17092,9 @@
   "id": "city-zaandam",
   "category": "city",
   "name": "Zaandam",
-  "aliases": [],
+  "aliases": [
+   "Zaanstad"
+  ],
   "size": 76000,
   "sizeUnit": "population",
   "region": [
@@ -77639,7 +77641,9 @@
   "id": "city-monchengladbach",
   "category": "city",
   "name": "Monchengladbach",
-  "aliases": [],
+  "aliases": [
+   "Moenchengladbach"
+  ],
   "size": 267176,
   "sizeUnit": "population",
   "region": [
@@ -78053,7 +78057,9 @@
   "id": "city-osnabruck",
   "category": "city",
   "name": "Osnabruck",
-  "aliases": [],
+  "aliases": [
+   "Osnabrueck"
+  ],
   "size": 166257,
   "sizeUnit": "population",
   "region": [
@@ -79189,7 +79195,9 @@
   "id": "city-gorlitz",
   "category": "city",
   "name": "Gorlitz",
-  "aliases": [],
+  "aliases": [
+   "Goerlitz"
+  ],
   "size": 55065,
   "sizeUnit": "population",
   "region": [
@@ -79511,7 +79519,9 @@
   "id": "city-luneburg",
   "category": "city",
   "name": "Luneburg",
-  "aliases": [],
+  "aliases": [
+   "Lueneburg"
+  ],
   "size": 74502,
   "sizeUnit": "population",
   "region": [
@@ -80951,7 +80961,9 @@
   "id": "city-furth",
   "category": "city",
   "name": "Furth",
-  "aliases": [],
+  "aliases": [
+   "Fuerth"
+  ],
   "size": 131344,
   "sizeUnit": "population",
   "region": [
@@ -82525,7 +82537,9 @@
   "id": "city-gutersloh",
   "category": "city",
   "name": "Gutersloh",
-  "aliases": [],
+  "aliases": [
+   "Guetersloh"
+  ],
   "size": 99854,
   "sizeUnit": "population",
   "region": [
@@ -83165,7 +83179,9 @@
   "id": "city-wolfenbuttel",
   "category": "city",
   "name": "Wolfenbuttel",
-  "aliases": [],
+  "aliases": [
+   "Wolfenbuettel"
+  ],
   "size": 52511,
   "sizeUnit": "population",
   "region": [
@@ -83557,7 +83573,9 @@
   "id": "city-mulheim",
   "category": "city",
   "name": "Mulheim",
-  "aliases": [],
+  "aliases": [
+   "Muelheim"
+  ],
   "size": 171674,
   "sizeUnit": "population",
   "region": [
@@ -83806,7 +83824,9 @@
   "category": "city",
   "name": "Russelsheim am Main",
   "aliases": [
-   "Russelsheim"
+   "Russelsheim",
+   "Ruesselsheim am Main",
+   "Ruesselsheim"
   ],
   "size": 66028,
   "sizeUnit": "population",
@@ -84103,7 +84123,9 @@
   "id": "city-duren",
   "category": "city",
   "name": "Duren",
-  "aliases": [],
+  "aliases": [
+   "Dueren"
+  ],
   "size": 94539,
   "sizeUnit": "population",
   "region": [
@@ -84377,7 +84399,9 @@
   "id": "city-lorrach",
   "category": "city",
   "name": "Lorrach",
-  "aliases": [],
+  "aliases": [
+   "Loerrach"
+  ],
   "size": 51274,
   "sizeUnit": "population",
   "region": [
@@ -85391,7 +85415,9 @@
   "id": "city-goppingen",
   "category": "city",
   "name": "Goppingen",
-  "aliases": [],
+  "aliases": [
+   "Goeppingen"
+  ],
   "size": 58678,
   "sizeUnit": "population",
   "region": [
@@ -85415,7 +85441,9 @@
   "id": "city-schwabisch-gmund",
   "category": "city",
   "name": "Schwabisch Gmund",
-  "aliases": [],
+  "aliases": [
+   "Schwaebisch Gmuend"
+  ],
   "size": 63930,
   "sizeUnit": "population",
   "region": [
@@ -85633,7 +85661,9 @@
   "id": "city-hurth",
   "category": "city",
   "name": "Hurth",
-  "aliases": [],
+  "aliases": [
+   "Huerth"
+  ],
   "size": 61732,
   "sizeUnit": "population",
   "region": [
@@ -85999,7 +86029,9 @@
   "id": "city-boblingen",
   "category": "city",
   "name": "Boblingen",
-  "aliases": [],
+  "aliases": [
+   "Boeblingen"
+  ],
   "size": 51204,
   "sizeUnit": "population",
   "region": [
@@ -86047,7 +86079,9 @@
   "id": "city-neumunster",
   "category": "city",
   "name": "Neumunster",
-  "aliases": [],
+  "aliases": [
+   "Neumuenster"
+  ],
   "size": 80145,
   "sizeUnit": "population",
   "region": [
@@ -87117,7 +87151,9 @@
   "id": "city-ludenscheid",
   "category": "city",
   "name": "Ludenscheid",
-  "aliases": [],
+  "aliases": [
+   "Luedenscheid"
+  ],
   "size": 70810,
   "sizeUnit": "population",
   "region": [
@@ -87629,7 +87665,9 @@
   "id": "city-lunen",
   "category": "city",
   "name": "Lunen",
-  "aliases": [],
+  "aliases": [
+   "Luenen"
+  ],
   "size": 85844,
   "sizeUnit": "population",
   "region": [
@@ -88162,30 +88200,6 @@
   "lon": 7.15555556
  },
  {
-  "id": "city-zaanstad",
-  "category": "city",
-  "name": "Zaanstad",
-  "aliases": [],
-  "size": 156901,
-  "sizeUnit": "population",
-  "region": [
-   "Europe",
-   "Western Europe"
-  ],
-  "country": "Netherlands",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Zaanstad\", 60-day daily median (60 days ending 2026-09-17); City-proper population, common reference figures, rounded (2026); in Netherlands",
-  "magnitude": 852,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Zaanstad",
-  "lat": 52.43333333,
-  "lon": 4.81666667
- },
- {
   "id": "city-alcorcon",
   "category": "city",
   "name": "Alcorcon",
@@ -88335,7 +88349,9 @@
   "id": "city-sankt-augustin",
   "category": "city",
   "name": "Sankt Augustin",
-  "aliases": [],
+  "aliases": [
+   "St Augustin"
+  ],
   "size": 56033,
   "sizeUnit": "population",
   "region": [
@@ -89359,7 +89375,9 @@
   "id": "city-ibbenburen",
   "category": "city",
   "name": "Ibbenburen",
-  "aliases": [],
+  "aliases": [
+   "Ibbenbueren"
+  ],
   "size": 51596,
   "sizeUnit": "population",
   "region": [

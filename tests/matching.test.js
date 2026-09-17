@@ -28,7 +28,11 @@ test('normalization folds case, spacing and punctuation (Spec 3.7)', () => {
   assert.strictEqual(matching.normalize('st lucia'), 'st lucia');
   assert.strictEqual(matching.normalize('  St   Lucia  '), 'st lucia');
   assert.strictEqual(matching.normalize("Cote d'Ivoire"), 'cote divoire');
-  assert.strictEqual(matching.normalize('Timor–Leste'), 'timor-leste');
+  // a hyphen or dash is a space (2026-09-17: "Saint Ouen sur Seine" is Saint-Ouen-sur-Seine, not a correction of it)
+  assert.strictEqual(matching.normalize('Timor–Leste'), 'timor leste');
+  assert.strictEqual(matching.normalize('Saint-Ouen-sur-Seine'), matching.normalize('Saint Ouen sur Seine'));
+  // the Hawaiian okina is an apostrophe: "Kaneʻohe Bay" == "Kaneohe Bay"
+  assert.strictEqual(matching.normalize('Kaneʻohe Bay'), 'kaneohe bay');
   assert.strictEqual(matching.normalize('Yaoundé'), 'yaounde');
   assert.strictEqual(matching.normalize(''), '');
   assert.strictEqual(matching.normalize(null), '');
@@ -298,6 +302,11 @@ test('a generic word of another category is not filler (2026-09-16)', () => {
   assert.strictEqual(matching.foreignWordIn('lake tahoe', 'lake'), false);
   assert.strictEqual(matching.foreignWordIn('lake tahoe', 'river'), true);
   assert.strictEqual(matching.foreignWordIn('cape town', 'river'), false);
+  // a sea loch is a loch too: "the Holy Loch" on a sea round is not a lake's word (2026-09-17 audit)
+  const seaLochs = matching.buildLookup([{ id: 'sea_ocean-holy-loch', name: 'Holy Loch', aliases: [] }], { category: 'sea_ocean' });
+  assert.strictEqual(matching.matchAnswer('the Holy Loch', seaLochs, null).entryId, 'sea_ocean-holy-loch');
+  assert.strictEqual(matching.foreignWordIn('holy loch', 'sea_ocean'), false);
+  assert.strictEqual(matching.foreignWordIn('holy loch', 'river'), true);
 });
 
 test('a typed plural is never corrected onto its singular namesake (2026-09-16)', () => {

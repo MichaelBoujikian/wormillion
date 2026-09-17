@@ -543,11 +543,16 @@
       const rules = SIZE_RULES[category];
       if (!rules) return null;
       const candidates = shuffle(rules.thresholds, rng);
+      // The share is measured over the rows that can answer a size rule at
+      // all: a size-0 row (no sourced figure, SPEC 4) satisfies neither side,
+      // so counting it would make "smaller than X" look rare in a cohort
+      // where most rows are simply unmeasured (the 2026-09-17 seas audit).
+      const sized = eligibleCount(cohort, (entry) => entry.size > 0);
       for (const value of candidates) {
         for (const op of shuffle(['over', 'under'], rng)) {
           const rule = { op, value };
           const n = eligibleCount(cohort, (entry) => satisfiesSize(entry, rule));
-          if (n >= MIN_ELIGIBLE && n <= cohort.entries.length * MAX_ELIGIBLE_SHARE) return rule;
+          if (n >= MIN_ELIGIBLE && n <= sized * MAX_ELIGIBLE_SHARE) return rule;
         }
       }
       return null;

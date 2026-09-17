@@ -130,7 +130,7 @@ Austria|Vienna|9100000|Europe|Western Europe
 Switzerland|Bern|8800000|Europe|Western Europe||Berne
 Serbia|Belgrade|6800000|Europe|Eastern Europe
 Bulgaria|Sofia|6500000|Europe|Eastern Europe
-Denmark|Copenhagen|5900000|Europe|Scandinavia & the Nordics
+Denmark|Copenhagen|5900000|Europe|Scandinavia & the Nordics|Danmark
 Slovakia|Bratislava|5800000|Europe|Eastern Europe|Slovak Republic
 Finland|Helsinki|5600000|Europe|Scandinavia & the Nordics
 Norway|Oslo|5500000|Europe|Scandinavia & the Nordics

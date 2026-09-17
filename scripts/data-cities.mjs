@@ -778,7 +778,7 @@ Almere|Netherlands|218000
 Delft|Netherlands|105000
 Gouda|Netherlands|75000
 Venlo|Netherlands|102000
-Zaandam|Netherlands|76000
+Zaandam|Netherlands|76000|Zaanstad
 Volendam|Netherlands|22000
 Edam|Netherlands|7500
 Middelburg|Netherlands|50000
@@ -3312,7 +3312,7 @@ Huddersfield|United Kingdom|162949
 Leamington Spa|United Kingdom|50699|Leamington
 Hemel Hempstead|United Kingdom|94932
 Burton upon Trent|United Kingdom|75074|Burton
-Monchengladbach|Germany|267176
+Monchengladbach|Germany|267176|Moenchengladbach
 West Bromwich|United Kingdom|146386
 Kaiserslautern|Germany|100247
 La Spezia|Italy|92119
@@ -3329,7 +3329,7 @@ Barnsley|United Kingdom|245199
 Pavia|Italy|70636
 Sanremo|Italy|52787|San Remo
 Beziers|France|81545
-Osnabruck|Germany|166257
+Osnabruck|Germany|166257|Osnabrueck
 Alcobendas|Spain|123342
 Foggia|Italy|145348
 Harlow|United Kingdom|82059
@@ -3376,7 +3376,7 @@ Bremerhaven|Germany|118502
 Schwerin|Germany|97922
 Lorient|France|58329
 Carrara|Italy|59905
-Gorlitz|Germany|55065
+Gorlitz|Germany|55065|Goerlitz
 Castellon de la Plana|Spain|183711|Castellon
 Basildon|United Kingdom|185900
 Benevento|Italy|56201
@@ -3389,7 +3389,7 @@ L'Aquila|Italy|70344|Aquila
 Kirkcaldy|United Kingdom|50010
 L'Hospitalet de Llobregat|Spain|289510|Hospitalet
 Ludwigshafen|Germany|177355
-Luneburg|Germany|74502
+Luneburg|Germany|74502|Lueneburg
 Loughborough|United Kingdom|64880
 Amstelveen|Netherlands|94435
 Paderborn|Germany|155906
@@ -3448,7 +3448,7 @@ Bourges|France|64186
 Ferrol|Spain|64367
 Bracknell|United Kingdom|60077
 Deventer|Netherlands|101236
-Furth|Germany|131344
+Furth|Germany|131344|Fuerth
 Quimper|France|64385
 Portimao|Portugal|59845
 Beauvais|France|55550
@@ -3512,7 +3512,7 @@ Widnes|United Kingdom|61464
 La Linea de la Concepcion|Spain|64499|La Linea
 Terni|Italy|106370
 Almada|Portugal|177238
-Gutersloh|Germany|99854
+Gutersloh|Germany|99854|Guetersloh
 Latina|Italy|127564
 Schweinfurt|Germany|54539
 Eastleigh|United Kingdom|78716
@@ -3538,7 +3538,7 @@ Wesel|Germany|60717
 Detmold|Germany|74438
 Levallois-Perret|France|68092
 Santarem|Portugal|62200
-Wolfenbuttel|Germany|52511
+Wolfenbuttel|Germany|52511|Wolfenbuettel
 Bergen op Zoom|Netherlands|66445
 Oberhausen|Germany|213178
 Heerenveen|Netherlands|50650
@@ -3554,7 +3554,7 @@ Pordenone|Italy|51725
 Aviles|Spain|75517
 Crosby|United Kingdom|51789
 Fiumicino|Italy|81426
-Mulheim|Germany|171674
+Mulheim|Germany|171674|Muelheim
 Neuss|Germany|153767
 Roermond|Netherlands|57308
 Cagnes-sur-Mer|France|53354
@@ -3564,7 +3564,7 @@ El Puerto de Santa Maria|Spain|89983|Puerto de Santa Maria
 Figueira da Foz|Portugal|62125|Figueira
 Hyeres|France|55858
 Aubervilliers|France|88365
-Russelsheim am Main|Germany|66028|Russelsheim
+Russelsheim am Main|Germany|66028|Russelsheim,Ruesselsheim am Main,Ruesselsheim
 Colombes|France|91053
 Gera|Germany|95162
 Mostoles|Spain|214817
@@ -3576,7 +3576,7 @@ Barcelos|Portugal|116752
 Povoa de Varzim|Portugal|63408
 Seixal|Portugal|166507
 Wetzlar|Germany|54865
-Duren|Germany|94539
+Duren|Germany|94539|Dueren
 Giessen|Germany|88544
 Manresa|Spain|80974
 Massa|Italy|66160
@@ -3587,7 +3587,7 @@ Neubrandenburg|Germany|59494
 Altamura|Italy|69880
 Amarante|Portugal|56264
 Loule|Portugal|70622
-Lorrach|Germany|51274
+Lorrach|Germany|51274|Loerrach
 Reutlingen|Germany|119040
 Talavera de la Reina|Spain|83803|Talavera
 Torrejon de Ardoz|Spain|143526|Torrejon
@@ -3628,8 +3628,8 @@ Waiblingen|Germany|57186
 Zoetermeer|Netherlands|125267
 Clamart|France|58576
 Dos Hermanas|Spain|142519
-Goppingen|Germany|58678
-Schwabisch Gmund|Germany|63930
+Goppingen|Germany|58678|Goeppingen
+Schwabisch Gmund|Germany|63930|Schwaebisch Gmuend
 Batley|United Kingdom|80485
 Beeston|United Kingdom|52000
 Plauen|Germany|64893
@@ -3638,7 +3638,7 @@ Barakaldo|Spain|102986
 Foligno|Italy|55226
 Heerlen|Netherlands|86936
 Hengelo|Netherlands|81049
-Hurth|Germany|61732
+Hurth|Germany|61732|Huerth
 Lorca|Spain|98969
 Neuwied|Germany|67201
 Teramo|Italy|51548
@@ -3653,9 +3653,9 @@ Iserlohn|Germany|91317
 Saint-Maur-des-Fosses|France|76572|Saint-Maur
 Vila Real|Portugal|51850
 Aulnay-sous-Bois|France|87599
-Boblingen|Germany|51204
+Boblingen|Germany|51204|Boeblingen
 Lippstadt|Germany|68383
-Neumunster|Germany|80145
+Neumunster|Germany|80145|Neumuenster
 Villejuif|France|60183
 Villeneuve-d'Ascq|France|62868
 Bottrop|Germany|118482
@@ -3699,7 +3699,7 @@ Bocholt|Germany|73048
 Chiclana de la Frontera|Spain|90864|Chiclana
 Harderwijk|Netherlands|50000
 Lahr|Germany|51208
-Ludenscheid|Germany|70810
+Ludenscheid|Germany|70810|Luedenscheid
 Rowley Regis|United Kingdom|50257
 San Sebastian de los Reyes|Spain|96992
 Torrelavega|Spain|51796
@@ -3720,7 +3720,7 @@ Velletri|Italy|52528
 Cerignola|Italy|56978
 Herne|Germany|156266
 La Seyne-sur-Mer|France|63732
-Lunen|Germany|85844
+Lunen|Germany|85844|Luenen
 Euskirchen|Germany|59977
 Lingen|Germany|56539
 Nordhorn|Germany|57372
@@ -3742,14 +3742,13 @@ Capelle aan den IJssel|Netherlands|67319
 Champigny-sur-Marne|France|78072
 Sevran|France|52535
 Troisdorf|Germany|75742
-Zaanstad|Netherlands|156901
 Alcorcon|Spain|175719
 Bloxwich|United Kingdom|51879
 Gladbeck|Germany|75647
 Le Blanc-Mesnil|France|62376
 Eschweiler|Germany|57573
 Pantin|France|61929
-Sankt Augustin|Germany|56033
+Sankt Augustin|Germany|56033|St Augustin
 Stolberg|Germany|57678
 Viladecans|Spain|67587
 Vittoria|Italy|63316
@@ -3791,7 +3790,7 @@ Marco de Canaveses|Portugal|53450
 Portici|Italy|52054
 Alcala de Guadaira|Spain|77474
 Herten|Germany|60707
-Ibbenburen|Germany|51596
+Ibbenburen|Germany|51596|Ibbenbueren
 Marl|Germany|86899
 Meerbusch|Germany|56947
 Montijo|Portugal|51222

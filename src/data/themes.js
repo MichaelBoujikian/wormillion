@@ -1255,7 +1255,9 @@ globalThis.WORMILLION_THEMES = {
       'Dragonera', 'Budelli', 'Marettimo', 'Filicudi', 'Levanzo',
       'Palmaria', 'Il Gallo Lungo', 'Palmarola', 'Gaiola Island', 'Pellestrina',
       "S'Espalmador", "Sant'Elena", 'Giannutri', 'Barbana', "Sant'Erasmo",
-      'Isola Sacra', 'Santo Stefano', 'Spargi', 'Illa Conillera'
+      'Isola Sacra', 'Santo Stefano', 'Spargi', 'Illa Conillera',
+      // add-theme.mjs
+      'Cavallo', 'San Giorgio Maggiore'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
@@ -1276,7 +1278,9 @@ globalThis.WORMILLION_THEMES = {
       'Necker Island', 'Lisianski Island', 'Tern Island', 'Kaula', 'Lehua', 'Mokolii', 'French Frigate Shoals', 'Gardner Pinnacles', 'Maro Reef',
       // 2026-09-14 expansion
       'Kahoolawe', 'Molokini', 'Ford Island', 'Laysan', 'Hawaiian Islands',
-      'Kure Atoll', 'Nihoa'],
+      'Kure Atoll', 'Nihoa',
+      // add-theme.mjs
+      'Sand Island', 'Coconut Island'],
     'Scotland': [
       'Isle of Skye', 'Lewis and Harris', 'Shetland Mainland', 'Orkney Mainland',
       'Mull', 'Islay', 'Jura', 'Arran', 'Bute', 'North Uist', 'South Uist',
@@ -1299,18 +1303,18 @@ globalThis.WORMILLION_THEMES = {
       'Scalpay', 'Barra Head', 'Little Cumbrae', 'Scarba', 'Handa Island',
       'Inchmarnock', 'Mousa', 'Scarp', 'Soay', 'Craigleith',
       'Flotta', 'Oronsay', 'Eriska', 'Hestan Island', 'Inishail',
-      'Isle of Ewe', 'Pabbay', 'Ward Hill', 'Egilsay', 'Isle of Noss',
+      'Isle of Ewe', 'Pabbay', 'Egilsay', 'Isle of Noss',
       'Burray', 'Cava', 'Eilean Munde', 'Graemsay', 'Horse Isle',
       'Lunga', 'West Burra', 'Wyre', 'Baleshare', 'Carna',
       'Eilean Domhnuill', 'Inchgalbraith', 'Isle Maree', 'Muckle Roe', 'Vallay',
       'Eilean nan Ron', 'Fara', 'Fraoch Eilean', 'Gairsay', 'Hinba',
-      'Mullion Island', 'Pabay', 'South Walls', 'Torsa', 'Alloa Inch',
-      'Boreray', 'Burra', 'Dore Holm', 'Ensay', 'Neish Island',
-      'Preston Island', 'Priest Island', 'Sandray', 'Trondra', 'East Burra',
+      'Pabay', 'South Walls', 'Torsa', 'Alloa Inch',
+      'Boreray', 'Dore Holm', 'Ensay', 'Neish Island',
+      'Priest Island', 'Sandray', 'Trondra', 'East Burra',
       'Eilean Subhainn', 'Hildasay', 'Housay', 'Hunda', 'Isle Ristol',
       'Little Bernera', 'Longa Island', 'Pabaigh Mor', 'Ronay', 'Seaforth Island',
       'Uyea', 'Vementry',
-      'Lettermullen', 'Shapinsay'
+      'Shapinsay'
     ],
     'Japan': [
       'Honshu', 'Hokkaido', 'Kyushu', 'Shikoku', 'Okinawa Island', 'Sado Island',
@@ -1668,7 +1672,7 @@ globalThis.WORMILLION_THEMES = {
       'Firth of Tay', 'Hvalfjordur', 'Mont-Saint-Michel Bay', "Mount's Bay", 'Baie de Somme',
       'Flensburg Firth', 'Cromarty Firth', 'Eyjafjordur', 'Schlei', 'Blacksod Bay',
       'Loch Ewe', 'Mulroy Bay', 'Sandwood Bay', 'Three Cliffs Bay', 'Trondheim Fjord',
-      'Breidafjordur', 'Iceland Sea', 'Murlough Bay', 'Alum Bay', 'Botany Bay',
+      'Breidafjordur', 'Iceland Sea', 'Murlough Bay', 'Alum Bay',
       'Brittas Bay', 'Whitsand Bay', 'Baie de Douarnenez', 'Bracklesham Bay', 'Loch Broom',
       'Gare Loch', 'Liverpool Bay', 'Marshall Meadows Bay', 'Baie des Anges', 'Compton Bay',
       'Pegwell Bay', 'Sullom Voe', 'Nordfjorden', 'Watergate Bay', 'Faxafloi',
@@ -1685,11 +1689,9 @@ globalThis.WORMILLION_THEMES = {
       'Loch Alsh', 'Loch Striven', 'Lyngen', 'Nigg Bay', 'Rest Bay',
       'Ringstead Bay', 'Romsdalsfjord', 'Varangerfjord', 'Vejle Fjord', 'Basque Roads',
       'Gills Bay', 'Gruinard Bay', 'Hunafloi', 'Killala Bay', 'Loch Sunart',
-      'Mulciber', 'Pease Bay', 'Porlock Bay', 'St Ives Bay', 'Sunnylvsfjorden',
-      'Worbarrow Bay', 'Isafjardardjup', 'Baie de Seine', 'Bay of Skaill', 'Clarach Bay',
-      'Dundrum Bay', 'Gulf of Gaeta', 'Hornsund', 'Langdon Bay', 'Loch Fleet',
-      'Loch na Keal', 'Luce Bay', 'Maurangerfjorden', 'Porsangerfjorden', 'Rombaken',
-      'Skjomen', 'Skjalfandi', 'Stagnone Lagoon', 'Weymouth Bay', 'Lulworth Cove'
+      'Pease Bay', 'Porlock Bay', 'St Ives Bay', 'Sunnylvsfjorden',
+      'Worbarrow Bay', 'Isafjardardjup',
+      'Lulworth Cove'
     ],
     'Asia': [
       'South China Sea', 'East China Sea', 'Yellow Sea', 'Sea of Japan',
@@ -1738,7 +1740,7 @@ globalThis.WORMILLION_THEMES = {
       'Massacre Bay', 'Great South Bay', 'Kaneʻohe Bay', 'Resurrection Bay', 'Corpus Christi Bay',
       'Kachemak Bay', 'Ocracoke Inlet', 'Oregon Inlet', 'Provincetown Harbor', 'Choctawhatchee Bay',
       'Elkhorn Slough', 'Trunk Bay', 'Admiralty Inlet', 'Lake Worth Lagoon', 'Chequamegon Bay',
-      'Newark Bay', 'San Bernardino Strait', 'Willapa Bay', 'Puerto Mosquito', 'Rhode Island Sound',
+      'Newark Bay', 'Willapa Bay', 'Puerto Mosquito', 'Rhode Island Sound',
       'Winyah Bay', 'Peconic Bay', 'Trinity Bay', 'Commencement Bay', 'Knik Arm',
       'Manasquan Inlet', 'Wallabout Bay', 'Flushing Bay', 'Mosquito Lagoon', 'Boundary Bay',
       'Charlotte Harbor', 'Gastineau Channel', 'Haro Strait', 'Hilo Bay', 'Sebastian Inlet',
@@ -1757,14 +1759,10 @@ globalThis.WORMILLION_THEMES = {
       'Stephens Passage', 'Turtle Bay', 'Useless Bay', 'Vineyard Sound', 'Anchor Bay',
       'Half Moon Bay', 'Hallo Bay', 'Isabel Inlet', 'La Perouse Bay', 'Muscongus Bay',
       'Oakland Estuary', 'Rehoboth Bay', 'Richardson Bay', 'Sarasota Bay', 'Alamitos Bay',
-      'Bay of St. Louis', 'Fairhaven Bay', 'Haverstraw Bay', 'Little Bay de Noc', 'Moriches Inlet',
+      'Haverstraw Bay', 'Little Bay de Noc', 'Moriches Inlet',
       'Murder Cove', 'Padilla Bay', 'Shoup Bay', 'Tumon Bay',
-      'Batiquitos Lagoon', 'Big Lagoon', 'Bolinas Lagoon', 'Chincoteague Bay', 'Cobscook Bay',
-      'Columbia River Estuary', 'Copano Bay', 'Drakes Estero', 'Fire Island Inlet', 'Keweenaw Bay',
-      'Lavaca Bay', 'Matanzas Bay', 'Nehalem Bay', 'Ponce de Leon Inlet', 'Port Susan',
-      'Rockaway Inlet', 'San Elijo Lagoon', 'Semiahmoo Bay', 'Shark River Inlet', 'Shilshole Bay',
-      'Sinepuxent Bay', 'South Oyster Bay', 'St. Lucie Inlet', 'Tongass Narrows', 'Union Bay',
-      'Whale Cove'
+      'Semiahmoo Bay',
+      
     ],
     'the Antarctic': [
       'Weddell Sea', 'Ross Sea', 'Amundsen Sea', 'Bellingshausen Sea',

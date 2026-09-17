@@ -119,9 +119,40 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- 2026-09-17 islands audit: 25 wave islands in lakes and rivers (the Thousand Islands, Sandusky Bay, Lake Ontario, Lake Erie, the St. Clair River, Crater Lake, Lake George FL, American Lake, St. George Lake, the Mississippi, the Tennessee, the Columbia, the Delta, Saimaa, Lough Derg, Malaren, Vanern, Riddarfjarden, Mjosa, the Ermal reservoir, Loch Olabhat) and four pre-wave Great Lakes rows carried an ocean ---
+  'island-just-room-enough-island': [],
+  'island-wellesley-island': [],
+  'island-johnson-s-island': [],
+  'island-stony-island': [],
+  'island-starve-island': [],
+  'island-russell-island': [],
+  'island-wizard-island': [],
+  'island-drayton-island': [],
+  'island-silcox-island': [],
+  'island-hawaii-2': [],
+  'island-mosenthein-island': [],
+  'island-hobbs-island': [],
+  'island-clover-island': [],
+  'island-tinsley-island': [],
+  'island-brannan-island': [],
+  'island-saaminginsalo': [],
+  'island-soisalo': [],
+  'island-inis-cealtra': [],
+  'island-lovon': [],
+  'island-selaon': [],
+  'island-torso': [],
+  'island-riddarholmen': [],
+  'island-helgoya': [],
+  'island-ermal-island': [],
+  'island-eilean-domhnuill': [],
+  'island-goat-island': [],
+  'island-south-bass-island': [],
+  'island-apostle-islands': [],
+  'island-devils-island': [],
+
   // --- US no-figure islands re-run (2026-09-17): ten articles without coordinates, placed by hand (Sea Island GA, Heart Island NY (Boldt Castle), Enders CT, Bloodsworth MD, Summerland Key FL, Long Beach Barrier Island NY, Nixes Mate MA, Ragged Island ME on the Atlantic; Allan Island WA and Sutwik Island AK on the Pacific) ---
   'island-sea-island': ['Atlantic'],
-  'island-heart-island': ['Atlantic'],
+  'island-heart-island': [], // the Thousand Islands, St. Lawrence River (2026-09-17 audit)
   'island-enders-island': ['Atlantic'],
   'island-bloodsworth-island': ['Atlantic'],
   'island-summerland-key': ['Atlantic'],
@@ -142,7 +173,6 @@ export const OCEAN_OVERRIDES = {
   'island-wheeling-island': [],
   'island-charity-island': [],
   'island-grindstone-island': [],
-  'island-oak-island': [],
   'island-government-island': [],
   'island-constitution-island': [],
   'island-doty-island': [],
@@ -162,7 +192,6 @@ export const OCEAN_OVERRIDES = {
   'island-virginius-island': [],
   'island-blaine-island': [],
   'island-buffington-island': [],
-  'island-horseshoe-island': [],
   'island-middle-island': [],
   'island-stockton-island': [],
   'island-whiskey-island': [],
@@ -437,8 +466,6 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-big-bay-de-noc': [],
   'sea_ocean-little-bay-de-noc': [],
   'sea_ocean-anchor-bay': [],
-  'sea_ocean-keweenaw-bay': [],
-  'sea_ocean-union-bay': [],
   'sea_ocean-portage-bay': [],
   'sea_ocean-salmon-bay': [],
   // coastal bays whose coordinates fall outside every ocean box
@@ -447,8 +474,6 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-oregon-inlet': ['Atlantic'],
   'sea_ocean-lake-worth-lagoon': ['Atlantic'],
   'sea_ocean-chef-menteur-pass': ['Atlantic'],
-  'sea_ocean-big-lagoon': ['Pacific'],
-  'sea_ocean-st-lucie-inlet': ['Atlantic']
 };
 
 /** Final answer for one entry. */
