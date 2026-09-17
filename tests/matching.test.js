@@ -258,3 +258,57 @@ test("a loose form from an entry's name beats the same form from another's alias
   ]);
   assert.strictEqual(matching.matchAnswer('Arabian', reversed, new Set()).entryId, 'arabian-sea');
 });
+
+test('a generic word of another category is not filler (2026-09-16)', () => {
+  // The river cohort knows it is the river cohort: "lake", "mount" and "city"
+  // are somebody else's words, so the loose pass keeps them and the fuzzy
+  // pass compares whole strings only.
+  const rivers = matching.buildLookup([
+    { id: 'river-michigan', name: 'Michigan River', aliases: [] },
+    { id: 'river-rapid', name: 'Rapid River', aliases: [] },
+    { id: 'river-foraker', name: 'Foraker River', aliases: [] },
+    { id: 'river-willow', name: 'Willow River', aliases: [] },
+    { id: 'river-meade', name: 'Meade River', aliases: [] }
+  ], { category: 'river' });
+  assert.strictEqual(matching.matchAnswer('Lake Michigan', rivers, null).status, 'unrecognized');
+  assert.strictEqual(matching.matchAnswer('Rapid City', rivers, null).status, 'unrecognized');
+  assert.strictEqual(matching.matchAnswer('Mount Foraker', rivers, null).status, 'unrecognized');
+  assert.strictEqual(matching.matchAnswer('Willow Reservoir', rivers, null).status, 'unrecognized');
+  // ...while its own word, or nobody's, is as optional as ever
+  assert.strictEqual(matching.matchAnswer('Michigan', rivers, null).entryId, 'river-michigan');
+  assert.strictEqual(matching.matchAnswer('Rapid River', rivers, null).entryId, 'river-rapid');
+  assert.strictEqual(matching.matchAnswer('the Rapid', rivers, null).entryId, 'river-rapid');
+  assert.strictEqual(matching.matchAnswer('Rio Rapid', rivers, null).entryId, 'river-rapid');
+  // and a typo in a whole name still corrects
+  assert.strictEqual(matching.matchAnswer('Michigan Rivver', rivers, null).status, 'corrected');
+  // the lake cohort keeps "lake" optional and does not see "Lake Meade" as Meade River's
+  const lakes = matching.buildLookup([{ id: 'lake-mead', name: 'Lake Mead', aliases: [] }], { category: 'lake' });
+  const meade = matching.matchAnswer('Lake Meade', lakes, null);
+  assert.strictEqual(meade.status, 'corrected');
+  assert.strictEqual(meade.entryId, 'lake-mead');
+  assert.strictEqual(matching.matchAnswer('Lake Meade', rivers, null).status, 'unrecognized');
+  // "city" belongs to cities and capitals alike; a lookup with no category is as loose as before
+  const capitals = matching.buildLookup([{ id: 'capital-mexico-city', name: 'Mexico City', aliases: [] }], { category: 'capital' });
+  assert.strictEqual(matching.matchAnswer('Mexico', capitals, null).entryId, 'capital-mexico-city');
+  const countries = matching.buildLookup([{ id: 'country-mexico', name: 'Mexico', aliases: [] }], { category: 'country' });
+  assert.strictEqual(matching.matchAnswer('Mexico City', countries, null).status, 'unrecognized');
+  const untyped = matching.buildLookup([{ id: 'country-mexico', name: 'Mexico', aliases: [] }]);
+  assert.strictEqual(matching.matchAnswer('Mexico City', untyped, null).entryId, 'country-mexico');
+  assert.deepStrictEqual(matching.WORD_CATEGORY.city, ['city', 'capital']);
+  assert.strictEqual(matching.foreignWordIn('lake tahoe', 'lake'), false);
+  assert.strictEqual(matching.foreignWordIn('lake tahoe', 'river'), true);
+  assert.strictEqual(matching.foreignWordIn('cape town', 'river'), false);
+});
+
+test('a typed plural is never corrected onto its singular namesake (2026-09-16)', () => {
+  const lakes = matching.buildLookup([
+    { id: 'lake-great-lake', name: 'Great Lake', aliases: [] },
+    { id: 'lake-loch-ness', name: 'Loch Ness', aliases: [] },
+    { id: 'lake-bear-lake', name: 'Bear Lake', aliases: [] }
+  ], { category: 'lake' });
+  assert.strictEqual(matching.matchAnswer('Great Lakes', lakes, null).status, 'unrecognized');
+  assert.strictEqual(matching.matchAnswer('Bear Lakes', lakes, null).status, 'unrecognized');
+  // a real typo still corrects, s or no s
+  assert.strictEqual(matching.matchAnswer('Loch Nesss', lakes, null).entryId, 'lake-loch-ness');
+  assert.strictEqual(matching.matchAnswer('Great Lkae', lakes, null).entryId, 'lake-great-lake');
+});

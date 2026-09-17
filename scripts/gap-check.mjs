@@ -74,7 +74,7 @@ for (const entries of Object.values(buildFiles())) {
 let missing = 0;
 let corrected = 0;
 for (const [category, answers] of Object.entries(EXPECTED)) {
-  const lookup = matching.buildLookup(byCategory.get(category) || []);
+  const lookup = matching.buildLookup(byCategory.get(category) || [], { category });
   const gaps = [];
   for (const answer of answers) {
     const result = matching.matchAnswer(answer, lookup, new Set());

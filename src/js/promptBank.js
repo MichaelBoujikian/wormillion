@@ -438,7 +438,7 @@
         entries,
         byId: new Map(entries.map((e) => [e.id, e])),
         stats: rarity.cohortStats(entries),
-        lookup: matching.buildLookup(entries),
+        lookup: matching.buildLookup(entries, { category }),
         subsetLookups: new Map()
       });
     }
@@ -498,7 +498,7 @@
     function subsetLookup(cohort, key, filter) {
       if (!key) return cohort.lookup;
       if (!cohort.subsetLookups.has(key)) {
-        cohort.subsetLookups.set(key, matching.buildLookup(cohort.entries.filter(filter)));
+        cohort.subsetLookups.set(key, matching.buildLookup(cohort.entries.filter(filter), { category: cohort.category }));
       }
       return cohort.subsetLookups.get(key);
     }

@@ -48,6 +48,28 @@
   /** The generic words in a normalized key, in order. */
   const fillerIn = (key) => key.split(' ').filter((w) => FILLER.has(w));
 
+  // Which category each generic word belongs to. A lookup built for a cohort
+  // (`buildLookup(entries, { category })`) drops a generic word only when it
+  // is that cohort's own word or nobody's: "Lake Michigan" on a river round
+  // is not Michigan River, "Rapid City" is not Rapid River, "Mount Foraker"
+  // is not Foraker River, and "Lake Meade" on a lake round is Lake Mead even
+  // when a river is called Meade (2026-09-16, SPEC 3.7). "the", "of",
+  // "saint", "st" and "cape" belong to nobody and never get in the way.
+  const WORD_CATEGORY = {
+    mount: ['mountain'], mt: ['mountain'], mountain: ['mountain'], peak: ['mountain'], hill: ['mountain'],
+    lake: ['lake'], loch: ['lake'], lough: ['lake'], llyn: ['lake'], reservoir: ['lake'],
+    river: ['river'], rio: ['river'],
+    sea: ['sea_ocean'], ocean: ['sea_ocean'], gulf: ['sea_ocean'], bay: ['sea_ocean'],
+    island: ['island'], islands: ['island'], isle: ['island'], isles: ['island'], atoll: ['island'],
+    desert: ['desert'],
+    city: ['city', 'capital']
+  };
+  /** True when the key carries a generic word that names a category other than `category`. */
+  function foreignWordIn(key, category) {
+    if (!category) return false;
+    return fillerIn(key).some((w) => WORD_CATEGORY[w] && !WORD_CATEGORY[w].includes(category));
+  }
+
   /**
    * The identifying words of a name, filler removed. Empty if it is all filler.
    * Pass a different `filler` set to strip by a different rule (the letter
@@ -108,9 +130,13 @@
    * Flat normalized-string -> entry id map for a cohort, plus the loose and
    * fuzzy indexes. Built once per prompt, never per keystroke.
    * @param {{id:string,name:string,aliases?:string[]}[]} entries
+   * @param {{category?:string}} [options]  the cohort's category, so the loose
+   *   and fuzzy passes know which generic words are its own (WORD_CATEGORY);
+   *   without it every generic word is optional, as before
    */
-  function buildLookup(entries) {
+  function buildLookup(entries, options) {
     const lookup = new Map();
+    lookup.category = (options && options.category) || null;
     const candidates = [];
     const claims = new Map(); // bare -> [{ id, fromName }]
 
@@ -188,6 +214,11 @@
     let winners = [];
 
     for (const candidate of candidates) {
+      // A typed plural is not a typo for the singular namesake: "Great Lakes"
+      // is not Great Lake (Tasmania), "Bear Lakes" is not Bear Lake
+      // (2026-09-16). "Loch Nesss" is still a typo: nothing ending in s
+      // takes a plural s.
+      if (key === candidate.key + 's' && !candidate.key.endsWith('s')) continue;
       const shares = sharedWordMax > 0 && candidate.filler.some((w) => typedFiller.includes(w));
       const fullMax = Math.max(max, shares ? sharedWordMax : 0);
       let score = Infinity;
@@ -234,10 +265,16 @@
     const exact = lookup.get(key);
     if (exact) return settle(exact, 'accepted', { matched: key });
 
+    // A generic word of ANOTHER category is not filler here: "Lake Michigan"
+    // on a river round names a lake, and dropping "lake" to find Michigan
+    // River would score the wrong place. Only the whole string is compared
+    // from here on (run.js then finds the lake and says so).
+    const foreign = foreignWordIn(key, lookup.category);
+
     // Filler is optional in both directions: "Everest" finds "Mount Everest"
     // through the loose index, and "Mount Denali" finds "Denali" by dropping
     // the filler the player added and trying the exact names again.
-    if (!options || options.loose !== false) {
+    if ((!options || options.loose !== false) && !foreign) {
       const bare = looseKey(key);
       const loose =
         (lookup.loose && (lookup.loose.get(key) || lookup.loose.get(bare))) ||
@@ -246,12 +283,12 @@
     }
 
     if (!options || options.fuzzy !== false) {
-      const near = nearest(key, lookup, options);
+      const near = nearest(key, lookup, foreign ? Object.assign({}, options, { bare: false }) : options);
       if (near) return settle(near.id, 'corrected', { typed: rawInput.trim(), matched: near.key });
     }
 
     return { status: 'unrecognized' };
   }
 
-  return { normalize, looseKey, editDistance, slackFor, buildLookup, resolveLoose, matchAnswer, FILLER };
+  return { normalize, looseKey, editDistance, slackFor, buildLookup, resolveLoose, matchAnswer, FILLER, WORD_CATEGORY, foreignWordIn };
 });

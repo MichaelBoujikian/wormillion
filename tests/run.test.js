@@ -527,3 +527,38 @@ test('a stored daily reviews from its key: the same prompts come back', () => {
   assert.deepStrictEqual(review.map((r) => r.answer && r.answer.a), results.map((r) => r.answer));
   assert.ok(results.some((r) => r.status === 'accepted') && results.some((r) => r.status === 'timeout'));
 });
+
+test('a generic word of another category is a nudge, not a loose hit (2026-09-16)', () => {
+  // "Lake Michigan" on a river round used to score Michigan River through the
+  // loose pass (950 points for the wrong place); "Lake Meade" on a lake round
+  // was blocked from correcting to Lake Mead because a river is called Meade.
+  const local = promptBank.createBank({
+    ...RAW,
+    lakes: [...RAW.lakes, ...simple('lake', 'area_km2', [['Lake Michigan', 58000], ['Lake Mead', 640]])],
+    rivers: [...RAW.rivers, ...simple('river', 'length_km', [['Michigan River', 150], ['Meade River', 180], ['Rapid River', 120]])],
+    cities: [...RAW.cities, { id: 'city-rapid-city', category: 'city', name: 'Rapid City', aliases: [], magnitude: 80000, magnitudeUnit: 'population', region: ['North America'], country: 'France', source: 'fixture' }]
+  }, THEMES);
+  const on = (category, input) => {
+    const run = runner.createRun(local, { rounds: 1 });
+    run.state.slots[0] = { category };
+    return run.submit(input);
+  };
+  const lake = on('river', 'Lake Michigan');
+  assert.strictEqual(lake.status, 'unrecognized');
+  assert.strictEqual(lake.elsewhere.entry.name, 'Lake Michigan');
+  assert.strictEqual(lake.elsewhere.category, 'lake');
+  const city = on('river', 'Rapid City');
+  assert.strictEqual(city.status, 'unrecognized');
+  assert.strictEqual(city.elsewhere.category, 'city');
+  // the river's own word, or a bare name, still lands
+  assert.strictEqual(on('river', 'Michigan').entry.name, 'Michigan River');
+  assert.strictEqual(on('river', 'Rapid').entry.name, 'Rapid River');
+  assert.strictEqual(on('river', 'Michigan River').status, 'accepted');
+  // and the in-category correction is no longer blocked by the river's loose form
+  const mead = on('lake', 'Lake Meade');
+  assert.strictEqual(mead.status, 'accepted');
+  assert.strictEqual(mead.entry.name, 'Lake Mead');
+  assert.strictEqual(mead.correctedFrom, 'Lake Meade');
+  // a plural typed is not the singular namesake
+  assert.strictEqual(on('lake', 'Lake Meads').status, 'unrecognized');
+});
