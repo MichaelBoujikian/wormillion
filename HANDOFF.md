@@ -296,8 +296,16 @@ kept as written so the reasoning survives.
   lakes were all in; only three unknown lakes clear 25 km² and two of those
   were a peninsula and a sea loch (the kind regex's `loch` matched
   "Lochaber"). `probe.mjs` / `chunk.mjs` now strip enwiki's comma
-  disambiguation for every category. **Probe 7: `de-lakes`** (1,063
-  articles, 54 present, 10 famous small ones) in its article pass.
+  disambiguation for every category. **Probes 7–9 done**: `de-lakes` 12
+  (`b74a4f4`), `fr-lakes` 16 (`e6c64f3`, Lac du Bourget was missing; the
+  Mediterranean étangs and the Grevelingen into `saltwater`), `it-es-lakes`
+  11 (`ac30f2f`, Lake Orta was missing; Alpine ones into `the Alps`).
+  Europe's lakes over 25 km² were nearly all in already; the chunks are the
+  famous small ones lifted by 1,000+ views. Sections of Lake Constance,
+  lagoon systems, the Azores/Madeira (islands the lists dragged in) and a
+  village article left out. **Probe 10: `nordic-lakes`** running (Sweden,
+  Norway, Denmark, Finland, Iceland — the big one; Sweden's 2026-09-15
+  probe used a 30 km² floor, this one 25).
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
