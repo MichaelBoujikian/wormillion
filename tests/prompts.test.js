@@ -240,8 +240,9 @@ function loadShippedBank() {
 // If this fails on purpose, that is the cost; update the pin knowingly.
 // 2026-09-16: round 12 was "Name a lake smaller than 100 km²." until the US
 // lakes fill (379 rows) took the lakes under 100 km² to 60.0% of the cohort,
-// one entry over MAX_ELIGIBLE_SHARE; the guard now refuses that rule and the
-// same seed draws "larger than". The bank, not the draw, moved the pin.
+// one entry over MAX_ELIGIBLE_SHARE 0.6; the guard refused that rule and the
+// same seed drew "larger than" for a day. The bar is 0.7 now (the user's
+// decision, same day) and round 12 is back to what shipped.
 test('dig #1 (2026-09-12) still asks the fifteen prompts it shipped with', () => {
   const runner = require('../src/js/run.js');
   const shipped = loadShippedBank();
@@ -260,7 +261,7 @@ test('dig #1 (2026-09-12) still asks the fifteen prompts it shipped with', () =>
       'Name a country with a long name (12+ letters).',
       'Name a sea in the Pacific Ocean.',
       'Name an island bigger than 100,000 km².',
-      'Name a lake larger than 100 km².',
+      'Name a lake smaller than 100 km².',
       'Name an island with a short name (5 letters or fewer).',
       'Name a mountain in the Alps.',
       'Name a non-capital city in a country whose flag has black in it.'
@@ -509,7 +510,7 @@ test('drawn flag rules leave enough answers and rule enough out (shipped bank)',
       const cohort = shipped.cohorts.get(slot.category);
       const n = cohort.entries.filter((entry) => promptBank.satisfiesFlag(entry, slot.flag)).length;
       assert.ok(n >= promptBank.MIN_ELIGIBLE, `${slot.flag.colours}: only ${n} answers`);
-      assert.ok(n <= cohort.entries.length * 0.6, `${slot.flag.colours}: ${n} answers barely narrows the field`);
+      assert.ok(n <= cohort.entries.length * promptBank.MAX_ELIGIBLE_SHARE, `${slot.flag.colours}: ${n} answers barely narrows the field`);
       assert.deepStrictEqual(slot.flag.colours, [...slot.flag.colours].sort(), 'pairs are in a fixed order');
     }
   }

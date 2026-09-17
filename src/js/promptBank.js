@@ -77,8 +77,11 @@
   // Mesopotamia" has exactly two right answers, and that is the point).
   const MIN_ELIGIBLE = 6;
   const MIN_THEME_MEMBERS = 2;
-  // ...and must actually rule something out.
-  const MAX_ELIGIBLE_SHARE = 0.6;
+  // ...and must actually rule something out. 0.6 until 2026-09-16: the US
+  // lakes fill took "smaller than 100 km2" to 60.0% of the cohort and the
+  // rule retired itself; every wave adds small lakes and blue-white-red
+  // flags, so the bar is 0.7 (the user's call, decision 2 of the US handoff).
+  const MAX_ELIGIBLE_SHARE = 0.7;
 
   // How a run ramps up (Spec 3.8): the first OPENING_ROUNDS are always plain,
   // then the chance a slot carries a modifier climbs linearly from START on the
@@ -801,6 +804,7 @@
     LETTER_FILLER,
     MIN_REGION_COUNTRIES,
     MIN_ELIGIBLE,
+    MAX_ELIGIBLE_SHARE,
     MIN_THEME_MEMBERS,
     OPENING_ROUNDS,
     MODIFIER_CHANCE_START,
