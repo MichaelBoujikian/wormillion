@@ -311,10 +311,17 @@ kept as written so the reasoning survives.
   **Views floors per cohort: rivers 30, lakes 61** — never at the cohort
   minimum. Report `reports/2026-09-17-europe-lakes.md`. Lakes done: cohort
   1,234 (was 1,157). `article-size.mjs` reads decimal commas now.
-- **Next: mountains** (`probes/*-mountains.json`, lists only; the views
-  floor is 122 as for the US — the mountain cohort's bottom is 30), then
-  islands, seas, deserts, cities, then the US no-figure re-runs (decision
-  1), then the audits of lakes + mountains.
+- **Mountains** (lists only, views floor 122 as for the US): `uk-mountains`
+  325 (`8671bb6`; Scotland +69, England or Wales +176 by description),
+  `de-mountains` 171 (`83e4346`; **the Alps theme 89 → 242** by
+  `range-tag.mjs` from the infobox range field — run it after `build-data`,
+  not after the fold, the new rows must be in `mountains.json`; Beerenberg
+  and Puy de Sancy into `volcanoes`). The Ultras / highest-points lists
+  drag in Greece, the Balkans, the Caucasus, Russia — dropped by hand each
+  time. Mountain cohort 2,480, jackpot 1.7%. `fr-mountains` running; then
+  `it-es-mountains`, `nordic-mountains`, then islands, seas, deserts,
+  cities, the US no-figure re-runs (decision 1), and the audits of lakes +
+  mountains.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
