@@ -484,9 +484,7 @@ globalThis.WORMILLION_THEMES = {
       'Schipbeek', 'Schmutter', 'Schwalm', 'Schwarze Laber', 'Selke',
       'Selz', 'Sinn', 'Soeste', 'Stepenitz', 'Trebel',
       'Triesting', 'Wern', 'Werse', 'Wesenitz', 'Wied',
-      'Wiesent', 'Wipper', 'Zusam', 'Ortze', 'Schwarzer Schops',
-      'Schwarzach', 'Pesnica', 'Haidenaab', 'Kraichbach', 'Untere Argen',
-      'Kleine Laber', 'Mildenitz', 'Kainach', 'Baunach', 'Pfreimd',
+      'Wiesent', 'Wipper', 'Zusam', 'Ortze',
       // 2026-09-14 expansion
       'Epte', 'Douve', 'Meurthe', 'Odet', 'Deule',
       'Drome', 'Huisne', 'Linge', 'Serein', 'Dives',
@@ -523,11 +521,6 @@ globalThis.WORMILLION_THEMES = {
       'Tardes', 'Tardoire', 'Taurion', 'Tavignano', 'Thore',
       'Tille', 'Touch', 'Varenne', 'Veyle', 'Vezouze',
       'Viaur', 'Vie', 'Yerres', 'Zorn', 'Evre',
-      'Alagnon', 'Claise', 'Petite Baise', 'Acolin', 'Arrats',
-      'Barguelonne', 'Moine', 'Orneau', 'Senouire', 'Luzege',
-      'Seiche', 'Semnon', 'Aubetin', 'Vair', 'Grande Sauldre',
-      'Petite Maine', 'Solnan', 'Chee', 'Leff', 'Auzoue',
-      'Rognon', 'Boues', 'Vegre', 'Petite Sauldre', 'Echez',
       // 2026-09-14 expansion
       'Rio Tinto', 'Busento', 'Guadalevin', 'Arlanza', 'Oja',
       'Irati', 'Maira', 'Senio', 'Torre', 'Adaja',
@@ -551,10 +544,6 @@ globalThis.WORMILLION_THEMES = {
       'Oca', 'Potenza', 'Saja', 'Sorbe', 'Tajuna',
       'Tammaro', 'Tanagro', 'Tenna', 'Tera', 'Tiron',
       'Trabancos', 'Urola', 'Varaita', 'Vomano', 'Zancara',
-      'Odelouca', 'Samoggia', 'Cua', 'Terdoppio', 'Valderaduey',
-      'Almonte', 'Alcanadre', 'Algodor', 'Corcoles', 'Bergantes',
-      'Mula', 'Huebra', 'Rabbi', 'Valdemembra', 'Valdavia',
-      'Zujar', 'Matachel',
       // 2026-09-14 expansion
       'Altaelva', 'Nordura', 'Jokulsa a Dal', 'Svartan', 'Lainio',
       'Lakselva', 'Anarjohka', 'Byske', 'Borselva', 'Laisalven',
@@ -568,14 +557,6 @@ globalThis.WORMILLION_THEMES = {
       'Rautas', 'Ronneby', 'Rottnan', 'Rane', 'Ronne',
       'Sagan', 'Simoa', 'Simojoki', 'Sira', 'Svartelva',
       'Tovdalselva', 'Vanan', 'Vojman', 'Ore', 'Osterdal',
-      'Janisjoki', 'Orealven', 'Lesser Lule', 'Alter', 'Alsteran',
-      'Perhonjoki', 'Raudanjoki', 'Vaskojoki', 'Lillpite', 'Nattrabyan',
-      'Tamnaran', 'Ljungby', 'Testeboan', 'Savar', 'Aby',
-      'Are', 'Fjallsjoalven', 'Kerasjoki', 'Kage', 'Natraan',
-      'Bolman', 'Tuntsayoki', 'Bodtraskan', 'Harmangersan', 'Logde',
-      'Sangis', 'Orekilsalven', 'Hornan', 'Sillerboan', 'Gide',
-      'Leduan', 'Olandsan', 'Tenniojoki', 'Vitan', 'Tarpianjoki',
-      'Botorpsstrommen', 'Siuruanjoki', 'Soderkopingsan'
     ],
     'India': [
       'Ganges', 'Brahmaputra', 'Indus', 'Yamuna', 'Godavari', 'Krishna River',

@@ -4535,17 +4535,6 @@ Wiesent|79
 Wipper|85
 Zusam|97
 Ortze|62|Oertze
-Schwarzer Schops|67|Schwarzer Schoeps
-Schwarzach|95
-Pesnica|69
-Haidenaab|69
-Kraichbach|60
-Untere Argen|70
-Kleine Laber|65
-Mildenitz|62
-Kainach|65
-Baunach|66
-Pfreimd|77
 Epte|113
 Douve|79
 Meurthe|161
@@ -4721,31 +4710,6 @@ Vie|62
 Yerres|98
 Zorn|97
 Evre|92
-Alagnon|87
-Claise|87
-Petite Baise|75
-Acolin|63
-Arrats|162
-Barguelonne|61
-Moine|69
-Orneau|68
-Senouire|63
-Luzege|64
-Seiche|97
-Semnon|73
-Aubetin|61
-Vair|65
-Grande Sauldre|85
-Petite Maine|68
-Solnan|62
-Chee|69
-Leff|62
-Auzoue|74
-Rognon|73
-Boues|63
-Vegre|84
-Petite Sauldre|63
-Echez|64
 Rio Tinto|100
 Busento|90
 Guadalevin|121
@@ -4856,23 +4820,6 @@ Urola|64
 Varaita|75
 Vomano|76
 Zancara|168
-Odelouca|84
-Samoggia|60
-Cua|62
-Terdoppio|86
-Valderaduey|158
-Almonte|97
-Alcanadre|147
-Algodor|102
-Corcoles|88
-Bergantes|60
-Mula|64
-Huebra|123
-Rabbi|63
-Valdemembra|85
-Valdavia|71
-Zujar|214
-Matachel|124
 Altaelva|240
 Nordura|62
 Jokulsa a Dal|150
@@ -4933,44 +4880,6 @@ Vanan|110
 Vojman|225
 Ore|225
 Osterdal|300
-Janisjoki|70
-Orealven|235
-Lesser Lule|238
-Alter|60
-Alsteran|100
-Perhonjoki|114
-Raudanjoki|150
-Vaskojoki|110
-Lillpite|90
-Nattrabyan|60
-Tamnaran|99
-Ljungby|62
-Testeboan|110
-Savar|140
-Aby|150
-Are|70
-Fjallsjoalven|80
-Kerasjoki|60
-Kage|70
-Natraan|100
-Bolman|150
-Tuntsayoki|150
-Bodtraskan|80
-Harmangersan|81
-Logde|200
-Sangis|109
-Orekilsalven|70
-Hornan|70
-Sillerboan|80
-Gide|225
-Leduan|60
-Olandsan|65
-Tenniojoki|73
-Vitan|100
-Tarpianjoki|65
-Botorpsstrommen|75
-Siuruanjoki|155
-Soderkopingsan|82
 `;
 
 export const MOUNTAINS = `
