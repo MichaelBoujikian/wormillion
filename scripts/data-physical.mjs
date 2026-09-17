@@ -1199,12 +1199,12 @@ Mississippi|3766-6275|Mississippi River
 Madeira|3250|Madeira River
 Purus|3211
 Yukon|3190|Yukon River
-Rio Grande|3051|Rio Bravo,Rio Bravo del Norte
+Rio Grande|3051|Rio Bravo,Rio Bravo del Norte,Grande
 Saint Lawrence|3058|St Lawrence
 Sao Francisco|2914|San Francisco
 Volga|3531|Volga River
 Indus|3180|Indus River
-Danube|2850|the Danube
+Danube|2850|the Danube,Donau,Dunaj,Duna,Dunav,Dunarea,Danubio
 Salween|2815
 Euphrates|2800
 Tocantins|2699
@@ -1222,13 +1222,13 @@ Colorado River|2330|Colorado
 Olenyok|2292
 Aldan|2273
 Ubangi|2270
-Negro River|2250|Rio Negro
+Negro River|2250|Rio Negro,Negro
 Orange River|2200|Orange
 Pearl River|2200|Zhu Jiang
 Irrawaddy|2170
 Orinoco|2140
 Tarim River|2030|Tarim
-Dnieper|2201
+Dnieper|2201|Dnepr,Dnipro
 Columbia River|2000|Columbia
 Red River|2190
 Don|1870|Don River
@@ -1242,23 +1242,23 @@ Maranon|1600
 Ohio River|1579|Ohio
 Darling|1472|Darling River
 Murray|2508|Murray River
-Rhine|1230|the Rhine,Rhein
+Rhine|1230|the Rhine,Rhein,Rhin,Rijn
 Ottawa River|1271|Ottawa
-Elbe|1094
-Vistula|1047|Wisla
+Elbe|1094|Labe
+Vistula|1047|Wisla,Weichsel
 Tagus|1007|Tejo,Tajo
-Loire|1006
-Meuse|925|Maas
-Ebro|930
+Loire|1006|Loira
+Meuse|925|Maas,Mosa
+Ebro|930|Ebre
 Douro|897|Duero
 Oder|854|Odra
-Seine|777
+Seine|777|Sena
 Guadalquivir|657
 Po|652|Po River
-Tiber|406|Tevere
+Tiber|406|Tevere,Tibre
 Shannon|360|River Shannon
 Severn|354|River Severn
-Thames|346|River Thames
+Thames|346|River Thames,Tamise,Themse
 Trent|298|River Trent
 Wye|250|River Wye
 Tay|188|River Tay
@@ -1271,11 +1271,11 @@ Medway|113|River Medway
 Ouse|84|River Ouse
 Cam|64|River Cam
 Jordan River|251|Jordan
-Rhone|813|Rhone River
+Rhone|813|Rhone River,Rodano
 Vltava|430|Moldau
 Sava|990
-Drava|710
-Neva|74
+Drava|710|Drau
+Neva|74|Newa
 Yamuna|1376
 Godavari|1465
 Krishna River|1400|Krishna
@@ -1298,12 +1298,12 @@ Gambia River|1120
 Volta River|1500
 Blue Nile|1450
 White Nile|3700|Victoria Nile,Albert Nile,Bahr el Jebel
-Moselle|544
+Moselle|544|Mosel
 Main|527|Main River
 Weser|452
-Tisza|966
+Tisza|966|Theiss,Tisa
 Guadiana|829
-Adige|410
+Adige|410|Etsch
 Arno|241
 River Tweed|156|Tweed
 River Forth|47|Forth
@@ -1424,7 +1424,7 @@ Poddle|8|River Poddle
 Avoca|13|River Avoca
 Dargle|24|River Dargle
 Garavogue|16|River Garavogue
-Garonne|602
+Garonne|602|Garona
 Dordogne|483
 Gironde|75
 Charente|381
@@ -1457,7 +1457,7 @@ Canche|96
 Aa|89
 Lys|202|Leie
 Scarpe|100
-Scheldt|350|Escaut,Schelde
+Scheldt|350|Escaut,Schelde,Escalda
 Sambre|190
 Semois|210
 Aube|248
@@ -1508,7 +1508,7 @@ Lesse|90
 Ourthe|175
 Ambleve|92
 Vesdre|72
-Dyle|86
+Dyle|86|Dijle
 Senne|103
 Dender|65
 Rupel|12
@@ -1517,7 +1517,7 @@ Yser|78
 Sure|173|Sauer
 Alzette|71
 Our|60
-IJssel|125
+IJssel|125|Yssel
 Waal|85
 Lek|61
 Amstel|31
@@ -1553,7 +1553,7 @@ Leine|281
 Oker|128
 Ilmenau|101
 Hunte|182
-Ems|371
+Ems|371|Eems
 Eider|188
 Trave|124
 Warnow|155
@@ -1591,7 +1591,7 @@ Blau|21
 Argen|60
 Wutach|48
 Dreisam|29
-Mur|447
+Mur|447|Mura
 Murz|94
 Enns|254
 Steyr|45
@@ -1858,7 +1858,7 @@ Otava|112
 Luznice|208
 Malse|96
 Blanice|76
-Vah|403
+Vah|403|Waag
 Hron|298
 Nitra|197
 Ipel|232
@@ -2176,7 +2176,6 @@ Glomma|604
 Gudbrandsdalslagen|203
 Drammenselva|44
 Numedalslagen|352
-Alta|187
 Namsen|210
 Gaula|155
 Nidelva|30
@@ -2200,20 +2199,20 @@ Ranelva|82
 Malselva|65
 Reisaelva|140
 Karasjohka|186
-Gota alv|93
+Gota alv|93|Gota
 Klaralven|460
 Dalalven|520
 Ljusnan|440
 Ljungan|400
 Indalsalven|430
 Angermanalven|470
-Umealven|470
-Vindelalven|445
-Skelleftealven|410
-Pitealven|400
-Lulealven|461
-Kalixalven|461
-Torne alv|520
+Umealven|470|Ume
+Vindelalven|445|Vindel
+Skelleftealven|410|Skellefte
+Pitealven|400|Pite
+Lulealven|461|Lule
+Kalixalven|461|Kalix
+Torne alv|520|Torne,Tornealven,Tornionjoki
 Muonio|230
 Faxalven|250
 Eman|220
@@ -2590,7 +2589,7 @@ Ameca|230|Rio Ameca
 Suchiate|180|Rio Suchiate
 Hondo|150|Rio Hondo
 Sonora|420|Rio Sonora
-Tijuana River|195
+Tijuana River|195|Tijuana
 Belize River|290
 New River (Belize)|66
 Sarstoon|96|Rio Sarstun
@@ -3002,7 +3001,7 @@ Hongshui|1050
 Jinsha|2308|Jinsha River
 Yalong|1571
 Yarlung Tsangpo|2840|Yarlung Zangbo
-Lhasa River|551
+Lhasa River|551|Lhasa
 Hotan|1127|Hotan River
 Yarkand|970
 Kashgar|1000
@@ -3191,7 +3190,7 @@ Ca|531|Song Lam
 Ma|512
 Dong Nai|586
 Lo|470
-Saigon River|225
+Saigon River|225|Saigon
 Tien|234|Tien River
 Hau|220|Hau River,Bassac,Bassac River
 Thu Bon|205
@@ -4431,7 +4430,7 @@ Deel|63
 Robe|64
 Eisbach|2
 Breg|46
-Saar|246
+Saar|246|Sarre
 Hase|170
 Elz|121
 Emscher|83
@@ -4719,8 +4718,6 @@ Yerres|98
 Zorn|97
 Evre|92
 Rio Tinto|100
-Busento|90
-Guadalevin|121
 Arlanza|160
 Oja|65
 Irati|84
@@ -4828,11 +4825,11 @@ Urola|64
 Varaita|75
 Vomano|76
 Zancara|168
-Altaelva|240
+Altaelva|240|Alta
 Nordura|62
 Jokulsa a Dal|150
 Svartan|91
-Lainio|266
+Lainio|266|Lainioalven
 Lakselva|103
 Anarjohka|153
 Byske|215
@@ -4841,7 +4838,7 @@ Laisalven|190
 Renaelva|165
 Stabburselva|60
 Voxnan|150
-Vasterdal|300
+Vasterdal|300|Vasterdalalven
 Ammeran|70
 Barduelva|70
 Bjoreio|72
@@ -4858,7 +4855,7 @@ Koitajoki|200
 Kolbacksan|180
 Kovda|233
 Kvina|152
-Kavlinge|90
+Kavlinge|90|Kavlingean
 Konkamaeno|150
 Kudafljot|115
 Lemmenjoki|80
@@ -4873,10 +4870,10 @@ Nykopingsan|150
 Naatamo|100
 Pyhajoki|166
 Parlalven|139
-Rautas|135
+Rautas|135|Rautasalven
 Ronneby|110
 Rottnan|110
-Rane|210
+Rane|210|Ranealven
 Ronne|83
 Sagan|70
 Simoa|88
@@ -4886,8 +4883,8 @@ Svartelva|71
 Tovdalselva|143
 Vanan|110
 Vojman|225
-Ore|225
-Osterdal|300
+Ore|225|Orealven
+Osterdal|300|Osterdalalven
 `;
 
 export const MOUNTAINS = `

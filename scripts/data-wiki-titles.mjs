@@ -791,7 +791,6 @@ export const WIKI_TITLES = {
   "river-chorna": "Chorna (river)",
   "river-gudbrandsdalslagen": "Gudbrandsdalslågen",
   "river-numedalslagen": "Numedalslågen",
-  "river-alta": "Alta River",
   "river-nidelva": "Nidelva",
   "river-rauma": "Rauma (river)",
   "river-otta": "Otta (river)",
@@ -5770,7 +5769,6 @@ export const WIKI_TITLES = {
 
   // --- river (2026-09-14 expansion) ---
   "river-rio-tinto": "Rio Tinto (river)",
-  "river-guadalevin": "Guadalevín",
   "river-arlanza": "Arlanza (river)",
   "river-oja": "Oja (river)",
   "river-irati": "Irati (river)",

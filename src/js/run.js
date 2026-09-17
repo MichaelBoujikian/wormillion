@@ -95,13 +95,22 @@
      */
     function elsewhere(rawInput, category, exactOnly) {
       for (const options of [{ loose: false, fuzzy: false }, { fuzzy: !exactOnly, bare: false }]) {
+        // An exact name held in two other cohorts names the famous one:
+        // "Etna" on a lake round is Mount Etna (42,000 views), not the
+        // Norwegian river Etna (30) that happens to come first in the
+        // cohort order (2026-09-16 audit). The loose/fuzzy pass keeps the
+        // first hit, as before.
+        let best = null;
         for (const [other, cohort] of bank.cohorts) {
           if (other === category) continue;
           const hit = matching.matchAnswer(rawInput, cohort.lookup, null, options);
-          if (hit.status === 'accepted' || hit.status === 'corrected') {
-            return { entry: cohort.byId.get(hit.entryId), category: other, fuzzy: hit.status === 'corrected' };
-          }
+          if (hit.status !== 'accepted' && hit.status !== 'corrected') continue;
+          const found = { entry: cohort.byId.get(hit.entryId), category: other, fuzzy: hit.status === 'corrected' };
+          if (options.loose === false) {
+            if (!best || found.entry.magnitude > best.entry.magnitude) best = found;
+          } else return found;
         }
+        if (best) return best;
       }
       return null;
     }
@@ -113,6 +122,11 @@
       if (state.finished) return { status: 'unrecognized' };
       const current = prompt();
       let match = matching.matchAnswer(rawInput, current.lookup, state.usedAnswers);
+      // A refused tie in this cohort ("Nille": Nile or Bille?) is a typo of
+      // something here, not evidence of a place elsewhere: only an exact or
+      // loose name in another cohort may nudge, never a fuzzy one ("Lille is
+      // a city" was the wrong answer to a misspelt Nile; 2026-09-16 audit).
+      let tie = Boolean(match.tie);
 
       // An exact name beats a spelling correction. On a narrowed prompt the
       // subset lookup can't see the rest of the category, so without this
@@ -135,10 +149,11 @@
         if (current.constrained) {
           const wide = matching.matchAnswer(rawInput, current.cohort.lookup, null);
           if (wide.status === 'accepted' || wide.status === 'corrected') return wrongScope(current, wide.entryId);
+          tie = tie || Boolean(wide.tie);
         }
         // A real place from another category deserves a nudge, not a shrug:
         // "Estonia is a country - this round wants a capital city."
-        const named = elsewhere(rawInput, current.category, false);
+        const named = elsewhere(rawInput, current.category, tie);
         if (!named) return { status: 'unrecognized' };
         // ...but when that place's name is also a name in THIS cohort, the
         // player has named this cohort's entry the long way round:

@@ -428,7 +428,7 @@ globalThis.WORMILLION_THEMES = {
       'Seret', 'Stryi', 'Bystrytsia', 'Cheremosh', 'Desna',
       'Seym', 'Kalmius', 'Molochna', 'Salhyr', 'Alma',
       'Chorna', 'Glomma', 'Gudbrandsdalslagen', 'Drammenselva', 'Numedalslagen',
-      'Alta', 'Namsen', 'Gaula', 'Nidelva', 'Orkla',
+      'Namsen', 'Gaula', 'Nidelva', 'Orkla',
       'Rauma', 'Driva', 'Otta', 'Sjoa', 'Begna',
       'Hallingdalselva', 'Otra', 'Mandalselva', 'Suldalslagen',
       'Vosso', 'Laerdalselva', 'Flamselva', 'Stryneelva',
@@ -522,7 +522,7 @@ globalThis.WORMILLION_THEMES = {
       'Tille', 'Touch', 'Varenne', 'Veyle', 'Vezouze',
       'Viaur', 'Vie', 'Yerres', 'Zorn', 'Evre',
       // 2026-09-14 expansion
-      'Rio Tinto', 'Busento', 'Guadalevin', 'Arlanza', 'Oja',
+      'Rio Tinto', 'Arlanza', 'Oja',
       'Irati', 'Maira', 'Senio', 'Torre', 'Adaja',
       'Almanzora', 'Deva', 'Eresma', 'Esino', 'Mundo',
       'Orco', 'Piedra', 'Santerno', 'Sillaro', 'Sinni',

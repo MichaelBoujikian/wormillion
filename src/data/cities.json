@@ -19682,7 +19682,9 @@
   "id": "city-siena",
   "category": "city",
   "name": "Siena",
-  "aliases": [],
+  "aliases": [
+   "Sienne"
+  ],
   "size": 53000,
   "sizeUnit": "population",
   "region": [

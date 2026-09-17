@@ -44,6 +44,8 @@
     'mount', 'mt', 'mountain', 'peak', 'hill', 'lake', 'loch', 'lough', 'llyn',
     'river', 'rio', 'sea', 'ocean', 'gulf', 'bay', 'island', 'islands', 'isle', 'isles',
     'desert', 'the', 'of', 'city', 'saint', 'st', 'cape', 'atoll',
+    // 2026-09-16: "Fiume Sacco", "Fleuve Charente", "Fluss Isar", "Rivier Dinkel"
+    'fiume', 'fleuve', 'fluss', 'riviere', 'rivier',
     // 2026-09-16: a reservoir is a lake to the player - "Elephant Butte" finds
     // Elephant Butte Reservoir the way "Superior" finds Lake Superior
     'reservoir'
@@ -61,7 +63,7 @@
   const WORD_CATEGORY = {
     mount: ['mountain'], mt: ['mountain'], mountain: ['mountain'], peak: ['mountain'], hill: ['mountain'],
     lake: ['lake'], loch: ['lake'], lough: ['lake'], llyn: ['lake'], reservoir: ['lake'],
-    river: ['river'], rio: ['river'],
+    river: ['river'], rio: ['river'], fiume: ['river'], fleuve: ['river'], fluss: ['river'], riviere: ['river'], rivier: ['river'],
     sea: ['sea_ocean'], ocean: ['sea_ocean'], gulf: ['sea_ocean'], bay: ['sea_ocean'],
     island: ['island'], islands: ['island'], isle: ['island'], isles: ['island'], atoll: ['island'],
     desert: ['desert'],
@@ -252,7 +254,9 @@
     }
 
     if (plural) return null;
-    // Two different places equally close is not a typo, it's a coin flip.
+    // Two different places equally close is not a typo, it's a coin flip -
+    // reported as such, so the caller knows something WAS close.
+    if (winners.length > 1) return { tie: true };
     if (winners.length !== 1) return null;
     return { id: winners[0].id, key: winners[0].key, distance: bestScore >> 1 };
   }
@@ -297,6 +301,7 @@
 
     if (!options || options.fuzzy !== false) {
       const near = nearest(key, lookup, foreign ? Object.assign({}, options, { bare: false }) : options);
+      if (near && near.tie) return { status: 'unrecognized', tie: true };
       if (near) return settle(near.id, 'corrected', { typed: rawInput.trim(), matched: near.key });
     }
 

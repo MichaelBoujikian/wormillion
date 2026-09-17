@@ -887,7 +887,7 @@ Palermo|Italy|630000
 Bari|Italy|320000
 Catania|Italy|300000
 Pisa|Italy|90000
-Siena|Italy|53000
+Siena|Italy|53000|Sienne
 Padua|Italy|210000|Padova
 Trieste|Italy|200000
 Brescia|Italy|197000

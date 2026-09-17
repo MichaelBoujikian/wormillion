@@ -306,7 +306,8 @@
   "name": "Rio Grande",
   "aliases": [
    "Rio Bravo",
-   "Rio Bravo del Norte"
+   "Rio Bravo del Norte",
+   "Grande"
   ],
   "size": 3051,
   "sizeUnit": "length_km",
@@ -386,7 +387,13 @@
   "category": "river",
   "name": "Danube",
   "aliases": [
-   "the Danube"
+   "the Danube",
+   "Donau",
+   "Dunaj",
+   "Duna",
+   "Dunav",
+   "Dunarea",
+   "Danubio"
   ],
   "size": 2850,
   "sizeUnit": "length_km",
@@ -646,7 +653,8 @@
   "category": "river",
   "name": "Negro River",
   "aliases": [
-   "Rio Negro"
+   "Rio Negro",
+   "Negro"
   ],
   "size": 2250,
   "sizeUnit": "length_km",
@@ -737,7 +745,10 @@
   "id": "river-dnieper",
   "category": "river",
   "name": "Dnieper",
-  "aliases": [],
+  "aliases": [
+   "Dnepr",
+   "Dnipro"
+  ],
   "size": 2201,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Dnieper\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -949,7 +960,9 @@
   "name": "Rhine",
   "aliases": [
    "the Rhine",
-   "Rhein"
+   "Rhein",
+   "Rhin",
+   "Rijn"
   ],
   "size": 1230,
   "sizeUnit": "length_km",
@@ -980,7 +993,9 @@
   "id": "river-elbe",
   "category": "river",
   "name": "Elbe",
-  "aliases": [],
+  "aliases": [
+   "Labe"
+  ],
   "size": 1094,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Elbe\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -995,7 +1010,8 @@
   "category": "river",
   "name": "Vistula",
   "aliases": [
-   "Wisla"
+   "Wisla",
+   "Weichsel"
   ],
   "size": 1047,
   "sizeUnit": "length_km",
@@ -1025,7 +1041,9 @@
   "id": "river-loire",
   "category": "river",
   "name": "Loire",
-  "aliases": [],
+  "aliases": [
+   "Loira"
+  ],
   "size": 1006,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Loire\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1040,7 +1058,8 @@
   "category": "river",
   "name": "Meuse",
   "aliases": [
-   "Maas"
+   "Maas",
+   "Mosa"
   ],
   "size": 925,
   "sizeUnit": "length_km",
@@ -1053,7 +1072,9 @@
   "id": "river-ebro",
   "category": "river",
   "name": "Ebro",
-  "aliases": [],
+  "aliases": [
+   "Ebre"
+  ],
   "size": 930,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Ebro\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1099,7 +1120,9 @@
   "id": "river-seine",
   "category": "river",
   "name": "Seine",
-  "aliases": [],
+  "aliases": [
+   "Sena"
+  ],
   "size": 777,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Seine\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1144,7 +1167,8 @@
   "category": "river",
   "name": "Tiber",
   "aliases": [
-   "Tevere"
+   "Tevere",
+   "Tibre"
   ],
   "size": 406,
   "sizeUnit": "length_km",
@@ -1190,7 +1214,9 @@
   "category": "river",
   "name": "Thames",
   "aliases": [
-   "River Thames"
+   "River Thames",
+   "Tamise",
+   "Themse"
   ],
   "size": 346,
   "sizeUnit": "length_km",
@@ -1396,7 +1422,8 @@
   "category": "river",
   "name": "Rhone",
   "aliases": [
-   "Rhone River"
+   "Rhone River",
+   "Rodano"
   ],
   "size": 813,
   "sizeUnit": "length_km",
@@ -1441,7 +1468,9 @@
   "id": "river-drava",
   "category": "river",
   "name": "Drava",
-  "aliases": [],
+  "aliases": [
+   "Drau"
+  ],
   "size": 710,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Drava\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1453,7 +1482,9 @@
   "id": "river-neva",
   "category": "river",
   "name": "Neva",
-  "aliases": [],
+  "aliases": [
+   "Newa"
+  ],
   "size": 74,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Neva\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1785,7 +1816,9 @@
   "id": "river-moselle",
   "category": "river",
   "name": "Moselle",
-  "aliases": [],
+  "aliases": [
+   "Mosel"
+  ],
   "size": 544,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Moselle\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1829,7 +1862,10 @@
   "id": "river-tisza",
   "category": "river",
   "name": "Tisza",
-  "aliases": [],
+  "aliases": [
+   "Theiss",
+   "Tisa"
+  ],
   "size": 966,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Tisza\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1855,7 +1891,9 @@
   "id": "river-adige",
   "category": "river",
   "name": "Adige",
-  "aliases": [],
+  "aliases": [
+   "Etsch"
+  ],
   "size": 410,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Adige\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -3761,7 +3799,9 @@
   "id": "river-garonne",
   "category": "river",
   "name": "Garonne",
-  "aliases": [],
+  "aliases": [
+   "Garona"
+  ],
   "size": 602,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Garonne\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -4225,7 +4265,8 @@
   "name": "Scheldt",
   "aliases": [
    "Escaut",
-   "Schelde"
+   "Schelde",
+   "Escalda"
   ],
   "size": 350,
   "sizeUnit": "length_km",
@@ -4943,7 +4984,9 @@
   "id": "river-dyle",
   "category": "river",
   "name": "Dyle",
-  "aliases": [],
+  "aliases": [
+   "Dijle"
+  ],
   "size": 86,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Dyle (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -5071,7 +5114,9 @@
   "id": "river-ijssel",
   "category": "river",
   "name": "IJssel",
-  "aliases": [],
+  "aliases": [
+   "Yssel"
+  ],
   "size": 125,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"IJssel\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -5575,7 +5620,9 @@
   "id": "river-ems",
   "category": "river",
   "name": "Ems",
-  "aliases": [],
+  "aliases": [
+   "Eems"
+  ],
   "size": 371,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Ems (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -6108,7 +6155,9 @@
   "id": "river-mur",
   "category": "river",
   "name": "Mur",
-  "aliases": [],
+  "aliases": [
+   "Mura"
+  ],
   "size": 447,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Mur (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -9842,7 +9891,9 @@
   "id": "river-vah",
   "category": "river",
   "name": "Vah",
-  "aliases": [],
+  "aliases": [
+   "Waag"
+  ],
   "size": 403,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Váh\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -14268,20 +14319,6 @@
   "lon": 10.055065
  },
  {
-  "id": "river-alta",
-  "category": "river",
-  "name": "Alta",
-  "aliases": [],
-  "size": 187,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Alta (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Alta (river)",
-  "lat": 50.06416667,
-  "lon": 31.46138889
- },
- {
   "id": "river-namsen",
   "category": "river",
   "name": "Namsen",
@@ -14607,7 +14644,9 @@
   "id": "river-gota-alv",
   "category": "river",
   "name": "Gota alv",
-  "aliases": [],
+  "aliases": [
+   "Gota"
+  ],
   "size": 93,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Göta älv\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -14705,7 +14744,9 @@
   "id": "river-umealven",
   "category": "river",
   "name": "Umealven",
-  "aliases": [],
+  "aliases": [
+   "Ume"
+  ],
   "size": 470,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Ume River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -14719,7 +14760,9 @@
   "id": "river-vindelalven",
   "category": "river",
   "name": "Vindelalven",
-  "aliases": [],
+  "aliases": [
+   "Vindel"
+  ],
   "size": 445,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Vindel River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -14733,7 +14776,9 @@
   "id": "river-skelleftealven",
   "category": "river",
   "name": "Skelleftealven",
-  "aliases": [],
+  "aliases": [
+   "Skellefte"
+  ],
   "size": 410,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Skellefte River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -14747,7 +14792,9 @@
   "id": "river-pitealven",
   "category": "river",
   "name": "Pitealven",
-  "aliases": [],
+  "aliases": [
+   "Pite"
+  ],
   "size": 400,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Pite River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -14761,7 +14808,9 @@
   "id": "river-lulealven",
   "category": "river",
   "name": "Lulealven",
-  "aliases": [],
+  "aliases": [
+   "Lule"
+  ],
   "size": 461,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Lule River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -14775,7 +14824,9 @@
   "id": "river-kalixalven",
   "category": "river",
   "name": "Kalixalven",
-  "aliases": [],
+  "aliases": [
+   "Kalix"
+  ],
   "size": 461,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Kalix River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -14789,7 +14840,11 @@
   "id": "river-torne-alv",
   "category": "river",
   "name": "Torne alv",
-  "aliases": [],
+  "aliases": [
+   "Torne",
+   "Tornealven",
+   "Tornionjoki"
+  ],
   "size": 520,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Torne (Finnish and Swedish river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -20691,7 +20746,9 @@
   "id": "river-tijuana-river",
   "category": "river",
   "name": "Tijuana River",
-  "aliases": [],
+  "aliases": [
+   "Tijuana"
+  ],
   "size": 195,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Tijuana River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -27184,7 +27241,9 @@
   "id": "river-lhasa-river",
   "category": "river",
   "name": "Lhasa River",
-  "aliases": [],
+  "aliases": [
+   "Lhasa"
+  ],
   "size": 551,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Lhasa River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -29909,7 +29968,9 @@
   "id": "river-saigon-river",
   "category": "river",
   "name": "Saigon River",
-  "aliases": [],
+  "aliases": [
+   "Saigon"
+  ],
   "size": 225,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Saigon River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -47345,7 +47406,9 @@
   "id": "river-saar",
   "category": "river",
   "name": "Saar",
-  "aliases": [],
+  "aliases": [
+   "Sarre"
+  ],
   "size": 246,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Saar (river)\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -51388,34 +51451,6 @@
   "lon": -6.938
  },
  {
-  "id": "river-busento",
-  "category": "river",
-  "name": "Busento",
-  "aliases": [],
-  "size": 90,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Busento\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 274,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Busento",
-  "lat": 39.2925,
-  "lon": 16.259
- },
- {
-  "id": "river-guadalevin",
-  "category": "river",
-  "name": "Guadalevin",
-  "aliases": [],
-  "size": 121,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Guadalevín\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 244,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Guadalevín",
-  "lat": 36.739975,
-  "lon": -5.16801667
- },
- {
   "id": "river-arlanza",
   "category": "river",
   "name": "Arlanza",
@@ -52895,7 +52930,9 @@
   "id": "river-altaelva",
   "category": "river",
   "name": "Altaelva",
-  "aliases": [],
+  "aliases": [
+   "Alta"
+  ],
   "size": 240,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Altaelva\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -52951,7 +52988,9 @@
   "id": "river-lainio",
   "category": "river",
   "name": "Lainio",
-  "aliases": [],
+  "aliases": [
+   "Lainioalven"
+  ],
   "size": 266,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Lainio River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -53077,7 +53116,9 @@
   "id": "river-vasterdal",
   "category": "river",
   "name": "Vasterdal",
-  "aliases": [],
+  "aliases": [
+   "Vasterdalalven"
+  ],
   "size": 300,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Västerdal River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -53315,7 +53356,9 @@
   "id": "river-kavlinge",
   "category": "river",
   "name": "Kavlinge",
-  "aliases": [],
+  "aliases": [
+   "Kavlingean"
+  ],
   "size": 90,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Kävlinge River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -53525,7 +53568,9 @@
   "id": "river-rautas",
   "category": "river",
   "name": "Rautas",
-  "aliases": [],
+  "aliases": [
+   "Rautasalven"
+  ],
   "size": 135,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Rautas River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -53567,7 +53612,9 @@
   "id": "river-rane",
   "category": "river",
   "name": "Rane",
-  "aliases": [],
+  "aliases": [
+   "Ranealven"
+  ],
   "size": 210,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Råne River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -53707,7 +53754,9 @@
   "id": "river-ore",
   "category": "river",
   "name": "Ore",
-  "aliases": [],
+  "aliases": [
+   "Orealven"
+  ],
   "size": 225,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Öre River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -53721,7 +53770,9 @@
   "id": "river-osterdal",
   "category": "river",
   "name": "Osterdal",
-  "aliases": [],
+  "aliases": [
+   "Osterdalalven"
+  ],
   "size": 300,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Österdal River\", 60-day daily median (60 days ending 2026-09-17); Standard reference lengths (km); one figure picked per river, see Spec 6.2",

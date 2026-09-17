@@ -599,3 +599,32 @@ test('a place named the long way round is this cohort\'s entry when the names ma
   // ...and the river's bare name typed on a country round is the country, as before
   assert.strictEqual(on({ category: 'country' }, 'Niger').entry.name, 'Niger');
 });
+
+test('an exact name held in two other cohorts nudges to the famous one, and a refused tie is not re-guessed elsewhere (2026-09-16 audit)', () => {
+  const local = promptBank.createBank({
+    ...RAW,
+    rivers: [...RAW.rivers, ...simple('river', 'length_km', [['Etna', 30], ['Bille', 30], ['Tille', 30]])],
+    mountains: [...RAW.mountains, { ...simple('mountain', 'elevation_m', [['Mount Etna', 42000]])[0], aliases: ['Etna'] }],
+    cities: [...RAW.cities, { id: 'city-lille', category: 'city', name: 'Lille', aliases: [], magnitude: 9000, magnitudeUnit: 'population', region: EUROPE, country: 'France', source: 'fixture' }]
+  }, THEMES);
+  const on = (slot, input) => {
+    const run = runner.createRun(local, { rounds: 1 });
+    run.state.slots[0] = slot;
+    return run.submit(input);
+  };
+  // "Etna" on a lake round: the volcano (42,000 views), not the Norwegian river (30) that comes first in cohort order
+  const etna = on({ category: 'lake' }, 'Etna');
+  assert.strictEqual(etna.status, 'unrecognized');
+  assert.strictEqual(etna.elsewhere.category, 'mountain');
+  // "Nille" on a river round ties Nile / Bille / Tille and is refused; it must not come back as "Lille is a city"
+  const nille = on({ category: 'river' }, 'Nille');
+  assert.strictEqual(nille.status, 'unrecognized');
+  assert.strictEqual(nille.elsewhere, undefined);
+  // ...while an exact name elsewhere still nudges when this cohort has a tie
+  const lille = on({ category: 'river' }, 'Lille');
+  assert.strictEqual(lille.elsewhere.category, 'city');
+  // the same on a narrowed prompt, where the wide re-check holds the tie
+  const scoped = on({ category: 'river', size: { op: 'over', value: 3000 } }, 'Nille');
+  assert.strictEqual(scoped.status, 'unrecognized');
+  assert.strictEqual(scoped.elsewhere, undefined);
+});
