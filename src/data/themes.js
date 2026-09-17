@@ -865,20 +865,20 @@ globalThis.WORMILLION_THEMES = {
       'Hochkonig', 'Kitzsteinhorn', 'Untersberg', 'Nordkette', 'Patscherkofel',
       'Uetliberg', 'Dents du Midi', 'Les Diablerets', 'Wildstrubel', 'Bluemlisalp',
       'Piz Badile', 'Piz Corvatsch', 'Piz Kesch', 'Piz Linard', 'Glarnisch',
-      'Churfirsten', 'Civetta', 'Antelao', 'Monte Pelmo', 'Monte Cristallo',
-      'Tofana', 'Monte Baldo', 'Monte Grappa', 'Mont Aiguille', 'Aiguille Verte',
+      'Civetta', 'Antelao', 'Monte Pelmo', 'Monte Cristallo',
+      'Monte Baldo', 'Monte Grappa', 'Mont Aiguille', 'Aiguille Verte',
       'Dent du Geant', 'Mont Pelvoux', 'Lagginhorn', 'Weissmies', 'Allalinhorn',
       'Alphubel', 'Taschhorn', 'Nadelhorn', "Dent d'Herens", 'Ober Gabelhorn',
       'Zinalrothorn', 'Bishorn', 'Bietschhorn', 'Monte Leone', 'Sustenhorn',
       'Galenstock', 'Niesen', 'Faulhorn', 'Alpspitze', 'Nebelhorn',
       'Kehlstein', 'Wendelstein', 'Hahnenkamm', 'Hoher Kasten',
       // range-tag.mjs from the infobox range field
-      'Beinn Ime', 'Ben Donich', 'Aiguille du Dru', 'Grosser Mythen', 'Piz Boe',
+      'Aiguille du Dru', 'Grosser Mythen', 'Piz Boe',
       'Mont Chaberton', 'Piz Buin', 'Fronalpstock', 'Schneeberg', 'Brienzer Rothorn',
       'Tofane', 'Hoher Goll', 'Mont Buet', 'Signalkuppe', 'Grimming',
       'Jof di Montasio', 'Mont Dolent', 'Mont Maudit', 'Sorapiss', 'Wildspitz',
       'Mount Adamello', 'Barrhorn', 'Dammastock', 'Mont Blanc de Courmayeur', 'Mont Fort',
-      'Pizol', 'Schesaplana', 'Stockhorn', 'Jiehkkevarri', 'Vincent Pyramid',
+      'Pizol', 'Schesaplana', 'Stockhorn', 'Vincent Pyramid',
       'Augstmatthorn', 'Castor', 'Herzogstand', 'Hochfeiler', 'Mont Blanc du Tacul',
       'Piz Nair', 'Stol', 'Zumsteinspitze', 'Aiguille de la Grande Sassiere', 'Cima Tosa',
       'Grenzgipfel', 'Konigspitze', 'Monte Bondone', 'Rheinwaldhorn', 'Rocciamelone',
@@ -889,7 +889,7 @@ globalThis.WORMILLION_THEMES = {
       'Aiguille des Glaciers', 'Cime du Gelas', 'Fineilspitze', 'Grand Muveran', 'Grosses Wiesbachhorn',
       'Hochkalter', 'Monte Disgrazia', 'Mount Emilius', 'Pic Tyndall', 'Presanella',
       'Rinderberg', 'Aiguille Blanche de Peuterey', "Aiguille d'Argentiere", 'Aiguille de Rochefort', 'Aiguille du Tour',
-      "Aiguilles d'Arves", 'Ailefroide', 'Cima Valdritta', 'Grand Gendarme', 'Hinterrugg',
+      "Aiguilles d'Arves", 'Ailefroide', 'Grand Gendarme', 'Hinterrugg',
       'Kleiner Mythen', 'Monte Argentera', 'Oberrothorn', 'Olperer', 'Parseierspitze',
       'Piz Roseg', 'Pizzo Coca', 'Pointe Percee', 'Valluga', 'Zuckerhutl',
       'Aggenstein', 'Bella Tola', 'Blinnenhorn', 'Bristen', 'Calanda',
@@ -906,7 +906,7 @@ globalThis.WORMILLION_THEMES = {
       'La Tournette', 'Ankogel', 'Nordend', 'Ellmauer Halt', 'Chaserrugg',
       'Tegelberg', 'Hochfelln', "Grande Tete de l'Obiou", 'Cima Dodici', 'Monte Cevedale',
       // range-tag.mjs from the infobox range field
-      'Mont Agel', 'Cime de la Bonette', 'Mont Cenis', 'Pointe Helbronner', 'Ceuse',
+      'Mont Agel', 'Cime de la Bonette', 'Pointe Helbronner', 'Ceuse',
       'Dent de Burgin', 'Semnoz', 'Aiguille Dibona', 'Dent de Crolles', 'Mont Granier',
       'Mont Revard', "Dent d'Oche", 'Le Mole', 'Aiguille Rouge', 'Aiguille du Gouter',
       'Grand Veymont', 'Grand Capucin', 'Mont Joly', 'Monte Musine', 'Aiguille du Grepon',
@@ -1188,7 +1188,11 @@ globalThis.WORMILLION_THEMES = {
       'Croscat', 'Monte Lauro', 'Mount Guajara',
       // 2026-09-14 expansion
       'Hverfjall', 'Oraefajokull', 'Sundhnukur', 'Hofsjokull', 'Skjaldbreidur',
-      'Kverkfjoll', 'Loki-Fogrufjoll', 'Torfajokull'
+      'Kverkfjoll', 'Loki-Fogrufjoll', 'Torfajokull',
+      // add-theme.mjs
+      'Ok', 'Helgafell', 'Þorbjorn', 'Roccamonfina', 'Pico de las Nieves',
+      'Roque de los Muchachos', 'Pico de Malpaso', 'Morro de la Agujereada', 'Slemish', 'Dundee Law',
+      'Croghan Hill'
     ]
   },
 

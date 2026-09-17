@@ -16878,7 +16878,9 @@
   "id": "lake-lake-toplitz",
   "category": "lake",
   "name": "Lake Toplitz",
-  "aliases": [],
+  "aliases": [
+   "Toplitzsee"
+  ],
   "size": 0.54,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Lake Toplitz\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
@@ -16953,7 +16955,8 @@
   "name": "Etang de Thau",
   "aliases": [
    "Thau",
-   "Lake Thau"
+   "Lake Thau",
+   "Bassin de Thau"
   ],
   "size": 70.12,
   "sizeUnit": "area_km2",
@@ -17066,7 +17069,9 @@
   "id": "lake-grevelingen",
   "category": "lake",
   "name": "Grevelingen",
-  "aliases": [],
+  "aliases": [
+   "Grevelingenmeer"
+  ],
   "size": 110,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Grevelingen\", 60-day daily median (60 days ending 2026-09-17); Standard reference surface-area figures (km2), rounded",
@@ -17265,7 +17270,8 @@
   "category": "lake",
   "name": "Lake Nemi",
   "aliases": [
-   "Nemi"
+   "Nemi",
+   "Lago di Nemi"
   ],
   "size": 1.67,
   "sizeUnit": "area_km2",

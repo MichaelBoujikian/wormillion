@@ -1184,19 +1184,19 @@ Muggelsee|7.4|Mueggelsee
 Mohne Reservoir|10.67|Moehne Reservoir,Mohnesee,Moehnesee
 Bachalpsee|0.08
 Mummelsee|0.04
-Lake Toplitz|0.54
+Lake Toplitz|0.54|Toplitzsee
 Gruner See|0.07|Gruener See
 Seealpsee|0.14
 Plauer See|38.4
 Lac du Bourget|44.5|Lake Bourget,Bourget
-Etang de Thau|70.12|Thau,Lake Thau
+Etang de Thau|70.12|Thau,Lake Thau,Bassin de Thau
 Etang de Berre|155.3|Berre
 Lake Der-Chantecoq|48|Lac du Der,Lake Der
 IJmeer|80
 Lac de Grand-Lieu|62.92|Grand-Lieu,Lake Grand-Lieu
 Lac d'Hourtin-Carcans|56.67|Hourtin,Lac de Hourtin
 Etang de Cazaux et de Sanguinet|55|Cazaux,Lac de Cazaux
-Grevelingen|110
+Grevelingen|110|Grevelingenmeer
 Lac de Biscarrosse et de Parentis|35.4|Biscarrosse,Lac de Biscarrosse
 Gooimeer|26.7
 Veluwemeer|32.5
@@ -1209,7 +1209,7 @@ Reschensee|6.6|Lake Reschen,Lago di Resia
 Lake Avernus|0.55|Avernus,Lago d'Averno
 Lagoa do Fogo|1.36
 Lago di Tenno|0.25|Lake Tenno
-Lake Nemi|1.67|Nemi
+Lake Nemi|1.67|Nemi,Lago di Nemi
 Lake Predil|1
 Lagoa das Sete Cidades|4.35|Sete Cidades
 Laguna di Orbetello|26.9|Orbetello
@@ -5045,7 +5045,7 @@ Corcovado|710
 Sugarloaf Mountain|396|Pao de Acucar
 Uluru|863|Ayers Rock
 Grand Teton|4199
-Longs Peak|4346
+Longs Peak|4346|Long Peak
 Mount Baker|3286
 Clingmans Dome|2025|Kuwohi
 Black Elk Peak|2207|Harney Peak
@@ -5486,13 +5486,11 @@ Piz Corvatsch|3451
 Piz Kesch|3418
 Piz Linard|3410
 Glarnisch|2914
-Churfirsten|2306
 Civetta|3220
 Antelao|3264
 Monte Pelmo|3168|Pelmo
 Monte Cristallo|3221
-Tofana|3244
-Monte Baldo|2218
+Monte Baldo|2218|Cima Valdritta
 Monte Grappa|1775
 Mont Aiguille|2087
 Aiguille Verte|4122
@@ -5542,7 +5540,7 @@ Mount Pico|2351|Pico,Ponta do Pico
 Monte Amiata|1738
 Terminillo|2217|Monte Terminillo
 Monte Vettore|2476
-Monte Amaro|2793
+Monte Amaro|2793|Maiella
 Pollino|2248|Monte Pollino
 Monte Titano|749
 Monte Cassino|516
@@ -5550,7 +5548,7 @@ Monte Circeo|541
 Monte Conero|572
 Epomeo|789|Monte Epomeo
 Monte Cinto|2706
-Punta La Marmora|1834
+Punta La Marmora|1834|Gennargentu
 Monte Cimone|2165
 Mangart|2679
 Grintovec|2558
@@ -6894,7 +6892,7 @@ Luggala|595
 The Roaches|505
 Garth Hill|307
 Slievenamon|721
-Cavehill|368
+Cavehill|368|Cave Hill
 Nephin|806
 Winter Hill|456
 Paps of Anu|694
@@ -6986,7 +6984,7 @@ Y Lliwedd|898
 Axe Edge Moor|551
 Beenkeragh|1008
 Beinn Alligin|986
-Beinn Ime|1011
+Beinn Ime|1011|Ben Ime
 Botley Hill|270
 Cnoc na Peiste|988
 Creag Meagaidh|1130
@@ -7218,10 +7216,9 @@ Fronalpstock|1921
 Schneeberg|2076
 Roque de los Muchachos|2426
 La Tournette|2351
-Maiella|2795
 Brienzer Rothorn|2350
-Tofane|3244
-Hoher Goll|2522
+Tofane|3244|Tofana,Tofana di Mezzo
+Hoher Goll|2522|Hoher Goell
 Mont Buet|3096
 Signalkuppe|4554
 Newtontoppen|1713
@@ -7255,7 +7252,7 @@ Aiguille de la Grande Sassiere|3751
 Ankogel|3252
 Cima Tosa|3136
 Grenzgipfel|4618
-Konigspitze|3851
+Konigspitze|3851|Koenigspitze
 Monte Bondone|2180
 Rheinwaldhorn|3402
 Rocciamelone|3538
@@ -7300,10 +7297,9 @@ Aiguille de Rochefort|4001
 Aiguille du Tour|3540
 Aiguilles d'Arves|3514
 Ailefroide|3954
-Cima Valdritta|2218
 Ellmauer Halt|2344
 Grand Gendarme|4329
-Hinterrugg|2306
+Hinterrugg|2306|Churfirsten
 Kleiner Mythen|1811
 Monte Argentera|3297
 Oberrothorn|3414
@@ -7313,14 +7309,14 @@ Piz Roseg|3935
 Pizzo Coca|3050
 Pointe Percee|2753
 Valluga|2809
-Ehrenburg|532
-Zuckerhutl|3507
+Ehrenburg|532|Ehrenbuerg
+Zuckerhutl|3507|Zuckerhuetl
 Aggenstein|1985
 Bella Tola|3025
 Blinnenhorn|3374
 Bristen|3073
 Calanda|2805
-Chaserrugg|2262
+Chaserrugg|2262|Chaeserrugg
 Cima Brenta|3150
 Vezzana|3192
 Dreitorspitze|2682
@@ -7336,10 +7332,10 @@ Hoher Ifen|2230
 Kesselkogel|3002
 Kreuzberg|928
 Mettelhorn|3406
-Montalto|1955
+Montalto|1955|Aspromonte
 Napf|1408
 Pico de Malpaso|1501
-Schonfeldspitze|2653
+Schonfeldspitze|2653|Schoenfeldspitze
 Tete Blanche|3710
 Vanil Noir|2389
 Zirbitzkogel|2396
@@ -7350,9 +7346,9 @@ Doldenhorn|3638
 Dreischusterspitze|3145
 Fletschhorn|3985
 Grande Tete de l'Obiou|2790
-Grunhorn|4043
+Grunhorn|4043|Gruenhorn
 Osser|1293
-Hintere Schwarze|3628
+Hintere Schwarze|3628|Hintere Schwaerze
 Hochalmspitze|3360
 Hochfelln|1674
 Hoher Bogen|1079
@@ -7382,7 +7378,6 @@ Grand Ballon|1423
 Cime de la Bonette|2860
 Mont Sainte-Odile|764
 Saleve|1379
-Mont Cenis|2085
 Pointe Helbronner|3462
 Mount Saint Peter|171
 Koppenberg|78
@@ -7455,10 +7450,8 @@ Mount Pellegrino|606
 Puig Campana|1406
 Aitana|1558
 Monte Solaro|589
-Aspromonte|1956
 Kneiff|560
 El Toro|358
-Gennargentu|1834
 Grauspitz|2599
 Roque de Agando|1250
 Sa Talaiassa|475
@@ -7501,7 +7494,6 @@ Monte Cusna|2120
 Mount Limbara|1362
 Trevinca|2127
 Pena de Francia|1727
-Radomir|2031
 Rocca Busambra|1613
 Santa Margarida Volcano|682
 El Turbon|2492

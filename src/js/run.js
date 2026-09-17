@@ -161,8 +161,14 @@
         // "Singapore City" is Singapore (2026-09-16 audit). Shown as a
         // correction, so the summary reads "Madagascar Island -> Madagascar".
         // (Exact and loose hits only: a refused in-category tie must not come
-        // back through a fuzzy hit next door - "Nigera" stays refused.)
-        const twin = named.fuzzy ? { status: 'unrecognized' } : matching.matchAnswer(named.entry.name, current.lookup, state.usedAnswers, { loose: false, fuzzy: false });
+        // back through a fuzzy hit next door - "Nigera" stays refused. And
+        // "River Barrow" on a mountain round names the river, not the fell
+        // Barrow: between two physical cohorts the typed generic word settles
+        // which one the player meant; 2026-09-17 audit.)
+        const PHYSICAL = ['river', 'lake', 'mountain', 'desert', 'sea_ocean'];
+        const namesTheirKind = PHYSICAL.includes(named.category) && PHYSICAL.includes(current.category) &&
+          matching.normalize(rawInput).split(' ').some((w) => (matching.WORD_CATEGORY[w] || []).includes(named.category));
+        const twin = named.fuzzy || namesTheirKind ? { status: 'unrecognized' } : matching.matchAnswer(named.entry.name, current.lookup, state.usedAnswers, { loose: false, fuzzy: false });
         if (twin.status === 'accepted') match = { status: 'corrected', entryId: twin.entryId, typed: rawInput.trim(), matched: twin.matched };
         else if (twin.status === 'duplicate') match = twin;
         else {

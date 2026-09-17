@@ -628,3 +628,23 @@ test('an exact name held in two other cohorts nudges to the famous one, and a re
   assert.strictEqual(scoped.status, 'unrecognized');
   assert.strictEqual(scoped.elsewhere, undefined);
 });
+
+test('between two physical cohorts the typed generic word settles the twin (2026-09-17 audit)', () => {
+  const local = promptBank.createBank({
+    ...RAW,
+    rivers: [...RAW.rivers, ...simple('river', 'length_km', [['Barrow', 192]])],
+    mountains: [...RAW.mountains, ...simple('mountain', 'elevation_m', [['Barrow', 455]])]
+  }, THEMES);
+  const on = (slot, input) => {
+    const run = runner.createRun(local, { rounds: 1 });
+    run.state.slots[0] = slot;
+    return run.submit(input);
+  };
+  // "River Barrow" on a mountain round names the river: a nudge, not the fell
+  const r = on({ category: 'mountain' }, 'River Barrow');
+  assert.strictEqual(r.status, 'unrecognized');
+  assert.strictEqual(r.elsewhere.category, 'river');
+  // bare "Barrow" on either round is that round's Barrow
+  assert.strictEqual(on({ category: 'mountain' }, 'Barrow').entry.category, 'mountain');
+  assert.strictEqual(on({ category: 'river' }, 'Barrow').entry.category, 'river');
+});

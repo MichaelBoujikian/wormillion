@@ -44,7 +44,7 @@ const slug = (s) =>
 const ascii = (s) =>
   s.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .replace(/ø/g, 'o').replace(/Ø/g, 'O').replace(/æ/g, 'ae').replace(/Æ/g, 'Ae').replace(/œ/g, 'oe').replace(/Œ/g, 'Oe')
-    .replace(/ł/g, 'l').replace(/Ł/g, 'L').replace(/ß/g, 'ss').replace(/[đð]/g, 'd').replace(/[ĐÐ]/g, 'D')
+    .replace(/ł/g, 'l').replace(/Ł/g, 'L').replace(/ß/g, 'ss').replace(/[đð]/g, 'd').replace(/[ĐÐ]/g, 'D').replace(/þ/g, 'th').replace(/Þ/g, 'Th')
     .replace(/[ı]/g, 'i').replace(/[‘’ʼ]/g, "'").replace(/[–—]/g, '-').trim();
 
 const normalize = matching.normalize;

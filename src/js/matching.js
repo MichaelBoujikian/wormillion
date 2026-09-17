@@ -26,7 +26,7 @@
       .normalize('NFD')
       .replace(/[̀-ͯ]/g, '') // strip diacritics so "Yaoundé" == "Yaounde"
       // ...and fold the letters NFD leaves alone, so "Møn" == "Mon"
-      .replace(/ø/gi, 'o').replace(/æ/gi, 'ae').replace(/œ/gi, 'oe').replace(/ł/gi, 'l').replace(/ß/g, 'ss').replace(/[đð]/gi, 'd')
+      .replace(/ø/gi, 'o').replace(/æ/gi, 'ae').replace(/œ/gi, 'oe').replace(/ł/gi, 'l').replace(/ß/g, 'ss').replace(/[đð]/gi, 'd').replace(/þ/gi, 'th')
       .toLowerCase()
       .replace(/[‘’ʼ]/g, "'")
       .replace(/[–—‒]/g, '-')
@@ -46,6 +46,8 @@
     'desert', 'the', 'of', 'city', 'saint', 'st', 'cape', 'atoll',
     // 2026-09-16: "Fiume Sacco", "Fleuve Charente", "Fluss Isar", "Rivier Dinkel"
     'fiume', 'fleuve', 'fluss', 'riviere', 'rivier',
+    // "Lago di Nemi", "Lac du Bourget", "Lagoa do Fogo", "Laguna di Orbetello", "Etang de Thau"
+    'lago', 'lac', 'lagoa', 'laguna', 'etang',
     // 2026-09-16: a reservoir is a lake to the player - "Elephant Butte" finds
     // Elephant Butte Reservoir the way "Superior" finds Lake Superior
     'reservoir'
@@ -62,7 +64,7 @@
   // "saint", "st" and "cape" belong to nobody and never get in the way.
   const WORD_CATEGORY = {
     mount: ['mountain'], mt: ['mountain'], mountain: ['mountain'], peak: ['mountain'], hill: ['mountain'],
-    lake: ['lake'], loch: ['lake'], lough: ['lake'], llyn: ['lake'], reservoir: ['lake'],
+    lake: ['lake'], loch: ['lake'], lough: ['lake'], llyn: ['lake'], reservoir: ['lake'], lago: ['lake'], lac: ['lake'], lagoa: ['lake'], laguna: ['lake'], etang: ['lake'],
     river: ['river'], rio: ['river'], fiume: ['river'], fleuve: ['river'], fluss: ['river'], riviere: ['river'], rivier: ['river'],
     sea: ['sea_ocean'], ocean: ['sea_ocean'], gulf: ['sea_ocean'], bay: ['sea_ocean'],
     island: ['island'], islands: ['island'], isle: ['island'], isles: ['island'], atoll: ['island'],

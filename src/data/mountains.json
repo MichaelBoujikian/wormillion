@@ -1318,7 +1318,9 @@
   "id": "mountain-longs-peak",
   "category": "mountain",
   "name": "Longs Peak",
-  "aliases": [],
+  "aliases": [
+   "Long Peak"
+  ],
   "size": 4346,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Longs Peak\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -7591,20 +7593,6 @@
   "lon": 8.99861111
  },
  {
-  "id": "mountain-churfirsten",
-  "category": "mountain",
-  "name": "Churfirsten",
-  "aliases": [],
-  "size": 2306,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Churfirsten\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
-  "magnitude": 457,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Churfirsten",
-  "lat": 47.15194444,
-  "lon": 9.29805556
- },
- {
   "id": "mountain-civetta",
   "category": "mountain",
   "name": "Civetta",
@@ -7663,24 +7651,12 @@
   "lon": 12.18333333
  },
  {
-  "id": "mountain-tofana",
-  "category": "mountain",
-  "name": "Tofana",
-  "aliases": [],
-  "size": 3244,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Tofana di Rozes\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
-  "magnitude": 487,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tofana di Rozes",
-  "lat": 46.53694444,
-  "lon": 12.05111111
- },
- {
   "id": "mountain-monte-baldo",
   "category": "mountain",
   "name": "Monte Baldo",
-  "aliases": [],
+  "aliases": [
+   "Cima Valdritta"
+  ],
   "size": 2218,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Monte Baldo\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -8387,7 +8363,9 @@
   "id": "mountain-monte-amaro",
   "category": "mountain",
   "name": "Monte Amaro",
-  "aliases": [],
+  "aliases": [
+   "Maiella"
+  ],
   "size": 2793,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Monte Amaro\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -8503,7 +8481,9 @@
   "id": "mountain-punta-la-marmora",
   "category": "mountain",
   "name": "Punta La Marmora",
-  "aliases": [],
+  "aliases": [
+   "Gennargentu"
+  ],
   "size": 1834,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Punta La Marmora\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -27569,7 +27549,9 @@
   "id": "mountain-cavehill",
   "category": "mountain",
   "name": "Cavehill",
-  "aliases": [],
+  "aliases": [
+   "Cave Hill"
+  ],
   "size": 368,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Cavehill\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -28849,7 +28831,9 @@
   "id": "mountain-beinn-ime",
   "category": "mountain",
   "name": "Beinn Ime",
-  "aliases": [],
+  "aliases": [
+   "Ben Ime"
+  ],
   "size": 1011,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Beinn Ìme\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -32080,20 +32064,6 @@
   "lon": 6.28638889
  },
  {
-  "id": "mountain-maiella",
-  "category": "mountain",
-  "name": "Maiella",
-  "aliases": [],
-  "size": 2795,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Maiella\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
-  "magnitude": 639,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Maiella",
-  "lat": 42.08694444,
-  "lon": 14.0875
- },
- {
   "id": "mountain-brienzer-rothorn",
   "category": "mountain",
   "name": "Brienzer Rothorn",
@@ -32111,7 +32081,10 @@
   "id": "mountain-tofane",
   "category": "mountain",
   "name": "Tofane",
-  "aliases": [],
+  "aliases": [
+   "Tofana",
+   "Tofana di Mezzo"
+  ],
   "size": 3244,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Tofane\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -32125,7 +32098,9 @@
   "id": "mountain-hoher-goll",
   "category": "mountain",
   "name": "Hoher Goll",
-  "aliases": [],
+  "aliases": [
+   "Hoher Goell"
+  ],
   "size": 2522,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Hoher Göll\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -32599,7 +32574,9 @@
   "id": "mountain-konigspitze",
   "category": "mountain",
   "name": "Konigspitze",
-  "aliases": [],
+  "aliases": [
+   "Koenigspitze"
+  ],
   "size": 3851,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Königspitze\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -33224,20 +33201,6 @@
   "lon": 6.35611111
  },
  {
-  "id": "mountain-cima-valdritta",
-  "category": "mountain",
-  "name": "Cima Valdritta",
-  "aliases": [],
-  "size": 2218,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Cima Valdritta\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
-  "magnitude": 183,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Cima Valdritta",
-  "lat": 45.72638889,
-  "lon": 10.84388889
- },
- {
   "id": "mountain-ellmauer-halt",
   "category": "mountain",
   "name": "Ellmauer Halt",
@@ -33269,7 +33232,9 @@
   "id": "mountain-hinterrugg",
   "category": "mountain",
   "name": "Hinterrugg",
-  "aliases": [],
+  "aliases": [
+   "Churfirsten"
+  ],
   "size": 2306,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Hinterrugg\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -33409,7 +33374,9 @@
   "id": "mountain-ehrenburg",
   "category": "mountain",
   "name": "Ehrenburg",
-  "aliases": [],
+  "aliases": [
+   "Ehrenbuerg"
+  ],
   "size": 532,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Ehrenbürg\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -33423,7 +33390,9 @@
   "id": "mountain-zuckerhutl",
   "category": "mountain",
   "name": "Zuckerhutl",
-  "aliases": [],
+  "aliases": [
+   "Zuckerhuetl"
+  ],
   "size": 3507,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Zuckerhütl\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -33507,7 +33476,9 @@
   "id": "mountain-chaserrugg",
   "category": "mountain",
   "name": "Chaserrugg",
-  "aliases": [],
+  "aliases": [
+   "Chaeserrugg"
+  ],
   "size": 2262,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Chäserrugg\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -33729,7 +33700,9 @@
   "id": "mountain-montalto",
   "category": "mountain",
   "name": "Montalto",
-  "aliases": [],
+  "aliases": [
+   "Aspromonte"
+  ],
   "size": 1955,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Montalto (Aspromonte)\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -33771,7 +33744,9 @@
   "id": "mountain-schonfeldspitze",
   "category": "mountain",
   "name": "Schonfeldspitze",
-  "aliases": [],
+  "aliases": [
+   "Schoenfeldspitze"
+  ],
   "size": 2653,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Schönfeldspitze\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -33925,7 +33900,9 @@
   "id": "mountain-grunhorn",
   "category": "mountain",
   "name": "Grunhorn",
-  "aliases": [],
+  "aliases": [
+   "Gruenhorn"
+  ],
   "size": 4043,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Grünhorn\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -33953,7 +33930,9 @@
   "id": "mountain-hintere-schwarze",
   "category": "mountain",
   "name": "Hintere Schwarze",
-  "aliases": [],
+  "aliases": [
+   "Hintere Schwaerze"
+  ],
   "size": 3628,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Hintere Schwärze\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
@@ -34368,20 +34347,6 @@
   "wikiTitle": "Salève",
   "lat": 46.09416667,
   "lon": 6.14027778
- },
- {
-  "id": "mountain-mont-cenis",
-  "category": "mountain",
-  "name": "Mont Cenis",
-  "aliases": [],
-  "size": 2085,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mont Cenis\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
-  "magnitude": 883,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mont Cenis",
-  "lat": 45.26027778,
-  "lon": 6.90083333
  },
  {
   "id": "mountain-pointe-helbronner",
@@ -35392,20 +35357,6 @@
   "lon": 14.22388889
  },
  {
-  "id": "mountain-aspromonte",
-  "category": "mountain",
-  "name": "Aspromonte",
-  "aliases": [],
-  "size": 1956,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Aspromonte\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
-  "magnitude": 761,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Aspromonte",
-  "lat": 38.16666667,
-  "lon": 15.88333333
- },
- {
   "id": "mountain-kneiff",
   "category": "mountain",
   "name": "Kneiff",
@@ -35432,20 +35383,6 @@
   "wikiTitle": "El Toro (Menorca)",
   "lat": 39.985,
   "lon": 4.11361111
- },
- {
-  "id": "mountain-gennargentu",
-  "category": "mountain",
-  "name": "Gennargentu",
-  "aliases": [],
-  "size": 1834,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Gennargentu\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
-  "magnitude": 609,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Gennargentu",
-  "lat": 40.01666667,
-  "lon": 9.31666667
  },
  {
   "id": "mountain-grauspitz",
@@ -36032,20 +35969,6 @@
   "wikiTitle": "Peña de Francia",
   "lat": 40.5128,
   "lon": -6.1689
- },
- {
-  "id": "mountain-radomir",
-  "category": "mountain",
-  "name": "Radomir",
-  "aliases": [],
-  "size": 2031,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Radomir (mountain)\", 60-day daily median (60 days ending 2026-09-17); Standard reference summit elevations (m)",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Radomir (mountain)",
-  "lat": 41.32166667,
-  "lon": 23.12194444
  },
  {
   "id": "mountain-rocca-busambra",
