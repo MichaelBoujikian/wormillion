@@ -6409,7 +6409,30 @@ export const WIKI_TITLES = {
   "city-pozuelo-de-alarcon": "Pozuelo de Alarcón",
   "city-velez-malaga": "Vélez-Málaga",
   "city-norrkoping": "Norrköping",
-  "city-langenfeld": "Langenfeld, Rhineland"
+  "city-langenfeld": "Langenfeld, Rhineland",
+
+  // --- sea_ocean (2026-09-14 expansion) ---
+  "sea_ocean-mission-bay": "Mission Bay (San Diego)",
+  "sea_ocean-green-bay": "Green Bay (Lake Michigan)",
+  "sea_ocean-san-pedro-bay": "San Pedro Bay (California)",
+  "sea_ocean-glacier-bay": "Glacier Bay Basin",
+  "sea_ocean-laguna-madre": "Laguna Madre (United States)",
+  "sea_ocean-massacre-bay": "Massacre Bay (Alaska)",
+  "sea_ocean-kane-ohe-bay": "Kāneʻohe Bay",
+  "sea_ocean-trinity-bay": "Trinity Bay (Texas)",
+  "sea_ocean-charlotte-harbor": "Charlotte Harbor (estuary)",
+  "sea_ocean-thunder-bay": "Thunder Bay (Michigan)",
+  "sea_ocean-great-bay": "Great Bay (New Hampshire)",
+  "sea_ocean-san-luis-pass": "San Luis Pass (Galveston Island)",
+  "sea_ocean-vermilion-bay": "Vermilion Bay (Louisiana)",
+  "sea_ocean-st-andrews-bay": "St. Andrews Bay (Florida)",
+  "sea_ocean-turtle-bay": "Turtle Bay, Oʻahu",
+  "sea_ocean-useless-bay": "Useless Bay (Washington)",
+  "sea_ocean-anchor-bay": "Anchor Bay (Michigan)",
+  "sea_ocean-half-moon-bay": "Half Moon Bay (California)",
+  "sea_ocean-big-lagoon": "Big Lagoon (California)",
+  "sea_ocean-union-bay": "Union Bay (Seattle)",
+  "sea_ocean-whale-cove": "Whale Cove (Oregon)"
 };
 
 /**
@@ -6888,5 +6911,15 @@ export const WIKI_VERIFIED = new Set([
   "sea_ocean-naeroyfjord",
   "sea_ocean-mont-saint-michel-bay",
   // --- the Accona Desert (Crete Senesi) is described as a geographical feature ---
-  "desert-accona-desert"
+  "desert-accona-desert",
+  // --- the US no-figure seas re-run (2026-09-17): odd Wikidata descriptions, the articles are the bays ---
+  "sea_ocean-bodega-bay", // "Archaeological site" - the bay article
+  "sea_ocean-sebastian-inlet", // "12 miles north of Vero Beach"
+  "sea_ocean-hallo-bay", // "Place in Katmai National Park"
+  "sea_ocean-haverstraw-bay", // "Widest portion of the Hudson River" - a tidal bay
+  "sea_ocean-batiquitos-lagoon", // "Coastal wetland"
+  "sea_ocean-san-elijo-lagoon", // "Coastal wetland"
+  "sea_ocean-fire-island-inlet", // no short description
+  "sea_ocean-matanzas-bay", // no short description
+  "sea_ocean-shark-river-inlet" // no short description
 ]);

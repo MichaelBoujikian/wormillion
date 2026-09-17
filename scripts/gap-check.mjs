@@ -95,7 +95,9 @@ const EXPECTED = {
     // the 2026-09-15 expansion
     'Strait of Gibraltar', 'Bosphorus', 'Strait of Hormuz', 'Bering Strait', 'Puget Sound', 'San Francisco Bay', 'Tokyo Bay', 'Bohai Sea', 'Gulf of Suez',
     // the 2026-09-17 Europe seas scouring (reports/2026-09-17-europe-seas-deserts-cities.md)
-    'Scapa Flow', 'Sognefjord', 'Geirangerfjord', 'Oslofjord', 'Hardangerfjord', 'Menai Strait', 'Cantabrian Sea', 'Loch Fyne', 'Firth of Tay', 'Cromarty Firth', 'Venetian Lagoon', 'Liverpool Bay', 'Swansea Bay', 'Kiel Fjord', 'Gulf of Corryvreckan', 'Saltstraumen']
+    'Scapa Flow', 'Sognefjord', 'Geirangerfjord', 'Oslofjord', 'Hardangerfjord', 'Menai Strait', 'Cantabrian Sea', 'Loch Fyne', 'Firth of Tay', 'Cromarty Firth', 'Venetian Lagoon', 'Liverpool Bay', 'Swansea Bay', 'Kiel Fjord', 'Gulf of Corryvreckan', 'Saltstraumen',
+    // the 2026-09-17 US no-figure re-run (reports/2026-09-17-europe-seas-deserts-cities.md)
+    'Pearl Harbor', 'New York Harbor', 'Golden Gate', 'Straits of Mackinac', 'Deception Pass', 'Boston Harbor', 'Cook Inlet', 'Jamaica Bay', 'Narragansett Bay', 'Pamlico Sound', 'Lituya Bay', 'Arthur Kill', 'The Narrows', 'Bristol Bay', 'Mobile Bay', 'Penobscot Bay', 'Buzzards Bay', 'Hanauma Bay', 'Galveston Bay', 'Elliott Bay', 'Casco Bay', 'Green Bay', 'Kill Van Kull', 'San Diego Bay', 'Humboldt Bay', 'Tomales Bay', 'Barnegat Bay', 'Block Island Sound', 'Glacier Bay', 'Resurrection Bay', 'Kachemak Bay', 'Turnagain Arm', 'Albemarle Sound']
 };
 
 const byCategory = new Map();

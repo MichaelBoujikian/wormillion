@@ -10278,4 +10278,214 @@ Skjalfandi|0
 Stagnone Lagoon|13.8
 Weymouth Bay|0
 Lulworth Cove|0
+Pearl Harbor|0
+New York Harbor|0
+Golden Gate|0
+Straits of Mackinac|0
+Deception Pass|0
+Kealakekua Bay|0
+Boston Harbor|0
+Cook Inlet|0
+Jamaica Bay|0
+Narragansett Bay|0
+Pamlico Sound|0
+Lituya Bay|0
+Arthur Kill|0
+The Narrows|0
+Bristol Bay|0
+Baker's Haulover Inlet|0
+Mobile Bay|0
+Penobscot Bay|0
+Whitefish Bay|0
+Buzzards Bay|0
+Hanauma Bay|0
+Turnagain Arm|0
+Bodega Bay|0
+Mission Bay|0
+Albemarle Sound|0
+Galveston Bay|0
+Elliott Bay|0
+Casco Bay|0
+Green Bay|0
+Kill Van Kull|0
+New York Bay|0
+Suisun Bay|0
+Hanalei Bay|0
+San Diego Bay|0
+Indian River Lagoon|0
+Barataria Bay|0
+Massachusetts Bay|0
+Carquinez Strait|0
+Humboldt Bay|0
+Tomales Bay|0
+Waimea Bay|0
+Dead Horse Bay|0
+Dixon Entrance|0
+Porte des Morts|0
+Barnegat Bay|0
+Mallows Bay|0
+Block Island Sound|0
+Grand Traverse Bay|0
+San Pedro Bay|0
+Magens Bay|0
+Passamaquoddy Bay|0
+Raritan Bay|0
+Santa Monica Bay|0
+Wassaw Sound|0
+Drakes Bay|0
+Assawoman Bay|0
+Lower New York Bay|0
+San Pablo Bay|0
+Florida Bay|0
+Glacier Bay|0
+Laguna Madre|0
+Saginaw Bay|0
+Santa Barbara Channel|0
+Coos Bay|0
+Grays Harbor|0
+Massacre Bay|0
+Great South Bay|0
+Kaneʻohe Bay|0
+Resurrection Bay|0
+Corpus Christi Bay|0
+Kachemak Bay|0
+Ocracoke Inlet|0
+Oregon Inlet|0
+Provincetown Harbor|0
+Choctawhatchee Bay|0
+Elkhorn Slough|0
+Trunk Bay|0
+Admiralty Inlet|0
+Lake Worth Lagoon|0
+Chequamegon Bay|0
+Newark Bay|0
+San Bernardino Strait|0
+Willapa Bay|0
+Puerto Mosquito|0
+Rhode Island Sound|0
+Winyah Bay|0
+Peconic Bay|0
+Trinity Bay|0
+Commencement Bay|0
+Knik Arm|0
+Manasquan Inlet|0
+Wallabout Bay|0
+Flushing Bay|0
+Mosquito Lagoon|0
+Boundary Bay|0
+Charlotte Harbor|0
+Gastineau Channel|0
+Haro Strait|0
+Hilo Bay|0
+Sebastian Inlet|0
+Matanzas Inlet|0
+Presque Isle Bay|0
+St. Joseph Bay|0
+Thunder Bay|0
+Disenchantment Bay|0
+Dismal Nitch|0
+Gardiners Bay|0
+Great Bay|0
+Sandusky Bay|0
+Tillamook Bay|0
+Apalachee Bay|0
+Apalachicola Bay|0
+Bellingham Bay|0
+Gravesend Bay|0
+Gulf of the Farallones|0
+Netarts Bay|0
+Pensacola Bay|0
+Portage Bay|0
+Rigolets|0
+Rosario Strait|0
+Shelikof Strait|0
+Tacoma Narrows|0
+Thomas Bay|0
+Port Royal Sound|0
+Sturgeon Bay|0
+Bowery Bay|0
+Budd Inlet|0
+Chichagof Harbor|0
+Frenchman Bay|0
+Icy Strait|0
+Jupiter Inlet|0
+Salmon Bay|0
+San Juan Bay|0
+San Luis Pass|0
+Shinnecock Inlet|0
+Vermilion Bay|0
+Yakutat Bay|0
+Yaquina Bay|0
+Agua Hedionda Lagoon|0
+Boca Ciega Bay|0
+Chatham Strait|0
+Hawk Channel|0
+Hingham Bay|0
+Holkham Bay|0
+Irondequoit Bay|0
+Little Traverse Bay|0
+Merrymeeting Bay|0
+Perdido Bay|0
+Perdido Pass|0
+Saratoga Passage|0
+Sodus Bay|0
+St. Andrews Bay|0
+Agate Pass|0
+Barnegat Inlet|0
+Big Bay de Noc|0
+Chef Menteur Pass|0
+Great Egg Harbor Bay|0
+Gulf of Santa Catalina|0
+Manhasset Bay|0
+Mount Hope Bay|0
+Stephens Passage|0
+Turtle Bay|0
+Useless Bay|0
+Vineyard Sound|0
+Anchor Bay|0
+Half Moon Bay|0
+Hallo Bay|0
+Isabel Inlet|0
+La Perouse Bay|0
+Muscongus Bay|0
+Oakland Estuary|0
+Rehoboth Bay|0
+Richardson Bay|0
+Sarasota Bay|0
+Alamitos Bay|0
+Bay of St. Louis|0
+Fairhaven Bay|0
+Haverstraw Bay|0
+Little Bay de Noc|0
+Moriches Inlet|0
+Murder Cove|0
+Padilla Bay|0
+Shoup Bay|0
+Tumon Bay|0
+Batiquitos Lagoon|0
+Big Lagoon|0
+Bolinas Lagoon|0
+Chincoteague Bay|0
+Cobscook Bay|0
+Columbia River Estuary|0
+Copano Bay|0
+Drakes Estero|0
+Fire Island Inlet|0
+Keweenaw Bay|0
+Lavaca Bay|0
+Matanzas Bay|0
+Nehalem Bay|0
+Ponce de Leon Inlet|0
+Port Susan|0
+Rockaway Inlet|0
+San Elijo Lagoon|0
+Semiahmoo Bay|0
+Shark River Inlet|0
+Shilshole Bay|0
+Sinepuxent Bay|0
+South Oyster Bay|0
+St. Lucie Inlet|0
+Tongass Narrows|0
+Union Bay|0
+Whale Cove|0
 `;

@@ -362,7 +362,38 @@ export const OCEAN_OVERRIDES = {
   'island-amrum': ['Atlantic'],
   'island-fohr': ['Atlantic'],
   'island-south-sandwich-islands': ['Southern', 'Atlantic'],
-  'island-monte-isola': []
+  'island-monte-isola': [],
+
+  // --- the US no-figure seas re-run (2026-09-17): bays and straits of the Great Lakes, Lake Washington and Lake Union are in no ocean, as the lake islands ---
+  'sea_ocean-straits-of-mackinac': [],
+  'sea_ocean-whitefish-bay': [],
+  'sea_ocean-green-bay': [],
+  'sea_ocean-porte-des-morts': [],
+  'sea_ocean-grand-traverse-bay': [],
+  'sea_ocean-saginaw-bay': [],
+  'sea_ocean-chequamegon-bay': [],
+  'sea_ocean-thunder-bay': [],
+  'sea_ocean-sandusky-bay': [],
+  'sea_ocean-presque-isle-bay': [],
+  'sea_ocean-sturgeon-bay': [],
+  'sea_ocean-irondequoit-bay': [],
+  'sea_ocean-little-traverse-bay': [],
+  'sea_ocean-sodus-bay': [],
+  'sea_ocean-big-bay-de-noc': [],
+  'sea_ocean-little-bay-de-noc': [],
+  'sea_ocean-anchor-bay': [],
+  'sea_ocean-keweenaw-bay': [],
+  'sea_ocean-union-bay': [],
+  'sea_ocean-portage-bay': [],
+  'sea_ocean-salmon-bay': [],
+  // coastal bays whose coordinates fall outside every ocean box
+  'sea_ocean-magens-bay': ['Atlantic'],
+  'sea_ocean-coos-bay': ['Pacific'],
+  'sea_ocean-oregon-inlet': ['Atlantic'],
+  'sea_ocean-lake-worth-lagoon': ['Atlantic'],
+  'sea_ocean-chef-menteur-pass': ['Atlantic'],
+  'sea_ocean-big-lagoon': ['Pacific'],
+  'sea_ocean-st-lucie-inlet': ['Atlantic']
 };
 
 /** Final answer for one entry. */

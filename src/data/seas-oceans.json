@@ -6998,5 +6998,3519 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "sea_ocean-pearl-harbor",
+  "category": "sea_ocean",
+  "name": "Pearl Harbor",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pearl Harbor\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 17259,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pearl Harbor",
+  "lat": 21.3679,
+  "lon": -157.9771,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-new-york-harbor",
+  "category": "sea_ocean",
+  "name": "New York Harbor",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"New York Harbor\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 8554,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New York Harbor",
+  "lat": 40.66833333,
+  "lon": -74.04555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-golden-gate",
+  "category": "sea_ocean",
+  "name": "Golden Gate",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Golden Gate\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 7184,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Golden Gate",
+  "lat": 37.81,
+  "lon": -122.5,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-straits-of-mackinac",
+  "category": "sea_ocean",
+  "name": "Straits of Mackinac",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Straits of Mackinac\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 6088,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Straits of Mackinac",
+  "lat": 45.81388889,
+  "lon": -84.75,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-deception-pass",
+  "category": "sea_ocean",
+  "name": "Deception Pass",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Deception Pass\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3835,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Deception Pass",
+  "lat": 48.40638889,
+  "lon": -122.64444444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-kealakekua-bay",
+  "category": "sea_ocean",
+  "name": "Kealakekua Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kealakekua Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3561,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kealakekua Bay",
+  "lat": 19.476,
+  "lon": -155.927,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-boston-harbor",
+  "category": "sea_ocean",
+  "name": "Boston Harbor",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boston Harbor\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3501,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boston Harbor",
+  "lat": 42.34166667,
+  "lon": -70.96611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-cook-inlet",
+  "category": "sea_ocean",
+  "name": "Cook Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cook Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3501,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cook Inlet",
+  "lat": 60.33777778,
+  "lon": -151.875,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-jamaica-bay",
+  "category": "sea_ocean",
+  "name": "Jamaica Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jamaica Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3531,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jamaica Bay",
+  "lat": 40.61777778,
+  "lon": -73.8425,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-narragansett-bay",
+  "category": "sea_ocean",
+  "name": "Narragansett Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Narragansett Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 3257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Narragansett Bay",
+  "lat": 41.6,
+  "lon": -71.35,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-pamlico-sound",
+  "category": "sea_ocean",
+  "name": "Pamlico Sound",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pamlico Sound\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2557,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pamlico Sound",
+  "lat": 35.31277778,
+  "lon": -75.93722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-lituya-bay",
+  "category": "sea_ocean",
+  "name": "Lituya Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lituya Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lituya Bay",
+  "lat": 58.63694444,
+  "lon": -137.57305556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-arthur-kill",
+  "category": "sea_ocean",
+  "name": "Arthur Kill",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Arthur Kill\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2344,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Arthur Kill",
+  "lat": 40.50027778,
+  "lon": -74.25861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-the-narrows",
+  "category": "sea_ocean",
+  "name": "The Narrows",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"The Narrows\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2009,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "The Narrows",
+  "lat": 40.61333333,
+  "lon": -74.04805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bristol-bay",
+  "category": "sea_ocean",
+  "name": "Bristol Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bristol Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2009,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bristol Bay",
+  "lat": 57.66666667,
+  "lon": -159.83333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-baker-s-haulover-inlet",
+  "category": "sea_ocean",
+  "name": "Baker's Haulover Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baker's Haulover Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1918,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baker's Haulover Inlet",
+  "lat": 25.89972222,
+  "lon": -80.12388889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mobile-bay",
+  "category": "sea_ocean",
+  "name": "Mobile Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mobile Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1887,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mobile Bay",
+  "lat": 30.44277778,
+  "lon": -88.00916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-penobscot-bay",
+  "category": "sea_ocean",
+  "name": "Penobscot Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Penobscot Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1887,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Penobscot Bay",
+  "lat": 44.18722222,
+  "lon": -68.92111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-whitefish-bay",
+  "category": "sea_ocean",
+  "name": "Whitefish Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Whitefish Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1857,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Whitefish Bay",
+  "lat": 46.70222222,
+  "lon": -84.78888889,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-buzzards-bay",
+  "category": "sea_ocean",
+  "name": "Buzzards Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Buzzards Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Buzzards Bay",
+  "lat": 41.6,
+  "lon": -70.75,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-hanauma-bay",
+  "category": "sea_ocean",
+  "name": "Hanauma Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hanauma Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1826,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hanauma Bay",
+  "lat": 21.27138889,
+  "lon": -157.69444444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-turnagain-arm",
+  "category": "sea_ocean",
+  "name": "Turnagain Arm",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Turnagain Arm\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Turnagain Arm",
+  "lat": 60.9872,
+  "lon": -149.7947,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-bodega-bay",
+  "category": "sea_ocean",
+  "name": "Bodega Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bodega Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bodega Bay",
+  "lat": 38.27361111,
+  "lon": -123.00611111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-mission-bay",
+  "category": "sea_ocean",
+  "name": "Mission Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mission Bay (San Diego)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mission Bay (San Diego)",
+  "lat": 32.77916667,
+  "lon": -117.23416667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-albemarle-sound",
+  "category": "sea_ocean",
+  "name": "Albemarle Sound",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Albemarle Sound\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Albemarle Sound",
+  "lat": 36.0652,
+  "lon": -76.06453,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-galveston-bay",
+  "category": "sea_ocean",
+  "name": "Galveston Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Galveston Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Galveston Bay",
+  "lat": 29.56972222,
+  "lon": -94.93666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-elliott-bay",
+  "category": "sea_ocean",
+  "name": "Elliott Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Elliott Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Elliott Bay",
+  "lat": 47.603,
+  "lon": -122.373,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-casco-bay",
+  "category": "sea_ocean",
+  "name": "Casco Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Casco Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Casco Bay",
+  "lat": 43.65,
+  "lon": -70.05,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-green-bay",
+  "category": "sea_ocean",
+  "name": "Green Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Green Bay (Lake Michigan)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Green Bay (Lake Michigan)",
+  "lat": 45.02972222,
+  "lon": -87.46083333,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-kill-van-kull",
+  "category": "sea_ocean",
+  "name": "Kill Van Kull",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kill Van Kull\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1613,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kill Van Kull",
+  "lat": 40.644,
+  "lon": -74.12,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-new-york-bay",
+  "category": "sea_ocean",
+  "name": "New York Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"New York Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New York Bay",
+  "lat": 40.64,
+  "lon": -74.05,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-suisun-bay",
+  "category": "sea_ocean",
+  "name": "Suisun Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Suisun Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1522,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Suisun Bay",
+  "lat": 38.07,
+  "lon": -122.07,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-hanalei-bay",
+  "category": "sea_ocean",
+  "name": "Hanalei Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hanalei Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1492,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hanalei Bay",
+  "lat": 22.21444444,
+  "lon": -159.49777778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-san-diego-bay",
+  "category": "sea_ocean",
+  "name": "San Diego Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Diego Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1461,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Diego Bay",
+  "lat": 32.65,
+  "lon": -117.19,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-indian-river-lagoon",
+  "category": "sea_ocean",
+  "name": "Indian River Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Indian River Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Indian River Lagoon",
+  "lat": 28.05527778,
+  "lon": -80.57611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-barataria-bay",
+  "category": "sea_ocean",
+  "name": "Barataria Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barataria Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barataria Bay",
+  "lat": 29.37411,
+  "lon": -89.93813,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-massachusetts-bay",
+  "category": "sea_ocean",
+  "name": "Massachusetts Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Massachusetts Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Massachusetts Bay",
+  "lat": 42.375,
+  "lon": -70.74944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-carquinez-strait",
+  "category": "sea_ocean",
+  "name": "Carquinez Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Carquinez Strait\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Carquinez Strait",
+  "lat": 38.05918,
+  "lon": -122.2126,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-humboldt-bay",
+  "category": "sea_ocean",
+  "name": "Humboldt Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Humboldt Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Humboldt Bay",
+  "lat": 40.73555556,
+  "lon": -124.23027778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-tomales-bay",
+  "category": "sea_ocean",
+  "name": "Tomales Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tomales Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tomales Bay",
+  "lat": 38.1486,
+  "lon": -122.89787,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-waimea-bay",
+  "category": "sea_ocean",
+  "name": "Waimea Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Waimea Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Waimea Bay",
+  "lat": 21.640296,
+  "lon": -158.063779,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-dead-horse-bay",
+  "category": "sea_ocean",
+  "name": "Dead Horse Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dead Horse Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dead Horse Bay",
+  "lat": 40.58222222,
+  "lon": -73.89861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-dixon-entrance",
+  "category": "sea_ocean",
+  "name": "Dixon Entrance",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dixon Entrance\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dixon Entrance",
+  "lat": 54.36666667,
+  "lon": -132.33333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-porte-des-morts",
+  "category": "sea_ocean",
+  "name": "Porte des Morts",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Porte des Morts\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Porte des Morts",
+  "lat": 45.29333333,
+  "lon": -86.95861111,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-barnegat-bay",
+  "category": "sea_ocean",
+  "name": "Barnegat Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barnegat Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barnegat Bay",
+  "lat": 39.82,
+  "lon": -74.126,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mallows-bay",
+  "category": "sea_ocean",
+  "name": "Mallows Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mallows Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mallows Bay",
+  "lat": 38.47261111,
+  "lon": -77.26858333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-block-island-sound",
+  "category": "sea_ocean",
+  "name": "Block Island Sound",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Block Island Sound\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Block Island Sound",
+  "lat": 41.26,
+  "lon": -71.66,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-grand-traverse-bay",
+  "category": "sea_ocean",
+  "name": "Grand Traverse Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grand Traverse Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grand Traverse Bay",
+  "lat": 45.06,
+  "lon": -85.48,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-san-pedro-bay",
+  "category": "sea_ocean",
+  "name": "San Pedro Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Pedro Bay (California)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Pedro Bay (California)",
+  "lat": 33.73333333,
+  "lon": -118.20083333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-magens-bay",
+  "category": "sea_ocean",
+  "name": "Magens Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Magens Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Magens Bay",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-passamaquoddy-bay",
+  "category": "sea_ocean",
+  "name": "Passamaquoddy Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Passamaquoddy Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Passamaquoddy Bay",
+  "lat": 45.08333333,
+  "lon": -67.08333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-raritan-bay",
+  "category": "sea_ocean",
+  "name": "Raritan Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Raritan Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Raritan Bay",
+  "lat": 40.48333333,
+  "lon": -74.18305556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-santa-monica-bay",
+  "category": "sea_ocean",
+  "name": "Santa Monica Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa Monica Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Monica Bay",
+  "lat": 33.93888889,
+  "lon": -118.50416667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-wassaw-sound",
+  "category": "sea_ocean",
+  "name": "Wassaw Sound",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wassaw Sound\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wassaw Sound",
+  "lat": 31.93361111,
+  "lon": -80.94972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-drakes-bay",
+  "category": "sea_ocean",
+  "name": "Drakes Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Drakes Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drakes Bay",
+  "lat": 38.01194444,
+  "lon": -122.91916667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-assawoman-bay",
+  "category": "sea_ocean",
+  "name": "Assawoman Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Assawoman Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Assawoman Bay",
+  "lat": 38.41666667,
+  "lon": -75.08333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-lower-new-york-bay",
+  "category": "sea_ocean",
+  "name": "Lower New York Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lower New York Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lower New York Bay",
+  "lat": 40.51666667,
+  "lon": -74.04972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-san-pablo-bay",
+  "category": "sea_ocean",
+  "name": "San Pablo Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Pablo Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Pablo Bay",
+  "lat": 38.06666667,
+  "lon": -122.38333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-florida-bay",
+  "category": "sea_ocean",
+  "name": "Florida Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Florida Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Florida Bay",
+  "lat": 25.00027778,
+  "lon": -80.74972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-glacier-bay",
+  "category": "sea_ocean",
+  "name": "Glacier Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Glacier Bay Basin\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Glacier Bay Basin",
+  "lat": 58.7,
+  "lon": -136.15,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-laguna-madre",
+  "category": "sea_ocean",
+  "name": "Laguna Madre",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Laguna Madre (United States)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Laguna Madre (United States)",
+  "lat": 26.75,
+  "lon": -97.41666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-saginaw-bay",
+  "category": "sea_ocean",
+  "name": "Saginaw Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saginaw Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saginaw Bay",
+  "lat": 43.91666667,
+  "lon": -83.58333333,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-santa-barbara-channel",
+  "category": "sea_ocean",
+  "name": "Santa Barbara Channel",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa Barbara Channel\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Barbara Channel",
+  "lat": 34.24194444,
+  "lon": -119.89,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-coos-bay",
+  "category": "sea_ocean",
+  "name": "Coos Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Coos Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coos Bay",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-grays-harbor",
+  "category": "sea_ocean",
+  "name": "Grays Harbor",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grays Harbor\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grays Harbor",
+  "lat": 46.95055556,
+  "lon": -124.05111111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-massacre-bay",
+  "category": "sea_ocean",
+  "name": "Massacre Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Massacre Bay (Alaska)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Massacre Bay (Alaska)",
+  "lat": 52.82666667,
+  "lon": 173.22,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-great-south-bay",
+  "category": "sea_ocean",
+  "name": "Great South Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great South Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great South Bay",
+  "lat": 40.69027778,
+  "lon": -73.10194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kane-ohe-bay",
+  "category": "sea_ocean",
+  "name": "Kaneʻohe Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kāneʻohe Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kāneʻohe Bay",
+  "lat": 21.46277778,
+  "lon": -157.81027778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-resurrection-bay",
+  "category": "sea_ocean",
+  "name": "Resurrection Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Resurrection Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Resurrection Bay",
+  "lat": 59.97,
+  "lon": -149.381,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-corpus-christi-bay",
+  "category": "sea_ocean",
+  "name": "Corpus Christi Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Corpus Christi Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Corpus Christi Bay",
+  "lat": 27.77222222,
+  "lon": -97.25277778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kachemak-bay",
+  "category": "sea_ocean",
+  "name": "Kachemak Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kachemak Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kachemak Bay",
+  "lat": 59.60916667,
+  "lon": -151.3475,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-ocracoke-inlet",
+  "category": "sea_ocean",
+  "name": "Ocracoke Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ocracoke Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ocracoke Inlet",
+  "lat": 35.06416667,
+  "lon": -76.01611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-oregon-inlet",
+  "category": "sea_ocean",
+  "name": "Oregon Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oregon Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oregon Inlet",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-provincetown-harbor",
+  "category": "sea_ocean",
+  "name": "Provincetown Harbor",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Provincetown Harbor\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Provincetown Harbor",
+  "lat": 42.045,
+  "lon": -70.17,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-choctawhatchee-bay",
+  "category": "sea_ocean",
+  "name": "Choctawhatchee Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Choctawhatchee Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Choctawhatchee Bay",
+  "lat": 30.43944444,
+  "lon": -86.31111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-elkhorn-slough",
+  "category": "sea_ocean",
+  "name": "Elkhorn Slough",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Elkhorn Slough\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Elkhorn Slough",
+  "lat": 36.81666667,
+  "lon": -121.76666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-trunk-bay",
+  "category": "sea_ocean",
+  "name": "Trunk Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trunk Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trunk Bay",
+  "lat": 18.3525,
+  "lon": -64.76972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-admiralty-inlet",
+  "category": "sea_ocean",
+  "name": "Admiralty Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Admiralty Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Admiralty Inlet",
+  "lat": 48.16234444,
+  "lon": -122.72459722,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-lake-worth-lagoon",
+  "category": "sea_ocean",
+  "name": "Lake Worth Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lake Worth Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lake Worth Lagoon",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-chequamegon-bay",
+  "category": "sea_ocean",
+  "name": "Chequamegon Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chequamegon Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chequamegon Bay",
+  "lat": 46.65027778,
+  "lon": -90.84722222,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-newark-bay",
+  "category": "sea_ocean",
+  "name": "Newark Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Newark Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Newark Bay",
+  "lat": 40.679597,
+  "lon": -74.131451,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-san-bernardino-strait",
+  "category": "sea_ocean",
+  "name": "San Bernardino Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Bernardino Strait\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Bernardino Strait",
+  "lat": 12.5875,
+  "lon": 124.19638889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-willapa-bay",
+  "category": "sea_ocean",
+  "name": "Willapa Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Willapa Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Willapa Bay",
+  "lat": 46.66222222,
+  "lon": -124.01055556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-puerto-mosquito",
+  "category": "sea_ocean",
+  "name": "Puerto Mosquito",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Puerto Mosquito\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Puerto Mosquito",
+  "lat": 18.10194444,
+  "lon": -65.44583333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-rhode-island-sound",
+  "category": "sea_ocean",
+  "name": "Rhode Island Sound",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rhode Island Sound\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rhode Island Sound",
+  "lat": 41.43333333,
+  "lon": -71.21611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-winyah-bay",
+  "category": "sea_ocean",
+  "name": "Winyah Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Winyah Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Winyah Bay",
+  "lat": 33.2912,
+  "lon": -79.2756,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-peconic-bay",
+  "category": "sea_ocean",
+  "name": "Peconic Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Peconic Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peconic Bay",
+  "lat": 40.96361111,
+  "lon": -72.46666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-trinity-bay",
+  "category": "sea_ocean",
+  "name": "Trinity Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trinity Bay (Texas)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trinity Bay (Texas)",
+  "lat": 29.6825,
+  "lon": -94.79194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-commencement-bay",
+  "category": "sea_ocean",
+  "name": "Commencement Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Commencement Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Commencement Bay",
+  "lat": 47.2897,
+  "lon": -122.458,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-knik-arm",
+  "category": "sea_ocean",
+  "name": "Knik Arm",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Knik Arm\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Knik Arm",
+  "lat": 61.2,
+  "lon": -150.2167,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-manasquan-inlet",
+  "category": "sea_ocean",
+  "name": "Manasquan Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Manasquan Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manasquan Inlet",
+  "lat": 40.10277778,
+  "lon": -74.035,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-wallabout-bay",
+  "category": "sea_ocean",
+  "name": "Wallabout Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wallabout Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wallabout Bay",
+  "lat": 40.705,
+  "lon": -73.975,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-flushing-bay",
+  "category": "sea_ocean",
+  "name": "Flushing Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Flushing Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Flushing Bay",
+  "lat": 40.77888889,
+  "lon": -73.85666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mosquito-lagoon",
+  "category": "sea_ocean",
+  "name": "Mosquito Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mosquito Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mosquito Lagoon",
+  "lat": 28.75083333,
+  "lon": -80.75027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-boundary-bay",
+  "category": "sea_ocean",
+  "name": "Boundary Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boundary Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boundary Bay",
+  "lat": 49,
+  "lon": -122.91666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-charlotte-harbor",
+  "category": "sea_ocean",
+  "name": "Charlotte Harbor",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Charlotte Harbor (estuary)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Charlotte Harbor (estuary)",
+  "lat": 26.77583333,
+  "lon": -82.14194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gastineau-channel",
+  "category": "sea_ocean",
+  "name": "Gastineau Channel",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gastineau Channel\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gastineau Channel",
+  "lat": 58.295,
+  "lon": -134.40722222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-haro-strait",
+  "category": "sea_ocean",
+  "name": "Haro Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Haro Strait\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Haro Strait",
+  "lat": 48.55,
+  "lon": -123.21666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-hilo-bay",
+  "category": "sea_ocean",
+  "name": "Hilo Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hilo Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hilo Bay",
+  "lat": 19.73611111,
+  "lon": -155.07694444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-sebastian-inlet",
+  "category": "sea_ocean",
+  "name": "Sebastian Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sebastian Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sebastian Inlet",
+  "lat": 27.86027778,
+  "lon": -80.44722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-matanzas-inlet",
+  "category": "sea_ocean",
+  "name": "Matanzas Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Matanzas Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Matanzas Inlet",
+  "lat": 29.70583333,
+  "lon": -81.22833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-presque-isle-bay",
+  "category": "sea_ocean",
+  "name": "Presque Isle Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Presque Isle Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Presque Isle Bay",
+  "lat": 42.1375,
+  "lon": -80.115,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-st-joseph-bay",
+  "category": "sea_ocean",
+  "name": "St. Joseph Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St. Joseph Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Joseph Bay",
+  "lat": 29.80111111,
+  "lon": -85.34194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-thunder-bay",
+  "category": "sea_ocean",
+  "name": "Thunder Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Thunder Bay (Michigan)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thunder Bay (Michigan)",
+  "lat": 45,
+  "lon": -83.4,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-disenchantment-bay",
+  "category": "sea_ocean",
+  "name": "Disenchantment Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Disenchantment Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Disenchantment Bay",
+  "lat": 59.96194444,
+  "lon": -139.57,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-dismal-nitch",
+  "category": "sea_ocean",
+  "name": "Dismal Nitch",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dismal Nitch\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dismal Nitch",
+  "lat": 46.25,
+  "lon": -123.863,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-gardiners-bay",
+  "category": "sea_ocean",
+  "name": "Gardiners Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gardiners Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gardiners Bay",
+  "lat": 41.09777778,
+  "lon": -72.2125,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-great-bay",
+  "category": "sea_ocean",
+  "name": "Great Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Bay (New Hampshire)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Bay (New Hampshire)",
+  "lat": 43.06694444,
+  "lon": -70.86861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sandusky-bay",
+  "category": "sea_ocean",
+  "name": "Sandusky Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sandusky Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sandusky Bay",
+  "lat": 41.47027778,
+  "lon": -82.855,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-tillamook-bay",
+  "category": "sea_ocean",
+  "name": "Tillamook Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tillamook Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tillamook Bay",
+  "lat": 45.525472,
+  "lon": -123.919258,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-apalachee-bay",
+  "category": "sea_ocean",
+  "name": "Apalachee Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Apalachee Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Apalachee Bay",
+  "lat": 30.03722222,
+  "lon": -84.17083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-apalachicola-bay",
+  "category": "sea_ocean",
+  "name": "Apalachicola Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Apalachicola Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Apalachicola Bay",
+  "lat": 29.67305556,
+  "lon": -84.96194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bellingham-bay",
+  "category": "sea_ocean",
+  "name": "Bellingham Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bellingham Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bellingham Bay",
+  "lat": 48.72,
+  "lon": -122.56027778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-gravesend-bay",
+  "category": "sea_ocean",
+  "name": "Gravesend Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gravesend Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gravesend Bay",
+  "lat": 40.58338889,
+  "lon": -74.00233333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-the-farallones",
+  "category": "sea_ocean",
+  "name": "Gulf of the Farallones",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of the Farallones\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of the Farallones",
+  "lat": 37.7504857,
+  "lon": -122.7516535,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-netarts-bay",
+  "category": "sea_ocean",
+  "name": "Netarts Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Netarts Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Netarts Bay",
+  "lat": 45.4025,
+  "lon": -123.94444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-pensacola-bay",
+  "category": "sea_ocean",
+  "name": "Pensacola Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pensacola Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pensacola Bay",
+  "lat": 30.36833333,
+  "lon": -87.20083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-portage-bay",
+  "category": "sea_ocean",
+  "name": "Portage Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Portage Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Portage Bay",
+  "lat": 47.64722222,
+  "lon": -122.31361111,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-rigolets",
+  "category": "sea_ocean",
+  "name": "Rigolets",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rigolets\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rigolets",
+  "lat": 30.154444,
+  "lon": -89.625278,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-rosario-strait",
+  "category": "sea_ocean",
+  "name": "Rosario Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rosario Strait\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rosario Strait",
+  "lat": 48.5,
+  "lon": -122.75,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-shelikof-strait",
+  "category": "sea_ocean",
+  "name": "Shelikof Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shelikof Strait\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shelikof Strait",
+  "lat": 57.88166667,
+  "lon": -154.42527778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-tacoma-narrows",
+  "category": "sea_ocean",
+  "name": "Tacoma Narrows",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tacoma Narrows\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tacoma Narrows",
+  "lat": 47.28,
+  "lon": -122.54,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-thomas-bay",
+  "category": "sea_ocean",
+  "name": "Thomas Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Thomas Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thomas Bay",
+  "lat": 57.03138889,
+  "lon": -132.85361111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-port-royal-sound",
+  "category": "sea_ocean",
+  "name": "Port Royal Sound",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Port Royal Sound\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port Royal Sound",
+  "lat": 32.26194444,
+  "lon": -80.67805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-sturgeon-bay",
+  "category": "sea_ocean",
+  "name": "Sturgeon Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sturgeon Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sturgeon Bay",
+  "lat": 44.85416667,
+  "lon": -87.39444444,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-bowery-bay",
+  "category": "sea_ocean",
+  "name": "Bowery Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bowery Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bowery Bay",
+  "lat": 40.77833333,
+  "lon": -73.88805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-budd-inlet",
+  "category": "sea_ocean",
+  "name": "Budd Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Budd Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Budd Inlet",
+  "lat": 47.09416667,
+  "lon": -122.91352778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-chichagof-harbor",
+  "category": "sea_ocean",
+  "name": "Chichagof Harbor",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chichagof Harbor\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chichagof Harbor",
+  "lat": 52.93,
+  "lon": 173.24472222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-frenchman-bay",
+  "category": "sea_ocean",
+  "name": "Frenchman Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Frenchman Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Frenchman Bay",
+  "lat": 44.41416667,
+  "lon": -68.185,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-icy-strait",
+  "category": "sea_ocean",
+  "name": "Icy Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Icy Strait\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Icy Strait",
+  "lat": 58.27805556,
+  "lon": -135.64666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-jupiter-inlet",
+  "category": "sea_ocean",
+  "name": "Jupiter Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jupiter Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jupiter Inlet",
+  "lat": 26.94194444,
+  "lon": -80.08611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-salmon-bay",
+  "category": "sea_ocean",
+  "name": "Salmon Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Salmon Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Salmon Bay",
+  "lat": 47.66,
+  "lon": -122.38,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-san-juan-bay",
+  "category": "sea_ocean",
+  "name": "San Juan Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Juan Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Juan Bay",
+  "lat": 18.45220833,
+  "lon": -66.11417778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-san-luis-pass",
+  "category": "sea_ocean",
+  "name": "San Luis Pass",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Luis Pass (Galveston Island)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Luis Pass (Galveston Island)",
+  "lat": 29.0824652,
+  "lon": -95.1215959,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-shinnecock-inlet",
+  "category": "sea_ocean",
+  "name": "Shinnecock Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shinnecock Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shinnecock Inlet",
+  "lat": 40.8425,
+  "lon": -72.47611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-vermilion-bay",
+  "category": "sea_ocean",
+  "name": "Vermilion Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vermilion Bay (Louisiana)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vermilion Bay (Louisiana)",
+  "lat": 29.71972222,
+  "lon": -91.97611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-yakutat-bay",
+  "category": "sea_ocean",
+  "name": "Yakutat Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yakutat Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yakutat Bay",
+  "lat": 59.73166667,
+  "lon": -139.83861111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-yaquina-bay",
+  "category": "sea_ocean",
+  "name": "Yaquina Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yaquina Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yaquina Bay",
+  "lat": 44.618089,
+  "lon": -124.030151,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-agua-hedionda-lagoon",
+  "category": "sea_ocean",
+  "name": "Agua Hedionda Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Agua Hedionda Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Agua Hedionda Lagoon",
+  "lat": 33.1425,
+  "lon": -117.3275,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-boca-ciega-bay",
+  "category": "sea_ocean",
+  "name": "Boca Ciega Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boca Ciega Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boca Ciega Bay",
+  "lat": 27.774,
+  "lon": -82.754,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-chatham-strait",
+  "category": "sea_ocean",
+  "name": "Chatham Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chatham Strait\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chatham Strait",
+  "lat": 56.965,
+  "lon": -134.62555556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-hawk-channel",
+  "category": "sea_ocean",
+  "name": "Hawk Channel",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hawk Channel\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hawk Channel",
+  "lat": 24.78333333,
+  "lon": -80.78333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-hingham-bay",
+  "category": "sea_ocean",
+  "name": "Hingham Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hingham Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hingham Bay",
+  "lat": 42.28,
+  "lon": -70.92,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-holkham-bay",
+  "category": "sea_ocean",
+  "name": "Holkham Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Holkham Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Holkham Bay",
+  "lat": 57.7458333,
+  "lon": -133.6252778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-irondequoit-bay",
+  "category": "sea_ocean",
+  "name": "Irondequoit Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Irondequoit Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Irondequoit Bay",
+  "lat": 43.205,
+  "lon": -77.531,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-little-traverse-bay",
+  "category": "sea_ocean",
+  "name": "Little Traverse Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Traverse Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Traverse Bay",
+  "lat": 45.4,
+  "lon": -85,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-merrymeeting-bay",
+  "category": "sea_ocean",
+  "name": "Merrymeeting Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Merrymeeting Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Merrymeeting Bay",
+  "lat": 43.9825,
+  "lon": -69.8422,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-perdido-bay",
+  "category": "sea_ocean",
+  "name": "Perdido Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Perdido Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Perdido Bay",
+  "lat": 30.33732,
+  "lon": -87.4601,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-perdido-pass",
+  "category": "sea_ocean",
+  "name": "Perdido Pass",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Perdido Pass\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Perdido Pass",
+  "lat": 30.275,
+  "lon": -87.555,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-saratoga-passage",
+  "category": "sea_ocean",
+  "name": "Saratoga Passage",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saratoga Passage\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saratoga Passage",
+  "lat": 48.15325,
+  "lon": -122.53952778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-sodus-bay",
+  "category": "sea_ocean",
+  "name": "Sodus Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sodus Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sodus Bay",
+  "lat": 43.257,
+  "lon": -76.967,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-st-andrews-bay",
+  "category": "sea_ocean",
+  "name": "St. Andrews Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St. Andrews Bay (Florida)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Andrews Bay (Florida)",
+  "lat": 30.15222222,
+  "lon": -85.69111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-agate-pass",
+  "category": "sea_ocean",
+  "name": "Agate Pass",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Agate Pass\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Agate Pass",
+  "lat": 47.7159294,
+  "lon": -122.5609725,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-barnegat-inlet",
+  "category": "sea_ocean",
+  "name": "Barnegat Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barnegat Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barnegat Inlet",
+  "lat": 39.76666667,
+  "lon": -74.10333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-big-bay-de-noc",
+  "category": "sea_ocean",
+  "name": "Big Bay de Noc",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Big Bay de Noc\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Big Bay de Noc",
+  "lat": 45.78333333,
+  "lon": -86.7,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-chef-menteur-pass",
+  "category": "sea_ocean",
+  "name": "Chef Menteur Pass",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chef Menteur Pass\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chef Menteur Pass",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-great-egg-harbor-bay",
+  "category": "sea_ocean",
+  "name": "Great Egg Harbor Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Egg Harbor Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Egg Harbor Bay",
+  "lat": 39.30416667,
+  "lon": -74.64972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-santa-catalina",
+  "category": "sea_ocean",
+  "name": "Gulf of Santa Catalina",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Santa Catalina\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Santa Catalina",
+  "lat": 33,
+  "lon": -118,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-manhasset-bay",
+  "category": "sea_ocean",
+  "name": "Manhasset Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Manhasset Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manhasset Bay",
+  "lat": 40.829008,
+  "lon": -73.714571,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mount-hope-bay",
+  "category": "sea_ocean",
+  "name": "Mount Hope Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mount Hope Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Hope Bay",
+  "lat": 41.68333333,
+  "lon": -71.21666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-stephens-passage",
+  "category": "sea_ocean",
+  "name": "Stephens Passage",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Stephens Passage\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stephens Passage",
+  "lat": 57.81694444,
+  "lon": -133.84277778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-turtle-bay",
+  "category": "sea_ocean",
+  "name": "Turtle Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Turtle Bay, Oʻahu\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Turtle Bay, Oʻahu",
+  "lat": 21.70166667,
+  "lon": -158.00166667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-useless-bay",
+  "category": "sea_ocean",
+  "name": "Useless Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Useless Bay (Washington)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Useless Bay (Washington)",
+  "lat": 47.9827294,
+  "lon": -122.4897839,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-vineyard-sound",
+  "category": "sea_ocean",
+  "name": "Vineyard Sound",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vineyard Sound\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vineyard Sound",
+  "lat": 41.4417764,
+  "lon": -70.7744748,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-anchor-bay",
+  "category": "sea_ocean",
+  "name": "Anchor Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Anchor Bay (Michigan)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Anchor Bay (Michigan)",
+  "lat": 42.61666667,
+  "lon": -82.71666667,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-half-moon-bay",
+  "category": "sea_ocean",
+  "name": "Half Moon Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Half Moon Bay (California)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Half Moon Bay (California)",
+  "lat": 37.4832744,
+  "lon": -122.4719216,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-hallo-bay",
+  "category": "sea_ocean",
+  "name": "Hallo Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hallo Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hallo Bay",
+  "lat": 58.4575,
+  "lon": -154.02333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-isabel-inlet",
+  "category": "sea_ocean",
+  "name": "Isabel Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isabel Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isabel Inlet",
+  "lat": 35.21888889,
+  "lon": -75.6625,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-la-perouse-bay",
+  "category": "sea_ocean",
+  "name": "La Perouse Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"La Perouse Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Perouse Bay",
+  "lat": 20.59833333,
+  "lon": -156.42,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-muscongus-bay",
+  "category": "sea_ocean",
+  "name": "Muscongus Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Muscongus Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Muscongus Bay",
+  "lat": 43.916,
+  "lon": -69.39,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-oakland-estuary",
+  "category": "sea_ocean",
+  "name": "Oakland Estuary",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oakland Estuary\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oakland Estuary",
+  "lat": 37.79472778,
+  "lon": -122.31525556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-rehoboth-bay",
+  "category": "sea_ocean",
+  "name": "Rehoboth Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rehoboth Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rehoboth Bay",
+  "lat": 38.66408333,
+  "lon": -75.1045,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-richardson-bay",
+  "category": "sea_ocean",
+  "name": "Richardson Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Richardson Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Richardson Bay",
+  "lat": 37.875,
+  "lon": -122.48333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-sarasota-bay",
+  "category": "sea_ocean",
+  "name": "Sarasota Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sarasota Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sarasota Bay",
+  "lat": 27.40222222,
+  "lon": -82.59805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-alamitos-bay",
+  "category": "sea_ocean",
+  "name": "Alamitos Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alamitos Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alamitos Bay",
+  "lat": 33.74972222,
+  "lon": -118.11805556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-st-louis",
+  "category": "sea_ocean",
+  "name": "Bay of St. Louis",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of St. Louis\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of St. Louis",
+  "lat": 30.347,
+  "lon": -89.317,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-fairhaven-bay",
+  "category": "sea_ocean",
+  "name": "Fairhaven Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fairhaven Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fairhaven Bay",
+  "lat": 42.4255,
+  "lon": -71.3535,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-haverstraw-bay",
+  "category": "sea_ocean",
+  "name": "Haverstraw Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Haverstraw Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Haverstraw Bay",
+  "lat": 41.2025,
+  "lon": -73.93055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-little-bay-de-noc",
+  "category": "sea_ocean",
+  "name": "Little Bay de Noc",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Little Bay de Noc\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Bay de Noc",
+  "lat": 45.76666667,
+  "lon": -87.0125,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-moriches-inlet",
+  "category": "sea_ocean",
+  "name": "Moriches Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Moriches Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Moriches Inlet",
+  "lat": 40.76447,
+  "lon": -72.754233,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-murder-cove",
+  "category": "sea_ocean",
+  "name": "Murder Cove",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Murder Cove\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Murder Cove",
+  "lat": 57.02916667,
+  "lon": -134.55555556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-padilla-bay",
+  "category": "sea_ocean",
+  "name": "Padilla Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Padilla Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Padilla Bay",
+  "lat": 48.51597222,
+  "lon": -122.53336111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-shoup-bay",
+  "category": "sea_ocean",
+  "name": "Shoup Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shoup Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shoup Bay",
+  "lat": 61.138,
+  "lon": -146.59,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-tumon-bay",
+  "category": "sea_ocean",
+  "name": "Tumon Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tumon Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tumon Bay",
+  "lat": 13.5138953,
+  "lon": 144.7930245,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-batiquitos-lagoon",
+  "category": "sea_ocean",
+  "name": "Batiquitos Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Batiquitos Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Batiquitos Lagoon",
+  "lat": 33.08972222,
+  "lon": -117.28805556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-big-lagoon",
+  "category": "sea_ocean",
+  "name": "Big Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Big Lagoon (California)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Big Lagoon (California)",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-bolinas-lagoon",
+  "category": "sea_ocean",
+  "name": "Bolinas Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bolinas Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bolinas Lagoon",
+  "lat": 37.918,
+  "lon": -122.681,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-chincoteague-bay",
+  "category": "sea_ocean",
+  "name": "Chincoteague Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chincoteague Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chincoteague Bay",
+  "lat": 38.11666667,
+  "lon": -75.24833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-cobscook-bay",
+  "category": "sea_ocean",
+  "name": "Cobscook Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cobscook Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cobscook Bay",
+  "lat": 44.91444444,
+  "lon": -67.05138889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-columbia-river-estuary",
+  "category": "sea_ocean",
+  "name": "Columbia River Estuary",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Columbia River Estuary\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Columbia River Estuary",
+  "lat": 46.24416667,
+  "lon": -124.05805556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-copano-bay",
+  "category": "sea_ocean",
+  "name": "Copano Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Copano Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Copano Bay",
+  "lat": 28.12,
+  "lon": -97.11055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-drakes-estero",
+  "category": "sea_ocean",
+  "name": "Drakes Estero",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Drakes Estero\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drakes Estero",
+  "lat": 38.0475,
+  "lon": -122.94222222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-fire-island-inlet",
+  "category": "sea_ocean",
+  "name": "Fire Island Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fire Island Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fire Island Inlet",
+  "lat": 40.630239,
+  "lon": -73.308549,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-keweenaw-bay",
+  "category": "sea_ocean",
+  "name": "Keweenaw Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Keweenaw Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Keweenaw Bay",
+  "lat": 46.86611111,
+  "lon": -88.42166667,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-lavaca-bay",
+  "category": "sea_ocean",
+  "name": "Lavaca Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lavaca Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lavaca Bay",
+  "lat": 28.66,
+  "lon": -96.59472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-matanzas-bay",
+  "category": "sea_ocean",
+  "name": "Matanzas Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Matanzas Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Matanzas Bay",
+  "lat": 29.9071,
+  "lon": -81.2976,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-nehalem-bay",
+  "category": "sea_ocean",
+  "name": "Nehalem Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nehalem Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nehalem Bay",
+  "lat": 45.691792,
+  "lon": -123.92355,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-ponce-de-leon-inlet",
+  "category": "sea_ocean",
+  "name": "Ponce de Leon Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ponce de Leon Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ponce de Leon Inlet",
+  "lat": 29.0725,
+  "lon": -80.91861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-port-susan",
+  "category": "sea_ocean",
+  "name": "Port Susan",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Port Susan\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port Susan",
+  "lat": 48.16982,
+  "lon": -122.422931,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-rockaway-inlet",
+  "category": "sea_ocean",
+  "name": "Rockaway Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rockaway Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rockaway Inlet",
+  "lat": 40.5732,
+  "lon": -73.9136,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-san-elijo-lagoon",
+  "category": "sea_ocean",
+  "name": "San Elijo Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Elijo Lagoon\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Elijo Lagoon",
+  "lat": 33.00972222,
+  "lon": -117.26222222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-semiahmoo-bay",
+  "category": "sea_ocean",
+  "name": "Semiahmoo Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Semiahmoo Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Semiahmoo Bay",
+  "lat": 48.99972222,
+  "lon": -122.81805556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-shark-river-inlet",
+  "category": "sea_ocean",
+  "name": "Shark River Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shark River Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shark River Inlet",
+  "lat": 40.18694444,
+  "lon": -74.00805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-shilshole-bay",
+  "category": "sea_ocean",
+  "name": "Shilshole Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shilshole Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shilshole Bay",
+  "lat": 47.678083,
+  "lon": -122.419787,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-sinepuxent-bay",
+  "category": "sea_ocean",
+  "name": "Sinepuxent Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sinepuxent Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sinepuxent Bay",
+  "lat": 38.25,
+  "lon": -75.14416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-south-oyster-bay",
+  "category": "sea_ocean",
+  "name": "South Oyster Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"South Oyster Bay\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Oyster Bay",
+  "lat": 40.63333333,
+  "lon": -73.45888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-st-lucie-inlet",
+  "category": "sea_ocean",
+  "name": "St. Lucie Inlet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St. Lucie Inlet\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Lucie Inlet",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-tongass-narrows",
+  "category": "sea_ocean",
+  "name": "Tongass Narrows",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tongass Narrows\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tongass Narrows",
+  "lat": 55.32333,
+  "lon": -131.61611,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-union-bay",
+  "category": "sea_ocean",
+  "name": "Union Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Union Bay (Seattle)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Union Bay (Seattle)",
+  "lat": 47.65,
+  "lon": -122.29,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-whale-cove",
+  "category": "sea_ocean",
+  "name": "Whale Cove",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Whale Cove (Oregon)\", 60-day daily median (60 days ending 2026-09-17); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Whale Cove (Oregon)",
+  "lat": 44.78861111,
+  "lon": -124.07138889,
+  "oceans": [
+   "Pacific"
+  ]
  }
 ]

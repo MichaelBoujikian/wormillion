@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T14:59:09.163Z",
+ "fetched": "2026-09-17T15:07:05.104Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -101440,6 +101440,1476 @@
    "days": 60,
    "lat": 50.6183,
    "lon": -2.2469
+  },
+  "sea_ocean-pearl-harbor": {
+   "title": "Pearl Harbor",
+   "monthlyViews": 17259,
+   "days": 60,
+   "lat": 21.3679,
+   "lon": -157.9771
+  },
+  "sea_ocean-new-york-harbor": {
+   "title": "New York Harbor",
+   "monthlyViews": 8554,
+   "days": 60,
+   "lat": 40.66833333,
+   "lon": -74.04555556
+  },
+  "sea_ocean-golden-gate": {
+   "title": "Golden Gate",
+   "monthlyViews": 7184,
+   "days": 60,
+   "lat": 37.81,
+   "lon": -122.5
+  },
+  "sea_ocean-straits-of-mackinac": {
+   "title": "Straits of Mackinac",
+   "monthlyViews": 6088,
+   "days": 60,
+   "lat": 45.81388889,
+   "lon": -84.75
+  },
+  "sea_ocean-deception-pass": {
+   "title": "Deception Pass",
+   "monthlyViews": 3835,
+   "days": 60,
+   "lat": 48.40638889,
+   "lon": -122.64444444
+  },
+  "sea_ocean-kealakekua-bay": {
+   "title": "Kealakekua Bay",
+   "monthlyViews": 3561,
+   "days": 60,
+   "lat": 19.476,
+   "lon": -155.927
+  },
+  "sea_ocean-boston-harbor": {
+   "title": "Boston Harbor",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 42.34166667,
+   "lon": -70.96611111
+  },
+  "sea_ocean-cook-inlet": {
+   "title": "Cook Inlet",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 60.33777778,
+   "lon": -151.875
+  },
+  "sea_ocean-jamaica-bay": {
+   "title": "Jamaica Bay",
+   "monthlyViews": 3531,
+   "days": 60,
+   "lat": 40.61777778,
+   "lon": -73.8425
+  },
+  "sea_ocean-narragansett-bay": {
+   "title": "Narragansett Bay",
+   "monthlyViews": 3257,
+   "days": 60,
+   "lat": 41.6,
+   "lon": -71.35
+  },
+  "sea_ocean-pamlico-sound": {
+   "title": "Pamlico Sound",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 35.31277778,
+   "lon": -75.93722222
+  },
+  "sea_ocean-lituya-bay": {
+   "title": "Lituya Bay",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 58.63694444,
+   "lon": -137.57305556
+  },
+  "sea_ocean-arthur-kill": {
+   "title": "Arthur Kill",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 40.50027778,
+   "lon": -74.25861111
+  },
+  "sea_ocean-the-narrows": {
+   "title": "The Narrows",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 40.61333333,
+   "lon": -74.04805556
+  },
+  "sea_ocean-bristol-bay": {
+   "title": "Bristol Bay",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 57.66666667,
+   "lon": -159.83333333
+  },
+  "sea_ocean-baker-s-haulover-inlet": {
+   "title": "Baker's Haulover Inlet",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 25.89972222,
+   "lon": -80.12388889
+  },
+  "sea_ocean-mobile-bay": {
+   "title": "Mobile Bay",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 30.44277778,
+   "lon": -88.00916667
+  },
+  "sea_ocean-penobscot-bay": {
+   "title": "Penobscot Bay",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 44.18722222,
+   "lon": -68.92111111
+  },
+  "sea_ocean-whitefish-bay": {
+   "title": "Whitefish Bay",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 46.70222222,
+   "lon": -84.78888889
+  },
+  "sea_ocean-buzzards-bay": {
+   "title": "Buzzards Bay",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 41.6,
+   "lon": -70.75
+  },
+  "sea_ocean-hanauma-bay": {
+   "title": "Hanauma Bay",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 21.27138889,
+   "lon": -157.69444444
+  },
+  "sea_ocean-turnagain-arm": {
+   "title": "Turnagain Arm",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 60.9872,
+   "lon": -149.7947
+  },
+  "sea_ocean-bodega-bay": {
+   "title": "Bodega Bay",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 38.27361111,
+   "lon": -123.00611111
+  },
+  "sea_ocean-mission-bay": {
+   "title": "Mission Bay (San Diego)",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 32.77916667,
+   "lon": -117.23416667
+  },
+  "sea_ocean-albemarle-sound": {
+   "title": "Albemarle Sound",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 36.0652,
+   "lon": -76.06453
+  },
+  "sea_ocean-galveston-bay": {
+   "title": "Galveston Bay",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 29.56972222,
+   "lon": -94.93666667
+  },
+  "sea_ocean-elliott-bay": {
+   "title": "Elliott Bay",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 47.603,
+   "lon": -122.373
+  },
+  "sea_ocean-casco-bay": {
+   "title": "Casco Bay",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 43.65,
+   "lon": -70.05
+  },
+  "sea_ocean-green-bay": {
+   "title": "Green Bay (Lake Michigan)",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 45.02972222,
+   "lon": -87.46083333
+  },
+  "sea_ocean-kill-van-kull": {
+   "title": "Kill Van Kull",
+   "monthlyViews": 1613,
+   "days": 59,
+   "lat": 40.644,
+   "lon": -74.12
+  },
+  "sea_ocean-new-york-bay": {
+   "title": "New York Bay",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 40.64,
+   "lon": -74.05
+  },
+  "sea_ocean-suisun-bay": {
+   "title": "Suisun Bay",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 38.07,
+   "lon": -122.07
+  },
+  "sea_ocean-hanalei-bay": {
+   "title": "Hanalei Bay",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 22.21444444,
+   "lon": -159.49777778
+  },
+  "sea_ocean-san-diego-bay": {
+   "title": "San Diego Bay",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 32.65,
+   "lon": -117.19
+  },
+  "sea_ocean-indian-river-lagoon": {
+   "title": "Indian River Lagoon",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 28.05527778,
+   "lon": -80.57611111
+  },
+  "sea_ocean-barataria-bay": {
+   "title": "Barataria Bay",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 29.37411,
+   "lon": -89.93813
+  },
+  "sea_ocean-massachusetts-bay": {
+   "title": "Massachusetts Bay",
+   "monthlyViews": 1309,
+   "days": 59,
+   "lat": 42.375,
+   "lon": -70.74944444
+  },
+  "sea_ocean-carquinez-strait": {
+   "title": "Carquinez Strait",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 38.05918,
+   "lon": -122.2126
+  },
+  "sea_ocean-humboldt-bay": {
+   "title": "Humboldt Bay",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 40.73555556,
+   "lon": -124.23027778
+  },
+  "sea_ocean-tomales-bay": {
+   "title": "Tomales Bay",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 38.1486,
+   "lon": -122.89787
+  },
+  "sea_ocean-waimea-bay": {
+   "title": "Waimea Bay",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 21.640296,
+   "lon": -158.063779
+  },
+  "sea_ocean-dead-horse-bay": {
+   "title": "Dead Horse Bay",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 40.58222222,
+   "lon": -73.89861111
+  },
+  "sea_ocean-dixon-entrance": {
+   "title": "Dixon Entrance",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 54.36666667,
+   "lon": -132.33333333
+  },
+  "sea_ocean-porte-des-morts": {
+   "title": "Porte des Morts",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 45.29333333,
+   "lon": -86.95861111
+  },
+  "sea_ocean-barnegat-bay": {
+   "title": "Barnegat Bay",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 39.82,
+   "lon": -74.126
+  },
+  "sea_ocean-mallows-bay": {
+   "title": "Mallows Bay",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 38.47261111,
+   "lon": -77.26858333
+  },
+  "sea_ocean-block-island-sound": {
+   "title": "Block Island Sound",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 41.26,
+   "lon": -71.66
+  },
+  "sea_ocean-grand-traverse-bay": {
+   "title": "Grand Traverse Bay",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 45.06,
+   "lon": -85.48
+  },
+  "sea_ocean-san-pedro-bay": {
+   "title": "San Pedro Bay (California)",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 33.73333333,
+   "lon": -118.20083333
+  },
+  "sea_ocean-magens-bay": {
+   "title": "Magens Bay",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-passamaquoddy-bay": {
+   "title": "Passamaquoddy Bay",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 45.08333333,
+   "lon": -67.08333333
+  },
+  "sea_ocean-raritan-bay": {
+   "title": "Raritan Bay",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 40.48333333,
+   "lon": -74.18305556
+  },
+  "sea_ocean-santa-monica-bay": {
+   "title": "Santa Monica Bay",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 33.93888889,
+   "lon": -118.50416667
+  },
+  "sea_ocean-wassaw-sound": {
+   "title": "Wassaw Sound",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 31.93361111,
+   "lon": -80.94972222
+  },
+  "sea_ocean-drakes-bay": {
+   "title": "Drakes Bay",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 38.01194444,
+   "lon": -122.91916667
+  },
+  "sea_ocean-assawoman-bay": {
+   "title": "Assawoman Bay",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 38.41666667,
+   "lon": -75.08333333
+  },
+  "sea_ocean-lower-new-york-bay": {
+   "title": "Lower New York Bay",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 40.51666667,
+   "lon": -74.04972222
+  },
+  "sea_ocean-san-pablo-bay": {
+   "title": "San Pablo Bay",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 38.06666667,
+   "lon": -122.38333333
+  },
+  "sea_ocean-florida-bay": {
+   "title": "Florida Bay",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 25.00027778,
+   "lon": -80.74972222
+  },
+  "sea_ocean-glacier-bay": {
+   "title": "Glacier Bay Basin",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 58.7,
+   "lon": -136.15
+  },
+  "sea_ocean-laguna-madre": {
+   "title": "Laguna Madre (United States)",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 26.75,
+   "lon": -97.41666667
+  },
+  "sea_ocean-saginaw-bay": {
+   "title": "Saginaw Bay",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 43.91666667,
+   "lon": -83.58333333
+  },
+  "sea_ocean-santa-barbara-channel": {
+   "title": "Santa Barbara Channel",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 34.24194444,
+   "lon": -119.89
+  },
+  "sea_ocean-coos-bay": {
+   "title": "Coos Bay",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-grays-harbor": {
+   "title": "Grays Harbor",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 46.95055556,
+   "lon": -124.05111111
+  },
+  "sea_ocean-massacre-bay": {
+   "title": "Massacre Bay (Alaska)",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 52.82666667,
+   "lon": 173.22
+  },
+  "sea_ocean-great-south-bay": {
+   "title": "Great South Bay",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 40.69027778,
+   "lon": -73.10194444
+  },
+  "sea_ocean-kane-ohe-bay": {
+   "title": "Kāneʻohe Bay",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 21.46277778,
+   "lon": -157.81027778
+  },
+  "sea_ocean-resurrection-bay": {
+   "title": "Resurrection Bay",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 59.97,
+   "lon": -149.381
+  },
+  "sea_ocean-corpus-christi-bay": {
+   "title": "Corpus Christi Bay",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 27.77222222,
+   "lon": -97.25277778
+  },
+  "sea_ocean-kachemak-bay": {
+   "title": "Kachemak Bay",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 59.60916667,
+   "lon": -151.3475
+  },
+  "sea_ocean-ocracoke-inlet": {
+   "title": "Ocracoke Inlet",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 35.06416667,
+   "lon": -76.01611111
+  },
+  "sea_ocean-oregon-inlet": {
+   "title": "Oregon Inlet",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-provincetown-harbor": {
+   "title": "Provincetown Harbor",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 42.045,
+   "lon": -70.17
+  },
+  "sea_ocean-choctawhatchee-bay": {
+   "title": "Choctawhatchee Bay",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 30.43944444,
+   "lon": -86.31111111
+  },
+  "sea_ocean-elkhorn-slough": {
+   "title": "Elkhorn Slough",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 36.81666667,
+   "lon": -121.76666667
+  },
+  "sea_ocean-trunk-bay": {
+   "title": "Trunk Bay",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 18.3525,
+   "lon": -64.76972222
+  },
+  "sea_ocean-admiralty-inlet": {
+   "title": "Admiralty Inlet",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 48.16234444,
+   "lon": -122.72459722
+  },
+  "sea_ocean-lake-worth-lagoon": {
+   "title": "Lake Worth Lagoon",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-chequamegon-bay": {
+   "title": "Chequamegon Bay",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 46.65027778,
+   "lon": -90.84722222
+  },
+  "sea_ocean-newark-bay": {
+   "title": "Newark Bay",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 40.679597,
+   "lon": -74.131451
+  },
+  "sea_ocean-san-bernardino-strait": {
+   "title": "San Bernardino Strait",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 12.5875,
+   "lon": 124.19638889
+  },
+  "sea_ocean-willapa-bay": {
+   "title": "Willapa Bay",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 46.66222222,
+   "lon": -124.01055556
+  },
+  "sea_ocean-puerto-mosquito": {
+   "title": "Puerto Mosquito",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 18.10194444,
+   "lon": -65.44583333
+  },
+  "sea_ocean-rhode-island-sound": {
+   "title": "Rhode Island Sound",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 41.43333333,
+   "lon": -71.21611111
+  },
+  "sea_ocean-winyah-bay": {
+   "title": "Winyah Bay",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 33.2912,
+   "lon": -79.2756
+  },
+  "sea_ocean-peconic-bay": {
+   "title": "Peconic Bay",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 40.96361111,
+   "lon": -72.46666667
+  },
+  "sea_ocean-trinity-bay": {
+   "title": "Trinity Bay (Texas)",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 29.6825,
+   "lon": -94.79194444
+  },
+  "sea_ocean-commencement-bay": {
+   "title": "Commencement Bay",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 47.2897,
+   "lon": -122.458
+  },
+  "sea_ocean-knik-arm": {
+   "title": "Knik Arm",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 61.2,
+   "lon": -150.2167
+  },
+  "sea_ocean-manasquan-inlet": {
+   "title": "Manasquan Inlet",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 40.10277778,
+   "lon": -74.035
+  },
+  "sea_ocean-wallabout-bay": {
+   "title": "Wallabout Bay",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 40.705,
+   "lon": -73.975
+  },
+  "sea_ocean-flushing-bay": {
+   "title": "Flushing Bay",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 40.77888889,
+   "lon": -73.85666667
+  },
+  "sea_ocean-mosquito-lagoon": {
+   "title": "Mosquito Lagoon",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 28.75083333,
+   "lon": -80.75027778
+  },
+  "sea_ocean-boundary-bay": {
+   "title": "Boundary Bay",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 49,
+   "lon": -122.91666667
+  },
+  "sea_ocean-charlotte-harbor": {
+   "title": "Charlotte Harbor (estuary)",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 26.77583333,
+   "lon": -82.14194444
+  },
+  "sea_ocean-gastineau-channel": {
+   "title": "Gastineau Channel",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 58.295,
+   "lon": -134.40722222
+  },
+  "sea_ocean-haro-strait": {
+   "title": "Haro Strait",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 48.55,
+   "lon": -123.21666667
+  },
+  "sea_ocean-hilo-bay": {
+   "title": "Hilo Bay",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 19.73611111,
+   "lon": -155.07694444
+  },
+  "sea_ocean-sebastian-inlet": {
+   "title": "Sebastian Inlet",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 27.86027778,
+   "lon": -80.44722222
+  },
+  "sea_ocean-matanzas-inlet": {
+   "title": "Matanzas Inlet",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 29.70583333,
+   "lon": -81.22833333
+  },
+  "sea_ocean-presque-isle-bay": {
+   "title": "Presque Isle Bay",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 42.1375,
+   "lon": -80.115
+  },
+  "sea_ocean-st-joseph-bay": {
+   "title": "St. Joseph Bay",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 29.80111111,
+   "lon": -85.34194444
+  },
+  "sea_ocean-thunder-bay": {
+   "title": "Thunder Bay (Michigan)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 45,
+   "lon": -83.4
+  },
+  "sea_ocean-disenchantment-bay": {
+   "title": "Disenchantment Bay",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 59.96194444,
+   "lon": -139.57
+  },
+  "sea_ocean-dismal-nitch": {
+   "title": "Dismal Nitch",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 46.25,
+   "lon": -123.863
+  },
+  "sea_ocean-gardiners-bay": {
+   "title": "Gardiners Bay",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 41.09777778,
+   "lon": -72.2125
+  },
+  "sea_ocean-great-bay": {
+   "title": "Great Bay (New Hampshire)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 43.06694444,
+   "lon": -70.86861111
+  },
+  "sea_ocean-sandusky-bay": {
+   "title": "Sandusky Bay",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 41.47027778,
+   "lon": -82.855
+  },
+  "sea_ocean-tillamook-bay": {
+   "title": "Tillamook Bay",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 45.525472,
+   "lon": -123.919258
+  },
+  "sea_ocean-apalachee-bay": {
+   "title": "Apalachee Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 30.03722222,
+   "lon": -84.17083333
+  },
+  "sea_ocean-apalachicola-bay": {
+   "title": "Apalachicola Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 29.67305556,
+   "lon": -84.96194444
+  },
+  "sea_ocean-bellingham-bay": {
+   "title": "Bellingham Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 48.72,
+   "lon": -122.56027778
+  },
+  "sea_ocean-gravesend-bay": {
+   "title": "Gravesend Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 40.58338889,
+   "lon": -74.00233333
+  },
+  "sea_ocean-gulf-of-the-farallones": {
+   "title": "Gulf of the Farallones",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 37.7504857,
+   "lon": -122.7516535
+  },
+  "sea_ocean-netarts-bay": {
+   "title": "Netarts Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 45.4025,
+   "lon": -123.94444
+  },
+  "sea_ocean-pensacola-bay": {
+   "title": "Pensacola Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 30.36833333,
+   "lon": -87.20083333
+  },
+  "sea_ocean-portage-bay": {
+   "title": "Portage Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 47.64722222,
+   "lon": -122.31361111
+  },
+  "sea_ocean-rigolets": {
+   "title": "Rigolets",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 30.154444,
+   "lon": -89.625278
+  },
+  "sea_ocean-rosario-strait": {
+   "title": "Rosario Strait",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 48.5,
+   "lon": -122.75
+  },
+  "sea_ocean-shelikof-strait": {
+   "title": "Shelikof Strait",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 57.88166667,
+   "lon": -154.42527778
+  },
+  "sea_ocean-tacoma-narrows": {
+   "title": "Tacoma Narrows",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 47.28,
+   "lon": -122.54
+  },
+  "sea_ocean-thomas-bay": {
+   "title": "Thomas Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 57.03138889,
+   "lon": -132.85361111
+  },
+  "sea_ocean-port-royal-sound": {
+   "title": "Port Royal Sound",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 32.26194444,
+   "lon": -80.67805556
+  },
+  "sea_ocean-sturgeon-bay": {
+   "title": "Sturgeon Bay",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 44.85416667,
+   "lon": -87.39444444
+  },
+  "sea_ocean-bowery-bay": {
+   "title": "Bowery Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 40.77833333,
+   "lon": -73.88805556
+  },
+  "sea_ocean-budd-inlet": {
+   "title": "Budd Inlet",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 47.09416667,
+   "lon": -122.91352778
+  },
+  "sea_ocean-chichagof-harbor": {
+   "title": "Chichagof Harbor",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 52.93,
+   "lon": 173.24472222
+  },
+  "sea_ocean-frenchman-bay": {
+   "title": "Frenchman Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 44.41416667,
+   "lon": -68.185
+  },
+  "sea_ocean-icy-strait": {
+   "title": "Icy Strait",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 58.27805556,
+   "lon": -135.64666667
+  },
+  "sea_ocean-jupiter-inlet": {
+   "title": "Jupiter Inlet",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 26.94194444,
+   "lon": -80.08611111
+  },
+  "sea_ocean-salmon-bay": {
+   "title": "Salmon Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 47.66,
+   "lon": -122.38
+  },
+  "sea_ocean-san-juan-bay": {
+   "title": "San Juan Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 18.45220833,
+   "lon": -66.11417778
+  },
+  "sea_ocean-san-luis-pass": {
+   "title": "San Luis Pass (Galveston Island)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 29.0824652,
+   "lon": -95.1215959
+  },
+  "sea_ocean-shinnecock-inlet": {
+   "title": "Shinnecock Inlet",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 40.8425,
+   "lon": -72.47611111
+  },
+  "sea_ocean-vermilion-bay": {
+   "title": "Vermilion Bay (Louisiana)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 29.71972222,
+   "lon": -91.97611111
+  },
+  "sea_ocean-yakutat-bay": {
+   "title": "Yakutat Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 59.73166667,
+   "lon": -139.83861111
+  },
+  "sea_ocean-yaquina-bay": {
+   "title": "Yaquina Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 44.618089,
+   "lon": -124.030151
+  },
+  "sea_ocean-agua-hedionda-lagoon": {
+   "title": "Agua Hedionda Lagoon",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 33.1425,
+   "lon": -117.3275
+  },
+  "sea_ocean-boca-ciega-bay": {
+   "title": "Boca Ciega Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 27.774,
+   "lon": -82.754
+  },
+  "sea_ocean-chatham-strait": {
+   "title": "Chatham Strait",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 56.965,
+   "lon": -134.62555556
+  },
+  "sea_ocean-hawk-channel": {
+   "title": "Hawk Channel",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 24.78333333,
+   "lon": -80.78333333
+  },
+  "sea_ocean-hingham-bay": {
+   "title": "Hingham Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 42.28,
+   "lon": -70.92
+  },
+  "sea_ocean-holkham-bay": {
+   "title": "Holkham Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 57.7458333,
+   "lon": -133.6252778
+  },
+  "sea_ocean-irondequoit-bay": {
+   "title": "Irondequoit Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.205,
+   "lon": -77.531
+  },
+  "sea_ocean-little-traverse-bay": {
+   "title": "Little Traverse Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.4,
+   "lon": -85
+  },
+  "sea_ocean-merrymeeting-bay": {
+   "title": "Merrymeeting Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 43.9825,
+   "lon": -69.8422
+  },
+  "sea_ocean-perdido-bay": {
+   "title": "Perdido Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 30.33732,
+   "lon": -87.4601
+  },
+  "sea_ocean-perdido-pass": {
+   "title": "Perdido Pass",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 30.275,
+   "lon": -87.555
+  },
+  "sea_ocean-saratoga-passage": {
+   "title": "Saratoga Passage",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 48.15325,
+   "lon": -122.53952778
+  },
+  "sea_ocean-sodus-bay": {
+   "title": "Sodus Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 43.257,
+   "lon": -76.967
+  },
+  "sea_ocean-st-andrews-bay": {
+   "title": "St. Andrews Bay (Florida)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 30.15222222,
+   "lon": -85.69111111
+  },
+  "sea_ocean-agate-pass": {
+   "title": "Agate Pass",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 47.7159294,
+   "lon": -122.5609725
+  },
+  "sea_ocean-barnegat-inlet": {
+   "title": "Barnegat Inlet",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 39.76666667,
+   "lon": -74.10333333
+  },
+  "sea_ocean-big-bay-de-noc": {
+   "title": "Big Bay de Noc",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 45.78333333,
+   "lon": -86.7
+  },
+  "sea_ocean-chef-menteur-pass": {
+   "title": "Chef Menteur Pass",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-great-egg-harbor-bay": {
+   "title": "Great Egg Harbor Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 39.30416667,
+   "lon": -74.64972222
+  },
+  "sea_ocean-gulf-of-santa-catalina": {
+   "title": "Gulf of Santa Catalina",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 33,
+   "lon": -118
+  },
+  "sea_ocean-manhasset-bay": {
+   "title": "Manhasset Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 40.829008,
+   "lon": -73.714571
+  },
+  "sea_ocean-mount-hope-bay": {
+   "title": "Mount Hope Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 41.68333333,
+   "lon": -71.21666667
+  },
+  "sea_ocean-stephens-passage": {
+   "title": "Stephens Passage",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 57.81694444,
+   "lon": -133.84277778
+  },
+  "sea_ocean-turtle-bay": {
+   "title": "Turtle Bay, Oʻahu",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 21.70166667,
+   "lon": -158.00166667
+  },
+  "sea_ocean-useless-bay": {
+   "title": "Useless Bay (Washington)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 47.9827294,
+   "lon": -122.4897839
+  },
+  "sea_ocean-vineyard-sound": {
+   "title": "Vineyard Sound",
+   "monthlyViews": 244,
+   "days": 52,
+   "lat": 41.4417764,
+   "lon": -70.7744748
+  },
+  "sea_ocean-anchor-bay": {
+   "title": "Anchor Bay (Michigan)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 42.61666667,
+   "lon": -82.71666667
+  },
+  "sea_ocean-half-moon-bay": {
+   "title": "Half Moon Bay (California)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.4832744,
+   "lon": -122.4719216
+  },
+  "sea_ocean-hallo-bay": {
+   "title": "Hallo Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 58.4575,
+   "lon": -154.02333333
+  },
+  "sea_ocean-isabel-inlet": {
+   "title": "Isabel Inlet",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.21888889,
+   "lon": -75.6625
+  },
+  "sea_ocean-la-perouse-bay": {
+   "title": "La Perouse Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 20.59833333,
+   "lon": -156.42
+  },
+  "sea_ocean-muscongus-bay": {
+   "title": "Muscongus Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 43.916,
+   "lon": -69.39
+  },
+  "sea_ocean-oakland-estuary": {
+   "title": "Oakland Estuary",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.79472778,
+   "lon": -122.31525556
+  },
+  "sea_ocean-rehoboth-bay": {
+   "title": "Rehoboth Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 38.66408333,
+   "lon": -75.1045
+  },
+  "sea_ocean-richardson-bay": {
+   "title": "Richardson Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 37.875,
+   "lon": -122.48333333
+  },
+  "sea_ocean-sarasota-bay": {
+   "title": "Sarasota Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 27.40222222,
+   "lon": -82.59805556
+  },
+  "sea_ocean-alamitos-bay": {
+   "title": "Alamitos Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.74972222,
+   "lon": -118.11805556
+  },
+  "sea_ocean-bay-of-st-louis": {
+   "title": "Bay of St. Louis",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 30.347,
+   "lon": -89.317
+  },
+  "sea_ocean-fairhaven-bay": {
+   "title": "Fairhaven Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 42.4255,
+   "lon": -71.3535
+  },
+  "sea_ocean-haverstraw-bay": {
+   "title": "Haverstraw Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 41.2025,
+   "lon": -73.93055556
+  },
+  "sea_ocean-little-bay-de-noc": {
+   "title": "Little Bay de Noc",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.76666667,
+   "lon": -87.0125
+  },
+  "sea_ocean-moriches-inlet": {
+   "title": "Moriches Inlet",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 40.76447,
+   "lon": -72.754233
+  },
+  "sea_ocean-murder-cove": {
+   "title": "Murder Cove",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 57.02916667,
+   "lon": -134.55555556
+  },
+  "sea_ocean-padilla-bay": {
+   "title": "Padilla Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 48.51597222,
+   "lon": -122.53336111
+  },
+  "sea_ocean-shoup-bay": {
+   "title": "Shoup Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 61.138,
+   "lon": -146.59
+  },
+  "sea_ocean-tumon-bay": {
+   "title": "Tumon Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 13.5138953,
+   "lon": 144.7930245
+  },
+  "sea_ocean-batiquitos-lagoon": {
+   "title": "Batiquitos Lagoon",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 33.08972222,
+   "lon": -117.28805556
+  },
+  "sea_ocean-big-lagoon": {
+   "title": "Big Lagoon (California)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-bolinas-lagoon": {
+   "title": "Bolinas Lagoon",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.918,
+   "lon": -122.681
+  },
+  "sea_ocean-chincoteague-bay": {
+   "title": "Chincoteague Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.11666667,
+   "lon": -75.24833333
+  },
+  "sea_ocean-cobscook-bay": {
+   "title": "Cobscook Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.91444444,
+   "lon": -67.05138889
+  },
+  "sea_ocean-columbia-river-estuary": {
+   "title": "Columbia River Estuary",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.24416667,
+   "lon": -124.05805556
+  },
+  "sea_ocean-copano-bay": {
+   "title": "Copano Bay",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 28.12,
+   "lon": -97.11055556
+  },
+  "sea_ocean-drakes-estero": {
+   "title": "Drakes Estero",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.0475,
+   "lon": -122.94222222
+  },
+  "sea_ocean-fire-island-inlet": {
+   "title": "Fire Island Inlet",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.630239,
+   "lon": -73.308549
+  },
+  "sea_ocean-keweenaw-bay": {
+   "title": "Keweenaw Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.86611111,
+   "lon": -88.42166667
+  },
+  "sea_ocean-lavaca-bay": {
+   "title": "Lavaca Bay",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 28.66,
+   "lon": -96.59472222
+  },
+  "sea_ocean-matanzas-bay": {
+   "title": "Matanzas Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 29.9071,
+   "lon": -81.2976
+  },
+  "sea_ocean-nehalem-bay": {
+   "title": "Nehalem Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.691792,
+   "lon": -123.92355
+  },
+  "sea_ocean-ponce-de-leon-inlet": {
+   "title": "Ponce de Leon Inlet",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 29.0725,
+   "lon": -80.91861111
+  },
+  "sea_ocean-port-susan": {
+   "title": "Port Susan",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 48.16982,
+   "lon": -122.422931
+  },
+  "sea_ocean-rockaway-inlet": {
+   "title": "Rockaway Inlet",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.5732,
+   "lon": -73.9136
+  },
+  "sea_ocean-san-elijo-lagoon": {
+   "title": "San Elijo Lagoon",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 33.00972222,
+   "lon": -117.26222222
+  },
+  "sea_ocean-semiahmoo-bay": {
+   "title": "Semiahmoo Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 48.99972222,
+   "lon": -122.81805556
+  },
+  "sea_ocean-shark-river-inlet": {
+   "title": "Shark River Inlet",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.18694444,
+   "lon": -74.00805556
+  },
+  "sea_ocean-shilshole-bay": {
+   "title": "Shilshole Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.678083,
+   "lon": -122.419787
+  },
+  "sea_ocean-sinepuxent-bay": {
+   "title": "Sinepuxent Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.25,
+   "lon": -75.14416667
+  },
+  "sea_ocean-south-oyster-bay": {
+   "title": "South Oyster Bay",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.63333333,
+   "lon": -73.45888889
+  },
+  "sea_ocean-st-lucie-inlet": {
+   "title": "St. Lucie Inlet",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-tongass-narrows": {
+   "title": "Tongass Narrows",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 55.32333,
+   "lon": -131.61611
+  },
+  "sea_ocean-union-bay": {
+   "title": "Union Bay (Seattle)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 47.65,
+   "lon": -122.29
+  },
+  "sea_ocean-whale-cove": {
+   "title": "Whale Cove (Oregon)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.78861111,
+   "lon": -124.07138889
   }
  }
 }
