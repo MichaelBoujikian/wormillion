@@ -11,8 +11,11 @@ this file is the memory that survives.
 Written 2026-09-16, midday, at the end of the overnight session that ran the
 **United States wave** of the country-by-country scouring on branch
 `expansion` (rivers, lakes, mountains, islands, seas, deserts, cities;
-eight Opus audits; 9,300 → 12,008 places). **The next session does Western
-Europe, the same way, on the same branch.**
+eight Opus audits; 9,300 → 12,008 places). Updated the same evening as the
+**Europe wave** started (see "Europe wave, running log" below): the user
+folded **Scandinavia & the Nordics into this wave**, accepted every
+decision below, and asked for Opus sub-agents (max 3), piecemeal commits,
+push as you go.
 
 ---
 
@@ -28,8 +31,10 @@ category per country**, "as many places as we can", in this order:
 Western Europe, as the bank tags it (`scripts/data-countries.mjs` region
 `Western Europe`): **Germany, France, United Kingdom, Italy, Spain,
 Netherlands, Belgium, Portugal, Austria, Switzerland, Ireland, Luxembourg,
-Andorra, Liechtenstein, Monaco.** (Scandinavia and the Nordics are their own
-region and not in this wave; Sweden's lakes were probed on 2026-09-15.)
+Andorra, Liechtenstein, Monaco** — **plus, from 2026-09-16 evening, the
+region `Scandinavia & the Nordics`: Sweden, Norway, Denmark, Finland,
+Iceland** (the user added them to this wave; Sweden's lakes were probed on
+2026-09-15 at a 30 km² floor, so a 25 km² re-run is owed). Twenty countries.
 
 Standing decisions from the user, all still in force:
 
@@ -79,10 +84,11 @@ old bank. The gameplay audits measured the next 30 dailies old vs new bank:
 they differ on dig #1 (the lake size guard, below), 2026-10-11 (the city flag
 guard) and dig #4 would re-draw until its window closes 2026-09-18 00:00 UTC.
 
-## Decisions waiting for the user (present as a numbered list, recommend each)
+## Decisions — taken 2026-09-16 evening ("go with your recommendations")
 
-The user answers these in one message when asked; none blocks the Western
-Europe probes, but 1 and 2 change what the probes can add, so **ask early**.
+The user accepted every recommendation below in one message. What was done
+about each is in the running log at the end of this section; the list is
+kept as written so the reasoning survives.
 
 1. **"Size unknown" in the schema.** SPEC §4 says `size > 0`. 652 US bays /
    straits / sounds (Pearl Harbor, New York Harbor, the Golden Gate, Cook
@@ -130,6 +136,63 @@ Europe probes, but 1 and 2 change what the probes can add, so **ask early**.
 8. Typo casualties of the exact-beats-correction rule ("Weiser" → Weser,
    "Redding" → Reading, "Brooklin" now a refused tie with Brookline,
    "Tocson" with Towson, "Sheyenne" on a capital round). Recommend: leave.
+
+### Europe wave, running log (2026-09-16 evening →)
+
+- **Decision 1 done** (`7d00d78`): `size` 0 = "no sourced figure anywhere".
+  `validate-data.mjs` checks `>= 0`; SPEC 4 / 6.4 / 13 amended; `chunk.mjs
+  --allow-no-figure` writes the 0; **`probe.mjs` gained `noFigureViews: N`**
+  (fetches views for the unsized items and keeps those with N+ views/mo in
+  scope, `noFigure: true`; the report's NO FIGURE section lists the rest).
+  `satisfiesSize` refuses a 0 in both directions (test). **Still owed:** the
+  US no-figure rows (652 bays, ~1,100 islands, 10 deserts) — re-run
+  `us-seas`, `us-islands`, `us-deserts` with `noFigureViews` set (cached
+  tree/resolve/sizes, only the views are new), chunk with
+  `--allow-no-figure`, fold. Needs the resolver slot.
+- **Decision 2 done** (`2bad597`): `MAX_ELIGIBLE_SHARE` 0.7. Dig #1's
+  round 12 is "Name a lake smaller than 100 km²" again (the pin is back to
+  what shipped). Newly drawable: lake < 100 km² (60.1%), city flag
+  blue+white (60.0%), capital flag blue (62.8%), mountain < 3,000 m (64.3%),
+  city flag blue (65.9%), desert < 100,000 km² (67.7%), capital flag
+  red+white (68.0%), sea < 100,000 km² (68.0%). `MAX_ELIGIBLE_SHARE` is
+  exported; the flag test reads it.
+- **Decisions 4a + 4b + 6 done** (`63d894f`): `matching.js` `WORD_CATEGORY`
+  — every cohort lookup carries its category (`buildLookup(entries,
+  {category})`, set in `promptBank.js` and `gap-check.mjs`); the loose pass
+  drops a generic word only when it is the cohort's own word or nobody's,
+  and the fuzzy pass then compares whole strings only. "Lake Michigan" on a
+  river round → nudge, not Michigan River; "Lake Meade" on a lake round →
+  Lake Mead even with a Meade River in the bank. A typed plural is never
+  corrected onto the singular (`key === candidate.key + 's'`, unless the
+  candidate already ends in s: "Loch Nesss" is still a typo). SPEC 3.7
+  amended; tests in `matching.test.js` and `run.test.js`. **The probes'
+  `fuzzy` lists now reflect this** (a probe started before the change used
+  the old matcher: `uk-rivers` pass 1 did).
+- **Decision 7 half done**: lake theme **`North America`** (`8e8cebe`, 527
+  lakes by article coordinates from `scripts/.cache/titles.json`; the
+  derivation script is not in the repo — coordinates in the box lat > 7.2,
+  −170 ≤ lon < −50, Iceland and Colombia's Lake Tota fall outside);
+  **`scripts/expansion/range-tag.mjs`** (`bffe9c6`) tags mountains into a
+  range theme from the `range` / `parent` infobox field in
+  `work/wikitext-cache.json` — `the Rockies` 49 → 186. The table
+  `RANGE_THEMES` has `the Rockies` and `the Alps` (subranges by name);
+  extend it per theme. ~1,300 US peaks have no cached infobox (only the
+  article-passed ones do) — a P4552 pass or an infobox fetch for the
+  mountain cohort is still owed; run `article-size.mjs` on a mountains
+  probe with `--no-figure` and then `range-tag.mjs` again.
+- Decisions 5 and 8: nothing to do (deferred / leave).
+- **Wrong articles found on the way** (from the no-coordinates list of the
+  lake theme derivation): `lake-lake-ypoa` scores on "Lakes and rivers of
+  Titan" (Saturn's moon, 2,222 views), `lake-lake-coatepeque` on "Lake
+  island", `lake-lake-xiloa` on "Volcanic crater lake", `lake-lake-san-pablo`
+  on "Khari Khari Lakes" (Bolivia), `lake-lagarfljot` on "Lagarfljót Worm"
+  (a cryptid). Candidates in `work/candidates-lakes-wrong-articles.json`;
+  run `wp-check.mjs` on it in a resolver window, then `fix-titles.mjs`.
+- **Probe 1: `uk-rivers`** (England by county, Scotland by council area,
+  Wales by principal area, NI by county, the Republic by county; the seven
+  list pages; **floor 50 km** — Britain's rivers are short and famous —
+  `famousViews` 1000; kind includes burn/beck/bourne). Started ~17:30 local
+  under heavy throttling (the category walk alone took ~40 min).
 
 ---
 
