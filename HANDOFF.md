@@ -324,10 +324,32 @@ kept as written so the reasoning survives.
   (`95d76be`). **Mountains done**: cohort 1,984 → 2,638, jackpot 1.6%,
   `the Alps` 89 → 289, `volcanoes` 384 → 412. Report
   `reports/2026-09-17-europe-mountains.md`.
-- **Next**: the audit round over lakes + mountains (Opus, ≤3), islands
-  (`probes/*-islands.json`, floor 1 km² or 1,000+ views, unsized at 122+
-  views under decision 1), seas, deserts, cities, then the US no-figure
-  re-runs.
+- **Audit round over lakes + mountains done** (Opus data + gameplay +
+  skeptics, ~1.2M tokens, 58 min; reports
+  `reports/2026-09-17-europe-lakes-mountains-*-audit.md`; 22 of 23
+  findings held; fixes `6930bc9`, `e25823a`): seven duplicate or
+  wrong-kind mountain rows (range articles whose high point was already
+  in: Aspromonte/Montalto, Maiella/Monte Amaro, Gennargentu/Punta La
+  Marmora, Cima Valdritta/Monte Baldo, Tofana/Tofane, Churfirsten/
+  Hinterrugg; Mont Cenis is a pass) dropped with their names as aliases;
+  the Arrochar and Lyngen "Alps" out of the Alps (`range-tag.mjs` refuses
+  qualified Alps now); eleven volcanoes tagged; Morven re-pointed;
+  everyday spellings as aliases. Engine: lago/lac/lagoa/laguna/etang are
+  lake filler ("Lago di Nemi" was Reschensee), `normalize` folds þ, the
+  twin rule yields to a typed generic word between two physical cohorts
+  ("River Barrow" on a mountain round is the river's nudge). Left
+  knowingly: "Hungry" on a country round is now "Hungry Hill is a
+  mountain" (a free retry; the exact-or-loose-beats-correction rule).
+- **Islands** (floor 1 km² or 1,000+ views; unsized kept at 122+ views
+  under decision 1 — the first size-0 rows in bulk; and a 61 views/mo
+  floor as for lakes): `uk-islands` 228 (`e6f8293`; 147 unsized; the
+  lists drag in every British Overseas Territory and a navbox's worth of
+  junk — "Irish language", "Shamrock", the Rugby Football Union — cleaned
+  by a scratch script on description + region keywords), `de-islands` 6,
+  `fr-islands` 26 (`d117629`; the French tree holds all of overseas
+  France: 140 Polynesian/Caribbean/Indian Ocean islands dropped).
+  Inland islands need `OCEAN_OVERRIDES: []` (38 British, 7 French/Dutch
+  set). `it-es-islands` running, then `nordic-islands`.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
