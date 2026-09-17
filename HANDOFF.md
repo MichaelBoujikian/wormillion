@@ -250,9 +250,19 @@ kept as written so the reasoning survives.
   French Guiana rivers left for the South America wave. enwiki has only 940
   French river articles (vs 3,345 German). Jackpot share of the river
   cohort 3.2% (was 2.7%; 150 of the 200 rows sit at 30 views/mo).
-- **Audits of the de + fr chunks** (Opus data + gameplay + skeptics)
-  running; **probe 4: `it-es-rivers`** (Italy by region, Spain by
-  autonomous community, Portugal) running.
+- **The de + fr audit round was lost**: both Opus auditors died mid-run
+  when the user's session limit hit (~360k tokens, no findings kept; the
+  half-written reports are in the scratchpad, not the repo). Re-run one
+  audit round over de + fr + it-es + nordic once the Nordic chunk is in —
+  more chunks per round, not more rounds (see `subagent-limits` memory).
+- **Probe 4: `it-es-rivers` done** (`e8a1883`, report
+  `reports/2026-09-16-it-es-rivers.md`): 127 rivers (Italy, Spain,
+  Portugal), 19 fuzzy traps fixed, Rio Tinto was missing; **the itwiki
+  decimal shift in Wikidata is the rule for Piedmont** (ten rivers at
+  10× — the article pass is mandatory); Odiel and Allaro left out for
+  having only a wrong Wikidata figure.
+- **Probe 5: `nordic-rivers`** (Sweden by county, Norway by county,
+  Denmark, Finland by municipality, Iceland; floor 60 km) running.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
