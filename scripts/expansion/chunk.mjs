@@ -43,14 +43,15 @@ const US_STATES = new Set(['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'Californ
 const { COUNTRIES } = await import(new URL('../data-countries.mjs', import.meta.url).href).catch(() => ({ COUNTRIES: '' }));
 const countryNames = new Set(String(COUNTRIES || '').split(/\r?\n/).map((l) => l.split('|')[0].trim()).filter(Boolean));
 function bankName(title) {
-  let n = title.replace(/\s*\([^)]*\)\s*$/, '').trim();
+  // "River Avon, Bristol", "Lough Derg, County Donegal", "Reading, Berkshire":
+  // enwiki's comma form tells namesakes apart; the bank has no comma names,
+  // so the bare one goes in or collides and drops (with its reason)
+  let n = title.replace(/\s*\([^)]*\)\s*$/, '').replace(/,.*$/, '').trim();
   if (cfg.category === 'river') {
-    // "River Avon, Bristol" is how enwiki tells the British Avons apart; the
-    // bank has no comma names, so the bare one goes in or collides and drops
-    const bare = n.replace(/,.*$/, '').replace(/^River\s+/, '').replace(/\s+River$/, '');
+    const bare = n.replace(/^River\s+/, '').replace(/\s+River$/, '');
     n = US_STATES.has(bare) || countryNames.has(bare) ? bare + ' River' : bare;
   }
-  if (cfg.category === 'city') n = n.replace(/,.*$/, '').replace(/^City of /, '');
+  if (cfg.category === 'city') n = n.replace(/^City of /, '');
   return n;
 }
 

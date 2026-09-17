@@ -160,7 +160,8 @@ const wikiOf = new Map(json.map((e) => [e.id, e.wikiTitle]));
 
 function spellings(title) {
   const out = new Set();
-  const bare = title.replace(/\s*\([^)]*\)\s*$/, '');
+  // enwiki's parenthetical and comma disambiguations are not part of the name
+  const bare = title.replace(/\s*\([^)]*\)\s*$/, '').replace(/,.*$/, '');
   out.add(bare);
   if (cfg.spellings === 'city') {
     out.add(bare.replace(/,.*$/, ''));
