@@ -303,9 +303,18 @@ kept as written so the reasoning survives.
   Europe's lakes over 25 km² were nearly all in already; the chunks are the
   famous small ones lifted by 1,000+ views. Sections of Lake Constance,
   lagoon systems, the Azores/Madeira (islands the lists dragged in) and a
-  village article left out. **Probe 10: `nordic-lakes`** running (Sweden,
-  Norway, Denmark, Finland, Iceland — the big one; Sweden's 2026-09-15
-  probe used a 30 km² floor, this one 25).
+  village article left out. **Probe 10: `nordic-lakes` done** (`124ed6b`,
+  92 rows; Pihlajavesi re-pointed off a 15-view namesake — it was the
+  bank's rarest lake). **Then a 61 views/mo floor for lakes** (`8f12b0d`):
+  the lake cohort's bottom is 17–30 views, so 60 Nordic rows at exactly
+  one view a day were automatic jackpots (share 3.9% → 8.2% → 3.6%).
+  **Views floors per cohort: rivers 30, lakes 61** — never at the cohort
+  minimum. Report `reports/2026-09-17-europe-lakes.md`. Lakes done: cohort
+  1,234 (was 1,157). `article-size.mjs` reads decimal commas now.
+- **Next: mountains** (`probes/*-mountains.json`, lists only; the views
+  floor is 122 as for the US — the mountain cohort's bottom is 30), then
+  islands, seas, deserts, cities, then the US no-figure re-runs (decision
+  1), then the audits of lakes + mountains.
 - **A matcher gap noted, not fixed**: German ue/oe/ae transliterations
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
