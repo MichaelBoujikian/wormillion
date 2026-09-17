@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-17",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T09:50:34.898Z",
+ "fetched": "2026-09-17T10:15:09.976Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -76619,13 +76619,6 @@
    "lat": 27.72944444,
    "lon": -18.04055556
   },
-  "mountain-radomir": {
-   "title": "Radomir (mountain)",
-   "monthlyViews": 152,
-   "days": 59,
-   "lat": 41.32166667,
-   "lon": 23.12194444
-  },
   "mountain-schonfeldspitze": {
    "title": "Schönfeldspitze",
    "monthlyViews": 152,
@@ -76891,6 +76884,475 @@
    "days": 60,
    "lat": 46.01322222,
    "lon": 7.90175
+  },
+  "mountain-mont-agel": {
+   "title": "Mont Agel",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 43.77527778,
+   "lon": 7.42638889
+  },
+  "mountain-grand-ballon": {
+   "title": "Grand Ballon",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 47.90083333,
+   "lon": 7.09805556
+  },
+  "mountain-cime-de-la-bonette": {
+   "title": "Cime de la Bonette",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 44.32166667,
+   "lon": 6.80694444
+  },
+  "mountain-mont-sainte-odile": {
+   "title": "Mont Sainte-Odile",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 48.437458,
+   "lon": 7.4044908
+  },
+  "mountain-saleve": {
+   "title": "Salève",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 46.09416667,
+   "lon": 6.14027778
+  },
+  "mountain-mont-cenis": {
+   "title": "Mont Cenis",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 45.26027778,
+   "lon": 6.90083333
+  },
+  "mountain-pointe-helbronner": {
+   "title": "Pointe Helbronner",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 45.84583333,
+   "lon": 6.93166667
+  },
+  "mountain-mount-saint-peter": {
+   "title": "Mount Saint Peter",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 50.81444444,
+   "lon": 5.685
+  },
+  "mountain-koppenberg": {
+   "title": "Koppenberg",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 50.81057,
+   "lon": 3.5823
+  },
+  "mountain-cret-de-la-neige": {
+   "title": "Crêt de la Neige",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 46.27083333,
+   "lon": 5.93944444
+  },
+  "mountain-ballon-d-alsace": {
+   "title": "Ballon d'Alsace",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 47.82222222,
+   "lon": 6.84527778
+  },
+  "mountain-kemmelberg": {
+   "title": "Kemmelberg",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 50.78332778,
+   "lon": 2.81664444
+  },
+  "mountain-larrun": {
+   "title": "Larrun",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 43.30916667,
+   "lon": -1.63555556
+  },
+  "mountain-le-brevent": {
+   "title": "Le Brévent",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 45.93416667,
+   "lon": 6.83777778
+  },
+  "mountain-puy-mary": {
+   "title": "Puy Mary",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 45.10944444,
+   "lon": 2.67611111
+  },
+  "mountain-ceuse": {
+   "title": "Céüse",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 44.50861111,
+   "lon": 5.96166667
+  },
+  "mountain-mont-aigoual": {
+   "title": "Mont Aigoual",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 44.12277778,
+   "lon": 3.575
+  },
+  "mountain-plomb-du-cantal": {
+   "title": "Plomb du Cantal",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 45.05861111,
+   "lon": 2.76138889
+  },
+  "mountain-mur-de-huy": {
+   "title": "Mur de Huy",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 50.51545,
+   "lon": 5.24666
+  },
+  "mountain-dent-de-burgin": {
+   "title": "Dent de Burgin",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.389,
+   "lon": 6.6062
+  },
+  "mountain-mont-gerbier-de-jonc": {
+   "title": "Mont Gerbier de Jonc",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 44.84444444,
+   "lon": 4.22
+  },
+  "mountain-mont-thabor": {
+   "title": "Mont Thabor",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.11416667,
+   "lon": 6.56388889
+  },
+  "mountain-pic-d-orhy": {
+   "title": "Pic d'Orhy",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 42.98962778,
+   "lon": -1.00495278
+  },
+  "mountain-pic-de-bugarach": {
+   "title": "Pic de Bugarach",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 42.86361111,
+   "lon": 2.37916667
+  },
+  "mountain-semnoz": {
+   "title": "Semnoz",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.79722222,
+   "lon": 6.10472222
+  },
+  "mountain-pic-gaspard": {
+   "title": "Pic Gaspard",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 44.99833333,
+   "lon": 6.33083333
+  },
+  "mountain-pic-saint-loup": {
+   "title": "Pic Saint-Loup",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.77861111,
+   "lon": 3.81138889
+  },
+  "mountain-aiguille-dibona": {
+   "title": "Aiguille Dibona",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 44.9625,
+   "lon": 6.24277778
+  },
+  "mountain-cauberg": {
+   "title": "Cauberg",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.86106111,
+   "lon": 5.82368056
+  },
+  "mountain-dent-de-crolles": {
+   "title": "Dent de Crolles",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.30833333,
+   "lon": 5.85527778
+  },
+  "mountain-mont-granier": {
+   "title": "Mont Granier",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.46472222,
+   "lon": 5.92527778
+  },
+  "mountain-mont-revard": {
+   "title": "Mont Revard",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.68194444,
+   "lon": 5.97555556
+  },
+  "mountain-carlit": {
+   "title": "Carlit",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 42.56972222,
+   "lon": 1.93194444
+  },
+  "mountain-dent-d-oche": {
+   "title": "Dent d'Oche",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.35305556,
+   "lon": 6.73111111
+  },
+  "mountain-la-dole": {
+   "title": "La Dôle",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.425,
+   "lon": 6.09944444
+  },
+  "mountain-maladeta": {
+   "title": "Maladeta",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 42.64722222,
+   "lon": 0.63944444
+  },
+  "mountain-le-mole": {
+   "title": "Le Môle",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.10666667,
+   "lon": 6.455
+  },
+  "mountain-aiguille-rouge": {
+   "title": "Aiguille Rouge",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 45.55194444,
+   "lon": 6.84861111
+  },
+  "mountain-aiguille-du-gouter": {
+   "title": "Aiguille du Goûter",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.85055556,
+   "lon": 6.83111111
+  },
+  "mountain-grand-veymont": {
+   "title": "Grand Veymont",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.87,
+   "lon": 5.52694444
+  },
+  "mountain-puy-pariou": {
+   "title": "Puy Pariou",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.7955,
+   "lon": 2.9703
+  },
+  "mountain-balaitous": {
+   "title": "Balaïtous",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.83861111,
+   "lon": -0.29
+  },
+  "mountain-dent-du-chat": {
+   "title": "Dent du Chat",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.67444444,
+   "lon": 5.83444444
+  },
+  "mountain-grand-capucin": {
+   "title": "Grand Capucin",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.85166667,
+   "lon": 6.89805556
+  },
+  "mountain-mont-gargan": {
+   "title": "Mont Gargan",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.62055556,
+   "lon": 1.64777778
+  },
+  "mountain-mont-joly": {
+   "title": "Mont Joly",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.82583333,
+   "lon": 6.69277778
+  },
+  "mountain-mont-mezenc": {
+   "title": "Mont Mézenc",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.9111,
+   "lon": 4.195
+  },
+  "mountain-monte-musine": {
+   "title": "Monte Musinè",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.11388889,
+   "lon": 7.45444444
+  },
+  "mountain-monte-renoso": {
+   "title": "Monte Renoso",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.0595,
+   "lon": 9.1338
+  },
+  "mountain-monte-d-oro": {
+   "title": "Monte d'Oro",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.1375,
+   "lon": 9.09861111
+  },
+  "mountain-pic-de-nore": {
+   "title": "Pic de Nore",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 43.42444444,
+   "lon": 2.46277778
+  },
+  "mountain-pic-de-neouvielle": {
+   "title": "Pic de Néouvielle",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.83555556,
+   "lon": 0.115
+  },
+  "mountain-pic-du-taillon": {
+   "title": "Pic du Taillon",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.69361111,
+   "lon": 0.05138889
+  },
+  "mountain-weisser-stein": {
+   "title": "Weißer Stein (Eifel)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.40833333,
+   "lon": 6.36916667
+  },
+  "mountain-aiguille-du-grepon": {
+   "title": "Aiguille du Grépon",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.9025,
+   "lon": 6.91916667
+  },
+  "mountain-cime-de-caron": {
+   "title": "Cime de Caron",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.26305556,
+   "lon": 6.56166667
+  },
+  "mountain-grand-colombier": {
+   "title": "Grand Colombier (Ain)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.89916667,
+   "lon": 5.76111111
+  },
+  "mountain-mesa-de-los-tres-reyes": {
+   "title": "Mesa de los Tres Reyes",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 42.945,
+   "lon": -0.72222222
+  },
+  "mountain-mont-mouchet": {
+   "title": "Mont Mouchet",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.97555556,
+   "lon": 3.37277778
+  },
+  "mountain-mont-d-arbois": {
+   "title": "Mont d'Arbois",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.85472222,
+   "lon": 6.66944444
+  },
+  "mountain-mont-d-or": {
+   "title": "Mont d'Or (Jura Mountains)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.7275,
+   "lon": 6.35694444
+  },
+  "mountain-monte-saccarello": {
+   "title": "Monte Saccarello",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.06194444,
+   "lon": 7.7125
+  },
+  "mountain-pic-de-morgon": {
+   "title": "Pic de Morgon",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.4919,
+   "lon": 6.3975
+  },
+  "mountain-punta-marguareis": {
+   "title": "Punta Marguareis",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.16611111,
+   "lon": 7.68277778
+  },
+  "mountain-roc-h-trevezel": {
+   "title": "Roc'h Trevezel",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.41,
+   "lon": -3.9075
+  },
+  "mountain-tete-de-l-estrop": {
+   "title": "Tête de l'Estrop",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.28722222,
+   "lon": 6.50472222
+  },
+  "mountain-weissenstein": {
+   "title": "Weissenstein",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.25194444,
+   "lon": 7.50916667
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",

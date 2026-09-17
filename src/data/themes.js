@@ -904,7 +904,16 @@ globalThis.WORMILLION_THEMES = {
       'Selun', 'Speer', 'Strahlhorn',
       // add-theme.mjs
       'La Tournette', 'Ankogel', 'Nordend', 'Ellmauer Halt', 'Chaserrugg',
-      'Tegelberg', 'Hochfelln', "Grande Tete de l'Obiou", 'Cima Dodici', 'Monte Cevedale'
+      'Tegelberg', 'Hochfelln', "Grande Tete de l'Obiou", 'Cima Dodici', 'Monte Cevedale',
+      // range-tag.mjs from the infobox range field
+      'Mont Agel', 'Cime de la Bonette', 'Mont Cenis', 'Pointe Helbronner', 'Ceuse',
+      'Dent de Burgin', 'Semnoz', 'Aiguille Dibona', 'Dent de Crolles', 'Mont Granier',
+      'Mont Revard', "Dent d'Oche", 'Le Mole', 'Aiguille Rouge', 'Aiguille du Gouter',
+      'Grand Veymont', 'Grand Capucin', 'Mont Joly', 'Monte Musine', 'Aiguille du Grepon',
+      'Cime de Caron', "Mont d'Arbois", 'Monte Saccarello', 'Pic de Morgon', 'Punta Marguareis',
+      "Tete de l'Estrop",
+      // add-theme.mjs
+      'Saleve', 'Le Brevent', 'Mont Thabor', 'Pic Gaspard', 'Dent du Chat'
     ],
     'the Himalayas': [
       'Mount Everest', 'Kangchenjunga', 'Lhotse', 'Makalu', 'Cho Oyu',
@@ -1164,7 +1173,9 @@ globalThis.WORMILLION_THEMES = {
       'Yamsay Mountain', 'Mount Gareloi', 'Gilbert Peak', 'Jornada del Muerto Volcano', 'Mount Amukta',
       'Mount Griggs', 'Mount Jarvis', 'Olallie Butte', 'Tanaga',
       // 2026-09-14 expansion
-      'Beerenberg', 'Puy de Sancy'
+      'Beerenberg', 'Puy de Sancy',
+      // 2026-09-14 expansion
+      'Puy Mary', 'Plomb du Cantal', 'Mont Gerbier de Jonc', 'Puy Pariou', 'Mont Mezenc'
     ]
   },
 

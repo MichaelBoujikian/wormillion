@@ -7377,6 +7377,73 @@ Scheidegg|1659
 Selun|2205
 Speer|1951
 Strahlhorn|4190
+Mont Agel|1148
+Grand Ballon|1423
+Cime de la Bonette|2860
+Mont Sainte-Odile|764
+Saleve|1379
+Mont Cenis|2085
+Pointe Helbronner|3462
+Mount Saint Peter|171
+Koppenberg|78
+Cret de la Neige|1721
+Ballon d'Alsace|1247
+Kemmelberg|154
+Larrun|905
+Le Brevent|2525
+Puy Mary|1783
+Ceuse|2016
+Mont Aigoual|1567
+Plomb du Cantal|1855
+Mur de Huy|204
+Dent de Burgin|2739
+Mont Gerbier de Jonc|1551
+Mont Thabor|3178
+Pic d'Orhy|2017
+Pic de Bugarach|1230
+Semnoz|1702
+Pic Gaspard|3883
+Pic Saint-Loup|658
+Aiguille Dibona|3130
+Cauberg|137
+Dent de Crolles|2062
+Mont Granier|1933
+Mont Revard|1562
+Carlit|2921
+Dent d'Oche|2221
+La Dole|1677
+Maladeta|3312
+Le Mole|1863
+Aiguille Rouge|3227
+Aiguille du Gouter|3863
+Grand Veymont|2341
+Puy Pariou|1209
+Balaitous|3144
+Dent du Chat|1390
+Grand Capucin|3838
+Mont Gargan|731
+Mont Joly|2525
+Mont Mezenc|1753
+Monte Musine|1150
+Monte Renoso|2352
+Monte d'Oro|2389
+Pic de Nore|1211
+Pic de Neouvielle|3091
+Pic du Taillon|3144
+Weisser Stein|693
+Aiguille du Grepon|3482
+Cime de Caron|3195
+Grand Colombier|1534
+Mesa de los Tres Reyes|2446
+Mont Mouchet|1497
+Mont d'Arbois|1833
+Mont d'Or|1463
+Monte Saccarello|2201
+Pic de Morgon|2324
+Punta Marguareis|2651
+Roc'h Trevezel|384
+Tete de l'Estrop|2961
+Weissenstein|1395
 `;
 
 export const MINOR_PEAKS = `

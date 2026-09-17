@@ -5989,7 +5989,25 @@ export const WIKI_TITLES = {
   "mountain-ochsenkopf": "Ochsenkopf (Fichtel Mountains)",
   "mountain-piz-zupo": "Piz Zupò",
   "mountain-scheidegg": "Scheidegg (Rigi)",
-  "mountain-speer": "Speer (mountain)"
+  "mountain-speer": "Speer (mountain)",
+
+  // --- mountain (2026-09-14 expansion) ---
+  "mountain-saleve": "Salève",
+  "mountain-cret-de-la-neige": "Crêt de la Neige",
+  "mountain-le-brevent": "Le Brévent",
+  "mountain-ceuse": "Céüse",
+  "mountain-la-dole": "La Dôle",
+  "mountain-le-mole": "Le Môle",
+  "mountain-aiguille-du-gouter": "Aiguille du Goûter",
+  "mountain-balaitous": "Balaïtous",
+  "mountain-mont-mezenc": "Mont Mézenc",
+  "mountain-monte-musine": "Monte Musinè",
+  "mountain-pic-de-neouvielle": "Pic de Néouvielle",
+  "mountain-weisser-stein": "Weißer Stein (Eifel)",
+  "mountain-aiguille-du-grepon": "Aiguille du Grépon",
+  "mountain-grand-colombier": "Grand Colombier (Ain)",
+  "mountain-mont-d-or": "Mont d'Or (Jura Mountains)",
+  "mountain-tete-de-l-estrop": "Tête de l'Estrop"
 };
 
 /**
@@ -6453,5 +6471,7 @@ export const WIKI_VERIFIED = new Set([
   "mountain-kidsty-pike",
   "mountain-knocknashee",
   "mountain-meall-a-bhuachaille",
-  "mountain-sheffield-pike"
+  "mountain-sheffield-pike",
+  // --- Mont d Or (Jura), no short description ---
+  "mountain-mont-d-or"
 ]);
