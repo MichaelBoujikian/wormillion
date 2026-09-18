@@ -251,6 +251,23 @@ test('a shared loose form identifies the list of its names, most-viewed first', 
   assert.strictEqual(matching.matchAnswer('Great Salt', aliases, new Set()).entryId, 'b');
 });
 
+test('a far more famous alias-holder leads a shared loose form', () => {
+  // "Mount Cook" is Aoraki's alias; the Canadian Mount Cook has the name.
+  // Aoraki has 60x the views, so "Cook" is Aoraki first, then Canada's
+  // (decision 5, the 2026-09-18 regression audit); at 1.6x the name would win.
+  const peaks = matching.buildLookup([
+    { id: 'aoraki', name: 'Aoraki', aliases: ['Mount Cook'], magnitude: 8858 },
+    { id: 'cook-canada', name: 'Mount Cook', aliases: [], qualifier: 'Canada', magnitude: 152 }
+  ]);
+  assert.deepStrictEqual(peaks.loose.get('cook'), ['aoraki', 'cook-canada']);
+  assert.strictEqual(matching.matchAnswer('Cook', peaks, new Set()).entryId, 'aoraki');
+  const close = matching.buildLookup([
+    { id: 'a', name: 'Arabian Sea', aliases: [], magnitude: 1000 },
+    { id: 'b', name: 'Persian Gulf', aliases: ['Arabian Gulf'], magnitude: 1600 }
+  ]);
+  assert.strictEqual(close.loose.get('arabian'), 'a');
+});
+
 test("a loose form from an entry's name beats the same form from another's alias", () => {
   // The Persian Gulf is also called the Arabian Gulf, but "Arabian" on its
   // own is the Arabian Sea - the Gulf's alias must not make it nobody.

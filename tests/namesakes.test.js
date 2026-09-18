@@ -33,7 +33,9 @@ const pairs = [
   ...country('Ethiopia', 'Addis Ababa', 30000, AFRICA),
   ...country('Somalia', 'Mogadishu', 30000, AFRICA),
   ...country('Rwanda', 'Kigali', 30000, AFRICA),
-  ...country('Seychelles', 'Victoria', 8000, AFRICA)
+  ...country('Seychelles', 'Victoria', 8000, AFRICA),
+  // a state capital in the capital cohort AND a city in the city cohort (the bank's Boston, Albany, Madison...)
+  ...country('Massachusetts', 'Boston', 110000, AMERICA)
 ];
 const city = (id, name, magnitude, country, region, extra) => entry('city', id, name, magnitude, { country, region, size: 100000, ...extra });
 const RAW = {
@@ -115,15 +117,15 @@ test('matchAnswer settles a shared key on the first unused namesake; through a q
   const exact = matching.matchAnswer('Syracuse, Sicily', lookup, new Set());
   assert.deepStrictEqual(exact, { status: 'accepted', entryId: 'city-syracuse-sicily', matched: 'syracuse', qualified: true });
   assert.strictEqual(matching.matchAnswer('syracuse ny', lookup, new Set()).entryId, 'city-syracuse-new-york');
+  // the postal-code form is exact only: "Syracuse UK" is not a typo of "syracuse ny"
+  assert.strictEqual(matching.matchAnswer('Syracuse UK', lookup, new Set()).status, 'unrecognized');
   // a typo of the shared name is one candidate, not a tie between the namesakes
   const typo = matching.matchAnswer('Syracuze', lookup, new Set());
   assert.strictEqual(typo.status, 'corrected');
   assert.strictEqual(typo.entryId, 'city-syracuse-new-york');
-  // ...and a typo of a qualified form lands on that one
-  const qualifiedTypo = matching.matchAnswer('Syracuse Sicly', lookup, new Set());
-  assert.strictEqual(qualifiedTypo.entryId, 'city-syracuse-sicily');
-  assert.strictEqual(qualifiedTypo.matched, 'syracuse');
-  assert.strictEqual(qualifiedTypo.qualified, true);
+  // ...and a qualified form is exact only: a typo of it is not corrected
+  // (a long key would buy a long budget and correct the name away)
+  assert.strictEqual(matching.matchAnswer('Syracuse Sicly', lookup, new Set()).status, 'unrecognized');
 });
 
 test('namesakes share their loose form too: "Black" is the Black Lakes, by views', () => {
@@ -166,6 +168,13 @@ test('a plain round takes the most-viewed namesake; a second "Syracuse" is the o
   assert.strictEqual(second.entry.id, 'city-syracuse-sicily');
   const third = plain('Syracuse', true);
   assert.strictEqual(third.status, 'duplicate');
+  // a name whose famous holder is a state capital the player just scored:
+  // the second typing is the next namesake, not "Boston is a capital city"
+  // (the guard measures the name's standing in this cohort, not the entry
+  // the second typing settled on)
+  const boston = judge({ category: 'city' });
+  assert.strictEqual(boston('Boston').entry.id, 'city-boston');
+  assert.strictEqual(boston('Boston', true).entry.id, 'city-boston-lincolnshire');
   // typing the qualifier is exact on that one whatever the order
   const q = judge({ category: 'city' });
   assert.strictEqual(q('Syracuse (Sicily)').entry.id, 'city-syracuse-sicily');
@@ -211,10 +220,19 @@ test('a bare name whose famous holder lives elsewhere keeps the nudge; the quali
   // was meant, not "Dublin (California) isn't in Europe"
   const lublin = judge({ category: 'city', region: 'Europe' });
   assert.strictEqual(lublin('Dublin').elsewhere.entry.id, 'capital-dublin');
+  // ...on a letter round the famous name fits as well as the namesake, so the nudge stands
   const startsA = judge({ category: 'city', letter: { kind: 'starts', letter: 'a' } });
-  assert.strictEqual(startsA('Athens').entry.id, 'city-athens-georgia');
+  assert.strictEqual(startsA('Athens').elsewhere.entry.id, 'capital-athens');
+  assert.strictEqual(startsA('Athens, Georgia').entry.id, 'city-athens-georgia');
   // Victoria: the city (25,000) outviews the Seychelles capital (8,000) - no guard, the city scores
   assert.strictEqual(plain('Victoria').entry.id, 'city-victoria-british-columbia');
+  // a qualified typing on another cohort's round names that one place: the
+  // nudge, not this cohort's bare twin scored as a correction
+  const capital = judge({ category: 'capital' });
+  const georgia = capital('Athens, Georgia');
+  assert.strictEqual(georgia.status, 'unrecognized');
+  assert.strictEqual(georgia.elsewhere.entry.id, 'city-athens-georgia');
+  assert.strictEqual(capital('Athens').entry.id, 'capital-athens');
   // only the two city cohorts second-guess each other: "Paris" on a lake
   // round is the lake called Paris, whatever the capital's fame
   const lake = judge({ category: 'lake' });
@@ -229,11 +247,11 @@ test('letter and length rules see the bare name, whatever was typed', () => {
   assert.strictEqual(long('Syracuse (New York)').status, 'wrong-scope', '8 letters, not 19');
   const startsS = judge({ category: 'city', letter: { kind: 'starts', letter: 's' } });
   assert.strictEqual(startsS('Syracuse, Sicily').entry.id, 'city-syracuse-sicily');
-  // Paris (Texas) is a short name; on a plain round "Paris" alone is the
-  // capital's nudge, and the "Texas" typed to get past it is not measured
+  // Paris (Texas) is a short name; "Paris" alone is the capital's nudge,
+  // and the "Texas" typed to get past it is not measured
   const short = judge({ category: 'city', letter: { kind: 'short' } });
   assert.strictEqual(short('Cork').status, 'accepted');
-  assert.strictEqual(judge({ category: 'city' })('Paris').elsewhere.entry.id, 'capital-paris');
+  assert.strictEqual(short('Paris').elsewhere.entry.id, 'capital-paris');
   const texas = short('Paris, Texas');
   assert.strictEqual(texas.status, 'accepted');
   assert.strictEqual(texas.entry.id, 'city-paris-texas');

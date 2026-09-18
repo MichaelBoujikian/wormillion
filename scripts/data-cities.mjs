@@ -1013,7 +1013,7 @@ Alexandroupoli|Greece|58000
 Drama|Greece|45000
 Trikala|Greece|61000
 Agrinio|Greece|60000
-Merida (Yucatán)|Mexico|920000
+Merida (Yucatan)|Mexico|920000
 Puerto Vallarta|Mexico|290000
 Mazatlan|Mexico|500000
 Chihuahua|Mexico|930000
@@ -3873,7 +3873,7 @@ Halifax (West Yorkshire)|United Kingdom|104100
 Newport (Wales)|United Kingdom|159600
 Boston (Lincolnshire)|United Kingdom|64600
 Lancaster (Lancashire)|United Kingdom|52660
-Margate (East Kent)|United Kingdom|61223
+Margate (Kent)|United Kingdom|61223
 Leon (Spain)|Spain|123446
 Kettering (Northamptonshire)|United Kingdom|56226
 Bangor (County Down)|United Kingdom|61011

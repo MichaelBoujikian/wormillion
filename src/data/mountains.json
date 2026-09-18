@@ -1273,7 +1273,8 @@
   "category": "mountain",
   "name": "Sugarloaf Mountain",
   "aliases": [
-   "Pao de Acucar"
+   "Pao de Acucar",
+   "Sugarloaf"
   ],
   "size": 396,
   "sizeUnit": "elevation_m",
@@ -36801,14 +36802,14 @@
   "lon": -71.29138889
  },
  {
-  "id": "mountain-matterhorn-peak-sierra-nevada",
+  "id": "mountain-matterhorn-peak-california",
   "category": "mountain",
   "name": "Matterhorn Peak",
   "aliases": [],
   "size": 3744,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Matterhorn Peak\", 60-day daily median (60 days ending 2026-09-18); Standard reference summit elevations (m)",
-  "qualifier": "Sierra Nevada",
+  "qualifier": "California",
   "magnitude": 761,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Matterhorn Peak",
@@ -37425,21 +37426,6 @@
   "lon": -73.2858233
  },
  {
-  "id": "mountain-black-mesa-arizona",
-  "category": "mountain",
-  "name": "Black Mesa",
-  "aliases": [],
-  "size": 1865,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Black Mesa (Navajo County, Arizona)\", 60-day daily median (60 days ending 2026-09-18); Standard reference summit elevations (m)",
-  "qualifier": "Arizona",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Black Mesa (Navajo County, Arizona)",
-  "lat": 34.3869833,
-  "lon": -110.0781693
- },
- {
   "id": "mountain-blue-mountain-washington",
   "category": "mountain",
   "name": "Blue Mountain",
@@ -37669,5 +37655,20 @@
   "wikiTitle": "Rogers Peak",
   "lat": 45.6645546,
   "lon": -123.5484538
+ },
+ {
+  "id": "mountain-black-mesa-arizona",
+  "category": "mountain",
+  "name": "Black Mesa",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Black Mesa (Apache-Navajo Counties, Arizona)\", 60-day daily median (60 days ending 2026-09-18); Standard reference summit elevations (m)",
+  "qualifier": "Arizona",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Black Mesa (Apache-Navajo Counties, Arizona)",
+  "lat": 34.2808509,
+  "lon": -113.8385493
  }
 ]

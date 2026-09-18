@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T03:44:31.422Z",
+ "fetched": "2026-09-18T05:01:23.943Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -29754,7 +29754,7 @@
    "lat": 54.04888889,
    "lon": -2.80138889
   },
-  "city-margate-east-kent": {
+  "city-margate-kent": {
    "title": "Margate",
    "monthlyViews": 9893,
    "days": 60,
@@ -56844,7 +56844,7 @@
    "lat": 46.14027778,
    "lon": -115.59944444
   },
-  "river-sugar-creek-wabash-river": {
+  "river-sugar-creek-indiana": {
    "title": "Sugar Creek (Wabash River tributary)",
    "monthlyViews": 274,
    "days": 60,
@@ -65482,7 +65482,7 @@
    "lat": 43.99416667,
    "lon": -76.065
   },
-  "river-james-north-dakota": {
+  "river-james-south-dakota": {
    "title": "James River (Dakotas)",
    "monthlyViews": 700,
    "days": 60,
@@ -65650,7 +65650,7 @@
    "lat": 43.16722222,
    "lon": -111.06444444
   },
-  "river-white-nebraska": {
+  "river-white-south-dakota": {
    "title": "White River (Missouri River tributary)",
    "monthlyViews": 335,
    "days": 60,
@@ -65741,7 +65741,7 @@
    "lat": 33.80844,
    "lon": -92.90016
   },
-  "river-platte-iowa": {
+  "river-platte-missouri": {
    "title": "Platte River (Iowa and Missouri)",
    "monthlyViews": 244,
    "days": 60,
@@ -66120,11 +66120,11 @@
    "lon": -84.2413
   },
   "river-pine-wisconsin": {
-   "title": "Pine River (Chippewa River tributary)",
-   "monthlyViews": 91,
-   "days": 60,
-   "lat": null,
-   "lon": null
+   "title": "Pine River (Florence County)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 45.83194444,
+   "lon": -88.12138889
   },
   "river-pomme-de-terre-minnesota": {
    "title": "Pomme de Terre River (Minnesota)",
@@ -66552,6 +66552,20 @@
    "days": 56,
    "lat": 67.77666667,
    "lon": -146.1575
+  },
+  "river-ouse-sussex": {
+   "title": "River Ouse, Sussex",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 50.784217,
+   "lon": 0.057995
+  },
+  "river-little-st-francis": {
+   "title": "Little River (St. Francis River tributary)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 35.9239612,
+   "lon": -90.1309271
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",
@@ -84697,7 +84711,7 @@
    "lat": 44.32055556,
    "lon": -71.29138889
   },
-  "mountain-matterhorn-peak-sierra-nevada": {
+  "mountain-matterhorn-peak-california": {
    "title": "Matterhorn Peak",
    "monthlyViews": 761,
    "days": 60,
@@ -84991,13 +85005,6 @@
    "lat": 42.6920915,
    "lon": -73.2858233
   },
-  "mountain-black-mesa-arizona": {
-   "title": "Black Mesa (Navajo County, Arizona)",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 34.3869833,
-   "lon": -110.0781693
-  },
   "mountain-blue-mountain-washington": {
    "title": "Blue Mountain (Washington)",
    "monthlyViews": 152,
@@ -85109,6 +85116,13 @@
    "days": 60,
    "lat": 45.6645546,
    "lon": -123.5484538
+  },
+  "mountain-black-mesa-arizona": {
+   "title": "Black Mesa (Apache-Navajo Counties, Arizona)",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 34.2808509,
+   "lon": -113.8385493
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",
@@ -93181,7 +93195,7 @@
    "lat": 37.86,
    "lon": -122.43
   },
-  "island-treasure-island-san-francisco": {
+  "island-treasure-island-california": {
    "title": "Treasure Island, San Francisco",
    "monthlyViews": 6210,
    "days": 60,
@@ -98690,7 +98704,7 @@
    "lat": 55.72131,
    "lon": -4.95503
   },
-  "island-monkey-island-bray": {
+  "island-monkey-island-county-wicklow": {
    "title": "Monkey Island, Bray",
    "monthlyViews": 457,
    "days": 60,
@@ -103583,7 +103597,7 @@
    "lat": 27.92194444,
    "lon": -82.45555556
   },
-  "island-barren-island-brooklyn": {
+  "island-barren-island-new-york": {
    "title": "Barren Island, Brooklyn",
    "monthlyViews": 639,
    "days": 60,
@@ -103597,7 +103611,7 @@
    "lat": 41.4852,
    "lon": -71.32801667
   },
-  "island-harbor-island-seattle": {
+  "island-harbor-island-washington": {
    "title": "Harbor Island, Seattle",
    "monthlyViews": 609,
    "days": 60,
@@ -103646,7 +103660,7 @@
    "lat": 48.31833333,
    "lon": -122.84333333
   },
-  "island-high-island-bronx": {
+  "island-high-island-new-york": {
    "title": "High Island (Bronx)",
    "monthlyViews": 426,
    "days": 60,
@@ -103674,7 +103688,7 @@
    "lat": 45.49,
    "lon": -122.667
   },
-  "island-white-island-brooklyn": {
+  "island-white-island-new-york": {
    "title": "White Island (Brooklyn)",
    "monthlyViews": 335,
    "days": 60,

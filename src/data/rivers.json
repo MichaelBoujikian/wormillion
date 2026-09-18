@@ -21346,9 +21346,7 @@
   "id": "river-black-river-jamaica",
   "category": "river",
   "name": "Black River",
-  "aliases": [
-   "Black River Jamaica"
-  ],
+  "aliases": [],
   "size": 53,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Black River (Jamaica)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -37235,14 +37233,14 @@
   "lon": -115.59944444
  },
  {
-  "id": "river-sugar-creek-wabash-river",
+  "id": "river-sugar-creek-indiana",
   "category": "river",
   "name": "Sugar Creek",
   "aliases": [],
   "size": 150,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Sugar Creek (Wabash River tributary)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "qualifier": "Wabash River",
+  "qualifier": "Indiana",
   "magnitude": 274,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Sugar Creek (Wabash River tributary)",
@@ -54532,14 +54530,14 @@
   "lon": -76.065
  },
  {
-  "id": "river-james-north-dakota",
+  "id": "river-james-south-dakota",
   "category": "river",
   "name": "James",
   "aliases": [],
   "size": 1143,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"James River (Dakotas)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "qualifier": "North Dakota",
+  "qualifier": "South Dakota",
   "magnitude": 700,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "James River (Dakotas)",
@@ -54849,7 +54847,7 @@
   "category": "river",
   "name": "Grand",
   "aliases": [],
-  "size": 760,
+  "size": 364,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Grand River (Missouri)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "qualifier": "Missouri",
@@ -54890,14 +54888,14 @@
   "lon": -111.06444444
  },
  {
-  "id": "river-white-nebraska",
+  "id": "river-white-south-dakota",
   "category": "river",
   "name": "White",
   "aliases": [],
   "size": 933,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"White River (Missouri River tributary)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "qualifier": "Nebraska",
+  "qualifier": "South Dakota",
   "magnitude": 335,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "White River (Missouri River tributary)",
@@ -55084,14 +55082,14 @@
   "lon": -92.90016
  },
  {
-  "id": "river-platte-iowa",
+  "id": "river-platte-missouri",
   "category": "river",
   "name": "Platte",
   "aliases": [],
   "size": 322,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Platte River (Iowa and Missouri)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "qualifier": "Iowa",
+  "qualifier": "Missouri",
   "magnitude": 244,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Platte River (Iowa and Missouri)",
@@ -55894,13 +55892,15 @@
   "category": "river",
   "name": "Pine",
   "aliases": [],
-  "size": 166,
+  "size": 129,
   "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Pine River (Chippewa River tributary)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "source": "English Wikipedia pageviews for \"Pine River (Florence County)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "qualifier": "Wisconsin",
-  "magnitude": 91,
+  "magnitude": 30,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Pine River (Chippewa River tributary)"
+  "wikiTitle": "Pine River (Florence County)",
+  "lat": 45.83194444,
+  "lon": -88.12138889
  },
  {
   "id": "river-pomme-de-terre-minnesota",
@@ -56804,5 +56804,35 @@
   "wikiTitle": "Wind River (Alaska)",
   "lat": 67.77666667,
   "lon": -146.1575
+ },
+ {
+  "id": "river-ouse-sussex",
+  "category": "river",
+  "name": "Ouse",
+  "aliases": [],
+  "size": 56,
+  "sizeUnit": "length_km",
+  "source": "English Wikipedia pageviews for \"River Ouse, Sussex\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Sussex",
+  "magnitude": 2313,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "River Ouse, Sussex",
+  "lat": 50.784217,
+  "lon": 0.057995
+ },
+ {
+  "id": "river-little-st-francis",
+  "category": "river",
+  "name": "Little",
+  "aliases": [],
+  "size": 238,
+  "sizeUnit": "length_km",
+  "source": "English Wikipedia pageviews for \"Little River (St. Francis River tributary)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "St. Francis",
+  "magnitude": 61,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little River (St. Francis River tributary)",
+  "lat": 35.9239612,
+  "lon": -90.1309271
  }
 ]

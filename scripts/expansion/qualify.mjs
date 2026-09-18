@@ -33,6 +33,12 @@ const { WIKI_TITLES } = await import(new URL('../data-wiki-titles.mjs?t=' + Date
 const byId = new Map(Object.values(buildFiles()).flat().map((e) => [e.id, e]));
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const rawNameOf = (e) => (e.qualifier ? `${e.name} (${e.qualifier})` : e.name);
+/** Fold to plain ASCII the way the bank's names are written (fold.mjs does the same for a new row). */
+const ascii = (s) =>
+  s.normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/ø/g, 'o').replace(/Ø/g, 'O').replace(/æ/g, 'ae').replace(/Æ/g, 'Ae').replace(/œ/g, 'oe').replace(/Œ/g, 'Oe')
+    .replace(/ł/g, 'l').replace(/Ł/g, 'L').replace(/ß/g, 'ss').replace(/[đð]/g, 'd').replace(/[ĐÐ]/g, 'D').replace(/þ/g, 'th').replace(/Þ/g, 'Th')
+    .replace(/[ı]/g, 'i').replace(/[‘’ʼ]/g, "'").replace(/[–—]/g, '-').trim();
 
 const files = {
   physical: REPO + 'scripts/data-physical.mjs',
@@ -55,8 +61,8 @@ for (const line of rows) {
   const [id, qualifierRaw, newNameRaw] = line.split('|').map((s) => (s || '').trim());
   const e = byId.get(id);
   if (!e) { console.log(`?? ${id}: not in the bank`); continue; }
-  const qualifier = qualifierRaw || null;
-  const name = newNameRaw || e.name;
+  const qualifier = qualifierRaw ? ascii(qualifierRaw) : null;
+  const name = newNameRaw ? ascii(newNameRaw) : e.name;
   if (/[()|]/.test(name) || /[()|]/.test(qualifier || '')) { console.log(`?? ${id}: no parentheses or pipes in a name or qualifier`); continue; }
   const newId = idFor(e.category, name, qualifier);
   const newRaw = qualifier ? `${name} (${qualifier})` : name;

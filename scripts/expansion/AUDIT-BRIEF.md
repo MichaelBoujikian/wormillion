@@ -43,7 +43,10 @@ scratchpad); the lead copies it into `scripts/expansion/reports/`.
    — those matter; a 10% wobble that crosses nothing does not.
 3. **Right name.** The bank name is what people type (Wikipedia's title
    without its parenthetical, bare of the generic word where the bank is
-   bare). Then the dangerous class: **a new row whose bare name belongs to a
+   bare). A namesake is authored as `Name (Qualifier)` (decision 5): the
+   built `name` is bare, the qualifier is its own column, and the
+   qualifier must be the place a player would type (the state, the country,
+   the island — "Kent", not "East Kent"; "New York", not "Brooklyn"). Then the dangerous class: **a new row whose bare name belongs to a
    far more famous place** — it turns a nudge or a correction into a wrong
    acceptance or a false "isn't in Europe". Run the shipped matcher
    (`src/js/matching.js` `matchAnswer` over the cohort from
@@ -52,8 +55,9 @@ scratchpad); the lead copies it into `scripts/expansion/reports/`.
    *old* bank did with the same input (`git show <pre-wave commit>:src/data/bank.js`).
 4. **Right cohort and themes.** The row is in the theme sets it should be
    (`src/data/themes.js`) and not in ones it shouldn't; a city's country and
-   region tags are right; nothing is a national capital or shares a name with
-   a country or island.
+   region tags are right; nothing is a national capital, and a city that
+   shares a name with a country or an island carries a qualifier (Greece
+   (New York), Manhattan (Kansas) — the fold refuses the bare form only).
 5. **Rarity outliers.** New rows with very few views for what they are (a
    500 km river at 12 views/month) are usually a wrong article; check them.
 6. **Duplicates.** Two rows on one `wikiTitle` in a cohort, or a new row that

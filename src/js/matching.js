@@ -227,19 +227,23 @@
         claims.get(bare).push({ id: entry.id, fromName: i === 0, key });
       });
       if (entry.qualifier) {
+        // Exact forms only, never fuzzy candidates: a long qualified key
+        // buys a long edit budget that corrects the NAME away ("Barren
+        // Island, New York" became Green Island (New York)), and a postal
+        // code is within budget of any other two letters ("Cambridge, UK"
+        // was Cambridge (Massachusetts); the 2026-09-18 data audit).
         const nameKey = normalize(entry.name);
         for (const key of qualifiedKeys(entry.name, entry.qualifier)) {
           if (key === nameKey) continue;
           claim(key, entry.id);
           lookup.bareOf.set(key, nameKey);
-          candidates.push({ key, bare: looseKey(key) || key, filler: fillerIn(key), id: entry.id });
         }
       }
     }
 
     const byViews = (a, b) => views.get(b) - views.get(a);
     for (const [key, held] of lookup) if (Array.isArray(held)) lookup.set(key, held.slice().sort(byViews));
-    lookup.loose = resolveLoose(claims);
+    lookup.loose = resolveLoose(claims, views);
     for (const [bare, held] of lookup.loose) if (Array.isArray(held)) lookup.loose.set(bare, held.slice().sort(byViews));
     lookup.candidates = candidates;
     return lookup;
@@ -256,14 +260,29 @@
    * key. (Until then two names identified neither, and the fold refused the
    * second one: ~180 real places were out for it.) Two aliases with no name
    * behind either identify the list too, but the validator refuses that
-   * kind of data.
+   * kind of data. With `views` (id -> magnitude) a far more famous
+   * alias-holder joins the list (LOOSE_ALIAS_FAME_RATIO).
    * @param {Map<string, {id:string, fromName:boolean}[]>} claims
+   * @param {Map<string, number>} [views]
    */
-  function resolveLoose(claims) {
+  // An alias-holder this much more viewed than every name-holder of a loose
+  // form leads the list after all: "Cook" is Aoraki (alias "Mount Cook",
+  // 8,900 views) before Mount Cook (Canada) (150), "San Antonio" is Mount
+  // Baldy (alias "Mount San Antonio") before San Antonio Mountain - the
+  // namesake folds of 2026-09-18 had put a 150-view name ahead of a famous
+  // alias seven times (the regression audit). The Persian Gulf's "Arabian
+  // Gulf" (1.6x the Arabian Sea) still does not take "Arabian".
+  const LOOSE_ALIAS_FAME_RATIO = 3;
+  function resolveLoose(claims, views) {
     const loose = new Map();
     for (const [bare, list] of claims) {
       const names = list.filter((c) => c.fromName);
-      const pool = names.length ? names : list;
+      let pool = names.length ? names : list;
+      if (names.length && views) {
+        const top = Math.max(...names.map((c) => views.get(c.id) || 0));
+        const famous = list.filter((c) => !c.fromName && (views.get(c.id) || 0) >= LOOSE_ALIAS_FAME_RATIO * top);
+        if (famous.length) pool = names.concat(famous);
+      }
       const ids = [...new Set(pool.map((c) => c.id))];
       loose.set(bare, ids.length === 1 ? ids[0] : ids);
     }

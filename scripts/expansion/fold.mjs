@@ -60,11 +60,12 @@ for (const entries of Object.values(files)) {
   for (const entry of entries) {
     const c = cohortFor(entry.category);
     c.ids.add(entry.id);
+    c.names.set(entry.id, entry.qualifier ? `${entry.name} (${entry.qualifier})` : entry.name);
     addCandidates(c, entry.id, entry.name, entry.aliases || [], entry.qualifier);
   }
 }
 function cohortFor(category) {
-  if (!cohorts.has(category)) cohorts.set(category, { keys: new Map(), claims: new Map(), ids: new Set() });
+  if (!cohorts.has(category)) cohorts.set(category, { keys: new Map(), claims: new Map(), ids: new Set(), names: new Map() });
   return cohorts.get(category);
 }
 function addCandidates(c, id, name, aliases, qualifier) {
@@ -174,9 +175,12 @@ for (const input of INPUTS) {
     const shown = qualifier ? `${name} (${qualifier})` : name;
     if (!/^\d+(\.\d+)?(-\d+(\.\d+)?)?$/.test(magnitude || '')) { log(`  DROP (bad magnitude "${magnitude}"): ${shown}`); dropped++; continue; }
     const id = idFor(input.category, name, qualifier);
-    if (c.ids.has(id)) { log(`  DROP (id exists ${id}): ${shown}`); dropped++; continue; }
+    if (c.ids.has(id)) { log(`  DROP (id exists ${id}${c.names.get(id) && c.names.get(id) !== shown ? ` - the id of "${c.names.get(id)}", a different name: pick another qualifier` : ''}): ${shown}`); dropped++; continue; }
     const why = collision(c, id, name, true, qualifier);
     if (why) { log(`  DROP ${shown}: ${why}`); dropped++; continue; }
+    // the generated qualified forms belong to the row alone (SPEC 6.4): "Little (Arkansas)" would take "little arkansas" from the Little Arkansas River
+    const takenForm = qualifier ? matching.qualifiedKeys(name, qualifier).find((k) => (c.keys.get(k) || []).some((h) => h.id !== id)) : null;
+    if (takenForm) { log(`  DROP ${shown}: its qualified form "${takenForm}" is already a name of ${c.keys.get(takenForm)[0].id} - pick another qualifier`); dropped++; continue; }
     if (input.source === 'cities') {
       if (!countryByName.has(country)) { log(`  DROP ${name}: unknown country "${country}"`); dropped++; continue; }
       if (slug(name) === slug(capitalByCountry.get(country) || '')) { log(`  DROP ${name}: is the capital of ${country}`); dropped++; continue; }

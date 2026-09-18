@@ -156,7 +156,9 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-18 namesakes, decision 5
       'Dee (Aberdeenshire)', 'Stour (Suffolk)', 'Avon (Hampshire)', 'Don (Yorkshire)', 'Derwent (Yorkshire)',
       'Blackwater (Essex)', 'Stour (Dorset)', 'Don (Aberdeenshire)', 'Blackwater (Northern Ireland)', 'South Esk (Angus)',
-      'Main (County Antrim)', 'Dee (Ireland)'
+      'Main (County Antrim)', 'Dee (Ireland)',
+      // 2026-09-18 audit fixes, decision 5
+      'Ouse (Sussex)'
     ],
     'Siberia': ['Ob', 'Yenisei', 'Lena', 'Kolyma', 'Aldan', 'Vilyuy', 'Olenyok', 'Amur',
       // 2026-09-14 expansion
@@ -574,7 +576,9 @@ globalThis.WORMILLION_THEMES = {
       'Don (France)', 'Save (France)', 'Tana (Norway)', 'Lagan (Sweden)', 'Nidelva (Agder)',
       'Gaula (Vestland)', 'Dee (Aberdeenshire)', 'Stour (Suffolk)', 'Avon (Hampshire)', 'Don (Yorkshire)',
       'Derwent (Yorkshire)', 'Blackwater (Essex)', 'Stour (Dorset)', 'Don (Aberdeenshire)', 'Blackwater (Northern Ireland)',
-      'South Esk (Angus)', 'Main (County Antrim)', 'Dee (Ireland)'
+      'South Esk (Angus)', 'Main (County Antrim)', 'Dee (Ireland)',
+      // 2026-09-18 audit fixes, decision 5
+      'Ouse (Sussex)'
     ],
     'India': [
       'Ganges', 'Brahmaputra', 'Indus', 'Yamuna', 'Godavari', 'Krishna River',
@@ -725,7 +729,7 @@ globalThis.WORMILLION_THEMES = {
       'Tonawanda Creek', 'Wapsipinicon', 'West Fork', 'Zuni', 'Bosque',
       'Connoquenessing Creek', 'Delta', 'Galena', 'Jackson', 'Judith',
       'Lynches', 'Mattaponi', 'Missisquoi', 'Nanticoke', 'Pecatonica',
-      'Red Cedar (Michigan)', 'Selway', 'Sugar Creek (Wabash River)', 'Tellico', 'Angelina',
+      'Red Cedar (Michigan)', 'Selway', 'Sugar Creek (Indiana)', 'Tellico', 'Angelina',
       'Beaver (Oklahoma)', 'Cache Creek', 'Chariton', 'Conejos', 'Cowpasture',
       'Crow Wing', 'Dismal', 'Double Mountain Fork Brazos', 'Escalante', 'Floyd',
       'Latah Creek', 'Leaf (Mississippi)', 'Levisa Fork', 'Ohoopee', 'Maquoketa',
@@ -870,15 +874,15 @@ globalThis.WORMILLION_THEMES = {
       'Colorado River (Texas)', 'Grand (Michigan)', 'Green (Washington)', 'Fox (Wisconsin)', 'White (Indiana)',
       'Green (Kentucky)', 'San Juan (Four Corners)', 'Pearl River (Mississippi)', 'Thames (Connecticut)', 'Trinity (California)',
       'Jordan River (Utah)', 'Buffalo (New York)', 'Santa Cruz (Arizona)', 'Grand (South Dakota)', 'Peace (Florida)',
-      'Flint (Michigan)', 'Black River (Arkansas)', 'Black River (New York)', 'James (North Dakota)', 'St. Marys (Florida)',
+      'Flint (Michigan)', 'Black River (Arkansas)', 'Black River (New York)', 'James (South Dakota)', 'St. Marys (Florida)',
       'Guadalupe (California)', 'New River (Mexico)', 'Black River (Wisconsin)', 'Deschutes (Washington)', 'St. Joseph (Indiana)',
       'Mad (California)', 'St. Croix (Maine)', 'White (Washington)', 'Buffalo (Tennessee)', 'Grand (Ohio)',
       'New River (North Carolina)', 'Salt (Kentucky)', 'Bear (California)', 'Black River (North Carolina)', 'Black River (Arizona)',
       'Blue (Oklahoma)', 'James (Missouri)', 'San Gabriel (Texas)', 'Black River (South Carolina)', 'Grand (Missouri)',
-      'Green (North Carolina)', 'Salt (Wyoming)', 'White (Nebraska)', 'Blackwater (Virginia)', 'Illinois River (Oregon)',
+      'Green (North Carolina)', 'Salt (Wyoming)', 'White (South Dakota)', 'Blackwater (Virginia)', 'Illinois River (Oregon)',
       'Vermilion (Illinois)', 'Whitewater (Ohio)', 'Eel (Indiana)', 'Elk (Alabama)', 'White (Vermont)',
       'Rio Puerco', 'Spring (Missouri)', 'Sweetwater (California)', 'Flint (Alabama)', 'Little Missouri (Arkansas)',
-      'Platte (Iowa)', 'St. Marys (Indiana)', 'White (Colorado)', 'Chippewa (Michigan)', 'Little (Oklahoma)',
+      'Platte (Missouri)', 'St. Marys (Indiana)', 'White (Colorado)', 'Chippewa (Michigan)', 'Little (Oklahoma)',
       'Little (Texas)', 'Red Lake River', 'Red River (Tennessee)', 'Swan River (Montana)', 'Vermilion (Ohio)',
       'Bad (Wisconsin)', 'Big Blue (Indiana)', 'Cimarron (New Mexico)', 'Saline (Arkansas)', 'San Miguel (Colorado)',
       'St. Mary', 'Stillwater (Ohio)', 'Trent (North Carolina)', 'White (Yukon)', 'Yellow River (Indiana)',
@@ -901,7 +905,9 @@ globalThis.WORMILLION_THEMES = {
       'Pine (Minnesota)', 'Prairie (Michigan)', 'Rock Creek (Oregon)', 'Rock Creek (Wyoming)', 'Rock Creek (Washington)',
       'Salmon (Alaska)', 'Slana (Alaska)', 'Saint Francis (Minnesota)', 'Sturgeon (Minnesota)', 'Swan River (Minnesota)',
       'Thompson (Missouri)', 'Tongue (North Dakota)', 'Whitewater (Kansas)', 'Willow Creek (Utah)', 'Willow Creek (Idaho)',
-      'Wind (Alaska)'
+      'Wind (Alaska)',
+      // 2026-09-18 audit fixes, decision 5
+      'Little (St. Francis)'
     ]
   },
 
@@ -1061,7 +1067,7 @@ globalThis.WORMILLION_THEMES = {
       // add-theme.mjs
       'Spanish Peaks', 'Heart Mountain',
       // 2026-09-18 namesakes, decision 5
-      'Ben Lomond Mountain', 'Lookout Mountain (Colorado)', 'Mount Nebo (Utah)', 'Baldy Mountain (New Mexico)', 'Mount Olympus (Utah)',
+      'Ben Lomond Mountain', 'Lookout Mountain (Colorado)', 'Mount Nebo (Utah)', 'Baldy Mountain (New Mexico)', 'Castle Peak (Idaho)', 'Logan Peak', 'Mount Olympus (Utah)',
       'Castle Peak (Colorado)', 'Mount Wilson (Colorado)', 'Table Mountain (Wyoming)', 'Mount Zion (Colorado)', 'Signal Mountain (Wyoming)',
       'Wetterhorn Peak', 'Bear Peak (Colorado)', 'Matterhorn Peak (Colorado)', 'Mount Ida (Colorado)', 'Mount Jefferson (Idaho)',
       'El Capitan (Montana)', 'Mount Jackson (Montana)'],
@@ -1264,7 +1270,7 @@ globalThis.WORMILLION_THEMES = {
       'Mount Blackburn', 'Mount Sanford', 'Mount Bandai', 'Mount Iwate', 'Mount Daisen',
       'Mount Kitanglad', 'Mount Malindang',
       // 2026-09-18 namesakes, decision 5
-      'Mount Cleveland (Alaska)'
+      'Mount Cleveland (Alaska)', 'Mount Washington (Oregon)', 'Snaefell (Iceland)', 'San Antonio Mountain'
     ]
   },
 

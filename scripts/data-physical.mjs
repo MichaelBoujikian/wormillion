@@ -2705,7 +2705,7 @@ Yaque del Sur|183|Rio Yaque del Sur
 Yuna|210|Rio Yuna
 Ozama|148|Rio Ozama
 Artibonite|321|Riviere Artibonite
-Black River (Jamaica)|53|Black River Jamaica
+Black River (Jamaica)|53
 Martha Brae|32|Martha Brae River
 Rio Cobre|48
 Rio Camuy|80|Camuy River
@@ -3776,7 +3776,7 @@ Nanticoke|104
 Pecatonica|312
 Red Cedar (Michigan)|82
 Selway|162
-Sugar Creek (Wabash River)|150
+Sugar Creek (Indiana)|150
 Tellico|85
 Angelina|193
 Beaver (Oklahoma)|451
@@ -5010,7 +5010,7 @@ Peace (Florida)|170
 Flint (Michigan)|126
 Black River (Arkansas)|480
 Black River (New York)|194
-James (North Dakota)|1143
+James (South Dakota)|1143
 St. Marys (Florida)|380
 Guadalupe (California)|160
 New River (Mexico)|125
@@ -5031,10 +5031,10 @@ Blue (Oklahoma)|227
 James (Missouri)|209
 San Gabriel (Texas)|102
 Black River (South Carolina)|243
-Grand (Missouri)|760
+Grand (Missouri)|364
 Green (North Carolina)|94
 Salt (Wyoming)|135
-White (Nebraska)|933
+White (South Dakota)|933
 Blackwater (Virginia)|170
 Illinois River (Oregon)|90
 Vermilion (Illinois)|176
@@ -5047,7 +5047,7 @@ Spring (Missouri)|208
 Sweetwater (California)|88
 Flint (Alabama)|106
 Little Missouri (Arkansas)|237
-Platte (Iowa)|322
+Platte (Missouri)|322
 St. Marys (Indiana)|159
 White (Colorado)|314
 Chippewa (Michigan)|150
@@ -5101,7 +5101,7 @@ Green (Illinois)|143
 Kettle (Minnesota)|130
 Logan (Utah)|86
 Ottawa River (Ohio)|80
-Pine (Wisconsin)|166
+Pine (Wisconsin)|129
 Pomme de Terre (Minnesota)|201
 Rio Hondo (New Mexico)|137
 South River (North Carolina)|126
@@ -5163,6 +5163,8 @@ Whitewater (Kansas)|100
 Willow Creek (Utah)|126
 Willow Creek (Idaho)|135
 Wind (Alaska)|129
+Ouse (Sussex)|56
+Little (St. Francis)|238
 `;
 
 export const MOUNTAINS = `
@@ -5249,7 +5251,7 @@ Carrauntoohil|1038
 Stromboli|924|Mount Stromboli
 Mount Nebo|817|Nebo
 Corcovado|710
-Sugarloaf Mountain|396|Pao de Acucar
+Sugarloaf Mountain|396|Pao de Acucar,Sugarloaf
 Uluru|863|Ayers Rock
 Grand Teton|4199
 Longs Peak|4346|Long Peak
@@ -7758,7 +7760,7 @@ Mount Washington (Oregon)|2376
 Bear Mountain (Connecticut)|706
 Sugarloaf Mountain (Maine)|1288
 Mount Adams (New Hampshire)|1766
-Matterhorn Peak (Sierra Nevada)|3744
+Matterhorn Peak (California)|3744
 Hunter Mountain|1231
 Mount Olympus (Utah)|2752
 Mount Orizaba|648
@@ -7800,7 +7802,6 @@ Mount Ida (Colorado)|3924
 Mount Jefferson (Idaho)|3114
 Pyramid Peak (Alaska)|2705
 Berlin Mountain|859
-Black Mesa (Arizona)|1865
 Blue Mountain (Washington)|1830
 Mount Bear|4520
 Mount Cook (Canada)|4196
@@ -7817,6 +7818,7 @@ Mount Thor (Alaska)|3816
 Mount Wilson (Nevada)|2155
 Pico Peak|1209
 Rogers Peak (Oregon)|1130
+Black Mesa (Arizona)|0
 `;
 
 export const MINOR_PEAKS = `
@@ -8115,7 +8117,7 @@ Niue|261
 Malta|246
 Elba|224
 Easter Island|163.6|Rapa Nui
-Saint Helena|122|St Helena
+Saint Helena|122|St Helena,Saint Helena Island
 Jersey|118
 Mykonos|105
 Tristan da Cunha|98
@@ -8979,7 +8981,7 @@ Madeline Island|40.7
 Apostle Islands|173
 Belle Isle (Michigan)|3|Belle Isle Park
 Angel Island|3.05
-Treasure Island (San Francisco)|1.24
+Treasure Island (California)|1.24
 San Clemente Island|145
 San Miguel Island|37
 Santa Rosa Island|215
@@ -9766,7 +9768,7 @@ Gometra|4.25
 Scalpay|6.53
 Barra Head|2.04
 Little Cumbrae|3.13
-Monkey Island (Bray)|0
+Monkey Island (County Wicklow)|0
 Scarba|14.74
 Handa Island|3.09
 Inchmarnock|2.66
@@ -10465,20 +10467,20 @@ Fox Islands (Alaska)|9200
 Star Island (New Hampshire)|0
 Cat Island (Mississippi)|0
 Davis Islands|0
-Barren Island (Brooklyn)|0
+Barren Island (New York)|0
 Goat Island (Rhode Island)|0
-Harbor Island (Seattle)|0
+Harbor Island (Washington)|0
 Long Island (Maine)|86.82
 Rock Island|3.95
 Fire Island (Alaska)|17.47
 Hog Island (New York)|0
 Hog Island (Rhode Island)|0
 Smith Island (Washington)|0
-High Island (Bronx)|0
+High Island (New York)|0
 Monkey Island (North Carolina)|0
 Grand Isle (Vermont)|0
 Ross Island (Oregon)|1.62
-White Island (Brooklyn)|0
+White Island (New York)|0
 St. Martin Island|0
 St. Vincent Island|0
 Bear Island (New Hampshire)|0

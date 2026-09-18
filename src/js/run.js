@@ -29,18 +29,25 @@
   // margin keeps today's nudge: "Athens" on a city round is "Athens is a
   // capital city", not 950 points for Athens (Georgia), and the Georgia one
   // wants its qualifier ("Athens, Georgia" / "Athens GA"). Measured on
-  // `magnitude` (monthly views) between the in-cohort namesake and the
-  // most-viewed exact holder elsewhere (decision 5, 2026-09-18; 3, not 5:
-  // Athens the capital has 4.8x the views of the Georgia one). Only a city
-  // is second-guessed this way, against a capital, a country or an island
-  // (Athens, Greece (New York), Manhattan (Kansas)): those are what a
-  // player who types the bare name on a city round may have meant, but
-  // "Saint Paul" on a river round names the river, however famous the
-  // capital - the round's category settles that on its own. And only when
-  // the famous holder would have fitted the round: on a plain round, or a
-  // region round whose region it carries. "Boston" on "Name a city in
-  // Europe" is Boston (Lincolnshire), accepted - that is the point of the
-  // design - not "Boston is a capital city".
+  // `magnitude` (monthly views) between the name's most-viewed holder in
+  // THIS cohort and its most-viewed exact holder elsewhere (decision 5,
+  // 2026-09-18; 3, not 5: Athens the capital has 4.8x the views of the
+  // Georgia one). The cohort's own best holder, not the entry the typing
+  // settled on: a second "Boston" in a run settles on Boston (Lincolnshire),
+  // and the capital Boston is the very place the first "Boston" scored, so
+  // the name belongs here and the second is the Lincolnshire one (the
+  // 2026-09-18 gameplay audit). Only a city is second-guessed this way,
+  // against a capital, a country or an island (Athens, Greece (New York),
+  // Manhattan (Kansas)): those are what a player who types the bare name on
+  // a city round may have meant, but "Saint Paul" on a river round names
+  // the river, however famous the capital - the round's category settles
+  // that on its own. The one round the famous holder cannot have been
+  // meant on is a region round whose region it does not carry: "Boston" on
+  // "Name a city in Europe" is Boston (Lincolnshire), accepted - that is the
+  // point of the design - not "Boston is a capital city"; on a letter, size,
+  // flag or theme round the famous name fits as well as the namesake does,
+  // and the nudge stands (the same audit: "Athens" on "starts with A" had
+  // become 950 points for Georgia).
   const NAMESAKE_FAME_RATIO = 3;
   const CONFUSABLE = { city: ['capital', 'country', 'island'] };
 
@@ -101,7 +108,8 @@
      */
     function famousElsewhere(entry, match, current) {
       if (!entry.qualifier || (match && match.qualified)) return null;
-      if (current.constrained && !current.region) return null;
+      const key = matching.normalize(entry.name);
+      const top = Math.max(...matching.idsAt(current.cohort.lookup, key).map((id) => current.cohort.byId.get(id).magnitude));
       let best = null;
       for (const other of CONFUSABLE[entry.category] || []) {
         const cohort = bank.cohorts.get(other);
@@ -110,7 +118,7 @@
         const found = cohort.byId.get(hit.entryId);
         if (!best || found.magnitude > best.magnitude) best = found;
       }
-      if (!best || best.magnitude < NAMESAKE_FAME_RATIO * entry.magnitude) return null;
+      if (!best || best.magnitude < NAMESAKE_FAME_RATIO * top) return null;
       if (current.region && !(best.region || []).includes(current.region)) return null;
       return { status: 'unrecognized', elsewhere: { entry: best, category: best.category, fuzzy: false } };
     }
@@ -153,7 +161,7 @@
           if (other === category) continue;
           const hit = matching.matchAnswer(rawInput, cohort.lookup, null, options);
           if (hit.status !== 'accepted' && hit.status !== 'corrected') continue;
-          const found = { entry: cohort.byId.get(hit.entryId), category: other, fuzzy: hit.status === 'corrected' };
+          const found = { entry: cohort.byId.get(hit.entryId), category: other, fuzzy: hit.status === 'corrected', qualified: Boolean(hit.qualified) };
           if (options.loose === false) {
             if (!best || found.entry.magnitude > best.entry.magnitude) best = found;
           } else return found;
@@ -220,11 +228,14 @@
         // back through a fuzzy hit next door - "Nigera" stays refused. And
         // "River Barrow" on a mountain round names the river, not the fell
         // Barrow: between two physical cohorts the typed generic word settles
-        // which one the player meant; 2026-09-17 audit.)
+        // which one the player meant; 2026-09-17 audit. And a QUALIFIED
+        // typing names that one place: "Athens, Georgia" on a capital round
+        // is the Georgia city's nudge, not the capital Athens scored as a
+        // correction; the 2026-09-18 gameplay audit.)
         const PHYSICAL = ['river', 'lake', 'mountain', 'desert', 'sea_ocean'];
         const namesTheirKind = PHYSICAL.includes(named.category) && PHYSICAL.includes(current.category) &&
           matching.normalize(rawInput).split(' ').some((w) => (matching.WORD_CATEGORY[w] || []).includes(named.category));
-        const twin = named.fuzzy || namesTheirKind ? { status: 'unrecognized' } : matching.matchAnswer(named.entry.name, current.lookup, state.usedAnswers, { loose: false, fuzzy: false });
+        const twin = named.fuzzy || named.qualified || namesTheirKind ? { status: 'unrecognized' } : matching.matchAnswer(named.entry.name, current.lookup, state.usedAnswers, { loose: false, fuzzy: false });
         if (twin.status === 'accepted') match = { status: 'corrected', entryId: twin.entryId, typed: rawInput.trim(), matched: twin.matched };
         else if (twin.status === 'duplicate') match = twin;
         else {

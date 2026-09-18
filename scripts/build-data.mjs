@@ -40,7 +40,10 @@ const list = (s) => (s || '').split(',').map((x) => x.trim()).filter(Boolean);
  * with one bare name when each carries a distinct qualifier (the state, the
  * country, the island), and the round's scope picks among them at play time.
  * The id carries it too: city-syracuse-sicily. Every namesake gets one, the
- * famous one included (Syracuse (New York) is city-syracuse-new-york).
+ * famous one included (Syracuse (New York) is city-syracuse-new-york) - except
+ * that a bare-titled incumbent that is the most-viewed holder may stay the one
+ * unqualified entry (the Thames beside Thames (Connecticut)); the validator
+ * allows one such holder per name.
  */
 export function splitQualifier(raw) {
   const m = /^(.*\S)\s*\(([^()]+)\)$/.exec(raw.trim());

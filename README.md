@@ -29,7 +29,7 @@ every prompt with the rarest answer it would have taken. On the hosted game
 you also see how your dig compares with everyone else's that day — "Better
 than 62% of 143 diggers" — from a small server-side tally (below).
 
-No accounts, no build step, no runtime dependencies in the game itself. 14,900
+No accounts, no build step, no runtime dependencies in the game itself. 15,400
 real places in the bank across nine categories: countries, capitals, cities that
 aren't capitals, lakes, rivers, mountains, deserts, islands, and seas — every
 one on its own English Wikipedia article, scoured country by country (the
@@ -333,10 +333,11 @@ Syracuse (New York) and Syracuse (Sicily), and **the round decides which one
 you meant** — a bare "Syracuse" on "Name a city in Europe" is the Sicilian
 one, on a plain "Name a city" it is the more famous one (the safe score), and
 typing "Syracuse, Sicily", "Syracuse (Sicily)" or, for a US state, "Portland
-ME" is exact. The one exception is a name whose famous holder is a capital:
-"Athens" on a city round still says "Athens is a capital city", and Athens,
-Georgia wants its state. Letter and length rules only ever look at the bare
-name.
+ME" is exact. The one exception is a name whose famous holder is a capital, a
+country or an island with three times the views: "Athens" on a city round
+still says "Athens is a capital city" (and "Greece" that Greece is a country)
+unless the round's region rules the famous one out, and Athens, Georgia wants
+its state. Letter and length rules only ever look at the bare name.
 
 ## Decisions this build made beyond SPEC.md
 

@@ -21,50 +21,47 @@ build).
 
 ## Start here (the next session, in order)
 
-1. `git checkout expansion-2` (it is `main` + this file + the four audit
-   tools `stack.mjs`, `try.mjs`, `jackpot-share.mjs`, `draw-diff.mjs`).
-   `npm test` → 193, `npm run validate` → 14,901, `npm run gap-check` clean.
-   Read "Where things stand", then "Same-name places: the design".
-2. **Build decision 5** — the same-name-places design below, accepted by the
-   user 2026-09-17. It is the first job, *before* the Mexico/Canada sweep,
-   because every sweep feeds it (London, Cambridge, Windsor, Kingston,
-   Hamilton, Victoria, Córdoba, Mérida, Santa Rosa, San José…) and it changes
-   the fold tools (`chunk.mjs` keeps the qualifier, `fold.mjs` and the
-   validator allow qualified namesakes, themes key by id). Sequence: engine +
-   tests + SPEC §3.7/§4/§13 → fold the backlog from the three waves' "taken"
-   lists with qualifiers. **The backlog lives only on this machine**:
-   `scripts/expansion/work/` (the probe outputs `us-*.report.txt`,
-   `<probe>.out`, `<probe>.json` with views and sizes, the chunk files, the
-   caches `wikitext-cache.json` 37 MB and `titles-cache.json`) and
-   `scripts/.cache/` are gitignored; on another clone the taken lists must be
-   regenerated with `probe.mjs` (hours per probe, one resolver at a time).
-   The committed reports name the headline name-taken places, not the full
-   lists. The taken lists need a hand pass — not every "taken" is a namesake:
-   drop the district / borough doubles (City of X, X Municipality), the
-   cross-cohort holders (Hagen → Mount Hagen: rule 5 territory), filler-word
-   collisions (St. George / George), alias and transliteration collisions
-   (Canton / Guangzhou, Odessa / Odesa), suffix collisions (Carson / Carson
-   City); `chunk.mjs --include-taken` emits the taken rows. Then qualifiers
-   from their Wikipedia titles, one resolver window for views (a *resolver
-   window* = a time when no other Wikipedia-fetching script is running:
-   `probe.mjs`, `article-size.mjs`, `fetch-pageviews.mjs`, `wp-check.mjs`
-   and `auto-titles.mjs` must never overlap, or the running one is
-   throttled) → an Opus
-   gameplay audit (≤3 agents, the audit brief in `scripts/expansion/AUDIT-BRIEF.md`).
-3. **Then Mexico and Canada**, rivers first (the order and the recipes are
+1. `git checkout expansion-2` (it is `main` + decision 5 + this file).
+   `npm test` → 204, `npm run validate` → 15,427, `npm run gap-check` clean.
+   Read "Where things stand", then "Same-name places: the design" (with its
+   "As built" note — three things came out differently from the text).
+2. **Decision 5 is built and folded** (2026-09-18, commits
+   `963539e`..`98d0a95`; report
+   `scripts/expansion/reports/2026-09-18-decision-5-namesakes.md`): 526
+   namesakes from the US and Europe taken lists are in with a qualifier, 250
+   incumbents were qualified, and an Opus audit round (data / gameplay /
+   regression + skeptics) ran on it. What it leaves for every sweep from now
+   on: **a sweep folds its taken list too** — after the normal chunk/fold,
+   `chunk.mjs work/<probe>.json --tag=ns-<x> --taken-only [--min-views=N]
+   [--allow-no-figure]` writes the taken rows as `Name (Qualifier)` rows plus
+   `work/qualify-ns-<x>.txt` for the incumbents; read its review log (rows
+   marked ALIAS-HELD / LOOSE-HELD, "already in the bank", and where each
+   qualifier came from), hand-edit both files (the commit messages of the
+   six decision-5 commits show what the hand pass looks like per cohort),
+   `qualify.mjs work/qualify-ns-<x>.txt --write`, then
+   `fold.mjs --only=<block>-ns-<x> --label="..." --write` and the pipeline.
+   The taken lists of the three waves live only on this machine
+   (`scripts/expansion/work/`, gitignored; the folded chunk and qualify files
+   are kept in `work/folded/namesakes/`).
+3. **Now Mexico and Canada**, rivers first (the order and the recipes are
    below; `probes/*.json` from the Europe wave are the templates; the
    per-cohort floors and views floors are settled — see "Every knob"). Piecemeal:
    one commit per chunk on `expansion-2`, pushed as you go, a report per
    chunk in `scripts/expansion/reports/`, `jackpot-share.mjs` after every fold.
+   A *resolver window* = a time when no other Wikipedia-fetching script is
+   running: `probe.mjs`, `article-size.mjs`, `fetch-pageviews.mjs`,
+   `wp-check.mjs` and `auto-titles.mjs` must never overlap.
 4. Release = the procedure in "The release, as audited": fast-forward `main`
    in one push inside a merge window from `draw-diff.mjs main`, publish
    Netlify in the same minute, run the verification curls, update "Where it
-   lives". The decision-5 work can ride the Mexico/Canada release (one
-   deploy) unless the user wants it live sooner.
+   lives". Decision 5 can ride the Mexico/Canada release (one deploy) unless
+   the user wants it live sooner (`draw-diff.mjs main` said 0 of 46 dailies
+   draw differently after decision 5 — the prompts are unchanged, only the
+   answers grew — so its window is any time).
 
 ---
 
-# The job: decision 5 (same-name places), then Mexico and Canada, on `expansion-2`
+# The job: Mexico and Canada on `expansion-2` (decision 5, same-name places, done 2026-09-18)
 
 The user's plan (2026-09-15): scour the world country by country, **every
 category per country**, "as many places as we can", in this order:
@@ -100,12 +97,17 @@ Standing decisions from the user, all still in force:
 3. **Floors: keep them low, capture a lot, decide on the spot and report the
    choice**; a later wave lowers every floor. The US floors are the
    starting point (below).
-4. **Name-taken places stay out — until decision 5 lands** (then namesakes
-   come in with a qualifier; see "Same-name places: the design"). Until
-   then: a bare name held by another entry (Portland ME, Green River KY,
-   Prince of Wales Island AK…) stays out, no comma-form or parenthetical
-   names, and a bare name that belongs to a far more famous place *not* in
-   the bank is also not free (Athens GA, Edinburg TX, Dublin CA).
+4. **Name-taken places come in with a qualifier** (decision 5, built
+   2026-09-18; see "Same-name places: the design"): `Portland (Maine)` beside
+   `Portland (Oregon)`, `Green (Kentucky)`, `Prince of Wales Island (Alaska)`
+   — authored as `Name (Qualifier)` in the name column, folded from the
+   probe's taken list with `chunk.mjs --taken-only` → `qualify.mjs` →
+   `fold.mjs`. A city whose bare name is a capital, country or island in
+   the bank comes in qualified too (Athens (Georgia), Greece (New York)) and
+   its bare typing keeps the nudge. What still stays out: a bare name that
+   belongs to a far more famous place *not in the bank at all* (Botany Bay,
+   Kent beside Sydney's), a district or town article standing in for the
+   place, and the same place under another title (Dufourspitze is Monte Rosa).
 5. **Audits on Opus**, data + gameplay in parallel per chunk or two, up to
    three agents at once, each writing its report as it goes.
 6. (2026-09-16) `reservoir` is a matching filler word; creek / fork / branch
@@ -113,6 +115,13 @@ Standing decisions from the user, all still in force:
    rivers; a letter-rule miss names the word that didn't count.
 
 ## Where things stand
+
+**Decision 5 built 2026-09-18** on `expansion-2` (after the release below):
+engine, validator, tools and 526 namesake rows folded across every cohort —
+`npm test` 204 · `npm run validate` 15,427 · `npm run gap-check` clean ·
+`bank.js` 2.01 MB · 730 entries carry a qualifier in 317 namesake sets.
+Cohorts now: rivers 3,902 · lakes 1,246 · mountains 2,713 · islands 2,494 ·
+seas 576 · deserts 137 · cities 3,915 (the table below is the wave view).
 
 **Released 2026-09-18 01:25 UTC**: `expansion` was fast-forwarded into
 `main` (one push, `ffeceaa..8ecb7e5`; tag `v1.3-europe-wave`), GitHub Pages
@@ -270,14 +279,17 @@ different sizes, countries and regions.
    data is symmetric and nothing is special-cased by hand. Wikipedia already
    supplies the qualifier — it is the comma / parenthetical part
    `chunk.mjs` strips today (`bankName()`); keep it as the column instead.
-   **Ids: the incumbent keeps its id** (`city-syracuse` stays; the newcomer
-   is `city-syracuse-sicily`) — the qualifier column is symmetric, the ids
-   are not, so nothing keyed by id (`WIKI_TITLES`, `WIKI_VERIFIED`,
-   `OCEAN_OVERRIDES`, `pageviews.json`, `themes.js` once it keys by id)
-   needs a migration. An incumbent whose Wikipedia title is bare (Boston,
-   Birmingham, Manchester, York) takes its qualifier from its own data: the
-   state for a US city, the country otherwise; physical rows by hand at
-   fold time. **The 23 existing parenthetical names** (`Derwent
+   **Ids — as built: every qualified row's id carries the qualifier**
+   (`city-syracuse-new-york` beside `city-syracuse-sicily`; the design text
+   said the incumbent keeps its id, to spare a migration — `qualify.mjs`
+   does that migration, renaming the id in `WIKI_TITLES`, `WIKI_VERIFIED`,
+   `OCEAN_OVERRIDES`, `pageviews.json` and `themes.js`, so one rule with no
+   order dependence won). An incumbent whose Wikipedia title is bare
+   (Boston, Birmingham, Manchester, York) takes the state for a US city,
+   England / Scotland / Wales for a British one, the country otherwise; a
+   famous physical incumbent with a bare title (Colorado River, Thames,
+   Volga, Green) may stay the one unqualified holder — the validator allows
+   one — and reads bare. **The 23 existing parenthetical names** (`Derwent
    (Derbyshire)`, `Stour (Kent)`, `Krka (Croatia)`, `Grand (Ontario)`, `Black
    Desert (Egypt)`, `Green Island (Taiwan)`…) migrate in the same step: the
    parenthetical becomes the qualifier where it is a place, an alias where it
@@ -313,9 +325,20 @@ different sizes, countries and regions.
    bare typing keeps today's nudge ("Athens is a capital") and the in-cohort
    namesake needs its qualifier. Without it, "Athens" on a plain city round
    would quietly score a 127,000-person Georgia town for a player who meant
-   Greece. The guard is a named constant (`NAMESAKE_FAME_RATIO = 5` in
-   `run.js`) compared on `magnitude` (monthly views) between the cohort's
-   namesake and the most-viewed exact holder elsewhere. The Athens GA /
+   Greece. **As built:** the guard is `NAMESAKE_FAME_RATIO = 3` in `run.js`
+   (Athens the capital has 4.8× the views of Athens, Georgia), compared on
+   `magnitude` between the name's most-viewed holder in *this* cohort (not
+   the entry the typing settled on — a second "Boston" settles on Boston
+   (Lincolnshire), and the capital Boston is the very place the first one
+   scored) and the most-viewed exact holder in the capital, country or
+   island cohort (Greece (New York), Manhattan (Kansas) needed the last
+   two); it runs on every round except a region round the famous holder
+   does not carry, so "Boston" on "Name a city in Europe" is Boston
+   (Lincolnshire), accepted — the point of the design — while "Athens" on
+   "starts with A" is still the capital's nudge (the 2026-09-18 audit). The
+   qualified forms are exact only, never fuzzy candidates, and a qualified
+   typing on another cohort's round names that one place ("Athens, Georgia"
+   on a capital round is the Georgia city's nudge). The Athens GA /
    Dublin CA class is admitted *with* its qualifier under this rule (the bare
    typing keeps its nudge to the capital); the "famous place not in the bank
    at all" case (Botany Bay, Kent vs Sydney's) stays out under standing
@@ -345,13 +368,24 @@ category and modifier, not per entry), though eligible counts move a little
 rewards a name the player may not have meant); auto-correct across namesakes
 by fuzzy distance (the Redding / Reading class shows how that reads).
 
-**Sequence (decided 2026-09-18):** the Europe wave is released; this is the
-**next job, before the Mexico/Canada sweep** — every sweep feeds it, it
-changes the fold tools, and the backlog is already on disk (the three waves'
-"taken" lists). Build it on `expansion-2`, fold the backlog, audit it, then
-sweep. Then the "famous group" question for islands (item 3 above) can
-ride the same qualifier column ("Farallon Islands" as a group entry is a
-different question, but the machinery is shared).
+**As built (2026-09-18, `963539e`..`98d0a95`; the report
+`scripts/expansion/reports/2026-09-18-decision-5-namesakes.md` has the
+per-cohort tables):** everything above, with three differences — the ids
+(above), the fame guard (above), and **a loose form two different names
+share now resolves to the list, most-viewed first** ("Geneva" is Lake Geneva
+before Geneva Lake, "Wilson" Mount Wilson before Wilson Peak) where it
+identified nobody before and the fold refused the second name: half the
+mountains' taken list was that class. Two aliases with no name behind either
+still fail validation. Also: a bare shared name listed in a theme names the
+one holder without a qualifier; a name held only through a loose form goes
+in bare unless a namesake exists (St. George, Palm Desert, Geneva Lake).
+Tools: `qualify.mjs` (`id|qualifier[|new bare name]`, `# notes`),
+`chunk.mjs --taken-only` (the taken rows as `Name (Qualifier)` rows + the
+incumbents' qualify file + a review log), `fold.mjs` (parses the qualifier,
+admits namesakes under the validator's rule, `--label`), `drop.mjs`. The
+"famous group" question for islands (item 3 above) can ride the same
+qualifier column ("Farallon Islands" as a group entry is a different
+question, but the machinery is shared).
 
 ## Decisions — taken 2026-09-16 evening ("go with your recommendations")
 
@@ -1108,6 +1142,9 @@ npm test && npm run gap-check        # then commit
 | matching filler words | mount, mt, mountain, peak, hill, lake, loch, lough, llyn, river, rio, sea, ocean, gulf, bay, island(s), isle(s), desert, the, of, city, saint, st, cape, atoll, **reservoir**, and the foreign generic words lago, lac, lagoa, laguna, etang, fiume, fleuve, fluss, riviere, rivier (Europe wave); letter rules exempt loch/lough/llyn/saint/st/cape/rio **and every foreign word** ("Laguna Colorada" starts with L — the pre-merge audit) | `FILLER`, `matching.js`; `LETTER_FILLER`, `promptBank.js` |
 | letter-rule filler | the matching set minus loch/lough/llyn/saint/st/cape/rio (those are letters where they are the name), **plus, for rivers only, creek/fork/branch/run/brook/kill/wash/slough/draw** (bayou and arroyo lead the name like rio); whole-name categories (country, capital, city, sea) strip only "the" | `LETTER_FILLER`, `LETTER_ONLY_FILLER`, `letterFillerFor`, `promptBank.js` |
 | letter-rule miss text | names the word that didn't count: "Bear Creek has no double letter (Creek doesn't count)" | `letterMissText(name, rule, category)`, `promptBank.js`; wired in `ui.js` |
+| namesake fame guard | 3× the monthly views: a qualified city reached by its bare name yields to a capital, country or island of that exact name with 3× the views of the name's best holder in the city cohort, on every round but a region round the famous one does not carry ("Athens" → the capital's nudge, on "starts with A" too; "Boston" in Europe → Boston (Lincolnshire); a second "Boston" → Lincolnshire, since the first scored the very place the capital is) | `NAMESAKE_FAME_RATIO`, `CONFUSABLE`, `famousElsewhere()`, `run.js` |
+| loose-form alias fame | 3×: an alias-holder that famous joins and leads a loose form's list of names ("Cook" → Aoraki before Mount Cook (Canada)) | `LOOSE_ALIAS_FAME_RATIO`, `resolveLoose()`, `matching.js` |
+| namesake pick | the round's subset lookup holds only the namesakes in scope; several in scope → the most-viewed not yet used; the exact forms "Name Qualifier" / "Name, Qualifier" / "Name (Qualifier)" / "Name XX" (US state code) | `buildLookup` (lists, `bareOf`), `qualifiedKeys`, `US_STATE_CODES`, `matching.js` |
 | dig below the jackpot bar | `rarity × 70` | `DIG_SCALE`, `rarity.js` |
 | jackpot bar | rarity ≥ 0.85 | `JACKPOT_RARITY`, `rarity.js` |
 | jackpot dig / perfect dig | 75 / 100 ("perfect" = rarity ≥ 0.995, shows as 100%) | `DIG_JACKPOT`, `DIG_PERFECT`, `PERFECT_RARITY`, `rarity.js` |
@@ -1257,8 +1294,20 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
 - **"Strait" is not a filler word** — straits carry their bare name as an
   alias instead (Gibraltar, Hormuz, Dover, Magellan…).
 - **A shared loose form goes to the entry that owns it by name** ("Arabian" →
-  Arabian Sea). Two names, or two aliases with no name, identify neither, and
-  `validate` fails on the alias-vs-alias kind so one can't ship.
+  Arabian Sea); several names that share it identify the list of them,
+  most-viewed first, and the round's scope picks (decision 5, 2026-09-18:
+  "Geneva" → Lake Geneva before Geneva Lake; before that two names
+  identified neither). Two aliases with no name behind either still fail
+  `validate`. **Namesakes** (one bare name, several entries, each with a
+  `qualifier`): the lookup maps the key to the list; the exact qualified
+  forms are "Name Qualifier" / "Name, Qualifier" / "Name (Qualifier)" and the
+  US state code — exact forms only, never fuzzy candidates; a hit through
+  one reports the bare name as `matched`; `NAMESAKE_FAME_RATIO = 3` in
+  `run.js` (a city vs capital / country / island, against the name's best
+  holder in the city cohort, every round but a region round the famous one
+  does not carry); a qualified typing on another cohort's round is that
+  place's nudge, never the bare twin scored; the stored answer is the
+  display name "Syracuse (Sicily)" (`matching.displayName`).
 - **Filler words are not letters; whole official names are.** Countries,
   capitals, cities and seas keep their whole official name
   (`WHOLE_NAME_CATEGORIES`). Length rules judge the spelling typed or its
@@ -1270,10 +1319,11 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
   "Lake Tahoe" ends in E); bayou and arroyo lead the name like rio. A miss
   says which word didn't count — the user asked for that hint.
 - **Entries are named as the world names them.** No bank-invented
-  disambiguators; real names that carry a generic word stay. The 23
-  parenthetical names still in the bank (`Krka (Croatia)`, `Tana River
-  (Kenya)`…) are a legacy of the 2026-09-14 fill — decision 5 turns the
-  parenthetical into the `qualifier` column and bares the name.
+  disambiguators; real names that carry a generic word stay. A parenthetical
+  in the name column is the `qualifier` (decision 5): `Krka (Croatia)` is
+  the bare name Krka plus the qualifier Croatia, id `river-krka-croatia`,
+  shown as "Krka (Croatia)" and typed as "Krka" on any round that holds one
+  Krka.
 - **One real place, one row.** The same river under two names, a lake and
   "its" reservoir, a peak and its twin on one article — merge into aliases of
   the surviving entry. Two rows sharing a `wikiTitle` in one cohort is a bug
@@ -1317,9 +1367,8 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
 
 ## Open threads and judgment calls (none urgent)
 
-- **130 US cities whose name is held by another place** (Portland ME,
-  Birmingham AL, Cambridge MA, Toledo OH…) — decision 5, designed, the next
-  job. **55 Colombian rivers** have no length figure anywhere (they can come
+- ~~130 US cities whose name is held by another place~~ — in, decision 5
+  (2026-09-18). **55 Colombian rivers** have no length figure anywhere (they can come
   in with `size` 0 now, like the US bays did). **Sweden's 164 lakes under 30
   km²** were re-probed at 25 km² in the Europe wave.
 - **"Isle of White"** lands on New Zealand's White Island through the loose

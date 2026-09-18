@@ -1611,7 +1611,8 @@
   "category": "island",
   "name": "Saint Helena",
   "aliases": [
-   "St Helena"
+   "St Helena",
+   "Saint Helena Island"
   ],
   "size": 122,
   "sizeUnit": "area_km2",
@@ -16753,14 +16754,14 @@
   ]
  },
  {
-  "id": "island-treasure-island-san-francisco",
+  "id": "island-treasure-island-california",
   "category": "island",
   "name": "Treasure Island",
   "aliases": [],
   "size": 1.24,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Treasure Island, San Francisco\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "qualifier": "San Francisco",
+  "qualifier": "California",
   "magnitude": 6210,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Treasure Island, San Francisco",
@@ -30215,14 +30216,14 @@
   ]
  },
  {
-  "id": "island-monkey-island-bray",
+  "id": "island-monkey-island-county-wicklow",
   "category": "island",
   "name": "Monkey Island",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Monkey Island, Bray\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "qualifier": "Bray",
+  "qualifier": "County Wicklow",
   "magnitude": 457,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Monkey Island, Bray",
@@ -41863,14 +41864,14 @@
   ]
  },
  {
-  "id": "island-barren-island-brooklyn",
+  "id": "island-barren-island-new-york",
   "category": "island",
   "name": "Barren Island",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Barren Island, Brooklyn\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "qualifier": "Brooklyn",
+  "qualifier": "New York",
   "magnitude": 639,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Barren Island, Brooklyn",
@@ -41899,14 +41900,14 @@
   ]
  },
  {
-  "id": "island-harbor-island-seattle",
+  "id": "island-harbor-island-washington",
   "category": "island",
   "name": "Harbor Island",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Harbor Island, Seattle\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "qualifier": "Seattle",
+  "qualifier": "Washington",
   "magnitude": 609,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Harbor Island, Seattle",
@@ -42020,14 +42021,14 @@
   ]
  },
  {
-  "id": "island-high-island-bronx",
+  "id": "island-high-island-new-york",
   "category": "island",
   "name": "High Island",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"High Island (Bronx)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "qualifier": "Bronx",
+  "qualifier": "New York",
   "magnitude": 426,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "High Island (Bronx)",
@@ -42088,14 +42089,14 @@
   "oceans": []
  },
  {
-  "id": "island-white-island-brooklyn",
+  "id": "island-white-island-new-york",
   "category": "island",
   "name": "White Island",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"White Island (Brooklyn)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "qualifier": "Brooklyn",
+  "qualifier": "New York",
   "magnitude": 335,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "White Island (Brooklyn)",
@@ -42562,9 +42563,7 @@
   "wikiTitle": "Marsh Island (Maine)",
   "lat": 44.91666667,
   "lon": -68.65,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-marshall-island-maine",

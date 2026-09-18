@@ -272,7 +272,7 @@ export const OCEAN_OVERRIDES = {
   // --- uk-islands 2026-09-17: lake, loch, lough and Thames islands are in no ocean; nine without coordinates placed by hand ---
   'island-eel-pie-island': [],
   'island-tagg-s-island': [],
-  'island-monkey-island-bray': [],
+  'island-monkey-island-county-wicklow': [],
   'island-magna-carta-island': [],
   'island-peel-island': [],
   'island-ram-s-island': [],
@@ -512,6 +512,7 @@ export const OCEAN_OVERRIDES = {
   'island-sanak-island': ['Pacific'],
   'island-hog-island-rhode-island': ['Atlantic'],
   'island-goose-island-new-york': ['Atlantic'],
+  'island-marsh-island-maine': [], // Orono's island between the Penobscot and the Stillwater (the 2026-09-18 data audit)
 
   // coastal bays whose coordinates fall outside every ocean box
   'sea_ocean-magens-bay': ['Atlantic'],

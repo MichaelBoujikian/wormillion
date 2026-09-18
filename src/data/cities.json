@@ -22839,7 +22839,7 @@
    "green"
   ],
   "source": "English Wikipedia pageviews for \"Mérida, Yucatán\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
-  "qualifier": "Yucatán",
+  "qualifier": "Yucatan",
   "magnitude": 13485,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Mérida, Yucatán",
@@ -91481,7 +91481,7 @@
   "lon": -2.80138889
  },
  {
-  "id": "city-margate-east-kent",
+  "id": "city-margate-kent",
   "category": "city",
   "name": "Margate",
   "aliases": [],
@@ -91498,7 +91498,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Margate\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
-  "qualifier": "East Kent",
+  "qualifier": "Kent",
   "magnitude": 9893,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Margate",
