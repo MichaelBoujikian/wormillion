@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T21:56:21.074Z",
+ "fetched": "2026-09-18T22:08:39.486Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -5226,7 +5226,7 @@
    "lat": -17.8,
    "lon": -63.18333333
   },
-  "city-la-paz": {
+  "city-la-paz-bolivia": {
    "title": "La Paz",
    "monthlyViews": 25539,
    "days": 60,
@@ -7116,7 +7116,7 @@
    "lat": 51.87833333,
    "lon": -0.41472222
   },
-  "city-peterborough": {
+  "city-peterborough-england": {
    "title": "Peterborough",
    "monthlyViews": 15524,
    "days": 60,
@@ -9118,7 +9118,7 @@
    "lat": 39.85666667,
    "lon": -4.02444444
   },
-  "city-salamanca": {
+  "city-salamanca-spain": {
    "title": "Salamanca",
    "monthlyViews": 14581,
    "days": 60,
@@ -30516,6 +30516,1014 @@
    "days": 60,
    "lat": 43.20944444,
    "lon": -77.69527778
+  },
+  "city-london-ontario": {
+   "title": "London, Ontario",
+   "monthlyViews": 26483,
+   "days": 60,
+   "lat": 42.985,
+   "lon": -81.24527778
+  },
+  "city-kingston-ontario": {
+   "title": "Kingston, Ontario",
+   "monthlyViews": 18842,
+   "days": 60,
+   "lat": 44.23055556,
+   "lon": -76.48111111
+  },
+  "city-saint-john-new-brunswick": {
+   "title": "Saint John, New Brunswick",
+   "monthlyViews": 14185,
+   "days": 60,
+   "lat": 45.28055556,
+   "lon": -66.07611111
+  },
+  "city-sault-ste-marie": {
+   "title": "Sault Ste. Marie, Ontario",
+   "monthlyViews": 13211,
+   "days": 60,
+   "lat": 46.55888889,
+   "lon": -84.34694444
+  },
+  "city-markham": {
+   "title": "Markham, Ontario",
+   "monthlyViews": 10137,
+   "days": 60,
+   "lat": 43.87666667,
+   "lon": -79.26333333
+  },
+  "city-saguenay": {
+   "title": "Saguenay, Quebec",
+   "monthlyViews": 9863,
+   "days": 60,
+   "lat": 48.41666667,
+   "lon": -71.06666667
+  },
+  "city-guelph": {
+   "title": "Guelph",
+   "monthlyViews": 9376,
+   "days": 60,
+   "lat": 43.53583333,
+   "lon": -80.22888889
+  },
+  "city-burnaby": {
+   "title": "Burnaby",
+   "monthlyViews": 9254,
+   "days": 60,
+   "lat": 49.26666667,
+   "lon": -122.96666667
+  },
+  "city-oakville": {
+   "title": "Oakville, Ontario",
+   "monthlyViews": 8858,
+   "days": 60,
+   "lat": 43.45638889,
+   "lon": -79.71388889
+  },
+  "city-barrie": {
+   "title": "Barrie",
+   "monthlyViews": 8797,
+   "days": 60,
+   "lat": 44.37111111,
+   "lon": -79.67694444
+  },
+  "city-st-catharines": {
+   "title": "St. Catharines",
+   "monthlyViews": 8645,
+   "days": 60,
+   "lat": 43.15833333,
+   "lon": -79.24583333
+  },
+  "city-abbotsford": {
+   "title": "Abbotsford, British Columbia",
+   "monthlyViews": 8371,
+   "days": 60,
+   "lat": 49.0517,
+   "lon": -122.3289
+  },
+  "city-sherbrooke": {
+   "title": "Sherbrooke",
+   "monthlyViews": 7793,
+   "days": 60,
+   "lat": 45.4,
+   "lon": -71.9
+  },
+  "city-oshawa": {
+   "title": "Oshawa",
+   "monthlyViews": 7671,
+   "days": 60,
+   "lat": 43.90055556,
+   "lon": -78.85722222
+  },
+  "city-north-bay": {
+   "title": "North Bay, Ontario",
+   "monthlyViews": 7610,
+   "days": 60,
+   "lat": 46.30916667,
+   "lon": -79.46138889
+  },
+  "city-trois-rivieres": {
+   "title": "Trois-Rivières",
+   "monthlyViews": 7427,
+   "days": 60,
+   "lat": 46.34305556,
+   "lon": -72.54333333
+  },
+  "city-belleville": {
+   "title": "Belleville, Ontario",
+   "monthlyViews": 7336,
+   "days": 60,
+   "lat": 44.16666667,
+   "lon": -77.38333333
+  },
+  "city-sarnia": {
+   "title": "Sarnia",
+   "monthlyViews": 6819,
+   "days": 60,
+   "lat": 42.98138889,
+   "lon": -82.31777778
+  },
+  "city-vaughan": {
+   "title": "Vaughan",
+   "monthlyViews": 6788,
+   "days": 60,
+   "lat": 43.85277778,
+   "lon": -79.53527778
+  },
+  "city-grande-prairie": {
+   "title": "Grande Prairie",
+   "monthlyViews": 6666,
+   "days": 60,
+   "lat": 55.17083333,
+   "lon": -118.79611111
+  },
+  "city-newmarket": {
+   "title": "Newmarket, Ontario",
+   "monthlyViews": 6423,
+   "days": 60,
+   "lat": 44.05805556,
+   "lon": -79.45833333
+  },
+  "city-richmond-hill": {
+   "title": "Richmond Hill, Ontario",
+   "monthlyViews": 5936,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-chilliwack": {
+   "title": "Chilliwack",
+   "monthlyViews": 5540,
+   "days": 60,
+   "lat": 49.1711,
+   "lon": -121.9525
+  },
+  "city-new-westminster": {
+   "title": "New Westminster",
+   "monthlyViews": 5540,
+   "days": 60,
+   "lat": 49.20694444,
+   "lon": -122.91111111
+  },
+  "city-coquitlam": {
+   "title": "Coquitlam",
+   "monthlyViews": 5236,
+   "days": 60,
+   "lat": 49.28388889,
+   "lon": -122.79194444
+  },
+  "city-ajax": {
+   "title": "Ajax, Ontario",
+   "monthlyViews": 4870,
+   "days": 60,
+   "lat": 43.85833333,
+   "lon": -79.03638889
+  },
+  "city-milton": {
+   "title": "Milton, Ontario",
+   "monthlyViews": 4688,
+   "days": 60,
+   "lat": 43.50833333,
+   "lon": -79.88333333
+  },
+  "city-chatham-kent": {
+   "title": "Chatham-Kent",
+   "monthlyViews": 4596,
+   "days": 60,
+   "lat": 42.4,
+   "lon": -82.18333333
+  },
+  "city-saanich": {
+   "title": "Saanich, British Columbia",
+   "monthlyViews": 4170,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-whitby": {
+   "title": "Whitby, Ontario",
+   "monthlyViews": 4049,
+   "days": 60,
+   "lat": 43.9325,
+   "lon": -78.95444444
+  },
+  "city-kawartha-lakes": {
+   "title": "Kawartha Lakes",
+   "monthlyViews": 4018,
+   "days": 60,
+   "lat": 44.35,
+   "lon": -78.75
+  },
+  "city-pickering": {
+   "title": "Pickering, Ontario",
+   "monthlyViews": 3988,
+   "days": 60,
+   "lat": 43.8354,
+   "lon": -79.089
+  },
+  "city-maple-ridge": {
+   "title": "Maple Ridge, British Columbia",
+   "monthlyViews": 3957,
+   "days": 60,
+   "lat": 49.21666667,
+   "lon": -122.6
+  },
+  "city-delta": {
+   "title": "Delta, British Columbia",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 49.08472222,
+   "lon": -123.05861111
+  },
+  "city-north-vancouver": {
+   "title": "North Vancouver (city)",
+   "monthlyViews": 3775,
+   "days": 60,
+   "lat": 49.31666667,
+   "lon": -123.06666667
+  },
+  "city-longueuil": {
+   "title": "Longueuil",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 45.53333333,
+   "lon": -73.51666667
+  },
+  "city-saint-jean-sur-richelieu": {
+   "title": "Saint-Jean-sur-Richelieu",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 45.31666667,
+   "lon": -73.26666667
+  },
+  "city-caledon": {
+   "title": "Caledon, Ontario",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 43.86611111,
+   "lon": -79.85888889
+  },
+  "city-rimouski": {
+   "title": "Rimouski",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 48.45,
+   "lon": -68.53
+  },
+  "city-airdrie": {
+   "title": "Airdrie, Alberta",
+   "monthlyViews": 3166,
+   "days": 60,
+   "lat": 51.29166667,
+   "lon": -114.01444444
+  },
+  "city-st-albert": {
+   "title": "St. Albert, Alberta",
+   "monthlyViews": 3014,
+   "days": 60,
+   "lat": 53.63694444,
+   "lon": -113.62027778
+  },
+  "city-port-coquitlam": {
+   "title": "Port Coquitlam",
+   "monthlyViews": 2922,
+   "days": 60,
+   "lat": 49.2625,
+   "lon": -122.78111111
+  },
+  "city-drummondville": {
+   "title": "Drummondville",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 45.88333333,
+   "lon": -72.48333333
+  },
+  "city-shawinigan": {
+   "title": "Shawinigan",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": 46.56666667,
+   "lon": -72.75
+  },
+  "city-mirabel": {
+   "title": "Mirabel, Quebec",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 45.66361111,
+   "lon": -74.00194444
+  },
+  "city-chicoutimi": {
+   "title": "Chicoutimi",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 48.42777778,
+   "lon": -71.05916667
+  },
+  "city-terrebonne": {
+   "title": "Terrebonne, Quebec",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 45.7,
+   "lon": -73.63333333
+  },
+  "city-levis": {
+   "title": "Lévis",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 46.75805556,
+   "lon": -71.24027778
+  },
+  "city-brossard": {
+   "title": "Brossard",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 45.46666667,
+   "lon": -73.45
+  },
+  "city-langley": {
+   "title": "Langley, British Columbia (district municipality)",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 49.104444,
+   "lon": -122.582703
+  },
+  "city-granby": {
+   "title": "Granby, Quebec",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 45.4,
+   "lon": -72.73333333
+  },
+  "city-saint-hyacinthe": {
+   "title": "Saint-Hyacinthe",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 45.63082861,
+   "lon": -72.95403389
+  },
+  "city-halton-hills": {
+   "title": "Halton Hills",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 43.62694444,
+   "lon": -79.95138889
+  },
+  "city-saint-jerome": {
+   "title": "Saint-Jérôme",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 45.78333333,
+   "lon": -74
+  },
+  "city-chateauguay": {
+   "title": "Châteauguay",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 45.38,
+   "lon": -73.75
+  },
+  "city-dollard-des-ormeaux": {
+   "title": "Dollard-des-Ormeaux",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 45.48333333,
+   "lon": -73.81666667
+  },
+  "city-blainville": {
+   "title": "Blainville, Quebec",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 45.67,
+   "lon": -73.88
+  },
+  "city-repentigny": {
+   "title": "Repentigny",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 45.73333333,
+   "lon": -73.46666667
+  },
+  "city-mascouche": {
+   "title": "Mascouche",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 45.75,
+   "lon": -73.6
+  },
+  "city-matamoros": {
+   "title": "Matamoros, Tamaulipas",
+   "monthlyViews": 7153,
+   "days": 60,
+   "lat": 25.87972222,
+   "lon": -97.50416667
+  },
+  "city-tampico": {
+   "title": "Tampico",
+   "monthlyViews": 4749,
+   "days": 60,
+   "lat": 22.25527778,
+   "lon": -97.86861111
+  },
+  "city-piedras-negras": {
+   "title": "Piedras Negras, Coahuila",
+   "monthlyViews": 4201,
+   "days": 60,
+   "lat": 28.7,
+   "lon": -100.52305556
+  },
+  "city-nuevo-laredo": {
+   "title": "Nuevo Laredo",
+   "monthlyViews": 4018,
+   "days": 60,
+   "lat": 27.48611111,
+   "lon": -99.50694444
+  },
+  "city-nogales": {
+   "title": "Nogales, Sonora",
+   "monthlyViews": 3775,
+   "days": 60,
+   "lat": 31.31861111,
+   "lon": -110.94583333
+  },
+  "city-coatzacoalcos": {
+   "title": "Coatzacoalcos",
+   "monthlyViews": 3683,
+   "days": 60,
+   "lat": 18.14138889,
+   "lon": -94.43444444
+  },
+  "city-reynosa": {
+   "title": "Reynosa",
+   "monthlyViews": 3014,
+   "days": 60,
+   "lat": 26.09222222,
+   "lon": -98.27777778
+  },
+  "city-tecate": {
+   "title": "Tecate",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 32.57222222,
+   "lon": -116.64027778
+  },
+  "city-guaymas": {
+   "title": "Guaymas",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 27.91833333,
+   "lon": -110.89888889
+  },
+  "city-san-nicolas-de-los-garza": {
+   "title": "San Nicolás de los Garza",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 25.75,
+   "lon": -100.28333333
+  },
+  "city-ciudad-acuna": {
+   "title": "Ciudad Acuña",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 29.32416667,
+   "lon": -100.93166667
+  },
+  "city-ciudad-victoria": {
+   "title": "Ciudad Victoria",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 23.73888889,
+   "lon": -99.14305556
+  },
+  "city-guadalupe-nuevo-leon": {
+   "title": "Guadalupe, Nuevo León",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 25.6775,
+   "lon": -100.25972222
+  },
+  "city-san-luis-rio-colorado": {
+   "title": "San Luis Río Colorado",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 32.47666667,
+   "lon": -114.7625
+  },
+  "city-tlaquepaque": {
+   "title": "Tlaquepaque",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 20.61666667,
+   "lon": -103.31666667
+  },
+  "city-parral": {
+   "title": "Parral, Chihuahua",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-monclova": {
+   "title": "Monclova",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 26.91027778,
+   "lon": -101.42222222
+  },
+  "city-orizaba": {
+   "title": "Orizaba",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 18.85,
+   "lon": -97.1
+  },
+  "city-tlalnepantla-de-baz": {
+   "title": "Tlalnepantla de Baz",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 19.53666667,
+   "lon": -99.19472222
+  },
+  "city-chilpancingo": {
+   "title": "Chilpancingo",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 17.55,
+   "lon": -99.5
+  },
+  "city-gomez-palacio": {
+   "title": "Gómez Palacio, Durango",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 25.56111111,
+   "lon": -103.49833333
+  },
+  "city-ciudad-del-carmen": {
+   "title": "Ciudad del Carmen",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 18.63333333,
+   "lon": -91.83333333
+  },
+  "city-fresnillo": {
+   "title": "Fresnillo",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 23.175,
+   "lon": -102.8675
+  },
+  "city-apodaca": {
+   "title": "Apodaca",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 25.78166667,
+   "lon": -100.18861111
+  },
+  "city-tehuacan": {
+   "title": "Tehuacán",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 18.46166667,
+   "lon": -97.39277778
+  },
+  "city-tulancingo": {
+   "title": "Tulancingo",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 20.08333333,
+   "lon": -98.36666667
+  },
+  "city-la-piedad": {
+   "title": "La Piedad",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 20.33333333,
+   "lon": -102.01666667
+  },
+  "city-cuautitlan-izcalli": {
+   "title": "Cuautitlán Izcalli",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 19.65,
+   "lon": -99.25
+  },
+  "city-poza-rica": {
+   "title": "Poza Rica",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 20.53333333,
+   "lon": -97.45
+  },
+  "city-silao": {
+   "title": "Silao",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 20.94777778,
+   "lon": -101.42805556
+  },
+  "city-tonala": {
+   "title": "Tonalá, Jalisco",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-chimalhuacan": {
+   "title": "Chimalhuacán",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 19.41305556,
+   "lon": -98.98388889
+  },
+  "city-guadalupe-zacatecas": {
+   "title": "Guadalupe, Zacatecas",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 22.75277778,
+   "lon": -102.50777778
+  },
+  "city-guasave": {
+   "title": "Guasave",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 25.57444444,
+   "lon": -108.47055556
+  },
+  "city-metepec": {
+   "title": "Metepec",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 19.25111111,
+   "lon": -99.60472222
+  },
+  "city-delicias": {
+   "title": "Delicias, Chihuahua",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 28.19305556,
+   "lon": -105.47166667
+  },
+  "city-ramos-arizpe": {
+   "title": "Ramos Arizpe",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 25.55,
+   "lon": -100.96666667
+  },
+  "city-san-juan-del-rio": {
+   "title": "San Juan del Río",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 20.38333333,
+   "lon": -99.98333333
+  },
+  "city-ocotlan": {
+   "title": "Ocotlán, Jalisco",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 20.34666667,
+   "lon": -102.77444444
+  },
+  "city-salina-cruz": {
+   "title": "Salina Cruz",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 16.16666667,
+   "lon": -95.2
+  },
+  "city-ixtapaluca": {
+   "title": "Ixtapaluca",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 19.31861111,
+   "lon": -98.88222222
+  },
+  "city-ciudad-madero": {
+   "title": "Ciudad Madero",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 22.2475,
+   "lon": -97.8375
+  },
+  "city-minatitlan": {
+   "title": "Minatitlán, Veracruz",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 17.98333333,
+   "lon": -94.55
+  },
+  "city-papantla": {
+   "title": "Papantla",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 20.44777778,
+   "lon": -97.32
+  },
+  "city-rioverde": {
+   "title": "Rioverde, San Luis Potosí",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 21.928,
+   "lon": -99.997
+  },
+  "city-chiapa-de-corzo": {
+   "title": "Chiapa de Corzo, Chiapas",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 16.70694444,
+   "lon": -93.01388889
+  },
+  "city-san-francisco-del-rincon": {
+   "title": "San Francisco del Rincón",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-xalisco": {
+   "title": "Xalisco",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 21.44805557,
+   "lon": -104.90000001
+  },
+  "city-chalco-de-diaz-covarrubias": {
+   "title": "Chalco de Díaz Covarrubias",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 19.26472222,
+   "lon": -98.8975
+  },
+  "city-general-escobedo": {
+   "title": "General Escobedo",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 25.79333333,
+   "lon": -100.15833333
+  },
+  "city-ciudad-lopez-mateos": {
+   "title": "Ciudad López Mateos",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 19.55,
+   "lon": -99.28333333
+  },
+  "city-jiutepec": {
+   "title": "Jiutepec",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 18.88333333,
+   "lon": -99.16666667
+  },
+  "city-ocosingo": {
+   "title": "Ocosingo",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 16.90666667,
+   "lon": -92.09388889
+  },
+  "city-santa-cruz-xoxocotlan": {
+   "title": "Santa Cruz Xoxocotlán",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 17.02638889,
+   "lon": -96.73333333
+  },
+  "city-tecoman": {
+   "title": "Tecomán",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 18.90888889,
+   "lon": -103.87472222
+  },
+  "city-teziutlan": {
+   "title": "Teziutlán",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 19.81777778,
+   "lon": -97.36666667
+  },
+  "city-kanasin": {
+   "title": "Kanasín",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 20.93444444,
+   "lon": -89.55777778
+  },
+  "city-purisima-del-rincon": {
+   "title": "Purísima del Rincón",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 21.03333333,
+   "lon": -101.86666667
+  },
+  "city-san-pedro-cholula": {
+   "title": "San Pedro Cholula",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 19.06333333,
+   "lon": -98.30638889
+  },
+  "city-soledad-de-graciano-sanchez": {
+   "title": "Soledad de Graciano Sánchez",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 22.18333333,
+   "lon": -100.93333333
+  },
+  "city-zumpango": {
+   "title": "Zumpango",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 19.79694444,
+   "lon": -99.09916667
+  },
+  "city-cardenas": {
+   "title": "Cárdenas, Tabasco",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 17.983,
+   "lon": -93.367
+  },
+  "city-chicoloapan-de-juarez": {
+   "title": "Chicoloapan de Juárez",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 19.41666667,
+   "lon": -98.9
+  },
+  "city-ciudad-nicolas-romero": {
+   "title": "Ciudad Nicolás Romero",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 19.58333333,
+   "lon": -99.36666667
+  },
+  "city-lerdo": {
+   "title": "Lerdo, Durango",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 25.55,
+   "lon": -103.51666667
+  },
+  "city-uriangato": {
+   "title": "Uriangato",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 20.13333333,
+   "lon": -101.16666667
+  },
+  "city-xico": {
+   "title": "Xico, Valle de Chalco",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 19.29166667,
+   "lon": -98.93888889
+  },
+  "city-yautepec": {
+   "title": "Yautepec, Morelos",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 18.89833333,
+   "lon": -99.05633333
+  },
+  "city-jacona": {
+   "title": "Jacona, Michoacán",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 19.95555556,
+   "lon": -102.30277778
+  },
+  "city-temixco": {
+   "title": "Temixco",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 18.85,
+   "lon": -99.23333333
+  },
+  "city-jesus-maria": {
+   "title": "Jesús María, Aguascalientes",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 21.96666667,
+   "lon": -102.35
+  },
+  "city-ojo-de-agua": {
+   "title": "Ojo de Agua, Tecámac",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 19.68027778,
+   "lon": -99.01
+  },
+  "city-villa-de-alvarez": {
+   "title": "Villa de Álvarez",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 19.25,
+   "lon": -103.73333333
+  },
+  "city-chiautempan": {
+   "title": "Chiautempan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 19.31388889,
+   "lon": -98.19305556
+  },
+  "city-cortazar": {
+   "title": "Cortazar, Guanajuato",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-waterloo-ontario": {
+   "title": "Waterloo, Ontario",
+   "monthlyViews": 9771,
+   "days": 60,
+   "lat": 43.46666667,
+   "lon": -80.51666667
+  },
+  "city-richmond-british-columbia": {
+   "title": "Richmond, British Columbia",
+   "monthlyViews": 7854,
+   "days": 60,
+   "lat": 49.16666667,
+   "lon": -123.13333333
+  },
+  "city-burlington-ontario": {
+   "title": "Burlington, Ontario",
+   "monthlyViews": 7793,
+   "days": 60,
+   "lat": 43.37,
+   "lon": -79.81416667
+  },
+  "city-peterborough-ontario": {
+   "title": "Peterborough, Ontario",
+   "monthlyViews": 7793,
+   "days": 60,
+   "lat": 44.30111111,
+   "lon": -78.33333333
+  },
+  "city-cambridge-ontario": {
+   "title": "Cambridge, Ontario",
+   "monthlyViews": 5784,
+   "days": 60,
+   "lat": 43.36,
+   "lon": -80.3125
+  },
+  "city-aurora-ontario": {
+   "title": "Aurora, Ontario",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 43.9975,
+   "lon": -79.47
+  },
+  "city-la-paz-baja-california-sur": {
+   "title": "La Paz, Baja California Sur",
+   "monthlyViews": 7458,
+   "days": 60,
+   "lat": 24.14222222,
+   "lon": -110.31083333
+  },
+  "city-cordoba-veracruz": {
+   "title": "Córdoba, Veracruz",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 18.89416667,
+   "lon": -96.93472222
+  },
+  "city-salamanca-guanajuato": {
+   "title": "Salamanca, Guanajuato",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 20.57027778,
+   "lon": -101.19722222
+  },
+  "city-la-paz-state-of-mexico": {
+   "title": "La Paz, State of Mexico",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 19.36055556,
+   "lon": -98.98
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",

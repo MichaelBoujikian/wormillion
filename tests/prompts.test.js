@@ -307,7 +307,9 @@ test('on a shipped length prompt the reveal is a spelling the prompt accepts', (
       const prompt = shipped.promptFor({ category, letter: { kind } });
       if (prompt.lookup.size === 0) continue;
       const rarest = runner.rarestFor(prompt);
-      assert.strictEqual(prompt.judgeTyped(matching.normalize(rarest.name)), null, `${category} ${kind}: ${rarest.name}`);
+      // the reveal shows a namesake as "La Paz (State of Mexico)"; a length rule
+      // measures the bare name a qualified typing lands on (decision 5)
+      assert.strictEqual(prompt.judgeTyped(matching.normalize(rarest.name.replace(/\s*\([^)]*\)$/, ''))), null, `${category} ${kind}: ${rarest.name}`);
     }
   }
 });

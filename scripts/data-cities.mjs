@@ -369,7 +369,7 @@ Maracaibo|Venezuela|1650000
 Valparaiso|Chile|300000
 Guayaquil|Ecuador|2700000
 Santa Cruz de la Sierra|Bolivia|1900000|Santa Cruz
-La Paz|Bolivia|800000
+La Paz (Bolivia)|Bolivia|800000
 Sydney|Australia|5300000
 Melbourne (Australia)|Australia|5100000
 Brisbane|Australia|2600000
@@ -639,7 +639,7 @@ Preston|United Kingdom|140000
 Milton Keynes|United Kingdom|230000
 Northampton|United Kingdom|230000
 Luton|United Kingdom|220000
-Peterborough|United Kingdom|215000
+Peterborough (England)|United Kingdom|215000
 Reading (Berkshire)|United Kingdom|175000
 Ipswich|United Kingdom|140000
 Bath|United Kingdom|95000
@@ -925,7 +925,7 @@ Bilbao|Spain|345000
 Zaragoza|Spain|680000
 Granada|Spain|230000
 Toledo (Spain)|Spain|85000
-Salamanca|Spain|144000
+Salamanca (Spain)|Spain|144000
 Alicante|Spain|338000
 Palma|Spain|420000|Palma de Mallorca
 Murcia|Spain|460000
@@ -3982,4 +3982,148 @@ Fano (Italy)|Italy|59909
 Manhattan (Kansas)|United States|54100
 New Britain (Connecticut)|United States|74135
 Greece (New York)|United States|96926
+London (Ontario)|Canada|422324
+Kingston (Ontario)|Canada|132485
+Saint John (New Brunswick)|Canada|67575
+Sault Ste. Marie|Canada|73368
+Markham|Canada|338503
+Saguenay|Canada|148886
+Guelph|Canada|143740
+Burnaby|Canada|249125
+Oakville|Canada|213759
+Barrie|Canada|147829
+St. Catharines|Canada|136803
+Abbotsford|Canada|153524
+Sherbrooke|Canada|181360
+Oshawa|Canada|175383
+North Bay|Canada|51553
+Trois-Rivieres|Canada|144472
+Belleville|Canada|50716
+Sarnia|Canada|72320
+Vaughan|Canada|323103
+Grande Prairie|Canada|64141
+Newmarket|Canada|84224
+Richmond Hill|Canada|202022
+Chilliwack|Canada|83788
+New Westminster|Canada|78916
+Coquitlam|Canada|148625
+Ajax|Canada|126666
+Milton|Canada|132979
+Chatham-Kent|Canada|103988
+Saanich|Canada|117735
+Whitby|Canada|138501
+Kawartha Lakes|Canada|75423
+Pickering|Canada|91771
+Maple Ridge|Canada|90990
+Delta|Canada|108455
+North Vancouver|Canada|52898
+Longueuil|Canada|261516
+Saint-Jean-sur-Richelieu|Canada|99494
+Caledon|Canada|66502
+Rimouski|Canada|50019
+Airdrie|Canada|74100
+St. Albert|Canada|68232
+Port Coquitlam|Canada|61498
+Drummondville|Canada|82790
+Shawinigan|Canada|51149
+Mirabel|Canada|64973
+Chicoutimi|Canada|70070
+Terrebonne|Canada|123182
+Levis|Canada|156225
+Brossard|Canada|95066
+Langley|Canada|132603
+Granby|Canada|70329
+Saint-Hyacinthe|Canada|59448
+Halton Hills|Canada|61161
+Saint-Jerome|Canada|82274
+Chateauguay|Canada|52320
+Dollard-des-Ormeaux|Canada|50171
+Blainville|Canada|61114
+Repentigny|Canada|87980
+Mascouche|Canada|54540
+Matamoros|Mexico|510739
+Tampico|Mexico|297373
+Piedras Negras|Mexico|173959
+Nuevo Laredo|Mexico|416055
+Nogales|Mexico|261137
+Coatzacoalcos|Mexico|212540
+Reynosa|Mexico|691557
+Tecate|Mexico|81059
+Guaymas|Mexico|117253
+San Nicolas de los Garza|Mexico|412199|San Nicolas
+Ciudad Acuna|Mexico|160225
+Ciudad Victoria|Mexico|332100
+Guadalupe (Nuevo Leon)|Mexico|635862
+San Luis Rio Colorado|Mexico|176685
+Tlaquepaque|Mexico|650123
+Parral|Mexico|113843|Hidalgo del Parral
+Monclova|Mexico|237169
+Orizaba|Mexico|120500
+Tlalnepantla de Baz|Mexico|700734|Tlalnepantla
+Chilpancingo|Mexico|225728
+Gomez Palacio|Mexico|301742
+Ciudad del Carmen|Mexico|191238
+Fresnillo|Mexico|143281
+Apodaca|Mexico|536436
+Tehuacan|Mexico|293825
+Tulancingo|Mexico|161069
+La Piedad|Mexico|106490
+Cuautitlan Izcalli|Mexico|515353
+Poza Rica|Mexico|180057
+Silao|Mexico|83352
+Tonala|Mexico|442440
+Chimalhuacan|Mexico|703215
+Guadalupe (Zacatecas)|Mexico|170029
+Guasave|Mexico|77849
+Metepec|Mexico|214162
+Delicias|Mexico|128548
+Ramos Arizpe|Mexico|114010
+San Juan del Rio|Mexico|177719
+Ocotlan|Mexico|94978
+Salina Cruz|Mexico|76660
+Ixtapaluca|Mexico|368585
+Ciudad Madero|Mexico|205933
+Minatitlan|Mexico|101336
+Papantla|Mexico|55452
+Rioverde|Mexico|58158
+Chiapa de Corzo|Mexico|112075
+San Francisco del Rincon|Mexico|79772
+Xalisco|Mexico|65229
+Chalco de Diaz Covarrubias|Mexico|174704|Chalco
+General Escobedo|Mexico|454967
+Ciudad Lopez Mateos|Mexico|523065|Atizapan de Zaragoza,Lopez Mateos
+Jiutepec|Mexico|174629
+Ocosingo|Mexico|234661
+Santa Cruz Xoxocotlan|Mexico|93188|Xoxocotlan
+Tecoman|Mexico|88337
+Teziutlan|Mexico|62849
+Kanasin|Mexico|139753
+Purisima del Rincon|Mexico|68795
+San Pedro Cholula|Mexico|129032
+Soledad de Graciano Sanchez|Mexico|310192|Soledad
+Zumpango|Mexico|159647
+Cardenas|Mexico|80454
+Chicoloapan de Juarez|Mexico|193532|Chicoloapan
+Ciudad Nicolas Romero|Mexico|323545
+Lerdo|Mexico|96243
+Uriangato|Mexico|52156
+Xico|Mexico|384327|Valle de Chalco
+Yautepec|Mexico|105780
+Jacona|Mexico|61510
+Temixco|Mexico|104461
+Jesus Maria|Mexico|63805
+Ojo de Agua|Mexico|386290
+Villa de Alvarez|Mexico|147496
+Chiautempan|Mexico|53373
+Cortazar|Mexico|88397
+Waterloo (Ontario)|Canada|121436
+Richmond (British Columbia)|Canada|209937
+Burlington (Ontario)|Canada|186948
+Peterborough (Ontario)|Canada|81032
+Cambridge (Ontario)|Canada|138479
+Aurora (Ontario)|Canada|55445
+La Paz (Baja California Sur)|Mexico|250141
+Cordoba (Veracruz)|Mexico|139075
+Salamanca (Guanajuato)|Mexico|160682
+La Paz (State of Mexico)|Mexico|304088
 `;

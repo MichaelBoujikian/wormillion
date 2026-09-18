@@ -647,7 +647,7 @@ npm test && npm run gap-check        # then commit
 | stats cache | 60 s at the edge; 60 s in the client | `daily-stats.mjs`, `COMPARE_FRESH_MS` |
 | CORS origins | Netlify itself, `https://michaelboujikian.github.io`, `http://localhost:8123` | `ALLOWED_ORIGINS`, `lib/netlify.mjs` |
 | probe floors | rivers 80 km US / 60 Europe / 50 Britain; lakes 25 km²; islands 1 km²; cities 50,000; mountains none; `famousViews` 1,000; `noFigureViews` 122 (islands) / 183→213 (seas) | `probes/*.json`, `chunk --min-views` |
-| views floors (after the fold) | rivers 30 · lakes 61 · islands 91 · mountains 122 · seas 213 · cities none | `chunk.mjs --min-views`, `drop.mjs` after the fact |
+| views floors (after the fold) | rivers 30 · lakes 61 · islands 91 · mountains 122 · seas 213 · cities 91 (the cohort's old bottom; four 30–61-view Mexican towns had moved its jackpot line from 312 to 122, 2026-09-18) | `chunk.mjs --min-views`, `drop.mjs` after the fact |
 
 ## Environment gotchas (this machine)
 

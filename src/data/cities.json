@@ -7546,7 +7546,7 @@
   "lon": -63.18333333
  },
  {
-  "id": "city-la-paz",
+  "id": "city-la-paz-bolivia",
   "category": "city",
   "name": "La Paz",
   "aliases": [],
@@ -7564,6 +7564,7 @@
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"La Paz\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Bolivia",
+  "qualifier": "Bolivia",
   "magnitude": 25539,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "La Paz",
@@ -13795,7 +13796,7 @@
   "lon": -0.41472222
  },
  {
-  "id": "city-peterborough",
+  "id": "city-peterborough-england",
   "category": "city",
   "name": "Peterborough",
   "aliases": [],
@@ -13812,6 +13813,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Peterborough\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 15524,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Peterborough",
@@ -20663,7 +20665,7 @@
   "lon": -4.02444444
  },
  {
-  "id": "city-salamanca",
+  "id": "city-salamanca-spain",
   "category": "city",
   "name": "Salamanca",
   "aliases": [],
@@ -20682,6 +20684,7 @@
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Salamanca\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Spain",
+  "qualifier": "Spain",
   "magnitude": 14581,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Salamanca",
@@ -94118,5 +94121,3353 @@
   "wikiTitle": "Greece, New York",
   "lat": 43.20944444,
   "lon": -77.69527778
+ },
+ {
+  "id": "city-london-ontario",
+  "category": "city",
+  "name": "London",
+  "aliases": [],
+  "size": 422324,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"London, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Ontario",
+  "magnitude": 26483,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "London, Ontario",
+  "lat": 42.985,
+  "lon": -81.24527778
+ },
+ {
+  "id": "city-kingston-ontario",
+  "category": "city",
+  "name": "Kingston",
+  "aliases": [],
+  "size": 132485,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Kingston, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Ontario",
+  "magnitude": 18842,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kingston, Ontario",
+  "lat": 44.23055556,
+  "lon": -76.48111111
+ },
+ {
+  "id": "city-saint-john-new-brunswick",
+  "category": "city",
+  "name": "Saint John",
+  "aliases": [],
+  "size": 67575,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Saint John, New Brunswick\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "New Brunswick",
+  "magnitude": 14185,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint John, New Brunswick",
+  "lat": 45.28055556,
+  "lon": -66.07611111
+ },
+ {
+  "id": "city-sault-ste-marie",
+  "category": "city",
+  "name": "Sault Ste. Marie",
+  "aliases": [],
+  "size": 73368,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Sault Ste. Marie, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 13211,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sault Ste. Marie, Ontario",
+  "lat": 46.55888889,
+  "lon": -84.34694444
+ },
+ {
+  "id": "city-markham",
+  "category": "city",
+  "name": "Markham",
+  "aliases": [],
+  "size": 338503,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Markham, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 10137,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Markham, Ontario",
+  "lat": 43.87666667,
+  "lon": -79.26333333
+ },
+ {
+  "id": "city-saguenay",
+  "category": "city",
+  "name": "Saguenay",
+  "aliases": [],
+  "size": 148886,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Saguenay, Quebec\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 9863,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saguenay, Quebec",
+  "lat": 48.41666667,
+  "lon": -71.06666667
+ },
+ {
+  "id": "city-guelph",
+  "category": "city",
+  "name": "Guelph",
+  "aliases": [],
+  "size": 143740,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Guelph\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 9376,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guelph",
+  "lat": 43.53583333,
+  "lon": -80.22888889
+ },
+ {
+  "id": "city-burnaby",
+  "category": "city",
+  "name": "Burnaby",
+  "aliases": [],
+  "size": 249125,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Burnaby\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 9254,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burnaby",
+  "lat": 49.26666667,
+  "lon": -122.96666667
+ },
+ {
+  "id": "city-oakville",
+  "category": "city",
+  "name": "Oakville",
+  "aliases": [],
+  "size": 213759,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Oakville, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 8858,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oakville, Ontario",
+  "lat": 43.45638889,
+  "lon": -79.71388889
+ },
+ {
+  "id": "city-barrie",
+  "category": "city",
+  "name": "Barrie",
+  "aliases": [],
+  "size": 147829,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Barrie\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 8797,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barrie",
+  "lat": 44.37111111,
+  "lon": -79.67694444
+ },
+ {
+  "id": "city-st-catharines",
+  "category": "city",
+  "name": "St. Catharines",
+  "aliases": [],
+  "size": 136803,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"St. Catharines\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 8645,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Catharines",
+  "lat": 43.15833333,
+  "lon": -79.24583333
+ },
+ {
+  "id": "city-abbotsford",
+  "category": "city",
+  "name": "Abbotsford",
+  "aliases": [],
+  "size": 153524,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Abbotsford, British Columbia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 8371,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abbotsford, British Columbia",
+  "lat": 49.0517,
+  "lon": -122.3289
+ },
+ {
+  "id": "city-sherbrooke",
+  "category": "city",
+  "name": "Sherbrooke",
+  "aliases": [],
+  "size": 181360,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Sherbrooke\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 7793,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sherbrooke",
+  "lat": 45.4,
+  "lon": -71.9
+ },
+ {
+  "id": "city-oshawa",
+  "category": "city",
+  "name": "Oshawa",
+  "aliases": [],
+  "size": 175383,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Oshawa\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 7671,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oshawa",
+  "lat": 43.90055556,
+  "lon": -78.85722222
+ },
+ {
+  "id": "city-north-bay",
+  "category": "city",
+  "name": "North Bay",
+  "aliases": [],
+  "size": 51553,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"North Bay, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 7610,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Bay, Ontario",
+  "lat": 46.30916667,
+  "lon": -79.46138889
+ },
+ {
+  "id": "city-trois-rivieres",
+  "category": "city",
+  "name": "Trois-Rivieres",
+  "aliases": [],
+  "size": 144472,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Trois-Rivières\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 7427,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trois-Rivières",
+  "lat": 46.34305556,
+  "lon": -72.54333333
+ },
+ {
+  "id": "city-belleville",
+  "category": "city",
+  "name": "Belleville",
+  "aliases": [],
+  "size": 50716,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Belleville, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 7336,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belleville, Ontario",
+  "lat": 44.16666667,
+  "lon": -77.38333333
+ },
+ {
+  "id": "city-sarnia",
+  "category": "city",
+  "name": "Sarnia",
+  "aliases": [],
+  "size": 72320,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Sarnia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 6819,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sarnia",
+  "lat": 42.98138889,
+  "lon": -82.31777778
+ },
+ {
+  "id": "city-vaughan",
+  "category": "city",
+  "name": "Vaughan",
+  "aliases": [],
+  "size": 323103,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Vaughan\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 6788,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vaughan",
+  "lat": 43.85277778,
+  "lon": -79.53527778
+ },
+ {
+  "id": "city-grande-prairie",
+  "category": "city",
+  "name": "Grande Prairie",
+  "aliases": [],
+  "size": 64141,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Grande Prairie\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 6666,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grande Prairie",
+  "lat": 55.17083333,
+  "lon": -118.79611111
+ },
+ {
+  "id": "city-newmarket",
+  "category": "city",
+  "name": "Newmarket",
+  "aliases": [],
+  "size": 84224,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Newmarket, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 6423,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Newmarket, Ontario",
+  "lat": 44.05805556,
+  "lon": -79.45833333
+ },
+ {
+  "id": "city-richmond-hill",
+  "category": "city",
+  "name": "Richmond Hill",
+  "aliases": [],
+  "size": 202022,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Richmond Hill, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 5936,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Richmond Hill, Ontario"
+ },
+ {
+  "id": "city-chilliwack",
+  "category": "city",
+  "name": "Chilliwack",
+  "aliases": [],
+  "size": 83788,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Chilliwack\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 5540,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chilliwack",
+  "lat": 49.1711,
+  "lon": -121.9525
+ },
+ {
+  "id": "city-new-westminster",
+  "category": "city",
+  "name": "New Westminster",
+  "aliases": [],
+  "size": 78916,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"New Westminster\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 5540,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Westminster",
+  "lat": 49.20694444,
+  "lon": -122.91111111
+ },
+ {
+  "id": "city-coquitlam",
+  "category": "city",
+  "name": "Coquitlam",
+  "aliases": [],
+  "size": 148625,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Coquitlam\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 5236,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coquitlam",
+  "lat": 49.28388889,
+  "lon": -122.79194444
+ },
+ {
+  "id": "city-ajax",
+  "category": "city",
+  "name": "Ajax",
+  "aliases": [],
+  "size": 126666,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Ajax, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 4870,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ajax, Ontario",
+  "lat": 43.85833333,
+  "lon": -79.03638889
+ },
+ {
+  "id": "city-milton",
+  "category": "city",
+  "name": "Milton",
+  "aliases": [],
+  "size": 132979,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Milton, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 4688,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Milton, Ontario",
+  "lat": 43.50833333,
+  "lon": -79.88333333
+ },
+ {
+  "id": "city-chatham-kent",
+  "category": "city",
+  "name": "Chatham-Kent",
+  "aliases": [],
+  "size": 103988,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Chatham-Kent\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 4596,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chatham-Kent",
+  "lat": 42.4,
+  "lon": -82.18333333
+ },
+ {
+  "id": "city-saanich",
+  "category": "city",
+  "name": "Saanich",
+  "aliases": [],
+  "size": 117735,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Saanich, British Columbia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 4170,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saanich, British Columbia"
+ },
+ {
+  "id": "city-whitby",
+  "category": "city",
+  "name": "Whitby",
+  "aliases": [],
+  "size": 138501,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Whitby, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 4049,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Whitby, Ontario",
+  "lat": 43.9325,
+  "lon": -78.95444444
+ },
+ {
+  "id": "city-kawartha-lakes",
+  "category": "city",
+  "name": "Kawartha Lakes",
+  "aliases": [],
+  "size": 75423,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Kawartha Lakes\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 4018,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kawartha Lakes",
+  "lat": 44.35,
+  "lon": -78.75
+ },
+ {
+  "id": "city-pickering",
+  "category": "city",
+  "name": "Pickering",
+  "aliases": [],
+  "size": 91771,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Pickering, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3988,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pickering, Ontario",
+  "lat": 43.8354,
+  "lon": -79.089
+ },
+ {
+  "id": "city-maple-ridge",
+  "category": "city",
+  "name": "Maple Ridge",
+  "aliases": [],
+  "size": 90990,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Maple Ridge, British Columbia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3957,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maple Ridge, British Columbia",
+  "lat": 49.21666667,
+  "lon": -122.6
+ },
+ {
+  "id": "city-delta",
+  "category": "city",
+  "name": "Delta",
+  "aliases": [],
+  "size": 108455,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Delta, British Columbia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3896,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Delta, British Columbia",
+  "lat": 49.08472222,
+  "lon": -123.05861111
+ },
+ {
+  "id": "city-north-vancouver",
+  "category": "city",
+  "name": "North Vancouver",
+  "aliases": [],
+  "size": 52898,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"North Vancouver (city)\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3775,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Vancouver (city)",
+  "lat": 49.31666667,
+  "lon": -123.06666667
+ },
+ {
+  "id": "city-longueuil",
+  "category": "city",
+  "name": "Longueuil",
+  "aliases": [],
+  "size": 261516,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Longueuil\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3744,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Longueuil",
+  "lat": 45.53333333,
+  "lon": -73.51666667
+ },
+ {
+  "id": "city-saint-jean-sur-richelieu",
+  "category": "city",
+  "name": "Saint-Jean-sur-Richelieu",
+  "aliases": [],
+  "size": 99494,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Saint-Jean-sur-Richelieu\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3501,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint-Jean-sur-Richelieu",
+  "lat": 45.31666667,
+  "lon": -73.26666667
+ },
+ {
+  "id": "city-caledon",
+  "category": "city",
+  "name": "Caledon",
+  "aliases": [],
+  "size": 66502,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Caledon, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3288,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Caledon, Ontario",
+  "lat": 43.86611111,
+  "lon": -79.85888889
+ },
+ {
+  "id": "city-rimouski",
+  "category": "city",
+  "name": "Rimouski",
+  "aliases": [],
+  "size": 50019,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Rimouski\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3227,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rimouski",
+  "lat": 48.45,
+  "lon": -68.53
+ },
+ {
+  "id": "city-airdrie",
+  "category": "city",
+  "name": "Airdrie",
+  "aliases": [],
+  "size": 74100,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Airdrie, Alberta\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3166,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Airdrie, Alberta",
+  "lat": 51.29166667,
+  "lon": -114.01444444
+ },
+ {
+  "id": "city-st-albert",
+  "category": "city",
+  "name": "St. Albert",
+  "aliases": [],
+  "size": 68232,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"St. Albert, Alberta\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 3014,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Albert, Alberta",
+  "lat": 53.63694444,
+  "lon": -113.62027778
+ },
+ {
+  "id": "city-port-coquitlam",
+  "category": "city",
+  "name": "Port Coquitlam",
+  "aliases": [],
+  "size": 61498,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Port Coquitlam\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 2922,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port Coquitlam",
+  "lat": 49.2625,
+  "lon": -122.78111111
+ },
+ {
+  "id": "city-drummondville",
+  "category": "city",
+  "name": "Drummondville",
+  "aliases": [],
+  "size": 82790,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Drummondville\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 2800,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drummondville",
+  "lat": 45.88333333,
+  "lon": -72.48333333
+ },
+ {
+  "id": "city-shawinigan",
+  "category": "city",
+  "name": "Shawinigan",
+  "aliases": [],
+  "size": 51149,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Shawinigan\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 2770,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shawinigan",
+  "lat": 46.56666667,
+  "lon": -72.75
+ },
+ {
+  "id": "city-mirabel",
+  "category": "city",
+  "name": "Mirabel",
+  "aliases": [],
+  "size": 64973,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Mirabel, Quebec\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 2648,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mirabel, Quebec",
+  "lat": 45.66361111,
+  "lon": -74.00194444
+ },
+ {
+  "id": "city-chicoutimi",
+  "category": "city",
+  "name": "Chicoutimi",
+  "aliases": [],
+  "size": 70070,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Chicoutimi\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 2374,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chicoutimi",
+  "lat": 48.42777778,
+  "lon": -71.05916667
+ },
+ {
+  "id": "city-terrebonne",
+  "category": "city",
+  "name": "Terrebonne",
+  "aliases": [],
+  "size": 123182,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Terrebonne, Quebec\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 2253,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Terrebonne, Quebec",
+  "lat": 45.7,
+  "lon": -73.63333333
+ },
+ {
+  "id": "city-levis",
+  "category": "city",
+  "name": "Levis",
+  "aliases": [],
+  "size": 156225,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Lévis\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 2222,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lévis",
+  "lat": 46.75805556,
+  "lon": -71.24027778
+ },
+ {
+  "id": "city-brossard",
+  "category": "city",
+  "name": "Brossard",
+  "aliases": [],
+  "size": 95066,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Brossard\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 2070,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brossard",
+  "lat": 45.46666667,
+  "lon": -73.45
+ },
+ {
+  "id": "city-langley",
+  "category": "city",
+  "name": "Langley",
+  "aliases": [],
+  "size": 132603,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Langley, British Columbia (district municipality)\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 1948,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Langley, British Columbia (district municipality)",
+  "lat": 49.104444,
+  "lon": -122.582703
+ },
+ {
+  "id": "city-granby",
+  "category": "city",
+  "name": "Granby",
+  "aliases": [],
+  "size": 70329,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Granby, Quebec\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 1887,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Granby, Quebec",
+  "lat": 45.4,
+  "lon": -72.73333333
+ },
+ {
+  "id": "city-saint-hyacinthe",
+  "category": "city",
+  "name": "Saint-Hyacinthe",
+  "aliases": [],
+  "size": 59448,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Saint-Hyacinthe\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 1583,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint-Hyacinthe",
+  "lat": 45.63082861,
+  "lon": -72.95403389
+ },
+ {
+  "id": "city-halton-hills",
+  "category": "city",
+  "name": "Halton Hills",
+  "aliases": [],
+  "size": 61161,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Halton Hills\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Halton Hills",
+  "lat": 43.62694444,
+  "lon": -79.95138889
+ },
+ {
+  "id": "city-saint-jerome",
+  "category": "city",
+  "name": "Saint-Jerome",
+  "aliases": [],
+  "size": 82274,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Saint-Jérôme\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 1461,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint-Jérôme",
+  "lat": 45.78333333,
+  "lon": -74
+ },
+ {
+  "id": "city-chateauguay",
+  "category": "city",
+  "name": "Chateauguay",
+  "aliases": [],
+  "size": 52320,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Châteauguay\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Châteauguay",
+  "lat": 45.38,
+  "lon": -73.75
+ },
+ {
+  "id": "city-dollard-des-ormeaux",
+  "category": "city",
+  "name": "Dollard-des-Ormeaux",
+  "aliases": [],
+  "size": 50171,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Dollard-des-Ormeaux\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dollard-des-Ormeaux",
+  "lat": 45.48333333,
+  "lon": -73.81666667
+ },
+ {
+  "id": "city-blainville",
+  "category": "city",
+  "name": "Blainville",
+  "aliases": [],
+  "size": 61114,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Blainville, Quebec\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Blainville, Quebec",
+  "lat": 45.67,
+  "lon": -73.88
+ },
+ {
+  "id": "city-repentigny",
+  "category": "city",
+  "name": "Repentigny",
+  "aliases": [],
+  "size": 87980,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Repentigny\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Repentigny",
+  "lat": 45.73333333,
+  "lon": -73.46666667
+ },
+ {
+  "id": "city-mascouche",
+  "category": "city",
+  "name": "Mascouche",
+  "aliases": [],
+  "size": 54540,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Mascouche\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mascouche",
+  "lat": 45.75,
+  "lon": -73.6
+ },
+ {
+  "id": "city-matamoros",
+  "category": "city",
+  "name": "Matamoros",
+  "aliases": [],
+  "size": 510739,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Matamoros, Tamaulipas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 7153,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Matamoros, Tamaulipas",
+  "lat": 25.87972222,
+  "lon": -97.50416667
+ },
+ {
+  "id": "city-tampico",
+  "category": "city",
+  "name": "Tampico",
+  "aliases": [],
+  "size": 297373,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tampico\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 4749,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tampico",
+  "lat": 22.25527778,
+  "lon": -97.86861111
+ },
+ {
+  "id": "city-piedras-negras",
+  "category": "city",
+  "name": "Piedras Negras",
+  "aliases": [],
+  "size": 173959,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Piedras Negras, Coahuila\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 4201,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Piedras Negras, Coahuila",
+  "lat": 28.7,
+  "lon": -100.52305556
+ },
+ {
+  "id": "city-nuevo-laredo",
+  "category": "city",
+  "name": "Nuevo Laredo",
+  "aliases": [],
+  "size": 416055,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Nuevo Laredo\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 4018,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nuevo Laredo",
+  "lat": 27.48611111,
+  "lon": -99.50694444
+ },
+ {
+  "id": "city-nogales",
+  "category": "city",
+  "name": "Nogales",
+  "aliases": [],
+  "size": 261137,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Nogales, Sonora\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 3775,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nogales, Sonora",
+  "lat": 31.31861111,
+  "lon": -110.94583333
+ },
+ {
+  "id": "city-coatzacoalcos",
+  "category": "city",
+  "name": "Coatzacoalcos",
+  "aliases": [],
+  "size": 212540,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Coatzacoalcos\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 3683,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coatzacoalcos",
+  "lat": 18.14138889,
+  "lon": -94.43444444
+ },
+ {
+  "id": "city-reynosa",
+  "category": "city",
+  "name": "Reynosa",
+  "aliases": [],
+  "size": 691557,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Reynosa\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 3014,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Reynosa",
+  "lat": 26.09222222,
+  "lon": -98.27777778
+ },
+ {
+  "id": "city-tecate",
+  "category": "city",
+  "name": "Tecate",
+  "aliases": [],
+  "size": 81059,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tecate\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 2222,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tecate",
+  "lat": 32.57222222,
+  "lon": -116.64027778
+ },
+ {
+  "id": "city-guaymas",
+  "category": "city",
+  "name": "Guaymas",
+  "aliases": [],
+  "size": 117253,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Guaymas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 2192,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guaymas",
+  "lat": 27.91833333,
+  "lon": -110.89888889
+ },
+ {
+  "id": "city-san-nicolas-de-los-garza",
+  "category": "city",
+  "name": "San Nicolas de los Garza",
+  "aliases": [
+   "San Nicolas"
+  ],
+  "size": 412199,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"San Nicolás de los Garza\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 2192,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Nicolás de los Garza",
+  "lat": 25.75,
+  "lon": -100.28333333
+ },
+ {
+  "id": "city-ciudad-acuna",
+  "category": "city",
+  "name": "Ciudad Acuna",
+  "aliases": [],
+  "size": 160225,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ciudad Acuña\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ciudad Acuña",
+  "lat": 29.32416667,
+  "lon": -100.93166667
+ },
+ {
+  "id": "city-ciudad-victoria",
+  "category": "city",
+  "name": "Ciudad Victoria",
+  "aliases": [],
+  "size": 332100,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ciudad Victoria\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ciudad Victoria",
+  "lat": 23.73888889,
+  "lon": -99.14305556
+ },
+ {
+  "id": "city-guadalupe-nuevo-leon",
+  "category": "city",
+  "name": "Guadalupe",
+  "aliases": [],
+  "size": 635862,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Guadalupe, Nuevo León\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "qualifier": "Nuevo Leon",
+  "magnitude": 1918,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guadalupe, Nuevo León",
+  "lat": 25.6775,
+  "lon": -100.25972222
+ },
+ {
+  "id": "city-san-luis-rio-colorado",
+  "category": "city",
+  "name": "San Luis Rio Colorado",
+  "aliases": [],
+  "size": 176685,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"San Luis Río Colorado\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 1857,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Luis Río Colorado",
+  "lat": 32.47666667,
+  "lon": -114.7625
+ },
+ {
+  "id": "city-tlaquepaque",
+  "category": "city",
+  "name": "Tlaquepaque",
+  "aliases": [],
+  "size": 650123,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tlaquepaque\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tlaquepaque",
+  "lat": 20.61666667,
+  "lon": -103.31666667
+ },
+ {
+  "id": "city-parral",
+  "category": "city",
+  "name": "Parral",
+  "aliases": [
+   "Hidalgo del Parral"
+  ],
+  "size": 113843,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Parral, Chihuahua\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Parral, Chihuahua"
+ },
+ {
+  "id": "city-monclova",
+  "category": "city",
+  "name": "Monclova",
+  "aliases": [],
+  "size": 237169,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Monclova\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monclova",
+  "lat": 26.91027778,
+  "lon": -101.42222222
+ },
+ {
+  "id": "city-orizaba",
+  "category": "city",
+  "name": "Orizaba",
+  "aliases": [],
+  "size": 120500,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Orizaba\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Orizaba",
+  "lat": 18.85,
+  "lon": -97.1
+ },
+ {
+  "id": "city-tlalnepantla-de-baz",
+  "category": "city",
+  "name": "Tlalnepantla de Baz",
+  "aliases": [
+   "Tlalnepantla"
+  ],
+  "size": 700734,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tlalnepantla de Baz\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tlalnepantla de Baz",
+  "lat": 19.53666667,
+  "lon": -99.19472222
+ },
+ {
+  "id": "city-chilpancingo",
+  "category": "city",
+  "name": "Chilpancingo",
+  "aliases": [],
+  "size": 225728,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Chilpancingo\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chilpancingo",
+  "lat": 17.55,
+  "lon": -99.5
+ },
+ {
+  "id": "city-gomez-palacio",
+  "category": "city",
+  "name": "Gomez Palacio",
+  "aliases": [],
+  "size": 301742,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Gómez Palacio, Durango\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gómez Palacio, Durango",
+  "lat": 25.56111111,
+  "lon": -103.49833333
+ },
+ {
+  "id": "city-ciudad-del-carmen",
+  "category": "city",
+  "name": "Ciudad del Carmen",
+  "aliases": [],
+  "size": 191238,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ciudad del Carmen\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ciudad del Carmen",
+  "lat": 18.63333333,
+  "lon": -91.83333333
+ },
+ {
+  "id": "city-fresnillo",
+  "category": "city",
+  "name": "Fresnillo",
+  "aliases": [],
+  "size": 143281,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Fresnillo\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fresnillo",
+  "lat": 23.175,
+  "lon": -102.8675
+ },
+ {
+  "id": "city-apodaca",
+  "category": "city",
+  "name": "Apodaca",
+  "aliases": [],
+  "size": 536436,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Apodaca\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Apodaca",
+  "lat": 25.78166667,
+  "lon": -100.18861111
+ },
+ {
+  "id": "city-tehuacan",
+  "category": "city",
+  "name": "Tehuacan",
+  "aliases": [],
+  "size": 293825,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tehuacán\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tehuacán",
+  "lat": 18.46166667,
+  "lon": -97.39277778
+ },
+ {
+  "id": "city-tulancingo",
+  "category": "city",
+  "name": "Tulancingo",
+  "aliases": [],
+  "size": 161069,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tulancingo\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tulancingo",
+  "lat": 20.08333333,
+  "lon": -98.36666667
+ },
+ {
+  "id": "city-la-piedad",
+  "category": "city",
+  "name": "La Piedad",
+  "aliases": [],
+  "size": 106490,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"La Piedad\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Piedad",
+  "lat": 20.33333333,
+  "lon": -102.01666667
+ },
+ {
+  "id": "city-cuautitlan-izcalli",
+  "category": "city",
+  "name": "Cuautitlan Izcalli",
+  "aliases": [],
+  "size": 515353,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Cuautitlán Izcalli\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cuautitlán Izcalli",
+  "lat": 19.65,
+  "lon": -99.25
+ },
+ {
+  "id": "city-poza-rica",
+  "category": "city",
+  "name": "Poza Rica",
+  "aliases": [],
+  "size": 180057,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Poza Rica\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Poza Rica",
+  "lat": 20.53333333,
+  "lon": -97.45
+ },
+ {
+  "id": "city-silao",
+  "category": "city",
+  "name": "Silao",
+  "aliases": [],
+  "size": 83352,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Silao\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Silao",
+  "lat": 20.94777778,
+  "lon": -101.42805556
+ },
+ {
+  "id": "city-tonala",
+  "category": "city",
+  "name": "Tonala",
+  "aliases": [],
+  "size": 442440,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tonalá, Jalisco\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tonalá, Jalisco"
+ },
+ {
+  "id": "city-chimalhuacan",
+  "category": "city",
+  "name": "Chimalhuacan",
+  "aliases": [],
+  "size": 703215,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Chimalhuacán\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chimalhuacán",
+  "lat": 19.41305556,
+  "lon": -98.98388889
+ },
+ {
+  "id": "city-guadalupe-zacatecas",
+  "category": "city",
+  "name": "Guadalupe",
+  "aliases": [],
+  "size": 170029,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Guadalupe, Zacatecas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "qualifier": "Zacatecas",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guadalupe, Zacatecas",
+  "lat": 22.75277778,
+  "lon": -102.50777778
+ },
+ {
+  "id": "city-guasave",
+  "category": "city",
+  "name": "Guasave",
+  "aliases": [],
+  "size": 77849,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Guasave\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guasave",
+  "lat": 25.57444444,
+  "lon": -108.47055556
+ },
+ {
+  "id": "city-metepec",
+  "category": "city",
+  "name": "Metepec",
+  "aliases": [],
+  "size": 214162,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Metepec\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Metepec",
+  "lat": 19.25111111,
+  "lon": -99.60472222
+ },
+ {
+  "id": "city-delicias",
+  "category": "city",
+  "name": "Delicias",
+  "aliases": [],
+  "size": 128548,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Delicias, Chihuahua\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Delicias, Chihuahua",
+  "lat": 28.19305556,
+  "lon": -105.47166667
+ },
+ {
+  "id": "city-ramos-arizpe",
+  "category": "city",
+  "name": "Ramos Arizpe",
+  "aliases": [],
+  "size": 114010,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ramos Arizpe\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ramos Arizpe",
+  "lat": 25.55,
+  "lon": -100.96666667
+ },
+ {
+  "id": "city-san-juan-del-rio",
+  "category": "city",
+  "name": "San Juan del Rio",
+  "aliases": [],
+  "size": 177719,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"San Juan del Río\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Juan del Río",
+  "lat": 20.38333333,
+  "lon": -99.98333333
+ },
+ {
+  "id": "city-ocotlan",
+  "category": "city",
+  "name": "Ocotlan",
+  "aliases": [],
+  "size": 94978,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ocotlán, Jalisco\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ocotlán, Jalisco",
+  "lat": 20.34666667,
+  "lon": -102.77444444
+ },
+ {
+  "id": "city-salina-cruz",
+  "category": "city",
+  "name": "Salina Cruz",
+  "aliases": [],
+  "size": 76660,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Salina Cruz\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Salina Cruz",
+  "lat": 16.16666667,
+  "lon": -95.2
+ },
+ {
+  "id": "city-ixtapaluca",
+  "category": "city",
+  "name": "Ixtapaluca",
+  "aliases": [],
+  "size": 368585,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ixtapaluca\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ixtapaluca",
+  "lat": 19.31861111,
+  "lon": -98.88222222
+ },
+ {
+  "id": "city-ciudad-madero",
+  "category": "city",
+  "name": "Ciudad Madero",
+  "aliases": [],
+  "size": 205933,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ciudad Madero\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ciudad Madero",
+  "lat": 22.2475,
+  "lon": -97.8375
+ },
+ {
+  "id": "city-minatitlan",
+  "category": "city",
+  "name": "Minatitlan",
+  "aliases": [],
+  "size": 101336,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Minatitlán, Veracruz\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Minatitlán, Veracruz",
+  "lat": 17.98333333,
+  "lon": -94.55
+ },
+ {
+  "id": "city-papantla",
+  "category": "city",
+  "name": "Papantla",
+  "aliases": [],
+  "size": 55452,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Papantla\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Papantla",
+  "lat": 20.44777778,
+  "lon": -97.32
+ },
+ {
+  "id": "city-rioverde",
+  "category": "city",
+  "name": "Rioverde",
+  "aliases": [],
+  "size": 58158,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Rioverde, San Luis Potosí\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rioverde, San Luis Potosí",
+  "lat": 21.928,
+  "lon": -99.997
+ },
+ {
+  "id": "city-chiapa-de-corzo",
+  "category": "city",
+  "name": "Chiapa de Corzo",
+  "aliases": [],
+  "size": 112075,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Chiapa de Corzo, Chiapas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chiapa de Corzo, Chiapas",
+  "lat": 16.70694444,
+  "lon": -93.01388889
+ },
+ {
+  "id": "city-san-francisco-del-rincon",
+  "category": "city",
+  "name": "San Francisco del Rincon",
+  "aliases": [],
+  "size": 79772,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"San Francisco del Rincón\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Francisco del Rincón"
+ },
+ {
+  "id": "city-xalisco",
+  "category": "city",
+  "name": "Xalisco",
+  "aliases": [],
+  "size": 65229,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Xalisco\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Xalisco",
+  "lat": 21.44805557,
+  "lon": -104.90000001
+ },
+ {
+  "id": "city-chalco-de-diaz-covarrubias",
+  "category": "city",
+  "name": "Chalco de Diaz Covarrubias",
+  "aliases": [
+   "Chalco"
+  ],
+  "size": 174704,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Chalco de Díaz Covarrubias\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chalco de Díaz Covarrubias",
+  "lat": 19.26472222,
+  "lon": -98.8975
+ },
+ {
+  "id": "city-general-escobedo",
+  "category": "city",
+  "name": "General Escobedo",
+  "aliases": [],
+  "size": 454967,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"General Escobedo\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "General Escobedo",
+  "lat": 25.79333333,
+  "lon": -100.15833333
+ },
+ {
+  "id": "city-ciudad-lopez-mateos",
+  "category": "city",
+  "name": "Ciudad Lopez Mateos",
+  "aliases": [
+   "Atizapan de Zaragoza",
+   "Lopez Mateos"
+  ],
+  "size": 523065,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ciudad López Mateos\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ciudad López Mateos",
+  "lat": 19.55,
+  "lon": -99.28333333
+ },
+ {
+  "id": "city-jiutepec",
+  "category": "city",
+  "name": "Jiutepec",
+  "aliases": [],
+  "size": 174629,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Jiutepec\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jiutepec",
+  "lat": 18.88333333,
+  "lon": -99.16666667
+ },
+ {
+  "id": "city-ocosingo",
+  "category": "city",
+  "name": "Ocosingo",
+  "aliases": [],
+  "size": 234661,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ocosingo\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ocosingo",
+  "lat": 16.90666667,
+  "lon": -92.09388889
+ },
+ {
+  "id": "city-santa-cruz-xoxocotlan",
+  "category": "city",
+  "name": "Santa Cruz Xoxocotlan",
+  "aliases": [
+   "Xoxocotlan"
+  ],
+  "size": 93188,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Santa Cruz Xoxocotlán\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Cruz Xoxocotlán",
+  "lat": 17.02638889,
+  "lon": -96.73333333
+ },
+ {
+  "id": "city-tecoman",
+  "category": "city",
+  "name": "Tecoman",
+  "aliases": [],
+  "size": 88337,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Tecomán\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tecomán",
+  "lat": 18.90888889,
+  "lon": -103.87472222
+ },
+ {
+  "id": "city-teziutlan",
+  "category": "city",
+  "name": "Teziutlan",
+  "aliases": [],
+  "size": 62849,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Teziutlán\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Teziutlán",
+  "lat": 19.81777778,
+  "lon": -97.36666667
+ },
+ {
+  "id": "city-kanasin",
+  "category": "city",
+  "name": "Kanasin",
+  "aliases": [],
+  "size": 139753,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Kanasín\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kanasín",
+  "lat": 20.93444444,
+  "lon": -89.55777778
+ },
+ {
+  "id": "city-purisima-del-rincon",
+  "category": "city",
+  "name": "Purisima del Rincon",
+  "aliases": [],
+  "size": 68795,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Purísima del Rincón\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Purísima del Rincón",
+  "lat": 21.03333333,
+  "lon": -101.86666667
+ },
+ {
+  "id": "city-san-pedro-cholula",
+  "category": "city",
+  "name": "San Pedro Cholula",
+  "aliases": [],
+  "size": 129032,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"San Pedro Cholula\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Pedro Cholula",
+  "lat": 19.06333333,
+  "lon": -98.30638889
+ },
+ {
+  "id": "city-soledad-de-graciano-sanchez",
+  "category": "city",
+  "name": "Soledad de Graciano Sanchez",
+  "aliases": [
+   "Soledad"
+  ],
+  "size": 310192,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Soledad de Graciano Sánchez\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Soledad de Graciano Sánchez",
+  "lat": 22.18333333,
+  "lon": -100.93333333
+ },
+ {
+  "id": "city-zumpango",
+  "category": "city",
+  "name": "Zumpango",
+  "aliases": [],
+  "size": 159647,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Zumpango\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zumpango",
+  "lat": 19.79694444,
+  "lon": -99.09916667
+ },
+ {
+  "id": "city-cardenas",
+  "category": "city",
+  "name": "Cardenas",
+  "aliases": [],
+  "size": 80454,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Cárdenas, Tabasco\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cárdenas, Tabasco",
+  "lat": 17.983,
+  "lon": -93.367
+ },
+ {
+  "id": "city-chicoloapan-de-juarez",
+  "category": "city",
+  "name": "Chicoloapan de Juarez",
+  "aliases": [
+   "Chicoloapan"
+  ],
+  "size": 193532,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Chicoloapan de Juárez\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chicoloapan de Juárez",
+  "lat": 19.41666667,
+  "lon": -98.9
+ },
+ {
+  "id": "city-ciudad-nicolas-romero",
+  "category": "city",
+  "name": "Ciudad Nicolas Romero",
+  "aliases": [],
+  "size": 323545,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ciudad Nicolás Romero\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ciudad Nicolás Romero",
+  "lat": 19.58333333,
+  "lon": -99.36666667
+ },
+ {
+  "id": "city-lerdo",
+  "category": "city",
+  "name": "Lerdo",
+  "aliases": [],
+  "size": 96243,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Lerdo, Durango\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lerdo, Durango",
+  "lat": 25.55,
+  "lon": -103.51666667
+ },
+ {
+  "id": "city-uriangato",
+  "category": "city",
+  "name": "Uriangato",
+  "aliases": [],
+  "size": 52156,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Uriangato\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uriangato",
+  "lat": 20.13333333,
+  "lon": -101.16666667
+ },
+ {
+  "id": "city-xico",
+  "category": "city",
+  "name": "Xico",
+  "aliases": [
+   "Valle de Chalco"
+  ],
+  "size": 384327,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Xico, Valle de Chalco\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Xico, Valle de Chalco",
+  "lat": 19.29166667,
+  "lon": -98.93888889
+ },
+ {
+  "id": "city-yautepec",
+  "category": "city",
+  "name": "Yautepec",
+  "aliases": [],
+  "size": 105780,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Yautepec, Morelos\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yautepec, Morelos",
+  "lat": 18.89833333,
+  "lon": -99.05633333
+ },
+ {
+  "id": "city-jacona",
+  "category": "city",
+  "name": "Jacona",
+  "aliases": [],
+  "size": 61510,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Jacona, Michoacán\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jacona, Michoacán",
+  "lat": 19.95555556,
+  "lon": -102.30277778
+ },
+ {
+  "id": "city-temixco",
+  "category": "city",
+  "name": "Temixco",
+  "aliases": [],
+  "size": 104461,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Temixco\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Temixco",
+  "lat": 18.85,
+  "lon": -99.23333333
+ },
+ {
+  "id": "city-jesus-maria",
+  "category": "city",
+  "name": "Jesus Maria",
+  "aliases": [],
+  "size": 63805,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Jesús María, Aguascalientes\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jesús María, Aguascalientes",
+  "lat": 21.96666667,
+  "lon": -102.35
+ },
+ {
+  "id": "city-ojo-de-agua",
+  "category": "city",
+  "name": "Ojo de Agua",
+  "aliases": [],
+  "size": 386290,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Ojo de Agua, Tecámac\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ojo de Agua, Tecámac",
+  "lat": 19.68027778,
+  "lon": -99.01
+ },
+ {
+  "id": "city-villa-de-alvarez",
+  "category": "city",
+  "name": "Villa de Alvarez",
+  "aliases": [],
+  "size": 147496,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Villa de Álvarez\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Villa de Álvarez",
+  "lat": 19.25,
+  "lon": -103.73333333
+ },
+ {
+  "id": "city-chiautempan",
+  "category": "city",
+  "name": "Chiautempan",
+  "aliases": [],
+  "size": 53373,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Chiautempan\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chiautempan",
+  "lat": 19.31388889,
+  "lon": -98.19305556
+ },
+ {
+  "id": "city-cortazar",
+  "category": "city",
+  "name": "Cortazar",
+  "aliases": [],
+  "size": 88397,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Cortazar, Guanajuato\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cortazar, Guanajuato"
+ },
+ {
+  "id": "city-waterloo-ontario",
+  "category": "city",
+  "name": "Waterloo",
+  "aliases": [],
+  "size": 121436,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Waterloo, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Ontario",
+  "magnitude": 9771,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Waterloo, Ontario",
+  "lat": 43.46666667,
+  "lon": -80.51666667
+ },
+ {
+  "id": "city-richmond-british-columbia",
+  "category": "city",
+  "name": "Richmond",
+  "aliases": [],
+  "size": 209937,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Richmond, British Columbia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "British Columbia",
+  "magnitude": 7854,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Richmond, British Columbia",
+  "lat": 49.16666667,
+  "lon": -123.13333333
+ },
+ {
+  "id": "city-burlington-ontario",
+  "category": "city",
+  "name": "Burlington",
+  "aliases": [],
+  "size": 186948,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Burlington, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Ontario",
+  "magnitude": 7793,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burlington, Ontario",
+  "lat": 43.37,
+  "lon": -79.81416667
+ },
+ {
+  "id": "city-peterborough-ontario",
+  "category": "city",
+  "name": "Peterborough",
+  "aliases": [],
+  "size": 81032,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Peterborough, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Ontario",
+  "magnitude": 7793,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peterborough, Ontario",
+  "lat": 44.30111111,
+  "lon": -78.33333333
+ },
+ {
+  "id": "city-cambridge-ontario",
+  "category": "city",
+  "name": "Cambridge",
+  "aliases": [],
+  "size": 138479,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Cambridge, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Ontario",
+  "magnitude": 5784,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cambridge, Ontario",
+  "lat": 43.36,
+  "lon": -80.3125
+ },
+ {
+  "id": "city-aurora-ontario",
+  "category": "city",
+  "name": "Aurora",
+  "aliases": [],
+  "size": 55445,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Canada",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Aurora, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Ontario",
+  "magnitude": 3227,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aurora, Ontario",
+  "lat": 43.9975,
+  "lon": -79.47
+ },
+ {
+  "id": "city-la-paz-baja-california-sur",
+  "category": "city",
+  "name": "La Paz",
+  "aliases": [],
+  "size": 250141,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"La Paz, Baja California Sur\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "qualifier": "Baja California Sur",
+  "magnitude": 7458,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Paz, Baja California Sur",
+  "lat": 24.14222222,
+  "lon": -110.31083333
+ },
+ {
+  "id": "city-cordoba-veracruz",
+  "category": "city",
+  "name": "Cordoba",
+  "aliases": [],
+  "size": 139075,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Córdoba, Veracruz\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "qualifier": "Veracruz",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Córdoba, Veracruz",
+  "lat": 18.89416667,
+  "lon": -96.93472222
+ },
+ {
+  "id": "city-salamanca-guanajuato",
+  "category": "city",
+  "name": "Salamanca",
+  "aliases": [],
+  "size": 160682,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Salamanca, Guanajuato\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "qualifier": "Guanajuato",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Salamanca, Guanajuato",
+  "lat": 20.57027778,
+  "lon": -101.19722222
+ },
+ {
+  "id": "city-la-paz-state-of-mexico",
+  "category": "city",
+  "name": "La Paz",
+  "aliases": [],
+  "size": 304088,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "Mexico",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"La Paz, State of Mexico\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "qualifier": "State of Mexico",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Paz, State of Mexico",
+  "lat": 19.36055556,
+  "lon": -98.98
  }
 ]

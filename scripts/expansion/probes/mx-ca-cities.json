@@ -1,0 +1,41 @@
+{
+  "name": "mx-ca-cities",
+  "category": "city",
+  "jsonFile": "cities.json",
+  "roots": [],
+  "lists": [
+    "List of cities in Mexico",
+    "List of municipalities in Mexico by population",
+    "Metropolitan areas of Mexico",
+    "List of cities in Canada",
+    "List of the largest municipalities in Canada by population",
+    "List of the largest population centres in Canada",
+    "List of census metropolitan areas and agglomerations in Canada",
+    "List of cities in Ontario",
+    "List of towns in Quebec",
+    "List of cities in British Columbia",
+    "List of cities in Alberta"
+  ],
+  "kind": "(city|town|municipality|commune|comune|borough|village|urban area|built-up area|settlement|county town|county seat|capital of|large town|market town|parish|district|frazione|tätort|kommune|unitary authority|civil parish|human settlement|conurbation|population centre|regional municipality|census subdivision|pueblo|localidad)",
+  "skipTitle": "(^List of|^Lists of|metropolitan|statistical|combined|Built-up Area$|built-up area$|urban area$|Urban Area$|County$|Demographics|Census|^Category|Province$|Region$|Department$|Canton$|District$|Land$|Länder|Regierungsbezirk|Arrondissement|Comarca$|Kreis$|Landkreis|Voivodeship|^Greater |Agglomeration|Bezirk|^Isle of|Island$|Islands$|Peninsula$|Regional Municipality$|Census Division$|Municipal District$|Municipality of|^Municipality)",
+  "notKind": "^(county|parish|region|neighborhood|neighbourhood|ghost town|former|unincorporated area|district of|section of|historic|state|island|lake|river|mountain|list|airport|university|school|company|metropolitan|conurbation|built-up area|urban area|urban agglomeration|agglomeration|arrondissement|comarca|province|department|department of|canton|administrative|federal state|land of|region of|district in|borough of london|london borough|royal borough|area of|suburb|quarter|ward|electoral|constituency|castle|abbey|cathedral|football|club|company|railway|station|port authority|island of|archipelago|group of islands|census division|regional county|regional municipality of|county municipality|municipal district|indian reserve|first nation|census metropolitan|dissolved|former municipality)",
+  "sizeProp": "P1082",
+  "sizeUnit": "population",
+  "minSize": 50000,
+  "spellings": "city",
+  "flagRe": "capital of|capital city|national capital",
+  "flagLabel": "capital",
+  "listCountry": {
+    "List of cities in Mexico": "Mexico",
+    "List of municipalities in Mexico by population": "Mexico",
+    "Metropolitan areas of Mexico": "Mexico",
+    "List of cities in Canada": "Canada",
+    "List of the largest municipalities in Canada by population": "Canada",
+    "List of the largest population centres in Canada": "Canada",
+    "List of census metropolitan areas and agglomerations in Canada": "Canada",
+    "List of cities in Ontario": "Canada",
+    "List of towns in Quebec": "Canada",
+    "List of cities in British Columbia": "Canada",
+    "List of cities in Alberta": "Canada"
+  }
+}
