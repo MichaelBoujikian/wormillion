@@ -59,7 +59,7 @@ export const OCEAN_OVERRIDES = {
 
   // --- islands: Atlantic/Arctic and Atlantic/Southern edges ---
   'island-greenland': ['Arctic', 'Atlantic'],
-  'island-southampton-island': ['Arctic'], // Hudson Bay / Foxe Basin
+  'island-southampton-island': ['Arctic', 'Atlantic'], // Hudson Bay / Foxe Basin - the straddle the sea cohort's own Hudson Bay row uses (the 2026-09-18 islands audit)
   'island-iceland': ['Atlantic', 'Arctic'],
   'island-south-georgia': ['Atlantic', 'Southern'],
   'island-bouvet-island': ['Atlantic', 'Southern'],
@@ -118,6 +118,22 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-atlantic-ocean': ['Atlantic'],
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
+
+  // --- the 2026-09-18 islands audit: Lake Michigan / Big Rideau / Powell Lake / Fraser / Kennebecasis / Miramichi / Saint John River islands in no ocean; the Hudson Bay islands straddle Arctic and Atlantic like Southampton and the sea cohort's Hudson Bay; Foxe Basin is Arctic ---
+  'island-horseshoe-island-wisconsin': [],
+  'island-grindstone-island-ontario': [],
+  'island-goat-island-british-columbia': [],
+  'island-douglas-island-british-columbia': [],
+  'island-kennebecasis-island': [],
+  'island-beaubears-island': [],
+  'island-bear-island-new-brunswick': [],
+  'island-coats-island': ['Arctic', 'Atlantic'],
+  'island-mansel-island': ['Arctic', 'Atlantic'],
+  'island-flaherty-island': ['Arctic', 'Atlantic'],
+  'island-east-pen-island': ['Arctic', 'Atlantic'],
+  'island-marble-island': ['Arctic', 'Atlantic'],
+  'island-smith-island-nunavut': ['Arctic', 'Atlantic'],
+  'island-nagjuttuuq': ['Arctic'],
 
   // --- the Mexico and Canada island namesakes (2026-09-18): Lake Erie / Huron / Simcoe / Temagami / Okanagan / Ontario and St. Lawrence / Cataraqui islands in no ocean; two BC islands without coordinates ---
   'island-stuart-island-british-columbia': ['Pacific'],
@@ -205,7 +221,7 @@ export const OCEAN_OVERRIDES = {
   'island-isla-del-carmen': ['Pacific'],
   'island-pearse-island': ['Pacific'],
   'island-isla-coronado': ['Pacific'],
-  'island-north-harbour-island': ['Atlantic'],
+  'island-north-harbour-island': [], // Lake Erie (the 2026-09-18 islands audit)
   'island-isla-coronados': ['Pacific'],
 
   // --- 2026-09-17 pre-merge integrity audit: 21 pre-wave islands in lakes and rivers (the Seine, the Tiber, Lake Bled, Lake Van, the Chiemsee, the Dnieper, the Han, the Chao Phraya, the Brahmaputra, the Kaveri, the Nile at Cairo, Lake Malawi, Lake Kivu, Lake Victoria, Lake Titicaca, Lake Peten Itza, Lake Rotorua, Lake Baikal, the St. Lawrence) carried an ocean by the coordinate box ---

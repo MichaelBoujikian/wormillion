@@ -203,6 +203,21 @@
         if (named && !sameName(named.entry, current.cohort.byId.get(match.entryId))) return { status: 'unrecognized', elsewhere: named };
       }
 
+      // An exact name beats a LOOSE hit on a narrowed prompt too: the subset
+      // cannot see the rest of the cohort, so "Isla Espiritu Santo" (81 km2)
+      // on "bigger than 100 km2" was Espiritu Santo (Vanuatu) through the
+      // loose form; it is the Mexican island, out of scope (the 2026-09-18
+      // islands audit).
+      if (match.status === 'accepted' && current.constrained) {
+        const exactHere = matching.matchAnswer(rawInput, current.lookup, null, { loose: false, fuzzy: false });
+        if (exactHere.status !== 'accepted' && exactHere.status !== 'duplicate') {
+          const exact = matching.matchAnswer(rawInput, current.cohort.lookup, null, { loose: false, fuzzy: false });
+          if (exact.status === 'accepted' && exact.entryId !== match.entryId) {
+            return famousElsewhere(current.cohort.byId.get(exact.entryId), exact, current) || wrongScope(current, exact.entryId);
+          }
+        }
+      }
+
       if (match.status === 'unrecognized') {
         // A real place that just doesn't fit this prompt is a different mistake
         // from a place we've never heard of, and deserves a different hint.

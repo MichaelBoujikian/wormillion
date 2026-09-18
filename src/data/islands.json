@@ -556,7 +556,8 @@
   "lat": 64.33333333,
   "lon": -84.66666667,
   "oceans": [
-   "Arctic"
+   "Arctic",
+   "Atlantic"
   ]
  },
  {
@@ -42867,7 +42868,10 @@
   "id": "island-island-of-montreal",
   "category": "island",
   "name": "Island of Montreal",
-  "aliases": [],
+  "aliases": [
+   "Montreal Island",
+   "Ile de Montreal"
+  ],
   "size": 472.55,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Island of Montreal\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
@@ -42882,7 +42886,10 @@
   "id": "island-perce-rock",
   "category": "island",
   "name": "Perce Rock",
-  "aliases": [],
+  "aliases": [
+   "Perce",
+   "Rocher Perce"
+  ],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Percé Rock\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
@@ -43727,7 +43734,7 @@
   "category": "island",
   "name": "L'Isle-aux-Coudres",
   "aliases": [],
-  "size": 100.96,
+  "size": 29.46,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"L'Isle-aux-Coudres\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
   "magnitude": 700,
@@ -43791,14 +43798,14 @@
   ]
  },
  {
-  "id": "island-green-island-fortune",
+  "id": "island-green-island-newfoundland-and-labrador",
   "category": "island",
   "name": "Green Island",
   "aliases": [],
   "size": 1.7,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Green Island (Fortune), Newfoundland and Labrador\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "qualifier": "Fortune",
+  "qualifier": "Newfoundland and Labrador",
   "magnitude": 609,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Green Island (Fortune), Newfoundland and Labrador",
@@ -43837,6 +43844,7 @@
   "lat": 62.5,
   "lon": -83,
   "oceans": [
+   "Arctic",
    "Atlantic"
   ]
  },
@@ -43960,7 +43968,7 @@
   "category": "island",
   "name": "San Benedicto Island",
   "aliases": [],
-  "size": 1370.02,
+  "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"San Benedicto Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
   "magnitude": 517,
@@ -44001,6 +44009,7 @@
   "lat": 56.75,
   "lon": -88.66666667,
   "oceans": [
+   "Arctic",
    "Atlantic"
   ]
  },
@@ -44095,6 +44104,7 @@
   "lat": 56.23333333,
   "lon": -79.28333333,
   "oceans": [
+   "Arctic",
    "Atlantic"
   ]
  },
@@ -44248,23 +44258,6 @@
   ]
  },
  {
-  "id": "island-meteorite-island",
-  "category": "island",
-  "name": "Meteorite Island",
-  "aliases": [],
-  "size": 0,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Meteorite Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "magnitude": 396,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Meteorite Island",
-  "lat": 76.0197,
-  "lon": -65.1149,
-  "oceans": [
-   "Arctic"
-  ]
- },
- {
   "id": "island-random-island",
   "category": "island",
   "name": "Random Island",
@@ -44286,7 +44279,7 @@
   "category": "island",
   "name": "Roca Partida",
   "aliases": [],
-  "size": 1126.37,
+  "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Roca Partida\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
   "magnitude": 396,
@@ -44912,6 +44905,7 @@
   "lat": 61.99166667,
   "lon": -79.83333333,
   "oceans": [
+   "Arctic",
    "Atlantic"
   ]
  },
@@ -45010,23 +45004,6 @@
   "wikiTitle": "Cormorant Island (British Columbia)",
   "lat": 50.58333333,
   "lon": -126.91666667,
-  "oceans": [
-   "Pacific"
-  ]
- },
- {
-  "id": "island-isla-todos-santos",
-  "category": "island",
-  "name": "Isla Todos Santos",
-  "aliases": [],
-  "size": 0,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Isla Todos Santos\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "magnitude": 244,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Isla Todos Santos",
-  "lat": 31.79972222,
-  "lon": -116.78888889,
   "oceans": [
    "Pacific"
   ]
@@ -45470,6 +45447,7 @@
   "lat": 62.68333333,
   "lon": -91.13333333,
   "oceans": [
+   "Arctic",
    "Atlantic"
   ]
  },
@@ -45569,9 +45547,7 @@
   "wikiTitle": "Beaubears Island",
   "lat": 46.97166667,
   "lon": -65.57416667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-brevoort-island",
@@ -45724,7 +45700,7 @@
   "category": "island",
   "name": "Nagjuttuuq",
   "aliases": [
-   "Jenny Lind Island"
+   "Vansittart Island"
   ],
   "size": 1008.89,
   "sizeUnit": "area_km2",
@@ -45735,7 +45711,7 @@
   "lat": 65.87416667,
   "lon": -83.89305556,
   "oceans": [
-   "Atlantic"
+   "Arctic"
   ]
  },
  {
@@ -45910,10 +45886,9 @@
   "category": "island",
   "name": "Barrie Island",
   "aliases": [
-   "Gordon Island",
    "Gordon/Barrie Island"
   ],
-  "size": 263.44,
+  "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Gordon/Barrie Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
   "magnitude": 122,
@@ -46181,9 +46156,7 @@
   "wikiTitle": "Kennebecasis Island",
   "lat": 45.32777778,
   "lon": -66.13055556,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-kirkland-island",
@@ -46299,13 +46272,14 @@
   ]
  },
  {
-  "id": "island-montreal-island",
+  "id": "island-montreal-island-nunavut",
   "category": "island",
   "name": "Montreal Island",
   "aliases": [],
   "size": 25,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Montreal Island (Nunavut)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Nunavut",
   "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Montreal Island (Nunavut)",
@@ -46326,9 +46300,7 @@
   "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "North Harbour Island",
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-north-thormanby-island",
@@ -46399,14 +46371,14 @@
   ]
  },
  {
-  "id": "island-puffin-island-baccalieu-tickle",
+  "id": "island-puffin-island-newfoundland-and-labrador",
   "category": "island",
   "name": "Puffin Island",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Puffin Island (Baccalieu Tickle), Newfoundland and Labrador\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "qualifier": "Baccalieu Tickle",
+  "qualifier": "Newfoundland and Labrador",
   "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Puffin Island (Baccalieu Tickle), Newfoundland and Labrador",
@@ -46420,7 +46392,9 @@
   "id": "island-qikiqtaryuaq",
   "category": "island",
   "name": "Qikiqtaryuaq",
-  "aliases": [],
+  "aliases": [
+   "Jenny Lind Island"
+  ],
   "size": 420,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Qikiqtaryuaq\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
@@ -47364,9 +47338,7 @@
   "wikiTitle": "Douglas Island (British Columbia)",
   "lat": 49.22083333,
   "lon": -122.775,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-grenadier-island-ontario",
@@ -47398,9 +47370,7 @@
   "wikiTitle": "Horseshoe Island (Wisconsin)",
   "lat": 45.17888889,
   "lon": -87.20916667,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-isle-of-man-ontario",
@@ -47468,9 +47438,7 @@
   "wikiTitle": "Bear Island (New Brunswick)",
   "lat": 45.9217,
   "lon": -67.0264,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-big-island-ontario",
@@ -47520,9 +47488,7 @@
   "wikiTitle": "Goat Island (British Columbia)",
   "lat": 50.04722222,
   "lon": -124.44611111,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-graham-island-nunavut",
@@ -47556,9 +47522,7 @@
   "wikiTitle": "Grindstone Island (Ontario)",
   "lat": 44.71083333,
   "lon": -76.23111111,
-  "oceans": [
-   "Atlantic"
-  ]
+  "oceans": []
  },
  {
   "id": "island-henry-island-nova-scotia",
@@ -47645,6 +47609,7 @@
   "lat": 60.77,
   "lon": -78.46,
   "oceans": [
+   "Arctic",
    "Atlantic"
   ]
  }

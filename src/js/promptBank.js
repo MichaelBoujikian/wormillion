@@ -134,7 +134,7 @@
   // pre-merge audit found the matcher's new filler words had leaked in here).
   const LETTER_FILLER = new Set(
     [...matching.FILLER].filter((word) => !['loch', 'lough', 'llyn', 'saint', 'st', 'cape', 'rio',
-      'lago', 'lac', 'lagoa', 'laguna', 'etang', 'fiume', 'fleuve', 'fluss', 'riviere', 'rivier', 'isla', 'islas',
+      'lago', 'lac', 'lagoa', 'laguna', 'etang', 'fiume', 'fleuve', 'fluss', 'riviere', 'rivier', 'isla', 'islas', 'ile',
       // seas are a whole-name category, so these only ever reach a physical
       // name that carries them: the Bay du Nord River starts with B (the
       // 2026-09-18 rivers audit had it starting with D)

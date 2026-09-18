@@ -11447,8 +11447,8 @@ Washington Island (Michigan)|2.59
 Hans Island|1.3
 Sable Island|31
 Island of the Dolls|0
-Island of Montreal|472.55
-Perce Rock|0
+Island of Montreal|472.55|Montreal Island,Ile de Montreal
+Perce Rock|0|Perce,Rocher Perce
 Rene-Levasseur Island|2020
 Bell Island|34
 Beechey Island|4.6
@@ -11500,11 +11500,11 @@ Dildo Island|0
 Silver Islet|0
 Ward Hunt Island|13.9
 Fighting Island|6.06
-L'Isle-aux-Coudres|100.96
+L'Isle-aux-Coudres|29.46
 Malcolm Island|81.9
 Prince Charles Island|9665.87
 Brier Island|0
-Green Island (Fortune)|1.7
+Green Island (Newfoundland and Labrador)|1.7
 Ile Jesus|242
 Coats Island|5708.64
 Pictou Island|0
@@ -11514,7 +11514,7 @@ Miscou Island|67
 Beausoleil Island|0
 Funk Island|0
 Howe Island|31
-San Benedicto Island|1370.02
+San Benedicto Island|0
 Triquet Island|1.44
 East Pen Island|0
 Isla Perez|0
@@ -11532,9 +11532,8 @@ Akpatok Island|903
 Banco Chinchorro|0
 Giants Tomb Island|0
 Isla de Sacrificios|0
-Meteorite Island|0
 Random Island|248.3
-Roca Partida|1126.37
+Roca Partida|0
 Isle Madame|45
 Main Duck Island|0
 Meighen Island|955
@@ -11578,7 +11577,6 @@ Qaqulluit|9.7
 Simcoe Island|0
 Borden Island|2795.95
 Cormorant Island|0
-Isla Todos Santos|0
 Langara Island|32.7
 Lennox Island|0
 Mudge Island|0
@@ -11621,7 +11619,7 @@ Isla del Carmen|145.94
 Kelvin Island|0
 Micou's Island|0
 Mitchell Island|0
-Nagjuttuuq|1008.89|Jenny Lind Island
+Nagjuttuuq|1008.89|Vansittart Island
 New World Island|185.4
 Nova Zembla Island|44.2
 Pearse Island|210
@@ -11632,7 +11630,7 @@ Stag Island (Nunavut)|0
 Stefansson Island|4490.11
 Yorke Island|0
 Aristazabal Island|420
-Barrie Island|263.44|Gordon Island,Gordon/Barrie Island
+Barrie Island|0|Gordon/Barrie Island
 Brock Island|764
 Broughton Island|127.6
 Brunette Island|20
@@ -11656,14 +11654,14 @@ Little Tancook Island|0
 Lougheed Island|1331.12
 McMillan Island|1.78
 Merasheen Island|125
-Montreal Island|25
+Montreal Island (Nunavut)|25
 North Harbour Island|0
 North Thormanby Island|0
 Nottingham Island|1349.62
 Paul's Island|174.6
 Pitt Island|1398.55
-Puffin Island (Baccalieu Tickle)|0
-Qikiqtaryuaq|420
+Puffin Island (Newfoundland and Labrador)|0
+Qikiqtaryuaq|420|Jenny Lind Island
 San Esteban Island|39.77
 San Pedro Martir Island|2.72
 Sober Island|0

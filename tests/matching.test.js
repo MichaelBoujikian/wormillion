@@ -408,6 +408,22 @@ test('"Isla" is an island word for the matcher and a letter for the letter rules
   assert.strictEqual(matching.matchAnswer('Angel de la Guarda Island', islands, null).entryId, 'island-isla-angel-de-la-guarda');
 });
 
+test('a typo of a famous island is not a tie with its "Isla X" namesake (2026-09-18 islands audit)', () => {
+  const islands = matching.buildLookup([
+    { id: 'island-santa-catalina-island', name: 'Santa Catalina Island', aliases: [], magnitude: 24474 },
+    { id: 'island-isla-santa-catalina', name: 'Isla Santa Catalina', aliases: [], magnitude: 183 },
+    { id: 'island-ile-bizard', name: 'Ile Bizard', aliases: [], magnitude: 913 },
+    { id: 'island-wizard-island', name: 'Wizard Island', aliases: [], magnitude: 2922 }
+  ], { category: 'island' });
+  // "santa catlina" is one edit from both bare forms: the loose list, most-viewed first, not a tie
+  const typo = matching.matchAnswer('Santa Catlina', islands, null);
+  assert.strictEqual(typo.status, 'corrected');
+  assert.strictEqual(typo.entryId, 'island-santa-catalina-island');
+  // "ile" is an island word: "Bizard" is Ile Bizard, not a typo of Wizard Island
+  assert.strictEqual(matching.matchAnswer('Bizard', islands, null).entryId, 'island-ile-bizard');
+  assert.strictEqual(matching.matchAnswer('Bizard Island', islands, null).entryId, 'island-ile-bizard');
+});
+
 test('an all-generic-word input has no edit budget of its own (2026-09-16 audit)', () => {
   const rivers = matching.buildLookup([
     { id: 'river-mole', name: 'Mole', aliases: ['River Mole'] },

@@ -53,6 +53,8 @@
     'desert', 'the', 'of', 'city', 'saint', 'st', 'cape', 'atoll',
     // "Isla Angel de la Guarda", "Islas Marias" (the Mexico and Canada wave, 2026-09-18)
     'isla', 'islas',
+    // "Ile Bizard", "Ile Jesus", "Ile Perrot" (the 2026-09-18 islands audit: "Bizard" was Wizard Island)
+    'ile',
     // 2026-09-16: "Fiume Sacco", "Fleuve Charente", "Fluss Isar", "Rivier Dinkel"
     'fiume', 'fleuve', 'fluss', 'riviere', 'rivier',
     // "Lago di Nemi", "Lac du Bourget", "Lagoa do Fogo", "Laguna di Orbetello", "Etang de Thau"
@@ -76,7 +78,7 @@
     lake: ['lake'], loch: ['lake', 'sea_ocean'], lough: ['lake', 'sea_ocean'], llyn: ['lake'], reservoir: ['lake'], lago: ['lake'], lac: ['lake'], lagoa: ['lake'], laguna: ['lake'], etang: ['lake'],
     river: ['river'], rio: ['river'], fiume: ['river'], fleuve: ['river'], fluss: ['river'], riviere: ['river'], rivier: ['river'],
     sea: ['sea_ocean'], ocean: ['sea_ocean'], gulf: ['sea_ocean'], bay: ['sea_ocean'],
-    island: ['island'], islands: ['island'], isle: ['island'], isles: ['island'], atoll: ['island'], isla: ['island'], islas: ['island'],
+    island: ['island'], islands: ['island'], isle: ['island'], isles: ['island'], atoll: ['island'], isla: ['island'], islas: ['island'], ile: ['island'],
     desert: ['desert'],
     city: ['city', 'capital']
   };
@@ -363,7 +365,12 @@
       if (score < bestScore) {
         bestScore = score;
         winners = [candidate];
-      } else if (score === bestScore && !winners.some((w) => w.id === candidate.id || w.key === candidate.key)) {
+      } else if (score === bestScore && !winners.some((w) => w.id === candidate.id || w.key === candidate.key || ((score & 1) && w.bare === candidate.bare))) {
+        // ...and the same BARE spelling from two entries whose full names
+        // differ ("Santa Catalina Island" beside "Isla Santa Catalina") is
+        // one candidate too when the hit came through the bare form: the
+        // loose list then picks by scope, most-viewed first (the 2026-09-18
+        // islands audit: 153 typos of the famous one had become ties)
         // (the same spelling from two namesakes is one candidate: a typo of
         // "Syracuse" lands on that name, and the scope pick follows)
         winners.push(candidate);
@@ -375,6 +382,7 @@
     // reported as such, so the caller knows something WAS close.
     if (winners.length > 1) return { tie: true };
     if (winners.length !== 1) return null;
+    if ((bestScore & 1) && lookup.loose && lookup.loose.get(winners[0].bare)) return { ids: idsAt(lookup.loose, winners[0].bare), key: winners[0].key, distance: bestScore >> 1 };
     return { ids: idsAt(lookup, winners[0].key), key: winners[0].key, distance: bestScore >> 1 };
   }
 

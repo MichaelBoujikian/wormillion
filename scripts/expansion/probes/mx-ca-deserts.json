@@ -1,0 +1,26 @@
+{
+  "name": "mx-ca-deserts",
+  "category": "desert",
+  "jsonFile": "deserts.json",
+  "roots": [
+    "Category:Deserts of Mexico",
+    "Category:Deserts of Canada",
+    "Category:Deserts of North America",
+    "Category:Badlands of Canada"
+  ],
+  "subcat": "^Category:(Deserts|Badlands|Semi-arid regions) of (?!.*(Africa|Asia|Europe|Australia|Antarctic|United States|California|Arizona|Nevada|Utah|New Mexico|Texas|Oregon|Idaho|Colorado|Wyoming))",
+  "lists": [
+    "List of deserts",
+    "List of deserts by area",
+    "List of North American deserts"
+  ],
+  "kind": "(desert|dunes?|sand|arid|badlands|erg|playa|salt flat|dry lake|basin and range|Desert$|Dunes$|Sands$|Flats?$)",
+  "skipTitle": "(^List of|^Geography of|Park$|Refuge$|Wildlife|Airport|Base$|Station$|Township|County$|Resort$|Preserve$|Monument$|Trail$|Reservation$|Range$|Canyon$|Valley$)",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "spellings": "desert",
+  "notKind": "^(town|city|village|county|census|neighborhood|community|unincorporated|resort|park|monument|refuge|wildlife|preserve|state park|national park|reservation|mountain range|range|river|lake|reservoir|dam|canal|valley|canyon|plateau|basin|region of|ecoregion|highway|road|trail|airport|base|station|list|company|film|novel|album|band|festival)",
+  "minSize": 1,
+  "noFigureViews": 122,
+  "famousViews": 1000
+}

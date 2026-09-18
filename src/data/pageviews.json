@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T21:09:26.873Z",
+ "fetched": "2026-09-18T21:45:20.250Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -110856,7 +110856,7 @@
    "lat": 44.25888889,
    "lon": -66.36222222
   },
-  "island-green-island-fortune": {
+  "island-green-island-newfoundland-and-labrador": {
    "title": "Green Island (Fortune), Newfoundland and Labrador",
    "monthlyViews": 609,
    "days": 60,
@@ -111051,13 +111051,6 @@
    "days": 60,
    "lat": 19.1751,
    "lon": -96.0921
-  },
-  "island-meteorite-island": {
-   "title": "Meteorite Island",
-   "monthlyViews": 396,
-   "days": 60,
-   "lat": 76.0197,
-   "lon": -65.1149
   },
   "island-random-island": {
    "title": "Random Island",
@@ -111373,13 +111366,6 @@
    "days": 60,
    "lat": 50.58333333,
    "lon": -126.91666667
-  },
-  "island-isla-todos-santos": {
-   "title": "Isla Todos Santos",
-   "monthlyViews": 244,
-   "days": 60,
-   "lat": 31.79972222,
-   "lon": -116.78888889
   },
   "island-langara-island": {
    "title": "Langara Island",
@@ -111920,7 +111906,7 @@
    "lat": 47.45722222,
    "lon": -54.24583333
   },
-  "island-montreal-island": {
+  "island-montreal-island-nunavut": {
    "title": "Montreal Island (Nunavut)",
    "monthlyViews": 122,
    "days": 60,
@@ -111962,7 +111948,7 @@
    "lat": 53.5,
    "lon": -129.78333333
   },
-  "island-puffin-island-baccalieu-tickle": {
+  "island-puffin-island-newfoundland-and-labrador": {
    "title": "Puffin Island (Baccalieu Tickle), Newfoundland and Labrador",
    "monthlyViews": 122,
    "days": 59,
