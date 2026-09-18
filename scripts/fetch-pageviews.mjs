@@ -125,6 +125,7 @@ function loadEntries() {
       entries.push({
         id: entry.id,
         name: entry.name,
+        qualifier: entry.qualifier,
         category: entry.category,
         title: WIKI_TITLES[entry.id] || entry.name,
         overridden: Boolean(WIKI_TITLES[entry.id])
@@ -190,7 +191,10 @@ async function resolveTitles(entries) {
 function audit(entries) {
   const problems = [];
   for (const entry of entries) {
-    if (entry.missing) problems.push({ ...entry, why: 'no such article' });
+    // A namesake's bare name is some other article (or a disambiguation
+    // page): its article is named in WIKI_TITLES or not at all.
+    if (entry.qualifier && !entry.overridden) problems.push({ ...entry, why: `a namesake ("${entry.name} (${entry.qualifier})") needs its own WIKI_TITLES row` });
+    else if (entry.missing) problems.push({ ...entry, why: 'no such article' });
     else if (entry.disambiguation) problems.push({ ...entry, why: 'disambiguation page' });
     else if (WIKI_VERIFIED.has(entry.id)) continue; // subject checked by hand
     // A title or description naming an airport, a station, a school, a crash… is a

@@ -95,6 +95,32 @@ test('the validator actually catches the things it claims to', async () => {
   assert.ok(validate({ 'a.json': [{ ...capital, flag: ['teal'] }] }).errors.some((e) => e.includes('unknown flag colour')));
 });
 
+test('namesakes are legal with a distinct qualifier each, and nothing less (decision 5)', async () => {
+  const { validate, validateThemes } = await load();
+  const entry = {
+    id: 'city-portland-oregon', category: 'city', name: 'Portland', aliases: [], qualifier: 'Oregon',
+    magnitude: 1200, magnitudeUnit: 'pageviews_monthly', wikiTitle: 'Portland, Oregon',
+    size: 630000, sizeUnit: 'population', source: 'fixture', region: ['North America'], country: 'United States'
+  };
+  const maine = { ...entry, id: 'city-portland-maine', qualifier: 'Maine', wikiTitle: 'Portland, Maine' };
+  assert.deepStrictEqual(validate({ 'a.json': [entry, maine] }).errors, []);
+  // one holder may go without a qualifier; two may not
+  const bare = { ...entry, id: 'city-portland', qualifier: undefined };
+  assert.deepStrictEqual(validate({ 'a.json': [bare, maine] }).errors, []);
+  assert.ok(validate({ 'a.json': [bare, { ...maine, id: 'city-portland-2', qualifier: undefined }] }).errors.some((e) => e.includes('need a qualifier each')));
+  // two qualifiers that agree tell nobody apart
+  assert.ok(validate({ 'a.json': [entry, { ...maine, qualifier: 'oregon' }] }).errors.some((e) => e.includes('same qualifier')));
+  // a qualifier is a string, and not the name again
+  assert.ok(validate({ 'a.json': [{ ...entry, qualifier: '' }] }).errors.some((e) => e.includes('qualifier must be')));
+  assert.ok(validate({ 'a.json': [{ ...entry, qualifier: 'Portland' }] }).errors.some((e) => e.includes('repeats the name')));
+  // the generated forms are keys too: an alias may not take one
+  assert.ok(validate({ 'a.json': [entry, { ...maine, aliases: ['Portland OR'] }] }).errors.some((e) => e.includes('portland or')));
+  // a theme lists a namesake with its qualifier, never bare
+  const themes = (names) => `globalThis.WORMILLION_THEMES = { city: { 'Cascadia': ${JSON.stringify(names)} } };`;
+  assert.deepStrictEqual(validateThemes({ 'a.json': [entry, maine] }, themes(['Portland (Oregon)', 'Portland, Maine'])).errors, []);
+  assert.ok(validateThemes({ 'a.json': [entry, maine] }, themes(['Portland', 'Portland (Maine)'])).errors.some((e) => e.includes('2 places share')));
+});
+
 test('bank.js and the JSON files hold the same entries', async () => {
   const { loadDataFiles } = await load();
   const files = await loadDataFiles();

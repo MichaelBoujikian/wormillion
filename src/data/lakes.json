@@ -9994,13 +9994,14 @@
  {
   "id": "lake-karakul-tajikistan",
   "category": "lake",
-  "name": "Karakul (Tajikistan)",
+  "name": "Karakul",
   "aliases": [
    "Kara-Kul"
   ],
   "size": 380,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Karakul (Tajikistan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference surface-area figures (km2), rounded",
+  "qualifier": "Tajikistan",
   "magnitude": 1492,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Karakul (Tajikistan)",

@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T01:11:23.672Z",
+ "fetched": "2026-09-18T03:06:12.359Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -38924,7 +38924,7 @@
    "lat": 53.343316,
    "lon": -6.181303
   },
-  "river-bristol-avon": {
+  "river-avon-bristol": {
    "title": "River Avon, Bristol",
    "monthlyViews": 4049,
    "days": 59,
@@ -39582,7 +39582,7 @@
    "lat": 51.06722222,
    "lon": -2.91722222
   },
-  "river-warwickshire-avon": {
+  "river-avon-warwickshire": {
    "title": "River Avon, Warwickshire",
    "monthlyViews": 3501,
    "days": 60,
@@ -44307,7 +44307,7 @@
    "lat": 40.29944444,
    "lon": 28.45722222
   },
-  "river-scamander-karamenderes": {
+  "river-scamander": {
    "title": "Karamenderes River",
    "monthlyViews": 2100,
    "days": 60,
@@ -50229,7 +50229,7 @@
    "lat": 18.25,
    "lon": 37.63333333
   },
-  "river-tana-river-kenya": {
+  "river-tana-kenya": {
    "title": "Tana River (Kenya)",
    "monthlyViews": 1157,
    "days": 60,
@@ -50537,7 +50537,7 @@
    "lat": -28.51722222,
    "lon": 20.21277778
   },
-  "river-fish-river-namibia": {
+  "river-fish-namibia": {
    "title": "Fish River (Namibia)",
    "monthlyViews": 213,
    "days": 60,
@@ -52483,7 +52483,7 @@
    "lat": -3.51527778,
    "lon": 114.49111111
   },
-  "river-musi": {
+  "river-musi-indonesia": {
    "title": "Musi River (Indonesia)",
    "monthlyViews": 487,
    "days": 59,
@@ -94861,7 +94861,7 @@
    "lat": 44.12666667,
    "lon": -68.43972222
   },
-  "island-green-island": {
+  "island-green-island-new-york": {
    "title": "Green Island, New York",
    "monthlyViews": 852,
    "days": 60,

@@ -1340,15 +1340,16 @@
   "lon": -6.181303
  },
  {
-  "id": "river-bristol-avon",
+  "id": "river-avon-bristol",
   "category": "river",
-  "name": "Bristol Avon",
+  "name": "Avon",
   "aliases": [
-   "River Avon"
+   "Bristol Avon"
   ],
   "size": 121,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"River Avon, Bristol\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Bristol",
   "magnitude": 4049,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "River Avon, Bristol"
@@ -2120,13 +2121,12 @@
  {
   "id": "river-derwent-derbyshire",
   "category": "river",
-  "name": "Derwent (Derbyshire)",
-  "aliases": [
-   "River Derwent"
-  ],
+  "name": "Derwent",
+  "aliases": [],
   "size": 107,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"River Derwent, Derbyshire\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Derbyshire",
   "magnitude": 2557,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "River Derwent, Derbyshire",
@@ -2514,13 +2514,12 @@
  {
   "id": "river-stour-kent",
   "category": "river",
-  "name": "Stour (Kent)",
-  "aliases": [
-   "River Stour"
-  ],
+  "name": "Stour",
+  "aliases": [],
   "size": 64,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"River Stour, Kent\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Kent",
   "magnitude": 944,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "River Stour, Kent"
@@ -2782,13 +2781,16 @@
   "lon": -2.91722222
  },
  {
-  "id": "river-warwickshire-avon",
+  "id": "river-avon-warwickshire",
   "category": "river",
-  "name": "Warwickshire Avon",
-  "aliases": [],
+  "name": "Avon",
+  "aliases": [
+   "Warwickshire Avon"
+  ],
   "size": 154,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"River Avon, Warwickshire\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Warwickshire",
   "magnitude": 3501,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "River Avon, Warwickshire",
@@ -11405,11 +11407,12 @@
  {
   "id": "river-krka-croatia",
   "category": "river",
-  "name": "Krka (Croatia)",
+  "name": "Krka",
   "aliases": [],
   "size": 72,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Krka (Adriatic Sea)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Croatia",
   "magnitude": 426,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Krka (Adriatic Sea)",
@@ -12349,10 +12352,12 @@
   "lon": 28.45722222
  },
  {
-  "id": "river-scamander-karamenderes",
+  "id": "river-scamander",
   "category": "river",
-  "name": "Scamander (Karamenderes)",
-  "aliases": [],
+  "name": "Scamander",
+  "aliases": [
+   "Karamenderes"
+  ],
   "size": 71,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Karamenderes River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -19683,13 +19688,12 @@
  {
   "id": "river-saint-john-new-brunswick",
   "category": "river",
-  "name": "Saint John (New Brunswick)",
-  "aliases": [
-   "Saint John River"
-  ],
+  "name": "Saint John",
+  "aliases": [],
   "size": 673,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Saint John River (Bay of Fundy)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "New Brunswick",
   "magnitude": 2527,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Saint John River (Bay of Fundy)",
@@ -19939,13 +19943,12 @@
  {
   "id": "river-grand-ontario",
   "category": "river",
-  "name": "Grand (Ontario)",
-  "aliases": [
-   "Grand River"
-  ],
+  "name": "Grand",
+  "aliases": [],
   "size": 280,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Grand River (Ontario)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Ontario",
   "magnitude": 2496,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Grand River (Ontario)",
@@ -20715,11 +20718,12 @@
  {
   "id": "river-new-river-belize",
   "category": "river",
-  "name": "New River (Belize)",
+  "name": "New River",
   "aliases": [],
   "size": 66,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"New River (Belize)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Belize",
   "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "New River (Belize)",
@@ -24842,13 +24846,12 @@
  {
   "id": "river-saint-paul-river-liberia",
   "category": "river",
-  "name": "Saint Paul River (Liberia)",
-  "aliases": [
-   "St. Paul River"
-  ],
+  "name": "Saint Paul River",
+  "aliases": [],
   "size": 515,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Saint Paul River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Liberia",
   "magnitude": 152,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Saint Paul River",
@@ -25402,15 +25405,14 @@
   "lon": 37.63333333
  },
  {
-  "id": "river-tana-river-kenya",
+  "id": "river-tana-kenya",
   "category": "river",
-  "name": "Tana River (Kenya)",
-  "aliases": [
-   "Tana River"
-  ],
+  "name": "Tana",
+  "aliases": [],
   "size": 1000,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Tana River (Kenya)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Kenya",
   "magnitude": 1157,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Tana River (Kenya)"
@@ -26105,15 +26107,14 @@
   "lon": 20.21277778
  },
  {
-  "id": "river-fish-river-namibia",
+  "id": "river-fish-namibia",
   "category": "river",
-  "name": "Fish River (Namibia)",
-  "aliases": [
-   "Fish River"
-  ],
+  "name": "Fish",
+  "aliases": [],
   "size": 650,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Fish River (Namibia)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Namibia",
   "magnitude": 213,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Fish River (Namibia)",
@@ -26911,13 +26912,12 @@
  {
   "id": "river-min-sichuan",
   "category": "river",
-  "name": "Min (Sichuan)",
-  "aliases": [
-   "Min River"
-  ],
+  "name": "Min",
+  "aliases": [],
   "size": 735,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Min River (Sichuan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Sichuan",
   "magnitude": 548,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Min River (Sichuan)",
@@ -29172,13 +29172,12 @@
  {
   "id": "river-manas-india",
   "category": "river",
-  "name": "Manas (India)",
-  "aliases": [
-   "Manas River"
-  ],
+  "name": "Manas",
+  "aliases": [],
   "size": 375,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Manas River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "India",
   "magnitude": 548,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Manas River",
@@ -29232,13 +29231,12 @@
  {
   "id": "river-musi-india",
   "category": "river",
-  "name": "Musi (India)",
-  "aliases": [
-   "Musi River"
-  ],
+  "name": "Musi",
+  "aliases": [],
   "size": 240,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Musi River (India)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "India",
   "magnitude": 2009,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Musi River (India)",
@@ -29691,13 +29689,12 @@
  {
   "id": "river-tapi-thailand",
   "category": "river",
-  "name": "Tapi (Thailand)",
-  "aliases": [
-   "Tapi River"
-  ],
+  "name": "Tapi",
+  "aliases": [],
   "size": 225,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Tapi River (Thailand)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Thailand",
   "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Tapi River (Thailand)",
@@ -30149,13 +30146,14 @@
   "lon": 114.49111111
  },
  {
-  "id": "river-musi",
+  "id": "river-musi-indonesia",
   "category": "river",
   "name": "Musi",
   "aliases": [],
   "size": 750,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Musi River (Indonesia)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Indonesia",
   "magnitude": 487,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Musi River (Indonesia)",
@@ -30959,13 +30957,12 @@
  {
   "id": "river-fitzroy-western-australia",
   "category": "river",
-  "name": "Fitzroy (Western Australia)",
-  "aliases": [
-   "Fitzroy River"
-  ],
+  "name": "Fitzroy",
+  "aliases": [],
   "size": 733,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Fitzroy River (Western Australia)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Western Australia",
   "magnitude": 548,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Fitzroy River (Western Australia)",
@@ -31691,11 +31688,12 @@
  {
   "id": "river-avon-western-australia",
   "category": "river",
-  "name": "Avon (Western Australia)",
+  "name": "Avon",
   "aliases": [],
   "size": 280,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Avon River (Western Australia)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Western Australia",
   "magnitude": 396,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Avon River (Western Australia)",
@@ -32309,13 +32307,12 @@
  {
   "id": "river-rewa-fiji",
   "category": "river",
-  "name": "Rewa (Fiji)",
-  "aliases": [
-   "Rewa River"
-  ],
+  "name": "Rewa",
+  "aliases": [],
   "size": 145,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Rewa River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Fiji",
   "magnitude": 213,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Rewa River",

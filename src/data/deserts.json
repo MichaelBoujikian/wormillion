@@ -1197,11 +1197,12 @@
  {
   "id": "desert-red-desert-wyoming",
   "category": "desert",
-  "name": "Red Desert (Wyoming)",
+  "name": "Red Desert",
   "aliases": [],
   "size": 23300,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Red Desert (Wyoming)\", 60-day daily median (60 days ending 2026-09-18); Standard reference desert areas (km2), rounded",
+  "qualifier": "Wyoming",
   "magnitude": 1705,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Red Desert (Wyoming)",
@@ -1415,7 +1416,7 @@
  {
   "id": "desert-white-desert-egypt",
   "category": "desert",
-  "name": "White Desert (Egypt)",
+  "name": "White Desert",
   "aliases": [
    "Sahara el Beyda",
    "White Desert Protected Area"
@@ -1423,6 +1424,7 @@
   "size": 300,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"White Desert National Park\", 60-day daily median (60 days ending 2026-09-18); Standard reference desert areas (km2), rounded",
+  "qualifier": "Egypt",
   "magnitude": 1218,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "White Desert National Park",
@@ -1432,11 +1434,12 @@
  {
   "id": "desert-black-desert-egypt",
   "category": "desert",
-  "name": "Black Desert (Egypt)",
+  "name": "Black Desert",
   "aliases": [],
   "size": 500,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Black Desert (Egypt)\", 60-day daily median (60 days ending 2026-09-18); Standard reference desert areas (km2), rounded",
+  "qualifier": "Egypt",
   "magnitude": 517,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Black Desert (Egypt)"

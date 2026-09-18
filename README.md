@@ -328,6 +328,16 @@ and a name that is exactly a place in another category tells you so
 ("Auckland is a non-capital city — this round wants a capital city") and
 costs nothing.
 
+Same-name places live side by side: Syracuse is in the bank twice, as
+Syracuse (New York) and Syracuse (Sicily), and **the round decides which one
+you meant** — a bare "Syracuse" on "Name a city in Europe" is the Sicilian
+one, on a plain "Name a city" it is the more famous one (the safe score), and
+typing "Syracuse, Sicily", "Syracuse (Sicily)" or, for a US state, "Portland
+ME" is exact. The one exception is a name whose famous holder is a capital:
+"Athens" on a city round still says "Athens is a capital city", and Athens,
+Georgia wants its state. Letter and length rules only ever look at the bare
+name.
+
 ## Decisions this build made beyond SPEC.md
 
 The spec left a few things open or assumed a shape that fought a harder

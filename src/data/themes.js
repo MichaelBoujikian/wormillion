@@ -114,7 +114,7 @@ globalThis.WORMILLION_THEMES = {
     'Mesopotamia': ['Tigris', 'Euphrates'],
     'the British Isles': [
       'Thames', 'Severn', 'Trent', 'Shannon', 'Liffey', 'Clyde', 'Tay', 'Spey',
-      'Wye', 'Aire', 'Ouse', 'Cam', 'Medway', 'Bristol Avon', 'River Tweed',
+      'Wye', 'Aire', 'Ouse', 'Cam', 'Medway', 'Avon (Bristol)', 'River Tweed',
       'River Forth', 'River Exe', 'River Dee', 'River Bann',
       // 2026-09-14 expansion
       'Mersey', 'Humber', 'Tyne', 'Wear', 'Tees',
@@ -127,7 +127,7 @@ globalThis.WORMILLION_THEMES = {
       'Piddle', 'Axe', 'Otter', 'Teign', 'Dart',
       'Tamar', 'Tavy', 'Plym', 'Fal', 'Fowey',
       'Camel', 'Torridge', 'Taw', 'Parrett', 'Tone',
-      'Warwickshire Avon', 'Teme', 'Lugg', 'Monnow', 'Usk',
+      'Avon (Warwickshire)', 'Teme', 'Lugg', 'Monnow', 'Usk',
       'Taff', 'Ebbw', 'Tawe', 'Tywi', 'Teifi',
       'Cleddau', 'Ystwyth', 'Rheidol', 'Dyfi', 'Mawddach',
       'Glaslyn', 'Conwy', 'Clwyd', 'Vyrnwy', 'Ness',
@@ -240,7 +240,7 @@ globalThis.WORMILLION_THEMES = {
       'Pibor', 'Bahr el Ghazal',
       'Kagera', 'Nyabarongo', 'Semliki', 'Tekeze', 'Dinder',
       'Rahad', 'Awash', 'Omo', 'Shebelle', 'Jubba',
-      'Dawa', 'Ganale', 'Mareb', 'Barka', 'Tana River (Kenya)',
+      'Dawa', 'Ganale', 'Mareb', 'Barka', 'Tana (Kenya)',
       'Athi-Galana', 'Ewaso Ngiro', 'Mara', 'Nzoia', 'Turkwel',
       'Kerio', 'Pangani', 'Rufiji', 'Great Ruaha', 'Kilombero',
       'Ruvuma', 'Wami', 'Malagarasi', 'Lugenda', 'Shire',
@@ -249,7 +249,7 @@ globalThis.WORMILLION_THEMES = {
       'Crocodile', 'Letaba', 'Luvuvhu', 'Shashe', 'Sabie',
       'Komati', 'Usutu', 'Pongola', 'Tugela', 'Mzimvubu',
       'Great Kei', 'Great Fish', 'Sundays', 'Gamtoos', 'Breede',
-      'Berg', 'Vaal', 'Caledon', 'Molopo', 'Fish River (Namibia)',
+      'Berg', 'Vaal', 'Caledon', 'Molopo', 'Fish (Namibia)',
       'Swakop', 'Kuiseb', 'Ugab', 'Boteti', 'Betsiboka',
       'Mangoky', 'Tsiribihina', 'Sebou', 'Moulouya', 'Oum Er-Rbia',
       'Bou Regreg', 'Tensift', 'Draa', 'Ziz', 'Sous',
@@ -271,7 +271,7 @@ globalThis.WORMILLION_THEMES = {
       'Piddle', 'Axe', 'Otter', 'Teign', 'Dart',
       'Tamar', 'Tavy', 'Plym', 'Fal', 'Fowey',
       'Camel', 'Torridge', 'Taw', 'Parrett', 'Tone',
-      'Warwickshire Avon', 'Teme', 'Lugg', 'Monnow', 'Usk',
+      'Avon (Warwickshire)', 'Teme', 'Lugg', 'Monnow', 'Usk',
       'Taff', 'Ebbw', 'Tawe', 'Tywi', 'Teifi',
       'Cleddau', 'Ystwyth', 'Rheidol', 'Dyfi', 'Mawddach',
       'Glaslyn', 'Conwy', 'Clwyd', 'Vyrnwy', 'Ness',
@@ -561,7 +561,7 @@ globalThis.WORMILLION_THEMES = {
       'Ne', 'Busento',
       // add-theme.mjs
       'Thames', 'Severn', 'Trent', 'Shannon', 'Clyde',
-      'Liffey', 'Wye', 'Tay', 'Bristol Avon', 'Ouse',
+      'Liffey', 'Wye', 'Tay', 'Avon (Bristol)', 'Ouse',
       'Cam', 'Medway', 'River Dee', 'River Tweed', 'River Forth',
       'Spey', 'Aire', 'River Exe', 'River Bann'
     ],

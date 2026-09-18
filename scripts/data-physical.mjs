@@ -1333,7 +1333,7 @@ Clyde|176|River Clyde
 Spey|172|River Spey
 Aire|148|River Aire
 Liffey|132|River Liffey
-Bristol Avon|121|River Avon
+Avon (Bristol)|121|Bristol Avon
 Medway|113|River Medway
 Ouse|84|River Ouse
 Cam|64|River Cam
@@ -1385,7 +1385,7 @@ Tees|137|River Tees
 Ribble|121|River Ribble
 Lune|71|River Lune
 Eden|145|River Eden
-Derwent (Derbyshire)|107|River Derwent
+Derwent (Derbyshire)|107
 Calder|72|River Calder
 Wharfe|96|River Wharfe
 Nidd|55|River Nidd
@@ -1410,7 +1410,7 @@ Test|64|River Test
 Arun|58|River Arun
 Adur|32|River Adur
 Cuckmere|32|River Cuckmere
-Stour (Kent)|64|River Stour
+Stour (Kent)|64
 Frome|64|River Frome
 Piddle|40|River Piddle
 Axe|35|River Axe
@@ -1427,7 +1427,7 @@ Torridge|58|River Torridge
 Taw|69|River Taw
 Parrett|60|River Parrett
 Tone|32|River Tone
-Warwickshire Avon|154
+Avon (Warwickshire)|154|Warwickshire Avon
 Teme|82|River Teme
 Lugg|68|River Lugg
 Monnow|56|River Monnow
@@ -2102,7 +2102,7 @@ Porsuk|460
 Bartin|133
 Filyos|228
 Nilufer|106
-Scamander (Karamenderes)|71
+Scamander|71|Karamenderes
 Rioni|327
 Enguri|213
 Kodori|96
@@ -2589,7 +2589,7 @@ Koksoak|64|Koksoak River
 Caniapiscau|475|Caniapiscau River
 Exploits|246|Exploits River
 Gander|72|Gander River
-Saint John (New Brunswick)|673|Saint John River
+Saint John (New Brunswick)|673
 Miramichi|217|Miramichi River
 Restigouche|200|Restigouche River
 Petitcodiac|79|Petitcodiac River
@@ -2605,7 +2605,7 @@ Gatineau|386|Gatineau River
 Rideau|146|Rideau River
 Madawaska|230|Madawaska River
 Petawawa|188|Petawawa River
-Grand (Ontario)|280|Grand River
+Grand (Ontario)|280
 Credit|90|Credit River
 Niagara|56|Niagara River
 Detroit River|82
@@ -2913,7 +2913,7 @@ Bandama|1050|Bandama River
 Sassandra|650|Sassandra River
 Comoe|1160|Comoe River
 Cavally|515|Cavally River
-Saint Paul River (Liberia)|515|St. Paul River
+Saint Paul River (Liberia)|515
 Mano|400|Mano River
 Lofa|350|Lofa River
 Moa|400|Moa River
@@ -2948,7 +2948,7 @@ Dawa|800|Dawa River
 Ganale|600|Ganale Dorya
 Mareb|400|Mareb River
 Barka|560|Barka River
-Tana River (Kenya)|1000|Tana River
+Tana (Kenya)|1000
 Athi-Galana|760|Galana River,Athi River
 Ewaso Ngiro|470
 Mara|395|Mara River
@@ -2992,7 +2992,7 @@ Berg|285|Berg River
 Vaal|1120|Vaal River
 Caledon|480|Caledon River,Mohokare
 Molopo|960|Molopo River
-Fish River (Namibia)|650|Fish River
+Fish (Namibia)|650
 Swakop|460|Swakop River
 Kuiseb|560|Kuiseb River
 Ugab|450|Ugab River
@@ -3046,7 +3046,7 @@ Luan|877|Luan He
 Yongding|650
 Huai|1000
 Jialing|1119
-Min (Sichuan)|735|Min River
+Min (Sichuan)|735
 Dadu|1062
 Wu|1037|Wu River
 Yuan|1033
@@ -3202,11 +3202,11 @@ Subarnarekha|395
 Teesta|414
 Palar|348
 Torsa|358
-Manas (India)|375|Manas River
+Manas (India)|375
 Barak|900
 Vaigai|258
 Purna|274|Purna River
-Musi (India)|240|Musi River
+Musi (India)|240
 Periyar|244
 Penna|597|Pennar
 Hooghly|260|Hugli
@@ -3238,7 +3238,7 @@ Tha Chin|325
 Wang|335
 Bang Pakong|230
 Pattani|210
-Tapi (Thailand)|225|Tapi River
+Tapi (Thailand)|225
 Mae Klong|140
 Tonle Sap River|120|Tonle Sap
 Sekong|480
@@ -3270,7 +3270,7 @@ Johor|122
 Kapuas|1143
 Mahakam|980
 Barito|890
-Musi|750
+Musi (Indonesia)|750
 Batang Hari|800
 Kampar|413
 Indragiri|500
@@ -3327,7 +3327,7 @@ Balonne|480
 Castlereagh|490
 Todd|60
 Flinders|841
-Fitzroy (Western Australia)|733|Fitzroy River
+Fitzroy (Western Australia)|733
 Mitchell|750|Mitchell River
 Burdekin|740
 Roper|588
@@ -3421,7 +3421,7 @@ Tarawera|64
 Kawarau|60
 Hutt|56|Hutt River
 Kaituna|51
-Rewa (Fiji)|145|Rewa River
+Rewa (Fiji)|145
 Sigatoka|120
 Navua|40
 Cano Cristales|100
@@ -8862,7 +8862,7 @@ Ouvea|132
 Isle of Pines|152|Ile des Pins
 Loyalty Islands|1981
 Malaita|4225
-Santa Isabel (Solomon Islands)|4014|Santa Isabel Island
+Santa Isabel (Solomon Islands)|4014
 Choiseul|3837|Choiseul Island
 Makira|3188|San Cristobal
 New Georgia|2037
@@ -9336,7 +9336,7 @@ Chebeague Island|63.61
 Frye Island|4.14
 Spieden Island|2.09
 Swan's Island|32.14
-Green Island|2.42
+Green Island (New York)|2.42
 Virginia Key|3.5
 Harkers Island|9.97
 Hayden Island|4.38

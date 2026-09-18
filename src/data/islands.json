@@ -19973,13 +19973,12 @@
  {
   "id": "island-santa-isabel-solomon-islands",
   "category": "island",
-  "name": "Santa Isabel (Solomon Islands)",
-  "aliases": [
-   "Santa Isabel Island"
-  ],
+  "name": "Santa Isabel",
+  "aliases": [],
   "size": 4014,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Santa Isabel (island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Solomon Islands",
   "magnitude": 426,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Santa Isabel (island)",
@@ -22860,11 +22859,12 @@
  {
   "id": "island-green-island-taiwan",
   "category": "island",
-  "name": "Green Island (Taiwan)",
+  "name": "Green Island",
   "aliases": [],
   "size": 16.2,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Green Island, Taiwan\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Taiwan",
   "magnitude": 1735,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Green Island, Taiwan",
@@ -28050,13 +28050,14 @@
   ]
  },
  {
-  "id": "island-green-island",
+  "id": "island-green-island-new-york",
   "category": "island",
   "name": "Green Island",
   "aliases": [],
   "size": 2.42,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Green Island, New York\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
   "magnitude": 852,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Green Island, New York",

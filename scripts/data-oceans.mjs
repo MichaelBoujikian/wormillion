@@ -342,7 +342,7 @@ export const OCEAN_OVERRIDES = {
   'island-discovery-island': [],
   'island-goose-island': [],
   'island-frye-island': [],
-  'island-green-island': [],
+  'island-green-island-new-york': [],
   'island-hayden-island': [],
   'island-bethel-island': [],
   'island-north-bass-island': [],

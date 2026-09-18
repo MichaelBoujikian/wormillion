@@ -34,7 +34,9 @@
       // same name, and "St" inside it can only be filler once it stands alone
       // (2026-09-17 audit: 47 hyphenated rows landed only as corrections)
       .replace(/[-–—‒]/g, ' ')
-      .replace(/[.,']/g, '')
+      // ...and so are parentheses: "Syracuse (Sicily)", "Syracuse, Sicily" and
+      // "Syracuse Sicily" are one qualified name (decision 5, 2026-09-18)
+      .replace(/[.,'()]/g, '')
       .replace(/\s+/g, ' ')
       .trim()
       // "Mt Vernon" is "Mount Vernon" (2026-09-16 audit: a city named Mount X
@@ -79,6 +81,49 @@
   function foreignWordIn(key, category) {
     if (!category) return false;
     return fillerIn(key).some((w) => WORD_CATEGORY[w] && !WORD_CATEGORY[w].includes(category));
+  }
+
+  /**
+   * How a namesake reads when it has to be told apart: "Syracuse (Sicily)".
+   * The name itself stays bare (letter rules, the loose index and the typed
+   * bare form all see "Syracuse"); the qualifier is what the summary, the
+   * review and a refusal show, and what the player may type to be exact.
+   */
+  const displayName = (entry) => (entry.qualifier ? `${entry.name} (${entry.qualifier})` : entry.name);
+
+  // The postal codes of the US states, so a state-qualified namesake is exact
+  // under "Portland OR" and "Portland, ME" too. Nothing else is abbreviated.
+  const US_STATE_CODES = {
+    alabama: 'al', alaska: 'ak', arizona: 'az', arkansas: 'ar', california: 'ca', colorado: 'co', connecticut: 'ct',
+    delaware: 'de', florida: 'fl', georgia: 'ga', hawaii: 'hi', idaho: 'id', illinois: 'il', indiana: 'in', iowa: 'ia',
+    kansas: 'ks', kentucky: 'ky', louisiana: 'la', maine: 'me', maryland: 'md', massachusetts: 'ma', michigan: 'mi',
+    minnesota: 'mn', mississippi: 'ms', missouri: 'mo', montana: 'mt', nebraska: 'ne', nevada: 'nv', 'new hampshire': 'nh',
+    'new jersey': 'nj', 'new mexico': 'nm', 'new york': 'ny', 'north carolina': 'nc', 'north dakota': 'nd', ohio: 'oh',
+    oklahoma: 'ok', oregon: 'or', pennsylvania: 'pa', 'rhode island': 'ri', 'south carolina': 'sc', 'south dakota': 'sd',
+    tennessee: 'tn', texas: 'tx', utah: 'ut', vermont: 'vt', virginia: 'va', washington: 'wa', 'west virginia': 'wv',
+    wisconsin: 'wi', wyoming: 'wy'
+  };
+  /**
+   * The exact typed forms of a qualified name, normalized: "syracuse sicily"
+   * (which "Syracuse, Sicily" and "Syracuse (Sicily)" normalize to as well)
+   * and, for a US state, "portland or".
+   */
+  function qualifiedKeys(name, qualifier) {
+    const q = normalize(qualifier);
+    const n = normalize(name);
+    if (!q || !n) return [];
+    const keys = [`${n} ${q}`];
+    if (US_STATE_CODES[q]) keys.push(`${n} ${US_STATE_CODES[q]}`);
+    return keys;
+  }
+
+  /** The ids a lookup holds under a key: one for most names, several for namesakes (most-viewed first). */
+  const idsAt = (lookup, key) => { const held = lookup.get(key); return held === undefined ? [] : Array.isArray(held) ? held : [held]; };
+  /** Every id in a lookup, once. */
+  function entryIds(lookup) {
+    const ids = new Set();
+    for (const held of lookup.values()) for (const id of Array.isArray(held) ? held : [held]) ids.add(id);
+    return ids;
   }
 
   /**
@@ -140,7 +185,16 @@
   /**
    * Flat normalized-string -> entry id map for a cohort, plus the loose and
    * fuzzy indexes. Built once per prompt, never per keystroke.
-   * @param {{id:string,name:string,aliases?:string[]}[]} entries
+   *
+   * A key held by several entries maps to a LIST of ids, most-viewed first:
+   * the namesakes (decision 5, 2026-09-18) - "Syracuse" is Syracuse (New
+   * York) and Syracuse (Sicily), each with a `qualifier`. A lookup built over
+   * a prompt's subset holds only the ones in scope, so a bare "Syracuse" on
+   * a Europe round is the Sicilian one and nothing else; on a plain round
+   * the first (most-viewed) one that is not used yet answers. Each qualified
+   * entry also gets its exact qualified keys ("syracuse sicily"), recorded in
+   * `lookup.bareOf` so a hit through one reports the bare name as `matched`.
+   * @param {{id:string,name:string,aliases?:string[],qualifier?:string,magnitude?:number}[]} entries
    * @param {{category?:string}} [options]  the cohort's category, so the loose
    *   and fuzzy passes know which generic words are its own (WORD_CATEGORY);
    *   without it every generic word is optional, as before
@@ -148,25 +202,45 @@
   function buildLookup(entries, options) {
     const lookup = new Map();
     lookup.category = (options && options.category) || null;
+    lookup.bareOf = new Map(); // a qualified key -> the bare name's key
     const candidates = [];
-    const claims = new Map(); // bare -> [{ id, fromName }]
+    const claims = new Map(); // bare -> [{ id, fromName, key }]
+    const views = new Map(); // id -> magnitude, to put the famous namesake first
 
+    const claim = (key, id) => {
+      const held = lookup.get(key);
+      if (held === undefined) lookup.set(key, id);
+      else if (held !== id && !(Array.isArray(held) && held.includes(id))) lookup.set(key, [].concat(held, id));
+    };
     for (const entry of entries) {
+      views.set(entry.id, entry.magnitude || 0);
       [entry.name, ...(entry.aliases || [])].forEach((candidate, i) => {
         const key = normalize(candidate);
         if (!key) return;
-        if (!lookup.has(key)) lookup.set(key, entry.id);
+        claim(key, entry.id);
         const bare = looseKey(candidate);
         // The fuzzy pass compares the filler-stripped forms too (see nearest).
         candidates.push({ key, bare: bare || key, filler: fillerIn(key), id: entry.id });
 
         if (!bare || bare === key) return;
         if (!claims.has(bare)) claims.set(bare, []);
-        claims.get(bare).push({ id: entry.id, fromName: i === 0 });
+        claims.get(bare).push({ id: entry.id, fromName: i === 0, key });
       });
+      if (entry.qualifier) {
+        const nameKey = normalize(entry.name);
+        for (const key of qualifiedKeys(entry.name, entry.qualifier)) {
+          if (key === nameKey) continue;
+          claim(key, entry.id);
+          lookup.bareOf.set(key, nameKey);
+          candidates.push({ key, bare: looseKey(key) || key, filler: fillerIn(key), id: entry.id });
+        }
+      }
     }
 
+    const byViews = (a, b) => views.get(b) - views.get(a);
+    for (const [key, held] of lookup) if (Array.isArray(held)) lookup.set(key, held.slice().sort(byViews));
     lookup.loose = resolveLoose(claims);
+    for (const [bare, held] of lookup.loose) if (Array.isArray(held)) lookup.loose.set(bare, held.slice().sort(byViews));
     lookup.candidates = candidates;
     return lookup;
   }
@@ -176,16 +250,20 @@
    * one entry's NAME beats the same form from another entry's alias: "Arabian"
    * is the Arabian Sea even though the Persian Gulf is also called the Arabian
    * Gulf. Two names, or two aliases with no name, identify neither - "Victoria"
-   * is not a guess between Lake Victoria and Victoria Island.
-   * @param {Map<string, {id:string, fromName:boolean}[]>} claims
+   * is not a guess between Lake Victoria and Victoria Island - unless they are
+   * the SAME name (namesakes, whose claims carry the same key): then the form
+   * identifies the list of them, and the caller picks by scope.
+   * @param {Map<string, {id:string, fromName:boolean, key?:string}[]>} claims
    */
   function resolveLoose(claims) {
     const loose = new Map();
     for (const [bare, list] of claims) {
-      const names = new Set(list.filter((c) => c.fromName).map((c) => c.id));
-      const all = new Set(list.map((c) => c.id));
-      if (names.size === 1) loose.set(bare, [...names][0]);
-      else if (names.size === 0 && all.size === 1) loose.set(bare, [...all][0]);
+      const names = list.filter((c) => c.fromName);
+      const pool = names.length ? names : list;
+      const ids = [...new Set(pool.map((c) => c.id))];
+      const keys = new Set(pool.map((c) => c.key));
+      if (ids.length === 1) loose.set(bare, ids[0]);
+      else if (keys.size === 1 && !keys.has(undefined)) loose.set(bare, ids);
     }
     return loose;
   }
@@ -254,7 +332,9 @@
       if (score < bestScore) {
         bestScore = score;
         winners = [candidate];
-      } else if (score === bestScore && !winners.some((w) => w.id === candidate.id)) {
+      } else if (score === bestScore && !winners.some((w) => w.id === candidate.id || w.key === candidate.key)) {
+        // (the same spelling from two namesakes is one candidate: a typo of
+        // "Syracuse" lands on that name, and the scope pick follows)
         winners.push(candidate);
       }
     }
@@ -264,29 +344,40 @@
     // reported as such, so the caller knows something WAS close.
     if (winners.length > 1) return { tie: true };
     if (winners.length !== 1) return null;
-    return { id: winners[0].id, key: winners[0].key, distance: bestScore >> 1 };
+    return { ids: idsAt(lookup, winners[0].key), key: winners[0].key, distance: bestScore >> 1 };
   }
 
   /**
    * @param {{fuzzy?:boolean, loose?:boolean, bare?:boolean}} [options]  pass `false` to skip that pass (`bare`: the fuzzy pass's stripped-form comparison)
-   * @returns {{status:'accepted',entryId:string,matched:string}
-   *          |{status:'corrected',entryId:string,typed:string,matched:string}
+   * @returns {{status:'accepted',entryId:string,matched:string,qualified?:true}
+   *          |{status:'corrected',entryId:string,typed:string,matched:string,qualified?:true}
    *          |{status:'duplicate',entryId:string}
    *          |{status:'unrecognized'}}
    *   `matched` is the normalized spelling that landed: what was typed for an
-   *   exact or loose hit, the corrected candidate for a fuzzy one.
+   *   exact or loose hit, the corrected candidate for a fuzzy one - and the
+   *   bare name when the hit came through a qualified form ("Paris, Texas"
+   *   matched "paris", `qualified: true`), since the qualifier is not part of
+   *   the name a length rule measures. A key several namesakes hold settles
+   *   on the first (most-viewed) one not used yet; when every one is used it
+   *   is a duplicate.
    */
   function matchAnswer(rawInput, lookup, usedAnswers, options) {
     const key = normalize(rawInput);
     if (!key) return { status: 'unrecognized' };
 
-    const settle = (entryId, status, extra) => {
-      if (usedAnswers && usedAnswers.has(entryId)) return { status: 'duplicate', entryId };
+    const settle = (held, status, extra) => {
+      const ids = Array.isArray(held) ? held : [held];
+      const entryId = usedAnswers ? ids.find((id) => !usedAnswers.has(id)) : ids[0];
+      if (!entryId) return { status: 'duplicate', entryId: ids[0] };
       return Object.assign({ status, entryId }, extra);
+    };
+    const landed = (matchedKey) => {
+      const bare = lookup.bareOf && lookup.bareOf.get(matchedKey);
+      return bare ? { matched: bare, qualified: true } : { matched: matchedKey };
     };
 
     const exact = lookup.get(key);
-    if (exact) return settle(exact, 'accepted', { matched: key });
+    if (exact) return settle(exact, 'accepted', landed(key));
 
     // A generic word of ANOTHER category is not filler here: "Lake Michigan"
     // on a river round names a lake, and dropping "lake" to find Michigan
@@ -308,11 +399,11 @@
     if (!options || options.fuzzy !== false) {
       const near = nearest(key, lookup, foreign ? Object.assign({}, options, { bare: false }) : options);
       if (near && near.tie) return { status: 'unrecognized', tie: true };
-      if (near) return settle(near.id, 'corrected', { typed: rawInput.trim(), matched: near.key });
+      if (near) return settle(near.ids, 'corrected', Object.assign({ typed: rawInput.trim() }, landed(near.key)));
     }
 
     return { status: 'unrecognized' };
   }
 
-  return { normalize, looseKey, editDistance, slackFor, buildLookup, resolveLoose, matchAnswer, FILLER, WORD_CATEGORY, foreignWordIn };
+  return { normalize, looseKey, editDistance, slackFor, buildLookup, resolveLoose, matchAnswer, FILLER, WORD_CATEGORY, foreignWordIn, displayName, qualifiedKeys, idsAt, entryIds, US_STATE_CODES };
 });

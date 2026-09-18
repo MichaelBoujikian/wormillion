@@ -25,6 +25,19 @@
   // endless run draws fresh every time and can be played all day.
   const MODES = ['daily', 'endless'];
 
+  // A bare name whose most famous holder lives in ANOTHER cohort by this
+  // margin keeps today's nudge: "Athens" on a city round is "Athens is a
+  // capital city", not 950 points for Athens (Georgia), and the Georgia one
+  // wants its qualifier ("Athens, Georgia" / "Athens GA"). Measured on
+  // `magnitude` (monthly views) between the in-cohort namesake and the
+  // most-viewed exact holder elsewhere (decision 5, 2026-09-18). Only the
+  // two city cohorts second-guess each other this way: a capital and a
+  // non-capital city are the same kind of thing to a player who forgot which
+  // is which, but "Saint Paul" on a river round names the river, however
+  // famous the capital - the round's category settles that on its own.
+  const NAMESAKE_FAME_RATIO = 5;
+  const CONFUSABLE = { city: ['capital'], capital: ['city'] };
+
   /**
    * @param {object} bank        from promptBank.createBank()
    * @param {object} [opts]      { mode, dailyKey, rounds, rng }
@@ -71,6 +84,27 @@
     /** The entry's name or alias that normalizes to `key`, for showing a corrected spelling back. */
     function spellingOf(entry, key) {
       return [entry.name, ...(entry.aliases || [])].find((s) => matching.normalize(s) === key) || entry.name;
+    }
+
+    /**
+     * The most-viewed entry in any other cohort whose exact name is this
+     * entry's bare name, when it is famous enough to be what the player
+     * meant (NAMESAKE_FAME_RATIO); null otherwise. Only a qualified entry
+     * (one that shares its name) is ever second-guessed, and only when it
+     * was reached by the bare name: "Athens, Georgia" is exactly that.
+     */
+    function famousElsewhere(entry, match) {
+      if (!entry.qualifier || (match && match.qualified)) return null;
+      let best = null;
+      for (const other of CONFUSABLE[entry.category] || []) {
+        const cohort = bank.cohorts.get(other);
+        const hit = matching.matchAnswer(entry.name, cohort.lookup, null, { loose: false, fuzzy: false });
+        if (hit.status !== 'accepted') continue;
+        const found = cohort.byId.get(hit.entryId);
+        if (!best || found.magnitude > best.magnitude) best = found;
+      }
+      if (!best || best.magnitude < NAMESAKE_FAME_RATIO * entry.magnitude) return null;
+      return { status: 'unrecognized', elsewhere: { entry: best, category: best.category, fuzzy: false } };
     }
 
     /** The out-of-scope result for a real place in this category that doesn't fit the prompt. */
@@ -154,7 +188,11 @@
         // from a place we've never heard of, and deserves a different hint.
         if (current.constrained) {
           const wide = matching.matchAnswer(rawInput, current.cohort.lookup, null);
-          if (wide.status === 'accepted' || wide.status === 'corrected') return wrongScope(current, wide.entryId);
+          if (wide.status === 'accepted' || wide.status === 'corrected') {
+            // "Athens" on "Name a city in Europe" is not "Athens (Georgia)
+            // isn't in Europe" - it is the capital, and the nudge says so
+            return famousElsewhere(current.cohort.byId.get(wide.entryId), wide) || wrongScope(current, wide.entryId);
+          }
           tie = tie || Boolean(wide.tie);
         }
         // A real place from another category deserves a nudge, not a shrug:
@@ -188,6 +226,8 @@
 
       const entry = current.cohort.byId.get(match.entryId);
       if (match.status === 'duplicate') return { status: 'duplicate', entry };
+      const famous = famousElsewhere(entry, match);
+      if (famous) return famous;
 
       // A length prompt is about the spelling you used: "China" is five
       // letters even though the entry also answers to a 22-letter name.
@@ -196,7 +236,8 @@
         if (miss) {
           return {
             ...wrongScope(current, entry.id),
-            length: { typed: match.status === 'corrected' ? spellingOf(entry, match.matched) : rawInput.trim(), ...miss }
+            // (typed through a qualifier, the name is what was measured)
+            length: { typed: match.status === 'corrected' || match.qualified ? spellingOf(entry, match.matched) : rawInput.trim(), ...miss }
           };
         }
       }
@@ -210,7 +251,9 @@
         prompt: current.text,
         category: current.category,
         entry,
-        answer: entry.name,
+        // A namesake is stored with its qualifier, "Syracuse (Sicily)": what
+        // the summary shows, and an exact form the daily replay lands on
+        answer: matching.displayName(entry),
         correctedFrom: match.status === 'corrected' ? match.typed : null,
         rarity: scored.rarity,
         points: scored.points,
@@ -307,11 +350,11 @@
    * alias ("Mount Kilimanjaro" is the long spelling of Kilimanjaro).
    */
   function spellingFor(entry, prompt) {
-    if (!prompt.judgeTyped) return entry.name;
+    if (!prompt.judgeTyped) return matching.displayName(entry);
     for (const spelling of [entry.name, ...(entry.aliases || [])]) {
-      if (!prompt.judgeTyped(matching.normalize(spelling))) return spelling;
+      if (!prompt.judgeTyped(matching.normalize(spelling))) return spelling === entry.name ? matching.displayName(entry) : spelling;
     }
-    return entry.name;
+    return matching.displayName(entry);
   }
 
   /**
@@ -321,7 +364,7 @@
    */
   function rarestFor(prompt) {
     let best = null;
-    for (const id of new Set(prompt.lookup.values())) {
+    for (const id of matching.entryIds(prompt.lookup)) {
       const entry = prompt.cohort.byId.get(id);
       const r = rarity.rarityOf(entry.magnitude, prompt.cohort.stats);
       if (!best || r > best.rarity) best = { name: spellingFor(entry, prompt), rarity: r, views: entry.magnitude };
@@ -374,5 +417,5 @@
       .map(({ result }) => result);
   }
 
-  return { MODES, createRun, rankByRarity, rarestFor, reviewRun, drawId };
+  return { MODES, NAMESAKE_FAME_RATIO, createRun, rankByRarity, rarestFor, reviewRun, drawId };
 });

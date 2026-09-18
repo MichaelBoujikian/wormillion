@@ -35,6 +35,20 @@ const lines = (block) => block.trim().split('\n').map((l) => l.trim()).filter(Bo
 const list = (s) => (s || '').split(',').map((x) => x.trim()).filter(Boolean);
 
 /**
+ * "Syracuse (Sicily)" in a name column is the bare name Syracuse plus the
+ * QUALIFIER Sicily (decision 5, 2026-09-18): a cohort may hold several places
+ * with one bare name when each carries a distinct qualifier (the state, the
+ * country, the island), and the round's scope picks among them at play time.
+ * The id carries it too: city-syracuse-sicily. Every namesake gets one, the
+ * famous one included (Syracuse (New York) is city-syracuse-new-york).
+ */
+export function splitQualifier(raw) {
+  const m = /^(.*\S)\s*\(([^()]+)\)$/.exec(raw.trim());
+  return m ? { name: m[1].trim(), qualifier: m[2].trim() } : { name: raw.trim(), qualifier: null };
+}
+export const idFor = (category, name, qualifier) => `${category}-${slug(name)}${qualifier ? `-${slug(qualifier)}` : ''}`;
+
+/**
  * Simple "Name|size|aliases" blocks. A size may be a range "lo-hi" where
  * reputable figures disagree (the Amur is 2,824 km, or 4,444 with the Argun);
  * `size` is then the low figure and `sizeRange` carries both, and a threshold
@@ -42,17 +56,19 @@ const list = (s) => (s || '').split(',').map((x) => x.trim()).filter(Boolean);
  */
 function simple(block, category, sizeUnit, source) {
   return lines(block).map((line) => {
-    const [name, size, aliases] = line.split('|');
+    const [rawName, size, aliases] = line.split('|');
+    const { name, qualifier } = splitQualifier(rawName);
     const range = /^(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)$/.exec(size.trim());
     const entry = {
-      id: `${category}-${slug(name)}`,
+      id: idFor(category, name, qualifier),
       category,
-      name: name.trim(),
+      name,
       aliases: list(aliases),
       size: range ? Number(range[1]) : Number(size),
       sizeUnit,
       source
     };
+    if (qualifier) entry.qualifier = qualifier;
     if (range) entry.sizeRange = [Number(range[1]), Number(range[2])];
     return entry;
   });
@@ -142,17 +158,19 @@ if (unusedFlags.size) throw new Error(`data-flags.mjs rows that match no country
 // A city's country must be a country row (that is where its region tags and
 // flag come from) and the city must not be that country's capital: the cohort
 // is "cities that aren't capitals" and the prompt says so.
-const cityNames = new Set();
+const cityIds = new Set();
 const cities = lines(CITIES).map((line) => {
-  const [name, country, pop, aliases] = line.split('|').map((s) => (s || '').trim());
+  const [rawName, country, pop, aliases] = line.split('|').map((s) => (s || '').trim());
+  const { name, qualifier } = splitQualifier(rawName);
   const home = countryByName.get(country);
-  if (!home) throw new Error(`data-cities.mjs: "${name}" names a country not in data-countries.mjs: "${country}"`);
-  if (slug(name) === slug(home.capital)) throw new Error(`data-cities.mjs: "${name}" is the capital of ${country}; the city cohort excludes capitals`);
-  if (cityNames.has(slug(name))) throw new Error(`data-cities.mjs: "${name}" listed twice`);
-  cityNames.add(slug(name));
-  if (!(Number(pop) > 0)) throw new Error(`data-cities.mjs: "${name}" needs a population`);
-  return {
-    id: `city-${slug(name)}`,
+  if (!home) throw new Error(`data-cities.mjs: "${rawName}" names a country not in data-countries.mjs: "${country}"`);
+  if (slug(name) === slug(home.capital)) throw new Error(`data-cities.mjs: "${rawName}" is the capital of ${country}; the city cohort excludes capitals`);
+  const id = idFor('city', name, qualifier);
+  if (cityIds.has(id)) throw new Error(`data-cities.mjs: "${rawName}" listed twice (a namesake needs a distinct qualifier: "Name (State)")`);
+  cityIds.add(id);
+  if (!(Number(pop) > 0)) throw new Error(`data-cities.mjs: "${rawName}" needs a population`);
+  const entry = {
+    id,
     category: 'city',
     name,
     aliases: list(aliases),
@@ -163,6 +181,8 @@ const cities = lines(CITIES).map((line) => {
     flag: home.flag, // "Name a city in a country whose flag has green in it."
     source: `${CITIES_SOURCE}; in ${country}`
   };
+  if (qualifier) entry.qualifier = qualifier;
+  return entry;
 });
 
 return {
@@ -247,6 +267,7 @@ const runtimeEntry = (e) => {
     magnitude: e.magnitude,
     size: e.size // population / area / length / elevation - used by threshold prompts
   };
+  if (e.qualifier) out.qualifier = e.qualifier; // a namesake: "Syracuse (Sicily)"
   if (e.region) out.region = e.region;
   if (e.oceans) out.oceans = e.oceans;
   if (e.flag) out.flag = e.flag;

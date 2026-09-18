@@ -5,7 +5,9 @@
  * a duplicate id, an alias that collides with another entry in the same cohort
  * (exactly, or in its bare loose form when no name settles it), a bad region
  * tag, or a country without flag colours from the fixed palette. Entry counts
- * below target only warn.
+ * below target only warn. Namesakes (decision 5): a name several entries of a
+ * cohort share is legal only when each carries a distinct `qualifier` - at
+ * most one holder may go without.
  */
 import { readFile, readdir } from 'node:fs/promises';
 import { createRequire } from 'node:module';
@@ -62,6 +64,10 @@ export function validate(files) {
         if (!entry[field]) errors.push(`${where}: missing ${field}`);
       }
       if (!Array.isArray(entry.aliases)) errors.push(`${where}: aliases must be an array`);
+      if (entry.qualifier !== undefined) {
+        if (!(typeof entry.qualifier === 'string' && entry.qualifier.trim())) errors.push(`${where}: qualifier must be a non-empty string`);
+        else if (normalize(entry.qualifier) === normalize(entry.name)) errors.push(`${where}: qualifier repeats the name`);
+      }
       if (!CATEGORIES.includes(entry.category)) errors.push(`${where}: unknown category ${entry.category}`);
       if (!MAGNITUDE_UNITS.has(entry.magnitudeUnit)) {
         errors.push(`${where}: magnitudeUnit must be pageviews_monthly, got ${entry.magnitudeUnit}`);
@@ -130,32 +136,48 @@ export function validate(files) {
     }
   }
 
-  // No alias may collide with another entry's name or alias in the same cohort.
+  // No alias may collide with another entry's name or alias in the same
+  // cohort - unless they are namesakes: a key several entries hold is legal
+  // when at most one of them lacks a qualifier and no two qualifiers agree
+  // (then the round's scope picks among them; SPEC 3.7). The generated
+  // qualified forms ("syracuse sicily", "portland or") are keys too.
   for (const [category, entries] of cohorts) {
-    const seen = new Map();
-    const claims = new Map(); // bare loose form -> [{ id, fromName, candidate }]
+    const seen = new Map(); // key -> [{ entry, candidate }]
+    const claims = new Map(); // bare loose form -> [{ id, fromName, candidate, key }]
     for (const entry of entries) {
-      [entry.name, ...(entry.aliases || [])].forEach((candidate, i) => {
+      const forms = [entry.name, ...(entry.aliases || [])].map((candidate, i) => ({ candidate, fromName: i === 0 }));
+      if (entry.qualifier) for (const key of matching.qualifiedKeys(entry.name, entry.qualifier)) forms.push({ candidate: key, fromName: false, generated: true });
+      for (const { candidate, fromName, generated } of forms) {
         const key = normalize(candidate);
         if (!key) {
           errors.push(`[${category}] ${entry.id}: empty name/alias`);
-          return;
+          continue;
         }
-        const owner = seen.get(key);
-        if (owner && owner !== entry.id) {
-          errors.push(`[${category}] "${candidate}" claimed by both ${owner} and ${entry.id}`);
-        }
-        seen.set(key, entry.id);
+        if (!seen.has(key)) seen.set(key, []);
+        if (!seen.get(key).some((c) => c.entry === entry)) seen.get(key).push({ entry, candidate, generated });
 
+        if (generated) continue;
         const bare = matching.looseKey(candidate);
-        if (!bare || bare === key) return;
+        if (!bare || bare === key) continue;
         if (!claims.has(bare)) claims.set(bare, []);
-        claims.get(bare).push({ id: entry.id, fromName: i === 0, candidate });
-      });
+        claims.get(bare).push({ id: entry.id, fromName, candidate, key });
+      }
+    }
+    for (const [key, holders] of seen) {
+      if (holders.length < 2) continue;
+      const who = holders.map((h) => `${h.entry.id} (via "${h.candidate}")`).join(' and ');
+      const unqualified = holders.filter((h) => !h.entry.qualifier);
+      const qualifiers = new Set(holders.filter((h) => h.entry.qualifier).map((h) => normalize(h.entry.qualifier)));
+      const owner = holders.find((h) => h.generated);
+      if (owner) errors.push(`[${category}] "${key}" is the qualified form of ${owner.entry.id}; also claimed by ${who}`);
+      else if (unqualified.length > 1) errors.push(`[${category}] "${key}" claimed by both ${who} - namesakes need a qualifier each ("Name (State)")`);
+      else if (qualifiers.size !== holders.length - unqualified.length) errors.push(`[${category}] "${key}" claimed by ${who} with the same qualifier`);
     }
     // A bare form two entries share is fine when one of them owns it by name
     // ("Arabian" is the Arabian Sea, whatever the Persian Gulf is also called).
     // Two names, or two aliases with no name, mean typing it identifies neither.
+    // (Namesakes share their loose form too - "Black Lake" x3 all claim
+    // "black" - and resolve to the list, like the exact key does.)
     const resolved = matching.resolveLoose(claims);
     for (const [bare, list] of claims) {
       if (resolved.has(bare) || new Set(list.map((c) => c.id)).size < 2) continue;
@@ -216,12 +238,18 @@ export function validateThemes(files, themesSource) {
   new Function('globalThis', themesSource)(scope);
   const themes = scope.WORMILLION_THEMES || {};
 
+  // key -> the ids holding it; a namesake's bare name holds several, and a
+  // theme must list such a place with its qualifier ("Syracuse (Sicily)")
   const byCategory = new Map();
   for (const entries of Object.values(files)) {
     for (const entry of entries) {
       if (!byCategory.has(entry.category)) byCategory.set(entry.category, new Map());
-      for (const candidate of [entry.name, ...(entry.aliases || [])]) {
-        byCategory.get(entry.category).set(normalize(candidate), entry.id);
+      const known = byCategory.get(entry.category);
+      const keys = [entry.name, ...(entry.aliases || [])].map(normalize);
+      if (entry.qualifier) keys.push(...matching.qualifiedKeys(entry.name, entry.qualifier));
+      for (const key of keys) {
+        if (!known.has(key)) known.set(key, new Set());
+        known.get(key).add(entry.id);
       }
     }
   }
@@ -236,8 +264,9 @@ export function validateThemes(files, themesSource) {
     for (const [theme, names] of Object.entries(sets)) {
       const resolved = new Set();
       for (const name of names) {
-        const id = known.get(normalize(name));
-        if (id) resolved.add(id);
+        const ids = known.get(normalize(name));
+        if (ids && ids.size === 1) resolved.add([...ids][0]);
+        else if (ids) errors.push(`themes: ${category}/${theme} lists "${name}", which ${ids.size} places share - qualify it ("${name} (State)")`);
         else errors.push(`themes: ${category}/${theme} lists "${name}", which is not in the bank`);
       }
       members += resolved.size;

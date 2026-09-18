@@ -474,9 +474,11 @@
       for (const [theme, names] of Object.entries(sets)) {
         const ids = [];
         for (const name of names) {
-          const id = cohort.lookup.get(matching.normalize(name));
-          if (id) ids.push(id);
-          else themeMisses.push(`${category}/${theme}: "${name}"`);
+          // A namesake is listed with its qualifier, "Syracuse (Sicily)";
+          // the bare name of several places names none of them here.
+          const held = matching.idsAt(cohort.lookup, matching.normalize(name));
+          if (held.length === 1) ids.push(held[0]);
+          else themeMisses.push(`${category}/${theme}: "${name}"${held.length ? ` (${held.length} places share it - qualify it)` : ''}`);
         }
         if (ids.length >= MIN_THEME_MEMBERS) resolved.set(theme, [...new Set(ids)]);
       }

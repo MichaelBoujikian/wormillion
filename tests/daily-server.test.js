@@ -3,6 +3,7 @@ const assert = require('node:assert');
 const daily = require('../netlify/functions/lib/daily.js');
 const runner = require('../src/js/run.js');
 const rarity = require('../src/js/rarity.js');
+const matching = require('../src/js/matching.js');
 
 // The shipped bank: the server replays real answers against real prompts.
 const bank = daily.loadBank();
@@ -28,13 +29,15 @@ function answersFor(day, { rarest = false, misses = [] } = {}) {
     const keys = [...prompt.lookup.keys()];
     if (rarest) {
       const best = runner.rarestFor(prompt);
-      keys.sort((a, b) => (prompt.cohort.byId.get(prompt.lookup.get(b)).name === best.name) - (prompt.cohort.byId.get(prompt.lookup.get(a)).name === best.name));
+      // (a key may hold several namesakes; the first is the one a bare typing lands on)
+      const nameAt = (key) => matching.displayName(prompt.cohort.byId.get(matching.idsAt(prompt.lookup, key)[0]));
+      keys.sort((a, b) => (nameAt(b) === best.name) - (nameAt(a) === best.name));
     }
     let done = false;
     for (const key of keys) {
       const result = run.submit(key);
       if (result.status === 'accepted') {
-        out.push(result.entry.name);
+        out.push(result.answer);
         done = true;
         break;
       }

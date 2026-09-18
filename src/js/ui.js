@@ -509,15 +509,15 @@
         const pct = Math.round(result.rarity * 100);
         // A fixed-up spelling is shown, not hidden: the player should see what
         // the place is actually called.
-        const spelling = result.correctedFrom
-          ? `${result.correctedFrom} → ${result.entry.name}`
-          : result.entry.name;
+        // A namesake reads with its qualifier: "Syracuse (Sicily)".
+        const shown = W.matching.displayName(result.entry);
+        const spelling = result.correctedFrom ? `${result.correctedFrom} → ${shown}` : shown;
         setFeedback(
           `${spelling} · ${fmtViews(result.entry.magnitude)} views/mo · ` +
             `${pct}% obscure · +${fmt(result.points)} · dug ${result.dig.toFixed(1)}`,
           result.correctedFrom ? 'fixed' : 'good'
         );
-        els.lastAnswer.textContent = `${result.entry.name} +${fmt(result.points)}`;
+        els.lastAnswer.textContent = `${shown} +${fmt(result.points)}`;
         els.score.textContent = `${fmt(run.score)} pts`;
         const jackpot = W.rarity.isJackpot(result.rarity);
         if (jackpot) showJackpot();
@@ -525,7 +525,7 @@
         if (dud) showDud();
         announce(
           `${jackpot ? 'One in Wormillion! ' : dud ? 'Zero percent obscure - dig deeper next time. ' : ''}` +
-            `${result.entry.name} accepted, ${fmt(result.entry.magnitude)} monthly views. ` +
+            `${shown} accepted, ${fmt(result.entry.magnitude)} monthly views. ` +
             `Plus ${result.points} points. ` +
             `Now ${result.depthAfter.toFixed(0)} deep in ${W.strata.stratumName(result.depthAfter)}.`
         );
@@ -537,7 +537,7 @@
       els.input.value = '';
       els.input.focus();
       if (result.status === 'duplicate') {
-        setFeedback(`You already dug up ${result.entry.name} this run — name another.`, 'warn');
+        setFeedback(`You already dug up ${W.matching.displayName(result.entry)} this run — name another.`, 'warn');
       } else if (result.status === 'wrong-scope' && result.length) {
         // "Kilimanjaro is 11 letters - this round wants 12 or more."
         setFeedback(`${result.length.typed} is ${result.length.letters} letters — this round wants ${result.length.need}.`, 'warn');
@@ -549,14 +549,17 @@
         // A letter rule says which letter: "Lake Erie has no double letter"
         // (a typo corrected to a real place is judged as that place).
         const letterRule = run.prompt().letter;
+        // "Syracuse (New York) isn't in Africa": the qualifier says which one
+        // was judged, so the player can name the other
+        const shown = W.matching.displayName(result.entry);
         setFeedback(
           isTheScope
-            ? `${result.entry.name} is all of it — this round wants a single ${W.promptBank.NOUN[run.prompt().category]} in ${result.scopeName}.`
+            ? `${shown} is all of it — this round wants a single ${W.promptBank.NOUN[run.prompt().category]} in ${result.scopeName}.`
             : placeScope
-              ? `${result.entry.name} isn't in ${result.scopeName} — try another.`
+              ? `${shown} isn't in ${result.scopeName} — try another.`
               : letterRule
                 ? `${W.promptBank.letterMissText(result.entry.name, letterRule, run.prompt().category)} — try another.`
-                : `${result.entry.name} doesn't fit this one — try another.`,
+                : `${shown} doesn't fit this one — try another.`,
           'warn'
         );
       } else if (result.elsewhere) {
@@ -564,7 +567,7 @@
         const is = NOUN[result.elsewhere.category];
         const wants = wantsPhrase(run.prompt().category);
         setFeedback(
-          `${result.elsewhere.entry.name} is ${ARTICLE(is)} ${is} — this round wants ${ARTICLE(wants)} ${wants}.`,
+          `${W.matching.displayName(result.elsewhere.entry)} is ${ARTICLE(is)} ${is} — this round wants ${ARTICLE(wants)} ${wants}.`,
           'warn'
         );
       } else {

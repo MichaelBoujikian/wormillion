@@ -362,7 +362,7 @@ export const WIKI_TITLES = {
   "river-taw": "River Taw",
   "river-parrett": "River Parrett",
   "river-tone": "River Tone",
-  "river-warwickshire-avon": "River Avon, Warwickshire",
+  "river-avon-warwickshire": "River Avon, Warwickshire",
   "river-teme": "River Teme",
   "river-lugg": "River Lugg",
   "river-monnow": "River Monnow",
@@ -730,7 +730,7 @@ export const WIKI_TITLES = {
   "river-bartin": "Bartın River",
   "river-filyos": "Filyos River",
   "river-nilufer": "Nilüfer River",
-  "river-scamander-karamenderes": "Karamenderes River",
+  "river-scamander": "Karamenderes River",
   "river-baksan": "Baksan (river)",
   "river-malka": "Malka (river)",
   "river-ardon": "Ardon (river)",
@@ -2065,7 +2065,7 @@ export const WIKI_TITLES = {
   "river-kapuas": "Kapuas River",
   "river-mahakam": "Mahakam River",
   "river-barito": "Barito River",
-  "river-musi": "Musi River (Indonesia)",
+  "river-musi-indonesia": "Musi River (Indonesia)",
   "river-batang-hari": "Batang Hari River",
   "river-kampar": "Kampar River",
   "river-indragiri": "Indragiri River",
@@ -5117,7 +5117,7 @@ export const WIKI_TITLES = {
   "island-palm-island": "Palm Island (Miami Beach)",
   "island-frye-island": "Frye Island, Maine",
   "island-swan-s-island": "Swan's Island, Maine",
-  "island-green-island": "Green Island, New York",
+  "island-green-island-new-york": "Green Island, New York",
   "island-harkers-island": "Harkers Island, North Carolina",
   "island-hayden-island": "Hayden Island, Portland, Oregon",
   "island-indian-island": "Indian Island, Washington",
@@ -6497,7 +6497,16 @@ export const WIKI_TITLES = {
   "desert-kau-desert": "Kaʻū Desert",
   // --- 2026-09-17 islands + seas audit: Santa Rosa Island is the Channel Islands one (renamed from its parenthetical title); Deer Isle (Maine) replaces the 61-view Aleutian Deer Island ---
   "island-santa-rosa-island": "Santa Rosa Island (California)",
-  "island-deer-isle": "Deer Isle (island)"
+  "island-deer-isle": "Deer Isle (island)",
+  "river-tana-kenya": "Tana River (Kenya)",
+  "river-fish-namibia": "Fish River (Namibia)",
+  "river-avon-bristol": "River Avon, Bristol",
+
+  // --- the legacy parenthetical rows, qualified (2026-09-18, decision 5): their articles by title ---
+  "lake-karakul-tajikistan": "Karakul (Tajikistan)",
+  "river-new-river-belize": "New River (Belize)",
+  "desert-red-desert-wyoming": "Red Desert (Wyoming)",
+  "desert-black-desert-egypt": "Black Desert (Egypt)"
 };
 
 /**
@@ -6904,7 +6913,7 @@ export const WIKI_VERIFIED = new Set([
   "island-french-island",
   "island-fripp-island",
   "island-frye-island",
-  "island-green-island",
+  "island-green-island-new-york",
   "island-harkers-island",
   "island-hayden-island",
   "island-herron-island",
