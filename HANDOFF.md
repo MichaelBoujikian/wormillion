@@ -22,11 +22,11 @@ build).
 ## Start here (the next session, in order)
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + this file).
-   `npm test` → 204, `npm run validate` → 15,427, `npm run gap-check` clean.
+   `npm test` → 205, `npm run validate` → 15,429, `npm run gap-check` clean.
    Read "Where things stand", then "Same-name places: the design" (with its
    "As built" note — three things came out differently from the text).
 2. **Decision 5 is built and folded** (2026-09-18, commits
-   `963539e`..`98d0a95`; report
+   `963539e`..`16515bb`; report
    `scripts/expansion/reports/2026-09-18-decision-5-namesakes.md`): 526
    namesakes from the US and Europe taken lists are in with a qualifier, 250
    incumbents were qualified, and an Opus audit round (data / gameplay /
@@ -118,7 +118,7 @@ Standing decisions from the user, all still in force:
 
 **Decision 5 built 2026-09-18** on `expansion-2` (after the release below):
 engine, validator, tools and 526 namesake rows folded across every cohort —
-`npm test` 204 · `npm run validate` 15,427 · `npm run gap-check` clean ·
+`npm test` 205 · `npm run validate` 15,429 · `npm run gap-check` clean ·
 `bank.js` 2.01 MB · 730 entries carry a qualifier in 317 namesake sets.
 Cohorts now: rivers 3,902 · lakes 1,246 · mountains 2,713 · islands 2,494 ·
 seas 576 · deserts 137 · cities 3,915 (the table below is the wave view).
