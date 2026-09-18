@@ -98,12 +98,17 @@ changes dig #6's round 3 on this branch).
    live" section below is the checklist). Or keep stacking waves on
    `expansion` — the branch is 105 commits and 5,600 places ahead; the daily
    comparison for Pages players breaks on days the two banks draw differently.
-2. **Decision 5, same-name places**: the Europe wave left out Syracuse
-   (Sicily), Córdoba, Cartagena, Halifax, Newport, Boston, Lincoln, Taunton,
-   Warwick, Washington (Tyne and Wear), Bangor (County Down), Frankfurt
-   (Oder), Hagen…, plus Andros (Greece) behind the Bahamas' Andros Island
-   and Bothnian Bay behind the Bothnian Sea. The four audit reports each
-   carry a "judgment calls" list; the class is now ~180 places.
+2. **Decision 5, same-name places — DECIDED 2026-09-17 evening**: the user
+   accepted the design in "Same-name places: the design" below ("one bare
+   name, several places, the round's scope picks"). It is the next
+   engineering step **after the merge** (it touches the matcher). The ~180
+   places waiting on it: Syracuse (Sicily), Córdoba, Cartagena, Halifax,
+   Newport, Boston, Lincoln, Taunton, Warwick, Washington (Tyne and Wear),
+   Bangor (County Down), Frankfurt (Oder), Hagen…, Andros (Greece), Bothnian
+   Bay, Portland ME, Birmingham AL, Cambridge MA, Prince of Wales Island
+   (Alaska), Green River KY, Colorado River TX, three Black Lakes… — every
+   probe's "taken" list (`work/*.report.txt`, `work/*.out`) has them with
+   views, and the four audit reports' "judgment calls" lists add the rest.
 3. **A "famous group" exception for islands?** The Farallon Islands, the
    Diomedes, the Outer Banks, the Blaskets, the Skelligs, the Frisian chains
    are out by the groups rule; players know them as groups.
@@ -112,6 +117,82 @@ changes dig #6's round 3 on this branch).
 5. **Size 0 and "smaller than" prompts**: unknown is neither small nor large
    today; 380 islands and 288 seas refuse every size prompt. The alternative
    (unknown counts as small) is a one-line change in `satisfiesSize`.
+
+## Same-name places: the design (decision 5, accepted by the user 2026-09-17)
+
+**The problem.** ~180 places are out only because another entry in the same
+cohort holds their bare name (the list above). Each wave adds more (Mexico and
+Canada bring another Guadalajara / Cambridge class), and it is the biggest
+single class of "real answer the game refuses". The pain is not scoring —
+"Syracuse" scores *a* Syracuse — it is the scoped rounds: "Name a city in
+Europe" + "Syracuse" → "Syracuse isn't in Europe", which is wrong to the
+player.
+
+**Options set aside.** *Status quo* (one bare name per cohort, the famous one
+holds it): no work, the wrong-scope refusals stay forever. *Qualified bank
+names* ("Syracuse, Sicily" as the entry's name): reachable only by fuzzy
+matching or by typing the qualifier, and the qualifier corrupts letter rules
+("starts with S", "long name") — the reason the wave rule bans comma names.
+*Merging namesakes as aliases*: wrong, they are different places with
+different sizes, countries and regions.
+
+**The design: one bare name, several places, the round's scope picks.**
+
+1. **Data.** A cohort may hold several entries with the same bare name when
+   each carries a `qualifier` column (state, country or island: "New York",
+   "Sicily", "Maine", "Alaska"). The id becomes `city-syracuse-sicily`; the
+   display name stays "Syracuse"; the summary and the review show "Syracuse
+   (Sicily)". **Every namesake gets a qualifier, the famous one too**, so the
+   data is symmetric and nothing is special-cased by hand. Wikipedia already
+   supplies the qualifier — it is the comma / parenthetical part
+   `chunk.mjs` strips today (`bankName()`); keep it as the column instead.
+2. **Matching.** The lookup maps a key to a *list* of entries instead of one
+   id. When a typed name resolves to several in the cohort: take the ones
+   that satisfy the current prompt; if exactly one, that is the answer; if
+   several (a plain "Name a city"), the **most-viewed** one — the
+   conservative score, no free jackpot from ambiguity; if none, wrong-scope
+   on the most famous, and the message names the alternative ("Syracuse,
+   New York isn't in Europe — for the Sicilian one type Syracuse Sicily").
+   Typing the qualifier ("Syracuse Sicily", "Portland Maine", "Portland,
+   OR") is an exact hit on that one.
+3. **Duplicates.** `usedAnswers` stays by id, so a second "Syracuse" in a run
+   resolves to the *other* Syracuse if it fits the round, else it is the
+   usual duplicate.
+4. **Letter rules** use the bare name only — "starts with S" and "long
+   name" see exactly what they see today.
+5. **One guard for cross-cohort fame.** If the bare name's most famous
+   holder lives in another cohort by a wide margin (Athens the capital vs
+   Athens, Georgia; Dublin vs Dublin, California — say 5× the views), the
+   bare typing keeps today's nudge ("Athens is a capital") and the in-cohort
+   namesake needs its qualifier. Without it, "Athens" on a plain city round
+   would quietly score a 127,000-person Georgia town for a player who meant
+   Greece.
+6. **Validator / SPEC §4.** Duplicate bare names are legal only when every
+   holder has a distinct qualifier (a bare name has at most one unqualified
+   holder — none, once the namesakes are folded). `themes.js` keys members by
+   name today and must key by id or by "Name (Qualifier)" — a small tooling
+   change (`add-theme.mjs`, `drop.mjs`, `fold.mjs`, `build-data.mjs`).
+
+**What it costs.** Engine: `matching.buildLookup` / `matchAnswer` return
+candidate sets; `run.js` does the scope pick and the messages; the UI shows
+the qualifier in the summary and the review; a test per rule; SPEC §3.7 / §4
+amendments and a §13 row. About a day, plus a gameplay audit (the daily
+comparison functions replay answers by name through the same engine, so
+they follow for free). Data: the namesakes come straight back from the
+probes' "taken" lists with their views; qualifiers from their Wikipedia
+titles; one fold per cohort. The daily draw does not change (it is per
+category and modifier, not per entry), though eligible counts move a little
+— re-check the share bars and the dig #1 pin.
+
+**Not to do:** score the rarest in-scope namesake on ambiguous input (it
+rewards a name the player may not have meant); auto-correct across namesakes
+by fuzzy distance (the Redding / Reading class shows how that reads).
+
+**Sequence:** merge and publish the Europe wave first (the pre-merge audit of
+2026-09-17 measured the matcher as it stands), then this as its own step on
+`expansion`, then the "famous group" question for islands (item 3 above) can
+ride the same qualifier column ("Farallon Islands" as a group entry is a
+different question, but the machinery is shared).
 
 ## Decisions — taken 2026-09-16 evening ("go with your recommendations")
 
