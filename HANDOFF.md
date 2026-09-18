@@ -8,20 +8,46 @@ that must not be quietly undone, and the gotchas that cost time. Claude Code's
 project memory is keyed to this folder (`C:\Users\smite\repos\wormillion`);
 this file is the memory that survives.
 
-Written 2026-09-16, midday, at the end of the overnight session that ran the
-**United States wave** of the country-by-country scouring on branch
-`expansion` (rivers, lakes, mountains, islands, seas, deserts, cities;
-eight Opus audits; 9,300 → 12,008 places). Updated through 2026-09-17 as
-the **Europe wave** ran (Western Europe **plus Scandinavia & the Nordics**,
-20 countries, every category, four Opus audit rounds; 12,008 → **14,914**)
-and the US no-figure rows came in under decision 1. **The Europe wave is
-complete and on `expansion`, unmerged.** The next session's first question
-is the user's: merge + publish, or start Mexico and Canada on the same
-branch (see "Where things stand").
+Written 2026-09-16 at the end of the **United States wave** of the
+country-by-country scouring (9,300 → 12,008 places), carried through the
+**Europe wave** (Western Europe plus Scandinavia & the Nordics, 20 countries,
+every category; → 14,914), the decision-1 re-runs and a whole-bank pre-merge
+audit (→ 14,901), and last rewritten **2026-09-18 ~02:30 UTC, right after
+the release**: both waves are live on GitHub Pages and Netlify (tag
+`v1.3-europe-wave` = `main`), verified. The next work goes on branch
+**`expansion-2`** (cut from `main` at the release; never push to `main`
+except as a release — every push there deploys Pages and costs a Netlify
+build).
+
+## Start here (the next session, in order)
+
+1. `git checkout expansion-2` (it is `main` + this file's release edits).
+   `npm test` → 193, `npm run validate` → 14,901, `npm run gap-check` clean.
+   Read "Where things stand", then "Same-name places: the design".
+2. **Build decision 5** — the same-name-places design below, accepted by the
+   user 2026-09-17. It is the first job, *before* the Mexico/Canada sweep,
+   because every sweep feeds it (London, Cambridge, Windsor, Kingston,
+   Hamilton, Victoria, Córdoba, Mérida, Santa Rosa, San José…) and it changes
+   the fold tools (`chunk.mjs` keeps the qualifier, `fold.mjs` and the
+   validator allow qualified namesakes, themes key by id). Sequence: engine +
+   tests + SPEC §3.7/§4/§13 → fold the backlog from the three waves' "taken"
+   lists (`scripts/expansion/work/*.report.txt`, `*.out`) with qualifiers
+   from their Wikipedia titles, one resolver window for views → an Opus
+   gameplay audit (≤3 agents, the audit brief in `scripts/expansion/AUDIT-BRIEF.md`).
+3. **Then Mexico and Canada**, rivers first (the order and the recipes are
+   below; `probes/*.json` from the Europe wave are the templates; the
+   per-cohort floors and views floors are settled — see "Every knob"). Piecemeal:
+   one commit per chunk on `expansion-2`, pushed as you go, a report per
+   chunk in `scripts/expansion/reports/`, `jackpot-share.mjs` after every fold.
+4. Release = the procedure in "The release, as audited": fast-forward `main`
+   in one push inside a merge window from `draw-diff.mjs main`, publish
+   Netlify in the same minute, run the verification curls, update "Where it
+   lives". The decision-5 work can ride the Mexico/Canada release (one
+   deploy) unless the user wants it live sooner.
 
 ---
 
-# The job: Western Europe, all categories, on `expansion` — DONE 2026-09-17; next per the plan is Mexico and Canada
+# The job: decision 5 (same-name places), then Mexico and Canada, on `expansion-2`
 
 The user's plan (2026-09-15): scour the world country by country, **every
 category per country**, "as many places as we can", in this order:
@@ -40,15 +66,17 @@ at 25 km²). Twenty countries.
 
 Standing decisions from the user, all still in force:
 
-1. **Everything lands on branch `expansion`.** Do not merge to `main`: every
-   push to `main` deploys GitHub Pages but Netlify is locked, and a diverged
-   bank breaks the daily comparison for Pages players on ~2 days in 3. The
-   user said (2026-09-16) they **want to add the next probes to `expansion`
-   as well before merging with `main`** — i.e. Western Europe goes onto this
-   branch too, and the merge + Netlify publish happens after it, as one
-   release with one re-verification. (If the phrase "the best probe" comes
-   up: that is the user's words for this; ask if unsure which probes they
-   mean before merging anything.)
+1. **Everything lands on a work branch — `expansion-2` now** (the user's
+   2026-09-18 instruction: a new branch per phase "so we don't push to main
+   and update Netlify"). A push to `main` is a release: it deploys GitHub
+   Pages at once and, with Netlify's builds on, builds there too (15 credits
+   per published production deploy); a bank that differs from the server's
+   breaks the daily comparison for Pages players on the days the two draw
+   differently. So `main` moves only by the release procedure, as one
+   fast-forward push, inside a `draw-diff.mjs` window, with the Netlify
+   publish in the same minute — the first two waves went out that way on
+   2026-09-18. (If the phrase "the best probe" comes up: that is the user's
+   words for the probes to include; ask if unsure which they mean.)
 2. Order within a country: **rivers → lakes → mountains → islands → seas →
    deserts → cities.** Rivers and lakes are where the traps live (a missing
    name autocorrects to a different place); do them early.
@@ -67,12 +95,19 @@ Standing decisions from the user, all still in force:
 
 ## Where things stand
 
-**Released 2026-09-18 ~01:30 UTC**: `expansion` was fast-forwarded into
-`main` (one push; tag `v1.3-europe-wave` marks the commit) and GitHub Pages
-deployed it; the Netlify publish is the user's dashboard act (see "The
-release, as audited"). `expansion` == `main` at the release; the next wave
-continues on `expansion`. `npm test` 193 · `npm run validate` 14,901 ·
-`npm run gap-check` 812 pins, every one lands. `bank.js` 1.97 MB.
+**Released 2026-09-18 01:25 UTC**: `expansion` was fast-forwarded into
+`main` (one push, `ffeceaa..8ecb7e5`; tag `v1.3-europe-wave`), GitHub Pages
+deployed it (verified: `data/bank.js` 1,970,246 bytes, the new
+`matching.js`), and the user published the Netlify build (~01:50 UTC;
+verified: the same bank, both functions on the new bank — `daily-stats` for
+2026-09-19 returns the new draw `6ddb6b85`, the three rejections answer
+`closed` / `draw-mismatch` / `round 1: unrecognized`, CORS admits the Pages
+origin). Dig #7 (2026-09-18) drew identically on both banks, so no player
+saw a mismatch. **Branch `expansion-2`** was cut from `main` right after,
+and this file's edits are its first commit; `expansion` is retired (equal to
+`main` at the release; delete or leave it). `npm test` 193 · `npm run
+validate` 14,901 · `npm run gap-check` 812 pins, every one lands. `bank.js`
+1.97 MB.
 
 | category | US wave end | now | Europe floor | wave reports (`scripts/expansion/reports/`) |
 |---|---|---|---|---|
@@ -93,13 +128,11 @@ measured over sized rows only** (333 unsized seas had made "smaller than
 1,000,000 km²" drawable while every one of them refused it — that one
 changes dig #6's round 3 on this branch).
 
-**What the user decides next** (nothing below was done, on purpose):
+**What the user decides next** (open questions; 1 and 2 were decided):
 
-1. **Merge `expansion` → `main` and publish Netlify** as one release —
-   the procedure, the timing and the checklist are in "The release, as
-   audited" below. Or keep stacking waves on `expansion` — the branch is
-   5,600 places ahead; the daily comparison for Pages players breaks on
-   days the two banks draw differently.
+1. ~~Merge and publish~~ — done 2026-09-18 (see "The release, as audited");
+   the next release is the user's call again, after decision 5 and/or the
+   Mexico/Canada wave.
 2. **Decision 5, same-name places — DECIDED 2026-09-17 evening**: the user
    accepted the design in "Same-name places: the design" below ("one bare
    name, several places, the round's scope picks"). It is the next
@@ -166,11 +199,14 @@ What they established, and what was fixed on the spot (the commit after `6a93088
    Continuous deployment → Build settings → Build status): *Stopped builds*
    → push, then Activate builds, then Trigger deploy once; *Locked deploys*
    → the push builds once, then Publish deploy on that build.
-3. `git checkout main && git merge --ff-only expansion && git push origin main`
+3. `git checkout main && git merge --ff-only expansion-2 && git push origin main`
    — one push, one Pages deploy (`deploy.yml`), one CI run, one Netlify
-   build (15 credits when published). `expansion` == `main` afterwards; the
-   next wave continues on `expansion` with no reset. (A squash buys nothing
-   on Netlify and forces `git branch -f expansion main` + a force-push.)
+   build (15 credits when published). Tag it (`git tag -a v1.x-<wave>`, push
+   the tag; tags trigger CI only, not the Pages deploy). Then cut the next
+   work branch from `main` (`expansion-3`…), as the user prefers a fresh
+   branch per phase. (A squash buys nothing on Netlify and loses the
+   per-chunk history from `main`.) This is exactly how 2026-09-18 went:
+   `ffeceaa..8ecb7e5`, tag `v1.3-europe-wave`, then `expansion-2`.
 4. Publish / trigger the Netlify deploy in the same minute (Netlify first if
    anything). Then the re-verification checklist in "Netlify, verified live"
    below: build log (both functions bundled), `daily-stats?day=` returns 15
@@ -251,9 +287,11 @@ category and modifier, not per entry), though eligible counts move a little
 rewards a name the player may not have meant); auto-correct across namesakes
 by fuzzy distance (the Redding / Reading class shows how that reads).
 
-**Sequence:** merge and publish the Europe wave first (the pre-merge audit of
-2026-09-17 measured the matcher as it stands), then this as its own step on
-`expansion`, then the "famous group" question for islands (item 3 above) can
+**Sequence (decided 2026-09-18):** the Europe wave is released; this is the
+**next job, before the Mexico/Canada sweep** — every sweep feeds it, it
+changes the fold tools, and the backlog is already on disk (the three waves'
+"taken" lists). Build it on `expansion-2`, fold the backlog, audit it, then
+sweep. Then the "famous group" question for islands (item 3 above) can
 ride the same qualifier column ("Farallon Islands" as a group entry is a
 different question, but the machinery is shared).
 
@@ -588,6 +626,19 @@ kept as written so the reasoning survives.
 
 # The loop, as it now works
 
+Four small tools came out of the audits and are in the repo now (they were
+scratchpad scripts until 2026-09-18): **`scripts/expansion/stack.mjs`** loads
+engine + bank the way the Netlify function does, from the working tree or
+from any git ref (`loadStack('main')`), with `judgeFor(stack, slot)` and
+`outcome(result)`; **`try.mjs`** types names at a slot (`node
+scripts/expansion/try.mjs '{"category":"capital","region":"Oceania"}'
+Auckland Honolulu`; `--ref=main` for the live stack); **`jackpot-share.mjs`**
+prints every cohort's jackpot line, jackpot count and share plus its three
+lowest rows (`--list=<category>` lists the jackpot rows) — run it after every
+fold; **`draw-diff.mjs <ref>`** lists the dailies whose prompts differ
+between that ref's stack and the working tree — the merge-window question.
+
+
 Read `scripts/expansion/README.md` first (short). One country × category at
 a time; one commit per chunk; audits per chunk or two.
 
@@ -826,17 +877,17 @@ background. The Bash tool caps at 600 s.
 ## Where it lives
 
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is
-  authenticated, `git push` just works). **`main` = `expansion` = tag
-  `v1.3-europe-wave`** since the 2026-09-18 release (before it, `main` sat at
-  `ffeceaa`, the 9,300 bank, from 2026-09-15 to 2026-09-18).
+  authenticated, `git push` just works). **`main` = tag `v1.3-europe-wave`
+  (`8ecb7e5`) = what Pages and Netlify serve** since the 2026-09-18 release
+  (before it, `main` sat at `ffeceaa`, the 9,300 bank, 2026-09-15 to 09-18).
+  **Work happens on `expansion-2`** (cut from `main` at the release);
+  `expansion` is the retired branch of the first two waves.
 - **GitHub Pages:** https://michaelboujikian.github.io/wormillion/ — every push
   to `main` deploys within a minute or two (`deploy.yml`); `ci.yml` runs
   test + validate on every branch.
-- **Netlify:** https://wormillion.netlify.app — served `1eaa3fb` (the 9,300
-  bank; `1eaa3fb..ffeceaa` touches only HANDOFF.md) from 2026-09-15 until the
-  user published the `v1.3-europe-wave` build (the release of 2026-09-18;
-  verify with `curl -sI https://wormillion.netlify.app/data/bank.js` — the
-  new bank is 1.97 MB, the old 1.26 MB). **The user has held Netlify off auto-publishing.** Per the
+- **Netlify:** https://wormillion.netlify.app — serves `v1.3-europe-wave`
+  (published by the user 2026-09-18 ~01:50 UTC, verified 02:00 UTC: `bank.js`
+  1,970,246 bytes; before it `1eaa3fb`, the 9,300 bank, from 2026-09-15). **The user has held Netlify off auto-publishing.** Per the
   Netlify docs (read 2026-09-17): a *locked* site still **builds** every
   push to main and only withholds publishing ("Publish deploy" then
   publishes the built one, no second build); *Stopped builds* is the setting
@@ -853,7 +904,18 @@ background. The Bash tool caps at 600 s.
   the in-app browser pane) **and mounts the comparison API over an in-memory
   store**, so the whole server flow plays locally.
 
-## Netlify, verified live on the new bank (2026-09-15 ~20:30 PDT)
+## Netlify, verified live on the new bank (2026-09-15 ~20:30 PDT; again 2026-09-18 02:00 UTC on `v1.3-europe-wave`)
+
+The 2026-09-18 re-verification (the `v1.3-europe-wave` publish): `curl -sI
+.../data/bank.js` → 1,970,246 bytes; `daily-stats?day=2026-09-19` →
+`{"number":8,"draw":"6ddb6b85",...}` (the new bank's draw, computed locally
+with `draw-diff.mjs` beforehand); `daily-submit` with `{day, playerId,
+rounds:[15 strings], draw}` → 409 `closed` for an old day, 409
+`draw-mismatch` for a wrong `draw`, 400 `round 1: unrecognized` for gibberish;
+`Access-Control-Allow-Origin: https://michaelboujikian.github.io` on a
+request carrying that Origin. Note the payload shape: `rounds` is an array
+of 15 answer strings (or null for a miss), not `answers`.
+
 
 After the user bought the month: bank.js 1,260,546 bytes and the new matcher
 served; function cold start 0.7 s with the 1.2 MB bank; `daily-stats` returns
@@ -1036,7 +1098,10 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
   and hands back `pvipcontinue` — the nulls mean "not yet", not zero. Never
   run two of `probe.mjs`, `auto-titles.mjs`, `fetch-pageviews` at once. All
   three cache locally, so a re-run costs nothing for what is known.
-- **Quoted heredocs (`<<'EOF'`) are fine for data**, but the Bash tool collapses
+- **The Bash tool's heredocs fail two ways**: a long Python body sometimes
+  dies with "unexpected EOF while looking for matching `''" (write the script
+  with the Write tool and run the file instead), and quoted heredocs
+  (`<<'EOF'`) are fine for data, but the Bash tool collapses
   `\\` to `\` inside them — a JS regex like `/[.*+?^${}()|[\]\\]/` or `\s` /
   `\d` written through a heredoc arrives broken (it bit twice today). Write
   scripts and JSON configs with the Write tool.
