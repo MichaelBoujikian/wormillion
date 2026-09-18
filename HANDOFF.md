@@ -34,13 +34,24 @@ rest.
 
 # The job
 
-The user's plan (2026-09-15, South Asia added 2026-09-18): scour the world
+The user's plan (2026-09-15; South Asia added 2026-09-18, Eastern Europe
+added 2026-09-18 for right after Mexico and Canada): scour the world
 country by country, **every category per country**, "as many places as we
 can", in this order:
 
 > **United States ✓ → Western Europe + Scandinavia/Nordics ✓ → Mexico and
-> Canada → East Asia → West and Central Asia → South America → Central
-> America → North Africa → South Asia → the rest of Africa → islands.**
+> Canada → Eastern Europe → East Asia → West and Central Asia → South
+> America → Central America → North Africa → South Asia → the rest of
+> Africa → islands.**
+
+Eastern Europe is everything the Europe wave's 20 countries left: Poland,
+Czechia, Slovakia, Hungary, Romania, Bulgaria, the Baltics, Ukraine,
+Belarus, Moldova, the Balkans (Slovenia, Croatia, Bosnia, Serbia,
+Montenegro, Kosovo, North Macedonia, Albania, Greece), and — ask the user —
+European Russia west of the Urals and Turkey's European side. Names there
+transliterate (Wisła / Vistula, Dunaj / Danube, Vltava / Moldau): the fold
+keeps a native-name alias that doesn't collide, and the ue/oe question in
+"Open questions" applies to Polish / Czech / Romanian diacritics too.
 
 Within each area: **rivers → lakes → mountains → islands → seas (bays,
 straits) → deserts → cities.** Rivers and lakes are where the traps live (a
