@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T19:28:49.985Z",
+ "fetched": "2026-09-18T20:15:41.349Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -72972,7 +72972,7 @@
    "lat": 44.1373891,
    "lon": -113.78110123
   },
-  "mountain-kings-peak": {
+  "mountain-kings-peak-utah": {
    "title": "Kings Peak (Utah)",
    "monthlyViews": 3257,
    "days": 60,
@@ -73833,7 +73833,7 @@
    "lat": 37.89990155,
    "lon": -119.2210926
   },
-  "mountain-mount-lyell": {
+  "mountain-mount-lyell-california": {
    "title": "Mount Lyell (California)",
    "monthlyViews": 852,
    "days": 60,
@@ -73868,7 +73868,7 @@
    "lat": 44.6743006,
    "lon": -121.79957361
   },
-  "mountain-three-sisters": {
+  "mountain-three-sisters-oregon": {
    "title": "Three Sisters (Oregon)",
    "monthlyViews": 4049,
    "days": 60,
@@ -80749,7 +80749,7 @@
    "lat": 38.66934086,
    "lon": -122.63348753
   },
-  "mountain-heart-mountain": {
+  "mountain-heart-mountain-wyoming": {
    "title": "Heart Mountain (Wyoming)",
    "monthlyViews": 1522,
    "days": 60,
@@ -80994,7 +80994,7 @@
    "lat": 36.5232685,
    "lon": -118.2389774
   },
-  "mountain-south-mountain": {
+  "mountain-south-mountain-maryland": {
    "title": "South Mountain (Maryland and Pennsylvania)",
    "monthlyViews": 1035,
    "days": 60,
@@ -81253,7 +81253,7 @@
    "lat": 35.4255,
    "lon": -82.7569
   },
-  "mountain-mount-tom": {
+  "mountain-mount-tom-massachusetts": {
    "title": "Mount Tom (Massachusetts)",
    "monthlyViews": 700,
    "days": 60,
@@ -81855,7 +81855,7 @@
    "lat": 31.8464771,
    "lon": -109.2914408
   },
-  "mountain-crown-mountain": {
+  "mountain-crown-mountain-saint-thomas": {
    "title": "Crown Mountain (United States Virgin Islands)",
    "monthlyViews": 396,
    "days": 60,
@@ -82758,7 +82758,7 @@
    "lat": 37.51694444,
    "lon": -79.51027778
   },
-  "mountain-bald-mountain": {
+  "mountain-bald-mountain-utah": {
    "title": "Bald Mountain (Uinta Range)",
    "monthlyViews": 244,
    "days": 60,
@@ -83626,7 +83626,7 @@
    "lat": 39.03555556,
    "lon": -78.5675
   },
-  "mountain-grizzly-peak": {
+  "mountain-grizzly-peak-tenmile-range": {
    "title": "Grizzly Peak (Summit County, Colorado)",
    "monthlyViews": 183,
    "days": 60,
@@ -90485,6 +90485,1126 @@
    "days": 60,
    "lat": 34.2808509,
    "lon": -113.8385493
+  },
+  "mountain-mount-celeste": {
+   "title": "Mount Celeste",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": 49.58,
+   "lon": -125.41027778
+  },
+  "mountain-nub-peak": {
+   "title": "Nub Peak",
+   "monthlyViews": 2313,
+   "days": 59,
+   "lat": 50.93305556,
+   "lon": -115.65777778
+  },
+  "mountain-ishpatina-ridge": {
+   "title": "Ishpatina Ridge",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 47.31666667,
+   "lon": -80.75
+  },
+  "mountain-stawamus-chief": {
+   "title": "Stawamus Chief",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 49.68388889,
+   "lon": -123.14166667
+  },
+  "mountain-tseax-cone": {
+   "title": "Tseax Cone",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 55.11055556,
+   "lon": -128.89888889
+  },
+  "mountain-golden-hinde": {
+   "title": "Golden Hinde (mountain)",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 49.66277778,
+   "lon": -125.74694444
+  },
+  "mountain-mont-saint-hilaire": {
+   "title": "Mont Saint-Hilaire",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 45.55222222,
+   "lon": -73.15083333
+  },
+  "mountain-the-cabox": {
+   "title": "The Cabox",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 48.83305556,
+   "lon": -58.48416667
+  },
+  "mountain-ha-ling-peak": {
+   "title": "Ha Ling Peak",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 51.06416667,
+   "lon": -115.39972222
+  },
+  "mountain-mount-edziza": {
+   "title": "Mount Edziza",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 57.71527778,
+   "lon": -130.63444444
+  },
+  "mountain-howse-peak": {
+   "title": "Howse Peak",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 51.81388889,
+   "lon": -116.68111111
+  },
+  "mountain-mount-babel-quebec": {
+   "title": "Mount Babel (Quebec)",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 51.44111111,
+   "lon": -68.69194444
+  },
+  "mountain-tunnel-mountain": {
+   "title": "Tunnel Mountain",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 51.1763889,
+   "lon": -115.5547222
+  },
+  "mountain-mount-kerkeslin": {
+   "title": "Mount Kerkeslin",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 52.6486111,
+   "lon": -117.8266667
+  },
+  "mountain-mount-kennedy": {
+   "title": "Mount Kennedy",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 60.34116667,
+   "lon": -138.96633333
+  },
+  "mountain-mount-nirvana": {
+   "title": "Mount Nirvana",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 61.87472222,
+   "lon": -127.68027778
+  },
+  "mountain-cerro-tlaloc": {
+   "title": "Cerro Tláloc",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 19.40733333,
+   "lon": -98.7075
+  },
+  "mountain-unnecessary-mountain": {
+   "title": "Unnecessary Mountain",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 49.44833333,
+   "lon": -123.19805556
+  },
+  "mountain-maple-mountain": {
+   "title": "Maple Mountain (Ontario)",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 47.38333333,
+   "lon": -80.33333333
+  },
+  "mountain-mount-mckay": {
+   "title": "Mount McKay",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 48.34472222,
+   "lon": -89.28666667
+  },
+  "mountain-slesse-mountain": {
+   "title": "Slesse Mountain",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 49.02561111,
+   "lon": -121.59191667
+  },
+  "mountain-cerro-prieto": {
+   "title": "Cerro Prieto",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 32.418,
+   "lon": -115.308
+  },
+  "mountain-mount-arrowsmith": {
+   "title": "Mount Arrowsmith",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 49.22361111,
+   "lon": -124.59444444
+  },
+  "mountain-the-beehive": {
+   "title": "The Beehive (Alberta)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 51.41416667,
+   "lon": -116.24388889
+  },
+  "mountain-mount-raoul-blanchard": {
+   "title": "Mount Raoul Blanchard",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 47.31666667,
+   "lon": -70.83333333
+  },
+  "mountain-the-whistlers": {
+   "title": "The Whistlers (Alberta)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 52.82694444,
+   "lon": -118.13277778
+  },
+  "mountain-turtle-mountain": {
+   "title": "Turtle Mountain (Alberta)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-wedge-mountain": {
+   "title": "Wedge Mountain",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 50.13305556,
+   "lon": -122.79333333
+  },
+  "mountain-montagne-des-erables": {
+   "title": "Montagne des Érables",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 47.88944444,
+   "lon": -70.455
+  },
+  "mountain-mount-albert-edward": {
+   "title": "Mount Albert Edward (British Columbia)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 49.67777778,
+   "lon": -125.43166667
+  },
+  "mountain-mount-john-laurie": {
+   "title": "Mount John Laurie",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 51.12416667,
+   "lon": -115.11833333
+  },
+  "mountain-mount-kent": {
+   "title": "Mount Kent",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": -51.6735,
+   "lon": -58.113
+  },
+  "mountain-pico-del-aguila": {
+   "title": "Pico del Águila",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 19.213,
+   "lon": -99.257
+  },
+  "mountain-anarchist-mountain": {
+   "title": "Anarchist Mountain",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 49.03833333,
+   "lon": -119.33611111
+  },
+  "mountain-eve-cone": {
+   "title": "Eve Cone",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 57.81305556,
+   "lon": -130.67555556
+  },
+  "mountain-mount-albert": {
+   "title": "Mount Albert (Quebec)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 48.9214,
+   "lon": -66.19495
+  },
+  "mountain-seven-sisters-peaks": {
+   "title": "Seven Sisters Peaks",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 54.97361111,
+   "lon": -128.21083333
+  },
+  "mountain-the-volcano": {
+   "title": "The Volcano (British Columbia)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 56.42277778,
+   "lon": -130.85
+  },
+  "mountain-cerro-potosi": {
+   "title": "Cerro Potosí",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 24.87166667,
+   "lon": -100.2325
+  },
+  "mountain-crowsnest-mountain": {
+   "title": "Crowsnest Mountain",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.70361111,
+   "lon": -114.57388889
+  },
+  "mountain-devils-paw": {
+   "title": "Devils Paw",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 58.73083333,
+   "lon": -133.83972222
+  },
+  "mountain-hudson-bay-mountain": {
+   "title": "Hudson Bay Mountain",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 54.81166667,
+   "lon": -127.33972222
+  },
+  "mountain-mount-boucherie": {
+   "title": "Mount Boucherie",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.85388889,
+   "lon": -119.58138889
+  },
+  "mountain-mount-lady-macdonald": {
+   "title": "Mount Lady Macdonald",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-moresby": {
+   "title": "Mount Moresby",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-steele": {
+   "title": "Mount Steele",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 61.09333333,
+   "lon": -140.31083333
+  },
+  "mountain-north-twin-peak": {
+   "title": "North Twin Peak",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 52.2237,
+   "lon": -117.4344
+  },
+  "mountain-cerro-mohinora": {
+   "title": "Cerro Mohinora",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 25.95611111,
+   "lon": -107.04777778
+  },
+  "mountain-howser-spire": {
+   "title": "Howser Spire",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-andromeda": {
+   "title": "Mount Andromeda (Alberta)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 52.17388889,
+   "lon": -117.23611111
+  },
+  "mountain-mount-farnham": {
+   "title": "Mount Farnham",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.48888889,
+   "lon": -116.48694444
+  },
+  "mountain-nazko-cone": {
+   "title": "Nazko Cone",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 52.92722222,
+   "lon": -123.73388889
+  },
+  "mountain-hoodoo-mountain": {
+   "title": "Hoodoo Mountain",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 56.77166667,
+   "lon": -131.29611111
+  },
+  "mountain-king-peak": {
+   "title": "King Peak (Yukon)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 60.58305556,
+   "lon": -140.65388889
+  },
+  "mountain-monarch-mountain": {
+   "title": "Monarch Mountain (British Columbia)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.89944444,
+   "lon": -125.87583333
+  },
+  "mountain-mount-begbie": {
+   "title": "Mount Begbie",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 50.88472222,
+   "lon": -118.25583333
+  },
+  "mountain-mount-benson": {
+   "title": "Mount Benson (British Columbia)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.14972222,
+   "lon": -124.05111111
+  },
+  "mountain-mount-fromme": {
+   "title": "Mount Fromme",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.38333333,
+   "lon": -123.05638889
+  },
+  "mountain-mount-putnik": {
+   "title": "Mount Putnik",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 50.6433334,
+   "lon": -115.2572222
+  },
+  "mountain-mount-stephen": {
+   "title": "Mount Stephen",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.39916667,
+   "lon": -116.43638889
+  },
+  "mountain-roche-bonhomme": {
+   "title": "Roche Bonhomme",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 52.94472222,
+   "lon": -117.94333333
+  },
+  "mountain-sky-pilot-mountain": {
+   "title": "Sky Pilot Mountain (British Columbia)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.63472222,
+   "lon": -123.08638889
+  },
+  "mountain-canoe-mountain": {
+   "title": "Canoe Mountain (British Columbia)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.70388889,
+   "lon": -119.16305556
+  },
+  "mountain-mount-price": {
+   "title": "Mount Price (British Columbia)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.9175,
+   "lon": -123.03555556
+  },
+  "mountain-coliseum-mountain": {
+   "title": "Coliseum Mountain",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.50666667,
+   "lon": -116.11305556
+  },
+  "mountain-fairview-mountain": {
+   "title": "Fairview Mountain (Alberta)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.3994445,
+   "lon": -116.2233333
+  },
+  "mountain-grotto-mountain": {
+   "title": "Grotto Mountain",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-moose-mountain": {
+   "title": "Moose Mountain (Alberta)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 50.93833333,
+   "lon": -114.83833333
+  },
+  "mountain-mount-joffre": {
+   "title": "Mount Joffre",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 50.52805556,
+   "lon": -115.20666667
+  },
+  "mountain-mount-kaweah": {
+   "title": "Mount Kaweah",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.5260491,
+   "lon": -118.4784256
+  },
+  "mountain-mount-kidd": {
+   "title": "Mount Kidd",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 50.89361111,
+   "lon": -115.18972222
+  },
+  "mountain-mount-pierre-elliott-trudeau": {
+   "title": "Mount Pierre Elliott Trudeau",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.80277778,
+   "lon": -119.42527778
+  },
+  "mountain-mount-petain": {
+   "title": "Mount Pétain",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 50.54416667,
+   "lon": -115.18527778
+  },
+  "mountain-mount-queen-bess": {
+   "title": "Mount Queen Bess",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.27166667,
+   "lon": -124.56833333
+  },
+  "mountain-silverthrone-mountain": {
+   "title": "Silverthrone Mountain",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.51777778,
+   "lon": -126.11333333
+  },
+  "mountain-tres-virgenes": {
+   "title": "Tres Vírgenes",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 27.47,
+   "lon": -112.59166667
+  },
+  "mountain-anukatha-ipa": {
+   "title": "Anûkathâ Îpa",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-big-white-mountain": {
+   "title": "Big White Mountain",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.74444444,
+   "lon": -118.93527778
+  },
+  "mountain-el-jorullo": {
+   "title": "El Jorullo",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 18.97333333,
+   "lon": -101.71583333
+  },
+  "mountain-keele-peak": {
+   "title": "Keele Peak",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 63.4311111,
+   "lon": -130.3236111
+  },
+  "mountain-mist-mountain": {
+   "title": "Mist Mountain",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.5541667,
+   "lon": -114.91
+  },
+  "mountain-mount-gosford": {
+   "title": "Mount Gosford",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.30166667,
+   "lon": -70.86777778
+  },
+  "mountain-mont-owl-s-head": {
+   "title": "Mont Owl's Head",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.07416667,
+   "lon": -72.29805556
+  },
+  "mountain-mont-wright": {
+   "title": "Mont Wright",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 52.74083333,
+   "lon": -67.34722222
+  },
+  "mountain-mount-burgess": {
+   "title": "Mount Burgess",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.42,
+   "lon": -116.50527778
+  },
+  "mountain-mount-chester": {
+   "title": "Mount Chester",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.80722222,
+   "lon": -115.26333333
+  },
+  "mountain-mount-fay": {
+   "title": "Mount Fay",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.29944444,
+   "lon": -116.16194444
+  },
+  "mountain-mount-fisher": {
+   "title": "Mount Fisher (British Columbia)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.64638889,
+   "lon": -115.48444444
+  },
+  "mountain-mount-judge-howay": {
+   "title": "Mount Judge Howay",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.50694444,
+   "lon": -122.32166667
+  },
+  "mountain-mount-lougheed": {
+   "title": "Mount Lougheed",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 50.96555556,
+   "lon": -115.2625
+  },
+  "mountain-mount-sir-alexander": {
+   "title": "Mount Sir Alexander",
+   "monthlyViews": 152,
+   "days": 57,
+   "lat": 53.935833,
+   "lon": -120.386389
+  },
+  "mountain-opal-cone": {
+   "title": "Opal Cone",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.82722222,
+   "lon": -122.97111111
+  },
+  "mountain-tombstone-mountain": {
+   "title": "Tombstone Mountain (Yukon)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 64.40527778,
+   "lon": -138.68194444
+  },
+  "mountain-volcano-mountain": {
+   "title": "Volcano Mountain",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-pico-de-tancitaro": {
+   "title": "Pico de Tancítaro",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 19.416505,
+   "lon": -102.319723
+  },
+  "mountain-atwell-peak": {
+   "title": "Atwell Peak",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.84111111,
+   "lon": -123.00916667
+  },
+  "mountain-cerro-de-la-viga": {
+   "title": "Cerro de la Viga",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 25.3637,
+   "lon": -100.5571
+  },
+  "mountain-cirque-peak": {
+   "title": "Cirque Peak (Alberta)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.7,
+   "lon": -116.41777778
+  },
+  "mountain-deltaform-mountain": {
+   "title": "Deltaform Mountain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.30166667,
+   "lon": -116.24527778
+  },
+  "mountain-dolomite-peak": {
+   "title": "Dolomite Peak",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.67583333,
+   "lon": -116.3725
+  },
+  "mountain-elkhorn-mountain": {
+   "title": "Elkhorn Mountain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.78972222,
+   "lon": -125.82777778
+  },
+  "mountain-jackass-mountain": {
+   "title": "Jackass Mountain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.08916667,
+   "lon": -121.47222222
+  },
+  "mountain-jocotitlan": {
+   "title": "Jocotitlán (volcano)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 19.73805556,
+   "lon": -99.75888889
+  },
+  "mountain-lone-butte": {
+   "title": "Lone Butte (British Columbia)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-los-humeros": {
+   "title": "Los Humeros",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 19.68,
+   "lon": -97.45
+  },
+  "mountain-mont-brome": {
+   "title": "Mont Brome",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.28916667,
+   "lon": -72.63777778
+  },
+  "mountain-mont-saint-gregoire": {
+   "title": "Mont Saint-Grégoire",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.35805556,
+   "lon": -73.15222222
+  },
+  "mountain-montana-mountain": {
+   "title": "Montana Mountain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 60.058,
+   "lon": -134.691
+  },
+  "mountain-mount-babel-alberta": {
+   "title": "Mount Babel (Alberta)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.30638889,
+   "lon": -116.16333333
+  },
+  "mountain-mount-blakiston": {
+   "title": "Mount Blakiston",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.09416667,
+   "lon": -114.035
+  },
+  "mountain-mount-brazeau": {
+   "title": "Mount Brazeau",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 52.55111111,
+   "lon": -117.35472222
+  },
+  "mountain-mount-clemenceau": {
+   "title": "Mount Clemenceau",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.2475,
+   "lon": -117.95777778
+  },
+  "mountain-mount-cory": {
+   "title": "Mount Cory (Alberta)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.2008,
+   "lon": -115.6897
+  },
+  "mountain-mount-dawson": {
+   "title": "Mount Dawson (Canada)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.15166667,
+   "lon": -117.42055556
+  },
+  "mountain-mount-gandalf": {
+   "title": "Mount Gandalf",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.63166667,
+   "lon": -122.70194444
+  },
+  "mountain-mount-goodsir": {
+   "title": "Mount Goodsir",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.20166667,
+   "lon": -116.39666667
+  },
+  "mountain-mount-hector": {
+   "title": "Mount Hector (Alberta)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.575,
+   "lon": -116.25944444
+  },
+  "mountain-mount-hungabee": {
+   "title": "Mount Hungabee",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.33277778,
+   "lon": -116.28388889
+  },
+  "mountain-mount-jimmy-simpson": {
+   "title": "Mount Jimmy Simpson",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.68555556,
+   "lon": -116.50472222
+  },
+  "mountain-mount-louis": {
+   "title": "Mount Louis",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.215,
+   "lon": -115.67916667
+  },
+  "mountain-mount-macdonald": {
+   "title": "Mount Macdonald",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.30833333,
+   "lon": -117.47166667
+  },
+  "mountain-mount-mackenzie": {
+   "title": "Mount Mackenzie",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.96361111,
+   "lon": -118.08916667
+  },
+  "mountain-mount-prevost": {
+   "title": "Mount Prevost",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.83138889,
+   "lon": -123.76777778
+  },
+  "mountain-mount-terry-fox": {
+   "title": "Mount Terry Fox",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.932778,
+   "lon": -119.235555
+  },
+  "mountain-mount-ulysses": {
+   "title": "Mount Ulysses",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 57.34638889,
+   "lon": -124.09277778
+  },
+  "mountain-outlook-peak": {
+   "title": "Outlook Peak",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 79.74,
+   "lon": -91.4
+  },
+  "mountain-pyroclastic-peak": {
+   "title": "Pyroclastic Peak",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 50.11438889,
+   "lon": -123.29280556
+  },
+  "mountain-roche-miette": {
+   "title": "Roche Miette",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.16333333,
+   "lon": -117.91972222
+  },
+  "mountain-rugged-mountain": {
+   "title": "Rugged Mountain",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 50.025,
+   "lon": -126.67777778
+  },
+  "mountain-seven-sisters-mountain": {
+   "title": "Seven Sisters Mountain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.72305556,
+   "lon": -114.58222222
+  },
+  "mountain-silver-peak": {
+   "title": "Silver Peak (Ontario)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-the-president": {
+   "title": "The President (mountain)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.50055556,
+   "lon": -116.56166667
+  },
+  "mountain-the-towers": {
+   "title": "The Towers (Canada)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.88638889,
+   "lon": -115.60166667
+  },
+  "mountain-taaw-tldaaw": {
+   "title": "Taaw Tldáaw",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.08333333,
+   "lon": -131.8
+  },
+  "mountain-trophy-mountain": {
+   "title": "Trophy Mountain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-three-sisters-alberta": {
+   "title": "The Three Sisters (Alberta)",
+   "monthlyViews": 2161,
+   "days": 60,
+   "lat": 51.02472222,
+   "lon": -115.33055556
+  },
+  "mountain-white-hill": {
+   "title": "White Hill (Nova Scotia)",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 46.7,
+   "lon": -60.6
+  },
+  "mountain-baldy-mountain-manitoba": {
+   "title": "Baldy Mountain (Manitoba)",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 51.46861111,
+   "lon": -100.72833333
+  },
+  "mountain-south-mountain-nova-scotia": {
+   "title": "South Mountain (Nova Scotia)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-tom-california": {
+   "title": "Mount Tom (California)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.3385441,
+   "lon": -118.6584507
+  },
+  "mountain-pyramid-mountain-alberta": {
+   "title": "Pyramid Mountain (Alberta)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 52.95111111,
+   "lon": -118.14916667
+  },
+  "mountain-mount-tantalus": {
+   "title": "Mount Tantalus",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 49.81811111,
+   "lon": -123.32938889
+  },
+  "mountain-mount-victoria-alberta": {
+   "title": "Mount Victoria (Bow Range)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 51.37694444,
+   "lon": -116.30666667
+  },
+  "mountain-bald-mountain-colorado": {
+   "title": "Bald Mountain (Summit County, Colorado)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 39.4438764,
+   "lon": -105.9694606
+  },
+  "mountain-three-sisters-british-columbia": {
+   "title": "Three Sisters (Elk Valley)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.576633,
+   "lon": -115.102172
+  },
+  "mountain-cathedral-mountain-british-columbia": {
+   "title": "Cathedral Mountain (Yoho)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.39666667,
+   "lon": -116.39027778
+  },
+  "mountain-crown-mountain-british-columbia": {
+   "title": "Crown Mountain (North Shore Mountains)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-the-table": {
+   "title": "The Table (British Columbia)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.895,
+   "lon": -123.01305556
+  },
+  "mountain-grizzly-peak-sawatch-range": {
+   "title": "Grizzly Peak (Sawatch Range)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 39.0424631,
+   "lon": -106.5975938
+  },
+  "mountain-heart-mountain-alberta": {
+   "title": "Heart Mountain (Alberta)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.04027778,
+   "lon": -115.13638889
+  },
+  "mountain-kings-peak-british-columbia": {
+   "title": "Kings Peak (British Columbia)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.81111111,
+   "lon": -125.83666667
+  },
+  "mountain-mount-logan-quebec": {
+   "title": "Mount Logan (Quebec)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 48.89055556,
+   "lon": -66.63888889
+  },
+  "mountain-mount-lyell-canada": {
+   "title": "Mount Lyell (Canada)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.95666667,
+   "lon": -117.10333333
+  },
+  "mountain-mount-odin-british-columbia": {
+   "title": "Mount Odin (British Columbia)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.55166667,
+   "lon": -118.12916667
+  },
+  "mountain-big-bald-mountain": {
+   "title": "Big Bald Mountain (New Brunswick)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-ice-peak": {
+   "title": "Ice Peak",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 57.69055556,
+   "lon": -130.63555556
+  },
+  "mountain-mount-baker-alberta": {
+   "title": "Mount Baker (Waputik Mountains)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.66527778,
+   "lon": -116.59777778
+  },
+  "mountain-mount-baldy-alberta": {
+   "title": "Mount Baldy (Alberta)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.01166667,
+   "lon": -115.04916667
+  },
+  "mountain-mount-hesperus": {
+   "title": "Mount Hesperus (Alaska)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 61.80388889,
+   "lon": -154.14472222
+  },
+  "mountain-the-pyramid": {
+   "title": "The Pyramid (British Columbia)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 57.7625,
+   "lon": -130.56416667
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",

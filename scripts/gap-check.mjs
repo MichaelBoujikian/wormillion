@@ -73,7 +73,9 @@ const EXPECTED = {
     // the 2026-09-17 Italy / Spain / Portugal mountains scouring
     'Rock of Gibraltar', 'Phlegraean Fields', 'Vatican Hill', 'Cumbre Vieja', 'Puig Major', 'Pico do Areeiro', 'Mount Somma', 'Mount Pellegrino', 'Aspromonte', 'Gennargentu', 'Alcazaba', 'Latemar',
     // the 2026-09-17 Nordic mountains scouring
-    'Himmelbjerget', 'Hverfjall', 'Oraefajokull', 'Hofsjokull', 'Skjaldbreidur', 'Kverkfjoll', 'Rondeslottet', 'Ejer Bavnehoj'],
+    'Himmelbjerget', 'Hverfjall', 'Oraefajokull', 'Hofsjokull', 'Skjaldbreidur', 'Kverkfjoll', 'Rondeslottet', 'Ejer Bavnehoj',
+    // the 2026-09-18 Mexico and Canada mountains scouring (reports/2026-09-18-mx-ca-mountains.md)
+    'Mount Steele', 'King Peak', 'Mount Kennedy', 'Mount Edziza', 'Howse Peak', 'Crowsnest Mountain', 'Tunnel Mountain', 'Ha Ling Peak', 'Stawamus Chief', 'Golden Hinde', 'Mont Saint-Hilaire', 'El Jorullo', 'Cerro Tlaloc', 'Pico de Tancitaro', 'Cerro Potosi'],
   desert: ['Sahara', 'Gobi', 'Mojave', 'Atacama', 'Kalahari', 'Namib', 'Sonoran', 'Thar Desert', 'Arabian Desert', 'Antarctic Desert',
     // the 2026-09-15 expansion
     'Death Valley', 'White Sands', 'Skeleton Coast', 'Rann of Kutch', 'Karoo'],

@@ -6083,7 +6083,7 @@ Cloud Peak|4014
 Wind River Peak|4020
 Granite Peak|3901
 Borah Peak|3859
-Kings Peak|4123
+Kings Peak (Utah)|4123
 Mount Timpanogos|3582
 Wheeler Peak (New Mexico)|4011
 Sandia Crest|3255|Sandia Peak
@@ -6206,12 +6206,12 @@ Mount Baldy (California)|3068|Mount San Antonio
 San Gorgonio Mountain|3506
 Telescope Peak|3366
 Mount Dana|3982
-Mount Lyell|3999
+Mount Lyell (California)|3999
 Clouds Rest|3025
 Mount Tallac|2957
 Mount Rose|3285
 Mount Jefferson (Oregon)|3199
-Three Sisters|3157|South Sister
+Three Sisters (Oregon)|3157|South Sister
 Mount Bachelor|2764
 Mount Thielsen|2799
 Mount McLoughlin|2894
@@ -7194,7 +7194,7 @@ High Point|550
 Triple Divide Peak|2446
 Mount Bierstadt|4287
 Mount Saint Helena|1323
-Heart Mountain|2476
+Heart Mountain (Wyoming)|2476
 Mount Shishaldin|2857
 Bear Butte|1349
 Blood Mountain|1357
@@ -7229,7 +7229,7 @@ Amboy Crater|288
 Dotsero|2230
 Massanutten Mountain|891-1000
 Mount Langley|4277
-South Mountain|655
+South Mountain (Maryland)|655
 Cannon Mountain|1244
 Mount Tammany|465
 Mount Wachusett|611
@@ -7266,7 +7266,7 @@ Desolation Peak|1860
 Marys Peak|1250
 Mount Pemigewasset|771
 Mount Pisgah|1744
-Mount Tom|366
+Mount Tom (Massachusetts)|366
 Santiago Peak|1734
 Shenandoah Mountain|1340
 Goat Rocks|2500
@@ -7352,7 +7352,7 @@ Boulder Mountain|3449
 Brighams Tomb|2054
 Cerro Las Tetas|842
 Chiricahua Peak|2979
-Crown Mountain|474
+Crown Mountain (Saint Thomas)|474
 Fremont Peak|967
 Giant Mountain|1410
 Glastenbury Mountain|1142
@@ -7481,7 +7481,7 @@ Whitehorse Mountain|2085
 Whitewater Baldy|3322
 Ampersand Mountain|1022
 Apple Orchard Mountain|1287
-Bald Mountain|3642
+Bald Mountain (Utah)|3642
 Big Frog Mountain|1287
 Big Slide Mountain|1292
 Brian Head|3448
@@ -7605,7 +7605,7 @@ Dog Mountain|899
 Emigrant Peak|3330
 Frazier Mountain|2444
 Great North Mountain|1006
-Grizzly Peak|4094
+Grizzly Peak (Tenmile Range)|4094
 Heavens Peak|2740
 Humboldt Peak|4287
 Hurricane Hill|1755
@@ -8585,6 +8585,166 @@ Mount Wilson (Nevada)|2155
 Pico Peak|1209
 Rogers Peak (Oregon)|1130
 Black Mesa (Arizona)|0
+Mount Celeste|2045
+Nub Peak|2746
+Ishpatina Ridge|693
+Stawamus Chief|702
+Tseax Cone|609
+Golden Hinde|2195
+Mont Saint-Hilaire|414
+The Cabox|812
+Ha Ling Peak|2407
+Mount Edziza|2786
+Howse Peak|3295
+Mount Babel (Quebec)|952
+Tunnel Mountain|1692
+Mount Kerkeslin|2984
+Mount Kennedy|4238
+Mount Nirvana|2773
+Cerro Tlaloc|4158
+Unnecessary Mountain|1548
+Maple Mountain|642
+Mount McKay|489
+Slesse Mountain|2439
+Cerro Prieto|223
+Mount Arrowsmith|1819
+The Beehive|2270
+Mount Raoul Blanchard|1181
+The Whistlers|2470
+Turtle Mountain|2210
+Wedge Mountain|2895
+Montagne des Erables|1048
+Mount Albert Edward|2093
+Mount John Laurie|2240
+Mount Kent|458
+Pico del Aguila|3900
+Anarchist Mountain|1491
+Eve Cone|1740
+Mount Albert|1151
+Seven Sisters Peaks|2747
+The Volcano|1656
+Cerro Potosi|3747
+Crowsnest Mountain|2785
+Devils Paw|2616
+Hudson Bay Mountain|2589
+Mount Boucherie|758
+Mount Lady Macdonald|2606
+Mount Moresby|1164
+Mount Steele|5073
+North Twin Peak|3730
+Cerro Mohinora|3300
+Howser Spire|3412
+Mount Andromeda|3450
+Mount Farnham|3493
+Nazko Cone|1230
+Hoodoo Mountain|1850
+King Peak|5173
+Monarch Mountain|3555
+Mount Begbie|2733
+Mount Benson|1023
+Mount Fromme|1185
+Mount Putnik|2940
+Mount Stephen|3199
+Roche Bonhomme|2495
+Sky Pilot Mountain|2031
+Canoe Mountain|2651
+Mount Price|2049
+Coliseum Mountain|2035
+Fairview Mountain|2744
+Grotto Mountain|2706
+Moose Mountain|2437
+Mount Joffre|3450
+Mount Kaweah|4208
+Mount Kidd|2958
+Mount Pierre Elliott Trudeau|2650
+Mount Petain|3196
+Mount Queen Bess|3298
+Silverthrone Mountain|2864
+Tres Virgenes|1940
+Anukatha Ipa|2514
+Big White Mountain|2315
+El Jorullo|1330
+Keele Peak|2952
+Mist Mountain|3140
+Mount Gosford|1193
+Mont Owl's Head|0
+Mont Wright|0
+Mount Burgess|2599
+Mount Chester|3054
+Mount Fay|3235
+Mount Fisher|2843
+Mount Judge Howay|2262
+Mount Lougheed|3107
+Mount Sir Alexander|3275
+Opal Cone|1736
+Tombstone Mountain|2192
+Volcano Mountain|1239
+Pico de Tancitaro|3840
+Atwell Peak|2655
+Cerro de la Viga|3712
+Cirque Peak|2993
+Deltaform Mountain|3424
+Dolomite Peak|2998
+Elkhorn Mountain|2194
+Jackass Mountain|2006
+Jocotitlan|3910
+Lone Butte|1237
+Los Humeros|3150
+Mont Brome|553
+Mont Saint-Gregoire|251
+Montana Mountain|2205
+Mount Babel (Alberta)|3103
+Mount Blakiston|2910
+Mount Brazeau|3470
+Mount Clemenceau|3664
+Mount Cory|2802
+Mount Dawson|3377
+Mount Gandalf|2391
+Mount Goodsir|3567
+Mount Hector|3394
+Mount Hungabee|3492
+Mount Jimmy Simpson|2966
+Mount Louis|2682
+Mount Macdonald|2883
+Mount Mackenzie|2461
+Mount Prevost|788
+Mount Terry Fox|2645
+Mount Ulysses|3024
+Outlook Peak|2210
+Pyroclastic Peak|2349
+Roche Miette|2316
+Rugged Mountain|1861
+Seven Sisters Mountain|2591
+Silver Peak|539
+The President|3123
+The Towers|2842
+Taaw Tldaaw|125|Tow Hill
+Trophy Mountain|2577
+Three Sisters (Alberta)|2936|The Three Sisters
+White Hill|535
+Baldy Mountain (Manitoba)|832
+South Mountain (Nova Scotia)|280
+Mount Tom (California)|4163
+Pyramid Mountain (Alberta)|2766
+Mount Tantalus|2608
+Mount Victoria (Alberta)|3464
+Bald Mountain (Colorado)|4173
+Three Sisters (British Columbia)|2788
+Cathedral Mountain (British Columbia)|3189
+Crown Mountain (British Columbia)|1504
+The Table|2021
+Grizzly Peak (Sawatch Range)|4266
+Heart Mountain (Alberta)|2135
+Kings Peak (British Columbia)|2061
+Mount Logan (Quebec)|1150
+Mount Lyell (Canada)|3498
+Mount Odin (British Columbia)|2971
+Big Bald Mountain|672
+Ice Peak|2500
+Mount Baker (Alberta)|3180
+Mount Baldy (Alberta)|2192
+Mount Hesperus|2996
+The Pyramid|2199
 `;
 
 export const MINOR_PEAKS = `

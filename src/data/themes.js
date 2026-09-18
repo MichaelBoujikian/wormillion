@@ -1136,7 +1136,7 @@ globalThis.WORMILLION_THEMES = {
       'Grays Peak', 'Torreys Peak', 'Quandary Peak', 'Mount Blue Sky', 'Maroon Bells',
       'Mount of the Holy Cross', 'Mount Sneffels', 'Wilson Peak', 'Mount Princeton', 'Mount Yale',
       'Capitol Peak', 'Pyramid Peak (Colorado)', 'Crestone Peak', 'Gannett Peak', 'Cloud Peak',
-      'Wind River Peak', 'Granite Peak', 'Borah Peak', 'Kings Peak', 'Mount Timpanogos',
+      'Wind River Peak', 'Granite Peak', 'Borah Peak', 'Kings Peak (Utah)', 'Mount Timpanogos',
       'Wheeler Peak (New Mexico)', 'Sandia Crest', 'Truchas Peak', 'Mount Columbia', 'Mount Assiniboine',
       'Mount Temple', 'Mount Rundle', 'Cascade Mountain (Alberta)', 'Sulphur Mountain', 'Mount Norquay',
       'Mount Edith Cavell', 'Mount Athabasca', 'Castle Mountain', 'Mount Lefroy', 'Mount Forbes',
@@ -1151,13 +1151,13 @@ globalThis.WORMILLION_THEMES = {
       'Mount Meeker', 'Santa Fe Baldy', 'Green Mountain', 'Huerfano Butte', 'Lizard Head',
       'Mount Sniktau', 'Sheep Mountain', 'West Spanish Peak', 'Francs Peak', 'Hesperus Mountain',
       'James Peak', 'Mount Shavano', 'Mount Siyeh', 'North Table Mountain', 'Squaretop Mountain',
-      'Teewinot Mountain', 'Trapper Peak', 'Twin Sisters Peaks', 'Bald Mountain', 'Flagstaff Mountain',
+      'Teewinot Mountain', 'Trapper Peak', 'Twin Sisters Peaks', 'Bald Mountain (Utah)', 'Flagstaff Mountain',
       'Greenhorn Mountain', 'Half Peak', 'Hermit Peak', 'Horsetooth Mountain', 'Hyndman Peak',
       'McDonald Peak', 'Mount Bross', 'Mount Eolus', 'Treasure Mountain', 'American Fork Twin Peaks',
       'Chimney Rock', 'Electric Peak', 'Elk Mountain', 'Engineer Mountain', 'Missouri Mountain',
       'Mount Phillips', 'Mount Zirkel', 'Pingora Peak', 'Pueblo Peak', 'Sacagawea Peak',
       'San Luis Peak', 'Windom Peak', 'Broads Fork Twin Peaks', 'Buffalo Mountain', 'Challenger Point',
-      'Emigrant Peak', 'Grizzly Peak', 'Heavens Peak', 'Humboldt Peak', 'Kit Carson Peak',
+      'Emigrant Peak', 'Grizzly Peak (Tenmile Range)', 'Heavens Peak', 'Humboldt Peak', 'Kit Carson Peak',
       'Little Bear Peak', 'Mount Gould', 'Mount Ogden', 'Mount Ouray', 'Mount Owen',
       'Specimen Ridge', 'Sunshine Peak', 'Amethyst Mountain', 'Bearhat Mountain', 'Black Tooth Mountain',
       'Clements Mountain', 'Cochetopa Dome', 'East Spanish Peak', 'El Diente Peak', 'Fossil Mountain',
@@ -1174,12 +1174,27 @@ globalThis.WORMILLION_THEMES = {
       'Laramie Peak', 'Hahns Peak', 'Mount Sheridan', 'Storm King Mountain', 'Roaring Mountain',
       'Naomi Peak',
       // add-theme.mjs
-      'Spanish Peaks', 'Heart Mountain',
+      'Spanish Peaks', 'Heart Mountain (Wyoming)',
       // 2026-09-18 namesakes, decision 5
       'Ben Lomond Mountain', 'Lookout Mountain (Colorado)', 'Mount Nebo (Utah)', 'Baldy Mountain (New Mexico)', 'Castle Peak (Idaho)', 'Logan Peak', 'Mount Olympus (Utah)',
       'Castle Peak (Colorado)', 'Mount Wilson (Colorado)', 'Table Mountain (Wyoming)', 'Mount Zion (Colorado)', 'Signal Mountain (Wyoming)',
       'Wetterhorn Peak', 'Bear Peak (Colorado)', 'Matterhorn Peak (Colorado)', 'Mount Ida (Colorado)', 'Mount Jefferson (Idaho)',
-      'El Capitan (Montana)', 'Mount Jackson (Montana)'],
+      'El Capitan (Montana)', 'Mount Jackson (Montana)',
+      // range-tag.mjs from the infobox range field
+      'Lookout Mountain', 'Mount Nebo', 'Mount Olympus', 
+      'Table Mountain', 'Mount Zion', 
+      'Mount Ida', 'El Capitan', 'Mount Jackson',
+      'Nub Peak', 'Ha Ling Peak', 'Howse Peak', 'Tunnel Mountain', 'Mount Nirvana',
+      'The Beehive', 'The Whistlers', 'Mount John Laurie', 'Howser Spire', 'Mount Putnik',
+      'Mount Stephen', 'Roche Bonhomme', 'Fairview Mountain', 'Mount Joffre', 'Mount Kidd',
+      'Keele Peak', 'Mount Fay', 'Mount Fisher', 'Mount Lougheed', 'Cirque Peak',
+      'Deltaform Mountain', 'Dolomite Peak', 'Mount Hungabee', 'Mount Jimmy Simpson',
+      'Roche Miette', 'Seven Sisters Mountain', 'The President', 'The Towers',
+      // range-tag.mjs from the infobox range field
+      'Mount Babel (Alberta)',
+      // range-tag.mjs from the infobox range field
+      'Three Sisters (Alberta)', 'Mount Victoria (Alberta)', 'Bald Mountain (Colorado)', 'Cathedral Mountain (British Columbia)', 'Grizzly Peak (Sawatch Range)',
+      'Heart Mountain (Alberta)', 'Mount Lyell (Canada)', 'Mount Baker (Alberta)'],
     'Scotland': [
       'Ben Nevis', 'Ben Macdui', 'Braeriach', 'Cairn Gorm', 'Schiehallion',
       'Ben Lomond', 'Goat Fell', 'Arthurs Seat',
@@ -1298,7 +1313,7 @@ globalThis.WORMILLION_THEMES = {
       'El Misti', 'Ubinas', 'Sabancaya', 'Parinacota', 'Guallatiri',
       'Uturuncu', 'Tunupa', 'Calbuco', 'Puyehue', 'Descabezado Grande',
       'Nevados de Chillan', 'Llaima', 'Cerro Hudson', 'Chaiten', 'Michinmahuida',
-      'Humphreys Peak', 'Lassen Peak', 'Mount Jefferson (Oregon)', 'Three Sisters',
+      'Humphreys Peak', 'Lassen Peak', 'Mount Jefferson (Oregon)', 'Three Sisters (Oregon)',
       'Mount Bachelor', 'Mount Thielsen', 'Mount McLoughlin', 'Mount Mazama', 'Mount Adams (Washington)',
       'Glacier Peak', 'Mount Wrangell', 'Mount Redoubt', 'Mount Spurr', 'Iliamna Volcano',
       'Augustine Volcano', 'Mount Katmai', 'Novarupta', 'Mount Edgecumbe', 'Kilauea',
@@ -1379,7 +1394,13 @@ globalThis.WORMILLION_THEMES = {
       'Mount Blackburn', 'Mount Sanford', 'Mount Bandai', 'Mount Iwate', 'Mount Daisen',
       'Mount Kitanglad', 'Mount Malindang',
       // 2026-09-18 namesakes, decision 5
-      'Mount Cleveland (Alaska)', 'Mount Washington (Oregon)', 'Snaefell (Iceland)', 'San Antonio Mountain'
+      'Mount Cleveland (Alaska)', 'Mount Washington (Oregon)', 'Snaefell (Iceland)', 'San Antonio Mountain',
+      // 2026-09-18 Mexico and Canada mountains
+      'Tseax Cone', 'Mount Edziza', 'Cerro Tlaloc', 'Pico del Aguila', 'Eve Cone',
+      'The Volcano', 'Mount Boucherie', 'Cerro Mohinora', 'Nazko Cone', 'Hoodoo Mountain',
+      'Mount Price', 'Silverthrone Mountain', 'Tres Virgenes', 'El Jorullo', 'Opal Cone',
+      'Volcano Mountain', 'Pico de Tancitaro', 'Atwell Peak', 'Jocotitlan', 'Los Humeros',
+      'Montana Mountain', 'Pyroclastic Peak'
     ]
   },
 

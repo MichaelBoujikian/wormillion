@@ -1,0 +1,27 @@
+{
+  "name": "mx-ca-mountains",
+  "category": "mountain",
+  "jsonFile": ["mountains.json", "minor-peaks.json"],
+  "roots": [],
+  "lists": [
+    "List of mountains of Canada",
+    "Mountain peaks of Canada",
+    "List of the highest major summits of Canada",
+    "List of the most prominent summits of Canada",
+    "List of the most isolated major summits of Canada",
+    "List of mountains of Alberta",
+    "List of mountains of British Columbia",
+    "List of mountains in the Canadian Rockies",
+    "List of mountains of Yukon",
+    "List of volcanoes in Canada",
+    "List of mountain peaks of Mexico",
+    "List of ultras of Mexico",
+    "List of volcanoes in Mexico"
+  ],
+  "kind": "(mountain|peak|summit|volcano|stratovolcano|shield volcano|caldera|butte|mesa|hill|ridge|massif|monolith|dome|lava dome|cinder cone|crag|knob|nunatak|cerro|nevado|volc[aá]n|^Mount |^Monte |^Mont |^Pico |^Cerro |^Nevado |^Volc[aá]n |Mountain$|Peak$|Horn$|Tower$|Spire$|Hill$|Butte$)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|Range$|Mountains$|Ranges$|Highlands$|Plateau$|National Park$|Provincial Park$|Wilderness$|Pass$|Trail$|Ski|Resort$|County$|Township|Forest$|Wildlife|Refuge$|Lake$|River$|Creek$|Valley$|Canyon$|Glacier$|Icefield$|Ice Cap$|Rock Formation|Cliffs?$|Group$|Massif$|Uplands$|Hills$|Islands?$|Mountaineering|Climbing|Route$|Hut$|Cable Car$|Railway$|Tunnel$|Viewpoint$|Sierra |Cordillera|Volcanic Belt$|Volcanic Field$|Volcanic Complex$|Lava Field$)",
+  "sizeProp": "P2044",
+  "sizeUnit": "m",
+  "spellings": "mountain",
+  "notKind": "^(mountain range|range|subrange|massif of|mountain group|group of|volcanic field|volcanic complex|lava field|ski|resort|town|city|village|municipality|county|township|district|neighborhood|neighbourhood|park|wilderness|forest|trail|pass|mountain pass|glacier|icefield|ice cap|lake|river|creek|valley|canyon|plateau|highlands|hills of|island|cave|rock formation|road|highway|observatory|dam|reservoir|mine|list|hut|mountain hut|refuge|railway|cable car|funicular|tunnel|region|area|nature reserve|national park|provincial park|church|monument|war memorial|battle|human settlement|first nation|indian reserve|archaeological site|ridge walk|walking route|long-distance)"
+}

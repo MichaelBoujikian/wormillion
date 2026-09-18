@@ -50,7 +50,9 @@ const EXPECTED = {
     'creek', 'bayou', 'brook', 'fork', 'branch', 'slough', 'arroyo', 'run in', 'kill in', 'wash in', 'water course'],
   mountain: ['mountain', 'peak', 'summit', 'hill', 'volcano', 'massif', 'mount', 'highest', 'ridge', 'butte', 'mesa', 'monolith', 'crag', 'fell', 'point', 'elevation', 'cliff', 'high',
     // the 2026-09 US scouring: domes, lava domes, cryptodomes, craters and calderas are peaks too
-    'dome', 'lava', 'volcanic', 'crater', 'caldera', 'knob'],
+    'dome', 'lava', 'volcanic', 'crater', 'caldera', 'knob',
+    // the 2026-09-18 Mexico and Canada scouring: a cinder cone (Tseax Cone, Eve Cone) is a volcano
+    'cone'],
   desert: ['desert', 'sand', 'dune', 'arid', 'erg', 'steppe', 'area', 'region', 'plain'],
   island: ['island', 'isle', 'archipelago', 'atoll', 'islet', 'countr', 'territory', 'landmass'],
   // 2026-09-17: Europe's coast is fjords, firths, sea lochs, inlets and lagoons

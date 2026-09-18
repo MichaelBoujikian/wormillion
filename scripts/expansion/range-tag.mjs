@@ -61,8 +61,10 @@ for (const e of mountains) {
   const range = [field(box, 'range'), field(box, 'parent'), field(box, 'parent_range')].filter(Boolean).join(' / ');
   if (!range) continue;
   if (RANGE.test(range)) {
-    if (members.has(e.name)) already++;
-    else adds.push({ name: e.name, range });
+    // a namesake is listed as "Name (Qualifier)" (decision 5)
+    const shown = e.qualifier ? `${e.name} (${e.qualifier})` : e.name;
+    if (members.has(shown)) already++;
+    else adds.push({ name: shown, range });
   } else unmatched.set(range, (unmatched.get(range) || 0) + 1);
 }
 console.log(`${mountains.length} mountains, ${cached} with a cached infobox; theme "${THEME}" has ${members.size} members, ${already} of them confirmed by their infobox`);
