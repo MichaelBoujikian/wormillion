@@ -58,6 +58,9 @@ const BLOCK = { river: 'rivers', lake: 'lakes', mountain: 'mountains', island: '
 const US_STATES = new Set(['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming']);
 const { COUNTRIES } = await import(new URL('../data-countries.mjs', import.meta.url).href).catch(() => ({ COUNTRIES: '' }));
 const countryNames = new Set(String(COUNTRIES || '').split(/\r?\n/).map((l) => l.split('|')[0].trim()).filter(Boolean));
+// A river called only by a direction or "New" keeps its "River" too: "East
+// River", "New River (Mexico)" - "East" alone names nothing.
+const KEEPS_RIVER = new Set(['East', 'West', 'North', 'South', 'Middle', 'New']);
 function bankName(title) {
   // "River Avon, Bristol", "Lough Derg, County Donegal", "Reading, Berkshire":
   // enwiki's comma form tells namesakes apart; the bank has no comma names,
@@ -65,7 +68,7 @@ function bankName(title) {
   let n = title.replace(/\s*\([^)]*\)\s*$/, '').replace(/,.*$/, '').trim();
   if (cfg.category === 'river') {
     const bare = n.replace(/^River\s+/, '').replace(/\s+River$/, '');
-    n = US_STATES.has(bare) || countryNames.has(bare) ? bare + ' River' : bare;
+    n = US_STATES.has(bare) || countryNames.has(bare) || KEEPS_RIVER.has(bare) ? bare + ' River' : bare;
   }
   if (cfg.category === 'city') n = n.replace(/^City of /, '');
   return n;
@@ -84,13 +87,38 @@ function splitTitle(title) {
   if (m) return { bare: m[1].trim(), qualifier: m[2].trim(), had: true };
   return { bare: title.trim(), qualifier: null, had: false };
 }
-/** "River in Kentucky, United States" -> "Kentucky"; "Lake in Sweden" -> "Sweden". */
+// The places a qualifier is trusted to be: a US state, a Canadian province,
+// a country, an Irish county. Anything else from a parenthetical is suspect
+// ("Four Corners", "Ozarks", "Colorado River tributary") and the description's
+// "in <State>" is tried first.
+const PROVINCES = new Set(['Alberta', 'British Columbia', 'Manitoba', 'New Brunswick', 'Newfoundland and Labrador', 'Nova Scotia', 'Ontario', 'Prince Edward Island', 'Quebec', 'Saskatchewan', 'Yukon', 'Northwest Territories', 'Nunavut', 'England', 'Scotland', 'Wales', 'Northern Ireland', 'Sicily', 'Sardinia', 'Corsica', 'Tasmania', 'Queensland', 'Victoria', 'New South Wales', 'Western Australia', 'South Australia', 'Northern Territory']);
+const knownPlace = (q) => US_STATES.has(q) || PROVINCES.has(q) || countryNames.has(q) || /^County [A-Z]/.test(q);
+const DIRECTION = /^(?:north|south|east|west|central|northern|southern|eastern|western|southwestern|southeastern|northwestern|northeastern|upper|lower) (?=[A-Z])/;
+/** "U.S. state of Wisconsin" -> Wisconsin; "southwestern Montana" -> Montana; "Flathead County, Montana" -> Montana; "Florida–Georgia" -> Florida. */
+function cleanQualifier(q) {
+  if (!q) return null;
+  let out = q.replace(/^(?:the )?(?:U\.?S\.? states? of |American state of |state of |province of )/i, '').trim();
+  if (out.includes(',')) out = out.split(',').pop().trim();
+  const stripped = out.replace(DIRECTION, '');
+  if (knownPlace(stripped)) out = stripped;
+  for (const sep of ['–', ' and ', '/', '-']) {
+    if (!out.includes(sep)) continue;
+    const first = out.split(sep)[0].trim();
+    if (knownPlace(first)) { out = first; break; }
+  }
+  return out || null;
+}
+/** Every "in <Place>" of a description, the trusted ones first: "River in Kentucky, United States" -> Kentucky. */
 function placeFromDescription(description) {
-  const m = /\b(?:in|of|on) (?:the (?:American )?state of |the )?([A-Z][A-Za-z' .-]+?)(?:,|;| and | \(|$)/.exec(description || '');
-  if (!m) return null;
-  const place = m[1].trim();
-  if (/^(United States|US|USA|America|Europe|the)$/i.test(place) || KIND_WORDS.test(place)) return null;
-  return place;
+  const found = [];
+  const re = /\b(?:in|of|on|through) (?:the (?:American |U\.?S\.? )?state of |the )?([A-Z][A-Za-z' .-]+?)(?=,|;| and | \(|$| in | of | near )/g;
+  let m;
+  while ((m = re.exec(description || ''))) {
+    const place = cleanQualifier(m[1].trim());
+    if (!place || /^(United States|US|USA|America|Europe|the|New York City)$/i.test(place) || KIND_WORDS.test(place)) continue;
+    found.push(place);
+  }
+  return found.find(knownPlace) || found[0] || null;
 }
 const { buildFiles } = await import(new URL('../build-data.mjs', import.meta.url).href).catch(() => ({ buildFiles: null }));
 const { WIKI_TITLES } = await import(new URL('../data-wiki-titles.mjs', import.meta.url).href).catch(() => ({ WIKI_TITLES: {} }));
@@ -120,10 +148,17 @@ if (TAKEN_ONLY) {
     const typed = /name "(.*)"/.exec(r.how || '');
     const typedKey = typed ? normalize(typed[1]) : '';
     // the newcomer's name and qualifier
-    const { bare, qualifier: fromTitle, had } = splitTitle(r.finalTitle);
-    const name = bankName(bare);
+    if (byTitle.has(r.finalTitle)) { review.push(`  already in the bank (${byTitle.get(r.finalTitle).id}), skipped: ${r.finalTitle}`); continue; }
+    const { bare, qualifier: rawQualifier, had } = splitTitle(r.finalTitle);
+    let name = bankName(bare);
+    // the bank's "Yellow River" keeps its word: its namesake is "Yellow River (Indiana)", not "Yellow (Indiana)"
+    if (cfg.category === 'river' && taker && normalize(taker.name) === normalize(name + ' River')) name += ' River';
     const alias = '';
-    const qualifier = fromTitle || placeFromDescription(r.description) || (cfg.listCountry && (r.lists || []).map((l) => cfg.listCountry[l]).find(Boolean)) || COUNTRY;
+    const titled = cleanQualifier(rawQualifier);
+    const described = placeFromDescription(r.description);
+    // a comma is Wikipedia's own place form; a parenthetical only when it is a place we know
+    const fromTitle = titled && (r.finalTitle.includes(',') || knownPlace(titled)) ? titled : null;
+    const qualifier = fromTitle || described || titled || (cfg.listCountry && (r.lists || []).map((l) => cfg.listCountry[l]).find(Boolean)) || COUNTRY;
     let kind = 'namesake';
     if (taker) {
       const takerKey = normalize(taker.name);
@@ -146,19 +181,21 @@ if (TAKEN_ONLY) {
     if (taker) {
       note += ` of ${taker.id}${taker.qualifier ? ` (already "${taker.name} (${taker.qualifier})")` : ''}`;
       if (kind.startsWith('namesake') && !taker.qualifier && !qualify.has(taker.id)) {
-        const t = splitTitle(titleOf(taker));
-        const suggested = t.qualifier || (cfg.category === 'city' ? taker.country : null) || placeFromDescription('') || '';
-        qualify.set(taker.id, { qualifier: suggested, why: `${titleOf(taker)}${suggested ? '' : ' - NEEDS A QUALIFIER BY HAND'}` });
+        // the incumbent's own title, by the same trust rule; a bare title
+        // leaves it the one unqualified holder (a comment line, no change)
+        const t = cleanQualifier(splitTitle(titleOf(taker)).qualifier);
+        const suggested = (t && (titleOf(taker).includes(',') || knownPlace(t)) ? t : null) || (cfg.category === 'city' ? taker.country : null) || '';
+        qualify.set(taker.id, { qualifier: suggested, why: `${titleOf(taker)}${suggested ? '' : ' - stays the unqualified holder'}` });
       }
     } else note += ' (incumbent not found - check by hand)';
-    if (!had) note += ` [qualifier from ${fromTitle ? 'title' : 'description/country'}: "${qualifier}"]`;
+    if (!fromTitle) note += ` [qualifier from ${qualifier === described ? 'description' : qualifier === titled ? 'the parenthetical, unrecognised' : 'the country'}: "${qualifier}"]`;
     review.push(note);
   }
   const out = `${S}/new-${BLOCK}-${TAG}.txt`;
   await writeFile(out, rows.join('\n') + (rows.length ? '\n' : ''), 'utf8');
   const qOut = `${S}/qualify-${TAG}.txt`;
   const qLines = [`# incumbents to qualify before folding new-${BLOCK}-${TAG}.txt (node scripts/expansion/qualify.mjs work/qualify-${TAG}.txt --write)`];
-  for (const [id, q] of qualify) qLines.push(`${id}|${q.qualifier}   # ${q.why}`.replace(/\s+#/, '\t#'));
+  for (const [id, q] of qualify) qLines.push(`${q.qualifier ? '' : '# '}${id}|${q.qualifier}\t# ${q.why}`);
   await writeFile(qOut, qLines.join('\n') + '\n', 'utf8');
   console.log(`wrote ${out}: ${rows.length} namesake rows; ${qOut}: ${qualify.size} incumbents to qualify${low ? `; ${low} under ${MIN_VIEWS} views/mo left out` : ''}`);
   console.log(review.join('\n'));

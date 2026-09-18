@@ -1331,7 +1331,7 @@ Wye|250|River Wye
 Tay|188|River Tay
 Clyde|176|River Clyde
 Spey|172|River Spey
-Aire|148|River Aire
+Aire (Yorkshire)|148|River Aire
 Liffey|132|River Liffey
 Avon (Bristol)|121|Bristol Avon
 Medway|113|River Medway
@@ -1356,7 +1356,7 @@ Han River|514
 Songhua|1897
 Waikato River|425|Waikato
 Clutha River|338|Clutha
-Swan River|72
+Swan River (Western Australia)|72
 Yarra River|242|Yarra
 Brisbane River|344
 Limpopo|1750
@@ -1375,7 +1375,7 @@ Arno|241
 River Tweed|156|Tweed
 River Forth|47|Forth
 River Exe|82|Exe
-River Dee|113|Dee
+Dee (Wales)|113|Dee
 River Bann|129|Bann
 Mersey|113|River Mersey
 Humber|62
@@ -1480,7 +1480,7 @@ Moy|90|River Moy
 Corrib|6|River Corrib
 Erne|129|River Erne
 Foyle|11|River Foyle
-Lagan|70|River Lagan
+Lagan (Northern Ireland)|70|River Lagan
 Bush|53|River Bush
 Suck|132|River Suck
 Fergus|60|River Fergus
@@ -1520,7 +1520,7 @@ Essonne|100
 Bievre|33
 Somme|245
 Canche|96
-Aa|89
+Aa (France)|89
 Lys|202|Leie
 Scarpe|100
 Scheldt|350|Escaut,Schelde,Escalda
@@ -1531,7 +1531,7 @@ Saone|480
 Doubs|453
 Loue|125
 Ognon|170
-Ill|223
+Ill (France)|223
 Ain|190
 Isere|286
 Arc|148|Arc de Maurienne
@@ -1603,7 +1603,7 @@ Wupper|116
 Lippe|220
 Ahr|85
 Nahe|125
-Kinzig|86
+Kinzig (Main)|86
 Enz|105
 Kocher|168
 Jagst|190
@@ -1631,7 +1631,7 @@ Panke|29
 Saale|413
 Weisse Elster|257
 Unstrut|192
-Ilm|68
+Ilm (Thuringia)|68
 Pleisse|90
 Mulde|124
 Schwarze Elster|188
@@ -1646,7 +1646,7 @@ Iller|147
 Altmuhl|227
 Naab|165
 Regen|84
-Vils|105
+Vils (Danube)|105
 Inn|517
 Salzach|225
 Alz|60
@@ -1662,7 +1662,7 @@ Murz|94
 Enns|254
 Steyr|45
 Traun|153
-Krems|25
+Krems (Lower Austria)|25
 Kamp|153
 Ybbs|130
 Traisen|90
@@ -1909,7 +1909,7 @@ Jihlava|184
 Becva|61
 Opava|131
 Ostravice|65
-Ohre|316
+Ohre (Czechia)|316
 Bilina|84
 Ploucnice|106
 Jizera|165
@@ -2241,7 +2241,7 @@ Gudbrandsdalslagen|203
 Drammenselva|44
 Numedalslagen|352
 Namsen|210
-Gaula|155
+Gaula (Trondelag)|155
 Nidelva|30
 Orkla|179
 Rauma|65
@@ -2332,7 +2332,7 @@ Laxa|56
 Skeidara|30
 Hudson|507|Hudson River
 Potomac|665|Potomac River
-Delaware|485|Delaware River
+Delaware River|485|Delaware River
 Susquehanna|715|Susquehanna River
 Connecticut River|655|Connecticut
 Tennessee|1049|Tennessee River
@@ -2360,11 +2360,11 @@ Edisto|246|Edisto River
 Altamaha|220|Altamaha River
 St. Johns|500|St Johns River,Saint Johns River
 Apalachicola|179|Apalachicola River
-Flint|344|Flint River
+Flint (Georgia)|344|Flint River
 Suwannee|396|Suwannee River
 Savannah|505|Savannah River
 Chattahoochee|702|Chattahoochee River
-James|550|James River
+James (Virginia)|550|James River
 Shenandoah|89|Shenandoah River
 Allegheny|523|Allegheny River
 Monongahela|209|Monongahela River
@@ -2372,7 +2372,7 @@ Wabash|810|Wabash River
 Illinois River|439
 Wisconsin River|692
 Fox|300|Fox River
-Rock|459|Rock River
+Rock (Illinois)|459|Rock River
 Des Plaines|246|Des Plaines River
 Kankakee|209|Kankakee River
 Sangamon|396|Sangamon River
@@ -2385,8 +2385,8 @@ Maumee|220|Maumee River
 Kalamazoo|210|Kalamazoo River
 Saginaw|35|Saginaw River
 Menominee|195|Menominee River
-Chippewa|296|Chippewa River
-St. Croix|272|St Croix River
+Chippewa (Wisconsin)|296|Chippewa River
+St. Croix (Wisconsin)|272|St Croix River
 Minnesota|534|Minnesota River
 Rainy|220|Rainy River
 Kentucky|418|Kentucky River
@@ -2406,7 +2406,7 @@ Cimarron|966|Cimarron River
 Canadian|1458|Canadian River
 Washita|500|Washita River
 Brazos|1352|Brazos River
-Trinity|1136|Trinity River
+Trinity (Texas)|1136|Trinity River
 Pecos|1490|Pecos River
 Sacramento|715|Sacramento River
 San Joaquin|587|San Joaquin River
@@ -2415,15 +2415,15 @@ Klamath|423|Klamath River
 Sabine|918|Sabine River
 Neches|660|Neches River
 San Jacinto|130|San Jacinto River
-Guadalupe|629|Guadalupe River
+Guadalupe (Texas)|629|Guadalupe River
 San Antonio River|386
 Nueces|507|Nueces River
 Devils|153|Devils River
 Comal|3|Comal River
 Ouachita|973|Ouachita River
 Atchafalaya|217|Atchafalaya River
-White|1162|White River
-Buffalo|246|Buffalo River,Buffalo National River
+White (Arkansas)|1162|White River
+Buffalo (Arkansas)|246|Buffalo River,Buffalo National River
 Current|296|Current River
 Gasconade|425|Gasconade River
 Meramec|351|Meramec River
@@ -2435,8 +2435,8 @@ Mobile|72|Mobile River
 Pascagoula|129|Pascagoula River
 Yellowstone|1114|Yellowstone River
 Bighorn|461|Bighorn River
-Powder|605|Powder River
-Tongue|439|Tongue River
+Powder (Wyoming)|605|Powder River
+Tongue (Montana)|439|Tongue River
 Musselshell|458|Musselshell River
 Milk|1173|Milk River
 Marias|249|Marias River
@@ -2444,20 +2444,20 @@ Madison|295|Madison River
 Gallatin|195|Gallatin River
 Jefferson|133|Jefferson River
 Clark Fork|505|Clark Fork River
-Blackfoot|121|Blackfoot River
+Blackfoot (Montana)|121|Blackfoot River
 Bitterroot|135|Bitterroot River
 Flathead|314|Flathead River
 Kootenay|780|Kootenai River
 Pend Oreille|209|Pend Oreille River
 Spokane|179|Spokane River
-Salmon|676|Salmon River
+Salmon (Idaho)|676|Salmon River
 Clearwater|121|Clearwater River
 Boise|164|Boise River
 Payette|148|Payette River
 Owyhee|425|Owyhee River
 Bruneau|169|Bruneau River
-Henrys Fork|205|Henrys Fork River
-Bear|790|Bear River
+Henrys Fork (Idaho)|205|Henrys Fork River
+Bear (Utah)|790|Bear River
 Weber|201|Weber River
 Provo|116|Provo River
 Sevier|383|Sevier River
@@ -2470,7 +2470,7 @@ Cache la Poudre|203|Poudre River
 Big Thompson|126|Big Thompson River
 Little Colorado|603|Little Colorado River
 Gila|1044|Gila River
-Salt|320|Salt River
+Salt (Arizona)|320|Salt River
 Verde|273|Verde River
 San Pedro|225|San Pedro River
 Kern|265|Kern River
@@ -2479,16 +2479,16 @@ Merced|233|Merced River
 Tuolumne|238|Tuolumne River
 Stanislaus|154|Stanislaus River
 Mokelumne|145|Mokelumne River
-American|193|American River
+American (California)|193|American River
 Feather|217|Feather River
 Yuba|64|Yuba River
 Pit|241|Pit River
-Eel|315|Eel River
+Eel (California)|315|Eel River
 Russian|177|Russian River
 Napa|89|Napa River
 Salinas|280|Salinas River
 Santa Ana|154|Santa Ana River
-San Gabriel|93|San Gabriel River
+San Gabriel (California)|93|San Gabriel River
 Mojave River|179
 Amargosa|301|Amargosa River
 Owens|296|Owens River
@@ -2497,7 +2497,7 @@ Carson|211|Carson River
 Walker|100|Walker River
 Humboldt|451|Humboldt River
 Los Angeles River|82
-Deschutes|406|Deschutes River
+Deschutes (Oregon)|406|Deschutes River
 John Day|451|John Day River
 Umatilla|143|Umatilla River
 McKenzie|145|McKenzie River
@@ -2534,7 +2534,7 @@ Chitina|193|Chitina River
 Kenai|132|Kenai River
 Kobuk|450|Kobuk River
 Noatak|684|Noatak River
-Colville|610|Colville River
+Colville (Alaska)|610|Colville River
 Stikine|539|Stikine River
 Taku|210|Taku River
 Chilkat|82|Chilkat River
@@ -2544,7 +2544,7 @@ Nushagak|440|Nushagak River
 Kvichak|105|Kvichak River
 Naknek|56|Naknek River
 Fraser|1375|Fraser River
-Thompson|489|Thompson River
+Thompson (British Columbia)|489|Thompson River
 Nechako|462|Nechako River
 Chilcotin|241|Chilcotin River
 Quesnel|113|Quesnel River
@@ -2553,7 +2553,7 @@ Harrison|75|Harrison River
 Coquihalla|75|Coquihalla River
 Similkameen|225|Similkameen River
 Okanagan|200|Okanagan River,Okanogan
-Kettle|280|Kettle River
+Kettle (British Columbia)|280|Kettle River
 Skeena|570|Skeena River
 Bulkley|233|Bulkley River
 Nass|380|Nass River
@@ -2561,7 +2561,7 @@ Bella Coola|100|Bella Coola River
 Squamish|85|Squamish River
 Capilano|40|Capilano River
 Cowichan|47|Cowichan River
-Peace|1923|Peace River
+Peace (Canada)|1923|Peace River
 Athabasca|1231|Athabasca River
 Slave|434|Slave River
 Liard|1115|Liard River
@@ -2575,7 +2575,7 @@ Hayes|483|Hayes River
 Winisk|475|Winisk River
 Attawapiskat|748|Attawapiskat River
 Albany River|982
-Moose|547|Moose River
+Moose (Ontario)|547|Moose River
 Abitibi|579|Abitibi River
 Mattagami|443|Mattagami River
 Missinaibi|426|Missinaibi River
@@ -2610,11 +2610,11 @@ Credit|90|Credit River
 Niagara|56|Niagara River
 Detroit River|82
 St. Clair|64|St Clair River
-St. Marys|121|St Marys River
+St. Marys (Michigan)|121|St Marys River
 Nipigon|48|Nipigon River
 Kaministiquia|55|Kaministiquia River
 Winnipeg River|235
-English|306|English River
+English (Ontario)|306|English River
 Assiniboine|1070|Assiniboine River
 Souris|700|Souris River
 Qu'Appelle|430|Qu'Appelle River,Qu Appelle River
@@ -2666,7 +2666,7 @@ Patuca|500|Rio Patuca
 Coco|680|Rio Coco,Segovia River
 Grande de Matagalpa|418|Rio Grande de Matagalpa
 Escondido|111|Rio Escondido
-San Juan|199|Rio San Juan,San Juan River
+San Juan (Nicaragua)|199|Rio San Juan,San Juan River
 Tempisque|144|Rio Tempisque
 Reventazon|110|Rio Reventazon
 Pacuare|108|Rio Pacuare
@@ -2691,7 +2691,7 @@ Yaque del Sur|183|Rio Yaque del Sur
 Yuna|210|Rio Yuna
 Ozama|148|Rio Ozama
 Artibonite|321|Riviere Artibonite
-Black River|53|Black River Jamaica
+Black River (Jamaica)|53|Black River Jamaica
 Martha Brae|32|Martha Brae River
 Rio Cobre|48
 Rio Camuy|80|Camuy River
@@ -2853,7 +2853,7 @@ Limay|400|Rio Limay
 Neuquen|287|Rio Neuquen
 Chubut|810|Rio Chubut
 Deseado|615|Rio Deseado
-Santa Cruz|385|Rio Santa Cruz
+Santa Cruz (Argentina)|385|Rio Santa Cruz
 Gallegos|320|Rio Gallegos
 Chico|800|Rio Chico
 Rio de la Plata|290|River Plate
@@ -2969,7 +2969,7 @@ Kafue|1576|Kafue River
 Kabompo|500|Kabompo River
 Luapula|450|Luapula River
 Chambeshi|480|Chambeshi River
-Save|740|Sabi,Save River
+Save (Mozambique)|740|Sabi,Save River
 Buzi|250|Buzi River
 Pungwe|400|Pungwe River
 Olifants|700|Olifants River
@@ -3341,7 +3341,7 @@ Mary|300|Mary River
 Ord|320
 Herbert|250
 Daly|210
-Logan|180
+Logan (Queensland)|180
 Adelaide River|180
 Barron|132
 Tully|64
@@ -3385,8 +3385,8 @@ Huon|170
 Gordon|172|Gordon River
 Franklin|129
 Onkaparinga|105
-Canning|105|Canning River
-South Esk|105
+Canning (Western Australia)|105|Canning River
+South Esk (Tasmania)|105
 Torrens|85
 Pieman|61
 Whanganui|290|Wanganui
@@ -3463,7 +3463,7 @@ Orteguaza|220|Rio Orteguaza
 Pamplonita|155|Rio Pamplonita
 Quindio|69|Rio Quindio
 Saldana|223|Rio Saldana
-San Miguel|295|Rio San Miguel
+San Miguel (Colombia)|295|Rio San Miguel
 Soacha|11|Rio Soacha
 Sogamoso|135|Rio Sogamoso
 Sumapaz|95|Rio Sumapaz
@@ -3491,10 +3491,10 @@ Ceibas|61|Rio Ceibas
 Aquio|140|Rio Aquio
 Mecaya|210|Rio Mecaya
 Red River of the North|890
-New|515
+New River (West Virginia)|515
 French Broad|376
 Green|1175
-Apple|125
+Apple (Wisconsin)|125
 Kanawha|156
 Wolf|169
 Youghiogheny|216
@@ -3523,7 +3523,7 @@ Ocoee|150|Toccoa,Ocoee River,Toccoa River
 Wounded Knee Creek|80
 Saco|219
 Saint Louis|309
-Withlacoochee|227
+Withlacoochee (Florida)|227
 Clinch|483-542
 Bayou Bartholomew|586
 Holston|219
@@ -3540,7 +3540,7 @@ Milwaukee|167
 Putah Creek|137
 Verdigris|500
 Nolichucky|185
-Wind|298
+Wind (Wyoming)|298
 Juniata|167
 Esopus Creek|105
 Purgatoire|315
@@ -3554,25 +3554,25 @@ Pedernales|171
 Pigeon|113
 West Branch Susquehanna|391
 Caney Fork|230
-Clear Creek|106
+Clear Creek (Colorado)|106
 Gauley|172
 Olentangy|156
 Pemigewasset|105
 Cheat|126
-Mad|106
+Mad (Ohio)|106
 Moyie|148
 Tygart Valley|217
 Cahaba|312
 Econlockhatchee|88
 Etowah|217
-Little Missouri|901
+Little Missouri (North Dakota)|901
 Mahoning|182
-Whitewater|87
+Whitewater (California)|87
 Muskegon|339
 Niangua|201
 Rapid Creek|190
 San Diego|84
-St. Francis|686
+Saint Francis (Missouri)|686
 Big Hole|246
 Lumber|199
 Neosho|745
@@ -3595,14 +3595,14 @@ Haw|177
 Kaskaskia|515
 Llano|183
 Santa Fe|121
-Sweetwater|383
+Sweetwater (Wyoming)|383
 Appomattox|253
 Belle Fourche|470
-Blue|104
+Blue (Colorado)|104
 Hocking|164
 Winooski|144
 Agua Fria|193
-Cache|148
+Cache (Illinois)|148
 Marais des Cygnes|349
 Neversink|89
 Roaring Fork|113
@@ -3611,7 +3611,7 @@ Blanco|140
 Choctawhatchee|227
 Farmington|130
 Greenbrier|261
-Elk|283
+Elk (West Virginia)|283
 Grande Ronde|338
 Lewis|146
 Mattole|100
@@ -3639,9 +3639,9 @@ Pine Creek|140
 Rio Chama|209
 Rum|243
 Sheyenne|951
-Vermilion|116
+Vermilion (Louisiana)|116
 Big|233
-Blackwater|91
+Blackwater (Florida)|91
 Chetco|90
 Chowan|80
 Conemaugh|113
@@ -3650,12 +3650,12 @@ Kavik|140
 Perdido|105
 Saint Joe|225
 Schoharie Creek|150
-Spring|92
+Spring (Arkansas)|92
 Tchefuncte|113
 Uncompahgre|121
 Ammonoosuc|96
 Beaverhead|111
-Big Black|456
+Big Black (Mississippi)|456
 Chenango|145
 Vedder|80
 Cibolo Creek|154
@@ -3673,7 +3673,7 @@ Otter Tail|292
 Pamunkey|150
 Prairie Dog Town Fork Red|193
 Red Rock|113
-Sandy|90
+Sandy (Oregon)|90
 Shoshone|161
 Tittabawassee|116
 Wateree|121
@@ -3698,7 +3698,7 @@ San Saba|235
 Satilla|418
 Sol Duc|126
 South Fork American|140
-Teton|132
+Teton (Idaho)|132
 Tualatin|125
 Amite|188
 Aucilla|143
@@ -3709,7 +3709,7 @@ Cannon|180
 Clarks Fork Yellowstone|220
 Clinton|134
 Coyote Creek|102
-Crooked|233
+Crooked (Oregon)|233
 Dirty Devil|129
 Kokosing|92
 Shenango|148
@@ -3734,7 +3734,7 @@ Eagle|100
 East Branch Delaware|121
 Elkhorn|470
 Embarras|298
-French Creek|188
+French Creek (Pennsylvania)|188
 Leon|298
 Lost|97
 Oswegatchie|225
@@ -3760,12 +3760,12 @@ Mattaponi|166
 Missisquoi|148
 Nanticoke|104
 Pecatonica|312
-Red Cedar|82
+Red Cedar (Michigan)|82
 Selway|162
-Sugar Creek|150
+Sugar Creek (Wabash River)|150
 Tellico|85
 Angelina|193
-Beaver|451
+Beaver (Oklahoma)|451
 Cache Creek|140
 Chariton|218
 Conejos|149
@@ -3776,7 +3776,7 @@ Double Mountain Fork Brazos|280
 Escalante|145
 Floyd|180
 Latah Creek|89
-Leaf|290
+Leaf (Mississippi)|290
 Levisa Fork|264
 Ohoopee|160
 Maquoketa|240
@@ -3786,10 +3786,10 @@ Navasota|201
 North Fork American|142
 North Fork Feather|113
 North Toe|118
-Pine|86
-Rock Creek|80
+Pine (Michigan)|86
+Rock Creek (Montana)|80
 Roeliff Jansen Kill|90
-Saline|639
+Saline (Kansas)|639
 Sespe Creek|98
 Sheepscot|106
 Siletz|109
@@ -3827,13 +3827,13 @@ Priest|109
 Salt Fork Brazos|241
 Sauk|196
 Sheboygan|130
-Stillwater|100
+Stillwater (Montana)|100
 Upper Iowa|251
 Wakarusa|130
 West Branch Penobscot|190
 Alagnak|103
 Applegate|82
-Bad|260
+Bad (South Dakota)|260
 Big Piney|177
 Big Walnut Creek|93
 Bourbeuse|240
@@ -3842,7 +3842,7 @@ Fortymile|97
 Fremont|153
 Frenchman|341
 Fresno|134
-Goose Creek|89
+Goose Creek (Virginia)|89
 Hoback|89
 Iroquois|166
 Kiamichi|266
@@ -3884,14 +3884,14 @@ Sun|209
 Susan|108
 Tensas|285
 Van Duzen|96
-Vermillion|96
+Vermillion (Minnesota)|96
 Wallowa|89
-Battle Creek|88
+Battle Creek (Michigan)|88
 Belly|220
 Big Sandy Creek|340
 Big South Fork of the Cumberland|122
 Bluestone|124
-Boulder|100
+Boulder (Montana)|100
 South Fork Kern|153
 Caney|290
 Casselman|91
@@ -3949,7 +3949,7 @@ Schroon|109
 Sequatchie|187
 Shark|153
 Shavers Fork|143
-Smith|200
+Smith (Montana)|200
 Sugar|146
 Thunder Bay|121
 Tonto Creek|117
@@ -3961,7 +3961,7 @@ Alcovy|111
 Arroyo Colorado|231
 Banister|127
 Bayou Macon|351
-Big Sandy|90
+Big Sandy (Arizona)|90
 Blanchard|166
 Boeuf|370
 Burnt|140
@@ -3987,7 +3987,7 @@ Iditarod|523
 Jemez|129
 Lamprey|80
 Lemhi|97
-Pomme de Terre|182
+Pomme de Terre (Missouri)|182
 Little Salmon|82
 Little Sandy|137
 Little Snake|241
@@ -3996,7 +3996,7 @@ Loosahatchie|103
 Medicine Bow|269
 Michigamme|104
 Middle Fork Flathead|148
-Moreau|468
+Moreau (South Dakota)|468
 Muddy Boggy Creek|175
 Mulberry Fork of the Black Warrior|164
 Nacimiento|104
@@ -4010,7 +4010,7 @@ North Umpqua|171
 North Yuba|98
 One Hundred and Two|129
 Oyster Creek|84
-Paint Creek|153
+Paint Creek (Ohio)|153
 Pine Island Bayou|89
 Red Creek|129
 Redwood|205
@@ -4025,7 +4025,7 @@ Sipsey Fork of the Black Warrior|114
 Sipsey|233
 Solomon|296
 South Fork Flathead|158
-South|102
+South River (Georgia)|102
 South Umpqua|185
 St. George|92
 Tangipahoa|196
@@ -4065,7 +4065,7 @@ Entiat|91
 Fall|103
 Fawn|89
 Huerfano|182
-Indian Creek|106
+Indian Creek (Idaho)|106
 Iskut|240
 Keya Paha|204
 Killbuck Creek|132
@@ -4084,7 +4084,7 @@ Little Platte|107
 Luckiamute|98
 Machias|97
 Mahanoy Creek|83
-Maple|119
+Maple (Michigan)|119
 Marmaton|164
 Meadow|85
 Middle Fork Feather|158
@@ -4114,7 +4114,7 @@ South Santiam|97
 South Yadkin|121
 Stony Creek|118
 Stony|310
-Sturgeon|169
+Sturgeon (Michigan)|169
 Talkeetna|137
 Tiffin|121
 Toklat|140
@@ -4122,7 +4122,7 @@ Tucannon|100
 Uinta|97
 Wahweap Creek|89
 Weiser|166
-Wild Rice|390
+Wild Rice (North Dakota)|390
 Yentna|121
 Yockanookany|126
 Anaktuvuk|217
@@ -4132,12 +4132,12 @@ Antler|315
 Anvik|225
 Apishapa|224
 Bayou Meto|240
-Beaver Creek|290
+Beaver Creek (Alaska)|290
 Big Bureau Creek|117
 Big Fork|265
 Big Muddy Creek|307
 Boyer|190
-Camas Creek|103
+Camas Creek (Idaho)|103
 Charley|140
 Chevelon Creek|134
 Cloquet|167
@@ -4190,7 +4190,7 @@ Pelican|130
 Petit Jean|210
 Poso Creek|141
 Potlatch|90
-Prairie|80
+Prairie (Minnesota)|80
 Roubidoux Creek|92
 Salt Creek|180
 Salt Fork Red|311
@@ -4213,7 +4213,7 @@ Tygarts Creek|142
 Unalakleet|145
 Unuk|129
 White Earth|80
-Willow Creek|127
+Willow Creek (Oregon)|127
 Wulik|129
 Caldwell Brook|80
 Agiapuk|97
@@ -4286,7 +4286,7 @@ Kukpuk|201
 Kuzitrin|153
 Ladder Creek|370
 Little Cottonwood|133
-Little Muddy|117
+Little Muddy (Illinois)|117
 Little Owyhee|98
 Little Rock|120
 Little Vermilion|96
@@ -4950,6 +4950,205 @@ Ne|66
 Busento|0
 Sio|116
 Omo|760|Omo River
+Kinzig (Rhine)|93
+Ill (Vorarlberg)|72
+Ohre (Germany)|105
+Ilm (Bavaria)|84
+Krems (Upper Austria)|62
+Sauer (France)|85
+Vils (Naab)|87
+Aa (Netherlands)|90
+Arc (Provence)|83
+Aire (France)|125
+Don (France)|92
+Save (France)|144
+Tana (Norway)|361
+Lagan (Sweden)|244
+Nidelva (Agder)|222
+Gaula (Vestland)|63
+Dee (Aberdeenshire)|140
+Stour (Suffolk)|76
+Avon (Hampshire)|96
+Don (Yorkshire)|111
+Derwent (Yorkshire)|115
+Blackwater (Essex)|70
+Stour (Dorset)|98
+Don (Aberdeenshire)|135
+Blackwater (Northern Ireland)|91
+South Esk (Angus)|79
+Main (County Antrim)|55
+Dee (Ireland)|60
+Colorado River (Texas)|1387
+Grand (Michigan)|420
+Green (Washington)|105
+Fox (Wisconsin)|322
+White (Indiana)|583
+Green (Kentucky)|618
+San Juan (Four Corners)|616
+Pearl River (Mississippi)|715
+Thames (Connecticut)|25
+Trinity (California)|266
+Jordan River (Utah)|82
+Buffalo (New York)|13
+Santa Cruz (Arizona)|296
+Grand (South Dakota)|303
+Peace (Florida)|170
+Flint (Michigan)|126
+Black River (Arkansas)|480
+Black River (New York)|194
+James (North Dakota)|1143
+St. Marys (Florida)|380
+Guadalupe (California)|160
+New River (Mexico)|125
+Black River (Wisconsin)|310
+Deschutes (Washington)|86
+St. Joseph (Indiana)|161
+Mad (California)|182
+St. Croix (Maine)|102
+White (Washington)|120
+Buffalo (Tennessee)|201
+Grand (Ohio)|165
+New River (North Carolina)|80
+Salt (Kentucky)|240
+Bear (California)|117
+Black River (North Carolina)|85
+Black River (Arizona)|183
+Blue (Oklahoma)|227
+James (Missouri)|209
+San Gabriel (Texas)|102
+Black River (South Carolina)|243
+Grand (Missouri)|760
+Green (North Carolina)|94
+Salt (Wyoming)|135
+White (Nebraska)|933
+Blackwater (Virginia)|170
+Illinois River (Oregon)|90
+Vermilion (Illinois)|176
+Whitewater (Ohio)|163
+Eel (Indiana)|176
+Elk (Alabama)|314
+White (Vermont)|97
+Rio Puerco|370
+Spring (Missouri)|208
+Sweetwater (California)|88
+Flint (Alabama)|106
+Little Missouri (Arkansas)|237
+Platte (Iowa)|322
+St. Marys (Indiana)|159
+White (Colorado)|314
+Chippewa (Michigan)|150
+Little (Oklahoma)|350
+Little (Texas)|167
+Red Lake River|312
+Red River (Tennessee)|161
+Swan River (Montana)|153
+Vermilion (Ohio)|95
+Bad (Wisconsin)|122
+Big Blue (Indiana)|135
+Cimarron (New Mexico)|97
+Saline (Arkansas)|325
+San Miguel (Colorado)|145
+St. Mary|235
+Stillwater (Ohio)|111
+Trent (North Carolina)|140
+White (Yukon)|322
+Yellow River (Indiana)|100
+Apple (Illinois)|89
+Beaver (Utah)|177
+Black River (Michigan)|130
+Cache (Arkansas)|343
+Moose (Maine)|134
+Powder (Oregon)|246
+Red Cedar (Wisconsin)|137
+Red River (Kentucky)|160
+Salt (Missouri)|89
+Smith (Oregon)|146
+Snake River (Minnesota)|167
+White (Texas)|100
+Withlacoochee (Georgia)|185
+Big Sandy (Tennessee)|90
+Big Sandy (Wyoming)|100
+Blackwater (Missouri)|127
+Chippewa (Minnesota)|246
+Elk (Minnesota)|135
+Saint Francis (Maine)|110
+Sandy (Maine)|118
+Vermillion (South Dakota)|154
+White (Oregon)|80
+Yellow River (Alabama)|190
+Battle Creek (Montana)|203
+Blackfoot (Idaho)|215
+Canning (Alaska)|200
+English (Iowa)|137
+Delaware River (Kansas)|151
+Elk (Kansas)|153
+Fish (Maine)|110
+Green (Illinois)|143
+Kettle (Minnesota)|130
+Logan (Utah)|86
+Ottawa River (Ohio)|80
+Pine (Wisconsin)|166
+Pomme de Terre (Minnesota)|201
+Rio Hondo (New Mexico)|137
+South River (North Carolina)|126
+Sugar Creek (Illinois)|85
+Teton (Montana)|240
+White (California)|82
+Yellow River (Wisconsin)|105
+Big Black (Quebec)|85
+Buffalo (Minnesota)|224
+Buffalo (Wisconsin)|110
+Clear Creek (Wyoming)|105
+Colville (Washington)|93
+Crooked (Missouri)|113
+Delaware River (Texas)|80
+French Creek (South Dakota)|100
+Goose Creek (Utah)|198
+Henrys Fork (Wyoming)|90
+John River|201
+Little (North Carolina)|114
+Little (Louisiana)|145
+Little (Virginia)|105
+Paint Creek (Texas)|85
+Platte (Minnesota)|89
+Rio Salado (New Mexico)|138
+Rock (Minnesota)|232
+Saint Charles|104
+Volga (Iowa)|129
+Wild Rice (Minnesota)|257
+Yellow River (Iowa)|86
+American (Alaska)|88
+Battle Creek (Idaho)|108
+Beaver Creek (Iowa)|124
+Black Lake Bayou|169
+Canadian (Colorado)|89
+Clear Creek (California)|98
+Fox (Iowa)|172
+Indian Creek (Illinois)|84
+Leaf (Minnesota)|80
+Little Muddy (North Dakota)|154
+Maple (Minnesota)|130
+Middle River|154
+Moreau (Missouri)|120
+North River (West Virginia)|84
+North River (Missouri)|132
+North River (Washington)|97
+Pine (Minnesota)|92
+Prairie (Michigan)|87
+Rock Creek (Oregon)|90
+Rock Creek (Wyoming)|105
+Rock Creek (Washington)|90
+Salmon (Alaska)|122
+Slana (Alaska)|89
+Saint Francis (Minnesota)|115
+Sturgeon (Minnesota)|82
+Swan River (Minnesota)|116
+Thompson (Missouri)|303
+Tongue (North Dakota)|143
+Whitewater (Kansas)|100
+Willow Creek (Utah)|126
+Willow Creek (Idaho)|135
+Wind (Alaska)|129
 `;
 
 export const MOUNTAINS = `

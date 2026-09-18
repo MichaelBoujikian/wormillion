@@ -46,6 +46,8 @@ const RAW = {
     city('city-paris-texas', 'Paris', 5000, 'United States', AMERICA, { qualifier: 'Texas' }),
     city('city-dublin-california', 'Dublin', 4000, 'United States', AMERICA, { qualifier: 'California' }),
     city('city-lublin', 'Lublin', 9000, 'Poland', EUROPE),
+    city('city-boston', 'Boston', 110000, 'United States', AMERICA),
+    city('city-boston-lincolnshire', 'Boston', 11000, 'United Kingdom', EUROPE, { qualifier: 'Lincolnshire' }),
     city('city-victoria-british-columbia', 'Victoria', 25000, 'Canada', AMERICA, { qualifier: 'British Columbia' }),
     city('city-lyon', 'Lyon', 40000, 'France', EUROPE),
     city('city-munich', 'Munich', 45000, 'Germany', EUROPE),
@@ -69,7 +71,7 @@ const RAW = {
   islands: [entry('island', 'island-greenland', 'Greenland', 90000, { size: 2166086 }), entry('island', 'island-lundy', 'Lundy', 2000, { size: 4.5 })],
   seas: [entry('sea_ocean', 'sea-pacific', 'Pacific Ocean', 90000, { size: 165250000 }), entry('sea_ocean', 'sea-wadden', 'Wadden Sea', 4000, { size: 10000 })]
 };
-const THEMES = { city: { 'Sicily': ['Syracuse (Sicily)', 'Milan'] } };
+const THEMES = { city: { 'Sicily': ['Syracuse (Sicily)', 'Milan'], 'New England': ['Boston', 'Syracuse (New York)'] } };
 const bank = promptBank.createBank(RAW, THEMES);
 
 /** A run pinned to one slot; judge(input) submits it fresh each time. */
@@ -147,6 +149,10 @@ test('the round scope picks the namesake: a bare "Syracuse" on a Europe round is
   // a theme lists a namesake with its qualifier
   const sicily = judge({ category: 'city', theme: 'Sicily' });
   assert.strictEqual(sicily('Syracuse').entry.id, 'city-syracuse-sicily');
+  // ...and a bare name several places share names the one without a qualifier
+  const newEngland = judge({ category: 'city', theme: 'New England' });
+  assert.strictEqual(newEngland('Boston').entry.id, 'city-boston');
+  assert.strictEqual(newEngland('Boston, Lincolnshire').status, 'wrong-scope');
   assert.deepStrictEqual(bank.themeMisses, []);
 });
 

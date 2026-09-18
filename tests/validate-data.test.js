@@ -119,6 +119,8 @@ test('namesakes are legal with a distinct qualifier each, and nothing less (deci
   const themes = (names) => `globalThis.WORMILLION_THEMES = { city: { 'Cascadia': ${JSON.stringify(names)} } };`;
   assert.deepStrictEqual(validateThemes({ 'a.json': [entry, maine] }, themes(['Portland (Oregon)', 'Portland, Maine'])).errors, []);
   assert.ok(validateThemes({ 'a.json': [entry, maine] }, themes(['Portland', 'Portland (Maine)'])).errors.some((e) => e.includes('2 places share')));
+  // ...unless one holder goes without a qualifier: then the bare name is that one
+  assert.deepStrictEqual(validateThemes({ 'a.json': [bare, maine] }, themes(['Portland', 'Portland (Maine)'])).errors, []);
 });
 
 test('bank.js and the JSON files hold the same entries', async () => {

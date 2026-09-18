@@ -474,9 +474,12 @@
       for (const [theme, names] of Object.entries(sets)) {
         const ids = [];
         for (const name of names) {
-          // A namesake is listed with its qualifier, "Syracuse (Sicily)";
-          // the bare name of several places names none of them here.
-          const held = matching.idsAt(cohort.lookup, matching.normalize(name));
+          // A namesake is listed with its qualifier, "Syracuse (Sicily)"; a
+          // bare name several places share names the one that goes without
+          // a qualifier (the Thames, beside Thames (Connecticut)), and
+          // nothing when every holder has one.
+          let held = matching.idsAt(cohort.lookup, matching.normalize(name));
+          if (held.length > 1) held = held.filter((id) => !cohort.byId.get(id).qualifier);
           if (held.length === 1) ids.push(held[0]);
           else themeMisses.push(`${category}/${theme}: "${name}"${held.length ? ` (${held.length} places share it - qualify it)` : ''}`);
         }

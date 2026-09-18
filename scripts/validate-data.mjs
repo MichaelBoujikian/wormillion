@@ -250,8 +250,8 @@ export function validateThemes(files, themesSource) {
       const keys = [entry.name, ...(entry.aliases || [])].map(normalize);
       if (entry.qualifier) keys.push(...matching.qualifiedKeys(entry.name, entry.qualifier));
       for (const key of keys) {
-        if (!known.has(key)) known.set(key, new Set());
-        known.get(key).add(entry.id);
+        if (!known.has(key)) known.set(key, new Map());
+        known.get(key).set(entry.id, Boolean(entry.qualifier));
       }
     }
   }
@@ -266,9 +266,11 @@ export function validateThemes(files, themesSource) {
     for (const [theme, names] of Object.entries(sets)) {
       const resolved = new Set();
       for (const name of names) {
-        const ids = known.get(normalize(name));
-        if (ids && ids.size === 1) resolved.add([...ids][0]);
-        else if (ids) errors.push(`themes: ${category}/${theme} lists "${name}", which ${ids.size} places share - qualify it ("${name} (State)")`);
+        // a bare name several places share names the one without a qualifier
+        const holders = known.get(normalize(name));
+        const ids = holders && holders.size > 1 ? [...holders].filter(([, qualified]) => !qualified).map(([id]) => id) : holders ? [...holders.keys()] : null;
+        if (ids && ids.length === 1) resolved.add(ids[0]);
+        else if (holders) errors.push(`themes: ${category}/${theme} lists "${name}", which ${holders.size} places share - qualify it ("${name} (State)")`);
         else errors.push(`themes: ${category}/${theme} lists "${name}", which is not in the bank`);
       }
       members += resolved.size;

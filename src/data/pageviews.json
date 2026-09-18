@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T03:23:19.141Z",
+ "fetched": "2026-09-18T03:34:11.746Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -39729,7 +39729,7 @@
    "lat": 57.676,
    "lon": -3.1
   },
-  "river-aire": {
+  "river-aire-yorkshire": {
    "title": "River Aire",
    "monthlyViews": 1522,
    "days": 60,
@@ -39904,7 +39904,7 @@
    "lat": -46.35,
    "lon": 169.8
   },
-  "river-swan-river": {
+  "river-swan-river-western-australia": {
    "title": "Swan River (Western Australia)",
    "monthlyViews": 2253,
    "days": 60,
@@ -40037,7 +40037,7 @@
    "lat": 50.61472222,
    "lon": -3.425
   },
-  "river-river-dee": {
+  "river-dee-wales": {
    "title": "River Dee, Wales",
    "monthlyViews": 2344,
    "days": 60,
@@ -40772,7 +40772,7 @@
    "lat": 55.107,
    "lon": -7.079
   },
-  "river-lagan": {
+  "river-lagan-northern-ireland": {
    "title": "River Lagan",
    "monthlyViews": 1218,
    "days": 60,
@@ -41052,7 +41052,7 @@
    "lat": 50.54083333,
    "lon": 1.59888889
   },
-  "river-aa": {
+  "river-aa-france": {
    "title": "Aa (France)",
    "monthlyViews": 396,
    "days": 60,
@@ -41129,7 +41129,7 @@
    "lat": 47.31416667,
    "lon": 5.43444444
   },
-  "river-ill": {
+  "river-ill-france": {
    "title": "Ill (France)",
    "monthlyViews": 822,
    "days": 60,
@@ -41633,7 +41633,7 @@
    "lat": 49.96972222,
    "lon": 7.88916667
   },
-  "river-kinzig": {
+  "river-kinzig-main": {
    "title": "Kinzig (Main)",
    "monthlyViews": 122,
    "days": 60,
@@ -41829,7 +41829,7 @@
    "lat": 51.17583333,
    "lon": 11.80194444
   },
-  "river-ilm": {
+  "river-ilm-thuringia": {
    "title": "Ilm (Thuringia)",
    "monthlyViews": 122,
    "days": 60,
@@ -41934,7 +41934,7 @@
    "lat": 49.02638889,
    "lon": 12.10361111
   },
-  "river-vils": {
+  "river-vils-danube": {
    "title": "Vils (Danube)",
    "monthlyViews": 61,
    "days": 60,
@@ -42046,7 +42046,7 @@
    "lat": 48.26916667,
    "lon": 14.37222222
   },
-  "river-krems": {
+  "river-krems-lower-austria": {
    "title": "Krems (Lower Austria)",
    "monthlyViews": 61,
    "days": 60,
@@ -43775,7 +43775,7 @@
    "lat": 49.86944444,
    "lon": 18.28055556
   },
-  "river-ohre": {
+  "river-ohre-czechia": {
    "title": "Ohře",
    "monthlyViews": 487,
    "days": 60,
@@ -46099,7 +46099,7 @@
    "lat": 64.46444444,
    "lon": 11.51944444
   },
-  "river-gaula": {
+  "river-gaula-trondelag": {
    "title": "Gaula (Trøndelag)",
    "monthlyViews": 152,
    "days": 60,
@@ -46736,7 +46736,7 @@
    "lat": 38,
    "lon": -76.335
   },
-  "river-delaware": {
+  "river-delaware-river": {
    "title": "Delaware River",
    "monthlyViews": 9132,
    "days": 60,
@@ -46932,7 +46932,7 @@
    "lat": 29.7243,
    "lon": -84.9776
   },
-  "river-flint": {
+  "river-flint-georgia": {
    "title": "Flint River",
    "monthlyViews": 1187,
    "days": 60,
@@ -46960,7 +46960,7 @@
    "lat": 30.70888889,
    "lon": -84.86388889
   },
-  "river-james": {
+  "river-james-virginia": {
    "title": "James River",
    "monthlyViews": 4353,
    "days": 60,
@@ -47016,7 +47016,7 @@
    "lat": 41.34361111,
    "lon": -88.84055556
   },
-  "river-rock": {
+  "river-rock-illinois": {
    "title": "Rock River (Mississippi River tributary)",
    "monthlyViews": 1583,
    "days": 60,
@@ -47107,14 +47107,14 @@
    "lat": 45.0947,
    "lon": -87.59121
   },
-  "river-chippewa": {
+  "river-chippewa-wisconsin": {
    "title": "Chippewa River (Wisconsin)",
    "monthlyViews": 761,
    "days": 60,
    "lat": 44.4091,
    "lon": -92.0841
   },
-  "river-st-croix": {
+  "river-st-croix-wisconsin": {
    "title": "St. Croix River (Wisconsin–Minnesota)",
    "monthlyViews": 2557,
    "days": 60,
@@ -47254,7 +47254,7 @@
    "lat": 28.87583333,
    "lon": -95.37833333
   },
-  "river-trinity": {
+  "river-trinity-texas": {
    "title": "Trinity River (Texas)",
    "monthlyViews": 4292,
    "days": 60,
@@ -47317,7 +47317,7 @@
    "lat": 33.64585,
    "lon": -117.31483889
   },
-  "river-guadalupe": {
+  "river-guadalupe-texas": {
    "title": "Guadalupe River (Texas)",
    "monthlyViews": 2861,
    "days": 60,
@@ -47366,14 +47366,14 @@
    "lat": 29.47938231,
    "lon": -91.27371761
   },
-  "river-white": {
+  "river-white-arkansas": {
    "title": "White River (Arkansas–Missouri)",
    "monthlyViews": 2313,
    "days": 60,
    "lat": 33.95138889,
    "lon": -91.08138889
   },
-  "river-buffalo": {
+  "river-buffalo-arkansas": {
    "title": "Buffalo National River",
    "monthlyViews": 1492,
    "days": 60,
@@ -47457,14 +47457,14 @@
    "lat": 46.155,
    "lon": -107.47444444
   },
-  "river-powder": {
+  "river-powder-wyoming": {
    "title": "Powder River (Wyoming and Montana)",
    "monthlyViews": 1431,
    "days": 60,
    "lat": 46.73333333,
    "lon": -105.43388889
   },
-  "river-tongue": {
+  "river-tongue-montana": {
    "title": "Tongue River (Montana)",
    "monthlyViews": 457,
    "days": 60,
@@ -47520,7 +47520,7 @@
    "lat": 48.18333333,
    "lon": -116.26916667
   },
-  "river-blackfoot": {
+  "river-blackfoot-montana": {
    "title": "Blackfoot River (Montana)",
    "monthlyViews": 791,
    "days": 60,
@@ -47562,7 +47562,7 @@
    "lat": 47.89388889,
    "lon": -118.33416667
   },
-  "river-salmon": {
+  "river-salmon-idaho": {
    "title": "Salmon River (Idaho)",
    "monthlyViews": 3379,
    "days": 60,
@@ -47604,14 +47604,14 @@
    "lat": 42.94916667,
    "lon": -115.96194444
   },
-  "river-henrys-fork": {
+  "river-henrys-fork-idaho": {
    "title": "Henrys Fork (Snake River tributary)",
    "monthlyViews": 548,
    "days": 60,
    "lat": 43.75277778,
    "lon": -111.95777778
   },
-  "river-bear": {
+  "river-bear-utah": {
    "title": "Bear River (Great Salt Lake)",
    "monthlyViews": 1461,
    "days": 60,
@@ -47702,7 +47702,7 @@
    "lat": 32.71972222,
    "lon": -114.55527778
   },
-  "river-salt": {
+  "river-salt-arizona": {
    "title": "Salt River (Arizona)",
    "monthlyViews": 2800,
    "days": 60,
@@ -47765,7 +47765,7 @@
    "lat": 38.09611111,
    "lon": -121.57
   },
-  "river-american": {
+  "river-american-california": {
    "title": "American River",
    "monthlyViews": 2344,
    "days": 60,
@@ -47793,7 +47793,7 @@
    "lat": 40.75638889,
    "lon": -122.37055556
   },
-  "river-eel": {
+  "river-eel-california": {
    "title": "Eel River (California)",
    "monthlyViews": 1278,
    "days": 60,
@@ -47828,7 +47828,7 @@
    "lat": 33.62805556,
    "lon": -117.95861111
   },
-  "river-san-gabriel": {
+  "river-san-gabriel-california": {
    "title": "San Gabriel River (California)",
    "monthlyViews": 1339,
    "days": 60,
@@ -47891,7 +47891,7 @@
    "lat": 33.75638889,
    "lon": -118.18888889
   },
-  "river-deschutes": {
+  "river-deschutes-oregon": {
    "title": "Deschutes River",
    "monthlyViews": 1644,
    "days": 60,
@@ -48150,7 +48150,7 @@
    "lat": 66.98138889,
    "lon": -162.50638889
   },
-  "river-colville": {
+  "river-colville-alaska": {
    "title": "Colville River (Alaska)",
    "monthlyViews": 274,
    "days": 60,
@@ -48220,7 +48220,7 @@
    "lat": 49.17777778,
    "lon": -123.2125
   },
-  "river-thompson": {
+  "river-thompson-british-columbia": {
    "title": "Thompson River",
    "monthlyViews": 944,
    "days": 60,
@@ -48283,7 +48283,7 @@
    "lat": 48.09833333,
    "lon": -119.73416667
   },
-  "river-kettle": {
+  "river-kettle-british-columbia": {
    "title": "Kettle River (Columbia River tributary)",
    "monthlyViews": 213,
    "days": 60,
@@ -48339,7 +48339,7 @@
    "lat": 48.76666667,
    "lon": -123.63333333
   },
-  "river-peace": {
+  "river-peace-canada": {
    "title": "Peace River",
    "monthlyViews": 1613,
    "days": 60,
@@ -48437,7 +48437,7 @@
    "lat": 52.28333333,
    "lon": -81.51638889
   },
-  "river-moose": {
+  "river-moose-ontario": {
    "title": "Moose River (Ontario)",
    "monthlyViews": 365,
    "days": 60,
@@ -48682,7 +48682,7 @@
    "lat": 42.53305556,
    "lon": -82.67472222
   },
-  "river-st-marys": {
+  "river-st-marys-michigan": {
    "title": "St. Marys River (Michigan–Ontario)",
    "monthlyViews": 2100,
    "days": 60,
@@ -48710,7 +48710,7 @@
    "lat": 50.63166667,
    "lon": -96.32027778
   },
-  "river-english": {
+  "river-english-ontario": {
    "title": "English River (Ontario)",
    "monthlyViews": 335,
    "days": 60,
@@ -49074,7 +49074,7 @@
    "lat": 12.0868,
    "lon": -83.7492
   },
-  "river-san-juan": {
+  "river-san-juan-nicaragua": {
    "title": "San Juan River (Nicaragua)",
    "monthlyViews": 852,
    "days": 60,
@@ -49249,7 +49249,7 @@
    "lat": 19.25,
    "lon": -72.783333
   },
-  "river-black-river": {
+  "river-black-river-jamaica": {
    "title": "Black River (Jamaica)",
    "monthlyViews": 213,
    "days": 60,
@@ -50383,7 +50383,7 @@
    "lat": -47.7608,
    "lon": -65.8989
   },
-  "river-santa-cruz": {
+  "river-santa-cruz-argentina": {
    "title": "Santa Cruz River (Argentina)",
    "monthlyViews": 335,
    "days": 60,
@@ -51195,7 +51195,7 @@
    "lat": -11.46666667,
    "lon": 30.35
   },
-  "river-save": {
+  "river-save-mozambique": {
    "title": "Save River (Africa)",
    "monthlyViews": 609,
    "days": 60,
@@ -53799,7 +53799,7 @@
    "lat": -13.33333333,
    "lon": 130.31666667
   },
-  "river-logan": {
+  "river-logan-queensland": {
    "title": "Logan River",
    "monthlyViews": 274,
    "days": 60,
@@ -54107,14 +54107,14 @@
    "lat": -35.16466,
    "lon": 138.46952
   },
-  "river-canning": {
+  "river-canning-western-australia": {
    "title": "Canning River",
    "monthlyViews": 183,
    "days": 60,
    "lat": -32,
    "lon": 115.85
   },
-  "river-south-esk": {
+  "river-south-esk-tasmania": {
    "title": "South Esk River",
    "monthlyViews": 213,
    "days": 60,
@@ -54653,7 +54653,7 @@
    "lat": null,
    "lon": null
   },
-  "river-san-miguel": {
+  "river-san-miguel-colombia": {
    "title": "San Miguel River (Colombia)",
    "monthlyViews": 30,
    "days": 59,
@@ -54849,7 +54849,7 @@
    "lat": 50.39638889,
    "lon": -96.81083333
   },
-  "river-new": {
+  "river-new-river-west-virginia": {
    "title": "New River (Kanawha River tributary)",
    "monthlyViews": 4444,
    "days": 60,
@@ -54870,7 +54870,7 @@
    "lat": 38.18916667,
    "lon": -109.88527778
   },
-  "river-apple": {
+  "river-apple-wisconsin": {
    "title": "Apple River (Wisconsin)",
    "monthlyViews": 2800,
    "days": 60,
@@ -55073,7 +55073,7 @@
    "lat": 46.75,
    "lon": -92.1
   },
-  "river-withlacoochee": {
+  "river-withlacoochee-florida": {
    "title": "Withlacoochee River (Florida)",
    "monthlyViews": 1096,
    "days": 60,
@@ -55192,7 +55192,7 @@
    "lat": 36.08194444,
    "lon": -83.22916667
   },
-  "river-wind": {
+  "river-wind-wyoming": {
    "title": "Wind River (Wyoming)",
    "monthlyViews": 883,
    "days": 60,
@@ -55290,7 +55290,7 @@
    "lat": 36.23888889,
    "lon": -85.94138889
   },
-  "river-clear-creek": {
+  "river-clear-creek-colorado": {
    "title": "Clear Creek (Colorado)",
    "monthlyViews": 761,
    "days": 60,
@@ -55325,7 +55325,7 @@
    "lat": 39.74277778,
    "lon": -79.90222222
   },
-  "river-mad": {
+  "river-mad-ohio": {
    "title": "Mad River (Ohio)",
    "monthlyViews": 731,
    "days": 60,
@@ -55367,7 +55367,7 @@
    "lat": 34.25388889,
    "lon": -85.17666667
   },
-  "river-little-missouri": {
+  "river-little-missouri-north-dakota": {
    "title": "Little Missouri River (North Dakota)",
    "monthlyViews": 700,
    "days": 60,
@@ -55381,7 +55381,7 @@
    "lat": 40.95805556,
    "lon": -80.37861111
   },
-  "river-whitewater": {
+  "river-whitewater-california": {
    "title": "Whitewater River (California)",
    "monthlyViews": 700,
    "days": 60,
@@ -55416,7 +55416,7 @@
    "lat": 32.76027778,
    "lon": -117.2125
   },
-  "river-st-francis": {
+  "river-saint-francis-missouri": {
    "title": "St. Francis River",
    "monthlyViews": 700,
    "days": 60,
@@ -55577,7 +55577,7 @@
    "lat": 29.848535,
    "lon": -82.193034
   },
-  "river-sweetwater": {
+  "river-sweetwater-wyoming": {
    "title": "Sweetwater River (Wyoming)",
    "monthlyViews": 609,
    "days": 60,
@@ -55598,7 +55598,7 @@
    "lat": 44.4334,
    "lon": -102.303
   },
-  "river-blue": {
+  "river-blue-colorado": {
    "title": "Blue River (Colorado)",
    "monthlyViews": 578,
    "days": 60,
@@ -55626,7 +55626,7 @@
    "lat": 33.38944444,
    "lon": -112.36472222
   },
-  "river-cache": {
+  "river-cache-illinois": {
    "title": "Cache River (Illinois)",
    "monthlyViews": 548,
    "days": 60,
@@ -55689,7 +55689,7 @@
    "lat": 37.65361111,
    "lon": -80.88472222
   },
-  "river-elk": {
+  "river-elk-west-virginia": {
    "title": "Elk River (West Virginia)",
    "monthlyViews": 517,
    "days": 60,
@@ -55885,7 +55885,7 @@
    "lat": 47.02361111,
    "lon": -96.82527778
   },
-  "river-vermilion": {
+  "river-vermilion-louisiana": {
    "title": "Vermilion River (Louisiana)",
    "monthlyViews": 457,
    "days": 60,
@@ -55899,7 +55899,7 @@
    "lat": 38.47172,
    "lon": -90.61818
   },
-  "river-blackwater": {
+  "river-blackwater-florida": {
    "title": "Blackwater River (Florida)",
    "monthlyViews": 426,
    "days": 60,
@@ -55962,7 +55962,7 @@
    "lat": 42.94111111,
    "lon": -74.29222222
   },
-  "river-spring": {
+  "river-spring-arkansas": {
    "title": "Spring River (Arkansas)",
    "monthlyViews": 426,
    "days": 60,
@@ -55997,7 +55997,7 @@
    "lat": 45.56777778,
    "lon": -112.33861111
   },
-  "river-big-black": {
+  "river-big-black-mississippi": {
    "title": "Big Black River (Mississippi)",
    "monthlyViews": 396,
    "days": 60,
@@ -56123,7 +56123,7 @@
    "lat": 44.9425,
    "lon": -112.84527778
   },
-  "river-sandy": {
+  "river-sandy-oregon": {
    "title": "Sandy River (Oregon)",
    "monthlyViews": 396,
    "days": 60,
@@ -56298,7 +56298,7 @@
    "lat": 38.73416667,
    "lon": -121.10416667
   },
-  "river-teton": {
+  "river-teton-idaho": {
    "title": "Teton River (Idaho)",
    "monthlyViews": 365,
    "days": 60,
@@ -56375,7 +56375,7 @@
    "lat": 37.45722222,
    "lon": -122.04888889
   },
-  "river-crooked": {
+  "river-crooked-oregon": {
    "title": "Crooked River (Oregon)",
    "monthlyViews": 335,
    "days": 60,
@@ -56550,7 +56550,7 @@
    "lat": 38.6431028,
    "lon": -87.6172464
   },
-  "river-french-creek": {
+  "river-french-creek-pennsylvania": {
    "title": "French Creek (Allegheny River tributary)",
    "monthlyViews": 304,
    "days": 60,
@@ -56732,7 +56732,7 @@
    "lat": 42.45,
    "lon": -89.075
   },
-  "river-red-cedar": {
+  "river-red-cedar-michigan": {
    "title": "Red Cedar River (Michigan)",
    "monthlyViews": 274,
    "days": 60,
@@ -56746,7 +56746,7 @@
    "lat": 46.14027778,
    "lon": -115.59944444
   },
-  "river-sugar-creek": {
+  "river-sugar-creek-wabash-river": {
    "title": "Sugar Creek (Wabash River tributary)",
    "monthlyViews": 274,
    "days": 60,
@@ -56767,7 +56767,7 @@
    "lat": 30.8946441,
    "lon": -94.1976929
   },
-  "river-beaver": {
+  "river-beaver-oklahoma": {
    "title": "Beaver River (Oklahoma)",
    "monthlyViews": 244,
    "days": 60,
@@ -56844,7 +56844,7 @@
    "lat": 47.66,
    "lon": -117.45777778
   },
-  "river-leaf": {
+  "river-leaf-mississippi": {
    "title": "Leaf River (Mississippi)",
    "monthlyViews": 244,
    "days": 60,
@@ -56914,14 +56914,14 @@
    "lat": 36.02888889,
    "lon": -82.32694444
   },
-  "river-pine": {
+  "river-pine-michigan": {
    "title": "Pine River (Manistee River tributary)",
    "monthlyViews": 244,
    "days": 60,
    "lat": 44.22694444,
    "lon": -85.9075
   },
-  "river-rock-creek": {
+  "river-rock-creek-montana": {
    "title": "Rock Creek (Montana)",
    "monthlyViews": 244,
    "days": 60,
@@ -56935,7 +56935,7 @@
    "lat": 42.18027778,
    "lon": -73.85916667
   },
-  "river-saline": {
+  "river-saline-kansas": {
    "title": "Saline River (Kansas)",
    "monthlyViews": 244,
    "days": 60,
@@ -57201,7 +57201,7 @@
    "lat": 43.74888,
    "lon": -87.70314
   },
-  "river-stillwater": {
+  "river-stillwater-montana": {
    "title": "Stillwater River (Stillwater County, Montana)",
    "monthlyViews": 213,
    "days": 60,
@@ -57243,7 +57243,7 @@
    "lat": 42.42888889,
    "lon": -123.44972222
   },
-  "river-bad": {
+  "river-bad-south-dakota": {
    "title": "Bad River (South Dakota)",
    "monthlyViews": 183,
    "days": 60,
@@ -57306,7 +57306,7 @@
    "lat": 37.07555556,
    "lon": -120.56083333
   },
-  "river-goose-creek": {
+  "river-goose-creek-virginia": {
    "title": "Goose Creek (Potomac River tributary)",
    "monthlyViews": 183,
    "days": 60,
@@ -57600,7 +57600,7 @@
    "lat": 40.54833333,
    "lon": -124.16111111
   },
-  "river-vermillion": {
+  "river-vermillion-minnesota": {
    "title": "Vermillion River (Minnesota)",
    "monthlyViews": 183,
    "days": 60,
@@ -57614,7 +57614,7 @@
    "lat": 45.72527778,
    "lon": -117.78555556
   },
-  "river-battle-creek": {
+  "river-battle-creek-michigan": {
    "title": "Battle Creek River",
    "monthlyViews": 152,
    "days": 60,
@@ -57649,7 +57649,7 @@
    "lat": 37.61222222,
    "lon": -80.91444444
   },
-  "river-boulder": {
+  "river-boulder-montana": {
    "title": "Boulder River (Sweet Grass County, Montana)",
    "monthlyViews": 152,
    "days": 60,
@@ -58055,7 +58055,7 @@
    "lat": 39.11083333,
    "lon": -79.67861111
   },
-  "river-smith": {
+  "river-smith-montana": {
    "title": "Smith River (Montana)",
    "monthlyViews": 152,
    "days": 60,
@@ -58139,7 +58139,7 @@
    "lat": null,
    "lon": null
   },
-  "river-big-sandy": {
+  "river-big-sandy-arizona": {
    "title": "Big Sandy River (Arizona)",
    "monthlyViews": 122,
    "days": 60,
@@ -58321,7 +58321,7 @@
    "lat": 45.18805556,
    "lon": -113.90638889
   },
-  "river-pomme-de-terre": {
+  "river-pomme-de-terre-missouri": {
    "title": "Pomme de Terre River (Missouri)",
    "monthlyViews": 122,
    "days": 60,
@@ -58384,7 +58384,7 @@
    "lat": 48.46694444,
    "lon": -114.06916667
   },
-  "river-moreau": {
+  "river-moreau-south-dakota": {
    "title": "Moreau River (South Dakota)",
    "monthlyViews": 122,
    "days": 60,
@@ -58482,7 +58482,7 @@
    "lat": null,
    "lon": null
   },
-  "river-paint-creek": {
+  "river-paint-creek-ohio": {
    "title": "Paint Creek (Scioto River tributary)",
    "monthlyViews": 122,
    "days": 60,
@@ -58587,7 +58587,7 @@
    "lat": 48.38944444,
    "lon": -114.08833333
   },
-  "river-south": {
+  "river-south-river-georgia": {
    "title": "South River (Ocmulgee River tributary)",
    "monthlyViews": 122,
    "days": 60,
@@ -58867,7 +58867,7 @@
    "lat": 38.22861111,
    "lon": -104.24583333
   },
-  "river-indian-creek": {
+  "river-indian-creek-idaho": {
    "title": "Indian Creek (Boise River tributary)",
    "monthlyViews": 91,
    "days": 60,
@@ -59000,7 +59000,7 @@
    "lat": 40.7228,
    "lon": -76.8435
   },
-  "river-maple": {
+  "river-maple-michigan": {
    "title": "Maple River (Grand River tributary)",
    "monthlyViews": 91,
    "days": 60,
@@ -59210,7 +59210,7 @@
    "lat": 61.76944444,
    "lon": -156.59111111
   },
-  "river-sturgeon": {
+  "river-sturgeon-michigan": {
    "title": "Sturgeon River (Houghton County, Michigan)",
    "monthlyViews": 91,
    "days": 60,
@@ -59266,7 +59266,7 @@
    "lat": 44.23861111,
    "lon": -116.97222222
   },
-  "river-wild-rice": {
+  "river-wild-rice-north-dakota": {
    "title": "Wild Rice River (North Dakota)",
    "monthlyViews": 91,
    "days": 60,
@@ -59336,7 +59336,7 @@
    "lat": 34.081133,
    "lon": -91.443243
   },
-  "river-beaver-creek": {
+  "river-beaver-creek-alaska": {
    "title": "Beaver Creek (Yukon River tributary)",
    "monthlyViews": 61,
    "days": 56,
@@ -59371,7 +59371,7 @@
    "lat": 41.4531,
    "lon": -95.9192
   },
-  "river-camas-creek": {
+  "river-camas-creek-idaho": {
    "title": "Camas Creek (Big Wood River tributary)",
    "monthlyViews": 61,
    "days": 59,
@@ -59742,7 +59742,7 @@
    "lat": 46.47527778,
    "lon": -116.76722222
   },
-  "river-prairie": {
+  "river-prairie-minnesota": {
    "title": "Prairie River (Mississippi River tributary)",
    "monthlyViews": 61,
    "days": 60,
@@ -59903,7 +59903,7 @@
    "lat": 48.14694444,
    "lon": -102.735
   },
-  "river-willow-creek": {
+  "river-willow-creek-oregon": {
    "title": "Willow Creek (Columbia River tributary)",
    "monthlyViews": 61,
    "days": 59,
@@ -60414,7 +60414,7 @@
    "lat": 44.25138889,
    "lon": -94.32972222
   },
-  "river-little-muddy": {
+  "river-little-muddy-illinois": {
    "title": "Little Muddy River (Illinois)",
    "monthlyViews": 30,
    "days": 57,
@@ -65061,6 +65061,1399 @@
    "days": 60,
    "lat": 7.81194444,
    "lon": 36.89888889
+  },
+  "river-kinzig-rhine": {
+   "title": "Kinzig (Rhine)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-ill-vorarlberg": {
+   "title": "Ill (Vorarlberg)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.29916667,
+   "lon": 9.55861111
+  },
+  "river-ohre-germany": {
+   "title": "Ohre",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 52.31111111,
+   "lon": 11.76527778
+  },
+  "river-ilm-bavaria": {
+   "title": "Ilm (Bavaria)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.82861111,
+   "lon": 11.76
+  },
+  "river-krems-upper-austria": {
+   "title": "Krems (Upper Austria)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.2413,
+   "lon": 14.3159
+  },
+  "river-sauer-france": {
+   "title": "Sauer (Rhine)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.91527778,
+   "lon": 8.15694444
+  },
+  "river-vils-naab": {
+   "title": "Vils (Naab)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 49.15888889,
+   "lon": 11.95527778
+  },
+  "river-aa-netherlands": {
+   "title": "Aa (Meuse)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.695,
+   "lon": 5.30083333
+  },
+  "river-arc-provence": {
+   "title": "Arc (Provence)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 43.50666667,
+   "lon": 5.11361111
+  },
+  "river-aire-france": {
+   "title": "Aire (Aisne)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.30777778,
+   "lon": 4.82138889
+  },
+  "river-don-france": {
+   "title": "Don (Vilaine)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.67083333,
+   "lon": -1.95638889
+  },
+  "river-save-france": {
+   "title": "Save (Garonne)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.79222222,
+   "lon": 1.27805556
+  },
+  "river-tana-norway": {
+   "title": "Tana (Finland–Norway)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 70.4942504,
+   "lon": 28.3899406
+  },
+  "river-lagan-sweden": {
+   "title": "Lagan (Sweden)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 56.54861111,
+   "lon": 12.94722222
+  },
+  "river-nidelva-agder": {
+   "title": "Nidelva (Agder)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 58.4349,
+   "lon": 8.7137
+  },
+  "river-gaula-vestland": {
+   "title": "Gaula (Vestland)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 61.36704,
+   "lon": 5.68171
+  },
+  "river-dee-aberdeenshire": {
+   "title": "River Dee, Aberdeenshire",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 57.1422,
+   "lon": -2.0673
+  },
+  "river-stour-suffolk": {
+   "title": "River Stour, eastern England",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 51.9494,
+   "lon": 1.2196
+  },
+  "river-avon-hampshire": {
+   "title": "River Avon, Hampshire",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 51.349,
+   "lon": -1.948
+  },
+  "river-don-yorkshire": {
+   "title": "River Don, Yorkshire",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 53.697,
+   "lon": -0.867
+  },
+  "river-derwent-yorkshire": {
+   "title": "River Derwent, Yorkshire",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 53.74944444,
+   "lon": -0.96888889
+  },
+  "river-blackwater-essex": {
+   "title": "River Blackwater, Essex",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 51.75365,
+   "lon": 0.65815
+  },
+  "river-stour-dorset": {
+   "title": "River Stour, Dorset",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 50.72796,
+   "lon": -1.77295
+  },
+  "river-don-aberdeenshire": {
+   "title": "River Don, Aberdeenshire",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 57.176,
+   "lon": -2.077
+  },
+  "river-blackwater-northern-ireland": {
+   "title": "River Blackwater (Northern Ireland)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 54.51132,
+   "lon": -6.57832
+  },
+  "river-south-esk-angus": {
+   "title": "River South Esk",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 56.70302983,
+   "lon": -2.440922
+  },
+  "river-main-county-antrim": {
+   "title": "River Main (County Antrim)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.831225,
+   "lon": -6.300341
+  },
+  "river-dee-ireland": {
+   "title": "River Dee (Ireland)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 53.88333333,
+   "lon": -6.35
+  },
+  "river-colorado-river-texas": {
+   "title": "Colorado River (Texas)",
+   "monthlyViews": 5936,
+   "days": 60,
+   "lat": 28.59472222,
+   "lon": -95.98305556
+  },
+  "river-grand-michigan": {
+   "title": "Grand River (Michigan)",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 43.05835,
+   "lon": -86.25088
+  },
+  "river-green-washington": {
+   "title": "Green River (Duwamish River tributary)",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 47.46666667,
+   "lon": -122.25
+  },
+  "river-fox-wisconsin": {
+   "title": "Fox River (Green Bay tributary)",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 44.54,
+   "lon": -88.005
+  },
+  "river-white-indiana": {
+   "title": "White River (Indiana)",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 38.41421,
+   "lon": -87.74253
+  },
+  "river-green-kentucky": {
+   "title": "Green River (Kentucky)",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 37.9025,
+   "lon": -87.49972222
+  },
+  "river-san-juan-four-corners": {
+   "title": "San Juan River (Colorado River tributary)",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 37.17972222,
+   "lon": -110.90083333
+  },
+  "river-pearl-river-mississippi": {
+   "title": "Pearl River (Mississippi–Louisiana)",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 30.17944444,
+   "lon": -89.52611111
+  },
+  "river-thames-connecticut": {
+   "title": "Thames River (Connecticut)",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 41.3125,
+   "lon": -72.0804
+  },
+  "river-trinity-california": {
+   "title": "Trinity River (California)",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 41.18472222,
+   "lon": -123.70861111
+  },
+  "river-jordan-river-utah": {
+   "title": "Jordan River (Utah)",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 40.89777778,
+   "lon": -111.97361111
+  },
+  "river-buffalo-new-york": {
+   "title": "Buffalo River (New York)",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 42.87833333,
+   "lon": -78.88638889
+  },
+  "river-santa-cruz-arizona": {
+   "title": "Santa Cruz River (Arizona)",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 33.25611111,
+   "lon": -112.18833333
+  },
+  "river-grand-south-dakota": {
+   "title": "Grand River (South Dakota)",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 45.57693889,
+   "lon": -102.471525
+  },
+  "river-peace-florida": {
+   "title": "Peace River (Florida)",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 26.9172844,
+   "lon": -82.1425909
+  },
+  "river-flint-michigan": {
+   "title": "Flint River (Michigan)",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 43.35388889,
+   "lon": -84.05944444
+  },
+  "river-black-river-arkansas": {
+   "title": "Black River (Arkansas–Missouri)",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 35.64,
+   "lon": -91.3216667
+  },
+  "river-black-river-new-york": {
+   "title": "Black River (New York)",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 43.99416667,
+   "lon": -76.065
+  },
+  "river-james-north-dakota": {
+   "title": "James River (Dakotas)",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 42.87138889,
+   "lon": -97.29055556
+  },
+  "river-st-marys-florida": {
+   "title": "St. Marys River (Florida–Georgia)",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 30.72305556,
+   "lon": -81.49472222
+  },
+  "river-guadalupe-california": {
+   "title": "Guadalupe River (California)",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 37.42569444,
+   "lon": -121.97916667
+  },
+  "river-new-river-mexico": {
+   "title": "New River (Mexico–United States)",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 33.131316,
+   "lon": -115.694479
+  },
+  "river-black-river-wisconsin": {
+   "title": "Black River (Wisconsin)",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-deschutes-washington": {
+   "title": "Deschutes River (Washington)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 47.01833333,
+   "lon": -122.90361111
+  },
+  "river-st-joseph-indiana": {
+   "title": "St. Joseph River (Maumee River tributary)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 41.0833333,
+   "lon": -85.1322222
+  },
+  "river-mad-california": {
+   "title": "Mad River (California)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 40.94194444,
+   "lon": -124.135
+  },
+  "river-st-croix-maine": {
+   "title": "St. Croix River (Maine–New Brunswick)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 45.073,
+   "lon": -67.093
+  },
+  "river-white-washington": {
+   "title": "White River (Puyallup River)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 47.19972222,
+   "lon": -122.25861111
+  },
+  "river-buffalo-tennessee": {
+   "title": "Buffalo River (Tennessee)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.9956173,
+   "lon": -87.8391937
+  },
+  "river-grand-ohio": {
+   "title": "Grand River (Ohio)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 41.7603208,
+   "lon": -81.2806588
+  },
+  "river-new-river-north-carolina": {
+   "title": "New River (eastern North Carolina)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 34.53,
+   "lon": -77.339
+  },
+  "river-salt-kentucky": {
+   "title": "Salt River (Kentucky)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 38.00222222,
+   "lon": -85.94527778
+  },
+  "river-bear-california": {
+   "title": "Bear River (Feather River tributary)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 38.93972222,
+   "lon": -121.58083333
+  },
+  "river-black-river-north-carolina": {
+   "title": "Black River (North Carolina)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 34.33194444,
+   "lon": -78.0325
+  },
+  "river-black-river-arizona": {
+   "title": "Black River (Arizona)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 33.73888889,
+   "lon": -110.22555556
+  },
+  "river-blue-oklahoma": {
+   "title": "Blue River (Oklahoma)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 33.88638889,
+   "lon": -95.9325
+  },
+  "river-james-missouri": {
+   "title": "James River (Missouri)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 36.78626,
+   "lon": -93.49885
+  },
+  "river-san-gabriel-texas": {
+   "title": "San Gabriel River (Texas)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 30.7605,
+   "lon": -97.0144
+  },
+  "river-black-river-south-carolina": {
+   "title": "Black River (South Carolina)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 33.39888889,
+   "lon": -79.24722222
+  },
+  "river-grand-missouri": {
+   "title": "Grand River (Missouri)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 39.384,
+   "lon": -93.108
+  },
+  "river-green-north-carolina": {
+   "title": "Green River (North Carolina)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.25805556,
+   "lon": -81.96944444
+  },
+  "river-salt-wyoming": {
+   "title": "Salt River (Wyoming)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 43.16722222,
+   "lon": -111.06444444
+  },
+  "river-white-nebraska": {
+   "title": "White River (Missouri River tributary)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 43.71388889,
+   "lon": -99.46694444
+  },
+  "river-blackwater-virginia": {
+   "title": "Blackwater River (Virginia)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 36.54388889,
+   "lon": -76.91611111
+  },
+  "river-illinois-river-oregon": {
+   "title": "Illinois River (Oregon)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 42.55,
+   "lon": -124.06611111
+  },
+  "river-vermilion-illinois": {
+   "title": "Vermilion River (Illinois River tributary)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 41.319479,
+   "lon": -89.0678602
+  },
+  "river-whitewater-ohio": {
+   "title": "Whitewater River (Great Miami River tributary)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 39.10944444,
+   "lon": -84.81583333
+  },
+  "river-eel-indiana": {
+   "title": "Eel River (Wabash River tributary)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 40.75032,
+   "lon": -86.37306
+  },
+  "river-elk-alabama": {
+   "title": "Elk River (Tennessee River tributary)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.76138889,
+   "lon": -87.26555556
+  },
+  "river-white-vermont": {
+   "title": "White River (Vermont)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.9608691,
+   "lon": -72.8796441
+  },
+  "river-rio-puerco": {
+   "title": "Rio Puerco (Rio Grande tributary)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 34.37305556,
+   "lon": -106.8425
+  },
+  "river-spring-missouri": {
+   "title": "Spring River (Missouri)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.79194444,
+   "lon": -94.75277778
+  },
+  "river-sweetwater-california": {
+   "title": "Sweetwater River (California)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 32.64277778,
+   "lon": -117.11472222
+  },
+  "river-flint-alabama": {
+   "title": "Flint River (Alabama)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.50277778,
+   "lon": -86.52916667
+  },
+  "river-little-missouri-arkansas": {
+   "title": "Little Missouri River (Arkansas)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 33.80844,
+   "lon": -92.90016
+  },
+  "river-platte-iowa": {
+   "title": "Platte River (Iowa and Missouri)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 39.2641681,
+   "lon": -94.8374621
+  },
+  "river-st-marys-indiana": {
+   "title": "St. Marys River (Indiana and Ohio)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 41.0833333,
+   "lon": -85.1322222
+  },
+  "river-white-colorado": {
+   "title": "White River (Green River tributary)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 40.06222222,
+   "lon": -109.67916667
+  },
+  "river-chippewa-michigan": {
+   "title": "Chippewa River (Michigan)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-little-oklahoma": {
+   "title": "Little River (Red River tributary)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.6081578,
+   "lon": -94.7946719
+  },
+  "river-little-texas": {
+   "title": "Little River (Texas)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 30.84178,
+   "lon": -96.67755
+  },
+  "river-red-lake-river": {
+   "title": "Red Lake River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 47.9225,
+   "lon": -97.0214
+  },
+  "river-red-river-tennessee": {
+   "title": "Red River (Cumberland River tributary)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 36.4864328,
+   "lon": -86.5116608
+  },
+  "river-swan-river-montana": {
+   "title": "Swan River (Montana)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 48.05972222,
+   "lon": -114.08083333
+  },
+  "river-vermilion-ohio": {
+   "title": "Vermilion River (Ohio)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.427,
+   "lon": -82.3641
+  },
+  "river-bad-wisconsin": {
+   "title": "Bad River (Wisconsin)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.63805556,
+   "lon": -90.6525
+  },
+  "river-big-blue-indiana": {
+   "title": "Big Blue River (Indiana)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.346814,
+   "lon": -85.992523
+  },
+  "river-cimarron-new-mexico": {
+   "title": "Cimarron River (Canadian River tributary)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.32416667,
+   "lon": -104.49944444
+  },
+  "river-saline-arkansas": {
+   "title": "Saline River (Ouachita River tributary)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 34.3837188,
+   "lon": -93.9965864
+  },
+  "river-san-miguel-colorado": {
+   "title": "San Miguel River (Colorado)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.38,
+   "lon": -108.80333333
+  },
+  "river-st-mary": {
+   "title": "St. Mary River (Alberta–Montana)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.62722222,
+   "lon": -112.88694444
+  },
+  "river-stillwater-ohio": {
+   "title": "Stillwater River (Ohio)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.77839,
+   "lon": -84.2005
+  },
+  "river-trent-north-carolina": {
+   "title": "Trent River (North Carolina)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.10111111,
+   "lon": -77.03666667
+  },
+  "river-white-yukon": {
+   "title": "White River (Yukon)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 63.19,
+   "lon": -139.58972222
+  },
+  "river-yellow-river-indiana": {
+   "title": "Yellow River (Indiana)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.27111111,
+   "lon": -86.82638889
+  },
+  "river-apple-illinois": {
+   "title": "Apple River (Illinois)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.17638889,
+   "lon": -90.24333333
+  },
+  "river-beaver-utah": {
+   "title": "Beaver River (Utah)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 39.15305556,
+   "lon": -112.835
+  },
+  "river-black-river-michigan": {
+   "title": "Black River (St. Clair River tributary)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.97194444,
+   "lon": -82.41833333
+  },
+  "river-cache-arkansas": {
+   "title": "Cache River (Arkansas)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 34.70194444,
+   "lon": -91.325
+  },
+  "river-moose-maine": {
+   "title": "Moose River (Maine)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.68194444,
+   "lon": -69.76611111
+  },
+  "river-powder-oregon": {
+   "title": "Powder River (Oregon)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.74361111,
+   "lon": -117.04888889
+  },
+  "river-red-cedar-wisconsin": {
+   "title": "Red Cedar River (Wisconsin)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.7058,
+   "lon": -91.88239
+  },
+  "river-red-river-kentucky": {
+   "title": "Red River (Kentucky River tributary)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 37.8526,
+   "lon": -84.0796
+  },
+  "river-salt-missouri": {
+   "title": "Salt River (Missouri)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.46666667,
+   "lon": -91.06333333
+  },
+  "river-smith-oregon": {
+   "title": "Smith River (Umpqua River tributary)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 43.73694444,
+   "lon": -124.07861111
+  },
+  "river-snake-river-minnesota": {
+   "title": "Snake River (St. Croix River tributary)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.8254,
+   "lon": -92.7661
+  },
+  "river-white-texas": {
+   "title": "White River (Texas)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 33.24111111,
+   "lon": -100.93611111
+  },
+  "river-withlacoochee-georgia": {
+   "title": "Withlacoochee River (Suwannee River tributary)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 30.38727778,
+   "lon": -83.17163889
+  },
+  "river-big-sandy-tennessee": {
+   "title": "Big Sandy River (Tennessee)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 36.40972222,
+   "lon": -88.07111111
+  },
+  "river-big-sandy-wyoming": {
+   "title": "Big Sandy River (Wyoming)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.85138889,
+   "lon": -109.78277778
+  },
+  "river-blackwater-missouri": {
+   "title": "Blackwater River (Missouri)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.9391667,
+   "lon": -92.9472222
+  },
+  "river-chippewa-minnesota": {
+   "title": "Chippewa River (Minnesota)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.9346792,
+   "lon": -95.7333596
+  },
+  "river-elk-minnesota": {
+   "title": "Elk River (Minnesota)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.2980205,
+   "lon": -93.5724605
+  },
+  "river-saint-francis-maine": {
+   "title": "Saint Francis River (Canada–United States)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.18027778,
+   "lon": -68.90388889
+  },
+  "river-sandy-maine": {
+   "title": "Sandy River (Kennebec River tributary)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.7644,
+   "lon": -69.8898
+  },
+  "river-vermillion-south-dakota": {
+   "title": "Vermillion River (South Dakota)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 42.733007,
+   "lon": -96.890335
+  },
+  "river-white-oregon": {
+   "title": "White River (Oregon)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.23361111,
+   "lon": -121.0675
+  },
+  "river-yellow-river-alabama": {
+   "title": "Yellow River (Pensacola Bay)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 30.55741,
+   "lon": -86.99524
+  },
+  "river-battle-creek-montana": {
+   "title": "Battle Creek (Milk River tributary)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 48.5775,
+   "lon": -109.10722222
+  },
+  "river-blackfoot-idaho": {
+   "title": "Blackfoot River (Idaho)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 43.12722222,
+   "lon": -112.50611111
+  },
+  "river-canning-alaska": {
+   "title": "Canning River (Alaska)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 70.07833333,
+   "lon": -145.56555556
+  },
+  "river-english-iowa": {
+   "title": "English River (Iowa)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 41.4875,
+   "lon": -91.50183
+  },
+  "river-delaware-river-kansas": {
+   "title": "Delaware River (Kansas)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 39.05916667,
+   "lon": -95.39777778
+  },
+  "river-elk-kansas": {
+   "title": "Elk River (Kansas)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 37.25666667,
+   "lon": -95.69416667
+  },
+  "river-fish-maine": {
+   "title": "Fish River (Maine)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 47.254,
+   "lon": -68.595
+  },
+  "river-green-illinois": {
+   "title": "Green River (Illinois)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 41.4692011,
+   "lon": -90.3954067
+  },
+  "river-kettle-minnesota": {
+   "title": "Kettle River (St. Croix River tributary)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 45.8577304,
+   "lon": -92.7363141
+  },
+  "river-logan-utah": {
+   "title": "Logan River (Utah-Idaho)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 41.74138889,
+   "lon": -111.95472222
+  },
+  "river-ottawa-river-ohio": {
+   "title": "Ottawa River (Auglaize River tributary)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 40.9951,
+   "lon": -84.2413
+  },
+  "river-pine-wisconsin": {
+   "title": "Pine River (Chippewa River tributary)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-pomme-de-terre-minnesota": {
+   "title": "Pomme de Terre River (Minnesota)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 45.17583333,
+   "lon": -96.08694444
+  },
+  "river-rio-hondo-new-mexico": {
+   "title": "Rio Hondo (Southern New Mexico)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 33.37083333,
+   "lon": -104.39916667
+  },
+  "river-south-river-north-carolina": {
+   "title": "South River (North Carolina)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 34.58333333,
+   "lon": -78.26944444
+  },
+  "river-sugar-creek-illinois": {
+   "title": "Sugar Creek (Sangamon River tributary)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 39.8111609,
+   "lon": -89.5425962
+  },
+  "river-teton-montana": {
+   "title": "Teton River (Montana)",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 47.93194444,
+   "lon": -110.50888889
+  },
+  "river-white-california": {
+   "title": "White River (California)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 35.85166667,
+   "lon": -119.28777778
+  },
+  "river-yellow-river-wisconsin": {
+   "title": "Yellow River (Chippewa River tributary)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 44.9644,
+   "lon": -91.3003
+  },
+  "river-big-black-quebec": {
+   "title": "Big Black River (Saint John River tributary)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.94972222,
+   "lon": -69.44861111
+  },
+  "river-buffalo-minnesota": {
+   "title": "Buffalo River (Minnesota)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-buffalo-wisconsin": {
+   "title": "Buffalo River (Wisconsin)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 44.35055556,
+   "lon": -91.92638889
+  },
+  "river-clear-creek-wyoming": {
+   "title": "Clear Creek (Wyoming)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 44.6547,
+   "lon": -106.0353
+  },
+  "river-colville-washington": {
+   "title": "Colville River (Washington)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.57305556,
+   "lon": -118.10666667
+  },
+  "river-crooked-missouri": {
+   "title": "Crooked River (Missouri)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 39.21668,
+   "lon": -93.84244
+  },
+  "river-delaware-river-texas": {
+   "title": "Delaware River (Texas)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 31.91555556,
+   "lon": -104.23083333
+  },
+  "river-french-creek-south-dakota": {
+   "title": "French Creek (Cheyenne River tributary)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.645777,
+   "lon": -102.922106
+  },
+  "river-goose-creek-utah": {
+   "title": "Goose Creek (Snake River tributary)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 42.54361111,
+   "lon": -113.76305556
+  },
+  "river-henrys-fork-wyoming": {
+   "title": "Henrys Fork (Green River tributary)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 40.9992,
+   "lon": -109.6476
+  },
+  "river-john-river": {
+   "title": "John River (Alaska)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 66.91361111,
+   "lon": -151.65361111
+  },
+  "river-little-north-carolina": {
+   "title": "Little River (Cape Fear River tributary)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 35.25694444,
+   "lon": -78.70333333
+  },
+  "river-little-louisiana": {
+   "title": "Little River (Louisiana)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 31.62823,
+   "lon": -91.81013
+  },
+  "river-little-virginia": {
+   "title": "Little River (New River tributary)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.08194444,
+   "lon": -80.57777778
+  },
+  "river-paint-creek-texas": {
+   "title": "Paint Creek (Clear Fork Brazos River tributary)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 33.05194444,
+   "lon": -99.3725
+  },
+  "river-platte-minnesota": {
+   "title": "Platte River (Minnesota)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.77916667,
+   "lon": -94.27916667
+  },
+  "river-rio-salado-new-mexico": {
+   "title": "Rio Salado (New Mexico)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 34.27305556,
+   "lon": -106.85861111
+  },
+  "river-rock-minnesota": {
+   "title": "Rock River (Big Sioux River tributary)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.0827,
+   "lon": -96.4545
+  },
+  "river-saint-charles": {
+   "title": "Saint Charles River (Colorado)",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 38.26555556,
+   "lon": -104.45972222
+  },
+  "river-volga-iowa": {
+   "title": "Volga River (Iowa)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 42.749,
+   "lon": -91.27
+  },
+  "river-wild-rice-minnesota": {
+   "title": "Wild Rice River (Minnesota)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 47.318,
+   "lon": -96.8373
+  },
+  "river-yellow-river-iowa": {
+   "title": "Yellow River (Iowa)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.085,
+   "lon": -91.181
+  },
+  "river-american-alaska": {
+   "title": "American River (Agiapuk River tributary)",
+   "monthlyViews": 21,
+   "days": 55,
+   "lat": 65.42416667,
+   "lon": -165.78805556
+  },
+  "river-battle-creek-idaho": {
+   "title": "Battle Creek (Owyhee River tributary)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 42.23722222,
+   "lon": -116.52472222
+  },
+  "river-beaver-creek-iowa": {
+   "title": "Beaver Creek (Des Moines River tributary)",
+   "monthlyViews": 37,
+   "days": 57,
+   "lat": 41.6518,
+   "lon": -93.6683
+  },
+  "river-black-lake-bayou": {
+   "title": "Black Lake Bayou",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-canadian-colorado": {
+   "title": "Canadian River (North Platte River tributary)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 40.89111111,
+   "lon": -106.3275
+  },
+  "river-clear-creek-california": {
+   "title": "Clear Creek (Sacramento River tributary)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 40.50555556,
+   "lon": -122.36777778
+  },
+  "river-fox-iowa": {
+   "title": "Fox River (Mississippi River tributary)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 40.28472222,
+   "lon": -91.49416667
+  },
+  "river-indian-creek-illinois": {
+   "title": "Indian Creek (Fox River tributary)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 41.4400321,
+   "lon": -88.7628529
+  },
+  "river-leaf-minnesota": {
+   "title": "Leaf River (Minnesota)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 46.4296848,
+   "lon": -94.8141848
+  },
+  "river-little-muddy-north-dakota": {
+   "title": "Little Muddy River (North Dakota)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 48.13527778,
+   "lon": -103.59222222
+  },
+  "river-maple-minnesota": {
+   "title": "Maple River (Minnesota)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 44.08722222,
+   "lon": -94.01527778
+  },
+  "river-middle-river": {
+   "title": "Middle River (Minnesota)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 48.37138889,
+   "lon": -97.07972222
+  },
+  "river-moreau-missouri": {
+   "title": "Moreau River (Missouri River tributary)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 38.55722222,
+   "lon": -92.08611111
+  },
+  "river-north-river-west-virginia": {
+   "title": "North River (Cacapon River tributary)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 39.40916667,
+   "lon": -78.42111111
+  },
+  "river-north-river-missouri": {
+   "title": "North River (Missouri)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 39.85583333,
+   "lon": -91.44472222
+  },
+  "river-north-river-washington": {
+   "title": "North River (Washington)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.74555556,
+   "lon": -123.89055556
+  },
+  "river-pine-minnesota": {
+   "title": "Pine River (Mississippi River tributary)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.5639,
+   "lon": -94.0367
+  },
+  "river-prairie-michigan": {
+   "title": "Prairie River (Michigan)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-rock-creek-oregon": {
+   "title": "Rock Creek (Catlow Valley)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 42.66138889,
+   "lon": -119.16888889
+  },
+  "river-rock-creek-wyoming": {
+   "title": "Rock Creek (Clear Creek tributary)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 44.3625,
+   "lon": -106.66055556
+  },
+  "river-rock-creek-washington": {
+   "title": "Rock Creek (Palouse River tributary)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 46.9125,
+   "lon": -117.92805556
+  },
+  "river-salmon-alaska": {
+   "title": "Salmon River (Kobuk River tributary)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-slana-alaska": {
+   "title": "Slana River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 62.7,
+   "lon": -144.00833333
+  },
+  "river-saint-francis-minnesota": {
+   "title": "St. Francis River (Minnesota)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.35916667,
+   "lon": -93.73722222
+  },
+  "river-sturgeon-minnesota": {
+   "title": "Sturgeon River (Little Fork River tributary)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 47.88361111,
+   "lon": -93.02972222
+  },
+  "river-swan-river-minnesota": {
+   "title": "Swan River (northern Minnesota)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 47.00916667,
+   "lon": -93.26388889
+  },
+  "river-thompson-missouri": {
+   "title": "Thompson River (Missouri)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 39.76388889,
+   "lon": -93.61444444
+  },
+  "river-tongue-north-dakota": {
+   "title": "Tongue River (North Dakota)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.93611111,
+   "lon": -97.30277778
+  },
+  "river-whitewater-kansas": {
+   "title": "Whitewater River (Kansas)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 37.65694444,
+   "lon": -96.99166667
+  },
+  "river-willow-creek-utah": {
+   "title": "Willow Creek (Grand and Uintah counties, Utah)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 40.02694444,
+   "lon": -109.74305556
+  },
+  "river-willow-creek-idaho": {
+   "title": "Willow Creek (Snake River tributary)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.55277778,
+   "lon": -111.98805556
+  },
+  "river-wind-alaska": {
+   "title": "Wind River (Alaska)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 67.77666667,
+   "lon": -146.1575
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",
