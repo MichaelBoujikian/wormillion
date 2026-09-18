@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T19:01:13.887Z",
+ "fetched": "2026-09-18T19:28:49.985Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -34123,11 +34123,11 @@
    "lon": -106.83583333
   },
   "lake-lake-of-bays": {
-   "title": "Lake of Bays",
-   "monthlyViews": 791,
+   "title": "Lake of Bays (Muskoka lake)",
+   "monthlyViews": 335,
    "days": 60,
-   "lat": 45.3075,
-   "lon": -79.00638889
+   "lat": 45.25055556,
+   "lon": -78.99833333
   },
   "lake-wollaston-lake": {
    "title": "Wollaston Lake",
@@ -36327,7 +36327,7 @@
    "lat": 43.06916667,
    "lon": -89.35944444
   },
-  "lake-beaver-lake": {
+  "lake-beaver-lake-arkansas": {
    "title": "Beaver Lake (Arkansas)",
    "monthlyViews": 1796,
    "days": 60,
@@ -36446,14 +36446,14 @@
    "lat": 48.6369,
    "lon": -93.0314
   },
-  "lake-sylvan-lake": {
+  "lake-sylvan-lake-south-dakota": {
    "title": "Sylvan Lake (South Dakota)",
    "monthlyViews": 1431,
    "days": 60,
    "lat": 43.8457,
    "lon": -103.56349167
   },
-  "lake-grand-lake": {
+  "lake-grand-lake-colorado": {
    "title": "Grand Lake (Colorado)",
    "monthlyViews": 1400,
    "days": 60,
@@ -36964,7 +36964,7 @@
    "lat": 38.61893889,
    "lon": -89.35285556
   },
-  "lake-gull-lake": {
+  "lake-gull-lake-minnesota": {
    "title": "Gull Lake (Cass County, Minnesota)",
    "monthlyViews": 791,
    "days": 60,
@@ -37272,7 +37272,7 @@
    "lat": 29.45027778,
    "lon": -101.05777778
   },
-  "lake-eagle-lake": {
+  "lake-eagle-lake-california": {
    "title": "Eagle Lake (Lassen County)",
    "monthlyViews": 578,
    "days": 60,
@@ -37755,7 +37755,7 @@
    "lat": 37.75972222,
    "lon": -97.835
   },
-  "lake-cross-lake": {
+  "lake-cross-lake-louisiana": {
    "title": "Cross Lake (Shreveport, Louisiana)",
    "monthlyViews": 304,
    "days": 60,
@@ -38497,7 +38497,7 @@
    "lat": 34.76,
    "lon": -98.99
   },
-  "lake-whitefish-lake": {
+  "lake-whitefish-lake-minnesota": {
    "title": "Whitefish Lake (Minnesota)",
    "monthlyViews": 61,
    "days": 60,
@@ -38553,7 +38553,7 @@
    "lat": 59.55944444,
    "lon": -159.02416667
   },
-  "lake-pelican-lake": {
+  "lake-pelican-lake-minnesota": {
    "title": "Pelican Lake (St. Louis County, Minnesota)",
    "monthlyViews": 30,
    "days": 60,
@@ -39238,6 +39238,1798 @@
    "days": 60,
    "lat": 67.12666667,
    "lon": -154.36305556
+  },
+  "lake-big-ass-lake": {
+   "title": "Big Ass Lake",
+   "monthlyViews": 13059,
+   "days": 60,
+   "lat": 44.92555556,
+   "lon": -62.93277778
+  },
+  "lake-man-drowned-himself-lake": {
+   "title": "Man Drowned Himself Lake",
+   "monthlyViews": 9893,
+   "days": 42,
+   "lat": 65.69322222,
+   "lon": -123.21427778
+  },
+  "lake-little-manitou-lake": {
+   "title": "Little Manitou Lake",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 51.7381,
+   "lon": -105.527
+  },
+  "lake-bras-d-or-lake": {
+   "title": "Bras d'Or Lake",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 45.86027778,
+   "lon": -60.77888889
+  },
+  "lake-yathkyed-lake": {
+   "title": "Yathkyed Lake",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": 62.71666667,
+   "lon": -97.91666667
+  },
+  "lake-lake-rosseau": {
+   "title": "Lake Rosseau",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 45.16666667,
+   "lon": -79.6
+  },
+  "lake-chilko-lake": {
+   "title": "Chilko Lake",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 51.26666667,
+   "lon": -124.05
+  },
+  "lake-angikuni-lake": {
+   "title": "Angikuni Lake",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 62.2,
+   "lon": -99.98333333
+  },
+  "lake-rice-lake": {
+   "title": "Rice Lake (Ontario)",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 44.18333333,
+   "lon": -78.16666667
+  },
+  "lake-clearwater-lakes": {
+   "title": "Clearwater Lakes",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 56.13333333,
+   "lon": -74.3
+  },
+  "lake-cultus-lake": {
+   "title": "Cultus Lake, British Columbia",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 49.0533,
+   "lon": -121.9867
+  },
+  "lake-kalamalka-lake": {
+   "title": "Kalamalka Lake",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 50.17361111,
+   "lon": -119.33
+  },
+  "lake-columbia-lake": {
+   "title": "Columbia Lake",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 50.23333333,
+   "lon": -115.86666667
+  },
+  "lake-harrison-lake": {
+   "title": "Harrison Lake",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 49.5,
+   "lon": -121.83333333
+  },
+  "lake-lake-temiscouata": {
+   "title": "Lake Témiscouata",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 47.66666667,
+   "lon": -68.83333333
+  },
+  "lake-lake-joseph": {
+   "title": "Lake Joseph",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 45.18333333,
+   "lon": -79.71666667
+  },
+  "lake-manitou-lake": {
+   "title": "Manitou Lake (Saskatchewan)",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 52.71666667,
+   "lon": -109.71666667
+  },
+  "lake-tagish-lake": {
+   "title": "Tagish Lake",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 60,
+   "lon": -134.25
+  },
+  "lake-buntzen-lake": {
+   "title": "Buntzen Lake",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 49.349,
+   "lon": -122.86
+  },
+  "lake-lesser-slave-lake": {
+   "title": "Lesser Slave Lake",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 55.44055556,
+   "lon": -115.48861111
+  },
+  "lake-quesnel-lake": {
+   "title": "Quesnel Lake",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 52.53333333,
+   "lon": -121.03333333
+  },
+  "lake-wabamun-lake": {
+   "title": "Wabamun Lake",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 53.52972222,
+   "lon": -114.58722222
+  },
+  "lake-lake-couchiching": {
+   "title": "Lake Couchiching",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 44.66666667,
+   "lon": -79.38333333
+  },
+  "lake-lake-scugog": {
+   "title": "Lake Scugog",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 44.18333333,
+   "lon": -78.85722222
+  },
+  "lake-last-mountain-lake": {
+   "title": "Last Mountain Lake",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 51.16666667,
+   "lon": -105.25
+  },
+  "lake-stony-lake": {
+   "title": "Stony Lake (Ontario)",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 44.55638889,
+   "lon": -78.11361111
+  },
+  "lake-smallwood-reservoir": {
+   "title": "Smallwood Reservoir",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 54.1,
+   "lon": -64.41666667
+  },
+  "lake-lac-seul": {
+   "title": "Lac Seul",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 50.33333333,
+   "lon": -92.5
+  },
+  "lake-balsam-lake": {
+   "title": "Balsam Lake (Ontario)",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 44.58055556,
+   "lon": -78.84166667
+  },
+  "lake-chaplin-lake": {
+   "title": "Chaplin Lake",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 50.4016,
+   "lon": -106.6004
+  },
+  "lake-pigeon-lake-alberta": {
+   "title": "Pigeon Lake (Alberta)",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 53.03027778,
+   "lon": -114.06333333
+  },
+  "lake-lake-hazen": {
+   "title": "Lake Hazen",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 81.8,
+   "lon": -71
+  },
+  "lake-lake-timiskaming": {
+   "title": "Lake Timiskaming",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 47.33333333,
+   "lon": -79.5
+  },
+  "lake-sproat-lake": {
+   "title": "Sproat Lake",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 49.26666667,
+   "lon": -125.03333333
+  },
+  "lake-adams-lake": {
+   "title": "Adams Lake",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 51.16916667,
+   "lon": -119.57361111
+  },
+  "lake-lake-wanapitei": {
+   "title": "Lake Wanapitei",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 46.75,
+   "lon": -80.75
+  },
+  "lake-pigeon-lake-ontario": {
+   "title": "Pigeon Lake (Ontario)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 44.47166667,
+   "lon": -78.495
+  },
+  "lake-bennett-lake": {
+   "title": "Bennett Lake",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 60.09166667,
+   "lon": -134.86555556
+  },
+  "lake-caniapiscau-reservoir": {
+   "title": "Caniapiscau Reservoir",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 54.1575,
+   "lon": -69.84555556
+  },
+  "lake-lake-newell": {
+   "title": "Lake Newell",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 50.43444444,
+   "lon": -111.935
+  },
+  "lake-lake-of-two-mountains": {
+   "title": "Lake of Two Mountains",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 45.45083333,
+   "lon": -74
+  },
+  "lake-mabel-lake": {
+   "title": "Mabel Lake",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 50.58333333,
+   "lon": -118.71666667
+  },
+  "lake-cold-lake": {
+   "title": "Cold Lake (Alberta)",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 54.55,
+   "lon": -110.05
+  },
+  "lake-buffalo-lake": {
+   "title": "Buffalo Lake (Alberta)",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 52.4925,
+   "lon": -112.91555556
+  },
+  "lake-lac-ste-anne": {
+   "title": "Lac Ste. Anne (Alberta)",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 53.70833333,
+   "lon": -114.46027778
+  },
+  "lake-lake-saint-louis": {
+   "title": "Lake Saint-Louis",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 45.40138889,
+   "lon": -73.81416667
+  },
+  "lake-golden-lake": {
+   "title": "Golden Lake",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 45.57,
+   "lon": -77.35
+  },
+  "lake-kamloops-lake": {
+   "title": "Kamloops Lake",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 50.75,
+   "lon": -120.66666667
+  },
+  "lake-mcgregor-lake": {
+   "title": "McGregor Lake",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 50.42388889,
+   "lon": -112.85166667
+  },
+  "lake-turtle-lake": {
+   "title": "Turtle Lake (Saskatchewan)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 53.56666667,
+   "lon": -108.65
+  },
+  "lake-babine-lake": {
+   "title": "Babine Lake",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 54.77611111,
+   "lon": -126.01388889
+  },
+  "lake-lake-saint-pierre": {
+   "title": "Lake Saint Pierre",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 46.20416667,
+   "lon": -72.83222222
+  },
+  "lake-stave-lake": {
+   "title": "Stave Lake",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 49.36666667,
+   "lon": -122.3
+  },
+  "lake-buttle-lake": {
+   "title": "Buttle Lake",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 49.68305556,
+   "lon": -125.54972222
+  },
+  "lake-slocan-lake": {
+   "title": "Slocan Lake",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 49.95,
+   "lon": -117.38333333
+  },
+  "lake-sumas-lake": {
+   "title": "Sumas Lake",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 49.07,
+   "lon": -122.09
+  },
+  "lake-baskatong-reservoir": {
+   "title": "Baskatong Reservoir",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 46.8,
+   "lon": -75.8
+  },
+  "lake-christina-lake": {
+   "title": "Christina Lake (British Columbia)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 49.11666667,
+   "lon": -118.25
+  },
+  "lake-cowichan-lake": {
+   "title": "Cowichan Lake",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 48.81666667,
+   "lon": -124.03333333
+  },
+  "lake-gods-lake": {
+   "title": "Gods Lake",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 54.67388889,
+   "lon": -94.24666667
+  },
+  "lake-jackfish-lake": {
+   "title": "Jackfish Lake (Saskatchewan)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 53.0667,
+   "lon": -108.4007
+  },
+  "lake-kawagama-lake": {
+   "title": "Kawagama Lake",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 45.29861111,
+   "lon": -78.7525
+  },
+  "lake-kennedy-lake": {
+   "title": "Kennedy Lake (Vancouver Island)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 49.05,
+   "lon": -125.55
+  },
+  "lake-lake-abitibi": {
+   "title": "Lake Abitibi",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 48.66666667,
+   "lon": -79.75
+  },
+  "lake-lake-claire": {
+   "title": "Lake Claire (Alberta)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 58.58333333,
+   "lon": -112.08333333
+  },
+  "lake-moose-lake-alberta": {
+   "title": "Moose Lake (Alberta)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 54.25111111,
+   "lon": -110.90694444
+  },
+  "lake-old-wives-lake": {
+   "title": "Old Wives Lake",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 50.1,
+   "lon": -106.00055556
+  },
+  "lake-buffalo-pound-lake": {
+   "title": "Buffalo Pound Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 50.65,
+   "lon": -105.51388889
+  },
+  "lake-round-lake": {
+   "title": "Round Lake (Ontario)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.63333333,
+   "lon": -77.53333333
+  },
+  "lake-stuart-lake": {
+   "title": "Stuart Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 54.55,
+   "lon": -124.58333333
+  },
+  "lake-anderson-lake": {
+   "title": "Anderson Lake (British Columbia)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 50.63305556,
+   "lon": -122.40972222
+  },
+  "lake-beothuk-lake": {
+   "title": "Beothuk Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.73916667,
+   "lon": -56.84638889
+  },
+  "lake-big-trout-lake": {
+   "title": "Big Trout Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 53.78333333,
+   "lon": -90.00722222
+  },
+  "lake-bobs-lake": {
+   "title": "Bobs Lake (South Frontenac)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 44.68111111,
+   "lon": -76.58777778
+  },
+  "lake-canim-lake": {
+   "title": "Canim Lake (British Columbia)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 51.86314,
+   "lon": -120.76542
+  },
+  "lake-gander-lake": {
+   "title": "Gander Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.93111111,
+   "lon": -54.73416667
+  },
+  "lake-gouin-reservoir": {
+   "title": "Gouin Reservoir",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.58,
+   "lon": -74.83
+  },
+  "lake-great-central-lake": {
+   "title": "Great Central Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.36805556,
+   "lon": -125.19583333
+  },
+  "lake-lac-de-gras": {
+   "title": "Lac de Gras",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 64.5,
+   "lon": -110.5
+  },
+  "lake-opeongo-lake": {
+   "title": "Opeongo Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 45.71194444,
+   "lon": -78.37111111
+  },
+  "lake-redberry-lake": {
+   "title": "Redberry Lake (Saskatchewan)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 52.7,
+   "lon": -107.16666667
+  },
+  "lake-robert-bourassa-reservoir": {
+   "title": "Robert-Bourassa Reservoir",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 53.75,
+   "lon": -77
+  },
+  "lake-shoal-lake": {
+   "title": "Shoal Lake (Kenora District, Ontario)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.54722222,
+   "lon": -94.94027778
+  },
+  "lake-teslin-lake": {
+   "title": "Teslin Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 60.01666667,
+   "lon": -132.43333333
+  },
+  "lake-tobin-lake": {
+   "title": "Tobin Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 53.58333333,
+   "lon": -103.5
+  },
+  "lake-waskesiu-lake": {
+   "title": "Waskesiu Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 53.9566,
+   "lon": -106.1955
+  },
+  "lake-amadjuak-lake": {
+   "title": "Amadjuak Lake",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 64.91666667,
+   "lon": -71.13333333
+  },
+  "lake-candle-lake": {
+   "title": "Candle Lake (Saskatchewan)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 53.82051667,
+   "lon": -105.30429722
+  },
+  "lake-dog-lake": {
+   "title": "Dog Lake (Ontario)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 48.74305556,
+   "lon": -89.53611111
+  },
+  "lake-frank-lake": {
+   "title": "Frank Lake (Alberta)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.567,
+   "lon": -113.708
+  },
+  "lake-lake-kipawa": {
+   "title": "Lake Kipawa",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.88472222,
+   "lon": -78.96777778
+  },
+  "lake-shellmouth-reservoir": {
+   "title": "Shellmouth Reservoir",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 51.14444444,
+   "lon": -101.50527778
+  },
+  "lake-baker-lake": {
+   "title": "Baker Lake (Nunavut)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 64.16666667,
+   "lon": -95.5
+  },
+  "lake-cedar-lake": {
+   "title": "Cedar Lake (Manitoba)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 53.32916667,
+   "lon": -100.16888889
+  },
+  "lake-fishing-lake": {
+   "title": "Fishing Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.8466,
+   "lon": -103.5321
+  },
+  "lake-good-spirit-lake": {
+   "title": "Good Spirit Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.5667,
+   "lon": -102.6671
+  },
+  "lake-kakagi-lake": {
+   "title": "Kakagi Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.24083333,
+   "lon": -93.8325
+  },
+  "lake-lac-sante": {
+   "title": "Lac Santé",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 53.8425,
+   "lon": -111.55388889
+  },
+  "lake-lac-des-iles": {
+   "title": "Lac des Îles (Saskatchewan)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 54.433425,
+   "lon": -109.417464
+  },
+  "lake-lake-ainslie": {
+   "title": "Lake Ainslie",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.12666667,
+   "lon": -61.17611111
+  },
+  "lake-lake-rossignol": {
+   "title": "Lake Rossignol",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.17972222,
+   "lon": -65.12583333
+  },
+  "lake-murtle-lake": {
+   "title": "Murtle Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-sturgeon-lake-alberta": {
+   "title": "Sturgeon Lake (Alberta)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 55.10444444,
+   "lon": -117.56861111
+  },
+  "lake-lake-athapapuskow": {
+   "title": "Lake Athapapuskow",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 54.55,
+   "lon": -101.66666667
+  },
+  "lake-besnard-lake": {
+   "title": "Besnard Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 55.4167,
+   "lon": -106.0005
+  },
+  "lake-black-donald-lake": {
+   "title": "Black Donald Lake",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 45.21694444,
+   "lon": -76.93972222
+  },
+  "lake-cabonga-reservoir": {
+   "title": "Cabonga Reservoir",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.3325,
+   "lon": -76.57694444
+  },
+  "lake-chip-lake": {
+   "title": "Chip Lake (Alberta)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 53.6667,
+   "lon": -115.3833
+  },
+  "lake-clearwater-lake": {
+   "title": "Clearwater Lake (British Columbia)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.23333333,
+   "lon": -120.2
+  },
+  "lake-francois-lake": {
+   "title": "François Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 54.03333333,
+   "lon": -125.71666667
+  },
+  "lake-kabinakagami-lake": {
+   "title": "Kabinakagami Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 48.90805556,
+   "lon": -84.40638889
+  },
+  "lake-kathleen-lake": {
+   "title": "Kathleen Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 60.5802,
+   "lon": -137.3019
+  },
+  "lake-lac-des-mille-lacs": {
+   "title": "Lac des Mille Lacs",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 48.84916667,
+   "lon": -90.51055556
+  },
+  "lake-lake-megantic": {
+   "title": "Lake Mégantic",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.51388889,
+   "lon": -70.87722222
+  },
+  "lake-lake-revelstoke": {
+   "title": "Lake Revelstoke",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.29166667,
+   "lon": -118.28055556
+  },
+  "lake-lake-st-joseph": {
+   "title": "Lake St. Joseph (Ontario)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.05361111,
+   "lon": -90.82722222
+  },
+  "lake-mahood-lake": {
+   "title": "Mahood Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.91138889,
+   "lon": -120.38166667
+  },
+  "lake-nueltin-lake": {
+   "title": "Nueltin Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 60.15083333,
+   "lon": -99.75638889
+  },
+  "lake-wabigoon-lake": {
+   "title": "Wabigoon Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.75,
+   "lon": -92.7
+  },
+  "lake-azure-lake": {
+   "title": "Azure Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-beaverlodge-lake": {
+   "title": "Beaverlodge Lake",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 59.5,
+   "lon": -108.56666667
+  },
+  "lake-ennadai-lake": {
+   "title": "Ennadai Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 60.96666667,
+   "lon": -101.33333333
+  },
+  "lake-island-lake": {
+   "title": "Island Lake (Manitoba)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 53.78333333,
+   "lon": -94.41666667
+  },
+  "lake-kasba-lake": {
+   "title": "Kasba Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 60.28333333,
+   "lon": -102.00611111
+  },
+  "lake-lac-la-biche": {
+   "title": "Lac La Biche (Alberta)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 54.85638889,
+   "lon": -112.05888889
+  },
+  "lake-lac-la-martre": {
+   "title": "Lac La Martre",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 63.25027778,
+   "lon": -117.91805556
+  },
+  "lake-marsh-lake": {
+   "title": "Marsh Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 60.43611111,
+   "lon": -134.25055556
+  },
+  "lake-nimpkish-lake": {
+   "title": "Nimpkish Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.40027778,
+   "lon": -126.97583333
+  },
+  "lake-pakowki-lake": {
+   "title": "Pakowki Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.30666667,
+   "lon": -110.905
+  },
+  "lake-southern-indian-lake": {
+   "title": "Southern Indian Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 57.16666667,
+   "lon": -98.5
+  },
+  "lake-amisk-lake": {
+   "title": "Amisk Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.56666667,
+   "lon": -102.23333333
+  },
+  "lake-beaverhill-lake": {
+   "title": "Beaverhill Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.4525,
+   "lon": -112.53555556
+  },
+  "lake-carpenter-lake": {
+   "title": "Carpenter Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.85,
+   "lon": -122.5
+  },
+  "lake-contwoyto-lake": {
+   "title": "Contwoyto Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 65.65,
+   "lon": -110.71666667
+  },
+  "lake-crawling-valley-reservoir": {
+   "title": "Crawling Valley Reservoir",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.90194444,
+   "lon": -112.35277778
+  },
+  "lake-dauphin-lake": {
+   "title": "Dauphin Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.25,
+   "lon": -99.75
+  },
+  "lake-kississing-lake": {
+   "title": "Kississing Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.16972222,
+   "lon": -101.33388889
+  },
+  "lake-kusawa-lake": {
+   "title": "Kusawa Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 60.35630556,
+   "lon": -136.34052778
+  },
+  "lake-lac-des-chats": {
+   "title": "Lac des Chats",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.51722222,
+   "lon": -76.49361111
+  },
+  "lake-lake-magpie": {
+   "title": "Lake Magpie",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.9936111,
+   "lon": -64.6822222
+  },
+  "lake-lobstick-lake": {
+   "title": "Lobstick Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54,
+   "lon": -65
+  },
+  "lake-moberly-lake": {
+   "title": "Moberly Lake (British Columbia)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 55.823,
+   "lon": -121.762
+  },
+  "lake-montreal-lake": {
+   "title": "Montreal Lake (Saskatchewan)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.33333333,
+   "lon": -105.66666667
+  },
+  "lake-oak-lake": {
+   "title": "Oak Lake (Manitoba)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.67138889,
+   "lon": -100.74277778
+  },
+  "lake-peter-pond-lake": {
+   "title": "Peter Pond Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.9161,
+   "lon": -108.7341
+  },
+  "lake-playgreen-lake": {
+   "title": "Playgreen Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.03333333,
+   "lon": -98.23333333
+  },
+  "lake-poisson-blanc-lake": {
+   "title": "Poisson-Blanc Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.01389,
+   "lon": -75.70889
+  },
+  "lake-takla-lake": {
+   "title": "Takla Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.31,
+   "lon": -125.77
+  },
+  "lake-tatlayoko-lake": {
+   "title": "Tatlayoko Lake",
+   "monthlyViews": 122,
+   "days": 58,
+   "lat": 51.55,
+   "lon": -124.4
+  },
+  "lake-upper-campbell-lake": {
+   "title": "Upper Campbell Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.9165,
+   "lon": -125.66175
+  },
+  "lake-waterhen-lake": {
+   "title": "Waterhen Lake (Saskatchewan)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.46666667,
+   "lon": -108.4175
+  },
+  "lake-whitewater-lake": {
+   "title": "Whitewater Lake, Manitoba",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.23805556,
+   "lon": -100.32361111
+  },
+  "lake-windigo-lake": {
+   "title": "Windigo Lake (Ontario)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.59,
+   "lon": -91.512
+  },
+  "lake-agnew-lake": {
+   "title": "Agnew Lake (Ontario)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 46.35527778,
+   "lon": -81.76083333
+  },
+  "lake-bistcho-lake": {
+   "title": "Bistcho Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.7425,
+   "lon": -118.845
+  },
+  "lake-buck-lake": {
+   "title": "Buck Lake (Alberta)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 52.985,
+   "lon": -114.76388889
+  },
+  "lake-calling-lake": {
+   "title": "Calling Lake",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 55.24222222,
+   "lon": -113.31111111
+  },
+  "lake-canoe-lake": {
+   "title": "Canoe Lake (Saskatchewan)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 55.1667,
+   "lon": -108.2508
+  },
+  "lake-charlotte-lake": {
+   "title": "Charlotte Lake (British Columbia)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 52.196,
+   "lon": -125.32
+  },
+  "lake-churchill-lake": {
+   "title": "Churchill Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 55.91666667,
+   "lon": -108.33333333
+  },
+  "lake-cooking-lake": {
+   "title": "Cooking Lake (Alberta)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 53.43305556,
+   "lon": -113.02916667
+  },
+  "lake-cowan-lake": {
+   "title": "Cowan Lake (Saskatchewan)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 54.3015,
+   "lon": -107.5004
+  },
+  "lake-deer-lake": {
+   "title": "Deer Lake (Newfoundland and Labrador)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 49.0925,
+   "lon": -57.5728
+  },
+  "lake-delaronde-lake": {
+   "title": "Delaronde Lake",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 54.0501,
+   "lon": -107.0506
+  },
+  "lake-dore-lake": {
+   "title": "Doré Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 54.76666667,
+   "lon": -107.3
+  },
+  "lake-grand-lac-saint-francois": {
+   "title": "Grand lac Saint François",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 45.89861111,
+   "lon": -71.15777778
+  },
+  "lake-gregoire-lake": {
+   "title": "Gregoire Lake",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 56.45166667,
+   "lon": -111.12722222
+  },
+  "lake-hatchet-lake": {
+   "title": "Hatchet Lake (Saskatchewan)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 58.63361111,
+   "lon": -103.66722222
+  },
+  "lake-hottah-lake": {
+   "title": "Hottah Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 65.09586111,
+   "lon": -118.48738889
+  },
+  "lake-kejimikujik-lake": {
+   "title": "Kejimikujik Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 44.37027778,
+   "lon": -65.23027778
+  },
+  "lake-lac-ile-a-la-crosse": {
+   "title": "Lac Île-à-la-Crosse",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 55.44444444,
+   "lon": -107.84861111
+  },
+  "lake-lake-miguel-aleman": {
+   "title": "Lake Miguel Alemán",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 18.23887222,
+   "lon": -96.512375
+  },
+  "lake-lake-yuriria": {
+   "title": "Lake Yuriria",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 20.2475,
+   "lon": -101.14944444
+  },
+  "lake-lenore-lake": {
+   "title": "Lenore Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 52.5,
+   "lon": -104.98333333
+  },
+  "lake-marie-lake": {
+   "title": "Marie Lake (Alberta)",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 54.63277778,
+   "lon": -110.29805556
+  },
+  "lake-pasqua-lake": {
+   "title": "Pasqua Lake",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 50.775,
+   "lon": -103.9925
+  },
+  "lake-primrose-lake": {
+   "title": "Primrose Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 54.91666667,
+   "lon": -109.75
+  },
+  "lake-sullivan-lake": {
+   "title": "Sullivan Lake (Alberta)",
+   "monthlyViews": 91,
+   "days": 41,
+   "lat": 52.0144,
+   "lon": -111.9653
+  },
+  "lake-swan-lake": {
+   "title": "Swan Lake (Manitoba)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 52.51666667,
+   "lon": -100.75
+  },
+  "lake-whitemouth-lake": {
+   "title": "Whitemouth Lake",
+   "monthlyViews": 91,
+   "days": 57,
+   "lat": 49.27777778,
+   "lon": -95.69722222
+  },
+  "lake-aberdeen-lake": {
+   "title": "Aberdeen Lake (Nunavut)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 64.45,
+   "lon": -99
+  },
+  "lake-aishihik-lake": {
+   "title": "Aishihik Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 61.45,
+   "lon": -137.13333333
+  },
+  "lake-artillery-lake": {
+   "title": "Artillery Lake",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 63.16666667,
+   "lon": -107.86666667
+  },
+  "lake-ashuanipi-lake": {
+   "title": "Ashuanipi Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 52.65,
+   "lon": -66.13
+  },
+  "lake-attawapiskat-lake": {
+   "title": "Attawapiskat Lake",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 52.24333333,
+   "lon": -87.8975
+  },
+  "lake-aylmer-lake": {
+   "title": "Aylmer Lake",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 64.13333333,
+   "lon": -108.5
+  },
+  "lake-basin-lake": {
+   "title": "Basin Lake (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 52.6334,
+   "lon": -105.2839
+  },
+  "lake-brightsand-lake": {
+   "title": "Brightsand Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 53.6001,
+   "lon": -108.884
+  },
+  "lake-cardinal-lake": {
+   "title": "Cardinal Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 56.23555556,
+   "lon": -117.72555556
+  },
+  "lake-cheslatta-lake": {
+   "title": "Cheslatta Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 53.73333333,
+   "lon": -125.35
+  },
+  "lake-chibougamau-lake": {
+   "title": "Chibougamau Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.83555556,
+   "lon": -74.22972222
+  },
+  "lake-chitek-lake": {
+   "title": "Chitek Lake (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.7927,
+   "lon": -107.8487
+  },
+  "lake-codette-lake": {
+   "title": "Codette Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.2538,
+   "lon": -104.4649
+  },
+  "lake-cormorant-lake": {
+   "title": "Cormorant Lake (Manitoba)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 54.23333333,
+   "lon": -100.8
+  },
+  "lake-crean-lake": {
+   "title": "Crean Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.0834,
+   "lon": -106.1505
+  },
+  "lake-deschambault-lake": {
+   "title": "Deschambault Lake (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 54.78333333,
+   "lon": -103.41666667
+  },
+  "lake-dezadeash-lake": {
+   "title": "Dezadeash Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.48333333,
+   "lon": -136.96666667
+  },
+  "lake-dozois-reservoir": {
+   "title": "Dozois Reservoir",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 47.5,
+   "lon": -77.08333333
+  },
+  "lake-esnagami-lake": {
+   "title": "Esnagami Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 50.32305556,
+   "lon": -86.84138889
+  },
+  "lake-frances-lake": {
+   "title": "Frances Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 61.33944444,
+   "lon": -129.5725
+  },
+  "lake-hanson-lake": {
+   "title": "Hanson Lake",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 54.7156,
+   "lon": -102.8159
+  },
+  "lake-horsefly-lake": {
+   "title": "Horsefly Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 52.38333333,
+   "lon": -121.16666667
+  },
+  "lake-jan-lake": {
+   "title": "Jan Lake (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.9334,
+   "lon": -102.9171
+  },
+  "lake-kesagami-lake": {
+   "title": "Kesagami Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 50.375,
+   "lon": -80.24
+  },
+  "lake-kiamika-reservoir": {
+   "title": "Kiamika Reservoir",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 46.67083,
+   "lon": -75.07195
+  },
+  "lake-kingsmere-lake": {
+   "title": "Kingsmere Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.1001,
+   "lon": -106.4505
+  },
+  "lake-lake-bienville": {
+   "title": "Lake Bienville",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.07916667,
+   "lon": -72.86111111
+  },
+  "lake-lake-tasiujaq": {
+   "title": "Lake Tasiujaq",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 56.24944444,
+   "lon": -76.29416667
+  },
+  "lake-lac-la-loche": {
+   "title": "Lac La Loche",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 56.51666667,
+   "lon": -109.6
+  },
+  "lake-lac-la-plonge": {
+   "title": "Lac la Plonge",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 55.13333333,
+   "lon": -107.33333333
+  },
+  "lake-lake-chichancanab": {
+   "title": "Lake Chichancanab",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "lake-lake-evans": {
+   "title": "Lake Evans (Quebec)",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 50.90361111,
+   "lon": -76.96472222
+  },
+  "lake-lake-matapedia": {
+   "title": "Lake Matapedia",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.55,
+   "lon": -67.55
+  },
+  "lake-larder-lake": {
+   "title": "Larder Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.08527778,
+   "lon": -79.64222222
+  },
+  "lake-lower-campbell-lake": {
+   "title": "Lower Campbell Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 50.02175,
+   "lon": -125.46480556
+  },
+  "lake-mackay-lake": {
+   "title": "MacKay Lake (Northwest Territories)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 63.91666667,
+   "lon": -111.03333333
+  },
+  "lake-makwa-lake": {
+   "title": "Makwa Lake",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 54.0668,
+   "lon": -109.2507
+  },
+  "lake-ministikwan-lake": {
+   "title": "Ministikwan Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.0168,
+   "lon": -109.6508
+  },
+  "lake-molson-lake": {
+   "title": "Molson Lake (Manitoba)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.21666667,
+   "lon": -96.75
+  },
+  "lake-moose-lake-manitoba": {
+   "title": "Moose Lake (Manitoba)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 53.94,
+   "lon": -100.15
+  },
+  "lake-muriel-lake": {
+   "title": "Muriel Lake (Alberta)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 54.14611111,
+   "lon": -110.68916667
+  },
+  "lake-napaktulik-lake": {
+   "title": "Napaktulik Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 66.33333333,
+   "lon": -113
+  },
+  "lake-north-wabasca-lake": {
+   "title": "North Wabasca Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 56.0475,
+   "lon": -113.9275
+  },
+  "lake-obabika-lake": {
+   "title": "Obabika Lake (Northeastern Ontario)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 47.04361111,
+   "lon": -80.25444444
+  },
+  "lake-otter-lake": {
+   "title": "Otter Lake (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.58333333,
+   "lon": -104.66666667
+  },
+  "lake-owikeno-lake": {
+   "title": "Owikeno Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 51.68333333,
+   "lon": -126.91666667
+  },
+  "lake-oxford-lake": {
+   "title": "Oxford Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.85,
+   "lon": -95.58333333
+  },
+  "lake-pierce-lake": {
+   "title": "Pierce Lake (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 54.500091,
+   "lon": -109.700818
+  },
+  "lake-pinehouse-lake": {
+   "title": "Pinehouse Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.53333333,
+   "lon": -106.58333333
+  },
+  "lake-pinehurst-lake": {
+   "title": "Pinehurst Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.66305556,
+   "lon": -111.41722222
+  },
+  "lake-qamanirjuaq-lake": {
+   "title": "Qamanirjuaq Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.95,
+   "lon": -95.76666667
+  },
+  "lake-quiet-lake": {
+   "title": "Quiet Lake (Yukon)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 61.09361111,
+   "lon": -133.07580556
+  },
+  "lake-red-deer-lake": {
+   "title": "Red Deer Lake (Manitoba)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 52.95,
+   "lon": -101.36666667
+  },
+  "lake-red-sucker-lake": {
+   "title": "Red Sucker Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 54.14222222,
+   "lon": -93.67138889
+  },
+  "lake-sambaa-k-e": {
+   "title": "Sambaa K'e (lake)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.55,
+   "lon": -121.24
+  },
+  "lake-sandy-lake": {
+   "title": "Sandy Lake (Severn River)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.01666667,
+   "lon": -93.03333333
+  },
+  "lake-scott-lake": {
+   "title": "Scott Lake (Northwest Territories–Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.96666667,
+   "lon": -106.15
+  },
+  "lake-sturgeon-lake-ontario": {
+   "title": "Sturgeon Lake (Northwestern Ontario)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 49.97444444,
+   "lon": -90.76888889
+  },
+  "lake-utikuma-lake": {
+   "title": "Utikuma Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 55.83333333,
+   "lon": -115.41666667
+  },
+  "lake-weyakwin-lake": {
+   "title": "Weyakwin Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 54.5001,
+   "lon": -106.0005
+  },
+  "lake-willow-bunch-lake": {
+   "title": "Willow Bunch Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.4582,
+   "lon": -105.5901
+  },
+  "lake-winefred-lake": {
+   "title": "Winefred Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 55.49694444,
+   "lon": -110.53666667
+  },
+  "lake-wolf-lake": {
+   "title": "Wolf Lake (Yukon)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 60.65552778,
+   "lon": -131.679
+  },
+  "lake-zama-lake": {
+   "title": "Zama Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 58.75,
+   "lon": -119.08333333
+  },
+  "lake-gull-lake-alberta": {
+   "title": "Gull Lake (Alberta)",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 52.54166667,
+   "lon": -114.0075
+  },
+  "lake-eagle-lake-ontario": {
+   "title": "Eagle Lake (Ontario)",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 49.66888889,
+   "lon": -93.27888889
+  },
+  "lake-grand-lake-new-brunswick": {
+   "title": "Grand Lake (New Brunswick)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 45.93363889,
+   "lon": -66.03266667
+  },
+  "lake-sylvan-lake-alberta": {
+   "title": "Sylvan Lake (Alberta)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 52.35527778,
+   "lon": -114.15527778
+  },
+  "lake-grand-lake-newfoundland-and-labrador": {
+   "title": "Grand Lake (Newfoundland and Labrador)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 48.91194444,
+   "lon": -57.50138889
+  },
+  "lake-pelican-lake-manitoba": {
+   "title": "Pelican Lake (Manitoba)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.33583333,
+   "lon": -99.56361111
+  },
+  "lake-st-mary-reservoir": {
+   "title": "St. Mary Reservoir",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.32083333,
+   "lon": -113.21166667
+  },
+  "lake-whitefish-lake-ontario": {
+   "title": "Whitefish Lake (Thunder Bay District)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 48.218,
+   "lon": -90
+  },
+  "lake-cross-lake-manitoba": {
+   "title": "Cross Lake (Manitoba)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-black-lake-saskatchewan": {
+   "title": "Black Lake (Saskatchewan)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.2,
+   "lon": -105.25055556
+  },
+  "lake-garry-lake": {
+   "title": "Garry Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 65.88333333,
+   "lon": -99.85
+  },
+  "lake-beaver-lake-alberta": {
+   "title": "Beaver Lake (Alberta)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.70583333,
+   "lon": -111.81638889
   },
   "river-nile": {
    "title": "Nile",

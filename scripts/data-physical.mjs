@@ -527,7 +527,7 @@ Lake O'Hara|0.3
 Maligne Lake|20
 Abraham Lake|53.7
 Lake Diefenbaker|430
-Lake of Bays|118
+Lake of Bays|68.8
 Wollaston Lake|2681
 Cree Lake|1434
 Lac la Ronge|1413
@@ -842,7 +842,7 @@ Dillon Reservoir|13.08
 Blue Mesa Reservoir|37.15
 Lake McConaughy|144.47
 Lake Monona|13
-Beaver Lake|128.29
+Beaver Lake (Arkansas)|128.29
 Lake Mendota|39.4
 Lake Allatoona|48.6
 Lake Ray Hubbard|92.05
@@ -859,8 +859,8 @@ Chatuge Lake|28
 Sam Rayburn Reservoir|463.37
 Lewisville Lake|119.75
 Rainy Lake|932
-Sylvan Lake|0.07
-Grand Lake|2.05
+Sylvan Lake (South Dakota)|0.07
+Grand Lake (Colorado)|2.05
 Upper Klamath Lake|250
 Truman Reservoir|225.01
 Watauga Lake|26.02
@@ -933,7 +933,7 @@ Sevier Lake|487
 Weiss Lake|122.22
 Broken Bow Lake|56.66
 Carlyle Lake|105.22
-Gull Lake|40.25
+Gull Lake (Minnesota)|40.25
 Lake Lyndon B. Johnson|26.44
 Lake Moultrie|242.81
 Lake Winnibigoshish|228.53
@@ -977,7 +977,7 @@ Lake Bemidji|28
 Petenwell Lake|93.78
 Umbagog Lake|31.8
 Amistad Reservoir|262.64
-Eagle Lake|97
+Eagle Lake (California)|97
 Foss Reservoir|35.61
 Lake Chippewa|59.06
 Lake Corpus Christi|73.88
@@ -1046,7 +1046,7 @@ Tustumena Lake|295.42
 Waconda Lake|51
 Burntside Lake|28.89
 Cheney Reservoir|38.65
-Cross Lake|34.7
+Cross Lake (Louisiana)|34.7
 Fern Ridge Reservoir|37.88
 Ivanpah Lake|34
 Malheur Lake|201
@@ -1152,7 +1152,7 @@ Lake Wanapum|58.12
 R.E. "Bob" Woodruff Lake|51.8
 Silver Lake|42.29
 Tom Steed Reservoir|25.9
-Whitefish Lake|29.8
+Whitefish Lake (Minnesota)|29.8
 Baskahegan Lake|27.58
 Hop Brook Lake|42.48
 Imuruk Lake|68
@@ -1160,7 +1160,7 @@ Lake Herbert G. West|26.67
 Lake Latt|26.63
 Millinocket Lake|34.69
 Nerka Lake|193
-Pelican Lake|46.7
+Pelican Lake (Minnesota)|46.7
 Tazlina Lake|158
 Togiak Lake|39
 Ugashik Lakes|199.4
@@ -1258,6 +1258,262 @@ Crescent Lake|64.59
 Black Lake (Louisiana)|28
 Lake Arrowhead (Texas)|60.58
 Walker Lake (Alaska)|37
+Big Ass Lake|0.15
+Man Drowned Himself Lake|6.41
+Little Manitou Lake|15.24
+Bras d'Or Lake|1099
+Yathkyed Lake|1449
+Lake Rosseau|63.05
+Chilko Lake|184
+Angikuni Lake|510
+Rice Lake|91.56
+Clearwater Lakes|1383|Lac a l'Eau Claire,Wiyashakimi
+Cultus Lake|6.3
+Kalamalka Lake|25.7
+Columbia Lake|25.7
+Harrison Lake|218
+Lake Temiscouata|65
+Lake Joseph|51.73
+Manitou Lake|80
+Tagish Lake|354.48
+Buntzen Lake|1.82
+Lesser Slave Lake|1168
+Quesnel Lake|266
+Wabamun Lake|82
+Lake Couchiching|33.75
+Lake Scugog|68
+Last Mountain Lake|216.15
+Stony Lake|28
+Smallwood Reservoir|6527
+Lac Seul|1657
+Balsam Lake|48
+Chaplin Lake|171.41
+Pigeon Lake (Alberta)|96.7
+Lake Hazen|537.5
+Lake Timiskaming|304
+Sproat Lake|37.75
+Adams Lake|131.08
+Lake Wanapitei|132.57
+Pigeon Lake (Ontario)|53.44
+Bennett Lake|90.68
+Caniapiscau Reservoir|4318
+Lake Newell|66.4
+Lake of Two Mountains|150
+Mabel Lake|59.9
+Cold Lake|373
+Buffalo Lake|93.5
+Lac Ste. Anne|54.5
+Lake Saint-Louis|148
+Golden Lake|34.96
+Kamloops Lake|52
+McGregor Lake|51.4
+Turtle Lake|67.72
+Babine Lake|479
+Lake Saint Pierre|353
+Stave Lake|55
+Buttle Lake|28
+Slocan Lake|69.29
+Sumas Lake|40
+Baskatong Reservoir|413
+Christina Lake|25.49
+Cowichan Lake|62
+Gods Lake|1061
+Jackfish Lake|72.13
+Kawagama Lake|32
+Kennedy Lake|64.75
+Lake Abitibi|931
+Lake Claire|1436
+Moose Lake (Alberta)|40.8
+Old Wives Lake|312
+Buffalo Pound Lake|29.5
+Round Lake|29.78
+Stuart Lake|358
+Anderson Lake|28.6
+Beothuk Lake|185
+Big Trout Lake|645.6
+Bobs Lake|32.22
+Canim Lake|56.1
+Gander Lake|113.2
+Gouin Reservoir|1570
+Great Central Lake|50.85
+Lac de Gras|569
+Opeongo Lake|58
+Redberry Lake|51.69
+Robert-Bourassa Reservoir|2835
+Shoal Lake|323.75
+Teslin Lake|354
+Tobin Lake|261.95
+Waskesiu Lake|71.08
+Amadjuak Lake|3115
+Candle Lake|132.69
+Dog Lake|144.29
+Frank Lake|43.74
+Lake Kipawa|300
+Shellmouth Reservoir|61.5
+Baker Lake|1887
+Cedar Lake|1353
+Fishing Lake|36.79
+Good Spirit Lake|45.01
+Kakagi Lake|110.8
+Lac Sante|40
+Lac des Iles|53.74
+Lake Ainslie|57.4
+Lake Rossignol|180
+Murtle Lake|76.3
+Sturgeon Lake (Alberta)|49.1
+Lake Athapapuskow|269
+Besnard Lake|125
+Black Donald Lake|34.4
+Cabonga Reservoir|677
+Chip Lake|73
+Clearwater Lake|33.26
+Francois Lake|257.8
+Kabinakagami Lake|108
+Kathleen Lake|33.76
+Lac des Mille Lacs|245.1
+Lake Megantic|26.4
+Lake Revelstoke|101.25
+Lake St. Joseph|493
+Mahood Lake|33.11
+Nueltin Lake|2279
+Wabigoon Lake|105.22
+Azure Lake|30.5
+Beaverlodge Lake|49.7
+Ennadai Lake|681
+Island Lake|1223
+Kasba Lake|1341
+Lac La Biche|234
+Lac La Martre|1776
+Marsh Lake|96.3
+Nimpkish Lake|37
+Pakowki Lake|123
+Southern Indian Lake|2247
+Amisk Lake|453.08
+Beaverhill Lake|139
+Carpenter Lake|50
+Contwoyto Lake|957
+Crawling Valley Reservoir|25.1
+Dauphin Lake|521
+Kississing Lake|365.19
+Kusawa Lake|142
+Lac des Chats|77
+Lake Magpie|111
+Lobstick Lake|1500
+Moberly Lake|29.4
+Montreal Lake|464.57
+Oak Lake|39
+Peter Pond Lake|778
+Playgreen Lake|657
+Poisson-Blanc Lake|85
+Takla Lake|246
+Tatlayoko Lake|39.99
+Upper Campbell Lake|29.78
+Waterhen Lake|100.23
+Whitewater Lake|139.75
+Windigo Lake|81
+Agnew Lake|29.4
+Bistcho Lake|413
+Buck Lake|25.4
+Calling Lake|138
+Canoe Lake|192.6
+Charlotte Lake|65.96
+Churchill Lake|559
+Cooking Lake|36
+Cowan Lake|31.76
+Deer Lake|67.8
+Delaronde Lake|123.91
+Dore Lake|640
+Grand lac Saint Francois|51
+Gregoire Lake|25.8
+Hatchet Lake|132.8
+Hottah Lake|918
+Kejimikujik Lake|26.3
+Lac Ile-a-la-Crosse|467.38
+Lake Miguel Aleman|478
+Lake Yuriria|72
+Lenore Lake|74.74
+Marie Lake|34.6
+Pasqua Lake|31.1
+Primrose Lake|444
+Sullivan Lake|77.01
+Swan Lake|310
+Whitemouth Lake|68.5
+Aberdeen Lake|1100
+Aishihik Lake|146
+Artillery Lake|551
+Ashuanipi Lake|517
+Attawapiskat Lake|281
+Aylmer Lake|847
+Basin Lake|37.83
+Brightsand Lake|45.61
+Cardinal Lake|50
+Cheslatta Lake|35
+Chibougamau Lake|206
+Chitek Lake|33.28
+Codette Lake|46.16
+Cormorant Lake|1000
+Crean Lake|125.51
+Deschambault Lake|542
+Dezadeash Lake|82.5
+Dozois Reservoir|319
+Esnagami Lake|69
+Frances Lake|99.41
+Hanson Lake|43.99
+Horsefly Lake|58.68
+Jan Lake|115.67
+Kesagami Lake|207.8
+Kiamika Reservoir|42.48
+Kingsmere Lake|59.13
+Lake Bienville|1047
+Lake Tasiujaq|712
+Lac La Loche|206
+Lac la Plonge|257
+Lake Chichancanab|30
+Lake Evans|479
+Lake Matapedia|38
+Larder Lake|37.08
+Lower Campbell Lake|26.94
+MacKay Lake|1061
+Makwa Lake|31.86
+Ministikwan Lake|27.73
+Molson Lake|400
+Moose Lake (Manitoba)|1367
+Muriel Lake|64.1
+Napaktulik Lake|1080
+North Wabasca Lake|101.45
+Obabika Lake|32.26
+Otter Lake|60
+Owikeno Lake|94.5
+Oxford Lake|401
+Pierce Lake|25.99
+Pinehouse Lake|404
+Pinehurst Lake|40.7
+Qamanirjuaq Lake|549
+Quiet Lake|53.91
+Red Deer Lake|260
+Red Sucker Lake|150
+Sambaa K'e|504|Trout Lake
+Sandy Lake|507
+Scott Lake|372.23
+Sturgeon Lake (Ontario)|300
+Utikuma Lake|288
+Weyakwin Lake|75.82
+Willow Bunch Lake|32.88
+Winefred Lake|122.8
+Wolf Lake|73.12
+Zama Lake|55
+Gull Lake (Alberta)|80.6
+Eagle Lake (Ontario)|275
+Grand Lake (New Brunswick)|170.67
+Sylvan Lake (Alberta)|42.8
+Grand Lake (Newfoundland and Labrador)|543
+Pelican Lake (Manitoba)|27.8
+St. Mary Reservoir|37.5
+Whitefish Lake (Ontario)|30.3
+Cross Lake (Manitoba)|755
+Black Lake (Saskatchewan)|464
+Garry Lake|976
+Beaver Lake (Alberta)|33.1
 `;
 
 export const RIVERS = `
