@@ -368,6 +368,40 @@ test('"Mt" is "Mount" before anything else looks at the input (2026-09-16 audit)
   assert.strictEqual(matching.matchAnswer('Mt Vernan', cities, null).status, 'corrected');
 });
 
+test('an entry named exactly the typing minus its filler beats a loose holder of that form (2026-09-18 rivers audit)', () => {
+  // "George River" is the river called George (Quebec, 563 km), not St.
+  // George's (Maine), whose loose "george" drops a word the player never
+  // typed; "Smoky River" is Smoky, not Smoky Hill. Without such an entry the
+  // loose form resolves as before.
+  const rivers = matching.buildLookup([
+    { id: 'river-st-george', name: 'St. George', aliases: [], magnitude: 122 },
+    { id: 'river-george', name: 'George', aliases: [], magnitude: 335 },
+    { id: 'river-smoky-hill', name: 'Smoky Hill', aliases: [], magnitude: 731 },
+    { id: 'river-smoky', name: 'Smoky', aliases: [], magnitude: 244 },
+    { id: 'river-saint-charles', name: 'Saint Charles', aliases: [], magnitude: 60 }
+  ], { category: 'river' });
+  assert.strictEqual(matching.matchAnswer('George River', rivers, null).entryId, 'river-george');
+  assert.strictEqual(matching.matchAnswer('Smoky River', rivers, null).entryId, 'river-smoky');
+  assert.strictEqual(matching.matchAnswer('St. George River', rivers, null).entryId, 'river-st-george');
+  assert.strictEqual(matching.matchAnswer('Charles River', rivers, null).entryId, 'river-saint-charles');
+});
+
+test('"!" is punctuation and a Canadian province has a postal code (2026-09-18 rivers audit)', () => {
+  assert.strictEqual(matching.normalize('Ha! Ha! River'), 'ha ha river');
+  const rivers = matching.buildLookup([
+    { id: 'river-ha-ha', name: 'Ha Ha', aliases: [], magnitude: 1583 },
+    { id: 'river-clearwater-idaho', name: 'Clearwater', aliases: [], qualifier: 'Idaho', magnitude: 2000 },
+    { id: 'river-clearwater-british-columbia', name: 'Clearwater', aliases: [], qualifier: 'British Columbia', magnitude: 152 },
+    { id: 'river-churchill-river-labrador', name: 'Churchill River', aliases: [], qualifier: 'Labrador', magnitude: 609 }
+  ], { category: 'river' });
+  assert.strictEqual(matching.matchAnswer('Ha! Ha!', rivers, null).entryId, 'river-ha-ha');
+  // "Clearwater BC" was an unknown string the fuzzy pass corrected to Idaho's
+  assert.strictEqual(matching.matchAnswer('Clearwater BC', rivers, null).entryId, 'river-clearwater-british-columbia');
+  assert.strictEqual(matching.matchAnswer('Clearwater ID', rivers, null).entryId, 'river-clearwater-idaho');
+  assert.strictEqual(matching.matchAnswer('Churchill River NL', rivers, null).entryId, 'river-churchill-river-labrador');
+  assert.deepStrictEqual(matching.qualifiedKeys('Thames', 'Ontario'), ['thames ontario', 'thames on']);
+});
+
 test('an all-generic-word input has no edit budget of its own (2026-09-16 audit)', () => {
   const rivers = matching.buildLookup([
     { id: 'river-mole', name: 'Mole', aliases: ['River Mole'] },

@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T18:28:30.238Z",
+ "fetched": "2026-09-18T19:01:13.887Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -55010,7 +55010,7 @@
    "lat": 29.43749444,
    "lon": -99.18861944
   },
-  "river-au-sable": {
+  "river-au-sable-michigan": {
    "title": "Au Sable River (Michigan)",
    "monthlyViews": 2100,
    "days": 60,
@@ -66602,7 +66602,7 @@
    "lat": 21.939417,
    "lon": -105.350269
   },
-  "river-tula": {
+  "river-tula-hidalgo": {
    "title": "Tula River",
    "monthlyViews": 122,
    "days": 60,
@@ -66861,13 +66861,6 @@
    "lat": null,
    "lon": null
   },
-  "river-laja": {
-   "title": "Laja River (Mexico)",
-   "monthlyViews": 30,
-   "days": 57,
-   "lat": null,
-   "lon": null
-  },
   "river-mascota": {
    "title": "Mascota River",
    "monthlyViews": 30,
@@ -67085,13 +67078,6 @@
    "lat": 26.36527778,
    "lon": -98.85416667
   },
-  "river-blue-creek-belize": {
-   "title": "Blue Creek (Belize)",
-   "monthlyViews": 122,
-   "days": 60,
-   "lat": 17.9,
-   "lon": -88.9
-  },
   "river-salado-mexico": {
    "title": "Rio Salado (Mexico)",
    "monthlyViews": 122,
@@ -67133,13 +67119,6 @@
    "days": 59,
    "lat": null,
    "lon": null
-  },
-  "river-atoyac-guerrero": {
-   "title": "Atoyac River (Guerrero)",
-   "monthlyViews": 30,
-   "days": 55,
-   "lat": 17.94005366,
-   "lon": -102.13689902
   },
   "river-blanco-veracruz": {
    "title": "Blanco River (Veracruz)",
@@ -67337,7 +67316,7 @@
    "lat": 43.17861111,
    "lon": -79.2725
   },
-  "river-ausable": {
+  "river-ausable-ontario": {
    "title": "Ausable River (Lake Huron)",
    "monthlyViews": 244,
    "days": 60,
@@ -68870,13 +68849,6 @@
    "lat": 69.3,
    "lon": -119.31666667
   },
-  "river-trinite": {
-   "title": "Trinité River",
-   "monthlyViews": 30,
-   "days": 55,
-   "lat": 49.418167,
-   "lon": -67.302542
-  },
   "river-detour": {
    "title": "Detour River",
    "monthlyViews": 30,
@@ -69212,13 +69184,6 @@
    "days": 60,
    "lat": 55.08333333,
    "lon": -105.31722222
-  },
-  "river-mulligan": {
-   "title": "Mulligan River",
-   "monthlyViews": 30,
-   "days": 53,
-   "lat": -24.9625,
-   "lon": 138.58611111
   },
   "river-megiscane": {
    "title": "Mégiscane River",
@@ -69667,13 +69632,6 @@
    "days": 57,
    "lat": 49.96416667,
    "lon": -79.09166667
-  },
-  "river-weir": {
-   "title": "Weir River (Manitoba)",
-   "monthlyViews": 30,
-   "days": 54,
-   "lat": 56.90888889,
-   "lon": -93.3575
   },
   "river-west-kettle": {
    "title": "West Kettle River",

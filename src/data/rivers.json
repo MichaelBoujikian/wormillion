@@ -26696,7 +26696,8 @@
   "category": "river",
   "name": "Tuul",
   "aliases": [
-   "Tola River"
+   "Tola River",
+   "Tula"
   ],
   "size": 704,
   "sizeUnit": "length_km",
@@ -33555,13 +33556,17 @@
   "lon": -99.18861944
  },
  {
-  "id": "river-au-sable",
+  "id": "river-au-sable-michigan",
   "category": "river",
   "name": "Au Sable",
-  "aliases": [],
+  "aliases": [
+   "AuSable",
+   "AuSable River"
+  ],
   "size": 220,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Au Sable River (Michigan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Michigan",
   "magnitude": 2100,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Au Sable River (Michigan)"
@@ -56926,13 +56931,14 @@
   "lon": -105.350269
  },
  {
-  "id": "river-tula",
+  "id": "river-tula-hidalgo",
   "category": "river",
   "name": "Tula",
   "aliases": [],
   "size": 0,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Tula River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Hidalgo",
   "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Tula River",
@@ -57414,18 +57420,6 @@
   "wikiTitle": "Lacantún River"
  },
  {
-  "id": "river-laja",
-  "category": "river",
-  "name": "Laja",
-  "aliases": [],
-  "size": 0,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Laja River (Mexico)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Laja River (Mexico)"
- },
- {
   "id": "river-mascota",
   "category": "river",
   "name": "Mascota",
@@ -57836,21 +57830,6 @@
   "lon": -98.85416667
  },
  {
-  "id": "river-blue-creek-belize",
-  "category": "river",
-  "name": "Blue Creek",
-  "aliases": [],
-  "size": 87,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Blue Creek (Belize)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "qualifier": "Belize",
-  "magnitude": 122,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Blue Creek (Belize)",
-  "lat": 17.9,
-  "lon": -88.9
- },
- {
   "id": "river-salado-mexico",
   "category": "river",
   "name": "Salado",
@@ -57933,21 +57912,6 @@
   "magnitude": 61,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Salinas River (Guatemala)"
- },
- {
-  "id": "river-atoyac-guerrero",
-  "category": "river",
-  "name": "Atoyac",
-  "aliases": [],
-  "size": 0,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Atoyac River (Guerrero)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "qualifier": "Guerrero",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Atoyac River (Guerrero)",
-  "lat": 17.94005366,
-  "lon": -102.13689902
  },
  {
   "id": "river-blanco-veracruz",
@@ -58342,13 +58306,14 @@
   "lon": -79.2725
  },
  {
-  "id": "river-ausable",
+  "id": "river-ausable-ontario",
   "category": "river",
   "name": "Ausable",
   "aliases": [],
   "size": 240,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Ausable River (Lake Huron)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "Ontario",
   "magnitude": 244,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Ausable River (Lake Huron)",
@@ -59578,7 +59543,9 @@
   "id": "river-fond-du-lac",
   "category": "river",
   "name": "Fond du Lac",
-  "aliases": [],
+  "aliases": [
+   "Fond du Lac River"
+  ],
   "size": 277,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Fond du Lac River (Saskatchewan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -59719,7 +59686,9 @@
   "id": "river-mountain",
   "category": "river",
   "name": "Mountain",
-  "aliases": [],
+  "aliases": [
+   "Mountain River"
+  ],
   "size": 357,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Mountain River (Northwest Territories)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -60207,7 +60176,9 @@
   "id": "river-desert",
   "category": "river",
   "name": "Desert",
-  "aliases": [],
+  "aliases": [
+   "Desert River"
+  ],
   "size": 95,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Désert River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -60267,6 +60238,10 @@
   "size": 500,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Ekwan River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "sizeRange": [
+   500,
+   585
+  ],
   "magnitude": 61,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Ekwan River",
@@ -60672,6 +60647,10 @@
   "size": 451,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Peribonka River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "sizeRange": [
+   451,
+   547
+  ],
   "magnitude": 61,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Peribonka River",
@@ -60739,7 +60718,7 @@
   "category": "river",
   "name": "Raven",
   "aliases": [],
-  "size": 450,
+  "size": 95,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Raven River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 61,
@@ -61120,7 +61099,9 @@
   "id": "river-bay-du-nord",
   "category": "river",
   "name": "Bay du Nord",
-  "aliases": [],
+  "aliases": [
+   "Bay du Nord River"
+  ],
   "size": 80,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Bay du Nord River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -61407,20 +61388,6 @@
   "wikiTitle": "Croker River",
   "lat": 69.3,
   "lon": -119.31666667
- },
- {
-  "id": "river-trinite",
-  "category": "river",
-  "name": "Trinite",
-  "aliases": [],
-  "size": 82,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Trinité River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Trinité River",
-  "lat": 49.418167,
-  "lon": -67.302542
  },
  {
   "id": "river-detour",
@@ -62095,20 +62062,6 @@
   "wikiTitle": "Montreal River (Saskatchewan)",
   "lat": 55.08333333,
   "lon": -105.31722222
- },
- {
-  "id": "river-mulligan",
-  "category": "river",
-  "name": "Mulligan",
-  "aliases": [],
-  "size": 340,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Mulligan River\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mulligan River",
-  "lat": -24.9625,
-  "lon": 138.58611111
  },
  {
   "id": "river-megiscane",
@@ -63007,20 +62960,6 @@
   "lon": -79.09166667
  },
  {
-  "id": "river-weir",
-  "category": "river",
-  "name": "Weir",
-  "aliases": [],
-  "size": 263,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Weir River (Manitoba)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Weir River (Manitoba)",
-  "lat": 56.90888889,
-  "lon": -93.3575
- },
- {
   "id": "river-west-kettle",
   "category": "river",
   "name": "West Kettle",
@@ -63348,6 +63287,10 @@
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Beaver River (Canada)\", 60-day daily median (60 days ending 2026-09-18); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "qualifier": "Alberta",
+  "sizeRange": [
+   491,
+   689
+  ],
   "magnitude": 183,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Beaver River (Canada)",

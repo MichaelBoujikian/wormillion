@@ -36,7 +36,8 @@
       .replace(/[-–—‒]/g, ' ')
       // ...and so are parentheses: "Syracuse (Sicily)", "Syracuse, Sicily" and
       // "Syracuse Sicily" are one qualified name (decision 5, 2026-09-18)
-      .replace(/[.,'()]/g, '')
+      // ...and "!" and "?": the Ha! Ha! River is typed "Ha Ha" (the 2026-09-18 rivers audit)
+      .replace(/[.,'()!?]/g, '')
       .replace(/\s+/g, ' ')
       .trim()
       // "Mt Vernon" is "Mount Vernon" (2026-09-16 audit: a city named Mount X
@@ -101,12 +102,19 @@
     'new jersey': 'nj', 'new mexico': 'nm', 'new york': 'ny', 'north carolina': 'nc', 'north dakota': 'nd', ohio: 'oh',
     oklahoma: 'ok', oregon: 'or', pennsylvania: 'pa', 'rhode island': 'ri', 'south carolina': 'sc', 'south dakota': 'sd',
     tennessee: 'tn', texas: 'tx', utah: 'ut', vermont: 'vt', virginia: 'va', washington: 'wa', 'west virginia': 'wv',
-    wisconsin: 'wi', wyoming: 'wy'
+    wisconsin: 'wi', wyoming: 'wy',
+    // ...and the Canadian provinces and territories (the Mexico and Canada
+    // wave, 2026-09-18): without them "Clearwater BC" was an unknown string
+    // that the fuzzy pass "corrected" to Clearwater (Idaho), the most-viewed
+    // holder - the one river the player was ruling out. "Labrador" is NL too.
+    alberta: 'ab', 'british columbia': 'bc', manitoba: 'mb', 'new brunswick': 'nb', 'newfoundland and labrador': 'nl',
+    newfoundland: 'nl', labrador: 'nl', 'nova scotia': 'ns', 'northwest territories': 'nt', nunavut: 'nu', ontario: 'on',
+    'prince edward island': 'pe', quebec: 'qc', saskatchewan: 'sk', yukon: 'yt'
   };
   /**
    * The exact typed forms of a qualified name, normalized: "syracuse sicily"
    * (which "Syracuse, Sicily" and "Syracuse (Sicily)" normalize to as well)
-   * and, for a US state, "portland or".
+   * and, for a US state or a Canadian province, "portland or" / "thames on".
    */
   function qualifiedKeys(name, qualifier) {
     const q = normalize(qualifier);
@@ -409,10 +417,23 @@
     // Filler is optional in both directions: "Everest" finds "Mount Everest"
     // through the loose index, and "Mount Denali" finds "Denali" by dropping
     // the filler the player added and trying the exact names again.
+    // An entry whose exact NAME is the typing minus the filler comes before
+    // a loose holder of that form: "George River" is the river called George,
+    // not St. George's (whose loose "george" drops a word the player never
+    // typed); "Smoky River" is Smoky, not Smoky Hill (the 2026-09-18 rivers
+    // audit found eight such shadows). Without such an entry the loose form
+    // resolves as before.
     if ((!options || options.loose !== false) && !foreign) {
       const bare = looseKey(key);
+      // ...the cohort's own words only: "St. George River" still names St.
+      // George, the "St" being the player's
+      const own = lookup.category
+        ? key.split(' ').filter((w) => !(WORD_CATEGORY[w] && WORD_CATEGORY[w].includes(lookup.category))).join(' ')
+        : bare;
       const loose =
-        (lookup.loose && (lookup.loose.get(key) || lookup.loose.get(bare))) ||
+        (lookup.loose && lookup.loose.get(key)) ||
+        (own && own !== key && lookup.get(own)) ||
+        (lookup.loose && lookup.loose.get(bare)) ||
         (bare && bare !== key && lookup.get(bare));
       if (loose) return settle(loose, 'accepted', { matched: key });
     }

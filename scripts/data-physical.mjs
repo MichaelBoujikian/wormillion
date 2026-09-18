@@ -3042,7 +3042,7 @@ Nura|978
 Angara|1779
 Selenga|1024
 Orkhon|1124
-Tuul|704|Tola River
+Tuul|704|Tola River,Tula
 Kherlen|1264|Kerulen
 Onon|818
 Shilka|560
@@ -3514,7 +3514,7 @@ Wolf|169
 Youghiogheny|216
 Tallahatchie|138
 Frio|377
-Au Sable|220
+Au Sable (Michigan)|220|AuSable,AuSable River
 Buffalo Bayou|85
 Little Bighorn|222
 Catawba|350
@@ -5170,7 +5170,7 @@ Santa Catarina|158
 Jamapa|368
 Necaxa|0
 San Pedro Mezquital|540
-Tula|0
+Tula (Hidalgo)|0
 Bavispe|371
 Casas Grandes|0
 San Bernardino|0
@@ -5207,7 +5207,6 @@ Ixcan|0
 Jatate|0
 Juchipila|0
 Lacantun|0
-Laja|0
 Mascota|0
 Mixteco|175
 Nautla|0
@@ -5239,14 +5238,12 @@ Tuxpan|150
 Urique|0
 Uspanapa|0
 San Juan (Tamaulipas)|0
-Blue Creek (Belize)|87
 Salado (Mexico)|264
 Atoyac (Oaxaca)|0
 Verde (Jalisco)|0
 Verde (Oaxaca)|342
 Sacramento (Mexico)|65
 Salinas (Guatemala)|113
-Atoyac (Guerrero)|0
 Blanco (Veracruz)|0
 Escondido (Coahuila)|150
 Verde (San Luis Potosi)|0
@@ -5275,7 +5272,7 @@ Kennebecasis|95
 Mississagi|266
 Moira|98
 Twelve Mile Creek|0
-Ausable|240
+Ausable (Ontario)|240
 Bonnechere|145
 Highwood|180
 Holland|0
@@ -5363,7 +5360,7 @@ Deadman|95
 Dease|265
 Duncan|206
 Firebag|170
-Fond du Lac|277
+Fond du Lac|277|Fond du Lac River
 Gods|325
 Grass|599
 Horton|618
@@ -5373,7 +5370,7 @@ Little Red Deer|315
 Little Saskatchewan|185
 Magpie (Ontario)|160
 Mistassini|298
-Mountain|357
+Mountain|357|Mountain River
 Muskwa|257
 Musquodoboit|97
 Nastapoka|402
@@ -5408,11 +5405,11 @@ Cheslatta|83
 Chinchaga|500
 Christina|270
 Cochrane|250
-Desert|95
+Desert|95|Desert River
 Dog|90
 Dungarvon|82
 Eagle Creek|189
-Ekwan|500
+Ekwan|500-585
 Fort Nelson|517
 Frederick House|100
 Granby|105
@@ -5441,12 +5438,12 @@ Nipissing|85
 North Nahanni|200
 Omineca|220
 Ouareau|84
-Peribonka|451
+Peribonka|451-547
 Pipestone|300
 Pouce Coupe|150
 Prophet|250
 Ram|120
-Raven|450
+Raven|95
 Rimouski|119
 Saint-Jean|240
 Sainte-Anne (Beaupre)|97
@@ -5473,7 +5470,7 @@ Asiak|102
 Aubinadong|100
 Riviere aux Sables|85|River aux Sables
 Batchawana|95
-Bay du Nord|80
+Bay du Nord|80|Bay du Nord River
 Bell|230
 Bloody|165
 Bonnet Plume|350
@@ -5494,7 +5491,6 @@ Chutine|95
 Cree|150
 Croche|161
 Croker|100
-Trinite|82
 Detour|80
 Du Chef|156
 Echoing|255
@@ -5543,7 +5539,6 @@ Minago|132
 Mingan|117
 Misinchinka|106
 Montreal (Saskatchewan)|100
-Mulligan|340
 Megiscane|250
 Metabetchouane|169
 Nakina|110
@@ -5608,7 +5603,6 @@ Wabasca|480
 Waswanipi|139
 Waterhen|140
 Wawagosic|205
-Weir|263
 West Kettle|110
 Wetetnagami|88
 Whale|400
@@ -5631,7 +5625,7 @@ Sixteen Mile Creek (Ontario)|0
 Smoky|492
 Sturgeon (Alberta)|260
 Clearwater (Saskatchewan)|295
-Beaver (Alberta)|491
+Beaver (Alberta)|491-689
 Clearwater (Alberta)|205
 Seine (Manitoba)|150
 Severn (Ontario)|982

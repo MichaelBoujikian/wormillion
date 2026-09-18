@@ -413,7 +413,8 @@ The design (accepted 2026-09-17, built 2026-09-18; SPEC 3.7 "Namesakes", 4,
   on a round no holder fits, wrong-scope on the most-viewed with its
   qualifier ("Syracuse (New York) isn't in Africa").
 - Exact qualified forms: "Name Qualifier" / "Name, Qualifier" /
-  "Name (Qualifier)" and the US postal code ("Portland ME") — exact only,
+  "Name (Qualifier)" and the US state / Canadian province postal code
+  ("Portland ME", "Thames ON") — exact only,
   never fuzzy candidates; a hit through one reports the bare name as
   `matched` (a length rule measures "sale", not "sale greater manchester").
 - A loose form several *names* share resolves to the list too ("Geneva" →
@@ -620,10 +621,10 @@ npm test && npm run gap-check        # then commit
 | `size` 0 | "no sourced figure anywhere"; answers no size prompt either way | `satisfiesSize`, `promptBank.js`; SPEC 4 |
 | fuzzy edit budget | 0 edits for a stripped name of ≤4 letters, 1 for 5–7, 2 for 8–11, 3 beyond; +1 for a ≥4-letter name typed with a generic word the entry also carries; a whole-string hit beats a stripped-form hit; ties refused; a typed plural of a generic-word name refused outright | `slackFor`, `nearest`, `matching.js` |
 | matching filler words | mount, mt, mountain, peak, hill, lake, loch, lough, llyn, reservoir, lago, lac, lagoa, laguna, etang, river, rio, fiume, fleuve, fluss, riviere, rivier, sea, ocean, gulf, bay, island(s), isle(s), atoll, desert, the, of, city, saint, st, cape — each belonging to a category (`WORD_CATEGORY`); the loose pass drops only the cohort's own words or nobody's | `FILLER`, `WORD_CATEGORY`, `matching.js` |
-| letter-rule filler | the matching set minus loch/lough/llyn/saint/st/cape/rio and the foreign generic words (letters where they are the name), **plus, for rivers only, creek/fork/branch/run/brook/kill/wash/slough/draw** (bayou and arroyo lead the name like rio) | `LETTER_FILLER`, `LETTER_ONLY_FILLER`, `promptBank.js` |
+| letter-rule filler | the matching set minus loch/lough/llyn/saint/st/cape/rio/bay/gulf and the foreign generic words (letters where they are the name), **plus, for rivers only, creek/fork/branch/run/brook/kill/wash/slough/draw** (bayou and arroyo lead the name like rio) | `LETTER_FILLER`, `LETTER_ONLY_FILLER`, `promptBank.js` |
 | letter-rule miss text | names the word that didn't count: "Bear Creek has no double letter (Creek doesn't count)" | `letterMissText`, `promptBank.js`; wired in `ui.js` |
 | namesake fame guard | 3× the monthly views: a qualified city reached by its bare name yields to a capital, country or island of that exact name with 3× the views of the name's best holder in the city cohort, on every round but a region round the famous one does not carry | `NAMESAKE_FAME_RATIO`, `CONFUSABLE`, `famousElsewhere()`, `run.js` |
-| namesake pick | the round's subset lookup holds only the namesakes in scope; several → the most-viewed not yet used; exact forms "Name Qualifier" / "Name, Qualifier" / "Name (Qualifier)" / "Name XX" (US state code), exact only | `buildLookup` (lists, `bareOf`), `qualifiedKeys`, `US_STATE_CODES`, `matching.js` |
+| namesake pick | the round's subset lookup holds only the namesakes in scope; several → the most-viewed not yet used; exact forms "Name Qualifier" / "Name, Qualifier" / "Name (Qualifier)" / "Name XX" (US state or Canadian province code), exact only; an entry named exactly the typing minus the cohort's own word beats a loose holder ("George River" is George, not St. George) | `buildLookup` (lists, `bareOf`), `qualifiedKeys`, `US_STATE_CODES`, `matching.js` |
 | loose-form alias fame | 3×: an alias-holder that famous joins and leads a loose form's list of names ("Cook" → Aoraki before Mount Cook (Canada)) | `LOOSE_ALIAS_FAME_RATIO`, `resolveLoose()`, `matching.js` |
 | dig below the jackpot bar | `rarity × 70` | `DIG_SCALE`, `rarity.js` |
 | jackpot bar | rarity ≥ 0.85 | `JACKPOT_RARITY`, `rarity.js` |

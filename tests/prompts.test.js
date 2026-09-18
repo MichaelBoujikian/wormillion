@@ -493,6 +493,12 @@ test('a foreign generic word is the name for letter rules: Laguna Colorada start
   const superior = { category: 'lake', name: 'Lake Superior', aliases: [] };
   superior.variants = promptBank.variantsOf(superior);
   assert.ok(!promptBank.satisfiesLetter(superior, { kind: 'starts', letter: 'l' }));
+  // ...but a sea word inside a river's name is the name: the Bay du Nord
+  // River starts with B (the 2026-09-18 rivers audit had it starting with D)
+  const nord = { category: 'river', name: 'Bay du Nord', aliases: [] };
+  nord.variants = promptBank.variantsOf(nord);
+  assert.ok(promptBank.satisfiesLetter(nord, { kind: 'starts', letter: 'b' }));
+  assert.ok(!promptBank.satisfiesLetter(nord, { kind: 'starts', letter: 'd' }));
 });
 
 test('a size range counts for either end: the Amur is 2,824 km or 4,444 km', () => {

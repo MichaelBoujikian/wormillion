@@ -1,0 +1,42 @@
+{
+  "name": "mx-ca-lakes",
+  "category": "lake",
+  "jsonFile": "lakes.json",
+  "roots": [
+    "Category:Lakes of Mexico",
+    "Category:Reservoirs in Mexico",
+    "Category:Lakes of Canada by province or territory",
+    "Category:Reservoirs in Canada",
+    "Category:Artificial lakes of Canada",
+    "Category:Endorheic lakes of Canada",
+    "Category:Glacial lakes of Canada",
+    "Category:Saline lakes of Canada",
+    "Category:Oxbow lakes of Canada"
+  ],
+  "subcat": "^Category:(Lakes of|Reservoirs in|Reservoirs of|Endorheic Lake of) (?!Canada$)(?!Mexico$)(?!.*(stubs|Lake groups))",
+  "lists": [
+    "List of lakes of Mexico",
+    "List of lakes of Canada",
+    "List of dams and reservoirs in Canada",
+    "List of lakes of Alberta",
+    "List of lakes of British Columbia",
+    "List of lakes of Manitoba",
+    "List of lakes of Newfoundland and Labrador",
+    "List of lakes of the Northwest Territories",
+    "List of lakes of Nova Scotia",
+    "List of lakes of Nunavut",
+    "List of lakes of Ontario",
+    "List of lakes of Prince Edward Island",
+    "List of lakes of Quebec",
+    "List of lakes of Saskatchewan",
+    "List of lakes of Yukon"
+  ],
+  "kind": "(lake|reservoir|lagoon|pond|impoundment|body of water|^Lake |^Lac |^Lago |^Laguna |lac\\b|lago\\b|laguna\\b)",
+  "skipTitle": "(^List of|^Lists of|^Lakes of|^Reservoirs|^Geography of|Dam$|Park$|Wildlife|Refuge$|Township|County$|District$|Recreation Area$|Preserve$|Forest$|Trail$|Marina$|Beach$|Provincial Park$|National Park$|Conservation Area$|Generating Station$|Hydroelectric|Power Station$|Lake Erie$|Lake Huron$|Lake Ontario$|Lake Superior$|Lake Michigan$)",
+  "notKind": "^(river|stream|creek|dam|park|home rule city|city|town|village|municipality|county|township|district|neighborhood|neighbourhood|census-designated|archipelago|glacier|island|mountain|valley|canyon|bay|sound|strait|fjord|inlet|estuary|marsh|swamp|bog|wetland|spring|waterfall|falls|beach|ski|resort|census|unincorporated|hamlet|community|region|subdivision|lakes? of|list|former|combined|body of water and area|roadstead|pluvial|prehistoric|proglacial|paleo|palaeo|reserve|provincial park|national park|indian reserve|first nation|ghost town|locality|settlement|human settlement|populated place|generating|hydroelectric|power)|glacial period|last ice age|former lake|pluvial lake|combined lake|glacial lake$|proglacial lake|ice-dammed",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "minSize": 25,
+  "famousViews": 1000,
+  "spellings": "lake"
+}
