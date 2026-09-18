@@ -2,7 +2,7 @@
 
 You are auditing rows recently added to the content bank of Wormillion, a
 geography game (repo: `C:\Users\smite\repos\wormillion`; `HANDOFF.md` explains
-the game, `README.md` "Where the logic lives" the code). The lead session
+the game, `HANDOFF.md` "Where the logic lives" the code). The lead session
 folded the rows with `scripts/expansion/fold.mjs` and ran the pipeline; your
 job is to find what is *wrong* with them before players do. **You do not edit
 any repo file.** You write one Markdown report, and you write it as you go.
@@ -39,7 +39,7 @@ scratchpad); the lead copies it into `scripts/expansion/reports/`.
 2. **Right figure.** `size` against the article's infobox (and Wikidata as a
    second opinion). Flag any row whose figure would put it on the wrong side
    of a size prompt's threshold (`SIZE_RULES` in `src/js/promptBank.js`:
-   rivers 1,000/3,000 km, lakes 100/1,000/10,000 km², mountains 4,000/6,000 m…)
+   the thresholds are `SIZE_RULES` in `src/js/promptBank.js` — rivers 500/1,000/3,000/5,000 km, lakes 100/1,000/10,000/30,000 km², mountains 1,000/3,000/5,000/8,000 m, islands 100/10,000/100,000 km²…)
    — those matter; a 10% wobble that crosses nothing does not.
 3. **Right name.** The bank name is what people type (Wikipedia's title
    without its parenthetical, bare of the generic word where the bank is
@@ -96,6 +96,6 @@ Scope · evidence standard · scripts used (keep them beside the report).
 ## Not reached (if cut off)
 ```
 
-Sonnet is the default model for these; the user names Opus when they want it.
+Audits run on Opus (the user's standing decision, 2026-09-15): data + gameplay in parallel, up to three agents at once, each writing its report as it goes; ~250–440k tokens each.
 Two hundred thousand tokens is a normal budget; do not spend them re-deriving
 what `HANDOFF.md` already says.

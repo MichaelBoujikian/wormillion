@@ -8,7 +8,7 @@
  * The first argument is a slot (JSON, or just a category); the rest are typed
  * answers. Slot shapes: {category}, {category, region}, {category, theme},
  * {category, ocean}, {category, flag:{colours:[...]}}, {category, size:{op,value}},
- * {category, letter:{kind,letter}}. Each answer is judged fresh (no duplicate
+ * {category, letter:{kind,letter}} (the letter lowercase). Each answer is judged fresh (no duplicate
  * rule between them). --ref=<git-ref> judges with the engine and bank at that ref.
  */
 import { loadStack, judgeFor, outcome } from './stack.mjs';

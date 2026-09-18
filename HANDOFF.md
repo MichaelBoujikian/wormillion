@@ -12,8 +12,8 @@ Written 2026-09-16 at the end of the **United States wave** of the
 country-by-country scouring (9,300 → 12,008 places), carried through the
 **Europe wave** (Western Europe plus Scandinavia & the Nordics, 20 countries,
 every category; → 14,914), the decision-1 re-runs and a whole-bank pre-merge
-audit (→ 14,901), and last rewritten **2026-09-18 ~02:30 UTC, right after
-the release**: both waves are live on GitHub Pages and Netlify (tag
+audit (→ 14,901), and last rewritten **2026-09-18, right after the release** (git's
+clock: release push 01:25 UTC, HANDOFF commits 01:46 and after): both waves are live on GitHub Pages and Netlify (tag
 `v1.3-europe-wave` = `main`), verified. The next work goes on branch
 **`expansion-2`** (cut from `main` at the release; never push to `main`
 except as a release — every push there deploys Pages and costs a Netlify
@@ -21,7 +21,8 @@ build).
 
 ## Start here (the next session, in order)
 
-1. `git checkout expansion-2` (it is `main` + this file's release edits).
+1. `git checkout expansion-2` (it is `main` + this file + the four audit
+   tools `stack.mjs`, `try.mjs`, `jackpot-share.mjs`, `draw-diff.mjs`).
    `npm test` → 193, `npm run validate` → 14,901, `npm run gap-check` clean.
    Read "Where things stand", then "Same-name places: the design".
 2. **Build decision 5** — the same-name-places design below, accepted by the
@@ -31,8 +32,24 @@ build).
    the fold tools (`chunk.mjs` keeps the qualifier, `fold.mjs` and the
    validator allow qualified namesakes, themes key by id). Sequence: engine +
    tests + SPEC §3.7/§4/§13 → fold the backlog from the three waves' "taken"
-   lists (`scripts/expansion/work/*.report.txt`, `*.out`) with qualifiers
-   from their Wikipedia titles, one resolver window for views → an Opus
+   lists with qualifiers. **The backlog lives only on this machine**:
+   `scripts/expansion/work/` (the probe outputs `us-*.report.txt`,
+   `<probe>.out`, `<probe>.json` with views and sizes, the chunk files, the
+   caches `wikitext-cache.json` 37 MB and `titles-cache.json`) and
+   `scripts/.cache/` are gitignored; on another clone the taken lists must be
+   regenerated with `probe.mjs` (hours per probe, one resolver at a time).
+   The committed reports name the headline name-taken places, not the full
+   lists. The taken lists need a hand pass — not every "taken" is a namesake:
+   drop the district / borough doubles (City of X, X Municipality), the
+   cross-cohort holders (Hagen → Mount Hagen: rule 5 territory), filler-word
+   collisions (St. George / George), alias and transliteration collisions
+   (Canton / Guangzhou, Odessa / Odesa), suffix collisions (Carson / Carson
+   City); `chunk.mjs --include-taken` emits the taken rows. Then qualifiers
+   from their Wikipedia titles, one resolver window for views (a *resolver
+   window* = a time when no other Wikipedia-fetching script is running:
+   `probe.mjs`, `article-size.mjs`, `fetch-pageviews.mjs`, `wp-check.mjs`
+   and `auto-titles.mjs` must never overlap, or the running one is
+   throttled) → an Opus
    gameplay audit (≤3 agents, the audit brief in `scripts/expansion/AUDIT-BRIEF.md`).
 3. **Then Mexico and Canada**, rivers first (the order and the recipes are
    below; `probes/*.json` from the Europe wave are the templates; the
@@ -83,10 +100,12 @@ Standing decisions from the user, all still in force:
 3. **Floors: keep them low, capture a lot, decide on the spot and report the
    choice**; a later wave lowers every floor. The US floors are the
    starting point (below).
-4. **Name-taken places stay out** (a bare name held by another entry: Portland
-   ME, Green River KY, Prince of Wales Island AK…). No comma-form or
-   parenthetical names. A bare name that belongs to a far more famous place
-   *not* in the bank is also not free (Athens GA, Edinburg TX, Dublin CA).
+4. **Name-taken places stay out — until decision 5 lands** (then namesakes
+   come in with a qualifier; see "Same-name places: the design"). Until
+   then: a bare name held by another entry (Portland ME, Green River KY,
+   Prince of Wales Island AK…) stays out, no comma-form or parenthetical
+   names, and a bare name that belongs to a far more famous place *not* in
+   the bank is also not free (Athens GA, Edinburg TX, Dublin CA).
 5. **Audits on Opus**, data + gameplay in parallel per chunk or two, up to
    three agents at once, each writing its report as it goes.
 6. (2026-09-16) `reservoir` is a matching filler word; creek / fork / branch
@@ -111,10 +130,10 @@ validate` 14,901 · `npm run gap-check` 812 pins, every one lands. `bank.js`
 
 | category | US wave end | now | Europe floor | wave reports (`scripts/expansion/reports/`) |
 |---|---|---|---|---|
-| rivers | 3,192 | 3,707 | 60 km (50 in Britain/Ireland) or 1,000+ views; ≥ 30 views/mo | `2026-09-16-{uk,de,fr,it-es,nordic}-rivers.md` + audits |
-| lakes | 1,160 | 1,234 | 25 km² or 1,000+ views; ≥ 61 views | `2026-09-17-europe-lakes.md` + `-lakes-mountains-*-audit` |
-| mountains | 1,984 | 2,630 | 122 views/mo, lists only | `2026-09-17-europe-mountains.md` |
-| islands | 1,655 | 2,393 | 1 km² or 1,000+ views, or unsized at 122+; ≥ 91 views; **380 rows `size` 0** | `2026-09-17-europe-islands.md` + `-islands-data-audit` |
+| rivers | 3,192 | 3,703 | 60 km (50 in Britain/Ireland) or 1,000+ views; ≥ 30 views/mo | `2026-09-16-{uk,de,fr,it-es,nordic}-rivers.md` + audits |
+| lakes | 1,160 | 1,232 | 25 km² or 1,000+ views; ≥ 61 views | `2026-09-17-europe-lakes.md` + `-lakes-mountains-*-audit` |
+| mountains | 1,984 | 2,625 | 122 views/mo, lists only | `2026-09-17-europe-mountains.md` |
+| islands | 1,655 | 2,391 | 1 km² or 1,000+ views, or unsized at 122+; ≥ 91 views; **379 rows `size` 0** | `2026-09-17-europe-islands.md` + `-islands-data-audit` |
 | seas | 259 | 571 | unsized at 183+ views, in effect **213** after the audit; **288 rows `size` 0** | `2026-09-17-europe-seas-deserts-cities.md` + `-seas-cities-data-audit` |
 | deserts | 130 | 137 | — (7 unsized) | same |
 | cities | 3,180 | 3,798 | 50,000 population (Wikidata P1082) | same + `-islands-seas-cities-gameplay-audit` |
@@ -148,9 +167,13 @@ changes dig #6's round 3 on this branch).
    Diomedes, the Outer Banks, the Blaskets, the Skelligs, the Frisian chains
    are out by the groups rule; players know them as groups.
 4. **The desert cohort's jackpot share is 8%** (11 of 137) — the one cohort
-   outside the 1.6–4% band; a look before Asia's and Africa's deserts arrive.
+   above 4% (the wave-fed physical cohorts sit at mountain 1.4 / sea 1.9 /
+   river 2.0 / island 2.6 / lake 3.4%, city 0.8%; country 14% and capital
+   5% are the small fixed cohorts whose line sits high by construction and
+   are outside the band on purpose); a look before Asia's and Africa's
+   deserts arrive.
 5. **Size 0 and "smaller than" prompts**: unknown is neither small nor large
-   today; 380 islands and 288 seas refuse every size prompt. The alternative
+   today; 379 islands and 288 seas refuse every size prompt. The alternative
    (unknown counts as small) is a one-line change in `satisfiesSize`.
 
 ## The release, as audited (pre-merge audit of 2026-09-17, three Opus auditors + skeptics)
@@ -187,14 +210,16 @@ What they established, and what was fixed on the spot (the commit after `6a93088
 
 1. Pick the moment. The daily draw depends on the bank and the Netlify
    function computes the comparison from *its* bank, so **Pages and Netlify
-   must switch together**. Dig #6 (09-17) and #7 (09-18) draw identically on
-   both banks; **dig #8 (2026-09-19) differs from round 4 on**, then 09-20
-   r14, 09-23 r9, 09-24 r9, 10-02 r10, 10-09 r3–14, 10-20, 10-21, 10-28,
-   10-30, 11-01. Safe windows: **before 2026-09-18 10:00 UTC** (no timezone
-   has reached #8); else 2026-09-21 12:00 → 09-22 10:00 UTC; else 09-25
-   12:00 → 10-01 10:00 UTC. Outside a window a Pages player mid-dig sees the
-   new draw and the server (or the other host) rejects it with 409
-   `draw-mismatch` for the rest of that day; the block simply hides.
+   must switch together**, inside a stretch of days that draw identically on
+   both. Run `node scripts/expansion/draw-diff.mjs main` at release time and
+   pick a window from its output: a window ends when the first timezone
+   (UTC+14) reaches a day that differs, and opens once the last (UTC−12)
+   has left the previous one. Worked example, the 2026-09-18 release: digs
+   #6 and #7 drew identically, **#8 (09-19) differed from round 4 on**, so
+   the window was "before 2026-09-18 10:00 UTC", else 09-21 12:00 → 09-22
+   10:00 UTC. Outside a window a Pages player mid-dig sees the new draw and
+   the server (or the other host) rejects it with 409 `draw-mismatch` for
+   the rest of that day; the block simply hides.
 2. Check the Netlify setting (Site configuration → Build & deploy →
    Continuous deployment → Build settings → Build status): *Stopped builds*
    → push, then Activate builds, then Trigger deploy once; *Locked deploys*
@@ -245,15 +270,38 @@ different sizes, countries and regions.
    data is symmetric and nothing is special-cased by hand. Wikipedia already
    supplies the qualifier — it is the comma / parenthetical part
    `chunk.mjs` strips today (`bankName()`); keep it as the column instead.
+   **Ids: the incumbent keeps its id** (`city-syracuse` stays; the newcomer
+   is `city-syracuse-sicily`) — the qualifier column is symmetric, the ids
+   are not, so nothing keyed by id (`WIKI_TITLES`, `WIKI_VERIFIED`,
+   `OCEAN_OVERRIDES`, `pageviews.json`, `themes.js` once it keys by id)
+   needs a migration. An incumbent whose Wikipedia title is bare (Boston,
+   Birmingham, Manchester, York) takes its qualifier from its own data: the
+   state for a US city, the country otherwise; physical rows by hand at
+   fold time. **The 23 existing parenthetical names** (`Derwent
+   (Derbyshire)`, `Stour (Kent)`, `Krka (Croatia)`, `Grand (Ontario)`, `Black
+   Desert (Egypt)`, `Green Island (Taiwan)`…) migrate in the same step: the
+   parenthetical becomes the qualifier where it is a place, an alias where it
+   is an alternate name (`Scamander (Karamenderes)`), and the display name
+   goes bare in every case — today five of them (`Krka`, `Scamander`, the
+   Black / White / Red Deserts) cannot be typed bare at all, and "Derwent
+   (Derbyshire)" counts as a 17-letter name.
 2. **Matching.** The lookup maps a key to a *list* of entries instead of one
    id. When a typed name resolves to several in the cohort: take the ones
    that satisfy the current prompt; if exactly one, that is the answer; if
    several (a plain "Name a city"), the **most-viewed** one — the
    conservative score, no free jackpot from ambiguity; if none, wrong-scope
-   on the most famous, and the message names the alternative ("Syracuse,
-   New York isn't in Europe — for the Sicilian one type Syracuse Sicily").
-   Typing the qualifier ("Syracuse Sicily", "Portland Maine", "Portland,
-   OR") is an exact hit on that one.
+   on the most famous, and the message names it with its qualifier
+   ("Syracuse (New York) isn't in Africa"). So a bare "Syracuse" on "Name
+   a city in Europe" is **accepted silently** as the Sicilian one — that is
+   the point of the design — and the refusal text only appears on a round
+   no namesake fits. Typing the qualifier is an exact hit on that one; the
+   generated exact forms are "Name Qualifier", "Name, Qualifier" and "Name
+   (Qualifier)" (normalize folds the punctuation anyway), plus the
+   two-letter US state code for US states ("Portland OR", "Portland, ME") —
+   nothing else, no abbreviations of countries. **The fuzzy pass** dedupes
+   winners by *key*, not by id: a typo of a shared bare name lands on that
+   key's candidate set and the scope pick above follows; a tie between
+   *different* keys stays a refused tie (SPEC §3.7 unchanged).
 3. **Duplicates.** `usedAnswers` stays by id, so a second "Syracuse" in a run
    resolves to the *other* Syracuse if it fits the round, else it is the
    usual duplicate.
@@ -265,12 +313,22 @@ different sizes, countries and regions.
    bare typing keeps today's nudge ("Athens is a capital") and the in-cohort
    namesake needs its qualifier. Without it, "Athens" on a plain city round
    would quietly score a 127,000-person Georgia town for a player who meant
-   Greece.
+   Greece. The guard is a named constant (`NAMESAKE_FAME_RATIO = 5` in
+   `run.js`) compared on `magnitude` (monthly views) between the cohort's
+   namesake and the most-viewed exact holder elsewhere. The Athens GA /
+   Dublin CA class is admitted *with* its qualifier under this rule (the bare
+   typing keeps its nudge to the capital); the "famous place not in the bank
+   at all" case (Botany Bay, Kent vs Sydney's) stays out under standing
+   decision 4 until the famous one is in.
 6. **Validator / SPEC §4.** Duplicate bare names are legal only when every
    holder has a distinct qualifier (a bare name has at most one unqualified
    holder — none, once the namesakes are folded). `themes.js` keys members by
    name today and must key by id or by "Name (Qualifier)" — a small tooling
    change (`add-theme.mjs`, `drop.mjs`, `fold.mjs`, `build-data.mjs`).
+
+**Scope of the backlog:** every cohort, not cities only — the three waves'
+taken lists cover rivers, lakes, mountains, islands, seas and cities; the
+floors are the ones their waves used (see "Every knob"), no new floor.
 
 **What it costs.** Engine: `matching.buildLookup` / `matchAnswer` return
 candidate sets; `run.js` does the scope pick and the messages; the UI shows
@@ -332,7 +390,8 @@ kept as written so the reasoning survives.
    ME, Birmingham AL, Cambridge MA, Worcester, Toledo OH…) — need a name
    policy (Wikipedia's parenthetical, reachable only by the fuzzy pass).
    Europe will add the mirror image (a British Cambridge is *in*; a Boston,
-   Lincolnshire is not). Recommend: not this wave.
+   Lincolnshire is not). Recommend: not this wave. **Superseded 2026-09-17 —
+   see "Same-name places: the design".**
 6. **"Great Lakes"** typed on a lake round is corrected to Great Lake
    (Tasmania). Recommend an engine guard: never correct a plural onto a
    singular namesake.
@@ -521,7 +580,8 @@ kept as written so the reasoning survives.
   one view a day were automatic jackpots (share 3.9% → 8.2% → 3.6%).
   **Views floors per cohort: rivers 30, lakes 61** — never at the cohort
   minimum. Report `reports/2026-09-17-europe-lakes.md`. Lakes done: cohort
-  1,234 (was 1,157). `article-size.mjs` reads decimal commas now.
+  1,234 (was 1,157: 1,160 at the US wave's end minus the three wrong-article
+  lakes Xiloá, Ypoá and San Pablo). `article-size.mjs` reads decimal commas now.
 - **Mountains** (lists only, views floor 122 as for the US): `uk-mountains`
   325 (`8671bb6`; Scotland +69, England or Wales +176 by description),
   `de-mountains` 171 (`83e4346`; **the Alps theme 89 → 242** by
@@ -616,11 +676,12 @@ kept as written so the reasoning survives.
   ("Muenchen", "Moehne") do not match the ASCII-folded names; recommend
   aliases at fold time for umlaut names rather than a `normalize` rule (see
   the de-rivers report).
-- **Probe configs written for every remaining category** (`probes/*-lakes`,
-  `*-mountains`, `*-islands` for uk / de / fr / it-es / nordic); seas,
-  deserts and cities still to write. `probe.mjs` records the list pages each
-  item came from and `chunk.mjs` maps a list to a country (`listCountry` in
-  the config), so one cities probe can span countries.
+- **Probe configs exist for every category of the wave** (`probes/*-rivers`,
+  `*-lakes`, `*-mountains`, `*-islands` for uk / de / fr / it-es / nordic;
+  `eu-seas`, `eu-deserts`, `eu-cities`) — the templates for the next wave.
+  `probe.mjs` records the list pages each item came from and `chunk.mjs`
+  maps a list to a country (`listCountry` in the config), so one cities
+  probe can span countries.
 
 ---
 
@@ -800,7 +861,7 @@ background. The Bash tool caps at 600 s.
   the Illinois one; Current, McKenzie, Rainy, Brandywine, Lake Crescent,
   Jackson Lake, Bear Mountain (a *list* article), Dauphin Island (a bridge),
   San Francisco Bay (the Bay Bridge), St. Simons, Humber (Ontario's, themed
-  as England's — still open). Re-point with `fix-titles.mjs`.
+  as England's — fixed `9813fd5`). Re-point with `fix-titles.mjs`.
 - **The `fuzzy` list is the payoff**: every row there fixes a wrong
   acceptance (Sheyenne → Cheyenne, Biscayne Bay → Bay of Biscay, Greenville →
   Grenville). But adding a row also *pre-empts* corrections: Weiser blocks
@@ -861,9 +922,8 @@ background. The Bash tool caps at 600 s.
 - The ~180 non-US straits and gulfs in `work/us-seas.json` (Danish Straits,
   Cabot, Tablas, Ombai, Kara, Foxe Basin, Gulf of Fonseca, Peter the Great
   Gulf…) — many with figures; each belongs to a later wave.
-- `river-humber` scores on Humber River (Ontario) while themed as England's.
-- **Docs that lag the bank:** `README.md` says "1,719 places"; SPEC §6's
-  count table is at v1.1 numbers; `dist/wormillion.html` is the pre-expansion
+- **Docs that lag the bank:** SPEC §6's count table is a v1.1 snapshot by its
+  own heading (§13 carries the current counts); `dist/wormillion.html` is the pre-expansion
   bundle (`npm run bundle`).
 - **Nobody has played the 12,000-place bank for feel.** Three `?debug` runs
   and a note of what felt off would be worth an hour.
@@ -1158,7 +1218,8 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
   then repaint `#prompt-text` from `run.prompt().text`. Slot shapes:
   `{category}`, `{category, region}`, `{category, theme}`, `{category, ocean}`,
   `{category, flag:{colours:[…]}}`, `{category, size:{op,value}}`,
-  `{category, letter:{kind,letter}}`.
+  `{category, letter:{kind,letter}}` — the letter lowercase (an uppercase
+  letter silently matches nothing).
 - **Known ≥85% answers for the jackpot (the 14,900 bank, 2026-09-17):**
   Micronesia (100%) / Antigua and Barbuda for country; South Tarawa /
   Monaco-Ville for capital; Bel Air South / Musanze for city; Karpa Island /
@@ -1209,9 +1270,10 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
   "Lake Tahoe" ends in E); bayou and arroyo lead the name like rio. A miss
   says which word didn't count — the user asked for that hint.
 - **Entries are named as the world names them.** No bank-invented
-  disambiguators; real names that carry a generic word stay. A parenthetical
-  in a name (`Krka (Croatia)`, `Tana River (Kenya)`) is only there when
-  Wikipedia's own title has it and the bare name is taken in the cohort.
+  disambiguators; real names that carry a generic word stay. The 23
+  parenthetical names still in the bank (`Krka (Croatia)`, `Tana River
+  (Kenya)`…) are a legacy of the 2026-09-14 fill — decision 5 turns the
+  parenthetical into the `qualifier` column and bares the name.
 - **One real place, one row.** The same river under two names, a lake and
   "its" reservoir, a peak and its twin on one article — merge into aliases of
   the surviving entry. Two rows sharing a `wikiTitle` in one cohort is a bug
@@ -1256,10 +1318,10 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
 ## Open threads and judgment calls (none urgent)
 
 - **130 US cities whose name is held by another place** (Portland ME,
-  Birmingham AL, Cambridge MA, Toledo OH…) — decision 5. **55 Colombian
-  rivers** have no length figure anywhere; **652 US bays, ~1,100 US islands,
-  10 US deserts** have no area — decision 1. **Sweden's 164 lakes under 30
-  km²** were left out on purpose.
+  Birmingham AL, Cambridge MA, Toledo OH…) — decision 5, designed, the next
+  job. **55 Colombian rivers** have no length figure anywhere (they can come
+  in with `size` 0 now, like the US bays did). **Sweden's 164 lakes under 30
+  km²** were re-probed at 25 km² in the Europe wave.
 - **"Isle of White"** lands on New Zealand's White Island through the loose
   pass; **"Rock Island"** on Palau's Rock Islands; **"St. George, Utah"** is
   accepted as George, South Africa because `st` is filler. Each fixable with
@@ -1301,22 +1363,24 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
 - Prompts should be specific and get harder — keep extending. The *question
   itself* must carry any rule that matters, not a badge beside it.
 - Answers people obviously reach for must be accepted — `gap-check` is the
-  guard (338 answers); add to its list with every chunk, and use
+  guard (812 answers); add to its list with every chunk, and use
   `scripts/expansion/` to add places, not hand edits.
 - Spelling should autocorrect and show the real spelling — done and liked;
   today's guard changes were explained to them and approved.
 - Achievement should feel good and failure should sting a little (the 0%
   overlay was their idea, gross on purpose).
-- They want to find the answers and the logic in the code — the tables above
-  and README's "Where the logic lives".
+- They want to find the answers and the logic in the code — the "Where the
+  logic lives" table above and README's "How it's put together".
 - **Working style:** they read summaries closely and decide fast. Present open
   decisions as a numbered list with a recommendation each; they answer all in
   one message; then do the whole batch and say at the end whether anything
   needs a second prompt. **Floors: decide on the spot and tell them which.**
   They will step away for hours during probes; carry on to a committed state
-  and leave a status message they can read on return. Commit each change separately. Pushes to `main` are
-  allowed without asking (but see "Raise this first"). Sub-agents are welcome
-  when they earn their keep; they'll say which model.
+  and leave a status message they can read on return. Commit each change
+  separately. **A push to `main` is a release — ask, and follow the release
+  procedure; work goes on the phase branch.** Sub-agents are welcome when
+  they earn their keep; they'll say which model (Opus for audits, up to
+  three at once).
 - **They watch their usage limit** and have hit it mid-session before. Keep
   work in small committed steps, checkpoint before long jobs, and say plainly
   after a cut-off what was kept and what was lost. They will step away during
