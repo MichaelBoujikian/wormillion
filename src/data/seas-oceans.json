@@ -9935,8 +9935,7 @@
   "category": "sea_ocean",
   "name": "St. Lawrence Estuary",
   "aliases": [
-   "Estuary of St. Lawrence",
-   "Gulf of St. Lawrence Estuary"
+   "Estuary of St. Lawrence"
   ],
   "size": 0,
   "sizeUnit": "area_km2",
@@ -10104,7 +10103,7 @@
   "category": "sea_ocean",
   "name": "Bay of Campeche",
   "aliases": [],
-  "size": 0,
+  "size": 143700,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Bay of Campeche\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
   "magnitude": 1035,
@@ -10438,13 +10437,14 @@
   ]
  },
  {
-  "id": "sea_ocean-victoria-harbour",
+  "id": "sea_ocean-victoria-harbour-british-columbia",
   "category": "sea_ocean",
   "name": "Victoria Harbour",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Victoria Harbour (British Columbia)\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "qualifier": "British Columbia",
   "magnitude": 639,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Victoria Harbour (British Columbia)",
@@ -10555,7 +10555,7 @@
   "lat": 65.93055556,
   "lon": -77.91944444,
   "oceans": [
-   "Atlantic"
+   "Arctic"
   ]
  },
  {
@@ -10663,7 +10663,7 @@
   "category": "sea_ocean",
   "name": "Hamilton Harbour",
   "aliases": [],
-  "size": 500,
+  "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Hamilton Harbour\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
   "magnitude": 457,
@@ -11280,23 +11280,6 @@
   ]
  },
  {
-  "id": "sea_ocean-laguna-de-terminos",
-  "category": "sea_ocean",
-  "name": "Laguna de Terminos",
-  "aliases": [],
-  "size": 7061.48,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Laguna de Términos\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
-  "magnitude": 244,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Laguna de Términos",
-  "lat": 18.61666667,
-  "lon": -91.55,
-  "oceans": [
-   "Atlantic"
-  ]
- },
- {
   "id": "sea_ocean-milne-inlet",
   "category": "sea_ocean",
   "name": "Milne Inlet",
@@ -11413,7 +11396,7 @@
   "lat": 65,
   "lon": -80,
   "oceans": [
-   "Atlantic"
+   "Arctic"
   ]
  },
  {
@@ -11564,6 +11547,74 @@
   "wikiTitle": "The Narrows, St. John's",
   "lat": 47.56583333,
   "lon": -52.68416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bellot-strait",
+  "category": "sea_ocean",
+  "name": "Bellot Strait",
+  "aliases": [
+   "Bellot"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bellot Strait\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bellot Strait",
+  "lat": 72,
+  "lon": -94.75,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kempenfelt-bay",
+  "category": "sea_ocean",
+  "name": "Kempenfelt Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kempenfelt Bay\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kempenfelt Bay",
+  "lat": 44.38571,
+  "lon": -79.61449,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-st-john-bay",
+  "category": "sea_ocean",
+  "name": "St. John Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St. John Bay\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. John Bay",
+  "lat": 50.88833333,
+  "lon": -57.10944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-voisey-s-bay",
+  "category": "sea_ocean",
+  "name": "Voisey's Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Voisey's Bay\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Voisey's Bay",
+  "lat": 56.25361111,
+  "lon": -61.85833333,
   "oceans": [
    "Atlantic"
   ]

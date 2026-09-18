@@ -2081,7 +2081,7 @@ globalThis.WORMILLION_THEMES = {
       'Clayoquot Sound', 'Nantucket Sound', 'Seymour Narrows', 'Indian Arm', 'Norton Sound',
       'Conception Bay', 'Johnstone Strait', 'Nares Strait', 'Cabot Strait', 'Chaleur Bay',
       'Lancaster Sound', 'English Bay', 'Minas Basin', 'Gaspe Bay', 'St. Margarets Bay',
-      'Active Pass', 'Victoria Harbour', 'Baie des Ha! Ha! (Cote-Nord)', 'Baie des Ha! Ha! (Saguenay)', 'Queen Charlotte Sound',
+      'Active Pass', 'Victoria Harbour (British Columbia)', 'Baie des Ha! Ha! (Cote-Nord)', 'Baie des Ha! Ha! (Saguenay)', 'Queen Charlotte Sound',
       'Placentia Bay', 'Strait of Canso', 'Foxe Basin', 'Mahone Bay', 'Princess Louisa Inlet',
       'Queen Maud Gulf', 'Barkley Sound', 'Bute Inlet', 'Discovery Passage', 'Hamilton Harbour',
       'Bedford Basin', 'Resolute Bay', 'Victoria Strait', 'Jervis Inlet', 'Malpeque Bay',
@@ -2091,11 +2091,13 @@ globalThis.WORMILLION_THEMES = {
       'Alberni Inlet', 'Bonavista Bay', 'Bonne Bay', 'Chetumal Bay', 'Coronation Gulf',
       'Croker Bay', 'Cumberland Sound', 'Departure Bay', 'Knight Inlet', 'Pachena Bay',
       'Prince of Wales Strait', 'San Ignacio Lagoon', 'St. Georges Bay (Nova Scotia)', 'St. Marys Bay (Nova Scotia)', 'Batchawana Bay',
-      'Fortune Bay', 'Laguna de Terminos', 'Milne Inlet', 'Saanich Inlet', 'San Josef Bay',
+      'Fortune Bay', 'Milne Inlet', 'Saanich Inlet', 'San Josef Bay',
       'Smith Sound', "St. George's Bay (Newfoundland and Labrador)", 'Cobequid Bay', 'Foxe Channel', 'Notre Dame Bay',
       'Peel Sound', 'Quatsino Sound', 'Shirleys Bay', "St. Mary's Bay (Newfoundland and Labrador)",
       // 2026-09-18 Mexico and Canada seas, namesakes
-      'North Channel (Ontario)', 'Thunder Bay (Ontario)', 'Trinity Bay (Newfoundland and Labrador)', "The Narrows (St. John's)"
+      'North Channel (Ontario)', 'Thunder Bay (Ontario)', 'Trinity Bay (Newfoundland and Labrador)', "The Narrows (St. John's)",
+      // 2026-09-18 Mexico and Canada seas, the audit's four
+      'Bellot Strait', 'Kempenfelt Bay', 'St. John Bay', "Voisey's Bay"
       
     ],
     'the Antarctic': [

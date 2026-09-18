@@ -7839,13 +7839,12 @@ export const WIKI_TITLES = {
   "sea_ocean-english-bay": "English Bay, Vancouver",
   "sea_ocean-gaspe-bay": "Gaspé Bay",
   "sea_ocean-st-margarets-bay": "St. Margarets Bay, Nova Scotia",
-  "sea_ocean-victoria-harbour": "Victoria Harbour (British Columbia)",
+  "sea_ocean-victoria-harbour-british-columbia": "Victoria Harbour (British Columbia)",
   "sea_ocean-baie-des-ha-ha-cote-nord": "Baie des Ha! Ha! (Côte-Nord)",
   "sea_ocean-baie-des-ha-ha-saguenay": "Baie des Ha! Ha! (Saguenay River)",
   "sea_ocean-queen-charlotte-sound": "Queen Charlotte Sound (Canada)",
   "sea_ocean-st-georges-bay-nova-scotia": "St. Georges Bay (Nova Scotia)",
   "sea_ocean-st-marys-bay-nova-scotia": "St. Marys Bay, Nova Scotia",
-  "sea_ocean-laguna-de-terminos": "Laguna de Términos",
   "sea_ocean-st-george-s-bay-newfoundland-and-labrador": "St. George's Bay (Newfoundland and Labrador)",
   "sea_ocean-st-mary-s-bay-newfoundland-and-labrador": "St. Mary's Bay, Newfoundland and Labrador",
 
@@ -8528,5 +8527,8 @@ export const WIKI_VERIFIED = new Set([
   "island-isle-of-man-ontario",
   "island-bear-island-new-brunswick",
   // --- 2026-09-18 Mexico and Canada seas: Victoria Harbour is the harbour (a port by description) ---
-  "sea_ocean-victoria-harbour"
+  "sea_ocean-victoria-harbour-british-columbia",
+  // --- 2026-09-18 seas audit: two Newfoundland and Labrador bays without a short description ---
+  "sea_ocean-st-john-bay",
+  "sea_ocean-voisey-s-bay"
 ]);

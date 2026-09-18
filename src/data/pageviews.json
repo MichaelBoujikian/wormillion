@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T22:08:39.486Z",
+ "fetched": "2026-09-18T22:18:34.296Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -117772,7 +117772,7 @@
    "lat": 48.85972222,
    "lon": -123.31194444
   },
-  "sea_ocean-victoria-harbour": {
+  "sea_ocean-victoria-harbour-british-columbia": {
    "title": "Victoria Harbour (British Columbia)",
    "monthlyViews": 639,
    "days": 60,
@@ -118122,13 +118122,6 @@
    "lat": 47.25,
    "lon": -55.49916667
   },
-  "sea_ocean-laguna-de-terminos": {
-   "title": "Laguna de Términos",
-   "monthlyViews": 244,
-   "days": 60,
-   "lat": 18.61666667,
-   "lon": -91.55
-  },
   "sea_ocean-milne-inlet": {
    "title": "Milne Inlet",
    "monthlyViews": 244,
@@ -118240,6 +118233,34 @@
    "days": 60,
    "lat": 47.56583333,
    "lon": -52.68416667
+  },
+  "sea_ocean-bellot-strait": {
+   "title": "Bellot Strait",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 72,
+   "lon": -94.75
+  },
+  "sea_ocean-kempenfelt-bay": {
+   "title": "Kempenfelt Bay",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 44.38571,
+   "lon": -79.61449
+  },
+  "sea_ocean-st-john-bay": {
+   "title": "St. John Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 50.88833333,
+   "lon": -57.10944444
+  },
+  "sea_ocean-voisey-s-bay": {
+   "title": "Voisey's Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 56.25361111,
+   "lon": -61.85833333
   }
  }
 }

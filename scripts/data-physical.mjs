@@ -12321,7 +12321,7 @@ Nootka Sound|0
 Burrard Inlet|0
 Terror Bay|0
 Howe Sound|0
-St. Lawrence Estuary|0|Estuary of St. Lawrence,Gulf of St. Lawrence Estuary
+St. Lawrence Estuary|0|Estuary of St. Lawrence
 Northumberland Strait|0
 Hecate Strait|0
 Magdalena Bay|0
@@ -12331,7 +12331,7 @@ Strait of Belle Isle|0
 Bay of Quinte|0
 Charleston Harbor|0
 Desolation Sound|0
-Bay of Campeche|0
+Bay of Campeche|143700
 Skookumchuck Narrows|0
 Toronto Harbour|0
 Ungava Bay|50000
@@ -12351,7 +12351,7 @@ Minas Basin|0
 Gaspe Bay|0
 St. Margarets Bay|0
 Active Pass|0
-Victoria Harbour|0
+Victoria Harbour (British Columbia)|0
 Baie des Ha! Ha! (Cote-Nord)|0
 Baie des Ha! Ha! (Saguenay)|0
 Queen Charlotte Sound|0
@@ -12364,7 +12364,7 @@ Queen Maud Gulf|0
 Barkley Sound|0
 Bute Inlet|0
 Discovery Passage|0
-Hamilton Harbour|500
+Hamilton Harbour|0
 Bedford Basin|0
 Resolute Bay|0
 Victoria Strait|0
@@ -12401,7 +12401,6 @@ St. Georges Bay (Nova Scotia)|0
 St. Marys Bay (Nova Scotia)|0
 Batchawana Bay|0
 Fortune Bay|0
-Laguna de Terminos|7061.48
 Milne Inlet|882
 Saanich Inlet|67
 San Josef Bay|0
@@ -12418,4 +12417,8 @@ North Channel (Ontario)|0
 Thunder Bay (Ontario)|0
 Trinity Bay (Newfoundland and Labrador)|2994
 The Narrows (St. John's)|0
+Bellot Strait|0|Bellot
+Kempenfelt Bay|0
+St. John Bay|0
+Voisey's Bay|0
 `;

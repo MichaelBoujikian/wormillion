@@ -119,6 +119,14 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- the 2026-09-18 seas audit: Foxe Basin and Channel are Arctic like every island in them; Bellot Strait (Northwest Passage), Kempenfelt Bay (Lake Simcoe), two Newfoundland bays placed by hand ---
+  'sea_ocean-foxe-basin': ['Arctic'],
+  'sea_ocean-foxe-channel': ['Arctic'],
+  'sea_ocean-bellot-strait': ['Arctic'],
+  'sea_ocean-kempenfelt-bay': [],
+  'sea_ocean-st-john-bay': ['Atlantic'],
+  'sea_ocean-voisey-s-bay': ['Atlantic'],
+
   // --- Lake Huron's North Channel and Lake Superior's Thunder Bay are in no ocean (2026-09-18) ---
   'sea_ocean-north-channel-ontario': [],
   'sea_ocean-thunder-bay-ontario': [],
