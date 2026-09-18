@@ -18,32 +18,22 @@ rest.
 
 # Start here (the next session, in order)
 
-1. `git checkout expansion-2` (it is `main` + decision 5 + this file).
-   `npm test` → 205, `npm run validate` → 15,429, `npm run gap-check` clean.
-   Read "The job", "Where things stand", then "The loop".
-2. **Sweep Mexico and Canada**, rivers first, one country × category per
-   probe, one commit per chunk, the taken list folded after each chunk
-   (decision 5), an Opus audit round per cohort or two. The recipes and
-   floors are below; `scripts/expansion/probes/*.json` from the Europe wave
-   are the templates (`nordic-rivers.json` is a clean multi-country one).
-   **Status 2026-09-18 (paused mid-session, the user out of tokens):**
-   Mexico rivers are folded and committed (`90aca7c`, report
-   `reports/2026-09-18-mx-rivers.md`; +73 rivers, +18 namesakes; new tool
-   flag `article-size.mjs --sister=es` reads eswiki's infobox for what
-   enwiki/Wikidata leave unsized; `noFigureViews: 30` admitted unsized
-   Mexican rivers at `size` 0). **The Canada rivers probe
-   (`probes/ca-rivers.json`, floor 80 km) was stopped during its resolve
-   stage** after the tree (92 categories, 2,797 pages) and 15 lists (3,851
-   candidates) — re-run the same command and it resumes from
-   `work/ca-rivers-cache.json`. Then `article-size.mjs work/ca-rivers.json
-   --no-figure --sister=fr` (Quebec's stubs are frwiki-fed), the probe
-   again, `chunk --tag=ca --themes="North America" --min-views=30`, the
-   hand-clean (Quebec "Rivière X" titles: keep the whole name; the
-   `PROVINCES` set in `chunk.mjs` already trusts the provinces as
-   qualifiers), the fold, then `--taken-only --tag=ns-ca`. Neither
-   `noFigureViews` nor an audit round has been decided for Canada yet; the
-   Mexico chunk has not been audited either — the first audit round should
-   cover Mexico + Canada rivers together.
+1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
+   Canada wave + this file). `npm test` → 209, `npm run validate` → 16,891,
+   `npm run gap-check` clean. Read "The job", "Where things stand", then
+   "The loop".
+2. **Sweep Eastern Europe** (the Mexico and Canada wave is done and
+   audited: `reports/2026-09-18-mx-ca-wave.md`), rivers first, one probe per
+   category across the 21 countries, one commit per chunk, the taken list
+   folded after each chunk (decision 5), an Opus audit round per cohort or
+   two — and, the user's standing instruction (2026-09-18), **move on to the
+   next area without asking** once a wave is folded, audited and its numbers
+   checked. `probes/ee-rivers.json` is written (60 km floor, `famousViews`
+   1000; the 21 country trees and lists); the sister-wiki field names for
+   ro / pl / cs / sk / hu / bg / uk / ru / sr / hr / sl / el / lt / lv / et
+   are in `article-size.mjs` (`--sister=ro` for Romania's 1,940 stubs). The
+   Mexico and Canada probes (`probes/mx-*.json`, `ca-*.json`, `mx-ca-*.json`)
+   are the freshest templates.
 3. Release only when the user says so, by "The release procedure" below —
    a push to `main` deploys GitHub Pages and builds Netlify; it is never a
    routine push.
@@ -58,7 +48,7 @@ country by country, **every category per country**, "as many places as we
 can", in this order:
 
 > **United States ✓ → Western Europe + Scandinavia/Nordics ✓ → Mexico and
-> Canada → Eastern Europe → East Asia → West and Central Asia → South
+> Canada ✓ → Eastern Europe → East Asia → West and Central Asia → South
 > America → Central America → North Africa → South Asia → the rest of
 > Africa → islands.**
 
@@ -108,7 +98,7 @@ Standing decisions from the user, all in force:
    anywhere" and is legal in every cohort (such a row answers no size
    prompt).
 
-## Mexico and Canada, what to expect
+## Mexico and Canada (done 2026-09-18; kept as the shape of a wave)
 
 - Both are region `North America` in `scripts/data-countries.mjs` (Mexico
   also alias CDMX for its capital). Themes the new rows must join: rivers
@@ -141,7 +131,7 @@ Standing decisions from the user, all in force:
 
 # Where things stand
 
-**On `expansion-2` (HEAD `64e2aeb`+, 14 commits past `main`; Mexico rivers folded 2026-09-18, bank 15,520, tests 205):**
+**On `expansion-2` (HEAD `3840e01`+, 29 commits past `main`; the Mexico and Canada wave folded and audited 2026-09-18, bank 16,891, tests 209; `reports/2026-09-18-mx-ca-wave.md`):**
 decision 5 built and folded — engine, validator, tools, 526 namesake rows
 across every cohort, 250 incumbents qualified, an Opus audit round (data /
 gameplay / regression + skeptics) applied. `npm test` 205 · `npm run
@@ -158,13 +148,13 @@ serve** since the 2026-09-18 01:25 UTC release (verified both hosts; see
 
 | cohort | now | floors in force (size; views/mo) | notes |
 |---|---|---|---|
-| rivers | 3,904 | 80 km US / 60 km Europe / 50 km Britain & Ireland, or 1,000+ views; **≥ 30 views** | 3 with `size` 0 |
-| lakes | 1,246 | 25 km² or 1,000+ views; **≥ 61 views** | |
-| mountains | 2,713 | lists only, no elevation floor; **≥ 122 views** | jackpot 1.4% |
-| islands | 2,494 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | ~390 with `size` 0 |
-| seas | 576 | unsized at **≥ 213 views** | ~290 with `size` 0 |
-| deserts | 137 | — | jackpot 8% (the one physical cohort above the band) |
-| cities | 3,915 | 50,000 population (Wikidata P1082); no views floor | jackpot 0.8% |
+| rivers | 4,414 | 80 km US & Canada / 60 km Europe & Mexico / 50 km Britain & Ireland, or 1,000+ views; **≥ 30 views**; unsized at 30+ (Mexico) / 122+ (Canada) | ~120 with `size` 0 |
+| lakes | 1,501 | 25 km² or 1,000+ views; **≥ 61 views** | |
+| mountains | 2,871 | lists only, no elevation floor; **≥ 122 views** | jackpot 1.3% |
+| islands | 2,783 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | ~520 with `size` 0 |
+| seas | 682 | unsized at **≥ 213 views** | ~370 with `size` 0 |
+| deserts | 140 | — | jackpot 7.9% (the one physical cohort above the band) |
+| cities | 4,056 | 50,000 population (Wikidata P1082); **≥ 91 views** (since 2026-09-18) | jackpot 1.3% |
 | countries / capitals | 197 / 247 | fixed | capitals include the 50 US state capitals |
 
 The views floors sit just above each cohort's flat bottom (the median of 60
