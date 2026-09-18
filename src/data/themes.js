@@ -1020,12 +1020,12 @@ globalThis.WORMILLION_THEMES = {
       'Mount Massive', 'Mount Harvard', 'Blanca Peak', 'La Plata Peak', 'Uncompahgre Peak',
       'Grays Peak', 'Torreys Peak', 'Quandary Peak', 'Mount Blue Sky', 'Maroon Bells',
       'Mount of the Holy Cross', 'Mount Sneffels', 'Wilson Peak', 'Mount Princeton', 'Mount Yale',
-      'Capitol Peak', 'Pyramid Peak', 'Crestone Peak', 'Gannett Peak', 'Cloud Peak',
+      'Capitol Peak', 'Pyramid Peak (Colorado)', 'Crestone Peak', 'Gannett Peak', 'Cloud Peak',
       'Wind River Peak', 'Granite Peak', 'Borah Peak', 'Kings Peak', 'Mount Timpanogos',
-      'Wheeler Peak', 'Sandia Crest', 'Truchas Peak', 'Mount Columbia', 'Mount Assiniboine',
-      'Mount Temple', 'Mount Rundle', 'Cascade Mountain', 'Sulphur Mountain', 'Mount Norquay',
+      'Wheeler Peak (New Mexico)', 'Sandia Crest', 'Truchas Peak', 'Mount Columbia', 'Mount Assiniboine',
+      'Mount Temple', 'Mount Rundle', 'Cascade Mountain (Alberta)', 'Sulphur Mountain', 'Mount Norquay',
       'Mount Edith Cavell', 'Mount Athabasca', 'Castle Mountain', 'Mount Lefroy', 'Mount Forbes',
-      'Mount Alberta', 'Snow Dome', 'Chief Mountain', 'Mount Cleveland',
+      'Mount Alberta', 'Snow Dome', 'Chief Mountain', 'Mount Cleveland (Montana)',
       // range-tag.mjs from the infobox range field
       'Cheyenne Mountain', 'Triple Divide Peak', 'Mount Bierstadt', 'Crested Butte', 'Dotsero',
       'Mount Moran', 'Mount Sopris', 'Medicine Bow Peak', 'Mount Sherman', 'Lone Mountain',
@@ -1059,15 +1059,20 @@ globalThis.WORMILLION_THEMES = {
       'Laramie Peak', 'Hahns Peak', 'Mount Sheridan', 'Storm King Mountain', 'Roaring Mountain',
       'Naomi Peak',
       // add-theme.mjs
-      'Spanish Peaks', 'Heart Mountain'],
+      'Spanish Peaks', 'Heart Mountain',
+      // 2026-09-18 namesakes, decision 5
+      'Ben Lomond Mountain', 'Lookout Mountain (Colorado)', 'Mount Nebo (Utah)', 'Baldy Mountain (New Mexico)', 'Mount Olympus (Utah)',
+      'Castle Peak (Colorado)', 'Mount Wilson (Colorado)', 'Table Mountain (Wyoming)', 'Mount Zion (Colorado)', 'Signal Mountain (Wyoming)',
+      'Wetterhorn Peak', 'Bear Peak (Colorado)', 'Matterhorn Peak (Colorado)', 'Mount Ida (Colorado)', 'Mount Jefferson (Idaho)',
+      'El Capitan (Montana)', 'Mount Jackson (Montana)'],
     'Scotland': [
       'Ben Nevis', 'Ben Macdui', 'Braeriach', 'Cairn Gorm', 'Schiehallion',
       'Ben Lomond', 'Goat Fell', 'Arthurs Seat',
       // 2026-09-14 expansion
-      'Ben Lawers', 'Ben More', 'Ben Alder', 'Ben Hope', 'Ben Loyal',
+      'Ben Lawers', 'Ben More (Crianlarich)', 'Ben Alder', 'Ben Hope', 'Ben Loyal',
       'Suilven', 'Stac Pollaidh', 'An Teallach', 'Liathach', 'Beinn Eighe',
       'Slioch', 'Sgurr Alasdair', 'Sgurr nan Gillean', 'Bla Bheinn', 'The Cobbler',
-      'Ben Vorlich', 'Ben Ledi', 'Ben Cruachan', 'Buachaille Etive Mor', 'Bidean nam Bian',
+      'Ben Vorlich (Loch Earn)', 'Ben Ledi', 'Ben Cruachan', 'Buachaille Etive Mor', 'Bidean nam Bian',
       'Aonach Eagach', 'Aonach Mor', 'Carn Mor Dearg', 'Lochnagar', 'Mount Keen',
       'Cairn Toul', 'Ben Avon', "Beinn a' Bhuird", 'Merrick', 'Broad Law',
       'Tinto', 'Ben Wyvis', 'Morven',
@@ -1085,7 +1090,9 @@ globalThis.WORMILLION_THEMES = {
       'Canisp', 'Carn Eighe', 'Ladhar Bheinn', 'Meall Fuar-mhonaidh', 'Meall nan Tarmachan',
       'The Cairnwell', 'West Lomond', 'Arkle', 'Beinn Dearg', 'Beinn an Oir',
       'Ben Mor Coigach', 'Cairnsmore of Fleet', 'Creag Dhubh', "Earl's Seat", 'Glas Maol',
-      'Mealaisbhal', "Meall a' Bhuachaille", 'Sgor an Lochain Uaine', 'Stob Binnein'
+      'Mealaisbhal', "Meall a' Bhuachaille", 'Sgor an Lochain Uaine', 'Stob Binnein',
+      // 2026-09-18 namesakes, decision 5
+      'Ben More (Mull)', 'Ben Vorlich (Loch Lomond)', 'The Saddle'
     ],
     'England or Wales': [
       'Scafell Pike', 'Snowdon', 'Helvellyn', 'Skiddaw', 'Great Gable',
@@ -1139,7 +1146,9 @@ globalThis.WORMILLION_THEMES = {
       'Yr Aran',
       // add-theme.mjs
       'Roseberry Topping', 'Ivinghoe Beacon', 'Cleeve Hill', 'Worcestershire Beacon', 'Ditchling Beacon',
-      'Shining Tor'
+      'Shining Tor',
+      // 2026-09-18 namesakes, decision 5
+      'Black Hill', 'Black Mountain (Wales)', 'The Cloud'
     ],
     'Indonesia': [
       'Mount Bromo', 'Mount Merapi', 'Mount Semeru', 'Mount Agung', 'Krakatoa',
@@ -1174,8 +1183,8 @@ globalThis.WORMILLION_THEMES = {
       'El Misti', 'Ubinas', 'Sabancaya', 'Parinacota', 'Guallatiri',
       'Uturuncu', 'Tunupa', 'Calbuco', 'Puyehue', 'Descabezado Grande',
       'Nevados de Chillan', 'Llaima', 'Cerro Hudson', 'Chaiten', 'Michinmahuida',
-      'Humphreys Peak', 'Lassen Peak', 'Mount Jefferson', 'Three Sisters',
-      'Mount Bachelor', 'Mount Thielsen', 'Mount McLoughlin', 'Mount Mazama', 'Mount Adams',
+      'Humphreys Peak', 'Lassen Peak', 'Mount Jefferson (Oregon)', 'Three Sisters',
+      'Mount Bachelor', 'Mount Thielsen', 'Mount McLoughlin', 'Mount Mazama', 'Mount Adams (Washington)',
       'Glacier Peak', 'Mount Wrangell', 'Mount Redoubt', 'Mount Spurr', 'Iliamna Volcano',
       'Augustine Volcano', 'Mount Katmai', 'Novarupta', 'Mount Edgecumbe', 'Kilauea',
       'Hualalai', 'Kohala', 'Mount Garibaldi', 'Black Tusk', 'Mount Meager',
@@ -1253,7 +1262,9 @@ globalThis.WORMILLION_THEMES = {
       // add-theme.mjs
       'Mount Pico', 'Mount Pulag', 'Piton des Neiges', 'Mount Waialeale', 'Mount Asama',
       'Mount Blackburn', 'Mount Sanford', 'Mount Bandai', 'Mount Iwate', 'Mount Daisen',
-      'Mount Kitanglad', 'Mount Malindang'
+      'Mount Kitanglad', 'Mount Malindang',
+      // 2026-09-18 namesakes, decision 5
+      'Mount Cleveland (Alaska)'
     ]
   },
 
@@ -1430,19 +1441,19 @@ globalThis.WORMILLION_THEMES = {
       'Reindeer Lake', 'Nettilling Lake', 'Lake Winnipegosis', 'Lake Nipigon', 'Lake Manitoba',
       'Great Salt Lake', 'Dubawnt Lake', 'Lake Okeechobee', 'Lake Pontchartrain', 'Lake Champlain',
       'Salton Sea', 'Lake Tahoe', 'Yellowstone Lake', 'Mono Lake', 'Crater Lake',
-      'Lake Louise', 'Lake Mead', 'Lake Powell', 'Lake Havasu', 'Lake George',
+      'Lake Louise', 'Lake Mead', 'Lake Powell', 'Lake Havasu', 'Lake George (New York)',
       'Moraine Lake', 'Lake Maracaibo', 'Lake Atitlan', 'Lake Managua', 'Lake Placid',
       'Peyto Lake', 'Lake Minnewanka', 'Lake Winnipesaukee', 'Moosehead Lake', 'Sebago Lake',
       'Squam Lake', 'Lake Sunapee', 'Walden Pond', 'Quabbin Reservoir', 'Candlewood Lake',
       'Seneca Lake', 'Cayuga Lake', 'Skaneateles Lake', 'Keuka Lake', 'Canandaigua Lake',
       'Oneida Lake', 'Otsego Lake', 'Chautauqua Lake', 'Lake Winnebago', 'Lake Minnetonka',
       'Mille Lacs Lake', 'Leech Lake', 'Red Lake', 'Lake Itasca', 'Lake Vermilion',
-      'Lake Pepin', 'Devils Lake', 'Lake Sakakawea', 'Lake Oahe', 'Lake Texoma',
+      'Lake Pepin', 'Devils Lake (North Dakota)', 'Lake Sakakawea', 'Lake Oahe', 'Lake Texoma',
       'Lake of the Ozarks', 'Table Rock Lake', 'Lake Travis', 'Caddo Lake', 'Toledo Bend Reservoir',
       'Reelfoot Lake', 'Kentucky Lake', 'Lake Cumberland', 'Lake Lanier', 'Lake Norman',
       'Lake Murray', 'Lake Marion', 'Lake Kissimmee', 'Lake Apopka', 'Lake Elsinore',
       'Shasta Lake', 'Clear Lake', 'Lake Berryessa', 'Big Bear Lake', 'Donner Lake',
-      'Pyramid Lake', 'Walker Lake', 'Bear Lake', 'Utah Lake', 'Jackson Lake',
+      'Pyramid Lake (Nevada)', 'Walker Lake (Nevada)', 'Bear Lake', 'Utah Lake', 'Jackson Lake',
       'Flathead Lake', 'Lake McDonald', 'Lake Chelan', 'Lake Washington', 'Lake Crescent',
       "Lake Coeur d'Alene", 'Lake Pend Oreille', 'Priest Lake', 'Redfish Lake', 'Lake Roosevelt',
       'Lake Sammamish', 'Lake Union', 'Diablo Lake', 'Iliamna Lake', 'Lake Clark',
@@ -1532,7 +1543,10 @@ globalThis.WORMILLION_THEMES = {
       'Pelican Lake', 'Tazlina Lake', 'Togiak Lake', 'Ugashik Lakes', 'Webbers Falls Lake',
       'Mother Goose Lake', 'John Paul Hammerschmidt Lake',
       // add-theme.mjs
-      'Lake Arrowhead', 'Lake Coatepeque', 'Twin Buttes Reservoir'
+      'Lake Arrowhead (California)', 'Lake Coatepeque', 'Twin Buttes Reservoir',
+      // 2026-09-18 namesakes, decision 5
+      'Geneva Lake', "Devil's Lake (Wisconsin)", 'Pyramid Lake (California)', 'Lake George (Florida)', 'Black Lake (Michigan)',
+      'Black Lake (New York)', 'Crescent Lake', 'Black Lake (Louisiana)', 'Lake Arrowhead (Texas)', 'Walker Lake (Alaska)'
     ],
     'saltwater': [
       // 2026-09-16 US lakes fill (audit): the hypersaline lagoon, the alkali lake, the salt flat that fills
@@ -1627,16 +1641,18 @@ globalThis.WORMILLION_THEMES = {
       'Grafham Water', 'Chew Valley Lake',
       // 2026-09-14 expansion
       'Ladybower Reservoir', 'The Serpentine', 'Llyn Celyn', 'Derwent Reservoir', 'Lake of Menteith',
-      'Dozmary Pool', 'Hanningfield Reservoir', 'Lough Hyne'],
+      'Dozmary Pool', 'Hanningfield Reservoir', 'Lough Hyne',
+      // 2026-09-18 namesakes, decision 5
+      'Lough Derg (County Donegal)'],
     'Scandinavia': ['Lake Vanern', 'Lake Vattern', 'Mjosa', 'Lake Inari', 'Lake Saimaa',
       // 2026-09-14 expansion
-      'Malaren', 'Hjalmaren', 'Storsjon', 'Siljan', 'Bolmen',
+      'Malaren', 'Hjalmaren', 'Storsjon (Jamtland)', 'Siljan', 'Bolmen',
       'Sommen', 'Hornavan', 'Tornetrask', 'Akkajaure', 'Uddjaure',
       'Asnen', 'Vombsjon', 'Ringsjon', 'Roxen', 'Glan',
       'Yngaren', 'Runn', 'Storuman', 'Paijanne', 'Pielinen',
       'Oulujarvi', 'Pihlajavesi', 'Orivesi', 'Haukivesi', 'Keitele',
       'Kallavesi', 'Nasijarvi', 'Lappajarvi', 'Hoytiainen', 'Puulavesi',
-      'Yli-Kitka', 'Kemijarvi', 'Pyhajarvi', 'Tuusulanjarvi', 'Femunden',
+      'Yli-Kitka', 'Kemijarvi', 'Pyhajarvi (Satakunta)', 'Tuusulanjarvi', 'Femunden',
       'Randsfjorden', 'Tyrifjorden', 'Hornindalsvatnet', 'Gjende', 'Bygdin',
       'Snasavatnet', 'Tinnsjo', 'Rossvatnet', 'Altevatnet', 'Norsjo',
       'Lovatnet', 'Nisser', 'Thingvallavatn', 'Myvatn',
@@ -1657,7 +1673,9 @@ globalThis.WORMILLION_THEMES = {
       'Lake Lestijarvi', 'Lohjanjarvi', 'Roine', 'Rosskreppfjorden', 'Selbusjoen',
       'Sperillen', 'Suldalsvatnet',
       // add-theme.mjs
-      'Jokulsarlon'
+      'Jokulsarlon',
+      // 2026-09-18 namesakes, decision 5
+      'Pyhajarvi (Pirkanmaa)', 'Pyhajarvi (Northern Ostrobothnia)', 'Storsjon (Gastrikland)'
       ]
   },
 

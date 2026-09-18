@@ -110,7 +110,7 @@ Sea of Galilee|166|Lake Tiberias,Kinneret
 Lake Mead|640|Lake Meade
 Lake Powell|653
 Lake Havasu|79
-Lake George|114
+Lake George (New York)|114
 Moraine Lake|0.5
 Lake Tekapo|83
 Lake Pukaki|178
@@ -213,7 +213,7 @@ Grafham Water|5.9
 Chew Valley Lake|4.8
 Malaren|1090|Lake Malaren
 Hjalmaren|477|Lake Hjalmaren
-Storsjon|456|Lake Storsjon
+Storsjon (Jamtland)|456|Lake Storsjon
 Siljan|292
 Bolmen|184
 Sommen|136
@@ -243,7 +243,7 @@ Hoytiainen|280|Lake Hoytiainen
 Puulavesi|330
 Yli-Kitka|122
 Kemijarvi|61|Lake Kemijarvi
-Pyhajarvi|155|Lake Pyhajarvi
+Pyhajarvi (Satakunta)|155|Lake Pyhajarvi
 Tuusulanjarvi|6
 Femunden|203
 Randsfjorden|139
@@ -395,7 +395,7 @@ Lake Jablanica|14.3
 Blidinje Lake|4.1
 Lake Boracko|1.15|Boracko jezero
 Lake Modrac|17
-Black Lake|0.52|Crno Jezero
+Black Lake (Montenegro)|0.52|Crno Jezero
 Lake Biograd|0.03|Biogradsko jezero
 Lake Palic|4.7
 Lake Vlasina|11.3
@@ -459,7 +459,7 @@ Red Lake|1160
 Lake Itasca|4.7
 Lake Vermilion|163|Lake Vermillion
 Lake Pepin|91
-Devils Lake|350
+Devils Lake (North Dakota)|350
 Lake Sakakawea|1520|Lake Sacajawea,Sacajawea,Lake Sacagawea
 Lake Oahe|1500
 Lake Texoma|364
@@ -482,10 +482,10 @@ Shasta Lake|119
 Clear Lake|176
 Lake Berryessa|84
 Big Bear Lake|11
-Lake Arrowhead|1.7
+Lake Arrowhead (California)|1.7
 Donner Lake|1.3
-Pyramid Lake|486
-Walker Lake|130
+Pyramid Lake (Nevada)|486
+Walker Lake (Nevada)|130
 Bear Lake|280
 Utah Lake|385
 Jackson Lake|103
@@ -1244,6 +1244,20 @@ Rosskreppfjorden|29.51
 Selbusjoen|57.9
 Sperillen|37.32
 Suldalsvatnet|28.83
+Pyhajarvi (Pirkanmaa)|121.61
+Pyhajarvi (Northern Ostrobothnia)|121.8
+Storsjon (Gastrikland)|70.6
+Lough Derg (County Donegal)|8.81
+Geneva Lake|21
+Devil's Lake (Wisconsin)|1.51
+Pyramid Lake (California)|5.1
+Lake George (Florida)|186.16
+Black Lake (Michigan)|40.99
+Black Lake (New York)|31.79
+Crescent Lake|64.59
+Black Lake (Louisiana)|28
+Lake Arrowhead (Texas)|60.58
+Walker Lake (Alaska)|37
 `;
 
 export const RIVERS = `
@@ -5275,7 +5289,7 @@ Piz Bernina|4049
 Weisshorn|4506
 Aneto|3404
 Mulhacen|3479
-Mount Ossa|1617
+Mount Ossa (Tasmania)|1617
 Mount Tongariro|1978|Tongariro
 Mount Ngauruhoe|2291|Ngauruhoe
 Mount Massive|4398
@@ -5294,7 +5308,7 @@ Wilson Peak|4342
 Mount Princeton|4327
 Mount Yale|4335
 Capitol Peak|4341
-Pyramid Peak|4275
+Pyramid Peak (Colorado)|4275
 Crestone Peak|4359
 Gannett Peak|4209
 Cloud Peak|4014
@@ -5303,14 +5317,14 @@ Granite Peak|3901
 Borah Peak|3859
 Kings Peak|4123
 Mount Timpanogos|3582
-Wheeler Peak|4011
+Wheeler Peak (New Mexico)|4011
 Sandia Crest|3255|Sandia Peak
 Truchas Peak|3999
 Mount Columbia|3747
 Mount Assiniboine|3618
 Mount Temple|3544
 Mount Rundle|2949
-Cascade Mountain|2998
+Cascade Mountain (Alberta)|2998
 Sulphur Mountain|2451
 Mount Norquay|2522
 Mount Edith Cavell|3363
@@ -5321,7 +5335,7 @@ Mount Forbes|3612
 Mount Alberta|3619
 Snow Dome|3456
 Chief Mountain|2764
-Mount Cleveland|3190
+Mount Cleveland (Montana)|3190
 Monte Pissis|6793
 Cerro Bonete|6759
 Tres Cruces|6748
@@ -5397,7 +5411,7 @@ Mount Moosilauke|1464
 Cadillac Mountain|466
 Whiteface Mountain|1483
 Slide Mountain|1281
-Bear Mountain|391
+Bear Mountain (New York)|391
 Stone Mountain|514
 Kennesaw Mountain|555
 Lookout Mountain|646
@@ -5408,7 +5422,7 @@ Spruce Knob|1482
 Guadalupe Peak|2667
 Enchanted Rock|525
 Emory Peak|2385
-Black Mesa|1516
+Black Mesa (Oklahoma)|1516
 Shiprock|1583
 Humphreys Peak|3852
 Mount Lemmon|2792
@@ -5420,7 +5434,7 @@ Lassen Peak|3187
 Mount Tamalpais|784
 Mount Diablo|1173
 Mount San Jacinto|3302|San Jacinto Peak
-Mount Baldy|3068|Mount San Antonio
+Mount Baldy (California)|3068|Mount San Antonio
 San Gorgonio Mountain|3506
 Telescope Peak|3366
 Mount Dana|3982
@@ -5428,14 +5442,14 @@ Mount Lyell|3999
 Clouds Rest|3025
 Mount Tallac|2957
 Mount Rose|3285
-Mount Jefferson|3199
+Mount Jefferson (Oregon)|3199
 Three Sisters|3157|South Sister
 Mount Bachelor|2764
 Mount Thielsen|2799
 Mount McLoughlin|2894
 Mount Mazama|2487
 Steens Mountain|2965
-Mount Adams|3743
+Mount Adams (Washington)|3743
 Glacier Peak|3213
 Mount Si|1290
 Mount Pilchuck|1803
@@ -5872,7 +5886,7 @@ Jabal an-Nabi Shuayb|3666
 Fisht|2867
 Beshtau|1401
 Ben Lawers|1214
-Ben More|1174
+Ben More (Crianlarich)|1174
 Ben Alder|1148
 Ben Hope|927
 Ben Loyal|764
@@ -5886,7 +5900,7 @@ Sgurr Alasdair|992
 Sgurr nan Gillean|964
 Bla Bheinn|928
 The Cobbler|884|Ben Arthur
-Ben Vorlich|985
+Ben Vorlich (Loch Earn)|985
 Ben Ledi|879
 Ben Cruachan|1126
 Buachaille Etive Mor|1022
@@ -5938,7 +5952,7 @@ Pumlumon|752|Plynlimon
 Corn Du|873
 Waun Fach|811
 Moel Famau|555
-Snaefell|621
+Snaefell (Isle of Man)|621
 Slieve Donard|850
 Slieve League|595
 Croagh Patrick|764
@@ -6004,7 +6018,7 @@ Mount Moco|2620
 Brandberg Mountain|2573|Brandberg
 Spitzkoppe|1728
 Mafadi|3450
-Cathedral Peak|3004
+Cathedral Peak (South Africa)|3004
 Champagne Castle|3377
 Mount Namuli|2419
 Bintumani|1945|Loma Mansa
@@ -6405,7 +6419,7 @@ Cheaha Mountain|735
 Newberry Volcano|2435
 Timms Hill|595
 Grand Mesa|3425
-Black Mountain|1263
+Black Mountain (Kentucky)|1263
 Pilot Mountain|738
 Taum Sauk Mountain|540
 High Point|550
@@ -7715,6 +7729,94 @@ Helgafell|227
 Ok|1198
 Oksskolten|1916
 Tomtabacken|377
+Mount Olympus (Cyprus)|1952
+Mount Ossa (Greece)|1978
+Snaefell (Iceland)|1833
+Diamond Hill|442
+Ben More (Mull)|966
+Black Hill|582
+Black Mountain (Wales)|704
+Black Mountain (Belfast)|389
+Sugarloaf (County Wicklow)|552
+The Cloud|343
+Brandon Hill|515
+Ben Vorlich (Loch Lomond)|943
+The Saddle|1011
+Mount Eagle|516
+Mount Olympus (Washington)|2432
+Ben Lomond Mountain|2961
+Wheeler Peak (Nevada)|3982
+Blue Mountain (Pennsylvania)|344
+Mount Wilson (California)|1741
+Lookout Mountain (Colorado)|2249
+Mount Nebo (Utah)|3637
+Sugarloaf Mountain (Maryland)|391
+Baldy Mountain (New Mexico)|3792
+Mount Baldy (Arizona)|3477
+El Capitan (Texas)|2458
+Mount Washington (Oregon)|2376
+Bear Mountain (Connecticut)|706
+Sugarloaf Mountain (Maine)|1288
+Mount Adams (New Hampshire)|1766
+Matterhorn Peak (Sierra Nevada)|3744
+Hunter Mountain|1231
+Mount Olympus (Utah)|2752
+Mount Orizaba|648
+Cathedral Peak (California)|3327
+Mount Cleveland (Alaska)|1730
+Castle Peak (Colorado)|4350
+Matterhorn (Nevada)|3305
+Mount Wilson (Colorado)|4345
+Cascade Mountain (New York)|1249
+Mount Washington (Washington)|1908
+Mount Jefferson (New Hampshire)|1741
+Mount Humphreys (California)|4265
+Mount Morrison (California)|3731
+Sugarloaf Mountain (New Brunswick)|281
+Sugarloaf Mountain (Massachusetts)|199
+Table Mountain (Wyoming)|3387
+Castle Peak (California)|2776
+Granite Mountain (Arizona)|2325
+Mount Jefferson (Nevada)|3641
+Mount Jefferson (North Carolina)|1422
+San Antonio Mountain|3326
+Stone Mountain (North Carolina)|703
+Blue Mountain (New York)|1143
+Mount Zion (Colorado)|2152
+Pyramid Peak (California)|3043
+Mount Hood (California)|833
+Mount Jackson (New Hampshire)|1235
+Signal Mountain (Wyoming)|2353
+Wetterhorn Peak|4273
+Bear Mountain (South Dakota)|2184
+Bear Peak (Colorado)|2578
+Camelback Mountain (Pennsylvania)|650
+Castle Peak (Idaho)|3601
+Matterhorn (Oregon)|2998
+Matterhorn Peak (Colorado)|4144
+Monadnock Mountain|960
+Mount Ararat (Pennsylvania)|804
+Mount Ida (Colorado)|3924
+Mount Jefferson (Idaho)|3114
+Pyramid Peak (Alaska)|2705
+Berlin Mountain|859
+Black Mesa (Arizona)|1865
+Blue Mountain (Washington)|1830
+Mount Bear|4520
+Mount Cook (Canada)|4196
+Mount Whiteface|1225
+Signal Peak (Utah)|3160
+Sugarloaf Hill|239
+Bear Mountain (Georgia)|703
+Cascade Peak|2264
+Catherine Mountain|293
+El Capitan (Montana)|3043
+Logan Peak|2961
+Mount Jackson (Montana)|3064
+Mount Thor (Alaska)|3816
+Mount Wilson (Nevada)|2155
+Pico Peak|1209
+Rogers Peak (Oregon)|1130
 `;
 
 export const MINOR_PEAKS = `
