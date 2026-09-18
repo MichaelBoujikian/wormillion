@@ -26,6 +26,24 @@ rest.
    (decision 5), an Opus audit round per cohort or two. The recipes and
    floors are below; `scripts/expansion/probes/*.json` from the Europe wave
    are the templates (`nordic-rivers.json` is a clean multi-country one).
+   **Status 2026-09-18 (paused mid-session, the user out of tokens):**
+   Mexico rivers are folded and committed (`90aca7c`, report
+   `reports/2026-09-18-mx-rivers.md`; +73 rivers, +18 namesakes; new tool
+   flag `article-size.mjs --sister=es` reads eswiki's infobox for what
+   enwiki/Wikidata leave unsized; `noFigureViews: 30` admitted unsized
+   Mexican rivers at `size` 0). **The Canada rivers probe
+   (`probes/ca-rivers.json`, floor 80 km) was stopped during its resolve
+   stage** after the tree (92 categories, 2,797 pages) and 15 lists (3,851
+   candidates) — re-run the same command and it resumes from
+   `work/ca-rivers-cache.json`. Then `article-size.mjs work/ca-rivers.json
+   --no-figure --sister=fr` (Quebec's stubs are frwiki-fed), the probe
+   again, `chunk --tag=ca --themes="North America" --min-views=30`, the
+   hand-clean (Quebec "Rivière X" titles: keep the whole name; the
+   `PROVINCES` set in `chunk.mjs` already trusts the provinces as
+   qualifiers), the fold, then `--taken-only --tag=ns-ca`. Neither
+   `noFigureViews` nor an audit round has been decided for Canada yet; the
+   Mexico chunk has not been audited either — the first audit round should
+   cover Mexico + Canada rivers together.
 3. Release only when the user says so, by "The release procedure" below —
    a push to `main` deploys GitHub Pages and builds Netlify; it is never a
    routine push.
@@ -123,7 +141,7 @@ Standing decisions from the user, all in force:
 
 # Where things stand
 
-**On `expansion-2` (HEAD past `e0437d3`, 11+ commits past `main`):**
+**On `expansion-2` (HEAD `64e2aeb`+, 14 commits past `main`; Mexico rivers folded 2026-09-18, bank 15,520, tests 205):**
 decision 5 built and folded — engine, validator, tools, 526 namesake rows
 across every cohort, 250 incumbents qualified, an Opus audit round (data /
 gameplay / regression + skeptics) applied. `npm test` 205 · `npm run
