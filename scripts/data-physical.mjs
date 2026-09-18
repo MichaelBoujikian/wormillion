@@ -1318,7 +1318,7 @@ Uruguay River|1838|Uruguay
 Xingu|1815
 Kama|1805
 Snake River|1735|Snake
-Churchill River|1609|Churchill
+Churchill River (Saskatchewan)|1609|Churchill
 Maranon|1600
 Ohio River|1579|Ohio
 Darling|1472|Darling River
@@ -2465,7 +2465,7 @@ Kootenay|780|Kootenai River
 Pend Oreille|209|Pend Oreille River
 Spokane|179|Spokane River
 Salmon (Idaho)|676|Salmon River
-Clearwater|121|Clearwater River
+Clearwater (Idaho)|121|Clearwater River
 Boise|164|Boise River
 Payette|148|Payette River
 Owyhee|425|Owyhee River
@@ -3423,7 +3423,7 @@ Hurunui|138
 Ngaruroro|154
 Tukituki|112
 Motueka|108
-Grey|121|Grey River
+Grey (New Zealand)|121|Grey River
 Rangitata|121
 Whakatane|97
 Selwyn|95
@@ -3527,7 +3527,7 @@ Chattooga|92
 Bayou Teche|200|Teche
 Black Warrior|286
 Duck|457
-Indian|195
+Indian (Florida)|195
 Tug Fork|256
 Bayou Lafourche|171|Lafourche
 Caloosahatchee|121
@@ -3744,7 +3744,7 @@ Chipola|149
 Conasauga|150
 Conecuh|415
 Crab Creek|262
-Eagle|100
+Eagle (Colorado)|100
 East Branch Delaware|121
 Elkhorn|470
 Embarras|298
@@ -3949,7 +3949,7 @@ Nestucca|92
 Ninnescah|91
 North Fork Red|436
 Northeast Cape Fear|209
-Pembina|513
+Pembina (Manitoba)|513
 Peshtigo|219
 Piscataquis|100
 Pudding|100
@@ -3987,7 +3987,7 @@ Chandalar|161
 Chowchilla|87
 Cispus|85
 Clam|82
-Coldwater|219
+Coldwater (Mississippi)|219
 Collins|108
 Conewago Creek|129
 Contentnea Creek|146
@@ -4077,7 +4077,7 @@ South Fork Salmon|138
 East Walker|145
 Entiat|91
 Fall|103
-Fawn|89
+Fawn (Michigan)|89
 Huerfano|182
 Indian Creek (Idaho)|106
 Iskut|240
@@ -4113,14 +4113,14 @@ Oconto|92
 Ohio Brush Creek|93
 Pahsimeroi|95
 Paint Rock|94
-Poplar|269
+Poplar (Montana)|269
 Salcha|201
 Salt Fork Vermilion|121
 San Rafael|145
 Sebasticook|122
 Sheenjek|320
 Shields|105
-Sixteen Mile Creek|111
+Sixteen Mile Creek (Montana)|111
 South Branch Kishwaukee|103
 South Fork Catawba|88
 South Fork Trinity|148
@@ -4140,7 +4140,7 @@ Wild Rice (North Dakota)|390
 Yentna|121
 Yockanookany|126
 Anaktuvuk|217
-Anderson|80
+Anderson (Indiana)|80
 Andreafsky|193
 Antler|315
 Anvik|225
@@ -4304,7 +4304,7 @@ Little Muddy (Illinois)|117
 Little Owyhee|98
 Little Rock|120
 Little Vermilion|96
-Little White|377
+Little White (South Dakota)|377
 Little Wind|80
 Meade|404
 Melozitna|217
@@ -4330,7 +4330,7 @@ Okatibbee Creek|123
 Okpilak|117
 Pecan Bayou|84
 Piceance Creek|93
-Pipestone Creek|87
+Pipestone Creek (South Dakota)|87
 Plateau Creek|80
 Ponca Creek|224
 Prairie Dog Creek|396
@@ -4424,7 +4424,7 @@ Noxapaga|90
 Dry Creek|87
 High Island Creek|112
 Tagagawik|150
-Willow|122
+Willow (Minnesota)|122
 Jack Creek|103
 Epizetka|129
 Mystic|11
@@ -4440,7 +4440,7 @@ Bubbly Creek|3
 Paluxy|47
 Little Pigeon|48
 Hackensack|72
-Rouge|75
+Rouge (Michigan)|75
 Calumet|12
 Two Hearted|38
 Roe|0.06
@@ -5062,7 +5062,7 @@ Big Blue (Indiana)|135
 Cimarron (New Mexico)|97
 Saline (Arkansas)|325
 San Miguel (Colorado)|145
-St. Mary|235
+St. Mary (Alberta)|235
 Stillwater (Ohio)|111
 Trent (North Carolina)|140
 White (Yukon)|322
@@ -5256,6 +5256,431 @@ San Pedro (Chihuahua)|0
 San Pedro (Guatemala)|186
 Santa Maria (Chihuahua)|0
 Santa Maria (San Luis Potosi)|0
+Ha Ha|81
+French|110
+Kicking Horse|80
+Magpie (Quebec)|200
+Spanish|338
+Battle|570
+Saugeen|160
+Black Creek|0
+Finlay|420
+Adams|177
+Speed|0
+Divide Creek|0
+Manicouagan|200
+Nottawasaga|120
+Ganaraska|0
+Kennebecasis|95
+Mississagi|266
+Moira|98
+Twelve Mile Creek|0
+Ausable|240
+Bonnechere|145
+Highwood|180
+Holland|0
+Magnetawan|175
+North Thompson|365
+Ogoki|500
+Pitt|100
+Annapolis|120
+Bloodvein|300
+Dumoine|129
+Eramosa|0
+Great Bear|113
+Homathko|144
+Jacques-Cartier|161
+Montreal (Algoma)|130
+Montreal (Timiskaming)|220
+Shuswap|150
+Wascana Creek|250
+Yellowknife|264
+Agawa|102
+Bridge|120
+Crowe|130
+Dean|253
+Johnston Creek|0
+Maitland|150
+Moisie|410
+Montmorency|104
+Moose Jaw|340
+Norrish Creek|0
+Sheep|115
+South Nation|175
+Yaak|0
+Blaeberry|0
+Blind|0
+Cascapedia|120
+Coulonge|240
+Duffins Creek|0
+Ecstall|110
+Gull (Haliburton)|100
+LaHave|97
+Nicola|170
+Noire (Outaouais)|238
+Romaine|496
+Wabigoon|235
+York|148
+Amable du Fond|84
+Ashuapmushuan|181
+Batiscan|196
+Big Salmon|219
+Blindman|150
+Bonaventure|115
+Brazeau|210
+Bull|117
+Carrot|634
+Conestogo|0
+Fitzsimmons Creek|0
+Hood|400
+Kapuskasing|200
+Keele|410
+Klinaklini|210
+Koukdjuak|80
+L'Assomption|200
+Lievre|330
+Magaguadavic|103
+Matapedia|113
+McLeod|270
+Mistassibi|298
+Nashwaak|113
+Nepisiguit|130
+Pic|150
+Rat|218
+Riviere du Nord|125
+Sainte-Anne (Les Chenaux)|123
+Seymour|0
+Tobique|103
+Wapiti|255
+Whitemud Creek|0
+Babine|97
+Beatton|300
+Berens|530
+Big Otter Creek|98
+Broadback|450
+Burntwood|355
+Deadman|95
+Dease|265
+Duncan|206
+Firebag|170
+Fond du Lac|277
+Gods|325
+Grass|599
+Horton|618
+Kenogami|320
+Little Abitibi|120
+Little Red Deer|315
+Little Saskatchewan|185
+Magpie (Ontario)|160
+Mistassini|298
+Mountain|357
+Muskwa|257
+Musquodoboit|97
+Nastapoka|402
+Natashquan|462
+Nimpkish|118
+Parsnip|240
+Petite-Nation|144
+Riviere du Loup|101
+Rosebud|327
+Stave|90
+Swift Current Creek|230
+Taltson|500
+Thomsen|335
+Tree|160
+Wanapitei|120
+West Road|280
+Whitemouth|195
+Whitemud|120
+Whiteshell|100
+Zymoetz|145
+Again|120
+Arnaud|377
+Bell-Irving|165
+Betsiamites|444
+Blackstone|90
+Blanche|140
+Bonaparte|170
+Bowron|200
+Becancour|210
+Cains|111
+Cheslatta|83
+Chinchaga|500
+Christina|270
+Cochrane|250
+Desert|95
+Dog|90
+Dungarvon|82
+Eagle Creek|189
+Ekwan|500
+Fort Nelson|517
+Frederick House|100
+Granby|105
+Groundhog|230
+Gull (Thunder Bay)|180
+Hornaday|190
+Horsefly|98
+Kechika|300
+Kesagami|230
+Kipawa|180
+Kiskatinaw|220
+Kitimat|100
+Kopka|138
+La Salle|180
+Little Bow|262
+Little Smoky|350
+Malbaie|161
+Manigotagan|151
+Matane|105
+Matawin|161
+Miette|90
+Morice|90
+Naskaupi|220
+Nicolet|137
+Nipissing|85
+North Nahanni|200
+Omineca|220
+Ouareau|84
+Peribonka|451
+Pipestone|300
+Pouce Coupe|150
+Prophet|250
+Ram|120
+Raven|450
+Rimouski|119
+Saint-Jean|240
+Sainte-Anne (Beaupre)|97
+Sainte-Marguerite (Sept-Iles)|316
+Sikanni Chief|270
+Sissiboo|97
+Snare|400
+Soper|108
+Southwest Miramichi|195
+Stuart|187
+Sturgeon-Weir|131
+Sutton|153
+Takhini|180
+Thlewiaza|683
+Torch|150
+Tuchodi|120
+Turnagain|200
+Tusket|93
+Whitesand|219
+Acadia|82
+Aguanish|280
+Armit|102
+Asiak|102
+Aubinadong|100
+Riviere aux Sables|85|River aux Sables
+Batchawana|95
+Bay du Nord|80
+Bell|230
+Bloody|165
+Bonnet Plume|350
+Bostonnais|96
+Bouleau|87
+Bridge Creek|100
+Brightsand|146
+Brightwater Creek|270
+Brock|105
+Brokenhead|107
+Buckinghorse|132
+Burnside|200
+Canaan|105
+Cariboo|115
+Cat|225
+Chibougamau|200
+Chutine|95
+Cree|150
+Croche|161
+Croker|100
+Trinite|82
+Detour|80
+Du Chef|156
+Echoing|255
+Ekalluk|187
+Kuunajuk|287|Ellice River,Ellice
+Englehart|105
+Etchemin|140
+Etomami|136
+Ferguson|220
+Fir|124
+Fire|100
+Frances|140
+Frog|100
+Gataga|150
+Geikie|220
+Godbout|112
+Halfway|220
+Horn|278
+Ingenika|140
+Ivanhoe|200
+Kabinakagami|340
+Kakisa|300
+Kakwa|200
+Kapiskau|555
+Lawagamau|215
+Kegaska|100
+Kispiox|150
+Kitlope|100
+Klappan|140
+Kotaneelee|130
+Kovik|150
+Limestone|197
+Little Churchill|189
+Little Main Restigouche|85
+Little Mecatina|545
+Little Southwest Miramichi|100
+Little Whale|380
+Macmillan|322
+Manitou|148
+McConnell|194
+McGregor|180
+Medicine|190
+Mess Creek|110
+Mikkwa|385
+Minago|132
+Mingan|117
+Misinchinka|106
+Montreal (Saskatchewan)|100
+Mulligan|340
+Megiscane|250
+Metabetchouane|169
+Nakina|110
+Namewaminikan|170
+Nanook|245
+Nation|215
+Nemiscau|180
+Nipekamew|95
+Noire (Monteregie)|105
+Northwest Miramichi|135
+Opawica|225
+Ospika|120
+Owl|248
+Pasquia|204
+Patapedia|91
+Pentecote|124
+Perry|211
+Petit Saguenay|85
+Petitot|404
+Picanoc|85
+Povungnituk|389
+Rae|216
+Raush|88
+Redstone|289
+Redwillow|100
+Reindeer|100
+Richardson|163
+Riviere aux Melezes|272
+Riviere aux Outardes|499
+Riviere du Chene|81
+Riviere du Moulin|82
+Riviere du Sud|87
+Riviere a Mars|104
+Roggan|193
+Ross|280
+Sachigo|380
+Saint-Augustin|238
+Sainte-Marguerite (Saguenay)|100
+Seignelay|132
+Sheldrake|106
+Shell|130
+Sheslay|150
+Smoothstone|321
+Snake Indian|115
+Spatsizi|132
+Spillimacheen|118
+Steel|140
+Sustut|100
+Tahltan|95
+Tanzilla|140
+Taseko|132
+Terra Nova|140
+Tetsa|90
+Theo|117
+Toad|180
+Tonnerre|85
+Trout (British Columbia)|90
+Trout (Northwest Territories)|177
+Turgeon|217
+Tuya|200
+Wabasca|480
+Waswanipi|139
+Waterhen|140
+Wawagosic|205
+Weir|263
+West Kettle|110
+Wetetnagami|88
+Whale|400
+Whitefish (Northwest Territories)|144
+Whitefish (Yukon)|115
+Windigo|115
+Woody|217
+Thames (Ontario)|273
+Don (Ontario)|38
+Humber (Ontario)|100
+Mississippi (Ontario)|200
+Churchill River (Labrador)|856
+Trent (Ontario)|90
+Welland (Ontario)|135
+George|565
+Pembina (Alberta)|547
+Elk (British Columbia)|220
+Nith (Ontario)|0
+Sixteen Mile Creek (Ontario)|0
+Smoky|492
+Sturgeon (Alberta)|260
+Clearwater (Saskatchewan)|295
+Beaver (Alberta)|491
+Clearwater (Alberta)|205
+Seine (Manitoba)|150
+Severn (Ontario)|982
+Clearwater (British Columbia)|201
+Eagle (Yukon)|0
+Leaf (Quebec)|480
+Rouge (Quebec)|161
+Sturgeon (Ontario)|225
+White (Ontario)|140
+Anderson (Northwest Territories)|692
+Humber (Newfoundland and Labrador)|120
+Indian (Yukon)|80
+Mersey (Nova Scotia)|146
+Salmon (British Columbia)|120
+Vermilion (Ontario)|200
+Coldwater (British Columbia)|94
+Eagle (British Columbia)|80
+Pine (British Columbia)|287
+Poplar (Manitoba)|325
+Seine (Ontario)|240
+Swan River (Manitoba)|177
+Vermilion (Alberta)|255
+Wind (Yukon)|205
+James (Alberta)|105
+Medway (Nova Scotia)|121
+Pipestone Creek (Alberta)|85
+Pipestone Creek (Saskatchewan)|360
+Red Deer (Manitoba)|390
+Saint-Paul River (Quebec)|246
+Salmon (New Brunswick)|119
+Salmon (Vancouver Island)|92
+Snake River (Yukon)|277
+St. Mary (British Columbia)|115
+Sturgeon (Saskatchewan)|140
+Beaver (British Columbia)|200
+Black River (Ontario)|115
+Bow (Saskatchewan)|162
+Boyne (Manitoba)|125
+Clearwater (Quebec)|80
+Crooked (British Columbia)|80
+Elk (Alberta)|97
+Fawn (Ontario)|405
+Fox (Ontario)|111
+Fraser (Newfoundland and Labrador)|105
+Hayes (Nunavut)|335
+Little White (Ontario)|108
+Rancheria (Yukon)|190
+South River (Ontario)|135
+Willow (British Columbia)|190
 `;
 
 export const MOUNTAINS = `

@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T06:40:55.334Z",
+ "fetched": "2026-09-18T18:28:30.238Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -39638,7 +39638,7 @@
    "lat": 46.18611111,
    "lon": -119.02861111
   },
-  "river-churchill-river": {
+  "river-churchill-river-saskatchewan": {
    "title": "Churchill River (Hudson Bay)",
    "monthlyViews": 1187,
    "days": 60,
@@ -47667,7 +47667,7 @@
    "lat": 45.85638889,
    "lon": -116.79361111
   },
-  "river-clearwater": {
+  "river-clearwater-idaho": {
    "title": "Clearwater River (Idaho)",
    "monthlyViews": 852,
    "days": 60,
@@ -54373,7 +54373,7 @@
    "lat": -41.08333333,
    "lon": 173.01666667
   },
-  "river-grey": {
+  "river-grey-new-zealand": {
    "title": "Grey River (New Zealand)",
    "monthlyViews": 91,
    "days": 60,
@@ -55101,7 +55101,7 @@
    "lat": 35.94194444,
    "lon": -87.93388889
   },
-  "river-indian": {
+  "river-indian-florida": {
    "title": "Indian River (Florida)",
    "monthlyViews": 1187,
    "days": 60,
@@ -56620,7 +56620,7 @@
    "lat": 46.81527778,
    "lon": -119.92194444
   },
-  "river-eagle": {
+  "river-eagle-colorado": {
    "title": "Eagle River (Colorado)",
    "monthlyViews": 304,
    "days": 60,
@@ -58055,7 +58055,7 @@
    "lat": 34.24111111,
    "lon": -77.95388889
   },
-  "river-pembina": {
+  "river-pembina-manitoba": {
    "title": "Pembina River (Manitoba – North Dakota)",
    "monthlyViews": 152,
    "days": 60,
@@ -58321,7 +58321,7 @@
    "lat": 44.08944444,
    "lon": -85.00333333
   },
-  "river-coldwater": {
+  "river-coldwater-mississippi": {
    "title": "Coldwater River (Mississippi)",
    "monthlyViews": 122,
    "days": 60,
@@ -58951,7 +58951,7 @@
    "lat": 44.01861111,
    "lon": -111.58111111
   },
-  "river-fawn": {
+  "river-fawn-michigan": {
    "title": "Fawn River (Michigan)",
    "monthlyViews": 91,
    "days": 59,
@@ -59203,7 +59203,7 @@
    "lat": 34.4762,
    "lon": -86.46776
   },
-  "river-poplar": {
+  "river-poplar-montana": {
    "title": "Poplar River (Montana–Saskatchewan)",
    "monthlyViews": 91,
    "days": 60,
@@ -59252,7 +59252,7 @@
    "lat": 45.72361111,
    "lon": -110.4575
   },
-  "river-sixteen-mile-creek": {
+  "river-sixteen-mile-creek-montana": {
    "title": "Sixteen Mile Creek (Montana)",
    "monthlyViews": 91,
    "days": 59,
@@ -59392,7 +59392,7 @@
    "lat": 69.51305556,
    "lon": -151.44416667
   },
-  "river-anderson": {
+  "river-anderson-indiana": {
    "title": "Anderson River (Indiana)",
    "monthlyViews": 61,
    "days": 59,
@@ -60540,7 +60540,7 @@
    "lat": null,
    "lon": null
   },
-  "river-little-white": {
+  "river-little-white-south-dakota": {
    "title": "Little White River (South Dakota)",
    "monthlyViews": 30,
    "days": 58,
@@ -60722,7 +60722,7 @@
    "lat": 40.09,
    "lon": -108.245
   },
-  "river-pipestone-creek": {
+  "river-pipestone-creek-south-dakota": {
    "title": "Pipestone Creek (Big Sioux River tributary)",
    "monthlyViews": 30,
    "days": 57,
@@ -61380,7 +61380,7 @@
    "lat": 66.46444444,
    "lon": -159.00972222
   },
-  "river-willow": {
+  "river-willow-minnesota": {
    "title": "Willow River (Mississippi River tributary)",
    "monthlyViews": 13,
    "days": 56,
@@ -61492,7 +61492,7 @@
    "lat": 40.71527778,
    "lon": -74.11166667
   },
-  "river-rouge": {
+  "river-rouge-michigan": {
    "title": "River Rouge (Michigan)",
    "monthlyViews": 1096,
    "days": 60,
@@ -65846,7 +65846,7 @@
    "lat": 38.38,
    "lon": -108.80333333
   },
-  "river-st-mary": {
+  "river-st-mary-alberta": {
    "title": "St. Mary River (Alberta–Montana)",
    "monthlyViews": 183,
    "days": 60,
@@ -67203,6 +67203,2981 @@
    "days": 58,
    "lat": 21.8013,
    "lon": -99.1798
+  },
+  "river-ha-ha": {
+   "title": "Ha! Ha! River (Saguenay River tributary)",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 48.31777778,
+   "lon": -70.85972222
+  },
+  "river-french": {
+   "title": "French River (Ontario)",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 45.94055556,
+   "lon": -80.90166667
+  },
+  "river-kicking-horse": {
+   "title": "Kicking Horse River",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 51.3,
+   "lon": -116.98333333
+  },
+  "river-magpie-quebec": {
+   "title": "Magpie River (Quebec)",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 50.31972222,
+   "lon": -64.45888889
+  },
+  "river-spanish": {
+   "title": "Spanish River (Ontario)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 46.18444444,
+   "lon": -82.31138889
+  },
+  "river-battle": {
+   "title": "Battle River",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 52.71166667,
+   "lon": -108.25361111
+  },
+  "river-saugeen": {
+   "title": "Saugeen River",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 44.50083333,
+   "lon": -81.37361111
+  },
+  "river-black-creek": {
+   "title": "Black Creek (Toronto)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 43.66916667,
+   "lon": -79.51138889
+  },
+  "river-finlay": {
+   "title": "Finlay River",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 56.89397,
+   "lon": -124.95057
+  },
+  "river-adams": {
+   "title": "Adams River (British Columbia)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 50.9,
+   "lon": -119.55
+  },
+  "river-speed": {
+   "title": "Speed River",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 43.3875,
+   "lon": -80.36708333
+  },
+  "river-divide-creek": {
+   "title": "Divide Creek",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 51.44838889,
+   "lon": -116.28483333
+  },
+  "river-manicouagan": {
+   "title": "Manicouagan River",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 49.17611111,
+   "lon": -68.19444444
+  },
+  "river-nottawasaga": {
+   "title": "Nottawasaga River",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 44.53666667,
+   "lon": -80.00805556
+  },
+  "river-ganaraska": {
+   "title": "Ganaraska River",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.94166667,
+   "lon": -78.29055556
+  },
+  "river-kennebecasis": {
+   "title": "Kennebecasis River",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 45.31666667,
+   "lon": -66.13333333
+  },
+  "river-mississagi": {
+   "title": "Mississagi River",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 46.17472222,
+   "lon": -83.01611111
+  },
+  "river-moira": {
+   "title": "Moira River",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 44.16,
+   "lon": -77.38388889
+  },
+  "river-twelve-mile-creek": {
+   "title": "Twelve Mile Creek (Ontario)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.17861111,
+   "lon": -79.2725
+  },
+  "river-ausable": {
+   "title": "Ausable River (Lake Huron)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 43.3136,
+   "lon": -81.7675
+  },
+  "river-bonnechere": {
+   "title": "Bonnechere River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.51972222,
+   "lon": -76.55777778
+  },
+  "river-highwood": {
+   "title": "Highwood River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.81743,
+   "lon": -113.77892
+  },
+  "river-holland": {
+   "title": "Holland River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 44.20277778,
+   "lon": -79.51527778
+  },
+  "river-magnetawan": {
+   "title": "Magnetawan River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.77277778,
+   "lon": -80.50694444
+  },
+  "river-north-thompson": {
+   "title": "North Thompson River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.68194444,
+   "lon": -120.34111111
+  },
+  "river-ogoki": {
+   "title": "Ogoki River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 51.62444444,
+   "lon": -85.95055556
+  },
+  "river-pitt": {
+   "title": "Pitt River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 49.22861111,
+   "lon": -122.76777778
+  },
+  "river-annapolis": {
+   "title": "Annapolis River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.7028,
+   "lon": -65.6081
+  },
+  "river-bloodvein": {
+   "title": "Bloodvein River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.79027778,
+   "lon": -96.71527778
+  },
+  "river-dumoine": {
+   "title": "Dumoine River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.21527778,
+   "lon": -77.84916667
+  },
+  "river-eramosa": {
+   "title": "Eramosa River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 43.54027778,
+   "lon": -80.23972222
+  },
+  "river-great-bear": {
+   "title": "Great Bear River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 64.90583333,
+   "lon": -125.60333333
+  },
+  "river-homathko": {
+   "title": "Homathko River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 50.93111111,
+   "lon": -124.86027778
+  },
+  "river-jacques-cartier": {
+   "title": "Jacques-Cartier River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.67138889,
+   "lon": -71.74722222
+  },
+  "river-montreal-algoma": {
+   "title": "Montreal River (Algoma–Sudbury, Ontario)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 47.23888889,
+   "lon": -84.64583333
+  },
+  "river-montreal-timiskaming": {
+   "title": "Montreal River (Timiskaming District)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 47.13888889,
+   "lon": -79.45416667
+  },
+  "river-shuswap": {
+   "title": "Shuswap River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 50.71666667,
+   "lon": -119.05
+  },
+  "river-wascana-creek": {
+   "title": "Wascana Creek",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 50.65,
+   "lon": -104.91722222
+  },
+  "river-yellowknife": {
+   "title": "Yellowknife River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 62.51777778,
+   "lon": -114.32138889
+  },
+  "river-agawa": {
+   "title": "Agawa River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.35138889,
+   "lon": -84.63722222
+  },
+  "river-bridge": {
+   "title": "Bridge River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 50.75,
+   "lon": -121.93333333
+  },
+  "river-crowe": {
+   "title": "Crowe River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.37305556,
+   "lon": -77.76361111
+  },
+  "river-dean": {
+   "title": "Dean River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.805,
+   "lon": -126.96833333
+  },
+  "river-johnston-creek": {
+   "title": "Johnston Creek (Alberta)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 51.2417,
+   "lon": -115.8544
+  },
+  "river-maitland": {
+   "title": "Maitland River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 43.74861111,
+   "lon": -81.72722222
+  },
+  "river-moisie": {
+   "title": "Moisie River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 50.2,
+   "lon": -66.0675
+  },
+  "river-montmorency": {
+   "title": "Montmorency River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 46.885,
+   "lon": -71.14333333
+  },
+  "river-moose-jaw": {
+   "title": "Moose Jaw River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 50.5679,
+   "lon": -105.2949
+  },
+  "river-norrish-creek": {
+   "title": "Norrish Creek",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.17305556,
+   "lon": -122.13527778
+  },
+  "river-sheep": {
+   "title": "Sheep River (Alberta)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 50.73998,
+   "lon": -113.85475
+  },
+  "river-south-nation": {
+   "title": "South Nation River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.57305556,
+   "lon": -75.1
+  },
+  "river-yaak": {
+   "title": "Yaak River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 48.56111111,
+   "lon": -115.97694444
+  },
+  "river-blaeberry": {
+   "title": "Blaeberry River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.4238,
+   "lon": -117.0881
+  },
+  "river-blind": {
+   "title": "Blind River (Ontario)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.17972222,
+   "lon": -82.97694444
+  },
+  "river-cascapedia": {
+   "title": "Cascapédia River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 48.18694444,
+   "lon": -65.91222222
+  },
+  "river-coulonge": {
+   "title": "Coulonge River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.86222222,
+   "lon": -76.765
+  },
+  "river-duffins-creek": {
+   "title": "Duffins Creek",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 43.8167,
+   "lon": -79.0348
+  },
+  "river-ecstall": {
+   "title": "Ecstall River",
+   "monthlyViews": 152,
+   "days": 58,
+   "lat": 54.16583333,
+   "lon": -129.95833333
+  },
+  "river-gull-haliburton": {
+   "title": "Gull River (Balsam Lake)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.64111111,
+   "lon": -78.80527778
+  },
+  "river-lahave": {
+   "title": "LaHave River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.36725,
+   "lon": -64.47975
+  },
+  "river-nicola": {
+   "title": "Nicola River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.4275,
+   "lon": -121.31611111
+  },
+  "river-noire-outaouais": {
+   "title": "Noire River (Ottawa River tributary)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.90722222,
+   "lon": -76.94361111
+  },
+  "river-romaine": {
+   "title": "Romaine River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.30222222,
+   "lon": -63.80333333
+  },
+  "river-wabigoon": {
+   "title": "Wabigoon River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.26277778,
+   "lon": -93.97944444
+  },
+  "river-york": {
+   "title": "York River (Ontario)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.33555556,
+   "lon": -77.57861111
+  },
+  "river-amable-du-fond": {
+   "title": "Amable du Fond River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.30111111,
+   "lon": -78.87888889
+  },
+  "river-ashuapmushuan": {
+   "title": "Ashuapmushuan River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.6175,
+   "lon": -72.33333333
+  },
+  "river-batiscan": {
+   "title": "Batiscan River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.5202,
+   "lon": -72.2374
+  },
+  "river-big-salmon": {
+   "title": "Big Salmon River (Yukon)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 61.8806,
+   "lon": -134.9217
+  },
+  "river-blindman": {
+   "title": "Blindman River",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 52.35472222,
+   "lon": -113.75722222
+  },
+  "river-bonaventure": {
+   "title": "Bonaventure River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.03333333,
+   "lon": -65.48333333
+  },
+  "river-brazeau": {
+   "title": "Brazeau River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.9175,
+   "lon": -115.22916667
+  },
+  "river-bull": {
+   "title": "Bull River (British Columbia)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.46666667,
+   "lon": -115.45
+  },
+  "river-carrot": {
+   "title": "Carrot River (Saskatchewan)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.83388889,
+   "lon": -101.30472222
+  },
+  "river-conestogo": {
+   "title": "Conestogo River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-fitzsimmons-creek": {
+   "title": "Fitzsimmons Creek",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.15,
+   "lon": -122.95
+  },
+  "river-hood": {
+   "title": "Hood River (Nunavut)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 67.43333333,
+   "lon": -108.88333333
+  },
+  "river-kapuskasing": {
+   "title": "Kapuskasing River",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 49.80861111,
+   "lon": -82.00277778
+  },
+  "river-keele": {
+   "title": "Keele River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 64.41666667,
+   "lon": -124.8
+  },
+  "river-klinaklini": {
+   "title": "Klinaklini River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.09222222,
+   "lon": -125.62611111
+  },
+  "river-koukdjuak": {
+   "title": "Koukdjuak River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 66.71666667,
+   "lon": -73
+  },
+  "river-l-assomption": {
+   "title": "L'Assomption River",
+   "monthlyViews": 122,
+   "days": 58,
+   "lat": 45.71444444,
+   "lon": -73.48083333
+  },
+  "river-lievre": {
+   "title": "Lièvre River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.52361111,
+   "lon": -75.43055556
+  },
+  "river-magaguadavic": {
+   "title": "Magaguadavic River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.12296,
+   "lon": -66.875367
+  },
+  "river-matapedia": {
+   "title": "Matapedia River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.97138889,
+   "lon": -66.94222222
+  },
+  "river-mcleod": {
+   "title": "McLeod River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.86527778,
+   "lon": -115.70027778
+  },
+  "river-mistassibi": {
+   "title": "Mistassibi River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.88444444,
+   "lon": -72.21805556
+  },
+  "river-nashwaak": {
+   "title": "Nashwaak River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.96569444,
+   "lon": -66.58619444
+  },
+  "river-nepisiguit": {
+   "title": "Nepisiguit River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.55591667,
+   "lon": -65.66522222
+  },
+  "river-pic": {
+   "title": "Pic River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.60027778,
+   "lon": -86.3025
+  },
+  "river-rat": {
+   "title": "Rat River (Red River of the North tributary)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.58777778,
+   "lon": -97.13777778
+  },
+  "river-riviere-du-nord": {
+   "title": "Rivière du Nord (Laurentides)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.51888889,
+   "lon": -74.33638889
+  },
+  "river-sainte-anne-les-chenaux": {
+   "title": "Sainte-Anne River (Les Chenaux)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-seymour": {
+   "title": "Seymour River (Burrard Inlet)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.29722222,
+   "lon": -123.02222222
+  },
+  "river-tobique": {
+   "title": "Tobique River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.76666667,
+   "lon": -67.7
+  },
+  "river-wapiti": {
+   "title": "Wapiti River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 55.13784,
+   "lon": -118.30152
+  },
+  "river-whitemud-creek": {
+   "title": "Whitemud Creek",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.50583333,
+   "lon": -113.56194444
+  },
+  "river-babine": {
+   "title": "Babine River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 55.68305556,
+   "lon": -127.7
+  },
+  "river-beatton": {
+   "title": "Beatton River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 56.1,
+   "lon": -120.38333333
+  },
+  "river-berens": {
+   "title": "Berens River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 52.35694444,
+   "lon": -97.05111111
+  },
+  "river-big-otter-creek": {
+   "title": "Big Otter Creek",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 42.63972222,
+   "lon": -80.8075
+  },
+  "river-broadback": {
+   "title": "Broadback River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 51.35555556,
+   "lon": -78.86666667
+  },
+  "river-burntwood": {
+   "title": "Burntwood River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 56.13,
+   "lon": -96.55
+  },
+  "river-deadman": {
+   "title": "Deadman River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 50.74444444,
+   "lon": -120.91805556
+  },
+  "river-dease": {
+   "title": "Dease River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.91666667,
+   "lon": -128.48333333
+  },
+  "river-duncan": {
+   "title": "Duncan River (British Columbia)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.1727,
+   "lon": -116.9352
+  },
+  "river-firebag": {
+   "title": "Firebag River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 57.75166667,
+   "lon": -111.35333333
+  },
+  "river-fond-du-lac": {
+   "title": "Fond du Lac River (Saskatchewan)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 59.27222222,
+   "lon": -106
+  },
+  "river-gods": {
+   "title": "Gods River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 56.37222222,
+   "lon": -92.84861111
+  },
+  "river-grass": {
+   "title": "Grass River (Manitoba)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 56.04416667,
+   "lon": -96.57277778
+  },
+  "river-horton": {
+   "title": "Horton River (Canada)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 69.93361111,
+   "lon": -126.80277778
+  },
+  "river-kenogami": {
+   "title": "Kenogami River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 51.10611111,
+   "lon": -84.48166667
+  },
+  "river-little-abitibi": {
+   "title": "Little Abitibi River",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 50.48611111,
+   "lon": -81.52444444
+  },
+  "river-little-red-deer": {
+   "title": "Little Red Deer River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 52.06222222,
+   "lon": -114.12358333
+  },
+  "river-little-saskatchewan": {
+   "title": "Little Saskatchewan River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 49.87166667,
+   "lon": -100.12
+  },
+  "river-magpie-ontario": {
+   "title": "Magpie River (Ontario)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 47.93388889,
+   "lon": -84.84972222
+  },
+  "river-mistassini": {
+   "title": "Mistassini River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 48.70611111,
+   "lon": -72.31944444
+  },
+  "river-mountain": {
+   "title": "Mountain River (Northwest Territories)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 64.85833333,
+   "lon": -129.15416667
+  },
+  "river-muskwa": {
+   "title": "Muskwa River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 58.8304,
+   "lon": -122.5427
+  },
+  "river-musquodoboit": {
+   "title": "Musquodoboit River",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 44.78330556,
+   "lon": -63.13247222
+  },
+  "river-nastapoka": {
+   "title": "Nastapoka River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 56.91055556,
+   "lon": -76.54611111
+  },
+  "river-natashquan": {
+   "title": "Natashquan River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.11861111,
+   "lon": -61.80722222
+  },
+  "river-nimpkish": {
+   "title": "Nimpkish River",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 50.56638889,
+   "lon": -126.98194444
+  },
+  "river-parsnip": {
+   "title": "Parsnip River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 55.16666667,
+   "lon": -123.05
+  },
+  "river-petite-nation": {
+   "title": "Petite-Nation River",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 45.58583333,
+   "lon": -75.10861111
+  },
+  "river-riviere-du-loup": {
+   "title": "Rivière du Loup (Bas-Saint-Laurent)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 47.8519,
+   "lon": -69.5544
+  },
+  "river-rosebud": {
+   "title": "Rosebud River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 51.42072,
+   "lon": -112.62979
+  },
+  "river-stave": {
+   "title": "Stave River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 49.16666667,
+   "lon": -122.41666667
+  },
+  "river-swift-current-creek": {
+   "title": "Swift Current Creek",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.6444,
+   "lon": -107.7365
+  },
+  "river-taltson": {
+   "title": "Taltson River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 61.44777778,
+   "lon": -112.72777778
+  },
+  "river-thomsen": {
+   "title": "Thomsen River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 73.99481,
+   "lon": -119.7242
+  },
+  "river-tree": {
+   "title": "Tree River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 67.68333333,
+   "lon": -111.88333333
+  },
+  "river-wanapitei": {
+   "title": "Wanapitei River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 46.02611111,
+   "lon": -80.86027778
+  },
+  "river-west-road": {
+   "title": "West Road River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 53.31055556,
+   "lon": -122.87555556
+  },
+  "river-whitemouth": {
+   "title": "Whitemouth River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.12166667,
+   "lon": -96.03472222
+  },
+  "river-whitemud": {
+   "title": "Whitemud River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.30222222,
+   "lon": -98.5875
+  },
+  "river-whiteshell": {
+   "title": "Whiteshell River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.14972222,
+   "lon": -95.66444444
+  },
+  "river-zymoetz": {
+   "title": "Zymoetz River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 54.545,
+   "lon": -128.48583333
+  },
+  "river-again": {
+   "title": "Again River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 50.92777778,
+   "lon": -79.53555556
+  },
+  "river-arnaud": {
+   "title": "Arnaud River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.98194444,
+   "lon": -69.75861111
+  },
+  "river-bell-irving": {
+   "title": "Bell-Irving River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 56.16416667,
+   "lon": -129.02833333
+  },
+  "river-betsiamites": {
+   "title": "Betsiamites River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.93333333,
+   "lon": -68.62222222
+  },
+  "river-blackstone": {
+   "title": "Blackstone River (Alberta)",
+   "monthlyViews": 61,
+   "days": 54,
+   "lat": 52.82861111,
+   "lon": -116.08416667
+  },
+  "river-blanche": {
+   "title": "Blanche River (Lake Timiskaming)",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 47.56916667,
+   "lon": -79.53222222
+  },
+  "river-bonaparte": {
+   "title": "Bonaparte River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 50.73888889,
+   "lon": -121.25833333
+  },
+  "river-bowron": {
+   "title": "Bowron River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.05833333,
+   "lon": -121.82638889
+  },
+  "river-becancour": {
+   "title": "Bécancour River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.37222222,
+   "lon": -72.44638889
+  },
+  "river-cains": {
+   "title": "Cains River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.66533333,
+   "lon": -65.77716667
+  },
+  "river-cheslatta": {
+   "title": "Cheslatta River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 53.64527778,
+   "lon": -124.93694444
+  },
+  "river-chinchaga": {
+   "title": "Chinchaga River",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 58.87194444,
+   "lon": -118.31388889
+  },
+  "river-christina": {
+   "title": "Christina River (Alberta)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-cochrane": {
+   "title": "Cochrane River (Manitoba)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 57.885,
+   "lon": -101.57055556
+  },
+  "river-desert": {
+   "title": "Désert River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.3856,
+   "lon": -75.9742
+  },
+  "river-dog": {
+   "title": "Dog River (Ontario)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.57573,
+   "lon": -89.60239
+  },
+  "river-dungarvon": {
+   "title": "Dungarvon River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.82133333,
+   "lon": -65.79241667
+  },
+  "river-eagle-creek": {
+   "title": "Eagle Creek (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 52.3465,
+   "lon": -107.4059
+  },
+  "river-ekwan": {
+   "title": "Ekwan River",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 53.2,
+   "lon": -82.24972222
+  },
+  "river-fort-nelson": {
+   "title": "Fort Nelson River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.54639,
+   "lon": -123.99432
+  },
+  "river-frederick-house": {
+   "title": "Frederick House River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.31138889,
+   "lon": -81.28138889
+  },
+  "river-granby": {
+   "title": "Granby River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.03333333,
+   "lon": -118.43333333
+  },
+  "river-groundhog": {
+   "title": "Groundhog River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.71777778,
+   "lon": -81.96777778
+  },
+  "river-gull-thunder-bay": {
+   "title": "Gull River (Lake Nipigon)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 49.82055556,
+   "lon": -89.08861111
+  },
+  "river-hornaday": {
+   "title": "Hornaday River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 69.33055556,
+   "lon": -123.79472222
+  },
+  "river-horsefly": {
+   "title": "Horsefly River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 52.46666667,
+   "lon": -121.38333333
+  },
+  "river-kechika": {
+   "title": "Kechika River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.62416667,
+   "lon": -127.14666667
+  },
+  "river-kesagami": {
+   "title": "Kesagami River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 51.14833333,
+   "lon": -79.77944444
+  },
+  "river-kipawa": {
+   "title": "Kipawa River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 47.05,
+   "lon": -79.38722222
+  },
+  "river-kiskatinaw": {
+   "title": "Kiskatinaw River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 55.04377,
+   "lon": -120.67515
+  },
+  "river-kitimat": {
+   "title": "Kitimat River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.01083333,
+   "lon": -128.66222222
+  },
+  "river-kopka": {
+   "title": "Kopka River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 50.05416667,
+   "lon": -89.01583333
+  },
+  "river-la-salle": {
+   "title": "La Salle River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.75611111,
+   "lon": -97.14138889
+  },
+  "river-little-bow": {
+   "title": "Little Bow River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 49.88805556,
+   "lon": -112.47527778
+  },
+  "river-little-smoky": {
+   "title": "Little Smoky River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 55.6737,
+   "lon": -117.62706
+  },
+  "river-malbaie": {
+   "title": "Malbaie River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-manigotagan": {
+   "title": "Manigotagan River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 51.1175,
+   "lon": -96.34111111
+  },
+  "river-matane": {
+   "title": "Matane River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.85305556,
+   "lon": -67.53361111
+  },
+  "river-matawin": {
+   "title": "Matawin River (Quebec)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.90444444,
+   "lon": -72.93277778
+  },
+  "river-miette": {
+   "title": "Miette River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 52.86527778,
+   "lon": -118.07
+  },
+  "river-morice": {
+   "title": "Morice River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 54.4106,
+   "lon": -126.7464
+  },
+  "river-naskaupi": {
+   "title": "Naskaupi River",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 53.7781,
+   "lon": -60.8441
+  },
+  "river-nicolet": {
+   "title": "Nicolet River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.2526,
+   "lon": -72.6524
+  },
+  "river-nipissing": {
+   "title": "Nipissing River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 46.00611111,
+   "lon": -78.51694444
+  },
+  "river-north-nahanni": {
+   "title": "North Nahanni River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 62.2519,
+   "lon": -123.3283
+  },
+  "river-omineca": {
+   "title": "Omineca River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 56.11666667,
+   "lon": -124.48333333
+  },
+  "river-ouareau": {
+   "title": "Ouareau River",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 45.94,
+   "lon": -73.4075
+  },
+  "river-peribonka": {
+   "title": "Peribonka River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.74694444,
+   "lon": -72.10361111
+  },
+  "river-pipestone": {
+   "title": "Pipestone River (Kenora District)",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 52.88888889,
+   "lon": -89.38833333
+  },
+  "river-pouce-coupe": {
+   "title": "Pouce Coupe River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 56.13158,
+   "lon": -119.91116
+  },
+  "river-prophet": {
+   "title": "Prophet River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 58.762,
+   "lon": -122.73952
+  },
+  "river-ram": {
+   "title": "Ram River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 52.37555556,
+   "lon": -115.40166667
+  },
+  "river-raven": {
+   "title": "Raven River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 52.0326,
+   "lon": -114.3673
+  },
+  "river-rimouski": {
+   "title": "Rimouski River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.47055556,
+   "lon": -68.52138889
+  },
+  "river-saint-jean": {
+   "title": "Saint-Jean River (Minganie)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 50.283333,
+   "lon": -64.334444
+  },
+  "river-sainte-anne-beaupre": {
+   "title": "Sainte-Anne River (Beaupré)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 47.040051,
+   "lon": -70.883446
+  },
+  "river-sainte-marguerite-sept-iles": {
+   "title": "Sainte-Marguerite River (Sept-Îles)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 50.14278,
+   "lon": -66.59666
+  },
+  "river-sikanni-chief": {
+   "title": "Sikanni Chief River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 58.28333333,
+   "lon": -121.75
+  },
+  "river-sissiboo": {
+   "title": "Sissiboo River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 44.41238889,
+   "lon": -66.00588889
+  },
+  "river-snare": {
+   "title": "Snare River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 63.11666667,
+   "lon": -115.88333333
+  },
+  "river-soper": {
+   "title": "Soper River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 62.9,
+   "lon": -69.85
+  },
+  "river-southwest-miramichi": {
+   "title": "Southwest Miramichi River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 46.82988889,
+   "lon": -65.78386111
+  },
+  "river-stuart": {
+   "title": "Stuart River (Canada)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 53.98805556,
+   "lon": -123.54111111
+  },
+  "river-sturgeon-weir": {
+   "title": "Sturgeon-Weir River",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 54.27305556,
+   "lon": -101.81694444
+  },
+  "river-sutton": {
+   "title": "Sutton River (Hudson Bay)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 55.2283,
+   "lon": -83.6891
+  },
+  "river-takhini": {
+   "title": "Takhini River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.84138889,
+   "lon": -135.18221944
+  },
+  "river-thlewiaza": {
+   "title": "Thlewiaza River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 60.48305556,
+   "lon": -94.66666667
+  },
+  "river-torch": {
+   "title": "Torch River (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 53.861,
+   "lon": -103.0962
+  },
+  "river-tuchodi": {
+   "title": "Tuchodi River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 58.360673,
+   "lon": -123.634352
+  },
+  "river-turnagain": {
+   "title": "Turnagain River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 59.15305556,
+   "lon": -127.59861111
+  },
+  "river-tusket": {
+   "title": "Tusket River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 43.88361111,
+   "lon": -65.98388889
+  },
+  "river-whitesand": {
+   "title": "Whitesand River (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 51.56777778,
+   "lon": -101.92361111
+  },
+  "river-acadia": {
+   "title": "Acadia River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 45.48361,
+   "lon": -73.26917
+  },
+  "river-aguanish": {
+   "title": "Aguanish River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 50.2180556,
+   "lon": -62.0861111
+  },
+  "river-armit": {
+   "title": "Armit River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 52.9359,
+   "lon": -101.5131
+  },
+  "river-asiak": {
+   "title": "Asiak River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 67.76444444,
+   "lon": -114.41694444
+  },
+  "river-aubinadong": {
+   "title": "Aubinadong River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.85694444,
+   "lon": -83.36416667
+  },
+  "river-riviere-aux-sables": {
+   "title": "River aux Sables",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 46.21055556,
+   "lon": -82.05833333
+  },
+  "river-batchawana": {
+   "title": "Batchawana River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 46.93027778,
+   "lon": -84.52833333
+  },
+  "river-bay-du-nord": {
+   "title": "Bay du Nord River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.71324167,
+   "lon": -55.41718056
+  },
+  "river-bell": {
+   "title": "Bell River (Quebec)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.81277778,
+   "lon": -77.65527778
+  },
+  "river-bloody": {
+   "title": "Bloody River (Canada)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 66.93361111,
+   "lon": -120.56861111
+  },
+  "river-bonnet-plume": {
+   "title": "Bonnet Plume River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 65.9386,
+   "lon": -134.923
+  },
+  "river-bostonnais": {
+   "title": "Bostonnais River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.45944444,
+   "lon": -72.77972222
+  },
+  "river-bouleau": {
+   "title": "Bouleau River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 50.281944,
+   "lon": -65.514722
+  },
+  "river-bridge-creek": {
+   "title": "Bridge Creek (British Columbia)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 51.76666667,
+   "lon": -120.9
+  },
+  "river-brightsand": {
+   "title": "Brightsand River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 50.24055556,
+   "lon": -90.15972222
+  },
+  "river-brightwater-creek": {
+   "title": "Brightwater Creek",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 51.9813,
+   "lon": -106.7239
+  },
+  "river-brock": {
+   "title": "Brock River (Chibougamau River)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.01305556,
+   "lon": -75.08166667
+  },
+  "river-brokenhead": {
+   "title": "Brokenhead River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.38222222,
+   "lon": -96.71555556
+  },
+  "river-buckinghorse": {
+   "title": "Buckinghorse River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-burnside": {
+   "title": "Burnside River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 66.85,
+   "lon": -108.06666667
+  },
+  "river-canaan": {
+   "title": "Canaan River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.9128,
+   "lon": -65.7979
+  },
+  "river-cariboo": {
+   "title": "Cariboo River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 52.6625,
+   "lon": -121.67555556
+  },
+  "river-cat": {
+   "title": "Cat River (Ontario)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 50.98,
+   "lon": -91.29944444
+  },
+  "river-chibougamau": {
+   "title": "Chibougamau River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.68694444,
+   "lon": -75.96222222
+  },
+  "river-chutine": {
+   "title": "Chutine River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 57.6525,
+   "lon": -131.63277778
+  },
+  "river-cree": {
+   "title": "Cree River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 58.95027778,
+   "lon": -105.78416667
+  },
+  "river-croche": {
+   "title": "Croche River (La Tuque)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.49444444,
+   "lon": -72.77472222
+  },
+  "river-croker": {
+   "title": "Croker River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 69.3,
+   "lon": -119.31666667
+  },
+  "river-trinite": {
+   "title": "Trinité River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 49.418167,
+   "lon": -67.302542
+  },
+  "river-detour": {
+   "title": "Detour River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 49.93888889,
+   "lon": -79.425
+  },
+  "river-du-chef": {
+   "title": "Du Chef River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 49.33916667,
+   "lon": -73.39333333
+  },
+  "river-echoing": {
+   "title": "Echoing River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 55.84777778,
+   "lon": -92.08138889
+  },
+  "river-ekalluk": {
+   "title": "Ekalluk River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 69.4,
+   "lon": -106.3
+  },
+  "river-kuunajuk": {
+   "title": "Kuunajuk",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 68.04916667,
+   "lon": -103.99
+  },
+  "river-englehart": {
+   "title": "Englehart River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.84666667,
+   "lon": -79.83944444
+  },
+  "river-etchemin": {
+   "title": "Etchemin River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.76333333,
+   "lon": -71.23083333
+  },
+  "river-etomami": {
+   "title": "Etomami River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.82777778,
+   "lon": -102.37138889
+  },
+  "river-ferguson": {
+   "title": "Ferguson River (Nunavut)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 62.8375,
+   "lon": -96.69222222
+  },
+  "river-fir": {
+   "title": "Fir River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 52.8185,
+   "lon": -102.3785
+  },
+  "river-fire": {
+   "title": "Fire River (Ontario)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 48.86888889,
+   "lon": -83.35166667
+  },
+  "river-frances": {
+   "title": "Frances River (Yukon)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 61.22472222,
+   "lon": -129.28305556
+  },
+  "river-frog": {
+   "title": "Frog River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 58.5047,
+   "lon": -126.8678
+  },
+  "river-gataga": {
+   "title": "Gataga River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 58.58,
+   "lon": -126.92361111
+  },
+  "river-geikie": {
+   "title": "Geikie River (Saskatchewan)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 57.75,
+   "lon": -103.86722222
+  },
+  "river-godbout": {
+   "title": "Godbout River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 49.3083333,
+   "lon": -67.6047222
+  },
+  "river-halfway": {
+   "title": "Halfway River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 56.21157,
+   "lon": -121.44618
+  },
+  "river-horn": {
+   "title": "Horn River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 61.47665,
+   "lon": -118.08075
+  },
+  "river-ingenika": {
+   "title": "Ingenika River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 56.73833333,
+   "lon": -125.03694444
+  },
+  "river-ivanhoe": {
+   "title": "Ivanhoe River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 48.67416667,
+   "lon": -82.19083333
+  },
+  "river-kabinakagami": {
+   "title": "Kabinakagami River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 50.41277778,
+   "lon": -84.36555556
+  },
+  "river-kakisa": {
+   "title": "Kakisa River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 61.0655,
+   "lon": -117.15901
+  },
+  "river-kakwa": {
+   "title": "Kakwa River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 54.61372,
+   "lon": -118.45993
+  },
+  "river-kapiskau": {
+   "title": "Kapiskau River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 52.76944444,
+   "lon": -81.97027778
+  },
+  "river-lawagamau": {
+   "title": "Lawagamau River",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 51.06583333,
+   "lon": -79.73194444
+  },
+  "river-kegaska": {
+   "title": "Kegaska River",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 50.1789,
+   "lon": -61.3508
+  },
+  "river-kispiox": {
+   "title": "Kispiox River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 55.3425,
+   "lon": -127.69333333
+  },
+  "river-kitlope": {
+   "title": "Kitlope River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 53.25027778,
+   "lon": -127.89305556
+  },
+  "river-klappan": {
+   "title": "Klappan River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 57.95,
+   "lon": -129.66666667
+  },
+  "river-kotaneelee": {
+   "title": "Kotaneelee River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 60.18061944,
+   "lon": -123.70048056
+  },
+  "river-kovik": {
+   "title": "Kovik River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 61.59027778,
+   "lon": -77.605
+  },
+  "river-limestone": {
+   "title": "Limestone River (Manitoba)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 56.515,
+   "lon": -94.11972222
+  },
+  "river-little-churchill": {
+   "title": "Little Churchill River",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 57.50555556,
+   "lon": -95.35833333
+  },
+  "river-little-main-restigouche": {
+   "title": "Little Main Restigouche River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.66416667,
+   "lon": -67.49138889
+  },
+  "river-little-mecatina": {
+   "title": "Little Mecatina River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 50.65667,
+   "lon": -59.42944
+  },
+  "river-little-southwest-miramichi": {
+   "title": "Little Southwest Miramichi River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.9289,
+   "lon": -65.9516
+  },
+  "river-little-whale": {
+   "title": "Little Whale River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 56.00416667,
+   "lon": -76.78333333
+  },
+  "river-macmillan": {
+   "title": "Macmillan River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 62.86805556,
+   "lon": -135.89833333
+  },
+  "river-manitou": {
+   "title": "Manitou River (Quebec)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.29778,
+   "lon": -65.24139
+  },
+  "river-mcconnell": {
+   "title": "McConnell River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 60.82055556,
+   "lon": -94.36611111
+  },
+  "river-mcgregor": {
+   "title": "McGregor River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 54.17972222,
+   "lon": -122.03388889
+  },
+  "river-medicine": {
+   "title": "Medicine River (Alberta)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 52.06,
+   "lon": -114.09888889
+  },
+  "river-mess-creek": {
+   "title": "Mess Creek",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 57.89027778,
+   "lon": -131.20805556
+  },
+  "river-mikkwa": {
+   "title": "Mikkwa River",
+   "monthlyViews": 30,
+   "days": 22,
+   "lat": 58.40972222,
+   "lon": -114.76694444
+  },
+  "river-minago": {
+   "title": "Minago River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 54.54944444,
+   "lon": -98.19944444
+  },
+  "river-mingan": {
+   "title": "Mingan River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.295833,
+   "lon": -63.989444
+  },
+  "river-misinchinka": {
+   "title": "Misinchinka River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-montreal-saskatchewan": {
+   "title": "Montreal River (Saskatchewan)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 55.08333333,
+   "lon": -105.31722222
+  },
+  "river-mulligan": {
+   "title": "Mulligan River",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": -24.9625,
+   "lon": 138.58611111
+  },
+  "river-megiscane": {
+   "title": "Mégiscane River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-metabetchouane": {
+   "title": "Métabetchouane River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.42083333,
+   "lon": -71.96527778
+  },
+  "river-nakina": {
+   "title": "Nakina River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 58.9,
+   "lon": -133.13333333
+  },
+  "river-namewaminikan": {
+   "title": "Namewaminikan River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.66333333,
+   "lon": -88.09416667
+  },
+  "river-nanook": {
+   "title": "Nanook River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 71.6,
+   "lon": -107.783
+  },
+  "river-nation": {
+   "title": "Nation River (British Columbia)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 55.48583333,
+   "lon": -123.52416667
+  },
+  "river-nemiscau": {
+   "title": "Nemiscau River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 50.24555556,
+   "lon": -73.81583333
+  },
+  "river-nipekamew": {
+   "title": "Nipekamew River",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 54.9769,
+   "lon": -104.8654
+  },
+  "river-noire-monteregie": {
+   "title": "Noire River (Yamaska River tributary)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 45.54611111,
+   "lon": -72.9625
+  },
+  "river-northwest-miramichi": {
+   "title": "Northwest Miramichi River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.96608333,
+   "lon": -65.59402778
+  },
+  "river-opawica": {
+   "title": "Opawica River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 49.68527778,
+   "lon": -75.96361111
+  },
+  "river-ospika": {
+   "title": "Ospika River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 56.31666667,
+   "lon": -123.95
+  },
+  "river-owl": {
+   "title": "Owl River (Manitoba)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 57.84583333,
+   "lon": -92.75027778
+  },
+  "river-pasquia": {
+   "title": "Pasquia River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 53.5703,
+   "lon": -101.7443
+  },
+  "river-patapedia": {
+   "title": "Patapedia River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 47.84388889,
+   "lon": -67.37444444
+  },
+  "river-pentecote": {
+   "title": "Pentecôte River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 49.78,
+   "lon": -67.1644444
+  },
+  "river-perry": {
+   "title": "Perry River (Nunavut)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 67.71666667,
+   "lon": -102.23333333
+  },
+  "river-petit-saguenay": {
+   "title": "Petit Saguenay River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.23444,
+   "lon": -70.10028
+  },
+  "river-petitot": {
+   "title": "Petitot River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 60.23333333,
+   "lon": -123.485
+  },
+  "river-picanoc": {
+   "title": "Picanoc River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.07388889,
+   "lon": -76.05527778
+  },
+  "river-povungnituk": {
+   "title": "Povungnituk River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 60.02638889,
+   "lon": -77.33277778
+  },
+  "river-rae": {
+   "title": "Rae River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 67.917,
+   "lon": -115.55
+  },
+  "river-raush": {
+   "title": "Raush River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 53.20055556,
+   "lon": -120.00861111
+  },
+  "river-redstone": {
+   "title": "Redstone River (Mackenzie)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 64.28611111,
+   "lon": -124.54444444
+  },
+  "river-redwillow": {
+   "title": "Redwillow River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 55.03078,
+   "lon": -119.30938
+  },
+  "river-reindeer": {
+   "title": "Reindeer River (Saskatchewan)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 55.6,
+   "lon": -103.18361111
+  },
+  "river-richardson": {
+   "title": "Richardson River (Canada)",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": 67.90902624,
+   "lon": -115.52546122
+  },
+  "river-riviere-aux-melezes": {
+   "title": "Rivière aux Mélèzes",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 57.6761,
+   "lon": -69.4883
+  },
+  "river-riviere-aux-outardes": {
+   "title": "Rivière aux Outardes (North Shore)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.06194444,
+   "lon": -68.46611111
+  },
+  "river-riviere-du-chene": {
+   "title": "Rivière du Chêne",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 46.57472,
+   "lon": -71.99861
+  },
+  "river-riviere-du-moulin": {
+   "title": "Rivière du Moulin (rivière Saguenay)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 48.430662,
+   "lon": -71.033458
+  },
+  "river-riviere-du-sud": {
+   "title": "Rivière du Sud (Montmagny)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.98611,
+   "lon": -70.55083
+  },
+  "river-riviere-a-mars": {
+   "title": "Rivière à Mars",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.33583,
+   "lon": -70.87972
+  },
+  "river-roggan": {
+   "title": "Roggan River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 54.41,
+   "lon": -79.46638889
+  },
+  "river-ross": {
+   "title": "Ross River (Yukon)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 61.98361111,
+   "lon": -132.4225
+  },
+  "river-sachigo": {
+   "title": "Sachigo River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 55.07583333,
+   "lon": -88.98388889
+  },
+  "river-saint-augustin": {
+   "title": "Saint-Augustin River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 51.2177778,
+   "lon": -58.6355556
+  },
+  "river-sainte-marguerite-saguenay": {
+   "title": "Sainte-Marguerite River (Saguenay)",
+   "monthlyViews": 30,
+   "days": 45,
+   "lat": 48.2631,
+   "lon": -69.9456
+  },
+  "river-seignelay": {
+   "title": "Seignelay River",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": 51.61361111,
+   "lon": -69.06527778
+  },
+  "river-sheldrake": {
+   "title": "Sheldrake River (Minganie)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 50.271667,
+   "lon": -64.929167
+  },
+  "river-shell": {
+   "title": "Shell River (Assiniboine River tributary)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.96555556,
+   "lon": -101.40888889
+  },
+  "river-sheslay": {
+   "title": "Sheslay River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 58.77611111,
+   "lon": -132.09388889
+  },
+  "river-smoothstone": {
+   "title": "Smoothstone River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 55.3328,
+   "lon": -106.6453
+  },
+  "river-snake-indian": {
+   "title": "Snake Indian River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 53.18444444,
+   "lon": -117.98666667
+  },
+  "river-spatsizi": {
+   "title": "Spatsizi River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 57.7075,
+   "lon": -128.10305556
+  },
+  "river-spillimacheen": {
+   "title": "Spillimacheen River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 50.91666667,
+   "lon": -116.4
+  },
+  "river-steel": {
+   "title": "Steel River (Ontario)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 48.77138889,
+   "lon": -86.895
+  },
+  "river-sustut": {
+   "title": "Sustut River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 56.31666667,
+   "lon": -127.36666667
+  },
+  "river-tahltan": {
+   "title": "Tahltan River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 58.00972222,
+   "lon": -130.98083333
+  },
+  "river-tanzilla": {
+   "title": "Tanzilla River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 58.12694444,
+   "lon": -130.66972222
+  },
+  "river-taseko": {
+   "title": "Taseko River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.00722222,
+   "lon": -123.6775
+  },
+  "river-terra-nova": {
+   "title": "Terra Nova River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 48.67166667,
+   "lon": -54.00138889
+  },
+  "river-tetsa": {
+   "title": "Tetsa River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-theo": {
+   "title": "Théo River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 49.95138889,
+   "lon": -79.17166667
+  },
+  "river-toad": {
+   "title": "Toad River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 59.38333333,
+   "lon": -124.91666667
+  },
+  "river-tonnerre": {
+   "title": "Tonnerre River (Minganie)",
+   "monthlyViews": 30,
+   "days": 29,
+   "lat": 50.27361111,
+   "lon": -64.77944444
+  },
+  "river-trout-british-columbia": {
+   "title": "Trout River (British Columbia)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 59.4,
+   "lon": -126.01666667
+  },
+  "river-trout-northwest-territories": {
+   "title": "Trout River (Northwest Territories)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 61.30423,
+   "lon": -119.84453
+  },
+  "river-turgeon": {
+   "title": "Turgeon River (Harricana River tributary)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.00833333,
+   "lon": -78.93277778
+  },
+  "river-tuya": {
+   "title": "Tuya River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 58.04027778,
+   "lon": -130.85111111
+  },
+  "river-wabasca": {
+   "title": "Wabasca River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 58.35111111,
+   "lon": -115.33
+  },
+  "river-waswanipi": {
+   "title": "Waswanipi River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 49.89111111,
+   "lon": -77.25583333
+  },
+  "river-waterhen": {
+   "title": "Waterhen River (Saskatchewan)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 54.63861111,
+   "lon": -107.77805556
+  },
+  "river-wawagosic": {
+   "title": "Wawagosic River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 49.96416667,
+   "lon": -79.09166667
+  },
+  "river-weir": {
+   "title": "Weir River (Manitoba)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 56.90888889,
+   "lon": -93.3575
+  },
+  "river-west-kettle": {
+   "title": "West Kettle River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.16611111,
+   "lon": -118.97277778
+  },
+  "river-wetetnagami": {
+   "title": "Wetetnagami River",
+   "monthlyViews": 30,
+   "days": 49,
+   "lat": 49.28694444,
+   "lon": -76.9075
+  },
+  "river-whale": {
+   "title": "Whale River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 58.25583333,
+   "lon": -67.61666667
+  },
+  "river-whitefish-northwest-territories": {
+   "title": "Whitefish River (Northwest Territories)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 65.91666667,
+   "lon": -124.80194444
+  },
+  "river-whitefish-yukon": {
+   "title": "Whitefish River (Yukon)",
+   "monthlyViews": 30,
+   "days": 47,
+   "lat": 60.18972222,
+   "lon": -125.05
+  },
+  "river-windigo": {
+   "title": "Windigo River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.77694444,
+   "lon": -73.3225
+  },
+  "river-woody": {
+   "title": "Woody River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.5103,
+   "lon": -100.8463
+  },
+  "river-thames-ontario": {
+   "title": "Thames River (Ontario)",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 42.31916667,
+   "lon": -82.45416667
+  },
+  "river-don-ontario": {
+   "title": "Don River (Ontario)",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-humber-ontario": {
+   "title": "Humber River (Ontario)",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 43.63222222,
+   "lon": -79.47194444
+  },
+  "river-mississippi-ontario": {
+   "title": "Mississippi River (Ontario)",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 45.44138889,
+   "lon": -76.28527778
+  },
+  "river-churchill-river-labrador": {
+   "title": "Churchill River (Atlantic)",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 53.34944444,
+   "lon": -60.1775
+  },
+  "river-trent-ontario": {
+   "title": "Trent River (Ontario)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 44.09833333,
+   "lon": -77.57083333
+  },
+  "river-welland-ontario": {
+   "title": "Welland River",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 43.06334,
+   "lon": -79.04504
+  },
+  "river-george": {
+   "title": "George River (Quebec)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 58.81666667,
+   "lon": -66.16666667
+  },
+  "river-pembina-alberta": {
+   "title": "Pembina River (Alberta)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 54.74333333,
+   "lon": -114.28361111
+  },
+  "river-elk-british-columbia": {
+   "title": "Elk River (British Columbia)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 49.16666667,
+   "lon": -115.21666667
+  },
+  "river-nith-ontario": {
+   "title": "Nith River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-sixteen-mile-creek-ontario": {
+   "title": "Sixteen Mile Creek (Halton Region)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 43.43944444,
+   "lon": -79.66583333
+  },
+  "river-smoky": {
+   "title": "Smoky River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 56.18583333,
+   "lon": -117.33416667
+  },
+  "river-sturgeon-alberta": {
+   "title": "Sturgeon River (Alberta)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 53.76805556,
+   "lon": -113.17083333
+  },
+  "river-clearwater-saskatchewan": {
+   "title": "Clearwater River (Saskatchewan)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 56.74805556,
+   "lon": -111.38372222
+  },
+  "river-beaver-alberta": {
+   "title": "Beaver River (Canada)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 55.43083333,
+   "lon": -107.75972222
+  },
+  "river-clearwater-alberta": {
+   "title": "Clearwater River (Alberta)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 52.36194444,
+   "lon": -114.94777778
+  },
+  "river-seine-manitoba": {
+   "title": "Seine River (Manitoba)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.9,
+   "lon": -97.11
+  },
+  "river-severn-ontario": {
+   "title": "Severn River (Hudson Bay)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 55.98333333,
+   "lon": -87.63333333
+  },
+  "river-clearwater-british-columbia": {
+   "title": "Clearwater River (British Columbia)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.63305556,
+   "lon": -120.08055556
+  },
+  "river-eagle-yukon": {
+   "title": "Eagle River (Yukon)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-leaf-quebec": {
+   "title": "Leaf River (Quebec)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 58.77694444,
+   "lon": -70.06666667
+  },
+  "river-rouge-quebec": {
+   "title": "Rouge River (Laurentides)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.64277778,
+   "lon": -74.69166667
+  },
+  "river-sturgeon-ontario": {
+   "title": "Sturgeon River (Lake Nipissing)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.31722222,
+   "lon": -79.96777778
+  },
+  "river-white-ontario": {
+   "title": "White River (Ontario)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 48.54694444,
+   "lon": -86.26833333
+  },
+  "river-anderson-northwest-territories": {
+   "title": "Anderson River (Northwest Territories)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 69.71666667,
+   "lon": -129
+  },
+  "river-humber-newfoundland-and-labrador": {
+   "title": "Humber River (Newfoundland and Labrador)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.95851389,
+   "lon": -57.89479444
+  },
+  "river-indian-yukon": {
+   "title": "Indian River (Yukon)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 63.78555556,
+   "lon": -139.7275
+  },
+  "river-mersey-nova-scotia": {
+   "title": "Mersey River (Nova Scotia)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.04975,
+   "lon": -64.73911111
+  },
+  "river-salmon-british-columbia": {
+   "title": "Salmon River (Shuswap Lake)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.684888,
+   "lon": -119.334907
+  },
+  "river-vermilion-ontario": {
+   "title": "Vermilion River (Sudbury District)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.26027778,
+   "lon": -81.68638889
+  },
+  "river-coldwater-british-columbia": {
+   "title": "Coldwater River (British Columbia)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.11444444,
+   "lon": -120.80416667
+  },
+  "river-eagle-british-columbia": {
+   "title": "Eagle River (Shuswap Lake)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.84305556,
+   "lon": -119.01083333
+  },
+  "river-pine-british-columbia": {
+   "title": "Pine River (British Columbia)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-poplar-manitoba": {
+   "title": "Poplar River (Manitoba)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 52.99611111,
+   "lon": -97.30027778
+  },
+  "river-seine-ontario": {
+   "title": "Seine River (Ontario)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 48.66555556,
+   "lon": -92.82194444
+  },
+  "river-swan-river-manitoba": {
+   "title": "Swan River (Manitoba–Saskatchewan)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 52.49444444,
+   "lon": -100.75416667
+  },
+  "river-vermilion-alberta": {
+   "title": "Vermilion River (Alberta)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 53.65944444,
+   "lon": -110.33555556
+  },
+  "river-wind-yukon": {
+   "title": "Wind River (Yukon)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 65.84138889,
+   "lon": -135.30722222
+  },
+  "river-james-alberta": {
+   "title": "James River (Alberta)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 51.90861111,
+   "lon": -114.56416667
+  },
+  "river-medway-nova-scotia": {
+   "title": "Medway River (Nova Scotia)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 44.25955556,
+   "lon": -64.83958333
+  },
+  "river-pipestone-creek-alberta": {
+   "title": "Pipestone Creek",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 52.97583333,
+   "lon": -113.15666667
+  },
+  "river-pipestone-creek-saskatchewan": {
+   "title": "Pipestone Creek (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-red-deer-manitoba": {
+   "title": "Red Deer River (Manitoba)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 52.8951,
+   "lon": -101.0115
+  },
+  "river-saint-paul-river-quebec": {
+   "title": "Saint-Paul River",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 51.4694444,
+   "lon": -57.7013889
+  },
+  "river-salmon-new-brunswick": {
+   "title": "Salmon River (New Brunswick)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 46.09944444,
+   "lon": -65.925
+  },
+  "river-salmon-vancouver-island": {
+   "title": "Salmon River (Vancouver Island)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 50.37305556,
+   "lon": -125.92972222
+  },
+  "river-snake-river-yukon": {
+   "title": "Snake River (Yukon)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 65.98094444,
+   "lon": -134.19625
+  },
+  "river-st-mary-british-columbia": {
+   "title": "St. Mary River (British Columbia)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 49.61666667,
+   "lon": -115.65
+  },
+  "river-sturgeon-saskatchewan": {
+   "title": "Sturgeon River (Saskatchewan)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 53.2035,
+   "lon": -105.8637
+  },
+  "river-beaver-british-columbia": {
+   "title": "Beaver River (Liard River tributary)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 59.69722222,
+   "lon": -124.3
+  },
+  "river-black-river-ontario": {
+   "title": "Black River (Abitibi River tributary)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 48.69944444,
+   "lon": -80.635
+  },
+  "river-bow-saskatchewan": {
+   "title": "Bow River (Saskatchewan)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 54.9274,
+   "lon": -105.2134
+  },
+  "river-boyne-manitoba": {
+   "title": "Boyne River (Manitoba)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.575,
+   "lon": -97.575
+  },
+  "river-clearwater-quebec": {
+   "title": "Clearwater River (Quebec)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 56.17423056,
+   "lon": -75.46096944
+  },
+  "river-crooked-british-columbia": {
+   "title": "Crooked River (British Columbia)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 54.8386,
+   "lon": -122.8875
+  },
+  "river-elk-alberta": {
+   "title": "Elk River (Alberta)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 52.95055556,
+   "lon": -115.71138889
+  },
+  "river-fawn-ontario": {
+   "title": "Fawn River (Ontario)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 55.36166667,
+   "lon": -88.33
+  },
+  "river-fox-ontario": {
+   "title": "Fox River (Kenora District)",
+   "monthlyViews": 30,
+   "days": 49,
+   "lat": 52.20027778,
+   "lon": -92.10916667
+  },
+  "river-fraser-newfoundland-and-labrador": {
+   "title": "Fraser River (Newfoundland and Labrador)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 56.62035278,
+   "lon": -62.25333333
+  },
+  "river-hayes-nunavut": {
+   "title": "Hayes River (Nunavut)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 67.13333333,
+   "lon": -95.28333333
+  },
+  "river-little-white-ontario": {
+   "title": "Little White River (Ontario)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 46.38166667,
+   "lon": -83.33388889
+  },
+  "river-rancheria-yukon": {
+   "title": "Rancheria River (Yukon)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 60.2225,
+   "lon": -129.14444444
+  },
+  "river-south-river-ontario": {
+   "title": "South River (Ontario)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 46.12611111,
+   "lon": -79.57277778
+  },
+  "river-willow-british-columbia": {
+   "title": "Willow River (British Columbia)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 54.08638889,
+   "lon": -122.50777778
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

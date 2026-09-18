@@ -30,5 +30,6 @@
   "sizeUnit": "km",
   "minSize": 80,
   "famousViews": 1000,
-  "spellings": "river"
+  "spellings": "river",
+  "noFigureViews": 122
 }
