@@ -292,7 +292,7 @@
   "lon": -16.675
  },
  {
-  "id": "city-alexandria",
+  "id": "city-alexandria-egypt",
   "category": "city",
   "name": "Alexandria",
   "aliases": [],
@@ -310,6 +310,7 @@
    "black"
   ],
   "source": "English Wikipedia pageviews for \"Alexandria\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Egypt",
+  "qualifier": "Egypt",
   "magnitude": 56314,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Alexandria",
@@ -1774,7 +1775,7 @@
   "lon": 34.45972222
  },
  {
-  "id": "city-bethlehem",
+  "id": "city-bethlehem-palestine",
   "category": "city",
   "name": "Bethlehem",
   "aliases": [],
@@ -1792,6 +1793,7 @@
    "black"
   ],
   "source": "English Wikipedia pageviews for \"Bethlehem\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Palestine",
+  "qualifier": "Palestine",
   "magnitude": 31384,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Bethlehem",
@@ -3855,7 +3857,7 @@
   "lon": 11.575
  },
  {
-  "id": "city-hamburg",
+  "id": "city-hamburg-germany",
   "category": "city",
   "name": "Hamburg",
   "aliases": [],
@@ -3872,6 +3874,7 @@
    "black"
   ],
   "source": "English Wikipedia pageviews for \"Hamburg\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Germany",
+  "qualifier": "Germany",
   "magnitude": 58658,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Hamburg",
@@ -3879,7 +3882,7 @@
   "lon": 10
  },
  {
-  "id": "city-frankfurt",
+  "id": "city-frankfurt-main",
   "category": "city",
   "name": "Frankfurt",
   "aliases": [
@@ -3898,6 +3901,7 @@
    "black"
   ],
   "source": "English Wikipedia pageviews for \"Frankfurt\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Germany",
+  "qualifier": "Main",
   "magnitude": 48095,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Frankfurt",
@@ -4080,7 +4084,7 @@
   "lon": -0.58
  },
  {
-  "id": "city-manchester",
+  "id": "city-manchester-england",
   "category": "city",
   "name": "Manchester",
   "aliases": [],
@@ -4097,6 +4101,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Manchester\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 73543,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Manchester",
@@ -4104,7 +4109,7 @@
   "lon": -2.24527778
  },
  {
-  "id": "city-birmingham",
+  "id": "city-birmingham-england",
   "category": "city",
   "name": "Birmingham",
   "aliases": [],
@@ -4121,6 +4126,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Birmingham\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 85202,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Birmingham",
@@ -4224,7 +4230,7 @@
   "lon": -1.25777778
  },
  {
-  "id": "city-cambridge",
+  "id": "city-cambridge-england",
   "category": "city",
   "name": "Cambridge",
   "aliases": [],
@@ -4241,6 +4247,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Cambridge\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 33027,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Cambridge",
@@ -4272,7 +4279,7 @@
   "lon": -1.54361111
  },
  {
-  "id": "city-bristol",
+  "id": "city-bristol-england",
   "category": "city",
   "name": "Bristol",
   "aliases": [],
@@ -4289,6 +4296,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Bristol\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 54640,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Bristol",
@@ -4838,11 +4846,10 @@
   "lon": -8.47
  },
  {
-  "id": "city-saint-petersburg",
+  "id": "city-saint-petersburg-russia",
   "category": "city",
   "name": "Saint Petersburg",
   "aliases": [
-   "St Petersburg",
    "Leningrad",
    "Petrograd"
   ],
@@ -4859,6 +4866,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Saint Petersburg\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Russia",
+  "qualifier": "Russia",
   "magnitude": 83954,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Saint Petersburg",
@@ -5875,7 +5883,7 @@
   "lon": -115.1486
  },
  {
-  "id": "city-boston",
+  "id": "city-boston-massachusetts",
   "category": "city",
   "name": "Boston",
   "aliases": [],
@@ -5891,6 +5899,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Boston\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Massachusetts",
   "magnitude": 112689,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Boston",
@@ -6063,7 +6072,7 @@
   "lon": -79.97638889
  },
  {
-  "id": "city-portland",
+  "id": "city-portland-oregon",
   "category": "city",
   "name": "Portland",
   "aliases": [],
@@ -6079,6 +6088,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Portland, Oregon\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Oregon",
   "magnitude": 69068,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Portland, Oregon",
@@ -6243,7 +6253,7 @@
   "lon": -113.49027778
  },
  {
-  "id": "city-vancouver",
+  "id": "city-vancouver-british-columbia",
   "category": "city",
   "name": "Vancouver",
   "aliases": [],
@@ -6258,6 +6268,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Vancouver\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "British Columbia",
   "magnitude": 93086,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Vancouver",
@@ -6335,7 +6346,7 @@
   "lon": -117.03333333
  },
  {
-  "id": "city-leon",
+  "id": "city-leon-guanajuato",
   "category": "city",
   "name": "Leon",
   "aliases": [],
@@ -6352,6 +6363,7 @@
    "green"
   ],
   "source": "English Wikipedia pageviews for \"León, Guanajuato\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "qualifier": "Guanajuato",
   "magnitude": 6849,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "León, Guanajuato",
@@ -6385,7 +6397,7 @@
   "lon": -98.18333333
  },
  {
-  "id": "city-guadalajara",
+  "id": "city-guadalajara-mexico",
   "category": "city",
   "name": "Guadalajara",
   "aliases": [],
@@ -6402,6 +6414,7 @@
    "green"
   ],
   "source": "English Wikipedia pageviews for \"Guadalajara\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "qualifier": "Mexico",
   "magnitude": 30805,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Guadalajara",
@@ -6611,7 +6624,7 @@
   "lon": -88.03333333
  },
  {
-  "id": "city-santa-ana",
+  "id": "city-santa-ana-el-salvador",
   "category": "city",
   "name": "Santa Ana",
   "aliases": [],
@@ -6630,6 +6643,7 @@
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Santa Ana, El Salvador\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in El Salvador",
+  "qualifier": "El Salvador",
   "magnitude": 1339,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Santa Ana, El Salvador",
@@ -6943,7 +6957,7 @@
   "lon": -77.11666667
  },
  {
-  "id": "city-san-fernando",
+  "id": "city-san-fernando-trinidad-and-tobago",
   "category": "city",
   "name": "San Fernando",
   "aliases": [],
@@ -6960,6 +6974,7 @@
    "black"
   ],
   "source": "English Wikipedia pageviews for \"San Fernando, Trinidad and Tobago\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Trinidad and Tobago",
+  "qualifier": "Trinidad and Tobago",
   "magnitude": 2435,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "San Fernando, Trinidad and Tobago",
@@ -7257,7 +7272,7 @@
   "lon": -76.52222222
  },
  {
-  "id": "city-cartagena",
+  "id": "city-cartagena-colombia",
   "category": "city",
   "name": "Cartagena",
   "aliases": [
@@ -7275,6 +7290,7 @@
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Cartagena, Colombia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Colombia",
+  "qualifier": "Colombia",
   "magnitude": 20791,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Cartagena, Colombia",
@@ -7305,7 +7321,7 @@
   "lon": -74.80194444
  },
  {
-  "id": "city-cordoba",
+  "id": "city-cordoba-argentina",
   "category": "city",
   "name": "Cordoba",
   "aliases": [
@@ -7323,6 +7339,7 @@
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Córdoba, Argentina\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Argentina",
+  "qualifier": "Argentina",
   "magnitude": 11324,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Córdoba, Argentina",
@@ -7577,7 +7594,7 @@
   "lon": 151.21
  },
  {
-  "id": "city-melbourne",
+  "id": "city-melbourne-australia",
   "category": "city",
   "name": "Melbourne",
   "aliases": [],
@@ -7593,6 +7610,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Melbourne\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Australia",
+  "qualifier": "Australia",
   "magnitude": 92051,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Melbourne",
@@ -7879,7 +7897,7 @@
   "lon": -80.84305556
  },
  {
-  "id": "city-columbus",
+  "id": "city-columbus-ohio",
   "category": "city",
   "name": "Columbus",
   "aliases": [],
@@ -7895,6 +7913,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Columbus, Ohio\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Ohio",
   "magnitude": 49952,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Columbus, Ohio",
@@ -7925,7 +7944,7 @@
   "lon": -86.15805556
  },
  {
-  "id": "city-jacksonville",
+  "id": "city-jacksonville-florida",
   "category": "city",
   "name": "Jacksonville",
   "aliases": [],
@@ -7941,6 +7960,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Jacksonville, Florida\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Florida",
   "magnitude": 48126,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Jacksonville, Florida",
@@ -8017,7 +8037,7 @@
   "lon": -87.95
  },
  {
-  "id": "city-kansas-city",
+  "id": "city-kansas-city-missouri",
   "category": "city",
   "name": "Kansas City",
   "aliases": [
@@ -8035,6 +8055,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Kansas City, Missouri\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Missouri",
   "magnitude": 63954,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Kansas City, Missouri",
@@ -8481,7 +8502,7 @@
   "lon": -119.0189
  },
  {
-  "id": "city-aurora",
+  "id": "city-aurora-colorado",
   "category": "city",
   "name": "Aurora",
   "aliases": [],
@@ -8497,6 +8518,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Aurora, Colorado\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Colorado",
   "magnitude": 11963,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Aurora, Colorado",
@@ -8966,7 +8988,7 @@
   "lon": -101.845
  },
  {
-  "id": "city-madison",
+  "id": "city-madison-wisconsin",
   "category": "city",
   "name": "Madison",
   "aliases": [],
@@ -8982,6 +9004,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Madison, Wisconsin\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Wisconsin",
   "magnitude": 33332,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Madison, Wisconsin",
@@ -9104,7 +9127,7 @@
   "lon": -116.20166667
  },
  {
-  "id": "city-richmond",
+  "id": "city-richmond-virginia",
   "category": "city",
   "name": "Richmond",
   "aliases": [],
@@ -9120,6 +9143,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Richmond, Virginia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Virginia",
   "magnitude": 39055,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Richmond, Virginia",
@@ -9289,7 +9313,7 @@
   "lon": -96.73166667
  },
  {
-  "id": "city-rochester",
+  "id": "city-rochester-new-york",
   "category": "city",
   "name": "Rochester",
   "aliases": [],
@@ -9305,6 +9329,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Rochester, New York\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New York",
   "magnitude": 36345,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Rochester, New York",
@@ -9496,7 +9521,7 @@
   "lon": -97.48444444
  },
  {
-  "id": "city-glendale",
+  "id": "city-glendale-arizona",
   "category": "city",
   "name": "Glendale",
   "aliases": [],
@@ -9512,6 +9537,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Glendale, Arizona\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Arizona",
   "magnitude": 8554,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Glendale, Arizona",
@@ -9680,7 +9706,7 @@
   "lon": -79.93194444
  },
  {
-  "id": "city-columbia",
+  "id": "city-columbia-south-carolina",
   "category": "city",
   "name": "Columbia",
   "aliases": [],
@@ -9696,6 +9722,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Columbia, South Carolina\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "South Carolina",
   "magnitude": 23895,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Columbia, South Carolina",
@@ -9726,7 +9753,7 @@
   "lon": -78.86972222
  },
  {
-  "id": "city-wilmington",
+  "id": "city-wilmington-north-carolina",
   "category": "city",
   "name": "Wilmington",
   "aliases": [],
@@ -9742,6 +9769,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Wilmington, North Carolina\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "North Carolina",
   "magnitude": 23226,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Wilmington, North Carolina",
@@ -9772,7 +9800,7 @@
   "lon": -82.55194444
  },
  {
-  "id": "city-augusta",
+  "id": "city-augusta-maine",
   "category": "city",
   "name": "Augusta",
   "aliases": [],
@@ -9788,6 +9816,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Augusta, Maine\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Maine",
   "magnitude": 12937,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Augusta, Maine",
@@ -9981,7 +10010,7 @@
   "lon": -81.30416667
  },
  {
-  "id": "city-jackson",
+  "id": "city-jackson-mississippi",
   "category": "city",
   "name": "Jackson",
   "aliases": [],
@@ -9997,6 +10026,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Jackson, Mississippi\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Mississippi",
   "magnitude": 26665,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Jackson, Mississippi",
@@ -10027,7 +10057,7 @@
   "lon": -88.92777778
  },
  {
-  "id": "city-fayetteville",
+  "id": "city-fayetteville-north-carolina",
   "category": "city",
   "name": "Fayetteville",
   "aliases": [],
@@ -10043,6 +10073,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Fayetteville, North Carolina\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "North Carolina",
   "magnitude": 13363,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Fayetteville, North Carolina",
@@ -10073,7 +10104,7 @@
   "lon": -94.23111111
  },
  {
-  "id": "city-springfield",
+  "id": "city-springfield-illinois",
   "category": "city",
   "name": "Springfield",
   "aliases": [],
@@ -10089,6 +10120,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Springfield, Illinois\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Illinois",
   "magnitude": 18142,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Springfield, Illinois",
@@ -10096,7 +10128,7 @@
   "lon": -89.645
  },
  {
-  "id": "city-peoria",
+  "id": "city-peoria-illinois",
   "category": "city",
   "name": "Peoria",
   "aliases": [],
@@ -10112,6 +10144,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Peoria, Illinois\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Illinois",
   "magnitude": 16559,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Peoria, Illinois",
@@ -10142,7 +10175,7 @@
   "lon": -86.26944444
  },
  {
-  "id": "city-bloomington",
+  "id": "city-bloomington-indiana",
   "category": "city",
   "name": "Bloomington",
   "aliases": [],
@@ -10158,6 +10191,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Bloomington, Indiana\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Indiana",
   "magnitude": 11354,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Bloomington, Indiana",
@@ -10717,7 +10751,7 @@
   "lon": -105.96444444
  },
  {
-  "id": "city-roswell",
+  "id": "city-roswell-new-mexico",
   "category": "city",
   "name": "Roswell",
   "aliases": [],
@@ -10733,6 +10767,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Roswell, New Mexico\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New Mexico",
   "magnitude": 11202,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Roswell, New Mexico",
@@ -11039,7 +11074,7 @@
   "lon": -116.54527778
  },
  {
-  "id": "city-pasadena",
+  "id": "city-pasadena-california",
   "category": "city",
   "name": "Pasadena",
   "aliases": [],
@@ -11055,6 +11090,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Pasadena, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
   "magnitude": 28522,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Pasadena, California",
@@ -11315,7 +11351,7 @@
   "lon": -122.90083333
  },
  {
-  "id": "city-bellevue",
+  "id": "city-bellevue-washington",
   "category": "city",
   "name": "Bellevue",
   "aliases": [],
@@ -11331,6 +11367,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Bellevue, Washington\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Washington",
   "magnitude": 18355,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Bellevue, Washington",
@@ -11662,7 +11699,7 @@
   "lon": -73.86444444
  },
  {
-  "id": "city-syracuse",
+  "id": "city-syracuse-new-york",
   "category": "city",
   "name": "Syracuse",
   "aliases": [],
@@ -11678,6 +11715,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Syracuse, New York\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New York",
   "magnitude": 29314,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Syracuse, New York",
@@ -11869,7 +11907,7 @@
   "lon": -76.70694444
  },
  {
-  "id": "city-concord",
+  "id": "city-concord-new-hampshire",
   "category": "city",
   "name": "Concord",
   "aliases": [],
@@ -11885,6 +11923,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Concord, New Hampshire\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New Hampshire",
   "magnitude": 10045,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Concord, New Hampshire",
@@ -11892,7 +11931,7 @@
   "lon": -71.53805556
  },
  {
-  "id": "city-burlington",
+  "id": "city-burlington-vermont",
   "category": "city",
   "name": "Burlington",
   "aliases": [],
@@ -11908,6 +11947,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Burlington, Vermont\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Vermont",
   "magnitude": 25600,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Burlington, Vermont",
@@ -11961,7 +12001,7 @@
   "lon": -68.275
  },
  {
-  "id": "city-newport",
+  "id": "city-newport-rhode-island",
   "category": "city",
   "name": "Newport",
   "aliases": [],
@@ -11977,6 +12017,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Newport, Rhode Island\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Rhode Island",
   "magnitude": 19116,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Newport, Rhode Island",
@@ -12099,7 +12140,7 @@
   "lon": -87.46944444
  },
  {
-  "id": "city-lafayette",
+  "id": "city-lafayette-louisiana",
   "category": "city",
   "name": "Lafayette",
   "aliases": [],
@@ -12115,6 +12156,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Lafayette, Louisiana\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Louisiana",
   "magnitude": 15433,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Lafayette, Louisiana",
@@ -12237,7 +12279,7 @@
   "lon": -95.69555556
  },
  {
-  "id": "city-lawrence",
+  "id": "city-lawrence-kansas",
   "category": "city",
   "name": "Lawrence",
   "aliases": [],
@@ -12253,6 +12295,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Lawrence, Kansas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Kansas",
   "magnitude": 10898,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Lawrence, Kansas",
@@ -12373,7 +12416,7 @@
   "lon": -79.76083333
  },
  {
-  "id": "city-hamilton",
+  "id": "city-hamilton-ontario",
   "category": "city",
   "name": "Hamilton",
   "aliases": [],
@@ -12388,6 +12431,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Hamilton, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Ontario",
   "magnitude": 25083,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Hamilton, Ontario",
@@ -12417,7 +12461,7 @@
   "lon": -122.84888889
  },
  {
-  "id": "city-halifax",
+  "id": "city-halifax-nova-scotia",
   "category": "city",
   "name": "Halifax",
   "aliases": [],
@@ -12432,6 +12476,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Halifax, Nova Scotia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Nova Scotia",
   "magnitude": 53940,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Halifax, Nova Scotia",
@@ -13147,7 +13192,7 @@
   "lon": -139.43194444
  },
  {
-  "id": "city-brandon",
+  "id": "city-brandon-manitoba",
   "category": "city",
   "name": "Brandon",
   "aliases": [],
@@ -13162,6 +13207,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Brandon, Manitoba\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Manitoba",
   "magnitude": 6514,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Brandon, Manitoba",
@@ -13385,7 +13431,7 @@
   "lon": -0.3325
  },
  {
-  "id": "city-plymouth",
+  "id": "city-plymouth-england",
   "category": "city",
   "name": "Plymouth",
   "aliases": [],
@@ -13402,6 +13448,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Plymouth\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 23835,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Plymouth",
@@ -13483,7 +13530,7 @@
   "lon": -1.478
  },
  {
-  "id": "city-southampton",
+  "id": "city-southampton-england",
   "category": "city",
   "name": "Southampton",
   "aliases": [],
@@ -13500,6 +13547,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Southampton\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 32114,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Southampton",
@@ -13771,7 +13819,7 @@
   "lon": -0.23638889
  },
  {
-  "id": "city-reading",
+  "id": "city-reading-berkshire",
   "category": "city",
   "name": "Reading",
   "aliases": [],
@@ -13788,6 +13836,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Reading, Berkshire\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Berkshire",
   "magnitude": 22708,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Reading, Berkshire",
@@ -13867,7 +13916,7 @@
   "lon": -3.52694444
  },
  {
-  "id": "city-durham",
+  "id": "city-durham-england",
   "category": "city",
   "name": "Durham",
   "aliases": [],
@@ -13884,6 +13933,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Durham, England\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 14124,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Durham, England",
@@ -14131,7 +14181,7 @@
   "lon": -2.9936
  },
  {
-  "id": "city-bangor",
+  "id": "city-bangor-gwynedd",
   "category": "city",
   "name": "Bangor",
   "aliases": [],
@@ -14148,6 +14198,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Bangor, Gwynedd\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Gwynedd",
   "magnitude": 7884,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Bangor, Gwynedd",
@@ -14371,7 +14422,7 @@
   "lon": -1.308
  },
  {
-  "id": "city-worcester",
+  "id": "city-worcester-england",
   "category": "city",
   "name": "Worcester",
   "aliases": [],
@@ -14388,6 +14439,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Worcester, England\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 10958,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Worcester, England",
@@ -15595,7 +15647,7 @@
   "lon": 8.7369
  },
  {
-  "id": "city-bayonne",
+  "id": "city-bayonne-france",
   "category": "city",
   "name": "Bayonne",
   "aliases": [],
@@ -15612,6 +15664,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Bayonne\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in France",
+  "qualifier": "France",
   "magnitude": 9923,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Bayonne",
@@ -16511,7 +16564,7 @@
   "lon": 5.45633333
  },
  {
-  "id": "city-waterloo",
+  "id": "city-waterloo-belgium",
   "category": "city",
   "name": "Waterloo",
   "aliases": [],
@@ -16528,6 +16581,7 @@
    "black"
   ],
   "source": "English Wikipedia pageviews for \"Waterloo, Belgium\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Belgium",
+  "qualifier": "Belgium",
   "magnitude": 8219,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Waterloo, Belgium",
@@ -19781,7 +19835,7 @@
   "lon": 10.21666667
  },
  {
-  "id": "city-parma",
+  "id": "city-parma-italy",
   "category": "city",
   "name": "Parma",
   "aliases": [],
@@ -19798,6 +19852,7 @@
    "green"
   ],
   "source": "English Wikipedia pageviews for \"Parma\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Italy",
+  "qualifier": "Italy",
   "magnitude": 13150,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Parma",
@@ -20581,7 +20636,7 @@
   "lon": -3.6
  },
  {
-  "id": "city-toledo",
+  "id": "city-toledo-spain",
   "category": "city",
   "name": "Toledo",
   "aliases": [],
@@ -20600,6 +20655,7 @@
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Toledo, Spain\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Spain",
+  "qualifier": "Spain",
   "magnitude": 20851,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Toledo, Spain",
@@ -22766,7 +22822,7 @@
   "lon": 21.4
  },
  {
-  "id": "city-merida",
+  "id": "city-merida-yucatan",
   "category": "city",
   "name": "Merida",
   "aliases": [],
@@ -22783,6 +22839,7 @@
    "green"
   ],
   "source": "English Wikipedia pageviews for \"Mérida, Yucatán\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
+  "qualifier": "Yucatán",
   "magnitude": 13485,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Mérida, Yucatán",
@@ -23982,7 +24039,7 @@
   "lon": -90.78694444
  },
  {
-  "id": "city-livingston",
+  "id": "city-livingston-guatemala",
   "category": "city",
   "name": "Livingston",
   "aliases": [],
@@ -24001,6 +24058,7 @@
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Livingston, Guatemala\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Guatemala",
+  "qualifier": "Guatemala",
   "magnitude": 1248,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Livingston, Guatemala",
@@ -24909,7 +24967,7 @@
   "lon": -76.64277778
  },
  {
-  "id": "city-santa-clara",
+  "id": "city-santa-clara-cuba",
   "category": "city",
   "name": "Santa Clara",
   "aliases": [],
@@ -24926,6 +24984,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Santa Clara, Cuba\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Cuba",
+  "qualifier": "Cuba",
   "magnitude": 1766,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Santa Clara, Cuba",
@@ -28234,7 +28293,7 @@
   "lon": -70.75
  },
  {
-  "id": "city-cuenca",
+  "id": "city-cuenca-ecuador",
   "category": "city",
   "name": "Cuenca",
   "aliases": [],
@@ -28253,6 +28312,7 @@
    "black"
   ],
   "source": "English Wikipedia pageviews for \"Cuenca, Ecuador\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Ecuador",
+  "qualifier": "Ecuador",
   "magnitude": 6149,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Cuenca, Ecuador",
@@ -32995,7 +33055,7 @@
   "lon": -5.36666667
  },
  {
-  "id": "city-sale",
+  "id": "city-sale-morocco",
   "category": "city",
   "name": "Sale",
   "aliases": [],
@@ -33011,6 +33071,7 @@
    "green"
   ],
   "source": "English Wikipedia pageviews for \"Salé\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Morocco",
+  "qualifier": "Morocco",
   "magnitude": 3622,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Salé",
@@ -40979,7 +41040,7 @@
   "lon": 45.41055556
  },
  {
-  "id": "city-portsmouth",
+  "id": "city-portsmouth-england",
   "category": "city",
   "name": "Portsmouth",
   "aliases": [],
@@ -40996,6 +41057,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Portsmouth\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "England",
   "magnitude": 23682,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Portsmouth",
@@ -61185,7 +61247,7 @@
   "lon": -173.98305556
  },
  {
-  "id": "city-victoria",
+  "id": "city-victoria-british-columbia",
   "category": "city",
   "name": "Victoria",
   "aliases": [],
@@ -61200,6 +61262,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Victoria, British Columbia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "British Columbia",
   "magnitude": 37746,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Victoria, British Columbia",
@@ -61299,7 +61362,7 @@
   "lon": -87.34694444
  },
  {
-  "id": "city-albany",
+  "id": "city-albany-new-york",
   "category": "city",
   "name": "Albany",
   "aliases": [],
@@ -61315,6 +61378,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Albany, New York\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New York",
   "magnitude": 36284,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Albany, New York",
@@ -62541,7 +62605,7 @@
   "lon": -86.44444444
  },
  {
-  "id": "city-beaumont",
+  "id": "city-beaumont-texas",
   "category": "city",
   "name": "Beaumont",
   "aliases": [],
@@ -62557,6 +62621,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Beaumont, Texas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Texas",
   "magnitude": 10684,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Beaumont, Texas",
@@ -62656,7 +62721,7 @@
   "lon": -70.14583333
  },
  {
-  "id": "city-huntington",
+  "id": "city-huntington-west-virginia",
   "category": "city",
   "name": "Huntington",
   "aliases": [],
@@ -62672,6 +62737,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Huntington, West Virginia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "West Virginia",
   "magnitude": 10532,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Huntington, West Virginia",
@@ -63045,7 +63111,7 @@
   "lon": -70.93472222
  },
  {
-  "id": "city-lancaster",
+  "id": "city-lancaster-california",
   "category": "city",
   "name": "Lancaster",
   "aliases": [],
@@ -63061,6 +63127,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Lancaster, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
   "magnitude": 9710,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Lancaster, California",
@@ -65002,7 +65069,7 @@
   "lon": -121.38194444
  },
  {
-  "id": "city-fairfield",
+  "id": "city-fairfield-california",
   "category": "city",
   "name": "Fairfield",
   "aliases": [],
@@ -65018,6 +65085,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Fairfield, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
   "magnitude": 5418,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Fairfield, California",
@@ -65324,7 +65392,7 @@
   "lon": -94.1575
  },
  {
-  "id": "city-lakewood",
+  "id": "city-lakewood-colorado",
   "category": "city",
   "name": "Lakewood",
   "aliases": [],
@@ -65340,6 +65408,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Lakewood, Colorado\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Colorado",
   "magnitude": 4749,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Lakewood, Colorado",
@@ -65964,7 +66033,7 @@
   "wikiTitle": "Mesquite, Texas"
  },
  {
-  "id": "city-spring-hill",
+  "id": "city-spring-hill-florida",
   "category": "city",
   "name": "Spring Hill",
   "aliases": [],
@@ -65980,6 +66049,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Spring Hill, Florida\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Florida",
   "magnitude": 3531,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Spring Hill, Florida",
@@ -66123,7 +66193,7 @@
   "lon": -118.0275
  },
  {
-  "id": "city-norwalk",
+  "id": "city-norwalk-california",
   "category": "city",
   "name": "Norwalk",
   "aliases": [],
@@ -66139,6 +66209,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Norwalk, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
   "magnitude": 3288,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Norwalk, California",
@@ -66309,7 +66380,7 @@
   "lon": -74.29
  },
  {
-  "id": "city-westminster",
+  "id": "city-westminster-colorado",
   "category": "city",
   "name": "Westminster",
   "aliases": [],
@@ -66325,6 +66396,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Westminster, Colorado\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Colorado",
   "magnitude": 2679,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Westminster, Colorado",
@@ -66702,7 +66774,7 @@
   "lon": -70.27
  },
  {
-  "id": "city-colchester",
+  "id": "city-colchester-vermont",
   "category": "city",
   "name": "Colchester",
   "aliases": [],
@@ -66718,6 +66790,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Colchester, Vermont\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Vermont",
   "magnitude": 1552,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Colchester, Vermont",
@@ -71302,7 +71375,7 @@
   "lon": -87.99444444
  },
  {
-  "id": "city-brentwood",
+  "id": "city-brentwood-california",
   "category": "city",
   "name": "Brentwood",
   "aliases": [],
@@ -71318,6 +71391,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Brentwood, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
   "magnitude": 3988,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Brentwood, California",
@@ -72243,7 +72317,7 @@
   "lon": -82.18861111
  },
  {
-  "id": "city-weymouth",
+  "id": "city-weymouth-massachusetts",
   "category": "city",
   "name": "Weymouth",
   "aliases": [],
@@ -72259,6 +72333,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Weymouth, Massachusetts\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Massachusetts",
   "magnitude": 3470,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Weymouth, Massachusetts",
@@ -72312,7 +72387,7 @@
   "lon": -120.06083333
  },
  {
-  "id": "city-mansfield",
+  "id": "city-mansfield-texas",
   "category": "city",
   "name": "Mansfield",
   "aliases": [],
@@ -72328,6 +72403,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Mansfield, Texas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Texas",
   "magnitude": 3440,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Mansfield, Texas",
@@ -72404,7 +72480,7 @@
   "lon": -117.86527778
  },
  {
-  "id": "city-kettering",
+  "id": "city-kettering-ohio",
   "category": "city",
   "name": "Kettering",
   "aliases": [],
@@ -72420,6 +72496,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Kettering, Ohio\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Ohio",
   "magnitude": 3348,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Kettering, Ohio",
@@ -74016,7 +74093,7 @@
   "lon": -74.675274
  },
  {
-  "id": "city-margate",
+  "id": "city-margate-florida",
   "category": "city",
   "name": "Margate",
   "aliases": [],
@@ -74032,6 +74109,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Margate, Florida\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Florida",
   "magnitude": 2253,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Margate, Florida",
@@ -91197,5 +91275,2848 @@
   "wikiTitle": "Eskilstuna",
   "lat": 59.37083333,
   "lon": 16.50972222
+ },
+ {
+  "id": "city-syracuse-sicily",
+  "category": "city",
+  "name": "Syracuse",
+  "aliases": [],
+  "size": 115515,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Italy",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Syracuse, Sicily\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Italy",
+  "qualifier": "Sicily",
+  "magnitude": 27974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Syracuse, Sicily",
+  "lat": 37.06916667,
+  "lon": 15.2875
+ },
+ {
+  "id": "city-cordoba-spain",
+  "category": "city",
+  "name": "Cordoba",
+  "aliases": [],
+  "size": 323262,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Córdoba, Spain\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Spain",
+  "qualifier": "Spain",
+  "magnitude": 22708,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Córdoba, Spain",
+  "lat": 37.89,
+  "lon": -4.78
+ },
+ {
+  "id": "city-colchester-essex",
+  "category": "city",
+  "name": "Colchester",
+  "aliases": [],
+  "size": 121859,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Colchester\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Essex",
+  "magnitude": 16772,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Colchester",
+  "lat": 51.8917,
+  "lon": 0.903
+ },
+ {
+  "id": "city-cartagena-spain",
+  "category": "city",
+  "name": "Cartagena",
+  "aliases": [],
+  "size": 220704,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cartagena, Spain\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Spain",
+  "qualifier": "Spain",
+  "magnitude": 15677,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cartagena, Spain",
+  "lat": 37.6019,
+  "lon": -0.9842
+ },
+ {
+  "id": "city-halifax-west-yorkshire",
+  "category": "city",
+  "name": "Halifax",
+  "aliases": [],
+  "size": 104100,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Halifax, West Yorkshire\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "West Yorkshire",
+  "magnitude": 14763,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Halifax, West Yorkshire",
+  "lat": 53.725,
+  "lon": -1.863
+ },
+ {
+  "id": "city-newport-wales",
+  "category": "city",
+  "name": "Newport",
+  "aliases": [],
+  "size": 159600,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Newport, Wales\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Wales",
+  "magnitude": 12024,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Newport, Wales",
+  "lat": 51.58861111,
+  "lon": -2.99777778
+ },
+ {
+  "id": "city-boston-lincolnshire",
+  "category": "city",
+  "name": "Boston",
+  "aliases": [],
+  "size": 64600,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Boston, Lincolnshire\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Lincolnshire",
+  "magnitude": 11263,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boston, Lincolnshire",
+  "lat": 52.974,
+  "lon": -0.0214
+ },
+ {
+  "id": "city-lancaster-lancashire",
+  "category": "city",
+  "name": "Lancaster",
+  "aliases": [],
+  "size": 52660,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lancaster, Lancashire\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Lancashire",
+  "magnitude": 10106,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lancaster, Lancashire",
+  "lat": 54.04888889,
+  "lon": -2.80138889
+ },
+ {
+  "id": "city-margate-east-kent",
+  "category": "city",
+  "name": "Margate",
+  "aliases": [],
+  "size": 61223,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Margate\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "East Kent",
+  "magnitude": 9893,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Margate",
+  "lat": 51.385,
+  "lon": 1.3838
+ },
+ {
+  "id": "city-leon-spain",
+  "category": "city",
+  "name": "Leon",
+  "aliases": [],
+  "size": 123446,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"León, Spain\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Spain",
+  "qualifier": "Spain",
+  "magnitude": 9010,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "León, Spain",
+  "lat": 42.60555556,
+  "lon": -5.57
+ },
+ {
+  "id": "city-kettering-northamptonshire",
+  "category": "city",
+  "name": "Kettering",
+  "aliases": [],
+  "size": 56226,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Kettering\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Northamptonshire",
+  "magnitude": 6910,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kettering",
+  "lat": 52.39312,
+  "lon": -0.72292
+ },
+ {
+  "id": "city-bangor-county-down",
+  "category": "city",
+  "name": "Bangor",
+  "aliases": [],
+  "size": 61011,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bangor, County Down\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "County Down",
+  "magnitude": 6453,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bangor, County Down",
+  "lat": 54.66,
+  "lon": -5.67
+ },
+ {
+  "id": "city-weymouth-dorset",
+  "category": "city",
+  "name": "Weymouth",
+  "aliases": [],
+  "size": 53046,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Weymouth, Dorset\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Dorset",
+  "magnitude": 6423,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Weymouth, Dorset",
+  "lat": 50.60972222,
+  "lon": -2.45472222
+ },
+ {
+  "id": "city-mansfield-nottinghamshire",
+  "category": "city",
+  "name": "Mansfield",
+  "aliases": [],
+  "size": 79921,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Mansfield\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Nottinghamshire",
+  "magnitude": 6332,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mansfield",
+  "lat": 53.14444444,
+  "lon": -1.19638889
+ },
+ {
+  "id": "city-rochester-kent",
+  "category": "city",
+  "name": "Rochester",
+  "aliases": [],
+  "size": 62982,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Rochester, Kent\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Kent",
+  "magnitude": 6210,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rochester, Kent",
+  "lat": 51.375,
+  "lon": 0.5
+ },
+ {
+  "id": "city-merida-spain",
+  "category": "city",
+  "name": "Merida",
+  "aliases": [],
+  "size": 60225,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Mérida, Spain\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Spain",
+  "qualifier": "Spain",
+  "magnitude": 5357,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mérida, Spain",
+  "lat": 38.9,
+  "lon": -6.33333333
+ },
+ {
+  "id": "city-frankfurt-oder",
+  "category": "city",
+  "name": "Frankfurt",
+  "aliases": [],
+  "size": 56586,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Germany",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Frankfurt (Oder)\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Germany",
+  "qualifier": "Oder",
+  "magnitude": 5357,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Frankfurt (Oder)",
+  "lat": 52.341944,
+  "lon": 14.551667
+ },
+ {
+  "id": "city-brentwood-essex",
+  "category": "city",
+  "name": "Brentwood",
+  "aliases": [],
+  "size": 77047,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Brentwood, Essex\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Essex",
+  "magnitude": 5053,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brentwood, Essex",
+  "lat": 51.62,
+  "lon": 0.305
+ },
+ {
+  "id": "city-guadalajara-spain",
+  "category": "city",
+  "name": "Guadalajara",
+  "aliases": [],
+  "size": 92834,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Guadalajara, Spain\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Spain",
+  "qualifier": "Spain",
+  "magnitude": 4201,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guadalajara, Spain",
+  "lat": 40.63371111,
+  "lon": -3.16739444
+ },
+ {
+  "id": "city-cuenca-spain",
+  "category": "city",
+  "name": "Cuenca",
+  "aliases": [],
+  "size": 53600,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cuenca, Spain\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Spain",
+  "qualifier": "Spain",
+  "magnitude": 3866,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cuenca, Spain",
+  "lat": 40.06666667,
+  "lon": -2.15
+ },
+ {
+  "id": "city-hamilton-south-lanarkshire",
+  "category": "city",
+  "name": "Hamilton",
+  "aliases": [],
+  "size": 54080,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Hamilton, South Lanarkshire\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "South Lanarkshire",
+  "magnitude": 3531,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hamilton, South Lanarkshire",
+  "lat": 55.777,
+  "lon": -4.039
+ },
+ {
+  "id": "city-sale-greater-manchester",
+  "category": "city",
+  "name": "Sale",
+  "aliases": [],
+  "size": 134022,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Sale, Greater Manchester\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Greater Manchester",
+  "magnitude": 3379,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sale, Greater Manchester",
+  "lat": 53.424,
+  "lon": -2.322
+ },
+ {
+  "id": "city-hagen",
+  "category": "city",
+  "name": "Hagen",
+  "aliases": [],
+  "size": 189983,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Germany",
+  "flag": [
+   "red",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Hagen\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Germany",
+  "magnitude": 3257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hagen",
+  "lat": 51.36666667,
+  "lon": 7.48333333
+ },
+ {
+  "id": "city-livingston-west-lothian",
+  "category": "city",
+  "name": "Livingston",
+  "aliases": [],
+  "size": 57030,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Livingston, West Lothian\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "West Lothian",
+  "magnitude": 3257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Livingston, West Lothian",
+  "lat": 55.8834,
+  "lon": -3.5157
+ },
+ {
+  "id": "city-san-fernando-spain",
+  "category": "city",
+  "name": "San Fernando",
+  "aliases": [],
+  "size": 93338,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Spain",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"San Fernando, Spain\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Spain",
+  "qualifier": "Spain",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Fernando, Spain",
+  "lat": 36.46666667,
+  "lon": -6.2
+ },
+ {
+  "id": "city-portland-maine",
+  "category": "city",
+  "name": "Portland",
+  "aliases": [],
+  "size": 68408,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Portland, Maine\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Maine",
+  "magnitude": 36254,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Portland, Maine",
+  "lat": 43.64722222,
+  "lon": -70.17166667
+ },
+ {
+  "id": "city-birmingham-alabama",
+  "category": "city",
+  "name": "Birmingham",
+  "aliases": [],
+  "size": 200733,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Birmingham, Alabama\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Alabama",
+  "magnitude": 34001,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Birmingham, Alabama",
+  "lat": 33.5175,
+  "lon": -86.80944444
+ },
+ {
+  "id": "city-cambridge-massachusetts",
+  "category": "city",
+  "name": "Cambridge",
+  "aliases": [],
+  "size": 118403,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Cambridge, Massachusetts\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Massachusetts",
+  "magnitude": 30470,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cambridge, Massachusetts",
+  "lat": 42.37361111,
+  "lon": -71.11055556
+ },
+ {
+  "id": "city-saint-petersburg-florida",
+  "category": "city",
+  "name": "Saint Petersburg",
+  "aliases": [],
+  "size": 258308,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"St. Petersburg, Florida\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Florida",
+  "magnitude": 23926,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Petersburg, Florida",
+  "lat": 27.82222222,
+  "lon": -82.67055556
+ },
+ {
+  "id": "city-worcester-massachusetts",
+  "category": "city",
+  "name": "Worcester",
+  "aliases": [],
+  "size": 206518,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Worcester, Massachusetts\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Massachusetts",
+  "magnitude": 23956,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Worcester, Massachusetts",
+  "lat": 42.2714,
+  "lon": -71.7989
+ },
+ {
+  "id": "city-toledo-ohio",
+  "category": "city",
+  "name": "Toledo",
+  "aliases": [],
+  "size": 270871,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Toledo, Ohio\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Ohio",
+  "magnitude": 23134,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Toledo, Ohio",
+  "lat": 41.6528,
+  "lon": -83.5378
+ },
+ {
+  "id": "city-wilmington-delaware",
+  "category": "city",
+  "name": "Wilmington",
+  "aliases": [],
+  "size": 70898,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Wilmington, Delaware\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Delaware",
+  "magnitude": 21491,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wilmington, Delaware",
+  "lat": 39.74583333,
+  "lon": -75.54666667
+ },
+ {
+  "id": "city-manchester-new-hampshire",
+  "category": "city",
+  "name": "Manchester",
+  "aliases": [],
+  "size": 115644,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Manchester, New Hampshire\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New Hampshire",
+  "magnitude": 20425,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manchester, New Hampshire",
+  "lat": 42.99083333,
+  "lon": -71.46361111
+ },
+ {
+  "id": "city-santa-cruz-california",
+  "category": "city",
+  "name": "Santa Cruz",
+  "aliases": [],
+  "size": 62956,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Santa Cruz, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 18477,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Cruz, California",
+  "lat": 36.97194444,
+  "lon": -122.02638889
+ },
+ {
+  "id": "city-glendale-california",
+  "category": "city",
+  "name": "Glendale",
+  "aliases": [],
+  "size": 196543,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Glendale, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 18538,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Glendale, California",
+  "lat": 34.14611111,
+  "lon": -118.255
+ },
+ {
+  "id": "city-durham-north-carolina",
+  "category": "city",
+  "name": "Durham",
+  "aliases": [],
+  "size": 283506,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Durham, North Carolina\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "North Carolina",
+  "magnitude": 18112,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Durham, North Carolina",
+  "lat": 35.97861111,
+  "lon": -78.9
+ },
+ {
+  "id": "city-alexandria-virginia",
+  "category": "city",
+  "name": "Alexandria",
+  "aliases": [],
+  "size": 159467,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Alexandria, Virginia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Virginia",
+  "magnitude": 18051,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alexandria, Virginia",
+  "lat": 38.82027778,
+  "lon": -77.05027778
+ },
+ {
+  "id": "city-springfield-missouri",
+  "category": "city",
+  "name": "Springfield",
+  "aliases": [],
+  "size": 169176,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Springfield, Missouri\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Missouri",
+  "magnitude": 17503,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Springfield, Missouri",
+  "lat": 37.21527778,
+  "lon": -93.29833333
+ },
+ {
+  "id": "city-springfield-massachusetts",
+  "category": "city",
+  "name": "Springfield",
+  "aliases": [],
+  "size": 155929,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Springfield, Massachusetts\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Massachusetts",
+  "magnitude": 17533,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Springfield, Massachusetts",
+  "lat": 42.10138889,
+  "lon": -72.59027778
+ },
+ {
+  "id": "city-st-george-utah",
+  "category": "city",
+  "name": "St. George",
+  "aliases": [],
+  "size": 95342,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"St. George, Utah\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Utah",
+  "magnitude": 16194,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. George, Utah",
+  "lat": 37.10247194,
+  "lon": -113.57706111
+ },
+ {
+  "id": "city-vancouver-washington",
+  "category": "city",
+  "name": "Vancouver",
+  "aliases": [],
+  "size": 190915,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Vancouver, Washington\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Washington",
+  "magnitude": 16529,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vancouver, Washington",
+  "lat": 45.63111111,
+  "lon": -122.67166667
+ },
+ {
+  "id": "city-kansas-city-kansas",
+  "category": "city",
+  "name": "Kansas City",
+  "aliases": [],
+  "size": 156607,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Kansas City, Kansas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Kansas",
+  "magnitude": 16255,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kansas City, Kansas",
+  "lat": 39.10666667,
+  "lon": -94.67638889
+ },
+ {
+  "id": "city-columbia-missouri",
+  "category": "city",
+  "name": "Columbia",
+  "aliases": [],
+  "size": 126254,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Columbia, Missouri\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Missouri",
+  "magnitude": 15555,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Columbia, Missouri",
+  "lat": 38.9475,
+  "lon": -92.32666667
+ },
+ {
+  "id": "city-lancaster-pennsylvania",
+  "category": "city",
+  "name": "Lancaster",
+  "aliases": [],
+  "size": 58039,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lancaster, Pennsylvania\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Pennsylvania",
+  "magnitude": 15129,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lancaster, Pennsylvania",
+  "lat": 40.03972222,
+  "lon": -76.30444444
+ },
+ {
+  "id": "city-santa-clara-california",
+  "category": "city",
+  "name": "Santa Clara",
+  "aliases": [],
+  "size": 127647,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Santa Clara, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 15007,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Clara, California",
+  "lat": 37.35444444,
+  "lon": -121.96916667
+ },
+ {
+  "id": "city-augusta-georgia",
+  "category": "city",
+  "name": "Augusta",
+  "aliases": [],
+  "size": 202081,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Augusta, Georgia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Georgia",
+  "magnitude": 14520,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Augusta, Georgia",
+  "lat": 33.47,
+  "lon": -81.975
+ },
+ {
+  "id": "city-odessa-texas",
+  "category": "city",
+  "name": "Odessa",
+  "aliases": [],
+  "size": 114428,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Odessa, Texas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Texas",
+  "magnitude": 14246,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Odessa, Texas",
+  "lat": 31.86333333,
+  "lon": -102.36555556
+ },
+ {
+  "id": "city-columbus-georgia",
+  "category": "city",
+  "name": "Columbus",
+  "aliases": [],
+  "size": 206922,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Columbus, Georgia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Georgia",
+  "magnitude": 13333,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Columbus, Georgia",
+  "lat": 32.49222222,
+  "lon": -84.94027778
+ },
+ {
+  "id": "city-plymouth-massachusetts",
+  "category": "city",
+  "name": "Plymouth",
+  "aliases": [],
+  "size": 61217,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Plymouth, Massachusetts\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Massachusetts",
+  "magnitude": 12937,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Plymouth, Massachusetts",
+  "lat": 41.95833333,
+  "lon": -70.66777778
+ },
+ {
+  "id": "city-santa-ana-california",
+  "category": "city",
+  "name": "Santa Ana",
+  "aliases": [],
+  "size": 310227,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Santa Ana, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 12602,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Ana, California",
+  "lat": 33.74083333,
+  "lon": -117.88138889
+ },
+ {
+  "id": "city-rochester-minnesota",
+  "category": "city",
+  "name": "Rochester",
+  "aliases": [],
+  "size": 121395,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Rochester, Minnesota\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Minnesota",
+  "magnitude": 12541,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rochester, Minnesota",
+  "lat": 44.014299,
+  "lon": -92.478592
+ },
+ {
+  "id": "city-bethlehem-pennsylvania",
+  "category": "city",
+  "name": "Bethlehem",
+  "aliases": [],
+  "size": 75781,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bethlehem, Pennsylvania\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Pennsylvania",
+  "magnitude": 12024,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bethlehem, Pennsylvania",
+  "lat": 40.62611111,
+  "lon": -75.37555556
+ },
+ {
+  "id": "city-reading-pennsylvania",
+  "category": "city",
+  "name": "Reading",
+  "aliases": [],
+  "size": 95112,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Reading, Pennsylvania\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Pennsylvania",
+  "magnitude": 10989,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Reading, Pennsylvania",
+  "lat": 40.34166667,
+  "lon": -75.92638889
+ },
+ {
+  "id": "city-fayetteville-arkansas",
+  "category": "city",
+  "name": "Fayetteville",
+  "aliases": [],
+  "size": 93949,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Fayetteville, Arkansas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Arkansas",
+  "magnitude": 10471,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fayetteville, Arkansas",
+  "lat": 36.0625,
+  "lon": -94.1575
+ },
+ {
+  "id": "city-canton-ohio",
+  "category": "city",
+  "name": "Canton",
+  "aliases": [],
+  "size": 70872,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Canton, Ohio\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Ohio",
+  "magnitude": 10471,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Canton, Ohio",
+  "lat": 40.79861111,
+  "lon": -81.375
+ },
+ {
+  "id": "city-bayonne-new-jersey",
+  "category": "city",
+  "name": "Bayonne",
+  "aliases": [],
+  "size": 71686,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bayonne, New Jersey\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New Jersey",
+  "magnitude": 9162,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bayonne, New Jersey",
+  "lat": 40.66253,
+  "lon": -74.110192
+ },
+ {
+  "id": "city-melbourne-florida",
+  "category": "city",
+  "name": "Melbourne",
+  "aliases": [],
+  "size": 84678,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Melbourne, Florida\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Florida",
+  "magnitude": 9162,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Melbourne, Florida",
+  "lat": 28.10833333,
+  "lon": -80.64027778
+ },
+ {
+  "id": "city-lafayette-indiana",
+  "category": "city",
+  "name": "Lafayette",
+  "aliases": [],
+  "size": 70783,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lafayette, Indiana\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Indiana",
+  "magnitude": 8706,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lafayette, Indiana",
+  "lat": 40.40055556,
+  "lon": -86.87861111
+ },
+ {
+  "id": "city-aurora-illinois",
+  "category": "city",
+  "name": "Aurora",
+  "aliases": [],
+  "size": 180542,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Aurora, Illinois\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Illinois",
+  "magnitude": 8645,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aurora, Illinois",
+  "lat": 41.76388889,
+  "lon": -88.29
+ },
+ {
+  "id": "city-palm-desert",
+  "category": "city",
+  "name": "Palm Desert",
+  "aliases": [],
+  "size": 51163,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Palm Desert, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 8462,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palm Desert, California",
+  "lat": 33.72222222,
+  "lon": -116.37444444
+ },
+ {
+  "id": "city-concord-california",
+  "category": "city",
+  "name": "Concord",
+  "aliases": [],
+  "size": 125410,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Concord, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 8158,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Concord, California",
+  "lat": 37.97805556,
+  "lon": -122.03111111
+ },
+ {
+  "id": "city-richmond-california",
+  "category": "city",
+  "name": "Richmond",
+  "aliases": [],
+  "size": 116448,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Richmond, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 7945,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Richmond, California",
+  "lat": 37.93583333,
+  "lon": -122.34777778
+ },
+ {
+  "id": "city-huntington-new-york",
+  "category": "city",
+  "name": "Huntington",
+  "aliases": [],
+  "size": 204127,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Huntington, New York\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New York",
+  "magnitude": 7427,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Huntington, New York",
+  "lat": 40.86,
+  "lon": -73.35222222
+ },
+ {
+  "id": "city-carson",
+  "category": "city",
+  "name": "Carson",
+  "aliases": [],
+  "size": 95558,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Carson, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 7275,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Carson, California",
+  "lat": 33.83972222,
+  "lon": -118.25972222
+ },
+ {
+  "id": "city-georgetown-texas",
+  "category": "city",
+  "name": "Georgetown",
+  "aliases": [],
+  "size": 67176,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Georgetown, Texas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Texas",
+  "magnitude": 7001,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Georgetown, Texas",
+  "lat": 30.63277778,
+  "lon": -97.67722222
+ },
+ {
+  "id": "city-springfield-ohio",
+  "category": "city",
+  "name": "Springfield",
+  "aliases": [],
+  "size": 58662,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Springfield, Ohio\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Ohio",
+  "magnitude": 6971,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Springfield, Ohio",
+  "lat": 39.92,
+  "lon": -83.77083333
+ },
+ {
+  "id": "city-waterloo-iowa",
+  "category": "city",
+  "name": "Waterloo",
+  "aliases": [],
+  "size": 67314,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Waterloo, Iowa\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Iowa",
+  "magnitude": 6940,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Waterloo, Iowa",
+  "lat": 42.51388889,
+  "lon": -92.34611111
+ },
+ {
+  "id": "city-hamilton-ohio",
+  "category": "city",
+  "name": "Hamilton",
+  "aliases": [],
+  "size": 63399,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Hamilton, Ohio\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Ohio",
+  "magnitude": 6758,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hamilton, Ohio",
+  "lat": 39.38277778,
+  "lon": -84.56138889
+ },
+ {
+  "id": "city-jackson-tennessee",
+  "category": "city",
+  "name": "Jackson",
+  "aliases": [],
+  "size": 68205,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Jackson, Tennessee\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Tennessee",
+  "magnitude": 6758,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jackson, Tennessee",
+  "lat": 35.61444444,
+  "lon": -88.81388889
+ },
+ {
+  "id": "city-columbus-indiana",
+  "category": "city",
+  "name": "Columbus",
+  "aliases": [],
+  "size": 50474,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Columbus, Indiana\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Indiana",
+  "magnitude": 6484,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Columbus, Indiana",
+  "lat": 39.213998,
+  "lon": -85.911056
+ },
+ {
+  "id": "city-spring",
+  "category": "city",
+  "name": "Spring",
+  "aliases": [],
+  "size": 62559,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Spring, Texas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 6423,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Spring, Texas",
+  "lat": 30.05416667,
+  "lon": -95.38694444
+ },
+ {
+  "id": "city-albany-georgia",
+  "category": "city",
+  "name": "Albany",
+  "aliases": [],
+  "size": 69647,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Albany, Georgia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Georgia",
+  "magnitude": 6271,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Albany, Georgia",
+  "lat": 31.58222222,
+  "lon": -84.16555556
+ },
+ {
+  "id": "city-lawrence-massachusetts",
+  "category": "city",
+  "name": "Lawrence",
+  "aliases": [],
+  "size": 89143,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lawrence, Massachusetts\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Massachusetts",
+  "magnitude": 6271,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lawrence, Massachusetts",
+  "lat": 42.70694444,
+  "lon": -71.16361111
+ },
+ {
+  "id": "city-norwalk-connecticut",
+  "category": "city",
+  "name": "Norwalk",
+  "aliases": [],
+  "size": 91184,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Norwalk, Connecticut\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Connecticut",
+  "magnitude": 6149,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Norwalk, Connecticut",
+  "lat": 41.09388889,
+  "lon": -73.41972222
+ },
+ {
+  "id": "city-bloomington-minnesota",
+  "category": "city",
+  "name": "Bloomington",
+  "aliases": [],
+  "size": 89987,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bloomington, Minnesota\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Minnesota",
+  "magnitude": 6118,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bloomington, Minnesota",
+  "lat": 44.84083333,
+  "lon": -93.29833333
+ },
+ {
+  "id": "city-bloomington-illinois",
+  "category": "city",
+  "name": "Bloomington",
+  "aliases": [],
+  "size": 78680,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bloomington, Illinois\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Illinois",
+  "magnitude": 5997,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bloomington, Illinois",
+  "lat": 40.48416667,
+  "lon": -88.99361111
+ },
+ {
+  "id": "city-fairfield-connecticut",
+  "category": "city",
+  "name": "Fairfield",
+  "aliases": [],
+  "size": 61512,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Fairfield, Connecticut\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Connecticut",
+  "magnitude": 5936,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fairfield, Connecticut",
+  "lat": 41.15,
+  "lon": -73.26666667
+ },
+ {
+  "id": "city-southampton-new-york",
+  "category": "city",
+  "name": "Southampton",
+  "aliases": [],
+  "size": 69036,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Southampton, New York\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New York",
+  "magnitude": 5814,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Southampton, New York",
+  "lat": 40.88527778,
+  "lon": -72.39527778
+ },
+ {
+  "id": "city-portsmouth-virginia",
+  "category": "city",
+  "name": "Portsmouth",
+  "aliases": [],
+  "size": 97915,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Portsmouth, Virginia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Virginia",
+  "magnitude": 5784,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Portsmouth, Virginia",
+  "lat": 36.83444444,
+  "lon": -76.34166667
+ },
+ {
+  "id": "city-antioch-california",
+  "category": "city",
+  "name": "Antioch",
+  "aliases": [],
+  "size": 115291,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Antioch, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 5418,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antioch, California",
+  "lat": 38.005,
+  "lon": -121.80583333
+ },
+ {
+  "id": "city-concord-north-carolina",
+  "category": "city",
+  "name": "Concord",
+  "aliases": [],
+  "size": 105240,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Concord, North Carolina\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "North Carolina",
+  "magnitude": 5327,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Concord, North Carolina",
+  "lat": 35.41027778,
+  "lon": -80.58527778
+ },
+ {
+  "id": "city-bristol-connecticut",
+  "category": "city",
+  "name": "Bristol",
+  "aliases": [],
+  "size": 60833,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bristol, Connecticut\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Connecticut",
+  "magnitude": 5114,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bristol, Connecticut",
+  "lat": 41.68111111,
+  "lon": -72.94055556
+ },
+ {
+  "id": "city-roswell-georgia",
+  "category": "city",
+  "name": "Roswell",
+  "aliases": [],
+  "size": 92833,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Roswell, Georgia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Georgia",
+  "magnitude": 5083,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Roswell, Georgia",
+  "lat": 34.03916667,
+  "lon": -84.35138889
+ },
+ {
+  "id": "city-victoria-texas",
+  "category": "city",
+  "name": "Victoria",
+  "aliases": [],
+  "size": 65534,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Victoria, Texas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Texas",
+  "magnitude": 5053,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Victoria, Texas",
+  "lat": 28.81694444,
+  "lon": -96.99333333
+ },
+ {
+  "id": "city-springfield-oregon",
+  "category": "city",
+  "name": "Springfield",
+  "aliases": [],
+  "size": 61851,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Springfield, Oregon\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Oregon",
+  "magnitude": 5114,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Springfield, Oregon",
+  "lat": 44.05694444,
+  "lon": -123.01083333
+ },
+ {
+  "id": "city-st-charles",
+  "category": "city",
+  "name": "St. Charles",
+  "aliases": [],
+  "size": 70493,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"St. Charles, Missouri\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 5023,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Charles, Missouri",
+  "lat": 38.789,
+  "lon": -90.514
+ },
+ {
+  "id": "city-jacksonville-north-carolina",
+  "category": "city",
+  "name": "Jacksonville",
+  "aliases": [],
+  "size": 72723,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Jacksonville, North Carolina\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "North Carolina",
+  "magnitude": 4810,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jacksonville, North Carolina",
+  "lat": 34.75972222,
+  "lon": -77.40972222
+ },
+ {
+  "id": "city-madison-alabama",
+  "category": "city",
+  "name": "Madison",
+  "aliases": [],
+  "size": 56933,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Madison, Alabama\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Alabama",
+  "magnitude": 4079,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Madison, Alabama",
+  "lat": 34.71111111,
+  "lon": -86.73111111
+ },
+ {
+  "id": "city-westminster-california",
+  "category": "city",
+  "name": "Westminster",
+  "aliases": [],
+  "size": 90911,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Westminster, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 4049,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Westminster, California",
+  "lat": 33.75138889,
+  "lon": -117.99388889
+ },
+ {
+  "id": "city-parma-ohio",
+  "category": "city",
+  "name": "Parma",
+  "aliases": [],
+  "size": 81146,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Parma, Ohio\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Ohio",
+  "magnitude": 3927,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Parma, Ohio",
+  "lat": 41.383569,
+  "lon": -81.728641
+ },
+ {
+  "id": "city-pasadena-texas",
+  "category": "city",
+  "name": "Pasadena",
+  "aliases": [],
+  "size": 151950,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Pasadena, Texas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Texas",
+  "magnitude": 3896,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pasadena, Texas",
+  "lat": 29.67611111,
+  "lon": -95.17388889
+ },
+ {
+  "id": "city-lakewood-california",
+  "category": "city",
+  "name": "Lakewood",
+  "aliases": [],
+  "size": 82496,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lakewood, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 3775,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lakewood, California",
+  "lat": 33.8475,
+  "lon": -118.12
+ },
+ {
+  "id": "city-peoria-arizona",
+  "category": "city",
+  "name": "Peoria",
+  "aliases": [],
+  "size": 190985,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Peoria, Arizona\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Arizona",
+  "magnitude": 3775,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peoria, Arizona",
+  "lat": 33.5825,
+  "lon": -112.23861111
+ },
+ {
+  "id": "city-smyrna-tennessee",
+  "category": "city",
+  "name": "Smyrna",
+  "aliases": [],
+  "size": 53070,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Smyrna, Tennessee\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Tennessee",
+  "magnitude": 3440,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Smyrna, Tennessee",
+  "lat": 35.97944444,
+  "lon": -86.52111111
+ },
+ {
+  "id": "city-lakewood-ohio",
+  "category": "city",
+  "name": "Lakewood",
+  "aliases": [],
+  "size": 50942,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lakewood, Ohio\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Ohio",
+  "magnitude": 3288,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lakewood, Ohio",
+  "lat": 41.48194444,
+  "lon": -81.79833333
+ },
+ {
+  "id": "city-smyrna-georgia",
+  "category": "city",
+  "name": "Smyrna",
+  "aliases": [],
+  "size": 55663,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Smyrna, Georgia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Georgia",
+  "magnitude": 3257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Smyrna, Georgia",
+  "lat": 33.87194444,
+  "lon": -84.51833333
+ },
+ {
+  "id": "city-albany-oregon",
+  "category": "city",
+  "name": "Albany",
+  "aliases": [],
+  "size": 56472,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Albany, Oregon\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Oregon",
+  "magnitude": 3166,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Albany, Oregon",
+  "lat": 44.63027778,
+  "lon": -123.09666667
+ },
+ {
+  "id": "city-brandon-florida",
+  "category": "city",
+  "name": "Brandon",
+  "aliases": [],
+  "size": 114626,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Brandon, Florida\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Florida",
+  "magnitude": 3227,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brandon, Florida",
+  "lat": 27.92222222,
+  "lon": -82.27916667
+ },
+ {
+  "id": "city-burlington-north-carolina",
+  "category": "city",
+  "name": "Burlington",
+  "aliases": [],
+  "size": 57303,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Burlington, North Carolina\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "North Carolina",
+  "magnitude": 3135,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burlington, North Carolina",
+  "lat": 36.07611111,
+  "lon": -79.46805556
+ },
+ {
+  "id": "city-beaumont-california",
+  "category": "city",
+  "name": "Beaumont",
+  "aliases": [],
+  "size": 53036,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Beaumont, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 2466,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Beaumont, California",
+  "lat": 33.92944444,
+  "lon": -116.97722222
+ },
+ {
+  "id": "city-bellevue-nebraska",
+  "category": "city",
+  "name": "Bellevue",
+  "aliases": [],
+  "size": 64176,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Bellevue, Nebraska\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Nebraska",
+  "magnitude": 2405,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bellevue, Nebraska",
+  "lat": 41.15861111,
+  "lon": -95.93416667
+ },
+ {
+  "id": "city-spring-hill-tennessee",
+  "category": "city",
+  "name": "Spring Hill",
+  "aliases": [],
+  "size": 60301,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Spring Hill, Tennessee\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Tennessee",
+  "magnitude": 2405,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Spring Hill, Tennessee",
+  "lat": 35.7525,
+  "lon": -86.91388889
+ },
+ {
+  "id": "city-canton-michigan",
+  "category": "city",
+  "name": "Canton",
+  "aliases": [],
+  "size": 98659,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Canton, Michigan\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Michigan",
+  "magnitude": 2374,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Canton, Michigan",
+  "lat": 42.30861111,
+  "lon": -83.48222222
+ },
+ {
+  "id": "city-plymouth-minnesota",
+  "category": "city",
+  "name": "Plymouth",
+  "aliases": [],
+  "size": 81026,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Plymouth, Minnesota\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Minnesota",
+  "magnitude": 2222,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Plymouth, Minnesota",
+  "lat": 45.01055556,
+  "lon": -93.45555556
+ },
+ {
+  "id": "city-manchester-connecticut",
+  "category": "city",
+  "name": "Manchester",
+  "aliases": [],
+  "size": 59713,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Manchester, Connecticut\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Connecticut",
+  "magnitude": 2192,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manchester, Connecticut",
+  "lat": 41.77527778,
+  "lon": -72.52416667
+ },
+ {
+  "id": "city-hamburg-new-york",
+  "category": "city",
+  "name": "Hamburg",
+  "aliases": [],
+  "size": 60085,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Hamburg, New York\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New York",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hamburg, New York",
+  "lat": 42.74444444,
+  "lon": -78.85833333
+ },
+ {
+  "id": "city-lakewood-washington",
+  "category": "city",
+  "name": "Lakewood",
+  "aliases": [],
+  "size": 63612,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Lakewood, Washington\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Washington",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lakewood, Washington",
+  "lat": 47.15888889,
+  "lon": -122.52083333
+ },
+ {
+  "id": "city-st-george-louisiana",
+  "category": "city",
+  "name": "St. George",
+  "aliases": [],
+  "size": 86000,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"St. George, Louisiana\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Louisiana",
+  "magnitude": 1826,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. George, Louisiana",
+  "lat": 30.36523,
+  "lon": -91.02615
+ },
+ {
+  "id": "city-aspen-hill",
+  "category": "city",
+  "name": "Aspen Hill",
+  "aliases": [],
+  "size": 51063,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Aspen Hill, Maryland\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aspen Hill, Maryland",
+  "lat": 39.09555556,
+  "lon": -77.10527778
+ },
+ {
+  "id": "city-washington-tyne-and-wear",
+  "category": "city",
+  "name": "Washington",
+  "aliases": [],
+  "size": 67158,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "United Kingdom",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Washington, Tyne and Wear\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United Kingdom",
+  "qualifier": "Tyne and Wear",
+  "magnitude": 5997,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Washington, Tyne and Wear",
+  "lat": 54.9,
+  "lon": -1.52
+ },
+ {
+  "id": "city-athens-georgia",
+  "category": "city",
+  "name": "Athens",
+  "aliases": [],
+  "size": 127315,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Athens, Georgia\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Georgia",
+  "magnitude": 15798,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Athens, Georgia",
+  "lat": 33.95,
+  "lon": -83.38333333
+ },
+ {
+  "id": "city-dublin-california",
+  "category": "city",
+  "name": "Dublin",
+  "aliases": [],
+  "size": 72589,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Dublin, California\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "California",
+  "magnitude": 5236,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dublin, California",
+  "lat": 37.70222222,
+  "lon": -121.93583333
+ },
+ {
+  "id": "city-wellington-florida",
+  "category": "city",
+  "name": "Wellington",
+  "aliases": [],
+  "size": 61637,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Wellington, Florida\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Florida",
+  "magnitude": 4505,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wellington, Florida",
+  "lat": 26.62916667,
+  "lon": -80.25333333
+ },
+ {
+  "id": "city-fano-italy",
+  "category": "city",
+  "name": "Fano",
+  "aliases": [],
+  "size": 59909,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Western Europe"
+  ],
+  "country": "Italy",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Fano\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Italy",
+  "qualifier": "Italy",
+  "magnitude": 1979,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fano",
+  "lat": 43.8425,
+  "lon": 13.0136
+ },
+ {
+  "id": "city-manhattan-kansas",
+  "category": "city",
+  "name": "Manhattan",
+  "aliases": [],
+  "size": 54100,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Manhattan, Kansas\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Kansas",
+  "magnitude": 7549,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manhattan, Kansas",
+  "lat": 39.18861111,
+  "lon": -96.60472222
+ },
+ {
+  "id": "city-new-britain-connecticut",
+  "category": "city",
+  "name": "New Britain",
+  "aliases": [],
+  "size": 74135,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"New Britain, Connecticut\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "Connecticut",
+  "magnitude": 4049,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "New Britain, Connecticut",
+  "lat": 41.675,
+  "lon": -72.78722222
+ },
+ {
+  "id": "city-greece-new-york",
+  "category": "city",
+  "name": "Greece",
+  "aliases": [],
+  "size": 96926,
+  "sizeUnit": "population",
+  "region": [
+   "North America"
+  ],
+  "country": "United States",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Greece, New York\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in United States",
+  "qualifier": "New York",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Greece, New York",
+  "lat": 43.20944444,
+  "lon": -77.69527778
  }
 ]

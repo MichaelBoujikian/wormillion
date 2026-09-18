@@ -44,6 +44,8 @@ const RAW = {
     city('city-syracuse-sicily', 'Syracuse', 20000, 'Italy', EUROPE, { qualifier: 'Sicily', size: 118000 }),
     city('city-athens-georgia', 'Athens', 12000, 'United States', AMERICA, { qualifier: 'Georgia' }),
     city('city-paris-texas', 'Paris', 5000, 'United States', AMERICA, { qualifier: 'Texas' }),
+    city('city-dublin-california', 'Dublin', 4000, 'United States', AMERICA, { qualifier: 'California' }),
+    city('city-lublin', 'Lublin', 9000, 'Poland', EUROPE),
     city('city-victoria-british-columbia', 'Victoria', 25000, 'Canada', AMERICA, { qualifier: 'British Columbia' }),
     city('city-lyon', 'Lyon', 40000, 'France', EUROPE),
     city('city-munich', 'Munich', 45000, 'Germany', EUROPE),
@@ -175,7 +177,7 @@ test('when no namesake fits, the refusal names the famous one with its qualifier
 });
 
 test('a bare name whose famous holder lives elsewhere keeps the nudge; the qualifier gets past it (NAMESAKE_FAME_RATIO)', () => {
-  assert.strictEqual(runner.NAMESAKE_FAME_RATIO, 5);
+  assert.strictEqual(runner.NAMESAKE_FAME_RATIO, 3);
   const plain = judge({ category: 'city' });
   // Athens the capital: 100,000 views against Athens (Georgia)'s 12,000
   const bare = plain('Athens');
@@ -188,11 +190,23 @@ test('a bare name whose famous holder lives elsewhere keeps the nudge; the quali
     assert.strictEqual(r.entry.id, 'city-athens-georgia');
     assert.strictEqual(r.answer, 'Athens (Georgia)');
   }
-  // on a scoped round the bare name is the nudge too, not "Athens (Georgia) isn't in Europe"
+  // on a region round the famous one fits, the bare name is the nudge too -
+  // not "Athens (Georgia) isn't in Europe"
   const europe = judge({ category: 'city', region: 'Europe' });
   const scoped = europe('Athens');
   assert.strictEqual(scoped.status, 'unrecognized');
   assert.strictEqual(scoped.elsewhere.entry.id, 'capital-athens');
+  // ...but where the famous one does NOT fit, the in-scope namesake is the
+  // answer, silently: the point of the design
+  const america = judge({ category: 'city', region: 'North America' });
+  assert.strictEqual(america('Athens').entry.id, 'city-athens-georgia');
+  // ...and the nudge comes first even when the typing is a typo of something
+  // in scope ("Dublin" is one edit from Lublin): Dublin the capital is what
+  // was meant, not "Dublin (California) isn't in Europe"
+  const lublin = judge({ category: 'city', region: 'Europe' });
+  assert.strictEqual(lublin('Dublin').elsewhere.entry.id, 'capital-dublin');
+  const startsA = judge({ category: 'city', letter: { kind: 'starts', letter: 'a' } });
+  assert.strictEqual(startsA('Athens').entry.id, 'city-athens-georgia');
   // Victoria: the city (25,000) outviews the Seychelles capital (8,000) - no guard, the city scores
   assert.strictEqual(plain('Victoria').entry.id, 'city-victoria-british-columbia');
   // only the two city cohorts second-guess each other: "Paris" on a lake
@@ -209,11 +223,11 @@ test('letter and length rules see the bare name, whatever was typed', () => {
   assert.strictEqual(long('Syracuse (New York)').status, 'wrong-scope', '8 letters, not 19');
   const startsS = judge({ category: 'city', letter: { kind: 'starts', letter: 's' } });
   assert.strictEqual(startsS('Syracuse, Sicily').entry.id, 'city-syracuse-sicily');
-  // Paris (Texas) is a short name; "Paris" alone is the capital's nudge, and
-  // the "Texas" typed to get past it is not measured
+  // Paris (Texas) is a short name; on a plain round "Paris" alone is the
+  // capital's nudge, and the "Texas" typed to get past it is not measured
   const short = judge({ category: 'city', letter: { kind: 'short' } });
   assert.strictEqual(short('Cork').status, 'accepted');
-  assert.strictEqual(short('Paris').elsewhere.entry.id, 'capital-paris');
+  assert.strictEqual(judge({ category: 'city' })('Paris').elsewhere.entry.id, 'capital-paris');
   const texas = short('Paris, Texas');
   assert.strictEqual(texas.status, 'accepted');
   assert.strictEqual(texas.entry.id, 'city-paris-texas');

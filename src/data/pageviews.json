@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T03:06:12.359Z",
+ "fetched": "2026-09-18T03:23:19.141Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -3196,7 +3196,7 @@
    "lat": 13.445,
    "lon": -16.675
   },
-  "city-alexandria": {
+  "city-alexandria-egypt": {
    "title": "Alexandria",
    "monthlyViews": 56314,
    "days": 60,
@@ -3602,7 +3602,7 @@
    "lat": 31.5075,
    "lon": 34.45972222
   },
-  "city-bethlehem": {
+  "city-bethlehem-palestine": {
    "title": "Bethlehem",
    "monthlyViews": 31384,
    "days": 60,
@@ -4183,14 +4183,14 @@
    "lat": 48.1375,
    "lon": 11.575
   },
-  "city-hamburg": {
+  "city-hamburg-germany": {
    "title": "Hamburg",
    "monthlyViews": 58658,
    "days": 60,
    "lat": 53.55,
    "lon": 10
   },
-  "city-frankfurt": {
+  "city-frankfurt-main": {
    "title": "Frankfurt",
    "monthlyViews": 48095,
    "days": 60,
@@ -4246,14 +4246,14 @@
    "lat": 44.84,
    "lon": -0.58
   },
-  "city-manchester": {
+  "city-manchester-england": {
    "title": "Manchester",
    "monthlyViews": 73543,
    "days": 60,
    "lat": 53.47944444,
    "lon": -2.24527778
   },
-  "city-birmingham": {
+  "city-birmingham-england": {
    "title": "Birmingham",
    "monthlyViews": 85202,
    "days": 60,
@@ -4288,7 +4288,7 @@
    "lat": 51.75194444,
    "lon": -1.25777778
   },
-  "city-cambridge": {
+  "city-cambridge-england": {
    "title": "Cambridge",
    "monthlyViews": 33027,
    "days": 60,
@@ -4302,7 +4302,7 @@
    "lat": 53.7975,
    "lon": -1.54361111
   },
-  "city-bristol": {
+  "city-bristol-england": {
    "title": "Bristol",
    "monthlyViews": 54640,
    "days": 60,
@@ -4456,7 +4456,7 @@
    "lat": 51.89722222,
    "lon": -8.47
   },
-  "city-saint-petersburg": {
+  "city-saint-petersburg-russia": {
    "title": "Saint Petersburg",
    "monthlyViews": 83954,
    "days": 60,
@@ -4750,7 +4750,7 @@
    "lat": 36.1672,
    "lon": -115.1486
   },
-  "city-boston": {
+  "city-boston-massachusetts": {
    "title": "Boston",
    "monthlyViews": 112689,
    "days": 60,
@@ -4806,7 +4806,7 @@
    "lat": 40.43972222,
    "lon": -79.97638889
   },
-  "city-portland": {
+  "city-portland-oregon": {
    "title": "Portland, Oregon",
    "monthlyViews": 69068,
    "days": 60,
@@ -4862,7 +4862,7 @@
    "lat": 53.53444444,
    "lon": -113.49027778
   },
-  "city-vancouver": {
+  "city-vancouver-british-columbia": {
    "title": "Vancouver",
    "monthlyViews": 93086,
    "days": 60,
@@ -4890,7 +4890,7 @@
    "lat": 32.525,
    "lon": -117.03333333
   },
-  "city-leon": {
+  "city-leon-guanajuato": {
    "title": "León, Guanajuato",
    "monthlyViews": 6849,
    "days": 60,
@@ -4904,7 +4904,7 @@
    "lat": 19.03333333,
    "lon": -98.18333333
   },
-  "city-guadalajara": {
+  "city-guadalajara-mexico": {
    "title": "Guadalajara",
    "monthlyViews": 30805,
    "days": 60,
@@ -4967,7 +4967,7 @@
    "lat": 15.5,
    "lon": -88.03333333
   },
-  "city-santa-ana": {
+  "city-santa-ana-el-salvador": {
    "title": "Santa Ana, El Salvador",
    "monthlyViews": 1339,
    "days": 60,
@@ -5058,7 +5058,7 @@
    "lat": 18.41666667,
    "lon": -77.11666667
   },
-  "city-san-fernando": {
+  "city-san-fernando-trinidad-and-tobago": {
    "title": "San Fernando, Trinidad and Tobago",
    "monthlyViews": 2435,
    "days": 60,
@@ -5149,7 +5149,7 @@
    "lat": 3.42055556,
    "lon": -76.52222222
   },
-  "city-cartagena": {
+  "city-cartagena-colombia": {
    "title": "Cartagena, Colombia",
    "monthlyViews": 20791,
    "days": 60,
@@ -5163,7 +5163,7 @@
    "lat": 10.98333333,
    "lon": -74.80194444
   },
-  "city-cordoba": {
+  "city-cordoba-argentina": {
    "title": "Córdoba, Argentina",
    "monthlyViews": 11324,
    "days": 60,
@@ -5240,7 +5240,7 @@
    "lat": -33.86777778,
    "lon": 151.21
   },
-  "city-melbourne": {
+  "city-melbourne-australia": {
    "title": "Melbourne",
    "monthlyViews": 92051,
    "days": 60,
@@ -5331,7 +5331,7 @@
    "lat": 35.22722222,
    "lon": -80.84305556
   },
-  "city-columbus": {
+  "city-columbus-ohio": {
    "title": "Columbus, Ohio",
    "monthlyViews": 49952,
    "days": 60,
@@ -5345,7 +5345,7 @@
    "lat": 39.76861111,
    "lon": -86.15805556
   },
-  "city-jacksonville": {
+  "city-jacksonville-florida": {
    "title": "Jacksonville, Florida",
    "monthlyViews": 48126,
    "days": 60,
@@ -5373,7 +5373,7 @@
    "lat": 43.05,
    "lon": -87.95
   },
-  "city-kansas-city": {
+  "city-kansas-city-missouri": {
    "title": "Kansas City, Missouri",
    "monthlyViews": 63954,
    "days": 60,
@@ -5513,7 +5513,7 @@
    "lat": 35.3733,
    "lon": -119.0189
   },
-  "city-aurora": {
+  "city-aurora-colorado": {
    "title": "Aurora, Colorado",
    "monthlyViews": 11963,
    "days": 60,
@@ -5660,7 +5660,7 @@
    "lat": 33.585,
    "lon": -101.845
   },
-  "city-madison": {
+  "city-madison-wisconsin": {
    "title": "Madison, Wisconsin",
    "monthlyViews": 33332,
    "days": 60,
@@ -5702,7 +5702,7 @@
    "lat": 43.61583333,
    "lon": -116.20166667
   },
-  "city-richmond": {
+  "city-richmond-virginia": {
    "title": "Richmond, Virginia",
    "monthlyViews": 39055,
    "days": 60,
@@ -5758,7 +5758,7 @@
    "lat": 43.53638889,
    "lon": -96.73166667
   },
-  "city-rochester": {
+  "city-rochester-new-york": {
    "title": "Rochester, New York",
    "monthlyViews": 36345,
    "days": 60,
@@ -5821,7 +5821,7 @@
    "lat": 25.93027778,
    "lon": -97.48444444
   },
-  "city-glendale": {
+  "city-glendale-arizona": {
    "title": "Glendale, Arizona",
    "monthlyViews": 8554,
    "days": 60,
@@ -5877,7 +5877,7 @@
    "lat": 32.81388889,
    "lon": -79.93194444
   },
-  "city-columbia": {
+  "city-columbia-south-carolina": {
    "title": "Columbia, South Carolina",
    "monthlyViews": 23895,
    "days": 60,
@@ -5891,7 +5891,7 @@
    "lat": 33.73027778,
    "lon": -78.86972222
   },
-  "city-wilmington": {
+  "city-wilmington-north-carolina": {
    "title": "Wilmington, North Carolina",
    "monthlyViews": 23226,
    "days": 60,
@@ -5905,7 +5905,7 @@
    "lat": 35.59555556,
    "lon": -82.55194444
   },
-  "city-augusta": {
+  "city-augusta-maine": {
    "title": "Augusta, Maine",
    "monthlyViews": 12937,
    "days": 60,
@@ -5968,7 +5968,7 @@
    "lat": 29.88916667,
    "lon": -81.30416667
   },
-  "city-jackson": {
+  "city-jackson-mississippi": {
    "title": "Jackson, Mississippi",
    "monthlyViews": 26665,
    "days": 59,
@@ -5982,7 +5982,7 @@
    "lat": 30.41194444,
    "lon": -88.92777778
   },
-  "city-fayetteville": {
+  "city-fayetteville-north-carolina": {
    "title": "Fayetteville, North Carolina",
    "monthlyViews": 13363,
    "days": 60,
@@ -5996,14 +5996,14 @@
    "lat": 36.35277778,
    "lon": -94.23111111
   },
-  "city-springfield": {
+  "city-springfield-illinois": {
    "title": "Springfield, Illinois",
    "monthlyViews": 18142,
    "days": 60,
    "lat": 39.7975,
    "lon": -89.645
   },
-  "city-peoria": {
+  "city-peoria-illinois": {
    "title": "Peoria, Illinois",
    "monthlyViews": 16559,
    "days": 60,
@@ -6017,7 +6017,7 @@
    "lat": 41.67638889,
    "lon": -86.26944444
   },
-  "city-bloomington": {
+  "city-bloomington-indiana": {
    "title": "Bloomington, Indiana",
    "monthlyViews": 11354,
    "days": 60,
@@ -6192,7 +6192,7 @@
    "lat": 35.66722222,
    "lon": -105.96444444
   },
-  "city-roswell": {
+  "city-roswell-new-mexico": {
    "title": "Roswell, New Mexico",
    "monthlyViews": 11202,
    "days": 60,
@@ -6290,7 +6290,7 @@
    "lat": 33.83027778,
    "lon": -116.54527778
   },
-  "city-pasadena": {
+  "city-pasadena-california": {
    "title": "Pasadena, California",
    "monthlyViews": 28522,
    "days": 60,
@@ -6374,7 +6374,7 @@
    "lat": 47.03777778,
    "lon": -122.90083333
   },
-  "city-bellevue": {
+  "city-bellevue-washington": {
    "title": "Bellevue, Washington",
    "monthlyViews": 18355,
    "days": 59,
@@ -6479,7 +6479,7 @@
    "lat": 40.94138889,
    "lon": -73.86444444
   },
-  "city-syracuse": {
+  "city-syracuse-new-york": {
    "title": "Syracuse, New York",
    "monthlyViews": 29314,
    "days": 60,
@@ -6542,14 +6542,14 @@
    "lat": 37.27083333,
    "lon": -76.70694444
   },
-  "city-concord": {
+  "city-concord-new-hampshire": {
    "title": "Concord, New Hampshire",
    "monthlyViews": 10045,
    "days": 60,
    "lat": 43.20666667,
    "lon": -71.53805556
   },
-  "city-burlington": {
+  "city-burlington-vermont": {
    "title": "Burlington, Vermont",
    "monthlyViews": 25600,
    "days": 60,
@@ -6570,7 +6570,7 @@
    "lat": 44.38555556,
    "lon": -68.275
   },
-  "city-newport": {
+  "city-newport-rhode-island": {
    "title": "Newport, Rhode Island",
    "monthlyViews": 19116,
    "days": 60,
@@ -6612,7 +6612,7 @@
    "lat": 33.27638889,
    "lon": -87.46944444
   },
-  "city-lafayette": {
+  "city-lafayette-louisiana": {
    "title": "Lafayette, Louisiana",
    "monthlyViews": 15433,
    "days": 60,
@@ -6654,7 +6654,7 @@
    "lat": 39.03472222,
    "lon": -95.69555556
   },
-  "city-lawrence": {
+  "city-lawrence-kansas": {
    "title": "Lawrence, Kansas",
    "monthlyViews": 10898,
    "days": 60,
@@ -6696,7 +6696,7 @@
    "lat": 43.68833333,
    "lon": -79.76083333
   },
-  "city-hamilton": {
+  "city-hamilton-ontario": {
    "title": "Hamilton, Ontario",
    "monthlyViews": 25083,
    "days": 60,
@@ -6710,7 +6710,7 @@
    "lat": 49.19,
    "lon": -122.84888889
   },
-  "city-halifax": {
+  "city-halifax-nova-scotia": {
    "title": "Halifax, Nova Scotia",
    "monthlyViews": 53940,
    "days": 60,
@@ -6941,7 +6941,7 @@
    "lat": 64.06,
    "lon": -139.43194444
   },
-  "city-brandon": {
+  "city-brandon-manitoba": {
    "title": "Brandon, Manitoba",
    "monthlyViews": 6514,
    "days": 60,
@@ -7011,7 +7011,7 @@
    "lat": 53.74444444,
    "lon": -0.3325
   },
-  "city-plymouth": {
+  "city-plymouth-england": {
    "title": "Plymouth",
    "monthlyViews": 23835,
    "days": 60,
@@ -7039,7 +7039,7 @@
    "lat": 52.9247,
    "lon": -1.478
   },
-  "city-southampton": {
+  "city-southampton-england": {
    "title": "Southampton",
    "monthlyViews": 32114,
    "days": 60,
@@ -7123,7 +7123,7 @@
    "lat": 52.56611111,
    "lon": -0.23638889
   },
-  "city-reading": {
+  "city-reading-berkshire": {
    "title": "Reading, Berkshire",
    "monthlyViews": 22708,
    "days": 60,
@@ -7151,7 +7151,7 @@
    "lat": 50.72555556,
    "lon": -3.52694444
   },
-  "city-durham": {
+  "city-durham-england": {
    "title": "Durham, England",
    "monthlyViews": 14124,
    "days": 60,
@@ -7228,7 +7228,7 @@
    "lat": 53.0467,
    "lon": -2.9936
   },
-  "city-bangor": {
+  "city-bangor-gwynedd": {
    "title": "Bangor, Gwynedd",
    "monthlyViews": 7884,
    "days": 60,
@@ -7298,7 +7298,7 @@
    "lat": 51.0632,
    "lon": -1.308
   },
-  "city-worcester": {
+  "city-worcester-england": {
    "title": "Worcester, England",
    "monthlyViews": 10958,
    "days": 60,
@@ -7655,7 +7655,7 @@
    "lat": 41.9267,
    "lon": 8.7369
   },
-  "city-bayonne": {
+  "city-bayonne-france": {
    "title": "Bayonne",
    "monthlyViews": 9923,
    "days": 60,
@@ -7921,7 +7921,7 @@
    "lat": 50.35216667,
    "lon": 5.45633333
   },
-  "city-waterloo": {
+  "city-waterloo-belgium": {
    "title": "Waterloo, Belgium",
    "monthlyViews": 8219,
    "days": 60,
@@ -8880,7 +8880,7 @@
    "lat": 45.54166667,
    "lon": 10.21666667
   },
-  "city-parma": {
+  "city-parma-italy": {
    "title": "Parma",
    "monthlyViews": 13150,
    "days": 60,
@@ -9111,7 +9111,7 @@
    "lat": 37.175,
    "lon": -3.6
   },
-  "city-toledo": {
+  "city-toledo-spain": {
    "title": "Toledo, Spain",
    "monthlyViews": 20851,
    "days": 60,
@@ -9734,7 +9734,7 @@
    "lat": 38.61666667,
    "lon": 21.4
   },
-  "city-merida": {
+  "city-merida-yucatan": {
    "title": "Mérida, Yucatán",
    "monthlyViews": 13485,
    "days": 60,
@@ -10084,7 +10084,7 @@
    "lat": 14.29777778,
    "lon": -90.78694444
   },
-  "city-livingston": {
+  "city-livingston-guatemala": {
    "title": "Livingston, Guatemala",
    "monthlyViews": 1248,
    "days": 60,
@@ -10343,7 +10343,7 @@
    "lat": 20.38166667,
    "lon": -76.64277778
   },
-  "city-santa-clara": {
+  "city-santa-clara-cuba": {
    "title": "Santa Clara, Cuba",
    "monthlyViews": 1766,
    "days": 60,
@@ -11309,7 +11309,7 @@
    "lat": -34.16666667,
    "lon": -70.75
   },
-  "city-cuenca": {
+  "city-cuenca-ecuador": {
    "title": "Cuenca, Ecuador",
    "monthlyViews": 6149,
    "days": 60,
@@ -12681,7 +12681,7 @@
    "lat": 35.56666667,
    "lon": -5.36666667
   },
-  "city-sale": {
+  "city-sale-morocco": {
    "title": "Salé",
    "monthlyViews": 3622,
    "days": 60,
@@ -14970,7 +14970,7 @@
    "lat": 39.21611111,
    "lon": 45.41055556
   },
-  "city-portsmouth": {
+  "city-portsmouth-england": {
    "title": "Portsmouth",
    "monthlyViews": 23682,
    "days": 60,
@@ -20850,7 +20850,7 @@
    "lat": -18.65083333,
    "lon": -173.98305556
   },
-  "city-victoria": {
+  "city-victoria-british-columbia": {
    "title": "Victoria, British Columbia",
    "monthlyViews": 37746,
    "days": 60,
@@ -20885,7 +20885,7 @@
    "lat": 41.59055556,
    "lon": -87.34694444
   },
-  "city-albany": {
+  "city-albany-new-york": {
    "title": "Albany, New York",
    "monthlyViews": 36284,
    "days": 60,
@@ -21263,7 +21263,7 @@
    "lat": 36.98166667,
    "lon": -86.44444444
   },
-  "city-beaumont": {
+  "city-beaumont-texas": {
    "title": "Beaumont, Texas",
    "monthlyViews": 10684,
    "days": 59,
@@ -21298,7 +21298,7 @@
    "lat": 44.11166667,
    "lon": -70.14583333
   },
-  "city-huntington": {
+  "city-huntington-west-virginia": {
    "title": "Huntington, West Virginia",
    "monthlyViews": 10532,
    "days": 59,
@@ -21417,7 +21417,7 @@
    "lat": 41.63611111,
    "lon": -70.93472222
   },
-  "city-lancaster": {
+  "city-lancaster-california": {
    "title": "Lancaster, California",
    "monthlyViews": 9710,
    "days": 59,
@@ -22012,7 +22012,7 @@
    "lat": 38.43833333,
    "lon": -121.38194444
   },
-  "city-fairfield": {
+  "city-fairfield-california": {
    "title": "Fairfield, California",
    "monthlyViews": 5418,
    "days": 59,
@@ -22110,7 +22110,7 @@
    "lat": 36.19027778,
    "lon": -94.1575
   },
-  "city-lakewood": {
+  "city-lakewood-colorado": {
    "title": "Lakewood, Colorado",
    "monthlyViews": 4749,
    "days": 59,
@@ -22306,7 +22306,7 @@
    "lat": null,
    "lon": null
   },
-  "city-spring-hill": {
+  "city-spring-hill-florida": {
    "title": "Spring Hill, Florida",
    "monthlyViews": 3531,
    "days": 59,
@@ -22355,7 +22355,7 @@
    "lat": 34.07333333,
    "lon": -118.0275
   },
-  "city-norwalk": {
+  "city-norwalk-california": {
    "title": "Norwalk, California",
    "monthlyViews": 3288,
    "days": 59,
@@ -22411,7 +22411,7 @@
    "lat": 40.56,
    "lon": -74.29
   },
-  "city-westminster": {
+  "city-westminster-colorado": {
    "title": "Westminster, Colorado",
    "monthlyViews": 2679,
    "days": 59,
@@ -22530,7 +22530,7 @@
    "lat": 43.62888889,
    "lon": -70.27
   },
-  "city-colchester": {
+  "city-colchester-vermont": {
    "title": "Colchester, Vermont",
    "monthlyViews": 1552,
    "days": 59,
@@ -23930,7 +23930,7 @@
    "lat": 41.78916667,
    "lon": -87.99444444
   },
-  "city-brentwood": {
+  "city-brentwood-california": {
    "title": "Brentwood, California",
    "monthlyViews": 3988,
    "days": 60,
@@ -24217,7 +24217,7 @@
    "lat": 27.06611111,
    "lon": -82.18861111
   },
-  "city-weymouth": {
+  "city-weymouth-massachusetts": {
    "title": "Weymouth, Massachusetts",
    "monthlyViews": 3470,
    "days": 60,
@@ -24238,7 +24238,7 @@
    "lat": 36.96138889,
    "lon": -120.06083333
   },
-  "city-mansfield": {
+  "city-mansfield-texas": {
    "title": "Mansfield, Texas",
    "monthlyViews": 3440,
    "days": 60,
@@ -24266,7 +24266,7 @@
    "lat": 34.13611111,
    "lon": -117.86527778
   },
-  "city-kettering": {
+  "city-kettering-ohio": {
    "title": "Kettering, Ohio",
    "monthlyViews": 3348,
    "days": 60,
@@ -24756,7 +24756,7 @@
    "lat": 40.206266,
    "lon": -74.675274
   },
-  "city-margate": {
+  "city-margate-florida": {
    "title": "Margate, Florida",
    "monthlyViews": 2253,
    "days": 60,
@@ -29697,6 +29697,825 @@
    "days": 60,
    "lat": 59.37083333,
    "lon": 16.50972222
+  },
+  "city-syracuse-sicily": {
+   "title": "Syracuse, Sicily",
+   "monthlyViews": 27974,
+   "days": 60,
+   "lat": 37.06916667,
+   "lon": 15.2875
+  },
+  "city-cordoba-spain": {
+   "title": "Córdoba, Spain",
+   "monthlyViews": 22708,
+   "days": 60,
+   "lat": 37.89,
+   "lon": -4.78
+  },
+  "city-colchester-essex": {
+   "title": "Colchester",
+   "monthlyViews": 16772,
+   "days": 59,
+   "lat": 51.8917,
+   "lon": 0.903
+  },
+  "city-cartagena-spain": {
+   "title": "Cartagena, Spain",
+   "monthlyViews": 15677,
+   "days": 60,
+   "lat": 37.6019,
+   "lon": -0.9842
+  },
+  "city-halifax-west-yorkshire": {
+   "title": "Halifax, West Yorkshire",
+   "monthlyViews": 14763,
+   "days": 60,
+   "lat": 53.725,
+   "lon": -1.863
+  },
+  "city-newport-wales": {
+   "title": "Newport, Wales",
+   "monthlyViews": 12024,
+   "days": 60,
+   "lat": 51.58861111,
+   "lon": -2.99777778
+  },
+  "city-boston-lincolnshire": {
+   "title": "Boston, Lincolnshire",
+   "monthlyViews": 11263,
+   "days": 60,
+   "lat": 52.974,
+   "lon": -0.0214
+  },
+  "city-lancaster-lancashire": {
+   "title": "Lancaster, Lancashire",
+   "monthlyViews": 10106,
+   "days": 60,
+   "lat": 54.04888889,
+   "lon": -2.80138889
+  },
+  "city-margate-east-kent": {
+   "title": "Margate",
+   "monthlyViews": 9893,
+   "days": 60,
+   "lat": 51.385,
+   "lon": 1.3838
+  },
+  "city-leon-spain": {
+   "title": "León, Spain",
+   "monthlyViews": 9010,
+   "days": 60,
+   "lat": 42.60555556,
+   "lon": -5.57
+  },
+  "city-kettering-northamptonshire": {
+   "title": "Kettering",
+   "monthlyViews": 6910,
+   "days": 60,
+   "lat": 52.39312,
+   "lon": -0.72292
+  },
+  "city-bangor-county-down": {
+   "title": "Bangor, County Down",
+   "monthlyViews": 6453,
+   "days": 60,
+   "lat": 54.66,
+   "lon": -5.67
+  },
+  "city-weymouth-dorset": {
+   "title": "Weymouth, Dorset",
+   "monthlyViews": 6423,
+   "days": 59,
+   "lat": 50.60972222,
+   "lon": -2.45472222
+  },
+  "city-mansfield-nottinghamshire": {
+   "title": "Mansfield",
+   "monthlyViews": 6332,
+   "days": 60,
+   "lat": 53.14444444,
+   "lon": -1.19638889
+  },
+  "city-rochester-kent": {
+   "title": "Rochester, Kent",
+   "monthlyViews": 6210,
+   "days": 60,
+   "lat": 51.375,
+   "lon": 0.5
+  },
+  "city-merida-spain": {
+   "title": "Mérida, Spain",
+   "monthlyViews": 5357,
+   "days": 60,
+   "lat": 38.9,
+   "lon": -6.33333333
+  },
+  "city-frankfurt-oder": {
+   "title": "Frankfurt (Oder)",
+   "monthlyViews": 5357,
+   "days": 59,
+   "lat": 52.341944,
+   "lon": 14.551667
+  },
+  "city-brentwood-essex": {
+   "title": "Brentwood, Essex",
+   "monthlyViews": 5053,
+   "days": 60,
+   "lat": 51.62,
+   "lon": 0.305
+  },
+  "city-guadalajara-spain": {
+   "title": "Guadalajara, Spain",
+   "monthlyViews": 4201,
+   "days": 60,
+   "lat": 40.63371111,
+   "lon": -3.16739444
+  },
+  "city-cuenca-spain": {
+   "title": "Cuenca, Spain",
+   "monthlyViews": 3866,
+   "days": 60,
+   "lat": 40.06666667,
+   "lon": -2.15
+  },
+  "city-hamilton-south-lanarkshire": {
+   "title": "Hamilton, South Lanarkshire",
+   "monthlyViews": 3531,
+   "days": 59,
+   "lat": 55.777,
+   "lon": -4.039
+  },
+  "city-sale-greater-manchester": {
+   "title": "Sale, Greater Manchester",
+   "monthlyViews": 3379,
+   "days": 60,
+   "lat": 53.424,
+   "lon": -2.322
+  },
+  "city-hagen": {
+   "title": "Hagen",
+   "monthlyViews": 3257,
+   "days": 60,
+   "lat": 51.36666667,
+   "lon": 7.48333333
+  },
+  "city-livingston-west-lothian": {
+   "title": "Livingston, West Lothian",
+   "monthlyViews": 3257,
+   "days": 59,
+   "lat": 55.8834,
+   "lon": -3.5157
+  },
+  "city-san-fernando-spain": {
+   "title": "San Fernando, Spain",
+   "monthlyViews": 852,
+   "days": 59,
+   "lat": 36.46666667,
+   "lon": -6.2
+  },
+  "city-portland-maine": {
+   "title": "Portland, Maine",
+   "monthlyViews": 36254,
+   "days": 60,
+   "lat": 43.64722222,
+   "lon": -70.17166667
+  },
+  "city-birmingham-alabama": {
+   "title": "Birmingham, Alabama",
+   "monthlyViews": 34001,
+   "days": 60,
+   "lat": 33.5175,
+   "lon": -86.80944444
+  },
+  "city-cambridge-massachusetts": {
+   "title": "Cambridge, Massachusetts",
+   "monthlyViews": 30470,
+   "days": 60,
+   "lat": 42.37361111,
+   "lon": -71.11055556
+  },
+  "city-saint-petersburg-florida": {
+   "title": "St. Petersburg, Florida",
+   "monthlyViews": 23926,
+   "days": 60,
+   "lat": 27.82222222,
+   "lon": -82.67055556
+  },
+  "city-worcester-massachusetts": {
+   "title": "Worcester, Massachusetts",
+   "monthlyViews": 23956,
+   "days": 60,
+   "lat": 42.2714,
+   "lon": -71.7989
+  },
+  "city-toledo-ohio": {
+   "title": "Toledo, Ohio",
+   "monthlyViews": 23134,
+   "days": 60,
+   "lat": 41.6528,
+   "lon": -83.5378
+  },
+  "city-wilmington-delaware": {
+   "title": "Wilmington, Delaware",
+   "monthlyViews": 21491,
+   "days": 60,
+   "lat": 39.74583333,
+   "lon": -75.54666667
+  },
+  "city-manchester-new-hampshire": {
+   "title": "Manchester, New Hampshire",
+   "monthlyViews": 20425,
+   "days": 60,
+   "lat": 42.99083333,
+   "lon": -71.46361111
+  },
+  "city-santa-cruz-california": {
+   "title": "Santa Cruz, California",
+   "monthlyViews": 18477,
+   "days": 60,
+   "lat": 36.97194444,
+   "lon": -122.02638889
+  },
+  "city-glendale-california": {
+   "title": "Glendale, California",
+   "monthlyViews": 18538,
+   "days": 59,
+   "lat": 34.14611111,
+   "lon": -118.255
+  },
+  "city-durham-north-carolina": {
+   "title": "Durham, North Carolina",
+   "monthlyViews": 18112,
+   "days": 60,
+   "lat": 35.97861111,
+   "lon": -78.9
+  },
+  "city-alexandria-virginia": {
+   "title": "Alexandria, Virginia",
+   "monthlyViews": 18051,
+   "days": 59,
+   "lat": 38.82027778,
+   "lon": -77.05027778
+  },
+  "city-springfield-missouri": {
+   "title": "Springfield, Missouri",
+   "monthlyViews": 17503,
+   "days": 60,
+   "lat": 37.21527778,
+   "lon": -93.29833333
+  },
+  "city-springfield-massachusetts": {
+   "title": "Springfield, Massachusetts",
+   "monthlyViews": 17533,
+   "days": 59,
+   "lat": 42.10138889,
+   "lon": -72.59027778
+  },
+  "city-st-george-utah": {
+   "title": "St. George, Utah",
+   "monthlyViews": 16194,
+   "days": 59,
+   "lat": 37.10247194,
+   "lon": -113.57706111
+  },
+  "city-vancouver-washington": {
+   "title": "Vancouver, Washington",
+   "monthlyViews": 16529,
+   "days": 60,
+   "lat": 45.63111111,
+   "lon": -122.67166667
+  },
+  "city-kansas-city-kansas": {
+   "title": "Kansas City, Kansas",
+   "monthlyViews": 16255,
+   "days": 60,
+   "lat": 39.10666667,
+   "lon": -94.67638889
+  },
+  "city-columbia-missouri": {
+   "title": "Columbia, Missouri",
+   "monthlyViews": 15555,
+   "days": 60,
+   "lat": 38.9475,
+   "lon": -92.32666667
+  },
+  "city-lancaster-pennsylvania": {
+   "title": "Lancaster, Pennsylvania",
+   "monthlyViews": 15129,
+   "days": 60,
+   "lat": 40.03972222,
+   "lon": -76.30444444
+  },
+  "city-santa-clara-california": {
+   "title": "Santa Clara, California",
+   "monthlyViews": 15007,
+   "days": 60,
+   "lat": 37.35444444,
+   "lon": -121.96916667
+  },
+  "city-augusta-georgia": {
+   "title": "Augusta, Georgia",
+   "monthlyViews": 14520,
+   "days": 59,
+   "lat": 33.47,
+   "lon": -81.975
+  },
+  "city-odessa-texas": {
+   "title": "Odessa, Texas",
+   "monthlyViews": 14246,
+   "days": 60,
+   "lat": 31.86333333,
+   "lon": -102.36555556
+  },
+  "city-columbus-georgia": {
+   "title": "Columbus, Georgia",
+   "monthlyViews": 13333,
+   "days": 59,
+   "lat": 32.49222222,
+   "lon": -84.94027778
+  },
+  "city-plymouth-massachusetts": {
+   "title": "Plymouth, Massachusetts",
+   "monthlyViews": 12937,
+   "days": 59,
+   "lat": 41.95833333,
+   "lon": -70.66777778
+  },
+  "city-santa-ana-california": {
+   "title": "Santa Ana, California",
+   "monthlyViews": 12602,
+   "days": 59,
+   "lat": 33.74083333,
+   "lon": -117.88138889
+  },
+  "city-rochester-minnesota": {
+   "title": "Rochester, Minnesota",
+   "monthlyViews": 12541,
+   "days": 60,
+   "lat": 44.014299,
+   "lon": -92.478592
+  },
+  "city-bethlehem-pennsylvania": {
+   "title": "Bethlehem, Pennsylvania",
+   "monthlyViews": 12024,
+   "days": 60,
+   "lat": 40.62611111,
+   "lon": -75.37555556
+  },
+  "city-reading-pennsylvania": {
+   "title": "Reading, Pennsylvania",
+   "monthlyViews": 10989,
+   "days": 60,
+   "lat": 40.34166667,
+   "lon": -75.92638889
+  },
+  "city-fayetteville-arkansas": {
+   "title": "Fayetteville, Arkansas",
+   "monthlyViews": 10471,
+   "days": 60,
+   "lat": 36.0625,
+   "lon": -94.1575
+  },
+  "city-canton-ohio": {
+   "title": "Canton, Ohio",
+   "monthlyViews": 10471,
+   "days": 60,
+   "lat": 40.79861111,
+   "lon": -81.375
+  },
+  "city-bayonne-new-jersey": {
+   "title": "Bayonne, New Jersey",
+   "monthlyViews": 9162,
+   "days": 60,
+   "lat": 40.66253,
+   "lon": -74.110192
+  },
+  "city-melbourne-florida": {
+   "title": "Melbourne, Florida",
+   "monthlyViews": 9162,
+   "days": 60,
+   "lat": 28.10833333,
+   "lon": -80.64027778
+  },
+  "city-lafayette-indiana": {
+   "title": "Lafayette, Indiana",
+   "monthlyViews": 8706,
+   "days": 60,
+   "lat": 40.40055556,
+   "lon": -86.87861111
+  },
+  "city-aurora-illinois": {
+   "title": "Aurora, Illinois",
+   "monthlyViews": 8645,
+   "days": 59,
+   "lat": 41.76388889,
+   "lon": -88.29
+  },
+  "city-palm-desert": {
+   "title": "Palm Desert, California",
+   "monthlyViews": 8462,
+   "days": 59,
+   "lat": 33.72222222,
+   "lon": -116.37444444
+  },
+  "city-concord-california": {
+   "title": "Concord, California",
+   "monthlyViews": 8158,
+   "days": 59,
+   "lat": 37.97805556,
+   "lon": -122.03111111
+  },
+  "city-richmond-california": {
+   "title": "Richmond, California",
+   "monthlyViews": 7945,
+   "days": 60,
+   "lat": 37.93583333,
+   "lon": -122.34777778
+  },
+  "city-huntington-new-york": {
+   "title": "Huntington, New York",
+   "monthlyViews": 7427,
+   "days": 60,
+   "lat": 40.86,
+   "lon": -73.35222222
+  },
+  "city-carson": {
+   "title": "Carson, California",
+   "monthlyViews": 7275,
+   "days": 60,
+   "lat": 33.83972222,
+   "lon": -118.25972222
+  },
+  "city-georgetown-texas": {
+   "title": "Georgetown, Texas",
+   "monthlyViews": 7001,
+   "days": 59,
+   "lat": 30.63277778,
+   "lon": -97.67722222
+  },
+  "city-springfield-ohio": {
+   "title": "Springfield, Ohio",
+   "monthlyViews": 6971,
+   "days": 60,
+   "lat": 39.92,
+   "lon": -83.77083333
+  },
+  "city-waterloo-iowa": {
+   "title": "Waterloo, Iowa",
+   "monthlyViews": 6940,
+   "days": 60,
+   "lat": 42.51388889,
+   "lon": -92.34611111
+  },
+  "city-hamilton-ohio": {
+   "title": "Hamilton, Ohio",
+   "monthlyViews": 6758,
+   "days": 60,
+   "lat": 39.38277778,
+   "lon": -84.56138889
+  },
+  "city-jackson-tennessee": {
+   "title": "Jackson, Tennessee",
+   "monthlyViews": 6758,
+   "days": 60,
+   "lat": 35.61444444,
+   "lon": -88.81388889
+  },
+  "city-columbus-indiana": {
+   "title": "Columbus, Indiana",
+   "monthlyViews": 6484,
+   "days": 60,
+   "lat": 39.213998,
+   "lon": -85.911056
+  },
+  "city-spring": {
+   "title": "Spring, Texas",
+   "monthlyViews": 6423,
+   "days": 60,
+   "lat": 30.05416667,
+   "lon": -95.38694444
+  },
+  "city-albany-georgia": {
+   "title": "Albany, Georgia",
+   "monthlyViews": 6271,
+   "days": 60,
+   "lat": 31.58222222,
+   "lon": -84.16555556
+  },
+  "city-lawrence-massachusetts": {
+   "title": "Lawrence, Massachusetts",
+   "monthlyViews": 6271,
+   "days": 60,
+   "lat": 42.70694444,
+   "lon": -71.16361111
+  },
+  "city-norwalk-connecticut": {
+   "title": "Norwalk, Connecticut",
+   "monthlyViews": 6149,
+   "days": 60,
+   "lat": 41.09388889,
+   "lon": -73.41972222
+  },
+  "city-bloomington-minnesota": {
+   "title": "Bloomington, Minnesota",
+   "monthlyViews": 6118,
+   "days": 60,
+   "lat": 44.84083333,
+   "lon": -93.29833333
+  },
+  "city-bloomington-illinois": {
+   "title": "Bloomington, Illinois",
+   "monthlyViews": 5997,
+   "days": 60,
+   "lat": 40.48416667,
+   "lon": -88.99361111
+  },
+  "city-fairfield-connecticut": {
+   "title": "Fairfield, Connecticut",
+   "monthlyViews": 5936,
+   "days": 60,
+   "lat": 41.15,
+   "lon": -73.26666667
+  },
+  "city-southampton-new-york": {
+   "title": "Southampton, New York",
+   "monthlyViews": 5814,
+   "days": 60,
+   "lat": 40.88527778,
+   "lon": -72.39527778
+  },
+  "city-portsmouth-virginia": {
+   "title": "Portsmouth, Virginia",
+   "monthlyViews": 5784,
+   "days": 60,
+   "lat": 36.83444444,
+   "lon": -76.34166667
+  },
+  "city-antioch-california": {
+   "title": "Antioch, California",
+   "monthlyViews": 5418,
+   "days": 60,
+   "lat": 38.005,
+   "lon": -121.80583333
+  },
+  "city-concord-north-carolina": {
+   "title": "Concord, North Carolina",
+   "monthlyViews": 5327,
+   "days": 60,
+   "lat": 35.41027778,
+   "lon": -80.58527778
+  },
+  "city-bristol-connecticut": {
+   "title": "Bristol, Connecticut",
+   "monthlyViews": 5114,
+   "days": 60,
+   "lat": 41.68111111,
+   "lon": -72.94055556
+  },
+  "city-roswell-georgia": {
+   "title": "Roswell, Georgia",
+   "monthlyViews": 5083,
+   "days": 60,
+   "lat": 34.03916667,
+   "lon": -84.35138889
+  },
+  "city-victoria-texas": {
+   "title": "Victoria, Texas",
+   "monthlyViews": 5053,
+   "days": 59,
+   "lat": 28.81694444,
+   "lon": -96.99333333
+  },
+  "city-springfield-oregon": {
+   "title": "Springfield, Oregon",
+   "monthlyViews": 5114,
+   "days": 60,
+   "lat": 44.05694444,
+   "lon": -123.01083333
+  },
+  "city-st-charles": {
+   "title": "St. Charles, Missouri",
+   "monthlyViews": 5023,
+   "days": 59,
+   "lat": 38.789,
+   "lon": -90.514
+  },
+  "city-jacksonville-north-carolina": {
+   "title": "Jacksonville, North Carolina",
+   "monthlyViews": 4810,
+   "days": 60,
+   "lat": 34.75972222,
+   "lon": -77.40972222
+  },
+  "city-madison-alabama": {
+   "title": "Madison, Alabama",
+   "monthlyViews": 4079,
+   "days": 60,
+   "lat": 34.71111111,
+   "lon": -86.73111111
+  },
+  "city-westminster-california": {
+   "title": "Westminster, California",
+   "monthlyViews": 4049,
+   "days": 60,
+   "lat": 33.75138889,
+   "lon": -117.99388889
+  },
+  "city-parma-ohio": {
+   "title": "Parma, Ohio",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 41.383569,
+   "lon": -81.728641
+  },
+  "city-pasadena-texas": {
+   "title": "Pasadena, Texas",
+   "monthlyViews": 3896,
+   "days": 60,
+   "lat": 29.67611111,
+   "lon": -95.17388889
+  },
+  "city-lakewood-california": {
+   "title": "Lakewood, California",
+   "monthlyViews": 3775,
+   "days": 60,
+   "lat": 33.8475,
+   "lon": -118.12
+  },
+  "city-peoria-arizona": {
+   "title": "Peoria, Arizona",
+   "monthlyViews": 3775,
+   "days": 60,
+   "lat": 33.5825,
+   "lon": -112.23861111
+  },
+  "city-smyrna-tennessee": {
+   "title": "Smyrna, Tennessee",
+   "monthlyViews": 3440,
+   "days": 60,
+   "lat": 35.97944444,
+   "lon": -86.52111111
+  },
+  "city-lakewood-ohio": {
+   "title": "Lakewood, Ohio",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 41.48194444,
+   "lon": -81.79833333
+  },
+  "city-smyrna-georgia": {
+   "title": "Smyrna, Georgia",
+   "monthlyViews": 3257,
+   "days": 59,
+   "lat": 33.87194444,
+   "lon": -84.51833333
+  },
+  "city-albany-oregon": {
+   "title": "Albany, Oregon",
+   "monthlyViews": 3166,
+   "days": 60,
+   "lat": 44.63027778,
+   "lon": -123.09666667
+  },
+  "city-brandon-florida": {
+   "title": "Brandon, Florida",
+   "monthlyViews": 3227,
+   "days": 59,
+   "lat": 27.92222222,
+   "lon": -82.27916667
+  },
+  "city-burlington-north-carolina": {
+   "title": "Burlington, North Carolina",
+   "monthlyViews": 3135,
+   "days": 60,
+   "lat": 36.07611111,
+   "lon": -79.46805556
+  },
+  "city-beaumont-california": {
+   "title": "Beaumont, California",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 33.92944444,
+   "lon": -116.97722222
+  },
+  "city-bellevue-nebraska": {
+   "title": "Bellevue, Nebraska",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 41.15861111,
+   "lon": -95.93416667
+  },
+  "city-spring-hill-tennessee": {
+   "title": "Spring Hill, Tennessee",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 35.7525,
+   "lon": -86.91388889
+  },
+  "city-canton-michigan": {
+   "title": "Canton, Michigan",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 42.30861111,
+   "lon": -83.48222222
+  },
+  "city-plymouth-minnesota": {
+   "title": "Plymouth, Minnesota",
+   "monthlyViews": 2222,
+   "days": 59,
+   "lat": 45.01055556,
+   "lon": -93.45555556
+  },
+  "city-manchester-connecticut": {
+   "title": "Manchester, Connecticut",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 41.77527778,
+   "lon": -72.52416667
+  },
+  "city-hamburg-new-york": {
+   "title": "Hamburg, New York",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 42.74444444,
+   "lon": -78.85833333
+  },
+  "city-lakewood-washington": {
+   "title": "Lakewood, Washington",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 47.15888889,
+   "lon": -122.52083333
+  },
+  "city-st-george-louisiana": {
+   "title": "St. George, Louisiana",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 30.36523,
+   "lon": -91.02615
+  },
+  "city-aspen-hill": {
+   "title": "Aspen Hill, Maryland",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 39.09555556,
+   "lon": -77.10527778
+  },
+  "city-washington-tyne-and-wear": {
+   "title": "Washington, Tyne and Wear",
+   "monthlyViews": 5997,
+   "days": 60,
+   "lat": 54.9,
+   "lon": -1.52
+  },
+  "city-athens-georgia": {
+   "title": "Athens, Georgia",
+   "monthlyViews": 15798,
+   "days": 59,
+   "lat": 33.95,
+   "lon": -83.38333333
+  },
+  "city-dublin-california": {
+   "title": "Dublin, California",
+   "monthlyViews": 5236,
+   "days": 60,
+   "lat": 37.70222222,
+   "lon": -121.93583333
+  },
+  "city-wellington-florida": {
+   "title": "Wellington, Florida",
+   "monthlyViews": 4505,
+   "days": 60,
+   "lat": 26.62916667,
+   "lon": -80.25333333
+  },
+  "city-fano-italy": {
+   "title": "Fano",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 43.8425,
+   "lon": 13.0136
+  },
+  "city-manhattan-kansas": {
+   "title": "Manhattan, Kansas",
+   "monthlyViews": 7549,
+   "days": 60,
+   "lat": 39.18861111,
+   "lon": -96.60472222
+  },
+  "city-new-britain-connecticut": {
+   "title": "New Britain, Connecticut",
+   "monthlyViews": 4049,
+   "days": 60,
+   "lat": 41.675,
+   "lon": -72.78722222
+  },
+  "city-greece-new-york": {
+   "title": "Greece, New York",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 43.20944444,
+   "lon": -77.69527778
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",

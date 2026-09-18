@@ -11,6 +11,7 @@
  *                                         name goes bare so it is the namesake of Tana)
  *   river-scamander-karamenderes||Scamander  -> an empty qualifier drops one (the
  *                                         old one becomes an alias when --alias is given)
+ *   anything after a # is a note (chunk.mjs --taken-only writes the article title there)
  *
  * The id carries the qualifier (build-data.mjs idFor), so everything keyed by
  * the old id moves with it: WIKI_TITLES and WIKI_VERIFIED, OCEAN_OVERRIDES,
@@ -46,7 +47,8 @@ for (const [k, p] of Object.entries(files)) text[k] = await readFile(p, 'utf8');
 const pageviews = JSON.parse(text.pageviews);
 const eolOf = (t) => (t.includes('\r\n') ? '\r\n' : '\n');
 
-const rows = (await readFile(src, 'utf8')).split(/\r?\n/).map((l) => l.trim()).filter((l) => l && !l.startsWith('#'));
+// a trailing "# ..." on a line is a note for the hand pass (chunk.mjs writes the incumbent's article title there)
+const rows = (await readFile(src, 'utf8')).split(/\r?\n/).map((l) => l.replace(/\s*#.*$/, '').trim()).filter(Boolean);
 let done = 0;
 const renames = [];
 for (const line of rows) {

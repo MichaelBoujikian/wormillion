@@ -219,30 +219,36 @@ test('filler words are optional in both directions', () => {
   const bare = matching.buildLookup([
     { id: 'mountain-denali', name: 'Denali', aliases: ['Mount McKinley'] },
     { id: 'island-cuba', name: 'Cuba', aliases: [] },
-    { id: 'lake-victoria', name: 'Lake Victoria', aliases: [] },
-    { id: 'island-victoria-island', name: 'Victoria Island', aliases: [] }
+    { id: 'lake-victoria', name: 'Lake Victoria', aliases: [], magnitude: 9000 },
+    { id: 'island-victoria-island', name: 'Victoria Island', aliases: [], magnitude: 2000 }
   ]);
   assert.strictEqual(matching.matchAnswer('Mount Denali', bare, new Set()).entryId, 'mountain-denali');
   assert.strictEqual(matching.matchAnswer('Cuba Island', bare, new Set()).entryId, 'island-cuba');
   assert.strictEqual(matching.matchAnswer('the island of Cuba', bare, new Set()).entryId, 'island-cuba');
-  // A shared bare form is still nobody, even typed with filler of its own.
-  assert.strictEqual(matching.matchAnswer('Mount Victoria', bare, new Set()).status, 'unrecognized');
+  // A shared bare form goes to the most-viewed holder, typed with filler of
+  // its own or not (decision 5; it identified nobody before 2026-09-18).
+  assert.strictEqual(matching.matchAnswer('Mount Victoria', bare, new Set()).entryId, 'lake-victoria');
 });
 
-test('a shared loose form identifies nobody', () => {
-  // Both "Lake Victoria" and "Victoria Island" reduce to "victoria", so the
-  // loose pass must not guess between them.
+test('a shared loose form identifies the list of its names, most-viewed first', () => {
+  // Both "Lake Victoria" and "Victoria Island" reduce to "victoria": the
+  // loose pass takes the more famous one, and the next typing the other
+  // (decision 5, 2026-09-18 - before it the form identified nobody, and the
+  // fold refused the second name outright).
   const both = matching.buildLookup([
-    { id: 'a', name: 'Lake Victoria', aliases: [] },
-    { id: 'b', name: 'Victoria Island', aliases: [] }
+    { id: 'a', name: 'Lake Victoria', aliases: [], magnitude: 100 },
+    { id: 'b', name: 'Victoria Island', aliases: [], magnitude: 900 }
   ]);
-  assert.strictEqual(matching.matchAnswer('Victoria', both, new Set()).status, 'unrecognized');
-  // ...and the same for two aliases with no name behind either.
+  assert.deepStrictEqual(both.loose.get('victoria'), ['b', 'a']);
+  assert.strictEqual(matching.matchAnswer('Victoria', both, new Set()).entryId, 'b');
+  assert.strictEqual(matching.matchAnswer('Victoria', both, new Set(['b'])).entryId, 'a');
+  // Two aliases with no name behind either resolve the same way in the
+  // matcher; the validator refuses that data (an alias exists to be typed).
   const aliases = matching.buildLookup([
-    { id: 'a', name: 'Dasht-e Kavir', aliases: ['Great Salt Desert'] },
-    { id: 'b', name: 'Bonneville Salt Flats', aliases: ['Great Salt Lake Desert'] }
+    { id: 'a', name: 'Dasht-e Kavir', aliases: ['Great Salt Desert'], magnitude: 5 },
+    { id: 'b', name: 'Bonneville Salt Flats', aliases: ['Great Salt Lake Desert'], magnitude: 9 }
   ]);
-  assert.strictEqual(matching.matchAnswer('Great Salt', aliases, new Set()).status, 'unrecognized');
+  assert.strictEqual(matching.matchAnswer('Great Salt', aliases, new Set()).entryId, 'b');
 });
 
 test("a loose form from an entry's name beats the same form from another's alias", () => {

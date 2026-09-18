@@ -30,13 +30,19 @@
   // capital city", not 950 points for Athens (Georgia), and the Georgia one
   // wants its qualifier ("Athens, Georgia" / "Athens GA"). Measured on
   // `magnitude` (monthly views) between the in-cohort namesake and the
-  // most-viewed exact holder elsewhere (decision 5, 2026-09-18). Only the
-  // two city cohorts second-guess each other this way: a capital and a
-  // non-capital city are the same kind of thing to a player who forgot which
-  // is which, but "Saint Paul" on a river round names the river, however
-  // famous the capital - the round's category settles that on its own.
-  const NAMESAKE_FAME_RATIO = 5;
-  const CONFUSABLE = { city: ['capital'], capital: ['city'] };
+  // most-viewed exact holder elsewhere (decision 5, 2026-09-18; 3, not 5:
+  // Athens the capital has 4.8x the views of the Georgia one). Only a city
+  // is second-guessed this way, against a capital, a country or an island
+  // (Athens, Greece (New York), Manhattan (Kansas)): those are what a
+  // player who types the bare name on a city round may have meant, but
+  // "Saint Paul" on a river round names the river, however famous the
+  // capital - the round's category settles that on its own. And only when
+  // the famous holder would have fitted the round: on a plain round, or a
+  // region round whose region it carries. "Boston" on "Name a city in
+  // Europe" is Boston (Lincolnshire), accepted - that is the point of the
+  // design - not "Boston is a capital city".
+  const NAMESAKE_FAME_RATIO = 3;
+  const CONFUSABLE = { city: ['capital', 'country', 'island'] };
 
   /**
    * @param {object} bank        from promptBank.createBank()
@@ -93,8 +99,9 @@
      * (one that shares its name) is ever second-guessed, and only when it
      * was reached by the bare name: "Athens, Georgia" is exactly that.
      */
-    function famousElsewhere(entry, match) {
+    function famousElsewhere(entry, match, current) {
       if (!entry.qualifier || (match && match.qualified)) return null;
+      if (current.constrained && !current.region) return null;
       let best = null;
       for (const other of CONFUSABLE[entry.category] || []) {
         const cohort = bank.cohorts.get(other);
@@ -104,6 +111,7 @@
         if (!best || found.magnitude > best.magnitude) best = found;
       }
       if (!best || best.magnitude < NAMESAKE_FAME_RATIO * entry.magnitude) return null;
+      if (current.region && !(best.region || []).includes(current.region)) return null;
       return { status: 'unrecognized', elsewhere: { entry: best, category: best.category, fuzzy: false } };
     }
 
@@ -174,7 +182,11 @@
       // scored; it is Australia, and Australia is out of scope.
       if (match.status === 'corrected') {
         const exact = matching.matchAnswer(rawInput, current.cohort.lookup, null, { fuzzy: false });
-        if (exact.status === 'accepted' && exact.entryId !== match.entryId) return wrongScope(current, exact.entryId);
+        if (exact.status === 'accepted' && exact.entryId !== match.entryId) {
+          // ("Dublin" on a Europe round is a typo of Lublin here, Dublin
+          // (California) in the whole cohort, and the capital's nudge first)
+          return famousElsewhere(current.cohort.byId.get(exact.entryId), exact, current) || wrongScope(current, exact.entryId);
+        }
         const named = elsewhere(rawInput, current.category, true);
         // ...unless the place named elsewhere IS the corrected one under the
         // same name: "Solomon Island" on a country round is a typo for the
@@ -191,7 +203,7 @@
           if (wide.status === 'accepted' || wide.status === 'corrected') {
             // "Athens" on "Name a city in Europe" is not "Athens (Georgia)
             // isn't in Europe" - it is the capital, and the nudge says so
-            return famousElsewhere(current.cohort.byId.get(wide.entryId), wide) || wrongScope(current, wide.entryId);
+            return famousElsewhere(current.cohort.byId.get(wide.entryId), wide, current) || wrongScope(current, wide.entryId);
           }
           tie = tie || Boolean(wide.tie);
         }
@@ -226,7 +238,7 @@
 
       const entry = current.cohort.byId.get(match.entryId);
       if (match.status === 'duplicate') return { status: 'duplicate', entry };
-      const famous = famousElsewhere(entry, match);
+      const famous = famousElsewhere(entry, match, current);
       if (famous) return famous;
 
       // A length prompt is about the spelling you used: "China" is five

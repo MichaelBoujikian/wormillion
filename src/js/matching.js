@@ -246,14 +246,18 @@
   }
 
   /**
-   * Which entry, if any, a bare loose form identifies. A form that comes from
-   * one entry's NAME beats the same form from another entry's alias: "Arabian"
-   * is the Arabian Sea even though the Persian Gulf is also called the Arabian
-   * Gulf. Two names, or two aliases with no name, identify neither - "Victoria"
-   * is not a guess between Lake Victoria and Victoria Island - unless they are
-   * the SAME name (namesakes, whose claims carry the same key): then the form
-   * identifies the list of them, and the caller picks by scope.
-   * @param {Map<string, {id:string, fromName:boolean, key?:string}[]>} claims
+   * Which entries a bare loose form identifies. A form that comes from an
+   * entry's NAME beats the same form from another entry's alias: "Arabian"
+   * is the Arabian Sea even though the Persian Gulf is also called the
+   * Arabian Gulf. Several names that share a form identify the list of them
+   * (decision 5, 2026-09-18): the namesakes "Black Lake" x3, and also Lake
+   * Geneva beside Geneva Lake, Mount Wilson beside Wilson Peak - the caller
+   * picks by scope, the most-viewed first, exactly as for a shared exact
+   * key. (Until then two names identified neither, and the fold refused the
+   * second one: ~180 real places were out for it.) Two aliases with no name
+   * behind either identify the list too, but the validator refuses that
+   * kind of data.
+   * @param {Map<string, {id:string, fromName:boolean}[]>} claims
    */
   function resolveLoose(claims) {
     const loose = new Map();
@@ -261,9 +265,7 @@
       const names = list.filter((c) => c.fromName);
       const pool = names.length ? names : list;
       const ids = [...new Set(pool.map((c) => c.id))];
-      const keys = new Set(pool.map((c) => c.key));
-      if (ids.length === 1) loose.set(bare, ids[0]);
-      else if (keys.size === 1 && !keys.has(undefined)) loose.set(bare, ids);
+      loose.set(bare, ids.length === 1 ? ids[0] : ids);
     }
     return loose;
   }

@@ -79,7 +79,7 @@ Bobo-Dioulasso|Burkina Faso|900000|Bobo Dioulasso
 Cotonou|Benin|680000
 Touba|Senegal|1100000
 Serekunda|Gambia|350000|Serrekunda
-Alexandria|Egypt|5500000
+Alexandria (Egypt)|Egypt|5500000
 Giza|Egypt|4900000|Gizeh,Al Jizah
 Luxor|Egypt|500000|Thebes
 Aswan|Egypt|350000|Assuan
@@ -137,7 +137,7 @@ Tel Aviv|Israel|470000|Tel Aviv-Yafo,Tel Aviv-Jaffa
 Haifa|Israel|290000
 Dubai|United Arab Emirates|3700000
 Gaza City|Palestine|590000|Gaza
-Bethlehem|Palestine|29000
+Bethlehem (Palestine)|Palestine|29000
 Mumbai|India|12400000|Bombay
 Kolkata|India|4500000|Calcutta
 Chennai|India|4700000|Madras
@@ -220,8 +220,8 @@ Osh|Kyrgyzstan|320000
 Khujand|Tajikistan|200000|Khodjent,Leninabad
 Batumi|Georgia|170000
 Munich|Germany|1500000|Munchen,Muenchen
-Hamburg|Germany|1900000
-Frankfurt|Germany|770000|Frankfurt am Main
+Hamburg (Germany)|Germany|1900000
+Frankfurt (Main)|Germany|770000|Frankfurt am Main
 Cologne|Germany|1100000|Koln,Koeln
 Stuttgart|Germany|630000
 Marseille|France|870000|Marseilles
@@ -229,15 +229,15 @@ Lyon|France|520000|Lyons
 Nice|France|340000
 Toulouse|France|500000
 Bordeaux|France|260000
-Manchester|United Kingdom|550000
-Birmingham|United Kingdom|1150000
+Manchester (England)|United Kingdom|550000
+Birmingham (England)|United Kingdom|1150000
 Liverpool|United Kingdom|490000
 Glasgow|United Kingdom|630000
 Edinburgh|United Kingdom|510000
 Oxford|United Kingdom|160000
-Cambridge|United Kingdom|150000
+Cambridge (England)|United Kingdom|150000
 Leeds|United Kingdom|810000
-Bristol|United Kingdom|470000
+Bristol (England)|United Kingdom|470000
 Cardiff|United Kingdom|360000|Caerdydd
 Belfast|United Kingdom|345000
 Milan|Italy|1370000|Milano
@@ -259,7 +259,7 @@ Salzburg|Austria|160000
 Zurich|Switzerland|430000|Zuerich
 Geneva|Switzerland|200000|Geneve,Genf
 Cork|Ireland|220000
-Saint Petersburg|Russia|5600000|St Petersburg,Leningrad,Petrograd
+Saint Petersburg (Russia)|Russia|5600000|Leningrad,Petrograd
 Novosibirsk|Russia|1600000
 Yekaterinburg|Russia|1500000|Ekaterinburg,Sverdlovsk
 Kazan|Russia|1300000
@@ -301,7 +301,7 @@ San Francisco|United States|810000|SF
 Seattle|United States|750000
 Denver|United States|720000
 Las Vegas|United States|660000|Vegas
-Boston|United States|650000
+Boston (Massachusetts)|United States|650000
 Detroit|United States|630000
 Atlanta|United States|500000
 Miami|United States|450000
@@ -309,7 +309,7 @@ New Orleans|United States|370000|NOLA
 Baltimore|United States|565000
 Saint Louis|United States|280000|St Louis
 Pittsburgh|United States|300000
-Portland|United States|630000
+Portland (Oregon)|United States|630000
 Minneapolis|United States|425000
 Orlando|United States|320000
 Honolulu|United States|350000
@@ -317,13 +317,13 @@ Toronto|Canada|2800000
 Montreal|Canada|1760000
 Calgary|Canada|1300000
 Edmonton|Canada|1010000
-Vancouver|Canada|660000
+Vancouver (British Columbia)|Canada|660000
 Quebec City|Canada|550000|Quebec
 Winnipeg|Canada|750000
 Tijuana|Mexico|1920000
-Leon|Mexico|1720000
+Leon (Guanajuato)|Mexico|1720000
 Puebla|Mexico|1540000|Puebla de Zaragoza
-Guadalajara|Mexico|1400000
+Guadalajara (Mexico)|Mexico|1400000
 Monterrey|Mexico|1140000
 Cancun|Mexico|890000
 Oaxaca|Mexico|260000|Oaxaca de Juarez,Oaxaca City
@@ -332,7 +332,7 @@ Ciudad Juarez|Mexico|1500000|Juarez
 Quetzaltenango|Guatemala|180000|Xela
 Antigua Guatemala|Guatemala|46000
 San Pedro Sula|Honduras|720000
-Santa Ana|El Salvador|270000
+Santa Ana (El Salvador)|El Salvador|270000
 Masaya|Nicaragua|170000
 Puerto Limon|Costa Rica|60000|Limon
 Belize City|Belize|65000
@@ -345,7 +345,7 @@ Santiago de los Caballeros|Dominican Republic|770000
 Punta Cana|Dominican Republic|50000
 Montego Bay|Jamaica|110000
 Ocho Rios|Jamaica|17000
-San Fernando|Trinidad and Tobago|50000
+San Fernando (Trinidad and Tobago)|Trinidad and Tobago|50000
 Freeport|Bahamas|27000
 Sao Paulo|Brazil|11500000
 Rio de Janeiro|Brazil|6200000|Rio
@@ -358,9 +358,9 @@ Recife|Brazil|1490000
 Porto Alegre|Brazil|1330000
 Medellin|Colombia|2500000
 Cali|Colombia|2200000
-Cartagena|Colombia|1000000|Cartagena de Indias
+Cartagena (Colombia)|Colombia|1000000|Cartagena de Indias
 Barranquilla|Colombia|1300000
-Cordoba|Argentina|1500000|Cordova
+Cordoba (Argentina)|Argentina|1500000|Cordova
 Rosario|Argentina|950000
 Ushuaia|Argentina|80000
 Arequipa|Peru|1000000
@@ -371,7 +371,7 @@ Guayaquil|Ecuador|2700000
 Santa Cruz de la Sierra|Bolivia|1900000|Santa Cruz
 La Paz|Bolivia|800000
 Sydney|Australia|5300000
-Melbourne|Australia|5100000
+Melbourne (Australia)|Australia|5100000
 Brisbane|Australia|2600000
 Perth|Australia|2200000
 Adelaide|Australia|1400000
@@ -384,13 +384,13 @@ Nadi|Fiji|70000
 Nashville|United States|690000
 Memphis|United States|630000
 Charlotte|United States|880000
-Columbus|United States|905000
+Columbus (Ohio)|United States|905000
 Indianapolis|United States|890000
-Jacksonville|United States|950000
+Jacksonville (Florida)|United States|950000
 Fort Worth|United States|920000
 San Jose|United States|1010000
 Milwaukee|United States|577000
-Kansas City|United States|510000|KC
+Kansas City (Missouri)|United States|510000|KC
 Oklahoma City|United States|680000|OKC
 El Paso|United States|680000
 Louisville|United States|630000
@@ -410,7 +410,7 @@ Tampa|United States|390000
 Wichita|United States|400000
 Cleveland|United States|370000
 Bakersfield|United States|400000
-Aurora|United States|390000
+Aurora (Colorado)|United States|390000
 Anaheim|United States|350000
 Riverside|United States|315000
 Corpus Christi|United States|320000
@@ -431,13 +431,13 @@ Fort Wayne|United States|265000
 Chandler|United States|275000
 Laredo|United States|255000
 Lubbock|United States|260000
-Madison|United States|270000
+Madison (Wisconsin)|United States|270000
 Reno|United States|265000
 Winston-Salem|United States|250000
 Chesapeake|United States|250000
 Scottsdale|United States|240000
 Boise|United States|235000
-Richmond|United States|227000
+Richmond (Virginia)|United States|227000
 Spokane|United States|230000
 Tacoma|United States|220000
 Baton Rouge|United States|227000
@@ -445,7 +445,7 @@ Des Moines|United States|214000
 Modesto|United States|218000
 Salt Lake City|United States|200000|SLC,Salt Lake
 Sioux Falls|United States|195000
-Rochester|United States|211000
+Rochester (New York)|United States|211000
 Amarillo|United States|200000
 Tallahassee|United States|196000
 Grand Rapids|United States|199000
@@ -454,7 +454,7 @@ Providence|United States|191000
 Montgomery|United States|201000
 Chattanooga|United States|181000
 Brownsville|United States|187000
-Glendale|United States|248000
+Glendale (Arizona)|United States|248000
 Newport News|United States|186000
 Huntsville|United States|215000
 Knoxville|United States|191000
@@ -462,11 +462,11 @@ Little Rock|United States|203000
 Shreveport|United States|187000
 Savannah|United States|148000
 Charleston|United States|150000
-Columbia|United States|137000
+Columbia (South Carolina)|United States|137000
 Myrtle Beach|United States|35000
-Wilmington|United States|123000
+Wilmington (North Carolina)|United States|123000
 Asheville|United States|94000
-Augusta|United States|19000
+Augusta (Maine)|United States|19000
 Macon|United States|157000
 Gainesville|United States|141000
 Daytona Beach|United States|72000
@@ -475,14 +475,14 @@ West Palm Beach|United States|117000
 Sarasota|United States|57000
 Pensacola|United States|54000
 Saint Augustine|United States|15000|St Augustine
-Jackson|United States|150000
+Jackson (Mississippi)|United States|150000
 Biloxi|United States|46000
-Fayetteville|United States|211000
+Fayetteville (North Carolina)|United States|211000
 Bentonville|United States|55000
-Springfield|United States|114000
-Peoria|United States|113000
+Springfield (Illinois)|United States|114000
+Peoria (Illinois)|United States|113000
 South Bend|United States|103000
-Bloomington|United States|85000
+Bloomington (Indiana)|United States|85000
 Dayton|United States|137000
 Akron|United States|190000
 Ann Arbor|United States|123000
@@ -507,7 +507,7 @@ Park City|United States|8000
 Moab|United States|5000
 Las Cruces|United States|112000
 Santa Fe|United States|88000
-Roswell|United States|48000
+Roswell (New Mexico)|United States|48000
 Flagstaff|United States|76000
 Sedona|United States|10000
 Yuma|United States|95000
@@ -521,7 +521,7 @@ Berkeley|United States|124000
 Napa|United States|80000
 Santa Rosa|United States|178000
 Palm Springs|United States|44000
-Pasadena|United States|138000
+Pasadena (California)|United States|138000
 Burbank|United States|103000
 Malibu|United States|11000
 Santa Monica|United States|93000
@@ -533,7 +533,7 @@ Eugene|United States|176000
 Salem|United States|175000
 Bend|United States|103000
 Olympia|United States|55000
-Bellevue|United States|151000
+Bellevue (Washington)|United States|151000
 Walla Walla|United States|34000
 Juneau|United States|32000
 Fairbanks|United States|32000
@@ -548,7 +548,7 @@ Princeton|United States|31000
 Hoboken|United States|60000
 Camden|United States|71000
 Yonkers|United States|211000
-Syracuse|United States|148000
+Syracuse (New York)|United States|148000
 Saratoga Springs|United States|28000
 Scranton|United States|76000
 Allentown|United States|125000
@@ -557,31 +557,31 @@ Dover|United States|39000
 Annapolis|United States|40000
 Charlottesville|United States|47000
 Williamsburg|United States|15000
-Concord|United States|43000
-Burlington|United States|44000
+Concord (New Hampshire)|United States|43000
+Burlington (Vermont)|United States|44000
 Montpelier|United States|8000
 Bar Harbor|United States|5500
-Newport|United States|25000
+Newport (Rhode Island)|United States|25000
 New Haven|United States|135000
 Hartford|United States|121000
 Tupelo|United States|38000
 Selma|United States|17000
 Tuscaloosa|United States|100000
-Lafayette|United States|121000
+Lafayette (Louisiana)|United States|121000
 Hot Springs|United States|39000
 Joplin|United States|52000
 Branson|United States|12000
 Independence|United States|123000
 Topeka|United States|126000
-Lawrence|United States|98000
+Lawrence (Kansas)|United States|98000
 Dodge City|United States|27000
 Cedar Rapids|United States|137000
 Iowa City|United States|75000
 Mississauga|Canada|718000
 Brampton|Canada|656000
-Hamilton|Canada|569000
+Hamilton (Ontario)|Canada|569000
 Surrey|Canada|568000
-Halifax|Canada|440000
+Halifax (Nova Scotia)|Canada|440000
 Laval|Canada|438000
 Gatineau|Canada|291000
 Saskatoon|Canada|266000
@@ -614,7 +614,7 @@ Kelowna|Canada|145000
 Penticton|Canada|33000
 Nelson|Canada|11000
 Dawson City|Canada|1400
-Brandon|Canada|51000
+Brandon (Manitoba)|Canada|51000
 Moose Jaw|Canada|34000
 Rankin Inlet|Canada|2900
 Sheffield|United Kingdom|560000
@@ -624,11 +624,11 @@ Leicester|United Kingdom|370000
 Coventry|United Kingdom|345000
 Bradford|United Kingdom|540000
 Kingston upon Hull|United Kingdom|260000|Hull
-Plymouth|United Kingdom|265000
+Plymouth (England)|United Kingdom|265000
 Stoke-on-Trent|United Kingdom|260000|Stoke
 Wolverhampton|United Kingdom|265000
 Derby|United Kingdom|260000
-Southampton|United Kingdom|255000
+Southampton (England)|United Kingdom|255000
 Sunderland|United Kingdom|175000
 Brighton|United Kingdom|290000
 York|United Kingdom|210000
@@ -640,11 +640,11 @@ Milton Keynes|United Kingdom|230000
 Northampton|United Kingdom|230000
 Luton|United Kingdom|220000
 Peterborough|United Kingdom|215000
-Reading|United Kingdom|175000
+Reading (Berkshire)|United Kingdom|175000
 Ipswich|United Kingdom|140000
 Bath|United Kingdom|95000
 Exeter|United Kingdom|130000
-Durham|United Kingdom|50000
+Durham (England)|United Kingdom|50000
 Canterbury|United Kingdom|55000
 Aberdeen|United Kingdom|200000
 Dundee|United Kingdom|150000
@@ -655,7 +655,7 @@ Dumfries|United Kingdom|33000
 St Andrews|United Kingdom|17000
 Swansea|United Kingdom|245000
 Wrexham|United Kingdom|65000
-Bangor|United Kingdom|18000
+Bangor (Gwynedd)|United Kingdom|18000
 Llandudno|United Kingdom|20000
 Aberystwyth|United Kingdom|18000
 Derry|United Kingdom|85000
@@ -665,7 +665,7 @@ Armagh|United Kingdom|15000
 Enniskillen|United Kingdom|14000
 Stratford-upon-Avon|United Kingdom|30000
 Winchester|United Kingdom|45000
-Worcester|United Kingdom|100000
+Worcester (England)|United Kingdom|100000
 Galway|Ireland|85000
 Limerick|Ireland|95000
 Waterford|Ireland|60000
@@ -716,7 +716,7 @@ La Rochelle|France|78000
 Cannes|France|75000
 Antibes|France|75000
 Ajaccio|France|70000
-Bayonne|France|52000
+Bayonne (France)|France|52000
 Biarritz|France|25000
 Chamonix|France|8500|Chamonix-Mont-Blanc
 Carcassonne|France|45000
@@ -754,7 +754,7 @@ Sint-Niklaas|Belgium|79000
 Roeselare|Belgium|66000
 Arlon|Belgium|30000
 Durbuy|Belgium|11500
-Waterloo|Belgium|30000
+Waterloo (Belgium)|Belgium|30000
 Utrecht|Netherlands|360000
 Eindhoven|Netherlands|240000
 Groningen|Netherlands|235000
@@ -891,7 +891,7 @@ Siena|Italy|53000|Sienne
 Padua|Italy|210000|Padova
 Trieste|Italy|200000
 Brescia|Italy|197000
-Parma|Italy|198000
+Parma (Italy)|Italy|198000
 Modena|Italy|185000
 Reggio Emilia|Italy|172000
 Perugia|Italy|165000
@@ -924,7 +924,7 @@ Positano|Italy|3900
 Bilbao|Spain|345000
 Zaragoza|Spain|680000
 Granada|Spain|230000
-Toledo|Spain|85000
+Toledo (Spain)|Spain|85000
 Salamanca|Spain|144000
 Alicante|Spain|338000
 Palma|Spain|420000|Palma de Mallorca
@@ -1013,7 +1013,7 @@ Alexandroupoli|Greece|58000
 Drama|Greece|45000
 Trikala|Greece|61000
 Agrinio|Greece|60000
-Merida|Mexico|920000
+Merida (Yucatán)|Mexico|920000
 Puerto Vallarta|Mexico|290000
 Mazatlan|Mexico|500000
 Chihuahua|Mexico|930000
@@ -1063,7 +1063,7 @@ Panajachel|Guatemala|17000
 Coban|Guatemala|225000
 Huehuetenango|Guatemala|100000
 Escuintla|Guatemala|100000
-Livingston|Guatemala|80000
+Livingston (Guatemala)|Guatemala|80000
 La Ceiba|Honduras|205000
 Comayagua|Honduras|90000
 Choluteca|Honduras|95000
@@ -1100,7 +1100,7 @@ Matanzas|Cuba|145000
 Pinar del Rio|Cuba|142000
 Guantanamo|Cuba|210000
 Bayamo|Cuba|130000
-Santa Clara|Cuba|210000
+Santa Clara (Cuba)|Cuba|210000
 Baracoa|Cuba|80000
 Vinales|Cuba|17000
 Las Tunas|Cuba|175000
@@ -1238,7 +1238,7 @@ Puerto Varas|Chile|45000
 Puerto Natales|Chile|22000
 Valdivia|Chile|170000
 Rancagua|Chile|240000
-Cuenca|Ecuador|370000
+Cuenca (Ecuador)|Ecuador|370000
 Manta|Ecuador|270000
 Ambato|Ecuador|180000
 Loja|Ecuador|205000
@@ -1434,7 +1434,7 @@ Chefchaouen|Morocco|43000|Chaouen
 Ouarzazate|Morocco|71000
 Kenitra|Morocco|450000
 Tetouan|Morocco|380000
-Sale|Morocco|900000
+Sale (Morocco)|Morocco|900000
 Safi|Morocco|310000
 El Jadida|Morocco|195000
 Nador|Morocco|165000
@@ -1761,7 +1761,7 @@ Mingachevir|Azerbaijan|100000
 Lankaran|Azerbaijan|55000
 Shaki|Azerbaijan|65000
 Nakhchivan|Azerbaijan|90000
-Portsmouth|United Kingdom|210000
+Portsmouth (England)|United Kingdom|210000
 Faro|Portugal|65000
 Lodz|Poland|650000
 Poznan|Poland|540000
@@ -2601,12 +2601,12 @@ Auki|Solomon Islands|6000
 Luganville|Vanuatu|16000
 Salelologa|Samoa|4000
 Neiafu|Tonga|4000
-Victoria|Canada|92000
+Victoria (British Columbia)|Canada|92000
 Brooklyn|United States|2736074
 The Bronx|United States|1472654
 Queens|United States|2405464
 Gary|United States|69093
-Albany|United States|99224
+Albany (New York)|United States|99224
 Dearborn|United States|109976
 Duluth|United States|86697
 Sitka|United States|8458
@@ -2660,12 +2660,12 @@ Lowell|United States|113994
 Ontario|United States|175265
 Wichita Falls|United States|102316
 Bowling Green|United States|72294
-Beaumont|United States|115282
+Beaumont (Texas)|United States|115282
 Hollywood|United States|153067
 San Mateo|United States|105661
 Chico|United States|101475
 Lewiston|United States|37121
-Huntington|United States|46842
+Huntington (West Virginia)|United States|46842
 Pierre|United States|14091
 Kenosha|United States|99986
 Joliet|United States|150362
@@ -2682,7 +2682,7 @@ Murfreesboro|United States|152769
 Round Rock|United States|119468
 Minot|United States|48377
 New Bedford|United States|101079
-Lancaster|United States|173516
+Lancaster (California)|United States|173516
 Pueblo|United States|111876
 St. Joseph|United States|72473|Saint Joseph
 Great Falls|United States|60442
@@ -2767,7 +2767,7 @@ Renton|United States|106785
 Longmont|United States|98885
 Olathe|United States|141290
 Elk Grove|United States|176124
-Fairfield|United States|119881
+Fairfield (California)|United States|119881
 Davie|United States|105691
 Cranston|United States|82934
 Broken Arrow|United States|113540
@@ -2781,7 +2781,7 @@ Sparks|United States|108445
 Edmond|United States|94428
 Kearney|United States|33790
 Springdale|United States|84161
-Lakewood|United States|155984
+Lakewood (Colorado)|United States|155984
 Kent|United States|136588
 Moreno Valley|United States|208634
 Carrollton|United States|133434
@@ -2809,14 +2809,14 @@ Surprise|United States|143148
 Hesperia|United States|99818
 North Charleston|United States|114852
 Mesquite|United States|150108
-Spring Hill|United States|113568
+Spring Hill (Florida)|United States|113568
 Goodyear|United States|95294
 Brookings|United States|23377
 Buckeye|United States|91502
 South Fulton|United States|107436
 North Las Vegas|United States|262527
 El Monte|United States|109450
-Norwalk|United States|102773
+Norwalk (California)|United States|102773
 Sterling Heights|United States|134346
 Gresham|United States|114247
 League City|United States|114392
@@ -2824,7 +2824,7 @@ West Valley City|United States|140230
 Rialto|United States|104026
 Caldwell|United States|59996
 Woodbridge Township|United States|103639|Woodbridge
-Westminster|United States|116317
+Westminster (Colorado)|United States|116317
 Ankeny|United States|67887
 Lehigh Acres|United States|114287
 Deltona|United States|93692
@@ -2841,7 +2841,7 @@ Pearl City|United States|45295
 Spring Valley|United States|215597
 West Jordan|United States|116961
 South Portland|United States|26498
-Colchester|United States|17524
+Colchester (Vermont)|United States|17524
 East Providence|United States|47139
 West Fargo|United States|38626
 Waipahu|United States|43485
@@ -3041,7 +3041,7 @@ Bellflower|United States|79190
 Plainfield|United States|54586
 Pflugerville|United States|65191
 Downers Grove|United States|50247
-Brentwood|United States|64292
+Brentwood (California)|United States|64292
 Cuyahoga Falls|United States|51114
 Cypress|United States|50151
 Lorain|United States|65211
@@ -3082,14 +3082,14 @@ Cedar Park|United States|77595
 North Bergen|United States|63361
 Porterville|United States|62623
 North Port|United States|74793
-Weymouth|United States|57437
+Weymouth (Massachusetts)|United States|57437
 Lehi|United States|75907
 Madera|United States|66224
-Mansfield|United States|72602
+Mansfield (Texas)|United States|72602
 Eden Prairie|United States|64198
 Tinley Park|United States|55971
 Glendora|United States|52558
-Kettering|United States|57862
+Kettering (Ohio)|United States|57862
 Apex|United States|58780
 Laguna Niguel|United States|64355
 Mishawaka|United States|51063
@@ -3159,7 +3159,7 @@ Marysville|United States|70714
 Mount Prospect|United States|56852
 North Little Rock|United States|64591
 Hamilton Township|United States|92297
-Margate|United States|58712
+Margate (Florida)|United States|58712
 Palm Harbor|United States|61366
 Rosemead|United States|51185
 West Bloomfield Township|United States|65888|West Bloomfield
@@ -3865,4 +3865,121 @@ Norrkoping|Sweden|98229
 Halmstad|Sweden|72979
 Horsens|Denmark|64418
 Eskilstuna|Sweden|70646
+Syracuse (Sicily)|Italy|115515
+Cordoba (Spain)|Spain|323262
+Colchester (Essex)|United Kingdom|121859
+Cartagena (Spain)|Spain|220704
+Halifax (West Yorkshire)|United Kingdom|104100
+Newport (Wales)|United Kingdom|159600
+Boston (Lincolnshire)|United Kingdom|64600
+Lancaster (Lancashire)|United Kingdom|52660
+Margate (East Kent)|United Kingdom|61223
+Leon (Spain)|Spain|123446
+Kettering (Northamptonshire)|United Kingdom|56226
+Bangor (County Down)|United Kingdom|61011
+Weymouth (Dorset)|United Kingdom|53046
+Mansfield (Nottinghamshire)|United Kingdom|79921
+Rochester (Kent)|United Kingdom|62982
+Merida (Spain)|Spain|60225
+Frankfurt (Oder)|Germany|56586
+Brentwood (Essex)|United Kingdom|77047
+Guadalajara (Spain)|Spain|92834
+Cuenca (Spain)|Spain|53600
+Hamilton (South Lanarkshire)|United Kingdom|54080
+Sale (Greater Manchester)|United Kingdom|134022
+Hagen|Germany|189983
+Livingston (West Lothian)|United Kingdom|57030
+San Fernando (Spain)|Spain|93338
+Portland (Maine)|United States|68408
+Birmingham (Alabama)|United States|200733
+Cambridge (Massachusetts)|United States|118403
+Saint Petersburg (Florida)|United States|258308
+Worcester (Massachusetts)|United States|206518
+Toledo (Ohio)|United States|270871
+Wilmington (Delaware)|United States|70898
+Manchester (New Hampshire)|United States|115644
+Santa Cruz (California)|United States|62956
+Glendale (California)|United States|196543
+Durham (North Carolina)|United States|283506
+Alexandria (Virginia)|United States|159467
+Springfield (Missouri)|United States|169176
+Springfield (Massachusetts)|United States|155929
+St. George (Utah)|United States|95342
+Vancouver (Washington)|United States|190915
+Kansas City (Kansas)|United States|156607
+Columbia (Missouri)|United States|126254
+Lancaster (Pennsylvania)|United States|58039
+Santa Clara (California)|United States|127647
+Augusta (Georgia)|United States|202081
+Odessa (Texas)|United States|114428
+Columbus (Georgia)|United States|206922
+Plymouth (Massachusetts)|United States|61217
+Santa Ana (California)|United States|310227
+Rochester (Minnesota)|United States|121395
+Bethlehem (Pennsylvania)|United States|75781
+Reading (Pennsylvania)|United States|95112
+Fayetteville (Arkansas)|United States|93949
+Canton (Ohio)|United States|70872
+Bayonne (New Jersey)|United States|71686
+Melbourne (Florida)|United States|84678
+Lafayette (Indiana)|United States|70783
+Aurora (Illinois)|United States|180542
+Palm Desert|United States|51163
+Concord (California)|United States|125410
+Richmond (California)|United States|116448
+Huntington (New York)|United States|204127
+Carson|United States|95558
+Georgetown (Texas)|United States|67176
+Springfield (Ohio)|United States|58662
+Waterloo (Iowa)|United States|67314
+Hamilton (Ohio)|United States|63399
+Jackson (Tennessee)|United States|68205
+Columbus (Indiana)|United States|50474
+Spring|United States|62559
+Albany (Georgia)|United States|69647
+Lawrence (Massachusetts)|United States|89143
+Norwalk (Connecticut)|United States|91184
+Bloomington (Minnesota)|United States|89987
+Bloomington (Illinois)|United States|78680
+Fairfield (Connecticut)|United States|61512
+Southampton (New York)|United States|69036
+Portsmouth (Virginia)|United States|97915
+Antioch (California)|United States|115291
+Concord (North Carolina)|United States|105240
+Bristol (Connecticut)|United States|60833
+Roswell (Georgia)|United States|92833
+Victoria (Texas)|United States|65534
+Springfield (Oregon)|United States|61851
+St. Charles|United States|70493
+Jacksonville (North Carolina)|United States|72723
+Madison (Alabama)|United States|56933
+Westminster (California)|United States|90911
+Parma (Ohio)|United States|81146
+Pasadena (Texas)|United States|151950
+Lakewood (California)|United States|82496
+Peoria (Arizona)|United States|190985
+Smyrna (Tennessee)|United States|53070
+Lakewood (Ohio)|United States|50942
+Smyrna (Georgia)|United States|55663
+Albany (Oregon)|United States|56472
+Brandon (Florida)|United States|114626
+Burlington (North Carolina)|United States|57303
+Beaumont (California)|United States|53036
+Bellevue (Nebraska)|United States|64176
+Spring Hill (Tennessee)|United States|60301
+Canton (Michigan)|United States|98659
+Plymouth (Minnesota)|United States|81026
+Manchester (Connecticut)|United States|59713
+Hamburg (New York)|United States|60085
+Lakewood (Washington)|United States|63612
+St. George (Louisiana)|United States|86000
+Aspen Hill|United States|51063
+Washington (Tyne and Wear)|United Kingdom|67158
+Athens (Georgia)|United States|127315
+Dublin (California)|United States|72589
+Wellington (Florida)|United States|61637
+Fano (Italy)|Italy|59909
+Manhattan (Kansas)|United States|54100
+New Britain (Connecticut)|United States|74135
+Greece (New York)|United States|96926
 `;

@@ -16,10 +16,13 @@ const HERE = fileURLToPath(new URL('./work/', import.meta.url)); mkdirSync(HERE,
 const WRITE = process.argv.includes('--write');
 const onlyArg = process.argv.find((a) => a.startsWith('--only='));
 const ONLY = onlyArg ? new Set(onlyArg.slice(7).split(',')) : null;
+// the comment written above the new WIKI_TITLES and theme lines: --label="2026-09-18 namesakes"
+const labelArg = process.argv.find((a) => a.startsWith('--label='));
+const LABEL = labelArg ? labelArg.slice(8) : `${new Date().toISOString().slice(0, 10)} expansion`;
 
 const require = createRequire(import.meta.url);
 const matching = require(REPO + 'src/js/matching.js');
-const { buildFiles } = await import(new URL('../build-data.mjs', import.meta.url).href);
+const { buildFiles, splitQualifier, idFor } = await import(new URL('../build-data.mjs', import.meta.url).href);
 const { WIKI_TITLES } = await import(new URL('../data-wiki-titles.mjs', import.meta.url).href);
 
 const INPUTS = [
@@ -57,48 +60,54 @@ for (const entries of Object.values(files)) {
   for (const entry of entries) {
     const c = cohortFor(entry.category);
     c.ids.add(entry.id);
-    addCandidates(c, entry.id, entry.name, entry.aliases || []);
+    addCandidates(c, entry.id, entry.name, entry.aliases || [], entry.qualifier);
   }
 }
 function cohortFor(category) {
   if (!cohorts.has(category)) cohorts.set(category, { keys: new Map(), claims: new Map(), ids: new Set() });
   return cohorts.get(category);
 }
-function addCandidates(c, id, name, aliases) {
-  [name, ...aliases].forEach((candidate, i) => {
+function addCandidates(c, id, name, aliases, qualifier) {
+  const forms = [name, ...aliases].map((candidate, i) => ({ candidate, fromName: i === 0 }));
+  if (qualifier) for (const key of matching.qualifiedKeys(name, qualifier)) forms.push({ candidate: key, fromName: false, generated: true });
+  for (const { candidate, fromName, generated } of forms) {
     const key = normalize(candidate);
-    if (!key) return;
-    if (!c.keys.has(key)) c.keys.set(key, { id, fromName: i === 0 });
+    if (!key) continue;
+    if (!c.keys.has(key)) c.keys.set(key, []);
+    if (!c.keys.get(key).some((h) => h.id === id)) c.keys.get(key).push({ id, fromName, qualifier, generated });
+    if (generated) continue;
     const bare = looseKey(candidate);
-    if (!bare || bare === key) return;
+    if (!bare || bare === key) continue;
     if (!c.claims.has(bare)) c.claims.set(bare, []);
-    c.claims.get(bare).push({ id, fromName: i === 0 });
-  });
+    c.claims.get(bare).push({ id, fromName });
+  }
 }
-/** Would adding candidate (name or alias) to entry id break anything? returns reason or null */
-function collision(c, id, candidate, fromName) {
+/**
+ * Would adding candidate (name or alias) to entry id break anything? returns
+ * reason or null. The validator's rules (SPEC 6.4): an exact key may be
+ * shared by namesakes when at most one holder lacks a qualifier and the
+ * qualifiers differ; a loose form two NAMES share is fine (the list, by
+ * scope and views - decision 5, 2026-09-18; before it the second name was
+ * refused here); two aliases with no name behind either are not.
+ */
+function collision(c, id, candidate, fromName, qualifier) {
   const key = normalize(candidate);
   if (!key) return 'empty';
-  const owner = c.keys.get(key);
-  if (owner && owner.id !== id) return `"${candidate}" is already ${owner.fromName ? 'the name' : 'an alias'} of ${owner.id}`;
+  const holders = (c.keys.get(key) || []).filter((h) => h.id !== id);
+  if (holders.length) {
+    if (!fromName) return `"${candidate}" is already ${holders[0].fromName ? 'the name' : 'an alias'} of ${holders[0].id}`;
+    const unqualified = holders.filter((h) => !h.qualifier).length + (qualifier ? 0 : 1);
+    if (unqualified > 1) return `"${candidate}" is already the name of ${holders.find((h) => !h.qualifier).id} - namesakes need a qualifier each`;
+    const same = holders.find((h) => h.qualifier && qualifier && normalize(h.qualifier) === normalize(qualifier));
+    if (same) return `"${candidate}" is already ${same.id} with the same qualifier "${qualifier}"`;
+    if (holders.some((h) => h.generated)) return `"${candidate}" is the qualified form of ${holders.find((h) => h.generated).id}`;
+  }
   const bare = looseKey(candidate);
-  if (!bare || bare === key) {
-    // a bare-equal candidate can still be someone else's loose form: "Andros" vs "Andros Island"
-    const list = c.claims.get(key) || [];
-    const others = list.filter((x) => x.id !== id);
-    if (fromName && others.some((x) => x.fromName)) {
-      return `"${candidate}" collides with the loose form of ${others.find((x) => x.fromName).id}`;
-    }
-    return null;
-  }
-  const list = (c.claims.get(bare) || []).filter((x) => x.id !== id);
-  const exactOwner = c.keys.get(bare);
-  if (fromName) {
-    if (list.some((x) => x.fromName)) return `loose form "${bare}" is also the loose form of ${list.find((x) => x.fromName).id}`;
-    if (exactOwner && exactOwner.id !== id && exactOwner.fromName) return `loose form "${bare}" is the exact name of ${exactOwner.id}`;
-    return null;
-  }
+  if (!bare || bare === key) return null;
+  if (fromName) return null;
   // alias: fine if some NAME owns the bare form (name wins); error if only aliases claim it
+  const list = (c.claims.get(bare) || []).filter((x) => x.id !== id);
+  const exactOwner = (c.keys.get(bare) || []).find((h) => h.id !== id);
   if (list.length && !list.some((x) => x.fromName) && !(exactOwner && exactOwner.fromName)) {
     return `alias "${candidate}" makes "${bare}" ambiguous with an alias of ${list[0].id}`;
   }
@@ -158,23 +167,31 @@ for (const input of INPUTS) {
     name = ascii(name).replace(/\s+/g, ' ');
     if (!name) { log(`  DROP (no name): ${line}`); dropped++; continue; }
     if (name !== rawName) log(`  note: name folded "${rawName}" -> "${name}"`);
-    if (!/^\d+(\.\d+)?(-\d+(\.\d+)?)?$/.test(magnitude || '')) { log(`  DROP (bad magnitude "${magnitude}"): ${name}`); dropped++; continue; }
-    const id = `${input.category}-${slug(name)}`;
-    if (c.ids.has(id)) { log(`  DROP (id exists ${id}): ${name}`); dropped++; continue; }
-    const why = collision(c, id, name, true);
-    if (why) { log(`  DROP ${name}: ${why}`); dropped++; continue; }
+    // "Portland (Maine)": the bare name plus its qualifier (decision 5)
+    const split = splitQualifier(name);
+    const qualifier = split.qualifier;
+    name = split.name;
+    const shown = qualifier ? `${name} (${qualifier})` : name;
+    if (!/^\d+(\.\d+)?(-\d+(\.\d+)?)?$/.test(magnitude || '')) { log(`  DROP (bad magnitude "${magnitude}"): ${shown}`); dropped++; continue; }
+    const id = idFor(input.category, name, qualifier);
+    if (c.ids.has(id)) { log(`  DROP (id exists ${id}): ${shown}`); dropped++; continue; }
+    const why = collision(c, id, name, true, qualifier);
+    if (why) { log(`  DROP ${shown}: ${why}`); dropped++; continue; }
     if (input.source === 'cities') {
       if (!countryByName.has(country)) { log(`  DROP ${name}: unknown country "${country}"`); dropped++; continue; }
       if (slug(name) === slug(capitalByCountry.get(country) || '')) { log(`  DROP ${name}: is the capital of ${country}`); dropped++; continue; }
-      if (countryKeys.has(normalize(name))) { log(`  DROP ${name}: is also a country name in the bank`); dropped++; continue; }
-      if (islandKeys.has(normalize(name))) { log(`  DROP ${name}: is also an island name in the bank`); dropped++; continue; }
+      // a city named like a country or an island goes in with a qualifier
+      // (decision 5: "Greece (New York)", "Manhattan (Kansas)" - the bare
+      // typing keeps the nudge to the famous one, run.js NAMESAKE_FAME_RATIO)
+      if (!qualifier && countryKeys.has(normalize(name))) { log(`  DROP ${name}: is also a country name in the bank (qualify it)`); dropped++; continue; }
+      if (!qualifier && islandKeys.has(normalize(name))) { log(`  DROP ${name}: is also an island name in the bank (qualify it)`); dropped++; continue; }
     }
     // aliases: keep the ones that don't collide
     const keptAliases = [];
     for (let alias of (aliases || '').split(',').map((s) => ascii(s).replace(/\s+/g, ' ')).filter(Boolean)) {
       if (normalize(alias) === normalize(name)) continue;
       if (keptAliases.some((a) => normalize(a) === normalize(alias))) continue;
-      const aw = collision(c, id, alias, false);
+      const aw = collision(c, id, alias, false, qualifier);
       if (aw) { log(`  alias dropped on ${name}: ${aw}`); continue; }
       keptAliases.push(alias);
     }
@@ -185,17 +202,18 @@ for (const input of INPUTS) {
       if (!(theme in sets)) { log(`  theme dropped on ${name}: no ${input.category} theme "${theme}"`); continue; }
       keptThemes.push(theme);
     }
+    const wt = (wikiTitle || '').trim();
+    if (!wt && qualifier) { log(`  DROP ${shown}: a namesake needs its Wikipedia title`); dropped++; continue; }
     // commit to the in-memory cohort so later rows collide against it
     c.ids.add(id);
-    addCandidates(c, id, name, keptAliases);
-    const wt = (wikiTitle || '').trim();
-    if (wt && wt !== name) wikiAdds[id] = wt;
+    addCandidates(c, id, name, keptAliases, qualifier);
+    if (wt && (wt !== name || qualifier)) wikiAdds[id] = wt; // a namesake always names its article
     for (const theme of keptThemes) {
       const k = `${input.category}|${theme}`;
       if (!themeAdds.has(k)) themeAdds.set(k, []);
-      themeAdds.get(k).push(name);
+      themeAdds.get(k).push(shown);
     }
-    accepted.push({ input, category: input.category, id, name, aliases: keptAliases, magnitude, country, wikiTitle: wt, themes: keptThemes });
+    accepted.push({ input, category: input.category, id, name: shown, aliases: keptAliases, magnitude, country, wikiTitle: wt, themes: keptThemes });
     ok++;
   }
   log(`   accepted ${ok}`);
@@ -282,7 +300,7 @@ function appendToBlock(text, blockName, rows) {
   }
   const lines = [];
   for (const [category, entries] of byCategory) {
-    lines.push('', `  // --- ${category} (2026-09-14 expansion) ---`, ...entries);
+    lines.push('', `  // --- ${category} (${LABEL}) ---`, ...entries);
   }
   if (lines.length) {
     // drop the trailing comma on the very last entry to match the file's style
@@ -313,7 +331,7 @@ function appendToBlock(text, blockName, rows) {
     while (/\s/.test(text[insertAt - 1])) insertAt--;
     const chunks = [];
     for (let i = 0; i < names.length; i += 5) chunks.push('      ' + names.slice(i, i + 5).map(q).join(', '));
-    const insertion = `,${EOL}      // 2026-09-14 expansion${EOL}` + chunks.join(`,${EOL}`);
+    const insertion = `,${EOL}      // ${LABEL}${EOL}` + chunks.join(`,${EOL}`);
     text = text.slice(0, insertAt) + insertion + text.slice(insertAt);
   }
   await writeFile(path, text, 'utf8');

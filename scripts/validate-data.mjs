@@ -176,11 +176,13 @@ export function validate(files) {
     // A bare form two entries share is fine when one of them owns it by name
     // ("Arabian" is the Arabian Sea, whatever the Persian Gulf is also called).
     // Two names, or two aliases with no name, mean typing it identifies neither.
-    // (Namesakes share their loose form too - "Black Lake" x3 all claim
-    // "black" - and resolve to the list, like the exact key does.)
-    const resolved = matching.resolveLoose(claims);
+    // A bare form two names share goes to the list of them, most-viewed
+    // first ("Geneva" is Lake Geneva before Geneva Lake; decision 5). Two
+    // aliases with no name behind either would resolve the same way, but
+    // an alias exists to be typed and that pair identifies neither on
+    // purpose - refused, as before.
     for (const [bare, list] of claims) {
-      if (resolved.has(bare) || new Set(list.map((c) => c.id)).size < 2) continue;
+      if (list.some((c) => c.fromName) || new Set(list.map((c) => c.id)).size < 2) continue;
       const who = list.map((c) => `${c.id} (via "${c.candidate}")`).join(' and ');
       errors.push(`[${category}] typing "${bare}" identifies nobody: claimed by ${who}`);
     }
