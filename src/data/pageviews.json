@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T20:15:41.349Z",
+ "fetched": "2026-09-18T20:52:26.296Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -39624,13 +39624,6 @@
    "lat": 49.95,
    "lon": -117.38333333
   },
-  "lake-sumas-lake": {
-   "title": "Sumas Lake",
-   "monthlyViews": 396,
-   "days": 60,
-   "lat": 49.07,
-   "lon": -122.09
-  },
   "lake-baskatong-reservoir": {
    "title": "Baskatong Reservoir",
    "monthlyViews": 365,
@@ -39995,7 +39988,7 @@
    "lat": 53.6667,
    "lon": -115.3833
   },
-  "lake-clearwater-lake": {
+  "lake-clearwater-lake-british-columbia": {
    "title": "Clearwater Lake (British Columbia)",
    "monthlyViews": 183,
    "days": 60,
@@ -90703,13 +90696,6 @@
    "lat": 51.12416667,
    "lon": -115.11833333
   },
-  "mountain-mount-kent": {
-   "title": "Mount Kent",
-   "monthlyViews": 335,
-   "days": 60,
-   "lat": -51.6735,
-   "lon": -58.113
-  },
   "mountain-pico-del-aguila": {
    "title": "Pico del Águila",
    "monthlyViews": 335,
@@ -91066,13 +91052,6 @@
    "days": 60,
    "lat": 45.07416667,
    "lon": -72.29805556
-  },
-  "mountain-mont-wright": {
-   "title": "Mont Wright",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 52.74083333,
-   "lon": -67.34722222
   },
   "mountain-mount-burgess": {
    "title": "Mount Burgess",

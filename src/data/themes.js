@@ -1181,9 +1181,6 @@ globalThis.WORMILLION_THEMES = {
       'Wetterhorn Peak', 'Bear Peak (Colorado)', 'Matterhorn Peak (Colorado)', 'Mount Ida (Colorado)', 'Mount Jefferson (Idaho)',
       'El Capitan (Montana)', 'Mount Jackson (Montana)',
       // range-tag.mjs from the infobox range field
-      'Lookout Mountain', 'Mount Nebo', 'Mount Olympus', 
-      'Table Mountain', 'Mount Zion', 
-      'Mount Ida', 'El Capitan', 'Mount Jackson',
       'Nub Peak', 'Ha Ling Peak', 'Howse Peak', 'Tunnel Mountain', 'Mount Nirvana',
       'The Beehive', 'The Whistlers', 'Mount John Laurie', 'Howser Spire', 'Mount Putnik',
       'Mount Stephen', 'Roche Bonhomme', 'Fairview Mountain', 'Mount Joffre', 'Mount Kidd',
@@ -1194,7 +1191,15 @@ globalThis.WORMILLION_THEMES = {
       'Mount Babel (Alberta)',
       // range-tag.mjs from the infobox range field
       'Three Sisters (Alberta)', 'Mount Victoria (Alberta)', 'Bald Mountain (Colorado)', 'Cathedral Mountain (British Columbia)', 'Grizzly Peak (Sawatch Range)',
-      'Heart Mountain (Alberta)', 'Mount Lyell (Canada)', 'Mount Baker (Alberta)'],
+      'Heart Mountain (Alberta)', 'Mount Lyell (Canada)', 'Mount Baker (Alberta)',
+      // range-tag.mjs from the infobox range field
+      'Mount Kerkeslin', 'Turtle Mountain', 'Crowsnest Mountain', 'Mount Lady Macdonald', 'North Twin Peak',
+      'Mount Andromeda', 'Grotto Mountain', 'Mount Petain', 'Anukatha Ipa', 'Mist Mountain',
+      'Mount Burgess', 'Mount Chester', 'Mount Sir Alexander', 'Mount Blakiston', 'Mount Brazeau',
+      'Mount Clemenceau', 'Mount Cory', 'Mount Goodsir', 'Mount Hector', 'Mount Louis',
+      'Mount Terry Fox', 'Mount Ulysses', 'Pyramid Mountain (Alberta)', 'Mount Baldy (Alberta)',
+      // add-theme.mjs
+      'Coliseum Mountain', 'Three Sisters (British Columbia)'],
     'Scotland': [
       'Ben Nevis', 'Ben Macdui', 'Braeriach', 'Cairn Gorm', 'Schiehallion',
       'Ben Lomond', 'Goat Fell', 'Arthurs Seat',
@@ -1400,7 +1405,9 @@ globalThis.WORMILLION_THEMES = {
       'The Volcano', 'Mount Boucherie', 'Cerro Mohinora', 'Nazko Cone', 'Hoodoo Mountain',
       'Mount Price', 'Silverthrone Mountain', 'Tres Virgenes', 'El Jorullo', 'Opal Cone',
       'Volcano Mountain', 'Pico de Tancitaro', 'Atwell Peak', 'Jocotitlan', 'Los Humeros',
-      'Montana Mountain', 'Pyroclastic Peak'
+      'Montana Mountain', 'Pyroclastic Peak',
+      // add-theme.mjs
+      'The Table', 'Ice Peak', 'The Pyramid', 'Cerro Prieto'
     ]
   },
 
@@ -1703,7 +1710,7 @@ globalThis.WORMILLION_THEMES = {
       'Lake of Two Mountains', 'Mabel Lake', 'Cold Lake', 'Buffalo Lake', 'Lac Ste. Anne',
       'Lake Saint-Louis', 'Golden Lake', 'Kamloops Lake', 'McGregor Lake', 'Turtle Lake',
       'Babine Lake', 'Lake Saint Pierre', 'Stave Lake', 'Buttle Lake', 'Slocan Lake',
-      'Sumas Lake', 'Baskatong Reservoir', 'Christina Lake', 'Cowichan Lake', 'Gods Lake',
+      'Baskatong Reservoir', 'Christina Lake', 'Cowichan Lake', 'Gods Lake',
       'Jackfish Lake', 'Kawagama Lake', 'Kennedy Lake', 'Lake Abitibi', 'Lake Claire',
       'Moose Lake (Alberta)', 'Old Wives Lake', 'Buffalo Pound Lake', 'Round Lake', 'Stuart Lake',
       'Anderson Lake', 'Beothuk Lake', 'Big Trout Lake', 'Bobs Lake', 'Canim Lake',
@@ -1713,7 +1720,7 @@ globalThis.WORMILLION_THEMES = {
       'Lake Kipawa', 'Shellmouth Reservoir', 'Baker Lake', 'Cedar Lake', 'Fishing Lake',
       'Good Spirit Lake', 'Kakagi Lake', 'Lac Sante', 'Lac des Iles', 'Lake Ainslie',
       'Lake Rossignol', 'Murtle Lake', 'Sturgeon Lake (Alberta)', 'Lake Athapapuskow', 'Besnard Lake',
-      'Black Donald Lake', 'Cabonga Reservoir', 'Chip Lake', 'Clearwater Lake', 'Francois Lake',
+      'Black Donald Lake', 'Cabonga Reservoir', 'Chip Lake', 'Clearwater Lake (British Columbia)', 'Francois Lake',
       'Kabinakagami Lake', 'Kathleen Lake', 'Lac des Mille Lacs', 'Lake Megantic', 'Lake Revelstoke',
       'Lake St. Joseph', 'Mahood Lake', 'Nueltin Lake', 'Wabigoon Lake', 'Azure Lake',
       'Beaverlodge Lake', 'Ennadai Lake', 'Island Lake', 'Kasba Lake', 'Lac La Biche',
@@ -1772,7 +1779,10 @@ globalThis.WORMILLION_THEMES = {
       'Goose Lake', 'Laguna Verde', 'Mar Chiquita', 'Lake Azuei', 'Bakhtegan Lake',
       'Tashk Lake',
       // add-theme.mjs
-      'Lake Tasiujaq', 'Chaplin Lake', 'Old Wives Lake', 'Little Manitou Lake'
+      'Lake Tasiujaq', 'Chaplin Lake', 'Old Wives Lake', 'Little Manitou Lake',
+      // add-theme.mjs
+      'Manitou Lake', 'Redberry Lake', 'Lenore Lake', 'Basin Lake', 'Willow Bunch Lake',
+      'Lake Chichancanab', 'Sullivan Lake'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [

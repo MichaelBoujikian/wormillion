@@ -37909,7 +37909,10 @@
   "id": "mountain-cerro-tlaloc",
   "category": "mountain",
   "name": "Cerro Tlaloc",
-  "aliases": [],
+  "aliases": [
+   "Mount Tlaloc",
+   "Tlaloc"
+  ],
   "size": 4158,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Cerro Tláloc\", 60-day daily median (60 days ending 2026-09-18); Standard reference summit elevations (m)",
@@ -38112,20 +38115,6 @@
   "wikiTitle": "Mount John Laurie",
   "lat": 51.12416667,
   "lon": -115.11833333
- },
- {
-  "id": "mountain-mount-kent",
-  "category": "mountain",
-  "name": "Mount Kent",
-  "aliases": [],
-  "size": 458,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mount Kent\", 60-day daily median (60 days ending 2026-09-18); Standard reference summit elevations (m)",
-  "magnitude": 335,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mount Kent",
-  "lat": -51.6735,
-  "lon": -58.113
  },
  {
   "id": "mountain-pico-del-aguila",
@@ -38765,7 +38754,9 @@
   "id": "mountain-el-jorullo",
   "category": "mountain",
   "name": "El Jorullo",
-  "aliases": [],
+  "aliases": [
+   "Jorullo"
+  ],
   "size": 1330,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"El Jorullo\", 60-day daily median (60 days ending 2026-09-18); Standard reference summit elevations (m)",
@@ -38821,8 +38812,11 @@
   "id": "mountain-mont-owl-s-head",
   "category": "mountain",
   "name": "Mont Owl's Head",
-  "aliases": [],
-  "size": 0,
+  "aliases": [
+   "Owl's Head",
+   "Owls Head"
+  ],
+  "size": 756,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Mont Owl's Head\", 60-day daily median (60 days ending 2026-09-18); Standard reference summit elevations (m)",
   "magnitude": 152,
@@ -38830,20 +38824,6 @@
   "wikiTitle": "Mont Owl's Head",
   "lat": 45.07416667,
   "lon": -72.29805556
- },
- {
-  "id": "mountain-mont-wright",
-  "category": "mountain",
-  "name": "Mont Wright",
-  "aliases": [],
-  "size": 0,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Mont Wright\", 60-day daily median (60 days ending 2026-09-18); Standard reference summit elevations (m)",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Mont Wright",
-  "lat": 52.74083333,
-  "lon": -67.34722222
  },
  {
   "id": "mountain-mount-burgess",

@@ -18119,7 +18119,8 @@
   "name": "Clearwater Lakes",
   "aliases": [
    "Lac a l'Eau Claire",
-   "Wiyashakimi"
+   "Wiyashakimi",
+   "Clearwater Lake"
   ],
   "size": 1383,
   "sizeUnit": "area_km2",
@@ -18761,20 +18762,6 @@
   "wikiTitle": "Slocan Lake",
   "lat": 49.95,
   "lon": -117.38333333
- },
- {
-  "id": "lake-sumas-lake",
-  "category": "lake",
-  "name": "Sumas Lake",
-  "aliases": [],
-  "size": 40,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Sumas Lake\", 60-day daily median (60 days ending 2026-09-18); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 396,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sumas Lake",
-  "lat": 49.07,
-  "lon": -122.09
  },
  {
   "id": "lake-baskatong-reservoir",
@@ -19505,13 +19492,14 @@
   "lon": -115.3833
  },
  {
-  "id": "lake-clearwater-lake",
+  "id": "lake-clearwater-lake-british-columbia",
   "category": "lake",
   "name": "Clearwater Lake",
   "aliases": [],
   "size": 33.26,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Clearwater Lake (British Columbia)\", 60-day daily median (60 days ending 2026-09-18); Standard reference surface-area figures (km2), rounded",
+  "qualifier": "British Columbia",
   "magnitude": 183,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Clearwater Lake (British Columbia)",
@@ -19955,7 +19943,7 @@
   "category": "lake",
   "name": "Lobstick Lake",
   "aliases": [],
-  "size": 1500,
+  "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Lobstick Lake\", 60-day daily median (60 days ending 2026-09-18); Standard reference surface-area figures (km2), rounded",
   "magnitude": 122,
@@ -21003,9 +20991,13 @@
   "category": "lake",
   "name": "MacKay Lake",
   "aliases": [],
-  "size": 1061,
+  "size": 977,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"MacKay Lake (Northwest Territories)\", 60-day daily median (60 days ending 2026-09-18); Standard reference surface-area figures (km2), rounded",
+  "sizeRange": [
+   977,
+   1061
+  ],
   "magnitude": 61,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "MacKay Lake (Northwest Territories)",
@@ -21088,9 +21080,13 @@
   "category": "lake",
   "name": "Napaktulik Lake",
   "aliases": [],
-  "size": 1080,
+  "size": 963,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Napaktulik Lake\", 60-day daily median (60 days ending 2026-09-18); Standard reference surface-area figures (km2), rounded",
+  "sizeRange": [
+   963,
+   1080
+  ],
   "magnitude": 61,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Napaktulik Lake",

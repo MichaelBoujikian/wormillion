@@ -7596,7 +7596,7 @@ export const WIKI_TITLES = {
   "lake-lac-des-iles": "Lac des Îles (Saskatchewan)",
   "lake-sturgeon-lake-alberta": "Sturgeon Lake (Alberta)",
   "lake-chip-lake": "Chip Lake (Alberta)",
-  "lake-clearwater-lake": "Clearwater Lake (British Columbia)",
+  "lake-clearwater-lake-british-columbia": "Clearwater Lake (British Columbia)",
   "lake-francois-lake": "François Lake",
   "lake-lake-megantic": "Lake Mégantic",
   "lake-lake-st-joseph": "Lake St. Joseph (Ontario)",
@@ -8283,5 +8283,7 @@ export const WIKI_VERIFIED = new Set([
   "lake-marsh-lake",
   "lake-poisson-blanc-lake",
   "lake-artillery-lake",
-  "lake-lake-tasiujaq"
+  "lake-lake-tasiujaq",
+  // --- 2026-09-18 lakes/mountains audit: the article is the ski area's; its infobox top_elevation is 756 m (the Mount Norquay precedent) ---
+  "mountain-mont-owl-s-head"
 ]);

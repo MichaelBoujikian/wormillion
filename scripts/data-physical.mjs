@@ -1267,7 +1267,7 @@ Lake Rosseau|63.05
 Chilko Lake|184
 Angikuni Lake|510
 Rice Lake|91.56
-Clearwater Lakes|1383|Lac a l'Eau Claire,Wiyashakimi
+Clearwater Lakes|1383|Lac a l'Eau Claire,Wiyashakimi,Clearwater Lake
 Cultus Lake|6.3
 Kalamalka Lake|25.7
 Columbia Lake|25.7
@@ -1313,7 +1313,6 @@ Lake Saint Pierre|353
 Stave Lake|55
 Buttle Lake|28
 Slocan Lake|69.29
-Sumas Lake|40
 Baskatong Reservoir|413
 Christina Lake|25.49
 Cowichan Lake|62
@@ -1366,7 +1365,7 @@ Besnard Lake|125
 Black Donald Lake|34.4
 Cabonga Reservoir|677
 Chip Lake|73
-Clearwater Lake|33.26
+Clearwater Lake (British Columbia)|33.26
 Francois Lake|257.8
 Kabinakagami Lake|108
 Kathleen Lake|33.76
@@ -1398,7 +1397,7 @@ Kississing Lake|365.19
 Kusawa Lake|142
 Lac des Chats|77
 Lake Magpie|111
-Lobstick Lake|1500
+Lobstick Lake|0
 Moberly Lake|29.4
 Montreal Lake|464.57
 Oak Lake|39
@@ -1473,13 +1472,13 @@ Lake Evans|479
 Lake Matapedia|38
 Larder Lake|37.08
 Lower Campbell Lake|26.94
-MacKay Lake|1061
+MacKay Lake|977-1061
 Makwa Lake|31.86
 Ministikwan Lake|27.73
 Molson Lake|400
 Moose Lake (Manitoba)|1367
 Muriel Lake|64.1
-Napaktulik Lake|1080
+Napaktulik Lake|963-1080
 North Wabasca Lake|101.45
 Obabika Lake|32.26
 Otter Lake|60
@@ -8601,7 +8600,7 @@ Tunnel Mountain|1692
 Mount Kerkeslin|2984
 Mount Kennedy|4238
 Mount Nirvana|2773
-Cerro Tlaloc|4158
+Cerro Tlaloc|4158|Mount Tlaloc,Tlaloc
 Unnecessary Mountain|1548
 Maple Mountain|642
 Mount McKay|489
@@ -8616,7 +8615,6 @@ Wedge Mountain|2895
 Montagne des Erables|1048
 Mount Albert Edward|2093
 Mount John Laurie|2240
-Mount Kent|458
 Pico del Aguila|3900
 Anarchist Mountain|1491
 Eve Cone|1740
@@ -8663,12 +8661,11 @@ Silverthrone Mountain|2864
 Tres Virgenes|1940
 Anukatha Ipa|2514
 Big White Mountain|2315
-El Jorullo|1330
+El Jorullo|1330|Jorullo
 Keele Peak|2952
 Mist Mountain|3140
 Mount Gosford|1193
-Mont Owl's Head|0
-Mont Wright|0
+Mont Owl's Head|756|Owl's Head,Owls Head
 Mount Burgess|2599
 Mount Chester|3054
 Mount Fay|3235
