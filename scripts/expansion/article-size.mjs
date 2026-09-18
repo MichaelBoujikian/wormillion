@@ -148,15 +148,40 @@ const FIELDS = {
 // the sister wikis' field names, per unit; a bare number is in the unit the
 // infobox itself uses (km, km2, m)
 const SISTER_FIELDS = {
-  km: ['longitud', 'longueur', 'länge', 'lunghezza', 'comprimento', 'length'],
-  km2: ['superficie', 'área', 'area', 'fläche', 'surface', 'superficie_km2'],
-  m: ['altitud', 'altitude', 'elevación', 'elevacion', 'höhe', 'altitudine', 'altitude_m', 'elevation']
+  // es fr de it pt, then (the Eastern Europe wave, 2026-09-18) ro pl cs sk hu bg uk ru sr hr sl el lt lv et
+  km: ['longitud', 'longueur', 'länge', 'lunghezza', 'comprimento', 'length',
+    'lungime', 'długość', 'délka', 'dĺžka', 'hossz', 'дължина', 'довжина', 'длина', 'дужина', 'duljina', 'dužina', 'dolžina', 'μήκος', 'ilgis', 'garums', 'pikkus'],
+  km2: ['superficie', 'área', 'area', 'fläche', 'surface', 'superficie_km2',
+    'suprafață', 'suprafata', 'powierzchnia', 'rozloha', 'terület', 'площ', 'площа', 'площадь', 'površina', 'έκταση', 'plotas', 'platība', 'pindala'],
+  m: ['altitud', 'altitude', 'elevación', 'elevacion', 'höhe', 'altitudine', 'altitude_m', 'elevation',
+    'wysokość', 'výška', 'magasság', 'височина', 'висота', 'высота', 'visina', 'ύψος', 'aukštis', 'augstums', 'kõrgus']
 };
+/**
+ * A sister wiki's infobox is not always called Infobox ("Infocaseta Râu",
+ * "Rzeka infobox", "Річка", "Upė"): the first top-level template block that
+ * carries one of the wanted fields is the infobox.
+ */
+function sisterBoxOf(text, unit) {
+  const wanted = new Set(SISTER_FIELDS[unit]);
+  let i = 0;
+  while ((i = text.indexOf('{{', i)) >= 0) {
+    let depth = 0, end = -1;
+    for (let j = i; j < text.length - 1; j++) {
+      if (text[j] === '{' && text[j + 1] === '{') { depth++; j++; }
+      else if (text[j] === '}' && text[j + 1] === '}') { depth--; j++; if (depth === 0) { end = j + 1; break; } }
+    }
+    if (end < 0) return null;
+    const block = text.slice(i, end);
+    if (block.length > 200 && Object.keys(paramsOf(block)).some((k) => wanted.has(k))) return block;
+    i = end;
+  }
+  return null;
+}
 const SISTER_UNIT = { km: 'km', km2: 'km2', m: 'm' };
 const FIELD_UNIT = { length_km: 'km', length_mi: 'mi', area_km2: 'km2', area_sqmi: 'sq mi', area_total_km2: 'km2', area_total_sq_mi: 'sq mi', area_mi2: 'mi2', area_land_km2: 'km2', area_land_sq_mi: 'sq mi', area_acre: 'acre', area_ha: 'ha', area_total_acre: 'acre', area_land_acre: 'acre', elevation_m: 'm', elevation_ft: 'ft', elevation_max_m: 'm', elevation_max_ft: 'ft' };
 
 function articleSize(text, unit, sister = false) {
-  const box = infoboxOf(text || '');
+  const box = sister ? (text || null) : infoboxOf(text || '');
   if (!box) return null;
   const params = paramsOf(box);
   for (const field of sister ? SISTER_FIELDS[unit] : FIELDS[unit]) {
@@ -234,7 +259,8 @@ async function fetchSisterWikitext(titles) {
       const pages = new Map((data.query.pages || []).map((p) => [p.title, p]));
       for (const t of batch) {
         const p = pages.get(forward.get(t));
-        cache[`${SISTER}:${t}`] = infoboxOf((p && p.revisions && p.revisions[0].slots.main.content) || '') || '';
+        const content = (p && p.revisions && p.revisions[0].slots.main.content) || '';
+        cache[`${SISTER}:${t}`] = sisterBoxOf(content, cfg.sizeUnit) || infoboxOf(content) || '';
       }
       break;
     }

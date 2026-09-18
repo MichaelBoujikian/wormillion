@@ -1,0 +1,28 @@
+{
+  "name": "ee-rivers",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": [
+    "Category:Rivers of Poland", "Category:Rivers of the Czech Republic", "Category:Rivers of Slovakia", "Category:Rivers of Hungary",
+    "Category:Rivers of Romania", "Category:Rivers of Bulgaria", "Category:Rivers of Moldova", "Category:Rivers of Ukraine", "Category:Rivers of Belarus",
+    "Category:Rivers of Lithuania", "Category:Rivers of Latvia", "Category:Rivers of Estonia",
+    "Category:Rivers of Slovenia", "Category:Rivers of Croatia", "Category:Rivers of Bosnia and Herzegovina", "Category:Rivers of Serbia", "Category:Rivers of Montenegro",
+    "Category:Rivers of Kosovo", "Category:Rivers of North Macedonia", "Category:Rivers of Albania", "Category:Rivers of Greece"
+  ],
+  "subcat": "^Category:(Rivers|Sinking rivers|Subterranean rivers) of (?!.*(stubs|Bridges|Locks|Crossings|Populated|Braided|Coastal basins|Russia|Turkey|Austria|Germany|Italy|Slovenia$|Poland$|Romania$|Ukraine$|Belarus$|Croatia$|Serbia$|Greece$|Bulgaria$|Hungary$|Slovakia$|Moldova$|Lithuania$|Latvia$|Estonia$|Montenegro$|Kosovo$|North Macedonia$|Albania$|Bosnia and Herzegovina$|the Czech Republic$))",
+  "lists": [
+    "List of rivers of Poland", "List of rivers of the Czech Republic", "List of rivers of Slovakia", "List of rivers of Hungary",
+    "List of rivers of Romania", "List of rivers of Bulgaria", "List of rivers of Moldova", "List of longest rivers of Ukraine", "List of rivers of Belarus",
+    "List of rivers of Lithuania", "List of rivers of Latvia", "List of rivers of Estonia",
+    "List of rivers of Slovenia", "List of rivers of Croatia", "List of rivers of Bosnia and Herzegovina", "List of rivers of Serbia", "List of rivers of Montenegro",
+    "List of rivers of Kosovo", "List of rivers of North Macedonia", "List of rivers of Albania", "List of rivers of Greece"
+  ],
+  "kind": "(river|tributary|stream|creek|brook|watercourse|torrent|\\bfork\\b|\\bbranch\\b)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|^Rivers of|^Tributaries|^River regulation|^Longest rivers|crossings|River basin$|Watershed$|Valley$|Vale$|Dale$|Glen$|Gorge$|Falls$|Dam$|Reservoir$|Lake$|Bridge$|Aqueduct$|Canal$|Kanal$|Navigation$|Trail$|Path$|Park$|Forest$|Estuary$|Delta$|Weir$|Lock$|Cut$|Drain$|Dyke$|Dike$|Sewer$|Culvert$|Mill$|Way$|Walk$|Railway|Station$|Harbour$|Harbor$|Docks?$|Basin$|Hydroelectric|Power Station$|Power Plant$|Liman$|Lagoon$)",
+  "notKind": "^(reservoir|lake|dam|canal|waterfall|falls|park|glacier|bay|estuary|lagoon|liman|fjord|inlet|strait|sound|swamp|marsh|bog|wetland|island|mountain|hill|range|ridge|massif|trail|bridge|road|valley|gorge|canyon|county|city|town|village|municipality|commune|comune|hamlet|district|neighbourhood|neighborhood|region|department|province|canton|oblast|raion|voivodeship|state|weir|lock|mill|railway|station|ship|drainage|navigation|aqueduct|watermill|beach|nature reserve|national park|human settlement|area|street|castle|abbey|church|monastery|school|company|hydroelectric|power|spring|thermal|cave|karst|delta|former|historic|canal|artificial)",
+  "sizeProp": "P2043",
+  "sizeUnit": "km",
+  "minSize": 60,
+  "famousViews": 1000,
+  "spellings": "river"
+}

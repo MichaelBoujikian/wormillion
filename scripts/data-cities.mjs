@@ -3992,7 +3992,7 @@ Guelph|Canada|143740
 Burnaby|Canada|249125
 Oakville|Canada|213759
 Barrie|Canada|147829
-St. Catharines|Canada|136803
+St. Catharines|Canada|136803|St. Catherines
 Abbotsford|Canada|153524
 Sherbrooke|Canada|181360
 Oshawa|Canada|175383
@@ -4011,7 +4011,7 @@ Ajax|Canada|126666
 Milton|Canada|132979
 Chatham-Kent|Canada|103988
 Saanich|Canada|117735
-Whitby|Canada|138501
+Whitby (Ontario)|Canada|138501
 Kawartha Lakes|Canada|75423
 Pickering|Canada|91771
 Maple Ridge|Canada|90990
@@ -4075,7 +4075,7 @@ Tonala|Mexico|442440
 Chimalhuacan|Mexico|703215
 Guadalupe (Zacatecas)|Mexico|170029
 Guasave|Mexico|77849
-Metepec|Mexico|214162
+Metepec|Mexico|164182
 Delicias|Mexico|128548
 Ramos Arizpe|Mexico|114010
 San Juan del Rio|Mexico|177719
@@ -4086,36 +4086,33 @@ Ciudad Madero|Mexico|205933
 Minatitlan|Mexico|101336
 Papantla|Mexico|55452
 Rioverde|Mexico|58158
-Chiapa de Corzo|Mexico|112075
+Chiapa de Corzo|Mexico|55931
 San Francisco del Rincon|Mexico|79772
 Xalisco|Mexico|65229
 Chalco de Diaz Covarrubias|Mexico|174704|Chalco
 General Escobedo|Mexico|454967
-Ciudad Lopez Mateos|Mexico|523065|Atizapan de Zaragoza,Lopez Mateos
+Ciudad Lopez Mateos|Mexico|523065|Atizapan de Zaragoza,Atizapan,Lopez Mateos
 Jiutepec|Mexico|174629
-Ocosingo|Mexico|234661
-Santa Cruz Xoxocotlan|Mexico|93188|Xoxocotlan
+Santa Cruz Xoxocotlan|Mexico|81848|Xoxocotlan
 Tecoman|Mexico|88337
 Teziutlan|Mexico|62849
 Kanasin|Mexico|139753
-Purisima del Rincon|Mexico|68795
-San Pedro Cholula|Mexico|129032
+San Pedro Cholula|Mexico|129032|Cholula
 Soledad de Graciano Sanchez|Mexico|310192|Soledad
 Zumpango|Mexico|159647
 Cardenas|Mexico|80454
 Chicoloapan de Juarez|Mexico|193532|Chicoloapan
-Ciudad Nicolas Romero|Mexico|323545
+Ciudad Nicolas Romero|Mexico|323545|Nicolas Romero
 Lerdo|Mexico|96243
 Uriangato|Mexico|52156
 Xico|Mexico|384327|Valle de Chalco
-Yautepec|Mexico|105780
 Jacona|Mexico|61510
 Temixco|Mexico|104461
 Jesus Maria|Mexico|63805
 Ojo de Agua|Mexico|386290
 Villa de Alvarez|Mexico|147496
 Chiautempan|Mexico|53373
-Cortazar|Mexico|88397
+Cortazar|Mexico|69371
 Waterloo (Ontario)|Canada|121436
 Richmond (British Columbia)|Canada|209937
 Burlington (Ontario)|Canada|186948
@@ -4125,5 +4122,5 @@ Aurora (Ontario)|Canada|55445
 La Paz (Baja California Sur)|Mexico|250141
 Cordoba (Veracruz)|Mexico|139075
 Salamanca (Guanajuato)|Mexico|160682
-La Paz (State of Mexico)|Mexico|304088
+La Paz (State of Mexico)|Mexico|304088|Los Reyes La Paz,Los Reyes Acaquilpan,Los Reyes
 `;

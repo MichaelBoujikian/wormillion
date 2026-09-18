@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T22:18:34.296Z",
+ "fetched": "2026-09-18T22:36:38.384Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -30720,7 +30720,7 @@
    "lat": null,
    "lon": null
   },
-  "city-whitby": {
+  "city-whitby-ontario": {
    "title": "Whitby, Ontario",
    "monthlyViews": 4049,
    "days": 60,
@@ -31294,13 +31294,6 @@
    "lat": 18.88333333,
    "lon": -99.16666667
   },
-  "city-ocosingo": {
-   "title": "Ocosingo",
-   "monthlyViews": 274,
-   "days": 60,
-   "lat": 16.90666667,
-   "lon": -92.09388889
-  },
   "city-santa-cruz-xoxocotlan": {
    "title": "Santa Cruz Xoxocotlán",
    "monthlyViews": 274,
@@ -31328,13 +31321,6 @@
    "days": 60,
    "lat": 20.93444444,
    "lon": -89.55777778
-  },
-  "city-purisima-del-rincon": {
-   "title": "Purísima del Rincón",
-   "monthlyViews": 244,
-   "days": 60,
-   "lat": 21.03333333,
-   "lon": -101.86666667
   },
   "city-san-pedro-cholula": {
    "title": "San Pedro Cholula",
@@ -31398,13 +31384,6 @@
    "days": 60,
    "lat": 19.29166667,
    "lon": -98.93888889
-  },
-  "city-yautepec": {
-   "title": "Yautepec, Morelos",
-   "monthlyViews": 213,
-   "days": 60,
-   "lat": 18.89833333,
-   "lon": -99.05633333
   },
   "city-jacona": {
    "title": "Jacona, Michoacán",

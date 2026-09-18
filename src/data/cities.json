@@ -94349,7 +94349,9 @@
   "id": "city-st-catharines",
   "category": "city",
   "name": "St. Catharines",
-  "aliases": [],
+  "aliases": [
+   "St. Catherines"
+  ],
   "size": 136803,
   "sizeUnit": "population",
   "region": [
@@ -94760,7 +94762,7 @@
   "wikiTitle": "Saanich, British Columbia"
  },
  {
-  "id": "city-whitby",
+  "id": "city-whitby-ontario",
   "category": "city",
   "name": "Whitby",
   "aliases": [],
@@ -94775,6 +94777,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Whitby, Ontario\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Canada",
+  "qualifier": "Ontario",
   "magnitude": 4049,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Whitby, Ontario",
@@ -96244,7 +96247,7 @@
   "category": "city",
   "name": "Metepec",
   "aliases": [],
-  "size": 214162,
+  "size": 164182,
   "sizeUnit": "population",
   "region": [
    "North America"
@@ -96508,7 +96511,7 @@
   "category": "city",
   "name": "Chiapa de Corzo",
   "aliases": [],
-  "size": 112075,
+  "size": 55931,
   "sizeUnit": "population",
   "region": [
    "North America"
@@ -96629,6 +96632,7 @@
   "name": "Ciudad Lopez Mateos",
   "aliases": [
    "Atizapan de Zaragoza",
+   "Atizapan",
    "Lopez Mateos"
   ],
   "size": 523065,
@@ -96675,37 +96679,13 @@
   "lon": -99.16666667
  },
  {
-  "id": "city-ocosingo",
-  "category": "city",
-  "name": "Ocosingo",
-  "aliases": [],
-  "size": 234661,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "Mexico",
-  "flag": [
-   "red",
-   "white",
-   "blue",
-   "green"
-  ],
-  "source": "English Wikipedia pageviews for \"Ocosingo\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
-  "magnitude": 274,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ocosingo",
-  "lat": 16.90666667,
-  "lon": -92.09388889
- },
- {
   "id": "city-santa-cruz-xoxocotlan",
   "category": "city",
   "name": "Santa Cruz Xoxocotlan",
   "aliases": [
    "Xoxocotlan"
   ],
-  "size": 93188,
+  "size": 81848,
   "sizeUnit": "population",
   "region": [
    "North America"
@@ -96797,34 +96777,12 @@
   "lon": -89.55777778
  },
  {
-  "id": "city-purisima-del-rincon",
-  "category": "city",
-  "name": "Purisima del Rincon",
-  "aliases": [],
-  "size": 68795,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "Mexico",
-  "flag": [
-   "red",
-   "white",
-   "blue",
-   "green"
-  ],
-  "source": "English Wikipedia pageviews for \"Purísima del Rincón\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
-  "magnitude": 244,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Purísima del Rincón",
-  "lat": 21.03333333,
-  "lon": -101.86666667
- },
- {
   "id": "city-san-pedro-cholula",
   "category": "city",
   "name": "San Pedro Cholula",
-  "aliases": [],
+  "aliases": [
+   "Cholula"
+  ],
   "size": 129032,
   "sizeUnit": "population",
   "region": [
@@ -96948,7 +96906,9 @@
   "id": "city-ciudad-nicolas-romero",
   "category": "city",
   "name": "Ciudad Nicolas Romero",
-  "aliases": [],
+  "aliases": [
+   "Nicolas Romero"
+  ],
   "size": 323545,
   "sizeUnit": "population",
   "region": [
@@ -97041,30 +97001,6 @@
   "wikiTitle": "Xico, Valle de Chalco",
   "lat": 19.29166667,
   "lon": -98.93888889
- },
- {
-  "id": "city-yautepec",
-  "category": "city",
-  "name": "Yautepec",
-  "aliases": [],
-  "size": 105780,
-  "sizeUnit": "population",
-  "region": [
-   "North America"
-  ],
-  "country": "Mexico",
-  "flag": [
-   "red",
-   "white",
-   "blue",
-   "green"
-  ],
-  "source": "English Wikipedia pageviews for \"Yautepec, Morelos\", 60-day daily median (60 days ending 2026-09-18); City-proper population, common reference figures, rounded (2026); in Mexico",
-  "magnitude": 213,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yautepec, Morelos",
-  "lat": 18.89833333,
-  "lon": -99.05633333
  },
  {
   "id": "city-jacona",
@@ -97215,7 +97151,7 @@
   "category": "city",
   "name": "Cortazar",
   "aliases": [],
-  "size": 88397,
+  "size": 69371,
   "sizeUnit": "population",
   "region": [
    "North America"
@@ -97449,7 +97385,11 @@
   "id": "city-la-paz-state-of-mexico",
   "category": "city",
   "name": "La Paz",
-  "aliases": [],
+  "aliases": [
+   "Los Reyes La Paz",
+   "Los Reyes Acaquilpan",
+   "Los Reyes"
+  ],
   "size": 304088,
   "sizeUnit": "population",
   "region": [
