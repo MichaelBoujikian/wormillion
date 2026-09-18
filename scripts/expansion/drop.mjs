@@ -25,7 +25,9 @@ for (const id of ids) {
   const e = byId.get(id);
   if (!e) { console.log(`?? ${id} not in bank`); continue; }
   const rowFile = e.category === 'city' ? 'cities' : 'physical';
-  const rowRe = new RegExp(`^${esc(e.name)}\\|[^\\r\\n]*\\r?\\n`, 'm');
+  // a namesake's row reads "Name (Qualifier)|..." (decision 5)
+  const raw = e.qualifier ? `${e.name} (${e.qualifier})` : e.name;
+  const rowRe = new RegExp(`^${esc(raw)}\\|[^\\r\\n]*\\r?\\n`, 'm');
   // within the entry's own block: an island named Omo must not take the river Omo with it
   const BLOCK = { lake: 'LAKES', river: 'RIVERS', mountain: null, desert: 'DESERTS', island: 'ISLANDS', sea_ocean: 'SEAS_OCEANS', city: 'CITIES' }[e.category];
   let from = 0, to = text[rowFile].length;
@@ -34,7 +36,7 @@ for (const id of ids) {
     to = text[rowFile].indexOf('`;', from);
   }
   const inBlock = text[rowFile].slice(from, to);
-  if (!rowRe.test(inBlock)) console.log(`?? ${id}: row "${e.name}|" not found`);
+  if (!rowRe.test(inBlock)) console.log(`?? ${id}: row "${raw}|" not found`);
   text[rowFile] = text[rowFile].slice(0, from) + inBlock.replace(rowRe, '') + text[rowFile].slice(to);
   const idRe = new RegExp(`^[^\\r\\n]*['"]${esc(id)}['"][^\\r\\n]*\\r?\\n`, 'mg');
   text.titles = text.titles.replace(idRe, '');
@@ -44,13 +46,13 @@ for (const id of ids) {
   const catEnd = text.themes.indexOf('\n  },', catStart);
   if (catStart >= 0) {
     let block = text.themes.slice(catStart, catEnd);
-    const q = e.name.includes("'") ? JSON.stringify(e.name) : `'${e.name}'`;
+    const q = raw.includes("'") ? JSON.stringify(raw) : `'${raw}'`;
     block = block.split(`${q}, `).join('').split(`, ${q}`).join('').split(q).join('');
     // a line that held only that name is now a lone comma: an array hole
     block = block.replace(/\r?\n[ \t]*,[ \t]*(?=\r?\n)/g, '');
     block = block.replace(/,(\s*),/g, ',$1'); // and a double comma when the name sat between two others across a line
     text.themes = text.themes.slice(0, catStart) + block + text.themes.slice(catEnd);
   }
-  console.log(`dropped ${id} (${e.name})`);
+  console.log(`dropped ${id} (${raw})`);
 }
 for (const [k, p] of Object.entries(files)) await writeFile(p, text[k], 'utf8');

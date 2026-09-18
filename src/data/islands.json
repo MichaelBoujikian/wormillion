@@ -704,13 +704,14 @@
   ]
  },
  {
-  "id": "island-somerset-island",
+  "id": "island-somerset-island-nunavut",
   "category": "island",
   "name": "Somerset Island",
   "aliases": [],
   "size": 24786,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Somerset Island (Nunavut)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Nunavut",
   "magnitude": 1065,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Somerset Island (Nunavut)",
@@ -1559,12 +1560,12 @@
   "aliases": [],
   "size": 246,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Malta\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
-  "magnitude": 228757,
+  "source": "English Wikipedia pageviews for \"Malta (island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 11932,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Malta",
-  "lat": 35.9,
-  "lon": 14.51666667,
+  "wikiTitle": "Malta (island)",
+  "lat": 35.88333333,
+  "lon": 14.45,
   "oceans": [
    "Atlantic"
   ]
@@ -1970,13 +1971,14 @@
   ]
  },
  {
-  "id": "island-long-island",
+  "id": "island-long-island-new-york",
   "category": "island",
   "name": "Long Island",
   "aliases": [],
   "size": 3629,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Long Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
   "magnitude": 48095,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Long Island",
@@ -3659,13 +3661,14 @@
   ]
  },
  {
-  "id": "island-oland",
+  "id": "island-oland-sweden",
   "category": "island",
   "name": "Oland",
   "aliases": [],
   "size": 1342,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Öland\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Sweden",
   "magnitude": 3957,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Öland",
@@ -6510,13 +6513,14 @@
   ]
  },
  {
-  "id": "island-kvaloya",
+  "id": "island-kvaloya-troms",
   "category": "island",
   "name": "Kvaloya",
   "aliases": [],
   "size": 737,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Kvaløya (Tromsø)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Troms",
   "magnitude": 426,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Kvaløya (Tromsø)",
@@ -6697,7 +6701,7 @@
   ]
  },
  {
-  "id": "island-bear-island",
+  "id": "island-bear-island-norway",
   "category": "island",
   "name": "Bear Island",
   "aliases": [
@@ -6706,6 +6710,7 @@
   "size": 178,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Bjørnøya\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Norway",
   "magnitude": 3744,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Bjørnøya",
@@ -7406,13 +7411,14 @@
   ]
  },
  {
-  "id": "island-inishbofin",
+  "id": "island-inishbofin-county-galway",
   "category": "island",
   "name": "Inishbofin",
   "aliases": [],
   "size": 9,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Inishbofin, County Galway\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "County Galway",
   "magnitude": 2648,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Inishbofin, County Galway",
@@ -7533,13 +7539,14 @@
   ]
  },
  {
-  "id": "island-spike-island",
+  "id": "island-spike-island-county-cork",
   "category": "island",
   "name": "Spike Island",
   "aliases": [],
   "size": 1,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Spike Island, County Cork\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "County Cork",
   "magnitude": 3440,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Spike Island, County Cork",
@@ -10843,13 +10850,14 @@
   ]
  },
  {
-  "id": "island-prince-of-wales-island",
+  "id": "island-prince-of-wales-island-nunavut",
   "category": "island",
   "name": "Prince of Wales Island",
   "aliases": [],
   "size": 33339,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Prince of Wales Island (Nunavut)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Nunavut",
   "magnitude": 1461,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Prince of Wales Island (Nunavut)",
@@ -11137,13 +11145,14 @@
   ]
  },
  {
-  "id": "island-ross-island",
+  "id": "island-ross-island-antarctica",
   "category": "island",
   "name": "Ross Island",
   "aliases": [],
   "size": 2431,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Ross Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Antarctica",
   "magnitude": 3653,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Ross Island",
@@ -13737,13 +13746,14 @@
   ]
  },
  {
-  "id": "island-barren-island",
+  "id": "island-barren-island-andaman-islands",
   "category": "island",
   "name": "Barren Island",
   "aliases": [],
   "size": 8.1,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Barren Island (Andaman Islands)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Andaman Islands",
   "magnitude": 2831,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Barren Island (Andaman Islands)",
@@ -15890,13 +15900,14 @@
   ]
  },
  {
-  "id": "island-graham-island",
+  "id": "island-graham-island-british-columbia",
   "category": "island",
   "name": "Graham Island",
   "aliases": [],
   "size": 6361,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Graham Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "British Columbia",
   "magnitude": 2131,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Graham Island",
@@ -16071,7 +16082,7 @@
   "oceans": []
  },
  {
-  "id": "island-goat-island",
+  "id": "island-goat-island-new-york",
   "category": "island",
   "name": "Goat Island",
   "aliases": [
@@ -16080,6 +16091,7 @@
   "size": 0.28,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Goat Island (New York)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
   "magnitude": 2466,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Goat Island (New York)",
@@ -16122,13 +16134,14 @@
   ]
  },
  {
-  "id": "island-governors-island",
+  "id": "island-governors-island-new-york",
   "category": "island",
   "name": "Governors Island",
   "aliases": [],
   "size": 0.72,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Governors Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
   "magnitude": 9680,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Governors Island",
@@ -16139,13 +16152,14 @@
   ]
  },
  {
-  "id": "island-fire-island",
+  "id": "island-fire-island-new-york",
   "category": "island",
   "name": "Fire Island",
   "aliases": [],
   "size": 66,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Fire Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
   "magnitude": 19603,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Fire Island",
@@ -16704,7 +16718,7 @@
   "oceans": []
  },
  {
-  "id": "island-belle-isle",
+  "id": "island-belle-isle-michigan",
   "category": "island",
   "name": "Belle Isle",
   "aliases": [
@@ -16713,6 +16727,7 @@
   "size": 3,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Belle Isle Park\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Michigan",
   "magnitude": 4475,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Belle Isle Park",
@@ -16738,13 +16753,14 @@
   ]
  },
  {
-  "id": "island-treasure-island",
+  "id": "island-treasure-island-san-francisco",
   "category": "island",
   "name": "Treasure Island",
   "aliases": [],
   "size": 1.24,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Treasure Island, San Francisco\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "San Francisco",
   "magnitude": 6210,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Treasure Island, San Francisco",
@@ -17469,13 +17485,14 @@
   ]
  },
  {
-  "id": "island-cat-island",
+  "id": "island-cat-island-bahamas",
   "category": "island",
   "name": "Cat Island",
   "aliases": [],
   "size": 388,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Cat Island, Bahamas\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Bahamas",
   "magnitude": 2435,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Cat Island, Bahamas",
@@ -19258,13 +19275,14 @@
   ]
  },
  {
-  "id": "island-d-urville-island",
+  "id": "island-d-urville-island-new-zealand",
   "category": "island",
   "name": "D'Urville Island",
   "aliases": [],
   "size": 158,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"D'Urville Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New Zealand",
   "magnitude": 487,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "D'Urville Island",
@@ -19886,13 +19904,14 @@
   ]
  },
  {
-  "id": "island-mare",
+  "id": "island-mare-indonesia",
   "category": "island",
   "name": "Mare",
   "aliases": [],
   "size": 642,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Mare Island (Indonesia)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Indonesia",
   "magnitude": 30,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Mare Island (Indonesia)",
@@ -23122,7 +23141,7 @@
   ]
  },
  {
-  "id": "island-woody-island",
+  "id": "island-woody-island-paracel-islands",
   "category": "island",
   "name": "Woody Island",
   "aliases": [
@@ -23131,6 +23150,7 @@
   "size": 2.1,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Woody Island (South China Sea)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Paracel Islands",
   "magnitude": 1126,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Woody Island (South China Sea)",
@@ -23594,13 +23614,14 @@
   ]
  },
  {
-  "id": "island-coney-island",
+  "id": "island-coney-island-county-sligo",
   "category": "island",
   "name": "Coney Island",
   "aliases": [],
   "size": 4,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Coney Island, County Sligo\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "County Sligo",
   "magnitude": 791,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Coney Island, County Sligo",
@@ -23662,13 +23683,14 @@
   ]
  },
  {
-  "id": "island-plum-island",
+  "id": "island-plum-island-new-york",
   "category": "island",
   "name": "Plum Island",
   "aliases": [],
   "size": 3.4,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Plum Island (New York)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
   "magnitude": 7945,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Plum Island (New York)",
@@ -23999,13 +24021,14 @@
   ]
  },
  {
-  "id": "island-grand-island",
+  "id": "island-grand-island-new-york",
   "category": "island",
   "name": "Grand Island",
   "aliases": [],
   "size": 86.22,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Grand Island, New York\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
   "magnitude": 2466,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Grand Island, New York",
@@ -24029,13 +24052,14 @@
   "oceans": []
  },
  {
-  "id": "island-washington-island",
+  "id": "island-washington-island-wisconsin",
   "category": "island",
   "name": "Washington Island",
   "aliases": [],
   "size": 60.89,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Washington Island (Wisconsin)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Wisconsin",
   "magnitude": 2192,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Washington Island (Wisconsin)",
@@ -24078,13 +24102,14 @@
   ]
  },
  {
-  "id": "island-necker-island",
+  "id": "island-necker-island-hawaii",
   "category": "island",
   "name": "Necker Island",
   "aliases": [],
   "size": 0.18,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Necker Island (Hawaii)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Hawaii",
   "magnitude": 2039,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Necker Island (Hawaii)",
@@ -24095,13 +24120,14 @@
   ]
  },
  {
-  "id": "island-johns-island",
+  "id": "island-johns-island-south-carolina",
   "category": "island",
   "name": "Johns Island",
   "aliases": [],
   "size": 216.8,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Johns Island, South Carolina\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "South Carolina",
   "magnitude": 2009,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Johns Island, South Carolina",
@@ -24346,13 +24372,14 @@
   ]
  },
  {
-  "id": "island-fox-island",
+  "id": "island-fox-island-washington",
   "category": "island",
   "name": "Fox Island",
   "aliases": [],
   "size": 16.55,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Fox Island, Washington\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Washington",
   "magnitude": 1370,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Fox Island, Washington",
@@ -24533,13 +24560,14 @@
   ]
  },
  {
-  "id": "island-sugar-island",
+  "id": "island-sugar-island-michigan",
   "category": "island",
   "name": "Sugar Island",
   "aliases": [],
   "size": 128.05,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Sugar Island (Michigan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Michigan",
   "magnitude": 1157,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Sugar Island (Michigan)",
@@ -24829,13 +24857,14 @@
   ]
  },
  {
-  "id": "island-round-island",
+  "id": "island-round-island-michigan",
   "category": "island",
   "name": "Round Island",
   "aliases": [],
   "size": 1.53,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Round Island (Michigan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Michigan",
   "magnitude": 731,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Round Island (Michigan)",
@@ -25532,13 +25561,14 @@
   ]
  },
  {
-  "id": "island-marsh-island",
+  "id": "island-marsh-island-louisiana",
   "category": "island",
   "name": "Marsh Island",
   "aliases": [],
   "size": 258.95,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Marsh Island (Louisiana)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Louisiana",
   "magnitude": 396,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Marsh Island (Louisiana)",
@@ -25615,13 +25645,14 @@
   ]
  },
  {
-  "id": "island-high-island",
+  "id": "island-high-island-michigan",
   "category": "island",
   "name": "High Island",
   "aliases": [],
   "size": 14.14,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"High Island (Michigan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Michigan",
   "magnitude": 365,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "High Island (Michigan)",
@@ -25879,13 +25910,14 @@
   ]
  },
  {
-  "id": "island-hog-island",
+  "id": "island-hog-island-michigan",
   "category": "island",
   "name": "Hog Island",
   "aliases": [],
   "size": 8.39,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Hog Island (Michigan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Michigan",
   "magnitude": 304,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Hog Island (Michigan)",
@@ -25992,13 +26024,14 @@
   ]
  },
  {
-  "id": "island-harbor-island",
+  "id": "island-harbor-island-south-carolina",
   "category": "island",
   "name": "Harbor Island",
   "aliases": [],
   "size": 3.93,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Harbor Island, South Carolina\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "South Carolina",
   "magnitude": 244,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Harbor Island, South Carolina",
@@ -26041,13 +26074,14 @@
   "oceans": []
  },
  {
-  "id": "island-nelson-island",
+  "id": "island-nelson-island-alaska",
   "category": "island",
   "name": "Nelson Island",
   "aliases": [],
   "size": 2180,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Nelson Island (Alaska)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Alaska",
   "magnitude": 244,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Nelson Island (Alaska)",
@@ -26518,13 +26552,14 @@
   ]
  },
  {
-  "id": "island-bird-island",
+  "id": "island-bird-island-north-carolina",
   "category": "island",
   "name": "Bird Island",
   "aliases": [],
   "size": 1.68,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Bird Island, North Carolina\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "North Carolina",
   "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Bird Island, North Carolina",
@@ -26584,13 +26619,14 @@
   ]
  },
  {
-  "id": "island-dutch-island",
+  "id": "island-dutch-island-georgia",
   "category": "island",
   "name": "Dutch Island",
   "aliases": [],
   "size": 7.92,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Dutch Island, Georgia\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Georgia",
   "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Dutch Island, Georgia",
@@ -27533,13 +27569,14 @@
   ]
  },
  {
-  "id": "island-whale-island",
+  "id": "island-whale-island-alaska",
   "category": "island",
   "name": "Whale Island",
   "aliases": [],
   "size": 39.24,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Whale Island (Alaska)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Alaska",
   "magnitude": 30,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Whale Island (Alaska)",
@@ -27782,13 +27819,14 @@
   ]
  },
  {
-  "id": "island-smith-island",
+  "id": "island-smith-island-maryland",
   "category": "island",
   "name": "Smith Island",
   "aliases": [],
   "size": 23.77,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Smith Island, Maryland\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maryland",
   "magnitude": 3257,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Smith Island, Maryland",
@@ -27816,13 +27854,14 @@
   ]
  },
  {
-  "id": "island-star-island",
+  "id": "island-star-island-florida",
   "category": "island",
   "name": "Star Island",
   "aliases": [],
   "size": 0.35,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Star Island (Miami Beach)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Florida",
   "magnitude": 2831,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Star Island (Miami Beach)",
@@ -27867,13 +27906,14 @@
   ]
  },
  {
-  "id": "island-goose-island",
+  "id": "island-goose-island-illinois",
   "category": "island",
   "name": "Goose Island",
   "aliases": [],
   "size": 0.65,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Goose Island (Chicago)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Illinois",
   "magnitude": 2374,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Goose Island (Chicago)",
@@ -29287,13 +29327,14 @@
   ]
  },
  {
-  "id": "island-deadman-s-island",
+  "id": "island-deadman-s-island-kent",
   "category": "island",
   "name": "Deadman's Island",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Deadman's Island (Kent)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Kent",
   "magnitude": 1157,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Deadman's Island (Kent)",
@@ -30174,13 +30215,14 @@
   ]
  },
  {
-  "id": "island-monkey-island",
+  "id": "island-monkey-island-bray",
   "category": "island",
   "name": "Monkey Island",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Monkey Island, Bray\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Bray",
   "magnitude": 457,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Monkey Island, Bray",
@@ -31072,13 +31114,14 @@
   ]
  },
  {
-  "id": "island-eagle-island",
+  "id": "island-eagle-island-county-mayo",
   "category": "island",
   "name": "Eagle Island",
   "aliases": [],
   "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Eagle Island, County Mayo\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "County Mayo",
   "magnitude": 183,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Eagle Island, County Mayo",
@@ -40962,5 +41005,1793 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "island-oland-germany",
+  "category": "island",
+  "name": "Oland",
+  "aliases": [],
+  "size": 2.01,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oland (Frisian island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Germany",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oland (Frisian island)",
+  "lat": 54.6775,
+  "lon": 8.70388889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-windward-islands-french-polynesia",
+  "category": "island",
+  "name": "Windward Islands",
+  "aliases": [],
+  "size": 1195,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Windward Islands (Society Islands)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "French Polynesia",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Windward Islands (Society Islands)",
+  "lat": -17.53333333,
+  "lon": -149.83333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-leeward-islands-french-polynesia",
+  "category": "island",
+  "name": "Leeward Islands",
+  "aliases": [],
+  "size": 404,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Leeward Islands (Society Islands)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "French Polynesia",
+  "magnitude": 1522,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Leeward Islands (Society Islands)",
+  "lat": -17.53333333,
+  "lon": -149.83333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-mare-new-caledonia",
+  "category": "island",
+  "name": "Mare",
+  "aliases": [],
+  "size": 641.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Maré Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New Caledonia",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maré Island",
+  "lat": -21.5167,
+  "lon": 167.9833,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-king-george-islands",
+  "category": "island",
+  "name": "King George Islands",
+  "aliases": [],
+  "size": 64,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"King George Islands\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "King George Islands",
+  "lat": -14.53333333,
+  "lon": -147.13333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-caroline-islands",
+  "category": "island",
+  "name": "Caroline Islands",
+  "aliases": [],
+  "size": 1300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Caroline Islands\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 8006,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Caroline Islands",
+  "lat": 7.3825,
+  "lon": 147.0375,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-andros-greece",
+  "category": "island",
+  "name": "Andros",
+  "aliases": [],
+  "size": 381.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Andros, Greece\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Greece",
+  "magnitude": 3896,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Andros, Greece",
+  "lat": 37.83333333,
+  "lon": 24.9,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-flores-island",
+  "category": "island",
+  "name": "Flores Island",
+  "aliases": [],
+  "size": 141.02,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Flores Island (Azores)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 3805,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Flores Island (Azores)",
+  "lat": 39.44361111,
+  "lon": -31.19916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-graham-island-sicily",
+  "category": "island",
+  "name": "Graham Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Graham Island (Mediterranean Sea)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Sicily",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Graham Island (Mediterranean Sea)",
+  "lat": 37.16666667,
+  "lon": 12.71666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gorgona",
+  "category": "island",
+  "name": "Gorgona",
+  "aliases": [],
+  "size": 2.23,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gorgona (Italy)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gorgona (Italy)",
+  "lat": 43.42916667,
+  "lon": 9.89861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lobos-island",
+  "category": "island",
+  "name": "Lobos Island",
+  "aliases": [],
+  "size": 4.68,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lobos Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lobos Island",
+  "lat": 28.748,
+  "lon": -13.822,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rabbit-islands",
+  "category": "island",
+  "name": "Rabbit Islands",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rabbit Islands (Çanakkale)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rabbit Islands (Çanakkale)",
+  "lat": 39.934,
+  "lon": 26.065,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kvaloya-finnmark",
+  "category": "island",
+  "name": "Kvaloya",
+  "aliases": [],
+  "size": 336,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kvaløya, Finnmark\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Finnmark",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kvaløya, Finnmark",
+  "lat": 70.6,
+  "lon": 23.85,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "island-necker-island-british-virgin-islands",
+  "category": "island",
+  "name": "Necker Island",
+  "aliases": [],
+  "size": 0.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Necker Island (British Virgin Islands)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "British Virgin Islands",
+  "magnitude": 6484,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Necker Island (British Virgin Islands)",
+  "lat": 18.52722222,
+  "lon": -64.35805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-holy-island-anglesey",
+  "category": "island",
+  "name": "Holy Island",
+  "aliases": [],
+  "size": 39.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Holy Island, Anglesey\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Anglesey",
+  "magnitude": 2161,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Holy Island, Anglesey",
+  "lat": 53.28333333,
+  "lon": -4.61666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-holy-island-firth-of-clyde",
+  "category": "island",
+  "name": "Holy Island",
+  "aliases": [],
+  "size": 2.63,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Holy Island, Firth of Clyde\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Firth of Clyde",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Holy Island, Firth of Clyde",
+  "lat": 55.525,
+  "lon": -5.07222222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-st-martin-s",
+  "category": "island",
+  "name": "St Martin's",
+  "aliases": [],
+  "size": 2.37,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St Martin's, Isles of Scilly\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St Martin's, Isles of Scilly",
+  "lat": 49.964,
+  "lon": -6.289,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bird-island-south-georgia",
+  "category": "island",
+  "name": "Bird Island",
+  "aliases": [],
+  "size": 3.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bird Island, South Georgia\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "South Georgia",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bird Island, South Georgia",
+  "lat": -54.00555556,
+  "lon": -38.05,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-whale-island-hampshire",
+  "category": "island",
+  "name": "Whale Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Whale Island, Hampshire\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Hampshire",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Whale Island, Hampshire",
+  "lat": 50.81666667,
+  "lon": -1.1,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-green-island-dorset",
+  "category": "island",
+  "name": "Green Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Green Island (Dorset)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Dorset",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Green Island (Dorset)",
+  "lat": 50.67893,
+  "lon": -1.990799,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-coney-island-lough-neagh",
+  "category": "island",
+  "name": "Coney Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Coney Island, Lough Neagh\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Lough Neagh",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coney Island, Lough Neagh",
+  "lat": 54.517,
+  "lon": -6.551,
+  "oceans": []
+ },
+ {
+  "id": "island-inishbofin-county-donegal",
+  "category": "island",
+  "name": "Inishbofin",
+  "aliases": [],
+  "size": 1.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Inishbofin, County Donegal\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "County Donegal",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inishbofin, County Donegal",
+  "lat": 55.17305556,
+  "lon": -8.16888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-smith-island-antarctica",
+  "category": "island",
+  "name": "Smith Island",
+  "aliases": [],
+  "size": 148,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Smith Island (South Shetland Islands)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Antarctica",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Smith Island (South Shetland Islands)",
+  "lat": -63,
+  "lon": -62.5,
+  "oceans": [
+   "Southern"
+  ]
+ },
+ {
+  "id": "island-st-mary-s-island",
+  "category": "island",
+  "name": "St Mary's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St Mary's Island (Tyne and Wear)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St Mary's Island (Tyne and Wear)",
+  "lat": 55.07166667,
+  "lon": -1.44972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-white-island-county-fermanagh",
+  "category": "island",
+  "name": "White Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"White Island, County Fermanagh\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "County Fermanagh",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "White Island, County Fermanagh",
+  "lat": 54.48879,
+  "lon": -7.73618,
+  "oceans": []
+ },
+ {
+  "id": "island-st-mary-s-isle",
+  "category": "island",
+  "name": "St Mary's Isle",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St Mary's Isle\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St Mary's Isle",
+  "lat": 54.15027778,
+  "lon": -4.46861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-formosa-island",
+  "category": "island",
+  "name": "Formosa Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Formosa Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Formosa Island",
+  "lat": 51.56,
+  "lon": -0.699,
+  "oceans": []
+ },
+ {
+  "id": "island-long-island-county-cork",
+  "category": "island",
+  "name": "Long Island",
+  "aliases": [],
+  "size": 1.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Long Island, County Cork\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "County Cork",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Long Island, County Cork",
+  "lat": 51.5,
+  "lon": -9.55,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-snow-island",
+  "category": "island",
+  "name": "Snow Island",
+  "aliases": [],
+  "size": 120.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Snow Island (South Shetland Islands)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Snow Island (South Shetland Islands)",
+  "lat": -62.78333333,
+  "lon": -61.38333333,
+  "oceans": [
+   "Southern"
+  ]
+ },
+ {
+  "id": "island-nelson-island-antarctica",
+  "category": "island",
+  "name": "Nelson Island",
+  "aliases": [],
+  "size": 192.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nelson Island (South Shetland Islands)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Antarctica",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nelson Island (South Shetland Islands)",
+  "lat": -62.3,
+  "lon": -59.05,
+  "oceans": [
+   "Southern"
+  ]
+ },
+ {
+  "id": "island-d-urville-island-antarctica",
+  "category": "island",
+  "name": "D'Urville Island",
+  "aliases": [],
+  "size": 455.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"D'Urville Island, Antarctica\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Antarctica",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "D'Urville Island, Antarctica",
+  "lat": -63.08333333,
+  "lon": -56.33333333,
+  "oceans": [
+   "Southern"
+  ]
+ },
+ {
+  "id": "island-somerset-island-bermuda",
+  "category": "island",
+  "name": "Somerset Island",
+  "aliases": [],
+  "size": 2.84,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Somerset Island, Bermuda\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Bermuda",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Somerset Island, Bermuda",
+  "lat": 32.29638889,
+  "lon": -64.86944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-coney-island-new-york",
+  "category": "island",
+  "name": "Coney Island",
+  "aliases": [],
+  "size": 1.79,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Coney Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
+  "magnitude": 26970,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Coney Island",
+  "lat": 40.575,
+  "lon": -73.9825,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-channel-islands-california",
+  "category": "island",
+  "name": "Channel Islands",
+  "aliases": [],
+  "size": 908.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Channel Islands (California)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "California",
+  "magnitude": 10258,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Channel Islands (California)",
+  "lat": 34.01611111,
+  "lon": -119.80388889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-san-juan-island",
+  "category": "island",
+  "name": "San Juan Island",
+  "aliases": [],
+  "size": 142.59,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"San Juan Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 4292,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "San Juan Island",
+  "lat": 48.53333333,
+  "lon": -123.08333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-prince-of-wales-island-alaska",
+  "category": "island",
+  "name": "Prince of Wales Island",
+  "aliases": [],
+  "size": 6674.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Prince of Wales Island (Alaska)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Alaska",
+  "magnitude": 3744,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Prince of Wales Island (Alaska)",
+  "lat": 55.63194444,
+  "lon": -132.9075,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-fox-islands-michigan",
+  "category": "island",
+  "name": "Fox Islands",
+  "aliases": [],
+  "size": 17.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fox Islands (Lake Michigan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Michigan",
+  "magnitude": 3044,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fox Islands (Lake Michigan)",
+  "lat": 45.44222222,
+  "lon": -85.81,
+  "oceans": []
+ },
+ {
+  "id": "island-plum-island-massachusetts",
+  "category": "island",
+  "name": "Plum Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Plum Island (Massachusetts)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Massachusetts",
+  "magnitude": 2496,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Plum Island (Massachusetts)",
+  "lat": 42.7542,
+  "lon": -70.7975,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-deer-island-new-york",
+  "category": "island",
+  "name": "Deer Island",
+  "aliases": [],
+  "size": 0.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Deer Island (Thousand Islands)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
+  "magnitude": 2405,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Deer Island (Thousand Islands)",
+  "lat": 44.36222222,
+  "lon": -75.90694444,
+  "oceans": []
+ },
+ {
+  "id": "island-grand-isle-louisiana",
+  "category": "island",
+  "name": "Grand Isle",
+  "aliases": [],
+  "size": 21.17,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grand Isle, Louisiana\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Louisiana",
+  "magnitude": 2283,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grand Isle, Louisiana",
+  "lat": 29.23333333,
+  "lon": -90,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-saint-helena-island-south-carolina",
+  "category": "island",
+  "name": "Saint Helena Island",
+  "aliases": [],
+  "size": 165.21,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saint Helena Island (South Carolina)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "South Carolina",
+  "magnitude": 2222,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Helena Island (South Carolina)",
+  "lat": 32.376272,
+  "lon": -80.572228,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-long-island-massachusetts",
+  "category": "island",
+  "name": "Long Island",
+  "aliases": [],
+  "size": 0.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Long Island (Massachusetts)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Massachusetts",
+  "magnitude": 2009,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Long Island (Massachusetts)",
+  "lat": 42.32083333,
+  "lon": -70.96666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-treasure-island-florida",
+  "category": "island",
+  "name": "Treasure Island",
+  "aliases": [],
+  "size": 13.98,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Treasure Island, Florida\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Florida",
+  "magnitude": 1766,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Treasure Island, Florida",
+  "lat": 27.75694444,
+  "lon": -82.76611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-treasure-island-ontario",
+  "category": "island",
+  "name": "Treasure Island",
+  "aliases": [],
+  "size": 0.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Treasure Island (Ontario)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Ontario",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Treasure Island (Ontario)",
+  "lat": 45.7643,
+  "lon": -82.1774,
+  "oceans": []
+ },
+ {
+  "id": "island-saint-croix-island",
+  "category": "island",
+  "name": "Saint Croix Island",
+  "aliases": [],
+  "size": 0.03,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saint Croix Island, Maine\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saint Croix Island, Maine",
+  "lat": 45.12833333,
+  "lon": -67.13305556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fox-islands-alaska",
+  "category": "island",
+  "name": "Fox Islands",
+  "aliases": [],
+  "size": 9200,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fox Islands (Alaska)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Alaska",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fox Islands (Alaska)",
+  "lat": 53.78333333,
+  "lon": -166.58333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-star-island-new-hampshire",
+  "category": "island",
+  "name": "Star Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Star Island (New Hampshire)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New Hampshire",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Star Island (New Hampshire)",
+  "lat": 42.97666667,
+  "lon": -70.61388889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-cat-island-mississippi",
+  "category": "island",
+  "name": "Cat Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cat Island (Mississippi)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Mississippi",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cat Island (Mississippi)",
+  "lat": 30.21666667,
+  "lon": -89.1,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-davis-islands",
+  "category": "island",
+  "name": "Davis Islands",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Davis Islands (Tampa)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Davis Islands (Tampa)",
+  "lat": 27.92194444,
+  "lon": -82.45555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-barren-island-brooklyn",
+  "category": "island",
+  "name": "Barren Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barren Island, Brooklyn\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Brooklyn",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barren Island, Brooklyn",
+  "lat": 40.59277778,
+  "lon": -73.89305556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-goat-island-rhode-island",
+  "category": "island",
+  "name": "Goat Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Goat Island (Rhode Island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Rhode Island",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Goat Island (Rhode Island)",
+  "lat": 41.4852,
+  "lon": -71.32801667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-harbor-island-seattle",
+  "category": "island",
+  "name": "Harbor Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Harbor Island, Seattle\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Seattle",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Harbor Island, Seattle",
+  "lat": 47.57916667,
+  "lon": -122.35138889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-long-island-maine",
+  "category": "island",
+  "name": "Long Island",
+  "aliases": [],
+  "size": 86.82,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Long Island, Maine\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maine",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Long Island, Maine",
+  "lat": 43.65944444,
+  "lon": -70.12861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rock-island",
+  "category": "island",
+  "name": "Rock Island",
+  "aliases": [],
+  "size": 3.95,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rock Island (Wisconsin)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rock Island (Wisconsin)",
+  "lat": 45.415322,
+  "lon": -86.820831,
+  "oceans": []
+ },
+ {
+  "id": "island-fire-island-alaska",
+  "category": "island",
+  "name": "Fire Island",
+  "aliases": [],
+  "size": 17.47,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fire Island (Anchorage, Alaska)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Alaska",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fire Island (Anchorage, Alaska)",
+  "lat": 61.1594444,
+  "lon": -150.1986111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hog-island-new-york",
+  "category": "island",
+  "name": "Hog Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hog Island (New York)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hog Island (New York)",
+  "lat": 40.601,
+  "lon": -73.654,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hog-island-rhode-island",
+  "category": "island",
+  "name": "Hog Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hog Island (Rhode Island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Rhode Island",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hog Island (Rhode Island)",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-smith-island-washington",
+  "category": "island",
+  "name": "Smith Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Smith Island (Washington)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Washington",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Smith Island (Washington)",
+  "lat": 48.31833333,
+  "lon": -122.84333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-high-island-bronx",
+  "category": "island",
+  "name": "High Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"High Island (Bronx)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Bronx",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "High Island (Bronx)",
+  "lat": 40.859571,
+  "lon": -73.786159,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-monkey-island-north-carolina",
+  "category": "island",
+  "name": "Monkey Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Monkey Island, North Carolina\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "North Carolina",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Monkey Island, North Carolina",
+  "lat": 36.40527778,
+  "lon": -75.87027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-grand-isle-vermont",
+  "category": "island",
+  "name": "Grand Isle",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grand Isle (island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Vermont",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grand Isle (island)",
+  "lat": 44.68,
+  "lon": -73.327,
+  "oceans": []
+ },
+ {
+  "id": "island-ross-island-oregon",
+  "category": "island",
+  "name": "Ross Island",
+  "aliases": [],
+  "size": 1.62,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ross Island (Oregon)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Oregon",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ross Island (Oregon)",
+  "lat": 45.49,
+  "lon": -122.667,
+  "oceans": []
+ },
+ {
+  "id": "island-white-island-brooklyn",
+  "category": "island",
+  "name": "White Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"White Island (Brooklyn)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Brooklyn",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "White Island (Brooklyn)",
+  "lat": 40.59714,
+  "lon": -73.918076,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-st-martin-island",
+  "category": "island",
+  "name": "St. Martin Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St. Martin Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Martin Island",
+  "lat": 45.49777778,
+  "lon": -86.77027778,
+  "oceans": []
+ },
+ {
+  "id": "island-st-vincent-island",
+  "category": "island",
+  "name": "St. Vincent Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St. Vincent Island (Florida)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Vincent Island (Florida)",
+  "lat": 29.66111111,
+  "lon": -85.14361111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bear-island-new-hampshire",
+  "category": "island",
+  "name": "Bear Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bear Island (Lake Winnipesaukee)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New Hampshire",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bear Island (Lake Winnipesaukee)",
+  "lat": 43.63861111,
+  "lon": -71.4,
+  "oceans": []
+ },
+ {
+  "id": "island-fox-island-alaska",
+  "category": "island",
+  "name": "Fox Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fox Island (Alaska)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Alaska",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fox Island (Alaska)",
+  "lat": 59.92166667,
+  "lon": -149.33583333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-goat-island-south-carolina",
+  "category": "island",
+  "name": "Goat Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Goat Island (South Carolina)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "South Carolina",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Goat Island (South Carolina)",
+  "lat": 32.8062867,
+  "lon": -79.7659144,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-belle-isle-florida",
+  "category": "island",
+  "name": "Belle Isle",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Belle Isle (Miami Beach)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Florida",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belle Isle (Miami Beach)",
+  "lat": 25.791193,
+  "lon": -80.148112,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-dutch-island-rhode-island",
+  "category": "island",
+  "name": "Dutch Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dutch Island (Rhode Island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Rhode Island",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dutch Island (Rhode Island)",
+  "lat": 41.50388889,
+  "lon": -71.4,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-governors-island-new-hampshire",
+  "category": "island",
+  "name": "Governors Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Governors Island (Lake Winnipesaukee)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New Hampshire",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Governors Island (Lake Winnipesaukee)",
+  "lat": 43.60972222,
+  "lon": -71.42527778,
+  "oceans": []
+ },
+ {
+  "id": "island-hog-island-california",
+  "category": "island",
+  "name": "Hog Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hog Island (Tomales Bay)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "California",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hog Island (Tomales Bay)",
+  "lat": 38.19722222,
+  "lon": -122.93583333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-iona-island",
+  "category": "island",
+  "name": "Iona Island",
+  "aliases": [],
+  "size": 2.25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Iona Island (New York)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iona Island (New York)",
+  "lat": 41.30388889,
+  "lon": -73.97722222,
+  "oceans": []
+ },
+ {
+  "id": "island-fox-island-michigan",
+  "category": "island",
+  "name": "Fox Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fox Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Michigan",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fox Island",
+  "lat": 42.10583333,
+  "lon": -83.14166667,
+  "oceans": []
+ },
+ {
+  "id": "island-harbor-island-maine",
+  "category": "island",
+  "name": "Harbor Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Harbor Island, Phippsburg, Maine\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maine",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Harbor Island, Phippsburg, Maine",
+  "lat": 43.76888889,
+  "lon": -69.87055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-plum-island-wisconsin",
+  "category": "island",
+  "name": "Plum Island",
+  "aliases": [],
+  "size": 1.18,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Plum Island (Wisconsin)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Wisconsin",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Plum Island (Wisconsin)",
+  "lat": 45.308132,
+  "lon": -86.953142,
+  "oceans": []
+ },
+ {
+  "id": "island-rose-island",
+  "category": "island",
+  "name": "Rose Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rose Island (Rhode Island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rose Island (Rhode Island)",
+  "lat": 41.49636389,
+  "lon": -71.34113889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-barren-islands",
+  "category": "island",
+  "name": "Barren Islands",
+  "aliases": [],
+  "size": 42.03,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Barren Islands\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Barren Islands",
+  "lat": 58.91666667,
+  "lon": -152.13333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-eagle-island-maine",
+  "category": "island",
+  "name": "Eagle Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eagle Island (Penobscot Bay, Maine)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maine",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eagle Island (Penobscot Bay, Maine)",
+  "lat": 44.2125,
+  "lon": -68.775,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hog-island-virginia",
+  "category": "island",
+  "name": "Hog Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hog Island (Machipongo, Virginia)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Virginia",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hog Island (Machipongo, Virginia)",
+  "lat": 37.41611111,
+  "lon": -75.69111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sugar-island-maine",
+  "category": "island",
+  "name": "Sugar Island",
+  "aliases": [],
+  "size": 17.03,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sugar Island (Maine)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maine",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sugar Island (Maine)",
+  "lat": 45.58333333,
+  "lon": -69.58333333,
+  "oceans": []
+ },
+ {
+  "id": "island-sugar-island-ohio",
+  "category": "island",
+  "name": "Sugar Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sugar Island (Ohio)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Ohio",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sugar Island (Ohio)",
+  "lat": 41.692,
+  "lon": -82.826,
+  "oceans": []
+ },
+ {
+  "id": "island-deadman-s-island-california",
+  "category": "island",
+  "name": "Deadman's Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Deadman's Island (San Pedro)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "California",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Deadman's Island (San Pedro)",
+  "lat": 33.72363,
+  "lon": -118.265904,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-fox-island-rhode-island",
+  "category": "island",
+  "name": "Fox Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fox Island (Rhode Island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Rhode Island",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fox Island (Rhode Island)",
+  "lat": 41.55416667,
+  "lon": -71.41833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hope-island",
+  "category": "island",
+  "name": "Hope Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hope Island (Rhode Island)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hope Island (Rhode Island)",
+  "lat": 41.60209444,
+  "lon": -71.36770278,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-horse-island",
+  "category": "island",
+  "name": "Horse Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Horse Island (Connecticut)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Horse Island (Connecticut)",
+  "lat": 41.24472222,
+  "lon": -72.75722222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-goose-island-new-york",
+  "category": "island",
+  "name": "Goose Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Goose Island (Long Island Sound)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "New York",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Goose Island (Long Island Sound)",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hog-island-maine",
+  "category": "island",
+  "name": "Hog Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hog Island (Lincoln County, Maine)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maine",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hog Island (Lincoln County, Maine)",
+  "lat": 43.96666667,
+  "lon": -69.425,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-johns-island-washington",
+  "category": "island",
+  "name": "Johns Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Johns Island (Washington)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Washington",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Johns Island (Washington)",
+  "lat": 48.666,
+  "lon": -123.1533,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-marsh-island-maine",
+  "category": "island",
+  "name": "Marsh Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marsh Island (Maine)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maine",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marsh Island (Maine)",
+  "lat": 44.91666667,
+  "lon": -68.65,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-marshall-island-maine",
+  "category": "island",
+  "name": "Marshall Island",
+  "aliases": [],
+  "size": 14.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marshall Island, Maine\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maine",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marshall Island, Maine",
+  "lat": 44.11305556,
+  "lon": -68.495,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sanak-island",
+  "category": "island",
+  "name": "Sanak Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sanak Island\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sanak Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-smith-island-virginia",
+  "category": "island",
+  "name": "Smith Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Smith Island, Virginia\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Virginia",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Smith Island, Virginia",
+  "lat": 37.14388889,
+  "lon": -75.87444444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-saint-helena-island-maryland",
+  "category": "island",
+  "name": "Saint Helena Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"St. Helena Island (Maryland)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maryland",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "St. Helena Island (Maryland)",
+  "lat": 39.04111111,
+  "lon": -76.56472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ward-island-texas",
+  "category": "island",
+  "name": "Ward Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ward Island (Texas)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Texas",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ward Island (Texas)",
+  "lat": 27.71277778,
+  "lon": -97.32333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-woody-island-alaska",
+  "category": "island",
+  "name": "Woody Island",
+  "aliases": [],
+  "size": 13.05,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Woody Island (Alaska)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Alaska",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Woody Island (Alaska)",
+  "lat": 57.78333333,
+  "lon": -152.33333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-breton-island",
+  "category": "island",
+  "name": "Breton Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Breton Island (Louisiana)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Breton Island (Louisiana)",
+  "lat": 29.46416667,
+  "lon": -89.19944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-goat-island-texas",
+  "category": "island",
+  "name": "Goat Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Goat Island (Galveston County, Texas)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Texas",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Goat Island (Galveston County, Texas)",
+  "lat": 29.46972222,
+  "lon": -94.66555556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isle-of-wight-maryland",
+  "category": "island",
+  "name": "Isle of Wight",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isle of Wight (Maryland)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Maryland",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isle of Wight (Maryland)",
+  "lat": 38.39444444,
+  "lon": -75.10666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-long-island-washington",
+  "category": "island",
+  "name": "Long Island",
+  "aliases": [],
+  "size": 19.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Long Island (Washington)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Washington",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Long Island (Washington)",
+  "lat": 46.45205,
+  "lon": -123.96423,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-round-island-mississippi",
+  "category": "island",
+  "name": "Round Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Round Island (Mississippi)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Mississippi",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Round Island (Mississippi)",
+  "lat": 30.295,
+  "lon": -88.58666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-baker-island-alaska",
+  "category": "island",
+  "name": "Baker Island",
+  "aliases": [],
+  "size": 115.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baker Island (Alaska)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Alaska",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baker Island (Alaska)",
+  "lat": 55.36666667,
+  "lon": -133.6,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-washington-island-michigan",
+  "category": "island",
+  "name": "Washington Island",
+  "aliases": [],
+  "size": 2.59,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Washington Island (Michigan)\", 60-day daily median (60 days ending 2026-09-18); Standard reference island areas (km2), rounded",
+  "qualifier": "Michigan",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Washington Island (Michigan)",
+  "lat": 47.875,
+  "lon": -89.25,
+  "oceans": []
  }
 ]

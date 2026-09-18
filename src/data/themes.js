@@ -1284,7 +1284,7 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-14 expansion
       'Tobago', 'Vieques', 'Culebra', 'Isla de la Juventud', 'Cayo Coco',
       'Cayo Largo', 'Gonave', 'Tortuga', 'Saona', 'Bimini',
-      'Cat Island', 'San Salvador Island', 'Harbour Island', 'Inagua', 'Little Cayman',
+      'Cat Island (Bahamas)', 'San Salvador Island', 'Harbour Island', 'Inagua', 'Little Cayman',
       'Cayman Brac', 'Cayman Islands', 'Utila', 'Guanaja', 'Ambergris Caye',
       'Caye Caulker', 'Corn Islands', 'Providencia', 'Isla Colon', 'Taboga',
       'San Blas Islands', 'Saint Barthelemy', 'Saba', 'Sint Eustatius', 'Anegada',
@@ -1293,7 +1293,9 @@ globalThis.WORMILLION_THEMES = {
       'Isla Contoy', 'Turks and Caicos', 'Virgin Islands', 'Lesser Antilles', 'Greater Antilles',
       'Leeward Islands', 'Windward Islands', 'Grenadines', 'Chacachacare', 'Little Tobago',
       // add-theme.mjs
-      'Aves Island'
+      'Aves Island',
+      // 2026-09-18 namesakes, decision 5
+      'Necker Island (British Virgin Islands)'
     ],
     'the Mediterranean': [
       'Sicily', 'Sardinia', 'Corsica', 'Crete', 'Cyprus', 'Malta',
@@ -1333,7 +1335,9 @@ globalThis.WORMILLION_THEMES = {
       // add-theme.mjs
       'Cavallo', 'San Giorgio Maggiore',
       // add-theme.mjs
-      'Balearic Islands'
+      'Balearic Islands',
+      // 2026-09-18 namesakes, decision 5
+      'Andros (Greece)', 'Graham Island (Sicily)', 'Gorgona', 'Rabbit Islands'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
@@ -1347,11 +1351,13 @@ globalThis.WORMILLION_THEMES = {
       'Sifnos', 'Folegandros', 'Ios', 'Amorgos', 'Antiparos',
       'Koufonisia', 'Kythira', 'Antikythera', 'Spetses', 'Poros',
       'Aegina', 'Salamis Island', 'Lefkada', 'Paxos', 'Skorpios',
-      'Gavdos', 'Spinalonga'
+      'Gavdos', 'Spinalonga',
+      // 2026-09-18 namesakes, decision 5
+      'Andros (Greece)'
     ],
     'Hawaii': ['Big Island of Hawaii', 'Maui', 'Oahu', 'Kauai', 'Molokai', 'Lanai', 'Niihau',
       // 2026-09-16 US islands fill (audit)
-      'Necker Island', 'Lisianski Island', 'Tern Island', 'Kaula', 'Lehua', 'Mokolii', 'French Frigate Shoals', 'Gardner Pinnacles', 'Maro Reef',
+      'Necker Island (Hawaii)', 'Lisianski Island', 'Tern Island', 'Kaula', 'Lehua', 'Mokolii', 'French Frigate Shoals', 'Gardner Pinnacles', 'Maro Reef',
       // 2026-09-14 expansion
       'Kahoolawe', 'Molokini', 'Ford Island', 'Laysan', 'Hawaiian Islands',
       'Kure Atoll', 'Nihoa',
@@ -1390,7 +1396,9 @@ globalThis.WORMILLION_THEMES = {
       'Eilean Subhainn', 'Hildasay', 'Housay', 'Hunda', 'Isle Ristol',
       'Little Bernera', 'Longa Island', 'Pabaigh Mor', 'Ronay', 'Seaforth Island',
       'Uyea', 'Vementry',
-      'Shapinsay'
+      'Shapinsay',
+      // 2026-09-18 namesakes, decision 5
+      'Holy Island (Firth of Clyde)'
     ],
     'Japan': [
       'Honshu', 'Hokkaido', 'Kyushu', 'Shikoku', 'Okinawa Island', 'Sado Island',
@@ -1427,7 +1435,7 @@ globalThis.WORMILLION_THEMES = {
       'Bacan', 'Kai Islands', 'Aru Islands', 'Tanimbar Islands', 'Wetar',
       'Enggano', 'Simeulue',
       // add-theme.mjs
-      'Yos Sudarso Island', 'Numfor', 'Mare'
+      'Yos Sudarso Island', 'Numfor', 'Mare (Indonesia)'
     ]
   },
 
