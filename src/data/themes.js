@@ -134,7 +134,7 @@ globalThis.WORMILLION_THEMES = {
       'Findhorn', 'Deveron', 'Esk', 'Earn', 'Almond',
       'Water of Leith', 'Annan', 'Nith', 'Doon', 'Ayr',
       'Kelvin', 'Tummel', 'Oykel', 'Carron', 'Beauly',
-      'Lochy', 'Nevis', 'Coe', 'Awe', 'Naver',
+      'Lochy', 'Nevis', 'Coe', 'Awe',
       'Helmsdale', 'Thurso', 'Boyne', 'Barrow', 'Nore',
       'Suir', 'Slaney', 'Munster Blackwater', 'Lee', 'Bandon',
       'Moy', 'Corrib', 'Erne', 'Foyle', 'Lagan',
@@ -278,7 +278,7 @@ globalThis.WORMILLION_THEMES = {
       'Findhorn', 'Deveron', 'Esk', 'Earn', 'Almond',
       'Water of Leith', 'Annan', 'Nith', 'Doon', 'Ayr',
       'Kelvin', 'Tummel', 'Oykel', 'Carron', 'Beauly',
-      'Lochy', 'Nevis', 'Coe', 'Awe', 'Naver',
+      'Lochy', 'Nevis', 'Coe', 'Awe',
       'Helmsdale', 'Thurso', 'Boyne', 'Barrow', 'Nore',
       'Suir', 'Slaney', 'Munster Blackwater', 'Lee', 'Bandon',
       'Moy', 'Corrib', 'Erne', 'Foyle', 'Lagan',
@@ -410,7 +410,7 @@ globalThis.WORMILLION_THEMES = {
       'Sura', 'Sviyaga', 'Vetluga', 'Unzha', 'Kostroma',
       'Sheksna', 'Mologa', 'Tvertsa', 'Nerl', 'Istra',
       'Pakhra', 'Neglinnaya', 'Yauza', 'Vyatka', 'Belaya',
-      'Ufa', 'Chusovaya', 'Sylva', 'Vishera', 'Pechora',
+      'Ufa', 'Chusovaya', 'Sylva', 'Pechora',
       'Usa', 'Izhma', 'Vychegda', 'Sysola', 'Northern Dvina',
       'Sukhona', 'Yug', 'Vaga', 'Pinega', 'Mezen',
       'Onega River', 'Kem', 'Varzuga', 'Ponoy', 'Tuloma',
@@ -558,7 +558,12 @@ globalThis.WORMILLION_THEMES = {
       'Sagan', 'Simoa', 'Simojoki', 'Sira', 'Svartelva',
       'Tovdalselva', 'Vanan', 'Vojman', 'Ore', 'Osterdal',
       // 2026-09-14 expansion
-      'Ne', 'Busento'
+      'Ne', 'Busento',
+      // add-theme.mjs
+      'Thames', 'Severn', 'Trent', 'Shannon', 'Clyde',
+      'Liffey', 'Wye', 'Tay', 'Bristol Avon', 'Ouse',
+      'Cam', 'Medway', 'River Dee', 'River Tweed', 'River Forth',
+      'Spey', 'Aire', 'River Exe', 'River Bann'
     ],
     'India': [
       'Ganges', 'Brahmaputra', 'Indus', 'Yamuna', 'Godavari', 'Krishna River',
@@ -625,7 +630,7 @@ globalThis.WORMILLION_THEMES = {
       'Thompson', 'Nechako', 'Chilcotin', 'Quesnel', 'Lillooet',
       'Harrison', 'Coquihalla', 'Similkameen', 'Okanagan', 'Kettle',
       'Skeena', 'Bulkley', 'Nass', 'Bella Coola', 'Squamish',
-      'Capilano', 'Cowichan', 'Campbell', 'Peace', 'Athabasca',
+      'Capilano', 'Cowichan', 'Peace', 'Athabasca',
       'Slave', 'Liard', 'Hay', 'Nahanni', 'Back',
       'Thelon', 'Coppermine', 'Kazan', 'Hayes',
       'Winisk', 'Attawapiskat', 'Albany River', 'Moose', 'Abitibi',
@@ -734,7 +739,7 @@ globalThis.WORMILLION_THEMES = {
       'Raft', 'Ruby', 'Sac', 'Sagavanirktok', 'Salmon Falls Creek',
       'Shasta', 'South Anna', 'South Fork Eel', 'South Yuba', 'Suiattle',
       'Sun', 'Susan', 'Tensas', 'Van Duzen', 'Vermillion',
-      'Wallowa', 'Course of the Rogue', 'Battle Creek', 'Belly', 'Big Sandy Creek',
+      'Wallowa', 'Battle Creek', 'Belly', 'Big Sandy Creek',
       'Big South Fork of the Cumberland', 'Bluestone', 'Boulder', 'South Fork Kern', 'Caney',
       'Casselman', 'Castor', 'Chateauguay', 'Chewaucan', 'Chikaskia',
       'Cohocton', 'Coleen', 'Conewango Creek', 'Cottonwood', 'Donner und Blitzen',
@@ -847,7 +852,9 @@ globalThis.WORMILLION_THEMES = {
       'Paluxy', 'Little Pigeon', 'Hackensack', 'Rouge', 'Calumet',
       'Two Hearted', 'Roe', 'D River',
       // 2026-09-14 expansion
-      'East River'
+      'East River',
+      // add-theme.mjs
+      'Barron'
     ]
   },
 
@@ -939,7 +946,7 @@ globalThis.WORMILLION_THEMES = {
       'Kula Kangri', 'Jitchu Drake', 'Namcha Barwa', 'Gurla Mandhata', 'Mount Kailash',
       'Nun Kun', 'Stok Kangri', 'Kang Yatse', 'Harmukh', 'Gyala Peri',
       'Yalung Kang', 'Kirat Chuli', 'Chomo Lonzo', 'Dorje Lakpa',
-      'Langtang Ri', 'Chulu West', 'Pisang Peak', 'Tharpu Chuli',
+      'Langtang Ri', 'Pisang Peak', 'Tharpu Chuli',
       'Hiunchuli', 'Singu Chuli', 'Kangto',
       'Nanda Kot', 'Hardeol', 'Changabang', 'Dunagiri',
       'Mana Peak', 'Mukut Parbat', 'Satopanth', 'Abi Gamin',
@@ -1082,7 +1089,10 @@ globalThis.WORMILLION_THEMES = {
       'Mynydd Troed', 'Pen Cerrig-calch', 'Penycloddiau', 'Raise', 'Rhinog Fach',
       'Ros Hill', 'Sale Fell', 'Seathwaite Fell', 'Sheffield Pike', 'Silver How',
       'Souther Fell', 'Tal y Fan', 'The Nab', 'Walna Scar', 'Whinlatter',
-      'Yr Aran'
+      'Yr Aran',
+      // add-theme.mjs
+      'Roseberry Topping', 'Ivinghoe Beacon', 'Cleeve Hill', 'Worcestershire Beacon', 'Ditchling Beacon',
+      'Shining Tor'
     ],
     'Indonesia': [
       'Mount Bromo', 'Mount Merapi', 'Mount Semeru', 'Mount Agung', 'Krakatoa',
@@ -1091,7 +1101,7 @@ globalThis.WORMILLION_THEMES = {
       'Mount Kerinci', 'Mount Tambora', 'Sinabung', 'Mount Slamet', 'Mount Lawu',
       'Mount Batur', 'Ijen', 'Mount Gede', 'Mount Salak', 'Mount Papandayan',
       'Mount Galunggung', 'Kelud', 'Mount Arjuno', 'Raung', 'Mount Leuser',
-      'Mount Sibayak', 'Tangkuban Perahu', 'Mount Prau', 'Sindoro', 'Sumbing',
+      'Mount Sibayak', 'Tangkuban Perahu', 'Sindoro', 'Sumbing',
       'Merbabu', 'Mount Lokon', 'Soputan', 'Kelimutu', 'Trikora',
       'Puncak Mandala', 'Mount Egon', 'Lewotobi', 'Rokatenda', 'Mount Awu',
       'Karangetang', 'Dukono', 'Gamalama', 'Marapi', 'Dempo',
@@ -1155,7 +1165,7 @@ globalThis.WORMILLION_THEMES = {
       'Mount Tambora', 'Sinabung', 'Mount Slamet', 'Mount Lawu', 'Mount Batur',
       'Ijen', 'Mount Gede', 'Mount Salak', 'Mount Papandayan', 'Mount Galunggung',
       'Kelud', 'Mount Arjuno', 'Raung', 'Mount Sibayak', 'Tangkuban Perahu',
-      'Mount Prau', 'Sindoro', 'Sumbing', 'Merbabu', 'Mount Lokon',
+      'Sindoro', 'Sumbing', 'Merbabu', 'Mount Lokon',
       'Soputan', 'Kelimutu', 'Mount Egon', 'Lewotobi', 'Rokatenda',
       'Mount Awu', 'Karangetang', 'Dukono', 'Gamalama', 'Marapi',
       'Dempo', 'Talang', 'Singgalang', 'Mount Pangrango', 'Ciremai',
@@ -1192,7 +1202,11 @@ globalThis.WORMILLION_THEMES = {
       // add-theme.mjs
       'Ok', 'Helgafell', 'Þorbjorn', 'Roccamonfina', 'Pico de las Nieves',
       'Roque de los Muchachos', 'Pico de Malpaso', 'Morro de la Agujereada', 'Slemish', 'Dundee Law',
-      'Croghan Hill'
+      'Croghan Hill',
+      // add-theme.mjs
+      'Mount Pico', 'Mount Pulag', 'Piton des Neiges', 'Mount Waialeale', 'Mount Asama',
+      'Mount Blackburn', 'Mount Sanford', 'Mount Bandai', 'Mount Iwate', 'Mount Daisen',
+      'Mount Kitanglad', 'Mount Malindang'
     ]
   },
 
@@ -1219,7 +1233,9 @@ globalThis.WORMILLION_THEMES = {
       'Jost Van Dyke', 'Saint John', 'Marie-Galante', 'Les Saintes', 'Bequia',
       'Mustique', 'Canouan', 'Union Island', 'Carriacou', 'Holbox',
       'Isla Contoy', 'Turks and Caicos', 'Virgin Islands', 'Lesser Antilles', 'Greater Antilles',
-      'Leeward Islands', 'Windward Islands', 'Grenadines', 'Chacachacare', 'Little Tobago'
+      'Leeward Islands', 'Windward Islands', 'Grenadines', 'Chacachacare', 'Little Tobago',
+      // add-theme.mjs
+      'Aves Island'
     ],
     'the Mediterranean': [
       'Sicily', 'Sardinia', 'Corsica', 'Crete', 'Cyprus', 'Malta',
@@ -1257,7 +1273,9 @@ globalThis.WORMILLION_THEMES = {
       "S'Espalmador", "Sant'Elena", 'Giannutri', 'Barbana', "Sant'Erasmo",
       'Isola Sacra', 'Santo Stefano', 'Spargi', 'Illa Conillera',
       // add-theme.mjs
-      'Cavallo', 'San Giorgio Maggiore'
+      'Cavallo', 'San Giorgio Maggiore',
+      // add-theme.mjs
+      'Balearic Islands'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
@@ -1349,7 +1367,9 @@ globalThis.WORMILLION_THEMES = {
       'Sangihe', 'Talaud Islands', 'Natuna', 'Riau Islands', 'Bawean',
       'Rinca', 'Padar', 'Moyo', 'Saparua', 'Obi',
       'Bacan', 'Kai Islands', 'Aru Islands', 'Tanimbar Islands', 'Wetar',
-      'Enggano', 'Simeulue'
+      'Enggano', 'Simeulue',
+      // add-theme.mjs
+      'Yos Sudarso Island', 'Numfor', 'Mare'
     ]
   },
 
@@ -1487,7 +1507,11 @@ globalThis.WORMILLION_THEMES = {
       'Etang de Thau', 'Etang de Berre', 'Grevelingen', 'Etang de Vaccares', 'Etang de Leucate',
       "Etang de l'Or",
       // 2026-09-14 expansion
-      'Laguna di Orbetello'
+      'Laguna di Orbetello',
+      // add-theme.mjs
+      'Pangong Tso', 'Namtso', 'Lake Enriquillo', 'Laguna Colorada', 'Lake Manyara',
+      'Goose Lake', 'Laguna Verde', 'Mar Chiquita', 'Lake Azuei', 'Bakhtegan Lake',
+      'Tashk Lake'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [
@@ -1585,6 +1609,8 @@ globalThis.WORMILLION_THEMES = {
       'Aursunden', 'Fyresvatnet', 'Hop', 'Isojarvi', 'Juojarvi',
       'Lake Lestijarvi', 'Lohjanjarvi', 'Roine', 'Rosskreppfjorden', 'Selbusjoen',
       'Sperillen', 'Suldalsvatnet',
+      // add-theme.mjs
+      'Jokulsarlon'
       ]
   },
 

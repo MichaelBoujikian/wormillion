@@ -94,7 +94,13 @@
      * "Niger River is a river".
      */
     function elsewhere(rawInput, category, exactOnly) {
-      for (const options of [{ loose: false, fuzzy: false }, { fuzzy: !exactOnly, bare: false }]) {
+      // Three passes, each over every other cohort before the next begins:
+      // exact, then loose, then fuzzy - so a loose hit anywhere ("Cornwallis"
+      // is Cornwallis Island) beats a fuzzy one in an earlier cohort
+      // (Corvallis, a city, two edits away; the 2026-09-17 pre-merge audit).
+      const passes = [{ loose: false, fuzzy: false }, { fuzzy: false, bare: false }];
+      if (!exactOnly) passes.push({ fuzzy: true, bare: false });
+      for (const options of passes) {
         // An exact name held in two other cohorts names the famous one:
         // "Etna" on a lake round is Mount Etna (42,000 views), not the
         // Norwegian river Etna (30) that happens to come first in the

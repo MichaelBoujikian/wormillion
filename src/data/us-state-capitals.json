@@ -16,7 +16,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Montgomery, Alabama\", 60-day daily median (60 days ending 2026-09-17); Capital of Alabama, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Montgomery, Alabama\", 60-day daily median (60 days ending 2026-09-18); Capital of Alabama, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23926,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Montgomery, Alabama",
@@ -40,7 +40,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Juneau, Alaska\", 60-day daily median (60 days ending 2026-09-17); Capital of Alaska, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Juneau, Alaska\", 60-day daily median (60 days ending 2026-09-18); Capital of Alaska, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 45569,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Juneau, Alaska",
@@ -64,7 +64,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Phoenix, Arizona\", 60-day daily median (60 days ending 2026-09-17); Capital of Arizona, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Phoenix, Arizona\", 60-day daily median (60 days ending 2026-09-18); Capital of Arizona, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 65659,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Phoenix, Arizona",
@@ -88,7 +88,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Little Rock, Arkansas\", 60-day daily median (60 days ending 2026-09-17); Capital of Arkansas, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Little Rock, Arkansas\", 60-day daily median (60 days ending 2026-09-18); Capital of Arkansas, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 26209,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Little Rock, Arkansas",
@@ -112,7 +112,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Sacramento, California\", 60-day daily median (60 days ending 2026-09-17); Capital of California, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Sacramento, California\", 60-day daily median (60 days ending 2026-09-18); Capital of California, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 48582,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Sacramento, California",
@@ -136,7 +136,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Denver\", 60-day daily median (60 days ending 2026-09-17); Capital of Colorado, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Denver\", 60-day daily median (60 days ending 2026-09-18); Capital of Colorado, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 59510,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Denver",
@@ -160,7 +160,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Hartford, Connecticut\", 60-day daily median (60 days ending 2026-09-17); Capital of Connecticut, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Hartford, Connecticut\", 60-day daily median (60 days ending 2026-09-18); Capital of Connecticut, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 26178,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Hartford, Connecticut",
@@ -184,7 +184,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Dover, Delaware\", 60-day daily median (60 days ending 2026-09-17); Capital of Delaware, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Dover, Delaware\", 60-day daily median (60 days ending 2026-09-18); Capital of Delaware, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 10684,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Dover, Delaware",
@@ -208,7 +208,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Tallahassee, Florida\", 60-day daily median (60 days ending 2026-09-17); Capital of Florida, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Tallahassee, Florida\", 60-day daily median (60 days ending 2026-09-18); Capital of Florida, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23987,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Tallahassee, Florida",
@@ -232,7 +232,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Atlanta\", 60-day daily median (60 days ending 2026-09-17); Capital of Georgia, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Atlanta\", 60-day daily median (60 days ending 2026-09-18); Capital of Georgia, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 95095,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Atlanta",
@@ -247,7 +247,8 @@
   "size": 340000000,
   "sizeUnit": "population_of_country",
   "region": [
-   "North America"
+   "North America",
+   "Oceania"
   ],
   "country": "United States",
   "state": "Hawaii",
@@ -256,7 +257,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Honolulu\", 60-day daily median (60 days ending 2026-09-17); Capital of Hawaii, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Honolulu\", 60-day daily median (60 days ending 2026-09-18); Capital of Hawaii, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49221,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Honolulu",
@@ -280,7 +281,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Boise, Idaho\", 60-day daily median (60 days ending 2026-09-17); Capital of Idaho, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Boise, Idaho\", 60-day daily median (60 days ending 2026-09-18); Capital of Idaho, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 36772,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Boise, Idaho",
@@ -304,7 +305,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Springfield, Illinois\", 60-day daily median (60 days ending 2026-09-17); Capital of Illinois, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Springfield, Illinois\", 60-day daily median (60 days ending 2026-09-18); Capital of Illinois, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18142,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Springfield, Illinois",
@@ -330,7 +331,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Indianapolis\", 60-day daily median (60 days ending 2026-09-17); Capital of Indiana, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Indianapolis\", 60-day daily median (60 days ending 2026-09-18); Capital of Indiana, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 47517,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Indianapolis",
@@ -354,7 +355,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Des Moines, Iowa\", 60-day daily median (60 days ending 2026-09-17); Capital of Iowa, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Des Moines, Iowa\", 60-day daily median (60 days ending 2026-09-18); Capital of Iowa, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 34915,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Des Moines, Iowa"
@@ -376,7 +377,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Topeka, Kansas\", 60-day daily median (60 days ending 2026-09-17); Capital of Kansas, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Topeka, Kansas\", 60-day daily median (60 days ending 2026-09-18); Capital of Kansas, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 16925,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Topeka, Kansas",
@@ -400,7 +401,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Frankfort, Kentucky\", 60-day daily median (60 days ending 2026-09-17); Capital of Kentucky, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Frankfort, Kentucky\", 60-day daily median (60 days ending 2026-09-18); Capital of Kentucky, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 10532,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Frankfort, Kentucky",
@@ -424,7 +425,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Baton Rouge, Louisiana\", 60-day daily median (60 days ending 2026-09-17); Capital of Louisiana, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Baton Rouge, Louisiana\", 60-day daily median (60 days ending 2026-09-18); Capital of Louisiana, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 29679,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Baton Rouge, Louisiana",
@@ -448,7 +449,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Augusta, Maine\", 60-day daily median (60 days ending 2026-09-17); Capital of Maine, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Augusta, Maine\", 60-day daily median (60 days ending 2026-09-18); Capital of Maine, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 12937,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Augusta, Maine",
@@ -472,7 +473,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Annapolis, Maryland\", 60-day daily median (60 days ending 2026-09-17); Capital of Maryland, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Annapolis, Maryland\", 60-day daily median (60 days ending 2026-09-18); Capital of Maryland, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18264,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Annapolis, Maryland",
@@ -496,7 +497,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Boston\", 60-day daily median (60 days ending 2026-09-17); Capital of Massachusetts, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Boston\", 60-day daily median (60 days ending 2026-09-18); Capital of Massachusetts, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 112689,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Boston",
@@ -520,7 +521,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Lansing, Michigan\", 60-day daily median (60 days ending 2026-09-17); Capital of Michigan, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Lansing, Michigan\", 60-day daily median (60 days ending 2026-09-18); Capital of Michigan, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 15829,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Lansing, Michigan",
@@ -546,7 +547,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Saint Paul, Minnesota\", 60-day daily median (60 days ending 2026-09-17); Capital of Minnesota, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Saint Paul, Minnesota\", 60-day daily median (60 days ending 2026-09-18); Capital of Minnesota, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23134,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Saint Paul, Minnesota",
@@ -570,7 +571,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Jackson, Mississippi\", 60-day daily median (60 days ending 2026-09-17); Capital of Mississippi, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Jackson, Mississippi\", 60-day daily median (60 days ending 2026-09-18); Capital of Mississippi, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 26665,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Jackson, Mississippi",
@@ -594,7 +595,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Jefferson City, Missouri\", 60-day daily median (60 days ending 2026-09-17); Capital of Missouri, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Jefferson City, Missouri\", 60-day daily median (60 days ending 2026-09-18); Capital of Missouri, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 11445,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Jefferson City, Missouri",
@@ -618,7 +619,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Helena, Montana\", 60-day daily median (60 days ending 2026-09-17); Capital of Montana, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Helena, Montana\", 60-day daily median (60 days ending 2026-09-18); Capital of Montana, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 20699,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Helena, Montana",
@@ -642,7 +643,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Lincoln, Nebraska\", 60-day daily median (60 days ending 2026-09-17); Capital of Nebraska, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Lincoln, Nebraska\", 60-day daily median (60 days ending 2026-09-18); Capital of Nebraska, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 17990,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Lincoln, Nebraska",
@@ -666,7 +667,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Carson City, Nevada\", 60-day daily median (60 days ending 2026-09-17); Capital of Nevada, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Carson City, Nevada\", 60-day daily median (60 days ending 2026-09-18); Capital of Nevada, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18873,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Carson City, Nevada",
@@ -690,7 +691,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Concord, New Hampshire\", 60-day daily median (60 days ending 2026-09-17); Capital of New Hampshire, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Concord, New Hampshire\", 60-day daily median (60 days ending 2026-09-18); Capital of New Hampshire, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 10045,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Concord, New Hampshire",
@@ -714,7 +715,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Trenton, New Jersey\", 60-day daily median (60 days ending 2026-09-17); Capital of New Jersey, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Trenton, New Jersey\", 60-day daily median (60 days ending 2026-09-18); Capital of New Jersey, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 17290,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Trenton, New Jersey",
@@ -738,7 +739,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Santa Fe, New Mexico\", 60-day daily median (60 days ending 2026-09-17); Capital of New Mexico, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Santa Fe, New Mexico\", 60-day daily median (60 days ending 2026-09-18); Capital of New Mexico, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 39876,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Santa Fe, New Mexico",
@@ -762,7 +763,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Albany, New York\", 60-day daily median (60 days ending 2026-09-17); Capital of New York, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Albany, New York\", 60-day daily median (60 days ending 2026-09-18); Capital of New York, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 36284,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Albany, New York",
@@ -786,7 +787,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Raleigh, North Carolina\", 60-day daily median (60 days ending 2026-09-17); Capital of North Carolina, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Raleigh, North Carolina\", 60-day daily median (60 days ending 2026-09-18); Capital of North Carolina, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 38202,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Raleigh, North Carolina",
@@ -810,7 +811,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Bismarck, North Dakota\", 60-day daily median (60 days ending 2026-09-17); Capital of North Dakota, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Bismarck, North Dakota\", 60-day daily median (60 days ending 2026-09-18); Capital of North Dakota, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 16346,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Bismarck, North Dakota",
@@ -834,7 +835,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Columbus, Ohio\", 60-day daily median (60 days ending 2026-09-17); Capital of Ohio, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Columbus, Ohio\", 60-day daily median (60 days ending 2026-09-18); Capital of Ohio, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 49952,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Columbus, Ohio",
@@ -860,7 +861,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Oklahoma City\", 60-day daily median (60 days ending 2026-09-17); Capital of Oklahoma, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Oklahoma City\", 60-day daily median (60 days ending 2026-09-18); Capital of Oklahoma, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 35554,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Oklahoma City",
@@ -884,7 +885,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Salem, Oregon\", 60-day daily median (60 days ending 2026-09-17); Capital of Oregon, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Salem, Oregon\", 60-day daily median (60 days ending 2026-09-18); Capital of Oregon, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 17625,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Salem, Oregon",
@@ -908,7 +909,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Harrisburg, Pennsylvania\", 60-day daily median (60 days ending 2026-09-17); Capital of Pennsylvania, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Harrisburg, Pennsylvania\", 60-day daily median (60 days ending 2026-09-18); Capital of Pennsylvania, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 21064,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Harrisburg, Pennsylvania",
@@ -932,7 +933,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Providence, Rhode Island\", 60-day daily median (60 days ending 2026-09-17); Capital of Rhode Island, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Providence, Rhode Island\", 60-day daily median (60 days ending 2026-09-18); Capital of Rhode Island, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 36893,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Providence, Rhode Island",
@@ -956,7 +957,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Columbia, South Carolina\", 60-day daily median (60 days ending 2026-09-17); Capital of South Carolina, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Columbia, South Carolina\", 60-day daily median (60 days ending 2026-09-18); Capital of South Carolina, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 23895,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Columbia, South Carolina",
@@ -980,7 +981,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Pierre, South Dakota\", 60-day daily median (60 days ending 2026-09-17); Capital of South Dakota, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Pierre, South Dakota\", 60-day daily median (60 days ending 2026-09-18); Capital of South Dakota, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 10684,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Pierre, South Dakota",
@@ -1004,7 +1005,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Nashville, Tennessee\", 60-day daily median (60 days ending 2026-09-17); Capital of Tennessee, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Nashville, Tennessee\", 60-day daily median (60 days ending 2026-09-18); Capital of Tennessee, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 72965,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Nashville, Tennessee",
@@ -1028,7 +1029,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Austin, Texas\", 60-day daily median (60 days ending 2026-09-17); Capital of Texas, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Austin, Texas\", 60-day daily median (60 days ending 2026-09-18); Capital of Texas, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 67455,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Austin, Texas",
@@ -1055,7 +1056,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Salt Lake City\", 60-day daily median (60 days ending 2026-09-17); Capital of Utah, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Salt Lake City\", 60-day daily median (60 days ending 2026-09-18); Capital of Utah, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 56070,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Salt Lake City",
@@ -1079,7 +1080,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Montpelier, Vermont\", 60-day daily median (60 days ending 2026-09-17); Capital of Vermont, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Montpelier, Vermont\", 60-day daily median (60 days ending 2026-09-18); Capital of Vermont, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 14398,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Montpelier, Vermont",
@@ -1103,7 +1104,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Richmond, Virginia\", 60-day daily median (60 days ending 2026-09-17); Capital of Virginia, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Richmond, Virginia\", 60-day daily median (60 days ending 2026-09-18); Capital of Virginia, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 39055,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Richmond, Virginia",
@@ -1127,7 +1128,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Olympia, Washington\", 60-day daily median (60 days ending 2026-09-17); Capital of Washington, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Olympia, Washington\", 60-day daily median (60 days ending 2026-09-18); Capital of Washington, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 18416,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Olympia, Washington",
@@ -1151,7 +1152,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Charleston, West Virginia\", 60-day daily median (60 days ending 2026-09-17); Capital of West Virginia, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Charleston, West Virginia\", 60-day daily median (60 days ending 2026-09-18); Capital of West Virginia, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 22221,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Charleston, West Virginia",
@@ -1175,7 +1176,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Madison, Wisconsin\", 60-day daily median (60 days ending 2026-09-17); Capital of Wisconsin, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Madison, Wisconsin\", 60-day daily median (60 days ending 2026-09-18); Capital of Wisconsin, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 33332,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Madison, Wisconsin",
@@ -1199,7 +1200,7 @@
    "white",
    "blue"
   ],
-  "source": "English Wikipedia pageviews for \"Cheyenne, Wyoming\", 60-day daily median (60 days ending 2026-09-17); Capital of Wyoming, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
+  "source": "English Wikipedia pageviews for \"Cheyenne, Wyoming\", 60-day daily median (60 days ending 2026-09-18); Capital of Wyoming, United States; US population per UN World Population Prospects / World Bank 2023-24 estimate (rounded)",
   "magnitude": 30805,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Cheyenne, Wyoming",

@@ -128,9 +128,13 @@
   // starts with S, "Cape Verde" starts with C - "loch" is not the word "lake",
   // whatever it means, and no "Cape" in this bank is a generic one.
   // "Rio" is generic Spanish for river, but it is the name where it is the
-  // name: the Rio Grande starts with R, like Loch Ness starts with L.
+  // name: the Rio Grande starts with R, like Loch Ness starts with L - and so
+  // do Laguna Colorada, Lac Saint-Jean, Lago di Braies, the Etang de Thau, the
+  // Fiume Grande: a foreign generic word is the name too (the 2026-09-17
+  // pre-merge audit found the matcher's new filler words had leaked in here).
   const LETTER_FILLER = new Set(
-    [...matching.FILLER].filter((word) => !['loch', 'lough', 'llyn', 'saint', 'st', 'cape', 'rio'].includes(word))
+    [...matching.FILLER].filter((word) => !['loch', 'lough', 'llyn', 'saint', 'st', 'cape', 'rio',
+      'lago', 'lac', 'lagoa', 'laguna', 'etang', 'fiume', 'fleuve', 'fluss', 'riviere', 'rivier'].includes(word))
   );
   // A country's or capital's name is its official name, generic words and
   // all: the Solomon Islands have a D in them, Port of Spain has an F, Mexico

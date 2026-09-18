@@ -459,6 +459,42 @@ test('seas keep their whole name for letter rules: Black Sea ends in A', () => {
   assert.strictEqual(runWith({ category: 'lake', letter: { kind: 'starts', letter: 'l' } }).submit('Lake Superior').status, 'wrong-scope');
 });
 
+test('the cross-category nudge prefers a loose hit anywhere to a fuzzy hit in an earlier cohort', () => {
+  // 2026-09-17: "Cornwallis" on a country round was nudged to Corvallis (a
+  // city two edits away, third in the cohort order) instead of Cornwallis
+  // Island (its own name minus "Island", eighth).
+  const shipped = loadShippedBank();
+  const run = runner.createRun(shipped, { rounds: 1 });
+  run.state.slots[0] = { category: 'country' };
+  const result = run.submit('Cornwallis');
+  assert.strictEqual(result.status, 'unrecognized');
+  assert.strictEqual(result.elsewhere.category, 'island');
+  assert.strictEqual(result.elsewhere.entry.name, 'Cornwallis Island');
+  // a fuzzy nudge still happens when nothing lands loosely
+  const lake = runner.createRun(shipped, { rounds: 1 });
+  lake.state.slots[0] = { category: 'lake' };
+  assert.strictEqual(lake.submit('Frnace').elsewhere.entry.name, 'France');
+});
+
+test('a foreign generic word is the name for letter rules: Laguna Colorada starts with L, the Etang de Thau with E', () => {
+  // 2026-09-17: the matcher's lago / lac / laguna / etang / fiume / fleuve words
+  // had leaked into LETTER_FILLER, so "Name a lake that starts with L" refused
+  // Laguna Colorada, Lac Saint-Jean and Lago di Braies while taking Loch Ness.
+  const colorada = { category: 'lake', name: 'Laguna Colorada', aliases: [] };
+  colorada.variants = promptBank.variantsOf(colorada);
+  assert.ok(promptBank.satisfiesLetter(colorada, { kind: 'starts', letter: 'l' }));
+  const thau = { category: 'lake', name: 'Etang de Thau', aliases: [] };
+  thau.variants = promptBank.variantsOf(thau);
+  assert.ok(promptBank.satisfiesLetter(thau, { kind: 'starts', letter: 'e' }));
+  const grande = { category: 'river', name: 'Fiume Grande', aliases: [] };
+  grande.variants = promptBank.variantsOf(grande);
+  assert.ok(promptBank.satisfiesLetter(grande, { kind: 'starts', letter: 'f' }));
+  // the English word is still generic
+  const superior = { category: 'lake', name: 'Lake Superior', aliases: [] };
+  superior.variants = promptBank.variantsOf(superior);
+  assert.ok(!promptBank.satisfiesLetter(superior, { kind: 'starts', letter: 'l' }));
+});
+
 test('a size range counts for either end: the Amur is 2,824 km or 4,444 km', () => {
   const amur = { size: 2824, sizeRange: [2824, 4444] };
   assert.ok(promptBank.satisfiesSize(amur, { op: 'over', value: 3000 }));

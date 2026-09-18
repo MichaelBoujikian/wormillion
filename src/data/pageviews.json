@@ -1,8 +1,8 @@
 {
- "window": "60 days ending 2026-09-17",
+ "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-17T16:55:23.247Z",
+ "fetched": "2026-09-18T01:11:23.672Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -33359,13 +33359,6 @@
    "lat": 59.5,
    "lon": -133.75
   },
-  "lake-harrison-lake": {
-   "title": "Lake Harrison",
-   "monthlyViews": 91,
-   "days": 59,
-   "lat": 52.5,
-   "lon": -1.5
-  },
   "lake-shuswap-lake": {
    "title": "Shuswap Lake",
    "monthlyViews": 2709,
@@ -33779,13 +33772,6 @@
    "lat": 0.3,
    "lon": -78.35
   },
-  "lake-lake-yahuarcocha": {
-   "title": "Lake Yaguarcocha (Cajamarca)",
-   "monthlyViews": 22,
-   "days": 52,
-   "lat": -7.57916667,
-   "lon": -77.97472222
-  },
   "lake-laguna-de-la-cocha": {
    "title": "Laguna de la Cocha",
    "monthlyViews": 91,
@@ -33864,11 +33850,11 @@
    "lon": 36.26666667
   },
   "lake-lake-rukwa": {
-   "title": "African Great Lakes",
-   "monthlyViews": 12480,
+   "title": "Lake Rukwa",
+   "monthlyViews": 609,
    "days": 60,
    "lat": -8,
-   "lon": 35
+   "lon": 32.41666667
   },
   "lake-lake-kyoga": {
    "title": "Lake Kyoga",
@@ -33997,11 +33983,11 @@
    "lon": 2.45
   },
   "lake-lake-togo": {
-   "title": "Lake Tōgō",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 35.4764,
-   "lon": 133.8939
+   "title": "Lake Togo",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 6.25,
+   "lon": 1.42
   },
   "lake-lake-nyos": {
    "title": "Lake Nyos",
@@ -39869,13 +39855,6 @@
    "lat": 56.44388889,
    "lon": -5.22638889
   },
-  "river-naver": {
-   "title": "Strathnaver",
-   "monthlyViews": 487,
-   "days": 60,
-   "lat": 58.52888889,
-   "lon": -4.23944444
-  },
   "river-helmsdale": {
    "title": "River Helmsdale",
    "monthlyViews": 61,
@@ -43321,11 +43300,11 @@
    "lon": 27.74138889
   },
   "river-bistrita": {
-   "title": "Bistrița (Olt)",
-   "monthlyViews": 17,
-   "days": 56,
-   "lat": 44.9656,
-   "lon": 24.2721
+   "title": "Bistrița (Siret)",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 46.49111111,
+   "lon": 26.98694444
   },
   "river-trotus": {
    "title": "Trotuș",
@@ -43496,11 +43475,11 @@
    "lon": 21.9201
   },
   "river-crna": {
-   "title": "Crna River (Ilomska)",
-   "monthlyViews": 12,
-   "days": 44,
-   "lat": 44.39015,
-   "lon": 17.5522
+   "title": "Crna River (Vardar)",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 41.555,
+   "lon": 21.98027778
   },
   "river-treska": {
    "title": "Treska",
@@ -44217,11 +44196,11 @@
    "lon": 48.4535
   },
   "river-kura": {
-   "title": "Kura (Russia)",
-   "monthlyViews": 61,
-   "days": 58,
-   "lat": 44.035,
-   "lon": 44.8331
+   "title": "Kura (South Caucasus river)",
+   "monthlyViews": 1918,
+   "days": 59,
+   "lat": 39.33,
+   "lon": 49.4
   },
   "river-murat": {
    "title": "Murat River",
@@ -44511,11 +44490,11 @@
    "lon": 48.48361111
   },
   "river-kuma": {
-   "title": "Kuma River (Japan)",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 32.5,
-   "lon": 130.5666667
+   "title": "Kuma (Russia)",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 44.81,
+   "lon": 46.90055556
   },
   "river-podkumok": {
    "title": "Podkumok",
@@ -44692,13 +44671,6 @@
    "lat": 58.10777778,
    "lon": 56.63777778
   },
-  "river-vishera": {
-   "title": "Vishera (Novgorod Oblast)",
-   "monthlyViews": 30,
-   "days": 54,
-   "lat": 58.56222222,
-   "lon": 31.40388889
-  },
   "river-pechora": {
    "title": "Pechora (river)",
    "monthlyViews": 670,
@@ -44707,11 +44679,11 @@
    "lon": 54.41666667
   },
   "river-usa": {
-   "title": "Usa (Germany)",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 50.3199,
-   "lon": 8.7846
+   "title": "Usa (Pechora)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 65.9653,
+   "lon": 56.9336
   },
   "river-izhma": {
    "title": "Izhma (river)",
@@ -45106,11 +45078,11 @@
    "lon": 26.5829
   },
   "river-sluch": {
-   "title": "Sluch (Belarus)",
-   "monthlyViews": 30,
-   "days": 60,
-   "lat": 52.1375,
-   "lon": 27.525
+   "title": "Sluch (Ukraine)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 51.6376,
+   "lon": 26.6457
   },
   "river-uzh": {
    "title": "Uzh (Pripyat)",
@@ -47548,13 +47520,6 @@
    "lat": 48.76666667,
    "lon": -123.63333333
   },
-  "river-campbell": {
-   "title": "Campbells River",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": -33.7,
-   "lon": 149.61666667
-  },
   "river-peace": {
    "title": "Peace River",
    "monthlyViews": 1613,
@@ -47955,11 +47920,11 @@
    "lon": -101.31972222
   },
   "river-seal": {
-   "title": "Little Seal River (Ontario)",
-   "monthlyViews": 9,
-   "days": 41,
-   "lat": 50.96888889,
-   "lon": -79.71583333
+   "title": "Seal River (Manitoba)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 59.07194444,
+   "lon": -94.79888889
   },
   "river-saskatchewan": {
    "title": "Saskatchewan River",
@@ -48025,18 +47990,18 @@
    "lon": null
   },
   "river-stewart": {
-   "title": "Stewart River (Minnesota)",
-   "monthlyViews": 17,
-   "days": 54,
-   "lat": 47.0475,
-   "lon": -91.63055556
+   "title": "Stewart River (Yukon)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 63.29166667,
+   "lon": -139.41166667
   },
   "river-teslin": {
-   "title": "Swift River (Teslin Lake)",
-   "monthlyViews": 22,
-   "days": 56,
-   "lat": 59.73333333,
-   "lon": -132.18333333
+   "title": "Teslin River",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 61.57694444,
+   "lon": -134.89861111
   },
   "river-peel": {
    "title": "Peel River (Canada)",
@@ -48634,11 +48599,11 @@
    "lon": -62.71916667
   },
   "river-caura": {
-   "title": "Caura River (Trinidad and Tobago)",
-   "monthlyViews": 91,
-   "days": 60,
-   "lat": 10.7,
-   "lon": -61.35
+   "title": "Caura River (Venezuela)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 7.628948,
+   "lon": -64.89791
   },
   "river-ventuari": {
    "title": "Ventuari River",
@@ -49236,11 +49201,11 @@
    "lon": -51.45611111
   },
   "river-canoas": {
-   "title": "Canoas River (Mampituba River tributary)",
-   "monthlyViews": 9,
-   "days": 56,
-   "lat": -29.28333333,
-   "lon": -49.8
+   "title": "Canoas River (Santa Catarina)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -27.60583333,
+   "lon": -51.45555556
   },
   "river-jacui": {
    "title": "Jacuí River",
@@ -49964,11 +49929,11 @@
    "lon": -2.57472222
   },
   "river-pra": {
-   "title": "Pra (Russia)",
-   "monthlyViews": 30,
-   "days": 60,
-   "lat": 54.74777778,
-   "lon": 41.00944444
+   "title": "Pra River (Ghana)",
+   "monthlyViews": 335,
+   "days": 59,
+   "lat": 5.01913,
+   "lon": -1.62598
   },
   "river-ankobra": {
    "title": "Ankobra River",
@@ -51203,11 +51168,11 @@
    "lon": 84.4568
   },
   "river-chulym": {
-   "title": "Chulym (Malye Chany basin)",
-   "monthlyViews": 23,
-   "days": 53,
-   "lat": 54.6061,
-   "lon": 78.0975
+   "title": "Chulym (Ob)",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 57.73055556,
+   "lon": 83.825
   },
   "river-ket": {
    "title": "Ket (river)",
@@ -51777,11 +51742,11 @@
    "lon": 59
   },
   "river-gorgan": {
-   "title": "Rât (Mureș)",
-   "monthlyViews": 15,
-   "days": 44,
-   "lat": 46.301,
-   "lon": 23.757
+   "title": "Gorganrud River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 37.49288111,
+   "lon": 55.51156611
   },
   "river-harirud": {
    "title": "Hari (Afghanistan)",
@@ -56829,13 +56794,6 @@
    "days": 60,
    "lat": 45.72527778,
    "lon": -117.78555556
-  },
-  "river-course-of-the-rogue": {
-   "title": "Course of the Rogue River (Oregon)",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 42.4225,
-   "lon": -124.42916667
   },
   "river-battle-creek": {
    "title": "Battle Creek River",
@@ -66435,11 +66393,11 @@
    "lon": -155.28676243
   },
   "mountain-diamond-head": {
-   "title": "Diamond Head (British Columbia)",
-   "monthlyViews": 30,
-   "days": 60,
-   "lat": 49.82555556,
-   "lon": -123.00722222
+   "title": "Diamond Head, Hawaii",
+   "monthlyViews": 6514,
+   "days": 59,
+   "lat": 21.26194444,
+   "lon": -157.80555556
   },
   "mountain-koko-head": {
    "title": "Koko Head",
@@ -67359,11 +67317,11 @@
    "lon": 148.982309
   },
   "mountain-mount-keira": {
-   "title": "Mount Nebo (New South Wales)",
-   "monthlyViews": 30,
-   "days": 60,
-   "lat": -34.425,
-   "lon": 150.83333333
+   "title": "Mount Keira",
+   "monthlyViews": 396,
+   "days": 59,
+   "lat": -34.4,
+   "lon": 150.85
   },
   "mountain-mount-conner": {
    "title": "Mount Conner",
@@ -70480,20 +70438,6 @@
    "lat": 0.39805556,
    "lon": 29.89222222
   },
-  "mountain-mount-emin": {
-   "title": "Kunlun Mountains",
-   "monthlyViews": 8067,
-   "days": 60,
-   "lat": 36,
-   "lon": 84
-  },
-  "mountain-mount-gessi": {
-   "title": "Rwenzori Mountains",
-   "monthlyViews": 4596,
-   "days": 60,
-   "lat": 0.38583333,
-   "lon": 29.87166667
-  },
   "mountain-ouanoukrim": {
    "title": "Ouanoukrim",
    "monthlyViews": 122,
@@ -71061,13 +71005,6 @@
    "lat": 28.38138889,
    "lon": 85.68361111
   },
-  "mountain-chulu-west": {
-   "title": "Chulu East",
-   "monthlyViews": 91,
-   "days": 60,
-   "lat": 28.73611111,
-   "lon": 84.03472222
-  },
   "mountain-pisang-peak": {
    "title": "Pisang Peak",
    "monthlyViews": 183,
@@ -71454,11 +71391,11 @@
    "lon": 103.3325
   },
   "mountain-mount-wutai": {
-   "title": "Mount Xiaowutai",
-   "monthlyViews": 122,
-   "days": 60,
-   "lat": 39.94138889,
-   "lon": 115.04305556
+   "title": "Mount Wutai",
+   "monthlyViews": 1979,
+   "days": 59,
+   "lat": 39.07916667,
+   "lon": 113.56472222
   },
   "mountain-mount-song": {
    "title": "Mount Song",
@@ -71538,11 +71475,11 @@
    "lon": 103.5577829
   },
   "mountain-mount-putuo": {
-   "title": "Sacred Mountains of China",
-   "monthlyViews": 5205,
+   "title": "Mount Putuo",
+   "monthlyViews": 1522,
    "days": 60,
-   "lat": null,
-   "lon": null
+   "lat": 30.00972222,
+   "lon": 122.385
   },
   "mountain-mount-jiuhua": {
    "title": "Mount Jiuhua",
@@ -71895,11 +71832,11 @@
    "lon": 140.81138889
   },
   "mountain-mount-asahi": {
-   "title": "Mount Asahi (Yamagata)",
-   "monthlyViews": 91,
-   "days": 58,
-   "lat": 38.26055556,
-   "lon": 139.92222222
+   "title": "Asahi-dake",
+   "monthlyViews": 1461,
+   "days": 59,
+   "lat": 43.65,
+   "lon": 142.85
   },
   "mountain-mount-rishiri": {
    "title": "Mount Rishiri",
@@ -71916,11 +71853,11 @@
    "lon": 139.24361111
   },
   "mountain-mount-koya": {
-   "title": "Mount Hiuchi",
-   "monthlyViews": 91,
+   "title": "Mount Kōya",
+   "monthlyViews": 3166,
    "days": 59,
-   "lat": 36.92277778,
-   "lon": 138.06805556
+   "lat": 34.2125,
+   "lon": 135.58638889
   },
   "mountain-mount-hiei": {
    "title": "Mount Hiei",
@@ -72454,13 +72391,6 @@
    "lat": -6.77,
    "lon": 107.6
   },
-  "mountain-mount-prau": {
-   "title": "Mount Andong",
-   "monthlyViews": 91,
-   "days": 60,
-   "lat": -7.52852,
-   "lon": 110.18365
-  },
   "mountain-sindoro": {
    "title": "Mount Sindoro",
    "monthlyViews": 213,
@@ -72971,13 +72901,6 @@
    "days": 60,
    "lat": 52.705,
    "lon": 158.28166667
-  },
-  "mountain-mount-pobeda": {
-   "title": "Roger Payne (mountaineer)",
-   "monthlyViews": 122,
-   "days": 60,
-   "lat": null,
-   "lon": null
   },
   "mountain-ichinsky": {
    "title": "Ichinsky",
@@ -88183,13 +88106,6 @@
    "lat": -38.71666667,
    "lon": 77.51666667
   },
-  "island-marion-island": {
-   "title": "Prince Edward Islands",
-   "monthlyViews": 7093,
-   "days": 60,
-   "lat": -46.88,
-   "lon": 37.75
-  },
   "island-macquarie-island": {
    "title": "Macquarie Island",
    "monthlyViews": 12359,
@@ -88394,11 +88310,11 @@
    "lon": 121.97
   },
   "island-catanduanes": {
-   "title": "Panay (Catanduanes)",
-   "monthlyViews": 61,
-   "days": 60,
-   "lat": 13.96277778,
-   "lon": 124.33277778
+   "title": "Catanduanes",
+   "monthlyViews": 2131,
+   "days": 59,
+   "lat": 13.8,
+   "lon": 124.25
   },
   "island-coron-island": {
    "title": "Coron Island",
@@ -88520,11 +88436,11 @@
    "lon": 106.99972222
   },
   "island-con-dao": {
-   "title": "Côn Đảo Prison",
-   "monthlyViews": 1705,
-   "days": 60,
-   "lat": null,
-   "lon": null
+   "title": "Côn Sơn Island",
+   "monthlyViews": 1370,
+   "days": 59,
+   "lat": 8.69305556,
+   "lon": 106.60944444
   },
   "island-ly-son": {
    "title": "Lý Sơn",
@@ -90025,11 +89941,11 @@
    "lon": -66.93333333
   },
   "island-grand-manan": {
-   "title": "Long Island (Grand Manan)",
-   "monthlyViews": 21,
-   "days": 54,
-   "lat": 44.73,
-   "lon": -66.72166667
+   "title": "Grand Manan",
+   "monthlyViews": 3470,
+   "days": 59,
+   "lat": 44.69,
+   "lon": -66.82
   },
   "island-ile-d-orleans": {
    "title": "Île d'Orléans",
@@ -90123,11 +90039,11 @@
    "lon": -68.307138
   },
   "island-monhegan": {
-   "title": "Monhegan Island Light",
-   "monthlyViews": 183,
-   "days": 60,
-   "lat": 43.76483,
-   "lon": -69.31576
+   "title": "Monhegan, Maine",
+   "monthlyViews": 3561,
+   "days": 59,
+   "lat": 43.76638889,
+   "lon": -69.30138889
   },
   "island-chappaquiddick": {
    "title": "Chappaquiddick Island",
@@ -90711,11 +90627,11 @@
    "lon": -88.0425
   },
   "island-corn-islands": {
-   "title": "Corn Island (Kentucky)",
-   "monthlyViews": 457,
-   "days": 60,
-   "lat": 38.26222222,
-   "lon": -85.75916667
+   "title": "Corn Islands",
+   "monthlyViews": 1948,
+   "days": 59,
+   "lat": 12.16666667,
+   "lon": -83.03333333
   },
   "island-providencia": {
    "title": "Providencia Island, Colombia",
@@ -92230,11 +92146,11 @@
    "lon": -176.2
   },
   "island-futuna": {
-   "title": "Hoorn Islands",
-   "monthlyViews": 244,
-   "days": 60,
-   "lat": -14.2825,
-   "lon": -178.14972222
+   "title": "Futuna (Wallis and Futuna)",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": -14.275,
+   "lon": -178.14
   },
   "island-henderson-island": {
    "title": "Henderson Island (Pitcairn Islands)",
@@ -97535,13 +97451,6 @@
    "lat": 60.21666667,
    "lon": 25.86666667
   },
-  "island-stadsholmen": {
-   "title": "Stadsholmen",
-   "monthlyViews": 365,
-   "days": 60,
-   "lat": 59.32472222,
-   "lon": 18.07111111
-  },
   "island-utsira": {
    "title": "Utsira (island)",
    "monthlyViews": 365,
@@ -101827,11 +101736,11 @@
    "lon": 32.61666667
   },
   "sea_ocean-golden-horn": {
-   "title": "Zolotoy Rog",
-   "monthlyViews": 487,
-   "days": 60,
-   "lat": 43.10833333,
-   "lon": 131.89861111
+   "title": "Golden Horn",
+   "monthlyViews": 8249,
+   "days": 59,
+   "lat": 41.02916667,
+   "lon": 28.96111111
   },
   "sea_ocean-gulf-of-izmit": {
    "title": "Gulf of İzmit",
@@ -102023,11 +101932,11 @@
    "lon": 125.4167
   },
   "sea_ocean-gulf-of-papua": {
-   "title": "Huon Gulf",
-   "monthlyViews": 122,
-   "days": 60,
-   "lat": -7,
-   "lon": 147.45
+   "title": "Gulf of Papua",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": -9,
+   "lon": 145
   },
   "sea_ocean-cenderawasih-bay": {
    "title": "Cenderawasih Bay",

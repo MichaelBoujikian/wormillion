@@ -127,7 +127,9 @@ const stateCapitals = lines(US_STATE_CAPITALS).map((line) => {
     aliases: list(aliases),
     size: US_POPULATION,
     sizeUnit: 'population_of_country',
-    region: ['North America'],
+    // Hawaii is in Oceania as much as in North America: "Name a capital city
+    // in Oceania" wants Honolulu (the 2026-09-17 pre-merge audit)
+    region: state.trim() === 'Hawaii' ? ['North America', 'Oceania'] : ['North America'],
     country: 'United States',
     state: state.trim(),
     flag: usFlag,

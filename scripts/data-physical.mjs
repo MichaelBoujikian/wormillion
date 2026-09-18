@@ -535,7 +535,6 @@ Williston Lake|1761
 Lake Laberge|218|Lake Lebarge
 Kluane Lake|409
 Atlin Lake|775
-Harrison Lake|219
 Shuswap Lake|310
 Lake St. Clair|1114
 Lake Chapala|1100
@@ -595,7 +594,6 @@ Lake Budi|55
 Lake Rapel|8
 Laguna Quilotoa|3|Quilotoa
 Lake Cuicocha|3.2
-Lake Yahuarcocha|2.5
 Laguna de la Cocha|39|La Cocha Lake
 Lake Calima|17
 Huacachina|0.01
@@ -1468,7 +1466,6 @@ Lochy|11|River Lochy
 Nevis|15|River Nevis
 Coe|10|River Coe
 Awe|10|River Awe
-Naver|40|River Naver
 Helmsdale|34|River Helmsdale
 Thurso|48|River Thurso
 Boyne|112|River Boyne
@@ -2157,7 +2154,6 @@ Belaya|1430
 Ufa|918
 Chusovaya|592
 Sylva|493
-Vishera|415
 Pechora|1809
 Usa|565
 Izhma|531
@@ -2565,7 +2561,6 @@ Bella Coola|100|Bella Coola River
 Squamish|85|Squamish River
 Capilano|40|Capilano River
 Cowichan|47|Cowichan River
-Campbell|19|Campbell River
 Peace|1923|Peace River
 Athabasca|1231|Athabasca River
 Slave|434|Slave River
@@ -3891,7 +3886,6 @@ Tensas|285
 Van Duzen|96
 Vermillion|96
 Wallowa|89
-Course of the Rogue|346
 Battle Creek|88
 Belly|220
 Big Sandy Creek|340
@@ -5844,8 +5838,6 @@ Jbel Bou Naceur|3340
 Lalla Khedidja|2308
 Djebel Chelia|2328|Chelia
 Mount Speke|4890
-Mount Emin|4791
-Mount Gessi|4715
 Ouanoukrim|4089
 Jebel ech Chambi|1544|Djebel Chambi
 Bikku Bitti|2267
@@ -5927,7 +5919,6 @@ Kirat Chuli|7365|Tent Peak
 Chomo Lonzo|7804
 Dorje Lakpa|6966
 Langtang Ri|7205
-Chulu West|6419|Chulu East,Chulu
 Pisang Peak|6091
 Tharpu Chuli|5663
 Hiunchuli|6441
@@ -6126,7 +6117,6 @@ Raung|3344|Mount Raung
 Mount Leuser|3119|Leuser
 Mount Sibayak|2212|Sibayak
 Tangkuban Perahu|2084
-Mount Prau|2565|Prau
 Sindoro|3153|Mount Sindoro
 Sumbing|3371|Mount Sumbing
 Merbabu|3145|Mount Merbabu
@@ -6200,7 +6190,6 @@ Karymsky|1536
 Mutnovsky|2322
 Gorely|1829
 Vilyuchik|2173|Vilyuchinsky
-Mount Pobeda|3003
 Ichinsky|3607
 Bezymianny|2882
 Zhupanovsky|2958
@@ -8324,7 +8313,7 @@ Hisingen|199
 Ven|7.5
 Sodermalm|4|Sodermalm Island
 Djurgarden|2.7
-Gamla Stan|0.36|Old Town Stockholm
+Gamla Stan|0.36|Old Town Stockholm,Stadsholmen
 Lidingo|30.5
 Visingso|24
 Marstrand|0.94
@@ -8382,7 +8371,6 @@ Kerguelen Islands|7215|Kerguelen
 Crozet Islands|352|Crozet
 Amsterdam Island|55
 Ile Saint-Paul|8|Saint Paul Island
-Marion Island|290
 Macquarie Island|128
 Campbell Island|113
 Auckland Islands|626
@@ -9718,7 +9706,6 @@ Lauttasaari|3.75
 Moskenesoya|186
 Mando|8.4
 Pellinki|0
-Stadsholmen|0
 Utsira|5.9
 Jussaro|0
 Vagsoy|59.1

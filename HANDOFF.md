@@ -67,7 +67,7 @@ Standing decisions from the user, all still in force:
 
 ## Where things stand
 
-Branch `expansion`, **105 commits ahead of `main`** (`3642bfc`), pushed,
+Branch `expansion`, **~110 commits ahead of `main`** (`ffeceaa` is an ancestor: a fast-forward), pushed,
 tree clean. `npm test` 191 · `npm run validate` 14,914 · `npm run gap-check`
 812 pins, every one lands. `bank.js` 1.97 MB. **`main` / Netlify still serve
 the 9,300-place bank.**
@@ -93,11 +93,11 @@ changes dig #6's round 3 on this branch).
 
 **What the user decides next** (nothing below was done, on purpose):
 
-1. **Merge `expansion` → `main` and publish Netlify** as one release, with the
-   re-verification the US wave's HANDOFF describes (the "Netlify, verified
-   live" section below is the checklist). Or keep stacking waves on
-   `expansion` — the branch is 105 commits and 5,600 places ahead; the daily
-   comparison for Pages players breaks on days the two banks draw differently.
+1. **Merge `expansion` → `main` and publish Netlify** as one release —
+   the procedure, the timing and the checklist are in "The release, as
+   audited" below. Or keep stacking waves on `expansion` — the branch is
+   5,600 places ahead; the daily comparison for Pages players breaks on
+   days the two banks draw differently.
 2. **Decision 5, same-name places — DECIDED 2026-09-17 evening**: the user
    accepted the design in "Same-name places: the design" below ("one bare
    name, several places, the round's scope picks"). It is the next
@@ -117,6 +117,67 @@ changes dig #6's round 3 on this branch).
 5. **Size 0 and "smaller than" prompts**: unknown is neither small nor large
    today; 380 islands and 288 seas refuse every size prompt. The alternative
    (unknown counts as small) is a one-line change in `satisfiesSize`.
+
+## The release, as audited (pre-merge audit of 2026-09-17, three Opus auditors + skeptics)
+
+Reports: `scripts/expansion/reports/2026-09-17-pre-merge-{regression,integrity,release}-audit.md`.
+What they established, and what was fixed on the spot (the commit after `6a93088`):
+
+- **Whole-bank regression, live vs new**: 23,267 typings of the 300 most-viewed
+  entries per cohort plus every country and capital, on every round they
+  satisfy — every one lands on its own entry on both banks, 0 worse; 1,338
+  famous names and misspellings × 9 rounds — no scoring regression; 0
+  wrong-kind answers scored on the new bank (the live one scored 8). Auckland
+  on "a capital in Oceania" reads "Auckland is a non-capital city — this round
+  wants a capital city." on both, no score, free retry — correct.
+- **Fixed from it**: the cross-category nudge now runs exact → loose → fuzzy
+  over every other cohort ("Cornwallis" is Cornwallis Island, not Corvallis);
+  the foreign generic words had leaked into `LETTER_FILLER` ("Laguna
+  Colorada" starts with L again); Honolulu carries Oceania. From the
+  integrity sweep: 30 pre-wave rows re-pointed off namesake / wrong-kind
+  articles (Diamond Head was British Columbia's, Grand Manan a village's
+  Long Island, Kura the Russian one, Lake Rukwa the African Great Lakes
+  article, Mount Pobeda a mountaineer's biography, Pra Russia's, Kuma
+  Japan's, Lake Togo Japan's, the Golden Horn Vladivostok's, Con Dao the
+  prison, Monhegan the lighthouse…), 13 rows with no article of their own
+  dropped, 21 pre-wave inland islands' oceans cleared, the 19 British and
+  Irish rivers put into the Europe theme (Thames answered "isn't in Europe"
+  on the live bank), 55 theme members added (saltwater, volcanoes, the
+  Balearics…), orphan keys removed. `add-theme.mjs` no longer writes a `,,`
+  hole after a trailing comma.
+- **Performance**: `bank.js` 1.97 MB / 277 KB gzip; createBank and a full
+  replay well inside the function's cold start; nothing a phone feels.
+
+**Procedure (recommended: fast-forward, one push):**
+
+1. Pick the moment. The daily draw depends on the bank and the Netlify
+   function computes the comparison from *its* bank, so **Pages and Netlify
+   must switch together**. Dig #6 (09-17) and #7 (09-18) draw identically on
+   both banks; **dig #8 (2026-09-19) differs from round 4 on**, then 09-20
+   r14, 09-23 r9, 09-24 r9, 10-02 r10, 10-09 r3–14, 10-20, 10-21, 10-28,
+   10-30, 11-01. Safe windows: **before 2026-09-18 10:00 UTC** (no timezone
+   has reached #8); else 2026-09-21 12:00 → 09-22 10:00 UTC; else 09-25
+   12:00 → 10-01 10:00 UTC. Outside a window a Pages player mid-dig sees the
+   new draw and the server (or the other host) rejects it with 409
+   `draw-mismatch` for the rest of that day; the block simply hides.
+2. Check the Netlify setting (Site configuration → Build & deploy →
+   Continuous deployment → Build settings → Build status): *Stopped builds*
+   → push, then Activate builds, then Trigger deploy once; *Locked deploys*
+   → the push builds once, then Publish deploy on that build.
+3. `git checkout main && git merge --ff-only expansion && git push origin main`
+   — one push, one Pages deploy (`deploy.yml`), one CI run, one Netlify
+   build (15 credits when published). `expansion` == `main` afterwards; the
+   next wave continues on `expansion` with no reset. (A squash buys nothing
+   on Netlify and forces `git branch -f expansion main` + a force-push.)
+4. Publish / trigger the Netlify deploy in the same minute (Netlify first if
+   anything). Then the re-verification checklist in "Netlify, verified live"
+   below: build log (both functions bundled), `daily-stats?day=` returns 15
+   prompts, the three rejection curls, a daily played on the Netlify URL, the
+   cross-origin fetch from Pages.
+5. Update this file: "Where it lives" (main = Pages = Netlify = the new
+   sha), and the count line at the top. Expect a few `unrecognized` warn
+   lines in the function log on merge day for the three wrong-article lakes
+   the wave dropped (Xiloá, Ypoá, San Pablo) and the renamed Santa Rosa Island.
 
 ## Same-name places: the design (decision 5, accepted by the user 2026-09-17)
 
@@ -754,7 +815,7 @@ background. The Bash tool caps at 600 s.
 - **Nobody has played the 12,000-place bank for feel.** Three `?debug` runs
   and a note of what felt off would be worth an hour.
 - No social-preview metadata (Open Graph); a named leaderboard; page weight
-  (1.55 MB, gzip ~300 KB; nobody has complained).
+  (`bank.js` 1.97 MB raw / 277 KB gzip at 14,900 places; the whole page ~2.3 MB raw / ~390 KB gzip; nobody has complained).
 
 ---
 
@@ -769,11 +830,20 @@ background. The Bash tool caps at 600 s.
   to `main` deploys within a minute or two (`deploy.yml`); `ci.yml` runs
   test + validate on every branch.
 - **Netlify:** https://wormillion.netlify.app — serves `1eaa3fb` (verified
-  live 2026-09-15 ~20:30 PDT, see below). **Auto-deploy is locked by the
-  user**; a Netlify release is now their deliberate act (unlock / "Trigger
-  deploy" in the dashboard; the build runs `npm test && npm run validate` as
-  a gate). Functions at `/.netlify/functions/daily-submit` and `daily-stats`;
-  Blobs store `daily`.
+  live 2026-09-15 ~20:30 PDT, see below; `1eaa3fb..ffeceaa` touches only
+  HANDOFF.md, so main = Pages = Netlify = the 9,300 bank, byte-checked
+  2026-09-17). **The user has held Netlify off auto-publishing.** Per the
+  Netlify docs (read 2026-09-17): a *locked* site still **builds** every
+  push to main and only withholds publishing ("Publish deploy" then
+  publishes the built one, no second build); *Stopped builds* is the setting
+  under which a push builds nothing and "Trigger deploy" is unavailable
+  until builds are re-activated. Netlify bills **15 credits per successful
+  production deploy, never per commit** (a push of 106 commits is one push,
+  one build, one deploy); failed deploys and rollbacks are free; branch
+  deploys are free. The next session should ask which of the two settings
+  is on before pushing to main. The build runs `npm test && npm run
+  validate` as a gate. Functions at `/.netlify/functions/daily-submit` and
+  `daily-stats`; Blobs store `daily`.
 - **Local:** `C:\Users\smite\repos\wormillion`. Double-click `play.cmd` to play.
   `npm start` serves on :8123 (`.claude/launch.json` names it `wormillion` for
   the in-app browser pane) **and mounts the comparison API over an in-memory
@@ -905,11 +975,11 @@ npm test && npm run gap-check        # then commit
 | plain opening rounds | 2 | `OPENING_ROUNDS`, `promptBank.js` |
 | modifier chance, rounds 3→15 | 70% → 100% (~11.4 conditional rounds of 15) | `MODIFIER_CHANCE_START/END`, `promptBank.js` |
 | flag-prompt weight in the modifier draw | 2 (same as region/theme/ocean/letter; 1 for size) → ~0.6 flag prompts per run | `options.push('flag', 'flag')` in `drawModifier()` |
-| generated-modifier guard | ≥ 6 answers and ≤ 60% of the cohort | `MIN_ELIGIBLE`, `MAX_ELIGIBLE_SHARE`, `promptBank.js` |
+| generated-modifier guard | ≥ 6 answers; size and flag rules ≤ 70% of the cohort (`MAX_ELIGIBLE_SHARE`, decision 2), letter rules ≤ 60% (`MAX_ELIGIBLE_SHARE_LETTER`); a size rule's share is over the rows that carry a figure (audit 4) | `MIN_ELIGIBLE`, `MAX_ELIGIBLE_SHARE`, `promptBank.js` |
 | city region prompts | only regions with ≥ 6 cities | `regionOptions()`, `promptBank.js` |
 | city size thresholds | 500k / 1M / 5M / 10M, city-proper population | `SIZE_RULES.city`, `promptBank.js` |
 | fuzzy edit budget | 0 edits for a stripped name of ≤4 letters, 1 for 5–7, 2 for 8–11, 3 beyond; +1 for a ≥4-letter name typed with a generic word the entry also carries | `slackFor`, `nearest`, `matching.js` |
-| matching filler words | mount, mt, mountain, peak, hill, lake, loch, lough, llyn, river, rio, sea, ocean, gulf, bay, island(s), isle(s), desert, the, of, city, saint, st, cape, atoll, **reservoir** | `FILLER`, `matching.js` |
+| matching filler words | mount, mt, mountain, peak, hill, lake, loch, lough, llyn, river, rio, sea, ocean, gulf, bay, island(s), isle(s), desert, the, of, city, saint, st, cape, atoll, **reservoir**, and the foreign generic words lago, lac, lagoa, laguna, etang, fiume, fleuve, fluss, riviere, rivier (Europe wave); letter rules exempt loch/lough/llyn/saint/st/cape/rio **and every foreign word** ("Laguna Colorada" starts with L — the pre-merge audit) | `FILLER`, `matching.js`; `LETTER_FILLER`, `promptBank.js` |
 | letter-rule filler | the matching set minus loch/lough/llyn/saint/st/cape/rio (those are letters where they are the name), **plus, for rivers only, creek/fork/branch/run/brook/kill/wash/slough/draw** (bayou and arroyo lead the name like rio); whole-name categories (country, capital, city, sea) strip only "the" | `LETTER_FILLER`, `LETTER_ONLY_FILLER`, `letterFillerFor`, `promptBank.js` |
 | letter-rule miss text | names the word that didn't count: "Bear Creek has no double letter (Creek doesn't count)" | `letterMissText(name, rule, category)`, `promptBank.js`; wired in `ui.js` |
 | dig below the jackpot bar | `rarity × 70` | `DIG_SCALE`, `rarity.js` |
@@ -1020,12 +1090,15 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
   `{category}`, `{category, region}`, `{category, theme}`, `{category, ocean}`,
   `{category, flag:{colours:[…]}}`, `{category, size:{op,value}}`,
   `{category, letter:{kind,letter}}`.
-- **Known ≥85% answers for the jackpot (2026-09-15 bank):** Micronesia (100%) /
-  Togo for country; South Tarawa / Funafuti for capital; Musanze / Salelologa
-  / Auki for city; Grand Manan / Dolsan for island; Pihlajavesi / Storavan for
-  lake; Tandikat / Chiaksan for mountain; Mecaya / Aquio / Canoas for river;
-  Erg Iguidi / Skeleton Coast for desert; Bay of Pomerania / Gulf of Masirah
-  for sea. **Known 0% answers for the dud:** New York on a city round, United
+- **Known ≥85% answers for the jackpot (the 14,900 bank, 2026-09-17):**
+  Micronesia (100%) / Antigua and Barbuda for country; South Tarawa /
+  Monaco-Ville for capital; Bel Air South / Musanze for city; Karpa Island /
+  Atlas Tract for island; Storvindeln Lake / Mother Goose Lake for lake;
+  Cerro Fabrega / Chiaksan for mountain; Mecaya / Aquio for river; Skeleton
+  Coast / Erg Iguidi for desert; Gulf of Manfredonia / Gulf of Masirah for
+  sea. (Grand Manan, Canoas, Pihlajavesi and the Bay of Pomerania were
+  jackpots only because they pointed at wrong articles; re-pointed, they
+  are ordinary now.) **Known 0% answers for the dud:** New York on a city round, United
   States on a country round, Mount Everest on a mountain round, Antarctic
   Desert on a desert round. `celebrate()` / `shame()` fire either without one.
 - `diveTo` never moves the worm upward; call `renderer.reset()` first.
@@ -1150,7 +1223,7 @@ cohort 0.8–4.0% (mountains were 45% before the re-cut).
 - **The aggregator listing** the daily was built for — not a code task.
 - **A named leaderboard** — the natural next server step; per-player
   submission blobs exist.
-- **Page weight** — `bank.js` 1.26 MB, gzip ~250 KB; nobody has complained.
+- **Page weight** — `bank.js` 1.97 MB, gzip 277 KB (brotli 219 KB on Netlify); nobody has complained. `src/index.html` loads it with a bare `<script src>` and Pages caches it 600 s: for ten minutes after a deploy a returning browser can pair a cached bank with new engine files (both combinations play; the daily draw may differ from the server's for that session; a reload fixes it). A `?v=` cache-buster on the two data tags is the optional fix.
 - **Population refresh** — declined; revisit only if a player reports a size
   prompt being wrong.
 

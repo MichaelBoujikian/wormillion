@@ -27,8 +27,10 @@ const arrStart = keyIdx + `'${theme}': [`.length;
 const arrEnd = text.indexOf(']', arrStart);
 let insertAt = arrEnd;
 while (/\s/.test(text[insertAt - 1])) insertAt--;
+// a list that already ends in a comma (a trailing comma before the bracket) gets no second one: ',,' is an array hole
+const comma = text[insertAt - 1] === ',' ? '' : ',';
 const chunks = [];
 for (let i = 0; i < adds.length; i += 5) chunks.push('      ' + adds.slice(i, i + 5).map(q).join(', '));
-text = text.slice(0, insertAt) + `,${EOL}      // add-theme.mjs${EOL}` + chunks.join(`,${EOL}`) + text.slice(insertAt);
+text = text.slice(0, insertAt) + `${comma}${EOL}      // add-theme.mjs${EOL}` + chunks.join(`,${EOL}`) + text.slice(insertAt);
 await writeFile(path, text, 'utf8');
 console.log(`wrote themes.js: +${adds.length} in ${category}/${theme}: ${adds.join(', ')}`);

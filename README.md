@@ -29,9 +29,13 @@ every prompt with the rarest answer it would have taken. On the hosted game
 you also see how your dig compares with everyone else's that day — "Better
 than 62% of 143 diggers" — from a small server-side tally (below).
 
-No accounts, no build step, no runtime dependencies in the game itself. 1,719 real
-places in the bank across nine categories: countries, capitals, cities that
-aren't capitals, lakes, rivers, mountains, deserts, islands, and seas.
+No accounts, no build step, no runtime dependencies in the game itself. 14,900
+real places in the bank across nine categories: countries, capitals, cities that
+aren't capitals, lakes, rivers, mountains, deserts, islands, and seas — every
+one on its own English Wikipedia article, scoured country by country (the
+United States and Western Europe so far; `scripts/expansion/` is the toolkit
+and `scripts/expansion/reports/` the record of what came in and what was left
+out and why).
 
 ## Play locally
 
@@ -96,7 +100,8 @@ your average obscurity against everyone's, the round most people missed and
 the rarest find of the day. One anonymous submission per browser per day.
 Nothing personal is stored: a random id, the day, fifteen place names.
 
-It runs on Netlify Functions + Blobs (`netlify/functions/`), free tier, and
+It runs on Netlify Functions + Blobs (`netlify/functions/`, a credit-based plan:
+each production deploy costs credits, so releases are deliberate), and
 is optional everywhere: on `file://`, in the bundle, offline, or on a host
 without the functions the block simply doesn't appear. `npm start` mounts
 the same API over an in-memory store, so the whole flow plays locally. The
@@ -191,7 +196,11 @@ Each entry carries two numbers:
   scores. It's the *median* of 60 daily counts scaled to a month, so one news
   cycle can't pass a place off as permanently famous.
 - **`size`** — the physical stat it was authored with (population, area, length,
-  elevation). Reference only; it no longer affects scoring.
+  elevation). It never affects scoring; it decides the size-threshold prompts
+  ("Name a lake smaller than 100 km²"). **0 means "no sourced figure anywhere"**
+  (most bays, straits and small islands): such a place answers every other
+  prompt and refuses every size threshold, and a size rule's share of the
+  cohort is measured over the rows that carry a figure.
 
 Refreshing the view counts:
 
@@ -214,10 +223,15 @@ heuristic cries wolf.
 Responses are cached under `scripts/.cache/` (gitignored), so re-runs while
 you're fixing overrides don't re-hammer the API.
 
-To add places: edit the authoring file, run `npm run fetch-pageviews`, then
-`npm run build-data`, then `npm run validate`. The validator fails on duplicate
+To add places one at a time: edit the authoring file, run `npm run fetch-pageviews`,
+then `npm run build-data`, then `npm run validate`. The validator fails on duplicate
 ids, alias collisions within a cohort, missing or non-positive pageview counts,
-and bad region tags.
+and bad region tags. To add a country's worth at once, `scripts/expansion/`
+does it from Wikipedia's category trees and list pages: `probe.mjs` (what
+exists, what the bank has, what a typed name would land on) →
+`article-size.mjs` (figures from the article's infobox, which beats Wikidata)
+→ `chunk.mjs` (the rows) → `fold.mjs` (into the authoring files) → the
+pipeline above; `HANDOFF.md` has the loop, the floors and the lessons.
 
 ## Deployment
 
@@ -262,8 +276,8 @@ aliases with filler words ("mount", "lake", "the") stripped — the filler is no
 part of the name. So "Mount Fuji" has no T in it and does not start with M,
 "Lake Baikal" starts with B, and "Nile" does not get a T from its alias "the
 Nile". A word that *is* the name stays even if it means "lake" somewhere:
-"Loch Ness" starts with L, "Saint Lucia" starts with S, "Cape Verde" starts
-with C. Countries, capitals and seas keep their official names whole — the
+"Loch Ness" starts with L, "Laguna Colorada" starts with L, "Saint Lucia"
+starts with S, "Cape Verde" starts with C. Countries, capitals and seas keep their official names whole — the
 Solomon Islands have a D, Mexico City ends in Y, the Black Sea ends in A. The two length rules ("short name", "long name") judge the spelling you
 actually typed, or that spelling with its generic word trimmed, whichever
 fits: "China" is five letters and "People's Republic of China" is 22, and
@@ -304,6 +318,15 @@ and the edit budget comes from the name proper, not the generic word around it
 ("Lake Tåkern" gets the one edit of "Tåkern", so a lake the bank lacks is
 refused rather than corrected to Lake Vänern — though a generic word you typed
 that the entry also carries is worth one edit, so "Mount Fugi" is still Fuji).
+
+A few more rules a returning player will notice: a hyphen is a space
+("Saint Ouen sur Seine" is Saint-Ouen-sur-Seine, not a correction of it); a
+generic word belongs to its category, so "Lake Michigan" on a river round is
+a nudge ("Lake Michigan is a lake"), never Michigan River; a typed plural is
+never corrected onto a singular namesake ("Great Lakes" is not Great Lake);
+and a name that is exactly a place in another category tells you so
+("Auckland is a non-capital city — this round wants a capital city") and
+costs nothing.
 
 ## Decisions this build made beyond SPEC.md
 
