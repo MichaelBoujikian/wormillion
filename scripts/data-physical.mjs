@@ -2485,8 +2485,8 @@ Big Thompson|126|Big Thompson River
 Little Colorado|603|Little Colorado River
 Gila|1044|Gila River
 Salt (Arizona)|320|Salt River
-Verde|273|Verde River
-San Pedro|225|San Pedro River
+Verde (Arizona)|273|Verde River
+San Pedro (Arizona)|225|San Pedro River
 Kern|265|Kern River
 Kings|206|Kings River
 Merced|233|Merced River
@@ -2500,7 +2500,7 @@ Pit|241|Pit River
 Eel (California)|315|Eel River
 Russian|177|Russian River
 Napa|89|Napa River
-Salinas|280|Salinas River
+Salinas (California)|280|Salinas River
 Santa Ana|154|Santa Ana River
 San Gabriel (California)|93|San Gabriel River
 Mojave River|179
@@ -2679,7 +2679,7 @@ Aguan|190|Rio Aguan
 Patuca|500|Rio Patuca
 Coco|680|Rio Coco,Segovia River
 Grande de Matagalpa|418|Rio Grande de Matagalpa
-Escondido|111|Rio Escondido
+Escondido (Nicaragua)|111|Rio Escondido
 San Juan (Nicaragua)|199|Rio San Juan,San Juan River
 Tempisque|144|Rio Tempisque
 Reventazon|110|Rio Reventazon
@@ -2860,7 +2860,7 @@ Baker|170|Rio Baker
 Pascua|64|Rio Pascua
 Serrano|75|Rio Serrano
 Bermejo|1450|Rio Bermejo
-Salado|1000|Rio Salado
+Salado (Argentina)|1000|Rio Salado
 Carcarana|400|Rio Carcarana
 Tercero|500|Rio Tercero
 Limay|400|Rio Limay
@@ -3621,7 +3621,7 @@ Marais des Cygnes|349
 Neversink|89
 Roaring Fork|113
 Big Lost|217
-Blanco|140
+Blanco (Texas)|140
 Choctawhatchee|227
 Farmington|130
 Greenbrier|261
@@ -4210,7 +4210,7 @@ Salt Creek|180
 Salt Fork Red|311
 San Pitch|105
 Sand Creek|235
-Santa Maria|80
+Santa Maria (Arizona)|80
 Seco Creek|106
 South Fork Clearwater|100
 South Fork Spring|121
@@ -4418,7 +4418,7 @@ Hodzana|200
 Union Flat Creek|116
 Troublesome Creek|83
 Big Jacks Creek|93
-Blue Creek|85
+Blue Creek (Idaho)|85
 Marsh Creek|90
 Noxapaga|90
 Dry Creek|87
@@ -5165,6 +5165,97 @@ Willow Creek (Idaho)|135
 Wind (Alaska)|129
 Ouse (Sussex)|56
 Little (St. Francis)|238
+La Venta|0
+Santa Catarina|158
+Jamapa|368
+Necaxa|0
+San Pedro Mezquital|540
+Tula|0
+Bavispe|371
+Casas Grandes|0
+San Bernardino|0
+Tecolutla|375
+Aguanaval|1081
+Humaya|0
+Tamazula|0
+Acaponeta|233
+Altar|135
+Amajac|0
+Amatzinac|0
+Antigua|0
+Aros|0
+Baluarte|142
+Batopilas|0
+Bobos|0
+Bolanos|360
+Calderon|0
+Candelaria|400
+Carmen|0
+Cazones|145
+Chuviscar|120
+Chinipas|0
+Concepcion|0
+Copalita|0
+Cuale|0
+Cuilco|160
+Cupatitzio|0
+Cutzamala|0
+El Corte|0
+Florido|290
+Horcones|0
+Ixcan|0
+Jatate|0
+Juchipila|0
+Lacantun|0
+Laja|0
+Mascota|0
+Mixteco|175
+Nautla|0
+Pantepec|130
+Papagayo|0
+Pesqueria|0
+Piaxtla|220
+Presidio|0
+Ramos|0
+Alamar|80|Rio Alamar,Arroyo Alamar
+Cuchujaqui|0|Rio Cuchujaqui
+San Rodrigo|150|Rio San Rodrigo
+Rio de los Remedios|0
+Sabinas|0
+San Fernando|0
+San Lorenzo|0
+Santo Domingo|0
+Selegua|102
+Sonoyta|311
+Soto La Marina|416
+Tamesi|300
+Tampaon|165
+Tecate Creek|0
+Tehuantepec|240
+Tesechoacan|0
+Tlapaneco|0
+Tonala|300
+Tuxpan|150
+Urique|0
+Uspanapa|0
+San Juan (Tamaulipas)|0
+Blue Creek (Belize)|87
+Salado (Mexico)|264
+Atoyac (Oaxaca)|0
+Verde (Jalisco)|0
+Verde (Oaxaca)|342
+Sacramento (Mexico)|65
+Salinas (Guatemala)|113
+Atoyac (Guerrero)|0
+Blanco (Veracruz)|0
+Escondido (Coahuila)|150
+Verde (San Luis Potosi)|0
+San Juan (Veracruz)|0
+San Miguel (Mexico)|0
+San Pedro (Chihuahua)|0
+San Pedro (Guatemala)|186
+Santa Maria (Chihuahua)|0
+Santa Maria (San Luis Potosi)|0
 `;
 
 export const MOUNTAINS = `

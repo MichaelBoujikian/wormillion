@@ -1,0 +1,34 @@
+{
+  "name": "ca-rivers",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": [
+    "Category:Rivers of Canada by province or territory"
+  ],
+  "subcat": "^Category:Rivers of (?!Canada$)(?!.*(stubs|Heritage|crossings|Locks|Rapids))",
+  "lists": [
+    "List of rivers of Canada",
+    "List of longest rivers of Canada",
+    "List of rivers of Alberta",
+    "List of rivers of British Columbia",
+    "List of rivers of Manitoba",
+    "List of bodies of water of New Brunswick",
+    "List of rivers of Newfoundland and Labrador",
+    "List of rivers of the Northwest Territories",
+    "List of rivers of Nova Scotia",
+    "List of rivers of Nunavut",
+    "List of rivers of Ontario",
+    "List of rivers of Prince Edward Island",
+    "List of rivers of Quebec",
+    "List of rivers of Saskatchewan",
+    "List of rivers of Yukon"
+  ],
+  "kind": "(river|tributary|stream|creek|brook|watercourse|rivi[eè]re|ruisseau|\\bfork\\b|\\bbranch\\b)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|^Rivers of|^Tributaries|^Longest rivers|crossings|River basin$|Watershed$|Valley$|Canyon$|Falls$|Dam$|Reservoir$|Lake$|Gorge$|Bridge$|Aqueduct$|Canal$|Trail$|Park$|Forest$|Refuge$|Delta$|Estuary$|Lagoon$|Rapids$|Lock$|Locks$|Hydroelectric|Generating Station$|Power Station$|Power Plant$|Township|County$|District$|Conservation Area$|Provincial Park$)",
+  "notKind": "^(reservoir|lake|dam|canal|waterfall|falls|park|glacier|bay|sound|estuary|lagoon|fjord|inlet|strait|swamp|marsh|bog|wetland|island|mountain|subrange|range|ridge|trail|bridge|scenic|road|highway|valley|canyon|county|city|town|village|township|municipality|neighborhood|neighbourhood|unincorporated|region|province|territory|district|delta|former|historic|drainage|basin|rapids|lock|generating|hydroelectric|power|spring|human settlement|populated place|reserve|conservation|national park|provincial park|ship|railway|station)",
+  "sizeProp": "P2043",
+  "sizeUnit": "km",
+  "minSize": 80,
+  "famousViews": 1000,
+  "spellings": "river"
+}

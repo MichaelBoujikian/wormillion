@@ -91,7 +91,9 @@ function splitTitle(title) {
 // a country, an Irish county. Anything else from a parenthetical is suspect
 // ("Four Corners", "Ozarks", "Colorado River tributary") and the description's
 // "in <State>" is tried first.
-const PROVINCES = new Set(['Alberta', 'British Columbia', 'Manitoba', 'New Brunswick', 'Newfoundland and Labrador', 'Nova Scotia', 'Ontario', 'Prince Edward Island', 'Quebec', 'Saskatchewan', 'Yukon', 'Northwest Territories', 'Nunavut', 'England', 'Scotland', 'Wales', 'Northern Ireland', 'Sicily', 'Sardinia', 'Corsica', 'Tasmania', 'Queensland', 'Victoria', 'New South Wales', 'Western Australia', 'South Australia', 'Northern Territory']);
+const PROVINCES = new Set(['Alberta', 'British Columbia', 'Manitoba', 'New Brunswick', 'Newfoundland and Labrador', 'Nova Scotia', 'Ontario', 'Prince Edward Island', 'Quebec', 'Saskatchewan', 'Yukon', 'Northwest Territories', 'Nunavut', 'England', 'Scotland', 'Wales', 'Northern Ireland', 'Sicily', 'Sardinia', 'Corsica', 'Tasmania', 'Queensland', 'Victoria', 'New South Wales', 'Western Australia', 'South Australia', 'Northern Territory',
+  // the Mexican states (the Mexico and Canada wave, 2026-09-18), accented as enwiki writes them and ASCII as the bank does
+  'Aguascalientes', 'Baja California', 'Baja California Sur', 'Campeche', 'Chiapas', 'Chihuahua', 'Coahuila', 'Colima', 'Durango', 'Guanajuato', 'Guerrero', 'Hidalgo', 'Jalisco', 'State of Mexico', 'Michoacán', 'Michoacan', 'Morelos', 'Nayarit', 'Nuevo León', 'Nuevo Leon', 'Oaxaca', 'Puebla', 'Querétaro', 'Queretaro', 'Quintana Roo', 'San Luis Potosí', 'San Luis Potosi', 'Sinaloa', 'Sonora', 'Tabasco', 'Tamaulipas', 'Tlaxcala', 'Veracruz', 'Yucatán', 'Yucatan', 'Zacatecas']);
 const knownPlace = (q) => US_STATES.has(q) || PROVINCES.has(q) || countryNames.has(q) || /^County [A-Z]/.test(q);
 const DIRECTION = /^(?:north|south|east|west|central|northern|southern|eastern|western|southwestern|southeastern|northwestern|northeastern|upper|lower) (?=[A-Z])/;
 /** "U.S. state of Wisconsin" -> Wisconsin; "southwestern Montana" -> Montana; "Flathead County, Montana" -> Montana; "Florida–Georgia" -> Florida. */

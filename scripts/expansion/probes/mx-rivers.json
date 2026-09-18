@@ -1,0 +1,23 @@
+{
+  "name": "mx-rivers",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": [
+    "Category:Rivers of Mexico",
+    "Category:Rivers of Mexico by state"
+  ],
+  "subcat": "^Category:Rivers of (?!Mexico$)(?!.*(stubs|Populated|crossings))",
+  "lists": [
+    "List of rivers of Mexico",
+    "List of longest rivers of Mexico"
+  ],
+  "kind": "(river|tributary|stream|creek|brook|arroyo|watercourse|\\br[ií]o\\b|\\bfork\\b|\\bbranch\\b)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|^Rivers of|^Tributaries|^Longest rivers|crossings|River basin$|Watershed$|Valley$|Canyon$|Falls$|Dam$|Reservoir$|Lake$|Gorge$|Bridge$|Aqueduct$|Canal$|Trail$|Park$|Forest$|Refuge$|Delta$|Estuary$|Lagoon$|Hydroelectric|Power Station$|Power Plant$|^Rio Grande Valley|^Rio Grande rift)",
+  "notKind": "^(reservoir|lake|dam|canal|waterfall|falls|park|glacier|bay|sound|estuary|lagoon|swamp|marsh|wetland|island|mountain|subrange|range|ridge|trail|bridge|scenic|road|highway|valley|canyon|county|city|town|village|township|municipality|neighborhood|unincorporated|region|state|delta|former|historic|drainage|basin|aquifer|spring|human settlement|populated place)",
+  "sizeProp": "P2043",
+  "sizeUnit": "km",
+  "minSize": 60,
+  "famousViews": 1000,
+  "spellings": "river",
+  "noFigureViews": 30
+}

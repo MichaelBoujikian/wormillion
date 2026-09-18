@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T05:01:23.943Z",
+ "fetched": "2026-09-18T06:40:55.334Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -47807,14 +47807,14 @@
    "lat": 33.38111111,
    "lon": -112.31305556
   },
-  "river-verde": {
+  "river-verde-arizona": {
    "title": "Verde River",
    "monthlyViews": 944,
    "days": 60,
    "lat": 33.54694444,
    "lon": -111.66055556
   },
-  "river-san-pedro": {
+  "river-san-pedro-arizona": {
    "title": "San Pedro River (Arizona)",
    "monthlyViews": 761,
    "days": 60,
@@ -47912,7 +47912,7 @@
    "lat": 38.07,
    "lon": -122.24388889
   },
-  "river-salinas": {
+  "river-salinas-california": {
    "title": "Salinas River (California)",
    "monthlyViews": 1309,
    "days": 60,
@@ -49165,7 +49165,7 @@
    "lat": 12.9,
    "lon": -83.53333333
   },
-  "river-escondido": {
+  "river-escondido-nicaragua": {
    "title": "Escondido River (Nicaragua)",
    "monthlyViews": 91,
    "days": 60,
@@ -50432,7 +50432,7 @@
    "lat": -26.86666667,
    "lon": -58.38333333
   },
-  "river-salado": {
+  "river-salado-argentina": {
    "title": "Salado River (Argentina)",
    "monthlyViews": 274,
    "days": 60,
@@ -55759,7 +55759,7 @@
    "lat": 43.79416667,
    "lon": -112.84055556
   },
-  "river-blanco": {
+  "river-blanco-texas": {
    "title": "Blanco River (Texas)",
    "monthlyViews": 517,
    "days": 60,
@@ -59882,7 +59882,7 @@
    "lat": 39.81305556,
    "lon": -104.95222222
   },
-  "river-santa-maria": {
+  "river-santa-maria-arizona": {
    "title": "Santa Maria River (Arizona)",
    "monthlyViews": 61,
    "days": 59,
@@ -61338,7 +61338,7 @@
    "lat": 42.78666667,
    "lon": -115.97805556
   },
-  "river-blue-creek": {
+  "river-blue-creek-idaho": {
    "title": "Blue Creek (Owyhee River tributary)",
    "monthlyViews": 15,
    "days": 56,
@@ -66566,6 +66566,643 @@
    "days": 59,
    "lat": 35.9239612,
    "lon": -90.1309271
+  },
+  "river-la-venta": {
+   "title": "La Venta River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-santa-catarina": {
+   "title": "Santa Catarina River (Mexico)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 25.52826,
+   "lon": -99.90044
+  },
+  "river-jamapa": {
+   "title": "Jamapa River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 19.101278,
+   "lon": -96.100806
+  },
+  "river-necaxa": {
+   "title": "Necaxa River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-pedro-mezquital": {
+   "title": "San Pedro Mezquital River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 21.939417,
+   "lon": -105.350269
+  },
+  "river-tula": {
+   "title": "Tula River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 20.58388889,
+   "lon": -99.32861111
+  },
+  "river-bavispe": {
+   "title": "Bavispe River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 29.5299,
+   "lon": -109.2385
+  },
+  "river-casas-grandes": {
+   "title": "Casas Grandes River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 31.34464,
+   "lon": -107.49168
+  },
+  "river-san-bernardino": {
+   "title": "San Bernardino River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 30.8,
+   "lon": -109.18333333
+  },
+  "river-tecolutla": {
+   "title": "Tecolutla River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 20.475,
+   "lon": -97
+  },
+  "river-aguanaval": {
+   "title": "Aguanaval River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 24.250237,
+   "lon": -102.88602
+  },
+  "river-humaya": {
+   "title": "Humaya River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-tamazula": {
+   "title": "Tamazula River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-acaponeta": {
+   "title": "Acaponeta River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 22.37659,
+   "lon": -105.63629
+  },
+  "river-altar": {
+   "title": "Altar River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 30.62583333,
+   "lon": -111.96
+  },
+  "river-amajac": {
+   "title": "Amajac River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 21.25222222,
+   "lon": -98.78111111
+  },
+  "river-amatzinac": {
+   "title": "Amatzinac River",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 18.820909,
+   "lon": -98.752203
+  },
+  "river-antigua": {
+   "title": "Antigua River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 19.30876,
+   "lon": -96.28291
+  },
+  "river-aros": {
+   "title": "Aros River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-baluarte": {
+   "title": "Baluarte River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 22.84083333,
+   "lon": -106.0325
+  },
+  "river-batopilas": {
+   "title": "Batopilas River",
+   "monthlyViews": 30,
+   "days": 46,
+   "lat": 26.86083333,
+   "lon": -107.84027778
+  },
+  "river-bobos": {
+   "title": "Bobos River (Mexico)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-bolanos": {
+   "title": "Bolaños River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 22.09699,
+   "lon": -103.61058
+  },
+  "river-calderon": {
+   "title": "Calderón River",
+   "monthlyViews": 30,
+   "days": 46,
+   "lat": 20.6752,
+   "lon": -103.0108
+  },
+  "river-candelaria": {
+   "title": "Candelaria River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 18.15325,
+   "lon": -91.02516
+  },
+  "river-carmen": {
+   "title": "Carmen River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 30.677,
+   "lon": -106.492
+  },
+  "river-cazones": {
+   "title": "Cazones River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 20.7251,
+   "lon": -97.2002
+  },
+  "river-chuviscar": {
+   "title": "Chuviscar River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-chinipas": {
+   "title": "Chínipas River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-concepcion": {
+   "title": "Concepción River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 15.332331,
+   "lon": -92.529416
+  },
+  "river-copalita": {
+   "title": "Copalita River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 15.786798,
+   "lon": -96.049879
+  },
+  "river-cuale": {
+   "title": "Cuale River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-cuilco": {
+   "title": "Cuilco River",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": null,
+   "lon": null
+  },
+  "river-cupatitzio": {
+   "title": "Cupatitzio River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-cutzamala": {
+   "title": "Cutzamala River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-el-corte": {
+   "title": "El Corte River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 16.93891667,
+   "lon": -94.77184167
+  },
+  "river-florido": {
+   "title": "Florido River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-horcones": {
+   "title": "Horcones River (Mexico)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 20.51222222,
+   "lon": -105.31638889
+  },
+  "river-ixcan": {
+   "title": "Ixcán River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-jatate": {
+   "title": "Jataté River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-juchipila": {
+   "title": "Juchipila River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-lacantun": {
+   "title": "Lacantún River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-laja": {
+   "title": "Laja River (Mexico)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-mascota": {
+   "title": "Mascota River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-mixteco": {
+   "title": "Mixteco River",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": null,
+   "lon": null
+  },
+  "river-nautla": {
+   "title": "Nautla River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-pantepec": {
+   "title": "Pantepec River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-papagayo": {
+   "title": "Papagayo River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 16.684718,
+   "lon": -99.61065
+  },
+  "river-pesqueria": {
+   "title": "Pesquería River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 25.9,
+   "lon": -99.18333333
+  },
+  "river-piaxtla": {
+   "title": "Piaxtla River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-presidio": {
+   "title": "Presidio River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 23.094222,
+   "lon": -106.290895
+  },
+  "river-ramos": {
+   "title": "Ramos River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-alamar": {
+   "title": "Rio Alamar",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 32.5156,
+   "lon": -116.9729
+  },
+  "river-cuchujaqui": {
+   "title": "Rio Cuchujaqui",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-rodrigo": {
+   "title": "Rio San Rodrigo",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 28.90277778,
+   "lon": -100.63055556
+  },
+  "river-rio-de-los-remedios": {
+   "title": "Río de los Remedios",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-sabinas": {
+   "title": "Sabinas River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-fernando": {
+   "title": "San Fernando River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-lorenzo": {
+   "title": "San Lorenzo River (Mexico)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 28.414315,
+   "lon": -110.236986
+  },
+  "river-santo-domingo": {
+   "title": "Santo Domingo River (Oaxaca)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-selegua": {
+   "title": "Selegua River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-sonoyta": {
+   "title": "Sonoyta River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 31.268716,
+   "lon": -113.318657
+  },
+  "river-soto-la-marina": {
+   "title": "Soto La Marina River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 23.7601,
+   "lon": -98.2053
+  },
+  "river-tamesi": {
+   "title": "Tamesí River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-tampaon": {
+   "title": "Tampaón River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 21.9682,
+   "lon": -98.5621
+  },
+  "river-tecate-creek": {
+   "title": "Tecate Creek",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 32.56696,
+   "lon": -116.76577
+  },
+  "river-tehuantepec": {
+   "title": "Tehuantepec River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 16.187762,
+   "lon": -95.145747
+  },
+  "river-tesechoacan": {
+   "title": "Tesechoacan River",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": null,
+   "lon": null
+  },
+  "river-tlapaneco": {
+   "title": "Tlapaneco River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 17.2,
+   "lon": -99.08333333
+  },
+  "river-tonala": {
+   "title": "Tonalá River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-tuxpan": {
+   "title": "Tuxpan River (Veracruz)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 20.9693,
+   "lon": -97.3058
+  },
+  "river-urique": {
+   "title": "Urique River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-uspanapa": {
+   "title": "Uspanapa River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 17.97055556,
+   "lon": -94.475
+  },
+  "river-san-juan-tamaulipas": {
+   "title": "San Juan River (Tamaulipas)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 26.36527778,
+   "lon": -98.85416667
+  },
+  "river-blue-creek-belize": {
+   "title": "Blue Creek (Belize)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 17.9,
+   "lon": -88.9
+  },
+  "river-salado-mexico": {
+   "title": "Rio Salado (Mexico)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 26.86666667,
+   "lon": -99.31666667
+  },
+  "river-atoyac-oaxaca": {
+   "title": "Atoyac River (Oaxaca)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 16.4964,
+   "lon": -97.5383
+  },
+  "river-verde-jalisco": {
+   "title": "Río Verde (Jalisco)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-verde-oaxaca": {
+   "title": "Río Verde (Oaxaca)",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 15.984,
+   "lon": -97.792
+  },
+  "river-sacramento-mexico": {
+   "title": "Sacramento River (Mexico)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-salinas-guatemala": {
+   "title": "Salinas River (Guatemala)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-atoyac-guerrero": {
+   "title": "Atoyac River (Guerrero)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 17.94005366,
+   "lon": -102.13689902
+  },
+  "river-blanco-veracruz": {
+   "title": "Blanco River (Veracruz)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 18.7317,
+   "lon": -95.8318
+  },
+  "river-escondido-coahuila": {
+   "title": "Escondido River (Coahuila)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 28.66194444,
+   "lon": -100.50055556
+  },
+  "river-verde-san-luis-potosi": {
+   "title": "Río Verde (San Luis Potosi)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-juan-veracruz": {
+   "title": "San Juan River (Veracruz)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-miguel-mexico": {
+   "title": "San Miguel River (Mexico)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-pedro-chihuahua": {
+   "title": "San Pedro River (Chihuahua)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": null,
+   "lon": null
+  },
+  "river-san-pedro-guatemala": {
+   "title": "San Pedro River (Guatemala)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 17.279636,
+   "lon": -90.987697
+  },
+  "river-santa-maria-chihuahua": {
+   "title": "Santa Maria River (Chihuahua)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-santa-maria-san-luis-potosi": {
+   "title": "Santa Maria River (San Luis Potosi)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 21.8013,
+   "lon": -99.1798
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

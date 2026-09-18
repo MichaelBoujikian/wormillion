@@ -1,6 +1,6 @@
 /**
  * Cross-check a probe's Wikidata sizes against each article's own infobox.
- *   node scripts/expansion/article-size.mjs work/<probe>.json [--no-figure] [--min-views=N]
+ *   node scripts/expansion/article-size.mjs work/<probe>.json [--no-figure] [--min-views=N] [--sister=es]
  * Reads the probe output, fetches the wikitext of every in-scope missing/fuzzy/
  * taken item (plus the ones Wikidata had no figure for, with --no-figure), parses the infobox figure for
  * the probe's unit (river length, lake/island/desert/sea area, mountain
@@ -9,6 +9,12 @@
  * article's infobox whenever it has a figure, else Wikidata; a disagreement of
  * more than 15% is printed for a human look. Cache: work/wikitext-cache.json
  * (the infobox block of each article, not the whole text).
+ * --sister=es (fr, de, it, pt): for what has no figure on enwiki or Wikidata,
+ * follow the item's Wikidata sitelink to that wiki and read ITS infobox
+ * (eswiki's "Ficha de rio" has a longitud for most Mexican rivers whose enwiki
+ * stub has an empty length field; the Mexico and Canada wave, 2026-09-18).
+ * A dot before exactly three digits is a thousands separator there ("1.081 km"),
+ * a comma the decimal. `how` says which wiki the figure came from.
  */
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -18,6 +24,8 @@ const src = process.argv[2];
 const NO_FIGURE = process.argv.includes('--no-figure');
 const minViewsArg = process.argv.find((a) => a.startsWith('--min-views='));
 const MIN_VIEWS = minViewsArg ? Number(minViewsArg.slice(12)) : 0; // skip items under a views floor (mountains: no size floor exists)
+const sisterArg = process.argv.find((a) => a.startsWith('--sister='));
+const SISTER = sisterArg ? sisterArg.slice(9) : null; // a sister wiki's language code
 const probe = JSON.parse(await readFile(src, 'utf8'));
 const name = src.replace(/\\/g, '/').split('/').pop().replace(/\.json$/, '');
 const cfg = JSON.parse(await readFile(fileURLToPath(new URL(`./probes/${name}.json`, import.meta.url)), 'utf8'));
@@ -69,7 +77,8 @@ async function fetchWikitext(titles) {
 // ---- infobox parsing --------------------------------------------------------
 /** The first {{Infobox ...}} block, braces balanced. */
 function infoboxOf(text) {
-  const m = /\{\{\s*Infobox/i.exec(text);
+  // enwiki's {{Infobox river}}, eswiki's {{Ficha de rio}}, dewiki's {{Infobox Fluss}}, itwiki's {{Fiume}} / {{Lago}} / {{Montagna}}
+  const m = /\{\{\s*(?:Infobox|Ficha de|Fiume|Lago|Montagna|Isola)\b/i.exec(text);
   if (!m) return null;
   let depth = 0;
   for (let i = m.index; i < text.length - 1; i++) {
@@ -136,15 +145,26 @@ const FIELDS = {
   km2: ['area', 'area_km2', 'area_sqmi', 'area_total_km2', 'area_total_sq_mi', 'area_mi2', 'surface_area', 'area_land_km2', 'area_land_sq_mi', 'area_acre', 'area_ha', 'area_total_acre', 'area_land_acre', 'total_area'],
   m: ['elevation_m', 'elevation_ft', 'elevation', 'height', 'highest_elevation', 'elevation_max_m', 'elevation_max_ft']
 };
+// the sister wikis' field names, per unit; a bare number is in the unit the
+// infobox itself uses (km, km2, m)
+const SISTER_FIELDS = {
+  km: ['longitud', 'longueur', 'länge', 'lunghezza', 'comprimento', 'length'],
+  km2: ['superficie', 'área', 'area', 'fläche', 'surface', 'superficie_km2'],
+  m: ['altitud', 'altitude', 'elevación', 'elevacion', 'höhe', 'altitudine', 'altitude_m', 'elevation']
+};
+const SISTER_UNIT = { km: 'km', km2: 'km2', m: 'm' };
 const FIELD_UNIT = { length_km: 'km', length_mi: 'mi', area_km2: 'km2', area_sqmi: 'sq mi', area_total_km2: 'km2', area_total_sq_mi: 'sq mi', area_mi2: 'mi2', area_land_km2: 'km2', area_land_sq_mi: 'sq mi', area_acre: 'acre', area_ha: 'ha', area_total_acre: 'acre', area_land_acre: 'acre', elevation_m: 'm', elevation_ft: 'ft', elevation_max_m: 'm', elevation_max_ft: 'ft' };
 
-function articleSize(text, unit) {
+function articleSize(text, unit, sister = false) {
   const box = infoboxOf(text || '');
   if (!box) return null;
   const params = paramsOf(box);
-  for (const field of FIELDS[unit]) {
+  for (const field of sister ? SISTER_FIELDS[unit] : FIELDS[unit]) {
     if (!(field in params)) continue;
-    const a = amountOf(params[field], FIELD_UNIT[field]);
+    let value = params[field];
+    // a sister wiki writes 1.081 for one thousand and eighty-one and 50,21 for fifty and a bit
+    if (sister) value = value.replace(/(\d)\.(\d{3})\b/g, '$1$2');
+    const a = amountOf(value, sister ? SISTER_UNIT[unit] : FIELD_UNIT[field]);
     if (!a) continue;
     const factor = TABLE[unit][a[1]];
     if (factor == null || !(a[0] > 0)) continue;
@@ -153,6 +173,77 @@ function articleSize(text, unit) {
     return { value: unit === 'km2' ? Math.round(val * 100) / 100 : Math.round(val), field, raw: params[field].slice(0, 60) };
   }
   return null;
+}
+
+// ---- the sister wiki -------------------------------------------------------
+/** qid -> the sister wiki's title, from Wikidata's sitelinks (50 per request). */
+async function sisterTitles(qids) {
+  const out = new Map();
+  const need = qids.filter((q) => q && !((`wd:${SISTER}:${q}`) in cache));
+  for (let i = 0; i < need.length; i += 50) {
+    const batch = need.slice(i, i + 50);
+    const url = 'https://www.wikidata.org/w/api.php?' + new URLSearchParams({ action: 'wbgetentities', format: 'json', ids: batch.join('|'), props: 'sitelinks', sitefilter: `${SISTER}wiki` });
+    let attempt = 0;
+    for (;;) {
+      const res = await fetch(url, { headers: { 'User-Agent': UA } });
+      const text = await res.text();
+      let data = null;
+      try { data = JSON.parse(text); } catch {}
+      if (res.status === 429 || res.status >= 500 || !data) {
+        if (attempt > 5) throw new Error(`HTTP ${res.status}: ${text.slice(0, 80)}`);
+        const wait = [5000, 15000, 30000, 60000, 90000, 120000][attempt++];
+        console.log(`  (throttled - waiting ${wait / 1000}s)`);
+        await sleep(wait);
+        continue;
+      }
+      for (const q of batch) {
+        const e = data.entities && data.entities[q];
+        cache[`wd:${SISTER}:${q}`] = (e && e.sitelinks && e.sitelinks[`${SISTER}wiki`] && e.sitelinks[`${SISTER}wiki`].title) || '';
+      }
+      break;
+    }
+    await sleep(1500);
+  }
+  for (const q of qids) if (q) out.set(q, cache[`wd:${SISTER}:${q}`] || '');
+  await writeFile(CACHE_FILE, JSON.stringify(cache));
+  return out;
+}
+/** The sister wiki's infobox for each title, cached under "<lang>:<title>". */
+async function fetchSisterWikitext(titles) {
+  const need = titles.filter((t) => !((`${SISTER}:${t}`) in cache));
+  for (let i = 0; i < need.length; i += 20) {
+    const batch = need.slice(i, i + 20);
+    let attempt = 0;
+    for (;;) {
+      const url = `https://${SISTER}.wikipedia.org/w/api.php?` + new URLSearchParams({ action: 'query', format: 'json', formatversion: '2', prop: 'revisions', rvprop: 'content', rvslots: 'main', redirects: '1', titles: batch.join('|') });
+      const res = await fetch(url, { headers: { 'User-Agent': UA } });
+      const text = await res.text();
+      let data = null;
+      try { data = JSON.parse(text); } catch {}
+      if (res.status === 429 || res.status >= 500 || !data) {
+        if (attempt > 5) throw new Error(`HTTP ${res.status}: ${text.slice(0, 80)}`);
+        const wait = [5000, 15000, 30000, 60000, 90000, 120000][attempt++];
+        console.log(`  (throttled - waiting ${wait / 1000}s)`);
+        await sleep(wait);
+        continue;
+      }
+      const forward = new Map(batch.map((t) => [t, t]));
+      for (const step of [...(data.query.normalized || []), ...(data.query.redirects || [])]) {
+        for (const [from, to] of forward) if (to === step.from) forward.set(from, step.to);
+      }
+      const pages = new Map((data.query.pages || []).map((p) => [p.title, p]));
+      for (const t of batch) {
+        const p = pages.get(forward.get(t));
+        cache[`${SISTER}:${t}`] = infoboxOf((p && p.revisions && p.revisions[0].slots.main.content) || '') || '';
+      }
+      break;
+    }
+    if ((i / 20) % 10 === 9 || i + 20 >= need.length) {
+      await writeFile(CACHE_FILE, JSON.stringify(cache));
+      console.log(`  ${SISTER}wiki: ${Math.min(i + 20, need.length)} / ${need.length}`);
+    }
+    await sleep(1000);
+  }
 }
 
 // ---- run --------------------------------------------------------------------
@@ -178,8 +269,29 @@ for (const r of wanted) {
   else { how = 'no figure anywhere'; neither++; }
   out[r.finalTitle] = { wikidata: wd, article: art ? art.value : null, chosen, how };
 }
+let sisterFound = 0;
+const sisterRows = [];
+if (SISTER) {
+  const unsized = wanted.filter((r) => out[r.finalTitle].chosen == null);
+  const titles = await sisterTitles(unsized.map((r) => r.qid));
+  const have = unsized.filter((r) => titles.get(r.qid));
+  console.log(`\n${SISTER}wiki: ${have.length} of the ${unsized.length} unsized have an article there`);
+  await fetchSisterWikitext(have.map((r) => titles.get(r.qid)));
+  for (const r of have) {
+    const t = titles.get(r.qid);
+    const a = articleSize(cache[`${SISTER}:${t}`], cfg.sizeUnit, true);
+    if (!a) continue;
+    out[r.finalTitle] = { wikidata: null, article: a.value, chosen: a.value, how: `${SISTER}wiki "${t}" (${a.field}: ${a.raw})` };
+    sisterFound++; neither--;
+    sisterRows.push([r.finalTitle, out[r.finalTitle].how]);
+  }
+}
 await writeFile(`${S}/${name}-sizes.json`, JSON.stringify(out, null, 1));
-console.log(`agree ${agree} · disagree ${disagree} · article only ${articleOnly} · wikidata only ${wikidataOnly} · neither ${neither}`);
+console.log(`agree ${agree} · disagree ${disagree} · article only ${articleOnly} · wikidata only ${wikidataOnly}${SISTER ? ` · ${SISTER}wiki ${sisterFound}` : ''} · neither ${neither}`);
+if (SISTER) {
+  console.log(`\n==== ${SISTER.toUpperCase()}WIKI (${sisterRows.length}) - the sister wiki's infobox figure; eyeball these ====`);
+  for (const [t, how] of sisterRows) console.log(`  ${t.padEnd(40)} ${how}`);
+}
 console.log(`\n==== DISAGREE (${rows.length}) - the article's figure was chosen; eyeball these ====`);
 for (const [t, how] of rows) console.log(`  ${t.padEnd(40)} ${how}`);
 const wdOnly = wanted.filter((r) => out[r.finalTitle].how.startsWith('wikidata only'));
