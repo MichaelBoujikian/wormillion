@@ -6399,9 +6399,9 @@ export const WIKI_TITLES = {
   "sea_ocean-laguna-madre": "Laguna Madre (United States)",
   "sea_ocean-massacre-bay": "Massacre Bay (Alaska)",
   "sea_ocean-kane-ohe-bay": "Kāneʻohe Bay",
-  "sea_ocean-trinity-bay": "Trinity Bay (Texas)",
+  "sea_ocean-trinity-bay-texas": "Trinity Bay (Texas)",
   "sea_ocean-charlotte-harbor": "Charlotte Harbor (estuary)",
-  "sea_ocean-thunder-bay": "Thunder Bay (Michigan)",
+  "sea_ocean-thunder-bay-michigan": "Thunder Bay (Michigan)",
   "sea_ocean-great-bay": "Great Bay (New Hampshire)",
   "sea_ocean-san-luis-pass": "San Luis Pass (Galveston Island)",
   "sea_ocean-vermilion-bay": "Vermilion Bay (Louisiana)",
@@ -7831,7 +7831,29 @@ export const WIKI_TITLES = {
   "island-hope-island-ontario": "Hope Island (Ontario)",
   "island-snake-island-british-columbia": "Snake Island (Nanaimo)",
   "island-alexander-island-nunavut": "Alexander Island (Nunavut)",
-  "island-smith-island-nunavut": "Smith Island (Hudson Bay, Nunavut)"
+  "island-smith-island-nunavut": "Smith Island (Hudson Bay, Nunavut)",
+
+  // --- sea_ocean (2026-09-18 Mexico and Canada seas) ---
+  "sea_ocean-st-lawrence-estuary": "Estuary of St. Lawrence",
+  "sea_ocean-conception-bay": "Conception Bay (Canada)",
+  "sea_ocean-english-bay": "English Bay, Vancouver",
+  "sea_ocean-gaspe-bay": "Gaspé Bay",
+  "sea_ocean-st-margarets-bay": "St. Margarets Bay, Nova Scotia",
+  "sea_ocean-victoria-harbour": "Victoria Harbour (British Columbia)",
+  "sea_ocean-baie-des-ha-ha-cote-nord": "Baie des Ha! Ha! (Côte-Nord)",
+  "sea_ocean-baie-des-ha-ha-saguenay": "Baie des Ha! Ha! (Saguenay River)",
+  "sea_ocean-queen-charlotte-sound": "Queen Charlotte Sound (Canada)",
+  "sea_ocean-st-georges-bay-nova-scotia": "St. Georges Bay (Nova Scotia)",
+  "sea_ocean-st-marys-bay-nova-scotia": "St. Marys Bay, Nova Scotia",
+  "sea_ocean-laguna-de-terminos": "Laguna de Términos",
+  "sea_ocean-st-george-s-bay-newfoundland-and-labrador": "St. George's Bay (Newfoundland and Labrador)",
+  "sea_ocean-st-mary-s-bay-newfoundland-and-labrador": "St. Mary's Bay, Newfoundland and Labrador",
+
+  // --- sea_ocean (2026-09-18 Mexico and Canada seas, namesakes) ---
+  "sea_ocean-north-channel-ontario": "North Channel (Ontario)",
+  "sea_ocean-thunder-bay-ontario": "Thunder Bay (Ontario)",
+  "sea_ocean-trinity-bay-newfoundland-and-labrador": "Trinity Bay (Newfoundland and Labrador)",
+  "sea_ocean-the-narrows-st-john-s": "The Narrows, St. John's"
 };
 
 /**
@@ -8415,5 +8437,7 @@ export const WIKI_VERIFIED = new Set([
   "island-protection-island-british-columbia",
   "island-grenadier-island-ontario",
   "island-isle-of-man-ontario",
-  "island-bear-island-new-brunswick"
+  "island-bear-island-new-brunswick",
+  // --- 2026-09-18 Mexico and Canada seas: Victoria Harbour is the harbour (a port by description) ---
+  "sea_ocean-victoria-harbour"
 ]);

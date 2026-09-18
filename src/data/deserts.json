@@ -1964,5 +1964,47 @@
   "wikiTitle": "Tonopah Desert",
   "lat": 33.49361111,
   "lon": -112.93722222
+ },
+ {
+  "id": "desert-cheltenham-badlands",
+  "category": "desert",
+  "name": "Cheltenham Badlands",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cheltenham Badlands\", 60-day daily median (60 days ending 2026-09-18); Standard reference desert areas (km2), rounded",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cheltenham Badlands",
+  "lat": 43.77361111,
+  "lon": -79.94444444
+ },
+ {
+  "id": "desert-big-muddy-badlands",
+  "category": "desert",
+  "name": "Big Muddy Badlands",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Big Muddy Badlands\", 60-day daily median (60 days ending 2026-09-18); Standard reference desert areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Big Muddy Badlands",
+  "lat": 49.2176,
+  "lon": -105.2191
+ },
+ {
+  "id": "desert-rock-creek-badlands",
+  "category": "desert",
+  "name": "Rock Creek Badlands",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rock Creek Badlands\", 60-day daily median (60 days ending 2026-09-18); Standard reference desert areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rock Creek Badlands",
+  "lat": 49.058,
+  "lon": -106.541
  }
 ]

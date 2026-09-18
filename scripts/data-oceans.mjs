@@ -119,6 +119,23 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-indian-ocean': ['Indian'],
   'sea_ocean-arctic-ocean': ['Arctic'],
 
+  // --- Lake Huron's North Channel and Lake Superior's Thunder Bay are in no ocean (2026-09-18) ---
+  'sea_ocean-north-channel-ontario': [],
+  'sea_ocean-thunder-bay-ontario': [],
+
+  // --- the Mexico and Canada seas (2026-09-18): the Great Lakes and Ottawa River bays are in no ocean; three articles without coordinates placed by hand ---
+  'sea_ocean-georgian-bay': [],
+  'sea_ocean-bay-of-quinte': [],
+  'sea_ocean-toronto-harbour': [],
+  'sea_ocean-hamilton-harbour': [],
+  'sea_ocean-nottawasaga-bay': [],
+  'sea_ocean-parry-sound': [],
+  'sea_ocean-batchawana-bay': [],
+  'sea_ocean-shirleys-bay': [],
+  'sea_ocean-charleston-harbor': ['Atlantic'],
+  'sea_ocean-princess-louisa-inlet': ['Pacific'],
+  'sea_ocean-gulf-of-tehuantepec': ['Pacific'],
+
   // --- the 2026-09-18 islands audit: Lake Michigan / Big Rideau / Powell Lake / Fraser / Kennebecasis / Miramichi / Saint John River islands in no ocean; the Hudson Bay islands straddle Arctic and Atlantic like Southampton and the sea cohort's Hudson Bay; Foxe Basin is Arctic ---
   'island-horseshoe-island-wisconsin': [],
   'island-grindstone-island-ontario': [],
@@ -583,7 +600,7 @@ export const OCEAN_OVERRIDES = {
   'sea_ocean-grand-traverse-bay': [],
   'sea_ocean-saginaw-bay': [],
   'sea_ocean-chequamegon-bay': [],
-  'sea_ocean-thunder-bay': [],
+  'sea_ocean-thunder-bay-michigan': [],
   'sea_ocean-sandusky-bay': [],
   'sea_ocean-presque-isle-bay': [],
   'sea_ocean-sturgeon-bay': [],

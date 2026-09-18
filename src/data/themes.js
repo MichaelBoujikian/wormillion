@@ -1935,7 +1935,9 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-14 expansion
       'Bonneville Salt Flats',
       // 2026-09-14 expansion
-      'High Desert', 'Jornada del Muerto', 'Kau Desert', 'Yuha Desert', 'Tonopah Desert'
+      'High Desert', 'Jornada del Muerto', 'Kau Desert', 'Yuha Desert', 'Tonopah Desert',
+      // 2026-09-18 Mexico and Canada deserts
+      'Cheltenham Badlands', 'Big Muddy Badlands', 'Rock Creek Badlands'
     ]
   },
 
@@ -2048,10 +2050,10 @@ globalThis.WORMILLION_THEMES = {
       'Kachemak Bay', 'Ocracoke Inlet', 'Oregon Inlet', 'Provincetown Harbor', 'Choctawhatchee Bay',
       'Elkhorn Slough', 'Trunk Bay', 'Admiralty Inlet', 'Lake Worth Lagoon', 'Chequamegon Bay',
       'Newark Bay', 'Willapa Bay', 'Puerto Mosquito', 'Rhode Island Sound',
-      'Winyah Bay', 'Peconic Bay', 'Trinity Bay', 'Commencement Bay', 'Knik Arm',
+      'Winyah Bay', 'Peconic Bay', 'Trinity Bay (Texas)', 'Commencement Bay', 'Knik Arm',
       'Manasquan Inlet', 'Wallabout Bay', 'Flushing Bay', 'Mosquito Lagoon', 'Boundary Bay',
       'Charlotte Harbor', 'Gastineau Channel', 'Haro Strait', 'Hilo Bay', 'Sebastian Inlet',
-      'Matanzas Inlet', 'Presque Isle Bay', 'St. Joseph Bay', 'Thunder Bay', 'Disenchantment Bay',
+      'Matanzas Inlet', 'Presque Isle Bay', 'St. Joseph Bay', 'Thunder Bay (Michigan)', 'Disenchantment Bay',
       'Dismal Nitch', 'Gardiners Bay', 'Great Bay', 'Sandusky Bay', 'Tillamook Bay',
       'Apalachee Bay', 'Apalachicola Bay', 'Bellingham Bay', 'Gravesend Bay', 'Gulf of the Farallones',
       'Netarts Bay', 'Pensacola Bay', 'Portage Bay', 'Rigolets', 'Rosario Strait',
@@ -2070,7 +2072,30 @@ globalThis.WORMILLION_THEMES = {
       'Murder Cove', 'Padilla Bay', 'Shoup Bay', 'Tumon Bay',
       'Semiahmoo Bay',
       // 2026-09-18 namesakes, decision 5
-      'Baffin Bay (Texas)', 'Amundsen Gulf'
+      'Baffin Bay (Texas)', 'Amundsen Gulf',
+      // 2026-09-18 Mexico and Canada seas
+      'Salish Sea', 'Georgian Bay', 'Nootka Sound', 'Burrard Inlet', 'Terror Bay',
+      'Howe Sound', 'St. Lawrence Estuary', 'Northumberland Strait', 'Hecate Strait', 'Magdalena Bay',
+      'Frobisher Bay', 'Fury and Hecla Strait', 'Strait of Belle Isle', 'Bay of Quinte', 'Charleston Harbor',
+      'Desolation Sound', 'Bay of Campeche', 'Skookumchuck Narrows', 'Toronto Harbour', 'Ungava Bay',
+      'Clayoquot Sound', 'Nantucket Sound', 'Seymour Narrows', 'Indian Arm', 'Norton Sound',
+      'Conception Bay', 'Johnstone Strait', 'Nares Strait', 'Cabot Strait', 'Chaleur Bay',
+      'Lancaster Sound', 'English Bay', 'Minas Basin', 'Gaspe Bay', 'St. Margarets Bay',
+      'Active Pass', 'Victoria Harbour', 'Baie des Ha! Ha! (Cote-Nord)', 'Baie des Ha! Ha! (Saguenay)', 'Queen Charlotte Sound',
+      'Placentia Bay', 'Strait of Canso', 'Foxe Basin', 'Mahone Bay', 'Princess Louisa Inlet',
+      'Queen Maud Gulf', 'Barkley Sound', 'Bute Inlet', 'Discovery Passage', 'Hamilton Harbour',
+      'Bedford Basin', 'Resolute Bay', 'Victoria Strait', 'Jervis Inlet', 'Malpeque Bay',
+      'Gulf of Boothia', 'Gulf of Tehuantepec', 'Nottawasaga Bay', 'Parry Channel', 'Queen Charlotte Strait',
+      'Wilmot and Crampton Bay', "Bay d'Espoir", "Pollett's Cove", 'Toba Inlet', 'Annapolis Basin',
+      'Bathurst Inlet', 'Grays Bay', 'Kennedy Channel', 'Parry Sound', 'Tanquary Fiord',
+      'Alberni Inlet', 'Bonavista Bay', 'Bonne Bay', 'Chetumal Bay', 'Coronation Gulf',
+      'Croker Bay', 'Cumberland Sound', 'Departure Bay', 'Knight Inlet', 'Pachena Bay',
+      'Prince of Wales Strait', 'San Ignacio Lagoon', 'St. Georges Bay (Nova Scotia)', 'St. Marys Bay (Nova Scotia)', 'Batchawana Bay',
+      'Fortune Bay', 'Laguna de Terminos', 'Milne Inlet', 'Saanich Inlet', 'San Josef Bay',
+      'Smith Sound', "St. George's Bay (Newfoundland and Labrador)", 'Cobequid Bay', 'Foxe Channel', 'Notre Dame Bay',
+      'Peel Sound', 'Quatsino Sound', 'Shirleys Bay', "St. Mary's Bay (Newfoundland and Labrador)",
+      // 2026-09-18 Mexico and Canada seas, namesakes
+      'North Channel (Ontario)', 'Thunder Bay (Ontario)', 'Trinity Bay (Newfoundland and Labrador)', "The Narrows (St. John's)"
       
     ],
     'the Antarctic': [

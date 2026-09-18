@@ -53,7 +53,7 @@ const EXPECTED = {
     'dome', 'lava', 'volcanic', 'crater', 'caldera', 'knob',
     // the 2026-09-18 Mexico and Canada scouring: a cinder cone (Tseax Cone, Eve Cone) is a volcano
     'cone'],
-  desert: ['desert', 'sand', 'dune', 'arid', 'erg', 'steppe', 'area', 'region', 'plain'],
+  desert: ['desert', 'sand', 'dune', 'arid', 'erg', 'steppe', 'area', 'region', 'plain', 'badlands'],
   island: ['island', 'isle', 'archipelago', 'atoll', 'islet', 'countr', 'territory', 'landmass'],
   // 2026-09-17: Europe's coast is fjords, firths, sea lochs, inlets and lagoons
   sea_ocean: ['sea', 'ocean', 'gulf', 'bay', 'strait', 'body of water', 'water', 'channel', 'sound', 'basin', 'fjord', 'firth', 'inlet', 'lagoon', 'loch', 'lough', 'estuary', 'cove', 'bight', 'voe', 'kyle', 'roads',

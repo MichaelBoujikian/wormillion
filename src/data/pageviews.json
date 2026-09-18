@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T21:45:20.250Z",
+ "fetched": "2026-09-18T21:56:21.074Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -92978,6 +92978,27 @@
    "lat": 33.49361111,
    "lon": -112.93722222
   },
+  "desert-cheltenham-badlands": {
+   "title": "Cheltenham Badlands",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 43.77361111,
+   "lon": -79.94444444
+  },
+  "desert-big-muddy-badlands": {
+   "title": "Big Muddy Badlands",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 49.2176,
+   "lon": -105.2191
+  },
+  "desert-rock-creek-badlands": {
+   "title": "Rock Creek Badlands",
+   "monthlyViews": 244,
+   "days": 12,
+   "lat": 49.058,
+   "lon": -106.541
+  },
   "island-greenland": {
    "title": "Greenland",
    "monthlyViews": 112324,
@@ -115784,7 +115805,7 @@
    "lat": 40.96361111,
    "lon": -72.46666667
   },
-  "sea_ocean-trinity-bay": {
+  "sea_ocean-trinity-bay-texas": {
    "title": "Trinity Bay (Texas)",
    "monthlyViews": 609,
    "days": 60,
@@ -115896,7 +115917,7 @@
    "lat": 29.80111111,
    "lon": -85.34194444
   },
-  "sea_ocean-thunder-bay": {
+  "sea_ocean-thunder-bay-michigan": {
    "title": "Thunder Bay (Michigan)",
    "monthlyViews": 457,
    "days": 60,
@@ -116490,6 +116511,727 @@
    "days": 60,
    "lat": 39.08405556,
    "lon": 118.81830556
+  },
+  "sea_ocean-salish-sea": {
+   "title": "Salish Sea",
+   "monthlyViews": 9406,
+   "days": 60,
+   "lat": 48.93666667,
+   "lon": -123.06111111
+  },
+  "sea_ocean-georgian-bay": {
+   "title": "Georgian Bay",
+   "monthlyViews": 5814,
+   "days": 60,
+   "lat": 45.5,
+   "lon": -81
+  },
+  "sea_ocean-nootka-sound": {
+   "title": "Nootka Sound",
+   "monthlyViews": 3501,
+   "days": 60,
+   "lat": 49.68333333,
+   "lon": -126.55
+  },
+  "sea_ocean-burrard-inlet": {
+   "title": "Burrard Inlet",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 49.29861111,
+   "lon": -123.08527778
+  },
+  "sea_ocean-terror-bay": {
+   "title": "Terror Bay",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 68.86666667,
+   "lon": -98.95
+  },
+  "sea_ocean-howe-sound": {
+   "title": "Howe Sound",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 49.5,
+   "lon": -123.31666667
+  },
+  "sea_ocean-st-lawrence-estuary": {
+   "title": "Estuary of St. Lawrence",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 49.31666667,
+   "lon": -67.38333333
+  },
+  "sea_ocean-northumberland-strait": {
+   "title": "Northumberland Strait",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 46.08333333,
+   "lon": -63.58333333
+  },
+  "sea_ocean-hecate-strait": {
+   "title": "Hecate Strait",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 53.18333333,
+   "lon": -130.83333333
+  },
+  "sea_ocean-magdalena-bay": {
+   "title": "Magdalena Bay",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 24.58333333,
+   "lon": -112
+  },
+  "sea_ocean-frobisher-bay": {
+   "title": "Frobisher Bay",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 62.83333333,
+   "lon": -66.58333333
+  },
+  "sea_ocean-fury-and-hecla-strait": {
+   "title": "Fury and Hecla Strait",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 69.83333333,
+   "lon": -83
+  },
+  "sea_ocean-strait-of-belle-isle": {
+   "title": "Strait of Belle Isle",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 51.5,
+   "lon": -56.5
+  },
+  "sea_ocean-bay-of-quinte": {
+   "title": "Bay of Quinte",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 44.15,
+   "lon": -77.25
+  },
+  "sea_ocean-charleston-harbor": {
+   "title": "Charleston Harbor",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-desolation-sound": {
+   "title": "Desolation Sound",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 50.12222222,
+   "lon": -124.75833333
+  },
+  "sea_ocean-bay-of-campeche": {
+   "title": "Bay of Campeche",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 20,
+   "lon": -94
+  },
+  "sea_ocean-skookumchuck-narrows": {
+   "title": "Skookumchuck Narrows",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 49.7475,
+   "lon": -123.90777778
+  },
+  "sea_ocean-toronto-harbour": {
+   "title": "Toronto Harbour",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 43.63444444,
+   "lon": -79.37083333
+  },
+  "sea_ocean-ungava-bay": {
+   "title": "Ungava Bay",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 59.5,
+   "lon": -67.5
+  },
+  "sea_ocean-clayoquot-sound": {
+   "title": "Clayoquot Sound",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 49.2,
+   "lon": -126.1
+  },
+  "sea_ocean-nantucket-sound": {
+   "title": "Nantucket Sound",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 41.33333333,
+   "lon": -70.24944444
+  },
+  "sea_ocean-seymour-narrows": {
+   "title": "Seymour Narrows",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 50.13666667,
+   "lon": -125.35333333
+  },
+  "sea_ocean-indian-arm": {
+   "title": "Indian Arm",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 49.37694444,
+   "lon": -122.87805556
+  },
+  "sea_ocean-norton-sound": {
+   "title": "Norton Sound",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 63.9,
+   "lon": -163.3
+  },
+  "sea_ocean-conception-bay": {
+   "title": "Conception Bay (Canada)",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 47.75,
+   "lon": -53
+  },
+  "sea_ocean-johnstone-strait": {
+   "title": "Johnstone Strait",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 50.46666667,
+   "lon": -126.08333333
+  },
+  "sea_ocean-nares-strait": {
+   "title": "Nares Strait",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 80,
+   "lon": -70
+  },
+  "sea_ocean-cabot-strait": {
+   "title": "Cabot Strait",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 47.25,
+   "lon": -59.75
+  },
+  "sea_ocean-chaleur-bay": {
+   "title": "Chaleur Bay",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 47.83,
+   "lon": -65.5
+  },
+  "sea_ocean-lancaster-sound": {
+   "title": "Lancaster Sound",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 74.21666667,
+   "lon": -84
+  },
+  "sea_ocean-english-bay": {
+   "title": "English Bay, Vancouver",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 49.28333333,
+   "lon": -123.15416667
+  },
+  "sea_ocean-minas-basin": {
+   "title": "Minas Basin",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 45.25,
+   "lon": -64.16666667
+  },
+  "sea_ocean-gaspe-bay": {
+   "title": "Gaspé Bay",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 48.767,
+   "lon": -64.289
+  },
+  "sea_ocean-st-margarets-bay": {
+   "title": "St. Margarets Bay, Nova Scotia",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 44.58333333,
+   "lon": -64
+  },
+  "sea_ocean-active-pass": {
+   "title": "Active Pass",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 48.85972222,
+   "lon": -123.31194444
+  },
+  "sea_ocean-victoria-harbour": {
+   "title": "Victoria Harbour (British Columbia)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 48.42111111,
+   "lon": -123.39277778
+  },
+  "sea_ocean-baie-des-ha-ha-cote-nord": {
+   "title": "Baie des Ha! Ha! (Côte-Nord)",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 50.9875,
+   "lon": -58.9375
+  },
+  "sea_ocean-baie-des-ha-ha-saguenay": {
+   "title": "Baie des Ha! Ha! (Saguenay River)",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 48.3483,
+   "lon": -70.81
+  },
+  "sea_ocean-queen-charlotte-sound": {
+   "title": "Queen Charlotte Sound (Canada)",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 51.5,
+   "lon": -129
+  },
+  "sea_ocean-placentia-bay": {
+   "title": "Placentia Bay",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 47.25083333,
+   "lon": -54.25888889
+  },
+  "sea_ocean-strait-of-canso": {
+   "title": "Strait of Canso",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 45.59722222,
+   "lon": -61.37722222
+  },
+  "sea_ocean-foxe-basin": {
+   "title": "Foxe Basin",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 65.93055556,
+   "lon": -77.91944444
+  },
+  "sea_ocean-mahone-bay": {
+   "title": "Mahone Bay",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 44.5,
+   "lon": -64.21666667
+  },
+  "sea_ocean-princess-louisa-inlet": {
+   "title": "Princess Louisa Inlet",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-queen-maud-gulf": {
+   "title": "Queen Maud Gulf",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 68.33333333,
+   "lon": -102
+  },
+  "sea_ocean-barkley-sound": {
+   "title": "Barkley Sound",
+   "monthlyViews": 457,
+   "days": 32,
+   "lat": 48.89888889,
+   "lon": -125.27444444
+  },
+  "sea_ocean-bute-inlet": {
+   "title": "Bute Inlet",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 50.6525,
+   "lon": -124.88611111
+  },
+  "sea_ocean-discovery-passage": {
+   "title": "Discovery Passage",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 50.21666667,
+   "lon": -125.38333333
+  },
+  "sea_ocean-hamilton-harbour": {
+   "title": "Hamilton Harbour",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 43.29,
+   "lon": -79.835
+  },
+  "sea_ocean-bedford-basin": {
+   "title": "Bedford Basin",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 44.7,
+   "lon": -63.63333333
+  },
+  "sea_ocean-resolute-bay": {
+   "title": "Resolute Bay",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 74.68333333,
+   "lon": -94.83333333
+  },
+  "sea_ocean-victoria-strait": {
+   "title": "Victoria Strait",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 69.5,
+   "lon": -100.5
+  },
+  "sea_ocean-jervis-inlet": {
+   "title": "Jervis Inlet",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 49.92361111,
+   "lon": -123.97416667
+  },
+  "sea_ocean-malpeque-bay": {
+   "title": "Malpeque Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 46.53333333,
+   "lon": -63.78333333
+  },
+  "sea_ocean-gulf-of-boothia": {
+   "title": "Gulf of Boothia",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 70.66666667,
+   "lon": -91
+  },
+  "sea_ocean-gulf-of-tehuantepec": {
+   "title": "Gulf of Tehuantepec",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-nottawasaga-bay": {
+   "title": "Nottawasaga Bay",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 44.66722222,
+   "lon": -80.30611111
+  },
+  "sea_ocean-parry-channel": {
+   "title": "Parry Channel",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 74.25,
+   "lon": -94
+  },
+  "sea_ocean-queen-charlotte-strait": {
+   "title": "Queen Charlotte Strait",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 50.83777778,
+   "lon": -127.45805556
+  },
+  "sea_ocean-wilmot-and-crampton-bay": {
+   "title": "Wilmot and Crampton Bay",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 68.18333333,
+   "lon": -98.75
+  },
+  "sea_ocean-bay-d-espoir": {
+   "title": "Bay d'Espoir",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 47.67388889,
+   "lon": -56.1075
+  },
+  "sea_ocean-pollett-s-cove": {
+   "title": "Pollett's Cove",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.918,
+   "lon": -60.689
+  },
+  "sea_ocean-toba-inlet": {
+   "title": "Toba Inlet",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 50.41083333,
+   "lon": -124.60388889
+  },
+  "sea_ocean-annapolis-basin": {
+   "title": "Annapolis Basin",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 44.65,
+   "lon": -65.7
+  },
+  "sea_ocean-bathurst-inlet": {
+   "title": "Bathurst Inlet",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 67.65416667,
+   "lon": -108.46916667
+  },
+  "sea_ocean-grays-bay": {
+   "title": "Grays Bay",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 67.81666667,
+   "lon": -111.05
+  },
+  "sea_ocean-kennedy-channel": {
+   "title": "Kennedy Channel",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 80.91666667,
+   "lon": -66.5
+  },
+  "sea_ocean-parry-sound": {
+   "title": "Parry Sound",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.35861111,
+   "lon": -80.12
+  },
+  "sea_ocean-tanquary-fiord": {
+   "title": "Tanquary Fiord",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 81.08333333,
+   "lon": -78.75
+  },
+  "sea_ocean-alberni-inlet": {
+   "title": "Alberni Inlet",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.05944444,
+   "lon": -124.84916667
+  },
+  "sea_ocean-bonavista-bay": {
+   "title": "Bonavista Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.75,
+   "lon": -53.49916667
+  },
+  "sea_ocean-bonne-bay": {
+   "title": "Bonne Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.55333333,
+   "lon": -57.93138889
+  },
+  "sea_ocean-chetumal-bay": {
+   "title": "Chetumal Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 18.33333333,
+   "lon": -88.08333333
+  },
+  "sea_ocean-coronation-gulf": {
+   "title": "Coronation Gulf",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 68.13333333,
+   "lon": -112
+  },
+  "sea_ocean-croker-bay": {
+   "title": "Croker Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 74.7,
+   "lon": -83.25
+  },
+  "sea_ocean-cumberland-sound": {
+   "title": "Cumberland Sound",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 65.33333333,
+   "lon": -66.01666667
+  },
+  "sea_ocean-departure-bay": {
+   "title": "Departure Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.192011,
+   "lon": -123.954556
+  },
+  "sea_ocean-knight-inlet": {
+   "title": "Knight Inlet",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 50.68361111,
+   "lon": -125.87472222
+  },
+  "sea_ocean-pachena-bay": {
+   "title": "Pachena Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.777,
+   "lon": -125.1295
+  },
+  "sea_ocean-prince-of-wales-strait": {
+   "title": "Prince of Wales Strait",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 72.35388889,
+   "lon": -118.7825
+  },
+  "sea_ocean-san-ignacio-lagoon": {
+   "title": "San Ignacio Lagoon",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 26.9,
+   "lon": -113.21666667
+  },
+  "sea_ocean-st-georges-bay-nova-scotia": {
+   "title": "St. Georges Bay (Nova Scotia)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 45.75,
+   "lon": -61.75
+  },
+  "sea_ocean-st-marys-bay-nova-scotia": {
+   "title": "St. Marys Bay, Nova Scotia",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 44.41666667,
+   "lon": -66.1
+  },
+  "sea_ocean-batchawana-bay": {
+   "title": "Batchawana Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.88194444,
+   "lon": -84.48305556
+  },
+  "sea_ocean-fortune-bay": {
+   "title": "Fortune Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 47.25,
+   "lon": -55.49916667
+  },
+  "sea_ocean-laguna-de-terminos": {
+   "title": "Laguna de Términos",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 18.61666667,
+   "lon": -91.55
+  },
+  "sea_ocean-milne-inlet": {
+   "title": "Milne Inlet",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 72.25,
+   "lon": -80.5
+  },
+  "sea_ocean-saanich-inlet": {
+   "title": "Saanich Inlet",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 48.62583333,
+   "lon": -123.50722222
+  },
+  "sea_ocean-san-josef-bay": {
+   "title": "San Josef Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.65666667,
+   "lon": -128.31472222
+  },
+  "sea_ocean-smith-sound": {
+   "title": "Smith Sound",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 78.41666667,
+   "lon": -74
+  },
+  "sea_ocean-st-george-s-bay-newfoundland-and-labrador": {
+   "title": "St. George's Bay (Newfoundland and Labrador)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 48.41,
+   "lon": -58.9
+  },
+  "sea_ocean-cobequid-bay": {
+   "title": "Cobequid Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.35,
+   "lon": -63.75
+  },
+  "sea_ocean-foxe-channel": {
+   "title": "Foxe Channel",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 65,
+   "lon": -80
+  },
+  "sea_ocean-notre-dame-bay": {
+   "title": "Notre Dame Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.75,
+   "lon": -54.99916667
+  },
+  "sea_ocean-peel-sound": {
+   "title": "Peel Sound",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 73,
+   "lon": -96.5
+  },
+  "sea_ocean-quatsino-sound": {
+   "title": "Quatsino Sound",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 50.50833333,
+   "lon": -127.7
+  },
+  "sea_ocean-shirleys-bay": {
+   "title": "Shirleys Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.375121,
+   "lon": -75.897846
+  },
+  "sea_ocean-st-mary-s-bay-newfoundland-and-labrador": {
+   "title": "St. Mary's Bay, Newfoundland and Labrador",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.83333333,
+   "lon": -53.74916667
+  },
+  "sea_ocean-north-channel-ontario": {
+   "title": "North Channel (Ontario)",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 46.06942,
+   "lon": -82.894592
+  },
+  "sea_ocean-thunder-bay-ontario": {
+   "title": "Thunder Bay (Ontario)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 48.3667,
+   "lon": -89.0333
+  },
+  "sea_ocean-trinity-bay-newfoundland-and-labrador": {
+   "title": "Trinity Bay (Newfoundland and Labrador)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 48,
+   "lon": -53.49916667
+  },
+  "sea_ocean-the-narrows-st-john-s": {
+   "title": "The Narrows, St. John's",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 47.56583333,
+   "lon": -52.68416667
   }
  }
 }

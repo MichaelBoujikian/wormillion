@@ -8947,6 +8947,9 @@ Jornada del Muerto|0
 Kau Desert|0
 Yuha Desert|0
 Tonopah Desert|0
+Cheltenham Badlands|0
+Big Muddy Badlands|0
+Rock Creek Badlands|0
 `;
 
 export const ISLANDS = `
@@ -12211,7 +12214,7 @@ Puerto Mosquito|0
 Rhode Island Sound|0
 Winyah Bay|0
 Peconic Bay|0
-Trinity Bay|0
+Trinity Bay (Texas)|0
 Commencement Bay|0
 Knik Arm|0
 Manasquan Inlet|0
@@ -12227,7 +12230,7 @@ Sebastian Inlet|0
 Matanzas Inlet|0
 Presque Isle Bay|0
 St. Joseph Bay|0
-Thunder Bay|0
+Thunder Bay (Michigan)|0
 Disenchantment Bay|0
 Dismal Nitch|0
 Gardiners Bay|0
@@ -12312,4 +12315,107 @@ Baffin Bay (Texas)|219
 Amundsen Gulf|0
 Bay of Cadiz|111
 Bohai Bay|0
+Salish Sea|18000
+Georgian Bay|15000
+Nootka Sound|0
+Burrard Inlet|0
+Terror Bay|0
+Howe Sound|0
+St. Lawrence Estuary|0|Estuary of St. Lawrence,Gulf of St. Lawrence Estuary
+Northumberland Strait|0
+Hecate Strait|0
+Magdalena Bay|0
+Frobisher Bay|10000
+Fury and Hecla Strait|0
+Strait of Belle Isle|0
+Bay of Quinte|0
+Charleston Harbor|0
+Desolation Sound|0
+Bay of Campeche|0
+Skookumchuck Narrows|0
+Toronto Harbour|0
+Ungava Bay|50000
+Clayoquot Sound|0
+Nantucket Sound|0
+Seymour Narrows|0
+Indian Arm|0
+Norton Sound|0
+Conception Bay|0
+Johnstone Strait|0
+Nares Strait|0
+Cabot Strait|0
+Chaleur Bay|0
+Lancaster Sound|0
+English Bay|0
+Minas Basin|0
+Gaspe Bay|0
+St. Margarets Bay|0
+Active Pass|0
+Victoria Harbour|0
+Baie des Ha! Ha! (Cote-Nord)|0
+Baie des Ha! Ha! (Saguenay)|0
+Queen Charlotte Sound|0
+Placentia Bay|0
+Strait of Canso|0
+Foxe Basin|112800
+Mahone Bay|0
+Princess Louisa Inlet|0
+Queen Maud Gulf|0
+Barkley Sound|0
+Bute Inlet|0
+Discovery Passage|0
+Hamilton Harbour|500
+Bedford Basin|0
+Resolute Bay|0
+Victoria Strait|0
+Jervis Inlet|0
+Malpeque Bay|204
+Gulf of Boothia|0
+Gulf of Tehuantepec|0
+Nottawasaga Bay|0
+Parry Channel|0
+Queen Charlotte Strait|0
+Wilmot and Crampton Bay|0
+Bay d'Espoir|0
+Pollett's Cove|0
+Toba Inlet|0
+Annapolis Basin|0
+Bathurst Inlet|0
+Grays Bay|0
+Kennedy Channel|0
+Parry Sound|0
+Tanquary Fiord|493
+Alberni Inlet|54.9
+Bonavista Bay|0
+Bonne Bay|0
+Chetumal Bay|0
+Coronation Gulf|0
+Croker Bay|0
+Cumberland Sound|0
+Departure Bay|0
+Knight Inlet|300
+Pachena Bay|4.9
+Prince of Wales Strait|0
+San Ignacio Lagoon|1427.17
+St. Georges Bay (Nova Scotia)|0
+St. Marys Bay (Nova Scotia)|0
+Batchawana Bay|0
+Fortune Bay|0
+Laguna de Terminos|7061.48
+Milne Inlet|882
+Saanich Inlet|67
+San Josef Bay|0
+Smith Sound|0
+St. George's Bay (Newfoundland and Labrador)|0
+Cobequid Bay|0
+Foxe Channel|62000
+Notre Dame Bay|0
+Peel Sound|0
+Quatsino Sound|0
+Shirleys Bay|0
+St. Mary's Bay (Newfoundland and Labrador)|0
+North Channel (Ontario)|0
+Thunder Bay (Ontario)|0
+Trinity Bay (Newfoundland and Labrador)|2994
+The Narrows (St. John's)|0
 `;
