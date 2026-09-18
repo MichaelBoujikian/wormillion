@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T03:43:01.159Z",
+ "fetched": "2026-09-18T03:44:31.422Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -107957,6 +107957,41 @@
    "days": 60,
    "lat": 48.99972222,
    "lon": -122.81805556
+  },
+  "sea_ocean-bothnian-bay": {
+   "title": "Bothnian Bay",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 65,
+   "lon": 23
+  },
+  "sea_ocean-baffin-bay-texas": {
+   "title": "Baffin Bay (Texas)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 27.25583333,
+   "lon": -97.51638889
+  },
+  "sea_ocean-amundsen-gulf": {
+   "title": "Amundsen Gulf",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 71.00027778,
+   "lon": -124.00277778
+  },
+  "sea_ocean-bay-of-cadiz": {
+   "title": "Bay of Cádiz",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 36.49416667,
+   "lon": -6.21694444
+  },
+  "sea_ocean-bohai-bay": {
+   "title": "Bohai Bay",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 39.08405556,
+   "lon": 118.81830556
   }
  }
 }

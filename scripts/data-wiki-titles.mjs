@@ -7043,7 +7043,11 @@ export const WIKI_TITLES = {
   "island-long-island-washington": "Long Island (Washington)",
   "island-round-island-mississippi": "Round Island (Mississippi)",
   "island-baker-island-alaska": "Baker Island (Alaska)",
-  "island-washington-island-michigan": "Washington Island (Michigan)"
+  "island-washington-island-michigan": "Washington Island (Michigan)",
+
+  // --- sea_ocean (2026-09-18 namesakes, decision 5) ---
+  "sea_ocean-baffin-bay-texas": "Baffin Bay (Texas)",
+  "sea_ocean-bay-of-cadiz": "Bay of Cádiz"
 };
 
 /**

@@ -1790,7 +1790,9 @@ globalThis.WORMILLION_THEMES = {
       'Gills Bay', 'Gruinard Bay', 'Hunafloi', 'Killala Bay', 'Loch Sunart',
       'Pease Bay', 'Porlock Bay', 'St Ives Bay', 'Sunnylvsfjorden',
       'Worbarrow Bay', 'Isafjardardjup',
-      'Lulworth Cove'
+      'Lulworth Cove',
+      // 2026-09-18 namesakes, decision 5
+      'Bothnian Bay', 'Bay of Cadiz'
     ],
     'Asia': [
       'South China Sea', 'East China Sea', 'Yellow Sea', 'Sea of Japan',
@@ -1807,7 +1809,9 @@ globalThis.WORMILLION_THEMES = {
       'Gulf of Aqaba', 'Gulf of Kutch', 'Gulf of Khambhat', 'Gulf of Mannar', 'Gulf of Martaban',
       'Gulf of Tonkin', 'Laccadive Sea', 'Gulf of Bahrain', 'Gulf of Masirah', 'Tokyo Bay',
       'Osaka Bay', 'Bohai Sea', 'Seto Inland Sea', 'Manila Bay', 'Leyte Gulf',
-      'Cenderawasih Bay'
+      'Cenderawasih Bay',
+      // 2026-09-18 namesakes, decision 5
+      'Bohai Bay'
     ],
     'the Americas': [
       'Caribbean Sea', 'Gulf of Mexico', 'Hudson Bay', 'Labrador Sea',
@@ -1861,6 +1865,8 @@ globalThis.WORMILLION_THEMES = {
       'Haverstraw Bay', 'Little Bay de Noc', 'Moriches Inlet',
       'Murder Cove', 'Padilla Bay', 'Shoup Bay', 'Tumon Bay',
       'Semiahmoo Bay',
+      // 2026-09-18 namesakes, decision 5
+      'Baffin Bay (Texas)', 'Amundsen Gulf'
       
     ],
     'the Antarctic': [

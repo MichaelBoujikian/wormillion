@@ -9741,5 +9741,91 @@
   "oceans": [
    "Pacific"
   ]
+ },
+ {
+  "id": "sea_ocean-bothnian-bay",
+  "category": "sea_ocean",
+  "name": "Bothnian Bay",
+  "aliases": [],
+  "size": 36800,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bothnian Bay\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bothnian Bay",
+  "lat": 65,
+  "lon": 23,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-baffin-bay-texas",
+  "category": "sea_ocean",
+  "name": "Baffin Bay",
+  "aliases": [],
+  "size": 219,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Baffin Bay (Texas)\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "qualifier": "Texas",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Baffin Bay (Texas)",
+  "lat": 27.25583333,
+  "lon": -97.51638889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-amundsen-gulf",
+  "category": "sea_ocean",
+  "name": "Amundsen Gulf",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Amundsen Gulf\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Amundsen Gulf",
+  "lat": 71.00027778,
+  "lon": -124.00277778,
+  "oceans": [
+   "Arctic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-cadiz",
+  "category": "sea_ocean",
+  "name": "Bay of Cadiz",
+  "aliases": [],
+  "size": 111,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Cádiz\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Cádiz",
+  "lat": 36.49416667,
+  "lon": -6.21694444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bohai-bay",
+  "category": "sea_ocean",
+  "name": "Bohai Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bohai Bay\", 60-day daily median (60 days ending 2026-09-18); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bohai Bay",
+  "lat": 39.08405556,
+  "lon": 118.81830556,
+  "oceans": [
+   "Pacific"
+  ]
  }
 ]

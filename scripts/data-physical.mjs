@@ -11093,4 +11093,9 @@ Padilla Bay|0
 Shoup Bay|0
 Tumon Bay|0
 Semiahmoo Bay|0
+Bothnian Bay|36800
+Baffin Bay (Texas)|219
+Amundsen Gulf|0
+Bay of Cadiz|111
+Bohai Bay|0
 `;

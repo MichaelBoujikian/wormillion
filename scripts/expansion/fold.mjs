@@ -331,7 +331,9 @@ function appendToBlock(text, blockName, rows) {
     while (/\s/.test(text[insertAt - 1])) insertAt--;
     const chunks = [];
     for (let i = 0; i < names.length; i += 5) chunks.push('      ' + names.slice(i, i + 5).map(q).join(', '));
-    const insertion = `,${EOL}      // ${LABEL}${EOL}` + chunks.join(`,${EOL}`);
+    // a list that already ends in a comma gets no second one: ',,' is an array hole
+    const comma = text[insertAt - 1] === ',' ? '' : ',';
+    const insertion = `${comma}${EOL}      // ${LABEL}${EOL}` + chunks.join(`,${EOL}`);
     text = text.slice(0, insertAt) + insertion + text.slice(insertAt);
   }
   await writeFile(path, text, 'utf8');
