@@ -810,6 +810,15 @@ builds the served bank; `Wormillion.run.createRun(bank, { rng })` a run whose
 
 ## Open threads and judgment calls (none urgent)
 
+- **To fix (reported by the user 2026-09-18, not yet looked at):** the
+  daily of 2026-09-18, "Name a country with a T in it", scored
+  *Micronesia* — a name with no T. Most likely the letter rule counts a
+  spelling variant (the alias / official name "Federated States of
+  Micronesia") through `variantsOf` in `promptBank.js`, so the bare name
+  the player typed passes on a word they never typed; decide whether letter
+  rules should see only the display name (and the typed spelling), then
+  check the other countries with an official-name alias (Iran, Laos, Syria,
+  Tanzania…) and add a test. Not acted on yet.
 - Namesake leftovers from the audit reports: the settlement articles that
   stand in for islands carry the town's total area (30 rows, consistent with
   the pipeline; none crosses a size threshold — the fix, if wanted, is
