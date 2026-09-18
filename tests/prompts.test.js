@@ -495,6 +495,9 @@ test('a foreign generic word is the name for letter rules: Laguna Colorada start
   assert.ok(!promptBank.satisfiesLetter(superior, { kind: 'starts', letter: 'l' }));
   // ...but a sea word inside a river's name is the name: the Bay du Nord
   // River starts with B (the 2026-09-18 rivers audit had it starting with D)
+  const guarda = { category: 'island', name: 'Isla Angel de la Guarda', aliases: [] };
+  guarda.variants = promptBank.variantsOf(guarda);
+  assert.ok(promptBank.satisfiesLetter(guarda, { kind: 'starts', letter: 'i' }));
   const nord = { category: 'river', name: 'Bay du Nord', aliases: [] };
   nord.variants = promptBank.variantsOf(nord);
   assert.ok(promptBank.satisfiesLetter(nord, { kind: 'starts', letter: 'b' }));

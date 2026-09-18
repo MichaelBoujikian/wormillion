@@ -9266,7 +9266,7 @@ Nosy Be|320
 Rodrigues|108
 Principe|136
 Sao Tome Island|854
-Santiago Island|991
+Santiago Island (Cape Verde)|991
 Sal|216|Sal Island
 Boa Vista|620
 Robben Island|5.07|Robben
@@ -9563,7 +9563,7 @@ Valaam|27.8
 Kotlin|11.6
 Vasilyevsky Island|11
 Wolin|265
-Snake Island|0.17|Zmiinyi Island
+Snake Island (Ukraine)|0.17|Zmiinyi Island
 Khortytsia|2.5|Khortytsya
 Axel Heiberg Island|43178|Axel Heiberg
 Prince of Wales Island (Nunavut)|33339
@@ -9598,7 +9598,7 @@ Crozet Islands|352|Crozet
 Amsterdam Island|55
 Ile Saint-Paul|8|Saint Paul Island
 Macquarie Island|128
-Campbell Island|113
+Campbell Island (New Zealand)|113
 Auckland Islands|626
 Antipodes Islands|21
 Snares Islands|3.4
@@ -10309,7 +10309,7 @@ Cuttyhunk Island|2.35
 Machias Seal Island|0.08
 Zug Island|2.41
 Elizabeth Islands|34.55
-Bois Blanc Island|91.4
+Bois Blanc Island (Michigan)|91.4
 Pollepel Island|0.05
 Terminal Island|11.56
 Naushon Island|19.17
@@ -10333,7 +10333,7 @@ Lisianski Island|1.56
 Lummi Island|23.97
 Gardner Pinnacles|0.02
 Isle of Palms|14.08
-Kent Island|81.9
+Kent Island (Maryland)|81.9
 Malaga Island|0.17
 Sauvie Island|84.82
 Semisopochnoi Island|221.59
@@ -10411,13 +10411,13 @@ Wilmington Island|24.68
 Bird Key|12.7
 Fleming Key|1.15
 Marsh Island (Louisiana)|258.95
-Stuart Island|7.46
+Stuart Island (Washington)|7.46
 Wassaw Island|40.68
 Blount Island|6.63
 Guguan|3.87
 High Island (Michigan)|14.14
 Kupreanof Island|2813
-Montague Island|722
+Montague Island (Alaska)|722
 Paoha Island|9.06
 Raspberry Island|192
 Sarigan|4.5
@@ -10425,7 +10425,7 @@ Agattu|221.54
 Blakely Island|16.85
 Dodge Island|2.1
 Gravina Island|246
-Protection Island|2.67
+Protection Island (Washington)|2.67
 Puget Island|20.13
 Barnum Island|3.28
 Barter Island|14
@@ -10446,7 +10446,7 @@ Sherman Island|56.66
 Capers Island|4.3
 Credit Island|1.7
 Grassy Key|3.65
-Grenadier Island|5.22
+Grenadier Island (New York)|5.22
 Hall Island|16
 Kruzof Island|433.7
 Nonamesset Island|1.4
@@ -10542,7 +10542,7 @@ Fishers Island|12.86
 Fisher Island|0.69
 Shelter Island|75.39
 Parris Island|50.76
-Discovery Island|0.05
+Discovery Island (Florida)|0.05
 Sullivan's Island|8.91
 Morgan Island|18.17
 Pawleys Island|2.57
@@ -10566,7 +10566,7 @@ Green Island (New York)|2.42
 Virginia Key|3.5
 Harkers Island|9.97
 Hayden Island|4.38
-Indian Island|11.29
+Indian Island (Washington)|11.29
 Bethel Island|14.16
 Waldron Island|11.9
 North Bass Island|2.79
@@ -11081,7 +11081,7 @@ Horn Island|0
 Just Room Enough Island|0
 Daniel Island|0
 Daufuskie Island|0
-Sea Island|0
+Sea Island (Georgia)|0
 Wizard Island|0
 Pleasure Island|0
 Sapelo Island|0
@@ -11093,7 +11093,7 @@ Gasparilla Island|0
 Volvo Island|0
 Tuckernuck Island|0
 Johnson's Island|0
-Rattlesnake Island|0
+Rattlesnake Island (Ohio)|0
 Harsens Island|0
 Monomoy Island|0
 Alameda|0
@@ -11121,11 +11121,11 @@ Brickell Key|0
 Gwynn's Island|0
 Knotts Island|0
 Luna Island|0
-Oak Island|0
+Oak Island (North Carolina)|0
 Sucia Island|0
 Boon Island|0
 San Jose Island|0
-James Island|0
+James Island (South Carolina)|0
 Enders Island|0
 Great Gull Island|0
 Shooters Island|0
@@ -11193,7 +11193,7 @@ Boot Key|0
 Cliff Island|0
 Damariscove Island|0
 Hart Miller Island|0
-Horseshoe Island|0
+Horseshoe Island (New Jersey)|0
 Jewell Island|0
 Long Key|0
 Port Royal Island|0
@@ -11257,7 +11257,7 @@ Dismal Key|0
 Estero Island|0
 Gardiners Point Island|0
 Gooseberry Island|0
-Henry Island|0
+Henry Island (Washington)|0
 Isle of Meadows|0.35
 Latsch Island|0
 Little Cranberry Island|0
@@ -11284,7 +11284,7 @@ Don Pedro Island|0
 East Island|0
 Egg Rock|0
 Grizzly Island|0
-Middle Island|0
+Middle Island (Michigan)|0
 Mistake Island|0
 Money Key|0
 Mulberry Island|0
@@ -11348,7 +11348,7 @@ Mare (New Caledonia)|641.7
 King George Islands|64
 Caroline Islands|1300
 Andros (Greece)|381.4
-Flores Island|141.02
+Flores Island (Azores)|141.02
 Graham Island (Sicily)|0
 Gorgona|2.23
 Lobos Island|4.68
@@ -11413,7 +11413,7 @@ Belle Isle (Florida)|0
 Dutch Island (Rhode Island)|0
 Governors Island (New Hampshire)|0
 Hog Island (California)|0
-Iona Island|2.25
+Iona Island (New York)|2.25
 Fox Island (Michigan)|0
 Harbor Island (Maine)|0
 Plum Island (Wisconsin)|1.18
@@ -11425,7 +11425,7 @@ Sugar Island (Maine)|17.03
 Sugar Island (Ohio)|0
 Deadman's Island (California)|0
 Fox Island (Rhode Island)|0
-Hope Island|0
+Hope Island (Rhode Island)|0
 Horse Island|0
 Goose Island (New York)|0
 Hog Island (Maine)|0
@@ -11444,6 +11444,297 @@ Long Island (Washington)|19.45
 Round Island (Mississippi)|0
 Baker Island (Alaska)|115.1
 Washington Island (Michigan)|2.59
+Hans Island|1.3
+Sable Island|31
+Island of the Dolls|0
+Island of Montreal|472.55
+Perce Rock|0
+Rene-Levasseur Island|2020
+Bell Island|34
+Beechey Island|4.6
+Texada Island|300.45
+Gabriola Island|58.12
+Pender Island|34
+Landsat Island|0
+McNabs Island|0
+Christian Island|51.91
+Denman Island|51.03
+Galiano Island|60.15
+Cortes Island|130
+Flowerpot Island|2
+Cedros Island|348
+Clarion Island|19.8
+Grosse Isle|7.7
+Hornby Island|29.96
+Michipicoten Island|184
+Nuns' Island|3.74
+Akimiski Island|3112.89
+St. Joseph Island|365
+Killiniq Island|269
+Mayne Island|21
+Moresby Island (Haida Gwaii)|2929.22
+Saint Helen's Island|0
+Lasqueti Island|0
+Spirit Island|0.01
+Cape Sable Island|0
+Notre Dame Island|0
+Ministers Island|2.8
+Herschel Island|116
+Saturna Island|31
+Pee Pee Island|0
+Cockburn Island|168.9
+Nootka Island|510
+Prince Patrick Island|15792.19
+Savary Island|0
+Ile Bizard|22.78
+Bonaventure Island|4.16
+Lulu Island|122.4
+Amherst Island|70
+Navy Island|1.2
+Caribou Island|0
+Cornwall Island (Ontario)|0
+Isla Angel de la Guarda|931
+Thetis Island|0
+Georges Island|0
+Dildo Island|0
+Silver Islet|0
+Ward Hunt Island|13.9
+Fighting Island|6.06
+L'Isle-aux-Coudres|100.96
+Malcolm Island|81.9
+Prince Charles Island|9665.87
+Brier Island|0
+Green Island (Fortune)|1.7
+Ile Jesus|242
+Coats Island|5708.64
+Pictou Island|0
+Bathurst Island|16050.61
+Isla Espiritu Santo|80.76
+Miscou Island|67
+Beausoleil Island|0
+Funk Island|0
+Howe Island|31
+San Benedicto Island|1370.02
+Triquet Island|1.44
+East Pen Island|0
+Isla Perez|0
+Zavikon Island|0
+Bigwin Island|2.22
+Georgina Island|0
+Annacis Island|0
+Flaherty Island|1861.56
+Keats Island|6
+Penelakut Island|8.66
+Princess Royal Island|2294.15
+Resolution Island|1011.63
+White Head Island|5.96
+Akpatok Island|903
+Banco Chinchorro|0
+Giants Tomb Island|0
+Isla de Sacrificios|0
+Meteorite Island|0
+Random Island|248.3
+Roca Partida|1126.37
+Isle Madame|45
+Main Duck Island|0
+Meighen Island|955
+Sonora Island|0
+Stag Island (Ontario)|0
+Valdes Island|23
+Amund Ringnes Island|5289.51
+Big Tancook Island|0
+Charlton Island|308
+Gull Island|0
+Isle-aux-Grues|0
+Jaina Island|0
+Meares Island|84.8
+Panmure Island|3.24
+Quirpon Island|0
+Skraeling Island|1.35
+Ile Perrot|41.94
+Anvil Island|9.5
+Barnston Island|0
+De Courcy Island|0
+Gay Island|0
+Hernando Island|11
+Mackenzie King Island|5056.27
+Partridge Island (New Brunswick)|0
+Prevost Island|6.75
+Scatarie Island|0
+Sidney Island|8.66
+St. Ignace Island|274
+Thorah Island|6
+Ahgykson Island|9.25|Harwood Island
+Baccalieu Island|5
+Bowyer Island|0
+Jacques Cousteau Island|136
+Entry Island|0
+Glover Island|177.3
+Kaien Island|45
+Mansel Island|3162.26
+Moresby Island (Gulf Islands)|0
+Petrie Island|3.23
+Qaqulluit|9.7
+Simcoe Island|0
+Borden Island|2795.95
+Cormorant Island|0
+Isla Todos Santos|0
+Langara Island|32.7
+Lennox Island|0
+Mudge Island|0
+Nicholson Island|0
+Partridge Island (Nova Scotia)|0
+Triangle Island|0
+Westham Island|0
+Boularderie Island|190.4
+Calvert Island|334.27
+Griffith Island|0
+Igloolik Island|104.5
+Pandora Island|141.5
+Pie Island|46
+Porcher Island|520
+Seal Island|0
+Strawberry Island|0
+Air Force Island|1737.74
+Beckwith Island|0
+Cameron Island|1062.19
+Dorset Island|143.48
+Dundas Island|148
+Gribbell Island|0
+Hill Island|0
+Isla Santa Catalina|39.27
+Lameque Island|151.3
+Lawlor Island|0
+Marble Island|0
+Massacre Island|0
+Read Island|0
+Ruxton Island|1
+South Thormanby Island|0
+Anthony Island|0
+Beaubears Island|0
+Brevoort Island|271
+Cornwall Island (Nunavut)|2265.48
+Digby Island|34
+Hanson Island|0
+Ile Parisienne|9.11
+Isla del Carmen|145.94
+Kelvin Island|0
+Micou's Island|0
+Mitchell Island|0
+Nagjuttuuq|1008.89|Jenny Lind Island
+New World Island|185.4
+Nova Zembla Island|44.2
+Pearse Island|210
+Piers Island|0
+Port Hood Island|0
+Reindeer Island|136.8
+Stag Island (Nunavut)|0
+Stefansson Island|4490.11
+Yorke Island|0
+Aristazabal Island|420
+Barrie Island|263.44|Gordon Island,Gordon/Barrie Island
+Brock Island|764
+Broughton Island|127.6
+Brunette Island|20
+Byam Martin Island|1164.26
+Chantry Island|0
+Edinburgh Island|0
+Eglinton Island|1538.91
+Eight Bears Island|18.12
+Fawn Island|0
+Gil Island|236
+Gilford Island|0
+Grant Island|0
+Isla Coronado|8.39
+Isla Natividad|8.66
+Isla de los Alacranes|0
+Kennebecasis Island|0
+Kirkland Island|0
+Kunghit Island|215
+Little Cornwallis Island|412
+Little Tancook Island|0
+Lougheed Island|1331.12
+McMillan Island|1.78
+Merasheen Island|125
+Montreal Island|25
+North Harbour Island|0
+North Thormanby Island|0
+Nottingham Island|1349.62
+Paul's Island|174.6
+Pitt Island|1398.55
+Puffin Island (Baccalieu Tickle)|0
+Qikiqtaryuaq|420
+San Esteban Island|39.77
+San Pedro Martir Island|2.72
+Sober Island|0
+Temagami Island|0
+Wales Island (British Columbia)|90.65
+Waupoos Island|0
+West Redonda Island|173.7
+Ile aux Oies|0
+Adams Island|267
+Coburg Island|411
+West Cracroft Island|125.2
+Dowker Island|1
+Emerald Isle (Northwest Territories)|549
+Hardwicke Island|78
+Isla Coronados|7.21
+Isla Partida|15.5
+Isla San Jose|182.96
+San Pedro Nolasco Island|3.5
+King Christian Island|645
+Lyell Island|176
+Monumental Island|1
+O'Reilly Island|34.6
+Porphyry Island|1.07
+Prince Leopold Island|68
+Qikiqtaaluk|482
+Richards Island|1728.47
+Rowley Island|1119.79
+Isla San Marcos|28.75|San Marcos Island
+Wales Island (Nunavut)|1176.81
+Ile Vanier|1122.77
+Oak Island (Nova Scotia)|0.57
+Fogo Island|254
+Middle Island (Ontario)|0.19
+Bois Blanc Island (Ontario)|1.1
+Deer Island (New Brunswick)|45
+Rattlesnake Island (British Columbia)|0
+Stuart Island (British Columbia)|0
+Belle Isle (Newfoundland and Labrador)|52
+Gambier Island|68.93
+Sea Island (British Columbia)|0
+St. Paul Island|5
+James Island (British Columbia)|0
+Protection Island (British Columbia)|0
+Snake Island (Ontario)|0
+Santiago Island (Galapagos)|577
+Bear Island (Ontario)|0
+Nelson Island (British Columbia)|102.8
+Banks Island (British Columbia)|1034.18
+Portland Island|0
+Discovery Island (British Columbia)|0
+Flores Island (British Columbia)|155
+Indian Island (New Brunswick)|0
+Long Island (Nova Scotia)|0
+Chapel Island (Nova Scotia)|0
+Douglas Island (British Columbia)|0
+Grenadier Island (Ontario)|0
+Horseshoe Island (Wisconsin)|0
+Isle of Man (Ontario)|0
+Kent Island (New Brunswick)|1
+Montague Island (Baja California)|132.8
+Bear Island (New Brunswick)|0
+Big Island (Ontario)|0
+Campbell Island (British Columbia)|136.18
+Goat Island (British Columbia)|67.4
+Graham Island (Nunavut)|1376.93
+Grindstone Island (Ontario)|0
+Henry Island (Nova Scotia)|0
+Hope Island (Ontario)|0
+Snake Island (British Columbia)|0
+Alexander Island (Nunavut)|484
+Smith Island (Nunavut)|131
 `;
 
 export const SEAS_OCEANS = `

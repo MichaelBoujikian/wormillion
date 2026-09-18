@@ -1438,7 +1438,9 @@ globalThis.WORMILLION_THEMES = {
       // add-theme.mjs
       'Aves Island',
       // 2026-09-18 namesakes, decision 5
-      'Necker Island (British Virgin Islands)'
+      'Necker Island (British Virgin Islands)',
+      // add-theme.mjs
+      'Banco Chinchorro'
     ],
     'the Mediterranean': [
       'Sicily', 'Sardinia', 'Corsica', 'Crete', 'Cyprus', 'Malta',

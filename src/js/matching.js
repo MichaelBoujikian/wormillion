@@ -51,6 +51,8 @@
     'mount', 'mt', 'mountain', 'peak', 'hill', 'lake', 'loch', 'lough', 'llyn',
     'river', 'rio', 'sea', 'ocean', 'gulf', 'bay', 'island', 'islands', 'isle', 'isles',
     'desert', 'the', 'of', 'city', 'saint', 'st', 'cape', 'atoll',
+    // "Isla Angel de la Guarda", "Islas Marias" (the Mexico and Canada wave, 2026-09-18)
+    'isla', 'islas',
     // 2026-09-16: "Fiume Sacco", "Fleuve Charente", "Fluss Isar", "Rivier Dinkel"
     'fiume', 'fleuve', 'fluss', 'riviere', 'rivier',
     // "Lago di Nemi", "Lac du Bourget", "Lagoa do Fogo", "Laguna di Orbetello", "Etang de Thau"
@@ -74,7 +76,7 @@
     lake: ['lake'], loch: ['lake', 'sea_ocean'], lough: ['lake', 'sea_ocean'], llyn: ['lake'], reservoir: ['lake'], lago: ['lake'], lac: ['lake'], lagoa: ['lake'], laguna: ['lake'], etang: ['lake'],
     river: ['river'], rio: ['river'], fiume: ['river'], fleuve: ['river'], fluss: ['river'], riviere: ['river'], rivier: ['river'],
     sea: ['sea_ocean'], ocean: ['sea_ocean'], gulf: ['sea_ocean'], bay: ['sea_ocean'],
-    island: ['island'], islands: ['island'], isle: ['island'], isles: ['island'], atoll: ['island'],
+    island: ['island'], islands: ['island'], isle: ['island'], isles: ['island'], atoll: ['island'], isla: ['island'], islas: ['island'],
     desert: ['desert'],
     city: ['city', 'capital']
   };

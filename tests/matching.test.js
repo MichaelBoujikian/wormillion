@@ -402,6 +402,12 @@ test('"!" is punctuation and a Canadian province has a postal code (2026-09-18 r
   assert.deepStrictEqual(matching.qualifiedKeys('Thames', 'Ontario'), ['thames ontario', 'thames on']);
 });
 
+test('"Isla" is an island word for the matcher and a letter for the letter rules (2026-09-18)', () => {
+  const islands = matching.buildLookup([{ id: 'island-isla-angel-de-la-guarda', name: 'Isla Angel de la Guarda', aliases: [] }], { category: 'island' });
+  assert.strictEqual(matching.matchAnswer('Angel de la Guarda', islands, null).entryId, 'island-isla-angel-de-la-guarda');
+  assert.strictEqual(matching.matchAnswer('Angel de la Guarda Island', islands, null).entryId, 'island-isla-angel-de-la-guarda');
+});
+
 test('an all-generic-word input has no edit budget of its own (2026-09-16 audit)', () => {
   const rivers = matching.buildLookup([
     { id: 'river-mole', name: 'Mole', aliases: ['River Mole'] },

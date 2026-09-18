@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-18",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T20:52:26.296Z",
+ "fetched": "2026-09-18T21:09:26.873Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -95190,7 +95190,7 @@
    "lat": 0.22,
    "lon": 6.61
   },
-  "island-santiago-island": {
+  "island-santiago-island-cape-verde": {
    "title": "Santiago, Cape Verde",
    "monthlyViews": 3196,
    "days": 60,
@@ -97269,7 +97269,7 @@
    "lat": 53.91666667,
    "lon": 14.5
   },
-  "island-snake-island": {
+  "island-snake-island-ukraine": {
    "title": "Snake Island (Ukraine)",
    "monthlyViews": 6605,
    "days": 60,
@@ -97514,7 +97514,7 @@
    "lat": -54.63,
    "lon": 158.86
   },
-  "island-campbell-island": {
+  "island-campbell-island-new-zealand": {
    "title": "Campbell Island, New Zealand",
    "monthlyViews": 3409,
    "days": 60,
@@ -102491,7 +102491,7 @@
    "lat": 41.475,
    "lon": -70.76666667
   },
-  "island-bois-blanc-island": {
+  "island-bois-blanc-island-michigan": {
    "title": "Bois Blanc Island (Michigan)",
    "monthlyViews": 3044,
    "days": 60,
@@ -102659,7 +102659,7 @@
    "lat": 32.80777778,
    "lon": -79.745
   },
-  "island-kent-island": {
+  "island-kent-island-maryland": {
    "title": "Kent Island (Maryland)",
    "monthlyViews": 1461,
    "days": 60,
@@ -103205,7 +103205,7 @@
    "lat": 29.56638889,
    "lon": -91.84611111
   },
-  "island-stuart-island": {
+  "island-stuart-island-washington": {
    "title": "Stuart Island (Washington)",
    "monthlyViews": 396,
    "days": 60,
@@ -103247,7 +103247,7 @@
    "lat": 56.79277778,
    "lon": -133.49694444
   },
-  "island-montague-island": {
+  "island-montague-island-alaska": {
    "title": "Montague Island (Alaska)",
    "monthlyViews": 365,
    "days": 60,
@@ -103303,7 +103303,7 @@
    "lat": 55.30388889,
    "lon": -131.78638889
   },
-  "island-protection-island": {
+  "island-protection-island-washington": {
    "title": "Protection Island (Washington)",
    "monthlyViews": 335,
    "days": 60,
@@ -103450,7 +103450,7 @@
    "lat": 24.761777,
    "lon": -80.955291
   },
-  "island-grenadier-island": {
+  "island-grenadier-island-new-york": {
    "title": "Grenadier Island, New York",
    "monthlyViews": 213,
    "days": 60,
@@ -104122,7 +104122,7 @@
    "lat": 32.32888889,
    "lon": -80.69472222
   },
-  "island-discovery-island": {
+  "island-discovery-island-florida": {
    "title": "Discovery Island (Bay Lake)",
    "monthlyViews": 4262,
    "days": 60,
@@ -104290,7 +104290,7 @@
    "lat": 45.6119,
    "lon": -122.67606
   },
-  "island-indian-island": {
+  "island-indian-island-washington": {
    "title": "Indian Island, Washington",
    "monthlyViews": 609,
    "days": 60,
@@ -107895,7 +107895,7 @@
    "lat": 32.11305556,
    "lon": -80.86638889
   },
-  "island-sea-island": {
+  "island-sea-island-georgia": {
    "title": "Sea Island, Georgia",
    "monthlyViews": 2953,
    "days": 60,
@@ -107979,7 +107979,7 @@
    "lat": 41.4963,
    "lon": -82.7346
   },
-  "island-rattlesnake-island": {
+  "island-rattlesnake-island-ohio": {
    "title": "Rattlesnake Island (Lake Erie)",
    "monthlyViews": 1218,
    "days": 60,
@@ -108175,7 +108175,7 @@
    "lat": 43.08333333,
    "lon": -79.07027778
   },
-  "island-oak-island": {
+  "island-oak-island-north-carolina": {
    "title": "Oak Island (North Carolina)",
    "monthlyViews": 761,
    "days": 60,
@@ -108203,7 +108203,7 @@
    "lat": 27.97805556,
    "lon": -96.94694444
   },
-  "island-james-island": {
+  "island-james-island-south-carolina": {
    "title": "James Island (South Carolina)",
    "monthlyViews": 700,
    "days": 60,
@@ -108679,7 +108679,7 @@
    "lat": 39.25166667,
    "lon": -76.37333333
   },
-  "island-horseshoe-island": {
+  "island-horseshoe-island-new-jersey": {
    "title": "Horseshoe Island (New Jersey)",
    "monthlyViews": 304,
    "days": 60,
@@ -109127,7 +109127,7 @@
    "lat": 41.4875,
    "lon": -71.03833333
   },
-  "island-henry-island": {
+  "island-henry-island-washington": {
    "title": "Henry Island (Washington)",
    "monthlyViews": 183,
    "days": 60,
@@ -109316,7 +109316,7 @@
    "lat": 38.15138889,
    "lon": -121.97277778
   },
-  "island-middle-island": {
+  "island-middle-island-michigan": {
    "title": "Middle Island (Lake Huron)",
    "monthlyViews": 152,
    "days": 60,
@@ -109764,7 +109764,7 @@
    "lat": 37.83333333,
    "lon": 24.9
   },
-  "island-flores-island": {
+  "island-flores-island-azores": {
    "title": "Flores Island (Azores)",
    "monthlyViews": 3805,
    "days": 60,
@@ -110219,7 +110219,7 @@
    "lat": 38.19722222,
    "lon": -122.93583333
   },
-  "island-iona-island": {
+  "island-iona-island-new-york": {
    "title": "Iona Island (New York)",
    "monthlyViews": 274,
    "days": 60,
@@ -110303,7 +110303,7 @@
    "lat": 41.55416667,
    "lon": -71.41833333
   },
-  "island-hope-island": {
+  "island-hope-island-rhode-island": {
    "title": "Hope Island (Rhode Island)",
    "monthlyViews": 183,
    "days": 60,
@@ -110435,6 +110435,2043 @@
    "days": 60,
    "lat": 47.875,
    "lon": -89.25
+  },
+  "island-hans-island": {
+   "title": "Hans Island",
+   "monthlyViews": 11232,
+   "days": 60,
+   "lat": 80.82638889,
+   "lon": -66.45833333
+  },
+  "island-sable-island": {
+   "title": "Sable Island",
+   "monthlyViews": 11171,
+   "days": 60,
+   "lat": 43.93083333,
+   "lon": -59.91777778
+  },
+  "island-island-of-the-dolls": {
+   "title": "Island of the Dolls",
+   "monthlyViews": 5357,
+   "days": 60,
+   "lat": 19.27288889,
+   "lon": -99.08811111
+  },
+  "island-island-of-montreal": {
+   "title": "Island of Montreal",
+   "monthlyViews": 5144,
+   "days": 60,
+   "lat": 45.50027778,
+   "lon": -73.64638889
+  },
+  "island-perce-rock": {
+   "title": "Percé Rock",
+   "monthlyViews": 4962,
+   "days": 60,
+   "lat": 48.52388889,
+   "lon": -64.19944444
+  },
+  "island-rene-levasseur-island": {
+   "title": "René-Levasseur Island",
+   "monthlyViews": 4840,
+   "days": 60,
+   "lat": 51.39722222,
+   "lon": -68.69166667
+  },
+  "island-bell-island": {
+   "title": "Bell Island (Newfoundland and Labrador)",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 47.63277778,
+   "lon": -52.96583333
+  },
+  "island-beechey-island": {
+   "title": "Beechey Island",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 74.71666667,
+   "lon": -91.85
+  },
+  "island-texada-island": {
+   "title": "Texada Island",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 49.66666667,
+   "lon": -124.41666667
+  },
+  "island-gabriola-island": {
+   "title": "Gabriola Island",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 49.15,
+   "lon": -123.733
+  },
+  "island-pender-island": {
+   "title": "Pender Island",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-landsat-island": {
+   "title": "Landsat Island",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 60.17694444,
+   "lon": -64.04166667
+  },
+  "island-mcnabs-island": {
+   "title": "McNabs Island",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 44.6,
+   "lon": -63.51666667
+  },
+  "island-christian-island": {
+   "title": "Christian Island",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 44.83333333,
+   "lon": -80.2
+  },
+  "island-denman-island": {
+   "title": "Denman Island",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 49.55,
+   "lon": -124.8
+  },
+  "island-galiano-island": {
+   "title": "Galiano Island",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 48.92305556,
+   "lon": -123.43861111
+  },
+  "island-cortes-island": {
+   "title": "Cortes Island",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-flowerpot-island": {
+   "title": "Flowerpot Island",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 45.306225,
+   "lon": -81.635113
+  },
+  "island-cedros-island": {
+   "title": "Cedros Island",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 28.18277778,
+   "lon": -115.21777778
+  },
+  "island-clarion-island": {
+   "title": "Clarion Island",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 18.35833333,
+   "lon": -114.725
+  },
+  "island-grosse-isle": {
+   "title": "Grosse Isle",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 47.03333333,
+   "lon": -70.66666667
+  },
+  "island-hornby-island": {
+   "title": "Hornby Island",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 49.51944444,
+   "lon": -124.66666667
+  },
+  "island-michipicoten-island": {
+   "title": "Michipicoten Island",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 47.75,
+   "lon": -85.75
+  },
+  "island-nuns-island": {
+   "title": "Nuns' Island",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 45.46111111,
+   "lon": -73.54333333
+  },
+  "island-akimiski-island": {
+   "title": "Akimiski Island",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 53.00833333,
+   "lon": -81.275
+  },
+  "island-st-joseph-island": {
+   "title": "St. Joseph Island (Ontario)",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 46.21972222,
+   "lon": -83.94638889
+  },
+  "island-killiniq-island": {
+   "title": "Killiniq Island",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 60.4125,
+   "lon": -64.64027778
+  },
+  "island-mayne-island": {
+   "title": "Mayne Island",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 48.845,
+   "lon": -123.28083333
+  },
+  "island-moresby-island-haida-gwaii": {
+   "title": "Moresby Island",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 53.07888889,
+   "lon": -132.12777778
+  },
+  "island-saint-helen-s-island": {
+   "title": "Saint Helen's Island",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 45.51777778,
+   "lon": -73.53388889
+  },
+  "island-lasqueti-island": {
+   "title": "Lasqueti Island",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 49.48333333,
+   "lon": -124.25
+  },
+  "island-spirit-island": {
+   "title": "Spirit Island (Alberta)",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 52.64305556,
+   "lon": -117.49194444
+  },
+  "island-cape-sable-island": {
+   "title": "Cape Sable Island",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 43.45678056,
+   "lon": -65.61412778
+  },
+  "island-notre-dame-island": {
+   "title": "Notre Dame Island",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 45.50416667,
+   "lon": -73.52638889
+  },
+  "island-ministers-island": {
+   "title": "Ministers Island",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 45.10694444,
+   "lon": -67.04166667
+  },
+  "island-herschel-island": {
+   "title": "Herschel Island",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 69.58972222,
+   "lon": -139.09916667
+  },
+  "island-saturna-island": {
+   "title": "Saturna Island",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 48.78333333,
+   "lon": -123.14222222
+  },
+  "island-pee-pee-island": {
+   "title": "Pee Pee Island",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 47.19138889,
+   "lon": -52.83722222
+  },
+  "island-cockburn-island": {
+   "title": "Cockburn Island (Ontario)",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 45.92055556,
+   "lon": -83.37361111
+  },
+  "island-nootka-island": {
+   "title": "Nootka Island",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 49.74305556,
+   "lon": -126.76944444
+  },
+  "island-prince-patrick-island": {
+   "title": "Prince Patrick Island",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 76.75055556,
+   "lon": -119.50333333
+  },
+  "island-savary-island": {
+   "title": "Savary Island",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 49.93916667,
+   "lon": -124.81333333
+  },
+  "island-ile-bizard": {
+   "title": "Île Bizard",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 45.48333333,
+   "lon": -73.9
+  },
+  "island-bonaventure-island": {
+   "title": "Bonaventure Island",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 48.495,
+   "lon": -64.165
+  },
+  "island-lulu-island": {
+   "title": "Lulu Island",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 49.16805556,
+   "lon": -123.08055556
+  },
+  "island-amherst-island": {
+   "title": "Amherst Island",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 44.15,
+   "lon": -76.72
+  },
+  "island-navy-island": {
+   "title": "Navy Island",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 43.056,
+   "lon": -79.01
+  },
+  "island-caribou-island": {
+   "title": "Caribou Island (near Michipicoten Island)",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 47.35916667,
+   "lon": -85.81
+  },
+  "island-cornwall-island-ontario": {
+   "title": "Cornwall Island (Ontario)",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 45.00555556,
+   "lon": -74.71638889
+  },
+  "island-isla-angel-de-la-guarda": {
+   "title": "Isla Ángel de la Guarda",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 29.26,
+   "lon": -113.37027778
+  },
+  "island-thetis-island": {
+   "title": "Thetis Island",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 48.99833333,
+   "lon": -123.68083333
+  },
+  "island-georges-island": {
+   "title": "Georges Island (Nova Scotia)",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 44.64083333,
+   "lon": -63.55972222
+  },
+  "island-dildo-island": {
+   "title": "Dildo Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 47.56643889,
+   "lon": -53.59095
+  },
+  "island-silver-islet": {
+   "title": "Silver Islet",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 48.33333333,
+   "lon": -88.81666667
+  },
+  "island-ward-hunt-island": {
+   "title": "Ward Hunt Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 83.1,
+   "lon": -74.16666667
+  },
+  "island-fighting-island": {
+   "title": "Fighting Island",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 42.22166667,
+   "lon": -83.12
+  },
+  "island-l-isle-aux-coudres": {
+   "title": "L'Isle-aux-Coudres",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 47.4,
+   "lon": -70.38333333
+  },
+  "island-malcolm-island": {
+   "title": "Malcolm Island",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 50.64361111,
+   "lon": -126.9925
+  },
+  "island-prince-charles-island": {
+   "title": "Prince Charles Island",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 67.78333333,
+   "lon": -76.2
+  },
+  "island-brier-island": {
+   "title": "Brier Island",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 44.25888889,
+   "lon": -66.36222222
+  },
+  "island-green-island-fortune": {
+   "title": "Green Island (Fortune), Newfoundland and Labrador",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 46.8775,
+   "lon": -56.09
+  },
+  "island-ile-jesus": {
+   "title": "Île Jésus",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 45.58333333,
+   "lon": -73.75
+  },
+  "island-coats-island": {
+   "title": "Coats Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 62.5,
+   "lon": -83
+  },
+  "island-pictou-island": {
+   "title": "Pictou Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 45.81388889,
+   "lon": -62.55694444
+  },
+  "island-bathurst-island": {
+   "title": "Bathurst Island (Nunavut)",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 75.75,
+   "lon": -100
+  },
+  "island-isla-espiritu-santo": {
+   "title": "Isla Espíritu Santo",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 24.47138889,
+   "lon": -110.3325
+  },
+  "island-miscou-island": {
+   "title": "Miscou Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 47.95,
+   "lon": -64.53333333
+  },
+  "island-beausoleil-island": {
+   "title": "Beausoleil Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 44.87,
+   "lon": -79.86833333
+  },
+  "island-funk-island": {
+   "title": "Funk Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 49.75666667,
+   "lon": -53.18388889
+  },
+  "island-howe-island": {
+   "title": "Howe Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 44.27027778,
+   "lon": -76.28361111
+  },
+  "island-san-benedicto-island": {
+   "title": "San Benedicto Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-triquet-island": {
+   "title": "Triquet Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 51.8,
+   "lon": -128.25
+  },
+  "island-east-pen-island": {
+   "title": "East Pen Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 56.75,
+   "lon": -88.66666667
+  },
+  "island-isla-perez": {
+   "title": "Isla Pérez",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 22.39444444,
+   "lon": -89.7
+  },
+  "island-zavikon-island": {
+   "title": "Zavikon Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 44.3696,
+   "lon": -75.9137
+  },
+  "island-bigwin-island": {
+   "title": "Bigwin Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 45.24277778,
+   "lon": -79.02694444
+  },
+  "island-georgina-island": {
+   "title": "Georgina Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 44.3747,
+   "lon": -79.2937
+  },
+  "island-annacis-island": {
+   "title": "Annacis Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 49.16666667,
+   "lon": -122.94972222
+  },
+  "island-flaherty-island": {
+   "title": "Flaherty Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 56.23333333,
+   "lon": -79.28333333
+  },
+  "island-keats-island": {
+   "title": "Keats Island (British Columbia)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 49.4,
+   "lon": -123.45
+  },
+  "island-penelakut-island": {
+   "title": "Penelakut Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 48.96,
+   "lon": -123.645
+  },
+  "island-princess-royal-island": {
+   "title": "Princess Royal Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 52.95,
+   "lon": -128.84444444
+  },
+  "island-resolution-island": {
+   "title": "Resolution Island (Nunavut)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 61.50833333,
+   "lon": -65.00833333
+  },
+  "island-white-head-island": {
+   "title": "White Head Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 44.63127778,
+   "lon": -66.70795278
+  },
+  "island-akpatok-island": {
+   "title": "Akpatok Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-banco-chinchorro": {
+   "title": "Banco Chinchorro",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 18.58694444,
+   "lon": -87.31944444
+  },
+  "island-giants-tomb-island": {
+   "title": "Giants Tomb Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 44.90396944,
+   "lon": -80.00108889
+  },
+  "island-isla-de-sacrificios": {
+   "title": "Isla de Sacrificios",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 19.1751,
+   "lon": -96.0921
+  },
+  "island-meteorite-island": {
+   "title": "Meteorite Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 76.0197,
+   "lon": -65.1149
+  },
+  "island-random-island": {
+   "title": "Random Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 48.11666667,
+   "lon": -53.73333333
+  },
+  "island-roca-partida": {
+   "title": "Roca Partida",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 18.99722222,
+   "lon": -112.065
+  },
+  "island-isle-madame": {
+   "title": "Isle Madame (Nova Scotia)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 45.55,
+   "lon": -61
+  },
+  "island-main-duck-island": {
+   "title": "Main Duck Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 43.92611111,
+   "lon": -76.61944444
+  },
+  "island-meighen-island": {
+   "title": "Meighen Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 79.98333333,
+   "lon": -99.5
+  },
+  "island-sonora-island": {
+   "title": "Sonora Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-stag-island-ontario": {
+   "title": "Stag Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 42.884,
+   "lon": -82.465
+  },
+  "island-valdes-island": {
+   "title": "Valdes Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 49.08333333,
+   "lon": -123.66666667
+  },
+  "island-amund-ringnes-island": {
+   "title": "Amund Ringnes Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 78.33333333,
+   "lon": -96.41666667
+  },
+  "island-big-tancook-island": {
+   "title": "Big Tancook Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 44.457,
+   "lon": -64.166
+  },
+  "island-charlton-island": {
+   "title": "Charlton Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 51.99972222,
+   "lon": -79.48611111
+  },
+  "island-gull-island": {
+   "title": "Gull Island, Labrador",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 52.96505833,
+   "lon": -61.37326944
+  },
+  "island-isle-aux-grues": {
+   "title": "Isle-aux-Grues",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 47.05944444,
+   "lon": -70.54305556
+  },
+  "island-jaina-island": {
+   "title": "Jaina Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 20.20833333,
+   "lon": -90.48583333
+  },
+  "island-meares-island": {
+   "title": "Meares Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 49.16666667,
+   "lon": -125.83333333
+  },
+  "island-panmure-island": {
+   "title": "Panmure Island (Prince Edward Island)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 46.14194444,
+   "lon": -62.48305556
+  },
+  "island-quirpon-island": {
+   "title": "Quirpon Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 51.61,
+   "lon": -55.43555556
+  },
+  "island-skraeling-island": {
+   "title": "Skraeling Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 78.91194444,
+   "lon": -75.63333333
+  },
+  "island-ile-perrot": {
+   "title": "Île Perrot",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 45.35027778,
+   "lon": -73.9025
+  },
+  "island-anvil-island": {
+   "title": "Anvil Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 49.53,
+   "lon": -123.309
+  },
+  "island-barnston-island": {
+   "title": "Barnston Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 49.19388889,
+   "lon": -122.70555556
+  },
+  "island-de-courcy-island": {
+   "title": "De Courcy Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 49.1,
+   "lon": -123.75
+  },
+  "island-gay-island": {
+   "title": "Gay Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 63.33,
+   "lon": -67.83
+  },
+  "island-hernando-island": {
+   "title": "Hernando Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 49.98277778,
+   "lon": -124.91888889
+  },
+  "island-mackenzie-king-island": {
+   "title": "Mackenzie King Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 78.03333333,
+   "lon": -109.83333333
+  },
+  "island-partridge-island-new-brunswick": {
+   "title": "Partridge Island (Saint John County)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.23833333,
+   "lon": -66.05388889
+  },
+  "island-prevost-island": {
+   "title": "Prevost Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 48.83333333,
+   "lon": -123.38333333
+  },
+  "island-scatarie-island": {
+   "title": "Scatarie Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 46.01666667,
+   "lon": -59.75
+  },
+  "island-sidney-island": {
+   "title": "Sidney Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 48.61666667,
+   "lon": -123.3
+  },
+  "island-st-ignace-island": {
+   "title": "St. Ignace Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 48.7925,
+   "lon": -87.92861111
+  },
+  "island-thorah-island": {
+   "title": "Thorah Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 44.4484,
+   "lon": -79.2281
+  },
+  "island-ahgykson-island": {
+   "title": "Ahgykson Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.86666667,
+   "lon": -124.65
+  },
+  "island-baccalieu-island": {
+   "title": "Baccalieu Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.13027778,
+   "lon": -52.80138889
+  },
+  "island-bowyer-island": {
+   "title": "Bowyer Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.425,
+   "lon": -123.26666667
+  },
+  "island-jacques-cousteau-island": {
+   "title": "Jacques Cousteau Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 24.22138889,
+   "lon": -109.87055556
+  },
+  "island-entry-island": {
+   "title": "Entry Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 47.277,
+   "lon": -61.7
+  },
+  "island-glover-island": {
+   "title": "Glover Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.78111111,
+   "lon": -57.69833333
+  },
+  "island-kaien-island": {
+   "title": "Kaien Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 54.28274,
+   "lon": -130.30341
+  },
+  "island-mansel-island": {
+   "title": "Mansel Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 61.99166667,
+   "lon": -79.83333333
+  },
+  "island-moresby-island-gulf-islands": {
+   "title": "Moresby Island (Gulf Islands)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.71666667,
+   "lon": -123.31666667
+  },
+  "island-petrie-island": {
+   "title": "Petrie Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 45.50055556,
+   "lon": -75.49416667
+  },
+  "island-qaqulluit": {
+   "title": "Qaqulluit",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 67.21027778,
+   "lon": -62.54861111
+  },
+  "island-simcoe-island": {
+   "title": "Simcoe Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 44.16805556,
+   "lon": -76.52416667
+  },
+  "island-borden-island": {
+   "title": "Borden Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 78.50083333,
+   "lon": -111.22
+  },
+  "island-cormorant-island": {
+   "title": "Cormorant Island (British Columbia)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.58333333,
+   "lon": -126.91666667
+  },
+  "island-isla-todos-santos": {
+   "title": "Isla Todos Santos",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 31.79972222,
+   "lon": -116.78888889
+  },
+  "island-langara-island": {
+   "title": "Langara Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-lennox-island": {
+   "title": "Lennox Island (Prince Edward Island)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.61388889,
+   "lon": -63.85388889
+  },
+  "island-mudge-island": {
+   "title": "Mudge Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 49.13333333,
+   "lon": -123.78333333
+  },
+  "island-nicholson-island": {
+   "title": "Nicholson Island (Lake Ontario)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 43.917,
+   "lon": -77.521
+  },
+  "island-partridge-island-nova-scotia": {
+   "title": "Partridge Island (Nova Scotia)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 45.36694444,
+   "lon": -64.33833333
+  },
+  "island-triangle-island": {
+   "title": "Triangle Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.864,
+   "lon": -129.082
+  },
+  "island-westham-island": {
+   "title": "Westham Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 49.08333333,
+   "lon": -123.15
+  },
+  "island-boularderie-island": {
+   "title": "Boularderie Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 46.21666667,
+   "lon": -60.45
+  },
+  "island-calvert-island": {
+   "title": "Calvert Island (British Columbia)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 51.585,
+   "lon": -128.01666667
+  },
+  "island-griffith-island": {
+   "title": "Griffith Island (Georgian Bay)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.8422,
+   "lon": -80.9071
+  },
+  "island-igloolik-island": {
+   "title": "Igloolik Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 69.38333333,
+   "lon": -81.66666667
+  },
+  "island-pandora-island": {
+   "title": "Pandora Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 72.78333333,
+   "lon": -96.78333333
+  },
+  "island-pie-island": {
+   "title": "Pie Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 48.24222222,
+   "lon": -89.1025
+  },
+  "island-porcher-island": {
+   "title": "Porcher Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 53.98388889,
+   "lon": -130.52472222
+  },
+  "island-seal-island": {
+   "title": "Seal Island (Nova Scotia)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 43.41558333,
+   "lon": -66.01038889
+  },
+  "island-strawberry-island": {
+   "title": "Strawberry Island (Lake Simcoe)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.55281,
+   "lon": -79.33713
+  },
+  "island-air-force-island": {
+   "title": "Air Force Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 67.96666667,
+   "lon": -74.08333333
+  },
+  "island-beckwith-island": {
+   "title": "Beckwith Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.8568,
+   "lon": -80.1125
+  },
+  "island-cameron-island": {
+   "title": "Cameron Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 76.5,
+   "lon": -103.85
+  },
+  "island-dorset-island": {
+   "title": "Dorset Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 64.2,
+   "lon": -76.53333333
+  },
+  "island-dundas-island": {
+   "title": "Dundas Island (British Columbia)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 54.56305556,
+   "lon": -130.87277778
+  },
+  "island-gribbell-island": {
+   "title": "Gribbell Island",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 53.40416667,
+   "lon": -129.025
+  },
+  "island-hill-island": {
+   "title": "Hill Island (Ontario)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.3533,
+   "lon": -75.9608
+  },
+  "island-isla-santa-catalina": {
+   "title": "Isla Santa Catalina",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-lameque-island": {
+   "title": "Lamèque Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.81305556,
+   "lon": -64.62361111
+  },
+  "island-lawlor-island": {
+   "title": "Lawlor Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.6,
+   "lon": -63.5
+  },
+  "island-marble-island": {
+   "title": "Marble Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 62.68333333,
+   "lon": -91.13333333
+  },
+  "island-massacre-island": {
+   "title": "Massacre Island (Ontario)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.276,
+   "lon": -94.7704
+  },
+  "island-read-island": {
+   "title": "Read Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 50.18333333,
+   "lon": -125.08333333
+  },
+  "island-ruxton-island": {
+   "title": "Ruxton Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.08333333,
+   "lon": -123.7
+  },
+  "island-south-thormanby-island": {
+   "title": "South Thormanby Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.48611111,
+   "lon": -123.96944444
+  },
+  "island-anthony-island": {
+   "title": "Anthony Island (British Columbia)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 52.09555556,
+   "lon": -131.22
+  },
+  "island-beaubears-island": {
+   "title": "Beaubears Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.97166667,
+   "lon": -65.57416667
+  },
+  "island-brevoort-island": {
+   "title": "Brevoort Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 63.50416667,
+   "lon": -64.33333333
+  },
+  "island-cornwall-island-nunavut": {
+   "title": "Cornwall Island (Nunavut)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 77.61666667,
+   "lon": -94.63333333
+  },
+  "island-digby-island": {
+   "title": "Digby Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 54.284,
+   "lon": -130.417
+  },
+  "island-hanson-island": {
+   "title": "Hanson Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.57027778,
+   "lon": -126.73944444
+  },
+  "island-ile-parisienne": {
+   "title": "Ile Parisienne",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.68594,
+   "lon": -84.72986
+  },
+  "island-isla-del-carmen": {
+   "title": "Isla del Carmen (Baja California)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-kelvin-island": {
+   "title": "Kelvin Island (Lake Nipigon)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.85916667,
+   "lon": -88.66638889
+  },
+  "island-micou-s-island": {
+   "title": "Micou's Island, Nova Scotia",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.63277778,
+   "lon": -63.93877778
+  },
+  "island-mitchell-island": {
+   "title": "Mitchell Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.2025,
+   "lon": -123.09194444
+  },
+  "island-nagjuttuuq": {
+   "title": "Nagjuttuuq",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 65.87416667,
+   "lon": -83.89305556
+  },
+  "island-new-world-island": {
+   "title": "New World Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.58306,
+   "lon": -54.6372
+  },
+  "island-nova-zembla-island": {
+   "title": "Nova Zembla Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 72.18,
+   "lon": -74.83
+  },
+  "island-pearse-island": {
+   "title": "Pearse Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-piers-island": {
+   "title": "Piers Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 48.7,
+   "lon": -123.41666667
+  },
+  "island-port-hood-island": {
+   "title": "Port Hood Island, Nova Scotia",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.00722222,
+   "lon": -61.57055556
+  },
+  "island-reindeer-island": {
+   "title": "Reindeer Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 52.4,
+   "lon": -97.98333333
+  },
+  "island-stag-island-nunavut": {
+   "title": "Stag Island (Nunavut)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 51.65027778,
+   "lon": -79.07444444
+  },
+  "island-stefansson-island": {
+   "title": "Stefansson Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 73.33333333,
+   "lon": -105.75
+  },
+  "island-yorke-island": {
+   "title": "Yorke Island (Canada)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 50.44638889,
+   "lon": -125.97722222
+  },
+  "island-aristazabal-island": {
+   "title": "Aristazabal Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.66666667,
+   "lon": -129.16666667
+  },
+  "island-barrie-island": {
+   "title": "Gordon/Barrie Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.9,
+   "lon": -82.63333333
+  },
+  "island-brock-island": {
+   "title": "Brock Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 77.85,
+   "lon": -114.45
+  },
+  "island-broughton-island": {
+   "title": "Broughton Island (Nunavut)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 67.56666667,
+   "lon": -63.9
+  },
+  "island-brunette-island": {
+   "title": "Brunette Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.27972222,
+   "lon": -55.90055556
+  },
+  "island-byam-martin-island": {
+   "title": "Byam Martin Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 75.2,
+   "lon": -104.28333333
+  },
+  "island-chantry-island": {
+   "title": "Chantry Island (Ontario)",
+   "monthlyViews": 122,
+   "days": 48,
+   "lat": 44.4898,
+   "lon": -81.4039
+  },
+  "island-edinburgh-island": {
+   "title": "Edinburgh Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 68.51666667,
+   "lon": -110.85
+  },
+  "island-eglinton-island": {
+   "title": "Eglinton Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 75.76666667,
+   "lon": -118.45
+  },
+  "island-eight-bears-island": {
+   "title": "Eight Bears Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 77.10055556,
+   "lon": -113.36944444
+  },
+  "island-fawn-island": {
+   "title": "Fawn Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 42.6996,
+   "lon": -82.4907
+  },
+  "island-gil-island": {
+   "title": "Gil Island (Canada)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.2,
+   "lon": -129.23333333
+  },
+  "island-gilford-island": {
+   "title": "Gilford Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.72916667,
+   "lon": -126.37805556
+  },
+  "island-grant-island": {
+   "title": "Grant Island (Okanagan Lake)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.10611111,
+   "lon": -119.46861111
+  },
+  "island-isla-coronado": {
+   "title": "Isla Coronado",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-isla-natividad": {
+   "title": "Isla Natividad",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 27.87583333,
+   "lon": -115.18472222
+  },
+  "island-isla-de-los-alacranes": {
+   "title": "Isla de los Alacranes",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 20.25111111,
+   "lon": -103.17027778
+  },
+  "island-kennebecasis-island": {
+   "title": "Kennebecasis Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.32777778,
+   "lon": -66.13055556
+  },
+  "island-kirkland-island": {
+   "title": "Kirkland Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-kunghit-island": {
+   "title": "Kunghit Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 52.1,
+   "lon": -131.08333333
+  },
+  "island-little-cornwallis-island": {
+   "title": "Little Cornwallis Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 75.5,
+   "lon": -96.5
+  },
+  "island-little-tancook-island": {
+   "title": "Little Tancook Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.47222222,
+   "lon": -64.13361111
+  },
+  "island-lougheed-island": {
+   "title": "Lougheed Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 77.4,
+   "lon": -105.25
+  },
+  "island-mcmillan-island": {
+   "title": "McMillan Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.17638889,
+   "lon": -122.57
+  },
+  "island-merasheen-island": {
+   "title": "Merasheen Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.45722222,
+   "lon": -54.24583333
+  },
+  "island-montreal-island": {
+   "title": "Montreal Island (Nunavut)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 67.81666667,
+   "lon": -96.08333333
+  },
+  "island-north-harbour-island": {
+   "title": "North Harbour Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-north-thormanby-island": {
+   "title": "North Thormanby Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.50277778,
+   "lon": -124.00277778
+  },
+  "island-nottingham-island": {
+   "title": "Nottingham Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 63.28333333,
+   "lon": -77.91666667
+  },
+  "island-paul-s-island": {
+   "title": "Paul's Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 56.51666667,
+   "lon": -61.5
+  },
+  "island-pitt-island": {
+   "title": "Pitt Island (Canada)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 53.5,
+   "lon": -129.78333333
+  },
+  "island-puffin-island-baccalieu-tickle": {
+   "title": "Puffin Island (Baccalieu Tickle), Newfoundland and Labrador",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 48.12638889,
+   "lon": -52.81388889
+  },
+  "island-qikiqtaryuaq": {
+   "title": "Qikiqtaryuaq",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 68.72138889,
+   "lon": -102.03666667
+  },
+  "island-san-esteban-island": {
+   "title": "San Esteban Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 28.6975,
+   "lon": -112.5775
+  },
+  "island-san-pedro-martir-island": {
+   "title": "San Pedro Mártir Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 28.38027778,
+   "lon": -112.30694444
+  },
+  "island-sober-island": {
+   "title": "Sober Island, Nova Scotia",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.84223889,
+   "lon": -62.46345556
+  },
+  "island-temagami-island": {
+   "title": "Temagami Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.9604,
+   "lon": -80.0356
+  },
+  "island-wales-island-british-columbia": {
+   "title": "Wales Island (British Columbia)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 54.75,
+   "lon": -130.48333333
+  },
+  "island-waupoos-island": {
+   "title": "Waupoos Island, Ontario",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 43.988,
+   "lon": -76.982
+  },
+  "island-west-redonda-island": {
+   "title": "West Redonda Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.21555556,
+   "lon": -124.85972222
+  },
+  "island-ile-aux-oies": {
+   "title": "Île aux Oies",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47.13445,
+   "lon": -70.48333
+  },
+  "island-adams-island": {
+   "title": "Adams Island (Nunavut)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 71.45,
+   "lon": -73.08333333
+  },
+  "island-coburg-island": {
+   "title": "Coburg Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 75.95,
+   "lon": -79.3
+  },
+  "island-west-cracroft-island": {
+   "title": "West Cracroft Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.5525,
+   "lon": -126.3975
+  },
+  "island-dowker-island": {
+   "title": "Dowker Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 45.40277778,
+   "lon": -73.89444444
+  },
+  "island-emerald-isle-northwest-territories": {
+   "title": "Emerald Isle (Northwest Territories)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 76.8,
+   "lon": -114.11666667
+  },
+  "island-hardwicke-island": {
+   "title": "Hardwicke Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.442,
+   "lon": -125.846
+  },
+  "island-isla-coronados": {
+   "title": "Isla Coronados",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-isla-partida": {
+   "title": "Isla Partida",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 24.5625,
+   "lon": -110.37833333
+  },
+  "island-isla-san-jose": {
+   "title": "Isla San José (Baja California Sur)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 24.97416667,
+   "lon": -110.61444444
+  },
+  "island-san-pedro-nolasco-island": {
+   "title": "San Pedro Nolasco Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 27.96638889,
+   "lon": -111.37833333
+  },
+  "island-king-christian-island": {
+   "title": "King Christian Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 77.06666667,
+   "lon": -102
+  },
+  "island-lyell-island": {
+   "title": "Lyell Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 52.66666667,
+   "lon": -131.5
+  },
+  "island-monumental-island": {
+   "title": "Monumental Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 62.76666667,
+   "lon": -63.85
+  },
+  "island-o-reilly-island": {
+   "title": "O'Reilly Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 68.03694444,
+   "lon": -98.98138889
+  },
+  "island-porphyry-island": {
+   "title": "Porphyry Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 48.35055556,
+   "lon": -88.63583333
+  },
+  "island-prince-leopold-island": {
+   "title": "Prince Leopold Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 74,
+   "lon": -90
+  },
+  "island-qikiqtaaluk": {
+   "title": "Qikiqtaaluk",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 70.94722222,
+   "lon": -71.82
+  },
+  "island-richards-island": {
+   "title": "Richards Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 69.33333333,
+   "lon": -134.5
+  },
+  "island-rowley-island": {
+   "title": "Rowley Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 69.15,
+   "lon": -78.86666667
+  },
+  "island-isla-san-marcos": {
+   "title": "San Marcos, Baja California Sur",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 27.21194444,
+   "lon": -112.07361111
+  },
+  "island-wales-island-nunavut": {
+   "title": "Wales Island (Nunavut)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 68.01666667,
+   "lon": -86.66666667
+  },
+  "island-ile-vanier": {
+   "title": "Île Vanier",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 76.16666667,
+   "lon": -103.25
+  },
+  "island-oak-island-nova-scotia": {
+   "title": "Oak Island",
+   "monthlyViews": 10045,
+   "days": 60,
+   "lat": 44.5135,
+   "lon": -64.2939
+  },
+  "island-fogo-island": {
+   "title": "Fogo Island, Newfoundland and Labrador",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 49.65833333,
+   "lon": -54.1825
+  },
+  "island-middle-island-ontario": {
+   "title": "Middle Island (Lake Erie)",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 41.68277778,
+   "lon": -82.68277778
+  },
+  "island-bois-blanc-island-ontario": {
+   "title": "Bois Blanc Island (Ontario)",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 42.09555556,
+   "lon": -83.12055556
+  },
+  "island-deer-island-new-brunswick": {
+   "title": "Deer Island (New Brunswick)",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 44.97566667,
+   "lon": -66.98155556
+  },
+  "island-rattlesnake-island-british-columbia": {
+   "title": "Rattlesnake Island (Okanagan Lake)",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 49.74777778,
+   "lon": -119.71722222
+  },
+  "island-stuart-island-british-columbia": {
+   "title": "Stuart Island (British Columbia)",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-belle-isle-newfoundland-and-labrador": {
+   "title": "Belle Isle (Newfoundland and Labrador)",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 51.92888889,
+   "lon": -55.35916667
+  },
+  "island-gambier-island": {
+   "title": "Gambier Island",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 49.49305556,
+   "lon": -123.39305556
+  },
+  "island-sea-island-british-columbia": {
+   "title": "Sea Island (British Columbia)",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 49.2,
+   "lon": -123.16666667
+  },
+  "island-st-paul-island": {
+   "title": "St. Paul Island (Nova Scotia)",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 47.20277778,
+   "lon": -60.15083333
+  },
+  "island-james-island-british-columbia": {
+   "title": "James Island (British Columbia)",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 48.60472222,
+   "lon": -123.34944444
+  },
+  "island-protection-island-british-columbia": {
+   "title": "Protection Island (Nanaimo)",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 49.17888889,
+   "lon": -123.92
+  },
+  "island-snake-island-ontario": {
+   "title": "Snake Island (Lake Simcoe)",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 44.31666667,
+   "lon": -79.48333333
+  },
+  "island-santiago-island-galapagos": {
+   "title": "Santiago Island (Galápagos)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": -0.252364,
+   "lon": -90.717952
+  },
+  "island-bear-island-ontario": {
+   "title": "Bear Island (Lake Temagami)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 46.98063,
+   "lon": -80.06887
+  },
+  "island-nelson-island-british-columbia": {
+   "title": "Nelson Island (British Columbia)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-banks-island-british-columbia": {
+   "title": "Banks Island (British Columbia)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 53.40333333,
+   "lon": -130.13027778
+  },
+  "island-portland-island": {
+   "title": "Portland Island (British Columbia)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 48.73333333,
+   "lon": -123.36666667
+  },
+  "island-discovery-island-british-columbia": {
+   "title": "Discovery Island (British Columbia)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 48.42333333,
+   "lon": -123.23333333
+  },
+  "island-flores-island-british-columbia": {
+   "title": "Flores Island (British Columbia)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.20805556,
+   "lon": -126.14916667
+  },
+  "island-indian-island-new-brunswick": {
+   "title": "Indian Island (Bay of Fundy)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.92972222,
+   "lon": -66.96944444
+  },
+  "island-long-island-nova-scotia": {
+   "title": "Long Island (Nova Scotia)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.32638889,
+   "lon": -66.27277778
+  },
+  "island-chapel-island-nova-scotia": {
+   "title": "Chapel Island (Canada)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.71666667,
+   "lon": -60.7825
+  },
+  "island-douglas-island-british-columbia": {
+   "title": "Douglas Island (British Columbia)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 49.22083333,
+   "lon": -122.775
+  },
+  "island-grenadier-island-ontario": {
+   "title": "Grenadier Island (Saint Lawrence River)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.40777778,
+   "lon": -75.8725
+  },
+  "island-horseshoe-island-wisconsin": {
+   "title": "Horseshoe Island (Wisconsin)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.17888889,
+   "lon": -87.20916667
+  },
+  "island-isle-of-man-ontario": {
+   "title": "Isle of Man (Cataraqui River)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.32416667,
+   "lon": -76.41722222
+  },
+  "island-kent-island-new-brunswick": {
+   "title": "Kent Island (New Brunswick)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.58194444,
+   "lon": -66.75611111
+  },
+  "island-montague-island-baja-california": {
+   "title": "Montague Island (Baja California)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 31.73833333,
+   "lon": -114.74638889
+  },
+  "island-bear-island-new-brunswick": {
+   "title": "Bear Island (New Brunswick)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 45.9217,
+   "lon": -67.0264
+  },
+  "island-big-island-ontario": {
+   "title": "Big Island (Bay of Quinte)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.118,
+   "lon": -77.243
+  },
+  "island-campbell-island-british-columbia": {
+   "title": "Campbell Island (British Columbia)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 52.11666667,
+   "lon": -128.2
+  },
+  "island-goat-island-british-columbia": {
+   "title": "Goat Island (British Columbia)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 50.04722222,
+   "lon": -124.44611111
+  },
+  "island-graham-island-nunavut": {
+   "title": "Graham Island (Nunavut)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 77.41666667,
+   "lon": -90.5
+  },
+  "island-grindstone-island-ontario": {
+   "title": "Grindstone Island (Ontario)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.71083333,
+   "lon": -76.23111111
+  },
+  "island-henry-island-nova-scotia": {
+   "title": "Henry Island (Nova Scotia)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 45.98136111,
+   "lon": -61.59805556
+  },
+  "island-hope-island-ontario": {
+   "title": "Hope Island (Ontario)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.905,
+   "lon": -80.18027778
+  },
+  "island-snake-island-british-columbia": {
+   "title": "Snake Island (Nanaimo)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.2152,
+   "lon": -123.8906
+  },
+  "island-alexander-island-nunavut": {
+   "title": "Alexander Island (Nunavut)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 75.86666667,
+   "lon": -102.61666667
+  },
+  "island-smith-island-nunavut": {
+   "title": "Smith Island (Hudson Bay, Nunavut)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 60.77,
+   "lon": -78.46
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",
