@@ -67,10 +67,12 @@ Standing decisions from the user, all still in force:
 
 ## Where things stand
 
-Branch `expansion`, **~110 commits ahead of `main`** (`ffeceaa` is an ancestor: a fast-forward), pushed,
-tree clean. `npm test` 191 · `npm run validate` 14,914 · `npm run gap-check`
-812 pins, every one lands. `bank.js` 1.97 MB. **`main` / Netlify still serve
-the 9,300-place bank.**
+**Released 2026-09-18 ~01:30 UTC**: `expansion` was fast-forwarded into
+`main` (one push; tag `v1.3-europe-wave` marks the commit) and GitHub Pages
+deployed it; the Netlify publish is the user's dashboard act (see "The
+release, as audited"). `expansion` == `main` at the release; the next wave
+continues on `expansion`. `npm test` 193 · `npm run validate` 14,901 ·
+`npm run gap-check` 812 pins, every one lands. `bank.js` 1.97 MB.
 
 | category | US wave end | now | Europe floor | wave reports (`scripts/expansion/reports/`) |
 |---|---|---|---|---|
@@ -824,15 +826,17 @@ background. The Bash tool caps at 600 s.
 ## Where it lives
 
 - **Repo:** https://github.com/MichaelBoujikian/wormillion (public; `gh` is
-  authenticated, `git push` just works). **Both waves live on branch `expansion`**
-  (pushed; CI runs on it). `main` is at `ffeceaa` = what Netlify serves.
+  authenticated, `git push` just works). **`main` = `expansion` = tag
+  `v1.3-europe-wave`** since the 2026-09-18 release (before it, `main` sat at
+  `ffeceaa`, the 9,300 bank, from 2026-09-15 to 2026-09-18).
 - **GitHub Pages:** https://michaelboujikian.github.io/wormillion/ — every push
   to `main` deploys within a minute or two (`deploy.yml`); `ci.yml` runs
   test + validate on every branch.
-- **Netlify:** https://wormillion.netlify.app — serves `1eaa3fb` (verified
-  live 2026-09-15 ~20:30 PDT, see below; `1eaa3fb..ffeceaa` touches only
-  HANDOFF.md, so main = Pages = Netlify = the 9,300 bank, byte-checked
-  2026-09-17). **The user has held Netlify off auto-publishing.** Per the
+- **Netlify:** https://wormillion.netlify.app — served `1eaa3fb` (the 9,300
+  bank; `1eaa3fb..ffeceaa` touches only HANDOFF.md) from 2026-09-15 until the
+  user published the `v1.3-europe-wave` build (the release of 2026-09-18;
+  verify with `curl -sI https://wormillion.netlify.app/data/bank.js` — the
+  new bank is 1.97 MB, the old 1.26 MB). **The user has held Netlify off auto-publishing.** Per the
   Netlify docs (read 2026-09-17): a *locked* site still **builds** every
   push to main and only withholds publishing ("Publish deploy" then
   publishes the built one, no second build); *Stopped builds* is the setting
