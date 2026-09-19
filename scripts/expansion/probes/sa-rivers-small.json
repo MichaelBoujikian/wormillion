@@ -1,0 +1,31 @@
+{
+  "name": "sa-rivers-small",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": [
+    "Category:Rivers of Ecuador",
+    "Category:Rivers of Paraguay",
+    "Category:Rivers of Uruguay",
+    "Category:Rivers of Guyana",
+    "Category:Rivers of Suriname",
+    "Category:Rivers of French Guiana"
+  ],
+  "subcat": "^Category:(Rivers|Tributaries) of (?!.*(stubs|Mexico|Panama|Costa Rica|Nicaragua|Honduras|Guatemala|Belize|El Salvador|Cuba|Haiti|Dominican|Jamaica|Puerto Rico|Trinidad|Bridges|Locks|Crossings|Populated|Braided|Coastal basins|Antarctic|Falkland|South Georgia|Ecuador$|Paraguay$|Uruguay$|Guyana$|Suriname$|French Guiana$))",
+  "lists": [
+    "List of rivers of Ecuador",
+    "List of rivers of Paraguay",
+    "List of rivers of Uruguay",
+    "List of rivers of Guyana",
+    "List of rivers of Suriname",
+    "List of rivers of French Guiana"
+  ],
+  "kind": "(river|tributary|stream|creek|brook|arroyo|watercourse|\\br[ií]o\\b|\\brib[ei]ir[aã]o\\b|\\bigarap[eé]\\b|\\bfork\\b|\\bbranch\\b)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|^Rivers of|^Tributaries|^Longest rivers|crossings|River basin$|Watershed$|Valley$|Canyon$|Falls$|Dam$|Reservoir$|Lake$|Gorge$|Bridge$|Aqueduct$|Canal$|Trail$|Park$|Forest$|Refuge$|Delta$|Estuary$|Lagoon$|Hydroelectric|Power Station$|Power Plant$|^Rio Grande Valley|^Rio Grande rift)",
+  "notKind": "^(reservoir|lake|dam|canal|waterfall|falls|park|glacier|bay|sound|estuary|lagoon|swamp|marsh|wetland|island|mountain|subrange|range|ridge|trail|bridge|scenic|road|highway|valley|canyon|county|city|town|village|township|municipality|neighborhood|unincorporated|region|state|delta|former|historic|drainage|basin|aquifer|spring|human settlement|populated place)",
+  "sizeProp": "P2043",
+  "sizeUnit": "km",
+  "minSize": 60,
+  "famousViews": 1000,
+  "spellings": "river",
+  "noFigureViews": 122
+}

@@ -1,0 +1,33 @@
+{
+  "name": "sa-deserts",
+  "category": "desert",
+  "jsonFile": "deserts.json",
+  "roots": [
+    "Category:Deserts of South America",
+    "Category:Deserts of Argentina",
+    "Category:Deserts of Chile",
+    "Category:Deserts of Peru",
+    "Category:Deserts of Brazil",
+    "Category:Deserts of Bolivia",
+    "Category:Deserts of Colombia",
+    "Category:Deserts of Venezuela",
+    "Category:Deserts of Ecuador",
+    "Category:Atacama Desert",
+    "Category:Patagonian Desert"
+  ],
+  "subcat": "^Category:(Deserts|Badlands|Semi-arid regions|Sand dunes|Ergs|Salt flats) of (?!.*(Africa|Australia|Antarctic|India|China|Mongolia|Libya|Algeria|Morocco|Tunisia|Mauritania|Mali|Niger|Chad|Sudan|Namibia|South Africa|Botswana|Egypt|Mexico|United States|Asia|Europe))",
+  "lists": [
+    "List of deserts",
+    "List of deserts by area",
+    "List of deserts of South America"
+  ],
+  "kind": "(desert|dunes?|sand|arid|badlands|erg|playa|salt flat|dry lake|basin and range|Desert$|Dunes$|Sands$|Flats?$)",
+  "skipTitle": "(^List of|^Geography of|Park$|Refuge$|Wildlife|Airport|Base$|Station$|Township|County$|Resort$|Preserve$|Monument$|Trail$|Reservation$|Range$|Canyon$|Valley$)",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "spellings": "desert",
+  "notKind": "^(town|city|village|county|census|neighborhood|community|unincorporated|resort|park|monument|refuge|wildlife|preserve|state park|national park|reservation|mountain range|range|river|lake|reservoir|dam|canal|valley|canyon|plateau|basin|region of|ecoregion|highway|road|trail|airport|base|station|list|company|film|novel|album|band|festival)",
+  "minSize": 1,
+  "noFigureViews": 122,
+  "famousViews": 1000
+}

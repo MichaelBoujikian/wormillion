@@ -22,94 +22,64 @@ per wave) and SPEC §13; git log has the rest.
 **Resume point (refreshed with every chunk commit — the user's standing
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
-do the next thing named here):** West and Central Asia wave: every probe
-folded and BOTH audit rounds applied (`0b09b4f`, this commit). NEXT: (1) the
-wave report `scripts/expansion/reports/2026-09-19-wca-wave.md` after the
-shape of `2026-09-19-ea-wave.md` (bank 19,398 -> 20,225; the cohort table
-from `jackpot-share.mjs`; what was decided on the spot; the numbers for the
-user: the city jackpot share 6.72% (a 213 floor -> ~5.6%), the desert floor
-213 vs East Asia's 122, draw-diff main 17 of 46 - the river themes; the open
-threads); (2) HANDOFF "Where things stand" (bank, commits past main, the
-cohort table, the waves-so-far line for West and Central Asia), the lessons
-the wave paid for (the generic-list page - already in; the P518 census
-component; a sister figure's unit; the il merkezi district figure; the
-wide-correction nudge); (3) memory `expansion-plan.md` + `MEMORY.md`
-(W./Central Asia done 20,225); (4) START SOUTH AMERICA: the eight probe
-configs `probes/sa-*.json` are already written (uncommitted - commit them
-with the groundwork), seed no new theme unless needed (river `South America`
-and mountain `the Andes` exist; check the sea / island themes `the Americas`
-/ `the Caribbean`), then `node scripts/expansion/probe.mjs
+do the next thing named here):** The West and Central Asia wave is CLOSED
+(`reports/2026-09-19-wca-wave.md`, bank 20,225). SOUTH AMERICA has started:
+this commit carries the eight probe configs `probes/sa-*.json` and the
+closed wave's write-up. NEXT: probe 1 - `node scripts/expansion/probe.mjs
 scripts/expansion/probes/sa-rivers-big.json >
-scripts/expansion/work/sa-rivers-big.out` (Brazil, Argentina, Colombia (its
-rivers were done in an early pass), Peru, Venezuela, Chile, Bolivia at 80
-km; the article pass `--sister=es,pt`; the loop as in this wave; the
-hand-clean pattern is the scratchpad's `clean-wca2.cjs`), then the small
-countries, lakes, mountains, islands, seas, deserts, cities, two audit
-rounds, the wave report. Nothing uncommitted after this commit but the
-sa-*.json configs.
+scripts/expansion/work/sa-rivers-big.out` (Brazil, Argentina, Colombia,
+Peru, Venezuela, Chile, Bolivia at 80 km; ends with `PROBE-DONE`), then
+`article-size.mjs work/sa-rivers-big.json --no-figure --min-views=30
+--sister=es,pt`, the probe again, `chunk --tag=sa --min-views=30
+--allow-no-figure`, hand-clean (the scratchpad's `clean-wca2.cjs` pattern
+with a South America country map; theme `South America` for every row; cut
+the concept rows and the foreign ones), fold, `--taken-only --tag=ns-sa`,
+qualify, fold, pipeline, report `reports/2026-09-19-sa-rivers-big.md` (or
+the day's date), commit, push. Then `sa-rivers-small.json` (60 km), lakes,
+mountains, islands, seas, deserts, cities, the two audit rounds, the wave
+report - step 3 below. Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
-   Canada, Eastern Europe and East Asia waves + the first West and Central
-   Asia chunk + this file; 60 commits past `main`). `npm test` → 212,
-   `npm run validate` → 19,545, `npm run gap-check` clean. Read "The job",
-   "Where things stand", then "The loop".
+   Canada, Eastern Europe, East Asia and West and Central Asia waves + this
+   file; 73 commits past `main`). `npm test` → 213, `npm run validate` →
+   20,225, `npm run gap-check` clean. Read "The job", "Where things
+   stand", then "The loop".
 2. **Closed and audited, nothing pending**: Eastern Europe
-   (`reports/2026-09-18-ee-wave.md`) and East Asia
-   (`reports/2026-09-19-ea-wave.md`, 17,833 → 19,398). **Two numbers for
-   the user from East Asia**: the city jackpot share is 4.74% (188 East
-   Asian cities at 91–312 views; a 213 floor would leave 3.4% — the
-   standing 91 floor was kept), and `draw-diff.mjs main` differs on 17 of
-   46 dailies because the three East Asia river themes enter the theme pick
-   (from 2026-09-19 round 6; the five West and Central Asia river themes
-   add to that) — the release window is the user's call as ever.
-3. **West and Central Asia is in progress** (the user's standing
-   instruction: move on to the next area without asking). Done and
-   committed: the groundwork `de809c0` (five river themes seeded —
-   `Turkey`, `Iran`, `the Caucasus`, `the Middle East`, `Central Asia`;
-   tr / fa / ar / he / ka / hy / az / kk / uz sister fields with Eastern
-   Arabic and Persian digits folded; the eight probe configs
-   `probes/wca-*.json`) and **probe 1, the big countries' rivers**
-   `8080ec1` (Turkey, Iran, Kazakhstan, Saudi Arabia, Afghanistan, Iraq at
-   80 km: 144 rivers + 3 namesakes, `reports/2026-09-19-wca-rivers-big.md`).
-   **Next, in order** (nothing is running; nothing uncommitted):
-   - **Probe 2, the small countries' rivers**: `node
-     scripts/expansion/probe.mjs scripts/expansion/probes/wca-rivers-small.json`
-     (Georgia, Armenia, Azerbaijan, Syria, Lebanon, Israel, Palestine,
-     Jordan, Yemen, Oman, the UAE, Qatar, Bahrain, Kuwait, Uzbekistan,
-     Turkmenistan, Kyrgyzstan, Tajikistan, Cyprus; 60 km; `noFigureViews`
-     122), then `article-size.mjs work/wca-rivers-small.json --no-figure
-     --min-views=30 --sister=ru,tr,fa,ar,he,ka,hy,az,uz`, the probe again,
-     `chunk --tag=wca2 --min-views=30 --allow-no-figure`, hand-clean with
-     the themes set BY DESCRIPTION (the Caucasus → `the Caucasus`; Syria /
-     Lebanon / Israel / Palestine / Jordan / the Peninsula → `the Middle
-     East`; the -stans → `Central Asia`; Cyprus → none — the `themeOf`
-     pattern in this session's chunk script), cut the foreign rows the
-     national categories drag in (Russia's, Pakistan's, Egypt's), fold,
-     `--taken-only --tag=ns-wca2`, qualify, fold, pipeline, commit, push.
-     Expect wadis (in only where the article calls them rivers), the
-     Golan / Jordan border rivers (the who-administers-it rule), and many
-     Israeli "streams" (Nahal X) under 60 km.
-   - Then lakes (`wca-lakes.json`, 25 km²; the Caspian's, Van, Urmia, Sevan,
-     Balkhash, Issyk-Kul, Aral are in; Turkey's and Iran's salt lakes go
-     into `saltwater` by description and infobox type), mountains
-     (`wca-mountains.json`, 34 lists, 122 views; `range-tag.mjs` has no
-     Caucasus / Zagros / Elburz / Tian Shan / Pamir / Hindu Kush table —
-     add one per theme if a theme exists; `the Himalayas` table already
-     excludes the Karakoram and Pamir), islands (`wca-islands.json`),
-     seas (`wca-seas.json`; cut the worldwide lists to the wave), deserts
-     (`wca-deserts.json`; the Arabian and Iranian deserts — the cohort's
-     8.28% share is the standing open question), cities (`wca-cities.json`,
-     27 lists; Turkish "il merkezi" district articles, Iranian counties,
-     Israeli local councils are not cities; the capitals are refused by
-     the fold; a city that is a country's or island's name is qualified by
-     province, never "X City").
-   - An Opus audit round after rivers + lakes + mountains and another
-     after islands + seas + deserts + cities (two auditors, `Workflow`
-     `parallel()`; the data auditor gets the Wikipedia budget when no
-     probe runs, else both offline; the scripts in
-     `~/.claude/projects/…/workflows/scripts/ea-*-audit-*.js` are the
-     pattern), the wave report (`reports/2026-09-19-wca-wave.md` after
-     `-ea-wave.md`), this file; then **South America** (the roadmap).
+   (`reports/2026-09-18-ee-wave.md`), East Asia
+   (`reports/2026-09-19-ea-wave.md`) and West and Central Asia
+   (`reports/2026-09-19-wca-wave.md`, 19,398 → 20,225). **Numbers for the
+   user**: the city jackpot share is **6.72%** (4.74% after East Asia;
+   136 West and Central Asian towns at 91–312 views; a 213 floor for that
+   wave's cities would leave ~5.6%, a 313 floor ~4.5% — the cities report
+   names the rows), the desert floor was 213 this wave against East Asia's
+   122 (one rule wanted), and `draw-diff.mjs main` differs on 17 of 46
+   dailies (the eight river themes of the last two waves move the theme
+   pick; no row moves a daily) — the release window is the user's call as
+   ever.
+3. **South America is next** (the user's standing instruction: run the
+   whole roadmap without asking). The eight probe configs
+   `probes/sa-*.json` are written: Brazil, Argentina, Colombia, Peru,
+   Venezuela, Chile, Bolivia at 80 km (`sa-rivers-big.json`); Ecuador,
+   Paraguay, Uruguay, Guyana, Suriname, French Guiana at 60 km
+   (`sa-rivers-small.json`); lakes 25 km² with `noFigureViews` 61 (so the
+   article pass reads the unsized rows — the West and Central Asia lakes
+   lesson); mountains from 22 lists (some will not exist — the probe
+   prints the missing ones, replace them); islands 1 km²; seas 213 views;
+   deserts; cities from 17 lists with `listCountry` (French Guiana's rows
+   are France's). The river theme `South America` (252 rows) and the
+   mountain theme `the Andes` (459) exist; seas and islands have `the
+   Americas` / `the Caribbean`; no new theme is needed unless a country
+   theme is wanted (a new theme moves the draw). Colombia's rivers were
+   done in an early pass (the bank's least-viewed rows, Mecaya 7 views,
+   are Colombian streams — the probe will find them present). The sister
+   wikis are `--sister=es,pt` (the Mexico wave's fields). The loop per
+   probe is "The loop" below; the hand-clean scripts of this session
+   (`clean-wca2.cjs` rivers, `clean-wca-lakes.cjs`, `-mountains`,
+   `-islands`, `-seas`, `-cities` in the scratchpad) are the pattern —
+   themes by description, a PLACE / CONCEPT description rule against the
+   generic-list pages, drops / renames / aliases by wikiTitle. Then the
+   two audit rounds, the wave report `reports/2026-09-19-sa-wave.md` (or
+   the day's date), this file; then **Central America** (the roadmap).
 4. Release only when the user says so, by "The release procedure" below —
    a push to `main` deploys GitHub Pages and builds Netlify; it is never a
    routine push. `main` is still `v1.3-europe-wave` (14,901); everything
@@ -202,10 +172,15 @@ Standing decisions from the user, all in force:
   Himalayas range table, the "X City" lesson (qualify by prefecture
   instead), the prefecture-total population convention, the 4.74% city
   jackpot share left for the user.
-- **West and Central Asia** (in progress, 2026-09-19): Turkey, the
-  Caucasus, Iran, Iraq, the Levant, the Arabian Peninsula, the -stans,
-  Afghanistan, Cyprus; the groundwork and the big countries' rivers done
-  (19,398 → 19,545); `probes/wca-*.json`.
+- **West and Central Asia** (2026-09-19, `reports/2026-09-19-wca-wave.md`):
+  Turkey, the Caucasus, Iran, Iraq, the Levant, the Arabian Peninsula, the
+  -stans, Afghanistan, Cyprus; eight probes, two audit rounds, 19,398 →
+  20,225; the five river themes, ten sister wikis with Persian and Arabic
+  digits, the generic-list-page lesson (three lists resolved to *River* /
+  a worldwide list / *Turkey*), the Turkish district-figure and Saudi P518
+  census lessons, two engine changes (the dotless ı and ayin fold; the
+  wide-correction nudge), the city jackpot share at 6.72% left for the
+  user.
 
 ## What an Eastern European probe looks like (the shape of a wave)
 
@@ -231,14 +206,14 @@ Standing decisions from the user, all in force:
 
 # Where things stand
 
-**On `expansion-2` (HEAD `8080ec1`+, 60 commits past `main`; bank 19,545,
-tests 212, validate and gap-check clean, `bank.js` 2.47 MB raw; 1,171
+**On `expansion-2` (HEAD `e043602`+, 73 commits past `main`; bank 20,225,
+tests 213, validate and gap-check clean, `bank.js` 2.62 MB raw; 1,182
 entries carry a qualifier):** decision 5 + the Mexico and Canada, Eastern
-Europe and East Asia waves (all closed and audited) + West and Central
-Asia's groundwork and first river chunk (not yet audited). `draw-diff.mjs
-main` **17 of 46** dailies draw differently (the river themes; from
-2026-09-19 round 6). Reports: `scripts/expansion/reports/2026-09-1[89]-*.md`
-(probe reports, audit reports, the three wave summaries).
+Europe, East Asia and West and Central Asia waves (all closed and
+audited). `draw-diff.mjs main` **17 of 46** dailies draw differently (the
+river themes; from 2026-09-19 round 6). Reports:
+`scripts/expansion/reports/2026-09-1[89]-*.md` (probe reports, audit
+reports, the four wave summaries).
 
 **On `main` = tag `v1.3-europe-wave` (`8ecb7e5`) = what Pages and Netlify
 serve** since the 2026-09-18 01:25 UTC release (verified both hosts; see
@@ -246,13 +221,13 @@ serve** since the 2026-09-18 01:25 UTC release (verified both hosts; see
 
 | cohort | now | floors in force (size; views/mo) | jackpot share | `size` 0 |
 |---|---|---|---|---|
-| rivers | 5,267 | 80 km US & Canada / 60 km Europe & Mexico / 50 km Britain & Ireland, or 1,000+ views; **≥ 30 views**; unsized admitted at 30+ (Mexico) / 122+ (Canada), not in Europe | 1.40% | 120 |
-| lakes | 1,620 | 25 km² or 1,000+ views; **≥ 61 views** | 2.59% | 4 |
-| mountains | 3,174 | lists only, no elevation floor; **≥ 122 views** | 1.20% | 21 |
-| islands | 3,105 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | 2.03% | 617 |
-| seas | 743 | unsized at **≥ 213 views** | 1.48% | 425 |
-| deserts | 145 | — | 8.28% (the one physical cohort above the band) | 14 |
-| cities | 5,047 | 50,000 population (Wikidata P1082); **≥ 91 views** (since 2026-09-18) | **4.74%** (188 East Asian rows at 91–312 views; the user's knob) | — |
+| rivers | 5,362 | 80 km US & Canada / 60 km Europe & Mexico / 50 km Britain & Ireland, or 1,000+ views; **≥ 30 views**; unsized admitted at 30+ (Mexico) / 122+ (Canada), not in Europe | 1.38% | 129 |
+| lakes | 1,670 | 25 km² or 1,000+ views; **≥ 61 views** | 2.51% | 4 |
+| mountains | 3,230 | lists only, no elevation floor; **≥ 122 views** | 1.18% | 23 |
+| islands | 3,176 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | 1.98% | 633 |
+| seas | 749 | unsized at **≥ 213 views** | 1.47% | 430 |
+| deserts | 147 | — (213 views this wave, 122 in East Asia) | 8.16% (the one physical cohort above the band) | 16 |
+| cities | 5,447 | 50,000 population (Wikidata P1082, the town's figure - not a district's or a province's); **≥ 91 views** (since 2026-09-18) | **6.72%** (188 East Asian + 136 West and Central Asian rows at 91–312 views; the user's knob) | — |
 | countries / capitals | 197 / 247 | fixed | 14% / 5% (small fixed cohorts, high by construction) | — |
 
 The views floors sit just above each cohort's flat bottom (the median of 60
@@ -278,10 +253,13 @@ sub-region in `data-countries.mjs`, so Greek cities refuse "Name a city in
 Eastern Europe" (a data-countries call: Eastern or a new Southern Europe);
 "Red Lagoon" (Laguna Colorada's alias) scores the Red Sea on a sea round
 through the lagoon filler (one typing; accepted as the price of the fix);
-the city cohort's 4.74% jackpot share after East Asia (a 213-views floor
-for that wave's cities would leave 3.4%); the desert cohort at 8.28%; the
-release window now that `draw-diff main` differs on 17 of 46 days (a new
-theme moves the draw — rows never did).
+the city cohort's **6.72%** jackpot share after West and Central Asia
+(4.74% after East Asia; a 213-views floor for this wave's cities would
+leave ~5.6%, a 313 floor ~4.5% — `reports/2026-09-19-wca-cities.md`); the
+desert cohort at 8.16% and its floor (213 this wave, 122 in East Asia);
+the release window now that `draw-diff main` differs on 17 of 46 days (a
+new theme moves the draw — rows never did); "Tripoli" on a city round is
+Tripoli (Lebanon) (fame ratio 2.7 < 3).
 
 ---
 
@@ -594,6 +572,31 @@ background (the Bash tool caps at 600 s).
   (`PLACE` / `CONCEPT` in the scratchpad's `clean-wca2.cjs`); check the
   probe's "list page … N links" lines for a count that makes no sense for
   the country (West and Central Asia, 2026-09-19).
+- **A Wikidata population can be a district's, a province's or a census
+  component.** Turkey's "Municipality in X" articles carry the town in
+  their infobox while Wikidata's P1082 is the district (Çaycuma 91,569 for
+  a town of 30,255; Balıkesir 1,250,610 for 314,958 — the metropolitan
+  province); Saudi Arabia's 2010 census items carry three P1082 claims and
+  the probe took the "applies to part" (P518) one (Khamis Mushait 99,213
+  for 535,065). The second West and Central Asia audit read every city
+  infobox live and re-sized 17, dropped 17; until the probe skips P518
+  claims and prefers the infobox, a cities audit must do the same
+  (`reports/2026-09-19-wca-isdc-city-figures.txt` is the shape).
+- **A sister figure has a unit.** arwiki's "250,000 م²" and
+  `{{km2 to mi2|59.3}}` (read as 2), enwiki's own "0,025" (read as 25),
+  "245" hectares, Wikidata's 1.1 km² for 11 ha — five in one wave, all
+  caught by eye or by the audit. `article-size.mjs` still trusts the
+  number; a lake over 100,000 km² or an island under 0.01 km² is a unit.
+- **A lake config needs `noFigureViews`.** Without it the probe fetches no
+  views for unsized rows, so `article-size.mjs --no-figure --min-views=N`
+  reads none of them; the West and Central Asia lakes pass had to be
+  rerun over all 419 unsized rows (it sized 232). The South America
+  config has it.
+- **A famous name one edit from a wave row.** "Paris" on a narrowed city
+  round became "Pardis isn't in Europe" because the wide correction never
+  asked the other cohorts; fixed in `run.js` (2026-09-19). The class
+  returns whenever a wave adds a 97k town one key from a capital — the
+  gameplay audit's one-edit battery over the famous names is the check.
 
 ---
 
