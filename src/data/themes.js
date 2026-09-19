@@ -380,7 +380,15 @@ globalThis.WORMILLION_THEMES = {
       'San Juan (Argentina)', 'Rio Grande (Brazil)', 'Rio Grande (Bolivia)', 'Rio Grande (Tierra del Fuego)', 'Rio Grande (Mendoza)',
       'Dulce (Argentina)', 'Manzanares (Venezuela)', 'Piracicaba (Sao Paulo)', 'Taquari (Mato Grosso do Sul)', 'Chama (Venezuela)',
       'Chico (Chubut)', 'Mira (Ecuador)', 'Parana (Tocantins)', 'Pardo (Mato Grosso do Sul)', 'Rio Verde (Sao Paulo)',
-      'San Pedro (Bolivia)', 'Una (Pernambuco)'
+      'San Pedro (Bolivia)', 'Una (Pernambuco)',
+      // 2026-09-19 expansion
+      'Potaro', 'Pomeroon', 'Commewijne', 'Canje', 'Daule',
+      'Esmeraldas', 'Guayllabamba', 'Malani', 'Tapanahony', 'Camopi',
+      'Chone', 'Counamama', 'Gonini', 'Inini', 'Mahury',
+      'Mana', 'Olimar Grande', 'Paloemeu', 'Para Creek', 'Tacuari',
+      'Waki', 'Zamora',
+      // 2026-09-19 expansion
+      'Rio Verde (Paraguay)'
     ],
     'Africa': [
       'Nile', 'Congo River', 'Niger River', 'Zambezi', 'Orange River', 'Ubangi',

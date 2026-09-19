@@ -7280,6 +7280,29 @@ Pardo (Mato Grosso do Sul)|600
 Rio Verde (Sao Paulo)|105
 San Pedro (Bolivia)|100
 Una (Pernambuco)|290
+Potaro|255
+Pomeroon|0
+Commewijne|117
+Canje|0
+Daule|260
+Esmeraldas|210
+Guayllabamba|240
+Malani|245
+Tapanahony|417
+Camopi|244
+Chone|95
+Counamama|106
+Gonini|100
+Inini|215
+Mahury|169
+Mana|462
+Olimar Grande|211
+Paloemeu|181
+Para Creek|78
+Tacuari|230
+Waki|147
+Zamora|183
+Rio Verde (Paraguay)|255
 `;
 
 export const MOUNTAINS = `

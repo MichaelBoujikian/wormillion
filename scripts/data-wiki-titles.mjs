@@ -9756,7 +9756,31 @@ export const WIKI_TITLES = {
   "river-pardo-mato-grosso-do-sul": "Pardo River (Mato Grosso do Sul)",
   "river-rio-verde-sao-paulo": "Rio Verde (São Paulo)",
   "river-san-pedro-bolivia": "San Pedro River (Bolivia)",
-  "river-una-pernambuco": "Una River (Pernambuco)"
+  "river-una-pernambuco": "Una River (Pernambuco)",
+
+  // --- river (2026-09-19 expansion) ---
+  "river-potaro": "Potaro River",
+  "river-pomeroon": "Pomeroon River",
+  "river-commewijne": "Commewijne River",
+  "river-canje": "Canje River",
+  "river-daule": "Daule River",
+  "river-esmeraldas": "Esmeraldas River",
+  "river-guayllabamba": "Guayllabamba River",
+  "river-malani": "Malani (river)",
+  "river-tapanahony": "Tapanahony River",
+  "river-camopi": "Camopi (river)",
+  "river-chone": "Chone River",
+  "river-gonini": "Gonini River",
+  "river-inini": "Inini (river)",
+  "river-mana": "Mana (French Guiana)",
+  "river-olimar-grande": "Olimar Grande River",
+  "river-paloemeu": "Paloemeu River",
+  "river-tacuari": "Tacuarí River",
+  "river-waki": "Waki (river)",
+  "river-zamora": "Zamora River",
+
+  // --- river (2026-09-19 expansion) ---
+  "river-rio-verde-paraguay": "Río Verde (Paraguay)"
 };
 
 /**

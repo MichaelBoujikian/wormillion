@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T14:53:34.973Z",
+ "fetched": "2026-09-19T15:05:51.026Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -92095,6 +92095,167 @@
    "days": 60,
    "lat": -8.861,
    "lon": -35.13
+  },
+  "river-potaro": {
+   "title": "Potaro River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 5.36333333,
+   "lon": -58.90666667
+  },
+  "river-pomeroon": {
+   "title": "Pomeroon River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 7.61666667,
+   "lon": -58.75
+  },
+  "river-commewijne": {
+   "title": "Commewijne River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 5.8934,
+   "lon": -55.0973
+  },
+  "river-canje": {
+   "title": "Canje River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 6.2619,
+   "lon": -57.5198
+  },
+  "river-daule": {
+   "title": "Daule River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -2.1589,
+   "lon": -79.8714
+  },
+  "river-esmeraldas": {
+   "title": "Esmeraldas River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 0.9975,
+   "lon": -79.64
+  },
+  "river-guayllabamba": {
+   "title": "Guayllabamba River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 0.33888889,
+   "lon": -79.46694444
+  },
+  "river-malani": {
+   "title": "Malani (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 3.29969444,
+   "lon": -54.06611111
+  },
+  "river-tapanahony": {
+   "title": "Tapanahony River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 4.36666667,
+   "lon": -54.45
+  },
+  "river-camopi": {
+   "title": "Camopi (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 3.1707,
+   "lon": -52.3315
+  },
+  "river-chone": {
+   "title": "Chone River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -0.58722222,
+   "lon": -80.41861111
+  },
+  "river-counamama": {
+   "title": "Counamama",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 5.518678,
+   "lon": -53.246188
+  },
+  "river-gonini": {
+   "title": "Gonini River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 4.1651,
+   "lon": -54.3843
+  },
+  "river-inini": {
+   "title": "Inini (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 3.64861111,
+   "lon": -54.00416667
+  },
+  "river-mahury": {
+   "title": "Mahury",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 4.8693,
+   "lon": -52.2355
+  },
+  "river-mana": {
+   "title": "Mana (French Guiana)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 5.7289,
+   "lon": -53.8381
+  },
+  "river-olimar-grande": {
+   "title": "Olimar Grande River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -33.28027778,
+   "lon": -53.86777778
+  },
+  "river-paloemeu": {
+   "title": "Paloemeu River",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 3.35,
+   "lon": -55.43333333
+  },
+  "river-para-creek": {
+   "title": "Para Creek",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 5.74642,
+   "lon": -55.12789
+  },
+  "river-tacuari": {
+   "title": "Tacuarí River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-waki": {
+   "title": "Waki (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 3.4074,
+   "lon": -53.8295
+  },
+  "river-zamora": {
+   "title": "Zamora River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -4,
+   "lon": -78.87
+  },
+  "river-rio-verde-paraguay": {
+   "title": "Río Verde (Paraguay)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",
