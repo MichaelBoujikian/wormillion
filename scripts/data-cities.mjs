@@ -2019,7 +2019,7 @@ Stip|North Macedonia|43000
 Strumica|North Macedonia|35000
 Struga|North Macedonia|16000
 Durres|Albania|113000
-Vlore|Albania|80000
+Vlore|Albania|80000|Vlora
 Shkoder|Albania|77000
 Elbasan|Albania|78000
 Korce|Albania|51000
@@ -4125,8 +4125,8 @@ Salamanca (Guanajuato)|Mexico|160682
 La Paz (State of Mexico)|Mexico|304088|Los Reyes La Paz,Los Reyes Acaquilpan,Los Reyes
 Kramatorsk|Ukraine|147145
 Targoviste|Romania|66965
-Kostiantynivka|Ukraine|72888|Kostyantynivka
-Bakhmut|Ukraine|71094|Artemivsk
+Kostiantynivka|Ukraine|72888|Kostyantynivka,Konstantinovka
+Bakhmut|Ukraine|71094|Artemivsk,Artyomovsk
 Luhansk|Ukraine|403938|Lugansk,Voroshilovgrad
 Przemysl|Poland|56466
 Feodosia|Ukraine|64493|Theodosia,Feodosiya
@@ -4136,7 +4136,6 @@ Gniezno|Poland|65452
 Chelm|Poland|59546
 Mukachevo|Ukraine|85569|Mukacheve,Munkacs
 Izmail|Ukraine|70731
-Sombor|Serbia|51471
 Berdychiv|Ukraine|73046
 Chorzow|Poland|101184
 Pokrovsk|Ukraine|63437|Krasnoarmiysk
@@ -4177,7 +4176,7 @@ Tomaszow Mazowiecki|Poland|59388
 Berdiansk|Ukraine|106311|Berdyansk
 Deva|Romania|53113
 Horlivka|Ukraine|239828|Gorlovka
-Kolomyia|Ukraine|60821|Kolomyya
+Kolomyia|Ukraine|60821|Kolomyya,Kolomea
 Resita|Romania|58393
 Sfantu Gheorghe|Romania|50080
 Giurgiu|Romania|54551
@@ -4192,7 +4191,6 @@ Rybnik|Poland|133772
 Targu Jiu|Romania|73545
 Dabrowa Gornicza|Poland|112876
 Szolnok|Hungary|65564
-Velika Gorica|Croatia|61075
 Yambol|Bulgaria|58997
 Kovel|Ukraine|67575
 Lida|Belarus|102603
@@ -4205,7 +4203,7 @@ Focsani|Romania|66648
 Cazin|Bosnia and Herzegovina|66149
 Konin|Poland|69858
 Nikopol|Ukraine|105160
-Rubizhne|Ukraine|55247
+Rubizhne|Ukraine|55247|Rubezhnoye
 Slutsk|Belarus|58995
 Pruszkow|Poland|65283
 Zviahel|Ukraine|55086|Novohrad-Volynskyi
@@ -4217,7 +4215,6 @@ Lysychansk|Ukraine|96161|Lisichansk
 Ostrow Wielkopolski|Poland|70725
 Barlad|Romania|52475
 Ruda Slaska|Poland|131062
-Lipjan|Kosovo|56643
 Stalowa Wola|Poland|57620
 Vaslui|Romania|63035
 Brovary|Ukraine|109473
@@ -4251,7 +4248,7 @@ Samar (Ukraine)|Ukraine|69855|Novomoskovsk
 Piekary Slaskie|Poland|51876
 Zgierz|Poland|55079
 Popesti-Leordeni|Romania|53434
-Novopolotsk|Belarus|94666
+Novopolotsk|Belarus|94666|Navapolatsk
 Zhodzina|Belarus|62983|Zhodino
 Rechytsa|Belarus|64508|Rechitsa
 Smila|Ukraine|65675
@@ -4281,6 +4278,6 @@ Agios Dimitrios|Greece|71664
 Ilioupoli|Greece|76730
 Keratsini|Greece|75721
 Korydallos|Greece|61248
-Petroupoli|Greece|60146
+Petroupoli|Greece|60146|Petroupolis
 Brest (Belarus)|Belarus|347138|Brest-Litovsk
 `;

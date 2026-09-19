@@ -12396,7 +12396,6 @@ Aegna|3.01
 Kinaros|4.58
 Ostrow Tumski|0
 Antimilos|8
-Argyronisos|0.36
 Oxeia|4.22
 Prvic (Sibenik)|2.37
 Souda|0
@@ -12430,7 +12429,7 @@ Syrna|7.87
 Zut|14.83
 Gioura|11.05
 Kalydon|0
-Sacalin Island|214.1
+Sacalin Island|14.9
 Samiopoula|1.02
 Stvanice|0
 Drvenik Veli|12.07
@@ -12447,7 +12446,6 @@ Falkonera|1.15
 Kalolimnos|1.95
 Ostrow Lednicki|0
 Proti Island|3.11
-Psathoura|0.76
 Skantzoura|6
 Sveti Klement|5.28
 Szigetkoz|375
@@ -12455,7 +12453,7 @@ Vilsandi|9.4
 Kipsala|1.98
 Abruka|10.1
 Armathia|2.57
-Belene Island|68.97
+Belene Island|41.08
 Gavdopoula|2
 Jakljan|3.4
 Kassari|19.3
@@ -12468,7 +12466,6 @@ Rava|3.63
 Schiza|12.3
 Strelecky Island|0
 Vele Srakane|1.15
-Veliki Skolj|76
 Avgo|0
 Drvenik Mali|3.43
 Karsibor|14
@@ -12480,7 +12477,6 @@ Rusanivka|0
 Rusne Island|45
 Skyropoula|3.8
 Trukhaniv Island|4.5
-Agia Kyriaki|0.25
 Atalanti Island|1.6
 Drakonera|2.44
 Kardiotissa|1.43
@@ -12498,7 +12494,7 @@ Tataru Mare Island|25
 Velopoula|1.86
 Zeca|2.55
 Skarda|3.78
-Koufonisi (Crete)|0
+Koufonisi (Crete)|5.25
 `;
 
 export const SEAS_OCEANS = `
@@ -13208,6 +13204,6 @@ Gulf of Euboea|0|Euboean Gulf,Gulf of Evia
 Kakome Bay|0
 Kalamita Bay|0
 Velebit Channel|0
-Dnieper-Bug Estuary|800|Dnieper-Bug Liman,Dnipro-Buh Estuary
+Dnieper-Bug Estuary|800|Dnieper-Bug Liman,Dnipro-Buh Estuary,Dnieper Estuary,Dnieper Liman,Dnipro Liman,Dnipro Estuary,Dnipro-Buh Liman
 Dniester Estuary|360|Dniester Liman
 `;

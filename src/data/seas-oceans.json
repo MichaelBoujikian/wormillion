@@ -12060,7 +12060,12 @@
   "name": "Dnieper-Bug Estuary",
   "aliases": [
    "Dnieper-Bug Liman",
-   "Dnipro-Buh Estuary"
+   "Dnipro-Buh Estuary",
+   "Dnieper Estuary",
+   "Dnieper Liman",
+   "Dnipro Liman",
+   "Dnipro Estuary",
+   "Dnipro-Buh Liman"
   ],
   "size": 800,
   "sizeUnit": "area_km2",

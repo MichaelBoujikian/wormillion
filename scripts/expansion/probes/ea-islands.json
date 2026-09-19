@@ -1,0 +1,36 @@
+{
+  "name": "ea-islands",
+  "category": "island",
+  "jsonFile": "islands.json",
+  "roots": [
+    "Category:Islands of China",
+    "Category:Islands of Japan",
+    "Category:Islands of South Korea",
+    "Category:Islands of North Korea",
+    "Category:Islands of Taiwan",
+    "Category:Islands of Hong Kong",
+    "Category:Islands of Macau",
+    "Category:Islands of Mongolia"
+  ],
+  "subcat": "^Category:(Islands of|Islands in|Uninhabited islands of|Inhabited islands of|Lake islands of|River islands of|Coastal islands of|Islets of|Artificial islands of|Volcanic islands of) (?!.*(stubs|Russia|Kazakhstan|Kyrgyzstan|Tajikistan|Afghanistan|Pakistan|India|Nepal|Bhutan|Myanmar|Laos|Vietnam|Thailand|Cambodia|Philippines|Indonesia|Malaysia|Populated places|Histories|people by|Ancient artificial))",
+  "lists": [
+    "List of islands of China",
+    "List of islands of Japan",
+    "List of islands of Japan by area",
+    "List of islands of South Korea",
+    "List of islands of North Korea",
+    "List of islands of Taiwan",
+    "List of islands of Hong Kong",
+    "List of islands and peninsulas of Hong Kong"
+  ],
+  "kind": "(island|isle|islet|archipelago|atoll|key\\b|cay\\b|Island$|Islands$|^Isle |^Isle of |^Isla |^Isla de |^Islas |Key$|Cay$|Rock$|^Otok |nisi|nisos|^Ostrov |^Wyspa |saar$|otok\b|ostrvo)",
+  "skipTitle": "(^List of|^Islands of|^Geography of|Bridge$|Lighthouse|Light$|Park$|Refuge$|Wildlife|Airport|Base$|Station$|Township|County$|Resort$|Beach$|Harbor$|Harbour$|Marina$|Ferry|Fort |Battery |Prison|Sanctuary$|Preserve$|Trail$|Campground|First Nation$|Indian Reserve|Reserve$|Ecological|Biosphere)",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "minSize": 1,
+  "spellings": "island",
+  "notKind": "^(town|city|village|county|borough|census|neighborhood|neighbourhood|community|unincorporated|resort|lighthouse|fort|park|bridge|ferry|beach|harbor|harbour|bay|sound|strait|lake|river|peninsula|cape|headland|point|reef|shoal|bank|sandbar|former island|former|artificial|company|ship|school|prison|hotel|airport|naval|military|base|station|refuge|wildlife|preserve|nature reserve|state park|national park|provincial park|monument|historic|district|region|group of|chain of|archipelago|islands of|list|first nation|indian reserve|reserve|rural municipality|local service district|settlement|hamlet)|^(municipality|commune|civil parish|parish|human settlement|castle|fortress|monastery|abbey|lighthouse island|tidal island|ecological reserve|migratory bird sanctuary)",
+  "famousViews": 1000,
+  "notKindExemptTitle": "(Island|Isle\\b|Key$|Cay$|Islands$|^Isla |^Otok |^Ostrov |saar$)",
+  "noFigureViews": 122
+}

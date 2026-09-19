@@ -47237,7 +47237,9 @@
   "id": "city-vlore",
   "category": "city",
   "name": "Vlore",
-  "aliases": [],
+  "aliases": [
+   "Vlora"
+  ],
   "size": 80000,
   "sizeUnit": "population",
   "region": [
@@ -97463,7 +97465,8 @@
   "category": "city",
   "name": "Kostiantynivka",
   "aliases": [
-   "Kostyantynivka"
+   "Kostyantynivka",
+   "Konstantinovka"
   ],
   "size": 72888,
   "sizeUnit": "population",
@@ -97488,7 +97491,8 @@
   "category": "city",
   "name": "Bakhmut",
   "aliases": [
-   "Artemivsk"
+   "Artemivsk",
+   "Artyomovsk"
   ],
   "size": 71094,
   "sizeUnit": "population",
@@ -97725,31 +97729,6 @@
   "wikiTitle": "Izmail",
   "lat": 45.35,
   "lon": 28.83333333
- },
- {
-  "id": "city-sombor",
-  "category": "city",
-  "name": "Sombor",
-  "aliases": [],
-  "size": 51471,
-  "sizeUnit": "population",
-  "region": [
-   "Europe",
-   "Eastern Europe"
-  ],
-  "country": "Serbia",
-  "flag": [
-   "red",
-   "white",
-   "blue",
-   "yellow"
-  ],
-  "source": "English Wikipedia pageviews for \"Sombor\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Serbia",
-  "magnitude": 3227,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sombor",
-  "lat": 45.78333333,
-  "lon": 19.11666667
  },
  {
   "id": "city-berdychiv",
@@ -98708,7 +98687,8 @@
   "category": "city",
   "name": "Kolomyia",
   "aliases": [
-   "Kolomyya"
+   "Kolomyya",
+   "Kolomea"
   ],
   "size": 60821,
   "sizeUnit": "population",
@@ -99061,32 +99041,6 @@
   "lon": 20.19649
  },
  {
-  "id": "city-velika-gorica",
-  "category": "city",
-  "name": "Velika Gorica",
-  "aliases": [],
-  "size": 61075,
-  "sizeUnit": "population",
-  "region": [
-   "Europe",
-   "Eastern Europe"
-  ],
-  "country": "Croatia",
-  "flag": [
-   "red",
-   "white",
-   "blue",
-   "yellow",
-   "black"
-  ],
-  "source": "English Wikipedia pageviews for \"Velika Gorica\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Croatia",
-  "magnitude": 1400,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Velika Gorica",
-  "lat": 45.7,
-  "lon": 16.06666667
- },
- {
   "id": "city-yambol",
   "category": "city",
   "name": "Yambol",
@@ -99373,7 +99327,9 @@
   "id": "city-rubizhne",
   "category": "city",
   "name": "Rubizhne",
-  "aliases": [],
+  "aliases": [
+   "Rubezhnoye"
+  ],
   "size": 55247,
   "sizeUnit": "population",
   "region": [
@@ -99653,30 +99609,6 @@
   "wikiTitle": "Ruda Śląska",
   "lat": 50.26277778,
   "lon": 18.85361111
- },
- {
-  "id": "city-lipjan",
-  "category": "city",
-  "name": "Lipjan",
-  "aliases": [],
-  "size": 56643,
-  "sizeUnit": "population",
-  "region": [
-   "Europe",
-   "Eastern Europe"
-  ],
-  "country": "Kosovo",
-  "flag": [
-   "white",
-   "blue",
-   "yellow"
-  ],
-  "source": "English Wikipedia pageviews for \"Lipjan\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Kosovo",
-  "magnitude": 944,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lipjan",
-  "lat": 42.52138889,
-  "lon": 21.12277778
  },
  {
   "id": "city-stalowa-wola",
@@ -100472,7 +100404,9 @@
   "id": "city-novopolotsk",
   "category": "city",
   "name": "Novopolotsk",
-  "aliases": [],
+  "aliases": [
+   "Navapolatsk"
+  ],
   "size": 94666,
   "sizeUnit": "population",
   "region": [
@@ -101175,7 +101109,9 @@
   "id": "city-petroupoli",
   "category": "city",
   "name": "Petroupoli",
-  "aliases": [],
+  "aliases": [
+   "Petroupolis"
+  ],
   "size": 60146,
   "sizeUnit": "population",
   "region": [

@@ -123,7 +123,12 @@
         if (!best || found.magnitude > best.magnitude) best = found;
       }
       if (!best || best.magnitude < NAMESAKE_FAME_RATIO * top) return null;
-      if (current.region && !(best.region || []).includes(current.region)) return null;
+      // on a region round the famous holder must fit the region to keep the
+      // nudge ("Athens" on a North America round is Athens (Georgia)) - a
+      // holder that has no regions at all (an island, a sea) is not "outside"
+      // any of them: "Rhodes" on a Europe round is still the island
+      // (2026-09-18 islands / cities audit)
+      if (current.region && best.region && !best.region.includes(current.region)) return null;
       return { status: 'unrecognized', elsewhere: { entry: best, category: best.category, fuzzy: false } };
     }
 

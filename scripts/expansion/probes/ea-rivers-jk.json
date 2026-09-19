@@ -1,0 +1,28 @@
+{
+  "name": "ea-rivers-jk",
+  "category": "river",
+  "jsonFile": "rivers.json",
+  "roots": [
+    "Category:Rivers of Japan",
+    "Category:Rivers of South Korea",
+    "Category:Rivers of North Korea",
+    "Category:Rivers of Taiwan"
+  ],
+  "subcat": "^Category:(Rivers|Sinking rivers|Subterranean rivers) of (?!.*(stubs|Bridges|Locks|Crossings|Populated|Braided|Coastal basins|Russia|Kazakhstan|Kyrgyzstan|Tajikistan|Afghanistan|Pakistan|India|Nepal|Bhutan|Myanmar|Laos|Vietnam|Thailand|Cambodia|Japan$|South Korea$|North Korea$|Taiwan$))",
+  "lists": [
+    "List of rivers of Japan",
+    "List of rivers of Korea",
+    "List of rivers of South Korea",
+    "List of rivers of North Korea",
+    "List of rivers of Taiwan"
+  ],
+  "kind": "(river|tributary|stream|creek|brook|watercourse|torrent|\\bfork\\b|\\bbranch\\b)",
+  "skipTitle": "(^List of|^Lists of|^Geography of|^Rivers of|^Tributaries|^River regulation|^Longest rivers|crossings|River basin$|Watershed$|Valley$|Vale$|Dale$|Glen$|Gorge$|Falls$|Dam$|Reservoir$|Lake$|Bridge$|Aqueduct$|Canal$|Kanal$|Navigation$|Trail$|Path$|Park$|Forest$|Estuary$|Delta$|Weir$|Lock$|Cut$|Drain$|Dyke$|Dike$|Sewer$|Culvert$|Mill$|Way$|Walk$|Railway|Station$|Harbour$|Harbor$|Docks?$|Basin$|Hydroelectric|Power Station$|Power Plant$|Liman$|Lagoon$)",
+  "notKind": "^(reservoir|lake|dam|canal|waterfall|falls|park|glacier|bay|estuary|lagoon|liman|fjord|inlet|strait|sound|swamp|marsh|bog|wetland|island|mountain|hill|range|ridge|massif|trail|bridge|road|valley|gorge|canyon|county|city|town|village|municipality|commune|comune|hamlet|district|neighbourhood|neighborhood|region|department|province|canton|oblast|raion|voivodeship|state|weir|lock|mill|railway|station|ship|drainage|navigation|aqueduct|watermill|beach|nature reserve|national park|human settlement|area|street|castle|abbey|church|monastery|school|company|hydroelectric|power|spring|thermal|cave|karst|delta|former|historic|canal|artificial)",
+  "sizeProp": "P2043",
+  "sizeUnit": "km",
+  "minSize": 60,
+  "famousViews": 1000,
+  "spellings": "river",
+  "noFigureViews": 122
+}

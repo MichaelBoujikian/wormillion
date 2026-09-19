@@ -8320,7 +8320,6 @@ export const WIKI_TITLES = {
   "island-prvic-krk": "Prvić (Krk)",
   "island-rava": "Rava (island)",
   "island-strelecky-island": "Střelecký Island",
-  "island-veliki-skolj": "Veliki Školj",
   "island-karsibor": "Karsibór",
   "island-mali-skolj": "Mali Školj",
   "island-rusne-island": "Rusnė Island",

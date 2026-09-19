@@ -48969,23 +48969,6 @@
   ]
  },
  {
-  "id": "island-argyronisos",
-  "category": "island",
-  "name": "Argyronisos",
-  "aliases": [],
-  "size": 0.36,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Argyronisos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
-  "magnitude": 365,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Argyronisos",
-  "lat": 39.00833333,
-  "lon": 23.07,
-  "oceans": [
-   "Atlantic"
-  ]
- },
- {
   "id": "island-oxeia",
   "category": "island",
   "name": "Oxeia",
@@ -49544,7 +49527,7 @@
   "category": "island",
   "name": "Sacalin Island",
   "aliases": [],
-  "size": 214.1,
+  "size": 14.9,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Sacalin Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
   "magnitude": 244,
@@ -49823,23 +49806,6 @@
   ]
  },
  {
-  "id": "island-psathoura",
-  "category": "island",
-  "name": "Psathoura",
-  "aliases": [],
-  "size": 0.76,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Psathoura\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
-  "magnitude": 183,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Psathoura",
-  "lat": 39.498,
-  "lon": 24.181,
-  "oceans": [
-   "Atlantic"
-  ]
- },
- {
   "id": "island-skantzoura",
   "category": "island",
   "name": "Skantzoura",
@@ -49959,7 +49925,7 @@
   "category": "island",
   "name": "Belene Island",
   "aliases": [],
-  "size": 68.97,
+  "size": 41.08,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Belene Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
   "magnitude": 152,
@@ -50169,23 +50135,6 @@
   ]
  },
  {
-  "id": "island-veliki-skolj",
-  "category": "island",
-  "name": "Veliki Skolj",
-  "aliases": [],
-  "size": 76,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Veliki Školj\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Veliki Školj",
-  "lat": 42.90156,
-  "lon": 17.62209,
-  "oceans": [
-   "Atlantic"
-  ]
- },
- {
   "id": "island-avgo",
   "category": "island",
   "name": "Avgo",
@@ -50361,23 +50310,6 @@
   "lat": 50.46333333,
   "lon": 30.545,
   "oceans": []
- },
- {
-  "id": "island-agia-kyriaki",
-  "category": "island",
-  "name": "Agia Kyriaki",
-  "aliases": [],
-  "size": 0.25,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Agia Kyriaki\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
-  "magnitude": 91,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Agia Kyriaki",
-  "lat": 36.54861111,
-  "lon": 26.40416667,
-  "oceans": [
-   "Atlantic"
-  ]
  },
  {
   "id": "island-atalanti-island",
@@ -50663,7 +50595,7 @@
   "category": "island",
   "name": "Koufonisi",
   "aliases": [],
-  "size": 0,
+  "size": 5.25,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Koufonisi (Crete)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
   "qualifier": "Crete",

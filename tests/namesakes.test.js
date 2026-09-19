@@ -46,6 +46,7 @@ const RAW = {
     city('city-syracuse-sicily', 'Syracuse', 20000, 'Italy', EUROPE, { qualifier: 'Sicily', size: 118000 }),
     city('city-athens-georgia', 'Athens', 12000, 'United States', AMERICA, { qualifier: 'Georgia' }),
     city('city-athens-ohio', 'Athens', 3000, 'United States', AMERICA, { qualifier: 'Ohio', aliases: ['Athens OH', 'Ohio University Town'] }),
+    city('city-rhodes-greece', 'Rhodes', 12000, 'Greece', EUROPE, { qualifier: 'Greece', aliases: ['Rhodes City'] }),
     city('city-paris-texas', 'Paris', 5000, 'United States', AMERICA, { qualifier: 'Texas' }),
     city('city-dublin-california', 'Dublin', 4000, 'United States', AMERICA, { qualifier: 'California' }),
     city('city-lublin', 'Lublin', 9000, 'Poland', EUROPE),
@@ -71,7 +72,8 @@ const RAW = {
   rivers: [entry('river', 'river-nile', 'Nile', 90000, { size: 6650 }), entry('river', 'river-cam', 'Cam', 3000, { size: 64 })],
   mountains: [entry('mountain', 'mountain-everest', 'Mount Everest', 90000, { size: 8849 }), entry('mountain', 'mountain-ben-nevis', 'Ben Nevis', 20000, { size: 1345 })],
   deserts: [entry('desert', 'desert-sahara', 'Sahara', 90000, { size: 9200000 }), entry('desert', 'desert-negev', 'Negev', 9000, { size: 13000 })],
-  islands: [entry('island', 'island-greenland', 'Greenland', 90000, { size: 2166086 }), entry('island', 'island-lundy', 'Lundy', 2000, { size: 4.5 })],
+  islands: [entry('island', 'island-greenland', 'Greenland', 90000, { size: 2166086 }), entry('island', 'island-lundy', 'Lundy', 2000, { size: 4.5 }),
+    entry('island', 'island-rhodes', 'Rhodes', 40000, { size: 1401 })],
   seas: [entry('sea_ocean', 'sea-pacific', 'Pacific Ocean', 90000, { size: 165250000 }), entry('sea_ocean', 'sea-wadden', 'Wadden Sea', 4000, { size: 10000 })]
 };
 const THEMES = { city: { 'Sicily': ['Syracuse (Sicily)', 'Milan'], 'New England': ['Boston', 'Syracuse (New York)'] } };
@@ -252,6 +254,20 @@ test('an alias of a qualified entry is not second-guessed: the guard asks about 
   // (Rodos is the island's name as much as the city's); the state-code
   // form, which the capital cohort does not hold, is unambiguous
   assert.strictEqual(plain('Athens OH').entry.id, 'city-athens-ohio');
+});
+
+test('an island holder keeps the nudge on a region round: it has no region to be outside of (Rhodes, 2026-09-18)', () => {
+  const plain = judge({ category: 'city' });
+  assert.strictEqual(plain('Rhodes').elsewhere.category, 'island');
+  assert.strictEqual(plain('Rhodes, Greece').entry.id, 'city-rhodes-greece');
+  // the capital's region clause still lets a namesake answer where the
+  // famous one does not fit ("Athens" in North America) - but an island is
+  // in no region, so "Rhodes" in Europe is the island as on the plain round
+  const europe = judge({ category: 'city', region: 'Europe' });
+  assert.strictEqual(europe('Rhodes').status, 'unrecognized');
+  assert.strictEqual(europe('Rhodes').elsewhere.entry.id, 'island-rhodes');
+  assert.strictEqual(europe('Rhodes City').entry.id, 'city-rhodes-greece');
+  assert.strictEqual(judge({ category: 'city', region: 'North America' })('Athens').entry.id, 'city-athens-georgia');
 });
 
 test('letter and length rules see the bare name, whatever was typed', () => {

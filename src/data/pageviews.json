@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T04:12:21.194Z",
+ "fetched": "2026-09-19T04:55:15.779Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -31595,13 +31595,6 @@
    "lat": 45.35,
    "lon": 28.83333333
   },
-  "city-sombor": {
-   "title": "Sombor",
-   "monthlyViews": 3227,
-   "days": 60,
-   "lat": 45.78333333,
-   "lon": 19.11666667
-  },
   "city-berdychiv": {
    "title": "Berdychiv",
    "monthlyViews": 3196,
@@ -31987,13 +31980,6 @@
    "lat": 47.17467,
    "lon": 20.19649
   },
-  "city-velika-gorica": {
-   "title": "Velika Gorica",
-   "monthlyViews": 1400,
-   "days": 60,
-   "lat": 45.7,
-   "lon": 16.06666667
-  },
   "city-yambol": {
    "title": "Yambol",
    "monthlyViews": 1400,
@@ -32161,13 +32147,6 @@
    "days": 60,
    "lat": 50.26277778,
    "lon": 18.85361111
-  },
-  "city-lipjan": {
-   "title": "Lipjan",
-   "monthlyViews": 944,
-   "days": 60,
-   "lat": 42.52138889,
-   "lon": 21.12277778
   },
   "city-stalowa-wola": {
    "title": "Stalowa Wola",
@@ -119207,13 +119186,6 @@
    "lat": 36.78694444,
    "lon": 24.23861111
   },
-  "island-argyronisos": {
-   "title": "Argyronisos",
-   "monthlyViews": 365,
-   "days": 59,
-   "lat": 39.00833333,
-   "lon": 23.07
-  },
   "island-oxeia": {
    "title": "Oxeia",
    "monthlyViews": 365,
@@ -119564,13 +119536,6 @@
    "lat": 37.05,
    "lon": 21.55
   },
-  "island-psathoura": {
-   "title": "Psathoura",
-   "monthlyViews": 183,
-   "days": 59,
-   "lat": 39.498,
-   "lon": 24.181
-  },
   "island-skantzoura": {
    "title": "Skantzoura",
    "monthlyViews": 183,
@@ -119711,13 +119676,6 @@
    "lat": 44.582245,
    "lon": 14.309671
   },
-  "island-veliki-skolj": {
-   "title": "Veliki Školj",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 42.90156,
-   "lon": 17.62209
-  },
   "island-avgo": {
    "title": "Avgo",
    "monthlyViews": 122,
@@ -119794,13 +119752,6 @@
    "days": 59,
    "lat": 50.46333333,
    "lon": 30.545
-  },
-  "island-agia-kyriaki": {
-   "title": "Agia Kyriaki",
-   "monthlyViews": 91,
-   "days": 59,
-   "lat": 36.54861111,
-   "lon": 26.40416667
   },
   "island-atalanti-island": {
    "title": "Atalanti Island",
