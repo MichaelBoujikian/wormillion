@@ -23,11 +23,14 @@ per wave) and SPEC §13; git log has the rest.
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
 do the next thing named here):** South America wave: ALL EIGHT PROBES DONE
-(this commit is the cities: 437 after a 213-views floor decided on the spot
-- `reports/2026-09-19-sa-cities.md` has the numbers; 173 rows under 213
-dropped, their ids in `work/sa8-under213-ids.txt`); the first audit round
-applied (`4f2074f`). NEXT: the second Opus audit round over islands + seas +
-deserts + cities - `Workflow` `parallel()` of two `agent()`s, the pattern is
+(cities `c91e9fa`, 437 after a 213-views floor decided on the spot); the
+first audit round applied (`4f2074f`). RUNNING (or interrupted): the second
+Opus audit round, `Workflow` run `wf_6008937e-24e` (script
+`workflows/scripts/sa-islands-seas-deserts-cities-audit-wf_6008937e-24e.js`;
+reports `2026-09-19-sa-isdc-{data,gameplay}-audit.md` in the scratchpad with
+`progress:` lines; rerun if it died). It is the second Opus audit round over
+islands + seas + deserts + cities - `Workflow` `parallel()` of two
+`agent()`s, the pattern is
 `workflows/scripts/wca-islands-seas-deserts-cities-audit-wf_105d9edb-458.js`
 with the South America facts (pre-wave `a3a76d2`; chunk files
 `work/folded/sa/new-islands-sa5.txt` (+ns, qualify), `new-seas-sa6.txt`,
