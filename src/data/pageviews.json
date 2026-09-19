@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T16:14:21.538Z",
+ "fetched": "2026-09-19T16:36:47.317Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -116989,11 +116989,11 @@
    "lon": 57.95
   },
   "island-tierra-del-fuego": {
-   "title": "Tierra del Fuego",
-   "monthlyViews": 18355,
+   "title": "Isla Grande de Tierra del Fuego",
+   "monthlyViews": 3288,
    "days": 60,
    "lat": -54,
-   "lon": -70
+   "lon": -69
   },
   "island-melville-island": {
    "title": "Melville Island (Northwest Territories and Nunavut)",
@@ -117604,7 +117604,7 @@
    "lat": 24.555,
    "lon": -81.78194444
   },
-  "island-santa-catalina-island": {
+  "island-santa-catalina-island-california": {
    "title": "Santa Catalina Island (California)",
    "monthlyViews": 24474,
    "days": 60,
@@ -117912,7 +117912,7 @@
    "lat": -0.5,
    "lon": -91.06666667
   },
-  "island-santa-cruz-island": {
+  "island-santa-cruz-island-california": {
    "title": "Santa Cruz Island",
    "monthlyViews": 3653,
    "days": 60,
@@ -117941,11 +117941,11 @@
    "lon": -90.43416667
   },
   "island-chiloe": {
-   "title": "Chiloé Archipelago",
-   "monthlyViews": 2648,
+   "title": "Chiloé Island",
+   "monthlyViews": 2496,
    "days": 60,
-   "lat": -42.6,
-   "lon": -73.95
+   "lat": -42.67666667,
+   "lon": -73.99333333
   },
   "island-robinson-crusoe-island": {
    "title": "Robinson Crusoe Island",
@@ -120208,7 +120208,7 @@
    "lat": 30.14055556,
    "lon": -15.86916667
   },
-  "island-santa-maria-island": {
+  "island-santa-maria-island-azores": {
    "title": "Santa Maria Island",
    "monthlyViews": 2527,
    "days": 60,
@@ -139023,6 +139023,349 @@
    "days": 60,
    "lat": 16.70583333,
    "lon": 41.98333333
+  },
+  "island-ilha-da-queimada-grande": {
+   "title": "Ilha da Queimada Grande",
+   "monthlyViews": 19664,
+   "days": 60,
+   "lat": -24.48611111,
+   "lon": -46.675
+  },
+  "island-el-ojo": {
+   "title": "El Ojo",
+   "monthlyViews": 6423,
+   "days": 60,
+   "lat": -34.25222222,
+   "lon": -58.83
+  },
+  "island-motu-nui": {
+   "title": "Motu Nui",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": -27.20138889,
+   "lon": -109.45277778
+  },
+  "island-wager-island": {
+   "title": "Wager Island",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": -47.72416667,
+   "lon": -74.96027778
+  },
+  "island-aguila-islet": {
+   "title": "Águila Islet",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": -56.5375,
+   "lon": -68.71944444
+  },
+  "island-isla-apipe": {
+   "title": "Isla Apipé",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": -27.5,
+   "lon": -56.9
+  },
+  "island-hornos-island": {
+   "title": "Hornos Island",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": -55.944078,
+   "lon": -67.280925
+  },
+  "island-brazilian-island": {
+   "title": "Brazilian Island",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": -30.185,
+   "lon": -57.63
+  },
+  "island-guafo-island": {
+   "title": "Guafo Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": -43.593029,
+   "lon": -74.713481
+  },
+  "island-hoste-island": {
+   "title": "Hoste Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": -55.25,
+   "lon": -69
+  },
+  "island-desolacion-island": {
+   "title": "Desolación Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": -53.1,
+   "lon": -73.9
+  },
+  "island-sao-luis-island": {
+   "title": "São Luís Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": -2.6,
+   "lon": -44.23333333
+  },
+  "island-leguan-island": {
+   "title": "Leguan Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 6.91666667,
+   "lon": -58.41666667
+  },
+  "island-santa-clara-island": {
+   "title": "Santa Clara Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": -33.70694444,
+   "lon": -78.94138889
+  },
+  "island-tierra-bomba-island": {
+   "title": "Tierra Bomba Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-el-fronton": {
+   "title": "El Frontón",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -12.11666667,
+   "lon": -77.18166667
+  },
+  "island-hanover-island": {
+   "title": "Hanover Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -51,
+   "lon": -74.66666667
+  },
+  "island-isla-entre-rios": {
+   "title": "Isla Entre Ríos",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -27.42083333,
+   "lon": -57.4875
+  },
+  "island-la-blanquilla-island": {
+   "title": "La Blanquilla Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-londonderry-island": {
+   "title": "Londonderry Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -55.066667,
+   "lon": -69.433333
+  },
+  "island-timoteo-dominguez-island": {
+   "title": "Timoteo Domínguez Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -34.17,
+   "lon": -58.25666667
+  },
+  "island-wakenaam": {
+   "title": "Wakenaam",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 6.97005,
+   "lon": -58.45001
+  },
+  "island-fuerte-island": {
+   "title": "Fuerte Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 9.38888889,
+   "lon": -76.17916667
+  },
+  "island-pinzon-island": {
+   "title": "Pinzón Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -0.610236,
+   "lon": -90.666234
+  },
+  "island-riesco-island": {
+   "title": "Riesco Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -52.9,
+   "lon": -72.16666667
+  },
+  "island-rabida-island": {
+   "title": "Rábida Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -0.416245,
+   "lon": -90.710897
+  },
+  "island-gordon-island": {
+   "title": "Gordon Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -54.96666667,
+   "lon": -69.58333333
+  },
+  "island-marchena-island": {
+   "title": "Marchena Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 0.35,
+   "lon": -90.5
+  },
+  "island-mosqueiro": {
+   "title": "Mosqueiro",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -1.1,
+   "lon": -48.4
+  },
+  "island-santa-ines-island": {
+   "title": "Santa Inés Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -53.75,
+   "lon": -72.75
+  },
+  "island-tintipan-island": {
+   "title": "Tintipán Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-clarence-island": {
+   "title": "Clarence Island, Chile",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -54.16666667,
+   "lon": -71.83333333
+  },
+  "island-corocoro-island": {
+   "title": "Corocoro Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 8.54694444,
+   "lon": -60.06861111
+  },
+  "island-hogg-island": {
+   "title": "Hogg Island, Guyana",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 6.82416667,
+   "lon": -58.53166667
+  },
+  "island-huemul-island": {
+   "title": "Huemul Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-ilha-grande-de-gurupa": {
+   "title": "Ilha Grande de Gurupá",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -1,
+   "lon": -51.5
+  },
+  "island-isla-bermejo": {
+   "title": "Isla Bermejo",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -39.01666667,
+   "lon": -62.01666667
+  },
+  "island-madre-de-dios-island": {
+   "title": "Madre de Dios Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -50.10277778,
+   "lon": -75.24388889
+  },
+  "island-noir-island": {
+   "title": "Noir Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -54.48333333,
+   "lon": -73.03333333
+  },
+  "island-gable-island": {
+   "title": "Gable Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -54.88333333,
+   "lon": -67.48333333
+  },
+  "island-juncal-island": {
+   "title": "Juncal Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": -33.97,
+   "lon": -58.378
+  },
+  "island-quiriquina-island": {
+   "title": "Quiriquina Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -36.625768,
+   "lon": -73.060805
+  },
+  "island-serrano-island": {
+   "title": "Serrano Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -48.532351,
+   "lon": -74.775573
+  },
+  "island-toas-island": {
+   "title": "Toas island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-traiguen-island": {
+   "title": "Traiguén Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -45.57083333,
+   "lon": -73.67055556
+  },
+  "island-santa-cruz-island-galapagos": {
+   "title": "Santa Cruz Island (Galápagos)",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": -0.6255,
+   "lon": -90.3679
+  },
+  "island-santa-maria-island-chile": {
+   "title": "Santa María Island, Chile",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -37.05,
+   "lon": -73.51666667
+  },
+  "island-santa-catalina-island-colombia": {
+   "title": "Santa Catalina Island (Colombia)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 13.38833333,
+   "lon": -81.37361111
+  },
+  "island-elizabeth-island-chile": {
+   "title": "Elizabeth Island (Cape Horn)",
+   "monthlyViews": 548,
+   "days": 59,
+   "lat": null,
+   "lon": null
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

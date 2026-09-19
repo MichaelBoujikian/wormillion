@@ -514,12 +514,12 @@
   "aliases": [],
   "size": 47992,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Tierra del Fuego\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
-  "magnitude": 18355,
+  "source": "English Wikipedia pageviews for \"Isla Grande de Tierra del Fuego\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 3288,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Tierra del Fuego",
+  "wikiTitle": "Isla Grande de Tierra del Fuego",
   "lat": -54,
-  "lon": -70,
+  "lon": -69,
   "oceans": [
    "Atlantic",
    "Pacific"
@@ -2059,7 +2059,7 @@
   ]
  },
  {
-  "id": "island-santa-catalina-island",
+  "id": "island-santa-catalina-island-california",
   "category": "island",
   "name": "Santa Catalina Island",
   "aliases": [
@@ -2068,6 +2068,7 @@
   "size": 194,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Santa Catalina Island (California)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "California",
   "magnitude": 24474,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Santa Catalina Island (California)",
@@ -2828,13 +2829,14 @@
   ]
  },
  {
-  "id": "island-santa-cruz-island",
+  "id": "island-santa-cruz-island-california",
   "category": "island",
   "name": "Santa Cruz Island",
   "aliases": [],
-  "size": 986,
+  "size": 250,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Santa Cruz Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "California",
   "magnitude": 3653,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Santa Cruz Island",
@@ -2904,12 +2906,12 @@
   ],
   "size": 8394,
   "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Chiloé Archipelago\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
-  "magnitude": 2648,
+  "source": "English Wikipedia pageviews for \"Chiloé Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2496,
   "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Chiloé Archipelago",
-  "lat": -42.6,
-  "lon": -73.95,
+  "wikiTitle": "Chiloé Island",
+  "lat": -42.67666667,
+  "lon": -73.99333333,
   "oceans": [
    "Pacific"
   ]
@@ -8631,13 +8633,14 @@
   ]
  },
  {
-  "id": "island-santa-maria-island",
+  "id": "island-santa-maria-island-azores",
   "category": "island",
   "name": "Santa Maria Island",
   "aliases": [],
   "size": 97,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Santa Maria Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Azores",
   "magnitude": 2527,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Santa Maria Island",
@@ -54210,6 +54213,825 @@
   "lon": 41.98333333,
   "oceans": [
    "Indian"
+  ]
+ },
+ {
+  "id": "island-ilha-da-queimada-grande",
+  "category": "island",
+  "name": "Ilha da Queimada Grande",
+  "aliases": [
+   "Queimada Grande"
+  ],
+  "size": 0.43,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ilha da Queimada Grande\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 19664,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ilha da Queimada Grande",
+  "lat": -24.48611111,
+  "lon": -46.675,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-el-ojo",
+  "category": "island",
+  "name": "El Ojo",
+  "aliases": [],
+  "size": 0.01,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"El Ojo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 6423,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "El Ojo",
+  "lat": -34.25222222,
+  "lon": -58.83,
+  "oceans": []
+ },
+ {
+  "id": "island-motu-nui",
+  "category": "island",
+  "name": "Motu Nui",
+  "aliases": [],
+  "size": 0.04,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Motu Nui\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2983,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Motu Nui",
+  "lat": -27.20138889,
+  "lon": -109.45277778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-wager-island",
+  "category": "island",
+  "name": "Wager Island",
+  "aliases": [],
+  "size": 105,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wager Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2709,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wager Island",
+  "lat": -47.72416667,
+  "lon": -74.96027778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-aguila-islet",
+  "category": "island",
+  "name": "Aguila Islet",
+  "aliases": [
+   "Islote Aguila"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Águila Islet\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Águila Islet",
+  "lat": -56.5375,
+  "lon": -68.71944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-isla-apipe",
+  "category": "island",
+  "name": "Isla Apipe",
+  "aliases": [
+   "Apipe Island"
+  ],
+  "size": 277.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isla Apipé\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isla Apipé",
+  "lat": -27.5,
+  "lon": -56.9,
+  "oceans": []
+ },
+ {
+  "id": "island-hornos-island",
+  "category": "island",
+  "name": "Hornos Island",
+  "aliases": [
+   "Isla Hornos"
+  ],
+  "size": 25.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hornos Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hornos Island",
+  "lat": -55.944078,
+  "lon": -67.280925,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-brazilian-island",
+  "category": "island",
+  "name": "Brazilian Island",
+  "aliases": [],
+  "size": 2.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Brazilian Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brazilian Island",
+  "lat": -30.185,
+  "lon": -57.63,
+  "oceans": []
+ },
+ {
+  "id": "island-guafo-island",
+  "category": "island",
+  "name": "Guafo Island",
+  "aliases": [],
+  "size": 202,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Guafo Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guafo Island",
+  "lat": -43.593029,
+  "lon": -74.713481,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hoste-island",
+  "category": "island",
+  "name": "Hoste Island",
+  "aliases": [],
+  "size": 4117,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hoste Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hoste Island",
+  "lat": -55.25,
+  "lon": -69,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-desolacion-island",
+  "category": "island",
+  "name": "Desolacion Island",
+  "aliases": [],
+  "size": 1352,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Desolación Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Desolación Island",
+  "lat": -53.1,
+  "lon": -73.9,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sao-luis-island",
+  "category": "island",
+  "name": "Sao Luis Island",
+  "aliases": [
+   "Ilha de Sao Luis"
+  ],
+  "size": 1412.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"São Luís Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "São Luís Island",
+  "lat": -2.6,
+  "lon": -44.23333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-leguan-island",
+  "category": "island",
+  "name": "Leguan Island",
+  "aliases": [],
+  "size": 31.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Leguan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Leguan Island",
+  "lat": 6.91666667,
+  "lon": -58.41666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-santa-clara-island",
+  "category": "island",
+  "name": "Santa Clara Island",
+  "aliases": [],
+  "size": 2.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa Clara Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Clara Island",
+  "lat": -33.70694444,
+  "lon": -78.94138889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tierra-bomba-island",
+  "category": "island",
+  "name": "Tierra Bomba Island",
+  "aliases": [],
+  "size": 19.84,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tierra Bomba Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tierra Bomba Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-el-fronton",
+  "category": "island",
+  "name": "El Fronton",
+  "aliases": [],
+  "size": 1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"El Frontón\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "El Frontón",
+  "lat": -12.11666667,
+  "lon": -77.18166667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hanover-island",
+  "category": "island",
+  "name": "Hanover Island",
+  "aliases": [],
+  "size": 812,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hanover Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hanover Island",
+  "lat": -51,
+  "lon": -74.66666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-isla-entre-rios",
+  "category": "island",
+  "name": "Isla Entre Rios",
+  "aliases": [
+   "Entre Rios Island"
+  ],
+  "size": 36,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isla Entre Ríos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isla Entre Ríos",
+  "lat": -27.42083333,
+  "lon": -57.4875,
+  "oceans": []
+ },
+ {
+  "id": "island-la-blanquilla-island",
+  "category": "island",
+  "name": "La Blanquilla Island",
+  "aliases": [],
+  "size": 64.53,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"La Blanquilla Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Blanquilla Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-londonderry-island",
+  "category": "island",
+  "name": "Londonderry Island",
+  "aliases": [],
+  "size": 643,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Londonderry Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Londonderry Island",
+  "lat": -55.066667,
+  "lon": -69.433333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-timoteo-dominguez-island",
+  "category": "island",
+  "name": "Timoteo Dominguez Island",
+  "aliases": [],
+  "size": 1.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Timoteo Domínguez Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Timoteo Domínguez Island",
+  "lat": -34.17,
+  "lon": -58.25666667,
+  "oceans": []
+ },
+ {
+  "id": "island-wakenaam",
+  "category": "island",
+  "name": "Wakenaam",
+  "aliases": [],
+  "size": 45.32,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wakenaam\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wakenaam",
+  "lat": 6.97005,
+  "lon": -58.45001,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-fuerte-island",
+  "category": "island",
+  "name": "Fuerte Island",
+  "aliases": [],
+  "size": 3.25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fuerte Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fuerte Island",
+  "lat": 9.38888889,
+  "lon": -76.17916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pinzon-island",
+  "category": "island",
+  "name": "Pinzon Island",
+  "aliases": [],
+  "size": 18.15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pinzón Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pinzón Island",
+  "lat": -0.610236,
+  "lon": -90.666234,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-riesco-island",
+  "category": "island",
+  "name": "Riesco Island",
+  "aliases": [],
+  "size": 5110,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Riesco Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Riesco Island",
+  "lat": -52.9,
+  "lon": -72.16666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-rabida-island",
+  "category": "island",
+  "name": "Rabida Island",
+  "aliases": [],
+  "size": 4.99,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rábida Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rábida Island",
+  "lat": -0.416245,
+  "lon": -90.710897,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-gordon-island",
+  "category": "island",
+  "name": "Gordon Island",
+  "aliases": [],
+  "size": 591,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gordon Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gordon Island",
+  "lat": -54.96666667,
+  "lon": -69.58333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-marchena-island",
+  "category": "island",
+  "name": "Marchena Island",
+  "aliases": [],
+  "size": 129.96,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marchena Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marchena Island",
+  "lat": 0.35,
+  "lon": -90.5,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-mosqueiro",
+  "category": "island",
+  "name": "Mosqueiro",
+  "aliases": [],
+  "size": 191,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mosqueiro\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mosqueiro",
+  "lat": -1.1,
+  "lon": -48.4,
+  "oceans": []
+ },
+ {
+  "id": "island-santa-ines-island",
+  "category": "island",
+  "name": "Santa Ines Island",
+  "aliases": [],
+  "size": 3688,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa Inés Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Inés Island",
+  "lat": -53.75,
+  "lon": -72.75,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tintipan-island",
+  "category": "island",
+  "name": "Tintipan Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tintipán Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tintipán Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-clarence-island",
+  "category": "island",
+  "name": "Clarence Island",
+  "aliases": [],
+  "size": 1111,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Clarence Island, Chile\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Clarence Island, Chile",
+  "lat": -54.16666667,
+  "lon": -71.83333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-corocoro-island",
+  "category": "island",
+  "name": "Corocoro Island",
+  "aliases": [],
+  "size": 690,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Corocoro Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Corocoro Island",
+  "lat": 8.54694444,
+  "lon": -60.06861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hogg-island",
+  "category": "island",
+  "name": "Hogg Island",
+  "aliases": [],
+  "size": 59.57,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hogg Island, Guyana\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hogg Island, Guyana",
+  "lat": 6.82416667,
+  "lon": -58.53166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-huemul-island",
+  "category": "island",
+  "name": "Huemul Island",
+  "aliases": [],
+  "size": 74,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Huemul Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Huemul Island",
+  "oceans": []
+ },
+ {
+  "id": "island-ilha-grande-de-gurupa",
+  "category": "island",
+  "name": "Ilha Grande de Gurupa",
+  "aliases": [
+   "Gurupa Island"
+  ],
+  "size": 4864,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ilha Grande de Gurupá\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ilha Grande de Gurupá",
+  "lat": -1,
+  "lon": -51.5,
+  "oceans": []
+ },
+ {
+  "id": "island-isla-bermejo",
+  "category": "island",
+  "name": "Isla Bermejo",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Isla Bermejo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Isla Bermejo",
+  "lat": -39.01666667,
+  "lon": -62.01666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-madre-de-dios-island",
+  "category": "island",
+  "name": "Madre de Dios Island",
+  "aliases": [],
+  "size": 1043,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Madre de Dios Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Madre de Dios Island",
+  "lat": -50.10277778,
+  "lon": -75.24388889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-noir-island",
+  "category": "island",
+  "name": "Noir Island",
+  "aliases": [],
+  "size": 225,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Noir Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Noir Island",
+  "lat": -54.48333333,
+  "lon": -73.03333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-gable-island",
+  "category": "island",
+  "name": "Gable Island",
+  "aliases": [],
+  "size": 22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gable Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gable Island",
+  "lat": -54.88333333,
+  "lon": -67.48333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-juncal-island",
+  "category": "island",
+  "name": "Juncal Island",
+  "aliases": [],
+  "size": 6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Juncal Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Juncal Island",
+  "lat": -33.97,
+  "lon": -58.378,
+  "oceans": []
+ },
+ {
+  "id": "island-quiriquina-island",
+  "category": "island",
+  "name": "Quiriquina Island",
+  "aliases": [],
+  "size": 4.86,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Quiriquina Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Quiriquina Island",
+  "lat": -36.625768,
+  "lon": -73.060805,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-serrano-island",
+  "category": "island",
+  "name": "Serrano Island",
+  "aliases": [],
+  "size": 1062.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Serrano Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Serrano Island",
+  "lat": -48.532351,
+  "lon": -74.775573,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-toas-island",
+  "category": "island",
+  "name": "Toas Island",
+  "aliases": [],
+  "size": 3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Toas island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Toas island",
+  "oceans": []
+ },
+ {
+  "id": "island-traiguen-island",
+  "category": "island",
+  "name": "Traiguen Island",
+  "aliases": [],
+  "size": 520.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Traiguén Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Traiguén Island",
+  "lat": -45.57083333,
+  "lon": -73.67055556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-santa-cruz-island-galapagos",
+  "category": "island",
+  "name": "Santa Cruz Island",
+  "aliases": [],
+  "size": 986,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa Cruz Island (Galápagos)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Galapagos",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Cruz Island (Galápagos)",
+  "lat": -0.6255,
+  "lon": -90.3679,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-santa-maria-island-chile",
+  "category": "island",
+  "name": "Santa Maria Island",
+  "aliases": [],
+  "size": 35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa María Island, Chile\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Chile",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa María Island, Chile",
+  "lat": -37.05,
+  "lon": -73.51666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-santa-catalina-island-colombia",
+  "category": "island",
+  "name": "Santa Catalina Island",
+  "aliases": [],
+  "size": 1.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Santa Catalina Island (Colombia)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Colombia",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Santa Catalina Island (Colombia)",
+  "lat": 13.38833333,
+  "lon": -81.37361111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-elizabeth-island-chile",
+  "category": "island",
+  "name": "Elizabeth Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Elizabeth Island (Cape Horn)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Chile",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Elizabeth Island (Cape Horn)",
+  "oceans": [
+   "Pacific"
   ]
  }
 ]

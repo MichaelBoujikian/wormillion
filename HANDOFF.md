@@ -23,34 +23,23 @@ per wave) and SPEC §13; git log has the rest.
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
 do the next thing named here):** South America wave: rivers, lakes,
-mountains DONE (`a522b28`). RUNNING (or interrupted), both at once: the
-islands probe chain (`work/sa-islands.out` ends with `PROBE2-DONE` when the
-probe + article pass + re-probe are through; rerun the chain if not) and the
-first Opus audit round, `Workflow` run `wf_98bec17b-8eb` (script
+mountains, islands DONE (`55b98a1`, `08185aa`, `f1eafa5`, `a522b28`, this
+commit - 45 islands + 4 namesakes, `reports/2026-09-19-sa-islands.md`).
+RUNNING (or interrupted): the first Opus audit round over rivers + lakes +
+mountains, `Workflow` run `wf_98bec17b-8eb` (script
 `workflows/scripts/sa-rivers-lakes-mountains-audit-wf_98bec17b-8eb.js`;
-reports `2026-09-19-sa-rlm-{data,gameplay}-audit.md` in the scratchpad, each
-with a `progress:` line; rerun if it died). When the probe is through: (a)
-the islands - `node scripts/expansion/probe.mjs
-scripts/expansion/probes/sa-islands.json >
-scripts/expansion/work/sa-islands.out`, then `article-size.mjs
-work/sa-islands.json --no-figure --min-views=91 --sister=es,pt`, the probe
-again, `chunk --tag=sa5 --min-views=91 --allow-no-figure`, hand-clean with
-the scratchpad's `clean-wca-islands.cjs` pattern adapted (theme `the
-Caribbean` for the Caribbean-coast islands of Venezuela / Colombia; river
-and lake islands `[]` in OCEAN_OVERRIDES - Marajó, Bananal, the Titicaca
-islands, the Paraná delta; groups out), fold, `--taken-only --tag=ns-sa5`,
-qualify, fold, pipeline, report, commit, push; and (b) WHILE the probe runs,
-the first Opus audit round over rivers + lakes + mountains, OFFLINE -
-`Workflow` `parallel()` of two `agent()`s, the pattern is this session's
-`workflows/scripts/wca-rivers-lakes-mountains-audit-wf_f60422ce-b6e.js` with
-the South America facts (pre-wave commit `a3a76d2`; chunk files
-`work/folded/sa/`; reports `2026-09-19-sa-rivers-big.md`,
-`-sa-rivers-small.md`, `-sa-lakes.md`, `-sa-mountains.md`; flagged:
-Aquidauana 1,200, Itonomas 1,493, Jutaí 1,488, Desaguadero (Argentina)
-1,515, the Rio Negro (Amazon) rename, Guri 3,674, Lake O'Higgins / Cochrane
-Lake naming, the Galápagos volcanoes' themes, the 44 size-0 peaks); apply,
-commit. Then seas, deserts, cities, the second audit round, the wave report
-- HANDOFF step 3. Nothing uncommitted.
+reports `2026-09-19-sa-rlm-{data,gameplay}-audit.md` in the scratchpad;
+rerun if it died; when done: apply the findings, copy the reports to
+`scripts/expansion/reports/`, pipeline, commit). NEXT probe: seas - `node
+scripts/expansion/probe.mjs scripts/expansion/probes/sa-seas.json >
+scripts/expansion/work/sa-seas.out` (213 views, `--allow-no-figure`; cut the
+worldwide lists by description - the scratchpad's `clean-wca-seas.cjs`
+pattern with a South America WAVE regex; theme `the Americas`), then deserts
+(`sa-deserts.json`; the Atacama's parts, the Sechura, the Patagonian; the
+213 floor as in West and Central Asia), cities (`sa-cities.json`; Brazil's
+municipalities carry the município's population - the administrative-city
+convention; capitals refused), the second audit round, the wave report -
+HANDOFF step 3. Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe, East Asia and West and Central Asia waves + this

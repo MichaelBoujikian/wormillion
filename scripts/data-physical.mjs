@@ -10936,7 +10936,7 @@ Staten Island|151
 Marthas Vineyard|231
 Nantucket|124
 Key West|19
-Santa Catalina Island|194|Catalina Island
+Santa Catalina Island (California)|194|Catalina Island
 Kodiak Island|9311|Kodiak
 Mackinac Island|9.8|Mackinaw Island
 Isle Royale|535
@@ -10980,7 +10980,7 @@ San Andres|26
 Providenciales|122
 Grand Turk|17.7
 Isabela Island|4586
-Santa Cruz Island|986
+Santa Cruz Island (California)|250
 San Cristobal Island|558
 Fernandina Island|642
 Floreana Island|173
@@ -11308,7 +11308,7 @@ Inaccessible Island|14
 Nightingale Island|4
 Desertas Islands|14
 Selvagens Islands|2.73|Savage Islands
-Santa Maria Island|97
+Santa Maria Island (Azores)|97
 Dodecanese|2714
 Ionian Islands|2200
 Sporades|476
@@ -13996,6 +13996,55 @@ Nabih Saleh|1.4
 Qum Island|1.5
 Sajid Island|156
 Farasan Island|380
+Ilha da Queimada Grande|0.43|Queimada Grande
+El Ojo|0.01
+Motu Nui|0.04
+Wager Island|105
+Aguila Islet|0|Islote Aguila
+Isla Apipe|277.1|Apipe Island
+Hornos Island|25.1|Isla Hornos
+Brazilian Island|2.5
+Guafo Island|202
+Hoste Island|4117
+Desolacion Island|1352
+Sao Luis Island|1412.4|Ilha de Sao Luis
+Leguan Island|31.08
+Santa Clara Island|2.2
+Tierra Bomba Island|19.84
+El Fronton|1
+Hanover Island|812
+Isla Entre Rios|36|Entre Rios Island
+La Blanquilla Island|64.53
+Londonderry Island|643
+Timoteo Dominguez Island|1.9
+Wakenaam|45.32
+Fuerte Island|3.25
+Pinzon Island|18.15
+Riesco Island|5110
+Rabida Island|4.99
+Gordon Island|591
+Marchena Island|129.96
+Mosqueiro|191
+Santa Ines Island|3688
+Tintipan Island|0
+Clarence Island|1111
+Corocoro Island|690
+Hogg Island|59.57
+Huemul Island|74
+Ilha Grande de Gurupa|4864|Gurupa Island
+Isla Bermejo|0
+Madre de Dios Island|1043
+Noir Island|225
+Gable Island|22
+Juncal Island|6
+Quiriquina Island|4.86
+Serrano Island|1062.8
+Toas Island|3
+Traiguen Island|520.2
+Santa Cruz Island (Galapagos)|986
+Santa Maria Island (Chile)|35
+Santa Catalina Island (Colombia)|1.5
+Elizabeth Island (Chile)|0
 `;
 
 export const SEAS_OCEANS = `

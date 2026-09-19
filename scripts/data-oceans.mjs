@@ -726,6 +726,21 @@ export const OCEAN_OVERRIDES = {
   // --- the West and Central Asia seas (2026-09-19): the Caspian's bay and lagoon are in no ocean
   'sea_ocean-bay-of-baku': [],
   'sea_ocean-anzali-lagoon': [],
+  // --- the South America islands (2026-09-19): the Parana / Uruguay / Plata / Amazon river islands, Nahuel Huapi's Huemul and Lake Maracaibo's Toas are in no ocean; Elizabeth Island (Cape Horn) and Tintipan (Caribbean) have no coordinates on Wikidata
+  'island-isla-apipe': [],
+  'island-isla-entre-rios': [],
+  'island-timoteo-dominguez-island': [],
+  'island-juncal-island': [],
+  'island-mosqueiro': [],
+  'island-ilha-grande-de-gurupa': [],
+  'island-brazilian-island': [],
+  'island-el-ojo': [],
+  'island-huemul-island': [],
+  'island-toas-island': [],
+  'island-elizabeth-island-chile': ['Pacific'],
+  'island-tintipan-island': ['Atlantic'],
+  'island-tierra-bomba-island': ['Atlantic'], // Cartagena's bay island, no coordinates on Wikidata
+  'island-la-blanquilla-island': ['Atlantic'], // Venezuela's Caribbean island, no coordinates
   'island-minamidaitojima': ['Pacific'],
   'island-hachijo-kojima': ['Pacific'],
   'island-mageshima': ['Pacific'],

@@ -1831,7 +1831,11 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-18 namesakes, decision 5
       'Necker Island (British Virgin Islands)',
       // add-theme.mjs
-      'Banco Chinchorro'
+      'Banco Chinchorro',
+      // 2026-09-19 expansion
+      'Tierra Bomba Island', 'La Blanquilla Island', 'Fuerte Island', 'Tintipan Island',
+      // 2026-09-19 expansion
+      'Santa Catalina Island (Colombia)'
     ],
     'the Mediterranean': [
       'Sicily', 'Sardinia', 'Corsica', 'Crete', 'Cyprus', 'Malta',

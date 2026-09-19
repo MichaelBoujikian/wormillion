@@ -167,7 +167,7 @@ export const WIKI_TITLES = {
   'mountain-mount-ossa-tasmania': 'Mount Ossa (Tasmania)',
   'desert-painted-desert': 'Painted Desert (Arizona)',
   'desert-guajira-desert': 'La Guajira Desert',
-  'island-santa-catalina-island': 'Santa Catalina Island (California)',
+  'island-santa-catalina-island-california': 'Santa Catalina Island (California)',
   'island-saint-martin': 'Saint Martin (island)',
   // --- island nations answered by their country's name (2026-09) ---
   'island-saint-vincent': 'Saint Vincent (Saint Vincent and the Grenadines)', // bare "Saint Vincent" is a disambiguation page
@@ -262,7 +262,7 @@ export const WIKI_TITLES = {
   "island-bijagos-islands": "Bijagós Islands",
   "island-annobon": "Annobón",
   "island-ilheu-das-rolas": "Ilhéu das Rolas",
-  "island-santa-maria-island": "Santa Maria Island (Azores)",
+  "island-santa-maria-island-azores": "Santa Maria Island (Azores)",
   "island-ios": "Ios (island)",
   "island-brac": "Brač",
   "island-korcula": "Korčula",
@@ -9832,7 +9832,36 @@ export const WIKI_TITLES = {
   "mountain-solimana": "Solimana (volcano)",
 
   // --- mountain (2026-09-19 expansion) ---
-  "mountain-mount-darwin-chile": "Mount Darwin (Andes)"
+  "mountain-mount-darwin-chile": "Mount Darwin (Andes)",
+
+  // --- island (2026-09-19 expansion) ---
+  "island-aguila-islet": "Águila Islet",
+  "island-isla-apipe": "Isla Apipé",
+  "island-desolacion-island": "Desolación Island",
+  "island-sao-luis-island": "São Luís Island",
+  "island-el-fronton": "El Frontón",
+  "island-isla-entre-rios": "Isla Entre Ríos",
+  "island-timoteo-dominguez-island": "Timoteo Domínguez Island",
+  "island-pinzon-island": "Pinzón Island",
+  "island-rabida-island": "Rábida Island",
+  "island-santa-ines-island": "Santa Inés Island",
+  "island-tintipan-island": "Tintipán Island",
+  "island-clarence-island": "Clarence Island, Chile",
+  "island-hogg-island": "Hogg Island, Guyana",
+  "island-ilha-grande-de-gurupa": "Ilha Grande de Gurupá",
+  "island-toas-island": "Toas island",
+  "island-traiguen-island": "Traiguén Island",
+  // --- 2026-09-19 South America islands: the bank's Tierra del Fuego (47,992 km2) and Chiloe (8,394) carry the main island's area but pointed at the archipelago articles - re-pointed to the islands ---
+  "island-tierra-del-fuego": "Isla Grande de Tierra del Fuego",
+  "island-chiloe": "Chiloé Island",
+
+  // --- island (2026-09-19 expansion) ---
+  "island-santa-cruz-island-galapagos": "Santa Cruz Island (Galápagos)",
+  "island-santa-maria-island-chile": "Santa María Island, Chile",
+  "island-santa-catalina-island-colombia": "Santa Catalina Island (Colombia)",
+  "island-elizabeth-island-chile": "Elizabeth Island (Cape Horn)",
+  // --- 2026-09-19 South America islands: the qualified California Santa Cruz Island keeps its bare article; Santa Catalina (Colombia) is a Place by Wikidata ---
+  "island-santa-cruz-island-california": "Santa Cruz Island"
 };
 
 /**
@@ -10449,5 +10478,7 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-19 West and Central Asia seas: ANZAC Cove (Wikidata describes the battle site, the article is the cove) ---
   "sea_ocean-anzac-cove",
   // --- 2026-09-19 South America mountains: Alcedo Volcano (Galapagos; no short description) ---
-  "mountain-alcedo-volcano"
+  "mountain-alcedo-volcano",
+  // --- 2026-09-19 South America islands: the qualified California Santa Cruz Island keeps its bare article; Santa Catalina (Colombia) is a Place by Wikidata ---
+  "island-santa-catalina-island-colombia"
 ]);
