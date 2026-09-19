@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T03:41:31.554Z",
+ "fetched": "2026-09-19T04:12:21.194Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -7522,7 +7522,7 @@
    "lat": 43.526304,
    "lon": 5.445429
   },
-  "city-brest": {
+  "city-brest-france": {
    "title": "Brest, France",
    "monthlyViews": 11719,
    "days": 60,
@@ -31503,6 +31503,1126 @@
    "days": 60,
    "lat": 19.36055556,
    "lon": -98.98
+  },
+  "city-kramatorsk": {
+   "title": "Kramatorsk",
+   "monthlyViews": 7397,
+   "days": 60,
+   "lat": 48.73916667,
+   "lon": 37.58388889
+  },
+  "city-targoviste": {
+   "title": "Târgoviște",
+   "monthlyViews": 6727,
+   "days": 60,
+   "lat": 44.92444444,
+   "lon": 25.45722222
+  },
+  "city-kostiantynivka": {
+   "title": "Kostiantynivka",
+   "monthlyViews": 6605,
+   "days": 60,
+   "lat": 48.53333333,
+   "lon": 37.71666667
+  },
+  "city-bakhmut": {
+   "title": "Bakhmut",
+   "monthlyViews": 6575,
+   "days": 60,
+   "lat": 48.59472222,
+   "lon": 38.00083333
+  },
+  "city-luhansk": {
+   "title": "Luhansk",
+   "monthlyViews": 6423,
+   "days": 60,
+   "lat": 48.56777778,
+   "lon": 39.30305556
+  },
+  "city-przemysl": {
+   "title": "Przemyśl",
+   "monthlyViews": 6423,
+   "days": 60,
+   "lat": 49.78333333,
+   "lon": 22.76666667
+  },
+  "city-feodosia": {
+   "title": "Feodosia",
+   "monthlyViews": 4962,
+   "days": 60,
+   "lat": 45.03416667,
+   "lon": 35.37916667
+  },
+  "city-kamianske": {
+   "title": "Kamianske",
+   "monthlyViews": 4231,
+   "days": 60,
+   "lat": 48.5167,
+   "lon": 34.6133
+  },
+  "city-suwalki": {
+   "title": "Suwałki",
+   "monthlyViews": 3683,
+   "days": 60,
+   "lat": 54.09888889,
+   "lon": 22.92861111
+  },
+  "city-gniezno": {
+   "title": "Gniezno",
+   "monthlyViews": 3379,
+   "days": 60,
+   "lat": 52.53583333,
+   "lon": 17.59583333
+  },
+  "city-chelm": {
+   "title": "Chełm",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 51.13222222,
+   "lon": 23.47777778
+  },
+  "city-mukachevo": {
+   "title": "Mukachevo",
+   "monthlyViews": 3257,
+   "days": 60,
+   "lat": 48.45,
+   "lon": 22.75
+  },
+  "city-izmail": {
+   "title": "Izmail",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 45.35,
+   "lon": 28.83333333
+  },
+  "city-sombor": {
+   "title": "Sombor",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 45.78333333,
+   "lon": 19.11666667
+  },
+  "city-berdychiv": {
+   "title": "Berdychiv",
+   "monthlyViews": 3196,
+   "days": 60,
+   "lat": 49.9,
+   "lon": 28.56666667
+  },
+  "city-chorzow": {
+   "title": "Chorzów",
+   "monthlyViews": 3135,
+   "days": 59,
+   "lat": 50.3,
+   "lon": 18.95
+  },
+  "city-pokrovsk": {
+   "title": "Pokrovsk",
+   "monthlyViews": 3105,
+   "days": 60,
+   "lat": 48.28277778,
+   "lon": 37.18277778
+  },
+  "city-legnica": {
+   "title": "Legnica",
+   "monthlyViews": 3014,
+   "days": 60,
+   "lat": 51.20833333,
+   "lon": 16.16027778
+  },
+  "city-jelenia-gora": {
+   "title": "Jelenia Góra",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 50.90333333,
+   "lon": 15.73444444
+  },
+  "city-kalisz": {
+   "title": "Kalisz",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 51.7575,
+   "lon": 18.08
+  },
+  "city-nowy-sacz": {
+   "title": "Nowy Sącz",
+   "monthlyViews": 2831,
+   "days": 60,
+   "lat": 49.62388889,
+   "lon": 20.69722222
+  },
+  "city-doboj": {
+   "title": "Doboj",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": 44.73138889,
+   "lon": 18.08444444
+  },
+  "city-istocno-sarajevo": {
+   "title": "Istočno Sarajevo",
+   "monthlyViews": 2770,
+   "days": 60,
+   "lat": 43.81666667,
+   "lon": 18.35
+  },
+  "city-drobeta-turnu-severin": {
+   "title": "Drobeta-Turnu Severin",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 44.63333333,
+   "lon": 22.65
+  },
+  "city-koszalin": {
+   "title": "Koszalin",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 54.19111111,
+   "lon": 16.17722222
+  },
+  "city-yevpatoria": {
+   "title": "Yevpatoria",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 45.19388889,
+   "lon": 33.36805556
+  },
+  "city-prijedor": {
+   "title": "Prijedor",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 44.98083333,
+   "lon": 16.71333333
+  },
+  "city-slupsk": {
+   "title": "Słupsk",
+   "monthlyViews": 2496,
+   "days": 60,
+   "lat": 54.46583333,
+   "lon": 17.02916667
+  },
+  "city-druzhkivka": {
+   "title": "Druzhkivka",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 48.62138889,
+   "lon": 37.52777778
+  },
+  "city-vranje": {
+   "title": "Vranje",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 42.55,
+   "lon": 21.9
+  },
+  "city-bistrita": {
+   "title": "Bistrița",
+   "monthlyViews": 2222,
+   "days": 60,
+   "lat": 47.13333333,
+   "lon": 24.5
+  },
+  "city-krusevac": {
+   "title": "Kruševac",
+   "monthlyViews": 2161,
+   "days": 60,
+   "lat": 43.58055556,
+   "lon": 21.33055556
+  },
+  "city-botosani": {
+   "title": "Botoșani",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 47.74861111,
+   "lon": 26.66944444
+  },
+  "city-lomza": {
+   "title": "Łomża",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 53.17638889,
+   "lon": 22.07305556
+  },
+  "city-wloclawek": {
+   "title": "Włocławek",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 52.65916667,
+   "lon": 19.06805556
+  },
+  "city-bytom": {
+   "title": "Bytom",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 50.34833333,
+   "lon": 18.91555556
+  },
+  "city-hunedoara": {
+   "title": "Hunedoara",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 45.76972222,
+   "lon": 22.92027778
+  },
+  "city-irpin": {
+   "title": "Irpin",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 50.51666667,
+   "lon": 30.25
+  },
+  "city-grudziadz": {
+   "title": "Grudziądz",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 53.4875,
+   "lon": 18.755
+  },
+  "city-lubin": {
+   "title": "Lubin",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 51.39722222,
+   "lon": 16.20555556
+  },
+  "city-alytus": {
+   "title": "Alytus",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 54.40138889,
+   "lon": 24.04916667
+  },
+  "city-most": {
+   "title": "Most (city)",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 50.50305556,
+   "lon": 13.63666667
+  },
+  "city-piatra-neamt": {
+   "title": "Piatra Neamț",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 46.9275,
+   "lon": 26.37083333
+  },
+  "city-teplice": {
+   "title": "Teplice",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 50.64444444,
+   "lon": 13.83194444
+  },
+  "city-tulcea": {
+   "title": "Tulcea",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 45.1775,
+   "lon": 28.8036
+  },
+  "city-elk": {
+   "title": "Ełk",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 53.82138889,
+   "lon": 22.36222222
+  },
+  "city-kladno": {
+   "title": "Kladno",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 50.14305556,
+   "lon": 14.10527778
+  },
+  "city-siedlce": {
+   "title": "Siedlce",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 52.165,
+   "lon": 22.27138889
+  },
+  "city-stargard": {
+   "title": "Stargard",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 53.33333333,
+   "lon": 15.03333333
+  },
+  "city-piotrkow-trybunalski": {
+   "title": "Piotrków Trybunalski",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 51.4,
+   "lon": 19.68333333
+  },
+  "city-tomaszow-mazowiecki": {
+   "title": "Tomaszów Mazowiecki",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 51.51666667,
+   "lon": 20.01666667
+  },
+  "city-berdiansk": {
+   "title": "Berdiansk",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 46.75555556,
+   "lon": 36.78888889
+  },
+  "city-deva": {
+   "title": "Deva, Romania",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 45.87805556,
+   "lon": 22.91444444
+  },
+  "city-horlivka": {
+   "title": "Horlivka",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 48.3,
+   "lon": 38.05
+  },
+  "city-kolomyia": {
+   "title": "Kolomyia",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 48.53055556,
+   "lon": 25.04027778
+  },
+  "city-resita": {
+   "title": "Reșița",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 45.3,
+   "lon": 21.89027778
+  },
+  "city-sfantu-gheorghe": {
+   "title": "Sfântu Gheorghe",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 45.86361111,
+   "lon": 25.7875
+  },
+  "city-giurgiu": {
+   "title": "Giurgiu",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 43.90083333,
+   "lon": 25.97388889
+  },
+  "city-makiivka": {
+   "title": "Makiivka",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 48.05555556,
+   "lon": 37.96111111
+  },
+  "city-drohobych": {
+   "title": "Drohobych",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 49.35,
+   "lon": 23.5
+  },
+  "city-ramnicu-valcea": {
+   "title": "Râmnicu Vâlcea",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 45.10472222,
+   "lon": 24.37555556
+  },
+  "city-glogow": {
+   "title": "Głogów",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 51.65888889,
+   "lon": 16.08027778
+  },
+  "city-tczew": {
+   "title": "Tczew",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 54.0875,
+   "lon": 18.79722222
+  },
+  "city-pavlohrad": {
+   "title": "Pavlohrad",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 48.51666667,
+   "lon": 35.86666667
+  },
+  "city-biala-podlaska": {
+   "title": "Biała Podlaska",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 52.03333333,
+   "lon": 23.11666667
+  },
+  "city-rybnik": {
+   "title": "Rybnik",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 50.08333333,
+   "lon": 18.55
+  },
+  "city-targu-jiu": {
+   "title": "Târgu Jiu",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 45.03416667,
+   "lon": 23.27472222
+  },
+  "city-dabrowa-gornicza": {
+   "title": "Dąbrowa Górnicza",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 50.32138889,
+   "lon": 19.18722222
+  },
+  "city-szolnok": {
+   "title": "Szolnok",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 47.17467,
+   "lon": 20.19649
+  },
+  "city-velika-gorica": {
+   "title": "Velika Gorica",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 45.7,
+   "lon": 16.06666667
+  },
+  "city-yambol": {
+   "title": "Yambol",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 42.48333333,
+   "lon": 26.5
+  },
+  "city-kovel": {
+   "title": "Kovel",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 51.21666667,
+   "lon": 24.71666667
+  },
+  "city-lida": {
+   "title": "Lida",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 53.89555556,
+   "lon": 25.29583333
+  },
+  "city-inowroclaw": {
+   "title": "Inowrocław",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 52.79305556,
+   "lon": 18.26111111
+  },
+  "city-leszno": {
+   "title": "Leszno",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 51.84583333,
+   "lon": 16.58055556
+  },
+  "city-slatina": {
+   "title": "Slatina, Romania",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 44.42972222,
+   "lon": 24.36416667
+  },
+  "city-korosten": {
+   "title": "Korosten",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 50.95,
+   "lon": 28.63333333
+  },
+  "city-yenakiieve": {
+   "title": "Yenakiieve",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 48.21666667,
+   "lon": 38.2
+  },
+  "city-focsani": {
+   "title": "Focșani",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 45.7,
+   "lon": 27.17972222
+  },
+  "city-cazin": {
+   "title": "Cazin",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 44.96666667,
+   "lon": 15.93333333
+  },
+  "city-konin": {
+   "title": "Konin",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 52.21666667,
+   "lon": 18.26666667
+  },
+  "city-nikopol": {
+   "title": "Nikopol, Ukraine",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 47.56666667,
+   "lon": 34.4
+  },
+  "city-rubizhne": {
+   "title": "Rubizhne",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 49.01,
+   "lon": 38.37138889
+  },
+  "city-slutsk": {
+   "title": "Slutsk",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 53.03333333,
+   "lon": 27.56666667
+  },
+  "city-pruszkow": {
+   "title": "Pruszków",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 52.16666667,
+   "lon": 20.8
+  },
+  "city-zviahel": {
+   "title": "Zviahel",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 50.58333333,
+   "lon": 27.63333333
+  },
+  "city-calarasi": {
+   "title": "Călărași",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 44.2,
+   "lon": 27.33333333
+  },
+  "city-nizhyn": {
+   "title": "Nizhyn",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 51.03805556,
+   "lon": 31.88611111
+  },
+  "city-stryi": {
+   "title": "Stryi",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 49.25,
+   "lon": 23.85
+  },
+  "city-chornomorsk": {
+   "title": "Chornomorsk",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-lysychansk": {
+   "title": "Lysychansk",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 48.91666667,
+   "lon": 38.4
+  },
+  "city-ostrow-wielkopolski": {
+   "title": "Ostrów Wielkopolski",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 51.64944444,
+   "lon": 17.81638889
+  },
+  "city-barlad": {
+   "title": "Bârlad",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 46.21666667,
+   "lon": 27.66666667
+  },
+  "city-ruda-slaska": {
+   "title": "Ruda Śląska",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 50.26277778,
+   "lon": 18.85361111
+  },
+  "city-lipjan": {
+   "title": "Lipjan",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 42.52138889,
+   "lon": 21.12277778
+  },
+  "city-stalowa-wola": {
+   "title": "Stalowa Wola",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 50.56777778,
+   "lon": 22.05972222
+  },
+  "city-vaslui": {
+   "title": "Vaslui",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 46.63833333,
+   "lon": 27.72916667
+  },
+  "city-brovary": {
+   "title": "Brovary",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 50.51111111,
+   "lon": 30.79
+  },
+  "city-konotop": {
+   "title": "Konotop",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 51.21666667,
+   "lon": 33.2
+  },
+  "city-zalau": {
+   "title": "Zalău",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 47.19111111,
+   "lon": 23.05722222
+  },
+  "city-havirov": {
+   "title": "Havířov",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 49.78305556,
+   "lon": 18.42277778
+  },
+  "city-shostka": {
+   "title": "Shostka",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 51.86666667,
+   "lon": 33.48333333
+  },
+  "city-frydek-mistek": {
+   "title": "Frýdek-Místek",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 49.68805556,
+   "lon": 18.35361111
+  },
+  "city-enerhodar": {
+   "title": "Enerhodar",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 47.49888889,
+   "lon": 34.65583333
+  },
+  "city-jaworzno": {
+   "title": "Jaworzno",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 50.20444444,
+   "lon": 19.27
+  },
+  "city-myrnohrad": {
+   "title": "Myrnohrad",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 48.29111111,
+   "lon": 37.26805556
+  },
+  "city-myslowice": {
+   "title": "Mysłowice",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 50.23333333,
+   "lon": 19.13333333
+  },
+  "city-boryspil": {
+   "title": "Boryspil",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 50.35,
+   "lon": 30.95
+  },
+  "city-zory": {
+   "title": "Żory",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 50.05,
+   "lon": 18.7
+  },
+  "city-jastrzebie-zdroj": {
+   "title": "Jastrzębie-Zdrój",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 49.95,
+   "lon": 18.58333333
+  },
+  "city-kedzierzyn-kozle": {
+   "title": "Kędzierzyn-Koźle",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 50.35,
+   "lon": 18.2
+  },
+  "city-tarnowskie-gory": {
+   "title": "Tarnowskie Góry",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 50.44444444,
+   "lon": 18.85833333
+  },
+  "city-erd": {
+   "title": "Érd",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 47.37833333,
+   "lon": 18.92194444
+  },
+  "city-alchevsk": {
+   "title": "Alchevsk",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 48.47777778,
+   "lon": 38.79777778
+  },
+  "city-kadiivka": {
+   "title": "Kadiivka",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 48.56805556,
+   "lon": 38.65861111
+  },
+  "city-sheptytskyi": {
+   "title": "Sheptytskyi",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 50.38666667,
+   "lon": 24.22888889
+  },
+  "city-kobryn": {
+   "title": "Kobryn",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 52.21666667,
+   "lon": 24.36666667
+  },
+  "city-salihorsk": {
+   "title": "Salihorsk",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 52.8,
+   "lon": 27.53333333
+  },
+  "city-maladzyechna": {
+   "title": "Maladzyechna",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 54.32083333,
+   "lon": 26.85722222
+  },
+  "city-kamez": {
+   "title": "Kamëz",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-lozova": {
+   "title": "Lozova",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 48.88333333,
+   "lon": 36.38333333
+  },
+  "city-oleksandriia": {
+   "title": "Oleksandriia",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 48.66666667,
+   "lon": 33.11666667
+  },
+  "city-siemianowice-slaskie": {
+   "title": "Siemianowice Śląskie",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 50.27583333,
+   "lon": 18.98583333
+  },
+  "city-legionowo": {
+   "title": "Legionowo",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 52.4,
+   "lon": 20.88333333
+  },
+  "city-samar-ukraine": {
+   "title": "Samar, Ukraine",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 48.63333333,
+   "lon": 35.21666667
+  },
+  "city-piekary-slaskie": {
+   "title": "Piekary Śląskie",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 50.38333333,
+   "lon": 18.95
+  },
+  "city-zgierz": {
+   "title": "Zgierz",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 51.85,
+   "lon": 19.41666667
+  },
+  "city-popesti-leordeni": {
+   "title": "Popești-Leordeni",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 44.38,
+   "lon": 26.17
+  },
+  "city-novopolotsk": {
+   "title": "Novopolotsk",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-zhodzina": {
+   "title": "Zhodzina",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 54.1,
+   "lon": 28.35
+  },
+  "city-rechytsa": {
+   "title": "Rechytsa",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 52.36666667,
+   "lon": 30.4
+  },
+  "city-smila": {
+   "title": "Smila",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 49.23361111,
+   "lon": 31.88222222
+  },
+  "city-zhlobin": {
+   "title": "Zhlobin",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 52.9,
+   "lon": 30.03333333
+  },
+  "city-antratsyt": {
+   "title": "Antratsyt",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 48.11916667,
+   "lon": 39.09
+  },
+  "city-khrustalnyi": {
+   "title": "Khrustalnyi",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 48.13333333,
+   "lon": 38.93333333
+  },
+  "city-svyetlahorsk": {
+   "title": "Svyetlahorsk",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 52.63333333,
+   "lon": 29.73333333
+  },
+  "city-chystiakove": {
+   "title": "Chystiakove",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.02194444,
+   "lon": 38.62638889
+  },
+  "city-khartsyzk": {
+   "title": "Khartsyzk",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 48.04277778,
+   "lon": 38.1425
+  },
+  "city-rhodes-greece": {
+   "title": "Rhodes (city)",
+   "monthlyViews": 11811,
+   "days": 60,
+   "lat": 36.43333333,
+   "lon": 28.21666667
+  },
+  "city-chalcis": {
+   "title": "Chalcis",
+   "monthlyViews": 6118,
+   "days": 60,
+   "lat": 38.4625,
+   "lon": 23.595
+  },
+  "city-katerini": {
+   "title": "Katerini",
+   "monthlyViews": 4718,
+   "days": 60,
+   "lat": 40.26666667,
+   "lon": 22.5
+  },
+  "city-kallithea": {
+   "title": "Kallithea",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 37.95,
+   "lon": 23.7
+  },
+  "city-marousi": {
+   "title": "Marousi",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 38.05,
+   "lon": 23.8
+  },
+  "city-palaio-faliro": {
+   "title": "Palaio Faliro",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 37.93333333,
+   "lon": 23.7
+  },
+  "city-peristeri": {
+   "title": "Peristeri",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 38.01666667,
+   "lon": 23.68333333
+  },
+  "city-nea-smyrni": {
+   "title": "Nea Smyrni",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 37.95,
+   "lon": 23.71666667
+  },
+  "city-agia-paraskevi": {
+   "title": "Agia Paraskevi",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 38.01166667,
+   "lon": 23.82
+  },
+  "city-acharnes": {
+   "title": "Acharnes",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 38.08333333,
+   "lon": 23.73333333
+  },
+  "city-ilion": {
+   "title": "Ilion, Greece",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 38.03333333,
+   "lon": 23.7
+  },
+  "city-nea-ionia": {
+   "title": "Nea Ionia",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 38.03333333,
+   "lon": 23.75
+  },
+  "city-nikaia": {
+   "title": "Nikaia, Attica",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 37.96666667,
+   "lon": 23.63333333
+  },
+  "city-zografou": {
+   "title": "Zografou",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 37.97833333,
+   "lon": 23.77166667
+  },
+  "city-chalandri": {
+   "title": "Chalandri",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 38.01666667,
+   "lon": 23.8
+  },
+  "city-aigaleo": {
+   "title": "Aigaleo",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 37.992,
+   "lon": 23.678
+  },
+  "city-agios-dimitrios": {
+   "title": "Agios Dimitrios",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 37.93333333,
+   "lon": 23.73333333
+  },
+  "city-ilioupoli": {
+   "title": "Ilioupoli",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 37.93333333,
+   "lon": 23.75
+  },
+  "city-keratsini": {
+   "title": "Keratsini",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 37.96666667,
+   "lon": 23.61666667
+  },
+  "city-korydallos": {
+   "title": "Korydallos",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 37.98333333,
+   "lon": 23.65
+  },
+  "city-petroupoli": {
+   "title": "Petroupoli",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 38.03333333,
+   "lon": 23.68333333
+  },
+  "city-brest-belarus": {
+   "title": "Brest, Belarus",
+   "monthlyViews": 7366,
+   "days": 60,
+   "lat": 52.13472222,
+   "lon": 23.65694444
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",

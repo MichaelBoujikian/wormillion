@@ -697,7 +697,7 @@ Nimes|France|150000
 Clermont-Ferrand|France|145000
 Le Mans|France|145000
 Aix-en-Provence|France|145000
-Brest|France|140000
+Brest (France)|France|140000
 Tours|France|135000
 Amiens|France|135000
 Limoges|France|130000
@@ -4123,4 +4123,164 @@ La Paz (Baja California Sur)|Mexico|250141
 Cordoba (Veracruz)|Mexico|139075
 Salamanca (Guanajuato)|Mexico|160682
 La Paz (State of Mexico)|Mexico|304088|Los Reyes La Paz,Los Reyes Acaquilpan,Los Reyes
+Kramatorsk|Ukraine|147145
+Targoviste|Romania|66965
+Kostiantynivka|Ukraine|72888|Kostyantynivka
+Bakhmut|Ukraine|71094|Artemivsk
+Luhansk|Ukraine|403938|Lugansk,Voroshilovgrad
+Przemysl|Poland|56466
+Feodosia|Ukraine|64493|Theodosia,Feodosiya
+Kamianske|Ukraine|226845|Dniprodzerzhynsk
+Suwalki|Poland|68752
+Gniezno|Poland|65452
+Chelm|Poland|59546
+Mukachevo|Ukraine|85569|Mukacheve,Munkacs
+Izmail|Ukraine|70731
+Sombor|Serbia|51471
+Berdychiv|Ukraine|73046
+Chorzow|Poland|101184
+Pokrovsk|Ukraine|63437|Krasnoarmiysk
+Legnica|Poland|94878
+Jelenia Gora|Poland|75429
+Kalisz|Poland|95905
+Nowy Sacz|Poland|81281
+Doboj|Bosnia and Herzegovina|68514
+Istocno Sarajevo|Bosnia and Herzegovina|61516|East Sarajevo
+Drobeta-Turnu Severin|Romania|79865|Turnu Severin,Drobeta
+Koszalin|Poland|105883
+Yevpatoria|Ukraine|105549|Eupatoria,Evpatoria
+Prijedor|Bosnia and Herzegovina|89397
+Slupsk|Poland|87660
+Druzhkivka|Ukraine|53977
+Vranje|Serbia|55214
+Bistrita|Romania|78877
+Krusevac|Serbia|58745
+Botosani|Romania|90010
+Lomza|Poland|60848
+Wloclawek|Poland|104705
+Bytom|Poland|148687
+Hunedoara|Romania|50457
+Irpin|Ukraine|65167
+Grudziadz|Poland|90890
+Lubin|Poland|70016
+Alytus|Lithuania|51856
+Most|Czechia|63474
+Piatra Neamt|Romania|79679
+Teplice|Czechia|50912
+Tulcea|Romania|65624
+Elk|Poland|60390
+Kladno|Czechia|69664
+Siedlce|Poland|76357
+Stargard|Poland|67348
+Piotrkow Trybunalski|Poland|66901
+Tomaszow Mazowiecki|Poland|59388
+Berdiansk|Ukraine|106311|Berdyansk
+Deva|Romania|53113
+Horlivka|Ukraine|239828|Gorlovka
+Kolomyia|Ukraine|60821|Kolomyya
+Resita|Romania|58393
+Sfantu Gheorghe|Romania|50080
+Giurgiu|Romania|54551
+Makiivka|Ukraine|338968|Makeyevka
+Drohobych|Ukraine|73682
+Ramnicu Valcea|Romania|93151
+Glogow|Poland|64261
+Tczew|Poland|57990
+Pavlohrad|Ukraine|101430|Pavlograd
+Biala Podlaska|Poland|55429
+Rybnik|Poland|133772
+Targu Jiu|Romania|73545
+Dabrowa Gornicza|Poland|112876
+Szolnok|Hungary|65564
+Velika Gorica|Croatia|61075
+Yambol|Bulgaria|58997
+Kovel|Ukraine|67575
+Lida|Belarus|102603
+Inowroclaw|Poland|69576
+Leszno|Poland|61791
+Slatina|Romania|63487
+Korosten|Ukraine|61496
+Yenakiieve|Ukraine|79348|Yenakiyeve
+Focsani|Romania|66648
+Cazin|Bosnia and Herzegovina|66149
+Konin|Poland|69858
+Nikopol|Ukraine|105160
+Rubizhne|Ukraine|55247
+Slutsk|Belarus|58995
+Pruszkow|Poland|65283
+Zviahel|Ukraine|55086|Novohrad-Volynskyi
+Calarasi|Romania|58211
+Nizhyn|Ukraine|66981|Nezhin
+Stryi|Ukraine|59425
+Chornomorsk|Ukraine|57983|Illichivsk
+Lysychansk|Ukraine|96161|Lisichansk
+Ostrow Wielkopolski|Poland|70725
+Barlad|Romania|52475
+Ruda Slaska|Poland|131062
+Lipjan|Kosovo|56643
+Stalowa Wola|Poland|57620
+Vaslui|Romania|63035
+Brovary|Ukraine|109473
+Konotop|Ukraine|83543
+Zalau|Romania|52359
+Havirov|Czechia|68674
+Shostka|Ukraine|71966
+Frydek-Mistek|Czechia|53590
+Enerhodar|Ukraine|52237
+Jaworzno|Poland|86812
+Myrnohrad|Ukraine|50360|Dymytrov
+Myslowice|Poland|71473
+Boryspil|Ukraine|62281|Borispol
+Zory|Poland|61793
+Jastrzebie-Zdroj|Poland|82788
+Kedzierzyn-Kozle|Poland|56931
+Tarnowskie Gory|Poland|61288
+Erd|Hungary|71495
+Alchevsk|Ukraine|107438|Kommunarsk
+Kadiivka|Ukraine|74546|Stakhanov
+Sheptytskyi|Ukraine|64297|Chervonohrad
+Kobryn|Belarus|52235|Kobrin
+Salihorsk|Belarus|96418|Soligorsk
+Maladzyechna|Belarus|87339|Molodechno
+Kamez|Albania|61739|Kamza
+Lozova|Ukraine|54026
+Oleksandriia|Ukraine|76097|Oleksandriya,Alexandriya
+Siemianowice Slaskie|Poland|63657
+Legionowo|Poland|53216
+Samar (Ukraine)|Ukraine|69855
+Piekary Slaskie|Poland|51876
+Zgierz|Poland|55079
+Popesti-Leordeni|Romania|53434
+Novopolotsk|Belarus|94666
+Zhodzina|Belarus|62983|Zhodino
+Rechytsa|Belarus|64508|Rechitsa
+Smila|Ukraine|65675
+Zhlobin|Belarus|75732
+Antratsyt|Ukraine|52150
+Khrustalnyi|Ukraine|79533|Krasnyi Luch
+Svyetlahorsk|Belarus|61280|Svetlogorsk
+Chystiakove|Ukraine|53462|Torez
+Khartsyzk|Ukraine|56182
+Rhodes (Greece)|Greece|54562|Rhodes City,Rodos
+Chalcis|Greece|64490|Chalkida,Halkida,Chalkis
+Katerini|Greece|80700
+Kallithea|Greece|97616
+Marousi|Greece|71830|Maroussi,Amarousio
+Palaio Faliro|Greece|64863
+Peristeri|Greece|133630
+Nea Smyrni|Greece|72853
+Agia Paraskevi|Greece|62147
+Acharnes|Greece|98893|Acharnai,Menidi
+Ilion|Greece|84004|Ilio
+Nea Ionia|Greece|64611
+Nikaia|Greece|88077|Nikea
+Zografou|Greece|69874
+Chalandri|Greece|77102
+Aigaleo|Greece|65831|Egaleo
+Agios Dimitrios|Greece|71664
+Ilioupoli|Greece|76730
+Keratsini|Greece|75721
+Korydallos|Greece|61248
+Petroupoli|Greece|60146
+Brest (Belarus)|Belarus|347138|Brest-Litovsk
 `;

@@ -15193,7 +15193,7 @@
   "lon": 5.445429
  },
  {
-  "id": "city-brest",
+  "id": "city-brest-france",
   "category": "city",
   "name": "Brest",
   "aliases": [],
@@ -15210,6 +15210,7 @@
    "blue"
   ],
   "source": "English Wikipedia pageviews for \"Brest, France\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in France",
+  "qualifier": "France",
   "magnitude": 11719,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Brest, France",
@@ -97409,5 +97410,3812 @@
   "wikiTitle": "La Paz, State of Mexico",
   "lat": 19.36055556,
   "lon": -98.98
+ },
+ {
+  "id": "city-kramatorsk",
+  "category": "city",
+  "name": "Kramatorsk",
+  "aliases": [],
+  "size": 147145,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Kramatorsk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 7397,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kramatorsk",
+  "lat": 48.73916667,
+  "lon": 37.58388889
+ },
+ {
+  "id": "city-targoviste",
+  "category": "city",
+  "name": "Targoviste",
+  "aliases": [],
+  "size": 66965,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Târgoviște\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 6727,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Târgoviște",
+  "lat": 44.92444444,
+  "lon": 25.45722222
+ },
+ {
+  "id": "city-kostiantynivka",
+  "category": "city",
+  "name": "Kostiantynivka",
+  "aliases": [
+   "Kostyantynivka"
+  ],
+  "size": 72888,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Kostiantynivka\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 6605,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kostiantynivka",
+  "lat": 48.53333333,
+  "lon": 37.71666667
+ },
+ {
+  "id": "city-bakhmut",
+  "category": "city",
+  "name": "Bakhmut",
+  "aliases": [
+   "Artemivsk"
+  ],
+  "size": 71094,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Bakhmut\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 6575,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bakhmut",
+  "lat": 48.59472222,
+  "lon": 38.00083333
+ },
+ {
+  "id": "city-luhansk",
+  "category": "city",
+  "name": "Luhansk",
+  "aliases": [
+   "Lugansk",
+   "Voroshilovgrad"
+  ],
+  "size": 403938,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Luhansk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 6423,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Luhansk",
+  "lat": 48.56777778,
+  "lon": 39.30305556
+ },
+ {
+  "id": "city-przemysl",
+  "category": "city",
+  "name": "Przemysl",
+  "aliases": [],
+  "size": 56466,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Przemyśl\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 6423,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Przemyśl",
+  "lat": 49.78333333,
+  "lon": 22.76666667
+ },
+ {
+  "id": "city-feodosia",
+  "category": "city",
+  "name": "Feodosia",
+  "aliases": [
+   "Theodosia",
+   "Feodosiya"
+  ],
+  "size": 64493,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Feodosia\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 4962,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Feodosia",
+  "lat": 45.03416667,
+  "lon": 35.37916667
+ },
+ {
+  "id": "city-kamianske",
+  "category": "city",
+  "name": "Kamianske",
+  "aliases": [
+   "Dniprodzerzhynsk"
+  ],
+  "size": 226845,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Kamianske\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 4231,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kamianske",
+  "lat": 48.5167,
+  "lon": 34.6133
+ },
+ {
+  "id": "city-suwalki",
+  "category": "city",
+  "name": "Suwalki",
+  "aliases": [],
+  "size": 68752,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Suwałki\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 3683,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Suwałki",
+  "lat": 54.09888889,
+  "lon": 22.92861111
+ },
+ {
+  "id": "city-gniezno",
+  "category": "city",
+  "name": "Gniezno",
+  "aliases": [],
+  "size": 65452,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Gniezno\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 3379,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gniezno",
+  "lat": 52.53583333,
+  "lon": 17.59583333
+ },
+ {
+  "id": "city-chelm",
+  "category": "city",
+  "name": "Chelm",
+  "aliases": [],
+  "size": 59546,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Chełm\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 3288,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chełm",
+  "lat": 51.13222222,
+  "lon": 23.47777778
+ },
+ {
+  "id": "city-mukachevo",
+  "category": "city",
+  "name": "Mukachevo",
+  "aliases": [
+   "Mukacheve",
+   "Munkacs"
+  ],
+  "size": 85569,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Mukachevo\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 3257,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mukachevo",
+  "lat": 48.45,
+  "lon": 22.75
+ },
+ {
+  "id": "city-izmail",
+  "category": "city",
+  "name": "Izmail",
+  "aliases": [],
+  "size": 70731,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Izmail\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 3227,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Izmail",
+  "lat": 45.35,
+  "lon": 28.83333333
+ },
+ {
+  "id": "city-sombor",
+  "category": "city",
+  "name": "Sombor",
+  "aliases": [],
+  "size": 51471,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Serbia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Sombor\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Serbia",
+  "magnitude": 3227,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sombor",
+  "lat": 45.78333333,
+  "lon": 19.11666667
+ },
+ {
+  "id": "city-berdychiv",
+  "category": "city",
+  "name": "Berdychiv",
+  "aliases": [],
+  "size": 73046,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Berdychiv\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 3196,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Berdychiv",
+  "lat": 49.9,
+  "lon": 28.56666667
+ },
+ {
+  "id": "city-chorzow",
+  "category": "city",
+  "name": "Chorzow",
+  "aliases": [],
+  "size": 101184,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Chorzów\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 3135,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chorzów",
+  "lat": 50.3,
+  "lon": 18.95
+ },
+ {
+  "id": "city-pokrovsk",
+  "category": "city",
+  "name": "Pokrovsk",
+  "aliases": [
+   "Krasnoarmiysk"
+  ],
+  "size": 63437,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Pokrovsk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 3105,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pokrovsk",
+  "lat": 48.28277778,
+  "lon": 37.18277778
+ },
+ {
+  "id": "city-legnica",
+  "category": "city",
+  "name": "Legnica",
+  "aliases": [],
+  "size": 94878,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Legnica\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 3014,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Legnica",
+  "lat": 51.20833333,
+  "lon": 16.16027778
+ },
+ {
+  "id": "city-jelenia-gora",
+  "category": "city",
+  "name": "Jelenia Gora",
+  "aliases": [],
+  "size": 75429,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Jelenia Góra\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 2983,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jelenia Góra",
+  "lat": 50.90333333,
+  "lon": 15.73444444
+ },
+ {
+  "id": "city-kalisz",
+  "category": "city",
+  "name": "Kalisz",
+  "aliases": [],
+  "size": 95905,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Kalisz\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 2983,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kalisz",
+  "lat": 51.7575,
+  "lon": 18.08
+ },
+ {
+  "id": "city-nowy-sacz",
+  "category": "city",
+  "name": "Nowy Sacz",
+  "aliases": [],
+  "size": 81281,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Nowy Sącz\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 2831,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nowy Sącz",
+  "lat": 49.62388889,
+  "lon": 20.69722222
+ },
+ {
+  "id": "city-doboj",
+  "category": "city",
+  "name": "Doboj",
+  "aliases": [],
+  "size": 68514,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Bosnia and Herzegovina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Doboj\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Bosnia and Herzegovina",
+  "magnitude": 2770,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Doboj",
+  "lat": 44.73138889,
+  "lon": 18.08444444
+ },
+ {
+  "id": "city-istocno-sarajevo",
+  "category": "city",
+  "name": "Istocno Sarajevo",
+  "aliases": [
+   "East Sarajevo"
+  ],
+  "size": 61516,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Bosnia and Herzegovina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Istočno Sarajevo\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Bosnia and Herzegovina",
+  "magnitude": 2770,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Istočno Sarajevo",
+  "lat": 43.81666667,
+  "lon": 18.35
+ },
+ {
+  "id": "city-drobeta-turnu-severin",
+  "category": "city",
+  "name": "Drobeta-Turnu Severin",
+  "aliases": [
+   "Turnu Severin",
+   "Drobeta"
+  ],
+  "size": 79865,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Drobeta-Turnu Severin\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 2740,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drobeta-Turnu Severin",
+  "lat": 44.63333333,
+  "lon": 22.65
+ },
+ {
+  "id": "city-koszalin",
+  "category": "city",
+  "name": "Koszalin",
+  "aliases": [],
+  "size": 105883,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Koszalin\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 2648,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Koszalin",
+  "lat": 54.19111111,
+  "lon": 16.17722222
+ },
+ {
+  "id": "city-yevpatoria",
+  "category": "city",
+  "name": "Yevpatoria",
+  "aliases": [
+   "Eupatoria",
+   "Evpatoria"
+  ],
+  "size": 105549,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Yevpatoria\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 2618,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yevpatoria",
+  "lat": 45.19388889,
+  "lon": 33.36805556
+ },
+ {
+  "id": "city-prijedor",
+  "category": "city",
+  "name": "Prijedor",
+  "aliases": [],
+  "size": 89397,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Bosnia and Herzegovina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Prijedor\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Bosnia and Herzegovina",
+  "magnitude": 2557,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Prijedor",
+  "lat": 44.98083333,
+  "lon": 16.71333333
+ },
+ {
+  "id": "city-slupsk",
+  "category": "city",
+  "name": "Slupsk",
+  "aliases": [],
+  "size": 87660,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Słupsk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 2496,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Słupsk",
+  "lat": 54.46583333,
+  "lon": 17.02916667
+ },
+ {
+  "id": "city-druzhkivka",
+  "category": "city",
+  "name": "Druzhkivka",
+  "aliases": [],
+  "size": 53977,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Druzhkivka\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 2344,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Druzhkivka",
+  "lat": 48.62138889,
+  "lon": 37.52777778
+ },
+ {
+  "id": "city-vranje",
+  "category": "city",
+  "name": "Vranje",
+  "aliases": [],
+  "size": 55214,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Serbia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Vranje\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Serbia",
+  "magnitude": 2253,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vranje",
+  "lat": 42.55,
+  "lon": 21.9
+ },
+ {
+  "id": "city-bistrita",
+  "category": "city",
+  "name": "Bistrita",
+  "aliases": [],
+  "size": 78877,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Bistrița\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 2222,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bistrița",
+  "lat": 47.13333333,
+  "lon": 24.5
+ },
+ {
+  "id": "city-krusevac",
+  "category": "city",
+  "name": "Krusevac",
+  "aliases": [],
+  "size": 58745,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Serbia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Kruševac\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Serbia",
+  "magnitude": 2161,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kruševac",
+  "lat": 43.58055556,
+  "lon": 21.33055556
+ },
+ {
+  "id": "city-botosani",
+  "category": "city",
+  "name": "Botosani",
+  "aliases": [],
+  "size": 90010,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Botoșani\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 2131,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Botoșani",
+  "lat": 47.74861111,
+  "lon": 26.66944444
+ },
+ {
+  "id": "city-lomza",
+  "category": "city",
+  "name": "Lomza",
+  "aliases": [],
+  "size": 60848,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Łomża\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 2131,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Łomża",
+  "lat": 53.17638889,
+  "lon": 22.07305556
+ },
+ {
+  "id": "city-wloclawek",
+  "category": "city",
+  "name": "Wloclawek",
+  "aliases": [],
+  "size": 104705,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Włocławek\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 2070,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Włocławek",
+  "lat": 52.65916667,
+  "lon": 19.06805556
+ },
+ {
+  "id": "city-bytom",
+  "category": "city",
+  "name": "Bytom",
+  "aliases": [],
+  "size": 148687,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Bytom\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bytom",
+  "lat": 50.34833333,
+  "lon": 18.91555556
+ },
+ {
+  "id": "city-hunedoara",
+  "category": "city",
+  "name": "Hunedoara",
+  "aliases": [],
+  "size": 50457,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Hunedoara\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hunedoara",
+  "lat": 45.76972222,
+  "lon": 22.92027778
+ },
+ {
+  "id": "city-irpin",
+  "category": "city",
+  "name": "Irpin",
+  "aliases": [],
+  "size": 65167,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Irpin\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 2039,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Irpin",
+  "lat": 50.51666667,
+  "lon": 30.25
+ },
+ {
+  "id": "city-grudziadz",
+  "category": "city",
+  "name": "Grudziadz",
+  "aliases": [],
+  "size": 90890,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Grudziądz\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1918,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grudziądz",
+  "lat": 53.4875,
+  "lon": 18.755
+ },
+ {
+  "id": "city-lubin",
+  "category": "city",
+  "name": "Lubin",
+  "aliases": [],
+  "size": 70016,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Lubin\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1918,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lubin",
+  "lat": 51.39722222,
+  "lon": 16.20555556
+ },
+ {
+  "id": "city-alytus",
+  "category": "city",
+  "name": "Alytus",
+  "aliases": [],
+  "size": 51856,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Lithuania",
+  "flag": [
+   "red",
+   "green",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Alytus\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Lithuania",
+  "magnitude": 1887,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alytus",
+  "lat": 54.40138889,
+  "lon": 24.04916667
+ },
+ {
+  "id": "city-most",
+  "category": "city",
+  "name": "Most",
+  "aliases": [],
+  "size": 63474,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Czechia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Most (city)\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Czechia",
+  "magnitude": 1887,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Most (city)",
+  "lat": 50.50305556,
+  "lon": 13.63666667
+ },
+ {
+  "id": "city-piatra-neamt",
+  "category": "city",
+  "name": "Piatra Neamt",
+  "aliases": [],
+  "size": 79679,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Piatra Neamț\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1887,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Piatra Neamț",
+  "lat": 46.9275,
+  "lon": 26.37083333
+ },
+ {
+  "id": "city-teplice",
+  "category": "city",
+  "name": "Teplice",
+  "aliases": [],
+  "size": 50912,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Czechia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Teplice\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Czechia",
+  "magnitude": 1857,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Teplice",
+  "lat": 50.64444444,
+  "lon": 13.83194444
+ },
+ {
+  "id": "city-tulcea",
+  "category": "city",
+  "name": "Tulcea",
+  "aliases": [],
+  "size": 65624,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Tulcea\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tulcea",
+  "lat": 45.1775,
+  "lon": 28.8036
+ },
+ {
+  "id": "city-elk",
+  "category": "city",
+  "name": "Elk",
+  "aliases": [],
+  "size": 60390,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Ełk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ełk",
+  "lat": 53.82138889,
+  "lon": 22.36222222
+ },
+ {
+  "id": "city-kladno",
+  "category": "city",
+  "name": "Kladno",
+  "aliases": [],
+  "size": 69664,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Czechia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Kladno\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Czechia",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kladno",
+  "lat": 50.14305556,
+  "lon": 14.10527778
+ },
+ {
+  "id": "city-siedlce",
+  "category": "city",
+  "name": "Siedlce",
+  "aliases": [],
+  "size": 76357,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Siedlce\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Siedlce",
+  "lat": 52.165,
+  "lon": 22.27138889
+ },
+ {
+  "id": "city-stargard",
+  "category": "city",
+  "name": "Stargard",
+  "aliases": [],
+  "size": 67348,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Stargard\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stargard",
+  "lat": 53.33333333,
+  "lon": 15.03333333
+ },
+ {
+  "id": "city-piotrkow-trybunalski",
+  "category": "city",
+  "name": "Piotrkow Trybunalski",
+  "aliases": [],
+  "size": 66901,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Piotrków Trybunalski\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1766,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Piotrków Trybunalski",
+  "lat": 51.4,
+  "lon": 19.68333333
+ },
+ {
+  "id": "city-tomaszow-mazowiecki",
+  "category": "city",
+  "name": "Tomaszow Mazowiecki",
+  "aliases": [],
+  "size": 59388,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Tomaszów Mazowiecki\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1766,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tomaszów Mazowiecki",
+  "lat": 51.51666667,
+  "lon": 20.01666667
+ },
+ {
+  "id": "city-berdiansk",
+  "category": "city",
+  "name": "Berdiansk",
+  "aliases": [
+   "Berdyansk"
+  ],
+  "size": 106311,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Berdiansk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Berdiansk",
+  "lat": 46.75555556,
+  "lon": 36.78888889
+ },
+ {
+  "id": "city-deva",
+  "category": "city",
+  "name": "Deva",
+  "aliases": [],
+  "size": 53113,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Deva, Romania\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Deva, Romania",
+  "lat": 45.87805556,
+  "lon": 22.91444444
+ },
+ {
+  "id": "city-horlivka",
+  "category": "city",
+  "name": "Horlivka",
+  "aliases": [
+   "Gorlovka"
+  ],
+  "size": 239828,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Horlivka\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Horlivka",
+  "lat": 48.3,
+  "lon": 38.05
+ },
+ {
+  "id": "city-kolomyia",
+  "category": "city",
+  "name": "Kolomyia",
+  "aliases": [
+   "Kolomyya"
+  ],
+  "size": 60821,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Kolomyia\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kolomyia",
+  "lat": 48.53055556,
+  "lon": 25.04027778
+ },
+ {
+  "id": "city-resita",
+  "category": "city",
+  "name": "Resita",
+  "aliases": [],
+  "size": 58393,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Reșița\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Reșița",
+  "lat": 45.3,
+  "lon": 21.89027778
+ },
+ {
+  "id": "city-sfantu-gheorghe",
+  "category": "city",
+  "name": "Sfantu Gheorghe",
+  "aliases": [],
+  "size": 50080,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Sfântu Gheorghe\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sfântu Gheorghe",
+  "lat": 45.86361111,
+  "lon": 25.7875
+ },
+ {
+  "id": "city-giurgiu",
+  "category": "city",
+  "name": "Giurgiu",
+  "aliases": [],
+  "size": 54551,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Giurgiu\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Giurgiu",
+  "lat": 43.90083333,
+  "lon": 25.97388889
+ },
+ {
+  "id": "city-makiivka",
+  "category": "city",
+  "name": "Makiivka",
+  "aliases": [
+   "Makeyevka"
+  ],
+  "size": 338968,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Makiivka\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1613,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Makiivka",
+  "lat": 48.05555556,
+  "lon": 37.96111111
+ },
+ {
+  "id": "city-drohobych",
+  "category": "city",
+  "name": "Drohobych",
+  "aliases": [],
+  "size": 73682,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Drohobych\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drohobych",
+  "lat": 49.35,
+  "lon": 23.5
+ },
+ {
+  "id": "city-ramnicu-valcea",
+  "category": "city",
+  "name": "Ramnicu Valcea",
+  "aliases": [],
+  "size": 93151,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Râmnicu Vâlcea\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Râmnicu Vâlcea",
+  "lat": 45.10472222,
+  "lon": 24.37555556
+ },
+ {
+  "id": "city-glogow",
+  "category": "city",
+  "name": "Glogow",
+  "aliases": [],
+  "size": 64261,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Głogów\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1522,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Głogów",
+  "lat": 51.65888889,
+  "lon": 16.08027778
+ },
+ {
+  "id": "city-tczew",
+  "category": "city",
+  "name": "Tczew",
+  "aliases": [],
+  "size": 57990,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Tczew\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1492,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tczew",
+  "lat": 54.0875,
+  "lon": 18.79722222
+ },
+ {
+  "id": "city-pavlohrad",
+  "category": "city",
+  "name": "Pavlohrad",
+  "aliases": [
+   "Pavlograd"
+  ],
+  "size": 101430,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Pavlohrad\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1461,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pavlohrad",
+  "lat": 48.51666667,
+  "lon": 35.86666667
+ },
+ {
+  "id": "city-biala-podlaska",
+  "category": "city",
+  "name": "Biala Podlaska",
+  "aliases": [],
+  "size": 55429,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Biała Podlaska\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Biała Podlaska",
+  "lat": 52.03333333,
+  "lon": 23.11666667
+ },
+ {
+  "id": "city-rybnik",
+  "category": "city",
+  "name": "Rybnik",
+  "aliases": [],
+  "size": 133772,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Rybnik\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rybnik",
+  "lat": 50.08333333,
+  "lon": 18.55
+ },
+ {
+  "id": "city-targu-jiu",
+  "category": "city",
+  "name": "Targu Jiu",
+  "aliases": [],
+  "size": 73545,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Târgu Jiu\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Târgu Jiu",
+  "lat": 45.03416667,
+  "lon": 23.27472222
+ },
+ {
+  "id": "city-dabrowa-gornicza",
+  "category": "city",
+  "name": "Dabrowa Gornicza",
+  "aliases": [],
+  "size": 112876,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Dąbrowa Górnicza\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dąbrowa Górnicza",
+  "lat": 50.32138889,
+  "lon": 19.18722222
+ },
+ {
+  "id": "city-szolnok",
+  "category": "city",
+  "name": "Szolnok",
+  "aliases": [],
+  "size": 65564,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Hungary",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Szolnok\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Hungary",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Szolnok",
+  "lat": 47.17467,
+  "lon": 20.19649
+ },
+ {
+  "id": "city-velika-gorica",
+  "category": "city",
+  "name": "Velika Gorica",
+  "aliases": [],
+  "size": 61075,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Croatia",
+  "flag": [
+   "red",
+   "white",
+   "blue",
+   "yellow",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Velika Gorica\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Croatia",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Velika Gorica",
+  "lat": 45.7,
+  "lon": 16.06666667
+ },
+ {
+  "id": "city-yambol",
+  "category": "city",
+  "name": "Yambol",
+  "aliases": [],
+  "size": 58997,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Bulgaria",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Yambol\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Bulgaria",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yambol",
+  "lat": 42.48333333,
+  "lon": 26.5
+ },
+ {
+  "id": "city-kovel",
+  "category": "city",
+  "name": "Kovel",
+  "aliases": [],
+  "size": 67575,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Kovel\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kovel",
+  "lat": 51.21666667,
+  "lon": 24.71666667
+ },
+ {
+  "id": "city-lida",
+  "category": "city",
+  "name": "Lida",
+  "aliases": [],
+  "size": 102603,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Lida\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lida",
+  "lat": 53.89555556,
+  "lon": 25.29583333
+ },
+ {
+  "id": "city-inowroclaw",
+  "category": "city",
+  "name": "Inowroclaw",
+  "aliases": [],
+  "size": 69576,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Inowrocław\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Inowrocław",
+  "lat": 52.79305556,
+  "lon": 18.26111111
+ },
+ {
+  "id": "city-leszno",
+  "category": "city",
+  "name": "Leszno",
+  "aliases": [],
+  "size": 61791,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Leszno\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Leszno",
+  "lat": 51.84583333,
+  "lon": 16.58055556
+ },
+ {
+  "id": "city-slatina",
+  "category": "city",
+  "name": "Slatina",
+  "aliases": [],
+  "size": 63487,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Slatina, Romania\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Slatina, Romania",
+  "lat": 44.42972222,
+  "lon": 24.36416667
+ },
+ {
+  "id": "city-korosten",
+  "category": "city",
+  "name": "Korosten",
+  "aliases": [],
+  "size": 61496,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Korosten\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Korosten",
+  "lat": 50.95,
+  "lon": 28.63333333
+ },
+ {
+  "id": "city-yenakiieve",
+  "category": "city",
+  "name": "Yenakiieve",
+  "aliases": [
+   "Yenakiyeve"
+  ],
+  "size": 79348,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Yenakiieve\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1309,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yenakiieve",
+  "lat": 48.21666667,
+  "lon": 38.2
+ },
+ {
+  "id": "city-focsani",
+  "category": "city",
+  "name": "Focsani",
+  "aliases": [],
+  "size": 66648,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Focșani\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Focșani",
+  "lat": 45.7,
+  "lon": 27.17972222
+ },
+ {
+  "id": "city-cazin",
+  "category": "city",
+  "name": "Cazin",
+  "aliases": [],
+  "size": 66149,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Bosnia and Herzegovina",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Cazin\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Bosnia and Herzegovina",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cazin",
+  "lat": 44.96666667,
+  "lon": 15.93333333
+ },
+ {
+  "id": "city-konin",
+  "category": "city",
+  "name": "Konin",
+  "aliases": [],
+  "size": 69858,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Konin\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Konin",
+  "lat": 52.21666667,
+  "lon": 18.26666667
+ },
+ {
+  "id": "city-nikopol",
+  "category": "city",
+  "name": "Nikopol",
+  "aliases": [],
+  "size": 105160,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Nikopol, Ukraine\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nikopol, Ukraine",
+  "lat": 47.56666667,
+  "lon": 34.4
+ },
+ {
+  "id": "city-rubizhne",
+  "category": "city",
+  "name": "Rubizhne",
+  "aliases": [],
+  "size": 55247,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Rubizhne\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rubizhne",
+  "lat": 49.01,
+  "lon": 38.37138889
+ },
+ {
+  "id": "city-slutsk",
+  "category": "city",
+  "name": "Slutsk",
+  "aliases": [],
+  "size": 58995,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Slutsk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 1157,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Slutsk",
+  "lat": 53.03333333,
+  "lon": 27.56666667
+ },
+ {
+  "id": "city-pruszkow",
+  "category": "city",
+  "name": "Pruszkow",
+  "aliases": [],
+  "size": 65283,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Pruszków\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pruszków",
+  "lat": 52.16666667,
+  "lon": 20.8
+ },
+ {
+  "id": "city-zviahel",
+  "category": "city",
+  "name": "Zviahel",
+  "aliases": [
+   "Novohrad-Volynskyi"
+  ],
+  "size": 55086,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Zviahel\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zviahel",
+  "lat": 50.58333333,
+  "lon": 27.63333333
+ },
+ {
+  "id": "city-calarasi",
+  "category": "city",
+  "name": "Calarasi",
+  "aliases": [],
+  "size": 58211,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Călărași\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Călărași",
+  "lat": 44.2,
+  "lon": 27.33333333
+ },
+ {
+  "id": "city-nizhyn",
+  "category": "city",
+  "name": "Nizhyn",
+  "aliases": [
+   "Nezhin"
+  ],
+  "size": 66981,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Nizhyn\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nizhyn",
+  "lat": 51.03805556,
+  "lon": 31.88611111
+ },
+ {
+  "id": "city-stryi",
+  "category": "city",
+  "name": "Stryi",
+  "aliases": [],
+  "size": 59425,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Stryi\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stryi",
+  "lat": 49.25,
+  "lon": 23.85
+ },
+ {
+  "id": "city-chornomorsk",
+  "category": "city",
+  "name": "Chornomorsk",
+  "aliases": [
+   "Illichivsk"
+  ],
+  "size": 57983,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Chornomorsk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chornomorsk"
+ },
+ {
+  "id": "city-lysychansk",
+  "category": "city",
+  "name": "Lysychansk",
+  "aliases": [
+   "Lisichansk"
+  ],
+  "size": 96161,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Lysychansk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lysychansk",
+  "lat": 48.91666667,
+  "lon": 38.4
+ },
+ {
+  "id": "city-ostrow-wielkopolski",
+  "category": "city",
+  "name": "Ostrow Wielkopolski",
+  "aliases": [],
+  "size": 70725,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Ostrów Wielkopolski\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ostrów Wielkopolski",
+  "lat": 51.64944444,
+  "lon": 17.81638889
+ },
+ {
+  "id": "city-barlad",
+  "category": "city",
+  "name": "Barlad",
+  "aliases": [],
+  "size": 52475,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Bârlad\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bârlad",
+  "lat": 46.21666667,
+  "lon": 27.66666667
+ },
+ {
+  "id": "city-ruda-slaska",
+  "category": "city",
+  "name": "Ruda Slaska",
+  "aliases": [],
+  "size": 131062,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Ruda Śląska\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 974,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ruda Śląska",
+  "lat": 50.26277778,
+  "lon": 18.85361111
+ },
+ {
+  "id": "city-lipjan",
+  "category": "city",
+  "name": "Lipjan",
+  "aliases": [],
+  "size": 56643,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Kosovo",
+  "flag": [
+   "white",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Lipjan\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Kosovo",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lipjan",
+  "lat": 42.52138889,
+  "lon": 21.12277778
+ },
+ {
+  "id": "city-stalowa-wola",
+  "category": "city",
+  "name": "Stalowa Wola",
+  "aliases": [],
+  "size": 57620,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Stalowa Wola\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Stalowa Wola",
+  "lat": 50.56777778,
+  "lon": 22.05972222
+ },
+ {
+  "id": "city-vaslui",
+  "category": "city",
+  "name": "Vaslui",
+  "aliases": [],
+  "size": 63035,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Vaslui\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vaslui",
+  "lat": 46.63833333,
+  "lon": 27.72916667
+ },
+ {
+  "id": "city-brovary",
+  "category": "city",
+  "name": "Brovary",
+  "aliases": [],
+  "size": 109473,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Brovary\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brovary",
+  "lat": 50.51111111,
+  "lon": 30.79
+ },
+ {
+  "id": "city-konotop",
+  "category": "city",
+  "name": "Konotop",
+  "aliases": [],
+  "size": 83543,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Konotop\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Konotop",
+  "lat": 51.21666667,
+  "lon": 33.2
+ },
+ {
+  "id": "city-zalau",
+  "category": "city",
+  "name": "Zalau",
+  "aliases": [],
+  "size": 52359,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Zalău\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zalău",
+  "lat": 47.19111111,
+  "lon": 23.05722222
+ },
+ {
+  "id": "city-havirov",
+  "category": "city",
+  "name": "Havirov",
+  "aliases": [],
+  "size": 68674,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Czechia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Havířov\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Czechia",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Havířov",
+  "lat": 49.78305556,
+  "lon": 18.42277778
+ },
+ {
+  "id": "city-shostka",
+  "category": "city",
+  "name": "Shostka",
+  "aliases": [],
+  "size": 71966,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Shostka\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shostka",
+  "lat": 51.86666667,
+  "lon": 33.48333333
+ },
+ {
+  "id": "city-frydek-mistek",
+  "category": "city",
+  "name": "Frydek-Mistek",
+  "aliases": [],
+  "size": 53590,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Czechia",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Frýdek-Místek\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Czechia",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Frýdek-Místek",
+  "lat": 49.68805556,
+  "lon": 18.35361111
+ },
+ {
+  "id": "city-enerhodar",
+  "category": "city",
+  "name": "Enerhodar",
+  "aliases": [],
+  "size": 52237,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Enerhodar\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Enerhodar",
+  "lat": 47.49888889,
+  "lon": 34.65583333
+ },
+ {
+  "id": "city-jaworzno",
+  "category": "city",
+  "name": "Jaworzno",
+  "aliases": [],
+  "size": 86812,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Jaworzno\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jaworzno",
+  "lat": 50.20444444,
+  "lon": 19.27
+ },
+ {
+  "id": "city-myrnohrad",
+  "category": "city",
+  "name": "Myrnohrad",
+  "aliases": [
+   "Dymytrov"
+  ],
+  "size": 50360,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Myrnohrad\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Myrnohrad",
+  "lat": 48.29111111,
+  "lon": 37.26805556
+ },
+ {
+  "id": "city-myslowice",
+  "category": "city",
+  "name": "Myslowice",
+  "aliases": [],
+  "size": 71473,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Mysłowice\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mysłowice",
+  "lat": 50.23333333,
+  "lon": 19.13333333
+ },
+ {
+  "id": "city-boryspil",
+  "category": "city",
+  "name": "Boryspil",
+  "aliases": [
+   "Borispol"
+  ],
+  "size": 62281,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Boryspil\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boryspil",
+  "lat": 50.35,
+  "lon": 30.95
+ },
+ {
+  "id": "city-zory",
+  "category": "city",
+  "name": "Zory",
+  "aliases": [],
+  "size": 61793,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Żory\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Żory",
+  "lat": 50.05,
+  "lon": 18.7
+ },
+ {
+  "id": "city-jastrzebie-zdroj",
+  "category": "city",
+  "name": "Jastrzebie-Zdroj",
+  "aliases": [],
+  "size": 82788,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Jastrzębie-Zdrój\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jastrzębie-Zdrój",
+  "lat": 49.95,
+  "lon": 18.58333333
+ },
+ {
+  "id": "city-kedzierzyn-kozle",
+  "category": "city",
+  "name": "Kedzierzyn-Kozle",
+  "aliases": [],
+  "size": 56931,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Kędzierzyn-Koźle\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kędzierzyn-Koźle",
+  "lat": 50.35,
+  "lon": 18.2
+ },
+ {
+  "id": "city-tarnowskie-gory",
+  "category": "city",
+  "name": "Tarnowskie Gory",
+  "aliases": [],
+  "size": 61288,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Tarnowskie Góry\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tarnowskie Góry",
+  "lat": 50.44444444,
+  "lon": 18.85833333
+ },
+ {
+  "id": "city-erd",
+  "category": "city",
+  "name": "Erd",
+  "aliases": [],
+  "size": 71495,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Hungary",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Érd\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Hungary",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Érd",
+  "lat": 47.37833333,
+  "lon": 18.92194444
+ },
+ {
+  "id": "city-alchevsk",
+  "category": "city",
+  "name": "Alchevsk",
+  "aliases": [
+   "Kommunarsk"
+  ],
+  "size": 107438,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Alchevsk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alchevsk",
+  "lat": 48.47777778,
+  "lon": 38.79777778
+ },
+ {
+  "id": "city-kadiivka",
+  "category": "city",
+  "name": "Kadiivka",
+  "aliases": [
+   "Stakhanov"
+  ],
+  "size": 74546,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Kadiivka\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kadiivka",
+  "lat": 48.56805556,
+  "lon": 38.65861111
+ },
+ {
+  "id": "city-sheptytskyi",
+  "category": "city",
+  "name": "Sheptytskyi",
+  "aliases": [
+   "Chervonohrad"
+  ],
+  "size": 64297,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Sheptytskyi\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sheptytskyi",
+  "lat": 50.38666667,
+  "lon": 24.22888889
+ },
+ {
+  "id": "city-kobryn",
+  "category": "city",
+  "name": "Kobryn",
+  "aliases": [
+   "Kobrin"
+  ],
+  "size": 52235,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Kobryn\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kobryn",
+  "lat": 52.21666667,
+  "lon": 24.36666667
+ },
+ {
+  "id": "city-salihorsk",
+  "category": "city",
+  "name": "Salihorsk",
+  "aliases": [
+   "Soligorsk"
+  ],
+  "size": 96418,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Salihorsk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Salihorsk",
+  "lat": 52.8,
+  "lon": 27.53333333
+ },
+ {
+  "id": "city-maladzyechna",
+  "category": "city",
+  "name": "Maladzyechna",
+  "aliases": [
+   "Molodechno"
+  ],
+  "size": 87339,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Maladzyechna\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Maladzyechna",
+  "lat": 54.32083333,
+  "lon": 26.85722222
+ },
+ {
+  "id": "city-kamez",
+  "category": "city",
+  "name": "Kamez",
+  "aliases": [
+   "Kamza"
+  ],
+  "size": 61739,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Albania",
+  "flag": [
+   "red",
+   "black"
+  ],
+  "source": "English Wikipedia pageviews for \"Kamëz\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Albania",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kamëz"
+ },
+ {
+  "id": "city-lozova",
+  "category": "city",
+  "name": "Lozova",
+  "aliases": [],
+  "size": 54026,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Lozova\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lozova",
+  "lat": 48.88333333,
+  "lon": 36.38333333
+ },
+ {
+  "id": "city-oleksandriia",
+  "category": "city",
+  "name": "Oleksandriia",
+  "aliases": [
+   "Oleksandriya",
+   "Alexandriya"
+  ],
+  "size": 76097,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Oleksandriia\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oleksandriia",
+  "lat": 48.66666667,
+  "lon": 33.11666667
+ },
+ {
+  "id": "city-siemianowice-slaskie",
+  "category": "city",
+  "name": "Siemianowice Slaskie",
+  "aliases": [],
+  "size": 63657,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Siemianowice Śląskie\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Siemianowice Śląskie",
+  "lat": 50.27583333,
+  "lon": 18.98583333
+ },
+ {
+  "id": "city-legionowo",
+  "category": "city",
+  "name": "Legionowo",
+  "aliases": [],
+  "size": 53216,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Legionowo\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Legionowo",
+  "lat": 52.4,
+  "lon": 20.88333333
+ },
+ {
+  "id": "city-samar-ukraine",
+  "category": "city",
+  "name": "Samar",
+  "aliases": [],
+  "size": 69855,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Samar, Ukraine\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "qualifier": "Ukraine",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samar, Ukraine",
+  "lat": 48.63333333,
+  "lon": 35.21666667
+ },
+ {
+  "id": "city-piekary-slaskie",
+  "category": "city",
+  "name": "Piekary Slaskie",
+  "aliases": [],
+  "size": 51876,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Piekary Śląskie\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Piekary Śląskie",
+  "lat": 50.38333333,
+  "lon": 18.95
+ },
+ {
+  "id": "city-zgierz",
+  "category": "city",
+  "name": "Zgierz",
+  "aliases": [],
+  "size": 55079,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Poland",
+  "flag": [
+   "red",
+   "white"
+  ],
+  "source": "English Wikipedia pageviews for \"Zgierz\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Poland",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zgierz",
+  "lat": 51.85,
+  "lon": 19.41666667
+ },
+ {
+  "id": "city-popesti-leordeni",
+  "category": "city",
+  "name": "Popesti-Leordeni",
+  "aliases": [],
+  "size": 53434,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Romania",
+  "flag": [
+   "red",
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Popești-Leordeni\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Romania",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Popești-Leordeni",
+  "lat": 44.38,
+  "lon": 26.17
+ },
+ {
+  "id": "city-novopolotsk",
+  "category": "city",
+  "name": "Novopolotsk",
+  "aliases": [],
+  "size": 94666,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Novopolotsk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Novopolotsk"
+ },
+ {
+  "id": "city-zhodzina",
+  "category": "city",
+  "name": "Zhodzina",
+  "aliases": [
+   "Zhodino"
+  ],
+  "size": 62983,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Zhodzina\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zhodzina",
+  "lat": 54.1,
+  "lon": 28.35
+ },
+ {
+  "id": "city-rechytsa",
+  "category": "city",
+  "name": "Rechytsa",
+  "aliases": [
+   "Rechitsa"
+  ],
+  "size": 64508,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Rechytsa\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rechytsa",
+  "lat": 52.36666667,
+  "lon": 30.4
+ },
+ {
+  "id": "city-smila",
+  "category": "city",
+  "name": "Smila",
+  "aliases": [],
+  "size": 65675,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Smila\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Smila",
+  "lat": 49.23361111,
+  "lon": 31.88222222
+ },
+ {
+  "id": "city-zhlobin",
+  "category": "city",
+  "name": "Zhlobin",
+  "aliases": [],
+  "size": 75732,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Zhlobin\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zhlobin",
+  "lat": 52.9,
+  "lon": 30.03333333
+ },
+ {
+  "id": "city-antratsyt",
+  "category": "city",
+  "name": "Antratsyt",
+  "aliases": [],
+  "size": 52150,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Antratsyt\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antratsyt",
+  "lat": 48.11916667,
+  "lon": 39.09
+ },
+ {
+  "id": "city-khrustalnyi",
+  "category": "city",
+  "name": "Khrustalnyi",
+  "aliases": [
+   "Krasnyi Luch"
+  ],
+  "size": 79533,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Khrustalnyi\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Khrustalnyi",
+  "lat": 48.13333333,
+  "lon": 38.93333333
+ },
+ {
+  "id": "city-svyetlahorsk",
+  "category": "city",
+  "name": "Svyetlahorsk",
+  "aliases": [
+   "Svetlogorsk"
+  ],
+  "size": 61280,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Svyetlahorsk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Svyetlahorsk",
+  "lat": 52.63333333,
+  "lon": 29.73333333
+ },
+ {
+  "id": "city-chystiakove",
+  "category": "city",
+  "name": "Chystiakove",
+  "aliases": [
+   "Torez"
+  ],
+  "size": 53462,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Chystiakove\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chystiakove",
+  "lat": 48.02194444,
+  "lon": 38.62638889
+ },
+ {
+  "id": "city-khartsyzk",
+  "category": "city",
+  "name": "Khartsyzk",
+  "aliases": [],
+  "size": 56182,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Ukraine",
+  "flag": [
+   "blue",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Khartsyzk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Ukraine",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Khartsyzk",
+  "lat": 48.04277778,
+  "lon": 38.1425
+ },
+ {
+  "id": "city-rhodes-greece",
+  "category": "city",
+  "name": "Rhodes",
+  "aliases": [
+   "Rhodes City",
+   "Rodos"
+  ],
+  "size": 54562,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Rhodes (city)\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "qualifier": "Greece",
+  "magnitude": 11811,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rhodes (city)",
+  "lat": 36.43333333,
+  "lon": 28.21666667
+ },
+ {
+  "id": "city-chalcis",
+  "category": "city",
+  "name": "Chalcis",
+  "aliases": [
+   "Chalkida",
+   "Halkida",
+   "Chalkis"
+  ],
+  "size": 64490,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Chalcis\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 6118,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chalcis",
+  "lat": 38.4625,
+  "lon": 23.595
+ },
+ {
+  "id": "city-katerini",
+  "category": "city",
+  "name": "Katerini",
+  "aliases": [],
+  "size": 80700,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Katerini\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 4718,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Katerini",
+  "lat": 40.26666667,
+  "lon": 22.5
+ },
+ {
+  "id": "city-kallithea",
+  "category": "city",
+  "name": "Kallithea",
+  "aliases": [],
+  "size": 97616,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Kallithea\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kallithea",
+  "lat": 37.95,
+  "lon": 23.7
+ },
+ {
+  "id": "city-marousi",
+  "category": "city",
+  "name": "Marousi",
+  "aliases": [
+   "Maroussi",
+   "Amarousio"
+  ],
+  "size": 71830,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Marousi\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marousi",
+  "lat": 38.05,
+  "lon": 23.8
+ },
+ {
+  "id": "city-palaio-faliro",
+  "category": "city",
+  "name": "Palaio Faliro",
+  "aliases": [],
+  "size": 64863,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Palaio Faliro\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Palaio Faliro",
+  "lat": 37.93333333,
+  "lon": 23.7
+ },
+ {
+  "id": "city-peristeri",
+  "category": "city",
+  "name": "Peristeri",
+  "aliases": [],
+  "size": 133630,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Peristeri\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peristeri",
+  "lat": 38.01666667,
+  "lon": 23.68333333
+ },
+ {
+  "id": "city-nea-smyrni",
+  "category": "city",
+  "name": "Nea Smyrni",
+  "aliases": [],
+  "size": 72853,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Nea Smyrni\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nea Smyrni",
+  "lat": 37.95,
+  "lon": 23.71666667
+ },
+ {
+  "id": "city-agia-paraskevi",
+  "category": "city",
+  "name": "Agia Paraskevi",
+  "aliases": [],
+  "size": 62147,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Agia Paraskevi\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Agia Paraskevi",
+  "lat": 38.01166667,
+  "lon": 23.82
+ },
+ {
+  "id": "city-acharnes",
+  "category": "city",
+  "name": "Acharnes",
+  "aliases": [
+   "Acharnai",
+   "Menidi"
+  ],
+  "size": 98893,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Acharnes\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Acharnes",
+  "lat": 38.08333333,
+  "lon": 23.73333333
+ },
+ {
+  "id": "city-ilion",
+  "category": "city",
+  "name": "Ilion",
+  "aliases": [
+   "Ilio"
+  ],
+  "size": 84004,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Ilion, Greece\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ilion, Greece",
+  "lat": 38.03333333,
+  "lon": 23.7
+ },
+ {
+  "id": "city-nea-ionia",
+  "category": "city",
+  "name": "Nea Ionia",
+  "aliases": [],
+  "size": 64611,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Nea Ionia\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nea Ionia",
+  "lat": 38.03333333,
+  "lon": 23.75
+ },
+ {
+  "id": "city-nikaia",
+  "category": "city",
+  "name": "Nikaia",
+  "aliases": [
+   "Nikea"
+  ],
+  "size": 88077,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Nikaia, Attica\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nikaia, Attica",
+  "lat": 37.96666667,
+  "lon": 23.63333333
+ },
+ {
+  "id": "city-zografou",
+  "category": "city",
+  "name": "Zografou",
+  "aliases": [],
+  "size": 69874,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Zografou\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zografou",
+  "lat": 37.97833333,
+  "lon": 23.77166667
+ },
+ {
+  "id": "city-chalandri",
+  "category": "city",
+  "name": "Chalandri",
+  "aliases": [],
+  "size": 77102,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Chalandri\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chalandri",
+  "lat": 38.01666667,
+  "lon": 23.8
+ },
+ {
+  "id": "city-aigaleo",
+  "category": "city",
+  "name": "Aigaleo",
+  "aliases": [
+   "Egaleo"
+  ],
+  "size": 65831,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Aigaleo\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aigaleo",
+  "lat": 37.992,
+  "lon": 23.678
+ },
+ {
+  "id": "city-agios-dimitrios",
+  "category": "city",
+  "name": "Agios Dimitrios",
+  "aliases": [],
+  "size": 71664,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Agios Dimitrios\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Agios Dimitrios",
+  "lat": 37.93333333,
+  "lon": 23.73333333
+ },
+ {
+  "id": "city-ilioupoli",
+  "category": "city",
+  "name": "Ilioupoli",
+  "aliases": [],
+  "size": 76730,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Ilioupoli\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ilioupoli",
+  "lat": 37.93333333,
+  "lon": 23.75
+ },
+ {
+  "id": "city-keratsini",
+  "category": "city",
+  "name": "Keratsini",
+  "aliases": [],
+  "size": 75721,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Keratsini\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Keratsini",
+  "lat": 37.96666667,
+  "lon": 23.61666667
+ },
+ {
+  "id": "city-korydallos",
+  "category": "city",
+  "name": "Korydallos",
+  "aliases": [],
+  "size": 61248,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Korydallos\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Korydallos",
+  "lat": 37.98333333,
+  "lon": 23.65
+ },
+ {
+  "id": "city-petroupoli",
+  "category": "city",
+  "name": "Petroupoli",
+  "aliases": [],
+  "size": 60146,
+  "sizeUnit": "population",
+  "region": [
+   "Europe"
+  ],
+  "country": "Greece",
+  "flag": [
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Petroupoli\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Greece",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Petroupoli",
+  "lat": 38.03333333,
+  "lon": 23.68333333
+ },
+ {
+  "id": "city-brest-belarus",
+  "category": "city",
+  "name": "Brest",
+  "aliases": [
+   "Brest-Litovsk"
+  ],
+  "size": 347138,
+  "sizeUnit": "population",
+  "region": [
+   "Europe",
+   "Eastern Europe"
+  ],
+  "country": "Belarus",
+  "flag": [
+   "red",
+   "white",
+   "green"
+  ],
+  "source": "English Wikipedia pageviews for \"Brest, Belarus\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Belarus",
+  "qualifier": "Belarus",
+  "magnitude": 7366,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Brest, Belarus",
+  "lat": 52.13472222,
+  "lon": 23.65694444
  }
 ]
