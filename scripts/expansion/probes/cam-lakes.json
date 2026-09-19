@@ -1,0 +1,37 @@
+{
+  "name": "cam-lakes",
+  "category": "lake",
+  "jsonFile": "lakes.json",
+  "roots": [
+    "Category:Lakes of Guatemala",
+    "Category:Lakes of Belize",
+    "Category:Lakes of Honduras",
+    "Category:Lakes of El Salvador",
+    "Category:Lakes of Nicaragua",
+    "Category:Lakes of Costa Rica",
+    "Category:Lakes of Panama",
+    "Category:Reservoirs in Panama",
+    "Category:Reservoirs in Costa Rica",
+    "Category:Reservoirs in Honduras",
+    "Category:Reservoirs in Guatemala"
+  ],
+  "subcat": "^Category:(Lakes of|Reservoirs in|Reservoirs of|Crater lakes of|Volcanic lakes of|Lagoons of) (?!.*(stubs|Mexico|Colombia|Cuba|Haiti|Dominican|Jamaica|Puerto Rico|Trinidad|United States|Canada|Bridges|Locks|Crossings|Populated|Braided|Coastal basins|Lake groups))",
+  "lists": [
+    "List of lakes of Guatemala",
+    "List of lakes of Belize",
+    "List of lakes of Honduras",
+    "List of lakes of El Salvador",
+    "List of lakes of Nicaragua",
+    "List of lakes of Costa Rica",
+    "List of lakes of Panama"
+  ],
+  "kind": "(lake|reservoir|lagoon|pond|impoundment|body of water|^Lake |^Lac |^Lago |^Laguna |lac\\b|lago\\b|laguna\\b)|jezero|jezioro|ezers|ezeras|järv|tó|езеро|озеро|lac\b|liqeni|λίμνη",
+  "skipTitle": "(^List of|^Lists of|^Lakes of|^Reservoirs|^Geography of|Dam$|Park$|Wildlife|Refuge$|Township|County$|District$|Recreation Area$|Preserve$|Forest$|Trail$|Marina$|Beach$|Provincial Park$|National Park$|Conservation Area$|Generating Station$|Hydroelectric|Power Station$|Lake Erie$|Lake Huron$|Lake Ontario$|Lake Superior$|Lake Michigan$)",
+  "notKind": "^(river|stream|creek|dam|park|home rule city|city|town|village|municipality|county|township|district|neighborhood|neighbourhood|census-designated|archipelago|glacier|island|mountain|valley|canyon|bay|sound|strait|fjord|inlet|estuary|marsh|swamp|bog|wetland|spring|waterfall|falls|beach|ski|resort|census|unincorporated|hamlet|community|region|subdivision|lakes? of|list|former|combined|body of water and area|roadstead|pluvial|prehistoric|proglacial|paleo|palaeo|reserve|provincial park|national park|indian reserve|first nation|ghost town|locality|settlement|human settlement|populated place|generating|hydroelectric|power)|glacial period|last ice age|former lake|pluvial lake|combined lake|glacial lake$|proglacial lake|ice-dammed",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "minSize": 25,
+  "famousViews": 1000,
+  "spellings": "lake",
+  "noFigureViews": 61
+}
