@@ -3169,7 +3169,7 @@ export const WIKI_TITLES = {
   "lake-seneca-lake": "Seneca Lake (New York)",
   "lake-otsego-lake": "Otsego Lake (New York)",
   "lake-leech-lake": "Leech Lake",
-  "lake-red-lake": "Red Lake (Minnesota)",
+  "lake-red-lake-minnesota": "Red Lake (Minnesota)",
   "lake-devils-lake-north-dakota": "Devils Lake (North Dakota)",
   "lake-lake-murray": "Lake Murray (South Carolina)",
   "lake-lake-marion": "Lake Marion (South Carolina)",
@@ -8202,7 +8202,23 @@ export const WIKI_TITLES = {
   "river-gauja-lithuania": "Gauja (Neman)",
   "river-jadar-bosnia": "Jadar (Drinjača)",
   "river-sluch-belarus": "Sluch (Belarus)",
-  "river-sventoji-palanga": "Šventoji (Baltic)"
+  "river-sventoji-palanga": "Šventoji (Baltic)",
+
+  // --- lake (2026-09-18 Eastern Europe lakes) ---
+  "lake-balea-lake": "Bâlea Lake",
+  "lake-prokosko-lake": "Prokoško Lake",
+  "lake-kremasta": "Kremasta (lake)",
+  "lake-orava": "Orava (reservoir)",
+  "lake-narach": "Narach (lake)",
+  "lake-lake-golovita": "Lake Golovița",
+  "lake-sulejow-reservoir": "Sulejów Reservoir",
+  "lake-dabie": "Dąbie (lake)",
+  "lake-lake-gradisce": "Lake Gradišče",
+  "lake-goczalkowice-lake": "Goczałkowice Lake",
+
+  // --- lake (2026-09-18 Eastern Europe lakes, namesakes) ---
+  "lake-red-lake-romania": "Red Lake (Romania)",
+  "lake-red-lake-croatia": "Red Lake (Croatia)"
 };
 
 /**

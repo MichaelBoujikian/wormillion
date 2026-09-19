@@ -455,7 +455,7 @@ Lake Winnebago|557
 Lake Minnetonka|57
 Mille Lacs Lake|536
 Leech Lake|468
-Red Lake|1160
+Red Lake (Minnesota)|1160
 Lake Itasca|4.7
 Lake Vermilion|163|Lake Vermillion
 Lake Pepin|91
@@ -1513,6 +1513,51 @@ Cross Lake (Manitoba)|755
 Black Lake (Saskatchewan)|464
 Garry Lake|976
 Beaver Lake (Alberta)|33.1
+Morskie Oko|0.35
+Lake Kournas|0.16
+Balea Lake|0.05
+Lake Bovilla|4.6
+Kakhovka Reservoir|2155
+Lake Atanasovsko|72.09
+Narta Lagoon|41.8
+Kyiv Reservoir|922
+Lake Izvorul Muntelui|31
+Prokosko Lake|0
+Iskar Reservoir|30
+Kremenchuk Reservoir|2250
+Dnieper Reservoir|420
+Karavasta Lagoon|42
+Kaunas Reservoir|63.5
+Kremasta|80.6
+Orava|35.2
+Small Prespa Lake|46.8
+Svitiaz|25.2
+Lake Karla|37
+Lake Kreda|0
+Lake Yalpuh|149
+Narach|79.6
+Zegrze Reservoir|33
+Jeziorak|32.19
+Lake Golovita|75
+Lake Mandrensko|39.94
+Sulejow Reservoir|27
+Kamianske Reservoir|567
+Narva Reservoir|191
+Dabie|56
+Kaniv Reservoir|675
+Lake Burtnieks|40
+Lake Gradisce|0
+Lake Niegocin|26.04
+Zaslawskaye reservoir|31.1
+Zhrebchevo Reservoir|25
+Goczalkowice Lake|32
+Lake Engure|40.46
+Miedwie|35
+Lake Sinoe|135.6
+Sasyk Lagoon|241.88
+Studen Kladenets|27.8
+Red Lake (Romania)|0.11
+Red Lake (Croatia)|0.03
 `;
 
 export const RIVERS = `

@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T00:57:18.632Z",
+ "fetched": "2026-09-19T01:44:34.137Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -34605,7 +34605,7 @@
    "lat": 47.155755,
    "lon": -94.389896
   },
-  "lake-red-lake": {
+  "lake-red-lake-minnesota": {
    "title": "Red Lake (Minnesota)",
    "monthlyViews": 1644,
    "days": 60,
@@ -42010,6 +42010,321 @@
    "days": 60,
    "lat": 54.70583333,
    "lon": -111.81638889
+  },
+  "lake-morskie-oko": {
+   "title": "Morskie Oko",
+   "monthlyViews": 3501,
+   "days": 59,
+   "lat": 49.19722222,
+   "lon": 20.07083333
+  },
+  "lake-lake-kournas": {
+   "title": "Lake Kournas",
+   "monthlyViews": 1461,
+   "days": 59,
+   "lat": 35.33083333,
+   "lon": 24.27555556
+  },
+  "lake-balea-lake": {
+   "title": "Bâlea Lake",
+   "monthlyViews": 1187,
+   "days": 59,
+   "lat": 45.602,
+   "lon": 24.617
+  },
+  "lake-lake-bovilla": {
+   "title": "Lake Bovilla",
+   "monthlyViews": 1187,
+   "days": 59,
+   "lat": 41.4453,
+   "lon": 19.8667
+  },
+  "lake-kakhovka-reservoir": {
+   "title": "Kakhovka Reservoir",
+   "monthlyViews": 1035,
+   "days": 59,
+   "lat": 47.5,
+   "lon": 34.25
+  },
+  "lake-lake-atanasovsko": {
+   "title": "Lake Atanasovsko",
+   "monthlyViews": 700,
+   "days": 59,
+   "lat": 42.58194444,
+   "lon": 27.47
+  },
+  "lake-narta-lagoon": {
+   "title": "Narta Lagoon",
+   "monthlyViews": 700,
+   "days": 59,
+   "lat": 40.535,
+   "lon": 19.425
+  },
+  "lake-kyiv-reservoir": {
+   "title": "Kyiv Reservoir",
+   "monthlyViews": 548,
+   "days": 59,
+   "lat": 50.82,
+   "lon": 30.46361111
+  },
+  "lake-lake-izvorul-muntelui": {
+   "title": "Lake Izvorul Muntelui",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": 47.01959,
+   "lon": 26.05408
+  },
+  "lake-prokosko-lake": {
+   "title": "Prokoško Lake",
+   "monthlyViews": 396,
+   "days": 59,
+   "lat": 43.95722222,
+   "lon": 17.75472222
+  },
+  "lake-iskar-reservoir": {
+   "title": "Iskar Reservoir",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "lake-kremenchuk-reservoir": {
+   "title": "Kremenchuk Reservoir",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 49.26666667,
+   "lon": 32.63333333
+  },
+  "lake-dnieper-reservoir": {
+   "title": "Dnieper Reservoir",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 48.13583333,
+   "lon": 35.12861111
+  },
+  "lake-karavasta-lagoon": {
+   "title": "Karavasta Lagoon",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 40.9275,
+   "lon": 19.49861111
+  },
+  "lake-kaunas-reservoir": {
+   "title": "Kaunas Reservoir",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 54.85277778,
+   "lon": 24.16722222
+  },
+  "lake-kremasta": {
+   "title": "Kremasta (lake)",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 38.9,
+   "lon": 21.53333333
+  },
+  "lake-orava": {
+   "title": "Orava (reservoir)",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 49.39972222,
+   "lon": 19.54555556
+  },
+  "lake-small-prespa-lake": {
+   "title": "Small Prespa Lake",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 40.76666667,
+   "lon": 21.1
+  },
+  "lake-svitiaz": {
+   "title": "Svitiaz",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 51.5,
+   "lon": 23.76666667
+  },
+  "lake-lake-karla": {
+   "title": "Lake Karla",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 39.53333333,
+   "lon": 22.7
+  },
+  "lake-lake-kreda": {
+   "title": "Lake Kreda",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 46.41638889,
+   "lon": 13.99166667
+  },
+  "lake-lake-yalpuh": {
+   "title": "Lake Yalpuh",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 45.41666667,
+   "lon": 28.61666667
+  },
+  "lake-narach": {
+   "title": "Narach (lake)",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 54.8525,
+   "lon": 26.74972222
+  },
+  "lake-zegrze-reservoir": {
+   "title": "Zegrze Reservoir",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 52.48666667,
+   "lon": 21.02166667
+  },
+  "lake-jeziorak": {
+   "title": "Jeziorak",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 53.71611111,
+   "lon": 19.64555556
+  },
+  "lake-lake-golovita": {
+   "title": "Lake Golovița",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 44.71416667,
+   "lon": 28.77666667
+  },
+  "lake-lake-mandrensko": {
+   "title": "Lake Mandrensko",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 42.42333333,
+   "lon": 27.39138889
+  },
+  "lake-sulejow-reservoir": {
+   "title": "Sulejów Reservoir",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 51.43333333,
+   "lon": 19.93333333
+  },
+  "lake-kamianske-reservoir": {
+   "title": "Kamianske Reservoir",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 48.8,
+   "lon": 34.1
+  },
+  "lake-narva-reservoir": {
+   "title": "Narva Reservoir",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 59.3,
+   "lon": 28.16666667
+  },
+  "lake-dabie": {
+   "title": "Dąbie (lake)",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 53.46583333,
+   "lon": 14.65305556
+  },
+  "lake-kaniv-reservoir": {
+   "title": "Kaniv Reservoir",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 49.92611111,
+   "lon": 31.47944444
+  },
+  "lake-lake-burtnieks": {
+   "title": "Lake Burtnieks",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 57.73333333,
+   "lon": 25.23333333
+  },
+  "lake-lake-gradisce": {
+   "title": "Lake Gradišče",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 46.15888889,
+   "lon": 14.70944444
+  },
+  "lake-lake-niegocin": {
+   "title": "Lake Niegocin",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 53.98333333,
+   "lon": 21.78472222
+  },
+  "lake-zaslawskaye-reservoir": {
+   "title": "Zaslawskaye reservoir",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 53.97611111,
+   "lon": 27.37944444
+  },
+  "lake-zhrebchevo-reservoir": {
+   "title": "Zhrebchevo Reservoir",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 42.59580556,
+   "lon": 25.92807778
+  },
+  "lake-goczalkowice-lake": {
+   "title": "Goczałkowice Lake",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 49.93000833,
+   "lon": 18.86215278
+  },
+  "lake-lake-engure": {
+   "title": "Lake Engure",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 57.26666667,
+   "lon": 23.1
+  },
+  "lake-miedwie": {
+   "title": "Miedwie",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.27972222,
+   "lon": 14.88611111
+  },
+  "lake-lake-sinoe": {
+   "title": "Lake Sinoe",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 44.58333333,
+   "lon": 28.83333333
+  },
+  "lake-sasyk-lagoon": {
+   "title": "Sasyk Lagoon",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 45.64361111,
+   "lon": 29.6575
+  },
+  "lake-studen-kladenets": {
+   "title": "Studen Kladenets",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 41.64111111,
+   "lon": 25.54666667
+  },
+  "lake-red-lake-romania": {
+   "title": "Red Lake (Romania)",
+   "monthlyViews": 1248,
+   "days": 59,
+   "lat": 46.78931,
+   "lon": 25.7869
+  },
+  "lake-red-lake-croatia": {
+   "title": "Red Lake (Croatia)",
+   "monthlyViews": 1218,
+   "days": 59,
+   "lat": 43.45305556,
+   "lon": 17.19666667
   },
   "river-nile": {
    "title": "Nile",

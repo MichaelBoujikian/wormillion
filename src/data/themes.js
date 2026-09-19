@@ -1683,7 +1683,7 @@ globalThis.WORMILLION_THEMES = {
       'Squam Lake', 'Lake Sunapee', 'Walden Pond', 'Quabbin Reservoir', 'Candlewood Lake',
       'Seneca Lake', 'Cayuga Lake', 'Skaneateles Lake', 'Keuka Lake', 'Canandaigua Lake',
       'Oneida Lake', 'Otsego Lake', 'Chautauqua Lake', 'Lake Winnebago', 'Lake Minnetonka',
-      'Mille Lacs Lake', 'Leech Lake', 'Red Lake', 'Lake Itasca', 'Lake Vermilion',
+      'Mille Lacs Lake', 'Leech Lake', 'Red Lake (Minnesota)', 'Lake Itasca', 'Lake Vermilion',
       'Lake Pepin', 'Devils Lake (North Dakota)', 'Lake Sakakawea', 'Lake Oahe', 'Lake Texoma',
       'Lake of the Ozarks', 'Table Rock Lake', 'Lake Travis', 'Caddo Lake', 'Toledo Bend Reservoir',
       'Reelfoot Lake', 'Kentucky Lake', 'Lake Cumberland', 'Lake Lanier', 'Lake Norman',
