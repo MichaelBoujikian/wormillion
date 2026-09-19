@@ -20,46 +20,53 @@ per wave) and SPEC §13; git log has the rest.
 # Start here (the next session, in order)
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
-   Canada wave + the Eastern Europe wave + this file; 44 commits past
-   `main`). `npm test` → 212, `npm run validate` → 17,833, `npm run
+   Canada, Eastern Europe and East Asia waves + this file; 57 commits past
+   `main`). `npm test` → 212, `npm run validate` → 19,398, `npm run
    gap-check` clean. Read "The job", "Where things stand", then "The loop".
-2. **The Eastern Europe wave is closed** (`reports/2026-09-18-ee-wave.md`:
-   rivers `56345e6`, lakes `0e1401e`, mountains `62f1ad8`, islands
-   `1dd1c79`, the rivers / lakes / mountains audit `c386a14`, seas `d0aa945`,
-   deserts `1e2ea42`, cities `18c0edc`, the islands / seas / deserts /
-   cities audit `f6faa4d`). Nothing of it is pending.
-3. **East Asia is in progress** — the user's standing instruction
-   (2026-09-18, twice: "move on to the next area without asking" and "if
-   you finish eastern europe you may move onto the next area"). China (with
-   Hong Kong and Macau), Japan, South Korea, North Korea, Taiwan, Mongolia.
-   The probe configs are written: `probes/ea-rivers-cn.json` (China +
-   Mongolia, 80 km, `noFigureViews` 122), `ea-rivers-jk.json` (Japan, the
-   Koreas, Taiwan, 60 km), `ea-lakes.json` (25 km²), `ea-mountains.json`
-   (20 lists, no floor, 122 views), `ea-islands.json` (1 km²),
-   `ea-seas.json` (213 views), `ea-deserts.json`, `ea-cities.json` (13
-   lists, 50,000; `listCountry` maps Hong Kong's list to China). Same loop
-   as Eastern Europe: probe → `article-size.mjs --no-figure
-   --sister=zh,ja,ko` (the field names are in `SISTER_FIELDS`; a comma is
-   a thousands mark on those three) → probe pass 2 → `chunk --tag=ea` →
-   hand-clean → fold → `--taken-only --tag=ns-ea` → pipeline → commit →
-   push; an Opus audit round per two or three cohorts; the wave report.
-   Things to expect: **themes** — rivers have no `Asia` / `China` / `Japan`
-   theme yet (only `Siberia` and `India`); create `river: 'China'` and
-   `river: 'Japan'` in `src/data/themes.js` with the incumbents (Yangtze,
-   Yellow River, Pearl River, Songhua…; Shinano, Tone, Ishikari…) before
-   the river chunk so `chunk --themes` has somewhere to put the rows —
-   `MIN_THEME_MEMBERS` applies; islands have `Japan`; mountains have `the
-   Himalayas` and `volcanoes`; seas `Asia`; deserts `Asia`. **Names**: the
-   bank keeps the enwiki title bare of "River" (Shinano, not Shinano River)
-   and the Chinese "X He" / "X Jiang" forms as aliases where the article
-   gives them. **Cities**: Chinese prefecture-level cities carry the whole
-   prefecture's population on Wikidata (the "administrative city" rule of
-   `data-cities.mjs` accepts it, as Chongqing's 30 M does); county-level
-   cities are real cities (Kunshan, Yiwu); "district" articles are not.
-   Japanese "designated cities" and "special wards" — the wards of Tokyo
-   are not cities. **Namesakes**: Chinese river names repeat across
-   provinces (Wu, Min, Han, Qing, Bai…) — the province is the qualifier;
-   Korean `Han River (Korea)` is already qualified in the bank.
+2. **The East Asia wave is closed** (`reports/2026-09-19-ea-wave.md`: the
+   river themes `33160e1`, rivers `ab1cfe7` / `a801e66`, lakes `fefbfb0`,
+   mountains `ecd7a2c`, the rivers / lakes / mountains audit `7b82868`,
+   islands `c79c8a2`, seas `48f0eb1`, deserts `245f618`, cities `f4c8ba6`,
+   the islands / seas / deserts / cities audit `9fe7f92`). Nothing of it
+   is pending. **Two numbers for the user**: the city jackpot share is
+   4.74% (188 East Asian cities at 91–312 views; a 213 floor would leave
+   3.4% — the standing 91 floor was kept), and `draw-diff.mjs main` now
+   differs on 17 of 46 dailies because the three river themes enter the
+   theme pick (from 2026-09-19 round 6) — the release window is no longer
+   "any time"; the first differing daily is the current one.
+3. **West and Central Asia is next** — the user's standing instruction
+   (2026-09-18: move on to the next area without asking). Turkey (all of
+   it), the Caucasus (Georgia, Armenia, Azerbaijan), Iran, Iraq, Syria,
+   Lebanon, Israel, Palestine, Jordan, the Arabian Peninsula (Saudi Arabia,
+   Yemen, Oman, the UAE, Qatar, Bahrain, Kuwait), Kazakhstan, Uzbekistan,
+   Turkmenistan, Kyrgyzstan, Tajikistan, Afghanistan; Cyprus with Turkey
+   (it was not in the Europe wave). Write the probe configs from
+   `probes/ea-*.json` (the freshest templates): rivers 80 km for the big
+   countries (Kazakhstan, Iran, Saudi Arabia, Turkey) and 60 km for the
+   rest; lakes 25 km²; mountains lists only at 122 views; islands 1 km²;
+   seas 213 views; cities 50,000. Before the river chunk: **themes** —
+   rivers have `Mesopotamia` (Tigris, Euphrates) and `Siberia`, nothing for
+   Anatolia, Iran, the Caucasus or Central Asia; seed `river: 'Turkey'`,
+   `river: 'Iran'` and `river: 'Central Asia'` with the incumbents (Kızılırmak,
+   Sakarya, Menderes, Seyhan, Ceyhan…; Karun, Zayandeh, Sefid…; Amu Darya,
+   Syr Darya, Ili, Irtysh…) as `33160e1` did for China / Japan / Korea —
+   and note that a new theme moves the daily draw. **Sister wikis**: add
+   `SISTER_FIELDS` names for tr (uzunluk / alan / yükseklik), fa and ar
+   (طول / مساحت·مساحة / ارتفاع), he (אורך / שטח / גובה), ka, hy, az, kk,
+   uz, ru is there; Arabic and Persian wikis write Eastern Arabic numerals
+   (٠١٢٣ / ۰۱۲۳) — fold them to ASCII in `articleSize` as the full-width
+   digits are. **Disputed areas**: the standing rule is "who administers it"
+   (Crimea and the Donbas Ukraine's, Aksai Chin China's); the Golan,
+   Nagorno-Karabakh, Northern Cyprus, Abkhazia and South Ossetia follow
+   it (Israel, Azerbaijan, Cyprus's row, Georgia's rows). **Names**: the
+   bank keeps the enwiki title bare of "River"; Turkish diacritics fold
+   (Kızılırmak → Kizilirmak); the Arabic "Wadi X" rows are rivers in the
+   bank's sense only when the article calls them rivers. The loop is the
+   same: probe → `article-size.mjs --no-figure --sister=…` → probe pass 2 →
+   `chunk --tag=wca` → hand-clean → fold → `--taken-only --tag=ns-wca` →
+   pipeline → commit → push; an Opus audit round per two or three cohorts
+   (the data auditor gets the Wikipedia budget when no probe runs, else
+   both offline); the wave report; this file.
 4. Release only when the user says so, by "The release procedure" below —
    a push to `main` deploys GitHub Pages and builds Netlify; it is never a
    routine push. `main` is still `v1.3-europe-wave` (14,901); everything
@@ -76,7 +83,7 @@ country by country, **every category per country**, "as many places as we
 can", in this order:
 
 > **United States ✓ → Western Europe + Scandinavia/Nordics ✓ → Mexico and
-> Canada ✓ → Eastern Europe ✓ → East Asia → West and Central Asia → South
+> Canada ✓ → Eastern Europe ✓ → East Asia ✓ → West and Central Asia → South
 > America → Central America → North Africa → South Asia → the rest of
 > Africa → islands.**
 
@@ -145,8 +152,15 @@ Standing decisions from the user, all in force:
   17,833; the multi-sister pass, the island-theme lesson (put every basin
   island in), the fame guard's typing and region rules. Russia west of the
   Urals and Turkey's European side deferred to their own passes.
-- **East Asia** (in progress): China, Japan, the Koreas, Taiwan, Mongolia;
-  `probes/ea-*.json`.
+- **East Asia** (2026-09-19, `reports/2026-09-19-ea-wave.md`): China with
+  Hong Kong and Macau, Japan, the Koreas, Taiwan, Mongolia; eight probes,
+  two audit rounds, 17,833 → 19,398; the three river themes (and the
+  lesson that a new theme moves the draw), zh / ja / ko sister wikis, the
+  Himalayas range table, the "X City" lesson (qualify by prefecture
+  instead), the prefecture-total population convention, the 4.74% city
+  jackpot share left for the user.
+- **West and Central Asia** (next): Turkey, the Caucasus, Iran, Iraq, the
+  Levant, the Arabian Peninsula, the -stans, Afghanistan.
 
 ## What an Eastern European probe looks like (the shape of a wave)
 
@@ -172,13 +186,13 @@ Standing decisions from the user, all in force:
 
 # Where things stand
 
-**On `expansion-2` (HEAD `f1ffe5d`+, 44 commits past `main`; bank 17,833,
-tests 212, validate and gap-check clean, `bank.js` 2.30 MB raw; 1,051
-entries carry a qualifier):** decision 5 + the Mexico and Canada wave + the
-Eastern Europe wave (both closed and audited) + East Asia's first probe.
-`draw-diff.mjs main` 0 of 46 dailies draw differently. Reports:
-`scripts/expansion/reports/2026-09-18-*.md` (probe reports, audit reports,
-the two wave summaries).
+**On `expansion-2` (HEAD `a8e0ab9`+, 57 commits past `main`; bank 19,398,
+tests 212, validate and gap-check clean, `bank.js` 2.45 MB raw; 1,167
+entries carry a qualifier):** decision 5 + the Mexico and Canada, Eastern
+Europe and East Asia waves (all closed and audited). `draw-diff.mjs main`
+**17 of 46** dailies draw differently (the East Asia river themes; from
+2026-09-19 round 6). Reports: `scripts/expansion/reports/2026-09-1[89]-*.md`
+(probe reports, audit reports, the three wave summaries).
 
 **On `main` = tag `v1.3-europe-wave` (`8ecb7e5`) = what Pages and Netlify
 serve** since the 2026-09-18 01:25 UTC release (verified both hosts; see
@@ -186,13 +200,13 @@ serve** since the 2026-09-18 01:25 UTC release (verified both hosts; see
 
 | cohort | now | floors in force (size; views/mo) | jackpot share | `size` 0 |
 |---|---|---|---|---|
-| rivers | 4,809 | 80 km US & Canada / 60 km Europe & Mexico / 50 km Britain & Ireland, or 1,000+ views; **≥ 30 views**; unsized admitted at 30+ (Mexico) / 122+ (Canada), not in Europe | 1.54% | 75 |
-| lakes | 1,546 | 25 km² or 1,000+ views; **≥ 61 views** | 2.72% | 4 |
-| mountains | 3,008 | lists only, no elevation floor; **≥ 122 views** | 1.26% | 1 |
-| islands | 2,963 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | 2.13% | 566 |
-| seas | 708 | unsized at **≥ 213 views** | 1.55% | 398 |
-| deserts | 142 | — | 7.75% (the one physical cohort above the band) | 12 |
-| cities | 4,213 | 50,000 population (Wikidata P1082); **≥ 91 views** (since 2026-09-18) | 1.38% | — |
+| rivers | 5,120 | 80 km US & Canada / 60 km Europe & Mexico / 50 km Britain & Ireland, or 1,000+ views; **≥ 30 views**; unsized admitted at 30+ (Mexico) / 122+ (Canada), not in Europe | 1.45% | 104 |
+| lakes | 1,620 | 25 km² or 1,000+ views; **≥ 61 views** | 2.59% | 4 |
+| mountains | 3,174 | lists only, no elevation floor; **≥ 122 views** | 1.20% | 21 |
+| islands | 3,105 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | 2.03% | 617 |
+| seas | 743 | unsized at **≥ 213 views** | 1.48% | 425 |
+| deserts | 145 | — | 8.28% (the one physical cohort above the band) | 14 |
+| cities | 5,047 | 50,000 population (Wikidata P1082); **≥ 91 views** (since 2026-09-18) | **4.74%** (188 East Asian rows at 91–312 views; the user's knob) | — |
 | countries / capitals | 197 / 247 | fixed | 14% / 5% (small fixed cohorts, high by construction) | — |
 
 The views floors sit just above each cohort's flat bottom (the median of 60
@@ -217,7 +231,11 @@ with a T" note under "Open threads"; Greece (and Cyprus, Malta) has no
 sub-region in `data-countries.mjs`, so Greek cities refuse "Name a city in
 Eastern Europe" (a data-countries call: Eastern or a new Southern Europe);
 "Red Lagoon" (Laguna Colorada's alias) scores the Red Sea on a sea round
-through the lagoon filler (one typing; accepted as the price of the fix).
+through the lagoon filler (one typing; accepted as the price of the fix);
+the city cohort's 4.74% jackpot share after East Asia (a 213-views floor
+for that wave's cities would leave 3.4%); the desert cohort at 8.28%; the
+release window now that `draw-diff main` differs on 17 of 46 days (a new
+theme moves the draw — rows never did).
 
 ---
 
@@ -388,6 +406,33 @@ background (the Bash tool caps at 600 s).
   list is the payoff (Greenville was being scored as Grenville, Grenada).
 
 ## Lessons the waves paid for
+
+- **A new theme moves the daily draw; new rows never do.** The three East
+  Asia river themes put `draw-diff main` at 17 of 46 days (the theme pick
+  is part of the draw). Create the themes a wave needs, but know that the
+  release window changes with them; say so in the wave report.
+- **"X City" is not a qualifier.** Nine island- and country-named cities
+  went in as "Okinawa City", "Usa City"…; the audit found those rows have no
+  bare key, so the bare typing landed them through the loose form with no
+  fame guard — "USA" on a city round scored Usa, Ōita. A city whose bare
+  name is an island or a country is qualified by its prefecture / province
+  (`Usa (Oita)`), never renamed.
+- **A qualified newcomer's bare key shadows an incumbent's alias.** Tuman
+  (Xinjiang) took "Tuman" from the Tumen's alias; Takeshima (Kagoshima)
+  would have taken the Liancourt Rocks'. When a taken row is "ALIAS-HELD",
+  leave it out unless the newcomer is the more famous one.
+- **The hand cut must match on ids, not names.** Cutting "Ji'an" (the
+  Hualien township) by name removed Ji'an, Jiangxi (4.47 M) and kept the
+  township; the audit caught it. Cut by `wikiTitle` and re-read the list.
+- **A probe's `notKind` can hide a whole class**: `^(county|…` skipped every
+  "County-administered city" of Taiwan. When a country's cities come out
+  thin, look at the skipped list's kinds before folding.
+- **A sister-wiki figure with a qualifier is a reach**: zhwiki's "238 km
+  (山口以上)" for the Kezi was the upper reach; the enwiki infobox said 900.
+  When the sister's raw value carries a parenthetical, prefer the enwiki
+  figure or verify by hand.
+- **`range-tag.mjs` reads the built `mountains.json`**: fetch-pageviews and
+  build-data run before it, or it sees nothing new.
 
 - **A basin theme takes every row of the basin, not a hand pick.** The
   Eastern Europe islands chunk carried no theme column and 30 / 20 rows were
