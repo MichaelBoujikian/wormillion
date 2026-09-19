@@ -61,7 +61,10 @@
     'lago', 'lac', 'lagoa', 'laguna', 'etang',
     // 2026-09-16: a reservoir is a lake to the player - "Elephant Butte" finds
     // Elephant Butte Reservoir the way "Superior" finds Lake Superior
-    'reservoir'
+    'reservoir',
+    // 2026-09-18 (the Eastern Europe audit): a lagoon is a lake or a sea to the player -
+    // "Narta" finds Narta Lagoon the way "Superior" finds Lake Superior
+    'lagoon'
   ]);
   /** The generic words in a normalized key, in order. */
   const fillerIn = (key) => key.split(' ').filter((w) => FILLER.has(w));
@@ -75,7 +78,7 @@
   // "saint", "st" and "cape" belong to nobody and never get in the way.
   const WORD_CATEGORY = {
     mount: ['mountain'], mt: ['mountain'], mountain: ['mountain'], peak: ['mountain'], hill: ['mountain'],
-    lake: ['lake'], loch: ['lake', 'sea_ocean'], lough: ['lake', 'sea_ocean'], llyn: ['lake'], reservoir: ['lake'], lago: ['lake'], lac: ['lake'], lagoa: ['lake'], laguna: ['lake'], etang: ['lake'],
+    lake: ['lake'], loch: ['lake', 'sea_ocean'], lough: ['lake', 'sea_ocean'], llyn: ['lake'], reservoir: ['lake'], lagoon: ['lake', 'sea_ocean'], lago: ['lake'], lac: ['lake'], lagoa: ['lake'], laguna: ['lake'], etang: ['lake'],
     river: ['river'], rio: ['river'], fiume: ['river'], fleuve: ['river'], fluss: ['river'], riviere: ['river'], rivier: ['river'],
     sea: ['sea_ocean'], ocean: ['sea_ocean'], gulf: ['sea_ocean'], bay: ['sea_ocean'],
     island: ['island'], islands: ['island'], isle: ['island'], isles: ['island'], atoll: ['island'], isla: ['island'], islas: ['island'], ile: ['island'],

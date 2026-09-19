@@ -74,11 +74,15 @@ for (const line of rows) {
   const BLOCK = { lake: 'LAKES', river: 'RIVERS', mountain: null, desert: 'DESERTS', island: 'ISLANDS', sea_ocean: 'SEAS_OCEANS', city: 'CITIES' }[e.category];
   let from = 0;
   let to = text[rowFile].length;
-  if (BLOCK) {
-    from = text[rowFile].indexOf(`export const ${BLOCK} = \``);
-    to = text[rowFile].indexOf('`;', from);
-  }
   const rowRe = new RegExp(`^${esc(rawNameOf(e))}\\|`, 'm');
+  // a mountain lives in MOUNTAINS or MINOR_PEAKS: take the block that has the
+  // row (searching the whole file once renamed a river called Tara for a
+  // mountain called Tara, 2026-09-18)
+  for (const b of BLOCK ? [BLOCK] : ['MOUNTAINS', 'MINOR_PEAKS']) {
+    const f = text[rowFile].indexOf(`export const ${b} = \``);
+    const t = text[rowFile].indexOf('`;', f);
+    if (f >= 0 && rowRe.test(text[rowFile].slice(f, t))) { from = f; to = t; break; }
+  }
   const block = text[rowFile].slice(from, to);
   if (!rowRe.test(block)) { console.log(`?? ${id}: row "${rawNameOf(e)}|" not found in ${rowFile}`); continue; }
   let newBlock = block.replace(rowRe, `${newRaw}|`);

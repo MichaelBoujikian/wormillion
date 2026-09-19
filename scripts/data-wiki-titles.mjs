@@ -8041,7 +8041,6 @@ export const WIKI_TITLES = {
   "river-motru": "Motru (river)",
   "river-barta": "Bārta",
   "river-baseu": "Bașeu",
-  "river-belica": "Belica (river)",
   "river-biala": "Biała (Dunajec)",
   "river-biala-przemsza": "Biała Przemsza",
   "river-bilozerka": "Bilozerka (river)",
@@ -8059,7 +8058,6 @@ export const WIKI_TITLES = {
   "river-calmatui-teleorman": "Călmățui (Teleorman)",
   "river-divoka-orlice": "Divoká Orlice",
   "river-doubrava": "Doubrava (river)",
-  "river-dosnica": "Došnica",
   "river-dragovistica": "Dragovištica",
   "river-dambovnic": "Dâmbovnic",
   "river-eger": "Eger (Tisza)",
@@ -8140,7 +8138,6 @@ export const WIKI_TITLES = {
   "river-strwiaz": "Strwiąż",
   "river-studenica": "Studenica (river)",
   "river-strela": "Střela",
-  "river-suda": "Suda (river)",
   "river-suha-reka": "Suha reka (river)",
   "river-svete": "Svete (river)",
   "river-sai": "Sâi",
@@ -8281,7 +8278,7 @@ export const WIKI_TITLES = {
   "mountain-klek": "Klek mountain, Croatia",
 
   // --- mountain (2026-09-18 Eastern Europe mountains, namesakes) ---
-  "mountain-tara": "Tara (mountain)",
+  "mountain-tara-serbia": "Tara (mountain)",
 
   // --- island (2026-09-18 Eastern Europe islands) ---
   "island-kea": "Kea (island)",

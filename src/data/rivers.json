@@ -66267,20 +66267,6 @@
   "lon": 27.2483
  },
  {
-  "id": "river-belica",
-  "category": "river",
-  "name": "Belica",
-  "aliases": [],
-  "size": 345,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Belica (river)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Belica (river)",
-  "lat": 44.0528,
-  "lon": 21.2418
- },
- {
   "id": "river-berheci",
   "category": "river",
   "name": "Berheci",
@@ -66736,20 +66722,6 @@
   "wikiTitle": "Doubrava (river)",
   "lat": 50.02777778,
   "lon": 15.3375
- },
- {
-  "id": "river-dosnica",
-  "category": "river",
-  "name": "Dosnica",
-  "aliases": [],
-  "size": 385,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Došnica\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Došnica",
-  "lat": 41.39562,
-  "lon": 22.2226
  },
  {
   "id": "river-dragovistica",
@@ -68429,20 +68401,6 @@
   "wikiTitle": "Střela",
   "lat": 49.91444444,
   "lon": 13.52972222
- },
- {
-  "id": "river-suda",
-  "category": "river",
-  "name": "Suda",
-  "aliases": [],
-  "size": 184,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Suda (river)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Suda (river)",
-  "lat": 59.12055556,
-  "lon": 37.73
  },
  {
   "id": "river-sudost",

@@ -424,6 +424,16 @@ test('a typo of a famous island is not a tie with its "Isla X" namesake (2026-09
   assert.strictEqual(matching.matchAnswer('Bizard Island', islands, null).entryId, 'island-ile-bizard');
 });
 
+test('"lagoon" is a lake and sea word (2026-09-18 Eastern Europe audit)', () => {
+  const lakes = matching.buildLookup([
+    { id: 'lake-narta-lagoon', name: 'Narta Lagoon', aliases: [], magnitude: 700 },
+    { id: 'lake-narva-reservoir', name: 'Narva Reservoir', aliases: [], magnitude: 500 }
+  ], { category: 'lake' });
+  // "Narta" was corrected to the Narva Reservoir
+  assert.strictEqual(matching.matchAnswer('Narta', lakes, null).entryId, 'lake-narta-lagoon');
+  assert.strictEqual(matching.matchAnswer('Lake Narta', lakes, null).entryId, 'lake-narta-lagoon');
+});
+
 test('an all-generic-word input has no edit budget of its own (2026-09-16 audit)', () => {
   const rivers = matching.buildLookup([
     { id: 'river-mole', name: 'Mole', aliases: ['River Mole'] },

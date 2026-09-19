@@ -27325,7 +27325,9 @@
   "id": "mountain-hill-of-tara",
   "category": "mountain",
   "name": "Hill of Tara",
-  "aliases": [],
+  "aliases": [
+   "Tara"
+  ],
   "size": 155,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Hill of Tara\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -41753,13 +41755,14 @@
   "lon": 15.14555556
  },
  {
-  "id": "mountain-tara",
+  "id": "mountain-tara-serbia",
   "category": "mountain",
   "name": "Tara",
   "aliases": [],
   "size": 1544,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Tara (mountain)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "qualifier": "Serbia",
   "magnitude": 913,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Tara (mountain)",

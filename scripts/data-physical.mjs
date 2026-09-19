@@ -6136,7 +6136,6 @@ Baboia|80
 Barta|103
 Bazavluk|157
 Baseu|118
-Belica|345
 Berheci|92
 Besed|261
 Biala|102
@@ -6170,7 +6169,6 @@ Calmatui (Teleorman)|139
 Derkul|163
 Divoka Orlice|99
 Doubrava|88
-Dosnica|385
 Dragovistica|63
 Dravinja|73
 Dambovnic|110
@@ -6293,7 +6291,6 @@ Strwiaz|94
 Stsviha|178
 Studenica|60
 Strela|102
-Suda|184
 Sudost|208
 Suha reka|126
 Supii|130
@@ -8291,7 +8288,7 @@ White Oak Mountain|456
 Wolfs Head|3708
 Wyoming Peak|3470
 Ypsilon Mountain|4121
-Hill of Tara|155
+Hill of Tara|155|Tara
 Pendle Hill|557
 The Storr|719
 Montpelier Hill|383
@@ -9321,7 +9318,7 @@ Volujak|2336
 Vrmac|785
 Vanatarea lui Buteanu|2507
 Klek|1181
-Tara|1544
+Tara (Serbia)|1544
 `;
 
 export const MINOR_PEAKS = `

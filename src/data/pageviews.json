@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T02:48:10.397Z",
+ "fetched": "2026-09-19T02:58:01.351Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -74351,13 +74351,6 @@
    "lat": 47.7878,
    "lon": 27.2483
   },
-  "river-belica": {
-   "title": "Belica (river)",
-   "monthlyViews": 30,
-   "days": 59,
-   "lat": 44.0528,
-   "lon": 21.2418
-  },
   "river-berheci": {
    "title": "Berheci",
    "monthlyViews": 30,
@@ -74588,13 +74581,6 @@
    "days": 57,
    "lat": 50.02777778,
    "lon": 15.3375
-  },
-  "river-dosnica": {
-   "title": "Došnica",
-   "monthlyViews": 30,
-   "days": 55,
-   "lat": 41.39562,
-   "lon": 22.2226
   },
   "river-dragovistica": {
    "title": "Dragovištica",
@@ -75449,13 +75435,6 @@
    "days": 57,
    "lat": 49.91444444,
    "lon": 13.52972222
-  },
-  "river-suda": {
-   "title": "Suda (river)",
-   "monthlyViews": 30,
-   "days": 58,
-   "lat": 59.12055556,
-   "lon": 37.73
   },
   "river-sudost": {
    "title": "Sudost",
@@ -96625,7 +96604,7 @@
    "lat": 45.25861111,
    "lon": 15.14555556
   },
-  "mountain-tara": {
+  "mountain-tara-serbia": {
    "title": "Tara (mountain)",
    "monthlyViews": 913,
    "days": 59,
