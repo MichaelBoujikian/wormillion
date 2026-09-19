@@ -13542,6 +13542,78 @@ Yushan Island|2.3
 Osakikamijima Island|38.27
 Oshima (Ehime)|41.9
 Guishan Island (Guangdong)|10
+Marmara Island|126.1
+Suluada|0.1
+Larak Island|49|Larak
+Imrali|9.98|Imrali Island
+Das Island|3
+Abd al Kuri|133
+Al Reem Island|8.8
+Kinaliada|1.3|Kinaliada Island
+Tarout Island|32|Tarut Island
+Al Marjan Island|2.7
+Heybeliada|2.34
+Sirri Island|17.3
+Shahi Island|230|Islami Island
+Ogurja Ada|45|Ogurchinsky Island
+Burgazada|1.5|Antigoni
+Gemiler Island|0
+Zuqar Island|130
+Sanafir Island|33
+Shura Island|5.6
+Avsa|20.6|Avsa Island
+Sedir Island|0
+Al Lulu Island|6
+Bluewaters Island|0
+Dalma|36.57
+Siniyah Island|0
+Hengam Island|36.6
+Samhah|40
+Sitra|22.45|Sitra Island
+Zirku Island|7.47
+Al Maryah Island|1.05
+Halul Island|1.57
+Sheybarah Island|19.8
+Sir Abu Nu'ayr|13.23|Sir Abu Nuair
+Jabal al-Tair Island|11.48
+Al-Hallaniyah|56|Hallaniyah
+Darsah|5.41
+Al Khor Island|1.67
+Chilov|12|Zhiloy Island
+Faror Island|28.48
+Jubail Island|0
+Umm an Nasan|20
+Yassi Ada|0
+Abadan Island|0
+Abu al Abyad|306
+Kara Ada|0
+Pasalimani|21.4
+Boyuk Zira|1.3|Nargin Island
+Pirallahi Island|14.6|Artyom Island
+Uzunada|25.39
+Orak Island|0
+Warbah Island|37
+Ekinlik Island|2.47
+Esek Island|0
+Sican Island|0
+Umm al-Fayyarin|0
+Abu Ali Island|2
+Adsiz Ada|0
+Adir Island|0
+Al Futaisi|35.22
+Arzanah Island|0
+Ghagha Island|5
+Korzhin Island|0
+Bulla Island|3.5
+Hendurabi|22.8
+Kalem Island|1.86
+Kubbar Island|1.1
+Kura Island|44
+Kus Island|1
+Nabih Saleh|1.4
+Qum Island|1.5
+Sajid Island|156
+Farasan Island|380
 `;
 
 export const SEAS_OCEANS = `

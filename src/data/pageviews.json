@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T10:49:28.506Z",
+ "fetched": "2026-09-19T11:18:50.900Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -133045,6 +133045,510 @@
    "days": 60,
    "lat": 22.13416667,
    "lon": 113.82777778
+  },
+  "island-marmara-island": {
+   "title": "Marmara Island",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 40.62,
+   "lon": 27.63
+  },
+  "island-suluada": {
+   "title": "Suluada",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 36.23861111,
+   "lon": 30.47166667
+  },
+  "island-larak-island": {
+   "title": "Larak Island",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 26.85,
+   "lon": 56.35
+  },
+  "island-imrali": {
+   "title": "İmralı",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 40.5375,
+   "lon": 28.535
+  },
+  "island-das-island": {
+   "title": "Das Island",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 25.15138889,
+   "lon": 52.87361111
+  },
+  "island-abd-al-kuri": {
+   "title": "Abd al Kuri",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 12.18580556,
+   "lon": 52.23833333
+  },
+  "island-al-reem-island": {
+   "title": "Al Reem Island",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 24.493,
+   "lon": 54.407
+  },
+  "island-kinaliada": {
+   "title": "Kınalıada",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 40.91305556,
+   "lon": 29.05
+  },
+  "island-tarout-island": {
+   "title": "Tarout Island",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 26.571,
+   "lon": 50.056
+  },
+  "island-al-marjan-island": {
+   "title": "Al Marjan Island",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 25.68111111,
+   "lon": 55.745
+  },
+  "island-heybeliada": {
+   "title": "Heybeliada",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 40.87777778,
+   "lon": 29.09166667
+  },
+  "island-sirri-island": {
+   "title": "Sirri Island",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 25.90944444,
+   "lon": 54.53944444
+  },
+  "island-shahi-island": {
+   "title": "Shahi Island",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 37.85,
+   "lon": 45.5
+  },
+  "island-ogurja-ada": {
+   "title": "Ogurja Ada",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 39.06083333,
+   "lon": 53.04333333
+  },
+  "island-burgazada": {
+   "title": "Burgazada",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 40.8799,
+   "lon": 29.0618
+  },
+  "island-gemiler-island": {
+   "title": "Gemiler Island",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 36.553448,
+   "lon": 29.069352
+  },
+  "island-zuqar-island": {
+   "title": "Zuqar Island",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 14.024,
+   "lon": 42.765
+  },
+  "island-sanafir-island": {
+   "title": "Sanafir Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 27.93,
+   "lon": 34.71
+  },
+  "island-shura-island": {
+   "title": "Shura Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 25.50416667,
+   "lon": 36.9575
+  },
+  "island-avsa": {
+   "title": "Avşa",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 40.51194444,
+   "lon": 27.49861111
+  },
+  "island-sedir-island": {
+   "title": "Sedir Island",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 36.99305556,
+   "lon": 28.20611111
+  },
+  "island-al-lulu-island": {
+   "title": "Al Lulu Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 24.4997,
+   "lon": 54.3418
+  },
+  "island-bluewaters-island": {
+   "title": "Bluewaters Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 25.07981,
+   "lon": 55.12206
+  },
+  "island-dalma": {
+   "title": "Dalma (island)",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 24.51666667,
+   "lon": 52.31666667
+  },
+  "island-siniyah-island": {
+   "title": "Siniyah Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 25.61472222,
+   "lon": 55.63444444
+  },
+  "island-hengam-island": {
+   "title": "Hengam Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 26.63333333,
+   "lon": 55.86666667
+  },
+  "island-samhah": {
+   "title": "Samhah",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 12.15,
+   "lon": 53.05
+  },
+  "island-sitra": {
+   "title": "Sitra",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 26.152,
+   "lon": 50.623
+  },
+  "island-zirku-island": {
+   "title": "Zirku Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 24.87833333,
+   "lon": 53.075
+  },
+  "island-al-maryah-island": {
+   "title": "Al Maryah Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 24.5,
+   "lon": 54.39
+  },
+  "island-halul-island": {
+   "title": "Halul Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 25.675,
+   "lon": 52.41138889
+  },
+  "island-sheybarah-island": {
+   "title": "Sheybarah Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 25.36555556,
+   "lon": 36.895
+  },
+  "island-sir-abu-nu-ayr": {
+   "title": "Sir Abu Nu'ayr",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 25.23166667,
+   "lon": 54.22222222
+  },
+  "island-jabal-al-tair-island": {
+   "title": "Jabal al-Tair Island",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 15.54,
+   "lon": 41.83
+  },
+  "island-al-hallaniyah": {
+   "title": "Al-Hallaniyah",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 17.51444444,
+   "lon": 56.02472222
+  },
+  "island-darsah": {
+   "title": "Darsah",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 12.12083333,
+   "lon": 53.275
+  },
+  "island-al-khor-island": {
+   "title": "Al Khor Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 25.69277778,
+   "lon": 51.54888889
+  },
+  "island-chilov": {
+   "title": "Chilov",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-faror-island": {
+   "title": "Faror Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 26.28333333,
+   "lon": 54.51666667
+  },
+  "island-jubail-island": {
+   "title": "Jubail Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 24.524165,
+   "lon": 54.490495
+  },
+  "island-umm-an-nasan": {
+   "title": "Umm an Nasan",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 26.145,
+   "lon": 50.4
+  },
+  "island-yassi-ada": {
+   "title": "Yassi Ada",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.75306,
+   "lon": 27.76367
+  },
+  "island-abadan-island": {
+   "title": "Abadan Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 30.08333333,
+   "lon": 48.53333333
+  },
+  "island-abu-al-abyad": {
+   "title": "Abu al Abyad",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 24.19583333,
+   "lon": 53.80416667
+  },
+  "island-kara-ada": {
+   "title": "Kara Ada (Bodrum)",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 36.97388889,
+   "lon": 27.4625
+  },
+  "island-pasalimani": {
+   "title": "Paşalimanı",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 40.48944444,
+   "lon": 27.60888889
+  },
+  "island-boyuk-zira": {
+   "title": "Boyuk Zira",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-pirallahi-island": {
+   "title": "Pirallahi Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-uzunada": {
+   "title": "Uzunada",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 38.50444444,
+   "lon": 26.71472222
+  },
+  "island-orak-island": {
+   "title": "Orak Island (Muğla)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.97277778,
+   "lon": 27.59833333
+  },
+  "island-warbah-island": {
+   "title": "Warbah Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 30,
+   "lon": 48.06666667
+  },
+  "island-ekinlik-island": {
+   "title": "Ekinlik Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 40.549,
+   "lon": 27.485
+  },
+  "island-esek-island": {
+   "title": "Eşek Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-sican-island": {
+   "title": "Sıçan Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.22166667,
+   "lon": 29.37083333
+  },
+  "island-umm-al-fayyarin": {
+   "title": "Umm al-Fayyarin",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 26.17888889,
+   "lon": 56.54611111
+  },
+  "island-abu-ali-island": {
+   "title": "Abu Ali Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 27.33583333,
+   "lon": 49.55805556
+  },
+  "island-adsiz-ada": {
+   "title": "Adsiz Ada",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-adir-island": {
+   "title": "Adır Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.866667,
+   "lon": 43.35
+  },
+  "island-al-futaisi": {
+   "title": "Al Futaisi",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 24.35388889,
+   "lon": 54.32055556
+  },
+  "island-arzanah-island": {
+   "title": "Arzanah Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.79388889,
+   "lon": 52.56166667
+  },
+  "island-ghagha-island": {
+   "title": "Ghagha Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 24.41416667,
+   "lon": 51.54888889
+  },
+  "island-korzhin-island": {
+   "title": "Korzhin Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 46.58333333,
+   "lon": 75.91666667
+  },
+  "island-bulla-island": {
+   "title": "Bulla Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-hendurabi": {
+   "title": "Hendurabi",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 26.675,
+   "lon": 53.6325
+  },
+  "island-kalem-island": {
+   "title": "Kalem Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 39.00333333,
+   "lon": 26.795
+  },
+  "island-kubbar-island": {
+   "title": "Kubbar Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 29.0718,
+   "lon": 48.4925
+  },
+  "island-kura-island": {
+   "title": "Kura Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 38.975,
+   "lon": 49.125
+  },
+  "island-kus-island": {
+   "title": "Kuş Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 38.36265833,
+   "lon": 42.99310833
+  },
+  "island-nabih-saleh": {
+   "title": "Nabih Saleh",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 26.183,
+   "lon": 50.585
+  },
+  "island-qum-island": {
+   "title": "Qum Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 40.31083333,
+   "lon": 50.00055556
+  },
+  "island-sajid-island": {
+   "title": "Sajid Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 16.87777778,
+   "lon": 41.90111111
+  },
+  "island-farasan-island": {
+   "title": "Farasan Island",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 16.70583333,
+   "lon": 41.98333333
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

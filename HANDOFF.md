@@ -22,28 +22,28 @@ per wave) and SPEC §13; git log has the rest.
 **Resume point (refreshed with every chunk commit — the user's standing
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
-do the next thing named here):** West and Central Asia wave: rivers, lakes
-and mountains DONE (`8080ec1`, `2ccfebd`, `138447a`, this commit — 54 peaks
-+ 2 namesakes, `reports/2026-09-19-wca-mountains.md`). NEXT, two things at
-once: (a) the islands probe — `node scripts/expansion/probe.mjs
-scripts/expansion/probes/wca-islands.json >
-scripts/expansion/work/wca-islands.out` (1 km², views 91, `noFigureViews`
-122 → `article-size.mjs work/wca-islands.json --no-figure --min-views=91
---sister=ru,tr,fa,ar,he,ka,hy,az,kk,uz`, the probe again, `chunk --tag=wca5
---min-views=91 --allow-no-figure`, hand-clean by description (cut foreign
-rows; river/lake islands need `[]` in `OCEAN_OVERRIDES`; groups out), fold,
-`--taken-only --tag=ns-wca5`, qualify, fold, pipeline, report, commit,
-push); and (b) WHILE the probe runs, the first Opus audit round over rivers
-+ lakes + mountains, OFFLINE — the `Workflow` tool, `parallel()` of two
-`agent()`s (data, gameplay), the pattern is this session's
-`workflows/scripts/ea-rivers-lakes-mountains-audit-wf_9dffd4c1-933.js` with
-the WCA facts (pre-wave commit `b4eb2ac`, chunk files `work/folded/wca/`,
-reports `2026-09-19-wca-rivers-big.md`, `-wca-rivers-small.md`,
-`-wca-lakes.md`, `-wca-mountains.md`; flagged: Mehran 1,289 km, Wadi Bani
-Khalid 156 km², Barsakelmes 450, Kapchagay 1,847, Hammar 600, Mount Nemrut
-(Adiyaman) / (Bitlis), Ailama); apply the findings (`drop.mjs`,
-`fix-titles.mjs`, hand edits), commit. Then seas, deserts, cities, the
-second audit round, the wave report — step 3 below. Nothing uncommitted.
+do the next thing named here):** West and Central Asia wave: rivers, lakes,
+mountains, islands DONE (`8080ec1`, `2ccfebd`, `138447a`, `c6c499f`, this
+commit — 71 islands + Farasan Island, `reports/2026-09-19-wca-islands.md`).
+RUNNING (or interrupted): the first Opus audit round over rivers + lakes +
+mountains — `Workflow` run `wf_f60422ce-b6e` (script
+`workflows/scripts/wca-rivers-lakes-mountains-audit-wf_f60422ce-b6e.js`);
+its reports land in the scratchpad as `2026-09-19-wca-rlm-data-audit.md` and
+`-gameplay-audit.md` (each has a `progress:` line; a report that stops
+mid-way is still usable). When they finish: read both, apply the confirmed
+findings (`drop.mjs <id>…`, `fix-titles.mjs fixes.json`, hand edits to
+`scripts/data-physical.mjs` / `themes.js` / `data-oceans.mjs`), copy the
+reports to `scripts/expansion/reports/`, pipeline, commit `West and Central
+Asia rivers / lakes / mountains audit applied`. If the workflow died, rerun
+it (the script file above; both auditors OFFLINE while a probe runs). NEXT
+probe: seas — `node scripts/expansion/probe.mjs
+scripts/expansion/probes/wca-seas.json >
+scripts/expansion/work/wca-seas.out` (213 views, `--allow-no-figure`; cut
+the worldwide lists to the wave by description; then deserts
+`wca-deserts.json`, cities `wca-cities.json` (capitals refused; qualify by
+province, never "X City"), the second audit round (islands + seas + deserts
++ cities), the wave report `reports/2026-09-19-wca-wave.md`, HANDOFF,
+memory; then South America (the roadmap). Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe and East Asia waves + the first West and Central

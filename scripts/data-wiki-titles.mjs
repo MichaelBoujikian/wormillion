@@ -9368,7 +9368,20 @@ export const WIKI_TITLES = {
 
   // --- mountain (2026-09-19 expansion) ---
   "mountain-mount-ida-turkey": "Mount Ida (Turkey)",
-  "mountain-mount-nemrut-bitlis": "Nemrut (volcano)"
+  "mountain-mount-nemrut-bitlis": "Nemrut (volcano)",
+
+  // --- island (2026-09-19 expansion) ---
+  "island-imrali": "İmralı",
+  "island-kinaliada": "Kınalıada",
+  "island-avsa": "Avşa",
+  "island-dalma": "Dalma (island)",
+  "island-kara-ada": "Kara Ada (Bodrum)",
+  "island-pasalimani": "Paşalimanı",
+  "island-orak-island": "Orak Island (Muğla)",
+  "island-esek-island": "Eşek Island",
+  "island-sican-island": "Sıçan Island",
+  "island-adir-island": "Adır Island",
+  "island-kus-island": "Kuş Island"
 };
 
 /**
@@ -9975,5 +9988,12 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-19 East Asia seas: Xiamen Bay (no short description; the bay of Xiamen, Fujian) ---
   "sea_ocean-xiamen-bay",
   // --- 2026-09-19 West and Central Asia lakes: Lake Buyukcekmece (Istanbul; no short description) ---
-  "lake-lake-buyukcekmece"
+  "lake-lake-buyukcekmece",
+  // --- 2026-09-19 West and Central Asia islands: Wikidata describes three Gulf islands by their lighthouse and two as "Place"; Jubail Island has no short description ---
+  "island-sirri-island",
+  "island-dalma",
+  "island-hengam-island",
+  "island-halul-island",
+  "island-jubail-island",
+  "island-kubbar-island"
 ]);

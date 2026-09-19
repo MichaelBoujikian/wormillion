@@ -707,6 +707,22 @@ export const OCEAN_OVERRIDES = {
   'island-okishima': [],
   'island-xishan-island': [],
   'island-guanzhou-island': [], // Haizhu's Pearl River island (the 2026-09-19 audit)
+  // --- the West and Central Asia islands (2026-09-19): Lake Urmia (Shahi), Lake Van (Adir, Kus), Lake Balkhash (Korzhin) and the Caspian islands (Ogurja Ada, Chilov, Pirallahi, Boyuk Zira, Bulla, Qum, Adsiz Ada, Kura Island) are in no ocean
+  'island-shahi-island': [],
+  'island-adir-island': [],
+  'island-kus-island': [],
+  'island-korzhin-island': [],
+  'island-ogurja-ada': [],
+  'island-chilov': [],
+  'island-pirallahi-island': [],
+  'island-boyuk-zira': [],
+  'island-bulla-island': [],
+  'island-qum-island': [],
+  'island-adsiz-ada': [],
+  'island-kura-island': [],
+  'island-abadan-island': ['Indian'], // the head of the Persian Gulf at 30N sits above the Gulf's box
+  'island-warbah-island': ['Indian'],
+  'island-esek-island': ['Atlantic'], // Cesme's Aegean islet, no coordinates on Wikidata
   'island-minamidaitojima': ['Pacific'],
   'island-hachijo-kojima': ['Pacific'],
   'island-mageshima': ['Pacific'],

@@ -53012,5 +53012,1221 @@
   "oceans": [
    "Pacific"
   ]
+ },
+ {
+  "id": "island-marmara-island",
+  "category": "island",
+  "name": "Marmara Island",
+  "aliases": [],
+  "size": 126.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marmara Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marmara Island",
+  "lat": 40.62,
+  "lon": 27.63,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-suluada",
+  "category": "island",
+  "name": "Suluada",
+  "aliases": [],
+  "size": 0.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Suluada\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Suluada",
+  "lat": 36.23861111,
+  "lon": 30.47166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-larak-island",
+  "category": "island",
+  "name": "Larak Island",
+  "aliases": [
+   "Larak"
+  ],
+  "size": 49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Larak Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Larak Island",
+  "lat": 26.85,
+  "lon": 56.35,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-imrali",
+  "category": "island",
+  "name": "Imrali",
+  "aliases": [
+   "Imrali Island"
+  ],
+  "size": 9.98,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"İmralı\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "İmralı",
+  "lat": 40.5375,
+  "lon": 28.535,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-das-island",
+  "category": "island",
+  "name": "Das Island",
+  "aliases": [],
+  "size": 3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Das Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Das Island",
+  "lat": 25.15138889,
+  "lon": 52.87361111,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-abd-al-kuri",
+  "category": "island",
+  "name": "Abd al Kuri",
+  "aliases": [],
+  "size": 133,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Abd al Kuri\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abd al Kuri",
+  "lat": 12.18580556,
+  "lon": 52.23833333,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-al-reem-island",
+  "category": "island",
+  "name": "Al Reem Island",
+  "aliases": [],
+  "size": 8.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Al Reem Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Al Reem Island",
+  "lat": 24.493,
+  "lon": 54.407,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-kinaliada",
+  "category": "island",
+  "name": "Kinaliada",
+  "aliases": [
+   "Kinaliada Island"
+  ],
+  "size": 1.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kınalıada\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kınalıada",
+  "lat": 40.91305556,
+  "lon": 29.05,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-tarout-island",
+  "category": "island",
+  "name": "Tarout Island",
+  "aliases": [
+   "Tarut Island"
+  ],
+  "size": 32,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tarout Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tarout Island",
+  "lat": 26.571,
+  "lon": 50.056,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-al-marjan-island",
+  "category": "island",
+  "name": "Al Marjan Island",
+  "aliases": [],
+  "size": 2.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Al Marjan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Al Marjan Island",
+  "lat": 25.68111111,
+  "lon": 55.745,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-heybeliada",
+  "category": "island",
+  "name": "Heybeliada",
+  "aliases": [],
+  "size": 2.34,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Heybeliada\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Heybeliada",
+  "lat": 40.87777778,
+  "lon": 29.09166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sirri-island",
+  "category": "island",
+  "name": "Sirri Island",
+  "aliases": [],
+  "size": 17.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sirri Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sirri Island",
+  "lat": 25.90944444,
+  "lon": 54.53944444,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-shahi-island",
+  "category": "island",
+  "name": "Shahi Island",
+  "aliases": [
+   "Islami Island"
+  ],
+  "size": 230,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shahi Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shahi Island",
+  "lat": 37.85,
+  "lon": 45.5,
+  "oceans": []
+ },
+ {
+  "id": "island-ogurja-ada",
+  "category": "island",
+  "name": "Ogurja Ada",
+  "aliases": [
+   "Ogurchinsky Island"
+  ],
+  "size": 45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ogurja Ada\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ogurja Ada",
+  "lat": 39.06083333,
+  "lon": 53.04333333,
+  "oceans": []
+ },
+ {
+  "id": "island-burgazada",
+  "category": "island",
+  "name": "Burgazada",
+  "aliases": [
+   "Antigoni"
+  ],
+  "size": 1.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Burgazada\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Burgazada",
+  "lat": 40.8799,
+  "lon": 29.0618,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gemiler-island",
+  "category": "island",
+  "name": "Gemiler Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gemiler Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gemiler Island",
+  "lat": 36.553448,
+  "lon": 29.069352,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-zuqar-island",
+  "category": "island",
+  "name": "Zuqar Island",
+  "aliases": [],
+  "size": 130,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zuqar Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zuqar Island",
+  "lat": 14.024,
+  "lon": 42.765,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-sanafir-island",
+  "category": "island",
+  "name": "Sanafir Island",
+  "aliases": [],
+  "size": 33,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sanafir Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sanafir Island",
+  "lat": 27.93,
+  "lon": 34.71,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-shura-island",
+  "category": "island",
+  "name": "Shura Island",
+  "aliases": [],
+  "size": 5.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shura Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shura Island",
+  "lat": 25.50416667,
+  "lon": 36.9575,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-avsa",
+  "category": "island",
+  "name": "Avsa",
+  "aliases": [
+   "Avsa Island"
+  ],
+  "size": 20.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Avşa\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Avşa",
+  "lat": 40.51194444,
+  "lon": 27.49861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sedir-island",
+  "category": "island",
+  "name": "Sedir Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sedir Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sedir Island",
+  "lat": 36.99305556,
+  "lon": 28.20611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-al-lulu-island",
+  "category": "island",
+  "name": "Al Lulu Island",
+  "aliases": [],
+  "size": 6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Al Lulu Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Al Lulu Island",
+  "lat": 24.4997,
+  "lon": 54.3418,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-bluewaters-island",
+  "category": "island",
+  "name": "Bluewaters Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bluewaters Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bluewaters Island",
+  "lat": 25.07981,
+  "lon": 55.12206,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-dalma",
+  "category": "island",
+  "name": "Dalma",
+  "aliases": [],
+  "size": 36.57,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dalma (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dalma (island)",
+  "lat": 24.51666667,
+  "lon": 52.31666667,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-siniyah-island",
+  "category": "island",
+  "name": "Siniyah Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Siniyah Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Siniyah Island",
+  "lat": 25.61472222,
+  "lon": 55.63444444,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-hengam-island",
+  "category": "island",
+  "name": "Hengam Island",
+  "aliases": [],
+  "size": 36.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hengam Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hengam Island",
+  "lat": 26.63333333,
+  "lon": 55.86666667,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-samhah",
+  "category": "island",
+  "name": "Samhah",
+  "aliases": [],
+  "size": 40,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Samhah\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samhah",
+  "lat": 12.15,
+  "lon": 53.05,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-sitra",
+  "category": "island",
+  "name": "Sitra",
+  "aliases": [
+   "Sitra Island"
+  ],
+  "size": 22.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sitra\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sitra",
+  "lat": 26.152,
+  "lon": 50.623,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-zirku-island",
+  "category": "island",
+  "name": "Zirku Island",
+  "aliases": [],
+  "size": 7.47,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zirku Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zirku Island",
+  "lat": 24.87833333,
+  "lon": 53.075,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-al-maryah-island",
+  "category": "island",
+  "name": "Al Maryah Island",
+  "aliases": [],
+  "size": 1.05,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Al Maryah Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Al Maryah Island",
+  "lat": 24.5,
+  "lon": 54.39,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-halul-island",
+  "category": "island",
+  "name": "Halul Island",
+  "aliases": [],
+  "size": 1.57,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Halul Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Halul Island",
+  "lat": 25.675,
+  "lon": 52.41138889,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-sheybarah-island",
+  "category": "island",
+  "name": "Sheybarah Island",
+  "aliases": [],
+  "size": 19.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sheybarah Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sheybarah Island",
+  "lat": 25.36555556,
+  "lon": 36.895,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-sir-abu-nu-ayr",
+  "category": "island",
+  "name": "Sir Abu Nu'ayr",
+  "aliases": [
+   "Sir Abu Nuair"
+  ],
+  "size": 13.23,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sir Abu Nu'ayr\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sir Abu Nu'ayr",
+  "lat": 25.23166667,
+  "lon": 54.22222222,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-jabal-al-tair-island",
+  "category": "island",
+  "name": "Jabal al-Tair Island",
+  "aliases": [],
+  "size": 11.48,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jabal al-Tair Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jabal al-Tair Island",
+  "lat": 15.54,
+  "lon": 41.83,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-al-hallaniyah",
+  "category": "island",
+  "name": "Al-Hallaniyah",
+  "aliases": [
+   "Hallaniyah"
+  ],
+  "size": 56,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Al-Hallaniyah\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Al-Hallaniyah",
+  "lat": 17.51444444,
+  "lon": 56.02472222,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-darsah",
+  "category": "island",
+  "name": "Darsah",
+  "aliases": [],
+  "size": 5.41,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Darsah\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Darsah",
+  "lat": 12.12083333,
+  "lon": 53.275,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-al-khor-island",
+  "category": "island",
+  "name": "Al Khor Island",
+  "aliases": [],
+  "size": 1.67,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Al Khor Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Al Khor Island",
+  "lat": 25.69277778,
+  "lon": 51.54888889,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-chilov",
+  "category": "island",
+  "name": "Chilov",
+  "aliases": [
+   "Zhiloy Island"
+  ],
+  "size": 12,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chilov\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chilov",
+  "oceans": []
+ },
+ {
+  "id": "island-faror-island",
+  "category": "island",
+  "name": "Faror Island",
+  "aliases": [],
+  "size": 28.48,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Faror Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Faror Island",
+  "lat": 26.28333333,
+  "lon": 54.51666667,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-jubail-island",
+  "category": "island",
+  "name": "Jubail Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jubail Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jubail Island",
+  "lat": 24.524165,
+  "lon": 54.490495,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-umm-an-nasan",
+  "category": "island",
+  "name": "Umm an Nasan",
+  "aliases": [],
+  "size": 20,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Umm an Nasan\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Umm an Nasan",
+  "lat": 26.145,
+  "lon": 50.4,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-yassi-ada",
+  "category": "island",
+  "name": "Yassi Ada",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yassi Ada\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yassi Ada",
+  "lat": 36.75306,
+  "lon": 27.76367,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-abadan-island",
+  "category": "island",
+  "name": "Abadan Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Abadan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abadan Island",
+  "lat": 30.08333333,
+  "lon": 48.53333333,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-abu-al-abyad",
+  "category": "island",
+  "name": "Abu al Abyad",
+  "aliases": [],
+  "size": 306,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Abu al Abyad\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abu al Abyad",
+  "lat": 24.19583333,
+  "lon": 53.80416667,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-kara-ada",
+  "category": "island",
+  "name": "Kara Ada",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kara Ada (Bodrum)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kara Ada (Bodrum)",
+  "lat": 36.97388889,
+  "lon": 27.4625,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pasalimani",
+  "category": "island",
+  "name": "Pasalimani",
+  "aliases": [],
+  "size": 21.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Paşalimanı\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Paşalimanı",
+  "lat": 40.48944444,
+  "lon": 27.60888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-boyuk-zira",
+  "category": "island",
+  "name": "Boyuk Zira",
+  "aliases": [
+   "Nargin Island"
+  ],
+  "size": 1.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Boyuk Zira\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Boyuk Zira",
+  "oceans": []
+ },
+ {
+  "id": "island-pirallahi-island",
+  "category": "island",
+  "name": "Pirallahi Island",
+  "aliases": [
+   "Artyom Island"
+  ],
+  "size": 14.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pirallahi Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pirallahi Island",
+  "oceans": []
+ },
+ {
+  "id": "island-uzunada",
+  "category": "island",
+  "name": "Uzunada",
+  "aliases": [],
+  "size": 25.39,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Uzunada\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uzunada",
+  "lat": 38.50444444,
+  "lon": 26.71472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-orak-island",
+  "category": "island",
+  "name": "Orak Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Orak Island (Muğla)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Orak Island (Muğla)",
+  "lat": 36.97277778,
+  "lon": 27.59833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-warbah-island",
+  "category": "island",
+  "name": "Warbah Island",
+  "aliases": [],
+  "size": 37,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Warbah Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Warbah Island",
+  "lat": 30,
+  "lon": 48.06666667,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-ekinlik-island",
+  "category": "island",
+  "name": "Ekinlik Island",
+  "aliases": [],
+  "size": 2.47,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ekinlik Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ekinlik Island",
+  "lat": 40.549,
+  "lon": 27.485,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-esek-island",
+  "category": "island",
+  "name": "Esek Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Eşek Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Eşek Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sican-island",
+  "category": "island",
+  "name": "Sican Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sıçan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sıçan Island",
+  "lat": 36.22166667,
+  "lon": 29.37083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-umm-al-fayyarin",
+  "category": "island",
+  "name": "Umm al-Fayyarin",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Umm al-Fayyarin\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Umm al-Fayyarin",
+  "lat": 26.17888889,
+  "lon": 56.54611111,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-abu-ali-island",
+  "category": "island",
+  "name": "Abu Ali Island",
+  "aliases": [],
+  "size": 2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Abu Ali Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abu Ali Island",
+  "lat": 27.33583333,
+  "lon": 49.55805556,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-adsiz-ada",
+  "category": "island",
+  "name": "Adsiz Ada",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Adsiz Ada\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Adsiz Ada",
+  "oceans": []
+ },
+ {
+  "id": "island-adir-island",
+  "category": "island",
+  "name": "Adir Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Adır Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Adır Island",
+  "lat": 38.866667,
+  "lon": 43.35,
+  "oceans": []
+ },
+ {
+  "id": "island-al-futaisi",
+  "category": "island",
+  "name": "Al Futaisi",
+  "aliases": [],
+  "size": 35.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Al Futaisi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Al Futaisi",
+  "lat": 24.35388889,
+  "lon": 54.32055556,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-arzanah-island",
+  "category": "island",
+  "name": "Arzanah Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Arzanah Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Arzanah Island",
+  "lat": 24.79388889,
+  "lon": 52.56166667,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-ghagha-island",
+  "category": "island",
+  "name": "Ghagha Island",
+  "aliases": [],
+  "size": 5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ghagha Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ghagha Island",
+  "lat": 24.41416667,
+  "lon": 51.54888889,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-korzhin-island",
+  "category": "island",
+  "name": "Korzhin Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Korzhin Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Korzhin Island",
+  "lat": 46.58333333,
+  "lon": 75.91666667,
+  "oceans": []
+ },
+ {
+  "id": "island-bulla-island",
+  "category": "island",
+  "name": "Bulla Island",
+  "aliases": [],
+  "size": 3.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bulla Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bulla Island",
+  "oceans": []
+ },
+ {
+  "id": "island-hendurabi",
+  "category": "island",
+  "name": "Hendurabi",
+  "aliases": [],
+  "size": 22.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hendurabi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hendurabi",
+  "lat": 26.675,
+  "lon": 53.6325,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-kalem-island",
+  "category": "island",
+  "name": "Kalem Island",
+  "aliases": [],
+  "size": 1.86,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kalem Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kalem Island",
+  "lat": 39.00333333,
+  "lon": 26.795,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kubbar-island",
+  "category": "island",
+  "name": "Kubbar Island",
+  "aliases": [],
+  "size": 1.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kubbar Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kubbar Island",
+  "lat": 29.0718,
+  "lon": 48.4925,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-kura-island",
+  "category": "island",
+  "name": "Kura Island",
+  "aliases": [],
+  "size": 44,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kura Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kura Island",
+  "lat": 38.975,
+  "lon": 49.125,
+  "oceans": []
+ },
+ {
+  "id": "island-kus-island",
+  "category": "island",
+  "name": "Kus Island",
+  "aliases": [],
+  "size": 1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kuş Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kuş Island",
+  "lat": 38.36265833,
+  "lon": 42.99310833,
+  "oceans": []
+ },
+ {
+  "id": "island-nabih-saleh",
+  "category": "island",
+  "name": "Nabih Saleh",
+  "aliases": [],
+  "size": 1.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nabih Saleh\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nabih Saleh",
+  "lat": 26.183,
+  "lon": 50.585,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-qum-island",
+  "category": "island",
+  "name": "Qum Island",
+  "aliases": [],
+  "size": 1.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Qum Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Qum Island",
+  "lat": 40.31083333,
+  "lon": 50.00055556,
+  "oceans": []
+ },
+ {
+  "id": "island-sajid-island",
+  "category": "island",
+  "name": "Sajid Island",
+  "aliases": [],
+  "size": 156,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sajid Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sajid Island",
+  "lat": 16.87777778,
+  "lon": 41.90111111,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "island-farasan-island",
+  "category": "island",
+  "name": "Farasan Island",
+  "aliases": [],
+  "size": 380,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Farasan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Farasan Island",
+  "lat": 16.70583333,
+  "lon": 41.98333333,
+  "oceans": [
+   "Indian"
+  ]
  }
 ]

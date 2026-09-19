@@ -1801,7 +1801,10 @@ globalThis.WORMILLION_THEMES = {
       'Drvenik Veli', 'Kaprije', 'Susac', 'Vrgada', 'Scedro',
       'Sveti Klement', 'Jakljan', 'Prvic (Krk)', 'Rava', 'Vele Srakane',
       'Drvenik Mali', 'Mali Skolj', 'Plavnik', 'Kune Island', 'Lavdara',
-      'Mali Brijun', 'Zeca', 'Skarda'
+      'Mali Brijun', 'Zeca', 'Skarda',
+      // 2026-09-19 expansion
+      'Suluada', 'Gemiler Island', 'Sedir Island', 'Yassi Ada', 'Kara Ada',
+      'Uzunada', 'Orak Island', 'Esek Island', 'Kalem Island'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
