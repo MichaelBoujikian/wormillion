@@ -45,6 +45,7 @@ const RAW = {
     city('city-syracuse-new-york', 'Syracuse', 30000, 'United States', AMERICA, { qualifier: 'New York', size: 148000 }),
     city('city-syracuse-sicily', 'Syracuse', 20000, 'Italy', EUROPE, { qualifier: 'Sicily', size: 118000 }),
     city('city-athens-georgia', 'Athens', 12000, 'United States', AMERICA, { qualifier: 'Georgia' }),
+    city('city-athens-ohio', 'Athens', 3000, 'United States', AMERICA, { qualifier: 'Ohio', aliases: ['Athens OH', 'Ohio University Town'] }),
     city('city-paris-texas', 'Paris', 5000, 'United States', AMERICA, { qualifier: 'Texas' }),
     city('city-dublin-california', 'Dublin', 4000, 'United States', AMERICA, { qualifier: 'California' }),
     city('city-lublin', 'Lublin', 9000, 'Poland', EUROPE),
@@ -237,6 +238,20 @@ test('a bare name whose famous holder lives elsewhere keeps the nudge; the quali
   // round is the lake called Paris, whatever the capital's fame
   const lake = judge({ category: 'lake' });
   assert.strictEqual(lake('Paris').entry.id, 'lake-paris-tennessee');
+});
+
+test('an alias of a qualified entry is not second-guessed: the guard asks about the typing (Samar (Ukraine) / Novomoskovsk, 2026-09-18)', () => {
+  const plain = judge({ category: 'city' });
+  // the bare name is the capital's nudge...
+  assert.strictEqual(plain('Athens').elsewhere.entry.id, 'capital-athens');
+  // ...but an alias only this row holds names it and nothing else
+  const alias = plain('Ohio University Town');
+  assert.strictEqual(alias.status, 'accepted');
+  assert.strictEqual(alias.entry.id, 'city-athens-ohio');
+  // an alias that is itself the famous one's name would keep the nudge
+  // (Rodos is the island's name as much as the city's); the state-code
+  // form, which the capital cohort does not hold, is unambiguous
+  assert.strictEqual(plain('Athens OH').entry.id, 'city-athens-ohio');
 });
 
 test('letter and length rules see the bare name, whatever was typed', () => {

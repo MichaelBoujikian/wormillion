@@ -104,16 +104,20 @@
      * entry's bare name, when it is famous enough to be what the player
      * meant (NAMESAKE_FAME_RATIO); null otherwise. Only a qualified entry
      * (one that shares its name) is ever second-guessed, and only when it
-     * was reached by the bare name: "Athens, Georgia" is exactly that.
+     * was reached by the bare name: "Athens, Georgia" is exactly that, and
+     * so is an alias of its own ("Novomoskovsk" is Samar (Ukraine) and
+     * nothing else; "Rodos" is the island's name as much as the city's, so
+     * the typing itself is what the other cohorts are asked about).
      */
     function famousElsewhere(entry, match, current) {
       if (!entry.qualifier || (match && match.qualified)) return null;
       const key = matching.normalize(entry.name);
       const top = Math.max(...matching.idsAt(current.cohort.lookup, key).map((id) => current.cohort.byId.get(id).magnitude));
+      const typed = (match && match.matched) || entry.name;
       let best = null;
       for (const other of CONFUSABLE[entry.category] || []) {
         const cohort = bank.cohorts.get(other);
-        const hit = matching.matchAnswer(entry.name, cohort.lookup, null, { loose: false, fuzzy: false });
+        const hit = matching.matchAnswer(typed, cohort.lookup, null, { loose: false, fuzzy: false });
         if (hit.status !== 'accepted') continue;
         const found = cohort.byId.get(hit.entryId);
         if (!best || found.magnitude > best.magnitude) best = found;
