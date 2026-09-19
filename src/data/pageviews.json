@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T15:05:51.026Z",
+ "fetched": "2026-09-19T15:32:38.639Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -52930,6 +52930,230 @@
    "days": 60,
    "lat": 41.06527778,
    "lon": 28.55694444
+  },
+  "lake-lake-guatavita": {
+   "title": "Lake Guatavita",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 4.9775,
+   "lon": -73.775
+  },
+  "lake-laguna-del-carbon": {
+   "title": "Laguna del Carbón",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": -49.5762,
+   "lon": -68.3514
+  },
+  "lake-lake-o-higgins": {
+   "title": "O'Higgins/San Martín Lake",
+   "monthlyViews": 1065,
+   "days": 59,
+   "lat": -48.83333333,
+   "lon": -72.6
+  },
+  "lake-nordenskjold-lake": {
+   "title": "Nordenskjöld Lake",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": -51.03333333,
+   "lon": -73
+  },
+  "lake-brokopondo-reservoir": {
+   "title": "Brokopondo Reservoir",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": 4.8,
+   "lon": -55.06666667
+  },
+  "lake-itaipu-lake": {
+   "title": "Itaipu Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": -24.933359,
+   "lon": -54.41998
+  },
+  "lake-guri-reservoir": {
+   "title": "Guri Reservoir",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 7.46,
+   "lon": -62.82
+  },
+  "lake-lake-paranoa": {
+   "title": "Lake Paranoá",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -15.78055556,
+   "lon": -47.8225
+  },
+  "lake-pirihueico-lake": {
+   "title": "Pirihueico Lake",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -39.93,
+   "lon": -71.79027778
+  },
+  "lake-billings-reservoir": {
+   "title": "Billings Reservoir",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -23.787,
+   "lon": -46.584
+  },
+  "lake-guarapiranga": {
+   "title": "Guarapiranga",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -23.7269,
+   "lon": -46.7352
+  },
+  "lake-san-rafael-lake": {
+   "title": "San Rafael Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -46.66666667,
+   "lon": -73.93333333
+  },
+  "lake-lake-salinas": {
+   "title": "Lake Salinas",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -16.368056,
+   "lon": -71.135833
+  },
+  "lake-presidente-rios-lake": {
+   "title": "Presidente Ríos Lake",
+   "monthlyViews": 122,
+   "days": 58,
+   "lat": -46.46666667,
+   "lon": -74.41666667
+  },
+  "lake-coipasa-lake": {
+   "title": "Coipasa Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -19.2,
+   "lon": -68.11666667
+  },
+  "lake-colbun-lake": {
+   "title": "Colbún Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -35.674,
+   "lon": -71.264
+  },
+  "lake-laguna-del-sauce": {
+   "title": "Laguna del Sauce",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -34.82527778,
+   "lon": -55.06027778
+  },
+  "lake-lake-lagunillas": {
+   "title": "Lake Lagunillas",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -15.725,
+   "lon": -70.735556
+  },
+  "lake-rincon-del-bonete-reservoir": {
+   "title": "Rincón del Bonete Reservoir",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -32.66666667,
+   "lon": -56
+  },
+  "lake-tomine-reservoir": {
+   "title": "Tominé Reservoir",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 4.96416667,
+   "lon": -73.83083333
+  },
+  "lake-alumine-lake": {
+   "title": "Aluminé Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -38.91666667,
+   "lon": -71.13333333
+  },
+  "lake-araruama-lagoon": {
+   "title": "Araruama Lagoon",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -22.88,
+   "lon": -42.22
+  },
+  "lake-chapo-lake": {
+   "title": "Chapo Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": -41.45,
+   "lon": -72.5
+  },
+  "lake-cochrane-lake": {
+   "title": "Cochrane/Pueyrredón Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": -47.26666667,
+   "lon": -72.05
+  },
+  "lake-del-toro-lake": {
+   "title": "Del Toro Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -51.23333333,
+   "lon": -72.75
+  },
+  "lake-huechulafquen-lake": {
+   "title": "Huechulafquen Lake",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": -39.77,
+   "lon": -71.38
+  },
+  "lake-laguna-del-maule": {
+   "title": "Laguna del Maule",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -36.055,
+   "lon": -70.5
+  },
+  "lake-maihue-lake": {
+   "title": "Maihue Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -40.28333333,
+   "lon": -72.05
+  },
+  "lake-posadas-lake": {
+   "title": "Posadas Lake",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": -47.5,
+   "lon": -71.83333333
+  },
+  "lake-sarmiento-lake": {
+   "title": "Sarmiento Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -51.05,
+   "lon": -72.75
+  },
+  "lake-traful-lake": {
+   "title": "Traful Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": -40.63472222,
+   "lon": -71.42666667
+  },
+  "lake-yelcho-lake": {
+   "title": "Yelcho Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -43.3,
+   "lon": -72.3
   },
   "river-nile": {
    "title": "Nile",

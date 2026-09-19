@@ -2230,7 +2230,9 @@ globalThis.WORMILLION_THEMES = {
       'Koshkar-Ata', 'Tuzkan Lake', 'Ab-i Istada', 'Inder', 'Aralsor',
       'Lake Palas Tuzla',
       // add-theme.mjs
-      'North Aral Sea'
+      'North Aral Sea',
+      // 2026-09-19 expansion
+      'Laguna del Carbon', 'Lake Salinas', 'Coipasa Lake', 'Araruama Lagoon'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [

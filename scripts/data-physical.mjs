@@ -1682,6 +1682,38 @@ Lake Sasykkol|600
 Sorbulak|55
 Zeid Reservoir|465
 Lake Buyukcekmece|28.47
+Lake Guatavita|0.2
+Laguna del Carbon|9
+Lake O'Higgins|1013|San Martin Lake,Lago San Martin
+Nordenskjold Lake|28
+Brokopondo Reservoir|1560
+Itaipu Lake|1350|Itaipu Reservoir
+Guri Reservoir|3673.7|Guri Lake
+Lake Paranoa|48|Paranoa Lake
+Pirihueico Lake|30.4
+Billings Reservoir|127
+Guarapiranga|26.6
+San Rafael Lake|123
+Lake Salinas|61.82
+Presidente Rios Lake|352
+Coipasa Lake|806|Lake Coipasa
+Colbun Lake|57
+Laguna del Sauce|50
+Lake Lagunillas|64.9
+Rincon del Bonete Reservoir|1240|Rincon del Bonete Lake
+Tomine Reservoir|72
+Alumine Lake|57
+Araruama Lagoon|220
+Chapo Lake|45.3
+Cochrane Lake|325|Pueyrredon Lake
+Del Toro Lake|202
+Huechulafquen Lake|78.2
+Laguna del Maule|68
+Maihue Lake|47.2
+Posadas Lake|45.3
+Sarmiento Lake|86.2
+Traful Lake|71.5
+Yelcho Lake|116
 `;
 
 export const RIVERS = `

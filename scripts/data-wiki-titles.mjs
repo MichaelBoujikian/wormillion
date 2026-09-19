@@ -9780,7 +9780,19 @@ export const WIKI_TITLES = {
   "river-zamora": "Zamora River",
 
   // --- river (2026-09-19 expansion) ---
-  "river-rio-verde-paraguay": "Río Verde (Paraguay)"
+  "river-rio-verde-paraguay": "Río Verde (Paraguay)",
+
+  // --- lake (2026-09-19 expansion) ---
+  "lake-laguna-del-carbon": "Laguna del Carbón",
+  "lake-lake-o-higgins": "O'Higgins/San Martín Lake",
+  "lake-nordenskjold-lake": "Nordenskjöld Lake",
+  "lake-lake-paranoa": "Lake Paranoá",
+  "lake-presidente-rios-lake": "Presidente Ríos Lake",
+  "lake-colbun-lake": "Colbún Lake",
+  "lake-rincon-del-bonete-reservoir": "Rincón del Bonete Reservoir",
+  "lake-tomine-reservoir": "Tominé Reservoir",
+  "lake-alumine-lake": "Aluminé Lake",
+  "lake-cochrane-lake": "Cochrane/Pueyrredón Lake"
 };
 
 /**
