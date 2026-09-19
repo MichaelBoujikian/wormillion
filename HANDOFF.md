@@ -20,47 +20,46 @@ per wave) and SPEC §13; git log has the rest.
 # Start here (the next session, in order)
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
-   Canada wave + four cohorts of Eastern Europe + this file; 34 commits past
-   `main`). `npm test` → 210, `npm run validate` → 17,652, `npm run gap-check`
-   clean. Read "The job", "Where things stand", then "The loop".
-2. **Finish Eastern Europe.** Done and committed: rivers (`56345e6`), lakes
-   (`0e1401e`), mountains (`62f1ad8`), islands (`1dd1c79`), and the rivers /
-   lakes / mountains audit round (`c386a14`). To do, in order:
-   - **Seas**: the probe `probes/ee-seas.json` was stopped mid-views; re-run
-     `node scripts/expansion/probe.mjs scripts/expansion/probes/ee-seas.json`
-     (it resumes from `work/ee-seas-cache.json`), then `article-size.mjs
-     work/ee-seas.json --no-figure --min-views=213`, the probe again, `chunk
-     --tag=ee --themes="Europe" --min-views=213 --allow-no-figure`, **cut the
-     worldwide lists' foreign rows to the 21 countries** (the Mexico/Canada
-     seas report shows the cut and what it missed — a row whose description
-     is bare still belongs if its category is the wave's), fold, `--taken-only
-     --tag=ns-ee`, the Baltic / Black Sea / Adriatic bays' oceans are all
-     `Atlantic`, lagoons of lakes `[]`.
-   - **Deserts**: `probes/ee-deserts.json` (written, not run) — one small
-     chunk, theme `Europe`; Poland's Błędów Desert may already be in.
-   - **Cities**: write `probes/ee-cities.json` from `eu-cities.json` — the 21
-     national "List of cities in X" / "List of cities and towns in X by
-     population" pages, `listCountry` per list, floor 50,000, then `chunk
-     --tag=ee` and drop anything the fresh fetch puts under 91 views (the
-     city floor since 2026-09-18). Expect dense namesakes with Germany and
-     Austria (Neustadt…), "X Municipality" / "X County" doubles, and the
-     national capitals refused by the fold.
-   - **Audit** islands + seas + deserts + cities together (two Opus
-     auditors, `Workflow` `parallel()`, offline while a probe runs — the
-     prompts in this session's workflow scripts are the pattern:
-     `~/.claude/projects/…/workflows/scripts/`), apply, then the wave report
-     (`reports/2026-09-18-ee-wave.md` after `-mx-ca-wave.md`), this file.
-3. **Then East Asia** — the user's standing instruction (2026-09-18): once a
-   wave is folded, audited and its numbers checked, start the next area
-   without asking. China, Japan, the Koreas, Taiwan, Mongolia. Themes to
-   expect: rivers `Asia`(?) — check `src/data/themes.js` for the river /
-   lake / mountain theme names that exist (`Japan` and `Indonesia` are island
-   themes; `the Himalaya` a mountain one); `--sister=zh,ja,ko` for the
-   unsized (add the field names to `SISTER_FIELDS` in `article-size.mjs`:
-   长度 / 全長 / 길이 for km, 面积 / 面積 / 면적 for km², 海拔 / 標高 / 높이 for m
-   — and `sisterBoxOf` finds any template by field name, so no template
-   list is needed). China's rivers category is enormous: keep the 80 km
-   floor of the big countries.
+   Canada wave + the Eastern Europe wave + this file; 44 commits past
+   `main`). `npm test` → 212, `npm run validate` → 17,833, `npm run
+   gap-check` clean. Read "The job", "Where things stand", then "The loop".
+2. **The Eastern Europe wave is closed** (`reports/2026-09-18-ee-wave.md`:
+   rivers `56345e6`, lakes `0e1401e`, mountains `62f1ad8`, islands
+   `1dd1c79`, the rivers / lakes / mountains audit `c386a14`, seas `d0aa945`,
+   deserts `1e2ea42`, cities `18c0edc`, the islands / seas / deserts /
+   cities audit `f6faa4d`). Nothing of it is pending.
+3. **East Asia is in progress** — the user's standing instruction
+   (2026-09-18, twice: "move on to the next area without asking" and "if
+   you finish eastern europe you may move onto the next area"). China (with
+   Hong Kong and Macau), Japan, South Korea, North Korea, Taiwan, Mongolia.
+   The probe configs are written: `probes/ea-rivers-cn.json` (China +
+   Mongolia, 80 km, `noFigureViews` 122), `ea-rivers-jk.json` (Japan, the
+   Koreas, Taiwan, 60 km), `ea-lakes.json` (25 km²), `ea-mountains.json`
+   (20 lists, no floor, 122 views), `ea-islands.json` (1 km²),
+   `ea-seas.json` (213 views), `ea-deserts.json`, `ea-cities.json` (13
+   lists, 50,000; `listCountry` maps Hong Kong's list to China). Same loop
+   as Eastern Europe: probe → `article-size.mjs --no-figure
+   --sister=zh,ja,ko` (the field names are in `SISTER_FIELDS`; a comma is
+   a thousands mark on those three) → probe pass 2 → `chunk --tag=ea` →
+   hand-clean → fold → `--taken-only --tag=ns-ea` → pipeline → commit →
+   push; an Opus audit round per two or three cohorts; the wave report.
+   Things to expect: **themes** — rivers have no `Asia` / `China` / `Japan`
+   theme yet (only `Siberia` and `India`); create `river: 'China'` and
+   `river: 'Japan'` in `src/data/themes.js` with the incumbents (Yangtze,
+   Yellow River, Pearl River, Songhua…; Shinano, Tone, Ishikari…) before
+   the river chunk so `chunk --themes` has somewhere to put the rows —
+   `MIN_THEME_MEMBERS` applies; islands have `Japan`; mountains have `the
+   Himalayas` and `volcanoes`; seas `Asia`; deserts `Asia`. **Names**: the
+   bank keeps the enwiki title bare of "River" (Shinano, not Shinano River)
+   and the Chinese "X He" / "X Jiang" forms as aliases where the article
+   gives them. **Cities**: Chinese prefecture-level cities carry the whole
+   prefecture's population on Wikidata (the "administrative city" rule of
+   `data-cities.mjs` accepts it, as Chongqing's 30 M does); county-level
+   cities are real cities (Kunshan, Yiwu); "district" articles are not.
+   Japanese "designated cities" and "special wards" — the wards of Tokyo
+   are not cities. **Namesakes**: Chinese river names repeat across
+   provinces (Wu, Min, Han, Qing, Bai…) — the province is the qualifier;
+   Korean `Han River (Korea)` is already qualified in the bank.
 4. Release only when the user says so, by "The release procedure" below —
    a push to `main` deploys GitHub Pages and builds Netlify; it is never a
    routine push. `main` is still `v1.3-europe-wave` (14,901); everything
@@ -77,7 +76,7 @@ country by country, **every category per country**, "as many places as we
 can", in this order:
 
 > **United States ✓ → Western Europe + Scandinavia/Nordics ✓ → Mexico and
-> Canada ✓ → Eastern Europe → East Asia → West and Central Asia → South
+> Canada ✓ → Eastern Europe ✓ → East Asia → West and Central Asia → South
 > America → Central America → North Africa → South Asia → the rest of
 > Africa → islands.**
 
@@ -138,13 +137,16 @@ Standing decisions from the user, all in force:
 - **Mexico and Canada** (2026-09-18, `reports/2026-09-18-mx-ca-wave.md`):
   eight probes, five audit rounds, 15,429 → 16,891; the sister-wiki pass,
   province postal codes, the city views floor.
-- **Eastern Europe** (2026-09-18, in progress, `reports/2026-09-18-ee-*.md`):
-  the 21 countries the Europe wave left (Poland, Czechia, Slovakia, Hungary,
+- **Eastern Europe** (2026-09-18, `reports/2026-09-18-ee-wave.md`): the 21
+  countries the Europe wave left (Poland, Czechia, Slovakia, Hungary,
   Romania, Bulgaria, Moldova, Ukraine, Belarus, the Baltics, Slovenia,
   Croatia, Bosnia and Herzegovina, Serbia, Montenegro, Kosovo, North
-  Macedonia, Albania, Greece); Russia west of the Urals and Turkey's
-  European side deferred to their own passes (decided on the spot). Rivers,
-  lakes, mountains, islands done: 16,891 → 17,652.
+  Macedonia, Albania, Greece); eight probes, two audit rounds, 16,891 →
+  17,833; the multi-sister pass, the island-theme lesson (put every basin
+  island in), the fame guard's typing and region rules. Russia west of the
+  Urals and Turkey's European side deferred to their own passes.
+- **East Asia** (in progress): China, Japan, the Koreas, Taiwan, Mongolia;
+  `probes/ea-*.json`.
 
 ## What an Eastern European probe looks like (the shape of a wave)
 
@@ -170,13 +172,13 @@ Standing decisions from the user, all in force:
 
 # Where things stand
 
-**On `expansion-2` (HEAD `6de6a97`, 34 commits past `main`; bank 17,652,
-tests 210, validate and gap-check clean, `bank.js` 2.27 MB raw; 1,050
-entries carry a qualifier):** decision 5 + the Mexico and Canada wave (closed)
-+ Eastern Europe's rivers, lakes, mountains and islands (the first three
-audited; the islands not yet). `draw-diff.mjs main` 0 of 46 dailies draw
-differently. Reports: `scripts/expansion/reports/2026-09-18-*.md` (probe
-reports, audit reports, the Mexico/Canada wave summary).
+**On `expansion-2` (HEAD `f1ffe5d`+, 44 commits past `main`; bank 17,833,
+tests 212, validate and gap-check clean, `bank.js` 2.30 MB raw; 1,051
+entries carry a qualifier):** decision 5 + the Mexico and Canada wave + the
+Eastern Europe wave (both closed and audited) + East Asia's first probe.
+`draw-diff.mjs main` 0 of 46 dailies draw differently. Reports:
+`scripts/expansion/reports/2026-09-18-*.md` (probe reports, audit reports,
+the two wave summaries).
 
 **On `main` = tag `v1.3-europe-wave` (`8ecb7e5`) = what Pages and Netlify
 serve** since the 2026-09-18 01:25 UTC release (verified both hosts; see
@@ -187,10 +189,10 @@ serve** since the 2026-09-18 01:25 UTC release (verified both hosts; see
 | rivers | 4,809 | 80 km US & Canada / 60 km Europe & Mexico / 50 km Britain & Ireland, or 1,000+ views; **≥ 30 views**; unsized admitted at 30+ (Mexico) / 122+ (Canada), not in Europe | 1.54% | 75 |
 | lakes | 1,546 | 25 km² or 1,000+ views; **≥ 61 views** | 2.72% | 4 |
 | mountains | 3,008 | lists only, no elevation floor; **≥ 122 views** | 1.26% | 1 |
-| islands | 2,967 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | 2.12% | 567 |
-| seas | 682 | unsized at **≥ 213 views** | 1.61% | 380 |
-| deserts | 140 | — | 7.86% (the one physical cohort above the band) | 10 |
-| cities | 4,056 | 50,000 population (Wikidata P1082); **≥ 91 views** (since 2026-09-18) | 1.28% | — |
+| islands | 2,963 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | 2.13% | 566 |
+| seas | 708 | unsized at **≥ 213 views** | 1.55% | 398 |
+| deserts | 142 | — | 7.75% (the one physical cohort above the band) | 12 |
+| cities | 4,213 | 50,000 population (Wikidata P1082); **≥ 91 views** (since 2026-09-18) | 1.38% | — |
 | countries / capitals | 197 / 247 | fixed | 14% / 5% (small fixed cohorts, high by construction) | — |
 
 The views floors sit just above each cohort's flat bottom (the median of 60
@@ -211,7 +213,11 @@ before Asia's and Africa's deserts arrive; whether `size` 0 should count as
 of the sized cohort after the Balkans — every European peak is under 3,000
 m; a knob, not a bug); "Stara Planina" (the Balkan Mountains, a range, out by
 the standing rule) is corrected to Suva Planina; the Micronesia / "country
-with a T" note under "Open threads".
+with a T" note under "Open threads"; Greece (and Cyprus, Malta) has no
+sub-region in `data-countries.mjs`, so Greek cities refuse "Name a city in
+Eastern Europe" (a data-countries call: Eastern or a new Southern Europe);
+"Red Lagoon" (Laguna Colorada's alias) scores the Red Sea on a sea round
+through the lagoon filler (one typing; accepted as the price of the fix).
 
 ---
 
@@ -382,6 +388,40 @@ background (the Bash tool caps at 600 s).
   list is the payoff (Greenville was being scored as Grenville, Grenada).
 
 ## Lessons the waves paid for
+
+- **A basin theme takes every row of the basin, not a hand pick.** The
+  Eastern Europe islands chunk carried no theme column and 30 / 20 rows were
+  added to `Greece` / `the Mediterranean` by hand; the audit found 71 Greek
+  and 127 Mediterranean islands refused as "isn't in Greece / the
+  Mediterranean" — a false statement where the old bank said "unknown".
+  Rule: pass `--themes` to `chunk.mjs` for the region themes, and when a
+  theme is a sea basin or a country, put in every row whose coordinates or
+  description place it there (the 2026-09-17 Europe audit had said the same
+  for two rows). No views or size line separates a theme's members from the
+  rest of the cohort.
+- **The national category roots miss a basin's own tree.** The Black Sea's
+  limans live under `Estuaries of Ukraine` / `Bays of the Black Sea`, which
+  `Bays of Ukraine` never reaches; a second probe over the basin categories
+  found the Dnieper-Bug and Dniester Estuaries. For a coast, add the sea's
+  `Bays of the X Sea` / `Estuaries of` categories to the roots.
+- **Wikidata's figure can be the reserve's, the municipality's or a stale
+  census.** Sacalin Island carried the Sacalin-Zătoane reserve's 214 km²
+  (the island is 15); Lipjan carried its rural municipality's 56,643 (the
+  town is 13,092); Sombor a 2002 count. The article pass catches the
+  first class only when the infobox has a figure; the cities probe runs no
+  article pass at all — read the lead of any row whose figure looks like a
+  unit's, and of every "town and municipality" article.
+- **A qualified row's alias must be asked about as typed.** The fame guard
+  compared the *entry's bare name* with the other cohorts, so "Novomoskovsk"
+  (an alias only Samar (Ukraine) holds) was sent to the island Samar; and
+  its region clause treated an island (no `region`) as "outside" every
+  region, so "Rhodes" on a Europe round became the city. Both fixed with
+  tests (`78d0811`, `f6faa4d`).
+- **A new sea's alias can steal a famous city's loose form.** "Vlora Bay"
+  gave the bay the loose key "vlora", and "Vlora" (the city's own definite
+  form) was nudged to a 365-view bay; the city carries "Vlora" as an alias
+  now. When a new row's alias minus its filler is a famous name, give the
+  famous one the exact alias.
 
 - **The `taken` list is a wrong-article detector as well as the namesake
   backlog.** "X is the bank's X = <obscure article>" with a size mismatch
