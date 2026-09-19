@@ -11391,7 +11391,7 @@ Penghu|141|Pescadores
 Orchid Island|45|Lanyu
 Green Island (Taiwan)|16.2
 Xiaoliuqiu|6.8
-Guishan Island|2.85
+Guishan Island (Yilan)|2.85
 Cijin|1.46|Cijin Island
 Meizhou Island|14.35
 Pingtan|267.13|Pingtan Island
@@ -13050,6 +13050,148 @@ Velopoula|1.86
 Zeca|2.55
 Skarda|3.78
 Koufonisi (Crete)|5.25
+Chek Lap Kok|21.08|Chek Lap Kok Island
+Shamian|0.3|Shamian Island,Shameen
+Zhenbao Island|0.74|Damansky Island
+Nishinoshima (Ogasawara)|4.1
+Namiseom|0|Nami Island
+Bolshoy Ussuriysky Island|350|Heixiazi Island,Bolshoy Ussuriysky
+Manabeshima|1.49
+Wakasu|1.9
+Ap Lei Chau|1.3|Aberdeen Island
+Tsing Yi|10.69|Tsing Yi Island
+Tori-shima|4.79
+North Iwo Jima|5.57
+Shangchuan Island|137.3
+Ikeshima|1.08
+Minamidaitojima|30.57|Minami Daito
+South Iwo Jima|3.54
+Haijiao|0
+Mikimoto Pearl Island|0
+Rokko Island|5.8
+Basalt Island|0
+Kikaijima|56.93|Kikai Island
+Hachijo-kojima|3.07
+Port Island|4.36
+Sorokdo|4.46|Sorok Island
+Okishima|1.51
+Zhongshan Island|1055
+Fukue Island|326.45|Fukuejima
+Oshima (Hokkaido)|9.73
+Dogojima|241.58|Dogo Island
+Tarama|22
+Iojima|11.65
+Hengsha Island|49
+Iheya Island|20.66
+Mageshima|8.2|Mage Island
+Mikura-jima|20.58
+Tung Ping Chau|1.16
+Po Toi|3.69
+Rungrado|1.3|Rungra Island
+Xiachuan Island|0
+Yinlong Island|43.3
+Abagaitu Islet|58
+Awashima Island|9.86
+Chiburijima|13.7
+Dongji Island|1.77
+Hei Ling Chau|1.93
+Okidaitojima|1.19|Oki Daito
+Zhifu Island|11.5
+Aka Island|3.82
+Haixinsha Island|0|Haixinsha
+Hwanggumpyong Island|11.45
+Kashima Island|0
+Kitadaitojima|11.94|Kita Daito
+Megijima|2.67
+Nei Lingding Island|4.84
+Shikine-jima|3.67
+Suwanosejima|27.66|Suwanose Island
+Iotorishima|2.5
+Kuroshima|10.02
+Nanri Island|42.1
+Ogijima|1.34
+Shimoshima Island|574.01
+Takarajima|7.14
+Binlang Islet|0
+Daecheongdo|12.63|Daecheong Island
+Gadeokdo|0|Gadeok Island
+Ka Island|19.2
+Hauido|14.46|Haui Island
+Irabu Island|29.06
+Kamome Island|0
+Nakanoshima (Kagoshima)|34.47
+Nakanoshima (Shimane)|32.21
+Sotobanari|1.32
+Teuri Island|5.5
+Wihwa Island|11.2
+Byeongpungdo|0|Byeongpung Island
+Changzhou Island|8.5
+Kat O|2.35
+Double Island|2.13
+Engetsu Island|23.87
+Ersha Island|1.26
+Haidian Island|0
+Hashira Island|3.12
+Ikema Island|2.83
+Izena Island|15.44
+Kau Sai Chau|6.7
+Mishima Island|7.73
+Naru Island|23.82
+Pengjia Islet|1.14
+Sesoko Island|2.99
+Sharp Island|1
+Shimoji-shima|9.68
+Sobieto|0|Sobie Island
+Tap Mun|1.69
+Tsunoshima|4.1
+Tung Lung Chau|2.42
+Yagishiri Island|5.34
+Aguni Island|7.64
+Akusekijima|7.49
+Changxing Island|252.5
+Cheongsando|32.96|Cheongsan Island
+Daebudo|41.98|Daebu Island
+Donghai Island|289.5
+Gageodo|9.2|Gageo Island
+Kakarajima|2.83
+Kakeromajima|77.39
+Kodakarajima|1
+Kohama Island|7.86
+Kojima|1.54
+Kuchinoshima|13.33
+Nagashima Island|90.79
+Nantai Island|118.2
+Ninoshima|3.87
+Nishinoshima (Shimane)|55.97
+Notojima|46.78
+Shek Kwu Chau|1.19
+Shiraishi Island|2.86
+Soando|23.16|Soan Island
+Ukujima|24.93
+Yanggakdo|1.2|Yanggak Island
+Ozushima|4.77
+Dadeng Island|13
+Deokjeokdo|36|Deokjeok Island
+Genkai Island|1.14
+Guanzhou Island|1.8
+Hario Island|33.16
+Kamishima Island|225.32
+Kii Oshima|9.68
+Majishan|1.49
+Nakadori Island|168.34
+Naozhou Island|49.9
+Sijiao Island|21.2
+Sindo|6.92
+Sinmi Island|52
+Tai A Chau|1.2
+Tobishima|2.75
+Tsuken Island|1.88
+Xishan Island|79.8
+Yeongheungdo|23.46|Yeongheung Island
+Yushan Island|2.3
+Osakikamijima Island|38.27
+Oshima (Ehime)|41.9
+Guishan Island (Guangdong)|10
 `;
 
 export const SEAS_OCEANS = `

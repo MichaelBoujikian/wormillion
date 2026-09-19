@@ -1795,7 +1795,24 @@ globalThis.WORMILLION_THEMES = {
       'Rebun', 'Rishiri', 'Okushiri', 'Izu Islands', 'Izu Oshima',
       'Niijima', 'Kozushima', 'Miyakejima', 'Hachijojima', 'Aogashima',
       'Ogasawara Islands', 'Chichijima', 'Hahajima', 'Minamitorishima', 'Okinotorishima',
-      'Senkaku Islands'
+      'Senkaku Islands',
+      // 2026-09-19 expansion
+      'Nishinoshima (Ogasawara)', 'Manabeshima', 'Wakasu', 'Tori-shima', 'North Iwo Jima',
+      'Ikeshima', 'Minamidaitojima', 'South Iwo Jima', 'Mikimoto Pearl Island', 'Rokko Island',
+      'Kikaijima', 'Hachijo-kojima', 'Port Island', 'Okishima', 'Fukue Island',
+      'Oshima (Hokkaido)', 'Dogojima', 'Tarama', 'Iojima', 'Iheya Island',
+      'Mageshima', 'Mikura-jima', 'Awashima Island', 'Chiburijima', 'Okidaitojima',
+      'Aka Island', 'Kashima Island', 'Kitadaitojima', 'Megijima', 'Shikine-jima',
+      'Suwanosejima', 'Iotorishima', 'Kuroshima', 'Ogijima', 'Shimoshima Island',
+      'Takarajima', 'Irabu Island', 'Kamome Island', 'Nakanoshima (Kagoshima)', 'Nakanoshima (Shimane)',
+      'Sotobanari', 'Teuri Island', 'Engetsu Island', 'Hashira Island', 'Ikema Island',
+      'Izena Island', 'Mishima Island', 'Naru Island', 'Sesoko Island', 'Shimoji-shima',
+      'Sobieto', 'Tsunoshima', 'Yagishiri Island', 'Aguni Island', 'Akusekijima',
+      'Kakarajima', 'Kakeromajima', 'Kodakarajima', 'Kohama Island', 'Kojima',
+      'Kuchinoshima', 'Nagashima Island', 'Ninoshima', 'Nishinoshima (Shimane)', 'Notojima',
+      'Shiraishi Island', 'Ukujima', 'Ozushima', 'Genkai Island', 'Hario Island',
+      'Kamishima Island', 'Kii Oshima', 'Nakadori Island', 'Tobishima', 'Tsuken Island',
+      'Osakikamijima Island', 'Oshima (Ehime)'
     ],
     'Indonesia': [
       'Java', 'Sumatra', 'Borneo', 'Sulawesi', 'Bali', 'Lombok', 'Komodo',

@@ -2721,7 +2721,7 @@ export const WIKI_TITLES = {
   "island-putuoshan": "Mount Putuo",
   "island-chongming": "Chongming Island",
   "island-green-island-taiwan": "Green Island, Taiwan",
-  "island-guishan-island": "Guishan Island (Yilan)",
+  "island-guishan-island-yilan": "Guishan Island (Yilan)",
   "island-cijin": "Cijin District",
   "island-pingtan": "Pingtan Island",
   "island-weizhou": "Weizhou Island",
@@ -8761,7 +8761,46 @@ export const WIKI_TITLES = {
   "mountain-namsan-gyeongju": "Namsan (Gyeongju)",
   "mountain-devil-s-peak-hong-kong": "Devil's Peak, Hong Kong",
   // --- 2026-09-18 East Asia mountains: the Nyenchen Tanglha row is the 7,162 m peak (its article is Mount Nyenchen Tanglha, not the range); the Mount Kirishima row is the volcanic group article of that name, not a second pointer at Mount Karakuni ---
-  "mountain-nyenchen-tanglha": "Mount Nyenchen Tanglha"
+  "mountain-nyenchen-tanglha": "Mount Nyenchen Tanglha",
+
+  // --- island (2026-09-19 expansion) ---
+  "island-nishinoshima-ogasawara": "Nishinoshima (Ogasawara)",
+  "island-tori-shima": "Tori-shima (Izu Islands)",
+  "island-minamidaitojima": "Minamidaitōjima",
+  "island-rokko-island": "Rokkō Island",
+  "island-hachijo-kojima": "Hachijō-kojima",
+  "island-oshima-hokkaido": "Oshima (Hokkaido)",
+  "island-dogojima": "Dōgojima",
+  "island-tarama": "Tarama, Okinawa",
+  "island-iojima": "Iōjima (Kagoshima)",
+  "island-rungrado": "Rŭngrado",
+  "island-awashima-island": "Awashima Island, Niigata",
+  "island-okidaitojima": "Okidaitōjima",
+  "island-haixinsha-island": "Haixinsha Island (Tianhe District)",
+  "island-kitadaitojima": "Kitadaitōjima",
+  "island-iotorishima": "Iōtorishima",
+  "island-kuroshima": "Kuroshima (Okinawa)",
+  "island-shimoshima-island": "Shimoshima Island, Amakusa",
+  "island-nakanoshima-kagoshima": "Nakanoshima (Kagoshima)",
+  "island-nakanoshima-shimane": "Nakanoshima (Shimane)",
+  "island-double-island": "Double Island, Hong Kong",
+  "island-mishima-island": "Mishima Island, Yamaguchi",
+  "island-naru-island": "Naru Island (Japan)",
+  "island-changxing-island": "Changxing Island, Dalian",
+  "island-kojima": "Kojima (Hokkaido)",
+  "island-nagashima-island": "Nagashima Island, Kagoshima",
+  "island-nishinoshima-shimane": "Nishinoshima (Shimane)",
+  "island-ozushima": "Ōzushima",
+  "island-kamishima-island": "Kamishima Island, Amakusa",
+  "island-kii-oshima": "Kii Ōshima",
+  "island-nakadori-island": "Nakadōri Island",
+  "island-sindo": "Sindo (island)",
+  "island-tobishima": "Tobishima, Yamagata",
+  "island-osakikamijima-island": "Ōsakikamijima Island",
+  "island-oshima-ehime": "Ōshima (Ehime)",
+
+  // --- island (2026-09-19 expansion) ---
+  "island-guishan-island-guangdong": "Guishan Island (China)"
 };
 
 /**
@@ -9360,5 +9399,7 @@ export const WIKI_VERIFIED = new Set([
   "sea_ocean-kalamita-bay",
   "sea_ocean-dniester-estuary",
   // --- 2026-09-18 East Asia mountains: Wunu Mountain is the Goguryeo fortress mountain ("Landmass" by description) ---
-  "mountain-wunu-mountain"
+  "mountain-wunu-mountain",
+  // --- 2026-09-19 East Asia islands: Shiraishi Island (Okayama; "Place" by description) ---
+  "island-shiraishi-island"
 ]);

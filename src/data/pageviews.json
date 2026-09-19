@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T06:45:15.866Z",
+ "fetched": "2026-09-19T07:17:31.320Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -112151,7 +112151,7 @@
    "lat": 22.33864444,
    "lon": 120.36981667
   },
-  "island-guishan-island": {
+  "island-guishan-island-yilan": {
    "title": "Guishan Island (Yilan)",
    "monthlyViews": 487,
    "days": 60,
@@ -123763,6 +123763,1000 @@
    "days": 59,
    "lat": 34.937,
    "lon": 26.139
+  },
+  "island-chek-lap-kok": {
+   "title": "Chek Lap Kok",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 22.30530556,
+   "lon": 113.92183333
+  },
+  "island-shamian": {
+   "title": "Shamian",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 23.10944444,
+   "lon": 113.23944444
+  },
+  "island-zhenbao-island": {
+   "title": "Zhenbao Island",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 46.48555556,
+   "lon": 133.84444444
+  },
+  "island-nishinoshima-ogasawara": {
+   "title": "Nishinoshima (Ogasawara)",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 27.24694444,
+   "lon": 140.87444444
+  },
+  "island-namiseom": {
+   "title": "Namiseom",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 37.79,
+   "lon": 127.5258
+  },
+  "island-bolshoy-ussuriysky-island": {
+   "title": "Bolshoy Ussuriysky Island",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 48.36138889,
+   "lon": 134.81388889
+  },
+  "island-manabeshima": {
+   "title": "Manabeshima",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 34.35513889,
+   "lon": 133.57858333
+  },
+  "island-wakasu": {
+   "title": "Wakasu",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 35.61666667,
+   "lon": 139.83333333
+  },
+  "island-ap-lei-chau": {
+   "title": "Ap Lei Chau",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 22.24166667,
+   "lon": 114.15555556
+  },
+  "island-tsing-yi": {
+   "title": "Tsing Yi",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 22.34555556,
+   "lon": 114.1
+  },
+  "island-tori-shima": {
+   "title": "Tori-shima (Izu Islands)",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 30.48388889,
+   "lon": 140.30305556
+  },
+  "island-north-iwo-jima": {
+   "title": "North Iwo Jima",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 25.43472222,
+   "lon": 141.28083333
+  },
+  "island-shangchuan-island": {
+   "title": "Shangchuan Island",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 21.66527778,
+   "lon": 112.79555556
+  },
+  "island-ikeshima": {
+   "title": "Ikeshima",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 32.88383333,
+   "lon": 129.59580556
+  },
+  "island-minamidaitojima": {
+   "title": "Minamidaitōjima",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-south-iwo-jima": {
+   "title": "South Iwo Jima",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 25.43472222,
+   "lon": 141.28083333
+  },
+  "island-haijiao": {
+   "title": "Haijiao",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 30.735,
+   "lon": 123.15666667
+  },
+  "island-mikimoto-pearl-island": {
+   "title": "Mikimoto Pearl Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 34.48333333,
+   "lon": 136.84694444
+  },
+  "island-rokko-island": {
+   "title": "Rokkō Island",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 34.68333333,
+   "lon": 135.26666667
+  },
+  "island-basalt-island": {
+   "title": "Basalt Island",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 22.31578,
+   "lon": 114.36562
+  },
+  "island-kikaijima": {
+   "title": "Kikaijima",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 28.32638889,
+   "lon": 129.97416667
+  },
+  "island-hachijo-kojima": {
+   "title": "Hachijō-kojima",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-port-island": {
+   "title": "Port Island",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.66666667,
+   "lon": 135.21666667
+  },
+  "island-sorokdo": {
+   "title": "Sorokdo",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.5,
+   "lon": 127.11666667
+  },
+  "island-okishima": {
+   "title": "Okishima",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.20777778,
+   "lon": 136.06416667
+  },
+  "island-zhongshan-island": {
+   "title": "Zhongshan Island",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 22.199,
+   "lon": 113.546
+  },
+  "island-fukue-island": {
+   "title": "Fukue Island",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 32.68333333,
+   "lon": 128.75
+  },
+  "island-oshima-hokkaido": {
+   "title": "Oshima (Hokkaido)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 41.5,
+   "lon": 139.38333333
+  },
+  "island-dogojima": {
+   "title": "Dōgojima",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 36.23333333,
+   "lon": 133.28333333
+  },
+  "island-tarama": {
+   "title": "Tarama, Okinawa",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 24.66944444,
+   "lon": 124.70166667
+  },
+  "island-iojima": {
+   "title": "Iōjima (Kagoshima)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 30.79083333,
+   "lon": 130.29611111
+  },
+  "island-hengsha-island": {
+   "title": "Hengsha Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 31.34316667,
+   "lon": 121.84333333
+  },
+  "island-iheya-island": {
+   "title": "Iheya Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 27.052,
+   "lon": 127.975
+  },
+  "island-mageshima": {
+   "title": "Mageshima",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-mikura-jima": {
+   "title": "Mikura-jima",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-tung-ping-chau": {
+   "title": "Tung Ping Chau",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 22.54333333,
+   "lon": 114.43055556
+  },
+  "island-po-toi": {
+   "title": "Po Toi",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 22.16911111,
+   "lon": 114.26338889
+  },
+  "island-rungrado": {
+   "title": "Rŭngrado",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 39.04444444,
+   "lon": 125.76944444
+  },
+  "island-xiachuan-island": {
+   "title": "Xiachuan Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 21.65,
+   "lon": 112.6
+  },
+  "island-yinlong-island": {
+   "title": "Yinlong Island",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 48.37888889,
+   "lon": 134.52027778
+  },
+  "island-abagaitu-islet": {
+   "title": "Abagaitu Islet",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 49.55857,
+   "lon": 117.898364
+  },
+  "island-awashima-island": {
+   "title": "Awashima Island, Niigata",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-chiburijima": {
+   "title": "Chiburijima",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.01666667,
+   "lon": 133.03333333
+  },
+  "island-dongji-island": {
+   "title": "Dongji Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 23.25159722,
+   "lon": 119.67261389
+  },
+  "island-hei-ling-chau": {
+   "title": "Hei Ling Chau",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 22.2525,
+   "lon": 114.04027778
+  },
+  "island-okidaitojima": {
+   "title": "Okidaitōjima",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-zhifu-island": {
+   "title": "Zhifu Island",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-aka-island": {
+   "title": "Aka Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 26.199002,
+   "lon": 127.280556
+  },
+  "island-haixinsha-island": {
+   "title": "Haixinsha Island (Tianhe District)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 23.11388889,
+   "lon": 113.31972222
+  },
+  "island-hwanggumpyong-island": {
+   "title": "Hwanggumpyong Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 39.96,
+   "lon": 124.31
+  },
+  "island-kashima-island": {
+   "title": "Kashima Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 33.9743,
+   "lon": 132.7644
+  },
+  "island-kitadaitojima": {
+   "title": "Kitadaitōjima",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-megijima": {
+   "title": "Megijima",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.39527778,
+   "lon": 134.05
+  },
+  "island-nei-lingding-island": {
+   "title": "Nei Lingding Island",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 22.41277778,
+   "lon": 113.80361111
+  },
+  "island-shikine-jima": {
+   "title": "Shikine-jima",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.32611111,
+   "lon": 139.21
+  },
+  "island-suwanosejima": {
+   "title": "Suwanosejima",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-iotorishima": {
+   "title": "Iōtorishima",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 27.8711,
+   "lon": 128.2269
+  },
+  "island-kuroshima": {
+   "title": "Kuroshima (Okinawa)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 24.23333333,
+   "lon": 124.01666667
+  },
+  "island-nanri-island": {
+   "title": "Nanri Island",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 25.202288,
+   "lon": 119.498077
+  },
+  "island-ogijima": {
+   "title": "Ogijima",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.42833333,
+   "lon": 134.06111111
+  },
+  "island-shimoshima-island": {
+   "title": "Shimoshima Island, Amakusa",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 32.43638889,
+   "lon": 130.08361111
+  },
+  "island-takarajima": {
+   "title": "Takarajima",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-binlang-islet": {
+   "title": "Binlang Islet",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 24.43666667,
+   "lon": 118.19888889
+  },
+  "island-daecheongdo": {
+   "title": "Daecheongdo",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.825,
+   "lon": 124.7
+  },
+  "island-gadeokdo": {
+   "title": "Gadeokdo",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.03,
+   "lon": 128.83
+  },
+  "island-ka-island": {
+   "title": "Ka Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.548484,
+   "lon": 124.666258
+  },
+  "island-hauido": {
+   "title": "Hauido",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.59944444,
+   "lon": 126.0375
+  },
+  "island-irabu-island": {
+   "title": "Irabu Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-kamome-island": {
+   "title": "Kamome Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.867781,
+   "lon": 140.1143
+  },
+  "island-nakanoshima-kagoshima": {
+   "title": "Nakanoshima (Kagoshima)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-nakanoshima-shimane": {
+   "title": "Nakanoshima (Shimane)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.08333333,
+   "lon": 133.1
+  },
+  "island-sotobanari": {
+   "title": "Sotobanari",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 24.37305556,
+   "lon": 123.71611111
+  },
+  "island-teuri-island": {
+   "title": "Teuri Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 44.41666667,
+   "lon": 141.3
+  },
+  "island-wihwa-island": {
+   "title": "Wihwa Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.137,
+   "lon": 124.446
+  },
+  "island-byeongpungdo": {
+   "title": "Byeongpungdo",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 34.148871,
+   "lon": 125.9435084
+  },
+  "island-changzhou-island": {
+   "title": "Changzhou Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 23.08111111,
+   "lon": 113.41333333
+  },
+  "island-kat-o": {
+   "title": "Kat O",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 22.54111111,
+   "lon": 114.29552778
+  },
+  "island-double-island": {
+   "title": "Double Island, Hong Kong",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 22.5125,
+   "lon": 114.31027778
+  },
+  "island-engetsu-island": {
+   "title": "Engetsu Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-ersha-island": {
+   "title": "Ersha Island",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 23.1125,
+   "lon": 113.3
+  },
+  "island-haidian-island": {
+   "title": "Haidian Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 20.04277778,
+   "lon": 110.34166667
+  },
+  "island-hashira-island": {
+   "title": "Hashira Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-ikema-island": {
+   "title": "Ikema Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-izena-island": {
+   "title": "Izena Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-kau-sai-chau": {
+   "title": "Kau Sai Chau",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 22.35972222,
+   "lon": 114.31416667
+  },
+  "island-mishima-island": {
+   "title": "Mishima Island, Yamaguchi",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-naru-island": {
+   "title": "Naru Island (Japan)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 32.81666667,
+   "lon": 128.93333333
+  },
+  "island-pengjia-islet": {
+   "title": "Pengjia Islet",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 25.62944444,
+   "lon": 122.07138889
+  },
+  "island-sesoko-island": {
+   "title": "Sesoko Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 26.644,
+   "lon": 127.864
+  },
+  "island-sharp-island": {
+   "title": "Sharp Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 22.36071,
+   "lon": 114.29523
+  },
+  "island-shimoji-shima": {
+   "title": "Shimoji-shima",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 24.819,
+   "lon": 125.154
+  },
+  "island-sobieto": {
+   "title": "Sobieto",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 33.50875,
+   "lon": 135.55211
+  },
+  "island-tap-mun": {
+   "title": "Tap Mun",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 22.47638889,
+   "lon": 114.3625
+  },
+  "island-tsunoshima": {
+   "title": "Tsunoshima",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 34.35,
+   "lon": 130.86666667
+  },
+  "island-tung-lung-chau": {
+   "title": "Tung Lung Chau",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 22.24916667,
+   "lon": 114.28972222
+  },
+  "island-yagishiri-island": {
+   "title": "Yagishiri Island",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.43333333,
+   "lon": 141.4
+  },
+  "island-aguni-island": {
+   "title": "Aguni Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 26.58077,
+   "lon": 127.23532
+  },
+  "island-akusekijima": {
+   "title": "Akusekijima",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-changxing-island": {
+   "title": "Changxing Island, Dalian",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 39.58083333,
+   "lon": 121.3875
+  },
+  "island-cheongsando": {
+   "title": "Cheongsando",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-daebudo": {
+   "title": "Daebudo",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.26666667,
+   "lon": 126.58333333
+  },
+  "island-donghai-island": {
+   "title": "Donghai Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 21.01527778,
+   "lon": 110.38611111
+  },
+  "island-gageodo": {
+   "title": "Gageodo",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.07138889,
+   "lon": 125.11305556
+  },
+  "island-kakarajima": {
+   "title": "Kakarajima",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 33.6,
+   "lon": 129.86666667
+  },
+  "island-kakeromajima": {
+   "title": "Kakeromajima",
+   "monthlyViews": 122,
+   "days": 45,
+   "lat": 28.12472222,
+   "lon": 129.24472222
+  },
+  "island-kodakarajima": {
+   "title": "Kodakarajima",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 29.22388889,
+   "lon": 129.3275
+  },
+  "island-kohama-island": {
+   "title": "Kohama Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.34166667,
+   "lon": 123.97916667
+  },
+  "island-kojima": {
+   "title": "Kojima (Hokkaido)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.35944444,
+   "lon": 139.805
+  },
+  "island-kuchinoshima": {
+   "title": "Kuchinoshima",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-nagashima-island": {
+   "title": "Nagashima Island, Kagoshima",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.15,
+   "lon": 130.15
+  },
+  "island-nantai-island": {
+   "title": "Nantai Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 26.037,
+   "lon": 119.329
+  },
+  "island-ninoshima": {
+   "title": "Ninoshima",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.3,
+   "lon": 132.43333333
+  },
+  "island-nishinoshima-shimane": {
+   "title": "Nishinoshima (Shimane)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.1,
+   "lon": 133
+  },
+  "island-notojima": {
+   "title": "Notojima",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.125,
+   "lon": 136.99638889
+  },
+  "island-shek-kwu-chau": {
+   "title": "Shek Kwu Chau",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 22.19555556,
+   "lon": 113.98777778
+  },
+  "island-shiraishi-island": {
+   "title": "Shiraishi Island",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.40277778,
+   "lon": 133.52166667
+  },
+  "island-soando": {
+   "title": "Soando",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 34.146,
+   "lon": 126.652
+  },
+  "island-ukujima": {
+   "title": "Ukujima",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 33.26972222,
+   "lon": 129.11277778
+  },
+  "island-yanggakdo": {
+   "title": "Yanggakdo",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.99893333,
+   "lon": 125.75115278
+  },
+  "island-ozushima": {
+   "title": "Ōzushima",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.005,
+   "lon": 131.7075
+  },
+  "island-dadeng-island": {
+   "title": "Dadeng Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 24.5592,
+   "lon": 118.3208
+  },
+  "island-deokjeokdo": {
+   "title": "Deokjeokdo",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 37.24277778,
+   "lon": 126.13111111
+  },
+  "island-genkai-island": {
+   "title": "Genkai Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-guanzhou-island": {
+   "title": "Guanzhou Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 23.06833333,
+   "lon": 113.36944444
+  },
+  "island-hario-island": {
+   "title": "Hario Island",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "island-kamishima-island": {
+   "title": "Kamishima Island, Amakusa",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 32.43333333,
+   "lon": 130.33333333
+  },
+  "island-kii-oshima": {
+   "title": "Kii Ōshima",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 33.46805556,
+   "lon": 135.82805556
+  },
+  "island-majishan": {
+   "title": "Majishan",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 30.6794,
+   "lon": 122.4178
+  },
+  "island-nakadori-island": {
+   "title": "Nakadōri Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 32.98333333,
+   "lon": 129.08333333
+  },
+  "island-naozhou-island": {
+   "title": "Naozhou Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 20.907,
+   "lon": 110.595
+  },
+  "island-sijiao-island": {
+   "title": "Sijiao Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 30.71222222,
+   "lon": 122.45055556
+  },
+  "island-sindo": {
+   "title": "Sindo (island)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 37.53333333,
+   "lon": 126.45
+  },
+  "island-sinmi-island": {
+   "title": "Sinmi Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 39.56666667,
+   "lon": 124.88333333
+  },
+  "island-tai-a-chau": {
+   "title": "Tai A Chau",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 22.16138889,
+   "lon": 113.90833333
+  },
+  "island-tobishima": {
+   "title": "Tobishima, Yamagata",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-tsuken-island": {
+   "title": "Tsuken Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 26.25055556,
+   "lon": 127.94194444
+  },
+  "island-xishan-island": {
+   "title": "Xishan Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 31.12126,
+   "lon": 120.2781
+  },
+  "island-yeongheungdo": {
+   "title": "Yeongheungdo",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 37.26666667,
+   "lon": 126.46666667
+  },
+  "island-yushan-island": {
+   "title": "Yushan Island",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 28.88416667,
+   "lon": 122.26805556
+  },
+  "island-osakikamijima-island": {
+   "title": "Ōsakikamijima Island",
+   "monthlyViews": 91,
+   "days": 6,
+   "lat": 34.24527778,
+   "lon": 132.89472222
+  },
+  "island-oshima-ehime": {
+   "title": "Ōshima (Ehime)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "island-guishan-island-guangdong": {
+   "title": "Guishan Island (China)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 22.13416667,
+   "lon": 113.82777778
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

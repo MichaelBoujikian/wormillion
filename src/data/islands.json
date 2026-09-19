@@ -22916,13 +22916,14 @@
   ]
  },
  {
-  "id": "island-guishan-island",
+  "id": "island-guishan-island-yilan",
   "category": "island",
   "name": "Guishan Island",
   "aliases": [],
   "size": 2.85,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Guishan Island (Yilan)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Yilan",
   "magnitude": 487,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Guishan Island (Yilan)",
@@ -50606,6 +50607,2407 @@
   "lon": 26.139,
   "oceans": [
    "Atlantic"
+  ]
+ },
+ {
+  "id": "island-chek-lap-kok",
+  "category": "island",
+  "name": "Chek Lap Kok",
+  "aliases": [
+   "Chek Lap Kok Island"
+  ],
+  "size": 21.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chek Lap Kok\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2344,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chek Lap Kok",
+  "lat": 22.30530556,
+  "lon": 113.92183333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-shamian",
+  "category": "island",
+  "name": "Shamian",
+  "aliases": [
+   "Shamian Island",
+   "Shameen"
+  ],
+  "size": 0.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shamian\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shamian",
+  "lat": 23.10944444,
+  "lon": 113.23944444,
+  "oceans": []
+ },
+ {
+  "id": "island-zhenbao-island",
+  "category": "island",
+  "name": "Zhenbao Island",
+  "aliases": [
+   "Damansky Island"
+  ],
+  "size": 0.74,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zhenbao Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zhenbao Island",
+  "lat": 46.48555556,
+  "lon": 133.84444444,
+  "oceans": []
+ },
+ {
+  "id": "island-nishinoshima-ogasawara",
+  "category": "island",
+  "name": "Nishinoshima",
+  "aliases": [],
+  "size": 4.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nishinoshima (Ogasawara)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Ogasawara",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nishinoshima (Ogasawara)",
+  "lat": 27.24694444,
+  "lon": 140.87444444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-namiseom",
+  "category": "island",
+  "name": "Namiseom",
+  "aliases": [
+   "Nami Island"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Namiseom\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1096,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Namiseom",
+  "lat": 37.79,
+  "lon": 127.5258,
+  "oceans": []
+ },
+ {
+  "id": "island-bolshoy-ussuriysky-island",
+  "category": "island",
+  "name": "Bolshoy Ussuriysky Island",
+  "aliases": [
+   "Heixiazi Island",
+   "Bolshoy Ussuriysky"
+  ],
+  "size": 350,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bolshoy Ussuriysky Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1035,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bolshoy Ussuriysky Island",
+  "lat": 48.36138889,
+  "lon": 134.81388889,
+  "oceans": []
+ },
+ {
+  "id": "island-manabeshima",
+  "category": "island",
+  "name": "Manabeshima",
+  "aliases": [],
+  "size": 1.49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Manabeshima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manabeshima",
+  "lat": 34.35513889,
+  "lon": 133.57858333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-wakasu",
+  "category": "island",
+  "name": "Wakasu",
+  "aliases": [],
+  "size": 1.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wakasu\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wakasu",
+  "lat": 35.61666667,
+  "lon": 139.83333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-ap-lei-chau",
+  "category": "island",
+  "name": "Ap Lei Chau",
+  "aliases": [
+   "Aberdeen Island"
+  ],
+  "size": 1.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ap Lei Chau\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ap Lei Chau",
+  "lat": 22.24166667,
+  "lon": 114.15555556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tsing-yi",
+  "category": "island",
+  "name": "Tsing Yi",
+  "aliases": [
+   "Tsing Yi Island"
+  ],
+  "size": 10.69,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tsing Yi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tsing Yi",
+  "lat": 22.34555556,
+  "lon": 114.1,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tori-shima",
+  "category": "island",
+  "name": "Tori-shima",
+  "aliases": [],
+  "size": 4.79,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tori-shima (Izu Islands)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tori-shima (Izu Islands)",
+  "lat": 30.48388889,
+  "lon": 140.30305556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-north-iwo-jima",
+  "category": "island",
+  "name": "North Iwo Jima",
+  "aliases": [],
+  "size": 5.57,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"North Iwo Jima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "North Iwo Jima",
+  "lat": 25.43472222,
+  "lon": 141.28083333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-shangchuan-island",
+  "category": "island",
+  "name": "Shangchuan Island",
+  "aliases": [],
+  "size": 137.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shangchuan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shangchuan Island",
+  "lat": 21.66527778,
+  "lon": 112.79555556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-ikeshima",
+  "category": "island",
+  "name": "Ikeshima",
+  "aliases": [],
+  "size": 1.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ikeshima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ikeshima",
+  "lat": 32.88383333,
+  "lon": 129.59580556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-minamidaitojima",
+  "category": "island",
+  "name": "Minamidaitojima",
+  "aliases": [
+   "Minami Daito"
+  ],
+  "size": 30.57,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Minamidaitōjima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Minamidaitōjima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-south-iwo-jima",
+  "category": "island",
+  "name": "South Iwo Jima",
+  "aliases": [],
+  "size": 3.54,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"South Iwo Jima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "South Iwo Jima",
+  "lat": 25.43472222,
+  "lon": 141.28083333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-haijiao",
+  "category": "island",
+  "name": "Haijiao",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Haijiao\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Haijiao",
+  "lat": 30.735,
+  "lon": 123.15666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-mikimoto-pearl-island",
+  "category": "island",
+  "name": "Mikimoto Pearl Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mikimoto Pearl Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mikimoto Pearl Island",
+  "lat": 34.48333333,
+  "lon": 136.84694444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-rokko-island",
+  "category": "island",
+  "name": "Rokko Island",
+  "aliases": [],
+  "size": 5.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rokkō Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rokkō Island",
+  "lat": 34.68333333,
+  "lon": 135.26666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-basalt-island",
+  "category": "island",
+  "name": "Basalt Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Basalt Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Basalt Island",
+  "lat": 22.31578,
+  "lon": 114.36562,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kikaijima",
+  "category": "island",
+  "name": "Kikaijima",
+  "aliases": [
+   "Kikai Island"
+  ],
+  "size": 56.93,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kikaijima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kikaijima",
+  "lat": 28.32638889,
+  "lon": 129.97416667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hachijo-kojima",
+  "category": "island",
+  "name": "Hachijo-kojima",
+  "aliases": [],
+  "size": 3.07,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hachijō-kojima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hachijō-kojima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-port-island",
+  "category": "island",
+  "name": "Port Island",
+  "aliases": [],
+  "size": 4.36,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Port Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Port Island",
+  "lat": 34.66666667,
+  "lon": 135.21666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sorokdo",
+  "category": "island",
+  "name": "Sorokdo",
+  "aliases": [
+   "Sorok Island"
+  ],
+  "size": 4.46,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sorokdo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sorokdo",
+  "lat": 34.5,
+  "lon": 127.11666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-okishima",
+  "category": "island",
+  "name": "Okishima",
+  "aliases": [],
+  "size": 1.51,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Okishima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Okishima",
+  "lat": 35.20777778,
+  "lon": 136.06416667,
+  "oceans": []
+ },
+ {
+  "id": "island-zhongshan-island",
+  "category": "island",
+  "name": "Zhongshan Island",
+  "aliases": [],
+  "size": 1055,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zhongshan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zhongshan Island",
+  "lat": 22.199,
+  "lon": 113.546,
+  "oceans": []
+ },
+ {
+  "id": "island-fukue-island",
+  "category": "island",
+  "name": "Fukue Island",
+  "aliases": [
+   "Fukuejima"
+  ],
+  "size": 326.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Fukue Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Fukue Island",
+  "lat": 32.68333333,
+  "lon": 128.75,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-oshima-hokkaido",
+  "category": "island",
+  "name": "Oshima",
+  "aliases": [],
+  "size": 9.73,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oshima (Hokkaido)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Hokkaido",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oshima (Hokkaido)",
+  "lat": 41.5,
+  "lon": 139.38333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-dogojima",
+  "category": "island",
+  "name": "Dogojima",
+  "aliases": [
+   "Dogo Island"
+  ],
+  "size": 241.58,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dōgojima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dōgojima",
+  "lat": 36.23333333,
+  "lon": 133.28333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tarama",
+  "category": "island",
+  "name": "Tarama",
+  "aliases": [],
+  "size": 22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tarama, Okinawa\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tarama, Okinawa",
+  "lat": 24.66944444,
+  "lon": 124.70166667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-iojima",
+  "category": "island",
+  "name": "Iojima",
+  "aliases": [],
+  "size": 11.65,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Iōjima (Kagoshima)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iōjima (Kagoshima)",
+  "lat": 30.79083333,
+  "lon": 130.29611111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hengsha-island",
+  "category": "island",
+  "name": "Hengsha Island",
+  "aliases": [],
+  "size": 49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hengsha Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hengsha Island",
+  "lat": 31.34316667,
+  "lon": 121.84333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-iheya-island",
+  "category": "island",
+  "name": "Iheya Island",
+  "aliases": [],
+  "size": 20.66,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Iheya Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iheya Island",
+  "lat": 27.052,
+  "lon": 127.975,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-mageshima",
+  "category": "island",
+  "name": "Mageshima",
+  "aliases": [
+   "Mage Island"
+  ],
+  "size": 8.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mageshima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mageshima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-mikura-jima",
+  "category": "island",
+  "name": "Mikura-jima",
+  "aliases": [],
+  "size": 20.58,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mikura-jima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mikura-jima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tung-ping-chau",
+  "category": "island",
+  "name": "Tung Ping Chau",
+  "aliases": [],
+  "size": 1.16,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tung Ping Chau\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tung Ping Chau",
+  "lat": 22.54333333,
+  "lon": 114.43055556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-po-toi",
+  "category": "island",
+  "name": "Po Toi",
+  "aliases": [],
+  "size": 3.69,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Po Toi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Po Toi",
+  "lat": 22.16911111,
+  "lon": 114.26338889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-rungrado",
+  "category": "island",
+  "name": "Rungrado",
+  "aliases": [
+   "Rungra Island"
+  ],
+  "size": 1.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rŭngrado\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rŭngrado",
+  "lat": 39.04444444,
+  "lon": 125.76944444,
+  "oceans": []
+ },
+ {
+  "id": "island-xiachuan-island",
+  "category": "island",
+  "name": "Xiachuan Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Xiachuan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Xiachuan Island",
+  "lat": 21.65,
+  "lon": 112.6,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-yinlong-island",
+  "category": "island",
+  "name": "Yinlong Island",
+  "aliases": [],
+  "size": 43.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yinlong Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yinlong Island",
+  "lat": 48.37888889,
+  "lon": 134.52027778,
+  "oceans": []
+ },
+ {
+  "id": "island-abagaitu-islet",
+  "category": "island",
+  "name": "Abagaitu Islet",
+  "aliases": [],
+  "size": 58,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Abagaitu Islet\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abagaitu Islet",
+  "lat": 49.55857,
+  "lon": 117.898364,
+  "oceans": []
+ },
+ {
+  "id": "island-awashima-island",
+  "category": "island",
+  "name": "Awashima Island",
+  "aliases": [],
+  "size": 9.86,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Awashima Island, Niigata\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Awashima Island, Niigata",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-chiburijima",
+  "category": "island",
+  "name": "Chiburijima",
+  "aliases": [],
+  "size": 13.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chiburijima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chiburijima",
+  "lat": 36.01666667,
+  "lon": 133.03333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-dongji-island",
+  "category": "island",
+  "name": "Dongji Island",
+  "aliases": [],
+  "size": 1.77,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dongji Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dongji Island",
+  "lat": 23.25159722,
+  "lon": 119.67261389,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hei-ling-chau",
+  "category": "island",
+  "name": "Hei Ling Chau",
+  "aliases": [],
+  "size": 1.93,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hei Ling Chau\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hei Ling Chau",
+  "lat": 22.2525,
+  "lon": 114.04027778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-okidaitojima",
+  "category": "island",
+  "name": "Okidaitojima",
+  "aliases": [
+   "Oki Daito"
+  ],
+  "size": 1.19,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Okidaitōjima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Okidaitōjima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-zhifu-island",
+  "category": "island",
+  "name": "Zhifu Island",
+  "aliases": [],
+  "size": 11.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zhifu Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zhifu Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-aka-island",
+  "category": "island",
+  "name": "Aka Island",
+  "aliases": [],
+  "size": 3.82,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aka Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aka Island",
+  "lat": 26.199002,
+  "lon": 127.280556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-haixinsha-island",
+  "category": "island",
+  "name": "Haixinsha Island",
+  "aliases": [
+   "Haixinsha"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Haixinsha Island (Tianhe District)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Haixinsha Island (Tianhe District)",
+  "lat": 23.11388889,
+  "lon": 113.31972222,
+  "oceans": []
+ },
+ {
+  "id": "island-hwanggumpyong-island",
+  "category": "island",
+  "name": "Hwanggumpyong Island",
+  "aliases": [],
+  "size": 11.45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hwanggumpyong Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hwanggumpyong Island",
+  "lat": 39.96,
+  "lon": 124.31,
+  "oceans": []
+ },
+ {
+  "id": "island-kashima-island",
+  "category": "island",
+  "name": "Kashima Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kashima Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kashima Island",
+  "lat": 33.9743,
+  "lon": 132.7644,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kitadaitojima",
+  "category": "island",
+  "name": "Kitadaitojima",
+  "aliases": [
+   "Kita Daito"
+  ],
+  "size": 11.94,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kitadaitōjima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kitadaitōjima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-megijima",
+  "category": "island",
+  "name": "Megijima",
+  "aliases": [],
+  "size": 2.67,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Megijima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Megijima",
+  "lat": 34.39527778,
+  "lon": 134.05,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-nei-lingding-island",
+  "category": "island",
+  "name": "Nei Lingding Island",
+  "aliases": [],
+  "size": 4.84,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nei Lingding Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nei Lingding Island",
+  "lat": 22.41277778,
+  "lon": 113.80361111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-shikine-jima",
+  "category": "island",
+  "name": "Shikine-jima",
+  "aliases": [],
+  "size": 3.67,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shikine-jima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shikine-jima",
+  "lat": 34.32611111,
+  "lon": 139.21,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-suwanosejima",
+  "category": "island",
+  "name": "Suwanosejima",
+  "aliases": [
+   "Suwanose Island"
+  ],
+  "size": 27.66,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Suwanosejima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Suwanosejima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-iotorishima",
+  "category": "island",
+  "name": "Iotorishima",
+  "aliases": [],
+  "size": 2.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Iōtorishima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iōtorishima",
+  "lat": 27.8711,
+  "lon": 128.2269,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kuroshima",
+  "category": "island",
+  "name": "Kuroshima",
+  "aliases": [],
+  "size": 10.02,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kuroshima (Okinawa)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kuroshima (Okinawa)",
+  "lat": 24.23333333,
+  "lon": 124.01666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-nanri-island",
+  "category": "island",
+  "name": "Nanri Island",
+  "aliases": [],
+  "size": 42.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nanri Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nanri Island",
+  "lat": 25.202288,
+  "lon": 119.498077,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-ogijima",
+  "category": "island",
+  "name": "Ogijima",
+  "aliases": [],
+  "size": 1.34,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ogijima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ogijima",
+  "lat": 34.42833333,
+  "lon": 134.06111111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-shimoshima-island",
+  "category": "island",
+  "name": "Shimoshima Island",
+  "aliases": [],
+  "size": 574.01,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shimoshima Island, Amakusa\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shimoshima Island, Amakusa",
+  "lat": 32.43638889,
+  "lon": 130.08361111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-takarajima",
+  "category": "island",
+  "name": "Takarajima",
+  "aliases": [],
+  "size": 7.14,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Takarajima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Takarajima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-binlang-islet",
+  "category": "island",
+  "name": "Binlang Islet",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Binlang Islet\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Binlang Islet",
+  "lat": 24.43666667,
+  "lon": 118.19888889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-daecheongdo",
+  "category": "island",
+  "name": "Daecheongdo",
+  "aliases": [
+   "Daecheong Island"
+  ],
+  "size": 12.63,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Daecheongdo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Daecheongdo",
+  "lat": 37.825,
+  "lon": 124.7,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-gadeokdo",
+  "category": "island",
+  "name": "Gadeokdo",
+  "aliases": [
+   "Gadeok Island"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gadeokdo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gadeokdo",
+  "lat": 35.03,
+  "lon": 128.83,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-ka-island",
+  "category": "island",
+  "name": "Ka Island",
+  "aliases": [],
+  "size": 19.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ka Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ka Island",
+  "lat": 39.548484,
+  "lon": 124.666258,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hauido",
+  "category": "island",
+  "name": "Hauido",
+  "aliases": [
+   "Haui Island"
+  ],
+  "size": 14.46,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hauido\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hauido",
+  "lat": 34.59944444,
+  "lon": 126.0375,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-irabu-island",
+  "category": "island",
+  "name": "Irabu Island",
+  "aliases": [],
+  "size": 29.06,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Irabu Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Irabu Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kamome-island",
+  "category": "island",
+  "name": "Kamome Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kamome Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kamome Island",
+  "lat": 41.867781,
+  "lon": 140.1143,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-nakanoshima-kagoshima",
+  "category": "island",
+  "name": "Nakanoshima",
+  "aliases": [],
+  "size": 34.47,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nakanoshima (Kagoshima)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Kagoshima",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nakanoshima (Kagoshima)",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-nakanoshima-shimane",
+  "category": "island",
+  "name": "Nakanoshima",
+  "aliases": [],
+  "size": 32.21,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nakanoshima (Shimane)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Shimane",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nakanoshima (Shimane)",
+  "lat": 36.08333333,
+  "lon": 133.1,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sotobanari",
+  "category": "island",
+  "name": "Sotobanari",
+  "aliases": [],
+  "size": 1.32,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sotobanari\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sotobanari",
+  "lat": 24.37305556,
+  "lon": 123.71611111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-teuri-island",
+  "category": "island",
+  "name": "Teuri Island",
+  "aliases": [],
+  "size": 5.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Teuri Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Teuri Island",
+  "lat": 44.41666667,
+  "lon": 141.3,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-wihwa-island",
+  "category": "island",
+  "name": "Wihwa Island",
+  "aliases": [],
+  "size": 11.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Wihwa Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Wihwa Island",
+  "lat": 40.137,
+  "lon": 124.446,
+  "oceans": []
+ },
+ {
+  "id": "island-byeongpungdo",
+  "category": "island",
+  "name": "Byeongpungdo",
+  "aliases": [
+   "Byeongpung Island"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Byeongpungdo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Byeongpungdo",
+  "lat": 34.148871,
+  "lon": 125.9435084,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-changzhou-island",
+  "category": "island",
+  "name": "Changzhou Island",
+  "aliases": [],
+  "size": 8.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Changzhou Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Changzhou Island",
+  "lat": 23.08111111,
+  "lon": 113.41333333,
+  "oceans": []
+ },
+ {
+  "id": "island-kat-o",
+  "category": "island",
+  "name": "Kat O",
+  "aliases": [],
+  "size": 2.35,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kat O\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kat O",
+  "lat": 22.54111111,
+  "lon": 114.29552778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-double-island",
+  "category": "island",
+  "name": "Double Island",
+  "aliases": [],
+  "size": 2.13,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Double Island, Hong Kong\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Double Island, Hong Kong",
+  "lat": 22.5125,
+  "lon": 114.31027778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-engetsu-island",
+  "category": "island",
+  "name": "Engetsu Island",
+  "aliases": [],
+  "size": 23.87,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Engetsu Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Engetsu Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-ersha-island",
+  "category": "island",
+  "name": "Ersha Island",
+  "aliases": [],
+  "size": 1.26,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ersha Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ersha Island",
+  "lat": 23.1125,
+  "lon": 113.3,
+  "oceans": []
+ },
+ {
+  "id": "island-haidian-island",
+  "category": "island",
+  "name": "Haidian Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Haidian Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Haidian Island",
+  "lat": 20.04277778,
+  "lon": 110.34166667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hashira-island",
+  "category": "island",
+  "name": "Hashira Island",
+  "aliases": [],
+  "size": 3.12,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hashira Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hashira Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-ikema-island",
+  "category": "island",
+  "name": "Ikema Island",
+  "aliases": [],
+  "size": 2.83,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ikema Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ikema Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-izena-island",
+  "category": "island",
+  "name": "Izena Island",
+  "aliases": [],
+  "size": 15.44,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Izena Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Izena Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kau-sai-chau",
+  "category": "island",
+  "name": "Kau Sai Chau",
+  "aliases": [],
+  "size": 6.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kau Sai Chau\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kau Sai Chau",
+  "lat": 22.35972222,
+  "lon": 114.31416667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-mishima-island",
+  "category": "island",
+  "name": "Mishima Island",
+  "aliases": [],
+  "size": 7.73,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mishima Island, Yamaguchi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mishima Island, Yamaguchi",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-naru-island",
+  "category": "island",
+  "name": "Naru Island",
+  "aliases": [],
+  "size": 23.82,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Naru Island (Japan)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Naru Island (Japan)",
+  "lat": 32.81666667,
+  "lon": 128.93333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-pengjia-islet",
+  "category": "island",
+  "name": "Pengjia Islet",
+  "aliases": [],
+  "size": 1.14,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pengjia Islet\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pengjia Islet",
+  "lat": 25.62944444,
+  "lon": 122.07138889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sesoko-island",
+  "category": "island",
+  "name": "Sesoko Island",
+  "aliases": [],
+  "size": 2.99,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sesoko Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sesoko Island",
+  "lat": 26.644,
+  "lon": 127.864,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sharp-island",
+  "category": "island",
+  "name": "Sharp Island",
+  "aliases": [],
+  "size": 1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sharp Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sharp Island",
+  "lat": 22.36071,
+  "lon": 114.29523,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-shimoji-shima",
+  "category": "island",
+  "name": "Shimoji-shima",
+  "aliases": [],
+  "size": 9.68,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shimoji-shima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shimoji-shima",
+  "lat": 24.819,
+  "lon": 125.154,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sobieto",
+  "category": "island",
+  "name": "Sobieto",
+  "aliases": [
+   "Sobie Island"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sobieto\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sobieto",
+  "lat": 33.50875,
+  "lon": 135.55211,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tap-mun",
+  "category": "island",
+  "name": "Tap Mun",
+  "aliases": [],
+  "size": 1.69,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tap Mun\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tap Mun",
+  "lat": 22.47638889,
+  "lon": 114.3625,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tsunoshima",
+  "category": "island",
+  "name": "Tsunoshima",
+  "aliases": [],
+  "size": 4.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tsunoshima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tsunoshima",
+  "lat": 34.35,
+  "lon": 130.86666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tung-lung-chau",
+  "category": "island",
+  "name": "Tung Lung Chau",
+  "aliases": [],
+  "size": 2.42,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tung Lung Chau\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tung Lung Chau",
+  "lat": 22.24916667,
+  "lon": 114.28972222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-yagishiri-island",
+  "category": "island",
+  "name": "Yagishiri Island",
+  "aliases": [],
+  "size": 5.34,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yagishiri Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yagishiri Island",
+  "lat": 44.43333333,
+  "lon": 141.4,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-aguni-island",
+  "category": "island",
+  "name": "Aguni Island",
+  "aliases": [],
+  "size": 7.64,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aguni Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aguni Island",
+  "lat": 26.58077,
+  "lon": 127.23532,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-akusekijima",
+  "category": "island",
+  "name": "Akusekijima",
+  "aliases": [],
+  "size": 7.49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Akusekijima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Akusekijima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-changxing-island",
+  "category": "island",
+  "name": "Changxing Island",
+  "aliases": [],
+  "size": 252.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Changxing Island, Dalian\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Changxing Island, Dalian",
+  "lat": 39.58083333,
+  "lon": 121.3875,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-cheongsando",
+  "category": "island",
+  "name": "Cheongsando",
+  "aliases": [
+   "Cheongsan Island"
+  ],
+  "size": 32.96,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Cheongsando\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cheongsando",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-daebudo",
+  "category": "island",
+  "name": "Daebudo",
+  "aliases": [
+   "Daebu Island"
+  ],
+  "size": 41.98,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Daebudo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Daebudo",
+  "lat": 37.26666667,
+  "lon": 126.58333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-donghai-island",
+  "category": "island",
+  "name": "Donghai Island",
+  "aliases": [],
+  "size": 289.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Donghai Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Donghai Island",
+  "lat": 21.01527778,
+  "lon": 110.38611111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-gageodo",
+  "category": "island",
+  "name": "Gageodo",
+  "aliases": [
+   "Gageo Island"
+  ],
+  "size": 9.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gageodo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gageodo",
+  "lat": 34.07138889,
+  "lon": 125.11305556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kakarajima",
+  "category": "island",
+  "name": "Kakarajima",
+  "aliases": [],
+  "size": 2.83,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kakarajima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kakarajima",
+  "lat": 33.6,
+  "lon": 129.86666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kakeromajima",
+  "category": "island",
+  "name": "Kakeromajima",
+  "aliases": [],
+  "size": 77.39,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kakeromajima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kakeromajima",
+  "lat": 28.12472222,
+  "lon": 129.24472222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kodakarajima",
+  "category": "island",
+  "name": "Kodakarajima",
+  "aliases": [],
+  "size": 1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kodakarajima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kodakarajima",
+  "lat": 29.22388889,
+  "lon": 129.3275,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kohama-island",
+  "category": "island",
+  "name": "Kohama Island",
+  "aliases": [],
+  "size": 7.86,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kohama Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kohama Island",
+  "lat": 24.34166667,
+  "lon": 123.97916667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kojima",
+  "category": "island",
+  "name": "Kojima",
+  "aliases": [],
+  "size": 1.54,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kojima (Hokkaido)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kojima (Hokkaido)",
+  "lat": 41.35944444,
+  "lon": 139.805,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kuchinoshima",
+  "category": "island",
+  "name": "Kuchinoshima",
+  "aliases": [],
+  "size": 13.33,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kuchinoshima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kuchinoshima",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-nagashima-island",
+  "category": "island",
+  "name": "Nagashima Island",
+  "aliases": [],
+  "size": 90.79,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nagashima Island, Kagoshima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nagashima Island, Kagoshima",
+  "lat": 32.15,
+  "lon": 130.15,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-nantai-island",
+  "category": "island",
+  "name": "Nantai Island",
+  "aliases": [],
+  "size": 118.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nantai Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nantai Island",
+  "lat": 26.037,
+  "lon": 119.329,
+  "oceans": []
+ },
+ {
+  "id": "island-ninoshima",
+  "category": "island",
+  "name": "Ninoshima",
+  "aliases": [],
+  "size": 3.87,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ninoshima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ninoshima",
+  "lat": 34.3,
+  "lon": 132.43333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-nishinoshima-shimane",
+  "category": "island",
+  "name": "Nishinoshima",
+  "aliases": [],
+  "size": 55.97,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nishinoshima (Shimane)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Shimane",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nishinoshima (Shimane)",
+  "lat": 36.1,
+  "lon": 133,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-notojima",
+  "category": "island",
+  "name": "Notojima",
+  "aliases": [],
+  "size": 46.78,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Notojima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Notojima",
+  "lat": 37.125,
+  "lon": 136.99638889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-shek-kwu-chau",
+  "category": "island",
+  "name": "Shek Kwu Chau",
+  "aliases": [],
+  "size": 1.19,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shek Kwu Chau\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shek Kwu Chau",
+  "lat": 22.19555556,
+  "lon": 113.98777778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-shiraishi-island",
+  "category": "island",
+  "name": "Shiraishi Island",
+  "aliases": [],
+  "size": 2.86,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Shiraishi Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shiraishi Island",
+  "lat": 34.40277778,
+  "lon": 133.52166667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-soando",
+  "category": "island",
+  "name": "Soando",
+  "aliases": [
+   "Soan Island"
+  ],
+  "size": 23.16,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Soando\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Soando",
+  "lat": 34.146,
+  "lon": 126.652,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-ukujima",
+  "category": "island",
+  "name": "Ukujima",
+  "aliases": [],
+  "size": 24.93,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ukujima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ukujima",
+  "lat": 33.26972222,
+  "lon": 129.11277778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-yanggakdo",
+  "category": "island",
+  "name": "Yanggakdo",
+  "aliases": [
+   "Yanggak Island"
+  ],
+  "size": 1.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yanggakdo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yanggakdo",
+  "lat": 38.99893333,
+  "lon": 125.75115278,
+  "oceans": []
+ },
+ {
+  "id": "island-ozushima",
+  "category": "island",
+  "name": "Ozushima",
+  "aliases": [],
+  "size": 4.77,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ōzushima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ōzushima",
+  "lat": 34.005,
+  "lon": 131.7075,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-dadeng-island",
+  "category": "island",
+  "name": "Dadeng Island",
+  "aliases": [],
+  "size": 13,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dadeng Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dadeng Island",
+  "lat": 24.5592,
+  "lon": 118.3208,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-deokjeokdo",
+  "category": "island",
+  "name": "Deokjeokdo",
+  "aliases": [
+   "Deokjeok Island"
+  ],
+  "size": 36,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Deokjeokdo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Deokjeokdo",
+  "lat": 37.24277778,
+  "lon": 126.13111111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-genkai-island",
+  "category": "island",
+  "name": "Genkai Island",
+  "aliases": [],
+  "size": 1.14,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Genkai Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Genkai Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-guanzhou-island",
+  "category": "island",
+  "name": "Guanzhou Island",
+  "aliases": [],
+  "size": 1.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Guanzhou Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guanzhou Island",
+  "lat": 23.06833333,
+  "lon": 113.36944444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-hario-island",
+  "category": "island",
+  "name": "Hario Island",
+  "aliases": [],
+  "size": 33.16,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hario Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hario Island",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kamishima-island",
+  "category": "island",
+  "name": "Kamishima Island",
+  "aliases": [],
+  "size": 225.32,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kamishima Island, Amakusa\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kamishima Island, Amakusa",
+  "lat": 32.43333333,
+  "lon": 130.33333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-kii-oshima",
+  "category": "island",
+  "name": "Kii Oshima",
+  "aliases": [],
+  "size": 9.68,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kii Ōshima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kii Ōshima",
+  "lat": 33.46805556,
+  "lon": 135.82805556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-majishan",
+  "category": "island",
+  "name": "Majishan",
+  "aliases": [],
+  "size": 1.49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Majishan\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Majishan",
+  "lat": 30.6794,
+  "lon": 122.4178,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-nakadori-island",
+  "category": "island",
+  "name": "Nakadori Island",
+  "aliases": [],
+  "size": 168.34,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nakadōri Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nakadōri Island",
+  "lat": 32.98333333,
+  "lon": 129.08333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-naozhou-island",
+  "category": "island",
+  "name": "Naozhou Island",
+  "aliases": [],
+  "size": 49.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Naozhou Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Naozhou Island",
+  "lat": 20.907,
+  "lon": 110.595,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sijiao-island",
+  "category": "island",
+  "name": "Sijiao Island",
+  "aliases": [],
+  "size": 21.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sijiao Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sijiao Island",
+  "lat": 30.71222222,
+  "lon": 122.45055556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sindo",
+  "category": "island",
+  "name": "Sindo",
+  "aliases": [],
+  "size": 6.92,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sindo (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sindo (island)",
+  "lat": 37.53333333,
+  "lon": 126.45,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-sinmi-island",
+  "category": "island",
+  "name": "Sinmi Island",
+  "aliases": [],
+  "size": 52,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sinmi Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sinmi Island",
+  "lat": 39.56666667,
+  "lon": 124.88333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tai-a-chau",
+  "category": "island",
+  "name": "Tai A Chau",
+  "aliases": [],
+  "size": 1.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tai A Chau\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tai A Chau",
+  "lat": 22.16138889,
+  "lon": 113.90833333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tobishima",
+  "category": "island",
+  "name": "Tobishima",
+  "aliases": [],
+  "size": 2.75,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tobishima, Yamagata\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tobishima, Yamagata",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-tsuken-island",
+  "category": "island",
+  "name": "Tsuken Island",
+  "aliases": [],
+  "size": 1.88,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tsuken Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tsuken Island",
+  "lat": 26.25055556,
+  "lon": 127.94194444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-xishan-island",
+  "category": "island",
+  "name": "Xishan Island",
+  "aliases": [],
+  "size": 79.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Xishan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Xishan Island",
+  "lat": 31.12126,
+  "lon": 120.2781,
+  "oceans": []
+ },
+ {
+  "id": "island-yeongheungdo",
+  "category": "island",
+  "name": "Yeongheungdo",
+  "aliases": [
+   "Yeongheung Island"
+  ],
+  "size": 23.46,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yeongheungdo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yeongheungdo",
+  "lat": 37.26666667,
+  "lon": 126.46666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-yushan-island",
+  "category": "island",
+  "name": "Yushan Island",
+  "aliases": [],
+  "size": 2.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yushan Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yushan Island",
+  "lat": 28.88416667,
+  "lon": 122.26805556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-osakikamijima-island",
+  "category": "island",
+  "name": "Osakikamijima Island",
+  "aliases": [],
+  "size": 38.27,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ōsakikamijima Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ōsakikamijima Island",
+  "lat": 34.24527778,
+  "lon": 132.89472222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-oshima-ehime",
+  "category": "island",
+  "name": "Oshima",
+  "aliases": [],
+  "size": 41.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ōshima (Ehime)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Ehime",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ōshima (Ehime)",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "island-guishan-island-guangdong",
+  "category": "island",
+  "name": "Guishan Island",
+  "aliases": [],
+  "size": 10,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Guishan Island (China)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Guangdong",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Guishan Island (China)",
+  "lat": 22.13416667,
+  "lon": 113.82777778,
+  "oceans": [
+   "Pacific"
   ]
  }
 ]
