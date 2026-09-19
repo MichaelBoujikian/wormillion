@@ -1171,7 +1171,13 @@ globalThis.WORMILLION_THEMES = {
       'Monte Legnone', 'Peitlerkofel', 'Seekofel', 'Averau', 'Monte Agner',
       'Aiguilles Marbrees', "Cima d'Asta", 'Jof Fuart', 'Presolana',
       // range-tag.mjs from the infobox range field
-      'Monte Pisanino'
+      'Monte Pisanino',
+      // range-tag.mjs from the infobox range field
+      'Krn', 'Skrlatica', 
+      'Prisojnik',
+      'Razor', 
+      'Mittagskogel', 'Petzen', 'Skuta', 
+      'Spik', 'Brana', 'Jalovec', 
     ],
     'the Himalayas': [
       'Mount Everest', 'Kangchenjunga', 'Lhotse', 'Makalu', 'Cho Oyu',
@@ -1490,7 +1496,9 @@ globalThis.WORMILLION_THEMES = {
       'Volcano Mountain', 'Pico de Tancitaro', 'Atwell Peak', 'Jocotitlan', 'Los Humeros',
       'Montana Mountain', 'Pyroclastic Peak',
       // add-theme.mjs
-      'The Table', 'Ice Peak', 'The Pyramid', 'Cerro Prieto'
+      'The Table', 'Ice Peak', 'The Pyramid', 'Cerro Prieto',
+      // 2026-09-18 Eastern Europe mountains
+      'Ciomadul'
     ]
   },
 

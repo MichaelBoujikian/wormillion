@@ -9185,6 +9185,143 @@ Mount Baker (Alberta)|3180
 Mount Baldy (Alberta)|2192
 Mount Hesperus|2996
 The Pyramid|2199
+Fruska Gora|539
+Durmitor|2523
+Rtanj|1565
+Mount Pantokrator|906
+Tomorr|2417
+Kajmakcalan|2521
+Mount Kyllini|2376
+Biokovo|1762
+Cynthus|113
+Midzor|2169
+Zla Kolata|2534
+Gjeravica|2656
+Mount Oeta|2152
+Mount Lykaion|1421
+Romanija|1652
+Strandzha|530
+Dajti|1613
+Igman|1510
+Roman-Kosh|1545
+Velika Rudoka|2660
+Avala|511
+Rudnik|1132
+Sneznik|1796
+Vidova gora|780
+Trzy Korony|982
+Chopok|2024
+Petrova Gora|512
+Vlasic|1943
+Kosmaj|626
+Fengari|1611
+Krn|2244
+Mali i Cikes|2045
+Malyovitsa|2729
+Papuk|953
+Swinica|2302
+Balanesti Hill|430
+Barania Gora|1220
+Manjaca|1239
+Prenj|2103
+Ypsario|1204
+Skrlatica|2740
+Troglav|1913
+Kralicky Sneznik|1423
+Cer|689
+Ciomadul|1289
+Exomvourgo|641
+Goc|1127
+Mnich|2068
+Mount Chortiatis|1201
+Pancic's Peak|2017
+Shpirag|1198
+Mount Aigaleo|469
+Golija|1833
+Hajla|2403
+Klinovec|1244
+Koscielec|2155
+Pashtrik|1989
+Rumija|1594
+Suva Planina|1810
+Suvobor|866
+Grmec|1605
+Kablar|889
+Nemercka|2482
+Parangu Mare|2519
+Prisojnik|2547
+Skrzyczne|1257
+Vistea Mare|2527
+Cvrsnica|2227
+Golyam Perelik|2191
+Jastrebac|1491
+Kamesnica|1855
+Kozi Wierch|2291
+Kozuf|2172
+Maja e Rosit|2525
+Mount Parthenion|1215
+Razor|2601
+Sinjajevina|2277
+Todorka|2746
+Valamara|2373
+Vardousia|2495
+Cicarija|1272
+Cincar|2006
+Cucurbata Mare|1849
+Czantoria Wielka|995
+Elati|1182
+Gjallica|2486
+Kom Peak|2016
+Lakmos|2295
+Maja e Harapit|2218
+Mali Kozjak|779
+Mittagskogel|2145
+Mokra Gora|2156
+Mount Cholomon|1165
+Mount Kedros|1777
+Mount Paiko|1650
+Petzen|2126
+Radan|1408
+Skuta|2532
+Slavyanka|2212
+Stolovi|1375
+Sveta Gera|1181
+Wielki Szyszak|1509
+Sator|1872
+Spik|2472
+Besna Kobila|1923
+Brana|2253
+Bukulja|696
+Bystra|2248
+Gucevo|779
+Jalovec|2645
+Kallidromo|1399
+Konjuh|1328
+Mount Krim|1107
+Maja e Thate|2406
+Mali i Gjere|1789
+Mieguszowiecki Szczyt Wielki|2438
+Ozren|1178
+Pikui|1405
+Licka Pljesivica|1657
+Povlen|1347
+Papusa|2504
+Radomir|2031
+Raduha|2062
+Risnjak|1528
+Shkelzen|2407
+Sinanitsa|2516
+Slavnik|1028
+Tomaros|1974
+Varasova|917
+Verno|2128
+Vitorog|1907
+Volovec|2064
+Volujak|2336
+Vrmac|785
+Vanatarea lui Buteanu|2507
+Klek|1181
+Tara|1544
 `;
 
 export const MINOR_PEAKS = `

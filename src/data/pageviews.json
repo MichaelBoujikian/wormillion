@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T01:44:34.137Z",
+ "fetched": "2026-09-19T02:11:51.827Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -95672,6 +95672,965 @@
    "days": 60,
    "lat": 57.7625,
    "lon": -130.56416667
+  },
+  "mountain-fruska-gora": {
+   "title": "Fruška Gora",
+   "monthlyViews": 1644,
+   "days": 59,
+   "lat": 45.1511,
+   "lon": 19.7111
+  },
+  "mountain-durmitor": {
+   "title": "Durmitor",
+   "monthlyViews": 1461,
+   "days": 59,
+   "lat": 43.12805556,
+   "lon": 19.03472222
+  },
+  "mountain-rtanj": {
+   "title": "Rtanj",
+   "monthlyViews": 1400,
+   "days": 59,
+   "lat": 43.77611111,
+   "lon": 21.89333333
+  },
+  "mountain-mount-pantokrator": {
+   "title": "Mount Pantokrator",
+   "monthlyViews": 1248,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-tomorr": {
+   "title": "Tomorr",
+   "monthlyViews": 1005,
+   "days": 59,
+   "lat": 40.7,
+   "lon": 20.13333333
+  },
+  "mountain-kajmakcalan": {
+   "title": "Kajmakčalan",
+   "monthlyViews": 974,
+   "days": 59,
+   "lat": 40.93111111,
+   "lon": 21.78916667
+  },
+  "mountain-mount-kyllini": {
+   "title": "Mount Kyllini",
+   "monthlyViews": 944,
+   "days": 59,
+   "lat": 37.93972222,
+   "lon": 22.39694444
+  },
+  "mountain-biokovo": {
+   "title": "Biokovo",
+   "monthlyViews": 913,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-cynthus": {
+   "title": "Cynthus",
+   "monthlyViews": 852,
+   "days": 59,
+   "lat": 37.39527778,
+   "lon": 25.2725
+  },
+  "mountain-midzor": {
+   "title": "Midžor",
+   "monthlyViews": 822,
+   "days": 59,
+   "lat": 43.39388889,
+   "lon": 22.68166667
+  },
+  "mountain-zla-kolata": {
+   "title": "Zla Kolata",
+   "monthlyViews": 822,
+   "days": 59,
+   "lat": 42.485,
+   "lon": 19.89722222
+  },
+  "mountain-gjeravica": {
+   "title": "Gjeravica",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": 42.53361111,
+   "lon": 20.14
+  },
+  "mountain-mount-oeta": {
+   "title": "Mount Oeta",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": 38.82861111,
+   "lon": 22.28861111
+  },
+  "mountain-mount-lykaion": {
+   "title": "Mount Lykaion",
+   "monthlyViews": 731,
+   "days": 59,
+   "lat": 37.45694444,
+   "lon": 21.975
+  },
+  "mountain-romanija": {
+   "title": "Romanija",
+   "monthlyViews": 731,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-strandzha": {
+   "title": "Strandzha",
+   "monthlyViews": 731,
+   "days": 59,
+   "lat": 42.0125,
+   "lon": 27.60861111
+  },
+  "mountain-dajti": {
+   "title": "Dajti",
+   "monthlyViews": 700,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-igman": {
+   "title": "Igman",
+   "monthlyViews": 670,
+   "days": 59,
+   "lat": 43.74,
+   "lon": 18.15
+  },
+  "mountain-roman-kosh": {
+   "title": "Roman-Kosh",
+   "monthlyViews": 670,
+   "days": 59,
+   "lat": 44.61305556,
+   "lon": 34.24333333
+  },
+  "mountain-velika-rudoka": {
+   "title": "Velika Rudoka",
+   "monthlyViews": 670,
+   "days": 59,
+   "lat": 41.91833333,
+   "lon": 20.77638889
+  },
+  "mountain-avala": {
+   "title": "Avala",
+   "monthlyViews": 639,
+   "days": 59,
+   "lat": 44.68902389,
+   "lon": 20.51602028
+  },
+  "mountain-rudnik": {
+   "title": "Rudnik (mountain)",
+   "monthlyViews": 639,
+   "days": 59,
+   "lat": 44.13138889,
+   "lon": 20.54027778
+  },
+  "mountain-sneznik": {
+   "title": "Snežnik (plateau)",
+   "monthlyViews": 578,
+   "days": 59,
+   "lat": 45.58151389,
+   "lon": 14.43154167
+  },
+  "mountain-vidova-gora": {
+   "title": "Vidova gora",
+   "monthlyViews": 578,
+   "days": 59,
+   "lat": 43.27969444,
+   "lon": 16.61977778
+  },
+  "mountain-trzy-korony": {
+   "title": "Trzy Korony",
+   "monthlyViews": 548,
+   "days": 59,
+   "lat": 49.41361111,
+   "lon": 20.41444444
+  },
+  "mountain-chopok": {
+   "title": "Chopok",
+   "monthlyViews": 517,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-petrova-gora": {
+   "title": "Petrova Gora",
+   "monthlyViews": 517,
+   "days": 59,
+   "lat": 45.311,
+   "lon": 15.808
+  },
+  "mountain-vlasic": {
+   "title": "Vlašić (Bosnia and Herzegovina)",
+   "monthlyViews": 517,
+   "days": 59,
+   "lat": 44.283333,
+   "lon": 17.666667
+  },
+  "mountain-kosmaj": {
+   "title": "Kosmaj",
+   "monthlyViews": 487,
+   "days": 59,
+   "lat": 44.46555556,
+   "lon": 20.56555556
+  },
+  "mountain-fengari": {
+   "title": "Fengari",
+   "monthlyViews": 457,
+   "days": 59,
+   "lat": 40.45818056,
+   "lon": 25.55879444
+  },
+  "mountain-krn": {
+   "title": "Krn",
+   "monthlyViews": 457,
+   "days": 59,
+   "lat": 46.26638889,
+   "lon": 13.65888889
+  },
+  "mountain-mali-i-cikes": {
+   "title": "Mali i Çikës",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-malyovitsa": {
+   "title": "Malyovitsa",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-papuk": {
+   "title": "Papuk",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": 45.53333333,
+   "lon": 17.65
+  },
+  "mountain-swinica": {
+   "title": "Świnica",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": 49.21944444,
+   "lon": 20.00916667
+  },
+  "mountain-balanesti-hill": {
+   "title": "Bălănești Hill",
+   "monthlyViews": 396,
+   "days": 59,
+   "lat": 47.21722222,
+   "lon": 28.08305556
+  },
+  "mountain-barania-gora": {
+   "title": "Barania Góra",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 49.61143,
+   "lon": 19.01038
+  },
+  "mountain-manjaca": {
+   "title": "Manjača",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 44.56765361,
+   "lon": 17.056765
+  },
+  "mountain-prenj": {
+   "title": "Prenj",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 43.53480621,
+   "lon": 17.90430346
+  },
+  "mountain-ypsario": {
+   "title": "Ypsario",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 40.703262,
+   "lon": 24.705225
+  },
+  "mountain-skrlatica": {
+   "title": "Škrlatica",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-troglav": {
+   "title": "Troglav (Bosnia and Herzegovina)",
+   "monthlyViews": 335,
+   "days": 59,
+   "lat": 43.95,
+   "lon": 16.6
+  },
+  "mountain-kralicky-sneznik": {
+   "title": "Králický Sněžník",
+   "monthlyViews": 304,
+   "days": 59,
+   "lat": 50.20694444,
+   "lon": 16.84888889
+  },
+  "mountain-cer": {
+   "title": "Cer (mountain)",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 44.60305556,
+   "lon": 19.49416667
+  },
+  "mountain-ciomadul": {
+   "title": "Ciomadul",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 46.13,
+   "lon": 25.88
+  },
+  "mountain-exomvourgo": {
+   "title": "Exomvourgo",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 37.57722222,
+   "lon": 25.1675
+  },
+  "mountain-goc": {
+   "title": "Goč",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 43.53638889,
+   "lon": 20.84555556
+  },
+  "mountain-mnich": {
+   "title": "Mnich (mountain)",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 49.1925,
+   "lon": 20.055
+  },
+  "mountain-mount-chortiatis": {
+   "title": "Mount Chortiatis",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 40.58333333,
+   "lon": 23.11666667
+  },
+  "mountain-pancic-s-peak": {
+   "title": "Pančić's Peak",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 43.268056,
+   "lon": 20.825833
+  },
+  "mountain-shpirag": {
+   "title": "Shpirag",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-aigaleo": {
+   "title": "Mount Aigaleo",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-golija": {
+   "title": "Golija (Serbia)",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 43.33777778,
+   "lon": 20.27666667
+  },
+  "mountain-hajla": {
+   "title": "Hajla",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 42.77333333,
+   "lon": 20.2725
+  },
+  "mountain-klinovec": {
+   "title": "Klínovec",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 50.39611111,
+   "lon": 12.96777778
+  },
+  "mountain-koscielec": {
+   "title": "Kościelec (High Tatras)",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 49.22527778,
+   "lon": 20.01444444
+  },
+  "mountain-pashtrik": {
+   "title": "Pashtrik",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-rumija": {
+   "title": "Rumija",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 42.10277778,
+   "lon": 19.19361111
+  },
+  "mountain-suva-planina": {
+   "title": "Suva Planina",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 43.18027778,
+   "lon": 22.17611111
+  },
+  "mountain-suvobor": {
+   "title": "Suvobor",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 44.12110806,
+   "lon": 20.1818525
+  },
+  "mountain-grmec": {
+   "title": "Grmeč",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 44.67,
+   "lon": 16.45
+  },
+  "mountain-kablar": {
+   "title": "Kablar (mountain)",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 43.91264833,
+   "lon": 20.184775
+  },
+  "mountain-nemercka": {
+   "title": "Nemërçka",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-parangu-mare": {
+   "title": "Parângu Mare",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 45.34111111,
+   "lon": 23.54055556
+  },
+  "mountain-prisojnik": {
+   "title": "Prisojnik",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-skrzyczne": {
+   "title": "Skrzyczne",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 49.68451,
+   "lon": 19.03012
+  },
+  "mountain-vistea-mare": {
+   "title": "Viștea Mare",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 45.60277778,
+   "lon": 24.73611111
+  },
+  "mountain-cvrsnica": {
+   "title": "Čvrsnica",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 43.5988389,
+   "lon": 17.5645208
+  },
+  "mountain-golyam-perelik": {
+   "title": "Golyam Perelik",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-jastrebac": {
+   "title": "Jastrebac",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 43.39194444,
+   "lon": 21.44916667
+  },
+  "mountain-kamesnica": {
+   "title": "Kamešnica (mountain)",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 43.72243611,
+   "lon": 16.86259722
+  },
+  "mountain-kozi-wierch": {
+   "title": "Kozi Wierch",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 49.21833333,
+   "lon": 20.02861111
+  },
+  "mountain-kozuf": {
+   "title": "Kožuf",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 41.21666667,
+   "lon": 22.16666667
+  },
+  "mountain-maja-e-rosit": {
+   "title": "Maja e Rosit",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-parthenion": {
+   "title": "Mount Parthenion",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 37.4864,
+   "lon": 22.5474
+  },
+  "mountain-razor": {
+   "title": "Razor (mountain)",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 46.41296,
+   "lon": 13.78901
+  },
+  "mountain-sinjajevina": {
+   "title": "Sinjajevina",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 42.95833333,
+   "lon": 19.33333333
+  },
+  "mountain-todorka": {
+   "title": "Todorka",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 41.75272222,
+   "lon": 23.43177778
+  },
+  "mountain-valamara": {
+   "title": "Valamara",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-vardousia": {
+   "title": "Vardousia",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 38.68111111,
+   "lon": 22.1425
+  },
+  "mountain-cicarija": {
+   "title": "Ćićarija",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 45.36055556,
+   "lon": 14.19194444
+  },
+  "mountain-cincar": {
+   "title": "Cincar",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 43.90222222,
+   "lon": 17.06277778
+  },
+  "mountain-cucurbata-mare": {
+   "title": "Cucurbăta Mare",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 46.4409,
+   "lon": 22.6889
+  },
+  "mountain-czantoria-wielka": {
+   "title": "Czantoria Wielka",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 49.67880417,
+   "lon": 18.80470944
+  },
+  "mountain-elati": {
+   "title": "Elati (mountain)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 38.699,
+   "lon": 20.624
+  },
+  "mountain-gjallica": {
+   "title": "Gjallica",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-kom-peak": {
+   "title": "Kom Peak",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 43.16666667,
+   "lon": 23.05
+  },
+  "mountain-lakmos": {
+   "title": "Lakmos",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 39.684,
+   "lon": 21.123
+  },
+  "mountain-maja-e-harapit": {
+   "title": "Maja e Harapit",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mali-kozjak": {
+   "title": "Mali Kozjak",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 43.570815,
+   "lon": 16.402588
+  },
+  "mountain-mittagskogel": {
+   "title": "Mittagskogel",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 46.50666667,
+   "lon": 13.94888889
+  },
+  "mountain-mokra-gora": {
+   "title": "Mokra Gora (mountain)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 42.83222222,
+   "lon": 20.36361111
+  },
+  "mountain-mount-cholomon": {
+   "title": "Mount Cholomon",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 40.45944444,
+   "lon": 23.52027778
+  },
+  "mountain-mount-kedros": {
+   "title": "Mount Kedros",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 35.18166667,
+   "lon": 24.6175
+  },
+  "mountain-mount-paiko": {
+   "title": "Mount Paiko",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 40.95319722,
+   "lon": 22.33582778
+  },
+  "mountain-petzen": {
+   "title": "Petzen",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 46.5,
+   "lon": 14.78333333
+  },
+  "mountain-radan": {
+   "title": "Radan (mountain)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 43.00333333,
+   "lon": 21.49666667
+  },
+  "mountain-skuta": {
+   "title": "Skuta",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-slavyanka": {
+   "title": "Slavyanka (mountain)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 41.37722222,
+   "lon": 23.62055556
+  },
+  "mountain-stolovi": {
+   "title": "Stolovi",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 43.60888889,
+   "lon": 20.61111111
+  },
+  "mountain-sveta-gera": {
+   "title": "Sveta Gera",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 45.76666667,
+   "lon": 15.31666667
+  },
+  "mountain-wielki-szyszak": {
+   "title": "Wielki Szyszak",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 50.7775,
+   "lon": 15.5675
+  },
+  "mountain-sator": {
+   "title": "Šator",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 44.15611111,
+   "lon": 16.58944444
+  },
+  "mountain-spik": {
+   "title": "Špik",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-besna-kobila": {
+   "title": "Besna Kobila",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 42.52944444,
+   "lon": 22.23055556
+  },
+  "mountain-brana": {
+   "title": "Brana (mountain)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 46.35496944,
+   "lon": 14.58763333
+  },
+  "mountain-bukulja": {
+   "title": "Bukulja",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 44.29861111,
+   "lon": 20.52916667
+  },
+  "mountain-bystra": {
+   "title": "Bystrá (mountain)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 49.18861111,
+   "lon": 19.84277778
+  },
+  "mountain-gucevo": {
+   "title": "Gučevo",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 44.48055556,
+   "lon": 19.18444444
+  },
+  "mountain-jalovec": {
+   "title": "Jalovec (mountain)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 46.41666667,
+   "lon": 13.68333333
+  },
+  "mountain-kallidromo": {
+   "title": "Kallidromo",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 38.73694444,
+   "lon": 22.54472222
+  },
+  "mountain-konjuh": {
+   "title": "Konjuh (mountain)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 44.30175306,
+   "lon": 18.54597278
+  },
+  "mountain-mount-krim": {
+   "title": "Mount Krim",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-maja-e-thate": {
+   "title": "Maja e Thatë",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mali-i-gjere": {
+   "title": "Mali i Gjerë",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mieguszowiecki-szczyt-wielki": {
+   "title": "Mięguszowiecki Szczyt Wielki",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 49.18722222,
+   "lon": 20.06
+  },
+  "mountain-ozren": {
+   "title": "Ozren (Sokobanja)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 43.58388889,
+   "lon": 21.84472222
+  },
+  "mountain-pikui": {
+   "title": "Pikui",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 48.83,
+   "lon": 23.00055556
+  },
+  "mountain-licka-pljesivica": {
+   "title": "Lička Plješivica",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 44.578861,
+   "lon": 15.875944
+  },
+  "mountain-povlen": {
+   "title": "Povlen",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 44.13065861,
+   "lon": 19.74026444
+  },
+  "mountain-papusa": {
+   "title": "Păpușa",
+   "monthlyViews": 122,
+   "days": 58,
+   "lat": 45.37,
+   "lon": 22.90777778
+  },
+  "mountain-radomir": {
+   "title": "Radomir (mountain)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 41.32166667,
+   "lon": 23.12194444
+  },
+  "mountain-raduha": {
+   "title": "Raduha (mountain)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 46.40944444,
+   "lon": 14.73722222
+  },
+  "mountain-risnjak": {
+   "title": "Risnjak",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 45.42833333,
+   "lon": 14.745
+  },
+  "mountain-shkelzen": {
+   "title": "Shkëlzen",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-sinanitsa": {
+   "title": "Sinanitsa",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-slavnik": {
+   "title": "Slavnik",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 45.53389,
+   "lon": 13.97592
+  },
+  "mountain-tomaros": {
+   "title": "Tomaros",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 39.488,
+   "lon": 20.791
+  },
+  "mountain-varasova": {
+   "title": "Varasova",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 38.3635,
+   "lon": 21.592
+  },
+  "mountain-verno": {
+   "title": "Verno",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 40.64916667,
+   "lon": 21.38555556
+  },
+  "mountain-vitorog": {
+   "title": "Vitorog",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 44.11944444,
+   "lon": 17.04416667
+  },
+  "mountain-volovec": {
+   "title": "Volovec (Tatra)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 49.2075,
+   "lon": 19.76303
+  },
+  "mountain-volujak": {
+   "title": "Volujak (mountain)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 43.232,
+   "lon": 18.717
+  },
+  "mountain-vrmac": {
+   "title": "Vrmac",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 42.4489,
+   "lon": 18.728
+  },
+  "mountain-vanatarea-lui-buteanu": {
+   "title": "Vânătarea lui Buteanu",
+   "monthlyViews": 122,
+   "days": 57,
+   "lat": 45.60416667,
+   "lon": 24.58111111
+  },
+  "mountain-klek": {
+   "title": "Klek mountain, Croatia",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 45.25861111,
+   "lon": 15.14555556
+  },
+  "mountain-tara": {
+   "title": "Tara (mountain)",
+   "monthlyViews": 913,
+   "days": 59,
+   "lat": 43.84833333,
+   "lon": 19.45944444
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",

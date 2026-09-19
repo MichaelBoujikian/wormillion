@@ -8218,7 +8218,70 @@ export const WIKI_TITLES = {
 
   // --- lake (2026-09-18 Eastern Europe lakes, namesakes) ---
   "lake-red-lake-romania": "Red Lake (Romania)",
-  "lake-red-lake-croatia": "Red Lake (Croatia)"
+  "lake-red-lake-croatia": "Red Lake (Croatia)",
+
+  // --- mountain (2026-09-18 Eastern Europe mountains) ---
+  "mountain-fruska-gora": "Fruška Gora",
+  "mountain-kajmakcalan": "Kajmakčalan",
+  "mountain-midzor": "Midžor",
+  "mountain-rudnik": "Rudnik (mountain)",
+  "mountain-sneznik": "Snežnik (plateau)",
+  "mountain-vlasic": "Vlašić (Bosnia and Herzegovina)",
+  "mountain-mali-i-cikes": "Mali i Çikës",
+  "mountain-swinica": "Świnica",
+  "mountain-balanesti-hill": "Bălănești Hill",
+  "mountain-barania-gora": "Barania Góra",
+  "mountain-manjaca": "Manjača",
+  "mountain-skrlatica": "Škrlatica",
+  "mountain-troglav": "Troglav (Bosnia and Herzegovina)",
+  "mountain-kralicky-sneznik": "Králický Sněžník",
+  "mountain-cer": "Cer (mountain)",
+  "mountain-goc": "Goč",
+  "mountain-mnich": "Mnich (mountain)",
+  "mountain-pancic-s-peak": "Pančić's Peak",
+  "mountain-golija": "Golija (Serbia)",
+  "mountain-klinovec": "Klínovec",
+  "mountain-koscielec": "Kościelec (High Tatras)",
+  "mountain-grmec": "Grmeč",
+  "mountain-kablar": "Kablar (mountain)",
+  "mountain-nemercka": "Nemërçka",
+  "mountain-parangu-mare": "Parângu Mare",
+  "mountain-vistea-mare": "Viștea Mare",
+  "mountain-cvrsnica": "Čvrsnica",
+  "mountain-kamesnica": "Kamešnica (mountain)",
+  "mountain-kozuf": "Kožuf",
+  "mountain-razor": "Razor (mountain)",
+  "mountain-cicarija": "Ćićarija",
+  "mountain-cucurbata-mare": "Cucurbăta Mare",
+  "mountain-elati": "Elati (mountain)",
+  "mountain-mokra-gora": "Mokra Gora (mountain)",
+  "mountain-radan": "Radan (mountain)",
+  "mountain-slavyanka": "Slavyanka (mountain)",
+  "mountain-sator": "Šator",
+  "mountain-spik": "Špik",
+  "mountain-brana": "Brana (mountain)",
+  "mountain-bystra": "Bystrá (mountain)",
+  "mountain-gucevo": "Gučevo",
+  "mountain-jalovec": "Jalovec (mountain)",
+  "mountain-konjuh": "Konjuh (mountain)",
+  "mountain-maja-e-thate": "Maja e Thatë",
+  "mountain-mali-i-gjere": "Mali i Gjerë",
+  "mountain-mieguszowiecki-szczyt-wielki": "Mięguszowiecki Szczyt Wielki",
+  "mountain-ozren": "Ozren (Sokobanja)",
+  "mountain-licka-pljesivica": "Lička Plješivica",
+  "mountain-papusa": "Păpușa",
+  "mountain-radomir": "Radomir (mountain)",
+  "mountain-raduha": "Raduha (mountain)",
+  "mountain-shkelzen": "Shkëlzen",
+  "mountain-volovec": "Volovec (Tatra)",
+  "mountain-volujak": "Volujak (mountain)",
+  "mountain-vanatarea-lui-buteanu": "Vânătarea lui Buteanu",
+
+  // --- mountain (2026-09-18 Eastern Europe mountains) ---
+  "mountain-klek": "Klek mountain, Croatia",
+
+  // --- mountain (2026-09-18 Eastern Europe mountains, namesakes) ---
+  "mountain-tara": "Tara (mountain)"
 };
 
 /**
@@ -8807,5 +8870,7 @@ export const WIKI_VERIFIED = new Set([
   "sea_ocean-victoria-harbour-british-columbia",
   // --- 2026-09-18 seas audit: two Newfoundland and Labrador bays without a short description ---
   "sea_ocean-st-john-bay",
-  "sea_ocean-voisey-s-bay"
+  "sea_ocean-voisey-s-bay",
+  // --- 2026-09-18 Eastern Europe mountains: Volujak (Bosnia-Montenegro), no short description ---
+  "mountain-volujak"
 ]);

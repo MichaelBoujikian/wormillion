@@ -79,7 +79,9 @@ const EXPECTED = {
     // the 2026-09-17 Nordic mountains scouring
     'Himmelbjerget', 'Hverfjall', 'Oraefajokull', 'Hofsjokull', 'Skjaldbreidur', 'Kverkfjoll', 'Rondeslottet', 'Ejer Bavnehoj',
     // the 2026-09-18 Mexico and Canada mountains scouring (reports/2026-09-18-mx-ca-mountains.md)
-    'Mount Steele', 'King Peak', 'Mount Kennedy', 'Mount Edziza', 'Howse Peak', 'Crowsnest Mountain', 'Tunnel Mountain', 'Ha Ling Peak', 'Stawamus Chief', 'Golden Hinde', 'Mont Saint-Hilaire', 'El Jorullo', 'Cerro Tlaloc', 'Pico de Tancitaro', 'Cerro Potosi'],
+    'Mount Steele', 'King Peak', 'Mount Kennedy', 'Mount Edziza', 'Howse Peak', 'Crowsnest Mountain', 'Tunnel Mountain', 'Ha Ling Peak', 'Stawamus Chief', 'Golden Hinde', 'Mont Saint-Hilaire', 'El Jorullo', 'Cerro Tlaloc', 'Pico de Tancitaro', 'Cerro Potosi',
+    // the 2026-09-18 Eastern Europe mountains scouring (reports/2026-09-18-ee-mountains.md)
+    'Durmitor', 'Gjeravica', 'Malyovitsa', 'Midzor', 'Kajmakcalan', 'Mount Kyllini', 'Mount Oeta', 'Biokovo', 'Chopok', 'Krn', 'Skrlatica', 'Jalovec', 'Tara', 'Rtanj', 'Fruska Gora', 'Trzy Korony', 'Ciomadul'],
   desert: ['Sahara', 'Gobi', 'Mojave', 'Atacama', 'Kalahari', 'Namib', 'Sonoran', 'Thar Desert', 'Arabian Desert', 'Antarctic Desert',
     // the 2026-09-15 expansion
     'Death Valley', 'White Sands', 'Skeleton Coast', 'Rann of Kutch', 'Karoo'],
