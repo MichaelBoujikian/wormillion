@@ -23,9 +23,14 @@ per wave) and SPEC §13; git log has the rest.
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
 do the next thing named here):** South America wave: rivers, lakes,
-mountains DONE (`55b98a1`, `08185aa`, `f1eafa5`, this commit - 95 peaks +
-Mount Darwin (Chile), `reports/2026-09-19-sa-mountains.md`). NEXT, two
-things at once: (a) the islands probe - `node scripts/expansion/probe.mjs
+mountains DONE (`a522b28`). RUNNING (or interrupted), both at once: the
+islands probe chain (`work/sa-islands.out` ends with `PROBE2-DONE` when the
+probe + article pass + re-probe are through; rerun the chain if not) and the
+first Opus audit round, `Workflow` run `wf_98bec17b-8eb` (script
+`workflows/scripts/sa-rivers-lakes-mountains-audit-wf_98bec17b-8eb.js`;
+reports `2026-09-19-sa-rlm-{data,gameplay}-audit.md` in the scratchpad, each
+with a `progress:` line; rerun if it died). When the probe is through: (a)
+the islands - `node scripts/expansion/probe.mjs
 scripts/expansion/probes/sa-islands.json >
 scripts/expansion/work/sa-islands.out`, then `article-size.mjs
 work/sa-islands.json --no-figure --min-views=91 --sister=es,pt`, the probe
