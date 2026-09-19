@@ -13182,4 +13182,30 @@ Bellot Strait|0|Bellot
 Kempenfelt Bay|0
 St. John Bay|0
 Voisey's Bay|0
+Souda Bay|0
+Gulf of Patras|400
+Syvash|2560
+Euripus Strait|0|Euripus,Evripos Strait
+Straits of Corfu|0|Corfu Strait,Strait of Corfu
+Lim Bay|0|Lim Fjord,Lim Channel,Limski Kanal
+Malian Gulf|0|Maliakos Gulf,Gulf of Malia
+Lalzi Bay|0
+Mirabello Bay|0
+Mycale Strait|0
+Tallinn Bay|300
+Amoudi Bay|0
+Bay of Vlore|250|Vlora Bay,Bay of Vlora
+Grama Bay|0
+Gulf of Piran|19|Bay of Piran,Piran Bay
+Bay of Porto Palermo|0
+Toronean Gulf|0|Gulf of Kassandra,Toroneos Gulf
+Balaklava Bay|0
+Bay of Puck|364|Puck Bay
+Patok Lagoon|0
+Gulf of Euboea|0|Euboean Gulf,Gulf of Evia
+Kakome Bay|0
+Kalamita Bay|0
+Velebit Channel|0
+Dnieper-Bug Estuary|800|Dnieper-Bug Liman,Dnipro-Buh Estuary
+Dniester Estuary|360|Dniester Liman
 `;

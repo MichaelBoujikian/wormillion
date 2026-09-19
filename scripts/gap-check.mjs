@@ -121,7 +121,9 @@ const EXPECTED = {
     // the 2026-09-17 US no-figure re-run (reports/2026-09-17-europe-seas-deserts-cities.md)
     'Pearl Harbor', 'New York Harbor', 'Golden Gate', 'Straits of Mackinac', 'Deception Pass', 'Boston Harbor', 'Cook Inlet', 'Jamaica Bay', 'Narragansett Bay', 'Pamlico Sound', 'Lituya Bay', 'Arthur Kill', 'The Narrows', 'Bristol Bay', 'Mobile Bay', 'Penobscot Bay', 'Buzzards Bay', 'Hanauma Bay', 'Galveston Bay', 'Elliott Bay', 'Casco Bay', 'Green Bay', 'Kill Van Kull', 'San Diego Bay', 'Humboldt Bay', 'Tomales Bay', 'Barnegat Bay', 'Block Island Sound', 'Glacier Bay', 'Resurrection Bay', 'Kachemak Bay', 'Turnagain Arm', 'Albemarle Sound',
     // the 2026-09-18 Mexico and Canada seas scouring (reports/2026-09-18-mx-ca-seas.md)
-    'Salish Sea', 'Georgian Bay', 'Foxe Basin', 'Ungava Bay', 'Lancaster Sound', 'Cabot Strait', 'Hecate Strait', 'Northumberland Strait', 'Frobisher Bay', 'Howe Sound', 'Burrard Inlet', 'Bay of Campeche', 'Gulf of Tehuantepec', 'Magdalena Bay']
+    'Salish Sea', 'Georgian Bay', 'Foxe Basin', 'Ungava Bay', 'Lancaster Sound', 'Cabot Strait', 'Hecate Strait', 'Northumberland Strait', 'Frobisher Bay', 'Howe Sound', 'Burrard Inlet', 'Bay of Campeche', 'Gulf of Tehuantepec', 'Magdalena Bay',
+    // the 2026-09-18 Eastern Europe seas scouring (reports/2026-09-18-ee-seas-deserts.md)
+    'Souda Bay', 'Gulf of Patras', 'Syvash', 'Euripus Strait', 'Straits of Corfu', 'Malian Gulf', 'Tallinn Bay', 'Gulf of Piran', 'Bay of Puck', 'Dnieper-Bug Estuary', 'Dniester Estuary', 'Balaklava Bay'],
 };
 
 const byCategory = new Map();

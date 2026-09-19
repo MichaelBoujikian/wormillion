@@ -2103,7 +2103,14 @@ globalThis.WORMILLION_THEMES = {
       'Worbarrow Bay', 'Isafjardardjup',
       'Lulworth Cove',
       // 2026-09-18 namesakes, decision 5
-      'Bothnian Bay', 'Bay of Cadiz'
+      'Bothnian Bay', 'Bay of Cadiz',
+      // 2026-09-19 expansion
+      'Souda Bay', 'Gulf of Patras', 'Syvash', 'Euripus Strait', 'Straits of Corfu',
+      'Lim Bay', 'Malian Gulf', 'Lalzi Bay', 'Mirabello Bay', 'Mycale Strait',
+      'Tallinn Bay', 'Amoudi Bay', 'Bay of Vlore', 'Grama Bay', 'Gulf of Piran',
+      'Bay of Porto Palermo', 'Toronean Gulf', 'Balaklava Bay', 'Bay of Puck', 'Patok Lagoon',
+      'Gulf of Euboea', 'Kakome Bay', 'Kalamita Bay', 'Velebit Channel', 'Dnieper-Bug Estuary',
+      'Dniester Estuary'
     ],
     'Asia': [
       'South China Sea', 'East China Sea', 'Yellow Sea', 'Sea of Japan',

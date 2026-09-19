@@ -11618,5 +11618,479 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "sea_ocean-souda-bay",
+  "category": "sea_ocean",
+  "name": "Souda Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Souda Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 2313,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Souda Bay",
+  "lat": 35.48333333,
+  "lon": 24.13805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-patras",
+  "category": "sea_ocean",
+  "name": "Gulf of Patras",
+  "aliases": [],
+  "size": 400,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Patras\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Patras",
+  "lat": 38.25,
+  "lon": 21.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-syvash",
+  "category": "sea_ocean",
+  "name": "Syvash",
+  "aliases": [],
+  "size": 2560,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Syvash\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Syvash",
+  "lat": 46.08333333,
+  "lon": 34.33333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-euripus-strait",
+  "category": "sea_ocean",
+  "name": "Euripus Strait",
+  "aliases": [
+   "Euripus",
+   "Evripos Strait"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Euripus Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Euripus Strait",
+  "lat": 38.46277778,
+  "lon": 23.58944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-straits-of-corfu",
+  "category": "sea_ocean",
+  "name": "Straits of Corfu",
+  "aliases": [
+   "Corfu Strait",
+   "Strait of Corfu"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Straits of Corfu\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Straits of Corfu",
+  "lat": 39.77,
+  "lon": 19.97,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-lim-bay",
+  "category": "sea_ocean",
+  "name": "Lim Bay",
+  "aliases": [
+   "Lim Fjord",
+   "Lim Channel",
+   "Limski Kanal"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lim (Croatia)\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lim (Croatia)",
+  "lat": 45.13313036,
+  "lon": 13.63541834,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-malian-gulf",
+  "category": "sea_ocean",
+  "name": "Malian Gulf",
+  "aliases": [
+   "Maliakos Gulf",
+   "Gulf of Malia"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Malian Gulf\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Malian Gulf",
+  "lat": 38.86666667,
+  "lon": 22.63333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-lalzi-bay",
+  "category": "sea_ocean",
+  "name": "Lalzi Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lalzi Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lalzi Bay",
+  "lat": 41.47722222,
+  "lon": 19.50888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mirabello-bay",
+  "category": "sea_ocean",
+  "name": "Mirabello Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mirabello Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mirabello Bay",
+  "lat": 35.1747,
+  "lon": 25.7858,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mycale-strait",
+  "category": "sea_ocean",
+  "name": "Mycale Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mycale Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mycale Strait",
+  "lat": 37.81972222,
+  "lon": 27.26416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-tallinn-bay",
+  "category": "sea_ocean",
+  "name": "Tallinn Bay",
+  "aliases": [],
+  "size": 300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tallinn Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tallinn Bay",
+  "lat": 59.51888889,
+  "lon": 24.66833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-amoudi-bay",
+  "category": "sea_ocean",
+  "name": "Amoudi Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Amoudi Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Amoudi Bay",
+  "lat": 36.46,
+  "lon": 25.37055556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-vlore",
+  "category": "sea_ocean",
+  "name": "Bay of Vlore",
+  "aliases": [
+   "Vlora Bay",
+   "Bay of Vlora"
+  ],
+  "size": 250,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Vlorë\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Vlorë",
+  "lat": 40.45,
+  "lon": 19.4,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-grama-bay",
+  "category": "sea_ocean",
+  "name": "Grama Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Grama Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Grama Bay",
+  "lat": 40.21555556,
+  "lon": 19.47333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-piran",
+  "category": "sea_ocean",
+  "name": "Gulf of Piran",
+  "aliases": [
+   "Bay of Piran",
+   "Piran Bay"
+  ],
+  "size": 19,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Piran\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Piran",
+  "lat": 45.50444444,
+  "lon": 13.56194444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-porto-palermo",
+  "category": "sea_ocean",
+  "name": "Bay of Porto Palermo",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Porto Palermo\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Porto Palermo",
+  "lat": 40.06,
+  "lon": 19.785,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-toronean-gulf",
+  "category": "sea_ocean",
+  "name": "Toronean Gulf",
+  "aliases": [
+   "Gulf of Kassandra",
+   "Toroneos Gulf"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Toronean Gulf\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Toronean Gulf",
+  "lat": 40.13333333,
+  "lon": 23.63333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-balaklava-bay",
+  "category": "sea_ocean",
+  "name": "Balaklava Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Balaklava Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Balaklava Bay",
+  "lat": 44.4991,
+  "lon": 33.5986,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-puck",
+  "category": "sea_ocean",
+  "name": "Bay of Puck",
+  "aliases": [
+   "Puck Bay"
+  ],
+  "size": 364,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Puck\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Puck",
+  "lat": 54.6667,
+  "lon": 18.5833,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-patok-lagoon",
+  "category": "sea_ocean",
+  "name": "Patok Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Patok Lagoon\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Patok Lagoon",
+  "lat": 41.629,
+  "lon": 19.591,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-euboea",
+  "category": "sea_ocean",
+  "name": "Gulf of Euboea",
+  "aliases": [
+   "Euboean Gulf",
+   "Gulf of Evia"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Euboea\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Euboea",
+  "lat": 38.55,
+  "lon": 23.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kakome-bay",
+  "category": "sea_ocean",
+  "name": "Kakome Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kakome Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kakome Bay",
+  "lat": 39.92633333,
+  "lon": 19.93825,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-kalamita-bay",
+  "category": "sea_ocean",
+  "name": "Kalamita Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kalamita Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kalamita Bay",
+  "lat": 45.05,
+  "lon": 33.46666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-velebit-channel",
+  "category": "sea_ocean",
+  "name": "Velebit Channel",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Velebit Channel\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Velebit Channel",
+  "lat": 44.58333333,
+  "lon": 14.96666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-dnieper-bug-estuary",
+  "category": "sea_ocean",
+  "name": "Dnieper-Bug Estuary",
+  "aliases": [
+   "Dnieper-Bug Liman",
+   "Dnipro-Buh Estuary"
+  ],
+  "size": 800,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dnieper–Bug estuary\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dnieper–Bug estuary",
+  "lat": 46.61666667,
+  "lon": 31.95,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-dniester-estuary",
+  "category": "sea_ocean",
+  "name": "Dniester Estuary",
+  "aliases": [
+   "Dniester Liman"
+  ],
+  "size": 360,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dniester Estuary\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dniester Estuary",
+  "lat": 46.23333333,
+  "lon": 30.35,
+  "oceans": [
+   "Atlantic"
+  ]
  }
 ]

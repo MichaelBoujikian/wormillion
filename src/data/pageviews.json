@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T02:58:01.351Z",
+ "fetched": "2026-09-19T03:37:07.238Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -123567,6 +123567,188 @@
    "days": 60,
    "lat": 56.25361111,
    "lon": -61.85833333
+  },
+  "sea_ocean-souda-bay": {
+   "title": "Souda Bay",
+   "monthlyViews": 2313,
+   "days": 59,
+   "lat": 35.48333333,
+   "lon": 24.13805556
+  },
+  "sea_ocean-gulf-of-patras": {
+   "title": "Gulf of Patras",
+   "monthlyViews": 1400,
+   "days": 59,
+   "lat": 38.25,
+   "lon": 21.5
+  },
+  "sea_ocean-syvash": {
+   "title": "Syvash",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 46.08333333,
+   "lon": 34.33333333
+  },
+  "sea_ocean-euripus-strait": {
+   "title": "Euripus Strait",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 38.46277778,
+   "lon": 23.58944444
+  },
+  "sea_ocean-straits-of-corfu": {
+   "title": "Straits of Corfu",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": 39.77,
+   "lon": 19.97
+  },
+  "sea_ocean-lim-bay": {
+   "title": "Lim (Croatia)",
+   "monthlyViews": 609,
+   "days": 59,
+   "lat": 45.13313036,
+   "lon": 13.63541834
+  },
+  "sea_ocean-malian-gulf": {
+   "title": "Malian Gulf",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 38.86666667,
+   "lon": 22.63333333
+  },
+  "sea_ocean-lalzi-bay": {
+   "title": "Lalzi Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 41.47722222,
+   "lon": 19.50888889
+  },
+  "sea_ocean-mirabello-bay": {
+   "title": "Mirabello Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.1747,
+   "lon": 25.7858
+  },
+  "sea_ocean-mycale-strait": {
+   "title": "Mycale Strait",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 37.81972222,
+   "lon": 27.26416667
+  },
+  "sea_ocean-tallinn-bay": {
+   "title": "Tallinn Bay",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 59.51888889,
+   "lon": 24.66833333
+  },
+  "sea_ocean-amoudi-bay": {
+   "title": "Amoudi Bay",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 36.46,
+   "lon": 25.37055556
+  },
+  "sea_ocean-bay-of-vlore": {
+   "title": "Bay of Vlorë",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 40.45,
+   "lon": 19.4
+  },
+  "sea_ocean-grama-bay": {
+   "title": "Grama Bay",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 40.21555556,
+   "lon": 19.47333333
+  },
+  "sea_ocean-gulf-of-piran": {
+   "title": "Gulf of Piran",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 45.50444444,
+   "lon": 13.56194444
+  },
+  "sea_ocean-bay-of-porto-palermo": {
+   "title": "Bay of Porto Palermo",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 40.06,
+   "lon": 19.785
+  },
+  "sea_ocean-toronean-gulf": {
+   "title": "Toronean Gulf",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 40.13333333,
+   "lon": 23.63333333
+  },
+  "sea_ocean-balaklava-bay": {
+   "title": "Balaklava Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 44.4991,
+   "lon": 33.5986
+  },
+  "sea_ocean-bay-of-puck": {
+   "title": "Bay of Puck",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 54.6667,
+   "lon": 18.5833
+  },
+  "sea_ocean-patok-lagoon": {
+   "title": "Patok Lagoon",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 41.629,
+   "lon": 19.591
+  },
+  "sea_ocean-gulf-of-euboea": {
+   "title": "Gulf of Euboea",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 38.55,
+   "lon": 23.5
+  },
+  "sea_ocean-kakome-bay": {
+   "title": "Kakome Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 39.92633333,
+   "lon": 19.93825
+  },
+  "sea_ocean-kalamita-bay": {
+   "title": "Kalamita Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.05,
+   "lon": 33.46666667
+  },
+  "sea_ocean-velebit-channel": {
+   "title": "Velebit Channel",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.58333333,
+   "lon": 14.96666667
+  },
+  "sea_ocean-dnieper-bug-estuary": {
+   "title": "Dnieper–Bug estuary",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.61666667,
+   "lon": 31.95
+  },
+  "sea_ocean-dniester-estuary": {
+   "title": "Dniester Estuary",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 46.23333333,
+   "lon": 30.35
   }
  }
 }

@@ -8331,7 +8331,12 @@ export const WIKI_TITLES = {
   "island-skarda": "Škarda",
 
   // --- island (2026-09-18 Eastern Europe islands, namesakes) ---
-  "island-koufonisi-crete": "Koufonisi (Crete)"
+  "island-koufonisi-crete": "Koufonisi (Crete)",
+
+  // --- sea_ocean (2026-09-19 expansion) ---
+  "sea_ocean-lim-bay": "Lim (Croatia)",
+  "sea_ocean-bay-of-vlore": "Bay of Vlorë",
+  "sea_ocean-dnieper-bug-estuary": "Dnieper–Bug estuary"
 };
 
 /**
@@ -8924,5 +8929,9 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-18 Eastern Europe mountains: Volujak (Bosnia-Montenegro), no short description ---
   "mountain-volujak",
   // --- 2026-09-18 Eastern Europe islands: Sobieszewo Island is the island (a district of Gdansk by description) ---
-  "island-sobieszewo-island"
+  "island-sobieszewo-island",
+  // --- 2026-09-18 Eastern Europe seas: three articles without a short description (Patok is the Albanian lagoon, Kalamita the Crimean bay, the Dniester Estuary the liman) ---
+  "sea_ocean-patok-lagoon",
+  "sea_ocean-kalamita-bay",
+  "sea_ocean-dniester-estuary"
 ]);
