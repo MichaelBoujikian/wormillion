@@ -9624,7 +9624,7 @@
   "lon": 35.447
  },
  {
-  "id": "mountain-mount-nemrut",
+  "id": "mountain-mount-nemrut-adiyaman",
   "category": "mountain",
   "name": "Mount Nemrut",
   "aliases": [
@@ -9633,6 +9633,7 @@
   "size": 2134,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Mount Nemrut\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "qualifier": "Adiyaman",
   "magnitude": 5205,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Mount Nemrut",
@@ -44095,5 +44096,831 @@
   "wikiTitle": "Devil's Peak, Hong Kong",
   "lat": 22.29388889,
   "lon": 114.24388889
+ },
+ {
+  "id": "mountain-mount-arafat",
+  "category": "mountain",
+  "name": "Mount Arafat",
+  "aliases": [
+   "Jabal al-Rahmah"
+  ],
+  "size": 454,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Arafat\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 4140,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Arafat",
+  "lat": 21.35472222,
+  "lon": 39.98388889
+ },
+ {
+  "id": "mountain-mount-uhud",
+  "category": "mountain",
+  "name": "Mount Uhud",
+  "aliases": [],
+  "size": 1077,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Uhud\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 2861,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Uhud"
+ },
+ {
+  "id": "mountain-sauyr-zhotasy",
+  "category": "mountain",
+  "name": "Sauyr Zhotasy",
+  "aliases": [
+   "Muztau"
+  ],
+  "size": 3840,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Sauyr Zhotasy\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sauyr Zhotasy",
+  "lat": 47.04916667,
+  "lon": 85.56666667
+ },
+ {
+  "id": "mountain-mount-sipylus",
+  "category": "mountain",
+  "name": "Mount Sipylus",
+  "aliases": [
+   "Spil Dagi"
+  ],
+  "size": 1513,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Sipylus\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 1339,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Sipylus",
+  "lat": 38.56722222,
+  "lon": 27.45472222
+ },
+ {
+  "id": "mountain-taftan",
+  "category": "mountain",
+  "name": "Taftan",
+  "aliases": [],
+  "size": 3941,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Taftan (volcano)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Taftan (volcano)",
+  "lat": 28.6,
+  "lon": 61.1325
+ },
+ {
+  "id": "mountain-jebel-aqra",
+  "category": "mountain",
+  "name": "Jebel Aqra",
+  "aliases": [
+   "Mount Casius"
+  ],
+  "size": 1728,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Jebel Aqra\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jebel Aqra",
+  "lat": 35.9525,
+  "lon": 35.96930556
+ },
+ {
+  "id": "mountain-tahtali-dagi",
+  "category": "mountain",
+  "name": "Tahtali Dagi",
+  "aliases": [],
+  "size": 2366,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Tahtalı Dağı\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tahtalı Dağı",
+  "lat": 36.53694444,
+  "lon": 30.44194444
+ },
+ {
+  "id": "mountain-jabal-al-harim",
+  "category": "mountain",
+  "name": "Jabal Al Harim",
+  "aliases": [
+   "Jebel Harim"
+  ],
+  "size": 2087,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Jabal Al Harim\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jabal Al Harim",
+  "lat": 25.97638889,
+  "lon": 56.23222222
+ },
+ {
+  "id": "mountain-takur-ghar",
+  "category": "mountain",
+  "name": "Takur Ghar",
+  "aliases": [],
+  "size": 3191,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Takur Ghar\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Takur Ghar",
+  "lat": 33.3421,
+  "lon": 69.2138
+ },
+ {
+  "id": "mountain-little-ararat",
+  "category": "mountain",
+  "name": "Little Ararat",
+  "aliases": [
+   "Lesser Ararat"
+  ],
+  "size": 3925,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Little Ararat\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Little Ararat",
+  "lat": 39.65,
+  "lon": 44.4
+ },
+ {
+  "id": "mountain-abu-qubays",
+  "category": "mountain",
+  "name": "Abu Qubays",
+  "aliases": [],
+  "size": 420,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Abu Qubays (mountain)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abu Qubays (mountain)",
+  "lat": 21.42277778,
+  "lon": 39.82888889
+ },
+ {
+  "id": "mountain-jabal-maqla",
+  "category": "mountain",
+  "name": "Jabal Maqla",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Jabal Maqla\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jabal Maqla",
+  "lat": 28.59674,
+  "lon": 35.33549
+ },
+ {
+  "id": "mountain-cheekha-dar",
+  "category": "mountain",
+  "name": "Cheekha Dar",
+  "aliases": [],
+  "size": 3611,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Cheekha Dar\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Cheekha Dar",
+  "lat": 36.77666667,
+  "lon": 44.91861111
+ },
+ {
+  "id": "mountain-mount-tendurek",
+  "category": "mountain",
+  "name": "Mount Tendurek",
+  "aliases": [],
+  "size": 3514,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Tendürek\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Tendürek",
+  "lat": 39.37,
+  "lon": 43.87
+ },
+ {
+  "id": "mountain-khazret-sultan",
+  "category": "mountain",
+  "name": "Khazret Sultan",
+  "aliases": [],
+  "size": 4643,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Khazret Sultan\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Khazret Sultan",
+  "lat": 38.94833333,
+  "lon": 68.17222222
+ },
+ {
+  "id": "mountain-alam-kuh",
+  "category": "mountain",
+  "name": "Alam-Kuh",
+  "aliases": [],
+  "size": 4850,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Alam-Kuh\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alam-Kuh",
+  "lat": 36.37573611,
+  "lon": 50.961475
+ },
+ {
+  "id": "mountain-al-qarah-mountain",
+  "category": "mountain",
+  "name": "Al-Qarah Mountain",
+  "aliases": [
+   "Jabal al-Qarah"
+  ],
+  "size": 0,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Al-Qarah Mountain (Saudi Arabia)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Al-Qarah Mountain (Saudi Arabia)",
+  "lat": 25.40999167,
+  "lon": 49.68854722
+ },
+ {
+  "id": "mountain-khustup",
+  "category": "mountain",
+  "name": "Khustup",
+  "aliases": [],
+  "size": 3206,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Khustup\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Khustup",
+  "lat": 39.13555556,
+  "lon": 46.33138889
+ },
+ {
+  "id": "mountain-janga",
+  "category": "mountain",
+  "name": "Janga",
+  "aliases": [
+   "Dzhangi-Tau"
+  ],
+  "size": 5085,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Janga (mountain)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Janga (mountain)",
+  "lat": 43.01805556,
+  "lon": 43.05805556
+ },
+ {
+  "id": "mountain-mount-tmolus",
+  "category": "mountain",
+  "name": "Mount Tmolus",
+  "aliases": [
+   "Bozdag"
+  ],
+  "size": 2157,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Tmolus\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Tmolus",
+  "lat": 38.3231,
+  "lon": 28.1022
+ },
+ {
+  "id": "mountain-pik-talgar",
+  "category": "mountain",
+  "name": "Pik Talgar",
+  "aliases": [
+   "Talgar Peak"
+  ],
+  "size": 4979,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Pik Talgar\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pik Talgar",
+  "lat": 43.11833333,
+  "lon": 77.34083333
+ },
+ {
+  "id": "mountain-karaca-dag",
+  "category": "mountain",
+  "name": "Karaca Dag",
+  "aliases": [],
+  "size": 1957,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Karaca Dağ\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Karaca Dağ",
+  "lat": 37.67,
+  "lon": 39.83
+ },
+ {
+  "id": "mountain-mount-sikaram",
+  "category": "mountain",
+  "name": "Mount Sikaram",
+  "aliases": [
+   "Sikaram"
+  ],
+  "size": 4755,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Sikaram\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Sikaram",
+  "lat": 34.03833333,
+  "lon": 69.9025
+ },
+ {
+  "id": "mountain-azhdahak",
+  "category": "mountain",
+  "name": "Azhdahak",
+  "aliases": [],
+  "size": 3597,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Azhdahak (volcano)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Azhdahak (volcano)",
+  "lat": 40.22583333,
+  "lon": 44.94722222
+ },
+ {
+  "id": "mountain-kuh-e-bandaka",
+  "category": "mountain",
+  "name": "Kuh-e Bandaka",
+  "aliases": [
+   "Bandaka"
+  ],
+  "size": 6812,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Kuh-e Bandaka\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kuh-e Bandaka",
+  "lat": 36.17916667,
+  "lon": 70.98333333
+ },
+ {
+  "id": "mountain-karl-marx-peak",
+  "category": "mountain",
+  "name": "Karl Marx Peak",
+  "aliases": [],
+  "size": 6723,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Karl Marx Peak\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Karl Marx Peak",
+  "lat": 37.1625,
+  "lon": 72.48166667
+ },
+ {
+  "id": "mountain-mount-artos",
+  "category": "mountain",
+  "name": "Mount Artos",
+  "aliases": [],
+  "size": 3550,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Artos\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Artos",
+  "lat": 38.2462,
+  "lon": 43.1066
+ },
+ {
+  "id": "mountain-kurumdy-mountain",
+  "category": "mountain",
+  "name": "Kurumdy Mountain",
+  "aliases": [
+   "Kurumdy"
+  ],
+  "size": 6614,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Kurumdy Mountain\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kurumdy Mountain",
+  "lat": 39.45,
+  "lon": 73.56666667
+ },
+ {
+  "id": "mountain-greater-chimgan",
+  "category": "mountain",
+  "name": "Greater Chimgan",
+  "aliases": [
+   "Big Chimgan"
+  ],
+  "size": 3309,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Greater Chimgan\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Greater Chimgan",
+  "lat": 41.49444444,
+  "lon": 70.05777778
+ },
+ {
+  "id": "mountain-semenov-tian-shansky-peak",
+  "category": "mountain",
+  "name": "Semenov-Tian-Shansky Peak",
+  "aliases": [],
+  "size": 4895,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Semenov-Tian-Shansky Peak\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Semenov-Tian-Shansky Peak",
+  "lat": 42.52111111,
+  "lon": 74.57166667
+ },
+ {
+  "id": "mountain-tebulosmta",
+  "category": "mountain",
+  "name": "Tebulosmta",
+  "aliases": [],
+  "size": 4493,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Tebulosmta\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tebulosmta",
+  "lat": 42.57333333,
+  "lon": 45.3175
+ },
+ {
+  "id": "mountain-bazman",
+  "category": "mountain",
+  "name": "Bazman",
+  "aliases": [
+   "Kuh-e Bazman"
+  ],
+  "size": 3490,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Bazman\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bazman",
+  "lat": 28.11666667,
+  "lon": 60
+ },
+ {
+  "id": "mountain-mount-shani",
+  "category": "mountain",
+  "name": "Mount Shani",
+  "aliases": [],
+  "size": 4451,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Shani\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Shani",
+  "lat": 42.67583333,
+  "lon": 44.7575
+ },
+ {
+  "id": "mountain-mount-karadag",
+  "category": "mountain",
+  "name": "Mount Karadag",
+  "aliases": [],
+  "size": 2288,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Karadağ\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Karadağ",
+  "lat": 37.39944444,
+  "lon": 33.14638889
+ },
+ {
+  "id": "mountain-mount-kosedag",
+  "category": "mountain",
+  "name": "Mount Kosedag",
+  "aliases": [],
+  "size": 2794,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Kösedağ (Sivas)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Kösedağ (Sivas)",
+  "lat": 40.07733,
+  "lon": 37.97172
+ },
+ {
+  "id": "mountain-ayr-mountain",
+  "category": "mountain",
+  "name": "Ayr Mountain",
+  "aliases": [
+   "Jabal Ayr"
+  ],
+  "size": 955,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Ayr Mountain\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ayr Mountain"
+ },
+ {
+  "id": "mountain-jabal-sabir",
+  "category": "mountain",
+  "name": "Jabal Sabir",
+  "aliases": [
+   "Jabal Sabr"
+  ],
+  "size": 3006,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Jabal Sabir\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jabal Sabir",
+  "lat": 13.515,
+  "lon": 44.0517
+ },
+ {
+  "id": "mountain-mir-samir",
+  "category": "mountain",
+  "name": "Mir Samir",
+  "aliases": [],
+  "size": 5809,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mir Samir\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mir Samir",
+  "lat": 35.58805556,
+  "lon": 70.16555556
+ },
+ {
+  "id": "mountain-mount-garmo",
+  "category": "mountain",
+  "name": "Mount Garmo",
+  "aliases": [],
+  "size": 6595,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Garmo\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Garmo",
+  "lat": 38.8,
+  "lon": 72.06666667
+ },
+ {
+  "id": "mountain-oshtorankuh",
+  "category": "mountain",
+  "name": "Oshtorankuh",
+  "aliases": [
+   "Oshtoran Kuh"
+  ],
+  "size": 4050,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Oshtorankuh\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oshtorankuh",
+  "lat": 33.34027778,
+  "lon": 49.30444444
+ },
+ {
+  "id": "mountain-ara",
+  "category": "mountain",
+  "name": "Ara",
+  "aliases": [
+   "Mount Ara"
+  ],
+  "size": 2614,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Ara (mountain)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ara (mountain)"
+ },
+ {
+  "id": "mountain-ayribobo",
+  "category": "mountain",
+  "name": "Ayribobo",
+  "aliases": [
+   "Mount Ayrybaba"
+  ],
+  "size": 3138,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Ayribobo\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ayribobo",
+  "lat": 37.7875,
+  "lon": 66.55666667
+ },
+ {
+  "id": "mountain-mount-kaputjugh",
+  "category": "mountain",
+  "name": "Mount Kaputjugh",
+  "aliases": [
+   "Kapudzhukh"
+  ],
+  "size": 3905,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Kaputjugh\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Kaputjugh",
+  "lat": 39.15916667,
+  "lon": 46.00583333
+ },
+ {
+  "id": "mountain-mount-honaz",
+  "category": "mountain",
+  "name": "Mount Honaz",
+  "aliases": [],
+  "size": 2528,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Honaz\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Honaz",
+  "lat": 37.75805556,
+  "lon": 29.27083333
+ },
+ {
+  "id": "mountain-mount-ramon",
+  "category": "mountain",
+  "name": "Mount Ramon",
+  "aliases": [
+   "Har Ramon"
+  ],
+  "size": 1037,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Ramon\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Ramon",
+  "lat": 30.50291667,
+  "lon": 34.63925
+ },
+ {
+  "id": "mountain-mount-takht-e-suleyman",
+  "category": "mountain",
+  "name": "Mount Takht-e Suleyman",
+  "aliases": [],
+  "size": 4659,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Takht-e Suleyman\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Takht-e Suleyman",
+  "lat": 36.39083333,
+  "lon": 50.96027778
+ },
+ {
+  "id": "mountain-ailama",
+  "category": "mountain",
+  "name": "Ailama",
+  "aliases": [],
+  "size": 4547,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Ailama\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ailama",
+  "lat": 42.9572,
+  "lon": 43.1796
+ },
+ {
+  "id": "mountain-gollu-dag",
+  "category": "mountain",
+  "name": "Gollu Dag",
+  "aliases": [],
+  "size": 2143,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Göllü Dağ\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Göllü Dağ",
+  "lat": 38.25972222,
+  "lon": 34.55
+ },
+ {
+  "id": "mountain-jabal-daka",
+  "category": "mountain",
+  "name": "Jabal Daka",
+  "aliases": [],
+  "size": 2500,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Jabal Daka\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jabal Daka",
+  "lat": 21.1,
+  "lon": 40.28333333
+ },
+ {
+  "id": "mountain-jebel-al-mebrah",
+  "category": "mountain",
+  "name": "Jebel Al Mebrah",
+  "aliases": [],
+  "size": 1527,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Jebel Al Mebrah\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jebel Al Mebrah",
+  "lat": 25.64833333,
+  "lon": 56.12916667
+ },
+ {
+  "id": "mountain-kizilkaya",
+  "category": "mountain",
+  "name": "Kizilkaya",
+  "aliases": [],
+  "size": 3767,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Kızılkaya (mountain)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kızılkaya (mountain)",
+  "lat": 37.79666667,
+  "lon": 35.15694444
+ },
+ {
+  "id": "mountain-mount-arlan",
+  "category": "mountain",
+  "name": "Mount Arlan",
+  "aliases": [],
+  "size": 1880,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Arlan\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Arlan",
+  "lat": 39.67333333,
+  "lon": 54.54333333
+ },
+ {
+  "id": "mountain-shir-kuh",
+  "category": "mountain",
+  "name": "Shir Kuh",
+  "aliases": [
+   "Shirkuh"
+  ],
+  "size": 4055,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Shir Kuh\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Shir Kuh",
+  "lat": 31.60583333,
+  "lon": 54.06833333
+ },
+ {
+  "id": "mountain-tufandag",
+  "category": "mountain",
+  "name": "Tufandag",
+  "aliases": [],
+  "size": 4191,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Tufandağ\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tufandağ",
+  "lat": 41.1625,
+  "lon": 47.99138889
+ },
+ {
+  "id": "mountain-mount-ida-turkey",
+  "category": "mountain",
+  "name": "Mount Ida",
+  "aliases": [
+   "Kaz Dagi"
+  ],
+  "size": 1774,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Ida (Turkey)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "qualifier": "Turkey",
+  "magnitude": 3957,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Ida (Turkey)",
+  "lat": 39.7,
+  "lon": 26.83333333
+ },
+ {
+  "id": "mountain-mount-nemrut-bitlis",
+  "category": "mountain",
+  "name": "Mount Nemrut",
+  "aliases": [],
+  "size": 2948,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Nemrut (volcano)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "qualifier": "Bitlis",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nemrut (volcano)"
  }
 ]

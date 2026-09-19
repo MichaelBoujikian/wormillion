@@ -22,25 +22,28 @@ per wave) and SPEC §13; git log has the rest.
 **Resume point (refreshed with every chunk commit — the user's standing
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
-do the next thing named here):** West and Central Asia wave: rivers DONE
-(`8080ec1`, `2ccfebd`), lakes DONE (this commit: 51 lakes,
-`reports/2026-09-19-wca-lakes.md`). NEXT: the mountains probe — `node
-scripts/expansion/probe.mjs scripts/expansion/probes/wca-mountains.json >
-scripts/expansion/work/wca-mountains.out` (34 lists, no elevation floor,
-views floor 122; then `article-size.mjs work/wca-mountains.json --no-figure
---min-views=122 --sister=ru,tr,fa,ar,he,ka,hy,az,kk,uz`, the probe again,
-`chunk --tag=wca4 --min-views=122 --allow-no-figure`, hand-clean with the
-scratchpad's `clean-wca-mountains.cjs` (volcanoes by description; cut ranges
-/ passes / plateaus and foreign peaks — the Ultras lists reach Pakistan and
-India), fold, `--taken-only --tag=ns-wca4`, qualify, fold, then
-fetch-pageviews + build-data and `range-tag.mjs "the Himalayas"` dry
-(Afghanistan's Hindu Kush and the Pamir must not be tagged), pipeline,
-report, commit, push). Then the first Opus audit round (rivers + lakes +
-mountains; the pattern is
-`ea-rivers-lakes-mountains-audit-wf_9dffd4c1-933.js` in this session's
-workflows/scripts; run it OFFLINE while the islands probe runs), then
-islands, seas, deserts, cities, the second audit round, the wave report —
-step 3 below. Nothing uncommitted.
+do the next thing named here):** West and Central Asia wave: rivers, lakes
+and mountains DONE (`8080ec1`, `2ccfebd`, `138447a`, this commit — 54 peaks
++ 2 namesakes, `reports/2026-09-19-wca-mountains.md`). NEXT, two things at
+once: (a) the islands probe — `node scripts/expansion/probe.mjs
+scripts/expansion/probes/wca-islands.json >
+scripts/expansion/work/wca-islands.out` (1 km², views 91, `noFigureViews`
+122 → `article-size.mjs work/wca-islands.json --no-figure --min-views=91
+--sister=ru,tr,fa,ar,he,ka,hy,az,kk,uz`, the probe again, `chunk --tag=wca5
+--min-views=91 --allow-no-figure`, hand-clean by description (cut foreign
+rows; river/lake islands need `[]` in `OCEAN_OVERRIDES`; groups out), fold,
+`--taken-only --tag=ns-wca5`, qualify, fold, pipeline, report, commit,
+push); and (b) WHILE the probe runs, the first Opus audit round over rivers
++ lakes + mountains, OFFLINE — the `Workflow` tool, `parallel()` of two
+`agent()`s (data, gameplay), the pattern is this session's
+`workflows/scripts/ea-rivers-lakes-mountains-audit-wf_9dffd4c1-933.js` with
+the WCA facts (pre-wave commit `b4eb2ac`, chunk files `work/folded/wca/`,
+reports `2026-09-19-wca-rivers-big.md`, `-wca-rivers-small.md`,
+`-wca-lakes.md`, `-wca-mountains.md`; flagged: Mehran 1,289 km, Wadi Bani
+Khalid 156 km², Barsakelmes 450, Kapchagay 1,847, Hammar 600, Mount Nemrut
+(Adiyaman) / (Bitlis), Ailama); apply the findings (`drop.mjs`,
+`fix-titles.mjs`, hand edits), commit. Then seas, deserts, cities, the
+second audit round, the wave report — step 3 below. Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe and East Asia waves + the first West and Central

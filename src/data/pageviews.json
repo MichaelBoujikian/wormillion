@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T10:31:09.286Z",
+ "fetched": "2026-09-19T10:49:28.506Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -92376,7 +92376,7 @@
    "lat": 38.531,
    "lon": 35.447
   },
-  "mountain-mount-nemrut": {
+  "mountain-mount-nemrut-adiyaman": {
    "title": "Mount Nemrut",
    "monthlyViews": 5205,
    "days": 60,
@@ -109469,6 +109469,398 @@
    "days": 60,
    "lat": 22.29388889,
    "lon": 114.24388889
+  },
+  "mountain-mount-arafat": {
+   "title": "Mount Arafat",
+   "monthlyViews": 4140,
+   "days": 60,
+   "lat": 21.35472222,
+   "lon": 39.98388889
+  },
+  "mountain-mount-uhud": {
+   "title": "Mount Uhud",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-sauyr-zhotasy": {
+   "title": "Sauyr Zhotasy",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 47.04916667,
+   "lon": 85.56666667
+  },
+  "mountain-mount-sipylus": {
+   "title": "Mount Sipylus",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 38.56722222,
+   "lon": 27.45472222
+  },
+  "mountain-taftan": {
+   "title": "Taftan (volcano)",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 28.6,
+   "lon": 61.1325
+  },
+  "mountain-jebel-aqra": {
+   "title": "Jebel Aqra",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 35.9525,
+   "lon": 35.96930556
+  },
+  "mountain-tahtali-dagi": {
+   "title": "Tahtalı Dağı",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 36.53694444,
+   "lon": 30.44194444
+  },
+  "mountain-jabal-al-harim": {
+   "title": "Jabal Al Harim",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 25.97638889,
+   "lon": 56.23222222
+  },
+  "mountain-takur-ghar": {
+   "title": "Takur Ghar",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 33.3421,
+   "lon": 69.2138
+  },
+  "mountain-little-ararat": {
+   "title": "Little Ararat",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 39.65,
+   "lon": 44.4
+  },
+  "mountain-abu-qubays": {
+   "title": "Abu Qubays (mountain)",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 21.42277778,
+   "lon": 39.82888889
+  },
+  "mountain-jabal-maqla": {
+   "title": "Jabal Maqla",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 28.59674,
+   "lon": 35.33549
+  },
+  "mountain-cheekha-dar": {
+   "title": "Cheekha Dar",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 36.77666667,
+   "lon": 44.91861111
+  },
+  "mountain-mount-tendurek": {
+   "title": "Mount Tendürek",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 39.37,
+   "lon": 43.87
+  },
+  "mountain-khazret-sultan": {
+   "title": "Khazret Sultan",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 38.94833333,
+   "lon": 68.17222222
+  },
+  "mountain-alam-kuh": {
+   "title": "Alam-Kuh",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 36.37573611,
+   "lon": 50.961475
+  },
+  "mountain-al-qarah-mountain": {
+   "title": "Al-Qarah Mountain (Saudi Arabia)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 25.40999167,
+   "lon": 49.68854722
+  },
+  "mountain-khustup": {
+   "title": "Khustup",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 39.13555556,
+   "lon": 46.33138889
+  },
+  "mountain-janga": {
+   "title": "Janga (mountain)",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 43.01805556,
+   "lon": 43.05805556
+  },
+  "mountain-mount-tmolus": {
+   "title": "Mount Tmolus",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 38.3231,
+   "lon": 28.1022
+  },
+  "mountain-pik-talgar": {
+   "title": "Pik Talgar",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 43.11833333,
+   "lon": 77.34083333
+  },
+  "mountain-karaca-dag": {
+   "title": "Karaca Dağ",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 37.67,
+   "lon": 39.83
+  },
+  "mountain-mount-sikaram": {
+   "title": "Mount Sikaram",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 34.03833333,
+   "lon": 69.9025
+  },
+  "mountain-azhdahak": {
+   "title": "Azhdahak (volcano)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 40.22583333,
+   "lon": 44.94722222
+  },
+  "mountain-kuh-e-bandaka": {
+   "title": "Kuh-e Bandaka",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 36.17916667,
+   "lon": 70.98333333
+  },
+  "mountain-karl-marx-peak": {
+   "title": "Karl Marx Peak",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.1625,
+   "lon": 72.48166667
+  },
+  "mountain-mount-artos": {
+   "title": "Mount Artos",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 38.2462,
+   "lon": 43.1066
+  },
+  "mountain-kurumdy-mountain": {
+   "title": "Kurumdy Mountain",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 39.45,
+   "lon": 73.56666667
+  },
+  "mountain-greater-chimgan": {
+   "title": "Greater Chimgan",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 41.49444444,
+   "lon": 70.05777778
+  },
+  "mountain-semenov-tian-shansky-peak": {
+   "title": "Semenov-Tian-Shansky Peak",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 42.52111111,
+   "lon": 74.57166667
+  },
+  "mountain-tebulosmta": {
+   "title": "Tebulosmta",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 42.57333333,
+   "lon": 45.3175
+  },
+  "mountain-bazman": {
+   "title": "Bazman",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 28.11666667,
+   "lon": 60
+  },
+  "mountain-mount-shani": {
+   "title": "Mount Shani",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 42.67583333,
+   "lon": 44.7575
+  },
+  "mountain-mount-karadag": {
+   "title": "Mount Karadağ",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.39944444,
+   "lon": 33.14638889
+  },
+  "mountain-mount-kosedag": {
+   "title": "Mount Kösedağ (Sivas)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 40.07733,
+   "lon": 37.97172
+  },
+  "mountain-ayr-mountain": {
+   "title": "Ayr Mountain",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-jabal-sabir": {
+   "title": "Jabal Sabir",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 13.515,
+   "lon": 44.0517
+  },
+  "mountain-mir-samir": {
+   "title": "Mir Samir",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.58805556,
+   "lon": 70.16555556
+  },
+  "mountain-mount-garmo": {
+   "title": "Mount Garmo",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 38.8,
+   "lon": 72.06666667
+  },
+  "mountain-oshtorankuh": {
+   "title": "Oshtorankuh",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.34027778,
+   "lon": 49.30444444
+  },
+  "mountain-ara": {
+   "title": "Ara (mountain)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-ayribobo": {
+   "title": "Ayribobo",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.7875,
+   "lon": 66.55666667
+  },
+  "mountain-mount-kaputjugh": {
+   "title": "Mount Kaputjugh",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.15916667,
+   "lon": 46.00583333
+  },
+  "mountain-mount-honaz": {
+   "title": "Mount Honaz",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.75805556,
+   "lon": 29.27083333
+  },
+  "mountain-mount-ramon": {
+   "title": "Mount Ramon",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 30.50291667,
+   "lon": 34.63925
+  },
+  "mountain-mount-takht-e-suleyman": {
+   "title": "Mount Takht-e Suleyman",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.39083333,
+   "lon": 50.96027778
+  },
+  "mountain-ailama": {
+   "title": "Ailama",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 42.9572,
+   "lon": 43.1796
+  },
+  "mountain-gollu-dag": {
+   "title": "Göllü Dağ",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.25972222,
+   "lon": 34.55
+  },
+  "mountain-jabal-daka": {
+   "title": "Jabal Daka",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 21.1,
+   "lon": 40.28333333
+  },
+  "mountain-jebel-al-mebrah": {
+   "title": "Jebel Al Mebrah",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 25.64833333,
+   "lon": 56.12916667
+  },
+  "mountain-kizilkaya": {
+   "title": "Kızılkaya (mountain)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.79666667,
+   "lon": 35.15694444
+  },
+  "mountain-mount-arlan": {
+   "title": "Mount Arlan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 39.67333333,
+   "lon": 54.54333333
+  },
+  "mountain-shir-kuh": {
+   "title": "Shir Kuh",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 31.60583333,
+   "lon": 54.06833333
+  },
+  "mountain-tufandag": {
+   "title": "Tufandağ",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.1625,
+   "lon": 47.99138889
+  },
+  "mountain-mount-ida-turkey": {
+   "title": "Mount Ida (Turkey)",
+   "monthlyViews": 3957,
+   "days": 60,
+   "lat": 39.7,
+   "lon": 26.83333333
+  },
+  "mountain-mount-nemrut-bitlis": {
+   "title": "Nemrut (volcano)",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": null,
+   "lon": null
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",

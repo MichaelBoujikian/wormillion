@@ -7723,7 +7723,7 @@ Ochi|1398
 Pentelicus|1109
 Troodos|1952
 Erciyes|3916|Mount Erciyes
-Mount Nemrut|2134|Nemrut Dagi
+Mount Nemrut (Adiyaman)|2134|Nemrut Dagi
 Uludag|2543
 Hasan Dagi|3253
 Suphan|4058
@@ -10165,6 +10165,62 @@ Beacon Hill|457
 Castle Peak (Hong Kong)|583
 Namsan (Gyeongju)|494
 Devil's Peak (Hong Kong)|222
+Mount Arafat|454|Jabal al-Rahmah
+Mount Uhud|1077
+Sauyr Zhotasy|3840|Muztau
+Mount Sipylus|1513|Spil Dagi
+Taftan|3941
+Jebel Aqra|1728|Mount Casius
+Tahtali Dagi|2366
+Jabal Al Harim|2087|Jebel Harim
+Takur Ghar|3191
+Little Ararat|3925|Lesser Ararat
+Abu Qubays|420
+Jabal Maqla|0
+Cheekha Dar|3611
+Mount Tendurek|3514
+Khazret Sultan|4643
+Alam-Kuh|4850
+Al-Qarah Mountain|0|Jabal al-Qarah
+Khustup|3206
+Janga|5085|Dzhangi-Tau
+Mount Tmolus|2157|Bozdag
+Pik Talgar|4979|Talgar Peak
+Karaca Dag|1957
+Mount Sikaram|4755|Sikaram
+Azhdahak|3597
+Kuh-e Bandaka|6812|Bandaka
+Karl Marx Peak|6723
+Mount Artos|3550
+Kurumdy Mountain|6614|Kurumdy
+Greater Chimgan|3309|Big Chimgan
+Semenov-Tian-Shansky Peak|4895
+Tebulosmta|4493
+Bazman|3490|Kuh-e Bazman
+Mount Shani|4451
+Mount Karadag|2288
+Mount Kosedag|2794
+Ayr Mountain|955|Jabal Ayr
+Jabal Sabir|3006|Jabal Sabr
+Mir Samir|5809
+Mount Garmo|6595
+Oshtorankuh|4050|Oshtoran Kuh
+Ara|2614|Mount Ara
+Ayribobo|3138|Mount Ayrybaba
+Mount Kaputjugh|3905|Kapudzhukh
+Mount Honaz|2528
+Mount Ramon|1037|Har Ramon
+Mount Takht-e Suleyman|4659
+Ailama|4547
+Gollu Dag|2143
+Jabal Daka|2500
+Jebel Al Mebrah|1527
+Kizilkaya|3767
+Mount Arlan|1880
+Shir Kuh|4055|Shirkuh
+Tufandag|4191
+Mount Ida (Turkey)|1774|Kaz Dagi
+Mount Nemrut (Bitlis)|2948
 `;
 
 export const MINOR_PEAKS = `

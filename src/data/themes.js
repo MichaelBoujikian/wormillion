@@ -1690,7 +1690,12 @@ globalThis.WORMILLION_THEMES = {
       'Mount Kirigamine', 'Mount Kurikoma', 'Mount Naeba', 'Mount Oakan', 'Mount Shari',
       // add-theme.mjs
       'Mount Aka', 'Mount Tengu', 'Seonginbong', 'Qixing Mountain', 'Mount Suribachi',
-      'Mount Hoei', 'Mount Ashigara', 'Mount Oyama', 'Datun Mountain', 'Mount Karakuni'
+      'Mount Hoei', 'Mount Ashigara', 'Mount Oyama', 'Datun Mountain', 'Mount Karakuni',
+      // 2026-09-19 expansion
+      'Taftan', 'Little Ararat', 'Mount Tendurek', 'Karaca Dag', 'Azhdahak',
+      'Bazman', 'Mount Karadag', 'Ara', 'Gollu Dag',
+      // 2026-09-19 expansion
+      'Mount Nemrut (Bitlis)'
     ]
   },
 

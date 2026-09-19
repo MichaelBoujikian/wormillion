@@ -9347,7 +9347,28 @@ export const WIKI_TITLES = {
   "lake-lake-balik": "Lake Balık",
   "lake-imantau": "Imantau (lake)",
   "lake-lake-isikli": "Lake Işıklı",
-  "lake-lake-buyukcekmece": "Lake Büyükçekmece"
+  "lake-lake-buyukcekmece": "Lake Büyükçekmece",
+
+  // --- mountain (2026-09-19 expansion) ---
+  "mountain-taftan": "Taftan (volcano)",
+  "mountain-tahtali-dagi": "Tahtalı Dağı",
+  "mountain-abu-qubays": "Abu Qubays (mountain)",
+  "mountain-mount-tendurek": "Mount Tendürek",
+  "mountain-al-qarah-mountain": "Al-Qarah Mountain (Saudi Arabia)",
+  "mountain-janga": "Janga (mountain)",
+  "mountain-karaca-dag": "Karaca Dağ",
+  "mountain-azhdahak": "Azhdahak (volcano)",
+  "mountain-mount-karadag": "Mount Karadağ",
+  "mountain-mount-kosedag": "Mount Kösedağ (Sivas)",
+  "mountain-ara": "Ara (mountain)",
+  "mountain-gollu-dag": "Göllü Dağ",
+  "mountain-kizilkaya": "Kızılkaya (mountain)",
+  "mountain-tufandag": "Tufandağ",
+  "mountain-mount-nemrut-adiyaman": "Mount Nemrut",
+
+  // --- mountain (2026-09-19 expansion) ---
+  "mountain-mount-ida-turkey": "Mount Ida (Turkey)",
+  "mountain-mount-nemrut-bitlis": "Nemrut (volcano)"
 };
 
 /**
