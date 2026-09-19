@@ -2086,5 +2086,37 @@
   "magnitude": 122,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Hami Desert"
+ },
+ {
+  "id": "desert-sakhir",
+  "category": "desert",
+  "name": "Sakhir",
+  "aliases": [
+   "Sakhir Desert"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sakhir\", 60-day daily median (60 days ending 2026-09-19); Standard reference desert areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sakhir",
+  "lat": 26.0333,
+  "lon": 50.5167
+ },
+ {
+  "id": "desert-red-sand",
+  "category": "desert",
+  "name": "Red Sand",
+  "aliases": [
+   "Red Sand Dunes"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Red Sand\", 60-day daily median (60 days ending 2026-09-19); Standard reference desert areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Red Sand",
+  "lat": 24.364919,
+  "lon": 46.36645
  }
 ]

@@ -10431,6 +10431,8 @@ Oltenian Sahara|0|Sahara Olteniei,Oltenia Sahara
 Lop Desert|50000|Lop Nur Desert
 Tottori Sand Dunes|0|Tottori Dunes,Tottori Sakyu
 Hami Desert|0
+Sakhir|0|Sakhir Desert
+Red Sand|0|Red Sand Dunes
 `;
 
 export const ISLANDS = `
@@ -14357,4 +14359,10 @@ Mutsu Bay|1668
 Uchiura Bay|2485|Funka Bay,Volcano Bay
 Uraga Channel|0
 Xiamen Bay|0
+Straits of Tiran|0|Strait of Tiran
+ANZAC Cove|0
+Suvla|0|Suvla Bay
+Bay of Baku|50
+Kuwait Bay|0
+Anzali Lagoon|0
 `;

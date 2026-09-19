@@ -723,6 +723,9 @@ export const OCEAN_OVERRIDES = {
   'island-abadan-island': ['Indian'], // the head of the Persian Gulf at 30N sits above the Gulf's box
   'island-warbah-island': ['Indian'],
   'island-esek-island': ['Atlantic'], // Cesme's Aegean islet, no coordinates on Wikidata
+  // --- the West and Central Asia seas (2026-09-19): the Caspian's bay and lagoon are in no ocean
+  'sea_ocean-bay-of-baku': [],
+  'sea_ocean-anzali-lagoon': [],
   'island-minamidaitojima': ['Pacific'],
   'island-hachijo-kojima': ['Pacific'],
   'island-mageshima': ['Pacific'],

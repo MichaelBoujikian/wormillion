@@ -2300,7 +2300,9 @@ globalThis.WORMILLION_THEMES = {
       'Chara Sands', 'Maranjab Desert', 'Zin Desert', 'Arabah', 'Kharan Desert',
       'Moiynkum Desert', 'Saryesik-Atyrau Desert', 'Ryn Desert',
       // 2026-09-19 expansion
-      'Lop Desert', 'Tottori Sand Dunes', 'Hami Desert'
+      'Lop Desert', 'Tottori Sand Dunes', 'Hami Desert',
+      // 2026-09-19 expansion
+      'Sakhir', 'Red Sand'
     ],
     'Australia': [
       'Great Victoria Desert', 'Great Sandy Desert', 'Tanami Desert',
@@ -2420,7 +2422,10 @@ globalThis.WORMILLION_THEMES = {
       'Ariake Sea', 'Yalong Bay', 'Ise Bay', 'Korea Bay', 'Lei Yue Mun',
       'Miyako Strait', 'Junk Bay', 'Kabira Bay', 'Toyama Bay', 'Daya Bay',
       'Myeongnyang Strait', 'Akashi Strait', 'Kagoshima Bay', 'Mirs Bay', 'Omura Bay',
-      'Kii Channel', 'Mutsu Bay', 'Uchiura Bay', 'Uraga Channel', 'Xiamen Bay'
+      'Kii Channel', 'Mutsu Bay', 'Uchiura Bay', 'Uraga Channel', 'Xiamen Bay',
+      // 2026-09-19 expansion
+      'Straits of Tiran', 'ANZAC Cove', 'Suvla', 'Bay of Baku', 'Kuwait Bay',
+      'Anzali Lagoon'
     ],
     'the Americas': [
       'Caribbean Sea', 'Gulf of Mexico', 'Hudson Bay', 'Labrador Sea',

@@ -9993,5 +9993,7 @@ export const WIKI_VERIFIED = new Set([
   "island-hengam-island",
   "island-halul-island",
   "island-jubail-island",
-  "island-kubbar-island"
+  "island-kubbar-island",
+  // --- 2026-09-19 West and Central Asia seas: ANZAC Cove (Wikidata describes the battle site, the article is the cove) ---
+  "sea_ocean-anzac-cove"
 ]);

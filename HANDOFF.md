@@ -23,22 +23,23 @@ per wave) and SPEC §13; git log has the rest.
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
 do the next thing named here):** West and Central Asia wave: rivers, lakes,
-mountains, islands DONE and the first audit round APPLIED (this commit).
-RUNNING (or interrupted): the seas probe -
-`scripts/expansion/work/wca-seas.out` (ends with `PROBE-DONE`); if finished:
-`article-size.mjs work/wca-seas.json --no-figure --min-views=213
---sister=ru,tr,fa,ar,he,ka,hy,az,kk,uz`, the probe again, `chunk --tag=wca6
---min-views=213 --allow-no-figure`, hand-clean with the scratchpad's
-`clean-wca-seas.cjs` (cuts the worldwide lists to the wave by description,
-theme `Asia`), fold, `--taken-only --tag=ns-wca6`, qualify, fold,
-`OCEAN_OVERRIDES` for the Caspian's and the Aral's bays (`[]`), pipeline,
-report `reports/2026-09-19-wca-seas.md`, commit, push; if not: rerun the
-probe. Then deserts (`wca-deserts.json`), cities (`wca-cities.json`;
-capitals refused; qualify by province, never "X City"), the second Opus
+mountains, islands, seas, deserts DONE; the first audit round applied
+(`0b09b4f`). NEXT: the cities probe - `node scripts/expansion/probe.mjs
+scripts/expansion/probes/wca-cities.json >
+scripts/expansion/work/wca-cities.out` (27 national lists with
+`listCountry`, 50,000 floor, views 91; capitals are refused by the fold;
+Turkish "il merkezi" districts, Iranian counties and Israeli local councils
+are not cities; a city that is a country's or island's name is qualified by
+province, never "X City"; then `chunk --tag=wca8 --min-views=91`, hand-clean
+(the East Asia pattern:
+`scripts/expansion/reports/2026-09-19-ea-cities.md`), fold, `--taken-only
+--tag=ns-wca8`, qualify, fold, pipeline, report
+`reports/2026-09-19-wca-cities.md`, commit, push). Then the second Opus
 audit round (islands + seas + deserts + cities; the pattern is
-`workflows/scripts/wca-rivers-lakes-mountains-audit-wf_f60422ce-b6e.js`),
-the wave report `reports/2026-09-19-wca-wave.md`, HANDOFF, memory; then
-South America (the roadmap). Nothing uncommitted.
+`workflows/scripts/wca-rivers-lakes-mountains-audit-wf_f60422ce-b6e.js`,
+both auditors offline while any probe runs), apply, commit; the wave report
+`reports/2026-09-19-wca-wave.md`; HANDOFF "Where things stand"; memory; then
+South America (the roadmap: rivers first). Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe and East Asia waves + the first West and Central

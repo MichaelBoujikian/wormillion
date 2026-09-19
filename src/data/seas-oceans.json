@@ -12715,5 +12715,107 @@
   "oceans": [
    "Pacific"
   ]
+ },
+ {
+  "id": "sea_ocean-straits-of-tiran",
+  "category": "sea_ocean",
+  "name": "Straits of Tiran",
+  "aliases": [
+   "Strait of Tiran"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Straits of Tiran\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 5114,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Straits of Tiran",
+  "lat": 28.00388889,
+  "lon": 34.46527778,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-anzac-cove",
+  "category": "sea_ocean",
+  "name": "ANZAC Cove",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"ANZAC Cove\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1796,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "ANZAC Cove",
+  "lat": 40.23611111,
+  "lon": 26.2775,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-suvla",
+  "category": "sea_ocean",
+  "name": "Suvla",
+  "aliases": [
+   "Suvla Bay"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Suvla\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Suvla",
+  "lat": 40.3031,
+  "lon": 26.23,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-baku",
+  "category": "sea_ocean",
+  "name": "Bay of Baku",
+  "aliases": [],
+  "size": 50,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of Baku\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of Baku",
+  "lat": 40.335611,
+  "lon": 49.844091,
+  "oceans": []
+ },
+ {
+  "id": "sea_ocean-kuwait-bay",
+  "category": "sea_ocean",
+  "name": "Kuwait Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kuwait Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kuwait Bay",
+  "lat": 29.43333333,
+  "lon": 47.93333333,
+  "oceans": [
+   "Indian"
+  ]
+ },
+ {
+  "id": "sea_ocean-anzali-lagoon",
+  "category": "sea_ocean",
+  "name": "Anzali Lagoon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Anzali Lagoon\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Anzali Lagoon",
+  "lat": 37.47111111,
+  "lon": 49.46222222,
+  "oceans": []
  }
 ]

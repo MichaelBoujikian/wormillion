@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T11:30:10.414Z",
+ "fetched": "2026-09-19T11:44:49.700Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -111290,6 +111290,20 @@
    "lat": null,
    "lon": null
   },
+  "desert-sakhir": {
+   "title": "Sakhir",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 26.0333,
+   "lon": 50.5167
+  },
+  "desert-red-sand": {
+   "title": "Red Sand",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 24.364919,
+   "lon": 46.36645
+  },
   "island-greenland": {
    "title": "Greenland",
    "monthlyViews": 112324,
@@ -138729,6 +138743,48 @@
    "days": 60,
    "lat": 24.5,
    "lon": 118.25
+  },
+  "sea_ocean-straits-of-tiran": {
+   "title": "Straits of Tiran",
+   "monthlyViews": 5114,
+   "days": 60,
+   "lat": 28.00388889,
+   "lon": 34.46527778
+  },
+  "sea_ocean-anzac-cove": {
+   "title": "ANZAC Cove",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 40.23611111,
+   "lon": 26.2775
+  },
+  "sea_ocean-suvla": {
+   "title": "Suvla",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 40.3031,
+   "lon": 26.23
+  },
+  "sea_ocean-bay-of-baku": {
+   "title": "Bay of Baku",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 40.335611,
+   "lon": 49.844091
+  },
+  "sea_ocean-kuwait-bay": {
+   "title": "Kuwait Bay",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 29.43333333,
+   "lon": 47.93333333
+  },
+  "sea_ocean-anzali-lagoon": {
+   "title": "Anzali Lagoon",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.47111111,
+   "lon": 49.46222222
   }
  }
 }
