@@ -140,7 +140,18 @@ globalThis.WORMILLION_THEMES = {
     'the Caucasus': [
       'Coruh', 'Aras', 'Kura', 'Rioni', 'Enguri', 'Kodori', 'Alazani', 'Iori', 'Aragvi', 'Liakhvi', 'Terek', 'Kuban', 'Samur',
       // 2026-09-19 expansion
-      'Akhuryan'
+      'Akhuryan',
+      // 2026-09-19 expansion
+      'Hrazdan', 'Debed', 'Vorotan', 'Andi Koysu', 'Arpa',
+      'Assa', 'Hakari', 'Khrami', 'Tartar', 'Tskhenistsqali',
+      'Abasha', 'Acharistsqali', 'Dzoraget', 'Qarqarcay', 'Kasagh',
+      'Ksani', 'Qvirila', 'Supsa', 'Voghji', 'Aghstev',
+      'Algeti', 'Damiraparanchay', 'Dzirula', 'Girdimanchay', 'Goychay',
+      'Khachinchay', 'Khobi', 'Kurekchay', 'Little Liakhvi', 'Mashavera',
+      'Natanebi', 'Pambak', 'Paravani', 'Pirsaat', 'Qudyal',
+      'Sumgayitchay', 'Tekhuri', 'Turyan',
+      // 2026-09-19 expansion
+      'Argun (Caucasus)'
     ],
     'the Middle East': [
       'Euphrates', 'Tigris', 'Jordan River', 'Orontes', 'Litani', 'Barada', 'Yarmouk', 'Zarqa', 'Kishon', 'Yarkon',
@@ -152,7 +163,10 @@ globalThis.WORMILLION_THEMES = {
       'Alwand', 'Mehran', 'Qom', 'Simineh', 'Zangmar',
       'Zohreh', 'Bolgarchay', 'Chalus', 'Gadar', 'Helleh',
       'Marun', 'Mond', 'Qarah Aghaj', 'Qarasu', 'Seymareh',
-      'Shahrud', 'Wadi Arar'
+      'Shahrud', 'Wadi Arar',
+      // 2026-09-19 expansion
+      'Wadi Mujib', 'Nahal Sorek', 'Wadi al-Batin', 'Hasbani', 'Wadi Bani Khalid',
+      'Nahr al-Kabir', 'Nahal Paran', 'Lakhish', 'Arava Stream', 'Awaj'
     ],
     'Central Asia': [
       'Ural River', 'Amu Darya', 'Syr Darya', 'Helmand River', 'Zeravshan', 'Panj', 'Vakhsh', 'Naryn', 'Chu', 'Talas',
@@ -177,7 +191,19 @@ globalThis.WORMILLION_THEMES = {
       'Tundik', 'Uba', 'Ubagan', 'Ulba', 'Ulkayak',
       'Urzhar', 'Zhabay', 'Zharly', 'Zhymyky', 'Zhyngyldyozek',
       // 2026-09-19 expansion
-      'Naryn (East Kazakhstan)'
+      'Naryn (East Kazakhstan)',
+      // 2026-09-19 expansion
+      'Kara Darya', 'Chirchiq', 'Chong-Kemin', 'Gunt', 'Surxondaryo',
+      'Yaghnob', 'Ak-Buura', 'Ala-Archa', 'Alamudun', 'Chatkal',
+      'Isfara', 'Jyrgalang', 'Kofarnihon', 'Qizilsu', 'Kokomeren',
+      'Qashqadaryo', 'Sokh', 'Tup', 'Varzob', 'On-Archa',
+      'Ala-Buga', 'Angren', 'Aravansay', 'At-Bashy', 'Chychkan',
+      'Jazy', 'Jumgal', 'Juuku', 'Kara-Suu', 'Kara-Ungkur',
+      'Karatag', 'Khojabakirgan', 'Kurshab', 'Kogart', 'Kokkyya',
+      'Mughob', 'Pskem', 'Shakhdara', 'Sherobod', 'Shohimardonsoy',
+      'Sokuluk', 'Suusamyr', 'Vanj', 'Yazghulom', 'Ysyk-Ata',
+      // 2026-09-19 expansion
+      'Tar (Kyrgyzstan)'
     ],
     'the British Isles': [
       'Thames', 'Severn', 'Trent', 'Shannon', 'Liffey', 'Clyde', 'Tay', 'Spey',

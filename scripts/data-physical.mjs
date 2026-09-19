@@ -6902,6 +6902,103 @@ Cekerek|300
 Aksu (Turkey)|162
 Karasu (Hatay)|122
 Naryn (East Kazakhstan)|100
+Wadi Mujib|72|Arnon River
+Nahal Sorek|65|Soreq Stream
+Wadi al-Batin|72
+Hasbani|65|Snir Stream
+Wadi Bani Khalid|156
+Kara Darya|177|Qoradaryo
+Hrazdan|141|Zanga River
+Pedieos|98|Pediaios
+Debed|176|Debeda
+Nahr al-Kabir|60
+Chirchiq|155|Chirchik
+Chong-Kemin|116
+Gunt|296
+Nahal Paran|150
+Vorotan|162|Bargushad
+Andi Koysu|144
+Arpa|128
+Assa|133
+Hakari|128
+Khrami|201|Ktsia River
+Lakhish|70
+Surxondaryo|175|Surkhandarya
+Tartar|184|Terter
+Tskhenistsqali|176
+Yaghnob|116
+Abasha|66
+Acharistsqali|90
+Ak-Buura|148
+Ala-Archa|78
+Alamudun|78
+Arava Stream|100
+Chatkal|223
+Dzoraget|67
+Gialias|88|Yialias
+Isfara|130
+Jyrgalang|97
+Kofarnihon|387|Kafirnigan
+Qarqarcay|115|Karkarchay
+Kasagh|89
+Ksani|84
+Qizilsu|230|Kyzylsu
+Kokomeren|199
+Qashqadaryo|378|Kashkadarya
+Qvirila|140
+Sokh|124
+Supsa|108
+Tup|120
+Varzob|71
+Voghji|82
+On-Archa|75
+Aghstev|121|Agstafachay
+Ala-Buga|180
+Algeti|118
+Angren|223|Ohangaron
+Aravansay|102
+At-Bashy|180
+Awaj|70
+Chychkan|78
+Damiraparanchay|69
+Dzirula|83
+Girdimanchay|88
+Goychay|113
+Jazy|122
+Jumgal|96
+Juuku|63
+Kara-Suu|85
+Kara-Ungkur|127
+Karatag|112
+Khachinchay|119
+Khobi|150
+Khojabakirgan|117
+Kurekchay|186
+Kurshab|157
+Kogart|105
+Kokkyya|83
+Little Liakhvi|63
+Mashavera|66
+Mughob|88
+Natanebi|60
+Pambak|86
+Paravani|74
+Pirsaat|199
+Pskem|149
+Qudyal|108
+Shakhdara|142
+Sherobod|177|Sherabad
+Shohimardonsoy|112
+Sokuluk|87
+Sumgayitchay|88
+Suusamyr|90
+Tekhuri|101
+Turyan|180
+Vanj|103
+Yazghulom|80|Yazgulem
+Ysyk-Ata|81
+Argun (Caucasus)|148
+Tar (Kyrgyzstan)|192
 `;
 
 export const MOUNTAINS = `

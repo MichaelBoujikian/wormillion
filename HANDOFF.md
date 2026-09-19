@@ -22,15 +22,20 @@ per wave) and SPEC §13; git log has the rest.
 **Resume point (refreshed with every chunk commit — the user's standing
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
-do the next thing named here):** West and Central Asia wave, probe 2 (the
-small countries' rivers, `probes/wca-rivers-small.json`) is RUNNING or was
-interrupted — its output is `work/wca-rivers-small.out` (ends with
-`PROBE-DONE` when finished). If finished: `article-size.mjs
-work/wca-rivers-small.json --no-figure --min-views=30
---sister=ru,tr,fa,ar,he,ka,hy,az,uz`, the probe again, `chunk --tag=wca2
---min-views=30 --allow-no-figure`, hand-clean with themes by description
-(step 3 below), fold, taken list, qualify, pipeline, commit, push. If not:
-rerun the probe. Nothing else is uncommitted.
+do the next thing named here):** West and Central Asia wave: rivers DONE
+(probe 1 `8080ec1`, probe 2 the small countries — 95 + 2 namesakes,
+`reports/2026-09-19-wca-rivers-small.md`). NEXT: the lakes probe — `node
+scripts/expansion/probe.mjs scripts/expansion/probes/wca-lakes.json >
+scripts/expansion/work/wca-lakes.out` (25 km²; then `article-size.mjs
+work/wca-lakes.json --min-views=61 --sister=ru,tr,fa,ar,he,ka,hy,az,kk,uz`,
+the probe again, `chunk --tag=wca3 --min-views=61`, hand-clean — lakes never
+unsized; salt lakes into `saltwater` by description; reservoirs stay out
+unless the article calls them lakes — fold, taken list `--taken-only
+--tag=ns-wca3`, qualify, fold, pipeline, report, commit, push). The
+hand-clean pattern is the scratchpad's `clean-wca2.cjs` (themes by
+description; the concept-row filter). Then mountains, islands, seas,
+deserts, cities, the two audit rounds, the wave report — step 3 below.
+Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe and East Asia waves + the first West and Central
