@@ -2143,7 +2143,11 @@ globalThis.WORMILLION_THEMES = {
       'Tangra Yumco',
       // add-theme.mjs
       'Spanggur Tso', 'Uureg Lake', 'Aksai Chin Lake', 'Zhari Namco', 'Dabusun Lake',
-      'Sangiin Dalai Lake'
+      'Sangiin Dalai Lake',
+      // 2026-09-19 expansion
+      'Barsakelmes Lake', 'Lake Hammar', 'Lake Acigol', 'Sabkhat al-Jabbul', 'Gavkhouni',
+      'Koshkar-Ata', 'Tuzkan Lake', 'Ab-i Istada', 'Inder', 'Aralsor',
+      'Lake Palas Tuzla'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [

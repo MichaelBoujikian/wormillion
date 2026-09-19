@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T09:59:07.667Z",
+ "fetched": "2026-09-19T10:31:09.286Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -49780,6 +49780,363 @@
    "days": 60,
    "lat": 40.08666667,
    "lon": 94.66944444
+  },
+  "lake-north-aral-sea": {
+   "title": "North Aral Sea",
+   "monthlyViews": 2313,
+   "days": 59,
+   "lat": 46.5,
+   "lon": 60.7
+  },
+  "lake-uzungol": {
+   "title": "Uzungöl",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 40.61916667,
+   "lon": 40.295
+  },
+  "lake-shagan": {
+   "title": "Shagan (lake, Abai Region)",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 49.93527778,
+   "lon": 79.00833333
+  },
+  "lake-lake-hazar": {
+   "title": "Lake Hazar",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 38.48333333,
+   "lon": 39.41666667
+  },
+  "lake-barsakelmes-lake": {
+   "title": "Barsakelmes Lake",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 46.23,
+   "lon": 59.69
+  },
+  "lake-kapchagay-reservoir": {
+   "title": "Kapchagay Reservoir",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 43.86666667,
+   "lon": 77.5
+  },
+  "lake-lake-charvak": {
+   "title": "Lake Charvak",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 41.64,
+   "lon": 70.03
+  },
+  "lake-lake-cildir": {
+   "title": "Lake Çıldır",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 41.0425,
+   "lon": 43.2552778
+  },
+  "lake-zorkul": {
+   "title": "Zorkul",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 37.45,
+   "lon": 73.7
+  },
+  "lake-mingachevir-reservoir": {
+   "title": "Mingachevir reservoir",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 40.78888889,
+   "lon": 47.02777778
+  },
+  "lake-bulunkul": {
+   "title": "Bulunkul",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.71944444,
+   "lon": 72.95555556
+  },
+  "lake-lake-hammar": {
+   "title": "Lake Hammar",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 30.76666667,
+   "lon": 47.05
+  },
+  "lake-kayrakkum-reservoir": {
+   "title": "Kayrakkum Reservoir",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 40.39444444,
+   "lon": 70.18138889
+  },
+  "lake-sardoba-reservoir": {
+   "title": "Sardoba Reservoir",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 40.3446,
+   "lon": 68.4658
+  },
+  "lake-ataturk-reservoir": {
+   "title": "Atatürk Reservoir",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.59138889,
+   "lon": 38.62083333
+  },
+  "lake-lake-acigol": {
+   "title": "Lake Acıgöl",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.81666667,
+   "lon": 29.88333333
+  },
+  "lake-lake-durusu": {
+   "title": "Lake Durusu",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 41.33333333,
+   "lon": 28.56666667
+  },
+  "lake-lake-marmara": {
+   "title": "Lake Marmara",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 38.614377,
+   "lon": 27.983474
+  },
+  "lake-sabkhat-al-jabbul": {
+   "title": "Sabkhat al-Jabbul",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.06666667,
+   "lon": 37.5
+  },
+  "lake-akhurian-reservoir": {
+   "title": "Akhurian Reservoir",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 40.56324167,
+   "lon": 43.65451667
+  },
+  "lake-andijan-reservoir": {
+   "title": "Andijan Reservoir",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 40.77472222,
+   "lon": 73.12194444
+  },
+  "lake-gavkhouni": {
+   "title": "Gavkhouni",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 32.13492,
+   "lon": 52.91153
+  },
+  "lake-koshkar-ata": {
+   "title": "Koshkar-Ata (lake)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-lake-parishan": {
+   "title": "Lake Parishan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 29.50583333,
+   "lon": 51.80333333
+  },
+  "lake-lake-qadisiyah": {
+   "title": "Lake Qadisiyah",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.30888889,
+   "lon": 42.23888889
+  },
+  "lake-tudakul": {
+   "title": "Tudakul",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-tuzkan-lake": {
+   "title": "Tuzkan Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 40.59527778,
+   "lon": 67.49111111
+  },
+  "lake-ab-i-istada": {
+   "title": "Ab-i Istada",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 32.5,
+   "lon": 67.9
+  },
+  "lake-inder": {
+   "title": "Inder (lake)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 48.46666667,
+   "lon": 54.9
+  },
+  "lake-kamyslybas": {
+   "title": "Kamyslybas",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 46.199722,
+   "lon": 61.799444
+  },
+  "lake-karasor": {
+   "title": "Karasor (lake, Ekibastuz)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 51.96611111,
+   "lon": 75.69555556
+  },
+  "lake-kartsakhi-lake": {
+   "title": "Kartsakhi Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 41.215,
+   "lon": 43.22111111
+  },
+  "lake-lake-aggol": {
+   "title": "Lake Ağgöl",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 40,
+   "lon": 47.66694444
+  },
+  "lake-lake-balik": {
+   "title": "Lake Balık",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 39.75,
+   "lon": 43.56666667
+  },
+  "lake-lake-hamrin": {
+   "title": "Lake Hamrin",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 34.19111111,
+   "lon": 44.995
+  },
+  "lake-lake-sarysu": {
+   "title": "Lake Sarysu",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 40.04722222,
+   "lon": 48.17277778
+  },
+  "lake-lake-zhalanashkol": {
+   "title": "Lake Zhalanashkol",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 45.56552778,
+   "lon": 82.15483333
+  },
+  "lake-yashilkul": {
+   "title": "Yashilkul",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 37.75,
+   "lon": 72.9
+  },
+  "lake-akush": {
+   "title": "Akush",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 55.32444444,
+   "lon": 68.96305556
+  },
+  "lake-aralsor": {
+   "title": "Aralsor",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.06666667,
+   "lon": 48.18333333
+  },
+  "lake-botkul": {
+   "title": "Botkul",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.76666667,
+   "lon": 46.66666667
+  },
+  "lake-hanhowuz-reservoir": {
+   "title": "Hanhowuz Reservoir",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.23222222,
+   "lon": 61.24361111
+  },
+  "lake-imantau": {
+   "title": "Imantau (lake)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.01666667,
+   "lon": 68.27777778
+  },
+  "lake-lake-eber": {
+   "title": "Lake Eber",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 38.63333333,
+   "lon": 31.15
+  },
+  "lake-lake-isikli": {
+   "title": "Lake Işıklı",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 38.23333333,
+   "lon": 29.9
+  },
+  "lake-lake-nazik": {
+   "title": "Lake Nazik",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 38.855547,
+   "lon": 42.286783
+  },
+  "lake-lake-palas-tuzla": {
+   "title": "Lake Palas Tuzla",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 39.01666667,
+   "lon": 35.8
+  },
+  "lake-lake-sasykkol": {
+   "title": "Lake Sasykkol",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 46.58333333,
+   "lon": 81
+  },
+  "lake-sorbulak": {
+   "title": "Sorbulak",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 43.68333333,
+   "lon": 76.58333333
+  },
+  "lake-zeid-reservoir": {
+   "title": "Zeid Reservoir",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "lake-lake-buyukcekmece": {
+   "title": "Lake Büyükçekmece",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 41.06527778,
+   "lon": 28.55694444
   },
   "river-nile": {
    "title": "Nile",

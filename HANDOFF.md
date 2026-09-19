@@ -23,19 +23,24 @@ per wave) and SPEC §13; git log has the rest.
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
 do the next thing named here):** West and Central Asia wave: rivers DONE
-(probe 1 `8080ec1`, probe 2 the small countries — 95 + 2 namesakes,
-`reports/2026-09-19-wca-rivers-small.md`). NEXT: the lakes probe — `node
-scripts/expansion/probe.mjs scripts/expansion/probes/wca-lakes.json >
-scripts/expansion/work/wca-lakes.out` (25 km²; then `article-size.mjs
-work/wca-lakes.json --min-views=61 --sister=ru,tr,fa,ar,he,ka,hy,az,kk,uz`,
-the probe again, `chunk --tag=wca3 --min-views=61`, hand-clean — lakes never
-unsized; salt lakes into `saltwater` by description; reservoirs stay out
-unless the article calls them lakes — fold, taken list `--taken-only
---tag=ns-wca3`, qualify, fold, pipeline, report, commit, push). The
-hand-clean pattern is the scratchpad's `clean-wca2.cjs` (themes by
-description; the concept-row filter). Then mountains, islands, seas,
-deserts, cities, the two audit rounds, the wave report — step 3 below.
-Nothing uncommitted.
+(`8080ec1`, `2ccfebd`), lakes DONE (this commit: 51 lakes,
+`reports/2026-09-19-wca-lakes.md`). NEXT: the mountains probe — `node
+scripts/expansion/probe.mjs scripts/expansion/probes/wca-mountains.json >
+scripts/expansion/work/wca-mountains.out` (34 lists, no elevation floor,
+views floor 122; then `article-size.mjs work/wca-mountains.json --no-figure
+--min-views=122 --sister=ru,tr,fa,ar,he,ka,hy,az,kk,uz`, the probe again,
+`chunk --tag=wca4 --min-views=122 --allow-no-figure`, hand-clean with the
+scratchpad's `clean-wca-mountains.cjs` (volcanoes by description; cut ranges
+/ passes / plateaus and foreign peaks — the Ultras lists reach Pakistan and
+India), fold, `--taken-only --tag=ns-wca4`, qualify, fold, then
+fetch-pageviews + build-data and `range-tag.mjs "the Himalayas"` dry
+(Afghanistan's Hindu Kush and the Pamir must not be tagged), pipeline,
+report, commit, push). Then the first Opus audit round (rivers + lakes +
+mountains; the pattern is
+`ea-rivers-lakes-mountains-audit-wf_9dffd4c1-933.js` in this session's
+workflows/scripts; run it OFFLINE while the islands probe runs), then
+islands, seas, deserts, cities, the second audit round, the wave report —
+step 3 below. Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe and East Asia waves + the first West and Central
@@ -574,6 +579,15 @@ background (the Bash tool caps at 600 s).
 - **Every audit round has found real problems** — 2 to 10 per cohort, from
   a Greenland island folded as Canadian to the whole Rockies theme accepting
   Mount Olympus. Never skip one; run them offline while a probe runs.
+- **A national list can resolve to a generic page.** "List of rivers of
+  Bahrain" (a country with no rivers) became the article *River* and its
+  236 links — Meander, Thalweg, Fish ladder, the Syrian Navy — all "read
+  as rivers" by their descriptions and all unsized at 122+ views, i.e.
+  headed into the bank at `size` 0. The hand-clean keeps only rows whose
+  description names a river / stream / wadi *in a place*
+  (`PLACE` / `CONCEPT` in the scratchpad's `clean-wca2.cjs`); check the
+  probe's "list page … N links" lines for a count that makes no sense for
+  the country (West and Central Asia, 2026-09-19).
 
 ---
 

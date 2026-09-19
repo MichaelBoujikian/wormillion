@@ -1632,6 +1632,57 @@ Yangzong Lake|31
 Yilong Lake|32
 Zigetangcuo Lake|187
 Crescent Lake (Dunhuang)|0.01|Yueyaquan,Crescent Moon Lake,Crescent Spring
+North Aral Sea|3300
+Uzungol|0.13
+Shagan|5.2|Atomic Lake
+Lake Hazar|81
+Barsakelmes Lake|450
+Kapchagay Reservoir|1847
+Lake Charvak|37
+Lake Cildir|123
+Zorkul|38.9
+Mingachevir Reservoir|605
+Bulunkul|39
+Lake Hammar|600
+Kayrakkum Reservoir|523|Tajik Sea
+Sardoba Reservoir|60
+Ataturk Reservoir|817
+Lake Acigol|100
+Lake Durusu|39|Lake Terkos
+Lake Marmara|44.5
+Sabkhat al-Jabbul|100
+Akhurian Reservoir|54
+Andijan Reservoir|56
+Gavkhouni|476
+Koshkar-Ata|65
+Lake Parishan|40.5
+Lake Qadisiyah|500
+Tudakul|220
+Tuzkan Lake|705
+Ab-i Istada|130
+Inder|110
+Kamyslybas|176
+Karasor|44.3
+Kartsakhi Lake|26.3
+Lake Aggol|56.2
+Lake Balik|34
+Lake Hamrin|340
+Lake Sarysu|65.7
+Lake Zhalanashkol|38
+Yashilkul|36
+Akush|25.8
+Aralsor|124
+Botkul|32
+Hanhowuz Reservoir|210
+Imantau|49
+Lake Eber|125
+Lake Isikli|73
+Lake Nazik|44.5
+Lake Palas Tuzla|25
+Lake Sasykkol|600
+Sorbulak|55
+Zeid Reservoir|465
+Lake Buyukcekmece|28.47
 `;
 
 export const RIVERS = `

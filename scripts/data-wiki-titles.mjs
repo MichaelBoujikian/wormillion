@@ -9331,7 +9331,23 @@ export const WIKI_TITLES = {
 
   // --- river (2026-09-19 expansion) ---
   "river-argun-caucasus": "Argun (Caucasus)",
-  "river-tar-kyrgyzstan": "Tar (Kyrgyzstan)"
+  "river-tar-kyrgyzstan": "Tar (Kyrgyzstan)",
+
+  // --- lake (2026-09-19 expansion) ---
+  "lake-uzungol": "Uzungöl",
+  "lake-shagan": "Shagan (lake, Abai Region)",
+  "lake-lake-cildir": "Lake Çıldır",
+  "lake-mingachevir-reservoir": "Mingachevir reservoir",
+  "lake-ataturk-reservoir": "Atatürk Reservoir",
+  "lake-lake-acigol": "Lake Acıgöl",
+  "lake-koshkar-ata": "Koshkar-Ata (lake)",
+  "lake-inder": "Inder (lake)",
+  "lake-karasor": "Karasor (lake, Ekibastuz)",
+  "lake-lake-aggol": "Lake Ağgöl",
+  "lake-lake-balik": "Lake Balık",
+  "lake-imantau": "Imantau (lake)",
+  "lake-lake-isikli": "Lake Işıklı",
+  "lake-lake-buyukcekmece": "Lake Büyükçekmece"
 };
 
 /**
@@ -9936,5 +9952,7 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-19 East Asia rivers audit: Kezi is 900 km (the enwiki infobox; zhwiki's 238 km is the reach above the gorge) ---
   "river-kezi",
   // --- 2026-09-19 East Asia seas: Xiamen Bay (no short description; the bay of Xiamen, Fujian) ---
-  "sea_ocean-xiamen-bay"
+  "sea_ocean-xiamen-bay",
+  // --- 2026-09-19 West and Central Asia lakes: Lake Buyukcekmece (Istanbul; no short description) ---
+  "lake-lake-buyukcekmece"
 ]);
