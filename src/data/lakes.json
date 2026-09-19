@@ -23348,20 +23348,6 @@
   "lon": 39.41666667
  },
  {
-  "id": "lake-barsakelmes-lake",
-  "category": "lake",
-  "name": "Barsakelmes Lake",
-  "aliases": [],
-  "size": 450,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Barsakelmes Lake\", 60-day daily median (60 days ending 2026-09-19); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 700,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Barsakelmes Lake",
-  "lat": 46.23,
-  "lon": 59.69
- },
- {
   "id": "lake-kapchagay-reservoir",
   "category": "lake",
   "name": "Kapchagay Reservoir",

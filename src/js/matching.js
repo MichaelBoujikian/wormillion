@@ -27,9 +27,11 @@
       .replace(/[̀-ͯ]/g, '') // strip diacritics so "Yaoundé" == "Yaounde"
       // ...and fold the letters NFD leaves alone, so "Møn" == "Mon"
       .replace(/ø/gi, 'o').replace(/æ/gi, 'ae').replace(/œ/gi, 'oe').replace(/ł/gi, 'l').replace(/ß/g, 'ss').replace(/[đð]/gi, 'd').replace(/þ/gi, 'th')
+      // ...the Turkish dotless i (no decomposition either), so "Çıldır" == "Cildir" (the 2026-09-19 West and Central Asia audit)
+      .replace(/ı/g, 'i')
       .toLowerCase()
       // the Hawaiian okina (U+02BB) is an apostrophe too: "Kaneʻohe" == "Kane'ohe" == "Kaneohe"
-      .replace(/[‘’ʼʻ]/g, "'")
+      .replace(/[‘’ʼʻʿʾ]/g, "'") // ...and the Arabic ayin / hamza marks (U+02BF, U+02BE): "ʿAdhaim" == "Adhaim"
       // a hyphen is a space: "Saint-Ouen-sur-Seine" typed "Saint Ouen sur Seine" is the
       // same name, and "St" inside it can only be filler once it stands alone
       // (2026-09-17 audit: 47 hyphenated rows landed only as corrections)

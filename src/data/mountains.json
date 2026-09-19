@@ -9658,7 +9658,9 @@
   "id": "mountain-hasan-dagi",
   "category": "mountain",
   "name": "Hasan Dagi",
-  "aliases": [],
+  "aliases": [
+   "Mount Hasan"
+  ],
   "size": 3253,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Mount Hasan\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -44161,7 +44163,9 @@
   "id": "mountain-taftan",
   "category": "mountain",
   "name": "Taftan",
-  "aliases": [],
+  "aliases": [
+   "Kuh-e Taftan"
+  ],
   "size": 3941,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Taftan (volcano)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",

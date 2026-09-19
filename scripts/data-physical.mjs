@@ -1636,7 +1636,6 @@ North Aral Sea|3300
 Uzungol|0.13
 Shagan|5.2|Atomic Lake
 Lake Hazar|81
-Barsakelmes Lake|450
 Kapchagay Reservoir|1847
 Lake Charvak|37
 Lake Cildir|123
@@ -3610,11 +3609,11 @@ Litani|170
 Barada|80
 Yarmouk|82
 Zarqa|150
-Kishon|70
-Yarkon|27
+Kishon|70|Nahal Kishon
+Yarkon|27|Nahal Yarkon
 Khabur|486
 Balikh|104
-Diyala|445
+Diyala|445|Sirwan,Sirwan River
 Great Zab|400|Zab
 Little Zab|456
 Shatt al-Arab|200|Arvand Rud
@@ -6819,7 +6818,7 @@ Bartang|528
 Pech|120
 Meles|0
 Wakhan|220
-Akhuryan|186
+Akhuryan|186|Akhurian
 Balkh|450|Balkhab
 Haraz|150
 Jaghjagh|0
@@ -6829,7 +6828,6 @@ Ankara|140
 Khersan|0
 Payas|0
 Sajur|108
-Sirwan|445
 Duden|0
 Ilek|623|Ilek River
 Karaj|245
@@ -6850,7 +6848,7 @@ Halil|390
 Harut|394
 Kashafrud|260
 Sumbar|245
-ʿAdhaim|230
+Adhaim|230|Al-Adhaim
 Aji Chay|265
 Alwand|150
 Andarab|120
@@ -6862,7 +6860,7 @@ Irgiz|593
 Karatal|390|Karatal River
 Little Khabur|181
 Kushk|241
-Mehran|1289
+Mehran|0
 Or|332|Or River
 Qom|400|Qomrud
 Shagan (East Kazakhstan)|275
@@ -6900,7 +6898,7 @@ Kalkutan|223
 Kara-Balta|133
 Karakengir|295
 Kargaly|114
-Kars|93
+Kars|93|Kars Cayi
 Kauylzhyr|142
 Keles|241
 Khanabad|400
@@ -6915,9 +6913,8 @@ Kushum|375
 Lepsy|417|Lepsy River
 Maly Uzen|638
 Marun|422
-Mond|735|Mand River
+Mond|735|Mand River,Qarah Aghaj,Qareh Aghaj
 Peri|230
-Qarah Aghaj|700
 Qarasu|160
 Qatur|170
 Salang|438
@@ -6953,7 +6950,7 @@ Cekerek|300
 Aksu (Turkey)|162
 Karasu (Hatay)|122
 Naryn (East Kazakhstan)|100
-Wadi Mujib|72|Arnon River
+Wadi Mujib|72
 Nahal Sorek|65|Soreq Stream
 Wadi al-Batin|72
 Hasbani|65|Snir Stream
@@ -7725,7 +7722,7 @@ Troodos|1952
 Erciyes|3916|Mount Erciyes
 Mount Nemrut (Adiyaman)|2134|Nemrut Dagi
 Uludag|2543
-Hasan Dagi|3253
+Hasan Dagi|3253|Mount Hasan
 Suphan|4058
 Kackar|3937
 Babadag|1969
@@ -10169,7 +10166,7 @@ Mount Arafat|454|Jabal al-Rahmah
 Mount Uhud|1077
 Sauyr Zhotasy|3840|Muztau
 Mount Sipylus|1513|Spil Dagi
-Taftan|3941
+Taftan|3941|Kuh-e Taftan
 Jebel Aqra|1728|Mount Casius
 Tahtali Dagi|2366
 Jabal Al Harim|2087|Jebel Harim

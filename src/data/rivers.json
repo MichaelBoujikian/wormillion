@@ -28833,7 +28833,9 @@
   "id": "river-kishon",
   "category": "river",
   "name": "Kishon",
-  "aliases": [],
+  "aliases": [
+   "Nahal Kishon"
+  ],
   "size": 70,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Kishon River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -28847,7 +28849,9 @@
   "id": "river-yarkon",
   "category": "river",
   "name": "Yarkon",
-  "aliases": [],
+  "aliases": [
+   "Nahal Yarkon"
+  ],
   "size": 27,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Yarkon River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -28889,7 +28893,10 @@
   "id": "river-diyala",
   "category": "river",
   "name": "Diyala",
-  "aliases": [],
+  "aliases": [
+   "Sirwan",
+   "Sirwan River"
+  ],
   "size": 445,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Diyala River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -74131,7 +74138,9 @@
   "id": "river-akhuryan",
   "category": "river",
   "name": "Akhuryan",
-  "aliases": [],
+  "aliases": [
+   "Akhurian"
+  ],
   "size": 186,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Akhuryan (river)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -74262,20 +74271,6 @@
   "wikiTitle": "Sajur River",
   "lat": 36.65972222,
   "lon": 38.07055556
- },
- {
-  "id": "river-sirwan",
-  "category": "river",
-  "name": "Sirwan",
-  "aliases": [],
-  "size": 445,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Sirwan River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sirwan River",
-  "lat": 33.2208,
-  "lon": 44.5064
  },
  {
   "id": "river-duden",
@@ -74560,8 +74555,10 @@
  {
   "id": "river-adhaim",
   "category": "river",
-  "name": "ʿAdhaim",
-  "aliases": [],
+  "name": "Adhaim",
+  "aliases": [
+   "Al-Adhaim"
+  ],
   "size": 230,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"ʿAdhaim\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -74734,7 +74731,7 @@
   "category": "river",
   "name": "Mehran",
   "aliases": [],
-  "size": 1289,
+  "size": 0,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Mehran River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 61,
@@ -75258,7 +75255,9 @@
   "id": "river-kars",
   "category": "river",
   "name": "Kars",
-  "aliases": [],
+  "aliases": [
+   "Kars Cayi"
+  ],
   "size": 93,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Kars River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -75469,7 +75468,9 @@
   "category": "river",
   "name": "Mond",
   "aliases": [
-   "Mand River"
+   "Mand River",
+   "Qarah Aghaj",
+   "Qareh Aghaj"
   ],
   "size": 735,
   "sizeUnit": "length_km",
@@ -75491,18 +75492,6 @@
   "magnitude": 30,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Peri River"
- },
- {
-  "id": "river-qarah-aghaj",
-  "category": "river",
-  "name": "Qarah Aghaj",
-  "aliases": [],
-  "size": 700,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Qarah Aghaj (river)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Qarah Aghaj (river)"
  },
  {
   "id": "river-qarasu",
@@ -75996,9 +75985,7 @@
   "id": "river-wadi-mujib",
   "category": "river",
   "name": "Wadi Mujib",
-  "aliases": [
-   "Arnon River"
-  ],
+  "aliases": [],
   "size": 72,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Wadi Mujib\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",

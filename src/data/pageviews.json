@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T11:18:50.900Z",
+ "fetched": "2026-09-19T11:30:10.414Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -49809,13 +49809,6 @@
    "lat": 38.48333333,
    "lon": 39.41666667
   },
-  "lake-barsakelmes-lake": {
-   "title": "Barsakelmes Lake",
-   "monthlyViews": 700,
-   "days": 60,
-   "lat": 46.23,
-   "lon": 59.69
-  },
   "lake-kapchagay-reservoir": {
    "title": "Kapchagay Reservoir",
    "monthlyViews": 365,
@@ -86139,13 +86132,6 @@
    "lat": 36.65972222,
    "lon": 38.07055556
   },
-  "river-sirwan": {
-   "title": "Sirwan River",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 33.2208,
-   "lon": 44.5064
-  },
   "river-duden": {
    "title": "Düden River",
    "monthlyViews": 122,
@@ -86752,13 +86738,6 @@
    "title": "Peri River",
    "monthlyViews": 30,
    "days": 58,
-   "lat": null,
-   "lon": null
-  },
-  "river-qarah-aghaj": {
-   "title": "Qarah Aghaj (river)",
-   "monthlyViews": 30,
-   "days": 60,
    "lat": null,
    "lon": null
   },

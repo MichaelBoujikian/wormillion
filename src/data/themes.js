@@ -125,17 +125,22 @@ globalThis.WORMILLION_THEMES = {
       'Harsit', 'Kars', 'Kocasu', 'Peri', 'Qatur',
       'Cekerek',
       // 2026-09-19 expansion
-      'Aksu (Turkey)', 'Karasu (Hatay)'
+      'Aksu (Turkey)', 'Karasu (Hatay)',
+      // add-theme.mjs
+      'Sajur', 'Akhuryan', 'Great Zab', 'Balikh', 'Arda',
+      'Tundzha', 'Rezovo'
     ],
     'Iran': [
       'Aras', 'Karun', 'Karkheh', 'Dez', 'Zayanderud', 'Sefidrud', 'Atrak', 'Gorgan', 'Shatt al-Arab', 'Harirud',
       // 2026-09-19 expansion
-      'Zarrineh', 'Haraz', 'Khersan', 'Sirwan', 'Karaj',
+      'Zarrineh', 'Haraz', 'Khersan', 'Karaj',
       'Kor', 'Ghezel Ozan', 'Halil', 'Kashafrud', 'Sumbar',
       'Aji Chay', 'Alwand', 'Mehran', 'Qom', 'Simineh',
       'Zangmar', 'Zohreh', 'Bolgarchay', 'Chalus', 'Gadar',
-      'Helleh', 'Marun', 'Mond', 'Qarah Aghaj', 'Qarasu',
-      'Seymareh', 'Shahrud'
+      'Helleh', 'Marun', 'Mond', 'Qarasu',
+      'Seymareh', 'Shahrud',
+      // add-theme.mjs
+      'Qatur', 'Diyala', 'Little Zab'
     ],
     'the Caucasus': [
       'Coruh', 'Aras', 'Kura', 'Rioni', 'Enguri', 'Kodori', 'Alazani', 'Iori', 'Aragvi', 'Liakhvi', 'Terek', 'Kuban', 'Samur',
@@ -151,22 +156,28 @@ globalThis.WORMILLION_THEMES = {
       'Natanebi', 'Pambak', 'Paravani', 'Pirsaat', 'Qudyal',
       'Sumgayitchay', 'Tekhuri', 'Turyan',
       // 2026-09-19 expansion
-      'Argun (Caucasus)'
+      'Argun (Caucasus)',
+      // add-theme.mjs
+      'Bolgarchay', 'Bzyb', 'Baksan', 'Malka'
     ],
     'the Middle East': [
       'Euphrates', 'Tigris', 'Jordan River', 'Orontes', 'Litani', 'Barada', 'Yarmouk', 'Zarqa', 'Kishon', 'Yarkon',
       'Khabur', 'Balikh', 'Diyala', 'Great Zab', 'Little Zab', 'Shatt al-Arab', 'Karun', 'Karkheh',
       // 2026-09-19 expansion
       'Wadi Hanifa', 'Zarrineh', 'Haraz', 'Khazir', 'Khersan',
-      'Sajur', 'Sirwan', 'Karaj', 'Kor', 'Ghezel Ozan',
-      'Halil', 'Kashafrud', 'Sumbar', 'ʿAdhaim', 'Aji Chay',
+      'Sajur', 'Karaj', 'Kor', 'Ghezel Ozan',
+      'Halil', 'Kashafrud', 'Sumbar', 'Adhaim', 'Aji Chay',
       'Alwand', 'Mehran', 'Qom', 'Simineh', 'Zangmar',
       'Zohreh', 'Bolgarchay', 'Chalus', 'Gadar', 'Helleh',
-      'Marun', 'Mond', 'Qarah Aghaj', 'Qarasu', 'Seymareh',
+      'Marun', 'Mond', 'Qarasu', 'Seymareh',
       'Shahrud', 'Wadi Arar',
       // 2026-09-19 expansion
       'Wadi Mujib', 'Nahal Sorek', 'Wadi al-Batin', 'Hasbani', 'Wadi Bani Khalid',
-      'Nahr al-Kabir', 'Nahal Paran', 'Lakhish', 'Arava Stream', 'Awaj'
+      'Nahr al-Kabir', 'Nahal Paran', 'Lakhish', 'Arava Stream', 'Awaj',
+      // add-theme.mjs
+      'Queiq', 'Jaghjagh', 'Afrin', 'Little Khabur', 'Qatur',
+      'Zayanderud', 'Dez', 'Sefidrud', 'Gorgan', 'Aras',
+      'Atrak', 'Harirud'
     ],
     'Central Asia': [
       'Ural River', 'Amu Darya', 'Syr Darya', 'Helmand River', 'Zeravshan', 'Panj', 'Vakhsh', 'Naryn', 'Chu', 'Talas',
@@ -203,7 +214,9 @@ globalThis.WORMILLION_THEMES = {
       'Mughob', 'Pskem', 'Shakhdara', 'Sherobod', 'Shohimardonsoy',
       'Sokuluk', 'Suusamyr', 'Vanj', 'Yazghulom', 'Ysyk-Ata',
       // 2026-09-19 expansion
-      'Tar (Kyrgyzstan)'
+      'Tar (Kyrgyzstan)',
+      // add-theme.mjs
+      'Sumbar'
     ],
     'the British Isles': [
       'Thames', 'Severn', 'Trent', 'Shannon', 'Liffey', 'Clyde', 'Tay', 'Spey',
@@ -2153,9 +2166,11 @@ globalThis.WORMILLION_THEMES = {
       'Spanggur Tso', 'Uureg Lake', 'Aksai Chin Lake', 'Zhari Namco', 'Dabusun Lake',
       'Sangiin Dalai Lake',
       // 2026-09-19 expansion
-      'Barsakelmes Lake', 'Lake Hammar', 'Lake Acigol', 'Sabkhat al-Jabbul', 'Gavkhouni',
+      'Lake Hammar', 'Lake Acigol', 'Sabkhat al-Jabbul', 'Gavkhouni',
       'Koshkar-Ata', 'Tuzkan Lake', 'Ab-i Istada', 'Inder', 'Aralsor',
-      'Lake Palas Tuzla'
+      'Lake Palas Tuzla',
+      // add-theme.mjs
+      'North Aral Sea'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [

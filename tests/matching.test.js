@@ -7,6 +7,9 @@ test('letters NFD leaves alone are folded: Møn, Sjælland, Łódź, Straße', (
   assert.strictEqual(m.normalize('Łódź'), 'lodz');
   assert.strictEqual(m.normalize('Straße'), 'strasse');
   assert.strictEqual(m.normalize('Đà Nẵng'), 'da nang');
+  assert.strictEqual(m.normalize('Lake Çıldır'), 'lake cildir'); // the Turkish dotless i has no decomposition
+  assert.strictEqual(m.normalize('Kızılırmak'), 'kizilirmak');
+  assert.strictEqual(m.normalize('ʿAdhaim'), 'adhaim'); // the ayin is an apostrophe, and apostrophes vanish
 });
 
 const assert = require('node:assert');
