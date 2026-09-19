@@ -44948,7 +44948,9 @@
   "id": "mountain-pico-simon-bolivar",
   "category": "mountain",
   "name": "Pico Simon Bolivar",
-  "aliases": [],
+  "aliases": [
+   "Simon Bolivar"
+  ],
   "size": 5720,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Pico Simón Bolívar\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -45048,7 +45050,9 @@
   "id": "mountain-cerro-paranal",
   "category": "mountain",
   "name": "Cerro Paranal",
-  "aliases": [],
+  "aliases": [
+   "Paranal"
+  ],
   "size": 2635,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Cerro Paranal\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -45148,7 +45152,9 @@
   "id": "mountain-pico-do-jaragua",
   "category": "mountain",
   "name": "Pico do Jaragua",
-  "aliases": [],
+  "aliases": [
+   "Jaragua"
+  ],
   "size": 1135,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Pico do Jaraguá\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -45544,7 +45550,9 @@
   "id": "mountain-monte-sarmiento",
   "category": "mountain",
   "name": "Monte Sarmiento",
-  "aliases": [],
+  "aliases": [
+   "Sarmiento"
+  ],
   "size": 2246,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Monte Sarmiento\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -45699,7 +45707,9 @@
   "id": "mountain-cerro-machin",
   "category": "mountain",
   "name": "Cerro Machin",
-  "aliases": [],
+  "aliases": [
+   "Machin"
+  ],
   "size": 2749,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Cerro Machín\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -45869,7 +45879,9 @@
   "id": "mountain-pico-naiguata",
   "category": "mountain",
   "name": "Pico Naiguata",
-  "aliases": [],
+  "aliases": [
+   "Naiguata"
+  ],
   "size": 2765,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Pico Naiguatá\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -45883,7 +45895,9 @@
   "id": "mountain-pico-dos-marins",
   "category": "mountain",
   "name": "Pico dos Marins",
-  "aliases": [],
+  "aliases": [
+   "Marins"
+  ],
   "size": 2421,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Pico dos Marins\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -46281,5 +46295,22 @@
   "wikiTitle": "Mount Darwin (Andes)",
   "lat": -54.75,
   "lon": -69.48333333
+ },
+ {
+  "id": "mountain-huayna-picchu",
+  "category": "mountain",
+  "name": "Huayna Picchu",
+  "aliases": [
+   "Machu Picchu",
+   "Wayna Picchu"
+  ],
+  "size": 2693,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Huayna Picchu\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 2587,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Huayna Picchu",
+  "lat": -13.1575,
+  "lon": -72.54722222
  }
 ]

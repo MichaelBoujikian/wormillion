@@ -23,23 +23,19 @@ per wave) and SPEC §13; git log has the rest.
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
 do the next thing named here):** South America wave: rivers, lakes,
-mountains, islands DONE (`55b98a1`, `08185aa`, `f1eafa5`, `a522b28`, this
-commit - 45 islands + 4 namesakes, `reports/2026-09-19-sa-islands.md`).
-RUNNING (or interrupted): the first Opus audit round over rivers + lakes +
-mountains, `Workflow` run `wf_98bec17b-8eb` (script
-`workflows/scripts/sa-rivers-lakes-mountains-audit-wf_98bec17b-8eb.js`;
-reports `2026-09-19-sa-rlm-{data,gameplay}-audit.md` in the scratchpad;
-rerun if it died; when done: apply the findings, copy the reports to
-`scripts/expansion/reports/`, pipeline, commit). NEXT probe: seas - `node
-scripts/expansion/probe.mjs scripts/expansion/probes/sa-seas.json >
-scripts/expansion/work/sa-seas.out` (213 views, `--allow-no-figure`; cut the
-worldwide lists by description - the scratchpad's `clean-wca-seas.cjs`
-pattern with a South America WAVE regex; theme `the Americas`), then deserts
-(`sa-deserts.json`; the Atacama's parts, the Sechura, the Patagonian; the
-213 floor as in West and Central Asia), cities (`sa-cities.json`; Brazil's
-municipalities carry the município's population - the administrative-city
-convention; capitals refused), the second audit round, the wave report -
-HANDOFF step 3. Nothing uncommitted.
+mountains, islands DONE and the first audit round APPLIED (this commit). The
+seas probe has RUN (`work/sa-seas.out` ends with PROBE-DONE; 791 read, 336
+present, 247 missing, most of them the worldwide lists' foreign rows) -
+NEXT: `chunk --tag=sa6 --min-views=213 --allow-no-figure` on
+`work/sa-seas.json` (no article pass for seas), hand-clean with the
+scratchpad's `clean-sa-seas.cjs` (PROBE=sa-seas TAG=sa6; theme `the
+Americas`; cut the foreign rows and the sea concepts; the Río de la Plata /
+Lagoa dos Patos class - lagoons and estuaries are sea rows if not lakes
+already), fold, `--taken-only --tag=ns-sa6`, qualify, fold,
+`OCEAN_OVERRIDES` for the Titicaca / Maracaibo bays if any, pipeline,
+report, commit, push. Then deserts (`sa-deserts.json`, 213 floor), cities
+(`sa-cities.json`), the second audit round, the wave report - HANDOFF step
+3. Nothing uncommitted after this commit.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe, East Asia and West and Central Asia waves + this

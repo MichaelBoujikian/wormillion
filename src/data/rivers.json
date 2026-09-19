@@ -313,8 +313,7 @@
   "name": "Rio Grande",
   "aliases": [
    "Rio Bravo",
-   "Rio Bravo del Norte",
-   "Grande"
+   "Rio Bravo del Norte"
   ],
   "size": 3051,
   "sizeUnit": "length_km",
@@ -601,9 +600,7 @@
   "id": "river-colorado-river",
   "category": "river",
   "name": "Colorado River",
-  "aliases": [
-   "Colorado"
-  ],
+  "aliases": [],
   "size": 2330,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Colorado River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -17880,9 +17877,7 @@
   "id": "river-san-pedro-arizona",
   "category": "river",
   "name": "San Pedro",
-  "aliases": [
-   "San Pedro River"
-  ],
+  "aliases": [],
   "size": 225,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"San Pedro River (Arizona)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -20851,9 +20846,7 @@
   "id": "river-dulce-guatemala",
   "category": "river",
   "name": "Dulce",
-  "aliases": [
-   "Rio Dulce"
-  ],
+  "aliases": [],
   "size": 43,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Dulce River (Guatemala)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -20982,10 +20975,7 @@
   "id": "river-san-juan-nicaragua",
   "category": "river",
   "name": "San Juan",
-  "aliases": [
-   "Rio San Juan",
-   "San Juan River"
-  ],
+  "aliases": [],
   "size": 199,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"San Juan River (Nicaragua)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -35550,13 +35540,16 @@
   "lon": -77.2691
  },
  {
-  "id": "river-rio-chama",
+  "id": "river-chama-new-mexico",
   "category": "river",
-  "name": "Rio Chama",
-  "aliases": [],
+  "name": "Chama",
+  "aliases": [
+   "Rio Chama"
+  ],
   "size": 209,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Rio Chama\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
+  "qualifier": "New Mexico",
   "magnitude": 457,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Rio Chama",
@@ -77934,7 +77927,9 @@
   "id": "river-rio-dos-marmelos",
   "category": "river",
   "name": "Rio dos Marmelos",
-  "aliases": [],
+  "aliases": [
+   "Marmelos River"
+  ],
   "size": 510,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Dos Marmelos River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -78505,7 +78500,7 @@
   "category": "river",
   "name": "Aquidauana",
   "aliases": [],
-  "size": 1200,
+  "size": 0,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Aquidauana River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 30,
@@ -78966,7 +78961,9 @@
   "id": "river-rio-do-peixe-sao-paulo",
   "category": "river",
   "name": "Rio do Peixe",
-  "aliases": [],
+  "aliases": [
+   "Peixe River"
+  ],
   "size": 248,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Rio do Peixe (Paraná River tributary)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -79032,20 +79029,6 @@
   "wikiTitle": "Grajaú River (Maranhão)",
   "lat": -3.68333333,
   "lon": -44.8
- },
- {
-  "id": "river-gravatai",
-  "category": "river",
-  "name": "Gravatai",
-  "aliases": [],
-  "size": 640,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Gravataí River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Gravataí River",
-  "lat": -29.96666667,
-  "lon": -51.2
  },
  {
   "id": "river-gregorio",
@@ -79444,7 +79427,7 @@
   "category": "river",
   "name": "Manso",
   "aliases": [],
-  "size": 850,
+  "size": 0,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Manso River (Mato Grosso)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "qualifier": "Mato Grosso",
@@ -79921,7 +79904,9 @@
   "id": "river-rio-de-los-patos",
   "category": "river",
   "name": "Rio de los Patos",
-  "aliases": [],
+  "aliases": [
+   "Patos River"
+  ],
   "size": 190,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Río de los Patos\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",

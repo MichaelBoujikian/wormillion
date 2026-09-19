@@ -355,7 +355,7 @@ globalThis.WORMILLION_THEMES = {
       'Chimore', 'Coari', 'Corrientes', 'Cruces', 'Rio Cuarto',
       'Cuchivero', 'Cunas', 'Cunucunuma', 'Curua', 'Curuca',
       'Rio das Antas', 'Rio das Velhas', 'Rio de Contas', 'Rio do Peixe (Sao Paulo)', 'Dourado',
-      'Envira', 'Fresco', 'Grajau', 'Gravatai', 'Gregorio',
+      'Envira', 'Fresco', 'Grajau', 'Gregorio',
       'Gualeguay', 'Gualeguaychu', 'Ijui', 'Ilave', 'Ipixuna',
       'Isiboro', 'Itabapoana', 'Itapicuru', 'Itonomas', 'Ituxi',
       'Itui', 'Ivinhema', 'Jaguaripe', 'Jaguarizinho', 'Jamanxim',
@@ -1035,7 +1035,7 @@ globalThis.WORMILLION_THEMES = {
       'Big Muddy', 'Calcasieu', 'Hillsborough', 'Laramie', 'McCloud',
       'Medina', 'Ocklawaha', 'Sandusky', 'Tahquamenon', 'Alamo',
       'Alapaha', 'Cosumnes', 'Deep', 'Zumbro', 'Mullica',
-      'Pine Creek', 'Rio Chama', 'Rum', 'Sheyenne', 'Vermilion (Louisiana)',
+      'Pine Creek', 'Chama (New Mexico)', 'Rum', 'Sheyenne', 'Vermilion (Louisiana)',
       'Big', 'Blackwater (Florida)', 'Chetco', 'Chowan', 'Conemaugh',
       'Hoosic', 'Kavik', 'Perdido', 'Saint Joe', 'Schoharie Creek',
       'Spring (Arkansas)', 'Tchefuncte', 'Uncompahgre', 'Ammonoosuc', 'Beaverhead',
@@ -1490,7 +1490,9 @@ globalThis.WORMILLION_THEMES = {
       'Ruminahui', 'Sairecabur', 'Solimana', 'Sumaco', 'Tata Sabaya',
       'Tutupaca', 'Yanapaccha',
       // 2026-09-19 expansion
-      'Mount Darwin (Chile)'],
+      'Mount Darwin (Chile)',
+      // add-theme.mjs
+      'Huayna Picchu'],
     'the Rockies': ['Mount Elbert', 'Pikes Peak', 'Grand Teton', 'Longs Peak', 'Mount Robson',
       // 2026-09-14 expansion
       'Mount Massive', 'Mount Harvard', 'Blanca Peak', 'La Plata Peak', 'Uncompahgre Peak',
@@ -1798,7 +1800,9 @@ globalThis.WORMILLION_THEMES = {
       'Acamarachi', 'Antofalla', 'Azufral', 'Nevado San Francisco', 'Chiles',
       'Cumbal Volcano', 'Dona Juana', 'Melimoyu', 'Mocho-Choshuenco', 'Planchon-Peteroa',
       'Ruminahui', 'Sairecabur', 'Solimana', 'Sumaco', 'Tata Sabaya',
-      'Tutupaca'
+      'Tutupaca',
+      // add-theme.mjs
+      'Tres Cruces'
     ]
   },
 
@@ -2065,7 +2069,7 @@ globalThis.WORMILLION_THEMES = {
       'Great Salt Lake', 'Dubawnt Lake', 'Lake Okeechobee', 'Lake Pontchartrain', 'Lake Champlain',
       'Salton Sea', 'Lake Tahoe', 'Yellowstone Lake', 'Mono Lake', 'Crater Lake',
       'Lake Louise', 'Lake Mead', 'Lake Powell', 'Lake Havasu', 'Lake George (New York)',
-      'Moraine Lake', 'Lake Maracaibo', 'Lake Atitlan', 'Lake Managua', 'Lake Placid',
+      'Moraine Lake', 'Lake Atitlan', 'Lake Managua', 'Lake Placid',
       'Peyto Lake', 'Lake Minnewanka', 'Lake Winnipesaukee', 'Moosehead Lake', 'Sebago Lake',
       'Squam Lake', 'Lake Sunapee', 'Walden Pond', 'Quabbin Reservoir', 'Candlewood Lake',
       'Seneca Lake', 'Cayuga Lake', 'Skaneateles Lake', 'Keuka Lake', 'Canandaigua Lake',
@@ -2090,7 +2094,7 @@ globalThis.WORMILLION_THEMES = {
       'Lake Texcoco', 'Lake Cuitzeo', 'Laguna de Terminos', 'Bacalar Lagoon', 'Lake Catemaco',
       'Lake Zirahuen', 'Lake Peten Itza', 'Lake Izabal', 'Lake Amatitlan', 'Lake Yojoa',
       'Lake Ilopango', 'Lake Arenal', 'Gatun Lake', 'Lake Alajuela', 'Lake Enriquillo',
-      'Lake Azuei', 'Laguna de Apoyo', 'Lake Valencia', 'Lake Chaubunagungamaug', 'Lake Peigneur',
+      'Lake Azuei', 'Laguna de Apoyo', 'Lake Chaubunagungamaug', 'Lake Peigneur',
       'Tulare Lake', 'Lake Piru', 'Alcohol and Drug Abuse Lake', 'Torch Lake', 'Smith Mountain Lake',
       'Bde Maka Ska', 'Lake Jocassee', 'Lake Wallenpaupack', 'Mountain Lake', 'Lake Hartwell',
       'Raystown Lake', 'Deep Creek Lake', 'Quake Lake', 'Lake Keowee', 'Higgins Lake',
@@ -2268,7 +2272,9 @@ globalThis.WORMILLION_THEMES = {
       // add-theme.mjs
       'North Aral Sea',
       // 2026-09-19 expansion
-      'Laguna del Carbon', 'Lake Salinas', 'Coipasa Lake', 'Araruama Lagoon'
+      'Laguna del Carbon', 'Lake Salinas', 'Coipasa Lake', 'Araruama Lagoon',
+      // add-theme.mjs
+      'Lake Maracaibo'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [

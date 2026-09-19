@@ -8517,6 +8517,7 @@ export const WIKI_TITLES = {
   "river-jiao-shandong": "Jiao River (Shandong)",
   "river-jiao-zhejiang": "Jiao River (Zhejiang)",
   "river-kezi": "Kezi River",
+  "river-chama-new-mexico": "Rio Chama",
   "river-khanui": "Khanui River",
   "river-laodao": "Laodao River",
   "river-le-an": "Le'an River",
@@ -9641,7 +9642,6 @@ export const WIKI_TITLES = {
   "river-envira": "Rio Envira",
   "river-fresco": "Fresco River",
   "river-grajau": "Grajaú River (Maranhão)",
-  "river-gravatai": "Gravataí River",
   "river-gregorio": "Gregório River (Amazonas)",
   "river-gualeguay": "Gualeguay River",
   "river-gualeguaychu": "Gualeguaychú River",
@@ -10480,5 +10480,7 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-19 South America mountains: Alcedo Volcano (Galapagos; no short description) ---
   "mountain-alcedo-volcano",
   // --- 2026-09-19 South America islands: the qualified California Santa Cruz Island keeps its bare article; Santa Catalina (Colombia) is a Place by Wikidata ---
-  "island-santa-catalina-island-colombia"
+  "island-santa-catalina-island-colombia",
+  // --- 2026-09-19 South America audit: Huayna Picchu is the peak over Machu Picchu; Wikidata describes the archaeological site ---
+  "mountain-huayna-picchu"
 ]);

@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T16:36:47.317Z",
+ "fetched": "2026-09-19T16:56:58.063Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -69878,7 +69878,7 @@
    "lat": 41.171,
    "lon": -77.2691
   },
-  "river-rio-chama": {
+  "river-chama-new-mexico": {
    "title": "Rio Chama",
    "monthlyViews": 457,
    "days": 60,
@@ -91514,13 +91514,6 @@
    "days": 53,
    "lat": -3.68333333,
    "lon": -44.8
-  },
-  "river-gravatai": {
-   "title": "Gravataí River",
-   "monthlyViews": 30,
-   "days": 57,
-   "lat": -29.96666667,
-   "lon": -51.2
   },
   "river-gregorio": {
    "title": "Gregório River (Amazonas)",
@@ -115328,6 +115321,13 @@
    "days": 60,
    "lat": -54.75,
    "lon": -69.48333333
+  },
+  "mountain-huayna-picchu": {
+   "title": "Huayna Picchu",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": -13.1575,
+   "lon": -72.54722222
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",

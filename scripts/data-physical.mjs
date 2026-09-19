@@ -1736,7 +1736,7 @@ Mississippi|3766-6275|Mississippi River
 Madeira|3250|Madeira River
 Purus|3211
 Yukon|3190|Yukon River
-Rio Grande|3051|Rio Bravo,Rio Bravo del Norte,Grande
+Rio Grande|3051|Rio Bravo,Rio Bravo del Norte
 Saint Lawrence|3058|St Lawrence
 Sao Francisco|2914|San Francisco
 Volga|3531|Volga River
@@ -1755,7 +1755,7 @@ Kolyma|2513
 Pilcomayo|2500
 Ural River|2428|Ural
 Arkansas River|2364|Arkansas
-Colorado River|2330|Colorado
+Colorado River|2330
 Olenyok|2292
 Aldan|2273
 Ubangi|2270
@@ -2942,7 +2942,7 @@ Little Colorado|603|Little Colorado River
 Gila|1044|Gila River
 Salt (Arizona)|320|Salt River
 Verde (Arizona)|273|Verde River
-San Pedro (Arizona)|225|San Pedro River
+San Pedro (Arizona)|225
 Kern|265|Kern River
 Kings|206|Kings River
 Merced|233|Merced River
@@ -3128,7 +3128,7 @@ New River (Belize)|66
 Sarstoon|96|Rio Sarstun
 Motagua|486|Rio Motagua
 Polochic|240|Rio Polochic
-Dulce (Guatemala)|43|Rio Dulce
+Dulce (Guatemala)|43
 Ulua|400|Rio Ulua
 Chamelecon|210|Rio Chamelecon
 Aguan|190|Rio Aguan
@@ -3136,7 +3136,7 @@ Patuca|500|Rio Patuca
 Coco|680|Rio Coco,Segovia River
 Grande de Matagalpa|418|Rio Grande de Matagalpa
 Escondido (Nicaragua)|111|Rio Escondido
-San Juan (Nicaragua)|199|Rio San Juan,San Juan River
+San Juan (Nicaragua)|199
 Tempisque|144|Rio Tempisque
 Reventazon|110|Rio Reventazon
 Pacuare|108|Rio Pacuare
@@ -4106,7 +4106,7 @@ Deep|200
 Zumbro|104
 Mullica|81
 Pine Creek|140
-Rio Chama|209
+Chama (New Mexico)|209|Rio Chama
 Rum|243
 Sheyenne|951
 Vermilion (Louisiana)|116
@@ -7118,7 +7118,7 @@ Chinchipe|148
 Chira|300
 Corriente|247
 Diamante|360
-Rio dos Marmelos|510
+Rio dos Marmelos|510|Marmelos River
 Guandu|109
 Jaguarao|259
 Jutai|1488
@@ -7159,7 +7159,7 @@ Alumine|170
 Anajas|310
 Anapu|470
 Apon|150
-Aquidauana|1200
+Aquidauana|0
 Aracuai|319
 Araca|390
 Bacaja|374
@@ -7192,12 +7192,11 @@ Curuca|530
 Rio das Antas|390|Antas River
 Rio das Velhas|801|Velhas River
 Rio de Contas|620|Contas River
-Rio do Peixe (Sao Paulo)|248
+Rio do Peixe (Sao Paulo)|248|Peixe River
 Dourado|92
 Envira|510
 Fresco|560
 Grajau|770
-Gravatai|640
 Gregorio|350
 Gualeguay|857
 Gualeguaychu|250
@@ -7227,7 +7226,7 @@ Lawriqucha|85
 Maicuru|547
 Manuripi|733
 Manicore|390
-Manso (Mato Grosso)|850
+Manso (Mato Grosso)|0
 Manuel Alves Grande|235
 Maranhao|420
 Marie|800
@@ -7261,7 +7260,7 @@ Rahue|120
 Rio das Mortes (Minas Gerais)|278
 Rocha|115
 Rio Grande de San Juan|388
-Rio de los Patos|190
+Rio de los Patos|190|Patos River
 Saladillo|145
 Sama|164
 Samborombon|100
@@ -10507,21 +10506,21 @@ Tufandag|4191
 Mount Ida (Turkey)|1774|Kaz Dagi
 Mount Nemrut (Bitlis)|2948
 Vinicunca|5036|Rainbow Mountain
-Pico Simon Bolivar|5720
+Pico Simon Bolivar|5720|Simon Bolivar
 Artesonraju|6025
 Siula Grande|6344
 Huaynaputina|4850
 Quilotoa|3914
 Aucanquilcha|6176
 Kukenan-tepui|2680|Kukenan
-Cerro Paranal|2635
+Cerro Paranal|2635|Paranal
 Cerro Autana|1220|Autana
 Cerro Panizos|5494
 Galan|6100
 Veronica|5893
 Cerro Sarisarinama|2300|Sarisarinama
 Incahuasi|6621
-Pico do Jaragua|1135
+Pico do Jaragua|1135|Jaragua
 Cerro Blanco|4670
 Huandoy|6395
 Pichu Pichu|5664
@@ -10549,7 +10548,7 @@ Socompa|6051
 Tafelberg|1026
 Yerupaja Chico|6121
 Cerro Marahuaca|2832|Marahuaca
-Monte Sarmiento|2246
+Monte Sarmiento|2246|Sarmiento
 Pico do Monte Negro|1398
 San Pedro (Chile)|6155
 Sara Sara|5505
@@ -10560,7 +10559,7 @@ Antuco|2979
 Aracar|6095
 Carihuairazo|5018
 Tipas|6670
-Cerro Machin|2749
+Cerro Machin|2749|Machin
 Cerro Toco|5604
 Copahue|2997
 Hualca Hualca|6025
@@ -10572,8 +10571,8 @@ Maipo|5264
 Monte Burney|1758
 Nevado de Santa Isabel|4950|Santa Isabel Volcano
 Nevado del Quindio|4760|Quindio
-Pico Naiguata|2765
-Pico dos Marins|2421
+Pico Naiguata|2765|Naiguata
+Pico dos Marins|2421|Marins
 Pomerape|6282
 Quitaraju|6036
 Santa Cruz|6259
@@ -10602,6 +10601,7 @@ Tata Sabaya|5430
 Tutupaca|5815
 Yanapaccha|5460
 Mount Darwin (Chile)|2438
+Huayna Picchu|2693|Machu Picchu,Wayna Picchu
 `;
 
 export const MINOR_PEAKS = `
