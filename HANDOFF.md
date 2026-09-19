@@ -8,53 +8,64 @@ setting, the decisions that must not be quietly undone, and the gotchas that
 cost time. Claude Code's project memory is keyed to this folder
 (`C:\Users\smite\repos\wormillion`); this file is the memory that survives.
 
-Last rewritten **2026-09-18 (local 09-17 evening)** at the end of the session
-that built and folded decision 5 (same-name places). History that used to
-live here — the US and Europe waves' running logs, the pre-merge audit
-narrative — is in `scripts/expansion/reports/` and SPEC §13; git log has the
-rest.
+Last refreshed **2026-09-18 (local 09-18 evening)**, paused mid-way through
+the Eastern Europe wave, after the Mexico and Canada wave was closed the same
+day. History that used to live here — the US, Europe and Mexico/Canada waves'
+running logs, the decision-5 build, the audit narratives — is in
+`scripts/expansion/reports/` (one report per probe, one per audit round, one
+per wave) and SPEC §13; git log has the rest.
 
 ---
 
 # Start here (the next session, in order)
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
-   Canada wave + this file). `npm test` → 209, `npm run validate` → 16,891,
-   `npm run gap-check` clean. Read "The job", "Where things stand", then
-   "The loop".
-2. **Sweep Eastern Europe** (the Mexico and Canada wave is done and
-   audited: `reports/2026-09-18-mx-ca-wave.md`), rivers first, one probe per
-   category across the 21 countries, one commit per chunk, the taken list
-   folded after each chunk (decision 5), an Opus audit round per cohort or
-   two — and, the user's standing instruction (2026-09-18), **move on to the
-   next area without asking** once a wave is folded, audited and its numbers
-   checked. `probes/ee-rivers.json` is written (60 km floor, `famousViews`
-   1000; the 21 country trees and lists); the sister-wiki field names for
-   ro / pl / cs / sk / hu / bg / uk / ru / sr / hr / sl / el / lt / lv / et
-   are in `article-size.mjs` (`--sister=ro` for Romania's 1,940 stubs). The
-   Mexico and Canada probes (`probes/mx-*.json`, `ca-*.json`, `mx-ca-*.json`)
-   are the freshest templates.
-   **Status 2026-09-18 (paused by the user, safely):** the Eastern Europe
-   wave is four cohorts in — rivers (`56345e6`), lakes (`0e1401e`),
-   mountains (`62f1ad8`), islands (`1dd1c79`), with the rivers / lakes /
-   mountains audit round applied (`c386a14`; the islands have NOT been
-   audited yet — the next audit round should cover islands + seas +
-   deserts together). Bank 17,652. **The seas probe
-   (`probes/ee-seas.json`) was stopped during its views stage** and the
-   deserts probe (`probes/ee-deserts.json`) had not started; re-run
-   `node scripts/expansion/probe.mjs scripts/expansion/probes/ee-seas.json`
-   (it resumes from `work/ee-seas-cache.json`), then the deserts probe, then
-   for the seas: `article-size.mjs --no-figure --min-views=213`, the probe
-   again, `chunk --tag=ee --themes="Europe" --min-views=213
-   --allow-no-figure`, cut the worldwide lists' foreign rows to the 21
-   countries (the Mexico/Canada seas report shows how), fold, `--taken-only`;
-   deserts: one small chunk (theme `Europe`). Then cities (`eu-cities.json`
-   is the template; `listCountry` per list; the 91-views city floor), the
-   islands + seas + deserts + cities audit rounds, the wave report, HANDOFF
-   — and on to East Asia (the roadmap; the user's standing instruction).
-3. Release only when the user says so, by "The release procedure" below —
+   Canada wave + four cohorts of Eastern Europe + this file; 34 commits past
+   `main`). `npm test` → 210, `npm run validate` → 17,652, `npm run gap-check`
+   clean. Read "The job", "Where things stand", then "The loop".
+2. **Finish Eastern Europe.** Done and committed: rivers (`56345e6`), lakes
+   (`0e1401e`), mountains (`62f1ad8`), islands (`1dd1c79`), and the rivers /
+   lakes / mountains audit round (`c386a14`). To do, in order:
+   - **Seas**: the probe `probes/ee-seas.json` was stopped mid-views; re-run
+     `node scripts/expansion/probe.mjs scripts/expansion/probes/ee-seas.json`
+     (it resumes from `work/ee-seas-cache.json`), then `article-size.mjs
+     work/ee-seas.json --no-figure --min-views=213`, the probe again, `chunk
+     --tag=ee --themes="Europe" --min-views=213 --allow-no-figure`, **cut the
+     worldwide lists' foreign rows to the 21 countries** (the Mexico/Canada
+     seas report shows the cut and what it missed — a row whose description
+     is bare still belongs if its category is the wave's), fold, `--taken-only
+     --tag=ns-ee`, the Baltic / Black Sea / Adriatic bays' oceans are all
+     `Atlantic`, lagoons of lakes `[]`.
+   - **Deserts**: `probes/ee-deserts.json` (written, not run) — one small
+     chunk, theme `Europe`; Poland's Błędów Desert may already be in.
+   - **Cities**: write `probes/ee-cities.json` from `eu-cities.json` — the 21
+     national "List of cities in X" / "List of cities and towns in X by
+     population" pages, `listCountry` per list, floor 50,000, then `chunk
+     --tag=ee` and drop anything the fresh fetch puts under 91 views (the
+     city floor since 2026-09-18). Expect dense namesakes with Germany and
+     Austria (Neustadt…), "X Municipality" / "X County" doubles, and the
+     national capitals refused by the fold.
+   - **Audit** islands + seas + deserts + cities together (two Opus
+     auditors, `Workflow` `parallel()`, offline while a probe runs — the
+     prompts in this session's workflow scripts are the pattern:
+     `~/.claude/projects/…/workflows/scripts/`), apply, then the wave report
+     (`reports/2026-09-18-ee-wave.md` after `-mx-ca-wave.md`), this file.
+3. **Then East Asia** — the user's standing instruction (2026-09-18): once a
+   wave is folded, audited and its numbers checked, start the next area
+   without asking. China, Japan, the Koreas, Taiwan, Mongolia. Themes to
+   expect: rivers `Asia`(?) — check `src/data/themes.js` for the river /
+   lake / mountain theme names that exist (`Japan` and `Indonesia` are island
+   themes; `the Himalaya` a mountain one); `--sister=zh,ja,ko` for the
+   unsized (add the field names to `SISTER_FIELDS` in `article-size.mjs`:
+   长度 / 全長 / 길이 for km, 面积 / 面積 / 면적 for km², 海拔 / 標高 / 높이 for m
+   — and `sisterBoxOf` finds any template by field name, so no template
+   list is needed). China's rivers category is enormous: keep the 80 km
+   floor of the big countries.
+4. Release only when the user says so, by "The release procedure" below —
    a push to `main` deploys GitHub Pages and builds Netlify; it is never a
-   routine push.
+   routine push. `main` is still `v1.3-europe-wave` (14,901); everything
+   since is on the branch. `draw-diff.mjs main` still reports 0 of 46 dailies
+   drawing differently, so the release window is open any time.
 
 ---
 
@@ -116,78 +127,91 @@ Standing decisions from the user, all in force:
    anywhere" and is legal in every cohort (such a row answers no size
    prompt).
 
-## Mexico and Canada (done 2026-09-18; kept as the shape of a wave)
+## The waves so far, in one line each
 
-- Both are region `North America` in `scripts/data-countries.mjs` (Mexico
-  also alias CDMX for its capital). Themes the new rows must join: rivers
-  and lakes `North America`; mountains `the Rockies` (Canada; `range-tag.mjs`
-  from the infobox range field) and `volcanoes` (Mexico's arc — tag from
-  the infobox `type` / `last_eruption`); islands `the Caribbean` (Cozumel,
-  Isla Mujeres…) and, for Canada's Arctic, nothing yet; seas and deserts
-  `the Americas`. Oceans derive from coordinates; Great Lakes and river
-  islands need `OCEAN_OVERRIDES: []`.
-- Category trees: `Category:Rivers of Mexico` / `…of Canada by province or
-  territory`, `Lakes of Canada by province`, `Islands of Canada by province`;
-  lists: "List of rivers of Mexico", "List of rivers of Canada" (by
-  province pages), "List of lakes of Canada", "List of islands of Canada",
-  "List of mountains of Canada", "List of mountain peaks of Mexico", "List
-  of cities in Mexico" (by population) and "List of the 100 largest
-  municipalities in Canada by population" / "List of cities in Canada".
-  Cities floor 50,000 (P1082), `listCountry` in the probe maps each list to
-  its country.
-- Namesakes will be dense: Canada and Mexico share names with the US and
-  Spain (London, Cambridge, Windsor, Kingston, Hamilton, Victoria, Guadalajara
-  ✓, Mérida ✓, Córdoba ✓, León ✓, Santa Rosa, San José…). The taken list is
-  now a normal input, not a loss.
-- Pre-existing content: the bank already holds the famous Canadian and
-  Mexican places from the v1.1 fill and the Colombia/Sweden/US probes;
-  `work/us-seas.json` holds ~180 non-US straits and gulfs with descriptions
-  (Cabot Strait, Foxe Basin, the Gulf of California…) that belong to these
-  waves.
+- **United States** (2026-09-16, `reports/2026-09-16-us-*.md`): seven
+  probes, the category-word rule, `size` 0.
+- **Western Europe + the Nordics** (2026-09-17, released 2026-09-18 as
+  `v1.3-europe-wave`, 14,901): 20 countries, the whole-bank pre-merge audit.
+- **Decision 5** (2026-09-18, `reports/2026-09-18-decision-5-namesakes.md`):
+  same-name places, 526 namesakes folded from the two waves' taken lists.
+- **Mexico and Canada** (2026-09-18, `reports/2026-09-18-mx-ca-wave.md`):
+  eight probes, five audit rounds, 15,429 → 16,891; the sister-wiki pass,
+  province postal codes, the city views floor.
+- **Eastern Europe** (2026-09-18, in progress, `reports/2026-09-18-ee-*.md`):
+  the 21 countries the Europe wave left (Poland, Czechia, Slovakia, Hungary,
+  Romania, Bulgaria, Moldova, Ukraine, Belarus, the Baltics, Slovenia,
+  Croatia, Bosnia and Herzegovina, Serbia, Montenegro, Kosovo, North
+  Macedonia, Albania, Greece); Russia west of the Urals and Turkey's
+  European side deferred to their own passes (decided on the spot). Rivers,
+  lakes, mountains, islands done: 16,891 → 17,652.
+
+## What an Eastern European probe looks like (the shape of a wave)
+
+- One probe per category across all 21 countries (`probes/ee-*.json`):
+  roots `Category:Rivers of <country>` ×21 with a subcat regex that admits
+  the subdivision trees and refuses stubs / bridges / locks / crossings;
+  the 21 national lists. Romania's 1,940 river stubs dominate the tree.
+- Sizes: Wikidata → the enwiki infobox (the article pass sized 1,515
+  rivers Wikidata had nothing for, and overrode 43 decimal-shifted figures)
+  → `--sister=ro,pl,uk,cs,bg,sr,hr,el,lt,et,lv,hu,sk,sl,ru` for what is
+  still bare (each wiki's own infobox template found by its field name; a
+  comma is the decimal there, a dot before three digits a thousands mark).
+- Names fold to ASCII (Świnica → Swinica); same-country namesake pairs took
+  the finest place that tells them apart (oblast, county, historical
+  region, Bohemia's halves) — the standing rule says the province, and
+  those are its equivalents. Themes: rivers `Europe`; lakes have no Europe
+  theme; the Julian / Kamnik / Karawanks peaks `the Alps` (never the
+  Dinaric, Albanian, Transylvanian or Apuseni "Alps"); islands `Greece` and
+  `the Mediterranean`; oceans: the Baltic, Black and Adriatic are the
+  Atlantic, river and lake islands `[]`.
 
 ---
 
 # Where things stand
 
-**On `expansion-2` (HEAD `3840e01`+, 29 commits past `main`; the Mexico and Canada wave folded and audited 2026-09-18, bank 16,891, tests 209; `reports/2026-09-18-mx-ca-wave.md`):**
-decision 5 built and folded — engine, validator, tools, 526 namesake rows
-across every cohort, 250 incumbents qualified, an Opus audit round (data /
-gameplay / regression + skeptics) applied. `npm test` 205 · `npm run
-validate` 15,429 · `npm run gap-check` 812 pins, every one lands · `bank.js`
-2.06 MB raw / 284 KB gzip · 730 entries carry a qualifier in 317 namesake
-sets · `draw-diff.mjs main` 0 of 46 dailies draw differently (the prompts
-are unchanged, the answers grew — decision 5's release window is any time).
-Reports: `scripts/expansion/reports/2026-09-18-decision-5-namesakes.md` and
-the three `-audit.md` beside it.
+**On `expansion-2` (HEAD `6de6a97`, 34 commits past `main`; bank 17,652,
+tests 210, validate and gap-check clean, `bank.js` 2.27 MB raw; 1,050
+entries carry a qualifier):** decision 5 + the Mexico and Canada wave (closed)
++ Eastern Europe's rivers, lakes, mountains and islands (the first three
+audited; the islands not yet). `draw-diff.mjs main` 0 of 46 dailies draw
+differently. Reports: `scripts/expansion/reports/2026-09-18-*.md` (probe
+reports, audit reports, the Mexico/Canada wave summary).
 
 **On `main` = tag `v1.3-europe-wave` (`8ecb7e5`) = what Pages and Netlify
 serve** since the 2026-09-18 01:25 UTC release (verified both hosts; see
 "Where it lives"). Bank 14,901.
 
-| cohort | now | floors in force (size; views/mo) | notes |
-|---|---|---|---|
-| rivers | 4,414 | 80 km US & Canada / 60 km Europe & Mexico / 50 km Britain & Ireland, or 1,000+ views; **≥ 30 views**; unsized at 30+ (Mexico) / 122+ (Canada) | ~120 with `size` 0 |
-| lakes | 1,501 | 25 km² or 1,000+ views; **≥ 61 views** | |
-| mountains | 2,871 | lists only, no elevation floor; **≥ 122 views** | jackpot 1.3% |
-| islands | 2,783 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | ~520 with `size` 0 |
-| seas | 682 | unsized at **≥ 213 views** | ~370 with `size` 0 |
-| deserts | 140 | — | jackpot 7.9% (the one physical cohort above the band) |
-| cities | 4,056 | 50,000 population (Wikidata P1082); **≥ 91 views** (since 2026-09-18) | jackpot 1.3% |
-| countries / capitals | 197 / 247 | fixed | capitals include the 50 US state capitals |
+| cohort | now | floors in force (size; views/mo) | jackpot share | `size` 0 |
+|---|---|---|---|---|
+| rivers | 4,809 | 80 km US & Canada / 60 km Europe & Mexico / 50 km Britain & Ireland, or 1,000+ views; **≥ 30 views**; unsized admitted at 30+ (Mexico) / 122+ (Canada), not in Europe | 1.54% | 75 |
+| lakes | 1,546 | 25 km² or 1,000+ views; **≥ 61 views** | 2.72% | 4 |
+| mountains | 3,008 | lists only, no elevation floor; **≥ 122 views** | 1.26% | 1 |
+| islands | 2,967 | 1 km² or 1,000+ views, or unsized at 122+; **≥ 91 views** | 2.12% | 567 |
+| seas | 682 | unsized at **≥ 213 views** | 1.61% | 380 |
+| deserts | 140 | — | 7.86% (the one physical cohort above the band) | 10 |
+| cities | 4,056 | 50,000 population (Wikidata P1082); **≥ 91 views** (since 2026-09-18) | 1.28% | — |
+| countries / capitals | 197 / 247 | fixed | 14% / 5% (small fixed cohorts, high by construction) | — |
 
 The views floors sit just above each cohort's flat bottom (the median of 60
 daily views quantises at whole views/day: 30, 61, 91, 122…); a floor *at* the
-bottom makes every row on it a jackpot. Check `node
+bottom makes every row on it a jackpot, and rarity is log-min/max, so a
+single row *below* the bottom stretches the whole cohort's ladder (four
+30–61-view Mexican towns moved the city jackpot line from 312 to 122 views
+before they were dropped — hence the city floor). Check `node
 scripts/expansion/jackpot-share.mjs` after every fold: healthy wave-fed
-cohorts sit at 1.4–3.4% (country 14% and capital 5% are small fixed cohorts,
-high by construction).
+cohorts sit at 1.2–3.4%.
 
 **Open questions for the user (none blocking):** a "famous group" exception
-for islands (the Farallones, the Diomedes, the Outer Banks, the Blaskets);
-the desert cohort's 8% jackpot share before Asia's and Africa's deserts
-arrive; whether `size` 0 should count as "small" for "smaller than" prompts
-(a one-line change in `satisfiesSize`; today unknown is neither); German
-ue/oe/ae transliterations ("Muenchen") as aliases at fold time.
+for islands (the Farallones, the Diomedes, the Outer Banks, the Blaskets, the
+Magdalen Islands, the Saronic Islands); the desert cohort's 8% jackpot share
+before Asia's and Africa's deserts arrive; whether `size` 0 should count as
+"small" for "smaller than" prompts; ue/oe/ae transliterations as aliases;
+`MAX_ELIGIBLE_SHARE` 0.7 has retired "Name a mountain under 3,000 m" (70.5%
+of the sized cohort after the Balkans — every European peak is under 3,000
+m; a knob, not a bug); "Stara Planina" (the Balkan Mountains, a range, out by
+the standing rule) is corrected to Suva Planina; the Micronesia / "country
+with a T" note under "Open threads".
 
 ---
 
@@ -218,9 +242,13 @@ before every commit; push as you go.
    templates, decimal commas, `length_mi`, `area_acre`, `elevation_ft`…) and
    writes `work/<name>-sizes.json`. **The infobox always wins over Wikidata**
    (Wikidata is 100× off for one lake in six — hectares as km² — and
-   decimal-shifted for frwiki/itwiki-imported rivers). Then **run the probe
-   again**: pass 2 picks up the article figures and fetches views for what
-   newly clears the floor.
+   decimal-shifted for frwiki/itwiki-imported rivers). `--sister=es,fr,ro,…`
+   then follows each still-unsized item's Wikidata sitelink to those wikis
+   in turn and reads *their* infobox (any template, found by field name;
+   `SISTER_FIELDS` in the script has es fr de it pt ro pl cs sk hu bg uk ru
+   sr hr sl el lt lv et — add a language's field names before a new wave).
+   Then **run the probe again**: pass 2 picks up the article figures and
+   fetches views for what newly clears the floor.
 3. **Chunk.** `node scripts/expansion/chunk.mjs work/<name>.json --tag=<tag>
    [--themes="A;B"] [--min-views=N] [--allow-no-figure] [--country="X"]`
    writes the missing + fuzzy rows as `work/new-<block>-<tag>.txt` in
@@ -347,8 +375,11 @@ background (the Bash tool caps at 600 s).
   boroughs, "City of X" and "X Municipality" doubles, metropolitan /
   comarca / arrondissement articles; the national capital is refused by
   the fold (right); a city that is a country's or an island's name goes in
-  only qualified. The fuzzy list is the payoff (Greenville was being scored
-  as Grenville, Grenada).
+  only qualified, and one whose bare name is another country's capital too
+  (London (Ontario)). Drop what the fresh fetch puts under 91 views (the
+  city floor since 2026-09-18). Wikidata's P1082 is often the municipality's
+  figure: check the seat's own infobox for anything near 500k. The fuzzy
+  list is the payoff (Greenville was being scored as Grenville, Grenada).
 
 ## Lessons the waves paid for
 
@@ -399,7 +430,30 @@ background (the Bash tool caps at 600 s).
 - **Checkpoint commits**: a session cut-off loses nothing if every fold is
   committed with its pipeline green. The user watches their usage limit and
   has hit it mid-session; two Opus auditors died that way once with nothing
-  kept.
+  kept. When the user says "pause": `TaskStop` the watchers and the probe
+  (its cache resumes it), commit, push, write the pause point here.
+- **The sister-wiki pass** (`article-size.mjs --sister=es,fr,ro,…`) is what
+  sizes the rows enwiki and Wikidata leave bare — Mexico's mass-created
+  river stubs (21 lengths from eswiki), Canada's little (6 from frwiki),
+  Eastern Europe's 35 + 45 + 17 — but its infoboxes lie in their own ways:
+  a comma is the decimal ("126,6"; a Greek "0,357" once became 357 km²), a
+  dot before three digits a thousands mark ("1.081"), a "longitud" of "2,001
+  km²" is a basin, an elevation field may be a bridge's pylon. Eyeball the
+  `====  …WIKI` list every time.
+- **The worldwide list pages** ("List of straits", "List of lakes by
+  country") drag in the whole world; cut the chunk to the wave's countries
+  by description **and by the category the row came from** (four Canadian
+  bays with a bare description were lost to the cut once).
+- **A range table is a trap**: `\bAlps\b` matched "Dinaric Alps" and tagged
+  24 Balkan peaks as the Alps; the `the Rockies` table lacked the Canadian
+  sub-ranges and refused 26 Rockies peaks. After every mountain fold, run
+  `range-tag.mjs` dry and read both the "TO ADD" and the theme by eye.
+- **The probe's views and the fresh fetch's differ** (different 60-day
+  windows): a row at exactly the floor by the probe can come in under it —
+  drop those after the fold (`jackpot-share.mjs` shows the count moving).
+- **Every audit round has found real problems** — 2 to 10 per cohort, from
+  a Greenland island folded as Canadian to the whole Rockies theme accepting
+  Mount Olympus. Never skip one; run them offline while a probe runs.
 
 ---
 
@@ -447,6 +501,25 @@ The design (accepted 2026-09-17, built 2026-09-18; SPEC 3.7 "Namesakes", 4,
   another entry's name.
 - The stored answer is the display name, so the daily replay lands on the
   same entry. `usedAnswers` stays by id.
+- Added by the Mexico/Canada audits (2026-09-18, each with a test): an
+  entry named exactly the typing minus the cohort's own generic word beats
+  a loose holder ("George River" is George, not St. George; "St. George
+  River" is still St. George); the Canadian provinces have postal codes
+  ("Clearwater BC"); `normalize` strips "!" and "?"; a typo of a famous
+  island is not a tie with its "Isla X" namesake (the same bare spelling is
+  one fuzzy candidate, and the hit returns the loose list); on a narrowed
+  round an exact out-of-scope name is its own wrong-scope, never the famous
+  incumbent through its loose form ("Isla Espiritu Santo" on "bigger than
+  100 km²"); `isla` / `islas` / `ile` are island words and `lagoon` a lake
+  and sea word for the matcher, all letters for the letter rules along with
+  `bay` and `gulf`.
+- A famous holder's bare typing beside a qualified newcomer of the same
+  bare name wants the famous one to hold the exact key too: alias `Tara`
+  on the Hill of Tara beside Tara (Serbia), `Montreal Island` on the Island
+  of Montreal beside Montreal Island (Nunavut), `AuSable` on Au Sable
+  (Michigan) beside Ausable (Ontario). A word-order twin of a far more
+  famous place (Victoria Lake beside Lake Victoria, Newfoundland Island,
+  Tortuga Island) stays out.
 
 Tools: `qualify.mjs`, `chunk.mjs --taken-only`, `fold.mjs` (qualified rows,
 `--label`), `drop.mjs` (finds a qualified row), `try.mjs` (type at a slot).
@@ -542,8 +615,10 @@ folded and audited), the three coverage probes that showed the bank held each
 country's top tier only, the matcher's edit-budget change. 2026-09-16: the
 US wave (→ 12,008; seven probes, eight Opus audits, the category-word rule,
 `size` 0). 2026-09-17: the Europe wave (20 countries, → 14,914), the
-whole-bank pre-merge audit (→ 14,901), the release 2026-09-18. Then decision
-5 (→ 15,429) on `expansion-2`.
+whole-bank pre-merge audit (→ 14,901), the release 2026-09-18. Then, all on
+2026-09-18 and all on `expansion-2`: decision 5 (→ 15,429), the Mexico and
+Canada wave (→ 16,891, eight probes, five audit rounds, the sister-wiki
+pass), and Eastern Europe's first four cohorts (→ 17,652).
 
 ---
 
@@ -654,7 +729,7 @@ npm test && npm run gap-check        # then commit
 | submission window | a day is open from 1 day before to 2 days after (UTC) | `OPEN_BEFORE`, `OPEN_AFTER`, `lib/daily.js` |
 | stats cache | 60 s at the edge; 60 s in the client | `daily-stats.mjs`, `COMPARE_FRESH_MS` |
 | CORS origins | Netlify itself, `https://michaelboujikian.github.io`, `http://localhost:8123` | `ALLOWED_ORIGINS`, `lib/netlify.mjs` |
-| probe floors | rivers 80 km US / 60 Europe / 50 Britain; lakes 25 km²; islands 1 km²; cities 50,000; mountains none; `famousViews` 1,000; `noFigureViews` 122 (islands) / 183→213 (seas) | `probes/*.json`, `chunk --min-views` |
+| probe floors | rivers 80 km US & Canada / 60 Europe & Mexico / 50 Britain; lakes 25 km²; islands 1 km²; cities 50,000; mountains none; `famousViews` 1,000; `noFigureViews` 122 (islands, Canada's rivers) / 30 (Mexico's rivers) / 213 (seas) | `probes/*.json`, `chunk --min-views` |
 | views floors (after the fold) | rivers 30 · lakes 61 · islands 91 · mountains 122 · seas 213 · cities 91 (the cohort's old bottom; four 30–61-view Mexican towns had moved its jackpot line from 312 to 122, 2026-09-18) | `chunk.mjs --min-views`, `drop.mjs` after the fact |
 
 ## Environment gotchas (this machine)
