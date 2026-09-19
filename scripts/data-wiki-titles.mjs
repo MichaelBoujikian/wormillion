@@ -8470,7 +8470,6 @@ export const WIKI_TITLES = {
   "river-qing": "Qing River",
   "river-qingyi-sichuan": "Qingyi River (Sichuan)",
   "river-rong": "Rong River (Guangdong)",
-  "river-selbe": "Selbe River",
   "river-taping": "Taping River",
   "river-tashkurgan": "Tashkurgan River",
   "river-ting": "Ting River",
@@ -8509,7 +8508,6 @@ export const WIKI_TITLES = {
   "river-guo": "Guo River",
   "river-hailan": "Hailan River",
   "river-hailang": "Hailang River",
-  "river-hong": "Hong River (Huai River tributary)",
   "river-hui": "Hui River",
   "river-huifa": "Huifa River",
   "river-huma": "Huma River (Heilongjiang)",
@@ -9401,5 +9399,7 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-18 East Asia mountains: Wunu Mountain is the Goguryeo fortress mountain ("Landmass" by description) ---
   "mountain-wunu-mountain",
   // --- 2026-09-19 East Asia islands: Shiraishi Island (Okayama; "Place" by description) ---
-  "island-shiraishi-island"
+  "island-shiraishi-island",
+  // --- 2026-09-19 East Asia rivers audit: Kezi is 900 km (the enwiki infobox; zhwiki's 238 km is the reach above the gorge) ---
+  "river-kezi"
 ]);

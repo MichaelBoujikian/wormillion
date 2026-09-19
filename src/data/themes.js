@@ -691,7 +691,7 @@ globalThis.WORMILLION_THEMES = {
       'Batang (Sichuan)', "Bu'erhatong", 'Buliu', "Cao'e", 'Changhua',
       'Daning', 'Duilong', 'Feiyun', 'Fu (Jiangxi)', 'Furong',
       'Fuyi', 'Gaya', 'Golmud', 'Gong', 'Guan',
-      'Guanlan', 'Guo', 'Hailan', 'Hailang', 'Hong',
+      'Guanlan', 'Guo', 'Hailan', 'Hailang',
       'Hui', 'Huifa', 'Huma', 'Hunchun',
       'Jiyun', 'Jian', 'Jiao (Shandong)', 'Jiao (Zhejiang)', 'Kezi',
       'Laodao', "Le'an", 'Lei', 'Liuxi', 'Long',
@@ -707,7 +707,9 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-19 expansion
       'Red River (Vietnam)', 'Han (Hubei)', 'Min (Fujian)', 'Han (Guangdong)', 'Aksu (Xinjiang)',
       'Dan (China)', 'Yi (Henan)', 'Yi (Shandong)', 'Luo (Shaanxi)', 'Gan (Inner Mongolia)',
-      'Wei (Shandong)', 'Wei (Hunan)', 'Wu (Hunan)', 'Yalu (Inner Mongolia)'
+      'Wei (Shandong)', 'Wei (Hunan)', 'Wu (Hunan)', 'Yalu (Inner Mongolia)',
+      // add-theme.mjs
+      'Xi', 'Bei', 'Dong', 'Luo (Henan)'
     ],
     'Japan': [
       'Shinano', 'Ishikari', 'Kitakami', 'Kiso', 'Tenryu', 'Mogami', 'Agano', 'Yodo', 'Tama', 'Sagami',
@@ -732,14 +734,18 @@ globalThis.WORMILLION_THEMES = {
       'Yoneshiro', 'Yoshii', 'Yoro', 'Yubetsu', 'Ono',
       // 2026-09-19 expansion
       'Tone (Japan)', 'Kuma (Japan)', 'Karasu (Gunma)', 'Sai (Nagano)', 'Arakawa (Niigata)',
-      'Naka (Tokushima)'
+      'Naka (Tokushima)',
+      // add-theme.mjs
+      'Nagara'
     ],
     'Korea': [
       'Han River', 'Tumen', 'Yalu', 'Nakdong', 'Geum', 'Taedong', 'Imjin', 'Yeongsan', 'Seomjin', 'Namhan', 'Chongchon',
       // 2026-09-19 expansion
       'Cheonggyecheon', 'Hantan', 'Pothong', 'Soyang', 'Geumho',
       'Nam (South Korea)', 'Ryesong', 'Chaeryong', 'Changja', 'Cheongmicheon',
-      'Hongcheon', 'Hwang', 'Hyeongsan', 'Miryang'
+      'Hongcheon', 'Hwang', 'Hyeongsan', 'Miryang',
+      // add-theme.mjs
+      'Bukhan'
     ],
     'India': [
       'Ganges', 'Brahmaputra', 'Indus', 'Yamuna', 'Godavari', 'Krishna River',
@@ -1588,7 +1594,10 @@ globalThis.WORMILLION_THEMES = {
       'Mount Nikko-Shirane', 'Shinmoedake', 'Mount Ashitaka', 'Mount E', 'Mount Rausu',
       'Mount Io (Shiretoko)', 'Mount Kusatsu-Shirane', 'Mount Eniwa', 'Mount Kurohime', 'Mount Tomuraushi',
       'Mount Iizuna', 'Mount Tateshina', 'Mount Tsurumi', 'Mount Azuma-kofuji', 'Mount Io (Akan)',
-      'Mount Kirigamine', 'Mount Kurikoma', 'Mount Naeba', 'Mount Oakan', 'Mount Shari'
+      'Mount Kirigamine', 'Mount Kurikoma', 'Mount Naeba', 'Mount Oakan', 'Mount Shari',
+      // add-theme.mjs
+      'Mount Aka', 'Mount Tengu', 'Seonginbong', 'Qixing Mountain', 'Mount Suribachi',
+      'Mount Hoei', 'Mount Ashigara', 'Mount Oyama', 'Datun Mountain', 'Mount Karakuni'
     ]
   },
 
@@ -2038,7 +2047,10 @@ globalThis.WORMILLION_THEMES = {
       'Lake Chichancanab', 'Sullivan Lake',
       // 2026-09-19 expansion
       'Chaka Salt Lake', 'Xiechi Lake', 'Lake Zabuye', 'Ang Laren Lake', 'Jilantai Salt Lake',
-      'Tangra Yumco'
+      'Tangra Yumco',
+      // add-theme.mjs
+      'Spanggur Tso', 'Uureg Lake', 'Aksai Chin Lake', 'Zhari Namco', 'Dabusun Lake',
+      'Sangiin Dalai Lake'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [

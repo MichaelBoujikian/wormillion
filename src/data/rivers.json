@@ -36,7 +36,9 @@
   "category": "river",
   "name": "Yangtze",
   "aliases": [
-   "Chang Jiang"
+   "Chang Jiang",
+   "Yangzi",
+   "Yangzi Jiang"
   ],
   "size": 6300,
   "sizeUnit": "length_km",
@@ -167,7 +169,11 @@
   "id": "river-mekong",
   "category": "river",
   "name": "Mekong",
-  "aliases": [],
+  "aliases": [
+   "Lancang",
+   "Lancang Jiang",
+   "Lancang River"
+  ],
   "size": 4350,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Mekong\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -1631,7 +1637,9 @@
   "category": "river",
   "name": "Han River",
   "aliases": [
-   "Han"
+   "Han",
+   "Hangang",
+   "Han-gang"
   ],
   "size": 514,
   "sizeUnit": "length_km",
@@ -27037,7 +27045,10 @@
   "id": "river-xiang",
   "category": "river",
   "name": "Xiang",
-  "aliases": [],
+  "aliases": [
+   "Xiang Jiang",
+   "Xiangjiang"
+  ],
   "size": 856,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Xiang River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -27051,7 +27062,10 @@
   "id": "river-gan-jiangxi",
   "category": "river",
   "name": "Gan",
-  "aliases": [],
+  "aliases": [
+   "Gan Jiang",
+   "Ganjiang"
+  ],
   "size": 823,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Gan River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -27142,7 +27156,9 @@
   "category": "river",
   "name": "Xi",
   "aliases": [
-   "West River"
+   "West River",
+   "Xi Jiang",
+   "Xijiang"
   ],
   "size": 2129,
   "sizeUnit": "length_km",
@@ -27789,7 +27805,9 @@
   "id": "river-nakdong",
   "category": "river",
   "name": "Nakdong",
-  "aliases": [],
+  "aliases": [
+   "Nakdonggang"
+  ],
   "size": 510,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Nakdong River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -27817,7 +27835,10 @@
   "id": "river-taedong",
   "category": "river",
   "name": "Taedong",
-  "aliases": [],
+  "aliases": [
+   "Taedonggang",
+   "Taedong-gang"
+  ],
   "size": 439,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Taedong River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -27961,7 +27982,9 @@
   "id": "river-kiso",
   "category": "river",
   "name": "Kiso",
-  "aliases": [],
+  "aliases": [
+   "Kisogawa"
+  ],
   "size": 227,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Kiso River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -28018,7 +28041,8 @@
   "category": "river",
   "name": "Yodo",
   "aliases": [
-   "Yodo River"
+   "Yodo River",
+   "Yodogawa"
   ],
   "size": 75,
   "sizeUnit": "length_km",
@@ -28033,7 +28057,9 @@
   "id": "river-tama",
   "category": "river",
   "name": "Tama",
-  "aliases": [],
+  "aliases": [
+   "Tamagawa"
+  ],
   "size": 138,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Tama River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
@@ -28306,7 +28332,8 @@
   "category": "river",
   "name": "Kamo",
   "aliases": [
-   "Kamo River"
+   "Kamo River",
+   "Kamogawa"
   ],
   "size": 23,
   "sizeUnit": "length_km",
@@ -70661,18 +70688,6 @@
   "lon": 116.7666
  },
  {
-  "id": "river-selbe",
-  "category": "river",
-  "name": "Selbe",
-  "aliases": [],
-  "size": 262,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Selbe River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 61,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Selbe River"
- },
- {
   "id": "river-taping",
   "category": "river",
   "name": "Taping",
@@ -71212,20 +71227,6 @@
   "lon": 129.546
  },
  {
-  "id": "river-hong",
-  "category": "river",
-  "name": "Hong",
-  "aliases": [],
-  "size": 326,
-  "sizeUnit": "length_km",
-  "source": "English Wikipedia pageviews for \"Hong River (Huai River tributary)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
-  "magnitude": 30,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Hong River (Huai River tributary)",
-  "lat": 32.4099,
-  "lon": 115.5477
- },
- {
   "id": "river-hui",
   "category": "river",
   "name": "Hui",
@@ -71339,8 +71340,11 @@
   "id": "river-kezi",
   "category": "river",
   "name": "Kezi",
-  "aliases": [],
-  "size": 238,
+  "aliases": [
+   "Kizil River",
+   "Kezilesu River"
+  ],
+  "size": 900,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Kezi River\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",
   "magnitude": 30,
@@ -72038,7 +72042,8 @@
   "aliases": [
    "Hanshui",
    "Han Shui",
-   "Han Jiang"
+   "Han Jiang",
+   "Han River"
   ],
   "size": 1532,
   "sizeUnit": "length_km",
@@ -72088,7 +72093,9 @@
   "id": "river-han-guangdong",
   "category": "river",
   "name": "Han",
-  "aliases": [],
+  "aliases": [
+   "Han River"
+  ],
   "size": 410,
   "sizeUnit": "length_km",
   "source": "English Wikipedia pageviews for \"Han River (Guangdong)\", 60-day daily median (60 days ending 2026-09-19); Standard reference lengths (km); one figure picked per river, see Spec 6.2",

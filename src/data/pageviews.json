@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T07:17:31.320Z",
+ "fetched": "2026-09-19T07:30:25.845Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -43544,13 +43544,6 @@
    "lat": 43.88,
    "lon": 128.94
   },
-  "lake-slender-west-lake": {
-   "title": "Slender West Lake",
-   "monthlyViews": 304,
-   "days": 60,
-   "lat": 32.41,
-   "lon": 119.4175
-  },
   "lake-yangcheng-lake": {
    "title": "Yangcheng Lake",
    "monthlyViews": 274,
@@ -43732,13 +43725,6 @@
    "days": 60,
    "lat": 38.3,
    "lon": 97.6
-  },
-  "lake-lake-iruka": {
-   "title": "Lake Iruka",
-   "monthlyViews": 91,
-   "days": 60,
-   "lat": 35.34166667,
-   "lon": 136.9975
   },
   "lake-lake-notoro": {
    "title": "Lake Notoro",
@@ -78180,13 +78166,6 @@
    "lat": 23.3215,
    "lon": 116.7666
   },
-  "river-selbe": {
-   "title": "Selbe River",
-   "monthlyViews": 61,
-   "days": 57,
-   "lat": null,
-   "lon": null
-  },
   "river-taping": {
    "title": "Taping River",
    "monthlyViews": 61,
@@ -78459,13 +78438,6 @@
    "days": 58,
    "lat": 44.5473,
    "lon": 129.546
-  },
-  "river-hong": {
-   "title": "Hong River (Huai River tributary)",
-   "monthlyViews": 30,
-   "days": 57,
-   "lat": 32.4099,
-   "lon": 115.5477
   },
   "river-hui": {
    "title": "Hui River",
@@ -87391,6 +87363,13 @@
    "days": 60,
    "lat": 31.93805556,
    "lon": 130.86138889
+  },
+  "mountain-mount-karakuni": {
+   "title": "Mount Karakuni",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 31.93416667,
+   "lon": 130.86166667
   },
   "mountain-mount-yotei": {
    "title": "Mount Yōtei",
@@ -101006,13 +100985,6 @@
    "days": 60,
    "lat": 23.3,
    "lon": 114
-  },
-  "mountain-shahi-kangri": {
-   "title": "Shahi Kangri",
-   "monthlyViews": 213,
-   "days": 60,
-   "lat": 35.1709014,
-   "lon": 77.8305828
   },
   "mountain-dinghu-mountain": {
    "title": "Dinghu Mountain",

@@ -10468,7 +10468,10 @@
   "id": "lake-pangong-tso",
   "category": "lake",
   "name": "Pangong Tso",
-  "aliases": [],
+  "aliases": [
+   "Pangong",
+   "Pangong Lake"
+  ],
   "size": 604,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Pangong Tso\", 60-day daily median (60 days ending 2026-09-19); Standard reference surface-area figures (km2), rounded",
@@ -22291,7 +22294,9 @@
   "id": "lake-spanggur-tso",
   "category": "lake",
   "name": "Spanggur Tso",
-  "aliases": [],
+  "aliases": [
+   "Spanggur"
+  ],
   "size": 61.6,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Spanggur Tso\", 60-day daily median (60 days ending 2026-09-19); Standard reference surface-area figures (km2), rounded",
@@ -22468,22 +22473,6 @@
   "wikiTitle": "Jingpo Lake",
   "lat": 43.88,
   "lon": 128.94
- },
- {
-  "id": "lake-slender-west-lake",
-  "category": "lake",
-  "name": "Slender West Lake",
-  "aliases": [
-   "Shouxi Lake"
-  ],
-  "size": 168.32,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Slender West Lake\", 60-day daily median (60 days ending 2026-09-19); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 304,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Slender West Lake",
-  "lat": 32.41,
-  "lon": 119.4175
  },
  {
   "id": "lake-yangcheng-lake",
@@ -22854,20 +22843,6 @@
   "wikiTitle": "Lake Hala",
   "lat": 38.3,
   "lon": 97.6
- },
- {
-  "id": "lake-lake-iruka",
-  "category": "lake",
-  "name": "Lake Iruka",
-  "aliases": [],
-  "size": 152.1,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Lake Iruka\", 60-day daily median (60 days ending 2026-09-19); Standard reference surface-area figures (km2), rounded",
-  "magnitude": 91,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Lake Iruka",
-  "lat": 35.34166667,
-  "lon": 136.9975
  },
  {
   "id": "lake-lake-notoro",

@@ -15591,6 +15591,23 @@
   "lon": 130.86138889
  },
  {
+  "id": "mountain-mount-karakuni",
+  "category": "mountain",
+  "name": "Mount Karakuni",
+  "aliases": [
+   "Karakunidake",
+   "Karakuni-dake"
+  ],
+  "size": 1700,
+  "sizeUnit": "elevation_m",
+  "source": "English Wikipedia pageviews for \"Mount Karakuni\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mount Karakuni",
+  "lat": 31.93416667,
+  "lon": 130.86166667
+ },
+ {
   "id": "mountain-mount-yotei",
   "category": "mountain",
   "name": "Mount Yotei",
@@ -15712,7 +15729,9 @@
   "id": "mountain-mount-nantai",
   "category": "mountain",
   "name": "Mount Nantai",
-  "aliases": [],
+  "aliases": [
+   "Nantaisan"
+  ],
   "size": 2486,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Mount Nantai\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
@@ -42908,20 +42927,6 @@
   "wikiTitle": "Mount Luofu",
   "lat": 23.3,
   "lon": 114
- },
- {
-  "id": "mountain-shahi-kangri",
-  "category": "mountain",
-  "name": "Shahi Kangri",
-  "aliases": [],
-  "size": 6934,
-  "sizeUnit": "elevation_m",
-  "source": "English Wikipedia pageviews for \"Shahi Kangri\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m)",
-  "magnitude": 213,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Shahi Kangri",
-  "lat": 35.1709014,
-  "lon": 77.8305828
  },
  {
   "id": "mountain-dinghu-mountain",

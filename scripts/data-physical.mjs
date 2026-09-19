@@ -728,7 +728,7 @@ Khyargas Lake|1407
 Airag Lake|145|Lake Airag
 Terkhiin Tsagaan Lake|61
 Achit Lake|300
-Pangong Tso|604
+Pangong Tso|604|Pangong,Pangong Lake
 Dal Lake|18
 Wular Lake|130
 Chilika Lake|1100
@@ -1563,7 +1563,7 @@ Sun Moon Lake|7.93|Riyue Tan
 Lake Suwa|13.3
 Lake Tazawa|25.9
 Kanas Lake|45.73
-Spanggur Tso|61.6
+Spanggur Tso|61.6|Spanggur
 Chaka Salt Lake|105|Chaka Lake
 Tolbo Lake|185|Tolbo Nuur
 Uureg Lake|239
@@ -1575,7 +1575,6 @@ Buir Lake|610|Buir Nuur
 Lake Inawashiro|103.3
 East Lake (Wuhan)|33|Donghu
 Jingpo Lake|95
-Slender West Lake|168.32|Shouxi Lake
 Yangcheng Lake|117.4
 Lake Shinji|79
 Aksai Chin Lake|160
@@ -1602,7 +1601,6 @@ Dorgon Lake|305
 Khar Lake (Khovd)|575|Khar Nuur
 Khar Lake (Zavkhan)|84.5
 Lake Hala|596
-Lake Iruka|152.1
 Lake Notoro|58
 Liujiaxia Reservoir|130
 Miyun Reservoir|188
@@ -1639,7 +1637,7 @@ Crescent Lake (Dunhuang)|0.01|Yueyaquan,Crescent Moon Lake,Crescent Spring
 export const RIVERS = `
 Nile|6650|the Nile
 Amazon|6400|Amazon River
-Yangtze|6300|Chang Jiang
+Yangtze|6300|Chang Jiang,Yangzi,Yangzi Jiang
 Yellow River|5464|Huang He,Huanghe
 Yenisei|5539
 Ob|3650-5410|Ob River
@@ -1647,7 +1645,7 @@ Parana|4880|Parana River
 Congo River|4700|Congo,Zaire River
 Amur|2824-4444
 Lena|4400|Lena River
-Mekong|4350
+Mekong|4350|Lancang,Lancang Jiang,Lancang River
 Mackenzie|4241|Mackenzie River
 Niger River|4200
 Brahmaputra|3848
@@ -1742,7 +1740,7 @@ Chenab|960
 Amu Darya|2620
 Helmand River|1150|Helmand
 Chao Phraya|372
-Han River|514|Han
+Han River|514|Han,Hangang,Han-gang
 Songhua|1897
 Waikato River|425|Waikato
 Clutha River|338|Clutha
@@ -3440,14 +3438,14 @@ Min (Sichuan)|735
 Dadu (Sichuan)|1062
 Wu (Guizhou)|1037|Wu River
 Yuan|1033
-Xiang|856
-Gan (Jiangxi)|823
+Xiang|856|Xiang Jiang,Xiangjiang
+Gan (Jiangxi)|823|Gan Jiang,Ganjiang
 Qiantang|668
 Ou|388|Oujiang
 Jiulong|258
 Dong|562|Dong River,Dongjiang
 Bei|468|North River
-Xi|2129|West River
+Xi|2129|West River,Xi Jiang,Xijiang
 Yu|1121
 Hongshui|1050
 Jinsha|2308|Jinsha River
@@ -3492,9 +3490,9 @@ Penzhina|713
 Okhota|393
 Uda|457
 Amgun|723
-Nakdong|510
+Nakdong|510|Nakdonggang
 Geum|401
-Taedong|439
+Taedong|439|Taedonggang,Taedong-gang
 Imjin|254
 Yeongsan|150
 Seomjin|212
@@ -3504,12 +3502,12 @@ Chongchon|213|Chongchon River
 Shinano|367|Shinano River
 Ishikari|268
 Kitakami|249
-Kiso|227
+Kiso|227|Kisogawa
 Tenryu|213|Tenryu River
 Mogami|229
 Agano|210
-Yodo|75|Yodo River
-Tama|138
+Yodo|75|Yodo River,Yodogawa
+Tama|138|Tamagawa
 Sagami|109
 Fuji|128|Fuji River
 Oi|168
@@ -3528,7 +3526,7 @@ Kuji|122
 Naka (Ibaraki)|150
 Arakawa (Kanto)|173|Arakawa River
 Sumida|27|Sumida River
-Kamo|23|Kamo River
+Kamo|23|Kamo River,Kamogawa
 Kaveri|800|Cauvery
 Mahanadi|858
 Tapti|724
@@ -6526,7 +6524,6 @@ Pudu|364
 Qing|423
 Qingyi (Sichuan)|276
 Rong|196
-Selbe|262
 Taping|117
 Tashkurgan|190
 Ting|300
@@ -6566,7 +6563,6 @@ Guanlan|88
 Guo|421
 Hailan|145
 Hailang|222
-Hong|326
 Hui|211
 Huifa|267
 Huma|435
@@ -6575,7 +6571,7 @@ Jiyun|157|Ji Canal River,Ji Canal,Jiyun River
 Jian|232
 Jiao (Shandong)|100
 Jiao (Zhejiang)|198
-Kezi|238
+Kezi|900|Kizil River,Kezilesu River
 Khanui|421
 Laodao|141
 Le'an|279
@@ -6626,10 +6622,10 @@ You|477
 Yue|95
 Yuqu|402
 Red River (Vietnam)|1149|Song Hong,Yuan Jiang,Red River of Asia
-Han (Hubei)|1532|Hanshui,Han Shui,Han Jiang
+Han (Hubei)|1532|Hanshui,Han Shui,Han Jiang,Han River
 Min (Fujian)|505|Min Jiang
 Arun (Nepal)|364|Phung Chu
-Han (Guangdong)|410
+Han (Guangdong)|410|Han River
 Aksu (Xinjiang)|282
 Dan (China)|443|Danjiang
 Yi (Henan)|368
@@ -7845,6 +7841,7 @@ Mount Daisen|1729
 Mount Unzen|1483
 Sakurajima|1117
 Mount Kirishima|1700|Kirishima
+Mount Karakuni|1700|Karakunidake,Karakuni-dake
 Mount Yotei|1898
 Mount Asahi|2291|Asahidake
 Mount Rishiri|1721|Rishiri-Fuji
@@ -7853,7 +7850,7 @@ Mount Koya|800|Koyasan
 Mount Hiei|848|Hieizan
 Mount Rokko|931
 Mount Tsukuba|877
-Mount Nantai|2486
+Mount Nantai|2486|Nantaisan
 Mount Norikura|3026
 Mount Kaimon|924|Satsuma Fuji
 Mount Haruna|1449
@@ -9790,7 +9787,6 @@ Mount Io (Shiretoko)|1562
 Mount Komaki|86
 Mount Kusatsu-Shirane|2165
 Mount Luofu|1296
-Shahi Kangri|6934
 Dinghu Mountain|0
 Lingtren|6749
 Ma On Shan|702
