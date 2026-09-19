@@ -4247,7 +4247,7 @@ Lozova|Ukraine|54026
 Oleksandriia|Ukraine|76097|Oleksandriya,Alexandriya
 Siemianowice Slaskie|Poland|63657
 Legionowo|Poland|53216
-Samar (Ukraine)|Ukraine|69855
+Samar (Ukraine)|Ukraine|69855|Novomoskovsk
 Piekary Slaskie|Poland|51876
 Zgierz|Poland|55079
 Popesti-Leordeni|Romania|53434
