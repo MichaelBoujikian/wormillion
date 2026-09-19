@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T05:43:39.371Z",
+ "fetched": "2026-09-19T06:05:40.454Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -41297,7 +41297,7 @@
    "lat": 44.5383527,
    "lon": -75.5685441
   },
-  "lake-crescent-lake": {
+  "lake-crescent-lake-florida": {
    "title": "Crescent Lake (Florida)",
    "monthlyViews": 213,
    "days": 60,
@@ -43424,6 +43424,538 @@
    "days": 59,
    "lat": 43.45305556,
    "lon": 17.19666667
+  },
+  "lake-lake-rakshastal": {
+   "title": "Lake Rakshastal",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": 30.65,
+   "lon": 81.25
+  },
+  "lake-sun-moon-lake": {
+   "title": "Sun Moon Lake",
+   "monthlyViews": 2374,
+   "days": 59,
+   "lat": 23.86666667,
+   "lon": 120.91666667
+  },
+  "lake-lake-suwa": {
+   "title": "Lake Suwa",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 36.04833333,
+   "lon": 138.08416667
+  },
+  "lake-lake-tazawa": {
+   "title": "Lake Tazawa",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 39.725,
+   "lon": 140.66138889
+  },
+  "lake-kanas-lake": {
+   "title": "Kanas Lake",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 48.815,
+   "lon": 87.04
+  },
+  "lake-spanggur-tso": {
+   "title": "Spanggur Tso",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 33.53638889,
+   "lon": 78.90888889
+  },
+  "lake-chaka-salt-lake": {
+   "title": "Chaka Salt Lake",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 36.6976,
+   "lon": 99.1055
+  },
+  "lake-tolbo-lake": {
+   "title": "Tolbo Lake",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 48.56,
+   "lon": 90.05
+  },
+  "lake-uureg-lake": {
+   "title": "Üüreg Lake",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 50.16666667,
+   "lon": 91
+  },
+  "lake-lake-hamana": {
+   "title": "Lake Hamana",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 34.74111111,
+   "lon": 137.56972222
+  },
+  "lake-hachirogata": {
+   "title": "Hachirōgata",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 39.91388889,
+   "lon": 140.02083333
+  },
+  "lake-lake-kasumigaura": {
+   "title": "Lake Kasumigaura",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 36.04027778,
+   "lon": 140.39416667
+  },
+  "lake-aydingkol": {
+   "title": "Aydingkol",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 42.6575,
+   "lon": 89.27055556
+  },
+  "lake-buir-lake": {
+   "title": "Buir Lake",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 47.80694444,
+   "lon": 117.69222222
+  },
+  "lake-lake-inawashiro": {
+   "title": "Lake Inawashiro",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 37.47472222,
+   "lon": 140.09361111
+  },
+  "lake-east-lake-wuhan": {
+   "title": "East Lake (Wuhan)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 30.5583,
+   "lon": 114.4
+  },
+  "lake-jingpo-lake": {
+   "title": "Jingpo Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 43.88,
+   "lon": 128.94
+  },
+  "lake-slender-west-lake": {
+   "title": "Slender West Lake",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 32.41,
+   "lon": 119.4175
+  },
+  "lake-yangcheng-lake": {
+   "title": "Yangcheng Lake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 31.43083333,
+   "lon": 120.81305556
+  },
+  "lake-lake-shinji": {
+   "title": "Lake Shinji",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.45,
+   "lon": 132.96666667
+  },
+  "lake-aksai-chin-lake": {
+   "title": "Aksai Chin Lake",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.21666667,
+   "lon": 79.85
+  },
+  "lake-lake-heihai": {
+   "title": "Lake Heihai",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 36,
+   "lon": 93.25
+  },
+  "lake-lake-saroma": {
+   "title": "Lake Saroma",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.16666667,
+   "lon": 143.71666667
+  },
+  "lake-zhelin-reservoir": {
+   "title": "Zhelin Reservoir",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 29.29,
+   "lon": 115.34
+  },
+  "lake-baiyang-lake": {
+   "title": "Baiyang Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.85,
+   "lon": 116
+  },
+  "lake-chagan-lake": {
+   "title": "Chagan Lake (China)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 45.25,
+   "lon": 124.28
+  },
+  "lake-dianshan-lake": {
+   "title": "Dianshan Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 31.12,
+   "lon": 120.971
+  },
+  "lake-ulungur-lake": {
+   "title": "Ulungur Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.25,
+   "lon": 87.25
+  },
+  "lake-xiechi-lake": {
+   "title": "Xiechi Lake",
+   "monthlyViews": 183,
+   "days": 50,
+   "lat": 34.977222,
+   "lon": 110.987222
+  },
+  "lake-ogii-lake": {
+   "title": "Ögii Lake",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 47.77083333,
+   "lon": 102.76666667
+  },
+  "lake-ebi-lake": {
+   "title": "Ebi Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.88333333,
+   "lon": 83
+  },
+  "lake-dongping-lake": {
+   "title": "Dongping Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.96472222,
+   "lon": 116.19583333
+  },
+  "lake-lake-ogawara": {
+   "title": "Lake Ogawara",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-nakaumi": {
+   "title": "Nakaumi",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.46666667,
+   "lon": 133.2
+  },
+  "lake-nansi-lake": {
+   "title": "Nansi Lake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 34.6,
+   "lon": 117.2
+  },
+  "lake-dongjiang-lake": {
+   "title": "Dongjiang Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 25.83,
+   "lon": 113.36
+  },
+  "lake-gaoyou-lake": {
+   "title": "Gaoyou Lake",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.83333333,
+   "lon": 119.33333333
+  },
+  "lake-lake-ayakkum": {
+   "title": "Lake Ayakkum",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.55,
+   "lon": 89.38333333
+  },
+  "lake-lake-zabuye": {
+   "title": "Lake Zabuye",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 31.4475,
+   "lon": 84.05777778
+  },
+  "lake-xinfengjiang-reservoir": {
+   "title": "Xinfengjiang Reservoir",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 23.72638889,
+   "lon": 114.6475
+  },
+  "lake-dorgon-lake": {
+   "title": "Dörgön Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 47.7,
+   "lon": 93.41666667
+  },
+  "lake-khar-lake-khovd": {
+   "title": "Khar Lake (Khovd)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 48.08,
+   "lon": 93.2
+  },
+  "lake-khar-lake-zavkhan": {
+   "title": "Khar Lake (Zavkhan)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 48.35,
+   "lon": 96.1
+  },
+  "lake-lake-hala": {
+   "title": "Lake Hala",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 38.3,
+   "lon": 97.6
+  },
+  "lake-lake-iruka": {
+   "title": "Lake Iruka",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 35.34166667,
+   "lon": 136.9975
+  },
+  "lake-lake-notoro": {
+   "title": "Lake Notoro",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 44.06666667,
+   "lon": 144.15
+  },
+  "lake-liujiaxia-reservoir": {
+   "title": "Liujiaxia Reservoir",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 35.93194444,
+   "lon": 103.34583333
+  },
+  "lake-miyun-reservoir": {
+   "title": "Miyun Reservoir",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 40.48,
+   "lon": 116.98
+  },
+  "lake-pagsum-lake": {
+   "title": "Pagsum Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 30.01416667,
+   "lon": 93.95027778
+  },
+  "lake-ulaan-lake": {
+   "title": "Ulaan Lake",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 44.515,
+   "lon": 106.61611111
+  },
+  "lake-zhari-namco": {
+   "title": "Zhari Namco",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 30.91666667,
+   "lon": 85.63333333
+  },
+  "lake-ang-laren-lake": {
+   "title": "Ang Laren Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 31.55166667,
+   "lon": 83.10055556
+  },
+  "lake-bayan-lake": {
+   "title": "Bayan Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.456,
+   "lon": 95.118
+  },
+  "lake-boon-tsagaan-lake": {
+   "title": "Böön Tsagaan Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "lake-chenghai-lake": {
+   "title": "Chenghai Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 26.54777778,
+   "lon": 100.66055556
+  },
+  "lake-cona-lake": {
+   "title": "Cona Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 32.03277778,
+   "lon": 91.47861111
+  },
+  "lake-dabusun-lake": {
+   "title": "Dabusun Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.024081,
+   "lon": 95.1389253
+  },
+  "lake-guanting-reservoir": {
+   "title": "Guanting Reservoir",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 40.38333333,
+   "lon": 115.8
+  },
+  "lake-hong-lake": {
+   "title": "Hong Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 29.847791,
+   "lon": 113.340454
+  },
+  "lake-jilantai-salt-lake": {
+   "title": "Jilantai Salt Lake",
+   "monthlyViews": 61,
+   "days": 55,
+   "lat": 39.7,
+   "lon": 105.66666667
+  },
+  "lake-jinyang-lake": {
+   "title": "Jinyang Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 35.17194444,
+   "lon": 128.03138889
+  },
+  "lake-khoton-lake": {
+   "title": "Khoton Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.65,
+   "lon": 88.3
+  },
+  "lake-khokh-nuur": {
+   "title": "Khökh Nuur",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.51327778,
+   "lon": 115.58108333
+  },
+  "lake-lake-abashiri": {
+   "title": "Lake Abashiri",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 43.96666667,
+   "lon": 144.16666667
+  },
+  "lake-lake-urru": {
+   "title": "Lake Urru",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 31.71666667,
+   "lon": 88
+  },
+  "lake-liangzi-lake": {
+   "title": "Liangzi Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 30.2404,
+   "lon": 114.5204
+  },
+  "lake-luoma-lake": {
+   "title": "Luoma Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 34.09,
+   "lon": 118.18
+  },
+  "lake-sangiin-dalai-lake": {
+   "title": "Sangiin Dalai Lake",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 49.25,
+   "lon": 99
+  },
+  "lake-supung-lake": {
+   "title": "Supung Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 40.47,
+   "lon": 124.98
+  },
+  "lake-tangra-yumco": {
+   "title": "Tangra Yumco",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 31,
+   "lon": 86.56666667
+  },
+  "lake-telmen-lake": {
+   "title": "Telmen Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.83333333,
+   "lon": 97.31666667
+  },
+  "lake-ulansuhai-nur": {
+   "title": "Ulansuhai Nur",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 40.93333333,
+   "lon": 108.86666667
+  },
+  "lake-yangzong-lake": {
+   "title": "Yangzong Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 24.90944444,
+   "lon": 103.00444444
+  },
+  "lake-yilong-lake": {
+   "title": "Yilong Lake",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 23.67,
+   "lon": 102.57
+  },
+  "lake-zigetangcuo-lake": {
+   "title": "Zigetangcuo Lake",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 32,
+   "lon": 90.73333333
+  },
+  "lake-crescent-lake-dunhuang": {
+   "title": "Crescent Lake (Dunhuang)",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 40.08666667,
+   "lon": 94.66944444
   },
   "river-nile": {
    "title": "Nile",

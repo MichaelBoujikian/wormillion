@@ -1254,7 +1254,7 @@ Pyramid Lake (California)|5.1
 Lake George (Florida)|186.16
 Black Lake (Michigan)|40.99
 Black Lake (New York)|31.79
-Crescent Lake|64.59
+Crescent Lake (Florida)|64.59
 Black Lake (Louisiana)|28
 Lake Arrowhead (Texas)|60.58
 Walker Lake (Alaska)|37
@@ -1558,6 +1558,82 @@ Sasyk Lagoon|241.88
 Studen Kladenets|27.8
 Red Lake (Romania)|0.11
 Red Lake (Croatia)|0.03
+Lake Rakshastal|250|Rakshastal,Rakas Tal
+Sun Moon Lake|7.93|Riyue Tan
+Lake Suwa|13.3
+Lake Tazawa|25.9
+Kanas Lake|45.73
+Spanggur Tso|61.6
+Chaka Salt Lake|105|Chaka Lake
+Tolbo Lake|185|Tolbo Nuur
+Uureg Lake|239
+Lake Hamana|65
+Hachirogata|48.3
+Lake Kasumigaura|220|Kasumigaura
+Aydingkol|152|Ayding Lake,Aydingkol Lake
+Buir Lake|610|Buir Nuur
+Lake Inawashiro|103.3
+East Lake (Wuhan)|33|Donghu
+Jingpo Lake|95
+Slender West Lake|168.32|Shouxi Lake
+Yangcheng Lake|117.4
+Lake Shinji|79
+Aksai Chin Lake|160
+Lake Heihai|38.3
+Lake Saroma|150
+Zhelin Reservoir|308
+Baiyang Lake|366
+Chagan Lake|307
+Dianshan Lake|62
+Ulungur Lake|1035
+Xiechi Lake|130
+Ogii Lake|25.7
+Ebi Lake|805
+Dongping Lake|148
+Lake Ogawara|63.2
+Nakaumi|86.2|Lake Nakaumi
+Nansi Lake|1266|Weishan Lake
+Dongjiang Lake|160
+Gaoyou Lake|674.7
+Lake Ayakkum|1141.67
+Lake Zabuye|247
+Xinfengjiang Reservoir|370
+Dorgon Lake|305
+Khar Lake (Khovd)|575|Khar Nuur
+Khar Lake (Zavkhan)|84.5
+Lake Hala|596
+Lake Iruka|152.1
+Lake Notoro|58
+Liujiaxia Reservoir|130
+Miyun Reservoir|188
+Pagsum Lake|27
+Ulaan Lake|175
+Zhari Namco|996.9|Zhari Namtso
+Ang Laren Lake|512.7
+Bayan Lake|64.2
+Boon Tsagaan Lake|252
+Chenghai Lake|77.22
+Cona Lake|300
+Dabusun Lake|184
+Guanting Reservoir|130
+Hong Lake|348
+Jilantai Salt Lake|40.35
+Jinyang Lake|29.4
+Khoton Lake|50
+Khokh Nuur|54
+Lake Abashiri|33
+Lake Urru|342.7
+Liangzi Lake|370
+Luoma Lake|375
+Sangiin Dalai Lake|165
+Supung Lake|274|Supung Reservoir
+Tangra Yumco|835.8|Tangra Yumtso
+Telmen Lake|194
+Ulansuhai Nur|233|Wuliangsuhai
+Yangzong Lake|31
+Yilong Lake|32
+Zigetangcuo Lake|187
+Crescent Lake (Dunhuang)|0.01|Yueyaquan,Crescent Moon Lake,Crescent Spring
 `;
 
 export const RIVERS = `

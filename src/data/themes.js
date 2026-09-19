@@ -1923,7 +1923,7 @@ globalThis.WORMILLION_THEMES = {
       'Lake Arrowhead (California)', 'Lake Coatepeque', 'Twin Buttes Reservoir',
       // 2026-09-18 namesakes, decision 5
       'Geneva Lake', "Devil's Lake (Wisconsin)", 'Pyramid Lake (California)', 'Lake George (Florida)', 'Black Lake (Michigan)',
-      'Black Lake (New York)', 'Crescent Lake', 'Black Lake (Louisiana)', 'Lake Arrowhead (Texas)', 'Walker Lake (Alaska)',
+      'Black Lake (New York)', 'Crescent Lake (Florida)', 'Black Lake (Louisiana)', 'Lake Arrowhead (Texas)', 'Walker Lake (Alaska)',
       // 2026-09-18 Mexico and Canada lakes
       'Big Ass Lake', 'Man Drowned Himself Lake', 'Little Manitou Lake', "Bras d'Or Lake", 'Yathkyed Lake',
       'Lake Rosseau', 'Chilko Lake', 'Angikuni Lake', 'Rice Lake', 'Clearwater Lakes',
@@ -2008,7 +2008,10 @@ globalThis.WORMILLION_THEMES = {
       'Lake Tasiujaq', 'Chaplin Lake', 'Old Wives Lake', 'Little Manitou Lake',
       // add-theme.mjs
       'Manitou Lake', 'Redberry Lake', 'Lenore Lake', 'Basin Lake', 'Willow Bunch Lake',
-      'Lake Chichancanab', 'Sullivan Lake'
+      'Lake Chichancanab', 'Sullivan Lake',
+      // 2026-09-19 expansion
+      'Chaka Salt Lake', 'Xiechi Lake', 'Lake Zabuye', 'Ang Laren Lake', 'Jilantai Salt Lake',
+      'Tangra Yumco'
     ],
     'the Great Lakes': ['Lake Superior', 'Lake Michigan', 'Lake Huron', 'Lake Erie', 'Lake Ontario'],
     'Africa': [

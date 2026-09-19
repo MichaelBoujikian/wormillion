@@ -6858,7 +6858,7 @@ export const WIKI_TITLES = {
   "lake-lake-george-florida": "Lake George (Florida)",
   "lake-black-lake-michigan": "Black Lake (Michigan)",
   "lake-black-lake-new-york": "Black Lake (New York)",
-  "lake-crescent-lake": "Crescent Lake (Florida)",
+  "lake-crescent-lake-florida": "Crescent Lake (Florida)",
   "lake-black-lake-louisiana": "Black Lake (Louisiana)",
   "lake-lake-arrowhead-texas": "Lake Arrowhead (Texas)",
   "lake-walker-lake-alaska": "Walker Lake (Northwest Arctic, Alaska)",
@@ -8702,7 +8702,22 @@ export const WIKI_TITLES = {
   "river-sai-nagano": "Sai River (Nagano)",
   "river-arakawa-niigata": "Arakawa River (Uetsu)",
   "river-dadu-taiwan": "Dadu River (Taiwan)",
-  "river-naka-tokushima": "Naka River (Tokushima)"
+  "river-naka-tokushima": "Naka River (Tokushima)",
+
+  // --- lake (2026-09-19 expansion) ---
+  "lake-uureg-lake": "Üüreg Lake",
+  "lake-hachirogata": "Hachirōgata",
+  "lake-east-lake-wuhan": "East Lake (Wuhan)",
+  "lake-chagan-lake": "Chagan Lake (China)",
+  "lake-ogii-lake": "Ögii Lake",
+  "lake-dorgon-lake": "Dörgön Lake",
+  "lake-khar-lake-khovd": "Khar Lake (Khovd)",
+  "lake-khar-lake-zavkhan": "Khar Lake (Zavkhan)",
+  "lake-boon-tsagaan-lake": "Böön Tsagaan Lake",
+  "lake-khokh-nuur": "Khökh Nuur",
+
+  // --- lake (2026-09-19 expansion) ---
+  "lake-crescent-lake-dunhuang": "Crescent Lake (Dunhuang)"
 };
 
 /**
