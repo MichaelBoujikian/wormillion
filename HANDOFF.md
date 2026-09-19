@@ -23,19 +23,25 @@ per wave) and SPEC §13; git log has the rest.
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
 do the next thing named here):** South America wave: rivers, lakes,
-mountains, islands DONE and the first audit round APPLIED (this commit). The
-seas probe has RUN (`work/sa-seas.out` ends with PROBE-DONE; 791 read, 336
-present, 247 missing, most of them the worldwide lists' foreign rows) -
-NEXT: `chunk --tag=sa6 --min-views=213 --allow-no-figure` on
-`work/sa-seas.json` (no article pass for seas), hand-clean with the
-scratchpad's `clean-sa-seas.cjs` (PROBE=sa-seas TAG=sa6; theme `the
-Americas`; cut the foreign rows and the sea concepts; the Río de la Plata /
-Lagoa dos Patos class - lagoons and estuaries are sea rows if not lakes
-already), fold, `--taken-only --tag=ns-sa6`, qualify, fold,
-`OCEAN_OVERRIDES` for the Titicaca / Maracaibo bays if any, pipeline,
-report, commit, push. Then deserts (`sa-deserts.json`, 213 floor), cities
-(`sa-cities.json`), the second audit round, the wave report - HANDOFF step
-3. Nothing uncommitted after this commit.
+mountains, islands, seas, deserts DONE; the first audit round applied
+(`4f2074f`). NEXT: the cities probe - `node scripts/expansion/probe.mjs
+scripts/expansion/probes/sa-cities.json >
+scripts/expansion/work/sa-cities.out` (17 lists with `listCountry`; 50,000
+floor, views 91; Brazil's municipalities carry the município's population -
+the administrative-city convention; the capitals are refused; French
+Guiana's rows are France's; then `chunk --tag=sa8 --min-views=91`,
+hand-clean with the scratchpad's `clean-wca-cities.cjs` pattern adapted to
+South America (a COUNTRIES map for the 13 countries; NOT-city rule:
+departments, provinces, regions, comunas that are rural, favelas, districts
+of a city), fold, `--taken-only --tag=ns-sa8`, qualify, fold, pipeline,
+report, commit, push). Then the second Opus audit round (islands + seas +
+deserts + cities; the pattern:
+`workflows/scripts/wca-islands-seas-deserts-cities-audit-wf_105d9edb-458.js`,
+the data auditor with the live API when no probe runs), the wave report
+`reports/2026-09-19-sa-wave.md`, HANDOFF, memory; then CENTRAL AMERICA (the
+roadmap: Guatemala, Belize, Honduras, El Salvador, Nicaragua, Costa Rica,
+Panama - configs `probes/ca-*.json` from the sa ones; note the existing
+`ca-rivers.json` is CANADA's). Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe, East Asia and West and Central Asia waves + this

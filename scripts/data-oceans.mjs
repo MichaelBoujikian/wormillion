@@ -741,6 +741,7 @@ export const OCEAN_OVERRIDES = {
   'island-tintipan-island': ['Atlantic'],
   'island-tierra-bomba-island': ['Atlantic'], // Cartagena's bay island, no coordinates on Wikidata
   'island-la-blanquilla-island': ['Atlantic'], // Venezuela's Caribbean island, no coordinates
+  'sea_ocean-mar-de-grau': ['Pacific'], // Peru's sea, no coordinates on Wikidata (the South America seas, 2026-09-19)
   'island-minamidaitojima': ['Pacific'],
   'island-hachijo-kojima': ['Pacific'],
   'island-mageshima': ['Pacific'],

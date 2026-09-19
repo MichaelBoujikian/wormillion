@@ -12818,5 +12818,184 @@
   "lat": 37.47111111,
   "lon": 49.46222222,
   "oceans": []
+ },
+ {
+  "id": "sea_ocean-gulf-of-paria",
+  "category": "sea_ocean",
+  "name": "Gulf of Paria",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Paria\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1187,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Paria",
+  "lat": 10.38333333,
+  "lon": -62.35,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-argentine-sea",
+  "category": "sea_ocean",
+  "name": "Argentine Sea",
+  "aliases": [],
+  "size": 940000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Argentine Sea\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Argentine Sea",
+  "lat": -46,
+  "lon": -63,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-darien",
+  "category": "sea_ocean",
+  "name": "Gulf of Darien",
+  "aliases": [
+   "Gulf of Uraba"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Darién\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Darién",
+  "lat": 9.42833333,
+  "lon": -77.06111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-penas",
+  "category": "sea_ocean",
+  "name": "Gulf of Penas",
+  "aliases": [
+   "Golfo de Penas"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Penas\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Penas",
+  "lat": -47.36666667,
+  "lon": -74.83333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-gulf-of-venezuela",
+  "category": "sea_ocean",
+  "name": "Gulf of Venezuela",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gulf of Venezuela\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gulf of Venezuela",
+  "lat": 11.5,
+  "lon": -71,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-rodrigo-de-freitas-lagoon",
+  "category": "sea_ocean",
+  "name": "Rodrigo de Freitas Lagoon",
+  "aliases": [],
+  "size": 2.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rodrigo de Freitas Lagoon\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rodrigo de Freitas Lagoon",
+  "lat": -22.971117,
+  "lon": -43.211718,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bay-of-all-saints",
+  "category": "sea_ocean",
+  "name": "Bay of All Saints",
+  "aliases": [
+   "Baia de Todos os Santos",
+   "Todos os Santos Bay"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bay of All Saints\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bay of All Saints",
+  "lat": -12.85,
+  "lon": -38.63333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-le-maire-strait",
+  "category": "sea_ocean",
+  "name": "Le Maire Strait",
+  "aliases": [
+   "Strait of Le Maire"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Le Maire Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Le Maire Strait",
+  "lat": -54.83333333,
+  "lon": -64.91666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-bocas-del-dragon",
+  "category": "sea_ocean",
+  "name": "Bocas del Dragon",
+  "aliases": [
+   "Dragons Mouths"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bocas del Dragón\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bocas del Dragón",
+  "lat": 10.75,
+  "lon": -61.76666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "sea_ocean-mar-de-grau",
+  "category": "sea_ocean",
+  "name": "Mar de Grau",
+  "aliases": [],
+  "size": 1140647,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mar de Grau\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mar de Grau",
+  "oceans": [
+   "Pacific"
+  ]
  }
 ]

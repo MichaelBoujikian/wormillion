@@ -2431,7 +2431,9 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-14 expansion
       'High Desert', 'Jornada del Muerto', 'Kau Desert', 'Yuha Desert', 'Tonopah Desert',
       // 2026-09-18 Mexico and Canada deserts
-      'Cheltenham Badlands', 'Big Muddy Badlands', 'Rock Creek Badlands'
+      'Cheltenham Badlands', 'Big Muddy Badlands', 'Rock Creek Badlands',
+      // 2026-09-19 expansion
+      'Salvador Dali Desert'
     ]
   },
 
@@ -2609,7 +2611,10 @@ globalThis.WORMILLION_THEMES = {
       // 2026-09-18 Mexico and Canada seas, namesakes
       'North Channel (Ontario)', 'Thunder Bay (Ontario)', 'Trinity Bay (Newfoundland and Labrador)', "The Narrows (St. John's)",
       // 2026-09-18 Mexico and Canada seas, the audit's four
-      'Bellot Strait', 'Kempenfelt Bay', 'St. John Bay', "Voisey's Bay"
+      'Bellot Strait', 'Kempenfelt Bay', 'St. John Bay', "Voisey's Bay",
+      // 2026-09-19 expansion
+      'Gulf of Paria', 'Argentine Sea', 'Gulf of Darien', 'Gulf of Penas', 'Gulf of Venezuela',
+      'Rodrigo de Freitas Lagoon', 'Bay of All Saints', 'Le Maire Strait', 'Bocas del Dragon', 'Mar de Grau'
       
     ],
     'the Antarctic': [

@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T16:56:58.063Z",
+ "fetched": "2026-09-19T17:01:01.569Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -116792,6 +116792,13 @@
    "lat": 24.364919,
    "lon": 46.36645
   },
+  "desert-salvador-dali-desert": {
+   "title": "Salvador Dalí Desert",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": -22.615,
+   "lon": -67.66361111
+  },
   "island-greenland": {
    "title": "Greenland",
    "monthlyViews": 112324,
@@ -144609,6 +144616,76 @@
    "days": 60,
    "lat": 37.47111111,
    "lon": 49.46222222
+  },
+  "sea_ocean-gulf-of-paria": {
+   "title": "Gulf of Paria",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 10.38333333,
+   "lon": -62.35
+  },
+  "sea_ocean-argentine-sea": {
+   "title": "Argentine Sea",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": -46,
+   "lon": -63
+  },
+  "sea_ocean-gulf-of-darien": {
+   "title": "Gulf of Darién",
+   "monthlyViews": 578,
+   "days": 59,
+   "lat": 9.42833333,
+   "lon": -77.06111111
+  },
+  "sea_ocean-gulf-of-penas": {
+   "title": "Gulf of Penas",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": -47.36666667,
+   "lon": -74.83333333
+  },
+  "sea_ocean-gulf-of-venezuela": {
+   "title": "Gulf of Venezuela",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 11.5,
+   "lon": -71
+  },
+  "sea_ocean-rodrigo-de-freitas-lagoon": {
+   "title": "Rodrigo de Freitas Lagoon",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": -22.971117,
+   "lon": -43.211718
+  },
+  "sea_ocean-bay-of-all-saints": {
+   "title": "Bay of All Saints",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": -12.85,
+   "lon": -38.63333333
+  },
+  "sea_ocean-le-maire-strait": {
+   "title": "Le Maire Strait",
+   "monthlyViews": 335,
+   "days": 59,
+   "lat": -54.83333333,
+   "lon": -64.91666667
+  },
+  "sea_ocean-bocas-del-dragon": {
+   "title": "Bocas del Dragón",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 10.75,
+   "lon": -61.76666667
+  },
+  "sea_ocean-mar-de-grau": {
+   "title": "Mar de Grau",
+   "monthlyViews": 304,
+   "days": 59,
+   "lat": null,
+   "lon": null
   }
  }
 }

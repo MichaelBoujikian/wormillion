@@ -2118,5 +2118,21 @@
   "wikiTitle": "Red Sand",
   "lat": 24.364919,
   "lon": 46.36645
+ },
+ {
+  "id": "desert-salvador-dali-desert",
+  "category": "desert",
+  "name": "Salvador Dali Desert",
+  "aliases": [
+   "Dali Desert"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Salvador Dalí Desert\", 60-day daily median (60 days ending 2026-09-19); Standard reference desert areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Salvador Dalí Desert",
+  "lat": -22.615,
+  "lon": -67.66361111
  }
 ]

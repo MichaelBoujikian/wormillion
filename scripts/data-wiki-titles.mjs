@@ -9861,7 +9861,14 @@ export const WIKI_TITLES = {
   "island-santa-catalina-island-colombia": "Santa Catalina Island (Colombia)",
   "island-elizabeth-island-chile": "Elizabeth Island (Cape Horn)",
   // --- 2026-09-19 South America islands: the qualified California Santa Cruz Island keeps its bare article; Santa Catalina (Colombia) is a Place by Wikidata ---
-  "island-santa-cruz-island-california": "Santa Cruz Island"
+  "island-santa-cruz-island-california": "Santa Cruz Island",
+
+  // --- sea_ocean (2026-09-19 expansion) ---
+  "sea_ocean-gulf-of-darien": "Gulf of Darién",
+  "sea_ocean-bocas-del-dragon": "Bocas del Dragón",
+
+  // --- desert (2026-09-19 expansion) ---
+  "desert-salvador-dali-desert": "Salvador Dalí Desert"
 };
 
 /**

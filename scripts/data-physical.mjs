@@ -10817,6 +10817,7 @@ Tottori Sand Dunes|0|Tottori Dunes,Tottori Sakyu
 Hami Desert|0
 Sakhir|0|Sakhir Desert
 Red Sand|0|Red Sand Dunes
+Salvador Dali Desert|0|Dali Desert
 `;
 
 export const ISLANDS = `
@@ -14797,4 +14798,14 @@ Suvla|0|Suvla Bay
 Bay of Baku|50
 Kuwait Bay|0
 Anzali Lagoon|0
+Gulf of Paria|0
+Argentine Sea|940000
+Gulf of Darien|0|Gulf of Uraba
+Gulf of Penas|0|Golfo de Penas
+Gulf of Venezuela|0
+Rodrigo de Freitas Lagoon|2.2
+Bay of All Saints|0|Baia de Todos os Santos,Todos os Santos Bay
+Le Maire Strait|0|Strait of Le Maire
+Bocas del Dragon|0|Dragons Mouths
+Mar de Grau|1140647
 `;
