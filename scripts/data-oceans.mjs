@@ -706,6 +706,7 @@ export const OCEAN_OVERRIDES = {
   'island-nantai-island': [],
   'island-okishima': [],
   'island-xishan-island': [],
+  'island-guanzhou-island': [], // Haizhu's Pearl River island (the 2026-09-19 audit)
   'island-minamidaitojima': ['Pacific'],
   'island-hachijo-kojima': ['Pacific'],
   'island-mageshima': ['Pacific'],

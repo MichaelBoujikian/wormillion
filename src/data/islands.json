@@ -11551,7 +11551,11 @@
   "id": "island-iwo-jima",
   "category": "island",
   "name": "Iwo Jima",
-  "aliases": [],
+  "aliases": [
+   "Iwojima",
+   "Iojima",
+   "Io Jima"
+  ],
   "size": 21,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Iwo Jima\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
@@ -51132,13 +51136,14 @@
   ]
  },
  {
-  "id": "island-iojima",
+  "id": "island-iojima-kagoshima",
   "category": "island",
   "name": "Iojima",
   "aliases": [],
   "size": 11.65,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Iōjima (Kagoshima)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Kagoshima",
   "magnitude": 335,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Iōjima (Kagoshima)",
@@ -51940,7 +51945,7 @@
   "category": "island",
   "name": "Engetsu Island",
   "aliases": [],
-  "size": 23.87,
+  "size": 0,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Engetsu Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
   "magnitude": 152,
@@ -52704,9 +52709,7 @@
   "wikiTitle": "Guanzhou Island",
   "lat": 23.06833333,
   "lon": 113.36944444,
-  "oceans": [
-   "Pacific"
-  ]
+  "oceans": []
  },
  {
   "id": "island-hario-island",

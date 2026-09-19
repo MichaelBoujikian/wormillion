@@ -1809,7 +1809,7 @@ globalThis.WORMILLION_THEMES = {
       'Nishinoshima (Ogasawara)', 'Manabeshima', 'Wakasu', 'Tori-shima', 'North Iwo Jima',
       'Ikeshima', 'Minamidaitojima', 'South Iwo Jima', 'Mikimoto Pearl Island', 'Rokko Island',
       'Kikaijima', 'Hachijo-kojima', 'Port Island', 'Okishima', 'Fukue Island',
-      'Oshima (Hokkaido)', 'Dogojima', 'Tarama', 'Iojima', 'Iheya Island',
+      'Oshima (Hokkaido)', 'Dogojima', 'Tarama', 'Iojima (Kagoshima)', 'Iheya Island',
       'Mageshima', 'Mikura-jima', 'Awashima Island', 'Chiburijima', 'Okidaitojima',
       'Aka Island', 'Kashima Island', 'Kitadaitojima', 'Megijima', 'Shikine-jima',
       'Suwanosejima', 'Iotorishima', 'Kuroshima', 'Ogijima', 'Shimoshima Island',

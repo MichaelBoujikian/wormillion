@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T08:21:04.924Z",
+ "fetched": "2026-09-19T08:59:56.721Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -32792,7 +32792,7 @@
    "lat": 29.6488,
    "lon": 94.3614
   },
-  "city-okinawa-city": {
+  "city-okinawa-japan": {
    "title": "Okinawa (city)",
    "monthlyViews": 4536,
    "days": 60,
@@ -33002,7 +33002,7 @@
    "lat": 36.099,
    "lon": 114.392
   },
-  "city-zhoushan-city": {
+  "city-zhoushan-zhejiang": {
    "title": "Zhoushan",
    "monthlyViews": 2953,
    "days": 60,
@@ -33016,7 +33016,7 @@
    "lat": 39.62944444,
    "lon": 118.17388889
   },
-  "city-geoje-city": {
+  "city-geoje-south-gyeongsang": {
    "title": "Geoje",
    "monthlyViews": 2800,
    "days": 60,
@@ -33338,13 +33338,6 @@
    "lat": 36.08347222,
    "lon": 140.07644444
   },
-  "city-sado-city": {
-   "title": "Sado, Niigata",
-   "monthlyViews": 2070,
-   "days": 60,
-   "lat": 38.01833333,
-   "lon": 138.36833333
-  },
   "city-asan": {
    "title": "Asan",
    "monthlyViews": 2039,
@@ -33365,6 +33358,13 @@
    "days": 60,
    "lat": 29.661,
    "lon": 115.954
+  },
+  "city-ji-an": {
+   "title": "Ji'an",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 27.091243,
+   "lon": 114.96681
   },
   "city-meizhou": {
    "title": "Meizhou",
@@ -33975,7 +33975,7 @@
    "lat": 37.0505,
    "lon": 140.88772222
   },
-  "city-miyakojima-city": {
+  "city-miyakojima-okinawa": {
    "title": "Miyakojima, Okinawa",
    "monthlyViews": 1370,
    "days": 60,
@@ -35172,7 +35172,7 @@
    "lat": 26.37916667,
    "lon": 127.8575
   },
-  "city-usa-city": {
+  "city-usa-oita": {
    "title": "Usa, Ōita",
    "monthlyViews": 731,
    "days": 60,
@@ -35725,7 +35725,7 @@
    "lat": 32.5075,
    "lon": 130.60166667
   },
-  "city-amakusa-city": {
+  "city-amakusa-kumamoto": {
    "title": "Amakusa, Kumamoto",
    "monthlyViews": 548,
    "days": 60,
@@ -36095,13 +36095,6 @@
    "days": 60,
    "lat": 41.157,
    "lon": 126.29
-  },
-  "city-nanao": {
-   "title": "Nanao, Ishikawa",
-   "monthlyViews": 487,
-   "days": 60,
-   "lat": 37.04313889,
-   "lon": 136.96744444
   },
   "city-neijiang": {
    "title": "Neijiang",
@@ -36978,13 +36971,6 @@
    "lat": 33.59833333,
    "lon": 131.18833333
   },
-  "city-nichinan": {
-   "title": "Nichinan, Miyazaki",
-   "monthlyViews": 335,
-   "days": 60,
-   "lat": 31.60194444,
-   "lon": 131.37861111
-  },
   "city-niiza": {
    "title": "Niiza, Saitama",
    "monthlyViews": 335,
@@ -37356,13 +37342,6 @@
    "lat": 37.06552778,
    "lon": 138.87608333
   },
-  "city-miyoshi-hiroshima": {
-   "title": "Miyoshi, Hiroshima",
-   "monthlyViews": 274,
-   "days": 60,
-   "lat": 34.8,
-   "lon": 132.85
-  },
   "city-mooka": {
    "title": "Mooka, Tochigi",
    "monthlyViews": 274,
@@ -37426,7 +37405,7 @@
    "lat": 40.61277778,
    "lon": 141.20583333
   },
-  "city-tsushima-city": {
+  "city-tsushima-aichi": {
    "title": "Tsushima, Aichi",
    "monthlyViews": 274,
    "days": 60,
@@ -37594,13 +37573,6 @@
    "lat": 36.16694444,
    "lon": 136.23138889
   },
-  "city-sakaide": {
-   "title": "Sakaide, Kagawa",
-   "monthlyViews": 244,
-   "days": 60,
-   "lat": 34.31666667,
-   "lon": 133.86027778
-  },
   "city-shikokuchuo": {
    "title": "Shikokuchūō",
    "monthlyViews": 244,
@@ -37719,13 +37691,6 @@
    "days": 60,
    "lat": 35.758,
    "lon": 139.52986111
-  },
-  "city-hukou": {
-   "title": "Hukou, Hsinchu",
-   "monthlyViews": 213,
-   "days": 60,
-   "lat": 24.9,
-   "lon": 121.05
   },
   "city-isehara": {
    "title": "Isehara, Kanagawa",
@@ -37986,13 +37951,6 @@
    "lat": 39.259,
    "lon": 127.356
   },
-  "city-nakagawa": {
-   "title": "Nakagawa, Fukuoka",
-   "monthlyViews": 183,
-   "days": 60,
-   "lat": 33.49944444,
-   "lon": 130.42222222
-  },
   "city-san-yo-onoda": {
    "title": "San'yō-Onoda",
    "monthlyViews": 183,
@@ -38021,33 +37979,12 @@
    "lat": 34.5,
    "lon": 135.6
   },
-  "city-xiaguan": {
-   "title": "Xiaguan, Dali City",
-   "monthlyViews": 183,
-   "days": 60,
-   "lat": 25.6,
-   "lon": 100.23333333
-  },
   "city-yoshikawa": {
    "title": "Yoshikawa, Saitama",
    "monthlyViews": 183,
    "days": 60,
    "lat": 35.89386111,
    "lon": 139.84141667
-  },
-  "city-arao": {
-   "title": "Arao, Kumamoto",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 32.98666667,
-   "lon": 130.43305556
-  },
-  "city-bayanhot": {
-   "title": "Bayanhot",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 38.83777778,
-   "lon": 105.69527778
   },
   "city-chikushino": {
    "title": "Chikushino, Fukuoka",
@@ -38063,7 +38000,7 @@
    "lat": 35.87952778,
    "lon": 139.51977778
   },
-  "city-hashima-city": {
+  "city-hashima-gifu": {
    "title": "Hashima, Gifu",
    "monthlyViews": 152,
    "days": 60,
@@ -38140,13 +38077,6 @@
    "lat": 35.83666667,
    "lon": 139.58030556
   },
-  "city-xinfeng": {
-   "title": "Xinfeng, Hsinchu",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 24.91666667,
-   "lon": 121
-  },
   "city-sodegaura": {
    "title": "Sodegaura",
    "monthlyViews": 152,
@@ -38174,13 +38104,6 @@
    "days": 60,
    "lat": 33.72888889,
    "lon": 130.98305556
-  },
-  "city-yuki": {
-   "title": "Yūki, Ibaraki",
-   "monthlyViews": 152,
-   "days": 60,
-   "lat": 36.30547222,
-   "lon": 139.87663889
   },
   "city-chikusei": {
    "title": "Chikusei",
@@ -38378,13 +38301,6 @@
    "lat": 34.25,
    "lon": 135.31666667
   },
-  "city-ji-an": {
-   "title": "Ji'an, Hualien",
-   "monthlyViews": 91,
-   "days": 60,
-   "lat": 23.95,
-   "lon": 121.57222222
-  },
   "city-kitamoto": {
    "title": "Kitamoto, Saitama",
    "monthlyViews": 91,
@@ -38461,6 +38377,69 @@
    "days": 60,
    "lat": 35,
    "lon": 136.86666667
+  },
+  "city-douliu": {
+   "title": "Douliu",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 23.7075,
+   "lon": 120.54388889
+  },
+  "city-zhubei": {
+   "title": "Zhubei",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 24.83333333,
+   "lon": 121.01194444
+  },
+  "city-magong": {
+   "title": "Magong",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 23.56666667,
+   "lon": 119.58333333
+  },
+  "city-nantou-city": {
+   "title": "Nantou City",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 23.91666667,
+   "lon": 120.68333333
+  },
+  "city-pingtung-city": {
+   "title": "Pingtung City",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 22.67611111,
+   "lon": 120.49416667
+  },
+  "city-taitung-city": {
+   "title": "Taitung City",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 22.75833333,
+   "lon": 121.14444444
+  },
+  "city-toufen": {
+   "title": "Toufen",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 24.683209,
+   "lon": 120.907234
+  },
+  "city-yilan-city": {
+   "title": "Yilan City",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 24.75,
+   "lon": 121.75
+  },
+  "city-yuanlin": {
+   "title": "Yuanlin",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 23.96111111,
+   "lon": 120.57361111
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",
@@ -129826,7 +129805,7 @@
    "lat": 24.66944444,
    "lon": 124.70166667
   },
-  "island-iojima": {
+  "island-iojima-kagoshima": {
    "title": "Iōjima (Kagoshima)",
    "monthlyViews": 335,
    "days": 60,

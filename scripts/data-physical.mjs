@@ -10742,7 +10742,7 @@ Chatham Islands|966
 Hong Kong Island|78
 Lantau Island|147
 Tobago|300
-Iwo Jima|21
+Iwo Jima|21|Iwojima,Iojima,Io Jima
 Hashima|0.06|Gunkanjima
 Liancourt Rocks|0.19|Dokdo,Takeshima
 Corregidor|9
@@ -13079,7 +13079,7 @@ Fukue Island|326.45|Fukuejima
 Oshima (Hokkaido)|9.73
 Dogojima|241.58|Dogo Island
 Tarama|22
-Iojima|11.65
+Iojima (Kagoshima)|11.65
 Hengsha Island|49
 Iheya Island|20.66
 Mageshima|8.2|Mage Island
@@ -13127,7 +13127,7 @@ Byeongpungdo|0|Byeongpung Island
 Changzhou Island|8.5
 Kat O|2.35
 Double Island|2.13
-Engetsu Island|23.87
+Engetsu Island|0
 Ersha Island|1.26
 Haidian Island|0
 Hashira Island|3.12

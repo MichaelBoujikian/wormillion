@@ -4307,7 +4307,7 @@ Shizuoka|Japan|685589
 Changzhou|China|5278121
 Matsumoto|Japan|239115
 Nyingchi|China|238936
-Okinawa City|Japan|142094
+Okinawa (Japan)|Japan|142094
 Yan'an|China|2282581
 Seongnam|South Korea|918771
 Goyang|South Korea|1061929
@@ -4337,9 +4337,9 @@ Miyazaki|Japan|397476
 Nantong|China|7726635
 Xianyang|China|4983340
 Anyang (Henan)|China|5477614
-Zhoushan City|China|1157817
+Zhoushan (Zhejiang)|China|1157817
 Tangshan|China|7717983
-Geoje City|South Korea|231353
+Geoje (South Gyeongsang)|South Korea|231353
 Kure|Japan|212159
 Linyi|China|11018365
 Jiangmen|China|4798090
@@ -4385,10 +4385,10 @@ Hyesan|North Korea|192680
 Ichikawa|Japan|495768
 Jinhua|China|7050683
 Tsukuba|Japan|246647
-Sado City|Japan|54304
 Asan|South Korea|319929
 Jilin City|China|3623713
 Jiujiang|China|4600276
+Ji'an|China|4469176
 Meizhou|China|3873239
 Putian|China|3210714
 Sasebo|Japan|242664
@@ -4476,7 +4476,7 @@ Fukuyama|Japan|459576
 Gimpo|South Korea|352683
 Haeju|North Korea|273300
 Iwaki|Japan|336111
-Miyakojima City|Japan|52390
+Miyakojima (Okinawa)|Japan|52390
 Naruto|Japan|55264
 Tai'an|China|5472217
 Toyohashi|Japan|371507
@@ -4647,7 +4647,7 @@ Mutsu|Japan|53767
 Pocheon|South Korea|163388
 Tama|Japan|147252
 Uruma|Japan|122371
-Usa City|Japan|52767
+Usa (Oita)|Japan|52767
 Anjo|Japan|188801
 Baishan|China|968373
 Benxi|China|1326018
@@ -4726,7 +4726,7 @@ Tsuyama|Japan|99410
 Xuancheng|China|2500063
 Yanagawa|Japan|64120
 Yatsushiro|Japan|122134
-Amakusa City|Japan|74861
+Amakusa (Kumamoto)|Japan|74861
 Binzhou|China|3928568
 Chigasaki|Japan|242347
 Gimje|South Korea|81644
@@ -4779,7 +4779,6 @@ Kokubunji|Japan|129619
 Koshigaya|Japan|341784
 Luliang|China|3398431
 Manpo|North Korea|116760
-Nanao|Japan|50207
 Neijiang|China|3140678
 Pingxiang|China|1804805
 Tochigi|Japan|153508
@@ -4905,7 +4904,6 @@ Matsusaka|Japan|158472
 Miaoli|Taiwan|85546
 Muko|Japan|56152
 Nakatsu|Japan|82714
-Nichinan|Japan|50518
 Niiza|Japan|165997
 Nobeoka|Japan|117711
 Qianjiang|China|830900
@@ -4959,7 +4957,6 @@ Komae|Japan|84437
 Kudamatsu|Japan|56661
 Laibin|China|2074611
 Minamiuonuma|Japan|54820
-Miyoshi (Hiroshima)|Japan|50046
 Mooka|Japan|78665
 Moriguchi|Japan|141849
 Nagareyama|Japan|200298
@@ -4969,7 +4966,7 @@ Toda|Japan|142352
 Tokchon|North Korea|237133
 Tome|Japan|76164
 Towada|Japan|60063
-Tsushima City|Japan|60908
+Tsushima (Aichi)|Japan|60908
 Wafangdian|China|905082
 Xinghua|China|1128204
 Yasu|Japan|50049
@@ -4993,7 +4990,6 @@ Naka|Japan|53035
 Nihonmatsu|Japan|54447
 Ritto|Japan|69598
 Sakai (Fukui)|Japan|87945
-Sakaide|Japan|50577
 Shikokuchuo|Japan|82320
 Shimotsuke|Japan|59404
 Shizuishan|China|751389
@@ -5011,7 +5007,6 @@ Habikino|Japan|108370
 Hanno|Japan|80099
 Hekinan|Japan|72480
 Higashikurume|Japan|116477
-Hukou|Taiwan|85112
 Isehara|Japan|102088
 Ishioka|Japan|71851
 Izumiotsu|Japan|74175
@@ -5049,18 +5044,14 @@ Longgang|China|464732
 Matsubara|Japan|117186
 Minokamo|Japan|57007
 Munchon|North Korea|122934
-Nakagawa|Japan|50201
 San'yo-Onoda|Japan|59648
 Tagajo|Japan|61937
 Tianchang|China|603780
 Tondabayashi|Japan|108735
-Xiaguan|China|146517
 Yoshikawa|Japan|72139
-Arao|Japan|50570
-Bayanhot|China|94445
 Chikushino|Japan|103185
 Fujimino|Japan|113490
-Hashima City|Japan|66312
+Hashima (Gifu)|Japan|66312
 Hidaka|Japan|54728
 Higashimatsuyama|Japan|91818
 Higashiyamato|Japan|84260
@@ -5071,12 +5062,10 @@ Konan (Shiga)|Japan|54392
 Miyoshi (Aichi)|Japan|62963
 Ogori|Japan|58322
 Shiki|Japan|75247
-Xinfeng|Taiwan|60030
 Sodegaura|Japan|63975
 Toyoake|Japan|69389
 Yotsukaido|Japan|93233
 Yukuhashi|Japan|70922
-Yuki|Japan|50218
 Chikusei|Japan|98384
 Hanyu|Japan|52740
 Joso|Japan|59223
@@ -5105,16 +5094,24 @@ Gujiao|China|210757
 Hasuda|Japan|61473
 Hemei|Taiwan|86276
 Iwade|Japan|53714
-Ji'an|Taiwan|82838
 Kitamoto|Japan|65191
 Shijonawate|Japan|55094
 Shiraoka|Japan|52103
 Tomiya|Japan|51859
 Tsukubamirai|Japan|51134
-Kochi (Japan)|Japan|325535|Kochi City
+Kochi (Japan)|Japan|325535
 Gwangju (Gyeonggi)|South Korea|397269
 Suzhou (Anhui)|China|5324476
 Fuzhou (Jiangxi)|China|3614866
 Chino (Nagano)|Japan|55018
 Chita (Aichi)|Japan|83881
+Douliu|Taiwan|108937|Douliu City
+Zhubei|Taiwan|221048
+Magong|Taiwan|62903|Makung
+Nantou City|Taiwan|95959|Nantou
+Pingtung City|Taiwan|190928|Pingtung
+Taitung City|Taiwan|102439|Taitung
+Toufen|Taiwan|108294
+Yilan City|Taiwan|94304|Yilan
+Yuanlin|Taiwan|121851
 `;

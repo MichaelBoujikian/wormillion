@@ -101782,9 +101782,9 @@
   "lon": 94.3614
  },
  {
-  "id": "city-okinawa-city",
+  "id": "city-okinawa-japan",
   "category": "city",
-  "name": "Okinawa City",
+  "name": "Okinawa",
   "aliases": [],
   "size": 142094,
   "sizeUnit": "population",
@@ -101798,6 +101798,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Okinawa (city)\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
+  "qualifier": "Japan",
   "magnitude": 4536,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Okinawa (city)",
@@ -102493,9 +102494,9 @@
   "lon": 114.392
  },
  {
-  "id": "city-zhoushan-city",
+  "id": "city-zhoushan-zhejiang",
   "category": "city",
-  "name": "Zhoushan City",
+  "name": "Zhoushan",
   "aliases": [],
   "size": 1157817,
   "sizeUnit": "population",
@@ -102509,6 +102510,7 @@
    "yellow"
   ],
   "source": "English Wikipedia pageviews for \"Zhoushan\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in China",
+  "qualifier": "Zhejiang",
   "magnitude": 2953,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Zhoushan",
@@ -102539,9 +102541,9 @@
   "lon": 118.17388889
  },
  {
-  "id": "city-geoje-city",
+  "id": "city-geoje-south-gyeongsang",
   "category": "city",
-  "name": "Geoje City",
+  "name": "Geoje",
   "aliases": [],
   "size": 231353,
   "sizeUnit": "population",
@@ -102557,6 +102559,7 @@
    "black"
   ],
   "source": "English Wikipedia pageviews for \"Geoje\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in South Korea",
+  "qualifier": "South Gyeongsang",
   "magnitude": 2800,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Geoje",
@@ -103618,29 +103621,6 @@
   "lon": 140.07644444
  },
  {
-  "id": "city-sado-city",
-  "category": "city",
-  "name": "Sado City",
-  "aliases": [],
-  "size": 54304,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Japan",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Sado, Niigata\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
-  "magnitude": 2070,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sado, Niigata",
-  "lat": 38.01833333,
-  "lon": 138.36833333
- },
- {
   "id": "city-asan",
   "category": "city",
   "name": "Asan",
@@ -103710,6 +103690,29 @@
   "wikiTitle": "Jiujiang",
   "lat": 29.661,
   "lon": 115.954
+ },
+ {
+  "id": "city-ji-an",
+  "category": "city",
+  "name": "Ji'an",
+  "aliases": [],
+  "size": 4469176,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "China",
+  "flag": [
+   "red",
+   "yellow"
+  ],
+  "source": "English Wikipedia pageviews for \"Ji'an\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in China",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ji'an",
+  "lat": 27.091243,
+  "lon": 114.96681
  },
  {
   "id": "city-meizhou",
@@ -105737,9 +105740,9 @@
   "lon": 140.88772222
  },
  {
-  "id": "city-miyakojima-city",
+  "id": "city-miyakojima-okinawa",
   "category": "city",
-  "name": "Miyakojima City",
+  "name": "Miyakojima",
   "aliases": [],
   "size": 52390,
   "sizeUnit": "population",
@@ -105753,6 +105756,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Miyakojima, Okinawa\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
+  "qualifier": "Okinawa",
   "magnitude": 1370,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Miyakojima, Okinawa",
@@ -109717,9 +109721,9 @@
   "lon": 127.8575
  },
  {
-  "id": "city-usa-city",
+  "id": "city-usa-oita",
   "category": "city",
-  "name": "Usa City",
+  "name": "Usa",
   "aliases": [],
   "size": 52767,
   "sizeUnit": "population",
@@ -109733,6 +109737,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Usa, Ōita\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
+  "qualifier": "Oita",
   "magnitude": 731,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Usa, Ōita",
@@ -111553,9 +111558,9 @@
   "lon": 130.60166667
  },
  {
-  "id": "city-amakusa-city",
+  "id": "city-amakusa-kumamoto",
   "category": "city",
-  "name": "Amakusa City",
+  "name": "Amakusa",
   "aliases": [],
   "size": 74861,
   "sizeUnit": "population",
@@ -111569,6 +111574,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Amakusa, Kumamoto\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
+  "qualifier": "Kumamoto",
   "magnitude": 548,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Amakusa, Kumamoto",
@@ -112787,29 +112793,6 @@
   "wikiTitle": "Manpo",
   "lat": 41.157,
   "lon": 126.29
- },
- {
-  "id": "city-nanao",
-  "category": "city",
-  "name": "Nanao",
-  "aliases": [],
-  "size": 50207,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Japan",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Nanao, Ishikawa\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
-  "magnitude": 487,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nanao, Ishikawa",
-  "lat": 37.04313889,
-  "lon": 136.96744444
  },
  {
   "id": "city-neijiang",
@@ -115699,29 +115682,6 @@
   "lon": 131.18833333
  },
  {
-  "id": "city-nichinan",
-  "category": "city",
-  "name": "Nichinan",
-  "aliases": [],
-  "size": 50518,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Japan",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Nichinan, Miyazaki\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
-  "magnitude": 335,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nichinan, Miyazaki",
-  "lat": 31.60194444,
-  "lon": 131.37861111
- },
- {
   "id": "city-niiza",
   "category": "city",
   "name": "Niiza",
@@ -116943,30 +116903,6 @@
   "lon": 138.87608333
  },
  {
-  "id": "city-miyoshi-hiroshima",
-  "category": "city",
-  "name": "Miyoshi",
-  "aliases": [],
-  "size": 50046,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Japan",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Miyoshi, Hiroshima\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
-  "qualifier": "Hiroshima",
-  "magnitude": 274,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Miyoshi, Hiroshima",
-  "lat": 34.8,
-  "lon": 132.85
- },
- {
   "id": "city-mooka",
   "category": "city",
   "name": "Mooka",
@@ -117175,9 +117111,9 @@
   "lon": 141.20583333
  },
  {
-  "id": "city-tsushima-city",
+  "id": "city-tsushima-aichi",
   "category": "city",
-  "name": "Tsushima City",
+  "name": "Tsushima",
   "aliases": [],
   "size": 60908,
   "sizeUnit": "population",
@@ -117191,6 +117127,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Tsushima, Aichi\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
+  "qualifier": "Aichi",
   "magnitude": 274,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Tsushima, Aichi",
@@ -117728,29 +117665,6 @@
   "lon": 136.23138889
  },
  {
-  "id": "city-sakaide",
-  "category": "city",
-  "name": "Sakaide",
-  "aliases": [],
-  "size": 50577,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Japan",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Sakaide, Kagawa\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
-  "magnitude": 244,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Sakaide, Kagawa",
-  "lat": 34.31666667,
-  "lon": 133.86027778
- },
- {
   "id": "city-shikokuchuo",
   "category": "city",
   "name": "Shikokuchuo",
@@ -118140,30 +118054,6 @@
   "wikiTitle": "Higashikurume, Tokyo",
   "lat": 35.758,
   "lon": 139.52986111
- },
- {
-  "id": "city-hukou",
-  "category": "city",
-  "name": "Hukou",
-  "aliases": [],
-  "size": 85112,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Taiwan",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Hukou, Hsinchu\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
-  "magnitude": 213,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Hukou, Hsinchu",
-  "lat": 24.9,
-  "lon": 121.05
  },
  {
   "id": "city-isehara",
@@ -119021,29 +118911,6 @@
   "lon": 127.356
  },
  {
-  "id": "city-nakagawa",
-  "category": "city",
-  "name": "Nakagawa",
-  "aliases": [],
-  "size": 50201,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Japan",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Nakagawa, Fukuoka\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
-  "magnitude": 183,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Nakagawa, Fukuoka",
-  "lat": 33.49944444,
-  "lon": 130.42222222
- },
- {
   "id": "city-san-yo-onoda",
   "category": "city",
   "name": "San'yo-Onoda",
@@ -119136,29 +119003,6 @@
   "lon": 135.6
  },
  {
-  "id": "city-xiaguan",
-  "category": "city",
-  "name": "Xiaguan",
-  "aliases": [],
-  "size": 146517,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "China",
-  "flag": [
-   "red",
-   "yellow"
-  ],
-  "source": "English Wikipedia pageviews for \"Xiaguan, Dali City\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in China",
-  "magnitude": 183,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Xiaguan, Dali City",
-  "lat": 25.6,
-  "lon": 100.23333333
- },
- {
   "id": "city-yoshikawa",
   "category": "city",
   "name": "Yoshikawa",
@@ -119180,52 +119024,6 @@
   "wikiTitle": "Yoshikawa, Saitama",
   "lat": 35.89386111,
   "lon": 139.84141667
- },
- {
-  "id": "city-arao",
-  "category": "city",
-  "name": "Arao",
-  "aliases": [],
-  "size": 50570,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Japan",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Arao, Kumamoto\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Arao, Kumamoto",
-  "lat": 32.98666667,
-  "lon": 130.43305556
- },
- {
-  "id": "city-bayanhot",
-  "category": "city",
-  "name": "Bayanhot",
-  "aliases": [],
-  "size": 94445,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "China",
-  "flag": [
-   "red",
-   "yellow"
-  ],
-  "source": "English Wikipedia pageviews for \"Bayanhot\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in China",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Bayanhot",
-  "lat": 38.83777778,
-  "lon": 105.69527778
  },
  {
   "id": "city-chikushino",
@@ -119274,9 +119072,9 @@
   "lon": 139.51977778
  },
  {
-  "id": "city-hashima-city",
+  "id": "city-hashima-gifu",
   "category": "city",
-  "name": "Hashima City",
+  "name": "Hashima",
   "aliases": [],
   "size": 66312,
   "sizeUnit": "population",
@@ -119290,6 +119088,7 @@
    "white"
   ],
   "source": "English Wikipedia pageviews for \"Hashima, Gifu\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
+  "qualifier": "Gifu",
   "magnitude": 152,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Hashima, Gifu",
@@ -119530,30 +119329,6 @@
   "lon": 139.58030556
  },
  {
-  "id": "city-xinfeng",
-  "category": "city",
-  "name": "Xinfeng",
-  "aliases": [],
-  "size": 60030,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Taiwan",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Xinfeng, Hsinchu\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Xinfeng, Hsinchu",
-  "lat": 24.91666667,
-  "lon": 121
- },
- {
   "id": "city-sodegaura",
   "category": "city",
   "name": "Sodegaura",
@@ -119644,29 +119419,6 @@
   "wikiTitle": "Yukuhashi, Fukuoka",
   "lat": 33.72888889,
   "lon": 130.98305556
- },
- {
-  "id": "city-yuki",
-  "category": "city",
-  "name": "Yuki",
-  "aliases": [],
-  "size": 50218,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Japan",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Yūki, Ibaraki\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Japan",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Yūki, Ibaraki",
-  "lat": 36.30547222,
-  "lon": 139.87663889
  },
  {
   "id": "city-chikusei",
@@ -120315,30 +120067,6 @@
   "lon": 135.31666667
  },
  {
-  "id": "city-ji-an",
-  "category": "city",
-  "name": "Ji'an",
-  "aliases": [],
-  "size": 82838,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "East Asia"
-  ],
-  "country": "Taiwan",
-  "flag": [
-   "red",
-   "white",
-   "blue"
-  ],
-  "source": "English Wikipedia pageviews for \"Ji'an, Hualien\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
-  "magnitude": 91,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Ji'an, Hualien",
-  "lat": 23.95,
-  "lon": 121.57222222
- },
- {
   "id": "city-kitamoto",
   "category": "city",
   "name": "Kitamoto",
@@ -120457,9 +120185,7 @@
   "id": "city-kochi-japan",
   "category": "city",
   "name": "Kochi",
-  "aliases": [
-   "Kochi City"
-  ],
+  "aliases": [],
   "size": 325535,
   "sizeUnit": "population",
   "region": [
@@ -120600,5 +120326,233 @@
   "wikiTitle": "Chita, Aichi",
   "lat": 35,
   "lon": 136.86666667
+ },
+ {
+  "id": "city-douliu",
+  "category": "city",
+  "name": "Douliu",
+  "aliases": [
+   "Douliu City"
+  ],
+  "size": 108937,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Douliu\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Douliu",
+  "lat": 23.7075,
+  "lon": 120.54388889
+ },
+ {
+  "id": "city-zhubei",
+  "category": "city",
+  "name": "Zhubei",
+  "aliases": [],
+  "size": 221048,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Zhubei\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 761,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zhubei",
+  "lat": 24.83333333,
+  "lon": 121.01194444
+ },
+ {
+  "id": "city-magong",
+  "category": "city",
+  "name": "Magong",
+  "aliases": [
+   "Makung"
+  ],
+  "size": 62903,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Magong\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 1126,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Magong",
+  "lat": 23.56666667,
+  "lon": 119.58333333
+ },
+ {
+  "id": "city-nantou-city",
+  "category": "city",
+  "name": "Nantou City",
+  "aliases": [
+   "Nantou"
+  ],
+  "size": 95959,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Nantou City\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nantou City",
+  "lat": 23.91666667,
+  "lon": 120.68333333
+ },
+ {
+  "id": "city-pingtung-city",
+  "category": "city",
+  "name": "Pingtung City",
+  "aliases": [
+   "Pingtung"
+  ],
+  "size": 190928,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Pingtung City\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pingtung City",
+  "lat": 22.67611111,
+  "lon": 120.49416667
+ },
+ {
+  "id": "city-taitung-city",
+  "category": "city",
+  "name": "Taitung City",
+  "aliases": [
+   "Taitung"
+  ],
+  "size": 102439,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Taitung City\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 1400,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Taitung City",
+  "lat": 22.75833333,
+  "lon": 121.14444444
+ },
+ {
+  "id": "city-toufen",
+  "category": "city",
+  "name": "Toufen",
+  "aliases": [],
+  "size": 108294,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Toufen\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Toufen",
+  "lat": 24.683209,
+  "lon": 120.907234
+ },
+ {
+  "id": "city-yilan-city",
+  "category": "city",
+  "name": "Yilan City",
+  "aliases": [
+   "Yilan"
+  ],
+  "size": 94304,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Yilan City\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yilan City",
+  "lat": 24.75,
+  "lon": 121.75
+ },
+ {
+  "id": "city-yuanlin",
+  "category": "city",
+  "name": "Yuanlin",
+  "aliases": [],
+  "size": 121851,
+  "sizeUnit": "population",
+  "region": [
+   "Asia",
+   "East Asia"
+  ],
+  "country": "Taiwan",
+  "flag": [
+   "red",
+   "white",
+   "blue"
+  ],
+  "source": "English Wikipedia pageviews for \"Yuanlin\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Taiwan",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yuanlin",
+  "lat": 23.96111111,
+  "lon": 120.57361111
  }
 ]
