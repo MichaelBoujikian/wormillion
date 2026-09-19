@@ -1573,7 +1573,12 @@ globalThis.WORMILLION_THEMES = {
       // add-theme.mjs
       'Balearic Islands',
       // 2026-09-18 namesakes, decision 5
-      'Andros (Greece)', 'Graham Island (Sicily)', 'Gorgona', 'Rabbit Islands'
+      'Andros (Greece)', 'Graham Island (Sicily)', 'Gorgona', 'Rabbit Islands',
+      // add-theme.mjs
+      'Kea', 'Kythnos', 'Astypalaia', 'Kasos', 'Anafi',
+      'Kimolos', 'Tilos', 'Halki', 'Psara', 'Ugljan',
+      'Pasman', 'Ciovo', 'Murter', 'Olib', 'Silba',
+      'Vir', 'Kornat', 'Molat', 'Sipan', 'Iz'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
@@ -1589,7 +1594,14 @@ globalThis.WORMILLION_THEMES = {
       'Aegina', 'Salamis Island', 'Lefkada', 'Paxos', 'Skorpios',
       'Gavdos', 'Spinalonga',
       // 2026-09-18 namesakes, decision 5
-      'Andros (Greece)'
+      'Andros (Greece)',
+      // add-theme.mjs
+      'Kea', 'Kythnos', 'Astypalaia', 'Kasos', 'Anafi',
+      'Kimolos', 'Tilos', 'Halki', 'Psara', 'Elafonisos',
+      'Makronisos', 'Agistri', 'Antipaxos', 'Othonoi', 'Meganisi',
+      'Keros', 'Gyaros', 'Therasia', 'Pserimos', 'Donousa',
+      'Schoinoussa', 'Kalamos', 'Agathonisi', 'Irakleia', 'Nea Kameni',
+      'Dia', 'Kastos', 'Farmakonisi', 'Kyra Panagia', 'Sapientza'
     ],
     'Hawaii': ['Big Island of Hawaii', 'Maui', 'Oahu', 'Kauai', 'Molokai', 'Lanai', 'Niihau',
       // 2026-09-16 US islands fill (audit)

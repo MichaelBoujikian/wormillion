@@ -8281,7 +8281,60 @@ export const WIKI_TITLES = {
   "mountain-klek": "Klek mountain, Croatia",
 
   // --- mountain (2026-09-18 Eastern Europe mountains, namesakes) ---
-  "mountain-tara": "Tara (mountain)"
+  "mountain-tara": "Tara (mountain)",
+
+  // --- island (2026-09-18 Eastern Europe islands) ---
+  "island-kea": "Kea (island)",
+  "island-dia": "Dia (island)",
+  "island-halki": "Halki (Greece)",
+  "island-sipan": "Šipan",
+  "island-kalamos": "Kalamos (island)",
+  "island-iz": "Iž",
+  "island-kolocep": "Koločep",
+  "island-ciovo": "Čiovo",
+  "island-chrysi": "Chrysi (island)",
+  "island-irakleia": "Irakleia (Cyclades)",
+  "island-hajogyari-island": "Hajógyári Island",
+  "island-trizonia": "Trizonia island",
+  "island-zitny-ostrov": "Žitný ostrov",
+  "island-vir": "Vir (island)",
+  "island-ro": "Ro, Greece",
+  "island-bisevo": "Biševo",
+  "island-pasman": "Pašman",
+  "island-ostrow-tumski": "Ostrów Tumski, Poznań",
+  "island-prvic-sibenik": "Prvić",
+  "island-souda": "Souda (island)",
+  "island-sarengrad-island": "Island of Šarengrad",
+  "island-agios-georgios": "Agios Georgios (island)",
+  "island-patroklos": "Patroklos (Attica)",
+  "island-great-braila-island": "Great Brăila Island",
+  "island-ist": "Ist (island)",
+  "island-syrna": "Syrna (island)",
+  "island-zut": "Žut",
+  "island-kalydon": "Kalydon (Elounda)",
+  "island-stvanice": "Štvanice",
+  "island-susac": "Sušac",
+  "island-scedro": "Šćedro",
+  "island-ostrow-lednicki": "Ostrów Lednicki",
+  "island-szigetkoz": "Szigetköz",
+  "island-kipsala": "Ķīpsala",
+  "island-ostrow-island": "Ostrów Island",
+  "island-piperi": "Piperi (island)",
+  "island-prvic-krk": "Prvić (Krk)",
+  "island-rava": "Rava (island)",
+  "island-strelecky-island": "Střelecký Island",
+  "island-veliki-skolj": "Veliki Školj",
+  "island-karsibor": "Karsibór",
+  "island-mali-skolj": "Mali Školj",
+  "island-rusne-island": "Rusnė Island",
+  "island-kune-island": "Kunë Island",
+  "island-panagia": "Panagia (island)",
+  "island-tataru-mare-island": "Tătaru Mare Island",
+  "island-zeca": "Zeča",
+  "island-skarda": "Škarda",
+
+  // --- island (2026-09-18 Eastern Europe islands, namesakes) ---
+  "island-koufonisi-crete": "Koufonisi (Crete)"
 };
 
 /**
@@ -8872,5 +8925,7 @@ export const WIKI_VERIFIED = new Set([
   "sea_ocean-st-john-bay",
   "sea_ocean-voisey-s-bay",
   // --- 2026-09-18 Eastern Europe mountains: Volujak (Bosnia-Montenegro), no short description ---
-  "mountain-volujak"
+  "mountain-volujak",
+  // --- 2026-09-18 Eastern Europe islands: Sobieszewo Island is the island (a district of Gdansk by description) ---
+  "island-sobieszewo-island"
 ]);

@@ -47612,5 +47612,3068 @@
    "Arctic",
    "Atlantic"
   ]
+ },
+ {
+  "id": "island-our-lady-of-the-rocks",
+  "category": "island",
+  "name": "Our Lady of the Rocks",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Our Lady of the Rocks\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 4383,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Our Lady of the Rocks",
+  "lat": 42.48666667,
+  "lon": 18.68888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-agistri",
+  "category": "island",
+  "name": "Agistri",
+  "aliases": [],
+  "size": 11.73,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Agistri\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 3470,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Agistri",
+  "lat": 37.695,
+  "lon": 23.35,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-antipaxos",
+  "category": "island",
+  "name": "Antipaxos",
+  "aliases": [],
+  "size": 5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Antipaxos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 3318,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antipaxos",
+  "lat": 39.14927778,
+  "lon": 20.23166111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-vido",
+  "category": "island",
+  "name": "Vido",
+  "aliases": [],
+  "size": 0.54,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vido\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 3318,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vido",
+  "lat": 39.64166667,
+  "lon": 19.925,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kea",
+  "category": "island",
+  "name": "Kea",
+  "aliases": [],
+  "size": 132,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kea (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 3288,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kea (island)",
+  "lat": 37.62305556,
+  "lon": 24.33666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-goli-otok",
+  "category": "island",
+  "name": "Goli Otok",
+  "aliases": [],
+  "size": 4.54,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Goli Otok\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 3227,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Goli Otok",
+  "lat": 44.83888889,
+  "lon": 14.81861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-atokos",
+  "category": "island",
+  "name": "Atokos",
+  "aliases": [],
+  "size": 4.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Atokos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 3074,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Atokos",
+  "lat": 38.488,
+  "lon": 20.812,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ammouliani",
+  "category": "island",
+  "name": "Ammouliani",
+  "aliases": [],
+  "size": 4.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ammouliani\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2648,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ammouliani",
+  "lat": 40.33333333,
+  "lon": 23.92,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-astypalaia",
+  "category": "island",
+  "name": "Astypalaia",
+  "aliases": [],
+  "size": 96.42,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Astypalaia\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Astypalaia",
+  "lat": 36.55,
+  "lon": 26.35,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-othonoi",
+  "category": "island",
+  "name": "Othonoi",
+  "aliases": [],
+  "size": 10.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Othonoi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2527,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Othonoi",
+  "lat": 39.85,
+  "lon": 19.4,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-margaret-island",
+  "category": "island",
+  "name": "Margaret Island",
+  "aliases": [],
+  "size": 0.97,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Margaret Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2405,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Margaret Island",
+  "lat": 47.5275,
+  "lon": 19.0475,
+  "oceans": []
+ },
+ {
+  "id": "island-elafonisi",
+  "category": "island",
+  "name": "Elafonisi",
+  "aliases": [],
+  "size": 1.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Elafonisi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2253,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Elafonisi",
+  "lat": 35.27,
+  "lon": 23.532,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kythnos",
+  "category": "island",
+  "name": "Kythnos",
+  "aliases": [],
+  "size": 100.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kythnos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 2009,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kythnos",
+  "lat": 37.38583333,
+  "lon": 24.42805556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-keros",
+  "category": "island",
+  "name": "Keros",
+  "aliases": [],
+  "size": 15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Keros\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1948,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Keros",
+  "lat": 36.89,
+  "lon": 25.65,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-anafi",
+  "category": "island",
+  "name": "Anafi",
+  "aliases": [],
+  "size": 38.64,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Anafi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1857,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Anafi",
+  "lat": 36.37194444,
+  "lon": 25.79527778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kasos",
+  "category": "island",
+  "name": "Kasos",
+  "aliases": [],
+  "size": 69.46,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kasos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1735,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kasos",
+  "lat": 35.3975,
+  "lon": 26.925,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-meganisi",
+  "category": "island",
+  "name": "Meganisi",
+  "aliases": [],
+  "size": 20.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Meganisi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1735,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Meganisi",
+  "lat": 38.66666667,
+  "lon": 20.78333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kimolos",
+  "category": "island",
+  "name": "Kimolos",
+  "aliases": [],
+  "size": 36,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kimolos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kimolos",
+  "lat": 36.80861111,
+  "lon": 24.56305556,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-nea-kameni",
+  "category": "island",
+  "name": "Nea Kameni",
+  "aliases": [],
+  "size": 3.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nea Kameni\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1674,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nea Kameni",
+  "lat": 36.4,
+  "lon": 25.4,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-dia",
+  "category": "island",
+  "name": "Dia",
+  "aliases": [],
+  "size": 11.91,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dia (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dia (island)",
+  "lat": 35.448,
+  "lon": 25.22,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gyaros",
+  "category": "island",
+  "name": "Gyaros",
+  "aliases": [],
+  "size": 23,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gyaros\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1644,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gyaros",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-imia",
+  "category": "island",
+  "name": "Imia",
+  "aliases": [],
+  "size": 0.04,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Imia\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1583,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Imia",
+  "lat": 37.05083333,
+  "lon": 27.15111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-tilos",
+  "category": "island",
+  "name": "Tilos",
+  "aliases": [],
+  "size": 61.49,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tilos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1583,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tilos",
+  "lat": 36.43333333,
+  "lon": 27.36666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-elafonisos",
+  "category": "island",
+  "name": "Elafonisos",
+  "aliases": [],
+  "size": 19.99,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Elafonisos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Elafonisos",
+  "lat": 36.4875,
+  "lon": 22.9625,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-makronisos",
+  "category": "island",
+  "name": "Makronisos",
+  "aliases": [],
+  "size": 20,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Makronisos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1431,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Makronisos",
+  "lat": 37.70111111,
+  "lon": 24.12472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ada-ciganlija",
+  "category": "island",
+  "name": "Ada Ciganlija",
+  "aliases": [],
+  "size": 8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ada Ciganlija\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ada Ciganlija",
+  "lat": 44.78333333,
+  "lon": 20.4,
+  "oceans": []
+ },
+ {
+  "id": "island-mamula",
+  "category": "island",
+  "name": "Mamula",
+  "aliases": [],
+  "size": 0.04,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mamula\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mamula",
+  "lat": 42.39527778,
+  "lon": 18.55833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pontikonisi",
+  "category": "island",
+  "name": "Pontikonisi",
+  "aliases": [],
+  "size": 0.01,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pontikonisi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1370,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pontikonisi",
+  "lat": 39.58638889,
+  "lon": 19.91777778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ada-bojana",
+  "category": "island",
+  "name": "Ada Bojana",
+  "aliases": [],
+  "size": 4.81,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ada Bojana\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ada Bojana",
+  "lat": 41.8625,
+  "lon": 19.36111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-halki",
+  "category": "island",
+  "name": "Halki",
+  "aliases": [],
+  "size": 28,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Halki (Greece)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1278,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Halki (Greece)",
+  "lat": 36.23333333,
+  "lon": 27.56666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-psara",
+  "category": "island",
+  "name": "Psara",
+  "aliases": [],
+  "size": 40.47,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Psara\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Psara",
+  "lat": 38.55,
+  "lon": 25.56666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-therasia",
+  "category": "island",
+  "name": "Therasia",
+  "aliases": [],
+  "size": 9.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Therasia\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Therasia",
+  "lat": 36.43,
+  "lon": 25.33,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sipan",
+  "category": "island",
+  "name": "Sipan",
+  "aliases": [],
+  "size": 16.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Šipan\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 1065,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Šipan",
+  "lat": 42.7286,
+  "lon": 17.8758,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pserimos",
+  "category": "island",
+  "name": "Pserimos",
+  "aliases": [],
+  "size": 14.52,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pserimos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 944,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pserimos",
+  "lat": 36.93333333,
+  "lon": 27.13333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-donousa",
+  "category": "island",
+  "name": "Donousa",
+  "aliases": [],
+  "size": 13.75,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Donousa\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Donousa",
+  "lat": 37.10833333,
+  "lon": 25.81388889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-schoinoussa",
+  "category": "island",
+  "name": "Schoinoussa",
+  "aliases": [],
+  "size": 8.51,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Schoinoussa\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Schoinoussa",
+  "lat": 36.86666667,
+  "lon": 25.51666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ugljan",
+  "category": "island",
+  "name": "Ugljan",
+  "aliases": [],
+  "size": 50.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ugljan\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ugljan",
+  "lat": 44.08333333,
+  "lon": 15.16666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kalamos",
+  "category": "island",
+  "name": "Kalamos",
+  "aliases": [],
+  "size": 25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kalamos (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kalamos (island)",
+  "lat": 38.61666667,
+  "lon": 20.91666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-agathonisi",
+  "category": "island",
+  "name": "Agathonisi",
+  "aliases": [],
+  "size": 13.42,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Agathonisi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Agathonisi",
+  "lat": 37.45833333,
+  "lon": 26.96666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-despotiko",
+  "category": "island",
+  "name": "Despotiko",
+  "aliases": [],
+  "size": 7.75,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Despotiko\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Despotiko",
+  "lat": 36.96,
+  "lon": 25,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-susak",
+  "category": "island",
+  "name": "Susak",
+  "aliases": [],
+  "size": 3.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Susak\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Susak",
+  "lat": 44.51666667,
+  "lon": 14.3,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ereikoussa",
+  "category": "island",
+  "name": "Ereikoussa",
+  "aliases": [],
+  "size": 4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ereikoussa\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ereikoussa",
+  "lat": 39.88333333,
+  "lon": 19.58333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gyali",
+  "category": "island",
+  "name": "Gyali",
+  "aliases": [],
+  "size": 4.56,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gyali\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gyali",
+  "lat": 36.662,
+  "lon": 27.115,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-iz",
+  "category": "island",
+  "name": "Iz",
+  "aliases": [],
+  "size": 17.59,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Iž\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Iž",
+  "lat": 44.0336,
+  "lon": 15.1196,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kolocep",
+  "category": "island",
+  "name": "Kolocep",
+  "aliases": [],
+  "size": 2.44,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Koločep\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Koločep",
+  "lat": 42.67638889,
+  "lon": 18.00666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-olib",
+  "category": "island",
+  "name": "Olib",
+  "aliases": [],
+  "size": 26.14,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Olib\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Olib",
+  "lat": 44.36666667,
+  "lon": 14.76666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-polyaigos",
+  "category": "island",
+  "name": "Polyaigos",
+  "aliases": [],
+  "size": 18.15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Polyaigos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Polyaigos",
+  "lat": 36.75138889,
+  "lon": 24.63638889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ciovo",
+  "category": "island",
+  "name": "Ciovo",
+  "aliases": [],
+  "size": 28.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Čiovo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Čiovo",
+  "lat": 43.5,
+  "lon": 16.28333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-silba",
+  "category": "island",
+  "name": "Silba",
+  "aliases": [],
+  "size": 15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Silba\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Silba",
+  "lat": 44.3747,
+  "lon": 14.6953,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-chrysi",
+  "category": "island",
+  "name": "Chrysi",
+  "aliases": [],
+  "size": 4.74,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Chrysi (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Chrysi (island)",
+  "lat": 34.87,
+  "lon": 25.71,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-irakleia",
+  "category": "island",
+  "name": "Irakleia",
+  "aliases": [],
+  "size": 17.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Irakleia (Cyclades)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Irakleia (Cyclades)",
+  "lat": 36.83333333,
+  "lon": 25.45,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rineia",
+  "category": "island",
+  "name": "Rineia",
+  "aliases": [],
+  "size": 14,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rineia\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rineia",
+  "lat": 37.409,
+  "lon": 25.229,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-murter",
+  "category": "island",
+  "name": "Murter",
+  "aliases": [],
+  "size": 18.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Murter\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Murter",
+  "lat": 43.8,
+  "lon": 15.6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-tuzla-island",
+  "category": "island",
+  "name": "Tuzla Island",
+  "aliases": [],
+  "size": 2.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tuzla Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 639,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tuzla Island",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-dokos",
+  "category": "island",
+  "name": "Dokos",
+  "aliases": [],
+  "size": 13.54,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Dokos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Dokos",
+  "lat": 37.33311389,
+  "lon": 23.32133889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-hajogyari-island",
+  "category": "island",
+  "name": "Hajogyari Island",
+  "aliases": [],
+  "size": 1.08,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hajógyári Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hajógyári Island",
+  "oceans": []
+ },
+ {
+  "id": "island-trizonia",
+  "category": "island",
+  "name": "Trizonia",
+  "aliases": [],
+  "size": 2.24,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trizonia island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trizonia island",
+  "lat": 38.367,
+  "lon": 22.073,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-zitny-ostrov",
+  "category": "island",
+  "name": "Zitny ostrov",
+  "aliases": [],
+  "size": 1886,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Žitný ostrov\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Žitný ostrov",
+  "lat": 47.95,
+  "lon": 17.65,
+  "oceans": []
+ },
+ {
+  "id": "island-farmakonisi",
+  "category": "island",
+  "name": "Farmakonisi",
+  "aliases": [],
+  "size": 3.87,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Farmakonisi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Farmakonisi",
+  "lat": 37.29,
+  "lon": 27.085,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-great-war-island",
+  "category": "island",
+  "name": "Great War Island",
+  "aliases": [],
+  "size": 2.11,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great War Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great War Island",
+  "lat": 44.831632,
+  "lon": 20.435798,
+  "oceans": []
+ },
+ {
+  "id": "island-mochlos",
+  "category": "island",
+  "name": "Mochlos",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mochlos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mochlos",
+  "lat": 35.1875,
+  "lon": 25.9075,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-vir",
+  "category": "island",
+  "name": "Vir",
+  "aliases": [],
+  "size": 22.38,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vir (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 578,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vir (island)",
+  "lat": 44.303428,
+  "lon": 15.085537,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-csepel-island",
+  "category": "island",
+  "name": "Csepel Island",
+  "aliases": [],
+  "size": 257,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Csepel Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Csepel Island",
+  "lat": 47.25,
+  "lon": 18.95,
+  "oceans": []
+ },
+ {
+  "id": "island-diaporos-island",
+  "category": "island",
+  "name": "Diaporos Island",
+  "aliases": [],
+  "size": 4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Diaporos Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Diaporos Island",
+  "lat": 40.20888889,
+  "lon": 23.77611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-mathraki",
+  "category": "island",
+  "name": "Mathraki",
+  "aliases": [],
+  "size": 3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mathraki\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mathraki",
+  "lat": 39.76666667,
+  "lon": 19.51666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-arkoi",
+  "category": "island",
+  "name": "Arkoi",
+  "aliases": [],
+  "size": 6.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Arkoi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Arkoi",
+  "lat": 37.38,
+  "lon": 26.74,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ro",
+  "category": "island",
+  "name": "Ro",
+  "aliases": [],
+  "size": 1.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ro, Greece\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 517,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ro, Greece",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-spetsopoula",
+  "category": "island",
+  "name": "Spetsopoula",
+  "aliases": [],
+  "size": 2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Spetsopoula\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Spetsopoula",
+  "lat": 37.22,
+  "lon": 23.17,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-tsoungria",
+  "category": "island",
+  "name": "Tsoungria",
+  "aliases": [],
+  "size": 1.17,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tsoungria\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tsoungria",
+  "lat": 39.12,
+  "lon": 23.5,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-bisevo",
+  "category": "island",
+  "name": "Bisevo",
+  "aliases": [],
+  "size": 5.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Biševo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Biševo",
+  "lat": 42.96666667,
+  "lon": 16,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kyra-panagia",
+  "category": "island",
+  "name": "Kyra Panagia",
+  "aliases": [],
+  "size": 24.76,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kyra Panagia\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kyra Panagia",
+  "lat": 39.33,
+  "lon": 24.07,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pasman",
+  "category": "island",
+  "name": "Pasman",
+  "aliases": [],
+  "size": 60.11,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pašman\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pašman",
+  "lat": 43.95,
+  "lon": 15.38333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sapientza",
+  "category": "island",
+  "name": "Sapientza",
+  "aliases": [],
+  "size": 9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sapientza\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sapientza",
+  "lat": 36.77175,
+  "lon": 21.70502778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-aestian-island",
+  "category": "island",
+  "name": "Aestian Island",
+  "aliases": [],
+  "size": 1.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aestian Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aestian Island",
+  "lat": 54.3331,
+  "lon": 19.3816,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kastos",
+  "category": "island",
+  "name": "Kastos",
+  "aliases": [],
+  "size": 5.9,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kastos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kastos",
+  "lat": 38.56666667,
+  "lon": 20.91666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-premuda",
+  "category": "island",
+  "name": "Premuda",
+  "aliases": [],
+  "size": 9.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Premuda\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Premuda",
+  "lat": 44.33333333,
+  "lon": 14.6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sphacteria",
+  "category": "island",
+  "name": "Sphacteria",
+  "aliases": [],
+  "size": 3.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sphacteria\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sphacteria",
+  "lat": 36.93013611,
+  "lon": 21.665725,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-aegna",
+  "category": "island",
+  "name": "Aegna",
+  "aliases": [],
+  "size": 3.01,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Aegna\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Aegna",
+  "lat": 59.58055556,
+  "lon": 24.75777778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kinaros",
+  "category": "island",
+  "name": "Kinaros",
+  "aliases": [],
+  "size": 4.58,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kinaros\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kinaros",
+  "lat": 36.98027778,
+  "lon": 26.28972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ostrow-tumski",
+  "category": "island",
+  "name": "Ostrow Tumski",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ostrów Tumski, Poznań\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ostrów Tumski, Poznań",
+  "lat": 52.41166667,
+  "lon": 16.94861111,
+  "oceans": []
+ },
+ {
+  "id": "island-antimilos",
+  "category": "island",
+  "name": "Antimilos",
+  "aliases": [],
+  "size": 8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Antimilos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antimilos",
+  "lat": 36.78694444,
+  "lon": 24.23861111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-argyronisos",
+  "category": "island",
+  "name": "Argyronisos",
+  "aliases": [],
+  "size": 0.36,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Argyronisos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Argyronisos",
+  "lat": 39.00833333,
+  "lon": 23.07,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-oxeia",
+  "category": "island",
+  "name": "Oxeia",
+  "aliases": [],
+  "size": 4.22,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oxeia\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oxeia",
+  "lat": 38.302,
+  "lon": 21.109,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-prvic-sibenik",
+  "category": "island",
+  "name": "Prvic",
+  "aliases": [],
+  "size": 2.37,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Prvić\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Sibenik",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Prvić",
+  "lat": 43.73,
+  "lon": 15.795,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-souda",
+  "category": "island",
+  "name": "Souda",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Souda (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Souda (island)",
+  "lat": 35.489,
+  "lon": 24.152,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sveti-grgur",
+  "category": "island",
+  "name": "Sveti Grgur",
+  "aliases": [],
+  "size": 6.37,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sveti Grgur\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sveti Grgur",
+  "lat": 44.86805556,
+  "lon": 14.75916667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-veli-brijun",
+  "category": "island",
+  "name": "Veli Brijun",
+  "aliases": [],
+  "size": 5.72,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Veli Brijun\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Veli Brijun",
+  "lat": 44.91527778,
+  "lon": 13.76527778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-alimia",
+  "category": "island",
+  "name": "Alimia",
+  "aliases": [],
+  "size": 6.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Alimia\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Alimia",
+  "lat": 36.26666667,
+  "lon": 27.7,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sarengrad-island",
+  "category": "island",
+  "name": "Sarengrad Island",
+  "aliases": [],
+  "size": 6.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Island of Šarengrad\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Island of Šarengrad",
+  "lat": 45.258,
+  "lon": 19.245,
+  "oceans": []
+ },
+ {
+  "id": "island-piirissaar",
+  "category": "island",
+  "name": "Piirissaar",
+  "aliases": [],
+  "size": 7.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Piirissaar\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Piirissaar",
+  "lat": 58.36666667,
+  "lon": 27.51666667,
+  "oceans": []
+ },
+ {
+  "id": "island-saria-island",
+  "category": "island",
+  "name": "Saria Island",
+  "aliases": [],
+  "size": 20.43,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saria Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saria Island",
+  "lat": 35.87,
+  "lon": 27.22,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sobieszewo-island",
+  "category": "island",
+  "name": "Sobieszewo Island",
+  "aliases": [],
+  "size": 35.79,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sobieszewo Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sobieszewo Island",
+  "lat": 54.33638889,
+  "lon": 18.87472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-thymaina",
+  "category": "island",
+  "name": "Thymaina",
+  "aliases": [],
+  "size": 10,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Thymaina\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Thymaina",
+  "lat": 37.58,
+  "lon": 26.44,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-agios-georgios",
+  "category": "island",
+  "name": "Agios Georgios",
+  "aliases": [],
+  "size": 4.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Agios Georgios (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Agios Georgios (island)",
+  "lat": 37.47388889,
+  "lon": 23.92611111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ilovik",
+  "category": "island",
+  "name": "Ilovik",
+  "aliases": [],
+  "size": 6.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ilovik\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ilovik",
+  "lat": 44.45260278,
+  "lon": 14.54849167,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-osmussaar",
+  "category": "island",
+  "name": "Osmussaar",
+  "aliases": [],
+  "size": 4.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Osmussaar\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Osmussaar",
+  "lat": 59.29166667,
+  "lon": 23.39166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-patroklos",
+  "category": "island",
+  "name": "Patroklos",
+  "aliases": [],
+  "size": 2.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Patroklos (Attica)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Patroklos (Attica)",
+  "lat": 37.65069444,
+  "lon": 23.95041667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-unije",
+  "category": "island",
+  "name": "Unije",
+  "aliases": [],
+  "size": 16.88,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Unije\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Unije",
+  "lat": 44.63333333,
+  "lon": 14.25,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-afentis-christos",
+  "category": "island",
+  "name": "Afentis Christos",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Afentis Christos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Afentis Christos",
+  "lat": 35.2954,
+  "lon": 25.4609,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-antipsara",
+  "category": "island",
+  "name": "Antipsara",
+  "aliases": [],
+  "size": 4.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Antipsara\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Antipsara",
+  "lat": 38.542,
+  "lon": 25.512,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-arkoudi",
+  "category": "island",
+  "name": "Arkoudi",
+  "aliases": [],
+  "size": 4.28,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Arkoudi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Arkoudi",
+  "lat": 38.55,
+  "lon": 20.707,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-daskalio",
+  "category": "island",
+  "name": "Daskalio",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Daskalio\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Daskalio",
+  "lat": 36.887,
+  "lon": 25.604,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-great-braila-island",
+  "category": "island",
+  "name": "Great Braila Island",
+  "aliases": [],
+  "size": 710,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Great Brăila Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Great Brăila Island",
+  "lat": 45.02166667,
+  "lon": 28.04916667,
+  "oceans": []
+ },
+ {
+  "id": "island-ist",
+  "category": "island",
+  "name": "Ist",
+  "aliases": [],
+  "size": 9.65,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ist (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ist (island)",
+  "lat": 44.26666667,
+  "lon": 14.76666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kornat",
+  "category": "island",
+  "name": "Kornat",
+  "aliases": [],
+  "size": 32.44,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kornat\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kornat",
+  "lat": 43.80277778,
+  "lon": 15.33333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-marathonisi",
+  "category": "island",
+  "name": "Marathonisi",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Marathonisi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Marathonisi",
+  "lat": 37.68472222,
+  "lon": 20.87083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-paleo-trikeri",
+  "category": "island",
+  "name": "Paleo Trikeri",
+  "aliases": [],
+  "size": 2.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Paleo Trikeri\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Paleo Trikeri",
+  "lat": 39.16666667,
+  "lon": 23.08333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-peristera",
+  "category": "island",
+  "name": "Peristera",
+  "aliases": [],
+  "size": 14.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Peristera\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Peristera",
+  "lat": 39.18,
+  "lon": 23.97,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-petalas",
+  "category": "island",
+  "name": "Petalas",
+  "aliases": [],
+  "size": 5.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Petalas\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Petalas",
+  "lat": 38.414,
+  "lon": 21.092,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-prangli",
+  "category": "island",
+  "name": "Prangli",
+  "aliases": [],
+  "size": 6.44,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Prangli\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Prangli",
+  "lat": 59.62444444,
+  "lon": 25.02083333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-svetac",
+  "category": "island",
+  "name": "Svetac",
+  "aliases": [],
+  "size": 4.19,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Svetac\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Svetac",
+  "lat": 43.02574029,
+  "lon": 15.74890173,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-syrna",
+  "category": "island",
+  "name": "Syrna",
+  "aliases": [],
+  "size": 7.87,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Syrna (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Syrna (island)",
+  "lat": 36.33883333,
+  "lon": 26.673,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-zut",
+  "category": "island",
+  "name": "Zut",
+  "aliases": [],
+  "size": 14.83,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Žut\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Žut",
+  "lat": 43.86666667,
+  "lon": 15.31666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-gioura",
+  "category": "island",
+  "name": "Gioura",
+  "aliases": [],
+  "size": 11.05,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gioura\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gioura",
+  "lat": 39.39,
+  "lon": 24.17,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kalydon",
+  "category": "island",
+  "name": "Kalydon",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kalydon (Elounda)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kalydon (Elounda)",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sacalin-island",
+  "category": "island",
+  "name": "Sacalin Island",
+  "aliases": [],
+  "size": 214.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sacalin Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sacalin Island",
+  "lat": 44.7875,
+  "lon": 29.54138889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-samiopoula",
+  "category": "island",
+  "name": "Samiopoula",
+  "aliases": [],
+  "size": 1.02,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Samiopoula\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Samiopoula",
+  "lat": 37.628,
+  "lon": 26.794,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-stvanice",
+  "category": "island",
+  "name": "Stvanice",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Štvanice\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Štvanice",
+  "lat": 50.09583333,
+  "lon": 14.43805556,
+  "oceans": []
+ },
+ {
+  "id": "island-drvenik-veli",
+  "category": "island",
+  "name": "Drvenik Veli",
+  "aliases": [],
+  "size": 12.07,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Drvenik Veli\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drvenik Veli",
+  "lat": 43.444226,
+  "lon": 16.145439,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kaprije",
+  "category": "island",
+  "name": "Kaprije",
+  "aliases": [],
+  "size": 7.12,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kaprije\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kaprije",
+  "lat": 43.697479,
+  "lon": 15.700407,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lazaretta",
+  "category": "island",
+  "name": "Lazaretta",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lazaretta\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lazaretta",
+  "lat": 35.51916667,
+  "lon": 23.99944444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-levitha",
+  "category": "island",
+  "name": "Levitha",
+  "aliases": [],
+  "size": 9.12,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Levitha\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Levitha",
+  "lat": 37.01111111,
+  "lon": 26.45972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-molat",
+  "category": "island",
+  "name": "Molat",
+  "aliases": [],
+  "size": 22.82,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Molat\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Molat",
+  "lat": 44.231,
+  "lon": 14.841,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-saliagos",
+  "category": "island",
+  "name": "Saliagos",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Saliagos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Saliagos",
+  "lat": 37.048,
+  "lon": 25.094,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-susac",
+  "category": "island",
+  "name": "Susac",
+  "aliases": [],
+  "size": 4.03,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sušac\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sušac",
+  "lat": 42.76666667,
+  "lon": 16.51666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-vrgada",
+  "category": "island",
+  "name": "Vrgada",
+  "aliases": [],
+  "size": 3.7,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vrgada\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vrgada",
+  "lat": 43.852231,
+  "lon": 15.50231,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-scedro",
+  "category": "island",
+  "name": "Scedro",
+  "aliases": [],
+  "size": 8.37,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Šćedro\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Šćedro",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-anydros",
+  "category": "island",
+  "name": "Anydros",
+  "aliases": [],
+  "size": 1.2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Anydros\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Anydros",
+  "lat": 36.625,
+  "lon": 25.685,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-falkonera",
+  "category": "island",
+  "name": "Falkonera",
+  "aliases": [],
+  "size": 1.15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Falkonera\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Falkonera",
+  "lat": 36.842,
+  "lon": 23.885,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kalolimnos",
+  "category": "island",
+  "name": "Kalolimnos",
+  "aliases": [],
+  "size": 1.95,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kalolimnos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kalolimnos",
+  "lat": 37.06111111,
+  "lon": 27.0875,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ostrow-lednicki",
+  "category": "island",
+  "name": "Ostrow Lednicki",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ostrów Lednicki\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ostrów Lednicki",
+  "lat": 52.52667,
+  "lon": 17.3778,
+  "oceans": []
+ },
+ {
+  "id": "island-proti-island",
+  "category": "island",
+  "name": "Proti Island",
+  "aliases": [],
+  "size": 3.11,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Proti Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Proti Island",
+  "lat": 37.05,
+  "lon": 21.55,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-psathoura",
+  "category": "island",
+  "name": "Psathoura",
+  "aliases": [],
+  "size": 0.76,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Psathoura\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Psathoura",
+  "lat": 39.498,
+  "lon": 24.181,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-skantzoura",
+  "category": "island",
+  "name": "Skantzoura",
+  "aliases": [],
+  "size": 6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Skantzoura\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Skantzoura",
+  "lat": 39.08,
+  "lon": 24.11,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-sveti-klement",
+  "category": "island",
+  "name": "Sveti Klement",
+  "aliases": [],
+  "size": 5.28,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sveti Klement\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sveti Klement",
+  "lat": 43.16611111,
+  "lon": 16.375,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-szigetkoz",
+  "category": "island",
+  "name": "Szigetkoz",
+  "aliases": [],
+  "size": 375,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Szigetköz\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Szigetköz",
+  "lat": 47.85,
+  "lon": 17.45,
+  "oceans": []
+ },
+ {
+  "id": "island-vilsandi",
+  "category": "island",
+  "name": "Vilsandi",
+  "aliases": [],
+  "size": 9.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vilsandi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vilsandi",
+  "lat": 58.38333333,
+  "lon": 21.86666667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kipsala",
+  "category": "island",
+  "name": "Kipsala",
+  "aliases": [],
+  "size": 1.98,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ķīpsala\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 183,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ķīpsala",
+  "lat": 56.95611111,
+  "lon": 24.08111111,
+  "oceans": []
+ },
+ {
+  "id": "island-abruka",
+  "category": "island",
+  "name": "Abruka",
+  "aliases": [],
+  "size": 10.1,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Abruka\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Abruka",
+  "lat": 58.16388889,
+  "lon": 22.50388889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-armathia",
+  "category": "island",
+  "name": "Armathia",
+  "aliases": [],
+  "size": 2.57,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Armathia\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Armathia",
+  "lat": 35.43666667,
+  "lon": 26.86361111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-belene-island",
+  "category": "island",
+  "name": "Belene Island",
+  "aliases": [],
+  "size": 68.97,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Belene Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Belene Island",
+  "lat": 43.67,
+  "lon": 25.19,
+  "oceans": []
+ },
+ {
+  "id": "island-gavdopoula",
+  "category": "island",
+  "name": "Gavdopoula",
+  "aliases": [],
+  "size": 2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Gavdopoula\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Gavdopoula",
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-jakljan",
+  "category": "island",
+  "name": "Jakljan",
+  "aliases": [],
+  "size": 3.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jakljan\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jakljan",
+  "lat": 42.74111111,
+  "lon": 17.81833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kassari",
+  "category": "island",
+  "name": "Kassari",
+  "aliases": [],
+  "size": 19.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kassari\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kassari",
+  "lat": 58.8,
+  "lon": 22.83333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ostrow-island",
+  "category": "island",
+  "name": "Ostrow Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ostrów Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ostrów Island",
+  "lat": 54.371,
+  "lon": 18.654,
+  "oceans": []
+ },
+ {
+  "id": "island-piperi",
+  "category": "island",
+  "name": "Piperi",
+  "aliases": [],
+  "size": 4.17,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Piperi (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Piperi (island)",
+  "lat": 39.348,
+  "lon": 24.324,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pondikonisi",
+  "category": "island",
+  "name": "Pondikonisi",
+  "aliases": [],
+  "size": 2.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pondikonisi\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pondikonisi",
+  "lat": 35.586,
+  "lon": 23.477,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-prvic-krk",
+  "category": "island",
+  "name": "Prvic",
+  "aliases": [],
+  "size": 12.76,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Prvić (Krk)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Krk",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Prvić (Krk)",
+  "lat": 44.91055556,
+  "lon": 14.80138889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-pseira",
+  "category": "island",
+  "name": "Pseira",
+  "aliases": [],
+  "size": 1.52,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pseira\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pseira",
+  "lat": 35.19027778,
+  "lon": 25.85972222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rava",
+  "category": "island",
+  "name": "Rava",
+  "aliases": [],
+  "size": 3.63,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rava (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rava (island)",
+  "lat": 44.021941,
+  "lon": 15.066386,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-schiza",
+  "category": "island",
+  "name": "Schiza",
+  "aliases": [],
+  "size": 12.3,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Schiza\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Schiza",
+  "lat": 36.72722222,
+  "lon": 21.76888889,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-strelecky-island",
+  "category": "island",
+  "name": "Strelecky Island",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Střelecký Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Střelecký Island",
+  "lat": 50.0811,
+  "lon": 14.4101,
+  "oceans": []
+ },
+ {
+  "id": "island-vele-srakane",
+  "category": "island",
+  "name": "Vele Srakane",
+  "aliases": [],
+  "size": 1.15,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Vele Srakane\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Vele Srakane",
+  "lat": 44.582245,
+  "lon": 14.309671,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-veliki-skolj",
+  "category": "island",
+  "name": "Veliki Skolj",
+  "aliases": [],
+  "size": 76,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Veliki Školj\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 152,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Veliki Školj",
+  "lat": 42.90156,
+  "lon": 17.62209,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-avgo",
+  "category": "island",
+  "name": "Avgo",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Avgo\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Avgo",
+  "lat": 35.603,
+  "lon": 25.577,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-drvenik-mali",
+  "category": "island",
+  "name": "Drvenik Mali",
+  "aliases": [],
+  "size": 3.43,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Drvenik Mali\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drvenik Mali",
+  "lat": 43.4475,
+  "lon": 16.0825,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-karsibor",
+  "category": "island",
+  "name": "Karsibor",
+  "aliases": [],
+  "size": 14,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Karsibór\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Karsibór",
+  "lat": 53.846,
+  "lon": 14.33,
+  "oceans": []
+ },
+ {
+  "id": "island-lesendro",
+  "category": "island",
+  "name": "Lesendro",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lesendro\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lesendro",
+  "lat": 42.2716,
+  "lon": 19.1197,
+  "oceans": []
+ },
+ {
+  "id": "island-mali-skolj",
+  "category": "island",
+  "name": "Mali Skolj",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mali Školj\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mali Školj",
+  "lat": 42.91149,
+  "lon": 17.59868,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-nimos",
+  "category": "island",
+  "name": "Nimos",
+  "aliases": [],
+  "size": 4.65,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Nimos\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Nimos",
+  "lat": 36.58333333,
+  "lon": 27.83333333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-plavnik",
+  "category": "island",
+  "name": "Plavnik",
+  "aliases": [],
+  "size": 8.64,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Plavnik\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Plavnik",
+  "lat": 44.96722222,
+  "lon": 14.525,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-rusanivka",
+  "category": "island",
+  "name": "Rusanivka",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rusanivka\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rusanivka",
+  "lat": 50.43916667,
+  "lon": 30.59777778,
+  "oceans": []
+ },
+ {
+  "id": "island-rusne-island",
+  "category": "island",
+  "name": "Rusne Island",
+  "aliases": [],
+  "size": 45,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Rusnė Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Rusnė Island",
+  "lat": 55.3,
+  "lon": 21.37,
+  "oceans": []
+ },
+ {
+  "id": "island-skyropoula",
+  "category": "island",
+  "name": "Skyropoula",
+  "aliases": [],
+  "size": 3.8,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Skyropoula\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Skyropoula",
+  "lat": 38.84,
+  "lon": 24.36,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-trukhaniv-island",
+  "category": "island",
+  "name": "Trukhaniv Island",
+  "aliases": [],
+  "size": 4.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Trukhaniv Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Trukhaniv Island",
+  "lat": 50.46333333,
+  "lon": 30.545,
+  "oceans": []
+ },
+ {
+  "id": "island-agia-kyriaki",
+  "category": "island",
+  "name": "Agia Kyriaki",
+  "aliases": [],
+  "size": 0.25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Agia Kyriaki\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Agia Kyriaki",
+  "lat": 36.54861111,
+  "lon": 26.40416667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-atalanti-island",
+  "category": "island",
+  "name": "Atalanti Island",
+  "aliases": [],
+  "size": 1.6,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Atalanti Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Atalanti Island",
+  "lat": 38.675,
+  "lon": 23.096,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-drakonera",
+  "category": "island",
+  "name": "Drakonera",
+  "aliases": [],
+  "size": 2.44,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Drakonera\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Drakonera",
+  "lat": 38.48,
+  "lon": 21.019,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kardiotissa",
+  "category": "island",
+  "name": "Kardiotissa",
+  "aliases": [],
+  "size": 1.43,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kardiotissa\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kardiotissa",
+  "lat": 36.63,
+  "lon": 25.02,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kavalliani",
+  "category": "island",
+  "name": "Kavalliani",
+  "aliases": [],
+  "size": 2,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kavalliani\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kavalliani",
+  "lat": 38.223,
+  "lon": 24.103,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-kune-island",
+  "category": "island",
+  "name": "Kune Island",
+  "aliases": [],
+  "size": 1.4,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kunë Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kunë Island",
+  "lat": 41.76305556,
+  "lon": 19.58166667,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lavdara",
+  "category": "island",
+  "name": "Lavdara",
+  "aliases": [],
+  "size": 2.27,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lavdara\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lavdara",
+  "lat": 43.93638889,
+  "lon": 15.20833333,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-lucavsala",
+  "category": "island",
+  "name": "Lucavsala",
+  "aliases": [],
+  "size": 1.5,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lucavsala\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lucavsala",
+  "lat": 56.92416667,
+  "lon": 24.11833333,
+  "oceans": []
+ },
+ {
+  "id": "island-mali-brijun",
+  "category": "island",
+  "name": "Mali Brijun",
+  "aliases": [],
+  "size": 1.07,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mali Brijun\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mali Brijun",
+  "lat": 44.93222222,
+  "lon": 13.73444444,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-manilaid",
+  "category": "island",
+  "name": "Manilaid",
+  "aliases": [],
+  "size": 1.87,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Manilaid\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Manilaid",
+  "lat": 58.21361111,
+  "lon": 24.12111111,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-ostriv-velykyi-potomkin",
+  "category": "island",
+  "name": "Ostriv Velykyi Potomkin",
+  "aliases": [],
+  "size": 25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ostriv Velykyi Potomkin\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ostriv Velykyi Potomkin",
+  "lat": 46.57786111,
+  "lon": 32.54011111,
+  "oceans": []
+ },
+ {
+  "id": "island-panagia",
+  "category": "island",
+  "name": "Panagia",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Panagia (island)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Panagia (island)",
+  "lat": 39.204,
+  "lon": 20.194,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-serifopoula",
+  "category": "island",
+  "name": "Serifopoula",
+  "aliases": [],
+  "size": 1.37,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Serifopoula\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Serifopoula",
+  "lat": 37.256,
+  "lon": 24.6,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-szentendre-island",
+  "category": "island",
+  "name": "Szentendre Island",
+  "aliases": [],
+  "size": 56,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Szentendre Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Szentendre Island",
+  "oceans": []
+ },
+ {
+  "id": "island-tataru-mare-island",
+  "category": "island",
+  "name": "Tataru Mare Island",
+  "aliases": [],
+  "size": 25,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tătaru Mare Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tătaru Mare Island",
+  "lat": 45.395,
+  "lon": 29.205,
+  "oceans": []
+ },
+ {
+  "id": "island-velopoula",
+  "category": "island",
+  "name": "Velopoula",
+  "aliases": [],
+  "size": 1.86,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Velopoula\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Velopoula",
+  "lat": 36.91805556,
+  "lon": 23.46027778,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-zeca",
+  "category": "island",
+  "name": "Zeca",
+  "aliases": [],
+  "size": 2.55,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Zeča\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Zeča",
+  "lat": 44.77166667,
+  "lon": 14.3125,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-skarda",
+  "category": "island",
+  "name": "Skarda",
+  "aliases": [],
+  "size": 3.78,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Škarda\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "magnitude": 91,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Škarda",
+  "lat": 44.28333333,
+  "lon": 14.70472222,
+  "oceans": [
+   "Atlantic"
+  ]
+ },
+ {
+  "id": "island-koufonisi-crete",
+  "category": "island",
+  "name": "Koufonisi",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Koufonisi (Crete)\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
+  "qualifier": "Crete",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Koufonisi (Crete)",
+  "lat": 34.937,
+  "lon": 26.139,
+  "oceans": [
+   "Atlantic"
+  ]
  }
 ]

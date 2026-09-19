@@ -110,7 +110,9 @@ const EXPECTED = {
     // the 2026-09-17 US no-figure re-run (reports/2026-09-17-europe-seas-deserts-cities.md)
     'Horn Island', 'Just Room Enough Island', 'Daniel Island', 'Daufuskie Island', 'Sea Island', 'Wizard Island', 'Sapelo Island', 'Topsail Island', 'Isle au Haut', 'Gasparilla Island', 'Tuckernuck Island', 'Harsens Island', 'Monomoy Island', 'Ship Island', 'Guemes Island', 'Peanut Island', 'Blennerhassett Island', 'Wellesley Island', 'Mustang Island', 'Heart Island', 'Elliott Key', 'Anastasia Island', 'Appledore Island', 'Stansbury Island', 'Wheeling Island',
     // the 2026-09-18 Mexico and Canada islands scouring (reports/2026-09-18-mx-ca-islands.md)
-    'Hans Island', 'Sable Island', 'Island of Montreal', 'Texada Island', 'Gabriola Island', 'Cortes Island', 'Cedros Island', 'Akimiski Island', 'Moresby Island', 'Prince Patrick Island', 'Coats Island', 'Bathurst Island', 'Herschel Island', 'Beechey Island', 'Nootka Island', 'Isla Angel de la Guarda', 'Isla Espiritu Santo'],
+    'Hans Island', 'Sable Island', 'Island of Montreal', 'Texada Island', 'Gabriola Island', 'Cortes Island', 'Cedros Island', 'Akimiski Island', 'Moresby Island', 'Prince Patrick Island', 'Coats Island', 'Bathurst Island', 'Herschel Island', 'Beechey Island', 'Nootka Island', 'Isla Angel de la Guarda', 'Isla Espiritu Santo',
+    // the 2026-09-18 Eastern Europe islands scouring (reports/2026-09-18-ee-islands.md)
+    'Kea', 'Kythnos', 'Astypalaia', 'Kasos', 'Tilos', 'Psara', 'Ugljan', 'Pasman', 'Ciovo', 'Murter', 'Margaret Island', 'Csepel Island', 'Zitny ostrov', 'Great Braila Island', 'Rusne Island'],
   sea_ocean: ['Pacific Ocean', 'Atlantic', 'Mediterranean', 'Red Sea', 'Black Sea', 'Caribbean Sea', 'Dead Sea', 'North Sea', 'Baltic Sea', 'Arabian Sea', 'Bering Sea', 'Coral Sea', 'Gulf of Mexico',
     // the 2026-09-15 expansion
     'Strait of Gibraltar', 'Bosphorus', 'Strait of Hormuz', 'Bering Strait', 'Puget Sound', 'San Francisco Bay', 'Tokyo Bay', 'Bohai Sea', 'Gulf of Suez',

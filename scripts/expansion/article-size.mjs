@@ -191,7 +191,7 @@ function articleSize(text, unit, sister = false) {
     if (!(field in params)) continue;
     let value = params[field];
     // a sister wiki writes 1.081 for one thousand and eighty-one and 50,21 for fifty and a bit
-    if (sister) value = value.replace(/(\d)\.(\d{3})\b/g, '$1$2');
+    if (sister) value = value.replace(/(\d)\.(\d{3})\b/g, '$1$2').replace(/(\d),(\d+)/g, '$1.$2'); // a comma is the decimal there, whatever follows it
     const a = amountOf(value, sister ? SISTER_UNIT[unit] : FIELD_UNIT[field]);
     if (!a) continue;
     const factor = TABLE[unit][a[1]];

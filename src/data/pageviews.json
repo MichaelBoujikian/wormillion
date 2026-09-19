@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T02:11:51.827Z",
+ "fetched": "2026-09-19T02:48:10.397Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -117526,6 +117526,1294 @@
    "days": 60,
    "lat": 60.77,
    "lon": -78.46
+  },
+  "island-our-lady-of-the-rocks": {
+   "title": "Our Lady of the Rocks",
+   "monthlyViews": 4383,
+   "days": 60,
+   "lat": 42.48666667,
+   "lon": 18.68888889
+  },
+  "island-agistri": {
+   "title": "Agistri",
+   "monthlyViews": 3470,
+   "days": 59,
+   "lat": 37.695,
+   "lon": 23.35
+  },
+  "island-antipaxos": {
+   "title": "Antipaxos",
+   "monthlyViews": 3318,
+   "days": 59,
+   "lat": 39.14927778,
+   "lon": 20.23166111
+  },
+  "island-vido": {
+   "title": "Vido",
+   "monthlyViews": 3318,
+   "days": 59,
+   "lat": 39.64166667,
+   "lon": 19.925
+  },
+  "island-kea": {
+   "title": "Kea (island)",
+   "monthlyViews": 3288,
+   "days": 59,
+   "lat": 37.62305556,
+   "lon": 24.33666667
+  },
+  "island-goli-otok": {
+   "title": "Goli Otok",
+   "monthlyViews": 3227,
+   "days": 59,
+   "lat": 44.83888889,
+   "lon": 14.81861111
+  },
+  "island-atokos": {
+   "title": "Atokos",
+   "monthlyViews": 3074,
+   "days": 59,
+   "lat": 38.488,
+   "lon": 20.812
+  },
+  "island-ammouliani": {
+   "title": "Ammouliani",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 40.33333333,
+   "lon": 23.92
+  },
+  "island-astypalaia": {
+   "title": "Astypalaia",
+   "monthlyViews": 2527,
+   "days": 59,
+   "lat": 36.55,
+   "lon": 26.35
+  },
+  "island-othonoi": {
+   "title": "Othonoi",
+   "monthlyViews": 2527,
+   "days": 59,
+   "lat": 39.85,
+   "lon": 19.4
+  },
+  "island-margaret-island": {
+   "title": "Margaret Island",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 47.5275,
+   "lon": 19.0475
+  },
+  "island-elafonisi": {
+   "title": "Elafonisi",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 35.27,
+   "lon": 23.532
+  },
+  "island-kythnos": {
+   "title": "Kythnos",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 37.38583333,
+   "lon": 24.42805556
+  },
+  "island-keros": {
+   "title": "Keros",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 36.89,
+   "lon": 25.65
+  },
+  "island-anafi": {
+   "title": "Anafi",
+   "monthlyViews": 1857,
+   "days": 59,
+   "lat": 36.37194444,
+   "lon": 25.79527778
+  },
+  "island-kasos": {
+   "title": "Kasos",
+   "monthlyViews": 1735,
+   "days": 59,
+   "lat": 35.3975,
+   "lon": 26.925
+  },
+  "island-meganisi": {
+   "title": "Meganisi",
+   "monthlyViews": 1735,
+   "days": 59,
+   "lat": 38.66666667,
+   "lon": 20.78333333
+  },
+  "island-kimolos": {
+   "title": "Kimolos",
+   "monthlyViews": 1674,
+   "days": 59,
+   "lat": 36.80861111,
+   "lon": 24.56305556
+  },
+  "island-nea-kameni": {
+   "title": "Nea Kameni",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 36.4,
+   "lon": 25.4
+  },
+  "island-dia": {
+   "title": "Dia (island)",
+   "monthlyViews": 1644,
+   "days": 59,
+   "lat": 35.448,
+   "lon": 25.22
+  },
+  "island-gyaros": {
+   "title": "Gyaros",
+   "monthlyViews": 1644,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "island-imia": {
+   "title": "Imia",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 37.05083333,
+   "lon": 27.15111111
+  },
+  "island-tilos": {
+   "title": "Tilos",
+   "monthlyViews": 1583,
+   "days": 59,
+   "lat": 36.43333333,
+   "lon": 27.36666667
+  },
+  "island-elafonisos": {
+   "title": "Elafonisos",
+   "monthlyViews": 1552,
+   "days": 59,
+   "lat": 36.4875,
+   "lon": 22.9625
+  },
+  "island-makronisos": {
+   "title": "Makronisos",
+   "monthlyViews": 1431,
+   "days": 59,
+   "lat": 37.70111111,
+   "lon": 24.12472222
+  },
+  "island-ada-ciganlija": {
+   "title": "Ada Ciganlija",
+   "monthlyViews": 1370,
+   "days": 59,
+   "lat": 44.78333333,
+   "lon": 20.4
+  },
+  "island-mamula": {
+   "title": "Mamula",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 42.39527778,
+   "lon": 18.55833333
+  },
+  "island-pontikonisi": {
+   "title": "Pontikonisi",
+   "monthlyViews": 1370,
+   "days": 59,
+   "lat": 39.58638889,
+   "lon": 19.91777778
+  },
+  "island-ada-bojana": {
+   "title": "Ada Bojana",
+   "monthlyViews": 1278,
+   "days": 59,
+   "lat": 41.8625,
+   "lon": 19.36111111
+  },
+  "island-halki": {
+   "title": "Halki (Greece)",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 36.23333333,
+   "lon": 27.56666667
+  },
+  "island-psara": {
+   "title": "Psara",
+   "monthlyViews": 1248,
+   "days": 59,
+   "lat": 38.55,
+   "lon": 25.56666667
+  },
+  "island-therasia": {
+   "title": "Therasia",
+   "monthlyViews": 1248,
+   "days": 59,
+   "lat": 36.43,
+   "lon": 25.33
+  },
+  "island-sipan": {
+   "title": "Šipan",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 42.7286,
+   "lon": 17.8758
+  },
+  "island-pserimos": {
+   "title": "Pserimos",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 36.93333333,
+   "lon": 27.13333333
+  },
+  "island-donousa": {
+   "title": "Donousa",
+   "monthlyViews": 913,
+   "days": 59,
+   "lat": 37.10833333,
+   "lon": 25.81388889
+  },
+  "island-schoinoussa": {
+   "title": "Schoinoussa",
+   "monthlyViews": 913,
+   "days": 59,
+   "lat": 36.86666667,
+   "lon": 25.51666667
+  },
+  "island-ugljan": {
+   "title": "Ugljan",
+   "monthlyViews": 883,
+   "days": 59,
+   "lat": 44.08333333,
+   "lon": 15.16666667
+  },
+  "island-kalamos": {
+   "title": "Kalamos (island)",
+   "monthlyViews": 852,
+   "days": 59,
+   "lat": 38.61666667,
+   "lon": 20.91666667
+  },
+  "island-agathonisi": {
+   "title": "Agathonisi",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 37.45833333,
+   "lon": 26.96666667
+  },
+  "island-despotiko": {
+   "title": "Despotiko",
+   "monthlyViews": 822,
+   "days": 59,
+   "lat": 36.96,
+   "lon": 25
+  },
+  "island-susak": {
+   "title": "Susak",
+   "monthlyViews": 822,
+   "days": 59,
+   "lat": 44.51666667,
+   "lon": 14.3
+  },
+  "island-ereikoussa": {
+   "title": "Ereikoussa",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": 39.88333333,
+   "lon": 19.58333333
+  },
+  "island-gyali": {
+   "title": "Gyali",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": 36.662,
+   "lon": 27.115
+  },
+  "island-iz": {
+   "title": "Iž",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 44.0336,
+   "lon": 15.1196
+  },
+  "island-kolocep": {
+   "title": "Koločep",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": 42.67638889,
+   "lon": 18.00666667
+  },
+  "island-olib": {
+   "title": "Olib",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": 44.36666667,
+   "lon": 14.76666667
+  },
+  "island-polyaigos": {
+   "title": "Polyaigos",
+   "monthlyViews": 731,
+   "days": 59,
+   "lat": 36.75138889,
+   "lon": 24.63638889
+  },
+  "island-ciovo": {
+   "title": "Čiovo",
+   "monthlyViews": 731,
+   "days": 59,
+   "lat": 43.5,
+   "lon": 16.28333333
+  },
+  "island-silba": {
+   "title": "Silba",
+   "monthlyViews": 700,
+   "days": 59,
+   "lat": 44.3747,
+   "lon": 14.6953
+  },
+  "island-chrysi": {
+   "title": "Chrysi (island)",
+   "monthlyViews": 670,
+   "days": 59,
+   "lat": 34.87,
+   "lon": 25.71
+  },
+  "island-irakleia": {
+   "title": "Irakleia (Cyclades)",
+   "monthlyViews": 670,
+   "days": 59,
+   "lat": 36.83333333,
+   "lon": 25.45
+  },
+  "island-rineia": {
+   "title": "Rineia",
+   "monthlyViews": 670,
+   "days": 59,
+   "lat": 37.409,
+   "lon": 25.229
+  },
+  "island-murter": {
+   "title": "Murter",
+   "monthlyViews": 639,
+   "days": 59,
+   "lat": 43.8,
+   "lon": 15.6
+  },
+  "island-tuzla-island": {
+   "title": "Tuzla Island",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-dokos": {
+   "title": "Dokos",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 37.33311389,
+   "lon": 23.32133889
+  },
+  "island-hajogyari-island": {
+   "title": "Hajógyári Island",
+   "monthlyViews": 609,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "island-trizonia": {
+   "title": "Trizonia island",
+   "monthlyViews": 609,
+   "days": 59,
+   "lat": 38.367,
+   "lon": 22.073
+  },
+  "island-zitny-ostrov": {
+   "title": "Žitný ostrov",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 47.95,
+   "lon": 17.65
+  },
+  "island-farmakonisi": {
+   "title": "Farmakonisi",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 37.29,
+   "lon": 27.085
+  },
+  "island-great-war-island": {
+   "title": "Great War Island",
+   "monthlyViews": 578,
+   "days": 59,
+   "lat": 44.831632,
+   "lon": 20.435798
+  },
+  "island-mochlos": {
+   "title": "Mochlos",
+   "monthlyViews": 578,
+   "days": 59,
+   "lat": 35.1875,
+   "lon": 25.9075
+  },
+  "island-vir": {
+   "title": "Vir (island)",
+   "monthlyViews": 578,
+   "days": 59,
+   "lat": 44.303428,
+   "lon": 15.085537
+  },
+  "island-csepel-island": {
+   "title": "Csepel Island",
+   "monthlyViews": 548,
+   "days": 59,
+   "lat": 47.25,
+   "lon": 18.95
+  },
+  "island-diaporos-island": {
+   "title": "Diaporos Island",
+   "monthlyViews": 548,
+   "days": 59,
+   "lat": 40.20888889,
+   "lon": 23.77611111
+  },
+  "island-mathraki": {
+   "title": "Mathraki",
+   "monthlyViews": 548,
+   "days": 59,
+   "lat": 39.76666667,
+   "lon": 19.51666667
+  },
+  "island-arkoi": {
+   "title": "Arkoi",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 37.38,
+   "lon": 26.74
+  },
+  "island-ro": {
+   "title": "Ro, Greece",
+   "monthlyViews": 517,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "island-spetsopoula": {
+   "title": "Spetsopoula",
+   "monthlyViews": 487,
+   "days": 59,
+   "lat": 37.22,
+   "lon": 23.17
+  },
+  "island-tsoungria": {
+   "title": "Tsoungria",
+   "monthlyViews": 487,
+   "days": 59,
+   "lat": 39.12,
+   "lon": 23.5
+  },
+  "island-bisevo": {
+   "title": "Biševo",
+   "monthlyViews": 457,
+   "days": 59,
+   "lat": 42.96666667,
+   "lon": 16
+  },
+  "island-kyra-panagia": {
+   "title": "Kyra Panagia",
+   "monthlyViews": 457,
+   "days": 59,
+   "lat": 39.33,
+   "lon": 24.07
+  },
+  "island-pasman": {
+   "title": "Pašman",
+   "monthlyViews": 457,
+   "days": 59,
+   "lat": 43.95,
+   "lon": 15.38333333
+  },
+  "island-sapientza": {
+   "title": "Sapientza",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 36.77175,
+   "lon": 21.70502778
+  },
+  "island-aestian-island": {
+   "title": "Aestian Island",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": 54.3331,
+   "lon": 19.3816
+  },
+  "island-kastos": {
+   "title": "Kastos",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": 38.56666667,
+   "lon": 20.91666667
+  },
+  "island-premuda": {
+   "title": "Premuda",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 44.33333333,
+   "lon": 14.6
+  },
+  "island-sphacteria": {
+   "title": "Sphacteria",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 36.93013611,
+   "lon": 21.665725
+  },
+  "island-aegna": {
+   "title": "Aegna",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 59.58055556,
+   "lon": 24.75777778
+  },
+  "island-kinaros": {
+   "title": "Kinaros",
+   "monthlyViews": 396,
+   "days": 59,
+   "lat": 36.98027778,
+   "lon": 26.28972222
+  },
+  "island-ostrow-tumski": {
+   "title": "Ostrów Tumski, Poznań",
+   "monthlyViews": 396,
+   "days": 59,
+   "lat": 52.41166667,
+   "lon": 16.94861111
+  },
+  "island-antimilos": {
+   "title": "Antimilos",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 36.78694444,
+   "lon": 24.23861111
+  },
+  "island-argyronisos": {
+   "title": "Argyronisos",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 39.00833333,
+   "lon": 23.07
+  },
+  "island-oxeia": {
+   "title": "Oxeia",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 38.302,
+   "lon": 21.109
+  },
+  "island-prvic-sibenik": {
+   "title": "Prvić",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 43.73,
+   "lon": 15.795
+  },
+  "island-souda": {
+   "title": "Souda (island)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 35.489,
+   "lon": 24.152
+  },
+  "island-sveti-grgur": {
+   "title": "Sveti Grgur",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 44.86805556,
+   "lon": 14.75916667
+  },
+  "island-veli-brijun": {
+   "title": "Veli Brijun",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 44.91527778,
+   "lon": 13.76527778
+  },
+  "island-alimia": {
+   "title": "Alimia",
+   "monthlyViews": 335,
+   "days": 59,
+   "lat": 36.26666667,
+   "lon": 27.7
+  },
+  "island-sarengrad-island": {
+   "title": "Island of Šarengrad",
+   "monthlyViews": 335,
+   "days": 59,
+   "lat": 45.258,
+   "lon": 19.245
+  },
+  "island-piirissaar": {
+   "title": "Piirissaar",
+   "monthlyViews": 335,
+   "days": 59,
+   "lat": 58.36666667,
+   "lon": 27.51666667
+  },
+  "island-saria-island": {
+   "title": "Saria Island",
+   "monthlyViews": 335,
+   "days": 59,
+   "lat": 35.87,
+   "lon": 27.22
+  },
+  "island-sobieszewo-island": {
+   "title": "Sobieszewo Island",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 54.33638889,
+   "lon": 18.87472222
+  },
+  "island-thymaina": {
+   "title": "Thymaina",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 37.58,
+   "lon": 26.44
+  },
+  "island-agios-georgios": {
+   "title": "Agios Georgios (island)",
+   "monthlyViews": 304,
+   "days": 59,
+   "lat": 37.47388889,
+   "lon": 23.92611111
+  },
+  "island-ilovik": {
+   "title": "Ilovik",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 44.45260278,
+   "lon": 14.54849167
+  },
+  "island-osmussaar": {
+   "title": "Osmussaar",
+   "monthlyViews": 304,
+   "days": 59,
+   "lat": 59.29166667,
+   "lon": 23.39166667
+  },
+  "island-patroklos": {
+   "title": "Patroklos (Attica)",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.65069444,
+   "lon": 23.95041667
+  },
+  "island-unije": {
+   "title": "Unije",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 44.63333333,
+   "lon": 14.25
+  },
+  "island-afentis-christos": {
+   "title": "Afentis Christos",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 35.2954,
+   "lon": 25.4609
+  },
+  "island-antipsara": {
+   "title": "Antipsara",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 38.542,
+   "lon": 25.512
+  },
+  "island-arkoudi": {
+   "title": "Arkoudi",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 38.55,
+   "lon": 20.707
+  },
+  "island-daskalio": {
+   "title": "Daskalio",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 36.887,
+   "lon": 25.604
+  },
+  "island-great-braila-island": {
+   "title": "Great Brăila Island",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 45.02166667,
+   "lon": 28.04916667
+  },
+  "island-ist": {
+   "title": "Ist (island)",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 44.26666667,
+   "lon": 14.76666667
+  },
+  "island-kornat": {
+   "title": "Kornat",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.80277778,
+   "lon": 15.33333333
+  },
+  "island-marathonisi": {
+   "title": "Marathonisi",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 37.68472222,
+   "lon": 20.87083333
+  },
+  "island-paleo-trikeri": {
+   "title": "Paleo Trikeri",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 39.16666667,
+   "lon": 23.08333333
+  },
+  "island-peristera": {
+   "title": "Peristera",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 39.18,
+   "lon": 23.97
+  },
+  "island-petalas": {
+   "title": "Petalas",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 38.414,
+   "lon": 21.092
+  },
+  "island-prangli": {
+   "title": "Prangli",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 59.62444444,
+   "lon": 25.02083333
+  },
+  "island-svetac": {
+   "title": "Svetac",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 43.02574029,
+   "lon": 15.74890173
+  },
+  "island-syrna": {
+   "title": "Syrna (island)",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 36.33883333,
+   "lon": 26.673
+  },
+  "island-zut": {
+   "title": "Žut",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 43.86666667,
+   "lon": 15.31666667
+  },
+  "island-gioura": {
+   "title": "Gioura",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 39.39,
+   "lon": 24.17
+  },
+  "island-kalydon": {
+   "title": "Kalydon (Elounda)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "island-sacalin-island": {
+   "title": "Sacalin Island",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 44.7875,
+   "lon": 29.54138889
+  },
+  "island-samiopoula": {
+   "title": "Samiopoula",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.628,
+   "lon": 26.794
+  },
+  "island-stvanice": {
+   "title": "Štvanice",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 50.09583333,
+   "lon": 14.43805556
+  },
+  "island-drvenik-veli": {
+   "title": "Drvenik Veli",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 43.444226,
+   "lon": 16.145439
+  },
+  "island-kaprije": {
+   "title": "Kaprije",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 43.697479,
+   "lon": 15.700407
+  },
+  "island-lazaretta": {
+   "title": "Lazaretta",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.51916667,
+   "lon": 23.99944444
+  },
+  "island-levitha": {
+   "title": "Levitha",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 37.01111111,
+   "lon": 26.45972222
+  },
+  "island-molat": {
+   "title": "Molat",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 44.231,
+   "lon": 14.841
+  },
+  "island-saliagos": {
+   "title": "Saliagos",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.048,
+   "lon": 25.094
+  },
+  "island-susac": {
+   "title": "Sušac",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 42.76666667,
+   "lon": 16.51666667
+  },
+  "island-vrgada": {
+   "title": "Vrgada",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 43.852231,
+   "lon": 15.50231
+  },
+  "island-scedro": {
+   "title": "Šćedro",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "island-anydros": {
+   "title": "Anydros",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 36.625,
+   "lon": 25.685
+  },
+  "island-falkonera": {
+   "title": "Falkonera",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.842,
+   "lon": 23.885
+  },
+  "island-kalolimnos": {
+   "title": "Kalolimnos",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 37.06111111,
+   "lon": 27.0875
+  },
+  "island-ostrow-lednicki": {
+   "title": "Ostrów Lednicki",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 52.52667,
+   "lon": 17.3778
+  },
+  "island-proti-island": {
+   "title": "Proti Island",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.05,
+   "lon": 21.55
+  },
+  "island-psathoura": {
+   "title": "Psathoura",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 39.498,
+   "lon": 24.181
+  },
+  "island-skantzoura": {
+   "title": "Skantzoura",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.08,
+   "lon": 24.11
+  },
+  "island-sveti-klement": {
+   "title": "Sveti Klement",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 43.16611111,
+   "lon": 16.375
+  },
+  "island-szigetkoz": {
+   "title": "Szigetköz",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 47.85,
+   "lon": 17.45
+  },
+  "island-vilsandi": {
+   "title": "Vilsandi",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 58.38333333,
+   "lon": 21.86666667
+  },
+  "island-kipsala": {
+   "title": "Ķīpsala",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 56.95611111,
+   "lon": 24.08111111
+  },
+  "island-abruka": {
+   "title": "Abruka",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 58.16388889,
+   "lon": 22.50388889
+  },
+  "island-armathia": {
+   "title": "Armathia",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.43666667,
+   "lon": 26.86361111
+  },
+  "island-belene-island": {
+   "title": "Belene Island",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 43.67,
+   "lon": 25.19
+  },
+  "island-gavdopoula": {
+   "title": "Gavdopoula",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "island-jakljan": {
+   "title": "Jakljan",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 42.74111111,
+   "lon": 17.81833333
+  },
+  "island-kassari": {
+   "title": "Kassari",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 58.8,
+   "lon": 22.83333333
+  },
+  "island-ostrow-island": {
+   "title": "Ostrów Island",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 54.371,
+   "lon": 18.654
+  },
+  "island-piperi": {
+   "title": "Piperi (island)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 39.348,
+   "lon": 24.324
+  },
+  "island-pondikonisi": {
+   "title": "Pondikonisi",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 35.586,
+   "lon": 23.477
+  },
+  "island-prvic-krk": {
+   "title": "Prvić (Krk)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 44.91055556,
+   "lon": 14.80138889
+  },
+  "island-pseira": {
+   "title": "Pseira",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 35.19027778,
+   "lon": 25.85972222
+  },
+  "island-rava": {
+   "title": "Rava (island)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 44.021941,
+   "lon": 15.066386
+  },
+  "island-schiza": {
+   "title": "Schiza",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.72722222,
+   "lon": 21.76888889
+  },
+  "island-strelecky-island": {
+   "title": "Střelecký Island",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 50.0811,
+   "lon": 14.4101
+  },
+  "island-vele-srakane": {
+   "title": "Vele Srakane",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 44.582245,
+   "lon": 14.309671
+  },
+  "island-veliki-skolj": {
+   "title": "Veliki Školj",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.90156,
+   "lon": 17.62209
+  },
+  "island-avgo": {
+   "title": "Avgo",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 35.603,
+   "lon": 25.577
+  },
+  "island-drvenik-mali": {
+   "title": "Drvenik Mali",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 43.4475,
+   "lon": 16.0825
+  },
+  "island-karsibor": {
+   "title": "Karsibór",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 53.846,
+   "lon": 14.33
+  },
+  "island-lesendro": {
+   "title": "Lesendro",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 42.2716,
+   "lon": 19.1197
+  },
+  "island-mali-skolj": {
+   "title": "Mali Školj",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 42.91149,
+   "lon": 17.59868
+  },
+  "island-nimos": {
+   "title": "Nimos",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.58333333,
+   "lon": 27.83333333
+  },
+  "island-plavnik": {
+   "title": "Plavnik",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.96722222,
+   "lon": 14.525
+  },
+  "island-rusanivka": {
+   "title": "Rusanivka",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 50.43916667,
+   "lon": 30.59777778
+  },
+  "island-rusne-island": {
+   "title": "Rusnė Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 55.3,
+   "lon": 21.37
+  },
+  "island-skyropoula": {
+   "title": "Skyropoula",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 38.84,
+   "lon": 24.36
+  },
+  "island-trukhaniv-island": {
+   "title": "Trukhaniv Island",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 50.46333333,
+   "lon": 30.545
+  },
+  "island-agia-kyriaki": {
+   "title": "Agia Kyriaki",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 36.54861111,
+   "lon": 26.40416667
+  },
+  "island-atalanti-island": {
+   "title": "Atalanti Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 38.675,
+   "lon": 23.096
+  },
+  "island-drakonera": {
+   "title": "Drakonera",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 38.48,
+   "lon": 21.019
+  },
+  "island-kardiotissa": {
+   "title": "Kardiotissa",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 36.63,
+   "lon": 25.02
+  },
+  "island-kavalliani": {
+   "title": "Kavalliani",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 38.223,
+   "lon": 24.103
+  },
+  "island-kune-island": {
+   "title": "Kunë Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 41.76305556,
+   "lon": 19.58166667
+  },
+  "island-lavdara": {
+   "title": "Lavdara",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 43.93638889,
+   "lon": 15.20833333
+  },
+  "island-lucavsala": {
+   "title": "Lucavsala",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 56.92416667,
+   "lon": 24.11833333
+  },
+  "island-mali-brijun": {
+   "title": "Mali Brijun",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 44.93222222,
+   "lon": 13.73444444
+  },
+  "island-manilaid": {
+   "title": "Manilaid",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 58.21361111,
+   "lon": 24.12111111
+  },
+  "island-ostriv-velykyi-potomkin": {
+   "title": "Ostriv Velykyi Potomkin",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 46.57786111,
+   "lon": 32.54011111
+  },
+  "island-panagia": {
+   "title": "Panagia (island)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 39.204,
+   "lon": 20.194
+  },
+  "island-serifopoula": {
+   "title": "Serifopoula",
+   "monthlyViews": 91,
+   "days": 57,
+   "lat": 37.256,
+   "lon": 24.6
+  },
+  "island-szentendre-island": {
+   "title": "Szentendre Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "island-tataru-mare-island": {
+   "title": "Tătaru Mare Island",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 45.395,
+   "lon": 29.205
+  },
+  "island-velopoula": {
+   "title": "Velopoula",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 36.91805556,
+   "lon": 23.46027778
+  },
+  "island-zeca": {
+   "title": "Zeča",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 44.77166667,
+   "lon": 14.3125
+  },
+  "island-skarda": {
+   "title": "Škarda",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 44.28333333,
+   "lon": 14.70472222
+  },
+  "island-koufonisi-crete": {
+   "title": "Koufonisi (Crete)",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 34.937,
+   "lon": 26.139
   },
   "sea_ocean-pacific-ocean": {
    "title": "Pacific Ocean",

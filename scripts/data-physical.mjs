@@ -12316,6 +12316,190 @@ Hope Island (Ontario)|0
 Snake Island (British Columbia)|0
 Alexander Island (Nunavut)|484
 Smith Island (Nunavut)|131
+Our Lady of the Rocks|0
+Agistri|11.73
+Antipaxos|5
+Vido|0.54
+Kea|132
+Goli Otok|4.54
+Atokos|4.7
+Ammouliani|4.5
+Astypalaia|96.42
+Othonoi|10.08
+Margaret Island|0.97
+Elafonisi|1.5
+Kythnos|100.2
+Keros|15
+Anafi|38.64
+Kasos|69.46
+Meganisi|20.1
+Kimolos|36
+Nea Kameni|3.4
+Dia|11.91
+Gyaros|23
+Imia|0.04
+Tilos|61.49
+Elafonisos|19.99
+Makronisos|20
+Ada Ciganlija|8
+Mamula|0.04
+Pontikonisi|0.01
+Ada Bojana|4.81
+Halki|28
+Psara|40.47
+Therasia|9.3
+Sipan|16.22
+Pserimos|14.52
+Donousa|13.75
+Schoinoussa|8.51
+Ugljan|50.2
+Kalamos|25
+Agathonisi|13.42
+Despotiko|7.75
+Susak|3.8
+Ereikoussa|4
+Gyali|4.56
+Iz|17.59
+Kolocep|2.44
+Olib|26.14
+Polyaigos|18.15
+Ciovo|28.8
+Silba|15
+Chrysi|4.74
+Irakleia|17.8
+Rineia|14
+Murter|18.7
+Tuzla Island|2.1
+Dokos|13.54
+Hajogyari Island|1.08
+Trizonia|2.24
+Zitny ostrov|1886
+Farmakonisi|3.87
+Great War Island|2.11
+Mochlos|0
+Vir|22.38
+Csepel Island|257
+Diaporos Island|4
+Mathraki|3
+Arkoi|6.7
+Ro|1.6
+Spetsopoula|2
+Tsoungria|1.17
+Bisevo|5.8
+Kyra Panagia|24.76
+Pasman|60.11
+Sapientza|9
+Aestian Island|1.8
+Kastos|5.9
+Premuda|9.2
+Sphacteria|3.2
+Aegna|3.01
+Kinaros|4.58
+Ostrow Tumski|0
+Antimilos|8
+Argyronisos|0.36
+Oxeia|4.22
+Prvic (Sibenik)|2.37
+Souda|0
+Sveti Grgur|6.37
+Veli Brijun|5.72
+Alimia|6.5
+Sarengrad Island|6.7
+Piirissaar|7.5
+Saria Island|20.43
+Sobieszewo Island|35.79
+Thymaina|10
+Agios Georgios|4.3
+Ilovik|6.7
+Osmussaar|4.8
+Patroklos|2.8
+Unije|16.88
+Afentis Christos|0
+Antipsara|4.5
+Arkoudi|4.28
+Daskalio|0
+Great Braila Island|710
+Ist|9.65
+Kornat|32.44
+Marathonisi|0
+Paleo Trikeri|2.5
+Peristera|14.2
+Petalas|5.5
+Prangli|6.44
+Svetac|4.19
+Syrna|7.87
+Zut|14.83
+Gioura|11.05
+Kalydon|0
+Sacalin Island|214.1
+Samiopoula|1.02
+Stvanice|0
+Drvenik Veli|12.07
+Kaprije|7.12
+Lazaretta|0
+Levitha|9.12
+Molat|22.82
+Saliagos|0
+Susac|4.03
+Vrgada|3.7
+Scedro|8.37
+Anydros|1.2
+Falkonera|1.15
+Kalolimnos|1.95
+Ostrow Lednicki|0
+Proti Island|3.11
+Psathoura|0.76
+Skantzoura|6
+Sveti Klement|5.28
+Szigetkoz|375
+Vilsandi|9.4
+Kipsala|1.98
+Abruka|10.1
+Armathia|2.57
+Belene Island|68.97
+Gavdopoula|2
+Jakljan|3.4
+Kassari|19.3
+Ostrow Island|0
+Piperi|4.17
+Pondikonisi|2.5
+Prvic (Krk)|12.76
+Pseira|1.52
+Rava|3.63
+Schiza|12.3
+Strelecky Island|0
+Vele Srakane|1.15
+Veliki Skolj|76
+Avgo|0
+Drvenik Mali|3.43
+Karsibor|14
+Lesendro|0
+Mali Skolj|0
+Nimos|4.65
+Plavnik|8.64
+Rusanivka|0
+Rusne Island|45
+Skyropoula|3.8
+Trukhaniv Island|4.5
+Agia Kyriaki|0.25
+Atalanti Island|1.6
+Drakonera|2.44
+Kardiotissa|1.43
+Kavalliani|2
+Kune Island|1.4
+Lavdara|2.27
+Lucavsala|1.5
+Mali Brijun|1.07
+Manilaid|1.87
+Ostriv Velykyi Potomkin|25
+Panagia|0
+Serifopoula|1.37
+Szentendre Island|56
+Tataru Mare Island|25
+Velopoula|1.86
+Zeca|2.55
+Skarda|3.78
+Koufonisi (Crete)|0
 `;
 
 export const SEAS_OCEANS = `
