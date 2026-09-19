@@ -25,7 +25,10 @@ const NO_FIGURE = process.argv.includes('--no-figure');
 const minViewsArg = process.argv.find((a) => a.startsWith('--min-views='));
 const MIN_VIEWS = minViewsArg ? Number(minViewsArg.slice(12)) : 0; // skip items under a views floor (mountains: no size floor exists)
 const sisterArg = process.argv.find((a) => a.startsWith('--sister='));
-const SISTER = sisterArg ? sisterArg.slice(9) : null; // a sister wiki's language code
+// a sister wiki's language code, or several in the order to try them ("ro,pl,uk"):
+// each row still unsized after enwiki and Wikidata is looked up on each in turn
+const SISTERS = sisterArg ? sisterArg.slice(9).split(',').map((s) => s.trim()).filter(Boolean) : [];
+let SISTER = SISTERS[0] || null;
 const probe = JSON.parse(await readFile(src, 'utf8'));
 const name = src.replace(/\\/g, '/').split('/').pop().replace(/\.json$/, '');
 const cfg = JSON.parse(await readFile(fileURLToPath(new URL(`./probes/${name}.json`, import.meta.url)), 'utf8'));
@@ -297,8 +300,10 @@ for (const r of wanted) {
 }
 let sisterFound = 0;
 const sisterRows = [];
-if (SISTER) {
+for (const lang of SISTERS) {
+  SISTER = lang;
   const unsized = wanted.filter((r) => out[r.finalTitle].chosen == null);
+  if (!unsized.length) break;
   const titles = await sisterTitles(unsized.map((r) => r.qid));
   const have = unsized.filter((r) => titles.get(r.qid));
   console.log(`\n${SISTER}wiki: ${have.length} of the ${unsized.length} unsized have an article there`);
@@ -312,6 +317,7 @@ if (SISTER) {
     sisterRows.push([r.finalTitle, out[r.finalTitle].how]);
   }
 }
+SISTER = SISTERS.join('+') || null;
 await writeFile(`${S}/${name}-sizes.json`, JSON.stringify(out, null, 1));
 console.log(`agree ${agree} · disagree ${disagree} · article only ${articleOnly} · wikidata only ${wikidataOnly}${SISTER ? ` · ${SISTER}wiki ${sisterFound}` : ''} · neither ${neither}`);
 if (SISTER) {

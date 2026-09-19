@@ -58,7 +58,9 @@ const EXPECTED = {
     // the 2026-09-18 Mexico rivers scouring (reports/2026-09-18-mx-rivers.md)
     'Aguanaval', 'Soto La Marina', 'Tecolutla', 'San Pedro Mezquital', 'Tula', 'Tuxpan', 'Tonala', 'Nautla', 'Bavispe', 'Sonoyta', 'Tamesi',
     // the 2026-09-18 Canada rivers scouring (reports/2026-09-18-ca-rivers.md)
-    'Kicking Horse', 'Battle', 'Finlay', 'Spanish', 'Saugeen', 'French', 'Manicouagan', 'Yellowknife', 'Moisie', 'Romaine', 'Peribonka', 'Thlewiaza', 'Wabasca', 'Speed', 'Highwood', 'Pitt'],
+    'Kicking Horse', 'Battle', 'Finlay', 'Spanish', 'Saugeen', 'French', 'Manicouagan', 'Yellowknife', 'Moisie', 'Romaine', 'Peribonka', 'Thlewiaza', 'Wabasca', 'Speed', 'Highwood', 'Pitt',
+    // the 2026-09-18 Eastern Europe rivers scouring (reports/2026-09-18-ee-rivers.md)
+    'Moldova River', 'Emajogi', 'Crisul Repede', 'Mius', 'Wda', 'Drawa', 'Jijia', 'Oril', 'Vovcha', 'Khorol', 'Udai', 'Ubort', 'Western Berezina', 'Prahova', 'Parnu', 'Salaca', 'Musa'],
   mountain: ['Everest', 'K2', 'Kilimanjaro', 'Matterhorn', 'Mount Fuji', 'Denali', 'Ben Nevis', 'Mont Blanc', 'Uluru', 'Aconcagua', 'Mount Rainier', 'Vesuvius', 'Etna',
     // the 2026-09-14 expansion
     'Mount Rushmore', 'Devils Tower', 'Kilauea', 'Mount Adams', 'Fitz Roy', 'Torres del Paine', 'Cradle Mountain', 'Mount Aspiring', 'Popocatepetl', 'Arenal', 'Monch', 'Nanda Devi', 'Rakaposhi', 'Sakurajima', 'Mount Kailash', 'Tryfan', 'Croagh Patrick', 'Nyiragongo', 'Hekla', 'Eyjafjallajokull', 'Mount Meru',

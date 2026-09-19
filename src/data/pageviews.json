@@ -1,8 +1,8 @@
 {
- "window": "60 days ending 2026-09-18",
+ "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-18T22:36:38.384Z",
+ "fetched": "2026-09-19T00:57:18.632Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -45420,7 +45420,7 @@
    "lat": 41.941745,
    "lon": 12.50181
   },
-  "river-nera": {
+  "river-nera-italy": {
    "title": "Nera (Tiber)",
    "monthlyViews": 213,
    "days": 60,
@@ -46743,7 +46743,7 @@
    "lat": 48.97277778,
    "lon": 14.47
   },
-  "river-blanice": {
+  "river-blanice-south-bohemia": {
    "title": "Blanice (Otava)",
    "monthlyViews": 30,
    "days": 53,
@@ -46988,7 +46988,7 @@
    "lat": 45.41361111,
    "lon": 27.74138889
   },
-  "river-bistrita": {
+  "river-bistrita-moldavia": {
    "title": "Bistrița (Siret)",
    "monthlyViews": 183,
    "days": 59,
@@ -47037,7 +47037,7 @@
    "lat": 45.6475,
    "lon": 24.29138889
   },
-  "river-cerna": {
+  "river-cerna-mehedinti": {
    "title": "Cerna (Danube)",
    "monthlyViews": 183,
    "days": 60,
@@ -47380,7 +47380,7 @@
    "lat": 44.2461,
    "lon": 21.1731
   },
-  "river-jadar": {
+  "river-jadar-serbia": {
    "title": "Jadar (Drina)",
    "monthlyViews": 61,
    "days": 60,
@@ -47660,7 +47660,7 @@
    "lat": null,
    "lon": null
   },
-  "river-pineios": {
+  "river-pineios-peloponnese": {
    "title": "Pineios (Peloponnese)",
    "monthlyViews": 122,
    "days": 60,
@@ -48710,7 +48710,7 @@
    "lat": 52.146,
    "lon": 28.8645
   },
-  "river-svislach": {
+  "river-svislach-minsk": {
    "title": "Svislach (Berezina)",
    "monthlyViews": 365,
    "days": 60,
@@ -48766,14 +48766,14 @@
    "lat": 52.1076,
    "lon": 26.5829
   },
-  "river-sluch": {
+  "river-sluch-ukraine": {
    "title": "Sluch (Ukraine)",
    "monthlyViews": 122,
    "days": 59,
    "lat": 51.6376,
    "lon": 26.6457
   },
-  "river-uzh": {
+  "river-uzh-zhytomyr": {
    "title": "Uzh (Pripyat)",
    "monthlyViews": 61,
    "days": 60,
@@ -72908,6 +72908,2792 @@
    "days": 60,
    "lat": 54.08638889,
    "lon": -122.50777778
+  },
+  "river-moldova-river": {
+   "title": "Moldova (river)",
+   "monthlyViews": 487,
+   "days": 59,
+   "lat": 46.90305556,
+   "lon": 26.96916667
+  },
+  "river-emajogi": {
+   "title": "Emajõgi",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": 58.4393,
+   "lon": 27.2454
+  },
+  "river-wel": {
+   "title": "Wel",
+   "monthlyViews": 426,
+   "days": 59,
+   "lat": 53.4577,
+   "lon": 19.6065
+  },
+  "river-cephissus": {
+   "title": "Cephissus (Boeotia)",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 38.43222222,
+   "lon": 23.24527778
+  },
+  "river-uvac": {
+   "title": "Uvac",
+   "monthlyViews": 396,
+   "days": 59,
+   "lat": 43.34944444,
+   "lon": 19.97027778
+  },
+  "river-bosut": {
+   "title": "Bosut",
+   "monthlyViews": 304,
+   "days": 59,
+   "lat": 44.9411,
+   "lon": 19.3706
+  },
+  "river-crisul-repede": {
+   "title": "Crișul Repede",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 46.92027778,
+   "lon": 20.9775
+  },
+  "river-kalchyk": {
+   "title": "Kalchyk (river)",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 47.1179,
+   "lon": 37.6105
+  },
+  "river-raul-doamnei": {
+   "title": "Râul Doamnei",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 44.8625,
+   "lon": 24.8863
+  },
+  "river-ishem": {
+   "title": "Ishëm (river)",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 41.57777778,
+   "lon": 19.5575
+  },
+  "river-mius": {
+   "title": "Mius",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 47.2771,
+   "lon": 38.8093
+  },
+  "river-nogat": {
+   "title": "Nogat",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 54.27722222,
+   "lon": 19.26055556
+  },
+  "river-somesul-mic": {
+   "title": "Someșul Mic",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 47.14472222,
+   "lon": 23.91333333
+  },
+  "river-angrapa": {
+   "title": "Angrapa",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 54.6479,
+   "lon": 21.7913
+  },
+  "river-jerma": {
+   "title": "Jerma (river)",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 43.06666667,
+   "lon": 22.68527778
+  },
+  "river-jagala": {
+   "title": "Jägala (river)",
+   "monthlyViews": 183,
+   "days": 59,
+   "lat": 59.4807,
+   "lon": 25.1451
+  },
+  "river-rzav": {
+   "title": "Rzav (Drina)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 43.7879,
+   "lon": 19.2945
+  },
+  "river-kazennyi-torets": {
+   "title": "Kazennyi Torets",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-lepenac": {
+   "title": "Lepenac",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 42.0128,
+   "lon": 21.3831
+  },
+  "river-poltva": {
+   "title": "Poltva",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 49.9603,
+   "lon": 24.6077
+  },
+  "river-prahova": {
+   "title": "Prahova (river)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 44.71527778,
+   "lon": 26.47055556
+  },
+  "river-salaca": {
+   "title": "Salaca",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-sitnica": {
+   "title": "Sitnica (Ibar)",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 42.9008,
+   "lon": 20.873
+  },
+  "river-veleka": {
+   "title": "Veleka River",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 42.0694,
+   "lon": 27.9683
+  },
+  "river-wda": {
+   "title": "Wda",
+   "monthlyViews": 152,
+   "days": 59,
+   "lat": 53.4117,
+   "lon": 18.4792
+  },
+  "river-crisul-negru": {
+   "title": "Crișul Negru",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 46.70027778,
+   "lon": 21.26916667
+  },
+  "river-drawa": {
+   "title": "Drawa",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 52.8577,
+   "lon": 15.9904
+  },
+  "river-enipeas": {
+   "title": "Enipeas (Thessaly)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 39.5725,
+   "lon": 22.08888889
+  },
+  "river-kharkiv": {
+   "title": "Kharkiv (river)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 49.9853,
+   "lon": 36.2239
+  },
+  "river-krivaja-bosnia": {
+   "title": "Krivaja (Bosna)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 44.4444,
+   "lon": 18.15476
+  },
+  "river-peja-bistrica": {
+   "title": "Peja Bistrica",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 42.5815,
+   "lon": 20.5684
+  },
+  "river-milcov": {
+   "title": "Milcov (Siret)",
+   "monthlyViews": 122,
+   "days": 58,
+   "lat": 45.6626,
+   "lon": 27.3052
+  },
+  "river-parnu": {
+   "title": "Pärnu (river)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 58.37722222,
+   "lon": 24.47611111
+  },
+  "river-pcinja": {
+   "title": "Pčinja (river)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 41.819,
+   "lon": 21.6722
+  },
+  "river-rezovo": {
+   "title": "Rezovo (river)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 41.98305556,
+   "lon": 28.02944444
+  },
+  "river-skawa": {
+   "title": "Skawa",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 50.03111111,
+   "lon": 19.45333333
+  },
+  "river-somesul-mare": {
+   "title": "Someșul Mare",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 47.14472222,
+   "lon": 23.91333333
+  },
+  "river-toplica": {
+   "title": "Toplica (South Morava)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 43.2143,
+   "lon": 21.8383
+  },
+  "river-tarnava-mare": {
+   "title": "Târnava Mare",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 46.17111111,
+   "lon": 23.89194444
+  },
+  "river-vovcha": {
+   "title": "Vovcha",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 48.63666667,
+   "lon": 35.69138889
+  },
+  "river-vuka": {
+   "title": "Vuka (river)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 45.3525,
+   "lon": 19.0052
+  },
+  "river-detinja": {
+   "title": "Đetinja",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 43.8472,
+   "lon": 20.0731
+  },
+  "river-sleza": {
+   "title": "Ślęza",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 51.1593,
+   "lon": 16.9505
+  },
+  "river-angitis": {
+   "title": "Angitis",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 40.9021,
+   "lon": 23.8105
+  },
+  "river-bakhmutka": {
+   "title": "Bakhmutka",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-morava-e-binces": {
+   "title": "Morava e Binçës",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 42.4459,
+   "lon": 21.7702
+  },
+  "river-karas": {
+   "title": "Karaš",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 44.83083333,
+   "lon": 21.31694444
+  },
+  "river-colentina": {
+   "title": "Colentina (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 44.39888889,
+   "lon": 26.28777778
+  },
+  "river-crasna": {
+   "title": "Crasna (Tisza)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 48.13777778,
+   "lon": 22.31888889
+  },
+  "river-crisul-alb": {
+   "title": "Crișul Alb",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 46.70027778,
+   "lon": 21.26916667
+  },
+  "river-drinjaca": {
+   "title": "Drinjača",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 44.2867,
+   "lon": 19.1589
+  },
+  "river-jablanica": {
+   "title": "Jablanica (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 43.12601,
+   "lon": 21.93084
+  },
+  "river-jijia": {
+   "title": "Jijia",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 46.90333333,
+   "lon": 28.08277778
+  },
+  "river-jura": {
+   "title": "Jūra",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 55.0485,
+   "lon": 22.1343
+  },
+  "river-kinska": {
+   "title": "Kinska (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-krutynia": {
+   "title": "Krutynia",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 53.7348,
+   "lon": 21.5512
+  },
+  "river-kryvyi-torets": {
+   "title": "Kryvyi Torets",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-llapi": {
+   "title": "Llapi River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 42.7553,
+   "lon": 21.0172
+  },
+  "river-lom": {
+   "title": "Lom (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-luhan": {
+   "title": "Luhan (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 48.62777778,
+   "lon": 39.46972222
+  },
+  "river-neajlov": {
+   "title": "Neajlov",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 44.18722222,
+   "lon": 26.20611111
+  },
+  "river-nemunelis": {
+   "title": "Nemunėlis",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 56.4025,
+   "lon": 24.15694444
+  },
+  "river-ner": {
+   "title": "Ner",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 52.1413,
+   "lon": 18.6888
+  },
+  "river-pirita": {
+   "title": "Pirita (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 59.46451944,
+   "lon": 24.83506667
+  },
+  "river-raska": {
+   "title": "Raška (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 43.2866,
+   "lon": 20.6195
+  },
+  "river-saksahan": {
+   "title": "Saksahan",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 47.5351,
+   "lon": 33.1959
+  },
+  "river-somesul-cald": {
+   "title": "Someșul Cald",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 46.739,
+   "lon": 23.362
+  },
+  "river-strei": {
+   "title": "Strei",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 45.8514,
+   "lon": 23.0507
+  },
+  "river-streva": {
+   "title": "Strėva",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 54.801909,
+   "lon": 24.244355
+  },
+  "river-syniukha": {
+   "title": "Syniukha",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 48.0423,
+   "lon": 30.8491
+  },
+  "river-tamnava": {
+   "title": "Tamnava",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 44.5789,
+   "lon": 20.2091
+  },
+  "river-tepla": {
+   "title": "Teplá (river)",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 50.23416667,
+   "lon": 12.87
+  },
+  "river-titarisios": {
+   "title": "Titarisios",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 39.79277778,
+   "lon": 22.38583333
+  },
+  "river-unac": {
+   "title": "Unac (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 44.495,
+   "lon": 16.13555556
+  },
+  "river-vlasina": {
+   "title": "Vlasina (river)",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 42.9984,
+   "lon": 22.0288
+  },
+  "river-vrbanja": {
+   "title": "Vrbanja (river)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 44.77888889,
+   "lon": 17.22
+  },
+  "river-vohandu": {
+   "title": "Võhandu",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-zeimena": {
+   "title": "Žeimena",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 54.9,
+   "lon": 25.63333333
+  },
+  "river-geru": {
+   "title": "Geru (river)",
+   "monthlyViews": 72,
+   "days": 53,
+   "lat": 45.4484,
+   "lon": 27.7514
+  },
+  "river-aranca": {
+   "title": "Aranca",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.8122,
+   "lon": 20.1482
+  },
+  "river-babuna": {
+   "title": "Babuna (river)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 41.64972222,
+   "lon": 21.73886111
+  },
+  "river-bednja": {
+   "title": "Bednja (river)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 46.3033,
+   "lon": 16.7564
+  },
+  "river-beli-lom": {
+   "title": "Beli Lom (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-barsa": {
+   "title": "Bârsa (Olt)",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 45.8079,
+   "lon": 25.6248
+  },
+  "river-barzava": {
+   "title": "Bârzava (Timiș)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.29972222,
+   "lon": 20.64611111
+  },
+  "river-chepelare": {
+   "title": "Chepelare (river)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-crni-timok": {
+   "title": "Crni Timok",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.92,
+   "lon": 22.29777778
+  },
+  "river-dospat": {
+   "title": "Dospat (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 41.39027778,
+   "lon": 24.0875
+  },
+  "river-dubna": {
+   "title": "Dubna (Daugava)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 56.3625,
+   "lon": 26.1619
+  },
+  "river-dysna": {
+   "title": "Dysna",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 55.565,
+   "lon": 28.2283
+  },
+  "river-erythropotamos": {
+   "title": "Erythropotamos",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 41.32805556,
+   "lon": 26.50916667
+  },
+  "river-fan": {
+   "title": "Fan (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 41.70583333,
+   "lon": 19.77027778
+  },
+  "river-gilort": {
+   "title": "Gilort",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 44.60111111,
+   "lon": 23.45416667
+  },
+  "river-golijska-moravica": {
+   "title": "Golijska Moravica",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 43.8472,
+   "lon": 20.0732
+  },
+  "river-gwda": {
+   "title": "Gwda",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.0551,
+   "lon": 16.726
+  },
+  "river-hnyla-lypa": {
+   "title": "Hnyla Lypa",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 49.12055556,
+   "lon": 24.75444444
+  },
+  "river-hnylyi-tikych": {
+   "title": "Hnylyi Tikych",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.78083333,
+   "lon": 30.88305556
+  },
+  "river-hartibaciu": {
+   "title": "Hârtibaciu",
+   "monthlyViews": 61,
+   "days": 54,
+   "lat": 45.7338,
+   "lon": 24.2379
+  },
+  "river-ialpug": {
+   "title": "Ialpug",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 45.67694444,
+   "lon": 28.59194444
+  },
+  "river-ilova": {
+   "title": "Ilova (Sava)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.3489,
+   "lon": 16.7726
+  },
+  "river-ina": {
+   "title": "Ina (river)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 53.5342,
+   "lon": 14.6356
+  },
+  "river-iza": {
+   "title": "Iza (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 47.93444444,
+   "lon": 23.85305556
+  },
+  "river-jegricka": {
+   "title": "Jegrička",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 45.3882,
+   "lon": 20.2015
+  },
+  "river-kaczawa": {
+   "title": "Kaczawa",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 51.2974,
+   "lon": 16.4202
+  },
+  "river-kamienna": {
+   "title": "Kamienna (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 51.0806,
+   "lon": 21.7919
+  },
+  "river-karasica-slavonia": {
+   "title": "Karašica (Drava)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.6011,
+   "lon": 18.5893
+  },
+  "river-krivaja-vojvodina": {
+   "title": "Krivaja (Great Bačka Canal)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.5451,
+   "lon": 19.8494
+  },
+  "river-lopan": {
+   "title": "Lopan",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 49.937,
+   "lon": 36.2032
+  },
+  "river-lotru": {
+   "title": "Lotru",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.33611111,
+   "lon": 24.27527778
+  },
+  "river-lapus": {
+   "title": "Lăpuș (river)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 47.65611111,
+   "lon": 23.40138889
+  },
+  "river-maza-jugla": {
+   "title": "Mazā Jugla",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 56.96944444,
+   "lon": 24.32333333
+  },
+  "river-mokri-yaly": {
+   "title": "Mokri Yaly",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 48.065,
+   "lon": 36.73861111
+  },
+  "river-musa": {
+   "title": "Mūša",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 56.40277778,
+   "lon": 24.15944444
+  },
+  "river-niraj": {
+   "title": "Niraj",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 46.481,
+   "lon": 24.427
+  },
+  "river-oril": {
+   "title": "Oril",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.52083333,
+   "lon": 34.87972222
+  },
+  "river-oster": {
+   "title": "Oster (river)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 50.936,
+   "lon": 30.8478
+  },
+  "river-pededze": {
+   "title": "Pededze",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 56.9372,
+   "lon": 26.8991
+  },
+  "river-pronia": {
+   "title": "Pronia",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 53.44361111,
+   "lon": 31.0125
+  },
+  "river-rasina": {
+   "title": "Rasina (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.61972222,
+   "lon": 21.35777778
+  },
+  "river-rositsa": {
+   "title": "Rositsa (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-veliki-rzav": {
+   "title": "Rzav (Golijska Moravica)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 43.7694,
+   "lon": 20.101
+  },
+  "river-ramnicul-sarat": {
+   "title": "Râmnicul Sărat",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 45.525,
+   "lon": 27.52222222
+  },
+  "river-shushica": {
+   "title": "Shushica (river)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-smotrych": {
+   "title": "Smotrych (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-snov": {
+   "title": "Snov",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 51.53,
+   "lon": 31.53111111
+  },
+  "river-stokhid": {
+   "title": "Stokhid",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 51.8575,
+   "lon": 25.63416667
+  },
+  "river-stryama": {
+   "title": "Stryama",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-strypa": {
+   "title": "Strypa",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.8679,
+   "lon": 25.4256
+  },
+  "river-stuhna": {
+   "title": "Stuhna",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 50.15833333,
+   "lon": 30.74027778
+  },
+  "river-sturba": {
+   "title": "Sturba (Livanjsko Polje)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.774256,
+   "lon": 17.023319
+  },
+  "river-sarviz": {
+   "title": "Sárvíz (Sió)",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 46.387,
+   "lon": 18.6686
+  },
+  "river-teleajen": {
+   "title": "Teleajen",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 44.81194444,
+   "lon": 26.2175
+  },
+  "river-tiasmyn": {
+   "title": "Tiasmyn",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 49.06527778,
+   "lon": 32.80361111
+  },
+  "river-tur": {
+   "title": "Tur (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.0919,
+   "lon": 22.676
+  },
+  "river-tarnava-mica": {
+   "title": "Târnava Mică",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 46.17111111,
+   "lon": 23.89194444
+  },
+  "river-udy": {
+   "title": "Udy (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 49.7983,
+   "lon": 36.6119
+  },
+  "river-ukrina": {
+   "title": "Ukrina",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.0889,
+   "lon": 17.9359
+  },
+  "river-usora": {
+   "title": "Usora (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 44.705335,
+   "lon": 18.068977
+  },
+  "river-vacha": {
+   "title": "Vacha (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-vedea": {
+   "title": "Vedea",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 43.65361111,
+   "lon": 25.52638889
+  },
+  "river-vovcha-kharkiv": {
+   "title": "Vovcha (Donets)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 50.28638889,
+   "lon": 36.855
+  },
+  "river-wiar": {
+   "title": "Wiar",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 49.79222222,
+   "lon": 22.82555556
+  },
+  "river-widawa": {
+   "title": "Widawa",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 51.199,
+   "lon": 16.9187
+  },
+  "river-wieprza": {
+   "title": "Wieprza",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 54.44027778,
+   "lon": 16.37722222
+  },
+  "river-zalomka": {
+   "title": "Zalomka",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 43.182488,
+   "lon": 18.125078
+  },
+  "river-zherebets": {
+   "title": "Zherebets (river)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 48.9395,
+   "lon": 38.0927
+  },
+  "river-zolota-lypa": {
+   "title": "Zolota Lypa",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 48.9798,
+   "lon": 25.0719
+  },
+  "river-uhlava": {
+   "title": "Úhlava",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 49.72055556,
+   "lon": 13.38861111
+  },
+  "river-swider": {
+   "title": "Świder",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 52.09972222,
+   "lon": 21.21472222
+  },
+  "river-ula": {
+   "title": "Ūla",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 54.16388889,
+   "lon": 24.33638889
+  },
+  "river-calmatui-braila": {
+   "title": "Călmățui (Brăila)",
+   "monthlyViews": 33,
+   "days": 53,
+   "lat": 44.83111111,
+   "lon": 27.82722222
+  },
+  "river-ahja": {
+   "title": "Ahja (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 58.385,
+   "lon": 27.1575
+  },
+  "river-almas": {
+   "title": "Almaș (Someș)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.2447,
+   "lon": 23.3092
+  },
+  "river-amaradia": {
+   "title": "Amaradia (Dolj)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 44.36222222,
+   "lon": 23.71138889
+  },
+  "river-amata": {
+   "title": "Amata (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 57.3,
+   "lon": 25.13333333
+  },
+  "river-ampoi": {
+   "title": "Ampoi",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.054,
+   "lon": 23.597
+  },
+  "river-motru": {
+   "title": "Motru (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 44.55583333,
+   "lon": 23.45083333
+  },
+  "river-baboia": {
+   "title": "Baboia",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": 43.949,
+   "lon": 23.6
+  },
+  "river-barta": {
+   "title": "Bārta",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 56.41638889,
+   "lon": 21.05111111
+  },
+  "river-bazavluk": {
+   "title": "Bazavluk",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.58472222,
+   "lon": 34.07861111
+  },
+  "river-baseu": {
+   "title": "Bașeu",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 47.7878,
+   "lon": 27.2483
+  },
+  "river-belica": {
+   "title": "Belica (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 44.0528,
+   "lon": 21.2418
+  },
+  "river-berheci": {
+   "title": "Berheci",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 45.9802,
+   "lon": 27.4589
+  },
+  "river-besed": {
+   "title": "Besed",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.6251,
+   "lon": 31.1399
+  },
+  "river-biala": {
+   "title": "Biała (Dunajec)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.036292,
+   "lon": 20.913289
+  },
+  "river-biala-przemsza": {
+   "title": "Biała Przemsza",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 50.229437,
+   "lon": 19.157757
+  },
+  "river-kerka": {
+   "title": "Kerka",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.47694444,
+   "lon": 16.59472222
+  },
+  "river-bilozerka": {
+   "title": "Bilozerka (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 47.4275,
+   "lon": 34.4148
+  },
+  "river-bistra": {
+   "title": "Bistra (Timiș)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 45.4799,
+   "lon": 22.1847
+  },
+  "river-bistricioara": {
+   "title": "Bistricioara (Siret)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.06,
+   "lon": 25.938
+  },
+  "river-bid": {
+   "title": "Biđ",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.1937,
+   "lon": 18.6892
+  },
+  "river-bodva": {
+   "title": "Bodva",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.2084,
+   "lon": 20.7746
+  },
+  "river-borzhava": {
+   "title": "Borzhava",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 48.1107,
+   "lon": 22.7064
+  },
+  "river-botna": {
+   "title": "Botna",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 46.77696,
+   "lon": 29.56051
+  },
+  "river-brahinka": {
+   "title": "Brahinka",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 51.2138,
+   "lon": 30.4087
+  },
+  "river-byala-reka": {
+   "title": "Byala Reka (Luda Reka tributary)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-byk": {
+   "title": "Byk (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 48.45222222,
+   "lon": 36.38444444
+  },
+  "river-bystrytsia-nadvirnianska": {
+   "title": "Bystrytsia Nadvirnianska",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.9608,
+   "lon": 24.7402
+  },
+  "river-basca": {
+   "title": "Bâsca",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 45.43916667,
+   "lon": 26.31222222
+  },
+  "river-berze": {
+   "title": "Bērze",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 56.6797,
+   "lon": 23.6128
+  },
+  "river-caraula": {
+   "title": "Caraula (river)",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 47.9205,
+   "lon": 25.6072
+  },
+  "river-chepinska-reka": {
+   "title": "Chepinska reka",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-cherni-lom": {
+   "title": "Cherni Lom",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-chineja": {
+   "title": "Chineja",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 45.4728,
+   "lon": 28.1892
+  },
+  "river-chrudimka": {
+   "title": "Chrudimka",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.04444444,
+   "lon": 15.77694444
+  },
+  "river-chychyklia": {
+   "title": "Chychyklia",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.3765,
+   "lon": 31.568
+  },
+  "river-cidlina": {
+   "title": "Cidlina",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 50.12277778,
+   "lon": 15.15861111
+  },
+  "river-cogalnic": {
+   "title": "Cogâlnic",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 45.8019,
+   "lon": 29.67
+  },
+  "river-cracau": {
+   "title": "Cracău",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.8181,
+   "lon": 26.5259
+  },
+  "river-cricovul-dulce": {
+   "title": "Cricovul Dulce",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 44.7482,
+   "lon": 25.9532
+  },
+  "river-calnistea": {
+   "title": "Câlniștea",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 44.16694444,
+   "lon": 25.99111111
+  },
+  "river-calmatui-teleorman": {
+   "title": "Călmățui (Teleorman)",
+   "monthlyViews": 30,
+   "days": 46,
+   "lat": 43.7009,
+   "lon": 25.1904
+  },
+  "river-derkul": {
+   "title": "Derkul",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.58666667,
+   "lon": 39.69055556
+  },
+  "river-divoka-orlice": {
+   "title": "Divoká Orlice",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.35833333,
+   "lon": 16.43472222
+  },
+  "river-doubrava": {
+   "title": "Doubrava (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 50.02777778,
+   "lon": 15.3375
+  },
+  "river-dosnica": {
+   "title": "Došnica",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 41.39562,
+   "lon": 22.2226
+  },
+  "river-dragovistica": {
+   "title": "Dragovištica",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 42.3657,
+   "lon": 22.7192
+  },
+  "river-dravinja": {
+   "title": "Dravinja",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.3693,
+   "lon": 15.9452
+  },
+  "river-dambovnic": {
+   "title": "Dâmbovnic",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.3426,
+   "lon": 25.6694
+  },
+  "river-eger": {
+   "title": "Eger (Tisza)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.6788,
+   "lon": 20.7131
+  },
+  "river-elan": {
+   "title": "Elan (Prut)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 46.0978,
+   "lon": 28.1022
+  },
+  "river-fakiyska-reka": {
+   "title": "Fakiyska reka",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": null,
+   "lon": null
+  },
+  "river-glogovnica": {
+   "title": "Glogovnica",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.74972222,
+   "lon": 16.59777778
+  },
+  "river-gruza": {
+   "title": "Gruža (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.7088,
+   "lon": 20.8015
+  },
+  "river-haichul": {
+   "title": "Haichul",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-halliste": {
+   "title": "Halliste (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 58.50770833,
+   "lon": 25.04443056
+  },
+  "river-hirskyi-tikych": {
+   "title": "Hirskyi Tikych",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.78083333,
+   "lon": 30.88305556
+  },
+  "river-hnilec": {
+   "title": "Hnilec (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 48.8878,
+   "lon": 21.0109
+  },
+  "river-iecava": {
+   "title": "Iecava (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 56.6869,
+   "lon": 23.6994
+  },
+  "river-ier": {
+   "title": "Ier",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 47.2779,
+   "lon": 21.7997
+  },
+  "river-ikva": {
+   "title": "Ikva",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.5641,
+   "lon": 25.395
+  },
+  "river-ilfov": {
+   "title": "Ilfov (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.4812,
+   "lon": 25.9136
+  },
+  "river-isa": {
+   "title": "Isa (river)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 53.1068,
+   "lon": 25.3299
+  },
+  "river-jasenica": {
+   "title": "Jasenica (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 44.3784,
+   "lon": 21.1023
+  },
+  "river-jevisovka": {
+   "title": "Jevišovka (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 48.82777778,
+   "lon": 16.4725
+  },
+  "river-jeziorka": {
+   "title": "Jeziorka (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 51.90033151,
+   "lon": 20.61672238
+  },
+  "river-kalnitsa": {
+   "title": "Kalnitsa",
+   "monthlyViews": 30,
+   "days": 44,
+   "lat": 42.1239,
+   "lon": 26.5072
+  },
+  "river-karasica-baranja": {
+   "title": "Karašica (Danube)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 45.8564,
+   "lon": 18.8494
+  },
+  "river-kasari": {
+   "title": "Kasari (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 58.72809167,
+   "lon": 23.99456944
+  },
+  "river-kasplya": {
+   "title": "Kasplya",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 55.4086,
+   "lon": 30.7187
+  },
+  "river-keila": {
+   "title": "Keila (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 59.40360278,
+   "lon": 24.28020278
+  },
+  "river-koros-er": {
+   "title": "Körös-ér",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.01222222,
+   "lon": 20.03277778
+  },
+  "river-khorol": {
+   "title": "Khorol (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 49.46666667,
+   "lon": 33.78833333
+  },
+  "river-klina": {
+   "title": "Klina (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 42.6114,
+   "lon": 20.5683
+  },
+  "river-kodyma": {
+   "title": "Kodyma (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.007,
+   "lon": 30.8093
+  },
+  "river-kompsatos": {
+   "title": "Kompsatos",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 41.05861111,
+   "lon": 25.11916667
+  },
+  "river-koropets": {
+   "title": "Koropets (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-kotra": {
+   "title": "Kotra (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 53.56472222,
+   "lon": 24.04333333
+  },
+  "river-krapina": {
+   "title": "Krapina (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 45.8274,
+   "lon": 15.8234
+  },
+  "river-krasna": {
+   "title": "Krasna (river)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-krasnaya": {
+   "title": "Krasnaya (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 54.5889,
+   "lon": 22.2164
+  },
+  "river-kriva": {
+   "title": "Kriva River (Pčinja)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 42.12055556,
+   "lon": 21.84277778
+  },
+  "river-krynka": {
+   "title": "Krynka (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.61055556,
+   "lon": 38.8075
+  },
+  "river-kuchurhan": {
+   "title": "Kuchurhan (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 46.5539,
+   "lon": 29.9285
+  },
+  "river-kukhva": {
+   "title": "Kukhva",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 57.37444444,
+   "lon": 28.16305556
+  },
+  "river-kunda": {
+   "title": "Kunda (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 59.5203,
+   "lon": 26.5332
+  },
+  "river-kundryuchya": {
+   "title": "Kundryuchya",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.72888889,
+   "lon": 40.94111111
+  },
+  "river-kyjovka": {
+   "title": "Kyjovka",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 48.64916667,
+   "lon": 16.92083333
+  },
+  "river-lesna-prawa": {
+   "title": "Leśna Prawa",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 52.44,
+   "lon": 23.9087
+  },
+  "river-liela-jugla": {
+   "title": "Lielā Jugla",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 56.96944444,
+   "lon": 24.32333333
+  },
+  "river-liswarta": {
+   "title": "Liswarta",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 51.0473,
+   "lon": 19.0358
+  },
+  "river-liwa": {
+   "title": "Liwa (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 53.91388889,
+   "lon": 18.88444444
+  },
+  "river-lodenice": {
+   "title": "Loděnice (river)",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 49.94805556,
+   "lon": 14.12722222
+  },
+  "river-loobu": {
+   "title": "Loobu (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 59.57055556,
+   "lon": 25.79694444
+  },
+  "river-loucna": {
+   "title": "Loučná (river)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 50.05972222,
+   "lon": 15.82305556
+  },
+  "river-lubaczowka": {
+   "title": "Lubaczówka",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.119634,
+   "lon": 22.643624
+  },
+  "river-lubsza": {
+   "title": "Lubsza (river)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 51.9539,
+   "lon": 14.7224
+  },
+  "river-luda-kamchiya": {
+   "title": "Luda Kamchiya",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-luda-yana": {
+   "title": "Luda Yana",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-ludza": {
+   "title": "Ludza (river)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 57.21416667,
+   "lon": 28.13861111
+  },
+  "river-luha": {
+   "title": "Luha (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 50.86722222,
+   "lon": 24.14555556
+  },
+  "river-levuo": {
+   "title": "Lėvuo",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 56.084,
+   "lon": 24.4267
+  },
+  "river-malta-river": {
+   "title": "Malta (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 56.7229,
+   "lon": 26.9917
+  },
+  "river-marycha": {
+   "title": "Marycha",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 53.903,
+   "lon": 23.648
+  },
+  "river-mala-panew": {
+   "title": "Mała Panew",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-megdovas": {
+   "title": "Megdovas",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 38.89277778,
+   "lon": 21.53416667
+  },
+  "river-misa": {
+   "title": "Misa (river in Latvia)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 56.7032,
+   "lon": 23.7822
+  },
+  "river-mituva": {
+   "title": "Mituva",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 55.07472222,
+   "lon": 22.75555556
+  },
+  "river-mochuritsa": {
+   "title": "Mochuritsa",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 42.5039,
+   "lon": 26.5192
+  },
+  "river-moravice": {
+   "title": "Moravice (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.9275,
+   "lon": 17.94583333
+  },
+  "river-mostistea": {
+   "title": "Mostiștea",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 44.14166667,
+   "lon": 26.97361111
+  },
+  "river-mostonga": {
+   "title": "Mostonga",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-murafa": {
+   "title": "Murafa",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.21111111,
+   "lon": 28.23027778
+  },
+  "river-nadela": {
+   "title": "Nadela",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.707965,
+   "lon": 20.70156
+  },
+  "river-narewka": {
+   "title": "Narewka (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 52.9314,
+   "lon": 23.6517
+  },
+  "river-navesti": {
+   "title": "Navesti (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 58.49366667,
+   "lon": 24.89975
+  },
+  "river-nurzec": {
+   "title": "Nurzec",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.6099,
+   "lon": 22.4091
+  },
+  "river-oituz": {
+   "title": "Oituz (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 46.2534,
+   "lon": 26.7571
+  },
+  "river-oltet": {
+   "title": "Olteț",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.22472222,
+   "lon": 24.42777778
+  },
+  "river-orljava": {
+   "title": "Orljava",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.1068,
+   "lon": 17.7247
+  },
+  "river-orzyc": {
+   "title": "Orzyc (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 52.7678,
+   "lon": 21.2282
+  },
+  "river-oslava": {
+   "title": "Oslava",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.0975,
+   "lon": 16.36416667
+  },
+  "river-ostyor": {
+   "title": "Ostyor",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 53.79694444,
+   "lon": 31.76055556
+  },
+  "river-oslawa": {
+   "title": "Osława",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 49.5347,
+   "lon": 22.2678
+  },
+  "river-ovcharitsa": {
+   "title": "Ovcharitsa",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": null,
+   "lon": null
+  },
+  "river-olawa": {
+   "title": "Oława (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 51.1083,
+   "lon": 17.0527
+  },
+  "river-pakra": {
+   "title": "Pakra",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 45.3985,
+   "lon": 16.765
+  },
+  "river-palata": {
+   "title": "Palata (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 55.4847,
+   "lon": 28.7558
+  },
+  "river-pedja": {
+   "title": "Pedja (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 58.413,
+   "lon": 26.1911
+  },
+  "river-piusa": {
+   "title": "Piusa (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 57.96722222,
+   "lon": 27.81583333
+  },
+  "river-plazovic": {
+   "title": "Plazović",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 45.78638889,
+   "lon": 18.98611111
+  },
+  "river-plitvica": {
+   "title": "Plitvica (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.3081,
+   "lon": 16.7373
+  },
+  "river-polnaya": {
+   "title": "Polnaya",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 48.90083333,
+   "lon": 39.83361111
+  },
+  "river-popovska-reka": {
+   "title": "Popovska reka",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 42.1306,
+   "lon": 26.5297
+  },
+  "river-praca": {
+   "title": "Prača (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.69138889,
+   "lon": 19.08472222
+  },
+  "river-provadiya": {
+   "title": "Provadiya (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.18305556,
+   "lon": 27.65944444
+  },
+  "river-putna": {
+   "title": "Putna (Siret)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.60666667,
+   "lon": 27.49694444
+  },
+  "river-pyasachnik": {
+   "title": "Pyasachnik",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": null,
+   "lon": null
+  },
+  "river-poltsamaa": {
+   "title": "Põltsamaa (river)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 58.44483,
+   "lon": 26.1627
+  },
+  "river-plonia": {
+   "title": "Płonia (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 53.40222222,
+   "lon": 14.65611111
+  },
+  "river-radomka": {
+   "title": "Radomka",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 51.7087,
+   "lon": 21.4353
+  },
+  "river-rawka": {
+   "title": "Rawka (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 52.142089,
+   "lon": 20.112397
+  },
+  "river-rika": {
+   "title": "Rika (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 48.1761,
+   "lon": 23.2625
+  },
+  "river-rimava": {
+   "title": "Rimava",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.2876,
+   "lon": 20.3199
+  },
+  "river-rokytna": {
+   "title": "Rokytná",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 49.09694444,
+   "lon": 16.38333333
+  },
+  "river-romen": {
+   "title": "Romen (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.74555556,
+   "lon": 33.50416667
+  },
+  "river-ropa": {
+   "title": "Ropa (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 49.745215,
+   "lon": 21.451375
+  },
+  "river-rosava": {
+   "title": "Rosava",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.63464,
+   "lon": 31.45755
+  },
+  "river-raul-mare": {
+   "title": "Râul Mare (Strei)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 45.5902,
+   "lon": 22.9899
+  },
+  "river-raul-targului": {
+   "title": "Râul Târgului",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 44.9463,
+   "lon": 24.8949
+  },
+  "river-ruja": {
+   "title": "Rūja",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 57.7665,
+   "lon": 25.2369
+  },
+  "river-sabar": {
+   "title": "Sabar (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-sadu": {
+   "title": "Sadu (Cibin)",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 45.6599,
+   "lon": 24.2666
+  },
+  "river-sazliyka": {
+   "title": "Sazliyka",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-sebes": {
+   "title": "Sebeș (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.04027778,
+   "lon": 23.55888889
+  },
+  "river-seda": {
+   "title": "Seda (river)",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 57.76794,
+   "lon": 25.24646
+  },
+  "river-senkovets": {
+   "title": "Senkovets",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": null,
+   "lon": null
+  },
+  "river-sinyaya": {
+   "title": "Sinyaya",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 57.16277778,
+   "lon": 28.51083333
+  },
+  "river-sitna": {
+   "title": "Sitna",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.6025,
+   "lon": 27.1522
+  },
+  "river-skat": {
+   "title": "Skat (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-skrwa-prawa": {
+   "title": "Skrwa Prawa",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 52.580869,
+   "lon": 19.532673
+  },
+  "river-slanic": {
+   "title": "Slănic (Buzău)",
+   "monthlyViews": 30,
+   "days": 49,
+   "lat": 45.235,
+   "lon": 26.73361111
+  },
+  "river-solokiia": {
+   "title": "Solokiia",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 50.3767,
+   "lon": 24.2417
+  },
+  "river-stara-reka": {
+   "title": "Stara reka (Maritsa)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": null,
+   "lon": null
+  },
+  "river-strwiaz": {
+   "title": "Strwiąż",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.5925,
+   "lon": 23.46361111
+  },
+  "river-stsviha": {
+   "title": "Stsviha",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 52.0602,
+   "lon": 27.9037
+  },
+  "river-studenica": {
+   "title": "Studenica (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.4692,
+   "lon": 20.6192
+  },
+  "river-strela": {
+   "title": "Střela",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 49.91444444,
+   "lon": 13.52972222
+  },
+  "river-suda": {
+   "title": "Suda (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 59.12055556,
+   "lon": 37.73
+  },
+  "river-sudost": {
+   "title": "Sudost",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 52.33222222,
+   "lon": 33.39833333
+  },
+  "river-suha-reka": {
+   "title": "Suha reka (river)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": null,
+   "lon": null
+  },
+  "river-supii": {
+   "title": "Supii",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 49.6238,
+   "lon": 31.8003
+  },
+  "river-svete": {
+   "title": "Svete (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 56.719,
+   "lon": 23.6477
+  },
+  "river-sai": {
+   "title": "Sâi",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": 43.7149,
+   "lon": 24.8503
+  },
+  "river-tanew": {
+   "title": "Tanew",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.49277778,
+   "lon": 22.25777778
+  },
+  "river-tatula": {
+   "title": "Tatula",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 56.1234,
+   "lon": 24.454
+  },
+  "river-tazlau": {
+   "title": "Tazlău (river)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 46.2775,
+   "lon": 26.80416667
+  },
+  "river-tebra": {
+   "title": "Tebra River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 56.59027778,
+   "lon": 21.73361111
+  },
+  "river-tecuci": {
+   "title": "Tecuci (river)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 44.1991,
+   "lon": 24.8896
+  },
+  "river-tereblia": {
+   "title": "Tereblia (river)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 48.0355,
+   "lon": 23.4751
+  },
+  "river-teuz": {
+   "title": "Teuz",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 46.638,
+   "lon": 21.5558
+  },
+  "river-ticha-orlice": {
+   "title": "Tichá Orlice",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.35833333,
+   "lon": 16.43472222
+  },
+  "river-tinja": {
+   "title": "Tinja (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 44.9278,
+   "lon": 18.7561
+  },
+  "river-topolnitsa": {
+   "title": "Topolnitsa (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-topolog": {
+   "title": "Topolog (Olt)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 44.9424,
+   "lon": 24.2647
+  },
+  "river-trubizh": {
+   "title": "Trubizh",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 50.0294,
+   "lon": 31.4255
+  },
+  "river-tsibritsa": {
+   "title": "Tsibritsa",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-turiya": {
+   "title": "Turiya (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 51.79444444,
+   "lon": 24.86
+  },
+  "river-turunchuk": {
+   "title": "Turunchuk",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 46.4456,
+   "lon": 30.206
+  },
+  "river-tylihul": {
+   "title": "Tylihul (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 47.77980556,
+   "lon": 29.57719444
+  },
+  "river-ubort": {
+   "title": "Ubort",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 52.10138889,
+   "lon": 28.46555556
+  },
+  "river-udai": {
+   "title": "Udai (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 50.07027778,
+   "lon": 33.1225
+  },
+  "river-usvyacha": {
+   "title": "Usvyacha",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 55.43416667,
+   "lon": 30.74472222
+  },
+  "river-valgejogi": {
+   "title": "Valgejõgi",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 59.58277778,
+   "lon": 25.70611111
+  },
+  "river-varbitsa": {
+   "title": "Varbitsa (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 41.60222222,
+   "lon": 25.4356
+  },
+  "river-varduva": {
+   "title": "Varduva",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 56.42409722,
+   "lon": 22.20826667
+  },
+  "river-vaslui": {
+   "title": "Vaslui (river)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 46.5288,
+   "lon": 27.8081
+  },
+  "river-velise": {
+   "title": "Velise (river)",
+   "monthlyViews": 30,
+   "days": 46,
+   "lat": 58.7355,
+   "lon": 24.1551
+  },
+  "river-velyka-vys": {
+   "title": "Velyka Vys",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 48.7464,
+   "lon": 30.8892
+  },
+  "river-velykyi-kuialnyk": {
+   "title": "Velykyi Kuialnyk",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.79777778,
+   "lon": 30.5925
+  },
+  "river-verkne": {
+   "title": "Verknė",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 54.61138889,
+   "lon": 24.06861111
+  },
+  "river-veternica": {
+   "title": "Veternica (river)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 43.069,
+   "lon": 21.9706
+  },
+  "river-vigala": {
+   "title": "Vigala (river)",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": 58.7403,
+   "lon": 24.0747
+  },
+  "river-visocica": {
+   "title": "Visočica (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 43.2969,
+   "lon": 22.6108
+  },
+  "river-viseu": {
+   "title": "Vișeu",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.91277778,
+   "lon": 24.14555556
+  },
+  "river-vovk": {
+   "title": "Vovk (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.375,
+   "lon": 27.6098
+  },
+  "river-vrana": {
+   "title": "Vrana (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.1986,
+   "lon": 26.8917
+  },
+  "river-vyshnia": {
+   "title": "Vyshnia",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 49.94583333,
+   "lon": 22.87416667
+  },
+  "river-vysun": {
+   "title": "Vysun",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 47.1144,
+   "lon": 32.8959
+  },
+  "river-valsan": {
+   "title": "Vâlsan",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 44.9726,
+   "lon": 24.7543
+  },
+  "river-vaike-emajogi": {
+   "title": "Väike Emajõgi",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 58.1,
+   "lon": 26.06666667
+  },
+  "river-vaana": {
+   "title": "Vääna (river)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": null,
+   "lon": null
+  },
+  "river-western-berezina": {
+   "title": "Western Berezina",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 53.8056,
+   "lon": 25.9834
+  },
+  "river-welna": {
+   "title": "Wełna (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 52.6442,
+   "lon": 16.8047
+  },
+  "river-widawka": {
+   "title": "Widawka",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 51.509496,
+   "lon": 18.868622
+  },
+  "river-wierzyca": {
+   "title": "Wierzyca",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 53.83194444,
+   "lon": 18.83611111
+  },
+  "river-wilga": {
+   "title": "Wilga (Garwolin)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 51.837335,
+   "lon": 21.35618
+  },
+  "river-zelvyanka": {
+   "title": "Zelvyanka",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 53.4026,
+   "lon": 24.5379
+  },
+  "river-zglowiaczka": {
+   "title": "Zgłowiączka (river)",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 52.51694444,
+   "lon": 18.63194444
+  },
+  "river-zolotonoshka": {
+   "title": "Zolotonoshka (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 49.4987,
+   "lon": 32.1851
+  },
+  "river-ohne": {
+   "title": "Õhne",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 58.19373611,
+   "lon": 26.01989444
+  },
+  "river-uslava": {
+   "title": "Úslava",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.76277778,
+   "lon": 13.41305556
+  },
+  "river-cesma": {
+   "title": "Česma",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 45.57527778,
+   "lon": 16.47111111
+  },
+  "river-cik": {
+   "title": "Čik",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 45.7,
+   "lon": 20.05
+  },
+  "river-lupawa": {
+   "title": "Łupawa (river)",
+   "monthlyViews": 30,
+   "days": 46,
+   "lat": 54.66916667,
+   "lon": 17.04944444
+  },
+  "river-leg": {
+   "title": "Łęg (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 50.69027778,
+   "lon": 21.82194444
+  },
+  "river-scinawka": {
+   "title": "Ścinawka",
+   "monthlyViews": 30,
+   "days": 49,
+   "lat": 50.47027778,
+   "lon": 16.655
+  },
+  "river-salcia": {
+   "title": "Šalčia",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 54.34555556,
+   "lon": 24.8325
+  },
+  "river-sesuvis": {
+   "title": "Šešuvis",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 55.21805556,
+   "lon": 22.25361111
+  },
+  "river-sirvinta": {
+   "title": "Širvinta",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 55.1094,
+   "lon": 24.5554
+  },
+  "river-susve": {
+   "title": "Šušvė",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 55.1732,
+   "lon": 23.8317
+  },
+  "river-zelivka": {
+   "title": "Želivka",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 49.74083333,
+   "lon": 15.0575
+  },
+  "river-zitava": {
+   "title": "Žitava (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.086,
+   "lon": 18.2172
+  },
+  "river-sieu": {
+   "title": "Șieu (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.19555556,
+   "lon": 24.21583333
+  },
+  "river-pineios-thessaly": {
+   "title": "Pineios (Thessaly)",
+   "monthlyViews": 609,
+   "days": 59,
+   "lat": 39.93416667,
+   "lon": 22.7175
+  },
+  "river-krka-slovenia": {
+   "title": "Krka (Sava)",
+   "monthlyViews": 304,
+   "days": 59,
+   "lat": 45.89361111,
+   "lon": 15.60027778
+  },
+  "river-uzh-zakarpattia": {
+   "title": "Uzh",
+   "monthlyViews": 304,
+   "days": 59,
+   "lat": 48.5983,
+   "lon": 21.9906
+  },
+  "river-nera-romania": {
+   "title": "Nera (Danube)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 44.83,
+   "lon": 21.35333333
+  },
+  "river-bistrita-transylvania": {
+   "title": "Bistrița (Someș)",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 47.05861111,
+   "lon": 24.42916667
+  },
+  "river-odra-croatia": {
+   "title": "Odra (Kupa)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.4943,
+   "lon": 16.3546
+  },
+  "river-svislach-grodno": {
+   "title": "Svislach (Neman)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 53.5072,
+   "lon": 24.0664
+  },
+  "river-blanice-central-bohemia": {
+   "title": "Blanice (Sázava)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 49.79722222,
+   "lon": 14.94527778
+  },
+  "river-bobr-belarus": {
+   "title": "Bobr (Berezina)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 54.0429,
+   "lon": 28.8503
+  },
+  "river-cerna-hunedoara": {
+   "title": "Cerna (Mureș)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 45.88361111,
+   "lon": 22.94972222
+  },
+  "river-gauja-lithuania": {
+   "title": "Gauja (Neman)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 53.8312,
+   "lon": 25.5936
+  },
+  "river-jadar-bosnia": {
+   "title": "Jadar (Drinjača)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 44.27908,
+   "lon": 19.10704
+  },
+  "river-sluch-belarus": {
+   "title": "Sluch (Belarus)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 52.1375,
+   "lon": 27.525
+  },
+  "river-sventoji-palanga": {
+   "title": "Šventoji (Baltic)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 56.02833333,
+   "lon": 21.07333333
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

@@ -2003,7 +2003,7 @@ Volturno|175
 Garigliano|38
 Liri|158
 Aniene|99
-Nera|116
+Nera (Italy)|116
 Velino|90
 Fiora|84
 Ombrone|161
@@ -2192,7 +2192,7 @@ Radbuza|105
 Otava|112
 Luznice|208
 Malse|96
-Blanice|76
+Blanice (South Bohemia)|76
 Vah|403|Waag
 Hron|298
 Nitra|197
@@ -2227,14 +2227,14 @@ Arges|350
 Dambovita|286
 Ialomita|417
 Buzau|302
-Bistrita|283
+Bistrita (Moldavia)|283
 Trotus|162
 Suceava|173
 Barlad|207
 Tarnava|246
 Aries|164
 Cibin|83
-Cerna|84
+Cerna (Mehedinti)|84
 Bahlui|129
 Raut|286
 Dniester|1362
@@ -2283,7 +2283,7 @@ Timok|202
 Pek|129
 Mlava|100
 Resava|60
-Jadar|65
+Jadar (Serbia)|65
 Kolubara|87
 Drina|346
 Bosna|273
@@ -2323,7 +2323,7 @@ Reka|55
 Pivka|32
 Unica|30
 Aliakmon|297
-Pineios|216
+Pineios (Peloponnese)|216
 Acheloos|220
 Arachthos|110
 Louros|65
@@ -2473,7 +2473,7 @@ Berezina|613
 Pripyat|761
 Sozh|648
 Ptsich|421
-Svislach|327
+Svislach (Minsk)|327
 Shchara|325
 Drut|295
 Iput|437
@@ -2481,8 +2481,8 @@ Mukhavets|113
 Yaselda|242
 Horyn|659
 Styr|494
-Sluch|451
-Uzh|256
+Sluch (Ukraine)|451
+Uzh (Zhytomyr)|256
 Teteriv|385
 Irpin|162
 Ros|346
@@ -5930,6 +5930,404 @@ Little White (Ontario)|108
 Rancheria (Yukon)|190
 South River (Ontario)|135
 Willow (British Columbia)|190
+Moldova River|213
+Emajogi|100
+Wel|118
+Cephissus|60
+Uvac|115
+Bosut|186
+Crisul Repede|209
+Kalchyk|90
+Raul Doamnei|107
+Ishem|79
+Mius|258
+Nogat|62
+Somesul Mic|178
+Angrapa|172
+Jerma|72
+Jagala|99
+Rzav|72
+Kazennyi Torets|129
+Lepenac|75
+Poltva|60
+Prahova|193
+Salaca|95
+Sitnica|90
+Veleka|147
+Wda|198
+Crisul Negru|168
+Drawa|192
+Enipeas|84
+Kharkiv|71
+Krivaja (Bosnia)|74
+Peja Bistrica|62
+Milcov|79
+Parnu|144
+Pcinja|135
+Rezovo|112
+Skawa|96
+Somesul Mare|130
+Toplica|130
+Tarnava Mare|223
+Vovcha|323
+Vuka|112
+Detinja|75
+Sleza|79
+Angitis|75
+Bakhmutka|86
+Morava e Binces|60
+Karas|110
+Colentina|101
+Crasna|193
+Crisul Alb|236
+Drinjaca|88
+Jablanica|85
+Jijia|287
+Jura|177
+Kinska|146
+Krutynia|99
+Kryvyi Torets|88
+Llapi|72
+Lom|93
+Luhan|198
+Neajlov|188
+Nemunelis|191
+Ner|134
+Pirita|105
+Raska|60
+Saksahan|144
+Somesul Cald|66
+Strei|93
+Streva|74
+Syniukha|111
+Tamnava|79
+Tepla|65
+Titarisios|70
+Unac|66
+Vlasina|70
+Vrbanja|71
+Vohandu|166
+Zeimena|80
+Geru|62
+Aranca|117
+Babuna|65
+Bednja|133
+Beli Lom|147
+Barsa|73
+Barzava|166
+Chepelare|86
+Crni Timok|84
+Dospat|110
+Dubna|105
+Dysna|176
+Erythropotamos|100
+Fan|94
+Gilort|116
+Golijska Moravica|98
+Gwda|140
+Hnyla Lypa|87
+Hnylyi Tikych|157
+Hartibaciu|110
+Ialpug|142
+Ilova|105
+Ina|129
+Iza|78
+Jegricka|65
+Kaczawa|98
+Kamienna|138
+Karasica (Slavonia)|91
+Krivaja (Vojvodina)|109
+Lopan|93
+Lotru|83
+Lapus|119
+Maza Jugla|119
+Mokri Yaly|147
+Musa|164
+Niraj|82
+Oril|346
+Oster|199
+Pededze|159
+Pronia|172
+Rasina|92
+Rositsa|146
+Veliki Rzav|62
+Ramnicul Sarat|137
+Shushica|80
+Smotrych|168
+Snov|253
+Stokhid|188
+Stryama|110
+Strypa|147
+Stuhna|70
+Sturba|145
+Sarviz|110
+Teleajen|122
+Tiasmyn|161
+Tur|95
+Tarnava Mica|196
+Udy|164
+Ukrina|119
+Usora|77
+Vacha|112
+Vedea|224
+Vovcha (Kharkiv)|88
+Wiar|70
+Widawa|103
+Wieprza|112
+Zalomka|61
+Zherebets|88
+Zolota Lypa|86
+Uhlava|104
+Swider|89
+Ula|84
+Calmatui (Braila)|152
+Ahja|103
+Almas|68
+Amaradia|106
+Amata|66
+Ampoi|60
+Motru|139
+Baboia|80
+Barta|103
+Bazavluk|157
+Baseu|118
+Belica|345
+Berheci|92
+Besed|261
+Biala|102
+Biala Przemsza|64
+Kerka|60
+Bilozerka|85
+Bistra|60
+Bistricioara|64
+Bid|66
+Bodva|110
+Borzhava|106
+Botna|152
+Brahinka|179
+Byala Reka|70
+Byk|101
+Bystrytsia Nadvirnianska|94
+Basca|81
+Berze|107
+Caraula|65
+Chepinska reka|83
+Cherni Lom|130
+Chineja|79
+Chrudimka|106
+Chychyklia|156
+Cidlina|87
+Cogalnic|243
+Cracau|66
+Cricovul Dulce|80
+Calnistea|112
+Calmatui (Teleorman)|139
+Derkul|163
+Divoka Orlice|99
+Doubrava|88
+Dosnica|385
+Dragovistica|63
+Dravinja|73
+Dambovnic|110
+Eger|68
+Elan|73
+Fakiyska reka|87
+Glogovnica|65
+Gruza|62
+Haichul|130
+Halliste|86
+Hirskyi Tikych|167
+Hnilec|91
+Iecava|155
+Ier|120
+Ikva|155
+Ilfov|96
+Isa|62
+Jasenica|79
+Jevisovka|82
+Jeziorka|66
+Kalnitsa|72
+Karasica (Baranja)|81
+Kasari|112
+Kasplya|136
+Keila|107
+Koros-er|90
+Khorol|308
+Klina|62
+Kodyma|149
+Kompsatos|68
+Koropets|78
+Kotra|109
+Krapina|67
+Krasna|151
+Krasnaya|83
+Kriva|75
+Krynka|180
+Kuchurhan|109
+Kukhva|106
+Kunda|66
+Kundryuchya|244
+Kyjovka|88
+Lesna Prawa|63
+Liela Jugla|62
+Liswarta|93
+Liwa|111
+Lodenice|65
+Loobu|62
+Loucna|80
+Lubaczowka|88
+Lubsza|66
+Luda Kamchiya|201
+Luda Yana|74
+Ludza|156
+Luha|93
+Levuo|148
+Malta River|105
+Marycha|81
+Mala Panew|132
+Megdovas|78
+Misa|108
+Mituva|102
+Mochuritsa|86
+Moravice|101
+Mostistea|98
+Mostonga|70
+Murafa|163
+Nadela|84
+Narewka|61
+Navesti|100
+Nurzec|100
+Oituz|62
+Oltet|185
+Orljava|88
+Orzyc|146
+Oslava|101
+Ostyor|274
+Oslawa|64
+Ovcharitsa|72
+Olawa|99
+Pakra|72
+Palata|93
+Pedja|122
+Piusa|109
+Plazovic|129
+Plitvica|65
+Polnaya|79
+Popovska reka|72
+Praca|61
+Provadiya|119
+Putna|153
+Pyasachnik|72
+Poltsamaa|135
+Plonia|74
+Radomka|110
+Rawka|90
+Rika|92
+Rimava|83
+Rokytna|88
+Romen|111
+Ropa|79
+Rosava|90
+Raul Mare|64
+Raul Targului|72
+Ruja|77
+Sabar|174
+Sadu|60
+Sazliyka|145
+Sebes|96
+Seda|62
+Senkovets|102
+Sinyaya|195
+Sitna|78
+Skat|134
+Skrwa Prawa|114
+Slanic|73
+Solokiia|88
+Stara reka|61
+Strwiaz|94
+Stsviha|178
+Studenica|60
+Strela|102
+Suda|184
+Sudost|208
+Suha reka|126
+Supii|130
+Svete|123
+Sai|85
+Tanew|114
+Tatula|65
+Tazlau|89
+Tebra|69
+Tecuci|61
+Tereblia|80
+Teuz|87
+Ticha Orlice|102
+Tinja|99
+Topolnitsa|155
+Topolog|112
+Trubizh|113
+Tsibritsa|88
+Turiya|184
+Turunchuk|60
+Tylihul|168
+Ubort|292
+Udai|327
+Usvyacha|100
+Valgejogi|85
+Varbitsa|98
+Varduva|90
+Vaslui|81
+Velise|83
+Velyka Vys|166
+Velykyi Kuialnyk|150
+Verkne|77
+Veternica|75
+Vigala|97
+Visocica|71
+Viseu|82
+Vovk|71
+Vrana|68
+Vyshnia|78
+Vysun|201
+Valsan|79
+Vaike Emajogi|82
+Vaana|64
+Western Berezina|226
+Welna|118
+Widawka|96
+Wierzyca|151
+Wilga|67
+Zelvyanka|170
+Zglowiaczka|79
+Zolotonoshka|88
+Ohne|94
+Uslava|96
+Cesma|106
+Cik|95
+Lupawa|99
+Leg|86
+Scinawka|62
+Salcia|76
+Sesuvis|115
+Sirvinta|129
+Susve|135
+Zelivka|104
+Zitava|66
+Sieu|71
+Pineios (Thessaly)|205
+Krka (Slovenia)|95
+Uzh (Zakarpattia)|127
+Nera (Romania)|143
+Bistrita (Transylvania)|67
+Odra (Croatia)|83
+Svislach (Grodno)|137
+Blanice (Central Bohemia)|66
+Bobr (Belarus)|124
+Cerna (Hunedoara)|73
+Gauja (Lithuania)|94
+Jadar (Bosnia)|65
+Sluch (Belarus)|228
+Sventoji (Palanga)|73
 `;
 
 export const MOUNTAINS = `
