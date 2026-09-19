@@ -11,7 +11,6 @@
     "List of mountains in Argentina",
     "List of mountains in Colombia",
     "List of mountains in Peru",
-    "List of mountains in Venezuela",
     "List of mountains in Chile",
     "List of mountains in Bolivia",
     "List of mountains in Ecuador",
@@ -23,12 +22,9 @@
     "List of volcanoes in Colombia",
     "List of Ultras of South America",
     "List of mountains in the Andes",
-    "List of highest mountains of South America",
-    "List of Andean peaks by elevation",
-    "List of mountains of Guyana",
-    "List of mountains in Venezuela by elevation",
-    "List of mountain peaks of Brazil",
-    "List of the highest mountains in Brazil"
+    "Tepui",
+    "List of mountains by elevation",
+    "Guiana Highlands"
   ],
   "kind": "(mountain|peak|summit|volcano|stratovolcano|shield volcano|caldera|butte|mesa|hill|ridge|massif|monolith|dome|lava dome|cinder cone|crag|knob|nunatak|cerro|nevado|volc[aá]n|^Mount |^Monte |^Mont |^Pico |^Cerro |^Nevado |^Volc[aá]n |Mountain$|Peak$|Horn$|Tower$|Spire$|Hill$|Butte$|^Vrh |^Vârful |^Varful |^Musala|vrh\b|szczyt|hora\b|planina|^Mount )",
   "skipTitle": "(^List of|^Lists of|^Geography of|Range$|Mountains$|Ranges$|Highlands$|Plateau$|National Park$|Provincial Park$|Wilderness$|Pass$|Trail$|Ski|Resort$|County$|Township|Forest$|Wildlife|Refuge$|Lake$|River$|Creek$|Valley$|Canyon$|Glacier$|Icefield$|Ice Cap$|Rock Formation|Cliffs?$|Group$|Massif$|Uplands$|Hills$|Islands?$|Mountaineering|Climbing|Route$|Hut$|Cable Car$|Railway$|Tunnel$|Viewpoint$|Sierra |Cordillera|Volcanic Belt$|Volcanic Field$|Volcanic Complex$|Lava Field$)",

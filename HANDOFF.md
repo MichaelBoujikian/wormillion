@@ -22,23 +22,30 @@ per wave) and SPEC §13; git log has the rest.
 **Resume point (refreshed with every chunk commit — the user's standing
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
-do the next thing named here):** South America wave: rivers and lakes DONE
-(`55b98a1`, `08185aa`, this commit - 32 lakes,
-`reports/2026-09-19-sa-lakes.md`). NEXT: the mountains probe - `node
-scripts/expansion/probe.mjs scripts/expansion/probes/sa-mountains.json >
-scripts/expansion/work/sa-mountains.out` (22 lists, some will not exist -
-the probe prints them; replace with real ones found via the API's
-prefixsearch), then `article-size.mjs work/sa-mountains.json --no-figure
---min-views=122 --sister=es,pt`, the probe again, `chunk --tag=sa4
---min-views=122 --allow-no-figure`, hand-clean with the scratchpad's
-`clean-wca-mountains.cjs` (PROBE=sa-mountains TAG=sa4; volcanoes by
-description; THEME `the Andes` by hand for every Andean peak - the Andes
-theme has 459 members and no range-tag table; cut ranges, foreign peaks and
-concept rows), fold, `--taken-only --tag=ns-sa4`, qualify, fold, pipeline,
-report, commit, push. Then islands, seas, deserts, cities, the first audit
-round (rivers + lakes + mountains) can run offline alongside the islands
-probe, the second after cities, the wave report - HANDOFF step 3. Nothing
-uncommitted.
+do the next thing named here):** South America wave: rivers, lakes,
+mountains DONE (`55b98a1`, `08185aa`, `f1eafa5`, this commit - 95 peaks +
+Mount Darwin (Chile), `reports/2026-09-19-sa-mountains.md`). NEXT, two
+things at once: (a) the islands probe - `node scripts/expansion/probe.mjs
+scripts/expansion/probes/sa-islands.json >
+scripts/expansion/work/sa-islands.out`, then `article-size.mjs
+work/sa-islands.json --no-figure --min-views=91 --sister=es,pt`, the probe
+again, `chunk --tag=sa5 --min-views=91 --allow-no-figure`, hand-clean with
+the scratchpad's `clean-wca-islands.cjs` pattern adapted (theme `the
+Caribbean` for the Caribbean-coast islands of Venezuela / Colombia; river
+and lake islands `[]` in OCEAN_OVERRIDES - Marajó, Bananal, the Titicaca
+islands, the Paraná delta; groups out), fold, `--taken-only --tag=ns-sa5`,
+qualify, fold, pipeline, report, commit, push; and (b) WHILE the probe runs,
+the first Opus audit round over rivers + lakes + mountains, OFFLINE -
+`Workflow` `parallel()` of two `agent()`s, the pattern is this session's
+`workflows/scripts/wca-rivers-lakes-mountains-audit-wf_f60422ce-b6e.js` with
+the South America facts (pre-wave commit `a3a76d2`; chunk files
+`work/folded/sa/`; reports `2026-09-19-sa-rivers-big.md`,
+`-sa-rivers-small.md`, `-sa-lakes.md`, `-sa-mountains.md`; flagged:
+Aquidauana 1,200, Itonomas 1,493, Jutaí 1,488, Desaguadero (Argentina)
+1,515, the Rio Negro (Amazon) rename, Guri 3,674, Lake O'Higgins / Cochrane
+Lake naming, the Galápagos volcanoes' themes, the 44 size-0 peaks); apply,
+commit. Then seas, deserts, cities, the second audit round, the wave report
+- HANDOFF step 3. Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe, East Asia and West and Central Asia waves + this

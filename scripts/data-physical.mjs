@@ -8969,7 +8969,7 @@ Mount Abbot|4179
 Mount Adagdak|610
 Mount Aeolus|985
 Mount Carrigain|1427
-Mount Darwin|4218
+Mount Darwin (California)|4218
 Mount Ellen|3513
 Mount Igikpak|2523
 Mount Linn|2468
@@ -10506,6 +10506,102 @@ Shir Kuh|4055|Shirkuh
 Tufandag|4191
 Mount Ida (Turkey)|1774|Kaz Dagi
 Mount Nemrut (Bitlis)|2948
+Vinicunca|5036|Rainbow Mountain
+Pico Simon Bolivar|5720
+Artesonraju|6025
+Siula Grande|6344
+Huaynaputina|4850
+Quilotoa|3914
+Aucanquilcha|6176
+Kukenan-tepui|2680|Kukenan
+Cerro Paranal|2635
+Cerro Autana|1220|Autana
+Cerro Panizos|5494
+Galan|6100
+Veronica|5893
+Cerro Sarisarinama|2300|Sarisarinama
+Incahuasi|6621
+Pico do Jaragua|1135
+Cerro Blanco|4670
+Huandoy|6395
+Pichu Pichu|5664
+Chopicalqui|6354
+Cerro Azul (Chile)|3788
+La Pacana|4500
+Monte Pascoal|586
+Kunturiri|5648
+Pedra da Mina|2798
+Ritacuba Blanco|5410
+Chacraraju|6108
+Illiniza|5248|Los Ilinizas
+Jirishanca|6125
+Lautaro|3623
+Pico 31 de Marco|2974
+Pululahua|3360
+Cerro Azul (Galapagos)|1689
+Monte San Valentin|4058
+Pisco|5752
+Ollague|5868
+Pico Espejo|4765
+Reclus|1000
+San Jose|5856
+Socompa|6051
+Tafelberg|1026
+Yerupaja Chico|6121
+Cerro Marahuaca|2832|Marahuaca
+Monte Sarmiento|2246
+Pico do Monte Negro|1398
+San Pedro (Chile)|6155
+Sara Sara|5505
+Tocllaraju|6034
+Acotango|6052
+Alcedo Volcano|1130|Volcan Alcedo
+Antuco|2979
+Aracar|6095
+Carihuairazo|5018
+Tipas|6670
+Cerro Machin|2749
+Cerro Toco|5604
+Copahue|2997
+Hualca Hualca|6025
+Huantsan|6369
+Laram Q'awa|5182
+Lastarria|5706
+Lonquimay|2865
+Maipo|5264
+Monte Burney|1758
+Nevado de Santa Isabel|4950|Santa Isabel Volcano
+Nevado del Quindio|4760|Quindio
+Pico Naiguata|2765
+Pico dos Marins|2421
+Pomerape|6282
+Quitaraju|6036
+Santa Cruz|6259
+Sollipulli|2282
+Tacora|5980
+Tupungatito|5682
+Acamarachi|6046
+Antofalla|6409
+Azufral|4070
+Cerro La Campana|1880
+Nevado San Francisco|6016
+Chicon|5530
+Chiles|4698
+Cumbal Volcano|4764|Cumbal
+Dona Juana|4137
+Melimoyu|2400
+Mocho-Choshuenco|2415
+Monte Caburai|1465
+Mururata|5871
+Planchon-Peteroa|4107
+Ruminahui|4721
+Sairecabur|5971
+Solimana|6093
+Sumaco|3990
+Tata Sabaya|5430
+Tutupaca|5815
+Yanapaccha|5460
+Mount Darwin (Chile)|2438
 `;
 
 export const MINOR_PEAKS = `

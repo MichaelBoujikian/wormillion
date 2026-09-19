@@ -1471,7 +1471,26 @@ globalThis.WORMILLION_THEMES = {
       'Ubinas', 'Sabancaya', 'Parinacota', 'Guallatiri', 'Cerro Rico',
       'Uturuncu', 'Tunupa', 'Chacaltaya', 'Calbuco', 'Puyehue',
       'Descabezado Grande', 'Nevados de Chillan', 'Llaima', 'Cerro Hudson', 'Chaiten',
-      'Michinmahuida'],
+      'Michinmahuida',
+      // 2026-09-19 expansion
+      'Vinicunca', 'Artesonraju', 'Siula Grande', 'Huaynaputina', 'Quilotoa',
+      'Aucanquilcha', 'Cerro Panizos', 'Galan', 'Veronica', 'Incahuasi',
+      'Cerro Blanco', 'Huandoy', 'Pichu Pichu', 'Chopicalqui', 'Cerro Azul (Chile)',
+      'La Pacana', 'Kunturiri', 'Ritacuba Blanco', 'Chacraraju', 'Illiniza',
+      'Jirishanca', 'Lautaro', 'Pululahua', 'Monte San Valentin', 'Pisco',
+      'Ollague', 'Pico Espejo', 'Reclus', 'San Jose', 'Socompa',
+      'Yerupaja Chico', 'Monte Sarmiento', 'San Pedro (Chile)', 'Sara Sara', 'Tocllaraju',
+      'Acotango', 'Antuco', 'Aracar', 'Carihuairazo', 'Tipas',
+      'Cerro Machin', 'Cerro Toco', 'Copahue', 'Hualca Hualca', 'Huantsan',
+      "Laram Q'awa", 'Lastarria', 'Lonquimay', 'Maipo', 'Monte Burney',
+      'Nevado de Santa Isabel', 'Nevado del Quindio', 'Pomerape', 'Quitaraju', 'Santa Cruz',
+      'Sollipulli', 'Tacora', 'Tupungatito', 'Acamarachi', 'Antofalla',
+      'Azufral', 'Nevado San Francisco', 'Chicon', 'Chiles', 'Cumbal Volcano',
+      'Dona Juana', 'Melimoyu', 'Mocho-Choshuenco', 'Mururata', 'Planchon-Peteroa',
+      'Ruminahui', 'Sairecabur', 'Solimana', 'Sumaco', 'Tata Sabaya',
+      'Tutupaca', 'Yanapaccha',
+      // 2026-09-19 expansion
+      'Mount Darwin (Chile)'],
     'the Rockies': ['Mount Elbert', 'Pikes Peak', 'Grand Teton', 'Longs Peak', 'Mount Robson',
       // 2026-09-14 expansion
       'Mount Massive', 'Mount Harvard', 'Blanca Peak', 'La Plata Peak', 'Uncompahgre Peak',
@@ -1766,7 +1785,20 @@ globalThis.WORMILLION_THEMES = {
       'Taftan', 'Little Ararat', 'Mount Tendurek', 'Karaca Dag', 'Azhdahak',
       'Bazman', 'Mount Karadag', 'Ara', 'Gollu Dag',
       // 2026-09-19 expansion
-      'Mount Nemrut (Bitlis)'
+      'Mount Nemrut (Bitlis)',
+      // 2026-09-19 expansion
+      'Huaynaputina', 'Quilotoa', 'Aucanquilcha', 'Cerro Panizos', 'Galan',
+      'Incahuasi', 'Cerro Blanco', 'Pichu Pichu', 'Cerro Azul (Chile)', 'La Pacana',
+      'Illiniza', 'Lautaro', 'Pululahua', 'Cerro Azul (Galapagos)', 'Ollague',
+      'Reclus', 'San Jose', 'Socompa', 'San Pedro (Chile)', 'Sara Sara',
+      'Acotango', 'Alcedo Volcano', 'Antuco', 'Aracar', 'Carihuairazo',
+      'Tipas', 'Cerro Machin', 'Cerro Toco', 'Copahue', 'Hualca Hualca',
+      'Lastarria', 'Lonquimay', 'Maipo', 'Monte Burney', 'Nevado de Santa Isabel',
+      'Nevado del Quindio', 'Pomerape', 'Sollipulli', 'Tacora', 'Tupungatito',
+      'Acamarachi', 'Antofalla', 'Azufral', 'Nevado San Francisco', 'Chiles',
+      'Cumbal Volcano', 'Dona Juana', 'Melimoyu', 'Mocho-Choshuenco', 'Planchon-Peteroa',
+      'Ruminahui', 'Sairecabur', 'Solimana', 'Sumaco', 'Tata Sabaya',
+      'Tutupaca'
     ]
   },
 

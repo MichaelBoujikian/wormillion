@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T15:32:38.639Z",
+ "fetched": "2026-09-19T16:14:21.538Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -103898,7 +103898,7 @@
    "lat": 44.09360572,
    "lon": -71.44680278
   },
-  "mountain-mount-darwin": {
+  "mountain-mount-darwin-california": {
    "title": "Mount Darwin (California)",
    "monthlyViews": 213,
    "days": 60,
@@ -114656,6 +114656,678 @@
    "days": 60,
    "lat": null,
    "lon": null
+  },
+  "mountain-vinicunca": {
+   "title": "Vinicunca",
+   "monthlyViews": 8158,
+   "days": 60,
+   "lat": -13.870227,
+   "lon": -71.302951
+  },
+  "mountain-pico-simon-bolivar": {
+   "title": "Pico Simón Bolívar",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 10.83472222,
+   "lon": -73.69055556
+  },
+  "mountain-artesonraju": {
+   "title": "Artesonraju",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": -8.95,
+   "lon": -77.63333333
+  },
+  "mountain-siula-grande": {
+   "title": "Siula Grande",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": -10.28333333,
+   "lon": -76.88333333
+  },
+  "mountain-huaynaputina": {
+   "title": "Huaynaputina",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": -16.61555556,
+   "lon": -70.84972222
+  },
+  "mountain-quilotoa": {
+   "title": "Quilotoa",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": -0.85,
+   "lon": -78.9
+  },
+  "mountain-aucanquilcha": {
+   "title": "Aucanquilcha",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": -21.22083333,
+   "lon": -68.46861111
+  },
+  "mountain-kukenan-tepui": {
+   "title": "Kukenán-tepui",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 5.21010556,
+   "lon": -60.83116111
+  },
+  "mountain-cerro-paranal": {
+   "title": "Cerro Paranal",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": -24.62722222,
+   "lon": -70.40472222
+  },
+  "mountain-cerro-autana": {
+   "title": "Cerro Autana",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-cerro-panizos": {
+   "title": "Cerro Panizos",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": -22.25,
+   "lon": -66.75
+  },
+  "mountain-galan": {
+   "title": "Galán",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": -25.93,
+   "lon": -66.92
+  },
+  "mountain-veronica": {
+   "title": "Veronica (mountain)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": -13.16416667,
+   "lon": -72.32583333
+  },
+  "mountain-cerro-sarisarinama": {
+   "title": "Cerro Sarisariñama",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 4.55,
+   "lon": -64.23333333
+  },
+  "mountain-incahuasi": {
+   "title": "Incahuasi",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": -27.033,
+   "lon": -68.296
+  },
+  "mountain-pico-do-jaragua": {
+   "title": "Pico do Jaraguá",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": -23.45833333,
+   "lon": -46.76527778
+  },
+  "mountain-cerro-blanco": {
+   "title": "Cerro Blanco (volcano)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": -26.76027778,
+   "lon": -67.74138889
+  },
+  "mountain-huandoy": {
+   "title": "Huandoy",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": -9.02861111,
+   "lon": -77.66555556
+  },
+  "mountain-pichu-pichu": {
+   "title": "Pichu Pichu",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": -16.44113889,
+   "lon": -71.24038889
+  },
+  "mountain-chopicalqui": {
+   "title": "Chopicalqui",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": -9.08666667,
+   "lon": -77.57388889
+  },
+  "mountain-cerro-azul-chile": {
+   "title": "Cerro Azul (Chile volcano)",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": -35.653,
+   "lon": -70.761
+  },
+  "mountain-la-pacana": {
+   "title": "La Pacana",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": -23.21972222,
+   "lon": -67.46611111
+  },
+  "mountain-monte-pascoal": {
+   "title": "Monte Pascoal",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": -16.895965,
+   "lon": -39.407814
+  },
+  "mountain-kunturiri": {
+   "title": "Kunturiri (Los Andes)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": -16.16833333,
+   "lon": -68.24277778
+  },
+  "mountain-pedra-da-mina": {
+   "title": "Pedra da Mina",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": -22.41666667,
+   "lon": -44.85
+  },
+  "mountain-ritacuba-blanco": {
+   "title": "Ritacuba Blanco",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 6.49416667,
+   "lon": -72.2975
+  },
+  "mountain-chacraraju": {
+   "title": "Chacraraju",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -8.993261,
+   "lon": -77.614975
+  },
+  "mountain-illiniza": {
+   "title": "Illiniza",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -0.65944444,
+   "lon": -78.71361111
+  },
+  "mountain-jirishanca": {
+   "title": "Jirishanca",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -10.236593,
+   "lon": -76.905052
+  },
+  "mountain-lautaro": {
+   "title": "Lautaro (volcano)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -49.019,
+   "lon": -73.504
+  },
+  "mountain-pico-31-de-marco": {
+   "title": "Pico 31 de Março",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 0.8,
+   "lon": -66
+  },
+  "mountain-pululahua": {
+   "title": "Pululahua",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 0.038,
+   "lon": -78.463
+  },
+  "mountain-cerro-azul-galapagos": {
+   "title": "Cerro Azul (Ecuador volcano)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -0.92,
+   "lon": -91.408
+  },
+  "mountain-monte-san-valentin": {
+   "title": "Monte San Valentín",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -46.595,
+   "lon": -73.34583333
+  },
+  "mountain-pisco": {
+   "title": "Pisco (mountain)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -9.01183333,
+   "lon": -77.63113889
+  },
+  "mountain-ollague": {
+   "title": "Ollagüe",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -21.28333333,
+   "lon": -68.18333333
+  },
+  "mountain-pico-espejo": {
+   "title": "Pico Espejo",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 8.52916667,
+   "lon": -71.06361111
+  },
+  "mountain-reclus": {
+   "title": "Reclus (volcano)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-san-jose": {
+   "title": "San José (volcano)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -33.78641667,
+   "lon": -69.89866667
+  },
+  "mountain-socompa": {
+   "title": "Socompa",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -24.39583333,
+   "lon": -68.24583333
+  },
+  "mountain-tafelberg": {
+   "title": "Tafelberg, Suriname",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 3.90833333,
+   "lon": -56.17222222
+  },
+  "mountain-yerupaja-chico": {
+   "title": "Yerupaja Chico",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -10.24833333,
+   "lon": -76.9025
+  },
+  "mountain-cerro-marahuaca": {
+   "title": "Cerro Marahuaca",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 3.66,
+   "lon": -65.40666667
+  },
+  "mountain-monte-sarmiento": {
+   "title": "Monte Sarmiento",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -54.45,
+   "lon": -70.83333333
+  },
+  "mountain-pico-do-monte-negro": {
+   "title": "Pico do Monte Negro",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -28.61666667,
+   "lon": -49.8
+  },
+  "mountain-san-pedro-chile": {
+   "title": "San Pedro (Chile volcano)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -21.88777778,
+   "lon": -68.39138889
+  },
+  "mountain-sara-sara": {
+   "title": "Sara Sara",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -15.32944444,
+   "lon": -73.44472222
+  },
+  "mountain-tocllaraju": {
+   "title": "Tocllaraju",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -9.34762778,
+   "lon": -77.39679722
+  },
+  "mountain-acotango": {
+   "title": "Acotango",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -18.38222222,
+   "lon": -69.04777778
+  },
+  "mountain-alcedo-volcano": {
+   "title": "Alcedo Volcano",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -0.43,
+   "lon": -91.12
+  },
+  "mountain-antuco": {
+   "title": "Antuco (volcano)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-aracar": {
+   "title": "Aracar",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -24.29,
+   "lon": -67.78333333
+  },
+  "mountain-carihuairazo": {
+   "title": "Carihuairazo",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -1.40694444,
+   "lon": -78.75
+  },
+  "mountain-tipas": {
+   "title": "Tipas",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -27.1961,
+   "lon": -68.5608
+  },
+  "mountain-cerro-machin": {
+   "title": "Cerro Machín",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 4.48333333,
+   "lon": -75.39166667
+  },
+  "mountain-cerro-toco": {
+   "title": "Cerro Toco",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -22.93993333,
+   "lon": -67.78026667
+  },
+  "mountain-copahue": {
+   "title": "Copahue",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -37.85,
+   "lon": -71.16666667
+  },
+  "mountain-hualca-hualca": {
+   "title": "Hualca Hualca",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -15.72027778,
+   "lon": -71.86055556
+  },
+  "mountain-huantsan": {
+   "title": "Huantsán",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -9.51583333,
+   "lon": -77.31
+  },
+  "mountain-laram-q-awa": {
+   "title": "Laram Q'awa (Charaña)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -18.01916667,
+   "lon": -69.1425
+  },
+  "mountain-lastarria": {
+   "title": "Lastarria",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -25.16666667,
+   "lon": -68.51666667
+  },
+  "mountain-lonquimay": {
+   "title": "Lonquimay (volcano)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-maipo": {
+   "title": "Maipo (volcano)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -34.161,
+   "lon": -69.833
+  },
+  "mountain-monte-burney": {
+   "title": "Monte Burney",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -52.33,
+   "lon": -73.4
+  },
+  "mountain-nevado-de-santa-isabel": {
+   "title": "Nevado de Santa Isabel",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 4.81666667,
+   "lon": -75.36666667
+  },
+  "mountain-nevado-del-quindio": {
+   "title": "Nevado del Quindío",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 4.71555556,
+   "lon": -75.38833333
+  },
+  "mountain-pico-naiguata": {
+   "title": "Pico Naiguatá",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 10.54333333,
+   "lon": -66.7825
+  },
+  "mountain-pico-dos-marins": {
+   "title": "Pico dos Marins",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -22.5025,
+   "lon": -45.12111111
+  },
+  "mountain-pomerape": {
+   "title": "Pomerape",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-quitaraju": {
+   "title": "Quitaraju",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -8.89472222,
+   "lon": -77.66277778
+  },
+  "mountain-santa-cruz": {
+   "title": "Santa Cruz (mountain)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -8.89429,
+   "lon": -77.7083
+  },
+  "mountain-sollipulli": {
+   "title": "Sollipulli",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -38.975,
+   "lon": -71.52
+  },
+  "mountain-tacora": {
+   "title": "Tacora",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -17.72055556,
+   "lon": -69.77277778
+  },
+  "mountain-tupungatito": {
+   "title": "Tupungatito",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-acamarachi": {
+   "title": "Acamarachi",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -23.3,
+   "lon": -67.61666667
+  },
+  "mountain-antofalla": {
+   "title": "Antofalla",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-azufral": {
+   "title": "Azufral",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 1.08333333,
+   "lon": -77.68333333
+  },
+  "mountain-cerro-la-campana": {
+   "title": "Cerro La Campana",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -32.95361111,
+   "lon": -71.11944444
+  },
+  "mountain-nevado-san-francisco": {
+   "title": "Nevado San Francisco",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -26.9188,
+   "lon": -68.26269722
+  },
+  "mountain-chicon": {
+   "title": "Chicón",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -13.23666667,
+   "lon": -72.05611111
+  },
+  "mountain-chiles": {
+   "title": "Chiles (volcano)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 0.82111111,
+   "lon": -77.935
+  },
+  "mountain-cumbal-volcano": {
+   "title": "Cumbal Volcano",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 0.949,
+   "lon": -77.888
+  },
+  "mountain-dona-juana": {
+   "title": "Doña Juana",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 1.5,
+   "lon": -76.93611111
+  },
+  "mountain-melimoyu": {
+   "title": "Melimoyu",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -44.07583333,
+   "lon": -72.86
+  },
+  "mountain-mocho-choshuenco": {
+   "title": "Mocho-Choshuenco",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -39.90972222,
+   "lon": -72.0375
+  },
+  "mountain-monte-caburai": {
+   "title": "Monte Caburaí",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 5.27222222,
+   "lon": -60.21194444
+  },
+  "mountain-mururata": {
+   "title": "Mururata",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -16.53055556,
+   "lon": -67.8275
+  },
+  "mountain-planchon-peteroa": {
+   "title": "Planchón-Peteroa",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -35.24,
+   "lon": -70.57
+  },
+  "mountain-ruminahui": {
+   "title": "Rumiñahui (volcano)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -0.63333333,
+   "lon": -78.53333333
+  },
+  "mountain-sairecabur": {
+   "title": "Sairecabur",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -22.71888889,
+   "lon": -67.89055556
+  },
+  "mountain-solimana": {
+   "title": "Solimana (volcano)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -15.41,
+   "lon": -72.89305556
+  },
+  "mountain-sumaco": {
+   "title": "Sumaco",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -0.53805556,
+   "lon": -77.62583333
+  },
+  "mountain-tata-sabaya": {
+   "title": "Tata Sabaya",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -19.13333333,
+   "lon": -68.53333333
+  },
+  "mountain-tutupaca": {
+   "title": "Tutupaca",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -17.026,
+   "lon": -70.372
+  },
+  "mountain-yanapaccha": {
+   "title": "Yanapaccha",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -9.02638889,
+   "lon": -77.57694444
+  },
+  "mountain-mount-darwin-chile": {
+   "title": "Mount Darwin (Andes)",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": -54.75,
+   "lon": -69.48333333
   },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",

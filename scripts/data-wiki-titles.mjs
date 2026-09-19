@@ -4965,7 +4965,7 @@ export const WIKI_TITLES = {
   "mountain-hogback-mountain": "Hogback Mountain (Vermont)",
   "mountain-mount-tripyramid": "Mount Tripyramid (New Hampshire)",
   "mountain-mount-aeolus": "Mount Aeolus (Vermont)",
-  "mountain-mount-darwin": "Mount Darwin (California)",
+  "mountain-mount-darwin-california": "Mount Darwin (California)",
   "mountain-mount-ellen": "Mount Ellen (Utah)",
   "mountain-mount-phillips": "Mount Phillips (New Mexico)",
   "mountain-pigeon-mountain": "Pigeon Mountain (Georgia)",
@@ -9792,7 +9792,47 @@ export const WIKI_TITLES = {
   "lake-rincon-del-bonete-reservoir": "Rincón del Bonete Reservoir",
   "lake-tomine-reservoir": "Tominé Reservoir",
   "lake-alumine-lake": "Aluminé Lake",
-  "lake-cochrane-lake": "Cochrane/Pueyrredón Lake"
+  "lake-cochrane-lake": "Cochrane/Pueyrredón Lake",
+
+  // --- mountain (2026-09-19 expansion) ---
+  "mountain-pico-simon-bolivar": "Pico Simón Bolívar",
+  "mountain-kukenan-tepui": "Kukenán-tepui",
+  "mountain-galan": "Galán",
+  "mountain-veronica": "Veronica (mountain)",
+  "mountain-cerro-sarisarinama": "Cerro Sarisariñama",
+  "mountain-pico-do-jaragua": "Pico do Jaraguá",
+  "mountain-cerro-blanco": "Cerro Blanco (volcano)",
+  "mountain-cerro-azul-chile": "Cerro Azul (Chile volcano)",
+  "mountain-kunturiri": "Kunturiri (Los Andes)",
+  "mountain-lautaro": "Lautaro (volcano)",
+  "mountain-pico-31-de-marco": "Pico 31 de Março",
+  "mountain-cerro-azul-galapagos": "Cerro Azul (Ecuador volcano)",
+  "mountain-monte-san-valentin": "Monte San Valentín",
+  "mountain-pisco": "Pisco (mountain)",
+  "mountain-ollague": "Ollagüe",
+  "mountain-reclus": "Reclus (volcano)",
+  "mountain-san-jose": "San José (volcano)",
+  "mountain-tafelberg": "Tafelberg, Suriname",
+  "mountain-san-pedro-chile": "San Pedro (Chile volcano)",
+  "mountain-antuco": "Antuco (volcano)",
+  "mountain-cerro-machin": "Cerro Machín",
+  "mountain-huantsan": "Huantsán",
+  "mountain-laram-q-awa": "Laram Q'awa (Charaña)",
+  "mountain-lonquimay": "Lonquimay (volcano)",
+  "mountain-maipo": "Maipo (volcano)",
+  "mountain-nevado-del-quindio": "Nevado del Quindío",
+  "mountain-pico-naiguata": "Pico Naiguatá",
+  "mountain-santa-cruz": "Santa Cruz (mountain)",
+  "mountain-chicon": "Chicón",
+  "mountain-chiles": "Chiles (volcano)",
+  "mountain-dona-juana": "Doña Juana",
+  "mountain-monte-caburai": "Monte Caburaí",
+  "mountain-planchon-peteroa": "Planchón-Peteroa",
+  "mountain-ruminahui": "Rumiñahui (volcano)",
+  "mountain-solimana": "Solimana (volcano)",
+
+  // --- mountain (2026-09-19 expansion) ---
+  "mountain-mount-darwin-chile": "Mount Darwin (Andes)"
 };
 
 /**
@@ -10407,5 +10447,7 @@ export const WIKI_VERIFIED = new Set([
   "island-halul-island",
   "island-jubail-island",
   // --- 2026-09-19 West and Central Asia seas: ANZAC Cove (Wikidata describes the battle site, the article is the cove) ---
-  "sea_ocean-anzac-cove"
+  "sea_ocean-anzac-cove",
+  // --- 2026-09-19 South America mountains: Alcedo Volcano (Galapagos; no short description) ---
+  "mountain-alcedo-volcano"
 ]);
