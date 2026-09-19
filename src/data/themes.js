@@ -663,6 +663,22 @@ globalThis.WORMILLION_THEMES = {
       'Odra (Croatia)', 'Svislach (Grodno)', 'Blanice (Central Bohemia)', 'Bobr (Belarus)', 'Cerna (Hunedoara)',
       'Gauja (Lithuania)', 'Jadar (Bosnia)', 'Sluch (Belarus)', 'Sventoji (Palanga)'
     ],
+    // 2026-09-18 East Asia wave: the three national river themes, seeded with the incumbents
+    'China': [
+      'Yangtze', 'Yellow River', 'Pearl River', 'Mekong', 'Salween', 'Amur', 'Tarim River', 'Songhua', 'Ili',
+      'Kherlen', 'Argun', 'Ussuri', 'Nen', 'Mudan', 'Tumen', 'Yalu', 'Liao', 'Hai', 'Luan', 'Yongding',
+      'Huai', 'Jialing', 'Min (Sichuan)', 'Dadu', 'Wu', 'Yuan', 'Xiang', 'Gan', 'Qiantang', 'Ou', 'Jiulong',
+      'Yu', 'Hongshui', 'Jinsha', 'Yalong', 'Yarlung Tsangpo', 'Lhasa River', 'Hotan', 'Yarkand', 'Kashgar',
+      'Ulungur', 'Heihe', 'Wei', 'Jing', 'Fen', 'Tao', 'Huangshui', 'Datong', 'Wuding'
+    ],
+    'Japan': [
+      'Shinano', 'Ishikari', 'Kitakami', 'Kiso', 'Tenryu', 'Mogami', 'Agano', 'Yodo', 'Tama', 'Sagami',
+      'Fuji', 'Oi', 'Abe', 'Yoshino', 'Shimanto', 'Chikugo', 'Teshio', 'Tokachi', 'Kushiro', 'Omono',
+      'Abukuma', 'Kinu', 'Kuji', 'Naka', 'Arakawa', 'Sumida', 'Kamo'
+    ],
+    'Korea': [
+      'Han River', 'Tumen', 'Yalu', 'Nakdong', 'Geum', 'Taedong', 'Imjin', 'Yeongsan', 'Seomjin', 'Namhan', 'Chongchon'
+    ],
     'India': [
       'Ganges', 'Brahmaputra', 'Indus', 'Yamuna', 'Godavari', 'Krishna River',
       'Narmada', 'Sutlej', 'Chenab',
