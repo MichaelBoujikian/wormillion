@@ -34,6 +34,24 @@ rest.
    are in `article-size.mjs` (`--sister=ro` for Romania's 1,940 stubs). The
    Mexico and Canada probes (`probes/mx-*.json`, `ca-*.json`, `mx-ca-*.json`)
    are the freshest templates.
+   **Status 2026-09-18 (paused by the user, safely):** the Eastern Europe
+   wave is four cohorts in — rivers (`56345e6`), lakes (`0e1401e`),
+   mountains (`62f1ad8`), islands (`1dd1c79`), with the rivers / lakes /
+   mountains audit round applied (`c386a14`; the islands have NOT been
+   audited yet — the next audit round should cover islands + seas +
+   deserts together). Bank 17,652. **The seas probe
+   (`probes/ee-seas.json`) was stopped during its views stage** and the
+   deserts probe (`probes/ee-deserts.json`) had not started; re-run
+   `node scripts/expansion/probe.mjs scripts/expansion/probes/ee-seas.json`
+   (it resumes from `work/ee-seas-cache.json`), then the deserts probe, then
+   for the seas: `article-size.mjs --no-figure --min-views=213`, the probe
+   again, `chunk --tag=ee --themes="Europe" --min-views=213
+   --allow-no-figure`, cut the worldwide lists' foreign rows to the 21
+   countries (the Mexico/Canada seas report shows how), fold, `--taken-only`;
+   deserts: one small chunk (theme `Europe`). Then cities (`eu-cities.json`
+   is the template; `listCountry` per list; the 91-views city floor), the
+   islands + seas + deserts + cities audit rounds, the wave report, HANDOFF
+   — and on to East Asia (the roadmap; the user's standing instruction).
 3. Release only when the user says so, by "The release procedure" below —
    a push to `main` deploys GitHub Pages and builds Netlify; it is never a
    routine push.
