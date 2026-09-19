@@ -22,22 +22,25 @@ per wave) and SPEC §13; git log has the rest.
 **Resume point (refreshed with every chunk commit — the user's standing
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
-do the next thing named here):** The West and Central Asia wave is CLOSED
-(`reports/2026-09-19-wca-wave.md`, bank 20,225). SOUTH AMERICA has started:
-this commit carries the eight probe configs `probes/sa-*.json` and the
-closed wave's write-up. NEXT: probe 1 - `node scripts/expansion/probe.mjs
-scripts/expansion/probes/sa-rivers-big.json >
-scripts/expansion/work/sa-rivers-big.out` (Brazil, Argentina, Colombia,
-Peru, Venezuela, Chile, Bolivia at 80 km; ends with `PROBE-DONE`), then
-`article-size.mjs work/sa-rivers-big.json --no-figure --min-views=30
---sister=es,pt`, the probe again, `chunk --tag=sa --min-views=30
---allow-no-figure`, hand-clean (the scratchpad's `clean-wca2.cjs` pattern
-with a South America country map; theme `South America` for every row; cut
-the concept rows and the foreign ones), fold, `--taken-only --tag=ns-sa`,
-qualify, fold, pipeline, report `reports/2026-09-19-sa-rivers-big.md` (or
-the day's date), commit, push. Then `sa-rivers-small.json` (60 km), lakes,
-mountains, islands, seas, deserts, cities, the two audit rounds, the wave
-report - step 3 below. Nothing uncommitted.
+do the next thing named here):** South America wave: probe 1 (the big
+countries' rivers) DONE - this commit (206 + 27 namesakes,
+`reports/2026-09-19-sa-rivers-big.md`; the incumbent Negro River renamed Rio
+Negro (Amazon)). NEXT: probe 2, the small countries' rivers - `node
+scripts/expansion/probe.mjs scripts/expansion/probes/sa-rivers-small.json >
+scripts/expansion/work/sa-rivers-small.out` (Ecuador, Paraguay, Uruguay,
+Guyana, Suriname, French Guiana at 60 km), then `article-size.mjs
+work/sa-rivers-small.json --no-figure --min-views=30 --sister=es,pt,fr,nl`,
+the probe again, `chunk --tag=sa2 --min-views=30 --allow-no-figure`,
+hand-clean with the scratchpad's `clean-sa-rivers.cjs`
+(PROBE=sa-rivers-small TAG=sa2; KEEP the rows whose description does not
+start with "River"; French Guiana's rows are France's for a city, but rivers
+carry no country), fold, `--taken-only --tag=ns-sa2`, qualify, fold,
+pipeline, report, commit, push. Then lakes (`sa-lakes.json`), mountains
+(`sa-mountains.json` - replace the lists the probe reports missing;
+`range-tag.mjs "the Andes"` has no table - the Andes theme is by hand /
+description), islands, seas, deserts, cities, the two audit rounds (the
+pattern: `workflows/scripts/wca-*-audit-*.js`), the wave report - HANDOFF
+step 3. Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe, East Asia and West and Central Asia waves + this

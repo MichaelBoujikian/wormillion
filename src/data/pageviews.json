@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T13:15:33.911Z",
+ "fetched": "2026-09-19T14:53:34.973Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -53225,7 +53225,7 @@
    "lat": -0.5,
    "lon": 17.7
   },
-  "river-negro-river": {
+  "river-rio-negro-amazon": {
    "title": "Rio Negro (Amazon)",
    "monthlyViews": 4292,
    "days": 59,
@@ -57124,7 +57124,7 @@
    "lat": 38.4894,
    "lon": -8.92333
   },
-  "river-mira": {
+  "river-mira-portugal": {
    "title": "Mira River (Portugal)",
    "monthlyViews": 122,
    "days": 60,
@@ -62808,7 +62808,7 @@
    "lat": 15.46667,
    "lon": -89.36667
   },
-  "river-dulce": {
+  "river-dulce-guatemala": {
    "title": "Dulce River (Guatemala)",
    "monthlyViews": 335,
    "days": 60,
@@ -63697,7 +63697,7 @@
    "lat": -15.85,
    "lon": -38.8575
   },
-  "river-pardo": {
+  "river-pardo-bahia": {
    "title": "Pardo River (Bahia)",
    "monthlyViews": 22,
    "days": 54,
@@ -63753,7 +63753,7 @@
    "lat": -20.62777778,
    "lon": -51.565
   },
-  "river-piracicaba": {
+  "river-piracicaba-minas-gerais": {
    "title": "Piracicaba River (Minas Gerais)",
    "monthlyViews": 30,
    "days": 60,
@@ -63823,7 +63823,7 @@
    "lat": -30.0328,
    "lon": -51.2461
   },
-  "river-taquari": {
+  "river-taquari-rio-grande-do-sul": {
    "title": "Taquari River (Rio Grande do Sul)",
    "monthlyViews": 30,
    "days": 60,
@@ -63844,7 +63844,7 @@
    "lat": -29.42111111,
    "lon": -56.77222222
   },
-  "river-desaguadero": {
+  "river-desaguadero-bolivia": {
    "title": "Desaguadero River (Bolivia and Peru)",
    "monthlyViews": 183,
    "days": 60,
@@ -64187,7 +64187,7 @@
    "lat": -51.59444444,
    "lon": -68.975
   },
-  "river-chico": {
+  "river-chico-santa-cruz": {
    "title": "Chico River (Santa Cruz)",
    "monthlyViews": 22,
    "days": 56,
@@ -90464,6 +90464,1637 @@
    "days": 59,
    "lat": 40.6453,
    "lon": 73.4246
+  },
+  "river-roosevelt": {
+   "title": "Roosevelt River",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": -7.57527778,
+   "lon": -60.67583333
+  },
+  "river-tuichi": {
+   "title": "Tuichi River",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": -14.35,
+   "lon": -67.95
+  },
+  "river-rimac": {
+   "title": "Rímac River",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": -11.9473,
+   "lon": -76.70792
+  },
+  "river-para": {
+   "title": "Pará River",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": -1.72871,
+   "lon": -49.1762
+  },
+  "river-maici": {
+   "title": "Maici River",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-acre": {
+   "title": "Acre River",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": -8.7532,
+   "lon": -67.4006
+  },
+  "river-guayas": {
+   "title": "Guayas River",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": -2.651358,
+   "lon": -79.909052
+  },
+  "river-aripuana": {
+   "title": "Aripuanã River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": -5.11861111,
+   "lon": -60.38194444
+  },
+  "river-sao-lourenco": {
+   "title": "São Lourenço River (Mato Grosso)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -17.901257,
+   "lon": -57.459036
+  },
+  "river-chillon": {
+   "title": "Chillón River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -11.94,
+   "lon": -77.1386
+  },
+  "river-fortaleza": {
+   "title": "Fortaleza River (Peru)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -10.6482,
+   "lon": -77.8609
+  },
+  "river-heath": {
+   "title": "Heath River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -12.8333,
+   "lon": -68.8361
+  },
+  "river-madidi": {
+   "title": "Madidi River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -12.56611111,
+   "lon": -66.96444444
+  },
+  "river-sucuriu": {
+   "title": "Sucuriú River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -20.71194444,
+   "lon": -51.66
+  },
+  "river-barima": {
+   "title": "Barima River",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 8.58333333,
+   "lon": -60.41666667
+  },
+  "river-carhuasanta": {
+   "title": "Carhuasanta",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-cenepa": {
+   "title": "Cenepa River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -4.65111111,
+   "lon": -78.14805556
+  },
+  "river-cuiaba": {
+   "title": "Cuiabá River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -17.158563,
+   "lon": -56.643782
+  },
+  "river-lurin": {
+   "title": "Lurín River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -12.275,
+   "lon": -76.9036
+  },
+  "river-rio-primero": {
+   "title": "Primero River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -31.375,
+   "lon": -64.46666667
+  },
+  "river-santa": {
+   "title": "Santa River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -8.965844,
+   "lon": -78.634712
+  },
+  "river-yapacani": {
+   "title": "Yapacaní River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-atuel": {
+   "title": "Atuel River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -34.55472222,
+   "lon": -70.085
+  },
+  "river-barrancas": {
+   "title": "Barrancas River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -37.37666667,
+   "lon": -68.92083333
+  },
+  "river-colca": {
+   "title": "Colca River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -16.63111111,
+   "lon": -72.76416667
+  },
+  "river-carrao": {
+   "title": "Carrao River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-corumba": {
+   "title": "Corumbá River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -18.2436,
+   "lon": -48.7833
+  },
+  "river-guama": {
+   "title": "Guamá River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -1.483715,
+   "lon": -48.483699
+  },
+  "river-las-piedras": {
+   "title": "Las Piedras River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -11.0667,
+   "lon": -71.7667
+  },
+  "river-tefe": {
+   "title": "Tefé River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -4.47055556,
+   "lon": -65.4925
+  },
+  "river-urubu": {
+   "title": "Urubu River (Amazonas)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -2.843412,
+   "lon": -58.254823
+  },
+  "river-abuna": {
+   "title": "Abuna River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -9.67166667,
+   "lon": -65.44638889
+  },
+  "river-amacuro": {
+   "title": "Amacuro River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-ji-parana": {
+   "title": "Ji-Paraná River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -8.048599,
+   "lon": -62.897437
+  },
+  "river-arari": {
+   "title": "Arari River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -1.19,
+   "lon": -48.739
+  },
+  "river-chinchipe": {
+   "title": "Chinchipe River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -5.51666667,
+   "lon": -78.55
+  },
+  "river-chira": {
+   "title": "Chira River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -4.9,
+   "lon": -81.13333333
+  },
+  "river-corriente": {
+   "title": "Corriente River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": -30.01055556,
+   "lon": -59.55583333
+  },
+  "river-diamante": {
+   "title": "Diamante River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -34.46666667,
+   "lon": -64.75
+  },
+  "river-rio-dos-marmelos": {
+   "title": "Dos Marmelos River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -6.147621,
+   "lon": -61.786841
+  },
+  "river-guandu": {
+   "title": "Guandu River (Rio de Janeiro)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": -22.95,
+   "lon": -43.75
+  },
+  "river-jaguarao": {
+   "title": "Jaguarão River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -32.65388889,
+   "lon": -53.18222222
+  },
+  "river-jutai": {
+   "title": "Jutaí River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": -2.745032,
+   "lon": -66.785708
+  },
+  "river-manso-patagonia": {
+   "title": "Manso River (Argentina and Chile)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-manu": {
+   "title": "Manu River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -12.26666667,
+   "lon": -70.85
+  },
+  "river-meia-ponte": {
+   "title": "Meia Ponte River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -18.54416667,
+   "lon": -49.59666667
+  },
+  "river-mendoza": {
+   "title": "Mendoza River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -32.1281,
+   "lon": -68.2056
+  },
+  "river-moche": {
+   "title": "Moche River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -8.1622,
+   "lon": -79.0346
+  },
+  "river-osmore": {
+   "title": "Osmore River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -17.71666667,
+   "lon": -71.33333333
+  },
+  "river-parapeti": {
+   "title": "Parapetí River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -18.04055556,
+   "lon": -61.64444444
+  },
+  "river-paraiba-do-norte": {
+   "title": "Paraíba do Norte River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-perene": {
+   "title": "Perené River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -11.165,
+   "lon": -74.23416667
+  },
+  "river-pinturas": {
+   "title": "Pinturas River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -46.583,
+   "lon": -70.3
+  },
+  "river-pirai": {
+   "title": "Piraí River (Bolivia)",
+   "monthlyViews": 61,
+   "days": 55,
+   "lat": -18.18722222,
+   "lon": -63.55944444
+  },
+  "river-piura": {
+   "title": "Piura River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": -5.77222222,
+   "lon": -80.86861111
+  },
+  "river-preguicas": {
+   "title": "Preguiças River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -2.55694444,
+   "lon": -42.74777778
+  },
+  "river-rio-quinto": {
+   "title": "Quinto River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -33.1139,
+   "lon": -66.0027
+  },
+  "river-rio-das-mortes-mato-grosso": {
+   "title": "Rio das Mortes",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -11.73333333,
+   "lon": -50.71666667
+  },
+  "river-simpson": {
+   "title": "Simpson River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": -45.4059,
+   "lon": -72.4981
+  },
+  "river-tapaua": {
+   "title": "Tapauá River",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": -5.7783,
+   "lon": -64.399372
+  },
+  "river-tumbes": {
+   "title": "Tumbes River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -3.49,
+   "lon": -80.425
+  },
+  "river-tuy": {
+   "title": "Tuy River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-uatuma": {
+   "title": "Uatumã River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -2.41527778,
+   "lon": -57.57722222
+  },
+  "river-uraricoera": {
+   "title": "Uraricoera River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 3.030453,
+   "lon": -60.4896
+  },
+  "river-utcubamba": {
+   "title": "Utcubamba (river)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-abacaxis": {
+   "title": "Abacaxis River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -3.913383,
+   "lon": -58.785378
+  },
+  "river-abaete": {
+   "title": "Abaeté River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -18.03333333,
+   "lon": -45.18333333
+  },
+  "river-abaucan": {
+   "title": "Abaucán River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -27.6763897,
+   "lon": -67.6105957
+  },
+  "river-acarau": {
+   "title": "Acaraú River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -2.840102,
+   "lon": -40.141761
+  },
+  "river-acari": {
+   "title": "Acari River (Amazonas)",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": -5.28222,
+   "lon": -59.681626
+  },
+  "river-acara": {
+   "title": "Acará River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -1.53333333,
+   "lon": -48.51666667
+  },
+  "river-agrio": {
+   "title": "Agrio River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -38.3672,
+   "lon": -69.7061
+  },
+  "river-aguapei": {
+   "title": "Aguapeí River (São Paulo)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -21.050759,
+   "lon": -51.766927
+  },
+  "river-aguaytia": {
+   "title": "Aguaytía River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -8.05652,
+   "lon": -74.6445
+  },
+  "river-almada": {
+   "title": "Almada River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -14.775278,
+   "lon": -39.051753
+  },
+  "river-jamari": {
+   "title": "Jamari River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-alumine": {
+   "title": "Aluminé River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -39.08833333,
+   "lon": -70.95833333
+  },
+  "river-anajas": {
+   "title": "Anajás River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -0.63,
+   "lon": -50.67694444
+  },
+  "river-anapu": {
+   "title": "Anapu River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -2.075736,
+   "lon": -51.486483
+  },
+  "river-apon": {
+   "title": "Apón River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 9.83814,
+   "lon": -72.107672
+  },
+  "river-aquidauana": {
+   "title": "Aquidauana River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -19.73333333,
+   "lon": -56.83333333
+  },
+  "river-aracuai": {
+   "title": "Araçuaí River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-araca": {
+   "title": "Araçá River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -0.422633,
+   "lon": -62.907775
+  },
+  "river-bacaja": {
+   "title": "Bacajá River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -3.506702,
+   "lon": -51.713164
+  },
+  "river-badajos": {
+   "title": "Badajós River",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": -3.25,
+   "lon": -63
+  },
+  "river-sao-mateus": {
+   "title": "São Mateus River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": -18.60416667,
+   "lon": -39.7275
+  },
+  "river-buranhem": {
+   "title": "Buranhém River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -16.45666667,
+   "lon": -39.065
+  },
+  "river-cachapoal": {
+   "title": "Cachapoal River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -34.27472222,
+   "lon": -71.43472222
+  },
+  "river-caete": {
+   "title": "Caeté River (Pará)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -0.9392,
+   "lon": -46.608677
+  },
+  "river-caine": {
+   "title": "Caine River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -17.70305556,
+   "lon": -66.24416667
+  },
+  "river-camarones": {
+   "title": "Camarones River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -19.185684,
+   "lon": -70.273872
+  },
+  "river-candeias": {
+   "title": "Candeias River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": -8.65,
+   "lon": -63.51666667
+  },
+  "river-caninde": {
+   "title": "Canindé River (Piauí)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-canuma": {
+   "title": "Canumã River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -3.99416667,
+   "lon": -59.09555556
+  },
+  "river-capim": {
+   "title": "Capim River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": -1.677832,
+   "lon": -47.793378
+  },
+  "river-caplina": {
+   "title": "Caplina River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -18.233333,
+   "lon": -70.55
+  },
+  "river-casma": {
+   "title": "Casma River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -9.449444,
+   "lon": -78.382375
+  },
+  "river-cautin": {
+   "title": "Cautín River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -38.7533,
+   "lon": -72.9806
+  },
+  "river-cai": {
+   "title": "Caí River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -29.93333333,
+   "lon": -51.26666667
+  },
+  "river-chapeco": {
+   "title": "Chapecó River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -27.095256,
+   "lon": -53.015777
+  },
+  "river-chimore": {
+   "title": "Chimoré River",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": -16.71666667,
+   "lon": -64.81666667
+  },
+  "river-coari": {
+   "title": "Coari River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-corrientes": {
+   "title": "Corrientes River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-cruces": {
+   "title": "Cruces River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -39.70722222,
+   "lon": -73.1975
+  },
+  "river-rio-cuarto": {
+   "title": "Cuarto River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -32.91527778,
+   "lon": -62.32472222
+  },
+  "river-cuchivero": {
+   "title": "Cuchivero River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 7.66,
+   "lon": -65.9567
+  },
+  "river-cunas": {
+   "title": "Cunas River",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": -12.064707,
+   "lon": -75.238752
+  },
+  "river-cunucunuma": {
+   "title": "Cunucunuma River",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 3.1675,
+   "lon": -66.0311
+  },
+  "river-curua": {
+   "title": "Curuá River (Iriri River tributary)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -5.376452,
+   "lon": -54.4525
+  },
+  "river-curuca": {
+   "title": "Curuçá River (Javari River tributary)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -4.44638889,
+   "lon": -71.40444444
+  },
+  "river-rio-das-antas": {
+   "title": "Das Antas River (Rio Grande do Sul)",
+   "monthlyViews": 30,
+   "days": 48,
+   "lat": -29.08333333,
+   "lon": -51.71666667
+  },
+  "river-rio-das-velhas": {
+   "title": "Das Velhas River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -17.2,
+   "lon": -44.83333333
+  },
+  "river-rio-de-contas": {
+   "title": "De Contas River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -13.505521,
+   "lon": -41.900193
+  },
+  "river-rio-do-peixe-sao-paulo": {
+   "title": "Rio do Peixe (Paraná River tributary)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -21.568,
+   "lon": -51.916
+  },
+  "river-dourado": {
+   "title": "Dourado River (São Paulo)",
+   "monthlyViews": 30,
+   "days": 44,
+   "lat": -21.36666667,
+   "lon": -49.68333333
+  },
+  "river-envira": {
+   "title": "Rio Envira",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": -7.496669,
+   "lon": -70.066312
+  },
+  "river-fresco": {
+   "title": "Fresco River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -6.645151,
+   "lon": -52.002631
+  },
+  "river-grajau": {
+   "title": "Grajaú River (Maranhão)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": -3.68333333,
+   "lon": -44.8
+  },
+  "river-gravatai": {
+   "title": "Gravataí River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -29.96666667,
+   "lon": -51.2
+  },
+  "river-gregorio": {
+   "title": "Gregório River (Amazonas)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": -6.815919,
+   "lon": -70.642425
+  },
+  "river-gualeguay": {
+   "title": "Gualeguay River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -33.30722222,
+   "lon": -59.64
+  },
+  "river-gualeguaychu": {
+   "title": "Gualeguaychú River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -33.08333333,
+   "lon": -58.41666667
+  },
+  "river-ijui": {
+   "title": "Ijuí River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -27.9675,
+   "lon": -55.33361111
+  },
+  "river-ilave": {
+   "title": "Ilave River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -15.9998,
+   "lon": -69.4443
+  },
+  "river-ipixuna": {
+   "title": "Ipixuna River (Purus River tributary)",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": -5.625987,
+   "lon": -63.192708
+  },
+  "river-isiboro": {
+   "title": "Isiboro River",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": -15.2258,
+   "lon": -64.9336
+  },
+  "river-itabapoana": {
+   "title": "Itabapoana River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -21.3,
+   "lon": -40.96666667
+  },
+  "river-itapicuru": {
+   "title": "Itapicuru River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -11.78333333,
+   "lon": -37.53333333
+  },
+  "river-itonomas": {
+   "title": "Itonomas River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -12.53888889,
+   "lon": -64.37027778
+  },
+  "river-ituxi": {
+   "title": "Ituxi River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-itui": {
+   "title": "Ituí River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": -4.89611111,
+   "lon": -70.41277778
+  },
+  "river-ivinhema": {
+   "title": "Ivinhema River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -23.25,
+   "lon": -53.71666667
+  },
+  "river-jaguaripe": {
+   "title": "Jaguaripe River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-jaguarizinho": {
+   "title": "Jaguarizinho River",
+   "monthlyViews": 30,
+   "days": 45,
+   "lat": -29.51666667,
+   "lon": -54.76666667
+  },
+  "river-jamanxim": {
+   "title": "Jamanxim River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -4.75626,
+   "lon": -56.4375
+  },
+  "river-jandiatuba": {
+   "title": "Jandiatuba River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-jatapu": {
+   "title": "Jatapu River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -2.47777778,
+   "lon": -58.22777778
+  },
+  "river-jauaperi": {
+   "title": "Jauaperi River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-jau": {
+   "title": "Jaú River (Amazonas)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-jequetepeque": {
+   "title": "Jequetepeque River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -7.3322,
+   "lon": -79.5914
+  },
+  "river-kaka": {
+   "title": "Kaka River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -15.35,
+   "lon": -68.05
+  },
+  "river-la-ligua": {
+   "title": "La Ligua River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-laja": {
+   "title": "Laja River (Chile)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -37.2699,
+   "lon": -72.7243
+  },
+  "river-laq-a-jawira": {
+   "title": "Laq'a Jawira",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": -19.2967,
+   "lon": -67.9553
+  },
+  "river-lawriqucha": {
+   "title": "Lawriqucha River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -9.9886,
+   "lon": -76.6824
+  },
+  "river-maicuru": {
+   "title": "Maicuru River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-manuripi": {
+   "title": "Manuripi River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -11.10416667,
+   "lon": -67.55916667
+  },
+  "river-manicore": {
+   "title": "Manicoré River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -5.858936,
+   "lon": -61.328736
+  },
+  "river-manso-mato-grosso": {
+   "title": "Manso River (Mato Grosso)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -14.697163,
+   "lon": -56.241403
+  },
+  "river-manuel-alves-grande": {
+   "title": "Manuel Alves Grande River",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": -7.44222222,
+   "lon": -47.58833333
+  },
+  "river-maranhao": {
+   "title": "Maranhão River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -14,
+   "lon": -48.4
+  },
+  "river-marie": {
+   "title": "Marié River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -0.42444444,
+   "lon": -66.39583333
+  },
+  "river-mataquito": {
+   "title": "Mataquito River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -34.9722,
+   "lon": -72.1858
+  },
+  "river-maullin": {
+   "title": "Maullín River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -41.6034,
+   "lon": -73.6646
+  },
+  "river-mauri": {
+   "title": "Mauri River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -17.2961,
+   "lon": -68.6092
+  },
+  "river-mayer": {
+   "title": "Mayer River",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": -48.355336,
+   "lon": -72.432861
+  },
+  "river-miranda": {
+   "title": "Miranda River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -19.41277778,
+   "lon": -57.33194444
+  },
+  "river-motupe": {
+   "title": "Motupe River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -6.52416667,
+   "lon": -80.12111111
+  },
+  "river-moxoto": {
+   "title": "Moxotó River",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": -9.33333333,
+   "lon": -38.23333333
+  },
+  "river-munim": {
+   "title": "Munim River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -2.749832,
+   "lon": -44.083259
+  },
+  "river-naposta-grande": {
+   "title": "Napostá Grande Stream",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": -38.79183563,
+   "lon": -62.23824234
+  },
+  "river-neveri": {
+   "title": "Neverí River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 10.1708,
+   "lon": -64.7081
+  },
+  "river-nieva": {
+   "title": "Nieva River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -4.5944,
+   "lon": -77.8639
+  },
+  "river-nogoya": {
+   "title": "Nogoyá River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": -32.91666667,
+   "lon": -59.98333333
+  },
+  "river-orthon": {
+   "title": "Orthon River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -11.10472222,
+   "lon": -67.55888889
+  },
+  "river-pacaja": {
+   "title": "Pacajá River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -1.999585,
+   "lon": -50.85461
+  },
+  "river-pajeu": {
+   "title": "Pajeú River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -7.54786,
+   "lon": -37.28936
+  },
+  "river-paraibuna-minas-gerais": {
+   "title": "Paraibuna River (Minas Gerais)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -22.10944444,
+   "lon": -43.13777778
+  },
+  "river-paraibuna-sao-paulo": {
+   "title": "Paraibuna River (São Paulo)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -23.368315,
+   "lon": -45.663922
+  },
+  "river-parana-do-uraria": {
+   "title": "Paraná do Urariá",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -3.06135,
+   "lon": -57.721263
+  },
+  "river-paraopeba": {
+   "title": "Paraopeba River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -18.214167,
+   "lon": -45.262778
+  },
+  "river-parguaza": {
+   "title": "Parguaza River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 6.4436,
+   "lon": -67.1617
+  },
+  "river-paru-de-oeste": {
+   "title": "Paru de Oeste River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -1.51944444,
+   "lon": -56.03472222
+  },
+  "river-perquilauquen": {
+   "title": "Perquilauquén River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-pico": {
+   "title": "Pico River",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": -44.21805556,
+   "lon": -71.95694444
+  },
+  "river-piratini": {
+   "title": "Piratini River (São Gonçalo Channel)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -32.01666667,
+   "lon": -52.41666667
+  },
+  "river-pomba": {
+   "title": "Pomba River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -21.63833333,
+   "lon": -42.04972222
+  },
+  "river-quequen-grande": {
+   "title": "Quequén Grande River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -38.50916667,
+   "lon": -58.73416667
+  },
+  "river-rahue": {
+   "title": "Rahue River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -40.3394,
+   "lon": -73.3155
+  },
+  "river-rio-das-mortes-minas-gerais": {
+   "title": "Rio das Mortes (Minas Gerais)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": -21.15,
+   "lon": -44.88333333
+  },
+  "river-rocha": {
+   "title": "Rocha River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -17.7028,
+   "lon": -66.2458
+  },
+  "river-rio-grande-de-san-juan": {
+   "title": "Río Grande de San Juan",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -20.9633,
+   "lon": -65.1861
+  },
+  "river-rio-de-los-patos": {
+   "title": "Río de los Patos",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-saladillo": {
+   "title": "Saladillo Stream",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -32.99833333,
+   "lon": -60.61166667
+  },
+  "river-sama": {
+   "title": "Sama River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -18.16308,
+   "lon": -70.67628
+  },
+  "river-samborombon": {
+   "title": "Samborombón River",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": -35.71666667,
+   "lon": -57.34722222
+  },
+  "river-rio-segundo": {
+   "title": "Segundo River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-senguerr": {
+   "title": "Senguerr River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": null,
+   "lon": null
+  },
+  "river-sorocaba": {
+   "title": "Sorocaba River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -22.98222222,
+   "lon": -47.80666667
+  },
+  "river-sao-marcos": {
+   "title": "São Marcos River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": -18.24555556,
+   "lon": -47.61222222
+  },
+  "river-secure": {
+   "title": "Sécure River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -15.2258,
+   "lon": -64.9336
+  },
+  "river-tahuamanu": {
+   "title": "Tahuamanu River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -11.1042,
+   "lon": -67.5592
+  },
+  "river-tarauaca": {
+   "title": "Tarauacá River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": -6.695257,
+   "lon": -69.764563
+  },
+  "river-tinguiririca": {
+   "title": "Tinguiririca River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-tocuyo": {
+   "title": "Tocuyo River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 11.05811,
+   "lon": -68.337865
+  },
+  "river-tubarao": {
+   "title": "Tubarão River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -28.50277778,
+   "lon": -48.78861111
+  },
+  "river-tunuyan": {
+   "title": "Tunuyán River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-unare": {
+   "title": "Unare River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 10.0889,
+   "lon": -65.1867
+  },
+  "river-unini": {
+   "title": "Unini River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -1.6736,
+   "lon": -61.5061
+  },
+  "river-vaza-barris": {
+   "title": "Vaza-Barris River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -11.17138,
+   "lon": -37.163546
+  },
+  "river-vergara": {
+   "title": "Vergara River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-yata": {
+   "title": "Yata River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": -10.4861,
+   "lon": -65.4333
+  },
+  "river-yavero": {
+   "title": "Yavero River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": -12.353,
+   "lon": -72.8713
+  },
+  "river-yuruari": {
+   "title": "Yuruarí River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 7.3526,
+   "lon": -61.8201
+  },
+  "river-zana": {
+   "title": "Zaña River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -6.928,
+   "lon": -78.893
+  },
+  "river-nuble": {
+   "title": "Ñuble River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-rio-negro-argentina": {
+   "title": "Río Negro (Argentina)",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": -41.03055556,
+   "lon": -62.78972222
+  },
+  "river-rio-negro-uruguay": {
+   "title": "Río Negro (Uruguay)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": -33.4,
+   "lon": -58.36666667
+  },
+  "river-rio-negro-chaco": {
+   "title": "Río Negro (Chaco Province)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -27.46888889,
+   "lon": -58.89666667
+  },
+  "river-rio-negro-parana": {
+   "title": "Rio Negro (Paraná)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": -26.03333333,
+   "lon": -50.48333333
+  },
+  "river-colorado-river-argentina": {
+   "title": "Colorado River (Argentina)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": -39.71510833,
+   "lon": -62.13123056
+  },
+  "river-colorado-river-bolivia": {
+   "title": "Colorado River (Potosi)",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": null,
+   "lon": null
+  },
+  "river-desaguadero-argentina": {
+   "title": "Desaguadero River (Argentina)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -38.819,
+   "lon": -64.9858
+  },
+  "river-salado-buenos-aires": {
+   "title": "Salado River (Buenos Aires)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": -35.74555556,
+   "lon": -57.36416667
+  },
+  "river-salado-chile": {
+   "title": "Salado River (Antofagasta)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": -22.3711,
+   "lon": -68.6554
+  },
+  "river-san-juan-colombia": {
+   "title": "San Juan River (Colombia)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 4.045,
+   "lon": -77.44138889
+  },
+  "river-san-juan-argentina": {
+   "title": "San Juan River (Argentina)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -31.25416667,
+   "lon": -69.21666667
+  },
+  "river-rio-grande-brazil": {
+   "title": "Rio Grande (Paraná River tributary)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": -20.07805556,
+   "lon": -50.99472222
+  },
+  "river-rio-grande-bolivia": {
+   "title": "Río Grande (Bolivia)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-rio-grande-tierra-del-fuego": {
+   "title": "Río Grande (Tierra del Fuego)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": -53.78916667,
+   "lon": -67.68222222
+  },
+  "river-rio-grande-mendoza": {
+   "title": "Río Grande (Mendoza)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -36.872,
+   "lon": -69.7596
+  },
+  "river-dulce-argentina": {
+   "title": "Dulce River (Argentina)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": -25.91888889,
+   "lon": -63.55027778
+  },
+  "river-manzanares-venezuela": {
+   "title": "Manzanares River (South America)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 10.45,
+   "lon": -64.16666667
+  },
+  "river-piracicaba-sao-paulo": {
+   "title": "Piracicaba River (São Paulo)",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": -22.61472222,
+   "lon": -48.32
+  },
+  "river-taquari-mato-grosso-do-sul": {
+   "title": "Taquari River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": -19.242095,
+   "lon": -57.224655
+  },
+  "river-chama-venezuela": {
+   "title": "Chama River (Venezuela)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-chico-chubut": {
+   "title": "Chico River (Lower Chubut)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-mira-ecuador": {
+   "title": "Mira River (Ecuador and Colombia)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 1.6,
+   "lon": -79.016667
+  },
+  "river-parana-tocantins": {
+   "title": "Paranã River (Tocantins River tributary)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": -15.5,
+   "lon": -47.18333333
+  },
+  "river-pardo-mato-grosso-do-sul": {
+   "title": "Pardo River (Mato Grosso do Sul)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": -21.66416667,
+   "lon": -52.22416667
+  },
+  "river-rio-verde-sao-paulo": {
+   "title": "Rio Verde (São Paulo)",
+   "monthlyViews": 30,
+   "days": 47,
+   "lat": -24.558916,
+   "lon": -47.227928
+  },
+  "river-san-pedro-bolivia": {
+   "title": "San Pedro River (Bolivia)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 18.4183,
+   "lon": -65.3456
+  },
+  "river-una-pernambuco": {
+   "title": "Una River (Pernambuco)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": -8.861,
+   "lon": -35.13
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

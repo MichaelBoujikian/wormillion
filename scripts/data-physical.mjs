@@ -1727,7 +1727,7 @@ Colorado River|2330|Colorado
 Olenyok|2292
 Aldan|2273
 Ubangi|2270
-Negro River|2250|Rio Negro,Negro
+Rio Negro (Amazon)|2250|Negro River,Negro
 Orange River|2200|Orange
 Pearl River|2200|Zhu Jiang
 Irrawaddy|2170
@@ -2284,7 +2284,7 @@ Cavado|118
 Ave|90
 Lima|108
 Sado|175
-Mira|130
+Mira (Portugal)|130
 Zezere|214
 Tamega|175
 Tua|108
@@ -3096,7 +3096,7 @@ New River (Belize)|66
 Sarstoon|96|Rio Sarstun
 Motagua|486|Rio Motagua
 Polochic|240|Rio Polochic
-Dulce|43|Rio Dulce
+Dulce (Guatemala)|43|Rio Dulce
 Ulua|400|Rio Ulua
 Chamelecon|210|Rio Chamelecon
 Aguan|190|Rio Aguan
@@ -3223,7 +3223,7 @@ Capibaribe|240|Rio Capibaribe
 Ipojuca|340|Rio Ipojuca
 Paraguacu|600|Rio Paraguacu
 Jequitinhonha|1090|Rio Jequitinhonha
-Pardo|555|Rio Pardo
+Pardo (Bahia)|555|Rio Pardo
 Mucuri|500|Rio Mucuri
 Doce|879|Rio Doce
 Paraiba do Sul|1120|Rio Paraiba do Sul
@@ -3231,7 +3231,7 @@ Macae|135|Rio Macae
 Itajai|190|Rio Itajai-Acu
 Ribeira de Iguape|470|Rio Ribeira de Iguape
 Tiete|1136|Rio Tiete
-Piracicaba|372|Rio Piracicaba
+Piracicaba (Minas Gerais)|372|Rio Piracicaba
 Paranaiba|1170|Rio Paranaiba
 Paranapanema|929|Rio Paranapanema
 Tibagi|550|Rio Tibagi
@@ -3241,10 +3241,10 @@ Iguacu|1320|Rio Iguacu,Iguazu River
 Pelotas|350|Rio Pelotas
 Canoas|375|Rio Canoas
 Jacui|750|Rio Jacui
-Taquari|520|Rio Taquari
+Taquari (Rio Grande do Sul)|520|Rio Taquari
 Camaqua|220|Rio Camaqua
 Ibicui|550|Rio Ibicui
-Desaguadero|398|Rio Desaguadero
+Desaguadero (Bolivia)|398|Rio Desaguadero
 Ichilo|400|Rio Ichilo
 Chapare|320|Rio Chapare
 Yacuma|350|Rio Yacuma
@@ -3293,7 +3293,7 @@ Chubut|810|Rio Chubut
 Deseado|615|Rio Deseado
 Santa Cruz (Argentina)|385|Rio Santa Cruz
 Gallegos|320|Rio Gallegos
-Chico|800|Rio Chico
+Chico (Santa Cruz)|800|Rio Chico
 Rio de la Plata|290|River Plate
 Lujan|128|Rio Lujan
 Reconquista|82|Rio Reconquista
@@ -7047,6 +7047,239 @@ Yazghulom|80|Yazgulem
 Ysyk-Ata|81
 Argun (Caucasus)|148
 Tar (Kyrgyzstan)|192
+Roosevelt|760|River of Doubt,Rio Roosevelt
+Tuichi|265
+Rimac|204|Rimac River
+Para|320|Rio Para
+Maici|0
+Acre|680|Rio Acre
+Guayas|437|Rio Guayas
+Aripuana|870
+Sao Lourenco|0
+Chillon|126
+Fortaleza|100
+Heath|234
+Madidi|350
+Sucuriu|0
+Barima|400
+Carhuasanta|0
+Cenepa|185
+Cuiaba|480
+Lurin|109
+Rio Primero|200|Suquia River
+Santa|347
+Yapacani|335
+Atuel|600
+Barrancas|180
+Colca|388
+Carrao|287
+Corumba|567
+Guama|82
+Las Piedras|640
+Tefe|450
+Urubu|430
+Abuna|500
+Amacuro|176
+Ji-Parana|820|Rio Machado
+Arari|110
+Chinchipe|148
+Chira|300
+Corriente|247
+Diamante|360
+Rio dos Marmelos|510
+Guandu|109
+Jaguarao|259
+Jutai|1488
+Manso (Patagonia)|110
+Manu|300
+Meia Ponte|470
+Mendoza|273
+Moche|102
+Osmore|480
+Parapeti|500
+Paraiba do Norte|450
+Perene|165
+Pinturas|150
+Pirai|457
+Piura|295
+Preguicas|120
+Rio Quinto|375|Popopis River
+Rio das Mortes (Mato Grosso)|580
+Simpson|88
+Tapaua|640
+Tumbes|200
+Tuy|239
+Uatuma|660
+Uraricoera|870
+Utcubamba|502|Utcubamba River
+Abacaxis|610
+Abaete|270
+Abaucan|600
+Acarau|315
+Acari|300
+Acara|390
+Agrio|400
+Aguapei|420
+Aguaytia|350
+Almada|138
+Jamari|400
+Alumine|170
+Anajas|310
+Anapu|470
+Apon|150
+Aquidauana|1200
+Aracuai|319
+Araca|390
+Bacaja|374
+Badajos|413
+Sao Mateus|224
+Buranhem|148
+Cachapoal|250
+Caete|111
+Caine|162
+Camarones|128
+Candeias|390
+Caninde|350
+Canuma|900
+Capim|820
+Caplina|100
+Casma|106
+Cautin|174
+Cai|285
+Chapeco|248
+Chimore|198
+Coari|530
+Corrientes|500
+Cruces|125
+Rio Cuarto|400|Chocancharava River
+Cuchivero|396
+Cunas|91
+Cunucunuma|241
+Curua|470
+Curuca|530
+Rio das Antas|390|Antas River
+Rio das Velhas|801|Velhas River
+Rio de Contas|620|Contas River
+Rio do Peixe (Sao Paulo)|248
+Dourado|92
+Envira|510
+Fresco|560
+Grajau|770
+Gravatai|640
+Gregorio|350
+Gualeguay|857
+Gualeguaychu|250
+Ijui|542
+Ilave|211
+Ipixuna|370
+Isiboro|505
+Itabapoana|250
+Itapicuru|476
+Itonomas|1493
+Ituxi|640
+Itui|480
+Ivinhema|595
+Jaguaripe|107
+Jaguarizinho|103
+Jamanxim|510
+Jandiatuba|500
+Jatapu|400
+Jauaperi|530
+Jau|400
+Jequetepeque|162
+Kaka|314
+La Ligua|162
+Laja|140
+Laq'a Jawira|135
+Lawriqucha|85
+Maicuru|547
+Manuripi|733
+Manicore|390
+Manso (Mato Grosso)|850
+Manuel Alves Grande|235
+Maranhao|420
+Marie|800
+Mataquito|95
+Maullin|85
+Mauri|202
+Mayer|125
+Miranda|490
+Motupe|129
+Moxoto|204
+Munim|320
+Naposta Grande|130
+Neveri|80
+Nieva|150
+Nogoya|164
+Orthon|233
+Pacaja|400
+Pajeu|353
+Paraibuna (Minas Gerais)|166
+Paraibuna (Sao Paulo)|114
+Parana do Uraria|400
+Paraopeba|510
+Parguaza|219
+Paru de Oeste|710
+Perquilauquen|190
+Pico|250
+Piratini|120
+Pomba|305
+Quequen Grande|180
+Rahue|120
+Rio das Mortes (Minas Gerais)|278
+Rocha|115
+Rio Grande de San Juan|388
+Rio de los Patos|190
+Saladillo|145
+Sama|164
+Samborombon|100
+Rio Segundo|340|Xanaes River
+Senguerr|340
+Sorocaba|227
+Sao Marcos|467
+Secure|497
+Tahuamanu|900
+Tarauaca|590
+Tinguiririca|167
+Tocuyo|509
+Tubarao|120
+Tunuyan|220
+Unare|200
+Unini|400
+Vaza-Barris|450
+Vergara|128
+Yata|470
+Yavero|349
+Yuruari|290
+Zana|119
+Nuble|155
+Rio Negro (Argentina)|550
+Rio Negro (Uruguay)|750
+Rio Negro (Chaco)|410
+Rio Negro (Parana)|400
+Colorado River (Argentina)|1114
+Colorado River (Bolivia)|103
+Desaguadero (Argentina)|1515
+Salado (Buenos Aires)|640
+Salado (Chile)|80
+San Juan (Colombia)|380
+San Juan (Argentina)|500
+Rio Grande (Brazil)|1090
+Rio Grande (Bolivia)|820
+Rio Grande (Tierra del Fuego)|240
+Rio Grande (Mendoza)|275
+Dulce (Argentina)|650
+Manzanares (Venezuela)|80
+Piracicaba (Sao Paulo)|115
+Taquari (Mato Grosso do Sul)|630
+Chama (Venezuela)|180
+Chico (Chubut)|300
+Mira (Ecuador)|400
+Parana (Tocantins)|530
+Pardo (Mato Grosso do Sul)|600
+Rio Verde (Sao Paulo)|105
+San Pedro (Bolivia)|100
+Una (Pernambuco)|290
 `;
 
 export const MOUNTAINS = `
