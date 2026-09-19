@@ -23,11 +23,16 @@ per wave) and SPEC §13; git log has the rest.
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
 do the next thing named here):** West and Central Asia wave: ALL EIGHT
-PROBES DONE (rivers, lakes, mountains, islands, seas, deserts, cities - this
-commit is the cities, 418 + 1 ns, `reports/2026-09-19-wca-cities.md`); the
-first audit round applied (`0b09b4f`). NEXT: the second Opus audit round
-over islands + seas + deserts + cities - the `Workflow` tool, `parallel()`
-of two `agent()`s (data, gameplay), the pattern is this session's
+PROBES DONE (cities `c4f334c`); the first audit round applied (`0b09b4f`).
+RUNNING (or interrupted): the second Opus audit round, `Workflow` run
+`wf_105d9edb-458` (script
+`workflows/scripts/wca-islands-seas-deserts-cities-audit-wf_105d9edb-458.js`;
+its reports land in the scratchpad as
+`2026-09-19-wca-isdc-{data,gameplay}-audit.md`, each with a `progress:` line
+- a report that stops mid-way is still usable; if the run died, rerun the
+script). It is the second Opus audit round over islands + seas + deserts +
+cities - the `Workflow` tool, `parallel()` of two `agent()`s (data,
+gameplay), the pattern is this session's
 `workflows/scripts/wca-rivers-lakes-mountains-audit-wf_f60422ce-b6e.js` and
 the East Asia `ea-islands-seas-deserts-cities-audit-wf_6b7a6452-84c.js` (no
 probe runs now, so the DATA auditor may use the live Wikipedia API at one
