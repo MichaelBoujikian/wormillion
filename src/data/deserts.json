@@ -2041,5 +2041,50 @@
   "wikiTitle": "Oltenian Sahara",
   "lat": 43.94861111,
   "lon": 22.955
+ },
+ {
+  "id": "desert-lop-desert",
+  "category": "desert",
+  "name": "Lop Desert",
+  "aliases": [
+   "Lop Nur Desert"
+  ],
+  "size": 50000,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lop Desert\", 60-day daily median (60 days ending 2026-09-19); Standard reference desert areas (km2), rounded",
+  "magnitude": 791,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lop Desert",
+  "lat": 40.16666667,
+  "lon": 90.58333333
+ },
+ {
+  "id": "desert-tottori-sand-dunes",
+  "category": "desert",
+  "name": "Tottori Sand Dunes",
+  "aliases": [
+   "Tottori Dunes",
+   "Tottori Sakyu"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tottori Sand Dunes\", 60-day daily median (60 days ending 2026-09-19); Standard reference desert areas (km2), rounded",
+  "magnitude": 1979,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tottori Sand Dunes",
+  "lat": 35.54,
+  "lon": 134.2275
+ },
+ {
+  "id": "desert-hami-desert",
+  "category": "desert",
+  "name": "Hami Desert",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hami Desert\", 60-day daily median (60 days ending 2026-09-19); Standard reference desert areas (km2), rounded",
+  "magnitude": 122,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hami Desert"
  }
 ]

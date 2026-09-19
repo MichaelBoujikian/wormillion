@@ -56,4 +56,19 @@ Pacific (four without coordinates placed by hand).
 
 ## Deserts
 
-See the deserts section appended after the probe.
+`probes/ea-deserts.json` (the deserts of China and Mongolia, the Gobi
+category, the deserts of Asia; the worldwide lists): 144 read as deserts,
+95 present (the Gobi, Taklamakan, Ordos, Badain Jaran, Tengger, Kubuqi,
+Gurbantünggüt, Kumtag, the Qaidam Basin, Khongoryn Els were in), 36
+missing. Three went in, theme `Asia`: the **Lop Desert** (50,000 km², 791
+views; alias Lop Nur Desert), the **Tottori Sand Dunes** (Japan's dune
+field, 1,979 views, at 0 — a dune field as the Great Sand Dunes and Kelso
+Dunes are), the **Hami Desert** (Xinjiang, 122 views, at 0). Bank
+**18,564**; desert cohort 142 → 145; jackpot share 7.75% → **8.28%** (the
+Hami Desert sits under the 184.8-view line — the cohort's standing open
+question, the user's call).
+
+Left out: Nemegt Basin (a basin), the Mongolian death worm, the concept
+rows (Desert, Desert climate, Desertification, Desert greening…), the
+other waves' deserts (Katpana, Sarfaranga, Nyiri, El Djouf, the Aral
+Karakum, Taukum…).

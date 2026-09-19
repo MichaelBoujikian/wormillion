@@ -2178,7 +2178,9 @@ globalThis.WORMILLION_THEMES = {
       'Dasht-e Margo', 'Thal Desert', 'Kubuqi Desert', 'Mu Us Desert', 'Gurbantunggut Desert',
       'Kumtag Desert', 'Qaidam Basin', 'Aralkum Desert', "Ramlat al-Sab'atayn", 'Khongoryn Els',
       'Chara Sands', 'Maranjab Desert', 'Zin Desert', 'Arabah', 'Kharan Desert',
-      'Moiynkum Desert', 'Saryesik-Atyrau Desert', 'Ryn Desert'
+      'Moiynkum Desert', 'Saryesik-Atyrau Desert', 'Ryn Desert',
+      // 2026-09-19 expansion
+      'Lop Desert', 'Tottori Sand Dunes', 'Hami Desert'
     ],
     'Australia': [
       'Great Victoria Desert', 'Great Sandy Desert', 'Tanami Desert',

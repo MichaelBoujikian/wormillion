@@ -10080,6 +10080,9 @@ Big Muddy Badlands|0
 Rock Creek Badlands|0
 Pachies Ammoudies|0|Pachies Ammoudies of Lemnos,Lemnos Desert,Ammoudies of Lemnos
 Oltenian Sahara|0|Sahara Olteniei,Oltenia Sahara
+Lop Desert|50000|Lop Nur Desert
+Tottori Sand Dunes|0|Tottori Dunes,Tottori Sakyu
+Hami Desert|0
 `;
 
 export const ISLANDS = `
