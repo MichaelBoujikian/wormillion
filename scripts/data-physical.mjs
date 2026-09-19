@@ -1740,7 +1740,7 @@ Camel|48|River Camel
 Torridge|58|River Torridge
 Taw|69|River Taw
 Parrett|60|River Parrett
-Tone|32|River Tone
+Tone (Somerset)|32|River Tone
 Avon (Warwickshire)|154|Warwickshire Avon
 Teme|82|River Teme
 Lugg|68|River Lugg
@@ -2442,7 +2442,7 @@ Aidar|264
 Kalitva|227
 Sulak|144
 Samur|216
-Kuma|802
+Kuma (Russia)|802
 Podkumok|160
 Oka|1500
 Moskva|502
@@ -3361,7 +3361,7 @@ Yongding|650
 Huai|1000
 Jialing|1119
 Min (Sichuan)|735
-Dadu|1062
+Dadu (Sichuan)|1062
 Wu (Guizhou)|1037|Wu River
 Yuan|1033
 Xiang|856
@@ -3449,8 +3449,8 @@ Omono|133
 Abukuma|239
 Kinu|176
 Kuji|122
-Naka|150
-Arakawa|173|Arakawa River
+Naka (Ibaraki)|150
+Arakawa (Kanto)|173|Arakawa River
 Sumida|27|Sumida River
 Kamo|23|Kamo River
 Kaveri|800|Cauvery
@@ -6564,6 +6564,125 @@ Wei (Shandong)|600
 Wei (Hunan)|117
 Wu (Hunan)|444
 Yalu (Inner Mongolia)|398
+Cheonggyecheon|11|Cheonggye Stream
+Tamsui|159|Danshui River
+Hantan|136|Hantan-gang
+Edo|60|Edogawa
+Isuzu|0
+Katsura|107|Katsuragawa
+Azusa|65
+Toyohira|73
+Keelung|86|Jilong River
+Jinzu|120|Jinzu River
+Zhuoshui|203|Zhuoshui Xi,Choshui River
+Ota|103|Ota River,Otagawa
+Hii|153
+Oirase|67
+Yamato|68|Yamatogawa
+Dajia|142
+Gaoping|184|Kaoping River
+Kumano|183
+Niyodo|124
+Pothong|0|Potong River
+Saru|104
+Soyang|166|Soyang-gang
+Watarase|107
+Xindian|81
+Yahagi|117
+Dahan|135
+Geumho|116
+Nam (South Korea)|194|Nam-gang
+Nishiki|110
+Ryesong|174|Ryesong-gang
+Shonai|96
+Abashiri|115
+Chitose|108
+Gonokawa|194|Gonokawa River,Go River
+Hida|148
+Ibi|121
+Iruma|63
+Kako|96
+Kinokawa|136|Kino River
+Kizu|99
+Kurobe|85
+Kuzuryu|116|Kuzuryu River
+Lanyang|73
+Miya|91
+Shiribetsu|126
+Shizunai|70
+Sho|115|Sho River
+Tadami|145
+Tedori|72
+Xiuguluan|104
+Yura|146
+Yubari|136|Yubari River
+Zengwen|146
+Oyodo|107
+Agatsuma|76
+Aka|70
+Akan|98
+Asahi|142
+Ashida|86
+Asuwa|62
+Bazhang|81
+Beigang|82
+Beinan|84
+Chaeryong|120
+Changja|239
+Cheongmicheon|61
+Da'an|105
+Erren|61
+Hiji|103
+Hime|60
+Hino|77
+Hongcheon|143
+Hwang|114
+Hyeongsan|62
+Ibo|70
+Ichi|73
+Isumi|68
+Iwaki|102
+Kikuchi|71
+Koito|82
+Kushida|85
+Laonong|136
+Mabechi|142
+Maruyama|68
+Maze|76
+Midori|76
+Miryang|102
+Monobe|71
+Mu|135
+Muko|66
+Niikappu|80
+Obitsu|88
+Oyabe|68
+Qishan|117
+Seki|64
+Sendai|137
+Shirakawa|74
+Shiribeshi-Toshibetsu|80
+Shokotsu|84
+Takahashi|111
+Takase|64
+Takatsu|81
+Tokoro|120
+Touqian|63
+Toyo|77
+Uono|67
+Yasu|65
+Yoneshiro|136
+Yoshii|133
+Yoro|73
+Yubetsu|87|Yubetsu River
+Ono|107|Ono River
+Tone (Japan)|322|Tonegawa
+Kuma (Japan)|115|Kumagawa
+Karasu (Gunma)|62
+Sai (Nagano)|153|Saigawa
+Arakawa (Niigata)|73
+Dadu (Taiwan)|124|Dadu Xi
+Naka (Tokushima)|125
 `;
 
 export const MOUNTAINS = `

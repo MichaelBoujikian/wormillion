@@ -126,7 +126,7 @@ globalThis.WORMILLION_THEMES = {
       'Arun', 'Adur', 'Cuckmere', 'Stour (Kent)', 'Frome',
       'Piddle', 'Axe', 'Otter', 'Teign', 'Dart',
       'Tamar', 'Tavy', 'Plym', 'Fal', 'Fowey',
-      'Camel', 'Torridge', 'Taw', 'Parrett', 'Tone',
+      'Camel', 'Torridge', 'Taw', 'Parrett', 'Tone (Somerset)',
       'Avon (Warwickshire)', 'Teme', 'Lugg', 'Monnow', 'Usk',
       'Taff', 'Ebbw', 'Tawe', 'Tywi', 'Teifi',
       'Cleddau', 'Ystwyth', 'Rheidol', 'Dyfi', 'Mawddach',
@@ -276,7 +276,7 @@ globalThis.WORMILLION_THEMES = {
       'Arun', 'Adur', 'Cuckmere', 'Stour (Kent)', 'Frome',
       'Piddle', 'Axe', 'Otter', 'Teign', 'Dart',
       'Tamar', 'Tavy', 'Plym', 'Fal', 'Fowey',
-      'Camel', 'Torridge', 'Taw', 'Parrett', 'Tone',
+      'Camel', 'Torridge', 'Taw', 'Parrett', 'Tone (Somerset)',
       'Avon (Warwickshire)', 'Teme', 'Lugg', 'Monnow', 'Usk',
       'Taff', 'Ebbw', 'Tawe', 'Tywi', 'Teifi',
       'Cleddau', 'Ystwyth', 'Rheidol', 'Dyfi', 'Mawddach',
@@ -411,7 +411,7 @@ globalThis.WORMILLION_THEMES = {
       'Mzymta', 'Terek', 'Sunzha', 'Baksan', 'Malka',
       'Ardon', 'Kuban', 'Laba', 'Manych', 'Seversky Donets',
       'Khopyor', 'Voronezh', 'Oskol', 'Aidar', 'Kalitva',
-      'Sulak', 'Samur', 'Kuma', 'Podkumok', 'Oka',
+      'Sulak', 'Samur', 'Kuma (Russia)', 'Podkumok', 'Oka',
       'Moskva', 'Klyazma', 'Ugra', 'Tsna', 'Moksha',
       'Sura', 'Sviyaga', 'Vetluga', 'Unzha', 'Kostroma',
       'Sheksna', 'Mologa', 'Tvertsa', 'Nerl', 'Istra',
@@ -667,7 +667,7 @@ globalThis.WORMILLION_THEMES = {
     'China': [
       'Yangtze', 'Yellow River', 'Pearl River', 'Mekong', 'Salween', 'Amur', 'Tarim River', 'Songhua', 'Ili',
       'Kherlen', 'Argun', 'Ussuri', 'Nen', 'Mudan', 'Tumen', 'Yalu', 'Liao', 'Hai', 'Luan', 'Yongding',
-      'Huai', 'Jialing', 'Min (Sichuan)', 'Dadu', 'Wu (Guizhou)', 'Yuan', 'Xiang', 'Gan (Jiangxi)', 'Qiantang', 'Ou', 'Jiulong',
+      'Huai', 'Jialing', 'Min (Sichuan)', 'Dadu (Sichuan)', 'Wu (Guizhou)', 'Yuan', 'Xiang', 'Gan (Jiangxi)', 'Qiantang', 'Ou', 'Jiulong',
       'Yu', 'Hongshui', 'Jinsha', 'Yalong', 'Yarlung Tsangpo', 'Lhasa River', 'Hotan', 'Yarkand', 'Kashgar',
       'Ulungur', 'Heihe', 'Wei (Shaanxi)', 'Jing', 'Fen', 'Tao', 'Huangshui', 'Datong', 'Wuding',
       // 2026-09-19 expansion
@@ -712,10 +712,34 @@ globalThis.WORMILLION_THEMES = {
     'Japan': [
       'Shinano', 'Ishikari', 'Kitakami', 'Kiso', 'Tenryu', 'Mogami', 'Agano', 'Yodo', 'Tama', 'Sagami',
       'Fuji', 'Oi', 'Abe', 'Yoshino', 'Shimanto', 'Chikugo', 'Teshio', 'Tokachi', 'Kushiro', 'Omono',
-      'Abukuma', 'Kinu', 'Kuji', 'Naka', 'Arakawa', 'Sumida', 'Kamo'
+      'Abukuma', 'Kinu', 'Kuji', 'Naka (Ibaraki)', 'Arakawa (Kanto)', 'Sumida', 'Kamo',
+      // 2026-09-19 expansion
+      'Edo', 'Isuzu', 'Katsura', 'Azusa', 'Toyohira',
+      'Jinzu', 'Ota', 'Hii', 'Oirase', 'Yamato',
+      'Kumano', 'Niyodo', 'Saru', 'Watarase', 'Yahagi',
+      'Nishiki', 'Shonai', 'Abashiri', 'Chitose', 'Gonokawa',
+      'Hida', 'Ibi', 'Iruma', 'Kako', 'Kinokawa',
+      'Kizu', 'Kurobe', 'Kuzuryu', 'Miya', 'Shiribetsu',
+      'Shizunai', 'Sho', 'Tadami', 'Tedori', 'Yura',
+      'Yubari', 'Oyodo', 'Agatsuma', 'Aka', 'Akan',
+      'Asahi', 'Ashida', 'Asuwa', 'Hiji', 'Hime',
+      'Hino', 'Ibo', 'Ichi', 'Isumi', 'Iwaki',
+      'Kikuchi', 'Koito', 'Kushida', 'Mabechi', 'Maruyama',
+      'Maze', 'Midori', 'Monobe', 'Mu', 'Muko',
+      'Niikappu', 'Obitsu', 'Oyabe', 'Seki', 'Sendai',
+      'Shirakawa', 'Shiribeshi-Toshibetsu', 'Shokotsu', 'Takahashi', 'Takase',
+      'Takatsu', 'Tokoro', 'Toyo', 'Uono', 'Yasu',
+      'Yoneshiro', 'Yoshii', 'Yoro', 'Yubetsu', 'Ono',
+      // 2026-09-19 expansion
+      'Tone (Japan)', 'Kuma (Japan)', 'Karasu (Gunma)', 'Sai (Nagano)', 'Arakawa (Niigata)',
+      'Naka (Tokushima)'
     ],
     'Korea': [
-      'Han River', 'Tumen', 'Yalu', 'Nakdong', 'Geum', 'Taedong', 'Imjin', 'Yeongsan', 'Seomjin', 'Namhan', 'Chongchon'
+      'Han River', 'Tumen', 'Yalu', 'Nakdong', 'Geum', 'Taedong', 'Imjin', 'Yeongsan', 'Seomjin', 'Namhan', 'Chongchon',
+      // 2026-09-19 expansion
+      'Cheonggyecheon', 'Hantan', 'Pothong', 'Soyang', 'Geumho',
+      'Nam (South Korea)', 'Ryesong', 'Chaeryong', 'Changja', 'Cheongmicheon',
+      'Hongcheon', 'Hwang', 'Hyeongsan', 'Miryang'
     ],
     'India': [
       'Ganges', 'Brahmaputra', 'Indus', 'Yamuna', 'Godavari', 'Krishna River',
