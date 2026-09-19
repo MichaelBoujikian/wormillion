@@ -22,26 +22,34 @@ per wave) and SPEC §13; git log has the rest.
 **Resume point (refreshed with every chunk commit — the user's standing
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
-do the next thing named here):** South America wave: rivers, lakes,
-mountains, islands, seas, deserts DONE; the first audit round applied
-(`4f2074f`). NEXT: the cities probe - `node scripts/expansion/probe.mjs
-scripts/expansion/probes/sa-cities.json >
-scripts/expansion/work/sa-cities.out` (17 lists with `listCountry`; 50,000
-floor, views 91; Brazil's municipalities carry the município's population -
-the administrative-city convention; the capitals are refused; French
-Guiana's rows are France's; then `chunk --tag=sa8 --min-views=91`,
-hand-clean with the scratchpad's `clean-wca-cities.cjs` pattern adapted to
-South America (a COUNTRIES map for the 13 countries; NOT-city rule:
-departments, provinces, regions, comunas that are rural, favelas, districts
-of a city), fold, `--taken-only --tag=ns-sa8`, qualify, fold, pipeline,
-report, commit, push). Then the second Opus audit round (islands + seas +
-deserts + cities; the pattern:
-`workflows/scripts/wca-islands-seas-deserts-cities-audit-wf_105d9edb-458.js`,
-the data auditor with the live API when no probe runs), the wave report
-`reports/2026-09-19-sa-wave.md`, HANDOFF, memory; then CENTRAL AMERICA (the
-roadmap: Guatemala, Belize, Honduras, El Salvador, Nicaragua, Costa Rica,
-Panama - configs `probes/ca-*.json` from the sa ones; note the existing
-`ca-rivers.json` is CANADA's). Nothing uncommitted.
+do the next thing named here):** South America wave: ALL EIGHT PROBES DONE
+(this commit is the cities: 437 after a 213-views floor decided on the spot
+- `reports/2026-09-19-sa-cities.md` has the numbers; 173 rows under 213
+dropped, their ids in `work/sa8-under213-ids.txt`); the first audit round
+applied (`4f2074f`). NEXT: the second Opus audit round over islands + seas +
+deserts + cities - `Workflow` `parallel()` of two `agent()`s, the pattern is
+`workflows/scripts/wca-islands-seas-deserts-cities-audit-wf_105d9edb-458.js`
+with the South America facts (pre-wave `a3a76d2`; chunk files
+`work/folded/sa/new-islands-sa5.txt` (+ns, qualify), `new-seas-sa6.txt`,
+`new-deserts-sa7.txt`, `new-cities-sa8.txt`, `-sa8b.txt`, `-ns-sa8.txt`
+(+qualify); commits `80f081c` islands, `1fa7fae` seas + deserts, the cities
+commit; flagged: the three re-pointed / re-sized island incumbents (Tierra
+del Fuego, Chiloe, Santa Cruz Island), Wager Island 105 km2, Mar de Grau,
+the 18 city incumbents qualified, Valencia (Venezuela) 1.7 M, the Brazilian
+municipio figures, the 213 floor); no probe runs, so the data auditor may
+use the live API. Apply, copy the reports to
+`scripts/expansion/reports/2026-09-19-sa-isdc-{data,gameplay}-audit.md`,
+pipeline, commit. THEN the wave report `reports/2026-09-19-sa-wave.md` (the
+EA / WCA shape; the city floor decision and the share 8.65% for the user;
+Salar de Uyuni in no cohort; the Rio Negro rename), HANDOFF "Where things
+stand" + the waves list + lessons (the Spanish generic words; the
+archipelago-article conflation; the Wikidata capital-figure slip), memory
+(`expansion-plan.md`), then START CENTRAL AMERICA (Guatemala, Belize,
+Honduras, El Salvador, Nicaragua, Costa Rica, Panama; configs
+`probes/cam-*.json` copied from the sa ones - NOT `ca-*`, which is Canada's;
+rivers 60 km; the Mexico wave's fields; themes: `the Caribbean` for islands,
+`the Americas` for seas, `North America` for lakes exists (the lake theme
+says "Canada, the US, Mexico, Central America")). Nothing uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe, East Asia and West and Central Asia waves + this

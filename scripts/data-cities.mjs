@@ -506,7 +506,7 @@ Ogden|United States|87000
 Park City|United States|8000
 Moab|United States|5000
 Las Cruces|United States|112000
-Santa Fe|United States|88000
+Santa Fe (New Mexico)|United States|88000
 Roswell (New Mexico)|United States|48000
 Flagstaff|United States|76000
 Sedona|United States|10000
@@ -519,7 +519,7 @@ Monterey|United States|30000
 Palo Alto|United States|68000
 Berkeley|United States|124000
 Napa|United States|80000
-Santa Rosa|United States|178000
+Santa Rosa (California)|United States|178000
 Palm Springs|United States|44000
 Pasadena (California)|United States|138000
 Burbank|United States|103000
@@ -973,7 +973,7 @@ Albufeira|Portugal|41000
 Nazare|Portugal|10000
 Obidos|Portugal|3100
 Fatima|Portugal|12000
-Braganca|Portugal|21000
+Braganca (Portugal)|Portugal|21000
 Viana do Castelo|Portugal|40000
 Vila Nova de Gaia|Portugal|300000
 Monte Carlo|Monaco|3800
@@ -1070,18 +1070,18 @@ Choluteca|Honduras|95000
 Copan Ruinas|Honduras|10000
 Puerto Cortes|Honduras|75000
 Danli|Honduras|50000
-San Miguel|El Salvador|220000
+San Miguel (El Salvador)|El Salvador|220000
 Santa Tecla|El Salvador|140000|Nueva San Salvador
 Soyapango|El Salvador|240000
 Sonsonate|El Salvador|90000
-La Libertad|El Salvador|40000
+La Libertad (El Salvador)|El Salvador|40000
 Esteli|Nicaragua|130000
 Matagalpa|Nicaragua|110000
 Chinandega|Nicaragua|130000
 Bluefields|Nicaragua|55000
 San Juan del Sur|Nicaragua|17000
 Alajuela|Costa Rica|50000
-Cartago|Costa Rica|150000
+Cartago (Costa Rica)|Costa Rica|150000
 Puntarenas|Costa Rica|35000
 Heredia|Costa Rica|45000
 Jaco|Costa Rica|15000
@@ -1091,10 +1091,10 @@ Boquete|Panama|9000
 Santiago de Veraguas|Panama|89000
 La Chorrera|Panama|180000
 Portobelo|Panama|4000
-San Ignacio|Belize|21000
+San Ignacio (Belize)|Belize|21000
 Dangriga|Belize|11000
-Corozal|Belize|10000
-San Pedro|Belize|20000
+Corozal (Belize)|Belize|10000
+San Pedro (Belize)|Belize|20000
 Cienfuegos|Cuba|150000
 Matanzas|Cuba|145000
 Pinar del Rio|Cuba|142000
@@ -1224,7 +1224,7 @@ San Cristobal|Venezuela|280000
 Maturin|Venezuela|500000
 Coro|Venezuela|195000
 Punto Fijo|Venezuela|270000
-Concepcion|Chile|230000
+Concepcion (Chile)|Chile|230000
 Antofagasta|Chile|400000
 Vina del Mar|Chile|335000
 Punta Arenas|Chile|130000
@@ -1256,16 +1256,16 @@ Potosi|Bolivia|190000
 Tarija|Bolivia|230000
 El Alto|Bolivia|850000
 Uyuni|Bolivia|27000
-Copacabana|Bolivia|10000
+Copacabana (Bolivia)|Bolivia|10000
 Sorata|Bolivia|3000
 Ciudad del Este|Paraguay|340000
 Encarnacion|Paraguay|130000
-San Lorenzo|Paraguay|260000
+San Lorenzo (Paraguay)|Paraguay|260000
 Luque|Paraguay|250000
 Capiata|Paraguay|240000
 Pedro Juan Caballero|Paraguay|100000
 Punta del Este|Uruguay|10000
-Salto|Uruguay|105000
+Salto (Uruguay)|Uruguay|105000
 Colonia del Sacramento|Uruguay|27000
 Paysandu|Uruguay|76000
 Maldonado|Uruguay|62000
@@ -2502,7 +2502,7 @@ Darkhan|Mongolia|90000
 Choibalsan|Mongolia|40000
 Olgii|Mongolia|30000
 Khovd|Mongolia|30000
-Moron|Mongolia|40000
+Moron (Mongolia)|Mongolia|40000
 Karaganda|Kazakhstan|500000
 Aktobe|Kazakhstan|440000
 Taraz|Kazakhstan|360000
@@ -2748,7 +2748,7 @@ Garland|United States|246018
 Lynn|United States|101253
 Coral Springs|United States|134394
 Killeen|United States|153095
-Santa Maria|United States|109707
+Santa Maria (California)|United States|109707
 Grand Prairie|United States|196100
 Toms River|United States|95438
 Grand Island|United States|53131
@@ -2918,7 +2918,7 @@ Harrisonburg|United States|51814
 Ames|United States|66427
 Lake Havasu City|United States|57144
 Alpharetta|United States|65818
-San Rafael|United States|61271
+San Rafael (California)|United States|61271
 Pontiac|United States|61606
 Encinitas|United States|62007
 Redlands|United States|73168
@@ -3537,7 +3537,7 @@ Palencia|Spain|77466
 Wesel|Germany|60717
 Detmold|Germany|74438
 Levallois-Perret|France|68092
-Santarem|Portugal|62200
+Santarem (Portugal)|Portugal|62200
 Wolfenbuttel|Germany|52511|Wolfenbuettel
 Bergen op Zoom|Netherlands|66445
 Oberhausen|Germany|213178
@@ -5118,7 +5118,7 @@ Nishapur|Iran|264375|Neyshabur
 Tarsus|Turkey|346715
 Tripoli (Lebanon)|Lebanon|227857|Trablous
 Kufa|Iraq|171305|Al-Kufa
-Sinop|Turkey|70311
+Sinop (Turkey)|Turkey|70311
 Lod|Israel|75700
 Izmit|Turkey|376056|Kocaeli
 Ramla|Israel|75500
@@ -5514,4 +5514,441 @@ Shirvan (Azerbaijan)|Azerbaijan|83500|Sirvan
 Khirdalan|Azerbaijan|100900|Xirdalan
 North Nicosia|Cyprus|61378|Lefkosa
 Strovolos|Cyprus|67904
+Saint-Laurent-du-Maroni|France|54429
+Balneario Camboriu|Brazil|151674
+Piracicaba|Brazil|440835
+Americana|Brazil|247571
+Rionegro|Colombia|135465
+Blumenau|Brazil|385558
+La Guaira|Venezuela|203520
+Vitoria|Brazil|343378|Vitoria ES
+Buenaventura|Colombia|423927
+Avellaneda|Argentina|366117
+Sao Jose dos Campos|Brazil|727078
+Mogi das Cruzes|Brazil|470302
+Novo Hamburgo|Brazil|235802
+Rio Branco|Brazil|389001
+Lanus|Argentina|459263
+Quibdo|Colombia|130825
+Duque de Caxias|Brazil|866225
+Sao Bernardo do Campo|Brazil|841154
+Sao Goncalo|Brazil|960196
+Osasco|Brazil|759524
+Rio Gallegos|Argentina|115585
+Trelew|Argentina|106796
+Tunja|Colombia|180572
+Juliaca|Peru|307417
+Coquimbo|Chile|204068
+Pucallpa|Peru|326040
+Tarapoto|Peru|240453
+Maringa|Brazil|429660
+San Juan|Argentina|471389
+Coyhaique|Chile|61210
+Duran|Ecuador|295211
+Angra dos Reis|Brazil|179142
+Parana|Argentina|271304
+Tandil|Argentina|150162
+Feira de Santana|Brazil|660806
+Chapeco|Brazil|282648
+Chillan|Chile|190382
+Cienaga|Colombia|118435
+Quilmes|Argentina|262379
+Turbo|Colombia|181000
+Fusagasuga|Colombia|170241
+Itaguai|Brazil|124021
+Puerto Cabello|Venezuela|209080
+Riohacha|Colombia|222541
+Porto Seguro|Brazil|182630
+Guaruja|Brazil|294871
+Copiapo|Chile|150804
+Envigado|Colombia|228848
+Garanhuns|Brazil|151803
+Nova Friburgo|Brazil|203417
+Santo Domingo (Ecuador)|Ecuador|334826|Santo Domingo de los Colorados
+Anapolis|Brazil|420300
+Chia|Colombia|97896
+Juiz de Fora|Brazil|567730
+Osorno|Chile|147460
+Palmira|Colombia|358895
+Parnaiba|Brazil|170491
+Tumaco|Colombia|212692
+Bauru|Brazil|392947
+Uberaba|Brazil|356781
+Campos dos Goytacazes|Brazil|519259
+Curico|Chile|136954
+Talca|Chile|232131
+Itajai|Brazil|294850
+Pilar|Argentina|81120
+Sao Jose do Rio Preto|Brazil|504166
+Viedma|Argentina|60903
+Campina Grande|Brazil|443911
+Talcahuano|Chile|147831
+Azul|Argentina|75906
+Vila Velha|Brazil|506779
+Cascavel|Brazil|368195
+Criciuma|Brazil|227438
+Jundiai|Brazil|463039
+Barrancabermeja|Colombia|300000
+Cabo Frio|Brazil|238438
+Jaragua do Sul|Brazil|199519
+Rio Cuarto|Argentina|182038
+Concordia|Argentina|180325
+Diadema|Brazil|403579
+Franca|Brazil|365494
+Ciudad de la Costa|Uruguay|112449
+Ilheus|Brazil|189149
+Itagui|Colombia|299348
+Paranagua|Brazil|150104
+Rio Grande|Brazil|198935
+San Justo|Argentina|136604
+Santo Andre|Brazil|782048
+Vicente Lopez|Argentina|274082
+Varginha|Brazil|143676
+Braganca Paulista|Brazil|185688
+Hurlingham|Argentina|61988
+Itu|Brazil|175047
+Junin|Argentina|85420
+Petrolina|Brazil|418444
+Pisco|Peru|109965
+Ponta Grossa|Brazil|375632
+Resende|Brazil|137697
+Sao Carlos|Brazil|266427
+Tumbes|Peru|96946
+Nova Iguacu|Brazil|843220
+Portoviejo|Ecuador|244129
+Puerto Francisco de Orellana|Ecuador|51281
+Sao Caetano do Sul|Brazil|172693
+Tulua|Colombia|219138
+Caruaru|Brazil|405408
+Pindamonhangaba|Brazil|172681
+San Felipe (Venezuela)|Venezuela|220786
+Sangolqui|Ecuador|96647
+Tacuarembo|Uruguay|60581
+Araraquara|Brazil|253474
+Ezeiza|Argentina|160219
+Paita|Peru|81163
+Puente Alto|Chile|568086
+Rafaela|Argentina|102236
+San Nicolas de los Arroyos|Argentina|159978
+Sao Leopoldo|Brazil|225737
+Teresopolis|Brazil|176735
+Barueri|Brazil|333737
+Buga|Colombia|128945
+Florencio Varela|Argentina|146704
+Ipatinga|Brazil|235311
+Juazeiro|Brazil|256122
+Necocli|Colombia|69090
+Obera|Argentina|77803
+Pocos de Caldas|Brazil|172339
+Reconquista|Argentina|88306
+Sarandi (Argentina)|Argentina|60752
+Serra|Brazil|579720
+Sao Mateus|Brazil|134423
+Chone|Ecuador|54629
+Guarapari|Brazil|136311
+Los Teques|Venezuela|332725
+Melo|Uruguay|55985
+Passo Fundo|Brazil|214811
+Sincelejo|Colombia|286716
+Belford Roxo|Brazil|518384
+Erechim|Brazil|109609
+Florencia|Colombia|191867
+Girardot|Colombia|129834
+Ipiales|Colombia|169864
+Itacoatiara|Brazil|113917
+Macae|Brazil|264439
+Maicao|Colombia|123757
+Santa Cruz do Sul|Brazil|138270
+Uruguaiana|Brazil|120819
+Volta Redonda|Brazil|279971
+Apartado|Colombia|121003
+Brusque|Brazil|155307
+Buin|Chile|96614
+Contagem|Brazil|651718
+Governador Valadares|Brazil|266561
+Indaiatuba|Brazil|269657
+Itaquaquecetuba|Brazil|382983
+Presidente Prudente|Brazil|234706
+Rondonopolis|Brazil|263708
+San Jose del Guaviare|Colombia|52815
+Sogamoso|Colombia|139021
+Yopal|Colombia|179355
+Bage|Brazil|121928
+Chincha Alta|Peru|63671
+Ciudad Evita|Argentina|92957
+Cobija|Bolivia|78555
+Concepcion del Uruguay|Argentina|86735
+El Tigre|Venezuela|213524
+Los Andes|Chile|59388
+Moquegua|Peru|69882
+Mossoro|Brazil|278587
+Sao Jose dos Pinhais|Brazil|349880
+Venado Tuerto|Argentina|83177
+Zarate|Argentina|109443
+Barinas|Venezuela|873962
+Bento Goncalves|Brazil|127977
+Botucatu|Brazil|151053
+Cachoeiro de Itapemirim|Brazil|198342
+Canoas|Brazil|359840
+Las Piedras|Uruguay|61292
+Limeira|Brazil|301292
+Lomas de Zamora|Argentina|112580
+Parintins|Brazil|101855
+Sobral|Brazil|216519
+Tumeremo|Venezuela|90384
+Araxa|Brazil|118786
+Betim|Brazil|431433
+Dourados|Brazil|264017
+Duitama|Colombia|132894
+Embu das Artes|Brazil|259788
+Godoy Cruz|Argentina|191299
+Gualeguaychu|Argentina|95337
+Guarapuava|Brazil|189630
+Juazeiro do Norte|Brazil|305531
+La Ceja|Colombia|64889
+Marilia|Brazil|247348
+Merlo|Argentina|244168
+Villa Carlos Paz|Argentina|71719
+Villarrica|Chile|55478
+Berazategui|Argentina|180523
+Gonzalez Catan|Argentina|238067
+Ilo|Peru|66118
+Mercedes|Argentina|63284
+Nueva Loja|Ecuador|55627
+Ramos Mejia|Argentina|120346
+Tulcan|Ecuador|56719
+Villa Maria|Argentina|88600
+Acarigua|Venezuela|195637
+Babahoyo|Ecuador|98251
+Barretos|Brazil|126957
+Bernal|Argentina|109914
+Cabimas|Venezuela|351735
+Camacari|Brazil|321636
+Catia La Mar|Venezuela|661897
+Cipolletti|Argentina|105647
+Coronel|Chile|116262
+Imperatriz|Brazil|285806
+Jamundi|Colombia|96993
+La Asuncion|Venezuela|117513
+Lages|Brazil|172458
+Manacapuru|Brazil|111751
+Maraba|Brazil|290975
+Maranguape|Brazil|108622
+Nova Lima|Brazil|120959
+Pitalito|Colombia|133205
+Praia Grande|Brazil|368539
+Sabaneta|Colombia|82375
+Suzano|Brazil|320261
+Sao Jose|Brazil|295658
+Abancay|Peru|72277
+Alto Hospicio|Chile|108375
+Ananindeua|Brazil|509227
+Araguaina|Brazil|183024
+Caraguatatuba|Brazil|142248
+Chiquinquira|Colombia|85274
+Cubatao|Brazil|114870
+General Roca|Argentina|136000
+Guanare|Venezuela|192644
+Hortolandia|Brazil|248842
+Huacho|Peru|200585
+Itanhaem|Brazil|118495
+Jaboatao dos Guararapes|Brazil|684293
+Lambayeque|Peru|58276
+Olavarria|Argentina|89721
+Pergamino|Argentina|114052
+Planaltina|Brazil|112304
+Quilpue|Chile|147991
+Riberalta|Bolivia|78100
+Rio Claro|Brazil|210323
+Rio Verde|Brazil|241494
+San Felipe (Chile)|Chile|64120
+Sete Lagoas|Brazil|238909
+Sullana|Peru|162434
+Sao Cristovao|Brazil|101213
+Tatui|Brazil|129130
+Teofilo Otoni|Brazil|142851
+Yurimaguas|Peru|62903
+Arauca|Colombia|96814
+Balcarce|Argentina|51736
+Cabo de Santo Agostinho|Brazil|218049
+Floridablanca|Colombia|267170
+Itabuna|Brazil|196344
+Ituzaingo|Argentina|129510
+Lagarto|Brazil|105957
+Linares|Chile|73602
+Magangue|Colombia|123906
+Marica|Brazil|212470
+Ovalle|Chile|124401
+Pasaje|Ecuador|60147
+Patos de Minas|Brazil|169173
+Paulinia|Brazil|116674
+Talara|Peru|99600
+Tarma|Peru|54078
+Tartagal|Argentina|79580
+Temperley|Argentina|59899
+Umuarama|Brazil|123059
+Yumbo|Colombia|92192
+Arapiraca|Brazil|243906
+Barranca|Peru|58749
+Barreiras|Brazil|171634
+Caacupe|Paraguay|56864
+Calabozo|Venezuela|190622
+Calarca|Colombia|74890
+Caldas Novas|Brazil|106820
+Caleta Olivia|Argentina|56298
+Carora|Venezuela|112600
+Caseros|Argentina|95785
+Caucaia|Brazil|378406
+Chinchina|Colombia|50673
+Francisco Beltrao|Brazil|102312
+Guaratingueta|Brazil|121916
+Jau|Brazil|137409
+Ji-Parana|Brazil|140101
+La Calera|Chile|50554
+Maiquetia|Venezuela|87909
+Montero|Bolivia|126886
+Ocana|Colombia|90037
+Parauapebas|Brazil|305771
+Quevedo|Ecuador|177792
+Quillota|Chile|73261
+Santa Elena|Ecuador|54565
+Sertaozinho|Brazil|132176
+Sao Joao de Meriti|Brazil|466503
+Villa Alemana|Chile|139571
+Villa Constitucion|Argentina|52759
+Varzea Grande|Brazil|318922
+Alta Gracia|Argentina|60695
+Aracruz|Brazil|103363
+Assis|Brazil|104858
+Barbacena|Brazil|129695
+Campana|Argentina|86860
+Campo Largo|Brazil|144504
+Carapicuiba|Brazil|398236
+Catalao|Brazil|122760
+Chivilcoy|Argentina|58152
+Divinopolis|Brazil|243583
+Dosquebradas|Colombia|179301
+El Carmen de Viboral|Colombia|59416
+El Palomar|Argentina|59031
+General Pico|Argentina|67585
+Ipojuca|Brazil|106539
+Marinilla|Colombia|64645
+Monte Grande|Argentina|109644
+Moreno|Argentina|171849
+Mosquera|Colombia|91282
+Paulista|Brazil|365144
+Presidencia Roque Saenz Pena|Argentina|101960
+Ribeirao Pires|Brazil|118954
+San Ramon de la Nueva Oran|Argentina|91215
+Santana de Parnaiba|Brazil|163787
+Sumare|Brazil|291116
+Turbaco|Colombia|115000
+Uba|Brazil|107423
+Valinhos|Brazil|132258
+Villa del Rosario|Colombia|69833
+Alvorada|Brazil|194062
+Araras|Brazil|135744
+Barra Mansa|Brazil|181679
+Berisso|Argentina|88470
+Camboriu|Brazil|117324
+Cariacica|Brazil|376200
+Catanduva|Brazil|119275
+Caucasia|Colombia|90213
+Cacapava|Brazil|100071
+Cienaga de Oro|Colombia|64226
+Clorinda|Argentina|60171
+Coronel Oviedo|Paraguay|187514
+Crato|Brazil|139027
+Fernando de la Mora|Paraguay|110255
+Funza|Colombia|80937
+Gravatai|Brazil|275430
+Guarenas|Venezuela|208663
+Itapecerica da Serra|Brazil|163003
+La Banda|Argentina|128834
+Lambare|Paraguay|127150
+Lavras|Brazil|110682
+Linhares|Brazil|183797
+Maipu|Argentina|106662
+Melipilla|Chile|108540
+Montecristi|Ecuador|71066
+Parnamirim|Brazil|271713
+Piedecuesta|Colombia|117364
+Pouso Alegre|Brazil|162133
+Puerto Boyaca|Colombia|56930
+Rio das Ostras|Brazil|168455
+Rio Tercero|Argentina|53416
+Sacaba|Bolivia|172466
+San Juan de los Morros|Venezuela|120111
+Santa Cruz de Lorica|Colombia|110316
+Santana|Brazil|118803
+Santander de Quilichao|Colombia|116535
+Sapucaia do Sul|Brazil|136572
+Taboao da Serra|Brazil|285307
+Tres Lagoas|Brazil|143523
+Yacuiba|Bolivia|97296
+Acacias|Colombia|75252
+Barbosa|Colombia|53167
+Camaragibe|Brazil|156112
+Campo Mourao|Brazil|104122
+Candelaria|Colombia|95413
+Cerete|Colombia|94935
+Chilecito|Argentina|58798
+Ciudad Ojeda|Venezuela|122124
+Colina|Chile|146209
+Estacion Central|Chile|147041
+Facatativa|Colombia|117133
+Franco da Rocha|Brazil|150241
+Gregorio de Laferrere|Argentina|248362
+Guatire|Venezuela|187262
+Huaral|Peru|99915
+Isidro Casanova|Argentina|190696
+Itaborai|Brazil|240127
+Itaituba|Brazil|135369
+Itapevi|Brazil|242995
+Itaugua|Paraguay|93213
+Itumbiara|Brazil|113322
+Jequie|Brazil|169201
+Jose C. Paz|Argentina|216637
+Lampa|Chile|102034
+Lauro de Freitas|Brazil|219564
+Leme|Brazil|101537
+Maracanau|Brazil|251613
+Nilopolis|Brazil|155500
+Palhoca|Brazil|253469
+Paragominas|Brazil|113498
+Passos|Brazil|116951
+Puerto Asis|Colombia|63067
+Quillacollo|Bolivia|137182
+Riosucio|Colombia|62296
+Vespasiano|Brazil|138583
+Viamao|Brazil|231996
+Vilhena|Brazil|109651
+Vitoria de Santo Antao|Brazil|144243
+Votuporanga|Brazil|100568
+Armenia (Colombia)|Colombia|301226
+Boa Vista (Roraima)|Brazil|485477
+Sao Vicente (Sao Paulo)|Brazil|338326
+Formosa (Argentina)|Argentina|264452
+Trinidad (Bolivia)|Bolivia|124357
+Santa Fe (Argentina)|Argentina|408572
+Valencia (Venezuela)|Venezuela|1696662
+Merida (Venezuela)|Venezuela|248192
+Santa Rosa (La Pampa)|Argentina|117201
+Barcelona (Venezuela)|Venezuela|550122
+Santarem (Para)|Brazil|360871
+San Antonio (Chile)|Chile|86239
+Los Angeles (Chile)|Chile|143023
+San Fernando (Chile)|Chile|58367
+Santa Maria (Rio Grande do Sul)|Brazil|282395
+Moron (Buenos Aires)|Argentina|99066
+San Rafael (Mendoza)|Argentina|215020
+Sinop (Mato Grosso)|Brazil|223780
+Cartago (Valle del Cauca)|Colombia|210558
+San Lorenzo (Santa Fe)|Argentina|51180
+Pamplona (Norte de Santander)|Colombia|50025
+Toledo (Parana)|Brazil|160701
+San Francisco (Argentina)|Argentina|69391
+San Miguel (Buenos Aires)|Argentina|157532
+San Miguel (Chile)|Chile|107954
+Salto (Sao Paulo)|Brazil|141111
 `;
