@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T03:37:07.238Z",
+ "fetched": "2026-09-19T03:41:31.554Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -98024,6 +98024,20 @@
    "days": 12,
    "lat": 49.058,
    "lon": -106.541
+  },
+  "desert-pachies-ammoudies": {
+   "title": "Pachies Ammoudies of Lemnos",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 39.98333333,
+   "lon": 25.13333333
+  },
+  "desert-oltenian-sahara": {
+   "title": "Oltenian Sahara",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 43.94861111,
+   "lon": 22.955
   },
   "island-greenland": {
    "title": "Greenland",

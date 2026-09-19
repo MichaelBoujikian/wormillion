@@ -8336,7 +8336,10 @@ export const WIKI_TITLES = {
   // --- sea_ocean (2026-09-19 expansion) ---
   "sea_ocean-lim-bay": "Lim (Croatia)",
   "sea_ocean-bay-of-vlore": "Bay of Vlorë",
-  "sea_ocean-dnieper-bug-estuary": "Dnieper–Bug estuary"
+  "sea_ocean-dnieper-bug-estuary": "Dnieper–Bug estuary",
+
+  // --- desert (2026-09-19 expansion) ---
+  "desert-pachies-ammoudies": "Pachies Ammoudies of Lemnos"
 };
 
 /**

@@ -2006,5 +2006,40 @@
   "wikiTitle": "Rock Creek Badlands",
   "lat": 49.058,
   "lon": -106.541
+ },
+ {
+  "id": "desert-pachies-ammoudies",
+  "category": "desert",
+  "name": "Pachies Ammoudies",
+  "aliases": [
+   "Pachies Ammoudies of Lemnos",
+   "Lemnos Desert",
+   "Ammoudies of Lemnos"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Pachies Ammoudies of Lemnos\", 60-day daily median (60 days ending 2026-09-19); Standard reference desert areas (km2), rounded",
+  "magnitude": 304,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Pachies Ammoudies of Lemnos",
+  "lat": 39.98333333,
+  "lon": 25.13333333
+ },
+ {
+  "id": "desert-oltenian-sahara",
+  "category": "desert",
+  "name": "Oltenian Sahara",
+  "aliases": [
+   "Sahara Olteniei",
+   "Oltenia Sahara"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Oltenian Sahara\", 60-day daily median (60 days ending 2026-09-19); Standard reference desert areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Oltenian Sahara",
+  "lat": 43.94861111,
+  "lon": 22.955
  }
 ]

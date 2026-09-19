@@ -9527,6 +9527,8 @@ Tonopah Desert|0
 Cheltenham Badlands|0
 Big Muddy Badlands|0
 Rock Creek Badlands|0
+Pachies Ammoudies|0|Pachies Ammoudies of Lemnos,Lemnos Desert,Ammoudies of Lemnos
+Oltenian Sahara|0|Sahara Olteniei,Oltenia Sahara
 `;
 
 export const ISLANDS = `
