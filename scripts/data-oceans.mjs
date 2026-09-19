@@ -730,6 +730,11 @@ export const OCEAN_OVERRIDES = {
   'island-hario-island': ['Pacific'],
   'island-tobishima': ['Pacific'],
   'island-oshima-ehime': ['Pacific'],
+  // --- the East Asia seas (2026-09-19): four bays and straits without coordinates, all the Pacific's ---
+  'sea_ocean-mutsu-bay': ['Pacific'],
+  'sea_ocean-uchiura-bay': ['Pacific'],
+  'sea_ocean-daya-bay': ['Pacific'],
+  'sea_ocean-qiongzhou-strait': ['Pacific'],
 };
 
 /** Final answer for one entry. */

@@ -13899,4 +13899,39 @@ Kalamita Bay|0
 Velebit Channel|0
 Dnieper-Bug Estuary|800|Dnieper-Bug Liman,Dnipro-Buh Estuary,Dnieper Estuary,Dnieper Liman,Dnipro Liman,Dnipro Estuary,Dnipro-Buh Liman
 Dniester Estuary|360|Dniester Liman
+Tsushima Strait|0|Eastern Channel
+La Perouse Strait|0|Soya Strait
+Suruga Bay|2300
+Kanmon Straits|0|Kanmon Strait,Shimonoseki Strait
+Bungo Channel|0|Bungo Strait
+Sagami Bay|0
+Jiaozhou Bay|0|Kiaochow Bay
+Naruto Strait|0
+Hangzhou Bay|0
+Bashi Channel|0
+Hakata Bay|0
+Kowloon Bay|0
+Sanya Bay|0
+Qiongzhou Strait|2300|Hainan Strait
+Humen|0|Bocca Tigris,Humen Strait
+Ariake Sea|1700
+Yalong Bay|0
+Ise Bay|1738
+Korea Bay|0|West Korea Bay
+Lei Yue Mun|0
+Miyako Strait|0
+Junk Bay|0|Tseung Kwan O Bay
+Kabira Bay|0
+Toyama Bay|0
+Daya Bay|0
+Myeongnyang Strait|0|Uldolmok
+Akashi Strait|0
+Kagoshima Bay|1130|Kinko Bay
+Mirs Bay|0|Tai Pang Wan
+Omura Bay|320
+Kii Channel|0|Kii Strait
+Mutsu Bay|1668
+Uchiura Bay|2485|Funka Bay,Volcano Bay
+Uraga Channel|0
+Xiamen Bay|0
 `;

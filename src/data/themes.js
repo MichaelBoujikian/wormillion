@@ -2290,7 +2290,15 @@ globalThis.WORMILLION_THEMES = {
       'Osaka Bay', 'Bohai Sea', 'Seto Inland Sea', 'Manila Bay', 'Leyte Gulf',
       'Cenderawasih Bay',
       // 2026-09-18 namesakes, decision 5
-      'Bohai Bay'
+      'Bohai Bay',
+      // 2026-09-19 expansion
+      'Tsushima Strait', 'La Perouse Strait', 'Suruga Bay', 'Kanmon Straits', 'Bungo Channel',
+      'Sagami Bay', 'Jiaozhou Bay', 'Naruto Strait', 'Hangzhou Bay', 'Bashi Channel',
+      'Hakata Bay', 'Kowloon Bay', 'Sanya Bay', 'Qiongzhou Strait', 'Humen',
+      'Ariake Sea', 'Yalong Bay', 'Ise Bay', 'Korea Bay', 'Lei Yue Mun',
+      'Miyako Strait', 'Junk Bay', 'Kabira Bay', 'Toyama Bay', 'Daya Bay',
+      'Myeongnyang Strait', 'Akashi Strait', 'Kagoshima Bay', 'Mirs Bay', 'Omura Bay',
+      'Kii Channel', 'Mutsu Bay', 'Uchiura Bay', 'Uraga Channel', 'Xiamen Bay'
     ],
     'the Americas': [
       'Caribbean Sea', 'Gulf of Mexico', 'Hudson Bay', 'Labrador Sea',

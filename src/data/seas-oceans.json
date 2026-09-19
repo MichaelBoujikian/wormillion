@@ -12097,5 +12097,623 @@
   "oceans": [
    "Atlantic"
   ]
+ },
+ {
+  "id": "sea_ocean-tsushima-strait",
+  "category": "sea_ocean",
+  "name": "Tsushima Strait",
+  "aliases": [
+   "Eastern Channel"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Tsushima Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1705,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Tsushima Strait",
+  "lat": 34.0075,
+  "lon": 129.49,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-la-perouse-strait",
+  "category": "sea_ocean",
+  "name": "La Perouse Strait",
+  "aliases": [
+   "Soya Strait"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"La Pérouse Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1552,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "La Pérouse Strait",
+  "lat": 45.72222222,
+  "lon": 142.02666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-suruga-bay",
+  "category": "sea_ocean",
+  "name": "Suruga Bay",
+  "aliases": [],
+  "size": 2300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Suruga Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1248,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Suruga Bay",
+  "lat": 34.85,
+  "lon": 138.55,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-kanmon-straits",
+  "category": "sea_ocean",
+  "name": "Kanmon Straits",
+  "aliases": [
+   "Kanmon Strait",
+   "Shimonoseki Strait"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kanmon Straits\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1218,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kanmon Straits",
+  "lat": 33.94694444,
+  "lon": 130.94666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-bungo-channel",
+  "category": "sea_ocean",
+  "name": "Bungo Channel",
+  "aliases": [
+   "Bungo Strait"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bungo Channel\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 1005,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bungo Channel",
+  "lat": 32.909,
+  "lon": 132.25,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-sagami-bay",
+  "category": "sea_ocean",
+  "name": "Sagami Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sagami Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 913,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sagami Bay",
+  "lat": 35.11666667,
+  "lon": 139.38333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-jiaozhou-bay",
+  "category": "sea_ocean",
+  "name": "Jiaozhou Bay",
+  "aliases": [
+   "Kiaochow Bay"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Jiaozhou Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 883,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Jiaozhou Bay",
+  "lat": 36.12345556,
+  "lon": 120.24563889,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-naruto-strait",
+  "category": "sea_ocean",
+  "name": "Naruto Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Naruto Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 852,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Naruto Strait",
+  "lat": 34.24138889,
+  "lon": 134.65111111,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-hangzhou-bay",
+  "category": "sea_ocean",
+  "name": "Hangzhou Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hangzhou Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 822,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hangzhou Bay",
+  "lat": 30.2852,
+  "lon": 120.924,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-bashi-channel",
+  "category": "sea_ocean",
+  "name": "Bashi Channel",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Bashi Channel\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 731,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Bashi Channel",
+  "lat": 21.41666667,
+  "lon": 121.5,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-hakata-bay",
+  "category": "sea_ocean",
+  "name": "Hakata Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Hakata Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Hakata Bay",
+  "lat": 33.618,
+  "lon": 130.333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-kowloon-bay",
+  "category": "sea_ocean",
+  "name": "Kowloon Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kowloon Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 700,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kowloon Bay",
+  "lat": 22.31666667,
+  "lon": 114.2,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-sanya-bay",
+  "category": "sea_ocean",
+  "name": "Sanya Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Sanya Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 670,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Sanya Bay",
+  "lat": 18.258045,
+  "lon": 109.450092,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-qiongzhou-strait",
+  "category": "sea_ocean",
+  "name": "Qiongzhou Strait",
+  "aliases": [
+   "Hainan Strait"
+  ],
+  "size": 2300,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Qiongzhou Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 609,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Qiongzhou Strait",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-humen",
+  "category": "sea_ocean",
+  "name": "Humen",
+  "aliases": [
+   "Bocca Tigris",
+   "Humen Strait"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Humen\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 548,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Humen",
+  "lat": 22.7933,
+  "lon": 113.5979,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-ariake-sea",
+  "category": "sea_ocean",
+  "name": "Ariake Sea",
+  "aliases": [],
+  "size": 1700,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ariake Sea\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 487,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ariake Sea",
+  "lat": 32.90694444,
+  "lon": 130.37222222,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-yalong-bay",
+  "category": "sea_ocean",
+  "name": "Yalong Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Yalong Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 457,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Yalong Bay",
+  "lat": 18.21083333,
+  "lon": 109.65444444,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-ise-bay",
+  "category": "sea_ocean",
+  "name": "Ise Bay",
+  "aliases": [],
+  "size": 1738,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ise Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 426,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ise Bay",
+  "lat": 34.75,
+  "lon": 136.75,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-korea-bay",
+  "category": "sea_ocean",
+  "name": "Korea Bay",
+  "aliases": [
+   "West Korea Bay"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Korea Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Korea Bay",
+  "lat": 39,
+  "lon": 124,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-lei-yue-mun",
+  "category": "sea_ocean",
+  "name": "Lei Yue Mun",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Lei Yue Mun\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 396,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Lei Yue Mun",
+  "lat": 22.28472222,
+  "lon": 114.23833333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-miyako-strait",
+  "category": "sea_ocean",
+  "name": "Miyako Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Miyako Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 365,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Miyako Strait",
+  "lat": 25.38333333,
+  "lon": 126.41666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-junk-bay",
+  "category": "sea_ocean",
+  "name": "Junk Bay",
+  "aliases": [
+   "Tseung Kwan O Bay"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Junk Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Junk Bay",
+  "lat": 22.29,
+  "lon": 114.26,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-kabira-bay",
+  "category": "sea_ocean",
+  "name": "Kabira Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kabira Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kabira Bay",
+  "lat": 24.44611111,
+  "lon": 124.14027778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-toyama-bay",
+  "category": "sea_ocean",
+  "name": "Toyama Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Toyama Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 335,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Toyama Bay",
+  "lat": 36.83333333,
+  "lon": 137.16666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-daya-bay",
+  "category": "sea_ocean",
+  "name": "Daya Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Daya Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Daya Bay",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-myeongnyang-strait",
+  "category": "sea_ocean",
+  "name": "Myeongnyang Strait",
+  "aliases": [
+   "Uldolmok"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Myeongnyang Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 274,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Myeongnyang Strait",
+  "lat": 34.56833333,
+  "lon": 126.30777778,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-akashi-strait",
+  "category": "sea_ocean",
+  "name": "Akashi Strait",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Akashi Strait\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Akashi Strait",
+  "lat": 34.61666667,
+  "lon": 134.98333333,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-kagoshima-bay",
+  "category": "sea_ocean",
+  "name": "Kagoshima Bay",
+  "aliases": [
+   "Kinko Bay"
+  ],
+  "size": 1130,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kagoshima Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kagoshima Bay",
+  "lat": 31.46972222,
+  "lon": 130.63555556,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-mirs-bay",
+  "category": "sea_ocean",
+  "name": "Mirs Bay",
+  "aliases": [
+   "Tai Pang Wan"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mirs Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mirs Bay",
+  "lat": 22.56666667,
+  "lon": 114.36666667,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-omura-bay",
+  "category": "sea_ocean",
+  "name": "Omura Bay",
+  "aliases": [],
+  "size": 320,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Ōmura Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 244,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Ōmura Bay",
+  "lat": 32.95,
+  "lon": 129.875,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-kii-channel",
+  "category": "sea_ocean",
+  "name": "Kii Channel",
+  "aliases": [
+   "Kii Strait"
+  ],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Kii Channel\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Kii Channel",
+  "lat": 33.9692,
+  "lon": 134.872,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-mutsu-bay",
+  "category": "sea_ocean",
+  "name": "Mutsu Bay",
+  "aliases": [],
+  "size": 1668,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Mutsu Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Mutsu Bay",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-uchiura-bay",
+  "category": "sea_ocean",
+  "name": "Uchiura Bay",
+  "aliases": [
+   "Funka Bay",
+   "Volcano Bay"
+  ],
+  "size": 2485,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Uchiura Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uchiura Bay",
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-uraga-channel",
+  "category": "sea_ocean",
+  "name": "Uraga Channel",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Uraga Channel\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Uraga Channel",
+  "lat": 35.20187,
+  "lon": 139.79279,
+  "oceans": [
+   "Pacific"
+  ]
+ },
+ {
+  "id": "sea_ocean-xiamen-bay",
+  "category": "sea_ocean",
+  "name": "Xiamen Bay",
+  "aliases": [],
+  "size": 0,
+  "sizeUnit": "area_km2",
+  "source": "English Wikipedia pageviews for \"Xiamen Bay\", 60-day daily median (60 days ending 2026-09-19); Standard reference sea and ocean areas (km2), rounded",
+  "magnitude": 213,
+  "magnitudeUnit": "pageviews_monthly",
+  "wikiTitle": "Xiamen Bay",
+  "lat": 24.5,
+  "lon": 118.25,
+  "oceans": [
+   "Pacific"
+  ]
  }
 ]

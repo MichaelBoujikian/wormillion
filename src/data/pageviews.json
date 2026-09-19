@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T07:30:25.845Z",
+ "fetched": "2026-09-19T07:43:39.673Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -129685,6 +129685,251 @@
    "days": 60,
    "lat": 46.23333333,
    "lon": 30.35
+  },
+  "sea_ocean-tsushima-strait": {
+   "title": "Tsushima Strait",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 34.0075,
+   "lon": 129.49
+  },
+  "sea_ocean-la-perouse-strait": {
+   "title": "La Pérouse Strait",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 45.72222222,
+   "lon": 142.02666667
+  },
+  "sea_ocean-suruga-bay": {
+   "title": "Suruga Bay",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 34.85,
+   "lon": 138.55
+  },
+  "sea_ocean-kanmon-straits": {
+   "title": "Kanmon Straits",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 33.94694444,
+   "lon": 130.94666667
+  },
+  "sea_ocean-bungo-channel": {
+   "title": "Bungo Channel",
+   "monthlyViews": 1005,
+   "days": 59,
+   "lat": 32.909,
+   "lon": 132.25
+  },
+  "sea_ocean-sagami-bay": {
+   "title": "Sagami Bay",
+   "monthlyViews": 913,
+   "days": 59,
+   "lat": 35.11666667,
+   "lon": 139.38333333
+  },
+  "sea_ocean-jiaozhou-bay": {
+   "title": "Jiaozhou Bay",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 36.12345556,
+   "lon": 120.24563889
+  },
+  "sea_ocean-naruto-strait": {
+   "title": "Naruto Strait",
+   "monthlyViews": 852,
+   "days": 59,
+   "lat": 34.24138889,
+   "lon": 134.65111111
+  },
+  "sea_ocean-hangzhou-bay": {
+   "title": "Hangzhou Bay",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 30.2852,
+   "lon": 120.924
+  },
+  "sea_ocean-bashi-channel": {
+   "title": "Bashi Channel",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 21.41666667,
+   "lon": 121.5
+  },
+  "sea_ocean-hakata-bay": {
+   "title": "Hakata Bay",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 33.618,
+   "lon": 130.333
+  },
+  "sea_ocean-kowloon-bay": {
+   "title": "Kowloon Bay",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 22.31666667,
+   "lon": 114.2
+  },
+  "sea_ocean-sanya-bay": {
+   "title": "Sanya Bay",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 18.258045,
+   "lon": 109.450092
+  },
+  "sea_ocean-qiongzhou-strait": {
+   "title": "Qiongzhou Strait",
+   "monthlyViews": 609,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-humen": {
+   "title": "Humen",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 22.7933,
+   "lon": 113.5979
+  },
+  "sea_ocean-ariake-sea": {
+   "title": "Ariake Sea",
+   "monthlyViews": 487,
+   "days": 59,
+   "lat": 32.90694444,
+   "lon": 130.37222222
+  },
+  "sea_ocean-yalong-bay": {
+   "title": "Yalong Bay",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 18.21083333,
+   "lon": 109.65444444
+  },
+  "sea_ocean-ise-bay": {
+   "title": "Ise Bay",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 34.75,
+   "lon": 136.75
+  },
+  "sea_ocean-korea-bay": {
+   "title": "Korea Bay",
+   "monthlyViews": 396,
+   "days": 59,
+   "lat": 39,
+   "lon": 124
+  },
+  "sea_ocean-lei-yue-mun": {
+   "title": "Lei Yue Mun",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 22.28472222,
+   "lon": 114.23833333
+  },
+  "sea_ocean-miyako-strait": {
+   "title": "Miyako Strait",
+   "monthlyViews": 365,
+   "days": 59,
+   "lat": 25.38333333,
+   "lon": 126.41666667
+  },
+  "sea_ocean-junk-bay": {
+   "title": "Junk Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 22.29,
+   "lon": 114.26
+  },
+  "sea_ocean-kabira-bay": {
+   "title": "Kabira Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 24.44611111,
+   "lon": 124.14027778
+  },
+  "sea_ocean-toyama-bay": {
+   "title": "Toyama Bay",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 36.83333333,
+   "lon": 137.16666667
+  },
+  "sea_ocean-daya-bay": {
+   "title": "Daya Bay",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-myeongnyang-strait": {
+   "title": "Myeongnyang Strait",
+   "monthlyViews": 274,
+   "days": 59,
+   "lat": 34.56833333,
+   "lon": 126.30777778
+  },
+  "sea_ocean-akashi-strait": {
+   "title": "Akashi Strait",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 34.61666667,
+   "lon": 134.98333333
+  },
+  "sea_ocean-kagoshima-bay": {
+   "title": "Kagoshima Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 31.46972222,
+   "lon": 130.63555556
+  },
+  "sea_ocean-mirs-bay": {
+   "title": "Mirs Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 22.56666667,
+   "lon": 114.36666667
+  },
+  "sea_ocean-omura-bay": {
+   "title": "Ōmura Bay",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 32.95,
+   "lon": 129.875
+  },
+  "sea_ocean-kii-channel": {
+   "title": "Kii Channel",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.9692,
+   "lon": 134.872
+  },
+  "sea_ocean-mutsu-bay": {
+   "title": "Mutsu Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-uchiura-bay": {
+   "title": "Uchiura Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "sea_ocean-uraga-channel": {
+   "title": "Uraga Channel",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.20187,
+   "lon": 139.79279
+  },
+  "sea_ocean-xiamen-bay": {
+   "title": "Xiamen Bay",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 24.5,
+   "lon": 118.25
   }
  }
 }

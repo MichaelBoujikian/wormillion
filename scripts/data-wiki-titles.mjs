@@ -8798,7 +8798,11 @@ export const WIKI_TITLES = {
   "island-oshima-ehime": "Ōshima (Ehime)",
 
   // --- island (2026-09-19 expansion) ---
-  "island-guishan-island-guangdong": "Guishan Island (China)"
+  "island-guishan-island-guangdong": "Guishan Island (China)",
+
+  // --- sea_ocean (2026-09-19 expansion) ---
+  "sea_ocean-la-perouse-strait": "La Pérouse Strait",
+  "sea_ocean-omura-bay": "Ōmura Bay"
 };
 
 /**
@@ -9401,5 +9405,7 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-19 East Asia islands: Shiraishi Island (Okayama; "Place" by description) ---
   "island-shiraishi-island",
   // --- 2026-09-19 East Asia rivers audit: Kezi is 900 km (the enwiki infobox; zhwiki's 238 km is the reach above the gorge) ---
-  "river-kezi"
+  "river-kezi",
+  // --- 2026-09-19 East Asia seas: Xiamen Bay (no short description; the bay of Xiamen, Fujian) ---
+  "sea_ocean-xiamen-bay"
 ]);
