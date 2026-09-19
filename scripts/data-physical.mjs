@@ -2476,7 +2476,7 @@ Kelkit|373
 Aras|1072
 Kura|1515
 Murat|722
-Karasu|450
+Karasu (Erzurum)|450
 Botan|175
 Batman|165
 Orontes|571
@@ -6755,6 +6755,153 @@ Sai (Nagano)|153|Saigawa
 Arakawa (Niigata)|73
 Dadu (Taiwan)|124|Dadu Xi
 Naka (Tokushima)|125
+Wadi Hanifa|120|Wadi Hanifah
+Pactolus|25|Sart Cayi
+Biga Cayi|80
+Zarrineh|302|Zarrinehrud,Jaghatu
+Aegospotami|0
+Pamir|0
+Kokcha|320
+Pinarus|0
+Queiq|129
+Bartang|528
+Pech|120
+Meles|0
+Wakhan|220
+Akhuryan|186
+Balkh|450|Balkhab
+Haraz|150
+Jaghjagh|0
+Khazir|0
+Afrin|131
+Ankara|140
+Khersan|0
+Payas|0
+Sajur|108
+Sirwan|445
+Duden|0
+Ilek|623|Ilek River
+Karaj|245
+Kor|280
+Kunduz|420
+Simav|321|Susurluk River
+Small Almaty|125
+Tarnak|320
+Aesepus|134
+Akkanburlyk|176
+Alingar|180
+Bukhtarma|336|Bukhtarma River
+Charyn|427|Charyn River,Sharyn
+Esen|120
+Ghezel Ozan|720|Qizil Uzan,Qezel Owzan
+Gok|221
+Halil|390
+Harut|394
+Kashafrud|260
+Sumbar|245
+ʿAdhaim|230
+Aji Chay|265
+Alwand|150
+Andarab|120
+Arys|378|Arys River
+Delice|426|Delice Irmagi
+Dori|320
+Hosap|113
+Irgiz|593
+Karatal|390|Karatal River
+Little Khabur|181
+Kushk|241
+Mehran|1289
+Or|332|Or River
+Qom|400|Qomrud
+Shagan (East Kazakhstan)|275
+Simineh|200
+Uil|800|Uil River
+Zangmar|125
+Zohreh|490
+Saghyz|511
+Sherubainura|281
+Ak-Suu|155
+Akbastau|83
+Arghistan|280
+Arshaly|220
+Asa|253
+Ashchysu|305
+Ayagoz|492
+Ayat|117
+Baikonyr|235
+Bakanas|240
+Bogen|164
+Boktykaryn|123
+Bolgarchay|163
+Bolshoy Uzen|650
+Chalus|85
+Chandyr|120
+Chilik|245
+Efrenk|100
+Gadar|100
+Gelevera|80
+Ghorband|130
+Harsit|137
+Helleh|80
+Issyk|96
+Kalkutan|223
+Kara-Balta|133
+Karakengir|295
+Kargaly|114
+Kars|93
+Kauylzhyr|142
+Keles|241
+Khanabad|400
+Khash|480
+Khulm|230
+Kigach|378|Kigach River
+Kocasu|100
+Koksu|205
+Kon|160
+Kulanotpes|364
+Kushum|375
+Lepsy|417|Lepsy River
+Maly Uzen|638
+Marun|422
+Mond|735|Mand River
+Peri|230
+Qarah Aghaj|700
+Qarasu|160
+Qatur|170
+Salang|438
+Sari Pul|215
+Saryozen|115
+Seymareh|417
+Shabakty|164
+Shagalaly|234
+Shagan (West Kazakhstan)|264
+Shahrud|175
+Shiderti|506
+Shirin Tagab|320
+Sileti|407
+Sokyr|102
+Syntasty|152
+Taldy|159
+Taldymanaka|158
+Talgar|117
+Terisakkan|334
+Tokrau|298
+Tundik|305
+Uba|278
+Ubagan|376
+Ulba|100
+Ulkayak|349
+Urzhar|206
+Wadi Arar|125
+Zhabay|196
+Zharly|156
+Zhymyky|105
+Zhyngyldyozek|222
+Cekerek|300
+Aksu (Turkey)|162
+Karasu (Hatay)|122
+Naryn (East Kazakhstan)|100
 `;
 
 export const MOUNTAINS = `

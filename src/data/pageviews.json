@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T08:59:56.721Z",
+ "fetched": "2026-09-19T09:25:08.036Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -55668,7 +55668,7 @@
    "lat": 39.4,
    "lon": 43.75
   },
-  "river-karasu": {
+  "river-karasu-erzurum": {
    "title": "Karasu (Euphrates)",
    "monthlyViews": 487,
    "days": 60,
@@ -85620,6 +85620,1035 @@
    "days": 53,
    "lat": 33.9436,
    "lon": 134.6987
+  },
+  "river-wadi-hanifa": {
+   "title": "Wadi Hanifa",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 24.5809,
+   "lon": 46.71311
+  },
+  "river-pactolus": {
+   "title": "Pactolus",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 38.52327,
+   "lon": 28.042774
+  },
+  "river-biga-cayi": {
+   "title": "Biga Çayı",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 40.38333333,
+   "lon": 27.3
+  },
+  "river-zarrineh": {
+   "title": "Zarrineh River",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 37.24611111,
+   "lon": 45.83472222
+  },
+  "river-aegospotami": {
+   "title": "Aegospotami",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 40.332,
+   "lon": 26.6
+  },
+  "river-pamir": {
+   "title": "Pamir River",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 37.01666667,
+   "lon": 72.65
+  },
+  "river-kokcha": {
+   "title": "Kokcha River",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.16333333,
+   "lon": 69.39666667
+  },
+  "river-pinarus": {
+   "title": "Pinarus River",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.7525,
+   "lon": 36.1923
+  },
+  "river-queiq": {
+   "title": "Queiq",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.40583333,
+   "lon": 37.28972222
+  },
+  "river-bartang": {
+   "title": "Bartang",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.9185,
+   "lon": 71.5919
+  },
+  "river-pech": {
+   "title": "Pech River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.87143056,
+   "lon": 71.15937778
+  },
+  "river-meles": {
+   "title": "River Meles",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-wakhan": {
+   "title": "Wakhan River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.01666667,
+   "lon": 72.65
+  },
+  "river-akhuryan": {
+   "title": "Akhuryan (river)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.1315,
+   "lon": 43.6484
+  },
+  "river-balkh": {
+   "title": "Balkh River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.65,
+   "lon": 66.93333333
+  },
+  "river-haraz": {
+   "title": "Haraz River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-jaghjagh": {
+   "title": "Jaghjagh River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.4975,
+   "lon": 40.77111111
+  },
+  "river-khazir": {
+   "title": "Khazir River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.1703,
+   "lon": 43.5412
+  },
+  "river-afrin": {
+   "title": "Afrin River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.32472222,
+   "lon": 36.26111111
+  },
+  "river-ankara": {
+   "title": "Ankara River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 39.84083333,
+   "lon": 31.8875
+  },
+  "river-khersan": {
+   "title": "Khersan River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-payas": {
+   "title": "Payas River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-sajur": {
+   "title": "Sajur River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.65972222,
+   "lon": 38.07055556
+  },
+  "river-sirwan": {
+   "title": "Sirwan River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 33.2208,
+   "lon": 44.5064
+  },
+  "river-duden": {
+   "title": "Düden River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-ilek": {
+   "title": "Ilek (river)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 51.5097,
+   "lon": 53.3689
+  },
+  "river-karaj": {
+   "title": "Karaj River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.78055556,
+   "lon": 51.83083333
+  },
+  "river-kor": {
+   "title": "Kor River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-kunduz": {
+   "title": "Kunduz River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.00416667,
+   "lon": 68.265
+  },
+  "river-simav": {
+   "title": "Simav River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 39,
+   "lon": 29
+  },
+  "river-small-almaty": {
+   "title": "Small Almaty (river)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 43.77013,
+   "lon": 77.11623
+  },
+  "river-tarnak": {
+   "title": "Tarnak River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-aesepus": {
+   "title": "Aesepus River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 40.322211,
+   "lon": 27.634697
+  },
+  "river-akkanburlyk": {
+   "title": "Akkanburlyk",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 52.7483,
+   "lon": 66.6075
+  },
+  "river-alingar": {
+   "title": "Alingar River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 34.6,
+   "lon": 70.06666667
+  },
+  "river-bukhtarma": {
+   "title": "Bukhtarma",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 49.7406,
+   "lon": 83.9903
+  },
+  "river-charyn": {
+   "title": "Charyn",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 43.93111111,
+   "lon": 79.4275
+  },
+  "river-esen": {
+   "title": "Eşen River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 36.2935,
+   "lon": 29.2625
+  },
+  "river-ghezel-ozan": {
+   "title": "Ghezel Ozan",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 35.6934,
+   "lon": 46.7745
+  },
+  "river-gok": {
+   "title": "Gök River",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 41.4077,
+   "lon": 35.1188
+  },
+  "river-halil": {
+   "title": "Halil River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-harut": {
+   "title": "Harut River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-kashafrud": {
+   "title": "Kashafrud River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 35.9649,
+   "lon": 61.119
+  },
+  "river-sumbar": {
+   "title": "Sumbar River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-adhaim": {
+   "title": "ʿAdhaim",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 34.2667,
+   "lon": 44.5167
+  },
+  "river-aji-chay": {
+   "title": "Aji Chay",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.75,
+   "lon": 45.7
+  },
+  "river-alwand": {
+   "title": "Alwand River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 34.53527778,
+   "lon": 45.99416667
+  },
+  "river-andarab": {
+   "title": "Andarab",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 35.6,
+   "lon": 68.68333333
+  },
+  "river-arys": {
+   "title": "Arys (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 42.7796,
+   "lon": 68.2318
+  },
+  "river-delice": {
+   "title": "Delice River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-dori": {
+   "title": "Dori River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 31.38333333,
+   "lon": 65.75
+  },
+  "river-hosap": {
+   "title": "Hoşap River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 38.361034,
+   "lon": 43.144058
+  },
+  "river-irgiz": {
+   "title": "Irgiz (Turgay)",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 48.2579,
+   "lon": 62.0222
+  },
+  "river-karatal": {
+   "title": "Karatal",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 46.47527778,
+   "lon": 77.21861111
+  },
+  "river-little-khabur": {
+   "title": "Little Khabur",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.10263056,
+   "lon": 42.35281111
+  },
+  "river-kushk": {
+   "title": "Kushk River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 36.0502,
+   "lon": 62.7397
+  },
+  "river-mehran": {
+   "title": "Mehran River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 27.01666667,
+   "lon": 54.28333333
+  },
+  "river-or": {
+   "title": "Or (river)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 51.1856,
+   "lon": 58.5411
+  },
+  "river-qom": {
+   "title": "Qom River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 34.48388889,
+   "lon": 51.57638889
+  },
+  "river-shagan-east-kazakhstan": {
+   "title": "Shagan (Irtysh)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 50.63194444,
+   "lon": 79.2625
+  },
+  "river-simineh": {
+   "title": "Simineh River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.22861111,
+   "lon": 45.71111111
+  },
+  "river-uil": {
+   "title": "Uil",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.541,
+   "lon": 52.4041
+  },
+  "river-zangmar": {
+   "title": "Zangmar River",
+   "monthlyViews": 61,
+   "days": 58,
+   "lat": 39.35222222,
+   "lon": 45.08527778
+  },
+  "river-zohreh": {
+   "title": "Zohreh River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 30.0668,
+   "lon": 49.5076
+  },
+  "river-saghyz": {
+   "title": "Saghyz (river)",
+   "monthlyViews": 40,
+   "days": 51,
+   "lat": 47.5833,
+   "lon": 53.5
+  },
+  "river-sherubainura": {
+   "title": "Sherubainura",
+   "monthlyViews": 32,
+   "days": 55,
+   "lat": 49.90777778,
+   "lon": 72.5075
+  },
+  "river-ak-suu": {
+   "title": "Ak-Suu (Chu)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.33805556,
+   "lon": 73.97
+  },
+  "river-akbastau": {
+   "title": "Akbastau",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 49.61083333,
+   "lon": 74.32888889
+  },
+  "river-arghistan": {
+   "title": "Arghistan River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 31.38333333,
+   "lon": 65.75
+  },
+  "river-arshaly": {
+   "title": "Arshaly (river)",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 51.78694444,
+   "lon": 69.47
+  },
+  "river-asa": {
+   "title": "Asa (Kazakhstan)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.9202,
+   "lon": 70.2066
+  },
+  "river-ashchysu": {
+   "title": "Ashchysu (Shagan)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 49.92138889,
+   "lon": 79.01305556
+  },
+  "river-ayagoz": {
+   "title": "Ayagöz (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 46.6627,
+   "lon": 79.2373
+  },
+  "river-ayat": {
+   "title": "Ayat (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 52.8774,
+   "lon": 62.8346
+  },
+  "river-baikonyr": {
+   "title": "Baikonyr",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.51166667,
+   "lon": 65.04527778
+  },
+  "river-bakanas": {
+   "title": "Bakanas (river)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 47.23388889,
+   "lon": 79.2225
+  },
+  "river-bogen": {
+   "title": "Bogen (river)",
+   "monthlyViews": 30,
+   "days": 29,
+   "lat": 42.9588,
+   "lon": 68.5791
+  },
+  "river-boktykaryn": {
+   "title": "Boktykaryn",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 45.17611111,
+   "lon": 67.29055556
+  },
+  "river-bolgarchay": {
+   "title": "Bolgarchay",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-bolshoy-uzen": {
+   "title": "Bolshoy Uzen",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 48.92944444,
+   "lon": 49.91277778
+  },
+  "river-chalus": {
+   "title": "Chalus River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-chandyr": {
+   "title": "Chandyr River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-chilik": {
+   "title": "Chilik (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.8192,
+   "lon": 78.159
+  },
+  "river-efrenk": {
+   "title": "Efrenk River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-gadar": {
+   "title": "Gadar River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-gelevera": {
+   "title": "Gelevera",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 40.95,
+   "lon": 38.71666667
+  },
+  "river-ghorband": {
+   "title": "Ghorband River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-harsit": {
+   "title": "Harşit River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 41.0075,
+   "lon": 38.84972222
+  },
+  "river-helleh": {
+   "title": "Helleh River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-issyk": {
+   "title": "Issyk (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.7602,
+   "lon": 77.3704
+  },
+  "river-kalkutan": {
+   "title": "Kalkutan",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 51.72166667,
+   "lon": 71.30138889
+  },
+  "river-kara-balta": {
+   "title": "Kara-Balta (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 43.2662,
+   "lon": 73.9961
+  },
+  "river-karakengir": {
+   "title": "Karakengir",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.37833333,
+   "lon": 67.99138889
+  },
+  "river-kargaly": {
+   "title": "Kargaly (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 50.30611111,
+   "lon": 57.23055556
+  },
+  "river-kars": {
+   "title": "Kars River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 40.616667,
+   "lon": 43.683333
+  },
+  "river-kauylzhyr": {
+   "title": "Kauylzhyr",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 47.85055556,
+   "lon": 59.53777778
+  },
+  "river-keles": {
+   "title": "Keles (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 41.0212,
+   "lon": 68.611
+  },
+  "river-khanabad": {
+   "title": "Khanabad River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 36.863,
+   "lon": 68.6137
+  },
+  "river-khash": {
+   "title": "Khash River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-khulm": {
+   "title": "Khulm River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 36.766007,
+   "lon": 67.702446
+  },
+  "river-kigach": {
+   "title": "Kigach",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 46.4719,
+   "lon": 48.8208
+  },
+  "river-kocasu": {
+   "title": "Kocasu Creek (Hınıs)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 39.1707,
+   "lon": 42.1485
+  },
+  "river-koksu": {
+   "title": "Koksu (Karatal)",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 44.9981,
+   "lon": 78.1125
+  },
+  "river-kon": {
+   "title": "Kon (river)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 50.19138889,
+   "lon": 69.50083333
+  },
+  "river-kulanotpes": {
+   "title": "Kulanotpes",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 50.34305556,
+   "lon": 69.24583333
+  },
+  "river-kushum": {
+   "title": "Kushum",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.20916667,
+   "lon": 50.34638889
+  },
+  "river-lepsy": {
+   "title": "Lepsy (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.3646,
+   "lon": 78.3391
+  },
+  "river-maly-uzen": {
+   "title": "Maly Uzen",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 48.93916667,
+   "lon": 49.65666667
+  },
+  "river-marun": {
+   "title": "Marun River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-mond": {
+   "title": "Mond River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 28.13777778,
+   "lon": 51.26972222
+  },
+  "river-peri": {
+   "title": "Peri River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-qarah-aghaj": {
+   "title": "Qarah Aghaj (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-qarasu": {
+   "title": "Qarasu River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 36.8286,
+   "lon": 54.0378
+  },
+  "river-qatur": {
+   "title": "Qatur River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 38.9942,
+   "lon": 45.4493
+  },
+  "river-salang": {
+   "title": "Salang River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 35.06666667,
+   "lon": 69.23333333
+  },
+  "river-sari-pul": {
+   "title": "Sari Pul River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": null,
+   "lon": null
+  },
+  "river-saryozen": {
+   "title": "Saryozen (Irtysh basin)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": 50.22166667,
+   "lon": 77.73416667
+  },
+  "river-seymareh": {
+   "title": "Seymareh River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 33.10166667,
+   "lon": 47.52555556
+  },
+  "river-shabakty": {
+   "title": "Shabakty",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 43.84027778,
+   "lon": 69.77833333
+  },
+  "river-shagalaly": {
+   "title": "Shagalaly",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 53.145,
+   "lon": 68.995
+  },
+  "river-shagan-west-kazakhstan": {
+   "title": "Shagan (Ural)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 51.17583333,
+   "lon": 51.34944444
+  },
+  "river-shahrud": {
+   "title": "Shahrud (river)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-shiderti": {
+   "title": "Shiderti",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 52.646,
+   "lon": 74.395
+  },
+  "river-shirin-tagab": {
+   "title": "Shirin Tagab River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 36.95,
+   "lon": 65.11666667
+  },
+  "river-sileti": {
+   "title": "Sileti",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 53.07444444,
+   "lon": 73.40416667
+  },
+  "river-sokyr": {
+   "title": "Sokyr",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.88166667,
+   "lon": 72.56777778
+  },
+  "river-syntasty": {
+   "title": "Syntasty",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 52.2631,
+   "lon": 61.5636
+  },
+  "river-taldy": {
+   "title": "Taldy",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 49.87694444,
+   "lon": 75.62166667
+  },
+  "river-taldymanaka": {
+   "title": "Taldymanaka",
+   "monthlyViews": 30,
+   "days": 47,
+   "lat": 48.51388889,
+   "lon": 70.98333333
+  },
+  "river-talgar": {
+   "title": "Talgar (river)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 43.7875,
+   "lon": 77.2375
+  },
+  "river-terisakkan": {
+   "title": "Terisakkan",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 51.2494,
+   "lon": 67.1592
+  },
+  "river-tokrau": {
+   "title": "Tokrau",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 46.98416667,
+   "lon": 75.39
+  },
+  "river-tundik": {
+   "title": "Tundik",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 51.07916667,
+   "lon": 77.43222222
+  },
+  "river-uba": {
+   "title": "Uba (river)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 50.2829,
+   "lon": 81.6963
+  },
+  "river-ubagan": {
+   "title": "Ubagan",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 54.40055556,
+   "lon": 64.75027778
+  },
+  "river-ulba": {
+   "title": "Ulba",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.95055556,
+   "lon": 82.58444444
+  },
+  "river-ulkayak": {
+   "title": "Ulkayak",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 48.91138889,
+   "lon": 62.00722222
+  },
+  "river-urzhar": {
+   "title": "Urzhar (river)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 46.46666667,
+   "lon": 81.55222222
+  },
+  "river-wadi-arar": {
+   "title": "Wadi Arar",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-zhabay": {
+   "title": "Zhabay",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 51.69861111,
+   "lon": 68.365
+  },
+  "river-zharly": {
+   "title": "Zharly",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 49.72444444,
+   "lon": 74.95722222
+  },
+  "river-zhymyky": {
+   "title": "Zhymyky",
+   "monthlyViews": 30,
+   "days": 45,
+   "lat": 47.74638889,
+   "lon": 64.9175
+  },
+  "river-zhyngyldyozek": {
+   "title": "Zhyngyldyozek",
+   "monthlyViews": 30,
+   "days": 49,
+   "lat": 48.14611111,
+   "lon": 63.38388889
+  },
+  "river-cekerek": {
+   "title": "Çekerek River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 40.5614819,
+   "lon": 35.7546186
+  },
+  "river-aksu-turkey": {
+   "title": "Aksu River (Turkey)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.85361,
+   "lon": 30.92027
+  },
+  "river-karasu-hatay": {
+   "title": "Karasu (Hatay)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 36.25277778,
+   "lon": 36.20388889
+  },
+  "river-naryn-east-kazakhstan": {
+   "title": "Naryn (Irtysh)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 49.19361111,
+   "lon": 84.4775
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

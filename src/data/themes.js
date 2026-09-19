@@ -115,23 +115,69 @@ globalThis.WORMILLION_THEMES = {
     // 2026-09-19 West and Central Asia wave: five regional river themes, seeded with the incumbents
     'Turkey': [
       'Euphrates', 'Tigris', 'Kizilirmak', 'Yesilirmak', 'Sakarya', 'Seyhan', 'Ceyhan', 'Goksu', 'Buyuk Menderes',
-      'Kucuk Menderes', 'Gediz', 'Bakircay', 'Ergene', 'Coruh', 'Kelkit', 'Murat', 'Karasu', 'Botan', 'Batman',
-      'Manavgat', 'Koprucay', 'Dalaman', 'Dim', 'Tarsus', 'Zamanti', 'Porsuk', 'Bartin', 'Filyos', 'Nilufer', 'Scamander', 'Aras'
+      'Kucuk Menderes', 'Gediz', 'Bakircay', 'Ergene', 'Coruh', 'Kelkit', 'Murat', 'Karasu (Erzurum)', 'Botan', 'Batman',
+      'Manavgat', 'Koprucay', 'Dalaman', 'Dim', 'Tarsus', 'Zamanti', 'Porsuk', 'Bartin', 'Filyos', 'Nilufer', 'Scamander', 'Aras',
+      // 2026-09-19 expansion
+      'Pactolus', 'Biga Cayi', 'Aegospotami', 'Pinarus', 'Queiq',
+      'Meles', 'Jaghjagh', 'Afrin', 'Ankara', 'Payas',
+      'Duden', 'Simav', 'Aesepus', 'Esen', 'Gok',
+      'Delice', 'Hosap', 'Little Khabur', 'Efrenk', 'Gelevera',
+      'Harsit', 'Kars', 'Kocasu', 'Peri', 'Qatur',
+      'Cekerek',
+      // 2026-09-19 expansion
+      'Aksu (Turkey)', 'Karasu (Hatay)'
     ],
     'Iran': [
-      'Aras', 'Karun', 'Karkheh', 'Dez', 'Zayanderud', 'Sefidrud', 'Atrak', 'Gorgan', 'Shatt al-Arab', 'Harirud'
+      'Aras', 'Karun', 'Karkheh', 'Dez', 'Zayanderud', 'Sefidrud', 'Atrak', 'Gorgan', 'Shatt al-Arab', 'Harirud',
+      // 2026-09-19 expansion
+      'Zarrineh', 'Haraz', 'Khersan', 'Sirwan', 'Karaj',
+      'Kor', 'Ghezel Ozan', 'Halil', 'Kashafrud', 'Sumbar',
+      'Aji Chay', 'Alwand', 'Mehran', 'Qom', 'Simineh',
+      'Zangmar', 'Zohreh', 'Bolgarchay', 'Chalus', 'Gadar',
+      'Helleh', 'Marun', 'Mond', 'Qarah Aghaj', 'Qarasu',
+      'Seymareh', 'Shahrud'
     ],
     'the Caucasus': [
-      'Coruh', 'Aras', 'Kura', 'Rioni', 'Enguri', 'Kodori', 'Alazani', 'Iori', 'Aragvi', 'Liakhvi', 'Terek', 'Kuban', 'Samur'
+      'Coruh', 'Aras', 'Kura', 'Rioni', 'Enguri', 'Kodori', 'Alazani', 'Iori', 'Aragvi', 'Liakhvi', 'Terek', 'Kuban', 'Samur',
+      // 2026-09-19 expansion
+      'Akhuryan'
     ],
     'the Middle East': [
       'Euphrates', 'Tigris', 'Jordan River', 'Orontes', 'Litani', 'Barada', 'Yarmouk', 'Zarqa', 'Kishon', 'Yarkon',
-      'Khabur', 'Balikh', 'Diyala', 'Great Zab', 'Little Zab', 'Shatt al-Arab', 'Karun', 'Karkheh'
+      'Khabur', 'Balikh', 'Diyala', 'Great Zab', 'Little Zab', 'Shatt al-Arab', 'Karun', 'Karkheh',
+      // 2026-09-19 expansion
+      'Wadi Hanifa', 'Zarrineh', 'Haraz', 'Khazir', 'Khersan',
+      'Sajur', 'Sirwan', 'Karaj', 'Kor', 'Ghezel Ozan',
+      'Halil', 'Kashafrud', 'Sumbar', 'ʿAdhaim', 'Aji Chay',
+      'Alwand', 'Mehran', 'Qom', 'Simineh', 'Zangmar',
+      'Zohreh', 'Bolgarchay', 'Chalus', 'Gadar', 'Helleh',
+      'Marun', 'Mond', 'Qarah Aghaj', 'Qarasu', 'Seymareh',
+      'Shahrud', 'Wadi Arar'
     ],
     'Central Asia': [
       'Ural River', 'Amu Darya', 'Syr Darya', 'Helmand River', 'Zeravshan', 'Panj', 'Vakhsh', 'Naryn', 'Chu', 'Talas',
       'Ili', 'Irtysh', 'Ishim', 'Tobol', 'Emba', 'Turgay', 'Sarysu', 'Nura', 'Aksu', 'Kabul River', 'Kunar',
-      'Panjshir', 'Arghandab', 'Farah', 'Gomal', 'Kurram', 'Atrak', 'Harirud', 'Murghab'
+      'Panjshir', 'Arghandab', 'Farah', 'Gomal', 'Kurram', 'Atrak', 'Harirud', 'Murghab',
+      // 2026-09-19 expansion
+      'Pamir', 'Kokcha', 'Bartang', 'Pech', 'Wakhan',
+      'Balkh', 'Ilek', 'Kunduz', 'Small Almaty', 'Tarnak',
+      'Akkanburlyk', 'Alingar', 'Bukhtarma', 'Charyn', 'Harut',
+      'Andarab', 'Arys', 'Dori', 'Irgiz', 'Karatal',
+      'Kushk', 'Or', 'Shagan (East Kazakhstan)', 'Uil', 'Saghyz',
+      'Sherubainura', 'Ak-Suu', 'Akbastau', 'Arghistan', 'Arshaly',
+      'Asa', 'Ashchysu', 'Ayagoz', 'Ayat', 'Baikonyr',
+      'Bakanas', 'Bogen', 'Boktykaryn', 'Bolshoy Uzen', 'Chandyr',
+      'Chilik', 'Ghorband', 'Issyk', 'Kalkutan', 'Kara-Balta',
+      'Karakengir', 'Kargaly', 'Kauylzhyr', 'Keles', 'Khanabad',
+      'Khash', 'Khulm', 'Kigach', 'Koksu', 'Kon',
+      'Kulanotpes', 'Kushum', 'Lepsy', 'Maly Uzen', 'Salang',
+      'Sari Pul', 'Saryozen', 'Shabakty', 'Shagalaly', 'Shagan (West Kazakhstan)',
+      'Shiderti', 'Shirin Tagab', 'Sileti', 'Sokyr', 'Syntasty',
+      'Taldy', 'Taldymanaka', 'Talgar', 'Terisakkan', 'Tokrau',
+      'Tundik', 'Uba', 'Ubagan', 'Ulba', 'Ulkayak',
+      'Urzhar', 'Zhabay', 'Zharly', 'Zhymyky', 'Zhyngyldyozek',
+      // 2026-09-19 expansion
+      'Naryn (East Kazakhstan)'
     ],
     'the British Isles': [
       'Thames', 'Severn', 'Trent', 'Shannon', 'Liffey', 'Clyde', 'Tay', 'Spey',
