@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T04:55:15.779Z",
+ "fetched": "2026-09-19T05:18:59.450Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -56032,7 +56032,7 @@
    "lat": 29.54944444,
    "lon": 103.76472222
   },
-  "river-wu": {
+  "river-wu-guizhou": {
    "title": "Wu River (Yangtze tributary)",
    "monthlyViews": 274,
    "days": 60,
@@ -56053,7 +56053,7 @@
    "lat": 29.43333333,
    "lon": 113.13333333
   },
-  "river-gan": {
+  "river-gan-jiangxi": {
    "title": "Gan River",
    "monthlyViews": 244,
    "days": 60,
@@ -56186,7 +56186,7 @@
    "lat": 42.31388889,
    "lon": 101.07222222
   },
-  "river-wei": {
+  "river-wei-shaanxi": {
    "title": "Wei River",
    "monthlyViews": 1370,
    "days": 60,
@@ -56200,7 +56200,7 @@
    "lat": 34.46944444,
    "lon": 109.06722222
   },
-  "river-luo": {
+  "river-luo-henan": {
    "title": "Luo River (Henan)",
    "monthlyViews": 365,
    "days": 60,
@@ -59532,7 +59532,7 @@
    "lat": 34.007356,
    "lon": -81.059137
   },
-  "river-dan": {
+  "river-dan-virginia": {
    "title": "Dan River (Virginia)",
    "monthlyViews": 791,
    "days": 60,
@@ -77087,6 +77087,1378 @@
    "days": 58,
    "lat": 56.02833333,
    "lon": 21.07333333
+  },
+  "river-huangpu": {
+   "title": "Huangpu River",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 31.3925,
+   "lon": 121.515
+  },
+  "river-li": {
+   "title": "Li River",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 24.6301,
+   "lon": 110.64
+  },
+  "river-shaksgam": {
+   "title": "Shaksgam River",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 36.6241,
+   "lon": 76.2046
+  },
+  "river-suzhou-creek": {
+   "title": "Suzhou Creek",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 31.24472222,
+   "lon": 121.48694444
+  },
+  "river-qinhuai": {
+   "title": "Qinhuai River",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 32.07777778,
+   "lon": 118.72583333
+  },
+  "river-dangqu": {
+   "title": "Dangqu",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 34.0921,
+   "lon": 92.9132
+  },
+  "river-khalkhin-gol": {
+   "title": "Khalkhin Gol",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 47.89555556,
+   "lon": 117.83555556
+  },
+  "river-si": {
+   "title": "Si River",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.22528056,
+   "lon": 116.65361111
+  },
+  "river-sengge-zangbo": {
+   "title": "Sengge Zangbo",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 32.4409,
+   "lon": 79.7121
+  },
+  "river-karakash": {
+   "title": "Karakash River",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 38.0858,
+   "lon": 80.5613
+  },
+  "river-keriya": {
+   "title": "Keriya River",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 38.60305556,
+   "lon": 82.09666667
+  },
+  "river-tongtian": {
+   "title": "Tongtian River",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-beipan": {
+   "title": "Beipan River",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 24.956,
+   "lon": 106.141
+  },
+  "river-ganga-chhu": {
+   "title": "Ganga Chhu",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-haolai": {
+   "title": "Haolai River",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-chishui": {
+   "title": "Chishui River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 28.8002,
+   "lon": 105.8488
+  },
+  "river-ulan-moron": {
+   "title": "Ulan Moron",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.0921,
+   "lon": 92.9132
+  },
+  "river-white-jade": {
+   "title": "White Jade River",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 38.081296,
+   "lon": 80.562477
+  },
+  "river-miluo": {
+   "title": "Miluo River",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 29.00111111,
+   "lon": 112.95
+  },
+  "river-hun-liaoning": {
+   "title": "Hun River (Liao River tributary)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.0142,
+   "lon": 122.4364
+  },
+  "river-ider": {
+   "title": "Ider River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 49.26111111,
+   "lon": 100.67916667
+  },
+  "river-xiliao": {
+   "title": "Xiliao River",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 42.98138889,
+   "lon": 123.54722222
+  },
+  "river-maquan": {
+   "title": "Maquan River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 29.6,
+   "lon": 84.15
+  },
+  "river-nyang": {
+   "title": "Nyang River",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 29.4337,
+   "lon": 94.4844
+  },
+  "river-parlung-tsangpo": {
+   "title": "Parlung Tsangpo",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 29.87638889,
+   "lon": 95.12305556
+  },
+  "river-emil": {
+   "title": "Emil (river)",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 46.3675,
+   "lon": 81.945
+  },
+  "river-gar-tsangpo": {
+   "title": "Gar Tsangpo",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.4409,
+   "lon": 79.7121
+  },
+  "river-khovd": {
+   "title": "Khovd River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 48.1529,
+   "lon": 92.3123
+  },
+  "river-kaidu": {
+   "title": "Kaidu River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 42.04583333,
+   "lon": 86.59333333
+  },
+  "river-lishui": {
+   "title": "Lishui River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-manasi": {
+   "title": "Manasi River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-molcha": {
+   "title": "Molcha River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.20162,
+   "lon": 84.459286
+  },
+  "river-nandu": {
+   "title": "Nandu River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 19.9979,
+   "lon": 110.3856
+  },
+  "river-nanpan": {
+   "title": "Nanpan River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.95444444,
+   "lon": 106.14166667
+  },
+  "river-ongi": {
+   "title": "Ongi River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 47,
+   "lon": 99
+  },
+  "river-tuo-sichuan": {
+   "title": "Tuo River",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 28.9036,
+   "lon": 105.448
+  },
+  "river-beilun": {
+   "title": "Beilun River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 21.53305556,
+   "lon": 107.95
+  },
+  "river-delger-moron": {
+   "title": "Delger mörön",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 49.26111111,
+   "lon": 100.67916667
+  },
+  "river-egiin-gol": {
+   "title": "Egiin Gol",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 49.3875,
+   "lon": 103.625
+  },
+  "river-gui": {
+   "title": "Gui River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 23.468,
+   "lon": 111.3096
+  },
+  "river-hutuo": {
+   "title": "Hutuo River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-tes": {
+   "title": "Tes River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 50.47638889,
+   "lon": 93.06611111
+  },
+  "river-little-yenisei": {
+   "title": "Little Yenisei",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 51.5,
+   "lon": 98.03333333
+  },
+  "river-liu": {
+   "title": "Liu River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 23.8025,
+   "lon": 109.53305556
+  },
+  "river-liuyang": {
+   "title": "Liuyang River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 28.24910556,
+   "lon": 112.97297778
+  },
+  "river-nanxi-zhejiang": {
+   "title": "Nanxi River (Zhejiang)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 28.03813889,
+   "lon": 120.67294444
+  },
+  "river-parang": {
+   "title": "Parang River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 32.05128,
+   "lon": 78.60485
+  },
+  "river-qian": {
+   "title": "Qian River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 23.40194444,
+   "lon": 110.09638889
+  },
+  "river-qiemo": {
+   "title": "Qiemo River",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 37.83333333,
+   "lon": 85.66666667
+  },
+  "river-sanggan": {
+   "title": "Sanggan River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 40.299,
+   "lon": 115.5823
+  },
+  "river-shule": {
+   "title": "Shule River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-xar-moron": {
+   "title": "Xar Moron River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 43.4328,
+   "lon": 120.7776
+  },
+  "river-xun": {
+   "title": "Xun River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 23.46805556,
+   "lon": 111.30555556
+  },
+  "river-zavkhan": {
+   "title": "Zavkhan River",
+   "monthlyViews": 91,
+   "days": 58,
+   "lat": 48.85611111,
+   "lon": 93.34444444
+  },
+  "river-zuo": {
+   "title": "Zuo River",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 22.83,
+   "lon": 108.1064
+  },
+  "river-ashi": {
+   "title": "Ashi River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 45.8246,
+   "lon": 126.7119
+  },
+  "river-bailong": {
+   "title": "Bailong River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 32.36972222,
+   "lon": 105.71
+  },
+  "river-chuluut": {
+   "title": "Chuluut River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.21027778,
+   "lon": 100.67055556
+  },
+  "river-daling": {
+   "title": "Daling River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-dawen": {
+   "title": "Dawen River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-daxia": {
+   "title": "Daxia River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 35.7455,
+   "lon": 103.207
+  },
+  "river-fu-sichuan": {
+   "title": "Fu River (Sichuan)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 29.9881,
+   "lon": 106.268
+  },
+  "river-fuchun": {
+   "title": "Fuchun River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-huan": {
+   "title": "Huan River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 35.985,
+   "lon": 114.79
+  },
+  "river-hulan": {
+   "title": "Hulan River",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-hun-jilin": {
+   "title": "Hun River (Yalu River tributary)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 40.86888889,
+   "lon": 125.7
+  },
+  "river-jialu": {
+   "title": "Jialu River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 33.6292,
+   "lon": 114.6353
+  },
+  "river-jin": {
+   "title": "Jin River (Fujian)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 24.878339,
+   "lon": 118.59724
+  },
+  "river-juma": {
+   "title": "Juma River (China)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 39.5234,
+   "lon": 115.115
+  },
+  "river-kanas": {
+   "title": "Kanas River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 48.5049,
+   "lon": 87.3252
+  },
+  "river-kelan": {
+   "title": "Kelan River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 47.60912778,
+   "lon": 87.31843333
+  },
+  "river-kharaa": {
+   "title": "Kharaa River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 49.625,
+   "lon": 105.84166667
+  },
+  "river-kunes": {
+   "title": "Künes River",
+   "monthlyViews": 61,
+   "days": 56,
+   "lat": 43.57916667,
+   "lon": 82.5475
+  },
+  "river-mei": {
+   "title": "Mei River",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": 24.406,
+   "lon": 116.57
+  },
+  "river-muzat": {
+   "title": "Muzat River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-nanxi-yunnan": {
+   "title": "Nanxi River (Yunnan)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 22.50694444,
+   "lon": 103.96444444
+  },
+  "river-pudu": {
+   "title": "Pudu River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 26.3025,
+   "lon": 102.80333333
+  },
+  "river-qing": {
+   "title": "Qing River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 30.49287,
+   "lon": 111.17005
+  },
+  "river-qingyi-sichuan": {
+   "title": "Qingyi River (Sichuan)",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 29.5528,
+   "lon": 103.7157
+  },
+  "river-rong": {
+   "title": "Rong River (Guangdong)",
+   "monthlyViews": 61,
+   "days": 53,
+   "lat": 23.3215,
+   "lon": 116.7666
+  },
+  "river-selbe": {
+   "title": "Selbe River",
+   "monthlyViews": 61,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-taping": {
+   "title": "Taping River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 24.29305556,
+   "lon": 97.22
+  },
+  "river-tashkurgan": {
+   "title": "Tashkurgan River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 37.8108,
+   "lon": 76.2009
+  },
+  "river-ting": {
+   "title": "Ting River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 25.8135,
+   "lon": 116.5706
+  },
+  "river-xiao": {
+   "title": "Xiao River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 26.204175,
+   "lon": 111.641026
+  },
+  "river-xin": {
+   "title": "Xin River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 28.61111111,
+   "lon": 116.67638889
+  },
+  "river-ying": {
+   "title": "Ying River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-zhang": {
+   "title": "Zhang River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 36.4759,
+   "lon": 115.2866
+  },
+  "river-zi": {
+   "title": "Zi River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 28.8,
+   "lon": 112.633
+  },
+  "river-ziya": {
+   "title": "Ziya River",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 38.223339,
+   "lon": 116.083741
+  },
+  "river-uur": {
+   "title": "Üür River",
+   "monthlyViews": 61,
+   "days": 60,
+   "lat": 50.3,
+   "lon": 101.93333333
+  },
+  "river-mi": {
+   "title": "Mi River",
+   "monthlyViews": 34,
+   "days": 57,
+   "lat": 27.1632,
+   "lon": 112.8683
+  },
+  "river-dadan": {
+   "title": "Dadan River",
+   "monthlyViews": 32,
+   "days": 50,
+   "lat": 26.19,
+   "lon": 100.57527778
+  },
+  "river-ai": {
+   "title": "Ai River (Dandong)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 40.2042,
+   "lon": 124.5037
+  },
+  "river-anning": {
+   "title": "Anning River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 26.72777778,
+   "lon": 101.86138889
+  },
+  "river-ao": {
+   "title": "Ao River (Zhejiang)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-bao": {
+   "title": "Bao River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 33.11661,
+   "lon": 106.93011
+  },
+  "river-batang-qinghai": {
+   "title": "Batang River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 32.97861111,
+   "lon": 97.24333333
+  },
+  "river-batang-sichuan": {
+   "title": "Batang River (Sichuan)",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": null,
+   "lon": null
+  },
+  "river-bu-erhatong": {
+   "title": "Bu'erhatong River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 43.004444,
+   "lon": 129.784444
+  },
+  "river-buliu": {
+   "title": "Buliu River",
+   "monthlyViews": 30,
+   "days": 52,
+   "lat": 25.032,
+   "lon": 107.03886111
+  },
+  "river-busiyn-gol": {
+   "title": "Busiyn-Gol",
+   "monthlyViews": 30,
+   "days": 49,
+   "lat": 51.4669,
+   "lon": 98.0413
+  },
+  "river-buyant": {
+   "title": "Buyant River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 48.21666667,
+   "lon": 91.88333333
+  },
+  "river-cao-e": {
+   "title": "Cao'e River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 30.22763889,
+   "lon": 120.74875
+  },
+  "river-changhua": {
+   "title": "Changhua River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 19.3161,
+   "lon": 108.6584
+  },
+  "river-chikoy": {
+   "title": "Chikoy (river)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-daning": {
+   "title": "Daning River (Chongqing)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 31.07305556,
+   "lon": 109.8875
+  },
+  "river-duilong": {
+   "title": "Duilong River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 29.619711,
+   "lon": 91.010815
+  },
+  "river-feiyun": {
+   "title": "Feiyun River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-fu-jiangxi": {
+   "title": "Fu River (Jiangxi)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 26.55083333,
+   "lon": 116.23611111
+  },
+  "river-furong": {
+   "title": "Furong River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 29.24083333,
+   "lon": 107.87638889
+  },
+  "river-fuyi": {
+   "title": "Fuyi River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 27.005,
+   "lon": 111.256
+  },
+  "river-gaya": {
+   "title": "Gaya River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 42.9733333,
+   "lon": 129.857777
+  },
+  "river-golmud": {
+   "title": "Golmud River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 36.99251,
+   "lon": 95.097056
+  },
+  "river-gong": {
+   "title": "Gong River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 27.3083,
+   "lon": 115.5147
+  },
+  "river-guan": {
+   "title": "Guan River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 25.9211,
+   "lon": 111.0748
+  },
+  "river-guanlan": {
+   "title": "Guanlan River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 23.030029,
+   "lon": 114.109497
+  },
+  "river-guo": {
+   "title": "Guo River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-hailan": {
+   "title": "Hailan River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 42.905555,
+   "lon": 129.6141666
+  },
+  "river-hailang": {
+   "title": "Hailang River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 44.5473,
+   "lon": 129.546
+  },
+  "river-hong": {
+   "title": "Hong River (Huai River tributary)",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 32.4099,
+   "lon": 115.5477
+  },
+  "river-huang": {
+   "title": "Huang River (Huai River tributary)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 31.50583333,
+   "lon": 114.97055556
+  },
+  "river-hui": {
+   "title": "Hui River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-huifa": {
+   "title": "Huifa River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 43.124167,
+   "lon": 126.959056
+  },
+  "river-huma": {
+   "title": "Huma River (Heilongjiang)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 51.6096,
+   "lon": 126.6816
+  },
+  "river-hunchun": {
+   "title": "Hunchun River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 42.72443889,
+   "lon": 130.25028056
+  },
+  "river-jiyun": {
+   "title": "Ji Canal River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-jian": {
+   "title": "Jian River (Guangdong)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-jiao-shandong": {
+   "title": "Jiao River (Shandong)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-jiao-zhejiang": {
+   "title": "Jiao River (Zhejiang)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 28.6778,
+   "lon": 121.5269
+  },
+  "river-kezi": {
+   "title": "Kezi River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": null,
+   "lon": null
+  },
+  "river-khanui": {
+   "title": "Khanui River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 49.34583333,
+   "lon": 102.35972222
+  },
+  "river-laodao": {
+   "title": "Laodao River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 28.433265,
+   "lon": 113.544884
+  },
+  "river-le-an": {
+   "title": "Le'an River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-lei": {
+   "title": "Lei River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 26.9271,
+   "lon": 112.6395
+  },
+  "river-liuxi": {
+   "title": "Liuxi River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 23.56333333,
+   "lon": 113.60444444
+  },
+  "river-long": {
+   "title": "Long River (Guangxi)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 24.53694444,
+   "lon": 109.25027778
+  },
+  "river-lushui": {
+   "title": "Lushui River",
+   "monthlyViews": 30,
+   "days": 50,
+   "lat": 27.694,
+   "lon": 113.1234
+  },
+  "river-mabja-zangbo": {
+   "title": "Mabja Zangbo",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-mangshi": {
+   "title": "Mangshi River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 24.1691,
+   "lon": 98.1255
+  },
+  "river-menza": {
+   "title": "Menza (river)",
+   "monthlyViews": 30,
+   "days": 53,
+   "lat": null,
+   "lon": null
+  },
+  "river-mulan": {
+   "title": "Mulan River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 25.38888889,
+   "lon": 119.13888889
+  },
+  "river-muling": {
+   "title": "Muling River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 45.87527778,
+   "lon": 133.49944444
+  },
+  "river-muwen": {
+   "title": "Muwen River",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 35.953,
+   "lon": 117.107
+  },
+  "river-nangchu": {
+   "title": "Nangchu River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-naoli": {
+   "title": "Naoli River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 47.31,
+   "lon": 134.15722222
+  },
+  "river-narin-gol": {
+   "title": "Narin Gol River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-nimu-maqu": {
+   "title": "Nimu Maqu River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 29.347574,
+   "lon": 90.192174
+  },
+  "river-panlong": {
+   "title": "Panlong River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-puyang": {
+   "title": "Puyang River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-qi-hunan": {
+   "title": "Qi River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 26.59,
+   "lon": 111.8679
+  },
+  "river-qin": {
+   "title": "Qin River (Shanxi)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 34.975,
+   "lon": 113.51888889
+  },
+  "river-qingshui": {
+   "title": "Qingshui River (Guizhou)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 27.25027778,
+   "lon": 107.11305556
+  },
+  "river-qingyi-anhui": {
+   "title": "Qingyi River (Anhui)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 31.3247,
+   "lon": 118.3619
+  },
+  "river-qu-sichuan": {
+   "title": "Qu River (Jialing River tributary)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 30.0347,
+   "lon": 106.328
+  },
+  "river-qu-yunnan": {
+   "title": "Qu River (Yunnan)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-quan": {
+   "title": "Quan River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 32.9068,
+   "lon": 115.8357
+  },
+  "river-second-songhua": {
+   "title": "Second Songhua River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 45.35777778,
+   "lon": 124.70222222
+  },
+  "river-shiguan": {
+   "title": "Shiguan River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-shu": {
+   "title": "Shu River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-shuiyang": {
+   "title": "Shuiyang River",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": null,
+   "lon": null
+  },
+  "river-sungacha": {
+   "title": "Sungacha",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 45.5751,
+   "lon": 133.4152
+  },
+  "river-taizi": {
+   "title": "Taizi River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-toshkan": {
+   "title": "Toshkan River",
+   "monthlyViews": 30,
+   "days": 57,
+   "lat": 41.1874,
+   "lon": 80.0931
+  },
+  "river-tuo-hunan": {
+   "title": "Tuo River (Hunan)",
+   "monthlyViews": 30,
+   "days": 54,
+   "lat": 28.2237,
+   "lon": 109.8148
+  },
+  "river-ulz": {
+   "title": "Ulz River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 49.9325,
+   "lon": 115.5519
+  },
+  "river-wanquan": {
+   "title": "Wanquan River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 19.155182,
+   "lon": 110.585418
+  },
+  "river-xiaojiang": {
+   "title": "Xiaojiang River (Yunnan)",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 26.54638889,
+   "lon": 103.05583333
+  },
+  "river-xiaoqing": {
+   "title": "Xiaoqing River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 36.6667,
+   "lon": 116.8333
+  },
+  "river-xihan": {
+   "title": "Xihan River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 34.3167,
+   "lon": 105.5833
+  },
+  "river-xiushui": {
+   "title": "Xiushui River",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": null,
+   "lon": null
+  },
+  "river-yan": {
+   "title": "Yan River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 36.398,
+   "lon": 110.4791
+  },
+  "river-yanzi": {
+   "title": "Yanzi River",
+   "monthlyViews": 30,
+   "days": 49,
+   "lat": null,
+   "lon": null
+  },
+  "river-yinma": {
+   "title": "Yinma River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 44.8833,
+   "lon": 125.7603
+  },
+  "river-yiong-tsangpo": {
+   "title": "Yiong Tsangpo",
+   "monthlyViews": 30,
+   "days": 55,
+   "lat": 30.0958,
+   "lon": 95.0635
+  },
+  "river-yishui": {
+   "title": "Yishui River",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 26.545,
+   "lon": 112.3821
+  },
+  "river-yitong": {
+   "title": "Yitong River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 44.7683,
+   "lon": 125.6894
+  },
+  "river-you": {
+   "title": "You River (Yuan River tributary)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": 28.4521,
+   "lon": 110.3799
+  },
+  "river-yue": {
+   "title": "Yue River",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": null,
+   "lon": null
+  },
+  "river-yuqu": {
+   "title": "Yuqu River",
+   "monthlyViews": 30,
+   "days": 49,
+   "lat": 28.5975,
+   "lon": 98.36611111
+  },
+  "river-red-river-vietnam": {
+   "title": "Red River (Asia)",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 20.24527778,
+   "lon": 106.58888889
+  },
+  "river-han-hubei": {
+   "title": "Han River (Hubei and Shaanxi)",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 30.56444444,
+   "lon": 114.29166667
+  },
+  "river-min-fujian": {
+   "title": "Min River (Fujian)",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 26.076,
+   "lon": 119.522
+  },
+  "river-arun-nepal": {
+   "title": "Arun River (China–Nepal)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 26.91583333,
+   "lon": 87.15583333
+  },
+  "river-han-guangdong": {
+   "title": "Han River (Guangdong)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 24.05054,
+   "lon": 116.532669
+  },
+  "river-aksu-xinjiang": {
+   "title": "Aksu River (Xinjiang)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.459,
+   "lon": 80.866
+  },
+  "river-dan-china": {
+   "title": "Dan River (China)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-yi-henan": {
+   "title": "Yi River (Henan)",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-yi-shandong": {
+   "title": "Yi River (Shandong)",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-luo-shaanxi": {
+   "title": "Luo River (Shaanxi)",
+   "monthlyViews": 61,
+   "days": 59,
+   "lat": 34.6425,
+   "lon": 110.17194444
+  },
+  "river-gan-inner-mongolia": {
+   "title": "Gan River (Inner Mongolia)",
+   "monthlyViews": 30,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "river-tuman-xinjiang": {
+   "title": "Tuman River",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": 39.4875,
+   "lon": 75.9676
+  },
+  "river-wei-shandong": {
+   "title": "Wei River (Shandong and Henan)",
+   "monthlyViews": 30,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "river-wei-hunan": {
+   "title": "Wei River (Xiang tributary)",
+   "monthlyViews": 30,
+   "days": 58,
+   "lat": 28.38808133,
+   "lon": 112.807347
+  },
+  "river-wu-hunan": {
+   "title": "Wu River (Yuan River, north)",
+   "monthlyViews": 30,
+   "days": 56,
+   "lat": 27.19027778,
+   "lon": 109.81194444
+  },
+  "river-yalu-inner-mongolia": {
+   "title": "Yalu River (Nen River tributary)",
+   "monthlyViews": 30,
+   "days": 51,
+   "lat": 39.93333333,
+   "lon": 124.31666667
   },
   "mountain-mount-everest": {
    "title": "Mount Everest",

@@ -1564,7 +1564,7 @@ export const RIVERS = `
 Nile|6650|the Nile
 Amazon|6400|Amazon River
 Yangtze|6300|Chang Jiang
-Yellow River|5464|Huang He
+Yellow River|5464|Huang He,Huanghe
 Yenisei|5539
 Ob|3650-5410|Ob River
 Parana|4880|Parana River
@@ -1666,7 +1666,7 @@ Chenab|960
 Amu Darya|2620
 Helmand River|1150|Helmand
 Chao Phraya|372
-Han River|514
+Han River|514|Han
 Songhua|1897
 Waikato River|425|Waikato
 Clutha River|338|Clutha
@@ -3362,10 +3362,10 @@ Huai|1000
 Jialing|1119
 Min (Sichuan)|735
 Dadu|1062
-Wu|1037|Wu River
+Wu (Guizhou)|1037|Wu River
 Yuan|1033
 Xiang|856
-Gan|823
+Gan (Jiangxi)|823
 Qiantang|668
 Ou|388|Oujiang
 Jiulong|258
@@ -3384,9 +3384,9 @@ Kashgar|1000
 Aksu|588
 Ulungur|725
 Heihe|821
-Wei|818
+Wei (Shaanxi)|818
 Jing|455
-Luo|447
+Luo (Henan)|447
 Fen|713
 Tao|673
 Huangshui|374
@@ -3862,7 +3862,7 @@ Santa Clara|134
 Tar|346
 Teklanika|145
 Broad|241
-Dan|344
+Dan (Virginia)|344
 Iowa River|520
 Pedernales|171
 Pigeon|113
@@ -6370,6 +6370,200 @@ Gauja (Lithuania)|94
 Jadar (Bosnia)|65
 Sluch (Belarus)|228
 Sventoji (Palanga)|73
+Huangpu|113|Huangpu Jiang
+Li|164|Li Jiang,Lijiang River
+Shaksgam|0
+Suzhou Creek|125|Wusong River
+Qinhuai|110
+Dangqu|366
+Khalkhin Gol|233|Khalkha River,Halha River
+Si|159
+Sengge Zangbo|300|Sengge Zangbo River,Shiquan River
+Karakash|740
+Keriya|519
+Tongtian|1012|Tongtian He
+Beipan|456
+Ganga Chhu|0
+Haolai|0
+Chishui|523
+Ulan Moron|361
+White Jade|450|Yurungkash,Yurungkash River
+Miluo|250
+Hun (Liaoning)|415
+Ider|452
+Xiliao|829|West Liao River
+Maquan|0
+Nyang|286
+Parlung Tsangpo|266
+Emil|250|Emil River,Emin River
+Gar Tsangpo|130
+Khovd|516
+Kaidu|610
+Lishui|388
+Manasi|402
+Molcha|0
+Nandu|314
+Nanpan|950
+Ongi|437
+Tuo (Sichuan)|655
+Beilun|98
+Delger moron|445|Delgermoron
+Egiin Gol|475|Eg River
+Gui|426
+Hutuo|587
+Tes|568
+Little Yenisei|563|Little Yenisei River,Kaa-Khem
+Liu|204
+Liuyang|234
+Nanxi (Zhejiang)|140
+Parang|209
+Qian|121
+Qiemo|725
+Sanggan|506
+Shule|861
+Xar Moron|380
+Xun|172
+Zavkhan|670
+Zuo|539
+Ashi|257
+Bailong|576
+Chuluut|415
+Daling|435
+Dawen|208
+Daxia|203
+Fu (Sichuan)|700
+Fuchun|110
+Huan|162
+Hulan|532
+Hun (Jilin)|447
+Jialu|256
+Jin|182
+Juma|254
+Kanas|125
+Kelan|265
+Kharaa|362
+Kunes|258
+Mei|307
+Muzat|80
+Nanxi (Yunnan)|169
+Pudu|364
+Qing|423
+Qingyi (Sichuan)|276
+Rong|196
+Selbe|262
+Taping|117
+Tashkurgan|190
+Ting|300
+Xiao|365
+Xin|361
+Ying|557
+Zhang|466
+Zi|653
+Ziya|730
+Uur|331
+Mi|296
+Dadan|102
+Ai|192
+Anning|320
+Ao|90
+Bao|198
+Batang (Qinghai)|92
+Batang (Sichuan)|140
+Bu'erhatong|172
+Buliu|183
+Busiyn-Gol|125
+Buyant|218
+Cao'e|182
+Changhua|232
+Chikoy|769|Chikoy River
+Daning|250
+Duilong|137
+Feiyun|195
+Fu (Jiangxi)|312
+Furong|227
+Fuyi|353
+Gaya|205
+Golmud|215
+Gong|313
+Guan|138
+Guanlan|88
+Guo|421
+Hailan|145
+Hailang|222
+Hong|326
+Hui|211
+Huifa|267
+Huma|435
+Hunchun|130
+Jiyun|157|Ji Canal River,Ji Canal,Jiyun River
+Jian|232
+Jiao (Shandong)|100
+Jiao (Zhejiang)|198
+Kezi|238
+Khanui|421
+Laodao|141
+Le'an|279
+Lei|439
+Liuxi|157
+Long|367
+Lushui|152
+Mabja Zangbo|240
+Mangshi|117
+Menza|337|Menza River
+Mulan|168
+Muling|577
+Muwen|133
+Nangchu|250
+Naoli|596
+Narin Gol|435
+Nimu Maqu|83
+Panlong|108
+Puyang|150
+Qi (Hunan)|114
+Qin|485
+Qingshui|219
+Qingyi (Anhui)|291
+Qu (Sichuan)|676
+Qu (Yunnan)|208
+Quan|241
+Second Songhua|849|Second Songhua River
+Shiguan|220
+Shu|300
+Shuiyang|254
+Sungacha|180
+Taizi|464
+Toshkan|300
+Tuo (Hunan)|131
+Ulz|425
+Wanquan|162
+Xiaojiang|140
+Xiaoqing|216
+Xihan|246
+Xiushui|357
+Yan|287
+Yanzi|107
+Yinma|387
+Yiong Tsangpo|286
+Yishui|86
+Yitong|344
+You|477
+Yue|95
+Yuqu|402
+Red River (Vietnam)|1149|Song Hong,Yuan Jiang,Red River of Asia
+Han (Hubei)|1532|Hanshui,Han Shui,Han Jiang
+Min (Fujian)|505|Min Jiang
+Arun (Nepal)|364|Phung Chu
+Han (Guangdong)|410
+Aksu (Xinjiang)|282
+Dan (China)|443|Danjiang
+Yi (Henan)|368
+Yi (Shandong)|574
+Luo (Shaanxi)|680
+Gan (Inner Mongolia)|446
+Wei (Shandong)|600
+Wei (Hunan)|117
+Wu (Hunan)|444
+Yalu (Inner Mongolia)|398
 `;
 
 export const MOUNTAINS = `
