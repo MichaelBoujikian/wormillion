@@ -1,0 +1,39 @@
+{
+  "name": "wca-deserts",
+  "category": "desert",
+  "jsonFile": "deserts.json",
+  "roots": [
+    "Category:Deserts of Asia",
+    "Category:Deserts of Iran",
+    "Category:Deserts of Saudi Arabia",
+    "Category:Deserts of Kazakhstan",
+    "Category:Deserts of Uzbekistan",
+    "Category:Deserts of Turkmenistan",
+    "Category:Deserts of Israel",
+    "Category:Deserts of Jordan",
+    "Category:Deserts of Oman",
+    "Category:Deserts of the United Arab Emirates",
+    "Category:Deserts of Yemen",
+    "Category:Deserts of Iraq",
+    "Category:Deserts of Syria",
+    "Category:Deserts of Afghanistan",
+    "Category:Deserts of Turkey",
+    "Category:Deserts of Kuwait",
+    "Category:Deserts of Qatar"
+  ],
+  "subcat": "^Category:(Deserts|Badlands|Semi-arid regions|Sand dunes|Ergs) of (?!.*(Africa|America|Australia|Antarctic|India|China|Mongolia|Libya|Algeria|Morocco|Tunisia|Mauritania|Mali|Niger|Chad|Sudan|Namibia|South Africa|Botswana|Egypt))",
+  "lists": [
+    "List of deserts",
+    "List of deserts by area",
+    "List of deserts of Asia"
+  ],
+  "kind": "(desert|dunes?|sand|arid|badlands|erg|playa|salt flat|dry lake|basin and range|Desert$|Dunes$|Sands$|Flats?$)",
+  "skipTitle": "(^List of|^Geography of|Park$|Refuge$|Wildlife|Airport|Base$|Station$|Township|County$|Resort$|Preserve$|Monument$|Trail$|Reservation$|Range$|Canyon$|Valley$)",
+  "sizeProp": "P2046",
+  "sizeUnit": "km2",
+  "spellings": "desert",
+  "notKind": "^(town|city|village|county|census|neighborhood|community|unincorporated|resort|park|monument|refuge|wildlife|preserve|state park|national park|reservation|mountain range|range|river|lake|reservoir|dam|canal|valley|canyon|plateau|basin|region of|ecoregion|highway|road|trail|airport|base|station|list|company|film|novel|album|band|festival)",
+  "minSize": 1,
+  "noFigureViews": 122,
+  "famousViews": 1000
+}

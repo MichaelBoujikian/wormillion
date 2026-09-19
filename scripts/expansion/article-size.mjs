@@ -156,16 +156,22 @@ const SISTER_FIELDS = {
   // Infobox 河川 / 湖 / 山 / 島 and kowiki's 강 / 호수 / 산 / 섬 정보 have their own
   km: ['longitud', 'longueur', 'länge', 'lunghezza', 'comprimento', 'length',
     'lungime', 'długość', 'délka', 'dĺžka', 'hossz', 'дължина', 'довжина', 'длина', 'дужина', 'duljina', 'dužina', 'dolžina', 'μήκος', 'ilgis', 'garums', 'pikkus',
-    '长度', '全长', '長度', '全長', '延長', '길이', '전장'],
+    '长度', '全长', '長度', '全長', '延長', '길이', '전장',
+    // the West and Central Asia wave: tr fa ar he ka hy az kk uz
+    'uzunluk', 'uzunluğu', 'طول', 'الطول', 'אורך', 'სიგრძე', 'երկարություն', 'uzunluq', 'ұзындығы', 'uzunligi'],
   km2: ['superficie', 'área', 'area', 'fläche', 'surface', 'superficie_km2',
     'suprafață', 'suprafata', 'powierzchnia', 'rozloha', 'terület', 'площ', 'площа', 'площадь', 'površina', 'έκταση', 'plotas', 'platība', 'pindala',
-    '面积', '面積', '면적'],
+    '面积', '面積', '면적',
+    'alan', 'yüzölçümü', 'مساحت', 'مساحة', 'المساحة', 'שטח', 'ფართობი', 'մակերես', 'sahə', 'ауданы', 'maydoni'],
   m: ['altitud', 'altitude', 'elevación', 'elevacion', 'höhe', 'altitudine', 'altitude_m', 'elevation',
     'wysokość', 'výška', 'magasság', 'височина', 'висота', 'высота', 'visina', 'ύψος', 'aukštis', 'augstums', 'kõrgus',
-    '海拔', '标高', '標高', '高度', '높이', '해발']
+    '海拔', '标高', '標高', '高度', '높이', '해발',
+    'yükseklik', 'yükselti', 'ارتفاع', 'الارتفاع', 'גובה', 'სიმაღლე', 'բարձրություն', 'hündürlük', 'биіктігі', 'balandligi']
 };
 // wikis where a comma groups thousands ("1,234") rather than marking the decimal
-const COMMA_THOUSANDS = new Set(['zh', 'ja', 'ko', 'en']);
+const COMMA_THOUSANDS = new Set(['zh', 'ja', 'ko', 'en', 'he', 'ar', 'fa']);
+// Eastern Arabic (ar) and Persian (fa) digits fold to ASCII before any number is read
+const foldDigits = (v) => v.replace(/[٠-٩]/g, (d) => String.fromCharCode(d.charCodeAt(0) - 0x0660 + 48)).replace(/[۰-۹]/g, (d) => String.fromCharCode(d.charCodeAt(0) - 0x06f0 + 48));
 /**
  * A sister wiki's infobox is not always called Infobox ("Infocaseta Râu",
  * "Rzeka infobox", "Річка", "Upė"): the first top-level template block that
@@ -198,6 +204,7 @@ function articleSize(text, unit, sister = false) {
     if (!(field in params)) continue;
     let value = params[field];
     // a sister wiki writes 1.081 for one thousand and eighty-one and 50,21 for fifty and a bit
+    if (sister) value = foldDigits(value);
     if (sister) value = COMMA_THOUSANDS.has(SISTER)
       ? value.replace(/(\d),(\d{3})\b/g, '$1$2').replace(/[０-９]/g, (d) => String.fromCharCode(d.charCodeAt(0) - 0xfee0)) // 1,234 is a thousand; full-width digits fold
       : value.replace(/(\d)\.(\d{3})\b/g, '$1$2').replace(/(\d),(\d+)/g, '$1.$2'); // a comma is the decimal there, whatever follows it

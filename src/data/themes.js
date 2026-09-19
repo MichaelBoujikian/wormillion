@@ -112,6 +112,27 @@ globalThis.WORMILLION_THEMES = {
 
   river: {
     'Mesopotamia': ['Tigris', 'Euphrates'],
+    // 2026-09-19 West and Central Asia wave: five regional river themes, seeded with the incumbents
+    'Turkey': [
+      'Euphrates', 'Tigris', 'Kizilirmak', 'Yesilirmak', 'Sakarya', 'Seyhan', 'Ceyhan', 'Goksu', 'Buyuk Menderes',
+      'Kucuk Menderes', 'Gediz', 'Bakircay', 'Ergene', 'Coruh', 'Kelkit', 'Murat', 'Karasu', 'Botan', 'Batman',
+      'Manavgat', 'Koprucay', 'Dalaman', 'Dim', 'Tarsus', 'Zamanti', 'Porsuk', 'Bartin', 'Filyos', 'Nilufer', 'Scamander', 'Aras'
+    ],
+    'Iran': [
+      'Aras', 'Karun', 'Karkheh', 'Dez', 'Zayanderud', 'Sefidrud', 'Atrak', 'Gorgan', 'Shatt al-Arab', 'Harirud'
+    ],
+    'the Caucasus': [
+      'Coruh', 'Aras', 'Kura', 'Rioni', 'Enguri', 'Kodori', 'Alazani', 'Iori', 'Aragvi', 'Liakhvi', 'Terek', 'Kuban', 'Samur'
+    ],
+    'the Middle East': [
+      'Euphrates', 'Tigris', 'Jordan River', 'Orontes', 'Litani', 'Barada', 'Yarmouk', 'Zarqa', 'Kishon', 'Yarkon',
+      'Khabur', 'Balikh', 'Diyala', 'Great Zab', 'Little Zab', 'Shatt al-Arab', 'Karun', 'Karkheh'
+    ],
+    'Central Asia': [
+      'Ural River', 'Amu Darya', 'Syr Darya', 'Helmand River', 'Zeravshan', 'Panj', 'Vakhsh', 'Naryn', 'Chu', 'Talas',
+      'Ili', 'Irtysh', 'Ishim', 'Tobol', 'Emba', 'Turgay', 'Sarysu', 'Nura', 'Aksu', 'Kabul River', 'Kunar',
+      'Panjshir', 'Arghandab', 'Farah', 'Gomal', 'Kurram', 'Atrak', 'Harirud', 'Murghab'
+    ],
     'the British Isles': [
       'Thames', 'Severn', 'Trent', 'Shannon', 'Liffey', 'Clyde', 'Tay', 'Spey',
       'Wye', 'Aire (Yorkshire)', 'Ouse', 'Cam', 'Medway', 'Avon (Bristol)', 'River Tweed',
