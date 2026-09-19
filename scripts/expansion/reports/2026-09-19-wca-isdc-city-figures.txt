@@ -1,0 +1,422 @@
+# Every West and Central Asia city row: the bank figure (Wikidata P1082 as the probe took it) vs the enwiki infobox population_total (live, 2026-09-19)
+# name | country | bank size | article figure (as of) | ratio | article type | views | wikiTitle
+
+Baghlan | Afghanistan | 83490 | 219073 (2025) | 0.38 |  | 609 | Baghlan
+Balkh | Afghanistan | 77000 | 148972 (2025) | 0.52 | City | 8767 | Balkh
+Sar-e Pol | Afghanistan | 51075 | 134809 (2025) | 0.38 | Provincial capital | 244 | Sar-e-Pol, Afghanistan
+Tarinkot | Afghanistan | 70000 | 127095 (2025) | 0.55 | Provincial capital | 609 | Tarinkot
+Hrazdan | Armenia | 52283 | 44231 (2022 census) | 1.18 | Town | 791 | Hrazdan
+Khirdalan | Azerbaijan | 100900 | 195673 (2024) | 0.52 | City & Municipality | 183 | Khirdalan
+Shirvan | Azerbaijan | 83500 | 87400 () | 0.96 | City | 426 | Şirvan, Azerbaijan
+Yevlakh | Azerbaijan | 60000 | 71962 () | 0.83 | City | 457 | Yevlakh
+A'ali | Bahrain | 100533 | 100533 (| population_density) | 1.00 | Town | 335 | A'ali
+Isa Town | Bahrain | 61293 | no figure |  | Town | 517 | Isa Town
+North Nicosia | Cyprus | 61378 | 61378 (2011) | 1.00 | Capital city | 4870 | North Nicosia
+Strovolos | Cyprus | 67904 | 71123 (2021) | 0.95 | Municipality | 944 | Strovolos
+Sukhumi | Georgia | 65146 | 65146 (2022 estimate) | 1.00 | City | 9954 | Sukhumi
+Abadeh | Iran | 59116 | 59116 (2016) | 1.00 | City | 213 | Abadeh
+Abhar | Iran | 99285 | 99285 (2016) | 1.00 | City | 304 | Abhar
+Abyek | Iran | 60107 | 60107 (2016) | 1.00 | City | 91 | Abyek
+Ahar | Iran | 100641 | 100641 (2016) | 1.00 | City | 274 | Ahar
+Aliabad-e Katul | Iran | 52838 | 52838 (2016) | 1.00 | City | 152 | Aliabad-e Katul
+Aligudarz | Iran | 89268 | 89268 (2016) | 1.00 | City | 183 | Aligudarz
+Amol | Iran | 237528 | 237528 (2016 census) | 1.00 | City | 1522 | Amol
+Andimeshk | Iran | 240113 | 135116 (2016) | 1.78 | City | 304 | Andimeshk
+Andisheh | Iran | 116062 | 116062 (2016) | 1.00 | City | 183 | Andisheh
+Aran and Bidgol | Iran | 65404 | 65404 (2016) | 1.00 | City | 91 | Aran and Bidgol
+Ardakan | Iran | 75271 | 75271 (2016) | 1.00 | City | 396 | Ardakan
+Asadabad | Iran | 55703 | 55703 (2016) | 1.00 | City | 304 | Asadabad, Iran
+Astara | Iran | 51579 | 51579 (2016) | 1.00 | City | 974 | Astara, Iran
+Babol | Iran | 250217 | 250217 (2016) | 1.00 | City | 1035 | Babol
+Babolsar | Iran | 59966 | 59966 (2016) | 1.00 | City | 396 | Babolsar
+Baharestan | Iran | 79023 | 79023 (2016) | 1.00 | City | 91 | Baharestan, Isfahan
+Bandar Ganaveh | Iran | 73472 | 73472 (2016) | 1.00 | City | 335 | Bandar Ganaveh
+Bandar Kangan | Iran | 60187 | 60187 (2016) | 1.00 | City | 152 | Bandar Kangan
+Bandar Torkaman | Iran | 53970 | 53970 (2016) | 1.00 | City | 365 | Bandar Torkaman
+Bandar-e Anzali | Iran | 118564 | 118564 (2016) | 1.00 | City | 2192 | Bandar-e Anzali
+Bandar-e Emam Khomeini | Iran | 78353 | 78353 (2016) | 1.00 | City | 335 | Bandar-e Emam Khomeini
+Bandar-e Mahshahr | Iran | 162797 | 162797 (2016) | 1.00 | City | 609 | Bandar-e Mahshahr
+Baneh | Iran | 110218 | 110218 (2016) | 1.00 | City | 457 | Baneh
+Behbahan | Iran | 122604 | 122604 (2016) | 1.00 | City | 974 | Behbahan
+Behshahr | Iran | 94702 | 94702 (2016) | 1.00 | City | 335 | Behshahr
+Bijar | Iran | 50014 | 50014 (2016) | 1.00 | City | 396 | Bijar (city)
+Birjand | Iran | 203636 | 203636 (2016) | 1.00 | City | 761 | Birjand
+Bojnord | Iran | 228931 | no figure |  | City | 761 | Bojnord
+Bonab | Iran | 85274 | 85274 (2016) | 1.00 | City | 244 | Bonab
+Borazjan | Iran | 110567 | 110567 (2016) | 1.00 | City | 274 | Borazjan
+Borujen | Iran | 57071 | 57071 (2016) | 1.00 | City | 183 | Borujen
+Borujerd | Iran | 234997 | 234497 (2016) | 1.00 | City | 700 | Borujerd
+Bukan | Iran | 193501 | 193501 (2016) | 1.00 | City | 578 | Bukan
+Chabahar | Iran | 106739 | 106739 (2016 Census) | 1.00 | Port city | 2009 | Chabahar
+Chalus | Iran | 65196 | 65196 (2016) | 1.00 | City | 700 | Chalus, Iran
+Chenaran | Iran | 53879 | 53879 (2016) | 1.00 | City | 122 | Chenaran
+Damghan | Iran | 59106 | 59106 (2021) | 1.00 | City | 1096 | Damghan
+Darab | Iran | 70232 | 70232 (2016) | 1.00 | City | 304 | Darab
+Dehdasht | Iran | 57036 | 57036 (2016) | 1.00 | City | 122 | Dehdasht
+Dezful | Iran | 264709 | 264709 (2016) | 1.00 | City | 1126 | Dezful
+Dogonbadan | Iran | 96728 | 96728 (2016) | 1.00 | City | 122 | Dogonbadan
+Dorud | Iran | 121638 | 121638 (2016) | 1.00 | City | 183 | Dorud
+Esfarayen | Iran | 59490 | 59490 (2016) | 1.00 | City | 183 | Esfarayen
+Eslamabad-e Gharb | Iran | 90559 | 90559 (2016) | 1.00 | City | 213 | Eslamabad-e Gharb
+Eslamshahr | Iran | 448129 | 448129 (2016) | 1.00 | City | 426 | Eslamshahr
+Fardis | Iran | 181174 | 181174 (2016) | 1.00 | City | 213 | Fardis
+Fasa | Iran | 110825 | 110825 (2016) | 1.00 | City | 396 | Fasa
+Firuzabad | Iran | 58210 | 65417 (2016) | 0.89 | City | 1005 | Firuzabad, Fars
+Fuladshahr | Iran | 88426 | 88426 (2016) | 1.00 | City | 152 | Fuladshahr
+Golpayegan | Iran | 58936 | 58936 (2016) | 1.00 | City | 487 | Golpayegan
+Gonbad-e Kavus | Iran | 151910 | 151910 (2016) | 1.00 | City | 822 | Gonbad-e Kavus
+Gorgan | Iran | 350676 | 350676 (2016) | 1.00 | City | 3105 | Gorgan
+Hashtgerd | Iran | 55640 | 55640 (2016) | 1.00 | City | 183 | Hashtgerd
+Ilam | Iran | 194030 | 194030 (2016) | 1.00 | City | 913 | Ilam, Iran
+Iranshahr | Iran | 113750 | 113750 (2016) | 1.00 | City | 670 | Iranshahr, Iran
+Izeh | Iran | 119399 | 119399 (2016) | 1.00 | City | 365 | Izeh
+Jahrom | Iran | 141634 | 202098 (2025) | 0.70 | City | 396 | Jahrom
+Javanrud | Iran | 54354 | 54354 (2016) | 1.00 | City | 183 | Javanrud
+Jiroft | Iran | 130429 | 130429 (2016) | 1.00 | City | 639 | Jiroft
+Kahnuj | Iran | 52624 | 52624 (2016) | 1.00 | City | 122 | Kahnuj
+Kamal Shahr | Iran | 141669 | 141669 (2016) | 1.00 | City | 91 | Kamal Shahr
+Kamyaran | Iran | 57077 | 57077 (2016) | 1.00 | City | 122 | Kamyaran
+Kangavar | Iran | 51352 | 51352 (2016) | 1.00 | City | 244 | Kangavar
+Kashmar | Iran | 102282 | 102282 (2016 Census) | 1.00 | City | 700 | Kashmar
+Kazerun | Iran | 96683 | 96683 (2016 Census) | 1.00 | City | 517 | Kazerun
+Khash | Iran | 56584 | 56584 (2016) | 1.00 | City | 213 | Khash, Iran
+Khomeyn | Iran | 72882 | 72882 (2016) | 1.00 | City | 1339 | Khomeyn
+Khomeynishahr | Iran | 247128 | 247128 (2016) | 1.00 | City | 183 | Khomeynishahr
+Khorramshahr | Iran | 133097 | 133097 (2016) | 1.00 | City | 2435 | Khorramshahr
+Khoy | Iran | 198845 | 198845 (2016) | 1.00 | City | 1461 | Khoy
+Kuhdasht | Iran | 89091 | 89091 (2016) | 1.00 | City | 183 | Kuhdasht
+Lahijan | Iran | 101073 | 101073 (2016) | 1.00 | City | 791 | Lahijan
+Langarud | Iran | 79445 | 79445 (2016) | 1.00 | City | 244 | Langarud
+Lar | Iran | 62045 | 62045 (2016) | 1.00 | City | 457 | Lar, Iran
+Mahabad | Iran | 168393 | 168393 (2016) | 1.00 | City | 1948 | Mahabad
+Malard | Iran | 281027 | 281027 (2016) | 1.00 | City | 183 | Malard
+Malayer | Iran | 170237 | 170237 (2016) | 1.00 | City | 578 | Malayer
+Maragheh | Iran | 175255 | 175255 (2016) | 1.00 | City | 1400 | Maragheh
+Marand | Iran | 130825 | 130825 (2016) | 1.00 | City | 365 | Marand
+Marivan | Iran | 136654 | 136654 (2016) | 1.00 | City | 517 | Marivan
+Marvdasht | Iran | 148858 | 148858 (2016) | 1.00 | City | 1005 | Marvdasht
+Masjed Soleyman | Iran | 100497 | 100497 (2016) | 1.00 | City | 1157 | Masjed Soleyman
+Meshginshahr | Iran | 74109 | 74109 (2016) | 1.00 | City | 244 | Meshginshahr
+Meybod | Iran | 80712 | 80712 (2016) | 1.00 | City | 244 | Meybod
+Miandoab | Iran | 134425 | 134425 (2016) | 1.00 | City | 335 | Miandoab
+Mianeh | Iran | 98973 | 98973 (2016) | 1.00 | City | 426 | Mianeh, East Azerbaijan
+Minab | Iran | 73170 | 73170 (2016) | 1.00 | City | 1492 | Minab
+Mohammadshahr | Iran | 119418 | 119418 (2016) | 1.00 | City | 91 | Mohammadshahr
+Nahavand | Iran | 76162 | 76162 (2016) | 1.00 | City | 974 | Nahavand
+Najafabad | Iran | 235281 | 235281 (2016) | 1.00 | City | 426 | Najafabad
+Naqadeh | Iran | 81598 | 81598 (2016) | 1.00 | City | 457 | Naqadeh
+Nasimshahr | Iran | 200393 | 200393 (2016) | 1.00 | City | 91 | Nasimshahr
+Nazarabad | Iran | 119512 | 119512 (2016) | 1.00 | City | 122 | Nazarabad
+Neka | Iran | 60991 | 60991 (2016) | 1.00 | City | 152 | Neka
+Nishapur | Iran | 264375 | 264375 (2016) | 1.00 | City | 10380 | Nishapur
+Omidiyeh | Iran | 67427 | 67427 (2016) | 1.00 | City | 244 | Omidiyeh
+Pakdasht | Iran | 236319 | 236319 (2016) | 1.00 | City | 213 | Pakdasht
+Parand | Iran | 97464 | 97464 (2016) | 1.00 | City | 274 | Parand
+Pardis | Iran | 73363 | 73363 (2016) | 1.00 | City | 457 | Pardis
+Parsabad | Iran | 93387 | 93387 (2016) | 1.00 | City | 304 | Parsabad
+Piranshahr | Iran | 91515 | 91515 (2016) | 1.00 | City | 639 | Piranshahr
+Qaem Shahr | Iran | 204953 | 204953 (2016) | 1.00 | City | 609 | Qaem Shahr
+Qarchak | Iran | 231075 | 231075 (2016) | 1.00 | City | 152 | Qarchak
+Qazvin | Iran | 402748 | 402748 (2016) | 1.00 | City | 3470 | Qazvin
+Qods | Iran | 309605 | 309605 (2016) | 1.00 | City | 274 | Qods, Iran
+Qorveh | Iran | 78276 | 78276 (2016) | 1.00 | City | 152 | Qorveh
+Quchan | Iran | 101604 | 101604 (2016) | 1.00 | City | 670 | Quchan
+Rafsanjan | Iran | 161909 | 161909 (2016) | 1.00 | City | 426 | Rafsanjan
+Ramhormoz | Iran | 74285 | 74285 (2016) | 1.00 | City | 731 | Ramhormoz
+Robat Karim | Iran | 105393 | 105393 (2016) | 1.00 | City | 183 | Robat Karim
+Sabzevar | Iran | 243700 | 243700 (2016) | 1.00 | City | 761 | Sabzevar
+Sadra | Iran | 91863 | 122226 (2019 estimate) | 0.75 | City | 183 | Sadra, Fars
+Sahand | Iran | 82494 | 82494 (2016) | 1.00 | City | 91 | Sahand, Iran
+Salmas | Iran | 127864 | 92811 (2016) | 1.38 | City | 883 | Salmas
+Sanandaj | Iran | 412767 | 412767 (2016) | 1.00 | City | 2070 | Sanandaj
+Saqqez | Iran | 165258 | 165258 (2016) | 1.00 | City | 913 | Saqqez
+Saravan | Iran | 60014 | 60014 (2016) | 1.00 | City | 396 | Saravan, Iran
+Saveh | Iran | 220762 | 220762 (2016) | 1.00 | City | 548 | Saveh
+Semnan | Iran | 185129 | 185129 (2016) | 1.00 | City | 1005 | Semnan, Iran
+Shahinshahr | Iran | 173329 | 173329 (2016) | 1.00 | City | 213 | Shahinshahr
+Shahr-e Babak | Iran | 51620 | 51620 (2016) | 1.00 | City | 274 | Shahr-e Babak
+Shahr-e Kord | Iran | 190441 | 190441 (2016) | 1.00 | City | 913 | Shahr-e Kord
+Shahreza | Iran | 134952 | 134952 (2016) | 1.00 | City | 396 | Shahreza
+Shahrud | Iran | 150129 | 165000 (2025) | 0.91 | City | 517 | Shahrud, Iran
+Shirvan | Iran | 82689 | 82689 (2016) | 1.00 | City | 183 | Shirvan, Iran
+Shush | Iran | 77148 | 79048 (2021 Census) | 0.98 | City | 1644 | Shush, Iran
+Shushtar | Iran | 101878 | 101878 (2016) | 1.00 | City | 1461 | Shushtar
+Sirjan | Iran | 199704 | 199704 (2016) | 1.00 | City | 609 | Sirjan
+Susangerd | Iran | 51431 | 51431 (2016) | 1.00 | City | 274 | Susangerd
+Takestan | Iran | 80299 | 80299 (2016) | 1.00 | City | 244 | Takestan
+Talesh | Iran | 54178 | 54178 (2016) | 1.00 | City | 213 | Tālesh
+Taybad | Iran | 56562 | 56562 (2016) | 1.00 | City | 183 | Taybad
+Tonekabon | Iran | 55434 | 55434 (2016) | 1.00 | City | 426 | Tonekabon
+Torbat-e Heydarieh | Iran | 140019 | 140019 (2016) | 1.00 | City | 274 | Torbat-e Heydarieh
+Torbat-e Jam | Iran | 100449 | 100449 (2016) | 1.00 | City | 335 | Torbat-e Jam
+Tuyserkan | Iran | 50455 | 50455 (2016) | 1.00 | City | 244 | Tuyserkan
+Varamin | Iran | 225628 | 225628 (2016) | 1.00 | City | 487 | Varamin
+Yasuj | Iran | 134532 | 134532 (2016) | 1.00 | City | 731 | Yasuj
+Zabol | Iran | 134950 | 134950 (2016) | 1.00 | City | 974 | Zabol
+Zanjan | Iran | 430871 | 698255 (2024) | 0.62 | City | 1400 | Zanjan, Iran
+Zarand | Iran | 60370 | 60370 (2016) | 1.00 | City | 91 | Zarand, Iran
+Al Diwaniyah | Iraq | 391600 | 396257 () | 0.99 | City | 700 | Al Diwaniyah
+Al-Hay | Iraq | 82900 | no figure |  | Town | 91 | Al-Hay
+Al-Qa'im | Iraq | 150000 | 74100 (2018) | 2.02 | Border town | 1126 | Al-Qa'im (town)
+Al-Qurnah | Iraq | 126438 | 286073 (2018) | 0.44 | City | 1065 | Al-Qurnah
+Amarah | Iraq | 511500 | 719898 (2024 census) | 0.71 | City | 1157 | Amarah
+Az Zubayr | Iraq | 370000 | 370000 (2014) | 1.00 | City | 700 | Az Zubayr
+Baiji | Iraq | 60000 | 173677 (2014) | 0.35 | City | 274 | Baiji (city)
+Balad | Iraq | 62817 | 80000 (2015) | 0.79 | City | 487 | Balad, Iraq
+Balad Ruz | Iraq | 100000 | no figure |  | Town | 122 | Balad Ruz
+Halabja | Iraq | 65200 | 245700 (2018) | 0.27 | City | 1644 | Halabja
+Hit | Iraq | 66700 | 66700 (2018) | 1.00 | City | 487 | Hit, Iraq
+Kufa | Iraq | 171305 | 230000 (|population_footnote) | 0.74 | City | 7214 | Kufa
+Kut | Iraq | 377600 | 315162 (2019) | 1.20 | City | 1370 | Kut
+Samawah | Iraq | 215000 | 152890 () | 1.41 | City | 974 | Samawah
+Simele | Iraq | 110000 | 71557 (2018) | 1.54 | Town | 274 | Simele
+Umm Qasr | Iraq | 107620 | 107620 (2003) | 1.00 |  | 1400 | Umm Qasr
+Zakho | Iraq | 219006 | 800000 (2026) | 0.27 | City | 2283 | Zakho
+Afula | Israel | 60000 | 64452 ({{Israel populations) | 0.93 | City | 2039 | Afula
+Bat Yam | Israel | 128800 | no figure |  | City | 2435 | Bat Yam
+Beit Shemesh | Israel | 118700 | no figure |  | City | 4079 | Beit Shemesh
+Bnei Brak | Israel | 193774 | no figure |  | City | 5266 | Bnei Brak
+Givatayim | Israel | 60200 | no figure |  | City | 1583 | Givatayim
+Hadera | Israel | 100630 | no figure |  | City | 1918 | Hadera
+Hod HaSharon | Israel | 56659 | no figure |  | City | 2070 | Hod HaSharon
+Kfar Saba | Israel | 101432 | no figure |  | City (from 1962) | 4109 | Kfar Saba
+Kiryat Ata | Israel | 62354 | no figure |  | City (from 1969) | 1157 | Kiryat Ata
+Kiryat Gat | Israel | 55000 | no figure |  | City | 2161 | Kiryat Gat
+Kiryat Motzkin | Israel | 51349 | no figure |  | City | 609 | Kiryat Motzkin
+Lod | Israel | 75700 | no figure |  | City | 5753 | Lod
+Modi'in-Maccabim-Re'ut | Israel | 97097 | no figure |  | City | 2648 | Modi'in-Maccabim-Re'ut
+Nahariya | Israel | 60000 | no figure |  | City (from 1961) | 2161 | Nahariya
+Ness Ziona | Israel | 50200 | no figure |  | City (from 1992) | 1248 | Ness Ziona
+Ra'anana | Israel | 74000 | no figure |  | City | 3805 | Ra'anana
+Rahat | Israel | 64462 | no figure |  | City (from 1994) | 1735 | Rahat
+Ramla | Israel | 75500 | no figure |  | City | 5357 | Ramla
+Rosh HaAyin | Israel | 56300 | no figure |  | City | 3288 | Rosh HaAyin
+Umm al-Fahm | Israel | 55300 | no figure |  | City (from 1985) | 1583 | Umm al-Fahm
+Ar-Ramtha | Jordan | 297830 | 155693 (2015) | 1.91 | City | 426 | Ar-Ramtha
+As-Salt | Jordan | 88900 | 107874 (2018) | 0.82 | City | 1096 | As-Salt
+Aydoun | Jordan | 63244 | no figure |  | City | 122 | Aydoun
+Russeifa | Jordan | 472604 | 280000 (2010) | 1.69 | City | 487 | Russeifa
+Balkhash | Kazakhstan | 73785 | 68833 (2009) | 1.07 | City | 791 | Balkhash (city)
+Jezkazgan | Kazakhstan | 100000 | 86227 (2009) | 1.16 | City | 974 | Jezkazgan
+Qonayev | Kazakhstan | 61767 | 54245 (2021 census) | 1.14 |  | 517 | Qonayev
+Satbayev | Kazakhstan | 69919 | 60105 (2009) | 1.16 | City | 244 | Satbayev (city)
+Zhanaozen | Kazakhstan | 156000 | 147962 (2018) | 1.05 | Town | 578 | Zhanaozen
+Nabatieh | Lebanon | 120000 | 40000 () | 3.00 | City | 1979 | Nabatieh
+Tripoli | Lebanon | 227857 | 892398 () | 0.26 | City | 8858 | Tripoli, Lebanon
+Saham | Oman | 173055 | 140000 (2017) | 1.24 | Town | 274 | Saham
+Beit Lahia | Palestine | 89838 | 89838 (2017) | 1.00 | City | 913 | Beit Lahia
+Jabalia | Palestine | 172704 | 172704 (2017) | 1.00 | Municipality type A (City) | 1096 | Jabalia
+Tulkarm | Palestine | 92272 | 64532 (2017) | 1.43 | Municipality type A (City) | 1918 | Tulkarm
+Yatta | Palestine | 63511 | 63511 (2011) | 1.00 | Municipality type A (City) | 578 | Yatta, Hebron
+Al Daayen | Qatar | 54339 | 54339 (2015) | 1.00 | Municipality | 578 | Al Daayen
+Al Rayyan | Qatar | 605712 | 605712 (2015) | 1.00 | Municipality | 1522 | Al Rayyan
+Al-Shahaniya | Qatar | 161240 | 187571 (2015) | 0.86 | Municipality | 639 | Al-Shahaniya
+Hafar al-Batin | Saudi Arabia | 65747 | 387096 (2022) | 0.17 | City | 2009 | Hafar al-Batin
+Khamis Mushait | Saudi Arabia | 99213 | 535065 (Census 2022) | 0.19 | City | 2679 | Khamis Mushait
+Sakaka | Saudi Arabia | 117063 | 204174 (2022 census) | 0.57 | City | 1187 | Sakaka, Saudi Arabia
+Abu Kamal | Syria | 52020 | 42510 (2004 census) | 1.22 | City | 639 | Abu Kamal
+Al-Bab | Syria | 144705 | 63069 (2004) | 2.29 | City | 609 | Al-Bab
+Al-Hajar al-Aswad | Syria | 101827 | 84948 (2004 census) | 1.20 | City | 152 | Al-Hajar al-Aswad
+Al-Nabek | Syria | 52502 | 32548 (2004 census) | 1.61 | City | 274 | Al-Nabek
+Al-Rastan | Syria | 61176 | 39834 (2004) | 1.54 | City | 365 | Al-Rastan
+Al-Tall | Syria | 63554 | 44597 (2004 census) | 1.43 |  | 213 | Al-Tall, Syria
+Arbin | Syria | 51246 | 44934 (2004) | 1.14 | Town | 122 | Arbin, Syria
+As-Safira | Syria | 106460 | 106382 (2007 est.) | 1.00 | City | 152 | As-Safira
+Da'el | Syria | 55000 | 29408 (2004 census) | 1.87 | Town | 91 | Da'el
+Daraa | Syria | 107500 | 97969 (2004 census) | 1.10 | City | 3074 | Daraa
+Douma | Syria | 400000 | 110893 (2004 census) | 3.61 |  | 670 | Douma, Syria
+Hasakah | Syria | 188160 | 422445 () | 0.45 | City | 2070 | Hasakah
+Jableh | Syria | 75505 | 80000 (2004 census) | 0.94 | City | 1096 | Jableh
+Jaramana | Syria | 114363 | 114363 (2004 census) | 1.00 | City | 761 | Jaramana
+Jisr ash-Shughur | Syria | 112654 | 39917 (| population_footnot) | 2.82 | City | 335 | Jisr ash-Shughur
+Khan Shaykhun | Syria | 55843 | 50469 (2004) | 1.11 | Town | 274 | Khan Shaykhun
+Maarat al-Numan | Syria | 90000 | 87742 (2009) | 1.03 | City | 639 | Maarat al-Numan
+Manbij | Syria | 78255 | 99497 (2004) | 0.79 | City | 1735 | Manbij
+Nawa | Syria | 150000 | 47066 (2004 census) | 3.19 | City | 304 | Nawa, Daraa
+Suwayda | Syria | 64730 | 73641 (2004 census) | 0.88 | City | 3592 | Suwayda
+Tabqa | Syria | 84000 | 69425 (2004 census) | 1.21 | City | 304 | Tabqa
+Konibodom | Tajikistan | 54400 | 54400 (2022 est.) | 1.00 | City | 183 | Konibodom
+Acipayam | Turkey | 54888 | 54888 (2022) | 1.00 | metro district | 122 | Acıpayam
+Adapazari | Turkey | 281489 | 281489 (2022) | 1.00 | metro district | 1522 | Adapazarı
+Adiyaman | Turkey | 267131 | 290883 (2024) | 0.92 | municipality | 1400 | Adıyaman
+Afsin | Turkey | 81423 | 80044 (2022) | 1.02 | metro district | 304 | Afşin
+Afyonkarahisar | Turkey | 299673 | 260577 (2025) | 1.15 | municipality | 2831 | Afyonkarahisar
+Agri | Turkey | 149188 | 148765 (2022) | 1.00 | municipality | 1400 | Ağrı
+Akcaabat | Turkey | 123552 | 129290 (2022) | 0.96 | metro district | 609 | Akçaabat
+Akcakale | Turkey | 113194 | 123721 (2022) | 0.91 | metro district | 396 | Akçakale
+Akhisar | Turkey | 181472 | 177419 (2022) | 1.02 | metro district | 944 | Akhisar
+Aksaray | Turkey | 253113 | 327575 (2025) | 0.77 | municipality | 1461 | Aksaray
+Aksehir | Turkey | 93233 | 93719 (2024) | 0.99 | metro district | 761 | Akşehir
+Alasehir | Turkey | 105145 | 104717 (2022) | 1.00 | metro district | 4049 | Alaşehir
+Anamur | Turkey | 65920 | 66846 (2022) | 0.99 | metro district | 1005 | Anamur
+Ayvalik | Turkey | 71063 | 74030 (2022) | 0.96 | metro district | 2709 | Ayvalık
+Bafra | Turkey | 142210 | 143109 (2023) | 0.99 | metro district | 487 | Bafra
+Balikesir | Turkey | 1250610 | 314958 (2022) | 3.97 | City | 2344 | Balıkesir
+Bandirma | Turkey | 154359 | 167363 (2024) | 0.92 | metro district | 1735 | Bandırma
+Bartin | Turkey | 84626 | 81692 (2021) | 1.04 | municipality | 578 | Bartın
+Baskale | Turkey | 52544 | 44168 (2022) | 1.19 | metro district | 335 | Başkale
+Bergama | Turkey | 105754 | 105754 (2022) | 1.00 | metro district | 2009 | Bergama
+Besni | Turkey | 77301 | 37323 (2021) | 2.07 | municipality | 183 | Besni
+Beysehir | Turkey | 73768 | 79629 (2024) | 0.93 | metro district | 365 | Beyşehir
+Biga | Turkey | 94112 | 57125 (2021) | 1.65 | municipality | 426 | Biga, Çanakkale
+Bilecik | Turkey | 81723 | 71594 (2025) | 1.14 | municipality | 1035 | Bilecik
+Bingol | Turkey | 160165 | 133423 (2022) | 1.20 | municipality | 1005 | Bingöl
+Birecik | Turkey | 95149 | 93866 (2023) | 1.01 | metro district | 578 | Birecik
+Bismil | Turkey | 117674 | 118698 (2022) | 0.99 | metro district | 183 | Bismil
+Bitlis | Turkey | 52024 | 53023 (2021) | 0.98 | municipality | 1583 | Bitlis
+Bolu | Turkey | 184682 | 184682 (2021) | 1.00 | municipality | 2131 | Bolu
+Bor | Turkey | 60335 | 41999 (2022) | 1.44 | municipality | 183 | Bor, Niğde
+Bozova | Turkey | 58565 | 52680 (2022) | 1.11 | metro district | 152 | Bozova
+Bozuyuk | Turkey | 74441 | 71806 (2021) | 1.04 | municipality | 183 | Bozüyük
+Bulancak | Turkey | 66736 | 49053 (2022) | 1.36 | municipality | 122 | Bulancak
+Bulanik | Turkey | 80540 | 70568 (2024) | 1.14 | municipality | 122 | Bulanık
+Burdur | Turkey | 95436 | 95436 (2021) | 1.00 | municipality | 700 | Burdur
+Burhaniye | Turkey | 60799 | 64283 (2022) | 0.95 | metro district | 365 | Burhaniye
+Caldiran | Turkey | 63013 | 58635 (2022) | 1.07 | metro district | 183 | Çaldıran, Van
+Cankiri | Turkey | 90564 | 90564 (2021) | 1.00 | municipality | 822 | Çankırı
+Carsamba | Turkey | 138840 | 140664 (2022) | 0.99 | metro district | 335 | Çarşamba
+Caycuma | Turkey | 91569 | 30255 (2022) | 3.03 | municipality | 91 | Çaycuma
+Cerkezkoy | Turkey | 213243 | 206829 (2022) | 1.03 | metro district | 517 | Çerkezköy
+Cermik | Turkey | 50812 | 49644 (2022) | 1.02 | metro district | 183 | Çermik
+Ceyhan | Turkey | 159955 | 158922 (2022) | 1.01 | metro district | 761 | Ceyhan
+Ceylanpinar | Turkey | 87684 | 90440 (2022) | 0.97 | metro district | 274 | Ceylanpınar
+Cihanbeyli | Turkey | 52525 | 50677 (2022) | 1.04 | metro district | 244 | Cihanbeyli
+Civril | Turkey | 59967 | 59967 (2022) | 1.00 | metro district | 183 | Çivril
+Cizre | Turkey | 143124 | 130916 (2021) | 1.09 | Municipality | 1735 | Cizre
+Cinar | Turkey | 74207 | 76966 (2022) | 0.96 | metro district | 91 | Çınar, Diyarbakır
+Corlu | Turkey | 300296 | 300296 (2024) | 1.00 | metro district | 1339 | Çorlu
+Corum | Turkey | 269595 | 269595 (2022) | 1.00 | municipality | 3744 | Çorum
+Cumra | Turkey | 66794 | 67690 (2022) | 0.99 | metro district | 152 | Çumra
+Darica | Turkey | 201468 | 225602 (2022) | 0.89 | metro district | 670 | Darıca
+Derik | Turkey | 61830 | 62028 (2022) | 1.00 | metro district | 183 | Derik, Turkey
+Develi | Turkey | 65322 | 66840 (2022) | 0.98 | metro district | 213 | Develi
+Devrek | Turkey | 57540 | 27444 (2022) | 2.10 | municipality | 274 | Devrek
+Didim | Turkey | 85055 | 97000 (2022) | 0.88 | metro district | 1766 | Didim
+Dogubayazit | Turkey | 121263 | 80061 (2021) | 1.51 | municipality | 1461 | Doğubayazıt
+Dortyol | Turkey | 128941 | 128941 (2022) | 1.00 | metro district | 1126 | Dörtyol
+Duzce | Turkey | 240633 | 194097 (2022) | 1.24 | municipality | 913 | Düzce
+Edremit | Turkey | 154487 | 167901 (2022) | 0.92 | metro district | 1035 | Edremit, Balıkesir
+Elazig | Turkey | 421726 | 387072 (2022) | 1.09 | municipality | 2313 | Elazığ
+Elbistan | Turkey | 142548 | 141307 (2022) | 1.01 | metro district | 1035 | Elbistan
+Ercis | Turkey | 173313 | 171000 (2022) | 1.01 | metro district | 609 | Erciş
+Erdemli | Turkey | 140331 | 151928 (2022) | 0.92 | metro district | 244 | Erdemli
+Eregli | Turkey | 145389 | 156253 (2024) | 0.93 | metro district | 578 | Ereğli, Konya
+Ergani | Turkey | 136099 | 136099 (2022) | 1.00 | metro district | 609 | Ergani
+Erzincan | Turkey | 157452 | 150714 () | 1.04 | municipality | 2709 | Erzincan
+Fatsa | Turkey | 116154 | 126775 (2022) | 0.92 | metro district | 731 | Fatsa
+Gazipasa | Turkey | 50003 | 53702 (2022) | 0.93 | metro district | 731 | Gazipaşa
+Gebze | Turkey | 411800 | 407019 (2022) | 1.01 | metro district | 2070 | Gebze
+Giresun | Turkey | 125682 | 125682 (2022) | 1.00 | municipality | 1887 | Giresun
+Goksun | Turkey | 55985 | 50676 (2022) | 1.10 | metro district | 365 | Göksun
+Golcuk | Turkey | 162584 | 175940 (2022) | 0.92 | metro district | 548 | Gölcük, Kocaeli
+Gonen | Turkey | 73829 | 74871 (2022) | 0.99 | metro district | 304 | Gönen
+Gumushane | Turkey | 57269 | 39214 (2022) | 1.46 | municipality | 883 | Gümüşhane
+Hakkari | Turkey | 60098 | 58470 () | 1.03 | municipality | 1492 | Hakkâri (city)
+Hassa | Turkey | 56409 | 56675 (2022) | 1.00 | metro district | 152 | Hassa, Hatay
+Idil | Turkey | 76523 | no figure |  |  | 335 | İdil
+Igdir | Turkey | 137613 | 101700 (2022) | 1.35 | municipality | 1948 | Iğdır
+Ilgin | Turkey | 54622 | 53489 (2022) | 1.02 | metro district | 152 | Ilgın
+Inegol | Turkey | 281384 | 294485 (2022) | 0.96 | metro district | 700 | İnegöl
+Iskenderun | Turkey | 251682 | 251682 (2022) | 1.00 | metro district | 4901 | İskenderun
+Islahiye | Turkey | 67674 | 67650 (2022) | 1.00 | metro district | 213 | İslahiye
+Isparta | Turkey | 247580 | 247580 (2022) | 1.00 | municipality | 2161 | Isparta
+Izmit | Turkey | 376056 | 365893 (2023) | 1.03 | City and municipality | 5418 | İzmit
+Kadirli | Turkey | 124053 | 98469 (2022) | 1.26 | municipality | 213 | Kadirli
+Kahta | Turkey | 122774 | 86232 (2021) | 1.42 | municipality | 244 | Kâhta
+Kandira | Turkey | 51348 | 52874 (2022) | 0.97 | metro district | 244 | Kandıra
+Kapakli | Turkey | 142662 | 137514 (2022) | 1.04 | metro district | 244 | Kapaklı
+Karabuk | Turkey | 131989 | 125403 (2022) | 1.05 | municipality | 822 | Karabük
+Karacabey | Turkey | 83115 | 84907 (2022) | 0.98 | metro district | 304 | Karacabey
+Karadeniz Eregli | Turkey | 175605 | 122282 (2022) | 1.44 | municipality | 639 | Karadeniz Ereğli
+Karaman | Turkey | 168299 | 175390 (2022) | 0.96 | municipality | 1583 | Karaman
+Karamursel | Turkey | 56604 | 59676 (2022) | 0.95 | metro district | 731 | Karamürsel
+Kastamonu | Turkey | 152541 | 125622 (2021) | 1.21 | municipality | 2253 | Kastamonu
+Kesan | Turkey | 84442 | 64842 (2022) | 1.30 | municipality | 396 | Keşan
+Kilis | Turkey | 112187 | 112187 (2022) | 1.00 | municipality | 1096 | Kilis
+Kirikhan | Turkey | 115196 | 121028 (2022) | 0.95 | metro district | 244 | Kırıkhan
+Kirikkale | Turkey | 186960 | 186960 (2022) | 1.00 | municipality | 852 | Kırıkkale
+Kirklareli | Turkey | 79884 | 85493 (2022) | 0.93 | municipality | 1613 | Kırklareli
+Kirsehir | Turkey | 150700 | 150700 (2022) | 1.00 | municipality | 883 | Kırşehir
+Kiziltepe | Turkey | 275460 | 267151 (2022) | 1.03 | metro district | 457 | Kızıltepe
+Korfez | Turkey | 165503 | 178048 (2022) | 0.93 | metro district | 183 | Körfez
+Korkuteli | Turkey | 55883 | 56285 (2022) | 0.99 | metro district | 304 | Korkuteli
+Kozan | Turkey | 130495 | 132703 (2022) | 0.98 | metro district | 791 | Kozan, Adana
+Kozluk | Turkey | 61437 | 27825 () | 2.21 | municipality| name             | 122 | Kozluk
+Kumluca | Turkey | 68610 | 73496 (2022) | 0.93 | metro district | 304 | Kumluca
+Kurtalan | Turkey | 59647 | 36273 (2021) | 1.64 | municipality | 152 | Kurtalan
+Kutahya | Turkey | 266784 | 263863 (2022) | 1.01 | municipality | 2283 | Kütahya
+Luleburgaz | Turkey | 148037 | 125404 (2022) | 1.18 | municipality | 883 | Lüleburgaz
+Malazgirt | Turkey | 51323 | 42135 (2024) | 1.22 | municipality | 1705 | Malazgirt
+Malkara | Turkey | 52758 | 50988 (2022) | 1.03 | metro district | 274 | Malkara
+Manavgat | Turkey | 252941 | 252941 (2022) | 1.00 | metro district | 1157 | Manavgat
+Midyat | Turkey | 113367 | 120069 (2022) | 0.94 | metro district | 2648 | Midyat
+Milas | Turkey | 139446 | 147416 (2022) | 0.95 | metro district | 1065 | Milas
+Mugla | Turkey | 64706 | 82717 (2022) | 0.78 | City | 2953 | Muğla
+Mus | Turkey | 120699 | 120699 (2022) | 1.00 | municipality | 1644 | Muş
+Mustafakemalpasa | Turkey | 100696 | 102284 (2022) | 0.98 | metro district | 365 | Mustafakemalpaşa
+Mut | Turkey | 62853 | 62874 (2022) | 1.00 | metro district | 183 | Mut, Mersin
+Nazilli | Turkey | 162041 | 162737 (2022) | 1.00 | metro district | 517 | Nazilli
+Nigde | Turkey | 224289 | 170511 (2022) | 1.32 | municipality | 1126 | Niğde
+Niksar | Turkey | 64119 | 37017 (2022) | 1.73 | municipality | 578 | Niksar
+Nizip | Turkey | 142389 | 148386 (2022) | 0.96 | metro district | 304 | Nizip
+Nusaybin | Turkey | 105856 | 115586 (2022) | 0.92 | metro district | 2009 | Nusaybin
+Odemis | Turkey | 132511 | 132740 (2022) | 1.00 | metro district | 365 | Ödemiş
+Orhangazi | Turkey | 78447 | 81110 (2022) | 0.97 | metro district | 152 | Orhangazi
+Osmaniye | Turkey | 252186 | 252186 (2022) | 1.00 | municipality | 791 | Osmaniye
+Ozalp | Turkey | 65785 | 59851 (2022) | 1.10 | metro district | 122 | Özalp, Van
+Patnos | Turkey | 122833 | 61837 (2021) | 1.99 | municipality | 274 | Patnos
+Pazarcik | Turkey | 68838 | 70173 (2022) | 0.98 | metro district | 700 | Pazarcık
+Polatli | Turkey | 125075 | 128378 (2022) | 0.97 | metro district | 457 | Polatlı
+Reyhanli | Turkey | 98534 | 108092 (2022) | 0.91 | metro district | 426 | Reyhanlı
+Salihli | Turkey | 161562 | 165182 (2023) | 0.98 | metro district | 335 | Salihli
+Samandag | Turkey | 121109 | 165494 (2022) | 0.73 | metro district | 852 | Samandağ
+Sandikli | Turkey | 56182 | 54851 (2024) | 1.02 | municipality | 122 | Sandıklı
+Saray | Turkey | 51224 | 50766 (2022) | 1.01 | metro district | 244 | Saray, Tekirdağ
+Saruhanli | Turkey | 54660 | 56523 (2022) | 0.97 | metro district | 91 | Saruhanlı
+Serik | Turkey | 124335 | 139545 (2022) | 0.89 | metro district | 548 | Serik
+Seydisehir | Turkey | 64687 | 65465 (2022) | 0.99 | metro district | 183 | Seydişehir
+Siirt | Turkey | 166332 | no figure |  | municipality| name             | 1400 | Siirt
+Silifke | Turkey | 119303 | 132665 (2022) | 0.90 | metro district | 974 | Silifke
+Silopi | Turkey | 134754 | 108880 (2023) | 1.24 | municipality | 700 | Silopi
+Silvan | Turkey | 86672 | 86161 (2022) | 1.01 | metro district | 944 | Silvan, Diyarbakır
+Simav | Turkey | 64015 | 26872 (2022) | 2.38 | municipality | 213 | Simav
+Sinop | Turkey | 70311 | 57404 (2022) | 1.22 | municipality | 6545 | Sinop, Turkey
+Siverek | Turkey | 258265 | 267942 (2022) | 0.96 | metro district | 578 | Siverek
+Sirnak | Turkey | 67662 | 75932 () | 0.89 | municipality | 1065 | Şırnak
+Soke | Turkey | 124217 | 123301 (2022) | 1.01 | metro district | 548 | Söke
+Soma | Turkey | 108981 | 111789 (2022) | 0.97 | metro district | 244 | Soma, Manisa
+Sorgun | Turkey | 79314 | 55079 (2022) | 1.44 | municipality | 152 | Sorgun, Yozgat
+Suruc | Turkey | 104302 | 100961 (2022) | 1.03 | metro district | 517 | Suruç
+Tarsus | Turkey | 346715 | 350732 (2022) | 0.99 | metro district | 9162 | Tarsus, Mersin
+Tatvan | Turkey | 92695 | 79214 (2021) | 1.17 | municipality | 609 | Tatvan
+Tavsanli | Turkey | 101903 | 73306 (2022) | 1.39 | municipality | 152 | Tavşanlı
+Tire | Turkey | 84457 | 87462 (2022) | 0.97 | metro district | 426 | Tire, İzmir
+Tokat | Turkey | 163405 | 163405 (2022) | 1.00 | municipality | 1766 | Tokat
+Turgutlu | Turkey | 163223 | 175401 (2022) | 0.93 | metro district | 426 | Turgutlu
+Turhal | Turkey | 79916 | 62030 (2022) | 1.29 | municipality | 183 | Turhal
+Turkoglu | Turkey | 73770 | 78976 (2022) | 0.93 | metro district | 91 | Türkoğlu
+Unye | Turkey | 126702 | 132432 (2022) | 0.96 | metro district | 396 | Ünye
+Usak | Turkey | 228881 | 236366 (2022) | 0.97 | municipality | 1674 | Uşak
+Uzunkopru | Turkey | 61485 | 39577 (2022) | 1.55 | municipality | 578 | Uzunköprü
+Vezirkopru | Turkey | 95569 | 90308 (2022) | 1.06 | metro district | 183 | Vezirköprü
+Viransehir | Turkey | 195910 | 207315 (2022) | 0.94 | metro district | 517 | Viranşehir
+Yalova | Turkey | 133109 | 157499 (2024) | 0.85 | municipality | 1887 | Yalova
+Yenisehir | Turkey | 53704 | 54844 (2022) | 0.98 | metro district | 487 | Yenişehir, Bursa
+Yozgat | Turkey | 105167 | 92643 (2022) | 1.14 | municipality | 1096 | Yozgat
+Zile | Turkey | 55673 | 33557 (2022) | 1.66 | municipality | 670 | Zile
+Zonguldak | Turkey | 101749 | 101749 (2022) | 1.00 | municipality | 1826 | Zonguldak
+Bayramaly | Turkmenistan | 70376 | 70376 (2022 census) | 1.00 |  | 365 | Baýramaly
+Magdanly | Turkmenistan | 64845 | 44508 (2022 ) | 1.46 | City | 122 | Magdanly
+Tejen | Turkmenistan | 67488 | 67488 (2022 ) | 1.00 | City | 426 | Tejen
+Kalba | United Arab Emirates | 54876 | 51000 (2022) | 1.08 | City | 1431 | Kalba
+Angren | Uzbekistan | 126962 | 191300 (2021) | 0.66 | City | 365 | Angren, Uzbekistan
+Bekabad | Uzbekistan | 82082 | 96900 (2021) | 0.85 | City | 304 | Bekabad
+Olmaliq | Uzbekistan | 141894 | 133400 (2021) | 1.06 | Town | 548 | Olmaliq
+'Amran | Yemen | 90792 | 92763 () | 0.98 | City | 365 | 'Amran
+Al-Shihr | Yemen | 68313 | no figure |  | Town | 244 | Al-Shihr
+Dhamar | Yemen | 160114 | 146346 (2004) | 1.09 | City | 883 | Dhamar, Yemen
+Saada | Yemen | 70203 | 51870 (2004) | 1.35 | City | 2131 | Saada
+Sayyan | Yemen | 69993 | no figure |  | Town | 91 | Sayyan
+Seiyun | Yemen | 120137 | 135000 () | 0.89 | City | 1065 | Seiyun
+Tarim | Yemen | 105552 | 58523 (2012) | 1.80 | Town | 1096 | Tarim, Yemen
+Zabid | Yemen | 50781 | no figure |  | Town | 883 | Zabid

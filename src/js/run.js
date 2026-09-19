@@ -233,6 +233,14 @@
         if (current.constrained) {
           const wide = matching.matchAnswer(rawInput, current.cohort.lookup, null);
           if (wide.status === 'accepted' || wide.status === 'corrected') {
+            // ...and a wide CORRECTION asks the other cohorts first, as the
+            // subset correction above does: "Paris" on "Name a city in Europe"
+            // is the capital's nudge, not "Pardis isn't in Europe" (the
+            // 2026-09-19 West and Central Asia gameplay audit)
+            if (wide.status === 'corrected') {
+              const named = elsewhere(rawInput, current.category, true);
+              if (named && !sameName(named.entry, current.cohort.byId.get(wide.entryId))) return { status: 'unrecognized', elsewhere: named };
+            }
             // "Athens" on "Name a city in Europe" is not "Athens (Georgia)
             // isn't in Europe" - it is the capital, and the nudge says so
             return famousElsewhere(current.cohort.byId.get(wide.entryId), wide, current) || wrongScope(current, wide.entryId);

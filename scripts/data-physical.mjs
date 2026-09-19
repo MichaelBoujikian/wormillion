@@ -13596,7 +13596,7 @@ Ekinlik Island|2.47
 Esek Island|0
 Sican Island|0
 Umm al-Fayyarin|0
-Abu Ali Island|2
+Abu Ali Island|59.3
 Adsiz Ada|0
 Adir Island|0
 Al Futaisi|35.22
@@ -13606,7 +13606,6 @@ Korzhin Island|0
 Bulla Island|3.5
 Hendurabi|22.8
 Kalem Island|1.86
-Kubbar Island|1.1
 Kura Island|44
 Kus Island|1
 Nabih Saleh|1.4
@@ -14359,7 +14358,7 @@ Mutsu Bay|1668
 Uchiura Bay|2485|Funka Bay,Volcano Bay
 Uraga Channel|0
 Xiamen Bay|0
-Straits of Tiran|0|Strait of Tiran
+Straits of Tiran|0|Strait of Tiran,Tiran Strait
 ANZAC Cove|0
 Suvla|0|Suvla Bay
 Bay of Baku|50

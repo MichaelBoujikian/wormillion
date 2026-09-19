@@ -53963,7 +53963,7 @@
   "category": "island",
   "name": "Abu Ali Island",
   "aliases": [],
-  "size": 2,
+  "size": 59.3,
   "sizeUnit": "area_km2",
   "source": "English Wikipedia pageviews for \"Abu Ali Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
   "magnitude": 122,
@@ -54114,23 +54114,6 @@
   "lon": 26.795,
   "oceans": [
    "Atlantic"
-  ]
- },
- {
-  "id": "island-kubbar-island",
-  "category": "island",
-  "name": "Kubbar Island",
-  "aliases": [],
-  "size": 1.1,
-  "sizeUnit": "area_km2",
-  "source": "English Wikipedia pageviews for \"Kubbar Island\", 60-day daily median (60 days ending 2026-09-19); Standard reference island areas (km2), rounded",
-  "magnitude": 91,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Kubbar Island",
-  "lat": 29.0718,
-  "lon": 48.4925,
-  "oceans": [
-   "Indian"
   ]
  },
  {

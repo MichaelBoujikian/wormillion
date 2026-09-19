@@ -22,41 +22,31 @@ per wave) and SPEC §13; git log has the rest.
 **Resume point (refreshed with every chunk commit — the user's standing
 instruction of 2026-09-19: run the whole roadmap without asking, keep this
 current against an auto-compaction; "continue from where you left off" means
-do the next thing named here):** West and Central Asia wave: ALL EIGHT
-PROBES DONE (cities `c4f334c`); the first audit round applied (`0b09b4f`).
-RUNNING (or interrupted): the second Opus audit round, `Workflow` run
-`wf_105d9edb-458` (script
-`workflows/scripts/wca-islands-seas-deserts-cities-audit-wf_105d9edb-458.js`;
-its reports land in the scratchpad as
-`2026-09-19-wca-isdc-{data,gameplay}-audit.md`, each with a `progress:` line
-- a report that stops mid-way is still usable; if the run died, rerun the
-script). It is the second Opus audit round over islands + seas + deserts +
-cities - the `Workflow` tool, `parallel()` of two `agent()`s (data,
-gameplay), the pattern is this session's
-`workflows/scripts/wca-rivers-lakes-mountains-audit-wf_f60422ce-b6e.js` and
-the East Asia `ea-islands-seas-deserts-cities-audit-wf_6b7a6452-84c.js` (no
-probe runs now, so the DATA auditor may use the live Wikipedia API at one
-request per second; the gameplay auditor stays offline); chunk files
-`work/folded/wca/new-islands-wca5.txt` (+ns), `new-seas-wca6.txt`,
-`new-deserts-wca7.txt`, `new-cities-wca8.txt` (+ns, `qualify-ns-wca8.txt`:
-Bor (South Sudan)); commits `a8c85d8` islands, `e6e5336` seas + deserts, the
-cities commit; flagged: Balikesir 1.25 M (the province), Shahi Island 230
-km2 (a peninsula now), Farasan Island beside Farasan Islands, Sukhumi as
-Georgia / North Nicosia as Cyprus, Abadan / Warbah oceans, the 17 size-0
-islands, the city jackpot share 6.88%. Apply the findings, copy the reports
-to `scripts/expansion/reports/2026-09-19-wca-isdc-{data,gameplay}-audit.md`,
-pipeline, commit. THEN the wave report `reports/2026-09-19-wca-wave.md`
-(after `-ea-wave.md`: the cohort table, the numbers for the user - the city
-share 6.88% (a 213 floor -> ~5.6%), the desert floor, draw-diff main),
-HANDOFF "Where things stand" + the waves list, memory (`expansion-plan.md`),
-then START SOUTH AMERICA (the roadmap): groundwork first - river themes to
-seed (`South America` exists; maybe `the Andes` for mountains exists; check
-`Brazil` / `the Amazon basin`), the sister-wiki fields for es / pt (already:
-es, pt from the Mexico wave), probe configs `probes/sa-*.json` copied from
-the wca ones (Brazil, Argentina, Colombia, Peru, Venezuela, Chile, Ecuador,
-Bolivia, Paraguay, Uruguay, Guyana, Suriname, French Guiana; rivers 80 km
-big / 60 small; the Mexico wave's `mx-*` configs are the closest pattern).
-Nothing uncommitted.
+do the next thing named here):** West and Central Asia wave: every probe
+folded and BOTH audit rounds applied (`0b09b4f`, this commit). NEXT: (1) the
+wave report `scripts/expansion/reports/2026-09-19-wca-wave.md` after the
+shape of `2026-09-19-ea-wave.md` (bank 19,398 -> 20,225; the cohort table
+from `jackpot-share.mjs`; what was decided on the spot; the numbers for the
+user: the city jackpot share 6.72% (a 213 floor -> ~5.6%), the desert floor
+213 vs East Asia's 122, draw-diff main 17 of 46 - the river themes; the open
+threads); (2) HANDOFF "Where things stand" (bank, commits past main, the
+cohort table, the waves-so-far line for West and Central Asia), the lessons
+the wave paid for (the generic-list page - already in; the P518 census
+component; a sister figure's unit; the il merkezi district figure; the
+wide-correction nudge); (3) memory `expansion-plan.md` + `MEMORY.md`
+(W./Central Asia done 20,225); (4) START SOUTH AMERICA: the eight probe
+configs `probes/sa-*.json` are already written (uncommitted - commit them
+with the groundwork), seed no new theme unless needed (river `South America`
+and mountain `the Andes` exist; check the sea / island themes `the Americas`
+/ `the Caribbean`), then `node scripts/expansion/probe.mjs
+scripts/expansion/probes/sa-rivers-big.json >
+scripts/expansion/work/sa-rivers-big.out` (Brazil, Argentina, Colombia (its
+rivers were done in an early pass), Peru, Venezuela, Chile, Bolivia at 80
+km; the article pass `--sister=es,pt`; the loop as in this wave; the
+hand-clean pattern is the scratchpad's `clean-wca2.cjs`), then the small
+countries, lakes, mountains, islands, seas, deserts, cities, two audit
+rounds, the wave report. Nothing uncommitted after this commit but the
+sa-*.json configs.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe and East Asia waves + the first West and Central

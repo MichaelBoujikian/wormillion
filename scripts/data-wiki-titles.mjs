@@ -9422,7 +9422,6 @@ export const WIKI_TITLES = {
   "city-duzce": "Düzce",
   "city-ilam": "Ilam, Iran",
   "city-dhamar": "Dhamar, Yemen",
-  "city-gumushane": "Gümüşhane",
   "city-kirsehir": "Kırşehir",
   "city-luleburgaz": "Lüleburgaz",
   "city-kirikkale": "Kırıkkale",
@@ -9445,7 +9444,6 @@ export const WIKI_TITLES = {
   "city-ercis": "Erciş",
   "city-bartin": "Bartın",
   "city-eregli": "Ereğli, Konya",
-  "city-uzunkopru": "Uzunköprü",
   "city-yatta": "Yatta, Hebron",
   "city-golcuk": "Gölcük, Kocaeli",
   "city-soke": "Söke",
@@ -9475,7 +9473,6 @@ export const WIKI_TITLES = {
   "city-goksun": "Göksun",
   "city-mustafakemalpasa": "Mustafakemalpaşa",
   "city-odemis": "Ödemiş",
-  "city-baskale": "Başkale",
   "city-carsamba": "Çarşamba",
   "city-idil": "İdil",
   "city-afsin": "Afşin",
@@ -9506,7 +9503,6 @@ export const WIKI_TITLES = {
   "city-shirvan-iran": "Shirvan, Iran",
   "city-vezirkopru": "Vezirköprü",
   "city-caldiran": "Çaldıran, Van",
-  "city-cermik": "Çermik",
   "city-civril": "Çivril",
   "city-hassa": "Hassa, Hatay",
   "city-ilgin": "Ilgın",
@@ -9523,11 +9519,9 @@ export const WIKI_TITLES = {
   "city-saruhanli": "Saruhanlı",
   "city-turkoglu": "Türkoğlu",
   "city-zarand": "Zarand, Iran",
-  "city-caycuma": "Çaycuma",
   "city-cinar": "Çınar, Diyarbakır",
 
   // --- city (2026-09-19 expansion) ---
-  "city-bor-nigde": "Bor, Niğde"
 };
 
 /**
@@ -10141,7 +10135,6 @@ export const WIKI_VERIFIED = new Set([
   "island-hengam-island",
   "island-halul-island",
   "island-jubail-island",
-  "island-kubbar-island",
   // --- 2026-09-19 West and Central Asia seas: ANZAC Cove (Wikidata describes the battle site, the article is the cove) ---
   "sea_ocean-anzac-cove"
 ]);

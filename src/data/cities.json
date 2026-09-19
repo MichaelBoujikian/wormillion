@@ -120927,7 +120927,8 @@
   "category": "city",
   "name": "Suwayda",
   "aliases": [
-   "As-Suwayda"
+   "As-Suwayda",
+   "Sweida"
   ],
   "size": 64730,
   "sizeUnit": "population",
@@ -121148,7 +121149,7 @@
   "aliases": [
    "Khamis Mushayt"
   ],
-  "size": 99213,
+  "size": 535065,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -121266,7 +121267,7 @@
   "category": "city",
   "name": "Balikesir",
   "aliases": [],
-  "size": 1250610,
+  "size": 314958,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -121696,7 +121697,7 @@
   "aliases": [
    "Hafr al-Batin"
   ],
-  "size": 65747,
+  "size": 387096,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -121742,7 +121743,7 @@
   "category": "city",
   "name": "Nabatieh",
   "aliases": [],
-  "size": 120000,
+  "size": 85000,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -121766,7 +121767,7 @@
   "category": "city",
   "name": "Igdir",
   "aliases": [],
-  "size": 137613,
+  "size": 101700,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -122068,29 +122069,6 @@
   "lon": 34.75444444
  },
  {
-  "id": "city-malazgirt",
-  "category": "city",
-  "name": "Malazgirt",
-  "aliases": [],
-  "size": 51323,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Malazgirt\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 1705,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Malazgirt",
-  "lat": 39.14777778,
-  "lon": 42.54416667
- },
- {
   "id": "city-usak",
   "category": "city",
   "name": "Usak",
@@ -122331,7 +122309,9 @@
   "id": "city-al-rayyan",
   "category": "city",
   "name": "Al Rayyan",
-  "aliases": [],
+  "aliases": [
+   "Rayyan"
+  ],
   "size": 605712,
   "sizeUnit": "population",
   "region": [
@@ -122449,7 +122429,7 @@
   "category": "city",
   "name": "Dogubayazit",
   "aliases": [],
-  "size": 121263,
+  "size": 80061,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -122788,7 +122768,7 @@
   "aliases": [
    "Sakakah"
   ],
-  "size": 117063,
+  "size": 204174,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -122984,7 +122964,7 @@
   "category": "city",
   "name": "Nigde",
   "aliases": [],
-  "size": 224289,
+  "size": 170511,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -123552,7 +123532,8 @@
   "category": "city",
   "name": "Samawah",
   "aliases": [
-   "Al Samawah"
+   "Al Samawah",
+   "Samawa"
   ],
   "size": 215000,
   "sizeUnit": "population",
@@ -123812,29 +123793,6 @@
   "wikiTitle": "Dhamar, Yemen",
   "lat": 14.55,
   "lon": 44.40166667
- },
- {
-  "id": "city-gumushane",
-  "category": "city",
-  "name": "Gumushane",
-  "aliases": [],
-  "size": 57269,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Gümüşhane\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 883,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Gümüşhane",
-  "lat": 40.45972222,
-  "lon": 39.47777778
  },
  {
   "id": "city-kirsehir",
@@ -124693,29 +124651,6 @@
   "lon": 58.50944444
  },
  {
-  "id": "city-zile",
-  "category": "city",
-  "name": "Zile",
-  "aliases": [],
-  "size": 55673,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Zile\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 670,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Zile",
-  "lat": 40.3,
-  "lon": 35.88333333
- },
- {
   "id": "city-abu-kamal",
   "category": "city",
   "name": "Abu Kamal",
@@ -124739,29 +124674,6 @@
   "wikiTitle": "Abu Kamal",
   "lat": 34.45361111,
   "lon": 40.93666667
- },
- {
-  "id": "city-al-shahaniya",
-  "category": "city",
-  "name": "Al-Shahaniya",
-  "aliases": [],
-  "size": 161240,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Qatar",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Al-Shahaniya\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Qatar",
-  "magnitude": 639,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Al-Shahaniya",
-  "lat": 25.37222222,
-  "lon": 51.20472222
  },
  {
   "id": "city-jiroft",
@@ -124792,7 +124704,7 @@
   "category": "city",
   "name": "Karadeniz Eregli",
   "aliases": [],
-  "size": 175605,
+  "size": 122282,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -125080,29 +124992,6 @@
   "lon": 42.28138889
  },
  {
-  "id": "city-al-daayen",
-  "category": "city",
-  "name": "Al Daayen",
-  "aliases": [],
-  "size": 54339,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Qatar",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Al Daayen\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Qatar",
-  "magnitude": 578,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Al Daayen",
-  "lat": 25.57777778,
-  "lon": 51.45
- },
- {
   "id": "city-bartin",
   "category": "city",
   "name": "Bartin",
@@ -125220,27 +125109,6 @@
   "lon": 48.81777778
  },
  {
-  "id": "city-niksar",
-  "category": "city",
-  "name": "Niksar",
-  "aliases": [],
-  "size": 64119,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Niksar\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 578,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Niksar"
- },
- {
   "id": "city-siverek",
   "category": "city",
   "name": "Siverek",
@@ -125262,29 +125130,6 @@
   "wikiTitle": "Siverek",
   "lat": 37.75416667,
   "lon": 39.31777778
- },
- {
-  "id": "city-uzunkopru",
-  "category": "city",
-  "name": "Uzunkopru",
-  "aliases": [],
-  "size": 61485,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Uzunköprü\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 578,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Uzunköprü",
-  "lat": 41.26694444,
-  "lon": 26.6875
  },
  {
   "id": "city-yatta",
@@ -125936,7 +125781,7 @@
   "category": "city",
   "name": "Biga",
   "aliases": [],
-  "size": 94112,
+  "size": 57125,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -126293,7 +126138,7 @@
   "category": "city",
   "name": "Kesan",
   "aliases": [],
-  "size": 84442,
+  "size": 64842,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -126690,29 +126535,6 @@
   "wikiTitle": "Bandar-e Emam Khomeini",
   "lat": 30.50583333,
   "lon": 49.07416667
- },
- {
-  "id": "city-baskale",
-  "category": "city",
-  "name": "Baskale",
-  "aliases": [],
-  "size": 52544,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Başkale\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 335,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Başkale",
-  "lat": 38.0475,
-  "lon": 44.015
  },
  {
   "id": "city-behshahr",
@@ -127314,29 +127136,6 @@
   "lon": 40.04888889
  },
  {
-  "id": "city-devrek",
-  "category": "city",
-  "name": "Devrek",
-  "aliases": [],
-  "size": 57540,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Devrek\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 274,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Devrek",
-  "lat": 41.22527778,
-  "lon": 31.96027778
- },
- {
   "id": "city-khan-shaykhun",
   "category": "city",
   "name": "Khan Shaykhun",
@@ -127413,7 +127212,7 @@
   "category": "city",
   "name": "Patnos",
   "aliases": [],
-  "size": 122833,
+  "size": 61837,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -127679,7 +127478,7 @@
   "category": "city",
   "name": "Kahta",
   "aliases": [],
-  "size": 122774,
+  "size": 86232,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -128131,7 +127930,7 @@
   "category": "city",
   "name": "Kadirli",
   "aliases": [],
-  "size": 124053,
+  "size": 98469,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -128222,29 +128021,6 @@
   "lon": 51.55305556
  },
  {
-  "id": "city-simav",
-  "category": "city",
-  "name": "Simav",
-  "aliases": [],
-  "size": 64015,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Simav\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 213,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Simav",
-  "lat": 39.08333333,
-  "lon": 28.98333333
- },
- {
   "id": "city-islahiye",
   "category": "city",
   "name": "Islahiye",
@@ -128314,29 +128090,6 @@
   "wikiTitle": "Andisheh",
   "lat": 35.70444444,
   "lon": 51.02555556
- },
- {
-  "id": "city-besni",
-  "category": "city",
-  "name": "Besni",
-  "aliases": [],
-  "size": 77301,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Besni\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 183,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Besni",
-  "lat": 37.69416667,
-  "lon": 37.86138889
  },
  {
   "id": "city-bismil",
@@ -128772,7 +128525,7 @@
   "category": "city",
   "name": "Turhal",
   "aliases": [],
-  "size": 79916,
+  "size": 62030,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -128835,29 +128588,6 @@
   "wikiTitle": "Çaldıran, Van",
   "lat": 39.14194444,
   "lon": 43.91388889
- },
- {
-  "id": "city-cermik",
-  "category": "city",
-  "name": "Cermik",
-  "aliases": [],
-  "size": 50812,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Çermik\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 183,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Çermik",
-  "lat": 38.13722222,
-  "lon": 39.45111111
  },
  {
   "id": "city-civril",
@@ -129076,29 +128806,6 @@
   "lon": 31.91388889
  },
  {
-  "id": "city-kurtalan",
-  "category": "city",
-  "name": "Kurtalan",
-  "aliases": [],
-  "size": 59647,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Kurtalan\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 152,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Kurtalan",
-  "lat": 37.92611111,
-  "lon": 41.70027778
- },
- {
   "id": "city-neka",
   "category": "city",
   "name": "Neka",
@@ -129198,7 +128905,7 @@
   "category": "city",
   "name": "Sorgun",
   "aliases": [],
-  "size": 79314,
+  "size": 55079,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -129221,7 +128928,7 @@
   "category": "city",
   "name": "Tavsanli",
   "aliases": [],
-  "size": 101903,
+  "size": 73306,
   "sizeUnit": "population",
   "region": [
    "Asia",
@@ -129361,29 +129068,6 @@
   "wikiTitle": "Balad Ruz",
   "lat": 33.7,
   "lon": 45.08333333
- },
- {
-  "id": "city-bulancak",
-  "category": "city",
-  "name": "Bulancak",
-  "aliases": [],
-  "size": 66736,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Bulancak\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 122,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Bulancak",
-  "lat": 40.93333333,
-  "lon": 38.23333333
  },
  {
   "id": "city-bulanik",
@@ -129527,29 +129211,6 @@
   "wikiTitle": "Kamyaran",
   "lat": 34.79527778,
   "lon": 46.93666667
- },
- {
-  "id": "city-kozluk",
-  "category": "city",
-  "name": "Kozluk",
-  "aliases": [],
-  "size": 61437,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Kozluk\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 122,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Kozluk",
-  "lat": 38.19444444,
-  "lon": 41.49111111
  },
  {
   "id": "city-nazarabad",
@@ -129934,29 +129595,6 @@
   "wikiTitle": "Zarand, Iran",
   "lat": 30.81083333,
   "lon": 56.56583333
- },
- {
-  "id": "city-caycuma",
-  "category": "city",
-  "name": "Caycuma",
-  "aliases": [],
-  "size": 91569,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Çaycuma\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "magnitude": 91,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Çaycuma",
-  "lat": 41.42666667,
-  "lon": 32.07583333
  },
  {
   "id": "city-cinar",
@@ -130371,33 +130009,6 @@
   "lon": 70.41666667
  },
  {
-  "id": "city-magdanly",
-  "category": "city",
-  "name": "Magdanly",
-  "aliases": [
-   "Magdanli"
-  ],
-  "size": 64845,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Central Asia"
-  ],
-  "country": "Turkmenistan",
-  "flag": [
-   "red",
-   "white",
-   "green",
-   "yellow"
-  ],
-  "source": "English Wikipedia pageviews for \"Magdanly\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkmenistan",
-  "magnitude": 122,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Magdanly",
-  "lat": 37.80666667,
-  "lon": 66.05666667
- },
- {
   "id": "city-sukhumi",
   "category": "city",
   "name": "Sukhumi",
@@ -130420,29 +130031,6 @@
   "wikiTitle": "Sukhumi",
   "lat": 43.0036,
   "lon": 41.0192
- },
- {
-  "id": "city-hrazdan",
-  "category": "city",
-  "name": "Hrazdan",
-  "aliases": [],
-  "size": 52283,
-  "sizeUnit": "population",
-  "region": [
-   "Asia"
-  ],
-  "country": "Armenia",
-  "flag": [
-   "red",
-   "blue",
-   "orange"
-  ],
-  "source": "English Wikipedia pageviews for \"Hrazdan\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Armenia",
-  "magnitude": 791,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Hrazdan",
-  "lat": 40.5,
-  "lon": 44.76666667
  },
  {
   "id": "city-yevlakh",
@@ -130566,29 +130154,5 @@
   "wikiTitle": "Strovolos",
   "lat": 35.14400155,
   "lon": 33.34357103
- },
- {
-  "id": "city-bor-nigde",
-  "category": "city",
-  "name": "Bor",
-  "aliases": [],
-  "size": 60335,
-  "sizeUnit": "population",
-  "region": [
-   "Asia",
-   "Middle East"
-  ],
-  "country": "Turkey",
-  "flag": [
-   "red",
-   "white"
-  ],
-  "source": "English Wikipedia pageviews for \"Bor, Niğde\", 60-day daily median (60 days ending 2026-09-19); City-proper population, common reference figures, rounded (2026); in Turkey",
-  "qualifier": "Nigde",
-  "magnitude": 183,
-  "magnitudeUnit": "pageviews_monthly",
-  "wikiTitle": "Bor, Niğde",
-  "lat": 37.89638889,
-  "lon": 34.56277778
  }
 ]

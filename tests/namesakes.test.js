@@ -60,7 +60,8 @@ const RAW = {
     city('city-cork', 'Cork', 15000, 'Ireland', EUROPE),
     city('city-porto', 'Porto', 35000, 'Portugal', EUROPE),
     city('city-mombasa', 'Mombasa', 12000, 'Kenya', AFRICA),
-    city('city-arusha', 'Arusha', 9000, 'Tanzania', AFRICA)
+    city('city-arusha', 'Arusha', 9000, 'Tanzania', AFRICA),
+    city('city-malda', 'Malda', 500, 'India', ['Asia', 'South Asia'])
   ],
   lakes: [
     entry('lake', 'lake-black-lake-new-york', 'Black Lake', 900, { qualifier: 'New York', size: 40 }),
@@ -310,4 +311,19 @@ test('the daily replay lands the stored "Syracuse (Sicily)" on the Sicilian one'
   const again = replay.submit(played.answer);
   assert.strictEqual(again.entry.id, 'city-syracuse-sicily');
   assert.strictEqual(again.rarity, played.rarity);
+});
+
+test('a wide correction on a narrowed round asks the other cohorts first: "Malta" on a Europe city round is the country, not "Malda is not in Europe" (2026-09-19)', () => {
+  // the Europe subset has no Malta, the whole cohort corrects it to Malda
+  // (Asia, one edit away); the country's nudge comes first, as it does when
+  // the correction happens inside the subset (Dublin / Lublin)
+  const europe = judge({ category: 'city', region: 'Europe' });
+  const malta = europe('Malta');
+  assert.strictEqual(malta.status, 'unrecognized');
+  assert.strictEqual(malta.elsewhere.entry.id, 'country-malta');
+  // a typo of the city itself, with no famous name behind it, is still the city out of scope
+  assert.strictEqual(europe('Maldaa').status, 'wrong-scope');
+  assert.strictEqual(europe('Maldaa').entry.id, 'city-malda');
+  // and on the round that holds it, the city scores as typed
+  assert.strictEqual(judge({ category: 'city', region: 'Asia' })('Malda').entry.id, 'city-malda');
 });

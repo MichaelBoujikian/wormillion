@@ -5129,7 +5129,7 @@ Beit Shemesh|Israel|118700|Bet Shemesh
 Alasehir|Turkey|105145
 Ra'anana|Israel|74000
 Corum|Turkey|269595
-Suwayda|Syria|64730|As-Suwayda
+Suwayda|Syria|64730|As-Suwayda,Sweida
 Qazvin|Iran|402748|Qazwin
 Rosh HaAyin|Israel|56300
 Gorgan|Iran|350676
@@ -5138,12 +5138,12 @@ Mugla|Turkey|64706
 Afyonkarahisar|Turkey|299673|Afyon
 Ayvalik|Turkey|71063
 Erzincan|Turkey|157452
-Khamis Mushait|Saudi Arabia|99213|Khamis Mushayt
+Khamis Mushait|Saudi Arabia|535065|Khamis Mushayt
 Midyat|Turkey|113367
 Modi'in-Maccabim-Re'ut|Israel|97097|Modiin
 Bat Yam|Israel|128800
 Khorramshahr|Iran|133097
-Balikesir|Turkey|1250610
+Balikesir|Turkey|314958
 Elazig|Turkey|421726
 Kutahya|Turkey|266784
 Zakho|Iraq|219006
@@ -5161,10 +5161,10 @@ Sanandaj|Iran|412767
 Afula|Israel|60000
 Bergama|Turkey|105754
 Chabahar|Iran|106739
-Hafar al-Batin|Saudi Arabia|65747|Hafr al-Batin
+Hafar al-Batin|Saudi Arabia|387096|Hafr al-Batin
 Nusaybin|Turkey|105856
-Nabatieh|Lebanon|120000
-Igdir|Turkey|137613
+Nabatieh|Lebanon|85000
+Igdir|Turkey|101700
 Mahabad|Iran|168393
 Hadera|Israel|100630
 Tulkarm|Palestine|92272
@@ -5177,7 +5177,6 @@ Bandirma|Turkey|154359
 Cizre|Turkey|143124
 Manbij|Syria|78255|Manbej
 Rahat|Israel|64462
-Malazgirt|Turkey|51323
 Usak|Turkey|228881
 Halabja|Iraq|65200|Halabjah
 Mus|Turkey|120699
@@ -5188,12 +5187,12 @@ Givatayim|Israel|60200
 Karaman|Turkey|168299
 Umm al-Fahm|Israel|55300|Umm el-Fahm
 Adapazari|Turkey|281489
-Al Rayyan|Qatar|605712
+Al Rayyan|Qatar|605712|Rayyan
 Amol|Iran|237528
 Hakkari|Turkey|60098
 Minab|Iran|73170
 Aksaray|Turkey|253113
-Dogubayazit|Turkey|121263
+Dogubayazit|Turkey|80061
 Khoy|Iran|198845
 Shushtar|Iran|101878
 Kalba|United Arab Emirates|54876
@@ -5207,7 +5206,7 @@ Kut|Iraq|377600|Al-Kut
 Khomeyn|Iran|72882
 Corlu|Turkey|300296
 Ness Ziona|Israel|50200|Nes Ziona
-Sakaka|Saudi Arabia|117063|Sakakah
+Sakaka|Saudi Arabia|204174|Sakakah
 Amarah|Iraq|511500|Al Amarah
 Kiryat Ata|Israel|62354|Qiryat Ata
 Manavgat|Turkey|252941
@@ -5215,7 +5214,7 @@ Masjed Soleyman|Iran|100497|Masjed Soleiman
 Al-Qa'im|Iraq|150000
 Dezful|Iran|264709
 Dortyol|Turkey|128941
-Nigde|Turkey|224289
+Nigde|Turkey|170511
 As-Salt|Jordan|88900
 Damghan|Iran|59106
 Jabalia|Palestine|172704
@@ -5239,7 +5238,7 @@ Semnan|Iran|185129
 Astara|Iran|51579
 Behbahan|Iran|122604
 Nahavand|Iran|76162
-Samawah|Iraq|215000|Al Samawah
+Samawah|Iraq|215000|Al Samawah,Samawa
 Silifke|Turkey|119303
 Zabol|Iran|134950
 Akhisar|Turkey|181472
@@ -5250,7 +5249,6 @@ Ilam|Iran|194030
 Saqqez|Iran|165258
 Shahr-e Kord|Iran|190441|Shahrekord
 Dhamar|Yemen|160114
-Gumushane|Turkey|57269
 Kirsehir|Turkey|150700
 Luleburgaz|Turkey|148037
 Salmas|Iran|127864
@@ -5287,11 +5285,9 @@ Darica|Turkey|201468
 Douma|Syria|400000
 Iranshahr|Iran|113750
 Quchan|Iran|101604
-Zile|Turkey|55673
 Abu Kamal|Syria|52020
-Al-Shahaniya|Qatar|161240
 Jiroft|Iran|130429
-Karadeniz Eregli|Turkey|175605
+Karadeniz Eregli|Turkey|122282
 Maarat al-Numan|Syria|90000|Maarrat al-Numan
 Piranshahr|Iran|91515
 Akcaabat|Turkey|123552
@@ -5303,15 +5299,12 @@ Kiryat Motzkin|Israel|51349|Qiryat Motzkin
 Qaem Shahr|Iran|204953|Ghaemshahr
 Sirjan|Iran|199704
 Tatvan|Turkey|92695
-Al Daayen|Qatar|54339
 Bartin|Turkey|84626
 Birecik|Turkey|95149
 Bukan|Iran|193501
 Eregli|Turkey|145389
 Malayer|Iran|170237
-Niksar|Turkey|64119
 Siverek|Turkey|258265
-Uzunkopru|Turkey|61485
 Yatta|Palestine|63511
 Golcuk|Turkey|162584
 Saveh|Iran|220762
@@ -5339,7 +5332,7 @@ Naqadeh|Iran|81598
 Pardis|Iran|73363
 Polatli|Turkey|125075
 Ar-Ramtha|Jordan|297830|Ramtha
-Biga|Turkey|94112
+Biga|Turkey|57125
 Eslamshahr|Iran|448129|Islamshahr
 Mianeh|Iran|98973
 Najafabad|Iran|235281
@@ -5354,7 +5347,7 @@ Babolsar|Iran|59966
 Bijar|Iran|50014
 Fasa|Iran|110825
 Jahrom|Iran|141634
-Kesan|Turkey|84442
+Kesan|Turkey|64842
 Saravan|Iran|60014
 Shahreza|Iran|134952
 Unye|Turkey|126702
@@ -5371,7 +5364,6 @@ Odemis|Turkey|132511
 A'ali|Bahrain|100533
 Bandar Ganaveh|Iran|73472
 Bandar-e Emam Khomeini|Iran|78353|Bandar Imam Khomeini
-Baskale|Turkey|52544
 Behshahr|Iran|94702
 Jisr ash-Shughur|Syria|112654|Jisr al-Shughur
 Miandoab|Iran|134425
@@ -5397,11 +5389,10 @@ Al-Nabek|Syria|52502
 Baiji|Iraq|60000
 Borazjan|Iran|110567
 Ceylanpinar|Turkey|87684
-Devrek|Turkey|57540
 Khan Shaykhun|Syria|55843
 Malkara|Turkey|52758
 Parand|Iran|97464
-Patnos|Turkey|122833
+Patnos|Turkey|61837
 Qods|Iran|309605|Shahr-e Qods
 Saham|Oman|173055
 Shahr-e Babak|Iran|51620
@@ -5412,7 +5403,7 @@ Al-Shihr|Yemen|68313
 Bonab|Iran|85274
 Cihanbeyli|Turkey|52525
 Erdemli|Turkey|140331
-Kahta|Turkey|122774
+Kahta|Turkey|86232
 Kandira|Turkey|51348
 Kangavar|Iran|51352
 Kapakli|Turkey|142662
@@ -5431,15 +5422,13 @@ Develi|Turkey|65322
 Eslamabad-e Gharb|Iran|90559
 Fardis|Iran|181174
 Talesh|Iran|54178
-Kadirli|Turkey|124053
+Kadirli|Turkey|98469
 Khash|Iran|56584
 Pakdasht|Iran|236319
 Shahinshahr|Iran|173329
-Simav|Turkey|64015
 Islahiye|Turkey|67674
 Aligudarz|Iran|89268
 Andisheh|Iran|116062
-Besni|Turkey|77301
 Bismil|Turkey|117674
 Borujen|Iran|57071
 Bozuyuk|Turkey|74441
@@ -5458,10 +5447,9 @@ Sadra|Iran|91863
 Seydisehir|Turkey|64687
 Shirvan (Iran)|Iran|82689
 Taybad|Iran|56562
-Turhal|Turkey|79916
+Turhal|Turkey|62030
 Vezirkopru|Turkey|95569
 Caldiran|Turkey|63013
-Cermik|Turkey|50812
 Civril|Turkey|59967
 Al-Hajar al-Aswad|Syria|101827
 As-Safira|Syria|106460|Safira
@@ -5471,26 +5459,23 @@ Bozova|Turkey|58565
 Fuladshahr|Iran|88426
 Hassa|Turkey|56409
 Ilgin|Turkey|54622
-Kurtalan|Turkey|59647
 Neka|Iran|60991
 Orhangazi|Turkey|78447
 Qarchak|Iran|231075
 Qorveh|Iran|78276
-Sorgun|Turkey|79314
-Tavsanli|Turkey|101903
+Sorgun|Turkey|55079
+Tavsanli|Turkey|73306
 Cumra|Turkey|66794
 Acipayam|Turkey|54888
 Arbin|Syria|51246
 Aydoun|Jordan|63244|Aidoun
 Balad Ruz|Iraq|100000|Baladruz
-Bulancak|Turkey|66736
 Bulanik|Turkey|80540
 Chenaran|Iran|53879
 Dehdasht|Iran|57036
 Dogonbadan|Iran|96728
 Kahnuj|Iran|52624
 Kamyaran|Iran|57077
-Kozluk|Turkey|61437
 Nazarabad|Iran|119512
 Sandikli|Turkey|56182
 Ozalp|Turkey|65785
@@ -5507,7 +5492,6 @@ Saruhanli|Turkey|54660
 Sayyan|Yemen|69993
 Turkoglu|Turkey|73770
 Zarand|Iran|60370
-Caycuma|Turkey|91569
 Cinar|Turkey|74207
 Balkh|Afghanistan|77000
 Baghlan|Afghanistan|83490
@@ -5524,13 +5508,10 @@ Bayramaly|Turkmenistan|70376
 Bekabad|Uzbekistan|82082|Bekobod
 Satbayev|Kazakhstan|69919|Satpayev
 Konibodom|Tajikistan|54400|Kanibadam
-Magdanly|Turkmenistan|64845|Magdanli
 Sukhumi|Georgia|65146|Sokhumi
-Hrazdan|Armenia|52283
 Yevlakh|Azerbaijan|60000
 Shirvan (Azerbaijan)|Azerbaijan|83500|Sirvan
 Khirdalan|Azerbaijan|100900|Xirdalan
 North Nicosia|Cyprus|61378|Lefkosa
 Strovolos|Cyprus|67904
-Bor (Nigde)|Turkey|60335
 `;

@@ -1817,7 +1817,9 @@ globalThis.WORMILLION_THEMES = {
       'Mali Brijun', 'Zeca', 'Skarda',
       // 2026-09-19 expansion
       'Suluada', 'Gemiler Island', 'Sedir Island', 'Yassi Ada', 'Kara Ada',
-      'Uzunada', 'Orak Island', 'Esek Island', 'Kalem Island'
+      'Uzunada', 'Orak Island', 'Esek Island', 'Kalem Island',
+      // add-theme.mjs
+      'Sican Island'
     ],
     'Greece': [
       'Crete', 'Rhodes', 'Mykonos', 'Santorini', 'Corfu', 'Zakynthos',
