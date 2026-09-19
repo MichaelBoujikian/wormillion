@@ -153,7 +153,7 @@ Nagpur|India|2400000
 Varanasi|India|1200000|Benares,Banaras,Kashi
 Agra|India|1600000
 Amritsar|India|1130000
-Kochi|India|600000|Cochin
+Kochi (India)|India|600000|Cochin
 Karachi|Pakistan|20400000
 Lahore|Pakistan|13000000
 Faisalabad|Pakistan|3700000|Lyallpur
@@ -2059,7 +2059,7 @@ Kirov|Russia|480000
 Tula|Russia|460000
 Ulan-Ude|Russia|440000
 Vladikavkaz|Russia|310000
-Chita|Russia|330000
+Chita (Russia)|Russia|330000
 Vladimir|Russia|340000
 Arkhangelsk|Russia|340000
 Murmansk|Russia|270000
@@ -2938,7 +2938,7 @@ Plantation|United States|91750
 Levittown|United States|51758
 Dothan|United States|71072
 Kirkland|United States|92175
-Chino|United States|91403
+Chino (California)|United States|91403
 Des Plaines|United States|60675
 Lodi|United States|66348
 Royal Oak|United States|58211
@@ -4280,4 +4280,841 @@ Keratsini|Greece|75721
 Korydallos|Greece|61248
 Petroupoli|Greece|60146|Petroupolis
 Brest (Belarus)|Belarus|347138|Brest-Litovsk
+Kaifeng|China|4824016
+Chiba|Japan|975014
+Foshan|China|9498863
+Sejong City|South Korea|391984
+Saitama|Japan|1325843
+Quanzhou|China|8782285
+Shantou|China|5502031
+Wenzhou|China|9572903
+Zhuhai|China|2439585
+Toyota|Japan|422106
+Sokcho|South Korea|79846
+Kitakyushu|Japan|935084
+Yiwu|China|1859390
+Sagamihara|Japan|725696
+Hamamatsu|Japan|788211
+Yokosuka|Japan|390275
+Ordos City|China|2153638
+Yinchuan|China|2859074
+Chaozhou (Guangdong)|China|2568387
+Huizhou|China|6042852
+Dandong|China|2188436
+Yangzhou|China|4559797
+Zhongshan|China|4418060
+Shizuoka|Japan|685589
+Changzhou|China|5278121
+Matsumoto|Japan|239115
+Nyingchi|China|238936
+Okinawa City|Japan|142094
+Yan'an|China|2282581
+Seongnam|South Korea|918771
+Goyang|South Korea|1061929
+Hulunbuir|China|2242875
+Zhanjiang|China|6981236
+Xuzhou|China|9083790
+Yantai|China|7102116
+Jingdezhen|China|1618979
+Hwaseong|South Korea|1004079
+Cheongju|South Korea|848000
+Changwon|South Korea|1009998
+Manzhouli|China|150508
+Rason|North Korea|196954
+Weihai|China|2906548
+Qiqihar|China|4067489
+Gifu|Japan|400118
+Toyama|Japan|413028
+Uijeongbu|South Korea|463324
+Heihe|China|1286401
+Shimonoseki|Japan|252844
+Anyang (Gyeonggi)|South Korea|233172
+Pohang|South Korea|503780
+Pyeongtaek|South Korea|607435
+Shaoxing|China|5270977
+Sakai|Japan|824408
+Miyazaki|Japan|397476
+Nantong|China|7726635
+Xianyang|China|4983340
+Anyang (Henan)|China|5477614
+Zhoushan City|China|1157817
+Tangshan|China|7717983
+Geoje City|South Korea|231353
+Kure|Japan|212159
+Linyi|China|11018365
+Jiangmen|China|4798090
+Jieyang|China|5577814
+Paju|South Korea|497775
+Nishinomiya|Japan|487010
+Andong|South Korea|153131
+Utsunomiya|Japan|518197
+Mokpo|South Korea|214701
+Nampo|North Korea|366815
+Baoding|China|11544036
+Baotou|China|2709378
+Zhangjiakou|China|4118908
+Zhangzhou|China|5054328
+Handan|China|9413990
+Taizhou (Zhejiang)|China|6622888
+Machida|Japan|434414
+Wuhu|China|3644420
+Anshan|China|3325372
+Mito|Japan|270445
+Ansan|South Korea|623256
+Hami|China|673383
+Bucheon|South Korea|772450
+Yongin|South Korea|1084817
+Kashima|Japan|67001
+Yichang|China|3762407
+Jiaxing|China|5400868
+Uji|Japan|179626
+Xiangyang|China|5260951
+Tottori|Japan|187323
+Cheonan|South Korea|656583
+Kasukabe|Japan|228975
+Zhenjiang|China|3210418
+Chengde|China|3354444
+Takamatsu|Japan|417814
+Wakayama|Japan|353299
+Liuzhou|China|4157934
+Qinhuangdao|China|3107400
+Fukui|Japan|261474
+Jinju|South Korea|341545
+Leshan|China|3160168
+Hyesan|North Korea|192680
+Ichikawa|Japan|495768
+Jinhua|China|7050683
+Tsukuba|Japan|246647
+Sado City|Japan|54304
+Asan|South Korea|319929
+Jilin City|China|3623713
+Jiujiang|China|4600276
+Meizhou|China|3873239
+Putian|China|3210714
+Sasebo|Japan|242664
+Ishinomaki|Japan|138856
+Seogwipo|South Korea|183858
+Yamaguchi|Japan|193761
+Ganzhou|China|8970014
+Jingzhou|China|5231180
+Shangqiu|China|7816831
+Suzuka|Japan|195250
+Wonju|South Korea|330854
+Xuchang|China|4379998
+Kofu|Japan|187144
+Lianyungang|China|4599360
+Narita|Japan|130689
+Yeosu|South Korea|273761
+Oita|Japan|477186
+Nagqu|China|504838
+Weifang|China|9386705
+Fujisawa|Japan|436744
+Karamay|China|487000
+Hachioji|Japan|575721
+Matsue|Japan|201802
+Zunyi|China|6606675
+Chifeng|China|4035967
+Huzhou|China|3367579
+Takarazuka|Japan|224055
+Zibo|China|4704138
+Kurashiki|Japan|474862
+Huai'an|China|4556230
+Ise|Japan|122432
+Iwakuni|Japan|128401
+Jiuquan|China|1055706
+Nanyang|China|9713112
+Golmud|China|221863
+Kushiro|Japan|165699
+Zhaoqing|China|4113594
+Jinzhou|China|2703853
+Namyangju|South Korea|732086
+Okazaki|Japan|385376
+Onomichi|Japan|130143
+Tokushima|Japan|254510
+Tonghua|China|1812114
+Zhangye|China|1131016
+Fushun|China|1861372
+Gunpo|South Korea|270443
+Hanzhong|China|3211462
+Pu'er City|China|2404954
+Gunsan|South Korea|275155
+Kawaguchi|Japan|593900
+Maebashi|Japan|331849
+Musashino|Japan|148971
+Tenri|Japan|61471
+Tokorozawa|Japan|341289
+Tomakomai|Japan|170223
+Ulanqab|China|1706328
+Kawagoe|Japan|354598
+Suncheon|South Korea|265390
+Tsu|Japan|273267
+Yancheng|China|6709629
+Miyako|Japan|50855
+Nagaoka|Japan|265868
+Ningde|China|3146789
+Beihai|China|1853227
+Chamdo|China|760966
+Fuxin|China|1647280
+Gimhae|South Korea|534124
+Yibin|China|4588804
+Yulin (Guangxi)|China|5796766
+Aizuwakamatsu|Japan|117924
+Changde|China|5279102
+Kashihara|Japan|119146
+Funabashi|Japan|641499
+Langfang|China|5464087
+Mudanjiang|China|2290208
+Anqing|China|4165284
+Ashiya|Japan|94116
+Daqing|China|2781562
+Icheon|South Korea|209003
+Mianyang|China|4868243
+Tongyeong|South Korea|116924
+Xinxiang|China|6251929
+Fuchu|Japan|263093
+Fukuyama|Japan|459576
+Gimpo|South Korea|352683
+Haeju|North Korea|273300
+Iwaki|Japan|336111
+Miyakojima City|Japan|52390
+Naruto|Japan|55264
+Tai'an|China|5472217
+Toyohashi|Japan|371507
+Hirosaki|Japan|167803
+Izumo|Japan|171995
+Qingyuan|China|3969473
+Shaoguan|China|2855131
+Taizhou (Jiangsu)|China|4512762
+Ezhou|China|1079353
+Hengyang|China|6645243
+Mitaka|Japan|194460
+Quzhou|China|2276184
+Ube|Japan|162873
+Chitose|Japan|97945
+Jining|China|8357897
+Nisshin|Japan|92823
+Odawara|Japan|189038
+Takasaki|Japan|372639
+Hachinohe|Japan|222799
+Joetsu|Japan|187291
+Kashiwa|Japan|427603
+Liaoyang|China|1604580
+Misato|Japan|141913
+Tongliao|China|2873168
+Yokkaichi|Japan|310263
+Amagasaki|Japan|455555
+Chungju|South Korea|207839
+Iga|Japan|85883
+Jiamusi|China|2156505
+Miryang|South Korea|99425
+Cangzhou|China|7300783
+Fuqing|China|1390487
+Koganei|Japan|127226
+Saga|Japan|232359
+Yueyang|China|5051922
+Hanam|South Korea|329822
+Hitachi|Japan|172709
+Huangshan City|China|1330565
+Kitahiroshima|Japan|58125
+Luzhou|China|4254149
+Obihiro|Japan|165684
+Shangrao|China|6491088
+Shanwei|China|2738482
+Oshu|Japan|112531
+Bengbu|China|3296408
+Fangchenggang|China|1046068
+Fuji|Japan|243739
+Gwacheon|South Korea|85132
+Komatsu|Japan|106023
+Rizhao|China|2968365
+Sariwon|North Korea|307764
+Shannan|China|354035
+Wuzhou|China|2820977
+Xinyang|China|6234401
+Ota|Japan|222806
+Tachikawa|Japan|181115
+Urayasu|Japan|169749
+Yuxi|China|2249502
+Zama|Japan|130753
+Chichibu|Japan|59326
+Gongju|South Korea|102960
+Iksan|South Korea|270758
+Iwata|Japan|165688
+Lishui|China|2507396
+Longyan|China|2723637
+Mishima|Japan|107416
+Yingkou|China|2328582
+Tianshui|China|2984659
+Ya'an|China|1434603
+Baoji|China|3321853
+Baoshan|China|2431211
+Imabari|Japan|149209
+Kanggye|North Korea|251971
+Maoming|China|6174050
+Pyongsong|North Korea|236583
+Shiyan|China|3209004
+Yulin (Shaanxi)|China|3624750
+Chofu|Japan|240359
+Panzhihua|China|1212203
+Guri|South Korea|180063
+Nanping|China|2680645
+Wuwei|China|1464955
+Yongzhou|China|5289824
+Akashi|Japan|299699
+Dezhou|China|5611194
+Gwangmyeong|South Korea|318021
+Ichinomiya|Japan|378108
+Kariya|Japan|153178
+Kurume|Japan|302858
+Numazu|Japan|187653
+Xiangtan|China|2726181
+Zhuzhou|China|3902738
+Gumi|South Korea|421075
+Gwangyang|South Korea|152160
+Hikone|Japan|113191
+Kitami|Japan|115441
+Shaoyang|China|6563520
+Suita|Japan|384953
+Zhumadian|China|7008427
+Zigong|China|2489256
+Ashikaga|Japan|142882
+Baise|China|3571505
+Hegang|China|891271
+Heze|China|8795939
+Hirakata|Japan|396694
+Kiryu|Japan|95894
+Koriyama|Japan|327040
+Ma'anshan|China|2159930
+Yangsan|South Korea|297532
+Zhaotong|China|5092611
+Chenzhou|China|4667134
+Dongducheon|South Korea|97424
+Dongying|China|2193518
+Fujinomiya|Japan|127252
+Guang'an|China|3254883
+Kimchaek|North Korea|207299
+Maizuru|Japan|78730
+Muroran|Japan|81580
+Nago|Japan|63060
+Sanmenxia|China|2034872
+Xingtai|China|7111106
+Yuncheng|China|4774508
+Zhoukou|China|9026015
+Dazaifu|Japan|72430
+Fuyang|China|8200264
+Gotemba|Japan|86334
+Ito|Japan|64473
+Linfen|China|3976481
+Qinzhou|China|3302238
+Qujing|China|5765775
+Tahara|Japan|59015
+Tsuruga|Japan|63724
+Yangjiang|China|2602959
+Changzhi|China|3180884
+Gimcheon|South Korea|135076
+Hoeryong|North Korea|153532
+Huanggang|China|5882719
+Nanchong|China|5607565
+Sakata|Japan|99235
+Sakura|Japan|169059
+Seki|Japan|85636
+Suqian|China|4986192
+Tosu|Japan|74673
+Anseong|South Korea|193220
+Bozhou|China|4996844
+Hita|Japan|61755
+Huaihua|China|4587594
+Huludao|China|2434194
+Kiyosu|Japan|69809
+Liaocheng|China|5952128
+Naju|South Korea|92582
+Osan|South Korea|229792
+Pingdingshan|China|4987137
+Seosan|South Korea|169221
+Takaoka|Japan|165880
+Tongren|China|3298468
+Ueda|Japan|152948
+Atsugi|Japan|223815
+Bayannur|China|1538715
+Boryeong|South Korea|101852
+Chongzuo|China|2088692
+Dangjin|South Korea|163762
+Higashiosaka|Japan|490819
+Huainan|China|3033528
+Jecheon|South Korea|129066
+Kadoma|Japan|118319
+Mutsu|Japan|53767
+Pocheon|South Korea|163388
+Tama|Japan|147252
+Uruma|Japan|122371
+Usa City|Japan|52767
+Anjo|Japan|188801
+Baishan|China|968373
+Benxi|China|1326018
+Chuzhou|China|3987054
+Fuefuki|Japan|67396
+Guangyuan|China|2305657
+Hiratsuka|Japan|257662
+Hitachinaka|Japan|154311
+Liupanshui|China|3031602
+Lu'an|China|4393699
+Siheung|South Korea|514274
+Uiwang|South Korea|154879
+Weinan|China|4688744
+Ome|Japan|132436
+Anju|North Korea|240117
+Chaoyang|China|2872857
+Danzhou|China|954259
+Heyuan|China|2837686
+Karatsu|Japan|116052
+Koka|Japan|88538
+Lincang|China|2257991
+Longnan|China|2407272
+Nagahama|Japan|113740
+Nonsan|South Korea|115925
+Panjin|China|1389691
+Siping|China|1814733
+Omihachiman|Japan|81545
+Anshun|China|2470630
+Deyang|China|3456161
+Heshan|China|530684
+Hino|Japan|190598
+Jincheng|China|2194545
+Kitakami|Japan|92348
+Komaki|Japan|147897
+Puyang|China|3772088
+Sacheon|South Korea|113335
+Sangju|South Korea|102892
+Sanming|China|2486450
+Yamato|Japan|239146
+Yeoju|South Korea|114167
+Zushi|Japan|56996
+Bijie|China|6899636
+Echizen|Japan|80264
+Fukuroi|Japan|86851
+Ibaraki|Japan|283835
+Jixi|China|1502060
+Kaga|Japan|62997
+Kasugai|Japan|306449
+Kyotango|Japan|50857
+Matsudo|Japan|497514
+Meishan|China|2955219
+Mungyeong|South Korea|71863
+Sakurai|Japan|53716
+Samcheok|South Korea|69509
+Toyokawa|Japan|183965
+Tsuchiura|Japan|137825
+Urasoe|Japan|115855
+Wuhai|China|556621
+Yichun (Heilongjiang)|China|878881
+Yonezawa|Japan|80795
+Zaozhuang|China|3855601
+Asahi|Japan|63507
+Fussa|Japan|56713
+Hengshui|China|4212933
+Huangshi|China|2469079
+Iida|Japan|96642
+Ikeda|Japan|104148
+Kameoka|Japan|85962
+Kisarazu|Japan|136118
+Kishiwada|Japan|188015
+Kuwana|Japan|138798
+Noda|Japan|152227
+Puli|Taiwan|75672
+Takatsuki|Japan|347496
+Tsuyama|Japan|99410
+Xuancheng|China|2500063
+Yanagawa|Japan|64120
+Yatsushiro|Japan|122134
+Amakusa City|Japan|74861
+Binzhou|China|3928568
+Chigasaki|Japan|242347
+Gimje|South Korea|81644
+Ichihara|Japan|268038
+Jiaozuo|China|3521078
+Kakamigahara|Japan|143641
+Kodaira|Japan|196959
+Tanchon|North Korea|345875
+Tieling|China|2388294
+Uwajima|Japan|69639
+Warabi|Japan|74996
+Xinzhou|China|2689668
+Yangju|South Korea|285930
+Yichun (Jiangxi)|China|5007702
+Yonago|Japan|147210
+Chongju|North Korea|189742
+Dazhou|China|5385422
+Fujioka|Japan|62608
+Haidong|China|1358471
+Isesaki|Japan|210332
+Itami|Japan|198522
+Kaechon|North Korea|319554
+Kesennuma|Japan|59341
+Kirishima|Japan|123812
+Luohe|China|2367490
+Marugame|Japan|109165
+Minoh|Japan|136976
+Namwon|South Korea|80499
+Niihama|Japan|114971
+Oyama|Japan|167874
+Seto|Japan|127327
+Tanabe|Japan|68986
+Tokoname|Japan|57507
+Toyonaka|Japan|399263
+Toyooka|Japan|77005
+Yunfu|China|2383350
+Abiko|Japan|130290
+Bole|China|246706
+Choshi|Japan|54570
+Donghae|South Korea|90255
+Ginowan|Japan|99256
+Gyeongsan|South Korea|264754
+Hanamaki|Japan|92815
+Handa|Japan|117544
+Hechi|China|3417945
+Inuyama|Japan|72926
+Jeongeup|South Korea|110194
+Jingmen|China|2596927
+Kokubunji|Japan|129619
+Koshigaya|Japan|341784
+Luliang|China|3398431
+Manpo|North Korea|116760
+Nanao|Japan|50207
+Neijiang|China|3140678
+Pingxiang|China|1804805
+Tochigi|Japan|153508
+Tongling|China|1311726
+Ushiku|Japan|84505
+Xianning|China|2658316
+Yiyang|China|3851564
+Yongkang|China|964203
+Ogaki|Japan|158386
+Ankang|China|2493436
+Baicheng|China|1551378
+Chizhou|China|1342764
+Gamagori|Japan|79292
+Guyuan|China|1142142
+Hadano|Japan|164292
+Hezhou|China|2007858
+Higashihiroshima|Japan|197347
+Imari|Japan|52694
+Ishikari|Japan|58284
+Izumisano|Japan|99328
+Kakegawa|Japan|113954
+Kakogawa|Japan|260595
+Kashiwazaki|Japan|81027
+Kumagaya|Japan|193190
+Qionghai|China|528238
+Saijo|Japan|103760
+Saku|Japan|98292
+Sano|Japan|114842
+Shiojiri|Japan|66181
+Suihua|China|3756167
+Tsuruoka|Japan|121371
+Yao|Japan|264913
+Yeongcheon|South Korea|95730
+Omura|Japan|95590
+Asaka|Japan|143915
+Baiyin|China|1512110
+Ebina|Japan|135557
+Higashimurayama|Japan|150458
+Huaibei|China|1970265
+Hofu|Japan|113170
+Ikoma|Japan|116518
+Itoshima|Japan|98527
+Jinzhong|China|3379498
+Kanoya|Japan|100880
+Kanuma|Japan|94591
+Kosai|Japan|57682
+Kunitachi|Japan|75133
+Kyotanabe|Japan|73985
+Liaoyuan|China|996903
+Loudi|China|3826996
+Lukang|Taiwan|81971
+Nagakute|Japan|62473
+Nishitokyo|Japan|207436
+Qingyang|China|2179716
+Sennan|Japan|59634
+Shangluo|China|2041231
+Shuangyashan|China|1208803
+Shuozhou|China|1593444
+Ulanhot|China|356035
+Wako|Japan|84120
+Yeongju|South Korea|109266
+Odate|Japan|68593
+Omuta|Japan|110054
+Dingxi|China|2524097
+Guigang|China|4316262
+Hakusan|Japan|110135
+Hatsukaichi|Japan|114699
+Huichon|North Korea|168180
+Hyuga|Japan|59276
+Iwamizawa|Japan|79361
+Kusatsu|Japan|143230
+Kusong|North Korea|196515
+Miki|Japan|74255
+Minami-Alps|Japan|69642
+Musashimurayama|Japan|71183
+Nakatsugawa|Japan|75500
+Nasushiobara|Japan|115602
+Neyagawa|Japan|227997
+Pingliang|China|1848607
+Satsumasendai|Japan|91875
+Sinpo|North Korea|152759
+Suining|China|2814196
+Tongxiang|China|1029754
+Yangquan|China|1318505
+Zhongwei|China|1067336
+Akiruno|Japan|79600
+Chaozhou (Pingtung)|Taiwan|53665
+Ebetsu|Japan|119819
+Fukuchiyama|Japan|77150
+Hebi|China|1565973
+Ichinoseki|Japan|111824
+Iizuka|Japan|126136
+Ina|Japan|65670
+Itoman|Japan|60903
+Kawanishi|Japan|152076
+Kuki|Japan|150197
+Luodong|Taiwan|68639
+Mihara|Japan|89972
+Murakami|Japan|56713
+Nishio|Japan|168992
+Sanjo|Japan|93671
+Sayama|Japan|148474
+Suizhou|China|2047923
+Tongchuan|China|698322
+Xiaogan|China|4270371
+Xinyu|China|1202499
+Yachiyo|Japan|200538
+Yamatokoriyama|Japan|81494
+Ziyang|China|2308631
+Akishima|Japan|112110
+Daisen|Japan|76164
+Fujieda|Japan|140947
+Goshogawara|Japan|50757
+Hamada|Japan|53753
+Hamura|Japan|53970
+Isahaya|Japan|133512
+Izumi (Kagoshima)|Japan|51893
+Jinchang|China|438026
+Kiyose|Japan|75389
+Koga (Ibaraki)|Japan|138237
+Liyang|China|785092
+Matsusaka|Japan|158472
+Miaoli|Taiwan|85546
+Muko|Japan|56152
+Nakatsu|Japan|82714
+Nichinan|Japan|50518
+Niiza|Japan|165997
+Nobeoka|Japan|117711
+Qianjiang|China|830900
+Sabae|Japan|68666
+Shibata|Japan|94258
+Shibukawa|Japan|73064
+Shimada|Japan|95198
+Shunan|Japan|137899
+Songyuan|China|2252994
+Tamana|Japan|64206
+Tendo|Japan|61981
+Tomigusuku|Japan|64850
+Tsubame|Japan|76590
+Tokai|Japan|113144
+Uki|Japan|57096
+Wuzhong|China|1382713
+Yokote|Japan|84556
+Osaki|Japan|127135
+Azumino|Japan|93927
+Bazhong|China|2712894
+Date|Japan|58232
+Eniwa|Japan|70102
+Inagi|Japan|94409
+Izumi (Osaka)|Japan|184299
+Kamisu|Japan|95471
+Miyakonojo|Japan|160392
+Nabari|Japan|75942
+Nagaokakyo|Japan|80423
+Narashino|Japan|174990
+Natori|Japan|79250
+Qitaihe|China|689611
+Saiki|Japan|66497
+Sanda|Japan|109243
+Shiogama|Japan|51999
+Sukagawa|Japan|74778
+Sunchon|North Korea|437000
+Tajimi|Japan|106746
+Tamba|Japan|60824
+Tatebayashi|Japan|73991
+Tatsuno|Japan|73952
+Yame|Japan|60196
+Ayase|Japan|84257
+Hashimoto|Japan|60058
+Inazawa|Japan|134938
+Kai|Japan|75337
+Kan'onji|Japan|56639
+Kasuga|Japan|111144
+Katori|Japan|71391
+Kimitsu|Japan|81355
+Komae|Japan|84437
+Kudamatsu|Japan|56661
+Laibin|China|2074611
+Minamiuonuma|Japan|54820
+Miyoshi (Hiroshima)|Japan|50046
+Mooka|Japan|78665
+Moriguchi|Japan|141849
+Nagareyama|Japan|200298
+Shirakawa|Japan|59044
+Soka|Japan|251390
+Toda|Japan|142352
+Tokchon|North Korea|237133
+Tome|Japan|76164
+Towada|Japan|60063
+Tsushima City|Japan|60908
+Wafangdian|China|905082
+Xinghua|China|1128204
+Yasu|Japan|50049
+Yawata|Japan|70373
+Yingtan|China|1154223
+Ageo|Japan|226616
+Anan|Japan|69259
+Annaka|Japan|54607
+Chikuma|Japan|58755
+Higashiomi|Japan|112459
+Inzai|Japan|103084
+Iruma|Japan|145303
+Kasama|Japan|73521
+Kawachinagano|Japan|100415
+Kinokawa|Japan|58130
+Kurihara|Japan|63689
+Mizuho|Japan|56106
+Moriya|Japan|68992
+Munakata|Japan|97041
+Naka|Japan|53035
+Nihonmatsu|Japan|54447
+Ritto|Japan|69598
+Sakai (Fukui)|Japan|87945
+Sakaide|Japan|50577
+Shikokuchuo|Japan|82320
+Shimotsuke|Japan|59404
+Shizuishan|China|751389
+Tamano|Japan|56431
+Toki|Japan|55388
+Toride|Japan|103908
+Yaizu|Japan|136028
+Aira|Japan|77948
+Aisai|Japan|60914
+Bando|Japan|51511
+Fujimi|Japan|111858
+Fukaya|Japan|140930
+Gyoda|Japan|78488
+Habikino|Japan|108370
+Hanno|Japan|80099
+Hekinan|Japan|72480
+Higashikurume|Japan|116477
+Hukou|Taiwan|85112
+Isehara|Japan|102088
+Ishioka|Japan|71851
+Izumiotsu|Japan|74175
+Zhunan|Taiwan|91564
+Joyo|Japan|74356
+Kazo|Japan|110622
+Koga (Fukuoka)|Japan|59349
+Konan (Aichi)|Japan|97435
+Minamisoma|Japan|52619
+Mitoyo|Japan|61838
+Mobara|Japan|86446
+Moriyama|Japan|83567
+Nogata|Japan|55705
+Ryugasaki|Japan|76055
+Settsu|Japan|86168
+Shangzhi|China|463358
+Songrim|North Korea|128831
+Soja|Japan|68551
+Takasago|Japan|87220
+Yurihonjo|Japan|73840
+Obu|Japan|92562
+Otawara|Japan|72923
+Ama|Japan|87668
+Chiryu|Japan|71907
+Daito|Japan|118812
+Honjo|Japan|76757
+Huwei|Taiwan|71212
+Imizu|Japan|90201
+Jingshan|China|544843
+Kamagaya|Japan|109370
+Kani|Japan|99545
+Kizugawa|Japan|78035
+Koshi|Japan|61997
+Longgang|China|464732
+Matsubara|Japan|117186
+Minokamo|Japan|57007
+Munchon|North Korea|122934
+Nakagawa|Japan|50201
+San'yo-Onoda|Japan|59648
+Tagajo|Japan|61937
+Tianchang|China|603780
+Tondabayashi|Japan|108735
+Xiaguan|China|146517
+Yoshikawa|Japan|72139
+Arao|Japan|50570
+Bayanhot|China|94445
+Chikushino|Japan|103185
+Fujimino|Japan|113490
+Hashima City|Japan|66312
+Hidaka|Japan|54728
+Higashimatsuyama|Japan|91818
+Higashiyamato|Japan|84260
+Holingol|China|138676
+Zhudong|Taiwan|97796
+Kaizuka|Japan|84356
+Konan (Shiga)|Japan|54392
+Miyoshi (Aichi)|Japan|62963
+Ogori|Japan|58322
+Shiki|Japan|75247
+Xinfeng|Taiwan|60030
+Sodegaura|Japan|63975
+Toyoake|Japan|69389
+Yotsukaido|Japan|93233
+Yukuhashi|Japan|70922
+Yuki|Japan|50218
+Chikusei|Japan|98384
+Hanyu|Japan|52740
+Joso|Japan|59223
+Kashiba|Japan|78346
+Kashiwara|Japan|67757
+Katano|Japan|76002
+Kitanagoya|Japan|86060
+Konosu|Japan|116777
+Nonoichi|Japan|57090
+Okegawa|Japan|74115
+Owariasahi|Japan|82336
+Shiroi|Japan|61673
+Takaishi|Japan|55910
+Takizawa|Japan|56050
+Tsurugashima|Japan|70067
+Togane|Japan|57560
+Yachimata|Japan|66430
+Yamatotakada|Japan|60791
+Yashio|Japan|93283
+Onojo|Japan|101603
+Caotun|Taiwan|98077
+Dashiqiao|China|607098
+Fujiidera|Japan|63338
+Fukutsu|Japan|65770
+Gujiao|China|210757
+Hasuda|Japan|61473
+Hemei|Taiwan|86276
+Iwade|Japan|53714
+Ji'an|Taiwan|82838
+Kitamoto|Japan|65191
+Shijonawate|Japan|55094
+Shiraoka|Japan|52103
+Tomiya|Japan|51859
+Tsukubamirai|Japan|51134
+Kochi (Japan)|Japan|325535|Kochi City
+Gwangju (Gyeonggi)|South Korea|397269
+Suzhou (Anhui)|China|5324476
+Fuzhou (Jiangxi)|China|3614866
+Chino (Nagano)|Japan|55018
+Chita (Aichi)|Japan|83881
 `;

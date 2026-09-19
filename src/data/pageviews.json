@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T07:48:38.429Z",
+ "fetched": "2026-09-19T08:21:04.924Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -3714,7 +3714,7 @@
    "lat": 31.64,
    "lon": 74.86
   },
-  "city-kochi": {
+  "city-kochi-india": {
    "title": "Kochi",
    "monthlyViews": 18903,
    "days": 59,
@@ -17056,7 +17056,7 @@
    "lat": 43.04,
    "lon": 44.6775
   },
-  "city-chita": {
+  "city-chita-russia": {
    "title": "Chita, Zabaykalsky Krai",
    "monthlyViews": 5571,
    "days": 60,
@@ -23209,7 +23209,7 @@
    "lat": 47.7,
    "lon": -122.225
   },
-  "city-chino": {
+  "city-chino-california": {
    "title": "Chino, California",
    "monthlyViews": 6697,
    "days": 60,
@@ -32602,6 +32602,5865 @@
    "days": 60,
    "lat": 52.13472222,
    "lon": 23.65694444
+  },
+  "city-kaifeng": {
+   "title": "Kaifeng",
+   "monthlyViews": 11628,
+   "days": 60,
+   "lat": 34.795,
+   "lon": 114.345
+  },
+  "city-chiba": {
+   "title": "Chiba (city)",
+   "monthlyViews": 8797,
+   "days": 60,
+   "lat": 35.60727778,
+   "lon": 140.10636111
+  },
+  "city-foshan": {
+   "title": "Foshan",
+   "monthlyViews": 8584,
+   "days": 60,
+   "lat": 23.0214,
+   "lon": 113.1216
+  },
+  "city-sejong-city": {
+   "title": "Sejong City",
+   "monthlyViews": 8158,
+   "days": 60,
+   "lat": 36.48694444,
+   "lon": 127.28222222
+  },
+  "city-saitama": {
+   "title": "Saitama (city)",
+   "monthlyViews": 7306,
+   "days": 60,
+   "lat": 35.86138889,
+   "lon": 139.64555556
+  },
+  "city-quanzhou": {
+   "title": "Quanzhou",
+   "monthlyViews": 7214,
+   "days": 60,
+   "lat": 24.8744,
+   "lon": 118.6757
+  },
+  "city-shantou": {
+   "title": "Shantou",
+   "monthlyViews": 7093,
+   "days": 60,
+   "lat": 23.354,
+   "lon": 116.682
+  },
+  "city-wenzhou": {
+   "title": "Wenzhou",
+   "monthlyViews": 7062,
+   "days": 60,
+   "lat": 27.9938,
+   "lon": 120.6993
+  },
+  "city-zhuhai": {
+   "title": "Zhuhai",
+   "monthlyViews": 6849,
+   "days": 60,
+   "lat": 22.2742,
+   "lon": 113.5719
+  },
+  "city-toyota": {
+   "title": "Toyota, Aichi",
+   "monthlyViews": 6332,
+   "days": 60,
+   "lat": 35.08244444,
+   "lon": 137.15633333
+  },
+  "city-sokcho": {
+   "title": "Sokcho",
+   "monthlyViews": 6179,
+   "days": 60,
+   "lat": 38.20694444,
+   "lon": 128.59194444
+  },
+  "city-kitakyushu": {
+   "title": "Kitakyushu",
+   "monthlyViews": 5875,
+   "days": 60,
+   "lat": 33.88333333,
+   "lon": 130.88333333
+  },
+  "city-yiwu": {
+   "title": "Yiwu",
+   "monthlyViews": 5753,
+   "days": 60,
+   "lat": 29.30694444,
+   "lon": 120.07527778
+  },
+  "city-sagamihara": {
+   "title": "Sagamihara",
+   "monthlyViews": 5571,
+   "days": 60,
+   "lat": 35.56666667,
+   "lon": 139.36666667
+  },
+  "city-hamamatsu": {
+   "title": "Hamamatsu",
+   "monthlyViews": 5327,
+   "days": 60,
+   "lat": 34.71083333,
+   "lon": 137.7275
+  },
+  "city-yokosuka": {
+   "title": "Yokosuka",
+   "monthlyViews": 5327,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "city-ordos-city": {
+   "title": "Ordos City",
+   "monthlyViews": 5297,
+   "days": 60,
+   "lat": 39.604,
+   "lon": 109.785
+  },
+  "city-yinchuan": {
+   "title": "Yinchuan",
+   "monthlyViews": 5297,
+   "days": 60,
+   "lat": 38.485,
+   "lon": 106.225
+  },
+  "city-chaozhou-guangdong": {
+   "title": "Chaozhou",
+   "monthlyViews": 5144,
+   "days": 60,
+   "lat": 23.658,
+   "lon": 116.622
+  },
+  "city-huizhou": {
+   "title": "Huizhou",
+   "monthlyViews": 5144,
+   "days": 60,
+   "lat": 23.112,
+   "lon": 114.416
+  },
+  "city-dandong": {
+   "title": "Dandong",
+   "monthlyViews": 4901,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-yangzhou": {
+   "title": "Yangzhou",
+   "monthlyViews": 4840,
+   "days": 60,
+   "lat": 32.3944,
+   "lon": 119.4128
+  },
+  "city-zhongshan": {
+   "title": "Zhongshan",
+   "monthlyViews": 4749,
+   "days": 60,
+   "lat": 22.517,
+   "lon": 113.3925
+  },
+  "city-shizuoka": {
+   "title": "Shizuoka (city)",
+   "monthlyViews": 4718,
+   "days": 60,
+   "lat": 34.97555556,
+   "lon": 138.38277778
+  },
+  "city-changzhou": {
+   "title": "Changzhou",
+   "monthlyViews": 4657,
+   "days": 60,
+   "lat": 31.811,
+   "lon": 119.974
+  },
+  "city-matsumoto": {
+   "title": "Matsumoto, Nagano",
+   "monthlyViews": 4596,
+   "days": 60,
+   "lat": 36.238,
+   "lon": 137.97197222
+  },
+  "city-nyingchi": {
+   "title": "Nyingchi",
+   "monthlyViews": 4536,
+   "days": 60,
+   "lat": 29.6488,
+   "lon": 94.3614
+  },
+  "city-okinawa-city": {
+   "title": "Okinawa (city)",
+   "monthlyViews": 4536,
+   "days": 60,
+   "lat": 26.33416667,
+   "lon": 127.80555556
+  },
+  "city-yan-an": {
+   "title": "Yan'an",
+   "monthlyViews": 4536,
+   "days": 60,
+   "lat": 36.65,
+   "lon": 109.494
+  },
+  "city-seongnam": {
+   "title": "Seongnam",
+   "monthlyViews": 4505,
+   "days": 60,
+   "lat": 37.43333333,
+   "lon": 127.15
+  },
+  "city-goyang": {
+   "title": "Goyang",
+   "monthlyViews": 4475,
+   "days": 60,
+   "lat": 37.65,
+   "lon": 126.8
+  },
+  "city-hulunbuir": {
+   "title": "Hulunbuir",
+   "monthlyViews": 4292,
+   "days": 60,
+   "lat": 49.2072,
+   "lon": 119.7711
+  },
+  "city-zhanjiang": {
+   "title": "Zhanjiang",
+   "monthlyViews": 4292,
+   "days": 60,
+   "lat": 21.2701,
+   "lon": 110.3575
+  },
+  "city-xuzhou": {
+   "title": "Xuzhou",
+   "monthlyViews": 4018,
+   "days": 60,
+   "lat": 34.265,
+   "lon": 117.187
+  },
+  "city-yantai": {
+   "title": "Yantai",
+   "monthlyViews": 4018,
+   "days": 60,
+   "lat": 37.4646,
+   "lon": 121.4478
+  },
+  "city-jingdezhen": {
+   "title": "Jingdezhen",
+   "monthlyViews": 3957,
+   "days": 60,
+   "lat": 29.2917,
+   "lon": 117.1986
+  },
+  "city-hwaseong": {
+   "title": "Hwaseong, Gyeonggi",
+   "monthlyViews": 3927,
+   "days": 60,
+   "lat": 37.18055556,
+   "lon": 126.82638889
+  },
+  "city-cheongju": {
+   "title": "Cheongju",
+   "monthlyViews": 3805,
+   "days": 60,
+   "lat": 36.63333333,
+   "lon": 127.48333333
+  },
+  "city-changwon": {
+   "title": "Changwon",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 35.27083333,
+   "lon": 128.66305556
+  },
+  "city-manzhouli": {
+   "title": "Manzhouli",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 49.598,
+   "lon": 117.379
+  },
+  "city-rason": {
+   "title": "Rason",
+   "monthlyViews": 3683,
+   "days": 60,
+   "lat": 42.34444444,
+   "lon": 130.38444444
+  },
+  "city-weihai": {
+   "title": "Weihai",
+   "monthlyViews": 3653,
+   "days": 60,
+   "lat": 37.5133,
+   "lon": 122.1205
+  },
+  "city-qiqihar": {
+   "title": "Qiqihar",
+   "monthlyViews": 3622,
+   "days": 60,
+   "lat": 47.3549,
+   "lon": 123.9182
+  },
+  "city-gifu": {
+   "title": "Gifu",
+   "monthlyViews": 3440,
+   "days": 60,
+   "lat": 35.42322222,
+   "lon": 136.76077778
+  },
+  "city-toyama": {
+   "title": "Toyama (city)",
+   "monthlyViews": 3409,
+   "days": 60,
+   "lat": 36.69591667,
+   "lon": 137.21369444
+  },
+  "city-uijeongbu": {
+   "title": "Uijeongbu",
+   "monthlyViews": 3379,
+   "days": 59,
+   "lat": 37.74861111,
+   "lon": 127.03888889
+  },
+  "city-heihe": {
+   "title": "Heihe",
+   "monthlyViews": 3318,
+   "days": 60,
+   "lat": 50.2401,
+   "lon": 127.521
+  },
+  "city-shimonoseki": {
+   "title": "Shimonoseki",
+   "monthlyViews": 3227,
+   "days": 60,
+   "lat": 33.95777778,
+   "lon": 130.94138889
+  },
+  "city-anyang-gyeonggi": {
+   "title": "Anyang, Gyeonggi",
+   "monthlyViews": 3135,
+   "days": 60,
+   "lat": 37.38333333,
+   "lon": 126.93333333
+  },
+  "city-pohang": {
+   "title": "Pohang",
+   "monthlyViews": 3135,
+   "days": 60,
+   "lat": 36.03222222,
+   "lon": 129.365
+  },
+  "city-pyeongtaek": {
+   "title": "Pyeongtaek",
+   "monthlyViews": 3135,
+   "days": 60,
+   "lat": 36.992236,
+   "lon": 127.112821
+  },
+  "city-shaoxing": {
+   "title": "Shaoxing",
+   "monthlyViews": 3135,
+   "days": 60,
+   "lat": 30.0511,
+   "lon": 120.5833
+  },
+  "city-sakai": {
+   "title": "Sakai",
+   "monthlyViews": 3044,
+   "days": 60,
+   "lat": 34.57333333,
+   "lon": 135.48305556
+  },
+  "city-miyazaki": {
+   "title": "Miyazaki (city)",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 31.90777778,
+   "lon": 131.42027778
+  },
+  "city-nantong": {
+   "title": "Nantong",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 31.981,
+   "lon": 120.894
+  },
+  "city-xianyang": {
+   "title": "Xianyang",
+   "monthlyViews": 2983,
+   "days": 60,
+   "lat": 34.3299,
+   "lon": 108.7088
+  },
+  "city-anyang-henan": {
+   "title": "Anyang",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": 36.099,
+   "lon": 114.392
+  },
+  "city-zhoushan-city": {
+   "title": "Zhoushan",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": 29.9856,
+   "lon": 122.2074
+  },
+  "city-tangshan": {
+   "title": "Tangshan",
+   "monthlyViews": 2861,
+   "days": 60,
+   "lat": 39.62944444,
+   "lon": 118.17388889
+  },
+  "city-geoje-city": {
+   "title": "Geoje",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 34.85,
+   "lon": 128.58333333
+  },
+  "city-kure": {
+   "title": "Kure, Hiroshima",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 34.24916667,
+   "lon": 132.56583333
+  },
+  "city-linyi": {
+   "title": "Linyi",
+   "monthlyViews": 2800,
+   "days": 60,
+   "lat": 35.1038,
+   "lon": 118.3564
+  },
+  "city-jiangmen": {
+   "title": "Jiangmen",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 22.5789,
+   "lon": 113.0815
+  },
+  "city-jieyang": {
+   "title": "Jieyang",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 23.551,
+   "lon": 116.3727
+  },
+  "city-paju": {
+   "title": "Paju",
+   "monthlyViews": 2740,
+   "days": 60,
+   "lat": 37.86666667,
+   "lon": 126.8
+  },
+  "city-nishinomiya": {
+   "title": "Nishinomiya",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": 34.73759722,
+   "lon": 135.34156389
+  },
+  "city-andong": {
+   "title": "Andong",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 36.55916667,
+   "lon": 128.72888889
+  },
+  "city-utsunomiya": {
+   "title": "Utsunomiya",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 36.555,
+   "lon": 139.8825
+  },
+  "city-mokpo": {
+   "title": "Mokpo",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 34.7589,
+   "lon": 126.38
+  },
+  "city-nampo": {
+   "title": "Nampo",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 38.73555556,
+   "lon": 125.40888889
+  },
+  "city-baoding": {
+   "title": "Baoding",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 38.874,
+   "lon": 115.464
+  },
+  "city-baotou": {
+   "title": "Baotou",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 40.6213,
+   "lon": 109.9532
+  },
+  "city-zhangjiakou": {
+   "title": "Zhangjiakou",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 40.769,
+   "lon": 114.886
+  },
+  "city-zhangzhou": {
+   "title": "Zhangzhou",
+   "monthlyViews": 2618,
+   "days": 60,
+   "lat": 24.513,
+   "lon": 117.647
+  },
+  "city-handan": {
+   "title": "Handan",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 36.601,
+   "lon": 114.487
+  },
+  "city-taizhou-zhejiang": {
+   "title": "Taizhou, Zhejiang",
+   "monthlyViews": 2587,
+   "days": 60,
+   "lat": 28.6557,
+   "lon": 121.4208
+  },
+  "city-machida": {
+   "title": "Machida, Tokyo",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 35.55416667,
+   "lon": 139.44305556
+  },
+  "city-wuhu": {
+   "title": "Wuhu",
+   "monthlyViews": 2557,
+   "days": 60,
+   "lat": 31.3526,
+   "lon": 118.4331
+  },
+  "city-anshan": {
+   "title": "Anshan",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 41.108,
+   "lon": 122.994
+  },
+  "city-mito": {
+   "title": "Mito, Ibaraki",
+   "monthlyViews": 2527,
+   "days": 60,
+   "lat": 36.36583333,
+   "lon": 140.47125
+  },
+  "city-ansan": {
+   "title": "Ansan",
+   "monthlyViews": 2496,
+   "days": 60,
+   "lat": 37.31666667,
+   "lon": 126.83333333
+  },
+  "city-hami": {
+   "title": "Hami",
+   "monthlyViews": 2496,
+   "days": 60,
+   "lat": 42.8193,
+   "lon": 93.5151
+  },
+  "city-bucheon": {
+   "title": "Bucheon",
+   "monthlyViews": 2466,
+   "days": 60,
+   "lat": 37.5,
+   "lon": 126.78333333
+  },
+  "city-yongin": {
+   "title": "Yongin",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": 37.23333333,
+   "lon": 127.2
+  },
+  "city-kashima": {
+   "title": "Kashima, Ibaraki",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 35.96563889,
+   "lon": 140.64483333
+  },
+  "city-yichang": {
+   "title": "Yichang",
+   "monthlyViews": 2405,
+   "days": 60,
+   "lat": 30.692,
+   "lon": 111.287
+  },
+  "city-jiaxing": {
+   "title": "Jiaxing",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 30.747,
+   "lon": 120.756
+  },
+  "city-uji": {
+   "title": "Uji",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 34.88444444,
+   "lon": 135.79972222
+  },
+  "city-xiangyang": {
+   "title": "Xiangyang",
+   "monthlyViews": 2374,
+   "days": 60,
+   "lat": 32.01,
+   "lon": 112.122
+  },
+  "city-tottori": {
+   "title": "Tottori (city)",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 35.5,
+   "lon": 134.23333333
+  },
+  "city-cheonan": {
+   "title": "Cheonan",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 36.81,
+   "lon": 127.1475
+  },
+  "city-kasukabe": {
+   "title": "Kasukabe, Saitama",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 35.97525,
+   "lon": 139.75227778
+  },
+  "city-zhenjiang": {
+   "title": "Zhenjiang",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 32.188,
+   "lon": 119.424
+  },
+  "city-chengde": {
+   "title": "Chengde",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 40.953,
+   "lon": 117.963
+  },
+  "city-takamatsu": {
+   "title": "Takamatsu",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 34.35,
+   "lon": 134.05
+  },
+  "city-wakayama": {
+   "title": "Wakayama (city)",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 34.23333333,
+   "lon": 135.16666667
+  },
+  "city-liuzhou": {
+   "title": "Liuzhou",
+   "monthlyViews": 2192,
+   "days": 59,
+   "lat": 24.32777778,
+   "lon": 109.42777778
+  },
+  "city-qinhuangdao": {
+   "title": "Qinhuangdao",
+   "monthlyViews": 2161,
+   "days": 60,
+   "lat": 39.8882,
+   "lon": 119.5202
+  },
+  "city-fukui": {
+   "title": "Fukui (city)",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 36.06405556,
+   "lon": 136.21958333
+  },
+  "city-jinju": {
+   "title": "Jinju",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 35.2,
+   "lon": 128.08333333
+  },
+  "city-leshan": {
+   "title": "Leshan",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 29.552,
+   "lon": 103.766
+  },
+  "city-hyesan": {
+   "title": "Hyesan",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 41.4,
+   "lon": 128.18333333
+  },
+  "city-ichikawa": {
+   "title": "Ichikawa, Chiba",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 35.72191667,
+   "lon": 139.93105556
+  },
+  "city-jinhua": {
+   "title": "Jinhua",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 29.079,
+   "lon": 119.647
+  },
+  "city-tsukuba": {
+   "title": "Tsukuba",
+   "monthlyViews": 2100,
+   "days": 60,
+   "lat": 36.08347222,
+   "lon": 140.07644444
+  },
+  "city-sado-city": {
+   "title": "Sado, Niigata",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 38.01833333,
+   "lon": 138.36833333
+  },
+  "city-asan": {
+   "title": "Asan",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 36.78333333,
+   "lon": 126.98333333
+  },
+  "city-jilin-city": {
+   "title": "Jilin City",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 43.8381,
+   "lon": 126.5497
+  },
+  "city-jiujiang": {
+   "title": "Jiujiang",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 29.661,
+   "lon": 115.954
+  },
+  "city-meizhou": {
+   "title": "Meizhou",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 24.289,
+   "lon": 116.122
+  },
+  "city-putian": {
+   "title": "Putian",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 25.4526,
+   "lon": 119.0078
+  },
+  "city-sasebo": {
+   "title": "Sasebo",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 33.18,
+   "lon": 129.715
+  },
+  "city-ishinomaki": {
+   "title": "Ishinomaki",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 38.41758333,
+   "lon": 141.30272222
+  },
+  "city-seogwipo": {
+   "title": "Seogwipo",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 33.249722,
+   "lon": 126.56
+  },
+  "city-yamaguchi": {
+   "title": "Yamaguchi (city)",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 34.17805556,
+   "lon": 131.47388889
+  },
+  "city-ganzhou": {
+   "title": "Ganzhou",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 25.831,
+   "lon": 114.933
+  },
+  "city-jingzhou": {
+   "title": "Jingzhou",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 30.3363,
+   "lon": 112.2414
+  },
+  "city-shangqiu": {
+   "title": "Shangqiu",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 34.415,
+   "lon": 115.656
+  },
+  "city-suzuka": {
+   "title": "Suzuka, Mie",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 34.88197222,
+   "lon": 136.58416667
+  },
+  "city-wonju": {
+   "title": "Wonju",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 37.34166667,
+   "lon": 127.92083333
+  },
+  "city-xuchang": {
+   "title": "Xuchang",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 34.037,
+   "lon": 113.852
+  },
+  "city-kofu": {
+   "title": "Kōfu",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 35.66213889,
+   "lon": 138.56822222
+  },
+  "city-lianyungang": {
+   "title": "Lianyungang",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 34.5966,
+   "lon": 119.2214
+  },
+  "city-narita": {
+   "title": "Narita, Chiba",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 35.77666667,
+   "lon": 140.31833333
+  },
+  "city-yeosu": {
+   "title": "Yeosu",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 34.73333333,
+   "lon": 127.73333333
+  },
+  "city-oita": {
+   "title": "Ōita (city)",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 33.23333333,
+   "lon": 131.60666667
+  },
+  "city-nagqu": {
+   "title": "Nagqu",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 31.476,
+   "lon": 92.051
+  },
+  "city-weifang": {
+   "title": "Weifang",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 36.708,
+   "lon": 119.162
+  },
+  "city-fujisawa": {
+   "title": "Fujisawa, Kanagawa",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 35.35,
+   "lon": 139.46666667
+  },
+  "city-karamay": {
+   "title": "Karamay",
+   "monthlyViews": 1857,
+   "days": 60,
+   "lat": 45.5799,
+   "lon": 84.8892
+  },
+  "city-hachioji": {
+   "title": "Hachiōji",
+   "monthlyViews": 1826,
+   "days": 59,
+   "lat": 35.66644444,
+   "lon": 139.316
+  },
+  "city-matsue": {
+   "title": "Matsue",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 35.46805556,
+   "lon": 133.04861111
+  },
+  "city-zunyi": {
+   "title": "Zunyi",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 27.722,
+   "lon": 107.031
+  },
+  "city-chifeng": {
+   "title": "Chifeng",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 42.255,
+   "lon": 118.8825
+  },
+  "city-huzhou": {
+   "title": "Huzhou",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 30.8925,
+   "lon": 120.0875
+  },
+  "city-takarazuka": {
+   "title": "Takarazuka, Hyōgo",
+   "monthlyViews": 1796,
+   "days": 60,
+   "lat": 34.81138889,
+   "lon": 135.34055556
+  },
+  "city-zibo": {
+   "title": "Zibo",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 36.8138,
+   "lon": 118.055
+  },
+  "city-kurashiki": {
+   "title": "Kurashiki",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 34.585,
+   "lon": 133.77222222
+  },
+  "city-huai-an": {
+   "title": "Huai'an",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 33.551,
+   "lon": 119.113
+  },
+  "city-ise": {
+   "title": "Ise, Mie",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 34.48333333,
+   "lon": 136.71666667
+  },
+  "city-iwakuni": {
+   "title": "Iwakuni",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 34.16638889,
+   "lon": 132.21888889
+  },
+  "city-jiuquan": {
+   "title": "Jiuquan",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 39.7334,
+   "lon": 98.4943
+  },
+  "city-nanyang": {
+   "title": "Nanyang, Henan",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 33.018,
+   "lon": 112.5786
+  },
+  "city-golmud": {
+   "title": "Golmud",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 36.4072,
+   "lon": 94.9283
+  },
+  "city-kushiro": {
+   "title": "Kushiro",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 42.985,
+   "lon": 144.38166667
+  },
+  "city-zhaoqing": {
+   "title": "Zhaoqing",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 23.05,
+   "lon": 112.47
+  },
+  "city-jinzhou": {
+   "title": "Jinzhou",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 41.129,
+   "lon": 121.148
+  },
+  "city-namyangju": {
+   "title": "Namyangju",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 37.63333333,
+   "lon": 127.21666667
+  },
+  "city-okazaki": {
+   "title": "Okazaki, Aichi",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 34.95433333,
+   "lon": 137.17436111
+  },
+  "city-onomichi": {
+   "title": "Onomichi",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 34.41666667,
+   "lon": 133.2
+  },
+  "city-tokushima": {
+   "title": "Tokushima (city)",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 34.06666667,
+   "lon": 134.55
+  },
+  "city-tonghua": {
+   "title": "Tonghua",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 41.7283,
+   "lon": 125.9397
+  },
+  "city-zhangye": {
+   "title": "Zhangye",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 38.9248,
+   "lon": 100.4499
+  },
+  "city-fushun": {
+   "title": "Fushun",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 41.881,
+   "lon": 123.957
+  },
+  "city-gunpo": {
+   "title": "Gunpo",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 37.35,
+   "lon": 126.95
+  },
+  "city-hanzhong": {
+   "title": "Hanzhong",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 33.0664,
+   "lon": 107.0232
+  },
+  "city-pu-er-city": {
+   "title": "Pu'er City",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 22.7868,
+   "lon": 100.9771
+  },
+  "city-gunsan": {
+   "title": "Gunsan",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 35.98333333,
+   "lon": 126.71666667
+  },
+  "city-kawaguchi": {
+   "title": "Kawaguchi, Saitama",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 35.80769444,
+   "lon": 139.72411111
+  },
+  "city-maebashi": {
+   "title": "Maebashi",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 36.3895,
+   "lon": 139.06341667
+  },
+  "city-musashino": {
+   "title": "Musashino, Tokyo",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 35.71772222,
+   "lon": 139.56605556
+  },
+  "city-tenri": {
+   "title": "Tenri, Nara",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 34.59666667,
+   "lon": 135.83722222
+  },
+  "city-tokorozawa": {
+   "title": "Tokorozawa, Saitama",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 35.79961111,
+   "lon": 139.46861111
+  },
+  "city-tomakomai": {
+   "title": "Tomakomai",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 42.63333333,
+   "lon": 141.6
+  },
+  "city-ulanqab": {
+   "title": "Ulanqab",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 40.994,
+   "lon": 113.132
+  },
+  "city-kawagoe": {
+   "title": "Kawagoe, Saitama",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 35.92513889,
+   "lon": 139.48577778
+  },
+  "city-suncheon": {
+   "title": "Suncheon",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 34.95055556,
+   "lon": 127.4875
+  },
+  "city-tsu": {
+   "title": "Tsu, Mie",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 34.73305556,
+   "lon": 136.51333333
+  },
+  "city-yancheng": {
+   "title": "Yancheng",
+   "monthlyViews": 1552,
+   "days": 60,
+   "lat": 33.35,
+   "lon": 120.1569
+  },
+  "city-miyako": {
+   "title": "Miyako, Iwate",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 39.64141667,
+   "lon": 141.95713889
+  },
+  "city-nagaoka": {
+   "title": "Nagaoka, Niigata",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 37.44619444,
+   "lon": 138.85125
+  },
+  "city-ningde": {
+   "title": "Ningde",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 26.6662,
+   "lon": 119.5477
+  },
+  "city-beihai": {
+   "title": "Beihai",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 21.481,
+   "lon": 109.12
+  },
+  "city-chamdo": {
+   "title": "Chamdo",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 31.143,
+   "lon": 97.17
+  },
+  "city-fuxin": {
+   "title": "Fuxin",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 42.022,
+   "lon": 121.67
+  },
+  "city-gimhae": {
+   "title": "Gimhae",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 35.23416667,
+   "lon": 128.88111111
+  },
+  "city-yibin": {
+   "title": "Yibin",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 28.752,
+   "lon": 104.643
+  },
+  "city-yulin-guangxi": {
+   "title": "Yulin, Guangxi",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 22.654,
+   "lon": 110.181
+  },
+  "city-aizuwakamatsu": {
+   "title": "Aizuwakamatsu",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 37.49483333,
+   "lon": 139.92975
+  },
+  "city-changde": {
+   "title": "Changde",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 29.031,
+   "lon": 111.699
+  },
+  "city-kashihara": {
+   "title": "Kashihara, Nara",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 34.50944444,
+   "lon": 135.80916667
+  },
+  "city-funabashi": {
+   "title": "Funabashi",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 35.69455556,
+   "lon": 139.98255556
+  },
+  "city-langfang": {
+   "title": "Langfang",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 39.5383,
+   "lon": 116.6835
+  },
+  "city-mudanjiang": {
+   "title": "Mudanjiang",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 44.5514,
+   "lon": 129.6329
+  },
+  "city-anqing": {
+   "title": "Anqing",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 30.5318,
+   "lon": 117.1153
+  },
+  "city-ashiya": {
+   "title": "Ashiya, Hyōgo",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 34.72777778,
+   "lon": 135.30333333
+  },
+  "city-daqing": {
+   "title": "Daqing",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 46.589,
+   "lon": 125.104
+  },
+  "city-icheon": {
+   "title": "Icheon",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 37.26666667,
+   "lon": 127.43333333
+  },
+  "city-mianyang": {
+   "title": "Mianyang",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 31.468,
+   "lon": 104.679
+  },
+  "city-tongyeong": {
+   "title": "Tongyeong",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 34.83333333,
+   "lon": 128.41666667
+  },
+  "city-xinxiang": {
+   "title": "Xinxiang",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 35.3036,
+   "lon": 113.9268
+  },
+  "city-fuchu": {
+   "title": "Fuchū, Tokyo",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 35.66894444,
+   "lon": 139.47763889
+  },
+  "city-fukuyama": {
+   "title": "Fukuyama, Hiroshima",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 34.48583333,
+   "lon": 133.36222222
+  },
+  "city-gimpo": {
+   "title": "Gimpo",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 37.7,
+   "lon": 126.6
+  },
+  "city-haeju": {
+   "title": "Haeju",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 38.03333333,
+   "lon": 125.71666667
+  },
+  "city-iwaki": {
+   "title": "Iwaki, Fukushima",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 37.0505,
+   "lon": 140.88772222
+  },
+  "city-miyakojima-city": {
+   "title": "Miyakojima, Okinawa",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 24.80555556,
+   "lon": 125.28111111
+  },
+  "city-naruto": {
+   "title": "Naruto, Tokushima",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 34.16666667,
+   "lon": 134.61666667
+  },
+  "city-tai-an": {
+   "title": "Tai'an",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 36.202,
+   "lon": 117.087
+  },
+  "city-toyohashi": {
+   "title": "Toyohashi",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 34.76916667,
+   "lon": 137.39152778
+  },
+  "city-hirosaki": {
+   "title": "Hirosaki",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 40.60305556,
+   "lon": 140.46388889
+  },
+  "city-izumo": {
+   "title": "Izumo, Shimane",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 35.36694444,
+   "lon": 132.75472222
+  },
+  "city-qingyuan": {
+   "title": "Qingyuan",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 23.682,
+   "lon": 113.056
+  },
+  "city-shaoguan": {
+   "title": "Shaoguan",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 24.811,
+   "lon": 113.597
+  },
+  "city-taizhou-jiangsu": {
+   "title": "Taizhou, Jiangsu",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 32.4567,
+   "lon": 119.9229
+  },
+  "city-ezhou": {
+   "title": "Ezhou",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 30.3914,
+   "lon": 114.8949
+  },
+  "city-hengyang": {
+   "title": "Hengyang",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 26.894,
+   "lon": 112.572
+  },
+  "city-mitaka": {
+   "title": "Mitaka, Tokyo",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 35.68355556,
+   "lon": 139.55952778
+  },
+  "city-quzhou": {
+   "title": "Quzhou",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 28.9702,
+   "lon": 118.8593
+  },
+  "city-ube": {
+   "title": "Ube, Yamaguchi",
+   "monthlyViews": 1309,
+   "days": 60,
+   "lat": 33.95166667,
+   "lon": 131.24666667
+  },
+  "city-chitose": {
+   "title": "Chitose, Hokkaido",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 42.81666667,
+   "lon": 141.65
+  },
+  "city-jining": {
+   "title": "Jining",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 35.4151,
+   "lon": 116.5871
+  },
+  "city-nisshin": {
+   "title": "Nisshin, Aichi",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 35.13197222,
+   "lon": 137.03944444
+  },
+  "city-odawara": {
+   "title": "Odawara",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 35.25,
+   "lon": 139.15
+  },
+  "city-takasaki": {
+   "title": "Takasaki",
+   "monthlyViews": 1278,
+   "days": 60,
+   "lat": 36.32188889,
+   "lon": 139.00327778
+  },
+  "city-hachinohe": {
+   "title": "Hachinohe",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 40.51222222,
+   "lon": 141.48833333
+  },
+  "city-joetsu": {
+   "title": "Jōetsu, Niigata",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 37.14786111,
+   "lon": 138.23608333
+  },
+  "city-kashiwa": {
+   "title": "Kashiwa",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 35.86758333,
+   "lon": 139.97575
+  },
+  "city-liaoyang": {
+   "title": "Liaoyang",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 41.279,
+   "lon": 123.176
+  },
+  "city-misato": {
+   "title": "Misato, Saitama (city)",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 35.83013889,
+   "lon": 139.87233333
+  },
+  "city-tongliao": {
+   "title": "Tongliao",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 43.654,
+   "lon": 122.243
+  },
+  "city-yokkaichi": {
+   "title": "Yokkaichi",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 34.96502778,
+   "lon": 136.62441667
+  },
+  "city-amagasaki": {
+   "title": "Amagasaki",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 34.73333333,
+   "lon": 135.4
+  },
+  "city-chungju": {
+   "title": "Chungju",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 36.96666667,
+   "lon": 127.95
+  },
+  "city-iga": {
+   "title": "Iga, Mie",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 34.75,
+   "lon": 136.14222222
+  },
+  "city-jiamusi": {
+   "title": "Jiamusi",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 46.8,
+   "lon": 130.319
+  },
+  "city-miryang": {
+   "title": "Miryang",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 35.5,
+   "lon": 128.75
+  },
+  "city-cangzhou": {
+   "title": "Cangzhou",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 38.3047,
+   "lon": 116.8387
+  },
+  "city-fuqing": {
+   "title": "Fuqing",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 25.71666667,
+   "lon": 119.38333333
+  },
+  "city-koganei": {
+   "title": "Koganei, Tokyo",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 35.69947222,
+   "lon": 139.50297222
+  },
+  "city-saga": {
+   "title": "Saga (city)",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 33.26361111,
+   "lon": 130.30083333
+  },
+  "city-yueyang": {
+   "title": "Yueyang",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 29.3564,
+   "lon": 113.1289
+  },
+  "city-hanam": {
+   "title": "Hanam",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 37.51666667,
+   "lon": 127.2
+  },
+  "city-hitachi": {
+   "title": "Hitachi, Ibaraki",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 36.59913889,
+   "lon": 140.6515
+  },
+  "city-huangshan-city": {
+   "title": "Huangshan City",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 29.7149,
+   "lon": 118.3376
+  },
+  "city-kitahiroshima": {
+   "title": "Kitahiroshima, Hokkaido",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 42.98333333,
+   "lon": 141.56666667
+  },
+  "city-luzhou": {
+   "title": "Luzhou",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 28.871,
+   "lon": 105.442
+  },
+  "city-obihiro": {
+   "title": "Obihiro",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 42.92388889,
+   "lon": 143.19611111
+  },
+  "city-shangrao": {
+   "title": "Shangrao",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 28.4551,
+   "lon": 117.9431
+  },
+  "city-shanwei": {
+   "title": "Shanwei",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 22.7872,
+   "lon": 115.3756
+  },
+  "city-oshu": {
+   "title": "Ōshū, Iwate",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 39.14447222,
+   "lon": 141.13913889
+  },
+  "city-bengbu": {
+   "title": "Bengbu",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 32.917,
+   "lon": 117.389
+  },
+  "city-fangchenggang": {
+   "title": "Fangchenggang",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 21.6867,
+   "lon": 108.3547
+  },
+  "city-fuji": {
+   "title": "Fuji, Shizuoka",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 35.16133333,
+   "lon": 138.67627778
+  },
+  "city-gwacheon": {
+   "title": "Gwacheon",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 37.43333333,
+   "lon": 127
+  },
+  "city-komatsu": {
+   "title": "Komatsu, Ishikawa",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 36.40833333,
+   "lon": 136.44552778
+  },
+  "city-rizhao": {
+   "title": "Rizhao",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 35.417,
+   "lon": 119.527
+  },
+  "city-sariwon": {
+   "title": "Sariwon",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 38.50638889,
+   "lon": 125.75972222
+  },
+  "city-shannan": {
+   "title": "Shannan, Tibet",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 29.238,
+   "lon": 91.771
+  },
+  "city-wuzhou": {
+   "title": "Wuzhou",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 23.4767,
+   "lon": 111.279
+  },
+  "city-xinyang": {
+   "title": "Xinyang",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 32.149,
+   "lon": 114.091
+  },
+  "city-ota": {
+   "title": "Ōta, Gunma",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 36.29113889,
+   "lon": 139.37538889
+  },
+  "city-tachikawa": {
+   "title": "Tachikawa, Tokyo",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 35.69422222,
+   "lon": 139.41966667
+  },
+  "city-urayasu": {
+   "title": "Urayasu",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 35.65394444,
+   "lon": 139.90216667
+  },
+  "city-yuxi": {
+   "title": "Yuxi",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 24.347,
+   "lon": 102.527
+  },
+  "city-zama": {
+   "title": "Zama, Kanagawa",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 35.48333333,
+   "lon": 139.4
+  },
+  "city-chichibu": {
+   "title": "Chichibu, Saitama",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 35.99177778,
+   "lon": 139.08547222
+  },
+  "city-gongju": {
+   "title": "Gongju",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 36.45,
+   "lon": 127.11666667
+  },
+  "city-iksan": {
+   "title": "Iksan",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 35.94388889,
+   "lon": 126.95444444
+  },
+  "city-iwata": {
+   "title": "Iwata, Shizuoka",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 34.71788889,
+   "lon": 137.85152778
+  },
+  "city-lishui": {
+   "title": "Lishui",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 28.468,
+   "lon": 119.923
+  },
+  "city-longyan": {
+   "title": "Longyan",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 25.076,
+   "lon": 117.017
+  },
+  "city-mishima": {
+   "title": "Mishima, Shizuoka",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 35.1185,
+   "lon": 138.91855556
+  },
+  "city-yingkou": {
+   "title": "Yingkou",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 40.625,
+   "lon": 122.219
+  },
+  "city-tianshui": {
+   "title": "Tianshui",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 34.5815,
+   "lon": 105.7248
+  },
+  "city-ya-an": {
+   "title": "Ya'an",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 30.01,
+   "lon": 103.0415
+  },
+  "city-baoji": {
+   "title": "Baoji",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 34.363,
+   "lon": 107.238
+  },
+  "city-baoshan": {
+   "title": "Baoshan, Yunnan",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 25.112,
+   "lon": 99.161
+  },
+  "city-imabari": {
+   "title": "Imabari, Ehime",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 34.06666667,
+   "lon": 133
+  },
+  "city-kanggye": {
+   "title": "Kanggye",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 40.96666667,
+   "lon": 126.6
+  },
+  "city-maoming": {
+   "title": "Maoming",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 21.6627,
+   "lon": 110.9255
+  },
+  "city-pyongsong": {
+   "title": "Pyongsong",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 39.26052115,
+   "lon": 125.86176185
+  },
+  "city-shiyan": {
+   "title": "Shiyan",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 32.629,
+   "lon": 110.7987
+  },
+  "city-yulin-shaanxi": {
+   "title": "Yulin, Shaanxi",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 38.2858,
+   "lon": 109.7341
+  },
+  "city-chofu": {
+   "title": "Chōfu",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 35.65061389,
+   "lon": 139.54066667
+  },
+  "city-panzhihua": {
+   "title": "Panzhihua",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 26.5824,
+   "lon": 101.7184
+  },
+  "city-guri": {
+   "title": "Guri",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 37.6,
+   "lon": 127.15
+  },
+  "city-nanping": {
+   "title": "Nanping",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 26.6418,
+   "lon": 118.1774
+  },
+  "city-wuwei": {
+   "title": "Wuwei, Gansu",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 37.929,
+   "lon": 102.638
+  },
+  "city-yongzhou": {
+   "title": "Yongzhou",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 26.42,
+   "lon": 111.613
+  },
+  "city-akashi": {
+   "title": "Akashi, Hyōgo",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 34.65,
+   "lon": 135
+  },
+  "city-dezhou": {
+   "title": "Dezhou",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 37.436,
+   "lon": 116.359
+  },
+  "city-gwangmyeong": {
+   "title": "Gwangmyeong",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 37.476,
+   "lon": 126.866
+  },
+  "city-ichinomiya": {
+   "title": "Ichinomiya, Aichi",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 35.30388889,
+   "lon": 136.80305556
+  },
+  "city-kariya": {
+   "title": "Kariya, Aichi",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 34.98927778,
+   "lon": 137.00213889
+  },
+  "city-kurume": {
+   "title": "Kurume",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 33.31916667,
+   "lon": 130.50833333
+  },
+  "city-numazu": {
+   "title": "Numazu",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 35.09558333,
+   "lon": 138.86344444
+  },
+  "city-xiangtan": {
+   "title": "Xiangtan",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 27.8313,
+   "lon": 112.9454
+  },
+  "city-zhuzhou": {
+   "title": "Zhuzhou",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 27.829,
+   "lon": 113.133
+  },
+  "city-gumi": {
+   "title": "Gumi, South Korea",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 36.119469,
+   "lon": 128.344381
+  },
+  "city-gwangyang": {
+   "title": "Gwangyang",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 34.93333333,
+   "lon": 127.68333333
+  },
+  "city-hikone": {
+   "title": "Hikone, Shiga",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 35.26666667,
+   "lon": 136.26666667
+  },
+  "city-kitami": {
+   "title": "Kitami",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 43.80305556,
+   "lon": 143.89472222
+  },
+  "city-shaoyang": {
+   "title": "Shaoyang",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 27.2395,
+   "lon": 111.4679
+  },
+  "city-suita": {
+   "title": "Suita",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 34.75944444,
+   "lon": 135.51694444
+  },
+  "city-zhumadian": {
+   "title": "Zhumadian",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 33.014,
+   "lon": 114.022
+  },
+  "city-zigong": {
+   "title": "Zigong",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 29.339,
+   "lon": 104.779
+  },
+  "city-ashikaga": {
+   "title": "Ashikaga, Tochigi",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 36.34016667,
+   "lon": 139.44972222
+  },
+  "city-baise": {
+   "title": "Baise",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 23.903,
+   "lon": 106.619
+  },
+  "city-hegang": {
+   "title": "Hegang",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 47.3501,
+   "lon": 130.298
+  },
+  "city-heze": {
+   "title": "Heze",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 35.2343,
+   "lon": 115.4796
+  },
+  "city-hirakata": {
+   "title": "Hirakata",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 34.81666667,
+   "lon": 135.65
+  },
+  "city-kiryu": {
+   "title": "Kiryū, Gunma",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 36.40516667,
+   "lon": 139.49725
+  },
+  "city-koriyama": {
+   "title": "Kōriyama",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 37.40044444,
+   "lon": 140.35972222
+  },
+  "city-ma-anshan": {
+   "title": "Ma'anshan",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 31.669,
+   "lon": 118.507
+  },
+  "city-yangsan": {
+   "title": "Yangsan",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 35.33333333,
+   "lon": 129.03333333
+  },
+  "city-zhaotong": {
+   "title": "Zhaotong",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 27.338,
+   "lon": 103.717
+  },
+  "city-chenzhou": {
+   "title": "Chenzhou",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 25.77,
+   "lon": 113.016
+  },
+  "city-dongducheon": {
+   "title": "Dongducheon",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 37.91666667,
+   "lon": 127.06666667
+  },
+  "city-dongying": {
+   "title": "Dongying",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 37.434,
+   "lon": 118.6746
+  },
+  "city-fujinomiya": {
+   "title": "Fujinomiya, Shizuoka",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 35.22211111,
+   "lon": 138.62161111
+  },
+  "city-guang-an": {
+   "title": "Guang'an",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 30.4564,
+   "lon": 106.6326
+  },
+  "city-kimchaek": {
+   "title": "Kimchaek",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 40.66722222,
+   "lon": 129.20055556
+  },
+  "city-maizuru": {
+   "title": "Maizuru",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 35.46666667,
+   "lon": 135.38333333
+  },
+  "city-muroran": {
+   "title": "Muroran",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 42.31666667,
+   "lon": 140.96666667
+  },
+  "city-nago": {
+   "title": "Nago",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 26.59166667,
+   "lon": 127.9775
+  },
+  "city-sanmenxia": {
+   "title": "Sanmenxia",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 34.7732,
+   "lon": 111.2004
+  },
+  "city-xingtai": {
+   "title": "Xingtai",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 37.0717,
+   "lon": 114.5048
+  },
+  "city-yuncheng": {
+   "title": "Yuncheng",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 35.0267,
+   "lon": 111.007
+  },
+  "city-zhoukou": {
+   "title": "Zhoukou",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 33.6367,
+   "lon": 114.7014
+  },
+  "city-dazaifu": {
+   "title": "Dazaifu, Fukuoka",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 33.51277778,
+   "lon": 130.52388889
+  },
+  "city-fuyang": {
+   "title": "Fuyang",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 32.89,
+   "lon": 115.814
+  },
+  "city-gotemba": {
+   "title": "Gotemba, Shizuoka",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 35.30869444,
+   "lon": 138.93461111
+  },
+  "city-ito": {
+   "title": "Itō, Shizuoka",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 34.96572222,
+   "lon": 139.10186111
+  },
+  "city-linfen": {
+   "title": "Linfen",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 36.088,
+   "lon": 111.519
+  },
+  "city-qinzhou": {
+   "title": "Qinzhou",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 21.981,
+   "lon": 108.654
+  },
+  "city-qujing": {
+   "title": "Qujing",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 25.491,
+   "lon": 103.796
+  },
+  "city-tahara": {
+   "title": "Tahara, Aichi",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 34.66875,
+   "lon": 137.28088889
+  },
+  "city-tsuruga": {
+   "title": "Tsuruga, Fukui",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 35.64519444,
+   "lon": 136.0555
+  },
+  "city-yangjiang": {
+   "title": "Yangjiang",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 21.857,
+   "lon": 111.983
+  },
+  "city-changzhi": {
+   "title": "Changzhi",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 36.195,
+   "lon": 113.11111111
+  },
+  "city-gimcheon": {
+   "title": "Gimcheon",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 36.13333333,
+   "lon": 128.1
+  },
+  "city-hoeryong": {
+   "title": "Hoeryong",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 42.43333333,
+   "lon": 129.75
+  },
+  "city-huanggang": {
+   "title": "Huanggang",
+   "monthlyViews": 791,
+   "days": 59,
+   "lat": 30.4537,
+   "lon": 114.8724
+  },
+  "city-nanchong": {
+   "title": "Nanchong",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 30.8372,
+   "lon": 106.1106
+  },
+  "city-sakata": {
+   "title": "Sakata, Yamagata",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 38.91447222,
+   "lon": 139.83644444
+  },
+  "city-sakura": {
+   "title": "Sakura, Chiba",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 35.71666667,
+   "lon": 140.21666667
+  },
+  "city-seki": {
+   "title": "Seki, Gifu",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 35.49577778,
+   "lon": 136.91797222
+  },
+  "city-suqian": {
+   "title": "Suqian",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 33.963,
+   "lon": 118.275
+  },
+  "city-tosu": {
+   "title": "Tosu, Saga",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 33.38333333,
+   "lon": 130.5
+  },
+  "city-anseong": {
+   "title": "Anseong",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-bozhou": {
+   "title": "Bozhou",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 33.8463,
+   "lon": 115.7786
+  },
+  "city-hita": {
+   "title": "Hita, Ōita",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 33.32138889,
+   "lon": 130.94111111
+  },
+  "city-huaihua": {
+   "title": "Huaihua",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 27.5698,
+   "lon": 110.0016
+  },
+  "city-huludao": {
+   "title": "Huludao",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 40.711,
+   "lon": 120.837
+  },
+  "city-kiyosu": {
+   "title": "Kiyosu",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 35.19980556,
+   "lon": 136.85286111
+  },
+  "city-liaocheng": {
+   "title": "Liaocheng",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 36.4559,
+   "lon": 115.9852
+  },
+  "city-naju": {
+   "title": "Naju",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 35.03333333,
+   "lon": 126.71666667
+  },
+  "city-osan": {
+   "title": "Osan",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 37.149799,
+   "lon": 127.077116
+  },
+  "city-pingdingshan": {
+   "title": "Pingdingshan",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 33.7666,
+   "lon": 113.1926
+  },
+  "city-seosan": {
+   "title": "Seosan",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 36.78166667,
+   "lon": 126.45222222
+  },
+  "city-takaoka": {
+   "title": "Takaoka, Toyama",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 36.75405556,
+   "lon": 137.02566667
+  },
+  "city-tongren": {
+   "title": "Tongren",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 27.7316,
+   "lon": 109.1895
+  },
+  "city-ueda": {
+   "title": "Ueda, Nagano",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 36.40188889,
+   "lon": 138.24908333
+  },
+  "city-atsugi": {
+   "title": "Atsugi",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 35.43333333,
+   "lon": 139.36666667
+  },
+  "city-bayannur": {
+   "title": "Bayannur",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 40.743,
+   "lon": 107.387
+  },
+  "city-boryeong": {
+   "title": "Boryeong",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 36.33333333,
+   "lon": 126.61666667
+  },
+  "city-chongzuo": {
+   "title": "Chongzuo",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 22.377,
+   "lon": 107.365
+  },
+  "city-dangjin": {
+   "title": "Dangjin",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 36.89305556,
+   "lon": 126.62805556
+  },
+  "city-higashiosaka": {
+   "title": "Higashiōsaka",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 34.67944444,
+   "lon": 135.60083333
+  },
+  "city-huainan": {
+   "title": "Huainan",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 32.6314,
+   "lon": 117.0194
+  },
+  "city-jecheon": {
+   "title": "Jecheon",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 37.13333333,
+   "lon": 128.21666667
+  },
+  "city-kadoma": {
+   "title": "Kadoma, Osaka",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 34.73333333,
+   "lon": 135.58333333
+  },
+  "city-mutsu": {
+   "title": "Mutsu, Aomori",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 41.29277778,
+   "lon": 141.18361111
+  },
+  "city-pocheon": {
+   "title": "Pocheon",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 37.894736,
+   "lon": 127.200172
+  },
+  "city-tama": {
+   "title": "Tama, Tokyo",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 35.63694444,
+   "lon": 139.44627778
+  },
+  "city-uruma": {
+   "title": "Uruma",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 26.37916667,
+   "lon": 127.8575
+  },
+  "city-usa-city": {
+   "title": "Usa, Ōita",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 33.53194444,
+   "lon": 131.34944444
+  },
+  "city-anjo": {
+   "title": "Anjō",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 34.95872222,
+   "lon": 137.08033333
+  },
+  "city-baishan": {
+   "title": "Baishan",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 41.944,
+   "lon": 126.4147
+  },
+  "city-benxi": {
+   "title": "Benxi",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 41.3039,
+   "lon": 123.7649
+  },
+  "city-chuzhou": {
+   "title": "Chuzhou",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 32.256,
+   "lon": 118.333
+  },
+  "city-fuefuki": {
+   "title": "Fuefuki",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 35.64730556,
+   "lon": 138.63972222
+  },
+  "city-guangyuan": {
+   "title": "Guangyuan",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 32.436,
+   "lon": 105.844
+  },
+  "city-hiratsuka": {
+   "title": "Hiratsuka",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 35.31666667,
+   "lon": 139.35
+  },
+  "city-hitachinaka": {
+   "title": "Hitachinaka, Ibaraki",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 36.39669444,
+   "lon": 140.53466667
+  },
+  "city-liupanshui": {
+   "title": "Liupanshui",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 26.5925,
+   "lon": 104.8304
+  },
+  "city-lu-an": {
+   "title": "Lu'an",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 31.736,
+   "lon": 116.52
+  },
+  "city-siheung": {
+   "title": "Siheung",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 37.37986,
+   "lon": 126.802887
+  },
+  "city-uiwang": {
+   "title": "Uiwang",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 37.344829,
+   "lon": 126.968325
+  },
+  "city-weinan": {
+   "title": "Weinan",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 34.5206,
+   "lon": 109.471
+  },
+  "city-ome": {
+   "title": "Ōme, Tokyo",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 35.78797222,
+   "lon": 139.27583333
+  },
+  "city-anju": {
+   "title": "Anju, South Pyongan",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 39.62,
+   "lon": 125.66
+  },
+  "city-chaoyang": {
+   "title": "Chaoyang, Liaoning",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 41.571,
+   "lon": 120.453
+  },
+  "city-danzhou": {
+   "title": "Danzhou",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 19.5209,
+   "lon": 109.5808
+  },
+  "city-heyuan": {
+   "title": "Heyuan",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 23.7443,
+   "lon": 114.7002
+  },
+  "city-karatsu": {
+   "title": "Karatsu, Saga",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 33.45,
+   "lon": 129.96833333
+  },
+  "city-koka": {
+   "title": "Kōka, Shiga",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 34.96666667,
+   "lon": 136.16666667
+  },
+  "city-lincang": {
+   "title": "Lincang",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 23.884,
+   "lon": 100.089
+  },
+  "city-longnan": {
+   "title": "Longnan",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 33.3702,
+   "lon": 104.9603
+  },
+  "city-nagahama": {
+   "title": "Nagahama, Shiga",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 35.38333333,
+   "lon": 136.28333333
+  },
+  "city-nonsan": {
+   "title": "Nonsan",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 36.2,
+   "lon": 127.08333333
+  },
+  "city-panjin": {
+   "title": "Panjin",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 41.1177,
+   "lon": 122.0654
+  },
+  "city-siping": {
+   "title": "Siping, Jilin",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 43.1668,
+   "lon": 124.3506
+  },
+  "city-omihachiman": {
+   "title": "Ōmihachiman",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 35.12833333,
+   "lon": 136.09805556
+  },
+  "city-anshun": {
+   "title": "Anshun",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 26.2531,
+   "lon": 105.9476
+  },
+  "city-deyang": {
+   "title": "Deyang",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 31.127,
+   "lon": 104.398
+  },
+  "city-heshan": {
+   "title": "Heshan, Guangdong",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 22.76666667,
+   "lon": 112.95
+  },
+  "city-hino": {
+   "title": "Hino, Tokyo",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 35.67127778,
+   "lon": 139.39513889
+  },
+  "city-jincheng": {
+   "title": "Jincheng",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 35.491,
+   "lon": 112.852
+  },
+  "city-kitakami": {
+   "title": "Kitakami, Iwate",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 39.28675,
+   "lon": 141.11322222
+  },
+  "city-komaki": {
+   "title": "Komaki",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 35.291,
+   "lon": 136.91211111
+  },
+  "city-puyang": {
+   "title": "Puyang",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 35.7627,
+   "lon": 115.0292
+  },
+  "city-sacheon": {
+   "title": "Sacheon",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 35.06666667,
+   "lon": 128.08333333
+  },
+  "city-sangju": {
+   "title": "Sangju",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 36.44,
+   "lon": 128.17
+  },
+  "city-sanming": {
+   "title": "Sanming",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 26.2634,
+   "lon": 117.6389
+  },
+  "city-yamato": {
+   "title": "Yamato, Kanagawa",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 35.48333333,
+   "lon": 139.45
+  },
+  "city-yeoju": {
+   "title": "Yeoju",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 37.3,
+   "lon": 127.63333333
+  },
+  "city-zushi": {
+   "title": "Zushi, Kanagawa",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 35.28333333,
+   "lon": 139.58333333
+  },
+  "city-bijie": {
+   "title": "Bijie",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 27.284,
+   "lon": 105.292
+  },
+  "city-echizen": {
+   "title": "Echizen, Fukui",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 35.9035,
+   "lon": 136.16875
+  },
+  "city-fukuroi": {
+   "title": "Fukuroi, Shizuoka",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 34.75016667,
+   "lon": 137.92466667
+  },
+  "city-ibaraki": {
+   "title": "Ibaraki, Osaka",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 34.81638889,
+   "lon": 135.56861111
+  },
+  "city-jixi": {
+   "title": "Jixi",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 45.295,
+   "lon": 130.969
+  },
+  "city-kaga": {
+   "title": "Kaga, Ishikawa",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 36.30277778,
+   "lon": 136.31502778
+  },
+  "city-kasugai": {
+   "title": "Kasugai, Aichi",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 35.2475,
+   "lon": 136.97222222
+  },
+  "city-kyotango": {
+   "title": "Kyōtango",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 35.62416667,
+   "lon": 135.06111111
+  },
+  "city-matsudo": {
+   "title": "Matsudo",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 35.78763889,
+   "lon": 139.90316667
+  },
+  "city-meishan": {
+   "title": "Meishan",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 30.0771,
+   "lon": 103.8484
+  },
+  "city-mungyeong": {
+   "title": "Mungyeong",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 36.59388889,
+   "lon": 128.20138889
+  },
+  "city-sakurai": {
+   "title": "Sakurai, Nara",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 34.51861111,
+   "lon": 135.84333333
+  },
+  "city-samcheok": {
+   "title": "Samcheok",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 37.45,
+   "lon": 129.165
+  },
+  "city-toyokawa": {
+   "title": "Toyokawa, Aichi",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 34.82677778,
+   "lon": 137.37591667
+  },
+  "city-tsuchiura": {
+   "title": "Tsuchiura",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 36.06666667,
+   "lon": 140.2
+  },
+  "city-urasoe": {
+   "title": "Urasoe, Okinawa",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 26.24583333,
+   "lon": 127.72194444
+  },
+  "city-wuhai": {
+   "title": "Wuhai",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 39.655,
+   "lon": 106.794
+  },
+  "city-yichun-heilongjiang": {
+   "title": "Yichun, Heilongjiang",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 47.728,
+   "lon": 128.841
+  },
+  "city-yonezawa": {
+   "title": "Yonezawa, Yamagata",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 37.92225,
+   "lon": 140.11677778
+  },
+  "city-zaozhuang": {
+   "title": "Zaozhuang",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 34.8109,
+   "lon": 117.3238
+  },
+  "city-asahi": {
+   "title": "Asahi, Chiba",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.71666667,
+   "lon": 140.65
+  },
+  "city-fussa": {
+   "title": "Fussa, Tokyo",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.73333333,
+   "lon": 139.33333333
+  },
+  "city-hengshui": {
+   "title": "Hengshui",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 37.739,
+   "lon": 115.669
+  },
+  "city-huangshi": {
+   "title": "Huangshi",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 30.2011,
+   "lon": 115.039
+  },
+  "city-iida": {
+   "title": "Iida, Nagano",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.515,
+   "lon": 137.82138889
+  },
+  "city-ikeda": {
+   "title": "Ikeda, Osaka",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 34.82166667,
+   "lon": 135.42861111
+  },
+  "city-kameoka": {
+   "title": "Kameoka, Kyoto",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.01666667,
+   "lon": 135.56666667
+  },
+  "city-kisarazu": {
+   "title": "Kisarazu",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.37597222,
+   "lon": 139.91683333
+  },
+  "city-kishiwada": {
+   "title": "Kishiwada, Osaka",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 34.46666667,
+   "lon": 135.36666667
+  },
+  "city-kuwana": {
+   "title": "Kuwana, Mie",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.06666667,
+   "lon": 136.68333333
+  },
+  "city-noda": {
+   "title": "Noda, Chiba",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.95,
+   "lon": 139.86666667
+  },
+  "city-puli": {
+   "title": "Puli, Nantou",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 23.96666667,
+   "lon": 120.96666667
+  },
+  "city-takatsuki": {
+   "title": "Takatsuki",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 34.84611111,
+   "lon": 135.6175
+  },
+  "city-tsuyama": {
+   "title": "Tsuyama",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.06916667,
+   "lon": 134.00444444
+  },
+  "city-xuancheng": {
+   "title": "Xuancheng",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 30.939,
+   "lon": 118.759
+  },
+  "city-yanagawa": {
+   "title": "Yanagawa, Fukuoka",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 33.16305556,
+   "lon": 130.40583333
+  },
+  "city-yatsushiro": {
+   "title": "Yatsushiro",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 32.5075,
+   "lon": 130.60166667
+  },
+  "city-amakusa-city": {
+   "title": "Amakusa, Kumamoto",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 32.45861111,
+   "lon": 130.19305556
+  },
+  "city-binzhou": {
+   "title": "Binzhou",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 37.383,
+   "lon": 117.971
+  },
+  "city-chigasaki": {
+   "title": "Chigasaki",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.33333333,
+   "lon": 139.4
+  },
+  "city-gimje": {
+   "title": "Gimje",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.80166667,
+   "lon": 126.88888889
+  },
+  "city-ichihara": {
+   "title": "Ichihara, Chiba",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.49805556,
+   "lon": 140.11544444
+  },
+  "city-jiaozuo": {
+   "title": "Jiaozuo",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.2157,
+   "lon": 113.2419
+  },
+  "city-kakamigahara": {
+   "title": "Kakamigahara",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.39880556,
+   "lon": 136.84841667
+  },
+  "city-kodaira": {
+   "title": "Kodaira, Tokyo",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.7285,
+   "lon": 139.47744444
+  },
+  "city-tanchon": {
+   "title": "Tanchon",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 40.458,
+   "lon": 128.911
+  },
+  "city-tieling": {
+   "title": "Tieling",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 42.2237,
+   "lon": 123.726
+  },
+  "city-uwajima": {
+   "title": "Uwajima, Ehime",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 33.21666667,
+   "lon": 132.56666667
+  },
+  "city-warabi": {
+   "title": "Warabi, Saitama",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.82558333,
+   "lon": 139.67972222
+  },
+  "city-xinzhou": {
+   "title": "Xinzhou",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 38.416,
+   "lon": 112.734
+  },
+  "city-yangju": {
+   "title": "Yangju",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 37.785131,
+   "lon": 127.04572
+  },
+  "city-yichun-jiangxi": {
+   "title": "Yichun, Jiangxi",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 27.816,
+   "lon": 114.417
+  },
+  "city-yonago": {
+   "title": "Yonago",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.43333333,
+   "lon": 133.33333333
+  },
+  "city-chongju": {
+   "title": "Chongju",
+   "monthlyViews": 517,
+   "days": 59,
+   "lat": 39.65,
+   "lon": 125.33333333
+  },
+  "city-dazhou": {
+   "title": "Dazhou",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 31.2093,
+   "lon": 107.4678
+  },
+  "city-fujioka": {
+   "title": "Fujioka, Gunma",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 36.25869444,
+   "lon": 139.07455556
+  },
+  "city-haidong": {
+   "title": "Haidong",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 36.4734,
+   "lon": 102.4106
+  },
+  "city-isesaki": {
+   "title": "Isesaki",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 36.31136111,
+   "lon": 139.19680556
+  },
+  "city-itami": {
+   "title": "Itami",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 34.78333333,
+   "lon": 135.4
+  },
+  "city-kaechon": {
+   "title": "Kaechon",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 39.69861111,
+   "lon": 125.90611111
+  },
+  "city-kesennuma": {
+   "title": "Kesennuma",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 38.90805556,
+   "lon": 141.56994444
+  },
+  "city-kirishima": {
+   "title": "Kirishima, Kagoshima",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 31.74111111,
+   "lon": 130.76333333
+  },
+  "city-luohe": {
+   "title": "Luohe",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 33.5804,
+   "lon": 114.0166
+  },
+  "city-marugame": {
+   "title": "Marugame, Kagawa",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 34.28333333,
+   "lon": 133.8
+  },
+  "city-minoh": {
+   "title": "Minoh",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 34.82694444,
+   "lon": 135.47055556
+  },
+  "city-namwon": {
+   "title": "Namwon",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 35.41,
+   "lon": 127.38583333
+  },
+  "city-niihama": {
+   "title": "Niihama",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 33.96666667,
+   "lon": 133.28333333
+  },
+  "city-oyama": {
+   "title": "Oyama, Tochigi",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 36.31461111,
+   "lon": 139.80016667
+  },
+  "city-seto": {
+   "title": "Seto, Aichi",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 35.22358333,
+   "lon": 137.08419444
+  },
+  "city-tanabe": {
+   "title": "Tanabe, Wakayama",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 33.73333333,
+   "lon": 135.38333333
+  },
+  "city-tokoname": {
+   "title": "Tokoname",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 34.88652778,
+   "lon": 136.83233333
+  },
+  "city-toyonaka": {
+   "title": "Toyonaka",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 34.78333333,
+   "lon": 135.46666667
+  },
+  "city-toyooka": {
+   "title": "Toyooka, Hyōgo",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 35.55,
+   "lon": 134.81666667
+  },
+  "city-yunfu": {
+   "title": "Yunfu",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 22.9152,
+   "lon": 112.0445
+  },
+  "city-abiko": {
+   "title": "Abiko, Chiba",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.86666667,
+   "lon": 140.03333333
+  },
+  "city-bole": {
+   "title": "Bole, Xinjiang",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 44.8539,
+   "lon": 82.0514
+  },
+  "city-choshi": {
+   "title": "Chōshi",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.73463889,
+   "lon": 140.82677778
+  },
+  "city-donghae": {
+   "title": "Donghae, Gangwon",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 37.524771,
+   "lon": 129.114282
+  },
+  "city-ginowan": {
+   "title": "Ginowan, Okinawa",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 26.28166667,
+   "lon": 127.77833333
+  },
+  "city-gyeongsan": {
+   "title": "Gyeongsan",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.81666667,
+   "lon": 128.73333333
+  },
+  "city-hanamaki": {
+   "title": "Hanamaki, Iwate",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 39.38861111,
+   "lon": 141.11691667
+  },
+  "city-handa": {
+   "title": "Handa, Aichi",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 34.89194444,
+   "lon": 136.93805556
+  },
+  "city-hechi": {
+   "title": "Hechi",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 24.693,
+   "lon": 108.085
+  },
+  "city-inuyama": {
+   "title": "Inuyama, Aichi",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.37861111,
+   "lon": 136.9445
+  },
+  "city-jeongeup": {
+   "title": "Jeongeup",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.56666667,
+   "lon": 126.85
+  },
+  "city-jingmen": {
+   "title": "Jingmen",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 31.0354,
+   "lon": 112.199
+  },
+  "city-kokubunji": {
+   "title": "Kokubunji, Tokyo",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.71094444,
+   "lon": 139.46216667
+  },
+  "city-koshigaya": {
+   "title": "Koshigaya",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.89113889,
+   "lon": 139.79091667
+  },
+  "city-luliang": {
+   "title": "Lüliang",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 37.519,
+   "lon": 111.1445
+  },
+  "city-manpo": {
+   "title": "Manpo",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 41.157,
+   "lon": 126.29
+  },
+  "city-nanao": {
+   "title": "Nanao, Ishikawa",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 37.04313889,
+   "lon": 136.96744444
+  },
+  "city-neijiang": {
+   "title": "Neijiang",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 29.5802,
+   "lon": 105.058
+  },
+  "city-pingxiang": {
+   "title": "Pingxiang",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 27.659,
+   "lon": 113.887
+  },
+  "city-tochigi": {
+   "title": "Tochigi (city)",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 36.38133333,
+   "lon": 139.73027778
+  },
+  "city-tongling": {
+   "title": "Tongling",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 30.945,
+   "lon": 117.811
+  },
+  "city-ushiku": {
+   "title": "Ushiku, Ibaraki",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.97936111,
+   "lon": 140.14955556
+  },
+  "city-xianning": {
+   "title": "Xianning",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 29.8414,
+   "lon": 114.3226
+  },
+  "city-yiyang": {
+   "title": "Yiyang",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 28.5549,
+   "lon": 112.356
+  },
+  "city-yongkang": {
+   "title": "Yongkang, Zhejiang",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 28.9,
+   "lon": 120.03333333
+  },
+  "city-ogaki": {
+   "title": "Ōgaki",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.35936111,
+   "lon": 136.61286111
+  },
+  "city-ankang": {
+   "title": "Ankang",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 32.6854,
+   "lon": 109.029
+  },
+  "city-baicheng": {
+   "title": "Baicheng",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 45.62,
+   "lon": 122.838
+  },
+  "city-chizhou": {
+   "title": "Chizhou",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 30.6654,
+   "lon": 117.4916
+  },
+  "city-gamagori": {
+   "title": "Gamagōri",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.84305556,
+   "lon": 137.21958333
+  },
+  "city-guyuan": {
+   "title": "Guyuan",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 36.01,
+   "lon": 106.257
+  },
+  "city-hadano": {
+   "title": "Hadano, Kanagawa",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 35.36666667,
+   "lon": 139.21666667
+  },
+  "city-hezhou": {
+   "title": "Hezhou",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 24.4042,
+   "lon": 111.5672
+  },
+  "city-higashihiroshima": {
+   "title": "Higashihiroshima",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.42638889,
+   "lon": 132.74333333
+  },
+  "city-imari": {
+   "title": "Imari, Saga",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 33.26472222,
+   "lon": 129.88083333
+  },
+  "city-ishikari": {
+   "title": "Ishikari, Hokkaido",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 43.16666667,
+   "lon": 141.31666667
+  },
+  "city-izumisano": {
+   "title": "Izumisano",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.40694444,
+   "lon": 135.3275
+  },
+  "city-kakegawa": {
+   "title": "Kakegawa, Shizuoka",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.76869444,
+   "lon": 137.99841667
+  },
+  "city-kakogawa": {
+   "title": "Kakogawa, Hyōgo",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.75,
+   "lon": 134.83333333
+  },
+  "city-kashiwazaki": {
+   "title": "Kashiwazaki, Niigata",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 37.37191667,
+   "lon": 138.559
+  },
+  "city-kumagaya": {
+   "title": "Kumagaya",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 36.14738889,
+   "lon": 139.38863889
+  },
+  "city-qionghai": {
+   "title": "Qionghai",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-saijo": {
+   "title": "Saijō, Ehime",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 33.91666667,
+   "lon": 133.18333333
+  },
+  "city-saku": {
+   "title": "Saku, Nagano",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 36.24880556,
+   "lon": 138.47694444
+  },
+  "city-sano": {
+   "title": "Sano, Tochigi",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 36.3145,
+   "lon": 139.57833333
+  },
+  "city-shiojiri": {
+   "title": "Shiojiri, Nagano",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 36.11497222,
+   "lon": 137.95344444
+  },
+  "city-suihua": {
+   "title": "Suihua",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 46.654,
+   "lon": 126.969
+  },
+  "city-tsuruoka": {
+   "title": "Tsuruoka",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 38.72722222,
+   "lon": 139.82666667
+  },
+  "city-yao": {
+   "title": "Yao, Osaka",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.62686944,
+   "lon": 135.60098611
+  },
+  "city-yeongcheon": {
+   "title": "Yeongcheon",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 35.973196,
+   "lon": 128.938612
+  },
+  "city-omura": {
+   "title": "Ōmura, Nagasaki",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 32.9,
+   "lon": 129.95833333
+  },
+  "city-asaka": {
+   "title": "Asaka, Saitama",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.79719444,
+   "lon": 139.59388889
+  },
+  "city-baiyin": {
+   "title": "Baiyin",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 36.5451,
+   "lon": 104.1389
+  },
+  "city-ebina": {
+   "title": "Ebina, Kanagawa",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.44638889,
+   "lon": 139.39083333
+  },
+  "city-higashimurayama": {
+   "title": "Higashimurayama, Tokyo",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.75461111,
+   "lon": 139.4685
+  },
+  "city-huaibei": {
+   "title": "Huaibei",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 33.956,
+   "lon": 116.798
+  },
+  "city-hofu": {
+   "title": "Hōfu",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 34.05138889,
+   "lon": 131.5625
+  },
+  "city-ikoma": {
+   "title": "Ikoma, Nara",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 34.7,
+   "lon": 135.7
+  },
+  "city-itoshima": {
+   "title": "Itoshima",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 33.55388889,
+   "lon": 130.19777778
+  },
+  "city-jinzhong": {
+   "title": "Jinzhong",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 37.688,
+   "lon": 112.7526
+  },
+  "city-kanoya": {
+   "title": "Kanoya, Kagoshima",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 31.37833333,
+   "lon": 130.85222222
+  },
+  "city-kanuma": {
+   "title": "Kanuma, Tochigi",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 36.56708333,
+   "lon": 139.74505556
+  },
+  "city-kosai": {
+   "title": "Kosai, Shizuoka",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 34.71844444,
+   "lon": 137.53161111
+  },
+  "city-kunitachi": {
+   "title": "Kunitachi, Tokyo",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.68391667,
+   "lon": 139.44138889
+  },
+  "city-kyotanabe": {
+   "title": "Kyōtanabe",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 34.81444444,
+   "lon": 135.76777778
+  },
+  "city-liaoyuan": {
+   "title": "Liaoyuan",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 42.888,
+   "lon": 125.1447
+  },
+  "city-loudi": {
+   "title": "Loudi",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 27.6998,
+   "lon": 111.9944
+  },
+  "city-lukang": {
+   "title": "Lukang",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 24.05,
+   "lon": 120.43333333
+  },
+  "city-nagakute": {
+   "title": "Nagakute",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.184,
+   "lon": 137.04869444
+  },
+  "city-nishitokyo": {
+   "title": "Nishitokyo",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.72561111,
+   "lon": 139.53825
+  },
+  "city-qingyang": {
+   "title": "Qingyang, Gansu",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.7091,
+   "lon": 107.6436
+  },
+  "city-sennan": {
+   "title": "Sennan, Osaka",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 34.36277778,
+   "lon": 135.27611111
+  },
+  "city-shangluo": {
+   "title": "Shangluo",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 33.8734,
+   "lon": 109.9186
+  },
+  "city-shuangyashan": {
+   "title": "Shuangyashan",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 46.6762,
+   "lon": 131.1416
+  },
+  "city-shuozhou": {
+   "title": "Shuozhou",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 39.3317,
+   "lon": 112.4329
+  },
+  "city-ulanhot": {
+   "title": "Ulanhot",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 46.0722,
+   "lon": 122.0933
+  },
+  "city-wako": {
+   "title": "Wakō, Saitama",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.78122222,
+   "lon": 139.60569444
+  },
+  "city-yeongju": {
+   "title": "Yeongju",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 36.80583333,
+   "lon": 128.62388889
+  },
+  "city-odate": {
+   "title": "Ōdate",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 40.27138889,
+   "lon": 140.56416667
+  },
+  "city-omuta": {
+   "title": "Ōmuta, Fukuoka",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 33.03027778,
+   "lon": 130.44583333
+  },
+  "city-dingxi": {
+   "title": "Dingxi",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.608,
+   "lon": 104.592
+  },
+  "city-guigang": {
+   "title": "Guigang",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 23.112,
+   "lon": 109.599
+  },
+  "city-hakusan": {
+   "title": "Hakusan, Ishikawa",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 36.51663889,
+   "lon": 136.56558333
+  },
+  "city-hatsukaichi": {
+   "title": "Hatsukaichi",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 34.34833333,
+   "lon": 132.33166667
+  },
+  "city-huichon": {
+   "title": "Huichon",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 40.1707,
+   "lon": 126.2761
+  },
+  "city-hyuga": {
+   "title": "Hyūga, Miyazaki",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 32.42277778,
+   "lon": 131.62388889
+  },
+  "city-iwamizawa": {
+   "title": "Iwamizawa",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 43.2,
+   "lon": 141.78333333
+  },
+  "city-kusatsu": {
+   "title": "Kusatsu, Shiga",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.01666667,
+   "lon": 135.96666667
+  },
+  "city-kusong": {
+   "title": "Kusong",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 39.96666667,
+   "lon": 125.16666667
+  },
+  "city-miki": {
+   "title": "Miki, Hyōgo",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 34.79361111,
+   "lon": 134.99305556
+  },
+  "city-minami-alps": {
+   "title": "Minami-Alps, Yamanashi",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.60830556,
+   "lon": 138.46502778
+  },
+  "city-musashimurayama": {
+   "title": "Musashimurayama, Tokyo",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.75483333,
+   "lon": 139.38736111
+  },
+  "city-nakatsugawa": {
+   "title": "Nakatsugawa",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.48758333,
+   "lon": 137.50058333
+  },
+  "city-nasushiobara": {
+   "title": "Nasushiobara",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 36.96172222,
+   "lon": 140.04605556
+  },
+  "city-neyagawa": {
+   "title": "Neyagawa, Osaka",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 34.76666667,
+   "lon": 135.63333333
+  },
+  "city-pingliang": {
+   "title": "Pingliang",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.5424,
+   "lon": 106.6649
+  },
+  "city-satsumasendai": {
+   "title": "Satsumasendai, Kagoshima",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 31.81333333,
+   "lon": 130.30388889
+  },
+  "city-sinpo": {
+   "title": "Sinpo",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 40.03472222,
+   "lon": 128.18555556
+  },
+  "city-suining": {
+   "title": "Suining",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 30.533,
+   "lon": 105.593
+  },
+  "city-tongxiang": {
+   "title": "Tongxiang",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 30.63333333,
+   "lon": 120.53333333
+  },
+  "city-yangquan": {
+   "title": "Yangquan",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 37.8571,
+   "lon": 113.5804
+  },
+  "city-zhongwei": {
+   "title": "Zhongwei",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 37.5002,
+   "lon": 105.1968
+  },
+  "city-akiruno": {
+   "title": "Akiruno, Tokyo",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 35.72891667,
+   "lon": 139.29408333
+  },
+  "city-chaozhou-pingtung": {
+   "title": "Chaozhou, Pingtung",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 22.55,
+   "lon": 120.53333333
+  },
+  "city-ebetsu": {
+   "title": "Ebetsu",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 43.1,
+   "lon": 141.53333333
+  },
+  "city-fukuchiyama": {
+   "title": "Fukuchiyama, Kyoto",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 35.3,
+   "lon": 135.13333333
+  },
+  "city-hebi": {
+   "title": "Hebi",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 35.748,
+   "lon": 114.297
+  },
+  "city-ichinoseki": {
+   "title": "Ichinoseki, Iwate",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 38.93472222,
+   "lon": 141.12658333
+  },
+  "city-iizuka": {
+   "title": "Iizuka",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 33.64666667,
+   "lon": 130.69111111
+  },
+  "city-ina": {
+   "title": "Ina, Nagano",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 35.82752778,
+   "lon": 137.95397222
+  },
+  "city-itoman": {
+   "title": "Itoman, Okinawa",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 26.12361111,
+   "lon": 127.66583333
+  },
+  "city-kawanishi": {
+   "title": "Kawanishi, Hyōgo",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 34.83333333,
+   "lon": 135.41666667
+  },
+  "city-kuki": {
+   "title": "Kuki, Saitama",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 36.06208333,
+   "lon": 139.66680556
+  },
+  "city-luodong": {
+   "title": "Luodong",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 24.67527778,
+   "lon": 121.77111111
+  },
+  "city-mihara": {
+   "title": "Mihara, Hiroshima",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 34.3975,
+   "lon": 133.07861111
+  },
+  "city-murakami": {
+   "title": "Murakami, Niigata",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 38.224,
+   "lon": 139.48
+  },
+  "city-nishio": {
+   "title": "Nishio",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 34.83,
+   "lon": 137.06972222
+  },
+  "city-sanjo": {
+   "title": "Sanjō, Niigata",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 37.63677778,
+   "lon": 138.96166667
+  },
+  "city-sayama": {
+   "title": "Sayama",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 35.85297222,
+   "lon": 139.41219444
+  },
+  "city-suizhou": {
+   "title": "Suizhou",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 31.69,
+   "lon": 113.382
+  },
+  "city-tongchuan": {
+   "title": "Tongchuan",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 34.897,
+   "lon": 108.945
+  },
+  "city-xiaogan": {
+   "title": "Xiaogan",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 30.918,
+   "lon": 113.957
+  },
+  "city-xinyu": {
+   "title": "Xinyu",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 27.8186,
+   "lon": 114.9167
+  },
+  "city-yachiyo": {
+   "title": "Yachiyo, Chiba",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 35.72241667,
+   "lon": 140.09988889
+  },
+  "city-yamatokoriyama": {
+   "title": "Yamatokōriyama",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 34.64944444,
+   "lon": 135.78277778
+  },
+  "city-ziyang": {
+   "title": "Ziyang",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 30.129,
+   "lon": 104.627
+  },
+  "city-akishima": {
+   "title": "Akishima, Tokyo",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.70566667,
+   "lon": 139.35352778
+  },
+  "city-daisen": {
+   "title": "Daisen, Akita",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 39.45305556,
+   "lon": 140.47544444
+  },
+  "city-fujieda": {
+   "title": "Fujieda, Shizuoka",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 34.86741667,
+   "lon": 138.25772222
+  },
+  "city-goshogawara": {
+   "title": "Goshogawara",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 40.80802778,
+   "lon": 140.44008333
+  },
+  "city-hamada": {
+   "title": "Hamada, Shimane",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 34.89916667,
+   "lon": 132.09638889
+  },
+  "city-hamura": {
+   "title": "Hamura, Tokyo",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.76716667,
+   "lon": 139.31094444
+  },
+  "city-isahaya": {
+   "title": "Isahaya, Nagasaki",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 32.84333333,
+   "lon": 130.05305556
+  },
+  "city-izumi-kagoshima": {
+   "title": "Izumi, Kagoshima",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 32.09055556,
+   "lon": 130.35277778
+  },
+  "city-jinchang": {
+   "title": "Jinchang",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 38.5214,
+   "lon": 102.188
+  },
+  "city-kiyose": {
+   "title": "Kiyose, Tokyo",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.78572222,
+   "lon": 139.52647222
+  },
+  "city-koga-ibaraki": {
+   "title": "Koga, Ibaraki",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 36.17825,
+   "lon": 139.75544444
+  },
+  "city-liyang": {
+   "title": "Liyang",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 31.4306,
+   "lon": 119.4788
+  },
+  "city-matsusaka": {
+   "title": "Matsusaka",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 34.57794444,
+   "lon": 136.52758333
+  },
+  "city-miaoli": {
+   "title": "Miaoli",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 24.57,
+   "lon": 120.82
+  },
+  "city-muko": {
+   "title": "Mukō",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 34.94861111,
+   "lon": 135.69833333
+  },
+  "city-nakatsu": {
+   "title": "Nakatsu, Ōita",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 33.59833333,
+   "lon": 131.18833333
+  },
+  "city-nichinan": {
+   "title": "Nichinan, Miyazaki",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 31.60194444,
+   "lon": 131.37861111
+  },
+  "city-niiza": {
+   "title": "Niiza, Saitama",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.7935,
+   "lon": 139.56530556
+  },
+  "city-nobeoka": {
+   "title": "Nobeoka",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 32.58222222,
+   "lon": 131.665
+  },
+  "city-qianjiang": {
+   "title": "Qianjiang, Hubei",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 30.4019,
+   "lon": 112.9003
+  },
+  "city-sabae": {
+   "title": "Sabae, Fukui",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.95647222,
+   "lon": 136.18427778
+  },
+  "city-shibata": {
+   "title": "Shibata, Niigata",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 37.94791667,
+   "lon": 139.32727778
+  },
+  "city-shibukawa": {
+   "title": "Shibukawa, Gunma",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 36.38944444,
+   "lon": 139.06333333
+  },
+  "city-shimada": {
+   "title": "Shimada, Shizuoka",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 34.83627778,
+   "lon": 138.19272222
+  },
+  "city-shunan": {
+   "title": "Shūnan",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 34.055,
+   "lon": 131.80611111
+  },
+  "city-songyuan": {
+   "title": "Songyuan",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 45.1419,
+   "lon": 124.8253
+  },
+  "city-tamana": {
+   "title": "Tamana, Kumamoto",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 32.93555556,
+   "lon": 130.56277778
+  },
+  "city-tendo": {
+   "title": "Tendō, Yamagata",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 38.36227778,
+   "lon": 140.37794444
+  },
+  "city-tomigusuku": {
+   "title": "Tomigusuku, Okinawa",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 26.16111111,
+   "lon": 127.66888889
+  },
+  "city-tsubame": {
+   "title": "Tsubame, Niigata",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 37.67308333,
+   "lon": 138.88222222
+  },
+  "city-tokai": {
+   "title": "Tōkai, Aichi",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.02305556,
+   "lon": 136.90219444
+  },
+  "city-uki": {
+   "title": "Uki, Kumamoto",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 32.64777778,
+   "lon": 130.68416667
+  },
+  "city-wuzhong": {
+   "title": "Wuzhong, Ningxia",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 37.9978,
+   "lon": 106.1986
+  },
+  "city-yokote": {
+   "title": "Yokote, Akita",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 39.31133333,
+   "lon": 140.55327778
+  },
+  "city-osaki": {
+   "title": "Ōsaki, Miyagi",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 38.57711111,
+   "lon": 140.95558333
+  },
+  "city-azumino": {
+   "title": "Azumino",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 36.30393611,
+   "lon": 137.90578056
+  },
+  "city-bazhong": {
+   "title": "Bazhong",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 31.868,
+   "lon": 106.748
+  },
+  "city-date": {
+   "title": "Date, Fukushima",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.81913889,
+   "lon": 140.56297222
+  },
+  "city-eniwa": {
+   "title": "Eniwa, Hokkaido",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 42.8825,
+   "lon": 141.5775
+  },
+  "city-inagi": {
+   "title": "Inagi",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 35.63805556,
+   "lon": 139.50444444
+  },
+  "city-izumi-osaka": {
+   "title": "Izumi, Osaka",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 34.48333333,
+   "lon": 135.41666667
+  },
+  "city-kamisu": {
+   "title": "Kamisu",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 35.88994444,
+   "lon": 140.66452778
+  },
+  "city-miyakonojo": {
+   "title": "Miyakonojō",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 31.71944444,
+   "lon": 131.06166667
+  },
+  "city-nabari": {
+   "title": "Nabari, Mie",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 34.62758333,
+   "lon": 136.10838889
+  },
+  "city-nagaokakyo": {
+   "title": "Nagaokakyō, Kyoto",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 34.92694444,
+   "lon": 135.69583333
+  },
+  "city-narashino": {
+   "title": "Narashino",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 35.68038889,
+   "lon": 140.0265
+  },
+  "city-natori": {
+   "title": "Natori, Miyagi",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 38.17152778,
+   "lon": 140.89180556
+  },
+  "city-qitaihe": {
+   "title": "Qitaihe",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 45.771,
+   "lon": 131.003
+  },
+  "city-saiki": {
+   "title": "Saiki, Ōita",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 32.95972222,
+   "lon": 131.9
+  },
+  "city-sanda": {
+   "title": "Sanda, Hyōgo",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 34.88333333,
+   "lon": 135.23333333
+  },
+  "city-shiogama": {
+   "title": "Shiogama",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 38.31436111,
+   "lon": 141.02197222
+  },
+  "city-sukagawa": {
+   "title": "Sukagawa, Fukushima",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.28647222,
+   "lon": 140.37266667
+  },
+  "city-sunchon": {
+   "title": "Sunchon",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 39.41666667,
+   "lon": 125.93333333
+  },
+  "city-tajimi": {
+   "title": "Tajimi",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 35.33277778,
+   "lon": 137.13155556
+  },
+  "city-tamba": {
+   "title": "Tamba, Hyōgo",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 35.18333333,
+   "lon": 135.03333333
+  },
+  "city-tatebayashi": {
+   "title": "Tatebayashi, Gunma",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 36.24483333,
+   "lon": 139.54211111
+  },
+  "city-tatsuno": {
+   "title": "Tatsuno, Hyōgo",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 34.85083333,
+   "lon": 134.54527778
+  },
+  "city-yame": {
+   "title": "Yame",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 33.21194444,
+   "lon": 130.55777778
+  },
+  "city-ayase": {
+   "title": "Ayase, Kanagawa",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.43333333,
+   "lon": 139.43333333
+  },
+  "city-hashimoto": {
+   "title": "Hashimoto, Wakayama",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.31666667,
+   "lon": 135.6
+  },
+  "city-inazawa": {
+   "title": "Inazawa",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.26472222,
+   "lon": 136.79691667
+  },
+  "city-kai": {
+   "title": "Kai, Yamanashi",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.66080556,
+   "lon": 138.51577778
+  },
+  "city-kan-onji": {
+   "title": "Kan'onji, Kagawa",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.12722222,
+   "lon": 133.66138889
+  },
+  "city-kasuga": {
+   "title": "Kasuga, Fukuoka",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 33.53277778,
+   "lon": 130.47027778
+  },
+  "city-katori": {
+   "title": "Katori, Chiba",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.89781194,
+   "lon": 140.49963278
+  },
+  "city-kimitsu": {
+   "title": "Kimitsu",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.33045,
+   "lon": 139.90267778
+  },
+  "city-komae": {
+   "title": "Komae, Tokyo",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.63477778,
+   "lon": 139.57869444
+  },
+  "city-kudamatsu": {
+   "title": "Kudamatsu",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.015,
+   "lon": 131.87027778
+  },
+  "city-laibin": {
+   "title": "Laibin",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 23.7501,
+   "lon": 109.2212
+  },
+  "city-minamiuonuma": {
+   "title": "Minamiuonuma",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 37.06552778,
+   "lon": 138.87608333
+  },
+  "city-miyoshi-hiroshima": {
+   "title": "Miyoshi, Hiroshima",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.8,
+   "lon": 132.85
+  },
+  "city-mooka": {
+   "title": "Mooka, Tochigi",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.44041667,
+   "lon": 140.01338889
+  },
+  "city-moriguchi": {
+   "title": "Moriguchi, Osaka",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.7375,
+   "lon": 135.56416667
+  },
+  "city-nagareyama": {
+   "title": "Nagareyama",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.85630556,
+   "lon": 139.90286111
+  },
+  "city-shirakawa": {
+   "title": "Shirakawa, Fukushima",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 37.12630556,
+   "lon": 140.21091667
+  },
+  "city-soka": {
+   "title": "Sōka",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.82538889,
+   "lon": 139.80533333
+  },
+  "city-toda": {
+   "title": "Toda, Saitama",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.81761111,
+   "lon": 139.67791667
+  },
+  "city-tokchon": {
+   "title": "Tokchon",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 39.761,
+   "lon": 126.312
+  },
+  "city-tome": {
+   "title": "Tome, Miyagi",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 38.69183333,
+   "lon": 141.18775
+  },
+  "city-towada": {
+   "title": "Towada",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 40.61277778,
+   "lon": 141.20583333
+  },
+  "city-tsushima-city": {
+   "title": "Tsushima, Aichi",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.17705556,
+   "lon": 136.74127778
+  },
+  "city-wafangdian": {
+   "title": "Wafangdian",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 39.6271,
+   "lon": 121.9796
+  },
+  "city-xinghua": {
+   "title": "Xinghua, Jiangsu",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 32.912,
+   "lon": 119.8526
+  },
+  "city-yasu": {
+   "title": "Yasu, Shiga",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.06666667,
+   "lon": 136.03333333
+  },
+  "city-yawata": {
+   "title": "Yawata",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.87555556,
+   "lon": 135.7075
+  },
+  "city-yingtan": {
+   "title": "Yingtan",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 28.2721,
+   "lon": 117.0395
+  },
+  "city-ageo": {
+   "title": "Ageo",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.97738889,
+   "lon": 139.59319444
+  },
+  "city-anan": {
+   "title": "Anan, Tokushima",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 33.91666667,
+   "lon": 134.66666667
+  },
+  "city-annaka": {
+   "title": "Annaka, Gunma",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.32625,
+   "lon": 138.88713889
+  },
+  "city-chikuma": {
+   "title": "Chikuma, Nagano",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.53388889,
+   "lon": 138.11997222
+  },
+  "city-higashiomi": {
+   "title": "Higashiōmi",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.11666667,
+   "lon": 136.2
+  },
+  "city-inzai": {
+   "title": "Inzai",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.83333333,
+   "lon": 140.15
+  },
+  "city-iruma": {
+   "title": "Iruma, Saitama",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.83580556,
+   "lon": 139.39113889
+  },
+  "city-kasama": {
+   "title": "Kasama, Ibaraki",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.34516667,
+   "lon": 140.30430556
+  },
+  "city-kawachinagano": {
+   "title": "Kawachinagano",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.46666667,
+   "lon": 135.56666667
+  },
+  "city-kinokawa": {
+   "title": "Kinokawa, Wakayama",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.26638889,
+   "lon": 135.36527778
+  },
+  "city-kurihara": {
+   "title": "Kurihara, Miyagi",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 38.73011111,
+   "lon": 141.02147222
+  },
+  "city-mizuho": {
+   "title": "Mizuho, Gifu",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.39180556,
+   "lon": 136.69086111
+  },
+  "city-moriya": {
+   "title": "Moriya, Ibaraki",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.95141667,
+   "lon": 139.97541667
+  },
+  "city-munakata": {
+   "title": "Munakata, Fukuoka",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 33.80555556,
+   "lon": 130.54083333
+  },
+  "city-naka": {
+   "title": "Naka, Ibaraki",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.45738889,
+   "lon": 140.48675
+  },
+  "city-nihonmatsu": {
+   "title": "Nihonmatsu, Fukushima",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.58486111,
+   "lon": 140.43116667
+  },
+  "city-ritto": {
+   "title": "Rittō, Shiga",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.01666667,
+   "lon": 136
+  },
+  "city-sakai-fukui": {
+   "title": "Sakai, Fukui",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.16694444,
+   "lon": 136.23138889
+  },
+  "city-sakaide": {
+   "title": "Sakaide, Kagawa",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.31666667,
+   "lon": 133.86027778
+  },
+  "city-shikokuchuo": {
+   "title": "Shikokuchūō",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 33.98333333,
+   "lon": 133.55
+  },
+  "city-shimotsuke": {
+   "title": "Shimotsuke, Tochigi",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.38719444,
+   "lon": 139.84205556
+  },
+  "city-shizuishan": {
+   "title": "Shizuishan",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 38.9846,
+   "lon": 106.3828
+  },
+  "city-tamano": {
+   "title": "Tamano",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.48861111,
+   "lon": 133.94861111
+  },
+  "city-toki": {
+   "title": "Toki, Gifu",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.41919444,
+   "lon": 137.18325
+  },
+  "city-toride": {
+   "title": "Toride, Ibaraki",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.9115,
+   "lon": 140.05036111
+  },
+  "city-yaizu": {
+   "title": "Yaizu",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.86694444,
+   "lon": 138.32472222
+  },
+  "city-aira": {
+   "title": "Aira, Kagoshima",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 31.72833333,
+   "lon": 130.62777778
+  },
+  "city-aisai": {
+   "title": "Aisai",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.15277778,
+   "lon": 136.72822222
+  },
+  "city-bando": {
+   "title": "Bandō, Ibaraki",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 36.04841667,
+   "lon": 139.88872222
+  },
+  "city-fujimi": {
+   "title": "Fujimi, Saitama",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.85655556,
+   "lon": 139.54916667
+  },
+  "city-fukaya": {
+   "title": "Fukaya, Saitama",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 36.19747222,
+   "lon": 139.2815
+  },
+  "city-gyoda": {
+   "title": "Gyōda",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 36.13888889,
+   "lon": 139.45563889
+  },
+  "city-habikino": {
+   "title": "Habikino",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.55,
+   "lon": 135.6
+  },
+  "city-hanno": {
+   "title": "Hannō",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.85566667,
+   "lon": 139.32772222
+  },
+  "city-hekinan": {
+   "title": "Hekinan",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.88469444,
+   "lon": 136.99341667
+  },
+  "city-higashikurume": {
+   "title": "Higashikurume, Tokyo",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.758,
+   "lon": 139.52986111
+  },
+  "city-hukou": {
+   "title": "Hukou, Hsinchu",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 24.9,
+   "lon": 121.05
+  },
+  "city-isehara": {
+   "title": "Isehara, Kanagawa",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.38333333,
+   "lon": 139.3
+  },
+  "city-ishioka": {
+   "title": "Ishioka, Ibaraki",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 36.19083333,
+   "lon": 140.28722222
+  },
+  "city-izumiotsu": {
+   "title": "Izumiōtsu",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.5,
+   "lon": 135.4
+  },
+  "city-zhunan": {
+   "title": "Zhunan",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 24.68333333,
+   "lon": 120.88333333
+  },
+  "city-joyo": {
+   "title": "Jōyō, Kyoto",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.85305556,
+   "lon": 135.78
+  },
+  "city-kazo": {
+   "title": "Kazo, Saitama",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 36.13144444,
+   "lon": 139.60177778
+  },
+  "city-koga-fukuoka": {
+   "title": "Koga, Fukuoka",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.72888889,
+   "lon": 130.47
+  },
+  "city-konan-aichi": {
+   "title": "Kōnan, Aichi",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.33208333,
+   "lon": 136.87066667
+  },
+  "city-minamisoma": {
+   "title": "Minamisōma",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.64219444,
+   "lon": 140.95730556
+  },
+  "city-mitoyo": {
+   "title": "Mitoyo, Kagawa",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.1825,
+   "lon": 133.715
+  },
+  "city-mobara": {
+   "title": "Mobara",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.42852778,
+   "lon": 140.28805556
+  },
+  "city-moriyama": {
+   "title": "Moriyama, Shiga",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.05861111,
+   "lon": 135.99416667
+  },
+  "city-nogata": {
+   "title": "Nōgata, Fukuoka",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.74416667,
+   "lon": 130.72972222
+  },
+  "city-ryugasaki": {
+   "title": "Ryūgasaki, Ibaraki",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.91155556,
+   "lon": 140.18230556
+  },
+  "city-settsu": {
+   "title": "Settsu, Osaka",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.77722222,
+   "lon": 135.56222222
+  },
+  "city-shangzhi": {
+   "title": "Shangzhi",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 45.207,
+   "lon": 127.965
+  },
+  "city-songrim": {
+   "title": "Songrim",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 38.7542,
+   "lon": 125.645
+  },
+  "city-soja": {
+   "title": "Sōja",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.67277778,
+   "lon": 133.74638889
+  },
+  "city-takasago": {
+   "title": "Takasago, Hyōgo",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 34.76666667,
+   "lon": 134.78333333
+  },
+  "city-yurihonjo": {
+   "title": "Yurihonjō",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 39.38586111,
+   "lon": 140.04883333
+  },
+  "city-obu": {
+   "title": "Ōbu",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.01166667,
+   "lon": 136.96366667
+  },
+  "city-otawara": {
+   "title": "Ōtawara",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 36.87111111,
+   "lon": 140.01555556
+  },
+  "city-ama": {
+   "title": "Ama, Aichi",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.20044444,
+   "lon": 136.78322222
+  },
+  "city-chiryu": {
+   "title": "Chiryū",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.00139694,
+   "lon": 137.05060278
+  },
+  "city-daito": {
+   "title": "Daitō, Osaka",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.71666667,
+   "lon": 135.61666667
+  },
+  "city-honjo": {
+   "title": "Honjō, Saitama",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.24358333,
+   "lon": 139.19038889
+  },
+  "city-huwei": {
+   "title": "Huwei, Yunlin",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 23.719983,
+   "lon": 120.435364
+  },
+  "city-imizu": {
+   "title": "Imizu",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.73055556,
+   "lon": 137.07555556
+  },
+  "city-jingshan": {
+   "title": "Jingshan, Hubei",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 31.13333333,
+   "lon": 113.11666667
+  },
+  "city-kamagaya": {
+   "title": "Kamagaya",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.77683333,
+   "lon": 140.00080556
+  },
+  "city-kani": {
+   "title": "Kani, Gifu",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.42605556,
+   "lon": 137.06133333
+  },
+  "city-kizugawa": {
+   "title": "Kizugawa, Kyoto",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.73722222,
+   "lon": 135.82
+  },
+  "city-koshi": {
+   "title": "Kōshi, Kumamoto",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 32.88583333,
+   "lon": 130.78972222
+  },
+  "city-longgang": {
+   "title": "Longgang, Zhejiang",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-matsubara": {
+   "title": "Matsubara",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.58333333,
+   "lon": 135.55
+  },
+  "city-minokamo": {
+   "title": "Minokamo, Gifu",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.44022222,
+   "lon": 137.01566667
+  },
+  "city-munchon": {
+   "title": "Munchon",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.259,
+   "lon": 127.356
+  },
+  "city-nakagawa": {
+   "title": "Nakagawa, Fukuoka",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 33.49944444,
+   "lon": 130.42222222
+  },
+  "city-san-yo-onoda": {
+   "title": "San'yō-Onoda",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.00305556,
+   "lon": 131.18194444
+  },
+  "city-tagajo": {
+   "title": "Tagajō",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.29383333,
+   "lon": 141.00425
+  },
+  "city-tianchang": {
+   "title": "Tianchang",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 32.6811,
+   "lon": 119.0137
+  },
+  "city-tondabayashi": {
+   "title": "Tondabayashi",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.5,
+   "lon": 135.6
+  },
+  "city-xiaguan": {
+   "title": "Xiaguan, Dali City",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 25.6,
+   "lon": 100.23333333
+  },
+  "city-yoshikawa": {
+   "title": "Yoshikawa, Saitama",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.89386111,
+   "lon": 139.84141667
+  },
+  "city-arao": {
+   "title": "Arao, Kumamoto",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 32.98666667,
+   "lon": 130.43305556
+  },
+  "city-bayanhot": {
+   "title": "Bayanhot",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 38.83777778,
+   "lon": 105.69527778
+  },
+  "city-chikushino": {
+   "title": "Chikushino, Fukuoka",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 33.4875,
+   "lon": 130.52583333
+  },
+  "city-fujimino": {
+   "title": "Fujimino, Saitama",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.87952778,
+   "lon": 139.51977778
+  },
+  "city-hashima-city": {
+   "title": "Hashima, Gifu",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.31994444,
+   "lon": 136.70327778
+  },
+  "city-hidaka": {
+   "title": "Hidaka, Saitama",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.90780556,
+   "lon": 139.33908333
+  },
+  "city-higashimatsuyama": {
+   "title": "Higashimatsuyama, Saitama",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.04216667,
+   "lon": 139.39991667
+  },
+  "city-higashiyamato": {
+   "title": "Higashiyamato, Tokyo",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.75,
+   "lon": 139.42638889
+  },
+  "city-holingol": {
+   "title": "Holingol",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 45.53333333,
+   "lon": 119.65277778
+  },
+  "city-zhudong": {
+   "title": "Zhudong",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 24.73661111,
+   "lon": 121.09157778
+  },
+  "city-kaizuka": {
+   "title": "Kaizuka, Osaka",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 34.43333333,
+   "lon": 135.36666667
+  },
+  "city-konan-shiga": {
+   "title": "Konan, Shiga",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35,
+   "lon": 136.08333333
+  },
+  "city-miyoshi-aichi": {
+   "title": "Miyoshi, Aichi",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.08944444,
+   "lon": 137.07483333
+  },
+  "city-ogori": {
+   "title": "Ogōri, Fukuoka",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 33.39638889,
+   "lon": 130.55555556
+  },
+  "city-shiki": {
+   "title": "Shiki, Saitama",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.83666667,
+   "lon": 139.58030556
+  },
+  "city-xinfeng": {
+   "title": "Xinfeng, Hsinchu",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 24.91666667,
+   "lon": 121
+  },
+  "city-sodegaura": {
+   "title": "Sodegaura",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.43,
+   "lon": 139.95441667
+  },
+  "city-toyoake": {
+   "title": "Toyoake",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.05086111,
+   "lon": 137.01283333
+  },
+  "city-yotsukaido": {
+   "title": "Yotsukaidō",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.66977778,
+   "lon": 140.16794444
+  },
+  "city-yukuhashi": {
+   "title": "Yukuhashi, Fukuoka",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 33.72888889,
+   "lon": 130.98305556
+  },
+  "city-yuki": {
+   "title": "Yūki, Ibaraki",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.30547222,
+   "lon": 139.87663889
+  },
+  "city-chikusei": {
+   "title": "Chikusei",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.30708333,
+   "lon": 139.98313889
+  },
+  "city-hanyu": {
+   "title": "Hanyū, Saitama",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.17263889,
+   "lon": 139.54847222
+  },
+  "city-joso": {
+   "title": "Jōsō",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.02355556,
+   "lon": 139.99383333
+  },
+  "city-kashiba": {
+   "title": "Kashiba, Nara",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.54138889,
+   "lon": 135.69916667
+  },
+  "city-kashiwara": {
+   "title": "Kashiwara",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.58333333,
+   "lon": 135.63333333
+  },
+  "city-katano": {
+   "title": "Katano",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.78333333,
+   "lon": 135.68333333
+  },
+  "city-kitanagoya": {
+   "title": "Kitanagoya",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.24563889,
+   "lon": 136.86594444
+  },
+  "city-konosu": {
+   "title": "Kōnosu",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.06588889,
+   "lon": 139.52219444
+  },
+  "city-nonoichi": {
+   "title": "Nonoichi, Ishikawa",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.51941667,
+   "lon": 136.60977778
+  },
+  "city-okegawa": {
+   "title": "Okegawa, Saitama",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.00572222,
+   "lon": 139.54269444
+  },
+  "city-owariasahi": {
+   "title": "Owariasahi",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.21652778,
+   "lon": 137.03536111
+  },
+  "city-shiroi": {
+   "title": "Shiroi",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.79147222,
+   "lon": 140.05630556
+  },
+  "city-takaishi": {
+   "title": "Takaishi, Osaka",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.51666667,
+   "lon": 135.45
+  },
+  "city-takizawa": {
+   "title": "Takizawa, Iwate",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 39.73469444,
+   "lon": 141.07705556
+  },
+  "city-tsurugashima": {
+   "title": "Tsurugashima, Saitama",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.9345,
+   "lon": 139.39308333
+  },
+  "city-togane": {
+   "title": "Tōgane",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.55994444,
+   "lon": 140.36608333
+  },
+  "city-yachimata": {
+   "title": "Yachimata",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.66666667,
+   "lon": 140.31666667
+  },
+  "city-yamatotakada": {
+   "title": "Yamatotakada, Nara",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.515,
+   "lon": 135.73638889
+  },
+  "city-yashio": {
+   "title": "Yashio, Saitama",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.82252778,
+   "lon": 139.83922222
+  },
+  "city-onojo": {
+   "title": "Ōnojō",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 33.53638889,
+   "lon": 130.47861111
+  },
+  "city-caotun": {
+   "title": "Caotun",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 23.983,
+   "lon": 120.7326
+  },
+  "city-dashiqiao": {
+   "title": "Dashiqiao",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 40.61666667,
+   "lon": 122.51666667
+  },
+  "city-fujiidera": {
+   "title": "Fujiidera",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 34.56666667,
+   "lon": 135.6
+  },
+  "city-fukutsu": {
+   "title": "Fukutsu",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 33.76694444,
+   "lon": 130.49111111
+  },
+  "city-gujiao": {
+   "title": "Gujiao",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 37.907,
+   "lon": 112.176
+  },
+  "city-hasuda": {
+   "title": "Hasuda, Saitama",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 35.9945,
+   "lon": 139.66238889
+  },
+  "city-hemei": {
+   "title": "Hemei",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 24.11666667,
+   "lon": 120.5
+  },
+  "city-iwade": {
+   "title": "Iwade, Wakayama",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 34.25,
+   "lon": 135.31666667
+  },
+  "city-ji-an": {
+   "title": "Ji'an, Hualien",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 23.95,
+   "lon": 121.57222222
+  },
+  "city-kitamoto": {
+   "title": "Kitamoto, Saitama",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 36.02688889,
+   "lon": 139.53019444
+  },
+  "city-shijonawate": {
+   "title": "Shijōnawate",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 34.74,
+   "lon": 135.63944444
+  },
+  "city-shiraoka": {
+   "title": "Shiraoka, Saitama",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 36.01905556,
+   "lon": 139.67694444
+  },
+  "city-tomiya": {
+   "title": "Tomiya, Miyagi",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 38.4,
+   "lon": 140.88333333
+  },
+  "city-tsukubamirai": {
+   "title": "Tsukubamirai",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 35.96305556,
+   "lon": 140.03702778
+  },
+  "city-kochi-japan": {
+   "title": "Kōchi, Kōchi",
+   "monthlyViews": 4718,
+   "days": 60,
+   "lat": 33.55888889,
+   "lon": 133.53138889
+  },
+  "city-gwangju-gyeonggi": {
+   "title": "Gwangju, Gyeonggi",
+   "monthlyViews": 1218,
+   "days": 60,
+   "lat": 37.36666667,
+   "lon": 127.28333333
+  },
+  "city-suzhou-anhui": {
+   "title": "Suzhou, Anhui",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 33.648,
+   "lon": 116.964
+  },
+  "city-fuzhou-jiangxi": {
+   "title": "Fuzhou, Jiangxi",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 27.949,
+   "lon": 116.358
+  },
+  "city-chino-nagano": {
+   "title": "Chino, Nagano",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.99552778,
+   "lon": 138.15880556
+  },
+  "city-chita-aichi": {
+   "title": "Chita, Aichi",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35,
+   "lon": 136.86666667
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",
