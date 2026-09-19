@@ -19,8 +19,18 @@ per wave) and SPEC §13; git log has the rest.
 
 # Start here (the next session, in order)
 
-**Paused 2026-09-19 (the user's call, mid West and Central Asia wave) — the
-next command is in step 3; "continue from where you left off" means run it.**
+**Resume point (refreshed with every chunk commit — the user's standing
+instruction of 2026-09-19: run the whole roadmap without asking, keep this
+current against an auto-compaction; "continue from where you left off" means
+do the next thing named here):** West and Central Asia wave, probe 2 (the
+small countries' rivers, `probes/wca-rivers-small.json`) is RUNNING or was
+interrupted — its output is `work/wca-rivers-small.out` (ends with
+`PROBE-DONE` when finished). If finished: `article-size.mjs
+work/wca-rivers-small.json --no-figure --min-views=30
+--sister=ru,tr,fa,ar,he,ka,hy,az,uz`, the probe again, `chunk --tag=wca2
+--min-views=30 --allow-no-figure`, hand-clean with themes by description
+(step 3 below), fold, taken list, qualify, pipeline, commit, push. If not:
+rerun the probe. Nothing else is uncommitted.
 
 1. `git checkout expansion-2` (it is `main` + decision 5 + the Mexico and
    Canada, Eastern Europe and East Asia waves + the first West and Central
