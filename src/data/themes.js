@@ -1281,7 +1281,10 @@ globalThis.WORMILLION_THEMES = {
       'Hiunchuli', 'Singu Chuli', 'Kangto',
       'Nanda Kot', 'Hardeol', 'Changabang', 'Dunagiri',
       'Mana Peak', 'Mukut Parbat', 'Satopanth', 'Abi Gamin',
-      'Nyenchen Tanglha'
+      'Nyenchen Tanglha',
+      // range-tag.mjs from the infobox range field
+      'Karjiang', 'Jongsong Peak', 'Labuche Kang', 'Khumbutse', 'Lingtren',
+      'Kangphu Kang', 'Kubi Gangri', 'Changzheng Ri'
     ],
     'the Andes': ['Aconcagua', 'Ojos del Salado', 'Huascaran', 'Illimani', 'Chimborazo', 'Cotopaxi',
       // 2026-09-14 expansion
@@ -1578,7 +1581,14 @@ globalThis.WORMILLION_THEMES = {
       // add-theme.mjs
       'The Table', 'Ice Peak', 'The Pyramid', 'Cerro Prieto',
       // 2026-09-18 Eastern Europe mountains
-      'Ciomadul'
+      'Ciomadul',
+      // 2026-09-19 expansion
+      'Mount Mihara', 'Mount Hakone', 'Showa-shinzan', 'Mount Guanyin', 'Mount Kuju',
+      'Mount Tarumae', 'Mount Xiqiao', 'Mount Yufu', 'Khorgo', 'Hokkaido Koma-ga-take',
+      'Mount Nikko-Shirane', 'Shinmoedake', 'Mount Ashitaka', 'Mount E', 'Mount Rausu',
+      'Mount Io (Shiretoko)', 'Mount Kusatsu-Shirane', 'Mount Eniwa', 'Mount Kurohime', 'Mount Tomuraushi',
+      'Mount Iizuna', 'Mount Tateshina', 'Mount Tsurumi', 'Mount Azuma-kofuji', 'Mount Io (Akan)',
+      'Mount Kirigamine', 'Mount Kurikoma', 'Mount Naeba', 'Mount Oakan', 'Mount Shari'
     ]
   },
 

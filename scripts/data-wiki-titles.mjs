@@ -127,7 +127,7 @@ export const WIKI_TITLES = {
 
   // --- mountains ---
   'mountain-puy-de-dome': 'Puy de Dôme',
-  'mountain-mount-davis': 'Mount Davis (Pennsylvania)',
+  'mountain-mount-davis-pennsylvania': 'Mount Davis (Pennsylvania)',
   'mountain-lions-head': "Lion's Head (Cape Town)",
   'mountain-signal-hill': 'Signal Hill (Cape Town)',
   'mountain-cleeve-hill': 'Cleeve Hill, Gloucestershire',
@@ -3355,7 +3355,7 @@ export const WIKI_TITLES = {
   "mountain-takht-e-sulaiman": "Takht-e-Sulaiman",
   "mountain-mount-bogda": "Bogda Peak",
   "mountain-mount-hua": "Huashan",
-  "mountain-mount-heng": "Mount Heng (Hunan)",
+  "mountain-mount-heng-hunan": "Mount Heng (Hunan)",
   "mountain-mount-lu": "Lushan",
   "mountain-mount-tianzi": "Tianzi Mountain",
   "mountain-mount-wudang": "Wudang Mountains",
@@ -3365,11 +3365,11 @@ export const WIKI_TITLES = {
   "mountain-mount-xiangshan": "Fragrant Hills",
   "mountain-mount-baiyun": "Baiyun Mountain (Guangdong)",
   "mountain-mount-yuntai": "Yuntai Mountain (Henan)",
-  "mountain-namsan": "Namsan (Seoul)",
+  "mountain-namsan-seoul": "Namsan (Seoul)",
   "mountain-mount-asahi": "Asahi-dake",
   "mountain-mount-koya": "Mount Kōya",
   "mountain-mount-kongo": "Mount Kongō",
-  "mountain-mount-tsurugi": "Mount Tsurugi (Tokushima)",
+  "mountain-mount-tsurugi-tokushima": "Mount Tsurugi (Tokushima)",
   "mountain-kanlaon": "Kanlaon Volcano",
   "mountain-sinabung": "Mount Sinabung",
   "mountain-mount-lokon": "Lokon-Empung",
@@ -3542,7 +3542,7 @@ export const WIKI_TITLES = {
   "mountain-mount-putuo": "Mount Putuo",
   "mountain-laoshan": "Mount Lao",
   "mountain-mount-hotaka": "Mount Hotakadake",
-  "mountain-mount-kirishima": "Mount Karakuni",
+  "mountain-mount-kirishima": "Mount Kirishima",
   "mountain-mount-tokachi": "Mount Tokachi (Daisetsuzan)",
   "mountain-yushan": "Yushan (mountain)",
   "mountain-alishan": "Alishan, Chiayi",
@@ -4911,7 +4911,7 @@ export const WIKI_TITLES = {
   "mountain-mount-mcgregor": "Mount McGregor (mountain)",
   "mountain-thompson-peak": "Thompson Peak (Idaho)",
   "mountain-bare-mountain": "Bare Mountain (Massachusetts)",
-  "mountain-devils-peak": "Devils Peak (Santa Barbara County, California)",
+  "mountain-devils-peak-california": "Devils Peak (Santa Barbara County, California)",
   "mountain-laurel-hill": "Laurel Hill (Pennsylvania)",
   "mountain-mount-abraham": "Mount Abraham (Vermont)",
   "mountain-mount-pierce": "Mount Pierce (New Hampshire)",
@@ -5911,7 +5911,7 @@ export const WIKI_TITLES = {
   "mountain-may-hill": "May Hill, Gloucestershire",
   "mountain-black-down": "Black Down, Somerset",
   "mountain-mullaghmore": "Mullaghmore, County Clare",
-  "mountain-purple-mountain": "Purple Mountain (Kerry)",
+  "mountain-purple-mountain-kerry": "Purple Mountain (Kerry)",
   "mountain-beinn-ime": "Beinn Ìme",
   "mountain-cnoc-na-peiste": "Cnoc na Péiste",
   "mountain-stuc-a-chroin": "Stùc a' Chroin",
@@ -8717,7 +8717,51 @@ export const WIKI_TITLES = {
   "lake-khokh-nuur": "Khökh Nuur",
 
   // --- lake (2026-09-19 expansion) ---
-  "lake-crescent-lake-dunhuang": "Crescent Lake (Dunhuang)"
+  "lake-crescent-lake-dunhuang": "Crescent Lake (Dunhuang)",
+
+  // --- mountain (2026-09-19 expansion) ---
+  "mountain-khuiten-peak": "Khüiten Peak",
+  "mountain-qixing-mountain": "Qixing Mountain (Taipei)",
+  "mountain-showa-shinzan": "Shōwa-shinzan",
+  "mountain-mount-guanyin": "Mount Guanyin (New Taipei)",
+  "mountain-mount-hoei": "Mount Hōei",
+  "mountain-mount-kuju": "Mount Kujū",
+  "mountain-mount-omine": "Mount Ōmine",
+  "mountain-wunu-mountain": "Wunü Mountain",
+  "mountain-mount-nokogiri": "Mount Nokogiri (Chiba)",
+  "mountain-mount-oyama": "Mount Ōyama (Kanagawa)",
+  "mountain-mount-nikko-shirane": "Mount Nikkō-Shirane",
+  "mountain-mount-parker": "Mount Parker (Hong Kong)",
+  "mountain-gamaksan": "Gamaksan (Gyeonggi)",
+  "mountain-mount-io-shiretoko": "Mount Iō (Shiretoko)",
+  "mountain-ma-on-shan": "Ma On Shan (peak)",
+  "mountain-mount-aka": "Mount Aka (Yatsugatake)",
+  "mountain-mount-kinka": "Mount Kinka (Gifu)",
+  "mountain-mount-myogi": "Mount Myōgi",
+  "mountain-mount-tomuraushi": "Mount Tomuraushi (Daisetsuzan)",
+  "mountain-mount-odaigahara": "Mount Ōdaigahara",
+  "mountain-sunset-peak": "Sunset Peak (Hong Kong)",
+  "mountain-ansan": "Ansan (Seoul)",
+  "mountain-chilbosan": "Chilbosan (North Hamgyong)",
+  "mountain-mount-hakkyo": "Mount Hakkyō",
+  "mountain-mount-laojun": "Mount Laojun (Yunnan)",
+  "mountain-monkhkhairkhan-mountain": "Mönkhkhairkhan Mountain",
+  "mountain-mount-buko": "Mount Bukō",
+  "mountain-mount-io-akan": "Mount Iō (Akan)",
+  "mountain-mount-senjo": "Mount Senjō (Akaishi)",
+
+  // --- mountain (2026-09-19 expansion) ---
+  "mountain-purple-mountain-nanjing": "Purple Mountain (Nanjing)",
+  "mountain-mount-tsurugi-toyama": "Mount Tsurugi (Toyama)",
+  "mountain-mount-heng-shanxi": "Mount Heng (Shanxi)",
+  "mountain-the-crown": "The Crown (mountain)",
+  "mountain-mount-davis-hong-kong": "Mount Davis, Hong Kong",
+  "mountain-beacon-hill": "Beacon Hill (Hong Kong)",
+  "mountain-castle-peak-hong-kong": "Castle Peak (Hong Kong)",
+  "mountain-namsan-gyeongju": "Namsan (Gyeongju)",
+  "mountain-devil-s-peak-hong-kong": "Devil's Peak, Hong Kong",
+  // --- 2026-09-18 East Asia mountains: the Nyenchen Tanglha row is the 7,162 m peak (its article is Mount Nyenchen Tanglha, not the range); the Mount Kirishima row is the volcanic group article of that name, not a second pointer at Mount Karakuni ---
+  "mountain-nyenchen-tanglha": "Mount Nyenchen Tanglha"
 };
 
 /**
@@ -9314,5 +9358,7 @@ export const WIKI_VERIFIED = new Set([
   // --- 2026-09-18 Eastern Europe seas: three articles without a short description (Patok is the Albanian lagoon, Kalamita the Crimean bay, the Dniester Estuary the liman) ---
   "sea_ocean-patok-lagoon",
   "sea_ocean-kalamita-bay",
-  "sea_ocean-dniester-estuary"
+  "sea_ocean-dniester-estuary",
+  // --- 2026-09-18 East Asia mountains: Wunu Mountain is the Goguryeo fortress mountain ("Landmass" by description) ---
+  "mountain-wunu-mountain"
 ]);

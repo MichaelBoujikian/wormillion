@@ -7785,7 +7785,7 @@ Mount Hua|2154|Huashan
 Mount Emei|3099|Emeishan
 Mount Wutai|3061|Wutaishan
 Mount Song|1512|Songshan
-Mount Heng|1300|Nanyue,Hengshan
+Mount Heng (Hunan)|1300|Nanyue,Hengshan
 Mount Lu|1474|Lushan
 Mount Wuyi|2158|Wuyishan
 Mount Sanqing|1817|Sanqingshan
@@ -7814,7 +7814,7 @@ Sutai Mountain|4090
 Seoraksan|1708|Mount Seorak
 Jirisan|1915|Mount Jiri
 Bukhansan|836
-Namsan|262|Namsan Seoul
+Namsan (Seoul)|262|Namsan Seoul
 Taebaeksan|1567
 Songnisan|1058
 Naejangsan|763
@@ -7879,7 +7879,7 @@ Mount Kumotori|2017
 Mount Amagi|1406
 Mount Hiko|1200|Hikosan
 Mount Ishizuchi|1982
-Mount Tsurugi|1955|Tsurugisan
+Mount Tsurugi (Tokushima)|1955|Tsurugisan
 Mount Yake|2455|Yakedake
 Mount Takachiho|1574|Takachiho-no-mine
 Yushan|3952|Jade Mountain,Mount Morrison
@@ -8202,7 +8202,7 @@ Whiteside Mountain|1503
 Bare Mountain|309
 Belknap Crater|2096
 Crestone Needle|4327
-Devils Peak|740
+Devils Peak (California)|740
 Forbidden Peak|2687
 Hot Springs Mountain|1991
 Laurel Hill|913
@@ -8774,7 +8774,7 @@ Kit Hill|334
 Moel Hebog|784
 Mullaghmore|180
 Wolds Top|168
-Purple Mountain|832
+Purple Mountain (Kerry)|832
 Slieve Binnian|746
 Slieve Croob|534
 Three Rock Mountain|448
@@ -9708,6 +9708,172 @@ Vrmac|785
 Vanatarea lui Buteanu|2507
 Klek|1181
 Tara (Serbia)|1544
+Tianmen Mountain|1519
+Burkhan Khaldun|2340
+Mount Suribachi|169
+Mount Cangyan|1000
+Tai Mo Shan|957
+Khuiten Peak|4356
+Mount Mihara|764
+Mount Kurama|584
+Lion Rock|495
+Jardine's Lookout|433
+Mount Liang|198
+Skyang Kangri|7545
+Mount Li|1302
+Karjiang|7221
+Mount Hakone|1438
+Qixing Mountain|1120
+Liushi Shan|7167
+Showa-shinzan|398
+Wuzhi Mountain|1840
+Jongsong Peak|7462
+Mount Guanyin|616
+Mount Hoei|2693
+Mount Kuju|1791
+Mount Omine|1719
+Bogd Khan Mountain|2261
+Teram Kangri|7462
+Moon Hill|380
+Wunu Mountain|821
+Labuche Kang|7367
+Mount Wakakusa|342
+Kowloon Peak|602
+Braemar Hill|200
+Haba Snow Mountain|5396
+Lantau Peak|934
+Mount Miwa|467
+Mount Nokogiri|330
+Taesongsan|270
+Tiantai Mountain|1138
+Mount Aino|3190
+Mount Maya|699
+Mount Tarumae|1041
+Mount Tianzhu|1760
+Mount Yonaha|503
+Tomort|4886
+Wutong Mountain|944
+Khumbutse|6636
+Mount Jinfo|2238
+Mount Miyanoura|1936
+Mount Xiqiao|346
+Mount Yufu|1583
+Mount Oyama|1252
+Khorgo|2400
+Mount Shirouma|2932
+Hokkaido Koma-ga-take|1131
+Mount Ashigara|1213
+Mount Ikoma|642
+Mount Mian|0
+Mount Nicholson|430
+Mount Nikko-Shirane|2579
+Mount Parker|532
+Shinmoedake|1423
+Yuelu Mountain|301
+Baishi Mountain|0
+Bukadaban Feng|6860
+Geumjeongsan|802
+Hung Fa Chai|489
+Kitten Mountain|2142
+Mount Ashitaka|1504
+Mount E|618
+Mount Qiyun|585
+Mount Rausu|1660
+Achasan|287
+Mount Dabajian|3492
+Gamaksan|675
+Geladaindong Peak|6621
+Malchin Peak|4050
+Mount Dingjun|833
+Mount Inasa|333
+Mount Io (Shiretoko)|1562
+Mount Komaki|86
+Mount Kusatsu-Shirane|2165
+Mount Luofu|1296
+Shahi Kangri|6934
+Dinghu Mountain|0
+Lingtren|6749
+Ma On Shan|702
+Mantapsan|2205
+Mount Aka|2899
+Mount Daibosatsu|2057
+Mount Eniwa|1320
+Mount Kinka|329
+Mount Kurohime|2053
+Mount Myogi|1104
+Mount Omoto|526
+Mount Tomuraushi|2141
+Mount Yae|453
+Mount Yamato Katsuragi|959
+Mount Odaigahara|1695
+Sunset Peak|869
+Tate's Cairn|583
+Ansan|296
+Asralt Khairkhan|2799
+Chilbosan|1103
+Jiuding Shan|4969
+Kangphu Kang|7204
+Kubi Gangri|6859
+Lunpo Gangri|7095
+Mount Hakkyo|1915
+Mount Huanggang|2158
+Mount Iizuna|1917
+Mount Kaikoma|2967
+Mount Kellett|501
+Mount Laojun|0
+Mount Tanzawa|1567
+Mount Tateshina|2530
+Mount Tsurumi|1375
+Mount Warusawa|3141
+Mount Xiaowutai|2882
+Monkhkhairkhan Mountain|4231
+Sepu Kangri|6956
+Yuzhu Peak|6178
+Tsambagarav|4193
+Xuelian Feng|6627
+Bairiga|6882
+Chakragil|6760
+Changzheng Ri|6916
+Daedunsan|878
+Mount Akaishi|3120
+Mount Azuma-kofuji|1705
+Mount Buko|1304
+Mount Butler|436
+Mount Io (Akan)|508
+Mount Jianglang|817
+Mount Jizu|3240
+Mount Kirigamine|1925
+Mount Kobushi|2475
+Mount Kurikoma|1627
+Mount Mikami|432
+Mount Naeba|2145
+Mount Oakan|1370
+Mount Pan|858
+Mount Senjo|3033
+Mount Shari|1547
+Mount Sobo|1756
+Mount Takatsuma|2353
+Mount Tengu|2646
+Mount Tsubakuro|2763
+Mount Wangwu|571
+Mount Xuebaoding|5588
+Nairamdal Peak|4082
+Qianling Mountain|0
+Seonginbong|984
+Shikengkong|1902
+Suraksan|638
+Taiping Mountain|1950
+Woraksan|1094
+Victoria Peak|552|The Peak,Mount Austin
+Purple Mountain (Nanjing)|448|Zijin Shan,Zijinshan
+Mount Tsurugi (Toyama)|2999|Tsurugi-dake
+Mount Heng (Shanxi)|2017|Hengshan (Shanxi),Beiyue
+The Crown|7295|Huang Guan Shan,Crown Peak
+Mount Davis (Hong Kong)|269
+Beacon Hill|457
+Castle Peak (Hong Kong)|583
+Namsan (Gyeongju)|494
+Devil's Peak (Hong Kong)|222
 `;
 
 export const MINOR_PEAKS = `
@@ -9718,7 +9884,7 @@ Mount Sunflower|1231
 Schiehallion|1083
 Mount Greylock|1063
 Kekes|1014
-Mount Davis|979
+Mount Davis (Pennsylvania)|979
 Ben Lomond|974
 Mount Monadnock|965
 Helvellyn|950

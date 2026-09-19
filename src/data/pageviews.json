@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T06:05:40.454Z",
+ "fetched": "2026-09-19T06:45:15.866Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -86665,11 +86665,11 @@
    "lon": 79.6025
   },
   "mountain-nyenchen-tanglha": {
-   "title": "Nyenchen Tanglha Mountains",
-   "monthlyViews": 426,
+   "title": "Mount Nyenchen Tanglha",
+   "monthlyViews": 335,
    "days": 60,
-   "lat": 30.37083333,
-   "lon": 90.58444444
+   "lat": 30.3675,
+   "lon": 90.585
   },
   "mountain-masherbrum": {
    "title": "Masherbrum",
@@ -86972,7 +86972,7 @@
    "lat": 34.472416,
    "lon": 112.934647
   },
-  "mountain-mount-heng": {
+  "mountain-mount-heng-hunan": {
    "title": "Mount Heng (Hunan)",
    "monthlyViews": 761,
    "days": 60,
@@ -87175,7 +87175,7 @@
    "lat": 37.6608,
    "lon": 126.9933
   },
-  "mountain-namsan": {
+  "mountain-namsan-seoul": {
    "title": "Namsan",
    "monthlyViews": 1065,
    "days": 60,
@@ -87386,11 +87386,11 @@
    "lon": 130.65805556
   },
   "mountain-mount-kirishima": {
-   "title": "Mount Karakuni",
-   "monthlyViews": 91,
+   "title": "Mount Kirishima",
+   "monthlyViews": 426,
    "days": 60,
-   "lat": 31.93416667,
-   "lon": 130.86166667
+   "lat": 31.93805556,
+   "lon": 130.86138889
   },
   "mountain-mount-yotei": {
    "title": "Mount Yōtei",
@@ -87630,7 +87630,7 @@
    "lat": 33.7675,
    "lon": 133.115
   },
-  "mountain-mount-tsurugi": {
+  "mountain-mount-tsurugi-tokushima": {
    "title": "Mount Tsurugi (Tokushima)",
    "monthlyViews": 517,
    "days": 60,
@@ -89891,7 +89891,7 @@
    "lat": 37.9647221,
    "lon": -105.5766752
   },
-  "mountain-devils-peak": {
+  "mountain-devils-peak-california": {
    "title": "Devils Peak (Santa Barbara County, California)",
    "monthlyViews": 365,
    "days": 60,
@@ -93895,7 +93895,7 @@
    "lat": 53.45244,
    "lon": -0.31336
   },
-  "mountain-purple-mountain": {
+  "mountain-purple-mountain-kerry": {
    "title": "Purple Mountain (Kerry)",
    "monthlyViews": 304,
    "days": 60,
@@ -100433,6 +100433,1168 @@
    "lat": 43.84833333,
    "lon": 19.45944444
   },
+  "mountain-tianmen-mountain": {
+   "title": "Tianmen Mountain",
+   "monthlyViews": 9680,
+   "days": 60,
+   "lat": 29.04988056,
+   "lon": 110.47888889
+  },
+  "mountain-burkhan-khaldun": {
+   "title": "Burkhan Khaldun",
+   "monthlyViews": 5449,
+   "days": 60,
+   "lat": 48.7619601,
+   "lon": 109.0102959
+  },
+  "mountain-mount-suribachi": {
+   "title": "Mount Suribachi",
+   "monthlyViews": 4018,
+   "days": 60,
+   "lat": 24.75027778,
+   "lon": 141.28888889
+  },
+  "mountain-mount-cangyan": {
+   "title": "Mount Cangyan",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 37.82942778,
+   "lon": 114.13655556
+  },
+  "mountain-tai-mo-shan": {
+   "title": "Tai Mo Shan",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 22.41181111,
+   "lon": 114.12314444
+  },
+  "mountain-khuiten-peak": {
+   "title": "Khüiten Peak",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 49.14583333,
+   "lon": 87.81888889
+  },
+  "mountain-mount-mihara": {
+   "title": "Mount Mihara",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 34.72444444,
+   "lon": 139.39472222
+  },
+  "mountain-mount-kurama": {
+   "title": "Mount Kurama",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 35.12388889,
+   "lon": 135.77138889
+  },
+  "mountain-lion-rock": {
+   "title": "Lion Rock",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 22.353102,
+   "lon": 114.187067
+  },
+  "mountain-jardine-s-lookout": {
+   "title": "Jardine's Lookout",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 22.26827,
+   "lon": 114.19244
+  },
+  "mountain-mount-liang": {
+   "title": "Mount Liang",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 35.78662778,
+   "lon": 116.09252778
+  },
+  "mountain-skyang-kangri": {
+   "title": "Skyang Kangri",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 35.92638889,
+   "lon": 76.5675
+  },
+  "mountain-mount-li": {
+   "title": "Mount Li",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 34.3587,
+   "lon": 109.2105
+  },
+  "mountain-karjiang": {
+   "title": "Karjiang",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 28.258122,
+   "lon": 90.647163
+  },
+  "mountain-mount-hakone": {
+   "title": "Mount Hakone",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 35.23,
+   "lon": 139.024
+  },
+  "mountain-qixing-mountain": {
+   "title": "Qixing Mountain (Taipei)",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 25.17083333,
+   "lon": 121.55333333
+  },
+  "mountain-liushi-shan": {
+   "title": "Liushi Shan",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 35.31583333,
+   "lon": 80.91583333
+  },
+  "mountain-showa-shinzan": {
+   "title": "Shōwa-shinzan",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-wuzhi-mountain": {
+   "title": "Wuzhi Mountain",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 18.92122778,
+   "lon": 109.73281944
+  },
+  "mountain-jongsong-peak": {
+   "title": "Jongsong Peak",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 27.88333333,
+   "lon": 88.13333333
+  },
+  "mountain-mount-guanyin": {
+   "title": "Mount Guanyin (New Taipei)",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 25.13638889,
+   "lon": 121.4275
+  },
+  "mountain-mount-hoei": {
+   "title": "Mount Hōei",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 35.34292,
+   "lon": 138.75207
+  },
+  "mountain-mount-kuju": {
+   "title": "Mount Kujū",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 33.08166667,
+   "lon": 131.24
+  },
+  "mountain-mount-omine": {
+   "title": "Mount Ōmine",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 34.25277778,
+   "lon": 135.94055556
+  },
+  "mountain-bogd-khan-mountain": {
+   "title": "Bogd Khan Mountain",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 47.80388889,
+   "lon": 106.98638889
+  },
+  "mountain-teram-kangri": {
+   "title": "Teram Kangri",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 35.58,
+   "lon": 77.07833333
+  },
+  "mountain-moon-hill": {
+   "title": "Moon Hill",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 24.72833333,
+   "lon": 110.46722222
+  },
+  "mountain-wunu-mountain": {
+   "title": "Wunü Mountain",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 41.328002,
+   "lon": 125.417417
+  },
+  "mountain-labuche-kang": {
+   "title": "Labuche Kang",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 28.30416667,
+   "lon": 86.35083333
+  },
+  "mountain-mount-wakakusa": {
+   "title": "Mount Wakakusa",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 34.69103,
+   "lon": 135.85419
+  },
+  "mountain-kowloon-peak": {
+   "title": "Kowloon Peak",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 22.34138889,
+   "lon": 114.22333333
+  },
+  "mountain-braemar-hill": {
+   "title": "Braemar Hill",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 22.2864177,
+   "lon": 114.2064417
+  },
+  "mountain-haba-snow-mountain": {
+   "title": "Haba Snow Mountain",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 27.31833333,
+   "lon": 100.1
+  },
+  "mountain-lantau-peak": {
+   "title": "Lantau Peak",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 22.24976944,
+   "lon": 113.92130278
+  },
+  "mountain-mount-miwa": {
+   "title": "Mount Miwa",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 34.535,
+   "lon": 135.86666667
+  },
+  "mountain-mount-nokogiri": {
+   "title": "Mount Nokogiri (Chiba)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.16027778,
+   "lon": 139.84083333
+  },
+  "mountain-taesongsan": {
+   "title": "Taesongsan",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 39.07388889,
+   "lon": 125.82833333
+  },
+  "mountain-tiantai-mountain": {
+   "title": "Tiantai Mountain",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-aino": {
+   "title": "Mount Aino",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 35.64611111,
+   "lon": 138.22833333
+  },
+  "mountain-mount-maya": {
+   "title": "Mount Maya",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 34.73291667,
+   "lon": 135.20444333
+  },
+  "mountain-mount-tarumae": {
+   "title": "Mount Tarumae",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 42.69,
+   "lon": 141.37805556
+  },
+  "mountain-mount-tianzhu": {
+   "title": "Mount Tianzhu",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 31.06166667,
+   "lon": 116.1875
+  },
+  "mountain-mount-yonaha": {
+   "title": "Mount Yonaha",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 26.717,
+   "lon": 128.21866667
+  },
+  "mountain-tomort": {
+   "title": "Tomort",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 43.07333333,
+   "lon": 94.34666667
+  },
+  "mountain-wutong-mountain": {
+   "title": "Wutong Mountain",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 22.58227778,
+   "lon": 114.21463889
+  },
+  "mountain-khumbutse": {
+   "title": "Khumbutse",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 28.0203,
+   "lon": 86.8731
+  },
+  "mountain-mount-jinfo": {
+   "title": "Mount Jinfo",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 29.06666667,
+   "lon": 107.3
+  },
+  "mountain-mount-miyanoura": {
+   "title": "Mount Miyanoura",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 30.33608333,
+   "lon": 130.50416667
+  },
+  "mountain-mount-xiqiao": {
+   "title": "Mount Xiqiao",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 22.92722222,
+   "lon": 112.97277778
+  },
+  "mountain-mount-yufu": {
+   "title": "Mount Yufu",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-oyama": {
+   "title": "Mount Ōyama (Kanagawa)",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.44083333,
+   "lon": 139.23111111
+  },
+  "mountain-khorgo": {
+   "title": "Khorgo",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 48.1847,
+   "lon": 99.8554
+  },
+  "mountain-mount-shirouma": {
+   "title": "Mount Shirouma",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 36.75861111,
+   "lon": 137.75861111
+  },
+  "mountain-hokkaido-koma-ga-take": {
+   "title": "Hokkaido Koma-ga-take",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 42.06333333,
+   "lon": 140.67722222
+  },
+  "mountain-mount-ashigara": {
+   "title": "Mount Ashigara",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-ikoma": {
+   "title": "Mount Ikoma",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.67845278,
+   "lon": 135.67896944
+  },
+  "mountain-mount-mian": {
+   "title": "Mount Mian",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-nicholson": {
+   "title": "Mount Nicholson",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 22.259451,
+   "lon": 114.185704
+  },
+  "mountain-mount-nikko-shirane": {
+   "title": "Mount Nikkō-Shirane",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.79833333,
+   "lon": 139.37416667
+  },
+  "mountain-mount-parker": {
+   "title": "Mount Parker (Hong Kong)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 22.26547222,
+   "lon": 114.21913889
+  },
+  "mountain-shinmoedake": {
+   "title": "Shinmoedake",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 31.91166667,
+   "lon": 130.88305556
+  },
+  "mountain-yuelu-mountain": {
+   "title": "Yuelu Mountain",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 28.19472222,
+   "lon": 112.94333333
+  },
+  "mountain-baishi-mountain": {
+   "title": "Baishi Mountain",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 39.213,
+   "lon": 114.706
+  },
+  "mountain-bukadaban-feng": {
+   "title": "Bukadaban Feng",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.02416667,
+   "lon": 90.86583333
+  },
+  "mountain-geumjeongsan": {
+   "title": "Geumjeongsan",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.28305556,
+   "lon": 129.05555556
+  },
+  "mountain-hung-fa-chai": {
+   "title": "Hung Fa Chai",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 22.54298,
+   "lon": 114.1941
+  },
+  "mountain-kitten-mountain": {
+   "title": "Kitten Mountain",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 25.8,
+   "lon": 110.33333333
+  },
+  "mountain-mount-ashitaka": {
+   "title": "Mount Ashitaka",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 35.238,
+   "lon": 138.7939
+  },
+  "mountain-mount-e": {
+   "title": "Mount E",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 41.80472222,
+   "lon": 141.16611111
+  },
+  "mountain-mount-qiyun": {
+   "title": "Mount Qiyun",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 29.8083,
+   "lon": 118.033
+  },
+  "mountain-mount-rausu": {
+   "title": "Mount Rausu",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 44.07583333,
+   "lon": 145.1225
+  },
+  "mountain-achasan": {
+   "title": "Achasan",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.56611111,
+   "lon": 127.1025
+  },
+  "mountain-mount-dabajian": {
+   "title": "Mount Dabajian",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 24.46611111,
+   "lon": 121.25805556
+  },
+  "mountain-gamaksan": {
+   "title": "Gamaksan (Gyeonggi)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.94166667,
+   "lon": 126.96888889
+  },
+  "mountain-geladaindong-peak": {
+   "title": "Geladaindong Peak",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.49583333,
+   "lon": 91.1675
+  },
+  "mountain-malchin-peak": {
+   "title": "Malchin Peak",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 49.17138889,
+   "lon": 87.87555556
+  },
+  "mountain-mount-dingjun": {
+   "title": "Mount Dingjun",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.115,
+   "lon": 106.66138889
+  },
+  "mountain-mount-inasa": {
+   "title": "Mount Inasa",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 32.7527,
+   "lon": 129.8495
+  },
+  "mountain-mount-io-shiretoko": {
+   "title": "Mount Iō (Shiretoko)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 44.13333333,
+   "lon": 145.16111111
+  },
+  "mountain-mount-komaki": {
+   "title": "Mount Komaki",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-kusatsu-shirane": {
+   "title": "Mount Kusatsu-Shirane",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-luofu": {
+   "title": "Mount Luofu",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 23.3,
+   "lon": 114
+  },
+  "mountain-shahi-kangri": {
+   "title": "Shahi Kangri",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.1709014,
+   "lon": 77.8305828
+  },
+  "mountain-dinghu-mountain": {
+   "title": "Dinghu Mountain",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 23.159498,
+   "lon": 112.556562
+  },
+  "mountain-lingtren": {
+   "title": "Lingtren",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 28.02,
+   "lon": 86.85
+  },
+  "mountain-ma-on-shan": {
+   "title": "Ma On Shan (peak)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 22.40888889,
+   "lon": 114.25166667
+  },
+  "mountain-mantapsan": {
+   "title": "Mantapsan",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.29861111,
+   "lon": 129.08166667
+  },
+  "mountain-mount-aka": {
+   "title": "Mount Aka (Yatsugatake)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.97055556,
+   "lon": 138.37
+  },
+  "mountain-mount-daibosatsu": {
+   "title": "Mount Daibosatsu",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.7487,
+   "lon": 138.8455
+  },
+  "mountain-mount-eniwa": {
+   "title": "Mount Eniwa",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 42.79333333,
+   "lon": 141.28555556
+  },
+  "mountain-mount-kinka": {
+   "title": "Mount Kinka (Gifu)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.43333333,
+   "lon": 136.76666667
+  },
+  "mountain-mount-kurohime": {
+   "title": "Mount Kurohime",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-myogi": {
+   "title": "Mount Myōgi",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.29861111,
+   "lon": 138.74888889
+  },
+  "mountain-mount-omoto": {
+   "title": "Mount Omoto",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 24.42722222,
+   "lon": 124.18333333
+  },
+  "mountain-mount-tomuraushi": {
+   "title": "Mount Tomuraushi (Daisetsuzan)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 43.52722222,
+   "lon": 142.84861111
+  },
+  "mountain-mount-yae": {
+   "title": "Mount Yae",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 26.6356,
+   "lon": 127.9283
+  },
+  "mountain-mount-yamato-katsuragi": {
+   "title": "Mount Yamato Katsuragi",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.456111,
+   "lon": 135.682222
+  },
+  "mountain-mount-odaigahara": {
+   "title": "Mount Ōdaigahara",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-sunset-peak": {
+   "title": "Sunset Peak (Hong Kong)",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 22.25722222,
+   "lon": 113.95277778
+  },
+  "mountain-tate-s-cairn": {
+   "title": "Tate's Cairn",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 22.357994,
+   "lon": 114.217735
+  },
+  "mountain-ansan": {
+   "title": "Ansan (Seoul)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 37.5768,
+   "lon": 126.9446
+  },
+  "mountain-asralt-khairkhan": {
+   "title": "Asralt Khairkhan",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 48.46555556,
+   "lon": 107.41277778
+  },
+  "mountain-chilbosan": {
+   "title": "Chilbosan (North Hamgyong)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 41.04333333,
+   "lon": 129.61388889
+  },
+  "mountain-jiuding-shan": {
+   "title": "Jiuding Shan",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 31.54333333,
+   "lon": 103.85333333
+  },
+  "mountain-kangphu-kang": {
+   "title": "Kangphu Kang",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 28.15666667,
+   "lon": 90.07083333
+  },
+  "mountain-kubi-gangri": {
+   "title": "Kubi Gangri",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 29.76583333,
+   "lon": 82.75166667
+  },
+  "mountain-lunpo-gangri": {
+   "title": "Lunpo Gangri",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 29.83333333,
+   "lon": 84.61333333
+  },
+  "mountain-mount-hakkyo": {
+   "title": "Mount Hakkyō",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 34.17416667,
+   "lon": 135.90666667
+  },
+  "mountain-mount-huanggang": {
+   "title": "Mount Huanggang",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 27.859677,
+   "lon": 117.7832493
+  },
+  "mountain-mount-iizuna": {
+   "title": "Mount Iizuna",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.73944444,
+   "lon": 138.13361111
+  },
+  "mountain-mount-kaikoma": {
+   "title": "Mount Kaikoma",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.75777778,
+   "lon": 138.23666667
+  },
+  "mountain-mount-kellett": {
+   "title": "Mount Kellett",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-laojun": {
+   "title": "Mount Laojun (Yunnan)",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 26.8825,
+   "lon": 99.60944444
+  },
+  "mountain-mount-tanzawa": {
+   "title": "Mount Tanzawa",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.47416667,
+   "lon": 139.16277778
+  },
+  "mountain-mount-tateshina": {
+   "title": "Mount Tateshina",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-tsurumi": {
+   "title": "Mount Tsurumi",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-warusawa": {
+   "title": "Mount Warusawa",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.50083333,
+   "lon": 138.1825
+  },
+  "mountain-mount-xiaowutai": {
+   "title": "Mount Xiaowutai",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 39.94138889,
+   "lon": 115.04305556
+  },
+  "mountain-monkhkhairkhan-mountain": {
+   "title": "Mönkhkhairkhan Mountain",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 46.89,
+   "lon": 91.47333333
+  },
+  "mountain-sepu-kangri": {
+   "title": "Sepu Kangri",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 30.904103,
+   "lon": 93.785923
+  },
+  "mountain-yuzhu-peak": {
+   "title": "Yuzhu Peak",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.6525,
+   "lon": 94.25083333
+  },
+  "mountain-tsambagarav": {
+   "title": "Tsambagarav",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 48.68166667,
+   "lon": 90.725
+  },
+  "mountain-xuelian-feng": {
+   "title": "Xuelian Feng",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 42.26166667,
+   "lon": 80.89
+  },
+  "mountain-bairiga": {
+   "title": "Bairiga",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 29.16583333,
+   "lon": 96.72416667
+  },
+  "mountain-chakragil": {
+   "title": "Chakragil",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.86583333,
+   "lon": 75.10833333
+  },
+  "mountain-changzheng-ri": {
+   "title": "Changzheng Ri",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 28.069197,
+   "lon": 86.897837
+  },
+  "mountain-daedunsan": {
+   "title": "Daedunsan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.12,
+   "lon": 127.32333333
+  },
+  "mountain-mount-akaishi": {
+   "title": "Mount Akaishi",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.46111111,
+   "lon": 138.15722222
+  },
+  "mountain-mount-azuma-kofuji": {
+   "title": "Mount Azuma-kofuji",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 37.722222,
+   "lon": 140.263611
+  },
+  "mountain-mount-buko": {
+   "title": "Mount Bukō",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.951667,
+   "lon": 139.097778
+  },
+  "mountain-mount-butler": {
+   "title": "Mount Butler",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 22.26666667,
+   "lon": 114.2
+  },
+  "mountain-mount-io-akan": {
+   "title": "Mount Iō (Akan)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 43.61027778,
+   "lon": 144.43861111
+  },
+  "mountain-mount-jianglang": {
+   "title": "Mount Jianglang",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 28.52972222,
+   "lon": 118.56527778
+  },
+  "mountain-mount-jizu": {
+   "title": "Mount Jizu",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 25.9425,
+   "lon": 100.3975
+  },
+  "mountain-mount-kirigamine": {
+   "title": "Mount Kirigamine",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 36.1,
+   "lon": 138.167
+  },
+  "mountain-mount-kobushi": {
+   "title": "Mount Kobushi",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.90888889,
+   "lon": 138.72888889
+  },
+  "mountain-mount-kurikoma": {
+   "title": "Mount Kurikoma",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.961,
+   "lon": 140.788
+  },
+  "mountain-mount-mikami": {
+   "title": "Mount Mikami",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": 35.0503,
+   "lon": 136.0378
+  },
+  "mountain-mount-naeba": {
+   "title": "Mount Naeba",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.84583333,
+   "lon": 138.69027778
+  },
+  "mountain-mount-oakan": {
+   "title": "Mount Oakan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 43.45166667,
+   "lon": 144.16472222
+  },
+  "mountain-mount-pan": {
+   "title": "Mount Pan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 40.08333333,
+   "lon": 117.26666667
+  },
+  "mountain-mount-senjo": {
+   "title": "Mount Senjō (Akaishi)",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.72,
+   "lon": 138.18333333
+  },
+  "mountain-mount-shari": {
+   "title": "Mount Shari",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 43.76555556,
+   "lon": 144.71805556
+  },
+  "mountain-mount-sobo": {
+   "title": "Mount Sobo",
+   "monthlyViews": 122,
+   "days": 58,
+   "lat": 32.82805556,
+   "lon": 131.34694444
+  },
+  "mountain-mount-takatsuma": {
+   "title": "Mount Takatsuma",
+   "monthlyViews": 122,
+   "days": 59,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-mount-tengu": {
+   "title": "Mount Tengu",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.01916667,
+   "lon": 138.35555556
+  },
+  "mountain-mount-tsubakuro": {
+   "title": "Mount Tsubakuro",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.40694444,
+   "lon": 137.71277778
+  },
+  "mountain-mount-wangwu": {
+   "title": "Mount Wangwu",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.2,
+   "lon": 112.34
+  },
+  "mountain-mount-xuebaoding": {
+   "title": "Mount Xuebaoding",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.67583333,
+   "lon": 103.84666667
+  },
+  "mountain-nairamdal-peak": {
+   "title": "Nairamdal Peak",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 49.1675,
+   "lon": 87.81222222
+  },
+  "mountain-qianling-mountain": {
+   "title": "Qianling Mountain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 26.61722222,
+   "lon": 106.69638889
+  },
+  "mountain-seonginbong": {
+   "title": "Seonginbong",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.50333333,
+   "lon": 130.86611111
+  },
+  "mountain-shikengkong": {
+   "title": "Shikengkong",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.92777778,
+   "lon": 112.99083333
+  },
+  "mountain-suraksan": {
+   "title": "Suraksan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-taiping-mountain": {
+   "title": "Taiping Mountain",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 24.49361111,
+   "lon": 121.535
+  },
+  "mountain-woraksan": {
+   "title": "Woraksan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.8858,
+   "lon": 128.106
+  },
+  "mountain-victoria-peak": {
+   "title": "Victoria Peak",
+   "monthlyViews": 5023,
+   "days": 60,
+   "lat": 22.27555556,
+   "lon": 114.14388889
+  },
+  "mountain-purple-mountain-nanjing": {
+   "title": "Purple Mountain (Nanjing)",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 32.0702,
+   "lon": 118.845
+  },
+  "mountain-mount-tsurugi-toyama": {
+   "title": "Mount Tsurugi (Toyama)",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 36.62333333,
+   "lon": 137.61722222
+  },
+  "mountain-mount-heng-shanxi": {
+   "title": "Mount Heng (Shanxi)",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 39.67388889,
+   "lon": 113.73555556
+  },
+  "mountain-the-crown": {
+   "title": "The Crown (mountain)",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 36.10833333,
+   "lon": 76.2125
+  },
+  "mountain-mount-davis-hong-kong": {
+   "title": "Mount Davis, Hong Kong",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 22.277028,
+   "lon": 114.124789
+  },
+  "mountain-beacon-hill": {
+   "title": "Beacon Hill (Hong Kong)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "mountain-castle-peak-hong-kong": {
+   "title": "Castle Peak (Hong Kong)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 22.38333333,
+   "lon": 113.95
+  },
+  "mountain-namsan-gyeongju": {
+   "title": "Namsan (Gyeongju)",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.76805556,
+   "lon": 129.22555556
+  },
+  "mountain-devil-s-peak-hong-kong": {
+   "title": "Devil's Peak, Hong Kong",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 22.29388889,
+   "lon": 114.24388889
+  },
   "mountain-ben-macdui": {
    "title": "Ben Macdui",
    "monthlyViews": 2953,
@@ -100482,7 +101644,7 @@
    "lat": 47.87888889,
    "lon": 20.01027778
   },
-  "mountain-mount-davis": {
+  "mountain-mount-davis-pennsylvania": {
    "title": "Mount Davis (Pennsylvania)",
    "monthlyViews": 2953,
    "days": 60,

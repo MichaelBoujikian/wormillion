@@ -98,13 +98,14 @@
   "lon": 20.01027778
  },
  {
-  "id": "mountain-mount-davis",
+  "id": "mountain-mount-davis-pennsylvania",
   "category": "mountain",
   "name": "Mount Davis",
   "aliases": [],
   "size": 979,
   "sizeUnit": "elevation_m",
   "source": "English Wikipedia pageviews for \"Mount Davis (Pennsylvania)\", 60-day daily median (60 days ending 2026-09-19); Standard reference summit elevations (m); minor peaks and hills, feeds the mountain cohort",
+  "qualifier": "Pennsylvania",
   "magnitude": 2953,
   "magnitudeUnit": "pageviews_monthly",
   "wikiTitle": "Mount Davis (Pennsylvania)",
