@@ -15,7 +15,7 @@
     "List of cities in the State of Palestine",
     "List of cities in Jordan",
     "List of cities in Saudi Arabia",
-    "List of cities and towns in Yemen",
+    "List of cities in Yemen",
     "List of cities in Oman",
     "List of cities in the United Arab Emirates",
     "List of cities in Qatar",
@@ -53,7 +53,6 @@
     "List of cities in the State of Palestine": "Palestine",
     "List of cities in Jordan": "Jordan",
     "List of cities in Saudi Arabia": "Saudi Arabia",
-    "List of cities and towns in Yemen": "Yemen",
     "List of cities in Oman": "Oman",
     "List of cities in the United Arab Emirates": "United Arab Emirates",
     "List of cities in Qatar": "Qatar",
@@ -68,6 +67,7 @@
     "List of cities in Kyrgyzstan": "Kyrgyzstan",
     "List of cities in Tajikistan": "Tajikistan",
     "List of cities in Afghanistan": "Afghanistan",
-    "List of cities in Cyprus": "Cyprus"
+    "List of cities in Cyprus": "Cyprus",
+    "List of cities in Yemen": "Yemen"
   }
 }

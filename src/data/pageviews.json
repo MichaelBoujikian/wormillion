@@ -2,7 +2,7 @@
  "window": "60 days ending 2026-09-19",
  "metric": "median daily English Wikipedia pageviews, scaled to a 30.44-day month",
  "days": 60,
- "fetched": "2026-09-19T11:44:49.700Z",
+ "fetched": "2026-09-19T12:32:09.352Z",
  "entries": {
   "country-nigeria": {
    "title": "Nigeria",
@@ -13269,7 +13269,7 @@
    "lat": 9.55,
    "lon": 31.65
   },
-  "city-bor": {
+  "city-bor-south-sudan": {
    "title": "Bor, South Sudan",
    "monthlyViews": 670,
    "days": 60,
@@ -38440,6 +38440,2939 @@
    "days": 60,
    "lat": 23.96111111,
    "lon": 120.57361111
+  },
+  "city-nishapur": {
+   "title": "Nishapur",
+   "monthlyViews": 10380,
+   "days": 60,
+   "lat": 36.20611111,
+   "lon": 58.79333333
+  },
+  "city-tarsus": {
+   "title": "Tarsus, Mersin",
+   "monthlyViews": 9162,
+   "days": 60,
+   "lat": 36.9165,
+   "lon": 34.8951
+  },
+  "city-tripoli-lebanon": {
+   "title": "Tripoli, Lebanon",
+   "monthlyViews": 8858,
+   "days": 60,
+   "lat": 34.43666667,
+   "lon": 35.83444444
+  },
+  "city-kufa": {
+   "title": "Kufa",
+   "monthlyViews": 7214,
+   "days": 60,
+   "lat": 32.03,
+   "lon": 44.4
+  },
+  "city-sinop": {
+   "title": "Sinop, Turkey",
+   "monthlyViews": 6545,
+   "days": 60,
+   "lat": 42.02666667,
+   "lon": 35.15111111
+  },
+  "city-lod": {
+   "title": "Lod",
+   "monthlyViews": 5753,
+   "days": 60,
+   "lat": 31.95194444,
+   "lon": 34.88805556
+  },
+  "city-izmit": {
+   "title": "İzmit",
+   "monthlyViews": 5418,
+   "days": 60,
+   "lat": 40.76,
+   "lon": 29.92
+  },
+  "city-ramla": {
+   "title": "Ramla",
+   "monthlyViews": 5357,
+   "days": 60,
+   "lat": 31.9275,
+   "lon": 34.8625
+  },
+  "city-bnei-brak": {
+   "title": "Bnei Brak",
+   "monthlyViews": 5266,
+   "days": 60,
+   "lat": 32.08333333,
+   "lon": 34.83333333
+  },
+  "city-iskenderun": {
+   "title": "İskenderun",
+   "monthlyViews": 4901,
+   "days": 60,
+   "lat": 36.5817,
+   "lon": 36.165
+  },
+  "city-kfar-saba": {
+   "title": "Kfar Saba",
+   "monthlyViews": 4109,
+   "days": 60,
+   "lat": 32.17138889,
+   "lon": 34.90833333
+  },
+  "city-beit-shemesh": {
+   "title": "Beit Shemesh",
+   "monthlyViews": 4079,
+   "days": 60,
+   "lat": 31.74555556,
+   "lon": 34.98666667
+  },
+  "city-alasehir": {
+   "title": "Alaşehir",
+   "monthlyViews": 4049,
+   "days": 60,
+   "lat": 38.35,
+   "lon": 28.51666667
+  },
+  "city-ra-anana": {
+   "title": "Ra'anana",
+   "monthlyViews": 3805,
+   "days": 60,
+   "lat": 32.18333333,
+   "lon": 34.86666667
+  },
+  "city-corum": {
+   "title": "Çorum",
+   "monthlyViews": 3744,
+   "days": 60,
+   "lat": 40.55,
+   "lon": 34.95388889
+  },
+  "city-suwayda": {
+   "title": "Suwayda",
+   "monthlyViews": 3592,
+   "days": 60,
+   "lat": 32.7125,
+   "lon": 36.56666667
+  },
+  "city-qazvin": {
+   "title": "Qazvin",
+   "monthlyViews": 3470,
+   "days": 60,
+   "lat": 36.28861111,
+   "lon": 50.00694444
+  },
+  "city-rosh-haayin": {
+   "title": "Rosh HaAyin",
+   "monthlyViews": 3288,
+   "days": 60,
+   "lat": 32.09555556,
+   "lon": 34.95666667
+  },
+  "city-gorgan": {
+   "title": "Gorgan",
+   "monthlyViews": 3105,
+   "days": 60,
+   "lat": 36.83694444,
+   "lon": 54.43722222
+  },
+  "city-daraa": {
+   "title": "Daraa",
+   "monthlyViews": 3074,
+   "days": 60,
+   "lat": 32.62527778,
+   "lon": 36.10611111
+  },
+  "city-mugla": {
+   "title": "Muğla",
+   "monthlyViews": 2953,
+   "days": 60,
+   "lat": 37.21666667,
+   "lon": 28.36666667
+  },
+  "city-afyonkarahisar": {
+   "title": "Afyonkarahisar",
+   "monthlyViews": 2831,
+   "days": 60,
+   "lat": 38.75777778,
+   "lon": 30.53861111
+  },
+  "city-ayvalik": {
+   "title": "Ayvalık",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": 39.31666667,
+   "lon": 26.69444444
+  },
+  "city-erzincan": {
+   "title": "Erzincan",
+   "monthlyViews": 2709,
+   "days": 60,
+   "lat": 39.74638889,
+   "lon": 39.49138889
+  },
+  "city-khamis-mushait": {
+   "title": "Khamis Mushait",
+   "monthlyViews": 2679,
+   "days": 60,
+   "lat": 18.3,
+   "lon": 42.73333333
+  },
+  "city-midyat": {
+   "title": "Midyat",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 37.41666667,
+   "lon": 41.36972222
+  },
+  "city-modi-in-maccabim-re-ut": {
+   "title": "Modi'in-Maccabim-Re'ut",
+   "monthlyViews": 2648,
+   "days": 60,
+   "lat": 31.90765278,
+   "lon": 35.00761389
+  },
+  "city-bat-yam": {
+   "title": "Bat Yam",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": 32.01666667,
+   "lon": 34.75
+  },
+  "city-khorramshahr": {
+   "title": "Khorramshahr",
+   "monthlyViews": 2435,
+   "days": 60,
+   "lat": 30.43944444,
+   "lon": 48.18166667
+  },
+  "city-balikesir": {
+   "title": "Balıkesir",
+   "monthlyViews": 2344,
+   "days": 60,
+   "lat": 39.64722222,
+   "lon": 27.88805556
+  },
+  "city-elazig": {
+   "title": "Elazığ",
+   "monthlyViews": 2313,
+   "days": 60,
+   "lat": 38.67444444,
+   "lon": 39.22277778
+  },
+  "city-kutahya": {
+   "title": "Kütahya",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 39.41666667,
+   "lon": 29.98333333
+  },
+  "city-zakho": {
+   "title": "Zakho",
+   "monthlyViews": 2283,
+   "days": 60,
+   "lat": 37.15,
+   "lon": 42.68333333
+  },
+  "city-kastamonu": {
+   "title": "Kastamonu",
+   "monthlyViews": 2253,
+   "days": 60,
+   "lat": 41.37638889,
+   "lon": 33.77638889
+  },
+  "city-bandar-e-anzali": {
+   "title": "Bandar-e Anzali",
+   "monthlyViews": 2192,
+   "days": 60,
+   "lat": 37.47083333,
+   "lon": 49.47
+  },
+  "city-isparta": {
+   "title": "Isparta",
+   "monthlyViews": 2161,
+   "days": 60,
+   "lat": 37.76472222,
+   "lon": 30.55666667
+  },
+  "city-kiryat-gat": {
+   "title": "Kiryat Gat",
+   "monthlyViews": 2161,
+   "days": 60,
+   "lat": 31.60611111,
+   "lon": 34.77166667
+  },
+  "city-nahariya": {
+   "title": "Nahariya",
+   "monthlyViews": 2161,
+   "days": 60,
+   "lat": 33.00583333,
+   "lon": 35.09888889
+  },
+  "city-bolu": {
+   "title": "Bolu",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 40.73472222,
+   "lon": 31.6075
+  },
+  "city-saada": {
+   "title": "Saada",
+   "monthlyViews": 2131,
+   "days": 60,
+   "lat": 16.94,
+   "lon": 43.75916667
+  },
+  "city-gebze": {
+   "title": "Gebze",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 40.8,
+   "lon": 29.43333333
+  },
+  "city-hasakah": {
+   "title": "Hasakah",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 36.51166667,
+   "lon": 40.74222222
+  },
+  "city-hod-hasharon": {
+   "title": "Hod HaSharon",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 32.15,
+   "lon": 34.88333333
+  },
+  "city-sanandaj": {
+   "title": "Sanandaj",
+   "monthlyViews": 2070,
+   "days": 60,
+   "lat": 35.31138889,
+   "lon": 46.99611111
+  },
+  "city-afula": {
+   "title": "Afula",
+   "monthlyViews": 2039,
+   "days": 60,
+   "lat": 32.60638889,
+   "lon": 35.28805556
+  },
+  "city-bergama": {
+   "title": "Bergama",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 39.11666667,
+   "lon": 27.18333333
+  },
+  "city-chabahar": {
+   "title": "Chabahar",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 25.29277778,
+   "lon": 60.64972222
+  },
+  "city-hafar-al-batin": {
+   "title": "Hafar al-Batin",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 28.43416667,
+   "lon": 45.96361111
+  },
+  "city-nusaybin": {
+   "title": "Nusaybin",
+   "monthlyViews": 2009,
+   "days": 60,
+   "lat": 37.075,
+   "lon": 41.21527778
+  },
+  "city-nabatieh": {
+   "title": "Nabatieh",
+   "monthlyViews": 1979,
+   "days": 60,
+   "lat": 33.37722222,
+   "lon": 35.48361111
+  },
+  "city-igdir": {
+   "title": "Iğdır",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 39.92083333,
+   "lon": 44.04444444
+  },
+  "city-mahabad": {
+   "title": "Mahabad",
+   "monthlyViews": 1948,
+   "days": 60,
+   "lat": 36.76777778,
+   "lon": 45.73388889
+  },
+  "city-hadera": {
+   "title": "Hadera",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 32.45,
+   "lon": 34.91666667
+  },
+  "city-tulkarm": {
+   "title": "Tulkarm",
+   "monthlyViews": 1918,
+   "days": 60,
+   "lat": 32.3125,
+   "lon": 35.02666667
+  },
+  "city-giresun": {
+   "title": "Giresun",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 40.91527778,
+   "lon": 38.38944444
+  },
+  "city-yalova": {
+   "title": "Yalova",
+   "monthlyViews": 1887,
+   "days": 60,
+   "lat": 40.65833333,
+   "lon": 29.27
+  },
+  "city-zonguldak": {
+   "title": "Zonguldak",
+   "monthlyViews": 1826,
+   "days": 60,
+   "lat": 41.45638889,
+   "lon": 31.79861111
+  },
+  "city-didim": {
+   "title": "Didim",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 37.3756,
+   "lon": 27.2678
+  },
+  "city-tokat": {
+   "title": "Tokat",
+   "monthlyViews": 1766,
+   "days": 60,
+   "lat": 40.31388889,
+   "lon": 36.55416667
+  },
+  "city-bandirma": {
+   "title": "Bandırma",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 40.35388889,
+   "lon": 27.97097222
+  },
+  "city-cizre": {
+   "title": "Cizre",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 37.332,
+   "lon": 42.187
+  },
+  "city-manbij": {
+   "title": "Manbij",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 36.5275,
+   "lon": 37.95527778
+  },
+  "city-rahat": {
+   "title": "Rahat",
+   "monthlyViews": 1735,
+   "days": 60,
+   "lat": 31.3925,
+   "lon": 34.75444444
+  },
+  "city-malazgirt": {
+   "title": "Malazgirt",
+   "monthlyViews": 1705,
+   "days": 60,
+   "lat": 39.14777778,
+   "lon": 42.54416667
+  },
+  "city-usak": {
+   "title": "Uşak",
+   "monthlyViews": 1674,
+   "days": 60,
+   "lat": 38.67777778,
+   "lon": 29.40416667
+  },
+  "city-halabja": {
+   "title": "Halabja",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 35.18333333,
+   "lon": 45.98333333
+  },
+  "city-mus": {
+   "title": "Muş",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 38.73333333,
+   "lon": 41.49111111
+  },
+  "city-shush": {
+   "title": "Shush, Iran",
+   "monthlyViews": 1644,
+   "days": 60,
+   "lat": 32.19472222,
+   "lon": 48.2475
+  },
+  "city-kirklareli": {
+   "title": "Kırklareli",
+   "monthlyViews": 1613,
+   "days": 60,
+   "lat": 41.73472222,
+   "lon": 27.22527778
+  },
+  "city-bitlis": {
+   "title": "Bitlis",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 38.4,
+   "lon": 42.10833333
+  },
+  "city-givatayim": {
+   "title": "Givatayim",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 32.07138889,
+   "lon": 34.81
+  },
+  "city-karaman": {
+   "title": "Karaman",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 37.18194444,
+   "lon": 33.21805556
+  },
+  "city-umm-al-fahm": {
+   "title": "Umm al-Fahm",
+   "monthlyViews": 1583,
+   "days": 60,
+   "lat": 32.51944444,
+   "lon": 35.15361111
+  },
+  "city-adapazari": {
+   "title": "Adapazarı",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 40.78333333,
+   "lon": 30.4
+  },
+  "city-al-rayyan": {
+   "title": "Al Rayyan",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 25.32,
+   "lon": 51.37
+  },
+  "city-amol": {
+   "title": "Amol",
+   "monthlyViews": 1522,
+   "days": 60,
+   "lat": 36.47027778,
+   "lon": 52.34666667
+  },
+  "city-hakkari": {
+   "title": "Hakkâri (city)",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 37.577,
+   "lon": 43.739
+  },
+  "city-minab": {
+   "title": "Minab",
+   "monthlyViews": 1492,
+   "days": 60,
+   "lat": 27.135,
+   "lon": 57.07805556
+  },
+  "city-aksaray": {
+   "title": "Aksaray",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 38.37416667,
+   "lon": 34.02888889
+  },
+  "city-dogubayazit": {
+   "title": "Doğubayazıt",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 39.54722222,
+   "lon": 44.08333333
+  },
+  "city-khoy": {
+   "title": "Khoy",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 38.54638889,
+   "lon": 44.95416667
+  },
+  "city-shushtar": {
+   "title": "Shushtar",
+   "monthlyViews": 1461,
+   "days": 60,
+   "lat": 32.045,
+   "lon": 48.85944444
+  },
+  "city-kalba": {
+   "title": "Kalba",
+   "monthlyViews": 1431,
+   "days": 60,
+   "lat": 25.07416667,
+   "lon": 56.35527778
+  },
+  "city-adiyaman": {
+   "title": "Adıyaman",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 37.76388889,
+   "lon": 38.27777778
+  },
+  "city-agri": {
+   "title": "Ağrı",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 39.71861111,
+   "lon": 43.05083333
+  },
+  "city-maragheh": {
+   "title": "Maragheh",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 37.38944444,
+   "lon": 46.23777778
+  },
+  "city-siirt": {
+   "title": "Siirt",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 37.925,
+   "lon": 41.94583333
+  },
+  "city-umm-qasr": {
+   "title": "Umm Qasr",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 30.03416667,
+   "lon": 47.92944444
+  },
+  "city-zanjan": {
+   "title": "Zanjan, Iran",
+   "monthlyViews": 1400,
+   "days": 60,
+   "lat": 36.68055556,
+   "lon": 48.49888889
+  },
+  "city-kut": {
+   "title": "Kut",
+   "monthlyViews": 1370,
+   "days": 60,
+   "lat": 32.50555556,
+   "lon": 45.82472222
+  },
+  "city-khomeyn": {
+   "title": "Khomeyn",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 33.64222222,
+   "lon": 50.07888889
+  },
+  "city-corlu": {
+   "title": "Çorlu",
+   "monthlyViews": 1339,
+   "days": 60,
+   "lat": 41.15,
+   "lon": 27.8
+  },
+  "city-ness-ziona": {
+   "title": "Ness Ziona",
+   "monthlyViews": 1248,
+   "days": 60,
+   "lat": 31.93333333,
+   "lon": 34.8
+  },
+  "city-sakaka": {
+   "title": "Sakaka, Saudi Arabia",
+   "monthlyViews": 1187,
+   "days": 60,
+   "lat": 29.96972222,
+   "lon": 40.2
+  },
+  "city-amarah": {
+   "title": "Amarah",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 31.83333333,
+   "lon": 47.15
+  },
+  "city-kiryat-ata": {
+   "title": "Kiryat Ata",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 32.8,
+   "lon": 35.1
+  },
+  "city-manavgat": {
+   "title": "Manavgat",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 36.78333333,
+   "lon": 31.43333333
+  },
+  "city-masjed-soleyman": {
+   "title": "Masjed Soleyman",
+   "monthlyViews": 1157,
+   "days": 60,
+   "lat": 31.96,
+   "lon": 49.28805556
+  },
+  "city-al-qa-im": {
+   "title": "Al-Qa'im (town)",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 34.36879444,
+   "lon": 41.09447222
+  },
+  "city-dezful": {
+   "title": "Dezful",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 32.37861111,
+   "lon": 48.41444444
+  },
+  "city-dortyol": {
+   "title": "Dörtyol",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 36.84277778,
+   "lon": 36.22444444
+  },
+  "city-nigde": {
+   "title": "Niğde",
+   "monthlyViews": 1126,
+   "days": 60,
+   "lat": 37.96666667,
+   "lon": 34.67916667
+  },
+  "city-as-salt": {
+   "title": "As-Salt",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 32.03333333,
+   "lon": 35.73333333
+  },
+  "city-damghan": {
+   "title": "Damghan",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 36.16416667,
+   "lon": 54.34083333
+  },
+  "city-jabalia": {
+   "title": "Jabalia",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 31.52805556,
+   "lon": 34.48305556
+  },
+  "city-jableh": {
+   "title": "Jableh",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 35.35,
+   "lon": 35.91666667
+  },
+  "city-kilis": {
+   "title": "Kilis",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 36.71666667,
+   "lon": 37.11666667
+  },
+  "city-tarim": {
+   "title": "Tarim, Yemen",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-yozgat": {
+   "title": "Yozgat",
+   "monthlyViews": 1096,
+   "days": 60,
+   "lat": 39.82083333,
+   "lon": 34.80833333
+  },
+  "city-al-qurnah": {
+   "title": "Al-Qurnah",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 31.01583333,
+   "lon": 47.43055556
+  },
+  "city-milas": {
+   "title": "Milas",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 37.31666667,
+   "lon": 27.78333333
+  },
+  "city-seiyun": {
+   "title": "Seiyun",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 15.96666667,
+   "lon": 48.78333333
+  },
+  "city-sirnak": {
+   "title": "Şırnak",
+   "monthlyViews": 1065,
+   "days": 60,
+   "lat": 37.52,
+   "lon": 42.459
+  },
+  "city-babol": {
+   "title": "Babol",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 36.5475,
+   "lon": 52.67833333
+  },
+  "city-bilecik": {
+   "title": "Bilecik",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 40.14305556,
+   "lon": 29.97916667
+  },
+  "city-edremit": {
+   "title": "Edremit, Balıkesir",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 39.59222222,
+   "lon": 27.02
+  },
+  "city-elbistan": {
+   "title": "Elbistan",
+   "monthlyViews": 1035,
+   "days": 60,
+   "lat": 38.20138889,
+   "lon": 37.18833333
+  },
+  "city-anamur": {
+   "title": "Anamur",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 36.08,
+   "lon": 32.83111111
+  },
+  "city-bingol": {
+   "title": "Bingöl",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 38.88611111,
+   "lon": 40.50166667
+  },
+  "city-firuzabad": {
+   "title": "Firuzabad, Fars",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 28.84444444,
+   "lon": 52.57138889
+  },
+  "city-marvdasht": {
+   "title": "Marvdasht",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 29.87861111,
+   "lon": 52.80666667
+  },
+  "city-semnan": {
+   "title": "Semnan, Iran",
+   "monthlyViews": 1005,
+   "days": 60,
+   "lat": 35.58111111,
+   "lon": 53.38333333
+  },
+  "city-astara": {
+   "title": "Astara, Iran",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 38.42194444,
+   "lon": 48.86916667
+  },
+  "city-behbahan": {
+   "title": "Behbahan",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 30.59416667,
+   "lon": 50.24333333
+  },
+  "city-nahavand": {
+   "title": "Nahavand",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 34.19277778,
+   "lon": 48.37305556
+  },
+  "city-samawah": {
+   "title": "Samawah",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 31.31666667,
+   "lon": 45.28333333
+  },
+  "city-silifke": {
+   "title": "Silifke",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 36.37611111,
+   "lon": 33.93222222
+  },
+  "city-zabol": {
+   "title": "Zabol",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 31.03388889,
+   "lon": 61.48777778
+  },
+  "city-akhisar": {
+   "title": "Akhisar",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 38.92388889,
+   "lon": 27.84
+  },
+  "city-silvan": {
+   "title": "Silvan, Diyarbakır",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 38.14222222,
+   "lon": 41.00138889
+  },
+  "city-beit-lahia": {
+   "title": "Beit Lahia",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 31.55,
+   "lon": 34.5
+  },
+  "city-duzce": {
+   "title": "Düzce",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 40.84166667,
+   "lon": 31.15833333
+  },
+  "city-ilam": {
+   "title": "Ilam, Iran",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 33.635,
+   "lon": 46.40722222
+  },
+  "city-saqqez": {
+   "title": "Saqqez",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 36.24111111,
+   "lon": 46.27055556
+  },
+  "city-shahr-e-kord": {
+   "title": "Shahr-e Kord",
+   "monthlyViews": 913,
+   "days": 60,
+   "lat": 32.33222222,
+   "lon": 50.85638889
+  },
+  "city-dhamar": {
+   "title": "Dhamar, Yemen",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 14.55,
+   "lon": 44.40166667
+  },
+  "city-gumushane": {
+   "title": "Gümüşhane",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 40.45972222,
+   "lon": 39.47777778
+  },
+  "city-kirsehir": {
+   "title": "Kırşehir",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 39.14555556,
+   "lon": 34.16083333
+  },
+  "city-luleburgaz": {
+   "title": "Lüleburgaz",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 41.40555556,
+   "lon": 27.35694444
+  },
+  "city-salmas": {
+   "title": "Salmas",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 38.20277778,
+   "lon": 44.76694444
+  },
+  "city-zabid": {
+   "title": "Zabid",
+   "monthlyViews": 883,
+   "days": 60,
+   "lat": 14.2,
+   "lon": 43.31666667
+  },
+  "city-kirikkale": {
+   "title": "Kırıkkale",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 39.84,
+   "lon": 33.50527778
+  },
+  "city-samandag": {
+   "title": "Samandağ",
+   "monthlyViews": 852,
+   "days": 60,
+   "lat": 36.085,
+   "lon": 35.98055556
+  },
+  "city-gonbad-e-kavus": {
+   "title": "Gonbad-e Kavus",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 37.24361111,
+   "lon": 55.16583333
+  },
+  "city-karabuk": {
+   "title": "Karabük",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 41.19861111,
+   "lon": 32.62638889
+  },
+  "city-cankiri": {
+   "title": "Çankırı",
+   "monthlyViews": 822,
+   "days": 60,
+   "lat": 40.59861111,
+   "lon": 33.61916667
+  },
+  "city-kozan": {
+   "title": "Kozan, Adana",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 37.45,
+   "lon": 35.8
+  },
+  "city-lahijan": {
+   "title": "Lahijan",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 37.20416667,
+   "lon": 50.00472222
+  },
+  "city-osmaniye": {
+   "title": "Osmaniye",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 37.075,
+   "lon": 36.25
+  },
+  "city-aksehir": {
+   "title": "Akşehir",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 38.3575,
+   "lon": 31.41638889
+  },
+  "city-birjand": {
+   "title": "Birjand",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 32.87805556,
+   "lon": 59.21611111
+  },
+  "city-bojnord": {
+   "title": "Bojnord",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 37.47222222,
+   "lon": 57.32888889
+  },
+  "city-ceyhan": {
+   "title": "Ceyhan",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 37.02888889,
+   "lon": 35.8125
+  },
+  "city-jaramana": {
+   "title": "Jaramana",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-sabzevar": {
+   "title": "Sabzevar",
+   "monthlyViews": 761,
+   "days": 60,
+   "lat": 36.2125,
+   "lon": 57.67638889
+  },
+  "city-fatsa": {
+   "title": "Fatsa",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 41.03055556,
+   "lon": 37.5
+  },
+  "city-gazipasa": {
+   "title": "Gazipaşa",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 36.27277778,
+   "lon": 32.31305556
+  },
+  "city-karamursel": {
+   "title": "Karamürsel",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 40.68916667,
+   "lon": 29.615
+  },
+  "city-ramhormoz": {
+   "title": "Ramhormoz",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 31.27527778,
+   "lon": 49.60444444
+  },
+  "city-yasuj": {
+   "title": "Yasuj",
+   "monthlyViews": 731,
+   "days": 60,
+   "lat": 30.66722222,
+   "lon": 51.57972222
+  },
+  "city-al-diwaniyah": {
+   "title": "Al Diwaniyah",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 31.98916667,
+   "lon": 44.92472222
+  },
+  "city-az-zubayr": {
+   "title": "Az Zubayr",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 30.38333333,
+   "lon": 47.7
+  },
+  "city-borujerd": {
+   "title": "Borujerd",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 33.91111111,
+   "lon": 48.75222222
+  },
+  "city-burdur": {
+   "title": "Burdur",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 37.71944444,
+   "lon": 30.28333333
+  },
+  "city-chalus": {
+   "title": "Chalus, Iran",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 36.65472222,
+   "lon": 51.42111111
+  },
+  "city-kashmar": {
+   "title": "Kashmar",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 35.24472222,
+   "lon": 58.46083333
+  },
+  "city-pazarcik": {
+   "title": "Pazarcık",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 37.48944444,
+   "lon": 37.29666667
+  },
+  "city-silopi": {
+   "title": "Silopi",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 37.24861111,
+   "lon": 42.47027778
+  },
+  "city-inegol": {
+   "title": "İnegöl",
+   "monthlyViews": 700,
+   "days": 60,
+   "lat": 40.08055556,
+   "lon": 29.50972222
+  },
+  "city-darica": {
+   "title": "Darıca",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 40.7597,
+   "lon": 29.3856
+  },
+  "city-douma": {
+   "title": "Douma, Syria",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 33.57111111,
+   "lon": 36.40111111
+  },
+  "city-iranshahr": {
+   "title": "Iranshahr, Iran",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 27.19777778,
+   "lon": 60.68361111
+  },
+  "city-quchan": {
+   "title": "Quchan",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 37.10611111,
+   "lon": 58.50944444
+  },
+  "city-zile": {
+   "title": "Zile",
+   "monthlyViews": 670,
+   "days": 60,
+   "lat": 40.3,
+   "lon": 35.88333333
+  },
+  "city-abu-kamal": {
+   "title": "Abu Kamal",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 34.45361111,
+   "lon": 40.93666667
+  },
+  "city-al-shahaniya": {
+   "title": "Al-Shahaniya",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 25.37222222,
+   "lon": 51.20472222
+  },
+  "city-jiroft": {
+   "title": "Jiroft",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 28.67972222,
+   "lon": 57.74472222
+  },
+  "city-karadeniz-eregli": {
+   "title": "Karadeniz Ereğli",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 41.27916667,
+   "lon": 31.42083333
+  },
+  "city-maarat-al-numan": {
+   "title": "Maarat al-Numan",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 35.63861111,
+   "lon": 36.67166667
+  },
+  "city-piranshahr": {
+   "title": "Piranshahr",
+   "monthlyViews": 639,
+   "days": 60,
+   "lat": 36.69555556,
+   "lon": 45.14555556
+  },
+  "city-akcaabat": {
+   "title": "Akçaabat",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 41.01666667,
+   "lon": 39.55
+  },
+  "city-al-bab": {
+   "title": "Al-Bab",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 36.3725,
+   "lon": 37.5178
+  },
+  "city-bandar-e-mahshahr": {
+   "title": "Bandar-e Mahshahr",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 30.55666667,
+   "lon": 49.18972222
+  },
+  "city-ercis": {
+   "title": "Erciş",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 39.03111111,
+   "lon": 43.35972222
+  },
+  "city-ergani": {
+   "title": "Ergani",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 38.26916667,
+   "lon": 39.76166667
+  },
+  "city-kiryat-motzkin": {
+   "title": "Kiryat Motzkin",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 32.83333333,
+   "lon": 35.08333333
+  },
+  "city-qaem-shahr": {
+   "title": "Qaem Shahr",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 36.46361111,
+   "lon": 52.85805556
+  },
+  "city-sirjan": {
+   "title": "Sirjan",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 29.44194444,
+   "lon": 55.68583333
+  },
+  "city-tatvan": {
+   "title": "Tatvan",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 38.50222222,
+   "lon": 42.28138889
+  },
+  "city-al-daayen": {
+   "title": "Al Daayen",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 25.57777778,
+   "lon": 51.45
+  },
+  "city-bartin": {
+   "title": "Bartın",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 41.63444444,
+   "lon": 32.3375
+  },
+  "city-birecik": {
+   "title": "Birecik",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 37.025,
+   "lon": 37.97694444
+  },
+  "city-bukan": {
+   "title": "Bukan",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 36.515,
+   "lon": 46.2075
+  },
+  "city-eregli": {
+   "title": "Ereğli, Konya",
+   "monthlyViews": 578,
+   "days": 59,
+   "lat": 37.51277778,
+   "lon": 34.04833333
+  },
+  "city-malayer": {
+   "title": "Malayer",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 34.3,
+   "lon": 48.81777778
+  },
+  "city-niksar": {
+   "title": "Niksar",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-siverek": {
+   "title": "Siverek",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 37.75416667,
+   "lon": 39.31777778
+  },
+  "city-uzunkopru": {
+   "title": "Uzunköprü",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 41.26694444,
+   "lon": 26.6875
+  },
+  "city-yatta": {
+   "title": "Yatta, Hebron",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 31.44777778,
+   "lon": 35.09
+  },
+  "city-golcuk": {
+   "title": "Gölcük, Kocaeli",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 40.71722222,
+   "lon": 29.82277778
+  },
+  "city-saveh": {
+   "title": "Saveh",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 35.02777778,
+   "lon": 50.36111111
+  },
+  "city-serik": {
+   "title": "Serik",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 36.91666667,
+   "lon": 31.1
+  },
+  "city-soke": {
+   "title": "Söke",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 37.75083333,
+   "lon": 27.41027778
+  },
+  "city-isa-town": {
+   "title": "Isa Town",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 26.17361111,
+   "lon": 50.54777778
+  },
+  "city-kazerun": {
+   "title": "Kazerun",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 29.61888889,
+   "lon": 51.65388889
+  },
+  "city-marivan": {
+   "title": "Marivan",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 35.52166667,
+   "lon": 46.18055556
+  },
+  "city-nazilli": {
+   "title": "Nazilli",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 37.9125,
+   "lon": 28.32055556
+  },
+  "city-shahrud": {
+   "title": "Shahrud, Iran",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 36.41333333,
+   "lon": 54.97805556
+  },
+  "city-suruc": {
+   "title": "Suruç",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 36.975,
+   "lon": 38.42444444
+  },
+  "city-viransehir": {
+   "title": "Viranşehir",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 37.23055556,
+   "lon": 39.76527778
+  },
+  "city-cerkezkoy": {
+   "title": "Çerkezköy",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 41.28888889,
+   "lon": 28.00416667
+  },
+  "city-bafra": {
+   "title": "Bafra",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 41.57222222,
+   "lon": 35.91472222
+  },
+  "city-balad": {
+   "title": "Balad, Iraq",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 34.01638889,
+   "lon": 44.14527778
+  },
+  "city-golpayegan": {
+   "title": "Golpayegan",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 33.45083333,
+   "lon": 50.28166667
+  },
+  "city-hit": {
+   "title": "Hit, Iraq",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 33.645,
+   "lon": 42.82638889
+  },
+  "city-russeifa": {
+   "title": "Russeifa",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 32.01777778,
+   "lon": 36.04638889
+  },
+  "city-varamin": {
+   "title": "Varamin",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 35.35027778,
+   "lon": 51.63638889
+  },
+  "city-yenisehir": {
+   "title": "Yenişehir, Bursa",
+   "monthlyViews": 487,
+   "days": 60,
+   "lat": 40.26444444,
+   "lon": 29.65305556
+  },
+  "city-baneh": {
+   "title": "Baneh",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 35.99694444,
+   "lon": 45.88527778
+  },
+  "city-kiziltepe": {
+   "title": "Kızıltepe",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 37.19388889,
+   "lon": 40.58611111
+  },
+  "city-lar": {
+   "title": "Lar, Iran",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 27.66194444,
+   "lon": 54.32305556
+  },
+  "city-naqadeh": {
+   "title": "Naqadeh",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 36.95472222,
+   "lon": 45.38805556
+  },
+  "city-pardis": {
+   "title": "Pardis",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 35.74638889,
+   "lon": 51.80138889
+  },
+  "city-polatli": {
+   "title": "Polatlı",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 39.58416667,
+   "lon": 32.14722222
+  },
+  "city-ar-ramtha": {
+   "title": "Ar-Ramtha",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 32.55888889,
+   "lon": 36.01472222
+  },
+  "city-biga": {
+   "title": "Biga, Çanakkale",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 40.22805556,
+   "lon": 27.24222222
+  },
+  "city-eslamshahr": {
+   "title": "Eslamshahr",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 35.53861111,
+   "lon": 51.22277778
+  },
+  "city-mianeh": {
+   "title": "Mianeh, East Azerbaijan",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 37.42333333,
+   "lon": 47.71361111
+  },
+  "city-najafabad": {
+   "title": "Najafabad",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 32.63305556,
+   "lon": 51.365
+  },
+  "city-rafsanjan": {
+   "title": "Rafsanjan",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 30.39833333,
+   "lon": 55.99194444
+  },
+  "city-reyhanli": {
+   "title": "Reyhanlı",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 36.26805556,
+   "lon": 36.5675
+  },
+  "city-tire": {
+   "title": "Tire, İzmir",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 38.08972222,
+   "lon": 27.73194444
+  },
+  "city-tonekabon": {
+   "title": "Tonekabon",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 36.81527778,
+   "lon": 50.87111111
+  },
+  "city-turgutlu": {
+   "title": "Turgutlu",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 38.5,
+   "lon": 27.7
+  },
+  "city-akcakale": {
+   "title": "Akçakale",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 36.71083333,
+   "lon": 38.94777778
+  },
+  "city-ardakan": {
+   "title": "Ardakan",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 32.30944444,
+   "lon": 54.01861111
+  },
+  "city-babolsar": {
+   "title": "Babolsar",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 36.70055556,
+   "lon": 52.65
+  },
+  "city-bijar": {
+   "title": "Bijar (city)",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 35.87222222,
+   "lon": 47.60305556
+  },
+  "city-fasa": {
+   "title": "Fasa",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 28.95027778,
+   "lon": 53.62722222
+  },
+  "city-jahrom": {
+   "title": "Jahrom",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 28.51472222,
+   "lon": 53.57305556
+  },
+  "city-kesan": {
+   "title": "Keşan",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 40.85277778,
+   "lon": 26.63333333
+  },
+  "city-saravan": {
+   "title": "Saravan, Iran",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 27.37083333,
+   "lon": 62.3325
+  },
+  "city-shahreza": {
+   "title": "Shahreza",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 32.01222222,
+   "lon": 51.85944444
+  },
+  "city-unye": {
+   "title": "Ünye",
+   "monthlyViews": 396,
+   "days": 60,
+   "lat": 41.12722222,
+   "lon": 37.28805556
+  },
+  "city-amran": {
+   "title": "'Amran",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 15.66666667,
+   "lon": 43.95
+  },
+  "city-al-rastan": {
+   "title": "Al-Rastan",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-bandar-torkaman": {
+   "title": "Bandar Torkaman",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 36.90138889,
+   "lon": 54.07361111
+  },
+  "city-beysehir": {
+   "title": "Beyşehir",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 37.67638889,
+   "lon": 31.72611111
+  },
+  "city-burhaniye": {
+   "title": "Burhaniye",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 39.5,
+   "lon": 26.95
+  },
+  "city-goksun": {
+   "title": "Göksun",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 38.02111111,
+   "lon": 36.49166667
+  },
+  "city-izeh": {
+   "title": "Izeh",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 31.82916667,
+   "lon": 49.86861111
+  },
+  "city-marand": {
+   "title": "Marand",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 38.43083333,
+   "lon": 45.77416667
+  },
+  "city-mustafakemalpasa": {
+   "title": "Mustafakemalpaşa",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 40.0353,
+   "lon": 28.4117
+  },
+  "city-odemis": {
+   "title": "Ödemiş",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 38.23111111,
+   "lon": 27.97194444
+  },
+  "city-a-ali": {
+   "title": "A'ali",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 26.15194444,
+   "lon": 50.52555556
+  },
+  "city-bandar-ganaveh": {
+   "title": "Bandar Ganaveh",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 29.58083333,
+   "lon": 50.51722222
+  },
+  "city-bandar-e-emam-khomeini": {
+   "title": "Bandar-e Emam Khomeini",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 30.50583333,
+   "lon": 49.07416667
+  },
+  "city-baskale": {
+   "title": "Başkale",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 38.0475,
+   "lon": 44.015
+  },
+  "city-behshahr": {
+   "title": "Behshahr",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 36.69361111,
+   "lon": 53.55305556
+  },
+  "city-jisr-ash-shughur": {
+   "title": "Jisr ash-Shughur",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.81258531,
+   "lon": 36.31760531
+  },
+  "city-miandoab": {
+   "title": "Miandoab",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 36.96583333,
+   "lon": 46.10527778
+  },
+  "city-salihli": {
+   "title": "Salihli",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 38.48111111,
+   "lon": 28.13916667
+  },
+  "city-torbat-e-jam": {
+   "title": "Torbat-e Jam",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 35.24305556,
+   "lon": 60.625
+  },
+  "city-carsamba": {
+   "title": "Çarşamba",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 41.19916667,
+   "lon": 36.7275
+  },
+  "city-idil": {
+   "title": "İdil",
+   "monthlyViews": 335,
+   "days": 60,
+   "lat": 37.341,
+   "lon": 41.894
+  },
+  "city-abhar": {
+   "title": "Abhar",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 36.14638889,
+   "lon": 49.2225
+  },
+  "city-afsin": {
+   "title": "Afşin",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 38.24638889,
+   "lon": 36.91861111
+  },
+  "city-andimeshk": {
+   "title": "Andimeshk",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 32.47138889,
+   "lon": 48.34888889
+  },
+  "city-asadabad": {
+   "title": "Asadabad, Iran",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 34.7825,
+   "lon": 48.12194444
+  },
+  "city-darab": {
+   "title": "Darab",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 28.75527778,
+   "lon": 54.55333333
+  },
+  "city-gonen": {
+   "title": "Gönen",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 40.10833333,
+   "lon": 27.65083333
+  },
+  "city-karacabey": {
+   "title": "Karacabey",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 40.21666667,
+   "lon": 28.35
+  },
+  "city-korkuteli": {
+   "title": "Korkuteli",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.06666667,
+   "lon": 30.2
+  },
+  "city-kumluca": {
+   "title": "Kumluca",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 36.36666667,
+   "lon": 30.28333333
+  },
+  "city-nawa": {
+   "title": "Nawa, Daraa",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 32.88888889,
+   "lon": 36.04305556
+  },
+  "city-nizip": {
+   "title": "Nizip",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 37.01,
+   "lon": 37.79722222
+  },
+  "city-parsabad": {
+   "title": "Parsabad",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 39.64333333,
+   "lon": 47.91277778
+  },
+  "city-tabqa": {
+   "title": "Tabqa",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 35.83666667,
+   "lon": 38.54805556
+  },
+  "city-ahar": {
+   "title": "Ahar",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 38.47972222,
+   "lon": 47.06694444
+  },
+  "city-al-nabek": {
+   "title": "Al-Nabek",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.01666667,
+   "lon": 36.71666667
+  },
+  "city-baiji": {
+   "title": "Baiji (city)",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 34.92916667,
+   "lon": 43.49305556
+  },
+  "city-borazjan": {
+   "title": "Borazjan",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 29.26944444,
+   "lon": 51.22
+  },
+  "city-ceylanpinar": {
+   "title": "Ceylanpınar",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.84611111,
+   "lon": 40.04888889
+  },
+  "city-devrek": {
+   "title": "Devrek",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 41.22527778,
+   "lon": 31.96027778
+  },
+  "city-khan-shaykhun": {
+   "title": "Khan Shaykhun",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.43888889,
+   "lon": 36.65111111
+  },
+  "city-malkara": {
+   "title": "Malkara",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 40.89333333,
+   "lon": 26.90416667
+  },
+  "city-parand": {
+   "title": "Parand",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.47916667,
+   "lon": 50.94222222
+  },
+  "city-patnos": {
+   "title": "Patnos",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 39.23583333,
+   "lon": 42.86861111
+  },
+  "city-qods": {
+   "title": "Qods, Iran",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.71027778,
+   "lon": 51.11305556
+  },
+  "city-saham": {
+   "title": "Saham",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 24.17222222,
+   "lon": 56.88861111
+  },
+  "city-shahr-e-babak": {
+   "title": "Shahr-e Babak",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 30.12138889,
+   "lon": 55.12277778
+  },
+  "city-simele": {
+   "title": "Simele",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 36.85833333,
+   "lon": 42.85
+  },
+  "city-susangerd": {
+   "title": "Susangerd",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 31.55694444,
+   "lon": 48.18944444
+  },
+  "city-torbat-e-heydarieh": {
+   "title": "Torbat-e Heydarieh",
+   "monthlyViews": 274,
+   "days": 60,
+   "lat": 35.28722222,
+   "lon": 59.22194444
+  },
+  "city-al-shihr": {
+   "title": "Al-Shihr",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 14.76083333,
+   "lon": 49.60694444
+  },
+  "city-bonab": {
+   "title": "Bonab",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.33833333,
+   "lon": 46.05388889
+  },
+  "city-cihanbeyli": {
+   "title": "Cihanbeyli",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 38.65805556,
+   "lon": 32.92805556
+  },
+  "city-erdemli": {
+   "title": "Erdemli",
+   "monthlyViews": 244,
+   "days": 59,
+   "lat": 36.60555556,
+   "lon": 34.31111111
+  },
+  "city-kahta": {
+   "title": "Kâhta",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.78027778,
+   "lon": 38.62166667
+  },
+  "city-kandira": {
+   "title": "Kandıra",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 41.07222222,
+   "lon": 30.16111111
+  },
+  "city-kangavar": {
+   "title": "Kangavar",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.50416667,
+   "lon": 47.95972222
+  },
+  "city-kapakli": {
+   "title": "Kapaklı",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 41.33333333,
+   "lon": 27.96666667
+  },
+  "city-kirikhan": {
+   "title": "Kırıkhan",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.4975,
+   "lon": 36.36083333
+  },
+  "city-langarud": {
+   "title": "Langarud",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 37.19111111,
+   "lon": 50.15555556
+  },
+  "city-meshginshahr": {
+   "title": "Meshginshahr",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 38.39055556,
+   "lon": 47.67416667
+  },
+  "city-meybod": {
+   "title": "Meybod",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 32.24555556,
+   "lon": 54.01527778
+  },
+  "city-omidiyeh": {
+   "title": "Omidiyeh",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 30.75833333,
+   "lon": 49.705
+  },
+  "city-saray": {
+   "title": "Saray, Tekirdağ",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 41.4411,
+   "lon": 27.9216
+  },
+  "city-soma": {
+   "title": "Soma, Manisa",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 39.18833333,
+   "lon": 27.60888889
+  },
+  "city-takestan": {
+   "title": "Takestan",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.06722222,
+   "lon": 49.69583333
+  },
+  "city-tuyserkan": {
+   "title": "Tuyserkan",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 34.55277778,
+   "lon": 48.44166667
+  },
+  "city-abadeh": {
+   "title": "Abadeh",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 31.16277778,
+   "lon": 52.64833333
+  },
+  "city-al-tall": {
+   "title": "Al-Tall, Syria",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 33.6,
+   "lon": 36.3
+  },
+  "city-develi": {
+   "title": "Develi",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 38.38861111,
+   "lon": 35.4925
+  },
+  "city-eslamabad-e-gharb": {
+   "title": "Eslamabad-e Gharb",
+   "monthlyViews": 213,
+   "days": 59,
+   "lat": 34.11027778,
+   "lon": 46.5275
+  },
+  "city-fardis": {
+   "title": "Fardis",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.73083333,
+   "lon": 50.98194444
+  },
+  "city-talesh": {
+   "title": "Tālesh",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.7975,
+   "lon": 48.90416667
+  },
+  "city-kadirli": {
+   "title": "Kadirli",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.36972222,
+   "lon": 36.1
+  },
+  "city-khash": {
+   "title": "Khash, Iran",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 28.22,
+   "lon": 61.21138889
+  },
+  "city-pakdasht": {
+   "title": "Pakdasht",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 35.48277778,
+   "lon": 51.68138889
+  },
+  "city-shahinshahr": {
+   "title": "Shahinshahr",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 32.86055556,
+   "lon": 51.55305556
+  },
+  "city-simav": {
+   "title": "Simav",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 39.08333333,
+   "lon": 28.98333333
+  },
+  "city-islahiye": {
+   "title": "İslahiye",
+   "monthlyViews": 213,
+   "days": 60,
+   "lat": 37.025,
+   "lon": 36.6345
+  },
+  "city-aligudarz": {
+   "title": "Aligudarz",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 33.4025,
+   "lon": 49.69027778
+  },
+  "city-andisheh": {
+   "title": "Andisheh",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.70444444,
+   "lon": 51.02555556
+  },
+  "city-besni": {
+   "title": "Besni",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.69416667,
+   "lon": 37.86138889
+  },
+  "city-bismil": {
+   "title": "Bismil",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.84666667,
+   "lon": 40.66611111
+  },
+  "city-borujen": {
+   "title": "Borujen",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 31.97194444,
+   "lon": 51.29166667
+  },
+  "city-bozuyuk": {
+   "title": "Bozüyük",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.90777778,
+   "lon": 30.03666667
+  },
+  "city-derik": {
+   "title": "Derik, Turkey",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.36583333,
+   "lon": 40.26972222
+  },
+  "city-dorud": {
+   "title": "Dorud",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 33.49944444,
+   "lon": 49.05305556
+  },
+  "city-esfarayen": {
+   "title": "Esfarayen",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.07055556,
+   "lon": 57.50555556
+  },
+  "city-hashtgerd": {
+   "title": "Hashtgerd",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.96277778,
+   "lon": 50.67944444
+  },
+  "city-javanrud": {
+   "title": "Javanrud",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.80777778,
+   "lon": 46.49388889
+  },
+  "city-khomeynishahr": {
+   "title": "Khomeynishahr",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 32.68027778,
+   "lon": 51.53611111
+  },
+  "city-kuhdasht": {
+   "title": "Kuhdasht",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 33.52944444,
+   "lon": 47.60916667
+  },
+  "city-korfez": {
+   "title": "Körfez",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.78333333,
+   "lon": 29.73333333
+  },
+  "city-malard": {
+   "title": "Malard",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.68055556,
+   "lon": 50.97833333
+  },
+  "city-mut": {
+   "title": "Mut, Mersin",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 36.64583333,
+   "lon": 33.4375
+  },
+  "city-robat-karim": {
+   "title": "Robat Karim",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 35.48194444,
+   "lon": 51.08083333
+  },
+  "city-sadra": {
+   "title": "Sadra, Fars",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 29.8069,
+   "lon": 52.5036
+  },
+  "city-seydisehir": {
+   "title": "Seydişehir",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.41833333,
+   "lon": 31.85055556
+  },
+  "city-shirvan-iran": {
+   "title": "Shirvan, Iran",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.40194444,
+   "lon": 57.92805556
+  },
+  "city-taybad": {
+   "title": "Taybad",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 34.74083333,
+   "lon": 60.77916667
+  },
+  "city-turhal": {
+   "title": "Turhal",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.39,
+   "lon": 36.09
+  },
+  "city-vezirkopru": {
+   "title": "Vezirköprü",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 41.14305556,
+   "lon": 35.46
+  },
+  "city-caldiran": {
+   "title": "Çaldıran, Van",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 39.14194444,
+   "lon": 43.91388889
+  },
+  "city-cermik": {
+   "title": "Çermik",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.13722222,
+   "lon": 39.45111111
+  },
+  "city-civril": {
+   "title": "Çivril",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 38.30138889,
+   "lon": 29.73861111
+  },
+  "city-al-hajar-al-aswad": {
+   "title": "Al-Hajar al-Aswad",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 33.46402778,
+   "lon": 36.30444444
+  },
+  "city-as-safira": {
+   "title": "As-Safira",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.07777778,
+   "lon": 37.37333333
+  },
+  "city-aliabad-e-katul": {
+   "title": "Aliabad-e Katul",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.9075,
+   "lon": 54.86666667
+  },
+  "city-bandar-kangan": {
+   "title": "Bandar Kangan",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 27.83916667,
+   "lon": 52.06083333
+  },
+  "city-bozova": {
+   "title": "Bozova",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 37.36277778,
+   "lon": 38.52555556
+  },
+  "city-fuladshahr": {
+   "title": "Fuladshahr",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 32.48694444,
+   "lon": 51.39972222
+  },
+  "city-hassa": {
+   "title": "Hassa, Hatay",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.79944444,
+   "lon": 36.51777778
+  },
+  "city-ilgin": {
+   "title": "Ilgın",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 38.27916667,
+   "lon": 31.91388889
+  },
+  "city-kurtalan": {
+   "title": "Kurtalan",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 37.92611111,
+   "lon": 41.70027778
+  },
+  "city-neka": {
+   "title": "Neka",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 36.65,
+   "lon": 53.29722222
+  },
+  "city-orhangazi": {
+   "title": "Orhangazi",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 40.48888889,
+   "lon": 29.30833333
+  },
+  "city-qarchak": {
+   "title": "Qarchak",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.42666667,
+   "lon": 51.58416667
+  },
+  "city-qorveh": {
+   "title": "Qorveh",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 35.16777778,
+   "lon": 47.80083333
+  },
+  "city-sorgun": {
+   "title": "Sorgun, Yozgat",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 39.81444444,
+   "lon": 35.19027778
+  },
+  "city-tavsanli": {
+   "title": "Tavşanlı",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 39.53333333,
+   "lon": 29.48333333
+  },
+  "city-cumra": {
+   "title": "Çumra",
+   "monthlyViews": 152,
+   "days": 60,
+   "lat": 37.575,
+   "lon": 32.77472222
+  },
+  "city-acipayam": {
+   "title": "Acıpayam",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.425,
+   "lon": 29.35388889
+  },
+  "city-arbin": {
+   "title": "Arbin, Syria",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-aydoun": {
+   "title": "Aydoun",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 32.51027778,
+   "lon": 35.85444444
+  },
+  "city-balad-ruz": {
+   "title": "Balad Ruz",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 33.7,
+   "lon": 45.08333333
+  },
+  "city-bulancak": {
+   "title": "Bulancak",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 40.93333333,
+   "lon": 38.23333333
+  },
+  "city-bulanik": {
+   "title": "Bulanık",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 39.095,
+   "lon": 42.26666667
+  },
+  "city-chenaran": {
+   "title": "Chenaran",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 36.64055556,
+   "lon": 59.11861111
+  },
+  "city-dehdasht": {
+   "title": "Dehdasht",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 30.79638889,
+   "lon": 50.56583333
+  },
+  "city-dogonbadan": {
+   "title": "Dogonbadan",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 30.36,
+   "lon": 50.78388889
+  },
+  "city-kahnuj": {
+   "title": "Kahnuj",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 27.94055556,
+   "lon": 57.69916667
+  },
+  "city-kamyaran": {
+   "title": "Kamyaran",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 34.79527778,
+   "lon": 46.93666667
+  },
+  "city-kozluk": {
+   "title": "Kozluk",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.19444444,
+   "lon": 41.49111111
+  },
+  "city-nazarabad": {
+   "title": "Nazarabad",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 35.95611111,
+   "lon": 50.60444444
+  },
+  "city-sandikli": {
+   "title": "Sandıklı",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.46555556,
+   "lon": 30.27
+  },
+  "city-ozalp": {
+   "title": "Özalp, Van",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 38.65833333,
+   "lon": 43.98944444
+  },
+  "city-abyek": {
+   "title": "Abyek",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 36.04083333,
+   "lon": 50.53055556
+  },
+  "city-al-hay": {
+   "title": "Al-Hay",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 32.16666667,
+   "lon": 46.05
+  },
+  "city-aran-and-bidgol": {
+   "title": "Aran and Bidgol",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 34.05888889,
+   "lon": 51.48166667
+  },
+  "city-baharestan": {
+   "title": "Baharestan, Isfahan",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 32.48666667,
+   "lon": 51.78083333
+  },
+  "city-da-el": {
+   "title": "Da'el",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 32.75388889,
+   "lon": 36.13
+  },
+  "city-kamal-shahr": {
+   "title": "Kamal Shahr",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 35.86583333,
+   "lon": 50.87166667
+  },
+  "city-mohammadshahr": {
+   "title": "Mohammadshahr",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 35.75333333,
+   "lon": 50.90138889
+  },
+  "city-nasimshahr": {
+   "title": "Nasimshahr",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 35.56166667,
+   "lon": 51.16166667
+  },
+  "city-sahand": {
+   "title": "Sahand, Iran",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 37.945,
+   "lon": 46.11361111
+  },
+  "city-saruhanli": {
+   "title": "Saruhanlı",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 38.73416667,
+   "lon": 27.56583333
+  },
+  "city-sayyan": {
+   "title": "Sayyan",
+   "monthlyViews": 91,
+   "days": 59,
+   "lat": 15.16666667,
+   "lon": 44.31666667
+  },
+  "city-turkoglu": {
+   "title": "Türkoğlu",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 37.39138889,
+   "lon": 36.85222222
+  },
+  "city-zarand": {
+   "title": "Zarand, Iran",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 30.81083333,
+   "lon": 56.56583333
+  },
+  "city-caycuma": {
+   "title": "Çaycuma",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 41.42666667,
+   "lon": 32.07583333
+  },
+  "city-cinar": {
+   "title": "Çınar, Diyarbakır",
+   "monthlyViews": 91,
+   "days": 60,
+   "lat": 37.72416667,
+   "lon": 40.415
+  },
+  "city-balkh": {
+   "title": "Balkh",
+   "monthlyViews": 8767,
+   "days": 60,
+   "lat": 36.75805556,
+   "lon": 66.89805556
+  },
+  "city-baghlan": {
+   "title": "Baghlan",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 36.13277778,
+   "lon": 68.7
+  },
+  "city-tarinkot": {
+   "title": "Tarinkot",
+   "monthlyViews": 609,
+   "days": 60,
+   "lat": 32.62666667,
+   "lon": 65.87333333
+  },
+  "city-sar-e-pol": {
+   "title": "Sar-e-Pol, Afghanistan",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 36.22138889,
+   "lon": 65.92777778
+  },
+  "city-jezkazgan": {
+   "title": "Jezkazgan",
+   "monthlyViews": 974,
+   "days": 60,
+   "lat": 47.78333333,
+   "lon": 67.7
+  },
+  "city-balkhash": {
+   "title": "Balkhash (city)",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 46.84805556,
+   "lon": 74.995
+  },
+  "city-zhanaozen": {
+   "title": "Zhanaozen",
+   "monthlyViews": 578,
+   "days": 60,
+   "lat": 43.33777778,
+   "lon": 52.85527778
+  },
+  "city-olmaliq": {
+   "title": "Olmaliq",
+   "monthlyViews": 548,
+   "days": 60,
+   "lat": 40.85,
+   "lon": 69.6
+  },
+  "city-qonayev": {
+   "title": "Qonayev",
+   "monthlyViews": 517,
+   "days": 60,
+   "lat": 43.88333333,
+   "lon": 77.08333333
+  },
+  "city-tejen": {
+   "title": "Tejen",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": 37.38333333,
+   "lon": 60.5
+  },
+  "city-angren": {
+   "title": "Angren, Uzbekistan",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 41.01666667,
+   "lon": 70.14361111
+  },
+  "city-bayramaly": {
+   "title": "Baýramaly",
+   "monthlyViews": 365,
+   "days": 60,
+   "lat": 37.6167,
+   "lon": 62.15
+  },
+  "city-bekabad": {
+   "title": "Bekabad",
+   "monthlyViews": 304,
+   "days": 60,
+   "lat": 40.21666667,
+   "lon": 69.21666667
+  },
+  "city-satbayev": {
+   "title": "Satbayev (city)",
+   "monthlyViews": 244,
+   "days": 60,
+   "lat": 47.9,
+   "lon": 67.53333333
+  },
+  "city-konibodom": {
+   "title": "Konibodom",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.28333333,
+   "lon": 70.41666667
+  },
+  "city-magdanly": {
+   "title": "Magdanly",
+   "monthlyViews": 122,
+   "days": 60,
+   "lat": 37.80666667,
+   "lon": 66.05666667
+  },
+  "city-sukhumi": {
+   "title": "Sukhumi",
+   "monthlyViews": 9954,
+   "days": 60,
+   "lat": 43.0036,
+   "lon": 41.0192
+  },
+  "city-hrazdan": {
+   "title": "Hrazdan",
+   "monthlyViews": 791,
+   "days": 60,
+   "lat": 40.5,
+   "lon": 44.76666667
+  },
+  "city-yevlakh": {
+   "title": "Yevlakh",
+   "monthlyViews": 457,
+   "days": 60,
+   "lat": 40.61722222,
+   "lon": 47.15
+  },
+  "city-shirvan-azerbaijan": {
+   "title": "Şirvan, Azerbaijan",
+   "monthlyViews": 426,
+   "days": 60,
+   "lat": null,
+   "lon": null
+  },
+  "city-khirdalan": {
+   "title": "Khirdalan",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 40.44861111,
+   "lon": 49.75638889
+  },
+  "city-north-nicosia": {
+   "title": "North Nicosia",
+   "monthlyViews": 4870,
+   "days": 60,
+   "lat": 35.19,
+   "lon": 33.36361111
+  },
+  "city-strovolos": {
+   "title": "Strovolos",
+   "monthlyViews": 944,
+   "days": 60,
+   "lat": 35.14400155,
+   "lon": 33.34357103
+  },
+  "city-bor-nigde": {
+   "title": "Bor, Niğde",
+   "monthlyViews": 183,
+   "days": 60,
+   "lat": 37.89638889,
+   "lon": 34.56277778
   },
   "lake-caspian-sea": {
    "title": "Caspian Sea",
